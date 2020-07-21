@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-[instalando](https://github.com/myerco/unreal-engine/blob/master/Instalando.mkd) 
+[instalando](https://github.com/myerco/unreal-engine/blob/master/doc/Instalando.mkd) 
 
 You can use the [editor on GitHub](https://github.com/myerco/unreal-engine/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
