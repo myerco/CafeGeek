@@ -1,5 +1,6 @@
 ### Básico
-1. [Instalando e configurando o projeto](https://myerco.github.io/unreal-engine/instalando)
+1. [Instalando e configurando o projeto](https://myerco.github.io/unreal-engine/instalando.html)
+1. [Git Hub](https://myerco.github.io/unreal-engine/github.html)
 
 1. Preparando o projeto
   1. Pastas de trabalho e nomenclatura
