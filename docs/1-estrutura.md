@@ -1,6 +1,7 @@
 ### Básico
-1. [Instalando e configurando o projeto](https://myerco.github.io/unreal-engine/2-instalando.html)
-1. [Git Hub](https://myerco.github.io/unreal-engine/3-github.html)
+1. [Instalando](https://myerco.github.io/unreal-engine/modulo1/1-instalando.html)
+1. [Organizando](https://myerco.github.io/unreal-engine/modulo1/2-organizando.html)
+1. [Git Hub](https://myerco.github.io/unreal-engine/modulo1/3-github.html)
 1. [Inteligência Artificial](https://myerco.github.io/unreal-engine/4-inteligenciaArtificial.html)
 1. [Animação](https://myerco.github.io/unreal-engine/5-animacao.html)
 
