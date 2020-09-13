@@ -1,6 +1,3 @@
-### Apresentação
-![MDA](https://myerco.github.io/unreal-engine/imagens/MDA.png)
-
 ### Introdução
   1. [Instalando](https://myerco.github.io/unreal-engine/modulo1/1-instalando.html)
   1. [Organizando](https://myerco.github.io/unreal-engine/modulo1/2-organizando.html)
@@ -29,7 +26,7 @@
   1. Variável Pública e Privada
   1. Operadores (Subtração, soma e divisão)
   1. Manipulação de String
-1. Estruturas de controle 
+1. Estruturas de controle
   1. Branch (if)
   1. Sequence
   1. For Loop
