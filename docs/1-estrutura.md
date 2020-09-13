@@ -7,10 +7,10 @@
   1. Configurando a pasta de mapas
   1. Entendendo a lógica
 1. Interface e Editores  
-    1. Editor de level
-    1. Editor *Viewports*
-    1. Customização
-    1. Play e *Simulate*
+  1. Editor de level
+  1. Editor *Viewports*
+  1. Customização
+  1. Play e *Simulate*
 1. Blueprint  
     1. Introdução ao *Blueprints Visual Scripting*
     1. Level Blueprint
