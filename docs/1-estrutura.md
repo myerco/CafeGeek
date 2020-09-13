@@ -1,20 +1,20 @@
 ### Apresentação
-  1. [MDA](https://myerco.github.io/unreal-engine/imagens/MDA.png)
+![MDA](https://myerco.github.io/unreal-engine/imagens/MDA.png)
 
 ### Introdução
   1. [Instalando](https://myerco.github.io/unreal-engine/modulo1/1-instalando.html)
   1. [Organizando](https://myerco.github.io/unreal-engine/modulo1/2-organizando.html)
-  1. Preparando o projeto
+  1. Preparando o projeto  
     1. Pastas de trabalho e nomenclatura
     1. Configurando o ícone do projeto
     1. Configurando a pasta de mapas
     1. Entendo a lógica
-  1. Interface e Editores
+  1. Interface e Editores  
     1. Editor de level
     1. Editor *Viewports*
     1. Customização
     1. Play e *Simulate*
-  1. Blueprint
+  1. Blueprint  
     1. Introdução ao *Blueprints Visual Scripting*
     1. Level Blueprint
     1. Blueprint de actor
@@ -27,9 +27,9 @@
   1. Integer e Float
   1. Boolean
   1. Variável Pública e Privada
-  1. Operadores (Subtração, soma e divisão);
-  1. Manipulação de String;
-1. Estruturas de controle
+  1. Operadores (Subtração, soma e divisão)
+  1. Manipulação de String
+1. Estruturas de controle 
   1. Branch (if)
   1. Sequence
   1. For Loop
