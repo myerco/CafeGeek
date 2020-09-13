@@ -2,10 +2,10 @@
 1. [Instalando](https://myerco.github.io/unreal-engine/modulo1/1-instalando.html)
 1. [Organizando](https://myerco.github.io/unreal-engine/modulo1/2-organizando.html)
 1. Preparando o projeto  
-    1. Pastas de trabalho e nomenclatura
-    1. Configurando o ícone do projeto
-    1. Configurando a pasta de mapas
-    1. Entendendo a lógica
+  1. Pastas de trabalho e nomenclatura
+  1. Configurando o ícone do projeto
+  1. Configurando a pasta de mapas
+  1. Entendendo a lógica
 1. Interface e Editores  
     1. Editor de level
     1. Editor *Viewports*
