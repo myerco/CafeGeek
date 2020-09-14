@@ -17,6 +17,7 @@
    1. Blueprint de actor
    1. Utilizando o level Blueprint para escrever   mensagens na tela   
 ***
+
 ### Desenvolvimento     
 1. Variáveis e seus operadores  
    1. Métodos GET e SET
