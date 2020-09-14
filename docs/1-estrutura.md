@@ -7,34 +7,34 @@
    1. Configurando a pasta de mapas
    1. Entendendo a lógica
 1. Interface e Editores  
-  1. Editor de level
-  1. Editor *Viewports*
-  1. Customização
-  1. Play e *Simulate*
+   1. Editor de level
+   1. Editor *Viewports*
+   1. Customização
+   1. Play e *Simulate*
 1. Blueprint  
-    1. Introdução ao *Blueprints Visual Scripting*
-    1. Level Blueprint
-    1. Blueprint de actor
-    1. Utilizando o level Blueprint para escrever   mensagens na tela   
-
+   1. Introdução ao *Blueprints Visual Scripting*
+   1. Level Blueprint
+   1. Blueprint de actor
+   1. Utilizando o level Blueprint para escrever   mensagens na tela   
+***
 ### Desenvolvimento     
 1. Variáveis e seus operadores  
-    1. Métodos GET e SET
-    1. String e Text
-    1. Integer e Float
-    1. Boolean
-    1. Variável Pública e Privada
-    1. Operadores (Subtração, soma e divisão)
-    1. Manipulação de String
+   1. Métodos GET e SET
+   1. String e Text
+   1. Integer e Float
+   1. Boolean
+   1. Variável Pública e Privada
+   1. Operadores (Subtração, soma e divisão)
+   1. Manipulação de String
 1. Estruturas de controle  
-    1. Branch (if)
-    1. Sequence
-    1. For Loop
-    1. While Loop
-    1. Do N
-    1. Do once
-    1. Flip Flop
-    1. Gate e Multi Gate
+   1. Branch (if)
+   1. Sequence
+   1. For Loop
+   1. While Loop
+   1. Do N
+   1. Do once
+   1. Flip Flop
+   1. Gate e Multi Gate
 1. Arrays ou Vetores  
     1. Conceito e implementação
     1. Método Get para arrays
@@ -63,7 +63,7 @@
     1. Vetores
     1. Distância, Direção e movimentação
     1. Ajustando o Delta Time   
-
+***
 ### Level Designer  
 1. Menu - User interface  
     1. Implementando menu
@@ -84,7 +84,7 @@
     1. Material instance e Material Functions
     1. WorldMachine
     1. Level Persistente
-
+***
 ### Animação  
 1. Animação  
     1. Interação de objetos
@@ -93,7 +93,7 @@
     1. Movimentação e interação
     1. Movimentação de personagem
     1. [Animação](https://myerco.github.io/unreal-engine/5-animacao.html)
-
+***
 ### Multiplayer e IA  
 1. Multiplayer  
     1. Estrutura do jogo para rede;
@@ -106,11 +106,11 @@
     1. Blackboard;
     1. Nos e tarefas;
     1. Decorators e Services;
-
+***
 ### Efeitos especiais e Cinemática  
 1. Sequencer  
 1. Niagara
-
+***
 ### Game Designer
 1. O Projeto
 1. Organização de Tarefas
