@@ -1,4 +1,6 @@
-## Desenvolvimento de jogos utilizando Unreal Engine 4
+![MDA](https://myerco.github.io/unreal-engine/imagens/cafegeek.png)
+
+# Desenvolvimento de jogos utilizando Unreal Engine 4
 ![MDA](https://myerco.github.io/unreal-engine/imagens/MDA.png)
 
 ### Habilidades que serão aprendidas  
