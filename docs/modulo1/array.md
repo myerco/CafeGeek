@@ -10,7 +10,7 @@ a = ( 5.1,2.9,7.0,3.121,9.43)
 Números *String*  
 s = ( 'Ana','José','Hugo','Hulda')
 
-- Podemos representar os arrays da seguinte forma:
+- Podemos representar os arrays da seguinte forma:  
 |   |   |   |   |   |
 |---|---|---|---|---|
 |valor   |'Ana'   |'José'   |'Hugo'   |'Hulda'   |
@@ -33,16 +33,20 @@ Para acessar qualquer elemento dentro *array* é necessários utilizar o índice
 
 Em c++ para Unreal Engine
 ```c++
-UE_LOG(LogTemp, Warning, TEXT("O nome é "+pessoa[0]));
+FString s = pessoa[0];
+UE_LOG(LogTemp, Warning, TEXT("O nome é %s",*s);
 // Esecreve "Ana"
 ```
 Em c++
 ```c++
 cout << pessoa[0];
 ```
-Em Blueprints
-- Get
+
+- Get  
+Blueprints
 ![Declarando array](../imagens/bp_array_2.png)
+```c++
+```
 
 - Get utilizando uma variável como índice
 ![Declarando array](../imagens/bp_array_3.png)
@@ -55,6 +59,18 @@ Em Blueprints
 
 - Listando todos os elementos utilizando *for*
 ![Declarando array](../imagens/bp_array_6.png)
+
+![Declarando array](../imagens/bp_array_7.png)
+
+![Declarando array](../imagens/bp_array_8.png)
+
+![Declarando array](../imagens/bp_array_9.png)
+
+![Declarando array](../imagens/bp_array_10.png)
+
+![Declarando array](../imagens/bp_array_11.png)
+
+![Declarando array](../imagens/bp_array_12.png)
 
 1. Adicionando e removendo elementos
 1. Procurando elementos
