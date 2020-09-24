@@ -10,11 +10,17 @@ a = ( 5.1,2.9,7.0,3.121,9.43)
 Números *String*  
 s = ( 'Ana','José','Hugo','Hulda')
 
-- Podemos representar os arrays da seguinte forma:  
-|   |   |   |   |   |
-|---|---|---|---|---|
-|valor   |'Ana'   |'José'   |'Hugo'   |'Hulda'   |
-|  índice |  0 | 1  | 2  | 3  |
+- Podemos representar os arrays da seguinte forma:
+ 
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+
+|valor|'Ana'   |'José' |'Hugo'   |'Hulda'|
+|índice|  0 | 1  | 2  | 3  |
 
 Em c++ para Unreal Engine
 
