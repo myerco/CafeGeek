@@ -1,6 +1,6 @@
 [Home](https://myerco.github.io/unreal-engine) / [Estrutura](https://myerco.github.io/unreal-engine/1-estrutura.html)
 # Manipulando Arrays
-### Dificuldade :
+### Dificuldade :  
 |  |   |   |    |   |
 |---|---|---|---|---|
 | 1 | **2**  | 3  | 4   | 5  |
@@ -33,7 +33,7 @@ a = ( 5.1,2.9,7.0,3.121,9.43)
 Números *String*  
 s = ( 'Ana','José','Hugo','Hulda')
 
-- Podemos representar os arrays da seguinte forma:
+- Podemos representar os arrays da seguinte forma:  
 | s |  s[0] |s[1]   |s[2]    | s[3]  |
 |---|---|---|---|---|
 |**Valor**|Ana|José|Hugo|Hulda|
