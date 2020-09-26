@@ -1,5 +1,5 @@
 ![Titulo](https://docs.google.com/drawings/d/e/2PACX-1vQ1Hn1YDYa_ZliOtpjdxVv9CZDOT5-WMhGqGUMR4hYoGKBaVpjLDvgXsHKQ0WdEaeiYVR1PVdQBXdeH/pub?w=958&h=540)
-### Dificuldade : **Nível 5**   
+### Dificuldade : **Nível 3**   
 
 Neste projeto serão apresentados os elementos necessários para a construção de
 simulação de comportamentos, como por exemplo, busca e detecção de jogadores bem como configurar o personagem controlado pela IA em diferentes estados de comportamento.

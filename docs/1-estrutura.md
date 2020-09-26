@@ -20,30 +20,9 @@
 ***
 
 ### Desenvolvimento     
-1. Variáveis e seus operadores  
-   1. Métodos GET e SET;
-   1. String e Text;
-   1. Integer e Float;
-   1. Boolean;
-   1. Variável Pública e Privada;
-   1. Operadores (Subtração, soma e divisão);
-   1. Manipulação de String;
-1. Estruturas de controle  
-   1. Branch (if);
-   1. Sequence;
-   1. For Loop;
-   1. While Loop;
-   1. Do N;
-   1. Do once;
-   1. Flip Flop;
-   1. Gate e Multi Gate;
-1. [Arrays ou Vetores](https://myerco.github.io/unreal-engine/modulo1/array.html)  
-    1. Conceito e implementação;
-    1. Método Get para arrays;
-    1. Adicionando e removendo elementos;
-    1. Procurando elementos;
-    1. Tamanho do array;
-    1. Limpando e acrescentando no array;
+1. [Variáveis e seus operadores](https://myerco.github.io/unreal-engine/modulo1/variaveis.html)  
+1. [Estruturas de controle](https://myerco.github.io/unreal-engine/modulo1/estruturascontrole.html)
+1. [Manipulando Arrays](https://myerco.github.io/unreal-engine/modulo1/array.html)  
 1. Enums  
 1. Classes  
     1. Atores;
@@ -108,8 +87,8 @@
     1. Criando sessões;
     1. Conectando com sessões;
     1. Conectando ponto a ponto;
-1. IA (Inteligência artificial)  
-    1. [Inteligência Artificial](https://myerco.github.io/unreal-engine/4-inteligenciaArtificial.html)
+### Inteligência Artificial    
+1. [Inteligência Artificial](https://myerco.github.io/unreal-engine/4-inteligenciaArtificial.html)
     1. Árvore de comportamento;
     1. Blackboard;
     1. Nos e tarefas;
