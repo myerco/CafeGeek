@@ -1,32 +1,23 @@
 ### Introdução
 1. [Instalando](https://myerco.github.io/unreal-engine/modulo1/1-instalando.html)
 1. [Organizando](https://myerco.github.io/unreal-engine/modulo1/2-organizando.html)
-1. Preparando o projeto  
-   1. Pastas de trabalho e nomenclatura;
-   1. Configurando o ícone do projeto;
-   1. Configurando a pasta de mapas;
-   1. Entendendo a lógica;
+1. [Versionando](https://myerco.github.io/unreal-engine/modulo1/3-github.html)
 1. Interface e Editores  
    1. Editor de level;
    1. Editor *Viewports*;
    1. Customização;
    1. Play e *Simulate*;
-1. Blueprint  
-   1. Introdução ao *Blueprints Visual Scripting*;
-   1. Level Blueprint;
-   1. Blueprint de actor;
-   1. Utilizando o level Blueprint para escrever   mensagens na tela;
-
+1. [Versionando](https://myerco.github.io/unreal-engine/modulo1/blueprint.html)
 ***
 
 ### Desenvolvimento     
 1. [Variáveis e seus operadores](https://myerco.github.io/unreal-engine/modulo1/variaveis.html)  
 1. [Estruturas de controle](https://myerco.github.io/unreal-engine/modulo1/estruturascontrole.html)
 1. [Manipulando Arrays](https://myerco.github.io/unreal-engine/modulo1/array.html)  
-1. Enums  
+1. [Enums](https://myerco.github.io/unreal-engine/modulo1/enum.html)    
 1. Estrutura de controles
   1. Game Controller
-  1. Game Game Mode 
+  1. Game Game Mode
   1. User Interface
 1. Classes  
     1. Atores;

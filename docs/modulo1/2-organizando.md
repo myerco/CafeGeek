@@ -1,59 +1,33 @@
-## Organizando o projeto
-### Dificuldade : **Nível 1**
+[Home](https://myerco.github.io/unreal-engine) / [Estrutura](https://myerco.github.io/unreal-engine/1-estrutura.html)
 
-Neste capitulo vamos configurar o projeto do *Unreal Engine* e alguns elementos da interface
+# Organizando o projeto
+Neste capitulo vamos organizar o projeto do *ProjetoAula* e alguns elementos da interface.
+1. Criando pastas de trabalho
+1. Level e Inicialização
+1. Preparando o projeto  
+1. Pastas de trabalho e nomenclatura;
+1. Configurando o ícone do projeto;
+1. Configurando a pasta de mapas;
 
-### Pastas
-![Teste](https://myerco.github.io/unreal-engine/imagens/animacao.png)
+### 1. Criando pastas de trabalho
+- Na aba *Content Browser* utilizando botão direito do mouse clique em *New Folder* e crie as seguintes pastas:
+ 1. Assets
+ 1. Bluprints
+ 1. Maps
 
-### Inicialização
-1.
+### 2. *Level* e Inicialização
+- Salve o *level* atual na pasta Maps *File->Save Current* com o nome LevelTest
+- Inicializando o projeto utilizando o LevelTest
+	- Edit->Project Settings
+	- Maps & Modes
+	- Edit Startup Level : LevelTest
+	- Game default Map : LevelTest  
 
-### Área de trabalho
+![](../imagens/projeto5.png)
 
-Organizando pastas
-https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html
+### Referências
+[Directory Structure](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html)
+[Editor Preferences](https://docs.unrealengine.com/en-US/Engine/UI/index.html)
 
-1.
-
-#Teclas de atalho
-click mouse direito
-		+ a = esquerda
-		+ w = zoom +
-		+ s = zoom -
-		+ d  = direita
-click mouse direito
-		+ q = baixo
-		+ e = cima
-
-F = Zoom no objeto (foco)    
-
-# Transformação
-w - Localização
-E - Rotação
-R - Escala
-
-
-# Instruções de programação
-
-```
-levelopen
-
-
-void BeginPlay() {
-
- if ( a == b )
- a := 1;
-
- cout->'Alo mundo';
-
- for (i=0; i<=10; i++)
-  cout->'Contando';
-}  
-
-```
-
-# Blueprint
-
-1. Instruções em nos com uma conexão;
-1. Representam métodos, funções e propriedades;
+### Teclas de atalho
+[Controles de navegação](https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html)
