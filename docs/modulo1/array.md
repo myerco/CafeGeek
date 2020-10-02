@@ -28,12 +28,12 @@ Os tópicos apresentados :
 ## 1. Conceito e implementação
 - É um conjunto de variáveis do mesmo tipo agrupadas  
 Exemplo:  
-Números inteiros
+Números inteiros  
 a = ( 5,2,7,3,9)  
 Números *float*  
 a = ( 5.1,2.9,7.0,3.121,9.43)  
 Números *String*  
-s = ( 'Ana','José','Hugo','Hulda')
+s = ( "Ana","José","Hugo","Hulda")
 
 - Podemos representar os arrays da seguinte forma:
 
@@ -47,8 +47,8 @@ s = ( 'Ana','José','Hugo','Hulda')
 - Blueprints  
 ![Declarando array](../imagens/bp_array_1.png)
 - Em C++  
-```c++
-FString  pessoas[4] = { 'Ana','José','Hugo','Hulda'};
+```cpp
+FString  pessoas[4] = { "Ana","José","Hugo","Hulda"};
 int  pessoas[3] = { 4,3,7};
 ```
 ***
@@ -57,11 +57,12 @@ Para acessar qualquer elemento dentro *array* é necessários utilizar o índice
 
 - Blueprints  
 ![Declarando array](../imagens/bp_array_2.png)
-- Em c++  
+- Em C++  
 ```
 FString s = pessoa[0];
 UE_LOG(LogTemp, Warning, TEXT("O nome é %s",*s);
 ```  
+
 ***
 ## 4. Get utilizando uma variável como índice
 ![Declarando array](../imagens/bp_array_3.png)

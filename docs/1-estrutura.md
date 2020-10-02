@@ -24,6 +24,10 @@
 1. [Estruturas de controle](https://myerco.github.io/unreal-engine/modulo1/estruturascontrole.html)
 1. [Manipulando Arrays](https://myerco.github.io/unreal-engine/modulo1/array.html)  
 1. Enums  
+1. Estrutura de controles
+  1. Game Controller
+  1. Game Game Mode 
+  1. User Interface
 1. Classes  
     1. Atores;
     1. Atributos e eventos;
@@ -36,6 +40,7 @@
     1. Funções;
     1. Funções com parâmetros e saída;
     1. Macros;
+1. Movimentação do personagem    
 1. Tempo e espaço  
     1. Causando dano com *Set Timer By Event*;
     1. *Time Line*;
