@@ -31,7 +31,8 @@ enum cores = { vermelho,amarelo, azul, verde = 20, preto}
 ## 2. Criando
 1. No cabeçalho do arquivo adicione UENUM() para especificar, ou crie o arquivo EnumName.h.
 2. Utilize o código abaixo:
-```c++
+
+```
 #include "Status.generated.h"
 
 UENUM()
@@ -44,7 +45,25 @@ enum class Status
 ```
 1. Use o UENUM() na UCLASS()
 
-```c++
+```c
 UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
 TEnumAsByte<Status> status;
 ```
+
+![](../imagens/enum1.png)
+
+![](../imagens/enum2.png)
+
+![](../imagens/enum3.png)
+
+![](../imagens/enum4.png)
+
+![](../imagens/enum5.png)
+
+![](../imagens/enum6.png)
+
+![](../imagens/enum7.png)
+
+![](../imagens/enum8.png)
+
+![](../imagens/enum9.png)

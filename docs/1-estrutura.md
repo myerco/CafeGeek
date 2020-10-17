@@ -83,6 +83,8 @@
     1. Criando sessões;
     1. Conectando com sessões;
     1. Conectando ponto a ponto;
+    1. Instalar o Steamframework
+    1. VPN para compartilhamento de conexões
 ### Inteligência Artificial    
 1. [Inteligência Artificial](https://myerco.github.io/unreal-engine/4-inteligenciaArtificial.html)
     1. Árvore de comportamento;

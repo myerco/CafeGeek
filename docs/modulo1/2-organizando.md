@@ -11,9 +11,10 @@ Neste capitulo vamos organizar o projeto do *ProjetoAula* e alguns elementos da 
 
 ### 1. Criando pastas de trabalho
 - Na aba *Content Browser* utilizando botão direito do mouse clique em *New Folder* e crie as seguintes pastas:
- 1. Assets
- 1. Bluprints
- 1. Maps
+1. Assets
+1. Bluprints
+1. Maps
+![](../imagens/projeto7.png)
 
 ### 2. *Level* e Inicialização
 - Salve o *level* atual na pasta Maps *File->Save Current* com o nome LevelTest
@@ -28,6 +29,7 @@ Neste capitulo vamos organizar o projeto do *ProjetoAula* e alguns elementos da 
 ### Referências
 [Directory Structure](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html)
 [Editor Preferences](https://docs.unrealengine.com/en-US/Engine/UI/index.html)
+[Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md)
 
 ### Teclas de atalho
 [Controles de navegação](https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html)
