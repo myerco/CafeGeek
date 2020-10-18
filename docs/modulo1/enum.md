@@ -1,25 +1,7 @@
 [Home](https://myerco.github.io/unreal-engine) / [Estrutura](https://myerco.github.io/unreal-engine/1-estrutura.html)
 # Enums - Enumerarions
-### Dificuldade :
-
-|  |   |   |    |   |
-|---|---|---|---|---|
-| 1 | **2**  | 3  | 4   | 5  |
 
 Neste capitulo serão apresentados Enumerações (*Enumeration*)
-Os tópicos apresentados :
-1. Conceito e implementação;
-1. Declaração
-1. Método Get para arrays;
-1. Get utilizando uma variável como índice;
-1. Último índice e a quantidade de elementos do array;
-1. Removendo elementos;
-1. Listando todos os elementos utilizando for;
-1. Usando o comando *find*;
-1. Comando remove *index*
-1. Limpando o *clear*;
-1. Atualiza o *array* nome clássicos com dados do *array* de nome;
-1. Contando elementos dentro de um *array*;
 
 ***
 ## 1. Conceito e implementação
@@ -29,41 +11,29 @@ Exemplo:
 enum cores = { vermelho,amarelo, azul, verde = 20, preto}  
 
 ## 2. Criando
-1. No cabeçalho do arquivo adicione UENUM() para especificar, ou crie o arquivo EnumName.h.
-2. Utilize o código abaixo:
+![](../imagens/enum/enum6.png)
 
-```
-#include "Status.generated.h"
+![](../imagens/enum/enum5.png)
 
-UENUM()
-enum class Status
-{
-  Stopped     UMETA(DisplayName = "Stopped"),
-  Moving      UMETA(DisplayName = "Moving"),
-  Attacking   UMETA(DisplayName = "Attacking"),
-};
-```
-1. Use o UENUM() na UCLASS()
+## 3. Exemplos de uso (Lâmpada)
+1. Verificando o estado de uma lâmpda
+![](../imagens/enum/enum1.png)
 
-```c
-UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
-TEnumAsByte<Status> status;
-```
+1.  Ligando e desligando
+![](../imagens/enum/enum2.png)
 
-![](../imagens/enum1.png)
+1.  Verificando o estado utilizando o *enum*
+![](../imagens/enum/enum3.png)
 
-![](../imagens/enum2.png)
+1.  Ligando e desligando utilizando o *enum*
+![](../imagens/enum/enum4.png)
 
-![](../imagens/enum3.png)
+## 3. Exemplos de uso (A pedra e as emoções)
+1. Alterando o estado emocional da pedra
+![](../imagens/enum/enum7.png)
 
-![](../imagens/enum4.png)
+1. Apresentando o estado emocional da pedra
+![](../imagens/enum/enum8.png)
 
-![](../imagens/enum5.png)
-
-![](../imagens/enum6.png)
-
-![](../imagens/enum7.png)
-
-![](../imagens/enum8.png)
-
-![](../imagens/enum9.png)
+1. Alterando as cores da pedra conforme a emoção
+![](../imagens/enum/enum9.png)

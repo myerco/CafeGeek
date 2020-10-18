@@ -67,31 +67,15 @@
 ***
 
 ### Animação  
-1. Animação  
-    1. Interação de objetos;
-    1. Interagindo com interface;
-    1. Causando dano no personagem;
-    1. Movimentação e interação;
-    1. Movimentação de personagem;
-    1. [Animação](https://myerco.github.io/unreal-engine/5-animacao.html)
+1. [Animação](https://myerco.github.io/unreal-engine/modulo1/5-animacao.html)
 
 ***
 
-### Multiplayer e IA  
-1. Multiplayer  
-    1. Estrutura do jogo para rede;
-    1. Criando sessões;
-    1. Conectando com sessões;
-    1. Conectando ponto a ponto;
-    1. Instalar o Steamframework
-    1. VPN para compartilhamento de conexões
-### Inteligência Artificial    
-1. [Inteligência Artificial](https://myerco.github.io/unreal-engine/4-inteligenciaArtificial.html)
-    1. Árvore de comportamento;
-    1. Blackboard;
-    1. Nos e tarefas;
-    1. Decorators e Services;
+### Multiplayer
+1. [Multiplayer](https://myerco.github.io/unreal-engine/modulo1/multiplayer.html)
 
+### Inteligência Artificial    
+1. [Inteligência Artificial](https://myerco.github.io/unreal-engine/modulo1/4-inteligenciaArtificial.html)
 ***
 
 ### Efeitos especiais e Cinemática  
