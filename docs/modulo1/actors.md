@@ -47,25 +47,31 @@ Hierarquia
 
 ## Transformação
 - Principal grupo de classes de atores.    
-  ![Classes de atores](../actors/actor1.png)  
+  ![Classes de atores](../imagens/actor/actor1.png)  
 
 - A classe *Actor* .    
- ![Classe Actor](../actors/actor2.png)  
+ ![Classe Actor](../imagens/actor/actor2.png)  
 
 - Editor de objetos e componentes.   
- ![Editor](../actors/actor3.png)  
+ ![Editor](../imagens/actor/actor3.png)  
 
 - Posicionamento do ator no mundo.  
- ![Posição](../actors/actor4.png)
+ ![Posição](../imagens/actor/actor4.png)
 - Posição relativa no mundo
- ![Posição Relativa](../actors/actor5.png)
+ ![Posição Relativa](../imagens/actor/actor5.png)
 - Janela de gerencimento.  
- ![Componentes](../actors/actor6.png)
+ ![Componentes](../imagens/actor/actor6.png)
  - o Componente *ChildActor* implementa a ligação com outro ator.
- [](https://www.youtube.com/watch?v=QM1QTQmvH-g)
 
 - Herança de propriedades e métodos  
-![Herança](../actors/actor10.png)
+![Herança](../imagens/actor/actor10.png)
+
+![Herança](../imagens/actor/actor11.png)
+![Herança](../imagens/actor/actor12.png)
+![Herança](../imagens/actor/actor13.png)
+![Herança](../imagens/actor/actor14.png)
+![Herança](../imagens/actor/coordenadas.jpg)
+
 ## Adicionar atores na cena
 spawn and destroy
 

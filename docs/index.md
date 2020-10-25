@@ -15,6 +15,6 @@ Aprenda e utilize modelos de organização projeto de jogos digitais, auxiliando
 [![Comece aqui e divirta-se](imagens/icons/iconfinder_gamepad-gear.png)](#) Comece aqui e divirta-se!
 
 ## Jogos digitais
-Aprenda os conceitos que fazem parte da construção de jogos digitais e elementos de _gamification_
+Aprenda os conceitos que fazem parte da construção de elementos de roteirização, designer e _gamification_.
 
 [![Comece aqui e divirta-se](imagens/icons/iconfinder_gamepad-gear.png)](#) Comece aqui e divirta-se!
