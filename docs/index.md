@@ -1,10 +1,9 @@
 ![MDA](https://myerco.github.io/unreal-engine/imagens/cafegeek_small.png)
 
-# Projeto de jogos digitais
 ![MDA](https://myerco.github.io/unreal-engine/imagens/MDA.png)
 
-## Desenvolvimento de jogos utilizando Unreal Engine 4
-[Estrutura](https://myerco.github.io/unreal-engine/1-estrutura.html)
+## Projeto de jogos digitais
+[Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/unreal.html)
 
 ## Game Designer
 1. O Projeto
