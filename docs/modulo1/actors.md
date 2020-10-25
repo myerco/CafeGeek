@@ -1,4 +1,7 @@
 ### Actors
+1. Atores;
+1. Atributos e eventos;
+1. Herança;
 
 Hierarquia
 
@@ -14,7 +17,7 @@ Hierarquia
     - Character BP
     - GameController BP
 
-- Character
+- Character componentes e controles
   - Movimentação
   - É controlado pelo PlayerController
 
@@ -61,35 +64,50 @@ Hierarquia
  - o Componente *ChildActor* implementa a ligação com outro ator.
  [](https://www.youtube.com/watch?v=QM1QTQmvH-g)
 
+- Herança de propriedades e métodos  
+![Herança](../actors/actor10.png)
 ## Adicionar atores na cena
 spawn and destroy
 
 ## Isvalid
 
-## Get All Actors
+## Get All Actors of Class
 
 ## Tag
 Has Tag
 
+## Colisões
+- Simplex collision
+- Complex collision
+
 ## Game Mode
+![](https://docs.unrealengine.com/Images/Gameplay/Framework/QuickReference/GameFramework.webp)
 [Game mode](https://docs.unrealengine.com/en-US/Gameplay/Framework/GameMode/index.html)
 ## Default pawn
 
 ## Câmera
+[Arms](https://docs.unrealengine.com/en-US/Gameplay/HowTo/UsingCameras/SpringArmComponents/index.html)
 
 ## Player input
 1. [Spawned no cliente](https://docs.unrealengine.com/en-US/Gameplay/HowTo/SpawnAndDestroyActors/Blueprints/index.html)
 1. [Enabled Input](https://docs.unrealengine.com/en-US/Gameplay/HowTo/ActorInput/Blueprints/index.html)
 - Habilitando entradas de controles
 1. [Mapeando de comandos](https://docs.unrealengine.com/en-US/Gameplay/Input/index.html)
-- Action mapping
+- Mapeamento de ações
  - Mapeamento de um evento a um botão
  - Valores 0 e 1
- - Exemplo: Pulo = EventPulo(), Disparo = EventoDisparo(), Agachar = EventoDisparo()
-- Axix mapping
+ - Exemplo:
+  1. Tecla Espaço = Pulo
+  1. Tecla Enter = Disparo
+  1. Tecla C  = Agachar
+- Mapeamento de Movimentação nos eixos
  - Mapeamento de um evento a um botão ou a um eixo de controle
  - É atualizado constantemente
  - Escala de valores
- - Exemplo: MoverDireita = EventoDireita(), MoverEsquerda() = EventoEsquerda()
+ - Exemplo:
+  1. Tecla W = MoverDireita
+  1. Tecla D = MoverEsquerda
+![Coordenadas](../actors/actor10.png)
+
 1. [Movimentação]([Unreal Engine CharacterMovement](https://docs.unrealengine.com/en-US/Gameplay/HowTo/CharacterMovement/Blueprints/index.html))
 1.[PlayerInput](https://docs.unrealengine.com/en-US/Programming/Tutorials/PlayerInput/index.html)
