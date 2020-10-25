@@ -24,6 +24,7 @@
 * Versionamento de código utilizando Git
 ***
 ## Estrutura
+
 1. [Instalando](https://myerco.github.io/unreal-engine/modulo1/1-instalando.html)
 1. [Organizando](https://myerco.github.io/unreal-engine/modulo1/2-organizando.html)
 1. [Versionando](https://myerco.github.io/unreal-engine/modulo1/3-github.html)
@@ -47,5 +48,3 @@
 1. [Inteligência Artificial](https://myerco.github.io/unreal-engine/modulo1/4-inteligenciaArtificial.html)
 1. [Sequencer](https://myerco.github.io/unreal-engine/sequencer.html)
 1. [Niagara](https://myerco.github.io/unreal-engine/modulo1/niagara.html)
-
- 
