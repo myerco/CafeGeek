@@ -37,7 +37,7 @@
 - Skeletal mesh
 
 ## Classes
-- Principal grupo de classes de atores.
+- Principal grupo de classes de atores.  
 ![Classes de atores](../imagens/actor/actor1.png)  
 
 - Detalhes da classe *Actor* .  
@@ -49,27 +49,27 @@
 ***
 
 ## Posição
-- Posicionamento do ator no mundo.
+- Posicionamento do ator no mundo.  
 ![Posição](../imagens/actor/actor4.png)
 
-- Posição relativa no mundo
+- Posição relativa no mundo  
 ![Posição Relativa](../imagens/actor/actor5.png)
 
 ***
 
 ## Herança
-- o Componente *ChildActor* implementa a ligação com outro ator.
+- o Componente *ChildActor* implementa a ligação com outro ator.  
 ![Componentes](../imagens/actor/actor6.png)
 
-- Herança de propriedades e métodos.
+- Herança de propriedades e métodos.  
 ![Herança](../imagens/actor/actor10.png)
 
-- Referências de atores e componentes
+- Referências de atores e componentes.  
 ![Herança](../imagens/actor/actor11.png)
 
 ***
 ## Adicionando atores
-
+- Criando e destruindo atores.  
 ![Herança](../imagens/actor/actor12.png)
 - Utilizando o *Level Bluprint* podemos implementar o código abaixo.
 - Ao pressionar a tecla o ator e criado na cena utilizando as coordenadas do **targetPoint**
@@ -77,10 +77,10 @@
 - Usamos **isvalid** para verificar se o ator existe na cena.
 
 ## Listando atores
-- Por classe
+- Por classe  
 ![Herança](../imagens/actor/actor13.png)
 
-- Utilizando *tag* (etiquetas)
+- Utilizando *tag* (etiquetas)  
 ![Herança](../imagens/actor/actor14.png)
 
 ## Coordenadas
@@ -123,7 +123,7 @@
 ## GameMode
  - Definido por *level*
  - Pode ser para definido para o todo o projeto;
- - Menu **Project**
+ - Menu **Project**  
  ![](../imagens/actor/actor15.png)
 
 1. PlayerController
