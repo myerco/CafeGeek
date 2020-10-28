@@ -123,7 +123,7 @@
 ## GameMode
  - Definido por *level*
  - Pode ser para definido para o todo o projeto;
- - Menu **Project** 
+ - Menu **Project**
  ![](../imagens/actor/actor15.png)
 
 1. PlayerController
@@ -162,3 +162,4 @@
 - [Static Mesh](https://www.youtube.com/watch?v=8WvwFPN1XNA)
 - [Static Mesh Actors](https://docs.unrealengine.com/en-US/Engine/Actors/StaticMeshActor/index.html)
 - [Skeletal Mesh Actors](https://docs.unrealengine.com/en-US/Engine/Actors/SkeletalMeshActors/index.html)
+-[Create a Free camera pawn with custom inputs](https://isaratech.com/ue4-create-a-free-camera-pawn-with-custom-inputs/)
