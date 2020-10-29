@@ -29,9 +29,9 @@
 
 ***
 ## Estrutura  
-1. [Instalando](https://myerco.github.io/unreal-engine/modulo1/1-instalando.html)
-1. [Organizando](https://myerco.github.io/unreal-engine/modulo1/2-organizando.html)
-1. [Versionando](https://myerco.github.io/unreal-engine/modulo1/3-github.html)
+1. [Instalando](https://myerco.github.io/unreal-engine/modulo1/instalando.html)
+1. [Organizando](https://myerco.github.io/unreal-engine/modulo1/organizando.html)
+1. [Versionando](https://myerco.github.io/unreal-engine/modulo1/github.html)
 1. [Interface e Editores](modulo1/interface.html)  
 1. [Versionando](https://myerco.github.io/unreal-engine/modulo1/blueprint.html)
 1. [Variáveis e seus operadores](https://myerco.github.io/unreal-engine/modulo1/variaveis.html)  
@@ -47,8 +47,8 @@
 1. [Materiais](https://myerco.github.io/unreal-engine/materiais.html)
 1. [Ilumincação](https://myerco.github.io/unreal-engine/iluminacao.html)
 1. [Landscape](https://myerco.github.io/unreal-engine/Landscape.html)  
-1. [Animação](https://myerco.github.io/unreal-engine/modulo1/5-animacao.html)
+1. [Animação](https://myerco.github.io/unreal-engine/modulo1/animacao.html)
 1. [Multiplayer](https://myerco.github.io/unreal-engine/modulo1/multiplayer.html)
-1. [Inteligência Artificial](https://myerco.github.io/unreal-engine/modulo1/4-inteligenciaArtificial.html)
+1. [Inteligência Artificial](https://myerco.github.io/unreal-engine/modulo1/inteligenciaArtificial.html)
 1. [Sequencer](https://myerco.github.io/unreal-engine/sequencer.html)
 1. [Niagara](https://myerco.github.io/unreal-engine/modulo1/niagara.html)

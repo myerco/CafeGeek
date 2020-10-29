@@ -1,32 +1,38 @@
-[Home](https://myerco.github.io/unreal-engine) / [Estrutura](https://myerco.github.io/unreal-engine/1-estrutura.html)
+[Home](https://myerco.github.io/unreal-engine) / [Unreal](https://myerco.github.io/unreal-engine/unreal.html)
 # Instalando
 Neste capítulo serão apresentados os seguintes tópicos:
-1. Instalando o Unreal e o Visualstudio
-1. Criando o projeto **ProjetoAula**
-1. Verificando as pastas criadas
-1. Configurando o editor de código
+> 1. [Instalando o Unreal e o Visual Studio](#inst)
+> 1. [Criando o projeto **ProjetoAula**](#projeto)
+> 1. [Verificando as pastas criadas](#pastas)
+> 1. [Configurando o editor de código](#conf)
 
-## 1. Instalando o Unreal e o Visualstudio
+<a name="inst"></a>
+<a name="1"></a>
+## 1. Instalando o Unreal e o Visual Studio
 1. [Instalando o Uneal Engine](https://docs.unrealengine.com/en-US/GettingStarted/Installation/index.html)
 1. Instalando os pacotes e o Visual Studio para programação com C++
   - [Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F)
   - [Unreal e Visual Studio](https://docs.unrealengine.com/en-US/Programming/Development/VisualStudioSetup/index.html)
   - Selecione os pacotes : Desenvolvimento para Desktop com C++ e Desenvolvimento de jogos com C++
 
-### 2. Criando o projeto ProjetoAula
-- Selecionando o tipo de projeto
-![](../imagens/projeto1.png)
+<a name="projeto"></a>
+<a name="2"></a>
+## 2. Criando o projeto ProjetoAula
+- Selecionando o tipo de projeto  
+![](../imagens/projeto/projeto1.png)
 
-- Escolha um rojeto em branco (Blank)
- ![](../imagens/projeto2.png)
+- Escolha um rojeto em branco (Blank)  
+ ![](../imagens/projeto/projeto2.png)
 
-- Em configuração de projeto escolha C++ e *No Starter Content* e a pasta do projeto
-![](../imagens/projeto3.png)
+- Em configuração de projeto escolha C++ e *No Starter Content* e a pasta do projeto   
+![](../imagens/projeto/projeto3.png)
 
 - Tela inicial  
-![](../imagens/projeto4.png)
+![](../imagens/projeto/projeto4.png)
 
-### 3. Verificando as pastas criadas
+<a name="pastas"></a>
+<a name="3"></a>
+## 3. Verificando as pastas criadas
 Utilizando o *explorer* navegue até a pasta do projeto  :
 ```sh
 .vs
@@ -63,7 +69,9 @@ explorer no Windows:
   1. Escolha a opção **Generate Visual Studio project files**;
   1. Aguarde o termino da operação e abra o projeto;
 
-### 4. Configurando o editor de código
+<a name="conf"></a>
+<a name="4"></a>
+## 4. Configurando o editor de código
 - Para configura o editor de código c++ acesse Menu->Editor Preferences->General e *Source Code* e escolha Visualstudio
 
-![](../imagens/projeto6.png)
+![](../imagens/projeto/projeto6.png)
