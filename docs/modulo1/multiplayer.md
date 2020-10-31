@@ -1,26 +1,38 @@
 [Home](https://myerco.github.io/unreal-engine) / [Estrutura](https://myerco.github.io/unreal-engine/1-estrutura.html)
 # Multiplayer
 
-<a name="toc"></a>
+Neste capítulo vamos implementar e organização elementos para conexão, replicação e
+inicialização de um jogo multiplayer.
+
+Vamos implementar os seguintes elementos :
+
+1. Criando sessões.
+1. Conectando usando IP.
+1. Buscando sessões ativas
+1. Procurando outros servidores
+1. Instalar o SteamSDK.
+1. VPN para compartilhamento de conexões
+
+<a name="ind"></a>
 ## Índice
 
-> 1. [Asset Naming Conventions](#anc)
-> 1. [Directory Structure](#structure)
-> 1. [Blueprints](#bp)
-> 1. [Static Meshes](#s)
-> 1. [Particle Systems](#ps)
-> 1. [Levels / Maps](#levels)
-> 1. [Textures](#textures)
+> 1. [Tipos de Conexão](#1)
+> 1. [Configurando o projeto](#2)
+> 1. [Menu](#3)
+> 1. [Executando o projeto](#4)
 
-<a name="anc"></a>
 <a name="1"></a>
-## 1. Conexão ![#](https://img.shields.io/badge/lint-partial_support-yellow.svg)
-
-  - Cliente e Servidor: Programa cliente se conecta através de uma rede a um programa servidor;
-    - Servidor pode ficar somente no atendimento ou pode realizar tarefas
+## 1. Tipos de Conexão ![#](https://img.shields.io/badge/lint-partial_support-yellow.svg)
+- A conexão somente é possível com versões do mesmo programa.
+- Cliente e Servidor: Programa cliente se conecta através de uma rede a um programa servidor;
+  - Servidor pode ficar somente no atendimento ou pode realizar tarefas
+  - Diagrama   
+    ![](../imagens/multiplayer/diagrama1.png)    
   - Ponto a Ponto: Programa cliente se conecta com outro computador ouvindo a rede
     - Os computadores ficam operantes;
-  - A conexão somente é possível com versões do mesmo programa.
+    - Diagrama  
+    ![](../imagens/multiplayer/diagrama2.png)
+
 1. Implementação no jogo
   - Servidor (Host) - Jogo em modo escuta **listen**
   - Cliente - Jogo tem que conectar em um outro através de um endereço de rede
@@ -36,39 +48,36 @@
   C:\Program Files\UE_4.17\Engine\Binaries\Win64\UE4Editor.exe
 C:\PATH_TO_MY_PROJECT.uproject 192.168.1.90:8003 -game -log
   ```
-1. Implementando o menu
-  - &&
-1. GameInstance.
-
-
-![](../imagens/multiplayer/multiplayer1.png)
-
+<a name="2"></a>
+## 2.Configurando o projeto
+- Implementação das estruturas de controle do game   
 ![](../imagens/multiplayer/multiplayer2.png)
-
+- Criando o GameInstance  
 ![](../imagens/multiplayer/multiplayer3.png)
-
+- Implementando o evento **OpenMenu**  
+![](../imagens/multiplayer/multiplayer5.png)
+- Configurando o projeto com GameInstance  
 ![](../imagens/multiplayer/multiplayer4.png)
 
-![](../imagens/multiplayer/multiplayer5.png)
-
+<a name="3"></a>
+## 3. Menu
+- Implementando os mapas  
+![](../imagens/multiplayer/multiplayer1.png)
+- Implementando a lógica de chamada do menu no level **Menu** utilizando o **Open Level Blueprints**  
 ![](../imagens/multiplayer/multiplayer6.png)
-
-![](../imagens/multiplayer/multiplayer7.png)
-
+- Menu 1  
 ![](../imagens/multiplayer/multiplayer8.png)
-
+- Implementar os seguintes elementos no diagrama  
 ![](../imagens/multiplayer/multiplayer9.png)
-
-![](../imagens/multiplayer/multiplayer10.png)
-
+- Implementar os eventos para instanciar uma conexão   
 ![](../imagens/multiplayer/multiplayer11.png)
 
-![](../imagens/multiplayer/multiplayer12.png)
+- Conectar ao servidor utilizando IP  
+![](../imagens/multiplayer/multiplayer10.png)
 
-1. Importando o manequim terceira pessoa.
-1. Criando sessões.
-1. Conectando usando IP.
-1. Buscando sessões ativas
-1. Procurando outros servidores
-1. Instalar o SteamSDK.
-1. VPN para compartilhamento de conexões
+<a name="4"></a>
+## 4. Executando o jogo
+- Executando o jogo   
+![](../imagens/multiplayer/multiplayer7.png)
+- Adicionar dois **PlayerStart**  
+![](../imagens/multiplayer/multiplayer12.png)
