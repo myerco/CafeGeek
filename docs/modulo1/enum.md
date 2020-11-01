@@ -31,26 +31,26 @@ enum cores = { vermelho,amarelo, azul, verde = 20, preto}
 
 <a name="3"></a>
 ## 3. Exemplos de uso (Lâmpada)
-1. Verificando o estado de uma lâmpda
+1. Verificando o estado de uma lâmpada.  
 ![](../imagens/enum/enum1.png)
 
-1.  Ligando e desligando
+1.  Ligando e desligando.  
 ![](../imagens/enum/enum2.png)
 
-1.  Verificando o estado utilizando o *enum*  
+1.  Verificando o estado utilizando o *enum*.   
 ![](../imagens/enum/enum3.png)
 
-1.  Ligando e desligando utilizando o *enum*   
+1.  Ligando e desligando utilizando o *enum*.   
 ![](../imagens/enum/enum4.png)
 
 ***
 
 <a name="4"></a>
 ## 4. Exemplos de uso (A pedra e as emoções)
-1. Alterando o estado emocional da pedra.  
+1. Alterando o estado emocional da pedra.    
 ![](../imagens/enum/enum7.png)
 
-1. Apresentando o estado emocional da pedra.  
+1. Apresentando o estado emocional da pedra.   
 ![](../imagens/enum/enum8.png)
 
 1. Alterando as cores da pedra conforme a emoção.  
