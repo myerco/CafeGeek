@@ -16,13 +16,16 @@ Neste capitulo serão apresentados Enumerações (*Enumeration*). Enumeração �
 - Uma enumeração é um tipo definido pelo usuário que consiste em um conjunto de constantes integrais nomeadas que são conhecidas como enumeradores.
 
 Exemplo:  
-enum cores = { vermelho,amarelo, azul, verde = 20, preto}  
+enum cores = { vermelho,amarelo, azul, verde = 20, preto}
+
 ***
 
 <a name="2"></a>
 ## 2. Criando
+- Execute o comando **blueprints->Enumeration** e logo depois preencha os valores conforme a tela abaixo.
 ![](../imagens/enum/enum6.png)
 
+- Objeto criado EN_Estado e EN_Pedra.
 ![](../imagens/enum/enum5.png)
 ***
 
@@ -34,23 +37,25 @@ enum cores = { vermelho,amarelo, azul, verde = 20, preto}
 1.  Ligando e desligando
 ![](../imagens/enum/enum2.png)
 
-1.  Verificando o estado utilizando o *enum*
+1.  Verificando o estado utilizando o *enum*  
 ![](../imagens/enum/enum3.png)
 
-1.  Ligando e desligando utilizando o *enum*
+1.  Ligando e desligando utilizando o *enum*   
 ![](../imagens/enum/enum4.png)
+
 ***
 
 <a name="4"></a>
 ## 4. Exemplos de uso (A pedra e as emoções)
-1. Alterando o estado emocional da pedra
+1. Alterando o estado emocional da pedra.  
 ![](../imagens/enum/enum7.png)
 
-1. Apresentando o estado emocional da pedra
+1. Apresentando o estado emocional da pedra.  
 ![](../imagens/enum/enum8.png)
 
-1. Alterando as cores da pedra conforme a emoção
+1. Alterando as cores da pedra conforme a emoção.  
 ![](../imagens/enum/enum9.png)
+
 ***
 ## Referências
 [Enums in unreal Engine](https://couchlearn.com/enums-in-unreal-engine-4-blueprints/)
