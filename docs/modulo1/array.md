@@ -1,8 +1,8 @@
-[Home](https://myerco.github.io/unreal-engine) / [Estrutura](https://myerco.github.io/unreal-engine/1-estrutura.html)
+[Home](https://myerco.github.io/unreal-engine) / [Unreal](https://myerco.github.io/unreal-engine/unreal.html)
+
 # Manipulando Arrays
 
-Neste capitulo serão apresentados os conceitos de estruturas de arrays ou vetores e
-suas funções para manipulação.
+Neste capitulo serão apresentados os conceitos de estruturas de *arrays* ou vetores e suas funções para manipulação.
 
 ## Índice
 > 1. [Conceito e implementação](#1)

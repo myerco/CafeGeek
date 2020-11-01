@@ -1,3 +1,5 @@
+[Home](https://myerco.github.io/unreal-engine) / [Unreal](https://myerco.github.io/unreal-engine/unreal.html)
+
 # Atores
 Neste capitulo serão apresentados e implementados os atores *Actors* do seu
 projeto.
@@ -61,12 +63,15 @@ projeto.
 
 ***
 <a name="4"></a>
-## 4. Posição
+## 4. Posição e coordenadas
 - Posicionamento do ator no mundo.  
 ![Posição](../imagens/actor/actor4.png)
 
 - Posição relativa no mundo  
 ![Posição Relativa](../imagens/actor/actor5.png)
+
+- Exemplo das coordenadas x,y e z
+  ![Coordenadas](../imagens/actor/coordenadas.jpg)
 
 ***
 <a name="5"></a>
@@ -101,27 +106,18 @@ projeto.
 ![Herança](../imagens/actor/actor14.png)
 ***
 
-<a name="8"></a>
-## 8. Coordenadas
-
-![Herança](../imagens/actor/coordenadas.jpg)
-
 ## Colisões
 - Simplex collision
 - Complex collision
-
-
 ## Default pawn
-
 ## Câmera
 
 
-## Player input
+## 7. Mapeamentos de ações
 - Estrutura
 ![Game Mode Quick Reference](https://docs.unrealengine.com/Images/Gameplay/Framework/QuickReference/GameFramework.webp)
 
-- Mapeamento de transformações
-- Menu **Project->Input**  
+- **Menu->Project->Input**  
 ![](../imagens/actor/actor16.png)
 
 - Mapeamento de um evento a um botão
@@ -137,7 +133,7 @@ projeto.
  - Exemplo:
   1. Tecla W = MoverDireita
   1. Tecla D = MoverEsquerda
-![Coordenadas](../actors/actor10.png)
+
 
 ## GameMode
  - Definido por *level*
