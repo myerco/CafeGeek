@@ -1,9 +1,20 @@
-## Actors
+# Atores
+Neste capitulo serão apresentados e implementados os atores *Actors* do seu
+projeto.
+
+## Íncide
+> 1. [Conceituando atores](#1)
+> 1. [Criando](#2)
+> 1. [Exemplos de uso (Lâmpada)](#3)
+> 1. [Exemplos de uso (A pedra das emoções)](#4)
+
+<a name="1"></a>
+## 1. Conceituando atores
 - Um ator é qualquer objeto que pode ser colocado em um nível. Atores são uma classe genérica que oferece suporte a transformações 3D, como translação, rotação e escala. Atores podem ser criados (gerados) e destruídos por meio de código de jogo (C ++ ou Blueprints). Em C ++, AActor é a classe base de todos os atores.
 - É composto por Atributos, componentes  e eventos;
 - Permitem Herança;
 
-## Hierarquia
+### 1.2. Hierarquia
 - UObject C++
  - Actor C++
     - Pawn
@@ -32,11 +43,13 @@
   - Guerreiro
   - Arqueiro
 
-## Malhas
+<a name="2"></a>
+## 2. Malhas
 - Static Mesh
 - Skeletal mesh
 
-## Classes
+<a name="3"></a>
+## 3. Classes
 - Principal grupo de classes de atores.  
 ![Classes de atores](../imagens/actor/actor1.png)  
 
@@ -47,8 +60,8 @@
 ![Editor](../imagens/actor/actor3.png)  
 
 ***
-
-## Posição
+<a name="4"></a>
+## 4. Posição
 - Posicionamento do ator no mundo.  
 ![Posição](../imagens/actor/actor4.png)
 
@@ -56,8 +69,8 @@
 ![Posição Relativa](../imagens/actor/actor5.png)
 
 ***
-
-## Herança
+<a name="5"></a>
+## 5. Herança
 - o Componente *ChildActor* implementa a ligação com outro ator.  
 ![Componentes](../imagens/actor/actor6.png)
 
@@ -68,22 +81,28 @@
 ![Herança](../imagens/actor/actor11.png)
 
 ***
-## Adicionando atores
+
+<a name="6"></a>
+## 6. Adicionando atores
 - Criando e destruindo atores.  
 ![Herança](../imagens/actor/actor12.png)
 - Utilizando o *Level Bluprint* podemos implementar o código abaixo.
 - Ao pressionar a tecla o ator e criado na cena utilizando as coordenadas do **targetPoint**
 - O comando **flip/flop** e utilizado para intercalar entre criar e destruir o ator.
 - Usamos **isvalid** para verificar se o ator existe na cena.
+***
 
-## Listando atores
+<a name="7"></a>
+## 7. Listando atores
 - Por classe  
 ![Herança](../imagens/actor/actor13.png)
 
 - Utilizando *tag* (etiquetas)  
 ![Herança](../imagens/actor/actor14.png)
+***
 
-## Coordenadas
+<a name="8"></a>
+## 8. Coordenadas
 
 ![Herança](../imagens/actor/coordenadas.jpg)
 
@@ -151,15 +170,15 @@
 ![](../imagens/actor/actor24.png)
 
 ## Referências
-- [Game mode](https://docs.unrealengine.com/en-US/Gameplay/Framework/GameMode/index.html)
-- [Arms](https://docs.unrealengine.com/en-US/Gameplay/HowTo/UsingCameras/SpringArmComponents/index.html)
-- [CharacterMovement](https://docs.unrealengine.com/en-US/Gameplay/HowTo/CharacterMovement/Blueprints/index.html)
-- [PlayerInput](https://docs.unrealengine.com/en-US/Programming/Tutorials/PlayerInput/index.html)
-- [Spawned no cliente](https://docs.unrealengine.com/en-US/Gameplay/HowTo/SpawnAndDestroyActors/Blueprints/index.html)
-- [Enabled Input](https://docs.unrealengine.com/en-US/Gameplay/HowTo/ActorInput/Blueprints/index.html)
-- [Mapeando de comandos](https://docs.unrealengine.com/en-US/Gameplay/Input/index.html)
-- [Editor](https://docs.unrealengine.com/en-US/Engine/Content/Types/StaticMeshes/Editor/index.html)
-- [Static Mesh](https://www.youtube.com/watch?v=8WvwFPN1XNA)
-- [Static Mesh Actors](https://docs.unrealengine.com/en-US/Engine/Actors/StaticMeshActor/index.html)
-- [Skeletal Mesh Actors](https://docs.unrealengine.com/en-US/Engine/Actors/SkeletalMeshActors/index.html)
--[Create a Free camera pawn with custom inputs](https://isaratech.com/ue4-create-a-free-camera-pawn-with-custom-inputs/)
+[Game mode](https://docs.unrealengine.com/en-US/Gameplay/Framework/GameMode/index.html)  
+[Arms](https://docs.unrealengine.com/en-US/Gameplay/HowTo/UsingCameras/SpringArmComponents/index.html)  
+[CharacterMovement](https://docs.unrealengine.com/en-US/Gameplay/HowTo/CharacterMovement/Blueprints/index.html)  
+[PlayerInput](https://docs.unrealengine.com/en-US/Programming/Tutorials/PlayerInput/index.html)  
+[Spawned no cliente](https://docs.unrealengine.com/en-US/Gameplay/HowTo/SpawnAndDestroyActors/Blueprints/index.html)  
+[Enabled Input](https://docs.unrealengine.com/en-US/Gameplay/HowTo/ActorInput/Blueprints/index.html)  
+[Mapeando de comandos](https://docs.unrealengine.com/en-US/Gameplay/Input/index.html)  
+[Editor](https://docs.unrealengine.com/en-US/Engine/Content/Types/StaticMeshes/Editor/index.html)  
+[Static Mesh](https://www.youtube.com/watch?v=8WvwFPN1XNA)  
+[Static Mesh Actors](https://docs.unrealengine.com/en-US/Engine/Actors/StaticMeshActor/index.html)
+[Skeletal Mesh Actors](https://docs.unrealengine.com/en-US/Engine/Actors/SkeletalMeshActors/index.html)  
+[Create a Free camera pawn with custom inputs](https://isaratech.com/ue4-create-a-free-camera-pawn-with-custom-inputs/)  
