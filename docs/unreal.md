@@ -33,7 +33,7 @@
 1. [Organizando](https://myerco.github.io/unreal-engine/modulo1/organizando.html)
 1. [Versionando](https://myerco.github.io/unreal-engine/modulo1/github.html)
 1. [Interface e Editores](modulo1/interface.html)  
-1. [Versionando](https://myerco.github.io/unreal-engine/modulo1/blueprint.html)
+1. [Blueprints](https://myerco.github.io/unreal-engine/modulo1/blueprint.html)
 1. [Variáveis e seus operadores](https://myerco.github.io/unreal-engine/modulo1/variaveis.html)  
 1. [Estruturas de controle](https://myerco.github.io/unreal-engine/modulo1/estruturascontrole.html)
 1. [Manipulando Arrays](https://myerco.github.io/unreal-engine/modulo1/array.html)  

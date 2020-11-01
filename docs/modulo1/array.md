@@ -4,19 +4,19 @@
 Neste capitulo serão apresentados os conceitos de estruturas de arrays ou vetores e
 suas funções para manipulação.
 Os tópicos apresentados :
-1. Conceito e implementação;
-1. Declaração
-1. Método Get para arrays;
-1. Get utilizando uma variável como índice;
-1. Último índice e a quantidade de elementos do array;
-1. Removendo elementos;
-1. Listando todos os elementos utilizando for
+> 1. Conceito e implementação;
+> 1. Declaração
+> 1. Método Get para arrays;
+> 1. Get utilizando uma variável como índice;
+> 1. Último índice e a quantidade de elementos do array;
+> 1. Removendo elementos;
+> 1. Listando todos os elementos utilizando for
 ;
-1. Usando o comando *find*;
-1. Comando remove *index*
-1. Limpando o *clear*;
-1. Atualiza o *array* nome clássicos com dados do *array* de nome;
-1. Contando elementos dentro de um *array*;
+> 1. Usando o comando *find*;
+> 1. Comando remove *index*
+> 1. Limpando o *clear*;
+> 1. Atualiza o *array* nome clássicos com dados do *array* de nome;
+> 1. Contando elementos dentro de um *array*;
 
 ***
 ## 1. Conceito e implementação

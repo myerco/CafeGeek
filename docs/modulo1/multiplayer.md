@@ -65,10 +65,12 @@ C:\PATH_TO_MY_PROJECT.uproject 192.168.1.90:8003 -game -log
 ![](../imagens/multiplayer/multiplayer1.png)
 - Implementando a lógica de chamada do menu no level **Menu** utilizando o **Open Level Blueprints**  
 ![](../imagens/multiplayer/multiplayer6.png)
-- Menu 1  
+- Widget WBP_Menu
 ![](../imagens/multiplayer/multiplayer8.png)
+
 - Implementar os seguintes elementos no diagrama  
 ![](../imagens/multiplayer/multiplayer9.png)
+
 - Implementar os eventos para instanciar uma conexão   
 ![](../imagens/multiplayer/multiplayer11.png)
 
