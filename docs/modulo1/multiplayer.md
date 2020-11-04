@@ -23,7 +23,7 @@ Vamos implementar os seguintes elementos :
 > 1. [Executando o projeto](#4)
 
 <a name="1"></a>
-## 1. Tipos de Conexão ![#](https://img.shields.io/badge/lint-partial_support-yellow.svg)
+## 1. Tipos de Conexão
 - A conexão somente é possível com versões do mesmo programa.
 - Cliente e Servidor: Programa cliente se conecta através de uma rede a um programa servidor;
   - Servidor pode ficar somente no atendimento ou pode realizar tarefas
@@ -35,16 +35,16 @@ Vamos implementar os seguintes elementos :
     ![](../imagens/multiplayer/diagrama2.png)
 
 1. Implementação no jogo
-  - Servidor (Host) - Jogo em modo escuta **listen**
-  - Cliente - Jogo tem que conectar em um outro através de um endereço de rede
-  - Busca servidores
-  - Exemplo:  
-  Servidor
+- Servidor (Host) - Jogo em modo escuta **listen**
+- Cliente - Jogo tem que conectar em um outro através de um endereço de rede
+- Busca servidores
+- Exemplo:  
+Servidor
   ```sh
   C:\Program Files\UE_4.17\Engine\Binaries\Win64\UE4Editor.exe
   C:\PATH_TO_MY_PROJECT.uproject /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap -server -log -port=8003
   ```
-  cliente
+cliente
   ```sh
   C:\Program Files\UE_4.17\Engine\Binaries\Win64\UE4Editor.exe
 C:\PATH_TO_MY_PROJECT.uproject 192.168.1.90:8003 -game -log
@@ -84,3 +84,12 @@ C:\PATH_TO_MY_PROJECT.uproject 192.168.1.90:8003 -game -log
 ![](../imagens/multiplayer/multiplayer7.png)
 - Adicionar dois **PlayerStart**  
 ![](../imagens/multiplayer/multiplayer12.png)
+
+***
+
+Referências
+
+[Getting Started with Unreal Multiplayer in C++](https://www.unrealengine.com/en-US/tech-blog/getting-started-with-unreal-multiplayer-in-cpp?sessionInvalidated=true)   
+[Multiplayer Prorgamming Quick Start](https://docs.unrealengine.com/en-US/Gameplay/Networking/QuickStart/index.html)   
+[Networking Guide](http://www.zachmetcalfgames.com/wp-content/uploads/2014/12/zmg_Unreal_Networking_Guide.pdf)   
+[Multiplayer Damage and Health System in Unreal Engine 4](https://couchlearn.com/multiplayer-damage-and-health-system-in-unreal-engine-4/)  

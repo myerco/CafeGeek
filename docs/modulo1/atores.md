@@ -6,9 +6,14 @@ projeto.
 
 ## Íncide
 > 1. [Conceituando atores](#1)
-> 1. [Criando](#2)
-> 1. [Exemplos de uso (Lâmpada)](#3)
-> 1. [Exemplos de uso (A pedra das emoções)](#4)
+> 1. [Malhas](#2)
+> 1. [Classes)](#3)
+> 1. [Posição e coordenadas](#4)
+> 1. [Herança](#5)
+> 1. [Adicionando atores](#5)
+> 1. [Listando atores](#6)
+> 1. [Mapeamento de ações](#7)
+> 1. [Movimentação de peão **Pawn**](#8)
 
 <a name="1"></a>
 ## 1. Conceituando atores
@@ -28,22 +33,21 @@ projeto.
     - Character BP
     - GameController BP
 
-## Componentes e controles da classe *Character*
+### 1.3 Componentes e controles da classe *Character*
 - Movimentação - É controlado pelo **PlayerController**
 - PlayerController - Controla o **Character**
 - IAController   - Controla um classe **Character** ou **Pawn**
 
-## Estrutura  
+### 1.4 Estrutura  
 - Actor
   - Actor Child
   - Component
   - Static Mesh
-
-## Exemplo   
-- Hero_Base - (Andar, Correr e Pular)
-  - Mago
-  - Guerreiro
-  - Arqueiro
+- Exemplo   
+  - Hero_Base - (Andar, Correr e Pular)
+    - Mago
+    - Guerreiro
+    - Arqueiro
 
 <a name="2"></a>
 ## 2. Malhas
@@ -145,7 +149,7 @@ projeto.
  - Controlador do jogador definido por *Level*
  ![](#)
 
-## Movimentação de peão *Pawn*
+## 8. Movimentação de peão *Pawn*
 - Componentes  
 ![](../imagens/actor/actor17.png)
 - Habilitando a entrada de comandos   
@@ -165,6 +169,15 @@ projeto.
 - **Enumeration** para registro de poses/estados do personagem.    
 ![](../imagens/actor/actor24.png)
 
+## 9. Interação com outros objetos
+![](../imagens/actor/actor25.png)
+![](../imagens/actor/actor26.png)
+![](../imagens/actor/actor27.png)
+![](../imagens/actor/actor28.png)
+![](../imagens/actor/actor29.png)
+![](../imagens/actor/actor30.png)
+![](../imagens/actor/actor31.png)
+
 ## Referências
 [Game mode](https://docs.unrealengine.com/en-US/Gameplay/Framework/GameMode/index.html)  
 [Arms](https://docs.unrealengine.com/en-US/Gameplay/HowTo/UsingCameras/SpringArmComponents/index.html)  
@@ -177,4 +190,6 @@ projeto.
 [Static Mesh](https://www.youtube.com/watch?v=8WvwFPN1XNA)  
 [Static Mesh Actors](https://docs.unrealengine.com/en-US/Engine/Actors/StaticMeshActor/index.html)
 [Skeletal Mesh Actors](https://docs.unrealengine.com/en-US/Engine/Actors/SkeletalMeshActors/index.html)  
-[Create a Free camera pawn with custom inputs](https://isaratech.com/ue4-create-a-free-camera-pawn-with-custom-inputs/)  
+[Create a Free camera pawn with custom inputs](https://isaratech.com/ue4-create-a-free-camera-pawn-with-custom-inputs/)
+
+[Grabbing Objects](https://www.youtube.com/watch?v=HnR1Gf5gXcY)
