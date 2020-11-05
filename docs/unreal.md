@@ -5,15 +5,15 @@
 ***
 # Desenvolvimento de jogos utilizando Unreal Engine 4
 ## Habilidades que serão aprendidas  
-![Classes de atores](imagens/icons/iconfinder_Check.png)  Configuração e organização de projetos;
-* Analisar e aplicar lógica de programação utilizando *Blueprint* e *C++*;
-* Implementar regras de tempo e espaço;
-* Implementar interface do usuário;
-* Estruturar e configurar materiais, terrenos e iluminação;
-* Implementar ambientes Multijogador;
-* Implementar inteligência artificial;
-* Construir animação de personagens;
-* Implementar Efeitos especiais;
+![Classes de atores](imagens/icons/iconfinder_Check.png) Configuração e organização de projetos;  
+![Classes de atores](imagens/icons/iconfinder_Check.png) Analisar e aplicar lógica de programação utilizando *Blueprint* e *C++*;     
+![Classes de atores](imagens/icons/iconfinder_Check.png) Implementar regras de tempo e espaço;  
+![Classes de atores](imagens/icons/iconfinder_Check.png) Implementar interface do usuário;  
+![Classes de atores](imagens/icons/iconfinder_Check.png) Estruturar e configurar materiais, terrenos e iluminação;  
+![Classes de atores](imagens/icons/iconfinder_Check.png) Implementar ambientes Multijogador;  
+![Classes de atores](imagens/icons/iconfinder_Check.png) Implementar inteligência artificial;  
+![Classes de atores](imagens/icons/iconfinder_Check.png) Construir animação de personagens;  
+![Classes de atores](imagens/icons/iconfinder_Check.png) Implementar Efeitos especiais;  
 
 ***
 ## Conteúdo do curso
