@@ -5,7 +5,7 @@
 ***
 # Desenvolvimento de jogos utilizando Unreal Engine 4
 ## Habilidades que serão aprendidas  
-![Classes de atores](imagens/icons/iconfinder_Check.png) Configuração e organização de projetos;  
+![Classes de atores](imagens/icons/iconfinder_Check.png) Configuração e organização de projetos;   
 ![Classes de atores](imagens/icons/iconfinder_Check.png) Analisar e aplicar lógica de programação utilizando *Blueprint* e *C++*;     
 ![Classes de atores](imagens/icons/iconfinder_Check.png) Implementar regras de tempo e espaço;  
 ![Classes de atores](imagens/icons/iconfinder_Check.png) Implementar interface do usuário;  
@@ -18,7 +18,7 @@
 ***
 ## Conteúdo do curso
 <a name="1"></a>
-### 1. Projeto de intalação
+### 1. Projeto e instalação
 1. [Instalando](https://myerco.github.io/unreal-engine/modulo1/instalando.html)
 1. [Organizando](https://myerco.github.io/unreal-engine/modulo1/organizando.html)
 1. [Versionando](https://myerco.github.io/unreal-engine/modulo1/github.html)
