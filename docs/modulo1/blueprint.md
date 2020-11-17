@@ -2,6 +2,8 @@
 
 # Blueprints
 
+
+
 Em construção...
 
 > [1. Introdução ao *Blueprints Visual Scripting*](#1)  

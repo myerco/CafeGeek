@@ -169,14 +169,7 @@ projeto.
 - **Enumeration** para registro de poses/estados do personagem.    
 ![](../imagens/actor/actor24.png)
 
-## 9. Interação com outros objetos
-![](../imagens/actor/actor25.png)
-![](../imagens/actor/actor26.png)
-![](../imagens/actor/actor27.png)
-![](../imagens/actor/actor28.png)
-![](../imagens/actor/actor29.png)
-![](../imagens/actor/actor30.png)
-![](../imagens/actor/actor31.png)
+
 
 ## Referências
 [Game mode](https://docs.unrealengine.com/en-US/Gameplay/Framework/GameMode/index.html)  
