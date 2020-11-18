@@ -17,11 +17,11 @@
 ->Java,C++, C#
 
 # Funções (**functions**)
-- Pedaços de código que returnar algum valor
+- Pedaços de código que retornam algum valor
 para o programa que executou a chamada.
 - São mini programas com as características de alocação de memória, estruturas internas de código e variáveis locais.
 - Podem receber parâmetros externos.  
-- Funções não suporte o nó **Delay**.
+- Funções não suportam o nó **Delay** ou eventos de temporização.
 - Funções podem ter ser replicadas
 em jogos multiplayer.
 
@@ -57,12 +57,12 @@ Exemplo:
 
 ![Function](../imagens/modulos/modulo2.png)
 
-## Difenças entre macros e funções
-|Macro  |Função  |
-|:-:|-|
-|  |  |
-|  |  |
-|  |  |
+## Colapse Nodes
+- Organização de código, escondendo nós da estrutura principal.
+- Aceitam parâmetros de entrada e saída.  
+
+![Function](../imagens/modulos/modulo4.png)
+
 
 ## Executando a função e a macros  
 ![Function](../imagens/modulos/modulo3.png)
