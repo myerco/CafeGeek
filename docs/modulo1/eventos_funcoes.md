@@ -24,6 +24,7 @@ para o programa que executou a chamada.
 - Funções não suportam o nó **Delay** ou eventos de temporização.
 - Funções podem ter ser replicadas
 em jogos multiplayer.
+- Não aceitam eventos customizados.
 
 Exemplo:  
 **C++**   
@@ -42,7 +43,8 @@ void CalculoIMC(float pPeso, float pAltura) {
 ## Macros
 - São essencialmente código colapsado.
 - São basicamente um modelo *Template* de código ou nós.
-- Suportam o nó **Delay**.
+- Não suportam o nó **Delay**.
+- Não aceitam eventos customizados.
 - Não podem ser replicados em jogos multiplayer.
 
 Exemplo:  
@@ -72,3 +74,4 @@ Exemplo:
 ### Referências
 
 [Best Practices](https://docs.unrealengine.com/en-US/Engine/Blueprints/BestPractices/index.html)
+[Managing complexity in Blueprints](https://www.unrealengine.com/en-US/blog/managing-complexity-in-blueprints?sessionInvalidated=true)
