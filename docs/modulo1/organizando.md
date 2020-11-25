@@ -19,6 +19,7 @@ Neste capitulo vamos organizar o projeto do > *ProjetoAula* e alguns elementos d
 ***
 <a name="2"></a>
 ## 2. *Level* e Inicialização
+Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguintes passos:  
 - Salve o *level* atual na pasta Maps ```File->Save Current``` com o nome LevelTest
 - Para configurar a inicialização do projeto utilizando o LevelTest.
 	- Edit->Project Settings
@@ -27,7 +28,7 @@ Neste capitulo vamos organizar o projeto do > *ProjetoAula* e alguns elementos d
 	- Game default Map : LevelTest  
 
 	![](../imagens/projeto/projeto5.png)
-	
+
 ***
 ## Referências
 [Directory Structure](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html)  
