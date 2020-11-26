@@ -50,15 +50,19 @@ git remote -v
 ```
 
 <a name="4"></a>
-### 4. Atualizando o projeto no servidor
+## 4. Atualizando o projeto no servidor
 ```shell
     git add .
-    git commit -m "Atualizando o projeto.. Alteração de movimentação de personagem"
+    git commit -m "feat: Atualizando o projeto.. Alteração de movimentação de personagem"
     git push origin master
 ```
 <a name="5"></a>
-### 5. Atualizando o projeto no cliente (local)
+## 5. Atualizando o projeto no cliente (local)
 ```shell
     git status
     git pull origin master
 ```
+***
+
+## Referências
+- [Top 20 Git commands with examples](https://dzone.com/articles/top-20-git-commands-with-examples)

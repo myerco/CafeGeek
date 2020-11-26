@@ -27,7 +27,10 @@ força de impulso
 - Implementar a lógica de movimentação usando *timeline*.
 - Declarar a variável *Velocidade* para controle da velocidade de movimentação.
 ![](../imagens/actor/actor36.png)
+
 ![](../imagens/actor/actor37.png)
+
+![](../imagens/actor/actor38.png)
 
 1. Plataforma de gatilho *Trigger Plataform*
 

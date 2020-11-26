@@ -31,7 +31,7 @@ Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguinte
 
 ***
 ## Referências
-[Directory Structure](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html)  
-[Editor Preferences](https://docs.unrealengine.com/en-US/Engine/UI/index.html)  
-[Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md)  
-[Controles de navegação](https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html)
+- [Directory Structure](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html)  
+- [Editor Preferences](https://docs.unrealengine.com/en-US/Engine/UI/index.html)  
+- [Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md)  
+- [Controles de navegação](https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html)
