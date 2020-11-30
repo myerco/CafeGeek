@@ -10,6 +10,7 @@
 > 1. [Variável Pública e Privada](#6)  
 > 1. [Operadores (Subtração, soma e divisão)](#7)
 > 1. [Manipulação de String](#8)
+> 1. [Organização e convenção](#9)
 
 <a name="1"></a>
 ## 1. Variáveis básicas
@@ -34,3 +35,9 @@
 
 <a name="2"></a>
 ## 8. Manipulação de String
+
+***
+
+## Referências
+- [Blueprint Variables](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Variables/index.html)
+- [Coding Standard](https://docs.unrealengine.com/en-US/Programming/Development/CodingStandard/index.html)
