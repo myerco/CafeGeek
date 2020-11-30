@@ -14,9 +14,21 @@
 
 <a name="1"></a>
 ## 1. Variáveis básicas
+Variáveis são propriedades que contêm um valor ou fazem referência a um objeto ou ator no mundo. Essas propriedades podem ser acessíveis internamente ao Blueprint que as contém, ou podem ser tornadas acessíveis externamente para que seus valores possam ser modificados por designers que trabalham com instâncias do Blueprint colocadas em um nível.
+
+- Declaração   
+![](../imagens/variaveis/variaveis1.png)
+- Propriedades   
+![](../imagens/variaveis/variaveis2.png)
+> Observe que a propriedade **Category** agrupa as variáveis por uma categoria.
 
 <a name="2"></a>
 ## 2. Métodos GET e SET
+- **Get**: Obtém o valor de uma variável.
+- **Set**: Atualiza o valor da variável.
+
+![](../imagens/variaveis/variaveis3.png)
+
 
 <a name="2"></a>
 ## 3. String e Text
@@ -41,3 +53,5 @@
 ## Referências
 - [Blueprint Variables](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Variables/index.html)
 - [Coding Standard](https://docs.unrealengine.com/en-US/Programming/Development/CodingStandard/index.html)
+- [Properties](https://docs.unrealengine.com/en-US/Programming/UnrealArchitecture/Reference/Properties/index.html)
+- [String](https://docs.unrealengine.com/en-US/BlueprintAPI/Utilities/String/index.html)
