@@ -31,13 +31,31 @@ Variáveis são propriedades que contêm um valor ou fazem referência a um obje
 
 
 <a name="2"></a>
-## 3. String e Text
+## 3. String, Name e Text
+
+| Variável |Tamanho  |  |
+|:-:|-|-|
+| **Text** | 40 Bytes | Podemos adicionar opções avançadas como exemplo: **String Table**  |
+| **String** | 16 Bytes |  |
+|  **Name**| 8 Bytes |  |
+
+- Tramento  
+![](../imagens/variaveis/variaveis4.png)
 
 <a name="2"></a>
 ## 4. Integer e Float
 
+- Integer : Armazena números inteiros.
+- Floar : Armazena números com ponto flutuante (reais) com precição simples.
+
+- Tratamento
+![](../imagens/variaveis/variaveis5.png)
+
 <a name="2"></a>
 ## 5. Boolean
+Armazena dois valores : falso (*false*) ou verdadeiro (*true*).
+- Tratamento
+![](../imagens/variaveis/variaveis6.png)
 
 <a name="2"></a>
 ## 6. Variável Pública e Privada
@@ -55,3 +73,6 @@ Variáveis são propriedades que contêm um valor ou fazem referência a um obje
 - [Coding Standard](https://docs.unrealengine.com/en-US/Programming/Development/CodingStandard/index.html)
 - [Properties](https://docs.unrealengine.com/en-US/Programming/UnrealArchitecture/Reference/Properties/index.html)
 - [String](https://docs.unrealengine.com/en-US/BlueprintAPI/Utilities/String/index.html)
+- [Srting Tables](https://docs.unrealengine.com/en-US/Gameplay/Localization/StringTables/index.html)
+- [Integer](https://docs.unrealengine.com/en-US/BlueprintAPI/Math/Integer/index.html)
+- [Float](https://docs.unrealengine.com/en-US/BlueprintAPI/Math/Float/index.html)

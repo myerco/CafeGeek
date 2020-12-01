@@ -18,6 +18,12 @@ Os eventos são nós chamados a partir do código do jogo para iniciar a execuç
 
 Os eventos podem ser acessados dentro do *Blueprints* para implementar novas funcionalidades ou para substituir ou aumentar a funcionalidade padrão. Qualquer número de eventos pode ser usado em um único *EventGraph*; embora apenas um de cada tipo possa ser usado.
 
+- Evento de dano  
+![](../imagens/modulos/modulo5.png)
+
+- Chamando o evento
+![](../imagens/modulos/modulo6.png)
+
 ###Evento são MÉTODOS!!!
 Os métodos são procedimentos ou funções que realizam as ações próprias do objeto. Assim, os métodos são as ações que o objeto pode realizar. Tudo o que o objeto faz é através de seus métodos, pois é através dos seus métodos que um objeto se manifesta, através deles que o objeto interage com os outros objetos.
 
@@ -104,7 +110,7 @@ Exemplo:
 
 ## Executando a função e a macros  
 ![Function](../imagens/modulos/modulo3.png)
-# Evento
+
 
 
 ### Referências
