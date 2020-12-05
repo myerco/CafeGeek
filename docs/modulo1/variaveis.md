@@ -54,7 +54,7 @@ Variáveis são propriedades que contêm um valor ou fazem referência a um obje
 <a name="2"></a>
 ## 5. Boolean
 Armazena dois valores : falso (*false*) ou verdadeiro (*true*).
-- Tratamento
+- Tratamento  
 ![](../imagens/variaveis/variaveis6.png)
 
 <a name="2"></a>

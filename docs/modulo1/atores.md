@@ -21,7 +21,8 @@ projeto.
 - É composto por Atributos, componentes  e eventos;
 - Permitem Herança;
 
-### 1.2. Hierarquia
+
+### 1.2. Herança
 - UObject C++
  - Actor C++
     - Pawn
@@ -34,25 +35,35 @@ projeto.
     - GameController BP
 
 ### 1.3 Componentes e controles da classe *Character*
-- Movimentação - É controlado pelo **PlayerController**
-- PlayerController - Controla o **Character**
-- IAController   - Controla um classe **Character** ou **Pawn**
+Os componentes são um tipo especial de objeto que os atores podem anexar a si próprios como subobjetos. Os componentes são úteis para compartilhar comportamentos comuns, como a capacidade de exibir uma representação visual e reproduzir sons. Eles também podem representar conceitos específicos do projeto, como a maneira como um veículo interpreta a entrada e muda sua própria velocidade e orientação. Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuário pode implementar as diferenças no controle e movimento do veículo, alterando qual componente um ator do veículo usa.   
 
-### 1.4 Estrutura  
-- Actor
-  - Actor Child
-  - Component
-  - Static Mesh
-- Exemplo   
-  - Hero_Base - (Andar, Correr e Pular)
-    - Mago
-    - Guerreiro
-    - Arqueiro
+Exemplo:  
+
+![Classes de atores](../imagens/movimentacao/movimentacao1.png)  
+
+Exemplo de Componentes :
+
+- Actor Child: Componente associa outro ator a classe principal.
+
+- Static Mesh : Adiciona um objeto de 3D
+
 
 <a name="2"></a>
-## 2. Malhas
-- Static Mesh
-- Skeletal mesh
+
+## 2. Malhas **Static Mesh**  
+- Componente  
+![Classes de atores](../imagens/movimentacao/movimentacao2.png)  
+- Detalhes  
+![Classes de atores](../imagens/movimentacao/movimentacao3.png)  
+- Estruturas   
+![Classes de atores](../imagens/movimentacao/movimentacao4.png)  
+## 3 Skeletal mesh
+- Componente  
+![Classes de atores](../imagens/movimentacao/movimentacao5.png)  
+- Detalhes  
+![Classes de atores](../imagens/movimentacao/movimentacao6.png)  
+- Estruturas   
+![Classes de atores](../imagens/movimentacao/movimentacao7.png)  
 
 <a name="3"></a>
 ## 3. Classes
@@ -74,9 +85,6 @@ projeto.
 - Posição relativa no mundo  
 ![Posição Relativa](../imagens/actor/actor5.png)
 
-- Exemplo das coordenadas x,y e z
-  ![Coordenadas](../imagens/actor/coordenadas.jpg)
-
 ***
 <a name="5"></a>
 ## 5. Herança
@@ -95,10 +103,10 @@ projeto.
 ## 6. Adicionando atores
 - Criando e destruindo atores.  
 ![Herança](../imagens/actor/actor12.png)
-- Utilizando o *Level Bluprint* podemos implementar o código abaixo.
-- Ao pressionar a tecla o ator e criado na cena utilizando as coordenadas do **targetPoint**
-- O comando **flip/flop** e utilizado para intercalar entre criar e destruir o ator.
-- Usamos **isvalid** para verificar se o ator existe na cena.
+- Utilizando o *Level Bluprint* podemos implementar o código acima.
+- Ao pressionar a tecla **H** o ator e criado na cena utilizando as coordenadas de um componente **targetPoint** adicionando na cena.
+- O comando **flip/flop** é utilizado para intercalar entre criar e destruir o ator, com os métodos **SpawnActor** e **DestroyActor** respectivamente.
+- Usamos **IsValid** para verificar se o ator existe na cena.
 ***
 
 <a name="7"></a>
@@ -112,77 +120,20 @@ projeto.
 
 ## Colisões
 - Simplex collision
-- Complex collision
+- Complex collision  
+
 ## Default pawn
+
 ## Câmera
 
-
-## 7. Mapeamentos de ações
-- Estrutura
-![Game Mode Quick Reference](https://docs.unrealengine.com/Images/Gameplay/Framework/QuickReference/GameFramework.webp)
-
-- **Menu->Project->Input**  
-![](../imagens/actor/actor16.png)
-
-- Mapeamento de um evento a um botão
- - Valores 0 e 1
- - Exemplo:
-  1. Tecla Espaço = Pulo
-  1. Tecla Enter = Disparo
-  1. Tecla C  = Agachar
-- Mapeamento de Movimentação nos eixos
- - Mapeamento de um evento a um botão ou a um eixo de controle
- - É atualizado constantemente
- - Escala de valores
- - Exemplo:
-  1. Tecla W = MoverDireita
-  1. Tecla D = MoverEsquerda
-
-
-## GameMode
- - Definido por *level*
- - Pode ser para definido para o todo o projeto;
- - Menu **Project**  
- ![](../imagens/actor/actor15.png)
-
-1. PlayerController
- - Controlador do jogador definido por *Level*
- ![](#)
-
-## 8. Movimentação de peão *Pawn*
-- Componentes  
-![](../imagens/actor/actor17.png)
-- Habilitando a entrada de comandos   
-![](../imagens/actor/actor18.png)
-- Implementando movimentação com teclado  
-![](../imagens/actor/actor19.png)
-- Captura as coordenadas do ator para que possamos utilizar os métodos de movimentação **Virar** e **OlhaCima**  
-![](../imagens/actor/actor21.png)
-- Movimentação utilizando mouse  
-![](../imagens/actor/actor20.png)
-- Controle de movimentação do ator (Classe) - Caso as opções *Use controller rotation pitch/Yaw* estiverem ativas (**true**) a cápsula do ator irá sem movimentar no seu próprio eixo.    
-![](../imagens/actor/actor22.png)
-
-- Controle de movimentação do braço que sustenta a câmera **SpringArm**  
-- Quando verdadeiro *Use Pawn control Rotation* somente o braço com a câmera são movimentados.  
-![](../imagens/actor/actor23.png)
-- **Enumeration** para registro de poses/estados do personagem.    
-![](../imagens/actor/actor24.png)
-
-
+***
 
 ## Referências
-[Game mode](https://docs.unrealengine.com/en-US/Gameplay/Framework/GameMode/index.html)  
-[Arms](https://docs.unrealengine.com/en-US/Gameplay/HowTo/UsingCameras/SpringArmComponents/index.html)  
-[CharacterMovement](https://docs.unrealengine.com/en-US/Gameplay/HowTo/CharacterMovement/Blueprints/index.html)  
-[PlayerInput](https://docs.unrealengine.com/en-US/Programming/Tutorials/PlayerInput/index.html)  
-[Spawned no cliente](https://docs.unrealengine.com/en-US/Gameplay/HowTo/SpawnAndDestroyActors/Blueprints/index.html)  
-[Enabled Input](https://docs.unrealengine.com/en-US/Gameplay/HowTo/ActorInput/Blueprints/index.html)  
-[Mapeando de comandos](https://docs.unrealengine.com/en-US/Gameplay/Input/index.html)  
-[Editor](https://docs.unrealengine.com/en-US/Engine/Content/Types/StaticMeshes/Editor/index.html)  
-[Static Mesh](https://www.youtube.com/watch?v=8WvwFPN1XNA)  
-[Static Mesh Actors](https://docs.unrealengine.com/en-US/Engine/Actors/StaticMeshActor/index.html)
-[Skeletal Mesh Actors](https://docs.unrealengine.com/en-US/Engine/Actors/SkeletalMeshActors/index.html)  
-[Create a Free camera pawn with custom inputs](https://isaratech.com/ue4-create-a-free-camera-pawn-with-custom-inputs/)
-
-[Grabbing Objects](https://www.youtube.com/watch?v=HnR1Gf5gXcY)
+- [Game mode](https://docs.unrealengine.com/en-US/Gameplay/Framework/GameMode/index.html)  
+- [Arms](https://docs.unrealengine.com/en-US/Gameplay/HowTo/UsingCameras/SpringArmComponents/index.html)  
+- [Spawned no cliente](https://docs.unrealengine.com/en-US/Gameplay/HowTo/SpawnAndDestroyActors/Blueprints/index.html)  
+- [Editor](https://docs.unrealengine.com/en-US/Engine/Content/Types/StaticMeshes/Editor/index.html)  
+- [Static Mesh](https://www.youtube.com/watch?v=8WvwFPN1XNA)  
+- [Static Mesh Actors](https://docs.unrealengine.com/en-US/Engine/Actors/StaticMeshActor/index.html)
+- [Skeletal Mesh Actors](https://docs.unrealengine.com/en-US/Engine/Actors/SkeletalMeshActors/index.html)  
+- [Componentes](https://docs.unrealengine.com/en-US/Programming/UnrealArchitecture/Actors/Components/index.html)

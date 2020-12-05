@@ -37,6 +37,7 @@
 ### 3. Atores, movimentação, tempo e espaço
 1. [Atores](https://myerco.github.io/unreal-engine/modulo1/atores.html)
 1. [Eventos, funções e macros](https://myerco.github.io/unreal-engine/modulo1/eventos_funcoes.html)  
+1. [Comunicação entre Blueprint](https://myerco.github.io/unreal-engine/modulo1/comunicacao.html)    
 1. [Movimentação do personagem](https://myerco.github.io/unreal-engine/modulo1/movimentacao.html)    
 1. [Tempo e espaço](https://myerco.github.io/unreal-engine/modulo1.tempo_espaco.html)  
 
