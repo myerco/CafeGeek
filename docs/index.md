@@ -1,23 +1,20 @@
-## Desenvolvimento de jogos utilizando Unreal Engine 4
-### Habilidades que serão aprendidas  
-* Configuração e organização do projeto;
-* Lógica de programação utilizando Blueprint e c++;
-* Regras de tempo e espaço;
-* Implementar UI (User interface);
-* Aplicar e configurar materiais;
-* Modelagem de terrenos;
-* Configuração Multiplayer;
-* Inteligência artificial;
-* Animação de personagens;
-### Conceitos abordados
-* Ambiente de desenvolvimento;
-* Lógica de programação;
-* Estruturas da linguagem de programação orientada a objetos;
-* Elementos de apresentação do jogo;
-### Ferramentas utilizadas
-* Unreal 4.23 - C++
-* Visual Studio 2019
-* Pacotes : Desenvolvimento para Desktop com C++ e Desenvolvimento de jogos com C++
+# Projeto de jogos digitais
+![MDA](https://myerco.github.io/unreal-engine/imagens/cafegeek_small.png)
 
-### Estrutura
-[Estrutura](https://myerco.github.io/unreal-engine/1-estrutura.html)
+![MDA](https://myerco.github.io/unreal-engine/imagens/MDA.png)
+
+## Desenvolvimento de jogos utilizando Unreal Engine 4  
+
+Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer.
+
+[![Comece aqui e divirta-se](imagens/icons/iconfinder_gamepad-gear.png)](https://myerco.github.io/unreal-engine/unreal.html) Comece aqui e divirta-se!
+
+## Game Design, planeje e organize atividades do seu projeto  
+Aprenda e utilize modelos de organização projeto de jogos digitais, auxiliando a administração de tarefas, recursos, custos e tempo.  
+
+[![Comece aqui e divirta-se](imagens/icons/iconfinder_gamepad-gear.png)](#) Comece aqui e divirta-se!
+
+## Roteirização e conceitos
+Aprenda os conceitos que fazem parte da construção de elementos de roteirização, designer e _gamification_.
+
+[![Comece aqui e divirta-se](imagens/icons/iconfinder_gamepad-gear.png)](#) Comece aqui e divirta-se!
