@@ -66,7 +66,6 @@
 ![](../imagens/actor/actor24.png)
 
 ## Referências
-- [Grabbing Objects](https://www.youtube.com/watch?v=HnR1Gf5gXcY)
 - [PlayerInput](https://docs.unrealengine.com/en-US/Programming/Tutorials/PlayerInput/index.html)
 - [Enabled Input](https://docs.unrealengine.com/en-US/Gameplay/HowTo/ActorInput/Blueprints/index.html)  
 - [Mapeando de comandos](https://docs.unrealengine.com/en-US/Gameplay/Input/index.html)  

@@ -40,10 +40,12 @@
 1. [Comunicação entre Blueprint](https://myerco.github.io/unreal-engine/modulo1/comunicacao.html)    
 1. [Movimentação do personagem](https://myerco.github.io/unreal-engine/modulo1/movimentacao.html)    
 1. [Tempo e espaço](https://myerco.github.io/unreal-engine/modulo1.tempo_espaco.html)  
+1. [Variáveis Estruturadas](https://myerco.github.io/unreal-engine/modulo1/estruturas.html)  
+1. [Data Tables](https://myerco.github.io/unreal-engine/modulo1/datatables.html)  
 
 <a name="4"></a>
 ### 4. Interface com usuário
-1. [HUD - Interface com o jogador](https://myerco.github.io/unreal-engine/hud.html)
+1. [HUD - Interface com o jogador](https://myerco.github.io/unreal-engine/modulo1/hud.html)
 
 <a name="5"></a>
 ### 5. Ambiente
