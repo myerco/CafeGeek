@@ -18,7 +18,7 @@ Os eventos são nós chamados a partir do código do jogo para iniciar a execuç
 
 Os eventos podem ser acessados dentro do *Blueprints* para implementar novas funcionalidades ou para substituir ou aumentar a funcionalidade padrão. Qualquer número de eventos pode ser usado em um único *EventGraph*; embora apenas um de cada tipo possa ser usado.
 
-- Evento de dano  
+- Evento de dano  no personagem
 ![](../imagens/modulos/modulo5.png)
 
 - Chamando o evento
