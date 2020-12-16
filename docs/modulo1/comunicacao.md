@@ -4,7 +4,7 @@
 > 1. [Preparando o ambiente de testes ](#1)  
 > 1. [Comunicação direta ](#1)  
 > 1. [Blueprint Interface](#2)  
-> 1. [Event Dispacher](#3)  
+> 1. [Event Dispatcher](#3)  
 
 ## 1. Conceito
 - Um meio para objetos individuais separados interagirem uns com os outros
@@ -58,13 +58,43 @@ Usaremos o evento **OnEndOverlap** para ler todos os objetos que tem a **tag** *
 ![](../imagens/comunicacao/comunicacao4.png)      
 
 ## 5. Utilizando Interface
+**Blueprint interface** permite que vários tipos diferentes de objetos compartilhem e sejam acessados através de uma interface comum. Simplificando, as interfaces do Blueprint permitem que diferentes Blueprints compartilhem e enviem dados entre si.
+1. Implemente um **Blueprint interface** Utilizando o menu de contexto.
 
-## 6. Dispacher
+![](../imagens/comunicacao/comunicacao5.png)    
+  1. Nome do objeto *BPI_Colecionaveis*
+  1. Adicione uma função *Nome*
+
+![](../imagens/comunicacao/comunicacao6.png)      
+
+  > Perceba que o objeto não tem lógica pois neste caso o objeto funciona como uma ponte para eventos em outros objetos que deverão ter sua própria lógica.
+
+1. Crie um **Blueprint Actor** com os seguintes parâmetros para que funcione como controlador de objetos.
+  1. Adicione e configure um **Static Mesh** com um malha de uma cadeira ou mesa.
+  1. Utilizando a opção **Class Settings** adicione a interface *BPI_Colecionaveis*.
+  1. Uma vez a interface configurada as funções de  *BPI_Colecionaveis* ficarão disponíveis através de eventos.   
+
+  ![](../imagens/comunicacao/comunicacao7.png)     
+
+1. Adicione no **Character** jogável *BP_Hero* e implemente a lógica abaixo.   
+  1. A função *Nome* da interface fica disponível para ser chamada.
+  ![](../imagens/comunicacao/comunicacao8.png)     
+
+1. Interface com parâmetros.
+  1. Implemente a função *ExecutaAcao* com parâmetro *Acao* do tipo **string**, usaremos esse parâmetro para determinar ações que o objeto pode executar.  
+  ![](../imagens/comunicacao/comunicacao9.png)   
+  1. Ao chamar a função é fornecido um valor.
+  ![](../imagens/comunicacao/comunicacao10.png)     
+  1. Implemente a lógica de tratamento do parâmetro dentro do objeto cadeira ou mesa.
+  ![](../imagens/comunicacao/comunicacao11.png)  
+  > Podemos melhorar o controle utilizando uma variável **enumeration** para parametrizar as ações.   
+
+## 6. Event Dispatcher
 
 
 
-
-
+***
 ## Referências
 - [Types of Blueprints](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Types/index.html)
 - [Blueprint interface](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Types/Interface/index.html)
+- [Event Dispatcher](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/EventDispatcher/index.html)
