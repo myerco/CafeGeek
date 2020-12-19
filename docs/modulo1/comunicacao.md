@@ -92,9 +92,21 @@ Usaremos o evento **OnEndOverlap** para ler todos os objetos que tem a **tag** *
 ## 6. Event Dispatcher
 Vinculando um ou mais eventos a um Event Dispatcher, você pode fazer com que todos esses eventos sejam disparados assim que o Event Dispatcher for chamado. Esses eventos podem ser vinculados a uma classe Blueprint, mas os Event Dispatchers também permitem que eventos sejam disparados dentro do Level Blueprint.
 
+1. O Character *BP_Hero* será o emissor dos eventos.
+  1. Adicionamos **EventDispatcher**
+  1. No **Event Graph** implementados a chamada do evento utilizando **Call** (Call nome do evento)
+![](../imagens/comunicacao/comunicacao12.png)    
+
+1. Nos objetos que vão interagir com o personagem.
+  1. Adicionamos referência ao personagem usando *cast* para ter acesso ao evento registrado no dispatcher.
+  ![](../imagens/comunicacao/comunicacao13.png)      
+  1. Implementamos **Bind Event** do disptacher para  associar um evento a chamada.
+![](../imagens/comunicacao/comunicacao14.png)        
 
 ***
 ## Referências
 - [Types of Blueprints](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Types/index.html)
 - [Blueprint interface](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Types/Interface/index.html)
 - [Event Dispatcher](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/EventDispatcher/index.html)
+- [Binding and Unbind](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/EventDispatcher/BindingAndUnbinding/index.html)
+- [Unreal Engine 4 em Português - Event Dispatcher](https://www.youtube.com/watch?v=qHYA4dLnVAA)
