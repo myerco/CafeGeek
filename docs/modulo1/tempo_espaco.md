@@ -48,18 +48,27 @@ Frame: Um quadro ou imagem apresentada, uma animação é composta por vários f
 - 10FPS = 1 cm/100ms = total:1s
 
 ## Delta time no unreal
-- Delta seconds = intervalo entre os quadros
-- Habilitando console = Editor preferences->Open console command box (ao lado do P ´)
+- Delta seconds = Intervalo entre os quadros. Delta Seconds é a quantidade de tempo decorrido desde o último evento Tick. Ao multiplicar seu deslocamento por Delta Seconds, seu movimento será independente da taxa de quadros.
+Por exemplo, seu peão tem uma velocidade máxima de 100. Se um segundo tivesse se passado desde o último tique de evento, seu peão moveria todas as 100 unidades. Se meio segundo tivesse passado, ele moveria 50 unidades.
+
+- Utilizando o **Delta seconds** para controlar o movimento do objeto independente do *FPS*.
+
+![](../imagens/tempoespaco/tempoespaco10.png)
+
+- Habilitando console = Editor preferences->Open
+![](../imagens/tempoespaco/tempoespaco2.png)
 - Project settings->Use fixed frame rate
-- Comando->stat fps
+
+### Lista de comandos úteis
+- Apresenta o valor de FPS
 ```
 stat ftps
 ```
-- Comando->t.MaxFPS 100 (Valor)
+- Altera o valor de FPS para 100
 ```
 t.MaxFPS 100
 ```
-- Comando->stat unit
+- Exibe informações de desempenho para os threads Frame, Game, Draw, GPU, RHIT e DynRes do projeto.
 ```
 stat unit
 ```
@@ -91,35 +100,43 @@ stat game
 1. Acionando a porta
 ![](../imagens/tempoespaco/tempoespaco4.png)
 
-3.Loop
-->BP->TimeLine->SetLooping
-4.Length
-->BP->Timeline->SetTimeLength
-->BP->Timeline->GetTimeLength
-5.Playback Position
-->BP->Timeline->GetPlaybackPosition
-6.Auto play
-7.Ignore time dilation
-8.Set timer by event e clear timer
-->BP->SetTimerbyEvent
-->BP-ClearAndInvalidateTimerByHandle
-9.Set timer by function e Clear timer
-->BP->SetTimerbyFunction
+## Utilizando variáveis no Timeline
+- Float variável
+- Vetor variável
+- Cor variável
+- Evento variável
+![](../imagens/tempoespaco/tempoespaco8.png)
+
+- Loop BP->TimeLine->SetLooping
+- Length BP->Timeline->SetTimeLength
+  - >BP->Timeline->GetTimeLength
+- 5.Playback Position
+  - ->BP->Timeline->GetPlaybackPosition
+- 6.Auto play
+- 7.Ignore time dilation
+- 8.Set timer by event e clear timer
+  - ->BP->SetTimerbyEvent
+  - ->BP-ClearAndInvalidateTimerByHandle
+- 9.Set timer by function e Clear timer
+  - ->BP->SetTimerbyFunction
 
 ## Curves
-->Miscelanios->Curve
-->Time->External->Curve
-->BP->Timeline->SetVectorCurve
+- Miscelanios->Curve  
+![](../imagens/tempoespaco/tempoespaco7.png)
+
+- ->Time->External->Curve
+- ->BP->Timeline->SetVectorCurve
 
 ## Custon Curves
 
 
 ## Velocidade
 
-->BP->Event Tick->PrintString(delta seconds)
-->BP ->Get World Delta Seconds
-12. Tick - movimento
-13. Tick - velocidade constante
+- ->BP->Event Tick->PrintString(delta seconds)
+- ->BP ->Get World Delta Seconds
+- 12. Tick - movimento
+- 13. Tick - velocidade constante
+![](../imagens/tempoespaco/tempoespaco11.png)
 
 ***
 
