@@ -3,7 +3,7 @@
 # Variáveis estruturadas
 Structure, é um tipo de dados definido pelo usuário disponível em C++. Ele permite que um usuário combine itens de dados de (possivelmente) diferentes tipos de dados sob um único nome.
 
-1. Criando *SJogador* do tipo **Structure**.
+1. Criando *SJogador* do tipo **Structure**. 
 ![](../imagens/estruturas/estruturas1.png)
 
 1. Definindo variáveis dentro da estrutura.
@@ -18,7 +18,7 @@ Structure, é um tipo de dados definido pelo usuário disponível em C++. Ele pe
 1. Apresentado variáveis.  
   ![](../imagens/estruturas/estruturas3.png)
 
-## Exemplo utilizando **Point Light Component** 
+## Exemplo utilizando **Point Light Component**
 As variáeis envolvidas no exemplo serão:
 1. Luzes - um *array* de tipo **Point Light Component**
 1. ControLuzes - um *array* de tipo **SControleLuzes**
