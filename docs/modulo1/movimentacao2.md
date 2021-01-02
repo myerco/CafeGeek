@@ -1,5 +1,7 @@
 # Movimentação estruturada
 
+> 1. []()
+
 
 ## Os objetos
 
@@ -22,7 +24,7 @@ força de impulso
 || 1 | **4** | 1|
 |Fim| 1 | 5  | 1 |  
 
-### Caracaterísticas
+### Características
 - Determinar o destino da movimentação.
 - Implementar a lógica de movimentação usando *timeline*.
 - Declarar a variável *Velocidade* para controle da velocidade de movimentação.
@@ -40,3 +42,7 @@ força de impulso
 
 
 ## 3. Controles
+
+## Referências
+- [Setting Up Character Movement](https://docs.unrealengine.com/en-US/InteractiveExperiences/HowTo/CharacterMovement/index.html)
+- [Grabbing Objects](https://www.youtube.com/watch?v=HnR1Gf5gXcY)
