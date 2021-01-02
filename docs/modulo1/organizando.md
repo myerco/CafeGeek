@@ -1,14 +1,13 @@
 [Home](https://myerco.github.io/unreal-engine) / [Unreal](https://myerco.github.io/unreal-engine/unreal.html)
 
 # Organizando o projeto
-Neste capitulo vamos organizar o projeto do > *ProjetoAula* e alguns elementos da interface.
+Neste capitulo vamos organizar o projeto *ProjetoAula* e alguns elementos da interface.
 
 ## Índice
 > 1. [Criando pastas de trabalho](#1)
 > 1. [Level e Inicialização](#2)
-> 1. [Preparando o projeto](#3)  
-> 1. [Pastas de trabalho e nomenclatura](#4)
-> 1. [Configurando o ícone do projeto](#5)
+> 1. [Pastas de trabalho e nomenclatura](#3)
+> 1. [Configurando as imagens do projeto](#4)
 
 
 <a name="1"></a>
@@ -57,14 +56,14 @@ Para um maior gerenciamento podem ser definidas pastas com nomenclaturas adequad
 				|-- Art
 				|		|-- Industrial
 				|		|		|-- Ambient
-				|   |		|-- Machinery
-				|  	|		|-- Pipes
-			  |		|-- Nature
-			  |  	|		|-- Ambient
-			  |  	|		|-- Foliage
-			  |  	|		|-- Rocks
-			  |  	|		|-- Trees
-			  |  	|-- Office
+				|		|		|-- Machinery
+				|		|		|-- Pipes
+				|		|-- Nature
+				|  			|		|-- Ambient
+				|  			|		|-- Foliage
+				|  			|		|-- Rocks
+				|  			|		|-- Trees
+				|		|-- Office
 				|-- Characters
 				|   |-- Bob
 				|   |-- Common
@@ -75,19 +74,40 @@ Para um maior gerenciamento podem ser definidas pastas com nomenclaturas adequad
 				|   |-- Zoe						
 				|-- Core
 				|		|-- Characters
-        |		|-- Engine
-        |		|-- GameModes
-        |		|-- Interactables
-        |		|-- Pickups
-        |		|-- Weapons
+				|		|-- Engine
+				|		|-- GameModes
+				|		|-- Interactables
+				|		|-- Pickups
+				|		|-- Weapons
 				|-- Maps
 				|	 	|-- Level1
 				|	 	|-- Level2
 ```
+	Separar a pasta do projeto do restante pode facilitar:
+	1. Versionamento - pastas com diferentes versões.
+	1. Isolar pacotes de testes e *Marketplace*.
+	1. DLC ou subprojetos - podemos administrar separadamente projetos relacionados.
+	1. Biblioteca de Materiais - podemos migrar pasta de materiais e compartilhar materiais sem muitos problemas definindo um pasta de nível superior.
+
+	Exemplo:
+	```
+	|-- Content
+			|-- ProjetoAula
+			|-- ProjetoAulaTestes
+			|-- ProjetoAulaArquitetura
+			|-- StarterContent
+			|-- FPS_Assault_Pack
+			|-- MaterialLibrary
+			|		|-- M_Master
+	```		
+
 
 <a name="4"></a>
-## 4. Configurando o ícone do projeto
+## 4. Configurando as imagens  do projeto
+Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu **Project Settings** opção **Plataforms**-> **Windows** e altere a imagens.
+![](../imagens/projeto/projeto8.png)
 
+> Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas pode ser convertido usando ferramentas online, por exemplo) e 256x256.
 
 ***
 ## Referências
@@ -95,3 +115,4 @@ Para um maior gerenciamento podem ser definidas pastas com nomenclaturas adequad
 - [Editor Preferences](https://docs.unrealengine.com/en-US/Engine/UI/index.html)  
 - [Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md)  
 - [Controles de navegação](https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html)
+- [How to change the icon of your game?](https://answers.unrealengine.com/questions/397901/how-to-change-the-icon-of-your-game.html)
