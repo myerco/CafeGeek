@@ -15,7 +15,7 @@ Devemos instalar o **Epic Games Laucnher** que gerencia a instalação e atualiz
 
 Durante a instalação é necessário baixar os pacotes de desenvolvimento em C++.
 
-1. Guia de instalação da * Epic Games*,[Instalando o Uneal Engine](https://docs.unrealengine.com/en-US/GettingStarted/Installation/index.html).
+1. Guia de instalação da **Epic Games** - [Instalando o Uneal Engine](https://docs.unrealengine.com/en-US/GettingStarted/Installation/index.html).
 1. Instalando os pacotes e o Visual Studio para programação com C++
   - [Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F).
   - [Unreal e Visual Studio](https://docs.unrealengine.com/en-US/Programming/Development/VisualStudioSetup/index.html).
