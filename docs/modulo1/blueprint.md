@@ -6,6 +6,7 @@
 > 1. [Level Blueprint](#2)  
 > 1. [Blueprint de atores](#3)
 > 1. [Utilizando o level Blueprint para escrever   mensagens na tela](#4)
+> 1. [Comentários](#4)
 
 <a name="1"></a>
 ## 1. Introdução ao *Blueprints Visual Scripting*
@@ -17,8 +18,8 @@ O sistema *Blueprints Visual Scripting* no *Unreal Engine* é um sistema complet
 - Fácil de entender, interagir e construir.  
 
 ### 1.2 Construção
-|**C++**  ||**Blueprints**  | 7+ Ferramentas e editores  | Compilação e execução |
-|:-:|-|-|-|-|
+|**C++**  |**Blueprints**  | 7+ Ferramentas e editores  | Compilação e execução |
+|:-:|-|-|-|
 |  |Framework classes | Timeline|  |  Depuração e adicionais de performance|
 |  | Replicação |Componentes| Comunicação entre BP |  |
 |  |  |Editor de script|  |  |
@@ -29,7 +30,7 @@ O sistema *Blueprints Visual Scripting* no *Unreal Engine* é um sistema complet
 
 <a name="2"></a>
 ## 2. Level Blueprint  
-Um Level Blueprint é um tipo especializado de Blueprint que atua como um gráfico de evento global em todo o nível. Cada nível em seu projeto tem seu próprio Level Blueprint criado por padrão, que pode ser editado no Unreal Editor, no entanto, novos *Level Blueprints* não podem ser criados por meio da interface do editor.  
+Um Level Blueprint é um tipo especializado de Blueprint que atua como um gráfico de evento global em todo o nível. Cada nível em seu projeto tem seu próprio Level Blueprint criado por padrão, que pode ser editado no *Unreal Editor*, no entanto, novos *Level Blueprints* não podem ser criados por meio da interface do editor.  
 
  ![Open Level Blueprint](https://docs.unrealengine.com/Images/Engine/Blueprints/UserGuide/Types/LevelBlueprint/toolbar_level_editor.webp)
 
@@ -49,26 +50,65 @@ Uma classe Blueprint, muitas vezes abreviada como Blueprint, é um ativo que per
 ![Atores](../imagens/actor/actor41.png)
 
 
-### 3.2 Blueprints
-- Components
-Os componentes são um tipo especial de objeto que os atores podem anexar a si próprios como subobjetos. Os componentes são úteis para compartilhar comportamentos comuns, como a capacidade de exibir uma representação visual e reproduzir sons. Eles também podem representar conceitos específicos do projeto, como a maneira como um veículo interpreta a entrada e muda sua própria velocidade e orientação. Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuário pode implementar as diferenças no controle e movimento do veículo, alterando qual componente um ator do veículo usa.  
+### 3.2 Components
+Os *Components* ou componentes são um tipo especial de objeto que os atores podem anexar a si próprios como subobjetos. Os componentes são úteis para compartilhar comportamentos comuns, como a capacidade de exibir uma representação visual e reproduzir sons. Eles também podem representar conceitos específicos do projeto, como a maneira como um veículo interpreta a entrada e muda sua própria velocidade e orientação. Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuário pode implementar as diferenças no controle e movimento do veículo, alterando qual componente um ator do veículo usa.
+
+![Atores](../imagens/actor/actor46.png)
+
+### 3.3 Components e My Blueprint    
+- Components - Apresenta todos os componentes anexados ao objeto principal.
+- My Blueprint - Apresenta os eventos, funções, macros e variáveis presentes dentro do objeto.  
+
 ![Atores](../imagens/actor/actor42.png)
 
-- Construction Script
- Lógica de que é executada na construção do objeto, similares ao eventos **construtor** em C++.  
+**Representação da organização do objeto**.
+
+```
+|-- Objeto
+|   |-- Events
+|   |   |-- BeginPlay
+|   |   |-- ActorBeginOverlap
+|   |   |-- Tick
+|   |-- Functions
+|   |   |-- ConstructionScript
+|   |-- Variables      
+|   |   |-- VariavelLocal
+```
+### 3.4 Construction Script
+
+Lógica de que é executada na construção do objeto, similares ao eventos **Construtor** em C++.  
+**Exemplo**
+
  ![Atores](../imagens/actor/actor43.png)
 
-- Event Graph
+### 3.5 Event Graph
 Contém um gráfico de nós e suas ligações representando a lógica de um Blueprint.     
 ![Atores](../imagens/actor/actor44.png)
+
+**BeginPlay**
+
+Este evento é acionado para todos os Atores quando o jogo é iniciado, quaisquer Atores gerados após o jogo ser iniciado terão isso chamado imediatamente.
+
+**ActorBeginOverlap**
+
+Este evento será executado quando uma série de condições forem atendidas ao mesmo tempo:
+  - A resposta à colisão entre os atores deve permitir sobreposições.
+  - Ambos os Atores que devem executar o evento têm Gerar Eventos de Sobreposição definido como verdadeiro.
+  - E, finalmente, a colisão de ambos os Atores começa a se sobrepor; movendo-se juntos ou um é criado sobrepondo-se ao outro.
+
+**Tick**
+
+Este é um evento simples que é chamado em todos os quadros do jogo.
 
 <a name="4"></a>
 ## 4. Utilizando o level Blueprint para escrever   mensagens na tela
  Utilizando o evento **BeginPlay** e conectando o nó **Print String** para escrever uma mensagem na tela.
+
 ![Atores](../imagens/actor/actor45.png)
 
-- Comentários   
-Os comentários podem ser incluídos diretamente em nós Blueprint únicos ou podem ser incluídos como caixas de comentários para agrupar nós relacionados e fornecer descrições sobre sua funcionalidade. Eles podem ser usados apenas para fins organizacionais para tornar os gráficos mais legíveis, mas também podem ser usados para fins informativos, pois permitem que descrições textuais sejam adicionadas da mesma forma que adicionar comentários ao código.
+<a name="5"></a>
+## 5. Comentários   
+Os comentários podem ser incluídos diretamente em nós **Blueprint** únicos ou podem ser incluídos como caixas de comentários para agrupar nós relacionados e fornecer descrições sobre sua funcionalidade. Eles podem ser usados apenas para fins organizacionais para tornar os gráficos mais legíveis, mas também podem ser usados para fins informativos, pois permitem que descrições textuais sejam adicionadas da mesma forma que adicionar comentários ao código.
 
 - Selecione os nós e digite "C" no teclado para adicionar um comentário.
 
@@ -83,3 +123,4 @@ Os comentários podem ser incluídos diretamente em nós Blueprint únicos ou po
 - [Placing Actors](https://docs.unrealengine.com/en-US/Engine/Actors/Placement/index.html)
 - [Blueprint Class](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Types/ClassBlueprint/index.html)
 - [Comments](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Comments/index.html)
+-[Events](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Events/index.html)
