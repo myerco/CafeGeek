@@ -1,7 +1,9 @@
 [Home](https://myerco.github.io/unreal-engine) / [Unreal](https://myerco.github.io/unreal-engine/unreal.html)
 
 # Blueprints
+Neste capítulo será apresenta o modelo da lógica de programação utilizando **Blueprint** e os seus elementos.
 
+## Índice
 > 1. [Introdução ao *Blueprints Visual Scripting*](#1)  
 > 1. [Level Blueprint](#2)  
 > 1. [Blueprint de atores](#3)
@@ -18,15 +20,38 @@ O sistema *Blueprints Visual Scripting* no *Unreal Engine* é um sistema complet
 - Fácil de entender, interagir e construir.  
 
 ### 1.2 Construção
-|**C++**  |**Blueprints**  | 7+ Ferramentas e editores  | Compilação e execução |
-|:-:|-|-|-|
-|  |Framework classes | Timeline|  |  Depuração e adicionais de performance|
-|  | Replicação |Componentes| Comunicação entre BP |  |
-|  |  |Editor de script|  |  |
-|  |  |Características adicionais|  |  |
+Abaixo da estrutura de elementos.
+```
+|-- C++  
+|   |-- Herança - Classes derivam e herdam de suas classes pai  
+|   |   |-- Framework - Classes Padrão  
+|   |   |   |-- Actor  
+|   |   |   |   |-- GameMode
+|   |   |   |   |   |-- Pawn
+|   |   |   |   |   |-- Controller
+|   |   |   |   |   |-- GameState
+|   |   |   |   |   |-- PlayerState
+|   |   |   |   |-- GameInstance
+|   |   |-- Events/Functions/Var - Eventos, funções e variáveis.
+|   |-- Blueprint
+|   |   |-- Components
+|   |   |   |-- Static Mesh
+|   |   |   |-- Emiter
+|   |   |-- Editores
+|   |   |   |-- Timeline
+|   |   |   |-- Componentes
+|   |   |   |-- Editor de script
+|   |   |-- Communication BP to BP - Comunicação entre Blueprints
+|   |   |   |-- Casting
+|   |   |   |-- Interface
+|   |   |   |-- Event Dispacher
+|   |-- Compilação - Compilação do Bytecode.
+|   |   |-- Navitization - Durante o processo de preparação, o Blueprint pode ser cruzado para c ++ e nativizado*
+|   |-- VM - Executado em uma máquina virtual
+```
+- [Arquivo Referência](../files/Blueprint_poster_18x24.pdf)
 
-### 1.3 Esquema
-[Arquivo](../files/Blueprint_poster_18x24.pdf)
+> A nativização é uma funcionalidade relativamente nova na Unreal Engine, que permite aos desenvolvedores converter suas classes criadas em Blueprint para código nativo C++ no momento em que é construído o pacote final do jogo. Isso faz com que seja possível aliar a facilidade de prototipação dos Blueprints ao desempenho do C++, acelerando o processo dedesenvolvimento e também reduzindo a possibilidade de erros na programação, levando em consideração que ao desenvolver em Blueprint todas as entradas e saídas de dados, assim como o fluxo das operações são verificados pela máquina virtual enquanto os testes estão sendo realizados, isso permite garantir que tudo funcione conforme o esperado, ou na pior das hipóteses, alerte ao desenvolvedor caso algo não saia como o esperado, por meio de mensagens intuitivas e claras
 
 <a name="2"></a>
 ## 2. Level Blueprint  
@@ -44,9 +69,10 @@ No nível mais fundamental, um ator é qualquer objeto que você pode colocar em
 
 ### 3.2 Blueprint Class
 Uma classe Blueprint, muitas vezes abreviada como Blueprint, é um ativo que permite que os criadores de conteúdo adicionem funcionalidade facilmente às classes de jogo existentes. Os projetos são criados dentro do Unreal Editor visualmente, em vez de digitar o código, e salvos como ativos em um pacote de conteúdo. Essencialmente, eles definem uma nova classe ou tipo de ator que pode então ser colocado em mapas como instâncias que se comportam como qualquer outro tipo de ator.  
-- Menu de acesso rápido  
+1. Menu de acesso rápido  
 ![Atores](../imagens/actor/actor40.png)  
-- Escolha de Classe de atores  
+
+1. Escolha de Classe de atores  
 ![Atores](../imagens/actor/actor41.png)
 
 
@@ -61,7 +87,7 @@ Os *Components* ou componentes são um tipo especial de objeto que os atores pod
 
 ![Atores](../imagens/actor/actor42.png)
 
-**Representação da organização do objeto**.
+### 3.4 Representação da organização do objeto
 
 ```
 |-- Objeto
@@ -74,30 +100,27 @@ Os *Components* ou componentes são um tipo especial de objeto que os atores pod
 |   |-- Variables      
 |   |   |-- VariavelLocal
 ```
-### 3.4 Construction Script
-
+### 3.5 Construction Script
 Lógica de que é executada na construção do objeto, similares ao eventos **Construtor** em C++.  
+
 **Exemplo**
 
  ![Atores](../imagens/actor/actor43.png)
 
-### 3.5 Event Graph
+### 3.6 Event Graph
 Contém um gráfico de nós e suas ligações representando a lógica de um Blueprint.     
 ![Atores](../imagens/actor/actor44.png)
 
-**BeginPlay**
-
+**BeginPlay**   
 Este evento é acionado para todos os Atores quando o jogo é iniciado, quaisquer Atores gerados após o jogo ser iniciado terão isso chamado imediatamente.
 
-**ActorBeginOverlap**
-
+**ActorBeginOverlap**   
 Este evento será executado quando uma série de condições forem atendidas ao mesmo tempo:
   - A resposta à colisão entre os atores deve permitir sobreposições.
   - Ambos os Atores que devem executar o evento têm Gerar Eventos de Sobreposição definido como verdadeiro.
   - E, finalmente, a colisão de ambos os Atores começa a se sobrepor; movendo-se juntos ou um é criado sobrepondo-se ao outro.
 
-**Tick**
-
+**Tick**   
 Este é um evento simples que é chamado em todos os quadros do jogo.
 
 <a name="4"></a>
@@ -111,6 +134,12 @@ Este é um evento simples que é chamado em todos os quadros do jogo.
 Os comentários podem ser incluídos diretamente em nós **Blueprint** únicos ou podem ser incluídos como caixas de comentários para agrupar nós relacionados e fornecer descrições sobre sua funcionalidade. Eles podem ser usados apenas para fins organizacionais para tornar os gráficos mais legíveis, mas também podem ser usados para fins informativos, pois permitem que descrições textuais sejam adicionadas da mesma forma que adicionar comentários ao código.
 
 - Selecione os nós e digite "C" no teclado para adicionar um comentário.
+- Podemos adicionar Características aos comentários que detalham melhor a lógica dos nós envolvidos, como por exemplo adicionando cores.  
+  **Vermelho** - Lógica principal ou crítica.  
+  **Azul** - Lógica de atores.  
+  **Verde** - Lógica de estruturas de controle.  
+  
+![Atores](../imagens/actor/actor47.png)
 
 ***
 
@@ -123,4 +152,5 @@ Os comentários podem ser incluídos diretamente em nós **Blueprint** únicos o
 - [Placing Actors](https://docs.unrealengine.com/en-US/Engine/Actors/Placement/index.html)
 - [Blueprint Class](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Types/ClassBlueprint/index.html)
 - [Comments](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Comments/index.html)
--[Events](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Events/index.html)
+- [Events](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Events/index.html)
+- [Nativização](https://bibliotecadigital.ipb.pt/bitstream/10198/18264/4/pauta-relatorio-9.pdf)
