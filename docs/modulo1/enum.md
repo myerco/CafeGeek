@@ -10,24 +10,21 @@ Neste capitulo serão apresentados Enumerações (*Enumeration*). Enumeração �
 > 1. [Exemplos de uso (Lâmpada)](#3)
 > 1. [Exemplos de uso (A pedra das emoções)](#4)
 
-***
 <a name="1"></a>
 ## 1. Conceito e implementação
-- Uma enumeração é um tipo definido pelo usuário que consiste em um conjunto de constantes integrais nomeadas que são conhecidas como enumeradores.
+Uma enumeração é um tipo definido pelo usuário que consiste em um conjunto de constantes integrais nomeadas que são conhecidas como enumeradores.
 
-Exemplo:  
+Exemplo:
+```cpp
 enum cores = { vermelho,amarelo, azul, verde = 20, preto}
-
-***
-
+```
 <a name="2"></a>
 ## 2. Criando
-- Execute o comando **blueprints->Enumeration** e logo depois preencha os valores conforme a tela abaixo.
+Execute o comando **blueprints->Enumeration** e logo depois preencha os valores conforme a tela abaixo.  
 ![](../imagens/enum/enum6.png)
 
-- Objeto criado EN_Estado e EN_Pedra.
+Objeto criado EN_Estado e EN_Pedra.  
 ![](../imagens/enum/enum5.png)
-***
 
 <a name="3"></a>
 ## 3. Exemplos de uso (Lâmpada)
@@ -42,8 +39,6 @@ enum cores = { vermelho,amarelo, azul, verde = 20, preto}
 
 1.  Ligando e desligando utilizando o *enum*.   
 ![](../imagens/enum/enum4.png)
-
-***
 
 <a name="4"></a>
 ## 4. Exemplos de uso (A pedra e as emoções)
