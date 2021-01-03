@@ -102,7 +102,9 @@ Com a opção Privada marcada em uma variável, isso evita que a variável seja 
 **Publica**  
 Para permitir que uma variável seja modificada de fora de seu Blueprint, torne-a pública.  
 ![](../imagens/variaveis/variaveis8.png)
+
 ***
+
 ## Referências
 - [Blueprint Variables](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Variables/index.html)
 - [Coding Standard](https://docs.unrealengine.com/en-US/Programming/Development/CodingStandard/index.html)
