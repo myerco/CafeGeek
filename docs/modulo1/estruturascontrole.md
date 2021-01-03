@@ -37,11 +37,12 @@ else
 O nó **Sequence** permite que um único pulso de execução acione uma série de eventos em ordem. O nó pode ter qualquer número de saídas, todas chamadas assim que o nó Sequência receber uma entrada. Eles sempre serão chamados em ordem, mas sem qualquer demora. Para um usuário típico, as saídas provavelmente parecerão ter sido disparadas simultaneamente.
 
 **Blueprint**
+
 ![](../imagens/estruturascontrole/controle2.png)
 
 **C++**
 ```cpp
-// Não tem similar em C++.
+// Não tem similar em C++, deve ser implementado
 ```
 
 <a name="3"></a>
@@ -49,6 +50,7 @@ O nó **Sequence** permite que um único pulso de execução acione uma série d
 O nó For Loop funciona como um loop de código padrão, disparando um pulso de execução para cada índice entre o início e o fim.
 
 **Blueprint**
+
 ![](../imagens/estruturascontrole/controle3.png)
 
 **C++**
@@ -82,13 +84,14 @@ cout << "Teminei de contar\n";
 O nó **DoN** disparará um pulso de execução N vezes. Depois que o limite for atingido, ele interromperá todas as execuções de saída até que um pulso seja enviado para sua entrada Reset.
 
 **Blueprint**
+
 ![](../imagens/estruturascontrole/controle5.png)
 No exemplo acima toda vez que a tecla **H** for pressionada um valor vai ser apresentado. Quanto o valor 10 for atingido a instrução **Print String** não será executada.  
 Pressionando a tecla **J** a contagem será reiniciada.
 
 **C++**
 ```cpp
-// Não tem similar em C++.
+// Não tem similar em C++, deve ser implementado
 ```
 
 <a name="6"></a>
@@ -96,6 +99,7 @@ Pressionando a tecla **J** a contagem será reiniciada.
 O nó DoOnce - como o nome sugere - disparará um pulso de execução apenas uma vez. Desse ponto em diante, ele interromperá toda a execução de saída até que um pulso seja enviado para sua entrada Reset. Este nó é equivalente a um nó **DoN** onde N = 1.
 
 **Blueprint**
+
 ![](../imagens/estruturascontrole/controle6.png)
 
 **C++**
@@ -106,12 +110,14 @@ O nó DoOnce - como o nome sugere - disparará um pulso de execução apenas uma
 <a name="7"></a>
 ## 7 Flip Flop
 O nó FlipFlop obtém uma saída de execução e alterna entre duas saídas de execução. Na primeira vez que é chamado, a saída A é executada. Na segunda vez, B. Depois A, B e assim por diante. O nó também possui uma saída booleana que permite rastrear quando a Saída A foi chamada.
+
 **Blueprint**
+
 ![](../imagens/estruturascontrole/controle7.png)
 
 **C++**
 ```cpp
-// Não tem similar em C++.
+// Não tem similar em C++, deve ser implementado
 ```
 
 <a name="8"></a>
@@ -119,14 +125,13 @@ O nó FlipFlop obtém uma saída de execução e alterna entre duas saídas de e
 O nó MultiGate recebe um único pulso de dados e o encaminha para qualquer número de saídas potenciais. Isso pode ocorrer sequencialmente, aleatoriamente e pode ou não ser executado em loop.
 
 **Blueprint**
+
 ![](../imagens/estruturascontrole/controle8.png)
 
 **C++**
 ```cpp
-// Não tem similar em C++.
+// Não tem similar em C++, deve ser implementado
 ```
-
-
 ***
 ## Referências
 - [Flow Control](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/index.html)
