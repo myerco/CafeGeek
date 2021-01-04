@@ -20,27 +20,39 @@ Neste capitulo serão apresentados os conceitos de estruturas de *arrays* ou vet
 
 <a name="1"></a>
 ## 1. Conceito e implementação
-- É um conjunto de variáveis do mesmo tipo agrupadas  
-Exemplo:  
-Números inteiros  
-a = ( 5,2,7,3,9)  
-Números *float*  
-a = ( 5.1,2.9,7.0,3.121,9.43)  
-Números *String*  
-s = ( "Ana","José","Hugo","Hulda")
+É um conjunto de variáveis do mesmo tipo agrupadas.   
 
-- Podemos representar os arrays da seguinte forma:
+### 1.1 Exemplo de números inteiros  
+```
+a = ( 5,2,7,3,9)  
+```
+
+### 1.2 Exemplo de números Números *float*  
+```
+a = ( 5.1,2.9,7.0,3.121,9.43)  
+```
+### 1.2 Exemplo com *String*  
+```
+s = ( "Ana","José","Hugo","Hulda")
+```
+
+Podemos representar os arrays da seguinte forma:
 
 | s |  s[0] |s[1]   |s[2]    | s[3]  |
 |---|---|---|---|---|
 |**Valor**|Ana|José|Hugo|Hulda|
 |**Índice**|  0 | 1  | 2  | 3  |
 
+- s[0] - O valor entre colchetes indica a posição (índice) do elemento no array.
+- O índice em C++ inicia com o valor 0.
+
 <a name="2"></a>
 ## 2. Declaração
-- Blueprints  
+**Blueprint**  
+
 ![Declarando array](../imagens/array/bp_array_1.png)
-- Em C++  
+
+**C++**  
 ```cpp
 FString  pessoas[4] = { "Ana","José","Hugo","Hulda"};
 int  pessoas[3] = { 4,3,7};
@@ -50,9 +62,10 @@ int  pessoas[3] = { 4,3,7};
 ## 3. Método *Get* para *arrays*
 Para acessar qualquer elemento dentro *array* é necessários utilizar o índice.  
 
-- Blueprints  
+**Blueprint**  
 ![Declarando array](../imagens/array/bp_array_2.png)
-- Em C++  
+
+**C++**  
 ```
 FString s = pessoa[0];
 UE_LOG(LogTemp, Warning, TEXT("O nome é %s",*s);
@@ -60,10 +73,13 @@ UE_LOG(LogTemp, Warning, TEXT("O nome é %s",*s);
 
 <a name="4"></a>
 ## 4. Get utilizando uma variável como índice
+Podemos utilizar uma variável para acessar elementos do array.
 ![Declarando array](../imagens/array/bp_array_3.png)
 
 <a name="5"></a>
 ## 5. Último índice e a quantidade de elementos do *array*
+O comando **Last Index** retorna o valor do último índice, o comando **Length** retorna a quantidade de elementos do array.
+
 ![Declarando array](../imagens/array/bp_array_4.png)
 
 
@@ -75,13 +91,15 @@ UE_LOG(LogTemp, Warning, TEXT("O nome é %s",*s);
 ## 7. Listando todos os elementos utilizando *for*
 ![Declarando array](../imagens/array/bp_array_6.png)
 
-
 <a name="8"></a>
 ## 8. Usando o comando *find*
-- Blueprint  
+
+**Blueprint**  
+
 ![Declarando array](../imagens/array/bp_array_7.png)
-- c++
-```
+
+**C++**
+```cpp
 int32 Index;
 if (StrArr.Find(TEXT("Hello"), Index))
 {
@@ -91,14 +109,19 @@ if (StrArr.Find(TEXT("Hello"), Index))
 
 <a name="9"></a>
 ## 9. Comando *remove index*
+Utilizando um valor para remover um elemento do array.
 ![Declarando array](../imagens/array/bp_array_8.png)
 
 <a name="10"></a>
 ## 10. Comando *remove*
+O comando **Remove** executa uma busca utilizando um paramentro, **NomeBusca** e o remove do array.
+
 ![Declarando array](../imagens/array/bp_array_9.png)
 
 <a name="11"></a>
 ## 11. Limpando o *clear*
+O comando **Clear** remove todos os elementos do array.
+
 ![Declarando array](../imagens/array/bp_array_10.png)
 
 <a name="12"></a>
