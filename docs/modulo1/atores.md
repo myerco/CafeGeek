@@ -6,9 +6,9 @@ projeto.
 
 ## Índice
 >1. [Conceituando atores](#1)
->  1. [Classes](#11)
->  1. [Hierarquia](#12)
->  1. [Implementação](#13)
+>   1. [Classes](#11)
+>   1. [Hierarquia](#12)
+>   1. [Implementação](#13)
 >1. [Classes Bluprint](#2)
 >   1. [Actor](#21)
 >   1. [Pawn](#22)
