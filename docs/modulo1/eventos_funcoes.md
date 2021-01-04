@@ -1,17 +1,22 @@
 [Home](https://myerco.github.io/unreal-engine) / [Unreal](https://myerco.github.io/unreal-engine/unreal.html)
 
 # Eventos, funções e macros
+Neste capitulo serão apresentados a lógica de programação utilizando métodos, funções e macros
+
+## Índice
 >1. [Conceito](#1)
 >    1. [Programação Orientada a Objetos](#11)
 >    1. [Métodos](#12)
 >    1. [Funções](#13)
->1. [*Collapse Nodes*](#1);
->1. Eventos;
->1. Eventos customizados;
->1. Entrada de eventos;
->1. Funções;
->1. Funções com parâmetros e saída;
->1. Macros;
+>1. [Eventos](#2);
+>    1. [Evento de dano no personagem](#21)
+>    1. [Chamando o evento](#22)
+>    1. [Evento e Métodos](#23)
+>1. [Funções **Functions**](#3)
+>1. [Macros](#4)
+>1. [Collapse Nodes](#5)
+>1. [Executando a função e a macros](#6)
+
 
 <a name="1"></a>
 ## 1. Conceito
@@ -41,19 +46,25 @@ Ele pode ser acessado em qualquer lugar em todo o programa.
 Ele tem a capacidade de retornar valores, se necessário.
 Se uma função for definida, ela será a mesma para todos os objetos criados.  
 
-<a name="1"></a>
-# Eventos (**Events**)
+<a name="2"></a>
+# 2. Eventos (**Events**)
 Os eventos são nós chamados a partir do código do jogo para iniciar a execução de uma rede individual dentro do *EventGraph*. Eles permitem que os *Blueprints* executem uma série de ações em resposta a certos eventos que ocorrem dentro do jogo, como quando o jogo começa, quando um nível é reiniciado ou quando um jogador sofre dano.
 
 Os eventos podem ser acessados dentro do *Blueprints* para implementar novas funcionalidades ou para substituir ou aumentar a funcionalidade padrão. Qualquer número de eventos pode ser usado em um único *EventGraph*; embora apenas um de cada tipo possa ser usado.
 
-- Evento de dano  no personagem
+<a name="21"></a>
+## 2.1 Evento de dano  no personagem
 ![](../imagens/modulos/modulo5.png)
+- **CausaDano** é um evento customizado utilizando a opção **Add Custom Event** no menu de contexto dentro do **Event Graph**.
+- Pertence a classe *BP_Hero* do tipo **Character**.
 
-- Chamando o evento
+<a name="22"></a>
+## 2.2 Chamando o evento
 ![](../imagens/modulos/modulo6.png)
+- Utilizando o evento **OnComponentBeginOverlap** para acionar o evento **CausaDano**.
 
-### Evento e Métodos
+<a name="23"></a>
+## 2.3 Evento e Métodos
 Os métodos são procedimentos ou funções que realizam as ações próprias do objeto. Assim, os métodos são as ações que o objeto pode realizar. Tudo o que o objeto faz é através de seus métodos, pois é através dos seus métodos que um objeto se manifesta, através deles que o objeto interage com os outros objetos.  
 **C++**
 ```cpp
@@ -87,15 +98,13 @@ void AProjeto::Tick(float DeltaTime)
 }
 
 ```
-
-# Funções (**functions**)
-- Pedaços de código que retornam algum valor
-para o programa que executou a chamada.
-- São mini programas com as características de alocação de memória, estruturas internas de código e variáveis locais.
-- Podem receber parâmetros externos.  
+<a name="3"></a>
+## 3. Funções (**functions**)
+São mini programas com as características de alocação de memória, estruturas internas de código e variáveis locais.
+Podem receber parâmetros externos e retornam algum valor para o programa que executou a chamada.  
+- Tem seu próprio **Event Graph**
 - Funções não suportam o nó **Delay** ou eventos de temporização.
-- Funções podem ter ser replicadas
-em jogos multiplayer.
+- Funções podem ter ser replicadas em jogos multiplayer.
 - Não aceitam eventos customizados.
 
 **C++**   
@@ -111,14 +120,14 @@ void CalculoIMC(float pPeso, float pAltura) {
 **Blueprint**   
 ![Function](../imagens/modulos/modulo1.png)
 
-## Macros
-- São essencialmente código colapsado.
+<a name="4"></a>
+## 4. Macros
+Blueprint Macros, ou Macros, são essencialmente iguais a gráficos de nós recolhidos. Eles têm um ponto de entrada e um ponto de saída designado por nós de túnel. Cada túnel pode ter qualquer número de pinos de execução ou de dados que são visíveis no nó da macro quando usados em outros Blueprints e gráficos.
 - São basicamente um modelo *Template* de código ou nós.
 - Não suportam o nó **Delay**.
 - Não aceitam eventos customizados.
 - Não podem ser replicados em jogos multiplayer.
 
-Exemplo:  
 **C++**
 ```c++
   #define MIN(a,b) (((a)<(b)) ? a : b)
@@ -126,18 +135,20 @@ Exemplo:
   std::cout << "The minimum is " << MIN(42, 8) << endl;
 ```
 
-**Blueprint**
-
+**Blueprint**  
 ![Function](../imagens/modulos/modulo2.png)
 
-## Colapse Nodes
-- Organização de código, escondendo nós da estrutura principal.
+<a name="5"></a>
+## 5. Collapse Nodes
+Usado principalmente para organização de código, escondendo nós da estrutura principal.
 - Aceitam parâmetros de entrada e saída.  
 
 ![Function](../imagens/modulos/modulo4.png)
+- No menu de contexto do **Event Graph** acionamos a opção **Collapse Nodes**
+- Vai ser criado um gráfico de eventos próprio.
 
-
-## Executando a função e a macros  
+<a name="6"></a>
+## 6. Executando a função e a macro  
 ![Function](../imagens/modulos/modulo3.png)
 
 ***
