@@ -117,7 +117,7 @@ Este evento é acionado para todos os Atores quando o jogo é iniciado, quaisque
 **ActorBeginOverlap**   
 Este evento será executado quando uma série de condições forem atendidas ao mesmo tempo:
   - A resposta à colisão entre os atores deve permitir sobreposições.
-  - Ambos os Atores que devem executar o evento têm Gerar Eventos de Sobreposição definido como verdadeiro.
+  - Ambos os Atores que devem executar o evento têm que gerar Eventos de Sobreposição definido como verdadeiro.
   - E, finalmente, a colisão de ambos os Atores começa a se sobrepor; movendo-se juntos ou um é criado sobrepondo-se ao outro.
 
 **Tick**   
@@ -138,7 +138,7 @@ Os comentários podem ser incluídos diretamente em nós **Blueprint** únicos o
   **Vermelho** - Lógica principal ou crítica.  
   **Azul** - Lógica de atores.  
   **Verde** - Lógica de estruturas de controle.  
-  
+
 ![Atores](../imagens/actor/actor47.png)
 
 ***
