@@ -198,13 +198,27 @@ O processo de criação de uma nova instância de um ator é conhecido como spaw
 ### 7.2 Listando atores utilizando *tag* (etiquetas)  
 ![Herança](../imagens/actor/actor14.png)
 
-## Colisões
+## 8. Colisões
 - Simplex collision
 - Complex collision  
 
-## Default pawn
+## 9. Classe Pawn
+A classe Pawn é a classe base de todos os atores que podem ser controlados por jogadores ou IA. Um peão é a representação física de um jogador ou entidade de IA dentro do mundo. Isso não significa apenas que o peão determina a aparência visual do jogador ou entidade de IA, mas também como ele interage com o mundo em termos de colisões e outros aspectos físicos
 
-## Câmera
+    Isso pode ser confuso em certas circunstâncias, pois alguns tipos de jogos podem não ter uma malha de jogador ou avatar visível dentro do jogo. Independentemente disso, o peão ainda representa a localização física, rotação, etc. de um jogador ou entidade dentro do jogo. Um personagem é um tipo especial de peão que tem a capacidade de andar.
+
+
+**Default Pawn**  
+Enquanto a classe Pawn fornece apenas o essencial para a criação de uma representação física de um jogador ou entidade de IA no mundo, a subclasse DefaultPawn vem com alguns componentes e funcionalidades adicionais.
+
+A classe DefaultPawn contém um DefaultPawnMovementComponent nativo, um CollisionComponent esférico e um StaticMeshComponent. Para controlar o DefaultPawnMovementComponent, bem como a câmera, um Booleano para adicionar ligações de movimento padrão também está presente na classe DefaultPawn e é definido como verdadeiro por padrão.
+
+**Spectator Pawn**  
+A classe SpectatorPawn é uma subclasse de DefaultPawn. Por meio de um GameMode, diferentes classes podem ser especificadas como padrões para Pawn e SpectatorPawn, e esta classe fornece uma estrutura simples ideal para a funcionalidade de espectador.
+
+## 10. Classe Character
+Um personagem é um peão que tem algumas funcionalidades básicas de movimento bípede por padrão.  
+Com a adição de um CharacterMovementComponent, um CapsuleComponent e um SkeletalMeshComponent, a classe Pawn é estendida para a classe Character com muitos recursos. Um personagem é projetado para uma representação do jogador orientada verticalmente que pode andar, correr, pular, voar e nadar pelo mundo. Esta classe também contém implementações de rede básica e modelos de entrada.
 
 ***
 
@@ -219,3 +233,4 @@ O processo de criação de uma nova instância de um ator é conhecido como spaw
 - [Componentes](https://docs.unrealengine.com/en-US/Programming/UnrealArchitecture/Actors/Components/index.html)
 - [Brushes](https://docs.unrealengine.com/en-US/Basics/Actors/Brushes/index.html)
 - [Actors](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/Actors/index.html)
+- [Collsion Overview](https://docs.unrealengine.com/en-US/InteractiveExperiences/Physics/Collision/Overview/index.html)
