@@ -3,7 +3,7 @@
 ![MDA](https://myerco.github.io/unreal-engine/imagens/cafegeek_small.png)
 
 ***
-# Desenvolvimento de jogos utilizando Unreal Engine 4
+## Desenvolvimento de jogos utilizando Unreal Engine 4
 ## Habilidades que serão aprendidas  
 ![Classes de atores](imagens/icons/iconfinder_Check.png) Configuração e organização de projetos;   
 ![Classes de atores](imagens/icons/iconfinder_Check.png) Analisar e aplicar lógica de programação utilizando *Blueprint* e *C++*;     

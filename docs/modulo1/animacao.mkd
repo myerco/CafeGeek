@@ -1,26 +1,20 @@
-![Titulo](https://docs.google.com/drawings/d/e/2PACX-1vQ1Hn1YDYa_ZliOtpjdxVv9CZDOT5-WMhGqGUMR4hYoGKBaVpjLDvgXsHKQ0WdEaeiYVR1PVdQBXdeH/pub?w=958&h=540)
-### Dificuldade : **Nível 3**   
+[Home](https://myerco.github.io/unreal-engine) / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/unreal.html)
+
+# Animação
 
 Neste projeto serão apresentados as estruturas necessárias para construção de
 animações, como por exemplo, importando arquivos FBX, malhas e esqueletos
 e suas forma de animação e programação.
-Vamos utilizar os seguintes elementos :
-1. Programação com Blueprints;
-1. Editor de malhas ;
-1. Editor de esqueleto;
-1. Editor de animação;
-1. Programação de estados de animação;
 
 ## Índice
-1. Preparando o projeto
-1. Estruturas básicas
-1. Baixando o personagem
-1. Importando o personagem
-1. Animação - Animation Blend Space 1D
-1. Animação - Blueprint
-1. A Classe do personagem
+>1. [Preparando o projeto](#1)
+>1. [Estruturas básicas](#2)
+>1. [Baixando o personagem](#3)
+>1. [Importando o personagem](#4)
+>1. [Animação - Animation Blend Space 1D](#5)
+>1. [Animação - Blueprint](#6)
+>1. [A Classe do personagem](#7)
 
-***
 
 ## 1 - Preparando o projeto
 
