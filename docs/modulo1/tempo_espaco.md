@@ -4,7 +4,7 @@
 Neste capítulo será apresentados os elementos de controle de frames e sua execução.
 
 ## Índice
-> 1. [Delt time](#1)
+> 1. [Delta time](#1)
 > 1. [Causando dano com *Set Timer By Event*](#1)
 > 1. [*Time Line*](#1)
 > 1. [FPS e *Delta Time*](#1)
@@ -33,10 +33,11 @@ Frame: Um quadro ou imagem apresentada, uma animação é composta por vários f
 - 60 FPS = 1/59 , 0.017 17ms
 
 ### Exemplos 2 Espaço:
+
 |  |  |  |  |  |  |  |  |  |  | |
 |:-:|-|-|-|-|-|-|-|-|-|-|
 |Centímetros  | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-|Segundos | 1 | 2 | 3 |4  | 5 | 6 | 7 | 8 | 9 | 10  |
+|Segundos | 1 | 2 | 3 |4  | 5 | 6 | 7 | 8 | 9 |   |
 
 - 1 cm/s = Total: 10s
 
@@ -50,43 +51,49 @@ Frame: Um quadro ou imagem apresentada, uma animação é composta por vários f
 - 100FPS = 1 cm/10ms = total:0,1s
 - 10FPS = 1 cm/100ms = total:1s
 
-<a name="2"></a>
-## 2. Delta time no Unreal
-- Delta seconds = Intervalo entre os quadros. Delta Seconds é a quantidade de tempo decorrido desde o último evento Tick. Ao multiplicar seu deslocamento por Delta Seconds, seu movimento será independente da taxa de quadros.
-Por exemplo, seu peão tem uma velocidade máxima de 100. Se um segundo tivesse se passado desde o último tique de evento, seu peão moveria todas as 100 unidades. Se meio segundo tivesse passado, ele moveria 50 unidades.
-
-- Utilizando o **Delta seconds** para controlar o movimento do objeto independente do *FPS*.
-
-![](../imagens/tempoespaco/tempoespaco10.png)
-
-- Habilitando console = Editor preferences->Open
-![](../imagens/tempoespaco/tempoespaco2.png)
-- Project settings->Use fixed frame rate
-
 <a name="3"></a>
 ## 3. Lista de comandos do console
-- Apresenta o valor de FPS
+Vamos habilitar o console de comandos para verificar e alterar o *FPS* do jogo.
+![](../imagens/tempoespaco/tempoespaco9.png)
+- Menu Editor preferences->Open
+
+1. Apresenta o valor de FPS
 ```
 stat ftps
 ```
-- Altera o valor de FPS para 100
+1. Altera o valor de FPS para 100
 ```
 t.MaxFPS 100
 ```
-- Exibe informações de desempenho para os threads Frame, Game, Draw, GPU, RHIT e DynRes do projeto.
+1. Exibe informações de desempenho para os threads Frame, Game, Draw, GPU, RHIT e DynRes do projeto.
 ```
 stat unit
 ```
-
-- Comando->stat game
+1. Comando->stat game
 ```
 stat game
 ```
 
-<a name="4"></a>
-## 4. Timeline
+<a name="3"></a>
+## 3. Delta seconds
+Delta Seconds é a quantidade de tempo decorrido desde o último evento Tick. Ao multiplicar seu deslocamento por Delta Seconds, seu movimento será independente da taxa de quadros.
+Por exemplo, seu peão tem uma velocidade máxima de 100. Se um segundo tivesse se passado desde o último tique de evento, seu peão moveria todas as 100 unidades. Se meio segundo tivesse passado, ele moveria 50 unidades.
+Delta seconds = Intervalo entre os quadros.
 
-<a name="41"></a>
+### 2.1  Utilizando o **Delta seconds**
+Vamos controlar o movimento do objeto independente do *FPS*.  
+![](../imagens/tempoespaco/tempoespaco10.png)
+- **Distancia** - Valor = 100
+- **Velocidade** - Valor = 10
+- O resultado esperado é que mesmo com um *FPS* baixo o movimento ainda se mantem uniforme.
+
+### 2.2 Fixando o *FPS* do projeto
+- Project settings->Use fixed frame rate
+
+<a name="3"></a>
+## 3. Timeline
+
+<a name="31"></a>
 ### 4.1 Utilizando variáveis no Timeline
 - Float variável
 - Vetor variável

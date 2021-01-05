@@ -107,6 +107,7 @@ Usaremos o evento **OnEndOverlap** para ler todos os objetos que tem a **tag** *
 
 > Podemos melhorar o controle utilizando uma variável **enumeration** para parametrizar as ações.   
 
+<a name="6"></a>
 ## 6. Event Dispatcher
 Vinculando um ou mais eventos a um Event Dispatcher, você pode fazer com que todos esses eventos sejam disparados assim que o Event Dispatcher for chamado. Esses eventos podem ser vinculados a uma classe Blueprint, mas os Event Dispatchers também permitem que eventos sejam disparados dentro do Level Blueprint.
 
