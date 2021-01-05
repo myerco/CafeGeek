@@ -62,7 +62,7 @@
 1. [Animação](https://myerco.github.io/unreal-engine/modulo1/animacao.html)
 1. [Multiplayer](https://myerco.github.io/unreal-engine/modulo1/multiplayer.html)
 1. [Convertendo para c++](https://myerco.github.io/unreal-engine/modulo1/convertendo.html)
-1. [Inteligência Artificial](https://myerco.github.io/unreal-engine/modulo1/inteligenciaArtificial.html)
+1. [Inteligência Artificial](https://myerco.github.io/unreal-engine/modulo1/inteligenciaartificial.html)
 
 <a name="7"></a>
 ### 8. Efeitos especiais

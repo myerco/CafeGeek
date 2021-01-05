@@ -1,12 +1,13 @@
 [Home](https://myerco.github.io/unreal-engine) / [Unreal](https://myerco.github.io/unreal-engine/unreal.html)
 # Movimentação
+Neste capítulo vamos implementar apresentar a lógica de movimentação de atores com **Blueprint** e aplicar em um jogo de plataforma.
 
 ## Índice
-> 1. [Conceito](#1)
->     1. [Actions Mappings](#11)
->     1. [Axis Mappings](#12)
->     1. [Mapeamento Input do projeto](#13)
-> 1. [Movimentação de peão Pawn](#2)
+>1. [Conceito](#1)
+>      1. [Actions Mappings](#11)
+>      1. [Axis Mappings](#12)
+>      1. [Mapeamento Input do projeto](#13)
+>1. [Movimentação de peão Pawn](#2)
 >     1. [Componentes](#21)
 >     1. [Habilitando a entrada de comandos](#22)
 >     1. [Implementando movimentação com teclado](#23)
@@ -129,22 +130,26 @@ Podemos utilizar uma variável Enumeration para registrar o estado do objeto.
 
 <a name="4"></a>
 ## 4. Plataforma
-Neste passo iremos implementar a Plataforma de Poder *PowerUp* para exemplificar a movimentação de objetos.
+Neste passo iremos implementar a Plataforma de Poder *PowerUp* para exemplificar a movimentação de objetos. Ao colidir com a plataforma a velocidade e o impulso do personagem **HP_Hero** aumentam.   
+A plataforma deverá se movimentar utilizando marcações (**TargetPoint**) para facilitar a level design.
+Serão implementados objetos para disparar (Plataforma Trigger) a movimentação das plataformas.
 
 <a name="41"></a>
-### 4.1 Estrutura do objeto
+### 4.1 Estrutura do objeto Plataforma
 ![](../imagens/actor/actor35.png)  
-- StaticMeshActor <- Actor
-  - Static Mesh   
+- **StaticMeshActor** - Derivado da classe Actor.
+- **Box** - Do tipo **Box Collision**.
+- **Velocidade/Impulso** - Variáveis públicas para multiplicar as propriedades do personagem.
 
 <a name="42"></a>
 ### 4.2 Aumentando a  velocidade
-Aumenta a velocidade de corrida e força de impulso do personagem do *BP_Hero* tipo **Character**
+Lógica para aumentar a velocidade de corrida e força de impulso do personagem do *BP_Hero* tipo **Character**.
 ![](../imagens/actor/actor34.png)
+- Ao colidir com a plataforma a lógica é acionada.
 
 <a name="43"></a>
 ### 4.3 Movimentação da plataforma
-A movimentação tem que ser interpolada, quer dizer que as coordenadas tem que ser atualizadas.  
+A movimentação tem que ser interpolada, quer dizer que as coordenadas tem que ser atualizadas a cada passo.  
 Exemplos de coordenadas:  
 
 || X |Y  |Z  |
@@ -155,30 +160,41 @@ Exemplos de coordenadas:
 || 1 | **4** | 1|
 |Fim| 1 | 5  | 1 |  
 
+- Destino : 1,5.1
+- Origem : 1,1,1
+
 <a name="44"></a>
 ### 4.4 Lógica usando Level Blueprint
 Utilizando o **Level Blueprint** vamos implementar a lógica de movimentação usando **TimeLine**.
+![](../imagens/actor/actor36.png)
 - Determinar o destino da movimentação.
 - Implementar a lógica de movimentação usando *timeline*.
 - Declarar a variável *Velocidade* para controle da velocidade de movimentação.  
-![](../imagens/actor/actor36.png)
+- **Learp** - Interpola linearmente entre A e B com base em Alpha (100% de A quando Alpha = 0 e 100% de B quando Alpha = 1)
 
 <a name="45"></a>
 ### 4.5 Implementação do controle de tempo
+Devemos definir uma curva de tempo para a variável **Alpha** para utilizar na interpolação de A com B (**Learp**)
 ![](../imagens/actor/actor37.png)
 
 <a name="46"></a>
 ### 4.6 Utilizando o evento Tick e TimeLine
+Com a finalidade de exemplificar podemos utilizar o evento **Tick** para alterar a velocidade da plataforma.
 ![](../imagens/actor/actor38.png)
 
 -- 1. Plataforma de gatilho *Trigger Plataform*
 
 <a name="5"></a>
 ## 5. Usando o evento Tick - Blueprint
-
+Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e destino.
 <a name="51"></a>
 ### 5.1 Variáveis
 ![](../imagens/movimentacao/movimentacao12.png)
+- **TargetLocation** - Coordenadas do destino com Widget ativo.
+- **GlobalStartLocation** - Coordenadas globais iniciais do ator.
+- **GlobalTargetLocation** - Coordenadas globais iniciais do destino.
+- **Location/Swap** - Variáveis auxiliares.
+- **Direction** - Vetor auxiliar que determina a direção do objeto.
 
 <a name="52"></a>
 ### 5.2 Inicializando variáveis
