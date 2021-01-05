@@ -13,5 +13,15 @@
 
 ## 3. Game Mode e Game State
 
+## GameMode
+ - Definido por *level*
+ - Pode ser para definido para o todo o projeto;
+ - Menu **Project**  
+ ![](../imagens/actor/actor15.png)
+
+1. PlayerController
+ - Controlador do jogador definido por *Level*
+ ![](#)
+
 ## Referências
 - [Game Mode and Game State](https://docs.unrealengine.com/en-US/InteractiveExperiences/Framework/GameMode/index.html)

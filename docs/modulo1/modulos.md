@@ -38,7 +38,7 @@ void CalculoIMC(float pPeso, float pAltura) {
 
 Exemplo:  
 **C++**
-```c++
+```cpp
   #define MIN(a,b) (((a)<(b)) ? a : b)
 
   std::cout << "The minimum is " << MIN(42, 8) << endl;

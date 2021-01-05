@@ -23,11 +23,11 @@ Neste capitulo serão apresentados a lógica de programação utilizando método
 Para entender melhor a estrutura de programação que representa a construção de eventos e funções vamos abordar alguns conceitos de programação.
 
 <a name="11"></a>
-## 1.1 Programação Orientada a Objetos  
+### 1.1 Programação Orientada a Objetos  
 Um método é um procedimento ou função em Conceitos de **Programação Orientada a Objetos**. Considerando que uma função é um grupo de código reutilizável que pode ser usado em qualquer parte do programa. Isso ajuda na necessidade de escrever o mesmo código repetidamente. Ajuda os programadores a escrever códigos modulares.
 
 <a name="12"></a>
-## 1.2 Métodos
+### 1.2 Métodos
 Um método também funciona da mesma forma que o da função.  
 Um método é definido dentro de uma classe. Por exemplo: main () em Java  
 Um método pode ser privado, público ou protegido.
@@ -37,7 +37,7 @@ Um método é capaz de operar em dados que estão contidos na classe.
 Cada objeto tem seu próprio método que está presente na classe.
 
 <a name="13"></a>
-## 1.3 Funções
+### 1.3 Funções
 Uma função é um bloco de instruções que recebe uma entrada específica, faz alguns cálculos e, finalmente, produz a saída.  
 Uma função é definida independentemente. Por exemplo: main () em C ++  
 Por padrão, uma função é pública.
@@ -47,24 +47,24 @@ Ele tem a capacidade de retornar valores, se necessário.
 Se uma função for definida, ela será a mesma para todos os objetos criados.  
 
 <a name="2"></a>
-# 2. Eventos (**Events**)
+## 2. Eventos (**Events**)
 Os eventos são nós chamados a partir do código do jogo para iniciar a execução de uma rede individual dentro do *EventGraph*. Eles permitem que os *Blueprints* executem uma série de ações em resposta a certos eventos que ocorrem dentro do jogo, como quando o jogo começa, quando um nível é reiniciado ou quando um jogador sofre dano.
 
 Os eventos podem ser acessados dentro do *Blueprints* para implementar novas funcionalidades ou para substituir ou aumentar a funcionalidade padrão. Qualquer número de eventos pode ser usado em um único *EventGraph*; embora apenas um de cada tipo possa ser usado.
 
 <a name="21"></a>
-## 2.1 Evento de dano  no personagem
+### 2.1 Evento de dano  no personagem
 ![](../imagens/modulos/modulo5.png)
 - **CausaDano** é um evento customizado utilizando a opção **Add Custom Event** no menu de contexto dentro do **Event Graph**.
 - Pertence a classe *BP_Hero* do tipo **Character**.
 
 <a name="22"></a>
-## 2.2 Chamando o evento
+### 2.2 Chamando o evento
 ![](../imagens/modulos/modulo6.png)
 - Utilizando o evento **OnComponentBeginOverlap** para acionar o evento **CausaDano**.
 
 <a name="23"></a>
-## 2.3 Evento e Métodos
+### 2.3 Evento e Métodos
 Os métodos são procedimentos ou funções que realizam as ações próprias do objeto. Assim, os métodos são as ações que o objeto pode realizar. Tudo o que o objeto faz é através de seus métodos, pois é através dos seus métodos que um objeto se manifesta, através deles que o objeto interage com os outros objetos.  
 **C++**
 ```cpp
@@ -129,7 +129,7 @@ Blueprint Macros, ou Macros, são essencialmente iguais a gráficos de nós reco
 - Não podem ser replicados em jogos multiplayer.
 
 **C++**
-```c++
+```cpp
   #define MIN(a,b) (((a)<(b)) ? a : b)
 
   std::cout << "The minimum is " << MIN(42, 8) << endl;

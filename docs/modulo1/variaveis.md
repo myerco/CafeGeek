@@ -22,25 +22,25 @@ Variáveis são propriedades que contêm um valor ou fazem referência a um obje
 ## 2. Tipos de Variáveis
 **Boolean**  
 Armazena valores falso ou verdadeiro (true e false).
-```c++
+```cpp
   bool VariavelBoolean;
   VariavelBoolean = true;
 ```
 **Integer**   
 Valores inteiros entre −2.147.483.648 e 2.147.483.647
-```c++
+```cpp
   int VariavelInt;
   VariavelInt = 1;
 ```
 **Float**   
 Valores com casas decimais tal como 0,0553, 101,2887 e -78,322 .
-```c++
+```cpp
   float VariavelFloat;
   VariavelFloat = 2.4;
 ```
 **String**   
 Grupo de caracteres alfanuméricos.
-```c++
+```cpp
   FString VariavelString ;
   VariavelString = "Alo mundo!!";
 ```

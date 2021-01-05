@@ -95,7 +95,7 @@ protected:
 ## Include
 É uma forma de incluir um arquivo padrão ou definido pelo usuário no programa e é principalmente escrito no início de qualquer programa C / C ++.  
 Esta diretiva é lida pelo pré-processador e ordena que ele insira o conteúdo de um arquivo de cabeçalho do sistema ou definido pelo usuário no programa a seguir. Esses arquivos são importados principalmente de uma fonte externa para o programa atual. O processo de importação de tais arquivos que podem ser definidos pelo sistema ou pelo usuário é conhecido como Inclusão de Arquivo. Este tipo de diretiva de pré-processador diz ao compilador para incluir um arquivo no programa de código-fonte.
-```c++
+```cpp
 #include "CoreMinimal.h"
 #include "Engine/StaticMeshActor.h"
 #include "Plataforma.generated.h"
@@ -112,7 +112,7 @@ Um **UFunction** é uma função C ++ que é reconhecida pelo sistema de reflex�
 
 ### UFUNCTION Especificadores
 Ao declarar funções, os especificadores de função podem ser adicionados à declaração para controlar como a função se comporta com vários aspectos do mecanismo e do editor.
-```c++
+```cpp
 UFUNCTION(BlueprintCallable, Category = "Plataforma")
 void RemoveActiveTrigger();
 ```
@@ -123,7 +123,7 @@ void RemoveActiveTrigger();
 
 ## UPROPERTY
 As propriedades são declaradas usando a sintaxe de variável C ++ padrão, precedida pela macro UPROPERTY que define metadados de propriedade e especificadores de variável.
-```c++
+```cpp
 UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))
   FVector TargetLocation;
 ```

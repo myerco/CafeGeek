@@ -163,7 +163,6 @@ Os comentários podem ser incluídos diretamente em nós **Blueprint** únicos o
 ![Atores](../imagens/actor/actor47.png)
 
 ***
-
 ## Referências
 - [Blueprint](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html)
 - [Level Blurprint](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Types/LevelBlueprint/index.html)
