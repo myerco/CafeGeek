@@ -1,3 +1,7 @@
 theme: jekyll-theme-hacker
 title: Bem vindo
 description: Desenvolvimento utilizando Unreal Engine
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
