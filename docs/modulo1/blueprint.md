@@ -5,8 +5,8 @@ Neste capítulo será apresenta o modelo da lógica de programação utilizando 
 
 ## Índice
 >1. [Introdução ao *Blueprints Visual Scripting*](#1)  
->     1. [Características](#11)  
->     1. [Construção](#12)  
+>    1. [Características](#11)  
+>    1. [Construção](#12)  
 >1. [Level Blueprint](#2)  
 >     1. [Utilizando o level Blueprint para escrever mensagens na tela](#21)  
 >1. [Blueprint de atores](#3)
