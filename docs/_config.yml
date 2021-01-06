@@ -1,6 +1,22 @@
 theme: jekyll-theme-tactile
 title: CafeGeek
-description: Desenvolvimento utilizando Unreal Engine
+description: O CafeGeek é um site educacional com foco em desenvolvimento de jogos digitais e as disciplinas que orbitam este fantástico mundo. Agradecemos sua visita e volte sempre que achar necessário!
+author: CafeGeek
+
+navbar-links:
+  About Me: "aboutme"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
+
+# --- Logo --- #
+
+# Image to show in the navigation bar - works best with a square image
+# Remove this parameter if you don't want an image in the navbar
+avatar: "/imagens/cafegeek_small.png"
+
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
