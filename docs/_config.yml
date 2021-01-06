@@ -1,1 +1,7 @@
 theme: jekyll-theme-cayman
+title: CafeGeek
+description: Desenvolvimento utilizando Unreal Engine
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
