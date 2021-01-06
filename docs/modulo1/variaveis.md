@@ -4,15 +4,15 @@
 Neste capítulo serão descritas as estruturas de armazenamento em memória e a sua manipulação.
 
 ## Índice
-> 1. [Conceito](#1)  
-> 1. [Tipos de variáveis](#2)  
-> 1. [Declaração](#3)  
-> 1. [Métodos Get e Set](#4)  
-> 1. [String, Name e Text](#5)  
-> 1. [Integer e Float](#6)  
-> 1. [Boolean](#7)
-> 1. [Variável Pública e Privada](#8)
-
+>1. [Conceito](#1)  
+>1. [Tipos de variáveis](#2)  
+>1. [Declaração](#3)  
+>1. [Métodos Get e Set](#4)  
+>1. [String, Name e Text](#5)  
+>     1. [Tratamento de strings](#51)  
+>1. [Integer e Float](#6)  
+>1. [Boolean](#7)
+>1. [Variável Pública e Privada](#8)
 
 <a name="1"></a>
 ## 1. Conceito
@@ -74,6 +74,7 @@ O armazenamento de caracteres alfanuméricos, *string*, apresetam diversas estru
 | **String** | 16 Bytes | Armazenamento e consumo de memória mediano |
 | **Name**| 8 Bytes |  Cadeias de caracteres  curtas que ocupam pouca memória.|
 
+<a name="51"></a>
 ### 5.1 Tratamento de strings
 ![](../imagens/variaveis/variaveis4.png)
 - Append - Concatena duas ou mais strings.
@@ -99,7 +100,7 @@ Armazena dois valores : falso (*false*) ou verdadeiro (*true*).
 Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada de Blueprints externos.  
 ![](../imagens/variaveis/variaveis7.png)
 
-**Publica**  
+**Pública**  
 Para permitir que uma variável seja modificada de fora de seu Blueprint, torne-a pública.  
 ![](../imagens/variaveis/variaveis8.png)
 

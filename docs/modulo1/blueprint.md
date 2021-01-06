@@ -17,7 +17,6 @@ Neste capítulo será apresenta o modelo da lógica de programação utilizando 
 >    1. [Representação da organização do objeto](#35)  
 >    1. [Construction Script](#36)  
 >    1. [Event Graph](#37)  
->1. [Utilizando o level Blueprint para escrever   mensagens na tela](#4)
 >1. [Comentários](#4)
 
 <a name="1"></a>
@@ -148,10 +147,8 @@ Este evento será executado quando uma série de condições forem atendidas ao 
 **Tick**   
 Este é um evento simples que é chamado em todos os quadros do jogo.
 
-
-
 <a name="5"></a>
-## 5. Comentários   
+## 4. Comentários   
 Os comentários podem ser incluídos diretamente em nós **Blueprint** únicos ou podem ser incluídos como caixas de comentários para agrupar nós relacionados e fornecer descrições sobre sua funcionalidade. Eles podem ser usados apenas para fins organizacionais para tornar os gráficos mais legíveis, mas também podem ser usados para fins informativos, pois permitem que descrições textuais sejam adicionadas da mesma forma que adicionar comentários ao código.
 
 - Selecione os nós e digite "C" no teclado para adicionar um comentário.

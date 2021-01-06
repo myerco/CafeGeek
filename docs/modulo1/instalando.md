@@ -30,11 +30,8 @@ Durante a instalação é necessário baixar os pacotes de desenvolvimento em C+
  ![](../imagens/projeto/projeto2.png)
 
 1. Em configuração de projeto escolha C++ e *No Starter Content* e a pasta do projeto para não instalar o pacote padrão de *assets* da **Epic Games**.  
-
-  Escolha uma pasta onde o projeto deverá ser instalado.
-
+  Escolha uma pasta onde o projeto deverá ser instalado.  
 ![](../imagens/projeto/projeto3.png)
-
 1. Tela inicial.  
 ![](../imagens/projeto/projeto4.png)
 

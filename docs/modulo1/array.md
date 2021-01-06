@@ -4,38 +4,45 @@
 Neste capitulo serão apresentados os conceitos de estruturas de *arrays* ou vetores e suas funções para manipulação.
 
 ## Índice
-> 1. [Conceito e implementação](#1)
-> 1. [Declaração](#2)
-> 1. [Método Get para arrays](#3)
-> 1. [Get utilizando uma variável como índice](#4)
-> 1. [Último índice e a quantidade de elementos do *array*](#5)
-> 1. [Removendo elementos](#6)
-> 1. [Listando todos os elementos utilizando **for**](#7)
-> 1. [Usando o comando **find**](#8)
-> 1. [Comando remove *index*](#9)
-> 1. [Comando remove](#10)
-> 1. [Limpando o *clear*](#11)
-> 1. [Atualiza o *array* nome clássicos com dados do *array* de nome](#12)
-> 1. [Contando elementos dentro de um *array*](#13)
+>1. [Conceito e implementação](#1)
+>     1. [Exemplo de números inteiros](#11)
+>     1. [Exemplo de números Números float](#12)
+>     1. [Exemplo com String](#13)
+>     1. [Representação](#14)
+>1. [Declarando arrays](#2)
+>1. [Método Get para arrays](#3)
+>1. [Get utilizando uma variável como índice](#4)
+>1. [Último índice e a quantidade de elementos do *array*](#5)
+>1. [Removendo elementos utilizando *Remove*](#6)
+>1. [Listando todos os elementos utilizando **For**](#7)
+>1. [Usando o comando **Find**](#8)
+>1. [Comando remove *index*](#9)
+>1. [Comando remove](#10)
+>1. [Limpando o *clear*](#11)
+>1. [Atualiza o *array* nome clássicos com dados do *array* de nome](#12)
+>1. [Contando elementos dentro de um *array*](#13)
 
 <a name="1"></a>
 ## 1. Conceito e implementação
 É um conjunto de variáveis do mesmo tipo agrupadas.   
 
+<a name="11"></a>
 ### 1.1 Exemplo de números inteiros  
 ```
 a = ( 5,2,7,3,9)  
 ```
-
+<a name="12"></a>
 ### 1.2 Exemplo de números Números *float*  
 ```
 a = ( 5.1,2.9,7.0,3.121,9.43)  
 ```
-### 1.2 Exemplo com *String*  
+<a name="13"></a>
+### 1.3 Exemplo com *String*  
 ```
 s = ( "Ana","José","Hugo","Hulda")
 ```
-
+<a name="14"></a>
+### 1.4 Representação
 Podemos representar os arrays da seguinte forma:
 
 | s |  s[0] |s[1]   |s[2]    | s[3]  |
@@ -47,7 +54,7 @@ Podemos representar os arrays da seguinte forma:
 - O índice em C++ inicia com o valor 0.
 
 <a name="2"></a>
-## 2. Declaração
+## 2. Declarando arrays
 **Blueprint**  
 
 ![Declarando array](../imagens/array/bp_array_1.png)
@@ -82,17 +89,16 @@ O comando **Last Index** retorna o valor do último índice, o comando **Length*
 
 ![Declarando array](../imagens/array/bp_array_4.png)
 
-
 <a name="6"></a>
-## 6. Removendo elementos
+## 6. Removendo elementos utilizando *Remove*
 ![Declarando array](../imagens/array/bp_array_5.png)
 
 <a name="7"></a>
-## 7. Listando todos os elementos utilizando *for*
+## 7. Listando todos os elementos utilizando *For*
 ![Declarando array](../imagens/array/bp_array_6.png)
 
 <a name="8"></a>
-## 8. Usando o comando *find*
+## 8. Usando o comando *Find*
 
 **Blueprint**  
 
