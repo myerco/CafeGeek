@@ -15,7 +15,21 @@ navbar-links:
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/imagens/cafegeek_small.png"
+title-img: "/imagens/cafegeek_small.png"
 
+social-network-links:
+  email: "someone@example.com"
+  facebook: deanattali
+  github: daattali
+  twitter: daattali
+  patreon: DeanAttali
+  youtube: c/daattali
+  
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
+  vk: false
 
 plugins:
   - jekyll-feed
