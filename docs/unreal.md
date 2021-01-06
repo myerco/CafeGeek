@@ -1,6 +1,7 @@
 ---
 title: Desenvolvimento de jogos utilizando Unreal Engine 4
 tags: [Unreal Engine]
+cover-img: ""/imagens/cafegeek_small.png"
 ---
 
 [CafeGeek](https://myerco.github.io/unreal-engine)
