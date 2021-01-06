@@ -30,8 +30,10 @@ share-links-active:
   facebook: true
   linkedin: true
   vk: false
-
-google_analytics_tracking_id: 256152900
+  
+# --- Web Analytics Section --- #
+gtag: " G-3BDZTTK4NP"
+google_analytics: 256152900
 
 plugins:
   - jekyll-feed
