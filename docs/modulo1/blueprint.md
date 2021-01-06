@@ -172,3 +172,7 @@ Os comentários podem ser incluídos diretamente em nós **Blueprint** únicos o
 - [Comments](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Comments/index.html)
 - [Events](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Events/index.html)
 - [Nativização](https://bibliotecadigital.ipb.pt/bitstream/10198/18264/4/pauta-relatorio-9.pdf)
+
+***
+## Tags
+[Blueprint](https://myerco.github.io/unreal-engine/modulo1/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/unreal.html), [CafeGeek](https://myerco.github.io/unreal-engine/)

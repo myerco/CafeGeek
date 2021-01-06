@@ -17,7 +17,6 @@ Neste capitulo serão apresentados a lógica de programação utilizando método
 >1. [Collapse Nodes](#5)
 >1. [Executando a função e a macros](#6)
 
-
 <a name="1"></a>
 ## 1. Conceito
 Para entender melhor a estrutura de programação que representa a construção de eventos e funções vamos abordar alguns conceitos de programação.
@@ -157,3 +156,7 @@ Usado principalmente para organização de código, escondendo nós da estrutura
 - [Managing complexity in Blueprints](https://www.unrealengine.com/en-US/blog/managing-complexity-in-blueprints?sessionInvalidated=true)
 - [Events](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Events/index.html)
 - [Methods vs. Functions in C++ with Examples](https://www.geeksforgeeks.org/methods-vs-functions-in-c-with-examples/)
+
+***
+## Tags
+[Blueprint](https://myerco.github.io/unreal-engine/modulo1/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/unreal.html), [CafeGeek](https://myerco.github.io/unreal-engine/)

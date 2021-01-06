@@ -8,7 +8,6 @@ Neste capítulo vamos instalar e criar um projeto apresentando a organização d
 > 1. [Verificando as pastas criadas](#3)
 > 1. [Configurando o editor de código](#4)
 
-
 <a name="1"></a>
 ## 1. Instalando o Unreal e o Visual Studio
 Devemos instalar o **Epic Games Laucnher** que gerencia a instalação e atualização de jogos e do **Unreal Engine**.
@@ -87,3 +86,7 @@ Para configura o editor de código fonte **C++** acesse :
 - [Estrutura do diretório](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html)  
 - [UE4 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin)
 - [Setting Up Visual Studio for Unreal Engine](https://docs.unrealengine.com/en-US/Programming/Development/VisualStudioSetup/index.html)
+
+***
+## Tags
+[Blueprint](https://myerco.github.io/unreal-engine/modulo1/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/unreal.html), [CafeGeek](https://myerco.github.io/unreal-engine/)

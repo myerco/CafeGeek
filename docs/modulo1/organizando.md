@@ -9,13 +9,11 @@ Neste capitulo vamos organizar o projeto *ProjetoAula* e alguns elementos da int
 > 1. [Pastas de trabalho e nomenclatura](#3)
 > 1. [Configurando as imagens do projeto](#4)
 
-
 <a name="1"></a>
 ## 1. Criando pastas de trabalho
 - Na aba *Content Browser* utilizando botão direito do mouse clique em *New Folder* e crie as seguintes pastas:   
 
 ![](../imagens/projeto/projeto7.png)
-
 
 <a name="2"></a>
 ## 2. *Level* e Inicialização
@@ -116,3 +114,7 @@ Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apr
 - [Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md)  
 - [Controles de navegação](https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html)
 - [How to change the icon of your game?](https://answers.unrealengine.com/questions/397901/how-to-change-the-icon-of-your-game.html)
+
+***
+## Tags
+[Blueprint](https://myerco.github.io/unreal-engine/modulo1/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/unreal.html), [CafeGeek](https://myerco.github.io/unreal-engine/)

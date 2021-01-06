@@ -1,6 +1,6 @@
 [CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/unreal.html)
 
-# Enums - Enumerarions
+# Enums - Enumerations
 
 Neste capitulo serão apresentados Enumerações (*Enumeration*). Enumeração é algo como nomear ou numerar um a um (geralmente em uma lista).
 
@@ -54,3 +54,7 @@ Objeto criado EN_Estado e EN_Pedra.
 ***
 ## Referências
 [Enums in unreal Engine](https://couchlearn.com/enums-in-unreal-engine-4-blueprints/)
+
+***
+## Tags
+[Blueprint](https://myerco.github.io/unreal-engine/modulo1/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/unreal.html), [CafeGeek](https://myerco.github.io/unreal-engine/)
