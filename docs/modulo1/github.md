@@ -1,22 +1,21 @@
 ---
-title: Versionando
-tags: [Unreal Engine]
-cover-img: "/imagens/cafegeek_small.png"
+title: Controle de versão com GitHub
+tags: [Unreal Engine,Controle de versão,GitHub]
 ---
 
 [CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/unreal.html)
 
-# Versionando
+# Controle de versão com GitHub
 Neste capítulo vamos instalar o *git* para versionamento de código e apresentar
 os comandos básicos.
 
 ## Índices
-> 1. [Instalação **Git**](#1)
-> 1. [Clonando o projeto](#2)
-> 1. [Criando o projeto](#3)
-> 1. [Atualizando o projeto no servidor](#4)
-> 1. [Atualizando o projeto no cliente](#5)
-> 1. [Ignorando pastas e arquivos](#6)
+1. [Instalação **Git**](#1)
+1. [Clonando o projeto](#2)
+1. [Criando o projeto](#3)
+1. [Atualizando o projeto no servidor](#4)
+1. [Atualizando o projeto no cliente](#5)
+1. [Ignorando pastas e arquivos](#6)
 
 <a name="1"></a>
 ## 1. Instalação Git
@@ -116,4 +115,4 @@ StarterContent/
 
 ***
 ## Tags
-[Blueprint](https://myerco.github.io/unreal-engine/modulo1/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/unreal.html), [CafeGeek](https://myerco.github.io/unreal-engine/)
+[Blueprint](https://myerco.github.io/unreal-engine/modulo1/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/unreal.html), [CafeGeek](https://myerco.github.io/unreal-engine/),[GitHub](#)

@@ -1,18 +1,17 @@
 ---
-title: Instalando
+title: Instalando a Unreal Engine 4
 tags: [Unreal Engine]
-cover-img: "/imagens/cafegeek_small.png"
 ---
 
 [CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/unreal.html)
-# Instalando
+# Instalando a Unreal Engine 4
 Neste capítulo vamos instalar e criar um projeto apresentando a organização de pastas.
 
 ## Índice
->1. [Instalando o Unreal e o Visual Studio](#1)
->1. [Criando o projeto **ProjetoAula**](#2)
->1. [Verificando as pastas criadas](#3)
->1. [Configurando o editor de código](#4)
+1. [Instalando o Unreal e o Visual Studio](#1)
+1. [Criando o projeto **ProjetoAula**](#2)
+1. [Verificando as pastas criadas](#3)
+1. [Configurando o editor de código](#4)
 
 <a name="1"></a>
 ## 1. Instalando o Unreal e o Visual Studio

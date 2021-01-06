@@ -1,7 +1,6 @@
 ---
 title: Organizando o projeto
-tags: [Unreal Engine]
-cover-img: "/imagens/cafegeek_small.png"
+tags: [Unreal Engine,Organizando,Blueprint]
 ---
 
 [CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/unreal.html)
@@ -10,16 +9,16 @@ cover-img: "/imagens/cafegeek_small.png"
 Neste capitulo vamos organizar o projeto *ProjetoAula* e alguns elementos da interface.
 
 ## Índice
-> 1. [Criando pastas de trabalho](#1)
-> 1. [Level e Inicialização](#2)
-> 1. [Pastas de trabalho e nomenclatura](#3)
-> 1. [Configurando as imagens do projeto](#4)
+1. [Criando pastas de trabalho](#1)
+1. [Level e Inicialização](#2)
+1. [Pastas de trabalho e nomenclatura](#3)
+1. [Configurando as imagens do projeto](#4)
 
 <a name="1"></a>
 ## 1. Criando pastas de trabalho
 - Na aba *Content Browser* utilizando botão direito do mouse clique em *New Folder* e crie as seguintes pastas:   
 
-![](../imagens/projeto/projeto7.png)
+![](https://myerco.github.io/unreal-engine/imagens/projeto/projeto7.png)
 
 <a name="2"></a>
 ## 2. *Level* e Inicialização
@@ -31,13 +30,13 @@ Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguinte
 	- Edit Startup Level : LevelTest
 	- Game default Map : LevelTest  
 
-	![](../imagens/projeto/projeto5.png)
+	![](https://myerco.github.io/unreal-engine/imagens/projeto/projeto5.png)
 
 ## 3. Pastas de nomenclatura
 Para um maior gerenciamento podem ser definidas pastas com nomenclaturas adequadas ao projeto, abaixo vamos relacionar algumas sugestões.
 
 1. Sugestão 1
-```
+```bash
 |-- Content
 		|-- Blueprints
 		|		|-- Core
@@ -54,7 +53,7 @@ Para um maior gerenciamento podem ser definidas pastas com nomenclaturas adequad
 ```
 
 1. Sugestão 2
-```
+```bash
 |-- Content
 		|-- ProjetoAula
 				|-- Art
@@ -94,7 +93,7 @@ Para um maior gerenciamento podem ser definidas pastas com nomenclaturas adequad
 	1. Biblioteca de Materiais - podemos migrar pasta de materiais e compartilhar materiais sem muitos problemas definindo um pasta de nível superior.
 
 	Exemplo:
-	```
+	```bash
 	|-- Content
 			|-- ProjetoAula
 			|-- ProjetoAulaTestes
@@ -109,7 +108,7 @@ Para um maior gerenciamento podem ser definidas pastas com nomenclaturas adequad
 <a name="4"></a>
 ## 4. Configurando as imagens  do projeto
 Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu **Project Settings** opção **Plataforms**-> **Windows** e altere a imagens.
-![](../imagens/projeto/projeto8.png)
+![](https://myerco.github.io/unreal-engine/imagens/projeto/projeto8.png)
 
 > Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas pode ser convertido usando ferramentas online, por exemplo) e 256x256.
 
