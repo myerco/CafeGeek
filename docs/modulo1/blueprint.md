@@ -75,7 +75,7 @@ Um Level Blueprint é um tipo especializado de Blueprint que atua como um gráfi
 ## 2.1 Utilizando o level Blueprint para escrever   mensagens na tela
 Utilizando o evento **BeginPlay** e conectando o nó **Print String** para escrever uma mensagem na tela.
 
- ![Atores](../imagens/actor/actor45.png)
+ ![Atores](https://myerco.github.io/unreal-engine//imagens/actor/actor45.png)
 
 <a name="3"></a>
 ## 3. Blueprint de atores
@@ -84,29 +84,29 @@ Atores são objetos que são adicionados na cena. São classes de objetos que su
 <a name="31"></a>
 ### 3.1 Place Actors
 No nível mais fundamental, um ator é qualquer objeto que você pode colocar em um nível e esta página irá mostrar os vários métodos em que você pode colocar esses atores dentro de seus níveis.  
-![Atores](../imagens/actor/actor39.png)   
+![Atores](https://myerco.github.io/unreal-engine//imagens/actor/actor39.png)   
 
 <a name="32"></a>
 ### 3.2 Blueprint Class
 Uma classe Blueprint, muitas vezes abreviada como Blueprint, é um ativo que permite que os criadores de conteúdo adicionem funcionalidade facilmente às classes de jogo existentes. Os projetos são criados dentro do Unreal Editor visualmente, em vez de digitar o código, e salvos como ativos em um pacote de conteúdo. Essencialmente, eles definem uma nova classe ou tipo de ator que pode então ser colocado em mapas como instâncias que se comportam como qualquer outro tipo de ator.  
 1. Menu de acesso rápido  
-![Atores](../imagens/actor/actor40.png)  
+![Atores](https://myerco.github.io/unreal-engine//imagens/actor/actor40.png)  
 
 1. Escolha de Classe de atores  
-![Atores](../imagens/actor/actor41.png)
+![Atores](https://myerco.github.io/unreal-engine//imagens/actor/actor41.png)
 
 <a name="33"></a>
 ### 3.3 Components
 Os *Components* ou componentes são um tipo especial de objeto que os atores podem anexar a si próprios como subobjetos. Os componentes são úteis para compartilhar comportamentos comuns, como a capacidade de exibir uma representação visual e reproduzir sons. Eles também podem representar conceitos específicos do projeto, como a maneira como um veículo interpreta a entrada e muda sua própria velocidade e orientação. Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuário pode implementar as diferenças no controle e movimento do veículo, alterando qual componente um ator do veículo usa.
 
-![Atores](../imagens/actor/actor46.png)
+![Atores](https://myerco.github.io/unreal-engine//imagens/actor/actor46.png)
 
 <a name="34"></a>
 ### 3.4 Components e My Blueprint    
 - Components - Apresenta todos os componentes anexados ao objeto principal.
 - My Blueprint - Apresenta os eventos, funções, macros e variáveis presentes dentro do objeto.  
 
-![Atores](../imagens/actor/actor42.png)
+![Atores](https://myerco.github.io/unreal-engine//imagens/actor/actor42.png)
 
 <a name="35"></a>
 ### 3.5 Representação da organização do objeto
@@ -129,12 +129,12 @@ Lógica de que é executada na construção do objeto, similares ao eventos **Co
 
 **Exemplo**
 
- ![Atores](../imagens/actor/actor43.png)
+ ![Atores](https://myerco.github.io/unreal-engine//imagens/actor/actor43.png)
 
 <a name="37"></a>
 ### 3.7 Event Graph
 Contém um gráfico de nós e suas ligações representando a lógica de um Blueprint.     
-![Atores](../imagens/actor/actor44.png)
+![Atores](https://myerco.github.io/unreal-engine//imagens/actor/actor44.png)
 
 **BeginPlay**   
 Este evento é acionado para todos os Atores quando o jogo é iniciado, quaisquer Atores gerados após o jogo ser iniciado terão isso chamado imediatamente.
@@ -158,7 +158,7 @@ Os comentários podem ser incluídos diretamente em nós **Blueprint** únicos o
   **Azul** - Lógica de atores.  
   **Verde** - Lógica de estruturas de controle.  
 
-![Atores](../imagens/actor/actor47.png)
+![Atores](https://myerco.github.io/unreal-engine//imagens/actor/actor47.png)
 
 ***
 ## Referências

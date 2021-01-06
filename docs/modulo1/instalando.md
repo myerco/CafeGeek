@@ -3,10 +3,10 @@
 Neste capítulo vamos instalar e criar um projeto apresentando a organização de pastas.
 
 ## Índice
-> 1. [Instalando o Unreal e o Visual Studio](#1)
-> 1. [Criando o projeto **ProjetoAula**](#2)
-> 1. [Verificando as pastas criadas](#3)
-> 1. [Configurando o editor de código](#4)
+>1. [Instalando o Unreal e o Visual Studio](#1)
+>1. [Criando o projeto **ProjetoAula**](#2)
+>1. [Verificando as pastas criadas](#3)
+>1. [Configurando o editor de código](#4)
 
 <a name="1"></a>
 ## 1. Instalando o Unreal e o Visual Studio
@@ -23,23 +23,22 @@ Durante a instalação é necessário baixar os pacotes de desenvolvimento em C+
 <a name="2"></a>
 ## 2. Criando o projeto ProjetoAula
 1. Selecionando o tipo de projeto.    
-![](../imagens/projeto/projeto1.png)
+![Atores](https://myerco.github.io/unreal-engine/imagens/projeto/projeto1.png)
 
 1. Escolha um projeto em branco (*Blank*).  
- ![](../imagens/projeto/projeto2.png)
+ ![Atores](https://myerco.github.io/unreal-engine/imagens/projeto/projeto2.png)
 
 1. Em configuração de projeto escolha C++ e *No Starter Content* e a pasta do projeto para não instalar o pacote padrão de *assets* da **Epic Games**.  
   Escolha uma pasta onde o projeto deverá ser instalado.  
-![](../imagens/projeto/projeto3.png)
+![Atores](https://myerco.github.io/unreal-engine/imagens/projeto/projeto3.png)
 1. Tela inicial.  
-![](../imagens/projeto/projeto4.png)
-
+![Atores](https://myerco.github.io/unreal-engine/imagens/projeto/projeto4.png)
 
 <a name="3"></a>
 ## 3. Verificando as pastas criadas
 Utilizando o *explorer* navegue até a pasta do projeto para verificar os arquivos criados.
 
-```
+```bash
 |-- .vs
 |-- Binaries
 |-- Config
@@ -60,7 +59,8 @@ fonte em **C++** e o arquivo com extensão *uproject* é o principal arquivo do 
 
 1.  Os diretórios abaixo podem ser removidos pois podemos construir a qualquer momento
 quando compilar o projeto.
-```
+
+```bash
 |-- Binaries
 |-- Build
 |-- Intermediate
@@ -78,7 +78,7 @@ quando compilar o projeto.
 Para configura o editor de código fonte **C++** acesse :
 **Menu->Editor Preferences->General** e **Source Code** e escolha **Visualstudio**.
 
-![](../imagens/projeto/projeto6.png)
+![Atores](https://myerco.github.io/unreal-engine//imagens/projeto/projeto6.png)
 
 ***
 ## Referências
