@@ -2,7 +2,7 @@
 
 # Tempo e espaço
 Neste capítulo serão apresentados os elementos de controle de tempo dentro da **Unreal Engine** e utilizar para  implementar movimentação de objetos.
-Apresentaremos também como funciona o sistema coordenadas dos objetos.
+Apresentaremos também como funciona o sistema de coordenadas dos objetos.
 
 ## Índice
 1. [Delta time](#1)
@@ -20,6 +20,12 @@ Apresentaremos também como funciona o sistema coordenadas dos objetos.
 1. [Curves](#7)   
 1. [Velocidade](#8)
 1. [Sistema de coordenadas](#9)  
+    1. [Plano Cartesiano](#91)  
+    1. [Posição dos elementos](#92)  
+    1. [Magnitude](#93)  
+    1. [Normalização](#94)
+    1. [Calculando distância](#95)
+    1. [Verificando para onde o ator está apontando](#95)
 
 <a name="1"></a>
 ## 1. Delta Time
@@ -45,7 +51,7 @@ Frame: Um quadro ou imagem apresentada, uma animação é composta por vários f
 Vamos habilitar o console de comandos para verificar e alterar o *FPS* do jogo.  
 
 1. Menu Editor preferences->Open.   
-  ![](../imagens/tempoespaco/tempoespaco9.png)
+  ![](../imagens/tempoespaco/blueprint_console_settings.png)
 
 1. Apresenta o valor de FPS.
 
@@ -85,7 +91,7 @@ Delta seconds = Intervalo entre os quadros.
 ### 3.2  Utilizando o **Delta seconds**
 Vamos controlar o movimento do objeto independente do *FPS*.  
 
-![](../imagens/tempoespaco/tempoespaco10.png)
+![](../imagens/tempoespaco/bluprint_delta_seconds.png)
 - **Distancia** - Valor = 100
 - **Velocidade** - Valor = 10
 - O resultado esperado é que mesmo com um *FPS* baixo o movimento ainda se mantem uniforme.
@@ -94,7 +100,7 @@ Vamos controlar o movimento do objeto independente do *FPS*.
 ### 3.3 Fixando o *FPS* do projeto
 Menu Project settings->Use fixed frame rate.  
 
-![](../imagens/tempoespaco/tempoespaco12.png)
+![](../imagens/tempoespaco/blueprint_fixed_frame_rate.png)
 
 <a name="4"></a>
 ## 4. Timeline
@@ -197,7 +203,7 @@ Descreve uma maneira de usar números para especificar a localização de um pon
 Para demonstrar vamos utilizar um vetor de 2D (x,y).
 
 |  |  |  |  |  | (Y) |  |  |  |  |  ||
-|:-:|-|-|-|-|-|-|-|-|-|-||
+|:-:|-|-|-|-|-|-|-|-|-|-|-|
 |  |  |  |  |  |  **5**|  |  |  | D |  ||
 |  |  |  |  |  |  **4**|  |  |  |  |  ||
 |  |  |  | B |  |  **3**|  |  |  |  |  ||
@@ -284,7 +290,7 @@ O vetor normalizado das coordenadas (3,4) é (-.6,.8).
 ![blueprint_normalize](../imagens/tempoespaco/blueprint_normalize.jpg)
 
 <a name="97"></a>
-### 9.7 Verificando para onde o ator está apontando.
+### 9.7 Verificando para onde o ator está apontando
 Usaremos várias funções para demonstrar como verificar a direção que o ator está apontando.
 
 - **GetActorForwardVector**   
@@ -302,7 +308,11 @@ Usaremos várias funções para demonstrar como verificar a direção que o ator
 
 ![](../imagens/tempoespaco/blueprint_forward_up_right_vector.jpg)
 
-
+<a name="98"></a>
+### 9.8 Acompanhando o movimento de um objeto.
+Usaremos a função **FindLookAtRotation**. No exemplo o **Cubo3** vai apontar a face para
+![](../imagens/tempoespaco/blueprint_find_look_rotation.jpg)
+- Personagem é do tipo **Character**.
 
 ***
 ## Referências
@@ -316,4 +326,4 @@ Usaremos várias funções para demonstrar como verificar a direção que o ator
 
 ***
 ## Tags
-[Blueprint](https://myerco.github.io/unreal-engine/modulo1/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/unreal.html), [CafeGeek](https://myerco.github.io/unreal-engine/)
+[Blueprint](https://myerco.github.io/unreal-engine/modulo1/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/unreal.html), [CafeGeek](https://myerco.github.io/unreal-engine/),[Vector](#)
