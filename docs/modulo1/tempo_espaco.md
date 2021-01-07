@@ -55,19 +55,21 @@ Vamos habilitar o console de comandos para verificar e alterar o *FPS* do jogo.
 
 1. Apresenta o valor de FPS.
 
-```
+```bash
 stat ftps
 ```
-1. Altera o valor de FPS para 100
-```
+1. Altera o valor de FPS para 100.
+```bash
 t.MaxFPS 100
 ```
 1. Exibe informações de desempenho para os threads Frame, Game, Draw, GPU, RHIT e DynRes do projeto.
-```
+
+```bash
 stat unit
 ```
-1. Comando->stat game
-```
+1. Comando->stat game.
+
+```bash
 stat game
 ```
 
