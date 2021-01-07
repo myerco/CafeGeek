@@ -1,23 +1,25 @@
 [CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/unreal.html)
 
 # Tempo e espaço
-Neste capítulo será apresentados os elementos de controle de frames e sua execução.
+Neste capítulo serão apresentados os elementos de controle de tempo dentro da **Unreal Engine** e utilizar para  implementar movimentação de objetos.
+Apresentaremos também como funciona o sistema coordenadas dos objetos.
 
 ## Índice
->1. [Delta time](#1)
->1. [Lista de comandos do console](#2)
->1. [Delta seconds](#3)
->     1. [Tabela de velocidade](#31)
->     1. [Utilizando o Delta seconds](#32)
->     1. Fixando o FPS do projeto](#33)
->1. [Timeline](#4)
->     1. [Utilizando variáveis no Timeline](#41)
->     1. [Acionando o evento para alterar a iluminação](#42)
->     1. [Funções Blueprint para tratamento](#43)
-> 1. [Abrindo portas deslizando](#5)
-> 1. [Abrindo portas girando](#6)
-> 1. [Curves](#7)   
-> 1. [Velocidade](#8)   
+1. [Delta time](#1)
+1. [Lista de comandos do console](#2)
+1. [Delta seconds](#3)
+    1. [Tabela de velocidade](#31)
+    1. [Utilizando o Delta seconds](#32)
+    1. [Fixando o FPS do projeto](#33)
+1. [Timeline](#4)
+    1. [Utilizando variáveis no Timeline](#41)
+    1. [Acionando o evento para alterar a iluminação](#42)
+    1. [Funções Blueprint para tratamento](#43)
+1. [Abrindo portas deslizando](#5)
+1. [Abrindo portas girando](#6)
+1. [Curves](#7)   
+1. [Velocidade](#8)
+1. [Sistema de coordenadas](#9)  
 
 <a name="1"></a>
 ## 1. Delta Time
@@ -186,6 +188,122 @@ Exemplo de calculo de velocidade.
 
 ![](../imagens/tempoespaco/tempoespaco11.png)
 
+<a name="9"></a>
+## 9. Sistema de coordenadas
+Descreve uma maneira de usar números para especificar a localização de um ponto (ou pontos) no espaço 2D ou 3D. Em um motor de jogo, é função do sistema de coordenadas definir a localização de cada objeto e para qual **direção** ele está voltado. Com esses dados você podemos calcular a distância entre objetos, rotação, velocidade e todos os tipos de outras informações úteis.
+
+<a name="91"></a>
+### 9.1 Plano Cartesiano   
+Para demonstrar vamos utilizar um vetor de 2D (x,y).
+
+|  |  |  |  |  | (Y) |  |  |  |  |  ||
+|:-:|-|-|-|-|-|-|-|-|-|-||
+|  |  |  |  |  |  **5**|  |  |  | D |  ||
+|  |  |  |  |  |  **4**|  |  |  |  |  ||
+|  |  |  | B |  |  **3**|  |  |  |  |  ||
+|  |  |  |  |  | **2** |  |  | C |  |  ||
+| |  |  |  |  | **1** |  |  |  |  |  |  |
+|**-5** | **-4** | **-3** | **-2** | **-1** | **0** |  **1** | **2** |**3**  |**4**  | **5** |  **(X)**|
+|  |  |  |  |  | **-1** |  |  |  |  |  |  |
+| |  |  |  |  | **-2** |  |  |  |  |  |  |
+|  |  |  |  |  | **-3** |  |  |  |  |  ||
+|  | A |  |  |  | **-4** |  |  |  |  |  ||
+|  |  |  |  |  | **-5** |  |  |  |  |  ||
+
+<a name="92"></a>
+### 9.2 Posição dos elementos
+- v = v(x,y)
+- A = a(-4,-4)
+- B = b(-2,3)
+- C = b(3,2)
+- D = b(4,5)
+
+<a name="92"></a>
+### 9.3 Movimento no sistema coordenadas X,Y
+Uma direção nos diz como nos mover no sistema de coordenadas x, y. Um valor positivo nos diz para nos movermos na direção positiva e um valor negativo nos diz para nos movermos na direção negativa (com base no sistema de coordenadas).
+
+**Movimentando o elemento B**  
+- B = b(-2,3) **->** b(-1,4)
+
+<a name="94"></a>
+### 9.4 Magnitude
+A Magnitude nos diz o quanto nos movemos. A distância de um movimento provará ser muito útil e pode ser calculada apenas com o vetor. Isso é feito usando o Teorema de Pitágoras. Assuma um objeto na posição (50, 25) e queremos movê-lo para (53, 23). Isso significa um Vetor de (3, -2).
+
+- A = a(-4,-4) **->** a(2,-1)  
+  O objeto se deslocou de (-4,-4) até a nova posição (2,1)  
+  Andou 6 posições em X e 5 em Y
+
+- Direção de A = (6,5)  
+- Distância percorrida = raiz_quadrada(6 ^ *2* + 5 ^*2*) = **7.8**
+> Você pode usar isso para calcular novas posições e movimentos. Suponha que você tenha um objeto na posição (12, 4) e deseja movê-lo na direção (3,2), mas deseja que a distância seja 4 vezes a distância normal. Para fazer isso funcionar e obter a nova posição, você multiplica o vetor pelo escalar.V = (3 * 4, 2 * 4) (12, 8) A nova posição no sistema de coordenadas x / y é obtida adicionando este vetor para a posição original: (12 + 12, 4 + 8) (24, 12)
+
+<a name="95"></a>
+### 9.5 Normalização
+Aprendemos que um vetor é um par de números que contém uma direção e que pode ser usado para derivar uma magnitude. Quando um vetor contém um par de números, como (10, 5), ele indica que o movimento será de 10 unidades na direção X positiva e 5 unidades na direção Y positiva. Este vetor especifica quantas unidades mover, mas também indica uma direção geral em porcentagens. Essa é a proporção de movimento de 10 por 5. O cálculo dessa porcentagem de movimento é chamado de Normalização de um vetor.  
+O vetor normalizado é um par de números, cada um deles menor que um. Você pode criar um vetor normalizado obtendo a magnitude de um vetor e dividindo cada valor do Vetor pela magnitude. Com um vetor de (3,4) a magnitude é 5.
+
+- 5 = raiz_quadrada(3 ^ *2* + 4 ^*2*)
+- (3/5, 4/5) => (.6,.8)
+
+**Resultado**  
+O vetor normalizado das coordenadas (3,4) é (-.6,.8).
+
+<a name="96"></a>
+### 9.6 Calculando distância
+- **Cube**  
+  **a**=GetActorLocation(0,-600,70)
+
+- **Cube2**  
+  **b**=GetActorLocation(600,600,70)
+
+- **Resultado**  
+  Resultado =  a - b
+  > (600,1200,0)  
+
+![blueprint_distancia_com_vetores](../imagens/tempoespaco/blueprint_distancia_com_vetores.jpg)
+
+- **VectorLength**  
+  Calcula o comprimento do vetor.  
+  Comprimento = VectorLength(Resultado)
+  >  1341.64078
+
+![blueprint_vector_lenght](../imagens/tempoespaco/blueprint_vector_lenght.jpg)
+
+- **GetDistanceTo**    
+  Distancia = GetDistanceTo(Cubo,Cubo2)
+  > 1341.64078
+
+![blueprint_vector_lenght](../imagens/tempoespaco/blueprint_getdistanceto.jpg)
+
+- **Normalize**  
+  **a** = Cubo.GetActorLocation(0,-600,70)   
+  Resultado = Normalize(**a**,0)
+  > (0,0.99,0.16)
+  > Os valores variam entre 0 e 1.
+
+![blueprint_normalize](../imagens/tempoespaco/blueprint_normalize.jpg)
+
+<a name="97"></a>
+### 9.7 Verificando para onde o ator está apontando.
+Usaremos várias funções para demonstrar como verificar a direção que o ator está apontando.
+
+- **GetActorForwardVector**   
+
+  **a** = Cubo.GetActorForwardVector()
+  > 1,0,0
+
+- **GetActorUpVector**  
+    **a** = Cubo.GetActorUpVector()
+    > 0,0,1
+
+- **GetActorRightVector**  
+  **a** = Cubo.GetActorRightVector()
+  > 0,1,0
+
+![](../imagens/tempoespaco/blueprint_forward_up_right_vector.jpg)
+
+
+
 ***
 ## Referências
 - [Delta timing](https://en.wikipedia.org/wiki/Delta_timing)
@@ -194,6 +312,7 @@ Exemplo de calculo de velocidade.
 - [Tutorial enentendo o que é o deltatime](https://www.fabricadejogos.net/posts/tutorial-entendo-o-que-o-deltatime/)
 - [fps vs capacidade humana](http://teclab.net.br/fps-vs-capacidade-humana/)
 -[Timelines](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Timelines/index.html)
+-[Vectors and Unity](http://staffwww.fullcoll.edu/dcraig/csharp/Vectors%20and%20Unity.pdf)
 
 ***
 ## Tags

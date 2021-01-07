@@ -1,10 +1,10 @@
 ---
-title: Instalando a Unreal Engine 4
-tags: [Unreal Engine]
+title: Instalando o Unreal Engine 4
+tags: [Unreal Engine,instalando]
 ---
 
 [CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/unreal.html)
-# Instalando a Unreal Engine 4
+# Instalando o Unreal Engine 4
 Neste capítulo vamos instalar e criar um projeto apresentando a organização de pastas.
 
 ## Índice

@@ -9,7 +9,7 @@ tags: [Unreal Engine,Controle de versão,GitHub]
 Neste capítulo vamos instalar o *git* para versionamento de código e apresentar
 os comandos básicos.
 
-## Índices
+## Índice
 1. [Instalação **Git**](#1)
 1. [Clonando o projeto](#2)
 1. [Criando o projeto](#3)
