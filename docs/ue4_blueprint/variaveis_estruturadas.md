@@ -1,12 +1,13 @@
 ---
-title: Variáveis estruturadas
+title: Structure - Variáveis estruturadas
 tags: [Unreal Engine,Structure]
 ---
 
 [CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/unreal.html)
 
-# Variáveis estruturadas
-Neste capitulo iremos apresentar o tipo de **Struct**, que são estruturas de dados também conhecidas como **registros**.
+# Structure - Variáveis estruturadas
+**Structure**, é um tipo de dados definido pelo usuário disponível na Unreal Engine em **C++** e **Blueprint**. Permite que um usuário combine itens de dados de (possivelmente) diferentes tipos de dados sob um único nome. Em outras palavras, é uma variável que contém outros variáveis de diferentes tipos.
+
 
 ## Índice
 1. [Conceito](#1)
@@ -21,12 +22,12 @@ Neste capitulo iremos apresentar o tipo de **Struct**, que são estruturas de da
 
 <a name="1"></a>
 ## 1. Conceito
-**Structure**, é um tipo de dados definido pelo usuário disponível em C++. Ele permite que um usuário combine itens de dados de (possivelmente) diferentes tipos de dados sob um único nome. Em outras palavras, é uma variável que contém outros variáveis de diferentes tipos.
+**Structure**, que são estruturas de dados também conhecidas como **registros**, são utilizadas para agrupar outros objetos e variáveis. Podem ser utilizadas definir propriedades de um elemento do jogo como por exemplo os personagens.
 
 <a name="11"></a>
 ## 1.1 Struct e Class
 Em **C++**, uma estrutura é realmente a mesma coisa que uma **Class**, exceto por algumas diferenças sintáticas.  
-Por exemplo, structs em **C++** padronizam suas variáveis de membro como públicas por padrão, enquanto as classes têm variáveis privadas por padrão.
+Por exemplo, **Structs** em **C++** padronizam suas variáveis de membro como públicas por padrão, enquanto as classes têm variáveis privadas por padrão.
 
 **C++ Struct**
 ```cpp
@@ -126,3 +127,6 @@ Vamos utilizar uma *Array* de objetos do tipo **Point Light Component** para que
 - [How to use Structs in Unreal Engine 4](https://couchlearn.com/how-to-use-structs-in-unreal-engine-4/)
 - [Using structs in Blueprints ](https://romeroblueprints.blogspot.com/2015/08/using-structs-in-blueprints.html)
 - [Unreal Engine 4 em Português - Estrutura - Olha Que Fácil #47](https://www.youtube.com/watch?v=IWAhdY6Vlzo)
+***
+## Tags
+[Blueprint](https://myerco.github.io/unreal-engine/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/unreal.html), [CafeGeek](https://myerco.github.io/unreal-engine/)
