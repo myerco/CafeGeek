@@ -1,7 +1,13 @@
+---
+title: Data Tables
+tags: [Unreal Engine,data tables]
+---
+
 [CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/unreal.html)
 
 # Data tables
 
+<a name="3"></a>
 ## Conceito
 *Data tables* são basicamente estruturas de tabelas de dados disponíveis para os desenvolvedores.  
 Definimos variáveis do tipo *Structure* para definir a estrutura das tabelas.

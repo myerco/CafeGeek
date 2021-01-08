@@ -5,10 +5,10 @@
 Neste capitulo serão apresentados Enumerações (*Enumeration*). Enumeração é algo como nomear ou numerar um a um (geralmente em uma lista).
 
 ## Índice
-> 1. [Conceito e implementação](#1)
-> 1. [Criando](#2)
-> 1. [Exemplos de uso (Lâmpada)](#3)
-> 1. [Exemplos de uso (A pedra das emoções)](#4)
+1. [Conceito e implementação](#1)
+1. [Criando](#2)
+1. [Exemplos de uso (Lâmpada)](#3)
+1. [Exemplos de uso (A pedra das emoções)](#4)
 
 <a name="1"></a>
 ## 1. Conceito e implementação
@@ -57,4 +57,4 @@ Objeto criado EN_Estado e EN_Pedra.
 
 ***
 ## Tags
-[Blueprint](https://myerco.github.io/unreal-engine/modulo1/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/unreal.html), [CafeGeek](https://myerco.github.io/unreal-engine/)
+[Blueprint](https://myerco.github.io/unreal-engine/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/unreal.html), [CafeGeek](https://myerco.github.io/unreal-engine/)
