@@ -3,7 +3,7 @@ title: Organizando o projeto
 tags: [Unreal Engine,Organizando,Blueprint]
 ---
 
-[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/unreal.html)
+[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html)
 
 # Organizando o projeto
 Neste capitulo vamos organizar o projeto *ProjetoAula* e alguns elementos da interface.
@@ -122,4 +122,4 @@ Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apr
 
 ***
 ## Tags
-[Blueprint](https://myerco.github.io/unreal-engine/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/unreal.html), [CafeGeek](https://myerco.github.io/unreal-engine/)
+[Blueprint](https://myerco.github.io/unreal-engine/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/unreal-engine/)

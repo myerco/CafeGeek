@@ -3,7 +3,7 @@ title: Structure - Variáveis estruturadas
 tags: [Unreal Engine,Structure]
 ---
 
-[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/unreal.html)
+[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html)
 
 # Structure - Variáveis estruturadas
 **Structure**, é um tipo de dados definido pelo usuário disponível na Unreal Engine em **C++** e **Blueprint**. Permite que um usuário combine itens de dados de (possivelmente) diferentes tipos de dados sob um único nome. Em outras palavras, é uma variável que contém outros variáveis de diferentes tipos.
@@ -22,7 +22,7 @@ tags: [Unreal Engine,Structure]
 
 <a name="1"></a>
 ## 1. Conceito
-**Structure**, que são estruturas de dados também conhecidas como **registros**, são utilizadas para agrupar outros objetos e variáveis. Podem ser utilizadas definir propriedades de um elemento do jogo como por exemplo os personagens.
+**Structure**, são estruturas de dados também conhecidas como **registros**, são utilizadas para agrupar outros objetos e variáveis. Podem ser utilizadas definir propriedades de um elemento do jogo como por exemplo os personagens.
 
 <a name="11"></a>
 ## 1.1 Struct e Class
@@ -129,4 +129,4 @@ Vamos utilizar uma *Array* de objetos do tipo **Point Light Component** para que
 - [Unreal Engine 4 em Português - Estrutura - Olha Que Fácil #47](https://www.youtube.com/watch?v=IWAhdY6Vlzo)
 ***
 ## Tags
-[Blueprint](https://myerco.github.io/unreal-engine/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/unreal.html), [CafeGeek](https://myerco.github.io/unreal-engine/)
+[Blueprint](https://myerco.github.io/unreal-engine/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/unreal-engine/)

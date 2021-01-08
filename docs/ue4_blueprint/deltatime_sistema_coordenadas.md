@@ -2,7 +2,7 @@
 title: Delta time e sistema de coordenadas
 tags: [Unreal Engine,tempo, espaço]
 ---
-[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/unreal.html)
+[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html)
 
 # Delta time e sistema de coordenadas
 Neste capítulo serão apresentados os elementos de controle de tempo (Delta Time) dentro da **Unreal Engine** e utilizar para  implementar movimentação de objetos.
@@ -332,4 +332,4 @@ Usaremos a função **FindLookAtRotation**. No exemplo o **Cubo3** vai apontar a
 
 ***
 ## Tags
-[Blueprint](https://myerco.github.io/unreal-engine/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/unreal.html), [CafeGeek](https://myerco.github.io/unreal-engine/),[Vector](#)
+[Blueprint](https://myerco.github.io/unreal-engine/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/unreal-engine/),[Vector](#)

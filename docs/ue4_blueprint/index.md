@@ -29,7 +29,7 @@ tags: [Unreal Engine]
     1. [Comunicação entre Blueprints](https://myerco.github.io/unreal-engine/ue4_blueprint/comunicacao.html)    
     1. [Delta time e sistema de coordenadas](https://myerco.github.io/unreal-engine/ue4_blueprint/deltatime_sistema_coordenadas.html)  
 1. Estruturas de dados
-    1. [Structure - Variáveis estruturadas](https://myerco.github.io/unreal-engine/ue4_blueprint/variaveis_estruturadas.html)  
+    1. [Structure - Variáveis estruturadas](https://myerco.github.io/unreal-engine/ue4_blueprint/structure_variaveis_estruturadas.html)  
     1. [Data tables - Tabelas de dados](https://myerco.github.io/unreal-engine/ue4_blueprint/datatables.html)
     1. [Game Instance, Game State e Game Mode](https://myerco.github.io/unreal-engine/ue4_blueprint/estruturasdados.html)
 1. Interface com usuário
