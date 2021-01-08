@@ -23,7 +23,7 @@ tags: [Unreal Engine]
     1. [Enums](https://myerco.github.io/unreal-engine/ue4_blueprint/enum.html)    
     1. [Estrutura de controles](https://myerco.github.io/unreal-engine/ue4_blueprint/controles.html)
 1. Atores, movimentação, tempo e espaço
-    1. [Atores](https://myerco.github.io/unreal-engine/ue4_blueprint/atores.html)
+    1. [Actors - Atores](https://myerco.github.io/unreal-engine/ue4_blueprint/atores.html)
     1. [Eventos, funções e macros](https://myerco.github.io/unreal-engine/ue4_blueprint/eventos_funcoes.html)  
     1. [Movimentação do personagem](https://myerco.github.io/unreal-engine/ue4_blueprint/movimentacao.html)    
     1. [Comunicação entre Blueprints](https://myerco.github.io/unreal-engine/ue4_blueprint/comunicacao.html)    

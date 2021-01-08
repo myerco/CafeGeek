@@ -6,26 +6,26 @@ tags: [Unreal Engine,Structure]
 [CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html)
 
 # Structure - Variáveis estruturadas
-**Structure**, é um tipo de dados definido pelo usuário disponível na Unreal Engine em **C++** e **Blueprint**. Permite que um usuário combine itens de dados de (possivelmente) diferentes tipos de dados sob um único nome. Em outras palavras, é uma variável que contém outros variáveis de diferentes tipos.
-
+**Structure**, é um tipo de dados definido pelo usuário disponível na **Unreal Engine** em **C++** e **Blueprint**, neste capitulo vamos explorar estes objetos.
 
 ## Índice
-1. [Conceito](#1)
-    1. [Struct e Class](#11)
-1. [Criando variáveis do tipo Struc com Blueprint](#2)
+1. [O que são variáveis do tipo Structure?](#1)
+    1. [Structure e Class](#11)
+1. [Criando variáveis do tipo Structure com Blueprint](#2)
     1. [Menu Blueprints->Structure](#21)
     1. [Definindo variáveis dentro da estrutura](#22)
 1. [Apresentado variáveis](#3)    
 1. [Exemplo](#4)    
-    1. [Criando a estrutura SControleLuzes](#41)
+    1. [Criando a objeto SControleLuzes](#41)
     1. [Lógica para construir os elementos na cena](#42)
 
 <a name="1"></a>
-## 1. Conceito
-**Structure**, são estruturas de dados também conhecidas como **registros**, são utilizadas para agrupar outros objetos e variáveis. Podem ser utilizadas definir propriedades de um elemento do jogo como por exemplo os personagens.
+## 1. O que são variáveis do tipo Structure?
+**Structure**, são estruturas de dados também conhecidas como **registros**, permitem que um usuário combine itens de dados de (possivelmente) diferentes tipos de dados sob um único nome. Em outras palavras, é uma variável que contém outros variáveis de diferentes tipos.  
+Podem ser utilizadas para definir propriedades de um elemento do jogo como por exemplo os personagens.
 
 <a name="11"></a>
-## 1.1 Struct e Class
+## 1.1 Structure e Class
 Em **C++**, uma estrutura é realmente a mesma coisa que uma **Class**, exceto por algumas diferenças sintáticas.  
 Por exemplo, **Structs** em **C++** padronizam suas variáveis de membro como públicas por padrão, enquanto as classes têm variáveis privadas por padrão.
 
@@ -79,7 +79,7 @@ private:
 };
 ```
 <a name="2"></a>
-## 2. Criando variáveis do tipo Struc com Blueprint
+## 2. Criando variáveis do tipo Structure com Blueprint
 Para este exemplo vamos criar o objeto *SJogador* do tipo **Structure**.
 
 <a name="21"></a>
@@ -106,14 +106,13 @@ Para acessar as variáveis que estão dentro da objeto do tipo **Structure** vam
 Vamos utilizar uma *Array* de objetos do tipo **Point Light Component** para que possam ser adicionados na cena no momento de construção do objeto.
 
 <a name="41"></a>
-### 4.1 Criando a estrutura *SControleLuzes*
+### 4.1 Criando o objeto *SControleLuzes*
 ![](../imagens/estruturas/blueprint_variable_2.png)  
 1. **Luzes** - *Array* de tipo **Point Light Component**
 1. **ControLuzes** - *Array* de tipo **SControleLuzes**
 
 <a name="42"></a>
 ### 4.2 Lógica para construir os elementos na cena
-
 1. Na construção do objeto (*Construction Script*) adicionamos elementos *Point light component* na cena e logo em seguida no array *Luzes*.    
 ![](../imagens/estruturas/blueprint_loop_array_structures.png)  
 

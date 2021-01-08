@@ -1,59 +1,65 @@
+---
+title: Actors - Atores
+tags: [Unreal Engine,actor,atores]
+---
+
 [CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html)
 
-# Atores
-Neste capitulo serão apresentados e implementados os atores *Actors* do seu
-projeto.
+# Actors - Atores
+Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de básica de objetos da **Unreal Engine**, neste capitulo serão apresentados e implementados os atores *Actors* do seu projeto.
 
 ## Índice
->1. [Conceituando atores](#1)
->     1. [Classes](#11)
->     1. [Hierarquia](#12)
->     1. [Implementação](#13)
->1. [Classes Bluprint](#2)
->     1. [Actor](#21)
->     1. [Pawn](#22)
->     1. [Character](#23)
->1. [Componentes](#3)
->     1. [Adicionando componentes](#31)
->     1. [Editor de objetos e componentes](#32)
->1. [Static Mesh - Malhas estáticas](#4)
->     1. [Componente StaticMesh](#41)
->     1. [Propriedades do componente](#42)
->     1. [Editor de StaticMesh](#43)
->1. [Skeletal Mesh - Malha Esquelética](#5)
->     1. [Estrutura](#51)
->     1. [Componentes](#52)
->     1. [Detalhes](#53)
->     1. [Editor](#52)
->1. [Posição e coordenadas](#6)
->     1. [Coordenadas no ViewPort](#61)
->     1. [Transform](#62)
->     1. [Escrevendo na tela o posicionamento do ator no mundo](#63)
->     1. [Posição relativa no mundo](#64)
->     1. [Escrevendo na tela o posição relativa do componente](#64)
-> 1. [Herança](#7)
->     1. [Componente ChildActor implementa a ligação com outro ator](#71)
->     1. [Herança de propriedades e métodos](#72)
->     1. [Referências de atores e componentes](#73)
-> 1. [Manipulando atores](#8)
->     1. [Listando atores por classe](#81)
->     1. [Listando atores utilizando tag (etiquetas)](#81)
-> 1. [Colisões](#9)
+1. [O que são Actors?](#1)
+    1. [Classes](#11)
+    1. [Hierarquia](#12)
+    1. [Implementação](#13)
+1. [Classes Bluprint](#2)
+    1. [Actor](#21)
+    1. [Pawn](#22)
+    1. [Character](#23)
+1. [Componentes e Actors](#3)
+    1. [Adicionando componentes](#31)
+    1. [Editor de objetos e componentes](#32)
+1. [Static Mesh - Malhas estáticas](#4)
+    1. [Componente StaticMesh](#41)
+    1. [Propriedades do componente](#42)
+    1. [Editor de StaticMesh](#43)
+1. [Skeletal Mesh - Malha Esquelética](#5)
+    1. [Estrutura](#51)
+    1. [Componentes](#52)
+    1. [Detalhes](#53)
+    1. [Editor](#52)
+1. [Posição e coordenadas](#6)
+    1. [Coordenadas no ViewPort](#61)
+    1. [Transform](#62)
+    1. [Escrevendo na tela o posicionamento do ator no mundo](#63)
+    1. [Posição relativa no mundo](#64)
+    1. [Escrevendo na tela o posição relativa do componente](#64)
+ 1. [Herança com Blueprint](#7)
+    1. [Componente ChildActor implementa a ligação com outro ator](#71)
+    1. [Herança de propriedades e métodos](#72)
+    1. [Referências de atores e componentes](#73)
+1. [Manipulando Actors](#8)
+    1. [Criando e destruindo um Actor](#81)
+    1. [Listando atores por classe](#82)
+    1. [Listando atores utilizando tag (etiquetas)](#83)
+1. [Colisões](#9)
 
 <a name="1"></a>
-## 1. Conceituando atores
-Um ator é qualquer objeto que pode ser colocado em um nível. Atores são uma classe genérica que oferece suporte a transformações 3D, como translação, rotação e escala. Atores podem ser criados (gerados) e destruídos por meio de código de jogo (C ++ ou Blueprints). Em C ++, AActor é a classe base de todos os atores.  
-É composto por Atributos, componentes  e eventos.   
-Permitem Herança.
+## 1. O que são Actors?
+**Actors** ou Atores são uma classe genérica que oferece suporte a transformações 3D, como translação, rotação e escala. Atores podem ser criados (gerados) e destruídos por meio de código de jogo (**C++**  ou **Blueprints**). Em **C ++**, **AActor** é a classe base de todos os atores.  
+É composto por Atributos, componentes, eventos e permitem Herança.
+Para entender melhor devemos conceituar e entender o que são classes.
 
 <a name="11"></a>
 ### 1.1 Classes
-Classes são estruturas de dados que constituem a programação orientada a objetos. Contém seus próprios membros de dados e funções e podem ser acessados e usados criando uma instância de classe.   
+Classes são estruturas de dados que constituem a programação orientada a objetos. Contém seus próprios membros de dados e funções e podem ser acessados e usados criando uma instância de classe.    
 Classes determinam como os objetos serão quando criados.   
 Um objeto é uma instância de uma classe. Quando uma classe é definida, nenhuma memória é alocada, mas quando ela é instanciada (ou seja, um objeto é criado), a memória é alocada.   
 
 <a name="12"></a>
 ### 1.2 Hierarquia
+Abaixo vamos apresentar a estrutura hierarquia de classes.
 ```
 |-- UObject C++
     |-- Actor C++
@@ -134,7 +140,7 @@ Com a adição de um CharacterMovementComponent, um CapsuleComponent e um Skelet
 - **Anim Class** - Blueprint de animação associado.
 
 <a name="3"></a>
-### 3. Componentes
+### 3. Componentes e Actors
 Os componentes são um tipo especial de objeto que os atores podem anexar a si próprios como subobjetos. Os componentes são úteis para compartilhar comportamentos comuns, como a capacidade de exibir uma representação visual e reproduzir sons. Eles também podem representar conceitos específicos do projeto, como a maneira como um veículo interpreta a entrada e muda sua própria velocidade e orientação. Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuário pode implementar as diferenças no controle e movimento do veículo, alterando qual componente um ator do veículo usa.    
 
 <a name="31"></a>
@@ -257,7 +263,7 @@ A posição do ator no mundo é calculada utilizando o componente **DefaultScene
 ![Posição Relativa](../imagens/actor/actor5.png)
 
 <a name="7"></a>
-## 7. Herança
+## 7. Herança com blueprint
 Herança permite usar classes já definidas para derivar novas classes.  
 Exemplo:  
 ```
@@ -287,10 +293,10 @@ Exemplo:
 ![Herança](../imagens/actor/actor11.png)
 
 <a name="8"></a>
-## 8. Manipulando atores
+## 8. Manipulando Actors
 
 <a name="81"></a>
-### 8.1 Criando e destruindo atores.  
+### 8.1 Criando e destruindo um Actor.  
 O processo de criação de uma nova instância de um ator é conhecido como spawning. A geração de atores é realizada usando a função **SpawnActor**. Esta função cria uma nova instância de uma classe especificada e retorna um ponteiro para o Actor recém-criado.**SpawnActor** só pode ser usado para criar instâncias de classes que herdam da classe Actor em sua hierarquia.
 
 ![Herança](../imagens/actor/actor12.png)
@@ -300,11 +306,11 @@ O processo de criação de uma nova instância de um ator é conhecido como spaw
 - Usamos **IsValid** para verificar se o ator existe na cena.
 
 <a name="82"></a>
-### 8.2 Listando atores por classe
+### 8.2 Listando Actors por classe
 ![Herança](../imagens/actor/actor13.png)
 
 <a name="83"></a>
-### 8.3 Listando atores utilizando *tag* (etiquetas)  
+### 8.3 Listando Actors utilizando *tag* (etiquetas)  
 ![Herança](../imagens/actor/actor14.png)
 
 <a name="9"></a>
