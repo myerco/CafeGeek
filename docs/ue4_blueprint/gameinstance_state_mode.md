@@ -18,7 +18,7 @@ Na estrutura da **Unreal Engine** existem classes para controlar regras do jogo 
 1. [GameInstance](#5)    
     1. [Criando GameInstance](#51)
     1. [Adicionando um evento dentro da GameInstance](#52)    
-    1. [Chamando a GameInstance para acessar os seus elementos](#52)   
+    1. [Chamando a GameInstance para acessar os seus elementos](#53)   
 
 <a name="1"></a>
 ## 1. A organização de classes do Framework
