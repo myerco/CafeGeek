@@ -84,11 +84,11 @@ Para este exemplo vamos criar o objeto *SJogador* do tipo **Structure**.
 
 <a name="21"></a>
 ## 2.1 Menu Blueprints->Structure
-![](../imagens/estruturas/blueprint_menu_structure.png)
+![](../imagens/estruturas/blueprint_menu_structure.jpg)
 
 <a name="22"></a>
 ## 2.2 Definindo variáveis dentro da estrutura
-![](../imagens/estruturas/blueprint_variable.png)
+![](../imagens/estruturas/blueprint_variable.jpg)
 1. Nome do tipo **Name** - Armazena o nome do jogador
 1. Vida do tipo **Float** - Total de vida do jogador.
 1. Forca do tipo **Float** - Total de força do jogador.
@@ -99,7 +99,7 @@ Para este exemplo vamos criar o objeto *SJogador* do tipo **Structure**.
 <a name="3"></a>
 ## 3. Apresentado variáveis  
 Para acessar as variáveis que estão dentro da objeto do tipo **Structure** vamos utilizar **Break Structure**.  
-![](../imagens/estruturas/blueprint_break_structure.png)
+![](../imagens/estruturas/blueprint_break_structure.jpg)
 
 <a name="4"></a>
 ## 4. Exemplo
@@ -107,17 +107,17 @@ Vamos utilizar uma *Array* de objetos do tipo **Point Light Component** para que
 
 <a name="41"></a>
 ### 4.1 Criando o objeto *SControleLuzes*
-![](../imagens/estruturas/blueprint_variable_2.png)  
+![](../imagens/estruturas/blueprint_variable_2.jpg)  
 1. **Luzes** - *Array* de tipo **Point Light Component**
 1. **ControLuzes** - *Array* de tipo **SControleLuzes**
 
 <a name="42"></a>
 ### 4.2 Lógica para construir os elementos na cena
 1. Na construção do objeto (*Construction Script*) adicionamos elementos *Point light component* na cena e logo em seguida no array *Luzes*.    
-![](../imagens/estruturas/blueprint_loop_array_structures.png)  
+![](../imagens/estruturas/blueprint_loop_array_structures.jpg)  
 
 1. Ao terminar o primeiro *loop* reconstruímos o array de controle *ControLuzes* e o percorremos em conjunto com o array *luzes* para configurar as propriedades dos elementos.  
-![](../imagens/estruturas/blueprint_loop_set_struct.png)  
+![](../imagens/estruturas/blueprint_loop_set_struct.jpg)  
 
 ***
 

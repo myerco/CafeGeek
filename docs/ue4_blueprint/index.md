@@ -32,7 +32,7 @@ tags: [Unreal Engine]
     1. [Data tables - Tabelas de dados](https://myerco.github.io/unreal-engine/ue4_blueprint/datatables.html)
     1. [Game Instance, Game State e Game Mode](https://myerco.github.io/unreal-engine/ue4_blueprint/gameinstance_state_mode.html)
 1. Interface com usuário
-    1. [HUD - Interface com o jogador](https://myerco.github.io/unreal-engine/ue4_blueprint/hud.html)
+    1. [HUD - Interface com o jogador](https://myerco.github.io/unreal-engine/ue4_blueprint/hud_interface.html)
     1. [Carregando e Salvando o jogo](https://myerco.github.io/unreal-engine/ue4_blueprint/salvando.html)
 1. Ambiente
     1. [Materiais](https://myerco.github.io/unreal-engine/materiais.html)
