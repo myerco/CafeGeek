@@ -36,15 +36,36 @@ Para gerenciar melhor o posicionamento de objetos no **Widget Designer** vamos e
 <a name="2"></a>
 ## 1. Implementando o Menu do jogo
 
-![](../imagens/hud/blueprint_anchor_alinhamento_separado.jpg)
+## 1.1 Acessando a opção de
+![](../imagens/hud/blueprint_hud_menu.jpg)
 
 ![](../imagens/hud/blueprint_anchor_alinhamento.jpg)
+![](../imagens/hud/blueprint_anchor_alinhamento_position.jpg)
+
+![](../imagens/hud/blueprint_anchor_alinhamento_separado.jpg)
+
+![](../imagens/hud/blueprint_anchor_alinhamento_offset.jpg)
+
 
 ![](../imagens/hud/blueprint_grid_panel.jpg)
 
 ![](../imagens/hud/blueprint_horizontal_box.jpg)
 
 ![](../imagens/hud/blueprint_horizontal_box_fill.jpg)
+
+![](../imagens/hud/blueprint_hud_designer.jpg)
+
+![](../imagens/hud/blueprint_hud_hierarquia.jpg)
+
+![](../imagens/hud/blueprint_hud_vertical_box.jpg)
+
+![](../imagens/hud/blueprint_empty_level.jpg)
+
+![](../imagens/hud/blueprint_hud_event_construct.jpg)
+
+![](../imagens/hud/blueprint_hud_open_level.jpg)
+
+![](../imagens/hud/blueprint_hud_quit_game.jpg)
 
 ***
 ## Referências
