@@ -1,12 +1,14 @@
 ---
 title: HUD - Interface com o jogador
-tags: [Unreal Engine,HUD,user interface]
+tags: [Unreal Engine,HUD,user interface,hud]
 ---
 
 [CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html)
 
 # HUD - Interface com o jogador
 HUD (Heads-up Display) ou UI (Use Interface) é um objeto especial da **Unreal Engine** para apresentar informações sobrepostas na tela e interagir com o jogador.
+
+Vamos apresentar formas de interação e depois construir objetos os necessários.
 
 ## Índice
 >1. [Como interagir com o jogador?](#1)
@@ -21,7 +23,7 @@ HUD (Heads-up Display) ou UI (Use Interface) é um objeto especial da **Unreal E
 ## 1. Como interagir com o jogador?
 Durante o tempo do jogo é necessário interagir com o jogador de diversas formas, informando status de jogo, personagem e até mesmo guias de missões. Geralmente são informações em formatado texto e imagens 2D que se sobrepõe a tela para informar o jogador.       
 
-De outra forma, o comunicação de ações globais do jogo como por exemplo iniciar uma missão, salvar o jogo, sair do jogo e controlar de opções são formas de interação jogo vs player que utilizam menus através de botões, caixas rolantes e outros componentes.
+De outra forma, o comunicação de ações globais do jogo como por exemplo iniciar uma missão, salvar o jogo, sair do jogo e gerenciamento de configuração são formas de interação jogo vs player que utilizam menus através de botões, caixas rolantes e outros componentes.
 
 <a name="11"></a>
 ## 1.1 Menos é Melhor!
@@ -37,34 +39,34 @@ Para gerenciar melhor o posicionamento de objetos no **Widget Designer** vamos e
 ## 1. Implementando o Menu do jogo
 
 ## 1.1 Acessando a opção de
-![](../imagens/hud/blueprint_hud_menu.jpg)
+![](../imagens/interface_ui_hud/blueprint_hud_menu.jpg)
 
-![](../imagens/hud/blueprint_anchor_alinhamento.jpg)
-![](../imagens/hud/blueprint_anchor_alinhamento_position.jpg)
+![](../imagens/interface_ui_hud/blueprint_anchor_alinhamento.jpg)
+![](../imagens/interface_ui_hud/blueprint_anchor_alinhamento_position.jpg)
 
-![](../imagens/hud/blueprint_anchor_alinhamento_separado.jpg)
+![](../imagens/interface_ui_hud/blueprint_anchor_alinhamento_separado.jpg)
 
-![](../imagens/hud/blueprint_anchor_alinhamento_offset.jpg)
+![](../imagens/interface_ui_hud/blueprint_anchor_alinhamento_offset.jpg)
 
-]![](../imagens/hud/blueprint_grid_panel.jpg)
+]![](../imagens/interface_ui_hud/blueprint_grid_panel.jpg)
 
-![](../imagens/hud/blueprint_horizontal_box.jpg)
+![](../imagens/interface_ui_hud/blueprint_horizontal_box.jpg)
 
-![](../imagens/hud/blueprint_horizontal_box_fill.jpg)
+![](../imagens/interface_ui_hud/blueprint_horizontal_box_fill.jpg)
 
-![](../imagens/hud/blueprint_hud_designer.jpg)
+![](../imagens/interface_ui_hud/blueprint_hud_designer.jpg)
 
-![](../imagens/hud/blueprint_hud_hierarquia.jpg)
+![](../imagens/interface_ui_hud/blueprint_hud_hierarquia.jpg)
 
-![](../imagens/hud/blueprint_hud_vertical_box.jpg)
+![](../imagens/interface_ui_hud/blueprint_hud_vertical_box.jpg)
 
-![](../imagens/hud/blueprint_empty_level.jpg)
+![](../imagens/interface_ui_hud/blueprint_empty_level.jpg)
 
-![](../imagens/hud/blueprint_hud_event_construct.jpg)
+![](../imagens/interface_ui_hud/blueprint_hud_event_construct.jpg)
 
-![](../imagens/hud/blueprint_hud_open_level.jpg)
+![](../imagens/interface_ui_hud/blueprint_hud_open_level.jpg)
 
-![](../imagens/hud/blueprint_hud_quit_game.jpg)
+![](../imagens/interface_ui_hud/blueprint_hud_quit_game.jpg)
 
 ***
 ## Referências
