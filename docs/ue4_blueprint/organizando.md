@@ -18,7 +18,7 @@ Neste capitulo vamos organizar o projeto *ProjetoAula* e alguns elementos da int
 ## 1. Criando pastas de trabalho
 - Na aba *Content Browser* utilizando botão direito do mouse clique em *New Folder* e crie as seguintes pastas:   
 
-![](https://myerco.github.io/unreal-engine/imagens/projeto/projeto7.png)
+![](https://myerco.github.io/unreal-engine/imagens/projeto/blueprint_content.jpg)
 
 <a name="2"></a>
 ## 2. *Level* e Inicialização
@@ -30,7 +30,7 @@ Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguinte
 	- Edit Startup Level : LevelTest
 	- Game default Map : LevelTest  
 
-	![](https://myerco.github.io/unreal-engine/imagens/projeto/projeto5.png)
+	![](https://myerco.github.io/unreal-engine/imagens/projeto/blueprint_maps_modes.jpg)
 
 ## 3. Pastas de nomenclatura
 Para um maior gerenciamento podem ser definidas pastas com nomenclaturas adequadas ao projeto, abaixo vamos relacionar algumas sugestões.
@@ -104,11 +104,10 @@ Para um maior gerenciamento podem ser definidas pastas com nomenclaturas adequad
 			|		|-- M_Master
 	```		
 
-
 <a name="4"></a>
 ## 4. Configurando as imagens  do projeto
 Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu **Project Settings** opção **Plataforms**-> **Windows** e altere a imagens.
-![](https://myerco.github.io/unreal-engine/imagens/projeto/projeto8.png)
+![](https://myerco.github.io/unreal-engine/imagens/projeto/blueprint_project_icon.jpg)
 
 > Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas pode ser convertido usando ferramentas online, por exemplo) e 256x256.
 

@@ -9,6 +9,8 @@ Neste capítulo vamos instalar e criar um projeto apresentando a organização d
 
 ## Índice
 1. [Instalando o Unreal e o Visual Studio](#1)
+    1. [Siga o passos recomendados pela Epic Games](#11)
+    1. [Instalando os pacotes e o Visual Studio para programação com C++](#12)    
 1. [Criando o projeto **ProjetoAula**](#2)
 1. [Verificando as pastas criadas](#3)
 1. [Configurando o editor de código](#4)
@@ -34,7 +36,7 @@ Siga o guia de instalação da **Epic Games** pois é bem fácil.
 1. Selecione os pacotes :
   - Desenvolvimento de jogos com C++.
   - Desenvolvimento para Desktop com C++   
-  > Por que instalei este pacote?
+  > **Por que instalei este pacote?**    
   Porque muitas vezes foi necessário testar uma funcionalidade ou mesmo testar um conceito da linguagem e ter o compilador disponível foi uma mão na roda.
 
 <a name="2"></a>
@@ -83,7 +85,7 @@ quando compilar o projeto.
 |-- Intermediate
 |-- Saved
 ```
-1. Para recompilar o projeto e recriar os arquivos siga os seguintes passos utilizando o *explorer* no Windows:   
+1. Para recompilar o projeto e recriar os arquivos siga os seguintes passos utilizando o *explorer* no Windows:
   1. Apague as pastas *Binaries, Build, Intermediate* e *Saved*.
   1. Click com botão direito do mouse no arquivo **ProjetoAula.uproject**.
   1. Escolha a opção **Generate Visual Studio project files**.
