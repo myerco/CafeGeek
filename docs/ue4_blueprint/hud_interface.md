@@ -46,7 +46,7 @@ Para gerenciar melhor o posicionamento de objetos no **Widget Designer** vamos e
 
 ![](../imagens/hud/blueprint_anchor_alinhamento_offset.jpg)
 
-![](../imagens/hud/blueprint_grid_panel.jpg)
+]![](../imagens/hud/blueprint_grid_panel.jpg)
 
 ![](../imagens/hud/blueprint_horizontal_box.jpg)
 
