@@ -1,11 +1,11 @@
 ---
-title: Instalando o Unreal Engine 4
+title: Como instalar o Unreal Engine 4?
 tags: [Unreal Engine,instalando]
 ---
 
 [CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html)
-# Instalando o Unreal Engine 4
-Neste capítulo vamos instalar e criar um projeto apresentando a organização de pastas.
+# Como instalar o Unreal Engine 4?
+Neste capítulo vamos instalar e criar um projeto apresentando a organização de suas pastas.
 
 ## Índice
 1. [Instalando o Unreal e o Visual Studio](#1)
@@ -15,29 +15,42 @@ Neste capítulo vamos instalar e criar um projeto apresentando a organização d
 
 <a name="1"></a>
 ## 1. Instalando o Unreal e o Visual Studio
-Devemos instalar o **Epic Games Laucnher** que gerencia a instalação e atualização de jogos e do **Unreal Engine**.
+Para instalar a **Unreal Engine 4** devemos instalar o **Epic Games Laucnher**, responsável pelo gerenciamento, instalação e atualização de jogos e do Framework.
+
+Sim, o **Unreal Enegine 4** é um [Framework](https://pt.wikipedia.org/wiki/Framework) de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos.
 
 Durante a instalação é necessário baixar os pacotes de desenvolvimento em C++.
 
-1. Guia de instalação da **Epic Games** - [Instalando o Uneal Engine](https://docs.unrealengine.com/en-US/GettingStarted/Installation/index.html).
-1. Instalando os pacotes e o Visual Studio para programação com C++
-  - [Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F).
-  - [Unreal e Visual Studio](https://docs.unrealengine.com/en-US/Programming/Development/VisualStudioSetup/index.html).
-  - Selecione os pacotes : Desenvolvimento para Desktop com C++ e Desenvolvimento de jogos com C++.  
+<a name="11"></a>
+### 1.1 Siga o passos recomendados pela Epic Games
+Siga o guia de instalação da **Epic Games** pois é bem fácil.   
+
+[Instalando o Uneal Engine](https://docs.unrealengine.com/en-US/GettingStarted/Installation/index.html).
+
+<a name="12"></a>
+### 1.2 Instalando os pacotes e o Visual Studio para programação com C++
+1. [Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F).
+1. [Unreal e Visual Studio](https://docs.unrealengine.com/en-US/Programming/Development/VisualStudioSetup/index.html).
+1. Selecione os pacotes :
+  - Desenvolvimento de jogos com C++.
+  - Desenvolvimento para Desktop com C++   
+  > Por que instalei este pacote?
+  Porque muitas vezes foi necessário testar uma funcionalidade ou mesmo testar um conceito da linguagem e ter o compilador disponível foi uma mão na roda.
 
 <a name="2"></a>
 ## 2. Criando o projeto ProjetoAula
 1. Selecionando o tipo de projeto.    
-![Atores](https://myerco.github.io/unreal-engine/imagens/projeto/projeto1.png)
+![blueprint_select_new_project](https://myerco.github.io/unreal-engine/imagens/projeto/blueprint_ue_select_new_project.jpg)
 
 1. Escolha um projeto em branco (*Blank*).  
- ![Atores](https://myerco.github.io/unreal-engine/imagens/projeto/projeto2.png)
+ ![blueprint_ue_select_template](https://myerco.github.io/unreal-engine/imagens/projeto/blueprint_ue_select_template.jpg)
 
-1. Em configuração de projeto escolha C++ e *No Starter Content* e a pasta do projeto para não instalar o pacote padrão de *assets* da **Epic Games**.  
-  Escolha uma pasta onde o projeto deverá ser instalado.  
-![Atores](https://myerco.github.io/unreal-engine/imagens/projeto/projeto3.png)
-1. Tela inicial.  
-![Atores](https://myerco.github.io/unreal-engine/imagens/projeto/projeto4.png)
+1. Em configuração de projeto escolha **C++** e *No Starter Content*, este opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário.    
+Logo em seguida escolha uma pasta onde o projeto deverá ser instalado em **Select a Location for project to be stored**.       
+![Atores](https://myerco.github.io/unreal-engine/imagens/projeto/blueprint_ue_project_settings.jpg)
+
+1. Se deu certo a tela inicial da **Engine** deve aparecer.  
+![blueprint_ue_tela_inicial](https://myerco.github.io/unreal-engine/imagens/projeto/blueprint_ue_tela_inicial.jpg)
 
 <a name="3"></a>
 ## 3. Verificando as pastas criadas
@@ -83,7 +96,8 @@ quando compilar o projeto.
 Para configura o editor de código fonte **C++** acesse :
 **Menu->Editor Preferences->General** e **Source Code** e escolha **Visualstudio**.
 
-![Atores](https://myerco.github.io/unreal-engine//imagens/projeto/projeto6.png)
+![Atores](https://myerco.github.io/unreal-engine//imagens/projeto/blueprint_ue_editor_codigo.jpg)
+
 
 ***
 ## Referências
