@@ -39,6 +39,8 @@ Siga o guia de instalação da **Epic Games** pois é bem fácil.
 
 <a name="2"></a>
 ## 2. Criando o projeto ProjetoAula
+Neste passo vamos criar um projeto utilizando **C++** como linguagem de desenvolvimento pois ajuda para compreender a organização e construção de pastas e arquivos da *Unreal Engine**.  
+
 1. Selecionando o tipo de projeto.    
 ![blueprint_select_new_project](https://myerco.github.io/unreal-engine/imagens/projeto/blueprint_ue_select_new_project.jpg)
 
@@ -54,7 +56,7 @@ Logo em seguida escolha uma pasta onde o projeto deverá ser instalado em **Sele
 
 <a name="3"></a>
 ## 3. Verificando as pastas criadas
-Utilizando o *explorer* navegue até a pasta do projeto para verificar os arquivos criados.
+Utilizando o *explorer* do Windows, navegue até a pasta do projeto para verificar os arquivos criados.
 
 ```bash
 |-- .vs
@@ -67,25 +69,21 @@ Utilizando o *explorer* navegue até a pasta do projeto para verificar os arquiv
 |-- ProjetoAula.sln
 |-- ProjetoAula.uproject
 ```
-
 1. A pasta *Source* contém arquivos com código
-fonte em **C++** e o arquivo com extensão *uproject* é o principal arquivo do projeto.
-
-1. É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto.
-  Abaixo o recomendado pelos desenvolvedores:  
-  [Estrutura do diretório](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html).
-
+fonte em **C++** e o arquivo com extensão *uproject* é o principal arquivo do projeto.    
+1. É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto.   
+  Abaixo duas boas recomendações de organização, discutiremos mais nos próximos capítulos.    
+  - [Estrutura do diretório](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html).
+  - [UE4 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin)
 1.  Os diretórios abaixo podem ser removidos pois podemos construir a qualquer momento
 quando compilar o projeto.
-
 ```bash
 |-- Binaries
 |-- Build
 |-- Intermediate
 |-- Saved
 ```
-1. Para recompilar o projeto e recriar os arquivos siga os seguintes passos utilizando o *explorer* no Windows:
-
+1. Para recompilar o projeto e recriar os arquivos siga os seguintes passos utilizando o *explorer* no Windows:   
   1. Apague as pastas *Binaries, Build, Intermediate* e *Saved*.
   1. Click com botão direito do mouse no arquivo **ProjetoAula.uproject**.
   1. Escolha a opção **Generate Visual Studio project files**.
@@ -93,11 +91,13 @@ quando compilar o projeto.
 
 <a name="4"></a>
 ## 4. Configurando o editor de código
-Para configura o editor de código fonte **C++** acesse :
+Você tem que escolher qual editor de código **C++** utilizar usando :
 **Menu->Editor Preferences->General** e **Source Code** e escolha **Visualstudio**.
 
 ![Atores](https://myerco.github.io/unreal-engine//imagens/projeto/blueprint_ue_editor_codigo.jpg)
 
+>**Qual editor eu escolho, Visual Code ou Visual Studio?**
+Os dois são ótimos editores de código mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras lingagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
 
 ***
 ## Referências
