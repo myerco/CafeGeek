@@ -6,7 +6,7 @@ tags: [Unreal Engine,HUD,user interface,hud]
 [CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html)
 
 # HUD - Interface com o jogador
-HUD (Heads-up Display) ou UI (Use Interface) é um objeto especial da **Unreal Engine** para apresentar informações sobrepostas na tela e interagir com o jogador.
+HUD (*Heads-up Display*) ou UI (*Use Interface*) é um objeto especial da **Unreal Engine** para apresentar informações sobrepostas na tela e interagir com o jogador.
 
 Vamos apresentar formas de interação e depois construir objetos os necessários.
 
@@ -25,7 +25,11 @@ Vamos apresentar formas de interação e depois construir objetos os necessário
     1. [Button e eventos](#32)
     1. [Acionando o botão para abrir um Level](#33)    
     1. [Acionando o botão Sair para finalizar o jogo](#34)        
-1. [ Criando um Level Vazio para adicionar o Widget](#4)
+1. [Executando o menu](#4)
+1. [Apresentando informações para o jogador](#5)
+    1. [Barra de vida do jogador](#51)
+    1. [O nome do jogador](#52)
+    1. [Acionando o Widget para o jogodar](#53)    
 
 <a name="1"></a>
 ## 1. Como interagir com o jogador?
@@ -120,11 +124,38 @@ Ao clicar no botão Sair vamos chamar a função **Quit Game** que finaliza do j
 ![](../imagens/interface_ui_hud/blueprint_hud_quit_game.jpg)
 
 <a name="4"></a>
-## 4. Criando um Level Vazio para adicionar o Widget
-Neste passo vamos criar um *Level* Vazio para que possamos adicionar a lógica de chamada do Widget menu.   
-![](../imagens/interface_ui_hud/blueprint_empty_level.jpg)
-
+## 4. Executando o menu
+Neste passo vamos criar um Level Vazio executar o menu.   
 Caso o Widget seja o menu principal que deverá ser chamado no início do jogo é necessário adicionar o mesmo em [Level e inicialização](https://myerco.github.io/unreal-engine/ue4_blueprint/organizando.html#2)
+1. *Empty Level* (Level Vazio).    
+![blueprint_empty_level](../imagens/interface_ui_hud/blueprint_empty_level.jpg)
+1. Em **Open Level blueprint** vamos adicionar a lógica para criar um objeto do tipo **BP_HUD_Demo** e adicionar na tela com a função **AddToViewPort**.   
+![blueprint_hud_addviewport](../imagens/interface_ui_hud/blueprint_hud_addviewport.jpg)
+
+<a name="5"></a>
+## 5. Apresentando informações para o Jogador
+Para este passo vamos implementar os seguintes elementos.    
+![blueprint_hud_addviewport](../imagens/interface_ui_hud/blueprint_hud_player_elements.jpg)
+- **TextBlock** - Para apresentar o nome do jogador.
+- **ProgressBar** - Para apresentar a vida do jogador.
+
+<a name="51"></a>
+### 5.2 Fazendo a ligação do elemento da interface com uma função
+Devemos conectar os elementos da interface com funções por meio de uma propriedade **Bind**.   
+![blueprint_hud_addviewport](../imagens/interface_ui_hud/blueprint_hud_progressbar_bind.jpg)
+
+<a name="51"></a>
+### 5.1 Função do calculo de vida do jogador
+Abaixa a lógica a função associada a elemento **ProgressBar**.    
+![blueprint_hud_addviewport](../imagens/interface_ui_hud/blueprint_hud_function_vida_jogador.jpg)
+
+<a name="52"></a>
+### 5.2 Função para pegar o nome do jogador
+![blueprint_hud_addviewport](../imagens/interface_ui_hud/blueprint_hud_function_nome_jogador.jpg)
+- Podemos utilizar [Variáveis estruturadas](https://myerco.github.io/unreal-engine/ue4_blueprint/structure_variaveis_estruturadas.html) para manipulação das propriedades do jogador.   
+
+<a name="53"></a>
+### 5.3 Adicionando o Widget para o jogador
 
 ***
 ## Referências

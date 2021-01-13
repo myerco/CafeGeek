@@ -95,7 +95,7 @@ Para recompilar o projeto e recriar os arquivos siga os seguintes passos utiliza
 1. Apague as pastas *Binaries, Build, Intermediate* e *Saved*.
 1. Click com botão direito do mouse no arquivo **ProjetoAula.uproject**.
 1. Escolha a opção **Generate Visual Studio project files**.  
-![blueprint_explorer_generate_vs](https://myerco.github.io/unreal-engine//imagens/projeto/blueprint_explorer_generate_vs.jpg)
+![blueprint_explorer_generate_vs](https://myerco.github.io/unreal-engine/imagens/projeto/blueprint_explorer_generate_vs.jpg)
 1. Aguarde o termino da operação e abra o projeto.
 
 <a name="5"></a>
