@@ -1,5 +1,6 @@
 ---
 title: HUD - Interface com o jogador
+description: Utilizando os objetos Widget para interagir com o jogador e aplicando boas práticas de programação
 tags: [Unreal Engine,HUD,user interface,hud]
 ---
 
@@ -29,7 +30,15 @@ Vamos apresentar formas de interação e depois construir objetos os necessário
 1. [Apresentando informações para o jogador](#5)
     1. [Barra de vida do jogador](#51)
     1. [O nome do jogador](#52)
-    1. [Acionando o Widget para o jogodar](#53)    
+1. [Organizando os objetos](#6)
+    1. [Criando o objeto SaveGame para salvar dados do jogo](#61)    
+    1. [Evento para apresentar o menu na tela](#62)    
+    1. [Evento para abrir um Level](#63)    
+    1. [Salvando dados](#64)    
+    1. [Voltando ao jogo](#65)    
+    1. [Evento para carregar dados](#66)        
+    1. [Iniciando GameInstance no Widget](#67)                    
+    1. [Efetuando as chamadas das funções](#68)                    
 
 <a name="1"></a>
 ## 1. Como interagir com o jogador?
@@ -154,8 +163,65 @@ Abaixa a lógica a função associada a elemento **ProgressBar**.
 ![blueprint_hud_addviewport](../imagens/interface_ui_hud/blueprint_hud_function_nome_jogador.jpg)
 - Podemos utilizar [Variáveis estruturadas](https://myerco.github.io/unreal-engine/ue4_blueprint/structure_variaveis_estruturadas.html) para manipulação das propriedades do jogador.   
 
-<a name="53"></a>
-### 5.3 Adicionando o Widget para o jogador
+<a name="6"></a>
+## 6 Organizando os objetos
+Vamos organizar todos os objetos criados para controlar melhor a lógica de programação de cada elemento, considerando:  
+- Separação da lógica de negócios e os visuais de sua IU
+- Permite iteração rápida de layout e visuais
+- Depuração eficaz da lógica de negócios
+- Performance
+
+<a name="61"></a>
+### 6.1 Criando o objeto SaveGame para salvar dados do jogo
+Para exemplificar algumas funções do menu como por exemplo salvar dados do jogo vamos realizar as seguintes operações.
+
+1.  Implementar um objeto BP_SaveGameDemo do tipo **SaveGame**, para isso utilizamos o menu de contexto e escolhemos **Blueprint**.    
+![blueprint_hud_addviewport](../imagens/saveload/blueprint_save_game_object.jpg)
+1. Adicionamos variáveis dentro do objeto para definir o que deve ser salvo, neste exemplo utilizaremos a variável **JogadorInfo** do tipo **S_jogador** que é uma [Variável Structure](https://myerco.github.io/unreal-engine/ue4_blueprint/structure_variaveis_estruturadas.html)
+![blueprint_hud_addviewport](../imagens/saveload/blueprint_save_game_variable.jpg)
+
+Nos próximos passos vamos criar o objeto *BP_GameInstanceJogo* do tipo [**GameInstance**](https://myerco.github.io/unreal-engine/ue4_blueprint/gameinstance_state_mode.html#5) e adicionar os eventos customizados (*Add custon event*) a seguir.
+
+<a name="62"></a>
+### 6.2 Evento para apresentar o menu na tela
+Implementamos um evento customizado para adicionar lógica dos eventos.
+![blueprint_hud_addviewport](../imagens/gamemode/blueprint_gameinstance_openmenu.jpg)
+- **Show Mouse Cursor** - Esta variável é uma propriedade de **PlayerController**  e Configurando para **true** o ponteiro do mouse deve aparecer na tela.
+- **Set Input Mode UI Only** - Esta função determina que o controle de entrada de dados será somente pelo **Widget**.
+
+<a name="63"></a>
+### 6.3 Evento para abrir um Level
+![blueprint_hud_addviewport](../imagens/gamemode/blueprint_gameinstance_openlevel.jpg)
+- **Open Level** - Função para abrir um *Level* do jogo. É necessário informar o nome do leveel no parâmetro *Level Name*.
+- **Set Input Mode Game Only** - Esta função determina que o controle de entrada de dados será somente pelo jogo.
+
+<a name="64"></a>
+### 6.4 Salvando dados
+![blueprint_hud_addviewport](../imagens/gamemode/blueprint_gameinstance_savegame.jpg)
+- **Create Save Game Object** - Cria um objeto do tipo **BP_SaveGameDemo**, definido anteriormente.
+- **Save Game to Slot** - Salva os dados e cria um **Slot Name** *Salvo1*.
+
+<a name="65"></a>
+### 6.5 Evento para carregar dados
+![blueprint_hud_addviewport](../imagens/gamemode/blueprint_gameinstance_loaddada.jpg)
+- **Does Save Game Exist** - Retorna verdadeiro se encontra um jogo salvo com o nome *Salvo1* informado em **Slot Name**.
+- **Load Game from Slot** - Carrega as variáveis salvas em **Slot Name**, neste caso *Salvo1*.
+
+<a name="66"></a>
+### 6.6 Voltando ao jogo
+![blueprint_hud_addviewport](../imagens/gamemode/blueprint_gameinstance_returngame.jpg)
+- **Remove from Parent** - Remove o widget de seu **Widget** pai. Se este **widget** foi adicionado à tela do jogador ou à janela de visualização, ele também será removido desses recipientes.
+
+<a name="67"></a>
+### 6.7 Iniciando GameInstance no Widget
+No objeto BP_HUD_Demo vamos substituir ou adicionar a lógica dos botões, mas antes devemos inicializar a **GameInstance**.    
+![blueprint_hud_addviewport](../imagens/gamemode/blueprint_hud_gameinstance.jpg)
+
+<a name="68"></a>
+### 6.8 Efetuando as chamadas das funções
+No evento click dos botões vamos adicionar os eventos construidos dentro da gameinstance isolando a regra de negócios (dados e lógica e manipulação).   
+![blueprint_hud_addviewport](../imagens/gamemode/blueprint_hud_gameinstance_openlevel.jpg)
+> Repetimos esse processo para associar todos os eventos aos botões.
 
 ***
 ## Referências

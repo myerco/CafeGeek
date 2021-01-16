@@ -1,5 +1,6 @@
 ---
 title: Game Instance, Game State e Game Mode
+description: Trabalhando com game instance, mode e state
 tags: [Unreal Engine,game mode,game instance,game state]
 ---
 
@@ -104,6 +105,9 @@ Vamos adicionar uma variável para exemplificar.
 ### 5.3 Chamando a GameInstance para acessar os seus elementos
 Para este exemplo criamos um Level Vazio e no **Open Level Blueprint** vamos executar a chamada da **GameInstance**.
 
+1. Antes de executar a chamada da **GameInstance** dentro dos objetos é necessário informar para o projeto qual a **GameInstance** padrão.    
+![](../imagens/gamemode/blueprint_gameinstance_project.jpg)
+1. Logo após podemos utilizar a função **GetGameInstance** que retorna a **GameInstance** definida anteriormente para o projeto.   
 ![](../imagens/gamemode/blueprint_gameinstance_cast.jpg)
 
 
