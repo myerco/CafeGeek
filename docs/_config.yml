@@ -30,11 +30,12 @@ share-links-active:
   facebook: true
   linkedin: true
   vk: false
-  
+
 # --- Web Analytics Section --- #
-gtag: " G-3BDZTTK4NP"
+gtag: "G-3BDZTTK4NP"
 google_analytics: 256152900
 
+url: "https://myerco.github.io/unreal-engine/"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
