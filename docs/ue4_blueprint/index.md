@@ -13,8 +13,8 @@ tags: [Unreal Engine]
 <a name="1"></a>
 1. Projeto e instalação
     1. [Como instalar a Unreal Engine 4?](https://myerco.github.io/unreal-engine/ue4_blueprint/como_instalar_o_unreal_engine.html)
-    1. [Organizando o projeto](https://myerco.github.io/unreal-engine/ue4_blueprint/organizando.html)
-    1. [Controle de versão com GitHub](https://myerco.github.io/unreal-engine/ue4_blueprint/github.html)
+    1. [Organizando pastas e logo do projeto](https://myerco.github.io/unreal-engine/ue4_blueprint/organizando_pastas_e_logo.html)
+    1. [Controle de versão com GitHub](https://myerco.github.io/unreal-engine/ue4_blueprint/controle_de_versao_github.html)
     1. [Interface e Editores](ue4_blueprint/interface.html)  
 1. Blueprints e estruturas básicas
     1. [Blueprints](https://myerco.github.io/unreal-engine/ue4_blueprint/blueprint.html)
