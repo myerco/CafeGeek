@@ -26,7 +26,7 @@ tags: [Unreal Engine]
     1. [Actors - Atores](https://myerco.github.io/unreal-engine/ue4_blueprint/actor_atores.html)
     1. [Estruturando a lógica utilizando Eventos, funções e macros](https://myerco.github.io/unreal-engine/ue4_blueprint/estruturando_logica_utilizando_eventos_funcoes_macros.html)  
     1. [Trabalhando com a lógica de movimentação do personagem](https://myerco.github.io/unreal-engine/ue4_blueprint/trabalhando_com_logica_movimentacao_de_personagem.html)    
-    1. [Comunicação entre Blueprints](https://myerco.github.io/unreal-engine/ue4_blueprint/comunicacao.html)    
+    1. [Comunicação entre Blueprints](https://myerco.github.io/unreal-engine/ue4_blueprint/comunicacao_entre_blueprint.html)    
     1. [Delta time e sistema de coordenadas](https://myerco.github.io/unreal-engine/ue4_blueprint/deltatime_sistema_coordenadas.html)  
 1. Estruturas de dados
     1. [Structure - Variáveis estruturadas](https://myerco.github.io/unreal-engine/ue4_blueprint/structure_variaveis_estruturadas.html)  

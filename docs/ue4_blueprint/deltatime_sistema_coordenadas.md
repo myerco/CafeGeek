@@ -1,5 +1,6 @@
 ---
 title: Delta time e sistema de coordenadas
+description: Delta time e sistema de coordenadas
 tags: [Unreal Engine,tempo, espaço]
 ---
 [CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html)
@@ -9,7 +10,7 @@ Neste capítulo serão apresentados os elementos de controle de tempo (Delta Tim
 Apresentaremos também como funciona o sistema de coordenadas dos objetos.
 
 ## Índice
-1. [Delta time](#1)
+1. [O que é Delta time?](#1)
 1. [Lista de comandos do console](#2)
 1. [Delta seconds](#3)
     1. [Tabela de velocidade](#31)
@@ -32,7 +33,7 @@ Apresentaremos também como funciona o sistema de coordenadas dos objetos.
     1. [Verificando para onde o ator está apontando](#95)
 
 <a name="1"></a>
-## 1. Delta Time
+## 1. O que é Delta Time?
 É o tempo entre cada frame.  
 Frame: Um quadro ou imagem apresentada, uma animação é composta por vários frames.
 
