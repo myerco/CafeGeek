@@ -17,8 +17,8 @@ tags: [Unreal Engine]
     1. [Controle de versão com GitHub](https://myerco.github.io/unreal-engine/ue4_blueprint/controle_de_versao_github.html)
     1. [Interface e Editores](ue4_blueprint/interface.html)  
 1. Blueprints e estruturas básicas
-    1. [Blueprints](https://myerco.github.io/unreal-engine/ue4_blueprint/blueprint.html)
-    1. [Variáveis e seus operadores](https://myerco.github.io/unreal-engine/ue4_blueprint/variaveis.html)  
+    1. [Blueprints](https://myerco.github.io/unreal-engine/ue4_blueprint/entendo_blueprint.html)
+    1. [Trabalhando com variáveis](https://myerco.github.io/unreal-engine/ue4_blueprint/trabalhando_com_variaveis.html)  
     1. [Estruturas de controle de fluxo](https://myerco.github.io/unreal-engine/ue4_blueprint/estruturascontrole.html)
     1. [Manipulando Arrays](https://myerco.github.io/unreal-engine/ue4_blueprint/array.html)  
     1. [Enums](https://myerco.github.io/unreal-engine/ue4_blueprint/enum.html)    
