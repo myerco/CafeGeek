@@ -11,7 +11,7 @@ cover-img: "/imagens/cafegeek_small.png"
 Neste capítulo será apresenta o modelo da lógica de programação utilizando **Blueprint** e os seus elementos.
 
 ## Índice
-1. [O que é *Blueprints* e *Visual Scripting*](#1)  
+1. [O que são *Blueprints* e *Visual Scripting*](#1)  
     1. [Características](#11)  
     1. [Construção](#12)  
 1. [O que é Level Blueprint? ](#2)  
@@ -27,7 +27,7 @@ Neste capítulo será apresenta o modelo da lógica de programação utilizando 
 1. [Comentários](#4)
 
 <a name="1"></a>
-## 1. O que é *Blueprints* e *Visual Scripting*
+## 1. O que são *Blueprints* e *Visual Scripting*
 O sistema *Blueprints Visual Scripting* no *Unreal Engine* é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nó para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos no mecanismo. Ao usar o UE4, você frequentemente descobrirá que os objetos definidos usando o Blueprint são coloquialmente chamados apenas de "Blueprints".
 
 <a name="11"></a>
