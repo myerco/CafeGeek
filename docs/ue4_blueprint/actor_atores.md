@@ -1,5 +1,6 @@
 ---
 title: Actors - Atores
+description: Actors ou atores do jogo
 tags: [Unreal Engine,actor,atores]
 ---
 
@@ -123,19 +124,19 @@ A classe SpectatorPawn é uma subclasse de DefaultPawn. Por meio de um GameMode,
 
 <a name="221"></a>
 #### 2.2.1 Propriedades
-![Classe Actor](../imagens/actor/actor51.jpg)
+![Classe Actor](../imagens/actor/blueprint_class_properties.jpg)
 - Start with Tick Enabled: Habilita o evento Tick na lógica. Pode ser desabilitado para ganhar performance.
 - Use Controller Rotation Pitch/Yaw : Pode usar movimentação dos controladores.
 - Auto Possess Player/AI : Faz com o PlayerController possua automaticamente o peão (Pawn)
 - Replication : Opções para replicar o objeto pela rede.  
-![Classe Actor](../imagens/actor/actor52.jpg)  
+![Classe Actor](../imagens/actor/blueprint_class_properties_damaged.jpg)  
 - Can be Damaged : Habilita os eventos de dano do objeto.
 
 <a name="23"></a>
 ### 2.3 Character
 Um personagem é um peão que tem algumas funcionalidades básicas de movimento bípede por padrão.  
 Com a adição de um CharacterMovementComponent, um CapsuleComponent e um SkeletalMeshComponent, a classe Pawn é estendida para a classe Character com muitos recursos. Um personagem é projetado para uma representação do jogador orientada verticalmente que pode andar, correr, pular, voar e nadar pelo mundo. Esta classe também contém implementações de rede básica e modelos de entrada.   
-![Editor](../imagens/actor/actor53.jpg)
+![Editor](../imagens/actor/blueprint_character_properties.jpg)
 - **Animation Mode** - Habilita uma animação simples ou um Bluprint de animação ao objeto.
 - **Anim Class** - Blueprint de animação associado.
 
@@ -145,14 +146,14 @@ Os componentes são um tipo especial de objeto que os atores podem anexar a si p
 
 <a name="31"></a>
 ### 3.1 Adicionando componentes
-![Classes de atores](../imagens/movimentacao/movimentacao1.jpg)  
+![Classes de atores](../imagens/movimentacao/blueprint_add_component_box.jpg)  
 Exemplo de Componentes :  
 - Actor Child: Componente associa outro ator a classe principal.
 - Static Mesh : Adiciona um objeto de 3D
 - Box Collsion: Adiciona uma caixa de colisão.
 
 <a name="32"></a>
-### 3.2 Editor de objetos e componentes.  
+### 3.2 Editor de objetos e componentes
 ![Editor](../imagens/actor/actor3.jpg)  
 
 <a name="4"></a>
@@ -161,16 +162,16 @@ Exemplo de Componentes :
 
 Consistem em um conjunto de polígonos que podem ser armazenados em cache na memória de vídeo e renderizados pela placa de vídeo. Isso permite que eles sejam renderizados com eficiência, o que significa que podem ser muito mais complexos do que outros tipos de geometria, como **Brushes**. Como são armazenados em cache na memória de vídeo, as malhas estáticas podem ser traduzidas, giradas e dimensionadas, mas não podem ter seus vértices animados de nenhuma forma.
 
-![Classe Actor](../imagens/actor/actor54.jpg)  
+![Classe Actor](../imagens/actor/blueprint_class_viewport.jpg)  
 
 <a name="41"></a>
 ### 4.1 Componente StaticMesh
-![Classes de atores](../imagens/movimentacao/movimentacao2.jpg)  
+![Classes de atores](../imagens/movimentacao/blueprint_component_static_mesh.jpg)  
 - A aba **Components** apresenta uma lista hierarquia com os componentes associados ao objeto.
 
 <a name="42"></a>
-### 4.2 Propriedades do componente
-![Classes de atores](../imagens/movimentacao/movimentacao3.jpg)  
+### 4.2 Propriedades do componente Static Mesh
+![Classes de atores](../imagens/movimentacao/blueprint_component_properties.jpg)  
 - **Transform** - Propriedades de localização do componente.
 - **Static Mesh** - Malha associada ao componente.
 - **Material** - Material associado a malha.
@@ -178,7 +179,7 @@ Consistem em um conjunto de polígonos que podem ser armazenados em cache na mem
 
 <a name="43"></a>
 ### 4.3 Editor de StaticMesh
-![Classes de atores](../imagens/movimentacao/movimentacao4.jpg)
+![Classes de atores](../imagens/movimentacao/blueprint_editor_static_mesh.jpg)
 - Visualização da malha e suas propriedades (vértices, UV e modelo de colisão).
 
 <a name="5"></a>
@@ -208,20 +209,20 @@ As **Skeletal mesh** são compostas por duas partes: Um conjunto de polígonos c
 - **Physics** - Estrutura para gerenciamento da física da estrutura.
 
 <a name="52"></a>
-### 5.2 Componentes
-![Classes de atores](../imagens/movimentacao/movimentacao5.jpg)  
+### 5.2 Componentes Mesh
+![Classes de atores](../imagens/movimentacao/blueprint_component_mesh.jpg)  
 - **Mesh** - Malha Esquelética.
 - **CameraBoom** - Objeto do tipo **SpringArm** (Braço) para controlar a câmera.
 - **FollowCamera** - Objeto do tipo **Camera**.
 - **CharacterMovement** - Componente responsável pela lógica de movimentos do objeto.
 
 <a name="53"></a>
-### 5.3 Detalhes do componente
-![Classes de atores](../imagens/movimentacao/movimentacao6.jpg)  
+### 5.3 Detalhes do componente Mesh
+![Classes de atores](../imagens/movimentacao/blueprint_component_mesh_details.jpg)  
 
 <a name="54"></a>
 ### 5.4 Editor
-![Classes de atores](../imagens/movimentacao/movimentacao7.jpg)
+![Classes de atores](../imagens/movimentacao/blueprint_editor_mesh.jpg)
 - **dadsa**
 
 <a name="6"></a>
@@ -230,13 +231,14 @@ Os objetos adicionados em uma cena possuem coordenadas de localização dentro d
 
 <a name="61"></a>
 ### 6.1 Coordenadas no ViewPort
-![Editor](../imagens/actor/actor48.jpg)  
+Apresentando as coordenadas no **ViewPort**.
+![Editor](../imagens/actor/blueprint_coordinate_viewport.jpg)  
 
 <a name="62"></a>
 ### 6.2 Transform
 A seção **Transform** do painel Detalhes permite que você visualize e edite as transformações - Localização, Rotação e Escala - do (s) ator (es) selecionado (s). Além disso, quando aplicável, também contém as configurações para Mobilidade do Ator.
 
-![Editor](../imagens/actor/actor49.jpg)  
+![Editor](../imagens/actor/blueprint_transform.jpg)  
 
 <a name="63"></a>
 ### 6.3 Escrevendo na tela o posicionamento do ator no mundo.  
@@ -254,7 +256,7 @@ Considere o exemplo abaixo
     |-- DefaultSceneRoot
     |   |-- StaticMesh
 ```
-![Posição](../imagens/actor/actor50.jpg)
+![Posição](../imagens/actor/blueprint_actor_add_component.jpg)
 
 A posição do ator no mundo é calculada utilizando o componente **DefaultSceneRoot** do tipo **Scene**. O componente **StaticMesh** tem um vetor de coordenadas relativas ao objeto de hierarquia superior, sendo X=0,Y=0 e Z=0.
 
