@@ -1,29 +1,35 @@
+---
+title: Estruturando a lógica utilizando Eventos, funções e macros
+description: Eventos, funções e macros utilizando Bluprint
+tags: [Unreal Engine,eventos,events,funções,functions,macro]
+---
+
 [CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html)
 
-# Eventos, funções e macros
-Neste capitulo serão apresentados a lógica de programação utilizando métodos, funções e macros
+# Estruturando a lógica utilizando Eventos, funções e macros
+Neste capitulo serão apresentado como estruturar a lógica de programação utilizando métodos, funções e macros
 
 ## Índice
->1. [Conceito](#1)
->    1. [Programação Orientada a Objetos](#11)
->    1. [Métodos](#12)
->    1. [Funções](#13)
->1. [Eventos](#2);
->    1. [Evento de dano no personagem](#21)
->    1. [Chamando o evento](#22)
->    1. [Evento e Métodos](#23)
->1. [Funções **Functions**](#3)
->1. [Macros](#4)
->1. [Collapse Nodes](#5)
->1. [Executando a função e a macros](#6)
+1. [Entendo Métodos e funções em programação](#1)
+    1. [Programação Orientada a Objetos](#11)
+    1. [Métodos](#12)
+    1. [Funções](#13)
+1. [O que são Eventos (*Events*) em Blueprint](#2);
+    1. [Evento de dano no personagem](#21)
+    1. [Chamando o evento](#22)
+    1. [Evento e Métodos](#23)
+1. [Funções *Functions*](#3)
+1. [Macros](#4)
+1. [Collapse Nodes](#5)
+1. [Executando a função e a macros](#6)
 
 <a name="1"></a>
-## 1. Conceito
+## 1. Entendo Métodos e funções em programação
 Para entender melhor a estrutura de programação que representa a construção de eventos e funções vamos abordar alguns conceitos de programação.
 
 <a name="11"></a>
 ### 1.1 Programação Orientada a Objetos  
-Um método é um procedimento ou função em Conceitos de **Programação Orientada a Objetos**. Considerando que uma função é um grupo de código reutilizável que pode ser usado em qualquer parte do programa. Isso ajuda na necessidade de escrever o mesmo código repetidamente. Ajuda os programadores a escrever códigos modulares.
+Um método é um procedimento ou função em Conceitos de **Programação Orientada a Objetos**. Considerando que uma função é um grupo de código reutilizável que pode ser usado em qualquer parte do programa. Isso ajuda na necessidade de escrever o mesmo código repetidamente. Também ajuda os programadores a escrever códigos modulares.
 
 <a name="12"></a>
 ### 1.2 Métodos
@@ -46,20 +52,20 @@ Ele tem a capacidade de retornar valores, se necessário.
 Se uma função for definida, ela será a mesma para todos os objetos criados.  
 
 <a name="2"></a>
-## 2. Eventos (**Events**)
+## 2. O que são Eventos (**Events**) em Blueprint
 Os eventos são nós chamados a partir do código do jogo para iniciar a execução de uma rede individual dentro do *EventGraph*. Eles permitem que os *Blueprints* executem uma série de ações em resposta a certos eventos que ocorrem dentro do jogo, como quando o jogo começa, quando um nível é reiniciado ou quando um jogador sofre dano.
 
 Os eventos podem ser acessados dentro do *Blueprints* para implementar novas funcionalidades ou para substituir ou aumentar a funcionalidade padrão. Qualquer número de eventos pode ser usado em um único *EventGraph*; embora apenas um de cada tipo possa ser usado.
 
 <a name="21"></a>
 ### 2.1 Evento de dano  no personagem
-![](../imagens/modulos/modulo5.png)
+![blueprint_event_damaged](../imagens/modulos/blueprint_event_damaged.jpg)
 - **CausaDano** é um evento customizado utilizando a opção **Add Custom Event** no menu de contexto dentro do **Event Graph**.
 - Pertence a classe *BP_Hero* do tipo **Character**.
 
 <a name="22"></a>
 ### 2.2 Chamando o evento
-![](../imagens/modulos/modulo6.png)
+![blueprint_event_damaged_overlap](../imagens/modulos/blueprint_event_damaged_overlap.jpg)
 - Utilizando o evento **OnComponentBeginOverlap** para acionar o evento **CausaDano**.
 
 <a name="23"></a>
@@ -95,10 +101,9 @@ void AProjeto::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
-
 ```
 <a name="3"></a>
-## 3. Funções (**functions**)
+## 3. Funções (*functions*)
 São mini programas com as características de alocação de memória, estruturas internas de código e variáveis locais.
 Podem receber parâmetros externos e retornam algum valor para o programa que executou a chamada.  
 - Tem seu próprio **Event Graph**
@@ -117,7 +122,7 @@ void CalculoIMC(float pPeso, float pAltura) {
 }  
 ```
 **Blueprint**   
-![Function](../imagens/modulos/ue4_blueprint.png)
+![blueprint_function_calc_imc](../imagens/modulos/blueprint_function_calc_imc.jpg)
 
 <a name="4"></a>
 ## 4. Macros
@@ -135,20 +140,20 @@ Blueprint Macros, ou Macros, são essencialmente iguais a gráficos de nós reco
 ```
 
 **Blueprint**  
-![Function](../imagens/modulos/modulo2.png)
+![blueprint_macro_example](../imagens/modulos/blueprint_macro_example.jpg)
 
 <a name="5"></a>
 ## 5. Collapse Nodes
 Usado principalmente para organização de código, escondendo nós da estrutura principal.
-- Aceitam parâmetros de entrada e saída.  
 
-![Function](../imagens/modulos/modulo4.png)
+![blueprint_collapse_nodes_example](../imagens/modulos/blueprint_collapse_nodes_example.jpg)
+- Aceitam parâmetros de entrada e saída.  
 - No menu de contexto do **Event Graph** acionamos a opção **Collapse Nodes**
 - Vai ser criado um gráfico de eventos próprio.
 
 <a name="6"></a>
 ## 6. Executando a função e a macro  
-![Function](../imagens/modulos/modulo3.png)
+![blueprint_call_function_macro](../imagens/modulos/blueprint_call_function_macro.jpg)
 
 ***
 ## Referências
