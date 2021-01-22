@@ -16,6 +16,10 @@ tags: [Unreal Engine,blueprint,array,get,set]
 1. [Transparência com Alpha](#6)
 1. [Sistemas de coordenadas](#4)
     1. [À esquerda e à direita serão entregues de coordenadas](#41)
+1. [Processamento de imagens](#5)
+    1. Pipeline
+    1. CPU.
+    1. GPU.
 
 
 <a name="1"></a>

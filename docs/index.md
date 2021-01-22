@@ -14,7 +14,14 @@
   ![Classes de atores](imagens/icons/iconfinder_Check.png) Implementar ambientes Multijogador;  
   ![Classes de atores](imagens/icons/iconfinder_Check.png) Implementar inteligência artificial;  
   ![Classes de atores](imagens/icons/iconfinder_Check.png) Construir animação de personagens;  
-  ![Classes de atores](imagens/icons/iconfinder_Check.png) Implementar Efeitos especiais;    
+  ![Classes de atores](imagens/icons/iconfinder_Check.png) Implementar Efeitos especiais.    
+
+## [Computação Gráfica com Unreal Engine e Autodesk Maya](https://myerco.github.io/unreal-engine/ue4_computacao_grafica/index.html)  
+  Conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya.  
+### Habilidades que serão aprendidas  
+  ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Como são formados os objetos em gráficos 3D;
+  ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Processo de renderização.
+
 
 ## [Game Design, planeje e organize atividades do seu projeto](#)  
 Aprenda e utilize modelos de organização projeto de jogos digitais, auxiliando a administração de tarefas, recursos, custos e tempo.  
