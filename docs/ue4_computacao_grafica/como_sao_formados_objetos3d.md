@@ -21,17 +21,41 @@ tags: [Unreal Engine,blueprint,array,get,set]
     1. CPU.
     1. GPU.
 
-
 <a name="1"></a>
-## Pontos
-Na geometria, um ponto é representado por sua coordenada no espaço. Geometria usu-
-ally usa um sistema de coordenadas cartesianas, onde as coordenadas de um ponto em
-espaço são representados pela distância ao longo de cada um dos eixos principais para o
-ponto. Enquanto outros sistemas de coordenadas são usados ​​em geometria (como spheri-
-sistemas de coordenadas cal ou cilíndricas), os gráficos 3D usam uma coordenada cartesiana
-sistema. A dimensionalidade de um ponto corresponde ao número de coordi-
-nates necessários para representar o ponto. Assim, um ponto bidimensional requer dois
-Coordenadas cartesianas e um ponto tridimensional requer três coordenadas.
+## 1. Pontos
+Na geometria, um ponto é representado por sua coordenada no espaço. Geometria usa um sistema de coordenadas cartesianas, onde as coordenadas de um ponto em espaço são representados pela distância ao longo de cada um dos eixos principais para o ponto.
+![plano cartesiano](https://conhecimentocientifico.r7.com/wp-content/uploads/2020/01/plano-cartesiano-o-que-e-como-fazer-caracteristicas-e-coordenadas.png)
+Pontos são representados por pixels.
+
+<a name="11"></a>
+### 1.1 Pixel
+Pixel é o menor elemento em um dispositivo de exibição, sendo que cada pixel é composto por um conjunto de 3 pontos: verde, vermelho e azul.
+
+Um exemplo de formação de imagens.    
+![Cachorro](https://i.pinimg.com/564x/6a/07/72/6a0772d93d74327025597ff3951996ff.jpg)
+
+<a name="12"></a>
+### 1.2 Bits por pixel
+As cores do pixel podem depender da quantidade de bits por pixel (bpp).
+
+- 1 bpp, 2(1) = 2 colors (monochrome)
+- 2 bpp, 2(2) = 4 colors
+- 3 bpp, 2(3) = 8 colors
+- 4 bpp, 2(4) = 16 colors
+- 8 bpp, 2(8) = 256 colors
+- 16 bpp, 2(16) = 65,536 colors ("Highcolor" )
+- 24 bpp, 2(24) = 16,777,216 colors ("Truecolor")
+
+<a name="13"></a>
+### 1.3 Unreal Engine com pixel
+Formatos de textura menores resultam em materiais mais rápidos (por exemplo, [DXT1](https://www.khronos.org/opengl/wiki/S3_Texture_Compression) é de 4 bits por pixel, DXT5 é de 8 bpp, ARGB descompactado é de 32 bpp).    
+
+>**DXT1**   
+Compressão de imagens que usam blocos de bits.    
+**GIMP**    
+[Exportando imagens do **Gimp** com compressão DXT1](
+https://wiki.thedarkmod.com/index.php?title=DDS_Creation_with_GIMP)
+
 
 ## Linhas, raios e segmentos
 Uma linha tem direção e comprimento infinito. A direção de uma linha pode ser
