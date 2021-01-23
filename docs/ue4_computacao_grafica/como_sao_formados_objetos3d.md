@@ -5,9 +5,11 @@ tags: [Unreal Engine,blueprint,array,get,set]
 ---
 
 # Como são formados os objetos em gráficos 3D?
+Neste capitulo será apresentados os elementos que constituem uma imagem 3D utilizando como exemplo softwares como o Unreal Engine e Maya Autodesk.
 
 ## Índice
-1. [Pontos](#1)
+1. [Quais são os elementos que compõem imagens?](#1)
+1. [O que são Pontos?](#2)
     1. [Pixel](#1)
     1. [Bits por pixel](#1)    
     1. [Unreal Engine com pixel](#1)        
@@ -25,10 +27,41 @@ tags: [Unreal Engine,blueprint,array,get,set]
     1. GPU.
 
 <a name="1"></a>
-## 1. Pontos
+## 1. Quais são os elementos que compõem imagens?
+Imagens apresentadas nos dispositivos de saída são formadas por pontos  construídos e organizados pelas seguintes estruturas:
+
+<a name="11"></a>
+### 1.1 Bitmap
+Um bitmap é um tipo de imagem que é usado para armazenamento de imagens e pode ser definindo como um mapa de bits.
+Cada pedaço da imagem é composto por um ponto chamado de pixel.
+
+![resolucao00](https://www.marceloaventura.art.br/blog/wp-content/uploads/2012/10/resolucao00.png)
+
+<a name="12"></a>
+### 1.2 Vector Graphics
+São arquivos de imagens que são utilizados que calculam a posição dos pontos.   
+Em um programa de gráficos vetoriais, fornecemos o ponto inicial e o ponto final e o programa faz o resto.
+
+![Vector](https://etc.usf.edu/techease/wp-content/uploads/2017/12/Vector.jpg)
+
+Mas tem outra vantagem. Se aplicarmos zoom a uma imagem bitmap, podemos ver os pixels e teremos uma imagem ruim. Em gráficos vetoriais, ampliar uma imagem não envolve uma imagem ruim porque a imagem é criada por uma fórmula matemática.
+
+<a name="13"></a>
+### 1.3 Lista de formatos que o Unreal Engine  suporta
+- .bmp - Bitmap
+- .float
+- .pcx
+- .png
+- .psd - Vector Graphics
+- .tga
+- .jpg - Bitmap com metadados e compressão
+- .exr
+
+<a name="2"></a>
+## 2. O que são Pontos?
 Na geometria, um ponto é representado por sua coordenada no espaço. Geometria usa um sistema de coordenadas cartesianas, onde as coordenadas de um ponto em espaço são representados pela distância ao longo de cada um dos eixos principais para o ponto.
 ![plano cartesiano](https://conhecimentocientifico.r7.com/wp-content/uploads/2020/01/plano-cartesiano-o-que-e-como-fazer-caracteristicas-e-coordenadas.png)
-Pontos são representados por pixels.
+Pontos são representados por pixels em monitores.
 
 <a name="11"></a>
 ### 1.1 Pixel
@@ -52,7 +85,7 @@ As cores do pixel dependem da quantidade de bits por pixel (bpp).
 Aumentando a qualidade de cores a imagem terá uma aparencia mais realista mas consumira mais memória e processamento.
 
 <a name="13"></a>
-### 1.3 Unreal Engine com pixel
+### 1.3 Uma dica para utilizar texturas no Unreal Engine
 Formatos de textura menores resultam em materiais mais rápidos (por exemplo, [DXT1](https://www.khronos.org/opengl/wiki/S3_Texture_Compression) é de 4 bits por pixel, DXT5 é de 8 bpp, ARGB descompactado é de 32 bpp).
 
 >**DXT1**   
@@ -178,38 +211,17 @@ Você pode lembrar para qual direção o eixo z positivo aponta, apontando os de
 
 <a name="10"></a>
 ## 10. Cor
-Uma cor é descrita para o computador como uma tupla ordenada de valores de um
-**cor space** (espaço de cor). Os próprios valores são chamados de **components**(componentes) e são coordenados
-nates no espaço de cores. O GDI do Windows representa as cores como uma tupla ordenada
-de componentes vermelhos, verdes e azuis com cada componente no intervalo [0 . 0 , 1 . 0]
-representado como uma quantidade de bytes sem sinal no intervalo [0 , 255].
-Por padrão, o Windows GDI usa o espaço de cores 2 sRGB . Este é um adotado
-espaço de cores de padrão internacional que foi proposto pela Hewlett-Packard
-e a Microsoft. No entanto, o espaço sRGB é dependente do dispositivo devido ao
-não linearidades de sistemas de exibição.
+Uma cor é descrita para o computador como uma tupla ordenada de valores de um **cor space** (espaço de cor). Os próprios valores são chamados de **components**(componentes) e são coordenados no espaço de cores. O GDI do Windows representa as cores como uma tupla ordenada de componentes vermelhos, verdes e azuis com cada componente no intervalo [0 . 0 , 1 . 0] representado como uma quantidade de bytes sem sinal no intervalo [0 , 255].
+Por padrão, o Windows GDI usa o espaço de cores RGB.
 
-Em computação gráfica, muitas vezes é conveniente usar as cores HLS e HSV
-
+Em computação gráfica, muitas vezes é conveniente usar as cores HLS e HSV.
 HLS: matiz, leveza, saturação
 HSV: matiz,saturação,valor
 
-espaços para a criação de rampas de cores. Se a intenção de seu aplicativo é mapear dados
-a uma gama de cores perceptivelmente iguais, você vai querer usar um espaço de cor outro
-do que sRGB. Incrementos iguais nos componentes de uma cor sRGB não dão
-aumentar para incrementos iguais na mudança de cor percebida no monitor.
-Um tratamento completo da cor e su
-
 <a name="11"></a>
 ## 11. Transparência com Alpha
-Muitas vezes, em computação gráfica, desejamos combinar pixels como se eles
-foram pintados em folhas transparentes empilhadas umas sobre as outras, como no tradicional
-animação cel. No Direct3D, a transparência é representada como um canal adicional
-de informações que representam a quantidade de transparência do pixel.
-Quando um pixel é totalmente opaco, seu valor alfa é 1 . 0 e este pixel completamente
-obscurece qualquer coisa por trás dele. Quando um pixel é totalmente transparente, seu valor alfa
-é 0 . 0 e tudo por trás do pixel aparece. Quando o valor alfa é
-entre 0 e 1, o pixel é parcialmente transparente. O valor alfa de um pixel
-pode ser usado para combinar o primeiro plano do pixel com algum plano de fundo baseado
+Muitas vezes, em computação gráfica, desejamos combinar pixels como se eles fossem pintados em folhas transparentes empilhadas umas sobre as outras. No Direct3D, a transparência é representada como um canal adicional de informações que representam a quantidade de transparência do pixel.   
+Quando um pixel é totalmente opaco, seu valor alfa é 1 . 0 e este pixel completamente obscurece qualquer coisa por trás dele. Quando um pixel é totalmente transparente, seu valor alfa é 0 . 0 e tudo por trás do pixel aparece. Quando o valor alfa é entre 0 e 1, o pixel é parcialmente transparente. O valor alfa de um pixel pode ser usado para combinar o primeiro plano do pixel com algum plano de fundo baseado
 na seguinte fórmula:
 C = αC f + (1 - α ) C b
 Quando α = 0, a cor resultante C não contém nenhuma quantidade de primeiro plano
@@ -227,3 +239,4 @@ independente do espaço de cor do qual o pixel é desenhado
 - [Game Engine Overview](https://www.slideshare.net/sharadmitra/game-engine-overview)
 - [Polygon Mesh](https://pt.qaz.wiki/wiki/Polygon_mesh)
 - [How to Prepare Textures](https://vvvv.org/documentation/howto-prepare-textures)
+- [Computer Graphics. image treatment](https://www.petervaldivia.com/computer-graphics/)
