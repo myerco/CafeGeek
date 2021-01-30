@@ -22,7 +22,7 @@ tags: [Unreal Engine,data tables]
 **Data Tables** são estruturas de dados com vários tipos de variáveis agrupados e podem ser utilizadas para armazenamento de forma estática informações dos personagens e suas características, recursos do jogo como espadas, escudos, magias, propriedades do jogo como níveis, dificuldades e pontuação.
 
 <a name="2"></a>
-## 2. CCriando um objeto do tipo Data Table
+## 2. Criando um objeto do tipo Data Table
 1. Primeiramente devemos implementar o **SElementos** do tipo *Structure* que servirá como base para o objeto **Data Table**.     
 ![](../imagens/estruturas/blueprint_structure.jpg)  
 1. Vamos definir as seguintes variáveis.   
