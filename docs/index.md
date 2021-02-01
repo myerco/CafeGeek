@@ -1,11 +1,17 @@
+---
+title: CafeGeek educação
+description: O CafeGeek é um site educacional com foco em desenvolvimento de jogos digitais e as disciplinas que orbitam este fantástico mundo.
+tags: [Unreal Engine, Game Design, Level Design, Narrativas, Maya]
+---
+
 ![Cafegeek](https://myerco.github.io/unreal-engine/imagens/cafegeek_small.png)
 
 ***
 
-## [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html)  
-  Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer.
+## Desenvolvimento de jogos utilizando Unreal Engine 4
+Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer.    
 
-### Habilidades que serão aprendidas  
+#### Habilidades que serão aprendidas    
   ![Classes de atores](imagens/icons/iconfinder_Check.png) Configuração e organização de projetos;   
   ![Classes de atores](imagens/icons/iconfinder_Check.png) Analisar e aplicar lógica de programação utilizando *Blueprint* e *C++*;     
   ![Classes de atores](imagens/icons/iconfinder_Check.png) Implementar regras de tempo e espaço;      
@@ -16,17 +22,21 @@
   ![Classes de atores](imagens/icons/iconfinder_Check.png) Construir animação de personagens;  
   ![Classes de atores](imagens/icons/iconfinder_Check.png) Implementar Efeitos especiais.    
 
-***
-## [Computação Gráfica com Unreal Engine e Autodesk Maya](https://myerco.github.io/unreal-engine/ue4_computacao_grafica/index.html)  
-  Conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya.  
-### Habilidades que serão aprendidas  
-  ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Como são formados os objetos em gráficos 3D.    
-  ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Processo de renderização.
+  [Iniciar](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html)
 
 ***
-## [Porque eu amo Game Design](#)  
+## Computação Gráfica com Unreal Engine e Autodesk Maya  
+Conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya.  
+#### Habilidades que serão aprendidas  
+![iconfinder_Check](imagens/icons/iconfinder_Check.png) Como são formados os objetos em gráficos 3D.    
+![iconfinder_Check](imagens/icons/iconfinder_Check.png) Processo de renderização.
+
+[Iniciar](https://myerco.github.io/unreal-engine/ue4_computacao_grafica/index.html)    
+
+***
+## Porque eu amo Game Design  
 Aprenda e utilize modelos de organização projeto de jogos digitais, auxiliando a administração de tarefas, recursos, custos e tempo.  
-### Habilidades que serão aprendidas  
+#### Habilidades que serão aprendidas  
 
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Analise os componentes do Level Design;     
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Gameplay - história, mecânica e experiência;     
@@ -37,10 +47,9 @@ Aprenda e utilize modelos de organização projeto de jogos digitais, auxiliando
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Implemente seu protótipo de projeto;          
 
 ***
-## [Me conta uma história](#)
-Narrativa de jogos e construção de personagens.   
-Construa sua narrativa, o tempo, o mundo, os personagens, os objetivos e os capítulos da história.
-### Habilidades que serão aprendidas  
+## Me conta uma história
+Narrativa de jogos e construção de personagens. Construa sua narrativa, o tempo, o mundo, os personagens, os objetivos e os capítulos da história.
+#### Habilidades que serão aprendidas  
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Aprenda a organizar suas ideias;    
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Analise e construa elementos que compõem a história;      
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) O Herói de mil faces;     
@@ -51,10 +60,9 @@ Construa sua narrativa, o tempo, o mundo, os personagens, os objetivos e os cap�
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Evolução do personagens;    
 
 ***
-## [A jogatina das décadas](#)
-A história dos jogos na sociedade e seus diferentes tipos e evoluções.    
-Conheça a história dos jogos na sociedade e estude os conceitos da suas estruturas.
-### Habilidades que serão aprendidas  
+## A jogatina das décadas
+A história dos jogos na sociedade e seus diferentes tipos e evoluções. Conheça a história dos jogos na sociedade e estude os conceitos da suas estruturas.
+#### Habilidades que serão aprendidas  
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Analise e conceitue jogos;    
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Analise e defina tipos de jogos;    
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Analise e defina os tipos de jogadores;      
