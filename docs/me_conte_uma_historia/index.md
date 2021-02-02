@@ -1,13 +1,15 @@
 ---
 title: Me conte uma história
-description: Roteirização de jogos digitais
+description: Narrativa de jogos e construção de personagens.
 tags: [narrativa, Roteirização, jogos digitais]
 ---
 
 ![cafegeek_roteirizacao](imagens/cafegeek_roteirizacao.jpg)
 
 # Me conte uma história
+Construção da narrativa, o tempo, o mundo, os personagens, os objetivos e os capítulos da história.
 
+## Índice
 1. [Por dentro da cabeça do Game Design](#1)    
     1. [Características do Game Design](#1.1)
     1. [Elementos de construção do jogo](#1.1)
@@ -37,10 +39,5 @@ tags: [narrativa, Roteirização, jogos digitais]
     1. [Faça o jogador odiar seu inimigo](#)
     1. [Inimigos não inimigos](#)
     1. [BOSS](#)
-
-
-
-## Índice
-
 
 ## Referências

@@ -45,6 +45,7 @@ Aprenda e utilize modelos de organização projeto de jogos digitais, auxiliando
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Planejamento do projeto do jogo;      
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Versionamento dos elementos do projeto;     
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Implemente seu protótipo de projeto;          
+[Iniciar](https://myerco.github.io/unreal-engine/porque_eu_amo_game_design/index.html)      
 
 ***
 ## Me conta uma história
@@ -58,7 +59,7 @@ Narrativa de jogos e construção de personagens. Construa sua narrativa, o temp
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) O combate;    
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Objetivos da história;      
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Evolução do personagens;    
-[Iniciar](https://myerco.github.io/unreal-engine/me_conte_uma_historia/index.html) 
+[Iniciar](https://myerco.github.io/unreal-engine/me_conte_uma_historia/index.html)
 
 ***
 ## A jogatina das décadas
@@ -68,4 +69,5 @@ A história dos jogos na sociedade e seus diferentes tipos e evoluções. Conhe�
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Analise e defina tipos de jogos;    
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Analise e defina os tipos de jogadores;      
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Conheça o mercado de jogos digitais;    
-  ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Implemente um protótipo de jogo;
+  ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Implemente um protótipo de jogo;    
+[Iniciar](https://myerco.github.io/unreal-engine/a_jogatina_das_decadas/index.html)   
