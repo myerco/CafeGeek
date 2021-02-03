@@ -11,13 +11,14 @@ tags: [Unreal Engine,Rendering,Maya]
 1. [O que é Unreal Engine?](#2)
 1. [Tópicos abordados](#3)
 
+<a name="1"></a>
 ## 1. Desenvolvendo jogos digitais
 O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como por exemplo:
-1. Programação de computadores;
-1. Arte 3D e 2D;
-1. Computação gráfica;
-1. Elementos de construção de Narrativas;
-1. Efeitos sonoros;
+- Programação de computadores;
+- Arte 3D e 2D;
+- Computação gráfica;
+- Elementos de construção de Narrativas;
+- Efeitos sonoros;
 
 Na construção da mecânica de jogo é necessário utilizar uma linguagem de programação para implementar movimento, interação de personagens, inteligência artificial e outros elementos dinâmicos.
 As linguagens de programação vem evoluindo para simplificar as rotinas e comandos assim agilizando o desenvolvimento e permitindo o programador focar no que deve ser feito escondendo alguns detalhes de como é feito.
@@ -25,6 +26,7 @@ As linguagens de programação vem evoluindo para simplificar as rotinas e coman
 
 Existem aplicações que auxiliam na produção de programas de computador ou jogos digitais, estas ferramentas abstraem a lógica complexa que faz com os objetos sejam apresentados de forma adequada na cena, no caso de jogos digitais. Tais ferramentas são chamadas de *Frameworks* [[1](#r1)]
 
+<a name="1.1"></a>
 ### 1.1 O que é uma Engine e Framework?
 No desenvolvimento de jogos um *Framework* pode ser definido como um conjunto de bibliotecas que auxiliam a programação, sendo que uma *engine* ou motor gráfico é mais completo pois abrange outros aspectos na produção de jogos.[[2](#r2)]
 
@@ -33,14 +35,16 @@ Algumas *engine*
 1. Unity;
 1. GameMaker;
 
+<a name="1.2"></a>
 ### 1.2 Ciclo da lógica
 A maioria das *engine* seguem um ciclo de execução da lógica de programação baseado em :
 
-1. **Inicialização** - Executado ao iniciar o jogo carregando bibliotecas básicas;
-1. **Carga** - Responsável por carregar os objetos ou módulos;
-1. **Atualização** - Estado de atualização constante responsável por apresentar todos os estados do jogo;
-1. **Finalização** - Executa as rotinas para descarregar o jogo;
+- **Inicialização** - Executado ao iniciar o jogo carregando bibliotecas básicas;
+- **Carga** - Responsável por carregar os objetos ou módulos;
+- **Atualização** - Estado de atualização constante responsável por apresentar todos os estados do jogo;
+- **Finalização** - Executa as rotinas para descarregar o jogo;
 
+<a name="2"></a>
 ## 2. O que é Unreal Engine?
 É uma *engine* (motor gráfico) para desenvolvimento de jogos que engloba vários aspectos na sua produção, listamos algumas funcionalidades:
 
@@ -53,6 +57,7 @@ A maioria das *engine* seguem um ciclo de execução da lógica de programação
 1. Editor para construção de materiais;
 1. Editor de efeitos especiais utilizando partículas;
 
+<a name="3"></a>
 ## 3. Tópicos abordados
 1. Lógica de programação;
 1. Construção de materiais;
@@ -60,8 +65,8 @@ A maioria das *engine* seguem um ciclo de execução da lógica de programação
 1. Implementar animação de objetos com esqueletos;
 1. Implementação de inteligência artificial;
 
+***
 ## Referências
-
 <a name="r1"></a>
 1. [Framework](https://pt.wikipedia.org/wiki/Framework)
 <a name="r2"></a>
