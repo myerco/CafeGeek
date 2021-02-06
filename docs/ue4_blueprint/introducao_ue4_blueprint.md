@@ -9,7 +9,6 @@ tags: [Unreal Engine,Rendering,Maya]
 ## Índice
 1. [Desenvolvendo jogos digitais](#1)
 1. [O que é Unreal Engine?](#2)
-1. [Tópicos abordados](#3)
 
 <a name="1"></a>
 ## 1. Desenvolvendo jogos digitais
@@ -57,13 +56,6 @@ A maioria das *engine* seguem um ciclo de execução da lógica de programação
 1. Editor para construção de materiais;
 1. Editor de efeitos especiais utilizando partículas;
 
-<a name="3"></a>
-## 3. Tópicos abordados
-1. Lógica de programação;
-1. Construção de materiais;
-1. Construção de terrenos;
-1. Implementar animação de objetos com esqueletos;
-1. Implementação de inteligência artificial;
 
 ***
 ## Referências

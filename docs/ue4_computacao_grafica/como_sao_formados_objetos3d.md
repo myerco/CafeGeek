@@ -1,8 +1,10 @@
 ---
-title: Manipulando Arrays
-description: Como manipular variáveis do tipo Array
-tags: [Unreal Engine,blueprint,array,get,set]
+title: Como são formados os objetos em gráficos 3D?
+description: Neste capitulo será apresentados os elementos que constituem uma imagem 3D utilizando como exemplo softwares como o Unreal Engine e Maya Autodesk.
+tags: [objetos 3d, unreal engine, maya Autodesk]
 ---
+
+[CafeGeek](https://myerco.github.io/unreal-engine)  / [Computação Gráfica com Unreal Engine e Autodesk Maya](https://myerco.github.io/unreal-engine/ue4_computacao_grafica/index.html)
 
 # Como são formados os objetos em gráficos 3D?
 Neste capitulo será apresentados os elementos que constituem uma imagem 3D utilizando como exemplo softwares como o Unreal Engine e Maya Autodesk.
@@ -36,10 +38,7 @@ Neste capitulo será apresentados os elementos que constituem uma imagem 3D util
     1. [Pivot - O centro do objeto 3D no Maya](#10.2)
 1. [Cor](#11)  
 1. [Transparência com Alpha](#12)
-1. [Processamento de imagens](#13)
-    1. Pipeline
-    1. CPU.
-    1. GPU.
+
 
 <a name="1"></a>
 ## 1. Quais são os elementos que compõem imagens?

@@ -3,13 +3,13 @@ title: Introdução ao curso de Computação Gráfica com Unreal Engine e Autode
 description: Introdução ao curso de Computação Gráfica com Unreal Engine e Autodesk Maya
 tags: [Unreal Engine,Rendering,Maya]
 ---
+[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/ue4_computacao_grafica/index.html)
 
 # Introdução ao curso de Computação Gráfica com Unreal Engine e Autodesk Maya
 
 ## Índice
 1. [O que é computação gráfica?](#1)
 1. [Computação gráfica para jogos digitais](#2)
-1. [Conceitos abordados](#3)
 
 <a name="1"></a>
 ## 1. O que é computação gráfica?
@@ -28,18 +28,10 @@ Utilizando e entendendo os elementos e as técnicas envolvidas na geração de i
 
 Construir jogos digitais para que possam ser executados em diversas plataformas, sejam de arquiteturas e hardware ou sistemas operacionais diferentes exige conhecimento de técnicas de renderização de objetos na tela, bem como conhecer os elementos que os formam.
 
-<a name="3"></a>
-## 3. Conceitos abordados.
-Neste curso abordaremos os seguintes conceitos.
-1. Objetos bidimensionais e tridimensionais;
-1. Visualização de objetos;
-1. Processo de Renderização;
-1. Iluminação;
-1. PósProcessamento;
-
 ## Referências
 <a name="r1"></a>
 1. [O que é computação gráfica](http://www.um.pro.br/index.php?c=/computacao/definicao)
 1. [Computação gráfica](https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_gr%C3%A1fica)
 <a name="r3"></a>
 1. [Computação Gráfica e Jogos Digitais](https://medium.com/@bitsgrupo/computa%C3%A7%C3%A3o-gr%C3%A1fica-e-jogos-digitais-1e15f0febf7c)
+1. [Introduction to Computer Graphics](http://math.hws.edu/graphicsbook/)
