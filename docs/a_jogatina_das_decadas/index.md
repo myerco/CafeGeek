@@ -98,16 +98,34 @@ uma luta, ou, então, se torne uma luta para melhor representação de alguma co
 O ser humano, tal como todos os seres da escala biológica, tem como característica principal o movimento. O jogo surge relacionado a esse assunto, por ser a melhor demonstração dessa predominância no homem, além de atuar como um valoroso contribuinte no desenvolvimento global do mesmo.
 
 <a name="2.1"></a>
-### 2.1 Arte
+### 2.1 O jogo Arte e Cultura
+O processo criativo e construção de elementos imaginários estão presentes nas caracterizas dos jogos.
+Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um belo e nobre jogo começou por ser um jogo sagrado. Os torneios e justas, as ordens, os votos, os títulos, são  todos vestígios dos ritos de iniciação primitivos.
 
 <a name="2.1"></a>
-### 2.2 Guerra
+### 2.2 O jogo e a Guerra
+É difícil não associar a guerra ao jogo mas o contrário é possível.
 
 <a name="2.3"></a>
-### 2.3 Leis
+### 2.3 O jogo e a Direito
+Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o Luizinga associa o "processo" a um jogo considerando o seguinte:
+- **O tribunal** - Pode também ser chamado uma "corte" de justiça. Esta corte é ainda, no sentido pleno do  termo, o ίεφόδ χυχλο, o círculo sagrado dentro do qual, no escudo de Aquiles, aparecem sentados os juízes. Todo  lugar onde se ministra a justiça é um verdadeiro *temenos*, um lugar sagrado, separado e afastado do mundo vulgar.
+- **Os juízes** -  que  ministram a justiça saem da vida "comum" no momento em que vestem a toga e colocam a  peruca.
+> Um antigo juiz escreveu-me o seguinte: "O estilo e o conteúdo das intervenções nos tribunais revelam o  ardor esportivo com que nossos advogados se atacam uns aos outros por meio de argumentos e contra-argumentos  (alguns dos quais são razoavelmente sofisticados)
+
+- **Regras e Leis** - A competição judicial está  sempre submetida a um sistema de regras restritivas que, independentemente das limitações de tempo e de lugar,  colocam firme e inequivocamente o julgamento no interior do domínio do jogo ordenado e antitético
+- **A justiça** - Se fizermos com que nosso olhar passe da  administração da justiça nas civilizações altamente desenvolvidas para aquela que se encontra nas fases menos  adiantadas da cultura, veremos que a ideia do bem e do mal, a concepção ético-jurídica, é ultrapassada pela ideia de  ganhar ou perder, isto é, pela concepção puramente agonística. O que interessa ao espírito primitivo não é tanto o  problema abstrato do bem e do mal, mas principalmente o problema extremamente concreto de ganhar ou perder.
 
 <a name="2.4"></a>
-### 2.4 Linguagem
+### 2.4 O jogo a Linguagem 
+A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo, designá-las e com essa designação elevá-las ao domínio do espírito. Na criação da fala e da linguagem,  brincando com essa maravilhosa faculdade de designar, é como se o espírito estivesse constantemente saltando  entre a matéria e as coisas pensadas. Por detrás de toda expressão abstrata se oculta uma metáfora, e toda metáfora  é jogo de palavras. Assim, ao dar expressão à vida, o homem cria um outro mundo, um mundo poético, ao lado do  da natureza.
+
+<a name="2.5"></a>
+### 2.5 Algumas considerações sobre o jogo
+O autor apresenta as suas interpretações de elementos presentes na nossa sociedade e os caracteriza como jogo na sua definição, devemos lembrar que o HUIZINGA utiliza a define jogo na Perspectiva do jogador e extrai classificações do objeto em estudo dentro de um tempo e realidade por conseguinte devemos considerar os seguintes aspectos:
+- Não deveríamos considerar  a justiça como um jogo de ganhar e perder pois isso não melhora as grandes diferenças sociais na nossa sociedade.
+
+Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como por exemplo economia, relacionamentos, comunicação e outros, mas com uma nova roupagem denominadae "Gamificação" que estudaremos nos próximos capítulos.
 
 <a name="3"></a>
 ## 3 Tipos de jogos
