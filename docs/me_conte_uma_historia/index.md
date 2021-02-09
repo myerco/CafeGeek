@@ -4,7 +4,8 @@ description: Narrativa de jogos e construção de personagens.
 tags: [narrativa, Roteirização, jogos digitais]
 ---
 [CafeGeek](https://myerco.github.io/unreal-engine)
-![cafegeek_roteirizacao](imagens/cafegeek_roteirizacao.jpg)
+
+![introducao_me_conta_uma_historia](imagens/introducao_me_conta_uma_historia.jpg)
 
 # Me conte uma história
 Construção da narrativa, o tempo, o mundo, os personagens, os objetivos e os capítulos da história.

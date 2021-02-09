@@ -6,7 +6,7 @@ tags: [Unreal Engine,Rendering,Maya]
 
 [CafeGeek](https://myerco.github.io/unreal-engine)
 
-![CafeGeek](https://myerco.github.io/unreal-engine/imagens/cafegeek_small.png)
+![Introdução a computação gráfica](imagens/introducao_computacao_grafica.jpg)
 
 # Computação Gráfica com Unreal Engine e Autodesk Maya
 

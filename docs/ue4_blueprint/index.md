@@ -6,7 +6,8 @@ tags: [Unreal Engine]
 
 [CafeGeek](https://myerco.github.io/unreal-engine)
 
-![MDA](https://myerco.github.io/unreal-engine/imagens/cafegeek_small.png)
+![introducao desenvolvimento jogos ue4](imagens/introducao_desenvolvimento_jogos_ue4.jpg)
+
 # Desenvolvimento de jogos utilizando Unreal Engine 4
 
 ## Conteúdo do curso
