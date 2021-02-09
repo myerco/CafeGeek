@@ -4,10 +4,11 @@ description: História dos jogos na sociedade e seus diferentes tipos e evoluç�
 tags: [narrativa, Roteirização, jogos digitais]
 ---
 [CafeGeek](https://myerco.github.io/unreal-engine)
-![cafegeek_roteirizacao](imagens/cafegeek_roteirizacao.jpg)
+
+![cafegeek_roteirizacao](imagens/introducao_jogatina_das_decadas.jpg)
 
 # A jogatina das décadas
-Apresentar a história dos jogos na sociedade e apresentar e estudar os tipos de jogos além de estudar a formas de mercado.
+Apresentar a história dos jogos na sociedade as classificações e as formas de mercado.
 
 ## Índice
 
