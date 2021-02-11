@@ -4,7 +4,7 @@ description: Como organizar pastas e adicionar um logo no projeto
 tags: [Unreal Engine,Organizando,Blueprint,pastas]
 ---
 
-[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html)
+[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
 # Organizando pastas e logo do projeto  
 Neste capitulo vamos organizar o projeto *ProjetoAula* e adicionar um logo par ao projeto.
@@ -19,14 +19,14 @@ Neste capitulo vamos organizar o projeto *ProjetoAula* e adicionar um logo par a
 ## 1. Como criar pastas de trabalho?
 Na aba *Content Browser* utilizando botão direito do mouse clique em *New Folder* e crie as seguintes pastas:   
 
-![](https://myerco.github.io/unreal-engine/imagens/projeto/blueprint_content.jpg)
+![](https://myerco.github.io/CafeGeek/imagens/projeto/blueprint_content.jpg)
 
 <a name="2"></a>
 ## 2. Adicionando um *Level* na inicialização do projeto
 Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguintes passos:  
 1. Salve o *level* atual na pasta Maps **File->Save Current** com o nome LevelTest
 1. Para configurar a inicialização do projeto utilizando o **LevelTest** utilize o menu *Edit->Project Settings* e depois *Maps & Modes*.   
-![](https://myerco.github.io/unreal-engine/imagens/projeto/blueprint_maps_modes.jpg)
+![](https://myerco.github.io/CafeGeek/imagens/projeto/blueprint_maps_modes.jpg)
 - **Edit Startup Level** Seleciona o *Level* que deverá ser carregado no início do jogo, neste casso é **LevelTest**.
 - **Game default Map** : Seleciona o *Level* que é mais usado com frequência.
 
@@ -105,7 +105,7 @@ Exemplo:
 <a name="4"></a>
 ## 4. Configurando as imagens  do projeto
 Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu **Project Settings** opção **Plataforms**-> **Windows** e altere a imagens.
-![](https://myerco.github.io/unreal-engine/imagens/projeto/blueprint_project_icon.jpg)
+![](https://myerco.github.io/CafeGeek/imagens/projeto/blueprint_project_icon.jpg)
 
 > Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas pode ser convertido usando ferramentas online, por exemplo) e 256x256.
 
@@ -119,4 +119,4 @@ Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apr
 
 ***
 ## Tags
-[Blueprint](https://myerco.github.io/unreal-engine/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/unreal-engine/)
+[Blueprint](https://myerco.github.io/CafeGeek/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/CafeGeek/)

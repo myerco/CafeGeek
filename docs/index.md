@@ -4,7 +4,7 @@ description: O CafeGeek é um site educacional com foco em desenvolvimento de jo
 tags: [Unreal Engine, Game Design, Level Design, Narrativas, Maya]
 ---
 
-![Cafegeek](https://myerco.github.io/unreal-engine/imagens/cafegeek_small.png)
+![Cafegeek](https://myerco.github.io/CafeGeek/imagens/cafegeek_small.png)
 
 ***
 
@@ -22,7 +22,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
   ![Classes de atores](imagens/icons/iconfinder_Check.png) Construir animação de personagens;  
   ![Classes de atores](imagens/icons/iconfinder_Check.png) Implementar Efeitos especiais.    
 
-  [Iniciar](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html)
+  [Iniciar](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
 ***
 ## Computação Gráfica com Unreal Engine e Autodesk Maya  
@@ -31,7 +31,7 @@ Conceitos de computação gráfica aplicados na prática usando o Unreal Engine 
 ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Como são formados os objetos em gráficos 3D.    
 ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Processo de renderização.
 
-[Iniciar](https://myerco.github.io/unreal-engine/ue4_computacao_grafica/index.html)    
+[Iniciar](https://myerco.github.io/CafeGeek/ue4_computacao_grafica/index.html)    
 
 ***
 ## Porque eu amo Game Design  
@@ -45,7 +45,7 @@ Aprenda e utilize modelos de organização projeto de jogos digitais, auxiliando
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Planejamento do projeto do jogo;      
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Versionamento dos elementos do projeto;     
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Implemente seu protótipo de projeto;          
-[Iniciar](https://myerco.github.io/unreal-engine/porque_eu_amo_game_design/index.html)      
+[Iniciar](https://myerco.github.io/CafeGeek/porque_eu_amo_game_design/index.html)      
 
 ***
 ## Me conta uma história
@@ -59,7 +59,7 @@ Narrativa de jogos e construção de personagens. Construa sua narrativa, o temp
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) O combate;    
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Objetivos da história;      
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Evolução do personagens;    
-[Iniciar](https://myerco.github.io/unreal-engine/me_conte_uma_historia/index.html)
+[Iniciar](https://myerco.github.io/CafeGeek/me_conte_uma_historia/index.html)
 
 ***
 ## A jogatina das décadas
@@ -70,4 +70,4 @@ A história dos jogos na sociedade e seus diferentes tipos e evoluções. Conhe�
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Analise e defina os tipos de jogadores;      
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Conheça o mercado de jogos digitais;    
   ![iconfinder_Check](imagens/icons/iconfinder_Check.png) Implemente um protótipo de jogo;    
-[Iniciar](https://myerco.github.io/unreal-engine/a_jogatina_das_decadas/index.html)   
+[Iniciar](https://myerco.github.io/CafeGeek/a_jogatina_das_decadas/index.html)   

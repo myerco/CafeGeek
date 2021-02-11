@@ -4,7 +4,7 @@ description: Utilizando os objetos Widget para interagir com o jogador e aplican
 tags: [Unreal Engine,HUD,user interface,hud]
 ---
 
-[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html)
+[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
 # HUD - Interface com o jogador
 HUD (*Heads-up Display*) ou UI (*Use Interface*) é um objeto especial da **Unreal Engine** para apresentar informações sobrepostas na tela e interagir com o jogador.
@@ -135,7 +135,7 @@ Ao clicar no botão Sair vamos chamar a função **Quit Game** que finaliza do j
 <a name="4"></a>
 ## 4. Executando o menu
 Neste passo vamos criar um Level Vazio executar o menu.   
-Caso o Widget seja o menu principal que deverá ser chamado no início do jogo é necessário adicionar o mesmo em [Level e inicialização](https://myerco.github.io/unreal-engine/ue4_blueprint/organizando.html#2)
+Caso o Widget seja o menu principal que deverá ser chamado no início do jogo é necessário adicionar o mesmo em [Level e inicialização](https://myerco.github.io/CafeGeek/ue4_blueprint/organizando.html#2)
 1. *Empty Level* (Level Vazio).    
 ![blueprint_empty_level](../imagens/interface_ui_hud/blueprint_empty_level.jpg)
 1. Em **Open Level blueprint** vamos adicionar a lógica para criar um objeto do tipo **BP_HUD_Demo** e adicionar na tela com a função **AddToViewPort**.   
@@ -161,7 +161,7 @@ Abaixa a lógica a função associada a elemento **ProgressBar**.
 <a name="52"></a>
 ### 5.2 Função para pegar o nome do jogador
 ![blueprint_hud_addviewport](../imagens/interface_ui_hud/blueprint_hud_function_nome_jogador.jpg)
-- Podemos utilizar [Variáveis estruturadas](https://myerco.github.io/unreal-engine/ue4_blueprint/structure_variaveis_estruturadas.html) para manipulação das propriedades do jogador.   
+- Podemos utilizar [Variáveis estruturadas](https://myerco.github.io/CafeGeek/ue4_blueprint/structure_variaveis_estruturadas.html) para manipulação das propriedades do jogador.   
 
 <a name="6"></a>
 ## 6 Organizando os objetos
@@ -177,10 +177,10 @@ Para exemplificar algumas funções do menu como por exemplo salvar dados do jog
 
 1.  Implementar um objeto BP_SaveGameDemo do tipo **SaveGame**, para isso utilizamos o menu de contexto e escolhemos **Blueprint**.    
 ![blueprint_hud_addviewport](../imagens/saveload/blueprint_save_game_object.jpg)
-1. Adicionamos variáveis dentro do objeto para definir o que deve ser salvo, neste exemplo utilizaremos a variável **JogadorInfo** do tipo **S_jogador** que é uma [Variável Structure](https://myerco.github.io/unreal-engine/ue4_blueprint/structure_variaveis_estruturadas.html)
+1. Adicionamos variáveis dentro do objeto para definir o que deve ser salvo, neste exemplo utilizaremos a variável **JogadorInfo** do tipo **S_jogador** que é uma [Variável Structure](https://myerco.github.io/CafeGeek/ue4_blueprint/structure_variaveis_estruturadas.html)
 ![blueprint_hud_addviewport](../imagens/saveload/blueprint_save_game_variable.jpg)
 
-Nos próximos passos vamos criar o objeto *BP_GameInstanceJogo* do tipo [**GameInstance**](https://myerco.github.io/unreal-engine/ue4_blueprint/gameinstance_state_mode.html#5) e adicionar os eventos customizados (*Add custon event*) a seguir.
+Nos próximos passos vamos criar o objeto *BP_GameInstanceJogo* do tipo [**GameInstance**](https://myerco.github.io/CafeGeek/ue4_blueprint/gameinstance_state_mode.html#5) e adicionar os eventos customizados (*Add custon event*) a seguir.
 
 <a name="62"></a>
 ### 6.2 Evento para apresentar o menu na tela
@@ -232,4 +232,4 @@ No evento click dos botões vamos adicionar os eventos construidos dentro da gam
 
 ***
 ## Tags
-[Blueprint](https://myerco.github.io/unreal-engine/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/unreal-engine/)
+[Blueprint](https://myerco.github.io/CafeGeek/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/CafeGeek/)

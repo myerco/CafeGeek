@@ -35,7 +35,7 @@ share-links-active:
 gtag: "G-3BDZTTK4NP"
 google_analytics: 256152900
 
-url: "https://myerco.github.io/unreal-engine/"
+url: "https://myerco.github.io/CafeGeek/"
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

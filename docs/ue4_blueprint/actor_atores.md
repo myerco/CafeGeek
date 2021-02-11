@@ -4,7 +4,7 @@ description: Actors ou atores do jogo
 tags: [Unreal Engine,actor,atores]
 ---
 
-[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html)
+[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
 # Actors - Atores
 Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de básica de objetos da **Unreal Engine**, neste capitulo serão apresentados e implementados os atores *Actors* do seu projeto.
@@ -359,4 +359,4 @@ Adicionando uma *tag* (Etiqueta) na propriedade do ator podemos selecionar todos
 
 ***
 ## Tags
-[Blueprint](https://myerco.github.io/unreal-engine/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/unreal-engine/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/unreal-engine/)
+[Blueprint](https://myerco.github.io/CafeGeek/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/CafeGeek/)
