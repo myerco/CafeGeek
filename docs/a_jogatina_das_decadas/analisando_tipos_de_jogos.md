@@ -3,7 +3,7 @@ title: Analisando tipos de jogos
 description: Quais são os tipos de jogos e o que é um jogo eletrônico.
 tags: [narrativa, Roteirização, jogos digitais]
 ---
-[CafeGeek](https://myerco.github.io/unreal-engine)
+[CafeGeek](https://myerco.github.io/CafeGeek)
 ![cafegeek_roteirizacao](imagens/cafegeek_roteirizacao.jpg)
 
 # Tipos de jogos

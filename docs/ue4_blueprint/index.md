@@ -4,7 +4,7 @@ description: Estrutura do curso de desenvolvimento de jogos utilizando Unreal En
 tags: [Unreal Engine]
 ---
 
-[CafeGeek](https://myerco.github.io/unreal-engine)
+[CafeGeek](https://myerco.github.io/CafeGeek)
 
 ![introducao desenvolvimento jogos ue4](imagens/introducao_desenvolvimento_jogos_ue4.jpg)
 

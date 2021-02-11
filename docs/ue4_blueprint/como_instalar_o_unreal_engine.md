@@ -4,7 +4,7 @@ description: Instalando e entendendo a organização de pastas
 tags: [Unreal Engine,instalando]
 ---
 
-[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
+[CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 # Como instalar o Unreal Engine 4?
 Neste capítulo vamos instalar e criar um projeto apresentando a organização de suas pastas.
 

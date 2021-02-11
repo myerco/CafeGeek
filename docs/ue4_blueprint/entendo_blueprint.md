@@ -5,7 +5,7 @@ tags: [Unreal Engine,Blueprint]
 cover-img: "/imagens/cafegeek_small.png"
 ---
 
-[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
+[CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
 # Entendo a lógica de programação visual com Blueprint
 Neste capítulo será apresenta o modelo da lógica de programação utilizando **Blueprint** e os seus elementos.

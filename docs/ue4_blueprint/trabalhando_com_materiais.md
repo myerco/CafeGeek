@@ -4,7 +4,7 @@ description: Instalando e entendendo a organização de pastas
 tags: [Unreal Engine,Materiais, material Function,material]
 ---
 
-[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
+[CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
 # Trabalhando com Materiais
 

@@ -3,7 +3,7 @@ title: Data tables - Tabelas de dados
 tags: [Unreal Engine,data tables]
 ---
 
-[CafeGeek](https://myerco.github.io/unreal-engine)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
+[CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
 # Data tables - Tabelas de dados
 **Data tables** são basicamente estruturas de tabelas de dados disponíveis para os desenvolvedores e são definidas por tipos *Structure* para estruturas os dados.  
