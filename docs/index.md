@@ -3,10 +3,7 @@ title: CafeGeek educação
 description: O CafeGeek é um site educacional com foco em desenvolvimento de jogos digitais e as disciplinas que orbitam este fantástico mundo.
 tags: [Unreal Engine, Game Design, Level Design, Narrativas, Maya]
 ---
-
-![Cafegeek](https://myerco.github.io/CafeGeek/imagens/cafegeek_small.png)
-
-***
+![Cafegeek](imagens/cafegeek_inicial.jpg)
 
 ## Desenvolvimento de jogos utilizando Unreal Engine 4
 Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer.    
