@@ -6,11 +6,6 @@ tags: [Unreal Engine, Game Design, Level Design, Narrativas, Maya]
 ![Cafegeek](imagens/cafegeek_inicial.jpg)
 
 ## Desenvolvimento de jogos
-|  |  |  |  |
-|:-:|-|-|-|
-|  |  |  |  |
-|  |  |  |  |
-
 
 |  MDA | 1° Etapa  | 2° Etapa  |  3° Etapa |
 |---  |---        |---        |-|

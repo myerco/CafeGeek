@@ -34,6 +34,14 @@ PBR significa P hysically B ased R endering e significa que o material descreve 
 ## 2. Estrutura do Material no Unreal Engine 4
 A primeira e mais importante coisa a saber sobre os Materiais é que eles não são construídos por meio de código, mas por meio de uma rede de nós de script visual (chamados de Expressões de Material) dentro do Editor de Material. Cada nó contém um fragmento de código HLSL, designado para executar uma tarefa específica. Isso significa que, conforme você constrói um Material, está criando código HLSL por meio de scripts visuais.
 
+<a name="2"></a>
+## 3. Editor de materiais
+1. Menu de contexto para criar um material.     
+
+  ![ue4_menu_material](imagens/materiais/ue4_menu_material.jpg)
+
+1. Salve o material como *M_Base*
+
 <a name="3"></a>
 ## 3. Atributos importantes
 Abaixo citamos os mais importantes atributos dos materiais.
@@ -43,13 +51,30 @@ Abaixo citamos os mais importantes atributos dos materiais.
 - Emissive     Valores entre 0 e 1
 - Normals
 
+1. O nó principal e suas propriedades.
+
+  ![ue4_menu_material](imagens/materiais/ue4_material_no_principal.jpg)
+
 <a name="4"></a>
 ## 4. Valores que determinam a física
-- Constant 3
 - Constant 1
+
+  ![ue4_menu_material](imagens/materiais/ue4_material_no_constant_1.jpg)
+
+- Constant 2
+
+  ![ue4_menu_material](imagens/materiais/ue4_material_no_constant_2.jpg)
+
+- Constant 3
+
+  ![ue4_menu_material](imagens/materiais/ue4_material_no_constant_3.jpg)
+
 
 <a name="5"></a>
 ## 5. Texture samples
+
+![ue4_menu_material](imagens/materiais/ue4_material_no_texture_sample.jpg)
+
 ## Texturas
 - Tamanhos :
   1x1, 2x2, 4x4, 1024x1024 e 8192x8192
@@ -60,13 +85,49 @@ Abaixo citamos os mais importantes atributos dos materiais.
 
 ## 6. Material expressions
 Os nós de Expressão de Material contêm pequenos fragmentos de código HLSL que realizam tarefas muito específicas dentro de um Material. Os materiais são construídos usando combinações de nós de Expressão de Material que são combinados para realizar certas tarefas.
-Exemplos:
-- Planner
-- Multiply
-- Lerp
-- TextCoord
 
-## 7. Conectando material Expressions
+### 6.1 Conectando material Expressions
+Abaixo um exemplo de conexão.
+
+![ue4_menu_material](imagens/materiais/ue4_material_base_conexao.jpg)
+
+  - Botão direito do mouse em qualquer área de trabalho (RMB) abre a lista de nós disponíveis.
+  - É possível fazer a busca de nós na aba **Palette** e arrastar com o mouse na área de trabalho.
+
+### 6.2 Combinando material Expressions
+A área de trabalho é um modelo de programação visual que permite combinar variáveis e funções para construir a estrutura final. Cada nó apresenta uma saída para o próximo nó.    
+
+**Lógica**
+```c++
+M_Base =  ( TexturaSample( panner(TexCoord(),0.1,0) ) * Vetor3(0.0664,0.0366,0.401));
+```
+**Gráfico de nós**
+![ue4_menu_material](imagens/materiais/ue4_material_conexao_expression.jpg)
+
+- **Panner** - Produz coordenadas de textura UV que podem ser usadas para criar texturas panorâmicas ou móveis.
+- **Multiply** - Pega duas entradas, multiplica-as juntas e produz o resultado. Quando você passa valores de cor como entrada, os resultados são semelhantes aos resultados do modo de mesclagem de camada Multiply no Photoshop.   
+Se você passar valores com vários canais, cada canal será multiplicado separadamente. Por exemplo, se você passar valores de cor RGB para cada entrada, o canal R da primeira entrada é multiplicado pelo canal R da segunda entrada e o resultado é armazenado no canal R da saída; o canal G da primeira entrada é multiplicado pelo canal G da segunda entrada e o resultado é armazenado no canal G da saída e assim por diante.      
+Ambas as entradas devem ter o mesmo número de valores, a menos que um dos valores seja um único valor flutuante. Nesse caso, cada canal da entrada multicanal é multiplicado pelo valor flutuante único e armazenado em um canal separado do valor de saída.
+- **TexCoord** - Gera coordenadas de textura UV na forma de um valor vetorial de dois canais, permitindo que os materiais usem diferentes canais UV, especifiquem ladrilhos e, de outra forma, operem nos UVs de uma malha.
+
+### 6.2 Exemplo do nó Lerp
+Interpola Linearmente entre A e B com base em Alfa (100% de A quando Alfa = 0 e 100% de B quando Alfa = 1)
+![ue4_menu_material](imagens/materiais/ue4_material_lerp_exemplo.jpg)
+
+## 7. Texturas
+![ue4_menu_material](imagens/materiais/ue4_material_base_conexao_textura.jpg)
+
+### 7.1 Roughness - rugosidade
+![ue4_menu_material](imagens/materiais/ue4_material_roughness_exemplo.jpg)
+
+### 7.2 Normal - Coordenadas normals
+![ue4_menu_material](imagens/materiais/ue4_material_normal_exemplo.jpg)
+
+### 7.3 Metallic - Metálica
+![ue4_menu_material](imagens/materiais/ue4_material_metallic_exemplo.jpg)
+
+## 8. Aplicando o material no objeto
+![ue4_menu_material](imagens/materiais/ue4_material_aplicando_mesh.jpg)
 
 ## 8. Material Inputs
 
@@ -88,3 +149,5 @@ Exemplos:
 - [Physically Based Materials](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/PhysicallyBased/index.html)
 - [Texture Import Guide](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Textures/Importing/index.html)
 - [Material Expression Reference](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/ExpressionReference/index.html)
+- [Coordinates Expressions](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/ExpressionReference/Coordinates/index.html)
+- [Math Expressions](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/ExpressionReference/Math/index.html#power)
