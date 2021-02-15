@@ -5,6 +5,16 @@ tags: [Unreal Engine, Game Design, Level Design, Narrativas, Maya]
 ---
 ![Cafegeek](imagens/cafegeek_inicial.jpg)
 
+## Desenvolvimento de jogos
+|  MDA | 1° Etapa  | 2° Etapa  |  3° Etapa |
+|---|---|---|---|
+|**Mecânica**  | [Desenvolvimento de jogos utilizando Unreal Engine 4](#1)  |   |   |
+|   |   | [Computação Gráfica com Unreal Engine e Autodesk Maya](#2)  |   |  
+|**Emoção**  |  [A jogatina das décadas](#3) |   |   |   
+|  |   | [Me conta uma história](#4)  |   |  
+|**Dinâmica**  |   |   |  [Porque eu amo Game Design](#5) |   
+
+<a name="1"></a>
 ## Desenvolvimento de jogos utilizando Unreal Engine 4
 Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer.    
 
@@ -22,6 +32,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
   [Iniciar](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
 ***
+<a name="2"></a>
 ## Computação Gráfica com Unreal Engine e Autodesk Maya  
 Conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya.  
 #### Habilidades que serão aprendidas  
@@ -31,6 +42,7 @@ Conceitos de computação gráfica aplicados na prática usando o Unreal Engine 
 [Iniciar](https://myerco.github.io/CafeGeek/ue4_computacao_grafica/index.html)    
 
 ***
+<a name="5"></a>
 ## Porque eu amo Game Design  
 Aprenda e utilize modelos de organização projeto de jogos digitais, auxiliando a administração de tarefas, recursos, custos e tempo.  
 #### Habilidades que serão aprendidas  
@@ -45,6 +57,7 @@ Aprenda e utilize modelos de organização projeto de jogos digitais, auxiliando
 [Iniciar](https://myerco.github.io/CafeGeek/porque_eu_amo_game_design/index.html)      
 
 ***
+<a name="4"></a>
 ## Me conta uma história
 Narrativa de jogos e construção de personagens. Construa sua narrativa, o tempo, o mundo, os personagens, os objetivos e os capítulos da história.
 #### Habilidades que serão aprendidas  
@@ -59,6 +72,7 @@ Narrativa de jogos e construção de personagens. Construa sua narrativa, o temp
 [Iniciar](https://myerco.github.io/CafeGeek/me_conte_uma_historia/index.html)
 
 ***
+<a name="3"></a>
 ## A jogatina das décadas
 A história dos jogos na sociedade e seus diferentes tipos e evoluções. Conheça a história dos jogos na sociedade e estude os conceitos da suas estruturas.
 #### Habilidades que serão aprendidas  
