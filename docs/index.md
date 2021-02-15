@@ -7,7 +7,7 @@ tags: [Unreal Engine, Game Design, Level Design, Narrativas, Maya]
 
 ## Desenvolvimento de jogos
 |  MDA | 1° Etapa  | 2° Etapa  |  3° Etapa |
-|---|---|---|---|
+|---  |---        |---        | |
 |**Mecânica**  | [Desenvolvimento de jogos utilizando Unreal Engine 4](#1)  |   |   |
 |   |   | [Computação Gráfica com Unreal Engine e Autodesk Maya](#2)  |   |  
 |**Emoção**  |  [A jogatina das décadas](#3) |   |   |   
