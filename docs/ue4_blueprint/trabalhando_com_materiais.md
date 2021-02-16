@@ -130,14 +130,40 @@ Interpola Linearmente entre A e B com base em Alfa (100% de A quando Alfa = 0 e 
 ![ue4_menu_material](imagens/materiais/ue4_material_aplicando_mesh.jpg)
 
 ## 8. Material Inputs
+Nem todas as entradas serão úteis para cada tipo de material que você criar. Por exemplo, ao desenvolver uma Função de Luz - um Material que é aplicado a uma luz - você só pode usar a entrada Cor Emissiva no material e nada mais, visto que outras entradas, como Metálico ou Aspereza, não seriam aplicáveis. Por isso, é importante saber que tipo de material você está criando antes de começar a se preocupar muito com as entradas. As três propriedades de controle primárias são:
+
+- Blend Mode - controla como o seu material se mesclará com os pixels por trás dele.
+- Shading Model - define como a luz é calculada para a superfície do material.
+- Material Domain - controla como o material deve ser usado, por exemplo, se ele deve fazer parte de uma superfície, uma função leve ou um material pós-processamento.
+
+  ![ue4_menu_material](imagens/materiais/ue4_material_type_input.jpg)
+
+### 8.1 Inputs
+- **Base Color** - A Cor Base define a cor geral do Material, obtendo um valor Vector3 (RGB) em que cada canal é automaticamente fixado entre 0 e 1.
+- **Normal maps** - A entrada Normal leva em um mapa normal, que é usado para fornecer detalhes físicos significativos para a superfície, perturbando o "normal", ou direção de frente, de cada pixel individual.
+- **Emissive** - Dá aos artistas uma maneira muito barata e eficaz de dar a ilusão de que um Material está lançando luz quando na verdade não está. Os materiais emissivos fazem isso permitindo que o artista empurre os valores da entrada emissiva acima de 1,0, o que empurrará o material para a faixa HDR, emitindo um efeito Bloom que você pode ver ao olhar para uma fonte de luz muito brilhante.   
+![ue4_menu_material](imagens/materiais/ue4_material_emissive.jpg)
+
+- **World position Offset** - Permite que os vértices de uma malha sejam manipulados no espaço do mundo pelo Material. Isso é útil para fazer objetos se moverem, mudarem de forma, girarem e uma variedade de outros efeitos. Isso é útil para coisas como animação ambiente.
+![ue4_menu_material](imagens/materiais/ue4_material_world_position_offset.jpg)
+Os valores do nó Constant Vector 3, representam as coordenadas de posição do mundo (x,y,z) respectivamente.
+
+  Exemplo:    
+
+  ![ue4_menu_material](imagens/materiais/ue4_material_world_position_offset_exemplo.jpg)
+
 
 ## 9. Material propriedades
+- **Unlit Shading Model** - Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais como fogo ou iluminação de objetos. Observe que, neste exemplo, o Material não está projetando luz na cena. Em vez disso, seu alto valor Emissivo resulta em um efeito de brilho, que também é captado pela Máscara de Sujeira aplicada à câmera. Parece iluminar, mas nenhuma luz ou sombra será projetada por este objeto.
 
+  ![ue4_menu_material](imagens/materiais/ue4_material_properties_unlit.jpg)
 
+- **Masked Blend Mode** - É usado para objetos nos quais você precisa controlar seletivamente a visibilidade de forma binária (liga / desliga). Por exemplo, considere um material que simula uma cerca de arame ou grade. Você terá algumas áreas que parecem sólidas, enquanto outras são invisíveis. Esses materiais são perfeitos para o modo de mesclagem mascarada.     
+  ![ue4_menu_material](imagens/materiais/ue4_material_properties_blend_mode_masked.jpg)
 
+- **Translucent Blend Mode** - É usado para objetos que requerem alguma forma de transparência.
+  ![ue4_menu_material](imagens/materiais/ue4_material_properties_blend_mode_translucent.jpg)  
 
-
-## 3. Editor de materiais;
 ## 4. Material Instance;
 ## 5. Materiais e Blueprint;
 ## 6. Material Function;
@@ -151,3 +177,6 @@ Interpola Linearmente entre A e B com base em Alfa (100% de A quando Alfa = 0 e 
 - [Material Expression Reference](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/ExpressionReference/index.html)
 - [Coordinates Expressions](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/ExpressionReference/Coordinates/index.html)
 - [Math Expressions](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/ExpressionReference/Math/index.html#power)
+- [1.10 - World Position Offset](https://docs.unrealengine.com/en-US/Resources/ContentExamples/MaterialNodes/1_10/index.html)
+- [1.9 - Normal](https://docs.unrealengine.com/en-US/Resources/ContentExamples/MaterialNodes/1_9/index.html)
+- [Material Blend Modes](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/index.html)
