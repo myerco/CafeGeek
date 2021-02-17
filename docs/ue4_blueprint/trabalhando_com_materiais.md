@@ -53,27 +53,27 @@ Abaixo citamos os mais importantes atributos dos materiais.
 
 1. O nó principal e suas propriedades.
 
-  ![ue4_menu_material](imagens/materiais/ue4_material_no_principal.jpg)
+  ![ue4_material_no_principal](imagens/materiais/ue4_material_no_principal.jpg)
 
 <a name="4"></a>
 ## 4. Valores que determinam a física
 - Constant 1
 
-  ![ue4_menu_material](imagens/materiais/ue4_material_no_constant_1.jpg)
+  ![ue4_material_no_constant_1](imagens/materiais/ue4_material_no_constant_1.jpg)
 
 - Constant 2
 
-  ![ue4_menu_material](imagens/materiais/ue4_material_no_constant_2.jpg)
+  ![ue4_material_no_constant_2](imagens/materiais/ue4_material_no_constant_2.jpg)
 
 - Constant 3
 
-  ![ue4_menu_material](imagens/materiais/ue4_material_no_constant_3.jpg)
+  ![ue4_material_no_constant_3](imagens/materiais/ue4_material_no_constant_3.jpg)
 
 
 <a name="5"></a>
 ## 5. Texture samples
 
-![ue4_menu_material](imagens/materiais/ue4_material_no_texture_sample.jpg)
+![ue4_material_no_texture_sample](imagens/materiais/ue4_material_no_texture_sample.jpg)
 
 ## Texturas
 - Tamanhos :
@@ -89,7 +89,7 @@ Os nós de Expressão de Material contêm pequenos fragmentos de código HLSL qu
 ### 6.1 Conectando material Expressions
 Abaixo um exemplo de conexão.
 
-![ue4_menu_material](imagens/materiais/ue4_material_base_conexao.jpg)
+![ue4_material_base_conexao](imagens/materiais/ue4_material_base_conexao.jpg)
 
   - Botão direito do mouse em qualquer área de trabalho (RMB) abre a lista de nós disponíveis.
   - É possível fazer a busca de nós na aba **Palette** e arrastar com o mouse na área de trabalho.
@@ -102,7 +102,7 @@ A área de trabalho é um modelo de programação visual que permite combinar va
 M_Base =  ( TexturaSample( panner(TexCoord(),0.1,0) ) * Vetor3(0.0664,0.0366,0.401));
 ```
 **Gráfico de nós**
-![ue4_menu_material](imagens/materiais/ue4_material_conexao_expression.jpg)
+![ue4_material_conexao_expression](imagens/materiais/ue4_material_conexao_expression.jpg)
 
 - **Panner** - Produz coordenadas de textura UV que podem ser usadas para criar texturas panorâmicas ou móveis.
 - **Multiply** - Pega duas entradas, multiplica-as juntas e produz o resultado. Quando você passa valores de cor como entrada, os resultados são semelhantes aos resultados do modo de mesclagem de camada Multiply no Photoshop.   
@@ -112,22 +112,22 @@ Ambas as entradas devem ter o mesmo número de valores, a menos que um dos valor
 
 ### 6.2 Exemplo do nó Lerp
 Interpola Linearmente entre A e B com base em Alfa (100% de A quando Alfa = 0 e 100% de B quando Alfa = 1)
-![ue4_menu_material](imagens/materiais/ue4_material_lerp_exemplo.jpg)
+![ue4_material_lerp_exemplo](imagens/materiais/ue4_material_lerp_exemplo.jpg)
 
 ## 7. Texturas
-![ue4_menu_material](imagens/materiais/ue4_material_base_conexao_textura.jpg)
+![ue4_material_base_conexao_textura](imagens/materiais/ue4_material_base_conexao_textura.jpg)
 
 ### 7.1 Roughness - rugosidade
-![ue4_menu_material](imagens/materiais/ue4_material_roughness_exemplo.jpg)
+![ue4_material_roughness_exemplo](imagens/materiais/ue4_material_roughness_exemplo.jpg)
 
 ### 7.2 Normal - Coordenadas normals
-![ue4_menu_material](imagens/materiais/ue4_material_normal_exemplo.jpg)
+![ue4_material_normal_exemplo](imagens/materiais/ue4_material_normal_exemplo.jpg)
 
 ### 7.3 Metallic - Metálica
-![ue4_menu_material](imagens/materiais/ue4_material_metallic_exemplo.jpg)
+![ue4_material_metallic_exemplo](imagens/materiais/ue4_material_metallic_exemplo.jpg)
 
 ## 8. Aplicando o material no objeto
-![ue4_menu_material](imagens/materiais/ue4_material_aplicando_mesh.jpg)
+![ue4_material_aplicando_mesh](imagens/materiais/ue4_material_aplicando_mesh.jpg)
 
 ## 8. Material Inputs
 Nem todas as entradas serão úteis para cada tipo de material que você criar. Por exemplo, ao desenvolver uma Função de Luz - um Material que é aplicado a uma luz - você só pode usar a entrada Cor Emissiva no material e nada mais, visto que outras entradas, como Metálico ou Aspereza, não seriam aplicáveis. Por isso, é importante saber que tipo de material você está criando antes de começar a se preocupar muito com as entradas. As três propriedades de controle primárias são:
@@ -136,35 +136,73 @@ Nem todas as entradas serão úteis para cada tipo de material que você criar. 
 - Shading Model - define como a luz é calculada para a superfície do material.
 - Material Domain - controla como o material deve ser usado, por exemplo, se ele deve fazer parte de uma superfície, uma função leve ou um material pós-processamento.
 
-  ![ue4_menu_material](imagens/materiais/ue4_material_type_input.jpg)
+  ![ue4_material_type_input](imagens/materiais/ue4_material_type_input.jpg)
 
 ### 8.1 Inputs
 - **Base Color** - A Cor Base define a cor geral do Material, obtendo um valor Vector3 (RGB) em que cada canal é automaticamente fixado entre 0 e 1.
 - **Normal maps** - A entrada Normal leva em um mapa normal, que é usado para fornecer detalhes físicos significativos para a superfície, perturbando o "normal", ou direção de frente, de cada pixel individual.
 - **Emissive** - Dá aos artistas uma maneira muito barata e eficaz de dar a ilusão de que um Material está lançando luz quando na verdade não está. Os materiais emissivos fazem isso permitindo que o artista empurre os valores da entrada emissiva acima de 1,0, o que empurrará o material para a faixa HDR, emitindo um efeito Bloom que você pode ver ao olhar para uma fonte de luz muito brilhante.   
-![ue4_menu_material](imagens/materiais/ue4_material_emissive.jpg)
+![ue4_material_emissive](imagens/materiais/ue4_material_emissive.jpg)
 
 - **World position Offset** - Permite que os vértices de uma malha sejam manipulados no espaço do mundo pelo Material. Isso é útil para fazer objetos se moverem, mudarem de forma, girarem e uma variedade de outros efeitos. Isso é útil para coisas como animação ambiente.
-![ue4_menu_material](imagens/materiais/ue4_material_world_position_offset.jpg)
+![ue4_material_world_position_offset](imagens/materiais/ue4_material_world_position_offset.jpg)
 Os valores do nó Constant Vector 3, representam as coordenadas de posição do mundo (x,y,z) respectivamente.
 
   Exemplo:    
 
-  ![ue4_menu_material](imagens/materiais/ue4_material_world_position_offset_exemplo.jpg)
+  ![ue4_material_world_position_offset_exemplo](imagens/materiais/ue4_material_world_position_offset_exemplo.jpg)
 
 
 ## 9. Material propriedades
 - **Unlit Shading Model** - Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais como fogo ou iluminação de objetos. Observe que, neste exemplo, o Material não está projetando luz na cena. Em vez disso, seu alto valor Emissivo resulta em um efeito de brilho, que também é captado pela Máscara de Sujeira aplicada à câmera. Parece iluminar, mas nenhuma luz ou sombra será projetada por este objeto.
 
-  ![ue4_menu_material](imagens/materiais/ue4_material_properties_unlit.jpg)
+  ![ue4_material_properties_unlit](imagens/materiais/ue4_material_properties_unlit.jpg)
+
+  ![ue4_material_properties_blend_mode_unlit_result](imagens/materiais/ue4_material_properties_blend_mode_unlit_result.jpg)
 
 - **Masked Blend Mode** - É usado para objetos nos quais você precisa controlar seletivamente a visibilidade de forma binária (liga / desliga). Por exemplo, considere um material que simula uma cerca de arame ou grade. Você terá algumas áreas que parecem sólidas, enquanto outras são invisíveis. Esses materiais são perfeitos para o modo de mesclagem mascarada.     
-  ![ue4_menu_material](imagens/materiais/ue4_material_properties_blend_mode_masked.jpg)
+  ![ue4_material_properties_blend_mode_masked](imagens/materiais/ue4_material_properties_blend_mode_masked.jpg)
+
+  ![ue4_material_properties_blend_mode_masked_result](imagens/materiais/ue4_material_properties_blend_mode_masked_result.jpg)
 
 - **Translucent Blend Mode** - É usado para objetos que requerem alguma forma de transparência.
-  ![ue4_menu_material](imagens/materiais/ue4_material_properties_blend_mode_translucent.jpg)  
+  ![ue4_material_properties_blend_mode_translucent_result](imagens/materiais/ue4_material_properties_blend_mode_translucent.jpg)  
+
+Resultado
+
+  ![ue4_material_properties_blend_mode_translucent_result](imagens/materiais/ue4_material_properties_blend_mode_translucent_result.jpg)  
 
 ## 4. Material Instance;
+A Instanciação de Material é uma maneira de criar um Material pai, que pode então ser usado como base para fazer uma ampla variedade de Materiais filhos de aparência diferente. Para obter essa flexibilidade, o Material Instancing usa um conceito chamado herança: as propriedades do pai são fornecidas aos seus filhos. Aqui está um exemplo de herança de material em ação.
+
+### 4.1 Preparando o Material
+1. Criamos uma copia de M_Base com o nome M_Base_parametros.
+1. Convertemos os nós em parâmetros para que possam ser manipulados posteriormente pelo material instance.    
+![ue4_material_no_convert_parameter](imagens/materiais/ue4_material_no_convert_parameter.jpg)  
+1. Definimos os seguintes atributos nos parâmetros:
+  - **Parameter name** - Escolha um nome para o parâmetro que representa o input do material.
+  - **Group** - Usado para agrupar os parâmetros por um determinado valor ou tema.
+
+### 4.1 Criando material instance
+Selecione o material M_Base ou outro material e com o botão direito acione o menu de contexto e escolha **Create Material Instance**.     
+
+![ue4_material_create_material_instance](imagens/materiais/ue4_material_create_material_instance.jpg)  
+
+### 4.2 Editor de material Instance
+
+![ue4_material_instance_editor](imagens/materiais/ue4_material_instance_editor.jpg)  
+
+- **Details** - Propriedades
+- **Basico** - Grupo definido nos parâmetros dentro do material pai.
+- **Color, Metallic, Roughness, Specular** - Parâmetros criados dentro do material pai. Podem ser alterados e até salvos.
+- **Parent** - Material pai.
+
+### 4.3 Parâmetros
+
+
+
+
+
 ## 5. Materiais e Blueprint;
 ## 6. Material Function;
 
@@ -180,3 +218,4 @@ Os valores do nó Constant Vector 3, representam as coordenadas de posição do 
 - [1.10 - World Position Offset](https://docs.unrealengine.com/en-US/Resources/ContentExamples/MaterialNodes/1_10/index.html)
 - [1.9 - Normal](https://docs.unrealengine.com/en-US/Resources/ContentExamples/MaterialNodes/1_9/index.html)
 - [Material Blend Modes](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/index.html)
+- [Creating and Using Material Instances](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/HowTo/Instancing/index.html)
