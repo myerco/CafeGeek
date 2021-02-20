@@ -101,6 +101,9 @@ A área de trabalho é um modelo de programação visual que permite combinar va
 ```c++
 M_Base =  ( TexturaSample( panner(TexCoord(),0.1,0) ) * Vetor3(0.0664,0.0366,0.401));
 ```
+> **Atenção**
+devemos considerar o tipo de valor de retorno do nó no momento da conexão para evitar erros de tipos conflitantes, por exemplo float3 * float2.
+
 **Gráfico de nós**
 ![ue4_material_conexao_expression](imagens/materiais/ue4_material_conexao_expression.jpg)
 
@@ -173,7 +176,7 @@ Resultado
   ![ue4_material_properties_blend_mode_translucent_result](imagens/materiais/ue4_material_properties_blend_mode_translucent_result.jpg)  
 
 ## 4. Material Instance;
-A Instanciação de Material é uma maneira de criar um Material pai, que pode então ser usado como base para fazer uma ampla variedade de Materiais filhos de aparência diferente. Para obter essa flexibilidade, o Material Instancing usa um conceito chamado herança: as propriedades do pai são fornecidas aos seus filhos. Aqui está um exemplo de herança de material em ação.
+A *Mateial Instance* ou Instanciação de Material é uma maneira de criar um Material pai, que pode então ser usado como base para fazer uma ampla variedade de Materiais filhos de aparência diferente. Para obter essa flexibilidade, o *Material Instancing* usa um conceito chamado herança: as propriedades do pai são fornecidas aos seus filhos. Aqui está um exemplo de herança de material em ação.
 
 ### 4.1 Preparando o Material
 1. Criamos uma copia de M_Base com o nome M_Base_parametros.
@@ -182,6 +185,13 @@ A Instanciação de Material é uma maneira de criar um Material pai, que pode e
 1. Definimos os seguintes atributos nos parâmetros:
   - **Parameter name** - Escolha um nome para o parâmetro que representa o input do material.
   - **Group** - Usado para agrupar os parâmetros por um determinado valor ou tema.
+    Sugestão de grupos:
+      - Texture Parameter Values.
+        - Diffuse,NormalMap, Rough Texture
+      - Scalar Parameter Values.
+        - Metallic, Roughness
+      - Vector Parameter Values.
+        - Color (R,G,B,A), UVTiling(R,G,B,A)
 
 ### 4.1 Criando material instance
 Selecione o material M_Base ou outro material e com o botão direito acione o menu de contexto e escolha **Create Material Instance**.     
@@ -199,11 +209,15 @@ Selecione o material M_Base ou outro material e com o botão direito acione o me
 
 ### 4.3 Parâmetros
 
+## 5. Materiais e Blueprint
+- Create material instance->Set Texture Parameter Value
+![ue4_material_bp_create_material_instance_set](imagens/materiais/ue4_material_bp_create_material_instance_set.jpg)
+
+- No Level Blueprint implemente a lógica para chamar o Evento **MudaCorEvento**.
+
+  ![ue4_material_bp_level_blueprint_call_event](imagens/materiais/ue4_material_bp_level_blueprint_call_event.jpg)
 
 
-
-
-## 5. Materiais e Blueprint;
 ## 6. Material Function;
 
 ***
