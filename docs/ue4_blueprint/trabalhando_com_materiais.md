@@ -217,8 +217,18 @@ Selecione o material M_Base ou outro material e com o botão direito acione o me
 
   ![ue4_material_bp_level_blueprint_call_event](imagens/materiais/ue4_material_bp_level_blueprint_call_event.jpg)
 
+## 6. Parameter Global
+Podemos definir parâmetros globais para os materiais possam referenciar parâmetros escalares e vetoriais.
+> É uma ferramenta poderosa que os artistas podem usar para obter dados globais em muitos materiais de uma só vez. Ele também pode ser usado para gerar efeitos por nível, como quantidade de neve, quantidade de destruição, umidade, etc., que, de outra forma, exigiria a configuração de valores de parâmetros individuais em muitas instâncias de materiais diferentes em seu nível.
+
+->Material Parameter->GetCollectionParameter
+![MatPC](https://docs.unrealengine.com/Images/RenderingAndGraphics/Materials/ParameterCollections/MatPC.webp)
 
 ## 6. Material Function;
+**Mateial Functions** ou Funções de material são pequenos fragmentos de códigos gráficos de material que podem ser salvos em pacotes e reutilizados em vários materiais, em outras palavras são funções de programação. Seu objetivo é agilizar o processo de criação de material, dando acesso instantâneo a redes comumente usadas de nós materiais.    
+São compostas basicamente por entradas de parâmetros e saída de dados.
+Input Parameter -> Output Result
+
 
 ***
 
@@ -233,3 +243,5 @@ Selecione o material M_Base ou outro material e com o botão direito acione o me
 - [1.9 - Normal](https://docs.unrealengine.com/en-US/Resources/ContentExamples/MaterialNodes/1_9/index.html)
 - [Material Blend Modes](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/index.html)
 - [Creating and Using Material Instances](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/HowTo/Instancing/index.html)
+- [Material Parameter Collections](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/ParameterCollections/index.html)
+- [Material Parameter Collections](https://www.unrealengine.com/en-US/blog/material-parameter-collections)
