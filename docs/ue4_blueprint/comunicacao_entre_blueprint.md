@@ -11,8 +11,6 @@ Neste capítulo será apresentadas técnicas de programação para comunicação
 ## Índice
 1. [Como facilitar a comunicação entre objetos Blueprint? ](#1)  
 1. [Estrutura da comunicação entre Blueprints](#2)
-    1. [A comunicação sempre exigirá uma referência em algum ponto](#2.1)          
-    1. [Toda a comunicação do Blueprint é unilateral](#2.2)      
 1. [Preparando o ambiente de testes ](#3)  
 1. [Comunicação utilizando Acesso direto](#4)  
     1. [Chamando a função LampadaVisible](#4.1)  
@@ -37,22 +35,20 @@ Construindo um meio para que objetos individuais separados interagirem uns com o
   - Estado.    
   - Valores de propriedade.    
   - Valores variáveis.   
-  - Resultados.    
+  - Resultados.   
 
 <a name="2"></a>  
 ## 2. Estrutura da comunicação entre Blueprints
+![blueprint_comunicacao_entre_atores](imagens/comunicacao/blueprint_comunicacao_entre_atores.jpg)
+
 A comunicação envolverá o seguinte:
 - Um projeto de envio, um remetente de informações.
 - Pelo menos um **Receiving Blueprint** para receber as informações.
-
-<a name="2.1"></a>    
-### 2.1 A comunicação exigirá uma referência em algum ponto
-- Em outras palavras, uma das partes, o remetente ou o receptor,  deve tomar conhecimento da outra, isso ocorre porque, como afirmado acima, não existe um sistema de comunicação de amplo espectro.
-
-<a name="2.2"></a>    
-### 2.2 Toda a comunicação do Blueprint é unilateral
-- **Blueprints** podem enviar dados para frente e para trás, mas requer que ambos os **Blueprints** configurem seus próprios caminhos individuais de comunicação.
-- As consultas são possíveis, mas são iniciadas pelo remetente (ainda unidirecional).   
+- A comunicação exigirá uma referência em algum ponto.    
+  - Em outras palavras, uma das partes, o remetente ou o receptor,  deve tomar conhecimento da outra, isso ocorre porque, como afirmado acima, não existe um sistema de comunicação de amplo espectro.
+- Toda a comunicação do **Blueprint** é unilateral
+  - **Blueprints** podem enviar dados para frente e para trás, mas requer que ambos os **Blueprints** configurem seus próprios caminhos individuais de comunicação.
+  - As consultas são possíveis, mas são iniciadas pelo remetente (ainda unidirecional).   
 
 <a name="3"></a>
 ## 3. Preparando o ambiente de testes
@@ -75,7 +71,9 @@ Nesta passo iremos acessar diretamente o objeto e suas propriedades, usando o ev
 <a name="4.1"></a>
 ### 4.1 Chamando a função LampadaVisible
 Criando um referência do objeto é possível acessar a função **LampadaVisible**.
+
 ![blueprint_light_overlap](imagens/comunicacao/blueprint_light_overlap.jpg)   
+
 Quando qualquer objeto colidir com o *ControleLuz* a lâmpada ira desligar ou ligar.   
 
 <a name="5"></a>
@@ -102,13 +100,15 @@ Para este passo usaremos o evento **OnEndOverlap** para ler todos os objetos que
 <a name="6.1"></a>
 ### 6.1 Menu Blueprint/Blueprint Interface
 Implemente um **Blueprint interface** Utilizando o menu de contexto.
+
 ![blueprint_context_menu_interface](imagens/comunicacao/blueprint_context_menu_interface.jpg)    
-  1. Nome do objeto *BPI_Colecionaveis*
-  1. Adicione uma função *Nome*
+1. Nome do objeto *BPI_Colecionaveis*
+1. Adicione uma função *Nome*
 
 <a name="6.2"></a>
 ### 6.2 Editor de Blueprint Interface
-Perceba que o objeto não tem lógica pois neste caso o objeto funciona como uma ponte para eventos em outros objetos que deverão ter sua própria lógica.   
+Perceba que o objeto não tem lógica pois neste caso o objeto funciona como uma ponte para eventos em outros objetos que deverão ter sua própria lógica.
+
 ![blueprint_editor_interface](imagens/comunicacao/blueprint_editor_interface.jpg)      
 
 <a name="6.3"></a>
@@ -125,6 +125,7 @@ Perceba que o objeto não tem lógica pois neste caso o objeto funciona como uma
 <a name="6.4"></a>
 ### 6.4 Interface com parâmetros.
 1. Implemente a função *ExecutaAcao* com parâmetro *Acao* do tipo **string**, usaremos esse parâmetro para determinar ações que o objeto pode executar.       
+
 ![blueprint_interface_with_parameter](imagens/comunicacao/blueprint_interface_with_parameter.jpg)   
 1. Ao chamar a função é fornecido um valor.   
 ![blueprint_interface_example_call](imagens/comunicacao/blueprint_interface_example_call.jpg)     
