@@ -42,11 +42,11 @@ Construindo um meio para que objetos individuais separados interagirem uns com o
 ![blueprint_comunicacao_entre_atores](imagens/comunicacao/blueprint_comunicacao_entre_atores.jpg)
 
 A comunicação envolverá o seguinte:
-- Um projeto de envio, um remetente de informações.
-- Pelo menos um **Receiving Blueprint** para receber as informações.
+- Um projeto de envio, um remetente de informações (Emissor).
+- Pelo menos um **Receiving Blueprint** para receber as informações (Receptor).
 - A comunicação exigirá uma referência em algum ponto.    
-  - Em outras palavras, uma das partes, o remetente ou o receptor,  deve tomar conhecimento da outra, isso ocorre porque, como afirmado acima, não existe um sistema de comunicação de amplo espectro.
-- Toda a comunicação do **Blueprint** é unilateral
+  Em outras palavras, uma das partes, o remetente ou o receptor,  deve tomar conhecimento da outra, isso ocorre porque, como afirmado acima, não existe um sistema de comunicação de amplo espectro.
+- Toda a comunicação do **Blueprint** é unilateral.
   - **Blueprints** podem enviar dados para frente e para trás, mas requer que ambos os **Blueprints** configurem seus próprios caminhos individuais de comunicação.
   - As consultas são possíveis, mas são iniciadas pelo remetente (ainda unidirecional).   
 
@@ -102,8 +102,8 @@ Para este passo usaremos o evento **OnEndOverlap** para ler todos os objetos que
 Implemente um **Blueprint interface** Utilizando o menu de contexto.
 
 ![blueprint_context_menu_interface](imagens/comunicacao/blueprint_context_menu_interface.jpg)    
-1. Nome do objeto *BPI_Colecionaveis*
-1. Adicione uma função *Nome*
+1. Nome do objeto *BPI_Colecionaveis*.
+1. Adicione uma função *Nome*.
 
 <a name="6.2"></a>
 ### 6.2 Editor de Blueprint Interface
@@ -125,7 +125,6 @@ Perceba que o objeto não tem lógica pois neste caso o objeto funciona como uma
 <a name="6.4"></a>
 ### 6.4 Interface com parâmetros.
 1. Implemente a função *ExecutaAcao* com parâmetro *Acao* do tipo **string**, usaremos esse parâmetro para determinar ações que o objeto pode executar.       
-
 ![blueprint_interface_with_parameter](imagens/comunicacao/blueprint_interface_with_parameter.jpg)   
 1. Ao chamar a função é fornecido um valor.   
 ![blueprint_interface_example_call](imagens/comunicacao/blueprint_interface_example_call.jpg)     

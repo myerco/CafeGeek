@@ -55,7 +55,7 @@ Frame: Um quadro ou imagem apresentada, uma animação é composta por vários f
 
 <a name="2"></a>
 ## 2. Lista de comandos do console
-1. Devems habilitar o console de comandos para verificar e alterar o *FPS* do jogo utilizando o Menu **Editor preferences->Open**.   
+1. Devemos habilitar o console de comandos para verificar e alterar o *FPS* do jogo utilizando o Menu **Editor preferences->Open**.   
 ![blueprint_console_settings](imagens/tempoespaco/blueprint_console_settings.jpg)
 1. Presionando a tecla  **´** , configurada anteriormente, o editor de comandos aparece na tela.
 1. Apresenta o valor de FPS.
@@ -70,7 +70,7 @@ t.MaxFPS 100
 ```bash
 stat unit
 ```
-1. Comando->stat game.
+1. Fornece feedback sobre quanto tempo os vários *Ticks* de jogo estão demorando.
 ```bash
 stat game
 ```
@@ -88,6 +88,7 @@ Por exemplo, seu peão tem uma velocidade máxima de 100. Se um segundo tivesse 
 |100  | 10 | 10 | 60 | 0,166 | 1,6 |
 |100  | 10 | 10 | 30 | 0,333 | 3 |
 |100  | 10 | 10 | 20 | 0,5 | 5 |
+
 Delta seconds = Intervalo entre os quadros.
 
 
@@ -109,15 +110,13 @@ Podemos fixar o *FPS* do projeto utilizando o menu **Project settings->Use fixed
 ## 4. Timeline
 Os nós da linha de tempo são nós especiais dentro de Blueprints que permitem que uma animação simples baseada em tempo seja projetada e reproduzida rapidamente com base em eventos no jogo. As linhas do tempo são como sequências de matinê simples, pois permitem que valores simples sejam animados e que eventos sejam disparados ao longo do tempo. Eles podem ser editados diretamente dentro do editor Blueprint clicando duas vezes na Linha de tempo na guia Gráfico ou na guia Meu Blueprint. Eles são especificamente construídos para lidar com tarefas simples e não cinematográficas, como abrir portas, alterar luzes ou executar outras manipulações centradas no tempo para atores em uma cena.
 
-<a name="41"></a>
+<a name="4.1"></a>
 ### 4.1 Utilizando variáveis no Timeline
 Para este exemplo vamos utilizar um objeto *Lampada* do tipo **Light Component**  para apresentar a estrutura de nó *TratamentoLuz* do tipo **TimeLine**.
 
-1. Lógica do tratamento de luz.
+1. Lógica do tratamento de luz.   
   ![blueprint_timeline_emitter](imagens/tempoespaco/blueprint_timeline_emitter.jpg)
-
 1. Variáveis do objeto **TimeLine**.    
-
   ![blueprint_timeline_variables](imagens/tempoespaco/blueprint_timeline_variables.jpg)
   - FloatVariavel - Controla a intensidade da luz durante o tempo 1.   
   ![blueprint_timeline_float](imagens/tempoespaco/blueprint_timeline_float.jpg)
@@ -128,11 +127,11 @@ Para este exemplo vamos utilizar um objeto *Lampada* do tipo **Light Component**
   - EventoVariavel - Dispara um evento no tempo 2,4 e 6.   
   ![blueprint_timeline_event](imagens/tempoespaco/blueprint_timeline_event.jpg)
 
-<a name="42"></a>
+<a name="4.2"></a>
 ### 4.2 Acionando o evento para alterar a iluminação
 ![blueprint_timeline_call_event](imagens/tempoespaco/blueprint_timeline_call_event.jpg)
 
-<a name="43"></a>
+<a name="4.3"></a>
 ### 4.3 Funções Blueprint para tratamento
 - **SetLooping**
 - **SetTimeLength**
@@ -149,32 +148,32 @@ Para este exemplo vamos utilizar um objeto *Lampada* do tipo **Light Component**
 ## 5 Abrindo portas deslizando
 Neste exemplo vamos implementar um movimento no eixo Y de abertura de uma porta.
 
-1. Adicionando o elemento Movimentando **timeline** e alerando a posição do objeto.
+1. Adicionando o elemento Movimentando **timeline** e alerando a posição do objeto.   
 ![blueprint_timeline_movement](imagens/tempoespaco/blueprint_timeline_movement.jpg)
-1. *Movimentando* utiliza a variável Movimento do tipo *Vector*. Somente o valor de Y é alterado.
+1. *Movimentando* utiliza a variável Movimento do tipo *Vector*. Somente o valor de Y é alterado.   
 ![blueprint_timeline_movement_vector](imagens/tempoespaco/blueprint_timeline_movement_vector.jpg)
-1. Salvamos a posição inicial do objeto.
+1. Salvamos a posição inicial do objeto.    
 ![blueprint_timeline_save_pos](imagens/tempoespaco/blueprint_timeline_save_pos.jpg)
 
 <a name="6"></a>
 ## 6 Abrindo portas girando
 Neste exemplo vamos implementar um movimento no eixo Z, girando e abrindo a porta.
-1. Utilizamos a função **MakeRotator**.
+1. Utilizamos a função **MakeRotator**.   
 ![blueprint_timeline_makerotator](imagens/tempoespaco/blueprint_timeline_makerotator.jpg)
-1. Movimentando utiliza a variável *Angulo* do tipo *Vector*.
+1. Movimentando utiliza a variável *Angulo* do tipo *Vector*.   
 ![blueprint_timeline_vector_angle](imagens/tempoespaco/blueprint_timeline_vector_angle.jpg)
-1. Acionando a porta.
-![](imagens/tempoespaco/blueprint_timeline_open_door.jpg)
+1. Acionando a porta.   
+![blueprint_timeline_open_door](imagens/tempoespaco/blueprint_timeline_open_door.jpg)
 
 <a name="7"></a>
 ## 7. Curves
 Podemos criar um tipo de objeto **Curve** para que possamos utilizar em vários Blueprints.
 
-1. Miscelanios->Curve.
+1. Miscelanios->Curve.    
 ![blueprint_menu_curve](imagens/tempoespaco/blueprint_menu_curve.jpg)
-1. Objeto C_TempoPorta.   
+1. Objeto C_TempoPorta.       
 ![blueprint_icon_curve](imagens/tempoespaco/blueprint_icon_curve.jpg)
-1. Associando o objeto **C_TempoPorta** a **Movimentando**.
+1. Associando o objeto **C_TempoPorta** a **Movimentando**.   
 ![blueprint_timeline_curve](imagens/tempoespaco/blueprint_timeline_curve.jpg)
 
 - **SetVectorCurve**
@@ -301,7 +300,7 @@ Usaremos várias funções para demonstrar como verificar a direção que o ator
 
 <a name="9.8"></a>
 ### 9.8 Acompanhando o movimento de um objeto.
-Usaremos a função **FindLookAtRotation**. No exemplo o **Cubo3** vai apontar a face para
+Usaremos a função **FindLookAtRotation**. No exemplo o **Cubo3** vai apontar para a face.      
 ![blueprint_find_look_rotation](imagens/tempoespaco/blueprint_find_look_rotation.jpg)
 - Personagem é do tipo **Character**.
 
@@ -314,6 +313,7 @@ Usaremos a função **FindLookAtRotation**. No exemplo o **Cubo3** vai apontar a
 - [fps vs capacidade humana](http://teclab.net.br/fps-vs-capacidade-humana/)
 -[Timelines](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Timelines/index.html)
 -[Vectors and Unity](http://staffwww.fullcoll.edu/dcraig/csharp/Vectors%20and%20Unity.pdf)
+-[Stat Commands](https://docs.unrealengine.com/en-US/TestingAndOptimization/PerformanceAndProfiling/StatCommands/index.html)
 
 ***
 ## Tags
