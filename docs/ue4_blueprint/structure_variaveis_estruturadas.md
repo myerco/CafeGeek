@@ -10,21 +10,21 @@ tags: [Unreal Engine,Structure]
 
 ## Índice
 1. [O que são variáveis do tipo Structure?](#1)
-    1. [Structure e Class](#11)
+    1. [Structure e Class](#1.1)
 1. [Criando variáveis do tipo Structure com Blueprint](#2)
-    1. [Menu Blueprints->Structure](#21)
-    1. [Definindo variáveis dentro da estrutura](#22)
+    1. [Menu Blueprints->Structure](#2.1)
+    1. [Definindo variáveis dentro da estrutura](#2.2)
 1. [Apresentado variáveis](#3)    
-1. [Exemplo](#4)    
-    1. [Criando a objeto SControleLuzes](#41)
-    1. [Lógica para construir os elementos na cena](#42)
+1. [Exemplo do uso de variáveis Structure](#4)    
+    1. [Criando a objeto SControleLuzes](#4.1)
+    1. [Lógica para construir os elementos na cena](#4.2)
 
 <a name="1"></a>
 ## 1. O que são variáveis do tipo Structure?
 **Structure**, são estruturas de dados também conhecidas como **registros**, permitem que um usuário combine itens de dados de (possivelmente) diferentes tipos de dados sob um único nome. Em outras palavras, é uma variável que contém outros variáveis de diferentes tipos.  
 Podem ser utilizadas para definir propriedades de um elemento do jogo como por exemplo os personagens.
 
-<a name="11"></a>
+<a name="1.1"></a>
 ## 1.1 Structure e Class
 Em **C++**, uma estrutura é realmente a mesma coisa que uma **Class**, exceto por algumas diferenças sintáticas.  
 Por exemplo, **Structs** em **C++** padronizam suas variáveis de membro como públicas por padrão, enquanto as classes têm variáveis privadas por padrão.
@@ -82,13 +82,13 @@ private:
 ## 2. Criando variáveis do tipo Structure com Blueprint
 Para este exemplo vamos criar o objeto *SJogador* do tipo **Structure**.
 
-<a name="21"></a>
+<a name="2.1"></a>
 ## 2.1 Menu Blueprints->Structure
-![](../imagens/estruturas/blueprint_menu_structure.jpg)
+![blueprint_menu_structure](imagens/estruturas/blueprint_menu_structure.jpg)
 
-<a name="22"></a>
+<a name="2.2"></a>
 ## 2.2 Definindo variáveis dentro da estrutura
-![](../imagens/estruturas/blueprint_variable.jpg)
+![blueprint_variable](imagens/estruturas/blueprint_variable.jpg)
 1. Nome do tipo **Name** - Armazena o nome do jogador
 1. Vida do tipo **Float** - Total de vida do jogador.
 1. Forca do tipo **Float** - Total de força do jogador.
@@ -99,33 +99,32 @@ Para este exemplo vamos criar o objeto *SJogador* do tipo **Structure**.
 <a name="3"></a>
 ## 3. Apresentado variáveis  
 Para acessar as variáveis que estão dentro da objeto do tipo **Structure** vamos utilizar **Break Structure**.  
-![](../imagens/estruturas/blueprint_break_structure.jpg)
+![blueprint_break_structure](imagens/estruturas/blueprint_break_structure.jpg)
 
 <a name="4"></a>
-## 4. Exemplo
+## 4. Exemplo do uso de variáveis Structure
 Vamos utilizar uma *Array* de objetos do tipo **Point Light Component** para que possam ser adicionados na cena no momento de construção do objeto.
 
-<a name="41"></a>
+<a name="4.1"></a>
 ### 4.1 Criando o objeto *SControleLuzes*
-![](../imagens/estruturas/blueprint_variable_2.jpg)  
+![blueprint_variable_2](imagens/estruturas/blueprint_variable_2.jpg)  
 1. **Luzes** - *Array* de tipo **Point Light Component**
 1. **ControLuzes** - *Array* de tipo **SControleLuzes**
 
-<a name="42"></a>
+<a name="4.2"></a>
 ### 4.2 Lógica para construir os elementos na cena
-1. Na construção do objeto (*Construction Script*) adicionamos elementos *Point light component* na cena e logo em seguida no array *Luzes*.    
-![](../imagens/estruturas/blueprint_loop_array_structures.jpg)  
-
-1. Ao terminar o primeiro *loop* reconstruímos o array de controle *ControLuzes* e o percorremos em conjunto com o array *luzes* para configurar as propriedades dos elementos.  
-![](../imagens/estruturas/blueprint_loop_set_struct.jpg)  
+1. Na construção do objeto (*Construction Script*) adicionamos elementos **Point light component** na cena e logo em seguida no array *Luzes*.    
+![blueprint_loop_array_structures](imagens/estruturas/blueprint_loop_array_structures.jpg)  
+1. Ao terminar o primeiro *loop* reconstruímos o *array* de controle *ControLuzes* e o percorremos em conjunto com o array *luzes* para configurar as propriedades dos elementos.  
+![blueprint_loop_set_struct](imagens/estruturas/blueprint_loop_set_struct.jpg)  
 
 ***
-
 ## Referências
 - [Struct Variables in Blueprints](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Variables/Structs/index.html)
 - [How to use Structs in Unreal Engine 4](https://couchlearn.com/how-to-use-structs-in-unreal-engine-4/)
 - [Using structs in Blueprints ](https://romeroblueprints.blogspot.com/2015/08/using-structs-in-blueprints.html)
 - [Unreal Engine 4 em Português - Estrutura - Olha Que Fácil #47](https://www.youtube.com/watch?v=IWAhdY6Vlzo)
+
 ***
 ## Tags
 [Blueprint](https://myerco.github.io/CafeGeek/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/CafeGeek/)

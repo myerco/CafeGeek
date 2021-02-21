@@ -13,24 +13,26 @@ Apresentaremos também como funciona o sistema de coordenadas dos objetos.
 1. [O que é Delta time?](#1)
 1. [Lista de comandos do console](#2)
 1. [Delta seconds](#3)
-    1. [Tabela de velocidade](#31)
-    1. [Utilizando o Delta seconds](#32)
-    1. [Fixando o FPS do projeto](#33)
+    1. [Tabela de velocidade](#3.1)
+    1. [Utilizando o Delta seconds](#3.2)
+    1. [Fixando o FPS do projeto](#3.3)
 1. [Timeline](#4)
-    1. [Utilizando variáveis no Timeline](#41)
-    1. [Acionando o evento para alterar a iluminação](#42)
-    1. [Funções Blueprint para tratamento](#43)
+    1. [Utilizando variáveis no Timeline](#4.1)
+    1. [Acionando o evento para alterar a iluminação](#4.2)
+    1. [Funções Blueprint para tratamento](#4.3)
 1. [Abrindo portas deslizando](#5)
 1. [Abrindo portas girando](#6)
 1. [Curves](#7)   
 1. [Velocidade](#8)
 1. [Sistema de coordenadas](#9)  
-    1. [Plano Cartesiano](#91)  
-    1. [Posição dos elementos](#92)  
-    1. [Magnitude](#93)  
-    1. [Normalização](#94)
-    1. [Calculando distância](#95)
-    1. [Verificando para onde o ator está apontando](#95)
+    1. [Plano Cartesiano](#9.1)  
+    1. [Posição dos elementos](#9.2)  
+    1. [Movimento no sistema coordenadas X,Y](#9.3)
+    1. [Magnitude](#9.4)  
+    1. [Normalização](#9.5)
+    1. [Calculando distância](#9.6)
+    1. [Verificando para onde o ator está apontando](#9.7)
+    1. [Acompanhando o movimento de um objeto.](#9.8)    
 
 <a name="1"></a>
 ## 1. O que é Delta Time?
@@ -297,7 +299,7 @@ Usaremos várias funções para demonstrar como verificar a direção que o ator
 
 ![blueprint_forward_up_right_vector](imagens/tempoespaco/blueprint_forward_up_right_vector.jpg)
 
-<a name="98"></a>
+<a name="9.8"></a>
 ### 9.8 Acompanhando o movimento de um objeto.
 Usaremos a função **FindLookAtRotation**. No exemplo o **Cubo3** vai apontar a face para
 ![blueprint_find_look_rotation](imagens/tempoespaco/blueprint_find_look_rotation.jpg)
