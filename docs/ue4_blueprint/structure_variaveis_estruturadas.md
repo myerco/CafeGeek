@@ -25,7 +25,7 @@ tags: [Unreal Engine,Structure]
 Podem ser utilizadas para definir propriedades de um elemento do jogo como por exemplo os personagens.
 
 <a name="1.1"></a>
-## 1.1 Structure e Class
+### 1.1 Structure e Class
 Em **C++**, uma estrutura é realmente a mesma coisa que uma **Class**, exceto por algumas diferenças sintáticas.  
 Por exemplo, **Structs** em **C++** padronizam suas variáveis de membro como públicas por padrão, enquanto as classes têm variáveis privadas por padrão.
 
@@ -83,11 +83,11 @@ private:
 Para este exemplo vamos criar o objeto *SJogador* do tipo **Structure**.
 
 <a name="2.1"></a>
-## 2.1 Menu Blueprints->Structure
+### 2.1 Menu Blueprints->Structure
 ![blueprint_menu_structure](imagens/estruturas/blueprint_menu_structure.jpg)
 
 <a name="2.2"></a>
-## 2.2 Definindo variáveis dentro da estrutura
+### 2.2 Definindo variáveis dentro da estrutura
 ![blueprint_variable](imagens/estruturas/blueprint_variable.jpg)
 1. Nome do tipo **Name** - Armazena o nome do jogador
 1. Vida do tipo **Float** - Total de vida do jogador.
