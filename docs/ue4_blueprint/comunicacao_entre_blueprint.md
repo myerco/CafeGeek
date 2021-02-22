@@ -5,6 +5,10 @@ tags: [Unreal Engine,blueprint,comunicação,blueprint interfaces]
 ---
 [CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
+Comunicação entre Blueprints | Comunicação utilizando Acesso direto| 02 | Unreal Engine
+Comunicação entre Blueprints | Usando Cast| 03 | Unreal Engine
+Comunicação entre Blueprints | Utilizando o objeto Blueprint Interface| 04 | Unreal Enginca
+
 # Comunicação entre Blueprint
 Neste capítulo será apresentadas técnicas de programação para comunicação entre Blueprints.
 
@@ -14,16 +18,20 @@ Neste capítulo será apresentadas técnicas de programação para comunicação
 1. [Preparando o ambiente de testes ](#3)  
 1. [Comunicação utilizando Acesso direto](#4)  
     1. [Chamando a função LampadaVisible](#4.1)  
+    1. [Vídeo](#4.2)  
 1. [Utilizando CAST](#5)      
     1. [Cast do objeto PointLight](#5.1)  
+    1. [Vídeo](#5.2)  
 1. [Utilizando o objeto Blueprint Interface](#6)  
     1. [Menu Blueprint/Blueprint Interface](#6.1)  
     1. [Editor de Blueprint Interface](#6.2)  
     1. [Implementando o objeto com a interface](#6.3)      
     1. [Interface com parâmetros](#6.4)          
+    1. [Vídeo](#6.5)  
 1. [Event Dispatcher](#7)  
     1. [O Character BP_Hero será o emissor dos eventos](#7.1)          
-    1. [Lógica dos objetos que vão interagir com o personagem](#7.2)              
+    1. [Lógica dos objetos que vão interagir com o personagem](#7.2)
+    1. [Vídeo](#7.3)               
 
 <a name="1"></a>
 ## 1. Como facilitar a comunicação entre objetos Blueprint?
@@ -76,6 +84,10 @@ Criando um referência do objeto é possível acessar a função **LampadaVisibl
 
 Quando qualquer objeto colidir com o *ControleLuz* a lâmpada ira desligar ou ligar.   
 
+<a name="4.2"></a>
+### 4.2 Vídeo
+[![Comunicação entre Blueprints | Comunicação utilizando Acesso direto| 02 | Unreal Engine](http://img.youtube.com/vi/td6_Nm2tYfc/0.jpg)](https://youtu.be/td6_Nm2tYfc)
+
 <a name="5"></a>
 ## 5. Utilizando CAST
 **CAST** ou conversão é um operador especial que força um tipo de dados a ser convertido em outro.
@@ -93,6 +105,10 @@ Para este passo usaremos o evento **OnEndOverlap** para ler todos os objetos que
 ![blueprint_light_cast_tag](imagens/comunicacao/blueprint_light_cast_tag.jpg)      
 - **GetAllActorWithTag** - Retorna um array com todos os objetos da cena com a **tag** passada como parâmetro, no caso *Lampada*.
 
+<a name="5.2"></a>
+### 5.2 Vídeo
+[![Comunicação entre Blueprints | Usando Cast| 03 | Unreal Engine](http://img.youtube.com/vi/VT6uob6UiSQ/0.jpg)](https://youtu.be/VT6uob6UiSQ)
+
 <a name="6"></a>
 ## 6. Utilizando o objeto Blueprint Interface
 **Blueprint interface** permite que vários tipos diferentes de objetos compartilhem e sejam acessados através de uma interface comum. Simplificando, as **Blueprint interfaces** permitem que diferentes **Blueprints** compartilhem e enviem dados entre si.
@@ -103,13 +119,14 @@ Implemente um **Blueprint interface** Utilizando o menu de contexto.
 
 ![blueprint_context_menu_interface](imagens/comunicacao/blueprint_context_menu_interface.jpg)    
 1. Nome do objeto *BPI_Colecionaveis*.
-1. Adicione uma função *Nome*.
 
 <a name="6.2"></a>
 ### 6.2 Editor de Blueprint Interface
 Perceba que o objeto não tem lógica pois neste caso o objeto funciona como uma ponte para eventos em outros objetos que deverão ter sua própria lógica.
 
 ![blueprint_editor_interface](imagens/comunicacao/blueprint_editor_interface.jpg)      
+
+1. Adicione uma função *Nome*.
 
 <a name="6.3"></a>
 ### 6.3 Implementando o objeto com a interface
@@ -119,8 +136,10 @@ Perceba que o objeto não tem lógica pois neste caso o objeto funciona como uma
 1. Uma vez a interface configurada as funções de  *BPI_Colecionaveis* ficarão disponíveis através de eventos.   
   ![blueprint_inteface_function](imagens/comunicacao/blueprint_inteface_function.jpg)     
 1. Adicione no **Character** jogável *BP_Hero* e implemente a lógica abaixo.   
-1. A função *Nome* da interface ficará disponível para ser chamada.     
   ![blueprint_inteface_tracebychannel](imagens/comunicacao/blueprint_inteface_tracebychannel.jpg)     
+  - **RaioSegurar** - Raio da esfera que é disparada.
+  - **DistanciaSegurar** - Distância do raio disparado.
+  - **Nome** - A função *Nome* da interface ficará disponível para ser chamada.     
 
 <a name="6.4"></a>
 ### 6.4 Interface com parâmetros.
@@ -131,7 +150,11 @@ Perceba que o objeto não tem lógica pois neste caso o objeto funciona como uma
 1. Implemente a lógica de tratamento do parâmetro dentro do objeto cadeira ou mesa.        
 ![blueprint_interface_example_event](imagens/comunicacao/blueprint_interface_example_event.jpg)  
 
-> Podemos melhorar o controle utilizando uma variável **enumeration** para parametrizar as ações.   
+> Podemos melhorar o controle utilizando uma variável **enumeration** para parametrizar as ações.  
+
+<a name="6.5"></a>
+### 6.5 Vídeo
+[![Comunicação entre Blueprints | Utilizando o objeto Blueprint Interface| 04 | Unreal Engine](http://img.youtube.com/vi/ugqPc5-YQV4/0.jpg)](https://youtu.be/ugqPc5-YQV4)
 
 <a name="7"></a>
 ## 7. Event Dispatcher
@@ -139,8 +162,8 @@ Vinculando um ou mais eventos a um **Event Dispatcher**, você pode fazer com qu
 
 <a name="7.1"></a>
 ### 7.1 O Character *BP_Hero* será o emissor dos eventos
-1. Adicionamos **EventDispatcher**
-1. No **Event Graph** implementados a chamada do evento utilizando **Call** (Call nome do evento)
+1. Adicionamos **EventDispatcher**.
+1. No **Event Graph** implementados a chamada do evento utilizando **Call** (Call nome do evento).     
 ![blueprint_call_dispatchers](imagens/comunicacao/blueprint_call_dispatchers.jpg)    
 
 <a name="7.2"></a>
@@ -148,7 +171,11 @@ Vinculando um ou mais eventos a um **Event Dispatcher**, você pode fazer com qu
 1. Adicionamos referência ao personagem usando *cast* para ter acesso ao evento registrado no dispatcher.     
 ![blueprint_dispatchers_bind](imagens/comunicacao/blueprint_dispatchers_bind.jpg)      
 1. Implementamos **Bind Event** do disptacher para  associar um evento a chamada.     
-![blueprint_add_impulse_example](imagens/comunicacao/blueprint_add_impulse_example.jpg)        
+![blueprint_add_impulse_example](imagens/comunicacao/blueprint_add_impulse_example.jpg)
+
+<a name="7.3"></a>
+### 7.3 Vídeo
+[![Comunicação entre Blueprints | Event Dispatcher| 05 | Unreal Engine](http://img.youtube.com/vi/bmxFZH3hFxc/0.jpg)](https://youtu.be/bmxFZH3hFxc)       
 
 ***
 ## Referências

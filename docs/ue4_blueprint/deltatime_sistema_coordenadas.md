@@ -82,6 +82,7 @@ Por exemplo, seu peão tem uma velocidade máxima de 100. Se um segundo tivesse 
 
 <a name="3.1"></a>
 ### 3.1 Tabela de velocidade
+
 |Distância  | Velocidade | Distância/Velocidade |  FPS | Delta Seconds | Y |
 |:-:|-|-|-|-|-|
 |100  | 10 | 10 | 100 | 0,1 | 1 |
