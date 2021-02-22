@@ -60,7 +60,7 @@ Frame: Um quadro ou imagem apresentada, uma animação é composta por vários f
 1. Presionando a tecla  **´** , configurada anteriormente, o editor de comandos aparece na tela.
 1. Apresenta o valor de FPS.
 ```bash
-stat ftps
+stat fps
 ```
 1. Altera o valor de FPS para 100.
 ```bash
@@ -98,7 +98,7 @@ Delta seconds = Intervalo entre os quadros.
 Vamos controlar o movimento do objeto independente do *FPS*.  
 
 ![bluprint_delta_seconds](imagens/tempoespaco/bluprint_delta_seconds.jpg)
-- **Distancia** - Valor = 100
+- **Distancia** - Valor = 1000
 - **Velocidade** - Valor = 10
 - O resultado esperado é que mesmo com um *FPS* baixo o movimento ainda se mantenha uniforme.
 
