@@ -16,10 +16,12 @@ Apresentaremos também como funciona o sistema de coordenadas dos objetos.
     1. [Tabela de velocidade](#3.1)
     1. [Utilizando o Delta seconds](#3.2)
     1. [Fixando o FPS do projeto](#3.3)
+    1. [Vídeo](#3.4)
 1. [Timeline](#4)
     1. [Utilizando variáveis no Timeline](#4.1)
     1. [Acionando o evento para alterar a iluminação](#4.2)
     1. [Funções Blueprint para tratamento](#4.3)
+    1. [Vídeo](#4.4)
 1. [Abrindo portas deslizando](#5)
 1. [Abrindo portas girando](#6)
 1. [Curves](#7)   
@@ -102,10 +104,15 @@ Vamos controlar o movimento do objeto independente do *FPS*.
 - **Velocidade** - Valor = 10
 - O resultado esperado é que mesmo com um *FPS* baixo o movimento ainda se mantenha uniforme.
 
-<a name="33"></a>
+<a name="3.3"></a>
 ### 3.3 Fixando o *FPS* do projeto
 Podemos fixar o *FPS* do projeto utilizando o menu **Project settings->Use fixed frame rate**.  
 ![blueprint_fixed_frame_rate](imagens/tempoespaco/blueprint_fixed_frame_rate.jpg)
+
+<a name="3.4"></a>
+### 3.4 Vídeo
+[![Delta time e sistema de coordenadas  | Utilizando o Delta seconds 02  | Unreal Engine](http://img.youtube.com/vi/gQdT8rah4CU/0.jpg)](https://youtu.be/gQdT8rah4CU)
+
 
 <a name="4"></a>
 ## 4. Timeline
@@ -115,17 +122,24 @@ Os nós da linha de tempo são nós especiais dentro de Blueprints que permitem 
 ### 4.1 Utilizando variáveis no Timeline
 Para este exemplo vamos utilizar um objeto *Lampada* do tipo **Light Component**  para apresentar a estrutura de nó *TratamentoLuz* do tipo **TimeLine**.
 
-1. Lógica do tratamento de luz.   
+1. Criamos o objeto *BP_ControleLuz* do tipo **Box Trigger**.     
+
+  ![blueprint_timeline_boxcollision](imagens/tempoespaco/blueprint_timeline_boxcollision.jpg)
+1. Em *BP_ControleLuz* adicionamos a variável *Lampada* do tipo **PointLight** e a configuramos como publica.
+1. Adicionamos na cena um componente **PointLight**.
+1. Adicionamos o BP_ControleLuz na cena e associamos o objeto **PointLight** na propriedade *Lampada*.
+![blueprint_timeline_boxcollision_with_point_light](imagens/tempoespaco/blueprint_timeline_boxcollision_with_point_light.jpg)
+1. Em *BP_ControleLuz* adicionamos a lógica do tratamento de luz.   
   ![blueprint_timeline_emitter](imagens/tempoespaco/blueprint_timeline_emitter.jpg)
 1. Variáveis do objeto **TimeLine**.    
   ![blueprint_timeline_variables](imagens/tempoespaco/blueprint_timeline_variables.jpg)
-  - FloatVariavel - Controla a intensidade da luz durante o tempo 1.   
+  - **FloatVariavel** - Controla a intensidade da luz durante o tempo 1.   
   ![blueprint_timeline_float](imagens/tempoespaco/blueprint_timeline_float.jpg)
-  - Vetorvariavel - Altera o valor das coordenadas durante o tempo 4s.    
+  - **Vetorvariavel** - Altera o valor das coordenadas durante o tempo 4.    
   ![blueprint_timeline_vector](imagens/tempoespaco/blueprint_timeline_vector.jpg)  
-  - CorVariavel - Altera as cores da luz conforme o tempo passa.  
+  - **CorVariavel** - Altera as cores da luz conforme o tempo passa.  
   ![blueprint_timeline_color](imagens/tempoespaco/blueprint_timeline_color.jpg)  
-  - EventoVariavel - Dispara um evento no tempo 2,4 e 6.   
+  - **EventoVariavel** - Dispara um evento no tempo 2,4 e 6.   
   ![blueprint_timeline_event](imagens/tempoespaco/blueprint_timeline_event.jpg)
 
 <a name="4.2"></a>
@@ -145,8 +159,13 @@ Para este exemplo vamos utilizar um objeto *Lampada* do tipo **Light Component**
 - **ClearAndInvalidateTimerByHandle**
 - **SetTimerbyFunction**
 
+<a name="4.4"></a>
+### 4.4 Vídeo
+[![Delta time e sistema de coordenadas | TimeLine 03 |  Unreal Engine](http://img.youtube.com/vi/iHgMjw-JCFI/0.jpg)](https://youtu.be/iHgMjw-JCFI)
+
+
 <a name="5"></a>
-## 5 Abrindo portas deslizando
+## 5. Abrindo portas deslizando
 Neste exemplo vamos implementar um movimento no eixo Y de abertura de uma porta.
 
 1. Adicionando o elemento Movimentando **timeline** e alerando a posição do objeto.   
@@ -157,7 +176,7 @@ Neste exemplo vamos implementar um movimento no eixo Y de abertura de uma porta.
 ![blueprint_timeline_save_pos](imagens/tempoespaco/blueprint_timeline_save_pos.jpg)
 
 <a name="6"></a>
-## 6 Abrindo portas girando
+## 6. Abrindo portas girando
 Neste exemplo vamos implementar um movimento no eixo Z, girando e abrindo a porta.
 1. Utilizamos a função **MakeRotator**.   
 ![blueprint_timeline_makerotator](imagens/tempoespaco/blueprint_timeline_makerotator.jpg)

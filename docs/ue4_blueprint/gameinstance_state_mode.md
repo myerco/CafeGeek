@@ -7,21 +7,21 @@ tags: [Unreal Engine,game mode,game instance,game state]
 [CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
 # Game Instance, Game State e Game Mode
-Na estrutura da **Unreal Engine** existem classes para controlar regras do jogo (**GameMode**) e o personagem bem como classes com visibilidade global (**GameInstance**), neste capítulo iremos apresentar estas classes e suas funcionalidades.
+Na estrutura do **Unreal Engine** existem classes para controlar regras do jogo (**GameMode**) e o personagem bem como classes com visibilidade global (**GameInstance**), neste capítulo iremos apresentar estas classes e suas funcionalidades.
 
 ## Índice
 1. [A organização de classes do Framework](#1)
 1. [Como funciona Game Mode e Game State?](#2)
 1. [Implementando o GameMode](#3)
-    1. [Criando o GameMode](#31)
-    1. [GameMode por Level em Word Settings](#32)
-    1. [GameMode para o projeto inteiro](#33)
+    1. [Criando o GameMode](#3.1)
+    1. [GameMode por Level em Word Settings](#3.2)
+    1. [GameMode para o projeto inteiro](#3.3)
 1. [O que é PlayerController?](#4)
-    1. [PlayerController vs PlayerCharacter](#41)
+    1. [PlayerController vs PlayerCharacter](#4.1)
 1. [GameInstance](#5)    
-    1. [Criando GameInstance](#51)
-    1. [Adicionando um evento dentro da GameInstance](#52)    
-    1. [Chamando a GameInstance para acessar os seus elementos](#53)   
+    1. [Criando GameInstance](#5.1)
+    1. [Adicionando um evento dentro da GameInstance](#5.2)    
+    1. [Chamando a GameInstance para acessar os seus elementos](#5.3)   
 
 <a name="1"></a>
 ## 1. A organização de classes do Framework
@@ -46,38 +46,38 @@ Jogadores humanos que entram no jogo são associados a PlayerControllers. Esses 
 
 <a name="3"></a>
 ## 3. Implementando o GameMode
-Existem duas formas de informar qual GameMode a jogo deve utilizar, por *Level* e projeto.
+Existem duas formas de informar qual **GameMode** o jogo deve utilizar, por *Level* ou projeto.
 
-<a name="21"></a>
+<a name="3.1"></a>
 ### 3.1 Criando o GameMode
 Utilizando o menu de contexto escolhemos **Game Mode Base**.
-![](../imagens/gamemode/blueprint_gamemode_create.jpg)
+![blueprint_gamemode_create](imagens/gamemode/blueprint_gamemode_create.jpg)
 
-<a name="32"></a>
+<a name="3.2"></a>
 ### 3.2 GameMode por Level em Word Settings
- ![](../imagens/gamemode/blueprint_word_settigns_gamemode.jpg)
+ ![blueprint_word_settigns_gamemode](imagens/gamemode/blueprint_word_settigns_gamemode.jpg)
  - **BP_Hero** - Objeto do tipo **Character**.
  - **BP_PlayerController** - Objeto do tipo **PlayerController**
 
-<a name="33"></a>
+<a name="3.3"></a>
 ### 3.3 GameMode para o projeto inteiro
-Utilizamos o Menu **Project/Maps & Modes**.  
-![](../imagens/gamemode/blueprint_project_mapsmodes.jpg)
+Utilizamos o Menu **Project/Maps & Modes**.     
+
+![blueprint_project_mapsmodes](imagens/gamemode/blueprint_project_mapsmodes.jpg)
 
 <a name="4"></a>
 ## 4. O que é PlayerController?
 Um **PlayerController** é a interface entre o **Pawn** e o jogador humano que o controla. O **PlayerController** representa essencialmente a vontade do jogador humano é definido por *Level*.
 
-<a name="41"></a>
+<a name="4.1"></a>
 ### 4.1 PlayerController vs  PlayerCharacter
-Se você deseja implementar alguma funcionalidade de entrada complexa (por exemplo, se houver vários jogadores em um cliente de jogo ou houver uma necessidade de alterar os personagens dinamicamente em tempo de execução), é melhor (e às vezes necessário) usar PlayerController. Neste caso, o PlayerController lida com a entrada e emite comandos para o Pawn.
+Se você deseja implementar alguma funcionalidade de entrada complexa (por exemplo, se houver vários jogadores em um cliente de jogo ou houver uma necessidade de alterar os personagens dinamicamente em tempo de execução), é melhor (e às vezes necessário) usar **PlayerController**. Neste caso, o **PlayerController** lida com a entrada e emite comandos para o Pawn.
 
 Por exemplo, em jogos *deathmatch*, o **Pawn** pode mudar durante o jogo, mas o **PlayerController** geralmente permanece o mesmo.
 
-A classe **Character** representa o jogador no mundo do jogo. Ele fornece funcionalidade para animação, colisão, movimento e rede básica e modos de entrada. Portanto, se sua entrada não for complicada e não houver necessidade de alterar o caractere dinamicamente em tempo de execução, a classe de caractere é mais adequada. Por exemplo, você pode usá-lo no jogo de tiro em primeira pessoa para um único jogador.  
-![](../imagens/gamemode/blueprint_playercontroller_character.jpg)
+A classe **Character** representa o jogador no mundo do jogo. Ele fornece funcionalidade para animação, colisão, movimento e rede básica e modos de entrada. Portanto, se sua entrada não for complicada e não houver necessidade de alterar o caractere dinamicamente em tempo de execução, a classe de caractere é mais adequada. Por exemplo, você pode usá-lo no jogo de tiro em primeira pessoa para um único jogador.     
+![blueprint_playercontroller_character](imagens/gamemode/blueprint_playercontroller_character.jpg)
 - **GetPlayerController** - As coordenadas apresentadas no nó **Print String** serão as coordenadas iniciais do **Pawn**.
-
 - **GetPlayerCharacter** - As coordenadas apresentadas no nó **Print String** variam conforme a movimentação do **Pawn**.
 
 <a name="5"></a>
@@ -88,27 +88,27 @@ Tem seu próprio **Event Graph** para permitir desenvolvimento.
 >**Então, para que GameInstance?**
 >Para compartilhar variáveis, eventos e funções por todos os levels possibilitando uma programação mais otimizada evitando retrabalho.
 
-<a name="51"></a>
+<a name="5.1"></a>
 ### 5.1 Criando GameInstance
 Utilizando o menu de contexto escolhemos Bluprint Class e logo em seguida procuramos a classe GameInstance básica.   
-![](../imagens/gamemode/blueprint_gameinstance_classe.jpg)
+![blueprint_gameinstance_classe](imagens/gamemode/blueprint_gameinstance_classe.jpg)
 
-<a name="51"></a>
+<a name="5.2"></a>
 ### 5.2 Adicionando um evento dentro da GameInstance
-Como explicado anteriormente, os eventos e objetos ficaram disponíveis para o projeto. Para este exemplo vamos utilizar um evento customizado **Add Custom Event** no **Event Graph** da **GameInstance**.  
-![](../imagens/gamemode/blueprint_gameinstance_events.jpg)
+Como explicado anteriormente, os eventos e objetos ficaram disponíveis para o projeto. Para este exemplo vamos utilizar um evento customizado **Add Custom Event** no **Event Graph** da **GameInstance**.    
+![blueprint_gameinstance_events](imagens/gamemode/blueprint_gameinstance_events.jpg)
 
 Vamos adicionar uma variável para exemplificar.   
-![](../imagens/gamemode/blueprint_gameinstance_variable.jpg)
+![blueprint_gameinstance_variable](imagens/gamemode/blueprint_gameinstance_variable.jpg)
 
 <a name="53"></a>
 ### 5.3 Chamando a GameInstance para acessar os seus elementos
 Para este exemplo criamos um Level Vazio e no **Open Level Blueprint** vamos executar a chamada da **GameInstance**.
 
-1. Antes de executar a chamada da **GameInstance** dentro dos objetos é necessário informar para o projeto qual a **GameInstance** padrão.    
-![](../imagens/gamemode/blueprint_gameinstance_project.jpg)
+1. Antes de executar a chamada da **GameInstance** dentro dos objetos é necessário informar para o projeto qual a **GameInstance** padrão.        
+![blueprint_gameinstance_project](imagens/gamemode/blueprint_gameinstance_project.jpg)
 1. Logo após podemos utilizar a função **GetGameInstance** que retorna a **GameInstance** definida anteriormente para o projeto.   
-![](../imagens/gamemode/blueprint_gameinstance_cast.jpg)
+![blueprint_gameinstance_cast](imagens/gamemode/blueprint_gameinstance_cast.jpg)
 
 
 ***
