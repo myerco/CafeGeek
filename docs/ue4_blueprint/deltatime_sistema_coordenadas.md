@@ -161,7 +161,7 @@ Para este exemplo vamos utilizar um objeto *Lampada* do tipo **Light Component**
 
 <a name="4.4"></a>
 ### 4.4 Vídeo
-[![Delta time e sistema de coordenadas | TimeLine 03 |  Unreal Engine](http://img.youtube.com/vi/iHgMjw-JCFI/0.jpg)](https://youtu.be/iHgMjw-JCFI)
+[![Delta time e sistema de coordenadas | TimeLine 03 |  Unreal Engine](http://img.youtube.com/vi/FDceWxRs0oM/0.jpg)](https://youtu.be/FDceWxRs0oM)
 
 
 <a name="5"></a>
