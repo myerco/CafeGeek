@@ -123,12 +123,11 @@ Os nós da linha de tempo são nós especiais dentro de Blueprints que permitem 
 Para este exemplo vamos utilizar um objeto *Lampada* do tipo **Light Component**  para apresentar a estrutura de nó *TratamentoLuz* do tipo **TimeLine**.
 
 1. Criamos o objeto *BP_ControleLuz* do tipo **Box Trigger**.     
-
   ![blueprint_timeline_boxcollision](imagens/tempoespaco/blueprint_timeline_boxcollision.jpg)
 1. Em *BP_ControleLuz* adicionamos a variável *Lampada* do tipo **PointLight** e a configuramos como publica.
 1. Adicionamos na cena um componente **PointLight**.
-1. Adicionamos o BP_ControleLuz na cena e associamos o objeto **PointLight** na propriedade *Lampada*.
-![blueprint_timeline_boxcollision_with_point_light](imagens/tempoespaco/blueprint_timeline_boxcollision_with_point_light.jpg)
+1. Adicionamos o BP_ControleLuz na cena e associamos o objeto **PointLight** na propriedade *Lampada*.    
+  ![blueprint_timeline_boxcollision_with_point_light](imagens/tempoespaco/blueprint_timeline_boxcollision_with_point_light.jpg)
 1. Em *BP_ControleLuz* adicionamos a lógica do tratamento de luz.   
   ![blueprint_timeline_emitter](imagens/tempoespaco/blueprint_timeline_emitter.jpg)
 1. Variáveis do objeto **TimeLine**.    
@@ -161,7 +160,10 @@ Para este exemplo vamos utilizar um objeto *Lampada* do tipo **Light Component**
 
 <a name="4.4"></a>
 ### 4.4 Vídeo
-[![Delta time e sistema de coordenadas | TimeLine 03 |  Unreal Engine](http://img.youtube.com/vi/FDceWxRs0oM/0.jpg)](https://youtu.be/FDceWxRs0oM)
+[![Delta time e sistema de coordenadas  | Timeline  03  Float | Unreal Engine](http://img.youtube.com/vi/qOUYp-XWUtw/0.jpg)](https://youtu.be/qOUYp-XWUtw)
+[![Delta time e sistema de coordenadas  | Timeline  04  Color | Unreal Engine](http://img.youtube.com/vi/EJQwXxjiS58/0.jpg)](https://youtu.be/EJQwXxjiS58)
+[![Delta time e sistema de coordenadas  | Timeline  05 Event | Unreal Engine](http://img.youtube.com/vi/YkvP6tMMly0/0.jpg)](https://youtu.be/YkvP6tMMly0)
+[![Delta time e sistema de coordenadas  | Timeline  06  Vector | Unreal Engine](http://img.youtube.com/vi/w5VpoM95B-Q/0.jpg)](https://youtu.be/w5VpoM95B-Q)
 
 
 <a name="5"></a>
