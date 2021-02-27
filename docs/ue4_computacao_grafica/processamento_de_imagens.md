@@ -14,11 +14,11 @@ Neste capitulo vamos analisar como é realizado o processamento de imagens pela 
 <a name="1"></a>
 ## 1. Processo de renderização
 
-|  Threads|  | |  ||
+|  Threads| 1 | 2| 3 |4|
 |:-|-|-|-||
-| **CPU** | <span style="color:blue">Frame A</span> | Frame B  | Frame C | Frame D|
-| **DRAW CPU** |  | <span style="color:blue">Frame A</span> | Frame B  | Frame C|
-| **GPU** |  |  | <span style="color:blue">Frame A</span> | Frame B|
+| **CPU** | <span style="color:blue">Frame A</span> |  <span style="color:red">Frame B</span>  | Frame C | Frame D|
+| **DRAW CPU** |  | <span style="color:blue">Frame A</span> |  <span style="color:red">Frame B</span>  | Frame C|
+| **GPU** |  |  | <span style="color:blue">Frame A</span> | <span style="color:red"> Frame B</span>|
 | **Time** | **0** | **33** | **66** | |
 
 **Time in miliseconds**
@@ -26,36 +26,43 @@ Neste capitulo vamos analisar como é realizado o processamento de imagens pela 
 
 <a name="2"></a>
 ## 2. Processamento do Frame 0 - Time 0 - CPU
-Calculo de toda a lógica e as transformações
-
-1. Animações - Calcula quando as Animações iniciam e terminam.
-1. Posição de modelos e objetos - Necessário para calcular a posição que influência.
-1. Física - Calculo para determinar onde os objetos vão.
-1. Inteligência Artificial.
-1. Cria e destrói, esconde e apresenta - Necessário para determinar onde os objetos aparecem no mundo.
-
+Calculo de toda a lógica e as transformações:
 > Qualquer coisa relativa a mudança e posição dos objetos.
 
-**Resultado o UE4 conhece todas as transformações e todos os objetos**
+1. **Animações** - Calcula quando as Animações iniciam e terminam.
+1. **Posição de modelos e objetos** - Necessário para calcular a posição e sua influência.
+1. **Física** - Calculo para determinar onde os objetos vão.
+1. **Inteligência Artificial** - Por exemplo, em um veículo controlado por IA é necessário determinar, como ele se movimenta,  como o estado e onde o carro estará realmente.
+1. **Cria e destrói, esconde e apresenta** - Necessário para determinar onde os objetos aparecem no mundo.
+
+
+
+**Resultado:** o UE4 conhece todas as transformações e todos os objetos.
 
 <a name="3"></a>
 ## 3. Processamento do Frame 1 - Time 33ms - Preparar a Thread
-Antes de podermos usar as transformações para renderizar a imagem, precisamos saber o que incluir na renderização.    
-Isso é executado principalmente na CPU, mas algumas partes são manipuladas pela GPU.    
-Processo de oclusão - Construção de lista de todos os objetos e modelos visíveis.
-Processamento por objeto e não por polígono.
+Antes de podermos usar as transformações para renderizar a imagem, precisamos saber o que incluir na renderização, isso é executado principalmente na CPU, mas algumas partes são manipuladas pela GPU, para tal finalidade é realizada a tarefa :        
+- Processo de oclusão - Construção de lista de todos os objetos e modelos visíveis.
+> O Processamento é realizado por objeto e não por polígono.
 
-A seguir as 4 Etapas em ordem de execução
+A seguir as 4 Etapas em ordem de execução desse processo.
+
+1. **Distance Culling** - Remove quaisquer objetos além de X da câmera.
+1. **Frustim Culling** - Verifica o que está na frente da câmera.
+1. **Precomputed Visibility** -
+1. **Occlusion Culling**
 
 <a name="3.1"></a>
 ### 3.1 Distance Culling
-Cull Distance Volumes usa uma matriz de distâncias e tamanhos para definir se um ator é renderizado ou não quando dentro do volume. Este método de seleção é ideal para grandes níveis externos, onde você teria edifícios ou estruturas de algum tipo com interiores detalhados, onde você gostaria de selecionar aqueles objetos que são pequenos demais para considerar importantes a distâncias distantes.
+**Cull Distance Volumes** usa uma matriz de distâncias e tamanhos para definir se um ator é renderizado ou não quando dentro do volume. Este método de seleção é ideal para grandes níveis externos, onde você teria edifícios ou estruturas de algum tipo com interiores detalhados, onde você gostaria de selecionar aqueles objetos que são pequenos demais para considerar importantes a distâncias distantes.
 
 - A seleção de distância remove quaisquer objetos além de X da câmera
 ![](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/PerActorDistanceCullingSettings.webp)
 
-  1. Configurar CulDistanceVolume
-  1. Configurar o objeto
+  1. Configurar **Cull Distance Volume**.
+    Place Actors->Volumes.
+  1. Configurar o objeto.
+    Alterar as dimensões do objeto para definir a área de corte.
 
 <a name="3.2"></a>  
 ### 3.2 Frustim Culling
@@ -64,6 +71,15 @@ A seleção de View Frustum usa a área visível da tela do campo de visão (FOV
   1. O plano de recorte próximo é o ponto mais próximo da câmera em que os objetos ficarão visíveis.
   1. A Camera Frustum é a representação em formato piramidal da área de visualização visível entre os planos de clipe próximo e distante.
   1. O plano de recorte distante é o ponto mais distante da câmera em que os objetos serão visíveis.
+
+- Os objetos fora do campo de visão da câmera (o tronco de visão) não são visíveis e podem ser selecionados (objetos delineados em vermelho).
+![TopdownSceneView](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/SceneView_ViewFrustumCulled.webp)
+
+- Objetos selecionados fora do tronco de visão da câmera não são mais renderizados, deixando apenas um punhado de objetos dentro desta visão que são obstruídos por outro objeto que precisa ser verificado para visibilidade. Portanto, durante essa passagem, uma consulta será enviada à GPU para testar o estado de visibilidade de cada um desses objetos. Aqueles que são ocluídos por outro são retirados da vista (objetos delineados em azul).   
+![SceneView_OccludedObjectsRemoved](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/SceneView_OccludedObjectsRemoved.webp)
+
+- Todos os objetos que estão fora do tronco da vista ou que estão ocluídos são agora eliminados da vista. A vista final da cena agora corresponde aos objetos que sabemos serem visíveis na cena a partir da posição da câmera.
+![Vis_FinalSceneView](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/Vis_FinalSceneView.webp)
 
 <a name="3.3"></a>    
 ### 3.3 Precomputed Visibility
