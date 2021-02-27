@@ -35,8 +35,6 @@ Calculo de toda a lógica e as transformações:
 1. **Inteligência Artificial** - Por exemplo, em um veículo controlado por IA é necessário determinar, como ele se movimenta,  como o estado e onde o carro estará realmente.
 1. **Cria e destrói, esconde e apresenta** - Necessário para determinar onde os objetos aparecem no mundo.
 
-
-
 **Resultado:** o UE4 conhece todas as transformações e todos os objetos.
 
 <a name="3"></a>
@@ -49,8 +47,8 @@ A seguir as 4 Etapas em ordem de execução desse processo.
 
 1. **Distance Culling** - Remove quaisquer objetos além de X da câmera.
 1. **Frustim Culling** - Verifica o que está na frente da câmera.
-1. **Precomputed Visibility** -
-1. **Occlusion Culling**
+1. **Precomputed Visibility** - (Visibilidade pré-computada) Divide a cena em uma grade, cada célula da grade lembra o que está visível naquele local
+1. **Occlusion Culling** - Verifica com precisão o estado de visibilidade em cada modelo.   
 
 <a name="3.1"></a>
 ### 3.1 Distance Culling
@@ -59,14 +57,16 @@ A seguir as 4 Etapas em ordem de execução desse processo.
 - A seleção de distância remove quaisquer objetos além de X da câmera
 ![](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/PerActorDistanceCullingSettings.webp)
 
-  1. Configurar **Cull Distance Volume**.
+  1. Configurar **Cull Distance Volume**.     
+
     Place Actors->Volumes.
-  1. Configurar o objeto.
+  1. Configurar o objeto.     
+
     Alterar as dimensões do objeto para definir a área de corte.
 
 <a name="3.2"></a>  
 ### 3.2 Frustim Culling
-A seleção de View Frustum usa a área visível da tela do campo de visão (FOV) da câmera para selecionar objetos fora deste espaço. O tronco da visão é uma forma piramidal que inclui um plano de recorte próximo e distante que define o mais próximo e o mais distante que qualquer objeto deve ser visível dentro deste espaço. Todos os outros objetos são removidos para economizar tempo de processamento.
+A seleção de **View Frustum** usa a área visível da tela do campo de visão (FOV) da câmera para selecionar objetos fora deste espaço. O tronco da visão é uma forma piramidal que inclui um plano de recorte próximo e distante que define o mais próximo e o mais distante que qualquer objeto deve ser visível dentro deste espaço. Todos os outros objetos são removidos para economizar tempo de processamento.
 ![View Frustum](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/ViewFrustumDiagram.webp)
   1. O plano de recorte próximo é o ponto mais próximo da câmera em que os objetos ficarão visíveis.
   1. A Camera Frustum é a representação em formato piramidal da área de visualização visível entre os planos de clipe próximo e distante.
@@ -83,24 +83,47 @@ A seleção de View Frustum usa a área visível da tela do campo de visão (FOV
 
 <a name="3.3"></a>    
 ### 3.3 Precomputed Visibility
-Volumes de visibilidade pré-computados armazenam o estado de visibilidade de atores não móveis em células colocadas acima de superfícies de projeção de sombras. Este método de seleção gera dados de visibilidade offline (durante uma construção de iluminação) e funciona melhor para níveis de tamanho pequeno a médio. A visibilidade pré-computada é ideal para hardware inferior e dispositivos móveis. Para tais hardwares e dispositivos, ao considerar os custos de desempenho, você obterá o máximo negociando custos de thread de renderização que são mais caros por aqueles com memória de tempo de execução, onde há mais flexibilidade em relação ao desempenho.
+Volumes de visibilidade pré-computados armazenam o estado de visibilidade de atores não móveis em células colocadas acima de superfícies de projeção de sombras. Este método de seleção gera dados de visibilidade offline (durante uma construção de iluminação) e funciona melhor para níveis de tamanho pequeno a médio.
+A visibilidade pré-computada é ideal para hardware inferior e dispositivos móveis. Para tais hardwares e dispositivos, ao considerar os custos de desempenho, você obterá o máximo negociando custos de thread de renderização que são mais caros por aqueles com memória de tempo de execução, onde há mais flexibilidade em relação ao desempenho.
 
 > Divide a cena em um grid, cada célula do grid registra o que é visível naquele local.
 
-  1. Configurar PrecomputedVisibilityVolume.
-  1. Show - Visualize -> Precomputed Visibility Cells
-  1. A câmera ao entrar na célula pergunta    
-    "o que pode ser ocluído?"   
-    "O que pode ser renderizando e o que eu não devo renderizar?"     
-    "neste local, lembramos que esses objetos eram visíveis e estes outros não eram"
+1. Configurar **Precomputed Visibility Volume**.
+
+  Place Actors->Volumes.
+1. Marque a opção **Precompute Visibility** no objeto adicionado na cena.
+1. Visualizando o Grid de células na cena.    
+
+  Show - Visualize -> Precomputed Visibility Cells.
+  > Se você já construiu a iluminação (**Bluid->Lighting**), pode usar o menu suspenso Construir na barra de ferramentas principal(**Show**) e selecionar **Precompute Static Visibility** para gerar células de visibilidade sem reconstruir a iluminação todas as vezes.
+
+1. A câmera ao entrar na célula pergunta:    
+  "o que pode ser ocluído?"   
+  "O que pode ser renderizando e o que eu não devo renderizar?"     
+  "Neste local, lembramos que esses objetos eram visíveis e estes outros não eram"
 
 <a name="3.4"></a>
 ### 3.4 Occlusion Culling
 O sistema de oclusão dinâmica em UE4 vem com vários métodos de abate para escolher. Cada um desses métodos rastreia os estados de visibilidade dos Atores em um nível dentro do tronco de visão da câmera (ou campo de visão) que são obstruídos por outro Ator. As consultas são emitidas para a GPU ou CPU para verificar o estado de visibilidade de cada ator. Uma heurística é usada para reduzir o número de verificações de visibilidade necessárias, por sua vez, aumentando a eficácia geral de seleção e o desempenho.
-  1. A seleção de oclusão verifica com precisão o estado de visibilidade em cada modelo, Isto é pesado.
-  1. Use **freezerendering** para visualizar isto.
-  1. **Stat initviews** mostra os custos.
-  1. Verificar 10.000 objetos começa a ter um impacto.
+1. A seleção de oclusão verifica com precisão o estado de visibilidade em cada modelo.
+
+1. Use o comando do console **freezerendering** que força a renderização para congelar ou retomar. Permite a visualização da cena conforme foi renderizada a partir do ponto em que o comando foi inserido.
+```bash
+    freezerendering
+```
+1. Comando do console **Stat initviews** exibe informações sobre quanto tempo levou a seleção de visibilidade e quão eficaz foi. A contagem de seções visíveis é a estatística mais importante com relação ao desempenho do thread de renderização e é dominada por Visible Static Mesh Elements em STAT INITVIEWS.
+```bash
+    Stat initviews
+```
+
+### Occlusion Culling é um processo pesado a partir de 10.000 objetos na cena.
+Abaixo um exemplo em uma cena com 10.000 objetos
+1. Distance Culling remove 3.000 restando 7.000.
+1. Frustum Culling remove e renderiza 4.000.
+1. Precomputed Visibility remove 1.000.
+1. Occlusion Culling remove 1.000.  
+
+A necessidade do sistema executar os passos acima e efetuar vários cálculos para cada um pode tornar o processo pesado.
 
 **Performance**
 - Configure distance Culling.
@@ -112,18 +135,18 @@ O sistema de oclusão dinâmica em UE4 vem com vários métodos de abate para es
 - Mas combinar modelos com modelos grandes irá diminuir o custo da CPU.
 
 **Resultado**
-- Modelos A Visível.
-- Modelos B Visível.
-- Modelos C Não Visível.
-- Modelos D Visível.
-- Modelos E Não Visível.
+- (Cubo) Modelos A  Visível.
+- (Cubo) Modelos B Visível.
+- (Esfera) Modelos C Não Visível.
+- (Cilindro) Modelos D Visível.
+- (Cubo) Modelos E Não Visível.
 
 A,B,D são processados na GPU.
 
 ***
 
 ## Referências
-
 - [Visibility and Occlusion Culling](https://docs.unrealengine.com/en-US/RenderingAndGraphics/VisibilityCulling/index.html)
 - [Cull Distance Volume](https://docs.unrealengine.com/en-US/RenderingAndGraphics/VisibilityCulling/CullDistanceVolume/index.html)
 - [WTF Is? Volume - Cull Distance in Unreal Engine 4](https://www.youtube.com/watch?v=g0ML7oJll3w)
+- [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
