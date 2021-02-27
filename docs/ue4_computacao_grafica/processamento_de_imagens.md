@@ -16,9 +16,9 @@ Neste capitulo vamos analisar como é realizado o processamento de imagens pela 
 
 |  Threads|  | |  ||
 |:-|-|-|-||
-| **CPU** | Frame A | Frame B  | Frame C | Frame D|
-| **DRAW CPU** |  | Frame A | Frame B  | Frame C|
-| **GPU** |  |  | Frame A | Frame B|
+| **CPU** | <span style="color:blue">Frame A</span> | Frame B  | Frame C | Frame D|
+| **DRAW CPU** |  | <span style="color:blue">Frame A</span> | Frame B  | Frame C|
+| **GPU** |  |  | <span style="color:blue">Frame A</span> | Frame B|
 | **Time** | **0** | **33** | **66** | |
 
 **Time in miliseconds**
@@ -29,9 +29,9 @@ Neste capitulo vamos analisar como é realizado o processamento de imagens pela 
 Calculo de toda a lógica e as transformações
 
 1. Animações - Calcula quando as Animações iniciam e terminam.
-1. Posição de modelos e objetos - Necessário para calcular a posição que influência .
+1. Posição de modelos e objetos - Necessário para calcular a posição que influência.
 1. Física - Calculo para determinar onde os objetos vão.
-1. Inteligência Artificial
+1. Inteligência Artificial.
 1. Cria e destrói, esconde e apresenta - Necessário para determinar onde os objetos aparecem no mundo.
 
 > Qualquer coisa relativa a mudança e posição dos objetos.
