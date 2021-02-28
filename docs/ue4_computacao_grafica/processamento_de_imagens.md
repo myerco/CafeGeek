@@ -10,9 +10,21 @@ tags: [processamento de imagens, gpu, cpu]
 Neste capitulo vamos analisar como é realizado o processamento de imagens pela CPU e GPU.
 
 ## Índice
+1. [O processo de renderização no Unreal Engine](#1)
+1. [Processamento do Frame 0 - Time 0 - CPU](#2)
+1. [Processamento do Frame 1 - Time 33ms - Preparar a Thread](#3)
+    1. [Distance Culling](#3.1)
+    1. [Frustim Culling](#3.2)
+    1. [Precomputed Visibility](#3.3)
+    1. [Occlusion Culling](#3.4)            
+1. [ Processamento do Frame 2 - Time 66ms - GPU](#4)  
+    1. [Drawcalls](#4.1)
+    1. [O comando Stat RHI](#4.2)
+    1. [O comando Stat unit e Stat FPS](#4.3)
+    1. [Considerações](#4.4)
 
 <a name="1"></a>
-## 1. Processo de renderização
+## 1. O processo de renderização no Unreal Engine
 
 |  Threads| 1 | 2| 3 |4|
 |:-|-|-|-||
@@ -143,10 +155,94 @@ A necessidade do sistema executar os passos acima e efetuar vários cálculos pa
 
 A,B,D são processados na GPU.
 
-***
+<a name="4"></a>
+## 4. Processamento do Frame 2 - Time 66ms - GPU
+A GPU agora tem uma lista de modelos e transformações, mas se apenas renderizássemos esta informação iria causar uma grande quantidade de renderização de pixels redundantes, portanto, precisamos descobrir quais modelos serão exibidos com antecedência.
 
+![Ray tracing skylight](imagens/ue4_gemeotry_hendering.jpg)
+*Figura. 3 Objetos na cena.*
+
+- Considerando a renderização de cada pixel na cena na imagem acima não poderia renderizar os pixels que estão detrás dos cilindros e os que estão ocultos por outros objetos.
+
+- Menu Project Settings->Rendering->Early Z-Pass
+
+<a name="4.1"></a>
+### 4.1 Drawcalls
+A GPU agora começa a renderizar. ele renderiza objeto por objeto (DrawCall).
+
+Um grupo de poligonos compartilha a mesmas propriedades em um Drawcall, abaixo um exemplo de como é feita a renderização.
+
+![ue4_gemeotry_hendering_drawcall_2](imagens/ue4_gemeotry_hendering_drawcall_2.jpg)
+A imagem acima renderiza 5 vezes.
+1. Chão.
+1. Objetos 1, 2 e 3.
+1. Céu.
+
+![ue4_gemeotry_hendering_drawcall](imagens/ue4_gemeotry_hendering_drawcall.jpg)
+A imagem acima renderiza 6 vezes.
+1. Chão.
+1. Objetos 1, 2 e parte do objeto 3.
+1. Parte do Objeto 3.
+1. Céu.
+
+![ue4_gemeotry_hendering_drawcall_3](imagens/ue4_gemeotry_hendering_drawcall_3.jpg)
+Acima o passo a passo.
+A ordem de renderização depende da importância dos objetos na cena.
+O chão é renderizado primeiro e depois os cilindos é porque classifica a cena por tipo de material, isso é mais rápido do contrário, tem que fazer uma mudança de estado de renderização no hardware.
+A ordem de renderização não tem impacto no processamento.
+
+
+<a name="4.2"></a>
+### 4.2 O comando Stat RHI
+RHI significa Rendering Hardware Interface. Este comando exibe várias estatísticas exclusivas:
+
+![ue4_gemeotry_hendering_drawcall_3](imagens/ue4_stat_rhi.jpg)
+
+- **Renderiza a memória de destino** -  Mostra o peso total de alvos de renderização como o GBuffer (que armazena as informações finais sobre iluminação e materiais) ou mapas de sombras. O tamanho dos buffers depende da resolução de renderização do jogo, enquanto as sombras são controladas pelas configurações de qualidade das sombras. É útil verificar esse valor periodicamente em sistemas com várias quantidades de RAM de vídeo e, em seguida, ajustar as predefinições de qualidade do seu projeto de acordo.
+- **Triângulos desenhados** - Este é o número final de triângulos. É após o abate de frustum e oclusão. Pode parecer muito grande em comparação com o polycount de suas malhas. É porque o número real inclui sombras (que "copiam" malhas para desenhar mapas de sombras) e mosaico. No editor, também é afetado pela seleção.
+- **Chamadas DrawPrimitive** -  As chamadas *Draw* podem ser um sério gargalo nos programas DirectX 11 e OpenGL4. São os comandos emitidos pela CPU para a GPU e, infelizmente, devem ser traduzidos pelo driver. Esta linha em **stat RHI** mostra a quantidade de chamadas de *draw* emitidas no quadro atual (excluindo apenas a IU do Slate). Este é o valor total, portanto, além da geometria (normalmente o maior número), também inclui decalques, sombras, volumes de iluminação translúcida, pós-processamento e muito mais.
+
+#### Comando do console
+```bash
+stat RHI
+```
+
+<a name="4.3"></a>
+### 4.3 O comando Stat unit e Stat FPS
+**Stat fps** nos mostra o número final de *fps* e o tempo que levou para renderizar o último quadro. É o tempo total. Mas ainda não sabemos se o custo foi causado pela CPU ou pela GPU. Como explicado antes, um tem que esperar o outro. A renderização rápida na placa de vídeo não ajudará, se a CPU precisar de mais tempo para terminar o trabalho de jogabilidade, desenho (gerenciando a GPU) ou física.
+
+![ue4_gemeotry_hendering_drawcall_3](imagens/ue4_stat_unit.jpg)
+
+Podemos obter informações mais específicas usando o comando stat unit. A hora do último quadro é mostrada como 4 números.
+- **Frame** - é igual ao FPS, o custo final.
+- **Game** - é o trabalho da CPU no código do jogo.
+- **Draw** -  é o trabalho da CPU na preparação de dados para a placa gráfica.
+- **GPU** - é o tempo bruto necessário para renderizar um quadro na placa de vídeo.
+
+#### Comandos do console
+```bash
+stat fps
+stat unit
+```
+
+<a name="4.4"></a>
+### 4.4 Considerações
+- 2000 - 3.000 é razoável.
+- Mais de 5.000 esta ficando alto.
+- Mais de 10.000 é provavelmente um problema.
+- Em dispositivos moveis esse valor é muito menor.
+- Para verificar experimente executar o comando **stat RHI** e alterar o **View Mode** de **Lit** para **Unlit** e verifique os valores **Triângulos desenhados**.
+- DrawCalls tem um impacto grande na performance.
+- DrawCalls tem um mais impacto que a quantidade de polígonos em muitos cenários, exemplo:
+  Se temos um polígono com 32 triângulos e 34 tipos de materiais diferentes aplicados na sua superfície, terá mais impacto no FPS do que um polígono de 10.000 triângulos e 1 material.
+  Cada triângulo com uma superfície diferentes é renderizado por vez.
+
+***
 ## Referências
+- [An In-Depth Look at Real-Time Rendering](https://www.unrealengine.com/en-US/onlinelearning-courses/an-in-depth-look-at-real-time-rendering)
 - [Visibility and Occlusion Culling](https://docs.unrealengine.com/en-US/RenderingAndGraphics/VisibilityCulling/index.html)
 - [Cull Distance Volume](https://docs.unrealengine.com/en-US/RenderingAndGraphics/VisibilityCulling/CullDistanceVolume/index.html)
 - [WTF Is? Volume - Cull Distance in Unreal Engine 4](https://www.youtube.com/watch?v=g0ML7oJll3w)
 - [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
+- [Unreal’s Rendering Passes](https://unrealartoptimization.github.io/book/profiling/passes/)
+- [Measuring Performance](https://unrealartoptimization.github.io/book/process/measuring-performance/)
