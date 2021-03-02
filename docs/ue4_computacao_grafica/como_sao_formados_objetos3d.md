@@ -262,7 +262,7 @@ Pivot é um ponto que marca o centro de objetos tridimensionais no Maya, onde :
 <a name="11"></a>
 ## 11. Cor
 Uma cor é descrita para o computador como uma tupla ordenada de valores de um **cor space** (espaço de cor). Os próprios valores são chamados de **components**(componentes) e são coordenados no espaço de cores. O GDI do Windows representa as cores como uma tupla ordenada de componentes vermelhos, verdes e azuis com cada componente no intervalo [0 . 0 , 1 . 0] representado como uma quantidade de bytes sem sinal no intervalo [0 , 255].
-Por padrão, o Windows GDI usa o espaço de cores RGB.
+Por padrão, o [Windows GDI](https://pt.wikipedia.org/wiki/GDI) usa o espaço de cores RGB.
 
 Em computação gráfica, muitas vezes é conveniente usar as cores HLS e HSV.
 HLS: matiz, leveza, saturação
@@ -272,7 +272,6 @@ HSV: matiz,saturação,valor
 ## 12. Transparência com Alpha
 Muitas vezes, em computação gráfica, desejamos combinar pixels como se eles fossem pintados em folhas transparentes empilhadas umas sobre as outras. No Direct3D, a transparência é representada como um canal adicional de informações que representam a quantidade de transparência do pixel.   
 Quando um pixel é totalmente opaco, seu valor alfa é 1 . 0 e este pixel completamente obscurece qualquer coisa por trás dele. Quando um pixel é totalmente transparente, seu valor alfa é 0. 0 e tudo por trás do pixel aparece. Quando o valor alfa é entre 0 e 1, o pixel é parcialmente transparente.
-
 
 ***
 
