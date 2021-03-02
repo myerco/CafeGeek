@@ -22,11 +22,18 @@ Utilizando e entendendo os elementos e as técnicas envolvidas na geração de i
 1. Realidade virtual;
 1. Jogos digitais;
 
+![384px-Blender_2.45_screenshot](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Blender_2.45_screenshot.jpg/384px-Blender_2.45_screenshot.jpg)     
+*Figura: Computer graphics - Wikipedia*
+
+
 <a name="2"></a>
 ## 2. Computação gráfica para jogos digitais
 "Jogos: o setor de Jogos são um dos maiores usufruidores dos avanços gráficos e de maior aplicação de recursos da computação gráfica. Resultando também no desenvolvimento e aprimoramento de equipamentos para este tipo de trabalhos, como placas de vídeo e processadores mais poderosos. Os jogos digitais ganharam mais realidade graças ao aporta da CG." [[3](#r3)]
 
 Construir jogos digitais para que possam ser executados em diversas plataformas, sejam de arquiteturas e hardware ou sistemas operacionais diferentes exige conhecimento de técnicas de renderização de objetos na tela, bem como conhecer os elementos que os formam.
+
+![gratis-png-diseno-industrial-con-imaginacion-ingeniero-mecanico](imagens/game_dungeon_crowley.jpg)      
+*Figura: Dungeon Crowley - Estúdio Animvs*
 
 ## Referências
 <a name="r1"></a>

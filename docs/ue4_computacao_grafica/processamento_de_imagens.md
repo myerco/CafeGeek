@@ -67,7 +67,7 @@ A seguir as 4 Etapas em ordem de execução desse processo.
 **Cull Distance Volumes** usa uma matriz de distâncias e tamanhos para definir se um ator é renderizado ou não quando dentro do volume. Este método de seleção é ideal para grandes níveis externos, onde você teria edifícios ou estruturas de algum tipo com interiores detalhados, onde você gostaria de selecionar aqueles objetos que são pequenos demais para considerar importantes a distâncias distantes.
 
 - A seleção de distância remove quaisquer objetos além de X da câmera
-![](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/PerActorDistanceCullingSettings.webp)
+![PerActorDistanceCullingSettings](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/PerActorDistanceCullingSettings.webp)
 
   1. Configurar **Cull Distance Volume**.     
 

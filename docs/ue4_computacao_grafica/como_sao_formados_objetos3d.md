@@ -49,14 +49,16 @@ Imagens apresentadas nos dispositivos de saída são formadas por pontos  constr
 Um bitmap é um tipo de imagem que é usado para armazenamento de imagens e pode ser definindo como um mapa de bits.
 Cada pedaço da imagem é composto por um ponto chamado de pixel.
 
-![resolucao00](https://www.marceloaventura.art.br/blog/wp-content/uploads/2012/10/resolucao00.png)
+![resolucao00](https://www.marceloaventura.art.br/blog/wp-content/uploads/2012/10/resolucao00.png)      
+*Figura: Imagem bitmap  - www.marceloaventura.art.br*
 
 <a name="1.2"></a>
 ### 1.2 Vector Graphics
 São arquivos de imagens que são utilizados que calculam a posição dos pontos.   
 Em um programa de gráficos vetoriais, fornecemos o ponto inicial e o ponto final e o programa faz o resto.
 
-![Vector](https://etc.usf.edu/techease/wp-content/uploads/2017/12/Vector.jpg)
+![Vector](https://etc.usf.edu/techease/wp-content/uploads/2017/12/Vector.jpg)   
+*Figura: Vector Graphics - https://etc.usf.edu*
 
 Mas tem outra vantagem. Se aplicarmos zoom a uma imagem bitmap, podemos ver os pixels e teremos uma imagem ruim. Em gráficos vetoriais, ampliar uma imagem não envolve uma imagem ruim porque a imagem é criada por uma fórmula matemática.
 
@@ -73,8 +75,11 @@ Mas tem outra vantagem. Se aplicarmos zoom a uma imagem bitmap, podemos ver os p
 
 <a name="2"></a>
 ## 2. O que são Pontos?
-Na geometria, um ponto é representado por sua coordenada no espaço. Geometria usa um sistema de coordenadas cartesianas, onde as coordenadas de um ponto em espaço são representados pela distância ao longo de cada um dos eixos principais para o ponto.
-![plano cartesiano](https://conhecimentocientifico.r7.com/wp-content/uploads/2020/01/plano-cartesiano-o-que-e-como-fazer-caracteristicas-e-coordenadas.png)
+Na geometria, um ponto é representado por sua coordenada no espaço. Geometria usa um sistema de coordenadas cartesianas, onde as coordenadas de um ponto em espaço são representados pela distância ao longo de cada um dos eixos principais para o ponto.    
+
+![plano cartesiano](https://conhecimentocientifico.r7.com/wp-content/uploads/2020/01/plano-cartesiano-o-que-e-como-fazer-caracteristicas-e-coordenadas.png)     
+*Figura: Plano cartesiano - https://conhecimentocientifico.r7.com*
+
 Pontos são representados por pixels em monitores.
 
 <a name="21"></a>
@@ -82,7 +87,8 @@ Pontos são representados por pixels em monitores.
 Pixel é o menor elemento em um dispositivo de exibição, sendo que cada pixel é composto por um conjunto de 3 pontos: verde, vermelho e azul.
 
 Um exemplo de formação de imagens.    
-![Cachorro](https://i.pinimg.com/564x/6a/07/72/6a0772d93d74327025597ff3951996ff.jpg)
+![Cachorro](https://i.pinimg.com/564x/6a/07/72/6a0772d93d74327025597ff3951996ff.jpg)      
+*Figura: Figura pixelada livre*
 
 <a name="22"></a>
 ### 2.2 Bits por pixel
@@ -115,7 +121,8 @@ Um raio começa em um ponto e se estende infinitamente em uma direção distante
 Um segmento de linha é uma linha de comprimento finito definida por seus dois pontos finais.    
 >Em computadores, devemos lidar com quantidades finitas, então não podemos tirar o total extensão de uma linha ou raio de acordo com sua definição matemática. No computador gráficos quando nos referimos a “linhas”, geralmente nos referimos a segmentos de linha.
 
-![Line Segment](https://cdn1.byjus.com/wp-content/uploads/2020/01/Line-segment.png)
+![Line Segment](https://cdn1.byjus.com/wp-content/uploads/2020/01/Line-segment.png)     
+*Figure: Segmento de linha - https://cdn1.byjus.com*
 
 <a name="4"></a>
 ## 4. Planos e Triângulos
@@ -125,7 +132,8 @@ A direção perpendicular a um plano é chamado de **Normal** ao plano.
 Um triângulo também é definido por três pontos no espaço 3 chamados **Vértices** (singular vértice). O triângulo está para o plano assim como o segmento de reta está para a reta. UMA triângulo envolve uma área finita definida pela região interior delimitada pela linha
 segmentos que unem seus vértices.
 
-![triangle vertex normal](https://www.oreilly.com/library/view/programming-3d-applications/9781449363918/figs/p3da_0405.png)
+![triangle vertex normal](https://www.oreilly.com/library/view/programming-3d-applications/9781449363918/figs/p3da_0405.png)      
+*Figure: Triangle Vertex Normal - https://www.oreilly.com*
 
 <a name="5"></a>
 ## 4. Polígonos (Polygon)
@@ -135,24 +143,27 @@ Polígonos são uma coleção de vértices, arestas e faces que definem a forma 
 <a name="51"></a>
 ### 5.1 Polígonos no Maya
 Utilizando as opções em **Poly Modeling** podemos definir uma séria de elementos poligonais.      
-![ue4_maya_wireframe](imagens/ue4_maya_wireframe.jpg)
+![ue4_maya_wireframe](imagens/ue4_maya_wireframe.jpg)     
+*Figura: Polígonos no Maya utilizando a visualização Wireframe- Autor*
 
 - **Channel Box/Layer Editor** - Propriedades do objeto com a sua quantidade de subdivisões, estes valores podem ser manipulados aumentando ou diminuindo a quantidade de arestas.
 - Apresentado a quantidade de vértices e arestas.   
   **Display > Heads up display > Poly Count**.      
 
-  ![ue4_maya_show_vertex](imagens/ue4_maya_show_vertex.jpg)
+  ![ue4_maya_show_vertex](imagens/ue4_maya_show_vertex.jpg)     
+  *Figura: Verts, Edges, Faces, Tris, UVs no Maya - Autor*
 
 <a name="52"></a>
 ### 5.2 Polígonos no Unreal Engine
 Selecionando **Brush Wireframe** no **View Port** ou pressionando *Alt+2* a estrutura de malha de vértices dos polígonos na cena.       
-![ue4_view_port_wireframe](imagens/ue4_view_port_wireframe.jpg)
+![ue4_view_port_wireframe](imagens/ue4_view_port_wireframe.jpg)     
+*Figura: Visualização Brush Wireframe no Unreal Engine 4 -  Autor*
 
 - Apresentado a quantidade de vértices e arestas.   
   **Window > Statistics**.      
 
-  ![ue4_view_statistics](imagens/ue4_view_statistics.jpg)
-
+  ![ue4_view_statistics](imagens/ue4_view_statistics.jpg)     
+  *Figura: Unreal Engine View Statistics - Autor*
 
 <a name="6"></a>
 ## 6. Face
@@ -161,15 +172,18 @@ São as superfícies planas que constituem um sólido. Consistem em triângulos 
 <a name="61"></a>
 ### 6.1 Faces no Maya
 Com botão direito pressionado (RMB) escolha **Face** para selecionar  a face.   
-![ue4_maya_select_face](imagens/ue4_maya_select_face.jpg)   
-![ue4_view_statistics](imagens/ue4_maya_face.jpg)
+![ue4_maya_select_face](imagens/ue4_maya_select_face.jpg)     
+*Figura: Maya RMB  Face - Autor*  
+![ue4_view_statistics](imagens/ue4_maya_face.jpg)   
+*Figura: Maya e seleção de Face - Autor*
 
 <a name="62"></a>
 ### 6.2 Faces no Unreal Engine
 Somente é possível selecionar faces e vértices de objetos do tipo **Geometry** em **Place Actors**.   
 É necessário habilitar as opções de edição em **Modes >  Brush Editing**.   
 
-![ue4_view_statistics](imagens/ue4_select_face_geometry.jpg)
+![ue4_view_statistics](imagens/ue4_select_face_geometry.jpg)    
+*Figura: Unreal Engine Modes->Brush Editing - Autor*
 
 <a name="7"></a>
 ## 7. Aresta
@@ -179,12 +193,15 @@ São segmentos de reta que são as intersecções de duas faces contíguas.
 ### 7.1 Arestas no Maya
 Selecionamos com RMB a opção **Edge**.    
 
-![ue4_maya_select_edge](imagens/ue4_maya_select_edge.jpg)     
-![ue4_maya_edge](imagens/ue4_maya_edge.jpg)
+![ue4_maya_select_edge](imagens/ue4_maya_select_edge.jpg)   
+*Figura: Maya RMB Edge- Autor*     
+![ue4_maya_edge](imagens/ue4_maya_edge.jpg)     
+*Figura: Maya select Edge - Autor*
 
 <a name="72"></a>
 ### 7.2 Arestas no Unreal Engine
-![ue4_maya_select_face](imagens/ue4_select_edge.jpg)
+![ue4_maya_select_face](imagens/ue4_select_edge.jpg)      
+*Figura: Unreal Engine select Edge - Autor*
 
 <a name="8"></a>
 ## 8. Vértices
@@ -195,31 +212,40 @@ São os pontos de encontro das arestas.
 Selecionamos com RMB a opção **Vertex**.    
 
 ![ue4_maya_select_edge](imagens/ue4_maya_select_vertex.jpg)     
-![ue4_maya_edge](imagens/ue4_maya_vertex.jpg)
+*Figura: Maya RMB Vertex - Autor*    
+![ue4_maya_edge](imagens/ue4_maya_vertex.jpg)   
+*Figura: Maya select vertex - Autor*   
 
 <a name="82"></a>
 ### 8.2 Vértices no Unreal Engine
-![ue4_maya_select_face](imagens/ue4_select_vertex.jpg)
+![ue4_maya_select_face](imagens/ue4_select_vertex.jpg)    
+*Figura: Unreal Engine select Vertex - Autor*
 
 <a name="9"></a>
 ## 9. Valores de ponto flutuante
 Na matemática, todos os cálculos são exatos e realizam aritmética sobre os valores e não alteram sua precisão. No entanto, os computadores armazenam aproximações para números reais como valores de ponto flutuante e realizando operações aritméticas podem fazer com que sua precisão mude. Nem todos os números reais podem ser representados exatamente por uma representação de ponto flutuante. Números como π e outros transcendentais os números têm uma expansão decimal infinita.
 A natureza aproximada dos números de ponto flutuante geralmente levanta sua cabeça ao comparar números de ponto flutuante e outras estruturas compostas de números de pontos, como pontos, vetores, retas, planos, matrizes e assim por diante.
 
-![Single-Precision-IEEE-754-Floating-Point-Standard](https://media.geeksforgeeks.org/wp-content/uploads/Single-Precision-IEEE-754-Floating-Point-Standard.jpg)
+![Single-Precision-IEEE-754-Floating-Point-Standard](https://media.geeksforgeeks.org/wp-content/uploads/Single-Precision-IEEE-754-Floating-Point-Standard.jpg)      
+*Figura: https://media.geeksforgeeks.org*
 
 <a name="10"></a>
 ## 10. Sistemas de coordenadas
 Objetos em Computação Gráfica possuem descrições numéricas (modelos) que caracterizam suas formas e dimensões. Esses números se referem a um sistema de coordenadas, normalmente o sistema Cartesiano de coordenadas: x, y e z.  Em alguns casos, precisamos de mais de um sistema de coordenadas:–  Um sistema local para descrever partes individuais de uma máquina, por exemplo, que pode ser montada especificando-se a relação de cada sistema local das várias peças.   
 
-![3d_coordinates](https://www.tutorialspoint.com/computer_graphics/images/3d_coordinates.jpg)
+![3d_coordinates](https://www.tutorialspoint.com/computer_graphics/images/3d_coordinates.jpg)       
+*Figura: https://www.tutorialspoint.com*
+
 
 Normalmente, os softwares de elementos gráficos 3D, como por exemplo Maya ou Blender,  usam um dos dois tipos de sistemas de coordenadas cartesianas de esquerda e direita. Em ambos os sistemas de coordenadas, o eixo x positivo aponta para a direita e o eixo y positivo aponta para cima.
 
 <a name="10.1"></a>
 ### 10.1 À esquerda e à direita serão entregues de coordenadas
 Você pode lembrar para qual direção o eixo z positivo aponta, apontando os dedos de sua mão direita ou esquerda na direção x positiva e curvando-os na direção y positiva. A direção do seu polegar aponta em sua direção ou para longe de você, é a direção em que o eixo z positivo aponta para esse sistema de coordenadas. A ilustração a seguir mostra esses dois sistemas de coordenadas.   
-![leftrght](https://docs.microsoft.com/pt-br/windows/uwp/graphics-concepts/images/leftrght.png)
+
+![leftrght](https://docs.microsoft.com/pt-br/windows/uwp/graphics-concepts/images/leftrght.png)     
+*Figura: https://docs.microsoft.com*
+
 
 - **Unreal Engine** - Utiliza o sistema de coordenadas *Left-Handed*.
 - **Maya** - Utiliza o sistema de coordenadas *Right-Handed*
@@ -230,7 +256,8 @@ Pivot é um ponto que marca o centro de objetos tridimensionais no Maya, onde :
 - Todas as transformações de um objeto são relativas ao ponto de pivô do objeto.
 - Os manipuladores 3D também contam com o ponto de pivô do objeto.
 
-![ue4_maya_pivot](imagens/ue4_maya_pivot.jpg)
+![ue4_maya_pivot](imagens/ue4_maya_pivot.jpg)     
+*Figura: Maya select pivot (Tecla Insert ou D)- Autor*
 
 <a name="11"></a>
 ## 11. Cor
