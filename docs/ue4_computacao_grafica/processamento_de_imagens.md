@@ -168,8 +168,7 @@ A GPU agora tem uma lista de modelos e transformações, mas se apenas renderiz�
 
 <a name="4.1"></a>
 ### 4.1 Drawcalls
-A GPU agora começa a renderizar. ele renderiza objeto por objeto (DrawCall).
-
+A GPU agora começa a renderizar, sendo feito objeto por objeto (DrawCall).      
 Um grupo de poligonos compartilha a mesmas propriedades em um Drawcall, abaixo um exemplo de como é feita a renderização.
 
 ![ue4_gemeotry_hendering_drawcall_2](imagens/ue4_gemeotry_hendering_drawcall_2.jpg)

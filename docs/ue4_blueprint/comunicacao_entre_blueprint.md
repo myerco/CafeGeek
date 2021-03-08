@@ -3,11 +3,8 @@ title: Comunicação entre Blueprint
 description: Comunicação entre Blueprint
 tags: [Unreal Engine,blueprint,comunicação,blueprint interfaces]
 ---
-[CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
-Comunicação entre Blueprints | Comunicação utilizando Acesso direto| 02 | Unreal Engine
-Comunicação entre Blueprints | Usando Cast| 03 | Unreal Engine
-Comunicação entre Blueprints | Utilizando o objeto Blueprint Interface| 04 | Unreal Enginca
+[CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
 # Comunicação entre Blueprint
 Neste capítulo será apresentadas técnicas de programação para comunicação entre Blueprints.
@@ -86,13 +83,14 @@ Quando qualquer objeto colidir com o *ControleLuz* a lâmpada ira desligar ou li
 
 <a name="4.2"></a>
 ### 4.2 Vídeo
-[![Comunicação entre Blueprints | Comunicação utilizando Acesso direto| 02 | Unreal Engine](http://img.youtube.com/vi/td6_Nm2tYfc/0.jpg)](https://youtu.be/td6_Nm2tYfc)
+[![Comunicação entre Blueprints | Comunicação utilizando Acesso direto| 02 | Unreal Engine](http://img.youtube.com/vi/td6_Nm2tYfc/0.jpg)](https://youtu.be/td6_Nm2tYfc)   
+*Vídeo: Comunicação entre Blueprints | Comunicação utilizando Acesso direto| 02 | Unreal Engine*
 
 <a name="5"></a>
 ## 5. Utilizando CAST
 **CAST** ou conversão é um operador especial que força um tipo de dados a ser convertido em outro.
 
-Exemplo Unreal C++   
+**Unreal C++**   
 ```cpp
 AStaticMeshActor* StaticMesh = Cast<AStaticMeshActor>(SM);
 ```
@@ -107,7 +105,8 @@ Para este passo usaremos o evento **OnEndOverlap** para ler todos os objetos que
 
 <a name="5.2"></a>
 ### 5.2 Vídeo
-[![Comunicação entre Blueprints | Usando Cast| 03 | Unreal Engine](http://img.youtube.com/vi/VT6uob6UiSQ/0.jpg)](https://youtu.be/VT6uob6UiSQ)
+[![Comunicação entre Blueprints | Usando Cast| 03 | Unreal Engine](http://img.youtube.com/vi/VT6uob6UiSQ/0.jpg)](https://youtu.be/VT6uob6UiSQ)    
+*Vídeo: Comunicação entre Blueprints | Usando Cast 03 Unreal Engine*
 
 <a name="6"></a>
 ## 6. Utilizando o objeto Blueprint Interface
@@ -154,7 +153,8 @@ Perceba que o objeto não tem lógica pois neste caso o objeto funciona como uma
 
 <a name="6.5"></a>
 ### 6.5 Vídeo
-[![Comunicação entre Blueprints | Utilizando o objeto Blueprint Interface| 04 | Unreal Engine](http://img.youtube.com/vi/ugqPc5-YQV4/0.jpg)](https://youtu.be/ugqPc5-YQV4)
+[![Comunicação entre Blueprints | Utilizando o objeto Blueprint Interface| 04 | Unreal Engine](http://img.youtube.com/vi/ugqPc5-YQV4/0.jpg)](https://youtu.be/ugqPc5-YQV4)      
+*Vídeo: Comunicação entre Blueprints | Utilizando o objeto Blueprint Interface| 04 | Unreal Engine*
 
 <a name="7"></a>
 ## 7. Event Dispatcher
@@ -175,7 +175,8 @@ Vinculando um ou mais eventos a um **Event Dispatcher**, você pode fazer com qu
 
 <a name="7.3"></a>
 ### 7.3 Vídeo
-[![Comunicação entre Blueprints | Event Dispatcher| 05 | Unreal Engine](http://img.youtube.com/vi/bmxFZH3hFxc/0.jpg)](https://youtu.be/bmxFZH3hFxc)       
+[![Comunicação entre Blueprints | Event Dispatcher| 05 | Unreal Engine](http://img.youtube.com/vi/bmxFZH3hFxc/0.jpg)](https://youtu.be/bmxFZH3hFxc)   
+*Vídeo: Comunicação entre Blueprints | Event Dispatcher| 05 | Unreal Engine*    
 
 ***
 ## Referências

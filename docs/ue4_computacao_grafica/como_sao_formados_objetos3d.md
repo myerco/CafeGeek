@@ -129,15 +129,14 @@ Um segmento de linha é uma linha de comprimento finito definida por seus dois p
 Um plano é uma folha orientada em 3 espaços sem espessura e com uma extensão infinita.
 Um plano é definido por três pontos não colineares que cruzam o plano ou por um ponto no plano e uma direção perpendicular ao plano.      
 A direção perpendicular a um plano é chamado de **Normal** ao plano.    
-Um triângulo também é definido por três pontos no espaço 3 chamados **Vértices** (singular vértice). O triângulo está para o plano assim como o segmento de reta está para a reta. UMA triângulo envolve uma área finita definida pela região interior delimitada pela linha
-segmentos que unem seus vértices.
+Um triângulo também é definido por três pontos no espaço 3 chamados **Vértices** (singular vértice).
 
 ![triangle vertex normal](https://www.oreilly.com/library/view/programming-3d-applications/9781449363918/figs/p3da_0405.png)      
 *Figure: Triangle Vertex Normal - https://www.oreilly.com*
 
 <a name="5"></a>
-## 4. Polígonos (Polygon)
-As imagens tridimensionais formatas no computador são compostas por polígonos.
+## 5. Polígonos (Polygon)
+As imagens tridimensionais formadas no computador são compostas por polígonos.
 Polígonos são uma coleção de vértices, arestas e faces que definem a forma do objeto poliédrico.
 
 <a name="51"></a>
