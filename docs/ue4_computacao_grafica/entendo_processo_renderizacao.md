@@ -67,3 +67,5 @@ Baixe aqui
 ## Referências
 
 1. [Real-Time Rendering Fundamentals](https://www.unrealengine.com/en-US/onlinelearning-courses/real-time-rendering-fundamentals)
+1. [How Unreal Renders a Frame](https://interplayoflight.wordpress.com/2017/10/25/how-unreal-renders-a-frame/)
+1. [Introduction to Decal Rendering](https://samdriver.xyz/article/decal-render-intro)

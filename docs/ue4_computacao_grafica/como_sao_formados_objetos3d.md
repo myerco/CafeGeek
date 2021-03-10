@@ -36,6 +36,7 @@ Neste capitulo será apresentados os elementos que constituem uma imagem 3D util
 1. [Sistemas de coordenadas](#10)
     1. [À esquerda e à direita serão entregues de coordenadas](#10.1)
     1. [Pivot - O centro do objeto 3D no Maya](#10.2)
+    1. [Pivot - O centro do objeto 3D no Unreal Engine](#10.3)
 1. [Cor](#11)  
 1. [Transparência com Alpha](#12)
 
@@ -230,11 +231,10 @@ A natureza aproximada dos números de ponto flutuante geralmente levanta sua cab
 
 <a name="10"></a>
 ## 10. Sistemas de coordenadas
-Objetos em Computação Gráfica possuem descrições numéricas (modelos) que caracterizam suas formas e dimensões. Esses números se referem a um sistema de coordenadas, normalmente o sistema Cartesiano de coordenadas: x, y e z.  Em alguns casos, precisamos de mais de um sistema de coordenadas:–  Um sistema local para descrever partes individuais de uma máquina, por exemplo, que pode ser montada especificando-se a relação de cada sistema local das várias peças.   
+Objetos em Computação Gráfica possuem descrições numéricas (modelos) que caracterizam suas formas e dimensões. Esses números se referem a um sistema de coordenadas, normalmente o sistema Cartesiano de coordenadas: x, y e z.  Em alguns casos, precisamos de mais de um sistema de coordenadas.   
 
 ![3d_coordinates](https://www.tutorialspoint.com/computer_graphics/images/3d_coordinates.jpg)       
 *Figura: https://www.tutorialspoint.com*
-
 
 Normalmente, os softwares de elementos gráficos 3D, como por exemplo Maya ou Blender,  usam um dos dois tipos de sistemas de coordenadas cartesianas de esquerda e direita. Em ambos os sistemas de coordenadas, o eixo x positivo aponta para a direita e o eixo y positivo aponta para cima.
 
@@ -256,21 +256,29 @@ Pivot é um ponto que marca o centro de objetos tridimensionais no Maya, onde :
 - Os manipuladores 3D também contam com o ponto de pivô do objeto.
 
 ![ue4_maya_pivot](imagens/ue4_maya_pivot.jpg)     
-*Figura: Maya select pivot (Tecla Insert ou D)- Autor*
+*Figura: Maya select pivot (Selecione W e depois Tecla Insert ou D)- Autor*
+
+<a name="10.3"></a>
+### 10.2 Pivot - O centro do objeto 3D no Unreal Engine
+
+![ue4_change_pivot](imagens/ue4_change_pivot.jpg)     
+*Figura: - Alt + Scroll mouse Autor*
 
 <a name="11"></a>
 ## 11. Cor
-Uma cor é descrita para o computador como uma tupla ordenada de valores de um **cor space** (espaço de cor). Os próprios valores são chamados de **components**(componentes) e são coordenados no espaço de cores. O GDI do Windows representa as cores como uma tupla ordenada de componentes vermelhos, verdes e azuis com cada componente no intervalo [0 . 0 , 1 . 0] representado como uma quantidade de bytes sem sinal no intervalo [0 , 255].
+Uma cor é descrita para o computador como uma tupla ordenada de valores de um **cor space** (espaço de cor). Os próprios valores são chamados de **components**(componentes) e são coordenados no espaço de cores. O GDI do Windows representa as cores como uma tupla ordenada de componentes vermelhos, verdes e azuis com cada componente no intervalo [0 . 0 , 1 . 0] representado como uma quantidade de bytes sem sinal no intervalo [0 , 255].     
 Por padrão, o [Windows GDI](https://pt.wikipedia.org/wiki/GDI) usa o espaço de cores RGB.
 
-Em computação gráfica, muitas vezes é conveniente usar as cores HLS e HSV.
-HLS: matiz, leveza, saturação
-HSV: matiz,saturação,valor
+Em computação gráfica, muitas vezes é conveniente usar as cores HLS e HSV.    
+- HLS: matiz, leveza, saturação.    
+- HSV: matiz,saturação,valor    
 
 <a name="12"></a>
 ## 12. Transparência com Alpha
 Muitas vezes, em computação gráfica, desejamos combinar pixels como se eles fossem pintados em folhas transparentes empilhadas umas sobre as outras. No Direct3D, a transparência é representada como um canal adicional de informações que representam a quantidade de transparência do pixel.   
 Quando um pixel é totalmente opaco, seu valor alfa é 1 . 0 e este pixel completamente obscurece qualquer coisa por trás dele. Quando um pixel é totalmente transparente, seu valor alfa é 0. 0 e tudo por trás do pixel aparece. Quando o valor alfa é entre 0 e 1, o pixel é parcialmente transparente.
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Alpha_compositing.svg/963px-Alpha_compositing.svg.png)
+*Figura: Alpha compositing - wikipedia*
 
 ***
 
@@ -279,3 +287,9 @@ Quando um pixel é totalmente opaco, seu valor alfa é 1 . 0 e este pixel comple
 - [Polygon Mesh](https://pt.qaz.wiki/wiki/Polygon_mesh)
 - [How to Prepare Textures](https://vvvv.org/documentation/howto-prepare-textures)
 - [Computer Graphics. image treatment](https://www.petervaldivia.com/computer-graphics/)
+- [Maya tutorial : How to move your Pivot Point ( 2 methods )](https://www.youtube.com/watch?v=V4DwKcik4yU)
+- [UE4 Tutorial: Change Pivot Point on BSP or Static Mesh](https://www.youtube.com/watch?v=N1h5mMviSKs)
+- [HSV to RGB Material Function in Unreal Engine](https://ferkizue.blogspot.com/2018/06/hsv-to-rgb-material-function-in-unreal.html)
+- [Alpha compositing](https://en.wikipedia.org/wiki/Alpha_compositing)
+- [Alpha (alpha channel)](https://developer.mozilla.org/en-US/docs/Glossary/Alpha)
+- [RGB Color Codes Chart](https://www.rapidtables.com/web/color/RGB_Color.html)
