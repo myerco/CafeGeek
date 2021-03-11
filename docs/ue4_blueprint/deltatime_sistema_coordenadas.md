@@ -6,7 +6,7 @@ tags: [Unreal Engine,tempo, espaço]
 [CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
 # Delta time e sistema de coordenadas
-Neste capítulo serão apresentados os elementos de controle de tempo (Delta Time) dentro da **Unreal Engine** e utilizar para  implementar movimentação de objetos.
+Neste capítulo serão apresentados os elementos de controle de tempo (Delta Time) dentro do **Unreal Engine** e utilizar para  implementar movimentação de objetos.
 Apresentaremos também como funciona o sistema de coordenadas dos objetos.
 
 ## Índice
@@ -57,7 +57,7 @@ Frame: Um quadro ou imagem apresentada, uma animação é composta por vários f
 
 <a name="2"></a>
 ## 2. Lista de comandos do console
-1. Devemos habilitar o console de comandos para verificar e alterar o *FPS* do jogo utilizando o Menu **Editor preferences->Open**.   
+1. Devemos habilitar o console de comandos para verificar e alterar o *FPS* do jogo utilizando o Menu **Project Settings->Open**.   
 ![blueprint_console_settings](imagens/tempoespaco/blueprint_console_settings.jpg)
 1. Presionando a tecla  **´** , configurada anteriormente, o editor de comandos aparece na tela.
 1. Apresenta o valor de FPS.
@@ -333,9 +333,9 @@ Usaremos a função **FindLookAtRotation**. No exemplo o **Cubo3** vai apontar p
 - [How to use delta time](https://answers.unrealengine.com/questions/38798/how-to-use-delta-time.html)
 - [Tutorial enentendo o que é o deltatime](https://www.fabricadejogos.net/posts/tutorial-entendo-o-que-o-deltatime/)
 - [fps vs capacidade humana](http://teclab.net.br/fps-vs-capacidade-humana/)
--[Timelines](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Timelines/index.html)
--[Vectors and Unity](http://staffwww.fullcoll.edu/dcraig/csharp/Vectors%20and%20Unity.pdf)
--[Stat Commands](https://docs.unrealengine.com/en-US/TestingAndOptimization/PerformanceAndProfiling/StatCommands/index.html)
+- [Timelines](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Timelines/index.html)
+- [Vectors and Unity](http://staffwww.fullcoll.edu/dcraig/csharp/Vectors%20and%20Unity.pdf)
+- [Stat Commands](https://docs.unrealengine.com/en-US/TestingAndOptimization/PerformanceAndProfiling/StatCommands/index.html)
 
 ***
 ## Tags

@@ -158,7 +158,11 @@ Perceba que o objeto não tem lógica pois neste caso o objeto funciona como uma
 
 <a name="7"></a>
 ## 7. Event Dispatcher
-Vinculando um ou mais eventos a um **Event Dispatcher**, você pode fazer com que todos esses eventos sejam disparados assim que o **Event Dispatcher** for chamado. Esses eventos podem ser vinculados a uma classe **Blueprint**, mas os **Event Dispatchers** também permitem que eventos sejam disparados dentro do Level Blueprint.
+São eventos que transmitem mensagens para outros Blueprints, os receptores "ouvem" as mensagens e podem implementar a sua própria lógica de tratamento.   
+Vinculando um ou mais eventos a um **Event Dispatcher** , você pode fazer com que todos esses eventos sejam disparados assim que o **Event Dispatcher** for chamado.     
+Esses eventos podem ser vinculados a uma classe **Blueprint**, mas os **Event Dispatchers** também permitem que eventos sejam disparados dentro do *Level Blueprint*.
+
+![blueprint_event_dispatcher](imagens/comunicacao/blueprint_event_dispatcher.jpg)
 
 <a name="7.1"></a>
 ### 7.1 O Character *BP_Hero* será o emissor dos eventos
@@ -168,9 +172,11 @@ Vinculando um ou mais eventos a um **Event Dispatcher**, você pode fazer com qu
 
 <a name="7.2"></a>
 ### 7.2 Lógica dos objetos que vão interagir com o personagem
-1. Adicionamos referência ao personagem usando *cast* para ter acesso ao evento registrado no dispatcher.     
+1. No objeto **BP_Cubo** por exemplo adicionamos referência ao personagem **BP_Hero** usando *cast* para ter acesso ao evento registrado no *dispatcher*.     
 ![blueprint_dispatchers_bind](imagens/comunicacao/blueprint_dispatchers_bind.jpg)      
+
 1. Implementamos **Bind Event** do disptacher para  associar um evento a chamada.     
+
 ![blueprint_add_impulse_example](imagens/comunicacao/blueprint_add_impulse_example.jpg)
 
 <a name="7.3"></a>
