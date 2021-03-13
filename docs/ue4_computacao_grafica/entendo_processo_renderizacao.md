@@ -18,6 +18,7 @@ tags: [Unreal Engine,Rendering,Maya]
     1. [Renderdoc](#2.1)    
     1. [Performance](#2.1)        
 1. [Vertex Shaders](#3)        
+1. [Pixel Shaders](#4)
 1. [Rasterizing e Overshading](#3)     
 
 1. O custo para renderizar muitos poligonos é muitas vezes menor que o Drawcall.
@@ -69,3 +70,7 @@ Baixe aqui
 1. [Real-Time Rendering Fundamentals](https://www.unrealengine.com/en-US/onlinelearning-courses/real-time-rendering-fundamentals)
 1. [How Unreal Renders a Frame](https://interplayoflight.wordpress.com/2017/10/25/how-unreal-renders-a-frame/)
 1. [Introduction to Decal Rendering](https://samdriver.xyz/article/decal-render-intro)
+1. [Vertex Shaders](https://www.nvidia.com/en-us/drivers/feature-vertexshader/)
+1. [Verttex Shaders](https://pt.wikipedia.org/wiki/Vertex_shader)
+1. [Deferred Shading](https://learnopengl.com/Advanced-Lighting/Deferred-Shading)
+1. [Normal Mapping](https://learnopengl.com/Advanced-Lighting/Normal-Mapping)
