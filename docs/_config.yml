@@ -10,12 +10,7 @@ navbar-links:
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://deanattali.com"
 
-# --- Logo --- #
-
-# Image to show in the navigation bar - works best with a square image
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/imagens/cafegeek_small.png"
-title-img: /imagens/cafegeek_small.png
+include: _include
 
 social-network-links:
   email: "someone@example.com"
@@ -32,8 +27,8 @@ share-links-active:
   vk: false
 
 # --- Web Analytics Section --- #
-gtag: "G-3BDZTTK4NP"
-google_analytics: 256152900
+gtag: "UA-74199518-1"
+google_analytics: UA-74199518-1
 
 url: "https://myerco.github.io/CafeGeek/"
 plugins:
