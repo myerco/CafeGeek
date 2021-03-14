@@ -2,7 +2,6 @@
 title: Trabalhando com variáveis
 description: Trabalhando com variáveis e seus métodos com Blueprint
 tags: [Unreal Engine,Blueprint,variáveis, variable]
-cover-img: "/imagens/cafegeek_small.png"
 ---
 [CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
