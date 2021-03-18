@@ -21,6 +21,12 @@ tags: [Unreal Engine,Rendering,Maya]
 1. [Pixel Shaders](#4)
 1. [Rasterizing e Overshading](#3)     
 
+## 1. O processo de renderização
+![The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards](imagens/The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards.jpg)
+
+- Vertex Shaders - é uma função de processamento gráfico usada para adicionar efeitos especiais a objetos em um ambiente 3D executando operações matemáticas nos dados de vértice dos objetos. Cada vértice pode ser definido por muitas variáveis diferentes. Por exemplo, um vértice é sempre definido por sua localização em um ambiente 3D usando as coordenadas x-, y- e z-. Os vértices também podem ser definidos por cores, texturas e características de iluminação. Os Vertex Shaders não alteram realmente o tipo de dados; eles simplesmente mudam os valores dos dados, de modo que um vértice emerge com uma cor diferente, texturas diferentes ou uma posição diferente no espaço.
+- Geometry Program - recebe como entrada um conjunto de vértices que formam uma única primitiva, por exemplo, um ponto ou triângulo. O sombreador de geometria pode então transformar esses vértices conforme achar necessário antes de enviá-los para o próximo estágio de sombreador. O que torna o shader de geometria interessante é que ele é capaz de converter a primitiva original (conjunto de vértices) em primitivas completamente diferentes, possivelmente gerando mais vértices do que os inicialmente dados.
+
 1. O custo para renderizar muitos poligonos é muitas vezes menor que o Drawcall.
 1. 50.000 triângulos podem rodar pior que 50 milhões dependendo da implementação.
 1. drwacall tem uma despesa básica, portanto, otimizar poli de baixo para super poli pode fazer nenhuma diferença.  
@@ -74,3 +80,17 @@ Baixe aqui
 1. [Verttex Shaders](https://pt.wikipedia.org/wiki/Vertex_shader)
 1. [Deferred Shading](https://learnopengl.com/Advanced-Lighting/Deferred-Shading)
 1. [Normal Mapping](https://learnopengl.com/Advanced-Lighting/Normal-Mapping)
+
+1. [General-purpose computing on graphics processing units](https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units)
+
+https://www.gamersnexus.net/guides/2429-gpu-rendering-and-game-graphics-explained
+https://www.nvidia.com/en-us/drivers/feature-vertexshader/
+https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units
+https://gamedevelopment.tutsplus.com/articles/forward-rendering-vs-deferred-rendering--gamedev-12342
+https://en.wikipedia.org/wiki/Graphics_pipeline
+https://en.wikipedia.org/wiki/Vertex_pipeline
+https://www.pcmag.com/encyclopedia/term/vertex-shader
+https://www.tecmundo.com.br/video-game-e-jogos/863-o-que-e-vertex-shading-.htm
+https://www.khronos.org/opengl/wiki/Geometry_Shader
+https://www.khronos.org/opengl/wiki/Fragment_Shader
+https://en.wikipedia.org/wiki/Rendering_(computer_graphics)
