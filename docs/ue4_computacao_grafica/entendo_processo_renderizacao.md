@@ -21,7 +21,35 @@ tags: [Unreal Engine,Rendering,Maya]
 1. [Pixel Shaders](#4)
 1. [Rasterizing e Overshading](#3)     
 
-## 1. O processo de renderização
+## 1. Entendendo como os processos são executados
+![ue4_cpu_processos](imagens/ue4_cpu_processos.jpg)
+
+### 1.1 Criado
+### 1.2 Apto
+### 1.3 Execução
+### 1.4 Bloqueado
+### 1.5 Destruição
+### 1.6 RPC
+### 1.7 Threads
+
+## 2. O processo de renderização
+![ue4_cpu_processos](imagens/ue4_gpu_pipeline.jpg)
+
+### 2.1 Animações
+### 2.2 Posição de modelos
+### 2.3 Inteligência Artificial
+### 2.4 Criar e destruir objetos
+### 2.5 Modelo 3D
+### 2.6 Corte de distancia
+### 2.7 Corte de câmera
+### 2.8 Corte de oclusão
+### 2.9 DrawCalls
+### 2.9 Vertex Shaders
+### 2.10 Geometry Shaders
+### 2.11 Fragment Shader
+### 2.12 Rasterização
+
+
 ![The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards](imagens/The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards.jpg)
 
 - Vertex Shaders - é uma função de processamento gráfico usada para adicionar efeitos especiais a objetos em um ambiente 3D executando operações matemáticas nos dados de vértice dos objetos. Cada vértice pode ser definido por muitas variáveis diferentes. Por exemplo, um vértice é sempre definido por sua localização em um ambiente 3D usando as coordenadas x-, y- e z-. Os vértices também podem ser definidos por cores, texturas e características de iluminação. Os Vertex Shaders não alteram realmente o tipo de dados; eles simplesmente mudam os valores dos dados, de modo que um vértice emerge com uma cor diferente, texturas diferentes ou uma posição diferente no espaço.
