@@ -135,7 +135,7 @@ Ao clicar no botão Sair vamos chamar a função **Quit Game** que finaliza do j
 <a name="4"></a>
 ## 4. Executando o menu
 Neste passo vamos criar um Level Vazio executar o menu.   
-Caso o Widget seja o menu principal que deverá ser chamado no início do jogo é necessário adicionar o mesmo em [Level e inicialização](https://myerco.github.io/CafeGeek/ue4_blueprint/organizando.html#2)
+Caso o Widget seja o menu principal que deverá ser chamado no início do jogo é necessário adicionar o mesmo em [Level e inicialização](https://myerco.github.io/CafeGeek/ue4_blueprint/organizando_pastas_e_logo.html#2)
 1. *Empty Level* (Level Vazio).    
 ![blueprint_empty_level](imagens/interface_ui_hud/blueprint_empty_level.jpg)
 1. Em **Open Level blueprint** vamos adicionar a lógica para criar um objeto do tipo **BP_HUD_Demo** e adicionar na tela com a função **AddToViewPort**.   
