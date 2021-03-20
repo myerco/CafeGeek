@@ -99,7 +99,9 @@ Delta seconds = Intervalo entre os quadros.
 ### 3.2  Utilizando o **Delta seconds**
 Vamos controlar o movimento do objeto independente do *FPS*.  
 
-![bluprint_delta_seconds](imagens/tempoespaco/bluprint_delta_seconds.jpg)
+![blueprint_logic_simple](imagens/tempoespaco/blueprint_logic_simple.jpg)
+
+![blueprint_delta_seconds](imagens/tempoespaco/blueprint_delta_seconds.jpg)
 - **Distancia** - Valor = 1000
 - **Velocidade** - Valor = 10
 - O resultado esperado é que mesmo com um *FPS* baixo o movimento ainda se mantenha uniforme.

@@ -53,7 +53,8 @@ Aprenda e utilize modelos de organização projeto de jogos digitais, auxiliando
 - Interação com outros jogadores;   
 - Planejamento do projeto do jogo;      
 - Versionamento dos elementos do projeto;     
-- Implemente seu protótipo de projeto;          
+- Implemente seu protótipo de projeto;
+
 [Iniciar](https://myerco.github.io/CafeGeek/porque_eu_amo_game_design/index.html)      
 
 ***
@@ -68,7 +69,8 @@ Narrativa de jogos e construção de personagens. Construa sua narrativa, o temp
 - Defina o papel dos personagens auxiliares;    
 - O combate;    
 - Objetivos da história;      
-- Evolução do personagens;    
+- Evolução do personagens;  
+
 [Iniciar](https://myerco.github.io/CafeGeek/me_conte_uma_historia/index.html)
 
 ***
