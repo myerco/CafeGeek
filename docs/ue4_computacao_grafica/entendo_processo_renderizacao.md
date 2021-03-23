@@ -35,19 +35,26 @@ tags: [Unreal Engine,Rendering,Maya]
 ## 2. O processo de renderização
 ![ue4_cpu_processos](imagens/ue4_gpu_pipeline.jpg)
 
-### 2.1 Animações
-### 2.2 Posição de modelos
-### 2.3 Inteligência Artificial
-### 2.4 Criar e destruir objetos
-### 2.5 Modelo 3D
-### 2.6 Corte de distancia
-### 2.7 Corte de câmera
-### 2.8 Corte de oclusão
-### 2.9 DrawCalls
-### 2.9 Vertex Shaders
-### 2.10 Geometry Shaders
-### 2.11 Fragment Shader
-### 2.12 Rasterização
+### 2.1 Aplicação
+1. **Animações** - Calcula quando as Animações iniciam e terminam.
+1. **Posição de modelos** - Calcula a posição dos objetos e sua influência.
+1. **Inteligência Artificial** - Determina como o objeto se movimenta e qual o seu estado.
+1. **Criar e dstruir objetos** - Necessário para determinar onde os objetos aparecem no mundo.
+
+### 2.2 Geometria
+A etapa de geometria (com pipeline de geometria), que é responsável pela maioria das operações com polígonos e seus vértices (com pipeline de vértices), pode ser dividida nas c tarefas a seguir. Depende da implementação específica de como essas tarefas são organizadas como etapas reais do pipeline paralelo.
+
+1. **Modelo 3D** - Processo onde os objetos que formar os objetos são desenhados na cena, entre eles vértices, triângulos e o sistema de coordenadas.
+1. **Corte de distancia** - Remove objetos que estão além de um valor X da câmera.
+1. **Corte de câmera** -Remove objetos que não estão a frente da câmera.
+1. **Corte de oclusão** - Processo que desativa a renderização de objetos quando eles não são vistos pela câmera porque estão obscurecidos (obstruídos) por outros objetos. Isso não acontece automaticamente na computação gráfica 3D, pois na maioria das vezes os objetos mais distantes da câmera são desenhados primeiro e os objetos mais próximos são desenhados por cima deles (isso é chamado de “overdraw”).
+
+### 2.3 Renderização
+1. **DrawCalls** - Grupo de polígonos que compartilham a mesmo material.
+1. **Vertex Shaders** - 
+1. **Geometry Shaders** -
+1. **Fragment Shader** -
+1. **Rasterização** -
 
 
 ![The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards](imagens/The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards.jpg)
@@ -122,3 +129,4 @@ https://www.tecmundo.com.br/video-game-e-jogos/863-o-que-e-vertex-shading-.htm
 https://www.khronos.org/opengl/wiki/Geometry_Shader
 https://www.khronos.org/opengl/wiki/Fragment_Shader
 https://en.wikipedia.org/wiki/Rendering_(computer_graphics)
+https://unreal.tips/en/what-are-draw-calls/
