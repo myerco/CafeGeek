@@ -45,6 +45,7 @@ Construindo um meio para que objetos individuais separados interagirem uns com o
 <a name="2"></a>  
 ## 2. Estrutura da comunicação entre Blueprints
 ![blueprint_comunicacao_entre_atores](imagens/comunicacao/blueprint_comunicacao_entre_atores.jpg)
+*Figura: Comunicação entre Blueprints - Autor*
 
 A comunicação envolverá o seguinte:
 - Um projeto de envio, um remetente de informações (Emissor).
