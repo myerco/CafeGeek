@@ -118,13 +118,14 @@ Podemos fixar o *FPS* do projeto utilizando o menu **Project settings->Use fixed
 
 <a name="4"></a>
 ## 4. Timeline
-Os nós da linha de tempo são nós especiais dentro de Blueprints que permitem que uma animação simples baseada em tempo seja projetada e reproduzida rapidamente com base em eventos no jogo. As linhas do tempo são como sequências de matinê simples, pois permitem que valores simples sejam animados e que eventos sejam disparados ao longo do tempo. Eles podem ser editados diretamente dentro do editor Blueprint clicando duas vezes na Linha de tempo na guia Gráfico ou na guia Meu Blueprint. Eles são especificamente construídos para lidar com tarefas simples e não cinematográficas, como abrir portas, alterar luzes ou executar outras manipulações centradas no tempo para atores em uma cena.
+Os nós da linha de tempo são nós especiais dentro de Blueprints que permitem que uma animação simples baseada em tempo seja projetada e reproduzida rapidamente com base em eventos no jogo. As linhas do tempo são como sequências de matinê simples, pois permitem que valores simples sejam animados e que eventos sejam disparados ao longo do tempo.
 
 <a name="4.1"></a>
 ### 4.1 Utilizando variáveis no Timeline
 Para este exemplo vamos utilizar um objeto *Lampada* do tipo **Light Component**  para apresentar a estrutura de nó *TratamentoLuz* do tipo **TimeLine**.
 
-1. Criamos o objeto *BP_ControleLuz* do tipo **Box Trigger**.     
+1. Criamos o objeto *BP_ControleLuz* do tipo **Box Trigger**.   
+      
   ![blueprint_timeline_boxcollision](imagens/tempoespaco/blueprint_timeline_boxcollision.jpg)
 1. Em *BP_ControleLuz* adicionamos a variável *Lampada* do tipo **PointLight** e a configuramos como publica.
 1. Adicionamos na cena um componente **PointLight**.

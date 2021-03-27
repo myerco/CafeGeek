@@ -22,45 +22,57 @@ tags: [Unreal Engine,Rendering,Maya]
 1. [Rasterizing e Overshading](#3)     
 
 ## 1. Entendendo como os processos são executados
-![ue4_cpu_processos](imagens/ue4_cpu_processos.jpg)
+Em computação, um processo é uma instância de um programa de computador que está sendo executada. Ele contem o código do programa e sua atividade atual. Dependendo do sistema operacional, um processo pode ser feito de várias linhas de execução que executam instruções concorrentemente. O sistema operacional seleciona um processo da fila de aptos para receber o processador. O processo selecionado passa do estado de apto para o estado executando. O módulo do sistema operacional que faz essa seleção é chamado de escalonador.
 
-### 1.1 Criado
-### 1.2 Apto
-### 1.3 Execução
-### 1.4 Bloqueado
-### 1.5 Destruição
-### 1.6 RPC
-### 1.7 Threads
+![ue4_cpu_processos](imagens/ue4_cpu_processos.jpg)
+*Figura: Fila de Processos  - Autor*
+
+1. **Criado** - Enquanto o processo está sendo criado, esse é seu estado.
+1. **Apto** -Esse é como um estado de ponto de partida, aqui ficam os processos que estão prontos para serem processados.
+1. **Espera** - Esse é um estado especial que na verdade está mais para uma característica de outros estados, basta observar os processos que estão nos estado de prontidão e os que estão aguardando eventos, pois ambos também estão em um estado de espera.
+1. **Execução** - Quando o processo está sendo executado, seu estado passa a ser este.
+1. **Encerrado** -Esse é o último estado  de um processo, sua finalização, seja de forma voluntária, como quando ele não é mais necessário ou de forma involuntária, como as ocasionadas por um erro.
+1. **RPC** - Remote Procedure Call (Chamada de Procedimento Remoto) é uma tecnologia para a criação de programas distribuídos servidor/cliente que provê um paradigma de comunicação de alto nível no sistema operacional, á presumindo a existência de um protocolo de transporte, como TCP/IP ou UDP, para carregar a mensagem entre os programas comunicantes.
+1. **Threads** - Thread é um pequeno programa que trabalha como um subsistema, sendo uma forma de um processo se auto dividir em duas ou mais tarefas. É o termo em inglês para Linha ou Encadeamento de Execução. Essas tarefas múltiplas podem ser executadas simultaneamente para rodar mais rápido do que um programa em um único bloco ou praticamente juntas, mas que são tão rápidas que parecem estar trabalhando em conjunto ao mesmo tempo.
+
 
 ## 2. O processo de renderização
+A renderização GPU torna possível usar sua placa de vídeo para renderização, ao invés da CPU. Isso pode acelerar a renderização, porquê as GPUs modernas são desenhadas para fazer muito processamento de números. Por outro lado, elas também têm algumas limitações na renderização de cenas complexas devido à memória mais limitada, e questões com interatividade quando usando a mesma placa de vídeo para visualização e renderização. A renderização ocorre mediante o envio de comandos para a GPU, que gera a tela de forma assíncrona. Em algumas situações, a GPU pode ter muito trabalho para fazer, e a CPU terá de aguardar antes de enviar novos comandos.
+
 ![ue4_cpu_processos](imagens/ue4_gpu_pipeline.jpg)
+*Figura: Pipeline de computação de gráfica - autor*
 
 ### 2.1 Aplicação
-1. **Animações** - Calcula quando as Animações iniciam e terminam.
-1. **Posição de modelos** - Calcula a posição dos objetos e sua influência.
-1. **Inteligência Artificial** - Determina como o objeto se movimenta e qual o seu estado.
-1. **Criar e dstruir objetos** - Necessário para determinar onde os objetos aparecem no mundo.
+Etapa de toda a lógica da mecânica dos elementos que são apresentados.
+
+1. **Animations** - Animações calcula quando as Animações iniciam e terminam.
+1. **System Coordinates** - Posição de modelos calcula a posição dos objetos e sua influência.
+1. **Artificial intelligence** - Inteligência Artificial determina como o objeto se movimenta e qual o seu estado.
+1. **Spawn and Hide objects** - Ou Criar e destruir objetos é a lógica necessária para determinar onde os objetos aparecem no mundo.
 
 ### 2.2 Geometria
-A etapa de geometria (com pipeline de geometria), que é responsável pela maioria das operações com polígonos e seus vértices (com pipeline de vértices), pode ser dividida nas c tarefas a seguir. Depende da implementação específica de como essas tarefas são organizadas como etapas reais do pipeline paralelo.
+A etapa de geometria (com pipeline de geometria), que é responsável pela maioria das operações com polígonos e seus vértices (com pipeline de vértices), pode ser dividida nas tarefas a seguir. Depende da implementação específica de como essas tarefas são organizadas como etapas reais do pipeline paralelo.
 
-1. **Modelo 3D** - Processo onde os objetos que formar os objetos são desenhados na cena, entre eles vértices, triângulos e o sistema de coordenadas.
-1. **Corte de distancia** - Remove objetos que estão além de um valor X da câmera.
-1. **Corte de câmera** -Remove objetos que não estão a frente da câmera.
-1. **Corte de oclusão** - Processo que desativa a renderização de objetos quando eles não são vistos pela câmera porque estão obscurecidos (obstruídos) por outros objetos. Isso não acontece automaticamente na computação gráfica 3D, pois na maioria das vezes os objetos mais distantes da câmera são desenhados primeiro e os objetos mais próximos são desenhados por cima deles (isso é chamado de “overdraw”).
+1. **Model 3D** - Modelo 3D é o processo onde os objetos são desenhados na cena, entre eles vértices, triângulos e o sistema de coordenadas.
+1. **Distance Culling** - *Distance Culling* ou Corte de Distância Remove objetos que estão além de um valor X da câmera.
+1. **Frustim Culling** - *Frustim Culling* ou Corte de câmera remove objetos que não estão a frente da câmera.
+1. **Occlusion Culling** - *Occlusion Culling* ou Corte de oclusão é o processo que desativa a renderização de objetos quando eles não são vistos pela câmera porque estão obscurecidos (obstruídos) por outros objetos. Isso não acontece automaticamente na computação gráfica 3D, pois na maioria das vezes os objetos mais distantes da câmera são desenhados primeiro e os objetos mais próximos são desenhados por cima deles (isso é chamado de “overdraw”).
 
 ### 2.3 Renderização
-1. **DrawCalls** - Grupo de polígonos que compartilham a mesmo material.
-1. **Vertex Shaders** - 
-1. **Geometry Shaders** -
-1. **Fragment Shader** -
-1. **Rasterização** -
+1. **DrawCalls** - Grupo de polígonos que compartilham a mesmo material. Os desenhos de chamadas, em uma tradução pé da letra, basicamente são quantos objetos estão
+sendo desenhados na tela. Você deseja manter esse número baixo para manter um bom desempenho, portanto, nas luzes dos pixels, fazem os objetos serem desenhados tantas vezes
+quanto as luzes que os afetam.
+1. **Vertex Shaders** - É uma função de processamento gráfico usada para adicionar efeitos especiais a objetos em um ambiente 3D executando operações matemáticas nos dados de vértice dos objetos. Cada vértice pode ser definido por muitas variáveis diferentes. Por exemplo, um vértice é sempre definido por sua localização em um ambiente 3D usando as coordenadas x-, y- e z-. Os vértices também podem ser definidos por cores, texturas e características de iluminação. Os Vertex Shaders não alteram realmente o tipo de dados; eles simplesmente mudam os valores dos dados, de modo que um vértice emerge com uma cor diferente, texturas diferentes ou uma posição diferente no espaço.
+1. **Pixel Shader** - Os Pixel Shader, calculam a cor e outros atributos de cada "fragmento": uma unidade de trabalho de renderização que afeta no máximo um único pixel de saída. Os tipos mais simples de sombreadores de pixel geram um pixel da tela como um valor de cor; sombreadores mais complexos com várias entradas / saídas também são possíveis. Os sombreadores de pixel variam desde simplesmente sempre a saída da mesma cor, até a aplicação de um valor de iluminação, até o mapeamento de saliências, sombras, realces especulares, translucidez e outros fenômenos. Eles podem alterar a profundidade do fragmento (para buffer Z) ou produzir mais de uma cor se vários destinos de renderização estiverem ativos.
+1. **Geometry Shaders** - Recebe como entrada um conjunto de vértices que formam uma única primitiva, por exemplo, um ponto ou triângulo. O sombreador de geometria pode então transformar esses vértices conforme achar necessário antes de enviá-los para o próximo estágio de sombreador. O que torna o shader de geometria interessante é que ele é capaz de converter a primitiva original (conjunto de vértices) em primitivas completamente diferentes, possivelmente gerando mais vértices do que os inicialmente dados.
+1. **Fragment Shader** - É uma unidade programável da GPU que opera em cada fragmento produzido durante a rasterização e seus dados associados.
+1. **Rasterization** - O termo rasterização, em geral, pode ser aplicado a qualquer processo pelo qual informações tipo vetorial podem ser convertidas num formato de pontos ou pixels.
+Um exemplo seria uma reta descrita matematicamente é infinitesimalmente contínua, não importa o quão pequeno um trecho da reta é observado, é impossível determinar qual é o
+próximo ponto depois de um determinado ponto; não existem quebras.
 
 
 ![The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards](imagens/The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards.jpg)
 
-- Vertex Shaders - é uma função de processamento gráfico usada para adicionar efeitos especiais a objetos em um ambiente 3D executando operações matemáticas nos dados de vértice dos objetos. Cada vértice pode ser definido por muitas variáveis diferentes. Por exemplo, um vértice é sempre definido por sua localização em um ambiente 3D usando as coordenadas x-, y- e z-. Os vértices também podem ser definidos por cores, texturas e características de iluminação. Os Vertex Shaders não alteram realmente o tipo de dados; eles simplesmente mudam os valores dos dados, de modo que um vértice emerge com uma cor diferente, texturas diferentes ou uma posição diferente no espaço.
-- Geometry Program - recebe como entrada um conjunto de vértices que formam uma única primitiva, por exemplo, um ponto ou triângulo. O sombreador de geometria pode então transformar esses vértices conforme achar necessário antes de enviá-los para o próximo estágio de sombreador. O que torna o shader de geometria interessante é que ele é capaz de converter a primitiva original (conjunto de vértices) em primitivas completamente diferentes, possivelmente gerando mais vértices do que os inicialmente dados.
 
 1. O custo para renderizar muitos poligonos é muitas vezes menor que o Drawcall.
 1. 50.000 triângulos podem rodar pior que 50 milhões dependendo da implementação.
@@ -130,3 +142,5 @@ https://www.khronos.org/opengl/wiki/Geometry_Shader
 https://www.khronos.org/opengl/wiki/Fragment_Shader
 https://en.wikipedia.org/wiki/Rendering_(computer_graphics)
 https://unreal.tips/en/what-are-draw-calls/
+https://deinfo.uepg.br/~alunoso/2017/RPC/
+https://bassemtodary.wordpress.com/tag/pixels/
