@@ -59,40 +59,46 @@ A etapa de geometria (com pipeline de geometria), que é responsável pela maior
 1. **Occlusion Culling** - *Occlusion Culling* ou Corte de oclusão é o processo que desativa a renderização de objetos quando eles não são vistos pela câmera porque estão obscurecidos (obstruídos) por outros objetos. Isso não acontece automaticamente na computação gráfica 3D, pois na maioria das vezes os objetos mais distantes da câmera são desenhados primeiro e os objetos mais próximos são desenhados por cima deles (isso é chamado de “overdraw”).
 
 ### 2.3 Renderização
-1. **DrawCalls** - Grupo de polígonos que compartilham a mesmo material. Os desenhos de chamadas, em uma tradução pé da letra, basicamente são quantos objetos estão
-sendo desenhados na tela. Você deseja manter esse número baixo para manter um bom desempenho, portanto, nas luzes dos pixels, fazem os objetos serem desenhados tantas vezes
-quanto as luzes que os afetam.
+1. **DrawCalls** - Grupo de polígonos que compartilham a mesmo material. Os desenhos de chamadas, em uma tradução pé da letra, basicamente são quantos objetos estão sendo desenhados na tela. Você deseja manter esse número baixo para manter um bom desempenho, portanto, nas luzes dos pixels, fazem os objetos serem desenhados tantas vezes quanto as luzes que os afetam.
+  ![](https://unreal.tips/wp-content/uploads/2019/05/Drawcalls.jpg)
+  *Figura: Drawcalls - Unreal Tips*
 1. **Vertex Shaders** - É uma função de processamento gráfico usada para adicionar efeitos especiais a objetos em um ambiente 3D executando operações matemáticas nos dados de vértice dos objetos. Cada vértice pode ser definido por muitas variáveis diferentes. Por exemplo, um vértice é sempre definido por sua localização em um ambiente 3D usando as coordenadas x-, y- e z-. Os vértices também podem ser definidos por cores, texturas e características de iluminação. Os Vertex Shaders não alteram realmente o tipo de dados; eles simplesmente mudam os valores dos dados, de modo que um vértice emerge com uma cor diferente, texturas diferentes ou uma posição diferente no espaço.
+  ![Phong-shading-sample](https://upload.wikimedia.org/wikipedia/commons/8/84/Phong-shading-sample.jpg)     
+  *Figura: Phong-shading - wikipedia*
 1. **Pixel Shader** - Os Pixel Shader, calculam a cor e outros atributos de cada "fragmento": uma unidade de trabalho de renderização que afeta no máximo um único pixel de saída. Os tipos mais simples de sombreadores de pixel geram um pixel da tela como um valor de cor; sombreadores mais complexos com várias entradas / saídas também são possíveis. Os sombreadores de pixel variam desde simplesmente sempre a saída da mesma cor, até a aplicação de um valor de iluminação, até o mapeamento de saliências, sombras, realces especulares, translucidez e outros fenômenos. Eles podem alterar a profundidade do fragmento (para buffer Z) ou produzir mais de uma cor se vários destinos de renderização estiverem ativos.
+  ![Shading_models](https://upload.wikimedia.org/wikipedia/commons/0/0f/Shading_models.png)
+  *Figura: Shading_models - wikipedia*
 1. **Geometry Shaders** - Recebe como entrada um conjunto de vértices que formam uma única primitiva, por exemplo, um ponto ou triângulo. O sombreador de geometria pode então transformar esses vértices conforme achar necessário antes de enviá-los para o próximo estágio de sombreador. O que torna o shader de geometria interessante é que ele é capaz de converter a primitiva original (conjunto de vértices) em primitivas completamente diferentes, possivelmente gerando mais vértices do que os inicialmente dados.
+  ![The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards](imagens/The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards.jpg)
+  *Figura: Pipeline OpenGL*
 1. **Fragment Shader** - É uma unidade programável da GPU que opera em cada fragmento produzido durante a rasterização e seus dados associados.
 1. **Rasterization** - O termo rasterização, em geral, pode ser aplicado a qualquer processo pelo qual informações tipo vetorial podem ser convertidas num formato de pontos ou pixels.
-Um exemplo seria uma reta descrita matematicamente é infinitesimalmente contínua, não importa o quão pequeno um trecho da reta é observado, é impossível determinar qual é o
-próximo ponto depois de um determinado ponto; não existem quebras.
+Um exemplo seria uma reta descrita matematicamente é infinitesimalmente contínua, não importa o quão pequeno um trecho da reta é observado, é impossível determinar qual é o próximo ponto depois de um determinado ponto; não existem quebras.   
+  ![asterization/rasterization-triangle1](https://www.scratchapixel.com/images/upload/rasterization/rasterization-triangle1.png?)   
+  *Figura: Rasterization - scratchapixel*
 
 
-![The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards](imagens/The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards.jpg)
 
-
+### 2.4 Conclusão
 1. O custo para renderizar muitos poligonos é muitas vezes menor que o Drawcall.
 1. 50.000 triângulos podem rodar pior que 50 milhões dependendo da implementação.
 1. drwacall tem uma despesa básica, portanto, otimizar poli de baixo para super poli pode fazer nenhuma diferença.  
 
-## 1. O aplicativo e plugin Renderdoc
-1. Ativando o Plugin no Unreal Engine 4.
-  ![](imagens/ue4_renderdoc_plugin.jpg)
+## 3. O aplicativo e plugin Renderdoc
+**RenderDoc** é uma ferramenta de depuração de quadros de código aberto e gratuita que pode ser usada para analisar quadros únicos gerados por outros programas de software, como jogos.
+
+### 3.1 Ativando o Plugin no Unreal Engine 4
+1. Plugin
+  ![ue4_renderdoc_plugin](imagens/ue4_renderdoc_plugin.jpg)     
   *Figura: Edit->Plugins*  
-
 1. Instalação do aplicativo no Windows.
-Baixe aqui
-1. Capturando o frame desejado.
-  ![](imagens/ue4_renderdoc_plugin_view.jpg)      
+  [Baixe aqui](https://renderdoc.org/)
+1. Capturando o frame desejado.     
+  ![ue4_renderdoc_plugin_view](imagens/ue4_renderdoc_plugin_view.jpg)      
   *Figura: Icon no Viewport*  
-
 1. Carregando o frame capturado.
-  ![](imagens/ue4_renderdoc.jpg)
+  ![ue4_renderdoc](imagens/ue4_renderdoc.jpg)
   *Figura: Aba Localhost - UEEditor*  
-
 1. Apresentando a textura carregada e suas saídas por processamento.
   ![](imagens/ue4_renderdoc_texture_viewer.jpg)
   *Figura: A aba Textures Viewer*  
@@ -101,6 +107,7 @@ Baixe aqui
   *Figura: Event Browser*  
   - Para apresentar o tempo de duração de cada Drawcall clique em **Time Durations for the Drawcalls**.
 
+### 3.2 Conclusão
 1. Componentes = DrawCalls
 1. Componentes ocluem e são renderizados um por um.
 1. Mesclar em um único ator geralmente não faz diferença para a renderização.
@@ -115,6 +122,19 @@ Baixe aqui
   - pior para calculo de colisão.
   - pior para memoria.
 
+- **Geometry Shader**
+É um estágio opcional onde recebe como entrada um conjunto de vértices que formam uma   única primitiva, por exemplo, um ponto ou triângulo. O Geometry Shader pode então   transformar esses vértices como achar adequado antes de enviá-los para o próximo estágio   de Shader. O que torna-o interessante é que ele é capaz de converter a primitiva original  (conjunto de vértices) em primitivas completamente diferentes, possivelmente gerando mais vértices do que os inicialmente dados.
+
+- **Vertex Shader** -
+Uma função programável em placas gráficas que oferece flexibilidade ao programador na renderização de uma imagem. O sombreador de vértice é usado para transformar os atributos dos vértices (pontos de um triângulo), como cor, textura, posição e direção do espaço de cores original para o espaço de exibição. Ele permite que os objetos originais sejam distorcidos ou remodelados de qualquer maneira.
+
+- **De Vertex Shader para Pixel Shader** -
+A saída de um sombreador de vértice junto com os mapas de textura vai para um estágio de interpolação e depois para o sombreador de pixel. O sombreador de pixel é outra função programável que permite flexibilidade no sombreamento de um pixel individual. Enquanto os sombreadores de vértice podem ser usados ​​para transformar completamente a forma de um objeto, os sombreadores de pixel são usados ​​para alterar a aparência dos pixels.
+
+- **É sobre jogos** -
+Os desenvolvedores de jogos vão além para renderização gráfica rápida e determinam o equilíbrio certo de sombreamento de vértice e sombreamento de pixel. Às vezes, o sombreador de pixel, também chamado de "sombreador de fragmento", não executa nenhum processamento e atua apenas como uma passagem.
+
+  Introduzido em 2001, sombreadores de vértice e sombreadores de pixel são suportados por OpenGL e DirectX. Veja pipeline gráfico e acelerador gráfico.
 
 
 
@@ -127,20 +147,19 @@ Baixe aqui
 1. [Verttex Shaders](https://pt.wikipedia.org/wiki/Vertex_shader)
 1. [Deferred Shading](https://learnopengl.com/Advanced-Lighting/Deferred-Shading)
 1. [Normal Mapping](https://learnopengl.com/Advanced-Lighting/Normal-Mapping)
-
 1. [General-purpose computing on graphics processing units](https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units)
-
-https://www.gamersnexus.net/guides/2429-gpu-rendering-and-game-graphics-explained
-https://www.nvidia.com/en-us/drivers/feature-vertexshader/
-https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units
-https://gamedevelopment.tutsplus.com/articles/forward-rendering-vs-deferred-rendering--gamedev-12342
-https://en.wikipedia.org/wiki/Graphics_pipeline
-https://en.wikipedia.org/wiki/Vertex_pipeline
-https://www.pcmag.com/encyclopedia/term/vertex-shader
-https://www.tecmundo.com.br/video-game-e-jogos/863-o-que-e-vertex-shading-.htm
-https://www.khronos.org/opengl/wiki/Geometry_Shader
-https://www.khronos.org/opengl/wiki/Fragment_Shader
-https://en.wikipedia.org/wiki/Rendering_(computer_graphics)
-https://unreal.tips/en/what-are-draw-calls/
-https://deinfo.uepg.br/~alunoso/2017/RPC/
-https://bassemtodary.wordpress.com/tag/pixels/
+1. [gpu-rendering-and-game-graphics-explained](https://www.gamersnexus.net/guides/2429-gpu-rendering-and-game-graphics-explained)
+1. [feature-vertexshader](https://www.nvidia.com/en-us/drivers/feature-vertexshader/)
+1. [General-purpose_computing_on_graphics_processing_units](https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units)
+1. [articles/forward-rendering-vs-deferred-rendering--gamedev-12342](https://gamedevelopment.tutsplus.com/articles/forward-rendering-vs-deferred-rendering--gamedev-12342)
+1. [Graphics_pipeline](https://en.wikipedia.org/wiki/Graphics_pipeline)
+1. [Vertex_pipeline](https://en.wikipedia.org/wiki/Vertex_pipeline)
+1. [vertex-shader](https://www.pcmag.com/encyclopedia/term/vertex-shader)
+1. [video-game-e-jogos/863-o-que-e-vertex-shading](https://www.tecmundo.com.br/video-game-e-jogos/863-o-que-e-vertex-shading-.htm)
+1. [Geometry_Shader](https://www.khronos.org/opengl/wiki/Geometry_Shader)
+1. [Fragment_Shader](https://www.khronos.org/opengl/wiki/Fragment_Shader)
+1. [computer_graphics](https://en.wikipedia.org/wiki/Rendering_(computer_graphics))
+1. [what-are-draw-calls](https://unreal.tips/en/what-are-draw-calls/)
+1. [RPC](https://deinfo.uepg.br/~alunoso/2017/RPC/)
+1. [pixels](https://bassemtodary.wordpress.com/tag/pixels/)
+1. [RenderDoc](https://en.everybodywiki.com/RenderDoc)
