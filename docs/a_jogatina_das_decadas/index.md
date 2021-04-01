@@ -8,10 +8,16 @@ tags: [narrativa, Roteirização, jogos digitais]
 ![cafegeek_roteirizacao](imagens/introducao_jogatina_das_decadas.jpg)
 
 # A jogatina das décadas
-Apresentar a história dos jogos na sociedade as classificações e as formas de mercado.
+A história dos jogos na sociedade e seus diferentes tipos e evolução. Conheça a história dos jogos na sociedade e estude os conceitos da suas estruturas.
 
+## Habilidades que serão aprendidas  
+- Analise e conceitue jogos;    
+- Analise e defina tipos de jogos;    
+- Analise e defina os tipos de jogadores;      
+- Conheça o mercado de jogos digitais;    
+- Implemente um protótipo de jogo;    
+---
 ## Índice
-
 1. [O que é jogo?](o_que_e_jogo.html)
 1. [Analisando os tipos de jogos](analisando_tipos_de_jogos.html)
 1. [Jogos Eletrônicos](jogos_eletronicos.html)

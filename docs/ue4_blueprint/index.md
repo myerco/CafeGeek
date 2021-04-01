@@ -1,7 +1,7 @@
 ---
 title: Desenvolvimento de jogos utilizando Unreal Engine 4
 description: Estrutura do curso de desenvolvimento de jogos utilizando Unreal Engine 4
-tags: [Unreal Engine]
+tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint]
 ---
 
 [CafeGeek](https://myerco.github.io/CafeGeek)
@@ -9,7 +9,18 @@ tags: [Unreal Engine]
 ![introducao desenvolvimento jogos ue4](imagens/introducao_desenvolvimento_jogos_ue4.jpg)
 
 # Desenvolvimento de jogos utilizando Unreal Engine 4
-
+Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer.    
+## Habilidades que serão aprendidas
+- Configuração e organização de projetos;
+- Analisar e aplicar lógica de programação utilizando *Blueprint* e *C++*;
+- Implementar regras de tempo e espaço;
+- Implementar interface do usuário;
+- Estruturar e configurar materiais, terrenos e iluminação;
+- Implementar ambientes Multijogador;
+- Implementar inteligência artificial;
+- Construir animação de personagens;
+- Implementar Efeitos especiais.
+---
 ## Conteúdo do curso
 <a name="1"></a>
 1. [Introdução](introducao_ue4_blueprint.html)

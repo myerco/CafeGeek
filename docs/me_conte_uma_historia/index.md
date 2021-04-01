@@ -8,8 +8,17 @@ tags: [narrativa, Roteirização, jogos digitais]
 ![introducao_me_conta_uma_historia](imagens/introducao_me_conta_uma_historia.jpg)
 
 # Me conte uma história
-Construção da narrativa, o tempo, o mundo, os personagens, os objetivos e os capítulos da história.
-
+Narrativa de jogos e construção de personagens. Construa sua narrativa, o tempo, o mundo, os personagens, os objetivos e os capítulos da história.
+## Habilidades que serão aprendidas  
+- Aprenda a organizar suas ideias;    
+- Analise e construa elementos que compõem a história;      
+- O Herói de mil faces;     
+- Defina o papel e motivação dos inimigos;   
+- Defina o papel dos personagens auxiliares;    
+- O combate;    
+- Objetivos da história;      
+- Evolução do personagens;  
+---
 ## Índice
 1. [Por dentro da cabeça do Game Design](#1)    
     1. [Características do Game Design](#1.1)

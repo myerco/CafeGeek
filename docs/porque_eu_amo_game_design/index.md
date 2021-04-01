@@ -1,14 +1,22 @@
 ---
 title: Porque eu amo Game Design
 description: Apresentar técnicas de game design
-tags: [narrativa, Roteirização, jogos digitais]
+tags: [narrativa, Roteirização, jogos digitais,Planejamento, game design]
 ---
 
 [CafeGeek](https://myerco.github.io/CafeGeek)
 
 # Porque eu amo Game Design
-Apresentar componentes para produção dos jogos, formas de planejamento do desenvolvimento e os papéis envolvidos nos jogos eletrônicos.
-
+Aprenda e utilize modelos de organização projeto de jogos digitais, auxiliando a administração de tarefas, recursos, custos e tempo.  
+## Habilidades que serão aprendidas  
+- Analise os componentes do Level Design;     
+- Gameplay - história, mecânica e experiência;     
+- A interface com o jogador;    
+- Interação com outros jogadores;   
+- Planejamento do projeto do jogo;      
+- Versionamento dos elementos do projeto;     
+- Implemente seu protótipo de projeto;
+---
 ##  Índice
 1. [Introdução a Level Design](#1)
     1. [Analisar os componentes do level design](#1)
