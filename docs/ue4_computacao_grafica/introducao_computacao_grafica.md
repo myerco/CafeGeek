@@ -1,9 +1,9 @@
 ---
 title: Introdução ao curso de Computação Gráfica com Unreal Engine e Autodesk Maya
 description: Introdução ao curso de Computação Gráfica com Unreal Engine e Autodesk Maya
-tags: [Unreal Engine,Rendering,Maya]
+tags: [Unreal Engine,Rendering,Maya, computação gráfica]
 ---
-[CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_computacao_grafica/index.html)
+[CafeGeek](https://myerco.github.io/CafeGeek)  / [Computação Gráfica com Unreal Engine e Autodesk Maya](https://myerco.github.io/CafeGeek/ue4_computacao_grafica/index.html)
 
 # Introdução ao curso de Computação Gráfica com Unreal Engine e Autodesk Maya
 
@@ -24,7 +24,6 @@ Utilizando e entendendo os elementos e as técnicas envolvidas na geração de i
 
 ![384px-Blender_2.45_screenshot](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Blender_2.45_screenshot.jpg/384px-Blender_2.45_screenshot.jpg)     
 *Figura: Computer graphics - Wikipedia*
-
 
 <a name="2"></a>
 ## 2. Computação gráfica para jogos digitais

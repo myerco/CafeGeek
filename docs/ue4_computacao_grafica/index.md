@@ -12,7 +12,7 @@ tags: [Unreal Engine,Rendering,Maya,computação gráfica]
 Conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya.  
 
 ## Habilidades que serão aprendidas  
-- Como são formados os objetos em gráficos 3D.    
+- Como são formados os objetos em gráficos 3D.
 - Processo de renderização.
 ---
 ## Conteúdo do curso
