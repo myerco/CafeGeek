@@ -125,7 +125,7 @@ Os nós da linha de tempo são nós especiais dentro de Blueprints que permitem 
 Para este exemplo vamos utilizar um objeto *Lampada* do tipo **Light Component**  para apresentar a estrutura de nó *TratamentoLuz* do tipo **TimeLine**.
 
 1. Criamos o objeto *BP_ControleLuz* do tipo **Box Trigger**.   
-      
+
   ![blueprint_timeline_boxcollision](imagens/tempoespaco/blueprint_timeline_boxcollision.jpg)
 1. Em *BP_ControleLuz* adicionamos a variável *Lampada* do tipo **PointLight** e a configuramos como publica.
 1. Adicionamos na cena um componente **PointLight**.
@@ -211,7 +211,7 @@ Exemplo de calculo de velocidade.
 
 <a name="9"></a>
 ## 9. Sistema de coordenadas
-O sistema de coordenadas descreve uma maneira de usar números para especificar a localização de um ponto (ou pontos) no espaço 2D ou 3D. Em um motor de jogo, é função do sistema de coordenadas definir a localização de cada objeto e para qual **direção** ele está voltado. Com esses dados você podemos calcular a distância entre objetos, rotação, velocidade e todos os tipos de outras informações úteis.
+O sistema de coordenadas descreve uma maneira de usar números para especificar a localização de um ponto (ou pontos) no espaço 2D ou 3D. Em um motor de jogo, é função do sistema de coordenadas define a localização de cada objeto e para qual **direção** ele está voltado. Com esses dados podemos calcular a distância entre objetos, rotação, velocidade e todos os tipos de outras informações úteis.
 
 <a name="9.1"></a>
 ### 9.1 Plano Cartesiano   
@@ -256,7 +256,7 @@ A Magnitude nos diz o quanto nos movemos. A distância de um movimento provará 
 
 - Direção de A = (6,5)  
 - Distância percorrida = raiz_quadrada(6 ^ *2* + 5 ^*2*) = **7.8**
-> Você pode usar isso para calcular novas posições e movimentos. Suponha que você tenha um objeto na posição (12, 4) e deseja movê-lo na direção (3,2), mas deseja que a distância seja 4 vezes a distância normal. Para fazer isso funcionar e obter a nova posição, você multiplica o vetor pelo escalar.V = (3 * 4, 2 * 4) (12, 8) A nova posição no sistema de coordenadas x / y é obtida adicionando este vetor para a posição original: (12 + 12, 4 + 8) (24, 12)
+> Você pode usar isso para calcular novas posições e movimentos. Suponha que você tenha um objeto na posição (12, 4) e deseja movê-lo na direção (3,2), mas deseja que a distância seja 4 vezes a distância normal. Para fazer isso funcionar e obter a nova posição, você multiplica o vetor pelo escalar V = (3 * 4, 2 * 4) (12, 8) A nova posição no sistema de coordenadas x / y é obtida adicionando este vetor para a posição original: (12 + 12, 4 + 8) (24, 12)
 
 <a name="9.5"></a>
 ### 9.5 Normalização
