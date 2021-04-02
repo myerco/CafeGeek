@@ -246,7 +246,7 @@ Uma direção nos diz como nos mover no sistema de coordenadas x, y. Um valor po
 **Movimentando o elemento B**  
 - B = b(-2,3) **->** b(-1,4)
 
-<a name="94"></a>
+<a name="9.4"></a>
 ### 9.4 Magnitude
 A Magnitude nos diz o quanto nos movemos. A distância de um movimento provará ser muito útil e pode ser calculada apenas com o vetor. Isso é feito usando o Teorema de Pitágoras. Assuma um objeto na posição (50, 25) e queremos movê-lo para (53, 23). Isso significa um Vetor de (3, -2).
 
