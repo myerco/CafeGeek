@@ -24,6 +24,9 @@
 - [In-Editor Testing (Play & Simulate)](https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/InEditorTesting/index.html)
 
 ***
+https://docs.unrealengine.com/en-US/BuildingWorlds/LevelEditor/Viewports/ViewModes/index.html
+https://docs.unrealengine.com/en-US/BuildingWorlds/LevelEditor/Viewports/Basics/index.html
+https://docs.unrealengine.com/en-US/Basics/Actors/Transform/index.html
 
 ## Referências
 - []()

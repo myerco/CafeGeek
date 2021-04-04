@@ -283,13 +283,13 @@ Quando um pixel é totalmente opaco, seu valor alfa é 1 . 0 e este pixel comple
 ***
 
 ## Referências
-- [Game Engine Overview](https://www.slideshare.net/sharadmitra/game-engine-overview)
-- [Polygon Mesh](https://pt.qaz.wiki/wiki/Polygon_mesh)
-- [How to Prepare Textures](https://vvvv.org/documentation/howto-prepare-textures)
-- [Computer Graphics. image treatment](https://www.petervaldivia.com/computer-graphics/)
-- [Maya tutorial : How to move your Pivot Point ( 2 methods )](https://www.youtube.com/watch?v=V4DwKcik4yU)
-- [UE4 Tutorial: Change Pivot Point on BSP or Static Mesh](https://www.youtube.com/watch?v=N1h5mMviSKs)
-- [HSV to RGB Material Function in Unreal Engine](https://ferkizue.blogspot.com/2018/06/hsv-to-rgb-material-function-in-unreal.html)
-- [Alpha compositing](https://en.wikipedia.org/wiki/Alpha_compositing)
-- [Alpha (alpha channel)](https://developer.mozilla.org/en-US/docs/Glossary/Alpha)
-- [RGB Color Codes Chart](https://www.rapidtables.com/web/color/RGB_Color.html)
+1. [Game Engine Overview](https://www.slideshare.net/sharadmitra/game-engine-overview)
+1. [Polygon Mesh](https://pt.qaz.wiki/wiki/Polygon_mesh)
+1. [How to Prepare Textures](https://vvvv.org/documentation/howto-prepare-textures)
+1. [Computer Graphics. image treatment](https://www.petervaldivia.com/computer-graphics/)
+1. [Maya tutorial : How to move your Pivot Point ( 2 methods )](https://www.youtube.com/watch?v=V4DwKcik4yU)
+1. [UE4 Tutorial: Change Pivot Point on BSP or Static Mesh](https://www.youtube.com/watch?v=N1h5mMviSKs)
+1. [HSV to RGB Material Function in Unreal Engine](https://ferkizue.blogspot.com/2018/06/hsv-to-rgb-material-function-in-unreal.html)
+1. [Alpha compositing](https://en.wikipedia.org/wiki/Alpha_compositing)
+1. [Alpha (alpha channel)](https://developer.mozilla.org/en-US/docs/Glossary/Alpha)
+1. [RGB Color Codes Chart](https://www.rapidtables.com/web/color/RGB_Color.html)
