@@ -114,9 +114,9 @@ Para exemplificar a utilização de variáveis Structure vamos implementar um le
 1. Criar um *level* utilizando o modelo *default*.
 1. Implementar um **Blueprint Actor** com o nome **BP_ControleLuzes**.
 1. Adicionar as variáveis :
-  1. **Luzes** - *Array* de tipo **Point Light Component**
-  1. **ControLuzes** - *Array* de tipo **SControleLuzes**
-  1. **Total_luzes** : Integer.
+    1. **Luzes** - *Array* de tipo **Point Light Component**
+    1. **ControLuzes** - *Array* de tipo **SControleLuzes**
+    1. **Total_luzes** : Integer.
 1. Na construção do objeto (*Construction Script*) adicionamos elementos *Point light component* na cena e logo em seguida no array *Luzes*.  
 ![blueprint_loop_array_structures](imagens/estruturas/blueprint_loop_array_structures.jpg)  
 1. Ao terminar o primeiro *loop* reconstruímos o *array* de controle *ControLuzes* e o percorremos em conjunto com o array *luzes* para configurar as propriedades dos elementos.  
