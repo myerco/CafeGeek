@@ -20,6 +20,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 - Implementar inteligência artificial;
 - Construir animação de personagens;
 - Implementar Efeitos especiais.
+
 ---
 ## Conteúdo do curso
 <a name="1"></a>

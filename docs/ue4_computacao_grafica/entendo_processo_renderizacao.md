@@ -163,3 +163,4 @@ Um exemplo seria uma reta descrita matematicamente é infinitesimalmente contín
 1. [RPC](https://deinfo.uepg.br/~alunoso/2017/RPC/)
 1. [pixels](https://bassemtodary.wordpress.com/tag/pixels/)
 1. [RenderDoc](https://en.everybodywiki.com/RenderDoc)
+1. [Interplay of Light](https://interplayoflight.wordpress.com/2017/10/25/how-unreal-renders-a-frame-part-2/)

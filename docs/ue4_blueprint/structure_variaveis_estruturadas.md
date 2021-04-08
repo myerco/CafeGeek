@@ -103,20 +103,25 @@ Para acessar as variáveis que estão dentro da objeto do tipo **Structure** vam
 
 <a name="4"></a>
 ## 4. Exemplo do uso de variáveis Structure
-Vamos utilizar uma *Array* de objetos do tipo **Point Light Component** para que possam ser adicionados na cena no momento de construção do objeto.
+Para exemplificar a utilização de variáveis Structure vamos implementar um level onde os elementos serão construídos dinamicamente, para tal vamos utilizar uma *Array* de objetos do tipo **Point Light Component** para que possam ser adicionados na cena no momento de construção do objeto.
 
 <a name="4.1"></a>
 ### 4.1 Criando o objeto *SControleLuzes*
 ![blueprint_variable_2](imagens/estruturas/blueprint_variable_2.jpg)  
-1. **Luzes** - *Array* de tipo **Point Light Component**
-1. **ControLuzes** - *Array* de tipo **SControleLuzes**
 
 <a name="4.2"></a>
 ### 4.2 Lógica para construir os elementos na cena
-1. Na construção do objeto (*Construction Script*) adicionamos elementos **Point light component** na cena e logo em seguida no array *Luzes*.    
+1. Criar um *level* utilizando o modelo *default*.
+1. Implementar um **Blueprint Actor** com o nome **BP_ControleLuzes**.
+1. Adicionar as variáveis :
+  1. **Luzes** - *Array* de tipo **Point Light Component**
+  1. **ControLuzes** - *Array* de tipo **SControleLuzes**
+  1. **Total_luzes** : Integer.
+1. Na construção do objeto (*Construction Script*) adicionamos elementos *Point light component* na cena e logo em seguida no array *Luzes*.  
 ![blueprint_loop_array_structures](imagens/estruturas/blueprint_loop_array_structures.jpg)  
 1. Ao terminar o primeiro *loop* reconstruímos o *array* de controle *ControLuzes* e o percorremos em conjunto com o array *luzes* para configurar as propriedades dos elementos.  
 ![blueprint_loop_set_struct](imagens/estruturas/blueprint_loop_set_struct.jpg)  
+1. Adicione o elemento **BP_ControleLuzes** na cena para visualizar as luzes sendo construídas.
 
 ***
 ## Referências

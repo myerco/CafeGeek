@@ -6,7 +6,7 @@ tags: [Unreal Engine,data tables]
 [CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
 # Data tables - Tabelas de dados
-**Data tables** são basicamente estruturas de tabelas de dados disponíveis para os desenvolvedores e são definidas por tipos *Structure* para estruturas os dados.  
+Neste capitulo vamos explorar os objetos do tipo **Data tables** que são basicamente estruturas de tabelas de dados disponíveis para os desenvolvedores e são definidas por tipos *Structure*.  
 
 ## Índice
 1. [O que são Data Tables?](#1)
@@ -25,11 +25,11 @@ tags: [Unreal Engine,data tables]
 ## 2. Criando um objeto do tipo Data Table
 1. Primeiramente devemos implementar o **SElementos** do tipo *Structure* que servirá como base para o objeto **Data Table**.     
 
-  ![blueprint_structure](imagens/estruturas/blueprint_structure.jpg)  
+    ![blueprint_structure](imagens/estruturas/blueprint_structure.jpg)  
 1. Vamos definir as seguintes variáveis.      
-![blueprint_structure_variable_3](imagens/estruturas/blueprint_structure_variable_3.jpg)   
+  ![blueprint_structure_variable_3](imagens/estruturas/blueprint_structure_variable_3.jpg)   
 1. Utilizando o menu de contexto escolha *Miscellaneous/Data Table*.          
-![blueprint_datatable_menu](imagens/estruturas/blueprint_datatable_menu.jpg)
+  ![blueprint_datatable_menu](imagens/estruturas/blueprint_datatable_menu.jpg)
 1. Devemos definir a estrutura de dados da tabela utlizando o variável **SElementos** do tipo **Structure**.    
 
   ![blueprint_datatable_row_structure](imagens/estruturas/blueprint_datatable_row_structure.jpg)   
