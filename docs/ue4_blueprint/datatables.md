@@ -1,5 +1,6 @@
 ---
 title: Data tables - Tabelas de dados
+description: Data Tables são estruturas de dados com vários tipos de variáveis agrupados e podem ser utilizadas para armazenamento de forma estática...
 tags: [Unreal Engine,data tables]
 ---
 
