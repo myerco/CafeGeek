@@ -6,7 +6,7 @@ tags: [Unreal Engine,data tables]
 [CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
 # Data tables - Tabelas de dados
-Neste capitulo vamos explorar os objetos do tipo **Data tables** que são basicamente estruturas de tabelas de dados disponíveis para os desenvolvedores e são definidas por tipos *Structure*.  
+Neste capitulo vamos explorar os objetos do tipo **Data tables** que são basicamente tabelas de dados disponíveis para os desenvolvedores e são definidas por tipos *Structure*.  
 
 ## Índice
 1. [O que são Data Tables?](#1)
@@ -31,16 +31,14 @@ Neste capitulo vamos explorar os objetos do tipo **Data tables** que são basica
 1. Utilizando o menu de contexto escolha *Miscellaneous/Data Table*.          
   ![blueprint_datatable_menu](imagens/estruturas/blueprint_datatable_menu.jpg)
 1. Devemos definir a estrutura de dados da tabela utlizando o variável **SElementos** do tipo **Structure**.    
-
   ![blueprint_datatable_row_structure](imagens/estruturas/blueprint_datatable_row_structure.jpg)   
 1. *DTElementos* do tipo *Data Tables*.   
-
   ![blueprint_datatables](imagens/estruturas/blueprint_datatables.jpg)
 
 <a name="3"></a>
 ## 3. Inserindo dados no objeto do tipo Data Table
 Ao abrir o objeto de Data Table é apresentado um editor para manipulação de dados, inserindo, removendo e alterando as linhas.  
-A coluna **RowName** não pode ser repetida, funcionado como identificador único da linha.
+A coluna **RowName** não pode ser repetida, funcionado como identificador único da linha.     
 ![blueprint_datatables_editor](imagens/estruturas/blueprint_datatables_editor.jpg)
 
 <a name="4"></a>
@@ -58,9 +56,9 @@ Este objeto deverá estar na cena para interação com o jogador pois pode aumen
 Este objeto serve como referência na cena para posicionamento de ojetos *BP_Vida*.
 1. Variáveis e componentes.   
 ![blueprint_component_bp_elementos](imagens/estruturas/blueprint_component_bp_elementos.jpg)
+
 - Observe que a variável **Posicao** é do tipo vector e te a propriedade **Show 3D Widget** esta habilitada para facilitar o posicionamento do elemento na cena.  
 ![blueprint_vetor_widget](imagens/estruturas/blueprint_vetor_widget.jpg)   
-
 - O Vetor **Posicao** na cena.   
 ![blueprint_actor_posicao](imagens/estruturas/blueprint_actor_posicao.jpg)
 

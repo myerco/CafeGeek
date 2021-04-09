@@ -6,7 +6,7 @@ tags: [Unreal Engine,Structure]
 [CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
 # Structure - Variáveis estruturadas
-**Structure**, é um tipo de dados definido pelo usuário disponível na **Unreal Engine** em **C++** e **Blueprint**, neste capitulo vamos explorar estes objetos.
+**Structure**, é um tipo de dados definido pelo usuário disponível no **Unreal Engine** em **C++** e **Blueprint**, neste capitulo vamos explorar estes objetos.
 
 ## Índice
 1. [O que são variáveis do tipo Structure?](#1)
@@ -111,8 +111,8 @@ Para exemplificar a utilização de variáveis Structure vamos implementar um le
 
 <a name="4.2"></a>
 ### 4.2 Lógica para construir os elementos na cena
-1. Criar um *level* utilizando o modelo *default*.
-1. Implementar um **Blueprint Actor** com o nome **BP_ControleLuzes**.
+1. Crie um *level* utilizando o modelo *default*.
+1. Implemente um **Blueprint Actor** com o nome **BP_ControleLuzes**.
 1. Adicionar as variáveis :
     1. **Luzes** - *Array* de tipo **Point Light Component**
     1. **ControLuzes** - *Array* de tipo **SControleLuzes**

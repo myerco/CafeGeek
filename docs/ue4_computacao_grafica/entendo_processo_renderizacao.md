@@ -14,17 +14,6 @@ Neste capitulo serão apresentados quais são os passos para processamento de im
     1. [Geometria](#2.2)    
     1. [Renderização](#2.3)        
     1. [Conclusão](#2.4)            
-1. [O aplicativo e plugin Renderdoc](#3)    
-    1. [Ativando o Plugin no Unreal Engine 4](#3.1)
-    1. [Conclusão](#3.2)           
-1. [GBuffer](#2)            
-1. [Geometry Rendering](#2)    
-    1. [Drawcalls](#2.1)
-    1. [Renderdoc](#2.1)    
-    1. [Performance](#2.1)        
-1. [Vertex Shaders](#3)        
-1. [Pixel Shaders](#4)
-1. [Rasterizing e Overshading](#3)     
 
 <a name="1"></a>
 ## 1. Entendendo como os processos são executados pelo sistema operacional
@@ -92,45 +81,10 @@ Um exemplo seria uma reta descrita matematicamente é infinitesimalmente contín
 1. O custo para renderizar muitos poligonos é muitas vezes menor que o Drawcall.
 1. 50.000 triângulos podem rodar pior que 50 milhões dependendo da implementação.
 1. drwacall tem uma despesa básica, portanto, otimizar poli de baixo para super poli pode fazer nenhuma diferença.  
-
-<a name="3"></a>
-## 3. O aplicativo e plugin Renderdoc
-**RenderDoc** é uma ferramenta de depuração de quadros de código aberto e gratuita que pode ser usada para analisar quadros únicos gerados por outros programas de software, como jogos.
-
-<a name="3.1"></a>
-### 3.1 Ativando o Plugin no Unreal Engine 4
-1. Plugin     
-  ![ue4_renderdoc_plugin](imagens/ue4_renderdoc_plugin.jpg)  
-
-    *Figura: Edit->Plugins*  
-1. Instalação do aplicativo no Windows.       
-  [Baixe aqui](https://renderdoc.org/)
-1. Capturando o frame desejado.        
-  ![ue4_renderdoc_plugin_view](imagens/ue4_renderdoc_plugin_view.jpg)      
-
-    *Figura: Icon no Viewport*
-
-1. Carregando o frame capturado.        
-  ![ue4_renderdoc](imagens/ue4_renderdoc.jpg)
-
-    *Figura: Aba Localhost - UEEditor*  
-
-1. Apresentando a textura carregada e suas saídas por processamento.        
-  ![ue4_renderdoc_texture_viewer](imagens/ue4_renderdoc_texture_viewer.jpg)
-
-    *Figura: A aba Textures Viewer*  
-1. Lista de elementos renderizados por ordem de execução.   
-  ![ue4_renderdoc_event_browser](imagens/ue4_renderdoc_event_browser.jpg)
-
-    *Figura: Event Browser*  
-  - Para apresentar o tempo de duração de cada Drawcall clique em **Time Durations for the Drawcalls**.
-
-<a name="3.2"></a>
-### 3.2 Conclusão
-- Componentes = DrawCalls
-- Componentes ocluem e são renderizados um por um.
-- Mesclar em um único ator geralmente não faz diferença para a renderização.
-- Para diminuir o drawcalls é melhor usar menos modelos maiores do que muitos modelos pequenos, você não pode fazer muito isso, no entanto, isso afeta todo o resto negativamente,
+1. Componentes = DrawCalls
+1. Componentes ocluem e são renderizados um por um.
+1. Mesclar em um único ator geralmente não faz diferença para a renderização.
+1. Para diminuir o drawcalls é melhor usar menos modelos maiores do que muitos modelos pequenos, você não pode fazer muito isso, no entanto, isso afeta todo o resto negativamente,
   - pior para oclusão - A oclusão é mais rápida por si só, mas não será capaz de fazer um trabalho bom o suficiente, tem menos objetos que precisam ser verificados quanto à oclusão, mas tem uma chance menor de realmente ocluir alguma coisa
   - pior para o lightmapping - Lightmap tem uma quantidade limite de espaço, a quantidade máxima de espaço é a textura do mapa de luz, independentemente da resolução, o mapa de luz também tem um limite de resolução superior.
   Por exemplo imagens de 4k, 4.096 já é enorme para um lightmap.
@@ -138,8 +92,8 @@ Um exemplo seria uma reta descrita matematicamente é infinitesimalmente contín
     - pior para calculo de colisão.
     - pior para memoria.
 
+---
 ## Referências
-
 1. [Real-Time Rendering Fundamentals](https://www.unrealengine.com/en-US/onlinelearning-courses/real-time-rendering-fundamentals)
 1. [How Unreal Renders a Frame](https://interplayoflight.wordpress.com/2017/10/25/how-unreal-renders-a-frame/)
 1. [Introduction to Decal Rendering](https://samdriver.xyz/article/decal-render-intro)
@@ -162,5 +116,4 @@ Um exemplo seria uma reta descrita matematicamente é infinitesimalmente contín
 1. [what-are-draw-calls](https://unreal.tips/en/what-are-draw-calls/)
 1. [RPC](https://deinfo.uepg.br/~alunoso/2017/RPC/)
 1. [pixels](https://bassemtodary.wordpress.com/tag/pixels/)
-1. [RenderDoc](https://en.everybodywiki.com/RenderDoc)
 1. [Interplay of Light](https://interplayoflight.wordpress.com/2017/10/25/how-unreal-renders-a-frame-part-2/)
