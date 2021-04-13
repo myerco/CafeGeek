@@ -1,6 +1,6 @@
 ---
 title: RenderDoc
-description: O aplicativo RenderDoc
+description: **RenderDoc** é uma ferramenta de depuração de quadros de código aberto e gratuita que pode ser usada para analisar quadros únicos gerados por outros programas de software, como jogos.
 tags: [Unreal Engine,RenderDoc]
 ---
 
