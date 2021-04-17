@@ -20,7 +20,7 @@ Neste capitulo vamos explorar os objetos do tipo **Data tables** que são basica
 
 <a name="1"></a>
 ## 1. O que são Data Tables?
-**Data Tables** são estruturas de dados com vários tipos de variáveis agrupados e podem ser utilizadas para armazenamento de forma estática informações dos personagens e suas características, recursos do jogo como espadas, escudos, magias, propriedades do jogo como níveis, dificuldades e pontuação.
+**Data Tables** são estruturas de dados com vários tipos de variáveis agrupados e podem ser utilizadas para armazenamento de forma estática de informações dos personagens e suas características, recursos do jogo como espadas, escudos, magias, propriedades do jogo como níveis, dificuldades e pontuação.
 
 <a name="2"></a>
 ## 2. Criando um objeto do tipo Data Table
@@ -58,7 +58,7 @@ Este objeto serve como referência na cena para posicionamento de ojetos *BP_Vid
 1. Variáveis e componentes.   
 ![blueprint_component_bp_elementos](imagens/estruturas/blueprint_component_bp_elementos.jpg)
 
-- Observe que a variável **Posicao** é do tipo vector e te a propriedade **Show 3D Widget** esta habilitada para facilitar o posicionamento do elemento na cena.  
+- Observe que a variável **Posicao** é do tipo vector e tem a propriedade **Show 3D Widget** habilitada para facilitar o posicionamento do elemento na cena.  
 ![blueprint_vetor_widget](imagens/estruturas/blueprint_vetor_widget.jpg)   
 - O Vetor **Posicao** na cena.   
 ![blueprint_actor_posicao](imagens/estruturas/blueprint_actor_posicao.jpg)
