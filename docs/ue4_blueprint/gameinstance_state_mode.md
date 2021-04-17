@@ -116,7 +116,4 @@ Para este exemplo criamos um Level Vazio e no **Open Level Blueprint** vamos exe
 ## Referências
 - [Game Mode and Game State](https://docs.unrealengine.com/en-US/InteractiveExperiences/Framework/GameMode/index.html)
 - [PlayerController vs Character](https://answers.unrealengine.com/questions/216113/playercontroller-vs-character.html)
-
-***
-## Tags
-[Blueprint](https://myerco.github.io/CafeGeek/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/CafeGeek/)
+- [UE4_Network_Compendium_by_Cedric_eXi_Neukirchen](https://cedric-neukirchen.net/Downloads/Compendium/UE4_Network_Compendium_by_Cedric_eXi_Neukirchen.pdf)
