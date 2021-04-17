@@ -1,6 +1,6 @@
 ---
 title: Game Instance, Game State e Game Mode
-description: Trabalhando com game instance, mode e state
+description: Na estrutura do Unreal Engine existem classes para controlar regras do jogo (GameMode) e o personagem bem como classes com visibilidade global (GameInstance), neste capítulo iremos apresentar estas classes e suas funcionalidades.
 tags: [Unreal Engine,game mode,game instance,game state]
 ---
 
@@ -28,21 +28,22 @@ Na estrutura do **Unreal Engine** existem classes para controlar regras do jogo 
 O fluxograma abaixo apresenta como as principais classes de jogo se relacionam entre si.
 
 ![Game Mode Quick Reference](https://docs.unrealengine.com/Images/Gameplay/Framework/QuickReference/GameFramework.webp)
+*Figura: Game Framework - QuickReference Unreal Engine*
 
 <a name="2"></a>
 ## 2. Como funciona Game Mode e Game State?
-O conceito de "jogo" é dividido em 2 classes. O modo de jogo e o estado são a definição do jogo, incluindo coisas como as regras do jogo e as condições de vitória. Ele só existe no servidor. Normalmente não deve ter muitos dados que mudam durante o jogo e, definitivamente, não deve ter dados transitórios que os clientes precisem saber.
+O conceito de "jogo" é dividido em 2 classes. O modo de jogo e o estado são as definições do jogo, incluindo coisas como as regras do jogo e as condições de vitória.
 
 - **GameMode** - Controla como os jogadores entram no jogo utilizando as classes:   
   InitGame, PreLogin, PostLogin e Logout.
-- **GameState** - O GameState é responsável por permitir que os clientes monitorem o estado do jogo.  Ele pode controlar as propriedades do jogo, como a lista de jogadores conectados, pontuação da equipe no Capture The Flag, missões que foram concluídas em um jogo de mundo aberto e assim por diante.   
+- **GameState** - É responsável por permitir que os clientes monitorem o estado do jogo.  Ele pode controlar as propriedades do jogo, como a lista de jogadores conectados, pontuação da equipe no Capture The Flag, missões que foram concluídas em um jogo de mundo aberto e assim por diante.   
 
->O **GameState** não é o melhor lugar para controlar coisas específicas do jogador, como quantos pontos um jogador específico marcou para o time em uma partida do Capture The Flag porque isso pode ser tratado de forma mais limpa pelo **PlayerState**. Em geral, o GameState deve rastrear propriedades que mudam durante o jogo e são relevantes e visíveis para todos. Embora o modo Jogo exista apenas no servidor, o Game State existe no servidor e é replicado para todos os clientes, mantendo todas as máquinas conectadas atualizadas conforme o jogo avança.
+>O **GameState** não é o melhor lugar para controlar coisas específicas do jogador, como quantos pontos um jogador específico marcou para o time em uma partida do Capture The Flag porque isso pode ser tratado de forma mais limpa pelo **PlayerState**. Em geral, o GameState deve rastrear propriedades que mudam durante o jogo e são relevantes e visíveis para todos. Embora o modo Jogo exista apenas no servidor, o **Game State** existe no servidor e é replicado para todos os clientes, mantendo todas as máquinas conectadas atualizadas conforme o jogo avança.
 
-- **PlayerState** - É o estado de um participante do jogo, como um jogador humano ou um bot que está simulando um jogador.Os dados apropriados em um PlayerState incluem o nome do jogador, pontuação, nível de jogo ou se o jogador esta carregando a bandeira em um jogo CTF.
+- **PlayerState** - É o estado de um participante do jogo, como um jogador humano ou um *bot* que está simulando um jogador. Os dados apropriados em um **PlayerState** incluem o nome do jogador, pontuação, nível de jogo ou se o jogador esta carregando a bandeira em um jogo CTF.
 
 - **PlayerController** -
-Jogadores humanos que entram no jogo são associados a PlayerControllers. Esses PlayerControllers permitem que os jogadores possuam peões no jogo para que possam ter representações físicas no nível. Os PlayerControllers também fornecem aos jogadores controles de entrada (teclado, mouse e etc), um HUD (heads-up display ou interface com o jogador) e um PlayerCameraManager para lidar com as visualizações da câmera.
+Jogadores humanos que entram no jogo são associados a **PlayerControllers**. Esses PlayerControllers permitem que os jogadores possuam peões no jogo para que possam ter representações físicas no nível. Os **PlayerControllers** também fornecem aos jogadores controles de entrada (teclado, mouse e etc), um HUD (*heads-up display* ou interface com o jogador) e um **PlayerCameraManager** para lidar com as visualizações da câmera.
 
 <a name="3"></a>
 ## 3. Implementando o GameMode

@@ -13,10 +13,11 @@ Neste capitulo vamos explorar os objetos do tipo **Data tables** que são basica
 1. [O que são Data Tables?](#1)
 1. [Criando um objeto do tipo Data Table](#2)
 1. [Inserindo dados no objeto do tipo Data Table](#3)
-1. [Exemplo de utilização de Data Table](#4)
-    1. [Implementando o objeto BP_Vida](#4.1)
-    1. [Implementando o objeto BP_Elementos](#4.2)
-    1. [Lógica da carga dos dados](#4.3)
+1. [Importando dados de um arquivo csv](#4)
+1. [Exemplo de utilização de Data Table](#5)
+    1. [Implementando o objeto BP_Vida](#5.1)
+    1. [Implementando o objeto BP_Elementos](#5.2)
+    1. [Lógica da carga dos dados](#5.3)
 
 <a name="1"></a>
 ## 1. O que são Data Tables?
@@ -43,17 +44,38 @@ A coluna **RowName** não pode ser repetida, funcionado como identificador únic
 ![blueprint_datatables_editor](imagens/estruturas/blueprint_datatables_editor.jpg)
 
 <a name="4"></a>
-## 4. Exemplo de utilização de Data Table
+## 4. Importando dados de um arquivo csv
+É possível importar as linhas de um arquivo texto com elementos separados por vírgulas.
+
+- Definindo um arquivo separado por vírgulas.
+```csv
+rowname,Name,type,property,value
+1,Mithril,Rock,Life,10
+2,The Ring of Barahir,Ring,Strength,50
+3,Soul Stone,Gem,Damage,50
+4,Mithril Stone Black,Rock,Life,10
+```
+- Objeto SArtifact do tipo *Structure* com a seguinte estrutura:
+  ![blueprint_datatables_editor](imagens/estruturas/blueprint_datatables_artifact.jpg)
+
+- Implemente o objeto TArtifact do tipo *Data Table* e com o botão direito do mouse em cima do objeto e selecione *Reimport*, logo em seguida escolha o arquivo csv:          
+  ![blueprint_datatables_editor](imagens/estruturas/blueprint_datatables_import.jpg)
+
+- Os dados serão importados e na aba *Data Table Details* os parâmetros de importação serão apresentados.
+  ![blueprint_datatables_editor](imagens/estruturas/blueprint_datatables_details.jpg)
+
+<a name="5"></a>
+## 5. Exemplo de utilização de Data Table
 Para este exemplo vamos implementar um objeto para automaticamente adicionar outros objetos (Vida) na cena, a posição dos objetos pode se controlada com um vetor de coordenadas.  
 
-<a name="4.1"></a>
-### 4.1 Implementando o objeto *BP_Vida*
+<a name="5.1"></a>
+### 5.1 Implementando o objeto *BP_Vida*
 Este objeto deverá estar na cena para interação com o jogador pois pode aumentar o valor da vida do personagem.
 1. Variáveis e componentes.  
 ![blueprint_component_bp_vida](imagens/estruturas/blueprint_component_bp_vida.jpg)
 
-<a name="4.2"></a>
-## 4.2 Implementando o objeto *BP_Elementos*
+<a name="5.2"></a>
+## 5.2 Implementando o objeto *BP_Elementos*
 Este objeto serve como referência na cena para posicionamento de ojetos *BP_Vida*.
 1. Variáveis e componentes.   
 ![blueprint_component_bp_elementos](imagens/estruturas/blueprint_component_bp_elementos.jpg)
@@ -67,7 +89,7 @@ Este objeto serve como referência na cena para posicionamento de ojetos *BP_Vid
 ![blueprint_actor_posicao_detalhe](imagens/estruturas/blueprint_actor_posicao_detalhe.jpg)
 
 <a name="4.3"></a>
-## 4.3 Logíca da carga dos dados.
+## 5.3 Logíca da carga dos dados.
 Para cada elemento do vetor *Posicao* é implementado um objeto do tipo BP_vida nas coordenadas de vetor.   
 ![blueprint_getdatatable](imagens/estruturas/blueprint_getdatatable.jpg)
 
