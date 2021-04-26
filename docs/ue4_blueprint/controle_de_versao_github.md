@@ -1,6 +1,7 @@
 ---
 title: Controle de versão com GitHub
-description: Controle de versão utilizando GitHub
+description: Neste capítulo vamos instalar o *git* para versionamento de código e apresentar
+os comandos básicos.
 tags: [Unreal Engine,Controle de versão,GitHub]
 ---
 
@@ -44,7 +45,7 @@ Perceba que para facilitar a manutenção e desenvolvimento em equipe e pensando
 
 <a name="2"></a>
 ## 2. Ferramentas para controle de versão
-Existem várias ferramentas para controle de versão disponíveis no mercado, sendo que a **Unreal Engine** trabalha de forma nativa com **SVN**, **Perforce** e **Git**, esta última até o momento em versão beta. Neste projeto utilizaremos o GitHub e o cliente Git para o gerenciamento.     
+Existem várias ferramentas para controle de versão disponíveis no mercado, sendo que o **Unreal Engine** trabalha de forma nativa com **SVN**, **Perforce** e **Git**, esta última até o momento em versão beta. Neste projeto utilizaremos o GitHub e o cliente Git para o gerenciamento.     
 
 >**GitHub** é um serviço de armazenamento de nuvem para gerenciamento de códigos de aplicação.
 

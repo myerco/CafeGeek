@@ -1,13 +1,13 @@
 ---
 title: Actors - Atores
-description: Actors ou atores do jogo
+description: Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de básica de objetos do **Unreal Engine**, neste capitulo serão apresentados e implementados os atores *Actors* do seu projeto.
 tags: [Unreal Engine,actor,atores]
 ---
 
 [CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
 
 # Actors - Atores
-Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de básica de objetos da **Unreal Engine**, neste capitulo serão apresentados e implementados os atores *Actors* do seu projeto.
+Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de básica de objetos do **Unreal Engine**, neste capitulo serão apresentados e implementados os atores *Actors* do seu projeto.
 
 ## Índice
 1. [O que são Actors?](#1)
@@ -100,12 +100,12 @@ Em **Blueprint** podemos obter os seguintes grupos de classes de atores:
 <a name="2"></a>
 ## 2. Utilizando classes com Blueprint
 Como citado anteriormente classes são estruturas de dados com eventos, variáveis e componentes.     
-![blueprint_pick_class_resume](../imagens/actor/blueprint_pick_class_resume.jpg)
+![blueprint_pick_class_resume](imagens/actor/blueprint_pick_class_resume.jpg)
 
 <a name="21"></a>
 ### 2.1 A Classe Actor
 A classe **Actor** compreende objetos básicos que podem ser adicionados a o mundo.  
-![blueprint_class_actor](../imagens/actor/blueprint_class_actor.jpg)  
+![blueprint_class_actor](imagens/actor/blueprint_class_actor.jpg)  
 - **Parent Class** : Classe pai de Actor (Classe C++).
 
 <a name="22"></a>
@@ -127,19 +127,19 @@ A classe **SpectatorPawn** é uma subclasse de **DefaultPawn**. Por meio de um *
 <a name="221"></a>
 #### 2.2.1 Propriedades da classe
 Classes tem propriedades que definem a estrutura do objeto.     
-![blueprint_class_properties](../imagens/actor/blueprint_class_properties.jpg)
+![blueprint_class_properties](imagens/actor/blueprint_class_properties.jpg)
 - **Start with Tick Enabled** - Habilita o evento Tick na lógica. Pode ser desabilitado para ganhar performance.
 - **Use Controller Rotation Pitch/Yaw** - Pode usar movimentação dos controladores.
 - **Auto Possess Player/AI** - Faz com o **PlayerController** possua automaticamente o peão (*Pawn*).
 - **Replication** : Opções para replicar o objeto pela rede.      
-![blueprint_class_properties_damaged](../imagens/actor/blueprint_class_properties_damaged.jpg)  
+![blueprint_class_properties_damaged](imagens/actor/blueprint_class_properties_damaged.jpg)  
 - Can be Damaged : Habilita os eventos de dano do objeto.
 
 <a name="23"></a>
 ### 2.3 Classe Character
 Um personagem é um *Pawn* que tem algumas funcionalidades básicas de movimento bípede por padrão.  
 Com a adição de um componente **CharacterMovementComponent**, um **CapsuleComponent** e um **SkeletalMeshComponent**, a classe *Pawn* é estendida para a classe *Character* com muitos recursos. Um personagem é projetado para uma representação do jogador orientada verticalmente que pode andar, correr, pular, voar e nadar pelo mundo. Esta classe também contém implementações de rede básica e modelos de entrada.   
-![blueprint_character_properties](../imagens/actor/blueprint_character_properties.jpg)
+![blueprint_character_properties](imagens/actor/blueprint_character_properties.jpg)
 - **Animation Mode** - Habilita uma animação simples ou um Bluprint de animação ao objeto.
 - **Anim Class** - Blueprint de animação associado.
 
@@ -150,7 +150,7 @@ Os componentes são um tipo especial de objeto que os atores podem anexar a si p
 <a name="31"></a>
 ### 3.1 Adicionando componentes
 Na aba **Components** podemos adicionar componentes para os objetos de forma hierarquia.    
-![blueprint_add_component_box](../imagens/movimentacao/blueprint_add_component_box.jpg)  
+![blueprint_add_component_box](imagens/movimentacao/blueprint_add_component_box.jpg)  
 Exemplo de Componentes :  
 - **Actor Child** - Componente associa outro ator a classe principal.
 - **Static Mesh** - Adiciona um objeto de 3D
@@ -158,7 +158,7 @@ Exemplo de Componentes :
 
 <a name="32"></a>
 ### 3.2 Editor de objetos e componentes
-![blueprint_view_components_objects](../imagens/actor/blueprint_view_components_objects.jpg)  
+![blueprint_view_components_objects](imagens/actor/blueprint_view_components_objects.jpg)  
 
 <a name="4"></a>
 ## 4. Static Mesh - Malhas estáticas
@@ -166,16 +166,16 @@ Exemplo de Componentes :
 
 Consistem em um conjunto de polígonos que podem ser armazenados em cache na memória de vídeo e renderizados pela placa de vídeo. Isso permite que eles sejam renderizados com eficiência, o que significa que podem ser muito mais complexos do que outros tipos de geometria, como **Brushes**. Como são armazenados em cache na memória de vídeo, as malhas estáticas podem ser traduzidas, giradas e dimensionadas, mas não podem ter seus vértices animados de nenhuma forma.
 
-![blueprint_class_viewport](../imagens/actor/blueprint_class_viewport.jpg)  
+![blueprint_class_viewport](imagens/actor/blueprint_class_viewport.jpg)  
 
 <a name="41"></a>
 ### 4.1 Componente StaticMesh
 A aba **Components** apresenta uma lista hierarquia com os componentes associados ao objeto.      
-![blueprint_component_static_mesh](../imagens/movimentacao/blueprint_component_static_mesh.jpg)  
+![blueprint_component_static_mesh](imagens/movimentacao/blueprint_component_static_mesh.jpg)  
 
 <a name="42"></a>
 ### 4.2 Propriedades do componente Static Mesh
-![blueprint_component_properties](../imagens/movimentacao/blueprint_component_properties.jpg)  
+![blueprint_component_properties](imagens/movimentacao/blueprint_component_properties.jpg)  
 - **Transform** - Propriedades de localização do componente.
 - **Static Mesh** - Malha associada ao componente.
 - **Material** - Material associado a malha.
@@ -184,7 +184,7 @@ A aba **Components** apresenta uma lista hierarquia com os componentes associado
 <a name="43"></a>
 ### 4.3 Editor de StaticMesh
 Visualização da malha e suas propriedades (vértices, UV e modelo de colisão).     
-![blueprint_editor_static_mesh](../imagens/movimentacao/blueprint_editor_static_mesh.jpg)
+![blueprint_editor_static_mesh](imagens/movimentacao/blueprint_editor_static_mesh.jpg)
 
 <a name="5"></a>
 ## 5 Skeletal Mesh - Malha Esquelética
@@ -215,7 +215,7 @@ A baixo uma representação da hierarquia do Skeletal Mesh.
 
 <a name="52"></a>
 ### 5.2 Componentes Mesh
-![blueprint_component_mesh](../imagens/movimentacao/blueprint_component_mesh.jpg)  
+![blueprint_component_mesh](imagens/movimentacao/blueprint_component_mesh.jpg)  
 - **Mesh** - Malha Esquelética.
 - **CameraBoom** - Objeto do tipo **SpringArm** (Braço) para controlar a câmera.
 - **FollowCamera** - Objeto do tipo **Camera**.
@@ -223,11 +223,11 @@ A baixo uma representação da hierarquia do Skeletal Mesh.
 
 <a name="53"></a>
 ### 5.3 Detalhes do componente Mesh
-![Classes de atores](../imagens/movimentacao/blueprint_component_mesh_details.jpg)  
+![Classes de atores](imagens/movimentacao/blueprint_component_mesh_details.jpg)  
 
 <a name="54"></a>
 ### 5.4 Editor
-![blueprint_editor_mesh](../imagens/movimentacao/blueprint_editor_mesh.jpg)
+![blueprint_editor_mesh](imagens/movimentacao/blueprint_editor_mesh.jpg)
 Observe que o editor é divido em :
 - **Skeleton** - Estrutura de conexões representando os ossos.
 - **Mesh** - Malha o objeto.
@@ -242,16 +242,16 @@ Os objetos adicionados em uma cena possuem coordenadas de localização dentro d
 <a name="61"></a>
 ### 6.1 Coordenadas no ViewPort
 Apresentando as coordenadas no **ViewPort**.    
-![blueprint_coordinate_viewport](../imagens/actor/blueprint_coordinate_viewport.jpg)  
+![blueprint_coordinate_viewport](imagens/actor/blueprint_coordinate_viewport.jpg)  
 
 <a name="62"></a>
 ### 6.2 Transform
 A seção **Transform** do painel Detalhes permite que você visualize e edite as transformações - Localização, Rotação e Escala - do (s) ator (es) selecionado (s). Além disso, quando aplicável, também contém as configurações para Mobilidade do Ator.   
-![blueprint_transform](../imagens/actor/blueprint_transform.jpg)  
+![blueprint_transform](imagens/actor/blueprint_transform.jpg)  
 
 <a name="63"></a>
 ### 6.3 Escrevendo na tela o posicionamento do ator no mundo.  
-![blueprint_actor_print_location](../imagens/actor/blueprint_actor_print_location.jpg)
+![blueprint_actor_print_location](imagens/actor/blueprint_actor_print_location.jpg)
 - **GetActorLocation** - Retorna um vetor contendo as coordenadas X,Y e Z da posição do ator no mundo. Utiliza o componente **RootComponent** para determinar os valores.
 - **GetwordLocarion** - Retorna um vetor de coordenadas da posição do componente no mundo.
 
@@ -267,13 +267,13 @@ Considere o exemplo abaixo do objeto **BP_Ator**
 ```
 O objeto possui um componente **DefaultSceneRoot**.    
 
-![Posição](../imagens/actor/blueprint_actor_add_component.jpg)
+![Posição](imagens/actor/blueprint_actor_add_component.jpg)
 
 A posição do ator no mundo é calculada utilizando o componente **DefaultSceneRoot** do tipo **Scene**. O componente **StaticMesh** tem um vetor de coordenadas relativas ao objeto de hierarquia superior, sendo X=0,Y=0 e Z=0.
 
 <a name="65"></a>
 ### 6.5 Escrevendo na tela o posição relativa do componente.
-![Posição Relativa](../imagens/actor/blueprint_actor_print_location_relative.jpg)
+![Posição Relativa](imagens/actor/blueprint_actor_print_location_relative.jpg)
 
 <a name="7"></a>
 ## 7. Trabalhando com herança com Blueprint
@@ -297,7 +297,7 @@ Exemplo:
 ### 7.1 Componente *ChildActor* implementa a ligação com outro ator.  
 O componente **ChildActor** permite associar uma classe filha utilizando a lista de componentes.
 
-![blueprint_actor_childactor](../imagens/actor/blueprint_actor_childactor.jpg)    
+![blueprint_actor_childactor](imagens/actor/blueprint_actor_childactor.jpg)    
 - **ChildActor** - É necessário informar a classe filho neste componente.
 
 <a name="72"></a>
@@ -305,13 +305,13 @@ O componente **ChildActor** permite associar uma classe filha utilizando a lista
 É possível sobrescrever os métodos da classe pai para adicionar uma nova lógica.    
 
 1. Criando um evento para sobrescrever o evento **Begin Play**.   
-![blueprint_actor_event_inheritance_create](../imagens/actor/blueprint_actor_event_inheritance_create.jpg)
+![blueprint_actor_event_inheritance_create](imagens/actor/blueprint_actor_event_inheritance_create.jpg)
 1. Lógica adicionada no novo evento.    
-![blueprint_actor_event_inheritance](../imagens/actor/blueprint_actor_event_inheritance.jpg)
+![blueprint_actor_event_inheritance](imagens/actor/blueprint_actor_event_inheritance.jpg)
 
 <a name="73"></a>
 ### 7.3 Referências de atores e componentes.  
-![blueprint_view_class_inheritance](../imagens/actor/blueprint_view_class_inheritance.jpg)
+![blueprint_view_class_inheritance](imagens/actor/blueprint_view_class_inheritance.jpg)
 
 <a name="8"></a>
 ## 8. Manipulando Actors
@@ -321,7 +321,7 @@ Podemos adicionar, remover ou selecionar os atores que estão na cena do jogo, a
 ### 8.1 Spawn e Destroy Actors - Criando e destruindo um Actor.  
 O processo de criação de uma nova instância de um ator é conhecido como *spawning*. A geração de atores é realizada usando a função **SpawnActor**. Esta função cria uma nova instância de uma classe especificada e retorna um ponteiro para o Actor recém-criado.**SpawnActor** só pode ser usado para criar instâncias de classes que herdam da classe Actor em sua hierarquia.    
 
-![blueprint_actor_spawn](../imagens/actor/blueprint_actor_spawn.jpg)  
+![blueprint_actor_spawn](imagens/actor/blueprint_actor_spawn.jpg)  
 
 Utilizando o **Level Bluprint** podemos implementar o código acima.
 1. Ao pressionar a tecla **H** o ator e criado na cena utilizando as coordenadas de um componente **targetPoint** adicionando na cena.
@@ -331,12 +331,12 @@ Utilizando o **Level Bluprint** podemos implementar o código acima.
 <a name="82"></a>
 ### 8.2 Listando Actors por classe
 Utilizando a função **GetAllActorOfClass** e o loop **For Each Loop** podemos listar todos os atores na cena.
-![blueprint_actor_get_all_actors](../imagens/actor/blueprint_actor_get_all_actors.jpg)
+![blueprint_actor_get_all_actors](imagens/actor/blueprint_actor_get_all_actors.jpg)
 
 <a name="83"></a>
 ### 8.3 Listando Actors utilizando *tag* (etiquetas)
 Adicionando uma *tag* (Etiqueta) na propriedade do ator podemos selecionar todos na cena que tenham a referida *tag*.
-![blueprint_actor_get_all_actors_tags](../imagens/actor/blueprint_actor_get_all_actors_tags.jpg)
+![blueprint_actor_get_all_actors_tags](imagens/actor/blueprint_actor_get_all_actors_tags.jpg)
 
 <a name="9"></a>
 ## 9. Colisões

@@ -59,13 +59,13 @@ Os eventos podem ser acessados dentro do *Blueprints* para implementar novas fun
 
 <a name="21"></a>
 ### 2.1 Evento de dano  no personagem
-![blueprint_event_damaged](../imagens/modulos/blueprint_event_damaged.jpg)
+![blueprint_event_damaged](imagens/modulos/blueprint_event_damaged.jpg)
 - **CausaDano** é um evento customizado utilizando a opção **Add Custom Event** no menu de contexto dentro do **Event Graph**.
 - Pertence a classe *BP_Hero* do tipo **Character**.
 
 <a name="22"></a>
 ### 2.2 Chamando o evento
-![blueprint_event_damaged_overlap](../imagens/modulos/blueprint_event_damaged_overlap.jpg)
+![blueprint_event_damaged_overlap](imagens/modulos/blueprint_event_damaged_overlap.jpg)
 - Utilizando o evento **OnComponentBeginOverlap** para acionar o evento **CausaDano**.
 
 <a name="23"></a>
@@ -122,7 +122,7 @@ void CalculoIMC(float pPeso, float pAltura) {
 }  
 ```
 **Blueprint**   
-![blueprint_function_calc_imc](../imagens/modulos/blueprint_function_calc_imc.jpg)
+![blueprint_function_calc_imc](imagens/modulos/blueprint_function_calc_imc.jpg)
 
 <a name="4"></a>
 ## 4. Macros
@@ -140,20 +140,20 @@ Blueprint Macros, ou Macros, são essencialmente iguais a gráficos de nós reco
 ```
 
 **Blueprint**  
-![blueprint_macro_example](../imagens/modulos/blueprint_macro_example.jpg)
+![blueprint_macro_example](imagens/modulos/blueprint_macro_example.jpg)
 
 <a name="5"></a>
 ## 5. Collapse Nodes
 Usado principalmente para organização de código, escondendo nós da estrutura principal.
 
-![blueprint_collapse_nodes_example](../imagens/modulos/blueprint_collapse_nodes_example.jpg)
+![blueprint_collapse_nodes_example](imagens/modulos/blueprint_collapse_nodes_example.jpg)
 - Aceitam parâmetros de entrada e saída.  
 - No menu de contexto do **Event Graph** acionamos a opção **Collapse Nodes**
 - Vai ser criado um gráfico de eventos próprio.
 
 <a name="6"></a>
 ## 6. Executando a função e a macro  
-![blueprint_call_function_macro](../imagens/modulos/blueprint_call_function_macro.jpg)
+![blueprint_call_function_macro](imagens/modulos/blueprint_call_function_macro.jpg)
 
 ***
 ## Referências

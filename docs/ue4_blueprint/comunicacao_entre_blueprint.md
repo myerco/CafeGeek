@@ -1,6 +1,6 @@
 ---
 title: Comunicação entre Blueprint
-description: Comunicação entre Blueprint
+description: A comunicação entre Blueprint é importante para construir um meio para que objetos individuais separados interagirem uns com os outros. Útil para fazer coisas como : Transmitindo um evento para vários ouvintes, Dizendo a um objeto específico para fazer algo ou Consultando outro objeto por exemplo, Estado, valores de propriedade, Valores variáveis e Resultados.
 tags: [Unreal Engine,blueprint,comunicação,blueprint interfaces]
 ---
 

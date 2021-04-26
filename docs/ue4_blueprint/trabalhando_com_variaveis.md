@@ -55,11 +55,11 @@ Grupo de caracteres alfanuméricos.
 ## 3. Declarando variáveis   
 Declarando variáveis informamos ao computador que estamos reservando um espaço de memória temporário.  
 
-![](../imagens/variaveis/blueprint_variable.jpg)
+![blueprint_variable](imagens/variaveis/blueprint_variable.jpg)
 
 1. Propriedades   
 As variáveis tem tipos e propriedades que determinam o sua utilização.  
-![](../imagens/variaveis/blueprint_variable_details.jpg)
+![blueprint_variable_details](imagens/variaveis/blueprint_variable_details.jpg)
 
 > Observe que a propriedade **Category** agrupa as variáveis por uma categoria.
 
@@ -69,7 +69,7 @@ Para acessar as variáveis utilizamos os métodos **Get** e **Set**.
 - **Get**: Obtém o valor de uma variável.
 - **Set**: Atualiza o valor da variável.
 
-![](../imagens/variaveis/blueprint_variable_get_set.jpg)
+![blueprint_variable_get_set](imagens/variaveis/blueprint_variable_get_set.jpg)
 
 <a name="5"></a>
 ## 5. String, Name e Text
@@ -83,14 +83,14 @@ O armazenamento de caracteres alfanuméricos, *string*, apresetam diversas estru
 
 <a name="51"></a>
 ### 5.1 Tratamento de strings
-![](../imagens/variaveis/blueprint_string_functions.jpg)
+![blueprint_string_functions](imagens/variaveis/blueprint_string_functions.jpg)
 - **Append** - Concatena duas ou mais strings.
 - **Contains** - Procura uma sequencia de caracteres dentro de uma string.
 
 <a name="6"></a>
 ## 6. Integer e Float
 Valores numéricos utilizam operadores matemáticos para a sua manutenção.  
-![](../imagens/variaveis/blueprint_float_functions.jpg)
+![blueprint_float_functions](imagens/variaveis/blueprint_float_functions.jpg)
 - (+) - soma.
 - (*) - Multiplicação.
 - (/) - Divisão.
@@ -98,7 +98,7 @@ Valores numéricos utilizam operadores matemáticos para a sua manutenção.
 <a name="7"></a>
 ## 7. Boolean
 Armazena dois valores : falso (*false*) ou verdadeiro (*true*).  
-![](../imagens/variaveis/blueprint_variable_boolean.jpg)
+![blueprint_variable_boolean](imagens/variaveis/blueprint_variable_boolean.jpg)
 
 
 <a name="8"></a>
@@ -107,11 +107,11 @@ Como especificar quais variáveis de um objeto um usuário pode acessar e quais 
 
 **Privada**  
 Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada de **Blueprints** externos.  
-![](../imagens/variaveis/blueprint_variable_public_private.jpg)
+![blueprint_variable_public_private](imagens/variaveis/blueprint_variable_public_private.jpg)
 
 **Pública**  
 Para permitir que uma variável seja modificada de fora de seu **Blueprint**, torne-a pública.  
-![](../imagens/variaveis/blueprint_variable_private.jpg)
+![blueprint_variable_private](imagens/variaveis/blueprint_variable_private.jpg)
 
 ***
 

@@ -1,6 +1,6 @@
 ---
 title: Estruturas de controle de fluxo
-description: Em linguagens de programação existem métodos de tomada de decisão para tarefas corriqueiras que os programas podem executar, por exemplo a escolha de qual caminho ou instrução executar. Com Bluprint utilizamos nós específicos para controle de fluxo como por exemplo o Branch (if). 
+description: Em linguagens de programação existem métodos de tomada de decisão para tarefas corriqueiras que os programas podem executar, por exemplo a escolha de qual caminho ou instrução executar. Com Bluprint utilizamos nós específicos para controle de fluxo como por exemplo o Branch (if).
 tags: [Unreal Engine,estruturas de controle de fluxo]
 ---
 
@@ -57,7 +57,7 @@ Estrutura condicional que testa uma variável utilizando uma expressão lógica 
 
 **Blueprint**
 
-![blueprint_example_if](../imagens/estruturascontrole/blueprint_example_if.jpg)
+![blueprint_example_if](imagens/estruturascontrole/blueprint_example_if.jpg)
 
 **C++**
 ```cpp
@@ -76,7 +76,7 @@ O nó **Sequence** permite que um único pulso de execução acione uma série d
 
 **Blueprint**
 
-![blueprint_example_sequence](../imagens/estruturascontrole/blueprint_example_sequence.jpg)
+![blueprint_example_sequence](imagens/estruturascontrole/blueprint_example_sequence.jpg)
 
 **C++**
 ```cpp
@@ -89,7 +89,7 @@ O nó For Loop funciona como um loop de código padrão, disparando um pulso de 
 
 **Blueprint**
 
-![blueprint_example_forloop](../imagens/estruturascontrole/blueprint_example_forloop.jpg)
+![blueprint_example_forloop](imagens/estruturascontrole/blueprint_example_forloop.jpg)
 
 **C++**
 ```cpp
@@ -105,7 +105,7 @@ cout << "Teminei de contar\n";
 Uma condição de teste e um corpo são tudo o que constitui um **loop While**. Antes de executar a (s) instrução (ões) em seu corpo, o Blueprint avalia a condição de teste **WhileLoops** para determinar se ela é verdadeira.
 
 **Blueprint**
-![blueprint_example_whileloop](../imagens/estruturascontrole/blueprint_example_whileloop.jpg)
+![blueprint_example_whileloop](imagens/estruturascontrole/blueprint_example_whileloop.jpg)
 
 **C++**
 ```cpp
@@ -123,7 +123,7 @@ O nó **DoN** disparará um pulso de execução N vezes. Depois que o limite for
 
 **Blueprint**
 
-![blueprint_example_do_n](../imagens/estruturascontrole/blueprint_example_do_n.jpg)
+![blueprint_example_do_n](imagens/estruturascontrole/blueprint_example_do_n.jpg)
 No exemplo acima toda vez que a tecla **H** for pressionada um valor vai ser apresentado. Quanto o valor 10 for atingido a instrução **Print String** não será executada.  
 Pressionando a tecla **J** a contagem será reiniciada.
 
@@ -138,7 +138,7 @@ O nó DoOnce - como o nome sugere - disparará um pulso de execução apenas uma
 
 **Blueprint**
 
-![blueprint_example_do_once](../imagens/estruturascontrole/blueprint_example_do_once.jpg)
+![blueprint_example_do_once](imagens/estruturascontrole/blueprint_example_do_once.jpg)
 
 **C++**
 ```cpp
@@ -151,7 +151,7 @@ O nó FlipFlop obtém uma saída de execução e alterna entre duas saídas de e
 
 **Blueprint**
 
-![blueprint_example_flip_flop](../imagens/estruturascontrole/blueprint_example_flip_flop.jpg)
+![blueprint_example_flip_flop](imagens/estruturascontrole/blueprint_example_flip_flop.jpg)
 
 **C++**
 ```cpp
@@ -164,7 +164,7 @@ O nó MultiGate recebe um único pulso de dados e o encaminha para qualquer núm
 
 **Blueprint**
 
-![blueprint_example_multigate](../imagens/estruturascontrole/blueprint_example_multigate.jpg)
+![blueprint_example_multigate](imagens/estruturascontrole/blueprint_example_multigate.jpg)
 
 **C++**
 ```cpp

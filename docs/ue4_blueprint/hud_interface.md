@@ -1,8 +1,7 @@
 ---
 title: HUD - Interface com o jogador
 description: HUD (Heads-up Display) ou UI (User Interface) é um objeto especial do Unreal Engine para apresentar informações sobrepostas na tela e interagir com o jogador.
-Vamos apresentar formas de interação e depois construir objetos os necessários.
-tags: [Unreal Engine,HUD,user interface,hud]
+tags: [Unreal Engine, HUD, user interface,UI]
 ---
 
 [CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
@@ -177,10 +176,10 @@ Vamos organizar todos os objetos criados para controlar melhor a lógica de prog
 Para exemplificar algumas funções do menu como por exemplo salvar dados do jogo vamos realizar as seguintes operações.
 
 1.  Implementar um objeto BP_SaveGameDemo do tipo **SaveGame**, para isso utilizamos o menu de contexto e escolhemos **Blueprint**.    
-![blueprint_save_game_object](../imagens/saveload/blueprint_save_game_object.jpg)
+![blueprint_save_game_object](imagens/saveload/blueprint_save_game_object.jpg)
 1. Adicionamos variáveis dentro do objeto para definir o que deve ser salvo, neste exemplo utilizaremos a variável **JogadorInfo** do tipo **S_jogador** que é uma [Variável Structure](https://myerco.github.io/CafeGeek/ue4_blueprint/structure_variaveis_estruturadas.html).               
 
-  ![blueprint_save_game_variable](../imagens/saveload/blueprint_save_game_variable.jpg)
+  ![blueprint_save_game_variable](imagens/saveload/blueprint_save_game_variable.jpg)
 
 Nos próximos passos vamos criar o objeto *BP_GameInstanceJogo* do tipo [**GameInstance**](https://myerco.github.io/CafeGeek/ue4_blueprint/gameinstance_state_mode.html#5) e adicionar os eventos customizados (*Add custon event*) a seguir.
 

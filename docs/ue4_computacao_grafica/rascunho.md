@@ -113,3 +113,4 @@ Na realidade, quase nenhum material tem albedo quase branco. Em Corona, o uso de
 - [8](https://unrealartoptimization.github.io/book/profiling/passes/)
 
 - [9](https://legalizeadulthood.wordpress.com/the-direct3d-graphics-pipeline/)
+- [10](https://thebookofshaders.com/)

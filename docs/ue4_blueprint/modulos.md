@@ -28,7 +28,7 @@ void CalculoIMC(float pPeso, float pAltura) {
 }  
 ```
 **Blueprint**   
-![Function](../imagens/modulos/ue4_blueprint.png)
+![Function](imagens/modulos/ue4_blueprint.png)
 
 ## Macros
 - São essencialmente código colapsado.
@@ -46,7 +46,7 @@ Exemplo:
 
 **Blueprint**
 
-![Function](../imagens/modulos/modulo2.png)
+![Function](imagens/modulos/modulo2.png)
 
 ## Difenças entre macros e funções
 |Macro  |Função  |
@@ -56,7 +56,7 @@ Exemplo:
 |  |  |
 
 ## Executando a função e a macros  
-![Function](../imagens/modulos/modulo3.png)
+![Function](imagens/modulos/modulo3.png)
 # Evento
 
 

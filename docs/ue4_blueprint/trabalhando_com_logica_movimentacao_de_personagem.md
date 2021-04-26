@@ -76,7 +76,7 @@ InputComponent->BindAxis("MoveParaFrente", this, &ASampleCharacter::MoveForward)
 <a name="13"></a>
 ### 1.3 Mapeamento Input do projeto
 No exemplo abaixo associamos a ação Pulo com o tecla **Space Bar** e **GamePad FaceButtonBotton**. Ao definir uma ação em **Bindings** a *game engine* cria um evento do mesmo nome.    
-![blueprint_bindings](../imagens/actor/blueprint_bindings.jpg)    
+![blueprint_bindings](imagens/actor/blueprint_bindings.jpg)    
 
 - Utilizamos o Menu->Project->Input.
 
@@ -86,20 +86,20 @@ Para exemplificar a implementação utilizaremos uma classe do tipo **Pawn**
 
 <a name="21"></a>
 ### 2.1 Componentes
-![blueprint_pawn_floatingpawnmovement](../imagens/actor/blueprint_pawn_floatingpawnmovement.jpg)
+![blueprint_pawn_floatingpawnmovement](imagens/actor/blueprint_pawn_floatingpawnmovement.jpg)
 - **Capsule**- Implementa uma capsula com colisão simples que pode determinar a movimentação do jogador.
 - **FloatingPawnMovement** - Habilita lógica de movimentação do peão.
 
 <a name="22"></a>
 ### 2.2 Habilitando a entrada de comandos   
 É necessário habilitar a entrada de comandos para a classe **Pawn**.  
-![blueprint_get_player_controller_enable_input](../imagens/actor/blueprint_get_player_controller_enable_input.jpg)
+![blueprint_get_player_controller_enable_input](imagens/actor/blueprint_get_player_controller_enable_input.jpg)
 - **PlayerController** - Implementa funcionalidade para pegar os dados de entrada do jogador e traduzi-los em ações, como movimento, uso de itens, armas de fogo, etc.
 
 <a name="23"></a>
 ### 2.3 Implementando movimentação com teclado
 Devemos executar a chamada dos eventos criados no mapeamento e associados a *inputs*
-![blueprint_pawn_inputaxis](../imagens/actor/blueprint_pawn_inputaxis.jpg)
+![blueprint_pawn_inputaxis](imagens/actor/blueprint_pawn_inputaxis.jpg)
 - **GetActorRotation** - Retorna a rotação do **RootComponent** (Componente raiz que determina a posição do objeto)deste Ator.
 - **Get Right Vector** - Obtenha o vetor correto (Y)  desse componente, no espaço do mundo.
 - **Get Forward Vector** - Obtenha o vetor de direção da unidade para frente (X) deste componente, no espaço do mundo.
@@ -109,11 +109,11 @@ Devemos executar a chamada dos eventos criados no mapeamento e associados a *inp
 <a name="24"></a>
 ### 2.4 Captura de coordenadas
 Captura as coordenadas do ator para que possamos utilizar os métodos de movimentação **Virar** e **OlhaCima**  
-![blueprint_pawn_consume_movement_input_vector](../imagens/actor/blueprint_pawn_consume_movement_input_vector.jpg)
+![blueprint_pawn_consume_movement_input_vector](imagens/actor/blueprint_pawn_consume_movement_input_vector.jpg)
 
 <a name="25"></a>
 ### 2.5 Movimentação utilizando mouse
-![blueprint_pawn_yaw_pitch](../imagens/actor/blueprint_pawn_yaw_pitch.jpg)
+![blueprint_pawn_yaw_pitch](imagens/actor/blueprint_pawn_yaw_pitch.jpg)
 
 - **Yaw e Pitch** - Representam respectivamente as coordenadas:  
       X = Roll
@@ -123,11 +123,11 @@ Captura as coordenadas do ator para que possamos utilizar os métodos de movimen
 <a name="26"></a>
 ###  2.6 Controle de movimentação do ator (Classe)
 Caso as opções *Use controller rotation pitch/Yaw* estiverem ativas (**true**) a cápsula do ator irá sem movimentar no seu próprio eixo.     
-![blueprint_pawn_use_controller_rotation](../imagens/actor/blueprint_pawn_use_controller_rotation.jpg)
+![blueprint_pawn_use_controller_rotation](imagens/actor/blueprint_pawn_use_controller_rotation.jpg)
 - **SpringArm** - Sustenta a câmera e o responsável pela movimentação.
 - Quando verdadeiro *Use Pawn control Rotation* e somente o braço com a câmera são movimentados.      
 
-![blueprint_pawn_use_pawn_control_rotation](../imagens/actor/blueprint_pawn_use_pawn_control_rotation.jpg)
+![blueprint_pawn_use_pawn_control_rotation](imagens/actor/blueprint_pawn_use_pawn_control_rotation.jpg)
 
 <a name="3"></a>
 ## 3. **Enumeration** para registro de poses/estados do personagem.    
@@ -135,11 +135,11 @@ Podemos utilizar uma variável Enumeration para registrar o estado do objeto.
 
 <a name="31"></a>
 ### 3.1 Variável Enumeration
-![blueprint_spawn_enum_and_state](../imagens/actor/blueprint_spawn_enum_and_state.jpg)
+![blueprint_spawn_enum_and_state](imagens/actor/blueprint_spawn_enum_and_state.jpg)
 
 <a name="32"></a>
 ### 3.2 Atualizando a variável
-![blueprint_pawn_enum_update](../imagens/movimentacao/blueprint_pawn_enum_update.jpg)
+![blueprint_pawn_enum_update](imagens/movimentacao/blueprint_pawn_enum_update.jpg)
 
 <a name="4"></a>
 ## 4. Plataforma
@@ -149,7 +149,7 @@ Serão implementados objetos para disparar (Plataforma Trigger) a movimentação
 
 <a name="41"></a>
 ### 4.1 Estrutura do objeto Plataforma
-![blueprint_plataform_components](../imagens/actor/blueprint_plataform_components.jpg)  
+![blueprint_plataform_components](imagens/actor/blueprint_plataform_components.jpg)  
 - **StaticMeshActor** - Derivado da classe Actor.
 - **Box** - Do tipo **Box Collision**.
 - **Velocidade/Impulso** - Variáveis públicas para multiplicar as propriedades do personagem.
@@ -157,7 +157,7 @@ Serão implementados objetos para disparar (Plataforma Trigger) a movimentação
 <a name="42"></a>
 ### 4.2 Aumentando a  velocidade
 Lógica para aumentar a velocidade de corrida e força de impulso do personagem do *BP_Hero* tipo **Character**.
-![blueprint_plataform_inc_velocity_char](../imagens/actor/blueprint_plataform_inc_velocity_char.jpg)
+![blueprint_plataform_inc_velocity_char](imagens/actor/blueprint_plataform_inc_velocity_char.jpg)
 - Ao colidir com a plataforma a lógica é acionada.
 
 <a name="43"></a>
@@ -179,7 +179,7 @@ Exemplos de coordenadas:
 <a name="44"></a>
 ### 4.4 Lógica usando Level Blueprint
 Utilizando o **Level Blueprint** vamos implementar a lógica de movimentação usando **TimeLine**.
-![blueprint_plataform_setactorlocarion_lerp_timeline](../imagens/actor/blueprint_plataform_setactorlocarion_lerp_timeline.jpg)
+![blueprint_plataform_setactorlocarion_lerp_timeline](imagens/actor/blueprint_plataform_setactorlocarion_lerp_timeline.jpg)
 - Determinar o destino da movimentação.
 - Implementar a lógica de movimentação usando *timeline*.
 - Declarar a variável *Velocidade* para controle da velocidade de movimentação.  
@@ -188,14 +188,14 @@ Utilizando o **Level Blueprint** vamos implementar a lógica de movimentação u
 <a name="45"></a>
 ### 4.5 Implementação do controle de tempo
 Devemos definir uma curva de tempo para a variável **Alpha** para utilizar na interpolação de A com B (**Learp**)
-![blueprint_plataform_timeline_curve](../imagens/actor/blueprint_plataform_timeline_curve.jpg)
+![blueprint_plataform_timeline_curve](imagens/actor/blueprint_plataform_timeline_curve.jpg)
 
 <a name="46"></a>
 ### 4.6 Utilizando o evento Tick e TimeLine
 Com a finalidade de exemplificar podemos utilizar o evento **Tick** para alterar a velocidade da plataforma.
 
 
-![blueprint_plataform_timeline_tick](../imagens/actor/blueprint_plataform_timeline_tick.jpg)
+![blueprint_plataform_timeline_tick](imagens/actor/blueprint_plataform_timeline_tick.jpg)
 
 Pode ser construída outra plataforma para acionar o evento, Plataforma de gatilho *Trigger Plataform*.
 
@@ -204,7 +204,7 @@ Pode ser construída outra plataforma para acionar o evento, Plataforma de gatil
 Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e destino.
 <a name="51"></a>
 ### 5.1 Variáveis
-![blueprint_plataform_properties](../imagens/movimentacao/blueprint_plataform_properties.jpg)
+![blueprint_plataform_properties](imagens/movimentacao/blueprint_plataform_properties.jpg)
 - **TargetLocation** - Coordenadas do destino com Widget ativo.
 - **GlobalStartLocation** - Coordenadas globais iniciais do ator.
 - **GlobalTargetLocation** - Coordenadas globais iniciais do destino.
@@ -213,13 +213,13 @@ Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e de
 
 <a name="52"></a>
 ### 5.2 Inicializando variáveis
-![blueprint_plataform_init_variables](../imagens/movimentacao/blueprint_plataform_init_variables.jpg)
+![blueprint_plataform_init_variables](imagens/movimentacao/blueprint_plataform_init_variables.jpg)
 
 <a name="53"></a>
 ### 5.3 Evento Tick
-![blueprint_plataform_movement_with_tick](../imagens/movimentacao/blueprint_plataform_movement_with_tick.jpg)
+![blueprint_plataform_movement_with_tick](imagens/movimentacao/blueprint_plataform_movement_with_tick.jpg)
 
-![blueprint_plataform_movement_with_tick_continue](../imagens/movimentacao/blueprint_plataform_movement_with_tick_continue.jpg)
+![blueprint_plataform_movement_with_tick_continue](imagens/movimentacao/blueprint_plataform_movement_with_tick_continue.jpg)
 
 <a name="6"></a>
 ## 6. Usando o evento Tick - C++

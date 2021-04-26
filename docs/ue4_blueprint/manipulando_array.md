@@ -1,6 +1,6 @@
 ---
 title: Manipulando Arrays
-description: Como manipular variáveis do tipo Array
+description: Como manipular variáveis do tipo Array no Unreal Engine
 tags: [Unreal Engine,blueprint,array,get,set]
 ---
 
@@ -66,7 +66,7 @@ Podemos representar os arrays da seguinte forma:
 Para declarar variáveis do tipo array devemos primeiro escolher um tipo de variável primitivo, como por exemplo um tipo **String**, e logo em seguita determinar que será um *array*, vamos aos exemplos.
 
 **Blueprint**    
-![blueprint_array_declare](../imagens/array/blueprint_array_declare.jpg)
+![blueprint_array_declare](imagens/array/blueprint_array_declare.jpg)
 - **Nomes** - É uma variável array, como o ícone de mini grid informa,do tipo **String**.
 - **Default Value** - Contem a lista de valores contidos inicialmente no *array*.
 
@@ -81,7 +81,7 @@ int  pessoas[3] = { 4,3,7};
 Para acessar qualquer elemento dentro *array* é necessários utilizar o índice.  
 
 **Blueprint**  
-![blueprint_array_get](../imagens/array/blueprint_array_get.jpg)
+![blueprint_array_get](imagens/array/blueprint_array_get.jpg)
 
 **C++ Unreal**  
 ```cpp
@@ -92,13 +92,13 @@ UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
 <a name="4"></a>
 ## 4. Get utilizando uma variável como índice
 Podemos utilizar uma variável para acessar elementos do array.
-![blueprint_array_get_string](../imagens/array/blueprint_array_get_string.jpg)
+![blueprint_array_get_string](imagens/array/blueprint_array_get_string.jpg)
 - **Indice** - Definimos o valor 1 para acessar o elemento da referida possição.
 
 <a name="5"></a>
 ## 5. Último índice e a quantidade de elementos do *array*
 Podemos determinar a quantidade de elementos ou valor do último índice do *array* utilizando as propriedades abaixo.    
-![blueprint_array_last_index](../imagens/array/blueprint_array_last_index.jpg)
+![blueprint_array_last_index](imagens/array/blueprint_array_last_index.jpg)
 
 - **Last Index** - Retorna o valor do último índice e o comando.
 - **Length** - Retorna a quantidade de elementos do *array*.
@@ -106,12 +106,12 @@ Podemos determinar a quantidade de elementos ou valor do último índice do *arr
 <a name="6"></a>
 ## 6. Removendo elementos utilizando *Remove*
 É possível remover elementos de dentro do *array*.    
-![blueprint_array_remove](../imagens/array/blueprint_array_remove.jpg)
+![blueprint_array_remove](imagens/array/blueprint_array_remove.jpg)
 
 <a name="7"></a>
 ## 7. Listando todos os elementos utilizando *For*
 Na lógica abaixo percorremos todo *array* e listamos cada elemento.   
-![blueprint_array_with_forloop](../imagens/array/blueprint_array_with_forloop.jpg)
+![blueprint_array_with_forloop](imagens/array/blueprint_array_with_forloop.jpg)
 - **For Each Loop** - Para cada elemento do *array* é processada uma interação.
 - **For Loop** - Para cada elemento do *array*, dentro dos parâmetros **First Index** e **Last Index** é processada uma interação.
 
@@ -119,7 +119,7 @@ Na lógica abaixo percorremos todo *array* e listamos cada elemento.
 ## 8. Usando o comando *Find*
 **Find** procura um elemento dentro do *array* e se encontra retorna o valor do índice do elemento, caso não encontre retorna -1.   
 **Blueprint**      
-![blueprint_array_search_string](../imagens/array/blueprint_array_search_string.jpg)    
+![blueprint_array_search_string](imagens/array/blueprint_array_search_string.jpg)    
 **C++ Unreal**
 ```cpp
 int32 Index;
@@ -131,25 +131,25 @@ if (StrArr.Find(TEXT("Hello"), Index))
 <a name="9"></a>
 ## 9. Comando *remove index*
 Remover um elemento do *array* utilizando o índice.      
-![blueprint_array_find](../imagens/array/blueprint_array_find.jpg)
+![blueprint_array_find](imagens/array/blueprint_array_find.jpg)
 
 <a name="10"></a>
 ## 10. Comando *remove*
 Executa uma busca utilizando um parâmetro, **NomeBusca** no exemplo abaixo, e o remove do *array*.    
-![blueprint_array_remove_index](../imagens/array/blueprint_array_remove_index.jpg)
+![blueprint_array_remove_index](imagens/array/blueprint_array_remove_index.jpg)
 
 <a name="11"></a>
 ## 11. Limpando o array com *clear*
 Remove todos os elementos do *array*.   
-![blueprint_array_clear](../imagens/array/blueprint_array_clear.jpg)
+![blueprint_array_clear](imagens/array/blueprint_array_clear.jpg)
 
 <a name="12"></a>
 ## 12. Atualiza o *array* **nome clássicos** com dados do *array* de **nome**
-![Declarando array](../imagens/array/blueprint_array_fill_string.jpg)
+![Declarando array](imagens/array/blueprint_array_fill_string.jpg)
 
 <a name="13"></a>
 ## 13. Contando elementos dentro de um *array*
-![blueprint_array_write_total_occurrence](../imagens/array/blueprint_array_write_total_occurrence.jpg)
+![blueprint_array_write_total_occurrence](imagens/array/blueprint_array_write_total_occurrence.jpg)
 
 ***
 ### Referências
