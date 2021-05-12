@@ -14,3 +14,6 @@ tags: [Unreal Engine, Game Design, Level Design, Narrativas, Maya]
 |**Emoção**  |  [A jogatina das décadas](https://myerco.github.io/CafeGeek/a_jogatina_das_decadas/index.html) |   |   |  
 |  |   | [Me conta uma história](https://myerco.github.io/CafeGeek/me_conte_uma_historia/index.html)  |   |  
 |**Dinâmica**  |   |   |  [Porque eu amo Game Design](https://myerco.github.io/CafeGeek/porque_eu_amo_game_design/index.html) |
+
+## Produção
+1. [Lista de Roteiros](roteiros/index.html)
