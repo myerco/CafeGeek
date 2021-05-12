@@ -93,7 +93,7 @@ UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
 ## 4. Get utilizando uma variável como índice
 Podemos utilizar uma variável para acessar elementos do array.
 ![blueprint_array_get_string](imagens/array/blueprint_array_get_string.jpg)
-- **Indice** - Definimos o valor 1 para acessar o elemento da referida possição.
+- **Indice** - Definimos o valor 1 para acessar o elemento da referida posição.
 
 <a name="5"></a>
 ## 5. Último índice e a quantidade de elementos do *array*
