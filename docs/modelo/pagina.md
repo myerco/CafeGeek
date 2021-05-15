@@ -19,6 +19,12 @@ descrição do elemento
 
 ![CafeGeek](../imagens/cafegeek_inicial.jpg)
 
+**Tabela**
+
+|coluna 1|Coluna 2| Coluna 3|
+|:-:|--:|:--|
+|info1|info2|info3|
+
 <a name="2"></a>
 ## 2. Elemento 2
 descrição do elemento.
