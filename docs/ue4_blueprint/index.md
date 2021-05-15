@@ -23,7 +23,6 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 ---
 ## Conteúdo do curso
-<a name="1"></a>
 1. [Introdução](introducao_ue4_blueprint.html)
 1. Projeto e instalação
     1. [Como instalar o Unreal Engine 4?](https://myerco.github.io/CafeGeek/ue4_blueprint/como_instalar_o_unreal_engine.html)

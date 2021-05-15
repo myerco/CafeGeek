@@ -8,11 +8,15 @@ tags: [Unreal Engine, jogos digitais, roteiros]
 
 ![introducao desenvolvimento jogos ue4](imagens/introducao_desenvolvimento_jogos_ue4.jpg)
 
-# Roteiros para jogos digitais
+# Roteiros jogos digitais
 ...    
 ## Conteúdo
 
-1. [DARKNESS OF D-DAY](darkness_of_day.html)    
+1. [Darkness of D-day](darkness_of_day.html)    
   Autor: RAPHAEL FERREIRA MARTINS
+1. [Killer Hotal](killer_hotel.html)    
+    Autor: Carlos
+1. [Lines of Fate](lines_of_fate.html)    
+    Autor: Vários
 1. [Próximo](#)   
   Autor: CafeGeek

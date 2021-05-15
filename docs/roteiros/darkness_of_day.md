@@ -1,5 +1,5 @@
 # DARKNESS OF D-DAY
-### RAPHAEL FERREIRA MARTINS
+### Autor: Raphael Ferreira Martins
 
 ## CAPÍTULO 1
 **Prólogo – O Ressurgimento**
