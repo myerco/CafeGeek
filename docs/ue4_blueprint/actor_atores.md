@@ -356,7 +356,3 @@ Adicionando uma *tag* (Etiqueta) na propriedade do ator podemos selecionar todos
 - [Brushes](https://docs.unrealengine.com/en-US/Basics/Actors/Brushes/index.html)
 - [Actors](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/Actors/index.html)
 - [Collsion Overview](https://docs.unrealengine.com/en-US/InteractiveExperiences/Physics/Collision/Overview/index.html)
-
-***
-## Tags
-[Blueprint](https://myerco.github.io/CafeGeek/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/CafeGeek/)

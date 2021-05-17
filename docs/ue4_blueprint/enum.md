@@ -56,7 +56,3 @@ Objeto criado EN_Estado e EN_Pedra.
 ***
 ## Referências
 - [Enums in unreal Engine](https://couchlearn.com/enums-in-unreal-engine-4-blueprints/)
-
-***
-## Tags
-[Blueprint](https://myerco.github.io/CafeGeek/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/CafeGeek/)

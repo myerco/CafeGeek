@@ -166,7 +166,3 @@ StarterContent/
 - [Top 20 Git commands with examples](https://dzone.com/articles/top-20-git-commands-with-examples)
 - [Source Control](https://docs.unrealengine.com/en-US/Basics/UI/SourceControl/index.html)
 - [Using SVN as Source Control](https://docs.unrealengine.com/en-US/ProductionPipelines/SourceControl/SVN/index.html)
-
-***
-## Tags
-[Blueprint](https://myerco.github.io/CafeGeek/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/CafeGeek/),[GitHub](#)

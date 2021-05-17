@@ -4,7 +4,7 @@ description: Neste capitulo vamos analisar como é realizado o processamento de 
 tags: [processamento de imagens, gpu, cpu]
 ---
 
-[CafeGeek](https://myerco.github.io/CafeGeek)  / [Computação Gráfica com Unreal Engine e Autodesk Maya](https://myerco.github.io/CafeGeek/ue4_computacao_grafica/index.html)
+[CafeGeek](http:cafegeek.eti.br)  / [Computação Gráfica com Unreal Engine e Autodesk Maya](http:cafegeek.eti.br/ue4_computacao_grafica/index.html)
 
 # Processamento de imagens
 Neste capitulo vamos analisar como é realizado o processamento de imagens pela CPU e GPU.

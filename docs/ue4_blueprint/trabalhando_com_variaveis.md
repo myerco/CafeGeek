@@ -123,7 +123,3 @@ Para permitir que uma variável seja modificada de fora de seu **Blueprint**, to
 - [Srting Tables](https://docs.unrealengine.com/en-US/Gameplay/Localization/StringTables/index.html)
 - [Integer](https://docs.unrealengine.com/en-US/BlueprintAPI/Math/Integer/index.html)
 - [Float](https://docs.unrealengine.com/en-US/BlueprintAPI/Math/Float/index.html)
-
-***
-## Tags
-[Blueprint](https://myerco.github.io/CafeGeek/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/CafeGeek/)

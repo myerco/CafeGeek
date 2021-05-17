@@ -3,7 +3,7 @@ title: Jogos Eletrônicos
 description: Jogos Eletrônicos
 tags: [narrativa, Roteirização, jogos digitais]
 ---
-[CafeGeek](https://myerco.github.io/CafeGeek)
+[CafeGeek](http:cafegeek.eti.br)
 ![cafegeek_roteirizacao](imagens/cafegeek_roteirizacao.jpg)
 
 # Jogos Eletrônicos

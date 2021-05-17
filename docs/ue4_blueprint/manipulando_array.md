@@ -158,5 +158,3 @@ Remove todos os elementos do *array*.
 - [C++](https://www.codegrepper.com/code-examples/cpp/ue4+c%2B%2B+array)
 
 ***
-## Tags
-[Blueprint](https://myerco.github.io/CafeGeek/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/CafeGeek/)

@@ -3,7 +3,7 @@ title: Me conte uma história
 description: Narrativa de jogos e construção de personagens.
 tags: [narrativa, Roteirização, jogos digitais]
 ---
-[CafeGeek](https://myerco.github.io/CafeGeek)
+[CafeGeek](http:cafegeek.eti.br)
 
 ![introducao_me_conta_uma_historia](imagens/introducao_me_conta_uma_historia.jpg)
 

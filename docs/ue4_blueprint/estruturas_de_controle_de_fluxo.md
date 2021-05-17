@@ -175,6 +175,3 @@ O nó MultiGate recebe um único pulso de dados e o encaminha para qualquer núm
 - [Flow Control](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/index.html)
 - [C++](https://docs.microsoft.com/pt-br/cpp/cpp/if-else-statement-cpp?view=msvc-160)
 - [Programar em C++/Decisão e controle de fluxo](https://pt.wikibooks.org/wiki/Programar_em_C%2B%2B/Decis%C3%A3o_e_controle_de_fluxo)
-***
-## Tags
-[Blueprint](https://myerco.github.io/CafeGeek/ue4_blueprint/blueprint.html), [Unreal Engine](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html), [CafeGeek](https://myerco.github.io/CafeGeek/)
