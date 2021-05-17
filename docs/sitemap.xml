@@ -8,193 +8,28 @@
 
 
 <url>
-  <loc>https://myerco.github.io/CafeGeek/</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
+  <loc>http://cafegeek.eti.br/</loc>
+  <lastmod>2021-05-16T15:22:07+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/index.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
+  <loc>http://cafegeek.eti.br/roteiros/index.html</loc>
+  <lastmod>2021-05-16T15:22:07+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_computacao_grafica/index.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/porque_eu_amo_game_design/index.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/me_conte_uma_historia/index.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/a_jogatina_das_decadas/index.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/introducao_ue4_blueprint.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
+  <loc>http://cafegeek.eti.br/roteiros/darkness_of_day.html</loc>
+  <lastmod>2021-05-16T15:22:07+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/como_instalar_o_unreal_engine.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
+  <loc>http://cafegeek.eti.br/roteiros/killer_hotel.html</loc>
+  <lastmod>2021-05-16T15:22:07+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/organizando_pastas_e_logo.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/controle_de_versao_github.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/entendo_blueprint.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/trabalhando_com_variaveis.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/estruturas_de_controle_de_fluxo.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/manipulando_array.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/enum.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/actor_atores.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/estruturando_logica_utilizando_eventos_funcoes_macros.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/trabalhando_com_logica_movimentacao_de_personagem.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/comunicacao_entre_blueprint.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/deltatime_sistema_coordenadas.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/structure_variaveis_estruturadas.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/datatables.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/gameinstance_state_mode.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/hud_interface.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/trabalhando_com_materiais.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/animacao.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/multiplayer.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/convertendo.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/inteligenciaartificial.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_blueprint/niagara.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_computacao_grafica/introducao_computacao_grafica.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_computacao_grafica/como_sao_formados_objetos3d.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_computacao_grafica/processamento_de_imagens.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_computacao_grafica/entendo_processo_renderizacao.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/ue4_computacao_grafica/visibilidade_objetos.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/a_jogatina_das_decadas/o_que_e_jogo.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/a_jogatina_das_decadas/analisando_tipos_de_jogos.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://myerco.github.io/CafeGeek/a_jogatina_das_decadas/jogos_eletronicos.html</loc>
-  <lastmod>2021-03-13T17:00:16+00:00</lastmod>
+  <loc>http://cafegeek.eti.br/roteiros/lines_of_fate.html</loc>
+  <lastmod>2021-05-16T15:22:07+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
