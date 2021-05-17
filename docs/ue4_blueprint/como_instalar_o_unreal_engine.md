@@ -47,17 +47,17 @@ Siga o guia de instalação da **Epic Games** pois é bem fácil.
 Neste passo vamos criar um projeto utilizando **C++** como linguagem de desenvolvimento pois ajuda para compreender a organização e construção de pastas e arquivos da *Unreal Engine**.  
 
 1. Selecionando o tipo de projeto.    
-![blueprint_select_new_project](projeto/blueprint_ue_select_new_project.jpg)
+![blueprint_select_new_project](imagens/projeto/blueprint_ue_select_new_project.jpg)
 
 1. Escolha um projeto em branco (*Blank*).  
- ![blueprint_ue_select_template](projeto/blueprint_ue_select_template.jpg)
+ ![blueprint_ue_select_template](imagens/projeto/blueprint_ue_select_template.jpg)
 
 1. Em configuração de projeto escolha **C++** e *No Starter Content*, este opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário.    
 Logo em seguida escolha uma pasta onde o projeto deverá ser instalado em **Select a Location for project to be stored**.       
-![blueprint_ue_project_settings](projeto/blueprint_ue_project_settings.jpg)
+![blueprint_ue_project_settings](imagens/projeto/blueprint_ue_project_settings.jpg)
 
 1. Se deu certo a tela inicial da **Engine** deve aparecer.  
-![blueprint_ue_tela_inicial](projeto/blueprint_ue_tela_inicial.jpg)
+![blueprint_ue_tela_inicial](imagens/projeto/blueprint_ue_tela_inicial.jpg)
 
 <a name="3"></a>
 ## 3. Verificando as pastas criadas
@@ -96,7 +96,7 @@ Para recompilar o projeto e recriar os arquivos siga os seguintes passos utiliza
 1. Apague as pastas *Binaries, Build, Intermediate* e *Saved*.
 1. Click com botão direito do mouse no arquivo **ProjetoAula.uproject**.
 1. Escolha a opção **Generate Visual Studio project files**.  
-![blueprint_explorer_generate_vs](projeto/blueprint_explorer_generate_vs.jpg)
+![blueprint_explorer_generate_vs](imagens/projeto/blueprint_explorer_generate_vs.jpg)
 1. Aguarde o termino da operação e abra o projeto.
 
 <a name="5"></a>
@@ -104,7 +104,7 @@ Para recompilar o projeto e recriar os arquivos siga os seguintes passos utiliza
 Você tem que escolher qual editor de código **C++** utilizar usando :
 **Menu->Editor Preferences->General** e **Source Code** e escolha **Visualstudio**.
 
-![blueprint_ue_editor_codigo](https://myerco.github.io/CafeGeek//ue4_blueprint/imagens/projeto/blueprint_ue_editor_codigo.jpg)
+![blueprint_ue_editor_codigo](imagens/projeto/blueprint_ue_editor_codigo.jpg)
 
 >**Qual editor eu escolho, Visual Code ou Visual Studio?**
 Os dois são ótimos editores de código mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras lingagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
