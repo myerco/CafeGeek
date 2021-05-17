@@ -4,7 +4,7 @@ description: Na estrutura do Unreal Engine existem classes para controlar regras
 tags: [Unreal Engine,game mode,game instance,game state]
 ---
 
-[CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
+[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](http://cafeGeek.eti.br/ue4_blueprint/index.html)
 
 # Game Instance, Game State e Game Mode
 Na estrutura do **Unreal Engine** existem classes para controlar regras do jogo (**GameMode**) e o personagem bem como classes com visibilidade global (**GameInstance**), neste capítulo iremos apresentar estas classes e suas funcionalidades.

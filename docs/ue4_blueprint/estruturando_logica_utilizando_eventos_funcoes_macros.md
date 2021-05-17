@@ -4,7 +4,7 @@ description: Os eventos são nós chamados a partir do código do jogo para inic
 tags: [Unreal Engine,eventos,events,funções,functions,macro]
 ---
 
-[CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
+[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](http://cafeGeek.eti.br/ue4_blueprint/index.html)
 
 # Estruturando a lógica utilizando Eventos, funções e macros
 Neste capitulo serão apresentado como estruturar a lógica de programação utilizando métodos, funções e macros

@@ -5,7 +5,7 @@ os comandos básicos.
 tags: [Unreal Engine,Controle de versão,GitHub]
 ---
 
-[CafeGeek](https://myerco.github.io/CafeGeek)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](https://myerco.github.io/CafeGeek/ue4_blueprint/index.html)
+[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](http://cafeGeek.eti.br/ue4_blueprint/index.html)
 
 # Controle de versão com GitHub
 Neste capítulo vamos instalar o *git* para versionamento de código e apresentar
