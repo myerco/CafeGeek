@@ -91,6 +91,8 @@ A seleção de **View Frustum** usa a área visível da tela do campo de visão 
 - Todos os objetos que estão fora do tronco da vista ou que estão ocluídos são agora eliminados da vista. A vista final da cena agora corresponde aos objetos que sabemos serem visíveis na cena a partir da posição da câmera.
 ![Vis_FinalSceneView](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/Vis_FinalSceneView.webp)
 
+- Show->Advanced->Camera frustum
+
 <a name="3.3"></a>    
 ### 3.3 Precomputed Visibility
 Volumes de visibilidade pré-computados armazenam o estado de visibilidade de atores não móveis em células colocadas acima de superfícies de projeção de sombras. Este método de seleção gera dados de visibilidade offline (durante uma construção de iluminação) e funciona melhor para níveis de tamanho pequeno a médio.
@@ -98,13 +100,13 @@ A visibilidade pré-computada é ideal para hardware inferior e dispositivos mó
 
 > Divide a cena em um grid, cada célula do grid registra o que é visível naquele local.
 
-1. Configurar **Precomputed Visibility Volume**.
+1. Configurar **World Settings** o atributo **Precomputed Visibility Volume** para verdadeiro.
 
-  Place Actors->Volumes.
-1. Marque a opção **Precompute Visibility** no objeto adicionado na cena.
-1. Visualizando o Grid de células na cena.    
+1. Adicione na cena **Precomputed Visibility Volume** que está em **Place Actors->Volumes**.
+    1. Marque a opção **Precompute Visibility** no objeto adicionado na cena.
+    1. Para visualizar o Grid de células na cena.    
+    Show - Visualize -> Precomputed Visibility Cells.
 
-  Show - Visualize -> Precomputed Visibility Cells.
   > Se você já construiu a iluminação (**Bluid->Lighting**), pode usar o menu suspenso Construir na barra de ferramentas principal(**Show**) e selecionar **Precompute Static Visibility** para gerar células de visibilidade sem reconstruir a iluminação todas as vezes.
 
 1. A câmera ao entrar na célula pergunta:    
