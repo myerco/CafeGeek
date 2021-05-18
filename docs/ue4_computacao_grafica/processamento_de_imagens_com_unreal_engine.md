@@ -127,6 +127,8 @@ O sistema de oclusão dinâmica em UE4 vem com vários métodos de abate para es
 ```bash
     Stat initviews
 ```
+Comando UE4
+show->Advanced->Camera Frustums
 
 ### Occlusion Culling é um processo pesado a partir de 10.000 objetos na cena.
 Abaixo um exemplo em uma cena com 10.000 objetos
