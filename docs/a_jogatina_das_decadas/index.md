@@ -3,7 +3,7 @@ title: A jogatina das décadas
 description: História dos jogos na sociedade e seus diferentes tipos e evoluções
 tags: [narrativa, Roteirização, jogos digitais]
 ---
-[CafeGeek](http:cafegeek.eti.br)
+[CafeGeek](http://cafegeek.eti.br)
 
 ![cafegeek_roteirizacao](imagens/introducao_jogatina_das_decadas.jpg)
 
