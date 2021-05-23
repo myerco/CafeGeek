@@ -150,7 +150,7 @@ Estes elementos são utilizados para organizar os objetos Horizontal ou vertical
 
 - Nas propriedades do elemento dentro do **Vertical Box** selecione **Size Fill** para preencher todo espaço do painel.  
 ![blueprint_horizontal_box_fill](imagens/interface_ui_hud/blueprint_horizontal_box_fill.jpg)      
-  *Figura: Widget Vertical Box Size fillUMG*
+  *Figura: Widget Vertical Box Size fill UMG*
 
 <a name="2.6"></a>
 ### 2.6 Grid Panel
@@ -177,12 +177,12 @@ Ao iniciar o Widget definimos uma variável **Jogador** do tipo **BP_Hero** para
   *Figura: Widget Graph Event Construct*
 
 <a name="3.2"></a>
-### 3.2 Button e eventos
+### 3.2 Botões e eventos (Button and Events)
 Os elementos do tipo **Button** tem eventos relacionados na sua estrutura, como por exemplo:**On Clicked**,**On Pressed** e outros.
 
 <a name="3.3"></a>
 ### 3.3 Acionando o botão para abrir um Level
-Vamos utilizar o evento OnClick para executar a função **Open Level** para carregar outro *level* do projeto. Deverá ser informado o nome do *Level* que queremos abrir.   
+Vamos utilizar o evento **OnClick** para executar a função **Open Level** para carregar outro *level* do projeto. Deverá ser informado o nome do *Level* que queremos abrir.   
 ![blueprint_hud_open_level](imagens/interface_ui_hud/blueprint_hud_open_level.jpg)    
   *Figura: Widget HUD Blueprint open Level*
 

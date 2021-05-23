@@ -1,6 +1,6 @@
 ---
 title: Trabalhando com Materiais
-description: Trabalhando com Materiais
+description: A primeira e mais importante coisa a saber sobre os Materiais é que eles não são construídos por meio de código, mas por meio de uma rede de nós de script visual (chamados de Expressões de Material) dentro do Editor de Material. Cada nó contém um fragmento de código HLSL, designado para executar uma tarefa específica. Isso significa que, conforme você constrói um Material, está criando código HLSL por meio de scripts visuais.
 tags: [Unreal Engine,Materiais, material Function,material]
 ---
 
