@@ -1,13 +1,13 @@
 ---
 title: Processamento de imagens
-description: Neste capitulo vamos analisar como é realizado o processamento de imagens pela CPU e GPU.
-tags: [processamento de imagens, gpu, cpu]
+description: Neste capitulo vamos analisar como é realizado o processamento de imagens pela CPU e GPU no Unreal Engine.
+tags: [processamento de imagens, gpu, cpu,Unreal Engine]
 ---
 
 [CafeGeek](http://cafegeek.eti.br)  / [Computação Gráfica com Unreal Engine e Autodesk Maya](http:cafegeek.eti.br/ue4_computacao_grafica/index.html)
 
 # Processamento de imagens
-Neste capitulo vamos analisar como é realizado o processamento de imagens pela CPU e GPU.
+Neste capitulo vamos analisar como é realizado o processamento de imagens pela CPU e GPU pelo Unreal Engine.
 
 ## Índice
 1. [O processo de renderização no Unreal Engine](#1)
@@ -38,7 +38,7 @@ Neste capitulo vamos analisar como é realizado o processamento de imagens pela 
 
 <a name="2"></a>
 ## 2. Processamento do Frame 0 - Time 0 - CPU
-Calculo de toda a lógica e as transformações:
+Netse passo é realizado o calculo de toda a lógica e as transformações:
 > Qualquer coisa relativa a mudança e posição dos objetos.
 
 1. **Animações** - Calcula quando as Animações iniciam e terminam.
@@ -63,35 +63,46 @@ A seguir as 4 Etapas em ordem de execução desse processo.
 1. **Occlusion Culling** - Verifica com precisão o estado de visibilidade em cada modelo.   
 
 <a name="3.1"></a>
-### 3.1 Distance Culling
-**Cull Distance Volumes** usa uma matriz de distâncias e tamanhos para definir se um ator é renderizado ou não quando dentro do volume. Este método de seleção é ideal para grandes níveis externos, onde você teria edifícios ou estruturas de algum tipo com interiores detalhados, onde você gostaria de selecionar aqueles objetos que são pequenos demais para considerar importantes a distâncias distantes.
+### 3.1 Distance Culling ou corte de distância
+O Unreal Engine utiliza o objeto **Cull Distance Volumes** que utiliza uma matriz de distâncias e tamanhos para definir se um ator é renderizado ou não quando dentro do volume.    
+Este método de seleção é ideal para grandes níveis externos, onde você teria edifícios ou estruturas de algum tipo com interiores detalhados, onde você gostaria de selecionar aqueles objetos que são pequenos demais para considerar importantes a distâncias distantes.
 
-- A seleção de distância remove quaisquer objetos além de X da câmera.  
-![PerActorDistanceCullingSettings](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/PerActorDistanceCullingSettings.webp)
+![PerActorDistanceCullingSettings](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/PerActorDistanceCullingSettings.webp)    
+  *Figura: A seleção de distância remove quaisquer objetos além de X da câmera.*
 
+- Configurando o corte de distância no Unreal Engine.
 1. Configurar **Cull Distance Volume**.     
   Place Actors->Volumes.
 1. Configurar o objeto.     
   Alterar as dimensões do objeto para definir a área de corte.
 
 <a name="3.2"></a>  
-### 3.2 Frustim Culling
-A seleção de **View Frustum** usa a área visível da tela do campo de visão (FOV) da câmera para selecionar objetos fora deste espaço. O tronco da visão é uma forma piramidal que inclui um plano de recorte próximo e distante que define o mais próximo e o mais distante que qualquer objeto deve ser visível dentro deste espaço. Todos os outros objetos são removidos para economizar tempo de processamento.
-![View Frustum](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/ViewFrustumDiagram.webp)
-  1. O plano de recorte próximo é o ponto mais próximo da câmera em que os objetos ficarão visíveis.
-  1. A Camera Frustum é a representação em formato piramidal da área de visualização visível entre os planos de clipe próximo e distante.
-  1. O plano de recorte distante é o ponto mais distante da câmera em que os objetos serão visíveis.
+### 3.2 Frustim Culling ou corte de câmera
+A seleção de **View Frustum** usa a área visível da tela do campo de visão (FOV) da câmera para selecionar objetos fora deste espaço.
+O tronco da visão é uma forma piramidal que inclui um plano de recorte próximo e distante que define o mais próximo e o mais distante que qualquer objeto deve ser visível dentro deste espaço. Todos os outros objetos são removidos para economizar tempo de processamento.
 
-- Os objetos fora do campo de visão da câmera (o tronco de visão) não são visíveis e podem ser selecionados (objetos delineados em vermelho).
+![View Frustum](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/ViewFrustumDiagram.webp)    
+  *Figura: View Frustum*
+
+1. O plano de recorte próximo é o ponto mais próximo da câmera em que os objetos ficarão visíveis.
+1. A Camera Frustum é a representação em formato piramidal da área de visualização visível entre os planos de clipe próximo e distante.
+1. O plano de recorte distante é o ponto mais distante da câmera em que os objetos serão visíveis.
+
+Os objetos fora do campo de visão da câmera (o tronco de visão) não são visíveis e podem ser selecionados (objetos delineados em vermelho).   
 ![TopdownSceneView](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/SceneView_ViewFrustumCulled.webp)
+  *Figura: View Frustum Culled*
 
-- Objetos selecionados fora do tronco de visão da câmera não são mais renderizados, deixando apenas um punhado de objetos dentro desta visão que são obstruídos por outro objeto que precisa ser verificado para visibilidade. Portanto, durante essa passagem, uma consulta será enviada à GPU para testar o estado de visibilidade de cada um desses objetos. Aqueles que são ocluídos por outro são retirados da vista (objetos delineados em azul).   
-![SceneView_OccludedObjectsRemoved](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/SceneView_OccludedObjectsRemoved.webp)
+Objetos selecionados fora do tronco de visão da câmera não são mais renderizados, deixando apenas um punhado de objetos dentro desta visão que são obstruídos por outro objeto que precisa ser verificado para visibilidade. Portanto, durante essa passagem, uma consulta será enviada à GPU para testar o estado de visibilidade de cada um desses objetos. Aqueles que são ocluídos por outro são retirados da vista (objetos delineados em azul).   
 
-- Todos os objetos que estão fora do tronco da vista ou que estão ocluídos são agora eliminados da vista. A vista final da cena agora corresponde aos objetos que sabemos serem visíveis na cena a partir da posição da câmera.
-![Vis_FinalSceneView](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/Vis_FinalSceneView.webp)
+![SceneView_OccludedObjectsRemoved](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/SceneView_OccludedObjectsRemoved.webp)    
+  *Figura: Occlued Objects Remover*
 
-- Show->Advanced->Camera frustum
+Todos os objetos que estão fora do tronco da vista ou que estão ocluídos são agora eliminados da vista. A vista final da cena agora corresponde aos objetos que sabemos serem visíveis na cena a partir da posição da câmera.
+![Vis_FinalSceneView](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/Vis_FinalSceneView.webp)    
+  *Figura: View Occlued Scene View*
+
+- Configurando o Unreal Engine para visualizar o corte de câmera.
+  - Show->Advanced->Camera frustum
 
 <a name="3.3"></a>    
 ### 3.3 Precomputed Visibility
