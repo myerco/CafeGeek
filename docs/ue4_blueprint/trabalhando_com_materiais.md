@@ -28,7 +28,7 @@ Atualmente os materiais são baseados em simulações físicas do mundo.
 
 <a name="2"></a>
 ## 2 Materiais de base física - PBR
-PBR significa P hysically B ased R endering e significa que o material descreve as propriedades visuais de uma superfície de uma maneira realmente plausível, de modo que os resultados realistas sejam possíveis em todas as condições de iluminação. A maioria dos mecanismos de jogo e ferramentas de criação de conteúdo modernos dão suporte aos materiais do PBR porque eles são considerados a melhor aproximação de cenários do mundo real para renderização em tempo real.
+PBR significa Physically Based Rendering significa que o material descreve as propriedades visuais de uma superfície de uma maneira realmente plausível, de modo que os resultados realistas sejam possíveis em todas as condições de iluminação. A maioria dos mecanismos de jogo e ferramentas de criação de conteúdo modernos dão suporte aos materiais do PBR porque eles são considerados a melhor aproximação de cenários do mundo real para renderização em tempo real.
 
 <a name="2"></a>
 ## 2. Estrutura do Material no Unreal Engine 4

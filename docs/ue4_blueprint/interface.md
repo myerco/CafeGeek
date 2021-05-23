@@ -29,5 +29,5 @@ https://docs.unrealengine.com/en-US/BuildingWorlds/LevelEditor/Viewports/Basics/
 https://docs.unrealengine.com/en-US/Basics/Actors/Transform/index.html
 
 ## Referências
-- []()
+- [shortcuts](https://www.unrealengine.com/en-US/tech-blog/designer-s-guide-to-unreal-engine-keyboard-shortcuts)
 - []()

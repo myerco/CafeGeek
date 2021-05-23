@@ -13,3 +13,4 @@ tags: [Unreal Engine,Rendering,Maya, culling]
 
 
 ## Referências    
+[Frustum culling](http://www2.dbd.puc-rio.br/pergamum/tesesabertas/0711276_09_cap_03.pdf)
