@@ -78,12 +78,12 @@ Este método de seleção é ideal para grandes níveis externos, onde você ter
 
 <a name="3.1.1"></a>
 #### 3.1.1 Atores na cena
-Atores selecionados em um Nível ou Blueprint contêm configurações de distância acessadas por meio de seu painel Detalhes. Eles permitem que distâncias por instância sejam definidas ou se o Ator é selecionado usando um Volume de Distância de Seleção.   
+Atores selecionados em um Nível ou Blueprint contêm configurações de distância acessadas por meio de seu painel Detalhes. Eles permitem que distâncias por instância sejam definidas ou se o Ator é selecionado usando um **Cull Distance Volume**.   
 
 ![PerActorDistanceCullingSettings](https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/PerActorDistanceCullingSettings.webp)      
   *Figura: A seleção de distância do objeto.*
 - **Min Draw Distance** - Define a distância mínima de desenho na qual o objeto será renderizado na cena. Isso é medido em unidades de espaço mundial (centímetros) do centro da esfera delimitadora do objeto até a posição da câmera.
-- **Desired Max Draw Distance** - Define a distância máxima de projeção para os designers de nível. A distância máxima "real" é a distância mínima de tração (desconsiderando 0).
+- **Desired Max Draw Distance** - Define a distância máxima de projeção para o *Level Designer*. A distância máxima "real" é a distância mínima de tração (desconsiderando 0).
 
 **Exemplo**   
 O objeto vai ser rendirizado quando a câmera se aproximar a uma distância **MENOR** que 1000 centímetros.
@@ -187,7 +187,7 @@ O sistema de oclusão dinâmica em UE4 vem com vários métodos de abate para es
 ```bash
     freezerendering
 ```
-1. Comando do console **Stat initviews** exibe informações sobre quanto tempo levou a seleção de visibilidade e quão eficaz foi. A contagem de seções visíveis é a estatística mais importante com relação ao desempenho do thread de renderização e é dominada por Visible Static Mesh Elements em STAT INITVIEWS.
+1. Comando do console **Stat initviews** exibe informações sobre quanto tempo levou a seleção de visibilidade e quão eficaz foi. A contagem de seções visíveis é a estatística mais importante com relação ao desempenho do thread de renderização e é dominada por **Visible Static Mesh Elements** em **stat initviews**.
 ```bash
     Stat initviews
 ```
