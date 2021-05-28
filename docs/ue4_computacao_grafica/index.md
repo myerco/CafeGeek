@@ -6,7 +6,7 @@ tags: [Unreal Engine,Rendering,Maya,computação gráfica]
 
 [CafeGeek](http://cafegeek.eti.br)
 
-![Introdução a computação gráfica](imagens/introducao_computacao_grafica.jpg)
+![Introdução a computação gráfica](imagens/computer_graphics_cafegeek_logo.jpg)
 
 # Computação Gráfica com Unreal Engine e Autodesk Maya
 Conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya.  
