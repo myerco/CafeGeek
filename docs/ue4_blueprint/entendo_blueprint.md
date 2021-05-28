@@ -152,7 +152,7 @@ Contém um gráfico de nós e suas ligações representando a lógica de um Blue
 
 > **Game Engine** como por exemplo *Unity* e *Pico-8*  tem os mesmos eventos com as mesmas Características.
 
-<a name="5"></a>
+<a name="4"></a>
 ## 4. Comentários   
 Os comentários podem ser incluídos diretamente em nós **Blueprint** únicos ou podem ser incluídos como caixas de comentários para agrupar nós relacionados e fornecer descrições sobre sua funcionalidade. Eles podem ser usados apenas para fins organizacionais para tornar os gráficos mais legíveis, mas também podem ser usados para fins informativos, pois permitem que descrições textuais sejam adicionadas da mesma forma que adicionar comentários ao código.
 
