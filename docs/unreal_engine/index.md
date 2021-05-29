@@ -8,7 +8,7 @@ tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digi
 
 ![unreal egine cafegeek logo](imagens/unreal_egine_cafegeek_logo.jpg)
 
-# Desenvolvimento de jogos utilizando Unreal Engine 4
+# Desenvolvimento de jogos utilizando Unreal Engine
 Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer.    
 ## Habilidades que serão aprendidas
 - Configuração e organização de projetos;
@@ -23,7 +23,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 ---
 ## Conteúdo do curso
-1. [Introdução](introducao_ue4_blueprint.html)
+1. [Introdução](unreal_engine_introducao_desenvolvimento_jogos.html)
 1. Projeto e instalação
     1. [Como instalar o Unreal Engine 4?](como_instalar_o_unreal_engine.html)
     1. [Organizando pastas e logo do projeto](organizando_pastas_e_logo.html)

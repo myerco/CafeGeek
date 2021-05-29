@@ -4,7 +4,7 @@ description: Como organizar pastas e adicionar um logo no projeto
 tags: [Unreal Engine,Organizando,Blueprint,pastas]
 ---
 
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](http://cafeGeek.eti.br/ue4_blueprint/index.html)
+[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](http://cafeGeek.eti.br/unreal_engine/index.html)
 
 # Organizando pastas e logo do projeto  
 Neste capitulo vamos organizar o projeto *ProjetoAula* e adicionar um logo par ao projeto.

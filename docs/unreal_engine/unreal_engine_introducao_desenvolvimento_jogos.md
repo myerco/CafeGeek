@@ -1,10 +1,11 @@
 ---
-title: Introdução ao curso de Desenvolvimento de jogos utilizando Unreal Engine 4
-description: Introdução ao curso deDesenvolvimento de jogos utilizando Unreal Engine 4
+title: Introdução ao curso de Desenvolvimento de jogos utilizando Unreal Engine
+description: Introdução ao curso Desenvolvimento de jogos utilizando Unreal Engine
 tags: [Unreal Engine,Rendering,Maya]
 ---
+[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](http://cafeGeek.eti.br/unreal_engine/index.html)
 
-# Introdução ao curso de Desenvolvimento de jogos utilizando Unreal Engine 4
+# Introdução ao curso de Desenvolvimento de jogos utilizando o Unreal Engine
 
 ## Índice
 1. [Desenvolvendo jogos digitais](#1)
@@ -19,7 +20,7 @@ O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como
 - Elementos de construção de Narrativas;
 - Efeitos sonoros;
 
-Na construção da mecânica de jogo é necessário utilizar uma linguagem de programação para implementar movimento, interação de personagens, inteligência artificial e outros elementos dinâmicos.
+Na construção da mecânica de um jogo é necessário utilizar uma linguagem de programação para implementar movimento, interação de personagens, inteligência artificial e outros elementos dinâmicos.
 As linguagens de programação vem evoluindo para simplificar as rotinas e comandos assim agilizando o desenvolvimento e permitindo o programador focar no que deve ser feito escondendo alguns detalhes de como é feito.
 > Conhecer e entender como é feito é importante para determinar as técnicas utilizadas e ser capaz e aproveitar ou mesmo melhorar os jogos.
 
@@ -36,7 +37,7 @@ Algumas *engine*
 
 <a name="1.2"></a>
 ### 1.2 Ciclo da lógica
-A maioria das *engine* seguem um ciclo de execução da lógica de programação baseado em :
+A maioria das *engines* seguem um ciclo de execução da lógica de programação baseado em :
 
 - **Inicialização** - Executado ao iniciar o jogo carregando bibliotecas básicas;
 - **Carga** - Responsável por carregar os objetos ou módulos;
@@ -55,7 +56,6 @@ A maioria das *engine* seguem um ciclo de execução da lógica de programação
 1. Editor de sons;
 1. Editor para construção de materiais;
 1. Editor de efeitos especiais utilizando partículas;
-
 
 ***
 ## Referências

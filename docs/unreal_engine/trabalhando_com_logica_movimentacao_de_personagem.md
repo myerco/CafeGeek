@@ -4,7 +4,7 @@ description: Trabalhando com a lógica de movimentação do personagem utilizand
 tags: [Unreal Engine,eventos,events,funções,functions,macro]
 ---
 
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](http://cafeGeek.eti.br/ue4_blueprint/index.html)
+[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](http://cafeGeek.eti.br/unreal_engine/index.html)
 # Trabalhando com a lógica de movimentação do personagem
 Neste capítulo vamos implementar apresentar a lógica de movimentação de atores com **Blueprint** e aplicar em um jogo de plataforma.
 
