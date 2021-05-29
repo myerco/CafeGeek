@@ -10,7 +10,7 @@ tags: [Unreal Engine, Game Design, Level Design, Narrativas, Maya]
 
 ## Desenvolvimento de jogos
 - Mecânica
-  - [Desenvolvimento de jogos utilizando Unreal Engine ](ue4_blueprint/index.html)    
+  - [Desenvolvimento de jogos utilizando Unreal Engine ](unreal_engine/index.html)    
   - [Computação Gráfica com Unreal Engine e Autodesk Maya](ue4_computacao_grafica/index.html)   
 - Emoção  
   - [A jogatina das décadas](a_jogatina_das_decadas/index.html)     
