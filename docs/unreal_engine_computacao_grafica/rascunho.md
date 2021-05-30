@@ -26,6 +26,13 @@ Um valor gama de 1 corresponde a um monitor "ideal"; isto é, tem uma progressã
 Os monitores de vídeo e computador não exibem cores de forma linear (como na primeira ilustração). Além disso, o brilho de um monitor tende a fazer com que uma imagem pareça mais clara que aquilo que seus valores de intensidade realmente especificam. A correção gama resolve este problema e pode garantir a consistência entre diferentes aplicativos ou diferentes monitores. Quando você define gama, encontre um valor que faça com que um tom cinza médio em seu próprio monitor coincida com um tom cinza médio (50%) verdadeiro.
 
 
+1. [RenderDoc](renderdoc.html)
+1. [Iluminação](iluminacao.html)
+1. [Visibilidade de objetos](visibilidade_objetos.html)
+1. [Trabalhando com Texturas e materiais](#1)
+1. [Tipos de iluminação](#1)
+1. [Reflexão](#1)
+1. [PósProcessamento](#1)
 
 
 

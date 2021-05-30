@@ -1,7 +1,10 @@
+# Lines of Fate
 
 O que você lerá agora é um relato de como chegamos a nossa situação atual. Se você acha que este relato é uma história cheia de superações, reviravoltas e sucesso, recomendo que pare agora, pois após ler tudo, você terá que agir para melhorar nossa sociedade e cidade.
 Tudo começou em 1873, no auge do Ciclo de Ouro no estado de Rondônia. Graças ao solo cheio de riquezas escondidas, muitos mineradores, comercializadores, militares e padres jesuítas migraram para este território ocupado por tribos indígenas para explorar tudo o que poderia ter valor. Infelizmente, todos os forasteiros não tinham a intenção de negociar nem de conviver com as tribos indígenas que ali viviam, o objetivo era colonizar todos para que realizassem o trabalho pesado, e assim as tribos se rebelaram iniciando uma guerra que parecia ter fim. Mas teve um fim. As tribos Suruí, Gavião, Cinta Larga, Karipuna, Pakaas Nova, Arara, Kaxarari, Eu-Uru-Uau-Uau, Nhambiquara e Karitiana reuniram-se pois não aguentavam o derramamento de sangue de seus entes queridos numa guerra que não haviam começado. Assim, após reunirem esse conselho, decidiram que os xamãs de cada tribo iriam invocar os Deuses guardiões para jogar uma maldição nos forasteiros para que abandonassem o território que não os pertencia.
+
 Chegado a noite marcada para o ritual, os dez xamãs reuniram-se numa clareira no meio da Floresta Amazônica. Os xamãs desenharam no solo da clareira um grande círculo com vários símbolos que somente eles sabiam o significado, após isso todos se posicionaram em extremidades opostas do círculo e começaram a entoar mantras e a tocar tambores. Após alguns minutos o céu que antes estava estrelado encheu-se de nuvens negras a trovejar, quando de repente, um grande raio corta o céu e atinge uma grande árvore castanheira ao fundo da clareira e um alto trovão ribombou por toda a floresta. Após toda a floresta ficar em silêncio absoluto e os xamãs olharem uns aos outros atordoados, três figuras surgem da castanheira atingida. Logo os xamãs reconheceram eles, eram os deuses mais importantes, Nhanderuvuçu, deus da energia do universo, Iara, deusa das águas e rainha do Rio Amazonas e por último, Abaçai, o deus da guerra. Os xamãs explicaram toda a situação e o motivo por terem invocado os deuses e pediram ajuda.
+
 Os deuses enfurecidos jogaram uma maldição em todo o território. Iara iria inundar todo o estado e somente os dignos de herdarem a terra sobreviveriam. Nhanderuvuçu e Abaçai amaldiçoaram a terra para que os indignos não prosperassem. E assim aconteceu. Boa parte do território rondoniense alagou-se por chuvas torrenciais que não passavam, assim fazendo os rios Amazonas e Madeira transbordarem.
 Passado alguns séculos, novos forasteiros fizeram desse território devastado e amaldiçoado seu lar e confiantes de que iriam prosperar.
 E assim, meu caro leitor, chegamos ao nosso tempo atual, o ano de 2103, em que nossa cidade de Porto Velho, a capital deste território, encontra-se altamente robotizada e flutuando, refletindo suas luzes no rio que a cerca. Olhando de longe, você pode pensar que esta cidade é uma maravilha do avanço tecnológico, mas quando está nela, percebe-se o quão conturbada a sociedade que nela se encontra, é.
@@ -30,7 +33,7 @@ Herdeiro facção mercenárias: O líder da facção possuía um irmão invejoso
 
 Obs.: possui side story
 
-Movimentação e Jogabilidade dos Personagens
+### Movimentação e Jogabilidade dos Personagens
 
 
 Herdeira facção indígena: Possui estatura mediana, cerca de 1,60 cm, pele morena, cabelos lisos e negros. Anda de modo silencioso, calmo e furtivo. Ela possui dois familiares, um que teria a forma de uma arara, que auxiliaria em momentos de espionagem e vigilância. O outro familiar seria no formato de uma onça parda, que auxiliaria em momentos de combate (pertencia ao seu irmão falecido). Ela usaria em combate um arco e flecha tecnológico. Seu range é em formato de cone.

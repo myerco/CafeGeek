@@ -2,52 +2,85 @@
 ### Autor: Raphael Ferreira Martins
 
 ## CAPÍTULO 1
-**Prólogo – O Ressurgimento**
 
-EXT. EM ALGUM LUGAR NO FUTURO – NOITE COM NÉVOA
+### Prólogo – O Ressurgimento**
+
+**EXT. EM ALGUM LUGAR NO FUTURO – NOITE COM NÉVOA**
+
 Ressurge então das cinzas, sem explicação nenhuma sendo focado pela sua sombra no chão seco, rochoso e ardente, pergunta com uma respiração ofegante a si mesmo:
-            PROTAGONISTA
-           O que aconteceu, que lugar é esse!?
+
+**PROTAGONISTA**
+
+O que aconteceu, que lugar é esse!?
 
 O personagem então olha em sua volta e presencia um mundo devastado pela destruição onde o horizonte se expressa como um ambiente devasto, sem vida e sem alma. Seus julgamentos iniciais são vazios, em brancos, procurando explicações para aquela situação de agonia, sem entender absolutamente nada. Quando de repente, ele sente certas vibrações somadas de alguns grunhidos, como se algo estivesse se aproximando, de uma forma hostil. Ele então reage de forma imediata em fuga, com o objetivo de se distanciar da criatura. Enquanto ele tenta escapar da sombra que o persegue, desperta um sentimento de algo ou alguém que em sua outrora vida possuía algo bem próximo ou afetivo, e que naquele momento gostaria de está na presença desse alguém, por esperar a culminação de seu fim.
 Foi quando ele foi surpreendido por uma mulher de cabelos brancos longos e semblante que proporcionava um sentimento de grande força e esperança, acompanhada de um ser místico que lembrava algo como tigre gigante, chegou próximo e disse com um tom bem vibrante:
-                                   MULHER MISTERIOSA
-            Você retornou!! Rápido, venha comigo!
+
+**MULHER MISTERIOSA**
+
+Você retornou!! Rápido, venha comigo!
 O protagonista, pensando nas mínimas opções vantajosas possíveis, decide então subir na criatura, e assim manter as esperanças de escapar do seu perseguidor desconhecido. Eles se veem em uma situação desesperadora a sua frente, tendo que ultrapassar grandes obstáculos, forçando a criatura a realizar manobras evasivas extremas, conseguindo chegar assim em um ponto onde a grande sombra que os perseguiam fica incapaz de seguir adiante, desistindo assim de seu bote.
 Os dois, mais tranquilos devido a situação mais segura em que se encontravam, decide ele, fazer perguntas bem diretas a mulher dos cabelos brancos.
-                                   PROTAGONISTA
-              Por favor, diga-me. Quem é você? Você sabe            quem eu sou?
+
+**PROTAGONISTA**
+
+Por favor, diga-me. Quem é você? Você sabe quem eu sou?   
+
 A mulher, espantosa com um olhar relutante e ao mesmo tempo com de determinação, responde:
-                                   MULHER MISTERIOSA
-             Meu senhor, estávamos a sua espera, precisamos alcançar o nosso dever eliminar a humanidade da face da terra!!
+
+**MULHER MISTERIOSA**
+Meu senhor, estávamos a sua espera, precisamos alcançar o nosso dever eliminar a humanidade da face da terra!!
+
 Assustado com afirmação da mulher, ele a pergunta:
-                                  PROTAGONISTA
+
+**PROTAGONISTA**
 Por que isso?!! Por que nosso objetivo é a destruição da raça humana? Nós não somos humanos, não fazemos parte desse mundo? O que eles fizeram pra gente?
+
 Infinitas perguntas confusas que não param de se repetir até que a mulher misteriosa para de cavalgar a criatura o interrompendo e exclama:
-            MULHER MISTERIOSA
-            Controle-se, você é mais que isso!! Fazemos parte de um sistema grandioso que devemos controlar e botar ordem no universo, fazendo assim com que ele funcione e tenha um futuro digno para todos os povos.
+
+**MULHER MISTERIOSA**
+
+Controle-se, você é mais que isso!! Fazemos parte de um sistema grandioso que devemos controlar e botar ordem no universo, fazendo assim com que ele funcione e tenha um futuro digno para todos os povos.
 Ela então continuou explicando até que lhe da uma informação importante. A mulher ainda perplexa por ter que está explicando tudo aquilo que ele deveria saber e está focado no seu objetivo, diz que ele é um ser celestial, e que foi enviado para tentar reformular o processo de humanidade dos terráqueos, por serem pessoas hostis e de personalidade maligna, e que nos últimos anos destruíram drasticamente o lar deles, gerando caos intenso e chegando próximo ao nível de um apocalipse. Seu último confronto com os humanos acarretou em uma derrota humilhante, e que naquele dia ele retornou, ressurgindo das cinzas para completar seu objetivo na terra. Porém a mulher ainda não entendia o porque de ele ter retornado com uma mente confusa e perdida, não se lembrando de nada. O
+
 O protagonista não aceitando seu destino, se revolta e tenta escapar dela. Ela então pega sua bainha, puxa sua espada de estilo Katana, e em posição de ataque diz:
-                                  MULHER MISTERIOSA
+
+**MULHER MISTERIOSA**
+
 Você deve ficar comigo, meu nome é Vesper, sua fiel companheira, não me force a fazer isso, mas se você por algum acaso foi corrompido e não quer aceitar quem você é, terei que fazer o pior com você!
-GAMEPLAY 001 - TUTORIAL AÇÃO CORPO A CORPO                       OBJETIVO DO LEVEL: TUTORIAL DE TREINAMENTO
+
+### GAMEPLAY 001 - TUTORIAL AÇÃO CORPO A CORPO
+###  OBJETIVO DO LEVEL: TUTORIAL DE TREINAMENTO
 Sem saber o que fazer de imediato e relutante, tenta com passos curtos ir se distanciando dela, ficando cada vez mais próximo de um precipício, até que ele olha para Vesper e presencia uma entidade surgindo em suas costas como se fosse uma forma sombria dela e que parecia estar concedendo-a mais poder. Vesper, com um olhar de tristeza e posteriormente de decepção, sente que não há mais o que fazer, sem tempo para tentar persuadi-lo, tenta ataca-lo com sua espada, porém, o protagonista, de forma surpreendente consegue fazer evasivas diante de seus ataques com a espada, ação que a surpreende. Até que ela tenta da um golpe mais veloz e fatal, acertando sua mão esquerda, e assim decepando-a. Com muita dor, o protagonista se vê em uma situação muito difícil, olhando ao redor pensando em o que fazer. Vesper o alerta que o dará mais uma chance para se render e assim se juntar ela para recomeçarem e tratar de seguir o objetivo que seus destinos foram traçados. Sem saída, e assim não aceitando sua proposta e seu destino, resolve se jogar do precipício para escapar das mãos de Vesper. Ela então corre para a beira da montanha, porém não tem visual nenhum por causa da névoa que se alastrava ao fundo. Ela tenta comunicação através de um dispositivo diferente, e fala com uma vos que parece ser masculina. Essa voz, pergunta sobre os acontecimentos e sobre o protagonista. Ela informa que está na companhia dele, e eu já estão a caminho do destino marcado, e então desliga e comenta:
-                                VESPER
-           Desgraçado, você me paga....
+
+**VESPER**
+
+Desgraçado, você me paga....
+
 O protagonista se vê então caído, em estado grave, com a mão decepada e com o psicológico abalado, quando então se escuta ao fundo um tipo de alarme bem agudo e irritante com uma voz robótica em conjunto dizendo:
-                                   VOZ ROBÓTICA(O.S.)
-            Acorde comandante Martin! Acorde comandante Martin!!
 
-                      CAPÍTULO 2                                                                                                              
-        BASE FORTE PRINCIPE E CEFP
 
-INT. ALOJAMENTOS BASE DA RESISTÊNCIA FORTE PRINCIPE – 22 DE MAIO DE 2046; COSTA MARQUES - DIA
-                                   VOZ ROBÓTICA(O.S.)
-               Acorde comandante Martin! Acorde comandante Martin!!
+**VOZ ROBÓTICA(O.S.)**
+
+Acorde comandante Martin! Acorde comandante Martin!!
+
+## CAPÍTULO 2                                                                                                              
+### BASE FORTE PRINCIPE E CEFP
+
+### INT. ALOJAMENTOS BASE DA RESISTÊNCIA FORTE PRINCIPE – 22 DE MAIO DE 2046; COSTA MARQUES - DIA
+
+**VOZ ROBÓTICA(O.S.)**
+
+Acorde comandante Martin! Acorde comandante Martin!!
 O comandante então acorda desesperado e com a respiração ofegante, reclamando furiosamente:
-               COMANDANTE MARTIN                                                                Mas que droga Agri!! Já te falei que esses processos da RET nunca serviram e nunca servirão pra nada em nossa missão! Elas só servem para nos deixar loucos!
-                                   AGRI(O.S.)
-                Desculpe senhor! São ordens superiores...todos os comandantes e soldados devem realizar treinamentos diferenciados do RET para melhores desempenhos em combate tanto mental, emocional e física...é protocolo de minha IA atribuir variados tipos de situações e ambientações de realidades alternativas na mente de vocês. – Disse Agri em tom irônico.
+
+**COMANDANTE MARTIN**
+
+Mas que droga Agri!! Já te falei que esses processos da RET nunca serviram e nunca servirão pra nada em nossa missão! Elas só servem para nos deixar loucos!
+
+AGRI(O.S.)
+
+Desculpe senhor! São ordens superiores...todos os comandantes e soldados devem realizar treinamentos diferenciados do RET para melhores desempenhos em combate tanto mental, emocional e física...é protocolo de minha IA atribuir variados tipos de situações e ambientações de realidades alternativas na mente de vocês. – Disse Agri em tom irônico.
 Com uma cara bem insatisfeita comandante retruca:
        COMANDANTE MARTIN
                 Sua lata velha! Também já falei a   mesma coisa aos superiores!
@@ -67,14 +100,14 @@ Com um sorriso de esperança, Mônica responde:
 
 
                                    M.SANCHEZ
-            Não diga isso, é por eles que estamos aqui nesse momento, com o mínimo de esperança nas mãos para salvarmos o mínimo que nos resta.   
+Não diga isso, é por eles que estamos aqui nesse momento, com o mínimo de esperança nas mãos para salvarmos o mínimo que nos resta.   
 
                                   COM. MARTIN
-            Você é tão patética ás vezes, só você mesma pra trazer um pouco de humanidade no meio disso tudo. é por isso que eu te amo, Sanchez - Comenta Martin com uma feição de carisma.
+Você é tão patética ás vezes, só você mesma pra trazer um pouco de humanidade no meio disso tudo. é por isso que eu te amo, Sanchez - Comenta Martin com uma feição de carisma.
                                   M. SANCHEZ
-            A seu dispo comandante – retruca Sanchez mais carismática. - Te forçaram o RET hoje? Qual foi a história terrível da vez?
+A seu dispo comandante – retruca Sanchez mais carismática. - Te forçaram o RET hoje? Qual foi a história terrível da vez?
                                    COM. MARTIN
-            Infelizmente sim, me colocaram em um mundo devastado, com uma criatura grotesca me perseguindo, com uma mulher sedutora dizendo ser minha amiga e que precisávamos acabar com o universo, e pra finalizar ela acabou decepando minha mão...doeu bastante e também não quero mais falar sobre isso! E você? Programaram algo terrível na sua cabeça que ganhe da minha excelente experiência? – Pergunta Martin não muito entusiasmado.
+Infelizmente sim, me colocaram em um mundo devastado, com uma criatura grotesca me perseguindo, com uma mulher sedutora dizendo ser minha amiga e que precisávamos acabar com o universo, e pra finalizar ela acabou decepando minha mão...doeu bastante e também não quero mais falar sobre isso! E você? Programaram algo terrível na sua cabeça que ganhe da minha excelente experiência? – Pergunta Martin não muito entusiasmado.
 Mônica responde que ele venceu dessa vez como experiência mais desagradável e comenta que seu RET foi sobre ela está no colegial sendo uma professora de história, tendo que ensinar sobre duas indivíduas chamadas “Great girl“ e “Skinny Woman”. Porém ela retrucou que não fica sempre atrás em termos de experiências doentias do RET, como da vez que a simularam como uma serial killer. Os dois caem na risada após os comentários de Sanches.
 EXT. BASE DA RESISTÊNCIA FORTE PRINCIPE – 22 DE MAIO DE 2046; COSTA MARQUES - DIA
 GAMEPLAY 002 – CONHECENDO A BASE – QUICK TIME EVENTS           OBJETIVO DO LEVEL: CONHECER, ADMINISTRAR E DESENVOLVER A BASE DE OPERAÇÕES  
@@ -82,27 +115,37 @@ Saindo da capsula de seus alojamentos, os dois passam por várias localidades da
 INT. CENTRAL DE COMANDO E TREINAMENTO DA BASE DA RESISTÊNCIA FORTE PRÍNCIPE – 22 DE MAIO DE 2046; COSTA MARQUES - DIA
 Na central de comando, Martin e Sanchez são chamados pelo comando geral para se reunirem com a equipe dos demais comandantes formados durante a resistência ao regime dos D-DAYS, seus codinomes de operações são baseados em personagens famosos do cinema. Airton “Skywalker” Rocha, brasileiro, 38 anos, branco, aparência nerd e bastante humorado, especialista em sistemas e tecnologia, foi ideia dele usar nomes de dos personagens do cinema nas operações. Valentina ”The Bride”   Campos, brasileira, 35 anos, ruiva, às vezes um pouco temperamental, porém bastante extrovertida, especialista em explosivos e produtos químicos. Miguel “T-800” e Amanda “Connor” Oliveira, são casados, brasileiros, negros, sérios e bem objetivos são os engenheiros sênior. O britânico com naturalidade americana Ray “Bond” Henderson e o russo Argov ”Drago” Sherikov são fuzileiros e atiradores de elite enviados pela cúpula secreta dos aliados da segunda guerra mundial. Micaela “Everdeen” De La Cruz, boliviana, com traços indígenas, 28 anos, excelente estrategista e bem tagarela, recrutada juntamente com a base aliada formada pela fronteira Brasil-Bolívia. Yangel “Vader” Schultz, 54 anos, venezuelano de descendência alemã (seus tataravôs judeus fugiram da Alemanha nazista para américa do sul), historiador e grande estudioso dos conceitos, costumes, objetivos e motivações da Alemanha nazista, bem ranzinza, orgulhoso e dono da verdade. E por fim, o comandante geral Luís “Corleone” Mendes Santos, 65 anos, brasileiro, homem honrado, amigo e valente com grande espírito de liderança; perdeu um olho e o antebraço em sua fuga em um dos primeiros campos de concentração implantada pelo regime dos novos nazistas do D-DAY na cidade de Cascavel no Paraná. Max Martin segue com o codinome Creed e Sanchez com o codinome Ripley   
                                    COM. GERAL SANTOS
-            Convoquei inicialmente essa reunião antes de recebermos os novos recrutas por que preciso compartilhar uma triste notícia. Aqueles fdp’s atacaram e dominaram nossa última base aliada na Chapada dos Guimarães. Com isso perdemos totalmente a região centro oeste. O Nordeste está a um fio de se render, precisamos urgentemente de um plano de ação para retomar nossa base no Mato Grosso!! lá estão nossos civis com a maior mão de obra para a fabricação de combustíveis e armamentos. É questão de tempo daqueles desgraçados construírem mais um campo de concentração no local e eliminar nossos irmãos. Martin! Não temos tempo para treinamento tático com os novos recrutas, coloquem eles para treinamento no RET, precisamos contra-atacar e rápido.
-            COM. MARTIN
-            Mas senhor, eles não estão prontos para realizar treinamento em uma realidade virtual! E o senhor sabe que sou totalmente contra ensinar táticas de combate com esse tipo de abordagem.
-            COM. GERAL SANTOS
-            Entendo seu ponto de vista, também penso dessa forma, mas no momento não temos escolha.
-            COM. MARTIN
-            Senhor, por favor reconsidere, colocaremos eles em prática ideal até 3 ou 4 dias!!     
-            COM. GERAL SANTOS
-            Isso é uma ordem soldado!! Não temos 4 dias! Quero um plano de ação pra ontem, e amanhã quero que estejam retomando nossa base. Preciso atualizar nossos comandos que ainda sobrevivem. Estão dispensados!
+Convoquei inicialmente essa reunião antes de recebermos os novos recrutas por que preciso compartilhar uma triste notícia. Aqueles fdp’s atacaram e dominaram nossa última base aliada na Chapada dos Guimarães. Com isso perdemos totalmente a região centro oeste. O Nordeste está a um fio de se render, precisamos urgentemente de um plano de ação para retomar nossa base no Mato Grosso!! lá estão nossos civis com a maior mão de obra para a fabricação de combustíveis e armamentos. É questão de tempo daqueles desgraçados construírem mais um campo de concentração no local e eliminar nossos irmãos. Martin! Não temos tempo para treinamento tático com os novos recrutas, coloquem eles para treinamento no RET, precisamos contra-atacar e rápido.
+
+COM. MARTIN
+Mas senhor, eles não estão prontos para realizar treinamento em uma realidade virtual! E o senhor sabe que sou totalmente contra ensinar táticas de combate com esse tipo de abordagem.
+
+COM. GERAL SANTOS
+
+Entendo seu ponto de vista, também penso dessa forma, mas no momento não temos escolha.
+
+COM. MARTIN
+
+Senhor, por favor reconsidere, colocaremos eles em prática ideal até 3 ou 4 dias!!     
+
+COM. GERAL SANTOS
+Isso é uma ordem soldado!! Não temos 4 dias! Quero um plano de ação pra ontem, e amanhã quero que estejam retomando nossa base. Preciso atualizar nossos comandos que ainda sobrevivem. Estão dispensados!
 Furioso, Martin deixa a sala. Encosta na parede e tenta controlar sua respiração ofegante. Até que um jovem se aproxima.
-                                    JOVEM
-             O senhor está bem?
+
+JOVEM
+O senhor está bem?
 
 O comandante se controla, olha bem para o garoto e acena a cabeça. Pergunta então ao garoto quem ele é?
 
-             JOVEM
-             Senhor, me apresentando! Sou Henry   Velásquez Senhor! Seu mais novo assassino de Nazis!
+JOVEM
+
+Senhor, me apresentando! Sou Henry   Velásquez Senhor! Seu mais novo assassino de Nazis!
 
 Martin espantado comenta.
-             COM. MARTIN
-             Uou, uou...calma garoto. Meu novo assassino? Quantos anos você tem?
+
+COM. MARTIN
+
+Uou, uou...calma garoto. Meu novo assassino? Quantos anos você tem?
 
 Henry responde que tem 22 anos e conta toda sua história de como chegou ali. Emocionado, ele conta que seu pais eram autoridades do governo e que seu avô era o governador do Estado. Contra o regime autoritário dos D-DAYS, sua família foi massacrada na conhecida sangrenta batalha dos pioneiros, ocorrida na cidade de Porto Velho, o que forçou os sobreviventes fugirem para Costa Marques. Nesse massacre, eles capturaram seu irmão gêmeo Vincent e nunca mais ouviu falar de seu paradeiro.
 

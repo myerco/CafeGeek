@@ -1,7 +1,7 @@
 # Killer hotel
 ### Autor: Carlos
 
-Rondônia, Brasil, 21 de abril do ano 2000
+### Rondônia, Brasil, 21 de abril do ano 2000
 
 É uma noite de chuva tempestuosa, raios e trovões dominam a noite enquanto o barulho de chuva soa em todo local, seguimos um caminho que leva para mais adentro na floresta, curvas, subidas e descidas ficam para trás enquanto a pequena estrada de terra batida resta a nossa frente cercada pela floresta que tenta dominar esse pequeno pedaço de civilização que invade sua área soberana.
 
