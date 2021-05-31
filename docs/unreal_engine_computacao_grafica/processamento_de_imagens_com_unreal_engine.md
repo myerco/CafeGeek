@@ -1,7 +1,6 @@
 ---
-title: Processamento de imagens
+title: Processamento de imagens no Unreal Engine
 description: Neste capitulo vamos analisar como é realizado o processamento de imagens pela CPU e GPU no Unreal Engine.
-keywords: [Como o Unreal Engine faz o processamento de imagens?,Computação gráfica com Unreal Engine]
 tags: [processamento de imagens, gpu, cpu,Unreal Engine]
 ---
 
