@@ -1,6 +1,7 @@
 ---
-title: Desenvolvimento de jogos utilizando Unreal Engine 4
+title: Desenvolvimento de jogos utilizando Unreal Engine
 description: Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando **Blueprints** e **C++**, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer.  Engine 4
+keywords: [Desonvolvimento com Unreal Engine, Jogos com Unreal Engine]
 tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digital]
 ---
 
@@ -25,7 +26,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 ## Conteúdo do curso
 1. [Introdução](unreal_engine_introducao_desenvolvimento_jogos.html)
 1. Projeto e instalação
-    1. [Como instalar o Unreal Engine 4?](como_instalar_o_unreal_engine.html)
+    1. [Como instalar o Unreal Engine?](como_instalar_o_unreal_engine.html)
     1. [Organizando pastas e logo do projeto](organizando_pastas_e_logo.html)
     1. [Controle de versão com GitHub](controle_de_versao_github.html)
     1. [Interface e Editores](interface.html)  
