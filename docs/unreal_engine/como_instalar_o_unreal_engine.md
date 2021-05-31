@@ -53,9 +53,9 @@ Neste passo vamos criar um projeto utilizando **C++** como linguagem de desenvol
 
 1. Selecionando o tipo de projeto.    
   ![blueprint_select_new_project](imagens/projeto/blueprint_ue_select_new_project.jpg)  
-  *Figura: Select or create New Project, Games*    
+  *Figura: Unreal 4 - Select or create New Project, Games*        
 1. Escolha o *template* **blank** para o projeto.  *Templates* são modelos com elementos disponíveis para o tipo de jogo escolhido.
-  ![blueprint_ue_select_template](imagens/projeto/blueprint_ue_select_template.jpg)      
+  ![blueprint_ue_select_template](imagens/projeto/blueprint_ue_select_template.jpg)     
   *Figura: Select Template blank*
 1. Em configuração de projeto escolha **C++** e *No Starter Content*, este opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário.    
 Logo em seguida escolha uma pasta onde o projeto deverá ser instalado em **Select a Location for project to be stored**.       
@@ -64,6 +64,10 @@ Logo em seguida escolha uma pasta onde o projeto deverá ser instalado em **Sele
 1. Se deu certo a tela inicial deve aparecer.  
   ![blueprint_ue_tela_inicial](imagens/projeto/blueprint_ue_tela_inicial.jpg)
   *Figura: Unreal Engine tela inicial*
+
+1. Iniciando um projeto no **Unreal Engine 5**.
+  ![blueprint_select_new_project](imagens/projeto/unreal_engine_select_new_project.jpg) *Figura: Unreal 5 - Select or create New Project, Games.*    
+  ![unreal_engine_home screen](imagens/projeto/unreal_engine_home_screen.jpg) *Figura: Unreal 5 - Tela inicial.*        
 
 <a name="3"></a>
 ## 3. Verificando as pastas criadas

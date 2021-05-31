@@ -19,13 +19,13 @@ Neste capitulo vamos organizar o projeto *ProjetoAula* e adicionar um logo para 
 ## 1. Como criar pastas de trabalho?
 Na aba *Content Browser* utilizando botão direito do mouse clique em *New Folder* e crie as seguintes pastas:   
 
-![blueprint_content](imagens/projeto/blueprint_content.jpg)		
-*Figura: Content Browser*
+![blueprint_content](imagens/projeto/blueprint_content.jpg)			
+	*Figura: Content Browser*
 
 <a name="2"></a>
 ## 2. Adicionando um *Level* na inicialização do projeto
 Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguintes passos:  
-1. Salve o *level* atual na pasta Maps **File->Save Current** com o nome LevelTest
+1. Salve o *level* atual na pasta Maps *File->Save Current* com o nome LevelTest
 1. Para configurar a inicialização do projeto utilizando o **LevelTest** utilize o menu *Edit->Project Settings* e depois *Maps & Modes*.   
 	![blueprint_maps_modes](imagens/projeto/blueprint_maps_modes.jpg)			
 	*Figura: Project - Maps & Modes*
