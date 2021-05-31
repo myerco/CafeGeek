@@ -1,6 +1,7 @@
 ---
 title: Processamento de imagens
 description: Neste capitulo vamos analisar como é realizado o processamento de imagens pela CPU e GPU no Unreal Engine.
+keywords: [Como o Unreal Engine faz o processamento de imagens?,Computação gráfica com Unreal Engine]
 tags: [processamento de imagens, gpu, cpu,Unreal Engine]
 ---
 
@@ -318,8 +319,8 @@ stat unit
 - Mais de 10.000 é provavelmente um problema.
 - Em dispositivos moveis esse valor é muito menor.
 - Para verificar experimente executar o comando **stat RHI** e alterar o **View Mode** de **Lit** para **Unlit** e verifique os valores **Triângulos desenhados**.
-- DrawCalls tem um impacto grande na performance.
-- DrawCalls tem um mais impacto que a quantidade de polígonos em muitos cenários, exemplo:
+- **DrawCalls** tem um impacto grande na performance.
+- **DrawCalls** tem um mais impacto que a quantidade de polígonos em muitos cenários, exemplo:
   Se temos um polígono com 32 triângulos e 34 tipos de materiais diferentes aplicados na sua superfície, terá mais impacto no FPS do que um polígono de 10.000 triângulos e 1 material.
   Cada triângulo com uma superfície diferentes é renderizado por vez.
 
