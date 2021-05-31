@@ -5,7 +5,7 @@ Podem ser utilizadas para definir propriedades de um elemento do jogo como por e
 tags: [Unreal Engine,Structure]
 ---
 
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](http://cafeGeek.eti.br/unreal_engine/index.html)
+[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
 
 # Structure - Variáveis estruturadas
 **Structure**, é um tipo de dados definido pelo usuário disponível no **Unreal Engine** em **C++** e **Blueprint**, neste capitulo vamos explorar estes objetos.

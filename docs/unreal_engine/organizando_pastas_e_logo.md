@@ -1,13 +1,13 @@
 ---
 title: Organizando pastas e logo do projeto
 description: Como organizar pastas e adicionar um logo no projeto
-tags: [Unreal Engine,Organizando,Blueprint,pastas]
+tags: [Unreal Engine,Organizando,Blueprint,pastas,folder]
 ---
 
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine 4](http://cafeGeek.eti.br/unreal_engine/index.html)
+[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
 
 # Organizando pastas e logo do projeto  
-Neste capitulo vamos organizar o projeto *ProjetoAula* e adicionar um logo par ao projeto.
+Neste capitulo vamos organizar o projeto *ProjetoAula* e adicionar um logo para o projeto.
 
 ## Índice
 1. [Como criar pastas de trabalho?](#1)
@@ -19,14 +19,16 @@ Neste capitulo vamos organizar o projeto *ProjetoAula* e adicionar um logo par a
 ## 1. Como criar pastas de trabalho?
 Na aba *Content Browser* utilizando botão direito do mouse clique em *New Folder* e crie as seguintes pastas:   
 
-![](imagens/projeto/blueprint_content.jpg)
+![blueprint_content](imagens/projeto/blueprint_content.jpg)		
+*Figura: Content Browser*
 
 <a name="2"></a>
 ## 2. Adicionando um *Level* na inicialização do projeto
 Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguintes passos:  
 1. Salve o *level* atual na pasta Maps **File->Save Current** com o nome LevelTest
 1. Para configurar a inicialização do projeto utilizando o **LevelTest** utilize o menu *Edit->Project Settings* e depois *Maps & Modes*.   
-![](imagens/projeto/blueprint_maps_modes.jpg)
+	![blueprint_maps_modes](imagens/projeto/blueprint_maps_modes.jpg)			
+	*Figura: Project - Maps & Modes*
 - **Edit Startup Level** Seleciona o *Level* que deverá ser carregado no início do jogo, neste casso é **LevelTest**.
 - **Game default Map** : Seleciona o *Level* que é mais usado com frequência.
 
@@ -105,7 +107,8 @@ Exemplo:
 <a name="4"></a>
 ## 4. Configurando as imagens  do projeto
 Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu **Project Settings** opção **Plataforms**-> **Windows** e altere a imagens.
-![](imagens/projeto/blueprint_project_icon.jpg)
+![blueprint_project_icon](imagens/projeto/blueprint_project_icon.jpg)		
+	*Figura: Project icon*
 
 > Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas pode ser convertido usando ferramentas online, por exemplo) e 256x256.
 
