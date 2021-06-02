@@ -39,8 +39,11 @@ Neste capitulo vamos apresentar formas de interação com o jogador e depois con
     1. [Salvando dados](#6.4)    
     1. [Voltando ao jogo](#6.5)    
     1. [Evento para carregar dados](#6.6)        
-    1. [Iniciando GameInstance no Widget](#6.7)                    
-    1. [Efetuando as chamadas das funções](#6.8)                    
+    1. [Iniciando Game Instance no Widget](#6.7)                    
+    1. [Efetuando as chamadas das funções](#6.8)
+1. [ATIVIDADES](#7)
+    1. [Apresentando mensagens para interagir com o personagem](#7.1)                      
+    1. [Implementando o menu do jogo usando Game Instance](#7.2)                      
 
 <a name="1"></a>
 ## 1. Como interagir com o jogador?
@@ -298,17 +301,37 @@ Vamos agora remover o menu ou objeto **Widget** da cena utilizando a função **
 - **Remove from Parent** - Remove o widget de seu **Widget** pai. Se este **widget** foi adicionado à tela do jogador ou à janela de visualização, ele também será removido desses recipientes.
 
 <a name="6.7"></a>
-### 6.7 Iniciando GameInstance no Widget
-No objeto BP_HUD_Demo vamos substituir ou adicionar a lógica dos botões, mas antes devemos inicializar a **GameInstance**.    
+### 6.7 Iniciando Game Instance no Widget
+No objeto BP_HUD_Demo vamos substituir ou adicionar a lógica dos botões, mas antes devemos inicializar a **Game Instance**.    
 ![blueprint_hud_gameinstance](imagens/gamemode/blueprint_hud_gameinstance.jpg)
 *Figura: Widget HUD gameinstance*
 
 <a name="6.8"></a>
 ### 6.8 Efetuando as chamadas das funções
-No evento click dos botões vamos adicionar os eventos construídos dentro da *gameinstance* isolando a regra de negócios (dados e lógica e manipulação).   
+No evento click dos botões vamos adicionar os eventos construídos dentro da *Game Instance* isolando a regra de negócios (dados e lógica e manipulação).   
 ![blueprint_hud_gameinstance_openlevel](imagens/gamemode/blueprint_hud_gameinstance_openlevel.jpg)      
-  *Figura: Widget HUD with gameinstance on click*
+  *Figura: Widget HUD with Game Instance on click*
 > Repetimos esse processo para associar todos os eventos aos botões.
+
+<a name="7"></a>
+## 7 ATIVIDADES
+<a name="7.1"></a>
+### 7.1 Apresentando mensagens para interagir com o personagem
+1. Regras
+  1. Implemente um objeto *Widget* com um texto colorido e formatado.
+  1. O *Widget* é acionado pressionando a tecla F quando o personagem ficar próximo.
+1. Desafio      
+  Implemente um gameplay em primeira pessoa dentro de uma casa
+
+### 7.2 Implementando o menu do jogo usando Game Instance
+1. Regras
+  1. Implemente o menu principal do jogo com as opções : Play e Quit.
+  1. Implemente o menu de Resumo do jogo com as opções : Resume, Load, Save, Home e Quit. O menu é acionado com a tecla M durante a *gameplay*. Implemente também toda a lógica das ações dos botões Load, Save e Quit.
+  1. Implemente uma Game Instance e adicione os seguintes objetos:
+    - **Open Menu Principal** para abrir o menu principal;
+    - **Open Menu Resume** para abrir o menu de pausa e resumo do jogo;
+1. Desafio
+  1. Apresente vários elementos visuais no menu, como por exemplo: Botões e imagens de fundo personalizados.
 
 ***
 ## Referências
