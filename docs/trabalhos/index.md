@@ -24,7 +24,7 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 1. [Atlus um Reino em Guerra](https://www.youtube.com/watch?v=pu4LWLRCIKk)    
     Autor: Robson Maciel
 1. [Happy Dance](https://www.youtube.com/watch?v=pegQzuS_Qr8&t=99s)       
-    Autor: Carlos César e Pedro Henrique
+    Autor: Carlos César, Robson Maciel e Pedro Henrique
 
 ## 3. Portfólios
 1. [Rafael Ferreira](https://www.behance.net/raphaelferreira10)    
