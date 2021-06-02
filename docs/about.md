@@ -1,6 +1,6 @@
 # Sobre
 
-Olá, meu nome é [Marco Yerco](mailto:myerco@gmail.com)
+Olá, meu nome é [Marco Yerco](mailto:myerco@gmail.com) analista de sistemas e professor, gostaria de compartilhar um pouco de conhecimento. 
 
 ### Experiência
 

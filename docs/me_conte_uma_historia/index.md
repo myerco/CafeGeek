@@ -5,8 +5,6 @@ tags: [narrativa, Roteirização, jogos digitais]
 ---
 [CafeGeek](http://cafegeek.eti.br)
 
-![introducao_me_conta_uma_historia](imagens/introducao_me_conta_uma_historia.jpg)
-
 # Me conte uma história
 Narrativa de jogos e construção de personagens. Construa sua narrativa, o tempo, o mundo, os personagens, os objetivos e os capítulos da história.
 ## Habilidades que serão aprendidas  
