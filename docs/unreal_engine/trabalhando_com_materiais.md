@@ -236,7 +236,7 @@ Resultado
     *Figura: Material Properties blend mode Translucent*
 
 <a name="11"></a>
-## 11. Material Instance;
+## 11. Material Instance
 A *Mateial Instance* ou Instanciação de Material é uma maneira de criar um Material pai, que pode então ser usado como base para fazer uma ampla variedade de Materiais filhos de aparência diferente. Para obter essa flexibilidade, o *Material Instancing* usa um conceito chamado herança: as propriedades do pai são fornecidas aos seus filhos. Aqui está um exemplo de herança de material em ação.
 
 <a name="11.1"></a>
@@ -297,7 +297,7 @@ Podemos definir parâmetros globais para que os materiais possam referenciar par
 ![MatPC](https://docs.unrealengine.com/Images/RenderingAndGraphics/Materials/ParameterCollections/MatPC.webp)
 
 <a name="14"></a>
-## 14. Material Function;
+## 14. Material Function
 **Mateial Functions** ou Funções de material são pequenos fragmentos de códigos gráficos de material que podem ser salvos em pacotes e reutilizados em vários materiais, em outras palavras são funções de programação. Seu objetivo é agilizar o processo de criação de material, dando acesso instantâneo a redes comumente usadas de nós materiais.    
 São compostas basicamente por entradas de parâmetros e saída de dados.
 
