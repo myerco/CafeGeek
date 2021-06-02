@@ -26,5 +26,8 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 1. [Happy Dance](https://www.youtube.com/watch?v=pegQzuS_Qr8&t=99s)       
     Autor: Carlos César, Robson Maciel e Pedro Henrique
 
-## 3. Portfólios
+## 3. Projetos - GDD
+1. [Modelo - Death Vip](0) 
+
+## 4. Portfólios
 1. [Rafael Ferreira](https://www.behance.net/raphaelferreira10)    

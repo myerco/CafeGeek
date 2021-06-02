@@ -1,7 +1,7 @@
-# Killer hotel
+# Killer Hotel
 ### Autor: Carlos
 
-### Rondônia, Brasil, 21 de abril do ano 2000
+## Rondônia, Brasil, 21 de abril do ano 2000
 
 É uma noite de chuva tempestuosa, raios e trovões dominam a noite enquanto o barulho de chuva soa em todo local, seguimos um caminho que leva para mais adentro na floresta, curvas, subidas e descidas ficam para trás enquanto a pequena estrada de terra batida resta a nossa frente cercada pela floresta que tenta dominar esse pequeno pedaço de civilização que invade sua área soberana.
 
@@ -15,7 +15,7 @@ Ele olha por um tempo com um olhar perdido antes de suspirar e voltar a sua terr
 
 Após um longo tempo, o homem vestido de doutor sai pela portas principais do hotel, e observa o céu enquanto a chuva lava suas vestes cheias de sangue, ele olha ao redor e deixa sua visão caminhar pelo ambiente após identificar o carro de sua vítima, até que imediatamente acima da entrada ele com um sorriso no rosto lê o nome de seu amado hotel pintado na parede, ‘Dr. H. Howard Homes Hotel’.
 
-Rondônia, Brasil 10 de maio de 2001
+## Rondônia, Brasil 10 de maio de 2001
 
 Vários carros se encontram abrigados do sol escaldante no estacionamento coberto, um carro policial se destaca entre eles, adentrando o meu belo e famoso Holmes Hotel, consigo ver diversos hóspedes utilizando a minha bela área de recepção como um ponto de encontro para suas conversas enquanto alguns de meus garçons e minhas belas garçonetes passam de tempos em tempos oferecendo leves bebidas e alguns aperitivos enquanto o salão do meu restaurante não é liberado para a refeição do meio-dia, em um canto isolado da minha recepção está um homem negro que aparenta ter em torno de 30 anos, cabelo em corte militar e fardado como um oficial de justiça, me aproximo e novamente vejo que ele se encontra sentando com a foto de uma jovem na mão e a de um senhor calvo em torno de 50 anos jogada em uma pequena mesa, sento ao seu lado com um sorriso amigável, mas com um toque de tristeza tingindo todo meu semblante, eu estou trajando uma roupa digna de minha posição, de dono deste magnífico hotel ao qual chamo casa, um terno preto e me apoio em minha ilustre bengala preta, suspiro ao pensar no motivo da presença de homem a quem chamo amigo aqui.
 

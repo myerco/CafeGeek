@@ -21,25 +21,24 @@ Protagonista \ Player: Surge da população, os sem facção. Ela\ele é órfã(
 
 Herdeira facção indígena: Ela é filha do xamã da facção indígena e possuía um irmão mais velho, pelo qual havia abrido mão de sua posição de herdeira. Ela e seu irmão eram os mais importantes engenheiros de tecnologia medicinal de toda a cidade. Após seu irmão ser assassinado, ela assume o cargo de herdeira para vingar a morte de seu irmão e tomar o futuro da cidade em suas mãos.
 
-Obs.: possui side story
+> Obs.: possui side story
 
 Herdeiro facção comercial: Ele possuía uma vida complicada. Seu pai abusava dele e sua mãe, batendo nos dois cruelmente sempre. Ele competiu, entre várias outras crianças, contra seu irmão mais velho pelo cargo de herdeiro, e ganhou do mesmo. Seu pai que sempre favorecia o irmão mais velho, pois ele tinha o plano de manipulá-lo quando se tornasse o líder, aumentou ainda mais os abusos cometidos. Um certo dia, quando seu pai havia bebido além da conta, ele bateu tanto em sua esposa, que acabou a matando.
 
-Obs.: possui side story
+> Obs.: possui side story
 
-Herdeira facção política: Ela conquistou por mérito o cargo de herdeira, embora muitos duvidem disso, pois ela é filha do líder atual da facção. Ela foi treinada para conquistar a confiança das pessoas com discursos.
+**Herdeira facção política:** Ela conquistou por mérito o cargo de herdeira, embora muitos duvidem disso, pois ela é filha do líder atual da facção. Ela foi treinada para conquistar a confiança das pessoas com discursos.
 
-Herdeiro facção mercenárias: O líder da facção possuía um irmão invejoso e ambicioso, que montou um motim para assumir a posição de líder, matando seu irmão para atingir seu objetivo. Entre os conselheiros da facção, haviam aqueles que eram contra a liderança dele, que foram assassinados por terem essa oposição. Dentre os assassinados, estava um casal, que foi brutalmente mortos na frente de seu filho. Essa criança era treinada pelo grande mestre mercenário da facção, que foi exilado após a tomada de poder do novo líder. Ao ir embora da cidade, o mestre levou a criança pois a mesma seria morta se continuasse na cidade. Ao passar alguns anos, o jovem retornou com um novo nome, com o objetivo de tornar-se o herdeiro de sua facção, para tirá-la das mãos do líder tirano. Para conseguir essa posição de herdeiro, ele colocou uma máscara, onde ele era uma máquina mortífera, que obedecia a qualquer ordem dada pelo seu líder.
+**Herdeiro facção mercenárias:** O líder da facção possuía um irmão invejoso e ambicioso, que montou um motim para assumir a posição de líder, matando seu irmão para atingir seu objetivo. Entre os conselheiros da facção, haviam aqueles que eram contra a liderança dele, que foram assassinados por terem essa oposição. Dentre os assassinados, estava um casal, que foi brutalmente mortos na frente de seu filho. Essa criança era treinada pelo grande mestre mercenário da facção, que foi exilado após a tomada de poder do novo líder. Ao ir embora da cidade, o mestre levou a criança pois a mesma seria morta se continuasse na cidade. Ao passar alguns anos, o jovem retornou com um novo nome, com o objetivo de tornar-se o herdeiro de sua facção, para tirá-la das mãos do líder tirano. Para conseguir essa posição de herdeiro, ele colocou uma máscara, onde ele era uma máquina mortífera, que obedecia a qualquer ordem dada pelo seu líder.
 
-Obs.: possui side story
+> Obs.: possui side story
 
-### Movimentação e Jogabilidade dos Personagens
+## Movimentação e Jogabilidade dos Personagens
 
+**Herdeira facção indígena:** Possui estatura mediana, cerca de 1,60 cm, pele morena, cabelos lisos e negros. Anda de modo silencioso, calmo e furtivo. Ela possui dois familiares, um que teria a forma de uma arara, que auxiliaria em momentos de espionagem e vigilância. O outro familiar seria no formato de uma onça parda, que auxiliaria em momentos de combate (pertencia ao seu irmão falecido). Ela usaria em combate um arco e flecha tecnológico. Seu range é em formato de cone.
 
-Herdeira facção indígena: Possui estatura mediana, cerca de 1,60 cm, pele morena, cabelos lisos e negros. Anda de modo silencioso, calmo e furtivo. Ela possui dois familiares, um que teria a forma de uma arara, que auxiliaria em momentos de espionagem e vigilância. O outro familiar seria no formato de uma onça parda, que auxiliaria em momentos de combate (pertencia ao seu irmão falecido). Ela usaria em combate um arco e flecha tecnológico. Seu range é em formato de cone.
+**Herdeiro facção comercial:** Possui estatura alta, cerca de 1,78 cm, pele clara, cabelos ondulados em tons castanhos claros, quase loiros. É uma pessoa quieta e calma, geralmente anda com headsets e mexendo em seu tablet. Ele é um hacker nato, podendo controlar qualquer área robotizada da cidade que esteja em seu alcance. (possivelmente possui um ajudante cibernético com inteligência artificial).
 
-Herdeiro facção comercial: Possui estatura alta, cerca de 1,78 cm, pele clara, cabelos ondulados em tons castanhos claros, quase loiros. É uma pessoa quieta e calma, geralmente anda com headsets e mexendo em seu tablet. Ele é um hacker nato, podendo controlar qualquer área robotizada da cidade que esteja em seu alcance. (possivelmente possui um ajudante cibernético com inteligência artificial).
+**Herdeira facção política:** Possui estatura mediana, cerca de 1,67 cm, pele clara, cabelo curto e castanho mel. Suas roupas são ternos minimalistas e de cores neutras como escalas de preto até o branco. Ela possui vários seguranças sob seu comando e tem a habilidade, que pode ser usada poucas vezes, de hipnose, trazendo um inimigo ou uma pessoa neutra para seu lado e obedecendo aos seus comandos por determinado tempo.
 
-Herdeira facção política: Possui estatura mediana, cerca de 1,67 cm, pele clara, cabelo curto e castanho mel. Suas roupas são ternos minimalistas e de cores neutras como escalas de preto até o branco. Ela possui vários seguranças sob seu comando e tem a habilidade, que pode ser usada poucas vezes, de hipnose, trazendo um inimigo ou uma pessoa neutra para seu lado e obedecendo aos seus comandos por determinado tempo.
-
-Herdeiro facção mercenárias: Possui estatura mediana, cerca de 1,70 cm, pele negra, cabelo preto, comprido com alguns dreads. Conhecendo superficialmente, ele é uma pessoa “esquentada”, sempre arrumando brigas, mas ele realmente é estratégico e faz de tudo para atingir seus objetivos. É hábil utilizando armas brancas, armas de fogo e explosivos, sua tática de combate é mais para range curto.
+**Herdeiro facção mercenárias:** Possui estatura mediana, cerca de 1,70 cm, pele negra, cabelo preto, comprido com alguns dreads. Conhecendo superficialmente, ele é uma pessoa “esquentada”, sempre arrumando brigas, mas ele realmente é estratégico e faz de tudo para atingir seus objetivos. É hábil utilizando armas brancas, armas de fogo e explosivos, sua tática de combate é mais para range curto.
