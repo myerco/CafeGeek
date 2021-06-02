@@ -1,6 +1,6 @@
 # Sobre
 
-Olá, meu nome é [Marco Yerco](myerco@gmail.com)
+Olá, meu nome é [Marco Yerco](mailto:myerco@gmail.com)
 
 ### Experiência
 

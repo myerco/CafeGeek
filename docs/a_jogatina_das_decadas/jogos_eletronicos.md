@@ -4,7 +4,6 @@ description: Jogos Eletrônicos
 tags: [narrativa, Roteirização, jogos digitais]
 ---
 [CafeGeek](http://cafegeek.eti.br)
-![cafegeek_roteirizacao](imagens/cafegeek_roteirizacao.jpg)
 
 # Jogos Eletrônicos
 ...

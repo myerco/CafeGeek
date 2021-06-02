@@ -5,8 +5,6 @@ tags: [narrativa, Roteirização, jogos digitais]
 ---
 [CafeGeek](http://cafegeek.eti.br)
 
-![cafegeek_roteirizacao](imagens/introducao_jogatina_das_decadas.jpg)
-
 # A jogatina das décadas
 A história dos jogos na sociedade e seus diferentes tipos e evolução. Conheça a história dos jogos na sociedade e estude os conceitos da suas estruturas.
 

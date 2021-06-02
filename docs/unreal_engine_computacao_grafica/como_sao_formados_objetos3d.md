@@ -262,7 +262,7 @@ Pivot é um ponto que marca o centro de objetos tridimensionais no Maya, onde :
 ### 10.2 Pivot - O centro do objeto 3D no Unreal Engine
 
 ![ue4_change_pivot](imagens/ue4_change_pivot.jpg)     
-*Figura: - Alt + Scroll mouse Autor*
+*Figura: - Alt + Scroll mouse *
 
 <a name="11"></a>
 ## 11. Cor
