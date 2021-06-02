@@ -27,7 +27,7 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
     Autor: Carlos César, Robson Maciel e Pedro Henrique
 
 ## 3. Projetos - GDD
-1. [Modelo - Death Vip](modelo_gdd_death_vip.html) 
+1. [Modelo - Death Vip](modelo_gdd_death_vip.html)
 
 ## 4. Portfólios
-1. [Rafael Ferreira](https://www.behance.net/raphaelferreira10)    
+1. [Raphael Ferreira](https://www.behance.net/raphaelferreira10)    
