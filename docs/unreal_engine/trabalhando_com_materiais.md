@@ -78,7 +78,7 @@ Abaixo citamos os mais importantes atributos dos materiais.
 ## 3.3 Editor e nó principal
 O nó principal e suas propriedades.     
 
-  ![ue4_material_no_principal](imagens/materiais/ue4_material_no_principal.jpg)
+  ![ue4_material_no_principal](imagens/materiais/ue4_material_no_principal.jpg)     
   *Figura: Nó principal.*
 
 <a name="4"></a>
