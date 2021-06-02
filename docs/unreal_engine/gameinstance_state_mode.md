@@ -35,10 +35,10 @@ O fluxograma abaixo apresenta como as principais classes de jogo se relacionam e
 O conceito de "jogo" é dividido em 2 classes. O modo de jogo e o estado são as definições do jogo, incluindo coisas como as regras do jogo e as condições de vitória.
 
 - **GameMode** - Controla como os jogadores entram no jogo utilizando as classes:   
-  InitGame, PreLogin, PostLogin e Logout.
+  *InitGame*, *PreLogin*, *PostLogin* e *Logout*.
 - **GameState** - É responsável por permitir que os clientes monitorem o estado do jogo.  Ele pode controlar as propriedades do jogo, como a lista de jogadores conectados, pontuação da equipe no Capture The Flag, missões que foram concluídas em um jogo de mundo aberto e assim por diante.   
 
->O **GameState** não é o melhor lugar para controlar coisas específicas do jogador, como quantos pontos um jogador específico marcou para o time em uma partida do Capture The Flag porque isso pode ser tratado de forma mais limpa pelo **PlayerState**. Em geral, o GameState deve rastrear propriedades que mudam durante o jogo e são relevantes e visíveis para todos. Embora o modo Jogo exista apenas no servidor, o **Game State** existe no servidor e é replicado para todos os clientes, mantendo todas as máquinas conectadas atualizadas conforme o jogo avança.
+  >O **GameState** não é o melhor lugar para controlar coisas específicas do jogador, como quantos pontos um jogador específico marcou para o time em uma partida do Capture The Flag porque isso pode ser tratado de forma mais limpa pelo **PlayerState**. Em geral, o GameState deve rastrear propriedades que mudam durante o jogo e são relevantes e visíveis para todos. Embora o modo Jogo exista apenas no servidor, o **Game State** existe no servidor e é replicado para todos os clientes, mantendo todas as máquinas conectadas atualizadas conforme o jogo avança.
 
 - **PlayerState** - É o estado de um participante do jogo, como um jogador humano ou um *bot* que está simulando um jogador. Os dados apropriados em um **PlayerState** incluem o nome do jogador, pontuação, nível de jogo ou se o jogador esta carregando a bandeira em um jogo CTF.
 
@@ -52,19 +52,22 @@ Existem duas formas de informar qual **GameMode** o jogo deve utilizar, por *Lev
 <a name="3.1"></a>
 ### 3.1 Criando o GameMode
 Utilizando o menu de contexto escolhemos **Game Mode Base**.
-![blueprint_gamemode_create](imagens/gamemode/blueprint_gamemode_create.jpg)
+![blueprint_gamemode_create](imagens/gamemode/blueprint_gamemode_create.jpg)    
+*Figura: GameMode create*
 
 <a name="3.2"></a>
 ### 3.2 GameMode por Level em Word Settings
- ![blueprint_word_settigns_gamemode](imagens/gamemode/blueprint_word_settigns_gamemode.jpg)
- - **BP_Hero** - Objeto do tipo **Character**.
- - **BP_PlayerController** - Objeto do tipo **PlayerController**
+![blueprint_word_settigns_gamemode](imagens/gamemode/blueprint_world_settigns_gamemode.jpg)   
+*Figura: World Settigns GameMode*
+- **BP_Hero** - Objeto do tipo **Character**.
+- **BP_PlayerController** - Objeto do tipo **PlayerController**
 
 <a name="3.3"></a>
 ### 3.3 GameMode para o projeto inteiro
 Utilizamos o Menu **Project/Maps & Modes**.     
 
 ![blueprint_project_mapsmodes](imagens/gamemode/blueprint_project_mapsmodes.jpg)
+*Figura: Project - Maps & Modes*
 
 <a name="4"></a>
 ## 4. O que é PlayerController?
@@ -78,6 +81,7 @@ Por exemplo, em jogos *deathmatch*, o **Pawn** pode mudar durante o jogo, mas o 
 
 A classe **Character** representa o jogador no mundo do jogo. Ele fornece funcionalidade para animação, colisão, movimento e rede básica e modos de entrada. Portanto, se sua entrada não for complicada e não houver necessidade de alterar o caractere dinamicamente em tempo de execução, a classe de caractere é mais adequada. Por exemplo, você pode usá-lo no jogo de tiro em primeira pessoa para um único jogador.     
 ![blueprint_playercontroller_character](imagens/gamemode/blueprint_playercontroller_character.jpg)
+*Figura: PlayerController*
 - **GetPlayerController** - As coordenadas apresentadas no nó **Print String** serão as coordenadas iniciais do **Pawn**.
 - **GetPlayerCharacter** - As coordenadas apresentadas no nó **Print String** variam conforme a movimentação do **Pawn**.
 
@@ -92,25 +96,29 @@ Tem seu próprio **Event Graph** para permitir desenvolvimento.
 <a name="5.1"></a>
 ### 5.1 Criando GameInstance
 Utilizando o menu de contexto escolhemos Bluprint Class e logo em seguida procuramos a classe GameInstance básica.   
-![blueprint_gameinstance_classe](imagens/gamemode/blueprint_gameinstance_classe.jpg)
+![blueprint_gameinstance_classe](imagens/gamemode/blueprint_gameinstance_classe.jpg)      
+*Figura: Create GameInstance*
 
 <a name="5.2"></a>
 ### 5.2 Adicionando um evento dentro da GameInstance
 Como explicado anteriormente, os eventos e objetos ficaram disponíveis para o projeto. Para este exemplo vamos utilizar um evento customizado **Add Custom Event** no **Event Graph** da **GameInstance**.    
-![blueprint_gameinstance_events](imagens/gamemode/blueprint_gameinstance_events.jpg)
+![blueprint_gameinstance_events](imagens/gamemode/blueprint_gameinstance_events.jpg)            
+*Figura: GameInstance - Implementando a chamada de um objeto Widget*
 
 Vamos adicionar uma variável para exemplificar.   
-![blueprint_gameinstance_variable](imagens/gamemode/blueprint_gameinstance_variable.jpg)
+![blueprint_gameinstance_variable](imagens/gamemode/blueprint_gameinstance_variable.jpg)            
+*Figura: GameInstance Variáveis*
 
 <a name="53"></a>
 ### 5.3 Chamando a GameInstance para acessar os seus elementos
 Para este exemplo criamos um Level Vazio e no **Open Level Blueprint** vamos executar a chamada da **GameInstance**.
 
 1. Antes de executar a chamada da **GameInstance** dentro dos objetos é necessário informar para o projeto qual a **GameInstance** padrão.        
-![blueprint_gameinstance_project](imagens/gamemode/blueprint_gameinstance_project.jpg)
+![blueprint_gameinstance_project](imagens/gamemode/blueprint_gameinstance_project.jpg)        
+  *Figura: GameInstance Project*
 1. Logo após podemos utilizar a função **GetGameInstance** que retorna a **GameInstance** definida anteriormente para o projeto.   
 ![blueprint_gameinstance_cast](imagens/gamemode/blueprint_gameinstance_cast.jpg)
-
+  *Figura: GameInstance Cast*
 
 ***
 ## Referências

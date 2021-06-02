@@ -218,7 +218,7 @@ Para este passo vamos implementar os seguintes elementos para apresentar informa
 <a name="5.1"></a>
 ### 5.1 Fazendo a ligação do elemento da interface com uma função
 Devemos conectar os elementos da interface com funções por meio de uma propriedade **Bind**.   
-![blueprint_hud_progressbar_bind](imagens/interface_ui_hud/blueprint_hud_progressbar_bind.jpg)
+![blueprint_hud_progressbar_bind](imagens/interface_ui_hud/blueprint_hud_progressbar_bind.jpg)      
   *Figura: Widget HUD Progress Bar Bind*
 
 <a name="5.2"></a>
@@ -235,7 +235,7 @@ Podemos utilizar [Variáveis estruturadas](structure_variaveis_estruturadas.html
   *Figura: Widget HUD name player function*
 
 <a name="6"></a>
-## 6 Organizando os objetos
+## 6. Organizando os objetos
 Vamos organizar todos os objetos criados para controlar melhor a lógica de programação de cada elemento, considerando:  
 - Separação da lógica de negócios e os visuais de sua IU
 - Permite iteração rápida de layout e visuais
@@ -246,12 +246,12 @@ Vamos organizar todos os objetos criados para controlar melhor a lógica de prog
 ### 6.1 Criando o objeto SaveGame para salvar dados do jogo
 Para exemplificar algumas funções do menu como por exemplo salvar dados do jogo vamos realizar as seguintes operações.
 
-1.  Implementar um objeto BP_SaveGameDemo do tipo **SaveGame**, para isso utilizamos o menu de contexto e escolhemos **Blueprint**.    
+1.  Implementar um objeto BP_SaveGameDemo do tipo **SaveGame**, para isso utilizamos o menu de contexto e escolhemos **Blueprint**.        
 
-![blueprint_save_game_object](imagens/saveload/blueprint_save_game_object.jpg)    
+  ![blueprint_save_game_object](imagens/saveload/blueprint_save_game_object.jpg)    
   *Figura: Class SaveGame*   
-
-1. Adicionamos variáveis dentro do objeto para definir o que deve ser salvo, neste exemplo utilizaremos a variável **JogadorInfo** do tipo **S_jogador** que é uma [Variável Structure](structure_variaveis_estruturadas.html).       
+1. Adicionamos variáveis dentro do objeto para definir o que deve ser salvo, neste exemplo utilizaremos a variável **JogadorInfo** do tipo **S_jogador** que é uma
+  [Variável Structure](structure_variaveis_estruturadas.html).     
 
   ![blueprint_save_game_variable](imagens/saveload/blueprint_save_game_variable.jpg)    
   *Figura: SaveGame variáveis*
