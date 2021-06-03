@@ -7,7 +7,9 @@ tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digi
 
 [CafeGeek](http://CafeGeek.eti.br)
 
-![unreal egine cafegeek logo](imagens/unreal_egine_cafegeek_logo.jpg)
+<p align="center">
+<img align="center" width="300" height="200" src="imagens/unreal_egine_cafegeek_logo.jpg">
+</p>
 
 # Desenvolvimento de jogos utilizando Unreal Engine
 Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer.    
