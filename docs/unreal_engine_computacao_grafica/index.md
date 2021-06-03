@@ -7,7 +7,7 @@ tags: [Unreal Engine,Rendering,Maya,computação gráfica]
 [CafeGeek](http://cafegeek.eti.br)
 
 <p align="center">
-<img align="center" width="300" height="200" src="imagens/computer_graphics_cafegeek_logo.jpg">
+<img align="center" width="500" height="350" src="imagens/computer_ graphics_cafegeek_logo.jpg">
 </p>
 
 # Computação Gráfica com Unreal Engine e Autodesk Maya

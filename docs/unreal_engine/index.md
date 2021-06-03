@@ -8,7 +8,7 @@ tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digi
 [CafeGeek](http://CafeGeek.eti.br)
 
 <p align="center">
-<img align="center" width="300" height="200" src="imagens/unreal_egine_cafegeek_logo.jpg">
+<img align="center" width="500" height="350" src="imagens/unreal_egine_cafegeek_logo.jpg">
 </p>
 
 # Desenvolvimento de jogos utilizando Unreal Engine
