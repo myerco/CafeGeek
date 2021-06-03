@@ -5,7 +5,7 @@ tags: [Unreal Engine, Game Design, Level Design, Narrativas, Maya]
 ---
 
 <p align="center">
-<img align="center" src="imagens/cafegeek_small.png">
+<img align="center" width="100" height="100" src="imagens/cafegeek_small.png">
 </p>
 
 ## Desenvolvimento de jogos
