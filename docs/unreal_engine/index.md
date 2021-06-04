@@ -7,13 +7,11 @@ tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digi
 
 [CafeGeek](http://CafeGeek.eti.br)
 
-
 <p align="center">
-<img align="center" width="500" height="350" src="imagens/unreal_egine_cafegeek_logo.jpg">
+<img align="center" width="100" height="100" src="../imagens/cafegeek_small.png">
 </p>
 
-# Desenvolvimento de jogos utilizando o Unreal Engine
-
+## Desenvolvimento de jogos utilizando o Unreal Engine
 
 ## Conteúdo do curso
 1. [Introdução](unreal_engine_introducao_desenvolvimento_jogos.html)

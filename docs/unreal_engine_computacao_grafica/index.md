@@ -7,10 +7,10 @@ tags: [Unreal Engine,Rendering,Maya,computação gráfica]
 [CafeGeek](http://cafegeek.eti.br)
 
 <p align="center">
-<img align="center" width="500" height="350" src="imagens/computer_ graphics_cafegeek_logo.jpg">
+<img align="center" width="100" height="100" src="../imagens/cafegeek_small.png">
 </p>
 
-# Computação Gráfica com Unreal Engine e Autodesk Maya
+## Computação Gráfica com Unreal Engine e Autodesk Maya
 
 ## Conteúdo do curso
 1. [Introdução](introducao_computacao_grafica.html)
