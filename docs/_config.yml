@@ -5,6 +5,8 @@ author: CafeGeek
 includes_dir  : _include
 include       : _include
 
+github:
+  is_project_page: false
 
 # --- Web Analytics Section --- #
 gtag: "UA-74199518-1"
