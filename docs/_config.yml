@@ -1,6 +1,5 @@
 theme: jekyll-theme-cayman
-title: CafeGeek
-description: Conhecimento e diversão
+title: false
 author: CafeGeek
 
 includes_dir  : _include
