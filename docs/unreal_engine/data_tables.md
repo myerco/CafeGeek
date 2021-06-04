@@ -1,12 +1,12 @@
 ---
-title: Data tables - Tabelas de dados
-description: Data Tables são estruturas de dados com vários tipos de variáveis agrupados e podem ser utilizadas para armazenamento de forma estática informações dos personagens e suas características, recursos do jogo como espadas, escudos, magias, propriedades do jogo como níveis, dificuldades e pontuação.
+title: Data Tables
+description: Data Tables são estruturas de dados com vários tipos de variáveis agrupados
 tags: [Unreal Engine,data tables]
 ---
 
 [CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
 
-# Data tables - Tabelas de dados
+# Data Tables
 Neste capitulo vamos explorar os objetos do tipo **Data tables** que são basicamente tabelas de dados disponíveis para os desenvolvedores e são definidas por tipos *Structure*.  
 
 ## Índice

@@ -46,7 +46,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
     1. [Delta time e sistema de coordenadas](deltatime_sistema_coordenadas.html)  
 1. Estruturas de dados
     1. [Structure - Variáveis estruturadas](structure_variaveis_estruturadas.html)  
-    1. [Data tables - Tabelas de dados](datatables.html)
+    1. [Data tables - Tabelas de dados](data_tables.html)
     1. [Game Instance, Game State e Game Mode](gameinstance_state_mode.html)
 1. Interface com usuário
     1. [HUD - Interface com o jogador](hud_interface.html)
@@ -57,7 +57,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 1. Animação, multiplayer e inteligência artificial
     1. [Animação](animacao.html)
     1. [Multiplayer](multiplayer.html)
-    1. [Convertendo para c++](convertendo.html)
+    1. [Convertendo para c++](convertendo_blueprint_para_c++.html)
     1. [Inteligência Artificial](inteligenciaartificial.html)
 1. Efeitos especiais
     1. [Sequencer](sequencer.html)
