@@ -10,6 +10,8 @@ tags: [Unreal Engine,Rendering,Maya]
 ## Índice
 1. [Desenvolvendo jogos digitais](#1)
 1. [O que é Unreal Engine?](#2)
+1. [O curso de Desenvolvimento de jogos utilizando Unreal Engine](#3)
+1. [Habilidades que serão aprendidas](#4)
 
 <a name="1"></a>
 ## 1. Desenvolvendo jogos digitais
@@ -56,6 +58,22 @@ A maioria das *engines* seguem um ciclo de execução da lógica de programaçã
 1. Editor de sons;
 1. Editor para construção de materiais;
 1. Editor de efeitos especiais utilizando partículas;
+
+<a name="3"></a>
+## 3. O curso de Desenvolvimento de jogos utilizando Unreal Engine
+Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer.    
+
+<a name="4"></a>
+## 4. Habilidades que serão aprendidas
+- Configuração e organização de projetos;
+- Analisar e aplicar lógica de programação utilizando *Blueprint* e *C++*;
+- Implementar regras de tempo e espaço;
+- Implementar interface do usuário;
+- Estruturar e configurar materiais, terrenos e iluminação;
+- Implementar ambientes Multijogador;
+- Implementar inteligência artificial;
+- Construir animação de personagens;
+- Implementar Efeitos especiais.
 
 ***
 ## Referências

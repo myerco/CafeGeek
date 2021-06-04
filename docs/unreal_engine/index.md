@@ -11,20 +11,6 @@ tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digi
 <img align="center" width="500" height="350" src="imagens/unreal_egine_cafegeek_logo.jpg">
 </p>
 
-# Desenvolvimento de jogos utilizando Unreal Engine
-Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer.    
-## Habilidades que serão aprendidas
-- Configuração e organização de projetos;
-- Analisar e aplicar lógica de programação utilizando *Blueprint* e *C++*;
-- Implementar regras de tempo e espaço;
-- Implementar interface do usuário;
-- Estruturar e configurar materiais, terrenos e iluminação;
-- Implementar ambientes Multijogador;
-- Implementar inteligência artificial;
-- Construir animação de personagens;
-- Implementar Efeitos especiais.
-
----
 ## Conteúdo do curso
 1. [Introdução](unreal_engine_introducao_desenvolvimento_jogos.html)
 1. Projeto e instalação
