@@ -4,6 +4,8 @@ author: CafeGeek
 includes_dir  : _include
 include       : _include
 
+breadcrumbs: true              
+
 github:
   is_project_page: false
 
