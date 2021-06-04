@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
-title: false
+title: null
 author: CafeGeek
 
 includes_dir  : _include
