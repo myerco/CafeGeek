@@ -120,10 +120,10 @@ Os nós de Expressão de Material contêm pequenos fragmentos de código HLSL qu
 Abaixo um exemplo de conexão.
 
 ![ue4_material_base_conexao](imagens/materiais/ue4_material_base_conexao.jpg)     
-*Figura: Material connection*
+  *Figura: Material connection*
 
-  - Botão direito do mouse em qualquer área de trabalho (RMB) abre a lista de nós disponíveis.
-  - É possível fazer a busca de nós na aba **Palette** e arrastar com o mouse na área de trabalho.
+- Botão direito do mouse em qualquer área de trabalho (RMB) abre a lista de nós disponíveis.
+- É possível fazer a busca de nós na aba **Palette** e arrastar com o mouse na área de trabalho.
 
 <a name="6.2"></a>
 ### 6.2 Combinando material Expressions
@@ -160,17 +160,30 @@ Interpola Linearmente entre A e B com base em Alfa (100% de A quando Alfa = 0 e 
 <a name="7.1"></a>
 ### 7.1 Roughness - rugosidade
 ![ue4_material_roughness_exemplo](imagens/materiais/ue4_material_roughness_exemplo.jpg)   
-  *Figura: Texture Roughness*
+  *Figura: Texture Roughness - Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante.*
+
+**Roughness** (Aspereza e também chamada de brilho ou dispersão da micro-superfície) é um mapa semi-autoexplicativo. Eles definem como a luz é espalhada pela superfície do seu modelo.     
+Isso começa com um valor de zero, onde seu modelo não dispersará a luz, tornando os reflexos e a iluminação muito mais nítidos e brilhantes em seu material.    
+Por outro lado, se você aumentar a rugosidade ao máximo, a luz se espalhará mais pelo material. Isso faz com que a iluminação e os reflexos se espalhem pelo modelo, mas pareçam muito mais escuros.      
 
 <a name="7.2"></a>
 ### 7.2 Normal - Coordenadas normals
 ![ue4_material_normal_exemplo](imagens/materiais/ue4_material_normal_exemplo.jpg)     
   *Figura: Texture Normal*
 
+Usado para simular a maneira como a luz interage com a superfície do material para simular saliências e amassados menores.    
+É importante observar que um mapa normal não mudará sua geometria base (consulte os mapas de altura posteriormente neste artigo).   
+A cor base de um mapa normal é roxo claro, esta é a “parte inferior” do mapa normal que representa a superfície de sua malha poligonal. A partir daí, os valores RGB são usados para produzir rachaduras, saliências ou poros em seu modelo. Os valores R, G e B são iguais às coordenadas X, Y e Z em sua malha base.
+
 <a name="7.3"></a>
 ### 7.3 Metallic - Metálica
 ![ue4_material_metallic_exemplo](imagens/materiais/ue4_material_metallic_exemplo.jpg)     
 *Figura: Texture Metallic*
+
+É usado para definir se o seu material (ou parte dele) é metal puro.      
+Os mapas de metal também são em tons de cinza, mas a prática recomendada é usar apenas os valores de branco e preto e fazer as variações entre o uso de seus mapas de rugosidade.     
+Preto no mapa de *metalidade* significa que parte do mapa usará o mapa de albedo como a cor difusa (a cor que a textura mostra quando é atingida pela luz).   
+Em vez disso, o branco usará a cor albedo para definir a cor e o brilho de seus reflexos e definirá a cor difusa dos materiais como preto. A cor difusa não é mais necessária neste caso porque todas as cores e detalhes daquela parte do material agora virão dos reflexos, tornando-o preto.
 
 <a name="8"></a>
 ## 8. Aplicando o material no objeto
@@ -181,9 +194,9 @@ Interpola Linearmente entre A e B com base em Alfa (100% de A quando Alfa = 0 e 
 ## 9. Material Inputs
 Nem todas as entradas serão úteis para cada tipo de material que você criar. Por exemplo, ao desenvolver uma Função de Luz - um Material que é aplicado a uma luz - você só pode usar a entrada Cor Emissiva no material e nada mais, visto que outras entradas, como Metálico ou Aspereza, não seriam aplicáveis. Por isso, é importante saber que tipo de material você está criando antes de começar a se preocupar muito com as entradas. As três propriedades de controle primárias são:
 
-- Blend Mode - controla como o seu material se mesclará com os pixels por trás dele.
-- Shading Model - define como a luz é calculada para a superfície do material.
-- Material Domain - controla como o material deve ser usado, por exemplo, se ele deve fazer parte de uma superfície, uma função leve ou um material pós-processamento.
+- **Blend Mode** - controla como o seu material se mesclará com os pixels por trás dele.
+- **Shading Model** - define como a luz é calculada para a superfície do material.
+- **Material Domain** - controla como o material deve ser usado, por exemplo, se ele deve fazer parte de uma superfície, uma função leve ou um material pós-processamento.
 
   ![ue4_material_type_input](imagens/materiais/ue4_material_type_input.jpg)     
   *Figura: Material Type input*
@@ -329,3 +342,4 @@ Input Parameter -> Output Result
 - [Creating and Using Material Instances](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/HowTo/Instancing/index.html)
 - [Material Parameter Collections](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/ParameterCollections/index.html)
 - [Material Parameter Collections](https://www.unrealengine.com/en-US/blog/material-parameter-collections)
+- [Texture maps](https://conceptartempire.com/texture-maps/)
