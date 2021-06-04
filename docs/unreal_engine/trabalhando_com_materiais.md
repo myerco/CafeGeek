@@ -33,7 +33,7 @@ tags: [Unreal Engine,Materiais, material Function,material]
 1. [Material Instance](#11)
     1. [Preparando o Material](#11.1)
     1. [Criando material instance](#11.2)
-1. [Editor de material Instance](#11.3)
+1. [Editor de material Instance](#11)
 1. [Materiais e Blueprint](#12)
 1. [Parameter Global](#13)
 1. [Material Function](#14)
@@ -263,8 +263,8 @@ Selecione o material M_Base ou outro material e com o botão direito acione o me
 ![ue4_material_create_material_instance](imagens/materiais/ue4_material_create_material_instance.jpg)   
   *Figura: Create material instance*
 
-<a name="11.3"></a>
-### 11.3 Editor de material Instance
+<a name="12"></a>
+### 12 Editor de material Instance
 ![ue4_material_instance_editor](imagens/materiais/ue4_material_instance_editor.jpg)     
   *Figura: Material instance editor*
 
@@ -275,8 +275,8 @@ Selecione o material M_Base ou outro material e com o botão direito acione o me
 
 ### 11.4 Parâmetros
 
-<a name="12"></a>
-## 12. Materiais e Blueprint
+<a name="13"></a>
+## 13. Materiais e Blueprint
 Podemos manipular os objetos do tipo material com blueprint.
 
 1. Lógica para criar o material e a textura: Create material instance->Set Texture Parameter Value
@@ -288,21 +288,31 @@ Podemos manipular os objetos do tipo material com blueprint.
   ![ue4_material_bp_level_blueprint_call_event](imagens/materiais/ue4_material_bp_level_blueprint_call_event.jpg)   
   *Figura: Material Open Level blueprint call event*
 
-<a name="13"></a>
-## 13. Parameter Global
+<a name="14"></a>
+## 14. Parameter Global
 Podemos definir parâmetros globais para que os materiais possam referenciar parâmetros escalares e vetoriais.
 > É uma ferramenta poderosa que os artistas podem usar para obter dados globais em muitos materiais de uma só vez. Ele também pode ser usado para gerar efeitos por nível, como quantidade de neve, quantidade de destruição, umidade, etc., que, de outra forma, exigiria a configuração de valores de parâmetros individuais em muitas instâncias de materiais diferentes em seu nível.
 
 - Material Parameter->GetCollectionParameter
 ![MatPC](https://docs.unrealengine.com/Images/RenderingAndGraphics/Materials/ParameterCollections/MatPC.webp)
 
-<a name="14"></a>
-## 14. Material Function
+<a name="15"></a>
+## 15. Material Function
 **Mateial Functions** ou Funções de material são pequenos fragmentos de códigos gráficos de material que podem ser salvos em pacotes e reutilizados em vários materiais, em outras palavras são funções de programação. Seu objetivo é agilizar o processo de criação de material, dando acesso instantâneo a redes comumente usadas de nós materiais.    
 São compostas basicamente por entradas de parâmetros e saída de dados.
 
 Input Parameter -> Output Result
 
+<a name="16"></a>
+## 16 ATIVIDADES
+<a name="16.1"></a>
+### 16.1 -
+#### Regras
+1. -
+1. -
+
+#### Desafio      
+1. -
 
 ***
 
