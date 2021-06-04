@@ -5,9 +5,13 @@ title: false
 includes_dir  : _include
 include       : _include
 
+# Site Settings
 breadcrumbs: true
 sitemap: true
+locale: "pt-br"
 language: "pt-br"
+
+# Remove button Github
 github:
   is_project_page: false
 
