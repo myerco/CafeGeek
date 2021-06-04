@@ -7,7 +7,7 @@ include       : _include
 
 breadcrumbs: true
 sitemap: true
-
+language: "pt-br"
 github:
   is_project_page: false
 
