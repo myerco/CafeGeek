@@ -2,6 +2,7 @@ theme: jekyll-theme-cayman
 author: CafeGeek
 title: false
 logo: imagens/cafegeek_small.png
+title-img: imagens/cafegeek_small.png
 
 includes_dir  : _include
 include       : _include
