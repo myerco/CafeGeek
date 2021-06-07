@@ -6,6 +6,10 @@ tags: [Unreal Engine,perfil, profile,curriculum]
 
 [CafeGeek](http://CafeGeek.eti.br)
 
+<p align="center">
+<img align="center" width="100" height="100" src="imagens/cafegeek_small.png">
+</p>
+
 ## Sobre
 Olá, meu nome é [Marco Yerco](mailto:myerco@gmail.com) analista de sistemas e professor, gostaria de compartilhar um pouco de conhecimento.
 

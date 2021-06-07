@@ -32,7 +32,7 @@ Existem aplicações que auxiliam na produção de programas de computador ou jo
 ### 1.1 O que é uma Engine e Framework?
 No desenvolvimento de jogos um *Framework* pode ser definido como um conjunto de bibliotecas que auxiliam a programação, sendo que uma *engine* ou motor gráfico é mais completo pois abrange outros aspectos na produção de jogos.[[2](#r2)]
 
-Algumas *engine*
+Algumas *Engine*
 1. Unreal engine;
 1. Unity;
 1. GameMaker;
@@ -53,7 +53,7 @@ A maioria das *engines* seguem um ciclo de execução da lógica de programaçã
 1. Edição e compilação da lógica de programação;
 1. Apresentação de elementos visuais da cena do jogo;
 1. Editor da lógica de animações e manipulação de esqueletos e malhas;
-1. Editor de interfaces para comunicação com os jogadores;
+1. Editor de interfaces para comunicação com os jogadores (HUD);
 1. Editor de sequencias de animação;
 1. Editor de sons;
 1. Editor para construção de materiais;
@@ -81,3 +81,4 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 1. [Framework](https://pt.wikipedia.org/wiki/Framework)
 <a name="r2"></a>
 1. [Como ser um programador de jogos: Engine vs Framework](https://gamedeveloper.com.br/como-ser-um-programador-de-jogos-engine-vs-framework/)
+1. [Unreal Engine Download](https://www.unrealengine.com/en-US/download)
