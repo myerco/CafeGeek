@@ -1,6 +1,8 @@
 # Sobre
 
-Olá, meu nome é [Marco Yerco](mailto:myerco@gmail.com) analista de sistemas e professor, gostaria de compartilhar um pouco de conhecimento. 
+Olá, meu nome é [Marco Yerco](mailto:myerco@gmail.com) analista de sistemas e professor, gostaria de compartilhar um pouco de conhecimento.
+
+O CafeGeek é um site educacional com foco em desenvolvimento de jogos digitais e as disciplinas que orbitam este fantástico mundo.
 
 ### Experiência
 
