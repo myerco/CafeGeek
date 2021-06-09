@@ -66,8 +66,8 @@ Logo em seguida escolha uma pasta onde o projeto deverá ser instalado em **Sele
   *Figura: Unreal Engine tela inicial*
 
 1. Iniciando um projeto no **Unreal Engine 5**.
-  ![blueprint_select_new_project](imagens/projeto/unreal_engine_select_new_project.jpg) *Figura: Unreal 5 - Select or create New Project, Games.*    
-  ![unreal_engine_home screen](imagens/projeto/unreal_engine_home_screen.jpg) *Figura: Unreal 5 - Tela inicial.*        
+  ![unreal_engine_select_new_project](imagens/projeto/unreal_engine_select_new_project.jpg) *Figura: Unreal 5 - Select or create New Project, Games.*    
+  ![unreal_engine_home_screen](imagens/projeto/unreal_engine_home_screen.jpg) *Figura: Unreal 5 - Tela inicial.*        
 
 <a name="3"></a>
 ## 3. Verificando as pastas criadas
@@ -114,7 +114,7 @@ Para recompilar o projeto e recriar os arquivos siga os seguintes passos utiliza
 ## 5. Configurando o editor de código
 Você tem que escolher qual editor de código **C++** utilizar usando :
 **Menu->Editor Preferences->General** e **Source Code** e escolha **Visualstudio**.   
-  ![blueprint_ue_editor_codigo](imagens/projeto/blueprint_ue_editor_codigo.jpg)   
+  ![unreal_engine_editor_codigo](imagens/projeto/unreal_engine_editor_codigo.jpg)   
   *Figura: General - Source Code, Definindo o editor de código*
 >**Qual editor eu escolho, Visual Code ou Visual Studio?**
 Os dois são ótimos editores de código mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras lingagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
