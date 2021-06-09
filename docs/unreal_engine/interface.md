@@ -8,6 +8,8 @@
 
 <a name="1"></a>
 ## 1. Editor de Level
+Menu File->New Level->Default
+
 - [Level Editor](https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/index.html)
 
 <a name="2"></a>

@@ -82,3 +82,4 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 <a name="r2"></a>
 1. [Como ser um programador de jogos: Engine vs Framework](https://gamedeveloper.com.br/como-ser-um-programador-de-jogos-engine-vs-framework/)
 1. [Unreal Engine Download](https://www.unrealengine.com/en-US/download)
+1. [Unreal Engine Structure](https://github.com/drstreit/unreal_schematics/blob/master/Engine_Structure_poster_18x24.pdf)

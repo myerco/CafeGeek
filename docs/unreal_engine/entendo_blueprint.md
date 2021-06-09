@@ -76,46 +76,60 @@ Abaixo da estrutura de elementos.
 ## 2. O que é Level Blueprint?  
 Um **Level Blueprint** é um tipo especializado de **Blueprint** que atua como um gráfico de evento global em todo o nível. Cada nível em seu projeto tem seu próprio Level Blueprint criado por padrão, que pode ser editado no *Unreal Editor*, no entanto, novos *Level Blueprints* não podem ser criados por meio da interface do editor.  
 
- ![Open Level Blueprint](https://docs.unrealengine.com/Images/Engine/Blueprints/UserGuide/Types/LevelBlueprint/toolbar_level_editor.webp)
+ ![unreal_engine_open_level_blueprint](imagens/actor/unreal_engine_open_level_blueprint.jpg)        
+ *Figura: Blueprints->Open Level Blueprint*
+
 
 <a name="21"></a>
 ## 2.1 Utilizando o level Blueprint para escrever   mensagens na tela
 Utilizando o evento **BeginPlay** e conectando o nó **Print String** para escrever uma mensagem na tela.
 
- ![Atores](imagens/actor/blueprint_beginplay_printstring.jpg)
+![unreal_engine_blueprint_beginplay_printstring](imagens/actor/unreal_engine_blueprint_beginplay_printstring.jpg)      
+*Figura: Iniciando o level e escrevendo uma mensagem na tela*
+- **BeginPlay**: Este evento é executado quando o level é carregado.
+- **Print String**: É uma função que recebe como parâmetro um texto (*String*) e a escreve na tela.
 
 <a name="3"></a>
 ## 3. Blueprint de atores
-Atores são objetos que são adicionados na cena. São classes de objetos que suportam vários componentes, métodos e variáveis. A lógica de programação é expressada em Blueprint.  
+Atores são objetos que são adicionados na cena. São classes de objetos que suportam vários componentes, métodos e variáveis. A lógica de programação é expressada em *Blueprint*.  
 
-<a name="31"></a>
+<a name="3.1"></a>
 ### 3.1 Place Actors
 No nível mais fundamental, um ator é qualquer objeto que você pode colocar em um nível e esta página irá mostrar os vários métodos em que você pode colocar esses atores dentro de seus níveis.  
-![Atores](imagens/actor/blueprint_place_actors.jpg)   
 
-<a name="32"></a>
+![unreal_engine_blueprint_place_actors_bar](imagens/actor/unreal_engine_blueprint_place_actors_bar.jpg)       
+*Figura: Create->Shapes*
+
+![unreal_engine_place_actors](imagens/actor/unreal_engine_place_actors.jpg)        
+*Figura: Windows->Place Actors*
+
+<a name="3.2"></a>
 ### 3.2 Blueprint Class
 Uma classe Blueprint, muitas vezes abreviada como Blueprint, é um ativo que permite que os criadores de conteúdo adicionem funcionalidade facilmente às classes de jogo existentes. Os projetos são criados dentro do Unreal Editor visualmente, em vez de digitar o código, e salvos como ativos em um pacote de conteúdo. Essencialmente, eles definem uma nova classe ou tipo de ator que pode então ser colocado em mapas como instâncias que se comportam como qualquer outro tipo de ator.  
 1. Menu de acesso rápido (Context Menu), acionado com o botão direito do mouse na aba **Content**.  
-![Atores](imagens/actor/blueprint_context_menu.jpg)  
+  ![unreal_engine_context_menu](imagens/actor/unreal_engine_context_menu.jpg)       
+  *Figura: Context Menu*
 
 1. Escolha de Classe de atores  
-![Atores](imagens/actor/blueprint_pick_class.jpg)
+  ![unreal_engine_pick_class](imagens/actor/unreal_engine_pick_class.jpg)     
+  *Figura: Pick Parent Classe e All Classes*
 
-<a name="33"></a>
+<a name="3.3"></a>
 ### 3.3 Components
 Os *Components* ou componentes são um tipo especial de objeto que os atores podem anexar a si próprios como subobjetos. Os componentes são úteis para compartilhar comportamentos comuns, como a capacidade de exibir uma representação visual e reproduzir sons. Eles também podem representar conceitos específicos do projeto, como a maneira como um veículo interpreta a entrada e muda sua própria velocidade e orientação. Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuário pode implementar as diferenças no controle e movimento do veículo, alterando qual componente um ator do veículo usa.
 
-![Atores](imagens/actor/blueprint_add_component.jpg)
+![unreal_engine_add_component](imagens/actor/unreal_engine_add_component.jpg)       
+*Figura: Add Components*
 
-<a name="34"></a>
+<a name="3.4"></a>
 ### 3.4 Components e My Blueprint    
 - Components - Apresenta todos os componentes anexados ao objeto principal.
 - My Blueprint - Apresenta os eventos, funções, macros e variáveis presentes dentro do objeto.  
 
-![Atores](imagens/actor/blueprint_component_myblueprint.jpg)
+![unreal_engine_myblueprint.jpg](imagens/actor/unreal_engine_myblueprint.jpg)       
+*Figura: MyBlueprint*
 
-<a name="35"></a>
+<a name="3.5"></a>
 ### 3.5 Representação da organização do objeto
 
 ```bash
@@ -130,25 +144,27 @@ Os *Components* ou componentes são um tipo especial de objeto que os atores pod
 |   |   |-- VariavelLocal
 ```
 
-<a name="36"></a>
+<a name="3.6"></a>
 ### 3.6 Construction Script
 Lógica de que é executada na construção do objeto, similares ao eventos **Construtor** em C++.  
 
 **Exemplo**
+- Apresentando uma mensagem ao construir o objeto.      
+ ![unreal_engine_construction_script.jpg](imagens/actor/unreal_engine_construction_script.jpg)        
+ *Figura: Construction Script*
 
- ![Atores](imagens/actor/blueprint_construction_script.jpg)
-
-<a name="37"></a>
+<a name="3.7"></a>
 ### 3.7 Event Graph
 Contém um gráfico de nós e suas ligações representando a lógica de um Blueprint.     
-![Atores](imagens/actor/blueprint_event_graph_exemple.jpg)
+![unreal_engine_event_graph_example.jpg](imagens/actor/unreal_engine_event_graph_example.jpg)       
+*Figura: Event Graph*
 
 - **BeginPlay** - Este evento é acionado para todos os Atores quando o jogo é iniciado, quaisquer Atores gerados após o jogo ser iniciado terão isso chamado imediatamente.
 - **ActorBeginOverlap** - Este evento será executado quando uma série de condições forem atendidas ao mesmo tempo:
   - A resposta à colisão entre os atores deve permitir sobreposições.
   - Ambos os Atores que devem executar o evento têm que gerar Eventos de Sobreposição definido como verdadeiro.
   - E, finalmente, a colisão de ambos os Atores começa a se sobrepor; movendo-se juntos ou um é criado sobrepondo-se ao outro.
-- **Tick** - Este é um evento simples que é chamado em todos os quadros do jogo.
+- **Tick** - Este é um evento simples que é chamado em todos os quadros do jogo. Tem como parâmetro a variável **Delta Seconds**.
 
 > **Game Engine** como por exemplo *Unity* e *Pico-8*  tem os mesmos eventos com as mesmas Características.
 
@@ -162,7 +178,11 @@ Os comentários podem ser incluídos diretamente em nós **Blueprint** únicos o
   **Azul** - Lógica de atores.  
   **Verde** - Lógica de estruturas de controle.  
 - Detalhes do comentário.   
-![Atores](imagens/actor/blueprint_comment_details.jpg)
+  ![unreal_engine_comment_details.jpg](imagens/actor/unreal_engine_comment_details.jpg)       
+  *Figura: Comment Details*
+- Exemplo de comentário     
+![unreal_engine_comment_example.jpg](imagens/actor/unreal_engine_comment_example.jpg)       
+  *Figura: Comment Details*
 
 ***
 ## Referências
