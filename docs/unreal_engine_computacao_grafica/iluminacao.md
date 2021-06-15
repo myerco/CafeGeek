@@ -35,6 +35,62 @@ A Cor Base define a cor geral do Material, obtendo um valor Vector3 (RGB) onde c
 Se tirada do mundo real, esta é a cor quando fotografada usando um filtro polarizador (a polarização remove o especular dos não-metais quando alinhados).
 ![BaseColor_QS](https://docs.unrealengine.com/Images/RenderingAndGraphics/Materials/PhysicallyBased/BaseColor_QS.webp)
 
+## reflections
+- reflexões são muito difíceis de calcular em tempo real
+- assim, usamos 3 técnicas diferentes, cada uma com prós / contras
+- os 3 são renderizados e combinados em ordem
+- uma vez prontos, eles são, por sua vez, mesclados com o resto da renderização
+
+### Reflections Captures
+Segue abaixo algumas características:
+- Captura um mapa de cubo estático em um local específico
+- Pré-calculado
+- Muito rápido
+- Impreciso
+- Efeito local próximo ao local de captura
+### Sphere Reflections
+Atores de captura de reflexão são objetos estrategicamente colocados em todo o nível e alimentam dados de reflexão no ambiente de reflexão.
+
+Existem atualmente duas formas de captura de reflexo: esfera e caixa. A forma é muito importante porque controla qual parte do nível é capturada no mapa do cubo, em que forma o nível é reprojetado em reflexos e em qual parte do nível pode receber reflexos desse mapa do cubo (área de influência).
+
+Para obter mais informações sobre o ambiente de reflexão e as capturas de reflexão, consulte Ambiente de reflexão.
+
+### Box Reflections
+
+### Planar reflections
+- não comum, captura de e para um plano, restrito a esse plano
+- pode ser pesado
+- ótimo para superfícies planas que precisam de reflexos precisos
+- inadequado para todo o resto
+- só funciona em uma área limitada
+### PlanarReflextionVolume
+
+### Screen space reflections (SSR)
+Os reflexos do espaço da tela são um recurso do mecanismo que ajuda no aterramento de objetos em superfícies planas como o solo. Eles são ativados por padrão e se combinam com os resultados do Reflection Environment para fornecer uma sensação de reflexão mais completa.
+
+- Sistema de reflexão padrão
+- Afeta tudo e é tempo real
+- Preciso
+- Produz um resultado ruidoso e é meio pesado
+- Só pode mostrar reflexos da geometria atualmente visíveis
+
+### Considerações
+A chave para obter os reflexos certos é colocar os Reflection Capture Actors em toda a sua cena. Seu primeiro impulso pode ser espalhar esses atores por toda a sua cena até ver um bom resultado. No entanto, existem algumas regras a serem observadas ao usar esses atores:
+
+- **Screen Space** - Cada um dos atores de captura de reflexão incorre em um custo com base em quanto de sua tela é coberto por seu raio. Desta forma, eles são semelhantes a partículas ou luzes dinâmicas. Isso significa que você precisa ter cuidado para não ultrapassar os raios de seus Atores de captura.
+
+- **Overlap** - Os raios do ator de captura de reflexão podem se sobrepor. Isso aumenta o custo por pixel de reflexos causados ​​por Atores sobrepostos. Quando combinado com o fato de que o custo aumenta com o espaço da tela, pode rapidamente se tornar proibitivo o desempenho simplesmente cobrir sua cena com Atores de captura de reflexão de alto raio.
+
+- **Hierarchical Placement** - para economizar recursos e ainda ter um bom layout de Reflection Capture Actors, o uso de um layout hierárquico oferece uma configuração de reflexão sólida com o mínimo de sobreposição. Em tal sistema, uma captura de grande raio é colocada que captura os reflexos do fundo e, em seguida, uma série de Atores de captura menores capturam os reflexos em torno dos detalhes.
+
+![Level Reflection](https://docs.unrealengine.com/4.26/Images/Resources/Showcases/Reflections/LevelReflection.webp)           
+*Figura: Level Reflection*
+
+### Performance
+- **Reflection Captures** - São capturadas no carregamento do *Level* quando um projeto não é preparado para distribuição, portanto, ter muitos retardará o carregando de alguns e ter outros provavelmente não vai funcionar otimo ate o cozimento final
+- Ficam mais pesadas quando muita operações de sombreamento se sobrepõem de pixel repetidas vezes.
+- a nitidez da captura de reflexão pode ser definida por meio de sua resolução.
+
 
 https://docs.unrealengine.com/en-US/Resources/ContentExamples/MaterialNodes/1_1/index.html
 https://en.wikibooks.org/wiki/Concepts_of_Computer_Graphics/Output_Space/Colors

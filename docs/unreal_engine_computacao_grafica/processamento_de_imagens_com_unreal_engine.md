@@ -323,6 +323,21 @@ stat unit
   Se temos um polígono com 32 triângulos e 34 tipos de materiais diferentes aplicados na sua superfície, terá mais impacto no FPS do que um polígono de 10.000 triângulos e 1 material.
   Cada triângulo com uma superfície diferentes é renderizado por vez.
 
+<a name="5"></a>
+## 5 ATIVIDADES
+<a name="5.1"></a>
+### 5.1  Renderização de materiais
+1. Implemente os seguintes elementos e seus materiais.
+  - Pedra
+  - Mesa
+  - Cadeira
+1. Apresente as seguintes informações.
+  - Média de Drawcalls
+  - Quantidade de triângulos
+  - Quantidade de memória
+1. Utilizando os mesmos elementos tente reduzir o processo de renderização.
+1. Justifique a possibilidade de executar a cena em hardware de baixo processamento (mobile).
+
 ***
 ## Referências
 - [An In-Depth Look at Real-Time Rendering](https://www.unrealengine.com/en-US/onlinelearning-courses/an-in-depth-look-at-real-time-rendering)
