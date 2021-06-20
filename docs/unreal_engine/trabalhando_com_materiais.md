@@ -27,7 +27,7 @@ tags: [Unreal Engine,Materiais, material Function,material]
     1. [Texture samples](#7.3)
     1. [Metallic - Metálica](#7.4)
 1. [Aplicando o material no objeto](#8)
-1. [Material Inputss](#9)
+1. [Material Inputs](#9)
     1. [Inputs](#9.1)
 1. [Material propriedades](#10)
 1. [Material Instance](#11)
@@ -61,7 +61,7 @@ A primeira e mais importante coisa a saber sobre os Materiais é que eles não s
 ## 3.1 Editor de materiais
 Vamos criar um material para que possamos exemplificar.
 1. Menu de contexto para criar um material.     
-  ![ue4_menu_material](imagens/materiais/ue4_menu_material.jpg)     
+  ![unreal_engine_menu_material](imagens/materiais/unreal_engine_menu_material.jpg)     
   *Figura: Contex Menu Material*
 1. Salve o material como *M_Base*
 
@@ -75,35 +75,51 @@ Abaixo citamos os mais importantes atributos dos materiais.
 - **Normals** - Normal, mapeamento de texturas usada para iluminação de saliências e amassados.
 
 <a name="3.3"></a>
-## 3.3 Editor e nó principal
+## 3.3 Editor e nó principal ou Node Result
+O nó Material Principal é responsável por exibir os resultados de todos os nós da Expressão de Material que são inseridos nele nas várias entradas. Cada entrada no nó Material Principal tem um efeito exclusivo sobre a aparência e o desempenho do Material.
+
 O nó principal e suas propriedades.     
 
-  ![ue4_material_no_principal](imagens/materiais/ue4_material_no_principal.jpg)     
-  *Figura: Nó principal.*
+  ![unreal_engine_node_result_properties](imagens/materiais/unreal_engine_node_result_properties.jpg)     
+  *Figura: Nó principal ou Node Result.*
+
+- **Material Domain** - Esta configuração permite designar como este material será usado. Certos usos de materiais (como decalques) requerem instruções adicionais para o mecanismo de renderização considerar. Por isso, é importante designar o Material como sendo usado para esses casos. O domínio do material inclui as seguintes opções:
+
+  - **Surface** - Esta configuração define o Material como algo que será usado na superfície de um objeto; pense em metal, plástico, pele ou qualquer superfície física. Como tal, esta é a configuração que você usará na maioria das vezes.
+  - **Deferred Decal** -  Ao fazer um [Material de Decalque ou Decal Material](https://docs.unrealengine.com/4.26/en-US/Basics/Actors/DecalActor/), você usará esta configuração.
+  - **Light Function** - Usado ao criar um material para uso com uma função de luz.
+  - **Volume** - Usado ao descrever os atributos do material como um volume 3D.
+  - **Post-process** - Usado se o material for usado como um [Material de pós-processamento](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/PostProcessEffects/PostProcessMaterials/).
+  - **User Interface** - Usado quando este material é usado para interfaces de usuário UMG ou Slate.
+
+  - **Virtual Texture** - Usado ao fazer uma textura virtual em tempo de execução.
+
+- **Blend Mode** - Os modos de mesclagem descrevem como a saída do material atual se mesclará com o que já está sendo desenhado no fundo. Em termos mais técnicos, ele permite que você controle como o mecanismo combinará este Material (cor de origem) com o que já está no buffer de quadros (cor de destino) quando renderizado. Os modos de mistura disponíveis são:
+  - **BLEND_Opaque** - Cor final = cor de origem. Isso significa que o material será desenhado na parte superior do fundo. Este modo de mesclagem é compatível com iluminação.
+  - **BLEND_Masked** -  Cor final = cor de origem se OpacityMask > OpacityMaskClipValue, caso contrário, o pixel é descartado. Este modo de mesclagem é compatível com iluminação.
+  - **BLEND_Translucent** - Cor final = opacidade da cor de origem + cor de destino (1 - opacidade). Este modo de mistura NÃO é compatível com  iluminação dinâmica.
+  - **BLEND_Additive** - Cor final = cor de origem + cor de destino. Este modo de mistura NÃO é compatível com iluminação dinâmica.
+  - **BLEND_Modulate** - Cor final = cor de origem x cor de destino. Este modo de mistura NÃO é compatível com iluminação dinâmica ou neblina, a menos que seja um material de decalque.
 
 <a name="4"></a>
 ## 4. Valores que determinam a física
-- Constant 1 - Valor uníco
-
-  ![ue4_material_no_constant_1](imagens/materiais/ue4_material_no_constant_1.jpg)         
-  *Figura: Constant 1*
-- Constant 2 - Vetor de dois valores
-
-  ![ue4_material_no_constant_2](imagens/materiais/ue4_material_no_constant_2.jpg)     
-  *Figura: Constant 2*
-
-- Constant 3 - Vetor de três valores
-
-  ![ue4_material_no_constant_3](imagens/materiais/ue4_material_no_constant_3.jpg)     
-  *Figura: Constant 3*
+- Constant 1 ou valor escalar- Valor único.     
+  ![unreal_engine_material_node_constant_1](imagens/materiais/unreal_engine_material_node_constant_1.jpg)         
+  *Figura: Constant 1 -  1 + RMB*
+- Constant 2 - Vetor de dois valores.      
+  ![unreal_engine_material_node_constant_2](imagens/materiais/unreal_engine_material_node_constant_2.jpg)     
+  *Figura: Constant 2 - 2 + RMB*
+- Constant 3 - Vetor de três valores.     
+  ![unreal_engine_material_node_constant_3](imagens/materiais/unreal_engine_material_node_constant_3.jpg)     
+  *Figura: Constant 3 - 3 + RMB*
 
 <a name="5"></a>
 ## 5. Texture samples
-Texturas são imagens que são usadas em materiais e são representadas pelo nó abaixo.
-![ue4_material_no_texture_sample](imagens/materiais/ue4_material_no_texture_sample.jpg)       
-*Figura: Material texture*
+Texturas são imagens que são usadas em materiais e são representadas pelo nó abaixo.        
+![unreal_engine_material_node_texture_sample](imagens/materiais/unreal_engine_material_node_texture_sample.jpg)       
+*Figura: Material texture - T + RMB*
 
-## Texturas
+### Texturas
 - Tamanhos :
   1x1, 2x2, 4x4, 1024x1024 e 8192x8192
   - As texturas serão importadas em qualquer tamanho, mas não serão mipmaps.
@@ -117,9 +133,8 @@ Os nós de Expressão de Material contêm pequenos fragmentos de código HLSL qu
 
 <a name="6.1"></a>
 ### 6.1 Conectando material Expressions
-Abaixo um exemplo de conexão.
-
-![ue4_material_base_conexao](imagens/materiais/ue4_material_base_conexao.jpg)     
+Abaixo um exemplo de conexão.       
+![unreal_engine_material_connection](imagens/materiais/unreal_engine_material_connection.jpg)       
   *Figura: Material connection*
 
 - Botão direito do mouse em qualquer área de trabalho (RMB) abre a lista de nós disponíveis.
@@ -135,6 +150,28 @@ M_Base =  ( TexturaSample( panner(TexCoord(),0.1,0) ) * Vetor3(0.0664,0.0366,0.4
 ```
 > **Atenção**
 devemos considerar o tipo de valor de retorno do nó no momento da conexão para evitar erros de tipos conflitantes, por exemplo float3 * float2.
+
+**Exemplo 1**
+
+![unreal_engine_node_multiply](imagens/materiais/unreal_engine_material_combine_color.jpg)     
+*Figura: Objeto com mistura de texturas*
+
+![unreal_engine_node_multiply](imagens/materiais/unreal_engine_node_combine.jpg)     
+  *Figura: Lógica da combinação de texturas*
+
+- Base Color 1
+  - Cada pixel do canal R da textura é multiplicado pela cor.     
+
+  ![unreal_engine_material_chanel_r_wood_pine](imagens/materiais/unreal_engine_material_chanel_r_wood_pine.jpg)    
+  *Figura: Channel R Texture Wood Pine*
+  - O valor 1 = branco e 0 = preto.
+
+- Base Color 2
+  - **Lerp** recebe o resultado da multiplicação e dos canais RGB da textura para do passo anterior. No parâmetro  Alpha é informado o canal G textura.
+  - **Multiply** multiplica o canal R da textura com o resultado do Lerp.
+
+
+
 
 **Gráfico de nós**
 ![ue4_material_conexao_expression](imagens/materiais/ue4_material_conexao_expression.jpg)     
