@@ -310,14 +310,14 @@ Os valores do nó Constant Vector 3, representam as coordenadas de posição do 
   *Figura: Material Properties blend Mode Unlit*
 
 - **Masked Blend Mode** - É usado para objetos nos quais você precisa controlar seletivamente a visibilidade de forma binária (liga / desliga). Por exemplo, considere um material que simula uma cerca de arame ou grade. Você terá algumas áreas que parecem sólidas, enquanto outras são invisíveis. Esses materiais são perfeitos para o modo de mesclagem mascarada.     
-  ![ue4_material_properties_blend_mode_masked](imagens/materiais/ue4_material_properties_blend_mode_masked.jpg)     
+  ![unreal_engine_material_properties_blend_mode_masked](imagens/materiais/unreal_engine_material_properties_blend_mode_masked.jpg)     
   *Figura: Material Properties blend mode masked*
 
-  ![ue4_material_properties_blend_mode_masked_result](imagens/materiais/ue4_material_properties_blend_mode_masked_result.jpg)   
+  ![unreal_engine_material_properties_blend_mode_masked_result](imagens/materiais/unreal_engine_material_properties_blend_mode_masked_result.jpg)   
   *Figura: Material Properties blend mode masked result*
 
 - **Translucent Blend Mode** - É usado para objetos que requerem alguma forma de transparência.
-  ![ue4_material_properties_blend_mode_translucent_result](imagens/materiais/ue4_material_properties_blend_mode_translucent.jpg)  
+  ![unreal_engine_material_properties_blend_mode_translucent](imagens/materiais/unreal_engine_material_properties_blend_mode_translucent.jpg)  
   *Figura: Material Properties blend mode Translucent*
 
 Resultado
