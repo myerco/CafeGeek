@@ -1,3 +1,10 @@
+---
+title: Death VIP
+description: Modelo de GDD do jogo Death VIP
+tags: [Unreal Engine, Death VIP, roteiro,GDD]
+---
+
+[CafeGeek](http://cafegeek.eti.br)  / [Trabalhos](http://cafegeek.eti.br/trabalhos/index.html)
 
 # DEATH VIP
 “Rescue or die trying”

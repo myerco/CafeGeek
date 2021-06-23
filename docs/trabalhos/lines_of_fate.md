@@ -1,3 +1,11 @@
+---
+title: Lines of Fate
+description: Roteiro do jogo Lines of Fate
+tags: [Unreal Engine,Lines of Fate, roteiro]
+---
+
+[CafeGeek](http://cafegeek.eti.br)  / [Trabalhos](http://cafegeek.eti.br/trabalhos/index.html)
+
 # Lines of Fate
 
 O que você lerá agora é um relato de como chegamos a nossa situação atual. Se você acha que este relato é uma história cheia de superações, reviravoltas e sucesso, recomendo que pare agora, pois após ler tudo, você terá que agir para melhorar nossa sociedade e cidade.
