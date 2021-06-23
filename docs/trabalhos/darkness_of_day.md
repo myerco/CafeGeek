@@ -8,23 +8,21 @@
 ### 1 EXT. EM ALGUM LUGAR NO FUTURO – NOITE COM NÉVOA
 Ressurge então das cinzas, sem explicação nenhuma sendo focado pela sua sombra no chão seco, rochoso e ardente, pergunta com uma respiração ofegante a si mesmo:
 
-        PROTAGONISTA
-
-    O que aconteceu, que lugar é esse!?
+      PROTAGONISTA
+      O que aconteceu, que lugar é esse!?
 
 O personagem então olha em sua volta e presencia um mundo devastado pela destruição onde o horizonte se expressa como um ambiente devasto, sem vida e sem alma. Seus julgamentos iniciais são vazios, em brancos, procurando explicações para aquela situação de agonia, sem entender absolutamente nada. Quando de repente, ele sente certas vibrações somadas de alguns grunhidos, como se algo estivesse se aproximando, de uma forma hostil. Ele então reage de forma imediata em fuga, com o objetivo de se distanciar da criatura. Enquanto ele tenta escapar da sombra que o persegue, desperta um sentimento de algo ou alguém que em sua outrora vida possuía algo bem próximo ou afetivo, e que naquele momento gostaria de está na presença desse alguém, por esperar a culminação de seu fim.
 
 Foi quando ele foi surpreendido por uma mulher de cabelos brancos longos e semblante que proporcionava um sentimento de grande força e esperança, acompanhada de um ser místico que lembrava algo como tigre gigante, chegou próximo e disse com um tom bem vibrante:
 
         MULHER MISTERIOSA
-
     Você retornou!! Rápido, venha comigo!
 
 O protagonista, pensando nas mínimas opções vantajosas possíveis, decide então subir na criatura, e assim manter as esperanças de escapar do seu perseguidor desconhecido. Eles se veem em uma situação desesperadora a sua frente, tendo que ultrapassar grandes obstáculos, forçando a criatura a realizar manobras evasivas extremas, conseguindo chegar assim em um ponto onde a grande sombra que os perseguiam fica incapaz de seguir adiante, desistindo assim de seu bote.
 Os dois, mais tranquilos devido a situação mais segura em que se encontravam, decide ele, fazer perguntas bem diretas a mulher dos cabelos brancos.
 
         PROTAGONISTA
-        
+
     Por favor, diga-me. Quem é você? Você sabe quem eu sou?   
 
 A mulher, espantosa com um olhar relutante e ao mesmo tempo com de determinação, responde:
