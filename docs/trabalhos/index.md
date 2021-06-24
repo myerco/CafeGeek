@@ -30,4 +30,4 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 1. [Modelo - Death Vip](modelo_gdd_death_vip.html)
 
 ## 4. Portfólios
-1. [Raphael Ferreira](https://www.behance.net/raphaelferreira10)    
+1. [Raphael Ferreira](https://www.behance.net/raphaelferreira10)  

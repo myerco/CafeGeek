@@ -1,6 +1,6 @@
 ---
 title: Controle de versão com GitHub
-description: Neste capítulo vamos instalar o *git* para versionamento de código e apresentar
+description: Neste capítulo vamos instalar o *Git* para versionamento de código e apresentar
 os comandos básicos.
 tags: [Unreal Engine,Controle de versão,GitHub]
 ---
