@@ -1,3 +1,9 @@
+---
+title: Inteligência Artificial
+description: Trabalhando com Inteligência Artificial
+tags: [Unreal Engine,Inteligência artificial, IA,AI]
+---
+
 [CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
 
 # Inteligência artificial
