@@ -1,7 +1,6 @@
 ---
 title: Structure - Variáveis estruturadas
 description: Structure, são estruturas de dados também conhecidas como registros, permitem que um usuário combine itens de dados de (possivelmente) diferentes tipos de dados sob um único nome. Em outras palavras, é uma variável que contém outros variáveis de diferentes tipos.  
-Podem ser utilizadas para definir propriedades de um elemento do jogo como por exemplo os personagens.
 tags: [Unreal Engine,Structure]
 ---
 
