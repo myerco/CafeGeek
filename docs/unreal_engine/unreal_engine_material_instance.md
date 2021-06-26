@@ -1,6 +1,6 @@
 ---
 title: Material Instance
-description:
+description: Um Mateial Instance ou Instanciação de Material é uma maneira de criar um Material pai, que pode então ser usado como base para fazer uma ampla variedade de Materiais filhos de aparência diferente.
 tags: [unreal engine, material instance, material]
 ---
 
