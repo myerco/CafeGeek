@@ -1,7 +1,7 @@
 ---
 title: Introdução aos Materiais
 description: A primeira e mais importante coisa a saber sobre os Materiais é que eles não são construídos por meio de código, mas por meio de uma rede de nós de script visual (chamados de Expressões de Material) dentro do Editor de Material.
-tags: [Unreal Engine,Materiais, material Function,material]
+tags: [Unreal Engine,Materiais, material Function, material]
 ---
 
 [CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)

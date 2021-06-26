@@ -1,7 +1,7 @@
 ---
 title: Materiais e Blueprint
 description: Podemos manipular os objetos do tipo material com blueprint.
-tags: [Unreal Engine,Materiais, material Function,material, blueprint]
+tags: [Unreal Engine,Materiais, material Function, material, blueprint]
 ---
 
 [CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
