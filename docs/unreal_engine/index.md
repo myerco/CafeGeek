@@ -40,7 +40,7 @@ tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digi
     1. [HUD - Interface com o jogador](hud_interface.html)
 1. Materiais
     1. [Introdução aos Materiais](unreal_engine_material_introducao_aos_materiais.html)
-    1. [Construindo Materiais e entendo a lógica](trabalhando_com_materiais_introducao.html)
+    1. [Construindo Materiais e entendo a lógica](unreal_engine_material_construindo_materiais_entendendo_a_logica.html)
     1. [Materiais Instance](unreal_engine_material_instance.html)
     1. [Trabalhando com Materiais](trabalhando_com_materiais.html)
     1. [Iluminação](iluminacao.html)
