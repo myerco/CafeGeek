@@ -1,12 +1,13 @@
 ---
-title: Trabalhando com Materiais Introdução
+title: Introdução aos Materiais
 description: A primeira e mais importante coisa a saber sobre os Materiais é que eles não são construídos por meio de código, mas por meio de uma rede de nós de script visual (chamados de Expressões de Material) dentro do Editor de Material.
 tags: [Unreal Engine,Materiais, material Function,material]
 ---
 
 [CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
 
-# Trabalhando com Materiais Introdução
+# Introdução aos Materiais
+Neste capítulo vamos apresentar o que são materiais e a sua estrutura.
 
 ## Índice
 1. [O que é um material?](#1)
@@ -154,7 +155,8 @@ Tamanhos :
 <a name="7.1"></a>
 ### 7.1 - O meu primeiro material no Unreal Engine
 #### Regras
-1. - Utilize os parâmetros Base Color, Roughness e Metallic
+1. Utilize os parâmetros Base Color, Roughness e Metallic
+
 #### Desafio      
 1. Escolha um objeto da internet para tentar simular a sua textura com seguintes parâmetros: uma cor, reflexivo e que possa ser aplicado em superfícies simples.
 1. Escolha um objeto qualquer para aplicar o material, exemplo: cadeira, mesa ou parede.
@@ -162,3 +164,5 @@ Tamanhos :
 ## Referências
 - [Physically Based Materials](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/PhysicallyBased/index.html)
 - [Texture Import Guide](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Textures/Importing/index.html)
+- [Curso Material Essential Concepts](https://www.unrealengine.com/en-US/onlinelearning-courses/materials---exploring-essential-concepts)
+- [![Intro Material Unreal Engine](http://img.youtube.com/vi/lngF4VVNER4/0.jpg)](https://www.youtube.com/watch?v=lngF4VVNER4")
