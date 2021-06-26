@@ -10,9 +10,9 @@ tags: [Unreal Engine,Materiais, material Function,material, blueprint]
 Neste capítulo iremos manipular os materiais com lógica de script Blueprint.
 
 ## Índice
-1. [Materiais e Blueprint](#12)
-1. [Parameter Global](#13)
-1. [Material Function](#14)
+1. [Blueprint](#1)
+1. [Parameter Global](#2)
+1. [Material Function](#3)
 
 <a name="1"></a>
 ## 1. Blueprint
