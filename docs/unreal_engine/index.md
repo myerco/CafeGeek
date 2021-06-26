@@ -42,7 +42,7 @@ tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digi
     1. [Introdução aos Materiais](unreal_engine_material_introducao_aos_materiais.html)
     1. [Construindo Materiais e entendo a lógica](unreal_engine_material_construindo_materiais_entendendo_a_logica.html)
     1. [Materiais Instance](unreal_engine_material_instance.html)
-    1. [Trabalhando com Materiais](trabalhando_com_materiais.html)
+    1. [Materiais e Blueprint](unreal_engine_material_blueprint.html)
     1. [Iluminação](iluminacao.html)
     1. [Landscape](landscape.html)  
 1. Animação, multiplayer e inteligência artificial
