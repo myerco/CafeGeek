@@ -53,6 +53,9 @@ Atualmente os materiais são baseados em simulações físicas do mundo.
 ## 2 Materiais de base física - PBR
 PBR *Physically Based Rendering* significa que o material descreve as propriedades visuais de uma superfície de uma maneira realmente plausível, de modo que os resultados realistas sejam possíveis em todas as condições de iluminação. A maioria dos mecanismos de jogo e ferramentas de criação de conteúdo modernos dão suporte aos materiais do PBR porque eles são considerados a melhor aproximação de cenários do mundo real para renderização em tempo real.
 
+![material_pbr](imagens/materiais/material_pbr.jpg)
+
+*Figura: Material PBR - https://www.pikpng.com*
 <a name="3"></a>
 ## 3. Estrutura do Material no Unreal Engine
 A primeira e mais importante coisa a saber sobre os Materiais é que eles não são construídos por meio de código, mas por meio de uma rede de nós de script visual (chamados de Expressões de Material) dentro do Editor de Material. Cada nó contém um fragmento de código HLSL, designado para executar uma tarefa específica. Isso significa que, conforme você constrói um Material, está criando código HLSL por meio de scripts visuais.
