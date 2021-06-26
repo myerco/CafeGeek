@@ -1,7 +1,7 @@
 ---
 title: Material Instance
-description: Teste
-tags: [Unreal Engine, Materiais, material instance, material]
+description:
+tags: [unreal engine, material instance, material]
 ---
 
 [CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
