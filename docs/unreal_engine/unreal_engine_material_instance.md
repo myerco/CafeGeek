@@ -16,7 +16,7 @@ Neste capitulo vamos apresentar o objeto *Material Instance* que flexibiliza a i
 1. [Switch Parameter](#3)
 1. [Organizando parâmetros e definindo valor máximo e mínimo](#4)
 1. [Atividades](#5)
-    1. [Atividade 1](#5.1)
+    1. [Uma base para vários materiais ](#5.1)
 
 <a name="1"></a>
 ## 1. O que é Material Instance?
@@ -38,14 +38,11 @@ Para que possamos exemplificar segue abaixo os passos.
   *Figura: Resultado do material com parâmetros*
 1. Definimos os seguintes atributos nos parâmetros:
   - **Parameter name** - Escolha um nome para o parâmetro que representa o input do material.
-  - **Group** - Usado para agrupar os parâmetros por um determinado valor ou tema.
-    Sugestão de grupos:
-      - Texture Parameter Values.
-        - Diffuse,NormalMap, Rough Texture
-      - Scalar Parameter Values.
-        - Metallic, Roughness
-      - Vector Parameter Values.
-        - Color (R,G,B,A), UVTiling(R,G,B,A)
+  - **Group** - Usado para agrupar os parâmetros por um determinado valor ou tema.        
+  Sugestão de grupos:
+      - Texture Parameter Values: Diffuse,NormalMap, Rough Texture
+      - Scalar Parameter Values : Metallic, Roughness
+      - Vector Parameter Values : Color (R,G,B,A), UVTiling(R,G,B,A)
 
 
 <a name="1.2"></a>
@@ -57,8 +54,9 @@ Selecione o material *M_Base_Master* ou outro material e com o botão direito ac
 
 <a name="2"></a>
 ## 2. Editor de material Instance
-![unreal_engine_material_instance_editor](imagens/materiais/unreal_engine_material_instance_editor.jpg)     
-  *Figura: Material instance editor*
+![unreal_engine_material_instance_editor](imagens/materiais/unreal_engine_material_instance_editor.jpg)  
+
+*Figura: Material instance editor*
 
 - **Details** - Propriedades e acesso aos parâmetros.
 - **Parameter Groups** - Grupo definido nos parâmetros dentro do material pai.      
@@ -72,28 +70,38 @@ Selecione o material *M_Base_Master* ou outro material e com o botão direito ac
 No exemplo abaixo se o parâmetro for verdadeiro a multiplicação com a cor pode ser realizada caso contrário o textura não é multiplicada.
 
 ![unreal_engine_material_switch_parameter](imagens/materiais/unreal_engine_material_switch_parameter.jpg)
+
 *Figura: Swith Parameter*
 
 <a name="4"></a>
 ## 4. Organizando parâmetros e definindo valor máximo e mínimo
 Podemos organizar os parâmetros agrupando com a opção *Group* do nó e com *Sort Priority* ordenamos a visualização.
 
+<a name="4.1"></a>
+### 4.1 Group
 No exemplo abaixo criamos os grupos: Base Parameters, Multipliers e UV Tiling.
 
-![unreal_engine_material_parameter_group](imagens/materiais/unreal_engine_material_parameter_group.jpg)       
-  *Figura: Parameter Group*
+![unreal_engine_material_parameter_group](imagens/materiais/unreal_engine_material_parameter_group.jpg)     
 
+*Figura: Parameter Group*
 
+<a name="4.2"></a>
+### 4.1 Valor Mínimo e Máximo
+Podemos limitar os valores mínimo e máximo que podem ser passados como parâmetro utilizando a opção *Slider*.
+
+![unreal_engine_material_slider_min_max](imagens/materiais/unreal_engine_material_slider_min_max.jpg)
+
+*Figura: Slider Min e Slider Max*
 
 <a name="5"></a>
 ## 5. ATIVIDADES
 <a name="5.1"></a>
-### 16.1 Atividade 1
+### 16.1 Uma base para vários materiais
 #### Regras
-1. Regra 1
-1. Regra 2
+1. Implemente um material base e 3 instancias de materiais (Material Instance).
+1. Defina texturas e cores diferentes para cada instância.
 #### Desafio      
-1. Desafio 1
+1. Implemente um parâmetro para aumentar ou diminuir a mistura de várias texturas a fim de simular por exemplo pisos com pouca ou muita grama.
 
 ***
 
