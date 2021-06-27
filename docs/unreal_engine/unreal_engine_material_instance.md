@@ -100,6 +100,7 @@ Podemos limitar os valores mínimo e máximo que podem ser passados como parâme
 #### Regras
 1. Implemente um material base e 3 instancias de materiais (Material Instance).
 1. Defina texturas e cores diferentes para cada instância.
+
 #### Desafio      
 1. Implemente um parâmetro para aumentar ou diminuir a mistura de várias texturas a fim de simular por exemplo pisos com pouca ou muita grama.
 
