@@ -25,6 +25,11 @@ Utilizaremos o *Level Blueprint* para exemplificar.
 
   *Figura: Blueprint create material instance set*
 
+- **Create Dynamic Material Instance** - Cria um Material Instance dinâmico que pode ser modificado durante a *gameplay*.
+- **Set Texture Parameter Value** - Atualiza o valor do parâmetro informado em *Parameter Name*, para este tipo é um tipo de textura.
+- **Set Scalar/Vector Parameter Value** - Atualiza o valor do parâmetro informado em *Parameter Name* com o valor *value*.
+
+
 1. No Level Blueprint implemente a lógica para chamar o Evento **MudaCorEvento**.
 ![ue4_material_bp_level_blueprint_call_event](imagens/materiais/ue4_material_bp_level_blueprint_call_event.jpg)   
   *Figura: Material Open Level blueprint call event*
@@ -33,6 +38,11 @@ Utilizaremos o *Level Blueprint* para exemplificar.
 ## 2. Parameter Global
 Podemos definir parâmetros globais para que os materiais possam referenciar parâmetros escalares e vetoriais.
 > É uma ferramenta poderosa que os artistas podem usar para obter dados globais em muitos materiais de uma só vez. Ele também pode ser usado para gerar efeitos por nível, como quantidade de neve, quantidade de destruição, umidade, etc., que, de outra forma, exigiria a configuração de valores de parâmetros individuais em muitas instâncias de materiais diferentes em seu nível.
+
+1. Criando parâmetros globais
+  Context Menu->Materials & Textures->Material Parameter Gobal
+
+1.    
 
 - Material Parameter->GetCollectionParameter.       
   ![MatPC](https://cdn2.unrealengine.com/blog/MaterialsTexturesScreen1-421x613-1142134069.png)
