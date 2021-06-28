@@ -8,6 +8,7 @@ tags: [unreal engine, material instance, material]
 
 # Material Instance
 Neste capitulo vamos apresentar o objeto *Material Instance* que flexibiliza a implementação de materiais no Unreal Engine.
+
 ## Índice
 1. [O que é Material Instance?](#1)
     1. [Convertendo nós em parâmetros](#1.1)
@@ -43,7 +44,6 @@ Para que possamos exemplificar segue abaixo os passos.
       - Texture Parameter Values: Diffuse,NormalMap, Rough Texture
       - Scalar Parameter Values : Metallic, Roughness
       - Vector Parameter Values : Color (R,G,B,A), UVTiling(R,G,B,A)
-
 
 <a name="1.2"></a>
 ### 1.2 Criando Material Instance
@@ -95,8 +95,9 @@ Podemos limitar os valores mínimo e máximo que podem ser passados como parâme
 
 <a name="5"></a>
 ## 5. ATIVIDADES
+
 <a name="5.1"></a>
-### 16.1 Uma base para vários materiais
+### 5.1 Uma base para vários materiais
 #### Regras
 1. Implemente um material base e 3 instancias de materiais (Material Instance).
 1. Defina texturas e cores diferentes para cada instância.
