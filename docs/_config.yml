@@ -3,6 +3,7 @@ author: CafeGeek
 title: false
 logo: imagens/cafegeek_small.png
 title-img: imagens/cafegeek_small.png
+tagline: CafeGeek
 
 includes_dir  : _include
 include       : _include
