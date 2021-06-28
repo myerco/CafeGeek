@@ -28,19 +28,19 @@ Roteiros escritos pelos acadêmicos.
 
 1. [Darkness of D-day](darkness_of_day.html)
 
-  Autor: Raphael Ferreira Martins
+    Autor: Raphael Ferreira Martins
 
 1. [Killer Hotel](killer_hotel.html)
 
-  Autor: Carlos
+    Autor: Carlos
 
 1. [Lines of Fate](lines_of_fate.html)
 
-  Autor: Vários
+    Autor: Vários
 
 1. [A Queda](#)
 
-  Autor: CafeGeek
+    Autor: CafeGeek
 
 <a name="2"></a>
 ## 2. Jogos
