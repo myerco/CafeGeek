@@ -20,8 +20,6 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 1. [Projetos](#3)
 1. [Portfólios](#4)
 
-***
-
 <a name="1"></a>
 ## 1. Roteiros
 Roteiros escritos pelos acadêmicos.
