@@ -54,8 +54,10 @@ A primeira e mais importante coisa a saber sobre os Materiais é que eles não s
 Vamos criar um material para que possamos exemplificar.
 1. Menu de contexto para criar um material.     
   ![unreal_engine_menu_material](imagens/materiais/unreal_engine_menu_material.jpg)     
+
   *Figura: Contex Menu Material*
-1. Salve o material como *M_Base*
+
+1. Salve o material como `M_Base`
 
 <a name="3.2"></a>
 ### 3.2 Editor de Materiais
@@ -83,11 +85,14 @@ O nó principal do material é responsável por exibir os resultados de todos os
 *Figura: Nó principal ou Node Result.*
 
 - **Base Color**    
-A Cor Base define a cor geral do Material, obtendo um valor Vector3 (RGB) em que cada canal é automaticamente fixado entre 0 e 1.
+
+  A Cor Base define a cor geral do Material, obtendo um valor Vector3 (RGB) em que cada canal é automaticamente fixado entre 0 e 1.
 - **Normal maps**     
-A entrada Normal leva em um mapa normal, que é usado para fornecer detalhes físicos significativos para a superfície, perturbando o "normal", ou direção de frente, de cada pixel individual.
+
+  A entrada Normal leva em um mapa normal, que é usado para fornecer detalhes físicos significativos para a superfície, perturbando o "normal", ou direção de frente, de cada pixel individual.
 - **Emissive**      
-Dá aos artistas uma maneira muito barata e eficaz de dar a ilusão de que um Material está lançando luz quando na verdade não está. Os materiais emissivos fazem isso permitindo que o artista empurre os valores da entrada emissiva acima de 1,0, o que empurrará o material para a faixa HDR, emitindo um efeito Bloom que você pode ver ao olhar para uma fonte de luz muito brilhante.   
+
+  Dá aos artistas uma maneira muito barata e eficaz de dar a ilusão de que um Material está lançando luz quando na verdade não está. Os materiais emissivos fazem isso permitindo que o artista empurre os valores da entrada emissiva acima de 1,0, o que empurrará o material para a faixa HDR, emitindo um efeito Bloom que você pode ver ao olhar para uma fonte de luz muito brilhante.   
 
 <a name="4.2"></a>
 ### 4.2 Propriedades do nó principal
@@ -98,11 +103,11 @@ Nem todas as entradas serão úteis para cada tipo de material que você criar. 
 Controla como o seu material se mesclará com os pixels por trás dele.
 >Os modos de mesclagem descrevem como a saída do material atual se mesclará com o que já está sendo desenhado no fundo. Em termos mais técnicos, ele permite que você controle como o mecanismo combinará este Material (cor de origem) com o que já está no buffer de quadros (cor de destino) quando renderizado.
 
-  - **BLEND_Opaque** - Cor final = cor de origem. Isso significa que o material será desenhado na parte superior do fundo. Este modo de mesclagem é compatível com iluminação.
-  - **BLEND_Masked** -  Cor final = cor de origem se OpacityMask > OpacityMaskClipValue, caso contrário, o pixel é descartado. Este modo de mesclagem é compatível com iluminação.
-  - **BLEND_Translucent** - Cor final = opacidade da cor de origem + cor de destino (1 - opacidade). Este modo de mistura NÃO é compatível com  iluminação dinâmica.
-  - **BLEND_Additive** - Cor final = cor de origem + cor de destino. Este modo de mistura NÃO é compatível com iluminação dinâmica.
-  - **BLEND_Modulate** - Cor final = cor de origem x cor de destino. Este modo de mistura NÃO é compatível com iluminação dinâmica ou neblina, a menos que seja um material de decalque.
+  - `BLEND_Opaque` - Cor final = cor de origem. Isso significa que o material será desenhado na parte superior do fundo. Este modo de mesclagem é compatível com iluminação.
+  - `BLEND_Masked` -  Cor final = cor de origem se OpacityMask > OpacityMaskClipValue, caso contrário, o pixel é descartado. Este modo de mesclagem é compatível com iluminação.
+  - `BLEND_Translucent` - Cor final = opacidade da cor de origem + cor de destino (1 - opacidade). Este modo de mistura NÃO é compatível com  iluminação dinâmica.
+  - `BLEND_Additive` - Cor final = cor de origem + cor de destino. Este modo de mistura NÃO é compatível com iluminação dinâmica.
+  - `BLEND_Modulate` - Cor final = cor de origem x cor de destino. Este modo de mistura NÃO é compatível com iluminação dinâmica ou neblina, a menos que seja um material de decalque.
 
 <a name="4.2.2"></a>
 #### 4.2.2 Shading Model
@@ -113,27 +118,31 @@ Define como a luz é calculada para a superfície do material.
 Controla como o material deve ser usado, por exemplo, se ele deve fazer parte de uma superfície, uma função leve ou um material pós-processamento.
 > Esta configuração permite designar como este material será usado. Certos usos de materiais (como decalques) requerem instruções adicionais para o mecanismo de renderização considerar. Por isso, é importante designar o Material como sendo usado para esses casos
 
-- **Surface** - Esta configuração define o Material como algo que será usado na superfície de um objeto; pense em metal, plástico, pele ou qualquer superfície física. Como tal, esta é a configuração que você usará na maioria das vezes.
-- **Deferred Decal** -  Ao fazer um [Material de Decalque ou Decal Material](https://docs.unrealengine.com/4.26/en-US/Basics/Actors/DecalActor/), você usará esta configuração.
-- **Light Function** - Usado ao criar um material para uso com uma função de luz.
-- **Volume** - Usado ao descrever os atributos do material como um volume 3D.
-- **Post-process** - Usado se o material for usado como um [Material de pós-processamento](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/PostProcessEffects/PostProcessMaterials/).
-- **User Interface** - Usado quando este material é usado para interfaces de usuário UMG ou Slate.
-- **Virtual Texture** - Usado ao fazer uma textura virtual em tempo de execução.
+- `Surface` - Esta configuração define o Material como algo que será usado na superfície de um objeto; pense em metal, plástico, pele ou qualquer superfície física. Como tal, esta é a configuração que você usará na maioria das vezes.
+- `Deferred Decal` -  Ao fazer um [Material de Decalque ou Decal Material](https://docs.unrealengine.com/4.26/en-US/Basics/Actors/DecalActor/), você usará esta configuração.
+- `Light Function` - Usado ao criar um material para uso com uma função de luz.
+- `Volume` - Usado ao descrever os atributos do material como um volume 3D.
+- `Post-process` - Usado se o material for usado como um [Material de pós-processamento](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/PostProcessEffects/PostProcessMaterials/).
+- `User Interface` - Usado quando este material é usado para interfaces de usuário UMG ou Slate.
+- `Virtual Texture` - Usado ao fazer uma textura virtual em tempo de execução.
 
 ![unreal_engine_material_type_input.jpg](imagens/materiais/unreal_engine_material_type_input.jpg)     
+
 *Figura: Material Type input*
 
 <a name="5"></a>
 ## 5. Valores que determinam a física
 - Constant 1 ou valor escalar- Valor único.     
   ![unreal_engine_material_node_constant_1](imagens/materiais/unreal_engine_material_node_constant_1.jpg)         
+
   *Figura: Constant 1 -  1 + RMB*
 - Constant 2 - Vetor de dois valores.      
   ![unreal_engine_material_node_constant_2](imagens/materiais/unreal_engine_material_node_constant_2.jpg)     
+
   *Figura: Constant 2 - 2 + RMB*
 - Constant 3 - Vetor de três valores.     
   ![unreal_engine_material_node_constant_3](imagens/materiais/unreal_engine_material_node_constant_3.jpg)     
+
   *Figura: Constant 3 - 3 + RMB*
 
 <a name="5"></a>

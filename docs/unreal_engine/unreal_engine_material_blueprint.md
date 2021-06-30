@@ -18,21 +18,22 @@ Neste capítulo iremos manipular os materiais com lógica de script Blueprint.
 ## 1. Blueprint
 Podemos manipular os objetos do tipo material com scripts Blueprint.
 
-Utilizaremos o *Level Blueprint* para exemplificar.
+Utilizaremos o `Level Blueprint` para exemplificar.
 
 1. Lógica para criar o material e a textura: Create material instance->Set Texture Parameter Value
 ![ue4_material_bp_create_material_instance_set](imagens/materiais/ue4_material_bp_create_material_instance_set.jpg)   
 
-  *Figura: Blueprint create material instance set*
+*Figura: Blueprint create material instance set*
 
-- **Create Dynamic Material Instance** - Cria um Material Instance dinâmico que pode ser modificado durante a *gameplay*.
-- **Set Texture Parameter Value** - Atualiza o valor do parâmetro informado em *Parameter Name*, para este tipo é um tipo de textura.
-- **Set Scalar/Vector Parameter Value** - Atualiza o valor do parâmetro informado em *Parameter Name* com o valor *value*.
+- `Create Dynamic Material Instance` - Cria um Material Instance dinâmico que pode ser modificado durante a *gameplay*.
+- `Set Texture Parameter Value` - Atualiza o valor do parâmetro informado em `Parameter Name`, para este tipo é um tipo de textura.
+- `Set Scalar/Vector Parameter Value` - Atualiza o valor do parâmetro informado em `Parameter Name` com o valor `value`.
 
 
 1. No Level Blueprint implemente a lógica para chamar o Evento **MudaCorEvento**.
 ![ue4_material_bp_level_blueprint_call_event](imagens/materiais/ue4_material_bp_level_blueprint_call_event.jpg)   
-  *Figura: Material Open Level blueprint call event*
+
+*Figura: Material Open Level blueprint call event*
 
 <a name="2"></a>
 ## 2. Parameter Global
@@ -40,11 +41,9 @@ Podemos definir parâmetros globais para que os materiais possam referenciar par
 > É uma ferramenta poderosa que os artistas podem usar para obter dados globais em muitos materiais de uma só vez. Ele também pode ser usado para gerar efeitos por nível, como quantidade de neve, quantidade de destruição, umidade, etc., que, de outra forma, exigiria a configuração de valores de parâmetros individuais em muitas instâncias de materiais diferentes em seu nível.
 
 1. Criando parâmetros globais
-  Context Menu->Materials & Textures->Material Parameter Gobal
+  Context Menu >Materials & Textures >Material Parameter Gobal
 
-1.    
-
-- Material Parameter->GetCollectionParameter.       
+- Material Parameter >GetCollectionParameter.       
   ![MatPC](https://cdn2.unrealengine.com/blog/MaterialsTexturesScreen1-421x613-1142134069.png)
 
   *Figura: Parameter Collections - Unreal Engine*
