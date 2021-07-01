@@ -231,11 +231,14 @@ Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais co
 
 <a name="9"></a>
 ## 9. Masked Blend Mode
-É usado para objetos nos quais você precisa controlar seletivamente a visibilidade de forma binária (liga / desliga). Por exemplo, considere um material que simula uma cerca de arame ou grade. Você terá algumas áreas que parecem sólidas, enquanto outras são invisíveis. Esses materiais são perfeitos para o modo de mesclagem mascarada.     
+É usado para objetos nos quais você precisa controlar seletivamente a visibilidade de forma binária (liga / desliga). Por exemplo, considere um material que simula uma cerca de arame ou grade. Você terá algumas áreas que parecem sólidas, enquanto outras são invisíveis. Esses materiais são perfeitos para o modo de `Blend Masked` .     
 
 ![unreal_engine_material_properties_blend_mode_masked](imagens/materiais/unreal_engine_material_properties_blend_mode_masked.jpg)     
 
 *Figura: Material Properties blend mode masked*
+
+- `Roughness` - Valor 1
+- `Two Sided ` - Valor `True`
 
 ![unreal_engine_material_properties_blend_mode_masked_result](imagens/materiais/unreal_engine_material_properties_blend_mode_masked_result.jpg)   
 
@@ -246,13 +249,15 @@ Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais co
 É usado para objetos que requerem alguma forma de transparência.
 
 ![unreal_engine_material_properties_blend_mode_translucent](imagens/materiais/unreal_engine_material_properties_blend_mode_translucent.jpg)  
-
 *Figura: Material Properties blend mode Translucent*
+
+- `Material Domain` - Surface
+- `Blend Mode` - Translucent
+- `Lighting Mode` - Surface TranslucencyVolume
 
 Resultado
 
 ![ue4_material_properties_blend_mode_translucent_result](imagens/materiais/ue4_material_properties_blend_mode_translucent_result.jpg)     
-
 *Figura: Material Properties blend mode Translucent*
 
 <a name="11"></a>

@@ -35,9 +35,9 @@ tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digi
 1. Estruturas de dados
     1. [Structure - Variáveis estruturadas](structure_variaveis_estruturadas.html)  
     1. [Data tables - Tabelas de dados](data_tables.html)
-    1. [Game Instance, Game State e Game Mode](gameinstance_state_mode.html)
+    1. [Game Instance, Game State e Game Mode](unreal_engine_gameinstance_state_mode.html)
 1. Interface com usuário
-    1. [HUD - Interface com o jogador](hud_interface.html)
+    1. [HUD - Interface com o jogador](unreal_engine_hud_interface.html)
 1. Materiais
     1. [Introdução aos Materiais](unreal_engine_material_introducao_aos_materiais.html)
     1. [Construindo Materiais e entendo a lógica](unreal_engine_material_construindo_materiais_entendendo_a_logica.html)
