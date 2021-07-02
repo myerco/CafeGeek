@@ -199,7 +199,7 @@ Para que o objeto menu tenha acesso a propriedades da classe do jogador vamos in
 Ao iniciar o Widget definimos uma variável **Jogador** do tipo `BP_Hero` para que possamos ter acesso as propriedades nome e vida por exemplo.      
 ![blueprint_hud_event_construct](imagens/interface_ui_hud/blueprint_hud_event_construct.jpg)
 
-    *Figura: Widget Graph Event Construct*
+*Figura: Widget Graph Event Construct*
 
 <a name="3.2"></a>
 ### 3.2 Botões e eventos (Button and Events)
@@ -211,14 +211,14 @@ Vamos utilizar o evento `OnClick` para executar a função `Open Level` para car
 
 ![blueprint_hud_open_level](imagens/interface_ui_hud/blueprint_hud_open_level.jpg)    
 
-    *Figura: Widget HUD Blueprint open Level*
+*Figura: Widget HUD Blueprint open Level*
 
 <a name="3.4"></a>
 ### 3.4 Acionando o botão Sair para finalizar o jogo
 Ao clicar no botão Sair vamos chamar a função `Quit Game` que finaliza do jogo.  
 ![blueprint_hud_quit_game](imagens/interface_ui_hud/blueprint_hud_quit_game.jpg)    
 
-    *Figura: Widget HUD Blueprint Quit Game*
+*Figura: Widget HUD Blueprint Quit Game*
 
 <a name="4"></a>
 ## 4. Executando o menu

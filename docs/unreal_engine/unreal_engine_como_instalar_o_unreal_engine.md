@@ -55,32 +55,32 @@ Neste passo vamos criar um projeto utilizando **C++** como linguagem de desenvol
 1. Selecionando o tipo de projeto.    
   ![blueprint_select_new_project](imagens/projeto/blueprint_ue_select_new_project.jpg)  
 
-  *Figura: Unreal 4 - Select or create New Project, Games*        
-1. Escolha o *template* **blank** para o projeto.  *Templates* são modelos com elementos disponíveis para o tipo de jogo escolhido.
+    *Figura: Unreal 4 - Select or create New Project, Games*        
+1. Escolha o `template blank` para o projeto.  `Templates` são modelos com elementos disponíveis para o tipo de jogo escolhido.
   ![blueprint_ue_select_template](imagens/projeto/blueprint_ue_select_template.jpg)     
 
-  *Figura: Select Template blank*
-1. Em configuração de projeto escolha **C++** e *No Starter Content*, este opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário.    
-Logo em seguida escolha uma pasta onde o projeto deverá ser instalado em **Select a Location for project to be stored**.       
+    *Figura: Select Template blank*
+1. Em configuração de projeto escolha **C++** e `No Starter Content`, este opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário.    
+Logo em seguida escolha uma pasta onde o projeto deverá ser instalado em `Select a Location for project to be stored`.       
   ![blueprint_ue_project_settings](imagens/projeto/blueprint_ue_project_settings.jpg)
 
-  *Figura: Unreal engine project Settings*
+    *Figura: Unreal engine project Settings*
 1. Se deu certo a tela inicial deve aparecer.  
   ![blueprint_ue_tela_inicial](imagens/projeto/blueprint_ue_tela_inicial.jpg)
 
-  *Figura: Unreal Engine tela inicial*
+    *Figura: Unreal Engine tela inicial*
 
 1. Iniciando um projeto no **Unreal Engine 5**.
   ![unreal_engine_select_new_project](imagens/projeto/unreal_engine_select_new_project.jpg)
 
-  *Figura: Unreal 5 - Select or create New Project, Games.*    
+    *Figura: Unreal 5 - Select or create New Project, Games.*    
   ![unreal_engine_home_screen](imagens/projeto/unreal_engine_home_screen.jpg)
 
-   *Figura: Unreal 5 - Tela inicial.*        
+    *Figura: Unreal 5 - Tela inicial.*        
 
 <a name="3"></a>
 ## 3. Verificando as pastas criadas
-Após cria o projeto vamos verificar como estão as pastas criadas pela *engine*, utilizando o *explorer* do Windows, navegue até a pasta do projeto para verificar os arquivos criados.
+Após cria o projeto vamos verificar como estão as pastas criadas pela *engine*, utilizando o `explorer` do Windows, navegue até a pasta do projeto para verificar os arquivos criados.
 
 ```bash
 |-- .vs
@@ -93,7 +93,7 @@ Após cria o projeto vamos verificar como estão as pastas criadas pela *engine*
 |-- ProjetoAula.sln
 |-- ProjetoAula.uproject
 ```
-1. A pasta *Source* contém arquivos com código
+1. A pasta `Source` contém arquivos com código
 fonte em **C++** e o arquivo com extensão *uproject* é o principal arquivo do projeto.    
 1. É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto.
   Abaixo duas boas recomendações de organização, discutiremos mais nos próximos capítulos.    
@@ -111,13 +111,14 @@ As pastas abaixo podem ser removidas pois podemos construir a qualquer momento q
 ```
 <a name="4"></a>
 ## 4 Compilando o projeto usando o Windows Explorer
-Para recompilar o projeto e recriar os arquivos siga os seguintes passos utilizando o *explorer* no Windows:
-1. Apague as pastas *Binaries, Build, Intermediate* e *Saved*.
+Para recompilar o projeto e recriar os arquivos siga os seguintes passos utilizando o `explorer` no Windows:
+1. Apague as pastas `Binaries`, `Build`, `Intermediate` e `Saved`.
 1. Click com botão direito do mouse no arquivo **ProjetoAula.uproject**.
-1. Escolha a opção **Generate Visual Studio project files**.  
+1. Escolha a opção `Generate Visual Studio project files`.
+
   ![blueprint_explorer_generate_vs](imagens/projeto/blueprint_explorer_generate_vs.jpg)   
 
-  *Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files*
+    *Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files*
 1. Aguarde o termino da operação e abra o projeto.
 
 <a name="5"></a>
