@@ -24,8 +24,8 @@ tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digi
     1. [Entendo a lógica de programação visual com Blueprint](entendo_blueprint.html)
     1. [Trabalhando com variáveis](trabalhando_com_variaveis.html)  
     1. [Estruturas de controle de fluxo](estruturas_de_controle_de_fluxo.html)
-    1. [Manipulando Arrays](manipulando_array.html)  
-    1. [Enums](enum.html)    
+    1. [Manipulando Arrays](unreal_engine_manipulando_array.html)  
+    1. [Enums](unreal_engine_enum.html)    
 1. Atores, movimentação, tempo e espaço
     1. [Actors - Atores](actor_atores.html)
     1. [Estruturando a lógica utilizando Eventos, funções e macros](estruturando_logica_utilizando_eventos_funcoes_macros.html)  
