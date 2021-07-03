@@ -1,3 +1,10 @@
+---
+title: Introdução a programação C++
+description: introdução a programação C++
+tags: [programação, cpp, c++, lógica]
+---
+
+[CafeGeek](http://CafeGeek.eti.br)  / [Programação em linguagem C++](http://cafeGeek.eti.br/cpp/index.html)
 
 
 # Passo 1
