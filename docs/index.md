@@ -21,11 +21,11 @@ tags: [Unreal Engine, Game Design, Level Design, Narrativas, Maya]
   - [Trabalhos](trabalhos/index.html)
 
 ## Programação em linguagem C++
-- [Estrutura da linguagem](cp/index.html)  
+- [Estrutura da linguagem](cpp/index.html)  
 
 ## Banco de Dados
 - A taberna do Pônei Saltitante
-    - [Aprendizado de banco de relacional](#)
+    - [Aprendizado de banco de relacional](banco_de_dados/modelo_a_taberna_do_ponei_saltitante.html)
 - Segurança com Oracle
     - [Oracle](#)
 - Consultas analíticas usando Rank
