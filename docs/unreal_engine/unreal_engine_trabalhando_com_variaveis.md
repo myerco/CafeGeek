@@ -128,7 +128,11 @@ Valores numéricos utilizam operadores matemáticos para a sua manutenção.
 ## 7. Boolean
 Armazena dois valores : falso `false` ou verdadeiro `true`.
 
-![blueprint_variable_boolean](imagens/variaveis/blueprint_variable_boolean.jpg)
+![unreal_engine_variable_boolean](imagens/variaveis/unreal_engine_variable_boolean.jpg)
+
+*Figura: Variável Boolean*
+
+No exemplo acima se o valor de `life` for maior que 50 então o valor é atualizado para `true`.
 
 
 <a name="8"></a>
@@ -138,12 +142,23 @@ Como especificar quais variáveis de um objeto um usuário pode acessar e quais 
 **Privada**  
 Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada de **Blueprints** externos.  
 
-![blueprint_variable_public_private](imagens/variaveis/blueprint_variable_public_private.jpg)
+![unreal_engine_variable_private_details](imagens/variaveis/unreal_engine_variable_private_details.jpg)
+
+*Figura: Private details*
 
 **Pública**  
-Para permitir que uma variável seja modificada de fora de seu **Blueprint**, torne-a pública.  
+Para permitir que uma variável seja modificada de fora de seu
+ **Blueprint**, torne-a pública.  
 
-![blueprint_variable_private](imagens/variaveis/blueprint_variable_private.jpg)
+![unreal_engine_variable_public](imagens/variaveis/unreal_engine_variable_public.jpg)
+
+*Figura: Public*
+
+![unreal_engine_variable_public_details](imagens/variaveis/unreal_engine_variable_public_details.jpg)
+
+*Figura: Public details*
+
+
 
 ***
 
