@@ -23,6 +23,7 @@ O nosso objetivo é extrair informações da regra de negócio a fim de identifi
 1. Pedidos dos clientes.
 
     `PEDITO`
+
     |NÚMERO|	DATA|	PRODUTO|
     |:-    |:-     |:-    |
     |123	 |11/12/2017|	Escudo de Carvalho|
@@ -35,6 +36,7 @@ O nosso objetivo é extrair informações da regra de negócio a fim de identifi
 1. Registro de Funcionários.
 
     `FUNCIONÁRIO`
+
     | MATRICULA |	NOME          |	SALÁRIO|
     |:-         |:-             |-:      |
     |480001     |	Bilbo Baggins |	1.000   |
@@ -46,6 +48,7 @@ O nosso objetivo é extrair informações da regra de negócio a fim de identifi
 1. Cargos dos Funcionários.
 
     `CARGOS`
+
     |CARGO ID|	NOME|
     |:-      |:-    |
     |01	     |Atendente|
@@ -58,6 +61,7 @@ O nosso objetivo é extrair informações da regra de negócio a fim de identifi
 1. Registro de classificação de clientes.
 
     `RAÇA`
+
     |ID|NOME  |
     |:-|:-  |
     |01|	Humano|
@@ -70,6 +74,7 @@ O nosso objetivo é extrair informações da regra de negócio a fim de identifi
 1. E-mail dos Clientes.
 
     `EMAIL`
+
     |EMAIL|
     |:-|
     |lurtzuruk@terramedia.com|
