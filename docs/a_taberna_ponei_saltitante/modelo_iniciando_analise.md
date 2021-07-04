@@ -95,6 +95,6 @@ O nosso objetivo é extrair informações da regra de negócio a fim de identifi
 
 ## 3. Regras e restrições
 |Regras             |Restrições           |
-|:-                 |                     |
+|:-                 |:-                   |
 |Para cada nota são registrados os produtos vendidos.| Um produto pode estar em mais de uma nota; Uma nota pode ter mais de um produto; O valor do produto pode ter descontos e acrescimentos
 |Os Clientes tem uma determinada raça; O sexo dos clientes são registrados como M = Masculino e F = Feminino;|Um cliente tem uma raça e uma raça pode estar presente em vários clientes;Somente as letras M ou F podem ser registrados para cada cliente;|
