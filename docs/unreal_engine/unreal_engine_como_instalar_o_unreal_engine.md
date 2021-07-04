@@ -17,6 +17,8 @@ Neste capítulo vamos instalar o **Unreal Engine** e o gerenciador de versões p
     1. [Pastas temporárias que podem ser removidas](#3.1)
 1. [Compilando o projeto usando o Windows Explorer](#4)    
 1. [Configurando o editor de código](#5)
+1. [Atividades](#6)
+    1. [Instale o Unreal Engine com Visual Studio](#6.1)
 
 <a name="1"></a>
 ## 1. Instalando o Unreal e o Visual Studio
@@ -119,18 +121,32 @@ Para recompilar o projeto e recriar os arquivos siga os seguintes passos utiliza
   ![blueprint_explorer_generate_vs](imagens/projeto/blueprint_explorer_generate_vs.jpg)   
 
     *Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files*
+
 1. Aguarde o termino da operação e abra o projeto.
 
 <a name="5"></a>
 ## 5. Configurando o editor de código
 Você tem que escolher qual editor de código **C++** utilizar usando :
 
-**Menu >Editor Preferences >General** e `Source Code` e escolha `Visualstudio`.   
+**Menu > Editor Preferences > General** em `Source Code` escolha `Visualstudio`.   
+
 ![unreal_engine_editor_codigo](imagens/projeto/unreal_engine_editor_codigo.jpg)   
 
 *Figura: General - Source Code, Definindo o editor de código*
+
 >**Qual editor eu escolho, Visual Code ou Visual Studio?**
 Os dois são ótimos editores de código mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras lingagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
+
+<a name="6"></a>
+## 6. Atividades
+<a name="6.1"></a>
+### 6.1 - Instale o Unreal Engine com Visual Studio.
+#### Regras
+1. Instale todo o ambiente e crie um projeto de nome MeuPrimeiroProjeto.
+
+#### Desafio      
+1. Configure o Visual Studio para ser o editor padrão .
+
 
 ***
 ## Referências

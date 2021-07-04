@@ -14,23 +14,29 @@ Neste capitulo vamos organizar o projeto *ProjetoAula* e adicionar um logo para 
 1. [Adicionando um Level na inicialização do projeto](#2)
 1. [Pastas de trabalho e nomenclatura](#3)
 1. [Configurando as imagens do projeto](#4)
+1. [Atividades](#5)
+    1. [Configure as pastas de seu projeto](#5.1)
 
 <a name="1"></a>
 ## 1. Como criar pastas de trabalho?
-Em *Content Drawer* utilizando botão direito do mouse clique em *New Folder* e crie as seguintes pastas:   
+Em `Content Drawer` utilizando botão direito do mouse clique em `New Folder` e crie as seguintes pastas:   
 
 ![unreal_engine_content_drawer](imagens/projeto/unreal_engine_content_drawer.jpg)			
-	*Figura: Content Drawer*
+
+*Figura: Content Drawer*
 
 <a name="2"></a>
 ## 2. Adicionando um *Level* na inicialização do projeto
 Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguintes passos:  
-1. Salve o *level* atual na pasta Maps *File->Save Current Level As* com o nome *LevelTest*.
-1. Para configurar a inicialização do projeto utilizando o **LevelTest** utilize o menu *Edit->Project Settings* e depois *Maps & Modes*.   
+
+1. Salve o *level* atual na pasta Maps **File > Save Current Level As** com o nome `LevelTest`.
+1. Para configurar a inicialização do projeto utilizando o **LevelTest** utilize o menu **Edit > Project Settings** e depois `Maps & Modes`.   
 	![unreal_engine_maps_modes](imagens/projeto/unreal_engine_maps_modes.jpg)			
+
 	*Figura: Project - Maps & Modes*
-- **Edit Startup Level** Seleciona o *Level* que deverá ser carregado no início do jogo, neste casso é **LevelTest**.
-- **Game default Map** : Seleciona o *Level* que é mais usado com frequência.
+
+- `Edit Startup Level` Seleciona o *Level* que deverá ser carregado no início do jogo, neste caso é `LevelTest`.
+- `Game default Map` : Seleciona o *Level* que é mais usado com frequência.
 
 ## 3. Pastas de nomenclatura
 Para um maior gerenciamento podem ser definidas pastas com nomenclaturas adequadas ao projeto, abaixo vamos relacionar algumas sugestões.
@@ -86,6 +92,7 @@ Para um maior gerenciamento podem ser definidas pastas com nomenclaturas adequad
 			|	|-- Level1
 			|	|-- Level2
 ```
+
 Separar a pasta do projeto de outras pastas pode facilitar:
 1. Versionamento - pastas com diferentes versões.
 1. Isolar pacotes de testes e *Marketplace*.
@@ -106,11 +113,23 @@ Exemplo:
 
 <a name="4"></a>
 ## 4. Configurando as imagens  do projeto
-Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu **Project Settings** opção **Plataforms**-> **Windows** e altere a imagens.
+Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu `Project Settings` opção **Plataforms > Windows** e altere a imagens.
+
 ![unreal_engine_project_icon](imagens/projeto/unreal_engine_project_icon.jpg)		
-	*Figura: Project icon*
+
+*Figura: Project icon*
 
 > Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas pode ser convertido usando ferramentas online, por exemplo) e 256x256.
+
+<a name="5"></a>
+## 5. Atividades
+<a name="5.1"></a>
+### 5.1 - Configure as pastas de seu projeto.
+#### Regras
+1. Configure as pastas de seu projeto escolhendo uma das sugestões e justifique a sua escolha.
+
+#### Desafio      
+1. Adicione o pacote *StarterContent*.
 
 ***
 ## Referências

@@ -38,9 +38,9 @@ if (a > b) {
 }
 ```
 Perceba que para facilitar a manutenção e desenvolvimento em equipe e pensando em documentar a lógica temos que dispor das seguintes facilidades.
-  - Capacidade reverter o código atual para o estado anterior, lógica **A**.
-  - Necessidade de compartilhar o código como outros desenvolvedores.
-  - Necessidade de documentar as alterações no momento que forem compartilhadas.
+- Capacidade reverter o código atual para o estado anterior, lógica **A**.
+- Necessidade de compartilhar o código como outros desenvolvedores.
+- Necessidade de documentar as alterações no momento que forem compartilhadas.
 
 <a name="2"></a>
 ## 2. Ferramentas para controle de versão
@@ -60,7 +60,7 @@ ssh-keygen
 ```
 > Este passo só é necessário se no momento de envio (push) solicitar senha e o sistema operacional não gerenciar as credenciais adequadamente.
 
-1. Adicione a chave no GitHub **Settings->SSH and GPG Keys**;
+1. Adicione a chave no GitHub **Settings >SSH and GPG Keys**;
 1. Para testar execute os comandos:
 ```shell
 mkdir -p D:\temp\testegit
@@ -76,18 +76,18 @@ git remote -v
 Quando utilizamos um gerenciador de versão temos que seguir um fluxo de trabalho para compartilhar o código armazenado localmente.
 
 Segue abaixo:
-1. **Add** - Adicionar as alterações para um registro local, isso permite verificar quais arquivos foram alterados.
-1. **Commit** - Comprometer ou Confirmar as alterações e criar uma etique ou informação para identificar o trabalhado realiazado, por exemplo:    
+1. `Add` - Adicionar as alterações para um registro local, isso permite verificar quais arquivos foram alterados.
+1. `Commit` - Comprometer ou Confirmar as alterações e criar uma etiqueta ou informação para identificar o trabalhado realizado, por exemplo:    
   ```bash
   feat: Adicionado lógica de movimentação do jogador com mouse X e Y em BP_HeroBase.
   fix: Corrigido o evento MostraMenu em BP_GameInstance, anteriormente o objeto apresentava erro no momento de instanciar o objeto BP_MenuPrincipal, foi adicionado o nó IsValid antes da execução.
   fix: Lista de correções #14,#252
   ```
-1. **Push** - Empurrar ou publicar, neste caso, as alterações para o servidor.
+1. `Push` - Empurrar ou publicar, neste caso, as alterações para o servidor.
 
 <a name="5"></a>
 ## 5. Utilizando comandos do PowerShell para utilizar o Git Client
-É interessante aprender comandos do PowerShell para utilizar o Git Client pois existem diversas situações que não estão nas ferramentas visuais, como por exemplo:
+É interessante aprender comandos do **PowerShell** para utilizar o **Git Client** pois existem diversas situações que não estão nas ferramentas visuais, como por exemplo:
 - Resolução de conflitos.
 - Adicionar nome de versão para um determinado conjunto de arquivos.
 
@@ -123,14 +123,14 @@ Mudanças podem ser replicadas do cliente para o servidor.
 ```
 <a name="54"></a>
 ### 5.4 Atualizando o projeto no cliente (local)
-O comando **pull** baixa os arquivos do servidor.
+O comando `pull` baixa os arquivos do servidor.
 ```shell
     git status
     git pull origin master
 ```
 <a name="6"></a>
 ## 6. Ignorando pastas e arquivos
-É importante ignorar pastas e arquivos do cliente para que não possam ser publicadas no servidor utilizando o arquivo **.gitignore** na pasta raiz do projeto, considerando os seguintes aspectos.
+É importante ignorar pastas e arquivos do cliente para que não possam ser publicadas no servidor utilizando o arquivo `.gitignore` na pasta raiz do projeto, considerando os seguintes aspectos.
 
 **Segurança**  
 Arquivos de controle de senhas ou outros dados relativos a segurança não podem ficar disponíveis publicamente.

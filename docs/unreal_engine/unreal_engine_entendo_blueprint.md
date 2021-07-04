@@ -28,7 +28,7 @@ Neste capítulo será apresenta o modelo da lógica de programação utilizando 
 
 <a name="1"></a>
 ## 1. O que são *Blueprints* e *Visual Scripting*
-O sistema *Blueprints Visual Scripting* no *Unreal Engine* é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nó para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos no mecanismo. Ao usar o UE4, você frequentemente descobrirá que os objetos definidos usando o Blueprint são coloquialmente chamados apenas de "Blueprints".
+O sistema *Blueprints Visual Scripting* no *Unreal Engine* é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nó para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos no mecanismo. Ao usar o UE4, você frequentemente descobrirá que os objetos definidos usando o Blueprint são coloquialmente chamados apenas de **Blueprints**.
 
 <a name="11"></a>
 ### 1.1 Características
@@ -74,33 +74,37 @@ Abaixo da estrutura de elementos.
 
 <a name="2"></a>
 ## 2. O que é Level Blueprint?  
-Um **Level Blueprint** é um tipo especializado de **Blueprint** que atua como um gráfico de evento global em todo o nível. Cada nível em seu projeto tem seu próprio Level Blueprint criado por padrão, que pode ser editado no *Unreal Editor*, no entanto, novos *Level Blueprints* não podem ser criados por meio da interface do editor.  
+Um `Level Blueprint` é um tipo especializado de **Blueprint** que atua como um gráfico de evento global em todo o nível. Cada nível em seu projeto tem seu próprio Level Blueprint criado por padrão, que pode ser editado no *Unreal Editor*, no entanto, novos *Level Blueprints* não podem ser criados por meio da interface do editor.  
 
  ![unreal_engine_open_level_blueprint](imagens/actor/unreal_engine_open_level_blueprint.jpg)        
- *Figura: Blueprints->Open Level Blueprint*
 
+ *Figura: Blueprints->Open Level Blueprint*
 
 <a name="21"></a>
 ## 2.1 Utilizando o level Blueprint para escrever   mensagens na tela
-Utilizando o evento **BeginPlay** e conectando o nó **Print String** para escrever uma mensagem na tela.
+Utilizando o evento `BeginPlay` e conectando o nó `Print String` para escrever uma mensagem na tela.
 
 ![unreal_engine_blueprint_beginplay_printstring](imagens/actor/unreal_engine_blueprint_beginplay_printstring.jpg)      
+
 *Figura: Iniciando o level e escrevendo uma mensagem na tela*
-- **BeginPlay**: Este evento é executado quando o level é carregado.
-- **Print String**: É uma função que recebe como parâmetro um texto (*String*) e a escreve na tela.
+
+- `BeginPlay`: Este evento é executado quando o level é carregado.
+- `Print String`: É uma função que recebe como parâmetro um texto (*String*) e a escreve na tela.
 
 <a name="3"></a>
 ## 3. Blueprint de atores
-Atores são objetos que são adicionados na cena. São classes de objetos que suportam vários componentes, métodos e variáveis. A lógica de programação é expressada em *Blueprint*.  
+Atores são objetos que são adicionados na cena. São classes de objetos que suportam vários componentes, métodos e variáveis. A lógica de programação é expressada em **Blueprint**.  
 
 <a name="3.1"></a>
 ### 3.1 Place Actors
 No nível mais fundamental, um ator é qualquer objeto que você pode colocar em um nível e esta página irá mostrar os vários métodos em que você pode colocar esses atores dentro de seus níveis.  
 
 ![unreal_engine_blueprint_place_actors_bar](imagens/actor/unreal_engine_blueprint_place_actors_bar.jpg)       
+
 *Figura: Create->Shapes*
 
 ![unreal_engine_place_actors](imagens/actor/unreal_engine_place_actors.jpg)        
+
 *Figura: Windows->Place Actors*
 
 <a name="3.2"></a>

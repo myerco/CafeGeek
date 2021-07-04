@@ -55,49 +55,67 @@ Grupo de caracteres alfanuméricos.
 ## 3. Declarando variáveis   
 Declarando variáveis informamos ao computador que estamos reservando um espaço de memória temporário.  
 
-![blueprint_variable](imagens/variaveis/blueprint_variable.jpg)
+1. Variáveis no Editor de Blueprint.
 
-1. Propriedades   
-As variáveis tem tipos e propriedades que determinam o sua utilização.  
-![blueprint_variable_details](imagens/variaveis/blueprint_variable_details.jpg)
+  ![blueprint_variable](imagens/variaveis/unreal_engine_variable.jpg)
 
-> Observe que a propriedade **Category** agrupa as variáveis por uma categoria.
+    *Figura: Blueprint Variables*
+
+1. As variáveis tem tipos e propriedades que determinam o sua utilização.  
+
+  ![blueprint_variable_details](imagens/variaveis/unreal_engine_variable_details.jpg)
+
+    *Figura: Details ou properiedades das variáveis*
+
+> Observe que a propriedade `Category` agrupa as variáveis por uma categoria.
 
 <a name="4"></a>
 ## 4. Métodos Get e Set
-Para acessar as variáveis utilizamos os métodos **Get** e **Set**.
-- **Get**: Obtém o valor de uma variável.
-- **Set**: Atualiza o valor da variável.
+Para acessar as variáveis utilizamos os métodos `Get` e `Set`.
+- `Get`: Obtém o valor de uma variável.
+- `Set`: Atualiza o valor da variável.
 
-![blueprint_variable_get_set](imagens/variaveis/blueprint_variable_get_set.jpg)
+![blueprint_variable_get_set](imagens/variaveis/unreal_engine_get_set.jpg)
+
+*Figura: Métodos Get e Set*
+
+- `BeginPlay` - Ao iniciar o jogo a lista de comandos deve ser acionado.
+- `Print String` - Escreve um texto na cena do jogo.
+- `Add +` - Variáveis numéricas podem ser manipuladas com operadores matemáticos.
+- `Converts` - Converte tipos de variáveis, neste caso converte um valor do tipo `integer` em um do tipo `String`.
 
 <a name="5"></a>
 ## 5. String, Name e Text
-O armazenamento de caracteres alfanuméricos, *string*, apresetam diversas estruturas para melhor utilização e armazenamento.
+O armazenamento de caracteres alfanuméricos, `string`, apresetam diversas estruturas para melhor utilização e armazenamento.
 
-| Variável |Tamanho  |  |
-|:-:|-|-|
-| **Text** | 40 Bytes | Podemos adicionar opções avançadas como exemplo **String Table**, ideal para textos longos que podem variar conforme a lingua definida pelo jogador.  |
-| **String** | 16 Bytes | Armazenamento e consumo de memória mediano |
-| **Name**| 8 Bytes |  Cadeias de caracteres  curtas que ocupam pouca memória.|
+| Variável          |Tamanho    | Considerações              |
+|:-:                |-          |-              |
+| `Text`            | 40 Bytes  | Podemos adicionar opções avançadas como exemplo `String Table`, ideal para textos longos que podem variar conforme a lingua definida pelo jogador.  |
+| `String`          | 16 Bytes | Armazenamento e consumo de memória mediano |
+| `Name`            | 8 Bytes   |  Cadeias de caracteres  curtas que ocupam pouca memória.|
 
-<a name="51"></a>
+<a name="5.1"></a>
 ### 5.1 Tratamento de strings
+
 ![blueprint_string_functions](imagens/variaveis/blueprint_string_functions.jpg)
-- **Append** - Concatena duas ou mais strings.
-- **Contains** - Procura uma sequencia de caracteres dentro de uma string.
+
+- `Append` - Concatena duas ou mais strings.
+- `Contains` - Procura uma sequencia de caracteres dentro de uma `string`.
 
 <a name="6"></a>
 ## 6. Integer e Float
 Valores numéricos utilizam operadores matemáticos para a sua manutenção.  
+
 ![blueprint_float_functions](imagens/variaveis/blueprint_float_functions.jpg)
+
 - (+) - soma.
 - (*) - Multiplicação.
 - (/) - Divisão.
 
 <a name="7"></a>
 ## 7. Boolean
-Armazena dois valores : falso (*false*) ou verdadeiro (*true*).  
+Armazena dois valores : falso `false` ou verdadeiro `true`.
+
 ![blueprint_variable_boolean](imagens/variaveis/blueprint_variable_boolean.jpg)
 
 
@@ -107,10 +125,12 @@ Como especificar quais variáveis de um objeto um usuário pode acessar e quais 
 
 **Privada**  
 Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada de **Blueprints** externos.  
+
 ![blueprint_variable_public_private](imagens/variaveis/blueprint_variable_public_private.jpg)
 
 **Pública**  
 Para permitir que uma variável seja modificada de fora de seu **Blueprint**, torne-a pública.  
+
 ![blueprint_variable_private](imagens/variaveis/blueprint_variable_private.jpg)
 
 ***
