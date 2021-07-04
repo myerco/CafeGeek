@@ -14,7 +14,7 @@ Neste capítulo serão descritas as estruturas de armazenamento em memória e a 
 1. [Declarando variáveis](#3)  
 1. [Métodos Get e Set](#4)  
 1. [String, Name e Text](#5)  
-     1. [Tratamento de strings](#51)  
+     1. [Tratamento de strings](#5.1)  
 1. [Integer e Float](#6)  
 1. [Boolean](#7)
 1. [Variável Pública e Privada](#8)
@@ -57,13 +57,13 @@ Declarando variáveis informamos ao computador que estamos reservando um espaço
 
 1. Variáveis no Editor de Blueprint.
 
-  ![blueprint_variable](imagens/variaveis/unreal_engine_variable.jpg)
+  ![unreal_engine_variable_details](imagens/variaveis/unreal_engine_variable_details.jpg)
 
     *Figura: Blueprint Variables*
 
 1. As variáveis tem tipos e propriedades que determinam o sua utilização.  
 
-  ![blueprint_variable_details](imagens/variaveis/unreal_engine_variable_details.jpg)
+  ![unreal_engine_variable_details](imagens/variaveis/unreal_engine_variable_details.jpg)
 
     *Figura: Details ou properiedades das variáveis*
 
@@ -75,7 +75,7 @@ Para acessar as variáveis utilizamos os métodos `Get` e `Set`.
 - `Get`: Obtém o valor de uma variável.
 - `Set`: Atualiza o valor da variável.
 
-![blueprint_variable_get_set](imagens/variaveis/unreal_engine_get_set.jpg)
+![unreal_engine_get_set](imagens/variaveis/unreal_engine_get_set.jpg)
 
 *Figura: Métodos Get e Set*
 
@@ -97,16 +97,28 @@ O armazenamento de caracteres alfanuméricos, `string`, apresetam diversas estru
 <a name="5.1"></a>
 ### 5.1 Tratamento de strings
 
-![blueprint_string_functions](imagens/variaveis/blueprint_string_functions.jpg)
+![unreal_engine_string_functions](imagens/variaveis/unreal_engine_string_functions.jpg)
+
+*Figura: String functions*
 
 - `Append` - Concatena duas ou mais strings.
 - `Contains` - Procura uma sequencia de caracteres dentro de uma `string`.
+  - `Search In` - Texto passado como parâmetro.
+  - `Substring` - Texto que deve ser localizado.
+  - `Use Case` - Diferencia maiúsculas e minúsculas.
+  - `Search from end` - Inicia a busca pelo fim do texto.
 
 <a name="6"></a>
 ## 6. Integer e Float
 Valores numéricos utilizam operadores matemáticos para a sua manutenção.  
 
-![blueprint_float_functions](imagens/variaveis/blueprint_float_functions.jpg)
+![unreal_engine_variable_division](imagens/variaveis/unreal_engine_variable_division.jpg)
+
+*Figura: Divisão*
+
+![unreal_engine_variable_multiplication](imagens/variaveis/unreal_engine_variable_multiplication.jpg)
+
+*Figura: Multiplicação*
 
 - (+) - soma.
 - (*) - Multiplicação.
