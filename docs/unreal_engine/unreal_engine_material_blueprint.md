@@ -43,17 +43,38 @@ Podemos definir parâmetros globais para que os materiais possam referenciar par
 1. Criando parâmetros globais
   Context Menu >Materials & Textures >Material Parameter Gobal
 
-- Material Parameter >GetCollectionParameter.       
-  ![MatPC](https://cdn2.unrealengine.com/blog/MaterialsTexturesScreen1-421x613-1142134069.png)
+  - Material Parameter >GetCollectionParameter.       
+  ![unreal_engine_material_menu_parameter_collection](imagens/materiais/unreal_engine_material_menu_parameter_collection.jpg)
 
   *Figura: Parameter Collections - Unreal Engine*
+1. teste
+  - ![unreal_engine_material_edit_parameter_collection](imagens/materiais/unreal_engine_material_edit_parameter_collection.jpg)
+1. teste
+  - ![unreal_engine_material_collectionparameter](imagens/materiais/unreal_engine_material_collectionparameter.jpg)
+
 
 <a name="3"></a>
 ## 3. Material Function
 **Mateial Functions** ou Funções de material são pequenos fragmentos de códigos gráficos de material que podem ser salvos em pacotes e reutilizados em vários materiais, em outras palavras são funções de programação. Seu objetivo é agilizar o processo de criação de material, dando acesso instantâneo a redes comumente usadas de nós materiais.    
 São compostas basicamente por entradas de parâmetros e saída de dados.
 
-Input Parameter -> Output Result
+1. Menu de Context > `Material e Textures > Material Function`.
+1. teste
+![unreal_engine_material_function_output](imagens/materiais/unreal_engine_material_function_output.jpg)
+
+
+![unreal_engine_material_function_output](imagens/materiais/unreal_engine_material_function_call.jpg)
+
+
+![unreal_engine_material_function_makematerialattributes](imagens/materiais/unreal_engine_material_function_makematerialattributes.jpg)
+
+
+![unreal_engine_material_use_material_attributes](imagens/materiais/unreal_engine_material_use_material_attributes.jpg)
+
+![unreal_engine_material_breakmaterialattributes](imagens/materiais/unreal_engine_material_breakmaterialattributes.jpg)
+
+
+
 
 <a name="16"></a>
 ## 16 ATIVIDADES
