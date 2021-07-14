@@ -25,16 +25,16 @@ Podemos manipular os objetos do tipo material com scripts Blueprint.
 
     *Figura: Blueprint create material instance set*
 
-    - `Create Dynamic Material Instance` - Cria um Material Instance dinâmico que pode ser modificado durante a *gameplay*.
-    - `Set Texture Parameter Value` - Atualiza o valor do parâmetro informado em `Parameter Name`, é do tipo textura.
-    - `Set Scalar Parameter Value` - Atualiza o valor escalar do parâmetro informado em `Parameter Name` com o valor `value`.
-    - `Set Vector Parameter Value` - Atualiza o vetor do parâmetro informado em `Parameter Name` com o valor `value`.
+  - `Create Dynamic Material Instance` - Cria um Material Instance dinâmico que pode ser modificado durante a *gameplay*.
+  - `Set Texture Parameter Value` - Atualiza o valor do parâmetro informado em `Parameter Name`, é do tipo textura.
+  - `Set Scalar Parameter Value` - Atualiza o valor escalar do parâmetro informado em `Parameter Name` com o valor `value`.
+  - `Set Vector Parameter Value` - Atualiza o vetor do parâmetro informado em `Parameter Name` com o valor `value`.
 
 1. No Level Blueprint implemente a lógica para chamar o Evento **MudaCorEvento**.
 
   ![ue4_material_bp_level_blueprint_call_event](imagens/materiais/ue4_material_bp_level_blueprint_call_event.jpg)   
 
-    *Figura: Material Open Level blueprint call event*
+  *Figura: Material Open Level blueprint call event*
 
 <a name="2"></a>
 ## 2. Parameter Global
