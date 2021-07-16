@@ -61,9 +61,9 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 
 ## 11.Personagens
 
-|Classe Agressiva  | Classe Defensiva |Classe de Apoio  |Classe VIP|
-|:-:|:-:|:-:|:-:|
-|**Tenente**  | **Demolidor** | **Sniper** |**VIP**|
+|Classe Agressiva   | Classe Defensiva  |Classe de Apoio  |Classe VIP     |
+|:-:                |:-:                |:-:              |:-:            |
+|**Tenente**        | **Demolidor**     | **Sniper**      |**VIP**        |
 |Saúde : 80 </br> Velocidade: 100 </br> **Habilidades**</br> Armas : Arma Leva M4A1 (munição 30/300) </br>Espingarda (6/30) </br> **Extras** </br>Interage com itens*</br> Facada Granada |Saúde : 100 </br>  Velocidade : 80 </br> Habilidades: </br> Armas :  Arma pesada M60 - munição 100/600)</br>  Arma leve  M4A1 - munição 30/300) com granada (5/10) </br> Extras:</br>  Fornece munição </br> Facada  Granada  | Saúde: 80 </br> Velocidade: 90</br> Habilidades: </br> Armas : Rifle Scout ( munição 10/80)</br> Arma Leva M4A1 (munição 30/300) </br> Extras: Prepara C4</br> Facada Granada |Saúde: 100 </br> Velocidade : 90 </br> Habilidades: </br> Armas: Visualizar mapas e objetivos </br> Extras</br> Fornece kit médico</br> Resucita membros da equipe</br>Localiza itens especiais
 
 
@@ -74,18 +74,18 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 
 ###  11.2. Movimentação Controle
 
-|Controle  | Teclado |Mouse  |Ação|
-|:-|:-|:-|:-|
-|  |  |  ||
-|Direcional Analógico Esquerda |A,S,D,W||Movimentação do personagem
-|Direcional Analógico Direita|  | Movimentação + Click Right |Movimentação câmera (180º)|
-|Analógico Direita pressionado| F | Pressionando Rolagem |Facada|
-|Y  | 1,2 | Rolagem |Troca de armas|
-|X | R |  |Recarregar|
-| B |  |E  |**Defensiva**</br> Munição</br> **Apoio Sniper**</br> Planta C4</br>**Apoio VIP**</br> Kit Médico</br>**Agressiva**</br>Interage com itens|
-| A | X |  |**Apoio VIP**</br> Localizar Itens;</br> Resucitar membros quando perto (comando aparece no centro da tela)|
-|L2 + X  | G+Mouse | Click Right |Granada|
-|L1  |  |Movimentação +Click Left  |Mira|
+|Controle                       | Teclado |Mouse                        |Ação                       |
+|:-                             |:-       |:-                           |:-                         |
+|                               |         |                             |                           |
+|Direcional Analógico Esquerda  |A,S,D,W  |                             |Movimentação do personagem |
+|Direcional Analógico Direita   |         | Movimentação + Click Right  |Movimentação câmera (180º) |
+|Analógico Direita pressionado  | F       | Pressionando Rolagem        |Facada                     |
+|Y                              | 1,2     | Rolagem                     |Troca de armas             |
+|X                              | R       |                             |Recarregar                 |
+|B                              |E        |                             |**Defensiva**</br> Munição</br> **Apoio Sniper**</br> Planta C4</br>**Apoio VIP**</br> Kit Médico</br>**Agressiva**</br>Interage com itens|
+| A                             | X       |                             |**Apoio VIP**</br> Localizar Itens;</br> Resucitar membros quando perto (comando aparece no centro da tela)|
+|L2 + X                         | G+Mouse | Click Right                 |Granada                    |
+|L1                             |         |Movimentação +Click Left     |Mira                       |
 
 ## 10. O Mundo do jogo
 - Florestas tropicais;
