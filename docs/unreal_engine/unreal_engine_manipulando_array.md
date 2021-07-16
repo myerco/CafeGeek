@@ -36,19 +36,25 @@ Vamos aos exemplos.
 
 <a name="1.1"></a>
 ### 1.1 Exemplo de números inteiros  
+
 ```cpp
 a = ( 5,2,7,3,9)  
 ```
+
 <a name="1.2"></a>
 ### 1.2 Exemplo de números Números *float*  
+
 ```cpp
 a = ( 5.1,2.9,7.0,3.121,9.43)  
 ```
+
 <a name="1.3"></a>
 ### 1.3 Exemplo com *String*  
+
 ```cpp
 s = ( "Ana","José","Hugo","Hulda")
 ```
+
 <a name="1.4"></a>
 ### 1.4 Representação
 Podemos representar os arrays da seguinte forma:
@@ -66,12 +72,14 @@ Podemos representar os arrays da seguinte forma:
 Para declarar variáveis do tipo `array` devemos primeiro escolher um tipo de variável primitivo, como por exemplo um tipo `String`, e logo em seguita determinar que será um `array`, vamos aos exemplos.
 
 **Blueprint**    
+
 ![blueprint_array_declare](imagens/array/blueprint_array_declare.jpg)
 
 - `Nomes` - É uma variável array, como o ícone de mini grid informa,do tipo **String**.
 - `Default Value` - Contem a lista de valores contidos inicialmente no `array`.
 
 **C++ Unreal**  
+
 ```cpp
 FString  pessoas[4] = { "Ana","José","Hugo","Hulda"};
 int  pessoas[3] = { 4,3,7};
@@ -86,6 +94,7 @@ Para acessar qualquer elemento dentro `array` é necessários utilizar o índice
 ![blueprint_array_get](imagens/array/blueprint_array_get.jpg)
 
 **C++ Unreal**  
+
 ```cpp
 FString s = pessoa[0];
 UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
@@ -132,6 +141,7 @@ Na lógica abaixo percorremos todo `array` e listamos cada elemento.
 ![blueprint_array_search_string](imagens/array/blueprint_array_search_string.jpg)    
 
 **C++ Unreal**
+
 ```cpp
 int32 Index;
 if (StrArr.Find(TEXT("Hello"), Index))
@@ -139,6 +149,7 @@ if (StrArr.Find(TEXT("Hello"), Index))
     // Index == 3
 }
 ```
+
 <a name="9"></a>
 ## 9. Comando *remove index*
 Remover um elemento do `array` utilizando o índice.      
@@ -154,7 +165,7 @@ Executa uma busca utilizando um parâmetro, **NomeBusca** no exemplo abaixo, e o
 <a name="11"></a>
 ## 11. Limpando o array com *clear*
 Remove todos os elementos do `array`.
-   
+
 ![blueprint_array_clear](imagens/array/blueprint_array_clear.jpg)
 
 <a name="12"></a>
