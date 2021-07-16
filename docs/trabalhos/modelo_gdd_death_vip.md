@@ -251,3 +251,50 @@ Quando captura um membro da equipe ri de forma sinistra;
 - SEAL - Uniformes de SEAL USA
 - Milicianos - Sem uniformes, roupas da região;
 - VIP - Roupa casual, jeans e camiseta;
+
+## Modelos
+
+```cpp
+
+struct sPlayer {
+  float Heath;
+  float Armmor;
+  Char Nome;
+  2Dimage image;
+  Class Text;
+};
+
+struct sItem {
+  Char    Nome;
+  2Dimage image;
+  Type    Text;
+  USound  sound;
+};
+
+class ACharacter CharacterBase{
+  sPlayer infoChar;
+  void    Died();
+  void    Run();
+  void    Crouching();
+  void    Walk();
+}  
+
+class <Blueprint> CharacterBase BP_CharacterPlayer {
+  void    catch();
+  void    changeWeapon();
+  void    Amni();
+  void    Shoot();
+}
+
+class <Blueprint> CharacterBase BP_CharacterBot {
+}
+
+class AActor Item {
+  sItem InfoItem
+}
+
+class <Blueprint> Item BP_Item{
+  void PlaySound();
+}
+
+```
