@@ -254,101 +254,135 @@ Quando captura um membro da equipe ri de forma sinistra;
 
 ## Modelos
 
-```cpp
+<pre>
+|-- Content
+  |-- Teste
+  |   |-- Teste 2
 
 
-
-```
+</pre>
 
 
 ```cpp
 |-- Content
-		|-- ProjetoAula
-			|-- Art
-			|	|-- Industrial
-			|	|	|-- Ambient
-			|	|	|-- Machinery
-			|	|	|-- Pipes
-			|	|-- Nature
-			|	|	|-- Ambient
-			|	|	|	|-- Foliage
-			|	|	|	|-- Rocks
-			|	|	|	|-- Trees
-			|	|-- Office
-			|-- Characters
-			|  |-- Bob
-                    class <Blueprint> BP_PlayerBase Bob{};
-			|  |-- Common
-			|  |  |-- Animations
-                    class <Blueprint> BP_PlayerAnimations {};
-                    class <Blueprint> BP_BotAnimation {};
-			|  |  |-- Audio
+  |-- ProjetoAula
+    |-- Art
+    | |-- Industrial
+    | | |-- Ambient
+    | |	|-- Machinery
+    | |	|-- Pipes
+    | |-- Nature
+    | | | |-- Ambient
+    | | | | |-- Foliage
+    | | | | |-- Rocks
+    | | | | |-- Trees
+    |	|-- Office
+    |-- Characters
+    | |-- lieutenant
+            class <Blueprint> BP_PlayerBase Lieutenant {};
+    | |-- Common
+    | |  |-- Animations
+              class <Blueprint> BP_PlayerAnimations {};
+              class <Blueprint> BP_BotAnimation {};
+    | |  |  |-- Audio
                     class audio voice {};
                     class audio walkstep {};
-			|  |-- Jack
-			|  |-- Steve
-			|  |-- Zoe						
-			|-- Core
-			|	|-- Characters
-                      struct sProfile {
-                        Vector class BP_Item
-                      }
-                      struct sPlayer {
-                        float Heath;
-                        float Armmor;
-                        Name NameCharacter;
-                        Name NamePlayer;
-                        sProfile ListProfile;  
-                        2Dimage image;
-                        Text ClassPlayer;
-                      };
-                      struct sBot {
-                        float Heath;
-                        float Armmor;
-                        Name NameBot;
-                        2Dimage image;
-                        Text ClassBot;
-                      };
-                      class ACharacter CharacterBase{
-                        void Died();
-                        void Run();
-                        void Crouching();
-                        void Walk();
-                        void Talk();
-                      };
-                      class <Blueprint> BP_CharacterBase BP_PlayerBase {
-                        sPlayer PlayerInfo;
-                        void catch();
-                        void changeWeapon();
-                        void Amni();
-                        void Shoot();
-                      };
-                      class <Blueprint> BP_CharacterBase BP_BotBase {
-                        sBot BotInfo;
-                        void Amni();
-                        void Shoot();
-                      };
-                      class <Blueprint> BP_PlayerControllerBase {};
-                      class <Blueprint> BP_BotControllerBase {};
-			|	|-- Engine
-			|	|-- GameModes
-                      class <Blueprint> BP_GameModeBase {}
-			|	|-- Interactables
-                      struct sItem {
-                        Name    NameItem;
-                        2Dimage image;
-                        Type    Text;
-                        USound  sound;
-                      };
-                      class AActor Item {
-                        sItem InfoItem
-                      };
-                      class <Blueprint> Item BP_Item {
-                        void PlaySound();
-                      };  
-			|	|-- Pickups
-			|	|-- Weapons
-			|-- Maps
-			|	|-- Level1
-			|	|-- Level2      
+    | |-- vip
+    | |-- sniper
+    | |-- destructive						
+    |-- Core
+    | |-- Characters
+            struct sInventory {
+              Vector class BP_Item
+            }
+            struct sPlayer {
+              float Health; float MaxHealth;
+              float Armor; float MaxArmor;
+              float Speed; float MaxSpeed;
+              Name NameCharacter;
+              Name NamePlayer;
+              sProfile ListProfile;  
+              2Dimage image;
+              Text ClassPlayer <Aggressive,Defensive,Support>;
+              Text TypePlayer <Lieutenant,Sniper, Vip,destructive>;
+            };
+            struct sBot {
+              float Health; float MaxHealth;
+              float Armor;  float MaxArmor;
+              Name NameBot;
+              2Dimage image;
+              Text ClassBot <Aggressive,Defensive,Support>;
+              Text TypePlayer <Lieutenant,Sniper, Vip,destructive>;
+              Char TypeEnemy  <Boss,Normal>;
+            };
+            class ACharacter CharacterBase{
+              void Died();
+              void Run();
+              void Crouching();
+              void Walk();
+              void Talk();
+            };
+            class BP_CharacterBase BP_PlayerBase {
+              sPlayer PlayerInfo;
+              void catch();
+              void changeWeapon();
+              void Amni();
+              void Shoot();
+            };
+            class BP_CharacterBase BP_BotBase {
+              sBot BotInfo;
+              void Amni();
+              void Shoot();
+            };
+            class APlayerController BP_PlayerControllerBase {};
+            class APPlayerControler BP_BotControllerBase {};
+    |	|-- Engine
+            class AGaneInstance BP_GameInstanceBase interface {
+              void openMenuMain();
+              void openMenuPause();
+            };
+            class AInterface BP_InterfaceMenu {
+                void openMenuMain();
+            }
+
+    |	|-- GameModes
+            class AGameMode BP_GameModeBase {};
+    |	|-- Interactables
+            struct sItem {
+              Name    NameItem;
+              2Dimage image;
+              Text  Type <Weapon, Life, Damage, collectible>;
+              integer Magazine;                 // Max Bullet magazine
+              integer MaxMagazine;              // Numbers of magazine;
+              float Damage;   float MaxDamage;
+              float Life; float MaxLife;
+              USound  sound();
+            };
+            class AActor Item {
+              sItem InfoItem
+            };
+            class Item BP_Item {
+              void PlaySound();
+            };  
+      |	|-- Pickups
+      |	|-- Weapons
+            class Item WeaponBase {
+              sItem
+            };
+            class Item BP_M4A1 {};
+            class Item BP_M4A1 {};
+    |-- Maps
+    |	|-- Level1
+    |	|-- Level2      
+    |-- UI
+    |	|-- HUD    
+            class UserWidget HUD_Player {};
+    |	|-- Menu
+            class UserWidget MenuMain {};
+            class UserWidget MenuLobbySinglePlayer {};            
+            class UserWidget MenuLobbyMultiPlayer {};                        
+            class UserWidget MenuConfig {};            
+            class UserWidget MenuPause {};                        
+            class UserWidget MenuExit {};                                    
+            class LogicMenu {};
 ```
