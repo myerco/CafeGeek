@@ -256,45 +256,99 @@ Quando captura um membro da equipe ri de forma sinistra;
 
 ```cpp
 
-struct sPlayer {
-  float Heath;
-  float Armmor;
-  Char Nome;
-  2Dimage image;
-  Class Text;
-};
 
-struct sItem {
-  Char    Nome;
-  2Dimage image;
-  Type    Text;
-  USound  sound;
-};
 
-class ACharacter CharacterBase{
-  sPlayer infoChar;
-  void    Died();
-  void    Run();
-  void    Crouching();
-  void    Walk();
-}  
+```
 
-class <Blueprint> CharacterBase BP_CharacterPlayer {
-  void    catch();
-  void    changeWeapon();
-  void    Amni();
-  void    Shoot();
-}
 
-class <Blueprint> CharacterBase BP_CharacterBot {
-}
-
-class AActor Item {
-  sItem InfoItem
-}
-
-class <Blueprint> Item BP_Item{
-  void PlaySound();
-}
-
+```cpp
+|-- Content
+		|-- ProjetoAula
+			|-- Art
+			|	|-- Industrial
+			|	|	|-- Ambient
+			|	|	|-- Machinery
+			|	|	|-- Pipes
+			|	|-- Nature
+			|	|	|-- Ambient
+			|	|	|	|-- Foliage
+			|	|	|	|-- Rocks
+			|	|	|	|-- Trees
+			|	|-- Office
+			|-- Characters
+			|  |-- Bob
+                    class <Blueprint> BP_PlayerBase Bob{};
+			|  |-- Common
+			|  |  |-- Animations
+                    class <Blueprint> BP_PlayerAnimations {};
+                    class <Blueprint> BP_BotAnimation {};
+			|  |  |-- Audio
+                    class audio voice {};
+                    class audio walkstep {};
+			|  |-- Jack
+			|  |-- Steve
+			|  |-- Zoe						
+			|-- Core
+			|	|-- Characters
+                      struct sProfile {
+                        Vector class BP_Item
+                      }
+                      struct sPlayer {
+                        float Heath;
+                        float Armmor;
+                        Name NameCharacter;
+                        Name NamePlayer;
+                        sProfile ListProfile;  
+                        2Dimage image;
+                        Text ClassPlayer;
+                      };
+                      struct sBot {
+                        float Heath;
+                        float Armmor;
+                        Name NameBot;
+                        2Dimage image;
+                        Text ClassBot;
+                      };
+                      class ACharacter CharacterBase{
+                        void Died();
+                        void Run();
+                        void Crouching();
+                        void Walk();
+                        void Talk();
+                      };
+                      class <Blueprint> BP_CharacterBase BP_PlayerBase {
+                        sPlayer PlayerInfo;
+                        void catch();
+                        void changeWeapon();
+                        void Amni();
+                        void Shoot();
+                      };
+                      class <Blueprint> BP_CharacterBase BP_BotBase {
+                        sBot BotInfo;
+                        void Amni();
+                        void Shoot();
+                      };
+                      class <Blueprint> BP_PlayerControllerBase {};
+                      class <Blueprint> BP_BotControllerBase {};
+			|	|-- Engine
+			|	|-- GameModes
+                      class <Blueprint> BP_GameModeBase {}
+			|	|-- Interactables
+                      struct sItem {
+                        Name    NameItem;
+                        2Dimage image;
+                        Type    Text;
+                        USound  sound;
+                      };
+                      class AActor Item {
+                        sItem InfoItem
+                      };
+                      class <Blueprint> Item BP_Item {
+                        void PlaySound();
+                      };  
+			|	|-- Pickups
+			|	|-- Weapons
+			|-- Maps
+			|	|-- Level1
+			|	|-- Level2      
 ```
