@@ -9,9 +9,9 @@ tags: [Unreal Engine, Death VIP, roteiro,GDD]
 # DEATH VIP
 “Rescue or die trying”
 
-**All work Copyright ©2018 by CafeGeek**      
-**Written by Nostromo**     
-**Version # 1.00**    
+>All work Copyright ©2018 by CafeGeek
+Written by Nostromo    
+Version # 1.00    
 
 ## 2.Plataforma
 PC
@@ -28,7 +28,6 @@ SEM RESTRIÇÃO
 
 ## 6.Características multiplayer
 Salas de até 16 jogadores
-
 
 ## 7.Resumo da história
 Quando o comandante das milícias descobriu a tentativa de resgate de um alvo considerado por ele de extrema importância, mandou todos os seus soldados fazer de tudo para MATAR O VIP para servir de exemplo.
@@ -252,18 +251,10 @@ Quando captura um membro da equipe ri de forma sinistra;
 - Milicianos - Sem uniformes, roupas da região;
 - VIP - Roupa casual, jeans e camiseta;
 
-## Modelos
 
-<pre>
-|-- Content
-  |-- Teste
-  |   |-- Teste 2
-
-
-</pre>
-
-
+## Estrutura do modelo
 ```cpp
+
 |-- Content
   |-- ProjetoAula
     |-- Art
@@ -279,17 +270,26 @@ Quando captura um membro da equipe ri de forma sinistra;
     |	|-- Office
     |-- Characters
     | |-- lieutenant
-            class <Blueprint> BP_PlayerBase Lieutenant {};
-    | |-- Common
-    | |  |-- Animations
-              class <Blueprint> BP_PlayerAnimations {};
-              class <Blueprint> BP_BotAnimation {};
-    | |  |  |-- Audio
-                    class audio voice {};
-                    class audio walkstep {};
+            class BP_PlayerBase Lieutenant {};
     | |-- vip
     | |-- sniper
     | |-- destructive						
+    | |-- Common
+    | |  |-- Animations
+              class AAnimation BP_PlayerAnimations {};
+              class AAnimation BP_BotAnimation {};
+    | |  |  |-- Audio
+              class audio voice {};
+              class audio walkstep {};
+    |-- Bots                    
+    | |-- bSoldier
+            class BP_BotBase BP_bSoldier {};
+            class ABehaviortreee BHT_bSoldier {};
+    | |-- bDestructive                  
+            class BP_BotBase BP_bDestructive {};
+            class ABehaviortreee BHT_bDestructive {}
+    | |-- bHell                  
+    | |-- bSniper                  
     |-- Core
     | |-- Characters
             struct sInventory {
@@ -337,16 +337,14 @@ Quando captura um membro da equipe ri de forma sinistra;
             class APlayerController BP_PlayerControllerBase {};
             class APPlayerControler BP_BotControllerBase {};
     |	|-- Engine
-            class AGaneInstance BP_GameInstanceBase interface {
+            class UGameInstance BP_GameInstanceBase  {
               void openMenuMain();
               void openMenuPause();
             };
-            class AInterface BP_InterfaceMenu {
-                void openMenuMain();
-            }
-
+            class UInterface UMenuMainInterface {
+            };
     |	|-- GameModes
-            class AGameMode BP_GameModeBase {};
+            class UGameMode BP_GameModeBase {};
     |	|-- Interactables
             struct sItem {
               Name    NameItem;
@@ -356,9 +354,9 @@ Quando captura um membro da equipe ri de forma sinistra;
               integer MaxMagazine;              // Numbers of magazine;
               float Damage;   float MaxDamage;
               float Life; float MaxLife;
-              USound  sound();
+              USound  soundItem;
             };
-            class AActor Item {
+            class UActor Item {
               sItem InfoItem
             };
             class Item BP_Item {
@@ -367,7 +365,7 @@ Quando captura um membro da equipe ri de forma sinistra;
       |	|-- Pickups
       |	|-- Weapons
             class Item WeaponBase {
-              sItem
+              sItem itemInfo;
             };
             class Item BP_M4A1 {};
             class Item BP_M4A1 {};
@@ -376,13 +374,27 @@ Quando captura um membro da equipe ri de forma sinistra;
     |	|-- Level2      
     |-- UI
     |	|-- HUD    
-            class UserWidget HUD_Player {};
+            class UUserWidget HUD_Player {};
     |	|-- Menu
-            class UserWidget MenuMain {};
-            class UserWidget MenuLobbySinglePlayer {};            
-            class UserWidget MenuLobbyMultiPlayer {};                        
-            class UserWidget MenuConfig {};            
-            class UserWidget MenuPause {};                        
-            class UserWidget MenuExit {};                                    
-            class LogicMenu {};
+            class UUserWidget MenuMain {};
+            class UUserWidget MenuLobbySinglePlayer {};            
+            class UUserWidget MenuLobbyMultiPlayer {};                        
+            class UUserWidget MenuConfig {};            
+            class UUserWidget MenuPause {};                        
+            class UUserWidget MenuExit {};
+            class MenuMain IMenuInterface {};                                     
+            class UMenuMainInterface IMenuMainInterface {};
+            class UGameInstance, IMenuMainInterface UProjectGameInstance {};
 ```
+
+
+### Equipe
+
+|Requisito                      | Responsável           | Perfil      |
+|:--                            |:--                    |:--          |
+|Core                           | Equipe 1              | Programação |
+|Art (mesh/material)            | Equipe 2              | Arte        |
+|Character & Animations         | Equipe 3              | Programação |
+|Menus                          | Equipe 1              | Programação |
+|Infraestrutura                 | Equipe 4              | Programação |
+|Músicas e sons                 | Equipe 5              | Áudio e som |
