@@ -60,11 +60,20 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 
 ## 11.Personagens
 
-|Classe Agressiva   | Classe Defensiva  |Classe de Apoio  |Classe VIP     |
-|:-:                |:-:                |:-:              |:-:            |
-|**Tenente**        | **Demolidor**     | **Sniper**      |**VIP**        |
-|Saúde : 80 </br> Velocidade: 100 </br> **Habilidades**</br> Armas : Arma Leva M4A1 (munição 30/300) </br>Espingarda (6/30) </br> **Extras** </br>Interage com itens*</br> Facada Granada |Saúde : 100 </br>  Velocidade : 80 </br> Habilidades: </br> Armas :  Arma pesada M60 - munição 100/600)</br>  Arma leve  M4A1 - munição 30/300) com granada (5/10) </br> Extras:</br>  Fornece munição </br> Facada  Granada  | Saúde: 80 </br> Velocidade: 90</br> Habilidades: </br> Armas : Rifle Scout ( munição 10/80)</br> Arma Leva M4A1 (munição 30/300) </br> Extras: Prepara C4</br> Facada Granada |Saúde: 100 </br> Velocidade : 90 </br> Habilidades: </br> Armas: Visualizar mapas e objetivos </br> Extras</br> Fornece kit médico</br> Resucita membros da equipe</br>Localiza itens especiais
-
+|Class        |Aggressive         | Defensive         |Support          |VIP            |
+|:-           |:-:                |:-:                |:-:              |:-:            |
+|Type         |Lieutenant         |Destructive        |Sniper           |VIP            |
+|**Details**  |                   |                   |                 |               |
+|Health       |80                 |100                |80               |100            |
+|Speed        |100                |80                 |90               |90             |
+|**Skill**    |                   |                   |                 |               |
+|Weapons      |                   |                   |                 |               |
+|             |M4A1               | M60               |Rifle Scout      |Maps           |
+|             |Shotgun            | M4A1              |Pistol 1914      |               |
+|Extras       |                   |                   |                 |               |
+|             |knife              |knife              |knife            |Medical Kit    |
+|             |grenade            | grenade           |grenade          |resurrect and cure friends     |
+|             |interact itens     |provides ammunition|Prepare C4       |find items     |
 
 >Observação:    
 >Interação com itens :
@@ -76,15 +85,15 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 |Controle                       | Teclado |Mouse                        |Ação                       |
 |:-                             |:-       |:-                           |:-                         |
 |                               |         |                             |                           |
-|Direcional Analógico Esquerda  |A,S,D,W  |                             |Movimentação do personagem |
-|Direcional Analógico Direita   |         | Movimentação + Click Right  |Movimentação câmera (180º) |
-|Analógico Direita pressionado  | F       | Pressionando Rolagem        |Facada                     |
-|Y                              | 1,2     | Rolagem                     |Troca de armas             |
+|Direcional Analógico Esquerda  |A,S,D,W  |                             |Character movement |
+|Direcional Analógico Direita   |         | Movimentação + Click Right  |Camera movement (180º) |
+|Analógico Direita pressionado  | F       | Pressionando Rolagem        |knife                      |
+|Y                              | 1,2     | Rolagem                     |Change Weapon              |
 |X                              | R       |                             |Recarregar                 |
-|B                              |E        |                             |**Defensiva**</br> Munição</br> **Apoio Sniper**</br> Planta C4</br>**Apoio VIP**</br> Kit Médico</br>**Agressiva**</br>Interage com itens|
-| A                             | X       |                             |**Apoio VIP**</br> Localizar Itens;</br> Resucitar membros quando perto (comando aparece no centro da tela)|
-|L2 + X                         | G+Mouse | Click Right                 |Granada                    |
-|L1                             |         |Movimentação +Click Left     |Mira                       |
+|B                              |E        |                             |**Defensive**</br> provides ammunition</br> **Sniper**</br> Prepare C4 </br>**VIP**</br>Medical Kit</br>**Aggressive**</br>interact itens|
+| A                             | X       |                             |**VIP**</br> find items</br> resurrect and cure friends  (icon on HUD)|
+|L2 + X                         | G+Mouse | Click Right                 |grenade                    |
+|L1                             |         |Movimentação +Click Left     |Aim                        |
 
 ## 10. O Mundo do jogo
 - Florestas tropicais;
