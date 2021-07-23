@@ -83,15 +83,24 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 ###  11.2. Movimentação Controle
 
 |Controle                       | Teclado |Mouse                        |Ação                       |
-|:-                             |:-       |:-                           |:-                         |
+|:-:                            |:-:      |:-:                          |:-                         |
 |                               |         |                             |                           |
-|Direcional Analógico Esquerda  |A,S,D,W  |                             |Character movement |
-|Direcional Analógico Direita   |         | Movimentação + Click Right  |Camera movement (180º) |
+|Direcional Analógico Esquerda  |A,S,D,W  |                             |Character movement         |
+|Direcional Analógico Direita   |         | Movimentação + Click Right  |Camera movement (180º)     |
 |Analógico Direita pressionado  | F       | Pressionando Rolagem        |knife                      |
 |Y                              | 1,2     | Rolagem                     |Change Weapon              |
 |X                              | R       |                             |Recarregar                 |
-|B                              |E        |                             |**Defensive**</br> provides ammunition</br> **Sniper**</br> Prepare C4 </br>**VIP**</br>Medical Kit</br>**Aggressive**</br>interact itens|
-| A                             | X       |                             |**VIP**</br> find items</br> resurrect and cure friends  (icon on HUD)|
+|B                              |E        |                             |**Defensive**              |
+|                               |         |                             |provides ammunition        |
+|                               |         |                             |**Sniper**                 |
+|                               |         |                             |Prepare C4                 |
+|                               |         |                             |**Aggressive**             |
+|                               |         |                             |interact itens             |
+|                               |         |                             |**VIP**                    |
+|                               |         |                             |Medical Kit                |
+| A                             | X       |                             |**VIP**                    |
+|                               |         |                             |Find items                 |
+|                               |         |                             |resurrect and cure friends |
 |L2 + X                         | G+Mouse | Click Right                 |grenade                    |
 |L1                             |         |Movimentação +Click Left     |Aim                        |
 
@@ -115,97 +124,31 @@ Ao mirar com rifle de precisão o zoom é de 4x e somente é apresentado a lente
 
 ## 13. Inimigos
 
+|Class        |Aggressive         | Shooter           |Boss             |Boss           |Boss       |Boss   |Boss     |Boss       |
+|:-           |:-:                |:-:                |:-:              |:-:            |:-:        |:-:    |:-:      |:-:        |
+|Type         |Soldier            |demolisher         |Sniper           |Hell           |Mercenary  |Armored|Bomba    |Captain    |
+|**Details**  |                   |                   |                 |               |           |       |         |           |
+|Health       |40                 |100                |200              |100            |100        |250    |40       |400        |
+|Speed        |100                |80                 |90               |90             |150        |90     |50       |50         |
+|**Skill**    |                   |                   |                 |               |           |       |         |           |
+|Weapons      |                   |                   |                 |               |           |       |         |           |
+|             |AL 47              | M60               |Rifle Scout      |throw flames   |AK 47      |AK 47+ |RPG      | AK 74     |
+|             |Shotgun            | M4A1              |Pistol 1914      |               |           |       |         |           |  
+|Objective    |                   |                   |                 |               |           |       |         |           |
+|             |Não tem alvo       |Não tem alvo       |Alvo VIP         |Não tem alvo   |Não tem alvo | Alvo VIP      |Não tem alvo| VIP |
+|             |Ataca jogador      |Ataca VIP e prox.  |Foco 2s          |Ataca jogador  |Ataca VIP    | Foco 2s       |Foco 2s|Foco 2s|
 
-
-
-### Soldado - Classe Agressiva
-- Saúde : 40
-- Velocidade: 100
-- Habilidades:
-- Armas :
-    - Arma Leve AK 47
-- Objetivo:        
-    - Não tem alvo principal
-    - Corre na direção do jogador mais próximo e se protege
-
-### Demolidor - Classe Atirador
-- Saúde : 100
-- Velocidade : 80
-- Habilidades:
-    - Armas :
-    - Arma pesada M60 - munição 100/600)
-- Objetivo:
-  - Não tem alvo principal;
-  - ANDA em direção ao VIP atirando em quem entra no caminho
-
-### Sniper - Classe Boss
-- Saúde: 200
-- Velocidade: 90
-- Habilidades:
-- Armas :
-  - Rifle Scout ( munição 10/80)
-- Objetivo:        
-  - Alvo principal é o VIP
-  - Quanto ferido atira em quem o acertou, o foco dura 2s
-
-### Inferno - Classe Agressiva
-- Saúde : 40
-- Velocidade: 100
-- Habilidades:
-  - Armas :
-    - Lança chamas
-- Objetivo:        
-  - Não tem alvo principal
-  - Corre na direção do jogador mais próximo e se protege
-
-### Mercenário - Classe Atirador
-- Saúde : 100
-- Velocidade : 150
-- Habilidades:
-- Armas :
-  - Arma Leve AK 47
-- Objetivo:
-  - Não tem alvo principal;
-  - CORRE em direção ao VIP atirando em quem entra no caminho
-
-### Blindado - Classe Boss
-- Saúde: 250
-- Velocidade : 90
-- Habilidades:
-  - Armas:
-  - Arma leve AK47 com granada
-- Objetivo:        
-  - Alvo principal é o VIP
-  - Quanto ferido atira em quem o acertou, o foco dura 2s
-
-### Bomba - Classe Agressiva
-- Saúde : 40
-- Velocidade: 50
-- Habilidades:
-- Armas :
-  - RPG
-- Objetivo:        
-  - Não tem alvo principal
-  - Corre na direção do jogador mais próximo e se protege
-
-### Capitão - Classe Boss
-- Saúde: 500
-- Velocidade : 50
-- Habilidades:
-  - Armas:
-  - Arma leve AK47 com granada
-- Objetivo:        
-  - Alvo principal é o VIP
-  - Quanto ferido atira em quem o acertou, o foco dura 2s
-  - Sequestra um jogador quando próximo (10m).
 
 ## 14. Armas
-- M4A1
-- M60
-- Granada
-- AK 47
-- Rifle scout
-- Barret .40
+|Weapon       |Bullet for loader  | Max Loader    |
+|:-           |:-:                |:-:            |
+|M4A1         |15                 |40             |
+|M60          |15                 |40             |
+|AK 47        |15                 |30             |
+|Granada      |                   |               |
+|Rifle scout  |10                 |5              |
+|Barret .40   |7                  |2              |
+
 
 ## 15. Músicas e efeitos de som
 - Rock indie (procurar lista sem direitos autorais)
@@ -221,8 +164,8 @@ Ao mirar com rifle de precisão o zoom é de 4x e somente é apresentado a lente
 ## 17. GamePlay
 ### 17.1.    Objetivos
 
-|Objetivo  | Ação |
-|:-|:-|
+|Objetivo               | Ação            |
+|:-                     |:-               |
 | A casa da morte- Casa protegida por todas classes de inimigos - Casa onde eram realizada torturas | Abrir uma porta (2s) - Recolher a peça do rádio 1 (2s) - Procurar item especial, provas do massacre - Recolher o item especial (2s)     |
 |A central de planejamento - Casa protegida por todas as classes- Casa onde estão os mapas e as provas de crimes| Entrar no prédio, arrombar Uma porta (2s) - Entrar na sala de planejamento, Arrombar 2 portas (2s cada uma) - Recolher a peça de rádio 2 (2s) - Procurar itens especiais, relatórios - Recolher o item especial (2s)   |
 | A central de comunicação -Central de comunicações das milícias |Entrar no prédio, arrombar uma porta (2s) - Entrar na sala de planejamento, Arrombar 4 portas (2s cada uma) - Recolher a peça de rádio 3 (2s)- Subir no terraço do prédio para melhorar a comunicação Chamar Resgate (2s)          |
@@ -247,12 +190,12 @@ Ao mirar com rifle de precisão o zoom é de 4x e somente é apresentado a lente
 Não definido.
 
 ### 17.4. Características especiais do Capitão
-O capitão aparece quando os jogadores passam por algumas áreas ou quando um objetivo é alcançado. Ele sempre aparece com 100% de vida;
-Se o capitão ficar perto de um jogador (5 metros) o jogador é sequestrado e enviado para “A prisão”. Essa ação é repetida até o capitão prender todos os membros do time e/ou matar o VIP ;
-O capitão desaparece quando o nível de vida chega em 20%, joga fumaça e some.;
-Quando o resgate é chamado o capitão não desaparece mais;
-Quanto aparece ele grita provocações e xingamentos;
-Quando captura um membro da equipe ri de forma sinistra;
+- O capitão aparece quando os jogadores passam por algumas áreas ou quando um objetivo é alcançado. Ele sempre aparece com 100% de vida;
+- Se o capitão ficar perto de um jogador (5 metros) o jogador é sequestrado e enviado para “A prisão”. Essa ação é repetida até o capitão prender todos os membros do time e/ou matar o VIP ;
+- O capitão desaparece quando o nível de vida chega em 20%, joga fumaça e some.;
+- Quando o resgate é chamado o capitão não desaparece mais;
+- Quanto aparece ele grita provocações e xingamentos;
+- Quando captura um membro da equipe ri de forma sinistra;
 
 ### 17.5. Modelos
 - EAS - Equipe principal com uniformes do exército brasileiro
@@ -407,3 +350,4 @@ Quando captura um membro da equipe ri de forma sinistra;
 |Menus                          | Equipe 1              | Programação |
 |Infraestrutura                 | Equipe 4              | Programação |
 |Músicas e sons                 | Equipe 5              | Áudio e som |
+|Gerencia e comunicação         | Equipe 4              | Gerente     |
