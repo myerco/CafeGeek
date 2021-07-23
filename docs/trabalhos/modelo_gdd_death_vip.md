@@ -82,7 +82,28 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 
 ###  11.2. Movimentação Controle
 
-teste
+|Controle                       | Teclado |Mouse                        |Ação                       |
+|:-:                            |:-:      |:-:                          |:-                         |
+|                               |         |                             |                           |
+|Direcional Analógico Esquerda  |A,S,D,W  |                             |Character movement         |
+|Direcional Analógico Direita   |         | Movimentação + Click Right  |Camera movement (180º)     |
+|Analógico Direita pressionado  | F       | Pressionando Rolagem        |knife                      |
+|Y                              | 1,2     | Rolagem                     |Change Weapon              |
+|X                              | R       |                             |Recarregar                 |
+|B                              |E        |                             |**Defensive**              |
+|                               |         |                             |provides ammunition        |
+|                               |         |                             |**Sniper**                 |
+|                               |         |                             |Prepare C4                 |
+|                               |         |                             |**Aggressive**             |
+|                               |         |                             |interact itens             |
+|                               |         |                             |**VIP**                    |
+|                               |         |                             |Medical Kit                |
+| A                             | X       |                             |**VIP**                    |
+|                               |         |                             |Find items                 |
+|                               |         |                             |resurrect and cure friends |
+|L2 + X                         | G+Mouse | Click Right                 |grenade                    |
+|L1                             |         |Movimentação +Click Left     |Aim                        |
+
 ## 10. O Mundo do jogo
 - Florestas tropicais;
 - Favelas da América latina;
@@ -119,6 +140,7 @@ Ao mirar com rifle de precisão o zoom é de 4x e somente é apresentado a lente
 
 
 ## 14. Armas
+
 |Weapon       |Bullet for loader  | Max Loader    |
 |:-           |:-:                |:-:            |
 |M4A1         |15                 |40             |
@@ -184,145 +206,12 @@ Não definido.
 
 
 ## Estrutura do modelo
-```cpp
-
-|-- Content
-  |-- ProjetoAula
-    |-- Art
-    | |-- Industrial
-    | | |-- Ambient
-    | |	|-- Machinery
-    | |	|-- Pipes
-    | |-- Nature
-    | | | |-- Ambient
-    | | | | |-- Foliage
-    | | | | |-- Rocks
-    | | | | |-- Trees
-    |	|-- Office
-    |-- Characters
-    | |-- lieutenant
-            class BP_PlayerBase Lieutenant {};
-    | |-- vip
-    | |-- sniper
-    | |-- destructive						
-    | |-- Common
-    | |  |-- Animations
-              class AAnimation BP_PlayerAnimations {};
-              class AAnimation BP_BotAnimation {};
-    | |  |  |-- Audio
-              class audio voice {};
-              class audio walkstep {};
-    |-- Bots                    
-    | |-- bSoldier
-            class BP_BotBase BP_bSoldier {};
-            class ABehaviortreee BHT_bSoldier {};
-    | |-- bDestructive                  
-            class BP_BotBase BP_bDestructive {};
-            class ABehaviortreee BHT_bDestructive {}
-    | |-- bHell                  
-    | |-- bSniper                  
-    |-- Core
-    | |-- Characters
-            struct sInventory {
-              Vector class BP_Item
-            }
-            struct sPlayer {
-              float Health; float MaxHealth;
-              float Armor; float MaxArmor;
-              float Speed; float MaxSpeed;
-              Name NameCharacter;
-              Name NamePlayer;
-              sProfile ListProfile;  
-              2Dimage image;
-              Text ClassPlayer <Aggressive,Defensive,Support>;
-              Text TypePlayer <Lieutenant,Sniper, Vip,destructive>;
-            };
-            struct sBot {
-              float Health; float MaxHealth;
-              float Armor;  float MaxArmor;
-              Name NameBot;
-              2Dimage image;
-              Text ClassBot <Aggressive,Defensive,Support>;
-              Text TypePlayer <Lieutenant,Sniper, Vip,destructive>;
-              Char TypeEnemy  <Boss,Normal>;
-            };
-            class ACharacter CharacterBase{
-              void Died();
-              void Run();
-              void Crouching();
-              void Walk();
-              void Talk();
-            };
-            class BP_CharacterBase BP_PlayerBase {
-              sPlayer PlayerInfo;
-              void catch();
-              void changeWeapon();
-              void Amni();
-              void Shoot();
-            };
-            class BP_CharacterBase BP_BotBase {
-              sBot BotInfo;
-              void Amni();
-              void Shoot();
-            };
-            class APlayerController BP_PlayerControllerBase {};
-            class APPlayerControler BP_BotControllerBase {};
-    |	|-- Engine
-            class UGameInstance BP_GameInstanceBase  {
-              void openMenuMain();
-              void openMenuPause();
-            };
-            class UInterface UMenuMainInterface {
-            };
-    |	|-- GameModes
-            class UGameMode BP_GameModeBase {};
-    |	|-- Interactables
-            struct sItem {
-              Name    NameItem;
-              2Dimage image;
-              Text  Type <Weapon, Life, Damage, collectible>;
-              integer Magazine;                 // Max Bullet magazine
-              integer MaxMagazine;              // Numbers of magazine;
-              float Damage;   float MaxDamage;
-              float Life; float MaxLife;
-              USound  soundItem;
-            };
-            class UActor Item {
-              sItem InfoItem
-            };
-            class Item BP_Item {
-              void PlaySound();
-            };  
-      |	|-- Pickups
-      |	|-- Weapons
-            class Item WeaponBase {
-              sItem itemInfo;
-            };
-            class Item BP_M4A1 {};
-            class Item BP_M4A1 {};
-    |-- Maps
-    |	|-- Level1
-    |	|-- Level2      
-    |-- UI
-    |	|-- HUD    
-            class UUserWidget HUD_Player {};
-    |	|-- Menu
-            class UUserWidget MenuMain {};
-            class UUserWidget MenuLobbySinglePlayer {};            
-            class UUserWidget MenuLobbyMultiPlayer {};                        
-            class UUserWidget MenuConfig {};            
-            class UUserWidget MenuPause {};                        
-            class UUserWidget MenuExit {};
-            class MenuMain IMenuInterface {};                                     
-            class UMenuMainInterface IMenuMainInterface {};
-            class UGameInstance, IMenuMainInterface UProjectGameInstance {};
-```
 
 
 ### Equipe
 
 |Requisito                      | Responsável           | Perfil      |
-|:--                            |:--                    |:--          |
+|:-                            |:--                    |:--          |
 |Core                           | Equipe 1              | Programação |
 |Art (mesh/material)            | Equipe 2              | Arte        |
 |Character & Animations         | Equipe 3              | Programação |
