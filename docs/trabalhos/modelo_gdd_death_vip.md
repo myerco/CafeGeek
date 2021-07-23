@@ -256,7 +256,7 @@ class ABehaviortreee BHT_bDestructive {};
       - Characters
 ```cpp      
 struct sInventory {
-  Vector class BP_Item;
+    Vector class BP_Item;
 };
 struct sPlayer {
   float Health; float MaxHealth;
@@ -278,68 +278,68 @@ struct sBot {
   Text TypePlayer <Lieutenant,Sniper, Vip,destructive>;
   Char TypeEnemy  <Boss,Normal>;
 };
-class ACharacter CharacterBase{
-  void Died();
-  void Run();
-  void Crouching();
-  void Walk();
-  void Talk();
+class ACharacterBase : public ACharacter
+{
+    void Died();
+    void Run();
+    void Crouching();
+    void Walk();
+    void Talk();
 };
-class BP_CharacterBase BP_PlayerBase {
+class BP_PlayerBase : public ACharacterBase {
   sPlayer PlayerInfo;
   void catch();
   void changeWeapon();
   void Amni();
   void Shoot();
 };
-class BP_CharacterBase BP_BotBase {
+class BP_BotBase : public ACharacterBase {
   sBot BotInfo;
   void Amni();
   void Shoot();
 };
-class APlayerController BP_PlayerControllerBase {};
-class APPlayerControler BP_BotControllerBase {};
+class BP_PlayerControllerBase : public APlayerController  {};
+class BP_BotControllerBase : public APPlayerControler  {};
 ```
     - Engine
 ```cpp
-class UGameInstance BP_GameInstanceBase  {
+class BP_GameInstanceBase : public UGameInstance  {
   void openMenuMain();
   void openMenuPause();
 };
-class UInterface UMenuMainInterface {
-};
+class UMenuMainInterface : public UInterface {};
 ```
         - GameModes
 ```cpp        
-class UGameMode BP_GameModeBase {};
+class BP_GameModeBase : public UGameMode {};
 ```            
         - Interactables
 ```cpp
 struct sItem {
   Name    NameItem;
-  2Dimage image;
+  2Dimage Image;
   Text  Type <Weapon, Life, Damage, collectible>;
   integer Magazine;                 // Max Bullet magazine
   integer MaxMagazine;              // Numbers of magazine;
   float Damage;   float MaxDamage;
   float Life; float MaxLife;
-  USound  soundItem;
+  USound  SoundItem;
 };
-class UActor Item {
+class Item : public UObject{
   sItem InfoItem;
 };
-class Item BP_Item {
+class BP_Item : public Item {
   void PlaySound();
 };
 ```  
       - Pickups
         - Weapons
 ```cpp        
-class Item WeaponBase {
+class WeaponBase : public Item  {
   sItem itemInfo;
 };
-class Item BP_M4A1 {};
-class Item BP_M4A1 {};
+class BP_M4A1 : public Item {};
+class BP_M4A1 : public Item{};
 ```            
     - Maps
       - Level1
@@ -347,18 +347,18 @@ class Item BP_M4A1 {};
     - UI
       - HUD    
 ```cpp      
-class UUserWidget HUD_Player {};
+class HUD_Player : public SWidget  {};
 ```
       - Menu
 ```cpp      
-            class UUserWidget MenuMain {};
-            class UUserWidget MenuLobbySinglePlayer {};            
-            class UUserWidget MenuLobbyMultiPlayer {};                        
-            class UUserWidget MenuConfig {};            
-            class UUserWidget MenuPause {};                        
-            class UUserWidget MenuExit {};
-            class MenuMain IMenuInterface {};                                     
-            class UMenuMainInterface IMenuMainInterface {};
+            class MenuMain : public SWidget {};
+            class MenuLobbySinglePlayer : public SWidget {};            
+            class MenuLobbyMultiPlayer : public SWidget {};                        
+            class MenuConfig : public SWidget {};            
+            class MenuPause : public SWidget {};                        
+            class MenuExit : public SWidget {};
+            class MenuMain : public IMenuInterface {};                                     
+            class UMenuMainInterface : public IMenuMainInterface {};
             class UGameInstance, IMenuMainInterface UProjectGameInstance {};
 ```
 
