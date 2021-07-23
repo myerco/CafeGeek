@@ -124,19 +124,6 @@ Ao mirar com rifle de precisão o zoom é de 4x e somente é apresentado a lente
 
 ## 13. Inimigos
 
-|Class        |Aggressive         | Shooter           |Boss             |Boss           |Boss         |Boss       |Boss         |Boss       |
-|:-           |:-:                |:-:                |:-:              |:-:            |:-:          |:-:        |:-:          |:-:        |
-|Type         |Soldier            |demolisher         |Sniper           |Hell           |Mercenary    |Armored    |Bomb         |Captain    |
-|**Details**  |                   |                   |                 |               |             |           |             |           |
-|Health       |40                 |100                |200              |100            |100          |250        |40           |400        |
-|Speed        |100                |80                 |90               |90             |150          |90         |50           |50         |
-|**Skill**    |                   |                   |                 |               |             |           |             |           |
-|Weapons      |                   |                   |                 |               |             |           |             |           |
-|             |AL 47              | M60               |Rifle Scout      |throw flames   |AK 47        |AK 47+     |RPG          | AK 74     |
-|             |Shotgun            | M4A1              |Pistol 1914      |               |             |           |             |           |  
-|Objective    |                   |                   |                 |               |             |           |             |           |
-|             |Não tem alvo       |Não tem alvo       |Alvo VIP         |Não tem alvo   |Não tem alvo | Alvo VIP  |Não tem alvo | VIP       |
-|             |Ataca jogador      |Ataca VIP e prox.  |Foco 2s          |Ataca jogador  |Ataca VIP    | Foco 2s   |Foco 2s      |Foco 2s    |
 
 
 ## 14. Armas
