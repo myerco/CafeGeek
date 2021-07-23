@@ -82,7 +82,7 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 
 ###  11.2. Movimentação Controle
 
-
+teste
 ## 10. O Mundo do jogo
 - Florestas tropicais;
 - Favelas da América latina;
