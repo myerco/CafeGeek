@@ -207,57 +207,66 @@ Não definido.
 
 ## Estrutura do modelo
 
-- Content
-    - ProjetoAula
-        - Art
-            - Industrial
-                - Ambient
-                - Machinery
-                - Pipes
-            - Nature
-                - Ambient
-                - Foliage
-                - Rocks
-                - Trees
-            - Office
-        - Characters
-            - Lieutenant
+- `Content` \ `ProjetoAula`
+- `Content` \ `ProjetoAula` \ `Art`         
+- `Content` \ `ProjetoAula` \ `Art` \ `Industrial`        
+- `Content` \ `ProjetoAula` \ `Art` \ `Industrial` \ `Ambient`       
+- `Content` \ `ProjetoAula` \ `Art` \ `Industrial` \ `Machinery`       
+- `Content` \ `ProjetoAula` \ `Art` \ `Industrial` \ `Pipes`       
+- `Content` \ `ProjetoAula` \ `Art` \ `Nature`        
+- `Content` \ `ProjetoAula` \ `Art` \ `Nature` \ `Ambient`       
+- `Content` \ `ProjetoAula` \ `Art` \ `Nature` \ `Foliage`       
+- `Content` \ `ProjetoAula` \ `Art` \ `Nature` \ `Rocks`       
+- `Content` \ `ProjetoAula` \ `Art` \ `Nature` \ `Trees`       
+- `Content` \ `ProjetoAula` \ `Art` \ `Office`        
+- `Content` \ `ProjetoAula` \ `Characters`     
+- `Content` \ `ProjetoAula` \ `Characters` \ `Lieutenant`   
+
 ```cpp
 class BP_PlayerBase Lieutenant {};
 ```
-            - VIP
-            - Sniper
-            - Destructive						
-            - Common
-                - Animations
+
+- `Content` \ `ProjetoAula` \ `Characters` \ `VIP`            
+- `Content` \ `ProjetoAula` \ `Characters` \ `Sniper`            
+- `Content` \ `ProjetoAula` \ `Characters` \ `Destructive`            
+- `Content` \ `ProjetoAula` \ `Characters` \ `Common`            
+- `Content` \ `ProjetoAula` \ `Characters` \ `Common` \ `Animations`
+
 ```cpp                
 class AAnimation BP_PlayerAnimations {};
 class AAnimation BP_BotAnimation {};
-```                      
-                - Audio
+```    
+
+- `Content` \ `ProjetoAula` \ `Characters` \ `Common` \ `Audio`  
+
 ```cpp                
 class audio voice {};
 class audio walkstep {};
 ```
-        - Bots                    
-            - bSoldier
+- `Content` \ `ProjetoAula` \ `Bots`  
+- `Content` \ `ProjetoAula` \ `Bots` \ `bSoldier` \
+
 ```cpp            
 class BP_BotBase BP_bSoldier {};
 class ABehaviortreee BHT_bSoldier {};
-```            
-            - bDestructive                  
+```        
+
+- `Content` \ `ProjetoAula` \ `Bots` \ `bDestructive` \
+
 ```cpp            
 class BP_BotBase BP_bDestructive {};
 class ABehaviortreee BHT_bDestructive {};
-```            
-            - bHell                  
-            - bSniper                  
-    - Core
-      - Characters
+```  
+
+- `Content` \ `ProjetoAula` \ `Bots` \ `bHell` \
+- `Content` \ `ProjetoAula` \ `Bots` \ `bSniper` \
+- `Content` \ `ProjetoAula` \ `Core` \ `Characters`
+
 ```cpp      
 struct sInventory {
     Vector class BP_Item;
 };
+
 struct sPlayer {
   float Health; float MaxHealth;
   float Armor; float MaxArmor;
@@ -269,6 +278,7 @@ struct sPlayer {
   Text ClassPlayer <Aggressive,Defensive,Support>;
   Text TypePlayer <Lieutenant,Sniper, Vip,destructive>;
 };
+
 struct sBot {
   float Health; float MaxHealth;
   float Armor;  float MaxArmor;
@@ -278,6 +288,7 @@ struct sBot {
   Text TypePlayer <Lieutenant,Sniper, Vip,destructive>;
   Char TypeEnemy  <Boss,Normal>;
 };
+
 class ACharacterBase : public ACharacter
 {
     void Died();
@@ -286,6 +297,7 @@ class ACharacterBase : public ACharacter
     void Walk();
     void Talk();
 };
+
 class BP_PlayerBase : public ACharacterBase {
   sPlayer PlayerInfo;
   void catch();
@@ -293,15 +305,18 @@ class BP_PlayerBase : public ACharacterBase {
   void Amni();
   void Shoot();
 };
+
 class BP_BotBase : public ACharacterBase {
   sBot BotInfo;
   void Amni();
   void Shoot();
 };
+
 class BP_PlayerControllerBase : public APlayerController  {};
 class BP_BotControllerBase : public APPlayerControler  {};
 ```
-    - Engine
+- `Content` \ `ProjetoAula` \ `Core` \ `Engine`
+
 ```cpp
 class BP_GameInstanceBase : public UGameInstance  {
   void openMenuMain();
@@ -309,11 +324,15 @@ class BP_GameInstanceBase : public UGameInstance  {
 };
 class UMenuMainInterface : public UInterface {};
 ```
-        - GameModes
+
+- `Content` \ `ProjetoAula` \ `Core` \ `GameModes`
+
 ```cpp        
 class BP_GameModeBase : public UGameMode {};
 ```            
-        - Interactables
+
+- `Content` \ `ProjetoAula` \ `Interactables`
+
 ```cpp
 struct sItem {
   Name    NameItem;
@@ -325,41 +344,51 @@ struct sItem {
   float Life; float MaxLife;
   USound  SoundItem;
 };
+
 class Item : public UObject{
   sItem InfoItem;
 };
+
 class BP_Item : public Item {
   void PlaySound();
 };
+
 ```  
-      - Pickups
-        - Weapons
+
+- `Content` \ `ProjetoAula` \ `Interactables` \ `Pickups`
+- `Content` \ `ProjetoAula` \ `Interactables` \ `Weapons`
+
 ```cpp        
 class WeaponBase : public Item  {
   sItem itemInfo;
 };
+
 class BP_M4A1 : public Item {};
 class BP_M4A1 : public Item{};
-```            
-    - Maps
-      - Level1
-      - Level2      
-    - UI
-      - HUD    
+```       
+
+- `Content` \ `ProjetoAula` \ `Maps`
+- `Content` \ `ProjetoAula` \ `Maps` \ `Level1`
+- `Content` \ `ProjetoAula` \ `Maps` \ `Level2`
+- `Content` \ `ProjetoAula` \ `UI`
+- `Content` \ `ProjetoAula` \ `UI` \ `HUD`
+
 ```cpp      
 class HUD_Player : public SWidget  {};
 ```
-      - Menu
+
+- `Content` \ `ProjetoAula` \ `UI` \ `HUD` \ `Menu`
+
 ```cpp      
-            class MenuMain : public SWidget {};
-            class MenuLobbySinglePlayer : public SWidget {};            
-            class MenuLobbyMultiPlayer : public SWidget {};                        
-            class MenuConfig : public SWidget {};            
-            class MenuPause : public SWidget {};                        
-            class MenuExit : public SWidget {};
-            class MenuMain : public IMenuInterface {};                                     
-            class UMenuMainInterface : public IMenuMainInterface {};
-            class UGameInstance, IMenuMainInterface UProjectGameInstance {};
+class MenuMain : public SWidget {};
+class MenuLobbySinglePlayer : public SWidget {};            
+class MenuLobbyMultiPlayer : public SWidget {};                        
+class MenuConfig : public SWidget {};            
+class MenuPause : public SWidget {};                        
+class MenuExit : public SWidget {};
+class MenuMain : public IMenuInterface {};                                     
+class UMenuMainInterface : public IMenuMainInterface {};
+class UGameInstance, IMenuMainInterface UProjectGameInstance {};
 ```
 
 ### Equipe
