@@ -393,12 +393,12 @@ class UGameInstance, IMenuMainInterface UProjectGameInstance {};
 
 ### Equipe
 
-|Requisito                      | Responsável           | Perfil      |
-|:--                            |:--                    |:--          |
-|Core                           | Equipe 1              | Programação |
-|Art (mesh/material)            | Equipe 2              | Arte        |
-|Character & Animations         | Equipe 3              | Programação |
-|Menus                          | Equipe 1              | Programação |
-|Infraestrutura                 | Equipe 4              | Programação |
-|Músicas e sons                 | Equipe 5              | Áudio e som |
-|Gerencia e comunicação         | <span style="color:blue">Equipe 4</span>              | Gerente     |
+|Requisito                      | Responsável                               | Perfil      |
+|:--                            |:--                                        |:--          |
+|Core                           | <span style="color:red">Equipe 1 </span>  | Programação |
+|Art (mesh/material)            | Equipe 2                                  | Arte        |
+|Character & Animations         | Equipe 3                                  | Programação |
+|Menus                          | <span style="color:red">Equipe 1</span>   | Programação |
+|Infraestrutura                 | <span style="color:blue">Equipe 4</span>  | Programação |
+|Músicas e sons                 | <span style="color:green">Equipe 5</span> | Áudio e som |
+|Gerencia e comunicação         | <span style="color:blue">Equipe 4</span>  | Gerente     |
