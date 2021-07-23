@@ -207,6 +207,10 @@ Não definido.
 
 ## Estrutura do modelo
 
+- Content
+    - ProjetoAula
+        - Art
+
 ```cpp
 |-- Content
   |-- ProjetoAula
