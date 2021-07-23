@@ -401,4 +401,4 @@ class UGameInstance, IMenuMainInterface UProjectGameInstance {};
 |Menus                          | Equipe 1              | Programação |
 |Infraestrutura                 | Equipe 4              | Programação |
 |Músicas e sons                 | Equipe 5              | Áudio e som |
-|Gerencia e comunicação         | Equipe 4              | Gerente     |
+|Gerencia e comunicação         | <span style="color:blue">Equipe 4</span>              | Gerente     |
