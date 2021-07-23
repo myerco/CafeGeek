@@ -82,27 +82,6 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 
 ###  11.2. Movimentação Controle
 
-|Controle                       | Teclado |Mouse                        |Ação                       |
-|:-:                            |:-:      |:-:                          |:-                         |
-|                               |         |                             |                           |
-|Direcional Analógico Esquerda  |A,S,D,W  |                             |Character movement         |
-|Direcional Analógico Direita   |         | Movimentação + Click Right  |Camera movement (180º)     |
-|Analógico Direita pressionado  | F       | Pressionando Rolagem        |knife                      |
-|Y                              | 1,2     | Rolagem                     |Change Weapon              |
-|X                              | R       |                             |Recarregar                 |
-|B                              |E        |                             |**Defensive**              |
-|                               |         |                             |provides ammunition        |
-|                               |         |                             |**Sniper**                 |
-|                               |         |                             |Prepare C4                 |
-|                               |         |                             |**Aggressive**             |
-|                               |         |                             |interact itens             |
-|                               |         |                             |**VIP**                    |
-|                               |         |                             |Medical Kit                |
-| A                             | X       |                             |**VIP**                    |
-|                               |         |                             |Find items                 |
-|                               |         |                             |resurrect and cure friends |
-|L2 + X                         | G+Mouse | Click Right                 |grenade                    |
-|L1                             |         |Movimentação +Click Left     |Aim                        |
 
 ## 10. O Mundo do jogo
 - Florestas tropicais;
@@ -124,6 +103,19 @@ Ao mirar com rifle de precisão o zoom é de 4x e somente é apresentado a lente
 
 ## 13. Inimigos
 
+|Class        |Aggressive         | Shooter           |Boss             |Boss           |Boss         |Boss       |Boss         |Boss       |
+|:-           |:-:                |:-:                |:-:              |:-:            |:-:          |:-:        |:-:          |:-:        |
+|Type         |Soldier            |demolisher         |Sniper           |Hell           |Mercenary    |Armored    |Bomb         |Captain    |
+|**Details**  |                   |                   |                 |               |             |           |             |           |
+|Health       |40                 |100                |200              |100            |100          |250        |40           |400        |
+|Speed        |100                |80                 |90               |90             |150          |90         |50           |50         |
+|**Skill**    |                   |                   |                 |               |             |           |             |           |
+|Weapons      |                   |                   |                 |               |             |           |             |           |
+|             |AL 47              | M60               |Rifle Scout      |throw flames   |AK 47        |AK 47+     |RPG          | AK 74     |
+|             |Shotgun            | M4A1              |Pistol 1914      |               |             |           |             |           |  
+|Objective    |                   |                   |                 |               |             |           |             |           |
+|             |Não tem alvo       |Não tem alvo       |Alvo VIP         |Não tem alvo   |Não tem alvo | Alvo VIP  |Não tem alvo | VIP       |
+|             |Ataca jogador      |Ataca VIP e prox.  |Foco 2s          |Ataca jogador  |Ataca VIP    | Foco 2s   |Foco 2s      |Foco 2s    |
 
 
 ## 14. Armas
