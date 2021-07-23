@@ -210,6 +210,9 @@ Não definido.
 - Content
     - ProjetoAula
         - Art
+    - Characters
+        - lieutenant
+            class BP_PlayerBase Lieutenant {};
 
 ```cpp
 |-- Content
