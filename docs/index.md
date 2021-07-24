@@ -2,6 +2,7 @@
 title: CafeGeek
 description: O CafeGeek é um site educacional com foco em desenvolvimento de jogos digitais e as disciplinas que orbitam este fantástico mundo.
 tags: [Unreal Engine, Game Design, Level Design, Narrativas, Maya]
+layout: home
 ---
 
 <p align="center">
