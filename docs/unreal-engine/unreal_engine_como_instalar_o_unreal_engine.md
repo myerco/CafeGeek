@@ -75,7 +75,8 @@ Logo em seguida escolha uma pasta onde o projeto deverá ser instalado em `Selec
 1. Iniciando um projeto no **Unreal Engine 5**.
   ![Select or create New Project, Games](imagens/projeto/unreal_engine_select_new_project.jpg)
 
-    *Figura: Unreal 5 - Select or create New Project, Games.*    
+    *Figura: Unreal 5 - Select or create New Project, Games.*
+
   ![Tela inicial](imagens/projeto/unreal_engine_home_screen.jpg)
 
     *Figura: Unreal 5 - Tela inicial.*        
@@ -118,7 +119,7 @@ Para recompilar o projeto e recriar os arquivos siga os seguintes passos utiliza
 1. Click com botão direito do mouse no arquivo **ProjetoAula.uproject**.
 1. Escolha a opção `Generate Visual Studio project files`.
 
-  ![Recriando os arquivos do projeto, Generate Visual Studio Project files](imagens/projeto/blueprint_explorer_generate_vs.jpg)   
+    ![Recriando os arquivos do projeto, Generate Visual Studio Project files](imagens/projeto/blueprint_explorer_generate_vs.jpg)   
 
     *Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files*
 
