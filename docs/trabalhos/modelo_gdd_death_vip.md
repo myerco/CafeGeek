@@ -220,7 +220,7 @@ Não definido.
 - `Content` \ `ProjetoAula` \ `Characters` \ `Lieutenant`   
 
 ```cpp
-class BP_PlayerBase Lieutenant {};
+class Lieutenant : public BP_PlayerBase {};
 ```
 
 - `Content` \ `ProjetoAula` \ `Characters` \ `VIP`            
@@ -230,8 +230,8 @@ class BP_PlayerBase Lieutenant {};
 - `Content` \ `ProjetoAula` \ `Characters` \ `Common` \ `Animations`
 
 ```cpp                
-class AAnimation BP_PlayerAnimations {};
-class AAnimation BP_BotAnimation {};
+class BP_PlayerAnimations : public AAnimation {};
+class BP_BotAnimation : public AAnimation {};
 ```    
 
 - `Content` \ `ProjetoAula` \ `Characters` \ `Common` \ `Audio`  
