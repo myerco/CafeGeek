@@ -2,9 +2,8 @@
 title: Introdução ao curso de Desenvolvimento de jogos utilizando Unreal Engine
 description: Introdução ao curso Desenvolvimento de jogos utilizando Unreal Engine
 tags: [Unreal Engine,Rendering,Maya]
-layout: home
+layout: page
 ---
-# Introdução ao curso de Desenvolvimento de jogos utilizando o Unreal Engine
 
 ## Índice
 1. [Desenvolvendo jogos digitais](#1)
