@@ -2,9 +2,9 @@
 title: Organizando pastas e logo do projeto
 description: Como organizar pastas e adicionar um logo no projeto
 tags: [Unreal Engine,Organizando,Blueprint,pastas,folder]
-layout: home
+layout: page
 ---
-# Organizando pastas e logo do projeto  
+
 Neste capitulo vamos organizar o projeto *ProjetoAula* e adicionar um logo para o projeto.
 
 ## Índice
@@ -14,6 +14,8 @@ Neste capitulo vamos organizar o projeto *ProjetoAula* e adicionar um logo para 
 1. [Configurando as imagens do projeto](#4)
 1. [Atividades](#5)
     1. [Configure as pastas de seu projeto](#5.1)
+
+***
 
 <a name="1"></a>
 ## 1. Como criar pastas de trabalho?

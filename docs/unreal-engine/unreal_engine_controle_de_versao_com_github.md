@@ -2,11 +2,9 @@
 title: Controle de versão com GitHub
 description: Neste capítulo vamos instalar o *Git* para versionamento de código e apresentaros comandos básicos.
 tags: [Unreal Engine,Controle de versão,GitHub]
+layout: page
 ---
 
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
-
-# Controle de versão com GitHub
 Neste capítulo vamos instalar o *git* para versionamento de código e apresentar
 os comandos básicos.
 
@@ -21,6 +19,8 @@ os comandos básicos.
     1. [Atualizando o projeto no servidor](#53)
     1. [Atualizando o projeto no cliente](#54)
 1. [Ignorando pastas e arquivos](#6)
+
+***
 
 <a name="1"></a>
 ## 1. Para que server o controle de versão?

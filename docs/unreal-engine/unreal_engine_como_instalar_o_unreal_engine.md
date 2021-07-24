@@ -5,7 +5,6 @@ tags: [Unreal Engine,instalando,install, folder,pastas]
 layout: page
 ---
 
-# Como instalar o Unreal Engine?
 Neste capítulo vamos instalar o **Unreal Engine** e o gerenciador de versões para logo em seguida criar um projeto apresentando a organização de suas pastas.
 
 ## Índice
