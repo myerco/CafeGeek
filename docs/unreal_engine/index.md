@@ -5,13 +5,9 @@ keywords: [Desonvolvimento com Unreal Engine, Jogos com Unreal Engine]
 tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digital]
 ---
 
-[CafeGeek](http://CafeGeek.eti.br)
-
 <p align="center">
 <img align="center" width="100" height="100" src="../imagens/cafegeek_small.png">
 </p>
-
-## Desenvolvimento de jogos utilizando o Unreal Engine
 
 ## Conteúdo do curso
 1. [Introdução](unreal_engine_introducao_desenvolvimento_jogos.html)
