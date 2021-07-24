@@ -29,6 +29,8 @@ Neste capitulo serão apresentados os conceitos de estruturas de *arrays* ou vet
 1. [Atualiza o `array` nome clássicos com dados do `array` de nome](#12)
 1. [Contando elementos dentro de um `array`](#13)
 
+***
+
 <a name="1"></a>
 ## 1. O que são variáveis do tipo array?
 É um conjunto de variáveis do mesmo tipo agrupadas dentro de uma estrutura e acessíveis por um índice.  
