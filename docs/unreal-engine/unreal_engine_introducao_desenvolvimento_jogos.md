@@ -1,5 +1,5 @@
 ---
-title: Introdução 
+title: Introdução
 description: Introdução ao curso Desenvolvimento de jogos utilizando Unreal Engine
 tags: [Unreal Engine,Rendering,Maya]
 layout: page
@@ -13,6 +13,9 @@ layout: page
 
 <a name="1"></a>
 ## 1. Desenvolvendo jogos digitais
+
+![Desenvolvimento de jogos digitais](https://p1.pxfuel.com/preview/25/456/1000/technology-controller-play-video-game-gamepad-console.jpg)
+
 O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como por exemplo:
 - Programação de computadores;
 - Arte 3D e 2D;
@@ -22,12 +25,16 @@ O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como
 
 Na construção da mecânica de um jogo é necessário utilizar uma linguagem de programação para implementar movimento, interação de personagens, inteligência artificial e outros elementos dinâmicos.
 As linguagens de programação vem evoluindo para simplificar as rotinas e comandos assim agilizando o desenvolvimento e permitindo o programador focar no que deve ser feito escondendo alguns detalhes de como é feito.
+
 > Conhecer e entender como é feito é importante para determinar as técnicas utilizadas e ser capaz e aproveitar ou mesmo melhorar os jogos.
 
 Existem aplicações que auxiliam na produção de programas de computador ou jogos digitais, estas ferramentas abstraem a lógica complexa que faz com os objetos sejam apresentados de forma adequada na cena, no caso de jogos digitais. Tais ferramentas são chamadas de *Frameworks* [[1](#r1)]
 
 <a name="1.1"></a>
 ### 1.1 O que é uma Engine e Framework?
+
+![Engine vs Framework](https://res.cloudinary.com/practicaldev/image/fetch/s--VEkXYGHg--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wlvg003uv0ph0i3nvpwo.jpg)
+
 No desenvolvimento de jogos um *Framework* pode ser definido como um conjunto de bibliotecas que auxiliam a programação, sendo que uma *engine* ou motor gráfico é mais completo pois abrange outros aspectos na produção de jogos.[[2](#r2)]
 
 Algumas *Engine*
@@ -46,6 +53,8 @@ A maioria das *engines* seguem um ciclo de execução da lógica de programaçã
 
 <a name="2"></a>
 ## 2. O que é Unreal Engine?
+![Unreal Engine](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg/800px-Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg)
+
 É uma *engine* (motor gráfico) para desenvolvimento de jogos que engloba vários aspectos na sua produção, listamos algumas funcionalidades:
 
 1. Edição e compilação da lógica de programação;
