@@ -7,7 +7,7 @@ layout: page
 
 Neste capitulo serão apresentados os conceitos de estruturas de *arrays* ou vetores e suas funções para manipulação.
 
-<iframe src="https://blueprintue.com/render/anpm5v28/" scrolling="no" allowfullscreen width="200" height="200"></iframe>
+<iframe src="https://blueprintue.com/render/anpm5v28/" scrolling="no" allowfullscreen width=100% height=100%></iframe>
 
 ## Índice
 1. [O que são variáveis do tipo array?](#1)
