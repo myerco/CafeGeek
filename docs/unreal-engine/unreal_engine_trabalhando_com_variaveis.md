@@ -61,13 +61,13 @@ Declarando variáveis informamos ao computador que estamos reservando um espaço
 
 1. Variáveis no Editor de Blueprint.
 
-  ![Blueprint Variables](imagens/variaveis/unreal_engine_variable_details.jpg)
+    ![Blueprint Variables](imagens/variaveis/unreal_engine_variable_details.jpg)
 
     *Figura: Blueprint Variables*
 
 1. As variáveis tem tipos e propriedades que determinam o sua utilização.  
 
-  ![Details ou properiedades das variáveis](imagens/variaveis/unreal_engine_variable_details.jpg)
+    ![Details ou properiedades das variáveis](imagens/variaveis/unreal_engine_variable_details.jpg)
 
     *Figura: Details ou properiedades das variáveis*
 
