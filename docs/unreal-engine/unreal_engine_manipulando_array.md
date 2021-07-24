@@ -1,13 +1,13 @@
 ---
 title: Manipulando Arrays
-description: Como manipular variáveis do tipo Array no Unreal Engine
+description: Neste capitulo serão apresentados os conceitos de estruturas de *arrays* ou vetores e suas funções para manipulação.
 tags: [Unreal Engine,blueprint,array,get,set]
+layout: page
 ---
 
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
-
-# Manipulando Arrays
 Neste capitulo serão apresentados os conceitos de estruturas de *arrays* ou vetores e suas funções para manipulação.
+
+<iframe src="https://blueprintue.com/render/anpm5v28/" scrolling="no" allowfullscreen></iframe>
 
 ## Índice
 1. [O que são variáveis do tipo array?](#1)
