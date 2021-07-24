@@ -12,8 +12,8 @@ layout: home
 ## Desenvolvimento de jogos
 
 - Mecânica
-  - [Desenvolvimento de jogos utilizando Unreal Engine ](unreal_engine/uneal_engine_index.html)    
-  - [Computação Gráfica com Unreal Engine e Autodesk Maya](unreal_engine_computacao_grafica/index.html)   
+  - [Desenvolvimento de jogos utilizando Unreal Engine ](unreal-engine/index.html)    
+  - [Computação Gráfica com Unreal Engine e Autodesk Maya](unreal-engine-computacao-grafica/index.html)   
 - Emoção  
   - [A jogatina das décadas](a_jogatina_das_decadas/index.html)     
   - [Me conta uma história](me_conte_uma_historia/index.html)   
