@@ -11,8 +11,12 @@ header_pages:
 header:
   image: /imagens/cafegeek_small.png
 
-social:
-  youtube_channel: UCdP1V0cZN3TQOoBPBLuyhlQ  
+minima:
+  # generate social links in footer
+  social_links:
+    github: myerco
+    youtube_channel: UCdP1V0cZN3TQOoBPBLuyhlQ
+    youtube_channel_name: CafeGeek
 
 logo: imagens/cafegeek_small.png
 title-img: imagens/cafegeek_small.png
