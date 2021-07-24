@@ -29,5 +29,3 @@ layout: home
 - [A taberna do Pônei Saltitante](a_taberna_ponei_saltitante/index.html)
 - [Segurança com Oracle](#)
 - [Consultas analíticas usando Rank](#)    
-
-[Sobre](about.html)
