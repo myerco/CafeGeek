@@ -220,7 +220,7 @@ Não definido.
 - `Content` \ `ProjetoAula` \ `Characters`     
 - `Content` \ `ProjetoAula` \ `Characters` \ `Lieutenant`   
 
-```cpp
+    ```cpp
 class Lieutenant : public BP_PlayerBase {};
 ```
 
@@ -230,14 +230,14 @@ class Lieutenant : public BP_PlayerBase {};
 - `Content` \ `ProjetoAula` \ `Characters` \ `Common`            
 - `Content` \ `ProjetoAula` \ `Characters` \ `Common` \ `Animations`
 
-```cpp                
+    ```cpp                
 class BP_PlayerAnimations : public AAnimation {};
 class BP_BotAnimation : public AAnimation {};
 ```    
 
 - `Content` \ `ProjetoAula` \ `Characters` \ `Common` \ `Audio`  
 
-```cpp                
+    ```cpp                
 class UVoice : public USoundCLass {};
 class UWalkstep : public USoundCLass {};
 ```
@@ -251,7 +251,7 @@ class  BHT_bSoldier : public ABehaviortreee public {};
 
 - `Content` \ `ProjetoAula` \ `Bots` \ `bDestructive` \
 
-```cpp            
+    ```cpp            
 class BP_BotBase BP_bDestructive {};
 class ABehaviortreee BHT_bDestructive {};
 ```  
@@ -260,12 +260,12 @@ class ABehaviortreee BHT_bDestructive {};
 - `Content` \ `ProjetoAula` \ `Bots` \ `bSniper` \
 - `Content` \ `ProjetoAula` \ `Core` \ `Characters`
 
-```cpp      
-struct FInventory {
+    ```cpp      
+    struct FInventory {
     Vector class BP_Item;
-};
+  };
 
-struct FPlayer {
+  struct FPlayer {
   float Health; float MaxHealth;
   float Armor; float MaxArmor;
   float Speed; float MaxSpeed;
@@ -277,7 +277,7 @@ struct FPlayer {
   FText TypePlayer <Lieutenant,Sniper, Vip,destructive>;
 };
 
-struct sBot {
+  struct sBot {
   float Health; float MaxHealth;
   float Armor;  float MaxArmor;
   Name NameBot;
@@ -287,7 +287,7 @@ struct sBot {
   Char TypeEnemy  <Boss,Normal>;
 };
 
-class ACharacterBase : public ACharacter
+  class ACharacterBase : public ACharacter
 {
     void Died();
     void Run();
@@ -296,7 +296,7 @@ class ACharacterBase : public ACharacter
     void Talk();
 };
 
-class BP_PlayerBase : public ACharacterBase {
+  class BP_PlayerBase : public ACharacterBase {
   FPlayer PlayerInfo;
   void Catch();
   void ChangeWeapon();
@@ -304,18 +304,18 @@ class BP_PlayerBase : public ACharacterBase {
   void Shoot();
 };
 
-class BP_BotBase : public ACharacterBase {
+  class BP_BotBase : public ACharacterBase {
   sBot BotInfo;
   void Amni();
   void Shoot();
 };
 
-class BP_PlayerControllerBase : public APlayerController  {};
-class BP_BotControllerBase : public APPlayerControler  {};
+  class BP_PlayerControllerBase : public APlayerController  {};
+  class BP_BotControllerBase : public APPlayerControler  {};
 ```
 - `Content` \ `ProjetoAula` \ `Core` \ `Engine`
 
-```cpp
+    ```cpp
 class BP_GameInstanceBase : public UGameInstance  {
   void openMenuMain();
   void openMenuPause();

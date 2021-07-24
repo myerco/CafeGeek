@@ -1,11 +1,9 @@
 ---
-title: Modelo de página
+title: Titulo da página
 description: Descrição do elemento.
 tags: [Unreal Engine,estruturas de controle de fluxo]
+layout: page
 ---
-
-# Titulo da Página
-Descrição do Titulo
 
 ## Índice
 1. [Elemento 1](#1)
