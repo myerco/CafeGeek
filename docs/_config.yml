@@ -6,6 +6,10 @@ header_pages:
   - about.md
   - portfolio.md
 
+header:
+  image: /imagens/cafegeek_small.png
+
+
 logo: imagens/cafegeek_small.png
 title-img: imagens/cafegeek_small.png
 tagline: CafeGeek
