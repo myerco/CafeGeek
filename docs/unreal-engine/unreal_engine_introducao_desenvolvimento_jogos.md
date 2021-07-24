@@ -11,6 +11,8 @@ layout: page
 1. [O curso de Desenvolvimento de jogos utilizando Unreal Engine](#3)
 1. [Habilidades que serão aprendidas](#4)
 
+***
+
 <a name="1"></a>
 ## 1. Desenvolvendo jogos digitais
 
