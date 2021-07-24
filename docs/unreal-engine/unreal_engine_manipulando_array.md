@@ -8,7 +8,7 @@ layout: page
 Neste capitulo serão apresentados os conceitos de estruturas de *arrays* ou vetores e suas funções para manipulação.
 
 <div class="container">
-<iframe class="responsive-iframe" src="https://blueprintue.com/render/anpm5v28/" scrolling=50% allowfullscreen></iframe>
+<iframe class="responsive-iframe" src="https://blueprintue.com/render/anpm5v28/" scrolling="yes" allowfullscreen></iframe>
 </div>
 
 [3. FishShot](https://blueprintue.com/blueprint/anpm5v28/)
