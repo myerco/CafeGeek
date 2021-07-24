@@ -89,7 +89,7 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 |Direcional Analógico Direita   |         | Movimentação + Click Right  |Camera movement (180º)     |
 |Analógico Direita pressionado  | F       | Pressionando Rolagem        |knife                      |
 |Y                              | 1,2     | Rolagem                     |Change Weapon              |
-|X                              | R       |                             |Recarregar                 |
+|X                              | R       |                             |Reload                 |
 |B                              |E        |                             |**Defensive**              |
 |                               |         |                             |provides ammunition        |
 |                               |         |                             |**Sniper**                 |
@@ -205,7 +205,7 @@ Não definido.
 - VIP - Roupa casual, jeans e camiseta;
 
 
-## Estrutura do modelo
+## 18. Estrutura do modelo
 
 - `Content` \ `ProjetoAula`
 - `Content` \ `ProjetoAula` \ `Art`         
@@ -240,15 +240,15 @@ class AAnimation BP_BotAnimation {};
 - `Content` \ `ProjetoAula` \ `Characters` \ `Common` \ `Audio`  
 
 ```cpp                
-class audio voice {};
-class audio walkstep {};
+class UVoice : public USoundCLass {};
+class UWalkstep : public USoundCLass {};
 ```
 - `Content` \ `ProjetoAula` \ `Bots`  
 - `Content` \ `ProjetoAula` \ `Bots` \ `bSoldier` \
 
 ```cpp            
-class BP_BotBase BP_bSoldier {};
-class ABehaviortreee BHT_bSoldier {};
+class  BP_bSoldier : public BP_BotBase {};
+class  BHT_bSoldier : public ABehaviortreee public {};
 ```        
 
 - `Content` \ `ProjetoAula` \ `Bots` \ `bDestructive` \
@@ -263,29 +263,29 @@ class ABehaviortreee BHT_bDestructive {};
 - `Content` \ `ProjetoAula` \ `Core` \ `Characters`
 
 ```cpp      
-struct sInventory {
+struct FInventory {
     Vector class BP_Item;
 };
 
-struct sPlayer {
+struct FPlayer {
   float Health; float MaxHealth;
   float Armor; float MaxArmor;
   float Speed; float MaxSpeed;
-  Name NameCharacter;
-  Name NamePlayer;
+  FName NameCharacter;
+  FName NamePlayer;
   sProfile ListProfile;  
-  2Dimage image;
-  Text ClassPlayer <Aggressive,Defensive,Support>;
-  Text TypePlayer <Lieutenant,Sniper, Vip,destructive>;
+  UImage ImagePlayer;
+  FText ClassPlayer <Aggressive,Defensive,Support>;
+  FText TypePlayer <Lieutenant,Sniper, Vip,destructive>;
 };
 
 struct sBot {
   float Health; float MaxHealth;
   float Armor;  float MaxArmor;
   Name NameBot;
-  2Dimage image;
-  Text ClassBot <Aggressive,Defensive,Support>;
-  Text TypePlayer <Lieutenant,Sniper, Vip,destructive>;
+  UImage ImageBot;
+  FText ClassBot <Aggressive,Defensive,Support>;
+  FText TypePlayer <Lieutenant,Sniper, Vip,destructive>;
   Char TypeEnemy  <Boss,Normal>;
 };
 
@@ -299,9 +299,9 @@ class ACharacterBase : public ACharacter
 };
 
 class BP_PlayerBase : public ACharacterBase {
-  sPlayer PlayerInfo;
-  void catch();
-  void changeWeapon();
+  FPlayer PlayerInfo;
+  void Catch();
+  void ChangeWeapon();
   void Amni();
   void Shoot();
 };
@@ -336,8 +336,8 @@ class BP_GameModeBase : public UGameMode {};
 ```cpp
 struct sItem {
   Name    NameItem;
-  2Dimage Image;
-  Text  Type <Weapon, Life, Damage, collectible>;
+  UImage ImageItem;
+  FText  Type <Weapon, Life, Damage, collectible>;
   integer Magazine;                 // Max Bullet magazine
   integer MaxMagazine;              // Numbers of magazine;
   float Damage;   float MaxDamage;
@@ -388,17 +388,17 @@ class MenuPause : public SWidget {};
 class MenuExit : public SWidget {};
 class MenuMain : public IMenuInterface {};                                     
 class UMenuMainInterface : public IMenuMainInterface {};
-class UGameInstance, IMenuMainInterface UProjectGameInstance {};
+class UProjectGameInstance : public UGameInstance, IMenuMainInterface  {};
 ```
 
-### Equipe
+## 19. Equipe
 
 |Requisito                      | Responsável                               | Perfil      |
 |:--                            |:--                                        |:--          |
-|Core                           | <span style="color:red">Equipe 1 </span>  | Programação |
 |Art (mesh/material)            | Equipe 2                                  | Arte        |
+|Músicas e sons                 | <span style="color:green">Equipe 5</span> | Áudio e som |
 |Character & Animations         | Equipe 3                                  | Programação |
 |Menus                          | <span style="color:red">Equipe 1</span>   | Programação |
+|Core                           | <span style="color:red">Equipe 1 </span>  | Programação |
+|Gerenciamento e comunicação    | <span style="color:blue">Equipe 4</span>  | Gerente     |
 |Infraestrutura                 | <span style="color:blue">Equipe 4</span>  | Programação |
-|Músicas e sons                 | <span style="color:green">Equipe 5</span> | Áudio e som |
-|Gerencia e comunicação         | <span style="color:blue">Equipe 4</span>  | Gerente     |
