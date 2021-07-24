@@ -1,6 +1,8 @@
 theme: minima
-author: CafeGeek
-title: null
+title: CafeGeek
+author:
+  name: CafeGeek
+  email: myerco@gmail.com
 logo: imagens/cafegeek_small.png
 title-img: imagens/cafegeek_small.png
 tagline: CafeGeek
