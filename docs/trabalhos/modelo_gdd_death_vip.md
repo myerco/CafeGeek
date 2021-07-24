@@ -238,15 +238,15 @@ class BP_BotAnimation : public AAnimation {};
 - `Content` \ `ProjetoAula` \ `Characters` \ `Common` \ `Audio`  
 
     ```cpp                
-class UVoice : public USoundCLass {};
-class UWalkstep : public USoundCLass {};
-```
+    class UVoice : public USoundCLass {};
+    class UWalkstep : public USoundCLass {};
+    ```
 - `Content` \ `ProjetoAula` \ `Bots`  
 - `Content` \ `ProjetoAula` \ `Bots` \ `bSoldier` \
 
-```cpp            
-class  BP_bSoldier : public BP_BotBase {};
-class  BHT_bSoldier : public ABehaviortreee public {};
+    ```cpp            
+    class  BP_bSoldier : public BP_BotBase {};
+    class  BHT_bSoldier : public ABehaviortreee public {};
 ```        
 
 - `Content` \ `ProjetoAula` \ `Bots` \ `bDestructive` \
@@ -261,7 +261,7 @@ class ABehaviortreee BHT_bDestructive {};
 - `Content` \ `ProjetoAula` \ `Core` \ `Characters`
 
     ```cpp      
-    struct FInventory {
+  struct FInventory {
     Vector class BP_Item;
   };
 
@@ -325,44 +325,42 @@ class UMenuMainInterface : public UInterface {};
 
 - `Content` \ `ProjetoAula` \ `Core` \ `GameModes`
 
-```cpp        
-class BP_GameModeBase : public UGameMode {};
-```            
+    ```cpp        
+    class BP_GameModeBase : public UGameMode {};
+      ```            
 
 - `Content` \ `ProjetoAula` \ `Interactables`
 
-```cpp
-struct sItem {
-  Name    NameItem;
-  UImage ImageItem;
-  FText  Type <Weapon, Life, Damage, collectible>;
-  integer Magazine;                 // Max Bullet magazine
-  integer MaxMagazine;              // Numbers of magazine;
-  float Damage;   float MaxDamage;
-  float Life; float MaxLife;
-  USound  SoundItem;
-};
+    ```cpp
+    struct sItem {
+      Name    NameItem;
+      UImage ImageItem;
+      FText  Type <Weapon, Life, Damage, collectible>;
+      integer Magazine;                 
+      integer MaxMagazine;              
+      float Damage;   float MaxDamage;
+      float Life; float MaxLife;
+      USound  SoundItem;
+    };
 
-class Item : public UObject{
-  sItem InfoItem;
-};
-
-class BP_Item : public Item {
+  class Item : public UObject{
+    sItem InfoItem;
+  };
+  class BP_Item : public Item {
   void PlaySound();
 };
-
 ```  
 
 - `Content` \ `ProjetoAula` \ `Interactables` \ `Pickups`
 - `Content` \ `ProjetoAula` \ `Interactables` \ `Weapons`
 
-```cpp        
-class WeaponBase : public Item  {
-  sItem itemInfo;
-};
+    ```cpp        
+    class WeaponBase : public Item  {
+      sItem itemInfo;
+    };
 
-class BP_M4A1 : public Item {};
-class BP_M4A1 : public Item{};
+    class BP_M4A1 : public Item {};
+    class BP_M4A1 : public Item{};
 ```       
 
 - `Content` \ `ProjetoAula` \ `Maps`
@@ -371,22 +369,22 @@ class BP_M4A1 : public Item{};
 - `Content` \ `ProjetoAula` \ `UI`
 - `Content` \ `ProjetoAula` \ `UI` \ `HUD`
 
-```cpp      
-class HUD_Player : public SWidget  {};
-```
+    ```cpp      
+    class HUD_Player : public SWidget  {};
+    ```
 
 - `Content` \ `ProjetoAula` \ `UI` \ `HUD` \ `Menu`
 
-```cpp      
-class MenuMain : public SWidget {};
-class MenuLobbySinglePlayer : public SWidget {};            
-class MenuLobbyMultiPlayer : public SWidget {};                        
-class MenuConfig : public SWidget {};            
-class MenuPause : public SWidget {};                        
-class MenuExit : public SWidget {};
-class MenuMain : public IMenuInterface {};                                     
-class UMenuMainInterface : public IMenuMainInterface {};
-class UProjectGameInstance : public UGameInstance, IMenuMainInterface  {};
+    ```cpp      
+    class MenuMain : public SWidget {};
+    class MenuLobbySinglePlayer : public SWidget {};            
+    class MenuLobbyMultiPlayer : public SWidget {};                        
+    class MenuConfig : public SWidget {};            
+    class MenuPause : public SWidget {};                        
+    class MenuExit : public SWidget {};
+    class MenuMain : public IMenuInterface {};                                     
+    class UMenuMainInterface : public IMenuMainInterface {};
+    class UProjectGameInstance : public UGameInstance, IMenuMainInterface  {};
 ```
 
 ## 19. Equipe
