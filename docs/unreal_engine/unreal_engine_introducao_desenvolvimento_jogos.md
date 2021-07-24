@@ -2,9 +2,8 @@
 title: Introdução ao curso de Desenvolvimento de jogos utilizando Unreal Engine
 description: Introdução ao curso Desenvolvimento de jogos utilizando Unreal Engine
 tags: [Unreal Engine,Rendering,Maya]
+layout: home
 ---
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
-
 # Introdução ao curso de Desenvolvimento de jogos utilizando o Unreal Engine
 
 ## Índice

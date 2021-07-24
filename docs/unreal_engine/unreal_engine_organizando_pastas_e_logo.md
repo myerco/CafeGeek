@@ -2,10 +2,8 @@
 title: Organizando pastas e logo do projeto
 description: Como organizar pastas e adicionar um logo no projeto
 tags: [Unreal Engine,Organizando,Blueprint,pastas,folder]
+layout: home
 ---
-
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
-
 # Organizando pastas e logo do projeto  
 Neste capitulo vamos organizar o projeto *ProjetoAula* e adicionar um logo para o projeto.
 
@@ -21,7 +19,7 @@ Neste capitulo vamos organizar o projeto *ProjetoAula* e adicionar um logo para 
 ## 1. Como criar pastas de trabalho?
 Em `Content Drawer` utilizando botão direito do mouse clique em `New Folder` e crie as seguintes pastas:   
 
-![unreal_engine_content_drawer](imagens/projeto/unreal_engine_content_drawer.jpg)			
+![Content Drawer](imagens/projeto/unreal_engine_content_drawer.jpg)			
 
 *Figura: Content Drawer*
 
@@ -29,9 +27,9 @@ Em `Content Drawer` utilizando botão direito do mouse clique em `New Folder` e 
 ## 2. Adicionando um *Level* na inicialização do projeto
 Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguintes passos:  
 
-1. Salve o *level* atual na pasta Maps **File > Save Current Level As** com o nome `LevelTest`.
-1. Para configurar a inicialização do projeto utilizando o **LevelTest** utilize o menu **Edit > Project Settings** e depois `Maps & Modes`.   
-	![unreal_engine_maps_modes](imagens/projeto/unreal_engine_maps_modes.jpg)			
+1. Salve o *level* atual na pasta Maps `File` > `Save Current Level As` com o nome `LevelTest`.
+1. Para configurar a inicialização do projeto utilizando o **LevelTest** utilize o menu `Edit` > `Project Settings` e depois `Maps & Modes`.   
+	![Project - Maps & Modes](imagens/projeto/unreal_engine_maps_modes.jpg)			
 
 	*Figura: Project - Maps & Modes*
 

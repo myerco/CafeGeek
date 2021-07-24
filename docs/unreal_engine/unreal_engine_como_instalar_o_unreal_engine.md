@@ -2,9 +2,9 @@
 title: Como instalar o Unreal Engine ?
 description: Neste capítulo vamos instalar o **Unreal Engine** e o gerenciador de versões para logo em seguida criar um projeto apresentando a organização de suas pastas.
 tags: [Unreal Engine,instalando,install, folder,pastas]
+layout: home
 ---
 
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
 # Como instalar o Unreal Engine?
 Neste capítulo vamos instalar o **Unreal Engine** e o gerenciador de versões para logo em seguida criar um projeto apresentando a organização de suas pastas.
 
@@ -27,7 +27,7 @@ Para instalar o **Unreal Engine** devemos instalar o **Epic Games Laucnher**, re
 - Instalação e atualização das versões do **Unreal Engine**;
 - Navegação da loja de produtos;
 
-![unreal_engine_control_version](imagens/projeto/unreal_engine_control_version.jpg)   
+![Gerenciamento de versões](imagens/projeto/unreal_engine_control_version.jpg)   
 
 *Figura: Gerenciamento de versões*
 
@@ -59,24 +59,24 @@ Neste passo vamos criar um projeto utilizando **C++** como linguagem de desenvol
 
     *Figura: Unreal 4 - Select or create New Project, Games*        
 1. Escolha o `template blank` para o projeto.  `Templates` são modelos com elementos disponíveis para o tipo de jogo escolhido.
-  ![blueprint_ue_select_template](imagens/projeto/blueprint_ue_select_template.jpg)     
+  ![Select Template blank](imagens/projeto/blueprint_ue_select_template.jpg)     
 
     *Figura: Select Template blank*
 1. Em configuração de projeto escolha **C++** e `No Starter Content`, este opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário.    
 Logo em seguida escolha uma pasta onde o projeto deverá ser instalado em `Select a Location for project to be stored`.       
-  ![blueprint_ue_project_settings](imagens/projeto/blueprint_ue_project_settings.jpg)
+  ![Unreal engine project Settings](imagens/projeto/blueprint_ue_project_settings.jpg)
 
     *Figura: Unreal engine project Settings*
 1. Se deu certo a tela inicial deve aparecer.  
-  ![blueprint_ue_tela_inicial](imagens/projeto/blueprint_ue_tela_inicial.jpg)
+  ![Unreal Engine tela inicial](imagens/projeto/blueprint_ue_tela_inicial.jpg)
 
     *Figura: Unreal Engine tela inicial*
 
 1. Iniciando um projeto no **Unreal Engine 5**.
-  ![unreal_engine_select_new_project](imagens/projeto/unreal_engine_select_new_project.jpg)
+  ![Select or create New Project, Games](imagens/projeto/unreal_engine_select_new_project.jpg)
 
     *Figura: Unreal 5 - Select or create New Project, Games.*    
-  ![unreal_engine_home_screen](imagens/projeto/unreal_engine_home_screen.jpg)
+  ![Tela inicial](imagens/projeto/unreal_engine_home_screen.jpg)
 
     *Figura: Unreal 5 - Tela inicial.*        
 
@@ -118,7 +118,7 @@ Para recompilar o projeto e recriar os arquivos siga os seguintes passos utiliza
 1. Click com botão direito do mouse no arquivo **ProjetoAula.uproject**.
 1. Escolha a opção `Generate Visual Studio project files`.
 
-  ![blueprint_explorer_generate_vs](imagens/projeto/blueprint_explorer_generate_vs.jpg)   
+  ![Recriando os arquivos do projeto, Generate Visual Studio Project files](imagens/projeto/blueprint_explorer_generate_vs.jpg)   
 
     *Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files*
 
@@ -128,9 +128,9 @@ Para recompilar o projeto e recriar os arquivos siga os seguintes passos utiliza
 ## 5. Configurando o editor de código
 Você tem que escolher qual editor de código **C++** utilizar usando :
 
-**Menu > Editor Preferences > General** em `Source Code` escolha `Visualstudio`.   
+`Menu` > `Editor Preferences` > `General` em `Source Code` escolha `Visualstudio`.   
 
-![unreal_engine_editor_codigo](imagens/projeto/unreal_engine_editor_codigo.jpg)   
+![Source Code, Definindo o editor de código](imagens/projeto/unreal_engine_editor_codigo.jpg)   
 
 *Figura: General - Source Code, Definindo o editor de código*
 

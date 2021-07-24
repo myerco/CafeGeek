@@ -6,7 +6,7 @@ tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digi
 ---
 
 <p align="center">
-<img align="center" width="100" height="100" src="../imagens/cafegeek_small.png">
+<img align="center" width="100" height="100" src="../imagens/cafegeek_small.png" alt="Logo cafegeek_small">
 </p>
 
 ## Conteúdo do curso
