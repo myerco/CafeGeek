@@ -2,10 +2,9 @@
 title: Trabalhando com variáveis
 description: Trabalhando com variáveis e seus métodos com Blueprint
 tags: [Unreal Engine,Blueprint,variáveis, variable]
+layout: page
 ---
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
 
-# Trabalhando com variáveis
 Neste capítulo serão descritas as estruturas de armazenamento em memória e a sua manipulação.
 
 ## Índice
@@ -19,6 +18,8 @@ Neste capítulo serão descritas as estruturas de armazenamento em memória e a 
 1. [Boolean](#7)
 1. [Variável Pública e Privada](#8)
 
+***
+
 <a name="1"></a>
 ## 1. O que são variáveis?
 Variáveis são propriedades que contêm um valor ou fazem referência a um objeto ou ator no mundo. Essas propriedades podem ser acessíveis internamente ao **Blueprint** que as contém, ou podem ser tornadas acessíveis externamente para que seus valores possam ser modificados por designers que trabalham com instâncias do **Blueprint** colocadas em um nível.
@@ -27,43 +28,46 @@ Variáveis são propriedades que contêm um valor ou fazem referência a um obje
 ## 2. Tipos de Variáveis
 Para armazenar qualquer informação na memória devemos definir um tipo de dados primitivo ou mesmo uma estrutura de dados, a seguir alguns tipos de dados:
 
-**Boolean**  
-Armazena valores falso ou verdadeiro (true e false).
-```cpp
+1.  `Boolean` - Armazena valores falso ou verdadeiro (true e false).
+
+    ```cpp
   bool VariavelBoolean;
   VariavelBoolean = true;
-```
-**Integer**   
-Valores inteiros entre −2.147.483.648 e 2.147.483.647
-```cpp
+  ```
+
+1. `Integer` - Valores inteiros entre −2.147.483.648 e 2.147.483.647
+
+    ```cpp
   int VariavelInt;
   VariavelInt = 1;
-```
-**Float**   
-Valores com casas decimais tal como 0,0553, 101,2887 e -78,322 .
-```cpp
-  float VariavelFloat;
-  VariavelFloat = 2.4;
-```
-**String**   
-Grupo de caracteres alfanuméricos.
-```cpp
+  ```
+1. `Float` - Valores com casas decimais tal como 0,0553, 101,2887 e -78,322 .
+
+    ```cpp
+    float VariavelFloat;
+    VariavelFloat = 2.4;
+    ```
+
+1. `String`- Grupo de caracteres alfanuméricos.
+
+    ```cpp
   FString VariavelString ;
   VariavelString = "Alo mundo!!";
-```
+    ```
+
 <a name="3"></a>
 ## 3. Declarando variáveis   
 Declarando variáveis informamos ao computador que estamos reservando um espaço de memória temporário.  
 
 1. Variáveis no Editor de Blueprint.
 
-  ![unreal_engine_variable_details](imagens/variaveis/unreal_engine_variable_details.jpg)
+  ![Blueprint Variables](imagens/variaveis/unreal_engine_variable_details.jpg)
 
     *Figura: Blueprint Variables*
 
 1. As variáveis tem tipos e propriedades que determinam o sua utilização.  
 
-  ![unreal_engine_variable_details](imagens/variaveis/unreal_engine_variable_details.jpg)
+  ![Details ou properiedades das variáveis](imagens/variaveis/unreal_engine_variable_details.jpg)
 
     *Figura: Details ou properiedades das variáveis*
 
@@ -88,10 +92,10 @@ Para acessar as variáveis utilizamos os métodos `Get` e `Set`.
 ## 5. String, Name e Text
 O armazenamento de caracteres alfanuméricos, `string`, apresetam diversas estruturas para melhor utilização e armazenamento.
 
-| Variável          |Tamanho    | Considerações              |
-|:-:                |-          |-              |
+| Variável          |Tamanho    | Considerações               |
+|:-:                |-          |-                            |
 | `Text`            | 40 Bytes  | Podemos adicionar opções avançadas como exemplo `String Table`, ideal para textos longos que podem variar conforme a lingua definida pelo jogador.  |
-| `String`          | 16 Bytes | Armazenamento e consumo de memória mediano |
+| `String`          | 16 Bytes  | Armazenamento e consumo de memória mediano |
 | `Name`            | 8 Bytes   |  Cadeias de caracteres  curtas que ocupam pouca memória.|
 
 <a name="5.1"></a>
@@ -139,16 +143,13 @@ No exemplo acima se o valor de `life` for maior que 50 então o valor é atualiz
 ## 8. Variável Pública e Privada
 Como especificar quais variáveis de um objeto um usuário pode acessar e quais estão fora dos limites? - usando os especificadores de controle de acesso público e privado.
 
-**Privada**  
-Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada de **Blueprints** externos.  
+`Privada` - Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada de **Blueprints** externos.  
 
 ![unreal_engine_variable_private_details](imagens/variaveis/unreal_engine_variable_private_details.jpg)
 
 *Figura: Private details*
 
-**Pública**  
-Para permitir que uma variável seja modificada de fora de seu
- **Blueprint**, torne-a pública.  
+`Pública` - Para permitir que uma variável seja modificada de fora de seu  **Blueprint**, torne-a pública.  
 
 ![unreal_engine_variable_public](imagens/variaveis/unreal_engine_variable_public.jpg)
 
@@ -157,7 +158,6 @@ Para permitir que uma variável seja modificada de fora de seu
 ![unreal_engine_variable_public_details](imagens/variaveis/unreal_engine_variable_public_details.jpg)
 
 *Figura: Public details*
-
 
 
 ***
