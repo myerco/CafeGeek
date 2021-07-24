@@ -3,12 +3,15 @@ title: Desenvolvimento de jogos utilizando Unreal Engine
 description: Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando **Blueprints** e **C++**, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer.  
 keywords: [Desonvolvimento com Unreal Engine, Jogos com Unreal Engine]
 tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digital]
+layout: page
 ---
 {% include breadcrumbs.html %}
 
 <p align="center">
 <img align="center" width="100" height="100" src="../imagens/cafegeek_small.png" alt="Logo cafegeek_small">
 </p>
+
+# Desenvolvimento de jogos utilizando Unreal Engine
 
 ## Conteúdo do curso
 1. [Introdução](unreal_engine_introducao_desenvolvimento_jogos.html)
