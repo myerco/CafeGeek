@@ -2,6 +2,10 @@ theme: minima
 title: null
 author: CafeGeek
 
+header_pages:
+  - about.md
+  - portfolio.md
+
 logo: imagens/cafegeek_small.png
 title-img: imagens/cafegeek_small.png
 tagline: CafeGeek
