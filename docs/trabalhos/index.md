@@ -3,9 +3,8 @@ title: Trabalhos de jogos digitais
 description: Trabalhos acadêmicos de jogos digitais
 tags: ["Unreal Engine","trabalhos","jogos digitais"]
 author: CafeGeek
+layout: page
 ---
-
-[CafeGeek](http://cafegeek.eti.br)
 
 # Trabalhos de jogos digitais
 Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de Jogos Digitais.
@@ -19,6 +18,8 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
     1. [Firescape](#2.4)
 1. [Projetos](#3)
 1. [Portfólios](#4)
+
+***
 
 <a name="1"></a>
 ## 1. Roteiros

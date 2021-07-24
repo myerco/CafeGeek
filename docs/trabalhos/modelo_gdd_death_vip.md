@@ -2,6 +2,7 @@
 title: Death VIP
 description: Modelo de GDD do jogo Death VIP
 tags: [Unreal Engine, Death VIP, roteiro,GDD]
+layout: page
 ---
 
 “Rescue or die trying”
