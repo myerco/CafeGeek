@@ -78,9 +78,9 @@ Logo em seguida escolha uma pasta onde o projeto deverá ser instalado em `Selec
 
     *Figura: Unreal 5 - Select or create New Project, Games.*
 
-  ![Tela inicial](imagens/projeto/unreal_engine_home_screen.jpg)
+    ![Tela inicial](imagens/projeto/unreal_engine_home_screen.jpg)
 
-    *Figura: Unreal 5 - Tela inicial.*        
+      *Figura: Unreal 5 - Tela inicial.*        
 
 <a name="3"></a>
 ## 3. Verificando as pastas criadas

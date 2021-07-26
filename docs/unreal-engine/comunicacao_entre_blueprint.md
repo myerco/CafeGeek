@@ -1,12 +1,9 @@
 ---
 title: Comunicação entre Blueprint
-description: A comunicação entre Blueprint é importante para construir um meio para que objetos individuais separados interagirem uns com os outros. 
+description: A comunicação entre Blueprint é importante para construir um meio para que objetos individuais separados interagirem uns com os outros.
 tags: [Unreal Engine,blueprint,comunicação,blueprint interfaces]
 ---
 
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
-
-# Comunicação entre Blueprint
 Neste capítulo será apresentadas técnicas de programação para comunicação entre Blueprints.
 
 ## Índice
@@ -30,6 +27,8 @@ Neste capítulo será apresentadas técnicas de programação para comunicação
     1. [Lógica dos objetos que vão interagir com o personagem](#7.2)
     1. [Vídeo](#7.3)               
 
+***
+
 <a name="1"></a>
 ## 1. Como facilitar a comunicação entre objetos Blueprint?
 Construindo um meio para que objetos individuais separados interagirem uns com os outros.  
@@ -45,11 +44,12 @@ Construindo um meio para que objetos individuais separados interagirem uns com o
 <a name="2"></a>  
 ## 2. Estrutura da comunicação entre Blueprints
 ![blueprint_comunicacao_entre_atores](imagens/comunicacao/blueprint_comunicacao_entre_atores.jpg)
+
 *Figura: Comunicação entre Blueprints - Autor*
 
 A comunicação envolverá o seguinte:
 - Um projeto de envio, um remetente de informações (Emissor).
-- Pelo menos um **Receiving Blueprint** para receber as informações (Receptor).
+- Pelo menos um `Receiving Blueprint` para receber as informações (Receptor).
 - A comunicação exigirá uma referência em algum ponto.    
   Em outras palavras, uma das partes, o remetente ou o receptor,  deve tomar conhecimento da outra, isso ocorre porque, como afirmado acima, não existe um sistema de comunicação de amplo espectro.
 - Toda a comunicação do **Blueprint** é unilateral.
@@ -59,20 +59,20 @@ A comunicação envolverá o seguinte:
 <a name="3"></a>
 ## 3. Preparando o ambiente de testes
 Vamos criar um ator com os seguintes parâmetros para que funcione como controlador de objetos.
-1. Crie um **Blueprint Actor** com nome *ControleLuz*.
-1. Adicione e configure um **Static Mesh**.
-1. Adicione e configure um **Box Colision**.
-1. Implemente a função *LampadaVisible* para desligar e ligar a iluminação os objetos **Light Point** passados como parâmetro.    
+1. Crie um `Blueprint Actor` com nome *ControleLuz*.
+1. Adicione e configure um `Static Mesh`.
+1. Adicione e configure um `Box Colision`.
+1. Implemente a função *LampadaVisible* para desligar e ligar a iluminação os objetos `Light Point` passados como parâmetro.    
   ![blueprint_light_off_on](imagens/comunicacao/blueprint_light_off_on.jpg)    
-1. Adicione a variável *Lampada* do tipo **Point Light** e configure **Instance Editable** para *true*.         
+1. Adicione a variável *Lampada* do tipo `Point Light` e configure `Instance Editable` para `true`.         
   ![blueprint_light_component](imagens/comunicacao/blueprint_light_component.jpg)      
-1. Adicione dois objetos **Light Point** na cena.
-1. Em um dos objetos de iluminação adicione a **tag** *lampada*.
+1. Adicione dois objetos `Light Point` na cena.
+1. Em um dos objetos de iluminação adicione a `tag` *lampada*.
 1. Associe um objeto na cena com a propriedade *Lampada* do *ControleLuz*.
 
 <a name="4"></a>
 ## 4. Comunicação utilizando Acesso direto
-Nesta passo iremos acessar diretamente o objeto e suas propriedades, usando o evento **OnBeginOverLap** para alterar o estado da lâmpada de ligado para desligado pois o mesmo é passado como parâmetro.  
+Nesta passo iremos acessar diretamente o objeto e suas propriedades, usando o evento `OnBeginOverLap` para alterar o estado da lâmpada de ligado para desligado pois o mesmo é passado como parâmetro.  
 
 <a name="4.1"></a>
 ### 4.1 Chamando a função LampadaVisible
@@ -95,9 +95,9 @@ Quando qualquer objeto colidir com o *ControleLuz* a lâmpada ira desligar ou li
 ```cpp
 AStaticMeshActor* StaticMesh = Cast<AStaticMeshActor>(SM);
 ```
-O comando acima inicializa o objeto *StaticMesh* do tipo *AStaticMeshActor*.
+O comando acima inicializa o objeto `StaticMesh` do tipo `AStaticMeshActor`.
 
-Para este passo usaremos o evento **OnEndOverlap** para ler todos os objetos que tem a **tag** *lampada* da cena e carregar em um *array* de objetos. Para cada objeto será executado o comando **CAST** informando o **type** para ter acesso a todas a funcionalidades do objeto.
+Para este passo usaremos o evento `OnEndOverlap` para ler todos os objetos que tem a `tag` *lampada* da cena e carregar em um *array* de objetos. Para cada objeto será executado o comando `CAST` informando o `type` para ter acesso a todas a funcionalidades do objeto.
 
 <a name="5.1"></a>
 ### 5.1 CAST do objeto PointLight

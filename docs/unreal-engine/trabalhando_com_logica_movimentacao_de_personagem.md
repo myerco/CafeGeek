@@ -4,8 +4,6 @@ description: Trabalhando com a lógica de movimentação do personagem utilizand
 tags: [Unreal Engine,eventos,events,funções,functions,macro]
 ---
 
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
-# Trabalhando com a lógica de movimentação do personagem
 Neste capítulo vamos implementar apresentar a lógica de movimentação de atores com **Blueprint** e aplicar em um jogo de plataforma.
 
 ## Índice
@@ -38,6 +36,8 @@ Neste capítulo vamos implementar apresentar a lógica de movimentação de ator
      1. [Inicializando variáveis](#61)
      1. [Evento Tick](#62)
 1. [Movimentação de um personagem Character](#7)     
+
+***
 
 <a name="1"></a>
 ## 1. Como o Unreal Engine vincula as ações a lógica de eventos?
@@ -165,20 +165,20 @@ Lógica para aumentar a velocidade de corrida e força de impulso do personagem 
 A movimentação tem que ser interpolada, quer dizer que as coordenadas tem que ser atualizadas a cada passo.  
 Exemplos de coordenadas:  
 
-|| X |Y  |Z  |
-|:-:|:-:|:-:|:-:|
-|Início|1  | 1 | 1 |
-|| 1 | **2** | 1 |
-|| 1 | **3** | 1 |
-|| 1 | **4** | 1|
-|Fim| 1 | 5  | 1 |  
+|       | X     |Y      |Z  |
+|:-:    |:-:    |:-:    |:-:|
+|Início |1      | 1     | 1 |
+|       | 1     | **2** | 1 |
+|       | 1     | **3** | 1 |
+|       | 1     | **4** | 1 |
+|Fim    | 1     | 5     | 1 |  
 
 - Destino : 1,5.1
 - Origem : 1,1,1
 
 <a name="44"></a>
 ### 4.4 Lógica usando Level Blueprint
-Utilizando o **Level Blueprint** vamos implementar a lógica de movimentação usando **TimeLine**.
+Utilizando o `Level Blueprint` vamos implementar a lógica de movimentação usando `TimeLine`.
 ![blueprint_plataform_setactorlocarion_lerp_timeline](imagens/actor/blueprint_plataform_setactorlocarion_lerp_timeline.jpg)
 - Determinar o destino da movimentação.
 - Implementar a lógica de movimentação usando *timeline*.
@@ -204,12 +204,14 @@ Pode ser construída outra plataforma para acionar o evento, Plataforma de gatil
 Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e destino.
 <a name="51"></a>
 ### 5.1 Variáveis
+
 ![blueprint_plataform_properties](imagens/movimentacao/blueprint_plataform_properties.jpg)
-- **TargetLocation** - Coordenadas do destino com Widget ativo.
-- **GlobalStartLocation** - Coordenadas globais iniciais do ator.
-- **GlobalTargetLocation** - Coordenadas globais iniciais do destino.
-- **Location/Swap** - Variáveis auxiliares.
-- **Direction** - Vetor auxiliar que determina a direção do objeto.
+
+- `TargetLocation` - Coordenadas do destino com Widget ativo.
+- `GlobalStartLocation` - Coordenadas globais iniciais do ator.
+- `Location/Swap` - Variáveis auxiliares.
+- `GlobalTargetLocation` - Coordenadas globais iniciais do destino.
+- `Direction` - Vetor auxiliar que determina a direção do objeto.
 
 <a name="52"></a>
 ### 5.2 Inicializando variáveis
