@@ -17,6 +17,14 @@ e suas forma de animação e programação.
 1. [Animação - Animation Blend Space 1D](#5)
 1. [Animação - Blueprint](#6)
 1. [A Classe do personagem](#7)
+1. [Animations tools](#8)
+1. [Full Body](#9)
+1. [Control Rig](#10)
+1. [Motion Warping](#11)
+1. [Animações](#12)
+    1. [Animação com rifles](#12.1)
+    1. [Animação com espadas](#12.2)
+    1. [Animação livre](#12.3)
 
 ***
 
