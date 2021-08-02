@@ -10,7 +10,7 @@ animações, como por exemplo, importando arquivos FBX, malhas e esqueletos
 e suas forma de animação e programação.
 
 ## Índice
-1. [Preparando o projeto](#1)
+1. [Preparando o projeto](#1-preparando-o-projeto)
 1. [Estruturas básicas](#2)
 1. [Baixando o personagem](#3)
 1. [Importando o personagem](#4)
@@ -29,7 +29,7 @@ e suas forma de animação e programação.
 ***
 
 <a name="1"></a>
-## 1 - Preparando o projeto
+## 1. Preparando o projeto
 Em este passo iremos preparar as pastas, configuração inicial do projeto e *Character* do
 jogador.
 
