@@ -2,11 +2,9 @@
 title: Estruturando a lógica utilizando Eventos, funções e macros
 description: Os eventos são nós chamados a partir do código do jogo para iniciar a execução de uma rede individual dentro do *EventGraph*. Eles permitem que os Blueprints executem uma série de ações em resposta a certos eventos que ocorrem dentro do jogo, como quando o jogo começa, quando um nível é reiniciado ou quando um jogador sofre dano.
 tags: [Unreal Engine,eventos,events,funções,functions,macro]
+layout: page
 ---
 
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
-
-# Estruturando a lógica utilizando Eventos, funções e macros
 Neste capitulo serão apresentado como estruturar a lógica de programação utilizando métodos, funções e macros
 
 ## Índice

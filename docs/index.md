@@ -22,7 +22,7 @@ layout: home
 - Produção
   - [Trabalhos](trabalhos/index.html)
 
-## Programação em linguagem C++
+## Programação em C++
 - [Estrutura da linguagem](cpp/index.html)  
 
 ## Banco de Dados

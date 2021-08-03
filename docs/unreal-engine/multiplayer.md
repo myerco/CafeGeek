@@ -2,11 +2,8 @@
 title: Multiplayer
 description: Implementando um jogo multiplayer com Unreal Engine
 tags: [Unreal Engine, Multiplayer]
+layout: page
 ---
-
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
-
-# Multiplayer
 
 Neste capítulo vamos implementar e organização elementos para conexão, replicação e
 inicialização de um jogo multiplayer.

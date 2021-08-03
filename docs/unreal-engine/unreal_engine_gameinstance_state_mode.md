@@ -2,11 +2,9 @@
 title: Game Instance, Game State e Game Mode
 description: Na estrutura do Unreal Engine existem classes para controlar regras do jogo (GameMode) e o personagem bem como classes com visibilidade global (GameInstance), neste capítulo iremos apresentar estas classes e suas funcionalidades.
 tags: [Unreal Engine,game mode,game instance,game state]
+layout: page
 ---
 
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
-
-# Game Instance, Game State e Game Mode
 Na estrutura do **Unreal Engine** existem classes para controlar regras do jogo (**GameMode**) e o personagem bem como classes com visibilidade global (`GameInstance`), neste capítulo iremos apresentar estas classes e suas funcionalidades.
 
 ## Índice

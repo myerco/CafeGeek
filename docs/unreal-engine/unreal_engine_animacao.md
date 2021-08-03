@@ -11,7 +11,7 @@ e suas forma de animação e programação.
 
 ## Índice
 1. [Preparando o projeto](#1-preparando-o-projeto)
-1. [Estruturas básicas](#2)
+1. [Estruturas básicas](#2-estruturas-basicas)
 1. [Baixando o personagem](#3)
 1. [Importando o personagem](#4)
 1. [Animação - Animation Blend Space 1D](#5)

@@ -2,6 +2,7 @@
 title: Trabalhando com a lógica de movimentação do personagem
 description: Trabalhando com a lógica de movimentação do personagem utilizando Blueprint
 tags: [Unreal Engine,eventos,events,funções,functions,macro]
+layout: page
 ---
 
 Neste capítulo vamos implementar apresentar a lógica de movimentação de atores com **Blueprint** e aplicar em um jogo de plataforma.

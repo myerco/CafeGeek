@@ -2,9 +2,9 @@
 title: Convertendo Blueprints para C++
 description: Neste capítulo vamos converter a lógica Blueprint em C++
 tags: [Unreal Engine,instalando,install, folder,pastas]
+layout: page
 ---
 
-# Convertendo Blueprints para C++
 Neste capítulo vamos converter a lógica Blueprint em C++
 
 1. Blueprints vs C++

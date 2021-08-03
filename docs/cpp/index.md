@@ -2,11 +2,9 @@
 title: Programação em linguagem C++
 description: Programação em linguagem C++
 tags: [programação, cpp, c++, lógica]
+layout: page
 ---
 
-[CafeGeek](http://cafegeek.eti.br)
-
-# Programação em linguagem C++
 Aprenda a programar em linguagem C++.  
 
 ## Habilidades que serão aprendidas  

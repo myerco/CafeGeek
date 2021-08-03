@@ -2,11 +2,9 @@
 title: HUD - Interface com o jogador
 description: HUD (Heads-up Display) ou UI (User Interface) é um objeto especial do Unreal Engine para apresentar informações sobrepostas na tela e interagir com o jogador.
 tags: [Unreal Engine, HUD, user interface,UI]
+layout: page
 ---
 
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
-
-# HUD - Interface com o jogador
 HUD (*Heads-up Display*) ou UI (*Use Interface*) é um objeto especial do **Unreal Engine** para apresentar informações sobrepostas na tela e interagir com o jogador.
 
 Neste capitulo vamos apresentar formas de interação com o jogador e depois construir objetos os necessários.

@@ -2,10 +2,8 @@
 title: Delta time e sistema de coordenadas
 description: Delta time e sistema de coordenadas
 tags: [Unreal Engine,tempo, espaço]
+layout: page
 ---
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
-
-# Delta time e sistema de coordenadas
 Neste capítulo serão apresentados os elementos de controle de tempo (Delta Time) dentro do **Unreal Engine** e utilizar para  implementar movimentação de objetos.
 Apresentaremos também como funciona o sistema de coordenadas dos objetos.
 
