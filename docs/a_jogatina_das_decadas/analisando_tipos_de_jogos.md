@@ -2,10 +2,9 @@
 title: Analisando tipos de jogos
 description: Quais são os tipos de jogos e o que é um jogo eletrônico.
 tags: [narrativa, Roteirização, jogos digitais]
+layout: page
 ---
-[CafeGeek](http://cafegeek.eti.br)
 
-# Tipos de jogos
 Quais são os tipos de jogos e o que é um jogo eletrônico.
 
 ## Índice

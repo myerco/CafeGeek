@@ -2,10 +2,9 @@
 title: O que é jogo
 description: O que é um jogo e o seu papel na sociedade
 tags: [narrativa, Roteirização, jogos digitais]
+layout: page
 ---
-[CafeGeek](http://cafegeek.eti.br)
 
-# O que é um jogo
 Neste capitulo definiremos o que é jogo e o seu papel na sociedade.
 
 ## Índice

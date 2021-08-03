@@ -2,10 +2,9 @@
 title: Jogos Eletrônicos
 description: Jogos Eletrônicos
 tags: [narrativa, Roteirização, jogos digitais]
+layout: page
 ---
-[CafeGeek](http://cafegeek.eti.br)
 
-# Jogos Eletrônicos
 ...
 
 ## Índice

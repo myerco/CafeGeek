@@ -2,10 +2,8 @@
 title: Me conte uma história
 description: Narrativa de jogos e construção de personagens.
 tags: [narrativa, Roteirização, jogos digitais]
+layout: page
 ---
-[CafeGeek](http://cafegeek.eti.br)
-
-# Me conte uma história
 Narrativa de jogos e construção de personagens. Construa sua narrativa, o tempo, o mundo, os personagens, os objetivos e os capítulos da história.
 ## Habilidades que serão aprendidas  
 - Aprenda a organizar suas ideias;    
