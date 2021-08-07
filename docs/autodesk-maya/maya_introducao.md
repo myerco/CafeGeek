@@ -7,10 +7,10 @@ layout: page
 
 ## Índice
 1. [O que é Modelagem de objetos 3D?](#1-o-que-e-modelagem-de-objetos-3d)
-1. [Tipos de modelagem 3D](#2-tipos-de-modelagem-3D)
-1. [Processo de construção de cenas 3D](#3-processo-de-construção-de-cenas-3D)
-1. [Softwares para modelagem tridimensional](#4-Softwares-para-modelagem-tridimensional)
-1. [O curso de modelagem usando  Autodesk Maya](#5-o-curso-de-modelagem-usando-autodesk-maya)
+1. [Tipos de modelagem 3D](#2-tipos-de-modelagem-3d)
+1. [Processo de construção de cenas 3D](#3-processo-de-construção-de-cenas-3d)
+1. [Softwares para modelagem tridimensional](#4-softwares-para-modelagem-tridimensional)
+1. [O curso de modelagem usando Autodesk Maya](#5-o-curso-de-modelagem-usando-autodesk-maya)
 1. [Habilidades que serão aprendidas](#6-habilidades-que-serão-aprendidas)  
 
 
@@ -46,7 +46,7 @@ Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas 
 - Autodesk Mudbox
 - Blender;
 
-## 5. O curso de modelagem usando  Autodesk Maya
+## 5. O curso de modelagem usando Autodesk Maya
 Apresentar a ferramenta de modelagem artística 3D Autodesk Maya.
 
 ## 6. Habilidades que serão aprendidas  
