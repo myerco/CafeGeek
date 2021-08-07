@@ -2,9 +2,8 @@
 title: SQLDeveloper com PostgreSQL
 description: SQLDeveloper com PostgreSQL
 tags: [Banco de Dados, Oracle, Oracle SQLDeveloper, MER, modelo relacional,PostgreSQL]
+layout: page
 ---
-
-# SQLDeveloper com PostgreSQL
 
 ## 1. Características
 - Ferramenta gráfica desenvolvida pela ORACLE;

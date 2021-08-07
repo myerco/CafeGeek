@@ -2,6 +2,7 @@
 title: Modelo de Dados e o Processo de Desenvolvimento de banco de dados
 description: A regra de negócio para modelar e estruturas as informações utilizando um modelo relacional.
 tags: [Banco de Dados, Oracle, Oracle SQLDeveloper, MER, modelo relacional,PostgreSQL]
+layout: page
 ---
 
 ## 1. O Modelo de dados

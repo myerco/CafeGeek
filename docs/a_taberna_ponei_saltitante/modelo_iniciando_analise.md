@@ -2,9 +2,8 @@
 title: Iniciando a Analise
 description: Iniciando a Analise
 tags: [Banco de Dados, Oracle, Oracle SQLDeveloper, MER, modelo relacional,PostgreSQL]
+layout: page
 ---
-
-# Iniciando a Analise
 
 ## 1. A Regra de negócio
 - Permite ao desenvolvedor/arquiteto entender o relacionamento e as restrições das entidades participantes;

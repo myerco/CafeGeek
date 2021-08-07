@@ -2,8 +2,8 @@
 title: A regra de negócio
 description: A regra de negócio para modelar e estruturas as informações utilizando um modelo relacional.
 tags: [Banco de Dados, Oracle, Oracle SQLDeveloper, MER, modelo relacional,PostgreSQL]
+layout: page
 ---
-# A regra de negócio
 
 ![tabernaponeisaltitante](https://3.bp.blogspot.com/-bbFXtl8DLsM/WhswXoihJKI/AAAAAAAANa4/vOl3JpqLHJY9-rgkRmd87yTkF1vUZ2hAgCLcBGAs/s320/tabernaponeisaltitante.jpg)
 
