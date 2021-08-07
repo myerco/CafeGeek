@@ -34,8 +34,20 @@ Podemos aplicar em várias áreas como por exemplo:
 
 ## 3. Processo de construção de cenas 3D
 - **Conceito** - *Concept art* ou arte conceitual;
+![sketch_viking_house](https://cdnb.artstation.com/p/media_assets/images/images/000/649/263/large/sketch_viking_house.jpg?1600679970)
+
+    *Figura: Arte conceitual (Artstation)*
+
 - **Modelagem** - Construção de modelos tridimensionais;
+![Blue Wooden house](https://blenderartists.org/uploads/default/original/4X/f/d/0/fd0375c46a3df8b8fd489ab6a1d259b28ecb3ec4.jpeg)
+
+    *Figura: Modelo tridimensional*
+
 - **Configuração de layout de cena** - Mapeamento, Iluminação e geração de câmeras;
+![Blue Wooden house](https://blenderartists.org/uploads/default/original/4X/5/5/9/559c984fb29dadab1ae2cab740d99e94bd371779.jpeg)
+
+    *Figura: Modelo tridimensional com Mapeamento e Iluminação*
+
 - **Geração de cenas** - Renderização e animação.
 
 ## 4. Softwares para modelagem tridimensional
