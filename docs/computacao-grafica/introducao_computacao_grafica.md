@@ -2,10 +2,8 @@
 title: Introdução ao curso de Computação Gráfica com Unreal Engine e Autodesk Maya
 description: Introdução ao curso de Computação Gráfica com Unreal Engine e Autodesk Maya
 tags: [Unreal Engine,Rendering,Maya, computação gráfica]
+layout: page
 ---
-[CafeGeek](http://cafegeek.eti.br)  / [Computação Gráfica com Unreal Engine e Autodesk Maya](http:cafegeek.eti.br/ue4_computacao_grafica/index.html)
-
-# Introdução ao curso de Computação Gráfica com Unreal Engine e Autodesk Maya
 
 ## Índice
 1. [O que é computação gráfica?](#1)

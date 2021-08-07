@@ -2,10 +2,8 @@
 title: Enums - Enumerations
 description: Variáveis do tipo Enumerations
 tags: [Unreal Engine,blueprint,enum]
+layout: page
 ---
-[CafeGeek](http://CafeGeek.eti.br)  / [Desenvolvimento de jogos utilizando Unreal Engine](http://cafeGeek.eti.br/unreal_engine/index.html)
-
-# Enums - Enumerations
 
 Neste capitulo serão apresentados Enumerações (*Enumeration*). Enumeração é algo como nomear ou numerar um a um (geralmente em uma lista).
 

@@ -1,3 +1,10 @@
+---
+title: Maya Interface e comandos básicos
+description: Maya Interface e comandos básicos  
+keywords: [Desonvolvimento com Unreal Engine, Maya]
+tags: [Unreal Engine, jogos digitais, Maya]
+layout: page
+---
 
 ## Interface básico
 1. Windows > Settings / Preferences > Preferences
