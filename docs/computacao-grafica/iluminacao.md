@@ -2,9 +2,9 @@
 title: Iluminação
 description: Iluminação e computação gráfica
 tags: [Unreal Engine,Iluminação, Computação Gráfica]
+layout: page
 ---
 
-# Iluminação
 Neste capitulo serão apresentados como a iluminação funciona e suas propriedades.
 
 ## Índice

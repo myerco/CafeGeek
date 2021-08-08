@@ -2,9 +2,9 @@
 title: Entendendo o processo de renderização
 description: Entendendo o processo de renderização
 tags: [Unreal Engine,Rendering,Maya]
+layout: page
 ---
 
-# Entendendo o processo de renderização
 Neste capitulo serão apresentados quais são os passos para processamento de imagens no computador.
 
 ## Índice

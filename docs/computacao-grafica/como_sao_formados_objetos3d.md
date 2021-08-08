@@ -2,11 +2,9 @@
 title: Como são formados os objetos em gráficos 3D?
 description: Neste capitulo será apresentados os elementos que constituem uma imagem 3D utilizando como exemplo softwares como o Unreal Engine e Maya Autodesk.
 tags: [objetos 3d, unreal engine, maya Autodesk,computação gráfica]
+layout: page
 ---
 
-[CafeGeek](http://cafegeek.eti.br)  / [Computação Gráfica com Unreal Engine e Autodesk Maya](http:cafegeek.eti.br/ue4_computacao_grafica/index.html)
-
-# Como são formados os objetos em gráficos 3D?
 Neste capitulo será apresentados os elementos que constituem uma imagem 3D utilizando como exemplo softwares como o Unreal Engine e Maya Autodesk.
 
 ## Índice

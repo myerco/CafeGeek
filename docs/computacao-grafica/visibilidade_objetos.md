@@ -2,9 +2,9 @@
 title: Visibilidade de objetos
 description: Visibilidade de objetos
 tags: [Unreal Engine,Rendering,Maya, culling]
+layout: page
 ---
 
-# Visibilidade de objetos
 
 ## Índice
 1. [Por que controlar a visibilidade de objetos na cena?](#1)
