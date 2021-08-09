@@ -17,7 +17,7 @@ Neste capitulo definiremos o que é jogo e o seu papel na sociedade.
     1. [O jogo Arte e Cultura](#6.1)    
     1. [O jogo e a Guerra](#6.2)        
     1. [O jogo e a Direito](#6.3)    
-    1. [O jogo a Linguagem](#6.4)        
+    1. [O jogo e a Linguagem](#6.4)        
 1. [Algumas considerações sobre o jogo](#7)            
 
 <a name="1"></a>
@@ -61,6 +61,8 @@ Características comuns de um jogo.
 <a name="3"></a>
 ## 3. Homo Ludens
 
+![Homo Ludens](https://lh5.googleusercontent.com/lhkxvSwpipDBpORFf3hiJba3QDOz-r4BuiGr_qoyiw4lya7Pkq5pldq2YnbZOk8euovs8XQBQ2QX8PZKdLfJl9yt6OqlZbiKhhvoCScvVqbq9vRuQI7oa1VWrJuMWmDWJRrNQHL2ZQ)
+
 ...Brincar, significa libertar-se dos horrores do mundo, por meio da reprodução miniaturizada..”
 Walter Benjamin (1984)
 
@@ -91,15 +93,20 @@ O ser humano, tal como todos os seres da escala biológica, tem como caracterís
 
 <a name="6.1"></a>
 ### 6.1 O jogo Arte e Cultura
+![O jogo na arte](https://lh3.googleusercontent.com/mw2jVchK_0h4nZ3mm41sEkul6669asv3ifiwqzuCzKNXNLBoWTpvJbq-UaaaIuNjFxu50qukPCIIo9PEWW3cs4-XDbe2N8WHoEZW_JvUkWlnquWNHQbaQTkS0oXlpuTVpWsbzZGGJw)
 O processo criativo e construção de elementos imaginários estão presentes nas caracterizas dos jogos.
 Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um belo e nobre jogo começou por ser um jogo sagrado. Os torneios e justas, as ordens, os votos, os títulos, são  todos vestígios dos ritos de iniciação primitivos.
 
 <a name="2.1"></a>
 ### 6.2 O jogo e a Guerra
+![O jogo e a guerra](https://lh3.googleusercontent.com/eHCIaFbDB3dEjinKTkIp5AOuGRL9S8taKXnuuQyJM_ZLsxrHjdYMvUb7OISIuOWJwS9a1kwlERn5n0akqx_jUnfjXUazb4TzMqvKrA4zAwNU7Lwn0NSFAyTJlwZgs0a3BiefXfXF7Q)
+
 É difícil não associar a guerra ao jogo mas o contrário é possível.
 
 <a name="6.3"></a>
-### 6.3 O jogo e a Direito
+### 6.3 O jogo e o Direito
+![O jogo e o direito](https://lh4.googleusercontent.com/0UyjVE8iYejdGuduppAcytXaEVPAV8aMX3INMhuJw72tQBS8xy1Sq_8vS9JpZSZNgQ81lfxM_BmCJObWEa9bkGPfZNnMuQbWfy551KWCF1b2R1Rg3iiRXta3mwNOvzunKDaU5gvonw)
+
 Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o Luizinga associa o "processo" a um jogo considerando o seguinte:
 - **O tribunal** - Pode também ser chamado uma "corte" de justiça. Esta corte é ainda, no sentido pleno do  termo, o ίεφόδ χυχλο, o círculo sagrado dentro do qual, no escudo de Aquiles, aparecem sentados os juízes. Todo  lugar onde se ministra a justiça é um verdadeiro *temenos*, um lugar sagrado, separado e afastado do mundo vulgar.
 - **Os juízes** -  que  ministram a justiça saem da vida "comum" no momento em que vestem a toga e colocam a  peruca.
@@ -109,7 +116,10 @@ Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o 
 - **A justiça** - Se fizermos com que nosso olhar passe da  administração da justiça nas civilizações altamente desenvolvidas para aquela que se encontra nas fases menos  adiantadas da cultura, veremos que a ideia do bem e do mal, a concepção ético-jurídica, é ultrapassada pela ideia de  ganhar ou perder, isto é, pela concepção puramente agonística. O que interessa ao espírito primitivo não é tanto o  problema abstrato do bem e do mal, mas principalmente o problema extremamente concreto de ganhar ou perder.
 
 <a name="2.4"></a>
-### 6.4 O jogo a Linguagem
+### 6.4 O jogo e a Linguagem
+
+![O jogo e a linguagem](https://lh6.googleusercontent.com/n6cRsalJRwjvmqPAKs36Qyj_U1nLNtnaOASUInR4dTl4STFpN0v-kMHtM58tk5oLhyZvqyzdrrwLeef0Vy235S6Fu6el59K0V76hYosAy8kAfyw46GYRlGSn_H23fjAvcEoEquhgZg)
+
 A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo, designá-las e com essa designação elevá-las ao domínio do espírito. Na criação da fala e da linguagem,  brincando com essa maravilhosa faculdade de designar, é como se o espírito estivesse constantemente saltando  entre a matéria e as coisas pensadas. Por detrás de toda expressão abstrata se oculta uma metáfora, e toda metáfora  é jogo de palavras. Assim, ao dar expressão à vida, o homem cria um outro mundo, um mundo poético, ao lado do  da natureza.
 
 <a name="7"></a>

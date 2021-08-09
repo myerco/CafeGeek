@@ -11,8 +11,10 @@ A história dos jogos na sociedade e seus diferentes tipos e evolução. Conheç
 - Analise e defina tipos de jogos;    
 - Analise e defina os tipos de jogadores;      
 - Conheça o mercado de jogos digitais;    
-- Implemente um protótipo de jogo;    
----
+- Implemente um protótipo de jogo;  
+
+***
+
 ## Índice
 1. [O que é jogo?](o_que_e_jogo.html)
 1. [Analisando os tipos de jogos](analisando_tipos_de_jogos.html)
