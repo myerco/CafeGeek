@@ -23,8 +23,8 @@ O nosso objetivo é extrair informações da regra de negócio a fim de identifi
 
     `PEDITO`
 
-    |NÚMERO|	DATA|	PRODUTO|
-    |:-    |:-     |:-    |
+    |NÚMERO|	DATA    |	PRODUTO|
+    |:-    |:-        |:-    |
     |123	 |11/12/2017|	Escudo de Carvalho|
     |124	 |05/02/2018|	Arco Élfico dourado|
     |125	 |21/04/2018|	Punhal de Troll|
@@ -93,6 +93,7 @@ O nosso objetivo é extrair informações da regra de negócio a fim de identifi
 > - Conhecimento
 
 ## 3. Regras e restrições
+
 |Regras             |Restrições           |
 |:-                 |:-                   |
 |Para cada nota são registrados os produtos vendidos.| Um produto pode estar em mais de uma nota; Uma nota pode ter mais de um produto; O valor do produto pode ter descontos e acrescimentos.|

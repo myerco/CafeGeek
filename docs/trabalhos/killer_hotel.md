@@ -2,11 +2,8 @@
 title: Killer Hotel
 description: Roteiro do jogo Killer Hotel
 tags: [Unreal Engine, Killer Hotel, roteiro]
+layout: page
 ---
-
-[CafeGeek](http://cafegeek.eti.br)  / [Trabalhos](http://cafegeek.eti.br/trabalhos/index.html)
-
-# Killer Hotel
 ### Autor: Carlos
 
 ## Rondônia, Brasil, 21 de abril do ano 2000
