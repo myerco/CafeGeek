@@ -7,29 +7,34 @@ layout: page
 ---
 
 ## Interface básico
-1. Windows > Settings / Preferences > Preferences
-    - Show - What´s new
-1. Menus
-    1. Select - Seleciona objetos
-    1. Modify - modifica objetos
-    1. Display - apresenta objetos
-    1. Windows - Editores
+1. [Menus](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-D90A2BDB-FD05-4528-8A95-C33A02D15129-htm.html)
+   - Create - Cria objetos
+   - Select - Seleciona objetos;
+   - Modify - modifica objetos;
+   - Display - apresenta objetos;
+   - Windows - Apresenta e configura os Editores;
 1. Barra de tarefas
-    1. Modeling toolKit
+   - Modeling toolKit.
 1. Fluxos de trabalho
-1. Tools box
+1. [Tools box](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Basics/files/GUID-B345E162-0149-4E09-AC98-48DCFC227F33-htm.html)
 1. Layout
-1. Outliner
-1. Workspace
-    1. Modeling - Standard
+1. [Outliner](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-4B9A9A3A-83C5-445A-95D5-64104BC47406-htm.html)
+1. [Workspace](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-Basics/files/GUID-0384C282-3CA1-4587-9775-F7164D3F6980-htm.html)
+   - Modeling - Standard
+
+## Configurando a Interface   
+1. Para habilitar ou desabilitar a janela inicial de avisos de mudanças de versão.
+   - Windows > Settings / Preferences > Preferences > `Show - What´s new`
+1. Window > Settings / Preferences > Preferences
+   - Interface (Menu Set,Show...)  
 
 ## Configurando projetos
 1. Configurando as pastas do projeto
-    1. File > Project Window
+  - File > Project Window
 1. Criando novas cenas
-    1. File > New Scene
+  - File > New Scene
 1. Configurando projeto novos importados
-    1. File > Set Project
+  - File > Set Project
 
 ## Comandos de navegação
 1. Alt + RMB - Movimentação de câmera.
@@ -39,18 +44,12 @@ layout: page
 
 ## Configuração de ViewPort
 1. Mostrando a quantidade de polígonos e vértices.
-    1. Display > Heads Up Display > Poly Count
+   - [Display > Heads Up Display > Poly Count](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-Modeling/files/GUID-53E46D0C-4B7B-4404-AEB0-3BDD1FF8608A-htm.html).    
 1. Visualização
     1. [Shading](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-C6188583-EA9E-4880-AAE7-8D895FD94DD6-htm.html)
 1. Hotbox - pressione a barra de espaço
 1. RMB - Menu de contexto
 
-
-## Configurando a Interface
-1. Window > Settings / Preferences > Preferences
-    1. Interface
-      Menu Set
-      Show...
 
 ## Seleção de objetos
 1. Seleciona um objetos.
