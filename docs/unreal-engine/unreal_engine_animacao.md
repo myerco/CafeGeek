@@ -50,9 +50,10 @@ jogador.
       |--Maps               
 ```
 1.  Mover os objetos    
- - `/Mannequim/Character/Mesh/Sk_Mannequim` para `/Core/Characteres/Mannequim/Mesh`.
- - `/Mannequim/Character/Mesh/SK_Mannequin_PhysicsAsset` para `/Core/Characteres/Mannequim/Mesh`.
- - `/Mannequim/Character/Mesh/UE4_Mannequin_Skeleton` para `/Core/Characteres/Mannequim/Mesh`.
+ - `/Mannequim/Character/Mesh/Sk_Mannequim` para `/Core/Character/Mannequim/Mesh`.
+ - `/Mannequim/Character/Mesh/SK_Mannequin_PhysicsAsset` para `/Core/Character/Mannequim/Mesh`.
+ - `/Mannequim/Character/Mesh/UE4_Mannequin_Skeleton` para `/Core/Character/Mannequim/Mesh`.
+ - `/Mannequim/Character/Mesh/UE4_Mannequin_Skeleton` para `/Core/Character/Mannequim/Mesh`.
 1. Criar a Classe `BP_PlayerBase` (Blueprint classe `Character`) `/Core/Character`.
 1. Copiar todos elementos do `Eventh Graph` de `ThirdPersonCharacter` para `BP_Jogador`.
 1. Adicionor e alinhar os componentes em `BP_PlayerBase`:
@@ -122,7 +123,7 @@ Em este passo iremos utilizar o site [Mixano.com](https://www.mixamo.com/) para 
 
 > Neste exemplo utilizaremos a opção `In Place = true` para exemplificar.  
 
-[!Vídeo: Aula 02 - Baixando personagem](http://img.youtube.com/vi/G7c8DMdrsGY/0.jpg)](https://youtu.be/G7c8DMdrsGY "Aula 02")
+[![Vídeo: Aula 02 - Baixando personagem](http://img.youtube.com/vi/G7c8DMdrsGY/0.jpg)](https://youtu.be/G7c8DMdrsGY "Aula 02")
 
 *Vídeo: Aula 02 - Baixando personagem*
 
