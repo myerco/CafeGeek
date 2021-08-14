@@ -19,8 +19,6 @@ Neste capitulo vamos preparar e organizar os objetos e elementos necessários, c
 7. [Vídeo aula](#7-video-aula)
 8. [Atividades](#8-atividades)
 
-***
-
 ## 1. Fluxo de trabalho
 O *Unrel Engine* fornece um fluxo de trabalho simples para construção de animações utilizando Skeletal Mesh importadas de aplicativos 3D para uso em jogos. Atualmente, apenas uma única animação para cada *Skeletal Mesh* pode ser exportada / importada em um único arquivo.
 
