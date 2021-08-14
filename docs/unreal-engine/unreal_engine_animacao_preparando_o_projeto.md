@@ -11,12 +11,12 @@ Neste capitulo vamos preparar e organizar os objetos e elementos necessários, c
 1. [Fluxo de trabalho](#1-fluxo-de-trabalho)
 2. [Arquivo FBX](#2-arquivo-fbx)
 3. [Skeleton](#3-skeleton)
-    1. [Anim Graph](3-1-anim-araph)
-    1. [Sequence](3-2-Sequence)
+    1. [Anim Graph](#3-1-anim-araph)
+    1. [Sequence](#3-2-Sequence)
 4. [Skeletal Mesh](#4-skeletal-mesh)
 5. [Preparando o projeto](#5-preparando-o-projeto)
-6. [Baixando o personagem](#6-baixando-o-projeto)
-7. [Vídeo aula](#7-video-aula)
+6. [Baixando o personagem](#6-baixando-o-personagem)
+7. [Vídeo aula](#7-vídeo-aula)
 8. [Atividades](#8-atividades)
 
 ## 1. Fluxo de trabalho

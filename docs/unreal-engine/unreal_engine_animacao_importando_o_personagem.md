@@ -15,14 +15,16 @@ Neste capitulo vamos importar o personagem baixado anteriormente e suas animaç�
 1. Copie o arquivo `mutant.fbx` para a pasta criada no passo anterior;
 1. Importe o arquivo com a opção `Import All`:
 
-  ![Figura: FBX import options](imagens/animacao/unreal_engine_fbx_import_options.jpg)
+   ![Figura: FBX import options](imagens/animacao/unreal_engine_fbx_import_options.jpg)
 
-    *Figura: FBX import options*
+   *Figura: FBX import options*
 
 ## 2. Importando animações
 1. Crie a pasta `/Projeto/Characteres/Mutant/animations`;
 1. Copie os arquivos para pasta criada no passo anterior:
- - Mutant_Run.fbx, Mutant_Idle.fbx e Mutant_Walking.fbx
+ - Mutant_Run.fbx;
+ - Mutant_Idle.fbx;
+ - Mutant_Walking.fbx.
 1. Desmarque a opção `Import Mesh` para que a malha não seja importada novamente;
 1. Escolha o esqueleto do personagem com `SKeleton`.
 
