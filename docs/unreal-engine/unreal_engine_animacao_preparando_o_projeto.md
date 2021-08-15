@@ -7,7 +7,6 @@ layout: page
 
 Neste capitulo vamos preparar e organizar os objetos e elementos necessários, como por exemplo, arquivos FBX, malhas e esqueletos e suas animações. Vamos também importar personagens do site Mixano.
 
-:arrow_forward:
 
 ## Índice
 1. [Fluxo de trabalho](#1-fluxo-de-trabalho)
@@ -18,10 +17,10 @@ Neste capitulo vamos preparar e organizar os objetos e elementos necessários, c
 4. [Skeletal Mesh](#4-skeletal-mesh)
 5. [Preparando o projeto](#5-preparando-o-projeto)
 6. [Baixando o personagem](#6-baixando-o-personagem)
-7. [Vídeo aula baixando personagem](#7-vídeo-aula-baixando-personagem)
+7. [Vídeo aula baixando personagem](#7-vídeo-aula-baixando-personagem)  ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
 8. [Importando Mesh e Skeletal](#8-importando-mesh-e-skeletal)
 9. [Importando animações](#9-importando-animações)
-10. [Vídeo aula Importando personagem](#10-Vídeo-aula-importando-personagem)
+10. [Vídeo aula Importando personagem](#10-Vídeo-aula-importando-personagem)  ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
 11. [Atividades](#11-atividades)
 
 ## 1. Fluxo de trabalho
@@ -136,7 +135,7 @@ Em este passo iremos utilizar o site [Mixano.com](https://www.mixamo.com/) para 
 ## 7. Vídeo aula baixando personagem
 [![Vídeo: Baixando o personagem](http://img.youtube.com/vi/G7c8DMdrsGY/0.jpg)](https://youtu.be/G7c8DMdrsGY "Aula 02")
 
-*Vídeo: Aula 02 - Baixando personagem*
+*Vídeo: Baixando personagem*
 
 ## 8. Importando Mesh e Skeletal
 1. Crie a pasta `/Projeto/Characteres/Mutant/Mesh`;
@@ -159,7 +158,7 @@ Em este passo iremos utilizar o site [Mixano.com](https://www.mixamo.com/) para 
 ## 10. Vídeo aula Importando personagem
 [![Importando personagem](http://img.youtube.com/vi/6ZLatHfD7P8/0.jpg)](https://youtu.be/6ZLatHfD7P8 "Aula 03")
 
-*Vídeo: Aula 03 - Importando personagem*
+*Vídeo: Importando personagem*
 
 
 ## 11. Atividades
