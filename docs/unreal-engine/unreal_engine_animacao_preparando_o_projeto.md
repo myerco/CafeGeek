@@ -17,10 +17,10 @@ Neste capitulo vamos preparar e organizar os objetos e elementos necessários, c
 4. [Skeletal Mesh](#4-skeletal-mesh)
 5. [Preparando o projeto](#5-preparando-o-projeto)
 6. [Baixando o personagem](#6-baixando-o-personagem)
-7. [Vídeo aula baixando personagem](#7-vídeo-aula-baixando-personagem)  ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+7. [Vídeo Baixando personagem](#7-vídeo-aula-baixando-personagem)  ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
 8. [Importando Mesh e Skeletal](#8-importando-mesh-e-skeletal)
 9. [Importando animações](#9-importando-animações)
-10. [Vídeo aula Importando personagem](#10-Vídeo-aula-importando-personagem)  ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+10. [Vídeo Importando personagem](#10-Vídeo-aula-importando-personagem)  ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
 11. [Atividades](#11-atividades)
 
 ## 1. Fluxo de trabalho
@@ -132,7 +132,7 @@ Em este passo iremos utilizar o site [Mixano.com](https://www.mixamo.com/) para 
 
 > Neste exemplo utilizaremos a opção `In Place = true` para exemplificar.  
 
-## 7. Vídeo aula baixando personagem
+## 7. Vídeo Baixando personagem
 [![Vídeo: Baixando o personagem](http://img.youtube.com/vi/G7c8DMdrsGY/0.jpg)](https://youtu.be/G7c8DMdrsGY "Aula 02")
 
 *Vídeo: Baixando personagem*
@@ -155,7 +155,7 @@ Em este passo iremos utilizar o site [Mixano.com](https://www.mixamo.com/) para 
 1. Desmarque a opção `Import Mesh` para que a malha não seja importada novamente;
 1. Escolha o esqueleto do personagem com `SKeleton`.
 
-## 10. Vídeo aula Importando personagem
+## 10. Vídeo Importando personagem
 [![Importando personagem](http://img.youtube.com/vi/6ZLatHfD7P8/0.jpg)](https://youtu.be/6ZLatHfD7P8 "Aula 03")
 
 *Vídeo: Importando personagem*

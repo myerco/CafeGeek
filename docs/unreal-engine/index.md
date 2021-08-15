@@ -41,8 +41,7 @@ layout: page
     1. [Landscape](landscape.html)  
 1. Animação
     1. [Preparando o projeto](unreal_engine_animacao_preparando_o_projeto.html)
-    1. [Importando o personagem](unreal_engine_animacao_importando_o_personagem.html)    
-    1. [Animation Blend Space 1D](unreal_engine_animacao_blend_space_1d.html)        
+    1. [Animação com Blend Space 1D](unreal_engine_animacao_blend_space_1d.html)        
 1. Multiplayer
     1. [Multiplayer](multiplayer.html)
 1. Inteligência artificial
