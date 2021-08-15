@@ -7,6 +7,8 @@ layout: page
 
 Neste capitulo vamos preparar e organizar os objetos e elementos necessários, como por exemplo, arquivos FBX, malhas e esqueletos e suas animações. Vamos também importar personagens do site Mixano.
 
+:arrow_forward:
+
 ## Índice
 1. [Fluxo de trabalho](#1-fluxo-de-trabalho)
 2. [Arquivo FBX](#2-arquivo-fbx)
@@ -16,7 +18,7 @@ Neste capitulo vamos preparar e organizar os objetos e elementos necessários, c
 4. [Skeletal Mesh](#4-skeletal-mesh)
 5. [Preparando o projeto](#5-preparando-o-projeto)
 6. [Baixando o personagem](#6-baixando-o-personagem)
-7. :arrow_forward: [Vídeo aula baixando personagem](#7-vídeo-aula-baixando-personagem)
+7. [Vídeo aula baixando personagem](#7-vídeo-aula-baixando-personagem)
 8. [Importando Mesh e Skeletal](#8-importando-mesh-e-skeletal)
 9. [Importando animações](#9-importando-animações)
 10. [Vídeo aula Importando personagem](#10-Vídeo-aula-importando-personagem)
