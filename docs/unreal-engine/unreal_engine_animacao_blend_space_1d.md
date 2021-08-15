@@ -8,9 +8,34 @@ layout: page
 Em este capítulo iremos implementar várias animações utilizando um eixo de movimentação utilizando o elemento e editor `Blend space 1D`.
 
 ## Índice
-1. [Animação - Animation Blend Space 1D](#5)
+1. [O que é Blend Space](#1-o-que-é-blend-space)
+1. [Blend Space 1D](#2.blend-space-1D)
+1. [Carregando o Editor](#)
+1. [Configurando a animação](#)
+1. [Vídeo Animation Blend Space 1D](#) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+1. [Animando com Blueprint](#)
+1. [Vídeo Animation Bluerint](#) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+1. [A classe do personagem](#)
+1. [Vídeo Classe do personagem](#) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+1. [Implementado a Corrida](#)
+1. [Vídeo Implementado a Corrida](#) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+1. [Montando a animação de ataque](#)
+1. [Vídeo montando Animação de ataque](#) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+1. [Animação básica com AnimGraph](#)
+1. [Animação de ataque com AnimGraph](#)
+1. [Vídeo Atacando](#)![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+1. [Atacando somente com os braços](#)
+1. [Animação de ataque completa e correndo somente os braços](#)
+1. [Vídeo](#)![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
 
-## 1. Carregando o editor
+
+## 1. O que é Blend Space
+O objetivo do `Blend Space` é reduzir a necessidade de criar nós individuais codificados para mesclar animações com um ativo que realiza a mesclagem com base em propriedades ou condições específicas. Ao permitir que o animador ou programador especifique as entradas, as animações e como as entradas são usadas para mesclar entre as animações, virtualmente qualquer tipo de mesclagem pode ser executado usando o Espaço de mesclagem genérico.
+
+## 2. Blend Space 1D
+Os Blend Spaces também podem ser criados em um formato unidimensional, conhecido como Blend Space 1D. Eles podem se misturar entre qualquer número de poses ou animações, mas o fazem com base em um único valor de entrada. Um exemplo de caso de uso para um Blend Space 1D seria quando você tem um personagem que se orienta automaticamente na direção em que está se movendo. Se o personagem não pode se desviar ou se mover em várias direções, um Blend Space 1D pode ser usado para se misturar de um Idle a um Walk e, finalmente, a Run com base em um único valor de Speed (como mostrado no exemplo abaixo).
+
+## 3. Carregando o editor
 Para carregar o editor de animação na horizontal usamos o menu de contexto `Animation > Blend Space 1D`.
 
 ![Figura: Menu de contexto Animation > Blend Space 1D](imagens/animacao/unreal_engine_animation_blend_1d.jpg)
@@ -169,6 +194,7 @@ Neste passo vamos implementar a animação de ataque com soco de direita e esque
 Agora vamos implementar a lógica para chamar as animações quando forem pressionados os botões do mouse direito e esquerdo.
 
 1. No objeto BP_Mutant adicione os eventos de chamada de função e associe a função `Play Anim Montage`.
+
 ![Figura: Blueprint para chamar a animação de ataque](imagens/animacao/unreal_engine_animations_blueprint_attack.jpg)
 
 *Figura: Blueprint para chamar a animação de ataque*
@@ -181,10 +207,36 @@ Agora vamos implementar a lógica para chamar as animações quando forem pressi
 *Vídeo: Animação com AnimGraph*
 
 
-## 15. Correndo e atacando
+## 15. Atacando somente com os braços
 Em este iremos continuar com a programação `AnimGraph` para fazer o personagem correr e atacar ao mesmo tempo.
 
-[![Aula 06](http://img.youtube.com/vi/1gjkcrU7pmA/0.jpg)](https://youtu.be/1gjkcrU7pmA "Aula 06")
+**Layerd Blend per bone**
+
+Podemos misturar várias animações no nó de estado e utilizar um osso (bone) como referência, no exemplo abaixo misturamos a animação básica `LocoCache`com `AttackingCache` adicionando o osso `Spine`.
+
+![Figura: Layerd Blend per bone](imagens/animacao/unreal_engine_animgraph_attack_simple.jpg)
+
+*Figura: Layerd Blend per bone*
+
+## 16. Animação de ataque completa e correndo somente os braços
+Neste passo vamos misturar as animações condicionando a uma variável para que possamos definir o estado do personagem, correndo ou parado.
+
+**Layerd Blend by bool**
+
+Podemos condicionar a mistura de animações utilizando valores condicionais *boolean*.
+
+![Figura: Blueprint para chamar a animação de ataque](imagens/animacao/unreal_engine_animgraph_blend_by_bool.jpg)
+
+*Figura: Layerd Blend by bool*
+
+No `Event Graph` de `ABP_Mutant` adicionamos a lógica para verificar se o personagem esta me movimentando testando a variável `Speed`.
+
+![Figura: Blueprint para chamar a animação de ataque](imagens/animacao/unreal_engine_blueprint_animation_moving.jpg)
+
+*Figura: Layerd Blend by bool*
+
+## 16. Vídeo
+[![Vídeo: Correndo e atacando](http://img.youtube.com/vi/1gjkcrU7pmA/0.jpg)](https://youtu.be/1gjkcrU7pmA "Aula 06")
 
 *Vídeo: Correndo e atacando*
 
@@ -196,3 +248,5 @@ Em este iremos continuar com a programação `AnimGraph` para fazer o personagem
 - [AnimGraph](https://docs.unrealengine.com/en-US/Engine/Animation/AnimBlueprints/AnimGraph/index.html)
 https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/SkeletalMeshAnimation/AnimMontage/Overview/
 https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/SkeletalMeshAnimation/StateMachines/Overview/
+
+https://answers.unrealengine.com/questions/387906/what-does-the-blend-depth-parameter-in-layered-ble.html?sort=oldest
