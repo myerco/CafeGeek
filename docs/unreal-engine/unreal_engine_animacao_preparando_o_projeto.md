@@ -16,8 +16,11 @@ Neste capitulo vamos preparar e organizar os objetos e elementos necessários, c
 4. [Skeletal Mesh](#4-skeletal-mesh)
 5. [Preparando o projeto](#5-preparando-o-projeto)
 6. [Baixando o personagem](#6-baixando-o-personagem)
-7. [Vídeo aula](#7-vídeo-aula)
-8. [Atividades](#8-atividades)
+7. :arrow_forward: [Vídeo aula baixando personagem](#7-vídeo-aula-baixando-personagem)
+8. [Importando Mesh e Skeletal](#8-importando-mesh-e-skeletal)
+9. [Importando animações](#9-importando-animações)
+10. [Vídeo aula Importando personagem](#10-Vídeo-aula-importando-personagem)
+11. [Atividades](#11-atividades)
 
 ## 1. Fluxo de trabalho
 O *Unrel Engine* fornece um fluxo de trabalho simples para construção de animações utilizando Skeletal Mesh importadas de aplicativos 3D para uso em jogos. Atualmente, apenas uma única animação para cada *Skeletal Mesh* pode ser exportada / importada em um único arquivo.
@@ -128,12 +131,36 @@ Em este passo iremos utilizar o site [Mixano.com](https://www.mixamo.com/) para 
 
 > Neste exemplo utilizaremos a opção `In Place = true` para exemplificar.  
 
-## 7. Vídeo aula
-[![Vídeo: Aula 02 - Baixando personagem](http://img.youtube.com/vi/G7c8DMdrsGY/0.jpg)](https://youtu.be/G7c8DMdrsGY "Aula 02")
+## 7. Vídeo aula baixando personagem
+[![Vídeo: Baixando o personagem](http://img.youtube.com/vi/G7c8DMdrsGY/0.jpg)](https://youtu.be/G7c8DMdrsGY "Aula 02")
 
 *Vídeo: Aula 02 - Baixando personagem*
 
-## 8. Atividades
+## 8. Importando Mesh e Skeletal
+1. Crie a pasta `/Projeto/Characteres/Mutant/Mesh`;
+1. Copie o arquivo `mutant.fbx` para a pasta criada no passo anterior;
+1. Importe o arquivo com a opção `Import All`:
+
+   ![Figura: FBX import options](imagens/animacao/unreal_engine_fbx_import_options.jpg)
+
+   *Figura: FBX import options*
+
+## 9. Importando animações
+1. Crie a pasta `/Projeto/Characteres/Mutant/animations`;
+1. Copie os arquivos para pasta criada no passo anterior:
+ - Mutant_Run.fbx;
+ - Mutant_Idle.fbx;
+ - Mutant_Walking.fbx.
+1. Desmarque a opção `Import Mesh` para que a malha não seja importada novamente;
+1. Escolha o esqueleto do personagem com `SKeleton`.
+
+## 10. Vídeo aula Importando personagem
+[![Importando personagem](http://img.youtube.com/vi/6ZLatHfD7P8/0.jpg)](https://youtu.be/6ZLatHfD7P8 "Aula 03")
+
+*Vídeo: Aula 03 - Importando personagem*
+
+
+## 11. Atividades
 
 
 ***
