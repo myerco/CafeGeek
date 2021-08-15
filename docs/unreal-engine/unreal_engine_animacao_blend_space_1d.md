@@ -97,17 +97,84 @@ Em este passo iremos implementar a corrida do personagem. Vamos configura o even
 
 
 ## 12. Montando a animação de ataque
-Em este passo utilizaremos o `Animation Montage` para montar as animações de ataque esquerda e direita.
-1. Componente `Animation Montage`.
+Uma `Animation Montage` ou montagem de animação (ou montagem, para abreviar) fornece uma maneira de controlar um ativo de animação diretamente por meio do código Blueprint ou C ++. Com uma montagem de animação, você pode combinar várias sequências de animação diferentes em um único ativo que você pode dividir em seções para reprodução individualmente ou em combinação. Você também pode disparar eventos dentro de uma montagem que pode executar uma variedade de tarefas locais ou replicadas, como tocar sinais de som ou efeitos de partículas, alterar valores do jogador como contagem de munição ou até mesmo replicar o movimento raiz em jogos em rede (desde que o movimento raiz esteja ativado na animação).
 
-## 13. Vídeo Animação de ataque
+Em este passo utilizaremos o `Animation Montage` para montar as animações de ataque esquerda e direita.
+
+1. Menu de contexto `Animation > Animation Montage`;
+
+  ![Figura: Menu Animation Montage](imagens/animacao/unreal_engine_animation_montage.jpg)
+
+  *Figura: Animation Montage*
+
+1. Vamos baixar e instalar os arquivos Mutant_Punch.fbx e Mutant_Swipping do site https://mixano.com para animar ataque direita e ataque esquerda.
+1. No editor de animação arrastre as animações para a linha de tempo. Observe que cada animação ocupa uma raia ou slot dentro de uma seção;
+1. Adicione um novo slot de nome `Attack` e salve;
+1. Selecione o novo slot em `Montage > DefaultGroup.Attack` e salve toda animação.
+
+  ![Figura: Menu Animation Montage](imagens/animacao/unreal_engine_animation_montage_attack.jpg)
+
+  *Figura: Animation Montage*
+
+
+## 13. Vídeo montando Animação de ataque
 
 [![Vídeo: Animação de ataque](http://img.youtube.com/vi/Kufu78tu9EE/0.jpg)](https://youtu.be/Kufu78tu9EE "Aula 06")
 
 *Vídeo: Animação de ataque*
 
-## 14. Lógica de animação com AnimGraph
-Em este passo utilizaremos a lógica de programação com AnimGraph.
+## 14. Animação básica com AnimGraph
+Em este passo utilizaremos a lógica de programação com AnimGraph para combinar e programar a lógica de mudanças de estado ou poses.
+
+AnimaGraph utiliza o conceito de máquinas de estado que fornecem uma maneira gráfica de quebrar a animação de uma malha esquelética em uma série de estados. Esses estados são então governados por Regras de transição que controlam como combinar de um estado para outro. Como uma ferramenta, eles simplificam muito o processo de design para animação Skeletal Mesh, pois você pode criar um gráfico que controla facilmente como seus personagens podem fluir entre os tipos de animação sem ter que criar uma rede Blueprint complexa.
+
+A seguir vamos criar um nós dentro do gráfico de estados para simular a animação básica.
+
+**BasicLocomotion**
+
+Este estado dever conter a animação criadas anteriormente com o Blend space 1D, BS_Mutant.
+
+1. Vamos adicionar um novo estado `Add New State Machine` com nome *BasicLocomotion*;
+1. Conectamos o nó em `Output Pose` substituindo os estados anteriores se existirem;  
+  ![Figura: AnimGraph BasicLocomotion](imagens/animacao/unreal_engine_animgraph_basiclocomotion.jpg)
+
+  *Figura: AnimGraph BasicLocomotion*
+
+1. Arrastamos e colamos BS_Mutant para a `AnimGraph` e renomeamos o nó para `Idle/Walk/Run` pois ele contem essas animações;
+
+  ![Figura: AnimGraph Idle/Walk/Run](imagens/animacao/unreal_engine_animgraph_idle_walk_run.jpg)
+
+  *Figura: AnimGraph Idle/Walk/Run*
+
+**Idle/Walk/Run**
+
+Em este estado passamos como parâmetro a variável `Speed` para animação BS_Mutant;
+
+![Figura: AnimGraph Speed](imagens/animacao/unreal_engine_animgraph_speed.jpg)
+
+*Figura: AnimGraph Speed*
+
+## 15. Animação de ataque com AnimGraph
+Neste passo vamos implementar a animação de ataque com soco de direita e esquerda.
+
+![Figura: AnimaGraph Attack](imagens/animacao/unreal_engine_animgraph_attack.jpg)
+
+*Figura: AnimaGraph Attack*
+
+1. Para passar de um estado para outro devemos salvar o estado anterior acionando o menu de contexto `New Save cached Pose...` dentro do `AnimGraph`;
+1. Para acionar um estado salvo usamos `Use cached pose BasicLocomotion`, perceba que usamos o nome do estado salvo anteriormente.
+1. Para acionar a montagem de animação `AM_Mutant_Attack` na qual definimos a sequencia de ataque usamos o menu de context `Slot DefaultGroup`;
+1. Selecionando o Slot criado atualizamos `Slot Name` para `DefaultGroup.Attack` para acessar a sequencia de animação.
+
+Agora vamos implementar a lógica para chamar as animações quando forem pressionados os botões do mouse direito e esquerdo.
+
+1. No objeto BP_Mutant adicione os eventos de chamada de função e associe a função `Play Anim Montage`.
+![Figura: Blueprint para chamar a animação de ataque](imagens/animacao/unreal_engine_animations_blueprint_attack.jpg)
+
+*Figura: Blueprint para chamar a animação de ataque*
+
+
+## 16. Vídeo Atacando
 
 [![Vídeo: Animação com AnimGraph](http://img.youtube.com/vi/Ss22A7xrtCQ/0.jpg)](https://youtu.be/Ss22A7xrtCQ "Aula 06")
 
@@ -127,3 +194,5 @@ Em este iremos continuar com a programação `AnimGraph` para fazer o personagem
 - [FBX Import Options Reference](https://docs.unrealengine.com/en-US/Engine/Content/Importing/FBX/ImportOptions/index.html)   
 - [Animations Tools](https://docs.unrealengine.com/en-US/Engine/Animation/Persona/Modes/index.html)  
 - [AnimGraph](https://docs.unrealengine.com/en-US/Engine/Animation/AnimBlueprints/AnimGraph/index.html)
+https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/SkeletalMeshAnimation/AnimMontage/Overview/
+https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/SkeletalMeshAnimation/StateMachines/Overview/
