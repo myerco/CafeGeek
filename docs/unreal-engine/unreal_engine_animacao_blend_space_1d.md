@@ -79,7 +79,7 @@ Usando o menu de contexto `Animation > Animation Blueprint`.
   *Figura: AnimGraph BS_Mutant*
 
 
-## 7 Vídeo Animation Bluerint
+## 7. Vídeo Animation Bluerint
 [![Vídeo: Animation Bluerint](http://img.youtube.com/vi/a2JULC4-P1o/0.jpg)](https://youtu.be/a2JULC4-P1o "Aula 05")
 
 *Vídeo: Animation Bluerint*
@@ -240,13 +240,12 @@ No `Event Graph` de `ABP_Mutant` adicionamos a lógica para verificar se o perso
 
 *Vídeo: Correndo e atacando*
 
+***
 
 #### Referências
 - [Skeleton Editor](https://docs.unrealengine.com/en-US/Engine/Animation/Persona/Modes/Skeleton/index.html)   
 - [FBX Import Options Reference](https://docs.unrealengine.com/en-US/Engine/Content/Importing/FBX/ImportOptions/index.html)   
 - [Animations Tools](https://docs.unrealengine.com/en-US/Engine/Animation/Persona/Modes/index.html)  
 - [AnimGraph](https://docs.unrealengine.com/en-US/Engine/Animation/AnimBlueprints/AnimGraph/index.html)
-https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/SkeletalMeshAnimation/AnimMontage/Overview/
-https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/SkeletalMeshAnimation/StateMachines/Overview/
-
-https://answers.unrealengine.com/questions/387906/what-does-the-blend-depth-parameter-in-layered-ble.html?sort=oldest
+- [Animating Objects](https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/SkeletalMeshAnimation/AnimMontage/Overview/)
+- [Blend depth](https://answers.unrealengine.com/questions/387906/what-does-the-blend-depth-parameter-in-layered-ble.html?sort=oldest)
