@@ -14,7 +14,7 @@ Neste capitulo vamos preparar e organizar os objetos e elementos necessários, c
 3. [Vídeo Baixando personagem](#3-vídeo-baixando-personagem)  ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
 4. [Importando Mesh e Skeletal](#4-importando-mesh-e-skeletal)
 5. [Importando animações](#5-importando-animações)
-6. [Vídeo Importando personagem](#6-Vídeo-importando-personagem)  ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+6. [Vídeo Importando personagem](#6-vídeo-importando-personagem)  ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
 7. [Atividades](#7-atividades)
 
 ## 1. Preparando o projeto
@@ -109,7 +109,7 @@ Em este passo iremos utilizar o site [Mixano.com](https://www.mixamo.com/) para 
 
 ***
 
-#### Referências
+## Referências
 - [Importing Animations](https://docs.unrealengine.com/4.26/en-US/WorkingWithContent/Importing/FBX/Animations/)
 - [Skeleton Editor](https://docs.unrealengine.com/en-US/Engine/Animation/Persona/Modes/Skeleton/index.html)   
 - [FBX Import Options Reference](https://docs.unrealengine.com/en-US/Engine/Content/Importing/FBX/ImportOptions/index.html)   

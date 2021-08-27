@@ -12,8 +12,8 @@ Neste capitulo vamos apresentar o fluxo de trabalho e os elementos necessários 
 1. [Fluxo de trabalho](#1-fluxo-de-trabalho)
 2. [Arquivo FBX](#2-arquivo-fbx)
 3. [Skeleton](#3-skeleton)
-    1. [Anim Graph](#3-1-anim-graph)
-    1. [Sequence](#3-2-sequence)
+    1. [Anim Graph](#31-anim-graph)
+    1. [Sequence](#32-sequence)
 4. [Skeletal Mesh](#4-skeletal-mesh)
 5. [Atividades](#11-atividades)
 
@@ -78,7 +78,7 @@ Skeletal Mesh ou Malha do esqueleto cobre os ossos para gerenciamento de `LOD` e
 
 ***
 
-#### Referências
+## Referências
 - [Importing Animations](https://docs.unrealengine.com/4.26/en-US/WorkingWithContent/Importing/FBX/Animations/)
 - [Skeleton Editor](https://docs.unrealengine.com/en-US/Engine/Animation/Persona/Modes/Skeleton/index.html)   
 - [FBX Import Options Reference](https://docs.unrealengine.com/en-US/Engine/Content/Importing/FBX/ImportOptions/index.html)   

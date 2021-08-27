@@ -23,10 +23,10 @@ Em este capítulo iremos implementar várias animações utilizando um eixo de m
 1. [Vídeo montando Animação de ataque](#13-vídeo-montanto-animação-de-ataque) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
 1. [Animação básica com AnimGraph](#14-animação-básica-com-animgraph)
 1. [Animação de ataque com AnimGraph](#15-animação-de-ataque-com-animGraph)
-1. [Vídeo Atacando](#16-vídeo-atacando)![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+1. [Vídeo Atacando](#16-vídeo-atacando) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
 1. [Atacando somente com os braços](#17-atacando-somente-com-os-braços)
 1. [Animação de ataque completa e correndo somente os braços](#18-animação-de-ataque-completa-e-correndo-somente-os-braços)
-1. [Vídeo](#19-vídeo)![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+1. [Vídeo](#19-vídeo) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
 
 
 ## 1. O que é Blend Space
