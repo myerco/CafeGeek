@@ -9,24 +9,24 @@ Em este capítulo iremos implementar várias animações utilizando um eixo de m
 
 ## Índice
 1. [O que é Blend Space](#1-o-que-é-blend-space)
-1. [Blend Space 1D](#2-blend-space-1D)
+1. [Blend Space 1D](#2-blend-space-1d)
 1. [Carregando o Editor](#3-carregando-o-editor)
 1. [Configurando a animação](#4-configurando-a-animação)
-1. [Vídeo Animation Blend Space 1D](#5-vídeo-animation-blend-space-1D) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+1. [Vídeo Animation Blend Space 1D](#5-vídeo-animation-blend-space-1d) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
 1. [Animando com Blueprint](#6-animando-com-blueprint)
-1. [Vídeo Animation Bluerint](#) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+1. [Vídeo Animation Bluerint](#7-vídeo-animation-blueprint) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
 1. [A classe do personagem](#8-a-classe-do-personagem)
-1. [Vídeo Classe do personagem](#) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
-1. [Implementado a Corrida](#10-implementando-a-corrida)
-1. [Vídeo Implementado a Corrida](#) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
-1. [Montando a animação de ataque](#12-motando-a-animação-de-ataque)
-1. [Vídeo montando Animação de ataque](#) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
-1. [Animação básica com AnimGraph](#14-animação-básica-com-animagraph)
-1. [Animação de ataque com AnimGraph](#)
-1. [Vídeo Atacando](#)![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
-1. [Atacando somente com os braços](#)
-1. [Animação de ataque completa e correndo somente os braços](#)
-1. [Vídeo](#)![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+1. [Vídeo Classe do personagem](#9-vídeo-classe-do-personagem) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+1. [Implementando a Corrida](#10-implementando-a-corrida)
+1. [Vídeo Implementado a Corrida](#11-vídeo-implmentando-a-corrida) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+1. [Montando a animação de ataque](#12-montando-a-animação-de-ataque)
+1. [Vídeo montando Animação de ataque](#13-vídeo-montanto-animação-de-ataque) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+1. [Animação básica com AnimGraph](#14-animação-básica-com-animgraph)
+1. [Animação de ataque com AnimGraph](#15-animação-de-ataque-com-animGraph)
+1. [Vídeo Atacando](#16-vídeo-atacando)![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
+1. [Atacando somente com os braços](#17-atacando-somente-com-os-braços)
+1. [Animação de ataque completa e correndo somente os braços](#18-animação-de-ataque-completa-e-correndo-somente-os-braços)
+1. [Vídeo](#19-vídeo)![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
 
 
 ## 1. O que é Blend Space
@@ -108,7 +108,7 @@ Em este passo iremos implementar a classe do personagem para incluir o esqueleto
 *Vídeo: Animation Classe do personagem*
 
 
-## 10. Implementado a Corrida
+## 10. Implementando a Corrida
 Em este passo iremos implementar a corrida do personagem. Vamos configura o evento `Left Shift` para alterar a propriedade `Max Walk Speed` do componente `CharacterMomement` com os valores 220 para velocidade máxima e 110 para caminhada.
 
 ![Figura: Bluerint running](imagens/animacao/unreal_engine_animation_blueprint_running.jpg)
