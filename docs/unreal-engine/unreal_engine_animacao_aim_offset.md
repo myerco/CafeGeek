@@ -55,7 +55,7 @@ Neste passo vamos remover frames antes e depois da pose final que estamos queren
 | Arquivo         |Início | Antes     |Depois   |
 |:-               |:-:    |:-:        |:-:      |  
 |Aim_Center       | 0     |1-87       |         |
-|Aim_Center_Up    | 0     |1-10       |1-78     |
+|Aim_Center_Up    | 0     |0-10       |1-78     |
 |Aim_Center_Down  | 0     |0-20       |1-68     |
 |Aim_Left_Center  |30     |0 - 30     |1 - 57   |
 |Aim_Left_Up      |40     |0 - 40     |1 - 48   |
@@ -64,6 +64,14 @@ Neste passo vamos remover frames antes e depois da pose final que estamos queren
 |Aim_Right_Up     |70     |0 - 70     |1 - 17   |
 |Aim_Right_Down   |80     |0 - 80     |1 - 8    |
 
+1. Edite a propriedade de vária animações ao mesmo tempo
+![Unreal Engine](https://docs.unrealengine.com/4.26/Images/AnimatingObjects/SkeletalMeshAnimation/AnimHowTo/AimOffset/AimOffset20.webp)
+
+- AdditiveSettings
+  - Additive Anim Type : Mesh Space
+  - Base Pose Type : Idle_Rifle_Hip
+
+
 7. Criando Aim Offset
 
 1. Escolha o esqueleto do Mannequin e utilizando BMP escolha `Create > Aim Offset`;
@@ -71,6 +79,25 @@ Neste passo vamos remover frames antes e depois da pose final que estamos queren
 ![Figura: Editor Aim Offset](imagens/animacao/unreal_engine_create_aim_offset.jpg)
 
 *Figura: Editor Aim Offset*
+
+Assets Details
+- Horizontal Axis
+  - Name : Yaw
+  - Minimun Axis Value : -90
+  - Maximun Axis Value : 90
+- Vertical Axis
+- Name : Pitch
+- Minimun Axis Value : -90
+- Maximun Axis Value : 90
+
+1. Adicione as animações na janela Offset
+- Aim_Center ao centro da janela
+- Aim_Left_Center do lado esquerdo da janela
+
+ > Continue adicionando as animações nas coordenadas
+
+![Unreal](https://docs.unrealengine.com/4.26/Images/AnimatingObjects/SkeletalMeshAnimation/AnimHowTo/AimOffset/AimOffset29.webp)
+
 
 ***
 
