@@ -149,9 +149,11 @@ Em este passo utilizaremos o `Animation Montage` para montar as animações de a
 *Vídeo: Animação de ataque*
 
 ## 14. Animação básica com AnimGraph
-Em este passo utilizaremos a lógica de programação com AnimGraph para combinar e programar a lógica de mudanças de estado ou poses.
+AnimGraph utiliza o conceito de máquinas de estado que fornecem uma maneira gráfica de quebrar a animação de uma malha esquelética em uma série de estados. Esses estados são então governados por Regras de transição que controlam como combinar de um estado para outro.
 
-AnimaGraph utiliza o conceito de máquinas de estado que fornecem uma maneira gráfica de quebrar a animação de uma malha esquelética em uma série de estados. Esses estados são então governados por Regras de transição que controlam como combinar de um estado para outro. Como uma ferramenta, eles simplificam muito o processo de design para animação Skeletal Mesh, pois você pode criar um gráfico que controla facilmente como seus personagens podem fluir entre os tipos de animação sem ter que criar uma rede Blueprint complexa.
+O processo de design para animação `Skeletal Mesh` se torna mais simples, pois você pode criar um gráfico que controla facilmente como seus personagens podem fluir entre os tipos de animação sem ter que criar uma rede **Blueprint** complexa.
+
+Em este passo utilizaremos a lógica de programação com AnimGraph para combinar e programar a lógica de mudanças de estado ou poses.
 
 A seguir vamos criar um nós dentro do gráfico de estados para simular a animação básica.
 

@@ -43,6 +43,7 @@ layout: page
     1. [Introdução](unreal_engine_animacao_introducao.html)
     1. [Preparando o projeto](unreal_engine_animacao_preparando_o_projeto.html)
     1. [Animação com Blend Space 1D](unreal_engine_animacao_blend_space_1d.html)        
+    1. [Aim Offset](unreal_engine_animacao_aim_offset.html)
 1. Multiplayer
     1. [Multiplayer](multiplayer.html)
 1. Inteligência artificial
