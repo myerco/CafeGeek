@@ -31,7 +31,9 @@ A Epic Store oferece um pacote de animações para o Mannequin, facilitando a pr
 /Characters/Shooter
 /Characters/Shooter/Animations
 ```
-2. Neste passo vamos criar várias animações com o personagem mirando utilizando a animação `Aim_Space_hip` como base.
+
+## Preparando animações
+Neste passo vamos criar várias animações com o personagem mirando utilizando a animação `Aim_Space_hip` como base. Estas animações servem de referência para realizar a interpolação.
 
 3. Mova o arquivo `/AnimStarterPack/Aim_Space_hip` para a pasta `/Characters/Shooter/Animations`
 
@@ -72,27 +74,33 @@ Neste passo vamos remover frames antes e depois da pose final que estamos queren
   - Base Pose Type : Idle_Rifle_Hip
 
 
-7. Criando Aim Offset
-
-1. Escolha o esqueleto do Mannequin e utilizando BMP escolha `Create > Aim Offset`;
+7. Criando Aim Offset Menu de contexto `Animation > Aim Offset` ou Escolha o esqueleto do Mannequin e utilizando BMP escolha `Create > Aim Offset`;
 
 ![Figura: Editor Aim Offset](imagens/animacao/unreal_engine_create_aim_offset.jpg)
 
 *Figura: Editor Aim Offset*
 
-Assets Details
+8. Altere os parâmetros em `Asset Details` para os seguintes valores:
+
+Coordenadas horizontais
 - Horizontal Axis
   - Name : Yaw
   - Minimun Axis Value : -90
   - Maximun Axis Value : 90
+
+Coordenadas Verticais
+
 - Vertical Axis
 - Name : Pitch
 - Minimun Axis Value : -90
 - Maximun Axis Value : 90
 
-1. Adicione as animações na janela Offset
-- Aim_Center ao centro da janela
-- Aim_Left_Center do lado esquerdo da janela
+1. Adicione as animações que foram preparadas anteriormente na janela Offset considerando a ordem dos eixos e movimentação.
+
+|Animação         |Posição            |
+|:-               |:-                 |
+|Aim_Center       |Centro             |
+|Aim_Left_Center  |Centro Esquerda    |
 
  > Continue adicionando as animações nas coordenadas
 
@@ -107,3 +115,5 @@ Assets Details
 - [FBX Import Options Reference](https://docs.unrealengine.com/en-US/Engine/Content/Importing/FBX/ImportOptions/index.html)   
 - [Animations Tools](https://docs.unrealengine.com/en-US/Engine/Animation/Persona/Modes/index.html)  
 - [AnimGraph](https://docs.unrealengine.com/en-US/Engine/Animation/AnimBlueprints/AnimGraph/index.html)
+- [Using Layered Animations](https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/SkeletalMeshAnimation/AnimHowTo/AdditiveAnimations/)
+- [Blend Nodes](https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/SkeletalMeshAnimation/NodeReference/Blend/)
