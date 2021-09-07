@@ -100,6 +100,9 @@ Para este exemplo vamos criar o objeto *SJogador* do tipo **Structure**.
 Para acessar as variáveis que estão dentro da objeto do tipo **Structure** vamos utilizar **Break Structure**.  
 ![blueprint_break_structure](imagens/estruturas/blueprint_break_structure.jpg)
 
+## 4. Alterando valores
+
+
 <a name="4"></a>
 ## 4. Exemplo do uso de variáveis Structure
 Para exemplificar a utilização de variáveis Structure vamos implementar um level onde os elementos serão construídos dinamicamente, para tal vamos utilizar uma *Array* de objetos do tipo **Point Light Component** para que possam ser adicionados na cena no momento de construção do objeto.
@@ -128,3 +131,4 @@ Para exemplificar a utilização de variáveis Structure vamos implementar um le
 - [How to use Structs in Unreal Engine 4](https://couchlearn.com/how-to-use-structs-in-unreal-engine-4/)
 - [Using structs in Blueprints ](https://romeroblueprints.blogspot.com/2015/08/using-structs-in-blueprints.html)
 - [Unreal Engine 4 em Português - Estrutura - Olha Que Fácil #47](https://www.youtube.com/watch?v=IWAhdY6Vlzo)
+- [Set value of a struct-member](https://answers.unrealengine.com/questions/807996/set-value-of-a-struct-member.html)
