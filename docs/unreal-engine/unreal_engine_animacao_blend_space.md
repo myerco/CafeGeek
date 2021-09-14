@@ -8,17 +8,22 @@ layout: page
 Em este capítulo iremos implementar várias animações utilizando um eixo de movimentação utilizando o elemento e editor `Blend space 1D` e `Blend space`.
 
 ## Índice
-1. [O que é Blend Space](#1)
-1. [Blend Space 1D](#2)
-1. [Carregando o Editor](#3-carregando-o-editor)
+1. [O que é Blend Space?](#1)
+1. [Carregando o Editor](#2)
+1. [Blend Space 1D](#3)
+    1. [Human](#3.1)
+    1. [Mutant](#3.2)    
+    1. [Vídeo Animation Blend Space 1D](#3.3) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)        
+1. [Blend Space](#4)
+1. [Atividades](#5)
 
 <a name="1"></a>
-## 1. O que é Blend Space
+## 1. O que é Blend Space?
 O objetivo do `Blend Space` é reduzir a necessidade de criar nós individuais codificados para mesclar animações com um editor que realiza a mesclagem com base em propriedades ou condições específicas. Permitindo que o animador ou programador especifique as entradas, as animações e como as entradas são usadas para mesclar entre as animações, virtualmente qualquer tipo de mesclagem pode ser executado usando o Blend Space.
 
 <a name="2"></a>
 ## 2. Carregando o editor
-Para carregar o editor de animação na horizontal usamos o menu de contexto `Animation > Blend Space 1D`.
+Para carregar o editor de animação na horizontal usamos o menu de contexto `Animation` > `Blend Space 1D`.
 
 ![Figura: Menu de contexto Animation > Blend Space 1D](imagens/animacao/unreal_engine_animation_blend_1d.jpg)
 
@@ -70,6 +75,8 @@ Para criar a movimentação no eixo horizontal vamos arrastar os elementos apres
 ## 4. Blend Space
 Este elemento é utilizado quanto existem dois parâmetros para controle das animações por exemplo: Direction/Direção e Speed/Velocidade.
 
+Menu de contexto `Animation` > `Blend Space`.
+
 ![Figura: Editor Blen Space](imagens/animacao/unreal_engine_Blend_Space.jpg)
 
 *Figura: Editor Blen Space*
@@ -88,7 +95,7 @@ Este elemento é utilizado quanto existem dois parâmetros para controle das ani
 > Alteramos o nome do parâmetro para Speed com a finalidade de facilitar a identificação dentro da lógica de programação Bluerint que usaremos posteriormente.
 
 
-## Atividades
+## 5. Atividades
 
 ***
 ## Referências
