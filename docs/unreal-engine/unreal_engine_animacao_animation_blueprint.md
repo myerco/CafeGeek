@@ -1,69 +1,37 @@
 ---
-title: Animação - Blend Space 1D
-description: Em este capítulo iremos implementar várias animações utilizando um eixo de movimentação utilizando o elemento e editor `Blend space 1D`.
+title: Animação - Animation Bluerint
+description: É um Blueprint especializado que controla a animação de uma malha esquelética. Os gráficos são editados dentro do `Animation Blueprint Editor`, onde você pode realizar a combinação da animação, controlar diretamente os ossos de um esqueleto ou configurar a lógica que definirá a pose final da animação para uma malha esquelética a ser usada por quadro.
 tags: [Unreal Engine, Animação,Blend Space 1D]
 layout: page
 ---
 
-Em este capítulo iremos implementar várias animações utilizando um eixo de movimentação utilizando o elemento e editor `Blend space 1D`.
+Em este capítulo iremos implementar várias animações utilizando Animation Bluerint para implementar a lógica de movimentação.
 
 ## Índice
 1. [O que é Blend Space](#1-o-que-é-blend-space)
-1. [Blend Space 1D](#2-blend-space-1d)
-1. [Carregando o Editor](#3-carregando-o-editor)
-1. [Configurando a animação](#4-configurando-a-animação)
-1. [Vídeo Animation Blend Space 1D](#5-vídeo-animation-blend-space-1d) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
-1. [Animando com Blueprint](#6-animando-com-blueprint)
-1. [Vídeo Animation Bluerint](#7-vídeo-animation-blueprint) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
-1. [A classe do personagem](#8-a-classe-do-personagem)
-1. [Vídeo Classe do personagem](#9-vídeo-classe-do-personagem) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
-1. [Implementando a Corrida](#10-implementando-a-corrida)
-1. [Vídeo Implementado a Corrida](#11-vídeo-implmentando-a-corrida) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
-1. [Montando a animação de ataque](#12-montando-a-animação-de-ataque)
-1. [Vídeo montando Animação de ataque](#13-vídeo-montanto-animação-de-ataque) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
-1. [Animação básica com AnimGraph](#14-animação-básica-com-animgraph)
-1. [Animação de ataque com AnimGraph](#15-animação-de-ataque-com-animGraph)
-1. [Vídeo Atacando](#16-vídeo-atacando) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
-1. [Atacando somente com os braços](#17-atacando-somente-com-os-braços)
-1. [Animação de ataque completa e correndo somente os braços](#18-animação-de-ataque-completa-e-correndo-somente-os-braços)
-1. [Vídeo](#19-vídeo) ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
 
 
-## 1. O que é Blend Space
-O objetivo do `Blend Space` é reduzir a necessidade de criar nós individuais codificados para mesclar animações com um editor que realiza a mesclagem com base em propriedades ou condições específicas. Permitindo que o animador ou programador especifique as entradas, as animações e como as entradas são usadas para mesclar entre as animações, virtualmente qualquer tipo de mesclagem pode ser executado usando o Blend Space.
+<a name="1"></a>
+## 1. Animation Bluerint
+É um Blueprint especializado que controla a animação de uma malha esquelética. Os gráficos são editados dentro do `Animation Blueprint Editor`, onde você pode realizar a combinação da animação, controlar diretamente os ossos de um esqueleto ou configurar a lógica que definirá a pose final da animação para uma malha esquelética a ser usada por quadro.
 
-## 2. Blend Space 1D
-Os Blend Spaces também podem ser criados em um formato unidimensional, conhecido como Blend Space 1D. Eles podem se misturar entre qualquer número de poses ou animações, mas o fazem com base em um único valor de entrada. Um exemplo de caso de uso para um Blend Space 1D seria quando você tem um personagem que se orienta automaticamente na direção em que está se movendo. Se o personagem não pode se desviar ou se mover em várias direções, um Blend Space 1D pode ser usado para se misturar de um Idle a um Walk e, finalmente, a Run com base em um único valor de Speed (como mostrado no exemplo abaixo).
+Vamos implementar a lógica de movimentação utilizando o elemento Animation Bluerint para os dois personagens.
 
-## 3. Carregando o editor
-Para carregar o editor de animação na horizontal usamos o menu de contexto `Animation > Blend Space 1D`.
+## 2. ABP_Human
+1. Context Menu > Animation > Animation Bluerint;
+1. No editor Animation Graphs crie um `State` com `Add new state`;
 
-![Figura: Menu de contexto Animation > Blend Space 1D](imagens/animacao/unreal_engine_animation_blend_1d.jpg)
+  ![Figura: Animation graphs Output Pose](imagens/animacao/unreal_engine_human_state_base.jpg)
 
-*Figura: Menu de contexto Animation > Blend Space 1D*
+  *Figura: Animation graphs Output Pose*
 
-## 4. Configurando a animação
-Vamos renomear a variável de controle do eixo horizontal para *Speed* e alterar os seus valores como exemplificado abaixo:
-- `Horizontal Axis`
-  - `Name` : Speed
-  - `Maximum axis value` : 220
-  - `Interpolation time` : 0.5
+1. Dentro do nó criado adicionaremos um novo estado com `Add State` com o nome `Idle/Walk/Run`.
 
-Para criar a movimentação no eixo horizontal vamos arrastar os elementos apresentados em `Asset Browser` para a linha do tempo.
-- Mutant_Idle em tempo 0;  
-- Mutant_Walking em tempo 110;  
-- Mutant_Run em tempo 220;  
+  ![Figura: Add State Idle/Walk/Run](imagens/animacao/unreal_engine_human_blendspace_1d_state.jpg)
 
-Para acompanhar o movimentação pressione Shift + LMB e arrastre o mouse.   
+  *Figura: Add State Idle/Walk/Run*
 
-## 5. Vídeo Animation Blend Space 1D
-[![Vídeo: Animation Blend Space 1D](http://img.youtube.com/vi/arRhm3KRUR0/0.jpg)](https://youtu.be/arRhm3KRUR0 "Aula 04")
-
-*Vídeo: Animation Blend Space 1D*
-
-## 6. Animando com Blueprint
-Em este passo iremos implementar utilizando `Animation Blueprint` para criar um fluxo de animação.
-
+## 3. ABP_Mutant
 Usando o menu de contexto `Animation > Animation Blueprint`.
 
 ![Figura: Menu contexto Animation > Blend Space 1D](imagens/animacao/unreal_engine_animation_animation_blueprint.jpg)  
@@ -78,35 +46,80 @@ Usando o menu de contexto `Animation > Animation Blueprint`.
 
   *Figura: AnimGraph BS_Mutant*
 
+1. Vídeo Animation Bluerint
+  [![Vídeo: Animation Bluerint](http://img.youtube.com/vi/a2JULC4-P1o/0.jpg)](https://youtu.be/a2JULC4-P1o "Aula 05")
 
-## 7. Vídeo Animation Bluerint
-[![Vídeo: Animation Bluerint](http://img.youtube.com/vi/a2JULC4-P1o/0.jpg)](https://youtu.be/a2JULC4-P1o "Aula 05")
+  *Vídeo: Animation Bluerint*
 
-*Vídeo: Animation Bluerint*
 
-## 8. A classe do personagem
-Em este passo iremos implementar a classe do personagem para incluir o esqueleto, malha e elementos do fluxo de animação.
+<a name="6"></a>
+## 4. Blend Space e State Machine
+Para exemplificar vamos apresentar os dois métodos de Blend Space mas antes vamos adicionar a lógica para implementar as variáveis `Speed` e `Direction` que servirão como parâmetros para as animações.
 
-1. Crie o objeto BP_Mutant do tipo `Character`;
-1. Adicione os seguintes componentes e hierarquias:
-   - `SpringArm` - Habilite a opção `Use Pawn Control Rotation`
-   - `Camera` - Componente câmera.
-1. Adicione a o esqueleto e animação do personagem criados anteriormente.
-   - `Skeletal Mesh`: Mutant  
-   - `Animation Mode`: Use Animation Bluerint
-   - `Anim Class`: ABP_Mutant_C
-1. Em `CharacterMomement` atualize os valores:
-   - `Max Walk Speed`: 110
-   - `Max Walk Speed Crouched`: 110
-1. Copiar todos os nós do `Event Graph` de `ThirdPersonCharacter` para componente criado e declare as variáveis não reconhecidas.
-1. Para testar a movimentação crie um level de teste e configure `World Settings` para:
-   - `Default Pawn`: BP_Mutant
+![Figura: Animation Bluerint -Speeed e Direction](imagens/animacao/unreal_engine_blueprint_direction_speed.jpg)
 
-## 9. Vídeo Classe do personagem
-[![Vídeo: Animation Classe do personagem](http://img.youtube.com/vi/obLJb4RBySA/0.jpg)](https://youtu.be/obLJb4RBySA "Aula 06")
+*Figura: Animation Bluerint -Speeed e Direction*
 
-*Vídeo: Animation Classe do personagem*
 
+1. `Blend Space 1D` - Criado anteriormente, BS_Human1D recebe como parâmetro `Speed` dentro do nó `Idle/Walk/Run`.
+
+  ![Figura: Blend Space 1D dentro do State](imagens/animacao/unreal_engine_human_blendspace_1d_animation.jpg)
+
+  *Figura: Blend Space 1D dentro do State*
+
+1. `Blend Space`  - Criado anteriormente, BS_Human recebe como parâmetro `Speed` e `Direction` dentro do nó `Idle/Walk/Run`.
+
+  ![Figura: Blend Space 1D dentro do State](imagens/animacao/unreal_engine_human_blendspace_state.jpg)
+
+  *Figura: Blend Space 1D dentro do State*
+
+<a name="7"></a>
+## 7. Saltando - Jump
+Para simular o salto do personagem vamos adicionar os seguintes estados e em seguida fazer as suas conexões.
+
+![Figura: State Jump](imagens/animacao/unreal_engine_animation_state_jump.jpg)
+
+*Figura: State Jump*
+
+Em `Jump_Start` adicionamos a animação `S_Human_Jump_Start` iniciando a animação de salto.
+
+![Figura: State Jump Start](imagens/animacao/unreal_engine_animation_state_jump_start.jpg)
+
+*Figura: State Jump Start*
+
+Repetimos a operação para os outros estados adicionando as animações :
+- S_Human_Jump_Loop;
+- S_Human_Jump_End;
+
+N condição de controle de fluxo entre `Idle/Walk/Run` e `Jump_Start` vamos utilizar a variável `InAir` e testar se o valor é `True`.
+
+![Figura: State Jump Start InAir](imagens/animacao/unreal_engine_animation_state_jump_start_inair.jpg)
+
+*Figura: State Jump Start InAir*
+
+Na condição de controle de fluxo entre `Jump_End` e `Idle/Walk/Run` vamos utilizar a variável `InAir` e testar se o valor não é `True`.
+
+![Figura: State Jump Start Not InAir](imagens/animacao/unreal_engine_animation_state_jump_start_not_inair.jpg)
+
+*Figura: State Jump Start Not InAir*
+
+Na condição de controle de fluxo entre `Jump_Start` e `Jump_Loop` vamos utilizar a função `Current Time (Ratio) (S_Jump_Start)`. Esta função retorna a proporção de tempo atual da sequência e se o valor for menor 0.1 ou 10% de tempo para acabar deve ser feito a transição para outro nó.
+
+![Figura: State Condition Current Time (Ratio)](imagens/animacao/unreal_engine_animation_state_jump_start_end_time.jpg)
+
+*Figura: State Condition Current Time (Ratio)*
+
+Na condição de controle de fluxo entre `Jump_End` e `Idle/Walk/Run` vamos utilizar a função `Current Time (Ratio) (S_Jump_End)` com a mesma lógica do nó descrito anteriormente.
+
+![Figura: State Condition Current Time (Ratio) Jump End](imagens/animacao/unreal_engine_animation_state_jump_end_time.jpg)
+
+*Figura: State Condition Current Time (Ratio) Jump End*
+
+Devemos considerar que o salto depende se o personagem esta em queda e se a função `Jump` foi acionado na lógica da classe do personagem, neste casso `BP_Human`.
+
+![Figura: Classe BP Função Jump](imagens/animacao/unreal_engine_blueprint_jump.jpg)
+
+*Figura: Classe BP Função Jump*
 
 ## 10. Implementando a Corrida
 Em este passo iremos implementar a corrida do personagem. Vamos configura o evento `Left Shift` para alterar a propriedade `Max Walk Speed` do componente `CharacterMomement` com os valores 220 para velocidade máxima e 110 para caminhada.
