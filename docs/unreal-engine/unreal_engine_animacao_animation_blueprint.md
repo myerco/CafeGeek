@@ -41,10 +41,10 @@ O Editor é separado em `AnimGraph` e `EventGraph`, onde o primeiro implementa a
 
 
 1. Para criar o objeto ABP_Human utilizamos o menu de contexto > `Animation` > `Animation Bluerint`;
+
   ![Figura: Menu contexto Animation > Blend Space 1D](imagens/animacao/unreal_engine_animation_animation_blueprint.jpg)  
 
   *Figura Menu contexto Animation > Animation Blueprint*
-
 1. Aba MyBlueprint com a organização do editor.
 
   ![Figura: Editor Animmation Blueprint MyBlueprint](imagens/animacao/unreal_engine_animation_editor_graph.jpg)
@@ -61,13 +61,11 @@ O nó `Output Pose` é o estado ou pose final da animação. A seguir vamos cria
   ![Figura: Animation graphs Output Pose](imagens/animacao/unreal_engine_human_state_base.jpg)
 
   *Figura: Animation graphs Output Pose*
-
 1. Dentro do nó criado adicionaremos um novo estado com `Add State` com o nome `Idle/Walk/Run`.
 
   ![Figura: Add State Idle/Walk/Run](imagens/animacao/unreal_engine_human_blendspace_1d_state.jpg)
 
   *Figura: Add State Idle/Walk/Run*
-
 
 <a name="4"></a>
 ## 4. Blend Space e State Machine
@@ -182,7 +180,7 @@ Uma `Animation Montage` ou montagem de animação (ou montagem, para abreviar) f
 
 Em este passo utilizaremos o `Animation Montage` para montar as animações de ataque esquerda e direita.
 
-1. Menu de contexto `Animation > Animation Montage`;
+1. Menu de contexto `Animation` > `Animation Montage`;
 
   ![Figura: Menu Animation Montage](imagens/animacao/unreal_engine_animation_montage.jpg)
 
@@ -296,6 +294,7 @@ No `Event Graph` de `ABP_Mutant` adicionamos a lógica para verificar se o perso
 
 *Figura: Layerd Blend by bool*
 
+<a name="6.11"></a>
 ### 6.11 Vídeo
 [![Vídeo: Correndo e atacando](http://img.youtube.com/vi/1gjkcrU7pmA/0.jpg)](https://youtu.be/1gjkcrU7pmA "Aula 06")
 
