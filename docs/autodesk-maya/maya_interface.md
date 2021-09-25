@@ -97,6 +97,28 @@ Cuidado não podemos ter vértices sem conexão com outros
 - T - Um “T” significa que os objetos na camada são modelados: eles são exibidos em estrutura de arame e não podem ser selecionados. Um “R” significa que os objetos aos quais a camada está referenciada: eles não podem ser selecionados, mas mantêm o modo de exibição atual. Uma caixa em branco significa que os objetos na camada são normais e podem ser selecionados.
 
 
+## Grupos
+
+1. Hierarquia
+  MMB (Botão do meio) arreste os elementos para dentro de outros.
+  Selecionando o objeto principal todos os objetos são selecionados.
+  As alterações do objeto principal refletem em todos os objetos.
+1. Selecione os objetos (ctrl+G)  
+  Diferente de Hierarquia é criado um objeto separado para controlar os demais.
+
+## Combine e Separate
+1. Combine - Selecione os objetos `Mesh` > `Combine`
+1. Separate - Selecione o objeto `Mesh` > `Separate` vai ser criado um grupo.
+
+## Duplicando
+1. Duplicando - Ctrl + D
+1. Duplicando aproveitando a transformação  -  shift + D
+
+## Booleans
+
+1. `Mesh` > `Booleans`
+
+
 
 ## Preferências
 - [maya](https://help.autodesk.com/view/MAYAUL/2020/ENU/)
