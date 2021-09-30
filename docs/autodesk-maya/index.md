@@ -14,4 +14,9 @@ layout: page
 
 ## teste 1
 ## teste 2
+
+*TOC
 {:toc}
+
+## teste 3
+## teste 4
