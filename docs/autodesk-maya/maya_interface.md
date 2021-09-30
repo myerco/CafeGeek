@@ -119,6 +119,5 @@ Cuidado não podemos ter vértices sem conexão com outros
 1. `Mesh` > `Booleans`
 
 
-
 ## Preferências
 - [maya](https://help.autodesk.com/view/MAYAUL/2020/ENU/)
