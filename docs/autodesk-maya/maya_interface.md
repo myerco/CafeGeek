@@ -118,6 +118,18 @@ Cuidado não podemos ter vértices sem conexão com outros
 
 1. `Mesh` > `Booleans`
 
+## Modelagem NURBS
+
+1. Revolve
+1. Loft
+1. Extrude
+1. Isoparm
+1. Project Curve on Surface
+  1. Trim Tool para cortar surface
+
+## Texturas
+
+
 
 ## Preferências
 - [maya](https://help.autodesk.com/view/MAYAUL/2020/ENU/)
