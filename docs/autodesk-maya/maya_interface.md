@@ -121,13 +121,19 @@ Cuidado não podemos ter vértices sem conexão com outros
 ## Modelagem NURBS
 
 1. Revolve
+  1. Ordem de seleção do objeto altera a forma final;
+  1. A curva fica associada ao objeto criado até que o histórico seja removido;
 1. Loft
 1. Extrude
+  1. É possível criar um objeto poligonal na construção usando as configurações
 1. Isoparm
+  1. É possível separar ou juntar usando `Surface` > `Detach` ou `Attach`
 1. Project Curve on Surface
   1. Trim Tool para cortar surface
 
 ## Texturas
+
+## Desenho 3D Modeling
 
 
 
