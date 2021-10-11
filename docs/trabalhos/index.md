@@ -9,72 +9,92 @@ layout: page
 Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de Jogos Digitais.
 
 ## Índice
-1. [Roteiros](#1)
-1. [Jogos](#2)
-    1. [Don't Stop Looking](#2.1)
-    1. [Atlus um Reino em Guerra](#2.1)
-    1. [Happy Dance](#2.1)
-    1. [Firescape](#2.4)
-1. [Projetos](#3)
-1. [Portfólios](#4)
+1. [Darkness of D-day](#1)
+1. [Killer Hotel](#2)
+1. [Lines of Fate](#3)
+1. [A Queda](#4)
+1. [Don't Stop Looking](#5)
+1. [Atlus um Reino em Guerra](#6)
+1. [Happy Dance](#7)
+1. [Firescape](#8)
+1. [Death Vip](#9)
+1. [Rafael Ferreira](#10) (R)
 
 ***
 
 <a name="1"></a>
-## 1. Roteiros
-Roteiros escritos pelos acadêmicos.
+## 1. Darkness of D-day
+Link: [Darkness of D-day](darkness_of_day.html)
 
-1. [Darkness of D-day](darkness_of_day.html)
+Categoria: Roteiro
 
-    Autor: Raphael Ferreira Martins
-
-1. [Killer Hotel](killer_hotel.html)
-
-    Autor: Carlos
-
-1. [Lines of Fate](lines_of_fate.html)
-
-    Autor: Vários
-
-1. [A Queda](#)
-
-    Autor: CafeGeek
+Autor: Raphael Ferreira Martins
 
 <a name="2"></a>
-## 2. Jogos
-Jogos desenvolvidos e apresentados como trabalhos acadêmicos e projetos de Gamejam.
+## 2. Killer Hotel
+Link: [Killer Hotel](killer_hotel.html)
 
-<a name="2.1"></a>
-### 2.1 Don't Stop Looking
+Categoria: Roteiros
+
+Autor: Carlos
+
+<a name="3"></a>
+## 3. Lines of Fate
+Link: [Lines of Fate](lines_of_fate.html)
+
+Categoria: Roteiro
+
+Autor: Vários
+
+<a name="4"></a>
+## 4. A Queda
+Link: [A Queda](#)
+
+Categoria: Roteiro
+
+Autor: CafeGeek
+
+<a name="5"></a>
+## 5 Don't Stop Looking
 
 ![Don't Stop Looking](https://m.gjcdn.net/game-screenshot/300/4621714-ux45ttaz-v4.webp)
 
-Site: [Don't Stop Looking ](https://gamejolt.com/games/dontstoplooking/557220)   
+Site: [Don't Stop Looking](https://gamejolt.com/games/dontstoplooking/557220)   
+
+link: [Don't Stop Looking](dont_stop_looking.html)
+
+Categoria: Jogo
 
 Autor: Felipe Malagueta
 
-<a name="2.2"></a>
-### 2.2 Atlus um Reino em Guerra  
+<a name="6"></a>
+## 6. Atlus um Reino em Guerra  
 
 ![Atlus um reino em guerra](https://m.gjcdn.net/game-screenshot/400/4796418-naut7iug-v4.webp)               
 
 Vídeo: [Atlus um Reino em Guerra](https://www.youtube.com/watch?v=pu4LWLRCIKk)    
 
-Site : [Atlus](https://gamejolt.com/games/atlus/557935)     
+Site : [Atlus](https://gamejolt.com/games/atlus/557935)
+
+link: [Atlus um reino em Guerra](https://github.com/SoBoRn85/JCC)     
+
+Categoria: Jogo
 
 Autor: Robson Maciel
 
-<a name="2.3"></a>
-### 2.3 Happy Dance  
+<a name="7"></a>
+## 7. Happy Dance  
 
 ![Aula 01](http://img.youtube.com/vi/pegQzuS_Qr8/0.jpg)    
 
 Vídeo: [Happy Dance](https://www.youtube.com/watch?v=pegQzuS_Qr8&t=99s)       
 
+Categoria: Jogo
+
 Autor: Carlos César, Robson Maciel e Pedro Henrique
 
-<a name="2.4"></a>
-### 2.4 Firescape   
+<a name="8"></a>
+## 8. Firescape   
 
 ![Firescape](https://m.gjcdn.net/game-screenshot/300/2270444-dew2tkfe-v4.webp)            
 
@@ -82,10 +102,16 @@ Autor: Felipe Malagueta, Robson Maciel, Matheus e Yuri
 
 Site: [Firescape](https://gamejolt.com/games/firescape/430743)    
 
-<a name="3"></a>
-## 3. Projetos - GDD
-1. [Modelo - Death Vip](modelo_gdd_death_vip.html)
+Categoria: Jogo
 
-<a name="4"></a>
-## 4. Portfólios
-1. [Raphael Ferreira](https://www.behance.net/raphaelferreira10)
+<a name="3"></a>
+## 9. Death Vip
+link: [Modelo - Death Vip](modelo_gdd_death_vip.html)
+
+Categoria: Modelo
+
+<a name="10"></a>
+## 10. Rafael Ferreira
+Link: [Raphael Ferreira](https://www.behance.net/raphaelferreira10)
+
+Categoria: Portfólio
