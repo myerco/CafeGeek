@@ -140,7 +140,6 @@ Cuidado não podemos ter vértices sem conexão com outros
   - Menu: `Arnold` > `Arnold RenderView`
   - Cameras
   - Iluminação
-
 ## Tipos de Materiais (Maya)
 - Lambert (simples sem reflexo, brilho e transparência)
   - Color: cor do material
