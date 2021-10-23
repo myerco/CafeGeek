@@ -135,6 +135,34 @@ Cuidado não podemos ter vértices sem conexão com outros
 
 ## Desenho 3D Modeling
 
+## Materiais
+- Render
+  - Menu: `Arnold` > `Arnold RenderView`
+  - Cameras
+  - Iluminação
+
+## Tipos de Materiais (Maya)
+- Lambert (simples sem reflexo, brilho e transparência)
+  - Color: cor do material
+  - transparência: Aumenta o alpha
+  - Ambiente color: aumenta a tonalidade da cor
+  - Incandescência: Adiciona uma luz ao material
+  - Bump Mapping: adiciona textura para associar rugosidade ou padrões.
+  - Diffuse: Torna mais claro ou escuro a cor
+- Blind (Com brilho e reflexo)
+  - Specular [Reflexão especular](https://pt.wikipedia.org/wiki/Reflex%C3%A3o_especular)
+  - Eccentricty: Aumenta o brilho
+  - Specular Roll off: Desfoque aplicado no brilho
+  - Specular color : Cor do brilho   
+  - Reflectivity: Aumenta a intensidade do reflexo
+- [Phong](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Maya/files/GUID-3EDEB1B3-4E48-485A-9714-9998F6E4944D-htm.html) (Parecido com o Blind mas com mais parâmetros)  
+  - Specular Shadding
+  - Roughness: rugosidade
+  - Highlight size: tamanho do desfoque
+- Anisotropic
+  - Specular Shader
+  - Angle: ângulo da luz
+
 
 
 ## Preferências
