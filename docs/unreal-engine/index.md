@@ -45,6 +45,7 @@ layout: page
     1. [Blend Space](unreal_engine_animacao_blend_space.html)        
     1. [Animation Blueprint](unreal_engine_animacao_animation_blueprint.html)        
     1. [Aim Offset](unreal_engine_animacao_aim_offset.html)
+    1. [Animação 2D](unreal_engine_animacao2d.html)
 1. Multiplayer
     1. [Multiplayer](multiplayer.html)
 1. Inteligência artificial
