@@ -163,6 +163,9 @@ Cuidado não podemos ter vértices sem conexão com outros
   - Angle: ângulo da luz
 
 
+## Mapeamento UV
+- UV Shells : Context Menu > UV > select vertex > ctrl > context menu > To UV shells
 
 ## Preferências
 - [maya](https://help.autodesk.com/view/MAYAUL/2020/ENU/)
+- [Mapeamento UV](https://pt.wikipedia.org/wiki/Mapeamento_UV)
