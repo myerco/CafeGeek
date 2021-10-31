@@ -99,6 +99,7 @@ Com `Tile Sets` podemos criar uma 'Paleta' de sprites para ser usadas pintadas n
 
 
 
+
 ## Referências
 
 - [O que é animação 2D e o que a difere dos outros tipos de animações?](https://blog.saga.art.br/animacao-2d/)
