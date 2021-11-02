@@ -123,9 +123,20 @@ Com `Tile Sets` podemos criar uma 'Paleta' de sprites para ser usadas pintadas n
 3. Componente `Camera`;
   - `Projection mode` - Orthographic;
   - `Ortho Width` - 1024;
+  3. Componente `SpringArm`;
+    - `Do Collision Set` - False;
+    - `Rotation` - Z= (-90);  
+    - `Target Arm Length` - 1000;
+    - `Inherit Yaw` - False **Importante para a movimentação em Z (Yaw)**; 
 4.  Componente `Capsule` ajuste o tamanho da capsula.
   - `Capsule Half Height`;
   - `Capsule Radius`;
+5.  Componente `Character Movement`.
+  - `Use Flat Base for floor Checks` - true;
+  - `Gravity Scale` - 2;  
+  - `Jump Z Velocity` - 1000;
+  - `Constraint to Plane`- true;
+  - `Plane Constraint Normal` - Y=(-1);
 
 ## Animação do Personagem
 1. Vamos criar uma variável Enumeration para controlar o estado da animação:
