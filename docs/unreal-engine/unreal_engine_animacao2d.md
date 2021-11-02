@@ -93,11 +93,59 @@ Com `Tile Sets` podemos criar uma 'Paleta' de sprites para ser usadas pintadas n
 3. Editando Tile Set:
 - `Tile Size`: Tamanho de cada Tile/Área que pode ser usada;
 - `Tile Sheet Texture`:  Textura;
+4. Para adicionar colisão nos elementos:
+  ![Figura: Tile Set Collision](imagens/animacao/unreal_engine_paper2d_tileset_colision.jpg)
+  - Selecione a opção `Colliding Tiles` para mostrar os elementos com colisão;
+  - Adicione as coordenadas de colisão com `Add Box`;
 
 ## Tile Map
 
+1. Selecione um `Tile Set` para ser usado como paleta;
+2. Para melhor controle dos elementos adicione 3 camadas na seguinte ordem:
+  - Foreground - Camada para os elementos que devem ficar na frente do personagem;
+  - Default - Camada para os elementos na mesma linha do personagem;c
+  - Background - Camada para os elementos que ficam atrás do personagem;
+3. `Projection Mode` - Orthogonal;
+4. `Separation Per Layer` - Adicione um valor em pixel para separar cada camada;
+
+## Flipbook
+1. Selecione os sprites que simulam o movimento de caminhar;
+2. Exclua ou movimente os elementos para melhorar a animação;
 
 
+## Personagem
+1. Adicione um Blueprint do tipo `Paper Character`.
+  ![Figura: Blueprint class PaperCharacter](imagens/animacao/unreal_engine_paper_character.jpg)
+
+  *Figura: Blueprint class PaperCharacter*
+2. Componente `Sprite`.
+  - `Source Flipbook`: FB_Animacao_idle criado anteriormente.
+3. Componente `Camera`;
+  - `Projection mode` - Orthographic;
+  - `Ortho Width` - 1024;
+4.  Componente `Capsule` ajuste o tamanho da capsula.
+  - `Capsule Half Height`;
+  - `Capsule Radius`;
+
+## Animação do Personagem
+1. Vamos criar uma variável Enumeration para controlar o estado da animação:
+  ![Figura: Enumeration State](imagens/animacao/unreal_engine_paper2d_enum_state.jpg)
+
+  *Figura: Blueprint class PaperCharacter*
+  - Idle;
+  - Running;
+  - Jumping.
+2. No personagem definimos as seguintes variáveis:
+
+  ![Figura: Character Varáveis ](imagens/animacao/unreal_engine_paper2d_character_variables.jpg)
+
+  *Figura: Character Varáveis*
+
+  - Moving `Boolean` - Para identificar quando o personagem se movimenta;
+  - Falling `Boolean` - Para identificar quando o personagem esta caindo;
+  - IdleFlipbook `Paper Flipbook` - Com o valor do Flipbook definido para Idle;
+  - RunFlipbook `Paper Flipbook` - Flipbook Run;  
+  - JumpFlipbook `Paper Flipbook` - Flipbook Jump.  
 
 
 ## Referências
@@ -108,3 +156,4 @@ Com `Tile Sets` podemos criar uma 'Paleta' de sprites para ser usadas pintadas n
 - [Paper 2D](https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/Paper2D/)
 - [Texture Properties](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Textures/Properties/)
 - [Paper 2D Tile Sets / Tile Maps](https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/Paper2D/TileMaps/)
+- [Introduction to Paper2D](https://www.youtube.com/playlist?list=PLZlv_N0_O1gauJh60307mE_67jqK42twB)
