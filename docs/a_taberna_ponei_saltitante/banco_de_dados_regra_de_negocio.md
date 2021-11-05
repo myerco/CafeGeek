@@ -17,7 +17,7 @@ Para tal, procura implementar um sistema informatizado para registrar as seguint
 - Registro de clientes e suas classificações;
 - Tabela de preços;
 
-## 1. Detalhes
+## Detalhes
 - Os cargos tem um valor para ser acrescido no salário do empregado;
 - Os cargos estão hierarquicamente organizados;
 - Empregados são registrados com um número de matricula;
@@ -29,7 +29,7 @@ Para tal, procura implementar um sistema informatizado para registrar as seguint
 - Os pedidos dos clientes são feitos em um caderno e nem sempre resultam em uma venda;
 - Produtos podem ser compostos de outros itens, como por exemplo uma espada com pedras preciosas, aumentando a sua eficácia. Vendemos as pedras em separado também;
 
-## 2. Necessidades
+## Necessidades
 - Quantos clientes estão registrados e quais são suas raças?
 - Quantos clientes por classe estão registrados?
 - Qual o valor total das vendas para os clientes da classe Padrão?

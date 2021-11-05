@@ -53,21 +53,19 @@ Podemos organizar os elementos que são apresentados na cena predefinindo coorde
 A fim de otimizar a renderização das texturas aplicamos os seguintes parâmetros para cada objeto:
 
 1. Parâmetros da textura.
+![Figura: Details Texture parameteres 2D](imagens/animacao/unreal_engine_paper2d_details_texture_2d.jpg)
 
-  ![Figura: Details Texture parameteres 2D](imagens/animacao/unreal_engine_paper2d_details_texture_2d.jpg)
+*Figura: Figura: Details Texture parameteres 2D*
 
-    *Figura: Figura: Details Texture parameteres 2D*
+- Compression Settings: UseInterface2D (RGBA) ;
+- Mip Gen Settings: NoMipMaps
 
-    - Compression Settings: UseInterface2D (RGBA) ;
-    - Mip Gen Settings: NoMipMaps
-
-  >A geração do Mip-map ocorre durante a importação da Textura e cria uma cadeia de Mip-map para a Textura. A cadeia mip-map consiste em vários níveis da imagem de amostra, cada um com metade da resolução do nível anterior. Esses dados permitem que a placa gráfica renderize mais rápido ao usar os mips inferiores (menos largura de banda da memória) e também reduz o aliasing da textura (cintilante) que se torna visível ao ter textura detalhada em certas distâncias.
+>A geração do Mip-map ocorre durante a importação da Textura e cria uma cadeia de Mip-map para a Textura. A cadeia mip-map consiste em vários níveis da imagem de amostra, cada um com metade da resolução do nível anterior. Esses dados permitem que a placa gráfica renderize mais rápido ao usar os mips inferiores (menos largura de banda da memória) e também reduz o aliasing da textura (cintilante) que se torna visível ao ter textura detalhada em certas distâncias.
 
 2. Podemos aplicar automáticamente para um ou várias texturas selecionadas usando o menu de contexto `Sprite Actions` > `Apply Paper2D Texture Settings`.
+![Figura: Apply Papper2D Texture Settings](imagens/animacao/unreal_engine_paper2d_apply_texture_settings.jpg)
 
-  ![Figura: Apply Papper2D Texture Settings](imagens/animacao/unreal_engine_paper2d_apply_texture_settings.jpg)
-
-    *Figura: Apply Papper2D Texture Settings*
+*Figura: Apply Papper2D Texture Settings*
 
 
 ## Preparando os sprites
@@ -115,19 +113,19 @@ Com `Tile Sets` podemos criar uma 'Paleta' de sprites para ser usadas pintadas n
 
 ## Personagem
 1. Adicione um Blueprint do tipo `Paper Character`.
-  ![Figura: Blueprint class PaperCharacter](imagens/animacao/unreal_engine_paper_character.jpg)
+![Figura: Blueprint class PaperCharacter](imagens/animacao/unreal_engine_paper_character.jpg)
 
-  *Figura: Blueprint class PaperCharacter*
+*Figura: Blueprint class PaperCharacter*
 2. Componente `Sprite`.
   - `Source Flipbook`: FB_Animacao_idle criado anteriormente.
 3. Componente `Camera`;
   - `Projection mode` - Orthographic;
   - `Ortho Width` - 1024;
-  3. Componente `SpringArm`;
-    - `Do Collision Set` - False;
-    - `Rotation` - Z= (-90);  
-    - `Target Arm Length` - 1000;
-    - `Inherit Yaw` - False **Importante para a movimentação em Z (Yaw)**; 
+3. Componente `SpringArm`;
+  - `Do Collision Set` - False;
+  - `Rotation` - Z= (-90);  
+  - `Target Arm Length` - 1000;
+  - `Inherit Yaw` - False **Importante para a movimentação em Z (Yaw)**;
 4.  Componente `Capsule` ajuste o tamanho da capsula.
   - `Capsule Half Height`;
   - `Capsule Radius`;
@@ -140,23 +138,22 @@ Com `Tile Sets` podemos criar uma 'Paleta' de sprites para ser usadas pintadas n
 
 ## Animação do Personagem
 1. Vamos criar uma variável Enumeration para controlar o estado da animação:
-  ![Figura: Enumeration State](imagens/animacao/unreal_engine_paper2d_enum_state.jpg)
+![Figura: Enumeration State](imagens/animacao/unreal_engine_paper2d_enum_state.jpg)
 
-  *Figura: Blueprint class PaperCharacter*
-  - Idle;
-  - Running;
-  - Jumping.
+*Figura: Blueprint class PaperCharacter*
+- Idle;
+- Running;
+- Jumping.
 2. No personagem definimos as seguintes variáveis:
 
-  ![Figura: Character Varáveis ](imagens/animacao/unreal_engine_paper2d_character_variables.jpg)
+![Figura: Character Varáveis ](imagens/animacao/unreal_engine_paper2d_character_variables.jpg)
 
-  *Figura: Character Varáveis*
-
-  - Moving `Boolean` - Para identificar quando o personagem se movimenta;
-  - Falling `Boolean` - Para identificar quando o personagem esta caindo;
-  - IdleFlipbook `Paper Flipbook` - Com o valor do Flipbook definido para Idle;
-  - RunFlipbook `Paper Flipbook` - Flipbook Run;  
-  - JumpFlipbook `Paper Flipbook` - Flipbook Jump.  
+*Figura: Character Varáveis*
+- Moving `Boolean` - Para identificar quando o personagem se movimenta;
+- Falling `Boolean` - Para identificar quando o personagem esta caindo;
+- IdleFlipbook `Paper Flipbook` - Com o valor do Flipbook definido para Idle;
+- RunFlipbook `Paper Flipbook` - Flipbook Run;  
+- JumpFlipbook `Paper Flipbook` - Flipbook Jump.  
 
 
 ## Referências
