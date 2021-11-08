@@ -19,7 +19,7 @@ Neste projeto serão apresentadas técnicas de modelagem de banco de dados e dic
 
 ## Índice
 1. [Conhecendo a Taberna](banco_de_dados_conhecendo_a_taberna.html)
-1. [A Regra de Negócio](banco_de_dados_modelo_regra_de_negocio.html)
+1. [A Regra de Negócio](banco_de_dados_regra_de_negocio.html)
 1. [Modelo de dados e o Processo de Desenvolvimento de Banco de Dados](banco_de_dados_modelos_de_dados.html)
 1. [Iniciando a Analise](banco_de_dados_iniciando_analise.html)
 1. [O SQLDeveloper](banco_de_dados_sqldeveloper_com_postgresql.html)

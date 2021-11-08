@@ -5,7 +5,6 @@ tags: [Banco de Dados, Oracle, Oracle SQLDeveloper, MER, modelo relacional,Postg
 layout: page
 ---
 
-##  O Modelo de dados
 Sob a estrutura do banco de dados está o modelo de dados: um conjunto de ferramentas conceituais usadas para a descrição de dados, relacionamentos entre dados, semântica de dados e regras de consistência.
 
 ## Existem diversos tipos de modelos de banco de dados, entre eles:

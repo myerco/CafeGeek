@@ -1,39 +1,51 @@
 ---
 title: Animação - 2d
-description: Animação 2D.
+description: O Unreal Engine implementa animação em duas dimensões utilizando o sistema Paper 2D que é um sistema baseado em sprite para a criação de jogos híbridos 2D e 2D / 3D inteiramente dentro do editor.
 tags: [Unreal Engine, Animação 2D,Paper 2D]
 layout: page
 ---
 
+Em este capitulo iremos implementar animações em duas dimensões.
+
 ## Índice
+1. [Animação 2D](#1)
+1. [Estruturas básicas](#2-estruturas-basicas)
 
-## Animação 2D
+<a name="1"></a>
+## 1. Animação 2D
+Animação em duas dimensões é uma técnica que utiliza sequenciamento de imagens estáticas.
 
-## Paper 2D
-Paper 2D in Unreal Engine 4 (UE4) é um sistema baseado em sprite para a criação de jogos híbridos 2D e 2D / 3D inteiramente dentro do editor. No núcleo do Paper 2D estão os Sprites (que são uma malha plana com textura mapeada e um material associado). Você pode editar Sprites dentro do UE4 com o Sprite Editor e criar animações baseadas em sprites com Flipbooks (que animam uma série de Sprites sequencialmente usando quadros-chave e especificando uma duração em quadros para exibi-los).
+![Animação 2D: de um simples desenho à solução para uma empresa](https://maestrofilmes.com.br/wp-content/uploads/2019/10/alfabeta_maio_texto1-1080x614-1024x582.png)
 
-## Sprites
-Um Sprite em papel 2D é uma malha plana com mapeamento de textura e material associado que pode ser renderizado no mundo, criado inteiramente no Unreal Engine 4 (UE4). Em termos mais simples, é uma maneira rápida e fácil de desenhar imagens 2D no UE4.
+*Figura: https://maestrofilmes.com.br/animacao-2d/*
 
-## Tiles Set
-Os conjuntos de blocos e os mapas de blocos no Paper 2D fornecem uma maneira rápida e fácil de fazer o layout da estrutura ou "layout geral" de seus níveis 2D. Ao criar e usar um conjunto de blocos (uma coleção de blocos retirados de uma textura) com um mapa de blocos (uma grade 2D com largura e altura definidas em blocos), você pode selecionar vários blocos para "pintar" no mapa de blocos, que podem ser usado para seu layout de nível. Você também pode pintar ladrilhos em várias camadas, cada uma das quais pode especificar qual ladrilho deve aparecer em cada célula do mapa para aquela camada específica.
+<a name="2"></a>
+## 2. Como o Unreal Engine trabalha com animação 2D?
+O Unreal Engine implementa animação em duas dimensões utilizando o sistema **Paper 2D** que é um sistema baseado em *sprite* para a criação de jogos híbridos 2D e 2D / 3D inteiramente dentro do editor.
 
-## Tiles Maps
+> **Sprite**
+>
+>É uma malha plana com textura mapeada e um material associado.
 
-## Flipbooks
+O **Paper 2D** é baseado em um conjunto de elementos que são :
+- `Sprites` - Desenhos de duas dimensões;
+- `Flipbook` - Objeto para sequenciar um conjunto de imagens *sprites* simulando animações;
+- `Tile Sets` - Objeto para agrupar e manipular um conjunto de *sprites*;
+- `Tile Maps` - Objeto para pintar as cenas utilizando `Tile Set`.
 
-## Preparando o ViewPort
+<a name="3"></a>
+## 3. Preparando o ViewPort
 Podemos organizar os elementos que são apresentados na cena predefinindo coordenadas no eixo Y.
 
 1. No menu `Edit` > `Project Settings` navegue até `2D`.
   ![Figura: Project Settings 2D](imagens/animacao/unreal_engine_paper2d_project_settings.jpg)
 
-    *Figura: Project Settings 2D*
+  *Figura: Project Settings 2D*
 
 2. Após a configuração no ViewPort deve aparecer as opções para organizar os objetos na cena.
-![Figura: ViewPort Snap](imagens/animacao/unreal_engine_paper2d_viewport.jpg)
+  ![Figura: ViewPort Snap](imagens/animacao/unreal_engine_paper2d_viewport.jpg)
 
-    *Figura: ViewPort Snap*
+  *Figura: ViewPort Snap*
 
 3. Os objetos adicionados na cena devem ficar no *snap* selecionado obedecendo a localização Y predefinida, esse processo é similar ao trabalho de desenho por camadas.
 
@@ -45,35 +57,39 @@ Podemos organizar os elementos que são apresentados na cena predefinindo coorde
 
   ![Figura: ViewPort Rigth Z,X](imagens/animacao/unreal_engine_paper2d_viewport_xx.jpg)
 
-    *Figura: ViewPort Rigth Z,X*
+  *Figura: ViewPort Rigth Z,X*
 
+<a name="4"></a>
+## 4. Sprites
+Um Sprite em papel 2D é uma malha plana com mapeamento de textura e material associado que pode ser renderizado no mundo, criado inteiramente no Unreal Engine 4 (UE4). Em termos mais simples, é uma maneira rápida e fácil de desenhar imagens 2D no UE4.
 
-## Preparando as texturas
-
+<a name="4.1"></a>
+### 4.1 Preparando as texturas
 A fim de otimizar a renderização das texturas aplicamos os seguintes parâmetros para cada objeto:
 
 1. Parâmetros da textura.
-![Figura: Details Texture parameteres 2D](imagens/animacao/unreal_engine_paper2d_details_texture_2d.jpg)
 
-*Figura: Figura: Details Texture parameteres 2D*
+  ![Figura: Details Texture parameteres 2D](imagens/animacao/unreal_engine_paper2d_details_texture_2d.jpg)
 
-- Compression Settings: UseInterface2D (RGBA) ;
-- Mip Gen Settings: NoMipMaps
+  *Figura: Figura: Details Texture parameteres 2D*
+
+  - `Compression Settings`: UseInterface2D (RGBA) ;
+  - `Mip Gen Settings`: NoMipMaps
 
 >A geração do Mip-map ocorre durante a importação da Textura e cria uma cadeia de Mip-map para a Textura. A cadeia mip-map consiste em vários níveis da imagem de amostra, cada um com metade da resolução do nível anterior. Esses dados permitem que a placa gráfica renderize mais rápido ao usar os mips inferiores (menos largura de banda da memória) e também reduz o aliasing da textura (cintilante) que se torna visível ao ter textura detalhada em certas distâncias.
 
 2. Podemos aplicar automáticamente para um ou várias texturas selecionadas usando o menu de contexto `Sprite Actions` > `Apply Paper2D Texture Settings`.
-![Figura: Apply Papper2D Texture Settings](imagens/animacao/unreal_engine_paper2d_apply_texture_settings.jpg)
+  ![Figura: Apply Papper2D Texture Settings](imagens/animacao/unreal_engine_paper2d_apply_texture_settings.jpg)
 
-*Figura: Apply Papper2D Texture Settings*
+  *Figura: Apply Papper2D Texture Settings*
 
-
-## Preparando os sprites
+<a name="4.2"></a>
+### 4.2 Preparando os sprites
 1. Selecione uma textura para ser apresentada no fundo da cena utilizando o menu de contexto acione `Sprite Actions` > `Create Sprite`;
 2. Renomeie para SPR_Factory_Background
 3. [Editor de Sprite](https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/Paper2D/Sprites/Editor/)
 4. Toolbar
-  - Add Box/Add Polygon/Add Circle  - Adiciona um área adicional para colisão ou renderização geometria;
+  - `Add Box/Add Polygon/Add Circle`  - Adiciona um área adicional para colisão ou renderização geometria;
 5.  Mode Switching Toolbar
   - Edit Source Region - Exibe a textura de origem completa e permite que você defina a área que compõe o sprite individual;
   - Edit Collision - Exibe e permite a edição das formas de colisão do sprite;
@@ -81,7 +97,8 @@ A fim de otimizar a renderização das texturas aplicamos os seguintes parâmetr
 6. Podemos adicionar física nos sprites em `Details` > `Simulate Physisc`;
 7. Sprites podem ser adicionados na cena.
 
-## Tile Sets
+<a name="5"></a>
+## 5. Tile Sets
 `Tile Sets` e `Tile Maps` no Paper 2D fornecem uma maneira rápida e fácil de fazer o layout da estrutura ou "layout geral" de seus níveis 2D. Ao criar e usar um conjunto de blocos (uma coleção de blocos extraídos de uma textura) com um mapa de blocos (uma grade 2D com largura e altura definidas em blocos), você pode selecionar vários blocos para "pintar" no mapa de blocos, que podem ser usado para seu layout de nível. Você também pode pintar ladrilhos (tiles) em várias camadas, cada uma das quais pode especificar qual ladrilho deve aparecer em cada célula do mapa para aquela camada específica.
 
 Com `Tile Sets` podemos criar uma 'Paleta' de sprites para ser usadas pintadas no `Tile Maps`.
@@ -96,8 +113,8 @@ Com `Tile Sets` podemos criar uma 'Paleta' de sprites para ser usadas pintadas n
   - Selecione a opção `Colliding Tiles` para mostrar os elementos com colisão;
   - Adicione as coordenadas de colisão com `Add Box`;
 
-## Tile Map
-
+<a name="6"></a>
+## 6. Tile Map
 1. Selecione um `Tile Set` para ser usado como paleta;
 2. Para melhor controle dos elementos adicione 3 camadas na seguinte ordem:
   - Foreground - Camada para os elementos que devem ficar na frente do personagem;
@@ -106,16 +123,20 @@ Com `Tile Sets` podemos criar uma 'Paleta' de sprites para ser usadas pintadas n
 3. `Projection Mode` - Orthogonal;
 4. `Separation Per Layer` - Adicione um valor em pixel para separar cada camada;
 
-## Flipbook
+<a name="7"></a>
+## 7. Flipbooks
+No Unreal Engine 4, os Flipbooks consistem em uma série de quadros-chave, cada um dos quais contém um Sprite a ser exibido e uma duração (em quadros) para exibi-lo. Uma opção de quadros por segundo determina a rapidez com que os quadros serão exibidos, indicando quantas "batidas" de animação ocorrerão em um segundo e os próprios quadros-chave podem ser editados no painel Detalhes ou usando uma linha do tempo que pode ser encontrada na parte inferior do Flipbook Editor.
+
+Para implementar uma animação de corrida: 
 1. Selecione os sprites que simulam o movimento de caminhar;
 2. Exclua ou movimente os elementos para melhorar a animação;
 
-
-## Personagem
+<a name="7.1"></a>
+### 7.1 Personagem
 1. Adicione um Blueprint do tipo `Paper Character`.
-![Figura: Blueprint class PaperCharacter](imagens/animacao/unreal_engine_paper_character.jpg)
+  ![Figura: Blueprint class PaperCharacter](imagens/animacao/unreal_engine_paper_character.jpg)
 
-*Figura: Blueprint class PaperCharacter*
+  *Figura: Blueprint class PaperCharacter*
 2. Componente `Sprite`.
   - `Source Flipbook`: FB_Animacao_idle criado anteriormente.
 3. Componente `Camera`;
@@ -136,28 +157,27 @@ Com `Tile Sets` podemos criar uma 'Paleta' de sprites para ser usadas pintadas n
   - `Constraint to Plane`- true;
   - `Plane Constraint Normal` - Y=(-1);
 
-## Animação do Personagem
+<a name="7.2"></a>
+### 7.2 Animação do Personagem
 1. Vamos criar uma variável Enumeration para controlar o estado da animação:
-![Figura: Enumeration State](imagens/animacao/unreal_engine_paper2d_enum_state.jpg)
+  ![Figura: Enumeration State](imagens/animacao/unreal_engine_paper2d_enum_state.jpg)
 
-*Figura: Blueprint class PaperCharacter*
-- Idle;
-- Running;
-- Jumping.
+  *Figura: Blueprint class PaperCharacter*
+  - Idle;
+  - Running;
+  - Jumping.
 2. No personagem definimos as seguintes variáveis:
+  ![Figura: Character Varáveis ](imagens/animacao/unreal_engine_paper2d_character_variables.jpg)
 
-![Figura: Character Varáveis ](imagens/animacao/unreal_engine_paper2d_character_variables.jpg)
-
-*Figura: Character Varáveis*
-- Moving `Boolean` - Para identificar quando o personagem se movimenta;
-- Falling `Boolean` - Para identificar quando o personagem esta caindo;
-- IdleFlipbook `Paper Flipbook` - Com o valor do Flipbook definido para Idle;
-- RunFlipbook `Paper Flipbook` - Flipbook Run;  
-- JumpFlipbook `Paper Flipbook` - Flipbook Jump.  
+  *Figura: Character Varáveis*
+  - Moving `Boolean` - Para identificar quando o personagem se movimenta;
+  - Falling `Boolean` - Para identificar quando o personagem esta caindo;
+  - IdleFlipbook `Paper Flipbook` - Com o valor do Flipbook definido para Idle;
+  - RunFlipbook `Paper Flipbook` - Flipbook Run;  
+  - JumpFlipbook `Paper Flipbook` - Flipbook Jump.  
 
 
 ## Referências
-
 - [O que é animação 2D e o que a difere dos outros tipos de animações?](https://blog.saga.art.br/animacao-2d/)
 - [Getting Started with Paper 2D | Community Led Training | Unreal Engine Livestream](https://www.youtube.com/watch?v=Tf9Qd4isHTM)
 - [Introduction to Paper2D | v4.4 | Unreal Engine](https://www.youtube.com/playlist?list=PLZlv_N0_O1gauJh60307mE_67jqK42twB)
