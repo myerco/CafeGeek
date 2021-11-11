@@ -164,6 +164,11 @@ Cuidado não podemos ter vértices sem conexão com outros
 
 
 ## Mapeamento UV
+- Menu `UV` > `UV Editor`;
+- Painéis lado a lado
+  - ViewPort `Panels` > `Saved Layouts` > `Persp/UV Editor`
+- Menu UV toolKit
+  - `Tools` > `Show UV toolKit`
 - UV Shells : Context Menu > UV > select vertex > ctrl > context menu > To UV shells
 
 ## Preferências
