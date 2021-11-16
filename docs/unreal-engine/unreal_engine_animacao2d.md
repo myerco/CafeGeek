@@ -176,11 +176,21 @@ Para implementar uma animação de corrida:
   - RunFlipbook `Paper Flipbook` - Flipbook Run;  
   - JumpFlipbook `Paper Flipbook` - Flipbook Jump.  
 
+![](imagens/animacao/unreal_engine_paper2d_function_state_machine.jpg)
+
+![](imagens/animacao/unreal_engine_paper2d_enum_state.jpg)
+
+![](imagens/animacao/unreal_engine_paper2d_movement.jpg)
+
+![](imagens/animacao/unreal_engine_paper2d_event_movement.jpg)
+
+
+
 
 ## Referências
 - [O que é animação 2D e o que a difere dos outros tipos de animações?](https://blog.saga.art.br/animacao-2d/)
-- [Getting Started with Paper 2D | Community Led Training | Unreal Engine Livestream](https://www.youtube.com/watch?v=Tf9Qd4isHTM)
-- [Introduction to Paper2D | v4.4 | Unreal Engine](https://www.youtube.com/playlist?list=PLZlv_N0_O1gauJh60307mE_67jqK42twB)
+- [Getting Started with Paper 2D  Community Led Training  Unreal Engine Livestream](https://www.youtube.com/watch?v=Tf9Qd4isHTM)
+- [Introduction to Paper2D v4.4  Unreal Engine](https://www.youtube.com/playlist?list=PLZlv_N0_O1gauJh60307mE_67jqK42twB)
 - [Paper 2D](https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/Paper2D/)
 - [Texture Properties](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Textures/Properties/)
 - [Paper 2D Tile Sets / Tile Maps](https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/Paper2D/TileMaps/)
