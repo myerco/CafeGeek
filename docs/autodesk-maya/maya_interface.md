@@ -183,9 +183,6 @@ Cuidado não podemos ter vértices sem conexão com outros
 
 - Expandindo/desdobra o Elemento  
   - `UV Toolkit` > `Unfold`;
-- Arrumando
-  - `Arrange and Layout` > `Orient Shells`;
-  - `Layout` - Organiza as Shells lado a lado;
 - Movimentando ou aumentando
   -  `Transform` > `Move`
 - Copiando dados de um Shells para outra  
@@ -193,8 +190,16 @@ Cuidado não podemos ter vértices sem conexão com outros
   -  `Transform` > `Texel Density` > `Set` - cola os valores para um elemento selecionado;
 - Invertendo Shells `Tools`
   - `Flip` > `U` ou `V` - Horizontal ou vertical;
-- Alinhando
-  - `Align` - Alinhando UV
+- `Arrange and Layout`
+  - `Stack Shells` - Quando a textura aparece em duas faces é recomendado utilizar o recurso para empilhar uma sobre a outra;
+  - `Orient Shells` - Separa e orienta as shells;
+  - `Layout` - Organiza as Shells lado a lado;  
+- `Align and Snap`  Alinhando
+  - `Align` - Alinhando UV;
+  - `Match UVs` - Alinha duas Shells empilhadas;
+- `Pin`   Bloqueando
+  - `Pin Tool` - Selecionando usando tecla `B` ou `P` para bloquear áreas;
+
 
 ## Preferências
 - [maya](https://help.autodesk.com/view/MAYAUL/2020/ENU/)
