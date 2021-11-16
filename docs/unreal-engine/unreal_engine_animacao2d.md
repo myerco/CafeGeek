@@ -5,7 +5,7 @@ tags: [Unreal Engine, Animação 2D,Paper 2D]
 layout: page
 ---
 
-Em este capitulo iremos implementar animações em duas dimensões.
+Em este capitulo iremos implementar animações em duas dimensões utilizando Paper2D.
 
 ## Índice
 1. [Animação 2D](#1)
@@ -21,7 +21,7 @@ Animação em duas dimensões é uma técnica que utiliza sequenciamento de imag
 
 <a name="2"></a>
 ## 2. Como o Unreal Engine trabalha com animação 2D?
-O Unreal Engine implementa animação em duas dimensões utilizando o sistema **Paper 2D** que é um sistema baseado em *sprite* para a criação de jogos híbridos 2D e 2D / 3D inteiramente dentro do editor.
+O Unreal Engine implementa animação 2D utilizando o plugin **Paper2D** que facilita a manipulação e importação e elementos em duas dimensões. O sistema **Paper 2D** é um sistema baseado em *sprite* para a criação de jogos híbridos 2D e 2D / 3D inteiramente dentro do editor.
 
 > **Sprite**
 >
@@ -127,7 +127,7 @@ Com `Tile Sets` podemos criar uma 'Paleta' de sprites para ser usadas pintadas n
 ## 7. Flipbooks
 No Unreal Engine 4, os Flipbooks consistem em uma série de quadros-chave, cada um dos quais contém um Sprite a ser exibido e uma duração (em quadros) para exibi-lo. Uma opção de quadros por segundo determina a rapidez com que os quadros serão exibidos, indicando quantas "batidas" de animação ocorrerão em um segundo e os próprios quadros-chave podem ser editados no painel Detalhes ou usando uma linha do tempo que pode ser encontrada na parte inferior do Flipbook Editor.
 
-Para implementar uma animação de corrida: 
+Para implementar uma animação de corrida:
 1. Selecione os sprites que simulam o movimento de caminhar;
 2. Exclua ou movimente os elementos para melhorar a animação;
 

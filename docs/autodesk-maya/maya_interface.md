@@ -168,8 +168,33 @@ Cuidado não podemos ter vértices sem conexão com outros
 - Painéis lado a lado
   - ViewPort `Panels` > `Saved Layouts` > `Persp/UV Editor`
 - Menu UV toolKit
-  - `Tools` > `Show UV toolKit`
+  - `Tools` > `Show UV toolKit`;
 - UV Shells : Context Menu > UV > select vertex > ctrl > context menu > To UV shells
+
+- Cortando `3D Cut and Sew UV`
+  - O corte é realizado por material utilizado;
+  - Clicando e arrastrando;
+  - Desmarcando CTRL+2x na vértice selecionado;
+  - Quando uma área é fechada é criada "UV Shells";
+  - Podemos selecionar as UV Shells;
+- Costurando  `Cut and Sew`
+  - Selecione dois vértices e depois clique em `Sew`;
+  - `Sew Tool` - Costura interativa, selecione e arrastre;
+
+- Expandindo/desdobra o Elemento  
+  - `UV Toolkit` > `Unfold`;
+- Arrumando
+  - `Arrange and Layout` > `Orient Shells`;
+  - `Layout` - Organiza as Shells lado a lado;
+- Movimentando ou aumentando
+  -  `Transform` > `Move`
+- Copiando dados de um Shells para outra  
+  -  `Transform` > `Texel Density` > `Get` - copia os valores de um elemento selecionado;
+  -  `Transform` > `Texel Density` > `Set` - cola os valores para um elemento selecionado;
+- Invertendo Shells `Tools`
+  - `Flip` > `U` ou `V` - Horizontal ou vertical;
+- Alinhando
+  - `Align` - Alinhando UV
 
 ## Preferências
 - [maya](https://help.autodesk.com/view/MAYAUL/2020/ENU/)
