@@ -22,7 +22,8 @@ Em este capitulo iremos implementar animações em duas dimensões utilizando o 
 1. [Implementando uma cena utilizando Tile Map](#7)
 1. [Criando sequencias de animação utilizando Flipbooks](#8)
 1. [Adicionando e configurando o personagem do tipo PaperCharacter](#9)
-1. [Implementando a lógica de animação do personagem do tipo PaperCharacter](#9)
+1. [Implementando a lógica de animação do personagem do tipo PaperCharacter](#10)
+1. [Implementando o canhão](#11)
 
 <a name="1"></a>
 ## 1. O que é Animação 2D?
@@ -235,8 +236,8 @@ Neste passo vamos implementar a animação do personagem e definir um objeto de 
 
   *Figura: Function State Machine*
 
-<a name="10"></a>
-## 10. Implementando o canhão
+<a name="11"></a>
+## 11. Implementando o canhão
 Neste passo vamos implementar um canhão que localiza e atira no player.
 
 1. Para implementar as balas do canhão vamos criar um objeto **BP_FireBullet** do tipo `Actor` com as seguintes propriedades e componentes;
