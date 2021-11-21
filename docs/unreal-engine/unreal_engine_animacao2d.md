@@ -241,25 +241,25 @@ Neste passo vamos implementar um canhão que localiza e atira no player.
   - `Sphere Collision` - Ajuste a colisão para servir como área de detecção do player;
   - `PointBullet` - Tipo  `Scene` para ser utilizada como ponto inicial das balas;
 1. Inicialização de variáveis;
-  ![Figura: Function State Machine](imagens/animacao/unreal_engine_paper2d_cannon_begin_init.jpg)
+  ![Figura: BeginPlay inicializando variáveis](imagens/animacao/unreal_engine_paper2d_cannon_begin_init.jpg)
 
-    *Figura: Function State Machine*
+    *Figura: BeginPlay inicializando variáveis*
 1. Lógica para localizar o personagem e movimentar o canhão na direção do player;
-  ![Figura: Function State Machine](imagens/animacao/unreal_engine_paper2d_cannon_find_look.jpg)
+  ![Figura: Function Find Look](imagens/animacao/unreal_engine_paper2d_cannon_find_look.jpg)
 
-    *Figura: Function State Machine*
+    *Figura: Function Find Look*
 1. Lógica para disparar as balas `PB_FireBullet`;
-  ![Figura: Function State Machine](imagens/animacao/unreal_engine_paper2d_cannon_fire_bullet.jpg)
+  ![Figura: Function Impulse para disparar as balas](imagens/animacao/unreal_engine_paper2d_cannon_fire_bullet.jpg)
 
-    *Figura: Function State Machine*
+    *Figura: Function Impulse para disparar as balas*
 1. Quanto o player colide com a área de detecção do canhão as variáveis **Look** e **Fire** são atualizadas para `True`, informando que o player foi detectado e o canhão pode disparar. Devemos adicionar uma `tag` no player para facilitar o seu reconhecimento;              
-  ![Figura: Function State Machine](imagens/animacao/unreal_engine_paper2d_cannon_player_in.jpg)
+  ![Figura: BeginOverLap e Player](imagens/animacao/unreal_engine_paper2d_cannon_player_in.jpg)
 
-    *Figura: Function State Machine*
+    *Figura: Figura: BeginOverLap e Player*
 1. Quando o player sai da área de detecção as variáveis de controle são atualizadas para `false`;    
-  ![Figura: Function State Machine](imagens/animacao/unreal_engine_paper2d_cannon_player_out.jpg)
+  ![Figura: EndOverLap e Player](imagens/animacao/unreal_engine_paper2d_cannon_player_out.jpg)
 
-    *Figura: Function State Machine*      
+    *Figura: EndOverLap e Player*      
 
 
 ## Referências
