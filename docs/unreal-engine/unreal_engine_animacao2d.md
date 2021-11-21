@@ -60,15 +60,13 @@ Podemos organizar os elementos que são apresentados na cena predefinindo coorde
   ![Figura: Project Settings 2D](imagens/animacao/unreal_engine_paper2d_project_settings.jpg)
 
     *Figura: Project Settings 2D*
-
   - `Foreground` - Camada para os *sprites* que devem ficar na frente da cena;
   - `Default` - Camada para os *sprites* que devem estão alinhados com o personagem;
-  - `Background` - Camada para os *sprites* que devem ficar atrás da cena;
+  - `Background` - Camada para os *sprites* que devem ficar atrás da cena.
 2. Após a configuração no `ViewPort` devem aparecer as opções para organizar os objetos na cena.    
   ![Figura: ViewPort Snap](imagens/animacao/unreal_engine_paper2d_viewport.jpg)
 
     *Figura: ViewPort Snap*
-
 3. Os objetos adicionados na cena devem ficar no *snap* selecionado obedecendo a localização Y predefinida, esse processo é similar ao trabalho de desenho por camadas.
 
 4. Para movimentar objetos entre os *snaps* selecione o objeto e pressione :
@@ -76,8 +74,7 @@ Podemos organizar os elementos que são apresentados na cena predefinindo coorde
   - CTRL + UP para posicionar o objeto na camada posterior;
 
 
-5. Para melhorar a visualização do cenário podemos configurar a visualização do `ViewPort` para **Right** a fim de controlar somente os eixos Z e X.
-
+5. Para melhorar a visualização do cenário podemos configurar a visualização do `ViewPort` para **Right** a fim de controlar somente os eixos Z e X.      
   ![Figura: ViewPort Rigth Z,X](imagens/animacao/unreal_engine_paper2d_viewport_xx.jpg)
 
     *Figura: ViewPort Rigth Z,X*
