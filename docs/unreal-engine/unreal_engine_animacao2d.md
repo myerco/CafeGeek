@@ -43,7 +43,6 @@ O **Paper 2D** é baseado em um conjunto de elementos que são :
 - `Tile Sets` - Objeto para agrupar e manipular um conjunto de *sprites*;
 - `Tile Maps` - Objeto para "pintar" um grupo de *sprites* as cenas utilizando `Tile Set`.
 
-
 <a name="3"></a>
 ## 3. Habilitando o plugin Paper2D
 Antes de iniciar o trabalho devemos habilitar o plugin `Paper2D` em menu `Edit` > `Plugins`.
@@ -59,7 +58,7 @@ Podemos organizar os elementos que são apresentados na cena predefinindo coorde
 1. No menu `Edit` > `Project Settings` navegue até `2D` para adicionar camadas/*Layers* e coordenadas de profundidade ao `ViewPort`.      
   ![Figura: Project Settings 2D](imagens/animacao/unreal_engine_paper2d_project_settings.jpg)
 
-    *Figura: Project Settings 2D*
+    *Figura: Project Settings 2D*   
   - `Foreground` - Camada para os *sprites* que devem ficar na frente da cena;
   - `Default` - Camada para os *sprites* que devem estão alinhados com o personagem;
   - `Background` - Camada para os *sprites* que devem ficar atrás da cena.
@@ -91,18 +90,16 @@ A fim de otimizar a renderização das texturas aplicamos os seguintes parâmetr
 
   ![Figura: Details Texture parameteres 2D](imagens/animacao/unreal_engine_paper2d_details_texture_2d.jpg)
 
-  *Figura: Figura: Details Texture parameteres 2D*
-
+    *Figura: Figura: Details Texture parameteres 2D*    
   - `Compression Settings`: UseInterface2D (RGBA) ;
   - `Mip Gen Settings`: NoMipMaps
-
   >A geração do Mip-map ocorre durante a importação da Textura e cria uma cadeia de Mip-map para a Textura. A cadeia mip-map consiste em vários níveis da imagem de amostra, cada um com metade da resolução do nível anterior. Esses dados permitem que a placa gráfica renderize mais rápido ao usar os mips inferiores (menos largura de banda da memória) e também reduz o aliasing da textura (cintilante) que se torna visível ao ter textura detalhada em certas distâncias.
 
 2. Podemos aplicar automaticamente para uma ou várias texturas selecionadas usamos o menu de contexto `Sprite Actions` > `Apply Paper2D Texture Settings`.
 
   ![Figura: Apply Papper2D Texture Settings](imagens/animacao/unreal_engine_paper2d_apply_texture_settings.jpg)
 
-  *Figura: Apply Papper2D Texture Settings*
+    *Figura: Apply Papper2D Texture Settings*
 
 <a name="5.2"></a>
 ### 5.2 Criando sprites
