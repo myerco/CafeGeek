@@ -125,12 +125,11 @@ Com `Tile Sets` podemos criar uma 'Paleta' de *sprites* para ser usadas no `Tile
 3. Editando Tile Set:
 - `Tile Size`: Tamanho de cada Tile/Área que pode ser usada;
 - `Tile Sheet Texture`:  Textura;
-4. Para adicionar colisão nos elementos:
-
+4. Para adicionar colisão nos elementos:      
   ![Figura: Tile Set Collision](imagens/animacao/unreal_engine_paper2d_tileset_colision.jpg)
 
-  *Figura: Tile Set Collision*
-  - Selecione a opção `Colliding Tiles` para mostrar os elementos com colisão;
+    *Figura: Tile Set Collision*      
+  - Selecione a opção `Colliding Tiles` para mostrar os elementos com colisão;    
   - Adicione as coordenadas de colisão com `Add Box`;
 
 <a name="7"></a>
