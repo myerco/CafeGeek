@@ -204,18 +204,18 @@ Neste passo vamos implementar a animação do personagem e definir um objeto de 
 
 1. Vamos criar uma variável `Enumeration` para controlar o estado da animação:
 
-  ![Figura: Enumeration State](imagens/animacao/unreal_engine_paper2d_enum_state.jpg)
+    ![Figura: Enumeration State](imagens/animacao/unreal_engine_paper2d_enum_state.jpg)
 
-  *Figura: Blueprint class PaperCharacter*
+    *Figura: Blueprint class PaperCharacter*
 
   - Idle;
   - Running;
   - Jumping.
 2. No personagem definimos as seguintes variáveis:
 
-  ![Figura: Character Varáveis ](imagens/animacao/unreal_engine_paper2d_character_variables.jpg)
+    ![Figura: Character Varáveis ](imagens/animacao/unreal_engine_paper2d_character_variables.jpg)
 
-  *Figura: Character Varáveis*
+    *Figura: Character Varáveis*
 
   - Moving `Boolean` - Para identificar quando o personagem se movimenta;
   - Falling `Boolean` - Para identificar quando o personagem esta caindo;
