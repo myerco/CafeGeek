@@ -86,17 +86,15 @@ Um Sprite em papel 2D é uma malha plana com mapeamento de textura e material as
 ### 5.1 Preparando as texturas
 A fim de otimizar a renderização das texturas aplicamos os seguintes parâmetros para cada objeto:
 
-1. Parâmetros da textura.
-
+1. Parâmetros da textura.   
   ![Figura: Details Texture parameteres 2D](imagens/animacao/unreal_engine_paper2d_details_texture_2d.jpg)
 
     *Figura: Figura: Details Texture parameteres 2D*    
   - `Compression Settings`: UseInterface2D (RGBA) ;
-  - `Mip Gen Settings`: NoMipMaps
+  - `Mip Gen Settings`: NoMipMaps     
   >A geração do Mip-map ocorre durante a importação da Textura e cria uma cadeia de Mip-map para a Textura. A cadeia mip-map consiste em vários níveis da imagem de amostra, cada um com metade da resolução do nível anterior. Esses dados permitem que a placa gráfica renderize mais rápido ao usar os mips inferiores (menos largura de banda da memória) e também reduz o aliasing da textura (cintilante) que se torna visível ao ter textura detalhada em certas distâncias.
 
-2. Podemos aplicar automaticamente para uma ou várias texturas selecionadas usamos o menu de contexto `Sprite Actions` > `Apply Paper2D Texture Settings`.
-
+2. Podemos aplicar automaticamente para uma ou várias texturas selecionadas usamos o menu de contexto `Sprite Actions` > `Apply Paper2D Texture Settings`.    
   ![Figura: Apply Papper2D Texture Settings](imagens/animacao/unreal_engine_paper2d_apply_texture_settings.jpg)
 
     *Figura: Apply Papper2D Texture Settings*
