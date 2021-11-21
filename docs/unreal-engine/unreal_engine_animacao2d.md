@@ -60,7 +60,7 @@ Podemos organizar os elementos que são apresentados na cena predefinindo coorde
 
   ![Figura: Project Settings 2D](imagens/animacao/unreal_engine_paper2d_project_settings.jpg)
 
-  *Figura: Project Settings 2D*
+    *Figura: Project Settings 2D*
 
   - `Foreground` - Camada para os *sprites* que devem ficar na frente da cena;
   - `Default` - Camada para os *sprites* que devem estão alinhados com o personagem;
@@ -70,7 +70,7 @@ Podemos organizar os elementos que são apresentados na cena predefinindo coorde
 
   ![Figura: ViewPort Snap](imagens/animacao/unreal_engine_paper2d_viewport.jpg)
 
-  *Figura: ViewPort Snap*
+    *Figura: ViewPort Snap*
 
 3. Os objetos adicionados na cena devem ficar no *snap* selecionado obedecendo a localização Y predefinida, esse processo é similar ao trabalho de desenho por camadas.
 
@@ -83,7 +83,7 @@ Podemos organizar os elementos que são apresentados na cena predefinindo coorde
 
   ![Figura: ViewPort Rigth Z,X](imagens/animacao/unreal_engine_paper2d_viewport_xx.jpg)
 
-  *Figura: ViewPort Rigth Z,X*
+    *Figura: ViewPort Rigth Z,X*
 
 <a name="5"></a>
 ## 5. Preparado os Sprites do projeto
@@ -204,10 +204,9 @@ Os componentes e parâmetros são diferentes aos do `Character` com malhas/*Mesh
 Neste passo vamos implementar a animação do personagem e definir um objeto de controle de estados de animação utilizando uma variável `Enumeration`.
 
 1. Vamos criar uma variável `Enumeration` para controlar o estado da animação:    
-    ![Figura: Enumeration State](imagens/animacao/unreal_engine_paper2d_enum_state.jpg)
+  ![Figura: Enumeration State](imagens/animacao/unreal_engine_paper2d_enum_state.jpg)
 
     *Figura: Blueprint class PaperCharacter*
-
   - Idle;
   - Running;
   - Jumping.
@@ -215,26 +214,23 @@ Neste passo vamos implementar a animação do personagem e definir um objeto de 
   ![Figura: Character Varáveis ](imagens/animacao/unreal_engine_paper2d_character_variables.jpg)
 
     *Figura: Character Varáveis*
-
   - Moving `Boolean` - Para identificar quando o personagem se movimenta;
   - Falling `Boolean` - Para identificar quando o personagem esta caindo;
   - IdleFlipbook `Paper Flipbook` - Com o valor do Flipbook definido para Idle;
   - RunFlipbook `Paper Flipbook` - Flipbook Run;  
   - JumpFlipbook `Paper Flipbook` - Flipbook Jump.  
-
 3. Vamos utilizar o evento `MoveRight` para adicionar movimento travando a coordenada X em 1;   
   ![Figura: Movement MoveRight](imagens/animacao/unreal_engine_paper2d_movement.jpg)
 
-  *Figura: Movement MoveRight*
-
+    *Figura: Movement MoveRight*
 4. Vamos implementar um novo evento `UpdateAnimation` para inicializar variáveis, chamar uma função `Animation State Machine` que iremos implementar;   
   ![Figura: Event UpdateAnimatio](imagens/animacao/unreal_engine_paper2d_event_movement.jpg)  
 
-  *Figura: Event UpdateAnimatio*
+    *Figura: Event UpdateAnimatio*
 5. A lógica da função `Animation State Machine`;   
   ![Figura: Function State Machine](imagens/animacao/unreal_engine_paper2d_function_state_machine.jpg)
 
-  *Figura: Function State Machine*
+    *Figura: Function State Machine*
 
 <a name="11"></a>
 ## 11. Implementando o canhão
@@ -258,15 +254,15 @@ Neste passo vamos implementar um canhão que localiza e atira no player.
 1. Lógica para disparar as balas `PB_FireBullet`;
   ![Figura: Function State Machine](imagens/animacao/unreal_engine_paper2d_cannon_fire_bullet.jpg)
 
-  *Figura: Function State Machine*
+    *Figura: Function State Machine*
 1. Quanto o player colide com a área de detecção do canhão as variáveis **Look** e **Fire** são atualizadas para `True`, informando que o player foi detectado e o canhão pode disparar. Devemos adicionar uma `tag` no player para facilitar o seu reconhecimento;              
   ![Figura: Function State Machine](imagens/animacao/unreal_engine_paper2d_cannon_player_in.jpg)
 
-  *Figura: Function State Machine*
+    *Figura: Function State Machine*
 1. Quando o player sai da área de detecção as variáveis de controle são atualizadas para `false`;    
   ![Figura: Function State Machine](imagens/animacao/unreal_engine_paper2d_cannon_player_out.jpg)
 
-  *Figura: Function State Machine*      
+    *Figura: Function State Machine*      
 
 
 ## Referências
