@@ -249,11 +249,11 @@ Neste passo vamos implementar um canhão que localiza e atira no player.
 1. Inicialização de variáveis;
   ![Figura: Function State Machine](imagens/animacao/unreal_engine_paper2d_cannon_begin_init.jpg)
 
-  *Figura: Function State Machine*
+    *Figura: Function State Machine*
 1. Lógica para localizar o personagem e movimentar o canhão na direção do player;
   ![Figura: Function State Machine](imagens/animacao/unreal_engine_paper2d_cannon_find_look.jpg)
 
-  *Figura: Function State Machine*
+    *Figura: Function State Machine*
 1. Lógica para disparar as balas `PB_FireBullet`;
   ![Figura: Function State Machine](imagens/animacao/unreal_engine_paper2d_cannon_fire_bullet.jpg)
 
