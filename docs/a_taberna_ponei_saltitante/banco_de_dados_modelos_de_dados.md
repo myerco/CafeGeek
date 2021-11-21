@@ -1,11 +1,13 @@
 ---
 title: Modelo de Dados e o Processo de Desenvolvimento de banco de dados
-description: Sob a estrutura do banco de dados está o modelo de dados: um conjunto de ferramentas conceituais usadas para a descrição de dados, relacionamentos entre dados, semântica de dados e regras de consistência.
+description: Sob a estrutura do banco de dados está o modelo de dados, um conjunto de ferramentas conceituais usadas para a descrição de dados, relacionamentos entre dados, semântica de dados e regras de consistência.
 tags: [Banco de Dados, Oracle, Oracle SQLDeveloper, MER, modelo relacional,PostgreSQL]
 layout: page
 ---
 
 Sob a estrutura do banco de dados está o modelo de dados: um conjunto de ferramentas conceituais usadas para a descrição de dados, relacionamentos entre dados, semântica de dados e regras de consistência.
+
+![The Pillars of the Kings](http://tolkiengateway.net/w/images/9/97/Ted_Nasmith_-_The_Pillars_of_the_Kings.jpg)
 
 ## Existem diversos tipos de modelos de banco de dados, entre eles:
 - Modelo de Arquivos flat;
@@ -24,14 +26,16 @@ Sob a estrutura do banco de dados está o modelo de dados: um conjunto de ferram
 Tem por base a percepção de que o mundo real é formado por um conjunto de objetos chamados entidades e pelo conjunto dos relacionamentos entre esse objetos.
 
 Tem o objetivo de facilmente ser interpretado por todos os usuários, utilizando diagramas e representações gráficas dos objetos do negócio.
-Elementos.
 
+### Elementos
 1. Entidades;
 1. Atributos e a sua opcionalidade;
 1. Especialização e Generalização;
 1. Relacionamentos e a sua opcionalidade e cardinalidade.
 
 Exemplo:
+
+![Modelo lógico](https://1.bp.blogspot.com/-su8B-5NlNq8/WhzflZ1dmnI/AAAAAAAANcc/NB8CnwX7xFMzzMuXhFCKlfvKwTz5dQ8xgCLcBGAs/s320/Logical.png)
 
 ## Modelo Físico
 Estende detalhes do modelo de lógico e tem as seguintes características:
@@ -42,6 +46,8 @@ Estende detalhes do modelo de lógico e tem as seguintes características:
 - Apresenta chaves primárias e estrangeiras;
 
 Exemplo:
+
+![](https://2.bp.blogspot.com/-4WkXSYf00_s/WiCd-gdpBrI/AAAAAAAANdo/54VhOg6_iWU1enoF9rKl4shhVCT0_nAmwCPcBGAYYCw/s320/Relacional.pngs)
 
 ## Comparação
 

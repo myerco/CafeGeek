@@ -16,6 +16,9 @@ Neste capitulo iremos iniciar a analise das necessidades de negócio utilizando 
 - Devem estar atualizadas;
 
 ## Mãos a obra
+
+![Celebrimbor](http://tolkiengateway.net/w/images/4/4f/Angus_McBride_-_Celebrimbor.gif)
+
 O nosso objetivo é extrair informações da regra de negócio a fim de identificar objetos e regras conceituais. Para tal tarefa seguiremos as seguintes premissas:
 
 1. Identificar Objetos que existem no mundo real ou representam o negócio;
@@ -24,19 +27,17 @@ O nosso objetivo é extrair informações da regra de negócio a fim de identifi
 
 ### Objetos extraídos
 #### Pedidos dos clientes.
-**Pedidos**
 
-|NÚMERO|	DATA    |	PRODUTO            |
-|:-    |:-        |:-                  |
-|123	 |11/12/2017|	Escudo de Carvalho |
-|124	 |05/02/2018|	Arco Élfico dourado|
-|125	 |21/04/2018|	Punhal de Troll    |
+|NÚMERO|	DATA    |	PRODUTO            |CLIENTE    |
+|:-    |:-        |:-                  |:-         |
+|123	 |11/12/2017|	Escudo de Carvalho |Thorin     |  
+|124	 |05/02/2018|	Arco Élfico dourado|Legolas    |
+|125	 |21/04/2018|	Punhal de Troll    |Aragorm    |
 
 - Existe no mundo real no formato de uma agenda;
 - Pode ser detalhado : número do pedido,data do pedido, cliente, valor e produto;
 
 #### Registro de Funcionários.
-**Funcionários**
 
 | MATRICULA |	NOME          |	SALÁRIO|
 |:-         |:-             |-:      |
@@ -48,7 +49,6 @@ O nosso objetivo é extrair informações da regra de negócio a fim de identifi
 - Pode ser detalhado : identificação ou matricula, nome e salário;
 
 #### Cargos dos Funcionários.
-**Cargos**
 
 |CARGO ID|	NOME|
 |:-      |:-    |
@@ -60,7 +60,6 @@ O nosso objetivo é extrair informações da regra de negócio a fim de identifi
 - Pode ser detalhado : nome do cargo e identificação;
 
 #### Registro de classificação de clientes.
-**Raças**
 
 |ID|NOME  |
 |:-|:-  |
@@ -73,7 +72,6 @@ O nosso objetivo é extrair informações da regra de negócio a fim de identifi
 - Pode ser detalhado : nome da raça e uma identificação;
 
 #### E-mail dos Clientes.
-**Email**
 
 |EMAIL|
 |:-|
@@ -94,8 +92,16 @@ O nosso objetivo é extrair informações da regra de negócio a fim de identifi
 > - Conhecimento
 
 ## Regras e restrições
+![The One Ring](http://tolkiengateway.net/w/images/thumb/e/ef/One_ring.png/300px-One_ring.png)
+
+> Um Anel para governar todos eles,     
+Um Anel para encontrá-los,        
+Um Anel para trazê-los todos e na escuridão prendê-los.
 
 |Regras             |Restrições           |
 |:-                 |:-                   |
 |Para cada nota são registrados os produtos vendidos.| Um produto pode estar em mais de uma nota; Uma nota pode ter mais de um produto; O valor do produto pode ter descontos e acrescimentos.|
 |Os Clientes tem uma determinada raça; O sexo dos clientes são registrados como M = Masculino e F = Feminino;|Um cliente tem uma raça e uma raça pode estar presente em vários clientes;Somente as letras M ou F podem ser registrados para cada cliente;|
+
+## Referências
+- [Tolkien Gateway](http://tolkiengateway.net/wiki/Main_Page)
