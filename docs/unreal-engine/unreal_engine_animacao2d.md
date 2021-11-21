@@ -1,5 +1,5 @@
 ---
-title: Animação - 2d
+title: Animação - 2D
 description: O Unreal Engine implementa animação em duas dimensões utilizando o sistema Paper 2D que é um sistema baseado em sprite para a criação de jogos híbridos 2D e 2D / 3D inteiramente dentro do editor.
 tags: [Unreal Engine, Animação 2D,Paper 2D]
 layout: page
@@ -45,7 +45,7 @@ O **Paper 2D** é baseado em um conjunto de elementos que são :
 
 
 <a name="3"></a>
-## 3. Habilitando o plugin Paper2d
+## 3. Habilitando o plugin Paper2D
 Antes de iniciar o trabalho devemos habilitar o plugin `Paper2D` em menu `Edit` > `Plugins`.
 
 ![Figura: Plugin Paper2D Enabled](imagens/animacao/unreal_engine_paper2d_plugin.jpg)
@@ -56,8 +56,7 @@ Antes de iniciar o trabalho devemos habilitar o plugin `Paper2D` em menu `Edit` 
 ## 4. Preparando o ViewPort
 Podemos organizar os elementos que são apresentados na cena predefinindo coordenadas no eixo Y.
 
-1. No menu `Edit` > `Project Settings` navegue até `2D` para adicionar camadas/*Layers* e coordenadas de profundidade ao `ViewPort`.
-
+1. No menu `Edit` > `Project Settings` navegue até `2D` para adicionar camadas/*Layers* e coordenadas de profundidade ao `ViewPort`.      
   ![Figura: Project Settings 2D](imagens/animacao/unreal_engine_paper2d_project_settings.jpg)
 
     *Figura: Project Settings 2D*
@@ -65,9 +64,7 @@ Podemos organizar os elementos que são apresentados na cena predefinindo coorde
   - `Foreground` - Camada para os *sprites* que devem ficar na frente da cena;
   - `Default` - Camada para os *sprites* que devem estão alinhados com o personagem;
   - `Background` - Camada para os *sprites* que devem ficar atrás da cena;
-
-2. Após a configuração no `ViewPort` devem aparecer as opções para organizar os objetos na cena.
-
+2. Após a configuração no `ViewPort` devem aparecer as opções para organizar os objetos na cena.    
   ![Figura: ViewPort Snap](imagens/animacao/unreal_engine_paper2d_viewport.jpg)
 
     *Figura: ViewPort Snap*
