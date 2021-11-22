@@ -9,6 +9,7 @@ Neste projeto serão apresentados as estruturas necessárias para construção d
 animações, como por exemplo, importando arquivos FBX, malhas e esqueletos
 e suas forma de animação e programação.
 
+
 ## Índice
 1. [Preparando o projeto](#1-preparando-o-projeto)
 1. [Estruturas básicas](#2-estruturas-basicas)

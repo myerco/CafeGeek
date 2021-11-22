@@ -7,6 +7,9 @@ layout: page
 
 Em este capítulo iremos implementar várias animações utilizando Animation Bluerint para implementar a lógica de movimentação.
 
+![Figura: Unreal Engine Preparando o Projeto](imagens/animacao/unreal_engine_animation_animation_blueprint_main.jpg)
+
+
 ## Índice
 1. [O que é Animation Blueprint?](#1)
 1. [Implementado Animation Bluerint utilizando o Humano](#2)

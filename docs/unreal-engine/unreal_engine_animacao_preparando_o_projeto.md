@@ -7,6 +7,7 @@ layout: page
 
 Neste capitulo vamos preparar e organizar os objetos e elementos necessários, como por exemplo, arquivos FBX, malhas e esqueletos e suas animações. Vamos também importar personagens do site Mixano.
 
+![Figura: Unreal Engine Preparando o Projeto](imagens/animacao/unreal_engine_animation_project.jpg)
 
 ## Índice
 1. [Preparando o projeto](#1)
@@ -21,7 +22,7 @@ Neste capitulo vamos preparar e organizar os objetos e elementos necessários, c
     1. [Importando Mesh e Skeletal](#4)
 5. [Importando animações](#5)
 6. [Vídeo Importando personagem](#6)  ![Youtube](https://icons.iconarchive.com/icons/iconsmind/outline/16/Youtube-icon.png)
-7. [Atividades](#7-atividades)
+7. [Atividades](#7)
 
 <a name="1"></a>
 ## 1. Organizando pastas de bibliotecas
@@ -164,7 +165,7 @@ Em este passo iremos utilizar o site [Mixano.com](https://www.mixamo.com/) para 
 *Vídeo: Importando personagem*
 
 
-## Atividades
+## 7. Atividades
 
 ***
 

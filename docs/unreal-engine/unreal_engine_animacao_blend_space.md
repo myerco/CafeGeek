@@ -7,6 +7,8 @@ layout: page
 
 Em este capítulo iremos implementar várias animações utilizando um eixo de movimentação utilizando o elemento e editor `Blend space 1D` e `Blend space`.
 
+![Figura: Unreal Engine Preparando o Projeto](imagens/animacao/unreal_engine_animation_blend_space.jpg)
+
 ## Índice
 1. [O que é Blend Space?](#1)
 1. [Carregando o Editor](#2)

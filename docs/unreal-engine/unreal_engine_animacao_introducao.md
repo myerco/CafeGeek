@@ -7,6 +7,8 @@ layout: page
 
 Neste capitulo vamos apresentar o fluxo de trabalho e os elementos necessários para a animação de personagens.
 
+![Figura: Unreal Engine Animation](imagens/animacao/unreal_engine_animation.jpg)
+
 
 ## Índice
 1. [Fluxo de trabalho](#1-fluxo-de-trabalho)
