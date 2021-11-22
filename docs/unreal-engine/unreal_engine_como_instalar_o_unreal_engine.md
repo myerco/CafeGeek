@@ -1,11 +1,14 @@
 ---
 title: Como instalar o Unreal Engine ?
-description: Neste capítulo vamos instalar o **Unreal Engine** e o gerenciador de versões para logo em seguida criar um projeto apresentando a organização de suas pastas.
+description: Neste capítulo vamos instalar o Unreal Engine e o gerenciador de versões para logo em seguida criar um projeto apresentando a organização de suas pastas.
 tags: [Unreal Engine,instalando,install, folder,pastas]
 layout: page
 ---
 
-Neste capítulo vamos instalar o **Unreal Engine** e o gerenciador de versões para logo em seguida criar um projeto apresentando a organização de suas pastas.
+Neste capítulo vamos instalar o **Unreal Engine** e o gerenciador de versões.
+
+![Figura: Unreal Engine Launcher](imagens/projeto/unreal_engine_launcher.jpg)   
+
 
 ## Índice
 1. [Instalando o Unreal e o Visual Studio](#1)
@@ -28,7 +31,7 @@ Para instalar o **Unreal Engine** devemos instalar o **Epic Games Laucnher**, re
 - Instalação e atualização das versões do **Unreal Engine**;
 - Navegação da loja de produtos;
 
-![Gerenciamento de versões](imagens/projeto/unreal_engine_control_version.jpg)   
+![Figura: Gerenciamento de versões](imagens/projeto/unreal_engine_control_version.jpg)   
 
 *Figura: Gerenciamento de versões*
 
@@ -46,10 +49,14 @@ Siga o guia de instalação da **Epic Games** pois é bem fácil. Durante a inst
 1. [Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F).
 1. [Unreal e Visual Studio](https://docs.unrealengine.com/en-US/Programming/Development/VisualStudioSetup/index.html).
 1. Selecione os pacotes :
+  ![Figura: Visual Studio Update para desenvolvimento de jogos](imagens/projeto/unreal_engine_visual_studio_update.jpg)  
+
+    *Figura: Visual Studio Update para desenvolvimento de jogos*   
+
   - Desenvolvimento de jogos com C++.
   - Desenvolvimento para Desktop com C++   
   > **Por que instalar este pacote?**    
-  Porque muitas vezes foi necessário testar uma funcionalidade ou mesmo testar um conceito da linguagem e ter o compilador disponível foi uma mão na roda.
+Porque muitas vezes foi necessário testar uma funcionalidade ou mesmo testar um conceito da linguagem e ter o compilador disponível foi uma mão na roda.
 
 <a name="2"></a>
 ## 2. Criando o projeto ProjetoAula
