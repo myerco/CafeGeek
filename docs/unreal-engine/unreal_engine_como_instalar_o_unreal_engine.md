@@ -200,7 +200,7 @@ Os dois são ótimos editores de código mas o Visual Code tem uma apresentaçã
 #### Regras
 1. Instale todo o ambiente e crie um projeto de nome MeuPrimeiroProjeto.
 
-**[⬆ Back to Top](#indice)**
+**[⬆ Back to Top](#índice)**
 
 #### Desafio      
 1. Configure o Visual Studio para ser o editor padrão .
