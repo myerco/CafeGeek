@@ -113,9 +113,9 @@ Exemplo:
 
 <a name="4"></a>
 ## 4. Configurando as imagens  do projeto
-Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu `Project Settings` opção **Plataforms > Windows** e altere a imagens.
+Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu `Project Settings` opção `Plataforms` > `Windows` e altere a imagens.
 
-![unreal_engine_project_icon](imagens/projeto/unreal_engine_project_icon.jpg)		
+![Figura: Project icon](imagens/projeto/unreal_engine_project_icon.jpg)		
 
 *Figura: Project icon*
 
