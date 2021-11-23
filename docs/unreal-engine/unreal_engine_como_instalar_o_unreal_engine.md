@@ -17,7 +17,7 @@ Neste capítulo vamos instalar o **Unreal Engine** e o Microsoft Visual Studio p
 1. **[Criando um projeto para jogos no Unreal Engine](#2)**
     1. [Selecionando o tipo de projeto](#2.1)
     1. [Escolhendo o Template](#2.2)
-    1. [Configurando o projeto inicialmente](#2.3)s
+    1. [Configurando o projeto inicialmente](#2.3)
     1. [Tela inicial do Unreal Engine](#2.4)
     1. [Iniciando um projeto no Unreal Engine 5](#2.5)
 1. **[Entendo as pastas criadas](#3)**
