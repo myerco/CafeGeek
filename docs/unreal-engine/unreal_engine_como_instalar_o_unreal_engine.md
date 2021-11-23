@@ -11,22 +11,22 @@ Neste capítulo vamos instalar o **Unreal Engine** e o Microsoft Visual Studio p
 
 
 ## Índice
-1. [Instalando o Unreal e o Visual Studio](#1)
+1. **[Instalando o Unreal e o Visual Studio](#1)**
     1. [Siga o passos recomendados pela Epic Games](#1.1)
     1. [Instalando os pacotes e o Visual Studio para programação com C++](#1.2)    
-1. [Criando um projeto para jogos no Unreal Engine](#2)
+1. **[Criando um projeto para jogos no Unreal Engine](#2)**
     1. [Selecionando o tipo de projeto](#2.1)
     1. [Escolhendo o Template](#2.2)
-    1. [Configurando o projeto inicialmente](#2.3)
+    1. [Configurando o projeto inicialmente](#2.3)s
     1. [Tela inicial do Unreal Engine](#2.4)
     1. [Iniciando um projeto no Unreal Engine 5](#2.5)
-1. [Entendo as pastas criadas](#3)
+1. **[Entendo as pastas criadas](#3)**
     1. [Pasta de código C++ - Source](#3.1)
     1. [Pasta principal do projeto - Content](#3.2)
     1. [Pastas temporárias que podem ser removidas](#3.3)
     1. [Nomenclatura de pastas](#3.4)
-1. [Compilando o projeto usando o Windows Explorer](#4)    
-1. [Configurando o editor de código](#5)
+1. **[Compilando o projeto usando o Windows Explorer](#4)**    
+1. **[Configurando o editor de código](#5)**
 1. [Atividades](#6)
     1. [Instale o Unreal Engine com Visual Studio](#6.1)
 
@@ -199,6 +199,8 @@ Os dois são ótimos editores de código mas o Visual Code tem uma apresentaçã
 ### 6.1 - Instale o Unreal Engine com Visual Studio.
 #### Regras
 1. Instale todo o ambiente e crie um projeto de nome MeuPrimeiroProjeto.
+
+**[⬆ Back to Top](#indice)**
 
 #### Desafio      
 1. Configure o Visual Studio para ser o editor padrão .
