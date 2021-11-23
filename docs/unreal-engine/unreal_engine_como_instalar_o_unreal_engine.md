@@ -14,9 +14,17 @@ Neste capítulo vamos instalar o **Unreal Engine** e o Microsoft Visual Studio p
 1. [Instalando o Unreal e o Visual Studio](#1)
     1. [Siga o passos recomendados pela Epic Games](#1.1)
     1. [Instalando os pacotes e o Visual Studio para programação com C++](#1.2)    
-1. [Criando o projeto **ProjetoAula**](#2)
-1. [Verificando as pastas criadas](#3)
-    1. [Pastas temporárias que podem ser removidas](#3.1)
+1. [Criando um projeto para jogos no Unreal Engine](#2)
+    1. [Selecionando o tipo de projeto](#2.1)
+    1. [Escolhendo o Template](#2.2)
+    1. [Configurando o projeto inicialmente](#2.2)
+    1. [Tela inicial do Unreal Engine](#2.2)
+    1. [Iniciando um projeto no Unreal Engine 5](#2.2)
+1. [Entendo as pastas criadas](#3)
+    1. [Pasta de código C++ - Source](#3.1)
+    1. [Pasta principal do projeto - Content](#3.2)
+    1. [Pastas temporárias que podem ser removidas](#3.3)
+    1. [Nomenclatura de pastas](#3.4)
 1. [Compilando o projeto usando o Windows Explorer](#4)    
 1. [Configurando o editor de código](#5)
 1. [Atividades](#6)
@@ -31,7 +39,7 @@ Para instalar o **Unreal Engine** devemos instalar o [Inicializador da Epic Game
 - Instalação e atualização das versões do **Unreal Engine**;
   ![Figura: Gerenciamento de versões](imagens/projeto/unreal_engine_control_version.jpg)   
 
-    *Figura: Gerenciamento de versões*
+    *Figura: Gerenciamento de versões.*
 > O **Unreal Enegine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos.       
 
 - Navegação da loja de produtos;
@@ -56,7 +64,7 @@ Para que possamos programar em linguagem C++ integrando **Visual Studio** e o **
 1. Selecionando os pacotes de programação;
   ![Figura: Visual Studio Update para desenvolvimento de jogos](imagens/projeto/unreal_engine_visual_studio_update.jpg)  
 
-    *Figura: Visual Studio Update para desenvolvimento de jogos*   
+    *Figura: Visual Studio Update para desenvolvimento de jogos.*   
 
   - Desenvolvimento de jogos com C++;
   - Desenvolvimento para Desktop com C++.      
@@ -64,38 +72,60 @@ Para que possamos programar em linguagem C++ integrando **Visual Studio** e o **
 Porque muitas vezes foi necessário testar uma funcionalidade ou mesmo testar um conceito da linguagem e ter o compilador disponível foi uma mão na roda.
 
 <a name="2"></a>
-## 2. Criando o projeto ProjetoAula
-Neste passo vamos criar um projeto utilizando **C++** como linguagem de desenvolvimento pois ajuda para compreender a organização e construção de pastas e arquivos do **Unreal Engine**.  
+## 2. Criando um projeto para jogos no Unreal Engine
+Neste passo vamos criar um projeto para jogos utilizando **C++** como linguagem de desenvolvimento pois ajuda para compreender a organização e construção de pastas e arquivos do **Unreal Engine**.  
 
-1. Selecionando o tipo de projeto;    
-  ![blueprint_select_new_project](imagens/projeto/blueprint_ue_select_new_project.jpg)  
+O nome do novo projeto é ProjetoAula o qual será usado em vários capítulos.
 
-    *Figura: Unreal 4 - Select or create New Project, Games*        
-1. Escolha o `template blank` para o projeto.  `Templates` são modelos com elementos disponíveis para o tipo de jogo escolhido;
-  ![Select Template blank](imagens/projeto/blueprint_ue_select_template.jpg)     
+<a name="2.1"></a>
+### 2.1 Selecionando o tipo de projeto    
+Neste passo vamos selecionar a categoria *Games* para o projeto.
 
-    *Figura: Select Template blank*
-1. Em configuração de projeto escolha **C++** e `No Starter Content`, este opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário, logo em seguida escolha uma pasta onde o projeto deverá ser instalado em `Select a Location for project to be stored`;       
-  ![Unreal engine project Settings](imagens/projeto/blueprint_ue_project_settings.jpg)
+![Figura: Unreal 4 - Select or create New Project, Games](imagens/projeto/blueprint_ue_select_new_project.jpg)  
 
-    *Figura: Unreal engine project Settings*
-1. Se deu certo a tela inicial deve aparecer;  
-  ![Unreal Engine tela inicial](imagens/projeto/blueprint_ue_tela_inicial.jpg)
+*Figura: Unreal 4 - Select or create New Project, Games.*        
 
-    *Figura: Unreal Engine tela inicial*
+<a name="2.2"></a>
+### 2.2 Escolhendo o Template
+Para este projeto vamos escolher o `template blank` para que possamos entender os elementos do projeto e adicionar posteriormente outros pacotes.
 
-1. Iniciando um projeto no **Unreal Engine 5**;
-  ![Select or create New Project, Games](imagens/projeto/unreal_engine_select_new_project.jpg)
+`Templates` são modelos com elementos disponíveis para cada tipo de jogo escolhido.
 
-    *Figura: Unreal 5 - Select or create New Project, Games.*
+![Figura: Select Template blank](imagens/projeto/blueprint_ue_select_template.jpg)     
 
-    ![Tela inicial](imagens/projeto/unreal_engine_home_screen.jpg)
+*Figura: Select Template blank.*
 
-      *Figura: Unreal 5 - Tela inicial.*        
+<a name="2.3"></a>
+### 2.2 Configurando o projeto inicialmente
+Em configuração de projeto escolha **C++** e `No Starter Content`, este opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário, logo em seguida escolha uma pasta onde o projeto deverá ser instalado em `Select a Location for project to be stored`.
+
+![Figura: Unreal engine project Settings](imagens/projeto/blueprint_ue_project_settings.jpg)
+
+*Figura: Unreal engine project Settings.*
+
+<a name="2.4"></a>
+### 2.4 Tela inicial do Unreal Engine
+Quando todos os passos anteroriores forem concluídos corretamente a tela inicial deve aparecer.  
+
+![Figura: Unreal Engine tela inicial](imagens/projeto/blueprint_ue_tela_inicial.jpg)
+
+*Figura: Unreal Engine tela inicial.*
+
+<a name="2.5"></a>
+### 2.5 Iniciando um projeto no Unreal Engine 5
+A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o mesmo dos passos anteroriores.
+
+![Figura: Unreal 5 - Select or create New Project, Games](imagens/projeto/unreal_engine_select_new_project.jpg)
+
+*Figura: Unreal 5 - Select or create New Project, Games.*
+
+![Figura: Unreal 5 - Tela inicial](imagens/projeto/unreal_engine_home_screen.jpg)
+
+*Figura: Unreal 5 - Tela inicial.*        
 
 <a name="3"></a>
-## 3. Verificando as pastas criadas
-Após cria o projeto vamos verificar como estão as pastas criadas pela *engine*, utilizando o `explorer` do Windows, navegue até a pasta do projeto para verificar os arquivos criados.
+## 3. Entendo as pastas criadas
+Após criar o projeto vamos verificar como estão as pastas criadas pela *engine*, utilizando o `explorer` do Windows, navegue até a pasta do projeto para verificar os arquivos criados.
 
 ```bash
 |-- .vs
@@ -108,23 +138,35 @@ Após cria o projeto vamos verificar como estão as pastas criadas pela *engine*
 |-- ProjetoAula.sln
 |-- ProjetoAula.uproject
 ```
-1. A pasta `Source` contém arquivos com código
-fonte em **C++** e o arquivo com extensão *uproject* é o principal arquivo do projeto;
-1. `Content` é a principal pasta, pois nela vão ficar contidos todos os arquivos do jogo, em outras palavras esta pasta é o ponto de montagem do projeto como veremos nos próximos capítulos;
-1. É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto.
-  Abaixo duas boas recomendações de organização, discutiremos mais nos próximos capítulos.    
-  - [Estrutura do diretório](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html).
-  - [UE4 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin)
 
 <a name="3.1"></a>
-### 3.1 Pastas temporárias que podem ser removidas
+### 3.1 Pasta de código C++ - Source
+A pasta `Source` contém arquivos com código
+fonte em **C++** e o arquivo com extensão *uproject* é o principal arquivo do projeto.
+
+<a name="3.2"></a>
+### 3.2 Pasta principal do projeto - Content
+`Content` é a principal pasta, pois nela vão ficar contidos todos os arquivos do jogo, em outras palavras esta pasta é o ponto de montagem do projeto como veremos nos próximos capítulos.
+
+<a name="3.3"></a>
+### 3.3 Pastas temporárias que podem ser removidas
 As pastas abaixo podem ser removidas pois podemos construir a qualquer momento quando compilar o projeto.
+
 ```bash
 |-- Binaries
 |-- Build
 |-- Intermediate
 |-- Saved
 ```
+
+<a name="3.4"></a>
+### 3.4 Nomenclatura de pastas
+É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto.
+
+Abaixo duas boas recomendações de organização, discutiremos mais nos próximos capítulos.    
+- [Estrutura do diretório](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html).
+- [UE4 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin)
+
 <a name="4"></a>
 ## 4. Compilando o projeto usando o Windows Explorer
 Para recompilar o projeto e recriar os arquivos vamos utilizar o `explorer` do Windows:
@@ -134,19 +176,19 @@ Para recompilar o projeto e recriar os arquivos vamos utilizar o `explorer` do W
 
     ![Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files](imagens/projeto/blueprint_explorer_generate_vs.jpg)   
 
-    *Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files*
+    *Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files.*
 
 1. Aguarde o termino da operação e abra o projeto.
 
 <a name="5"></a>
 ## 5. Configurando o editor de código
-Você tem que escolher qual editor de código **C++** utilizar usando :
+Para programar utilizando **C++** no Unreal devemos configurar o editor de código que deve ser responsável pela compílação, organização e edição da linguagem.
 
-`Menu` > `Editor Preferences` > `General` em `Source Code` escolha `Visualstudio`.   
+A configuração esta em  `Menu` > `Editor Preferences` > `General` e `Source Code`, então escolha `Visualstudio`.   
 
-![Source Code, Definindo o editor de código](imagens/projeto/unreal_engine_editor_codigo.jpg)   
+![Figura: General - Source Code, Definindo o editor de código](imagens/projeto/unreal_engine_editor_codigo.jpg)   
 
-*Figura: General - Source Code, Definindo o editor de código*
+*Figura: General - Source Code, Definindo o editor de código.*
 
 >**Qual editor eu escolho, Visual Code ou Visual Studio?**
 Os dois são ótimos editores de código mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras lingagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
