@@ -26,16 +26,15 @@ Neste capítulo vamos instalar o **Unreal Engine** e o gerenciador de versões.
 
 <a name="1"></a>
 ## 1. Instalando o Unreal e o Visual Studio
-Para instalar o **Unreal Engine** devemos instalar o **Epic Games Laucnher**, responsável por:
+Para instalar o **Unreal Engine** devemos instalar o **Inicializador da Epic Games**, responsável por:
 - Instalação e atualização de jogos;
 - Instalação e atualização das versões do **Unreal Engine**;
-- Navegação da loja de produtos;
+  ![Figura: Gerenciamento de versões](imagens/projeto/unreal_engine_control_version.jpg)   
 
-![Figura: Gerenciamento de versões](imagens/projeto/unreal_engine_control_version.jpg)   
-
-*Figura: Gerenciamento de versões*
-
+    *Figura: Gerenciamento de versões*
 > O **Unreal Enegine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos.       
+
+- Navegação da loja de produtos;
 
 <a name="1.1"></a>
 ### 1.1 Siga o passos recomendados pela Epic Games
@@ -121,13 +120,13 @@ As pastas abaixo podem ser removidas pois podemos construir a qualquer momento q
 |-- Saved
 ```
 <a name="4"></a>
-## 4 Compilando o projeto usando o Windows Explorer
-Para recompilar o projeto e recriar os arquivos siga os seguintes passos utilizando o `explorer` no Windows:
-1. Apague as pastas `Binaries`, `Build`, `Intermediate` e `Saved`.
-1. Click com botão direito do mouse no arquivo **ProjetoAula.uproject**.
-1. Escolha a opção `Generate Visual Studio project files`.
+## 4. Compilando o projeto usando o Windows Explorer
+Para recompilar o projeto e recriar os arquivos vamos utilizar o `explorer` do Windows:
+1. Apague as pastas `Binaries`, `Build`, `Intermediate` e `Saved`;
+1. Click com botão direito do mouse no arquivo **ProjetoAula.uproject**;
+1. Escolha a opção `Generate Visual Studio project files`;
 
-    ![Recriando os arquivos do projeto, Generate Visual Studio Project files](imagens/projeto/blueprint_explorer_generate_vs.jpg)   
+    ![Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files](imagens/projeto/blueprint_explorer_generate_vs.jpg)   
 
     *Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files*
 
