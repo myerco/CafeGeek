@@ -71,6 +71,8 @@ Para que possamos programar em linguagem C++ integrando **Visual Studio** e o **
   > **Por que instalar este pacote?**    
 Porque muitas vezes foi necessário testar uma funcionalidade ou mesmo testar um conceito da linguagem e ter o compilador disponível foi uma mão na roda.
 
+**[⬆ Volta para o início](#índice)**
+
 <a name="2"></a>
 ## 2. Criando um projeto para jogos no Unreal Engine
 Neste passo vamos criar um projeto para jogos utilizando **C++** como linguagem de desenvolvimento pois ajuda para compreender a organização e construção de pastas e arquivos do **Unreal Engine**.  
@@ -123,6 +125,8 @@ A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o 
 
 *Figura: Unreal 5 - Tela inicial.*        
 
+**[⬆ Volta para o início](#índice)**
+
 <a name="3"></a>
 ## 3. Entendo as pastas criadas
 Após criar o projeto vamos verificar como estão as pastas criadas pela *engine*, utilizando o `explorer` do Windows, navegue até a pasta do projeto para verificar os arquivos criados.
@@ -167,6 +171,7 @@ Abaixo duas boas recomendações de organização, discutiremos mais nos próxim
 - [Estrutura do diretório](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html).
 - [UE4 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin)
 
+**[⬆ Volta para o início](#índice)**
 <a name="4"></a>
 ## 4. Compilando o projeto usando o Windows Explorer
 Para recompilar o projeto e recriar os arquivos vamos utilizar o `explorer` do Windows:
@@ -179,6 +184,8 @@ Para recompilar o projeto e recriar os arquivos vamos utilizar o `explorer` do W
     *Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files.*
 
 1. Aguarde o termino da operação e abra o projeto.
+
+**[⬆ Volta para o início](#índice)**
 
 <a name="5"></a>
 ## 5. Configurando o editor de código
@@ -193,17 +200,17 @@ A configuração esta em  `Menu` > `Editor Preferences` > `General` e `Source Co
 >**Qual editor eu escolho, Visual Code ou Visual Studio?**
 Os dois são ótimos editores de código mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras lingagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
 
+**[⬆ Volta para o início](#índice)**
+
 <a name="6"></a>
 ## 6. Atividades
 <a name="6.1"></a>
 ### 6.1 - Instale o Unreal Engine com Visual Studio.
 #### Regras
 1. Instale todo o ambiente e crie um projeto de nome MeuPrimeiroProjeto.
-
-**[⬆ Back to Top](#índice)**
-
 #### Desafio      
 1. Configure o Visual Studio para ser o editor padrão .
+**[⬆ Volta para o início](#índice)**
 
 
 ***
