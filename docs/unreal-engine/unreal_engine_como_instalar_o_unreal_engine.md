@@ -51,15 +51,15 @@ Siga o guia de instalação da [Epic Games](https://docs.unrealengine.com/en-US/
 ### 1.2 Instalando os pacotes e o Visual Studio para programação com C++
 Para que possamos programar em linguagem C++ integrando **Visual Studio** e o **Unreal Engine** é necessário baixar os pacotes de desenvolvimento em C++ ao instalar o Visual Studio.
 
-1. [Download Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F).
-1. [Documentação Unreal e Visual Studio](https://docs.unrealengine.com/en-US/Programming/Development/VisualStudioSetup/index.html).
-1. Selecionando os pacotes de programação:
+1. [Download Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F);
+1. [Documentação Unreal e Visual Studio](https://docs.unrealengine.com/en-US/Programming/Development/VisualStudioSetup/index.html);
+1. Selecionando os pacotes de programação;
   ![Figura: Visual Studio Update para desenvolvimento de jogos](imagens/projeto/unreal_engine_visual_studio_update.jpg)  
 
     *Figura: Visual Studio Update para desenvolvimento de jogos*   
 
-  - Desenvolvimento de jogos com C++.
-  - Desenvolvimento para Desktop com C++   
+  - Desenvolvimento de jogos com C++;
+  - Desenvolvimento para Desktop com C++.      
   > **Por que instalar este pacote?**    
 Porque muitas vezes foi necessário testar uma funcionalidade ou mesmo testar um conceito da linguagem e ter o compilador disponível foi uma mão na roda.
 
@@ -67,25 +67,24 @@ Porque muitas vezes foi necessário testar uma funcionalidade ou mesmo testar um
 ## 2. Criando o projeto ProjetoAula
 Neste passo vamos criar um projeto utilizando **C++** como linguagem de desenvolvimento pois ajuda para compreender a organização e construção de pastas e arquivos do **Unreal Engine**.  
 
-1. Selecionando o tipo de projeto.    
+1. Selecionando o tipo de projeto;    
   ![blueprint_select_new_project](imagens/projeto/blueprint_ue_select_new_project.jpg)  
 
     *Figura: Unreal 4 - Select or create New Project, Games*        
-1. Escolha o `template blank` para o projeto.  `Templates` são modelos com elementos disponíveis para o tipo de jogo escolhido.
+1. Escolha o `template blank` para o projeto.  `Templates` são modelos com elementos disponíveis para o tipo de jogo escolhido;
   ![Select Template blank](imagens/projeto/blueprint_ue_select_template.jpg)     
 
     *Figura: Select Template blank*
-1. Em configuração de projeto escolha **C++** e `No Starter Content`, este opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário.    
-Logo em seguida escolha uma pasta onde o projeto deverá ser instalado em `Select a Location for project to be stored`.       
+1. Em configuração de projeto escolha **C++** e `No Starter Content`, este opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário, logo em seguida escolha uma pasta onde o projeto deverá ser instalado em `Select a Location for project to be stored`;       
   ![Unreal engine project Settings](imagens/projeto/blueprint_ue_project_settings.jpg)
 
     *Figura: Unreal engine project Settings*
-1. Se deu certo a tela inicial deve aparecer.  
+1. Se deu certo a tela inicial deve aparecer;  
   ![Unreal Engine tela inicial](imagens/projeto/blueprint_ue_tela_inicial.jpg)
 
     *Figura: Unreal Engine tela inicial*
 
-1. Iniciando um projeto no **Unreal Engine 5**.
+1. Iniciando um projeto no **Unreal Engine 5**;
   ![Select or create New Project, Games](imagens/projeto/unreal_engine_select_new_project.jpg)
 
     *Figura: Unreal 5 - Select or create New Project, Games.*
@@ -110,7 +109,8 @@ Após cria o projeto vamos verificar como estão as pastas criadas pela *engine*
 |-- ProjetoAula.uproject
 ```
 1. A pasta `Source` contém arquivos com código
-fonte em **C++** e o arquivo com extensão *uproject* é o principal arquivo do projeto.    
+fonte em **C++** e o arquivo com extensão *uproject* é o principal arquivo do projeto;
+1. `Content` é a principal pasta, pois nela vão ficar contidos todos os arquivos do jogo, em outras palavras esta pasta é o ponto de montagem do projeto como veremos nos próximos capítulos;
 1. É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto.
   Abaixo duas boas recomendações de organização, discutiremos mais nos próximos capítulos.    
   - [Estrutura do diretório](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html).

@@ -21,7 +21,7 @@ Neste capitulo vamos organizar o projeto *ProjetoAula* e adicionar um logo para 
 ## 1. Como criar pastas de trabalho?
 Em `Content Drawer` utilizando botão direito do mouse clique em `New Folder` e crie as seguintes pastas:   
 
-![Content Drawer](imagens/projeto/unreal_engine_content_drawer.jpg)			
+![Figura: Content Drawer](imagens/projeto/unreal_engine_content_drawer.jpg)			
 
 *Figura: Content Drawer*
 
@@ -29,19 +29,19 @@ Em `Content Drawer` utilizando botão direito do mouse clique em `New Folder` e 
 ## 2. Adicionando um *Level* na inicialização do projeto
 Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguintes passos:  
 
-1. Salve o *level* atual na pasta Maps `File` > `Save Current Level As` com o nome `LevelTest`.
-1. Para configurar a inicialização do projeto utilizando o **LevelTest** utilize o menu `Edit` > `Project Settings` e depois `Maps & Modes`.   
+1. Salve o *level* atual na pasta Maps `File` > `Save Current Level As` com o nome `LevelTest`;
+1. Para configurar a inicialização do projeto utilizando o **LevelTest** utilize o menu `Edit` > `Project Settings` e depois `Maps & Modes`;   
 	![Project - Maps & Modes](imagens/projeto/unreal_engine_maps_modes.jpg)			
 
 	*Figura: Project - Maps & Modes*
 
-- `Edit Startup Level` Seleciona o *Level* que deverá ser carregado no início do jogo, neste caso é `LevelTest`.
-- `Game default Map` : Seleciona o *Level* que é mais usado com frequência.
+- `Edit Startup Level` - Seleciona o *Level* que deverá ser carregado no início do jogo, neste caso é `LevelTest`;
+- `Game default Map` - Seleciona o *Level* que é mais usado.
 
 ## 3. Pastas de nomenclatura
 Para um maior gerenciamento podem ser definidas pastas com nomenclaturas adequadas ao projeto, abaixo vamos relacionar algumas sugestões.
 
-1. Sugestão 1
+1. Sugestão 1;
 ```bash
 |-- Content
 		|-- Blueprints
@@ -58,7 +58,7 @@ Para um maior gerenciamento podem ser definidas pastas com nomenclaturas adequad
 		|-- Animations
 ```
 
-1. Sugestão 2
+1. Sugestão 2;
 ```bash
 |-- Content
 		|-- ProjetoAula
@@ -94,9 +94,9 @@ Para um maior gerenciamento podem ser definidas pastas com nomenclaturas adequad
 ```
 
 Separar a pasta do projeto de outras pastas pode facilitar:
-1. Versionamento - pastas com diferentes versões.
-1. Isolar pacotes de testes e *Marketplace*.
-1. DLC ou subprojetos - podemos administrar separadamente projetos relacionados.
+1. Versionamento - pastas com diferentes versões;
+1. Isolar pacotes de testes e *Marketplace*;
+1. DLC ou subprojetos - podemos administrar separadamente projetos relacionados;
 1. Biblioteca de Materiais - podemos migrar pasta de materiais e compartilhar materiais sem muitos problemas definindo um pasta de nível superior.
 
 Exemplo:
