@@ -1,12 +1,15 @@
 ---
 title: Controle de versão com GitHub
-description: Neste capítulo vamos instalar o *Git* para versionamento de código e apresentaros comandos básicos.
+description: Neste capítulo vamos instalar o git para versionamento de arquivos contendo lógicas de programação e apresentar comandos básicos
 tags: [Unreal Engine,Controle de versão,GitHub]
 layout: page
 ---
 
-Neste capítulo vamos instalar o *git* para versionamento de código e apresentar
-os comandos básicos.
+Neste capítulo vamos instalar o *git* para versionamento de arquivos contendo lógicas de programação e apresentar comandos básicos.
+
+![Figura: Unreal Engine with Git](imagens/projeto/unreal_engine_git.jpg)
+
+
 
 ## Índice
 1. [Para que server o controle de versão?](#1)
@@ -44,9 +47,14 @@ Perceba que para facilitar a manutenção e desenvolvimento em equipe e pensando
 
 <a name="2"></a>
 ## 2. Ferramentas para controle de versão
-Existem várias ferramentas para controle de versão disponíveis no mercado, sendo que o **Unreal Engine** trabalha de forma nativa com **SVN**, **Perforce** e **Git**, esta última até o momento em versão beta. Neste projeto utilizaremos o GitHub e o cliente Git para o gerenciamento.     
+Existem várias ferramentas para controle de versão disponíveis no mercado, sendo que o **Unreal Engine** trabalha de forma nativa com **SVN**, **Perforce** e **Git**, esta última até o momento em versão beta. Neste projeto utilizaremos o GitHub e o cliente Git para o versionamento de arquivos.     
 
->**GitHub** é um serviço de armazenamento de nuvem para gerenciamento de códigos de aplicação.
+Algumas ferramentas:
+
+- **GitHub** - É um serviço de armazenamento de nuvem para gerenciamento de códigos de aplicação. É possível ter uma conta gratuita e armazenar até 500Mb por projeto;
+- **Gitlab** - É um serviço de armazenamento de nuvem para gerenciamento de códigos de aplicação concorrente do Github mas com o diferencial que pode ser instalado em um ambiente corporativo;
+- **SVN** - Gerenciado de versão para vários tipos de arquivos, inclusive arquivos de mídia, para ambientes corporativos;
+- **Git LFS** - Large File System é uma versão do git para armazenamento de arquivos de mídia ou binários, podendo armazenar de forma gratuita até 1GB.
 
 <a name="3"></a>
 ## 3. Instalando Git Client e criando uma conta no GitHub

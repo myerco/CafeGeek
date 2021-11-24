@@ -19,7 +19,7 @@ layout: page
 1. [Enums](unreal_engine_enum.html)    
 
 ## Capítulo II - Atores e movimentação
-1. [Actors - Atores](actor_atores.html)
+1. [Atores ou Actors](actor_atores.html)
 1. [Estruturando a lógica utilizando Eventos, funções e macros](estruturando_logica_utilizando_eventos_funcoes_macros.html)  
 1. [Trabalhando com a lógica de movimentação do personagem](trabalhando_com_logica_movimentacao_de_personagem.html)    
 1. [Comunicação entre Blueprints](comunicacao_entre_blueprint.html)    
