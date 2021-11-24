@@ -15,9 +15,9 @@ Neste capitulo vamos organizar as pastas do projeto *ProjetoAula*, construído n
     1. [Benefícios da organização de pastas](#1.2)    
 1. **[Configurando o projeto](#2)**    
     1. [Adicionando um Level na inicialização do projeto](#2)
-    1. [Configurando as imagens do projeto](#4)s
-1. [Atividades](#5)s
-    1. [Configure as pastas de seu projeto](#5.1)
+    1. [Configurando as imagens do projeto](#4)
+1. [Atividades](#3)
+    1. [Configure as pastas de seu projeto](#3.1)
 
 ***
 
@@ -97,7 +97,7 @@ Por conseguinte para um maior gerenciamento pelas equipes do projeto  podemos de
 ```
 
 <a name="1.2"></a>
-### 1.2 Benefícios na organização das pastas 
+### 1.2 Benefícios na organização das pastas
 Separar a pasta do projeto de outras pastas pode facilitar:
 1. Versionamento - pastas com diferentes versões;
 1. Isolar pacotes de testes e *Marketplace*;
@@ -146,10 +146,10 @@ Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apr
 > Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas pode ser convertido usando ferramentas online, por exemplo) e 256x256.
 
 **[⬆ Volta para o início](#índice)**
-<a name="5"></a>
-## 5. Atividades
-<a name="5.1"></a>
-### 5.1 - Configure as pastas de seu projeto.
+<a name="3"></a>
+## 3. Atividades
+<a name="3.1"></a>
+### 3.1 - Configure as pastas de seu projeto.
 #### Regras
 1. Configure as pastas de seu projeto escolhendo uma das sugestões e justifique a sua escolha.
 
