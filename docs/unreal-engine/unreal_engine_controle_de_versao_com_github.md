@@ -1,5 +1,5 @@
 ---
-title: Controle de versão com GitHub
+title: Controle de versão com Gits
 description: Neste capítulo vamos instalar o git para versionamento de arquivos contendo lógicas de programação e apresentar comandos básicos
 tags: [Unreal Engine,Controle de versão,GitHub]
 layout: page
@@ -12,8 +12,8 @@ Neste capítulo vamos instalar o *git* para versionamento de arquivos contendo l
 
 
 ## Índice
-1. [Para que server o controle de versão?](#1)
-1. [Ferramentas para controle de versão](#2)
+1. **[Para que server o controle de versão?](#1)**
+1. **[Ferramentas para controle de versão](#2)**
 1. [Instalando Git Client e criando uma conta no GitHub](#3)
 1. [Entendo o fluxo de trabalho](#4)  
 1. [Utilizando comandos do PowerShell para utilizar o Git Client](#5)  
@@ -47,21 +47,40 @@ Perceba que para facilitar a manutenção e desenvolvimento em equipe e pensando
 
 <a name="2"></a>
 ## 2. Ferramentas para controle de versão
-Existem várias ferramentas para controle de versão disponíveis no mercado, sendo que o **Unreal Engine** trabalha de forma nativa com **SVN**, **Perforce** e **Git**, esta última até o momento em versão beta. Neste projeto utilizaremos o GitHub e o cliente Git para o versionamento de arquivos.     
+Existem várias ferramentas para controle de versão disponíveis no mercado, sendo que o **Unreal Engine** trabalha de forma nativa com **SVN**, **Perforce** e **Git**, esta última até o momento esta em versão beta.      
 
-Algumas ferramentas:
-
+<a name="2.1"></a>
+### 2.1 Algumas ferramentas de versionamento
 - **GitHub** - É um serviço de armazenamento de nuvem para gerenciamento de códigos de aplicação. É possível ter uma conta gratuita e armazenar até 500Mb por projeto;
 - **Gitlab** - É um serviço de armazenamento de nuvem para gerenciamento de códigos de aplicação concorrente do Github mas com o diferencial que pode ser instalado em um ambiente corporativo;
-- **SVN** - Gerenciado de versão para vários tipos de arquivos, inclusive arquivos de mídia, para ambientes corporativos;
+- **SVN** - Gerenciador de versão para vários tipos de arquivos, inclusive arquivos de mídia, para ambientes corporativos;
 - **Git LFS** - Large File System é uma versão do git para armazenamento de arquivos de mídia ou binários, podendo armazenar de forma gratuita até 1GB.
 
+<a name="2.2"></a>
+### 2.2 Estrutura do GIT
+![Git, GitHub, & Workflow Fundamentals ](https://res.cloudinary.com/practicaldev/image/fetch/s--M_fHUEqA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png)
+
 <a name="3"></a>
-## 3. Instalando Git Client e criando uma conta no GitHub
-Nesta passo vamos instalador o **Git Client** e criar uma conta no site do Github, logo em seguida utilizaremos comandos do **PowerShell** para testar a instalação.
+## 3. Começando a trabalhar com o Git e o Unreal Engine
+Neste passo vamos preparar o ambiente e projeto para começar a trabalhar com o gerenciamento de versões e  utilizaremos o GitHub como repositório de arquivos e gerenciador de versões, para tal executaremos os próximos passos.
+
+<a name="3.1"></a>
+### 3.1 Criando uma conta e o projeto no Github
+Temos que criar uma conta no [Github](https://github.com/), em seguida criamos um novo repositório para o projeto  **ProjetoAula** com os seguintes parâmetros:
+
+- `Repository name` - ProjetoAula;
+- `Public` - Qualquer pessoa pode acessar;
+- `Initialize this repository with:` - Marque as opções:
+    - `Add a README file` - Cria um arquivo em formato Markdown para servir como apresentação do projeto;
+    - `Add .gitignore` - Arquivo para controlar o que pode ser enviado para o repositório;
+
+<a name="3.2"></a>
+### 3.2 Instalando Git Client
+É necessário instalar o **Git client** no computador local para que seja criada a estrutura de versionamento local.
+
+Utilizaremos comandos do **PowerShell** para testar a instalação.
 
 1. Instale o [Cliente GIT](https://git-scm.com/downloads);
-1. Crie uma conta no site do [Github](https://github.com/);
 1. Crie uma chave de autenticação (Key-Gen) com o GIT-BASH;
 ```shell
 ssh-keygen
@@ -77,7 +96,7 @@ git init
 git status
 git remote -v
 ```
-1. É possível instalar e utilizar uma aplicação visual para gerenciar do comandos. Recomendamos usar [GIT-Desktop](https://desktop.github.com/) ou [Sourcetree](https://www.sourcetreeapp.com/) .
+1. É possível instalar e utilizar uma aplicação visual para gerenciar do comandos, como por exemplo o [GIT-Desktop](https://desktop.github.com/) ou [Sourcetree](https://www.sourcetreeapp.com/) .
 
 <a name="4"></a>
 ## 4. Entendo o fluxo de trabalho
@@ -101,27 +120,27 @@ Segue abaixo:
 
 Então vamos apresentar os principais comandos.
 
-<a name="51"></a>
+<a name="5.1"></a>
 ### 5.1 Clonando o projeto
 Clonar o projeto significa baixar o projeto do servidor para a máquina cliente (local).
 
 ```shell
     mkdir -p D:\UnrealProjects
-    git clone https://github.com/myerco/ProjetoMP.git
+    git clone https://github.com/myerco/ProjetoAula.git
     cd ProjetoMP
     git status
 ```
-<a name="52"></a>
+<a name="5.2"></a>
 ### 5.2. Criando o projeto
-Podemos criar um novo projeto no cliente e log em seguida atualizar o servidor.     
+Podemos criar um novo projeto no cliente e em seguida atualizar o servidor.     
 ```shell
     mkdir -p D:\UnrealProjects\ProjetoMP
     cd D:\UnrealProjects\ProjetoMP
     git init
-    git remote add origin https://github.com/myerco/ProjetoMP.git
+    git remote add origin https://github.com/myerco/ProjetoAula.git
     git remote -v
 ```
-<a name="53"></a>
+<a name="5.3"></a>
 ### 5.3 Atualizando o projeto no servidor
 Mudanças podem ser replicadas do cliente para o servidor.
 ```shell
@@ -129,7 +148,7 @@ Mudanças podem ser replicadas do cliente para o servidor.
     git commit -m "feat: Atualizando o projeto.. Alteração de movimentação de personagem"
     git push origin master
 ```
-<a name="54"></a>
+<a name="5.4"></a>
 ### 5.4 Atualizando o projeto no cliente (local)
 O comando `pull` baixa os arquivos do servidor.
 ```shell
@@ -173,3 +192,4 @@ StarterContent/
 - [Top 20 Git commands with examples](https://dzone.com/articles/top-20-git-commands-with-examples)
 - [Source Control](https://docs.unrealengine.com/en-US/Basics/UI/SourceControl/index.html)
 - [Using SVN as Source Control](https://docs.unrealengine.com/en-US/ProductionPipelines/SourceControl/SVN/index.html)
+- [Git, GitHub, & Workflow Fundamentals ]([https://dev.to/mollynem/git-github--workflow-fundamentals-5496)
