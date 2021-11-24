@@ -1,15 +1,13 @@
 ---
-title: Unreal Engine
+title: Unreal Engine - Conteúdo do curso
 description: Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando **Blueprints** e **C++**, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer com Unreal Engine.  
 keywords: [Desonvolvimento com Unreal Engine, Jogos com Unreal Engine]
 tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digital]
 layout: page
 ---
 
-# Conteúdo do curso
-
 ## Capítulo I - O Unreal Engine e sua lógica de programação
-1. [Introdução](unreal_engine_introducao_desenvolvimento_jogos.html)
+1. [Introdução o desenvolvimento de jogos utilziando unrel Engine](unreal_engine_introducao_desenvolvimento_jogos.html)
 1. [Como instalar o Unreal Engine?](unreal_engine_como_instalar_o_unreal_engine.html)
 1. [Organizando pastas e logo do projeto](unreal_engine_organizando_pastas_e_logo.html)
 1. [Controle de versão com GitHub](unreal_engine_controle_de_versao_com_github.html)
@@ -28,8 +26,8 @@ layout: page
 1. [Delta time e sistema de coordenadas](deltatime_sistema_coordenadas.html)
 
 ## Capítulo III - Estruturas de dados e Interface com usuário
-1. [Structure - Variáveis estruturadas](structure_variaveis_estruturadas.html)  
-1. [Data tables - Tabelas de dados](data_tables.html)
+1. [Variáveis estruturadas ou Structure](structure_variaveis_estruturadas.html)  
+1. [Tabelas de dados ou Data tables - ](data_tables.html)
 1. [Game Instance, Game State e Game Mode](unreal_engine_gameinstance_state_mode.html)
 1. [Implementando a Interface com o jogador](unreal_engine_hud_interface.html)
 1. [Lógica de programação dos objetos da interface](unreal_engine_hud_logica.html)
@@ -43,7 +41,7 @@ layout: page
 1. [Landscape](landscape.html)  
 
 ## Capítulo V - Animação de personagens       
-1. [Introdução](unreal_engine_animacao_introducao.html)
+1. [Introdução a animação de personagens](unreal_engine_animacao_introducao.html)
 1. [Preparando o projeto](unreal_engine_animacao_preparando_o_projeto.html)
 1. [Blend Space](unreal_engine_animacao_blend_space.html)        
 1. [Animation Blueprint](unreal_engine_animacao_animation_blueprint.html)        

@@ -1,5 +1,5 @@
 ---
-title: Animação - Introdução
+title: Introdução a animação de personagens
 description: Neste capitulo vamos apresentar o fluxo de trabalho e os elementos necessários para a animação de personagens.
 tags: [Unreal Engine, Animação]
 layout: page
