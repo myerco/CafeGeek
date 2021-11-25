@@ -1,11 +1,11 @@
 ---
 title: Controle de versão com Gits
-description: Neste capítulo vamos instalar o git para versionamento de arquivos contendo lógicas de programação e apresentar comandos básicos
+description: Neste capítulo vamos instalar o Git com o GitHub Desktop para versionamento de arquivos no Unreal Engine e apresentar comandos básicos.
 tags: [Unreal Engine,Controle de versão,GitHub]
 layout: page
 ---
 
-Neste capítulo vamos instalar o *git* para versionamento de arquivos contendo lógicas de programação e apresentar comandos básicos.
+Neste capítulo vamos instalar o **Git Client** com o **GitHub Desktop** para versionamento de arquivos no **Unreal Engine** e apresentar comandos básicos.
 
 ![Figura: Unreal Engine with Git](imagens/projeto/unreal_engine_git.jpg)
 
@@ -21,13 +21,13 @@ Neste capítulo vamos instalar o *git* para versionamento de arquivos contendo l
     1. [Configurando o Github Desktop e adicionando o projeto](#3.4)  
     1. [Criando o projeto remoto e atualizando os arquivos](#3.5)  
     1. [Testando a configuração do Git com o Unreal Engine](#3.6)  
-1. **[Utilizando comandos do PowerShell para utilizar o Git Client](#8)**  
-    1. [Clonando o projeto](#8.1)
-    1. [Criando o projeto](#8.2)
-    1. [Atualizando o projeto no servidor](#8.3)
-    1. [Atualizando o projeto no cliente](#8.4)
-1. **[Ignorando pastas e arquivos](#9)**
-    1. [Exemplo de arquivo .gitignore para o Unreal Engine](#9.1)
+1. **[Utilizando comandos do PowerShell para utilizar o Git Client](#4)**  
+    1. [Clonando o projeto](#4.1)
+    1. [Criando o projeto](#4.2)
+    1. [Atualizando o projeto no servidor](#4.3)
+    1. [Atualizando o projeto no cliente](#4.4)
+1. **[Ignorando pastas e arquivos](#5)**
+    1. [Exemplo de arquivo .gitignore para o Unreal Engine](#5.1)
 ***
 
 <a name="1"></a>
@@ -67,7 +67,7 @@ Existem várias ferramentas para controle de versão disponíveis no mercado, co
 
 <a name="2.1"></a>
 ### 2.1 Estrutura do GIT
-No gráfico abaixo é apresentado a estrutura de armazenar e alguns comandos do ambiente do git.
+No gráfico abaixo é apresentado a estrutura de armazenar e alguns comandos do ambiente do Git.
 
 ![Git, GitHub, & Workflow Fundamentals ](https://res.cloudinary.com/practicaldev/image/fetch/s--M_fHUEqA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png)
 
@@ -95,7 +95,7 @@ git push origin main
 
 <a name="3"></a>
 ## 3. Começando a trabalhar com o Git e o Unreal Engine
-Neste passo vamos preparar o ambiente e projeto para começar a trabalhar com o gerenciamento de versões, utilizaremos o GitHub como repositório de arquivos e gerenciador de versões, para tal executaremos os próximos passos.
+Neste passo vamos preparar o ambiente e projeto para começar a trabalhar com o gerenciamento de versões, utilizaremos o **GitHub** como repositório de arquivos e gerenciador de versões, para tal executaremos os próximos passos.
 
 <a name="3.1"></a>
 ### 3.1 Criando uma conta e o projeto no Github
@@ -140,9 +140,9 @@ Para exemplificar a conexão do Unreal Engine com o Github vamos criar um novo p
 
     *Figura: Source Control Login*
 1. Abaixo a descrição dos parâmetros;
-  - `Git Path` - Caminho para o executável do Git client;
+  - `Git Path` - Caminho para o executável do **Git client**;
   - `Add a .gitignore file` - Adiciona o arquivo para controle do que deve ser enviado para o servidor;
-  - `Add a basic README.md file` - Adicione um arquivo em formato Markdown para ser utilizado como documentação inicial;
+  - `Add a basic README.md file` - Adicione um arquivo em formato *Markdown* para ser utilizado como documentação inicial;
   - `Make the initial Git Commit` - Inicializa o repositório local.
 
 1. Logo em seguida inicialize o projeto e clique em `Accept Settings`;
@@ -155,7 +155,7 @@ Para exemplificar a conexão do Unreal Engine com o Github vamos criar um novo p
 <a name="3.4"></a>
 ### 3.4 Configurando o Github Desktop e adicionando o projeto
 1. Abra o GitHub Desktop;
-1. Configure a sua conta do Github para ter acesso aos seus repositórios;
+1. Configure a sua conta do **Github** para ter acesso aos seus repositórios;
   - Menu principal `File` > `Options`
    ![Figura: Github Desktop Options](imagens/projeto/unreal_engine_github_desktop_options.jpg)
 
@@ -166,7 +166,7 @@ Para exemplificar a conexão do Unreal Engine com o Github vamos criar um novo p
 
 <a name="3.5"></a>
 ### 3.5 Criando o projeto remoto e atualizando os arquivos
-Uma vez configurados os projetos, Unreal e GitHub Desktop, podemos confirmar as alterações dos arquivos utilizando o comando `Commit to Master`.
+Uma vez configurados os projetos nos sistemas **Unreal** e **GitHub Desktop**, podemos confirmar as alterações dos arquivos utilizando o comando `Commit to Master`.
 
 ![Figura: Github Desktop Commit to Master](imagens/projeto/unreal_engine_github_desktop_Commit_to_master.jpg)
 
@@ -182,7 +182,7 @@ O comando acima irá criar um projeto na sua conta no Github.com e adicionar tod
 
 <a name="3.6"></a>
 ### 3.6 Testando a configuração do Git com o Unreal Engine
-Para testar as configurações realizadas vamos adicionar o pacote `Starter Content` e um objeto Blueprint.
+Para testar as configurações realizadas vamos adicionar o pacote `Starter Content` e um objeto **Blueprint**.
 
 1. Adicione o pacote **Starter Content** utilizando o `Content Drawer`;
   - `Add` > `Add Feature or Content Pack` escolha `Starter Content`.
