@@ -9,8 +9,6 @@ Neste capítulo vamos instalar o *git* para versionamento de arquivos contendo l
 
 ![Figura: Unreal Engine with Git](imagens/projeto/unreal_engine_git.jpg)
 
-
-
 ## Índice
 1. **[Para que server o controle de versão?](#1)**
 1. **[Ferramentas para controle de versão](#2)**
@@ -54,6 +52,8 @@ Perceba que para facilitar a manutenção e desenvolvimento em equipe e pensando
 - Necessidade de compartilhar o código como outros desenvolvedores.
 - Necessidade de documentar as alterações no momento que forem compartilhadas.
 
+**[⬆ Volta para o início](#índice)**
+
 <a name="2"></a>
 ## 2. Ferramentas para controle de versão
 Existem várias ferramentas para controle de versão disponíveis no mercado, como por exemplo :
@@ -90,6 +90,8 @@ git commit -m "fix: Lista de correções #14,#252"
    ```bash
 git push origin main
    ```
+
+**[⬆ Volta para o início](#índice)**
 
 <a name="3"></a>
 ## 3. Começando a trabalhar com o Git e o Unreal Engine
@@ -198,16 +200,18 @@ Para testar as configurações realizadas vamos adicionar o pacote `Starter Cont
 
     *Figura: Github Desktop Publish repository*
 
-<a name="8"></a>
-## 8. Utilizando comandos do PowerShell para utilizar o Git Client
+**[⬆ Volta para o início](#índice)**
+
+<a name="4"></a>
+## 4. Utilizando comandos do PowerShell para utilizar o Git Client
 É interessante aprender comandos do **PowerShell** para utilizar o **Git Client** pois existem diversas situações que não estão nas ferramentas visuais, como por exemplo:
 - Resolução de conflitos.
 - Adicionar nome de versão para um determinado conjunto de arquivos.
 
 Então vamos apresentar os principais comandos.
 
-<a name="8.1"></a>
-### 8.1 Clonando o projeto
+<a name="4.1"></a>
+### 4.1 Clonando o projeto
 Clonar o projeto significa baixar o projeto do servidor para a máquina cliente (local).
 
 ```shell
@@ -216,8 +220,8 @@ git clone https://github.com/myerco/ProjetoAula.git
 cd ProjetoMP
 git status
 ```
-<a name="8.2"></a>
-### 8.2. Criando o projeto
+<a name="4.2"></a>
+### 4.2. Criando o projeto
 Podemos criar um novo projeto no cliente e em seguida atualizar o servidor.     
 ```shell
 mkdir -p D:\UnrealProjects\ProjetoMP
@@ -226,23 +230,26 @@ git init
 git remote add origin https://github.com/myerco/ProjetoAula.git
 git remote -v
 ```
-<a name="8.3"></a>
-### 8.3 Atualizando o projeto no servidor
+<a name="4.3"></a>
+### 4.3 Atualizando o projeto no servidor
 Mudanças podem ser replicadas do cliente para o servidor.
 ```shell
 git add .
 git commit -m "feat: Atualizando o projeto.. Alteração de movimentação de personagem"
 git push origin master
 ```
-<a name="8.4"></a>
-### 8.4 Atualizando o projeto no cliente (local)
+<a name="4.4"></a>
+### 4.4 Atualizando o projeto no cliente (local)
 O comando `pull` baixa os arquivos do servidor.
 ```shell
 git status
 git pull origin master
 ```
-<a name="9"></a>
-## 9. Ignorando pastas e arquivos
+
+**[⬆ Volta para o início](#índice)**
+
+<a name="5"></a>
+## 5. Ignorando pastas e arquivos
 É importante ignorar pastas e arquivos do cliente para que não possam ser publicadas no servidor utilizando o arquivo `.gitignore` na pasta raiz do projeto, considerando os seguintes aspectos.
 
 **Segurança**  
@@ -256,8 +263,8 @@ Arquivos de imagens ou elementos de grande tamanho podem ser excluídos do versi
 - [Git LFS](https://git-lfs.github.com/)
 - [SVN](https://tortoisesvn.net/)
 
-<a name="9.1"></a>
-### 9.1 Exemplo de arquivo .gitignore para o Unreal Engine
+<a name="5.1"></a>
+### 5.1 Exemplo de arquivo .gitignore para o Unreal Engine
 ```shell
 # Projetos exemplo
 ThirdPerson/
