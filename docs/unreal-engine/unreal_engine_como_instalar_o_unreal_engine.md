@@ -34,30 +34,24 @@ Neste capítulo vamos instalar o **Unreal Engine** e o Microsoft Visual Studio p
 
 <a name="1"></a>
 ## 1. Instalando o Unreal e o Visual Studio
-Para instalar o **Unreal Engine** devemos instalar o [Inicializador da Epic Games](https://www.epicgames.com/store/pt-BR/download), responsável por:
+O **Unreal Enegine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos. A **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **Inicializador da Epic Games** responsável por:
 - Instalação e atualização de jogos;
+- Navegação da loja de produtos;
 - Instalação e atualização das versões do **Unreal Engine**;
   ![Figura: Gerenciamento de versões](imagens/projeto/unreal_engine_control_version.jpg)   
 
     *Figura: Gerenciamento de versões.*
-> O **Unreal Enegine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos.       
-
-- Navegação da loja de produtos;
 
 <a name="1.1"></a>
 ### 1.1 Siga o passos recomendados pela Epic Games
-Siga o guia de instalação da [Epic Games](https://docs.unrealengine.com/en-US/GettingStarted/Installation/index.html) pois é bem fácil.
-
-1. Baixe e instale o **Inicializador da Epic Games**;
+1. Baixe e instale o [Inicializador da Epic Games](https://www.epicgames.com/store/pt-BR/download);
 2. Inscreva-se para uma conta da Epic Games, se ainda não tiver uma;
 3. Faça login no **Inicializador da Epic Games**;
 4. Instale o Unreal Engine.
 
-> Verifique a versão de instalação ou disponibilidade da documentação
-
 <a name="1.2"></a>
 ### 1.2 Instalando os pacotes e o Visual Studio para programação com C++
-Para que possamos programar em linguagem C++ integrando **Visual Studio** e o **Unreal Engine** é necessário baixar os pacotes de desenvolvimento em C++ ao instalar o Visual Studio.
+Para que possamos programar em linguagem C++ com **Visual Studio** e o **Unreal Engine** é necessário baixar os pacotes de desenvolvimento em C++.
 
 1. [Download Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F);
 1. [Documentação Unreal e Visual Studio](https://docs.unrealengine.com/en-US/Programming/Development/VisualStudioSetup/index.html);
@@ -75,9 +69,7 @@ Porque muitas vezes foi necessário testar uma funcionalidade ou mesmo testar um
 
 <a name="2"></a>
 ## 2. Criando um projeto para jogos no Unreal Engine
-Neste passo vamos criar um projeto para jogos utilizando **C++** como linguagem de desenvolvimento pois ajuda para compreender a organização e construção de pastas e arquivos do **Unreal Engine**.  
-
-O nome do novo projeto é ProjetoAula o qual será usado em vários capítulos.
+Neste passo vamos criar um projeto para jogos utilizando **C++** pois irá ajudar na compreensão da estrutura de pastas e arquivos do **Unreal Engine**. O nome do projeto será ProjetoAula e o usaremos em vários capítulos.
 
 <a name="2.1"></a>
 ### 2.1 Selecionando o tipo de projeto    
@@ -91,15 +83,15 @@ Neste passo vamos selecionar a categoria *Games* para o projeto.
 ### 2.2 Escolhendo o Template
 Para este projeto vamos escolher o `template blank` para que possamos entender os elementos do projeto e adicionar posteriormente outros pacotes.
 
-`Templates` são modelos com elementos disponíveis para cada tipo de jogo escolhido.
-
 ![Figura: Select Template blank](imagens/projeto/blueprint_ue_select_template.jpg)     
 
 *Figura: Select Template blank.*
 
+> `Templates` são modelos com elementos disponíveis para cada tipo de jogo escolhido.
+
 <a name="2.3"></a>
 ### 2.2 Configurando o projeto inicialmente
-Em configuração de projeto escolha **C++** e `No Starter Content`, este opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário, logo em seguida escolha uma pasta onde o projeto deverá ser instalado em `Select a Location for project to be stored`.
+Em configuração de projeto escolha **C++** e `No Starter Content`, esta opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário, em seguida escolha uma pasta onde o projeto deverá ser instalado em `Select a Location for project to be stored`.
 
 ![Figura: Unreal engine project Settings](imagens/projeto/blueprint_ue_project_settings.jpg)
 
@@ -107,7 +99,7 @@ Em configuração de projeto escolha **C++** e `No Starter Content`, este opçã
 
 <a name="2.4"></a>
 ### 2.4 Tela inicial do Unreal Engine
-Quando todos os passos anteroriores forem concluídos corretamente a tela inicial deve aparecer.  
+Quando todos os passos anteriores forem concluídos corretamente a tela inicial deve aparecer.  
 
 ![Figura: Unreal Engine tela inicial](imagens/projeto/blueprint_ue_tela_inicial.jpg)
 
@@ -115,7 +107,7 @@ Quando todos os passos anteroriores forem concluídos corretamente a tela inicia
 
 <a name="2.5"></a>
 ### 2.5 Iniciando um projeto no Unreal Engine 5
-A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o mesmo dos passos anteroriores.
+A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o mesmo dos passos anteriores.
 
 ![Figura: Unreal 5 - Select or create New Project, Games](imagens/projeto/unreal_engine_select_new_project.jpg)
 
@@ -129,7 +121,7 @@ A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o 
 
 <a name="3"></a>
 ## 3. Entendo as pastas criadas
-Após criar o projeto vamos verificar como estão as pastas criadas pela *engine*, utilizando o `explorer` do Windows, navegue até a pasta do projeto para verificar os arquivos criados.
+Após criar o projeto vamos verificar como estão as pastas criadas pela *engine*, utilizando o `explorer` do Windows, navegue até a pasta do projeto para verificar os arquivos criados, devem aparecer as seguintes pastas e arquivos:
 
 ```bash
 |-- .vs
@@ -142,11 +134,11 @@ Após criar o projeto vamos verificar como estão as pastas criadas pela *engine
 |-- ProjetoAula.sln
 |-- ProjetoAula.uproject
 ```
+A seguir vamos entender as pastas do projeto.
 
 <a name="3.1"></a>
 ### 3.1 Pasta de código C++ - Source
-A pasta `Source` contém arquivos com código
-fonte em **C++** e o arquivo com extensão *uproject* é o principal arquivo do projeto.
+A pasta `Source` contém arquivos com código fonte em **C++** e o arquivo com extensão *uproject* é o principal arquivo do projeto.
 
 <a name="3.2"></a>
 ### 3.2 Pasta principal do projeto - Content
@@ -165,16 +157,15 @@ As pastas abaixo podem ser removidas pois podemos construir a qualquer momento q
 
 <a name="3.4"></a>
 ### 3.4 Nomenclatura de pastas
-É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto.
-
-Abaixo duas boas recomendações de organização, discutiremos mais nos próximos capítulos.    
+É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto, abaixo duas boas recomendações de organização, discutiremos mais nos próximos capítulos.    
 - [Estrutura do diretório](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html).
 - [UE4 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin)
 
 **[⬆ Volta para o início](#índice)**
+
 <a name="4"></a>
 ## 4. Compilando o projeto usando o Windows Explorer
-Para recompilar o projeto e recriar os arquivos vamos utilizar o `explorer` do Windows:
+Para recompilar o projeto e recriar os arquivos podemos utilizar o `explorer` do Windows seguindo os passos abaixo:
 1. Apague as pastas `Binaries`, `Build`, `Intermediate` e `Saved`;
 1. Click com botão direito do mouse no arquivo **ProjetoAula.uproject**;
 1. Escolha a opção `Generate Visual Studio project files`;
@@ -189,16 +180,17 @@ Para recompilar o projeto e recriar os arquivos vamos utilizar o `explorer` do W
 
 <a name="5"></a>
 ## 5. Configurando o editor de código
-Para programar utilizando **C++** no Unreal devemos configurar o editor de código que deve ser responsável pela compílação, organização e edição da linguagem.
+Para programar utilizando **C++** no Unreal devemos configurar um editor de código para ser responsável pela compilação, organização e edição da linguagem. A configuração esta em :
 
-A configuração esta em  `Menu` > `Editor Preferences` > `General` e `Source Code`, então escolha `Visualstudio`.   
+ `Menu` > `Editor Preferences` > `General` e `Source Code`, então escolha `Visualstudio`.   
 
 ![Figura: General - Source Code, Definindo o editor de código](imagens/projeto/unreal_engine_editor_codigo.jpg)   
 
 *Figura: General - Source Code, Definindo o editor de código.*
 
 >**Qual editor eu escolho, Visual Code ou Visual Studio?**
-Os dois são ótimos editores de código mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras lingagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
+>
+>Os dois são ótimos editores de código mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras lingagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
 
 **[⬆ Volta para o início](#índice)**
 
@@ -218,3 +210,4 @@ Os dois são ótimos editores de código mas o Visual Code tem uma apresentaçã
 - [Estrutura do diretório](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html)  
 - [UE4 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin)
 - [Setting Up Visual Studio for Unreal Engine](https://docs.unrealengine.com/en-US/Programming/Development/VisualStudioSetup/index.html)
+- [Installing Unreal Engine](https://docs.unrealengine.com/en-US/GettingStarted/Installation/index.html)

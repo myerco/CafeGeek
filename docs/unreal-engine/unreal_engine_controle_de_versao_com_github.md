@@ -16,7 +16,7 @@ Neste capítulo vamos instalar o *git* para versionamento de arquivos contendo l
 1. **[Ferramentas para controle de versão](#2)**
 1. [Instalando Git Client e criando uma conta no GitHub](#3)
 1. [Entendo o fluxo de trabalho](#4)  
-1. [Utilizando comandos do PowerShell para utilizar o Git Client](#5)  
+1. **[Utilizando comandos do PowerShell para utilizar o Git Client](#5)**  
     1. [Clonando o projeto](#51)
     1. [Criando o projeto](#52)
     1. [Atualizando o projeto no servidor](#53)
@@ -47,7 +47,7 @@ Perceba que para facilitar a manutenção e desenvolvimento em equipe e pensando
 
 <a name="2"></a>
 ## 2. Ferramentas para controle de versão
-Existem várias ferramentas para controle de versão disponíveis no mercado, sendo que o **Unreal Engine** trabalha de forma nativa com **SVN**, **Perforce** e **Git**, esta última até o momento esta em versão beta.      
+Existem várias ferramentas para controle de versão disponíveis no mercado, sendo que o **Unreal Engine** trabalha de forma nativa com **SVN**, **Perforce** e **Git**, esta última até o momento em versão beta.      
 
 <a name="2.1"></a>
 ### 2.1 Algumas ferramentas de versionamento
@@ -62,11 +62,11 @@ Existem várias ferramentas para controle de versão disponíveis no mercado, se
 
 <a name="3"></a>
 ## 3. Começando a trabalhar com o Git e o Unreal Engine
-Neste passo vamos preparar o ambiente e projeto para começar a trabalhar com o gerenciamento de versões e  utilizaremos o GitHub como repositório de arquivos e gerenciador de versões, para tal executaremos os próximos passos.
+Neste passo vamos preparar o ambiente e projeto para começar a trabalhar com o gerenciamento de versões, utilizaremos o GitHub como repositório de arquivos e gerenciador de versões, para tal executaremos os próximos passos.
 
 <a name="3.1"></a>
 ### 3.1 Criando uma conta e o projeto no Github
-Temos que criar uma conta no [Github](https://github.com/), em seguida criamos um novo repositório para o projeto  **ProjetoAula** com os seguintes parâmetros:
+Inscreva-se no [Github](https://github.com/) para em seguida criar um repositório para o projeto **ProjetoAula** com os seguintes parâmetros:
 
 - `Repository name` - ProjetoAula;
 - `Public` - Qualquer pessoa pode acessar;
@@ -76,9 +76,7 @@ Temos que criar uma conta no [Github](https://github.com/), em seguida criamos u
 
 <a name="3.2"></a>
 ### 3.2 Instalando Git Client
-É necessário instalar o **Git client** no computador local para que seja criada a estrutura de versionamento local.
-
-Utilizaremos comandos do **PowerShell** para testar a instalação.
+É necessário instalar o **Git Client** no computador local para criar as estruturas de versionamento. Utilizaremos o **PowerShell** com os comandos a seguir para instalar o aplicativo cliente.
 
 1. Instale o [Cliente GIT](https://git-scm.com/downloads);
 1. Crie uma chave de autenticação (Key-Gen) com o GIT-BASH;
@@ -100,18 +98,21 @@ git remote -v
 
 <a name="4"></a>
 ## 4. Entendo o fluxo de trabalho
-Quando utilizamos um gerenciador de versão temos que seguir um fluxo de trabalho para compartilhar o código armazenado localmente.
-
-Segue abaixo:
+Quando utilizamos um gerenciador de versão temos que seguir um fluxo de trabalho para compartilhar o código armazenado localmente, segue abaixo os comandos iniciais do fluxo:
 1. `Add` - Adicionar as alterações para um registro local, isso permite verificar quais arquivos foram alterados.
+  ```bash
+  git add .
+  ```
 1. `Commit` - Comprometer ou Confirmar as alterações e criar uma etiqueta ou informação para identificar o trabalhado realizado, por exemplo:    
   ```bash
-  feat: Adicionado lógica de movimentação do jogador com mouse X e Y em BP_HeroBase.
-  fix: Corrigido o evento MostraMenu em BP_GameInstance, anteriormente o objeto apresentava erro no momento de instanciar o objeto BP_MenuPrincipal, foi adicionado o nó IsValid antes da execução.
-  fix: Lista de correções #14,#252
+  git commit -m "feat: Adicionado lógica de movimentação do jogador com mouse X e Y em BP_HeroBase."
+git commit -m "fix: Corrigido o evento MostraMenu em BP_GameInstance, anteriormente o objeto apresentava erro no momento de instanciar o objeto BP_MenuPrincipal, foi adicionado o nó IsValid antes da execução."
+git commit -m "fix: Lista de correções #14,#252"
   ```
 1. `Push` - Empurrar ou publicar, neste caso, as alterações para o servidor.
-
+   ```bash
+   git push origin main 
+   ```
 <a name="5"></a>
 ## 5. Utilizando comandos do PowerShell para utilizar o Git Client
 É interessante aprender comandos do **PowerShell** para utilizar o **Git Client** pois existem diversas situações que não estão nas ferramentas visuais, como por exemplo:
@@ -193,3 +194,5 @@ StarterContent/
 - [Source Control](https://docs.unrealengine.com/en-US/Basics/UI/SourceControl/index.html)
 - [Using SVN as Source Control](https://docs.unrealengine.com/en-US/ProductionPipelines/SourceControl/SVN/index.html)
 - [Git, GitHub, & Workflow Fundamentals ]([https://dev.to/mollynem/git-github--workflow-fundamentals-5496)
+- [Git with Unreal Engine 5](https://www.anchorpoint.app/blog/git-with-unreal-engine-5)
+- [Git for UE4 / Unreal Engine 4](https://www.youtube.com/watch?v=FXMTHrLWFKQ)

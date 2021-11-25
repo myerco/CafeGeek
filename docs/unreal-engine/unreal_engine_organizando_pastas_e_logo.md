@@ -42,9 +42,9 @@ Temos também equipes heterogêneas trabalhando no mesmo projeto e até na mesma
 - Artistas gráficos;
 - Artistas de efeitos de som e músicos;
 
-Por conseguinte para um maior gerenciamento pelas equipes do projeto  podemos definir pastas com nomenclaturas adequadas ao projeto, abaixo vamos relacionar algumas sugestões.
+Por conseguinte para um maior gerenciamento pelas equipes do projeto  podemos definir pastas com nomenclaturas e organização adequadas ao projeto, abaixo vamos relacionar algumas sugestões.
 
-1. Sugestão 1;
+1. Sugestão 1.
 ```bash
 |-- Content
 		|-- Blueprints
@@ -61,7 +61,7 @@ Por conseguinte para um maior gerenciamento pelas equipes do projeto  podemos de
 		|-- Animations
 ```
 
-1. Sugestão 2;
+1. Sugestão 2.
 ```bash
 |-- Content
 		|-- ProjetoAula
@@ -98,7 +98,7 @@ Por conseguinte para um maior gerenciamento pelas equipes do projeto  podemos de
 
 <a name="1.2"></a>
 ### 1.2 Benefícios na organização das pastas
-Separar a pasta do projeto de outras pastas pode facilitar:
+Separar a pasta do projeto `Content` de outras pastas pode facilitar:
 1. Versionamento - pastas com diferentes versões;
 1. Isolar pacotes de testes e *Marketplace*;
 1. DLC ou subprojetos - podemos administrar separadamente projetos relacionados;
@@ -120,14 +120,17 @@ Separar a pasta do projeto de outras pastas pode facilitar:
 
 <a name="2"></a>
 ## 2. Configurando o projeto
-Neste passo vamos configurar o mapa inicial e as imagens que representam o projeto.
+Neste passo vamos configurar alguns parâmetros do projeto.
 
 <a name="2.1"></a>
 ### 2.1 Adicionando um *Level* na inicialização do projeto
 Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguintes passos:  
 
-1. Salve o *level* atual na pasta Maps `File` > `Save Current Level As` com o nome `LevelTest`;
-1. Para configurar a inicialização do projeto utilizando o **LevelTest** utilize o menu `Edit` > `Project Settings` e depois `Maps & Modes`;   
+1. Salve o *level* atual na pasta `Maps` :       
+    `File` > `Save Current Level As` com o nome `LevelTest`;
+1. Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o menu :     
+    `Edit` > `Project Settings` e depois `Maps & Modes`;   
+
 	![Project - Maps & Modes](imagens/projeto/unreal_engine_maps_modes.jpg)			
 
 	*Figura: Project - Maps & Modes*
@@ -137,7 +140,9 @@ Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguinte
 
 <a name="2.3"></a>
 ### 2.3 Configurando as imagens  do projeto
-Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu `Project Settings` opção `Plataforms` > `Windows` e altere a imagens.
+Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu :
+
+`Project Settings` opção `Plataforms` > `Windows` e altere a imagens.
 
 ![Figura: Project icon](imagens/projeto/unreal_engine_project_icon.jpg)		
 
