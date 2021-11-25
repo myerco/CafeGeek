@@ -51,7 +51,7 @@ O **Unreal Enegine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) 
 
 <a name="1.2"></a>
 ### 1.2 Instalando os pacotes e o Visual Studio para programação com C++
-Para que possamos programar em linguagem C++ com **Visual Studio** e o **Unreal Engine** é necessário baixar os pacotes de desenvolvimento em C++.
+Para que possamos programar em linguagem **C++** com **Visual Studio** e o **Unreal Engine** é necessário baixar os pacotes de desenvolvimento em **C++**.
 
 1. [Download Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F);
 1. [Documentação Unreal e Visual Studio](https://docs.unrealengine.com/en-US/Programming/Development/VisualStudioSetup/index.html);
