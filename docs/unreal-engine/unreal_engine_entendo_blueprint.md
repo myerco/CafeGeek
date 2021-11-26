@@ -22,13 +22,13 @@ Neste capítulo será apresentado o modelo da lógica de programação utilizand
     1. [Classes Blueprint ou Blueprint Class](#3.2)  
 1. **[Componentes - Components](#4)**  
     1. [Components e a aba My Blueprint](#4.1)  
-1. [Estrutura da classe Actor no Unreal Engine](#5)  
+1. **[Estrutura da classe Actor no Unreal Engine](#5)**  
     1. [Construction Script](#5.1)  
     1. [Event Graph](#5.2)  
     1. [BeginPlay](#5.3)  
     1. [ActorBeginOverlap](#5.4)  
     1. [Tick](#5.5)      
-1. [Comentários](#6)
+1. **[Comentários](#6)**
 1. [Atividades](#7)
 
 ***
@@ -79,15 +79,15 @@ Abaixo a representação hierárquica da estrutura de elementos que compõem um 
 
 > **Nativização**
 >
->A nativização é uma funcionalidade relativamente nova no Unreal Engine, que permite aos desenvolvedores converter suas classes criadas em Blueprint para código nativo C++ no momento em que é construído o pacote final do jogo. Isso faz com que seja possível aliar a facilidade de prototipação dos Blueprints ao desempenho do C++, acelerando o processo dedesenvolvimento e também reduzindo a possibilidade de erros na programação, levando em consideração que ao desenvolver em Blueprint todas as entradas e saídas de dados, assim como o fluxo das operações são verificados pela máquina virtual enquanto os testes estão sendo realizados, isso permite garantir que tudo funcione conforme o esperado, ou na pior das hipóteses, alerte ao desenvolvedor caso algo não saia como o esperado, por meio de mensagens intuitivas e claras
+>A nativização é uma funcionalidade relativamente nova no Unreal Engine, que permite aos desenvolvedores converter suas classes criadas em Blueprint para código nativo C++ no momento em que é construído o pacote final do jogo. Isso faz com que seja possível aliar a facilidade de prototipação dos Blueprints ao desempenho do C++, acelerando o processo de desenvolvimento e também reduzindo a possibilidade de erros na programação, levando em consideração que ao desenvolver em Blueprint todas as entradas e saídas de dados, assim como o fluxo das operações são verificados pela máquina virtual enquanto os testes estão sendo realizados, isso permite garantir que tudo funcione conforme o esperado, ou na pior das hipóteses, alerte ao desenvolvedor caso algo não saia como o esperado, por meio de mensagens intuitivas e claras
 
 **[⬆ Volta para o início](#índice)**
 
 <a name="2"></a>
 ## 2. O que é Level Blueprint?  
-Um `Level Blueprint` é um tipo especializado de **Blueprint** que atua como um gráfico de evento global em todo o nível. Cada nível em seu projeto tem seu próprio `Level Blueprint` criado por padrão, que pode ser editado no *Unreal Editor*, no entanto, novos *Level Blueprints* não podem ser criados por meio da interface do editor.  
+Um `Level Blueprint` é um tipo especializado de **Blueprint** que atua como um gráfico de evento global em todo o nível ou *Level*. Cada *Level* em seu projeto tem seu próprio `Level Blueprint` criado por padrão, que pode ser editado no *Unreal Editor*.
 
-Para editar utilizamos a opção `Blueprints` > `Open Level Blurprint`.
+Para editar utilizamos a opção `Blueprints` > `Open Level Blueprint`.
 
 ![Figura:  Open Level Blueprint](imagens/actor/unreal_engine_open_level_blueprint.jpg)        
 
@@ -132,9 +132,9 @@ Ou podemos acessar o menu principal `Menu` > `Place Actors` para ter acesso a ma
 
 <a name="3.2"></a>
 ### 3.2 Classes Blueprint ou Blueprint Class
-Uma classe **Blueprint**, muitas vezes abreviada como Blueprint, é um ativo que permite que os criadores de conteúdo adicionem funcionalidade facilmente às classes de jogo existentes. Os projetos são criados dentro do Unreal Editor visualmente, em vez de digitar o código, e salvos como ativos em um pacote de conteúdo. Essencialmente, eles definem uma nova classe ou tipo de ator que pode então ser colocado em mapas como instâncias que se comportam como qualquer outro tipo de ator.  
+Uma classe **Blueprint**, muitas vezes abreviada como Blueprint, é um ativo que permite que os criadores de conteúdo adicionem funcionalidades facilmente às classes de jogo existentes. Os projetos são criados dentro do **Unreal Editor** visualmente, em vez de digitar o código, e salvos como ativos em um pacote de conteúdo. Essencialmente, eles definem uma nova classe ou tipo de ator que pode então ser colocado em mapas como instâncias que se comportam como qualquer outro tipo de ator.  
 
-Utilizando o menu de acesso rápido `Context Menu` e acionando com o botão direito do mouse na aba **Content**.  
+Para adicionar um ator na cena utilizamos o menu de acesso rápido `Context Menu` e acionando com o botão direito do mouse na aba `Content`.  
 
 ![Figura: Context Menu](imagens/actor/unreal_engine_context_menu.jpg)       
 
@@ -161,14 +161,11 @@ Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuár
 
 <a name="4.1"></a>
 ### 4.1 Components e a aba My Blueprint
-Para ter acesso aos componentes que estão associados a um determinado objeto utilizamos a aba `My Blueprint`, abaixo os elementos da aba.
+Para ter acesso aos componentes que estão associados a um determinado objeto utilizamos a aba `My Blueprint`, que é uma representação visual do agrupamento de componentes, funções, variáveis e macros, abaixo um exemplo.
 
 ![Figura: Aba MyBlueprint](imagens/actor/unreal_engine_myblueprint.jpg)       
 
 *Figura: Aba MyBlueprint*
-
-- Components - Apresenta todos os componentes anexados ao objeto principal.
-- My Blueprint - Apresenta os eventos, funções, macros e variáveis presentes dentro do objeto.  
 
 **[⬆ Volta para o início](#índice)**
 
@@ -198,7 +195,7 @@ A seguir vamos aprender mais sobre esses elementos.
 ### 5.1 Construction Script
 Lógica de que é executada na construção do objeto, similares ao eventos *Construtor* em C++.  
 
-**Exemplo**
+**Exemplo:**
 
 Apresentando uma mensagem ao construir o objeto.      
 
@@ -232,15 +229,23 @@ Este evento será executado quando uma série de condições forem atendidas ao 
 ### 5.5 Tick
 Este é um evento simples que é chamado em todos os quadros do jogo. Tem como parâmetro a variável **Delta Seconds**.
 
-> **Game Engine** como por exemplo *Unity* e *Pico-8*  tem os mesmos eventos com as mesmas Características.
+> Vários motores gráficos ou *Game Engines*, como por exemplo *Unity* e *Pico-8*  tem os mesmos eventos com as mesmas Características.
 
 **[⬆ Volta para o início](#índice)**
 
 <a name="6"></a>
 ## 6. Comentários   
-Os comentários podem ser incluídos diretamente em nós **Blueprint** únicos ou podem ser incluídos como caixas de comentários para agrupar nós relacionados e fornecer descrições sobre sua funcionalidade. Eles podem ser usados apenas para fins organizacionais para tornar os gráficos mais legíveis, mas também podem ser usados para fins informativos, pois permitem que descrições textuais sejam adicionadas da mesma forma que adicionar comentários ao código.
+Os comentários podem ser incluídos diretamente em nós **Blueprint** únicos ou podem ser incluídos como caixas de comentários para agrupar nós relacionados e fornecer descrições sobre sua funcionalidade.
+
+Eles podem ser usados apenas para fins organizacionais para tornar os gráficos mais legíveis, mas também podem ser usados para fins informativos, pois permitem que descrições textuais sejam adicionadas da mesma forma que adicionar comentários ao código.
 
 Selecione os nós e digite "C" no teclado para adicionar um comentário.  
+
+**Exemplo:**
+
+![Figura: Comment Example](imagens/actor/unreal_engine_comment_example.jpg)       
+
+*Figura: Comment Example*
 
 Podemos adicionar Características aos comentários que detalham melhor a lógica dos nós envolvidos, como por exemplo adicionando cores.    
 
@@ -254,11 +259,7 @@ Detalhes do comentário.
 
 *Figura: Comment Details*
 
-Exemplo de comentário.     
 
-![Figura: Comment Details](imagens/actor/unreal_engine_comment_example.jpg)       
-
-*Figura: Comment Details*
 
 <a name="7"></a>
 ## 7. Atividades
