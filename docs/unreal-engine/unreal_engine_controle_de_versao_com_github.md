@@ -1,5 +1,5 @@
 ---
-title: Controle de versão com Gits
+title: Controle de versão com Git
 description: Neste capítulo vamos instalar o Git com o GitHub Desktop para versionamento de arquivos no Unreal Engine e apresentar comandos básicos.
 tags: [Unreal Engine,Controle de versão,GitHub]
 layout: page
@@ -28,6 +28,9 @@ Neste capítulo vamos instalar o **Git Client** com o **GitHub Desktop** para ve
     1. [Atualizando o projeto no cliente](#4.4)
 1. **[Ignorando pastas e arquivos](#5)**
     1. [Exemplo de arquivo .gitignore para o Unreal Engine](#5.1)
+1. [Atividades](#6)
+    1. [Crie um projeto no Unreal Engine e o configure para utilizar o Git](#6.1)
+
 ***
 
 <a name="1"></a>
@@ -190,9 +193,9 @@ Para testar as configurações realizadas vamos adicionar o pacote `Starter Cont
   - `ExampleContent\StarterContent`.
 1. Vamos criar o objeto `BP_Ator` do tipo *Actor* e adicioná-lo na pasta `Content\Projeto\Characters`.
 1. No painel `Changes`  do GitHub Desktop devem aparecer somente os arquivos :
-     ![Figura: Github Desktop Publish repository](imagens/projeto/unreal_engine_github_desktop_commit_first_actor.jpg)
+  ![Figura: Github Desktop Publish repository](imagens/projeto/unreal_engine_github_desktop_commit_first_actor.jpg)
 
-       *Figura: Github Desktop Publish repository*
+    *Figura: Github Desktop Publish repository*
      - BP_Ator.usasset;
      - TestGitHub.uproject.
 1. Após a confirmação vamos enviar as alterações para o servidor com o comando `Push origin`.
@@ -280,6 +283,21 @@ StarterContent/
 *.o
 *.obj
 ```
+
+<a name="6"></a>
+## 6. Atividades
+<a name="6.1"></a>
+### 6.1 - Crie um projeto no Unreal Engine e o configure para utilizar o Git.
+
+#### Regras
+1. Instale todo o ambiente e crie um projeto com  a  última versão do Unreal Engine.
+1. Configure o GitHub Desktop e publique o projeto criado.
+1. Implemente pastas e adicione três atores para testar a publicação.
+
+#### Desafio      
+1. Crie um branch para Testes e adicione alterações.
+
+**[⬆ Volta para o início](#índice)**
 
 ***
 ## Referências

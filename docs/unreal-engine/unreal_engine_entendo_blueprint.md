@@ -6,39 +6,42 @@ cover-img: "/imagens/cafegeek_small.png"
 layout: page
 ---
 
-Neste capítulo será apresenta o modelo da lógica de programação utilizando **Blueprint** e os seus elementos.
+Neste capítulo será apresentado o modelo da lógica de programação utilizando **Blueprint** e os seus elementos.
+
+![Figura: Unreal Engine with Git](imagens/actor/unreal_engine_blueprint.jpg)
+
 
 ## Índice
-1. [O que são *Blueprints* e *Visual Scripting*](#1)  
-    1. [Características](#11)  
-    1. [Construção](#12)  
-1. [O que é Level Blueprint? ](#2)  
-     1. [Utilizando o level Blueprint para escrever mensagens na tela](#21)  
-1. [Blueprint de atores](#3)
-    1. [Place Actors](#31)  
-    1. [Blueprint Class](#32)  
-    1. [Components](#33)  
-    1. [Components e My Blueprint](#34)  
-    1. [Representação da organização do objeto](#35)  
-    1. [Construction Script](#36)  
-    1. [Event Graph](#37)  
+1. **[O que são Blueprints e Visual Scripting?](#1)**  
+    1. [Características](#1.1)  
+    1. [Construção](#1.2)  
+1. **[O que é Level Blueprint? ](#2)**  
+     1. [Utilizando o level Blueprint para escrever mensagens na tela](#2.1)  
+1. **[Blueprint de atores](#3)**
+    1. [Place Actors](#3.1)  
+    1. [Blueprint Class](#3.2)  
+1. **[Components](#4)**  
+    1. [Components e My Blueprint](#4.1)  
+    1. [Representação da organização do objeto](#4.2)  
+1. [Construction Script](#5)  
+1. [Event Graph](#5.1)  
 1. [Comentários](#4)
 
 ***
 
 <a name="1"></a>
-## 1. O que são *Blueprints* e *Visual Scripting*
-O sistema *Blueprints Visual Scripting* no *Unreal Engine* é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nó para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos no mecanismo. Ao usar o UE4, você frequentemente descobrirá que os objetos definidos usando o Blueprint são coloquialmente chamados apenas de **Blueprints**.
+## 1. O que são *Blueprints* e *Visual Scripting?*
+O sistema *Blueprints Visual Scripting* no *Unreal Engine* é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nó para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos na *engine* .
 
-<a name="11"></a>
+<a name="1.1"></a>
 ### 1.1 Características
-- Blueprints foca em ser acessível, versátil para qualquer membro do projeto.  
-- Simplifica tarefas para programadores de engenheiros de projeto.
-- Fácil de entender, interagir e construir.  
+- Blueprints focam em ser acessíveis, versáteis para qualquer membro do projeto;  
+- Simplifica tarefas para programadores e engenheiros de projeto.
+- É fácil de entender, interagir e construir.  
 
-<a name="12"></a>
-### 1.2 Construção
-Abaixo da estrutura de elementos.
+<a name="1.2"></a>
+### 1.2 Representação da construção do projeto usando Blueprint
+Abaixo a representação hierárquica da estrutura de elementos que compõem um projeto do **Unreal Engine**.
 
 ```bash
 |-- C++  
@@ -70,42 +73,54 @@ Abaixo da estrutura de elementos.
 ```
 - [Arquivo Referência](https://github.com/drstreit/unreal_schematics)
 
-> A nativização é uma funcionalidade relativamente nova no Unreal Engine, que permite aos desenvolvedores converter suas classes criadas em Blueprint para código nativo C++ no momento em que é construído o pacote final do jogo. Isso faz com que seja possível aliar a facilidade de prototipação dos Blueprints ao desempenho do C++, acelerando o processo dedesenvolvimento e também reduzindo a possibilidade de erros na programação, levando em consideração que ao desenvolver em Blueprint todas as entradas e saídas de dados, assim como o fluxo das operações são verificados pela máquina virtual enquanto os testes estão sendo realizados, isso permite garantir que tudo funcione conforme o esperado, ou na pior das hipóteses, alerte ao desenvolvedor caso algo não saia como o esperado, por meio de mensagens intuitivas e claras
+> **Nativização**
+>
+>A nativização é uma funcionalidade relativamente nova no Unreal Engine, que permite aos desenvolvedores converter suas classes criadas em Blueprint para código nativo C++ no momento em que é construído o pacote final do jogo. Isso faz com que seja possível aliar a facilidade de prototipação dos Blueprints ao desempenho do C++, acelerando o processo dedesenvolvimento e também reduzindo a possibilidade de erros na programação, levando em consideração que ao desenvolver em Blueprint todas as entradas e saídas de dados, assim como o fluxo das operações são verificados pela máquina virtual enquanto os testes estão sendo realizados, isso permite garantir que tudo funcione conforme o esperado, ou na pior das hipóteses, alerte ao desenvolvedor caso algo não saia como o esperado, por meio de mensagens intuitivas e claras
 
 <a name="2"></a>
 ## 2. O que é Level Blueprint?  
-Um `Level Blueprint` é um tipo especializado de **Blueprint** que atua como um gráfico de evento global em todo o nível. Cada nível em seu projeto tem seu próprio Level Blueprint criado por padrão, que pode ser editado no *Unreal Editor*, no entanto, novos *Level Blueprints* não podem ser criados por meio da interface do editor.  
+Um `Level Blueprint` é um tipo especializado de **Blueprint** que atua como um gráfico de evento global em todo o nível. Cada nível em seu projeto tem seu próprio `Level Blueprint` criado por padrão, que pode ser editado no *Unreal Editor*, no entanto, novos *Level Blueprints* não podem ser criados por meio da interface do editor.  
 
- ![unreal_engine_open_level_blueprint](imagens/actor/unreal_engine_open_level_blueprint.jpg)        
+Para editar utilizamos a opção `Blueprints` > `Open Level Blurprint`.
 
- *Figura: Blueprints->Open Level Blueprint*
+![Figura:  Open Level Blueprint](imagens/actor/unreal_engine_open_level_blueprint.jpg)        
+
+*Figura:  Open Level Blueprint*
 
 <a name="21"></a>
 ## 2.1 Utilizando o level Blueprint para escrever   mensagens na tela
-Utilizando o evento `BeginPlay` e conectando o nó `Print String` para escrever uma mensagem na tela.
+Para escrever uma mensagem no `ViewPort` ao executar o jogo utilizaremos o evento `BeginPlay` e conectaremos o nó `Print String` para escrever uma mensagem na tela.
 
-![unreal_engine_blueprint_beginplay_printstring](imagens/actor/unreal_engine_blueprint_beginplay_printstring.jpg)      
+![Figura: Iniciando o level e escrevendo uma mensagem na tela](imagens/actor/unreal_engine_blueprint_beginplay_printstring.jpg)      
 
 *Figura: Iniciando o level e escrevendo uma mensagem na tela*
 
-- `BeginPlay`: Este evento é executado quando o level é carregado.
+- `BeginPlay`: Este evento é executado quando o *level* é carregado.
 - `Print String`: É uma função que recebe como parâmetro um texto (*String*) e a escreve na tela.
 
 <a name="3"></a>
-## 3. Blueprint de atores
-Atores são objetos que são adicionados na cena. São classes de objetos que suportam vários componentes, métodos e variáveis. A lógica de programação é expressada em **Blueprint**.  
+## 3. Atores e Classes
+Atores são objetos de uma determinada classe que suportam vários componentes, métodos e variáveis. Por exemplo:
+
+- Personagem Herói - tem atributos, como vida e velocidade, tem componentes, como esqueleto e malha, e métodos, como direção e movimentação.
+
+A lógica de programação dos atores é expressada em **Blueprint** e nos próximos capítulos vamos abordar este temo com mais detalhes.
 
 <a name="3.1"></a>
-### 3.1 Place Actors
-No nível mais fundamental, um ator é qualquer objeto que você pode colocar em um nível e esta página irá mostrar os vários métodos em que você pode colocar esses atores dentro de seus níveis.  
+### 3.1 Atores predefinidos ou Place Actors
+No nível mais fundamental, um ator é qualquer objeto que você pode colocar em um *Level*.
 
-![unreal_engine_blueprint_place_actors_bar](imagens/actor/unreal_engine_blueprint_place_actors_bar.jpg)       
+Para adicionar o ator predefinido na cena utilizamos a opção `Create` e escolhemos o tipo de ator.
 
-*Figura: Create->Shapes*
+![Figura: Create > Shapes para criar um objeto poligonal](imagens/actor/unreal_engine_blueprint_place_actors_bar.jpg)       
 
-![unreal_engine_place_actors](imagens/actor/unreal_engine_place_actors.jpg)        
+*Figura: Create > Shapes para criar um objeto poligonal*
 
-*Figura: Windows->Place Actors*
+Ou podemos acessar o menu principal `Menu` > `Place Actors` para ter acesso a mais atores.
+
+![Figura: Windows > Place Actors](imagens/actor/unreal_engine_place_actors.jpg)        
+
+*Figura: Windows >Place Actors*
 
 <a name="3.2"></a>
 ### 3.2 Blueprint Class

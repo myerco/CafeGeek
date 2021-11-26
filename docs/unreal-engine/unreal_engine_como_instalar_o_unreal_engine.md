@@ -201,7 +201,8 @@ Para programar utilizando **C++** no Unreal devemos configurar um editor de cód
 #### Regras
 1. Instale todo o ambiente e crie um projeto de nome MeuPrimeiroProjeto.
 #### Desafio      
-1. Configure o Visual Studio para ser o editor padrão .
+1. Configure o Visual Studio para ser o editor padrão.
+
 **[⬆ Volta para o início](#índice)**
 
 
