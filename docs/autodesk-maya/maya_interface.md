@@ -200,6 +200,28 @@ Cuidado não podemos ter vértices sem conexão com outros
 - `Pin`   Bloqueando
   - `Pin Tool` - Selecionando usando tecla `B` ou `P` para bloquear áreas;
 
+## Animação
+S - Marcar frame
+Shift + LMB = Seleciona
+
+Preferences = timecode
+
+
+adicionar uma curva no objeto = p
+
+Travar camera = lock
+
+key select em atributos
+
+Arnold - SkyDomeLight
+
+Playback
+
+Visualize > Ghost Selectd/Unselect
+
+Visualize > Create Editable Montion trail
+
+Visualize > Create Animation Snapshot
 
 ## Preferências
 - [maya](https://help.autodesk.com/view/MAYAUL/2020/ENU/)

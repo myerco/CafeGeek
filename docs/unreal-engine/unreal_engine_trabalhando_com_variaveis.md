@@ -5,7 +5,10 @@ tags: [Unreal Engine,Blueprint,variáveis, variable]
 layout: page
 ---
 
-Neste capítulo serão descritas as estruturas de armazenamento em memória e a sua manipulação.
+Neste capítulo serão descritas as estruturas de armazenamento em memória, variáveis e a sua manipulação.
+
+![Blueprint Variables](imagens/variaveis/unreal_engine_variables.jpg)
+
 
 ## Índice
 1. [O que são variáveis?](#1)  
