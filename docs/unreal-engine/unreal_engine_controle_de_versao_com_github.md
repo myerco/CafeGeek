@@ -7,7 +7,7 @@ layout: page
 
 Neste capítulo vamos instalar o **Git Client** com o **GitHub Desktop** para versionamento de arquivos no **Unreal Engine** e apresentar comandos básicos.
 
-![Figura: Unreal Engine with Git](imagens/projeto/unreal_engine_git.jpg)
+![Figura: Unreal Engine with Git](imagens/projeto/unreal_engine_git.jpg "Figura: Unreal Engine with Git")
 
 ## Índice
 1. **[Para que server o controle de versão?](#1)**
@@ -37,7 +37,8 @@ Neste capítulo vamos instalar o **Git Client** com o **GitHub Desktop** para ve
 ## 1. Para que server o controle de versão?
 Quando programamos existe a necessidade de gerenciar as alterações que ocorrem durante o desenvolvimento do projeto e até mesmo depois, acompanhe o seguinte exemplo:  
 
- Abaixo o trecho de código inicial, vamos chamá-lo de **A**.
+Abaixo o trecho de código inicial, vamos chamá-lo de **A**.
+
 ```cpp
 if (a > b) {
   resultado = (a + b)
@@ -72,13 +73,14 @@ Existem várias ferramentas para controle de versão disponíveis no mercado, co
 ### 2.1 Estrutura do GIT
 No gráfico abaixo é apresentado a estrutura de armazenar e alguns comandos do ambiente do Git.
 
-![Git, GitHub, & Workflow Fundamentals ](https://res.cloudinary.com/practicaldev/image/fetch/s--M_fHUEqA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png)
+![Git, GitHub, & Workflow Fundamentals ](https://res.cloudinary.com/practicaldev/image/fetch/s--M_fHUEqA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png "Git, GitHub, & Workflow Fundamentals")
 
-*Figura: Git, GitHub, & Workflow Fundamentals*
+*Figura: Git, GitHub, & Workflow Fundamentals.*
 
 <a name="2.2"></a>
 ### 2.2 Entendo o fluxo de trabalho
 Quando utilizamos um gerenciador de versão temos que seguir um fluxo de trabalho para compartilhar o código armazenado localmente, segue abaixo os comandos iniciais do fluxo:
+
 1. `Add` - Permite adicionar as alterações para um registro local.
   ```bash
 git add .
@@ -139,9 +141,9 @@ Para exemplificar a conexão do Unreal Engine com o Github vamos criar um novo p
 
 1. Para Configurar o projeto utilizaremos :   
   - O Menu principal `Edit` > `Connect To Source Control`.
-   ![Figura: Source Control Login](imagens/projeto/unreal_engine_connect_to_source_control.jpg)
+   ![Figura: Source Control Login.](imagens/projeto/unreal_engine_connect_to_source_control.jpg "Figura: Source Control Login")
 
-    *Figura: Source Control Login*
+    *Figura: Source Control Login.*
 1. Abaixo a descrição dos parâmetros;
   - `Git Path` - Caminho para o executável do **Git client**;
   - `Add a .gitignore file` - Adiciona o arquivo para controle do que deve ser enviado para o servidor;
@@ -153,16 +155,16 @@ Para exemplificar a conexão do Unreal Engine com o Github vamos criar um novo p
   - `ExampleContent`;
   - `Projeto`;
   - `Projeto\Maps`;  
-1. Salve o level atual em `Projeto\Maps` com o nome `LevelTest`;
+1. Salve o level atual em `Projeto\Maps` com o nome `LevelTest`.
 
 <a name="3.4"></a>
 ### 3.4 Configurando o Github Desktop e adicionando o projeto
 1. Abra o GitHub Desktop;
 1. Configure a sua conta do **Github** para ter acesso aos seus repositórios;
   - Menu principal `File` > `Options`
-   ![Figura: Github Desktop Options](imagens/projeto/unreal_engine_github_desktop_options.jpg)
+   ![Figura: Github Desktop Options.](imagens/projeto/unreal_engine_github_desktop_options.jpg "Figura: Github Desktop Options.")
 
-       *Figura: Github Desktop Options*
+       *Figura: Github Desktop Options.*
 1. Adicione o projeto TestGitHub com :
      - `Add an Existing Repository from your hard drive...` - Informe a pasta do projeto TestGitHub;
 1. Utilizando o Explorer navegue até a pasta do projeto e edite o arquivo .gitignore e adicione o texto ExampleContent, isso impedira a pasta ser enviada para o repositório remoto, verifique [Ignorando pastas e arquivos](#6) para mais informações;
@@ -171,15 +173,15 @@ Para exemplificar a conexão do Unreal Engine com o Github vamos criar um novo p
 ### 3.5 Criando o projeto remoto e atualizando os arquivos
 Uma vez configurados os projetos nos sistemas **Unreal** e **GitHub Desktop**, podemos confirmar as alterações dos arquivos utilizando o comando `Commit to Master`.
 
-![Figura: Github Desktop Commit to Master](imagens/projeto/unreal_engine_github_desktop_Commit_to_master.jpg)
+![Figura: Github Desktop Commit to Master.](imagens/projeto/unreal_engine_github_desktop_Commit_to_master.jpg "Figura: Github Desktop Commit to Master.")
 
-*Figura: Github Desktop Commit to Master*
+*Figura: Github Desktop Commit to Master.*
 
 Após confirmação das alterações devemos publicá-las no repositório remoto usando o comando `Publish repository`.
 
-![Figura: Github Desktop Publish repository](imagens/projeto/unreal_engine_github_desktop_publish_repository.jpg)
+![Figura: Github Desktop Publish repository.](imagens/projeto/unreal_engine_github_desktop_publish_repository.jpg "Figura: Github Desktop Publish repository.")
 
-*Figura: Github Desktop Publish repository*
+*Figura: Github Desktop Publish repository.*
 
 O comando acima irá criar um projeto na sua conta no Github.com e adicionar todos os arquivos criados até o momento.
 
@@ -193,15 +195,15 @@ Para testar as configurações realizadas vamos adicionar o pacote `Starter Cont
   - `ExampleContent\StarterContent`.
 1. Vamos criar o objeto `BP_Ator` do tipo *Actor* e adicioná-lo na pasta `Content\Projeto\Characters`.
 1. No painel `Changes`  do GitHub Desktop devem aparecer somente os arquivos :
-  ![Figura: Github Desktop Publish repository](imagens/projeto/unreal_engine_github_desktop_commit_first_actor.jpg)
+  ![Figura: Github Desktop Publish repository.](imagens/projeto/unreal_engine_github_desktop_commit_first_actor.jpg "Figura: Github Desktop Publish repository.")
 
-    *Figura: Github Desktop Publish repository*
+    *Figura: Github Desktop Publish repository.*
      - BP_Ator.usasset;
      - TestGitHub.uproject.
 1. Após a confirmação vamos enviar as alterações para o servidor com o comando `Push origin`.
-  ![Figura: Github Desktop Publish repository](imagens/projeto/unreal_engine_github_desktop_push_origin.jpg)
+  ![Figura: Github Desktop Publish repository.](imagens/projeto/unreal_engine_github_desktop_push_origin.jpg "Figura: Github Desktop Publish repository.")
 
-    *Figura: Github Desktop Publish repository*
+    *Figura: Github Desktop Publish repository.*
 
 **[⬆ Volta para o início](#índice)**
 

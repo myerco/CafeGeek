@@ -7,7 +7,7 @@ layout: page
 
 Neste capítulo serão descritas as estruturas de armazenamento em memória, variáveis, e a sua manipulação.
 
-![Blueprint Variables](imagens/variaveis/unreal_engine_variables.jpg)
+![Blueprint Variables](imagens/variaveis/unreal_engine_variables.jpg "Blueprint Variables")
 
 
 ## Índice
@@ -16,11 +16,15 @@ Neste capítulo serão descritas as estruturas de armazenamento em memória, var
     1. [Tipos de variáveis](#2)  
     1. [Declarando variáveis](#3)  
 1. **[Métodos Get e Set](#4)**  
-1. **[String, Name e Text](#5)**  
-     1. [Tratamento de strings](#5.1)  
-1. [Integer e Float](#6)  
-1. [Boolean](#7)
-1. [Variável Pública e Privada](#8)
+1. **[Tratamento e armazenamento de texto no Unreal Engine](#5)**  
+    1. [Concatenando textos usando a função Append](#5.1)  
+    1. [Procurando texto dentro de uma string](#5.2)  
+1. [Variáveis do tipo numéricas Integer e Float](#6)  
+1. [Armazenando valores lógicos com Boolean](#7)
+1. [Controle de acesso a variáveis](#8)
+    1. [Variáveis Privadas](#8.2)  
+    1. [Variáveis Públicas](#8.2)  
+
 
 ***
 
@@ -47,6 +51,8 @@ int iSoma = 0;
 // Variável do tipo ponto flutuante
 float fValor = 6.5;
 ```
+
+**[⬆ Volta para o início](#índice)**
 
 <a name="2"></a>
 ## 2. Variáveis no Unreal Engine
@@ -90,17 +96,19 @@ Declarando variáveis informamos ao computador que estamos reservando um espaço
 
 1. Variáveis no Editor de Blueprint.
 
-    ![Figura: Blueprint Variables](imagens/variaveis/unreal_engine_variable.jpg "Figura: Blueprint Variables")
+    ![Figura: Blueprint Variables.](imagens/variaveis/unreal_engine_variable.jpg "Figura: Blueprint Variables.")
 
-    *Figura: Blueprint Variables*
+    *Figura: Blueprint Variables.*
 
 1. As variáveis tem tipos e propriedades que determinam o sua utilização.  
 
-    ![Figura: Details ou properiedades das variáveis](imagens/variaveis/unreal_engine_variable_details.jpg "Figura: Details ou properiedades das variáveis")
+    ![Figura: Details ou properiedades das variáveis.](imagens/variaveis/unreal_engine_variable_details.jpg "Figura: Details ou properiedades das variáveis.")
 
-    *Figura: Details ou properiedades das variáveis*
+    *Figura: Details ou properiedades das variáveis.*
 
 > Observe que a propriedade `Category` agrupa as variáveis por uma categoria.
+
+**[⬆ Volta para o início](#índice)**
 
 <a name="4"></a>
 ## 4. Métodos Get e Set
@@ -109,14 +117,16 @@ Para acessar o conteúdo das variáveis utilizamos os métodos `Get` e `Set`, on
 - `Get`: Obtém o valor de uma variável.
 - `Set`: Atualiza o valor da variável.
 
-![Figura: Métodos Get e Set](imagens/variaveis/unreal_engine_get_set.jpg "Figura: Métodos Get e Set")
+![Figura: Métodos Get e Set.](imagens/variaveis/unreal_engine_get_set.jpg "Figura: Métodos Get e Set.")
 
-*Figura: Métodos Get e Set*
+*Figura: Métodos Get e Set.*
 
 - `BeginPlay` - Ao iniciar o jogo a lista de comandos deve ser acionado.
 - `Print String` - Escreve um texto na cena do jogo.
 - `Add +` - Variáveis numéricas podem ser manipuladas com operadores matemáticos.
 - `Converts` - Converte tipos de variáveis, neste caso converte um valor do tipo `integer` em um do tipo `String`.
+
+**[⬆ Volta para o início](#índice)**
 
 <a name="5"></a>
 ## 5. Tratamento e armazenamento de texto no Unreal Engine
@@ -136,9 +146,9 @@ Podemos realizar as seguintes operações em `strings`:
 - Concatenar `strings`;
 - Procurar uma determinada letra ou Substring dentro da `string`.
 
-![Figura: String functions](imagens/variaveis/unreal_engine_string_functions.jpg "Figura: String functions")
+![Figura: String functions.](imagens/variaveis/unreal_engine_string_functions.jpg "Figura: String functions.")
 
-*Figura: String functions*
+*Figura: String functions.*
 
 <a name="5.1"></a>
 ### 5.1 Concatenando textos usando a função Append
@@ -178,15 +188,17 @@ else
 // Resultado: Alo mundo...Cruel
 ```
 
+**[⬆ Volta para o início](#índice)**
+
 <a name="6"></a>
 ## 6. Variáveis do tipo numéricas Integer e Float
 Valores numéricos utilizam operadores matemáticos para a sua manutenção, como veremos a seguir.  
 
 **Blueprint**
 
-![Figura: Utilizando Divisão](imagens/variaveis/unreal_engine_variable_division.jpg "Figura: Divisão")
+![Figura: Utilizando Divisão.](imagens/variaveis/unreal_engine_variable_division.jpg "Figura: Utilizando Divisão.")
 
-*Figura: Utilizando Divisão*
+*Figura: Utilizando Divisão.*
 
 **C++**
 ```cpp
@@ -200,23 +212,27 @@ void AMyCharacterClass::BeginPlay()
 }
 ```
 
-![Figura: Multiplicação valores](imagens/variaveis/unreal_engine_variable_multiplication.jpg "Figura: Multiplicação valores")
+![Figura: Multiplicação valores.](imagens/variaveis/unreal_engine_variable_multiplication.jpg "Figura: Multiplicação valores.")
 
-*Figura: Multiplicação valores*
+*Figura: Multiplicação valores.*
 
-- (+) - soma.
-- (*) - Multiplicação.
+- (+) - soma;
+- (*) - Multiplicação;
 - (/) - Divisão.
 
+**[⬆ Volta para o início](#índice)**
+
 <a name="7"></a>
-## 7. Boolean
+## 7. Armazenando valores lógicos com Boolean
 Armazena dois valores : falso `false` ou verdadeiro `true`.
 
-![Figura: Variável Boolean](imagens/variaveis/unreal_engine_variable_boolean.jpg "Figura: Variável Boolean")
+![Figura: Variável Boolean.](imagens/variaveis/unreal_engine_variable_boolean.jpg "Figura: Variável Boolean.")
 
-*Figura: Variável Boolean*
+*Figura: Variável Boolean.*
 
 No exemplo acima se o valor de `life` for maior que 50 então o valor é atualizado para `true`.
+
+**[⬆ Volta para o início](#índice)**
 
 <a name="8"></a>
 ## 8. Controle de acesso a variáveis
@@ -226,21 +242,45 @@ Como especificar quais variáveis de um objeto um usuário pode acessar e quais 
 ### 8.1 Variáveis Privadas
 Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada de **Blueprints** externos.  
 
-![Figura: Private details](imagens/variaveis/unreal_engine_variable_private_details.jpg "Figura: Private details")
+![Figura: Private details.](imagens/variaveis/unreal_engine_variable_private_details.jpg "Figura: Private details.")
 
-*Figura: Private details*
+*Figura: Private details.*
 
 <a name="8.1"></a>
 ### 8.1 Variáveis Públicas
 Para permitir que uma variável seja modificada de fora de seu  **Blueprint**, torne-a pública.  
 
-![Figura: Public](imagens/variaveis/unreal_engine_variable_public.jpg "Figura: Public")
+![Figura: Public.](imagens/variaveis/unreal_engine_variable_public.jpg "Figura: Public.")
 
-*Figura: Public*
+*Figura: Public.*
 
-![Figura: Public details](imagens/variaveis/unreal_engine_variable_public_details.jpg "Figura: Public details")
+![Figura: Public details.](imagens/variaveis/unreal_engine_variable_public_details.jpg "Figura: Public details.")
 
-*Figura: Public details*
+*Figura: Public details.*
+
+<a name="9"></a>
+## 9. Atividades
+<a name="9.1"></a>
+### 9.1 - Crie um projeto que implemente as variáveis dos tipos descritos abaixo.
+- Nome do personagem;
+- Vida do personagem;
+- Força do personagem;
+#### Regras
+1. Aumente a vida e a força do personagem;
+2. Altere o nome do personagem e escreva na cena.
+#### Desafio      
+1. Implemente uma lógica para calcular o maior valor entre três números.
+
+  Exemplo:
+```bash
+x = 3;
+y = 5;
+z = 2;
+O maior valor é Y = 5;
+```
+
+
+**[⬆ Volta para o início](#índice)**
 
 
 ***

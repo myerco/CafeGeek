@@ -7,7 +7,7 @@ layout: page
 
 Neste capitulo vamos organizar as pastas do projeto *ProjetoAula*, construído no Unreal Engine, e vamos configurá-lo.
 
-![Figura: Content Drawer](imagens/projeto/unreal_engine_content_drawer.jpg)			
+![Figura: Content Drawer](imagens/projeto/unreal_engine_content_drawer.jpg "Figura: Content Drawer")			
 
 ## Índice
 1. **[Como criar pastas de trabalho?](#1)**
@@ -40,7 +40,7 @@ Temos também equipes heterogêneas trabalhando no mesmo projeto e até na mesma
 - Programadores;
 - Level Design;
 - Artistas gráficos;
-- Artistas de efeitos de som e músicos;
+- Artistas de efeitos de som e músicos.
 
 Por conseguinte para um maior gerenciamento pelas equipes do projeto  podemos definir pastas com nomenclaturas e organização adequadas ao projeto, abaixo vamos relacionar algumas sugestões.
 
@@ -131,9 +131,9 @@ Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguinte
 1. Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o menu :     
     `Edit` > `Project Settings` e depois `Maps & Modes`;   
 
-	![Project - Maps & Modes](imagens/projeto/unreal_engine_maps_modes.jpg)			
+	![Project - Maps & Modes.](imagens/projeto/unreal_engine_maps_modes.jpg "Project - Maps & Modes.")			
 
-	*Figura: Project - Maps & Modes*
+	*Figura: Project - Maps & Modes.*
 
 - `Edit Startup Level` - Seleciona o *Level* que deverá ser carregado no início do jogo, neste caso é `LevelTest`;
 - `Game default Map` - Seleciona o *Level* que é mais usado.
@@ -144,13 +144,15 @@ Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apr
 
 `Project Settings` opção `Plataforms` > `Windows` e altere a imagens.
 
-![Figura: Project icon](imagens/projeto/unreal_engine_project_icon.jpg)		
+![Figura: Project icon.](imagens/projeto/unreal_engine_project_icon.jpg "Figura: Project icon.")		
 
-*Figura: Project icon*
+*Figura: Project icon.*
 
 > Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas pode ser convertido usando ferramentas online, por exemplo) e 256x256.
 
 **[⬆ Volta para o início](#índice)**
+
+
 <a name="3"></a>
 ## 3. Atividades
 <a name="3.1"></a>
