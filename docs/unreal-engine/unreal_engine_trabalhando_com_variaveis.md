@@ -26,7 +26,20 @@ Neste capítulo serão descritas as estruturas de armazenamento em memória, var
 
 <a name="1"></a>
 ## 1. O que são variáveis?
-Variáveis são estruturas que são utilizadas para armazenar um valor de um determinado tipo na memória, abaixo um exemplo em C++:
+Variáveis são estruturas que são utilizadas para armazenar um valor de um determinado tipo na memória do computador.
+
+Estrutura de memória.
+
+|Variável       |Tipo     | Valor       |
+|:-             |:-:      |:-:          |
+|iSoma          |Integer  |0            |
+|fValor         |Float    |6.5          |
+|tName          |String   |"Gandalf"    |
+|bRunnig        |Boolean  |false        |
+
+
+
+Abaixo um exemplo em C++:
 ```cpp
 // Variável do tipo inteiro
 int iSoma = 0;
@@ -77,13 +90,13 @@ Declarando variáveis informamos ao computador que estamos reservando um espaço
 
 1. Variáveis no Editor de Blueprint.
 
-    ![Blueprint Variables](imagens/variaveis/unreal_engine_variable_details.jpg)
+    ![Figura: Blueprint Variables](imagens/variaveis/unreal_engine_variable.jpg "Figura: Blueprint Variables")
 
     *Figura: Blueprint Variables*
 
 1. As variáveis tem tipos e propriedades que determinam o sua utilização.  
 
-    ![Details ou properiedades das variáveis](imagens/variaveis/unreal_engine_variable_details.jpg)
+    ![Figura: Details ou properiedades das variáveis](imagens/variaveis/unreal_engine_variable_details.jpg "Figura: Details ou properiedades das variáveis")
 
     *Figura: Details ou properiedades das variáveis*
 
@@ -96,7 +109,7 @@ Para acessar o conteúdo das variáveis utilizamos os métodos `Get` e `Set`, on
 - `Get`: Obtém o valor de uma variável.
 - `Set`: Atualiza o valor da variável.
 
-![unreal_engine_get_set](imagens/variaveis/unreal_engine_get_set.jpg)
+![Figura: Métodos Get e Set](imagens/variaveis/unreal_engine_get_set.jpg "Figura: Métodos Get e Set")
 
 *Figura: Métodos Get e Set*
 
@@ -123,7 +136,7 @@ Podemos realizar as seguintes operações em `strings`:
 - Concatenar `strings`;
 - Procurar uma determinada letra ou Substring dentro da `string`.
 
-![Figura: String functions](imagens/variaveis/unreal_engine_string_functions.jpg)
+![Figura: String functions](imagens/variaveis/unreal_engine_string_functions.jpg "Figura: String functions")
 
 *Figura: String functions*
 
@@ -165,17 +178,15 @@ else
 // Resultado: Alo mundo...Cruel
 ```
 
-
-
 <a name="6"></a>
 ## 6. Variáveis do tipo numéricas Integer e Float
 Valores numéricos utilizam operadores matemáticos para a sua manutenção, como veremos a seguir.  
 
 **Blueprint**
 
-![Figura: Divisão](imagens/variaveis/unreal_engine_variable_division.jpg "Figura: Divisão")
+![Figura: Utilizando Divisão](imagens/variaveis/unreal_engine_variable_division.jpg "Figura: Divisão")
 
-*Figura: Divisão*
+*Figura: Utilizando Divisão*
 
 **C++**
 ```cpp
@@ -189,9 +200,9 @@ void AMyCharacterClass::BeginPlay()
 }
 ```
 
-![Figura: Multiplicação](imagens/variaveis/unreal_engine_variable_multiplication.jpg "Figura: Multiplicação")
+![Figura: Multiplicação valores](imagens/variaveis/unreal_engine_variable_multiplication.jpg "Figura: Multiplicação valores")
 
-*Figura: Multiplicação*
+*Figura: Multiplicação valores*
 
 - (+) - soma.
 - (*) - Multiplicação.
