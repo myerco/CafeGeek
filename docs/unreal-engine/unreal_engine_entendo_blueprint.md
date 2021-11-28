@@ -1,5 +1,5 @@
 ---
-title: Entendo a lógica de programação visual com Blueprint
+title: Entendendo a lógica de programação visual com Blueprint
 description: O sistema Blueprints Visual Scripting no Unreal Engine é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nó para criar elementos de jogo a partir do Unreal Editor. Os nós são representações da lógica de funções e comandos. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos no mecanismo.
 tags: [Unreal Engine,Blueprint]
 cover-img: "/imagens/cafegeek_small.png"
@@ -264,7 +264,7 @@ Detalhes do comentário.
 <a name="7"></a>
 ## 7. Atividades
 <a name="7.1"></a>
-### 7.1 - Crie um level apresentar uma mensagem na tela.
+### 7.1 - Crie um level para apresentar uma mensagem na tela.
 
 #### Regras
 1. Utilize variáveis para parametrizar a mensagem.
