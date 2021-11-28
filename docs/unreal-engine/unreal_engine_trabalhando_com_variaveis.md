@@ -24,7 +24,8 @@ Neste capítulo serão descritas as estruturas de armazenamento em memória, var
 1. [Controle de acesso a variáveis](#8)
     1. [Variáveis Privadas](#8.2)  
     1. [Variáveis Públicas](#8.2)  
-
+1. [Atividades](#9)
+    1. [Crie um projeto que implemente as variáveis dos tipos descritos abaixo](#9.1)  
 
 ***
 

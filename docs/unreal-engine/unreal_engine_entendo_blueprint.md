@@ -216,8 +216,8 @@ Para ter acesso aos componentes que estão associados a um determinado objeto ut
 
 **[⬆ Volta para o início](#índice)**
 
-<a name="5"></a>
-## 5. Estrutura da classe Actor no Unreal Engine
+<a name="6"></a>
+## 6. Estrutura da classe Actor no Unreal Engine
 A classe `Actor` é composta por vários elementos, entre eles estão as variáveis, métodos e funções, abaixo uma representação dessa estrutura.
 
 ```bash
@@ -239,7 +239,7 @@ A classe `Actor` é composta por vários elementos, entre eles estão as variáv
 A seguir vamos aprender mais sobre esses elementos.
 
 <a name="5.1"></a>
-### 5.1 Construction Script
+### 6.1 Construction Script
 Lógica de que é executada na construção do objeto, similares ao eventos *Construtor* em C++.  
 
 **Exemplo:**
@@ -251,7 +251,7 @@ Apresentando uma mensagem ao construir o objeto.
 *Figura: Construction Script.*
 
 <a name="5.2"></a>
-### 5.2 Event Graph
+### 6.2 Event Graph
 Contém um gráfico de nós e suas ligações representando a lógica de um Blueprint.  
 
 > Exibe a representação visual de um gráfico específico de nós, pois mostra todos os nós contidos no gráfico, bem como as conexões entre eles. Ele fornece recursos de edição para adicionar e remover nós, organizar nós e criar links entre nós. Os pontos de interrupção também podem ser definidos na guia Gráfico para auxiliar na depuração de Blueprints.
@@ -261,27 +261,27 @@ Contém um gráfico de nós e suas ligações representando a lógica de um Blue
 
 *Figura: Event Graph.*
 
-<a name="5.3"></a>
-### 5.3 BeginPlay
+<a name="6.3"></a>
+### 6.3 BeginPlay
 Este evento é acionado para todos os Atores quando o jogo é iniciado, quaisquer Atores gerados após o jogo ser iniciado terão isso chamado imediatamente.
 
-<a name="5.4"></a>
-### 5.4 ActorBeginOverlap
+<a name="6.4"></a>
+### 6.4 ActorBeginOverlap
 Este evento será executado quando uma série de condições forem atendidas ao mesmo tempo:
 -  A resposta à colisão entre os atores deve permitir sobreposições.
 - Ambos os Atores que devem executar o evento têm que gerar Eventos de Sobreposição definido como verdadeiro.
 - E, finalmente, a colisão de ambos os Atores começa a se sobrepor; movendo-se juntos ou um é criado sobrepondo-se ao outro.
 
-<a name="5.5"></a>
-### 5.5 Tick
+<a name="6.5"></a>
+### 6.5 Tick
 Este é um evento simples que é chamado em todos os quadros do jogo. Tem como parâmetro a variável **Delta Seconds**.
 
 > Vários motores gráficos ou *Game Engines*, como por exemplo *Unity* e *Pico-8*  tem os mesmos eventos com as mesmas Características.
 
 **[⬆ Volta para o início](#índice)**
 
-<a name="6"></a>
-## 6. Comentários   
+<a name="7"></a>
+## 7. Comentários   
 Os comentários podem ser incluídos diretamente em nós **Blueprint** únicos ou podem ser incluídos como caixas de comentários para agrupar nós relacionados e fornecer descrições sobre sua funcionalidade.
 
 Eles podem ser usados apenas para fins organizacionais para tornar os gráficos mais legíveis, mas também podem ser usados para fins informativos, pois permitem que descrições textuais sejam adicionadas da mesma forma que adicionar comentários ao código.
@@ -307,10 +307,10 @@ Detalhes do comentário.
 *Figura: Comment Details.*
 
 
-<a name="7"></a>
-## 7. Atividades
+<a name="8"></a>
+## 8. Atividades
 <a name="7.1"></a>
-### 7.1 - Crie um level para apresentar uma mensagem na tela.
+### 8.1 - Crie um level para apresentar uma mensagem na tela.
 
 #### Regras
 1. Utilize variáveis para parametrizar a mensagem.
