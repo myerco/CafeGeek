@@ -66,9 +66,8 @@ Para armazenar qualquer informação na memória devemos definir um tipo de dado
 1.  `Boolean` - Armazena valores falso ou verdadeiro (true e false).
 
     ```cpp
-  bool VariavelBoolean;
-
-  VariavelBoolean = true;
+bool VariavelBoolean;
+VariavelBoolean = true;
   ```
 
 1. `Integer` - Valores inteiros entre −2.147.483.648 e 2.147.483.647
@@ -168,13 +167,14 @@ sTexto.append("Cruel");
 ### 5.2 Procurando texto dentro de uma string
 A função `Contains` procura uma sequencia de caracteres dentro de uma `string`, passamos os seguintes parâmetros para a função.
 
-**Blueprint**
+**Blueprint.**
 - `Search In` - Texto passado como parâmetro.
 - `Substring` - Texto que deve ser localizado.
 - `Use Case` - Diferencia maiúsculas e minúsculas.
  `Search from end` - Inicia a busca pelo fim do texto.
 
-**C++**
+**C++.**
+
 ```cpp
 
 FString sTexto = "Procurando o texto escondido.";
@@ -195,13 +195,14 @@ else
 ## 6. Variáveis do tipo numéricas Integer e Float
 Valores numéricos utilizam operadores matemáticos para a sua manutenção, como veremos a seguir.  
 
-**Blueprint**
+**Blueprint.**
 
 ![Figura: Utilizando Divisão.](imagens/variaveis/unreal_engine_variable_division.jpg "Figura: Utilizando Divisão.")
 
 *Figura: Utilizando Divisão.*
 
-**C++**
+**C++.**
+
 ```cpp
 void AMyCharacterClass::BeginPlay()
 {

@@ -42,7 +42,7 @@ Neste capitulo serão apresentados os conceitos de estruturas de *arrays* ou vet
 - s[0] - O valor entre colchetes indica a posição (índice) do elemento no *array*;
 - O índice em C++ inicia com o valor 0.
 
-A segui alguns exemplos utilizando C++.
+A seguir alguns exemplos utilizando C++.
 
 <a name="1.1"></a>
 ### 1.1 Exemplo de números inteiros  
