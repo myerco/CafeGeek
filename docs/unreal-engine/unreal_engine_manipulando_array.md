@@ -12,7 +12,6 @@ Neste capitulo serão apresentados os conceitos de estruturas de *arrays* ou vet
      1. [Exemplo de números inteiros](#1.1)
      1. [Exemplo de números Números float](#1.2)
      1. [Exemplo com String](#1.3)
-     1. [Representação](#1.4)
 1. **[Declarando arrays e acessando os seus elementos](#2)**
      1. [Método Get para arrays](#2.1)
      1. [Get utilizando uma variável como índice](#2.2)
@@ -32,35 +31,8 @@ Neste capitulo serão apresentados os conceitos de estruturas de *arrays* ou vet
 ***
 
 <a name="1"></a>
-## 1. O que são variáveis do tipo *array*?
-É um conjunto de variáveis do mesmo tipo agrupadas dentro de uma estrutura e acessíveis por um índice.  
-
-Vamos aos exemplos.
-
-<a name="1.1"></a>
-### 1.1 Exemplo de números inteiros  
-
-```cpp
-a = ( 5,2,7,3,9)  
-```
-
-<a name="1.2"></a>
-### 1.2 Exemplo de números float  
-
-```cpp
-a = ( 5.1,2.9,7.0,3.121,9.43)  
-```
-
-<a name="1.3"></a>
-### 1.3 Exemplo com String  
-
-```cpp
-s = ( "Ana","José","Hugo","Hulda")
-```
-
-<a name="1.4"></a>
-### 1.4 Representação
-Podemos representar os *arrays* da seguinte forma:
+## 1. O que são variáveis do tipo array?
+É um conjunto de variáveis do mesmo tipo agrupadas dentro de uma estrutura e acessíveis por um índice. Podemos representar os *arrays* como uma tabela onde os dados são acessados por um índice que indica a posição do elemento, a seguir um exemplo.
 
 | s         |s[0] |s[1] |s[2] | s[3]  |
 |---        |---  |---  |---  |---    |
@@ -69,6 +41,33 @@ Podemos representar os *arrays* da seguinte forma:
 
 - s[0] - O valor entre colchetes indica a posição (índice) do elemento no *array*;
 - O índice em C++ inicia com o valor 0.
+
+A segui alguns exemplos utilizando C++.
+
+<a name="1.1"></a>
+### 1.1 Exemplo de números inteiros  
+
+```cpp
+int a;
+a = ( 5,2,7,3,9)  
+```
+
+<a name="1.2"></a>
+### 1.2 Exemplo de números float  
+
+```cpp
+float a;
+a = ( 5.1,2.9,7.0,3.121,9.43)  
+```
+
+<a name="1.3"></a>
+### 1.3 Exemplo com String  
+
+```cpp
+FString s;
+s = ( "Ana","José","Hugo","Hulda")
+```
+
 
 **[⬆ Volta para o início](#índice)**
 
@@ -82,8 +81,15 @@ Para declarar variáveis do tipo *array* devemos primeiro escolher um tipo de va
 
 *Figura: Blueprint array details.*
 
-- `Nomes` - É uma variável array, como o ícone de mini grid informa,do tipo `String`.
+- `Nomes` - É uma variável *array*, como o ícone de mini grid informa,do tipo `String`.
 - `Default Value` - Contem a lista de valores contidos inicialmente no `array`.
+
+Em Blueprint a variável é representada por um ícone 3x3.
+
+![Figura: Blueprint Arrays.](https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/Blueprints/UserGuide/Arrays/array_selected.webp "Figura: Blueprint Arrays.")
+
+*Figura: Blueprint Arrays.*
+
 
 **C++.**  
 
@@ -94,7 +100,7 @@ int  pessoas[3] = { 4,3,7};
 
 <a name="2.1"></a>
 ### 2.1 Método Get para arrays
-Para acessar qualquer elemento dentro *array* é necessários utilizar o índice.  
+Para acessar qualquer elemento dentro *array* é necessários utilizar o índice, como no exemplo abaixo.  
 
 **Blueprint.**  
 
@@ -111,7 +117,7 @@ UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
 
 <a name="2.2"></a>
 ### 2.2 Get utilizando uma variável como índice
-Podemos utilizar uma variável para acessar elementos do *array*.
+Podemos utilizar uma variável para substituir o índice e acessar elementos do *array*.
 
 **Blueprint.**
 
@@ -119,11 +125,11 @@ Podemos utilizar uma variável para acessar elementos do *array*.
 
 *Figura: Blueprint Get utilizando uma variável como índice.*
 
-- **Indice** - Definimos o valor 1 para acessar o elemento da referida posição.
+No exemplo acima definimos o valor de Índice igual a 1 para acessar o elemento de mesma posição.
 
 <a name="2.3"></a>
 ### 2.3 Último índice e a quantidade de elementos do array
-Podemos determinar a quantidade de elementos ou valor do último índice do *array* utilizando as propriedades abaixo.    
+Podemos determinar a quantidade de elementos ou valor do último índice do *array* utilizando os nós abaixo.    
 
 ![Figura: Blueprint Last Index.](imagens/array/blueprint_array_last_index.jpg "Figura: Blueprint Last Index.")
 
@@ -136,6 +142,7 @@ Podemos determinar a quantidade de elementos ou valor do último índice do *arr
 
 <a name="3"></a>
 ## 3. Percorrendo arrays
+Percorrer **array** implica em ler todos ou alguns elementos da estrutura, para tal usamos vários nós ou funções que permitem dependendo da necessidade facilitar a lógica.
 
 <a name="3.1"></a>
 ### 3.1 Listando todos os elementos utilizando For
@@ -170,6 +177,7 @@ if (StrArr.Find(TEXT("Hello"), Index))
 
 <a name="3.3"></a>
 ### 3.3 Contando elementos dentro de um array
+O exemplo abaixo conta todos os elementos do *array* `Nomes` que são iguais a variável `NomeBusca`.
 
 ![Figura: Blueprint for para escrever o total de ocorrências.](imagens/array/blueprint_array_write_total_occurrence.jpg "Figura: Blueprint for para escrever o total de ocorrências.")
 
@@ -177,6 +185,7 @@ if (StrArr.Find(TEXT("Hello"), Index))
 
 <a name="3.4"></a>
 ### 3.4 Percorrendo e atualizando dados
+O exemplo abaixo vamos percorrer o *array* utilizando uma instrução `for` e atualizar outro *array*.
 
 ![Figura: Blueprint preenchendo o array com strings.](imagens/array/blueprint_array_fill_string.jpg)
 
@@ -186,7 +195,7 @@ if (StrArr.Find(TEXT("Hello"), Index))
 
 <a name="4"></a>
 ## 4. Removendo elementos do array
-É possível remover elementos de dentro de um *array*, a seguir vamos apresentar algumas funções.    
+É possível remover elementos de dentro de um *array*, após a remoção a quantidade e índice final da estrutura vai ser atualizada, a seguir vamos apresentar algumas funções.    
 
 <a name="4.1"></a>
 ### 4.1 Removendo utilizando Remove
@@ -230,5 +239,3 @@ O comando `Remove`executa uma busca utilizando um parâmetro, **NomeBusca** no e
 - [Unreal Engine Blueprints Array](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Arrays/index.html)   
 - [Unreal Engine Array Nodes](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Arrays/ArrayNodes/index.html)    
 - [C++](https://www.codegrepper.com/code-examples/cpp/ue4+c%2B%2B+array)
-
-***
