@@ -34,7 +34,7 @@ Neste capítulo vamos instalar o **Unreal Engine** e o Microsoft Visual Studio p
 
 <a name="1"></a>
 ## 1. Instalando o Unreal e o Visual Studio
-O **Unreal Enegine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos. A **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **Inicializador da Epic Games** responsável por:
+O **Unreal Engine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos. A **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **Inicializador da Epic Games** responsável por:
 - Instalação e atualização de jogos;
 - Navegação da loja de produtos;
 - Instalação e atualização das versões do **Unreal Engine**;
@@ -200,6 +200,7 @@ Para programar utilizando **C++** no Unreal devemos configurar um editor de cód
 ### 6.1 - Instale o Unreal Engine com Visual Studio.
 #### Regras
 1. Instale todo o ambiente e crie um projeto de nome MeuPrimeiroProjeto.
+
 #### Desafio      
 1. Configure o Visual Studio para ser o editor padrão.
 

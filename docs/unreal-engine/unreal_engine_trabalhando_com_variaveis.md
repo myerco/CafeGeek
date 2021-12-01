@@ -19,9 +19,9 @@ Neste capítulo serão descritas as estruturas de armazenamento em memória, var
 1. **[Tratamento e armazenamento de texto no Unreal Engine](#5)**  
     1. [Concatenando textos usando a função Append](#5.1)  
     1. [Procurando texto dentro de uma string](#5.2)  
-1. [Variáveis do tipo numéricas Integer e Float](#6)  
-1. [Armazenando valores lógicos com Boolean](#7)
-1. [Controle de acesso a variáveis](#8)
+1. **[Variáveis do tipo numéricas Integer e Float](#6)**  
+1. **[Armazenando valores lógicos com Boolean](#7)**
+1. **[Controle de acesso a variáveis](#8)**
     1. [Variáveis Privadas](#8.2)  
     1. [Variáveis Públicas](#8.2)  
 1. [Atividades](#9)
@@ -73,9 +73,10 @@ VariavelBoolean = true;
 1. `Integer` - Valores inteiros entre −2.147.483.648 e 2.147.483.647
 
     ```cpp
-int VariavelInt;
+int32 VariavelInt;
 VariavelInt = 1;
   ```
+    Utilize int32, uint8, uint32 para representar números inteiros.
 1. `Float` - Valores com casas decimais tal como 0,0553, 101,2887 e -78,322 .
 
     ```cpp
@@ -94,6 +95,8 @@ VariavelString = "Alo mundo!!";
 ### 2.2 Declarando variáveis   
 Declarando variáveis informamos ao computador que estamos reservando um espaço de memória temporário.  
 
+**Blueprint.**
+
 1. Variáveis no Editor de Blueprint.
 
     ![Figura: Blueprint Variables.](imagens/variaveis/unreal_engine_variable.jpg "Figura: Blueprint Variables.")
@@ -108,6 +111,13 @@ Declarando variáveis informamos ao computador que estamos reservando um espaço
 
 > Observe que a propriedade `Category` agrupa as variáveis por uma categoria.
 
+**C++.**
+
+```cpp
+UPROPERTY()
+    int32 iLife = 10;
+```
+
 **[⬆ Volta para o início](#índice)**
 
 <a name="4"></a>
@@ -117,6 +127,9 @@ Para acessar o conteúdo das variáveis utilizamos os métodos `Get` e `Set`, on
 - `Get`: Obtém o valor de uma variável.
 - `Set`: Atualiza o valor da variável.
 
+
+**Blueprint.**
+
 ![Figura: Métodos Get e Set.](imagens/variaveis/unreal_engine_get_set.jpg "Figura: Métodos Get e Set.")
 
 *Figura: Métodos Get e Set.*
@@ -125,6 +138,32 @@ Para acessar o conteúdo das variáveis utilizamos os métodos `Get` e `Set`, on
 - `Print String` - Escreve um texto na cena do jogo.
 - `Add +` - Variáveis numéricas podem ser manipuladas com operadores matemáticos.
 - `Converts` - Converte tipos de variáveis, neste caso converte um valor do tipo `integer` em um do tipo `String`.
+
+**C++.**
+
+Arquivo Header.
+
+```cpp
+// MyHero.h
+UPROPERTY()
+virtual void BeginPlay() override;
+```
+
+Arquivo de implementação.
+
+```cpp
+// Myhero.cpp
+void AMyHeroClass::BeginPlay()
+ {
+    Super::BeginPlay();
+    int32 iLifeLocal = 5;
+    float fSpeed = 3.7f;
+    FString fsName = "O nome do personagem é Nostromo";
+    iLifeLocal = iLifeLocal + iLife;
+    // iLife é uma variável global
+    UE_LOG(LogTemp, Warning, TEXT("O resultado é =, %d %f %s"), iLife, fSpeed, *fsName );
+ }
+ ```
 
 **[⬆ Volta para o início](#índice)**
 
@@ -146,9 +185,26 @@ Podemos realizar as seguintes operações em `strings`:
 - Concatenar `strings`;
 - Procurar uma determinada letra ou Substring dentro da `string`.
 
+**Blueprint.**
+
 ![Figura: String functions.](imagens/variaveis/unreal_engine_string_functions.jpg "Figura: String functions.")
 
 *Figura: String functions.*
+
+**C++.**
+
+Arquivo header.
+
+```cpp
+// myHero.h
+
+```
+
+Arquivo de implementação.
+```cpp
+// myHero.cpp
+```
+
 
 <a name="5.1"></a>
 ### 5.1 Concatenando textos usando a função Append
