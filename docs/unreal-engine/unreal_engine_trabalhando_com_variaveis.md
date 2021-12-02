@@ -197,13 +197,47 @@ Arquivo header.
 
 ```cpp
 // myHero.h
+UPROPERTY()
+virtual void BeginPlay() override;
+
+UPROPERTY()
+FString NomeCharacter;
+
+UPROPERTY()
+FString ClassCharacter;
+
 
 ```
 
 Arquivo de implementação.
 ```cpp
 // myHero.cpp
+void AMyHeroClass::BeginPlay()
+ {
+    Super::BeginPlay();
+
+    FString fsMessage = "Procurando a classe do personagem";
+    FString fsResultado;
+
+    fsResultado.append("O nome é ",*NomeCharacter)
+
+    // ou
+    fsResultado ="O nome é ";
+    fsResultado += *NomeCharacter;
+
+    UE_LOG(LogTemp, Warning, TEXT("O resultado é =,  %s"), *fsResultado );
+
+    // Procurando uma Substring
+    if (fsMessage.Contains("class"))
+    {
+      UE_LOG(LogTemp, Warning, TEXT("Encontrei!!"));
+    }
+    else
+        UE_LOG(LogTemp, Warning, TEXT("Não encontrei"));
+ }
+
 ```
+
 
 
 <a name="5.1"></a>
