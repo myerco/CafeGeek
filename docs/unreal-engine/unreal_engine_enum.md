@@ -72,16 +72,17 @@ A seguir vamos apresentar alguns exemplos da implementação e uso de objetos do
 <a name="3.1"></a>
 ### 3.1 A Lâmpada
 
-1. Verificando o estado de uma lâmpada utilizando uma variável do tipo `boolean`.  
-  **Blueprint.**
+Verificando o estado de uma lâmpada utilizando uma variável do tipo `boolean`.  
 
-  ![Figura: Blueprint Verificando o estado de uma lâmpada.](imagens/enum/blueprint_enum_example_lamp_state.jpg "Figura: Blueprint Verificando o estado de uma lâmpada.")
+**Blueprint.**
 
-  *Figura: Blueprint Verificando o estado de uma lâmpada.*
+![Figura: Blueprint Verificando o estado de uma lâmpada.](imagens/enum/blueprint_enum_example_lamp_state.jpg "Figura: Blueprint Verificando o estado de uma lâmpada.")
 
-  **C++.**
+*Figura: Blueprint Verificando o estado de uma lâmpada.*
 
-  ```cpp
+**C++.**
+
+```cpp
 void AFirstPersonBaseCodeCharacter::SetupPlayerInputComponent(class UInputComponent* InputComponent)
   {
           // set up gameplay key bindings
@@ -100,26 +101,41 @@ void AFirstPersonBaseCodeCharacter::AnyKey(float Value)
       UE_LOG(LogTemp, Warning, TEXT("Lâmpada desligada."));
   }    
 ```
-1.  Alterando o componente `PointLight` para ligar e desligar a iluminação.    
-  ![Figura: Blueprint Ligando e desligando o PointLight.](imagens/enum/blueprint_enum_example_lamp_offon.jpg "Figura: Blueprint Ligando e desligando o PointLight.")
 
-  *Figura: Blueprint Ligando e desligando o PointLight.*   
-1.  Verificando o estado utilizando o `Enum`.   
-  ![Figura: Blueprint Lendo Enum.](imagens/enum/blueprint_enum_example_lamp_read_state.jpg)
+Alterando o componente `PointLight` para ligar e desligar a iluminação.    
 
-  *Figura: Blueprint Lendo Enum.*  
-1.  Ligando e desligando utilizando o `Enum`.   
-  ![Figura: Blueprint Ligando e desligando usando Enum.](imagens/enum/blueprint_enum_example_lamp_off.jpg)
+**Blueprint.**
 
-  *Figura: Blueprint Ligando e desligando usando Enum.*
+![Figura: Blueprint Ligando e desligando o PointLight.](imagens/enum/blueprint_enum_example_lamp_offon.jpg "Figura: Blueprint Ligando e desligando o PointLight.")
+
+*Figura: Blueprint Ligando e desligando o PointLight.*   
+
+**C++.**
+
+```cpp
+
+```
+
+Verificando o estado utilizando o `Enum`.   
+
+![Figura: Blueprint Lendo Enum.](imagens/enum/blueprint_enum_example_lamp_read_state.jpg)
+
+*Figura: Blueprint Lendo Enum.*  
+
+Ligando e desligando utilizando o `Enum`.   
+
+![Figura: Blueprint Ligando e desligando usando Enum.](imagens/enum/blueprint_enum_example_lamp_off.jpg)
+
+*Figura: Blueprint Ligando e desligando usando Enum.*
 
 <a name="3.2"></a>
 ### 3.2 A pedra e as emoções
 1. Alterando o estado emocional da pedra.    
   ![Figura: Blueprint alterando Enum.](imagens/enum/blueprint_enum_example_rock.jpg "Figura: Blueprint alterando Enum.")
 
-  *Figura: Blueprint alterando Enum.*
-1. Apresentando o estado emocional da pedra.   
+*Figura: Blueprint alterando Enum.*
+
+Apresentando o estado emocional da pedra.   
   ![Figura: Blueprint escrevendo o conteúdo do Enum.](imagens/enum/blueprint_enum_example_rock_state.jpg "Figura: Blueprint escrevendo o conteúdo do Enum.")
 
   *Figura: Blueprint escrevendo o conteúdo do Enum.*
