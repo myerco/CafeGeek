@@ -1,8 +1,9 @@
 ---
 title: Manipulando Arrays
 description: Neste capitulo serão apresentados os conceitos de estruturas de *arrays* ou vetores e suas funções para manipulação.
+unrealengine: Unreal Engine 4.27
 tags: [Unreal Engine,blueprint,array,get,set]
-layout: page
+layout: unreal_engine
 ---
 
 Neste capitulo serão apresentados os conceitos de estruturas de *arrays* ou vetores e suas funções para manipulação.
