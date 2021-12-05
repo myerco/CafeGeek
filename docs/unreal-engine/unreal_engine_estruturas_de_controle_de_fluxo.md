@@ -30,13 +30,15 @@ Em linguagens de programação existem métodos de tomada de decisão para taref
 
 Exemplo de fluxo de execução, considere a sequencia de comandos abaixo:
 
+**C++.**
+
 ```cpp
-int i, x, resultado=0;
+int32 i, x, resultado=0;
 i = 2;
 x = 10;
-resutado = i + x;
-cout << "O resultado é : ";
-cout << resultado;
+resultado = i + x;
+UE_LOG(LogTemp, Warning, TEXT("O resultado é %d"), resultado);
+
 ```
 O resultado desse código é o valor 12 sendo apresentado na tela.
 
@@ -46,10 +48,11 @@ int i, x, resultado=0;
 i = 2;
 x = 10;
 if ( i > x )
-  resutado = i + x;
-cout << "O resultado é : ";
-cout << resultado;
+  resultado = i + x;
+
+UE_LOG(LogTemp, Warning, TEXT("O resultado é %d"), resultado);
 ```
+
 O resultado será 0 pois a condição de controle de fluxo **if** provocou um desvio do fluxo de instruções.
 
 **[⬆ Volta para o início](#índice)**
@@ -69,14 +72,15 @@ A seguir vamos entender como é fluxo condicional é descrito com programação 
 *Figura: Blueprint e branch ou if.*
 
 **C++.**
+
 ```cpp
 if ( 2 >= 4)
 {
-  cout << "Escreve a mensagem caso a condição for verdadeira\n";
+  UE_LOG(LogTemp, Warning, TEXT("Escreve a mensagem caso a condição for verdadeira."));
 }
 else
 {
-  cout << "Escreve a mensagem caso a condição for false\n";
+  UE_LOG(LogTemp, Warning, TEXT("Escreve a mensagem caso a condição for falso."));
 }
 ```
 
@@ -106,6 +110,7 @@ O nó `Flip Flop` obtém uma saída de execução e alterna entre duas saídas d
 *Figura: Bluprint Flip FLop.*
 
 **C++.**
+
 ```cpp
 // Não tem similar em C++, deve ser implementado
 ```
@@ -121,6 +126,7 @@ O nó `MultiGate` recebe um único pulso de dados e o encaminha para qualquer n�
 *Figura: Blueprint MultiGate.*
 
 **C++.**
+
 ```cpp
 // Não tem similar em C++, deve ser implementado
 ```
@@ -147,7 +153,9 @@ for (int i = 0; i < 4; i++ ){
       cout << "Contanto: ";
       cout << i;
     }
-cout << "Teminei de contar\n";    
+
+UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
+
 ```
 
 <a name="3.2"></a>
@@ -155,18 +163,20 @@ cout << "Teminei de contar\n";
 Uma condição de teste e um corpo são tudo o que constitui um *loop While*. Antes de executar a (s) instrução (ões) em seu corpo, o Blueprint avalia a condição de teste `While Loops` para determinar se ela é verdadeira.
 
 **Blueprint.**
+
 ![Figura: Bluprint While loop.](imagens/estruturascontrole/blueprint_example_whileloop.jpg "Figura: Bluprint While loop.")
 
 *Figura: Bluprint While loop.*
 
 **C++.**
+
 ```cpp
-int valor = 0;
+int32 valor = 0;
 while ( valor <= 4) {
     i++;
     cout << i;
     }
-cout << "Teminei de contar\n";    
+UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
 ```
 
 <a name="3.3"></a>

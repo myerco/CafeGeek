@@ -88,7 +88,7 @@ VariavelFloat = 2.4;
 
     ```cpp
 FString VariavelString ;
-VariavelString = "Alo mundo!!";
+VariavelString = TEXT("Alo mundo!!");
     ```
 
 <a name="2.2"></a>
@@ -114,7 +114,7 @@ Declarando variáveis informamos ao computador que estamos reservando um espaço
 **C++.**
 
 ```cpp
-UPROPERTY()
+UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Parâmetros")
     int32 iLife = 10;
 ```
 
@@ -158,7 +158,7 @@ void AMyHeroClass::BeginPlay()
     Super::BeginPlay();
     int32 iLifeLocal = 5;
     float fSpeed = 3.7f;
-    FString fsName = "O nome do personagem é Nostromo";
+    FString fsName = TEXT("O nome do personagem é Nostromo");
     iLifeLocal = iLifeLocal + iLife;
     // iLife é uma variável global
     UE_LOG(LogTemp, Warning, TEXT("O resultado é =, %d %f %s"), iLife, fSpeed, *fsName );
@@ -216,13 +216,13 @@ void AMyHeroClass::BeginPlay()
  {
     Super::BeginPlay();
 
-    FString fsMessage = "Procurando a classe do personagem";
+    FString fsMessage = TEXT("Procurando a classe do personagem");
     FString fsResultado;
 
     fsResultado.append("O nome é ",*NomeCharacter)
 
     // ou
-    fsResultado ="O nome é ";
+    fsResultado =TEXT("O nome é ");
     fsResultado += *NomeCharacter;
 
     UE_LOG(LogTemp, Warning, TEXT("O resultado é =,  %s"), *fsResultado );
@@ -247,7 +247,7 @@ A função `Append` concatena duas ou mais `strings`, passamos como parâmetros 
 **C++**
 ```cpp
 
-FString sTexto = "Alo mundo...";
+FString sTexto = TEXT("Alo mundo...");
 sTexto.append("Cruel");
 
 // Resultado: Alo mundo...Cruel
@@ -267,9 +267,9 @@ A função `Contains` procura uma sequencia de caracteres dentro de uma `string`
 
 ```cpp
 
-FString sTexto = "Procurando o texto escondido.";
+FString sTexto = TEXT("Procurando o texto escondido.");
 
-if (sTexto.Contains("texto"))
+if (sTexto.Contains(TEXT("texto")))
 {
   return true;
 }
@@ -332,15 +332,26 @@ Como especificar quais variáveis de um objeto um usuário pode acessar e quais 
 
 <a name="8.1"></a>
 ### 8.1 Variáveis Privadas
-Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada de **Blueprints** externos.  
+Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada por módulos externos.  
+
+**Blueprint.**
 
 ![Figura: Private details.](imagens/variaveis/unreal_engine_variable_private_details.jpg "Figura: Private details.")
 
 *Figura: Private details.*
 
+**C++.**
+
+```cpp
+private:
+   bool Running = false;
+```
+
 <a name="8.1"></a>
 ### 8.1 Variáveis Públicas
-Para permitir que uma variável seja modificada de fora de seu  **Blueprint**, torne-a pública.  
+Para permitir que uma variável seja modificada de fora de seu módulos, torne-a pública.  
+
+**Blueprint.**
 
 ![Figura: Public.](imagens/variaveis/unreal_engine_variable_public.jpg "Figura: Public.")
 
@@ -350,6 +361,15 @@ Para permitir que uma variável seja modificada de fora de seu  **Blueprint**, t
 
 *Figura: Public details.*
 
+**C++.**
+
+```cpp
+public:
+  UFUNCTION(BlueprintCallable, Category="Player")
+  bool IsRunning();
+
+```
+
 <a name="9"></a>
 ## 9. Atividades
 <a name="9.1"></a>
@@ -357,9 +377,11 @@ Para permitir que uma variável seja modificada de fora de seu  **Blueprint**, t
 - Nome do personagem;
 - Vida do personagem;
 - Força do personagem;
+
 #### Regras
 1. Aumente a vida e a força do personagem;
 2. Altere o nome do personagem e escreva na cena.
+
 #### Desafio      
 1. Implemente uma lógica para calcular o maior valor entre três números.
 
