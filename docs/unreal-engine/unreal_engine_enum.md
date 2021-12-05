@@ -73,7 +73,6 @@ A seguir vamos apresentar alguns exemplos da implementação e uso de objetos do
 ### 3.1 A Lâmpada
 
 1. Verificando o estado de uma lâmpada utilizando uma variável do tipo `boolean`.  
-
   **Blueprint.**
 
   ![Figura: Blueprint Verificando o estado de uma lâmpada.](imagens/enum/blueprint_enum_example_lamp_state.jpg "Figura: Blueprint Verificando o estado de uma lâmpada.")
