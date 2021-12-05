@@ -1,8 +1,9 @@
 ---
 title: Trabalhando com variáveis
 description: Trabalhando com variáveis e seus métodos com Blueprint
+unreal_engine: Unreal Engine 4.27
 tags: [Unreal Engine,Blueprint,variáveis, variable]
-layout: page
+layout: unreal_engine
 ---
 
 Neste capítulo serão descritas as estruturas de armazenamento em memória, variáveis, e a sua manipulação.

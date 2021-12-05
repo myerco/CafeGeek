@@ -1,8 +1,9 @@
 ---
 title: Enums - Enumerations
 description: Variáveis do tipo Enumerations
+unreal_engine: Unreal Engine 4.27
 tags: [Unreal Engine,blueprint,enum]
-layout: page
+layout: unreal_engine
 ---
 
 Neste capitulo serão apresentados Enumerações (*Enumeration*). Enumeração é algo como nomear ou numerar um a um (geralmente em uma lista).
@@ -24,7 +25,10 @@ Exemplo:
 enum cores = { vermelho,amarelo, azul, verde = 20, preto}
 ```
 <a name="2"></a>
-## 2. Criando Enums com Blueprint
+## 2. Criando Enums no Unreal Engine
+
+**Blueprint.**
+
 Execute o comando no menu de contexto `Blueprints` > `Enumeration` e logo depois preencha os valores conforme a tela abaixo.  
 
 ![Figura: Blueprint e Enum.](imagens/enum/blueprint_enum_declare.jpg "[Figura: Blueprint e Enum.")
@@ -37,6 +41,30 @@ Objeto criado `EN_Estado` e `EN_Pedra`.
 
 *Figura: Blueprint Enum no Context Browser.*
 
+**C++.**
+
+Arquive header.
+
+```cpp
+// EnumName.h
+UENUM()
+enum Status
+{
+  Stopped     UMETA(DisplayName = "Stopped"),
+  Moving      UMETA(DisplayName = "Moving"),
+  Attacking   UMETA(DisplayName = "Attacking"),
+};
+```
+
+Arquivo de implementação.
+
+```cpp
+// Hero.cpp
+UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
+TEnumAsByte<Status> status;
+```
+
+
 <a name="3"></a>
 ## 3. Exemplos de uso
 A seguir vamos apresentar alguns exemplos da implementação e uso de objetos do tipo `Enum`.
@@ -45,9 +73,36 @@ A seguir vamos apresentar alguns exemplos da implementação e uso de objetos do
 ### 3.1 A Lâmpada
 
 1. Verificando o estado de uma lâmpada utilizando uma variável do tipo `boolean`.  
+
+  **Blueprint.**
+
   ![Figura: Blueprint Verificando o estado de uma lâmpada.](imagens/enum/blueprint_enum_example_lamp_state.jpg "Figura: Blueprint Verificando o estado de uma lâmpada.")
 
   *Figura: Blueprint Verificando o estado de uma lâmpada.*
+
+  **C++.**
+
+  ```cpp
+void AFirstPersonBaseCodeCharacter::SetupPlayerInputComponent(class UInputComponent* InputComponent)
+  {
+          // set up gameplay key bindings
+          check(InputComponent);
+          ...
+          InputComponent->BindAxis("AnyKey", this, &AFirstPersonBaseCodeCharacter::AnyKey);
+          ...
+  }   
+void AFirstPersonBaseCodeCharacter::AnyKey(float Value)
+  {
+    if bLigado
+    {
+      UE_LOG(LogTemp, Warning, TEXT("Lâmpada ligada."));  
+    }    
+    else
+      UE_LOG(LogTemp, Warning, TEXT("Lâmpada desligada."));
+  }    
+
+```
+
 1.  Alterando o componente `PointLight` para ligar e desligar a iluminação.    
   ![Figura: Blueprint Ligando e desligando o PointLight.](imagens/enum/blueprint_enum_example_lamp_offon.jpg "Figura: Blueprint Ligando e desligando o PointLight.")
 
