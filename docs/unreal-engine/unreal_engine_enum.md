@@ -100,9 +100,7 @@ void AFirstPersonBaseCodeCharacter::AnyKey(float Value)
     else
       UE_LOG(LogTemp, Warning, TEXT("Lâmpada desligada."));
   }    
-
 ```
-
 1.  Alterando o componente `PointLight` para ligar e desligar a iluminação.    
   ![Figura: Blueprint Ligando e desligando o PointLight.](imagens/enum/blueprint_enum_example_lamp_offon.jpg "Figura: Blueprint Ligando e desligando o PointLight.")
 
