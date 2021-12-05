@@ -42,12 +42,10 @@ Neste capitulo serão apresentados os conceitos de estruturas de *arrays* ou vet
 - s[0] - O valor entre colchetes indica a posição (índice) do elemento no *array*;
 - O índice em C++ inicia com o valor 0.
 
-A seguir alguns exemplos utilizando C++.
+A seguir alguns exemplos utilizando **C++**.
 
 <a name="1.1"></a>
 ### 1.1 Exemplo de números inteiros  
-
-**C++.**
 
 ```cpp
 TArray<int32> IntArray;
@@ -70,7 +68,8 @@ floatArray.Init(10.0f, 5);
 TArray<FString> StrArr;
 StrArr.Add    (TEXT("Hello"));
 StrArr.Emplace(TEXT("World"));
-// StrArr == ["Hello","World"]```
+// StrArr == ["Hello","World"]
+```
 
 
 **[⬆ Volta para o início](#índice)**
@@ -131,7 +130,6 @@ int32 indice = 4;
 FString s = pessoa[indice];
 UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
 ```
-
 
 <a name="2.3"></a>
 ### 2.3 Último índice e a quantidade de elementos do array
