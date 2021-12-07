@@ -1,8 +1,9 @@
 ---
 title: Organizando pastas e logo do projeto
 description: Neste capitulo vamos organizar as pastas do projeto ProjetoAula, construído no Unreal Engine, e vamos configurá-lo
+unreal_engine: Unreal Engine 5
 tags: [Unreal Engine,Organizando,Blueprint,pastas,folder]
-layout: page
+layout: unreal_engine
 ---
 
 Neste capitulo vamos organizar as pastas do projeto *ProjetoAula*, construído no Unreal Engine, e vamos configurá-lo.
@@ -14,8 +15,8 @@ Neste capitulo vamos organizar as pastas do projeto *ProjetoAula*, construído n
     1. [Nomenclatura e organização de pastas no Unreal Engine](#1.1)
     1. [Benefícios da organização de pastas](#1.2)    
 1. **[Configurando o projeto](#2)**    
-    1. [Adicionando um Level na inicialização do projeto](#2)
-    1. [Configurando as imagens do projeto](#4)
+    1. [Adicionando um Level na inicialização do projeto](#2.1)
+    1. [Configurando as imagens do projeto](#2.2)
 1. [Atividades](#3)
     1. [Configure as pastas de seu projeto](#3.1)
 
@@ -131,15 +132,15 @@ Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguinte
 1. Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o menu :     
     `Edit` > `Project Settings` e depois `Maps & Modes`;   
 
-	![Project - Maps & Modes.](imagens/projeto/unreal_engine_maps_modes.jpg "Project - Maps & Modes.")			
+	![Figura: Project - Maps & Modes.](imagens/projeto/unreal_engine_maps_modes.jpg "Figura: Project - Maps & Modes.")			
 
 	*Figura: Project - Maps & Modes.*
 
 - `Edit Startup Level` - Seleciona o *Level* que deverá ser carregado no início do jogo, neste caso é `LevelTest`;
 - `Game default Map` - Seleciona o *Level* que é mais usado.
 
-<a name="2.3"></a>
-### 2.3 Configurando as imagens  do projeto
+<a name="2.2"></a>
+### 2.2 Configurando as imagens  do projeto
 Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu :
 
 `Project Settings` opção `Plataforms` > `Windows` e altere a imagens.
