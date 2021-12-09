@@ -112,19 +112,133 @@ Alterando o componente `PointLight` para ligar e desligar a iluminação.
 
 **C++.**
 
+Arquivo Header.
+
 ```cpp
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "ControlLight.generated.h"
+
+UCLASS()
+class CPP5_API AControlLight : public AActor
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY()
+		USceneComponent* Root;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Parameters")
+		bool bLigado;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Parameters")
+		float fIntensidade;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Parameters")
+		class UPointLightComponent* PointLight;
+
+	UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))
+		FVector TargetLocation;
+
+	AControlLight();
+
+protected:
+
+	virtual void BeginPlay() override;
+
+	void AnyKey();
+
+public:
+	virtual void Tick(float DeltaTime) override;
+	void InitControl();
+
+	class APlayerController* PlayerControllControlLight;
+
+};
+```
+
+Arquivo de implementação.
+
+```cpp
+#include "ControlLight.h"
+#include "Components/PointLightComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "Components/InputComponent.h"
+
+// Sets default values
+AControlLight::AControlLight()
+{
+	PrimaryActorTick.bCanEverTick = true;
+	Root = CreateDefaultSubobject<USceneComponent>("Root");
+	RootComponent = Root;
+	PointLight = CreateDefaultSubobject<UPointLightComponent>(TEXT("Ponto de Luz"));
+	PointLight->SetRelativeTransform(FTransform(FRotator(0, 0, 0), FVector(250, 0, 0),FVector(0.1f)));
+	fIntensidade = 10000;
+	bLigado = true;
+}
+
+void AControlLight::InitControl()
+{
+	FVector GlobalLocation = GetTransform().TransformPosition(TargetLocation);
+	PointLight->SetWorldLocation(GlobalLocation);
+	PointLight->SetIntensity(fIntensidade);
+}
+
+// Called when the game starts or when spawned
+void AControlLight::BeginPlay()
+{
+	Super::BeginPlay();
+	PlayerControllControlLight = UGameplayStatics::GetPlayerController(this, 0);
+	EnableInput(PlayerControllControlLight);
+	AControlLight::InitControl();
+}
+
+// Called every frame
+void AControlLight::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	if (PlayerControllControlLight != NULL)
+	{
+		if (PlayerControllControlLight->WasInputKeyJustPressed(EKeys::T))
+		{
+			AnyKey();
+		}
+	}
+}
+
+void AControlLight::AnyKey()
+{
+	if (bLigado)
+	{
+		fIntensidade = 0;
+		bLigado = false;
+
+	}
+	else
+	{
+		fIntensidade = 10000;
+		bLigado = true;
+	}
+	PointLight->SetIntensity(fIntensidade);
+}
 
 ```
 
 Verificando o estado utilizando o `Enum`.   
 
-![Figura: Blueprint Lendo Enum.](imagens/enum/blueprint_enum_example_lamp_read_state.jpg)
+**Blueprint.**
+
+![Figura: Blueprint Lendo Enum.](imagens/enum/blueprint_enum_example_lamp_read_state.jpg "Figura: Blueprint Lendo Enum.")
 
 *Figura: Blueprint Lendo Enum.*  
 
 Ligando e desligando utilizando o `Enum`.   
 
-![Figura: Blueprint Ligando e desligando usando Enum.](imagens/enum/blueprint_enum_example_lamp_off.jpg)
+**Blueprint.**
+
+![Figura: Blueprint Ligando e desligando usando Enum.](imagens/enum/blueprint_enum_example_lamp_off.jpg "Figura: Blueprint Ligando e desligando usando Enum.")
 
 *Figura: Blueprint Ligando e desligando usando Enum.*
 

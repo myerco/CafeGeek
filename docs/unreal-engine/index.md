@@ -13,6 +13,7 @@ layout: page
 1. [Controle de versão com GitHub](unreal_engine_controle_de_versao_com_github.html)
 1. [Interface e Editores](interface_e_editores.html)  
 1. [Entendendo a lógica de programação visual com Blueprint](unreal_engine_entendo_blueprint.html)
+1. [Programando com C++](unreal_engine_entendo_cpp.html)
 1. [Trabalhando com variáveis](unreal_engine_trabalhando_com_variaveis.html)  
 1. [Estruturas de controle de fluxo](unreal_engine_estruturas_de_controle_de_fluxo.html)
 1. [Manipulando Arrays](unreal_engine_manipulando_array.html)  

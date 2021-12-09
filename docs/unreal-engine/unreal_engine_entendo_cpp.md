@@ -10,7 +10,6 @@ layout: unreal_engine
 Neste capítulo será apresentado o modelo da lógica de programação utilizando **C++** e os seus elementos.
 
 
-
 ## Índice
 1. **[O que são Blueprints e Visual Scripting?](#1)**  
     1. [Características](#1.1)  
@@ -45,15 +44,37 @@ Neste capítulo vamos utilizar a linguagem **C++** para o desenvolvimento.
 Expõe esta classe como uma classe base aceitável para a criação de Blueprints. O padrão é NotBlueprintable, a menos que herdado de outra forma. Isso é herdado por subclasses.
 
 1. Uma breve história sobre Herança.
-  - classe Pessoa  c++
-    int Vida;  
-    Movimentacao();  
-  - classe Hugo Blueprint
-      Vida ->Herdada   
-      Movimentacao() - Herdada  
+
+**C++.**
+
+```cpp
+// Classe Pessoa
+class Pessoa {
+  int32 iVida;
+  FString sNome;
+}
+
+class Heroi: public Pessoa {
+  float fForca = 100;
+}
+
+void main() {
+
+    Heroi nostromo;
+}
+```
+
+**Blueprint.**
+
+```cpp
+class Hugo: Pessoa
+      // iVida -- Herdada
+      // movimentacao() - Herdada  
+
       AddActiveTrigger()  
       float SpeedPlataforma  
-      int Vida #Error  
+      int32 Vida #Error  
+```
 
 1. Tipos de variáveis
 
