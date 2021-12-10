@@ -11,9 +11,9 @@ Neste capítulo vamos instalar o **Unreal Engine** e o Microsoft Visual Studio p
 
 
 ## Índice
-1. **[Instalando o Unreal e o Visual Studio](#1)**
-    1. [Siga o passos recomendados pela Epic Games](#1.1)
-    1. [Instalando os pacotes e o Visual Studio para programação com C++](#1.2)    
+1. **[O Unreal Engine e o Visual Studio](#1)**
+    1. [Como instalar o Unreal Engine?](#1.1)
+    1. [Como instalar os pacotes de desenvolvimento e o Visual Studio para programação com C++?](#1.2)    
 1. **[Criando um projeto para jogos no Unreal Engine](#2)**
     1. [Selecionando o tipo de projeto](#2.1)
     1. [Escolhendo o Template](#2.2)
@@ -33,37 +33,43 @@ Neste capítulo vamos instalar o **Unreal Engine** e o Microsoft Visual Studio p
 ***
 
 <a name="1"></a>
-## 1. Instalando o Unreal e o Visual Studio
-O **Unreal Engine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos. A **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **Inicializador da Epic Games** responsável por:
+## 1. O Unreal Engine e o Visual Studio
+O **Unreal Engine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos e também um ambiente visual de programação abstraindo a lógica de programação.
+
+Para que possamos programar em linguagem **C++** com **Unreal Engine** é necessário instalar o **Visual Studio** ou **Visual Code** e baixar os pacotes de desenvolvimento em **C++**.
+
+A **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **Inicializador da Epic Games** responsável por:
 - Instalação e atualização de jogos;
 - Navegação da loja de produtos;
 - Instalação e atualização das versões do **Unreal Engine**;
+
+<a name="1.1"></a>
+### 1.1  Como instalar o Unreal Engine?
+1. Baixe e instale o [Inicializador da Epic Games](https://www.epicgames.com/store/pt-BR/download);
+2. Inscreva-se para uma conta da Epic Games, se ainda não tiver uma;
+3. Faça login no **Inicializador da Epic Games**;
+4. Instale o **Unreal Engine** utilizando o menu `Unreal Engine` > `Biblioteca`.
+
   ![Figura: Gerenciamento de versões.](imagens/projeto/unreal_engine_control_version.jpg "Figura: Gerenciamento de versões.")   
 
     *Figura: Gerenciamento de versões.*
 
-<a name="1.1"></a>
-### 1.1 Siga o passos recomendados pela Epic Games
-1. Baixe e instale o [Inicializador da Epic Games](https://www.epicgames.com/store/pt-BR/download);
-2. Inscreva-se para uma conta da Epic Games, se ainda não tiver uma;
-3. Faça login no **Inicializador da Epic Games**;
-4. Instale o Unreal Engine.
 
 <a name="1.2"></a>
-### 1.2 Instalando os pacotes e o Visual Studio para programação com C++
-Para que possamos programar em linguagem **C++** com **Visual Studio** e o **Unreal Engine** é necessário baixar os pacotes de desenvolvimento em **C++**.
+### 1.2 Como instalar os pacotes de desenvolvimento e o Visual Studio para programação com C++?
+1. Baixe o Visual Studio em : [Download Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F);
+1. Selecione os pacotes de programação:
+  - Desenvolvimento de jogos com C++;
+  - Desenvolvimento para Desktop com C++.      
 
-1. [Download Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F);
-1. [Documentação Unreal e Visual Studio](https://docs.unrealengine.com/en-US/Programming/Development/VisualStudioSetup/index.html);
-1. Selecionando os pacotes de programação;
   ![Figura: Visual Studio Update para desenvolvimento de jogos.](imagens/projeto/unreal_engine_visual_studio_update.jpg "Figura: Visual Studio Update para desenvolvimento de jogos")  
 
     *Figura: Visual Studio Update para desenvolvimento de jogos.*   
 
-  - Desenvolvimento de jogos com C++;
-  - Desenvolvimento para Desktop com C++.      
-  > **Por que instalar este pacote?**    
-Porque muitas vezes foi necessário testar uma funcionalidade ou mesmo testar um conceito da linguagem e ter o compilador disponível foi uma mão na roda.
+> **Por que instalar o pacote Desktop com C++ ?**
+>    
+>Porque muitas vezes é necessário testar uma funcionalidade ou mesmo testar um conceito da linguagem e ter o compilador disponível é uma mão na roda.
+
 
 **[⬆ Volta para o início](#índice)**
 
@@ -213,3 +219,4 @@ Para programar utilizando **C++** no Unreal devemos configurar um editor de cód
 - [UE4 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin)
 - [Setting Up Visual Studio for Unreal Engine](https://docs.unrealengine.com/en-US/Programming/Development/VisualStudioSetup/index.html)
 - [Installing Unreal Engine](https://docs.unrealengine.com/en-US/GettingStarted/Installation/index.html)
+- [Documentação Unreal e Visual Studio](https://docs.unrealengine.com/en-US/Programming/Development/VisualStudioSetup/index.html);
