@@ -52,7 +52,7 @@ A **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **In
 
   ![Figura: Gerenciamento de versões.](imagens/projeto/unreal_engine_control_version.jpg "Figura: Gerenciamento de versões.")   
 
-    *Figura: Gerenciamento de versões.*
+  *Figura: Gerenciamento de versões.*
 
 
 <a name="1.2"></a>
@@ -64,7 +64,7 @@ A **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **In
 
   ![Figura: Visual Studio Update para desenvolvimento de jogos.](imagens/projeto/unreal_engine_visual_studio_update.jpg "Figura: Visual Studio Update para desenvolvimento de jogos")  
 
-    *Figura: Visual Studio Update para desenvolvimento de jogos.*   
+  *Figura: Visual Studio Update para desenvolvimento de jogos.*   
 
 > **Por que instalar o pacote Desktop com C++ ?**
 >    
