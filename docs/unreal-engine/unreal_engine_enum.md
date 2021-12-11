@@ -45,15 +45,20 @@ Objeto criado `EN_Estado` e `EN_Pedra`.
 
 Arquive header.
 
+`Visual Studio` > `Arquivo` > `Novo` > `Arquivo` > Escolha Visual C++, Arquivo de Cabeçalho (.h)
+
 ```cpp
 // EnumName.h
-UENUM()
-enum Status
-{
-  Stopped     UMETA(DisplayName = "Stopped"),
-  Moving      UMETA(DisplayName = "Moving"),
-  Attacking   UMETA(DisplayName = "Attacking"),
-};
+UENUM(BlueprintType)
+namespace EStatusEnum {
+// Definimos namespace para que não existam conflitos no acesso aos elementos.
+	enum Status
+	{
+		Ligada     UMETA(DisplayName = "Ligada"),
+		Desligada      UMETA(DisplayName = "Desligada"),
+	};
+
+}
 ```
 
 Arquivo de implementação.
@@ -61,7 +66,7 @@ Arquivo de implementação.
 ```cpp
 // Hero.cpp
 UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
-TEnumAsByte<Status> status;
+  TEnumAsByte < EStatusEnum::Status > status;
 ```
 
 
@@ -234,6 +239,14 @@ Verificando o estado utilizando o `Enum`.
 
 *Figura: Blueprint Lendo Enum.*  
 
+**C++.**
+```cpp
+// Definindo um status no enum.
+status = EStatusEnum::Ligada;
+
+UE_LOG(LogTemp, Warning,TEXT("O enum é = %s"), *UEnum::GetValueAsString(status));
+```
+
 Ligando e desligando utilizando o `Enum`.   
 
 **Blueprint.**
@@ -241,6 +254,21 @@ Ligando e desligando utilizando o `Enum`.
 ![Figura: Blueprint Ligando e desligando usando Enum.](imagens/enum/blueprint_enum_example_lamp_off.jpg "Figura: Blueprint Ligando e desligando usando Enum.")
 
 *Figura: Blueprint Ligando e desligando usando Enum.*
+
+**C++.**
+```cpp
+...
+if (status = EStatusEnum::Ligada) {
+  fIntensidade = 0;
+  bLigado = false;
+  status = EStatusEnum::Desligada;
+}
+else {
+  fIntensidade = 10000;
+  bLigado = true;
+  status = EStatusEnum::Ligada;
+}
+```
 
 <a name="3.2"></a>
 ### 3.2 A pedra e as emoções
