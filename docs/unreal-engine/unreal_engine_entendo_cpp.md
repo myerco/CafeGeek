@@ -21,27 +21,32 @@ Neste capítulo será apresentado o modelo da lógica de programação utilizand
 
 Neste capítulo vamos utilizar a linguagem **C++** para o desenvolvimento.
 
-## 1. Blueprints vs C++
-- Blueprints são mais fáceis de ser lidos e entendidos pelos membros da equipe,
-- C++ evitam sobrecarga de chamadas de função economizando ciclos de CPU.
-- C++ Conseguem acesso a Library math.
-- Sistema de versionamento do C++ utiliza ferramentas como o GIT ou SVN, Blueprints necessita de ferramenta específica.
-- Para projeto em plataformas mobile o recomendado é C++.
+## 1. Unreal e C++
+É possível programar em C++ com Unreal aproveitando todas as funcionalidades que a linguagem fornece. A Engine tem muitos elementos para auxiliar a codificação tornando-a mais fácil.  
 
-## 2. O que é ideal?
-- Depende do problema.
-- Equipes pequenas e projetos pequenos = Blueprints
-- Equipes pequenas com cultura de desenvolvimento e necessidade de processamento = c++
+## 2. Blueprints vs C++
+- Blueprints são mais fáceis de ser lidos e entendidos pelos membros da equipe;
+- C++ evitam sobrecarga de chamadas de função economizando ciclos de CPU;
+- C++ Conseguem acesso a `Library Math`;
+- O sistema de versionamento do **C++** utiliza ferramentas como o GIT ou SVN, quanto a Blueprint necessita de ferramenta específica;
+- Para projetos em plataformas mobile o recomendado é C++.
 
-## 3. Herança do modelo de desenvolvimento
+## 3. O que é ideal?
+- Depende do problema;
+- Para equipes pequenas e projetos pequenos é recomendado Blueprints;
+- Para equipes pequenas com cultura de desenvolvimento e necessidade de processamento é recomendado **C++**.
+
+## 4. O fluxo de desenvolvimento e Herança
 
 | Origem      | Destino       |       |
 |:-           |:-             |:-     |
 |Classe C++   |Blueprints     |Certo  |
 |Blueprints   |Classe C++     | Errado|
 
-## 4. Blueprintable
-Expõe esta classe como uma classe base aceitável para a criação de Blueprints. O padrão é NotBlueprintable, a menos que herdado de outra forma. Isso é herdado por subclasses.
+1. Vamos Criar uma Blueprint *BP_Plataforma* do tipo `static_mesh_actor`;
+1. Depois Criar a classe **C++** `Plataforma` do tipo `AStaticMeshActor`;
+1. Alterar classe pai do *BP_Plataforma* para *Plataforma*.
+
 
 1. Uma breve história sobre Herança.
 
@@ -76,20 +81,13 @@ class Hugo: Pessoa
       int32 Vida #Error  
 ```
 
-1. Tipos de variáveis
+2. Tipos de variáveis
 
 | Blueprint | C++     |
 |:-:        |:-       |
 |integer    |int32    |
 |Vector     |FVector  |
 |String     |FString  |
-
-
-1. Migrando a plataforma
-- Verificando a classe pai do Blueprint **BP_Plataforma** = *static_mesh_actor*.
-1. Criar a classe c++ **Plataforma** do tipo
-*AStaticMeshActor*
-1. Alterara classe pai do **BP_Plataforma** para **Plataforma**
 
 
 
@@ -135,9 +133,11 @@ protected:
 		int ActiveTriggers = 1;
 };
 ```
+
 ## Include
 É uma forma de incluir um arquivo padrão ou definido pelo usuário no programa e é principalmente escrito no início de qualquer programa C / C ++.  
 Esta diretiva é lida pelo pré-processador e ordena que ele insira o conteúdo de um arquivo de cabeçalho do sistema ou definido pelo usuário no programa a seguir. Esses arquivos são importados principalmente de uma fonte externa para o programa atual. O processo de importação de tais arquivos que podem ser definidos pelo sistema ou pelo usuário é conhecido como Inclusão de Arquivo. Este tipo de diretiva de pré-processador diz ao compilador para incluir um arquivo no programa de código-fonte.
+
 ```cpp
 #include "CoreMinimal.h"
 #include "Engine/StaticMeshActor.h"
@@ -228,7 +228,7 @@ int main()
 ```
 
 
-Criando classe c++
+## 1. Criando classe c++
 
 Menu Tools > New C++ Class
 
