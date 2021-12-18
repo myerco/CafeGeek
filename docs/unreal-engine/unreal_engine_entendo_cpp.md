@@ -22,14 +22,23 @@ Neste capítulo será apresentado o modelo da lógica de programação utilizand
 Neste capítulo vamos utilizar a linguagem **C++** para o desenvolvimento.
 
 ## 1. Unreal e C++
-É possível programar em C++ com Unreal aproveitando todas as funcionalidades que a linguagem fornece. A Engine tem muitos elementos para auxiliar a codificação tornando-a mais fácil.  
+É possível programar em C++ com Unreal aproveitando todas as funcionalidades que a linguagem fornece, como por exemplo o gerenciamento otimizado de memória, cabe ressaltar que a Engine fornece muitos elementos para auxiliar a codificação tornando-a mais fácil, entre eles a utilização de macros e objetos primitivos.
+
+A linguagem C++ é originária da linguagem C e por muito tempo foi considerada como algo maior e que engloba a linguagem C, entretanto atualmente devido ao padrão ISO de 1999 tornou as duas linguagens diferentes.
+
+O C++ por ter como base de desenvolvimento o C tem o benefício da rapidez e da portabilidade para diversas plataformas e ainda permite a implementação de classes, tornando a linguagem em uma boa candidata para o desenvolvimento de projetos com necessidade de velocidade acessando recursos de baixo nível e construção de classes.
+
+## 2. Mas quanto usar a linguagem  C++?
+
+A seguir vamos apresentar as diferenças da linguagem visual **Blueprint** e o **C++**.
 
 ## 2. Blueprints vs C++
 - Blueprints são mais fáceis de ser lidos e entendidos pelos membros da equipe;
 - C++ evitam sobrecarga de chamadas de função economizando ciclos de CPU;
 - C++ Conseguem acesso a `Library Math`;
-- O sistema de versionamento do **C++** utiliza ferramentas como o GIT ou SVN, quanto a Blueprint necessita de ferramenta específica;
-- Para projetos em plataformas mobile o recomendado é C++.
+- É possível utilizar um sistema de versionamento como por exemplo o Git ou SVN com **C++**;
+- Blueprints necessitam de ferramenta específica para versionamento;
+- Para projetos em plataformas mobile o recomendado é **C++**.
 
 ## 3. O que é ideal?
 - Depende do problema;
@@ -37,18 +46,24 @@ Neste capítulo vamos utilizar a linguagem **C++** para o desenvolvimento.
 - Para equipes pequenas com cultura de desenvolvimento e necessidade de processamento é recomendado **C++**.
 
 ## 4. O fluxo de desenvolvimento e Herança
+Um modelo de desenvolvimento utilizando C++ pode ser visto abaixo onde primeiro criamos a classe do objeto A em C++ e depois uma classe Blueprint B filha da classe A. Fazendo isso pode-se aproveitar as Características de ambas linguagens, como por exemplo: lógica em C++ e parametrização de componentes visuais usando o Editor Blueprint.  
 
-| Origem      | Destino       |       |
-|:-           |:-             |:-     |
-|Classe C++   |Blueprints     |Certo  |
-|Blueprints   |Classe C++     | Errado|
+Exemplo:
 
 1. Vamos Criar uma Blueprint *BP_Plataforma* do tipo `static_mesh_actor`;
 1. Depois Criar a classe **C++** `Plataforma` do tipo `AStaticMeshActor`;
 1. Alterar classe pai do *BP_Plataforma* para *Plataforma*.
 
 
-1. Uma breve história sobre Herança.
+| Origem      | Destino       |       |
+|:-           |:-             |:-     |
+|Classe C++   |Blueprints     |Certo  |
+|Blueprints   |Classe C++     | Errado|
+
+*Tabela: Representação do desenvolvimento descrito anteriormente.*
+
+
+## 5. Uma breve história sobre Herança.
 
 **C++.**
 
@@ -81,7 +96,7 @@ class Hugo: Pessoa
       int32 Vida #Error  
 ```
 
-2. Tipos de variáveis
+## 6.Tipos de variáveis
 
 | Blueprint | C++     |
 |:-:        |:-       |
@@ -90,6 +105,8 @@ class Hugo: Pessoa
 |String     |FString  |
 
 
+## Exemplo do objeto Plataforma em C++
+Abaixo vamos entender um pouco da sintaxe C++ construindo um objeto chamado plataforma.
 
 ```cpp
 
@@ -97,15 +114,13 @@ class Hugo: Pessoa
 #include "Engine/StaticMeshActor.h"
 #include "Plataforma.generated.h"
 
-/**
- *
- */
 UCLASS(ClassGroup=(Custom),meta=(BlueprintSpawnableComponent) )
 class PROJETOPLATAFORMA_API APlataforma : public AStaticMeshActor
 {
 	GENERATED_BODY()
 
 public:
+  // Construtor da classe
 	APlataforma();
 
 	virtual void Tick(float DeltaTime) override;
@@ -144,16 +159,17 @@ Esta diretiva é lida pelo pré-processador e ordena que ele insira o conteúdo 
 #include "Plataforma.generated.h"
 ```
 ## Encapsulamento
-Public – Quando precede uma lista de membros de classe, o  públic  palavra-chave especifica que esses membros são acessíveis a partir de qualquer função. Isso se aplica a todos os membros declarados até o próximo especificador de acesso ou o fim da classe. Ou seja visível a todos.
+`Public` – Quando precede uma lista de membros de classe, o  públic  palavra-chave especifica que esses membros são acessíveis a partir de qualquer função. Isso se aplica a todos os membros declarados até o próximo especificador de acesso ou o fim da classe. Ou seja visível a todos.
 
-Private – Quando precede uma lista de membros de classe, o private palavra-chave especifica que esses membros são acessíveis somente dentro de funções de membro e amigos da classe.  Isso se aplica a todos os membros declarados até o próximo especificador de acesso ou o fim da classe. Ou seja visível somente para membros dentro da classe.
+`Private` – Quando precede uma lista de membros de classe, o private palavra-chave especifica que esses membros são acessíveis somente dentro de funções de membro e amigos da classe.  Isso se aplica a todos os membros declarados até o próximo especificador de acesso ou o fim da classe. Ou seja visível somente para membros dentro da classe.
 
-Protected – O protected palavra-chave especifica o acesso a membros de classe no lista de membros até o próximo especificador de acesso (pública ou private) ou no final da definição de classe.  O Protected é mistura entre Public e Private ou seja é visível somente para membros da classe e visível para subclasses.
+`Protected` – O protected palavra-chave especifica o acesso a membros de classe no lista de membros até o próximo especificador de acesso (pública ou private) ou no final da definição de classe.  O Protected é mistura entre Public e Private ou seja é visível somente para membros da classe e visível para subclasses.
 
-##  UCLASS
+## Macros
+###  UCLASS
 Você também pode declarar classes C ++ personalizadas, que se comportam como classes UE4, declarando seus objetos C ++ personalizados como UCLASS. UCLASS usa *Smart Pointers* do UE4 e rotinas de gerenciamento de memória para alocação e desalocação de acordo com as regras do Smart Pointer, podem ser carregados e lidos pelo *UE4 Editor* e opcionalmente acessados a partir de Blueprints.
 
-## UFUNCTION
+### UFUNCTION
 Um **UFunction** é uma função C ++ que é reconhecida pelo sistema de reflexão Unreal Engine 4 (UE4). Qualquer **UObject** ou biblioteca de função Blueprint pode declarar uma função de membro como um **UFunction**, colocando a macro UFUNCTION na linha acima da declaração da função no arquivo de cabeçalho. A macro oferecerá suporte a Especificadores de Função para alterar como o UE4 interpreta e usa uma função.
 
 ### UFUNCTION Especificadores
@@ -162,12 +178,10 @@ Ao declarar funções, os especificadores de função podem ser adicionados à d
 UFUNCTION(BlueprintCallable, Category = "Plataforma")
 void RemoveActiveTrigger();
 ```
-- **BlueprintAuthorityOnly** - Esta função só será executada a partir do código Blueprint se for executada em uma máquina com autoridade de rede (um servidor, servidor dedicado ou jogo para um único jogador).
-- **BlueprintCallable** - A função pode ser executada em um gráfico Blueprint ou Level Blueprint.
+- `BlueprintAuthorityOnly` - Esta função só será executada a partir do código Blueprint se for executada em uma máquina com autoridade de rede (um servidor, servidor dedicado ou jogo para um único jogador).
+- `BlueprintCallable` - A função pode ser executada em um gráfico Blueprint ou Level Blueprint.
 
-***
-
-## UPROPERTY
+### UPROPERTY
 As propriedades são declaradas usando a sintaxe de variável C ++ padrão, precedida pela macro UPROPERTY que define metadados de propriedade e especificadores de variável.
 ```cpp
 UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))
@@ -176,17 +190,21 @@ UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))
 
 ### UPROPERTY especificadores
 Ao declarar propriedades, os Especificadores de Propriedade podem ser adicionados à declaração para controlar como a propriedade se comporta com vários aspectos do Motor e do Editor.
-- **BlueprintReadOnly** - Esta propriedade pode ser lida pelo Blueprints, mas não modificada. Este especificador é incompatível com o especificador **BlueprintReadWrite**.
-- **BlueprintReadWrite** - Esta propriedade pode ser lida ou escrita a partir de um Blueprint. Este especificador é incompatível com o especificador **BlueprintReadOnly**.
-- **EditAnywhere** - Indica que esta propriedade pode ser editada por janelas de propriedades, em arquétipos e instâncias. Este especificador é incompatível com qualquer um dos especificadores "visíveis".
-- **MakeEditWidget** - Usado para propriedades *Transform* ou *Rotator*, ou Matrizes de *Transforms* ou *Rotators*. Indica que a propriedade deve ser exposta na janela de visualização como um *widget* móvel.
-***
+- `BlueprintReadOnly` - Esta propriedade pode ser lida pelo Blueprints, mas não modificada. Este especificador é incompatível com o especificador BlueprintReadWrite.
+- `BlueprintReadWrite` - Esta propriedade pode ser lida ou escrita a partir de um Blueprint. Este especificador é incompatível com o especificador BlueprintReadOnly.
+- `EditAnywhere` - Indica que esta propriedade pode ser editada por janelas de propriedades, em arquétipos e instâncias. Este especificador é incompatível com qualquer um dos especificadores "visíveis".
+- `MakeEditWidget` - Usado para propriedades *Transform* ou *Rotator*, ou Matrizes de *Transforms* ou *Rotators*. Indica que a propriedade deve ser exposta na janela de visualização como um *widget* móvel.
+
+
 ## Funções Virtuais - virtual
 Uma função virtual é uma função de membro que é declarada dentro de uma classe base e é redefinida (Substituída) por uma classe derivada. Quando você se refere a um objeto de classe derivada usando um ponteiro ou uma referência à classe base, pode chamar uma função virtual para esse objeto e executar a versão da função da classe derivada.
 
 As funções virtuais garantem que a função correta seja chamada para um objeto, independentemente do tipo de referência (ou ponteiro) usado para a chamada da função.
-Eles são usados principalmente para obter polimorfismo de tempo de execução
+
+Eles são usados principalmente para obter polimorfismo de tempo de execução.
+
 As funções são declaradas com uma palavra-chave virtual na classe base.
+
 A resolução da chamada de função é feita em tempo de execução.
 
 ```c
@@ -318,12 +336,6 @@ void AControlLight::Tick(float DeltaTime)
 
 <a name="1"></a>
 ## 1. O que são *Blueprints* e *Visual Scripting?*
-**[⬆ Volta para o início](#índice)**
-
-
-<a name="5.1"></a>
-### 5.1 Components e a aba My Blueprint
-Para ter acesso aos componentes que estão associados a um determinado objeto utilizamos a aba `My Blueprint`, que é uma representação visual do agrupamento de componentes, funções, variáveis e macros, abaixo um exemplo.
 
 ![Figura: Aba MyBlueprint.](imagens/actor/unreal_engine_myblueprint.jpg "Figura: Aba MyBlueprint")       
 
