@@ -1,5 +1,5 @@
 ---
-title: Entendendo a lógica de programação com C++ com Unreal Engine
+title: Entendendo a lógica de programação com **C++**com Unreal Engine
 description: Neste capítulo será apresentado o modelo da lógica de programação utilizando **C++** com Unreal Engine
 unreal_engine: Unreal Engine 5
 tags: [Unreal Engine,Blueprint]
@@ -23,9 +23,9 @@ Neste capítulo vamos utilizar a linguagem **C++** para o desenvolvimento.
 
 <a name="1"></a>
 ## 1. Unreal e C++
-O C++ por ter como base de desenvolvimento o C tem o benefício da rapidez e da portabilidade para diversas plataformas e ainda permite a implementação de classes, tornando a linguagem em uma boa candidata para o desenvolvimento de projetos com necessidade de velocidade acessando recursos de baixo nível e construção de classes.
+O **C++**por ter como base de desenvolvimento o C tem o benefício da rapidez e da portabilidade para diversas plataformas e ainda permite a implementação de classes, tornando a linguagem em uma boa candidata para o desenvolvimento de projetos com necessidade de velocidade acessando recursos de baixo nível e construção de classes.
 
-O Unreal Egine utiliza a linugagem C++ aproveitando todas as funcionalidades que a linguagem fornece, como por exemplo o gerenciamento otimizado de memória, quanto a implementação a Engine fornece muitos elementos para auxiliar a codificação tornando-a mais fácil, entre eles a utilização de macros e objetos primitivos próprios da Engine.
+O Unreal Egine utiliza a linugagem **C++**aproveitando todas as funcionalidades que a linguagem fornece, como por exemplo o gerenciamento otimizado de memória, quanto a implementação a Engine fornece muitos elementos para auxiliar a codificação tornando-a mais fácil, entre eles a utilização de macros e objetos primitivos próprios da Engine.
 
 **[⬆ Volta para o início](#índice)**
 <a name="2"></a>
@@ -35,8 +35,8 @@ Não há uma resposta definitiva dessa questão mas podemos considerar algumas d
 <a name="2.1"></a>
 ### 2.1 Blueprints vs C++
 - Blueprints são mais fáceis de ser lidos e entendidos pelos membros da equipe;
-- C++ evitam sobrecarga de chamadas de função economizando ciclos de CPU;
-- C++ Conseguem acesso a `Library Math`;
+- **C++**evitam sobrecarga de chamadas de função economizando ciclos de CPU;
+- **C++**Conseguem acesso a `Library Math`;
 - É possível utilizar um sistema de versionamento como por exemplo o Git ou SVN com **C++**;
 - Blueprints necessitam de ferramenta específica para versionamento;
 - Para projetos em plataformas mobile o recomendado é **C++**.
@@ -50,7 +50,7 @@ Não há uma resposta definitiva dessa questão mas podemos considerar algumas d
 **[⬆ Volta para o início](#índice)**
 <a name="3"></a>
 ## 3. O fluxo de desenvolvimento e Herança
-Um modelo de desenvolvimento utilizando C++ pode ser visto abaixo onde primeiro criamos a classe do objeto A em C++ e depois uma classe Blueprint B filha da classe A. Fazendo isso pode-se aproveitar as características de ambas linguagens, como por exemplo: lógica em C++ e parametrização de componentes visuais usando o Editor Blueprint.  
+Um modelo de desenvolvimento utilizando **C++**pode ser visto abaixo onde primeiro criamos a classe do objeto A em **C++**e depois uma classe Blueprint B filha da classe A. Fazendo isso pode-se aproveitar as características de ambas linguagens, como por exemplo: lógica em **C++**e parametrização de componentes visuais usando o Editor Blueprint.  
 
 Exemplo:
 
@@ -120,7 +120,7 @@ A seguir vamos apresentar os tipos de variáveis em ambas as linguagens.
 **[⬆ Volta para o início](#índice)**
 <a name="6"></a>
 ## 6. Construindo classes C++ no Unreal Engine
-A seguir vamos implementar uma classe C++ no Unreal Engine para tal utilizamos o `Menu Tools` > `New C++ Class`
+A seguir vamos implementar uma classe **C++** no Unreal Engine para tal utilizamos o `Menu Tools` > `New C++ Class`
 
 ![Figura: Create Class C++](imagens/cpp/unreal_engine_create_class_cpp.jpg "Figura: Create Class C++")
 
@@ -198,7 +198,7 @@ void AControlLight::Tick(float DeltaTime)
 ```
 <a name="6.2"></a>
 ### 6.2 Exemplo de um arquivo header com variáveis
-Abaixo vamos construir uma classe em C++ chamado plataforma para exemplificar a declaração de variáveis.
+Abaixo vamos construir uma classe em **C++** chamado plataforma para exemplificar a declaração de variáveis.
 
 ```cpp
 
@@ -248,7 +248,7 @@ A seguir vamos apresentar algumas características de linguagem e as macros que 
 
 <a name="7.1"></a>
 ### 7.1 Include
-É uma forma de incluir um arquivo padrão ou definido pelo usuário no programa e é principalmente escrito no início de qualquer programa C / C ++.  
+É uma forma de incluir um arquivo padrão ou definido pelo usuário no programa e é principalmente escrito no início de qualquer programa **C / C ++**.  
 Esta diretiva é lida pelo pré-processador e ordena que ele insira o conteúdo de um arquivo de cabeçalho do sistema ou definido pelo usuário no programa a seguir. Esses arquivos são importados principalmente de uma fonte externa para o programa atual. O processo de importação de tais arquivos que podem ser definidos pelo sistema ou pelo usuário é conhecido como Inclusão de Arquivo. Este tipo de diretiva de pré-processador diz ao compilador para incluir um arquivo no programa de código-fonte.
 
 Exemplo:
@@ -264,15 +264,15 @@ O Unreal Engine faz uso extensivo de macros de pré-processador, e algumas dessa
 
 <a name="7.2"></a>
 ### 7.2 Encapsulamento
-`Public` – Quando precede uma lista de membros de classe, o  *public*  palavra-chave especifica que esses membros são acessíveis a partir de qualquer função. Isso se aplica a todos os membros declarados até o próximo especificador de acesso ou o fim da classe. Ou seja visível a todos.
+`Public` – Quando precede uma lista de membros de classe, o  *Public*  palavra-chave especifica que esses membros são acessíveis a partir de qualquer função. Isso se aplica a todos os membros declarados até o próximo especificador de acesso ou o fim da classe. Ou seja visível a todos.
 
-`Private` – Quando precede uma lista de membros de classe, o *private* palavra-chave especifica que esses membros são acessíveis somente dentro de funções de membro e amigos da classe.  Isso se aplica a todos os membros declarados até o próximo especificador de acesso ou o fim da classe. Ou seja visível somente para membros dentro da classe.
+`Private` – Quando precede uma lista de membros de classe, o *Private* palavra-chave especifica que esses membros são acessíveis somente dentro de funções de membro e amigos da classe.  Isso se aplica a todos os membros declarados até o próximo especificador de acesso ou o fim da classe. Ou seja visível somente para membros dentro da classe.
 
 `Protected` – O *Protected* palavra-chave especifica o acesso a membros de classe no lista de membros até o próximo especificador de acesso (pública ou private) ou no final da definição de classe.  O *Protected* é mistura entre *Public* e *Private* ou seja é visível somente para membros da classe e visível para subclasses.
 
 <a name="7.3"></a>
 ###  7.3 UCLASS
-Você também pode declarar classes C ++ personalizadas, que se comportam como classes UE4, declarando seus objetos C ++ personalizados como UCLASS. UCLASS usa *Smart Pointers* do UE4 e rotinas de gerenciamento de memória para alocação e desalocação de acordo com as regras do Smart Pointer, podem ser carregados e lidos pelo *UE4 Editor* e opcionalmente acessados a partir de Blueprints.
+Você também pode declarar classes C ++ personalizadas, que se comportam como classes UE4, declarando seus objetos C ++ personalizados como UCLASS. UCLASS usa [Smart Pointers](https://docs.microsoft.com/pt-br/cpp/cpp/smart-pointers-modern-cpp?view=msvc-170 "Ponteiros inteligentes (C++ moderno)") do UE4 e rotinas de gerenciamento de memória para alocação e desalocação de acordo com as regras do Smart Pointer, podem ser carregados e lidos pelo *UE4 Editor* e opcionalmente acessados a partir de Blueprints.
 
 Exemplo:
 
