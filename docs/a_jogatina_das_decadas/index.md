@@ -20,7 +20,7 @@ A história dos jogos na sociedade e seus diferentes tipos e evolução. Conheç
 1. [Analisando os tipos de jogos](analisando_tipos_de_jogos.html)
 1. [Jogos Eletrônicos](jogos_eletronicos.html)
 1. [Analisando os conceitos por detrás dos jogos](#1.1)
-1. [Por que jogamos?](#2)    
+1. [Por que jogamos?](mundo_player.html)    
     1. [Analisando e definindo tipos de jogadores](#2)
 1. [Jogos Eletrônicos](#1)
     1. [Analisando e defininfo os tipos de jogadores](#1)
