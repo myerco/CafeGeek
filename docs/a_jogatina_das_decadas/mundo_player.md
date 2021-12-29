@@ -7,9 +7,9 @@ layout: page
 
 ## 1. O jogador
 
-![http://www.marketingegames.com.br/](https://lh3.googleusercontent.com/proxy/45SklBBKj6WikbLu_CxMNP8Oz6lyrv0jgjOGuKDvcelT__2TgOjsXf_9igr8m-5PEqcQTj0RwuyG8yshO3642K7odUS7PP29CeEn8-HCTrEX-gPIB0h1nlZGd-MSYSzCrkVMiXvLN8njfjY3vKWzYmeCEOFp3B7fMMtvqIgASYa51GOXU3TbudEw_woRwDz1EYdJF5v2fRlFPzHIq2R2fQ "http://www.marketingegames.com.br/")
+![https://online.lovetoknow.com/wiki/](https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp "Top 5 Most Popular Online Games for Women")
 
-*Figura: http://www.marketingegames.com.br/*
+*Figura: Top 5 Most Popular Online Games for Women*
 
 “Conhecer o que o jogador quer e a situação que o mercado se apresenta são informações que apenas darão suporte ao design em criar um jogo que na verdade deve possuir, por meio de referências acadêmicas, os elementos que provoquem o desejo, a compra, a diversão e o entretenimento, que são consequências.”
 
@@ -56,19 +56,34 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
 #### Sociabilizar-se*
 ![/www.techtudo.com.br](https://s2.glbimg.com/Ajwl8JcF1B1ozCPrhSOI5OgYAa8=/0x0:695x269/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/C/x/E4BtaXTB2iJc5FTjVOUg/2014-04-23-wow-raid.jpg "World of Warcraft: conheça AddOns importantes antes de entrar na raide")
 
-- Reconhecimento
-- Aprendizado
-- Marca
+#### Reconhecimento
+![List of Medals available in Call of Duty: Mobile](https://www.touchtapplay.com/wp-content/uploads/2020/12/image-19.png "List of Medals available in Call of Duty: Mobile")
+
+#### Aprendizado
+![https://myplinkit.com](https://myplinkit.com/wp-content/uploads/2020/03/Activities-and-Games_iStock-1127260590_cropped.jpg "Activities + Games You Can Do at Home to Support Your Child’s Learning")
+
+#### Marca
+![https://medium.com](https://miro.medium.com/max/825/1*M6VI8_01A-At7Nzp2wn6IA.png "Top 20 Game Studios: Who’s Your Favorite?")
 
 ### 3.2 Fatores não motivacionais
+![www.tecmundo.com.br/](https://tm.ibxk.com.br/2021/08/09/09131221401170.jpg "Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S")
+
 Estão ligados na avaliação da mensagem que está sendo transmitida.
 - Comunicação visual
 - Comunicação auditiva e sensorial
-- Respostas sensoriais
-  - Gráficos
-  - Som
-  - Música
-  - Efeitos especiais
-- Jogabilidade
-- Cognição
-- Coordenação
+
+#### Respostas sensoriais
+- Gráficos
+![tecnoblog.net](https://files.tecnoblog.net/wp-content/uploads/2020/08/dez-dicas-para-dominar-horizon-zero-dawn005.png "10 dicas para dominar Horizon Zero Dawn")
+- Som       
+![www.techtudo.com.br](https://s2.glbimg.com/WZEsU9OtfinBadWtEwruyHlueBg=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/C/o/4CJ1NPR2u4MTx3BMyY2A/journey-como-jogar-amigo.jpg "Como jogar Journey com um amigo? Confira dicas e tudo sobre o game")
+- Música        
+[![Life Is Strange Soundtrack - To All Of You By Syd Matters](http://img.youtube.com/vi/LnG6icGIm0o/0.jpg)](https://www.youtube.com/watch?v=LnG6icGIm0o "Life Is Strange Soundtrack - To All Of You By Syd Matters")
+- Efeitos especiais
+
+#### Jogabilidade
+![www.techspot.com](https://static.techspot.com/articles-info/2366/images/2021-11-17-image-2-j.webp "It Takes Two")
+#### Cognição
+![www.techtudo.com.br](https://s2.glbimg.com/ys4yzHh8-bS88Kc2mwhuQdW3An0=/0x0:695x393/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/N/K/ray9GLT9GUmH5n4aqwAw/2015-08-21-the-witcher-3-geralt-lutando.jpg "Confira os requisitos de The Witcher 3 e como deixar mais leve no PC")
+#### Coordenação
+![rollingstone.uol.com.br](https://rollingstone.uol.com.br/media/_versions/guitar_hero_reproducao_widelg.jpg "Guitar Hero: 15 clássicos do game que você provavelmente tocou muito")
