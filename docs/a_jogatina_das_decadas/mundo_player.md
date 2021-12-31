@@ -87,3 +87,8 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 ![www.techtudo.com.br](https://s2.glbimg.com/ys4yzHh8-bS88Kc2mwhuQdW3An0=/0x0:695x393/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/N/K/ray9GLT9GUmH5n4aqwAw/2015-08-21-the-witcher-3-geralt-lutando.jpg "Confira os requisitos de The Witcher 3 e como deixar mais leve no PC")
 #### Coordenação
 ![rollingstone.uol.com.br](https://rollingstone.uol.com.br/media/_versions/guitar_hero_reproducao_widelg.jpg "Guitar Hero: 15 clássicos do game que você provavelmente tocou muito")
+
+
+## Referências
+- [25 Video Games That Could Make You Smarter](https://www.raisesmartkid.com/6-to-10-years-old/5-articles/57-what-video-games-are-good-for-the-brain)
+- [Guitar Hero: 15 clássicos do game que você provavelmente tocou muito](https://rollingstone.uol.com.br/noticia/guitar-hero-15-classicos-do-game-que-voce-provavelmente-tocou-muito/)
