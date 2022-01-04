@@ -16,13 +16,15 @@ layout: page
 6.2  [O jogo e a Guerra](#1.6.2)        
 6.3  [O jogo e a Direito](#1.6.3)    
 6.4  [O jogo e a Linguagem](#1.6.4)        
-7.    [Algumas considerações sobre o jogo](#1.7)            
+7.    [Algumas considerações sobre o jogo](#1.7)   
+
 ## Capítulo II - O jogador
 1. [O jogador](#2.1)
 1. [O que é jogar?](#2.2)
 1. [Por que jogar?](#2.3)
     1. [Fatores motivacionais](#2.3.1)
-    1. [Fatores não motivacionais](#2.3.2)    
+    1. [Fatores não motivacionais](#2.3.2)  
+
 ## Capítulo III - Classificação
 1. [Como são classificados os jogos?](#3.1)
 1. [Tabuleiro](#3.2)
@@ -30,6 +32,7 @@ layout: page
 1. [Atléticos](#3.4)
 1. [Infantis](#3.5)
 1. [Eletrônicos](#3.6)
+
 ## Capítulo IV - O Jogo Eletrônico
 1. [O que é um jogo eletrônico?](#4.1)
 1. [Características dos jogos Eletrônicos](#4.2)
