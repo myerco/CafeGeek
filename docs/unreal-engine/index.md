@@ -7,7 +7,7 @@ layout: page
 ---
 
 ## Capítulo I - O Unreal Engine e sua lógica de programação
-1. [Introdução o desenvolvimento de jogos utilziando unrel Engine](unreal_engine_introducao_desenvolvimento_jogos.html)
+1. [Introdução o desenvolvimento de jogos utilizando Unreal Engine](unreal_engine_introducao_desenvolvimento_jogos.html)
 1. [Como instalar o Unreal Engine?](unreal_engine_como_instalar_o_unreal_engine.html)
 1. [Organizando pastas e logo do projeto](unreal_engine_organizando_pastas_e_logo.html)
 1. [Controle de versão com GitHub](unreal_engine_controle_de_versao_com_github.html)
