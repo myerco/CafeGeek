@@ -43,6 +43,7 @@ layout: page
 1. [Evolução dos jogos eletrônicos](#4.7)
 1. [Era dos Videogames](#4.8)
 
+## Capítulo I - O que é um Jogo?
 <a name="1.1"></a>
 ## 1. Introdução
 
@@ -167,6 +168,7 @@ O autor apresenta as suas interpretações de elementos presentes na nossa socie
 
 Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como por exemplo economia, relacionamentos, comunicação e outros, mas com uma nova roupagem denominadae "Gamificação" que estudaremos nos próximos capítulos.
 
+## Capítulo II - O jogador
 <a name="2.1"></a>
 ## 1. O jogador
 ![https://online.lovetoknow.com/wiki/](https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp "Top 5 Most Popular Online Games for Women")
@@ -252,6 +254,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 #### Coordenação
 ![rollingstone.uol.com.br](https://rollingstone.uol.com.br/media/_versions/guitar_hero_reproducao_widelg.jpg "Guitar Hero: 15 clássicos do game que você provavelmente tocou muito")
 
+## Capítulo III - Classificação
 <a name="3.1"></a>
 ## 1 Como são classificados os jogos?
 
@@ -294,6 +297,7 @@ Brincadeiras físicas e mentais com visões educacionais, cujo objetivo é socia
 ![USP imagens](https://imagens.usp.br/wp-content/uploads/games_pedrobolle_uspimagens_001.jpg  "Jogos Eletrônicos")
 Trabalham com reflexos, coordenação e cognição.
 
+## Capítulo IV - O Jogo Eletrônico
 <a name="4.1"></a>
 ## 1. O que é um jogo eletrônico?
 > O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pessoa, mas ninguém pode mudá-la. Uma coisa que não muda com o tempo é a memória dos dias mais jovens.
