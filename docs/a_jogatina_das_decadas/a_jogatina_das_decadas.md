@@ -40,10 +40,13 @@ A história dos jogos na sociedade e seus diferentes tipos, entenda o que são j
 1. [Características dos jogos Eletrônicos](#4.2)
 1. [Tipos de jogos Eletrônicos](#4.3)
 1. [O mercado de jogos eletrônicos](#4.4)
-1. [Complexidade](#4.5)
-1. [Jogos mobile](#4.6)
-1. [Evolução dos jogos eletrônicos](#4.7)
-1. [Era dos Videogames](#4.8)
+1. [O custo de produção](#4.5)
+1. [Complexidade](#4.6)
+1. [Jogos mobile](#4.7)
+1. [Evolução dos jogos eletrônicos](#4.8)
+1. [Era dos Videogames](#4.9)
+
+***
 
 ## Capítulo I - O que é um Jogo?
 <a name="1.1"></a>
@@ -545,7 +548,8 @@ Jogos da Terceira Geração:
 - Mario, Super mario bros 1985, 6,5 MILHÕES DE CÓPIAS VENDIDAS;
 - FINAL FANTASY III - 1990 - Sistema de classes;
 - MICHAEL JACKSON’S MOONWALKER - 1990;
-  https://www.youtube.com/watch?v=FBmy9c-Ag7E
+
+![https://pt.wikipedia.org/wiki/Tetris](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Emacs_Tetris_vector_based_detail.svg/300px-Emacs_Tetris_vector_based_detail.svg.png "Tetris")  
 
 ### 4. Quarta geração (1991 - 1999)
  A quarta geração consolidou de vez a era dos 16 bits, com a evolução da Nintendo com o Super Nintendo e da SEGA com o Mega drive. Exemplos como  Super Mario World, Bomberman, The King of Fighters e Mortal Kombat foram uns dos clássicos mais vendidos da época. Os dois últimos são eternizados como grandes jogos de lutas, o mortal kombat caracterizado pela sua gráfica de violências e sangues e o KOF caracterizado pelas suas partidas em trios.
@@ -570,22 +574,32 @@ Jogos da Terceira Geração:
 - Killer Instinct;
 - Starcraft;
 
+![https://en.wikipedia.org/wiki/Tomb_Raider:_The_Last_Revelation](https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Tomb_Raider_-_The_Last_Revelation.png/220px-Tomb_Raider_-_The_Last_Revelation.png "Tomb_Raider_-_The_Last_Revelation")
+
 ### 5. Quinta Geração (2000 - Hoje)
 A quinta geração estabeleceu a era dos 32 bits e posteriormente com o 64 bits, fazendo a todos passarem 24 horas jogando com os amigos no multiplayer local o excelente FPS e um dos pioneiros do gênero, 007 Goldeneye do Nintendo 64. Também foi o início da consolidação dos portáteis como o game boy, também da Nintendo. Posteriormente com as inevitáveis evoluções da geração, conhecemos também os consoles da SEGA Dreamcast,  SONY PlayStations 1,2,3 e 4, da Microsoft Xbox, 360 e One e também a grande popularidade e avanços gráficos dos games para PC que existem até a atualidade.
 Alguns exemplos de jogos dessas gerações são 007 Goldeneye, Super Mário 64, Mario Kart, Counter Strike, LOL, Metal Gear Solid, God Of War, Grand Theft Auto, The Last of US  e Red Dead Redemption.
+
+![https://www.comboinfinito.com.br/principal/the-last-of-us-part-2-fas-lamentam-que-o-game-nao-tenha-sido-lancado-hoje/](https://www.comboinfinito.com.br/principal/wp-content/uploads/2020/02/The-Last-of-Us-Part-2-1-790x444.jpg)
 
 <a name="4.9"></a>
 ## 9. Era dos Videogames
 #### Nintendo
 A Nintendo, tradicional e inovadora, começou nos arcades (fliperamas) e estreou em 1983 com o console de mesa NES. Em sequência fez o SNES, o Nintendo 64, o GameCube, o Wii , o Wii U e por último o Nintendo Switch.Líder do mercado de portáteis com Game Boy, em seguida Game Boy Color, Game Boy Advance e o console portátil mais vendido da história, o tão conhecido Nintendo DS, no inicio de 2011 lançou o seu novo portátil Nintendo 3DS, que traz um inovador sistema de jogos 3D.Lançou o Wii com uma inovadora jogabilidade com o controle Wiimote, que fez com que ela voltasse a ser a líder do mercado. Na E3 2011 a Nintendo mostrou seu mais novo console, o Wii U, sucessor do Wii, lançado em 18 de Novembro de 2012. O poder gráfico do novo console é superior ao dos consoles de sétima geração.
 
+![https://gamerview.com.br/artigos/top-10-videogames-nintendo](https://gamerview.com.br/wp-content/uploads/2021/09/Top-10-Nintendo-DS.jpg.webp "Nintendo DS")
+
 #### Sony
 A Sony é líder do mercado de videogames domésticos (com o seu PlayStation 2). Estreou em 1994 com o PlayStation, em 2000 lançou o console doméstico mais vendido da história, o PlayStation 2 e em 2006 lançou o PlayStation 3.Em 2005 lançou seu primeiro console portátil, o PSP, e no quarto trimestre de 2011 lançou o PlayStation Vita, continuação da sua linha de portáteis.No início de 2013 anunciou o novo console da empresa, o PlayStation 4, console da oitava geração, que foi lançado no dia 15 de Novembro de 2013 na América do Norte.
+
+![https://tecnoblog.net/sobre/sony/playstation-5/](https://files.tecnoblog.net/wp-content/uploads/2020/11/playstation_5_produto-700x700.png "PS5")
 
 #### Microsoft
 A Microsoft é uma empresa gigante de software e hardware. Estreou-se no mercado dos consoles em 2001 com o Xbox. Em 2005 deu início a sétima geração com o Xbox 360, e em 2013 lançou o seu console da oitava geração: Xbox One, lançado dia 22 de Novembro de 2013.
 
 A empresa tem um departamento dedicado ao desenvolvimento de jogos, a Microsoft Games Studios, onde são feitos os jogos das séries Age of Empires, Fable, Dungeon Siege, Halo, Supreme Commander, Forza Motorsport, Microsoft Flight Simulator, entre outros.
+
+![https://www.xbox.com/pt-BR/consoles](https://compass-ssl.xbox.com/assets/03/8b/038bfc7b-2ebf-4e7f-bd41-c76c8e6d2b8b.jpg?n=10202018_Image-1084_Fam_1920x944.jpg "Xbox XS")
 
 #### Jogos de consoles (Xbox, PS)
 - The Last Of Us (PS3, PS4)

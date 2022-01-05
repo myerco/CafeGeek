@@ -15,5 +15,4 @@ A história dos jogos na sociedade e seus diferentes tipos, entenda o que são j
 
 ***
 
-## Índice
-1. [A jogatina das décadas](o_que_e_jogo.html)
+[A jogatina das décadas](a_jogatina_das_decadas.html)
