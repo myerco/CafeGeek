@@ -10,18 +10,14 @@ layout: home
 </p>
 
 ## Desenvolvimento de jogos
-
-- Mecânica
-  - [Unreal Engine ](unreal-engine/index.html)    
-  - [Computação Gráfica](computacao-grafica/index.html)   
-  - [Autodesk Maya](autodesk-maya/index.html)   
-- Emoção  
-  - [A jogatina das décadas](a_jogatina_das_decadas/a_jogatina_das_decadas.html)     
-  - [Me conta uma história](me_conte_uma_historia/index.html)   
-- Dinâmica  
-  - [Porque eu amo Game Design](porque_eu_amo_game_design/index.html)   
-- Produção
-  - [Trabalhos](trabalhos/index.html)
+- [O Desenvolvimento de jogos](a_jogatina_das_decadas/a_jogatina_das_decadas.html)
+- [Unreal Engines](unreal-engine/index.html)    
+- [Computação Gráfica](computacao-grafica/index.html)   
+- [Autodesk Maya](autodesk-maya/index.html)   
+- [A jogatina das décadas](a_jogatina_das_decadas/a_jogatina_das_decadas.html)     
+- [Me conta uma história](me_conte_uma_historia/index.html)   
+- [Porque eu amo Game Design](porque_eu_amo_game_design/index.html)   
+- [Trabalhos](trabalhos/index.html)
 
 ## Programação em C++
 - [Estrutura da linguagem](cpp/index.html)  
