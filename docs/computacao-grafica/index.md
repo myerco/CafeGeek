@@ -1,4 +1,4 @@
-- ---
+---
 title: Computação Gráfica com Unreal Engine e Autodesk Maya
 description: Computação Gráfica com Unreal Engine e Autodesk Maya
 tags: [Unreal Engine,Rendering,Maya,computação gráfica]
