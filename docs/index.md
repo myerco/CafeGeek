@@ -10,7 +10,6 @@ layout: home
 </p>
 
 ## Desenvolvimento de jogos
-- [Sobre o desenvolvimento de jogos](a_jogatina_das_decadas/a_jogatina_das_decadas.html)
 - [Desenvolvimento de jogos utilizando Unreal Engine - C++ e Blueprint](unreal-engine/index.html)    
 - [Computação Gráfica com Unreal Engine e Autodesk Maya](computacao-grafica/index.html)   
 - [Modelagem usando Autodesk Maya](autodesk-maya/index.html)   

@@ -25,7 +25,20 @@ A história dos jogos na sociedade e seus diferentes tipos, entenda o que são j
 1. [O que é jogar?](#2.2)
 1. [Por que jogar?](#2.3)
     1. [Fatores motivacionais](#2.3.1)
+        1. [Exploração](#2.3.1.1)
+        1. [Fantasia](#2.3.1.2)
+        1. [Quebrar as regras sociais](#2.3.1.3)
+        1. [Exercitar-se](#2.3.1.4)                        
+        1. [Demonstrar-se](#2.3.1.5)        
+        1. [Sociabilizar-se](#2.3.1.6)        
+        1. [Reconhecimento](#2.3.1.7)        
+        1. [Aprendizado](#2.3.1.8)        
+        1. [Marca](#2.3.1.9)                
     1. [Fatores não motivacionais](#2.3.2)  
+        1. [Respostas sensoriais](#2.3.1.1)
+        1. [Jogabilidade](#2.3.1.1)
+        1. [Cognição](#2.3.1.1)
+        1. [Coordenação](#2.3.1.1)                            
 
 ## Capítulo III - Classificação
 1. [Como são classificados os jogos?](#3.1)
@@ -220,32 +233,40 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 ### 3.1 Fatores motivacionais
 Estão diretamente ligados ao desejo do jogadora sua construção social, leitura, cinema, arte e televisão.
 
-#### Exploração.
+<a name="2.3.1.1"></a>
+#### 3.1.1 Exploração.
 ![wallpaperflare.com Star Trek](https://c4.wallpaperflare.com/wallpaper/73/158/467/star-trek-wallpaper-preview.jpg "wallpaperflare.com Star Trek")
 
-
-#### Fantasia.
+<a name="2.3.1.2"></a>
+#### 3.1.2 Fantasia.
 ![Final Fantasy VII Remake – Como Traduzir o Jogo para Português](https://361605-1208129-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2021/12/Final-Fantasy-7-Remake-Intergrade-PS5-Wallpapers-10.jpg "Final Fantasy VII Remake – Como Traduzir o Jogo para Português")
 
-#### Quebrar as regras sociais*.
+<a name="2.3.1.3"></a>
+#### 3.1.3 Quebrar as regras sociais.
 ![/www.arkade.com.br](https://www.arkade.com.br/wp-content/uploads/2020/08/gta-v.jpg "GTA V retorna ao Xbox Game Pass, mas agora com suporte ao xCloud")
 
-#### Exercitar-se.
+<a name="2.3.1.4"></a>
+#### 3.1.4 Exercitar-se.
 ![Just Dance 2022](https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3Vu9VvXvEXI0krA0UE0gIK/4fe4d0ea69a2d1c4254ecda81737ca4e/jd22-promo-02-china.jpg "Just Dance 2022")
 
-#### Demonstrar-se.
+<a name="2.3.1.5"></a>
+#### 3.1.5 Demonstrar-se.
 ![The Gamer](https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/04/Demon-Hunter-Tier-20-Cropped.jpg?q=50&fit=crop&w=740&dpr=1.5 "10 Most Epic Tier Sets In World Of Warcraft")
 
-#### Sociabilizar-se*.
+<a name="2.3.1.6"></a>
+#### 3.1.6 Sociabilizar-se*.
 ![/www.techtudo.com.br](https://s2.glbimg.com/Ajwl8JcF1B1ozCPrhSOI5OgYAa8=/0x0:695x269/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/C/x/E4BtaXTB2iJc5FTjVOUg/2014-04-23-wow-raid.jpg "World of Warcraft: conheça AddOns importantes antes de entrar na raide")
 
-#### Reconhecimento.
+<a name="2.3.1.7"></a>
+#### 3.1.7 Reconhecimento.
 ![List of Medals available in Call of Duty: Mobile](https://www.touchtapplay.com/wp-content/uploads/2020/12/image-19.png "List of Medals available in Call of Duty: Mobile")
 
-#### Aprendizado.
+<a name="2.3.1.8"></a>
+#### 3.1.8 Aprendizado.
 ![https://myplinkit.com](https://myplinkit.com/wp-content/uploads/2020/03/Activities-and-Games_iStock-1127260590_cropped.jpg "Activities + Games You Can Do at Home to Support Your Child’s Learning")
 
-#### Marca.
+<a name="2.3.1.9"></a>
+#### 3.1.9 Marca.
 ![https://medium.com](https://miro.medium.com/max/825/1*M6VI8_01A-At7Nzp2wn6IA.png "Top 20 Game Studios: Who’s Your Favorite?")
 
 <a name="2.3.2"></a>
@@ -258,7 +279,8 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 - Comunicação visual;
 - Comunicação auditiva e sensorial.
 
-#### Respostas sensoriais.
+<a name="2.3.2.1"></a>
+#### 3.2.1 Respostas sensoriais.
 - Gráficos.      
   ![tecnoblog.net](https://files.tecnoblog.net/wp-content/uploads/2020/08/dez-dicas-para-dominar-horizon-zero-dawn005.png "10 dicas para dominar Horizon Zero Dawn")
 
@@ -271,13 +293,16 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 - Efeitos especiais.        
   ![10 Best Lighting and Particle Effects We Saw In 2011](https://gamingbolt.com/wp-content/gallery/10-best-particle-and-lighting-effects-we-saw-in-2011/assassins-creed-revelations.jpg "Assassin's Creed: Revelations")
 
-#### Jogabilidades
+<a name="2.3.2.2"></a>
+#### 3.2.2 Jogabilidade
 ![www.techspot.com](https://static.techspot.com/articles-info/2366/images/2021-11-17-image-2-j.webp "It Takes Two")
 
-#### Cognição
+<a name="2.3.2.3"></a>
+#### 3.2.3 Cognição
 ![www.techtudo.com.br](https://s2.glbimg.com/ys4yzHh8-bS88Kc2mwhuQdW3An0=/0x0:695x393/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/N/K/ray9GLT9GUmH5n4aqwAw/2015-08-21-the-witcher-3-geralt-lutando.jpg "Confira os requisitos de The Witcher 3 e como deixar mais leve no PC")
 
-#### Coordenação
+<a name="2.3.2.3"></a>
+#### 3.2.3 Coordenação
 ![rollingstone.uol.com.br](https://rollingstone.uol.com.br/media/_versions/guitar_hero_reproducao_widelg.jpg "Guitar Hero: 15 clássicos do game que você provavelmente tocou muito")
 
 ***
