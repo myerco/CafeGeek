@@ -16,7 +16,7 @@ layout: home
   - [Computação Gráfica](computacao-grafica/index.html)   
   - [Autodesk Maya](autodesk-maya/index.html)   
 - Emoção  
-  - [A jogatina das décadas](a_jogatina_das_decadas/index.html)     
+  - [A jogatina das décadas](a_jogatina_das_decadas/a_jogatina_das_decadas.html)     
   - [Me conta uma história](me_conte_uma_historia/index.html)   
 - Dinâmica  
   - [Porque eu amo Game Design](porque_eu_amo_game_design/index.html)   

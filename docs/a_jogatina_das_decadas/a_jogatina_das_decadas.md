@@ -1,9 +1,11 @@
 ---
-title: O que é jogo
-description: O que é um jogo e o seu papel na sociedade
+title: A Jogatina das décadas
+description: A história dos jogos na sociedade e seus diferentes tipos, entenda o que são jogos eletrônicos e suas características.
 tags: [narrativa, Roteirização, jogos digitais]
 layout: page
 ---
+
+A história dos jogos na sociedade e seus diferentes tipos, entenda o que são jogos eletrônicos e suas características.
 
 ## Capítulo I - O que é um Jogo?
 1. [Introdução](#1.1)
@@ -18,7 +20,7 @@ layout: page
 6.4  [O jogo e a Linguagem](#1.6.4)        
 7.    [Algumas considerações sobre o jogo](#1.7)   
 
-## Capítulo II - O jogador
+## Capítulo II - Quem Joga?
 1. [O jogador](#2.1)
 1. [O que é jogar?](#2.2)
 1. [Por que jogar?](#2.3)
@@ -61,9 +63,16 @@ que esta, visto poder servir para designar grande número de animais. Mas existe
 tanto na vida humana como na animal, e é tão importante como o raciocínio e o fabrico de objetos: o jogo. Creio
 que, depois de *Homo faber* e talvez ao mesmo nível de *Homo sapiens*, a expressão *Homo ludens* merece um lugar em
 nossa nomenclatura."
-[[1](#r1)]
+
 
 > Latim “Ludus”, “Ludere” que designava os jogos infantis.
+
+### Habilidades que serão aprendidas
+- Analise e conceitue jogos;    
+- Analise e defina tipos de jogos;    
+- Analise e defina os tipos de jogadores;      
+- Conheça o mercado de jogos digitais;    
+- Implemente um protótipo de jogo;  
 
 <a name="1.2"></a>
 ## 2. O que é um jogo?
@@ -163,12 +172,15 @@ A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo
 ## 7. Algumas considerações sobre o jogo
 ![The Thinker](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Mus%C3%A9e_Rodin_1.jpg/220px-Mus%C3%A9e_Rodin_1.jpg "The Thinker")
 
-O autor apresenta as suas interpretações de elementos presentes na nossa sociedade e os caracteriza como jogo na sua definição, devemos lembrar que o HUIZINGA utiliza a define jogo na Perspectiva do jogador e extrai classificações do objeto em estudo dentro de um tempo e realidade por conseguinte devemos considerar os seguintes aspectos:
+O autor apresenta as suas interpretações de elementos presentes na nossa sociedade e os caracteriza como jogo na sua definição, devemos lembrar que o HUIZINGA utiliza e define jogo na Perspectiva do jogador e extrai classificações do objeto em estudo dentro de um tempo e realidade por conseguinte devemos considerar os seguintes aspectos:
 - Não deveríamos considerar  a justiça como um jogo de ganhar e perder pois isso não melhora as grandes diferenças sociais na nossa sociedade.
 
-Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como por exemplo economia, relacionamentos, comunicação e outros, mas com uma nova roupagem denominadae "Gamificação" que estudaremos nos próximos capítulos.
+Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como por exemplo economia, relacionamentos, comunicação e outros, mas com uma nova roupagem denominada "Gamificação" que estudaremos nos próximos capítulos.
 
-## Capítulo II - O jogador
+
+***
+
+## Capítulo II - Quem joga?
 <a name="2.1"></a>
 ## 1. O jogador
 ![https://online.lovetoknow.com/wiki/](https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp "Top 5 Most Popular Online Games for Women")
@@ -205,58 +217,71 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 ### 3.1 Fatores motivacionais
 Estão diretamente ligados ao desejo do jogadora sua construção social, leitura, cinema, arte e televisão.
 
-#### Exploração
+#### Exploração.
 ![wallpaperflare.com Star Trek](https://c4.wallpaperflare.com/wallpaper/73/158/467/star-trek-wallpaper-preview.jpg "wallpaperflare.com Star Trek")
 
-#### Fantasia
+
+#### Fantasia.
 ![Final Fantasy VII Remake – Como Traduzir o Jogo para Português](https://361605-1208129-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2021/12/Final-Fantasy-7-Remake-Intergrade-PS5-Wallpapers-10.jpg "Final Fantasy VII Remake – Como Traduzir o Jogo para Português")
 
-#### Quebrar as regras sociais*
+#### Quebrar as regras sociais*.
 ![/www.arkade.com.br](https://www.arkade.com.br/wp-content/uploads/2020/08/gta-v.jpg "GTA V retorna ao Xbox Game Pass, mas agora com suporte ao xCloud")
 
-#### Exercitar-se
+#### Exercitar-se.
 ![Just Dance 2022](https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3Vu9VvXvEXI0krA0UE0gIK/4fe4d0ea69a2d1c4254ecda81737ca4e/jd22-promo-02-china.jpg "Just Dance 2022")
-#### Demonstrar-se
+
+#### Demonstrar-se.
 ![The Gamer](https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/04/Demon-Hunter-Tier-20-Cropped.jpg?q=50&fit=crop&w=740&dpr=1.5 "10 Most Epic Tier Sets In World Of Warcraft")
-#### Sociabilizar-se*
+
+#### Sociabilizar-se*.
 ![/www.techtudo.com.br](https://s2.glbimg.com/Ajwl8JcF1B1ozCPrhSOI5OgYAa8=/0x0:695x269/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/C/x/E4BtaXTB2iJc5FTjVOUg/2014-04-23-wow-raid.jpg "World of Warcraft: conheça AddOns importantes antes de entrar na raide")
 
-#### Reconhecimento
+#### Reconhecimento.
 ![List of Medals available in Call of Duty: Mobile](https://www.touchtapplay.com/wp-content/uploads/2020/12/image-19.png "List of Medals available in Call of Duty: Mobile")
 
-#### Aprendizado
+#### Aprendizado.
 ![https://myplinkit.com](https://myplinkit.com/wp-content/uploads/2020/03/Activities-and-Games_iStock-1127260590_cropped.jpg "Activities + Games You Can Do at Home to Support Your Child’s Learning")
 
-#### Marca
+#### Marca.
 ![https://medium.com](https://miro.medium.com/max/825/1*M6VI8_01A-At7Nzp2wn6IA.png "Top 20 Game Studios: Who’s Your Favorite?")
 
 <a name="2.3.2"></a>
 ### 3.2 Fatores não motivacionais
 ![www.tecmundo.com.br/](https://tm.ibxk.com.br/2021/08/09/09131221401170.jpg "Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S")
 
+*Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S*
+
 Estão ligados na avaliação da mensagem que está sendo transmitida.
-- Comunicação visual
-- Comunicação auditiva e sensorial
+- Comunicação visual;
+- Comunicação auditiva e sensorial.
 
-#### Respostas sensoriais
-- Gráficos      
+#### Respostas sensoriais.
+- Gráficos.      
   ![tecnoblog.net](https://files.tecnoblog.net/wp-content/uploads/2020/08/dez-dicas-para-dominar-horizon-zero-dawn005.png "10 dicas para dominar Horizon Zero Dawn")
-- Som       
-  ![www.techtudo.com.br](https://s2.glbimg.com/WZEsU9OtfinBadWtEwruyHlueBg=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/C/o/4CJ1NPR2u4MTx3BMyY2A/journey-como-jogar-amigo.jpg "Como jogar Journey com um amigo? Confira dicas e tudo sobre o game")
-- Música        
-  [![Life Is Strange Soundtrack - To All Of You By Syd Matters](http://img.youtube.com/vi/LnG6icGIm0o/0.jpg)](https://www.youtube.com/watch?v=LnG6icGIm0o "Life Is Strange Soundtrack - To All Of You By Syd Matters")
-- Efeitos especiais
 
-#### Jogabilidade
+- Som.       
+  ![www.techtudo.com.br](https://s2.glbimg.com/WZEsU9OtfinBadWtEwruyHlueBg=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/C/o/4CJ1NPR2u4MTx3BMyY2A/journey-como-jogar-amigo.jpg "Como jogar Journey com um amigo? Confira dicas e tudo sobre o game")
+
+- Música.        
+  [![Life Is Strange Soundtrack - To All Of You By Syd Matters](http://img.youtube.com/vi/LnG6icGIm0o/0.jpg)](https://www.youtube.com/watch?v=LnG6icGIm0o "Life Is Strange Soundtrack - To All Of You By Syd Matters")
+
+- Efeitos especiais.        
+  ![10 Best Lighting and Particle Effects We Saw In 2011](https://gamingbolt.com/wp-content/gallery/10-best-particle-and-lighting-effects-we-saw-in-2011/assassins-creed-revelations.jpg "Assassin's Creed: Revelations")
+
+#### Jogabilidades
 ![www.techspot.com](https://static.techspot.com/articles-info/2366/images/2021-11-17-image-2-j.webp "It Takes Two")
+
 #### Cognição
 ![www.techtudo.com.br](https://s2.glbimg.com/ys4yzHh8-bS88Kc2mwhuQdW3An0=/0x0:695x393/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/N/K/ray9GLT9GUmH5n4aqwAw/2015-08-21-the-witcher-3-geralt-lutando.jpg "Confira os requisitos de The Witcher 3 e como deixar mais leve no PC")
+
 #### Coordenação
 ![rollingstone.uol.com.br](https://rollingstone.uol.com.br/media/_versions/guitar_hero_reproducao_widelg.jpg "Guitar Hero: 15 clássicos do game que você provavelmente tocou muito")
 
+***
+
 ## Capítulo III - Classificação
 <a name="3.1"></a>
-## 1 Como são classificados os jogos?
+## 1. Como são classificados os jogos?
 
 > Guerra... A guerra nunca muda.
 >
@@ -269,10 +294,12 @@ Podemos classificar os jogos para determinar ou mostrar a sua função dentro de
 ![History](https://assets.historyplay.tv/br/public/styles/wide/public/images/2020/05/28/senet_-_jogo_-_egito_-_mortos_-_comunicacao_-_history_channel_brasil.jpg "Senet, o jogo de tabuleiro que os egípcios usavam para se comunicar com os mortos ")
 
 Consistem em uma superfície dividida em setores com peças móveis.
+
+![Infoescola](https://www.infoescola.com/wp-content/uploads/2008/03/xadrez_255260497-1000x664.jpg "Xadrez")
+
 - 2600 a.C. Mesopotâmia
 - 3600 a.C Egito
 
-![Infoescola](https://www.infoescola.com/wp-content/uploads/2008/03/xadrez_255260497-1000x664.jpg "Xadrez")
 
 <a name="3.3"></a>
 ## 3. Cartas
@@ -297,6 +324,8 @@ Brincadeiras físicas e mentais com visões educacionais, cujo objetivo é socia
 ![USP imagens](https://imagens.usp.br/wp-content/uploads/games_pedrobolle_uspimagens_001.jpg  "Jogos Eletrônicos")
 Trabalham com reflexos, coordenação e cognição.
 
+***
+
 ## Capítulo IV - O Jogo Eletrônico
 <a name="4.1"></a>
 ## 1. O que é um jogo eletrônico?
@@ -308,33 +337,33 @@ Trabalham com reflexos, coordenação e cognição.
 
 “Representar um jogo depende não somente do entendimento conceitual da atividade, mas também da inclusão de elementos comuns que fazem do jogo algo especial.”
 
-*Representação de jogo eletrônico*
+*Representação de jogo eletrônico.*
 
 Sistema formal fechado que subjetivamente representa uma extensão da realidade.
 
 <a name="4.2"></a>
 ## 2. Características dos jogos Eletrônicos
-#### Foco
+#### Foco.
 ![Top Games Free](http://1.bp.blogspot.com/-amcIuWezKHM/VA3vWLcYvXI/AAAAAAAABwE/DXI1Tn6rDsI/s1600/002.jpg "F22 Raptor")
 
 Capacidade do jogador de se concentrar nos objetivos e ações principais.
 
-#### Interatividade
+#### Interatividade.
 ![Brasil Academicos](http://2.bp.blogspot.com/_cM2l6Y3Ulgg/Sfi6LBnLGoI/AAAAAAAABqo/dWz5kQT2qpg/s1600/sangueCorrompido.jpg "Praga no jogo World of Warcraft ajuda a entender pandemia")
 
 Capacidade dos jogadores realizarem ações participativas nos jogos.
 
-#### Conflito
+#### Conflito.
 ![comboinfinito](https://www.comboinfinito.com.br/principal/wp-content/uploads/2014/05/far-cry-4-historia.jpg "Detalhes da história de Far Cry 4 surgem no site da Ubisoft")
 
 São elementos importantes que geram oportunidades aos jogadores e trazem consigo a essência do jogo, como medo, responsabilidade e interatividade.
 
-#### Segurança
+#### Segurança.
 ![Microsoft Xbox](https://news.xbox.com/pt-br/wp-content/uploads/sites/8/2021/11/Hellblade_-Senuas-Sacrifice-2021-08-04-01-00-58.jpg "Hellblade: Senua’s Sacrifice recebe aprimoramento para o PC")
 
 Envolve aplicar características de realidade como morte, ferimentos, quedas e acidentes de forma lúdica, porém responsável.
 
-#### Desafio
+#### Desafio.
 ![JogaZera](https://jogazera.com.br/wp-content/uploads/2014/03/Dark-Souls-2-Review-770x433.jpg "Review – Dark Souls 2")  
 
 Regras definem o grau de desafio (Fácil, Médio, Difícil, Muito Difícil e Impossível).
@@ -372,45 +401,76 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 <a name="4.4"></a>
 ## 4. O mercado de jogos eletrônicos
 
-> A Sombra
+> A Sombra,
 >
 > Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou três dias desenvolvendo o jogo e acabou ganhando cerca de US $ 50 mil por dia em receita através de sua publicidade no jogo.”
+
+![Sengece.ce](https://sengece.org.br/wp-content/uploads/2016/12/flappy-bird1.jpg "Flappy Bird")
 
 <a name="4.5"></a>
 ## 5. O custo de produção
 #### 2009
-- Call of Duty: Modern Warfare 2 - $200 million
-- Star Wars: Clone Wars: Jedi Alliance - $15 million
-- Left 4 Dead 2 - $25 million (marketing)
+![https://pt.wikipedia.org/wiki/Call_of_Duty:_Modern_Warfare_2](https://upload.wikimedia.org/wikipedia/pt/d/db/Modern_Warfare_2_cover.PNG "Call of Duty: Modern Warfare 2")
+
+- Call of Duty: Modern Warfare 2 - $200 million;
+- Star Wars: Clone Wars: Jedi Alliance - $15 million;
+- Left 4 Dead 2 - $25 million (marketing).
 
 #### 2010
-- God of War III - $44 million
+![https://br.ign.com/god-of-war-iii-remastered/5744/review/review-god-of-war-3-remastered](https://sm.ign.com/t/ign_br/review/g/god-of-war/god-of-war-3-remastered-review_ecmu.1024.jpg "God of War III Remastered")
+
+- God of War III - $44 million.
+
 #### 2011
-- Battlefield 3 - $2.75 million (Facebook marketing)
-- Dead Space 2 - $5-10 million (marketing)
-- Homefront - $50 million
+![https://jovemnerd.com.br/nerdbunker/battlefield-3-de-graca-pc/](https://uploads.jovemnerd.com.br/wp-content/uploads/2020/12/battlefield-3-de-graca-pc.jpg "Battlefield 3")
+
+- Battlefield 3 - $2.75 million (Facebook marketing);
+- Dead Space 2 - $5-10 million (marketing);
+- Homefront - $50 million.
+
+
 #### 2012
-- Ghost Recon: Future Soldier - €50 million
+![https://www.ubisoft.com/pt-br/game/ghost-recon/future-soldier#39Ol19xBe9jHOV3HmYkl8K](https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5jf0OVAu11cRMSmAX1P2yQ/0fbef4bc9eb901fd7b12aa0b79f32724/-GRFS-_Screenshot_-_6.jpg "Ghost Recon Future Soldier")
+- Ghost Recon: Future Soldier - €50 million.
+
 #### 2013
-- Disney Infinity - $100 million
+![https://www.techtudo.com.br/review/disney-infinity.ghtml](https://s2.glbimg.com/5Zw6bFIK4an2e4c22X98N6f3jMw=/0x0:300x200/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/c/T/ETBWDpSKidhOOZ9d8ZXQ/glbimg.com-po-tt-f-300x200-2013-10-18-cover-large.jpg "Disney Infinity")
+
+- Disney Infinity - $100 million.
+
 #### 2014
-- Destiny - $140 million
-- Watch Dogs - $68 million
+![https://pt.wikipedia.org/wiki/Destiny_(jogo_eletr%C3%B4nico)](https://upload.wikimedia.org/wikipedia/pt/b/be/Destiny_box_art.png "Destiny")
+
+- Destiny - $140 million;
+- Watch Dogs - $68 million.
 
 <a name="4.6"></a>
 ## 6. Complexidade
+A seguir será apresentado quando custa estimatavemente produzir um jogo digital.
+
 - Mini Games - $3K to $20K
-- Ping-pong e Pac-man clones
+  - Ping-pong e Pac-man clones
 - Simple 2D Casual Games -  $20K to $60K
-- Red Ball, Stack
+  - Red Ball, Stack
 - Mid-level Mobile Games - $60K to $120K
-- Angry Birds
+  - Angry Birds
 - High-level Mobile Games - $120K to $250K
-- Angry Birds series
+  - Angry Birds series
 - AAA Games -?
+
+[List of most expensive video games to develop](https://en.wikipedia.org/wiki/List_of_most_expensive_video_games_to_develop)
 
 <a name="4.7"></a>
 ## 7.Jogos mobile
+
+![gamesindustry.biz](https://cdn.gamer-network.net/2019/articles/2019-12-11-12-55/ab.jpg/EG11/resize/646x-1/quality/80/format/jpg "How Angry Birds broke the limits for mobile games")
+
+São jogos para plataformas móveis como por exemplo celulares ou outros dispositivos móveis.
+
+>Em 2021, os jogos para celular representavam quase 50% da receita mundial de videogames, e as coisas não parecem diminuir tão cedo.
+>
+>As taxas de penetração de celulares e o uso de smartphones para jogos continuam a disparar em escala global. Como resultado, as tendências da indústria de jogos preveem que a receita dos jogos para celular ultrapasse a marca de 100 bilhões de dólares até 2023. [1](https://techjury.net/blog/gaming-industry-worth/)
+
 #### Monetização
 Processo de ganhar dinheiro com seu jogo de celular.
 - Google play - 90% da receita vieram por meio de anúncios e compras nos jogos
@@ -450,7 +510,7 @@ Além disso, muitos jogos para dispositivos móveis combinam e combinam estraté
 
 <a name="4.8"></a>
 ## 8. Evolução dos jogos eletrônicos
-1. Primeira geração (1971-1977) - Jogo Pong, desenvolvido pela ATARI, consiste em um jogo onde simula uma partida de ping pong.
+### 1. Primeira geração (1971-1977)
 A linha começa em 1972, com o Odyssey Magnavox, em sua versão conhecida como "Brown Box". O engenheiro americano Ralph Baer desenhou o protótipo em meados de 1966, mas só em 1971 ele foi licenciado para a Magnavox e lançado no ano seguinte.
 
 Tal como os poucos arcades que já existiam, era um aparelho de extrema simplicidade: sem som, sem cor, para simular a cor de ambientes e texturas, como uma pista ou um gramado, era preciso colocar uma folha de acetato colorida sobre a tela da TV. Mais tarde, com a versão "Pong", foi introduzido áudio.
@@ -466,47 +526,52 @@ O Coleco Telstar foi outro destaque da primeira geração, produzido entre 1976 
 - O som é gerado em forma de ondas quadradas, contendo um ou nenhum canal independente.
 - Ausência de conteúdos da segunda geração como: a lógica dos microprocessadores, cartuchos de ROM, tela dividida para janelas e cada jogador, tecnologia de sprites, mais de um canal independente de som, e mais cores na tela.
 
+- Jogo Pong, desenvolvido pela ATARI, consiste em um jogo onde simula uma partida de ping pong.
+
+![https://www.techtudo.com.br/noticias/2016/03/conheca-pong-o-primeiro-videogame-lucrativo-da-historia.ghtml](https://s2.glbimg.com/hmam5dqwykVbv8_R0ly4dDtaZG8=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/J/Q/QSQBQYTuWJL9U9qJKc9Q/2016-03-02-pong.jpg "Pong")
+
+### 2. Segunda geração (1978 - 1983)
+Geração onde os consoles apresentavam processadores de 4 a 8 bit. Os jogos do ATARI são os mais populares dessa época, como exemplo o Popeye e Pacman.
+
+![https://www.cnnbrasil.com.br/entretenimento/pac-man-completa-40-anos-e-criador-revela-origem-do-icone-dos-videogames/](https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/5363_7D66C7F21A0BD4A2.jpg?w=876&h=484&crop=1 "Pac-Man")
 
 
-2. Segunda geração (1978 - 1983) - Geração onde os consoles apresentavam processadores de 4 a 8 bit. Os jogos do ATARI são os mais populares dessa época, como exemplo o Popeye e Pacman.
-
-
-3. Terceira geração (1984 - 1990) - Geração onde teve a estreia do clássico NES (Nintendo Entertainment System) da nintendo e também o Master System da SEGA, conseguindo chegar em algumas produções de jogos em 16 bits. Exemplos de jogos de destaques dessa geração são o Sonic e Super Mário Bros. 1, 2 e 3, esses últimos que deram início ao mundo extraordinário de fases de aventuras e plataformas do mascote da Nintendo.
+### 3. Terceira geração (1984 - 1990)
+Geração onde teve a estreia do clássico NES (Nintendo Entertainment System) da nintendo e também o Master System da SEGA, conseguindo chegar em algumas produções de jogos em 16 bits. Exemplos de jogos de destaques dessa geração são o Sonic e Super Mário Bros. 1, 2 e 3, esses últimos que deram início ao mundo extraordinário de fases de aventuras e plataformas do mascote da Nintendo.
 
 Jogos da Terceira Geração:
-- Tetris
-- Lançado em 1984
-- Pentaminó
-- super mario bros 1985
-  https://www.youtube.com/watch?v=wGX4obVl64w
-- Legend of Zelda 1986
-- LINK, Mario, Super mario bros 1985
-- 6,5 MILHÕES DE CÓPIAS VENDIDAS
-- FINAL FANTASY III - 1990 - Sistema de classes
-- MICHAEL JACKSON’S MOONWALKER - 1990
+- Tetris - Lançado em 1984, Pentamino;
+- Legend of Zelda 1986,  - LINK;
+- Mario, Super mario bros 1985, 6,5 MILHÕES DE CÓPIAS VENDIDAS;
+- FINAL FANTASY III - 1990 - Sistema de classes;
+- MICHAEL JACKSON’S MOONWALKER - 1990;
   https://www.youtube.com/watch?v=FBmy9c-Ag7E
 
-4. Quarta geração (1991 - 1999) - A quarta geração consolidou de vez a era dos 16 bits, com a evolução da Nintendo com o Super Nintendo e da SEGA com o Mega drive. Exemplos como  Super Mario World, Bomberman, The King of Fighters e Mortal Kombat foram uns dos clássicos mais vendidos da época. Os dois últimos são eternizados como grandes jogos de lutas, o mortal kombat caracterizado pela sua gráfica de violências e sangues e o KOF caracterizado pelas suas partidas em trios.
-- Mega Drive
-- Neo Geo
-- Super Nintendo
-- Super Mario World
-- Street Fighter II
-- Final Fantasy VII
-- Sonic the Hedgehog
-- Donkey Kong Country
-- Mortal Kombat
-- Resident Evil
-- Doom (1993)
-- The legend of Zelda:Ocarina of Time
-- Super Mario 64
-- Crash Bandicoot
-- Diablo
-- Tomb Raider
-- Killer Instinct
-- Starcraft
+### 4. Quarta geração (1991 - 1999)
+ A quarta geração consolidou de vez a era dos 16 bits, com a evolução da Nintendo com o Super Nintendo e da SEGA com o Mega drive. Exemplos como  Super Mario World, Bomberman, The King of Fighters e Mortal Kombat foram uns dos clássicos mais vendidos da época. Os dois últimos são eternizados como grandes jogos de lutas, o mortal kombat caracterizado pela sua gráfica de violências e sangues e o KOF caracterizado pelas suas partidas em trios.
 
-5. Quinta Geração (2000 - Hoje) - A quinta geração estabeleceu a era dos 32 bits e posteriormente com o 64 bits, fazendo a todos passarem 24 horas jogando com os amigos no multiplayer local o excelente FPS e um dos pioneiros do gênero, 007 Goldeneye do Nintendo 64. Também foi o início da consolidação dos portáteis como o game boy, também da Nintendo. Posteriormente com as inevitáveis evoluções da geração, conhecemos também os consoles da SEGA Dreamcast,  SONY PlayStations 1,2,3 e 4, da Microsoft Xbox, 360 e One e também a grande popularidade e avanços gráficos dos games para PC que existem até a atualidade.
+ Jogos da quarta Geração:
+- Mega Drive;
+- Neo Geo;
+- Super Nintendo;
+- Super Mario World;
+- Street Fighter II;
+- Final Fantasy VII;
+- Sonic the Hedgehog;
+- Donkey Kong Country;
+- Mortal Kombat;
+- Resident Evil;
+- Doom (1993);
+- The legend of Zelda:Ocarina of Time;
+- Super Mario 64;
+- Crash Bandicoot;
+- Diablo;
+- Tomb Raider;
+- Killer Instinct;
+- Starcraft;
+
+### 5. Quinta Geração (2000 - Hoje)
+A quinta geração estabeleceu a era dos 32 bits e posteriormente com o 64 bits, fazendo a todos passarem 24 horas jogando com os amigos no multiplayer local o excelente FPS e um dos pioneiros do gênero, 007 Goldeneye do Nintendo 64. Também foi o início da consolidação dos portáteis como o game boy, também da Nintendo. Posteriormente com as inevitáveis evoluções da geração, conhecemos também os consoles da SEGA Dreamcast,  SONY PlayStations 1,2,3 e 4, da Microsoft Xbox, 360 e One e também a grande popularidade e avanços gráficos dos games para PC que existem até a atualidade.
 Alguns exemplos de jogos dessas gerações são 007 Goldeneye, Super Mário 64, Mario Kart, Counter Strike, LOL, Metal Gear Solid, God Of War, Grand Theft Auto, The Last of US  e Red Dead Redemption.
 
 <a name="4.9"></a>
@@ -545,43 +610,36 @@ Os HDs ficaram maiores, as memórias se tornaram mais poderosas, as placas de so
 O que antes seria a plataforma perfeita apenas para FPS, RTS e Adventures, tornou-se a plataforma mais versátil e poderosa do mercado.
 
 Principais jogos/Franquias:
-- Atuais
-- Dota 2
-- Point Blank
-- Fortnite
-- Playerunknown's Battlegrounds
-- H1Z1
-- Paladins
-- Grand Theft Auto V
-- Tom Clancy's Rainbow Six Siege
+- Dota 2;
+- Point Blank;
+- Fortnite;
+- Playerunknown's Battlegrounds;
+- H1Z1;
+- Paladins;
+- Grand Theft Auto V;
+- Tom Clancy's Rainbow Six Siege.
 
 Menções honrosas:
-- GTA
-- Civilization
-- Age of empires
-- The elder scrolls
-- Assassin’s creed
-- Portal
+- GTA;
+- Civilization;
+- Age of Empires;
+- The Elder Scrolls;
+- Assassin’s creed;
+- Portal;
 
-Jogos para celular:
-- Snake e o primeiro grande sucesso - Em 1998, a Nokia lançou modelos que chegavam  com três jogos pré-instalados: Memory, Snake e Logic.
+#### Jogos para celular
+Snake e o primeiro grande sucesso - Em 1998, a Nokia lançou modelos que chegavam  com três jogos pré-instalados: Memory, Snake e Logic.
 
 O famoso "jogo da cobrinha" foi um sucesso gigantesco.
 
 Nova era com o Java...
 
-Nokia não conseguiu sobreviver à chegada dos primeiro celulares com suporte ao Java (J2ME).
-
-Até mesmo pessoas comuns – com algum talento – poderiam programar seus próprios jogos e instalar no celular.
-
-Mas naquela época os games ainda não tinham muita ação, limitando-se a títulos no estilo "bichinhos virtuais" ou aventuras em texto.
+Nokia não conseguiu sobreviver à chegada dos primeiro celulares com suporte ao Java (J2ME), até mesmo pessoas comuns – com algum talento – poderiam programar seus próprios jogos e instalar no celular. Mas naquela época os games ainda não tinham muita ação, limitando-se a títulos no estilo "bichinhos virtuais" ou aventuras em texto.
 
 
 Nasce a Gameloft...
 
-Várias empresas começavam a surgir.
-
-Uma delas é a Gameloft, companhia criada pelos irmãos Guillemot – os mesmos fundadores da Ubisoft –, que buscavam emplacar com novos títulos para celulares.
+Várias empresas começavam a surgir, uma delas é a Gameloft, companhia criada pelos irmãos Guillemot – os mesmos fundadores da Ubisoft –, que buscavam emplacar com novos títulos para celulares.
 
 A partir de 2002 a empresa já criava seus próprios games, apresentando uma evolução consistente nos próximos lançamentos.
 
@@ -592,20 +650,16 @@ Com a evolução dos celulares, os jogos puderam experimentar um salto gigantesc
 Foi entre os anos 2007 e 2009 que vimos os primeiros aparelhos com tela colorida a aparecer no mercado, além dos primeiro games com cenários 3D a chegarem nesses dispositivos.
 
 A iniciativa do Symbian
+
 A Nokia deu início ao projeto envolvendo o Symbian, um sistema operacional que pavimentou o caminho para o surgimento dos primeiros smartphones.
 Apesar de ter feito pouco sucesso, esse dispositivo mostrou que a ideia de criar um aparelho com capacidades para jogos era essencial.
 O iPhone 3GS e o iPhone 4, por exemplo, eram tidos como excelentes plataformas para jogos. Foi no iPhone 3GS que surgiu o famoso Andry Birds.
 
-iOS e Android
 
-Realidade aumentada…
-
-6. Devido às ideias das características,  gameplay e motores gráficos discutidos e estabelecidos pelo grupo, concluímos que o nosso jogo “Killer Hotel” pode se encaixar na quinta geração.
 
 
 ***
 ## Referências
-<a name="r3"></a>
 - HUIZINGA, Johan. Homo Ludens. Edição 4º. São Paulo: Editora Perspectiva, 2000.
 - [Jogo](https://pt.wikipedia.org/wiki/Jogo)
 - [25 Video Games That Could Make You Smarter](https://www.raisesmartkid.com/6-to-10-years-old/5-articles/57-what-video-games-are-good-for-the-brain)
