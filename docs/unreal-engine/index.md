@@ -19,6 +19,7 @@ layout: page
 1. [Manipulando Arrays](unreal_engine_manipulando_array.html)  
 1. [Enums](unreal_engine_enum.html)    
 
+***
 ### Capítulo II - Atores e movimentação
 1. [Atores ou Actors](actor_atores.html)
 1. [Estruturando a lógica utilizando Eventos, funções e macros](estruturando_logica_utilizando_eventos_funcoes_macros.html)  
@@ -26,6 +27,7 @@ layout: page
 1. [Comunicação entre Blueprints](comunicacao_entre_blueprint.html)    
 1. [Delta time e sistema de coordenadas](deltatime_sistema_coordenadas.html)
 
+***
 ### Capítulo III - Estruturas de dados e Interface com usuário
 1. [Variáveis estruturadas ou Structure](structure_variaveis_estruturadas.html)  
 1. [Tabelas de dados ou Data tables - ](data_tables.html)
@@ -33,6 +35,7 @@ layout: page
 1. [Implementando a Interface com o jogador](unreal_engine_hud_interface.html)
 1. [Lógica de programação dos objetos da interface](unreal_engine_hud_logica.html)
 
+***
 ###  Capítulo IV - Materiais e Landscape
 1. [Introdução aos Materiais](unreal_engine_material_introducao_aos_materiais.html)
 1. [Construindo Materiais e entendo a lógica](unreal_engine_material_construindo_materiais_entendendo_a_logica.html)
@@ -41,6 +44,7 @@ layout: page
 1. [Iluminação](iluminacao.html)
 1. [Landscape](landscape.html)  
 
+***
 ### Capítulo V - Animação de personagens       
 1. [Introdução a animação de personagens](unreal_engine_animacao_introducao.html)
 1. [Preparando o projeto](unreal_engine_animacao_preparando_o_projeto.html)
@@ -49,13 +53,16 @@ layout: page
 1. [Aim Offset](unreal_engine_animacao_aim_offset.html)
 1. [Animação 2D](unreal_engine_animacao2d.html)
 
+***
 ### Capítulo VI - Inteligência Artificial
 1. [Inteligência Artificial](inteligenciaartificial.html)
 
+***
 ### Capítulo VII - Multiplayer em C++            
 1. [Multiplayer](multiplayer.html)
 1. [Convertendo para c++](convertendo_blueprint_para_c++.html)    
 
+***
 ### Capítulo VIII - Efeitos especiais
 1. [Sequencer](sequencer.html)
 1. [Niagara](niagara.html)
