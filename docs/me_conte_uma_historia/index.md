@@ -9,17 +9,17 @@ Narrativa de jogos e construção de personagens. Construa sua narrativa, o temp
 ---
 
 ## Capitulo I -  Por dentro da cabeça do Game Design
-1. [Introdução](#1.1)
-1. [Características pessoais](#1.1)    
-1. [Elementos de construção de um jogo](#1.2)    
-1. [A equipe](#1.3)
-1. [Tarefas](#1.4)
-1. [Limitações](#1.5)
-1. [Onde nascem as ideias?](#1.6)
-1. [Cultivando ideias](#1.7)
-1. [O que torna a ideia interessante é](#1.8)
-1. [O que nos inspira?](#1.9)
-1. [Hábito](#1.10)
+1. [Introdução](#1.1 "Introdução")
+1. [Características pessoais](#1.1 "Características pessoais")    
+1. [Elementos de construção de um jogo](#1.2 "Elementos de construção de um jogo")    
+1. [A equipe](#1.3 "A equipe")
+1. [Tarefas](#1.4 "Tarefas")
+1. [Limitações](#1.5 "Limitações")
+1. [Onde nascem as ideias?](#1.6 "Onde nascem as ideias?")
+1. [Cultivando ideias](#1.7 "Cultivando ideias")
+1. [O que torna a ideia interessante é](#1.8 "O que torna a ideia interessante é")
+1. [O que nos inspira?](#1.9 "O que nos inspira?")
+1. [Hábito](#1.10 "Hábito")
 
 ***
 ## Capitulo II - Os personagens
