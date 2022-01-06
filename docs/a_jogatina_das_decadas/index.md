@@ -20,6 +20,7 @@ A história dos jogos na sociedade e seus diferentes tipos, entenda o que são j
 6.4  [O jogo e a Linguagem](#1.6.4)        
 7.    [Algumas considerações sobre o jogo](#1.7)   
 
+***
 ### Capítulo II - Quem Joga?
 1. [O jogador](#2.1)
 1. [O que é jogar?](#2.2)
@@ -40,6 +41,7 @@ A história dos jogos na sociedade e seus diferentes tipos, entenda o que são j
         1. [Cognição](#2.3.1.1)
         1. [Coordenação](#2.3.1.1)                            
 
+***
 ### Capítulo III - Classificação
 1. [Como são classificados os jogos?](#3.1)
 1. [Tabuleiro](#3.2)
@@ -48,6 +50,7 @@ A história dos jogos na sociedade e seus diferentes tipos, entenda o que são j
 1. [Infantis](#3.5)
 1. [Eletrônicos](#3.6)
 
+***
 ### Capítulo IV - O Jogo Eletrônico
 1. [O que é um jogo eletrônico?](#4.1)
 1. [Características dos jogos Eletrônicos](#4.2)
@@ -63,7 +66,7 @@ A história dos jogos na sociedade e seus diferentes tipos, entenda o que são j
 
 ### Capítulo I - O que é um Jogo?
 <a name="1.1"></a>
-## 1. Introdução
+### 1. Introdução
 
 > "Life is a Game"
 >
@@ -83,7 +86,7 @@ nossa nomenclatura."
 
 > Latim “Ludus”, “Ludere” que designava os jogos infantis.
 
-### Habilidades que serão aprendidas
+#### Habilidades que serão aprendidas
 - Analise e conceitue jogos;    
 - Analise e defina tipos de jogos;    
 - Analise e defina os tipos de jogadores;      
@@ -91,7 +94,7 @@ nossa nomenclatura."
 - Implemente um protótipo de jogo;  
 
 <a name="1.2"></a>
-## 2. O que é um jogo?
+### 2. O que é um jogo?
 ![Wikipédia](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Wikipedia-logo-v2-pt.svg/203px-Wikipedia-logo-v2-pt.svg.png "Wikipédia")
 
 Segundo a Wikipédia jogo é toda e qualquer atividade em que exista a figura do jogador (como indivíduo praticante) e regras que podem ser para ambiente restrito ou livre.
@@ -115,7 +118,7 @@ Características comuns de um jogo.
 - Conjunto de procedimentos e estratégias para atingir determinado fim;
 
 <a name="1.3"></a>
-## 3. Homo Ludens
+### 3. Homo Ludens
 
 ![Homo Ludens](https://lh5.googleusercontent.com/lhkxvSwpipDBpORFf3hiJba3QDOz-r4BuiGr_qoyiw4lya7Pkq5pldq2YnbZOk8euovs8XQBQ2QX8PZKdLfJl9yt6OqlZbiKhhvoCScvVqbq9vRuQI7oa1VWrJuMWmDWJRrNQHL2ZQ)
 
@@ -130,7 +133,7 @@ Walter Benjamin (1984)
 oposição aos animais, de maneira quase tão absoluta quanto o *homo sapiens*".
 
 <a name="1.4"></a>
-## 4. A Tensão como um elemento do jogo
+### 4. A Tensão como um elemento do jogo
 ![jovemnerd](https://uploads.jovemnerd.com.br/wp-content/uploads/2021/04/alien-isolation-gratis.jpg "Alien: Isolation e Hand of Fate 2 estão de graça na Epic Games Store")
 
 Tensão significa incerteza, acaso. Há um esforço para levar o jogo até ao desenlace, o jogador quer que
@@ -139,7 +142,7 @@ um brinquedo, um gatinho brincando com um novelo, uma garotinha jogando bola, to
 alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como se costuma dizer.
 
 <a name="1.5"></a>
-## 5. A função do jogo?
+### 5. A função do jogo?
 ![Last of us II](https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-ii-screen-03-ps4-us-05dec16?$2400px$ "Last of us II")
 
 A função do jogo, nas formas mais elevadas que aqui nos interessam, pode de maneira geral ser definida pelos dois aspectos fundamentais que nele encontramos:
