@@ -66,6 +66,7 @@ layout: page
     1. [O comando Stat RHI](#4.4.2)
     1. [O comando Stat unit e Stat FPS](#4.4.3)
     1. [Considerações](#4.4.4)
+
 ***
 
 ## Capítulo I - A computação gráfica
@@ -103,6 +104,7 @@ Conceitos de computação gráfica aplicados na prática usando o Unreal Engine 
 - Como são formados os objetos em gráficos 3D.
 - Processo de renderização no Unreal Engine.
 
+***
 
 ## Capítulo II - Como são formados os objetos 3D
 
@@ -843,7 +845,7 @@ stat unit
 - [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
 - [Unreal’s Rendering Passes](https://unrealartoptimization.github.io/book/profiling/passes/)
 - [Measuring Performance](https://unrealartoptimization.github.io/book/process/measuring-performance/)
-- [Understanding Culling Methods | Live Training | Inside Unreal](https://youtu.be/6WtE3CoFMXU)
+- [Understanding Culling Methods - Live Training - Inside Unreal](https://youtu.be/6WtE3CoFMXU)
 - [how unreal renders a frame](https://interplayoflight.wordpress.com/2017/10/25/how-unreal-renders-a-frame/)
 - [Real-Time Rendering Fundamentals](https://www.unrealengine.com/en-US/onlinelearning-courses/real-time-rendering-fundamentals)
 - [How Unreal Renders a Frame](https://interplayoflight.wordpress.com/2017/10/25/how-unreal-renders-a-frame/)
