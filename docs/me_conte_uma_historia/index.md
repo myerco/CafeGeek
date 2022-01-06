@@ -8,7 +8,7 @@ Narrativa de jogos e construção de personagens. Construa sua narrativa, o temp
 
 ---
 
-### Capitulo I -  Por dentro da cabeça do Game Design
+## Capitulo I -  Por dentro da cabeça do Game Design
 1. [Introdução](#1.1)
 1. [Características pessoais](#1.1)    
 1. [Elementos de construção de um jogo](#1.2)    
@@ -22,7 +22,7 @@ Narrativa de jogos e construção de personagens. Construa sua narrativa, o temp
 1. [Hábito](#1.10)
 
 ***
-### Capitulo II - Os personagens
+## Capitulo II - Os personagens
 1. [A jornada do Herói](#2.1)
 1. [Personalidade](#2.2)
 1. [Motivação](#2.3)
@@ -34,7 +34,7 @@ Narrativa de jogos e construção de personagens. Construa sua narrativa, o temp
 1. [NPC- Personagens não jogáveis](#2.9)
 
 ***
-### Capitulo III - Eles todos me querem morto
+## Capitulo III - Eles todos me querem morto
 1. [Tipos de conflito](#3.1)
 1. [Forma segue a função](#3.2)
 1. [Lutar com inimigos deve ser divertido](#3.3)
@@ -44,15 +44,15 @@ Narrativa de jogos e construção de personagens. Construa sua narrativa, o temp
 1. [BOSS](#3.7)
 
 ***
-### Capitulo I -  Por dentro da cabeça do Game Design
+## Capitulo I -  Por dentro da cabeça do Game Design
 <a name="1.1"></a>
-### 1. Introdução
+## 1. Introdução
 Construção da narrativa, definição do tempo, representação do mundo, definição do personagens, os objetivos e os
 capítulos da história.
 
 Apresentar conhecimentos necessários para construção de narrativas e suas peculiaridades.
 
-#### Habilidades que serão aprendidas  
+### Habilidades que serão aprendidas  
 - Aprenda a organizar suas ideias;    
 - Analise e construa elementos que compõem a história;      
 - O Herói de mil faces;     
@@ -63,7 +63,7 @@ Apresentar conhecimentos necessários para construção de narrativas e suas pec
 - Evolução do personagens;  
 
 <a name="1.2"></a>
-### 2. Características pessoais
+## 2. Características pessoais
 A seguir vamos destacar algumas Características necessárias para um bom Game Design.
 
 ![Figura: Turning employee ideas into profitable results - https://www.singerandfalk.com](https://www.singerandfalk.com/wp-content/uploads/2018/03/02_07_18_838151864_BB_560x292.jpg "Figura: Turning employee ideas into profitable results - https://www.singerandfalk.com")
@@ -75,9 +75,9 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 - Acompanhar o trabalho da equipe;
 
 <a name="1.3"></a>
-### 3. Elementos de construção de um jogo
+## 3. Elementos de construção de um jogo
 
-#### Conceito.
+### Conceito.
 
 ![Figura: Communication and Game Design Documents - https://acagamic.com](https://acagamic.com/uploads/2014/10/GDD1-ClanCombat.jpg "Figura: Communication and Game Design Documents - https://acagamic.com")
 
@@ -85,7 +85,7 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 
 - Documentação e narrativa
 
-#### Funcional.
+### Funcional.
 
 ![Figura: The growth of the gaming industry in the context of creative industries -https://www.researchgate.net](https://www.researchgate.net/profile/Piotr-Rykala/publication/346541011/figure/fig1/AS:964050955563008@1606859067170/Example-of-organization-and-workflow-of-a-video-game-developer-Source-Zackariasson-and.png "Figura: The growth of the gaming industry in the context of creative industries -https://www.researchgate.net")
 
@@ -94,7 +94,7 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 - Fluxo de trabalho
 - Regras
 
-#### Artista.
+### Artista.
 ![Figura: The Benefits of Embracing 3D in your Concept Art Workflow - https://magazine.artstation.com](https://magazine.artstation.com/wp-content/uploads/2019/02/CGS-3D-concept-art-editorial-image-01-1024x640.jpg "Figura: The Benefits of Embracing 3D in your Concept Art Workflow - https://magazine.artstation.com")
 
 > *Figura: The Benefits of Embracing 3D in your Concept Art Workflow - https://magazine.artstation.com*
@@ -102,35 +102,37 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 - Storyboards
 - Arte conceitual
 
-### 3. A equipe
+## 3. A equipe
 
 ![Figura: Mas qual é a diferença entre design de games, game art e game design? - http://unidigitaldobrasil.com.br](http://unidigitaldobrasil.com.br/wp-content/uploads/2016/01/Kabam-playing-underworld-empire-together.jpg "Figura: Mas qual é a diferença entre design de games, game art e game design? - http://unidigitaldobrasil.com.br")
 
 > *Figura: Mas qual é a diferença entre design de games, game art e game design? - http://unidigitaldobrasil.com.br .*
 
-- Programador;
-- Artista;
-- Design;
-- Produtor;
-- Testador;
-- Compositor;
-- Sound design;
-- Redator;
+|Profissional |Papel                                  |
+|:-           |:-                                     |
+|Programador  |Desenvolvimento da mecânica do jogo    |
+|Artista      |Arte 2D, Arte 3D e animações           |
+|Design       |Ambiente e mecânica                    |
+|Produtor     |Financiador e pode ter controle sobre o produto   |
+|Testador     |Realiza testes do produto   |
+|Compositor   |Musica tema e ambiente   |
+|Sound design |Elementos sonoros durante a gameplay    |
+|Redator      |Roteirização e pesquisa documental   |
 
-### 3. Tarefas
+## 3. Tarefas
 - Prototipação;
 - Level design;
 - Interface;
 - Gerenciamento;
 - Líder de equipe;
 
-### 4. Limitações
+## 4. Limitações
 - Dinheiro;
 - Tempo;
 - Tecnologia;
 - Expertise;
 
-### 5. Onde nascem as ideias?:
+## 5. Onde nascem as ideias?:
 - Outras ideias;
 - Mundo;
 - Jornal;
@@ -138,34 +140,34 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 - Experiências emocionais.
 
 
-### 6. Cultivando ideias
+## 6. Cultivando ideias
 - Seja curioso;
 - Como as coisas funcionam;
 - Crie elementos e os coloque no mundo;
 - Compartilhe o seu mundo com outras pessoas;
 
-### 7. O que torna a idéia interessante é
+## 7. O que torna a idéia interessante é
 - Arranjo único;
 - Seja divertido;
 
-### 8. O que nos inspira?
+## 8. O que nos inspira?
 - Lugar;
 - Pessoas;
 - Histórias;
 - Experiências pessoais;
 
-### 9. Hábito
+## 9. Hábito
 - Caminhe;
 - Leia;
 - Assista palestras;
 
 ****
 
-### Capitulo II - Os personagens
+## Capitulo II - Os personagens
 
-### 1. A jornada do Herói
+## 1. A jornada do Herói
 
-### 2. Personalidade
+## 2. Personalidade
 - Como ele caminha;
 - Como fala;
 - Como luta;
@@ -181,20 +183,20 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 
 > Cuidado com histórias licenciadas!!!
 
-### 3. Motivação
+## 3. Motivação
 - Salvar a amada ou amigo
 - Sobrevivência
 - Vingança
 - Salvar o mundo?
 
-### 4. Morte
+## 4. Morte
 - Valorize a morte do seu personagem
   - Dos amigos
   - Dos animais
 - Até dos seus inimigos
 
-### 5. Nome
-### 6. Forma
+## 5. Nome
+## 6. Forma
 - Proporções faciais
   - Trabalhe as expressões e cuidado com o "uncanny valley"
 - Movimento
@@ -208,7 +210,7 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 - Humanidade
   - se parece com humano então faz coisas humanas
 
-### 7. Customização
+## 7. Customização
 - Nome
 - Aparência
 - Roupa
@@ -216,13 +218,13 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 - Casa
 - Armas
 
-### 8. Não estamos sozinhos
+## 8. Não estamos sozinhos
 - Segundo personagem
 - Tem que ser úteis no gameplay
 - Complexidade na IA
 - Os opostos se atraem
 
-### 9. NPC- Personagens não jogáveis
+## 9. NPC- Personagens não jogáveis
 - Objetivos do jogador
 - Acesso a novos lugares
 - Recompensas
@@ -234,15 +236,15 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 - Humor
 
 ***
-### Capitulo II - Eles todos me querem morto
+## Capitulo II - Eles todos me querem morto
 
-### 1. Tipos de conflito
+## 1. Tipos de conflito
 - Homem versus natureza;
 - Homem versus self;
 - Homem versus homem;
 - Homem versus criaturas;
 
-### 2. Forma segue a função
+## 2. Forma segue a função
 - Tamanho;
 - Comportamento;
 - Velocidade;
@@ -273,7 +275,7 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 - Rápido
 - Ligeiro
 
-### 3. Lutar com inimigos deve ser divertido
+## 3. Lutar com inimigos deve ser divertido
 Os inimigos dever enfrentados, não evitados
 
 - Eles têm o dinheiro;
@@ -281,14 +283,14 @@ Os inimigos dever enfrentados, não evitados
 - Eles têm a chave;
 - Você precisa tirar seu poder;
 
-### 4. Ataques
+## 4. Ataques
 - Corpo a corpo
 - Com armas
 - Com projéteis
 - Dano persistente
 - Ataques telegrafados
 
-### 5. Nem tudo é ataque
+## 5. Nem tudo é ataque
 - Knockback
 - Atordoamento
 - Congele/paralise/capture
@@ -299,7 +301,7 @@ Os inimigos dever enfrentados, não evitados
 - Comportamento inesperado
 - Vulnerabilidades ou resistências
 
-### 6. Faça o jogador odiar seu inimigo
+## 6. Faça o jogador odiar seu inimigo
 Inimigos não inimigos
 
 - Gremlin -Atrapalha  o jogador, exemplo Godzila em SimCity
@@ -307,7 +309,7 @@ Inimigos não inimigos
 - Tempo - Relógio fazendo tique-taque
 - Competidor humano - Jogador versus jogador
 
-### 7. BOSS
+## 7. BOSS
 - Quando enfrentar?
   - Movimentos aprendidos
   - Novas habilidades
