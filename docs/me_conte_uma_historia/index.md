@@ -308,9 +308,9 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 - Valorize a morte do seu personagem.
   - Dos amigos.
 
-  ![Figura: Simon "Ghost" Riley  - https://callofduty.fandom.com](https://static.wikia.nocookie.net/callofduty/images/f/f4/Ghost_close-up_MW2.png/revision/latest/scale-to-width-down/185?cb=20130220152349 "Figura: Simon (Ghost) Riley  - https://callofduty.fandom.com")
+  ![Figura: How to unlock Season 2 Ghost Skin in Warzone and Modern Warfare   - https://marriedgames.com.br](https://static.marriedgames.com.br/0cdf6b4c-op_mission_ghost_last.jpg "Figura: How to unlock Season 2 Ghost Skin in Warzone and Modern Warfare   - https://marriedgames.com.br")
 
-  > *Figura: Simon "Ghost" Riley  - https://callofduty.fandom.com .*
+  > *Figura: How to unlock Season 2 Ghost Skin in Warzone and Modern Warfare   - https://marriedgames.com.br .*
 
   - Dos animais.
 
@@ -399,9 +399,9 @@ Escolha nomes para os seus personagens.
 - Ferramentas para derrotar inimigos;
 - Respostas para quebra-cabeças;
 
-![Figura: Longinus - https://farcry.fandom.com](https://static.wikia.nocookie.net/farcry/images/f/ff/Longinus.jpg/revision/latest/scale-to-width-down/270?cb=20160712175357&path-prefix=pt-br "Figura: Longinus - https://farcry.fandom.com")
+![Figura: Far Cry 4: trailer mostra arsenal do game à disposição dos jogadores - https://www.techtudo.com.br](https://s2.glbimg.com/jC6OPurSh95N0GA_EgE-4vGvpYY=/0x0:695x320/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/6/K/izP2kIQzWVrttXv2rO3g/2014-10-02-far-cry-4-longinus-fornecedor-armas.png "Figura: Far Cry 4: trailer mostra arsenal do game à disposição dos jogadores - https://www.techtudo.com.br")
 
-> *Figura: Longinus - https://farcry.fandom.com .*
+> *Figura: Far Cry 4: trailer mostra arsenal do game à disposição dos jogadores - https://www.techtudo.com.br .*
 
 - História sobre o mundo;
 - Instruções ao jogador;
@@ -511,9 +511,9 @@ Os inimigos dever enfrentados, não evitados.
 <a name="3.5"></a>
 ## 5. Nem tudo é ataque
 
-![Figura: Cult VIPs - https://farcry.fandom.com/](https://static.wikia.nocookie.net/farcry/images/7/71/Cult_VIP.jpg/revision/latest/scale-to-width-down/350?cb=20190629231912 "Figura: Cult VIPs - https://farcry.fandom.com/")
+![Figura: The Ideal Video Game Enemy - https://www.thefandomentals.com](https://www.thefandomentals.com/wp-content/uploads/2017/03/enemies.jpg "Figura: The Ideal Video Game Enemy - https://www.thefandomentals.com")
 
-> *Figura: Cult VIPs - https://farcry.fandom.com/ .*
+> *Figura: The Ideal Video Game Enemy - https://www.thefandomentals.com .*
 
 - Knockback;
 - Atordoamento;
