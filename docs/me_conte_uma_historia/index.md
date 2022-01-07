@@ -45,6 +45,11 @@ Narrativa de jogos e construção de personagens. Construa sua narrativa, o temp
 
 ***
 ## Capitulo I -  Por dentro da cabeça do Game Design
+
+> "Por baixo dessa carne existe um ideal. e as idéias nunca morrem..."
+>
+> V de Vingança.
+
 <a name="1.1"></a>
 ## 1. Introdução
 Construção da narrativa, definição do tempo, representação do mundo, definição do personagens, os objetivos e os
@@ -120,19 +125,34 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 |Redator      |Roteirização e pesquisa documental   |
 
 ## 3. Tarefas
-- Prototipação;
-- Level design;
-- Interface;
-- Gerenciamento;
-- Líder de equipe;
+|Tarefas          |Descrição               |
+|:-               |:-             |
+|Prototipação     |Protótipo ou modelo do jogo  |       
+|Level design     |Ambiente e mecânica          |
+|Interface        |Interface com o jogador - HUD|
+|Gerenciamento    |Acompanhamento das tarefas e comunicação das equipes|
+|Líder de equipe  |Atua como interface entre as diversas necessidades |
+
+![Figura: Improving Video Game Development: Facilitating Heterogeneous Team Collaboration through Flexible Software Processes - https://www.researchgate.net](https://www.researchgate.net/profile/Juergen-Musil/publication/221045927/figure/fig2/AS:305624014442498@1449877851418/Simple-workflow-oriented-process-for-game-development.png "Figura: Improving Video Game Development: Facilitating Heterogeneous Team Collaboration through Flexible Software Processes - https://www.researchgate.net")
+
+> *Figura: Improving Video Game Development: Facilitating Heterogeneous Team Collaboration through Flexible Software Processes - https://www.researchgate.net .*
 
 ## 4. Limitações
+
+![Figura: The best survival games on PC in 2022  - https://www.rockpapershotgun.com/](https://assets.rockpapershotgun.com/images/2020/02/The-Forest-Best-Survival-Games-2020.jpg "Figura: The best survival games on PC in 2022  - https://www.rockpapershotgun.com/")
+
+> *Figura: The best survival games on PC in 2022  - https://www.rockpapershotgun.com/ .*
+
 - Dinheiro;
 - Tempo;
 - Tecnologia;
 - Expertise;
 
-## 5. Onde nascem as ideias?:
+## 5. Onde nascem as ideias?
+![Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones - https://www.theverge.com](https://cdn3.vox-cdn.com/uploads/chorus_asset/file/3687336/The_Witcher_3_Wild_Hunt_You_never_know_what_waits_around_the_corner.0.png "Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones - https://www.theverge.com")
+
+> *Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones - https://www.theverge.com .*
+
 - Outras ideias;
 - Mundo;
 - Jornal;
@@ -141,22 +161,41 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 
 
 ## 6. Cultivando ideias
+![Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com](https://cdn.vox-cdn.com/thumbor/KfZcAgZDNJyf7POmq2KDOfa2fZA=/148x0:1768x1080/920x613/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47374578/unravel-yarny.0.0.jpg "Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com")
+
+> *Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com .*
+
 - Seja curioso;
 - Como as coisas funcionam;
 - Crie elementos e os coloque no mundo;
 - Compartilhe o seu mundo com outras pessoas;
 
-## 7. O que torna a idéia interessante é
+## 7. O que torna a ideia interessante é
+![Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br](https://adrenaline.com.br/uploads/2021/09/09/70890/Lost-in-Random_06.jpg "Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br")
+
+> *Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br .*
+
 - Arranjo único;
 - Seja divertido;
 
 ## 8. O que nos inspira?
+![Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br](https://img.ibxk.com.br/2015/11/04/04190615075402.jpg?ims=704x "Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br")
+
+> *Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br .*
+
 - Lugar;
 - Pessoas;
 - Histórias;
 - Experiências pessoais;
 
 ## 9. Hábito
+
+![Figura: Review Journey - https://www.tecmundo.com.br](https://s2.glbimg.com/ZcTFIilmLi8663REozPDO8EzL18=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/q/UZHV1lT8SDUVlX8Bso5Q/2015-07-24-journey3.jpg "Figura: Review Journey - https://www.tecmundo.com.br")
+
+> *Figura: Review Journey - https://www.tecmundo.com.br .*
+>
+>A maior virtude do game é, sem dúvida, conseguir comover sem sequer dizer uma palavra. Confira a análise da versão de PlayStation 4!
+
 - Caminhe;
 - Leia;
 - Assista palestras;
@@ -164,6 +203,9 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 ****
 
 ## Capitulo II - Os personagens
+> "Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro."
+>
+> Alan Wake.
 
 ## 1. A jornada do Herói
 
