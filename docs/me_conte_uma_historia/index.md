@@ -209,33 +209,109 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 
 ## 1. A jornada do Herói
 
+![Figura: Jornada do Herói - https://medium.com](https://miro.medium.com/max/500/1*cQanY8AUEBH3f0BsGo_vOw.png "Figura: Jornada do Herói - https://medium.com")
+
+
+> *Figura: Jornada do Herói - https://medium.com .*
+> Está dividido em três seções:
+- Partida (às vezes chamada Separação)
+- Iniciação
+- Retorno
+
+[O Organismo - Jornada do Herói](https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69 "Jornada do Herói")
+
+![Figura: The Lord of the Rings Movie Games Need the Remaster Treatment - https://gamerant.com](https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/08/The-Lord-of-the-Rings-The-Return-of-the-King-PS2-Remaster.jpg?q=50&fit=contain&w=960&h=500&dpr=1.5 "Figura: The Lord of the Rings Movie Games Need the Remaster Treatment - https://gamerant.com")
+
+> *Figura: The Lord of the Rings Movie Games Need the Remaster Treatment - https://gamerant.com .*
+
+- Matrix;
+- Senhor dos Anéis;
+- Star Wars;
+- Harry Potter.
+
 ## 2. Personalidade
 - Como ele caminha;
+
+  ![Figura: Relembre os melhores jogos clássicos em 2D do Sonic - https://www.techtudo.com.br/](https://s2.glbimg.com/6VbePiU5gQg5tDf6RnWBQKWq9TE=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/A/koepwtTciyZq1aIruRUw/2016-07-27-sonic-melhores-jogos-10.jpg "Figura: Relembre os melhores jogos clássicos em 2D do Sonic - https://www.techtudo.com.br/")
+
+  > *Figura: Relembre os melhores jogos clássicos em 2D do Sonic - https://www.techtudo.com.br .*
+
 - Como fala;
 - Como luta;
+
+  ![Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation - https://www.theenemy.com.br/](https://cdn.ome.lt/Ri9BXgbM9WX4sLt2hyqchVsUA1Y=/770x0/smart/uploads/conteudo/fotos/god-of-war-kratos_o1WSA8h.jpg "Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation - https://www.theenemy.com.br/")
+
+  > *Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation - https://www.theenemy.com.br/.*
+
 - Como abre a porta;
 - Como comemora;
 - Como fica esperando;
-- Humorístico
-  - Falar, agir de forma engraçada
-- Heroico
-  - Faça coisa heróicas, seja bom em algo e não esqueça das fraquezas
-- Valentão
-  - Faça coisas de valentão com estilo, não é uma pessoa legal,diga coisas legais, mas ele quase nunca grita
 
-> Cuidado com histórias licenciadas!!!
+  ![Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis – the PCGamesN tech review - https://www.pcgamesn.com](https://www.pcgamesn.com/wp-content/uploads/legacy/Ghost_Recon_Wildlands_graphics_settings_high.jpg "Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis – the PCGamesN tech review - https://www.pcgamesn.com")
+
+  > *Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis – the PCGamesN tech review - https://www.pcgamesn.com .*
+
+- Humorístico.
+  - Falar, agir de forma engraçada
+  ![Figura: O “Merc With a Mouth” finalmente tem um game (surtado) para chamar de seu -https://www.techmundo.com.br](https://img.ibxk.com.br/bj/images/games/000/006/885/screenshots/283034/img_normal.jpg?20130626111914fe3?ims=704x "Figura: O “Merc With a Mouth” finalmente tem um game (surtado) para chamar de seu -https://www.techmundo.com.br")
+
+  > *Figura: O “Merc With a Mouth” finalmente tem um game (surtado) para chamar de seu -https://www.techmundo.com.br .*
+
+- Heroico.
+  - Faça coisa heroicas, seja bom em algo e não esqueça das fraquezas
+- Valentão.
+  - Faça coisas de valentão com estilo, não é uma pessoa legal, diga coisas legais, mas ele quase nunca grita.
+
+  ![Figura: ANÁLISE: Grand Theft Auto V - https://adrenaline.com.br](https://adrenaline.com.br/files/upload/reviews/2013/gta_v2/22.jpg "Figura: ANÁLISE: Grand Theft Auto V - https://adrenaline.com.br")
+
+  > *Figura: ANÁLISE: Grand Theft Auto V - https://adrenaline.com.br .*
+
+**Cuidado com histórias licenciadas!!!**
 
 ## 3. Motivação
-- Salvar a amada ou amigo
-- Sobrevivência
-- Vingança
+- Salvar a amada ou amigo;
+
+  ![Figura: Resident Evil 7 é melhor game já feito na série [análise] - https://canaltech.com.br](https://t.ctcdn.com.br/jjmLXI8pBWg2AvrETWFterqDf-U=/512x288/smart/i299893.jpeg "Figura: Resident Evil 7 é melhor game já feito na série [análise] - https://canaltech.com.br")
+
+  > *Figura: Resident Evil 7 é melhor game já feito na série [análise] - https://canaltech.com.br .*
+
+- Sobrevivência;
+
+  ![Figura: 7 Days to Die Review - https://www.lifewire.com](https://www.lifewire.com/thmb/EjcsuTLZtk_3UMN7Evd6xFcrY88=/800x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1LW4164252-4-341174c3997543728bd2b024c6e2a309.jpg "Figura: 7 Days to Die Review - https://www.lifewire.com")
+
+  > *Figura: 7 Days to Die Review - https://www.lifewire.com .*
+
+- Vingança;
+
+  ![Figura: Ryse: Son of Rome review - https://www.digitaltrends.com](https://icdn.digitaltrends.com/image/digitaltrends/ryse-son-of-rome-screenshot-3-625x417-c.jpg "Figura: Ryse: Son of Rome review - https://www.digitaltrends.com")
+
+  > *Figura: Ryse: Son of Rome review - https://www.digitaltrends.com .*
+
 - Salvar o mundo?
 
+  ![Figura: Call of Duty: Modern Warfare: A guerra nunca muda - https://www.tecmundo.com.br](https://img.ibxk.com.br/2019/10/30/30092242177082.jpg?ims=704x "Figura: Call of Duty: Modern Warfare: A guerra nunca muda - https://www.tecmundo.com.br")
+
+  > *Figura: Call of Duty: Modern Warfare: A guerra nunca muda - https://www.tecmundo.com.br .*
+
 ## 4. Morte
-- Valorize a morte do seu personagem
-  - Dos amigos
-  - Dos animais
-- Até dos seus inimigos
+- Valorize a morte do seu personagem.
+  - Dos amigos.
+
+  ![Figura: Simon "Ghost" Riley  - https://callofduty.fandom.com](https://static.wikia.nocookie.net/callofduty/images/f/f4/Ghost_close-up_MW2.png/revision/latest/scale-to-width-down/185?cb=20130220152349 "Figura: Simon (Ghost) Riley  - https://callofduty.fandom.com")
+
+  > *Figura: Simon "Ghost" Riley  - https://callofduty.fandom.com .*
+
+  - Dos animais.
+
+  ![Figura: Shadow of the Colossus - Como executar truques com Agro e desbloquear o Troféu Trick Rider - https://www.eurogamer.pt](https://images.gnwcdn.com/2018/articles/2018-02-07-17-07/t1.jpg/EG11/resize/690x-1/quality/75/format/jpg "Figura: Shadow of the Colossus - Como executar truques com Agro e desbloquear o Troféu Trick Rider - https://www.eurogamer.pt")
+
+  > *Figura: Shadow of the Colossus - Como executar truques com Agro e desbloquear o Troféu Trick Rider - https://www.eurogamer.pt .*
+
+- Até dos seus inimigos.
+
+  ![Figura: “Far Cry 3” vai te deixar sem vida social - https://tecnoblog.net/](https://files.tecnoblog.net/wp-content/uploads/2012/12/vaas-600x337.jpg "Figura: “Far Cry 3” vai te deixar sem vida social - https://tecnoblog.net/")
+
+  > *Figura: “Far Cry 3” vai te deixar sem vida social - https://tecnoblog.net/ .*
 
 ## 5. Nome
 ## 6. Forma
