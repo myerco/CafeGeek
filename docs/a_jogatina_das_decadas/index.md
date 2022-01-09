@@ -71,12 +71,13 @@ A história dos jogos na sociedade e seus diferentes tipos, entenda o que são j
 <a name="1"></a>
 ## Capítulo I - O que é um Jogo?
 
-<a name="1.1"></a>
-## 1. Introdução
-
 > "Life is a Game"
 >
 > Animvs
+
+
+<a name="1.1"></a>
+## 1. Introdução
 
 ![chess](https://images.chesscomfiles.com/uploads/v1/article/17623.87bb05cd.668x375o.47d81802f1eb.jpeg)
 
@@ -148,7 +149,9 @@ oposição aos animais, de maneira quase tão absoluta quanto o *homo sapiens*".
 
 <a name="1.4"></a>
 ## 4. A Tensão como um elemento do jogo
-![jovemnerd](https://uploads.jovemnerd.com.br/wp-content/uploads/2021/04/alien-isolation-gratis.jpg "Alien: Isolation e Hand of Fate 2 estão de graça na Epic Games Store")
+![Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise](https://img.ibxk.com.br/2014/10/15/15193231547073.jpg?ims=704x "Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise")
+
+> *Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise .*
 
 Tensão significa incerteza, acaso. Há um esforço para levar o jogo até ao desenlace, o jogador quer que
 alguma coisa "vá" ou "saia", pretende "ganhar" à custa de seu próprio esforço. Uma criança estendendo a mão para
@@ -157,7 +160,9 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 
 <a name="1.5"></a>
 ## 5. A função do jogo?
-![Last of us II](https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-ii-screen-03-ps4-us-05dec16?$2400px$ "Last of us II")
+![Figura: The Last of Us 2: No controle de uma balada de vingança, beleza e cansaço... - https://www.uol.com.br/start/ultimas-noticias/2020/06/15/the-last-of-us-2-a-vinganca-de-ellie-so-e-plena-nos-acordes-do-cansaco.htm?cmpid=copiaecola ](https://conteudo.imguol.com.br/c/entretenimento/09/2020/06/07/the-last-of-us-parte-ii-1591561975954_v2_1170x540.jpg)
+
+> *Figura: The Last of Us 2: No controle de uma balada de vingança, beleza e cansaço... - https://www.uol.com.br/start/ultimas-noticias/2020/06/15/the-last-of-us-2-a-vinganca-de-ellie-so-e-plena-nos-acordes-do-cansaco.htm?cmpid=copiaecola .*
 
 A função do jogo, nas formas mais elevadas que aqui nos interessam, pode de maneira geral ser definida pelos dois aspectos fundamentais que nele encontramos:
 
@@ -216,9 +221,9 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 
 <a name="2.1"></a>
 ## 1. O jogador
-![https://online.lovetoknow.com/wiki/](https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp "Top 5 Most Popular Online Games for Women")
+![Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women](https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp "Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women")
 
-*Figura: Top 5 Most Popular Online Games for Women*
+> *Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women .*
 
 “Conhecer o que o jogador quer e a situação que o mercado se apresenta são informações que apenas darão suporte ao design em criar um jogo que na verdade deve possuir, por meio de referências acadêmicas, os elementos que provoquem o desejo, a compra, a diversão e o entretenimento, que são consequências.”
 
@@ -228,9 +233,9 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 
 <a name="2.2"></a>
 ## 2. O que é jogar?
-![Jogador 1 - Batalha](https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2018/04/02/jogador1batalha.jpg "Jogador 1 - Batalha")
+![Figura: Jogador Nº 1 | Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/](http://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg "Figura: Jogador Nº 1 | Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/")
 
-*Figura: Jogador 1 - Batalha*
+> *Figura: Jogador Nº 1 | Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/ .*
 
 É um evento social, sendo assim esse evento gera emoções que são interpretações das respostas sensoriais obtidas pelos elementos do jogo.
 
@@ -242,9 +247,9 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 <a name="2.3"></a>
 ## 3. Por que jogar?
 
-![Trilogia do Inumano – Life is Strange: Nostalgia como utopia](https://lavrapalavra.com/wp-content/uploads/2021/01/apagar.png "Trilogia do Inumano – Life is Strange: Nostalgia como utopia")
+![Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia - https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/](https://lavrapalavra.com/wp-content/uploads/2021/01/apagar.png "Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia - https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/")
 
-*Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia*
+> *Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia - https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/ .*
 
 - Desafio;
 - Liberdade;
@@ -296,9 +301,9 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
 
 <a name="2.3.2"></a>
 ### 3.2 Fatores não motivacionais
-![www.tecmundo.com.br/](https://tm.ibxk.com.br/2021/08/09/09131221401170.jpg "Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S")
+![Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm](https://tm.ibxk.com.br/2021/08/09/09131221401170.jpg "Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm")
 
-*Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S*
+> *Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm .*
 
 Estão ligados na avaliação da mensagem que está sendo transmitida.
 - Comunicação visual;
