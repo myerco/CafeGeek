@@ -64,5 +64,5 @@ layout: page
 
 ***
 ## Capítulo VIII - Efeitos especiais
-1. [Sequencer](sequencer.html)
-1. [Niagara](niagara.html)
+1. [Sequencer](#)
+1. [Niagara](#)

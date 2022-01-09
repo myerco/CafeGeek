@@ -64,7 +64,7 @@ Ao clicar no botão Sair vamos chamar a função `Quit Game` que finaliza do jog
 <a name="2"></a>
 ## 2. Executando o menu
 Neste passo vamos criar um *Level* vazio para executar o menu, quando o menu for chamado a tela inteira deve mudar.   
-Caso o Widget seja o menu principal que deverá ser chamado no início do jogo é necessário adicionar o mesmo em [Level e inicialização](organizando_pastas_e_logo.html#2)
+Caso o Widget seja o menu principal que deverá ser chamado no início do jogo é necessário adicionar o mesmo em [Level e inicialização](unreal_engine_organizando_pastas_e_logo.html#2.1)
 
 1. *Empty Level* Vamos criar um Level Vazio para funcionar como base do menu.    
   ![blueprint_empty_level](imagens/interface_ui_hud/blueprint_empty_level.jpg)      
@@ -132,7 +132,7 @@ Para exemplificar algumas funções do menu como por exemplo salvar dados do jog
 
     *Figura: SaveGame variáveis*
 
-Nos próximos passos vamos criar o objeto *BP_GameInstanceJogo* do tipo [**GameInstance**](gameinstance_state_mode.html#5) e adicionar os eventos customizados (*Add custon event*) a seguir.
+Nos próximos passos vamos criar o objeto *BP_GameInstanceJogo* do tipo [**GameInstance**](unreal_engine_gameinstance_state_mode.html#5) e adicionar os eventos customizados (*Add custon event*) a seguir.
 
 <a name="4.2"></a>
 ### 4.2 Evento para apresentar o menu na tela
