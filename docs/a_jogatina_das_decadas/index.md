@@ -219,6 +219,10 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 <a name="2"></a>
 ## Capítulo II - Quem joga?
 
+> "Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior do que apenas eu mesmo."
+>
+> Jogador Nº1.
+
 <a name="2.1"></a>
 ## 1. O jogador
 ![Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women](https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp "Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women")
@@ -339,12 +343,13 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 <a name="3"></a>
 ## Capítulo III - Classificação
 
-<a name="3.1"></a>
-## 1. Como são classificados os jogos?
-
 > Guerra... A guerra nunca muda.
 >
-> Fallout
+> Fallout.
+
+
+<a name="3.1"></a>
+## 1. Como são classificados os jogos?
 
 Podemos classificar os jogos para determinar ou mostrar a sua função dentro de um modelo de lazer ou recreação.
 
@@ -386,6 +391,10 @@ Trabalham com reflexos, coordenação e cognição.
 ***
 <a name="4"></a>
 ## Capítulo IV - O Jogo Eletrônico
+
+> "Nada é verdade, tudo é permitido."
+>
+> Assassin's Creed: Revelations.
 
 <a name="4.1"></a>
 ## 1. O que é um jogo eletrônico?
