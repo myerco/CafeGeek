@@ -7,9 +7,11 @@ layout: page
 
 A história dos jogos na sociedade e seus diferentes tipos, entenda o que são jogos eletrônicos e suas características.
 
-## Capítulo I - O que é um Jogo?
+**[Capítulo I - O que é um Jogo?](#1 "Capítulo I - O que é um Jogo?")**
+
 1. [Introdução](#1.1)
 2. [O que é um jogo?](#1.2)
+    1. [Teria o jogo lugar no sistema de vida?](#1.2.1)
 3. [Homo Ludens](#1.3)    
 4. [A Tensão como um elemento do jogo](#1.4)        
 5. [A função do jogo](#1.5)            
@@ -21,7 +23,8 @@ A história dos jogos na sociedade e seus diferentes tipos, entenda o que são j
 7.    [Algumas considerações sobre o jogo](#1.7)   
 
 ***
-## Capítulo II - Quem Joga?
+**[Capítulo II - Quem Joga?](#2 "Capítulo II - Quem Joga?")**
+
 1. [O jogador](#2.1)
 1. [O que é jogar?](#2.2)
 1. [Por que jogar?](#2.3)
@@ -42,7 +45,8 @@ A história dos jogos na sociedade e seus diferentes tipos, entenda o que são j
         1. [Coordenação](#2.3.1.1)                            
 
 ***
-## Capítulo III - Classificação
+**[Capítulo III - Classificação](#3 "Capítulo III - Classificação")**
+
 1. [Como são classificados os jogos?](#3.1)
 1. [Tabuleiro](#3.2)
 1. [Cartas](#3.3)
@@ -51,7 +55,8 @@ A história dos jogos na sociedade e seus diferentes tipos, entenda o que são j
 1. [Eletrônicos](#3.6)
 
 ***
-## Capítulo IV - O Jogo Eletrônico
+**[Capítulo IV - O Jogo Eletrônico](#4 "Capítulo IV - O Jogo Eletrônico")**
+
 1. [O que é um jogo eletrônico?](#4.1)
 1. [Características dos jogos Eletrônicos](#4.2)
 1. [Tipos de jogos Eletrônicos](#4.3)
@@ -63,8 +68,9 @@ A história dos jogos na sociedade e seus diferentes tipos, entenda o que são j
 1. [Era dos Videogames](#4.9)
 
 ***
-
+<a name="1"></a>
 ## Capítulo I - O que é um Jogo?
+
 <a name="1.1"></a>
 ## 1. Introdução
 
@@ -95,13 +101,24 @@ nossa nomenclatura."
 
 <a name="1.2"></a>
 ## 2. O que é um jogo?
+Podemos definir um jogo através das suas principais características comuns de um jogo.
+- Atividade recreativa;
+- Regras que estabelecem quem vence e quem perde;
+- Competição física ou mental;
+- Conjunto de procedimentos e estratégias para atingir determinado fim;
+
 ![Wikipédia](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Wikipedia-logo-v2-pt.svg/203px-Wikipedia-logo-v2-pt.svg.png "Wikipédia")
 
 Segundo a Wikipédia jogo é toda e qualquer atividade em que exista a figura do jogador (como indivíduo praticante) e regras que podem ser para ambiente restrito ou livre.
 
 Jogo é um termo do latim, *jocus*, que significa brincadeira, divertimento.
 
-**Teria o jogo lugar no sistema de vida?**
+<a name="1.2.1"></a>
+### 2.1 Teria o jogo lugar no sistema de vida?
+
+![Figura: Life is a game. This is your strategy guide - https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/](https://oliveremberton.com/app/uploads/2014/02/Cover-shallow-1800x1100.png "Figura: Life is a game. This is your strategy guide - https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/")
+
+> *Figura: Life is a game. This is your strategy guide - https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/ .*
 
 Há uma extraordinária divergência entre as numerosas tentativas de definição da função biológica do jogo. Umas definem as origens e fundamento do jogo em termos de descarga da energia vital superabundante, outras como satisfação de um certo "instinto de imitação", ou ainda simplesmente como uma "necessidade" de distensão.
 
@@ -111,16 +128,13 @@ Podemos citar algumas teorias que buscam definir o jogo.
 - Um impulso inato para exercer uma certa faculdade, ou como desejo de dominar ou competir.
 - Teorias há, ainda, que o consideram uma "ab-reação" (descarga emocional pela qual um indivíduo se liberta do afeto que acompanha a recordação de um acontecimento traumático), um escape para impulsos prejudiciais, um restaurador da energia dispendida por uma atividade unilateral, ou "realização do desejo", ou uma ficção destinada a preservar o sentimento do valor pessoal.
 
-Características comuns de um jogo.
-- Atividade recreativa;
-- Regras que estabelecem quem vence e quem perde;
-- Competição física ou mental;
-- Conjunto de procedimentos e estratégias para atingir determinado fim;
 
 <a name="1.3"></a>
 ## 3. Homo Ludens
 
-![Homo Ludens](https://lh5.googleusercontent.com/lhkxvSwpipDBpORFf3hiJba3QDOz-r4BuiGr_qoyiw4lya7Pkq5pldq2YnbZOk8euovs8XQBQ2QX8PZKdLfJl9yt6OqlZbiKhhvoCScvVqbq9vRuQI7oa1VWrJuMWmDWJRrNQHL2ZQ)
+![Figura: Soraia Chung: “O brincar elabora uma ideia de humanidade” - https://alana.org.br/entrevista-soraia-chung-brincar/](https://alana.org.br/wp-content/uploads/2021/05/brincar.png.webp "Figura: Soraia Chung: “O brincar elabora uma ideia de humanidade” - https://alana.org.br/entrevista-soraia-chung-brincar/")
+
+> *Figura: Soraia Chung: “O brincar elabora uma ideia de humanidade” - https://alana.org.br/entrevista-soraia-chung-brincar/ .*
 
 ...Brincar, significa libertar-se dos horrores do mundo, por meio da reprodução miniaturizada..”
 Walter Benjamin (1984)
@@ -197,8 +211,9 @@ O autor apresenta as suas interpretações de elementos presentes na nossa socie
 Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como por exemplo economia, relacionamentos, comunicação e outros, mas com uma nova roupagem denominada "Gamificação" que estudaremos nos próximos capítulos.
 
 ***
-
+<a name="2"></a>
 ## Capítulo II - Quem joga?
+
 <a name="2.1"></a>
 ## 1. O jogador
 ![https://online.lovetoknow.com/wiki/](https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp "Top 5 Most Popular Online Games for Women")
@@ -316,8 +331,9 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 ![rollingstone.uol.com.br](https://rollingstone.uol.com.br/media/_versions/guitar_hero_reproducao_widelg.jpg "Guitar Hero: 15 clássicos do game que você provavelmente tocou muito")
 
 ***
-
+<a name="3"></a>
 ## Capítulo III - Classificação
+
 <a name="3.1"></a>
 ## 1. Como são classificados os jogos?
 
@@ -363,8 +379,9 @@ Brincadeiras físicas e mentais com visões educacionais, cujo objetivo é socia
 Trabalham com reflexos, coordenação e cognição.
 
 ***
-
+<a name="4"></a>
 ## Capítulo IV - O Jogo Eletrônico
+
 <a name="4.1"></a>
 ## 1. O que é um jogo eletrônico?
 > O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pessoa, mas ninguém pode mudá-la. Uma coisa que não muda com o tempo é a memória dos dias mais jovens.
