@@ -8,7 +8,8 @@ Narrativa de jogos e construção de personagens. Construa sua narrativa, o temp
 
 ---
 
-## Capitulo I -  Por dentro da cabeça do Game Design
+**[Capitulo I -  Por dentro da cabeça do Game Design](#1 "Capitulo I -  Por dentro da cabeça do Game Design")**
+
 1. [Introdução](#1.1 "Introdução")
 1. [Características pessoais](#1.1 "Características pessoais")    
 1. [Elementos de construção de um jogo](#1.2 "Elementos de construção de um jogo")    
@@ -22,7 +23,8 @@ Narrativa de jogos e construção de personagens. Construa sua narrativa, o temp
 1. [Hábito](#1.10 "Hábito")
 
 ***
-## Capitulo II - Os personagens
+**[Capitulo II - Os personagens](#2 "Capitulo II - Os personagens")**
+
 1. [A jornada do Herói](#2.1)
 1. [Personalidade](#2.2)
 1. [Motivação](#2.3)
@@ -34,7 +36,8 @@ Narrativa de jogos e construção de personagens. Construa sua narrativa, o temp
 1. [NPC- Personagens não jogáveis](#2.9)
 
 ***
-## Capitulo III - Eles todos me querem morto
+**[Capitulo III - Eles todos me querem morto](#3 "Capitulo III - Eles todos me querem morto")**
+
 1. [Tipos de conflito](#3.1)
 1. [Forma segue a função](#3.2)
 1. [Lutar com inimigos deve ser divertido](#3.3)
@@ -44,6 +47,7 @@ Narrativa de jogos e construção de personagens. Construa sua narrativa, o temp
 1. [BOSS](#3.7)
 
 ***
+<a name="1"></a>
 ## Capitulo I -  Por dentro da cabeça do Game Design
 
 > "Por baixo dessa carne existe um ideal. e as idéias nunca morrem..."
@@ -209,6 +213,7 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 
 ****
 
+<a name="2"></a>
 ## Capitulo II - Os personagens
 > "Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro."
 >
@@ -409,6 +414,7 @@ Escolha nomes para os seus personagens.
 - Humor.
 
 ***
+<a name="3"></a>
 ## Capitulo III - Eles todos me querem morto
 
 > "A jornada não acaba aqui. A morte é apenas um outro caminho... que todos temos que tomar".

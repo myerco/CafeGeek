@@ -1,6 +1,6 @@
 ---
 title: Sobre
-description: O CafeGeek é um site educacional com foco em desenvolvimento de jogos digitais e as disciplinas que orbitam este fantástico mundo.
+description: Sobre o Cafegeek.
 tags: [Unreal Engine,perfil, profile,curriculum]
 layout: home
 ---

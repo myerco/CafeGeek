@@ -1,12 +1,11 @@
 ---
 title: Animação - Aim Offset
-description: Neste capitulo vamos apresentar o fluxo de trabalho e os elementos necessários para a animação de personagens.
+description: Neste capitulo vamos apresentar a animação Aim Offset.
 tags: [Unreal Engine, Animação]
 layout: page
 ---
 
-Neste capitulo vamos apresentar o fluxo de trabalho e os elementos necessários para a animação de personagens.
-
+Neste capitulo vamos apresentar a animação Aim Offset.
 
 ## Índice
 1. [Fluxo de trabalho](#1-fluxo-de-trabalho)

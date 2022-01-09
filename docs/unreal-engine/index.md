@@ -6,7 +6,8 @@ tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digi
 layout: page
 ---
 
-## Capítulo I - O Unreal Engine e sua lógica de programação
+**Capítulo I - O Unreal Engine e sua lógica de programação.**
+
 1. [Introdução o desenvolvimento de jogos utilizando Unreal Engine](unreal_engine_introducao_desenvolvimento_jogos.html)
 1. [Como instalar o Unreal Engine?](unreal_engine_como_instalar_o_unreal_engine.html)
 1. [Organizando pastas e logo do projeto](unreal_engine_organizando_pastas_e_logo.html)
@@ -20,7 +21,8 @@ layout: page
 1. [Enums](unreal_engine_enum.html)    
 
 ***
-## Capítulo II - Atores e movimentação
+**Capítulo II - Atores e movimentação**
+
 1. [Atores ou Actors](actor_atores.html)
 1. [Estruturando a lógica utilizando Eventos, funções e macros](estruturando_logica_utilizando_eventos_funcoes_macros.html)  
 1. [Trabalhando com a lógica de movimentação do personagem](trabalhando_com_logica_movimentacao_de_personagem.html)    
@@ -28,7 +30,9 @@ layout: page
 1. [Delta time e sistema de coordenadas](deltatime_sistema_coordenadas.html)
 
 ***
-## Capítulo III - Estruturas de dados e Interface com usuário
+
+**Capítulo III - Estruturas de dados e Interface com usuário**
+
 1. [Variáveis estruturadas ou Structure](structure_variaveis_estruturadas.html)  
 1. [Tabelas de dados ou Data tables - ](data_tables.html)
 1. [Game Instance, Game State e Game Mode](unreal_engine_gameinstance_state_mode.html)
@@ -36,7 +40,8 @@ layout: page
 1. [Lógica de programação dos objetos da interface](unreal_engine_hud_logica.html)
 
 ***
-##  Capítulo IV - Materiais e Landscape
+**Capítulo IV - Materiais e Landscape**
+
 1. [Introdução aos Materiais](unreal_engine_material_introducao_aos_materiais.html)
 1. [Construindo Materiais e entendo a lógica](unreal_engine_material_construindo_materiais_entendendo_a_logica.html)
 1. [Material Instance](unreal_engine_material_instance.html)
@@ -45,7 +50,8 @@ layout: page
 1. [Landscape](landscape.html)  
 
 ***
-## Capítulo V - Animação de personagens       
+**Capítulo V - Animação de personagens**
+
 1. [Introdução a animação de personagens](unreal_engine_animacao_introducao.html)
 1. [Preparando o projeto](unreal_engine_animacao_preparando_o_projeto.html)
 1. [Blend Space](unreal_engine_animacao_blend_space.html)        
@@ -54,15 +60,15 @@ layout: page
 1. [Animação 2D](unreal_engine_animacao2d.html)
 
 ***
-## Capítulo VI - Inteligência Artificial
+**Capítulo VI - Inteligência Artificial**
 1. [Inteligência Artificial](inteligenciaartificial.html)
 
 ***
-## Capítulo VII - Multiplayer em C++            
+**Capítulo VII - Multiplayer em C++**            
 1. [Multiplayer](multiplayer.html)
 1. [Convertendo para c++](convertendo_blueprint_para_c++.html)    
 
 ***
-## Capítulo VIII - Efeitos especiais
+**Capítulo VIII - Efeitos especiais**
 1. [Sequencer](#)
 1. [Niagara](#)
