@@ -6,6 +6,37 @@ layout: page
 ---
 
 
+**Capítulo I - Conhecendo a Taberna**
+
+1. [Introdução](#1.1)
+1. [O projeto](#1.2)
+1. [A cidade de Bree](#1.3)
+1. [Taverna do Pônei Saltitante e o projeto](#1.4)
+1. [Detalhes dos atributos](#1.5)
+1. [Necessidades](#1.6)
+
+**Capítulo II - O modelo de dados**
+
+1. [Existem diversos tipos de modelos de banco de dados](#2.1)
+1. [Processo de Desenvolvimento de Banco de dados](#1.6)
+1. [Modelo Lógico](#1.6)
+    1. [Elementos](#1.6)
+1. [Modelo Físico](#1.6)
+1. [Comparação](#1.6)
+1. [Banco de Dados Relacional](#1.6)
+1. [Necessidades](#1.6)
+
+
+1. O banco de dados PostgreSQL
+1. Construção do modelo no PostgreSQL
+
+## Capítulo I - Conhecendo a Taberna
+
+## 1. Introdução
+Neste projeto iremos utilizar como exemplo de negócio um empreendimento famoso conhecido na literatura que é a Taberna do Pônei Saltitante localizada na cidade de Bree presente nas obras de J.R.R. Tolkien.
+
+![The Lord of the Ring](https://i.pinimg.com/originals/3b/31/e3/3b31e34debef0e079a148d8941af59de.jpg)
+
 ## Habilidades que serão aprendidas
 Neste projeto serão apresentadas técnicas de modelagem de banco de dados e dicas importantes para construir uma base de dados organizada evitando redundâncias.
 
@@ -17,26 +48,6 @@ Neste projeto serão apresentadas técnicas de modelagem de banco de dados e dic
 
 > Manipular e construir objetos conceituais facilita a documentação e apresentação de projetos de banco de dados.
 
-**CapítuloI - Conhecendo a Taberna**
-
-1. [Conhecendo a Taberna](banco_de_dados_conhecendo_a_taberna.html)
-1. [Modelo de dados e o Processo de Desenvolvimento de Banco de Dados](banco_de_dados_modelos_de_dados.html)
-1. [Iniciando a Analise](banco_de_dados_iniciando_analise.html)
-1. [O SQLDeveloper](banco_de_dados_sqldeveloper_com_postgresql.html)
-1. [As Entidades](as_entidades.html)
-1. [Os Atributos](os_atributos.html)
-1. [A Chave primária](a_chave_primaria.html)
-1. [Especialização e Generalização](especializacao_generalizacao.html)
-1. [Relacionamentos](relacionamentos.html)
-1. [O Auto-relacionamento](auto_relacionamento.html)
-1. [Normalização](normalizacao.html)
-1. O banco de dados PostgreSQL
-1. Construção do modelo no PostgreSQL
-
-## 1. Introdução
-Neste projeto iremos utilizar como exemplo de negócio um empreendimento famoso conhecido na literatura que é a Taberna do Pônei Saltitante localizada na cidade de Bree presente nas obras de J.R.R. Tolkien.
-
-![The Lord of the Ring](https://i.pinimg.com/originals/3b/31/e3/3b31e34debef0e079a148d8941af59de.jpg)
 
 ## 2. O projeto
 
@@ -94,30 +105,31 @@ Para tal, procura implementar um sistema informatizado para registrar as seguint
 - Quanto cada empregado vendeu por período?
 - Qual o produto mais vendido?
 
---------------------
+## Capítulo II - O modelo de dados
+
 Sob a estrutura do banco de dados está o modelo de dados: um conjunto de ferramentas conceituais usadas para a descrição de dados, relacionamentos entre dados, semântica de dados e regras de consistência.
 
 ![The Pillars of the Kings](http://tolkiengateway.net/w/images/9/97/Ted_Nasmith_-_The_Pillars_of_the_Kings.jpg)
 
-## Existem diversos tipos de modelos de banco de dados, entre eles:
+## 1. Existem diversos tipos de modelos de banco de dados, entre eles:
 - Modelo de Arquivos flat;
 - Modelo Relacional;
 - Modelo Hierárquico;
 - Modelo de Rede;
 - Modelo Orientado a Objeto;
 
-## Processo de Desenvolvimento de Banco de dados.
+## 2. Processo de Desenvolvimento de Banco de dados.
 - Requisitos de informações de negócio - Analise e interpretação da Regra de negócio;
 - Modelagem de dados Conceitual - Construção do Modelo Lógico;
 - Design de Banco de dados - Construção do Modelo Relacional;
 - Criação do Banco de Dados - Construção do modelo no PostgreSQL utilizando comandos SQL;
 
-## Modelo Lógico
+## 3. Modelo Lógico
 Tem por base a percepção de que o mundo real é formado por um conjunto de objetos chamados entidades e pelo conjunto dos relacionamentos entre esse objetos.
 
 Tem o objetivo de facilmente ser interpretado por todos os usuários, utilizando diagramas e representações gráficas dos objetos do negócio.
 
-### Elementos
+### 3.1 Elementos
 1. Entidades;
 1. Atributos e a sua opcionalidade;
 1. Especialização e Generalização;
@@ -127,7 +139,7 @@ Exemplo:
 
 ![Modelo lógico](https://1.bp.blogspot.com/-su8B-5NlNq8/WhzflZ1dmnI/AAAAAAAANcc/NB8CnwX7xFMzzMuXhFCKlfvKwTz5dQ8xgCLcBGAs/s320/Logical.png)
 
-## Modelo Físico
+## 4. Modelo Físico
 Estende detalhes do modelo de lógico e tem as seguintes características:
 
 - Define com precisão tipos de dados e definições de tabelas;
@@ -139,7 +151,7 @@ Exemplo:
 
 ![](https://2.bp.blogspot.com/-4WkXSYf00_s/WiCd-gdpBrI/AAAAAAAANdo/54VhOg6_iWU1enoF9rKl4shhVCT0_nAmwCPcBGAYYCw/s320/Relacional.pngs)
 
-## Comparação
+## 5. Comparação
 
 | Análise             |Design               |
 |:-                   |:-                   |
@@ -152,7 +164,7 @@ Exemplo:
 |Relacionamento	      |Chave Estrangeira    |
 |Restrição de Negócio	|Restrições de Verificação|
 
-## Banco de Dados Relacional
+## 6. Banco de Dados Relacional
 - Armazena informações em tabelas com linhas e colunas;
 - Uma tabela é uma coleção de registros;
 - Uma linha é denominada registro ou instância;
@@ -173,19 +185,19 @@ Exemplo:
 |2|	698.474.456-78|	Arwen de Valfenda|	P|	Valfenda| 	arwenvalfenda@gmail.com |	F|	13|
 
 
--------------------
+## Capítulo III - Criando o modelo de dados
 
 Neste capitulo iremos iniciar a analise das necessidades de negócio utilizando o conceito de Regra de Negócio para orientar a análise.
 
 ![The King under the Mountain](http://tolkiengateway.net/w/images/thumb/3/3c/Alan_Lee_-_The_King_under_the_Mountain.jpg/424px-Alan_Lee_-_The_King_under_the_Mountain.jpg)
 
-## A Regra de negócio
+## 1. A Regra de negócio
 - Permite ao desenvolvedor/arquiteto entender o relacionamento e as restrições das entidades participantes;
 - Ajuda a entender o procedimento de padronização seguido por uma organização ao lidar com um grande volume de dados;
 - Devem ser simples e fáceis de entender;
 - Devem estar atualizadas;
 
-## Mãos a obra
+## 2. Mãos a obra
 
 ![Celebrimbor](http://tolkiengateway.net/w/images/4/4f/Angus_McBride_-_Celebrimbor.gif)
 
@@ -195,7 +207,7 @@ O nosso objetivo é extrair informações da regra de negócio a fim de identifi
 1. Devemos ser capazes de detalhar as características de cada objeto identificado;
 1. Os objetos devem ser de fácil construção em uma tabela/lista;
 
-### Objetos extraídos
+### 3. Objetos extraídos
 #### Pedidos dos clientes.
 
 |NÚMERO|	DATA    |	PRODUTO            |CLIENTE    |
@@ -261,7 +273,7 @@ O nosso objetivo é extrair informações da regra de negócio a fim de identifi
 > - Informação
 > - Conhecimento
 
-## Regras e restrições
+## 4. Regras e restrições
 ![The One Ring](http://tolkiengateway.net/w/images/thumb/e/ef/One_ring.png/300px-One_ring.png)
 
 > Um Anel para governar todos eles,     
@@ -274,14 +286,12 @@ Um Anel para trazê-los todos e na escuridão prendê-los.
 |Os Clientes tem uma determinada raça; O sexo dos clientes são registrados como M = Masculino e F = Feminino;|Um cliente tem uma raça e uma raça pode estar presente em vários clientes;Somente as letras M ou F podem ser registrados para cada cliente;|
 
 
------
-
-## Características
+## Capítulo III - O SQLDeveloper com PostgreSQL
 - Ferramenta gráfica desenvolvida pela ORACLE;
 - Permite a implementação de estruturas de banco de dados executando comandos SQL;
 - Construção de modelos lógicos e físicos;
 
-## Instalação
+## 1. Instalação
 1. Instalando no linux Ubuntu
   - Instalando Java 8;
   - Baixando o  SQLDeveloper Oracle;
@@ -325,13 +335,12 @@ Um Anel para trazê-los todos e na escuridão prendê-los.
   - Execute o `SQLDeveloper.exe`;
   - Adicione o driver do PostgreSQL : Menu->Ferramentas->Banco de Dados->Drivers JDBC de Terceiros;
 
-## Data Modeler
+## 2. Data Modeler
 - `Menu` > `Exibir` > `Data Modeler` > `Browser`;
 - Na janela Browser clique no Modelo Lógico com botão direito e escolha Mostrar para que barra de menu apresente as opções de construção de modelos;
 
------
-## Entidade.
-
+## Capítulo - O modelo lógico
+## 1. Entidade.
 Define-se entidade como aquele objeto que existe no mundo real com uma identificação distinta e com um significado próprio.
 
 São coisas que existem no negócio, ou ainda, descrevem o negócio.
@@ -345,9 +354,9 @@ Exemplo :
 - Produtos (código, endereço, valor)
 - Cidade (id,nome, estado)
 
-## Representação no modelo lógico.
+## 2 Representação no modelo lógico.
 
-## Representação no modelo relacional (Tabela).
+### 2.1 Representação no modelo relacional (Tabela).
 
     Tabela Cliente.
     CLIENTE ID 	CPF 	Nome 	Tipo 	Endereco 	...
@@ -355,71 +364,70 @@ Exemplo :
     2	787.354.789-55	Legolas	N	Valfenda	...
     3	000.000.000-00	Gandalf	E	Terra Média	...
 
-## Restrições
+### 2.2 Restrições
 
 - Os nomes não podem conter espaços em branco;
 - Não usar caracteres especiais "@#$%¨&*";
 - Não usar palavras reservadas: INSERT, UPDATE, DELETE, SELECT e etc;
 - Tamanho de 30 caracteres;
 
------
-
+## Capítulo - V os relacionamentos
 Toda entidade é representada por um conjunto de atributos.
 
 Exemplo modelo relacional:
 
 Atributos são propriedades descritivas de entidades. Cada instância de CLIENTE será formada por valores nestes atributos, e o conjunto destes valores devemos visualizar como uma linha de uma tabela.
+
 ID 	CPF 	NOME 	TIPO 	ENDERECO 	EMAIL 	SEXO_ID 	CIDADE_ID
 1	001.546.578-04	Aragorn Passos Largos	P	Gondor 	aragorn21@gmail.com, passos.largos@hotmail.com 	M	35
 2	698.474.456-78	Arwen de Valfenda	P	Valfenda 	arwenvalfenda@gmail.com 	F	13
 3	000.000.000-00	Gandalf o Cinzento	E	Terra Média 		M	35
 Tipos de atributos
 
-    Simples.
+### Simples.
 
-    Expressam um valor indivisível. Exemplo : SEXO_ID
-    Compostos.
+Expressam um valor indivisível. Exemplo : SEXO_ID
 
-    Expressam mais de um valor, pode ser dividido. Exemplo: NOME e ENDERECO
-    Monovalorados.
+### Compostos.
+Expressam mais de um valor, pode ser dividido. Exemplo: NOME e ENDERECO
 
-    Exemplo : CIDADE_ID para a entidade cliente
-    Multivalorado.
+###   Monovalorados.
+Exemplo : CIDADE_ID para a entidade cliente
 
-    Pode contar vários valores. Exemplo : EMAIL
-    Atributos nulos.
+###  Multivalorado.
 
-    Podem ser nulos. Exemplo : EMAIL
-    Atributo derivado.
-        O valor deriva de outro atributo. Exemplo : VALOR TOTAL
-        O VALOR TOTAL é construído com outros objetos ou atributos como descontos, acréscimos e A SOMA TOTAL DE TODOS OS PRODUTOS daquela venda.
+Pode contar vários valores. Exemplo : EMAIL
 
-Restrições
+### Atributos nulos.
+Podem ser nulos. Exemplo : EMAIL
 
-    Os nomes não podem conter espaços em branco;
-    Não usar caracteres especiais "@#$%¨&*";
-    Não usar palavras reservadas: VARCHAR,CHAR,INTEGER e etc;
-    Tamanho de 30 caracteres;
+### Atributo derivado.
+- O valor deriva de outro atributo. Exemplo : VALOR TOTAL
+- O VALOR TOTAL é construído com outros objetos ou atributos como descontos, acréscimos e A SOMA TOTAL DE TODOS OS PRODUTOS daquela venda.
 
-Representação
+## 3. Restrições
+- Os nomes não podem conter espaços em branco;
+- Não usar caracteres especiais "@#$%¨&*";
+- Não usar palavras reservadas: VARCHAR,CHAR,INTEGER e etc;
+- Tamanho de 30 caracteres;
 
-    # - Chave primária ou (P) no modelo relacional;
-    F - Chave estrangeira, somente no modelo relacional;
-    O - Atributo;
-    * - Obrigatório;
+## 4. Representação
+- # - Chave primária ou (P) no modelo relacional;
+- F - Chave estrangeira, somente no modelo relacional;
+- O - Atributo;
+- * - Obrigatório;
 
-------
-
+## Capítulo - VI Os atributos
 Este(s) atributo(s) cujos valores nunca se repetem, sempre tem(têm) a função de atuar(em) como identificador(es) único(s) das instâncias da entidade.
 Chave primária então é o atributo (ou conjunto de atributos concatenados) que identifica uma única ocorrência dentro de uma tabela.
 
-Representação no modelo lógico (#).
-Representação no modelo relacional (P).
-A coluna ID é a chave primária da tabela e apresenta as seguintes características:
+- Representação no modelo lógico (#).
+- Representação no modelo relacional (P).
+- A coluna ID é a chave primária da tabela e apresenta as seguintes características:
 
-Não se repete
-Não é nula
-É um índice (estrutura de acesso mais rápida)
+- Não se repete
+- Não é nula
+- É um índice (estrutura de acesso mais rápida)
 
 
 CLIENTE ID 	CPF 	NOME 	TIPO 	ENDERECO 	EMAIL 	SEXO_ID 	CIDADE_ID
@@ -427,9 +435,9 @@ CLIENTE ID 	CPF 	NOME 	TIPO 	ENDERECO 	EMAIL 	SEXO_ID 	CIDADE_ID
 2	698.474.456-78	Arwen de Valfenda	P	Valfenda 	arwenvalfenda@gmail.com 	F	13
 3	000.000.000-00	Gandalf o Cinzento	E	Terra Média 		M	35
 
-----
+## Capítulo - VII Especializações
 
-Especialização
+## Especialização
 
 Considere a entidade CLIENTE, ela pode ser definida em um conjunto de entidades classificados como :
 
