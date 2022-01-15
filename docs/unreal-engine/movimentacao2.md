@@ -1,3 +1,10 @@
+---
+title: Movimentação estruturada
+description: Movimentação estruturada.
+tags: [Unreal Engine, HUD, user interface,UI]
+layout: page
+---
+
 # Movimentação estruturada
 
 > 1. []()

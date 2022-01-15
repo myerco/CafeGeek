@@ -284,29 +284,52 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 
 <a name="2.3"></a>
 ## 3. Motivação
-- Salvar a amada ou amigo;
 
-  ![Figura: Resident Evil 7 é melhor game já feito na série [análise] - https://canaltech.com.br](https://t.ctcdn.com.br/jjmLXI8pBWg2AvrETWFterqDf-U=/512x288/smart/i299893.jpeg "Figura: Resident Evil 7 é melhor game já feito na série [análise] - https://canaltech.com.br")
+**Salvar a amada ou amigo.**
 
-  > *Figura: Resident Evil 7 é melhor game já feito na série [análise] - https://canaltech.com.br .*
+![Figura: Resident Evil 7 é melhor game já feito na série [análise] - https://canaltech.com.br](https://t.ctcdn.com.br/jjmLXI8pBWg2AvrETWFterqDf-U=/512x288/smart/i299893.jpeg "Figura: Resident Evil 7 é melhor game já feito na série [análise] - https://canaltech.com.br")
 
-- Sobrevivência;
+> *Figura: Resident Evil 7 é melhor game já feito na série [análise] - https://canaltech.com.br/games/resident-evil-7-e-melhor-game-ja-feito-na-serie-analise-89764/ .*
 
-  ![Figura: 7 Days to Die Review - https://www.lifewire.com](https://www.lifewire.com/thmb/EjcsuTLZtk_3UMN7Evd6xFcrY88=/800x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1LW4164252-4-341174c3997543728bd2b024c6e2a309.jpg "Figura: 7 Days to Die Review - https://www.lifewire.com")
+O que você faria se sua amada ficasse presa em uma casa mal assombrada e possivelmente possuída por uma entidade maligna?
+
+Se a resposta é "Vou reativar o Facebook e  Tinder" acredito que uma boa dica é jogar esse jogo e tentar entender as motivações do personagem central.
+
+![Figura: O Livro de Eli: significado do filme -  https://www.culturagenial.com/o-livro-de-eli-significado-do-filme/](https://cdn.culturagenial.com/imagens/o-livro-de-eli1-cke.jpg "Figura: O Livro de Eli: significado do filme -  https://www.culturagenial.com/o-livro-de-eli-significado-do-filme/")
+
+> *Figura: O Livro de Eli: significado do filme -  https://www.culturagenial.com/o-livro-de-eli-significado-do-filme/ .*
+
+
+O personagem central só consegue enxergar o seu real caminho quando percebe que ele não fez o que o livro ensinava, ajudar o outro e se conectar com alguém.    
+
+Cumprir a sua missão o tinha transformado em **um** individuo alheio aos problemas dos outros, nas palavras dele "Siga seu caminho, não é da sua conta".
+
+- [IMDB **6,9**](https://www.imdb.com/title/tt1037705/)
+- [Metacritic **53**](https://www.metacritic.com/movie/the-book-of-eli)
+
+**Sobrevivência.**
+
+![Figura: 7 Days to Die Review - https://www.lifewire.com](https://www.lifewire.com/thmb/EjcsuTLZtk_3UMN7Evd6xFcrY88=/800x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1LW4164252-4-341174c3997543728bd2b024c6e2a309.jpg "Figura: 7 Days to Die Review - https://www.lifewire.com")
 
   > *Figura: 7 Days to Die Review - https://www.lifewire.com .*
 
-- Vingança;
+**Vingança.**
 
-  ![Figura: Ryse: Son of Rome review - https://www.digitaltrends.com](https://icdn.digitaltrends.com/image/digitaltrends/ryse-son-of-rome-screenshot-3-625x417-c.jpg "Figura: Ryse: Son of Rome review - https://www.digitaltrends.com")
+![Figura: Ryse: Son of Rome review - https://www.digitaltrends.com](https://icdn.digitaltrends.com/image/digitaltrends/ryse-son-of-rome-screenshot-3-625x417-c.jpg "Figura: Ryse: Son of Rome review - https://www.digitaltrends.com")
 
-  > *Figura: Ryse: Son of Rome review - https://www.digitaltrends.com .*
+> *Figura: Ryse: Son of Rome review - https://www.digitaltrends.com .*
 
-- Salvar o mundo?
+![cenarios-gladiador](imagens/cenarios-gladiador.jpg)  
 
-  ![Figura: Call of Duty: Modern Warfare: A guerra nunca muda - https://www.tecmundo.com.br](https://img.ibxk.com.br/2019/10/30/30092242177082.jpg?ims=704x "Figura: Call of Duty: Modern Warfare: A guerra nunca muda - https://www.tecmundo.com.br")
+A busca pela vingança fez o personagem trilhar o caminho cegamente e violentamente.
 
-  > *Figura: Call of Duty: Modern Warfare: A guerra nunca muda - https://www.tecmundo.com.br .*
+A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas de vilão.
+
+**Salvar o mundo?**
+
+![Figura: Call of Duty: Modern Warfare: A guerra nunca muda - https://www.tecmundo.com.br](https://img.ibxk.com.br/2019/10/30/30092242177082.jpg?ims=704x "Figura: Call of Duty: Modern Warfare: A guerra nunca muda - https://www.tecmundo.com.br")
+
+> *Figura: Call of Duty: Modern Warfare: A guerra nunca muda - https://www.tecmundo.com.br .*
 
 <a name="2.4"></a>
 ## 4. Morte

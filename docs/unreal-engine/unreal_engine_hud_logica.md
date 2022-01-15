@@ -221,8 +221,6 @@ No evento click dos botões vamos adicionar os eventos construídos dentro da *G
   - **Open Menu Principal** para abrir o menu principal;
   - **Open Menu Resume** para abrir o menu de pausa e resumo do jogo;
 
-#### Desafio
-1. Apresente vários elementos visuais no menu, como por exemplo: Botões e imagens de fundo personalizados.
 
 ***
 ## Referências

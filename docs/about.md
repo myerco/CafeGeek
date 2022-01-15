@@ -18,7 +18,7 @@ Olá, meu nome é [Marco Yerco](mailto:myerco@gmail.com) analista de sistemas e 
   - ETL Pentaho
 - Desenvolvedor
   - Ruby on Rails
-- Coordenador de Soluções Administrativas   
+- Coordenação de Soluções Administrativas   
   - Gestão de projetos
 - Desenvolvimento de jogos   
   - Computação Gráfica    

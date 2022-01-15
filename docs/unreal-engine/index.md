@@ -66,7 +66,6 @@ layout: page
 ***
 **Capítulo VII - Multiplayer em C++**            
 1. [Multiplayer](multiplayer.html)
-1. [Convertendo para c++](convertendo_blueprint_para_c++.html)    
 
 ***
 **Capítulo VIII - Efeitos especiais**

@@ -7,7 +7,7 @@ layout: page
 
 [Niagara Visual Effects](https://docs.unrealengine.com/en-US/Engine/Niagara/index.html)
 
-### Estrutura
+## Estrutura
 1. Módulos
 Os módulos funcionam em um paradigma de gráfico - você pode criar módulos com HLSL no Editor de scripts usando um gráfico de nó visual. Módulos são equivalentes aos comportamentos de *Cascade*. Módulos comunicam dados comuns, encapsulam comportamentos e empilham juntos.
 1. Emissores  

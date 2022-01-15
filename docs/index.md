@@ -6,10 +6,11 @@ layout: home
 ---
 
 <p align="center">
-<img align="center" width="100" height="100" src="imagens/cafegeek_small.png" alt="Logo cafegeek_small">
+<img align="center" width="100" height="100" src="imagens/cafegeek_small.png" alt="Logo cafegeek_small" title="CafeGeek">
 </p>
 
-## Desenvolvimento de jogos
+**Desenvolvimento de jogos**
+
 - [Desenvolvimento de jogos utilizando Unreal Engine - C++ e Blueprint](unreal-engine/index.html)    
 - [Computação Gráfica com Unreal Engine e Autodesk Maya](computacao-grafica/index.html)   
 <!--- [Modelagem usando Autodesk Maya](autodesk-maya/index.html)   -->
@@ -18,10 +19,12 @@ layout: home
 <!--- [Porque eu amo Game Design](porque_eu_amo_game_design/index.html)   -->
 - [Trabalhos](trabalhos/index.html)
 
-## Programação em C++
+**Programação em C++**
+
 - [Estrutura da linguagem](cpp/index.html)  
 
-## Banco de Dados
+**Banco de Dados**
+
 - [A taberna do Pônei Saltitante](a_taberna_ponei_saltitante/index.html)
 <!-- - [Segurança com Oracle](#)-->
 <!-- - [Consultas analíticas usando Rank](#)    -->
