@@ -101,21 +101,20 @@ O objeto deste curso é apresentar a Definição do que é um jogo, os tipos de 
 - Analise e defina tipos de jogos;    
 - Analise e defina os tipos de jogadores;      
 - Conheça o mercado de jogos digitais;    
-- Implemente um protótipo de jogo;  
+- Implemente um protótipo de jogo;
+
+**[⬆ Capítulo I](#1)**
 
 <a name="1.2"></a>
 ## 2. O que é um jogo?
-Podemos definir um jogo através das suas principais características comuns de um jogo.
+Podemos definir um jogo através das suas principais características.
 - Atividade recreativa;
 - Regras que estabelecem quem vence e quem perde;
 - Competição física ou mental;
 - Conjunto de procedimentos e estratégias para atingir determinado fim;
+- Atividade em que existe a figura do jogador (como indivíduo praticante).
 
-![Wikipédia](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Wikipedia-logo-v2-pt.svg/203px-Wikipedia-logo-v2-pt.svg.png "Wikipédia")
-
-Segundo a Wikipédia jogo é toda e qualquer atividade em que exista a figura do jogador (como indivíduo praticante) e regras que podem ser para ambiente restrito ou livre.
-
-Jogo é um termo do latim, *jocus*, que significa brincadeira, divertimento.
+A origem da palavra deriva do de um termo do latim, *jocus*, que significa brincadeira, divertimento, atualmente podemos explorar as principais características e definições que nos ajudam a entender a evolução dessa "brincadeira" que faz parte das nossas vidas.
 
 <a name="1.2.1"></a>
 ### 2.1 Teria o jogo lugar no sistema de vida?
@@ -126,12 +125,14 @@ Jogo é um termo do latim, *jocus*, que significa brincadeira, divertimento.
 
 Há uma extraordinária divergência entre as numerosas tentativas de definição da função biológica do jogo. Umas definem as origens e fundamento do jogo em termos de descarga da energia vital superabundante, outras como satisfação de um certo "instinto de imitação", ou ainda simplesmente como uma "necessidade" de distensão.
 
-Podemos citar algumas teorias que buscam definir o jogo.
+Quando pensamos no aspecto humano e evolutivo temos não podemos deixar de citar algumas teorias que buscam definir o jogo.
+
 - O jogo constitui uma preparação do jovem para as tarefas sérias que mais tarde a vida dele exigirá.
 - Trata-se de um exercício de autocontrole indispensável ao indivíduo.
 - Um impulso inato para exercer uma certa faculdade, ou como desejo de dominar ou competir.
 - Teorias há, ainda, que o consideram uma "ab-reação" (descarga emocional pela qual um indivíduo se liberta do afeto que acompanha a recordação de um acontecimento traumático), um escape para impulsos prejudiciais, um restaurador da energia dispendida por uma atividade unilateral, ou "realização do desejo", ou uma ficção destinada a preservar o sentimento do valor pessoal.
 
+**[⬆ Capítulo I](#1)**
 
 <a name="1.3"></a>
 ## 3. Homo Ludens
@@ -150,6 +151,12 @@ Walter Benjamin (1984)
 "...O riso, por exemplo, está de certo modo em oposição à seriedade, sem de maneira alguma estar diretamente ligado ao jogo. Os jogos infantis, o futebol e o xadrez são executados dentro da mais profunda seriedade, não se verificando nos jogadores a menor tendência para o riso. É curioso notar que o ato puramente fisiológico de rir é exclusivo dos homens, ao passo que a função significante do jogo é comum aos homens e aos animais. O *animal ridens* de Aristóteles caracteriza o homem, em
 oposição aos animais, de maneira quase tão absoluta quanto o *homo sapiens*".
 
+Em contrapartida devemos lembrar que o riso no filme O Nome da Rosa teve outra conotação, segue a abaixo um trecho da conversa do Willian com um monge.
+
+"...O riso é um evento demoníaco que deforma as linhas do rosto e faz os homens parecerem macacos”; "O riso mata o temor e sem o temor não pode haver fé!")."
+
+**[⬆ Capítulo I](#1)**
+
 <a name="1.4"></a>
 ## 4. A Tensão como um elemento do jogo
 ![Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise](https://img.ibxk.com.br/2014/10/15/15193231547073.jpg?ims=704x "Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise")
@@ -157,9 +164,17 @@ oposição aos animais, de maneira quase tão absoluta quanto o *homo sapiens*".
 > *Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise .*
 
 Tensão significa incerteza, acaso. Há um esforço para levar o jogo até ao desenlace, o jogador quer que
-alguma coisa "vá" ou "saia", pretende "ganhar" à custa de seu próprio esforço. Uma criança estendendo a mão para
+alguma coisa "vá" ou "saia", pretende "ganhar" à custa de seu próprio esforço.
+
+Uma criança estendendo a mão para
 um brinquedo, um gatinho brincando com um novelo, uma garotinha jogando bola, todos eles procuram conseguir
 alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como se costuma dizer.
+
+![Figura: Brinquedos para gatos: por que os bichanos gostam de novelo de lã? - https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1](https://static1.patasdacasa.com.br/articles/5/19/65/@/9211-o-novelo-de-la-para-gatos-esta-na-lista-articles_media_desktop-2.jpg "Figura: Brinquedos para gatos: por que os bichanos gostam de novelo de lã? - https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1")
+
+> *Figura: Brinquedos para gatos: por que os bichanos gostam de novelo de lã? - https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1 .*
+
+**[⬆ Capítulo I](#1)**
 
 <a name="1.5"></a>
 ## 5. A função do jogo?
@@ -172,6 +187,8 @@ A função do jogo, nas formas mais elevadas que aqui nos interessam, pode de ma
 - Uma luta por alguma coisa ou a representação de alguma coisa.
 
 Estas duas funções podem também por vezes confundir-se, de tal modo que o jogo passe a "representar" uma luta, ou, então, se torne uma luta para melhor representação de alguma coisa.
+
+**[⬆ Capítulo I](#1)**
 
 <a name="1.6"></a>
 ## 6. O papel da sociedade
@@ -188,7 +205,7 @@ Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um 
 ## 6.2 O jogo e a Guerra
 ![O jogo e a guerra](https://lh3.googleusercontent.com/eHCIaFbDB3dEjinKTkIp5AOuGRL9S8taKXnuuQyJM_ZLsxrHjdYMvUb7OISIuOWJwS9a1kwlERn5n0akqx_jUnfjXUazb4TzMqvKrA4zAwNU7Lwn0NSFAyTJlwZgs0a3BiefXfXF7Q "O jogo e a guerra")
 
-É difícil não associar a guerra ao jogo mas o contrário é possível.
+É difícil não associar a guerra ao jogo mas o contrário é possível, na guerra o objetivo e conquistar ou subjugar o seu oponente.
 
 <a name="1.6.3"></a>
 ## 6.3 O jogo e o Direito
@@ -209,6 +226,8 @@ Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o 
 
 A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo, designá-las e com essa designação elevá-las ao domínio do espírito. Na criação da fala e da linguagem,  brincando com essa maravilhosa faculdade de designar, é como se o espírito estivesse constantemente saltando  entre a matéria e as coisas pensadas. Por detrás de toda expressão abstrata se oculta uma metáfora, e toda metáfora  é jogo de palavras. Assim, ao dar expressão à vida, o homem cria um outro mundo, um mundo poético, ao lado do  da natureza.
 
+**[⬆ Capítulo I](#1)**
+
 <a name="1.7"></a>
 ## 7. Algumas considerações sobre o jogo
 ![The Thinker](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Mus%C3%A9e_Rodin_1.jpg/220px-Mus%C3%A9e_Rodin_1.jpg "The Thinker")
@@ -217,6 +236,8 @@ O autor apresenta as suas interpretações de elementos presentes na nossa socie
 - Não deveríamos considerar  a justiça como um jogo de ganhar e perder pois isso não melhora as grandes diferenças sociais na nossa sociedade.
 
 Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como por exemplo economia, relacionamentos, comunicação e outros, mas com uma nova roupagem denominada "Gamificação" que estudaremos nos próximos capítulos.
+
+**[⬆ Capítulo I](#1)**
 
 ***
 <a name="2"></a>
@@ -238,6 +259,8 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 - Compra;
 - Diversão.
 
+**[⬆ Capítulo II](#2)**
+
 <a name="2.2"></a>
 ## 2. O que é jogar?
 ![Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/](http://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg "Figura: Jogador Nº 1 | Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/")
@@ -250,6 +273,8 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 - Entretenimento;
 - Inclusão social;
 - Cultura.
+
+**[⬆ Capítulo II](#2)**
 
 <a name="2.3"></a>
 ## 3. Por que jogar?
@@ -308,27 +333,30 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
 
 <a name="2.3.2"></a>
 ### 3.2 Fatores não motivacionais
-![Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm](https://tm.ibxk.com.br/2021/08/09/09131221401170.jpg "Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm")
-
-> *Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm .*
-
 Estão ligados na avaliação da mensagem que está sendo transmitida.
 - Comunicação visual;
 - Comunicação auditiva e sensorial.
 
+![Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm](https://tm.ibxk.com.br/2021/08/09/09131221401170.jpg "Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm")
+
+> *Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm .*
+
 <a name="2.3.2.1"></a>
 #### 3.2.1 Respostas sensoriais.
-- Gráficos.      
-  ![tecnoblog.net](https://files.tecnoblog.net/wp-content/uploads/2020/08/dez-dicas-para-dominar-horizon-zero-dawn005.png "10 dicas para dominar Horizon Zero Dawn")
+**Gráficos.**
 
-- Som.       
-  ![www.techtudo.com.br](https://s2.glbimg.com/WZEsU9OtfinBadWtEwruyHlueBg=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/C/o/4CJ1NPR2u4MTx3BMyY2A/journey-como-jogar-amigo.jpg "Como jogar Journey com um amigo? Confira dicas e tudo sobre o game")
+![tecnoblog.net](https://files.tecnoblog.net/wp-content/uploads/2020/08/dez-dicas-para-dominar-horizon-zero-dawn005.png "10 dicas para dominar Horizon Zero Dawn")
 
-- Música.        
-  [![Life Is Strange Soundtrack - To All Of You By Syd Matters](http://img.youtube.com/vi/LnG6icGIm0o/0.jpg)](https://www.youtube.com/watch?v=LnG6icGIm0o "Life Is Strange Soundtrack - To All Of You By Syd Matters")
+**Som.**       
+![www.techtudo.com.br](https://s2.glbimg.com/WZEsU9OtfinBadWtEwruyHlueBg=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/C/o/4CJ1NPR2u4MTx3BMyY2A/journey-como-jogar-amigo.jpg "Como jogar Journey com um amigo? Confira dicas e tudo sobre o game")
 
-- Efeitos especiais.        
-  ![10 Best Lighting and Particle Effects We Saw In 2011](https://gamingbolt.com/wp-content/gallery/10-best-particle-and-lighting-effects-we-saw-in-2011/assassins-creed-revelations.jpg "Assassin's Creed: Revelations")
+**Música.**        
+
+[![Life Is Strange Soundtrack - To All Of You By Syd Matters](http://img.youtube.com/vi/LnG6icGIm0o/0.jpg)](https://www.youtube.com/watch?v=LnG6icGIm0o "Life Is Strange Soundtrack - To All Of You By Syd Matters")
+
+**Efeitos especiais.**
+
+![10 Best Lighting and Particle Effects We Saw In 2011](https://gamingbolt.com/wp-content/gallery/10-best-particle-and-lighting-effects-we-saw-in-2011/assassins-creed-revelations.jpg "Assassin's Creed: Revelations")
 
 <a name="2.3.2.2"></a>
 #### 3.2.2 Jogabilidade
@@ -341,6 +369,8 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 <a name="2.3.2.3"></a>
 #### 3.2.3 Coordenação
 ![rollingstone.uol.com.br](https://rollingstone.uol.com.br/media/_versions/guitar_hero_reproducao_widelg.jpg "Guitar Hero: 15 clássicos do game que você provavelmente tocou muito")
+
+**[⬆ Capítulo II](#2)**
 
 ***
 <a name="3"></a>
@@ -415,34 +445,41 @@ Sistema formal fechado que subjetivamente representa uma extensão da realidade.
 
 <a name="4.2"></a>
 ## 2. Características dos jogos Eletrônicos
-### Foco.
+
+**Foco.**
+
 ![Top Games Free](http://1.bp.blogspot.com/-amcIuWezKHM/VA3vWLcYvXI/AAAAAAAABwE/DXI1Tn6rDsI/s1600/002.jpg "F22 Raptor")
 
 Capacidade do jogador de se concentrar nos objetivos e ações principais.
 
-### Interatividade.
+**Interatividade.**
+
 ![Brasil Academicos](http://2.bp.blogspot.com/_cM2l6Y3Ulgg/Sfi6LBnLGoI/AAAAAAAABqo/dWz5kQT2qpg/s1600/sangueCorrompido.jpg "Praga no jogo World of Warcraft ajuda a entender pandemia")
 
 Capacidade dos jogadores realizarem ações participativas nos jogos.
 
-### Conflito.
+**Conflito.**
+
 ![comboinfinito](https://www.comboinfinito.com.br/principal/wp-content/uploads/2014/05/far-cry-4-historia.jpg "Detalhes da história de Far Cry 4 surgem no site da Ubisoft")
 
 São elementos importantes que geram oportunidades aos jogadores e trazem consigo a essência do jogo, como medo, responsabilidade e interatividade.
 
-### Segurança.
+**Segurança.**
+
 ![Microsoft Xbox](https://news.xbox.com/pt-br/wp-content/uploads/sites/8/2021/11/Hellblade_-Senuas-Sacrifice-2021-08-04-01-00-58.jpg "Hellblade: Senua’s Sacrifice recebe aprimoramento para o PC")
 
 Envolve aplicar características de realidade como morte, ferimentos, quedas e acidentes de forma lúdica, porém responsável.
 
-### Desafio.
+**Desafio.**
+
 ![JogaZera](https://jogazera.com.br/wp-content/uploads/2014/03/Dark-Souls-2-Review-770x433.jpg "Review – Dark Souls 2")  
 
 Regras definem o grau de desafio (Fácil, Médio, Difícil, Muito Difícil e Impossível).
 
 Definem a identidade do jogo.
 
-### Divertimento
+**Divertimento.**
+
 ![Microsoft Xbox](https://store-images.s-microsoft.com/image/apps.54644.65129518710082559.30d43137-919f-4215-820e-038b409fb968.0c2054cc-681a-4f51-b2ad-8bd0318ba61d "Unravel")  
 
 É a experiência ou emoção que deriva do comportamento do jogador.
@@ -481,19 +518,23 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 <a name="4.5"></a>
 ## 5. O custo de produção
-### 2009
+
+**2009.**
+
 ![https://pt.wikipedia.org/wiki/Call_of_Duty:_Modern_Warfare_2](https://upload.wikimedia.org/wikipedia/pt/d/db/Modern_Warfare_2_cover.PNG "Call of Duty: Modern Warfare 2")
 
 - Call of Duty: Modern Warfare 2 - $200 million;
 - Star Wars: Clone Wars: Jedi Alliance - $15 million;
 - Left 4 Dead 2 - $25 million (marketing).
 
-### 2010
+**2010.**
+
 ![https://br.ign.com/god-of-war-iii-remastered/5744/review/review-god-of-war-3-remastered](https://sm.ign.com/t/ign_br/review/g/god-of-war/god-of-war-3-remastered-review_ecmu.1024.jpg "God of War III Remastered")
 
 - God of War III - $44 million.
 
-### 2011
+**2011.**
+
 ![https://jovemnerd.com.br/nerdbunker/battlefield-3-de-graca-pc/](https://uploads.jovemnerd.com.br/wp-content/uploads/2020/12/battlefield-3-de-graca-pc.jpg "Battlefield 3")
 
 - Battlefield 3 - $2.75 million (Facebook marketing);
@@ -501,16 +542,19 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 - Homefront - $50 million.
 
 
-### 2012
+**2012.**
+
 ![https://www.ubisoft.com/pt-br/game/ghost-recon/future-soldier#39Ol19xBe9jHOV3HmYkl8K](https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5jf0OVAu11cRMSmAX1P2yQ/0fbef4bc9eb901fd7b12aa0b79f32724/-GRFS-_Screenshot_-_6.jpg "Ghost Recon Future Soldier")
 - Ghost Recon: Future Soldier - €50 million.
 
-### 2013
+**2013.**
+
 ![https://www.techtudo.com.br/review/disney-infinity.ghtml](https://s2.glbimg.com/5Zw6bFIK4an2e4c22X98N6f3jMw=/0x0:300x200/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/c/T/ETBWDpSKidhOOZ9d8ZXQ/glbimg.com-po-tt-f-300x200-2013-10-18-cover-large.jpg "Disney Infinity")
 
 - Disney Infinity - $100 million.
 
-### 2014
+**2014.**
+
 ![https://pt.wikipedia.org/wiki/Destiny_(jogo_eletr%C3%B4nico)](https://upload.wikimedia.org/wikipedia/pt/b/be/Destiny_box_art.png "Destiny")
 
 - Destiny - $140 million;
