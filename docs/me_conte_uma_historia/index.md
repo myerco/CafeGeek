@@ -277,6 +277,8 @@ O projeto é limitado por vários fatores, dentre eles:
 - Star Wars;
 - Harry Potter.
 
+**[⬆ Início](#indice)**
+
 <a name="2.2"></a>
 ## 2. Personalidade
 - Como ele caminha;
@@ -316,6 +318,8 @@ O projeto é limitado por vários fatores, dentre eles:
   > *Figura: ANÁLISE: Grand Theft Auto V - https://adrenaline.com.br .*
 
 **Cuidado com histórias licenciadas!!!**
+
+**[⬆ Início](#indice)**
 
 <a name="2.3"></a>
 ## 3. Motivação
@@ -366,6 +370,8 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 
 > *Figura: Call of Duty: Modern Warfare: A guerra nunca muda - https://www.tecmundo.com.br .*
 
+**[⬆ Início](#indice)**
+
 <a name="2.4"></a>
 ## 4. Morte
 - Valorize a morte do seu personagem.
@@ -387,6 +393,8 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 
   > *Figura: “Far Cry 3” vai te deixar sem vida social - https://tecnoblog.net/ .*
 
+**[⬆ Início](#indice)**
+
 <a name="2.5"></a>
 ## 5. Nome
 Escolha nomes para os seus personagens.
@@ -394,6 +402,8 @@ Escolha nomes para os seus personagens.
 ![Figura: Commander Shepard's first name is probably Sarah, or Jack - https://www.vg247.com](http://assets.vg247.com/current//2014/05/mass_effect_shepard_names.jpg "Figura: Commander Shepard's first name is probably Sarah, or Jack - https://www.vg247.com")
 
 > *Figura: Commander Shepard's first name is probably Sarah, or Jack - https://www.vg247.com .*
+
+**[⬆ Início](#indice)**
 
 <a name="2.6"></a>
 ## 6. Forma
@@ -418,6 +428,7 @@ Escolha nomes para os seus personagens.
 
 > *Figura: Child of Light: Análise - https://culturanerdegeek.com.br .*
 
+**[⬆ Início](#indice)**
 
 <a name="2.7"></a>
 ## 7. Customização
@@ -437,6 +448,8 @@ Escolha nomes para os seus personagens.
 
 > *Figura: Best Guns in Super People - https://progameguides.com .*
 
+**[⬆ Início](#indice)**
+
 <a name="2.8"></a>
 ## 8. Não estamos sozinhos
 
@@ -448,6 +461,8 @@ Escolha nomes para os seus personagens.
 - Tem que ser úteis no gameplay;
 - Complexidade na IA;
 - Os opostos se atraem;
+
+**[⬆ Início](#indice)**
 
 <a name="2.9"></a>
 ## 9. NPC- Personagens não jogáveis
@@ -471,6 +486,8 @@ Escolha nomes para os seus personagens.
 - Um Elogio a nosso herói;
 - Humor.
 
+**[⬆ Início](#indice)**
+
 ***
 <a name="3"></a>
 ## Capitulo III - Eles todos me querem morto
@@ -489,6 +506,8 @@ Escolha nomes para os seus personagens.
 - Homem versus self;
 - Homem versus homem;
 - Homem versus criaturas;
+
+**[⬆ Início](#indice)**
 
 <a name="3.2"></a>
 ## 2. Forma segue a função
@@ -546,6 +565,8 @@ Escolha nomes para os seus personagens.
 
 > *Figura: Phases of Dealing With Hidden Trauma *
 
+**[⬆ Início](#indice)**
+
 <a name="3.3"></a>
 ## 3. Lutar com inimigos deve ser divertido
 Os inimigos dever enfrentados, não evitados.
@@ -559,6 +580,8 @@ Os inimigos dever enfrentados, não evitados.
 - Eles têm a chave;
 - Você precisa tirar seu poder;
 
+**[⬆ Início](#indice)**
+
 <a name="3.4"></a>
 ## 4. Ataques
 
@@ -571,6 +594,8 @@ Os inimigos dever enfrentados, não evitados.
 - Com projéteis;
 - Dano persistente;
 - Ataques telegrafados.
+
+**[⬆ Início](#indice)**
 
 <a name="3.5"></a>
 ## 5. Nem tudo é ataque
@@ -588,6 +613,8 @@ Os inimigos dever enfrentados, não evitados.
 - Parasita;
 - Comportamento inesperado;
 - Vulnerabilidades ou resistências.
+
+**[⬆ Início](#indice)**
 
 <a name="3.6"></a>
 ## 6. Faça o jogador odiar seu inimigo
@@ -607,6 +634,8 @@ Top 10 Most Annoying Video Game Enemies of All Time -  https://twinfinite.net .*
 - Carrasco - Desafia e insulta o jogador no curso do jogo, mas não confronta ou o ataca diretamente
 - Tempo - Relógio fazendo tique-taque
 - Competidor humano - Jogador versus jogador
+
+**[⬆ Início](#indice)**
 
 <a name="3.7"></a>
 ## 7. BOSS
@@ -651,6 +680,8 @@ Top 10 Most Annoying Video Game Enemies of All Time -  https://twinfinite.net .*
 > *Figura: This Is Why I Hate Video Game Boss Fights - This Is Why I Hate Video Game Boss Fights .*
 
 - Locação;
+
+**[⬆ Início](#indice)**
 
 ***
 ## Referências
