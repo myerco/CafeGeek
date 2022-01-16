@@ -1,6 +1,6 @@
 ---
-title: Entendendo a lógica de programação com **C++**com Unreal Engine
-description: Neste capítulo será apresentado o modelo da lógica de programação utilizando **C++** com Unreal Engine
+title: Entendendo a lógica de programação com C++com Unreal Engine
+description: Neste capítulo será apresentado o modelo da lógica de programação utilizando C++ com Unreal Engine
 unreal_engine: Unreal Engine 5
 tags: [Unreal Engine,Blueprint]
 cover-img: "/imagens/cafegeek_small.png"
@@ -9,23 +9,32 @@ layout: unreal_engine
 
 Neste capítulo será apresentado o modelo da lógica de programação utilizando **C++** com Unreal Engine.
 
-
 ## Índice
-1. **[O que são Blueprints e Visual Scripting?](#1)**  
-    1. [Características](#1.1)  
-    1. [Representação da construção do projeto no Unreal Engine](#1.2)
-1. **[Trabalhando com Levels](#2)**      
-1. [Atividades](#8)
+1. [Unreal e C++](#1)  
+1. [Mas quanto usar a linguagem  C++?](#2)  
+    1. [Blueprints vs C++](#2.1)  
+    1. [O que é ideal?](#2.2)  
+1. [O fluxo de desenvolvimento e Herança](#3)  
+1. [Uma breve história sobre Herança](#4)  
+1. [Tipos de variáveis](#5)  
+1. [Construindo classes C++ no Unreal Engine](#6)  
+    1. [Pasta privada com os arquivos header das classes](#6.1)  
+    1. [Exemplo de um arquivo header com variáveis](#6.2)  
+1. [Sintaxe da linguagem e C++ e macros do Unreal Engine](#7)  
+    1. [Include](#7.1)  
+    1. [Encapsulamento](#7.2)  
+    1. [UCLASS](#7.3)  
+    1. [UFUNCTION](#7.4)
+    1. [UPROPERTY](#7.5)
+1. [Funções Virtuais - virtual](#8)
 
 ***
 
-Neste capítulo vamos utilizar a linguagem **C++** para o desenvolvimento.
-
 <a name="1"></a>
 ## 1. Unreal e C++
-O **C++**por ter como base de desenvolvimento o C tem o benefício da rapidez e da portabilidade para diversas plataformas e ainda permite a implementação de classes, tornando a linguagem em uma boa candidata para o desenvolvimento de projetos com necessidade de velocidade acessando recursos de baixo nível e construção de classes.
+O **C++** por ter como base de desenvolvimento o C tem o benefício da rapidez e da portabilidade para diversas plataformas e ainda permite a implementação de classes, tornando a linguagem em uma boa candidata para o desenvolvimento de projetos com necessidade de velocidade acessando recursos de baixo nível e construção de classes.
 
-O Unreal Egine utiliza a linugagem **C++**aproveitando todas as funcionalidades que a linguagem fornece, como por exemplo o gerenciamento otimizado de memória, quanto a implementação a Engine fornece muitos elementos para auxiliar a codificação tornando-a mais fácil, entre eles a utilização de macros e objetos primitivos próprios da Engine.
+O Unreal Egine utiliza a linguagem **C++** aproveitando todas as funcionalidades que a linguagem fornece, como por exemplo o gerenciamento otimizado de memória, quanto a implementação a Engine fornece muitos elementos para auxiliar a codificação tornando-a mais fácil, entre eles a utilização de macros e objetos primitivos próprios da Engine.
 
 **[⬆ Volta para o início](#índice)**
 <a name="2"></a>
@@ -35,8 +44,8 @@ Não há uma resposta definitiva dessa questão mas podemos considerar algumas d
 <a name="2.1"></a>
 ### 2.1 Blueprints vs C++
 - Blueprints são mais fáceis de ser lidos e entendidos pelos membros da equipe;
-- **C++**evitam sobrecarga de chamadas de função economizando ciclos de CPU;
-- **C++**Conseguem acesso a `Library Math`;
+- **C++** evita sobrecarga de chamadas de função economizando ciclos de CPU;
+- **C++** Conseguem acesso a `Library Math`;
 - É possível utilizar um sistema de versionamento como por exemplo o Git ou SVN com **C++**;
 - Blueprints necessitam de ferramenta específica para versionamento;
 - Para projetos em plataformas mobile o recomendado é **C++**.
@@ -48,9 +57,10 @@ Não há uma resposta definitiva dessa questão mas podemos considerar algumas d
 - Para equipes pequenas com cultura de desenvolvimento e necessidade de processamento é recomendado **C++**.
 
 **[⬆ Volta para o início](#índice)**
+
 <a name="3"></a>
 ## 3. O fluxo de desenvolvimento e Herança
-Um modelo de desenvolvimento utilizando **C++**pode ser visto abaixo onde primeiro criamos a classe do objeto A em **C++**e depois uma classe Blueprint B filha da classe A. Fazendo isso pode-se aproveitar as características de ambas linguagens, como por exemplo: lógica em **C++**e parametrização de componentes visuais usando o Editor Blueprint.  
+Um modelo de desenvolvimento utilizando **C++** pode ser visto abaixo onde primeiro criamos a classe do objeto A em **C++** e depois uma classe Blueprint B filha da classe A. Fazendo isso pode-se aproveitar as características de ambas linguagens, como por exemplo: lógica em **C++** e parametrização de componentes visuais usando o Editor Blueprint.  
 
 Exemplo:
 

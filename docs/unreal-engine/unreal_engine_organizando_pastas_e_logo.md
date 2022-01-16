@@ -12,8 +12,8 @@ Neste capitulo vamos organizar as pastas do projeto *ProjetoAula*, construído n
 
 ## Índice
 1. **[Como criar pastas de trabalho?](#1)**
-    1. [Nomenclatura e organização de pastas no Unreal Engine](#1.1)
-    1. [Benefícios da organização de pastas](#1.2)    
+    1. [Defina e utilize uma Nomenclatura e organização de pastas](#1.1)
+    1. [Os benefícios da organização de pastas](#1.2)    
 1. **[Configurando o projeto](#2)**    
     1. [Adicionando um Level na inicialização do projeto](#2.1)
     1. [Configurando as imagens do projeto](#2.2)
@@ -27,7 +27,7 @@ Neste capitulo vamos organizar as pastas do projeto *ProjetoAula*, construído n
 No **Unreal Egnine** em `Content Drawer` utilizando botão direito do mouse clique em `New Folder` para criar pastas.
 
 <a name="1.1"></a>
-### 1.1 Nomenclatura e organização de pastas no Unreal Engine
+### 1.1 Defina e utilize uma Nomenclatura e organização de pastas
 A organização de arquivos e pastas dentro dos projetos de desenvolvimento de softwares é bastante relevante para reduzir o tempo de programação e custo.
 
 Em projetos de desenvolvimento de jogos, no **Unreal Engine**, temos diversos tipos de arquivos com caraterísticas distintas que influenciam na sua forma de armazenamento, como por exemplo:
@@ -98,8 +98,8 @@ Por conseguinte para um maior gerenciamento pelas equipes do projeto  podemos de
 ```
 
 <a name="1.2"></a>
-### 1.2 Benefícios na organização das pastas
-Separar a pasta do projeto `Content` de outras pastas pode facilitar:
+### 1.2 Os benefícios na organização das pastas
+Separar a pasta do projeto `Content` de outras pastas pode facilitar e trazer vários benefícios durante o desenvolvimento do projeto, abaixo elencamos alguns:
 1. Versionamento - pastas com diferentes versões;
 1. Isolar pacotes de testes e *Marketplace*;
 1. DLC ou subprojetos - podemos administrar separadamente projetos relacionados;
@@ -121,7 +121,9 @@ Separar a pasta do projeto `Content` de outras pastas pode facilitar:
 
 <a name="2"></a>
 ## 2. Configurando o projeto
-Neste passo vamos configurar alguns parâmetros do projeto.
+Preparar o projeto antes de começar o desenvolvimento é importante para que possamos otimizar algumas tarefas e preparar o jogo com a configuração inicial, neste passo vamos configurar alguns parâmetros do projeto.
+
+Nos próximos capítulos vamos utilizar outras opções do menu de configuração como por exemplo o [mapeamento de *Input* (teclas ou controles)](http://cafegeek.eti.br/unreal-engine/trabalhando_com_logica_movimentacao_de_personagem.html#13).
 
 <a name="2.1"></a>
 ### 2.1 Adicionando um *Level* na inicialização do projeto
