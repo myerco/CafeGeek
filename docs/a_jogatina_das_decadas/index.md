@@ -12,61 +12,49 @@ A história dos jogos na sociedade e seus diferentes tipos, entenda o que são j
 
 1. [Introdução](#1.1)
 2. [O que é um jogo?](#1.2)
-    1. [Teria o jogo lugar no sistema de vida?](#1.2.1)
-3. [Homo Ludens](#1.3)    
-4. [A Tensão como um elemento do jogo](#1.4)        
-5. [A função do jogo](#1.5)            
-6. [O papel da sociedade](#1.6)    
-6.1  [O jogo Arte e Cultura](#1.6.1)    
-6.2  [O jogo e a Guerra](#1.6.2)        
-6.3  [O jogo e a Direito](#1.6.3)    
-6.4  [O jogo e a Linguagem](#1.6.4)        
-7.    [Algumas considerações sobre o jogo](#1.7)   
+1. [Teria o jogo lugar no sistema de vida?](#1.3)
+3. [Homo Ludens](#1.4)    
+4. [A Tensão como um elemento do jogo](#1.5)        
+
+**[Capítulo II - Qual a função do jogo?](#2 "Qual a função do jogo?")**
+
+1. [O papel do jogo na sociedade?](#2.1)    
+    1.  [O jogo Arte e Cultura](#2.1.1)    
+    1.  [O jogo e a Guerra](#2.1.2)        
+    1.  [O jogo e a Direito](#2.1.3)    
+    1.  [O jogo e a Linguagem](#2.1.4)        
+1.    [Algumas considerações sobre o jogo](#2.2)   
 
 ***
-**[Capítulo II - Quem Joga?](#2 "Capítulo II - Quem Joga?")**
+**[Capítulo III - Quem Joga?](#3 "Capítulo II - Quem Joga?")**
 
-1. [O jogador](#2.1)
-1. [O que é jogar?](#2.2)
-1. [Por que jogar?](#2.3)
-    1. [Fatores motivacionais](#2.3.1)
-        1. [Exploração](#2.3.1.1)
-        1. [Fantasia](#2.3.1.2)
-        1. [Quebrar as regras sociais](#2.3.1.3)
-        1. [Exercitar-se](#2.3.1.4)                        
-        1. [Demonstrar-se](#2.3.1.5)        
-        1. [Sociabilizar-se](#2.3.1.6)        
-        1. [Reconhecimento](#2.3.1.7)        
-        1. [Aprendizado](#2.3.1.8)        
-        1. [Marca](#2.3.1.9)                
-    1. [Fatores não motivacionais](#2.3.2)  
-        1. [Respostas sensoriais](#2.3.1.1)
-        1. [Jogabilidade](#2.3.1.1)
-        1. [Cognição](#2.3.1.1)
-        1. [Coordenação](#2.3.1.1)                            
+1. [O jogador](#3.1)
+1. [O que é jogar?](#3.2)
+1. [Por que jogar?](#3.3)
+1. [Os Fatores motivacionais](#3.4)
+1. [Fatores não motivacionais](#3.5)  
+
 
 ***
-**[Capítulo III - Classificação](#3 "Capítulo III - Classificação")**
+**[Capítulo IV - Como são classificados os jogos?](#4 "Capítulo IV - Como são classificados os jogos?")**
 
-1. [Como são classificados os jogos?](#3.1)
-1. [Tabuleiro](#3.2)
-1. [Cartas](#3.3)
-1. [Atléticos](#3.4)
-1. [Infantis](#3.5)
-1. [Eletrônicos](#3.6)
+1. [Tabuleiro](#4.1)
+1. [Cartas](#4.2)
+1. [Atléticos](#4.3)
+1. [Infantis](#4.4)
+1. [Eletrônicos](#4.5)
 
 ***
-**[Capítulo IV - O Jogo Eletrônico](#4 "Capítulo IV - O Jogo Eletrônico")**
+**[Capítulo V - O que é um jogo eletrônico?](#5 "Capítulo V - O que é um jogo eletrônico?s")**
 
-1. [O que é um jogo eletrônico?](#4.1)
-1. [Características dos jogos Eletrônicos](#4.2)
-1. [Tipos de jogos Eletrônicos](#4.3)
-1. [O mercado de jogos eletrônicos](#4.4)
-1. [O custo de produção](#4.5)
-1. [Complexidade](#4.6)
-1. [Jogos mobile](#4.7)
-1. [Evolução dos jogos eletrônicos](#4.8)
-1. [Era dos Videogames](#4.9)
+1. [Características dos jogos Eletrônicos](#5.1)
+1. [Tipos de jogos Eletrônicos](#5.2)
+1. [O mercado de jogos eletrônicos](#5.3)
+1. [Qual o custo de produção de jogo eletrônico?](#5.4)
+1. [Complexidade e valor de produção](#5.5)
+1. [Evolução dos jogos eletrônicos](#5.6)
+1. [Era dos Videogames](#5.7)
+1. [Jogos mobile](#5.8)
 
 ***
 <a name="1"></a>
@@ -117,8 +105,8 @@ Podemos definir um jogo através das suas principais características.
 
 A origem da palavra deriva do de um termo do latim, *jocus*, que significa brincadeira, divertimento, atualmente podemos explorar as principais características e definições que nos ajudam a entender a evolução dessa "brincadeira" que faz parte das nossas vidas.
 
-<a name="1.2.1"></a>
-### 2.1 Teria o jogo lugar no sistema de vida?
+<a name="1.3"></a>
+## 3. Teria o jogo lugar no sistema de vida?
 
 ![Figura: Life is a game. This is your strategy guide - https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/](https://oliveremberton.com/app/uploads/2014/02/Cover-shallow-1800x1100.png "Figura: Life is a game. This is your strategy guide - https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/")
 
@@ -135,8 +123,8 @@ Quando pensamos no aspecto humano e evolutivo temos não podemos deixar de citar
 
 **[⬆ Início](#indice)**
 
-<a name="1.3"></a>
-## 3. Homo Ludens
+<a name="1.4"></a>
+## 4. Homo Ludens
 
 ![Figura: Soraia Chung: “O brincar elabora uma ideia de humanidade” - https://alana.org.br/entrevista-soraia-chung-brincar/](https://alana.org.br/wp-content/uploads/2021/05/brincar.png.webp "Figura: Soraia Chung: “O brincar elabora uma ideia de humanidade” - https://alana.org.br/entrevista-soraia-chung-brincar/")
 
@@ -158,7 +146,7 @@ Em contrapartida devemos lembrar que o riso no filme O Nome da Rosa teve outra c
 
 **[⬆ Início](#indice)**
 
-<a name="1.4"></a>
+<a name="1.5"></a>
 ## 4. A Tensão como um elemento do jogo
 ![Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise](https://img.ibxk.com.br/2014/10/15/15193231547073.jpg?ims=704x "Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise")
 
@@ -177,8 +165,15 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 
 **[⬆ Início](#indice)**
 
-<a name="1.5"></a>
-## 5. A função do jogo?
+***
+<a name="2"></a>
+## Capítulo II -  Qual a função do jogo?
+
+> "Eu me sinto presa, apenas livre para me expandir dentro dos limites.
+(Motoko Kusanagi)""
+>
+> O Fantasma do Futuro
+
 ![Figura: The Last of Us 2: No controle de uma balada de vingança, beleza e cansaço... - https://www.uol.com.br/start/ultimas-noticias/2020/06/15/the-last-of-us-2-a-vinganca-de-ellie-so-e-plena-nos-acordes-do-cansaco.htm?cmpid=copiaecola ](https://conteudo.imguol.com.br/c/entretenimento/09/2020/06/07/the-last-of-us-parte-ii-1591561975954_v2_1170x540.jpg)
 
 > *Figura: The Last of Us 2: No controle de uma balada de vingança, beleza e cansaço... - https://www.uol.com.br/start/ultimas-noticias/2020/06/15/the-last-of-us-2-a-vinganca-de-ellie-so-e-plena-nos-acordes-do-cansaco.htm?cmpid=copiaecola .*
@@ -191,25 +186,25 @@ Estas duas funções podem também por vezes confundir-se, de tal modo que o jog
 
 **[⬆ Início](#indice)**
 
-<a name="1.6"></a>
-## 6. O papel da sociedade
+<a name="2.1"></a>
+## 1. O papel do jogo na sociedade?
 O ser humano, tal como todos os seres da escala biológica, tem como característica principal o movimento. O jogo surge relacionado a esse assunto, por ser a melhor demonstração dessa predominância no homem, além de atuar como um valoroso contribuinte no desenvolvimento global do mesmo.
 
-<a name="1.6.1"></a>
-## 6.1 O jogo Arte e Cultura
+<a name="2.1.1"></a>
+## 1.1 O jogo Arte e Cultura
 ![O jogo na arte](https://lh3.googleusercontent.com/mw2jVchK_0h4nZ3mm41sEkul6669asv3ifiwqzuCzKNXNLBoWTpvJbq-UaaaIuNjFxu50qukPCIIo9PEWW3cs4-XDbe2N8WHoEZW_JvUkWlnquWNHQbaQTkS0oXlpuTVpWsbzZGGJw "O jogo na arte")
 
 O processo criativo e construção de elementos imaginários estão presentes nas caracterizas dos jogos.
 Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um belo e nobre jogo começou por ser um jogo sagrado. Os torneios e justas, as ordens, os votos, os títulos, são  todos vestígios dos ritos de iniciação primitivos.
 
-<a name="1.6.2"></a>
-## 6.2 O jogo e a Guerra
+<a name="2.1.2"></a>
+## 1.2 O jogo e a Guerra
 ![O jogo e a guerra](https://lh3.googleusercontent.com/eHCIaFbDB3dEjinKTkIp5AOuGRL9S8taKXnuuQyJM_ZLsxrHjdYMvUb7OISIuOWJwS9a1kwlERn5n0akqx_jUnfjXUazb4TzMqvKrA4zAwNU7Lwn0NSFAyTJlwZgs0a3BiefXfXF7Q "O jogo e a guerra")
 
 É difícil não associar a guerra ao jogo mas o contrário é possível, na guerra o objetivo e conquistar ou subjugar o seu oponente.
 
-<a name="1.6.3"></a>
-## 6.3 O jogo e o Direito
+<a name="2.1.3"></a>
+## 1.3 O jogo e o Direito
 ![O jogo e o direito](https://lh4.googleusercontent.com/0UyjVE8iYejdGuduppAcytXaEVPAV8aMX3INMhuJw72tQBS8xy1Sq_8vS9JpZSZNgQ81lfxM_BmCJObWEa9bkGPfZNnMuQbWfy551KWCF1b2R1Rg3iiRXta3mwNOvzunKDaU5gvonw "O Jogo e o Direito")
 
 Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o Luizinga associa o "processo" a um jogo considerando o seguinte:
@@ -220,8 +215,8 @@ Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o 
 - **Regras e Leis** - A competição judicial está  sempre submetida a um sistema de regras restritivas que, independentemente das limitações de tempo e de lugar,  colocam firme e inequivocamente o julgamento no interior do domínio do jogo ordenado e antitético
 - **A justiça** - Se fizermos com que nosso olhar passe da  administração da justiça nas civilizações altamente desenvolvidas para aquela que se encontra nas fases menos  adiantadas da cultura, veremos que a ideia do bem e do mal, a concepção ético-jurídica, é ultrapassada pela ideia de  ganhar ou perder, isto é, pela concepção puramente agonística. O que interessa ao espírito primitivo não é tanto o  problema abstrato do bem e do mal, mas principalmente o problema extremamente concreto de ganhar ou perder.
 
-<a name="1.6.4"></a>
-## 6.4 O jogo e a Linguagem
+<a name="2.1.4"></a>
+## 1.4 O jogo e a Linguagem
 
 ![O jogo e a linguagem](https://lh6.googleusercontent.com/n6cRsalJRwjvmqPAKs36Qyj_U1nLNtnaOASUInR4dTl4STFpN0v-kMHtM58tk5oLhyZvqyzdrrwLeef0Vy235S6Fu6el59K0V76hYosAy8kAfyw46GYRlGSn_H23fjAvcEoEquhgZg "O jogo e a linguagem")
 
@@ -229,8 +224,8 @@ A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo
 
 **[⬆ Início](#indice)**
 
-<a name="1.7"></a>
-## 7. Algumas considerações sobre o jogo
+<a name="2.2"></a>
+## 2. Algumas considerações sobre o jogo
 ![The Thinker](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Mus%C3%A9e_Rodin_1.jpg/220px-Mus%C3%A9e_Rodin_1.jpg "The Thinker")
 
 O autor apresenta as suas interpretações de elementos presentes na nossa sociedade e os caracteriza como jogo na sua definição, devemos lembrar que o HUIZINGA utiliza e define jogo na Perspectiva do jogador e extrai classificações do objeto em estudo dentro de um tempo e realidade por conseguinte devemos considerar os seguintes aspectos:
@@ -241,14 +236,14 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 **[⬆ Início](#indice)**
 
 ***
-<a name="2"></a>
-## Capítulo II - Quem joga?
+<a name="3"></a>
+## Capítulo III - Quem joga?
 
 > "Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior do que apenas eu mesmo."
 >
 > Jogador Nº1.
 
-<a name="2.1"></a>
+<a name="3.1"></a>
 ## 1. O jogador
 ![Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women](https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp "Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women")
 
@@ -262,7 +257,7 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 
 **[⬆ Início](#indice)**
 
-<a name="2.2"></a>
+<a name="3.2"></a>
 ## 2. O que é jogar?
 ![Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/](http://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg "Figura: Jogador Nº 1 | Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/")
 
@@ -277,7 +272,7 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 
 **[⬆ Início](#indice)**
 
-<a name="2.3"></a>
+<a name="3.3"></a>
 ## 3. Por que jogar?
 
 ![Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia - https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/](https://lavrapalavra.com/wp-content/uploads/2021/01/apagar.png "Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia - https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/")
@@ -292,48 +287,49 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 
 [https://www.teachthought.com/learning/why-people-play-video-games/](https://www.teachthought.com/learning/why-people-play-video-games/ "Why People Play Video Games")
 
-<a name="2.3.1"></a>
-## 3.1 Fatores motivacionais
+<a name="3.4"></a>
+## 4. Os Fatores motivacionais
 Estão diretamente ligados ao desejo do jogadora sua construção social, leitura, cinema, arte e televisão.
 
-<a name="2.3.1.1"></a>
-### 3.1.1 Exploração.
+**Exploração.**
+
 ![wallpaperflare.com Star Trek](https://c4.wallpaperflare.com/wallpaper/73/158/467/star-trek-wallpaper-preview.jpg "wallpaperflare.com Star Trek")
 
-<a name="2.3.1.2"></a>
-### 3.1.2 Fantasia.
+
+**Fantasia.**
+
 ![Final Fantasy VII Remake – Como Traduzir o Jogo para Português](https://361605-1208129-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2021/12/Final-Fantasy-7-Remake-Intergrade-PS5-Wallpapers-10.jpg "Final Fantasy VII Remake – Como Traduzir o Jogo para Português")
 
-<a name="2.3.1.3"></a>
-### 3.1.3 Quebrar as regras sociais.
+
+**Quebrar as regras sociais.**
+
 ![/www.arkade.com.br](https://www.arkade.com.br/wp-content/uploads/2020/08/gta-v.jpg "GTA V retorna ao Xbox Game Pass, mas agora com suporte ao xCloud")
 
-<a name="2.3.1.4"></a>
-#### 3.1.4 Exercitar-se.
+**Exercitar-se.**
+
 ![Just Dance 2022](https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3Vu9VvXvEXI0krA0UE0gIK/4fe4d0ea69a2d1c4254ecda81737ca4e/jd22-promo-02-china.jpg "Just Dance 2022")
 
-<a name="2.3.1.5"></a>
-#### 3.1.5 Demonstrar-se.
+**Demonstrar-se.**
+
 ![The Gamer](https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/04/Demon-Hunter-Tier-20-Cropped.jpg?q=50&fit=crop&w=740&dpr=1.5 "10 Most Epic Tier Sets In World Of Warcraft")
 
-<a name="2.3.1.6"></a>
-#### 3.1.6 Sociabilizar-se*.
+**Sociabilizar-se*.**
+
 ![/www.techtudo.com.br](https://s2.glbimg.com/Ajwl8JcF1B1ozCPrhSOI5OgYAa8=/0x0:695x269/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/C/x/E4BtaXTB2iJc5FTjVOUg/2014-04-23-wow-raid.jpg "World of Warcraft: conheça AddOns importantes antes de entrar na raide")
 
-<a name="2.3.1.7"></a>
-#### 3.1.7 Reconhecimento.
+**Reconhecimento.**
+
 ![List of Medals available in Call of Duty: Mobile](https://www.touchtapplay.com/wp-content/uploads/2020/12/image-19.png "List of Medals available in Call of Duty: Mobile")
 
-<a name="2.3.1.8"></a>
-#### 3.1.8 Aprendizado.
+**Aprendizado.**
+
 ![https://myplinkit.com](https://myplinkit.com/wp-content/uploads/2020/03/Activities-and-Games_iStock-1127260590_cropped.jpg "Activities + Games You Can Do at Home to Support Your Child’s Learning")
 
-<a name="2.3.1.9"></a>
-#### 3.1.9 Marca.
+**Marca.**
 ![https://medium.com](https://miro.medium.com/max/825/1*M6VI8_01A-At7Nzp2wn6IA.png "Top 20 Game Studios: Who’s Your Favorite?")
 
-<a name="2.3.2"></a>
-### 3.2 Fatores não motivacionais
+<a name="3.5"></a>
+## 5. Fatores não motivacionais
 Estão ligados na avaliação da mensagem que está sendo transmitida.
 - Comunicação visual;
 - Comunicação auditiva e sensorial.
@@ -342,8 +338,9 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 
 > *Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm .*
 
-<a name="2.3.2.1"></a>
-#### 3.2.1 Respostas sensoriais.
+<a name="2.5.1"></a>
+### 5.1 Respostas sensoriais.
+
 **Gráficos.**
 
 ![tecnoblog.net](https://files.tecnoblog.net/wp-content/uploads/2020/08/dez-dicas-para-dominar-horizon-zero-dawn005.png "10 dicas para dominar Horizon Zero Dawn")
@@ -359,38 +356,37 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 
 ![10 Best Lighting and Particle Effects We Saw In 2011](https://gamingbolt.com/wp-content/gallery/10-best-particle-and-lighting-effects-we-saw-in-2011/assassins-creed-revelations.jpg "Assassin's Creed: Revelations")
 
-<a name="2.3.2.2"></a>
-#### 3.2.2 Jogabilidade
+<a name="2.5.2"></a>
+### 5.2 Jogabilidade
+
 ![www.techspot.com](https://static.techspot.com/articles-info/2366/images/2021-11-17-image-2-j.webp "It Takes Two")
 
-<a name="2.3.2.3"></a>
-#### 3.2.3 Cognição
+<a name="2.5.3"></a>
+### 5.3 Cognição
+
 ![www.techtudo.com.br](https://s2.glbimg.com/ys4yzHh8-bS88Kc2mwhuQdW3An0=/0x0:695x393/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/N/K/ray9GLT9GUmH5n4aqwAw/2015-08-21-the-witcher-3-geralt-lutando.jpg "Confira os requisitos de The Witcher 3 e como deixar mais leve no PC")
 
-<a name="2.3.2.3"></a>
-#### 3.2.3 Coordenação
+<a name="2.5.4"></a>
+### 5.4 Coordenação
+
 ![rollingstone.uol.com.br](https://rollingstone.uol.com.br/media/_versions/guitar_hero_reproducao_widelg.jpg "Guitar Hero: 15 clássicos do game que você provavelmente tocou muito")
 
 **[⬆ Início](#indice)**
 
 ***
-<a name="3"></a>
-## Capítulo III - Classificação
+<a name="4"></a>
+## Capítulo IV - Como são classificados os jogos?
 
 > Guerra... A guerra nunca muda.
 >
 > Fallout.
 
 
-<a name="3.1"></a>
-## 1. Como são classificados os jogos?
-
 Podemos classificar os jogos para determinar ou mostrar a sua função dentro de um modelo de lazer ou recreação.
 
-**[⬆ Início](#indice)**
 
-<a name="3.2"></a>
-## 2. Tabuleiro
+<a name="4.1"></a>
+## 1. Tabuleiro
 ![History](https://assets.historyplay.tv/br/public/styles/wide/public/images/2020/05/28/senet_-_jogo_-_egito_-_mortos_-_comunicacao_-_history_channel_brasil.jpg "Senet, o jogo de tabuleiro que os egípcios usavam para se comunicar com os mortos ")
 
 Consistem em uma superfície dividida em setores com peças móveis.
@@ -402,48 +398,48 @@ Consistem em uma superfície dividida em setores com peças móveis.
 
 **[⬆ Início](#indice)**
 
-<a name="3.3"></a>
-## 3. Cartas
+<a name="4.2"></a>
+## 2. Cartas
 ![Jogolaxia](https://jogolaxia.com/files/artigos/jogos-cartas.jpg "Os 10 melhores jogos de cartas para jogar sozinho")
 
 Conjunto de símbolos com valores de combinação lógica, quem em determinadas regras, representam combinação para cada combinação empregada em uma jogada.
 
 **[⬆ Início](#indice)**
 
-<a name="3.4"></a>
-## 4. Atléticos
+<a name="4.3"></a>
+## 3. Atléticos
 ![Brasil Escola](https://s1.static.brasilescola.uol.com.br/galeria/images/85b29f73c4b883f3b44b9e0596a2bdb0.jpg "Voleibol")
 
 São fisicamente aplicados em determinado jogo.
 
 **[⬆ Início](#indice)**
 
-<a name="3.5"></a>
-## 5. Infantis
+<a name="4.4"></a>
+## 4. Infantis
 ![Somos edução](https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_780,h_450/https://blog.elevaplataforma.com.br/wp-content/uploads/2019/12/original-cfd1c117a3b836f3f131e59095fc3154-780x450.jpg "Gamificação na educação: como usá-la no processo pedagógico?")
 
 Brincadeiras físicas e mentais com visões educacionais, cujo objetivo é socializar e educar.
 
 **[⬆ Início](#indice)**
 
-<a name="3.6"></a>
-## 6. Eletrônicos
+<a name="4.5"></a>
+## 5. Eletrônicos
 ![USP imagens](https://imagens.usp.br/wp-content/uploads/games_pedrobolle_uspimagens_001.jpg  "Jogos Eletrônicos")
+
 Trabalham com reflexos, coordenação e cognição.
 
 **[⬆ Início](#indice)**
 
 ***
-<a name="4"></a>
-## Capítulo IV - O Jogo Eletrônico
+<a name="5"></a>
+## Capítulo V - O que é um jogo eletrônico?
 
 > "Nada é verdade, tudo é permitido."
 >
 > Assassin's Creed: Revelations.
 
-<a name="4.1"></a>
-## 1. O que é um jogo eletrônico?
-> O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pessoa, mas ninguém pode mudá-la. Uma coisa que não muda com o tempo é a memória dos dias mais jovens.
+
+"O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pessoa, mas ninguém pode mudá-la. Uma coisa que não muda com o tempo é a memória dos dias mais jovens."
 >
 > The Legend of Zelda: Ocarina of Time
 
@@ -458,8 +454,8 @@ Sistema formal fechado que subjetivamente representa uma extensão da realidade.
 
 **[⬆ Início](#indice)**
 
-<a name="4.2"></a>
-## 2. Características dos jogos Eletrônicos
+<a name="5.1"></a>
+## 1. As características dos jogos Eletrônicos
 
 **Foco.**
 
@@ -503,8 +499,8 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 **[⬆ Início](#indice)**
 
-<a name="4.3"></a>
-## 3. Tipos de jogos Eletrônicos
+<a name="5.2"></a>
+## 2. Os tipos de jogos Eletrônicos
 - RTS: Estratégia em tempo real, jogo não “roda” em torno de turnos.
 - MOBA: Arena de batalha multijogador online, jogador controla um personagem em uma batalha entre dois times aonde o objetivo é derrotar a base principal inimiga.
 - RPG: Jogo de interpretação, o jogador vivencia um personagem que segue uma determinada história predestinada. O jogador controla as ações de um personagem imerso num mundo definido, incorporando elementos. Os personagens possuem status: ataque, defesa, agilidade e inteligência. Existe o sistema de níveis, no qual a cada batalha/missão terminada, se recebe experiência, e uma certa quantidade os leva para um novo nível.
@@ -526,8 +522,8 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 **[⬆ Início](#indice)**
 
-<a name="4.4"></a>
-## 4. O mercado de jogos eletrônicos
+<a name="5.3"></a>
+## 3. O mercado de jogos eletrônicos
 
 > A Sombra,
 >
@@ -537,8 +533,8 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 **[⬆ Início](#indice)**
 
-<a name="4.5"></a>
-## 5. O custo de produção
+<a name="5.4"></a>
+## 4. Qual o  custo de produção de jogo eletrônico?
 
 **2009.**
 
@@ -583,9 +579,9 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 **[⬆ Início](#indice)**
 
-<a name="4.6"></a>
-## 6. Complexidade
-A seguir será apresentado quando custa estimatavemente produzir um jogo digital.
+<a name="5.5"></a>
+## 5. Complexidade e valor de produção
+A seguir será apresentado quando custa estimativamente produzir um jogo digital por ordem de complexidade e custo.
 
 - Mini Games - $3K to $20K
   - Ping-pong e Pac-man clones
@@ -601,71 +597,10 @@ A seguir será apresentado quando custa estimatavemente produzir um jogo digital
 
 **[⬆ Início](#indice)**
 
-<a name="4.7"></a>
-## 7.Jogos mobile
 
-![gamesindustry.biz](https://cdn.gamer-network.net/2019/articles/2019-12-11-12-55/ab.jpg/EG11/resize/646x-1/quality/80/format/jpg "How Angry Birds broke the limits for mobile games")
+<a name="5.6"></a>
+## 6. Evolução dos jogos eletrônicos
 
-São jogos para plataformas móveis como por exemplo celulares ou outros dispositivos móveis.
-
->Em 2021, os jogos para celular representavam quase 50% da receita mundial de videogames, e as coisas não parecem diminuir tão cedo.
->
->As taxas de penetração de celulares e o uso de smartphones para jogos continuam a disparar em escala global. Como resultado, as tendências da indústria de jogos preveem que a receita dos jogos para celular ultrapasse a marca de 100 bilhões de dólares até 2023. [1](https://techjury.net/blog/gaming-industry-worth/)
-
-### Monetização
-Processo de ganhar dinheiro com seu jogo de celular seguindo algumas regras.
-
-- Google play - 90% da receita vieram por meio de anúncios e compras nos jogos.
-
-### Modelos de monetização
-- Gratuito;
-- Receita a longo prazo ;
-- Pago;
-
-  Receita imediata.
-- DLC;
-
-  Extensões de experiência.
-- Pacotes;
-
-  Itens, objetos e facilidades.
-- Modificações;
-
-  Customização de personagens ou do mundo do jogo.
-- Com anúncios;
-
-  De acordo com a InMobi, é mais provável que os usuários de dispositivos móveis cliquem em anúncios em um aplicativo para dispositivos móveis em vez de em sites para dispositivos móveis.
-- Rede de anúncios;
-
-  As redes de anúncios ajudam a conectar seu jogo a grandes bancos de dados de anunciantes, ajudando os anunciantes a atingir seu público-alvo ideal, com você ganhando dinheiro conectando os dois. Existem muitas redes de anúncios para jogos e aplicativos para dispositivos móveis, abaixo estão algumas das principais para conferir.
-  - MoPub
-  - AdMob
-  - Media.net
-  - AirPush
-  - Unity Ads
-  - InMobi
-  - StartApp
-  - MobAds
-  - Chartboost
-
-### Tipos de anúncios
-- Banners;
-- Entre níveis;
-- Mais botões;
-- Envio de mensagens;
-- Vendendo dados;
-- Incentivando Downloads;
-- Cupons de ofertas;
-- Vídeos;
-
-### Qual o melhor modelo?
-“...não há uma resposta certa para isso, já que tudo depende do seu jogo. Estatisticamente, as compras no aplicativo geram mais receita em jogos e aplicativos para dispositivos móveis, mas, se não fizer sentido para o seu jogo ter compras no aplicativo, não faça isso.
-Além disso, muitos jogos para dispositivos móveis combinam e combinam estratégias diferentes (por exemplo, oferecer recompensas por dinheiro, como compras na loja ou gratuitamente, em troca de assistir a um anúncio em vídeo). Então, isso é algo que você precisa considerar.”
-
-**[⬆ Início](#indice)**
-
-<a name="4.8"></a>
-## 8. Evolução dos jogos eletrônicos
 ### 1. Primeira geração (1971-1977)
 A linha começa em 1972, com o Odyssey Magnavox, em sua versão conhecida como "Brown Box". O engenheiro americano Ralph Baer desenhou o protótipo em meados de 1966, mas só em 1971 ele foi licenciado para a Magnavox e lançado no ano seguinte.
 
@@ -740,8 +675,8 @@ Alguns exemplos de jogos dessas gerações são 007 Goldeneye, Super Mário 64, 
 
 **[⬆ Início](#indice)**
 
-<a name="4.9"></a>
-## 9. Era dos Videogames
+<a name="5.7"></a>
+## 7. Era dos Videogames
 ### Nintendo
 A Nintendo, tradicional e inovadora, começou nos arcades (fliperamas) e estreou em 1983 com o console de mesa NES. Em sequência fez o SNES, o Nintendo 64, o GameCube, o Wii , o Wii U e por último o Nintendo Switch.Líder do mercado de portáteis com Game Boy, em seguida Game Boy Color, Game Boy Advance e o console portátil mais vendido da história, o tão conhecido Nintendo DS, no inicio de 2011 lançou o seu novo portátil Nintendo 3DS, que traz um inovador sistema de jogos 3D.Lançou o Wii com uma inovadora jogabilidade com o controle Wiimote, que fez com que ela voltasse a ser a líder do mercado. Na E3 2011 a Nintendo mostrou seu mais novo console, o Wii U, sucessor do Wii, lançado em 18 de Novembro de 2012. O poder gráfico do novo console é superior ao dos consoles de sétima geração.
 
@@ -827,7 +762,69 @@ A Nokia deu início ao projeto envolvendo o Symbian, um sistema operacional que 
 Apesar de ter feito pouco sucesso, esse dispositivo mostrou que a ideia de criar um aparelho com capacidades para jogos era essencial.
 O iPhone 3GS e o iPhone 4, por exemplo, eram tidos como excelentes plataformas para jogos. Foi no iPhone 3GS que surgiu o famoso Andry Birds.
 
-***
+
+<a name="5.8"></a>
+## 8.Jogos mobile
+
+![gamesindustry.biz](https://cdn.gamer-network.net/2019/articles/2019-12-11-12-55/ab.jpg/EG11/resize/646x-1/quality/80/format/jpg "How Angry Birds broke the limits for mobile games")
+
+São jogos para plataformas móveis como por exemplo celulares ou outros dispositivos móveis.
+
+>Em 2021, os jogos para celular representavam quase 50% da receita mundial de videogames, e as coisas não parecem diminuir tão cedo.
+>
+>As taxas de penetração de celulares e o uso de smartphones para jogos continuam a disparar em escala global. Como resultado, as tendências da indústria de jogos preveem que a receita dos jogos para celular ultrapasse a marca de 100 bilhões de dólares até 2023. [1](https://techjury.net/blog/gaming-industry-worth/)
+
+### Monetização
+Processo de ganhar dinheiro com seu jogo de celular seguindo algumas regras.
+
+- Google play - 90% da receita vieram por meio de anúncios e compras nos jogos.
+
+### Modelos de monetização
+- Gratuito;
+- Receita a longo prazo ;
+- Pago;
+
+  Receita imediata.
+- DLC;
+
+  Extensões de experiência.
+- Pacotes;
+
+  Itens, objetos e facilidades.
+- Modificações;
+
+  Customização de personagens ou do mundo do jogo.
+- Com anúncios;
+
+  De acordo com a InMobi, é mais provável que os usuários de dispositivos móveis cliquem em anúncios em um aplicativo para dispositivos móveis em vez de em sites para dispositivos móveis.
+- Rede de anúncios;
+
+  As redes de anúncios ajudam a conectar seu jogo a grandes bancos de dados de anunciantes, ajudando os anunciantes a atingir seu público-alvo ideal, com você ganhando dinheiro conectando os dois. Existem muitas redes de anúncios para jogos e aplicativos para dispositivos móveis, abaixo estão algumas das principais para conferir.
+  - MoPub
+  - AdMob
+  - Media.net
+  - AirPush
+  - Unity Ads
+  - InMobi
+  - StartApp
+  - MobAds
+  - Chartboost
+
+### Tipos de anúncios
+- Banners;
+- Entre níveis;
+- Mais botões;
+- Envio de mensagens;
+- Vendendo dados;
+- Incentivando Downloads;
+- Cupons de ofertas;
+- Vídeos;
+
+### Qual o melhor modelo?
+“...não há uma resposta certa para isso, já que tudo depende do seu jogo. Estatisticamente, as compras no aplicativo geram mais receita em jogos e aplicativos para dispositivos móveis, mas, se não fizer sentido para o seu jogo ter compras no aplicativo, não faça isso.
+Além disso, muitos jogos para dispositivos móveis combinam e combinam estratégias diferentes (por exemplo, oferecer recompensas por dinheiro, como compras na loja ou gratuitamente, em troca de assistir a um anúncio em vídeo). Então, isso é algo que você precisa considerar.”
+
+**[⬆ Início](#indice)**
 
 ## Referências
 - HUIZINGA, Johan. Homo Ludens. Edição 4º. São Paulo: Editora Perspectiva, 2000.
