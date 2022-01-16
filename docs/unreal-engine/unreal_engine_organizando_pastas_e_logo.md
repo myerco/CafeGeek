@@ -1,8 +1,8 @@
 ---
-title: Organizando pastas e logo do projeto
-description: Neste capitulo vamos organizar as pastas do projeto ProjetoAula, construído no Unreal Engine, e vamos configurá-lo
+title: "Organizando pastas e logo do projeto"
+description: Neste capitulo vamos organizar as pastas do projeto construído no Unreal Engine, e vamos configurá-lo
 unreal_engine: Unreal Engine 5
-tags: [Unreal Engine,Organizando,Blueprint,pastas,folder]
+tags: [Unreal Engine, Organizando, Blueprint, pastas, folder]
 layout: unreal_engine
 ---
 

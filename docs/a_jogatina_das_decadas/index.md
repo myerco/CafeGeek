@@ -7,6 +7,7 @@ layout: page
 
 A história dos jogos na sociedade e seus diferentes tipos, entenda o que são jogos eletrônicos e suas características.
 
+<a name="indice"></a>
 **[Capítulo I - O que é um Jogo?](#1 "Capítulo I - O que é um Jogo?")**
 
 1. [Introdução](#1.1)
@@ -103,7 +104,7 @@ O objeto deste curso é apresentar a Definição do que é um jogo, os tipos de 
 - Conheça o mercado de jogos digitais;    
 - Implemente um protótipo de jogo;
 
-**[⬆ Capítulo I](#1)**
+**[⬆ Início](#indice)**
 
 <a name="1.2"></a>
 ## 2. O que é um jogo?
@@ -132,7 +133,7 @@ Quando pensamos no aspecto humano e evolutivo temos não podemos deixar de citar
 - Um impulso inato para exercer uma certa faculdade, ou como desejo de dominar ou competir.
 - Teorias há, ainda, que o consideram uma "ab-reação" (descarga emocional pela qual um indivíduo se liberta do afeto que acompanha a recordação de um acontecimento traumático), um escape para impulsos prejudiciais, um restaurador da energia dispendida por uma atividade unilateral, ou "realização do desejo", ou uma ficção destinada a preservar o sentimento do valor pessoal.
 
-**[⬆ Capítulo I](#1)**
+**[⬆ Início](#indice)**
 
 <a name="1.3"></a>
 ## 3. Homo Ludens
@@ -155,7 +156,7 @@ Em contrapartida devemos lembrar que o riso no filme O Nome da Rosa teve outra c
 
 "...O riso é um evento demoníaco que deforma as linhas do rosto e faz os homens parecerem macacos”; "O riso mata o temor e sem o temor não pode haver fé!")."
 
-**[⬆ Capítulo I](#1)**
+**[⬆ Início](#indice)**
 
 <a name="1.4"></a>
 ## 4. A Tensão como um elemento do jogo
@@ -174,7 +175,7 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 
 > *Figura: Brinquedos para gatos: por que os bichanos gostam de novelo de lã? - https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1 .*
 
-**[⬆ Capítulo I](#1)**
+**[⬆ Início](#indice)**
 
 <a name="1.5"></a>
 ## 5. A função do jogo?
@@ -188,7 +189,7 @@ A função do jogo, nas formas mais elevadas que aqui nos interessam, pode de ma
 
 Estas duas funções podem também por vezes confundir-se, de tal modo que o jogo passe a "representar" uma luta, ou, então, se torne uma luta para melhor representação de alguma coisa.
 
-**[⬆ Capítulo I](#1)**
+**[⬆ Início](#indice)**
 
 <a name="1.6"></a>
 ## 6. O papel da sociedade
@@ -226,7 +227,7 @@ Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o 
 
 A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo, designá-las e com essa designação elevá-las ao domínio do espírito. Na criação da fala e da linguagem,  brincando com essa maravilhosa faculdade de designar, é como se o espírito estivesse constantemente saltando  entre a matéria e as coisas pensadas. Por detrás de toda expressão abstrata se oculta uma metáfora, e toda metáfora  é jogo de palavras. Assim, ao dar expressão à vida, o homem cria um outro mundo, um mundo poético, ao lado do  da natureza.
 
-**[⬆ Capítulo I](#1)**
+**[⬆ Início](#indice)**
 
 <a name="1.7"></a>
 ## 7. Algumas considerações sobre o jogo
@@ -237,7 +238,7 @@ O autor apresenta as suas interpretações de elementos presentes na nossa socie
 
 Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como por exemplo economia, relacionamentos, comunicação e outros, mas com uma nova roupagem denominada "Gamificação" que estudaremos nos próximos capítulos.
 
-**[⬆ Capítulo I](#1)**
+**[⬆ Início](#indice)**
 
 ***
 <a name="2"></a>
@@ -259,7 +260,7 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 - Compra;
 - Diversão.
 
-**[⬆ Capítulo II](#2)**
+**[⬆ Início](#indice)**
 
 <a name="2.2"></a>
 ## 2. O que é jogar?
@@ -274,7 +275,7 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 - Inclusão social;
 - Cultura.
 
-**[⬆ Capítulo II](#2)**
+**[⬆ Início](#indice)**
 
 <a name="2.3"></a>
 ## 3. Por que jogar?
@@ -370,7 +371,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 #### 3.2.3 Coordenação
 ![rollingstone.uol.com.br](https://rollingstone.uol.com.br/media/_versions/guitar_hero_reproducao_widelg.jpg "Guitar Hero: 15 clássicos do game que você provavelmente tocou muito")
 
-**[⬆ Capítulo II](#2)**
+**[⬆ Início](#indice)**
 
 ***
 <a name="3"></a>
@@ -386,6 +387,8 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 
 Podemos classificar os jogos para determinar ou mostrar a sua função dentro de um modelo de lazer ou recreação.
 
+**[⬆ Início](#indice)**
+
 <a name="3.2"></a>
 ## 2. Tabuleiro
 ![History](https://assets.historyplay.tv/br/public/styles/wide/public/images/2020/05/28/senet_-_jogo_-_egito_-_mortos_-_comunicacao_-_history_channel_brasil.jpg "Senet, o jogo de tabuleiro que os egípcios usavam para se comunicar com os mortos ")
@@ -397,6 +400,7 @@ Consistem em uma superfície dividida em setores com peças móveis.
 - 2600 a.C. Mesopotâmia
 - 3600 a.C Egito
 
+**[⬆ Início](#indice)**
 
 <a name="3.3"></a>
 ## 3. Cartas
@@ -404,11 +408,15 @@ Consistem em uma superfície dividida em setores com peças móveis.
 
 Conjunto de símbolos com valores de combinação lógica, quem em determinadas regras, representam combinação para cada combinação empregada em uma jogada.
 
+**[⬆ Início](#indice)**
+
 <a name="3.4"></a>
 ## 4. Atléticos
 ![Brasil Escola](https://s1.static.brasilescola.uol.com.br/galeria/images/85b29f73c4b883f3b44b9e0596a2bdb0.jpg "Voleibol")
 
 São fisicamente aplicados em determinado jogo.
+
+**[⬆ Início](#indice)**
 
 <a name="3.5"></a>
 ## 5. Infantis
@@ -416,10 +424,14 @@ São fisicamente aplicados em determinado jogo.
 
 Brincadeiras físicas e mentais com visões educacionais, cujo objetivo é socializar e educar.
 
+**[⬆ Início](#indice)**
+
 <a name="3.6"></a>
 ## 6. Eletrônicos
 ![USP imagens](https://imagens.usp.br/wp-content/uploads/games_pedrobolle_uspimagens_001.jpg  "Jogos Eletrônicos")
 Trabalham com reflexos, coordenação e cognição.
+
+**[⬆ Início](#indice)**
 
 ***
 <a name="4"></a>
@@ -442,6 +454,9 @@ Trabalham com reflexos, coordenação e cognição.
 *Representação de jogo eletrônico.*
 
 Sistema formal fechado que subjetivamente representa uma extensão da realidade.
+
+
+**[⬆ Início](#indice)**
 
 <a name="4.2"></a>
 ## 2. Características dos jogos Eletrônicos
@@ -486,6 +501,8 @@ Definem a identidade do jogo.
 
 Reflexo de um resultado positivo do jogo às ações do jogador.
 
+**[⬆ Início](#indice)**
+
 <a name="4.3"></a>
 ## 3. Tipos de jogos Eletrônicos
 - RTS: Estratégia em tempo real, jogo não “roda” em torno de turnos.
@@ -507,6 +524,8 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 - Aventura: A ênfase é focada no enredo e não na parte gráfica ou ação. Esses jogos normalmente incentivam o uso do raciocino lógico, para solucionar puzzles, e explorativo, para encontrar objetos específicos.
 - Ação: Este desafia a velocidade, reflexo e raciocínio rápido do jogador. Tipicamente possuem características de conflitos com força física violenta, especialmente combate de tiros e/ou espadas como maior característica interativa.
 
+**[⬆ Início](#indice)**
+
 <a name="4.4"></a>
 ## 4. O mercado de jogos eletrônicos
 
@@ -515,6 +534,8 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 > Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou três dias desenvolvendo o jogo e acabou ganhando cerca de US $ 50 mil por dia em receita através de sua publicidade no jogo.”
 
 ![Sengece.ce](https://sengece.org.br/wp-content/uploads/2016/12/flappy-bird1.jpg "Flappy Bird")
+
+**[⬆ Início](#indice)**
 
 <a name="4.5"></a>
 ## 5. O custo de produção
@@ -560,6 +581,8 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 - Destiny - $140 million;
 - Watch Dogs - $68 million.
 
+**[⬆ Início](#indice)**
+
 <a name="4.6"></a>
 ## 6. Complexidade
 A seguir será apresentado quando custa estimatavemente produzir um jogo digital.
@@ -576,6 +599,8 @@ A seguir será apresentado quando custa estimatavemente produzir um jogo digital
 
 [List of most expensive video games to develop](https://en.wikipedia.org/wiki/List_of_most_expensive_video_games_to_develop)
 
+**[⬆ Início](#indice)**
+
 <a name="4.7"></a>
 ## 7.Jogos mobile
 
@@ -588,18 +613,31 @@ São jogos para plataformas móveis como por exemplo celulares ou outros disposi
 >As taxas de penetração de celulares e o uso de smartphones para jogos continuam a disparar em escala global. Como resultado, as tendências da indústria de jogos preveem que a receita dos jogos para celular ultrapasse a marca de 100 bilhões de dólares até 2023. [1](https://techjury.net/blog/gaming-industry-worth/)
 
 ### Monetização
-Processo de ganhar dinheiro com seu jogo de celular.
-- Google play - 90% da receita vieram por meio de anúncios e compras nos jogos
+Processo de ganhar dinheiro com seu jogo de celular seguindo algumas regras.
+
+- Google play - 90% da receita vieram por meio de anúncios e compras nos jogos.
 
 ### Modelos de monetização
 - Gratuito;
 - Receita a longo prazo ;
-- Pago - Receita imediata;
-- DLC - Extensões de experiência;
-- Pacotes - Itens, objetos e facilidades;
-- Modificações - Customização de personagens ou do mundo do jogo;
-- Com anúncios - De acordo com a InMobi, é mais provável que os usuários de dispositivos móveis cliquem em anúncios em um aplicativo para dispositivos móveis em vez de em sites para dispositivos móveis.
-- Rede de anúncios - As redes de anúncios ajudam a conectar seu jogo a grandes bancos de dados de anunciantes, ajudando os anunciantes a atingir seu público-alvo ideal, com você ganhando dinheiro conectando os dois. Existem muitas redes de anúncios para jogos e aplicativos para dispositivos móveis, abaixo estão algumas das principais para conferir.
+- Pago;
+
+  Receita imediata.
+- DLC;
+
+  Extensões de experiência.
+- Pacotes;
+
+  Itens, objetos e facilidades.
+- Modificações;
+
+  Customização de personagens ou do mundo do jogo.
+- Com anúncios;
+
+  De acordo com a InMobi, é mais provável que os usuários de dispositivos móveis cliquem em anúncios em um aplicativo para dispositivos móveis em vez de em sites para dispositivos móveis.
+- Rede de anúncios;
+
+  As redes de anúncios ajudam a conectar seu jogo a grandes bancos de dados de anunciantes, ajudando os anunciantes a atingir seu público-alvo ideal, com você ganhando dinheiro conectando os dois. Existem muitas redes de anúncios para jogos e aplicativos para dispositivos móveis, abaixo estão algumas das principais para conferir.
   - MoPub
   - AdMob
   - Media.net
@@ -624,6 +662,8 @@ Processo de ganhar dinheiro com seu jogo de celular.
 “...não há uma resposta certa para isso, já que tudo depende do seu jogo. Estatisticamente, as compras no aplicativo geram mais receita em jogos e aplicativos para dispositivos móveis, mas, se não fizer sentido para o seu jogo ter compras no aplicativo, não faça isso.
 Além disso, muitos jogos para dispositivos móveis combinam e combinam estratégias diferentes (por exemplo, oferecer recompensas por dinheiro, como compras na loja ou gratuitamente, em troca de assistir a um anúncio em vídeo). Então, isso é algo que você precisa considerar.”
 
+**[⬆ Início](#indice)**
+
 <a name="4.8"></a>
 ## 8. Evolução dos jogos eletrônicos
 ### 1. Primeira geração (1971-1977)
@@ -642,9 +682,12 @@ O Coleco Telstar foi outro destaque da primeira geração, produzido entre 1976 
 - O som é gerado em forma de ondas quadradas, contendo um ou nenhum canal independente.
 - Ausência de conteúdos da segunda geração como: a lógica dos microprocessadores, cartuchos de ROM, tela dividida para janelas e cada jogador, tecnologia de sprites, mais de um canal independente de som, e mais cores na tela.
 
-- Jogo Pong, desenvolvido pela ATARI, consiste em um jogo onde simula uma partida de ping pong.
+- Jogo Pong, desenvolvido pela ATARI, consiste em um jogo onde simula uma partida de Ping Pong.
 
-![https://www.techtudo.com.br/noticias/2016/03/conheca-pong-o-primeiro-videogame-lucrativo-da-historia.ghtml](https://s2.glbimg.com/hmam5dqwykVbv8_R0ly4dDtaZG8=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/J/Q/QSQBQYTuWJL9U9qJKc9Q/2016-03-02-pong.jpg "Pong")
+![https://www.techtudo.com.br/noticias/2016/03/conheca-pong-o-primeiro-videogame-lucrativo-da-historia.ghtml](https://s2.glbimg.com/hmam5dqwykVbv8_R0ly4dDtaZG8=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/J/Q/QSQBQYTuWJL9U9qJKc9Q/2016-03-02-pong.jpg "Figura: Conheça Pong, o primeiro videogame lucrativo da história - https://www.techtudo.com.br/noticias/2016/03/conheca-pong-o-primeiro-videogame-lucrativo-da-historia.ghtml")
+
+> *Figura: Conheça Pong, o primeiro videogame lucrativo da história - https://www.techtudo.com.br/noticias/2016/03/conheca-pong-o-primeiro-videogame-lucrativo-da-historia.ghtml .*
+
 
 ### 2. Segunda geração (1978 - 1983)
 Geração onde os consoles apresentavam processadores de 4 a 8 bit. Os jogos do ATARI são os mais populares dessa época, como exemplo o Popeye e Pacman.
@@ -694,6 +737,8 @@ A quinta geração estabeleceu a era dos 32 bits e posteriormente com o 64 bits,
 Alguns exemplos de jogos dessas gerações são 007 Goldeneye, Super Mário 64, Mario Kart, Counter Strike, LOL, Metal Gear Solid, God Of War, Grand Theft Auto, The Last of US  e Red Dead Redemption.
 
 ![https://www.comboinfinito.com.br/principal/the-last-of-us-part-2-fas-lamentam-que-o-game-nao-tenha-sido-lancado-hoje/](https://www.comboinfinito.com.br/principal/wp-content/uploads/2020/02/The-Last-of-Us-Part-2-1-790x444.jpg)
+
+**[⬆ Início](#indice)**
 
 <a name="4.9"></a>
 ## 9. Era dos Videogames
