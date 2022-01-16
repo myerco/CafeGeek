@@ -6,7 +6,7 @@ layout: page
 ---
 Narrativa de jogos e construção de personagens. Construa sua narrativa, o tempo, o mundo, os personagens, os objetivos e os capítulos da história.
 
----
+<a name="indice"></a>
 
 **[Capitulo I -  Por dentro da cabeça do Game Design](#1 "Capitulo I -  Por dentro da cabeça do Game Design")**
 
@@ -71,6 +71,8 @@ Apresentar conhecimentos necessários para construção de narrativas e suas pec
 - Objetivos da história;      
 - Evolução do personagens;  
 
+**[⬆ Início](#indice)**
+
 <a name="1.2"></a>
 ## 2. Características pessoais
 A seguir vamos destacar algumas Características necessárias para um bom Game Design.
@@ -83,36 +85,50 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 - Usar a comunicação visual;
 - Acompanhar o trabalho da equipe;
 
+**[⬆ Início](#indice)**
+
 <a name="1.3"></a>
 ## 3. Elementos de construção de um jogo
+Geralmente o fluxo de trabalhado pode ser definido pelas etapas de Conceito, Funcional e Artista.
 
 ### Conceito.
+Etapa mais abstrata do projeto onde definimos o conceito do jogo baseados em uma história ou mecânica, esta etapa é necessária para apresentar, documentar e organizar a ideia do jogo.
+
+- Documentação e narrativa
 
 ![Figura: Communication and Game Design Documents - https://acagamic.com](https://acagamic.com/uploads/2014/10/GDD1-ClanCombat.jpg "Figura: Communication and Game Design Documents - https://acagamic.com")
 
 > *Figura: Communication and Game Design Documents - https://acagamic.com .*
 
-- Documentação e narrativa
 
 ### Funcional.
+
+Nesta etapa definimos como organizar o fluxo de atividades e comunicação do projeto. Devemos definir também as regras que devem ser desenvolvidas no projeto como por exemplo a implementação técnica da mecânica.
+
+- Fluxo de trabalho;
+- Regras;
 
 ![Figura: The growth of the gaming industry in the context of creative industries -https://www.researchgate.net](https://www.researchgate.net/profile/Piotr-Rykala/publication/346541011/figure/fig1/AS:964050955563008@1606859067170/Example-of-organization-and-workflow-of-a-video-game-developer-Source-Zackariasson-and.png "Figura: The growth of the gaming industry in the context of creative industries -https://www.researchgate.net")
 
 > *Figura: The growth of the gaming industry in the context of creative industries -https://www.researchgate.net.*
 
-- Fluxo de trabalho
-- Regras
 
 ### Artista.
-![Figura: The Benefits of Embracing 3D in your Concept Art Workflow - https://magazine.artstation.com](https://magazine.artstation.com/wp-content/uploads/2019/02/CGS-3D-concept-art-editorial-image-01-1024x640.jpg "Figura: The Benefits of Embracing 3D in your Concept Art Workflow - https://magazine.artstation.com")
-
-> *Figura: The Benefits of Embracing 3D in your Concept Art Workflow - https://magazine.artstation.com*
+Como são os personagens? qual o ambiente? esse tipo de pergunta são apresentadas nessa etapa onde devem ser analisadas e aprovadas as representações visuais do jogo.
 
 - Storyboards
 - Arte conceitual
 
+![Figura: The Benefits of Embracing 3D in your Concept Art Workflow - https://magazine.artstation.com](https://magazine.artstation.com/wp-content/uploads/2019/02/CGS-3D-concept-art-editorial-image-01-1024x640.jpg "Figura: The Benefits of Embracing 3D in your Concept Art Workflow - https://magazine.artstation.com")
+
+> *Figura: The Benefits of Embracing 3D in your Concept Art Workflow - https://magazine.artstation.com*
+
+
+**[⬆ Início](#indice)**
+
 <a name="1.3"></a>
 ## 3. A equipe
+Organizar a equipe é um trabalho interessante quando compreendemos as Características do produto que vamos desenvolver e as aliamos aos perfis profissionais que devem atuar no desenvolvimento.
 
 ![Figura: Mas qual é a diferença entre design de games, game art e game design? - http://unidigitaldobrasil.com.br](http://unidigitaldobrasil.com.br/wp-content/uploads/2016/01/Kabam-playing-underworld-empire-together.jpg "Figura: Mas qual é a diferença entre design de games, game art e game design? - http://unidigitaldobrasil.com.br")
 
@@ -129,10 +145,15 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 |Sound design |Elementos sonoros durante a gameplay    |
 |Redator      |Roteirização e pesquisa documental   |
 
+**[⬆ Início](#indice)**
+
 <a name="1.4"></a>
 ## 4. Tarefas
-|Tarefas          |Descrição               |
-|:-               |:-             |
+Quais são as tarefas e atividades que devem ser executadas, por onde começamos? uma resposta para a pergunta é organize em pacotes de entrega. Defina e agrup um conjunto de entregas baseadas em funcionalidades e comece a organizar a sua agenda.
+
+
+|Tarefas          |Descrição                    |
+|:--              |:--                          |
 |Prototipação     |Protótipo ou modelo do jogo  |       
 |Level design     |Ambiente e mecânica          |
 |Interface        |Interface com o jogador - HUD|
@@ -143,17 +164,21 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 
 > *Figura: Improving Video Game Development: Facilitating Heterogeneous Team Collaboration through Flexible Software Processes - https://www.researchgate.net .*
 
+**[⬆ Início](#indice)**
+
 <a name="1.5"></a>
 ## 5. Limitações
+O projeto é limitado por vários fatores, dentre eles:
+- Dinheiro;
+- Tempo;
+- Tecnologia;
+- Expertise;
 
 ![Figura: The best survival games on PC in 2022  - https://www.rockpapershotgun.com/](https://assets.rockpapershotgun.com/images/2020/02/The-Forest-Best-Survival-Games-2020.jpg "Figura: The best survival games on PC in 2022  - https://www.rockpapershotgun.com/")
 
 > *Figura: The best survival games on PC in 2022  - https://www.rockpapershotgun.com/ .*
 
-- Dinheiro;
-- Tempo;
-- Tecnologia;
-- Expertise;
+**[⬆ Início](#indice)**
 
 <a name="1.6"></a>
 ## 6. Onde nascem as ideias?
@@ -167,6 +192,8 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 - Jogos;
 - Experiências emocionais.
 
+**[⬆ Início](#indice)**
+
 <a name="1.7"></a>
 ## 7. Cultivando ideias
 ![Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com](https://cdn.vox-cdn.com/thumbor/KfZcAgZDNJyf7POmq2KDOfa2fZA=/148x0:1768x1080/920x613/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47374578/unravel-yarny.0.0.jpg "Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com")
@@ -178,6 +205,8 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 - Crie elementos e os coloque no mundo;
 - Compartilhe o seu mundo com outras pessoas;
 
+**[⬆ Início](#indice)**
+
 <a name="1.8"></a>
 ## 8. O que torna a ideia interessante é
 ![Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br](https://adrenaline.com.br/uploads/2021/09/09/70890/Lost-in-Random_06.jpg "Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br")
@@ -186,6 +215,8 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 
 - Arranjo único;
 - Seja divertido;
+
+**[⬆ Início](#indice)**
 
 <a name="1.9"></a>
 ## 9. O que nos inspira?
@@ -197,6 +228,8 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 - Pessoas;
 - Histórias;
 - Experiências pessoais;
+
+**[⬆ Início](#indice)**
 
 <a name="1.10"></a>
 ## 10. Hábito
@@ -210,6 +243,8 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 - Caminhe;
 - Leia;
 - Assista palestras;
+
+**[⬆ Início](#indice)**
 
 ****
 
