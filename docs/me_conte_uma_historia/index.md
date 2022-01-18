@@ -4,47 +4,63 @@ description: Narrativa de jogos e construção de personagens.
 tags: [narrativa, Roteirização, jogos digitais]
 layout: page
 ---
-Narrativa de jogos e construção de personagens. Construa sua narrativa, o tempo, o mundo, os personagens, os objetivos e os capítulos da história.
+
+Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história.
+
+**Habilidades que serão aprendidas.**
+
+- Aprenda a organizar suas ideias;    
+- Analise e construa elementos que compõem a história;      
+- Defina o papel, motivação e evolução dos personagens;   
+- Defina o combate dos personagens;    
+- Defina os objetivos da história;      
+
 
 <a name="indice"></a>
 
-**[Capitulo I -  Por dentro da cabeça do Game Design](#1 "Capitulo I -  Por dentro da cabeça do Game Design")**
+**[Capitulo I -  O que é a profissão de Game Design?](#1 "Capitulo I -  O que é a profissão de Game Design?")**
 
-1. [Introdução](#1.1 "Introdução")
-1. [Características pessoais](#1.1 "Características pessoais")    
-1. [Elementos de construção de um jogo](#1.2 "Elementos de construção de um jogo")    
-1. [A equipe](#1.3 "A equipe")
-1. [Tarefas](#1.4 "Tarefas")
-1. [Limitações](#1.5 "Limitações")
-1. [Onde nascem as ideias?](#1.6 "Onde nascem as ideias?")
-1. [Cultivando ideias](#1.7 "Cultivando ideias")
-1. [O que torna a ideia interessante é](#1.8 "O que torna a ideia interessante é")
-1. [O que nos inspira?](#1.9 "O que nos inspira?")
-1. [Hábito](#1.10 "Hábito")
+1. [Quero ser um Game Design](#1.1 "Quero ser um Game Design")    
+1. [Quanto Ganha do Game Design?](#1.2 "Quanto Ganha do Game Design?")    
+1. [Quais são as características pessoais?](#1.3 "Quais são as características pessoais?")    
 
-***
-**[Capitulo II - Os personagens](#2 "Capitulo II - Os personagens")**
+**[Capitulo II -  Como construir um jogo digital?](#2 "Capitulo II -  Como construir um jogo digital?")**
 
-1. [A jornada do Herói](#2.1)
-1. [Personalidade](#2.2)
-1. [Motivação](#2.3)
-1. [Morte](#2.4)
-1. [Nome](#2.5)
-1. [Forma](#2.6)
-1. [Customização](#2.7)
-1. [Não estamos sozinhos](#2.8)
-1. [NPC- Personagens não jogáveis](#2.9)
+1. [A equipe](#2.1 "A equipe")
+1. [Tarefas](#2.2 "Tarefas")
+1. [Limitações](#2.3 "Limitações")
+
+**[Capitulo III -  Como organizar as ideias?](#3 "Capitulo III -  Como organizar as ideias?")**
+
+1. [Onde nascem as ideias?](#3.1 "Onde nascem as ideias?")
+1. [Cultivando ideias](#3.2 "Cultivando ideias")
+1. [O que torna a ideia interessante é](#3.3 "O que torna a ideia interessante é")
+1. [O que nos inspira?](#3.4 "O que nos inspira?")
+1. [Hábito](#3.5 "Hábito")
 
 ***
-**[Capitulo III - Eles todos me querem morto](#3 "Capitulo III - Eles todos me querem morto")**
+**[Capitulo IV - Os personagens](#4 "Capitulo IV - Os personagens")**
 
-1. [Tipos de conflito](#3.1)
-1. [Forma segue a função](#3.2)
-1. [Lutar com inimigos deve ser divertido](#3.3)
-1. [Ataques](#3.4)
-1. [Nem tudo é ataque](#3.5)
-1. [Faça o jogador odiar seu inimigo](#3.6)
-1. [BOSS](#3.7)
+1. [A jornada do Herói](#4.1)
+1. [Personalidade](#4.2)
+1. [Motivação](#4.3)
+1. [Morte](#4.4)
+1. [Nome](#4.5)
+1. [Forma](#4.6)
+1. [Customização](#4.7)
+1. [Não estamos sozinhos](#4.8)
+1. [NPC- Personagens não jogáveis](#4.9)
+
+***
+**[Capitulo V - Eles todos me querem morto](#5 "Capitulo V - Eles todos me querem morto")**
+
+1. [Tipos de conflito](#5.1)
+1. [Forma segue a função](#5.2)
+1. [Lutar com inimigos deve ser divertido](#5.3)
+1. [Ataques](#5.4)
+1. [Nem tudo é ataque](#5.5)
+1. [Faça o jogador odiar seu inimigo](#5.6)
+1. [BOSS](#5.7)
 
 ***
 <a name="1"></a>
@@ -54,27 +70,35 @@ Narrativa de jogos e construção de personagens. Construa sua narrativa, o temp
 >
 > V de Vingança.
 
+Um papel importante na produção de um jogo digital é o de Game Design que é analogamente o gerente de projeto, responsável por cada etapa da construção do produto.
+
+O Game Design deve atuar como uma interface entre os diversos profissionais envolvidos no projeto e entender as suas necessidades, mas para um bom desempenho nessa tarefa o Game Design deve conhecer um pouco de cada processo no fluxo de trabalho.
+
 <a name="1.1"></a>
-## 1. Introdução
-Construção da narrativa, definição do tempo, representação do mundo, definição do personagens, os objetivos e os
-capítulos da história.
+## 1. Quero ser um Game Design
+Como toda profissão para que possamos alcançar um reconhecimento e conhecimento adequado sobre o ofício devemos estruturar e agrupar os nossos passos, abaixo algumas dicas:
 
-Apresentar conhecimentos necessários para construção de narrativas e suas peculiaridades.
+- Seja apaixonado por jogos e jogue, jogue para se divertir e se pergunte porque foi divertido;
+- Entenda a dinâmica do mercado de jogos, como o produto é vendido, como é consumido e qual o ciclo de vida do produto;
+- Leia bastante;
+- Procure trabalhar a sua interação social e aprenda a expressar suas ideias, pois é, aprenda a trabalhar em equipe;
+- Procure conhecer as profissões atuantes na construção e aprenda uma delas, por exemplo: Programação de jogos, Arte, publicidade ou todas as mesmo tempo.
 
-### Habilidades que serão aprendidas  
-- Aprenda a organizar suas ideias;    
-- Analise e construa elementos que compõem a história;      
-- O Herói de mil faces;     
-- Defina o papel e motivação dos inimigos;   
-- Defina o papel dos personagens auxiliares;    
-- O combate;    
-- Objetivos da história;      
-- Evolução do personagens;  
+![Figura: Design de games: conheça a profissão - https://www.gamerinfo.com.br/2018/09/10/design-de-games/](https://www.gamerinfo.com.br/wp-content/uploads/2018/09/game-designer-1.jpg "Figura: Design de games: conheça a profissão - https://www.gamerinfo.com.br/2018/09/10/design-de-games/")
 
-**[⬆ Início](#indice)**
+> *Figura: Design de games: conheça a profissão - https://www.gamerinfo.com.br/2018/09/10/design-de-games/ .*
 
 <a name="1.2"></a>
-## 2. Características pessoais
+## 2. Quanto Ganha do Game Design?
+
+Segundo o site https://www.educamaisbrasil.com.br o salário começa com R$ 1.228,90 e pode chegar a R$ 4.056,35 no Brasil (Consulta 17/01/2021).
+
+![Figura: Profissão Designer de games: salário e carreira na área de DESIGN DE GAMES - https://www.educamaisbrasil.com.br/cursos-e-faculdades/design-de-games/salario-de-designer-de-games-carreira](https://images.educamaisbrasil.com.br/content/superior/curso/banner/p/design-de-games.jpg "Figura: Profissão Designer de games: salário e carreira na área de DESIGN DE GAMES - https://www.educamaisbrasil.com.br/cursos-e-faculdades/design-de-games/salario-de-designer-de-games-carreira")
+
+> *Figura: Profissão Designer de games: salário e carreira na área de DESIGN DE GAMES - https://www.educamaisbrasil.com.br/cursos-e-faculdades/design-de-games/salario-de-designer-de-games-carreira .*
+
+<a name="1.3"></a>
+## 3. Características pessoais
 A seguir vamos destacar algumas Características necessárias para um bom Game Design.
 
 ![Figura: Turning employee ideas into profitable results - https://www.singerandfalk.com](https://www.singerandfalk.com/wp-content/uploads/2018/03/02_07_18_838151864_BB_560x292.jpg "Figura: Turning employee ideas into profitable results - https://www.singerandfalk.com")
@@ -87,9 +111,14 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 
 **[⬆ Início](#indice)**
 
-<a name="1.3"></a>
-## 3. Elementos de construção de um jogo
-Geralmente o fluxo de trabalhado pode ser definido pelas etapas de Conceito, Funcional e Artista.
+<a name="2"></a>
+**Capitulo II -  Como construir um jogo digital?**
+
+> "Se você quiser fazer uma torta de maçã do nada, você precisa, primeiro, inventar o universo."
+>
+> Carl Sagan.
+
+Geralmente o fluxo de trabalhado pode ser definido pelas etapas de Conceito, Funcional e Artista, a seguir vamos descrever as etapas.
 
 ### Conceito.
 Etapa mais abstrata do projeto onde definimos o conceito do jogo baseados em uma história ou mecânica, esta etapa é necessária para apresentar, documentar e organizar a ideia do jogo.
@@ -110,7 +139,7 @@ Nesta etapa definimos como organizar o fluxo de atividades e comunicação do pr
 
 ![Figura: The growth of the gaming industry in the context of creative industries -https://www.researchgate.net](https://www.researchgate.net/profile/Piotr-Rykala/publication/346541011/figure/fig1/AS:964050955563008@1606859067170/Example-of-organization-and-workflow-of-a-video-game-developer-Source-Zackariasson-and.png "Figura: The growth of the gaming industry in the context of creative industries -https://www.researchgate.net")
 
-> *Figura: The growth of the gaming industry in the context of creative industries -https://www.researchgate.net.*
+> *Figura: The growth of the gaming industry in the context of creative industries - https://www.researchgate.net.*
 
 
 ### Artista.
@@ -126,8 +155,8 @@ Como são os personagens? qual o ambiente? esse tipo de pergunta são apresentad
 
 **[⬆ Início](#indice)**
 
-<a name="1.3"></a>
-## 3. A equipe
+<a name="2.1"></a>
+## 1 A equipe
 Organizar a equipe é um trabalho interessante quando compreendemos as Características do produto que vamos desenvolver e as aliamos aos perfis profissionais que devem atuar no desenvolvimento.
 
 ![Figura: Mas qual é a diferença entre design de games, game art e game design? - http://unidigitaldobrasil.com.br](http://unidigitaldobrasil.com.br/wp-content/uploads/2016/01/Kabam-playing-underworld-empire-together.jpg "Figura: Mas qual é a diferença entre design de games, game art e game design? - http://unidigitaldobrasil.com.br")
@@ -147,8 +176,8 @@ Organizar a equipe é um trabalho interessante quando compreendemos as Caracter�
 
 **[⬆ Início](#indice)**
 
-<a name="1.4"></a>
-## 4. Tarefas
+<a name="2.2"></a>
+## 2. Tarefas
 Quais são as tarefas e atividades que devem ser executadas, por onde começamos? uma resposta para a pergunta é organize em pacotes de entrega. Defina e agrup um conjunto de entregas baseadas em funcionalidades e comece a organizar a sua agenda.
 
 
@@ -166,8 +195,8 @@ Quais são as tarefas e atividades que devem ser executadas, por onde começamos
 
 **[⬆ Início](#indice)**
 
-<a name="1.5"></a>
-## 5. Limitações
+<a name="2.3"></a>
+## 3. Limitações
 O projeto é limitado por vários fatores, dentre eles:
 - Dinheiro;
 - Tempo;
@@ -180,8 +209,15 @@ O projeto é limitado por vários fatores, dentre eles:
 
 **[⬆ Início](#indice)**
 
-<a name="1.6"></a>
-## 6. Onde nascem as ideias?
+<a name="3"></a>
+**Capitulo III -  Como organizar as ideias?**
+
+> "Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, visto que o Universo não tem ideias."
+>
+> Fernando Pessoa.
+
+<a name="3.1"></a>
+## 1. Onde nascem as ideias?
 ![Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones - https://www.theverge.com](https://cdn3.vox-cdn.com/uploads/chorus_asset/file/3687336/The_Witcher_3_Wild_Hunt_You_never_know_what_waits_around_the_corner.0.png "Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones - https://www.theverge.com")
 
 > *Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones - https://www.theverge.com .*
@@ -194,8 +230,8 @@ O projeto é limitado por vários fatores, dentre eles:
 
 **[⬆ Início](#indice)**
 
-<a name="1.7"></a>
-## 7. Cultivando ideias
+<a name="3.2"></a>
+## 2. Cultivando ideias
 ![Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com](https://cdn.vox-cdn.com/thumbor/KfZcAgZDNJyf7POmq2KDOfa2fZA=/148x0:1768x1080/920x613/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47374578/unravel-yarny.0.0.jpg "Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com")
 
 > *Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com .*
@@ -207,8 +243,8 @@ O projeto é limitado por vários fatores, dentre eles:
 
 **[⬆ Início](#indice)**
 
-<a name="1.8"></a>
-## 8. O que torna a ideia interessante é
+<a name="3.3"></a>
+## 3. O que torna a ideia interessante é
 ![Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br](https://adrenaline.com.br/uploads/2021/09/09/70890/Lost-in-Random_06.jpg "Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br")
 
 > *Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br .*
@@ -218,8 +254,8 @@ O projeto é limitado por vários fatores, dentre eles:
 
 **[⬆ Início](#indice)**
 
-<a name="1.9"></a>
-## 9. O que nos inspira?
+<a name="3.4"></a>
+## 4. O que nos inspira?
 ![Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br](https://img.ibxk.com.br/2015/11/04/04190615075402.jpg?ims=704x "Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br")
 
 > *Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br .*
@@ -231,8 +267,8 @@ O projeto é limitado por vários fatores, dentre eles:
 
 **[⬆ Início](#indice)**
 
-<a name="1.10"></a>
-## 10. Hábito
+<a name="3.5"></a>
+## 5. Hábito
 
 ![Figura: Review Journey - https://www.tecmundo.com.br](https://s2.glbimg.com/ZcTFIilmLi8663REozPDO8EzL18=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/q/UZHV1lT8SDUVlX8Bso5Q/2015-07-24-journey3.jpg "Figura: Review Journey - https://www.tecmundo.com.br")
 
@@ -248,13 +284,13 @@ O projeto é limitado por vários fatores, dentre eles:
 
 ****
 
-<a name="2"></a>
-## Capitulo II - Os personagens
+<a name="4"></a>
+## Capitulo IV - Os personagens
 > "Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro."
 >
 > Alan Wake.
 
-<a name="2.1"></a>
+<a name="4.1"></a>
 ## 1. A jornada do Herói
 
 ![Figura: Jornada do Herói - https://medium.com](https://miro.medium.com/max/500/1*cQanY8AUEBH3f0BsGo_vOw.png "Figura: Jornada do Herói - https://medium.com")
@@ -279,7 +315,7 @@ O projeto é limitado por vários fatores, dentre eles:
 
 **[⬆ Início](#indice)**
 
-<a name="2.2"></a>
+<a name="4.2"></a>
 ## 2. Personalidade
 - Como ele caminha;
 
@@ -321,7 +357,7 @@ O projeto é limitado por vários fatores, dentre eles:
 
 **[⬆ Início](#indice)**
 
-<a name="2.3"></a>
+<a name="4.3"></a>
 ## 3. Motivação
 
 **Salvar a amada ou amigo.**
@@ -372,7 +408,7 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 
 **[⬆ Início](#indice)**
 
-<a name="2.4"></a>
+<a name="4.4"></a>
 ## 4. Morte
 - Valorize a morte do seu personagem.
   - Dos amigos.
@@ -395,7 +431,7 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 
 **[⬆ Início](#indice)**
 
-<a name="2.5"></a>
+<a name="4.5"></a>
 ## 5. Nome
 Escolha nomes para os seus personagens.
 
@@ -405,7 +441,7 @@ Escolha nomes para os seus personagens.
 
 **[⬆ Início](#indice)**
 
-<a name="2.6"></a>
+<a name="4.6"></a>
 ## 6. Forma
 
 ![Figura: Ori and the Blind Forest has the most powerful opening to any game in 2015 - https://www.polygon.com](https://cdn.vox-cdn.com/thumbor/TcsRMWy-7jzZ5EI1dhJG9_uJAe8=/148x0:1768x1080/920x613/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/48428281/oriblindforestart.0.0.jpg "Figura: Ori and the Blind Forest has the most powerful opening to any game in 2015 - https://www.polygon.com")
@@ -430,7 +466,7 @@ Escolha nomes para os seus personagens.
 
 **[⬆ Início](#indice)**
 
-<a name="2.7"></a>
+<a name="4.7"></a>
 ## 7. Customização
 
 ![Figura: Character development -https://www.ageofconan.com](https://web-cdn.funcom.com/aoc/screenshots/tier3_ranger_armor-814x600.jpg "Figura: Character development -https://www.ageofconan.com")
@@ -450,7 +486,7 @@ Escolha nomes para os seus personagens.
 
 **[⬆ Início](#indice)**
 
-<a name="2.8"></a>
+<a name="4.8"></a>
 ## 8. Não estamos sozinhos
 
 ![Figura: The Last of Us: Remastered - https://gamehall.com.br/](https://i0.wp.com/gamehall.com.br/wp-content/uploads/2014/08/275048-l-the-last-of-us-remastered-ps4-boosted-by-best-game-ever-jpeg-116561.jpg?resize=780%2C470&ssl=1 "Figura: The Last of Us: Remastered - https://gamehall.com.br/")
@@ -464,7 +500,7 @@ Escolha nomes para os seus personagens.
 
 **[⬆ Início](#indice)**
 
-<a name="2.9"></a>
+<a name="4.9"></a>
 ## 9. NPC- Personagens não jogáveis
 
 ![Figura: Search for Deckard Cain quest failed in Diablo 2 Resurrected: What are the consequences? - https://www.ginx.tvs](https://www.ginx.tv/uploads2/diablo/D2R/deckard_cain_hots.jpg?ezimgfmt=ng%3Awebp%2Fngcb5%2Frs%3Adevice%2Frscb5-1 "Figura: Search for Deckard Cain quest failed in Diablo 2 Resurrected: What are the consequences? - https://www.ginx.tv")
@@ -489,14 +525,14 @@ Escolha nomes para os seus personagens.
 **[⬆ Início](#indice)**
 
 ***
-<a name="3"></a>
-## Capitulo III - Eles todos me querem morto
+<a name="5"></a>
+## Capitulo V - Eles todos me querem morto
 
 > "A jornada não acaba aqui. A morte é apenas um outro caminho... que todos temos que tomar".
 >
 > Gandalf - Senhor dos Anéis.
 
-<a name="3.1"></a>
+<a name="5.1"></a>
 ## 1. Tipos de conflito
 ![Figura: Análise – Shadow of the Tomb Raider – The Forge - https://psxbrasil.com.br](https://psxbrasil.com.br/wp-content/uploads/2018/11/PREVIEW_SCREENSHOT1_171050-1024x576.jpg "Figura: Análise – Shadow of the Tomb Raider – The Forge - https://psxbrasil.com.br")
 
@@ -509,7 +545,7 @@ Escolha nomes para os seus personagens.
 
 **[⬆ Início](#indice)**
 
-<a name="3.2"></a>
+<a name="5.2"></a>
 ## 2. Forma segue a função
 
 ![Figura: Resident Evil Village bosses guide - https://www.pcgamesn.com](https://www.pcgamesn.com/wp-content/uploads/2021/05/resident-evil-village-bosses-guide-list-lady-dimitrescu-900x506.jpg "Figura: Resident Evil Village bosses guide - https://www.pcgamesn.com")
@@ -567,7 +603,7 @@ Escolha nomes para os seus personagens.
 
 **[⬆ Início](#indice)**
 
-<a name="3.3"></a>
+<a name="5.3"></a>
 ## 3. Lutar com inimigos deve ser divertido
 Os inimigos dever enfrentados, não evitados.
 
@@ -582,7 +618,7 @@ Os inimigos dever enfrentados, não evitados.
 
 **[⬆ Início](#indice)**
 
-<a name="3.4"></a>
+<a name="5.4"></a>
 ## 4. Ataques
 
 ![Figura: Kirby’s Alpha 1 Combat Analysis - https://ashespost.com](https://ashespost.com/wp-content/uploads/2018/09/Combat-Analysis-2.jpg "Figura: Kirby’s Alpha 1 Combat Analysis - https://ashespost.com")
@@ -597,7 +633,7 @@ Os inimigos dever enfrentados, não evitados.
 
 **[⬆ Início](#indice)**
 
-<a name="3.5"></a>
+<a name="5.5"></a>
 ## 5. Nem tudo é ataque
 
 ![Figura: The Ideal Video Game Enemy - https://www.thefandomentals.com](https://www.thefandomentals.com/wp-content/uploads/2017/03/enemies.jpg "Figura: The Ideal Video Game Enemy - https://www.thefandomentals.com")
@@ -616,7 +652,7 @@ Os inimigos dever enfrentados, não evitados.
 
 **[⬆ Início](#indice)**
 
-<a name="3.6"></a>
+<a name="5.6"></a>
 ## 6. Faça o jogador odiar seu inimigo
 
 Inimigos não inimigos.
@@ -637,7 +673,7 @@ Top 10 Most Annoying Video Game Enemies of All Time -  https://twinfinite.net .*
 
 **[⬆ Início](#indice)**
 
-<a name="3.7"></a>
+<a name="5.7"></a>
 ## 7. BOSS
 
 ![Figura: Nemesis T-Type - https://residentevil.com.br](https://residentevil.com.br/wp-content/uploads/2015/07/nemesis_t-type_wiki-1024x512.jpg "Figura: Nemesis T-Type - https://residentevil.com.br")
