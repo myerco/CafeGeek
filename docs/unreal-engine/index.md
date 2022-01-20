@@ -1,10 +1,25 @@
 ---
-title: Desenvolvimento de jogos utilizando Unreal Engine - C++ e Blueprint
-description: Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando **Blueprints** e **C++**, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer com Unreal Engine.  
+title: Unreal Engine com C++ e Blueprint
+description: Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando Blueprints e C++, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer com Unreal Engine.  
 keywords: [Desonvolvimento com Unreal Engine, Jogos com Unreal Engine]
 tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digital]
 layout: page
 ---
+
+Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer.  
+
+**Habilidades que serão aprendidas**
+
+- Configuração e organização de projetos;
+- Analisar e aplicar lógica de programação utilizando *Blueprint* e *C++*;
+- Implementar regras de tempo e espaço;
+- Implementar interface do usuário;
+- Estruturar e configurar materiais, terrenos e iluminação;
+- Implementar ambientes Multijogador;
+- Implementar inteligência artificial;
+- Construir a animação de personagens;
+- Implementar Efeitos especiais.
+
 
 **Capítulo I - O Unreal Engine e sua lógica de programação.**
 
