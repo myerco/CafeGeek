@@ -1,6 +1,6 @@
 ---
 title: Utilizando Enums - Enumerations
-description: Variáveis do tipo Enumerations
+description: Neste capitulo serão apresentados Enumerações (Enumeration). Enumeração é algo como nomear ou numerar um a um.
 unreal_engine: Unreal Engine 4.27
 tags: [Unreal Engine,blueprint,enum]
 layout: unreal_engine

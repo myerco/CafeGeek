@@ -23,7 +23,7 @@ Neste capitulo vamos apresentar formas de interação com o jogador e depois con
     1. [Grid Panel](#26)    
 1. [ATIVIDADES](#7)
     1. [Apresentando mensagens para interagir com o personagem](#7.1)                      
-    1. [Implementando o menu do jogo usando Game Instance](#7.2)                      
+
 
 <a name="1"></a>
 ## 1. Como interagir com o jogador?
@@ -180,16 +180,7 @@ Como o nome anuncia, os elementos hierarquicamente agrupados abaixo do painel se
 #### Desafio      
 1. Implemente um gameplay em primeira pessoa dentro de uma casa.
 
-### 7.2 Implementando o menu do jogo usando Game Instance
-#### Regras
-1. Implemente o menu principal do jogo com as opções : Play e Quit.
-1. Implemente o menu de Resumo do jogo com as opções : Resume, Load, Save, Home e Quit. O menu é acionado com a tecla M durante a *gameplay*. Implemente também toda a lógica das ações dos botões Load, Save e Quit.
-1. Implemente uma Game Instance e adicione os seguintes objetos:
-  - **Open Menu Principal** para abrir o menu principal;
-  - **Open Menu Resume** para abrir o menu de pausa e resumo do jogo;
 
-#### Desafio
-1. Apresente vários elementos visuais no menu, como por exemplo: Botões e imagens de fundo personalizados.
 
 ***
 ## Referências

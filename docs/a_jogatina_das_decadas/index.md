@@ -1,6 +1,6 @@
 ---
 title: A Jogatina das décadas
-description: O objetivo deste curso é apresentar a definição do que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização.
+description: O objetivo deste curso é apresentar as características e elementos associados aos jogos eletrônicos.
 tags: [narrativa, Roteirização, jogos digitais]
 layout: page
 ---

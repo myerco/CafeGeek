@@ -1,6 +1,6 @@
 ---
-title: Computação Gráfica com Unreal Engine e Autodesk Maya
-description: Computação Gráfica com Unreal Engine e Autodesk Maya
+title: Computação Gráfica com Unreal Engine
+description: Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya.
 tags: [Unreal Engine,Rendering,Maya,computação gráfica]
 layout: page
 ---
@@ -8,7 +8,7 @@ layout: page
 Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya.  
 
 **Habilidades que serão aprendidas**
-  
+
 - Como são formados os objetos em gráficos 3D.
 - Processo de renderização no Unreal Engine.
 

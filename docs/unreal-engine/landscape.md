@@ -1,6 +1,6 @@
 ---
 title: Criando terrenos - Landscape
-description: Landscape.
+description: Neste capítulo vamos implementar terrenos.
 tags: [Unreal Engine, HUD, user interface,UI]
 layout: page
 ---

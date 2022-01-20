@@ -1,6 +1,6 @@
 ---
 title: Causando Dano
-description: Causando dano.
+description: Neste capítulo vamos implementar a lógica para causar dano no Personagem.
 tags: [Unreal Engine, HUD, user interface,UI]
 layout: page
 ---

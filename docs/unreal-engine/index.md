@@ -1,6 +1,6 @@
 ---
 title: Unreal Engine com C++ e Blueprint
-description: Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando Blueprints e C++. 
+description: Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando Blueprints e C++.
 keywords: [Desonvolvimento com Unreal Engine, Jogos com Unreal Engine]
 tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digital]
 layout: page
@@ -23,7 +23,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 **Capítulo I - O Unreal Engine e sua lógica de programação.**
 
-1. [Introdução o desenvolvimento de jogos utilizando Unreal Engine](unreal_engine_introducao_desenvolvimento_jogos.html)
+1. [Introdução ao Unreal Engine](unreal_engine_introducao_desenvolvimento_jogos.html)
 1. [Como instalar o Unreal Engine?](unreal_engine_como_instalar_o_unreal_engine.html)
 1. [Organizando pastas e logo do projeto](unreal_engine_organizando_pastas_e_logo.html)
 1. [Controle de versão com GitHub](unreal_engine_controle_de_versao_com_github.html)
@@ -85,4 +85,4 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 ***
 **Capítulo VIII - Efeitos especiais**
 1. [Sequencer](#)
-1. [Niagara](#)
+1. [Utilizando Niagara](#)

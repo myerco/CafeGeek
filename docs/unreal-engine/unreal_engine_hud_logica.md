@@ -26,7 +26,6 @@ Neste capitulo vamos apresentar a lógica de programação os objetos do HUD.
     1. [Iniciando Game Instance no Widget](#4.7)                    
     1. [Efetuando as chamadas das funções](#4.8)
 1. [Atividades](#5)
-    1. [Apresentando mensagens para interagir com o personagem](#7.1)                      
     1. [Implementando o menu do jogo usando Game Instance](#7.2)                      
 
 <a name="1"></a>
@@ -205,15 +204,7 @@ No evento click dos botões vamos adicionar os eventos construídos dentro da *G
 <a name="7"></a>
 ## 7 ATIVIDADES
 <a name="7.1"></a>
-### 7.1 Apresentando mensagens para interagir com o personagem
-#### Regras
-1. Implemente um objeto *Widget* com um texto colorido e formatado.
-1. O *Widget* é acionado pressionando a tecla F quando o personagem ficar próximo.
-
-#### Desafio      
-1. Implemente um gameplay em primeira pessoa dentro de uma casa.
-
-### 7.2 Implementando o menu do jogo usando Game Instance
+### 7.1 Implementando o menu do jogo usando Game Instance
 #### Regras
 1. Implemente o menu principal do jogo com as opções : Play e Quit.
 1. Implemente o menu de Resumo do jogo com as opções : Resume, Load, Save, Home e Quit. O menu é acionado com a tecla M durante a *gameplay*. Implemente também toda a lógica das ações dos botões Load, Save e Quit.

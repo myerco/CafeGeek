@@ -1,6 +1,6 @@
 ---
 title: Trabalhando com iluminação
-description: Iluminação.
+description: Neste capítulo vamos implementar a Iluminação do jogo.
 tags: [Unreal Engine, HUD, user interface,UI]
 layout: page
 ---

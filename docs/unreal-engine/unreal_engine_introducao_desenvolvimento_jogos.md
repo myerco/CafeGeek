@@ -1,5 +1,5 @@
 ---
-title: Introdução ao desenvolvimento de jogos utilizando Unreal Engine
+title: Introdução ao Unreal Engine
 description: Introdução ao curso Desenvolvimento de jogos utilizando Unreal Engine
 tags: [Unreal Engine,Rendering,Maya]
 layout: page

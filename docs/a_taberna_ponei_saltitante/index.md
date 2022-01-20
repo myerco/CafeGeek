@@ -1,6 +1,6 @@
 ---
 title: A taberna do Pônei Saltitante
-description: Neste projeto serão apresentadas técnicas de modelagem de banco de dados e dicas importantes para construir uma base de dados organizada evitando redundâncias.
+description: Neste projeto serão apresentadas técnicas e dicas de modelagem de banco de dados.
 tags: [Banco de Dados, Oracle, Oracle SQLDeveloper, MER, modelo relacional,PostgreSQL]
 layout: page
 ---

@@ -1,6 +1,6 @@
 ---
 title: Estruturas de controle de fluxo
-description: Em linguagens de programação existem métodos de tomada de decisão para tarefas corriqueiras que os programas podem executar, por exemplo a escolha de qual caminho ou instrução executar. Com Bluprint utilizamos nós específicos para controle de fluxo como por exemplo o Branch (if).
+description: Neste capitulo serão apresentados as estruturas de controle de lógica de programação.
 tags: [Unreal Engine,estruturas de controle de fluxo]
 layout: page
 ---

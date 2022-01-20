@@ -12,7 +12,7 @@ layout: home
 **Desenvolvimento de jogos**
 
 - [Unreal Engine com C++ e Blueprint](unreal-engine/index.html)    
-- [Computação Gráfica com Unreal Engine e Autodesk Maya](computacao-grafica/index.html)   
+- [Computação Gráfica com Unreal Engine](computacao-grafica/index.html)   
 <!--- [Modelagem usando Autodesk Maya](autodesk-maya/index.html)   -->
 - [A jogatina das décadas](a_jogatina_das_decadas/index.html)     
 - [Me conta uma história](me_conte_uma_historia/index.html)   

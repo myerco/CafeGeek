@@ -1,6 +1,6 @@
 ---
 title: Don't stop looking
-description: Don't stop looking
+description: Roteiro do jogo Don't stop looking
 tags: ["Unreal Engine","trabalhos","jogos digitais"]
 author: CafeGeek
 layout: page
