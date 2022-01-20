@@ -1,6 +1,6 @@
 ---
-title: Actors - Atores
-description: Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de básica de objetos do **Unreal Engine**, neste capitulo serão apresentados e implementados os atores *Actors* do seu projeto.
+title: Implementado Atores
+description: Neste capitulo serão apresentados e implementados os atores *Actors* do seu projeto.
 tags: [Unreal Engine,actor,atores]
 layout: page
 ---
@@ -8,7 +8,7 @@ layout: page
 Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de básica de objetos do **Unreal Engine**, neste capitulo serão apresentados e implementados os atores *Actors* do seu projeto.
 
 ## Índice
-1. [O que são Actors?](#1)
+1. [O que são Atores?](#1)
     1. [Classes](#11)
     1. [Hierarquia](#12)
     1. [Implementação](#13)

@@ -1,5 +1,5 @@
 ---
-title: Entendendo a lógica de programação com C++com Unreal Engine
+title: Programação C++ no Unreal Engine
 description: Neste capítulo será apresentado o modelo da lógica de programação utilizando C++ com Unreal Engine
 unreal_engine: Unreal Engine 5
 tags: [Unreal Engine,Blueprint]

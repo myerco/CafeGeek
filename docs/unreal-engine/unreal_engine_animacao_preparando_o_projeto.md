@@ -1,6 +1,6 @@
 ---
 title: Animação - Preparando o projeto
-description: Neste capitulo vamos preparar e organizar os objetos e elementos necessários, como por exemplo, arquivos FBX, malhas e esqueletos e suas animações. Vamos também importar personagens do site Mixano.
+description: Neste capitulo vamos preparar e organizar os objetos e elementos necessários (FBX, Malhas, esqueletos e suas animações).
 tags: [Unreal Engine, Animação]
 layout: page
 ---

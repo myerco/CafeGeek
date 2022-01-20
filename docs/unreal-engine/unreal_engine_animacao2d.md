@@ -1,11 +1,11 @@
 ---
-title: Animação - 2D
-description: O Unreal Engine implementa animação em duas dimensões utilizando o sistema Paper 2D que é um sistema baseado em sprite para a criação de jogos híbridos 2D e 2D / 3D inteiramente dentro do editor.
+title: Trabalhando com Animação 2D
+description: Em este capitulo iremos implementar animações em duas dimensões utilizando o Plugin Paper2D no Unreal Engine.
 tags: [Unreal Engine, Animação 2D,Paper 2D]
 layout: page
 ---
 
-Em este capitulo iremos implementar animações em duas dimensões utilizando o plugin Paper2D.
+Em este capitulo iremos implementar animações em duas dimensões utilizando o **Plugin Paper2D** no Unreal Engine.
 
 ![Figura: Project Paper2D](imagens/animacao/unreal_engine_paper2d_project.jpg)
 

@@ -1,11 +1,11 @@
 ---
-title: Animação - Animation Bluerint
-description: É um Blueprint especializado que controla a animação de uma malha esquelética. Os gráficos são editados dentro do `Animation Blueprint Editor`, onde você pode realizar a combinação da animação, controlar diretamente os ossos de um esqueleto ou configurar a lógica que definirá a pose final da animação para uma malha esquelética a ser usada por quadro.
+title: Implementando a Lógica da animação
+description: Em este capítulo iremos implementar várias animações utilizando Animation Bluerint para implementar a lógica de movimentação.
 tags: [Unreal Engine, Animação,Blend Space 1D]
 layout: page
 ---
 
-Em este capítulo iremos implementar várias animações utilizando Animation Bluerint para implementar a lógica de movimentação.
+Em este capítulo iremos implementar várias animações utilizando **Animation Bluerint** para implementar a lógica de movimentação.
 
 ![Figura: Unreal Engine Preparando o Projeto](imagens/animacao/unreal_engine_animation_animation_blueprint_main.jpg)
 

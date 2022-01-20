@@ -1,6 +1,6 @@
 ---
-title: Animação - Blend Space
-description: O objetivo do Blend Space é reduzir a necessidade de criar nós individuais codificados para mesclar animações com um editor que realiza a mesclagem com base em propriedades ou condições específicas. Permitindo que o animador ou programador especifique as entradas, as animações e como as entradas são usadas para mesclar entre as animações, virtualmente qualquer tipo de mesclagem pode ser executado usando o Blend Space.
+title: Utilizando Blend Space
+description: Em este capítulo iremos implementar várias animações utilizando um eixo de movimentação utilizando o elemento e editor Blend space 1D e Blend space.
 tags: [Unreal Engine, Animação,Blend Space 1D,Blend Space]
 layout: page
 ---

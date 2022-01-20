@@ -1,5 +1,5 @@
 ---
-title: Enums - Enumerations
+title: Utilizando Enums - Enumerations
 description: Variáveis do tipo Enumerations
 unreal_engine: Unreal Engine 4.27
 tags: [Unreal Engine,blueprint,enum]

@@ -1,5 +1,5 @@
 ---
-title: Animação - Aim Offset
+title: Implementando a mira
 description: Neste capitulo vamos apresentar a animação Aim Offset.
 tags: [Unreal Engine, Animação]
 layout: page

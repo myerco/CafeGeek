@@ -1,6 +1,6 @@
 ---
 title: Construindo Materiais e entendo a lógica
-description: Os nós de Expressão de Material contêm pequenos fragmentos de código HLSL que realizam tarefas muito específicas dentro de um Material. Os materiais são construídos usando combinações de nós de Expressão de Material que são combinados para realizar certas tarefas
+description: Neste capítulo vamos apresentar a lógica de construção de materiais, denomina Material Expressions no Unreal Engine e suas funções.
 tags: [Unreal Engine,Materiais, material expressions, material, lógica]
 layout: page
 ---
