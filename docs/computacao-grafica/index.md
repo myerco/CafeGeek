@@ -7,7 +7,8 @@ layout: page
 
 Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya.  
 
-## Habilidades que serão aprendidas  
+**Habilidades que serão aprendidas**
+  
 - Como são formados os objetos em gráficos 3D.
 - Processo de renderização no Unreal Engine.
 

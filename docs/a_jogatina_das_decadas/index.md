@@ -7,7 +7,8 @@ layout: page
 
 O objetivo deste curso é apresentar e trabalhar com a definição do que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização.
 
-## Habilidades que serão aprendidas
+**Habilidades que serão aprendidas**
+
 - Analise e conceitue jogos;    
 - Analise e defina tipos de jogos;    
 - Analise e defina os tipos de jogadores;      
