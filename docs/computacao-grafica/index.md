@@ -5,6 +5,12 @@ tags: [Unreal Engine,Rendering,Maya,computação gráfica]
 layout: page
 ---
 
+Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya.  
+
+## Habilidades que serão aprendidas  
+- Como são formados os objetos em gráficos 3D.
+- Processo de renderização no Unreal Engine.
+
 **[Capítulo I - A computação gráfica](#1 "Capítulo I - A computação gráfica")**
 1. [O que é computação gráfica?](#1.1)
 1. [Computação gráfica para jogos digitais](#1.2)
@@ -74,6 +80,7 @@ layout: page
 
 <a name="1"></a>
 ## Capítulo I - A computação gráfica
+
 <a name="1.1"></a>
 ## 1. O que é computação gráfica?
 "A Computação Gráfica reúne um conjunto de técnicas que permitem a geração de imagens a partir de modelos computacionais de objetos reais, objetos imaginários ou de dados quaisquer coletados por equipamentos na natureza." [[1](#r1)]
@@ -97,16 +104,6 @@ Construir jogos digitais para que possam ser executados em diversas plataformas,
 ![Figura: Dungeon Crowley - Estúdio Animvs.](imagens/game_dungeon_crowley.jpg "Figura: Dungeon Crowley - Estúdio Animvs.")      
 *Figura: Dungeon Crowley - Estúdio Animvs.*
 
-<a name="1.3"></a>
-<a name="3"></a>
-## 3. O curso de Computação Gráfica com Unreal Engine e Autodesk Maya
-Conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya.  
-
-<a name="1.4"></a>
-<a name="4"></a>
-## 4. Habilidades que serão aprendidas  
-- Como são formados os objetos em gráficos 3D.
-- Processo de renderização no Unreal Engine.
 
 ***
 <a name="2"></a>

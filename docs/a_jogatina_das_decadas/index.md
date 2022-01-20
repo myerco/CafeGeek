@@ -1,20 +1,25 @@
 ---
 title: A Jogatina das décadas
-description: A história dos jogos na sociedade e seus diferentes tipos, entenda o que são jogos eletrônicos e suas características.
+description: O objetivo deste curso é apresentar a definição do que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização.
 tags: [narrativa, Roteirização, jogos digitais]
 layout: page
 ---
 
-A história dos jogos na sociedade e seus diferentes tipos, entenda o que são jogos eletrônicos e suas características.
+O objetivo deste curso é apresentar e trabalhar com a definição do que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização.
+
+## Habilidades que serão aprendidas
+- Analise e conceitue jogos;    
+- Analise e defina tipos de jogos;    
+- Analise e defina os tipos de jogadores;      
+- Conheça o mercado de jogos digitais;    
+- Implemente um protótipo de jogo;
 
 <a name="indice"></a>
 **[Capítulo I - O que é um Jogo?](#1 "Capítulo I - O que é um Jogo?")**
 
-1. [Introdução](#1.1)
-2. [O que é um jogo?](#1.2)
-1. [Teria o jogo lugar no sistema de vida?](#1.3)
-3. [Homo Ludens](#1.4)    
-4. [A Tensão como um elemento do jogo](#1.5)        
+1. [Teria o jogo lugar no sistema de vida?](#1.1)
+3. [Homo Ludens](#1.2)    
+4. [A Tensão como um elemento do jogo](#1.3)        
 
 **[Capítulo II - Qual a função do jogo?](#2 "Qual a função do jogo?")**
 
@@ -64,9 +69,15 @@ A história dos jogos na sociedade e seus diferentes tipos, entenda o que são j
 >
 > Animvs
 
+Podemos definir um jogo através das suas principais características.
+- Atividade recreativa;
+- Regras que estabelecem quem vence e quem perde;
+- Competição física ou mental;
+- Conjunto de procedimentos e estratégias para atingir determinado fim;
+- Atividade em que existe a figura do jogador (como indivíduo praticante).
 
-<a name="1.1"></a>
-## 1. Introdução
+A origem da palavra deriva do de um termo do latim, *jocus*, que significa brincadeira, divertimento, atualmente podemos explorar as principais características e definições que nos ajudam a entender a evolução dessa "brincadeira" que faz parte das nossas vidas.
+
 
 ![chess](https://images.chesscomfiles.com/uploads/v1/article/17623.87bb05cd.668x375o.47d81802f1eb.jpeg)
 
@@ -79,34 +90,14 @@ tanto na vida humana como na animal, e é tão importante como o raciocínio e o
 que, depois de *Homo faber* e talvez ao mesmo nível de *Homo sapiens*, a expressão *Homo ludens* merece um lugar em
 nossa nomenclatura."
 
-
 > Latim “Ludus”, “Ludere” que designava os jogos infantis.
 
-## O curso A Jogatina das Décadas
-O objetivo deste curso é apresentar a Definição do que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização.
-
-## Habilidades que serão aprendidas
-- Analise e conceitue jogos;    
-- Analise e defina tipos de jogos;    
-- Analise e defina os tipos de jogadores;      
-- Conheça o mercado de jogos digitais;    
-- Implemente um protótipo de jogo;
 
 **[⬆ Início](#indice)**
 
-<a name="1.2"></a>
-## 2. O que é um jogo?
-Podemos definir um jogo através das suas principais características.
-- Atividade recreativa;
-- Regras que estabelecem quem vence e quem perde;
-- Competição física ou mental;
-- Conjunto de procedimentos e estratégias para atingir determinado fim;
-- Atividade em que existe a figura do jogador (como indivíduo praticante).
 
-A origem da palavra deriva do de um termo do latim, *jocus*, que significa brincadeira, divertimento, atualmente podemos explorar as principais características e definições que nos ajudam a entender a evolução dessa "brincadeira" que faz parte das nossas vidas.
-
-<a name="1.3"></a>
-## 3. Teria o jogo lugar no sistema de vida?
+<a name="1.1"></a>
+## 1. Teria o jogo lugar no sistema de vida?
 
 ![Figura: Life is a game. This is your strategy guide - https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/](https://oliveremberton.com/app/uploads/2014/02/Cover-shallow-1800x1100.png "Figura: Life is a game. This is your strategy guide - https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/")
 
@@ -123,8 +114,8 @@ Quando pensamos no aspecto humano e evolutivo temos não podemos deixar de citar
 
 **[⬆ Início](#indice)**
 
-<a name="1.4"></a>
-## 4. Homo Ludens
+<a name="1.2"></a>
+## 2. Homo Ludens
 
 ![Figura: Soraia Chung: “O brincar elabora uma ideia de humanidade” - https://alana.org.br/entrevista-soraia-chung-brincar/](https://alana.org.br/wp-content/uploads/2021/05/brincar.png.webp "Figura: Soraia Chung: “O brincar elabora uma ideia de humanidade” - https://alana.org.br/entrevista-soraia-chung-brincar/")
 
@@ -146,8 +137,8 @@ Em contrapartida devemos lembrar que o riso no filme O Nome da Rosa teve outra c
 
 **[⬆ Início](#indice)**
 
-<a name="1.5"></a>
-## 4. A Tensão como um elemento do jogo
+<a name="1.3"></a>
+## 3. A Tensão como um elemento do jogo
 ![Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise](https://img.ibxk.com.br/2014/10/15/15193231547073.jpg?ims=704x "Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise")
 
 > *Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise .*
