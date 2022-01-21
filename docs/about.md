@@ -1,5 +1,5 @@
 ---
-title: Educação e diversão 
+title: Sobre 
 description: Sobre o Cafegeek.
 tags: [Unreal Engine,perfil, profile,curriculum]
 layout: home
