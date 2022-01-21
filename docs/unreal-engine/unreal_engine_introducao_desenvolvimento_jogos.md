@@ -14,7 +14,9 @@ layout: page
 <a name="1"></a>
 ## 1. Desenvolvendo jogos digitais
 
-![Desenvolvimento de jogos digitais](https://p1.pxfuel.com/preview/25/456/1000/technology-controller-play-video-game-gamepad-console.jpg)
+![Figura: So, You Want to Be a Game Developer? - https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70](https://miro.medium.com/max/875/0*OlVTuxFz-Qn7oTUn "Figura: So, You Want to Be a Game Developer? - https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70")
+
+> *Figura: So, You Want to Be a Game Developer? - https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70 .*
 
 O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como por exemplo:
 - Programação de computadores;
@@ -33,11 +35,14 @@ Existem aplicações que auxiliam na produção de programas de computador ou jo
 <a name="1.1"></a>
 ### 1.1 O que é uma Engine e Framework?
 
-![Engine vs Framework](https://res.cloudinary.com/practicaldev/image/fetch/s--VEkXYGHg--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wlvg003uv0ph0i3nvpwo.jpg)
+![Figura: Game Engine VS Game Framework - https://developerhouse.com/game-engine-vs-game-framework/](https://developerhouse.com/wp-content/uploads/2020/10/game-engines-and-framework.jpg "Figura: Game Engine VS Game Framework - https://developerhouse.com/game-engine-vs-game-framework/")
+
+> *Figura: Game Engine VS Game Framework - https://developerhouse.com/game-engine-vs-game-framework/ .*
 
 No desenvolvimento de jogos um *Framework* pode ser definido como um conjunto de bibliotecas que auxiliam a programação, sendo que uma *engine* ou motor gráfico é mais completo pois abrange outros aspectos na produção de jogos.[[2](#r2)]
 
-Algumas *Engine*
+Algumas *Engine*.
+
 1. Unreal engine;
 1. Unity;
 1. GameMaker;
@@ -53,9 +58,11 @@ A maioria das *engines* seguem um ciclo de execução da lógica de programaçã
 
 <a name="2"></a>
 ## 2. O que é Unreal Engine?
-![Unreal Engine](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg/800px-Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg)
+![Figura: Unreal Engine - https://www.unrealengine.com/en-US/](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg/800px-Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg "Figura: Unreal Engine - https://www.unrealengine.com/en-US/")
 
-É uma *engine* (motor gráfico) para desenvolvimento de jogos que engloba vários aspectos na sua produção, listamos algumas funcionalidades:
+> *Figura: Unreal Engine - https://www.unrealengine.com/en-US/ .*
+
+É uma *Engine* (motor gráfico) para desenvolvimento de jogos que engloba vários aspectos na sua produção, a segui listamos algumas funcionalidades:
 
 1. Edição e compilação da lógica de programação;
 1. Apresentação de elementos visuais da cena do jogo;
@@ -69,8 +76,8 @@ A maioria das *engines* seguem um ciclo de execução da lógica de programaçã
 ***
 ## Referências
 <a name="r1"></a>
-1. [Framework](https://pt.wikipedia.org/wiki/Framework)
+- [Framework](https://pt.wikipedia.org/wiki/Framework)
 <a name="r2"></a>
-1. [Como ser um programador de jogos: Engine vs Framework](https://gamedeveloper.com.br/como-ser-um-programador-de-jogos-engine-vs-framework/)
-1. [Unreal Engine Download](https://www.unrealengine.com/en-US/download)
-1. [Unreal Engine Structure](https://github.com/drstreit/unreal_schematics/blob/master/Engine_Structure_poster_18x24.pdf)
+- [Como ser um programador de jogos: Engine vs Framework](https://gamedeveloper.com.br/como-ser-um-programador-de-jogos-engine-vs-framework/)
+- [Unreal Engine Download](https://www.unrealengine.com/en-US/download)
+- [Unreal Engine Structure](https://github.com/drstreit/unreal_schematics/blob/master/Engine_Structure_poster_18x24.pdf)
