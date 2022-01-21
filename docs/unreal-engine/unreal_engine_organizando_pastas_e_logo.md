@@ -171,7 +171,7 @@ Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apr
 ***
 ## Referências
 - [Directory Structure](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html)  
-- [Editor Preferences](https://docs.unrealengine.com/en-US/Engine/UI/index.html)  
-- [Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md)  
-- [Controles de navegação](https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html)
+- [Unreal Editor Interface](https://docs.unrealengine.com/en-US/Engine/UI/index.html)  
+- [Gamemakin UE4 Style Guide() {](https://github.com/Allar/ue4-style-guide/blob/master/README.md)  
+- [Viewport Controls](https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html)
 - [How to change the icon of your game?](https://answers.unrealengine.com/questions/397901/how-to-change-the-icon-of-your-game.html)
