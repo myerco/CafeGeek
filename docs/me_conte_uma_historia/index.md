@@ -564,18 +564,20 @@ Escolha nomes para os seus personagens.
 - Ataques;
 - Agressão;
 - Saúde;
-- Tamanho;
+
+**Tamanho.**
+
+- Pequenos não são mais altos que o personagem;
+- Médios são mais ou menos da mesma altura do personagem do jogador;
+- Grandes são muitas cabeças mais alto que o jogador;
+- Imensos são pelo menos duas vezes o tamanho do jogador;
+- Gigantes são tão grandes que só podem ser vistos completamente a uma certa distância;
 ![Figura: The 50 Biggest Villains in World of Warcraft (Ranked Based on Badassery) - https://www.gamersdecide.com](https://www.gamersdecide.com/sites/default/files/authors/u141181/8b1b5a81a7cf1f89151207fb9f6a1977.png "Figura: The 50 Biggest Villains in World of Warcraft (Ranked Based on Badassery) - https://www.gamersdecide.com")
 
-  > *Figura: The 50 Biggest Villains in World of Warcraft (Ranked Based on Badassery) - https://www.gamersdecide.com .*
+> *Figura: The 50 Biggest Villains in World of Warcraft (Ranked Based on Badassery) - https://www.gamersdecide.com .*
 
-  - Pequenos não são mais altos que o personagem;
-  - Médios são mais ou menos da mesma altura do personagem do jogador;
-  - Grandes são muitas cabeças mais alto que o jogador;
-  - Imensos são pelo menos duas vezes o tamanho do jogador;
-  - Gigantes são tão grandes que só podem ser vistos completamente a uma certa distância;
 
-- Comportamento;
+**Comportamento.**
 - Patrulheiro;
 - Perseguidor;
 - Atirador;
@@ -591,7 +593,8 @@ Escolha nomes para os seus personagens.
 - Teletransportador;
 - Bloqueador;
 - Dublê;
-- Velocidade;
+
+**Velocidade.**
 - Lento;
 - Velocidade média;
 - Rápido;
@@ -680,42 +683,43 @@ Top 10 Most Annoying Video Game Enemies of All Time -  https://twinfinite.net .*
 
 > *Figura: Nemesis T-Type - https://residentevil.com.br .*
 
-- Quando enfrentar?
-  - Movimentos aprendidos;
-  - Novas habilidades;
-  - Combinação.
+**Quando enfrentar?**
+
+- Movimentos aprendidos;
+- Novas habilidades;
+- Combinação.
 
 ![Figura: Darth Vader nos games: uma história visual - https://br.ign.com](https://im.ziffdavisinternational.com/ign_br/screenshot/default/darth-vader-a-visual-history-of-star-wars-greatest_gfbx.jpg "Figura: Darth Vader nos games: uma história visual - https://br.ign.com")
 
 > *Figura: Darth Vader nos games: uma história visual - https://br.ign.com .*
 
-- Quem é?
-  - O que o torna um adversário digno?
-  - O que ele representa para o herói?
-  - O que o herói ganha em derrotar o vilão?
-  - Quais são os seus objetivos e motivações?
-  - Qual o trabalho do boss?
+**Quem é?**
+- O que o torna um adversário digno?
+- O que ele representa para o herói?
+- O que o herói ganha em derrotar o vilão?
+- Quais são os seus objetivos e motivações?
+- Qual o trabalho do boss?
 
 ![Figura: Dark Souls Game Design Analysis: Why Do We Come Back To Die? - https://www.gamedeveloper.com/](https://c2.staticflickr.com/2/1584/25903731993_8b58285c1d_b.jpg "Figura: Dark Souls Game Design Analysis: Why Do We Come Back To Die? - https://www.gamedeveloper.com/")
 
 > *Figura: Dark Souls Game Design Analysis: Why Do We Come Back To Die? - https://www.gamedeveloper.com/ .*
 
-- Componentes de uma luta:
-  - Ataque primário;
-  - Ataque invulnerável;
-  - Oportunidades;
+**Componentes de uma luta**
+- Ataque primário;
+- Ataque invulnerável;
+- Oportunidades;
 
 ![Figura: Mortal Kombat: relembre os fatalities clássicos da série de luta - https://www.techtudo.com.br](https://s2.glbimg.com/f3PnsVDxOwCmkXU_rGUrHn5NhDc=/0x0:695x441/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/c/k/lpbPiySoqlLqVm3tywSA/2015-02-27-fatality.png "Figura: Mortal Kombat: relembre os fatalities clássicos da série de luta - https://www.techtudo.com.br")
 
 > *Figura: Mortal Kombat: relembre os fatalities clássicos da série de luta - https://www.techtudo.com.br .*
 
-- Deixe o jogador administrar o golpe final;
+**Deixe o jogador administrar o golpe final.**
 
 ![Figura: This Is Why I Hate Video Game Boss Fights - This Is Why I Hate Video Game Boss Fights](https://davescomputertips.com/wp-content/uploads/2019/12/Dragon.jpg.webp "Figura: This Is Why I Hate Video Game Boss Fights - This Is Why I Hate Video Game Boss Fights")
 
 > *Figura: This Is Why I Hate Video Game Boss Fights - This Is Why I Hate Video Game Boss Fights .*
 
-- Locação;
+**Locação.**
 
 **[⬆ Início](#indice)**
 
