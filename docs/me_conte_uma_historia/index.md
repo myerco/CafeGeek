@@ -39,7 +39,7 @@ Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e
 1. [Hábito](#3.5 "Hábito")
 
 ***
-**[Capitulo IV - Os personagens](#4 "Capitulo IV - Os personagens")**
+**[Capitulo IV - Como construindo os personagens?](#4 "Capitulo IV - Os personagens")**
 
 1. [A jornada do Herói](#4.1)
 1. [Personalidade](#4.2)
@@ -285,29 +285,48 @@ O projeto é limitado por vários fatores, dentre eles:
 ****
 
 <a name="4"></a>
-## Capitulo IV - Os personagens
+## Capitulo IV - Como construindo os personagens?
 > "Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro."
 >
 > Alan Wake.
 
+![Figura: 10 dicas e truques para criar personagens inesquecíveis - http://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/](http://www.cafeinaliteraria.com.br/wp-system/wp-content/uploads/2016/05/AR18-1.jpg "Figura: 10 dicas e truques para criar personagens inesquecíveis - http://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/")
+
+> *Figura: 10 dicas e truques para criar personagens inesquecíveis - http://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/ .*
+
+Não existe uma formula mágica que se deve seguir para construir um personagem de qualquer história ficcional, talvez observar a vida real e o comportamento das pessoas que estão a sua volta ajude a entender como construir personagens, pois eles estão ao seu lado, mas segundo Charlie Jane Ander em artigo publicado em 05/08/2014, adaptado e apresentado em mini-palestra no [Clarion West](https://www.clarionwest.org/) por Cristine é possível organizar algumas ideias e dicas para que os personagens ganhem vida, segue abaixo o resumo.
+
+1. Personagem é ação;
+2. Ações surpreendentes;
+3. Contradições estranhas;
+4. Um detalhe pode estar no seu caminho;
+5. Mas salve os detalhes extras para a reescrita;
+6. Um mundo atraente e alguém lutando por ele;
+7. Yoda estava errado sobre a raiva;
+8. A aspiração do seu personagem pode ser estranha;
+9. Escreva uma história de origem, mesmo que você não a use;
+10. Trabalhe no sentido contrário do fluxo do enredo ou história.
+
+Devemos também outras estruturas de organização e entendimento dos  heróis, amigos, amigos nem tanto e supostos inimigos (Lembre do ótimo jogo [Last of Us Parte 2](https://thelastofus.com.br/)), a seguir apresentamos essas estruturas.
+
 <a name="4.1"></a>
 ## 1. A jornada do Herói
 
-![Figura: Jornada do Herói - https://medium.com](https://miro.medium.com/max/500/1*cQanY8AUEBH3f0BsGo_vOw.png "Figura: Jornada do Herói - https://medium.com")
+![Figura: Jornada do Herói - https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69](https://miro.medium.com/max/500/1*cQanY8AUEBH3f0BsGo_vOw.png "Figura: Jornada do Herói - https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69")
 
+> *Figura: Jornada do Herói - https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69 .*
 
-> *Figura: Jornada do Herói - https://medium.com .*
-> Está dividido em três seções:
+Está dividido em três seções:
 - Partida (às vezes chamada Separação)
 - Iniciação
 - Retorno
 
-[O Organismo - Jornada do Herói](https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69 "Jornada do Herói")
 
 ![Figura: The Lord of the Rings Movie Games Need the Remaster Treatment - https://gamerant.com](https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/08/The-Lord-of-the-Rings-The-Return-of-the-King-PS2-Remaster.jpg?q=50&fit=contain&w=960&h=500&dpr=1.5 "Figura: The Lord of the Rings Movie Games Need the Remaster Treatment - https://gamerant.com")
 
 > *Figura: The Lord of the Rings Movie Games Need the Remaster Treatment - https://gamerant.com .*
 
+Abaixo alguns filmes que utilizam essa fórmula :
 - Matrix;
 - Senhor dos Anéis;
 - Star Wars;
@@ -433,32 +452,56 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 
 <a name="4.5"></a>
 ## 5. Nome
-Escolha nomes para os seus personagens.
 
 ![Figura: Commander Shepard's first name is probably Sarah, or Jack - https://www.vg247.com](http://assets.vg247.com/current//2014/05/mass_effect_shepard_names.jpg "Figura: Commander Shepard's first name is probably Sarah, or Jack - https://www.vg247.com")
 
 > *Figura: Commander Shepard's first name is probably Sarah, or Jack - https://www.vg247.com .*
+
+A escolha dos nomes é importante para que o jogador possa explorar a personalidade dos personagens ou passar alguma ideia para o leitor sobrea história, por exemplo:
+
+**Significado.**
+
+O nome Rachael do filme Blade Runner 1982 pode ser associado a sua origem bíblica Raquel onde é representada como uma mulher rica, bonita e estéril, esse último detalhe faz toda a diferença quando assistimos o segundo filme, pois ela sendo um replicante é estéril e mesmo assim concebeu uma criança.
+
+![Figura: Blade Runner (1982): análise e significados do filme - https://www.culturagenial.com/blade-runner-1982-analise-significados-do-filme/](https://cdn.culturagenial.com/imagens/rachael-em-blade-runner-cke.jpg "Figura: Blade Runner (1982): análise e significados do filme - https://www.culturagenial.com/blade-runner-1982-analise-significados-do-filme/")
+
+> *Figura: Blade Runner (1982): análise e significados do filme - https://www.culturagenial.com/blade-runner-1982-analise-significados-do-filme/ .*
+
+**Nome Curto ou longo?**
+
+Podemos respondendo isso com "Não confunda o jogador com nomes complexos e longos", você deve ter estudado história do Brasil e definir a linhagem do imperador da seguinte forma, o imperador com barba e o sem barba, e a identificação é pelo numeral que representa a sequencia hereditária ([Lista de monarcas do Brasil](https://pt.wikipedia.org/wiki/Lista_de_monarcas_do_Brasil)).
+
+O personagem L do mangá Death Note é um exemplo interessante de nome curto pois segundo o criador:
+
+"Para o seu nome, Ohba queria usar uma única letra que contivesse muito significado: ele considerou "I" e "J", mas decidiu que não eram tão bons quanto "L", e escolheu "L" após cuidada ponderação.[6] O pseudônimo de Ryuuzaki (竜崎 Ryūzaki) foi lhe dado por que em japonês, L é pronunciado como R."
+
+
 
 **[⬆ Início](#indice)**
 
 <a name="4.6"></a>
 ## 6. Forma
 
+**Proporções faciais.**
+
+Trabalhe as expressões e cuidado com o "uncanny valley".
+
 ![Figura: Ori and the Blind Forest has the most powerful opening to any game in 2015 - https://www.polygon.com](https://cdn.vox-cdn.com/thumbor/TcsRMWy-7jzZ5EI1dhJG9_uJAe8=/148x0:1768x1080/920x613/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/48428281/oriblindforestart.0.0.jpg "Figura: Ori and the Blind Forest has the most powerful opening to any game in 2015 - https://www.polygon.com")
 
 > *Figura: Ori and the Blind Forest has the most powerful opening to any game in 2015 - https://www.polygon.com .*
 
-- Proporções faciais
-  - Trabalhe as expressões e cuidado com o "uncanny valley"
-- Movimento
-  - Pessoas são articuladas, cuidado com o orçamento.
+
+**Movimento.**
+
+Pessoas são articuladas, cuidado com o orçamento.
 
 ![Figura: Hellblade: Senua's Sacrifice review - https://www.eurogamer.net/](https://images.gnwcdn.com/2017/articles/2017-08-08-12-58/2.jpg/EG11/resize/690x-1/quality/75/format/jpg "Figura: Hellblade: Senua's Sacrifice review - https://www.eurogamer.net/")  
 
 > *Figura: Hellblade: Senua's Sacrifice review - https://www.eurogamer.net/ .*
 
-- Humanidade
-  - Se parece com humano então faz coisas humanas
+**Humanidade.**
+
+Se parece com humano então faz coisas humanas.
 
 ![Figura: Child of Light: Análise - https://culturanerdegeek.com.br](https://i2.wp.com/culturanerdegeek.com.br/wp-content/uploads/2017/10/Child-of-Light.png?resize=1024%2C576&ssl=1 "Figura: Child of Light: Análise - https://culturanerdegeek.com.br")
 
