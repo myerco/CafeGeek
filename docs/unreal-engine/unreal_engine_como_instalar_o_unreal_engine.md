@@ -7,7 +7,7 @@ layout: page
 
 Neste capítulo vamos instalar o **Unreal Engine** e o Microsoft Visual Studio para programação C++.
 
-![Figura: Unreal Engine Launcher](imagens/projeto/unreal_engine_launcher.jpg "Figura: Unreal Engine Launcher")   
+![Figura: Unreal Engine Launcher](imagens/projeto/unreal_engine_launcher.webp "Figura: Unreal Engine Launcher")   
 
 
 ## Índice
@@ -50,7 +50,7 @@ A **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **In
 3. Faça login no **Inicializador da Epic Games**;
 4. Instale o **Unreal Engine** utilizando o menu `Unreal Engine` > `Biblioteca`.
 
-  ![Figura: Gerenciamento de versões.](imagens/projeto/unreal_engine_control_version.jpg "Figura: Gerenciamento de versões.")   
+  ![Figura: Gerenciamento de versões.](imagens/projeto/unreal_engine_control_version.webp "Figura: Gerenciamento de versões.")   
 
   *Figura: Gerenciamento de versões.*
 
@@ -62,7 +62,7 @@ A **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **In
   - Desenvolvimento de jogos com C++;
   - Desenvolvimento para Desktop com C++.      
 
-  ![Figura: Visual Studio Update para desenvolvimento de jogos.](imagens/projeto/unreal_engine_visual_studio_update.jpg "Figura: Visual Studio Update para desenvolvimento de jogos")  
+  ![Figura: Visual Studio Update para desenvolvimento de jogos.](imagens/projeto/unreal_engine_visual_studio_update.webp "Figura: Visual Studio Update para desenvolvimento de jogos")  
 
   *Figura: Visual Studio Update para desenvolvimento de jogos.*   
 
@@ -81,7 +81,7 @@ Neste passo vamos criar um projeto para jogos utilizando **C++** pois irá ajuda
 ### 2.1 Selecionando o tipo de projeto    
 Neste passo vamos selecionar a categoria *Games* para o projeto.
 
-![Figura: Unreal 4 - Select or create New Project, Games.](imagens/projeto/blueprint_ue_select_new_project.jpg "Figura: Unreal 4 - Select or create New Project, Games.")  
+![Figura: Unreal 4 - Select or create New Project, Games.](imagens/projeto/blueprint_ue_select_new_project.webp "Figura: Unreal 4 - Select or create New Project, Games.")  
 
 *Figura: Unreal 4 - Select or create New Project, Games.*        
 
@@ -89,7 +89,7 @@ Neste passo vamos selecionar a categoria *Games* para o projeto.
 ### 2.2 Escolhendo o Template
 Para este projeto vamos escolher o `template blank` para que possamos entender os elementos do projeto e adicionar posteriormente outros pacotes.
 
-![Figura: Select Template blank.](imagens/projeto/blueprint_ue_select_template.jpg "Figura: Select Template blank.")     
+![Figura: Select Template blank.](imagens/projeto/blueprint_ue_select_template.webp "Figura: Select Template blank.")     
 
 *Figura: Select Template blank.*
 
@@ -99,7 +99,7 @@ Para este projeto vamos escolher o `template blank` para que possamos entender o
 ### 2.2 Configurando o projeto inicialmente
 Em configuração de projeto escolha **C++** e `No Starter Content`, esta opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário, em seguida escolha uma pasta onde o projeto deverá ser instalado em `Select a Location for project to be stored`.
 
-![Figura: Unreal engine project Settings.](imagens/projeto/blueprint_ue_project_settings.jpg "Figura: Unreal engine project Settings.")
+![Figura: Unreal engine project Settings.](imagens/projeto/blueprint_ue_project_settings.webp "Figura: Unreal engine project Settings.")
 
 *Figura: Unreal engine project Settings.*
 
@@ -107,7 +107,7 @@ Em configuração de projeto escolha **C++** e `No Starter Content`, esta opçã
 ### 2.4 Tela inicial do Unreal Engine
 Quando todos os passos anteriores forem concluídos corretamente a tela inicial deve aparecer.  
 
-![Figura: Unreal Engine tela inicial.](imagens/projeto/blueprint_ue_tela_inicial.jpg "Figura: Unreal Engine tela inicial")
+![Figura: Unreal Engine tela inicial.](imagens/projeto/blueprint_ue_tela_inicial.webp "Figura: Unreal Engine tela inicial")
 
 *Figura: Unreal Engine tela inicial.*
 
@@ -115,11 +115,11 @@ Quando todos os passos anteriores forem concluídos corretamente a tela inicial 
 ### 2.5 Iniciando um projeto no Unreal Engine 5
 A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o mesmo dos passos anteriores.
 
-![Figura: Unreal 5 - Select or create New Project, Games.](imagens/projeto/unreal_engine_select_new_project.jpg "Figura: Unreal 5 - Select or create New Project, Games")
+![Figura: Unreal 5 - Select or create New Project, Games.](imagens/projeto/unreal_engine_select_new_project.webp "Figura: Unreal 5 - Select or create New Project, Games")
 
 *Figura: Unreal 5 - Select or create New Project, Games.*
 
-![Figura: Unreal 5 - Tela inicial.](imagens/projeto/unreal_engine_home_screen.jpg "Figura: Unreal 5 - Tela inicial.")
+![Figura: Unreal 5 - Tela inicial.](imagens/projeto/unreal_engine_home_screen.webp "Figura: Unreal 5 - Tela inicial.")
 
 *Figura: Unreal 5 - Tela inicial.*        
 
@@ -176,7 +176,7 @@ Para recompilar o projeto e recriar os arquivos podemos utilizar o `explorer` do
 1. Click com botão direito do mouse no arquivo **ProjetoAula.uproject**;
 1. Escolha a opção `Generate Visual Studio project files`;
 
-    ![Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files](imagens/projeto/blueprint_explorer_generate_vs.jpg "Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files")   
+    ![Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files](imagens/projeto/blueprint_explorer_generate_vs.webp "Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files")   
 
     *Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files.*
 
@@ -190,7 +190,7 @@ Para programar utilizando **C++** no Unreal devemos configurar um editor de cód
 
  `Menu` > `Editor Preferences` > `General` e `Source Code`, então escolha `Visualstudio`.   
 
-![Figura: General - Source Code, Definindo o editor de código.](imagens/projeto/unreal_engine_editor_codigo.jpg "Figura: General - Source Code, Definindo o editor de código.")   
+![Figura: General - Source Code, Definindo o editor de código.](imagens/projeto/unreal_engine_editor_codigo.webp "Figura: General - Source Code, Definindo o editor de código.")   
 
 *Figura: General - Source Code, Definindo o editor de código.*
 
