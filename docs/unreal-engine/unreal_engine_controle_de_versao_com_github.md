@@ -7,7 +7,7 @@ layout: page
 
 Neste capítulo vamos instalar o **Git Client** com o **GitHub Desktop** para versionamento de arquivos no **Unreal Engine** e apresentar comandos básicos.
 
-![Figura: Unreal Engine with Git](imagens/projeto/unreal_engine_git.jpg "Figura: Unreal Engine with Git")
+![Figura: Unreal Engine with Git](imagens/projeto/unreal_engine_git.webp "Figura: Unreal Engine with Git")
 
 ## Índice
 1. **[Para que server o controle de versão?](#1)**
@@ -141,7 +141,7 @@ Para exemplificar a conexão do Unreal Engine com o Github vamos criar um novo p
 
 1. Para Configurar o projeto utilizaremos :   
   - O Menu principal `Edit` > `Connect To Source Control`.
-   ![Figura: Source Control Login.](imagens/projeto/unreal_engine_connect_to_source_control.jpg "Figura: Source Control Login")
+   ![Figura: Source Control Login.](imagens/projeto/unreal_engine_connect_to_source_control.webp "Figura: Source Control Login")
 
     *Figura: Source Control Login.*
 1. Abaixo a descrição dos parâmetros;
@@ -162,7 +162,7 @@ Para exemplificar a conexão do Unreal Engine com o Github vamos criar um novo p
 1. Abra o GitHub Desktop;
 1. Configure a sua conta do **Github** para ter acesso aos seus repositórios;
   - Menu principal `File` > `Options`
-   ![Figura: Github Desktop Options.](imagens/projeto/unreal_engine_github_desktop_options.jpg "Figura: Github Desktop Options.")
+   ![Figura: Github Desktop Options.](imagens/projeto/unreal_engine_github_desktop_options.webp "Figura: Github Desktop Options.")
 
        *Figura: Github Desktop Options.*
 1. Adicione o projeto TestGitHub com :
@@ -173,13 +173,13 @@ Para exemplificar a conexão do Unreal Engine com o Github vamos criar um novo p
 ### 3.5 Criando o projeto remoto e atualizando os arquivos
 Uma vez configurados os projetos nos sistemas **Unreal** e **GitHub Desktop**, podemos confirmar as alterações dos arquivos utilizando o comando `Commit to Master`.
 
-![Figura: Github Desktop Commit to Master.](imagens/projeto/unreal_engine_github_desktop_Commit_to_master.jpg "Figura: Github Desktop Commit to Master.")
+![Figura: Github Desktop Commit to Master.](imagens/projeto/unreal_engine_github_desktop_Commit_to_master.webp "Figura: Github Desktop Commit to Master.")
 
 *Figura: Github Desktop Commit to Master.*
 
 Após confirmação das alterações devemos publicá-las no repositório remoto usando o comando `Publish repository`.
 
-![Figura: Github Desktop Publish repository.](imagens/projeto/unreal_engine_github_desktop_publish_repository.jpg "Figura: Github Desktop Publish repository.")
+![Figura: Github Desktop Publish repository.](imagens/projeto/unreal_engine_github_desktop_publish_repository.webp "Figura: Github Desktop Publish repository.")
 
 *Figura: Github Desktop Publish repository.*
 
@@ -195,13 +195,13 @@ Para testar as configurações realizadas vamos adicionar o pacote `Starter Cont
   - `ExampleContent\StarterContent`.
 1. Vamos criar o objeto `BP_Ator` do tipo *Actor* e adicioná-lo na pasta `Content\Projeto\Characters`.
 1. No painel `Changes`  do GitHub Desktop devem aparecer somente os arquivos :
-  ![Figura: Github Desktop Publish repository.](imagens/projeto/unreal_engine_github_desktop_commit_first_actor.jpg "Figura: Github Desktop Publish repository.")
+  ![Figura: Github Desktop Publish repository.](imagens/projeto/unreal_engine_github_desktop_commit_first_actor.webp "Figura: Github Desktop Publish repository.")
 
     *Figura: Github Desktop Publish repository.*
      - BP_Ator.usasset;
      - TestGitHub.uproject.
 1. Após a confirmação vamos enviar as alterações para o servidor com o comando `Push origin`.
-  ![Figura: Github Desktop Publish repository.](imagens/projeto/unreal_engine_github_desktop_push_origin.jpg "Figura: Github Desktop Publish repository.")
+  ![Figura: Github Desktop Publish repository.](imagens/projeto/unreal_engine_github_desktop_push_origin.webp "Figura: Github Desktop Publish repository.")
 
     *Figura: Github Desktop Publish repository.*
 
