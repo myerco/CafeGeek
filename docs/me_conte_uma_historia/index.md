@@ -256,9 +256,9 @@ O projeto é limitado por vários fatores, dentre eles:
 
 <a name="3.4"></a>
 ## 4. O que nos inspira?
-![Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br](imagens/AR18-1.webp "Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br")
+![Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br/voxel/jogos/rise-of-the-tomb-raider/analise](imagens/04190615075402.webp "Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br/voxel/jogos/rise-of-the-tomb-raider/analise .")
 
-> *Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br .*
+> *Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br/voxel/jogos/rise-of-the-tomb-raider/analise .*
 
 - Lugar;
 - Pessoas;
@@ -290,7 +290,7 @@ O projeto é limitado por vários fatores, dentre eles:
 >
 > Alan Wake.
 
-![Figura: 10 dicas e truques para criar personagens inesquecíveis - http://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/](http://www.cafeinaliteraria.com.br/wp-system/wp-content/uploads/2016/05/AR18-1.jpg "Figura: 10 dicas e truques para criar personagens inesquecíveis - http://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/")
+![Figura: 10 dicas e truques para criar personagens inesquecíveis - http://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/](imagens/AR18-1.webp "Figura: 10 dicas e truques para criar personagens inesquecíveis - http://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/")
 
 > *Figura: 10 dicas e truques para criar personagens inesquecíveis - http://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/ .*
 
