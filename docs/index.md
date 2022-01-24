@@ -6,7 +6,7 @@ layout: home
 ---
 
 <p align="center">
-<img align="center" width="100" height="100" src="imagens/cafegeek_small.png" alt="Logo cafegeek_small" title="CafeGeek">
+<img align="center" width="100" height="100" src="imagens/cafegeek_small.webp" alt="Logo cafegeek_small" title="CafeGeek">
 </p>
 
 **Desenvolvimento de jogos**

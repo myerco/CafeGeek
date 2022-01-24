@@ -1,12 +1,12 @@
 ---
-title: Sobre 
+title: Sobre
 description: Sobre o Cafegeek.
 tags: [Unreal Engine,perfil, profile,curriculum]
 layout: home
 ---
 
 <p align="center">
-<img align="center" width="100" height="100" src="imagens/cafegeek_small.png">
+<img align="center" width="100" height="100" src="imagens/cafegeek_small.webp">
 </p>
 
 Olá, meu nome é [Marco Yerco](mailto:myerco@gmail.com) analista de sistemas e professor, gostaria de compartilhar um pouco de conhecimento.
