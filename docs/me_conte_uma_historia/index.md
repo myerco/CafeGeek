@@ -39,7 +39,7 @@ Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e
 1. [Hábito](#3.5 "Hábito")
 
 ***
-**[Capitulo IV - Como construindo os personagens?](#4 "Capitulo IV - Os personagens")**
+**[Capitulo IV - Como construir os personagens?](#4 "Capitulo IV - Como construir os personagens?")**
 
 1. [A jornada do Herói](#4.1)
 1. [Personalidade](#4.2)
@@ -256,7 +256,7 @@ O projeto é limitado por vários fatores, dentre eles:
 
 <a name="3.4"></a>
 ## 4. O que nos inspira?
-![Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br](https://img.ibxk.com.br/2015/11/04/04190615075402.jpg?ims=704x "Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br")
+![Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br](imagens/AR18-1.webp "Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br")
 
 > *Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br .*
 
@@ -285,7 +285,7 @@ O projeto é limitado por vários fatores, dentre eles:
 ****
 
 <a name="4"></a>
-## Capitulo IV - Como construindo os personagens?
+## Capitulo IV - Como construir os personagens?
 > "Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro."
 >
 > Alan Wake.
