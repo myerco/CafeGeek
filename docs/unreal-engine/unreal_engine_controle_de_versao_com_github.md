@@ -141,6 +141,7 @@ Para exemplificar a conexão do Unreal Engine com o Github vamos criar um novo p
 
 1. Para Configurar o projeto utilizaremos :   
   - O Menu principal `Edit` > `Connect To Source Control`.
+
    ![Figura: Source Control Login.](imagens/projeto/unreal_engine_connect_to_source_control.webp "Figura: Source Control Login")
 
     *Figura: Source Control Login.*
