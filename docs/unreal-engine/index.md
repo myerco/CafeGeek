@@ -221,7 +221,7 @@ Neste passo vamos criar um projeto para jogos utilizando **C++** pois irá ajuda
 
 <a name="1.3.1"></a>
 ### 3.1 Selecionando o tipo de projeto    
-Neste passo vamos selecionar a categoria *Games* para o projeto.
+Neste passo vamos selecionar a categoria *Games* para o projeto para que a Engine configure alguns parâmetros iniciais.
 
 ![Figura: Unreal 4 - Select or create New Project, Games.](imagens/projeto/blueprint_ue_select_new_project.webp "Figura: Unreal 4 - Select or create New Project, Games.")  
 
@@ -321,8 +321,8 @@ As pastas abaixo podem ser removidas pois podemos construir a qualquer momento q
 <a name="1.4.4"></a>
 ### 4.4 Nomenclatura de pastas
 É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto, abaixo duas boas recomendações de organização, discutiremos mais nos próximos capítulos.    
-- [Estrutura do diretório](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html);
-- [UE4 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin).
+- [Directory Structure](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html "Directory Structure Overview of the directories that make up the engine and game projects.");
+- [UE5 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin "Gamemakin UE4 Style Guide() { A mostly reasonable approach to Unreal Engine 4").
 
 **[⬆Volta para o Capítulo 1](#capitulo1)**
 
