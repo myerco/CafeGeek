@@ -66,13 +66,9 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
     - [6.10 Criando o projeto remoto e atualizando os arquivos](#1.6.10)  
     - [6.11 Testando a configuração do Git com o Unreal Engine](#1.6.11)  
     - [6.12 Utilizando comandos do PowerShell para utilizar o Git Client](#1.6.12)  
-    - [6.13 Clonando o projeto](#1.6.13)
-    - [6.14 Criando o projeto](#1.6.14)
-    - [6.15 Atualizando o projeto no servidor](#1.6.15)
-    - [6.16 Atualizando o projeto no cliente](#1.6.16)
-    - [6.17 Ignorando pastas e arquivos](#1.6.17)
-    - [6.18 Exemplo de arquivo .gitignore para o Unreal Engine](#1.6.18)
-    - [6.19 Atividade - Crie um projeto no Unreal Engine e o configure para utilizar o Git](#1.6.19)
+    - [6.13 Ignorando pastas e arquivos](#1.6.13)
+    - [6.14 Exemplo de arquivo .gitignore para o Unreal Engine](#1.6.14)
+    - [6.15 Atividade - Crie um projeto no Unreal Engine e o configure para utilizar o Git](#1.6.15)
 
 - [7. Interface e Editores](interface_e_editores.html)  
 - [8. Programação visual com Blueprint](unreal_engine_entendo_blueprint.html)
@@ -233,7 +229,10 @@ A **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **In
   - Desenvolvimento de jogos com C++;
   - Desenvolvimento para Desktop com C++.      
 
-  ![Figura: Visual Studio Update para desenvolvimento de jogos.](imagens/projeto/unreal_engine_visual_studio_update.webp "Figura: Visual Studio Update para desenvolvimento de jogos")  
+<!--  ![Figura: Visual Studio Update para desenvolvimento de jogos.](imagens/projeto/unreal_engine_visual_studio_update.webp "Figura: Visual Studio Update para desenvolvimento de jogos")  
+-->
+
+<img src="imagens/projeto/unreal_engine_visual_studio_update.webp" width="1265" height="auto" alt="Figura: Visual Studio Update para desenvolvimento de jogos.">
 
   > *Figura: Visual Studio Update para desenvolvimento de jogos.*   
 
@@ -695,7 +694,7 @@ Para exemplificar a conexão do **Unreal Engine** com o Github vamos criar um no
 *Figura: Github Desktop Options.*
 
 3. Adicione o projeto TestGitHub com `Add an Existing Repository from your hard drive...`, informe a pasta do projeto TestGitHub;
-4. Utilizando o Explorer navegue até a pasta do projeto e edite o arquivo .gitignore e adicione o texto ExampleContent, isso impedira a pasta ser enviada para o repositório remoto, verifique [Ignorando pastas e arquivos](#6) para mais informações;
+4. Utilizando o Explorer navegue até a pasta do projeto e edite o arquivo .gitignore e adicione o texto ExampleContent, isso impedira a pasta ser enviada para o repositório remoto, verifique [Ignorando pastas e arquivos](#1.6.13) para mais informações;
 
 <a name="1.6.10"></a>
 ### 6.10 Criando o projeto remoto e atualizando os arquivos
@@ -746,8 +745,8 @@ Para testar as configurações realizadas vamos adicionar o pacote `Starter Cont
 
 Então vamos apresentar os principais comandos.
 
-<a name="1.6.13"></a>
-### 6.13 Clonando o projeto
+**Clonando o projeto.**
+
 Clonar o projeto significa baixar o projeto do servidor para a máquina cliente (local).
 
 ```shell
@@ -756,8 +755,8 @@ git clone https://github.com/myerco/ProjetoAula.git
 cd ProjetoMP
 git status
 ```
-<a name="1.6.14"></a>
-### 6.14 Criando o projeto
+**Criando o projeto.**
+
 Podemos criar um novo projeto no cliente e em seguida atualizar o servidor.     
 ```shell
 mkdir -p D:\UnrealProjects\ProjetoMP
@@ -766,16 +765,18 @@ git init
 git remote add origin https://github.com/myerco/ProjetoAula.git
 git remote -v
 ```
-<a name="1.6.15"></a>
-### 6.15 Atualizando o projeto no servidor
+
+**Atualizando o projeto no servidor.**
+
 Mudanças podem ser replicadas do cliente para o servidor.
 ```shell
 git add .
 git commit -m "feat: Atualizando o projeto.. Alteração de movimentação de personagem"
 git push origin master
 ```
-<a name="1.6.16"></a>
-### 1.6.16 Atualizando o projeto no cliente (local)
+
+**Atualizando o projeto no cliente (local).**
+
 O comando `pull` baixa os arquivos do servidor.
 ```shell
 git status
@@ -784,8 +785,8 @@ git pull origin master
 
 **[⬆ Volta para o Capítulo I](#capitulo1)**
 
-<a name="1.6.17"></a>
-### 6.17 Ignorando pastas e arquivos
+<a name="1.6.13"></a>
+### 6.13 Ignorando pastas e arquivos
 É importante ignorar pastas e arquivos do cliente para que não possam ser publicadas no servidor utilizando o arquivo `.gitignore` na pasta raiz do projeto, considerando os seguintes aspectos.
 
 **Segurança** - Arquivos de controle de senhas ou outros dados relativos a segurança não podem ficar disponíveis publicamente.
@@ -796,8 +797,8 @@ git pull origin master
 - [Git LFS](https://git-lfs.github.com/)
 - [SVN](https://tortoisesvn.net/)
 
-<a name="1.6.18"></a>
-### 6.18 Exemplo de arquivo .gitignore para o Unreal Engine
+<a name="1.6.14"></a>
+### 6.14 Exemplo de arquivo .gitignore para o Unreal Engine
 ```shell
 # Projetos exemplo
 ThirdPerson/
@@ -814,8 +815,8 @@ StarterContent/
 *.obj
 ```
 
-<a name="1.6.19"></a>
-### 6.19 Atividade - Crie um projeto no Unreal Engine e o configure para utilizar o Git.
+<a name="1.6.15"></a>
+### 6.15 Atividade - Crie um projeto no Unreal Engine e o configure para utilizar o Git.
 **Regras.**
 
 1. Instale todo o ambiente e crie um projeto com  a  última versão do Unreal Engine.
