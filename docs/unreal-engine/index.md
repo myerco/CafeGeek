@@ -6,7 +6,7 @@ tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digi
 layout: page
 ---
 
-Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*, bem como a construção de elementos de apresentação de jogos como por exemplo materiais, terrenos, inteligência artificial e conexões multiplayer.  
+Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*.  
 
 **Habilidades que serão aprendidas**
 
@@ -726,15 +726,15 @@ Para testar as configurações realizadas vamos adicionar o pacote `Starter Cont
   - BP_Ator.usasset;
   - TestGitHub.uproject.
 
-![Figura: Github Desktop Publish repository.](imagens/projeto/unreal_engine_github_desktop_commit_first_actor.webp "Figura: Github Desktop Publish repository.")
+  ![Figura: Github Desktop Publish repository.](imagens/projeto/unreal_engine_github_desktop_commit_first_actor.webp "Figura: Github Desktop Publish repository.")
 
-> *Figura: Github Desktop Publish repository.*
+  > *Figura: Github Desktop Publish repository.*
 
 5. Após a confirmação vamos enviar as alterações para o servidor com o comando `Push origin`.
 
-![Figura: Github Desktop Push Origin.](imagens/projeto/unreal_engine_github_desktop_push_origin.webp "Figura: Github Desktop Push origin.")
+  ![Figura: Github Desktop Push Origin.](imagens/projeto/unreal_engine_github_desktop_push_origin.webp "Figura: Github Desktop Push origin.")
 
-> *Figura: Github Desktop Push Origin.*
+  > *Figura: Github Desktop Push Origin.*
 
 **[⬆ Volta para o Capítulo I](#capitulo1)**
 
