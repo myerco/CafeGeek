@@ -8,7 +8,7 @@ layout: unreal_engine
 
 Neste capitulo vamos organizar as pastas do projeto *ProjetoAula*, construído no Unreal Engine, e vamos configurá-lo.
 
-![Figura: Content Drawer](imagens/projeto/unreal_engine_content_drawer.jpg "Figura: Content Drawer")			
+![Figura: Content Drawer](imagens/projeto/unreal_engine_content_drawer.webp "Figura: Content Drawer")			
 
 ## Índice
 1. **[Como criar pastas de trabalho?](#1)**
@@ -134,7 +134,7 @@ Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguinte
 1. Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o menu :     
     `Edit` > `Project Settings` e depois `Maps & Modes`;   
 
-	![Figura: Project - Maps & Modes.](imagens/projeto/unreal_engine_maps_modes.jpg "Figura: Project - Maps & Modes.")			
+	![Figura: Project - Maps & Modes.](imagens/projeto/unreal_engine_maps_modes.webp "Figura: Project - Maps & Modes.")			
 
 	*Figura: Project - Maps & Modes.*
 
@@ -147,7 +147,7 @@ Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apr
 
 `Project Settings` opção `Plataforms` > `Windows` e altere a imagens.
 
-![Figura: Project icon.](imagens/projeto/unreal_engine_project_icon.jpg "Figura: Project icon.")		
+![Figura: Project icon.](imagens/projeto/unreal_engine_project_icon.webp "Figura: Project icon.")		
 
 *Figura: Project icon.*
 
