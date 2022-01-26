@@ -628,10 +628,11 @@ Neste passo vamos preparar o ambiente e projeto para começar a trabalhar com o 
 
 <a name="1.6.6"></a>
 ### 6.6 Criando uma conta e o projeto no Github
-Inscreva-se no [Github](https://github.com/) para ter possibilitar:
-- Registro de Repositórios;
-- Registro e acompanhamento de tarefas;
-- Registro e acompanhamento de projetos e versões.  
+Inscreva-se no [Github](https://github.com/) para possibilitar:
+- Registro de Repositórios - Espaço de armazenamento e versionamento de arquivos e projetos;
+- Registro e acompanhamento de tarefas - Registro e acompanhamento de tarefas que podem se associadas aos `commits`;
+- Registro e acompanhamento de projetos e versões - Registro de versões de projeto;  
+- Wiki - Publicação de um Wiki do projeto.
 
 <a name="1.6.7"></a>
 ### 6.7 Instalando Git Client e GitHub Desktop
@@ -666,35 +667,35 @@ Para exemplificar a conexão do **Unreal Engine** com o Github vamos criar um no
 1. Para Configurar o projeto utilizaremos :   
   - O Menu principal `Edit` > `Connect To Source Control`.
 
-   ![Figura: Source Control Login.](imagens/projeto/unreal_engine_connect_to_source_control.webp "Figura: Source Control Login")
+![Figura: Source Control Login.](imagens/projeto/unreal_engine_connect_to_source_control.webp "Figura: Source Control Login")
 
-    > *Figura: Source Control Login.*
+> *Figura: Source Control Login.*
 
-1. Abaixo a descrição dos parâmetros;
+2. Abaixo a descrição dos parâmetros;
   - `Git Path` - Caminho para o executável do **Git client**;
   - `Add a .gitignore file` - Adiciona o arquivo para controle do que deve ser enviado para o servidor;
   - `Add a basic README.md file` - Adicione um arquivo em formato *Markdown* para ser utilizado como documentação inicial;
   - `Make the initial Git Commit` - Inicializa o repositório local.
 
-1. Logo em seguida inicialize o projeto e clique em `Accept Settings`;
-1. Com o `Content Drawer` cria as seguintes pastas:
+3. Logo em seguida inicialize o projeto e clique em `Accept Settings`;
+4. Com o `Content Drawer` cria as seguintes pastas:
   - `ExampleContent`;
   - `Projeto`;
   - `Projeto\Maps`;  
-1. Salve o level atual em `Projeto\Maps` com o nome `LevelTest`.
+5. Salve o level atual em `Projeto\Maps` com o nome `LevelTest`.
 
 <a name="1.6.9"></a>
 ### 6.9 Configurando o Github Desktop e adicionando o projeto
 1. Abra o GitHub Desktop;
-1. Configure a sua conta do **Github** para ter acesso aos seus repositórios;
-  - Menu principal `File` > `Options`
 
-   ![Figura: Github Desktop Options.](imagens/projeto/unreal_engine_github_desktop_options.webp "Figura: Github Desktop Options.")
+2. Configure a sua conta do **Github** para ter acesso aos seus repositórios utilizando o menu principal `File` > `Options`;
 
-       *Figura: Github Desktop Options.*
-1. Adicione o projeto TestGitHub com :
-     - `Add an Existing Repository from your hard drive...` - Informe a pasta do projeto TestGitHub;
-1. Utilizando o Explorer navegue até a pasta do projeto e edite o arquivo .gitignore e adicione o texto ExampleContent, isso impedira a pasta ser enviada para o repositório remoto, verifique [Ignorando pastas e arquivos](#6) para mais informações;
+![Figura: Github Desktop Options.](imagens/projeto/unreal_engine_github_desktop_options.webp "Figura: Github Desktop Options.")
+
+*Figura: Github Desktop Options.*
+
+3. Adicione o projeto TestGitHub com `Add an Existing Repository from your hard drive...`, informe a pasta do projeto TestGitHub;
+4. Utilizando o Explorer navegue até a pasta do projeto e edite o arquivo .gitignore e adicione o texto ExampleContent, isso impedira a pasta ser enviada para o repositório remoto, verifique [Ignorando pastas e arquivos](#6) para mais informações;
 
 <a name="1.6.10"></a>
 ### 6.10 Criando o projeto remoto e atualizando os arquivos
@@ -718,21 +719,22 @@ Para testar as configurações realizadas vamos adicionar o pacote `Starter Cont
 
 1. Adicione o pacote **Starter Content** utilizando o `Content Drawer`;
   - `Add` > `Add Feature or Content Pack` escolha `Starter Content`.
-1. Após a instalação do pacote mova o diretório `StarterContent` para a pasta `ExampleContent`, isso deve impedir que a referida pasta seja publicada no repositório remoto;
+2. Após a instalação do pacote mova o diretório `StarterContent` para a pasta `ExampleContent`, isso deve impedir que a referida pasta seja publicada no repositório remoto;
   - `ExampleContent\StarterContent`.
-1. Vamos criar o objeto `BP_Ator` do tipo *Actor* e adicioná-lo na pasta `Content\Projeto\Characters`.
-1. No painel `Changes`  do GitHub Desktop devem aparecer somente os arquivos :
+3. Vamos criar o objeto `BP_Ator` do tipo *Actor* e adicioná-lo na pasta `Content\Projeto\Characters`.
+4. No painel `Changes`  do GitHub Desktop devem aparecer somente os arquivos :
+  - BP_Ator.usasset;
+  - TestGitHub.uproject.
 
-  ![Figura: Github Desktop Publish repository.](imagens/projeto/unreal_engine_github_desktop_commit_first_actor.webp "Figura: Github Desktop Publish repository.")
+![Figura: Github Desktop Publish repository.](imagens/projeto/unreal_engine_github_desktop_commit_first_actor.webp "Figura: Github Desktop Publish repository.")
 
-    > *Figura: Github Desktop Publish repository.*
+> *Figura: Github Desktop Publish repository.*
 
-     - BP_Ator.usasset;
-     - TestGitHub.uproject.
-1. Após a confirmação vamos enviar as alterações para o servidor com o comando `Push origin`.
-  ![Figura: Github Desktop Publish repository.](imagens/projeto/unreal_engine_github_desktop_push_origin.webp "Figura: Github Desktop Publish repository.")
+5. Após a confirmação vamos enviar as alterações para o servidor com o comando `Push origin`.
 
-    > *Figura: Github Desktop Publish repository.*
+![Figura: Github Desktop Push Origin.](imagens/projeto/unreal_engine_github_desktop_push_origin.webp "Figura: Github Desktop Push origin.")
+
+> *Figura: Github Desktop Push Origin.*
 
 **[⬆ Volta para o Capítulo I](#capitulo1)**
 
@@ -790,7 +792,7 @@ git pull origin master
 
 **Arquivos e pastas temporárias** - Estes arquivos podem ser recriados ao compilar o projeto.
 
-s**Arquivos grandes** Arquivos de imagens ou elementos de grande tamanho podem ser excluídos do versionamento e devemos considerar outras métodos de armazenamento como por exemplo:
+**Arquivos grandes** Arquivos de imagens ou elementos de grande tamanho podem ser excluídos do versionamento e devemos considerar outras métodos de armazenamento como por exemplo:
 - [Git LFS](https://git-lfs.github.com/)
 - [SVN](https://tortoisesvn.net/)
 
