@@ -5,8 +5,8 @@ tags: [Banco de Dados, Oracle, Oracle SQLDeveloper, MER, modelo relacional,Postg
 layout: page
 ---
 
-
-**Capítulo I - Conhecendo a Taberna**
+<a name="indice"></a>
+**[Capítulo I - Conhecendo a Taberna](#1)**
 
 1. [Introdução](#1.1)
 1. [O projeto](#1.2)
@@ -30,8 +30,10 @@ layout: page
 1. O banco de dados PostgreSQL
 1. Construção do modelo no PostgreSQL
 
+<a name="1"></a>
 ## Capítulo I - Conhecendo a Taberna
 
+<a name="1.1"></a>
 ## 1. Introdução
 Neste projeto iremos utilizar como exemplo de negócio um empreendimento famoso conhecido na literatura que é a Taberna do Pônei Saltitante localizada na cidade de Bree presente nas obras de J.R.R. Tolkien.
 
@@ -44,19 +46,21 @@ Neste projeto serão apresentadas técnicas de modelagem de banco de dados e dic
 - Construir relacionamentos entre os objetos;
 - Aplicar regras de normalização;
 - Diagramar modelos de dados lógico e relacional;
-- Implementar comandos para construção do banco de dados relacional utilizando PostgreSQL;
+- Implementar comandos para construção do banco de dados relacional utilizando PostgreSQL.
 
-> Manipular e construir objetos conceituais facilita a documentação e apresentação de projetos de banco de dados.
+**Manipular e construir objetos conceituais facilita a documentação e apresentação de projetos de banco de dados.**
 
 
+<a name="1.2"></a>
 ## 2. O projeto
 
-Para conseguir representar a organização e armazenamento dos dados vamos implementar o seguinte:
+Neste projeto vamos implementar os seguintes elementos :
 
-- Modelo Lógico;
+- Modelo Lógico das regras negociais da Caverna do Pônei Saltitante;
 - Modelo Relacional;
 - Comandos para construção.
 
+<a name="1.3"></a>
 ## 3. A cidade de Bree
 
 ![http://tolkiengateway.net/wiki/Bree](http://tolkiengateway.net/w/images/thumb/1/13/Darek_Zabrocki_-_Morning.jpg/250px-Darek_Zabrocki_-_Morning.jpg)
@@ -67,6 +71,7 @@ A cidade de Bree conseguiu se manter prospéra próspera no Norte, apesar das gu
 
 É a única região na Terra-média, onde Homens e Hobbits convivem em harmonia e e um importante centro comercial para elfos e anões, que são bens de comércio ou viagens de um reino para outro. O centro econômico e social é a **Taverna do Pônei Saltitante**, conhecida por ter as melhores bebidas do Norte.
 
+<a name="1.4"></a>
 ## 4. Taverna do Pônei Saltitante e o projeto
 ![tabernaponeisaltitante](https://3.bp.blogspot.com/-bbFXtl8DLsM/WhswXoihJKI/AAAAAAAANa4/vOl3JpqLHJY9-rgkRmd87yTkF1vUZ2hAgCLcBGAs/s320/tabernaponeisaltitante.jpg)
 
