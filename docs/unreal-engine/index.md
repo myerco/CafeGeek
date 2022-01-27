@@ -236,7 +236,7 @@ Para instalar o **Unreal Engine** siga os seguintes passos:
   - Desenvolvimento de jogos com C++;
   - Desenvolvimento para Desktop com C++.      
 
-<!--  ![Figura: Visual Studio Update para desenvolvimento de jogos.](imagens/projeto/unreal_engine_visual_studio_update.webp "Figura: Visual Studio Update para desenvolvimento de jogos")  
+<!--  ![Figura: Visual Studio Update para desenvolvimento de jogos.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_visual_studio_update.webp "Figura: Visual Studio Update para desenvolvimento de jogos")  
 -->
 
 <img src="imagens/projeto/unreal_engine_visual_studio_update.webp" width="1265" height="auto" alt="Figura: Visual Studio Update para desenvolvimento de jogos.">
@@ -258,7 +258,7 @@ Nesta seção vamos criar um projeto para jogos utilizando **C++** pois irá aju
 ### 2.1 Selecionando o tipo de projeto    
 Para construção do projeto vamos selecionar a categoria *Games* para que a Engine configure alguns parâmetros iniciais.
 
-![Figura: Unreal 4 - Select or create New Project, Games.](imagens/projeto/blueprint_ue_select_new_project.webp "Figura: Unreal 4 - Select or create New Project, Games.")  
+![Figura: Unreal 4 - Select or create New Project, Games.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/blueprint_ue_select_new_project.webp "Figura: Unreal 4 - Select or create New Project, Games.")  
 
 > *Figura: Unreal 4 - Select or create New Project, Games.*        
 
@@ -266,7 +266,7 @@ Para construção do projeto vamos selecionar a categoria *Games* para que a Eng
 ### 2.2 Escolhendo o Template
 Para este projeto vamos escolher o `template blank` para que possamos entender os elementos do projeto e adicionar posteriormente outros pacotes.
 
-![Figura: Select Template blank.](imagens/projeto/blueprint_ue_select_template.webp "Figura: Select Template blank.")     
+![Figura: Select Template blank.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/blueprint_ue_select_template.webp "Figura: Select Template blank.")     
 
 > *Figura: Select Template blank.*
 
@@ -276,7 +276,7 @@ Para este projeto vamos escolher o `template blank` para que possamos entender o
 ### 2.3 Configurando o projeto inicialmente
 Em configuração de projeto escolha **C++** e `No Starter Content`, esta opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário, em seguida escolha uma pasta onde o projeto deverá ser instalado em `Select a Location for project to be stored`.
 
-![Figura: Unreal engine project Settings.](imagens/projeto/blueprint_ue_project_settings.webp "Figura: Unreal engine project Settings.")
+![Figura: Unreal engine project Settings.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/blueprint_ue_project_settings.webp "Figura: Unreal engine project Settings.")
 
 > *Figura: Unreal engine project Settings.*
 
@@ -284,7 +284,7 @@ Em configuração de projeto escolha **C++** e `No Starter Content`, esta opçã
 ### 2.4 Tela inicial do Unreal Engine
 Quando todos os passos anteriores forem concluídos corretamente a tela inicial deve aparecer.  
 
-<!-- ![Figura: Unreal Engine tela inicial.](imagens/projeto/blueprint_ue_tela_inicial.webp "Figura: Unreal Engine tela inicial") -->
+<!-- ![Figura: Unreal Engine tela inicial.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/blueprint_ue_tela_inicial.webp "Figura: Unreal Engine tela inicial") -->
 
 <img src="imagens/projeto/blueprint_ue_tela_inicial.webp" width="1265" height="auto" alt="Figura: Unreal Engine tela inicial.">
 
@@ -294,11 +294,11 @@ Quando todos os passos anteriores forem concluídos corretamente a tela inicial 
 ### 2.5 Iniciando um projeto no Unreal Engine 5
 A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o mesmo dos passos anteriores.
 
-![Figura: Unreal 5 - Select or create New Project, Games.](imagens/projeto/unreal_engine_select_new_project.webp "Figura: Unreal 5 - Select or create New Project, Games")
+![Figura: Unreal 5 - Select or create New Project, Games.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_select_new_project.webp "Figura: Unreal 5 - Select or create New Project, Games")
 
 > *Figura: Unreal 5 - Select or create New Project, Games.*
 
-<!-- ![Figura: Unreal 5 - Tela inicial.](imagens/projeto/unreal_engine_home_screen.webp "Figura: Unreal 5 - Tela inicial.") -->
+<!-- ![Figura: Unreal 5 - Tela inicial.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_home_screen.webp "Figura: Unreal 5 - Tela inicial.") -->
 
 <img src="imagens/projeto/unreal_engine_home_screen.webp" width="1265" height="auto" alt="Figura: Unreal 5 - Tela inicial.">
 
@@ -310,7 +310,7 @@ Para programar utilizando **C++** no Unreal devemos configurar um editor de cód
 
  `Menu` > `Editor Preferences` > `General` e `Source Code`, então escolha `Visualstudio`.   
 
-![Figura: General - Source Code, Definindo o editor de código.](imagens/projeto/unreal_engine_editor_codigo.webp "Figura: General - Source Code, Definindo o editor de código.")   
+![Figura: General - Source Code, Definindo o editor de código.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_editor_codigo.webp "Figura: General - Source Code, Definindo o editor de código.")   
 
 > *Figura: General - Source Code, Definindo o editor de código.*
 
@@ -383,7 +383,7 @@ Para recompilar o projeto e recriar os arquivos podemos utilizar o `explorer` do
 1. Click com botão direito do mouse no arquivo **ProjetoAula.uproject**;
 1. Escolha a opção `Generate Visual Studio project files`;
 
-    ![Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files](imagens/projeto/blueprint_explorer_generate_vs.webp "Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files")   
+    ![Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files](https://cafegeek.eti.br/unreal-engine/imagens/projeto/blueprint_explorer_generate_vs.webp "Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files")   
 
     > *Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files.*
 
@@ -412,7 +412,7 @@ A seguir vamos organizar as pastas do projeto *ProjetoAula*, construído no **Un
 ### 5.1 Como criar pastas de trabalho?
 No **Unreal Egnine** em `Content Drawer` utilizando botão direito do mouse clique em `New Folder` para criar pastas.
 
-![Figura: Content Drawer](imagens/projeto/unreal_engine_content_drawer.webp "Figura: Content Drawer")			
+![Figura: Content Drawer](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_content_drawer.webp "Figura: Content Drawer")			
 
 > *Figura: Content Drawer.*
 
@@ -524,7 +524,7 @@ Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguinte
 1. Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o menu :     
     `Edit` > `Project Settings` e depois `Maps & Modes`;   
 
-	![Figura: Project - Maps & Modes.](imagens/projeto/unreal_engine_maps_modes.webp "Figura: Project - Maps & Modes.")			
+	![Figura: Project - Maps & Modes.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_maps_modes.webp "Figura: Project - Maps & Modes.")			
 
 	*Figura: Project - Maps & Modes.*
 
@@ -537,7 +537,7 @@ Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apr
 
 `Project Settings` opção `Plataforms` > `Windows` e altere a imagens.
 
-![Figura: Project icon.](imagens/projeto/unreal_engine_project_icon.webp "Figura: Project icon.")		
+![Figura: Project icon.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_project_icon.webp "Figura: Project icon.")		
 
 > *Figura: Project icon.*
 
@@ -563,7 +563,7 @@ Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas po
 ## 6. Controle de versão com GitHub
 Nesta seção vamos instalar o **Git Client** com o **GitHub Desktop** para versionamento de arquivos no **Unreal Engine** e apresentar comandos básicos.
 
-![Figura: Unreal Engine with Git](imagens/projeto/unreal_engine_git.webp "Figura: Unreal Engine with Git")
+![Figura: Unreal Engine with Git](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_git.webp "Figura: Unreal Engine with Git")
 
 > *Figura: Unreal Engine with Git.*
 
@@ -681,7 +681,7 @@ Para exemplificar a conexão do **Unreal Engine** com o Github vamos criar um no
 1. Para Configurar o projeto utilizaremos :   
   - O Menu principal `Edit` > `Connect To Source Control`.
 
-![Figura: Source Control Login.](imagens/projeto/unreal_engine_connect_to_source_control.webp "Figura: Source Control Login")
+![Figura: Source Control Login.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_connect_to_source_control.webp "Figura: Source Control Login")
 
 > *Figura: Source Control Login.*
 
@@ -704,7 +704,7 @@ Para exemplificar a conexão do **Unreal Engine** com o Github vamos criar um no
 
 2. Configure a sua conta do **Github** para ter acesso aos seus repositórios utilizando o menu principal `File` > `Options`;
 
-![Figura: Github Desktop Options.](imagens/projeto/unreal_engine_github_desktop_options.webp "Figura: Github Desktop Options.")
+![Figura: Github Desktop Options.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_github_desktop_options.webp "Figura: Github Desktop Options.")
 
 *Figura: Github Desktop Options.*
 
@@ -715,13 +715,13 @@ Para exemplificar a conexão do **Unreal Engine** com o Github vamos criar um no
 ### 4.5 Criando o projeto remoto e atualizando os arquivos
 Uma vez configurados os projetos nos sistemas **Unreal** e **GitHub Desktop**, podemos confirmar as alterações dos arquivos utilizando o comando `Commit to Master`.
 
-![Figura: Github Desktop Commit to Master.](imagens/projeto/unreal_engine_github_desktop_Commit_to_master.webp "Figura: Github Desktop Commit to Master.")
+![Figura: Github Desktop Commit to Master.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_github_desktop_Commit_to_master.webp "Figura: Github Desktop Commit to Master.")
 
 > *Figura: Github Desktop Commit to Master.*
 
 Após confirmação das alterações devemos publicá-las no repositório remoto usando o comando `Publish repository`.
 
-![Figura: Github Desktop Publish repository.](imagens/projeto/unreal_engine_github_desktop_publish_repository.webp "Figura: Github Desktop Publish repository.")
+![Figura: Github Desktop Publish repository.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_github_desktop_publish_repository.webp "Figura: Github Desktop Publish repository.")
 
 > *Figura: Github Desktop Publish repository.*
 
@@ -740,13 +740,13 @@ Para testar as configurações realizadas vamos adicionar o pacote `Starter Cont
   - BP_Ator.usasset;
   - TestGitHub.uproject.
 
-  ![Figura: Github Desktop Publish repository.](imagens/projeto/unreal_engine_github_desktop_commit_first_actor.webp "Figura: Github Desktop Publish repository.")
+  ![Figura: Github Desktop Publish repository.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_github_desktop_commit_first_actor.webp "Figura: Github Desktop Publish repository.")
 
   > *Figura: Github Desktop Publish repository.*
 
 5. Após a confirmação vamos enviar as alterações para o servidor com o comando `Push origin`.
 
-  ![Figura: Github Desktop Push Origin.](imagens/projeto/unreal_engine_github_desktop_push_origin.webp "Figura: Github Desktop Push origin.")
+  ![Figura: Github Desktop Push Origin.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_github_desktop_push_origin.webp "Figura: Github Desktop Push origin.")
 
   > *Figura: Github Desktop Push Origin.*
 
