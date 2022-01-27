@@ -129,11 +129,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[4.1 Interface e Editores](interface_e_editores.html)  
 
-&nbsp;&nbsp;[**4.2 O que são Blueprints e Visual Scripting?**](#4.2)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.1 Características](#4.2.1)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2.2 Representação da construção do projeto no Unreal Engine](#4.2.2)
+&nbsp;&nbsp;[4.2 O que são Blueprints e Visual Scripting?](#4.2)  
 
 &nbsp;&nbsp;[**4.3 Trabalhando com Levels**](#4.3)      
 
@@ -1013,15 +1009,9 @@ Neste capítulo será apresentado o modelo da lógica de programação utilizand
 ## 4.2 O que são *Blueprints* e *Visual Scripting?*
 O sistema *Blueprints Visual Scripting* no *Unreal Engine* é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nó para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos na *engine* .
 
-<a name="4.2.1"></a>
-### 4.2.1 Características
-- Blueprints focam em ser acessíveis, versáteis para qualquer membro do projeto;  
-- Simplifica tarefas para programadores e engenheiros de projeto.
-- É fácil de entender, interagir e construir.  
+**Blueprints**s focam em ser acessíveis, versáteis para qualquer membro do projeto e isso simplifica tarefas para programadores e engenheiros de projeto, o que facilita entender, interagir e construir.  
 
-<a name="4.2.2"></a>
-### 4.1.2 Representação da construção do projeto no Unreal Engine
-Abaixo a representação hierárquica da estrutura de elementos que compõem um projeto do **Unreal Engine**.
+Para que o **Unreal Engine** possa construir os nós gráficos que representam a instruções de programação **C++** é importante entender como é a hierarquia de elementos que compõem o projeto, segue abaixo a representação baseado no arquivo de referência no seguinte em [unreal_schematics](https://github.com/drstreit/unreal_schematics "https://github.com/drstreit/unreal_schematics").
 
 ```bash
 |-- C++  
@@ -1051,11 +1041,10 @@ Abaixo a representação hierárquica da estrutura de elementos que compõem um 
 |   |   |-- Navitization - Durante o processo de preparação, o Blueprint pode ser cruzado para c ++ e nativizado*
 |   |-- VM - Executado em uma máquina virtual
 ```
-- [Arquivo Referência](https://github.com/drstreit/unreal_schematics)
 
-> **Nativização**
->
->A nativização é uma funcionalidade relativamente nova no Unreal Engine, que permite aos desenvolvedores converter suas classes criadas em Blueprint para código nativo C++ no momento em que é construído o pacote final do jogo. Isso faz com que seja possível aliar a facilidade de prototipação dos Blueprints ao desempenho do C++, acelerando o processo de desenvolvimento e também reduzindo a possibilidade de erros na programação, levando em consideração que ao desenvolver em Blueprint todas as entradas e saídas de dados, assim como o fluxo das operações são verificados pela máquina virtual enquanto os testes estão sendo realizados, isso permite garantir que tudo funcione conforme o esperado, ou na pior das hipóteses, alerte ao desenvolvedor caso algo não saia como o esperado, por meio de mensagens intuitivas e claras
+**Nativização.**
+
+"A nativização é uma funcionalidade relativamente nova no Unreal Engine, que permite aos desenvolvedores converter suas classes criadas em Blueprint para código nativo C++ no momento em que é construído o pacote final do jogo. Isso faz com que seja possível aliar a facilidade de prototipação dos Blueprints ao desempenho do C++, acelerando o processo de desenvolvimento e também reduzindo a possibilidade de erros na programação, levando em consideração que ao desenvolver em Blueprint todas as entradas e saídas de dados, assim como o fluxo das operações são verificados pela máquina virtual enquanto os testes estão sendo realizados, isso permite garantir que tudo funcione conforme o esperado, ou na pior das hipóteses, alerte ao desenvolvedor caso algo não saia como o esperado, por meio de mensagens intuitivas e claras."
 
 **[⬆ Volta para o CAPÍTULO 4](#capitulo4)**
 
@@ -1164,7 +1153,7 @@ Escolha de Classe de atores  `Blueprint Class`.
 
 > Figura: Pick Parent Classe e All Classes.
 
-**[⬆ Volta para o CAPÍTULO 4](#capitulo4s)**
+**[⬆ Volta para o CAPÍTULO 4](#capitulo4)**
 
 <a name="4.6"></a>
 ## 4.6 Componentes -  Components
@@ -1251,7 +1240,7 @@ Este é um evento simples que é chamado em todos os quadros do jogo. Tem como p
 
 "Vários motores gráficos ou *Game Engines*, como por exemplo *Unity* e *Pico-8*  tem os mesmos eventos com as mesmas Características."s
 
-**[⬆ Volta para o início](#índice)**
+**[⬆ Volta para CAPÍTULO 4](#capitulo4)**
 
 <a name="4.8"></a>
 ## 4.8 Comentários   
