@@ -167,116 +167,155 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[**4.9 Atividades - Crie um level para apresentar uma mensagem na tela**](#4.9)
 
-&nbsp;&nbsp;[4.10 Programação C++ no Unreal Engine](unreal_engine_entendo_cpp.html)
-
-&nbsp;&nbsp;[4.4 Trabalhando com variáveis](unreal_engine_trabalhando_com_variaveis.html)  
-
-&nbsp;&nbsp;[4.5 Estruturas de controle de fluxo](unreal_engine_estruturas_de_controle_de_fluxo.html)
-
-&nbsp;&nbsp;[4.6 Manipulando Arrays](unreal_engine_manipulando_array.html)  
-
-&nbsp;&nbsp;[4.7 Utilizando Enums](unreal_engine_enum.html)    
-
 ***
 
 <a name="capitulo5"></a>
-[**CAPÍTULO 5 - Atores e movimentação**](#5)
+[**CAPÍTULO 5 -  Programação C++ no Unreal Engine**](#5)
 
 ***
 
-&nbsp;&nbsp;[5.1 Implementando Atores](actor_atores.html)
+&nbsp;&nbsp;[5.1 Mas quanto usar a linguagem  C++?](#5.1)  
 
-&nbsp;&nbsp;[5.2 Utilizando Eventos, funções e macros](estruturando_logica_utilizando_eventos_funcoes_macros.html)  
+&nbsp;&nbsp;[5.2 O fluxo de desenvolvimento e Herança](#5.2)  
 
-&nbsp;&nbsp;[5.3 Implementando a movimentação do personagem](trabalhando_com_logica_movimentacao_de_personagem.html)    
+&nbsp;&nbsp;[5.3 Tipos de variáveis](#5.3)  
 
-&nbsp;&nbsp;[5.4 Comunicação entre Blueprints](comunicacao_entre_blueprint.html)    
+&nbsp;&nbsp;[**5.4 Construindo classes C++ no Unreal Engine**](#5.4)  
 
-&nbsp;&nbsp;[5.5 Delta time e sistema de coordenadas](deltatime_sistema_coordenadas.html)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.4.1 Pasta privada com os arquivos header das classes](#5.4.1)  
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.4.2 Exemplo de um arquivo header com variáveis](#5.4.2)  
+
+&nbsp;&nbsp;[**5.5 Sintaxe da linguagem e C++ e macros do Unreal Engine**](#5.5)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.5.1 Include](#4.5.1)  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.5.2 Encapsulamento](#5.5.2)  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.5.3 UCLASS](#5.5.3)  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.5.4 UFUNCTION](#5.5.4)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.5.5 UPROPERTY](#5.5.5)
+
+&nbsp;&nbsp;[5.6 Funções Virtuais](#5.6)
 
 ***
 
 <a name="capitulo6"></a>
-[**CAPÍTULO 6 - Estruturas de dados e Interface com usuário**](#6)
+[**CAPÍTULO 6 -  Estruturas de programação no Unreal Engine**](#6)
 
 ***
 
-&nbsp;&nbsp;[6.1 Variáveis estruturadas ou Structure](structure_variaveis_estruturadas.html)  
+&nbsp;&nbsp;[6.1 Trabalhando com variáveis](unreal_engine_trabalhando_com_variaveis.html)  
 
-&nbsp;&nbsp;[6.2 Tabelas de dados ou Data tables - ](data_tables.html)
+&nbsp;&nbsp;[6.2 Estruturas de controle de fluxo](unreal_engine_estruturas_de_controle_de_fluxo.html)
 
-&nbsp;&nbsp;[6.3 Game Instance, Game State e Game Mode](unreal_engine_gameinstance_state_mode.html)
+&nbsp;&nbsp;[6.3 Manipulando Arrays](unreal_engine_manipulando_array.html)  
 
-&nbsp;&nbsp;[6.4 Implementando a Interface com o jogador](unreal_engine_hud_interface.html)
-
-&nbsp;&nbsp;[6.5 Lógica de programação dos objetos da interface](unreal_engine_hud_logica.html)
+&nbsp;&nbsp;[6.4 Utilizando Enums](unreal_engine_enum.html)    
 
 ***
 
 <a name="capitulo7"></a>
-[**CAPÍTULO 7 - Materiais e Landscape**](#7)
+[**CAPÍTULO 7 - Atores e movimentação**](#7)
 
 ***
 
-&nbsp;&nbsp;[7.1 Introdução aos Materiais](unreal_engine_material_introducao_aos_materiais.html)
+&nbsp;&nbsp;[7.1 Implementando Atores](actor_atores.html)
 
-&nbsp;&nbsp;[7.2 Construindo Materiais e entendo a lógica](unreal_engine_material_construindo_materiais_entendendo_a_logica.html)
+&nbsp;&nbsp;[7.2 Utilizando Eventos, funções e macros](estruturando_logica_utilizando_eventos_funcoes_macros.html)  
 
-&nbsp;&nbsp;[7.3 Material Instance](unreal_engine_material_instance.html)
+&nbsp;&nbsp;[7.3 Implementando a movimentação do personagem](trabalhando_com_logica_movimentacao_de_personagem.html)    
 
-&nbsp;&nbsp;[7.4 Materiais e Blueprint](unreal_engine_material_blueprint.html)
+&nbsp;&nbsp;[7.4 Comunicação entre Blueprints](comunicacao_entre_blueprint.html)    
 
-&nbsp;&nbsp;[7.5 Trabalhando com Iluminação](iluminacao.html)
-
-&nbsp;&nbsp;[7.6 Criando terrenos - Landscape](landscape.html)  
+&nbsp;&nbsp;[7.5 Delta time e sistema de coordenadas](deltatime_sistema_coordenadas.html)
 
 ***
 
 <a name="capitulo8"></a>
-[**CAPÍTULO 8 - Animação de personagens**](#8)
+[**CAPÍTULO 8 - Estruturas de dados e Interface com usuário**](#8)
 
 ***
 
-&nbsp;&nbsp;[8.1 Introdução a animação de personagens](unreal_engine_animacao_introducao.html)
+&nbsp;&nbsp;[8.1 Variáveis estruturadas ou Structure](structure_variaveis_estruturadas.html)  
 
-&nbsp;&nbsp;[8.2 Preparando o projeto](unreal_engine_animacao_preparando_o_projeto.html)
+&nbsp;&nbsp;[8.2 Tabelas de dados ou Data tables - ](data_tables.html)
 
-&nbsp;&nbsp;[8.3 Utilizando Blend Space](unreal_engine_animacao_blend_space.html)        
+&nbsp;&nbsp;[8.3 Game Instance, Game State e Game Mode](unreal_engine_gameinstance_state_mode.html)
 
-&nbsp;&nbsp;[8.4 Implementando a Lógica da animação](unreal_engine_animacao_animation_blueprint.html)        
+&nbsp;&nbsp;[8.4 Implementando a Interface com o jogador](unreal_engine_hud_interface.html)
 
-&nbsp;&nbsp;[8.5 Implementando a mira](unreal_engine_animacao_aim_offset.html)
-
-&nbsp;&nbsp;[8.6 Trabalhando com Animação 2D](unreal_engine_animacao2d.html)
+&nbsp;&nbsp;[8.5 Lógica de programação dos objetos da interface](unreal_engine_hud_logica.html)
 
 ***
 
 <a name="capitulo9"></a>
-[**CAPÍTULO 9 - Inteligência Artificial**](#9)
+[**CAPÍTULO 9 - Materiais e Landscape**](#9)
 
 ***
 
-&nbsp;&nbsp;[9.1 Inteligência Artificial](inteligenciaartificial.html)
+&nbsp;&nbsp;[9.1 Introdução aos Materiais](unreal_engine_material_introducao_aos_materiais.html)
+
+&nbsp;&nbsp;[9.2 Construindo Materiais e entendo a lógica](unreal_engine_material_construindo_materiais_entendendo_a_logica.html)
+
+&nbsp;&nbsp;[9.3 Material Instance](unreal_engine_material_instance.html)
+
+&nbsp;&nbsp;[9.4 Materiais e Blueprint](unreal_engine_material_blueprint.html)
+
+&nbsp;&nbsp;[9.5 Trabalhando com Iluminação](iluminacao.html)
+
+&nbsp;&nbsp;[9.6 Criando terrenos - Landscape](landscape.html)  
 
 ***
 
-<a name="capitulo5"></a>
-[**Capítulo 10 - Multiplayer em C++**](#10)            
+<a name="capitulo10"></a>
+[**CAPÍTULO 10 - Animação de personagens**](#10)
 
 ***
 
-&nbsp;&nbsp;[10.1 Multiplayer](multiplayer.html)
+&nbsp;&nbsp;[10.1 Introdução a animação de personagens](unreal_engine_animacao_introducao.html)
+
+&nbsp;&nbsp;[10.2 Preparando o projeto](unreal_engine_animacao_preparando_o_projeto.html)
+
+&nbsp;&nbsp;[10.3 Utilizando Blend Space](unreal_engine_animacao_blend_space.html)        
+
+&nbsp;&nbsp;[10.4 Implementando a Lógica da animação](unreal_engine_animacao_animation_blueprint.html)        
+
+&nbsp;&nbsp;[10.5 Implementando a mira](unreal_engine_animacao_aim_offset.html)
+
+&nbsp;&nbsp;[10.6 Trabalhando com Animação 2D](unreal_engine_animacao2d.html)
 
 ***
 
 <a name="capitulo11"></a>
-[**CAPÍTULO 11 - Efeitos especiais**](#11)
+[**CAPÍTULO 11 - Inteligência Artificial**](#11)
 
 ***
 
-&nbsp;&nbsp;[11.1. Sequencer](#)
+&nbsp;&nbsp;[11.1 Inteligência Artificial](inteligenciaartificial.html)
 
-&nbsp;&nbsp;[12.1 Utilizando Niagara](#)
+***
+
+<a name="capitulo2"></a>
+[**Capítulo 12 - Multiplayer em C++**](#12)            
+
+***
+
+&nbsp;&nbsp;[12.1 Multiplayer](multiplayer.html)
+
+***
+
+<a name="capitulo13"></a>
+[**CAPÍTULO 13 - Efeitos especiais**](#13)
+
+***
+
+&nbsp;&nbsp;[14.1. Sequencer](#)
+
+&nbsp;&nbsp;[15.1 Utilizando Niagara](#)
 
 <a name="1"></a>
 ## CAPÍTULO 1 - Desenvolvendo jogos digitais
@@ -1283,3 +1322,348 @@ Detalhes do comentário.
 1. Adicione vários objetos de diferentes tipos.
 
 **[⬆ Volta para o CAPÍTULO 4](#capitulo4)**
+
+<a name="5"></a>
+## CAPÍTULO 5 - Programação C++ no Unreal Engine
+
+
+Neste capítulo será apresentado o modelo da lógica de programação utilizando **C++** com Unreal Engine.
+
+O **C++** por ter como base de desenvolvimento o C tem o benefício da rapidez e da portabilidade para diversas plataformas e ainda permite a implementação de classes, tornando a linguagem em uma boa candidata para o desenvolvimento de projetos com necessidade de velocidade acessando recursos de baixo nível e construção de classes.
+
+O **Unreal Egine** utiliza a linguagem **C++** aproveitando todas as funcionalidades que a linguagem fornece, como por exemplo o gerenciamento otimizado de memória, quanto a implementação a Engine fornece muitos elementos para auxiliar a codificação tornando-a mais fácil, entre eles a utilização de macros e objetos primitivos próprios da Engine.
+
+**[⬆ Volta para o CAPÍTULO 5](#capitulo5)**
+
+<a name="5.1"></a>
+## 5.1 Mas quanto usar a linguagem  C++?
+Não há uma resposta definitiva dessa questão mas podemos considerar algumas diferenças entre **Blueprint** e o **C++**, segue abaixo algumas considerações.
+
+**Blueprints vs C++.**
+
+- **Blueprints** são mais fáceis de ser lidos e entendidos pelos membros da equipe;
+
+- **C++** evita sobrecarga de chamadas de função economizando ciclos de CPU;
+
+- **C++** Conseguem acesso a `Library Math`;
+
+- É possível utilizar um sistema de versionamento como por exemplo o Git ou SVN com **C++**;
+
+- **Blueprints** necessitam de ferramenta específica para versionamento;
+
+- Para projetos em plataformas mobile o recomendado é **C++**.
+
+**O que é ideal?**
+A resposta é depende do problema mas considere o seguinte:
+
+- Analise a complexidade do projeto e a infraestrutura local e remota;
+
+- Para equipes pequenas e projetos pequenos é recomendado **Blueprints**;
+
+- Para equipes pequenas com cultura de desenvolvimento e necessidade de processamento é recomendado **C++**.
+
+**[⬆ Volta para o CAPÍTULO 5](#capitulo5)**
+
+<a name="5.2"></a>
+## 5.2 O fluxo de desenvolvimento e Herança
+Um modelo de desenvolvimento utilizando **C++** pode ser visto abaixo onde primeiro criamos a classe do objeto A em **C++** e depois uma classe **Blueprint** B filha da classe A. Fazendo isso pode-se aproveitar as características de ambas linguagens, como por exemplo: lógica em **C++** e parametrização de componentes visuais usando o Editor **Blueprint**.  
+
+Exemplo:
+
+1. Vamos Criar uma Blueprint *BP_Plataforma* do tipo `static_mesh_actor`;
+1. Depois Criar a classe **C++** `Plataforma` do tipo `AStaticMeshActor`;
+1. Alterar classe pai do *BP_Plataforma* para *Plataforma*.
+
+Onde :
+
+| Origem      | Destino       |       |
+|:-           |:-             |:-     |
+|Classe C++   |Blueprints     |Certo  |
+|Blueprints   |Classe C++     | Errado|
+
+*Tabela: Representação do desenvolvimento descrito anteriormente.*
+
+Sobre a herança de classes permitem usar classes já definidas para derivar classes novas onde a nova classe herda as propriedades da classe base.
+
+Exemplo:
+
+**C++.**
+
+```cpp
+// Classe Pessoa
+class Pessoa {
+  int32 iVida;
+  FString sNome;
+}
+
+class Heroi: public Pessoa {
+  float fForca = 100;
+}
+
+void main() {
+   // instânciando o objeto Nostromo do tipo Heroi
+    Heroi nostromo;
+}
+```
+
+**Blueprint.**
+
+```cpp
+class Hugo: Pessoa
+      // iVida -- Herdada
+      // movimentacao() - Herdada  
+
+      AddActiveTrigger()  
+      float SpeedPlataforma  
+      int32 Vida #Error  
+```
+
+**[⬆ Volta para o CAPÍTULO 5](#capitulo5)**
+
+<a name="5.3"></a>
+## 5.3Tipos de variáveis
+A seguir vamos apresentar os tipos de variáveis em ambas as linguagens mas no próximo capítulo descrevermos melhor as variáveis.
+
+| Blueprint | C++     |
+|:-:        |:-       |
+|integer    |int32    |
+|Vector     |FVector  |
+|String     |FString  |
+|Float      |float  |
+
+**[⬆ Volta para o CAPÍTULO 5](#capitulo5)**
+
+<a name="5.4"></a>
+## 5.4 Construindo classes C++ no Unreal Engine
+A seguir vamos implementar uma classe **C++** no Unreal Engine para tal utilizamos o `Menu Tools` > `New C++ Class`
+
+![Figura: Create Class C++](imagens/cpp/unreal_engine_create_class_cpp.webp "Figura: Create Class C++")
+
+> Figura: Create Class C++.
+
+![Figura: Add C++ Class](imagens/cpp/unreal_engine_add_class_cpp.webp "Figura: Add C++ Class")
+
+> Figura: Add C++ Class.
+
+O **Unreal Engine** vai criar dois arquivos, o arquivo header (.h) e o de implementação (.cpp), sugerindo separar ambos nas pastas `private` e `header`.
+
+<a name="5.4.1"></a>
+### 5.4.1 Pasta privada com os arquivos header das classes
+```bash
+<Projeto>/Private/ControlLight.h
+```
+
+```cpp
+// Diretiva de compilação que serve para fazer com que o arquivo seja
+// incluído somente uma vez durante o processo de compilação.
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+// Arquivo criado durante a compilação
+#include "ControlLight.generated.h"
+
+// Macro utilizada para indicar que uma C++ fará parte do Unreal
+// Reflection system. Isto é necessário para
+//que a classe seja reconhecida pelo editor do Unreal Engine.
+
+UCLASS()
+class CPP5_API AControlLight : public AActor
+{
+	GENERATED_BODY()
+
+public:
+	// Construtor da classe
+	AControlLight();
+
+protected:
+	// Método chamado quando o jogo inicia ou quando a classe
+  // é adicionada na cena.
+  virtual void BeginPlay() override;
+public:
+	// Método chamado a cada quadro.
+	virtual void Tick(float DeltaTime) override;
+};
+```
+
+Pasta publica com a implementação das classes :
+```bash
+<Projeto>/Public/ControlLight.cpp
+```
+
+```cpp
+#include "ControlLight.h"
+
+// Método construtor da classe
+AControlLight::AControlLight()
+{
+  // Configura este ator para chamar o evento Tick() a cada frame.
+	PrimaryActorTick.bCanEverTick = true;
+}
+
+void AControlLight::BeginPlay()
+{
+	Super::BeginPlay();
+}
+
+void AControlLight::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+}
+```
+
+<a name="5.4.2"></a>
+### 5.4.2 Exemplo de um arquivo header com variáveis
+Abaixo vamos construir uma classe em **C++** chamado plataforma para exemplificar um arquivo `header` a declaração de variáveis.
+
+```cpp
+
+#include "CoreMinimal.h"
+#include "Engine/StaticMeshActor.h"
+#include "Plataforma.generated.h"
+
+UCLASS(ClassGroup=(Custom),meta=(BlueprintSpawnableComponent) )
+class PROJETOPLATAFORMA_API APlataforma : public AStaticMeshActor
+{
+	GENERATED_BODY()
+
+public:
+  // Construtor da classe
+	APlataforma();
+
+	virtual void Tick(float DeltaTime) override;
+
+	virtual void BeginPlay() override;
+
+	UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))
+		FVector TargetLocation;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Plataforma")
+		float SpeedPlataform = 20;
+
+	UFUNCTION(BlueprintCallable, Category = "Plataforma")
+	void AddActiveTrigger();
+
+	UFUNCTION(BlueprintCallable, Category = "Plataforma")
+	void RemoveActiveTrigger();
+
+
+protected:
+	FVector GlobalStartLocation;
+	FVector GlobalTargetLocation;
+
+	UPROPERTY(EditAnywhere)
+		int ActiveTriggers = 1;
+};
+```
+
+**[⬆ Volta para o CAPÍTULO 5](#capitulo5)**
+
+<a name="5.5"></a>
+## 5.5 Sintaxe da linguagem e C++ e macros do Unreal Engine
+A seguir vamos apresentar algumas características de linguagem e as macros que facilitam a implementação em **C++**.
+
+<a name="5.5.1"></a>
+### 5.5.1 Include
+É uma forma de incluir um arquivo padrão ou definido pelo usuário no programa e é principalmente escrito no início de qualquer programa **C / C ++**.  
+Esta diretiva é lida pelo pré-processador e ordena que ele insira o conteúdo de um arquivo de cabeçalho do sistema ou definido pelo usuário no programa a seguir. Esses arquivos são importados principalmente de uma fonte externa para o programa atual. O processo de importação de tais arquivos que podem ser definidos pelo sistema ou pelo usuário é conhecido como Inclusão de Arquivo. Este tipo de diretiva de pré-processador diz ao compilador para incluir um arquivo no programa de código-fonte.
+
+Exemplo:
+
+```cpp
+#include "CoreMinimal.h"
+#include "Engine/StaticMeshActor.h"
+#include "Plataforma.generated.h"
+```
+
+**O arquivo <Classe>.generated.h**
+
+O **Unreal Engine** faz uso extensivo de macros de pré-processador, e algumas dessas macros são definidas (#defined) no arquivo `genrated.h` que acompanha cada `UCLASS`. Se você criar uma `UCLASS` *MyClass*, o arquivo MyClass.h irá incluir (#include) MyClass.generated.h. O cabeçalho gerado, MyClass.generated.h, é feito na parte inicial do processo de construção do **Unreal Engine**.
+
+<a name="5.5.2"></a>
+### 5.5.2 Encapsulamento
+`Public` – Quando precede uma lista de membros de classe, o  *Public*  palavra-chave especifica que esses membros são acessíveis a partir de qualquer função. Isso se aplica a todos os membros declarados até o próximo especificador de acesso ou o fim da classe. Ou seja visível a todos.
+
+`Private` – Quando precede uma lista de membros de classe, o *Private* palavra-chave especifica que esses membros são acessíveis somente dentro de funções de membro e amigos da classe.  Isso se aplica a todos os membros declarados até o próximo especificador de acesso ou o fim da classe. Ou seja visível somente para membros dentro da classe.
+
+`Protected` – O *Protected* palavra-chave especifica o acesso a membros de classe no lista de membros até o próximo especificador de acesso (pública ou private) ou no final da definição de classe.  O *Protected* é mistura entre *Public* e *Private* ou seja é visível somente para membros da classe e visível para subclasses.
+
+<a name="5.5.3"></a>
+###  5.5.3 UCLASS
+Você também pode declarar classes **C ++** personalizadas, que se comportam como classes UE4, declarando seus objetos **C++** personalizados como UCLASS. UCLASS usa [Smart Pointers](https://docs.microsoft.com/pt-br/cpp/cpp/smart-pointers-modern-cpp?view=msvc-170 "Ponteiros inteligentes (C++ moderno)") do UE4 e rotinas de gerenciamento de memória para alocação e desalocação de acordo com as regras do Smart Pointer, podem ser carregados e lidos pelo *UE4 Editor* e opcionalmente acessados a partir de Blueprints.
+
+Exemplo:
+
+```cpp
+UCLASS(ClassGroup=(Custom),meta=(BlueprintSpawnableComponent) )
+```
+Os parâmetros descritos no exemplo são os [especificadores](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/GameplayArchitecture/Classes/Specifiers/ "Class Specifiers") da classe que irão determinar o seu comportamento.
+
+- `BlueprintSpawnableComponent` - Se estiver presente, o componente Class pode ser gerado por um Blueprint.
+- `ClassGroup=GroupName` - Indica que o Navegador de ator do Unreal Editor deve incluir esta classe e qualquer subclasse dessa classe dentro do GroupName especificado quando a Visualização de grupo estiver ativada no Navegador de ator.
+
+<a name="5.5.4"></a>
+### 5.5.4 UFUNCTION
+
+Um **UFunction** é uma função **C ++** que é reconhecida pelo sistema de reflexão Unreal Engine 4 (UE4). Qualquer **UObject** ou biblioteca de função Blueprint pode declarar uma função de membro como um **UFunction**, colocando a macro UFUNCTION na linha acima da declaração da função no arquivo de cabeçalho. A macro oferecerá suporte a Especificadores de Função para alterar como o UE4 interpreta e usa uma função.
+
+Ao declarar funções, os especificadores de função podem ser adicionados à declaração para controlar como a função se comporta com vários aspectos do mecanismo e do editor.
+
+Exemplo:
+```cpp
+UFUNCTION(BlueprintCallable, Category = "Plataforma")
+void AddActiveTrigger();
+```
+- `BlueprintAuthorityOnly` - Esta função só será executada a partir do código Blueprint se for executada em uma máquina com autoridade de rede (um servidor, servidor dedicado ou jogo para um único jogador).
+- `BlueprintCallable` - A função pode ser executada em um gráfico Blueprint ou Level Blueprint.
+
+<a name="5.5.5"></a>
+### 5.5.5 UPROPERTY
+As propriedades são declaradas usando a sintaxe de variável **C++** padrão, precedida pela macro UPROPERTY que define metadados de propriedade e especificadores de variável.
+
+Ao declarar propriedades, os Especificadores de Propriedade podem ser adicionados à declaração para controlar como a propriedade se comporta com vários aspectos do Motor e do Editor.
+
+```cpp
+UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))
+  FVector TargetLocation;
+```
+- `BlueprintReadOnly` - Esta propriedade pode ser lida pelo Blueprints, mas não modificada. Este especificador é incompatível com o especificador BlueprintReadWrite.
+- `BlueprintReadWrite` - Esta propriedade pode ser lida ou escrita a partir de um Blueprint. Este especificador é incompatível com o especificador BlueprintReadOnly.
+- `EditAnywhere` - Indica que esta propriedade pode ser editada por janelas de propriedades, em arquétipos e instâncias. Este especificador é incompatível com qualquer um dos especificadores "visíveis".
+- `MakeEditWidget` - Usado para propriedades *Transform* ou *Rotator*, ou Matrizes de *Transforms* ou *Rotators*. Indica que a propriedade deve ser exposta na janela de visualização como um *widget* móvel.
+
+**[⬆ Volta para o CAPÍTULO 5](#capitulo5)**
+
+<a name="5.6"></a>
+## 5.6 Funções Virtuais
+
+"Uma função virtual é uma função de membro que é declarada dentro de uma classe base e é redefinida (Substituída) por uma classe derivada. Quando você se refere a um objeto de classe derivada usando um ponteiro ou uma referência à classe base, pode chamar uma função virtual para esse objeto e executar a versão da função da classe derivada."[Funções Virtuais](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_virtual "Funções Virtuais")
+
+- As funções virtuais garantem que a função correta seja chamada para um objeto, independentemente do tipo de referência (ou ponteiro) usado para a chamada da função;
+
+- Eles são usados principalmente para obter polimorfismo de tempo de execução;
+
+- As funções são declaradas com uma palavra-chave virtual na classe base;
+
+- A resolução da chamada de função é feita em tempo de execução.
+
+Exemplo:
+```cpp
+class WeaponBase {
+  public: virtual void OnFire() {}
+};
+class WeaponRifle : public WeaponBase {
+  public: void OnFire() override {}
+};
+
+...
+WeaponRifle
+void anotherFunction(WeaponBase *someWeapon) {
+  someWeapon->OnFire();
+}
+```
+
+Na função anotherFunction o método chamado em OnFire é WeaponRifle::OnFire().
+O método WeaponBase::OnFire não é chamado pois foi sobreposto.
+
+**[⬆ Volta para o CAPÍTULO 5](#capitulo5)**
