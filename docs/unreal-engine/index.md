@@ -228,7 +228,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[6.6 Armazenando valores lógicos com Boolean](#6.6)
 
-&nbsp;&nbsp;[6.7 Controle de acesso a variáveis](#6.7)
+&nbsp;&nbsp;[**6.7 Controle de acesso a variáveis**](#6.7)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.7.1 Variáveis Privadas](#6.7.1)  
 
@@ -236,11 +236,33 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[**6.8 Atividade - Crie um projeto que implemente vários tipos de variáveis**](#6.8)  
 
-&nbsp;&nbsp;[6.2 Estruturas de controle de fluxo](unreal_engine_estruturas_de_controle_de_fluxo.html)
+&nbsp;&nbsp;[6.9 O que são estruturas de controle ou fluxo?](#6.9)
 
-&nbsp;&nbsp;[6.3 Manipulando Arrays](unreal_engine_manipulando_array.html)  
+&nbsp;&nbsp;[**6.10 Estruturas de fluxo condicional**](#6.10)
 
-&nbsp;&nbsp;[6.4 Utilizando Enums](unreal_engine_enum.html)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.10.1 Controle de fluxo com Branch (if)](#6.10.1)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.10.2 Sequenciamento de fluxo com Sequence](#6.10.2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.10.3 Flip Flop](#6.10.3)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.10.4 Gate e Multi Gate](#6.10.4)
+
+&nbsp;&nbsp;[**6.11 Estruturas de repetição**](#6.11)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.11.1 For Loop](#6.11.1)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.11.2 While Loop](#6.11.2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.11.3 Do N](#6.11.3)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.11.4 Do once](#6.11.4)
+
+&nbsp;&nbsp;[**6.12 Atividades - Implemente um projeto que crie vários atores na cena e os posicione em áreas diferentes da cena**](#6.12)
+
+&nbsp;&nbsp;[6.13 Manipulando Arrays](unreal_engine_manipulando_array.html)  
+
+&nbsp;&nbsp;[6.14 Utilizando Enums](unreal_engine_enum.html)    
 
 ***
 
@@ -1842,7 +1864,7 @@ void AMyHeroClass::BeginPlay()
  }
  ```
 
-**[⬆ Volta para o início](#índice)**
+**[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
 
 <a name="6.4"></a>
 ## 6.4 Tratamento e armazenamento de texto no Unreal Engine
@@ -2071,5 +2093,212 @@ z = 2;
 O maior valor é Y = 5;
 ```
 
+
+**[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
+
+
+<a name="6.9"></a>
+## 6.9 O que são estruturas de controle ou fluxo?
+Em linguagens de programação existem métodos de tomada de decisão para tarefas corriqueiras que os programas podem executar, por exemplo a escolha de qual caminho ou instrução executar. Em **Bluprints** utilizamos nós específicos para controle de fluxo como por exemplo o `Branch`.
+
+Exemplo de fluxo de execução, considere a sequencia de comandos abaixo:
+
+**C++.**
+
+```cpp
+int32 i, x, resultado=0;
+i = 2;
+x = 10;
+resultado = i + x;
+UE_LOG(LogTemp, Warning, TEXT("O resultado é %d"), resultado);
+
+```
+O resultado desse código é o valor 12 sendo apresentado na tela.
+
+Agora vamos alterar o fluxo de execução:
+```cpp
+int i, x, resultado=0;
+i = 2;
+x = 10;
+if ( i > x )
+  resultado = i + x;
+
+UE_LOG(LogTemp, Warning, TEXT("O resultado é %d"), resultado);
+```
+
+O resultado será 0 pois a condição de controle de fluxo **if** provocou um desvio do fluxo de instruções.
+
+**[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
+
+<a name="6.10"></a>
+## 6.10 Estruturas de fluxo condicional
+A seguir vamos entender como é fluxo condicional é descrito com programação visual usando Blueprint.
+
+<a name="6.10.1"></a>
+### 6.10.1 Controle de fluxo com Branch (if)
+`Branch` é uma estrutura condicional que testa uma variável utilizando uma expressão lógica e redireciona o fluxo da lógica.
+
+**Blueprint.**
+
+![Figura: Blueprint e branch ou if.](imagens/estruturascontrole/blueprint_example_if.webp "Figura: Blueprint e branch ou if.")
+
+> Figura: Blueprint e branch ou if.
+
+**C++.**
+
+```cpp
+if ( 2 >= 4)
+{
+  UE_LOG(LogTemp, Warning, TEXT("Escreve a mensagem caso a condição for verdadeira."));
+}
+else
+{
+  UE_LOG(LogTemp, Warning, TEXT("Escreve a mensagem caso a condição for falso."));
+}
+```
+
+<a name="6.10.2"></a>
+### 6.10.2 Sequenciamento de fluxo com Sequence
+O nó `Sequence` permite que um único pulso de execução acione uma série de eventos em ordem. O nó pode ter qualquer número de saídas, todas chamadas assim que o nó Sequência receber uma entrada. Eles sempre serão chamados em ordem, mas sem qualquer demora. Para um usuário típico, as saídas provavelmente parecerão ter sido disparadas simultaneamente.
+
+**Blueprint.**
+
+![Figura: Blueptint Sequence.](imagens/estruturascontrole/blueprint_example_sequence.webp "Figura: Blueptint Sequence.")
+
+> Figura: Blueptint Sequence.
+
+**C++.**
+```cpp
+// Não tem similar em C++, deve ser implementado
+```
+
+<a name="6.10.3"></a>
+### 6.10.3 Flip Flop
+O nó `Flip Flop` obtém uma saída de execução e alterna entre duas saídas de execução. Na primeira vez que é chamado, a saída A é executada. Na segunda vez, B. Depois A, B e assim por diante. O nó também possui uma saída booleana que permite rastrear quando a Saída A foi chamada.
+
+**Blueprint.**
+
+![Figura: Bluprint Flip FLop.](imagens/estruturascontrole/blueprint_example_flip_flop.webp "Figura: Bluprint Flip FLop.")
+
+> Figura: Bluprint Flip FLop.
+
+**C++.**
+
+```cpp
+// Não tem similar em C++, deve ser implementado
+```
+
+<a name="6.10.4"></a>
+### 6.10.4 Gate e Multi Gate
+O nó `MultiGate` recebe um único pulso de dados e o encaminha para qualquer número de saídas potenciais. Isso pode ocorrer sequencialmente, aleatoriamente e pode ou não ser executado em loop.
+
+**Blueprint.**
+
+![Figura: Blueprint MultiGate.](imagens/estruturascontrole/blueprint_example_multigate.webp "Figura: Blueprint MultiGate.")
+
+> Figura: Blueprint MultiGate.
+
+**C++.**
+
+```cpp
+// Não tem similar em C++, deve ser implementado
+```
+
+**[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
+
+<a name="6.11"></a>
+## 6.11. Estruturas de repetição
+Podemos utilizar estruturas de repetição para repetir instruções ou nós, a seguir vamos entender algumas dessas estruturas.
+
+<a name="6.11.1"></a>
+### 6.11.1 For Loop
+O nó `For Loop` funciona como um loop de código padrão, disparando um pulso de execução para cada índice entre o início e o fim.
+
+**Blueprint.**
+
+![Figura: Blueprint for loop.](imagens/estruturascontrole/blueprint_example_forloop.webp "Figura: Blueprint for loop.")
+
+> Figura: Blueprint for loop.
+
+**C++.**
+
+```cpp
+for (int i = 0; i < 4; i++ ){
+      cout << "Contanto: ";
+      cout << i;
+    }
+
+UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
+
+```
+
+<a name="6.11.2"></a>
+### 6.11.2 While Loop
+Uma condição de teste e um corpo são tudo o que constitui um *loop While*. Antes de executar a (s) instrução (ões) em seu corpo, o Blueprint avalia a condição de teste `While Loops` para determinar se ela é verdadeira.
+
+**Blueprint.**
+
+![Figura: Bluprint While loop.](imagens/estruturascontrole/blueprint_example_whileloop.webp "Figura: Bluprint While loop.")
+
+> Figura: Bluprint While loop.
+
+**C++.**
+
+```cpp
+int32 valor = 0;
+while ( valor <= 4) {
+    i++;
+    cout << i;
+    }
+UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
+```
+
+<a name="6.11.3"></a>
+### 6.11.3 Do N
+O nó `Do N` disparará um pulso de execução N vezes. Depois que o limite for atingido, ele interromperá todas as execuções de saída até que um pulso seja enviado para sua entrada Reset.
+
+**Blueprint.**
+
+![Figura: Blueprint Do N.](imagens/estruturascontrole/blueprint_example_do_n.webp "Figura: Blueprint Do N.")
+
+> Figura: Blueprint Do N.
+
+No exemplo acima toda vez que a tecla H for pressionada um valor vai ser apresentado. Quanto o valor 10 for atingido a instrução `Print String` não será executada.
+
+Pressionando a tecla J a contagem será reiniciada.
+
+**C++.**
+```cpp
+// Não tem similar em C++, deve ser implementado
+```
+
+<a name="6.11.4"></a>
+### 6.11.4 Do once
+O nó `Do Once` - como o nome sugere - disparará um pulso de execução apenas uma vez. Desse ponto em diante, ele interromperá toda a execução de saída até que um pulso seja enviado para sua entrada Reset. Este nó é equivalente a um nó `Do N` onde N = 1.
+
+**Blueprint.**
+
+![Figura: Blueprint Do Once.](imagens/estruturascontrole/blueprint_example_do_once.webp "Figura: Blueprint Do Once.")
+
+> Figura: Blueprint Do Once.
+
+**C++.**
+```cpp
+// Não tem similar em C++, deve ser implementado.
+```
+**[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
+
+***
+
+<a name="6.12"></a>
+## 6.12. Atividades - Implemente um projeto que crie vários atores na cena e os posicione em áreas diferentes da cena.
+
+**Regras.**
+
+1. Adicione diferentes tipos de atores.
+
+**Desafio.**
+
+1. Adicione um *array* para controlar melhor os objetos.
 
 **[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
