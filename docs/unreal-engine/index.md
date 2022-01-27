@@ -22,7 +22,8 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 
 <a name="capitulo1"></a>
-[**Capítulo 1 - Desenvolvendo jogos digitais**](#1)
+[**CAPÍTULO 1 - Desenvolvendo jogos digitais**](#1)
+
 ***
 
 &nbsp;&nbsp;[1.1 O que é uma Engine e Framework?](#1.1)
@@ -33,7 +34,8 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 
 <a name="capitulo2"></a>
-[**Capítulo 2 - Trabalhando com o Unreal Engine e Visual Studio**](#2)
+[**CAPÍTULO 2 - Trabalhando com o Unreal Engine e Visual Studio**](#2)
+
 ***
 
 
@@ -85,7 +87,8 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 
 <a name="capitulo3"></a>
-[**Capítulo 3 - Controle de versão com GitHub e Unreal Engine**](#3)
+[**CAPÍTULO 3 - Controle de versão com GitHub e Unreal Engine**](#3)
+
 ***
 
 &nbsp;&nbsp;[3.1 Ferramentas para controle de versão](#3.1)
@@ -116,7 +119,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 
 <a name="capitulo4"></a>
-[**Capítulo 4 -  O Unreal Engine e sua lógica de programação**](#4)
+[**CAPÍTULO 4 -  O Unreal Engine e sua lógica de programação**](#4)
 
 ***
 
@@ -136,7 +139,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 
 <a name="capitulo5"></a>
-[**Capítulo 5 - Atores e movimentação**](#5)
+[**CAPÍTULO 5 - Atores e movimentação**](#5)
 
 ***
 
@@ -153,7 +156,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 ***
 
 <a name="capitulo6"></a>
-[**Capítulo 6 - Estruturas de dados e Interface com usuário**](#6)
+[**CAPÍTULO 6 - Estruturas de dados e Interface com usuário**](#6)
 
 ***
 
@@ -168,7 +171,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 &nbsp;&nbsp;[6.5 Lógica de programação dos objetos da interface](unreal_engine_hud_logica.html)
 
 <a name="capitulo7"></a>
-[**Capítulo 7 - Materiais e Landscape**](#7)
+[**CAPÍTULO 7 - Materiais e Landscape**](#7)
 
 ***
 
@@ -185,7 +188,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 &nbsp;&nbsp;[7.6 Criando terrenos - Landscape](landscape.html)  
 
 <a name="capitulo8"></a>
-[**Capítulo 8 - Animação de personagens**](#8)
+[**CAPÍTULO 8 - Animação de personagens**](#8)
 
 ***
 
@@ -202,7 +205,9 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 &nbsp;&nbsp;[8.6 Trabalhando com Animação 2D](unreal_engine_animacao2d.html)
 
 <a name="capitulo9"></a>
-[**Capítulo 9 - Inteligência Artificial**](#9)
+[**CAPÍTULO 9 - Inteligência Artificial**](#9)
+
+***
 
 &nbsp;&nbsp;[9.1 Inteligência Artificial](inteligenciaartificial.html)
 
@@ -214,7 +219,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 &nbsp;&nbsp;[10.1 Multiplayer](multiplayer.html)
 
 <a name="capitulo11"></a>
-[**Capítulo 11 - Efeitos especiais**](#11)
+[**CAPÍTULO 11 - Efeitos especiais**](#11)
 
 ***
 
@@ -223,7 +228,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 &nbsp;&nbsp;[12.1 Utilizando Niagara](#)
 
 <a name="1"></a>
-## Capítulo 1 - Desenvolvendo jogos digitais
+## CAPÍTULO 1 - Desenvolvendo jogos digitais
 
 ![Figura: So, You Want to Be a Game Developer? - https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70](https://miro.medium.com/max/875/0*OlVTuxFz-Qn7oTUn "Figura: So, You Want to Be a Game Developer? - https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70")
 
@@ -284,12 +289,12 @@ A maioria das *engines* seguem um ciclo de execução da lógica de programaçã
 1. Editor para construção de materiais;
 1. Editor de efeitos especiais utilizando partículas;
 
-**[⬆ Volta para o Capítulo I](#capitulo1)**
+**[⬆ Volta para o CAPÍTULO I](#capitulo1)**
 
 ---
 
 <a name="2"></a>
-## Capítulo 2 - Trabalhando com o Unreal Engine e Visual Studio**
+## CAPÍTULO 2 - Trabalhando com o Unreal Engine e Visual Studio**
 
 O **Unreal Engine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos e também um ambiente visual de programação abstraindo a lógica de programação.
 
@@ -330,7 +335,7 @@ Para instalar o **Unreal Engine** siga os seguintes passos:
 Porque muitas vezes é necessário testar uma funcionalidade ou mesmo testar um conceito da linguagem e ter o compilador disponível é uma mão na roda.
 
 
-**[⬆ Volta para o Capítulo 2](#capitulo2)**
+**[⬆ Volta para o CAPÍTULO 2](#capitulo2)**
 
 <a name="2.2"></a>
 ## 2.2 Criando um projeto para jogos no Unreal Engine
@@ -401,7 +406,7 @@ Para programar utilizando **C++** no Unreal devemos configurar um editor de cód
 Os dois são ótimos editores de código mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras lingagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
 
 
-**[⬆ Volta para o Capítulo 2](#capitulo2)**
+**[⬆ Volta para o CAPÍTULO 2](#capitulo2)**
 
 <a name="2.3"></a>
 ## 2.3 Entendo as pastas criadas
@@ -456,7 +461,7 @@ As pastas abaixo podem ser removidas pois podemos construir a qualquer momento q
 - [Directory Structure](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html "Directory Structure Overview of the directories that make up the engine and game projects.");
 - [UE5 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin "Gamemakin UE4 Style Guide() { A mostly reasonable approach to Unreal Engine 4").
 
-**[⬆Volta para o Capítulo 2](#capitulo2)**
+**[⬆Volta para o CAPÍTULO 2](#capitulo2)**
 
 <a name="2.3.5"></a>
 ### 2.3.5 Compilando o projeto usando o Windows Explorer
@@ -471,7 +476,7 @@ Para recompilar o projeto e recriar os arquivos podemos utilizar o `explorer` do
 
 1. Aguarde o termino da operação e abra o projeto.
 
-**[⬆ Volta para o Capítulo 2](#capitulo2)**
+**[⬆ Volta para o CAPÍTULO 2](#capitulo2)**
 
 <a name="2.4"></a>
 ## 2.4 Atividade - Instale o Unreal Engine com Visual Studio.
@@ -483,7 +488,7 @@ Para recompilar o projeto e recriar os arquivos podemos utilizar o `explorer` do
 
 1. Configure o Visual Studio para ser o editor padrão.
 
-**[⬆ Volta para o Capítulo I](#capitulo1)**
+**[⬆ Volta para o CAPÍTULO 2](#capitulo2)**
 
 <a name="2.5"></a>
 ## 2.5 Organizando pastas e logo do projeto
@@ -589,7 +594,7 @@ Separar a pasta do projeto `Content` de outras pastas pode facilitar e trazer v�
 	|	|-- M_Master
 ```		
 
-**[⬆ Volta para o Capítulo 2](#capitulo2)**
+**[⬆ Volta para o CAPÍTULO 2](#capitulo2)**
 
 <a name="2.5.4"></a>
 ### 2.5.4 Configurando o projeto
@@ -631,7 +636,7 @@ alt="Figura: Project icon." title="Figura: Project icon.">
 
 Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas pode ser convertido usando ferramentas online, por exemplo) e 256x256.
 
-**[⬆ Volta para o Capítulo 2](#capitulo2)**
+**[⬆ Volta para o CAPÍTULO 2](#capitulo2)**
 
 
 <a name="2.6"></a>
@@ -645,12 +650,12 @@ Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas po
 
 1. Adicione o pacote *StarterContent*.
 
-**[⬆ Volta para o Capítulo 2](#capitulo2)**
+**[⬆ Volta para o CAPÍTULO 2](#capitulo2)**
 
 
 
 <a name="3"></a>
-## Capítulo 3 - Controle de versão com GitHub e Unreal Engine
+## CAPÍTULO 3 - Controle de versão com GitHub e Unreal Engine
 
 Neste capítulo vamos instalar o **Git Client** com o **GitHub Desktop** para versionamento de arquivos no **Unreal Engine** e apresentar comandos básicos.
 
@@ -679,7 +684,7 @@ Perceba que para facilitar a manutenção e desenvolvimento em equipe e pensando
 - Necessidade de compartilhar o código como outros desenvolvedores.
 - Necessidade de documentar as alterações no momento que forem compartilhadas.
 
-**[⬆ Volta para o Capítulo 3](#capitulo3)**
+**[⬆ Volta para o CAPÍTULO 3](#capitulo3)**
 
 <a name="3.1"></a>
 ## 3.1 Ferramentas para controle de versão
@@ -722,7 +727,7 @@ git commit -m "fix: Lista de correções #14,#252"
 git push origin main
 ```
 
-**[⬆ Volta para o Capítulo 3](#capitulo3)**
+**[⬆ Volta para o CAPÍTULO 3](#capitulo3)**
 
 <a name="3.4"></a>
 ## 3.4 Começando a trabalhar com o Git e o Unreal Engine
@@ -838,7 +843,7 @@ Para testar as configurações realizadas vamos adicionar o pacote `Starter Cont
 
   > *Figura: Github Desktop Push Origin.*
 
-**[⬆ Volta para o Capítulo I](#capitulo1)**
+**[⬆ Volta para o CAPÍTULO I](#capitulo1)**
 
 <a name="3.5"></a>
 ## 3.5 Utilizando comandos do PowerShell para utilizar o Git Client
@@ -886,7 +891,7 @@ git status
 git pull origin master
 ```
 
-**[⬆ Volta para o Capítulo 3](#capitulo3)**
+**[⬆ Volta para o CAPÍTULO 3](#capitulo3)**
 
 <a name="3.6"></a>
 ## 3.6 Ignorando pastas e arquivos
@@ -930,4 +935,4 @@ StarterContent/
 
 1. Crie um branch para Testes e adicione alterações.
 
-**[⬆ Volta para o Capítulo 3](#capitulo3)**
+**[⬆ Volta para o CAPÍTULO 3](#capitulo3)**
