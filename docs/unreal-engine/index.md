@@ -239,7 +239,7 @@ Para instalar o **Unreal Engine** siga os seguintes passos:
 <!--  ![Figura: Visual Studio Update para desenvolvimento de jogos.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_visual_studio_update.webp "Figura: Visual Studio Update para desenvolvimento de jogos")  
 -->
 
-<img src="imagens/projeto/unreal_engine_visual_studio_update.webp" width="1265" height="auto" alt="Figura: Visual Studio Update para desenvolvimento de jogos.">
+<img src="imagens/projeto/unreal_engine_visual_studio_update.webp" width="1265" height="auto" alt="Figura: Visual Studio Update para desenvolvimento de jogos." title="Figura: Visual Studio Update para desenvolvimento de jogos.">
 
   > *Figura: Visual Studio Update para desenvolvimento de jogos.*   
 
@@ -286,7 +286,7 @@ Quando todos os passos anteriores forem concluídos corretamente a tela inicial 
 
 <!-- ![Figura: Unreal Engine tela inicial.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/blueprint_ue_tela_inicial.webp "Figura: Unreal Engine tela inicial") -->
 
-<img src="imagens/projeto/blueprint_ue_tela_inicial.webp" width="1265" height="auto" alt="Figura: Unreal Engine tela inicial.">
+<img src="imagens/projeto/blueprint_ue_tela_inicial.webp" width="1265" height="auto" alt="Figura: Unreal Engine tela inicial." title="Figura: Unreal Engine tela inicial.">
 
 > *Figura: Unreal Engine tela inicial.*
 
@@ -300,7 +300,7 @@ A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o 
 
 <!-- ![Figura: Unreal 5 - Tela inicial.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_home_screen.webp "Figura: Unreal 5 - Tela inicial.") -->
 
-<img src="imagens/projeto/unreal_engine_home_screen.webp" width="1265" height="auto" alt="Figura: Unreal 5 - Tela inicial.">
+<img src="imagens/projeto/unreal_engine_home_screen.webp" width="1265" height="auto" alt="Figura: Unreal 5 - Tela inicial." title="Figura: Unreal Engine tela inicial.">
 
 > *Figura: Unreal 5 - Tela inicial.*        
 
@@ -537,7 +537,12 @@ Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apr
 
 `Project Settings` opção `Plataforms` > `Windows` e altere a imagens.
 
-![Figura: Project icon.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_project_icon.webp "Figura: Project icon.")		
+<!-- ![Figura: Project icon.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_project_icon.webp "Figura: Project icon.")		-->
+
+<figure>
+  <img src="https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_project_icon.webp" width="1265" height="800" alt="Figura: Project icon." title="Figura: Project icon.">
+  <figcaption>Figura: Project icon.</figcaption>
+</figure>
 
 > *Figura: Project icon.*
 
