@@ -603,7 +603,7 @@ Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apr
 
 <figure>
   <img src="https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_project_icon.webp"  
-width="1254" height="896" alt="Figura: Project icon." title="Figura: Project icon.">
+alt="Figura: Project icon." title="Figura: Project icon.">
   <figcaption>Figura: Project icon.</figcaption>
 </figure>
 
