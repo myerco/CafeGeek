@@ -24,184 +24,184 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 <a name="capitulo1"></a>
 [**Capítulo 1 - Desenvolvendo jogos digitais**](#1)
 
-[1. O que é uma Engine e Framework?](#1.1)
+[1.1 O que é uma Engine e Framework?](#1.1)
 
-[2. Ciclo da lógica do desenvolvimento de um jogo](#1.2)
+[1.2 Ciclo da lógica do desenvolvimento de um jogo](#1.2)
 
-[3. O que é Unreal Engine?](#1.3)
+[1.3 O que é Unreal Engine?](#1.3)
 
 ***
 
 <a name="capitulo2"></a>
 [**Capítulo 2 - Trabalhando com o Unreal Engine e Visual Studio**](#2)
 
-[1. Como instalar o Unreal Engine?](#2.1)
+[2.1 Como instalar o Unreal Engine?](#2.1)
 
-[**2. Criando um projeto para jogos no Unreal Engine**](#2.2)    
+[**2.2 Criando um projeto para jogos no Unreal Engine**](#2.2)    
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1 Selecionando o tipo de projeto](#2.2.1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.1 Selecionando o tipo de projeto](#2.2.1)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2 Escolhendo o Template](#2.2.2)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.2 Escolhendo o Template](#2.2.2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.3 Configurando o projeto inicialmente](#2.2.2)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.3 Configurando o projeto inicialmente](#2.2.2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.4 Tela inicial do Unreal Engine](#2.2.4)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.4 Tela inicial do Unreal Engine](#2.2.4)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5 Iniciando um projeto no Unreal Engine 5](#2.2.5)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.5 Iniciando um projeto no Unreal Engine 5](#2.2.5)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.6 Configurando o editor de código](#2.2.6)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.6 Configurando o editor de código](#2.2.6)
 
-[**3. Entendo as pastas criadas**](#2.3)
+[**3. Entendo as pastas criadas**](#2.2.3)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.1 Pasta de código C++ - Source](#2.3.1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.3.1 Pasta de código C++ - Source](#2.3.1)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.2 Pasta principal do projeto - Content](#2.3.2)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.3.2 Pasta principal do projeto - Content](#2.3.2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.3 Pastas temporárias que podem ser removidas](#2.3.3)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.3.3 Pastas temporárias que podem ser removidas](#2.3.3)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.4 Nomenclatura de pastas](#2.3.4)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.3.4 Nomenclatura de pastas](#2.3.4)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.5 Compilando o projeto usando o Windows Explorer](#2.3.5)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.3.5 Compilando o projeto usando o Windows Explorer](#2.3.5)
 
-[**4. Atividade - Instale o Unreal Engine com Visual Studio**](#2.4)
+[**2.4 Atividade - Instale o Unreal Engine com Visual Studio**](#2.4)
 
-[**5. Organizando pastas e logo do projeto**](#2.5)
+[**2.5 Organizando pastas e logo do projeto**](#2.5)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.1 Como criar pastas de trabalho?](#2.5.1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.1 Como criar pastas de trabalho?](#2.5.1)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.2 Defina e utilize uma Nomenclatura e organização de pastas](#2.5.1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.2 Defina e utilize uma Nomenclatura e organização de pastas](#2.5.2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.3 Os benefícios da organização de pastas](#2.5.1)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.3 Os benefícios da organização de pastas](#2.5.3)    
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.4 Configurando o projeto](#2.5.4)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.4 Configurando o projeto](#2.5.4)    
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.5 Adicionando um Level na inicialização do projeto](#2.5.5)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.5 Adicionando um Level na inicialização do projeto](#2.5.5)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.6 Configurando as imagens do projeto](#2.5.6)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.6 Configurando as imagens do projeto](#2.5.6)
 
-[**6. Atividade - Configure as pastas de seu projeto**](#2.6)
+[**2.6. Atividade - Configure as pastas de seu projeto**](#2.6)
 
 ***
 
 <a name="capitulo3"></a>
 [**Capítulo 3 - Controle de versão com GitHub e Unreal Engine**](#3)
 
-[1. Ferramentas para controle de versão](#3.1)
+[3.1 Ferramentas para controle de versão](#3.1)
 
-[2. Estrutura do GIT](#3.2)
+[3.2 Estrutura do GIT](#3.2)
 
-[3. Entendo o fluxo de trabalho](#3.3)
+[3.3 Entendo o fluxo de trabalho](#3.3)
 
-[**4. Começando a trabalhar com o Git e o Unreal Engine**](#3.4)    
+[**3.4 Começando a trabalhar com o Git e o Unreal Engine**](#3.4)    
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1 Criando uma conta e o projeto no Github](#3.4.1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.4.1 Criando uma conta e o projeto no Github](#3.4.1)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.2 Instalando Git Client e GitHub Desktop](#3.4.2)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.4.2 Instalando Git Client e GitHub Desktop](#3.4.2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.3 Configurando Unreal Engine para utilizar o Git](#3.4.3)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.4.3 Configurando Unreal Engine para utilizar o Git](#3.4.3)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.4 Configurando o Github Desktop e adicionando o projeto](#3.4.4)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.4.4 Configurando o Github Desktop e adicionando o projeto](#3.4.4)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.5 Criando o projeto remoto e atualizando os arquivos](#3.4.5)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.4.5 Criando o projeto remoto e atualizando os arquivos](#3.4.5)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.6 Testando a configuração do Git com o Unreal Engine](#3.4.6)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.4.6 Testando a configuração do Git com o Unreal Engine](#3.4.6)  
 
-[5. Utilizando comandos do PowerShell para utilizar o Git Client](#3.5)  
+[3.5 Utilizando comandos do PowerShell para utilizar o Git Client](#3.5)  
 
-[6. Ignorando pastas e arquivos](#3.6)
+[3.6 Ignorando pastas e arquivos](#3.6)
 
-[7. Atividade - Crie um projeto no Unreal Engine e o configure para utilizar o Git](#3.7)
+[3.7 Atividade - Crie um projeto no Unreal Engine e o configure para utilizar o Git](#3.7)
 
 ***
 
 <a name="capitulo4"></a>
 [**Capítulo 4 -  O Unreal Engine e sua lógica de programação**](#4)
 
-[1. Interface e Editores](interface_e_editores.html)  
+[4.1 Interface e Editores](interface_e_editores.html)  
 
-[2. Programação visual com Blueprint](unreal_engine_entendo_blueprint.html)
+[4.2 Programação visual com Blueprint](unreal_engine_entendo_blueprint.html)
 
-[3. Programação C++ no Unreal Engine](unreal_engine_entendo_cpp.html)
+[4.3 Programação C++ no Unreal Engine](unreal_engine_entendo_cpp.html)
 
-[4. Trabalhando com variáveis](unreal_engine_trabalhando_com_variaveis.html)  
+[4.4 Trabalhando com variáveis](unreal_engine_trabalhando_com_variaveis.html)  
 
-[5. Estruturas de controle de fluxo](unreal_engine_estruturas_de_controle_de_fluxo.html)
+[4.5 Estruturas de controle de fluxo](unreal_engine_estruturas_de_controle_de_fluxo.html)
 
-[6. Manipulando Arrays](unreal_engine_manipulando_array.html)  
+[4.6 Manipulando Arrays](unreal_engine_manipulando_array.html)  
 
-[7. Utilizando Enums](unreal_engine_enum.html)    
+[4.7 Utilizando Enums](unreal_engine_enum.html)    
 
 ***
 **Capítulo 5 - Atores e movimentação**
 
-[1. Implementando Atores](actor_atores.html)
+[5.1 Implementando Atores](actor_atores.html)
 
-[2. Utilizando Eventos, funções e macros](estruturando_logica_utilizando_eventos_funcoes_macros.html)  
+[5.2 Utilizando Eventos, funções e macros](estruturando_logica_utilizando_eventos_funcoes_macros.html)  
 
-[3. Implementando a movimentação do personagem](trabalhando_com_logica_movimentacao_de_personagem.html)    
+[5.3 Implementando a movimentação do personagem](trabalhando_com_logica_movimentacao_de_personagem.html)    
 
-[4. Comunicação entre Blueprints](comunicacao_entre_blueprint.html)    
+[5.4 Comunicação entre Blueprints](comunicacao_entre_blueprint.html)    
 
-[5. Delta time e sistema de coordenadas](deltatime_sistema_coordenadas.html)
+[5.5 Delta time e sistema de coordenadas](deltatime_sistema_coordenadas.html)
 
 ***
 
 **Capítulo 6 - Estruturas de dados e Interface com usuário**
 
-[1. Variáveis estruturadas ou Structure](structure_variaveis_estruturadas.html)  
+[6.1 Variáveis estruturadas ou Structure](structure_variaveis_estruturadas.html)  
 
-[2. Tabelas de dados ou Data tables - ](data_tables.html)
+[6.2 Tabelas de dados ou Data tables - ](data_tables.html)
 
-[3. Game Instance, Game State e Game Mode](unreal_engine_gameinstance_state_mode.html)
+[6.3 Game Instance, Game State e Game Mode](unreal_engine_gameinstance_state_mode.html)
 
-[4. Implementando a Interface com o jogador](unreal_engine_hud_interface.html)
+[6.4 Implementando a Interface com o jogador](unreal_engine_hud_interface.html)
 
-[5. Lógica de programação dos objetos da interface](unreal_engine_hud_logica.html)
+[6.5 Lógica de programação dos objetos da interface](unreal_engine_hud_logica.html)
 
 ***
 **Capítulo 7 - Materiais e Landscape**
 
-[1. Introdução aos Materiais](unreal_engine_material_introducao_aos_materiais.html)
+[7.1 Introdução aos Materiais](unreal_engine_material_introducao_aos_materiais.html)
 
-[2. Construindo Materiais e entendo a lógica](unreal_engine_material_construindo_materiais_entendendo_a_logica.html)
+[7.2 Construindo Materiais e entendo a lógica](unreal_engine_material_construindo_materiais_entendendo_a_logica.html)
 
-[3. Material Instance](unreal_engine_material_instance.html)
+[7.3 Material Instance](unreal_engine_material_instance.html)
 
-[4. Materiais e Blueprint](unreal_engine_material_blueprint.html)
+[7.4 Materiais e Blueprint](unreal_engine_material_blueprint.html)
 
-[5. Trabalhando com Iluminação](iluminacao.html)
+[7.5 Trabalhando com Iluminação](iluminacao.html)
 
-[6. Criando terrenos - Landscape](landscape.html)  
+[7.6 Criando terrenos - Landscape](landscape.html)  
 
 ***
 **Capítulo 8 - Animação de personagens**
 
-[1. Introdução a animação de personagens](unreal_engine_animacao_introducao.html)
+[8.1 Introdução a animação de personagens](unreal_engine_animacao_introducao.html)
 
-[2. Preparando o projeto](unreal_engine_animacao_preparando_o_projeto.html)
+[8.2 Preparando o projeto](unreal_engine_animacao_preparando_o_projeto.html)
 
-[3. Utilizando Blend Space](unreal_engine_animacao_blend_space.html)        
+[8.3 Utilizando Blend Space](unreal_engine_animacao_blend_space.html)        
 
-[4. Implementando a Lógica da animação](unreal_engine_animacao_animation_blueprint.html)        
+[8.4 Implementando a Lógica da animação](unreal_engine_animacao_animation_blueprint.html)        
 
-[5. Implementando a mira](unreal_engine_animacao_aim_offset.html)
+[8.5 Implementando a mira](unreal_engine_animacao_aim_offset.html)
 
-[6. Trabalhando com Animação 2D](unreal_engine_animacao2d.html)
+[8.6 Trabalhando com Animação 2D](unreal_engine_animacao2d.html)
 
 ***
 **Capítulo 9 - Inteligência Artificial**
 
-[1. Inteligência Artificial](inteligenciaartificial.html)
+[9.1 Inteligência Artificial](inteligenciaartificial.html)
 
 ***
 **Capítulo 10 - Multiplayer em C++**            
-[1. Multiplayer](multiplayer.html)
+[10.1 Multiplayer](multiplayer.html)
 
 ***
 **Capítulo 11 - Efeitos especiais**
-[1. Sequencer](#)
+[11.1. Sequencer](#)
 
-[2. Utilizando Niagara](#)
+[12.1 Utilizando Niagara](#)
 
 <a name="1"></a>
 ## Capítulo 1 - Desenvolvendo jogos digitais
