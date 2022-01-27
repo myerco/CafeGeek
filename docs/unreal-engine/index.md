@@ -208,7 +208,33 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 ***
 
-&nbsp;&nbsp;[6.1 Trabalhando com variáveis](unreal_engine_trabalhando_com_variaveis.html)  
+&nbsp;&nbsp;[6.1 que são variáveis?](#6.1)  
+
+&nbsp;&nbsp;[**6.2 Variáveis no Unreal Engine**](#6.2)  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.2.1 Tipos de variáveis](#6.2.1)  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.2.2 Declarando variáveis](#6.2.2)  
+
+&nbsp;&nbsp;[6.3 Métodos Get e Set](#6.3)  
+
+&nbsp;&nbsp;[**6.4 Tratamento e armazenamento de texto no Unreal Engine**](#6.4)  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.1 Concatenando textos usando a função Append](#6.4.1)  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.2 Procurando texto dentro de uma string](#6.4.2)  
+
+&nbsp;&nbsp;[6.5 Variáveis do tipo numéricas Integer e Float](#6.5)  
+
+&nbsp;&nbsp;[6.6 Armazenando valores lógicos com Boolean](#6.6)
+
+&nbsp;&nbsp;[6.7 Controle de acesso a variáveis](#6.7)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.7.1 Variáveis Privadas](#6.7.1)  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.7.2 Variáveis Públicas](#6.7.2)  
+
+&nbsp;&nbsp;[**6.8 Atividade - Crie um projeto que implemente vários tipos de variáveis**](#6.8)  
 
 &nbsp;&nbsp;[6.2 Estruturas de controle de fluxo](unreal_engine_estruturas_de_controle_de_fluxo.html)
 
@@ -1667,3 +1693,383 @@ Na função anotherFunction o método chamado em OnFire é WeaponRifle::OnFire()
 O método WeaponBase::OnFire não é chamado pois foi sobreposto.
 
 **[⬆ Volta para o CAPÍTULO 5](#capitulo5)**
+
+***
+
+<a name="6"></a>
+## CAPÍTULO 6 -  Estruturas de programação no Unreal Engine
+
+
+Neste capítulo serão descritas as estruturas de armazenamento, manipulação e fluxo da lógica de programação.
+
+![Blueprint Variables](imagens/variaveis/unreal_engine_variables.webp "Blueprint Variables")
+
+> Figura: Blueprint Variáveis.
+
+<a name="6.1"></a>
+## 6.1 O que são variáveis?
+Variáveis são estruturas que são utilizadas para armazenar um valor de um determinado tipo na memória do computador.
+
+Estrutura de memória.
+
+|Variável       |Tipo     | Valor       |
+|:-             |:-:      |:-:          |
+|iSoma          |Integer  |0            |
+|fValor         |Float    |6.5          |
+|tName          |String   |"Gandalf"    |
+|bRunnig        |Boolean  |false        |
+
+
+
+Abaixo um exemplo em C++:
+```cpp
+// Variável do tipo inteiro
+int iSoma = 0;
+
+// Variável do tipo ponto flutuante
+float fValor = 6.5;
+```
+
+**[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
+
+<a name="6.2"></a>
+## 6.2 Variáveis no Unreal Engine
+Variáveis no Unreal Engine são propriedades que contêm um valor ou fazem referência a um objeto ou ator no mundo. Essas propriedades podem ser acessíveis internamente ao **Blueprint** que as contém, ou podem ser tornadas acessíveis externamente para que seus valores possam ser modificados por designers que trabalham com instâncias do **Blueprint** colocadas em um nível.
+
+<a name="6.2.1"></a>
+### 6.2.1 Tipos de Variáveis
+Para armazenar qualquer informação na memória devemos definir um tipo de dados primitivo ou mesmo uma estrutura de dados, a seguir alguns tipos de dados:
+
+- `Boolean` - Armazena valores falso ou verdadeiro (true e false).
+
+    ```cpp
+bool VariavelBoolean;
+VariavelBoolean = true;
+  ```
+
+ - `Integer` - Valores inteiros entre −2.147.483.648 e 2.147.483.647
+
+    ```cpp
+int32 VariavelInt;
+VariavelInt = 1;
+  ```
+    Utilize int32, uint8, uint32 para representar números inteiros.
+
+-  `Float` - Valores com casas decimais tal como 0,0553, 101,2887 e -78,322 .
+
+    ```cpp
+float VariavelFloat;
+VariavelFloat = 2.4;
+    ```
+
+- `String`- Grupo de caracteres alfanuméricos.
+
+    ```cpp
+FString VariavelString ;
+VariavelString = TEXT("Alo mundo!!");
+    ```
+
+<a name="6.2.2"></a>
+### 6.2.2 Declarando variáveis   
+Declarando variáveis informamos ao computador que estamos reservando um espaço de memória temporário.  
+
+**Blueprint.**
+
+- Variáveis no Editor de Blueprint.
+
+    ![Figura: Blueprint Variables.](imagens/variaveis/unreal_engine_variable.webp "Figura: Blueprint Variables.")
+
+    > Figura: Blueprint Variables.
+
+- As variáveis tem tipos e propriedades que determinam o sua utilização.  
+
+    ![Figura: Details ou properiedades das variáveis.](imagens/variaveis/unreal_engine_variable_details.webp "Figura: Details ou properiedades das variáveis.")
+
+    > Figura: Details ou properiedades das variáveis.
+
+    Observe que a propriedade `Category` agrupa as variáveis por uma categoria.
+
+**C++.**
+
+```cpp
+UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Parâmetros")
+    int32 iLife = 10;
+```
+
+**[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
+
+<a name="6.3"></a>
+## 6.3 Métodos Get e Set
+Para acessar o conteúdo das variáveis utilizamos os métodos `Get` e `Set`, onde:
+
+- `Get`: Obtém o valor de uma variável.
+- `Set`: Atualiza o valor da variável.
+
+**Blueprint.**
+
+![Figura: Métodos Get e Set.](imagens/variaveis/unreal_engine_get_set.webp "Figura: Métodos Get e Set.")
+
+> Figura: Métodos Get e Set.
+
+- `BeginPlay` - Ao iniciar o jogo a lista de comandos conectados a estes nó deve ser acionado.
+- `Print String` - Escreve um texto na cena do jogo.
+- `Add +` - Variáveis numéricas podem ser manipuladas com operadores matemáticos.
+- `Converts` - Converte tipos de variáveis, neste caso converte um valor do tipo `integer` em um do tipo `String`.
+
+**C++.**
+
+Arquivo Header.
+
+```cpp
+// MyHero.h
+UPROPERTY()
+virtual void BeginPlay() override;
+```
+
+Arquivo de implementação.
+
+```cpp
+// Myhero.cpp
+void AMyHeroClass::BeginPlay()
+ {
+    Super::BeginPlay();
+    int32 iLifeLocal = 5;
+    float fSpeed = 3.7f;
+    FString fsName = TEXT("O nome do personagem é Nostromo");
+    iLifeLocal = iLifeLocal + iLife;
+    // iLife é uma variável global
+    UE_LOG(LogTemp, Warning, TEXT("O resultado é =, %d %f %s"), iLife, fSpeed, *fsName );
+ }
+ ```
+
+**[⬆ Volta para o início](#índice)**
+
+<a name="6.4"></a>
+## 6.4 Tratamento e armazenamento de texto no Unreal Engine
+No **Unreal Engine** são definidos alguns tipos de dados para manipulação e armazenamento de caracteres alfanuméricos, entre elas estão os tipos de variáveis a seguir.
+
+| Variável          |Tamanho    | Considerações               |
+|:-:                |-          |-                            |
+| `Text`            | 40 Bytes  | Podemos adicionar opções avançadas como exemplo `String Table`, ideal para textos longos que podem variar conforme a lingua definida pelo jogador.  |
+| `String`          | 16 Bytes  | Armazenamento e consumo de memória mediano |
+| `Name`            | 8 Bytes   |  Cadeias de caracteres  curtas que ocupam pouca memória.|
+
+Podemos realizar as seguintes operações em `strings`:
+
+- Atribuir o valor de uma `string` para outra;
+
+- Acessar caracteres individualmente;
+
+- Adicionar uma `string` no final de outra;
+
+- Concatenar `strings`;
+
+- Procurar uma determinada letra ou Substring dentro da `string`.
+
+**Blueprint.**
+
+![Figura: String functions.](imagens/variaveis/unreal_engine_string_functions.webp "Figura: String functions.")
+
+> Figura: String functions.
+
+**C++.**
+
+Arquivo header.
+
+```cpp
+// myHero.h
+UPROPERTY()
+virtual void BeginPlay() override;
+
+UPROPERTY()
+FString NomeCharacter;
+
+UPROPERTY()
+FString ClassCharacter;
+
+
+```
+
+Arquivo de implementação.
+```cpp
+// myHero.cpp
+void AMyHeroClass::BeginPlay()
+ {
+    Super::BeginPlay();
+
+    FString fsMessage = TEXT("Procurando a classe do personagem");
+    FString fsResultado;
+
+    fsResultado.append("O nome é ",*NomeCharacter)
+
+    // ou
+    fsResultado =TEXT("O nome é ");
+    fsResultado += *NomeCharacter;
+
+    UE_LOG(LogTemp, Warning, TEXT("O resultado é =,  %s"), *fsResultado );
+
+    // Procurando uma Substring
+    if (fsMessage.Contains("class"))
+    {
+      UE_LOG(LogTemp, Warning, TEXT("Encontrei!!"));
+    }
+    else
+        UE_LOG(LogTemp, Warning, TEXT("Não encontrei"));
+ }
+
+```
+
+<a name="6.4.1"></a>
+### 6.4.1 Concatenando textos usando a função Append
+A função `Append` concatena duas ou mais `strings`, passamos como parâmetros os textos que gostaríamos de concatenar e tendo como resultado um novo texto contendo os dois textos.
+
+**C++**
+
+```cpp
+
+FString sTexto = TEXT("Alo mundo...");
+sTexto.append("Cruel");
+
+// Resultado: Alo mundo...Cruel
+```
+
+<a name="6.4.2"></a>
+### 6.4.2 Procurando texto dentro de uma string
+A função `Contains` procura uma sequencia de caracteres dentro de uma `string`, passamos os seguintes parâmetros para a função.
+
+**Blueprint.**
+
+- `Search In` - Texto passado como parâmetro.
+- `Substring` - Texto que deve ser localizado.
+- `Use Case` - Diferencia maiúsculas e minúsculas.
+ `Search from end` - Inicia a busca pelo fim do texto.
+
+**C++.**
+
+```cpp
+
+FString sTexto = TEXT("Procurando o texto escondido.");
+
+if (sTexto.Contains(TEXT("texto")))
+{
+  return true;
+}
+else
+  return false;
+
+// Resultado: Alo mundo...Cruel
+```
+
+**[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
+
+<a name="6.5"></a>
+## 6.5 Variáveis do tipo numéricas Integer e Float
+Valores numéricos utilizam operadores matemáticos para a sua manutenção, como veremos a seguir.  
+
+**Blueprint.**
+
+![Figura: Utilizando Divisão.](imagens/variaveis/unreal_engine_variable_division.webp "Figura: Utilizando Divisão.")
+
+> Figura: Utilizando Divisão.
+
+**C++.**
+
+```cpp
+void AMyCharacterClass::BeginPlay()
+{
+    Super::BeginPlay();
+    Float fStrength = 10;
+    int32 iLife = 0;
+
+    iLife = int(fStrength / 2);
+}
+```
+
+![Figura: Multiplicação valores.](imagens/variaveis/unreal_engine_variable_multiplication.webp "Figura: Multiplicação valores.")
+
+> Figura: Multiplicação valores.
+
+- (+) - soma;
+- (*) - Multiplicação;
+- (/) - Divisão.
+
+**[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
+
+<a name="6.6"></a>
+## 6.6 Armazenando valores lógicos com Boolean
+Armazena dois valores : falso `false` ou verdadeiro `true`.
+
+![Figura: Variável Boolean.](imagens/variaveis/unreal_engine_variable_boolean.webp "Figura: Variável Boolean.")
+
+> Figura: Variável Boolean.
+
+No exemplo acima se o valor de `life` for maior que 50 então o valor é atualizado para `true`.
+
+**[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
+
+<a name="6.7"></a>
+## 6.7 Controle de acesso a variáveis
+Como especificar quais variáveis de um objeto um usuário pode acessar e quais estão fora dos limites? - usando os especificadores de controle de acesso público e privado.
+
+<a name="6.7.1"></a>
+### 6.7.1 Variáveis Privadas
+Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada por módulos externos.  
+
+**Blueprint.**
+
+![Figura: Private details.](imagens/variaveis/unreal_engine_variable_private_details.webp "Figura: Private details.")
+
+> Figura: Private details.
+
+**C++.**
+
+```cpp
+private:
+   bool Running = false;
+```
+
+<a name="6.7.2"></a>
+### 6.7.2 Variáveis Públicas
+Para permitir que uma variável seja modificada de fora de seu módulos, torne-a pública.  
+
+**Blueprint.**
+
+![Figura: Public.](imagens/variaveis/unreal_engine_variable_public.webp "Figura: Public.")
+
+> Figura: Public.
+
+![Figura: Public details.](imagens/variaveis/unreal_engine_variable_public_details.webp "Figura: Public details.")
+
+> Figura: Public details.
+
+**C++.**
+
+```cpp
+public:
+  UFUNCTION(BlueprintCallable, Category="Player")
+  bool IsRunning();
+
+```
+
+<a name="6.8"></a>
+## 6.8 Atividade - Crie um projeto que implemente as variáveis dos tipos de variáveis.
+
+**Regras.**
+1. Implemente variáveis para armazenar o Nome do personagem, a vida do personagem e força do personagem;
+1. Aumente a vida e a força do personagem;
+2. Altere o nome do personagem e escreva na cena.
+
+**Desafio.**
+
+1. Implemente uma lógica para calcular o maior valor entre três números.
+
+  Exemplo:
+```bash
+x = 3;
+y = 5;
+z = 2;
+O maior valor é Y = 5;
+```
+
+
+**[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
