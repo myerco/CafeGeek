@@ -149,29 +149,43 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 **Capítulo 6 - Estruturas de dados e Interface com usuário**
 
 [1. Variáveis estruturadas ou Structure](structure_variaveis_estruturadas.html)  
+
 [2. Tabelas de dados ou Data tables - ](data_tables.html)
+
 [3. Game Instance, Game State e Game Mode](unreal_engine_gameinstance_state_mode.html)
+
 [4. Implementando a Interface com o jogador](unreal_engine_hud_interface.html)
+
 [5. Lógica de programação dos objetos da interface](unreal_engine_hud_logica.html)
 
 ***
 **Capítulo 7 - Materiais e Landscape**
 
 [1. Introdução aos Materiais](unreal_engine_material_introducao_aos_materiais.html)
+
 [2. Construindo Materiais e entendo a lógica](unreal_engine_material_construindo_materiais_entendendo_a_logica.html)
+
 [3. Material Instance](unreal_engine_material_instance.html)
+
 [4. Materiais e Blueprint](unreal_engine_material_blueprint.html)
+
 [5. Trabalhando com Iluminação](iluminacao.html)
+
 [6. Criando terrenos - Landscape](landscape.html)  
 
 ***
 **Capítulo 8 - Animação de personagens**
 
 [1. Introdução a animação de personagens](unreal_engine_animacao_introducao.html)
+
 [2. Preparando o projeto](unreal_engine_animacao_preparando_o_projeto.html)
+
 [3. Utilizando Blend Space](unreal_engine_animacao_blend_space.html)        
+
 [4. Implementando a Lógica da animação](unreal_engine_animacao_animation_blueprint.html)        
+
 [5. Implementando a mira](unreal_engine_animacao_aim_offset.html)
+
 [6. Trabalhando com Animação 2D](unreal_engine_animacao2d.html)
 
 ***
@@ -186,6 +200,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 ***
 **Capítulo 11 - Efeitos especiais**
 [1. Sequencer](#)
+
 [2. Utilizando Niagara](#)
 
 <a name="1"></a>
@@ -587,7 +602,8 @@ Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apr
 <!-- ![Figura: Project icon.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_project_icon.webp "Figura: Project icon.")		-->
 
 <figure>
-  <img src="https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_project_icon.webp"  alt="Figura: Project icon." title="Figura: Project icon.">
+  <img src="https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_project_icon.webp"  
+width="1254" height="896" alt="Figura: Project icon." title="Figura: Project icon.">
   <figcaption>Figura: Project icon.</figcaption>
 </figure>
 
