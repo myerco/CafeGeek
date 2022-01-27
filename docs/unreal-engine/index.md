@@ -399,7 +399,7 @@ A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o 
 <!--![Figura: Unreal 5 - Select or create New Project, Games.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_select_new_project.webp "Figura: Unreal 5 - Select or create New Project, Games")-->
 
 <figure>
-  <img src="https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_select_new_project.webp"  
+  <img src="https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_select_new_project.webp"  width="1196" height="763"
   alt="Figura: Unreal 5 - Select or create New Project, Games" title="Figura: Unreal 5 - Select or create New Project, Games">
   <figcaption>Figura: Unreal 5 - Select or create New Project, Games</figcaption>
 </figure>
@@ -480,6 +480,7 @@ As pastas abaixo podem ser removidas pois podemos construir a qualquer momento q
 ### 2.3.4 Nomenclatura de pastas
 É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto, abaixo duas boas recomendações de organização, discutiremos mais nos próximos capítulos.    
 - [Directory Structure](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html "Directory Structure Overview of the directories that make up the engine and game projects.");
+
 - [UE5 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin "Gamemakin UE4 Style Guide() { A mostly reasonable approach to Unreal Engine 4").
 
 **[⬆Volta para o CAPÍTULO 2](#capitulo2)**
