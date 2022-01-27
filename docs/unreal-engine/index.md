@@ -33,7 +33,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 <a name="capitulo2"></a>
 [**Capítulo 2 - Trabalhando com o Unreal Engine e Visual Studio**](#2)
 
-- [**1. Como instalar o Unreal Engine?**](#2.1)
+- [1. Como instalar o Unreal Engine?](#2.1)
 - [**2. Criando um projeto para jogos no Unreal Engine**](#2.2)    
     - [2.1 Selecionando o tipo de projeto](#2.2.1)
     - [2.2 Escolhendo o Template](#2.2.2)
@@ -218,7 +218,7 @@ A **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **In
 - Navegação da loja de produtos;
 - Instalação e atualização das versões do **Unreal Engine**;
 
-![Figura: Gerenciamento de versões.](imagens/projeto/unreal_engine_control_version.webp "Figura: Gerenciamento de versões.")   
+![Figura: Gerenciamento de versões.](http://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_control_version.webp "Figura: Gerenciamento de versões.")   
 
 > *Figura: Gerenciamento de versões.*
 
