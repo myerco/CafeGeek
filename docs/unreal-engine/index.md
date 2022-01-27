@@ -20,6 +20,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 - Construir a animação de personagens;
 - Implementar Efeitos especiais.
 
+***
 
 <a name="capitulo1"></a>
 [**CAPÍTULO 1 - Desenvolvendo jogos digitais**](#1)
@@ -32,6 +33,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[1.3 O que é Unreal Engine?](#1.3)
 
+***
 
 <a name="capitulo2"></a>
 [**CAPÍTULO 2 - Trabalhando com o Unreal Engine e Visual Studio**](#2)
@@ -85,6 +87,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[**2.6. Atividade - Configure as pastas de seu projeto**](#2.6)
 
+***
 
 <a name="capitulo3"></a>
 [**CAPÍTULO 3 - Controle de versão com GitHub e Unreal Engine**](#3)
@@ -117,6 +120,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[**3.7 Atividade - Crie um projeto no Unreal Engine e o configure para utilizar o Git**](#3.7)
 
+***
 
 <a name="capitulo4"></a>
 [**CAPÍTULO 4 -  O Unreal Engine e sua lógica de programação**](#4)
@@ -137,6 +141,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[4.7 Utilizando Enums](unreal_engine_enum.html)    
 
+***
 
 <a name="capitulo5"></a>
 [**CAPÍTULO 5 - Atores e movimentação**](#5)
@@ -170,6 +175,8 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[6.5 Lógica de programação dos objetos da interface](unreal_engine_hud_logica.html)
 
+***
+
 <a name="capitulo7"></a>
 [**CAPÍTULO 7 - Materiais e Landscape**](#7)
 
@@ -186,6 +193,8 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 &nbsp;&nbsp;[7.5 Trabalhando com Iluminação](iluminacao.html)
 
 &nbsp;&nbsp;[7.6 Criando terrenos - Landscape](landscape.html)  
+
+***
 
 <a name="capitulo8"></a>
 [**CAPÍTULO 8 - Animação de personagens**](#8)
@@ -204,6 +213,8 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[8.6 Trabalhando com Animação 2D](unreal_engine_animacao2d.html)
 
+***
+
 <a name="capitulo9"></a>
 [**CAPÍTULO 9 - Inteligência Artificial**](#9)
 
@@ -211,12 +222,16 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[9.1 Inteligência Artificial](inteligenciaartificial.html)
 
+***
+
 <a name="capitulo5"></a>
 [**Capítulo 10 - Multiplayer em C++**](#10)            
 
 ***
 
 &nbsp;&nbsp;[10.1 Multiplayer](multiplayer.html)
+
+***
 
 <a name="capitulo11"></a>
 [**CAPÍTULO 11 - Efeitos especiais**](#11)
@@ -289,7 +304,7 @@ A maioria das *engines* seguem um ciclo de execução da lógica de programaçã
 1. Editor para construção de materiais;
 1. Editor de efeitos especiais utilizando partículas;
 
-**[⬆ Volta para o CAPÍTULO I](#capitulo1)**
+**[⬆ Volta para o CAPÍTULO 1](#capitulo1)**
 
 ---
 
@@ -381,7 +396,13 @@ Quando todos os passos anteriores forem concluídos corretamente a tela inicial 
 ### 2.2.5 Iniciando um projeto no Unreal Engine 5
 A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o mesmo dos passos anteriores.
 
-![Figura: Unreal 5 - Select or create New Project, Games.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_select_new_project.webp "Figura: Unreal 5 - Select or create New Project, Games")
+<!--![Figura: Unreal 5 - Select or create New Project, Games.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_select_new_project.webp "Figura: Unreal 5 - Select or create New Project, Games")-->
+
+<figure>
+  <img src="https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_select_new_project.webp"  
+  alt="Figura: Unreal 5 - Select or create New Project, Games" title="Figura: Unreal 5 - Select or create New Project, Games">
+  <figcaption>Figura: Unreal 5 - Select or create New Project, Games</figcaption>
+</figure>
 
 > *Figura: Unreal 5 - Select or create New Project, Games.*
 
