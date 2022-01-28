@@ -294,7 +294,9 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[6.18 Criando Enums no Unreal Engine](#6.18)
 
-&nbsp;&nbsp;[6.19 Exemplos de uso](#6.19)
+&nbsp;&nbsp;[6.19 Exemplos de uso - A lâmpada](#6.19)
+
+&nbsp;&nbsp;[6.20 Exemplos de uso - A pedra das emoções](#6.20)
 
 
 ***
@@ -555,7 +557,7 @@ A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o 
 <!--![Figura: Unreal 5 - Select or create New Project, Games.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_select_new_project.webp "Figura: Unreal 5 - Select or create New Project, Games")-->
 
 <figure>
-  <img src="https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_select_new_project.webp"  width="1196" height="763"
+  <img src="https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_select_new_project.webp" 
   alt="Figura: Unreal 5 - Select or create New Project, Games" title="Figura: Unreal 5 - Select or create New Project, Games">
   <figcaption>Figura: Unreal 5 - Select or create New Project, Games</figcaption>
 </figure>
@@ -2759,7 +2761,7 @@ Alterando o componente `PointLight` para ligar e desligar a iluminação.
 
 **Blueprint.**
 
-![Figura: Blueprint Ligando e desligando o PointLight.](imagens/enum/blueprint_enum_example_lamp_offon.wbp "Figura: Blueprint Ligando e desligando o PointLight.")
+![Figura: Blueprint Ligando e desligando o PointLight.](imagens/enum/blueprint_enum_example_lamp_offon.webp "Figura: Blueprint Ligando e desligando o PointLight.")
 
 > Figura: Blueprint Ligando e desligando o PointLight.   
 
@@ -2935,5 +2937,5 @@ Vamos verificar e alterar o estado de emocional de uma pedra.
 
 3. Alterando as cores da pedra conforme a emoção.  
   ![Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro.](imagens/enum/blueprint_enum_example_rock_set_material.webp "Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro.")
-  
+
   > Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro.
