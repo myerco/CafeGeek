@@ -260,9 +260,42 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[**6.12 Atividades - Implemente um projeto que crie vários atores na cena e os posicione em áreas diferentes da cena**](#6.12)
 
-&nbsp;&nbsp;[6.13 Manipulando Arrays](unreal_engine_manipulando_array.html)  
+&nbsp;&nbsp;[6.13 O que são variáveis do tipo array?](#6.13)
 
-&nbsp;&nbsp;[6.14 Utilizando Enums](unreal_engine_enum.html)    
+&nbsp;&nbsp;[6.14 Declarando arrays e acessando os seus elementos](#6.14)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.14.1 Método Get para arrays](#6.14.1)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.14.2 Get utilizando uma variável como índice](#6.14.2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.14.3 Último índice e a quantidade de elementos do array](#2.3)
+
+&nbsp;&nbsp;[6.15 Percorrendo arrays](#6.15)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.15.1 Listando todos os elementos utilizando For](#6.15.1)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.15.2 Usando o comando Find](#6.15.2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.15.3 Contando elementos dentro de um array](#6.15.2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.15.4 Percorrendo e atualizando dados](#6.15.4)
+
+&nbsp;&nbsp;[6.16 Removendo elementos do array](#6.16)    
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.16.1 Removendo elementos utilizando Remove](#6.16.1)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.16.2 Removendo passando uma variável como parâmetro](#6.16.2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.16.3 Removendo utilizando nó Remove Index](#6.16.3)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.16.4 Limpando o array com Clear](#6.16.4)
+
+&nbsp;&nbsp;[6.17 O que são Enums?](#6.17)
+
+&nbsp;&nbsp;[6.18 Criando Enums no Unreal Engine](#6.18)
+
+&nbsp;&nbsp;[6.19 Exemplos de uso](#6.19)
+
 
 ***
 
@@ -2288,8 +2321,6 @@ O nó `Do Once` - como o nome sugere - disparará um pulso de execução apenas 
 ```
 **[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
 
-***
-
 <a name="6.12"></a>
 ## 6.12. Atividades - Implemente um projeto que crie vários atores na cena e os posicione em áreas diferentes da cena.
 
@@ -2302,3 +2333,607 @@ O nó `Do Once` - como o nome sugere - disparará um pulso de execução apenas 
 1. Adicione um *array* para controlar melhor os objetos.
 
 **[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
+
+<a name="6.13"></a>
+## 6.13 O que são variáveis do tipo array?
+É um conjunto de variáveis do mesmo tipo agrupadas dentro de uma estrutura e acessíveis por um índice. Podemos representar os *arrays* como uma tabela onde os dados são acessados por um índice que indica a posição do elemento, a seguir um exemplo.
+
+| s         |s[0] |s[1] |s[2] | s[3]  |
+|---        |---  |---  |---  |---    |
+|**Valor**  |Ana  |José |Hugo |Hulda  |
+|**Índice** |  0  | 1   | 2   | 3     |
+
+- s[0] - O valor entre colchetes indica a posição (índice) do elemento no *array*;
+- O índice em C++ inicia com o valor 0.
+
+A seguir alguns exemplos utilizando **C++**.
+
+Exemplo de números inteiros.  
+
+```cpp
+TArray<int32> IntArray;
+IntArray.Init(10, 5);
+// IntArray == [10,10,10,10,10]  
+```
+
+Exemplo de números float.  
+
+```cpp
+TArray<float> floatArray[5];
+floatArray.Init(10.0f, 5);
+```
+
+Exemplo com String.  
+
+```cpp
+TArray<FString> StrArr;
+StrArr.Add    (TEXT("Hello"));
+StrArr.Emplace(TEXT("World"));
+// StrArr == ["Hello","World"]
+```
+
+
+**[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
+
+<a name="6.14"></a>
+## 6.14 Declarando arrays e acessando os seus elementos
+Para declarar variáveis do tipo *array* devemos primeiro escolher um tipo de variável primitivo, como por exemplo um tipo `String`, e logo em seguida determinar que será um *array*, vamos aos exemplos.
+
+**Blueprint.**    
+
+![Figura: Blueprint array details.](imagens/array/blueprint_array_declare.webp "Figura: Blueprint array details.")
+
+> Figura: Blueprint array details.
+
+- `Nomes` - É uma variável *array*, como o ícone de mini grid informa,do tipo `String`;
+
+- `Default Value` - Contem a lista de valores contidos inicialmente no `array`.
+
+Em Blueprint a variável é representada por um ícone 3x3.
+
+![Figura: Blueprint Arrays.](https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/Blueprints/UserGuide/Arrays/array_selected.webp "Figura: Blueprint Arrays.")
+
+> Figura: Blueprint Arrays.
+
+
+<a name="6.14.1"></a>
+### 6.14.1 Método Get para arrays
+Para acessar qualquer elemento dentro *array* é necessários utilizar o índice, como no exemplo abaixo.  
+
+**Blueprint.**  
+
+![Figura: Blueprint Get para Array.](imagens/array/blueprint_array_get.webp "Figura: Blueprint Get para Array.")
+
+> Figura: Blueprint Get para Array.
+
+**C++.**  
+
+```cpp
+FString s = pessoa[0];
+UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
+```
+
+<a name="6.14.2"></a>
+### 6.14.2 Get utilizando uma variável como índice
+Podemos utilizar uma variável para substituir o índice e acessar elementos do *array*.
+
+**Blueprint.**
+
+![Figura: Blueprint Get utiliando uma variável como índice.](imagens/array/blueprint_array_get_string.webp "Figura: Blueprint Get utiliando uma variável como índice.")
+
+> Figura: Blueprint Get utilizando uma variável como índice.
+
+No exemplo acima definimos o valor de Índice igual a 1 para acessar o elemento de mesma posição.
+
+**C++.**  
+
+```cpp
+int32 indice = 4;
+FString s = pessoa[indice];
+UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
+```
+
+<a name="6.14.3"></a>
+### 6.14.3 Último índice e a quantidade de elementos do array
+Podemos determinar a quantidade de elementos ou valor do último índice do *array* utilizando os nós abaixo.    
+
+**Blueprint.**
+
+![Figura: Blueprint Last Index.](imagens/array/blueprint_array_last_index.webp "Figura: Blueprint Last Index.")
+
+> Figura: Blueprint Last Index.
+
+- `Last Index` - Retorna o valor do último índice e o comando;
+
+- `Length` - Retorna a quantidade de elementos do *array*.
+
+**C++.**
+
+```cpp
+FString Nome  = StrArr.Last();
+UE_LOG(LogTemp,Warning,TEXT("O último nome é %s",nome));
+
+int32 Tamanho = StrArr.Num();
+UE_LOG(LogTemp,Warning,TEXT("O tamanho do array é %d",Tamanho));
+
+```
+
+
+**[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
+
+<a name="6.15"></a>
+## 6.15 Percorrendo arrays
+Percorrer **array** implica em ler todos ou alguns elementos da estrutura, para tal usamos vários nós ou funções que permitem dependendo da necessidade facilitar a lógica.
+
+<a name="6.15.1"></a>
+### 6.15.1 Listando todos os elementos utilizando For
+Na lógica abaixo percorremos todo *array* e listamos cada elemento.   
+
+**Bluprint.**
+
+![Figura: Blueprint  Array com loop.](imagens/array/blueprint_array_with_forloop.webp "Figura: Blueprint  Array com loop.")
+
+> Figura: Blueprint  Array com loop.
+
+**C++.**
+
+Podemos iterar utilizando a sintaxe padrão do C++.
+
+```cpp
+FString StrResultado;
+for (auto& StrItem : Nomes)
+{
+    StrResultado += StrItem;
+    StrResultado += TEXT(" ");
+}
+// StrResultado == "Nome1 Nome2"
+```
+
+Ou utilizar uma variável como índice.
+
+```cpp
+for (int32 Index = 0; Index != Nomes.Num(); ++Index)
+{
+    StrResultado += Nomes[Index];
+    StrResultado += TEXT(" ");
+}
+```
+
+Finalmente, array tem seu próprio tipo de elemento para iterar. Existem duas funções chamadas `CreateIterator` e `CreateConstIterator`, que podem ser usados para acesso de leitura e gravação ou somente leitura aos elementos, respectivamente:
+
+```cpp
+for (auto It = StrArr.CreateConstIterator(); It; ++It)
+{
+    StrResultado += *It;
+    StrResultado += TEXT(" ");
+}
+```
+
+- `For Each Loop` - Para cada elemento do *array* é processada uma interação.
+- `For Loop` - Para cada elemento do *array*, dentro dos parâmetros `First Index` e `Last Index` é processada uma interação.
+
+<a name="6.15.2"></a>
+### 6.15.2 Usando o comando Find
+`Find` procura um elemento dentro do *array* e se encontra retorna o valor do índice do elemento, caso não encontre retorna -1.   
+
+**Blueprint.**      
+
+![Figura: Blueprint Find e Array.](imagens/array/blueprint_array_search_string.webp "Figura: Blueprint Find e Array.")
+
+> Figura: Blueprint Find e Array.    
+
+**C++.**
+
+```cpp
+int32 Index;
+if (StrArr.Find(TEXT("Hello"), Index))
+{
+    // Index == 3
+}
+```
+
+<a name="6.15.3"></a>
+### 6.15.3 Contando elementos dentro de um array
+O exemplo abaixo conta todos os elementos do *array* `Nomes` que são iguais a variável `NomeBusca`.
+
+**Bluprint.**
+
+![Figura: Blueprint for para escrever o total de ocorrências.](imagens/array/blueprint_array_write_total_occurrence.webp "Figura: Blueprint for para escrever o total de ocorrências.")
+
+> Figura: Blueprint for para escrever o total de ocorrências.
+
+**C++.**
+
+```cpp
+FString NomeBusca = TEXT("Nome 3");
+int32 iTotal = 0;
+
+for (int32 Index = 0; Index != Nomes.Num(); ++Index)
+{
+    StrResultado += Nomes[Index];
+    if StrResultado.Equals(NomeBusca)
+      iTotal++;
+}
+UE_LOG(LogTemp, Warning, TEXT("O Total é %d"),iTotal);
+```
+
+<a name="6.15.5"></a>
+### 6.15.5 Percorrendo e atualizando dados
+O exemplo abaixo vamos percorrer o *array* utilizando uma instrução `for` e atualizar outro *array*.
+
+**Blueprint.**
+
+![Figura: Blueprint preenchendo o array com strings.](imagens/array/blueprint_array_fill_string.webp "Figura: Blueprint preenchendo o array com strings")
+
+> Figura: Blueprint preenchendo o array com strings.
+
+**C++.**
+
+```cpp
+TArray<FString> StrArrayResultado;
+
+FString StrResultado;
+
+
+for (int32 Index = 0; Index != Nomes.Num(); ++Index)
+{
+    StrResultado += Nomes[Index];
+    if StrResultado.Equals(TEXT("Ana"))
+      StrArrayResultado.Add(StrResultado);
+}
+UE_LOG(LogTemp, Warning, TEXT("O Total é %d"),iTotal);
+
+```
+
+<a name="6.16"></a>
+## 6.16 Removendo elementos do array
+É possível remover elementos de dentro de um *array*, após a remoção a quantidade e índice final da estrutura vai ser atualizada, a seguir vamos apresentar algumas funções.    
+
+<a name="6.16.1"></a>
+### 6.16.1 Removendo utilizando Remove
+A função `Remove` exclui um elemento do *array*, o valor a ser removido tem que ser informado como parâmetro.    
+
+**Blueprint.**
+
+![Figura: Blueprint Remove Array.](imagens/array/blueprint_array_remove.webp "Figura: Blueprint Remove Array.")
+
+> Figura: Blueprint Remove Array.
+
+**C++.**
+```cpp
+
+TArray<FString> Nomes;
+...
+Nomes.Remove(TEXT("Ana"));
+```
+
+<a name="6.16.2"></a>
+### 6.16.2 Removendo passando uma variável como parâmetro
+O comando `Remove`executa uma busca utilizando um parâmetro, **NomeBusca** no exemplo abaixo, e o remove do *array*.    
+
+**Bluprint.**
+
+![Figura: Blueprint Remove array com index.](imagens/array/blueprint_array_remove_index.webp "Figura: Blueprint Remove array com index.")
+
+> Figura: Blueprint Remove array com index.
+
+**C++.**
+```cpp
+FString StrNomeBusca = TEXT("Ana");
+
+TArray<FString> Nomes;
+...
+Nomes.Remove(StrNomeBusca);
+```
+
+<a name="6.16.3"></a>
+### 6.16.3 Removendo utilizando nó Remove Index
+`Remove Index` exclui um elemento do *array* utilizando o índice do *array*.      
+
+**Blueprint.**
+
+![Figura: Blueprint Find e remove.](imagens/array/blueprint_array_find.webp "Figura: Blueprint Find e remove.")
+
+> Figura: Blueprint Find e remove.
+
+**C++.**
+
+```cpp
+int32 Index;
+if (Nomes.Find(TEXT("Hello"), Index))
+{
+    Nomes.RemoveAt(Index);
+}
+
+```
+
+<a name="6.16.4"></a>
+### 6.16.4 Limpando o array com Clear
+`Clear` remove todos os elementos do *array*.
+
+**Blueprint.**
+
+![Figura: Blueprint Clear Array.](imagens/array/blueprint_array_clear.webp "Figura: Blueprint Clear Array.")
+
+> Figura: Blueprint Clear Array.
+
+**C++.**
+
+```cpp
+
+Nomes.Empty();
+
+```
+
+**[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
+
+<a name="6.17"></a>
+## 6.17 O que são Enums?
+Uma enumeração é um tipo definido pelo usuário que consiste em um conjunto de constantes integrais nomeadas que são conhecidas como enumeradores.
+
+Exemplo:
+
+```cpp
+enum cores = { vermelho,amarelo, azul, verde = 20, preto}
+```
+
+<a name="6.18"></a>
+## 6.18 Criando Enums no Unreal Engine
+
+**Blueprint.**
+
+Execute o comando no menu de contexto `Blueprints` > `Enumeration` e logo depois preencha os valores conforme a tela abaixo.  
+
+![Figura: Blueprint e Enum.](imagens/enum/blueprint_enum_declare.webp "[Figura: Blueprint e Enum.")
+
+> Figura: Blueprint e Enum.
+
+Objeto criado `EN_Estado` e `EN_Pedra`.  
+
+![Figura: Blueprint Enum no Context Browser.](imagens/enum/blueprint_enum.webp "Figura: Blueprint Enum no Context Browser.")
+
+> Figura: Blueprint Enum no Context Browser.
+
+**C++.**
+
+Arquivo header.
+
+`Visual Studio` > `Arquivo` > `Novo` > `Arquivo` > Escolha Visual C++, Arquivo de Cabeçalho (.h)
+
+```cpp
+// EnumName.h
+UENUM(BlueprintType)
+namespace EStatusEnum {
+// Definimos namespace para que não existam conflitos no acesso aos elementos.
+	enum Status
+	{
+		Ligada     UMETA(DisplayName = "Ligada"),
+		Desligada      UMETA(DisplayName = "Desligada"),
+	};
+
+}
+```
+
+Arquivo de implementação.
+
+```cpp
+// Hero.cpp
+UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
+  TEnumAsByte < EStatusEnum::Status > status;
+```
+
+
+<a name="6.19"></a>
+## 6.19 Exemplos de uso - A lâmpada
+Vamos verificar e alterar o estado de uma lâmpada utilizando uma variável do tipo `boolean`.  
+
+**Blueprint.**
+
+![Figura: Blueprint Verificando o estado de uma lâmpada.](imagens/enum/blueprint_enum_example_lamp_state.webp "Figura: Blueprint Verificando o estado de uma lâmpada.")
+
+> Figura: Blueprint Verificando o estado de uma lâmpada.
+
+**C++.**
+
+```cpp
+void AFirstPersonBaseCodeCharacter::SetupPlayerInputComponent(class UInputComponent* InputComponent)
+  {
+          // set up gameplay key bindings
+          check(InputComponent);
+          ...
+          InputComponent->BindAxis("AnyKey", this, &AFirstPersonBaseCodeCharacter::AnyKey);
+          ...
+  }   
+void AFirstPersonBaseCodeCharacter::AnyKey(float Value)
+  {
+    if bLigado
+    {
+      UE_LOG(LogTemp, Warning, TEXT("Lâmpada ligada."));  
+    }    
+    else
+      UE_LOG(LogTemp, Warning, TEXT("Lâmpada desligada."));
+  }    
+```
+
+Alterando o componente `PointLight` para ligar e desligar a iluminação.    
+
+**Blueprint.**
+
+![Figura: Blueprint Ligando e desligando o PointLight.](imagens/enum/blueprint_enum_example_lamp_offon.wbp "Figura: Blueprint Ligando e desligando o PointLight.")
+
+> Figura: Blueprint Ligando e desligando o PointLight.   
+
+**C++.**
+
+Arquivo Header.
+
+```cpp
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "ControlLight.generated.h"
+
+UCLASS()
+class CPP5_API AControlLight : public AActor
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY()
+		USceneComponent* Root;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Parameters")
+		bool bLigado;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Parameters")
+		float fIntensidade;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Parameters")
+		class UPointLightComponent* PointLight;
+
+	UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))
+		FVector TargetLocation;
+
+	AControlLight();
+
+protected:
+
+	virtual void BeginPlay() override;
+
+	void AnyKey();
+
+public:
+	virtual void Tick(float DeltaTime) override;
+	void InitControl();
+
+	class APlayerController* PlayerControllControlLight;
+
+};
+```
+
+Arquivo de implementação.
+
+```cpp
+#include "ControlLight.h"
+#include "Components/PointLightComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "Components/InputComponent.h"
+
+// Sets default values
+AControlLight::AControlLight()
+{
+	PrimaryActorTick.bCanEverTick = true;
+	Root = CreateDefaultSubobject<USceneComponent>("Root");
+	RootComponent = Root;
+	PointLight = CreateDefaultSubobject<UPointLightComponent>(TEXT("Ponto de Luz"));
+	PointLight->SetRelativeTransform(FTransform(FRotator(0, 0, 0), FVector(250, 0, 0),FVector(0.1f)));
+	fIntensidade = 10000;
+	bLigado = true;
+}
+
+void AControlLight::InitControl()
+{
+	FVector GlobalLocation = GetTransform().TransformPosition(TargetLocation);
+	PointLight->SetWorldLocation(GlobalLocation);
+	PointLight->SetIntensity(fIntensidade);
+}
+
+// Called when the game starts or when spawned
+void AControlLight::BeginPlay()
+{
+	Super::BeginPlay();
+	PlayerControllControlLight = UGameplayStatics::GetPlayerController(this, 0);
+	EnableInput(PlayerControllControlLight);
+	AControlLight::InitControl();
+}
+
+// Called every frame
+void AControlLight::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	if (PlayerControllControlLight != NULL)
+	{
+		if (PlayerControllControlLight->WasInputKeyJustPressed(EKeys::T))
+		{
+			AnyKey();
+		}
+	}
+}
+
+void AControlLight::AnyKey()
+{
+	if (bLigado)
+	{
+		fIntensidade = 0;
+		bLigado = false;
+
+	}
+	else
+	{
+		fIntensidade = 10000;
+		bLigado = true;
+	}
+	PointLight->SetIntensity(fIntensidade);
+}
+
+```
+
+Verificando o estado utilizando o `Enum`.   
+
+**Blueprint.**
+
+![Figura: Blueprint Lendo Enum.](imagens/enum/blueprint_enum_example_lamp_read_state.webp "Figura: Blueprint Lendo Enum.")
+
+> Figura: Blueprint Lendo Enum.  
+
+**C++.**
+```cpp
+// Definindo um status no enum.
+status = EStatusEnum::Ligada;
+
+UE_LOG(LogTemp, Warning,TEXT("O enum é = %s"), *UEnum::GetValueAsString(status));
+```
+
+Ligando e desligando utilizando o `Enum`.   
+
+**Blueprint.**
+
+![Figura: Blueprint Ligando e desligando usando Enum.](imagens/enum/blueprint_enum_example_lamp_off.webp "Figura: Blueprint Ligando e desligando usando Enum.")
+
+> Figura: Blueprint Ligando e desligando usando Enum.
+
+**C++.**
+```cpp
+...
+if (status = EStatusEnum::Ligada) {
+  fIntensidade = 0;
+  bLigado = false;
+  status = EStatusEnum::Desligada;
+}
+else {
+  fIntensidade = 10000;
+  bLigado = true;
+  status = EStatusEnum::Ligada;
+}
+```
+
+
+<a name="6.20"></a>
+## 6.19 Exemplos de uso - A pedra das emoções
+Vamos verificar e alterar o estado de emocional de uma pedra.
+
+1. Alterando o estado emocional da pedra.    
+  ![Figura: Blueprint alterando Enum.](imagens/enum/blueprint_enum_example_rock.webp "Figura: Blueprint alterando Enum.")
+
+  > Figura: Blueprint alterando Enum.
+
+2. Apresentando o estado emocional da pedra.   
+  ![Figura: Blueprint escrevendo o conteúdo do Enum.](imagens/enum/blueprint_enum_example_rock_state.webp "Figura: Blueprint escrevendo o conteúdo do Enum.")
+
+  >Figura: Blueprint escrevendo o conteúdo do Enum.
+
+3. Alterando as cores da pedra conforme a emoção.  
+  ![Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro.](imagens/enum/blueprint_enum_example_rock_set_material.webp "Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro.")
+  
+  > Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro.
