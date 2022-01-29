@@ -22,6 +22,8 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 3. [Homo Ludens](#1.2)    
 4. [A Tensão como um elemento do jogo](#1.3)        
 
+***
+
 **[Capítulo II - Qual a função do jogo?](#2 "Qual a função do jogo?")**
 
 1. [O papel do jogo na sociedade?](#2.1)    

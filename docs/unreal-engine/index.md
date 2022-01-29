@@ -1076,7 +1076,7 @@ StarterContent/
 **[⬆ Volta para o CAPÍTULO 3](#capitulo3)**
 
 
-<a name="capitulo4"></a>
+<a name="4"></a>
 ## CAPÍTULO 4 - O Unreal Engine e sua lógica de programação
 
 Neste capítulo será apresentado o modelo da lógica de programação utilizando **Blueprint** e os seus elementos.
@@ -1124,7 +1124,7 @@ Para que o **Unreal Engine** possa construir os nós gráficos que representam a
 
 **Nativização.**
 
-"A nativização é uma funcionalidade relativamente nova no Unreal Engine, que permite aos desenvolvedores converter suas classes criadas em Blueprint para código nativo C++ no momento em que é construído o pacote final do jogo. Isso faz com que seja possível aliar a facilidade de prototipação dos Blueprints ao desempenho do C++, acelerando o processo de desenvolvimento e também reduzindo a possibilidade de erros na programação, levando em consideração que ao desenvolver em Blueprint todas as entradas e saídas de dados, assim como o fluxo das operações são verificados pela máquina virtual enquanto os testes estão sendo realizados, isso permite garantir que tudo funcione conforme o esperado, ou na pior das hipóteses, alerte ao desenvolvedor caso algo não saia como o esperado, por meio de mensagens intuitivas e claras."
+"A nativização é uma funcionalidade relativamente nova no **Unreal Engine**, que permite aos desenvolvedores converter suas classes criadas em **Blueprint** para código nativo **C++** no momento em que é construído o pacote final do jogo. Isso faz com que seja possível aliar a facilidade de prototipação dos **Blueprints** ao desempenho do **C++**, acelerando o processo de desenvolvimento e também reduzindo a possibilidade de erros na programação, levando em consideração que ao desenvolver em **Blueprint** todas as entradas e saídas de dados, assim como o fluxo das operações são verificados pela máquina virtual enquanto os testes estão sendo realizados, isso permite garantir que tudo funcione conforme o esperado, ou na pior das hipóteses, alerte ao desenvolvedor caso algo não saia como o esperado, por meio de mensagens intuitivas e claras."
 
 **[⬆ Volta para o CAPÍTULO 4](#capitulo4)**
 
@@ -1359,13 +1359,11 @@ Detalhes do comentário.
 ## CAPÍTULO 5 - Programação C++ no Unreal Engine
 
 
-Neste capítulo será apresentado o modelo da lógica de programação utilizando **C++** com Unreal Engine.
+Neste capítulo será apresentado o modelo da lógica de programação utilizando **C++** com **Unreal Engine**.
 
 O **C++** por ter como base de desenvolvimento o C tem o benefício da rapidez e da portabilidade para diversas plataformas e ainda permite a implementação de classes, tornando a linguagem em uma boa candidata para o desenvolvimento de projetos com necessidade de velocidade acessando recursos de baixo nível e construção de classes.
 
 O **Unreal Egine** utiliza a linguagem **C++** aproveitando todas as funcionalidades que a linguagem fornece, como por exemplo o gerenciamento otimizado de memória, quanto a implementação a Engine fornece muitos elementos para auxiliar a codificação tornando-a mais fácil, entre eles a utilização de macros e objetos primitivos próprios da Engine.
-
-**[⬆ Volta para o CAPÍTULO 5](#capitulo5)**
 
 <a name="5.1"></a>
 ## 5.1 Mas quanto usar a linguagem  C++?
@@ -1402,7 +1400,7 @@ Um modelo de desenvolvimento utilizando **C++** pode ser visto abaixo onde prime
 
 Exemplo:
 
-1. Vamos Criar uma Blueprint *BP_Plataforma* do tipo `static_mesh_actor`;
+1. Vamos Criar uma **Blueprint** *BP_Plataforma* do tipo `static_mesh_actor`;
 1. Depois Criar a classe **C++** `Plataforma` do tipo `AStaticMeshActor`;
 1. Alterar classe pai do *BP_Plataforma* para *Plataforma*.
 
@@ -1467,7 +1465,7 @@ A seguir vamos apresentar os tipos de variáveis em ambas as linguagens mas no p
 
 <a name="5.4"></a>
 ## 5.4 Construindo classes C++ no Unreal Engine
-A seguir vamos implementar uma classe **C++** no Unreal Engine para tal utilizamos o `Menu Tools` > `New C++ Class`
+A seguir vamos implementar uma classe **C++** no **Unreal Engine** para tal utilizamos o `Menu Tools` > `New C++ Class`
 
 ![Figura: Create Class C++](imagens/cpp/unreal_engine_create_class_cpp.webp "Figura: Create Class C++")
 
@@ -1637,7 +1635,7 @@ Os parâmetros descritos no exemplo são os [especificadores](https://docs.unrea
 <a name="5.5.4"></a>
 ### 5.5.4 UFUNCTION
 
-Um **UFunction** é uma função **C ++** que é reconhecida pelo sistema de reflexão Unreal Engine 4 (UE4). Qualquer **UObject** ou biblioteca de função Blueprint pode declarar uma função de membro como um **UFunction**, colocando a macro UFUNCTION na linha acima da declaração da função no arquivo de cabeçalho. A macro oferecerá suporte a Especificadores de Função para alterar como o UE4 interpreta e usa uma função.
+Um **UFunction** é uma função **C ++** que é reconhecida pelo sistema de reflexão **Unreal Engine 4** (UE4). Qualquer **UObject** ou biblioteca de função **Blueprint** pode declarar uma função de membro como um **UFunction**, colocando a macro UFUNCTION na linha acima da declaração da função no arquivo de cabeçalho. A macro oferecerá suporte a Especificadores de Função para alterar como o UE4 interpreta e usa uma função.
 
 Ao declarar funções, os especificadores de função podem ser adicionados à declaração para controlar como a função se comporta com vários aspectos do mecanismo e do editor.
 
@@ -1646,8 +1644,8 @@ Exemplo:
 UFUNCTION(BlueprintCallable, Category = "Plataforma")
 void AddActiveTrigger();
 ```
-- `BlueprintAuthorityOnly` - Esta função só será executada a partir do código Blueprint se for executada em uma máquina com autoridade de rede (um servidor, servidor dedicado ou jogo para um único jogador).
-- `BlueprintCallable` - A função pode ser executada em um gráfico Blueprint ou Level Blueprint.
+- `BlueprintAuthorityOnly` - Esta função só será executada a partir do código **Blueprint** se for executada em uma máquina com autoridade de rede (um servidor, servidor dedicado ou jogo para um único jogador).
+- `BlueprintCallable` - A função pode ser executada em um gráfico **Blueprint** ou Level Blueprint.
 
 <a name="5.5.5"></a>
 ### 5.5.5 UPROPERTY
@@ -1740,7 +1738,7 @@ float fValor = 6.5;
 
 <a name="6.2"></a>
 ## 6.2 Variáveis no Unreal Engine
-Variáveis no Unreal Engine são propriedades que contêm um valor ou fazem referência a um objeto ou ator no mundo. Essas propriedades podem ser acessíveis internamente ao **Blueprint** que as contém, ou podem ser tornadas acessíveis externamente para que seus valores possam ser modificados por designers que trabalham com instâncias do **Blueprint** colocadas em um nível.
+Variáveis no **Unreal Engine** são propriedades que contêm um valor ou fazem referência a um objeto ou ator no mundo. Essas propriedades podem ser acessíveis internamente ao **Blueprint** que as contém, ou podem ser tornadas acessíveis externamente para que seus valores possam ser modificados por designers que trabalham com instâncias do **Blueprint** colocadas em um nível.
 
 <a name="6.2.1"></a>
 ### 6.2.1 Tipos de Variáveis
@@ -2197,7 +2195,7 @@ UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
 
 <a name="6.10.2"></a>
 ### 6.10.2 While Loop
-Uma condição de teste e um corpo são tudo o que constitui um *loop While*. Antes de executar a (s) instrução (ões) em seu corpo, o Blueprint avalia a condição de teste `While Loops` para determinar se ela é verdadeira.
+Uma condição de teste e um corpo são tudo o que constitui um *loop While*. Antes de executar a (s) instrução (ões) em seu corpo, o **Blueprint** avalia a condição de teste `While Loops` para determinar se ela é verdadeira.
 
 **Blueprint.**
 
@@ -2308,7 +2306,7 @@ Para declarar variáveis do tipo *array* devemos primeiro escolher um tipo de va
 
 - `Default Value` - Contem a lista de valores contidos inicialmente no `array`.
 
-Em Blueprint a variável é representada por um ícone 3x3.
+Em **Blueprint** a variável é representada por um ícone 3x3.
 
 ![Figura: Blueprint Arrays.](https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/Blueprints/UserGuide/Arrays/array_selected.webp "Figura: Blueprint Arrays.")
 
