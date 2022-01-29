@@ -69,23 +69,19 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.3.5 Compilando o projeto usando o Windows Explorer](#2.3.5)
 
-&nbsp;&nbsp;[**2.4 Atividade - Instale o Unreal Engine com Visual Studio**](#2.4)
+&nbsp;&nbsp;[**2.4 Organizando pastas e logo do projeto**](#2.4)
 
-&nbsp;&nbsp;[**2.5 Organizando pastas e logo do projeto**](#2.5)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.1 Como criar pastas de trabalho?](#2.4.1)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.1 Como criar pastas de trabalho?](#2.5.1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.2 Defina e utilize uma Nomenclatura e organização de pastas](#2.4.2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.2 Defina e utilize uma Nomenclatura e organização de pastas](#2.5.2)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.3 Os benefícios da organização de pastas](#2.4.3)    
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.3 Os benefícios da organização de pastas](#2.5.3)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.4 Configurando o projeto](#2.4.4)    
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.4 Configurando o projeto](#2.5.4)    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.5 Adicionando um Level na inicialização do projeto](#2.4.5)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.5 Adicionando um Level na inicialização do projeto](#2.5.5)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.6 Configurando as imagens do projeto](#2.5.6)
-
-&nbsp;&nbsp;[**2.6. Atividade - Configure as pastas de seu projeto**](#2.6)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.5.6 Configurando as imagens do projeto](#2.4.6)
 
 ***
 
@@ -117,8 +113,6 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 &nbsp;&nbsp;[3.5 Utilizando comandos do PowerShell para utilizar o Git Client](#3.5)  
 
 &nbsp;&nbsp;[3.6 Ignorando pastas e arquivos](#3.6)
-
-&nbsp;&nbsp;[**3.7 Atividade - Crie um projeto no Unreal Engine e o configure para utilizar o Git**](#3.7)
 
 ***
 
@@ -164,8 +158,6 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.7.5 Tick](#4.7.5)      
 
 &nbsp;&nbsp;[4.8 Comentários](#4.8)
-
-&nbsp;&nbsp;[**4.9 Atividades - Crie um level para apresentar uma mensagem na tela**](#4.9)
 
 ***
 
@@ -234,69 +226,67 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.7.2 Variáveis Públicas](#6.7.2)  
 
-&nbsp;&nbsp;[**6.8 Atividade - Crie um projeto que implemente vários tipos de variáveis**](#6.8)  
+&nbsp;&nbsp;[6.8 O que são estruturas de controle ou fluxo?](#6.8)
 
-&nbsp;&nbsp;[6.9 O que são estruturas de controle ou fluxo?](#6.9)
+&nbsp;&nbsp;[**6.9 Estruturas de fluxo condicional**](#6.9)
 
-&nbsp;&nbsp;[**6.10 Estruturas de fluxo condicional**](#6.10)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.9.1 Controle de fluxo com Branch (if)](#6.9.1)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.10.1 Controle de fluxo com Branch (if)](#6.10.1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.9.2 Sequenciamento de fluxo com Sequence](#6.9.2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.10.2 Sequenciamento de fluxo com Sequence](#6.10.2)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.9.3 Flip Flop](#6.9.3)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.10.3 Flip Flop](#6.10.3)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.9.4 Gate e Multi Gate](#6.9.4)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.10.4 Gate e Multi Gate](#6.10.4)
+&nbsp;&nbsp;[**6.10 Estruturas de repetição**](#6.10)
 
-&nbsp;&nbsp;[**6.11 Estruturas de repetição**](#6.11)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.10.1 For Loop](#6.10.1)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.11.1 For Loop](#6.11.1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.10.2 While Loop](#6.10.2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.11.2 While Loop](#6.11.2)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.10.3 Do N](#6.10.3)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.11.3 Do N](#6.11.3)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.10.4 Do once](#6.10.4)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.11.4 Do once](#6.11.4)
 
-&nbsp;&nbsp;[**6.12 Atividades - Implemente um projeto que crie vários atores na cena e os posicione em áreas diferentes da cena**](#6.12)
 
-&nbsp;&nbsp;[6.13 O que são variáveis do tipo array?](#6.13)
+&nbsp;&nbsp;[6.12 O que são variáveis do tipo array?](#6.12)
 
-&nbsp;&nbsp;[6.14 Declarando arrays e acessando os seus elementos](#6.14)
+&nbsp;&nbsp;[6.13 Declarando arrays e acessando os seus elementos](#6.13)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.14.1 Método Get para arrays](#6.14.1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.13.1 Método Get para arrays](#6.13.1)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.14.2 Get utilizando uma variável como índice](#6.14.2)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.13.2 Get utilizando uma variável como índice](#6.13.2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.14.3 Último índice e a quantidade de elementos do array](#2.3)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.13.3 Último índice e a quantidade de elementos do array](#2.3)
 
-&nbsp;&nbsp;[6.15 Percorrendo arrays](#6.15)
+&nbsp;&nbsp;[6.14 Percorrendo arrays](#6.14)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.15.1 Listando todos os elementos utilizando For](#6.15.1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.14.1 Listando todos os elementos utilizando For](#6.14.1)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.15.2 Usando o comando Find](#6.15.2)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.14.2 Usando o comando Find](#6.14.2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.15.3 Contando elementos dentro de um array](#6.15.2)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.14.3 Contando elementos dentro de um array](#6.14.2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.15.4 Percorrendo e atualizando dados](#6.15.4)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.14.4 Percorrendo e atualizando dados](#6.14.4)
 
-&nbsp;&nbsp;[6.16 Removendo elementos do array](#6.16)    
+&nbsp;&nbsp;[6.15 Removendo elementos do array](#6.15)    
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.16.1 Removendo elementos utilizando Remove](#6.16.1)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.15.1 Removendo elementos utilizando Remove](#6.15.1)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.16.2 Removendo passando uma variável como parâmetro](#6.16.2)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.15.2 Removendo passando uma variável como parâmetro](#6.15.2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.16.3 Removendo utilizando nó Remove Index](#6.16.3)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.15.3 Removendo utilizando nó Remove Index](#6.15.3)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.16.4 Limpando o array com Clear](#6.16.4)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.15.4 Limpando o array com Clear](#6.15.4)
 
-&nbsp;&nbsp;[6.17 O que são Enums?](#6.17)
+&nbsp;&nbsp;[6.16 O que são Enums?](#6.16)
 
-&nbsp;&nbsp;[6.18 Criando Enums no Unreal Engine](#6.18)
+&nbsp;&nbsp;[6.17 Criando Enums no Unreal Engine](#6.17)
 
-&nbsp;&nbsp;[6.19 Exemplos de uso - A lâmpada](#6.19)
+&nbsp;&nbsp;[6.18 Exemplos de uso - A lâmpada](#6.18)
 
-&nbsp;&nbsp;[6.20 Exemplos de uso - A pedra das emoções](#6.20)
+&nbsp;&nbsp;[6.19 Exemplos de uso - A pedra das emoções](#6.19)
 
 
 ***
@@ -393,6 +383,11 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 <a name="capitulo13"></a>
 [**CAPÍTULO 13 - Efeitos especiais**](#13)
+
+***
+
+<a name="atividades"></a>
+[**Atividades e Referências**](unreal_engine_atividades_referencias.html)
 
 ***
 
@@ -557,7 +552,7 @@ A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o 
 <!--![Figura: Unreal 5 - Select or create New Project, Games.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_select_new_project.webp "Figura: Unreal 5 - Select or create New Project, Games")-->
 
 <figure>
-  <img src="https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_select_new_project.webp" 
+  <img src="https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_select_new_project.webp"
   alt="Figura: Unreal 5 - Select or create New Project, Games" title="Figura: Unreal 5 - Select or create New Project, Games">
   <figcaption>Figura: Unreal 5 - Select or create New Project, Games</figcaption>
 </figure>
@@ -656,35 +651,24 @@ Para recompilar o projeto e recriar os arquivos podemos utilizar o `explorer` do
 
 1. Aguarde o termino da operação e abra o projeto.
 
+
 **[⬆ Volta para o CAPÍTULO 2](#capitulo2)**
 
 <a name="2.4"></a>
-## 2.4 Atividade - Instale o Unreal Engine com Visual Studio.
-**Regras.**
-
-1. Instale todo o ambiente e crie um projeto de nome MeuPrimeiroProjeto.
-
-**Desafio.**
-
-1. Configure o Visual Studio para ser o editor padrão.
-
-**[⬆ Volta para o CAPÍTULO 2](#capitulo2)**
-
-<a name="2.5"></a>
-## 2.5 Organizando pastas e logo do projeto
+## 2.4 Organizando pastas e logo do projeto
 A seguir vamos organizar as pastas do projeto *ProjetoAula*, construído no **Unreal Engine**, e vamos configurá-lo.
 
 
-<a name="2.5.1"></a>
-### 2.5.1 Como criar pastas de trabalho?
+<a name="2.4.1"></a>
+### 2.4.1 Como criar pastas de trabalho?
 No **Unreal Egnine** em `Content Drawer` utilizando botão direito do mouse clique em `New Folder` para criar pastas.
 
 ![Figura: Content Drawer](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_content_drawer.webp "Figura: Content Drawer")			
 
 > *Figura: Content Drawer.*
 
-<a name="2.5.2"></a>
-### 2.5.2 Defina e utilize uma Nomenclatura e organização de pastas
+<a name="2.4.2"></a>
+### 2.4.2 Defina e utilize uma Nomenclatura e organização de pastas
 A organização de arquivos e pastas dentro dos projetos de desenvolvimento de softwares é bastante relevante para reduzir o tempo de programação e custo.
 
 Em projetos de desenvolvimento de jogos, no **Unreal Engine**, temos diversos tipos de arquivos com caraterísticas distintas que influenciam na sua forma de armazenamento, como por exemplo:
@@ -754,8 +738,8 @@ Por conseguinte para um maior gerenciamento pelas equipes do projeto  podemos de
 			|	|-- Level2
 ```
 
-<a name="2.5.3"></a>
-### 2.5.3 Os benefícios na organização das pastas
+<a name="2.4.3"></a>
+### 2.4.3 Os benefícios na organização das pastas
 Separar a pasta do projeto `Content` de outras pastas pode facilitar e trazer vários benefícios durante o desenvolvimento do projeto, abaixo elencamos alguns:
 1. Versionamento - pastas com diferentes versões;
 1. Isolar pacotes de testes e *Marketplace*;
@@ -776,14 +760,14 @@ Separar a pasta do projeto `Content` de outras pastas pode facilitar e trazer v�
 
 **[⬆ Volta para o CAPÍTULO 2](#capitulo2)**
 
-<a name="2.5.4"></a>
-### 2.5.4 Configurando o projeto
+<a name="2.4.4"></a>
+### 2.4.4 Configurando o projeto
 Preparar o projeto antes de começar o desenvolvimento é importante para que possamos otimizar algumas tarefas e preparar o jogo com a configuração inicial, neste passo vamos configurar alguns parâmetros do projeto.
 
 Nos próximos capítulos vamos utilizar outras opções do menu de configuração como por exemplo o [mapeamento de *Input* (teclas ou controles)](http://cafegeek.eti.br/unreal-engine/trabalhando_com_logica_movimentacao_de_personagem.html#13).
 
 <a name="2.5.5"></a>
-### 2.5.5 Adicionando um *Level* na inicialização do projeto
+### 2.4.5 Adicionando um *Level* na inicialização do projeto
 Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguintes passos:  
 
 1. Salve o *level* atual na pasta `Maps` :       
@@ -798,8 +782,8 @@ Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguinte
 - `Edit Startup Level` - Seleciona o *Level* que deverá ser carregado no início do jogo, neste caso é `LevelTest`;
 - `Game default Map` - Seleciona o *Level* que é mais usado.
 
-<a name="2.5.6"></a>
-### 2.5.6 Configurando as imagens  do projeto
+<a name="2.4.6"></a>
+### 2.4.6 Configurando as imagens  do projeto
 Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu :
 
 `Project Settings` opção `Plataforms` > `Windows` e altere a imagens.
@@ -815,20 +799,6 @@ alt="Figura: Project icon." title="Figura: Project icon.">
 > *Figura: Project icon.*
 
 Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas pode ser convertido usando ferramentas online, por exemplo) e 256x256.
-
-**[⬆ Volta para o CAPÍTULO 2](#capitulo2)**
-
-
-<a name="2.6"></a>
-## 2.6 Atividade - Configure as pastas de seu projeto.
-
-**Regras.**
-
-1. Configure as pastas de seu projeto escolhendo uma das sugestões e justifique a sua escolha.
-
-**Desafio.**
-
-1. Adicione o pacote *StarterContent*.
 
 **[⬆ Volta para o CAPÍTULO 2](#capitulo2)**
 
@@ -1102,18 +1072,6 @@ StarterContent/
 *.o
 *.obj
 ```
-
-<a name="3.7"></a>
-## 3.7 Atividade - Crie um projeto no Unreal Engine e o configure para utilizar o Git.
-**Regras.**
-
-1. Instale todo o ambiente e crie um projeto com  a  última versão do Unreal Engine.
-1. Configure o GitHub Desktop e publique o projeto criado.
-1. Implemente pastas e adicione três atores para testar a publicação.
-
-**Desafio.**
-
-1. Crie um branch para Testes e adicione alterações.
 
 **[⬆ Volta para o CAPÍTULO 3](#capitulo3)**
 
@@ -1393,16 +1351,7 @@ Detalhes do comentário.
 > Figura: Comment Details.
 
 
-<a name="4.9"></a>
-## 4.9 Atividades - Crie um level para apresentar uma mensagem na tela.
 
-**Regras.**
-
-1. Utilize variáveis para parametrizar a mensagem.
-
-**Desafio.**
-
-1. Adicione vários objetos de diferentes tipos.
 
 **[⬆ Volta para o CAPÍTULO 4](#capitulo4)**
 
@@ -2108,32 +2057,11 @@ public:
 
 ```
 
-<a name="6.8"></a>
-## 6.8 Atividade - Crie um projeto que implemente as variáveis dos tipos de variáveis.
-
-**Regras.**
-1. Implemente variáveis para armazenar o Nome do personagem, a vida do personagem e força do personagem;
-1. Aumente a vida e a força do personagem;
-2. Altere o nome do personagem e escreva na cena.
-
-**Desafio.**
-
-1. Implemente uma lógica para calcular o maior valor entre três números.
-
-  Exemplo:
-```bash
-x = 3;
-y = 5;
-z = 2;
-O maior valor é Y = 5;
-```
-
-
 **[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
 
 
-<a name="6.9"></a>
-## 6.9 O que são estruturas de controle ou fluxo?
+<a name="6.8"></a>
+## 6.8 O que são estruturas de controle ou fluxo?
 Em linguagens de programação existem métodos de tomada de decisão para tarefas corriqueiras que os programas podem executar, por exemplo a escolha de qual caminho ou instrução executar. Em **Bluprints** utilizamos nós específicos para controle de fluxo como por exemplo o `Branch`.
 
 Exemplo de fluxo de execução, considere a sequencia de comandos abaixo:
@@ -2165,12 +2093,12 @@ O resultado será 0 pois a condição de controle de fluxo **if** provocou um de
 
 **[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
 
-<a name="6.10"></a>
-## 6.10 Estruturas de fluxo condicional
+<a name="6.9"></a>
+## 6.9 Estruturas de fluxo condicional
 A seguir vamos entender como é fluxo condicional é descrito com programação visual usando Blueprint.
 
-<a name="6.10.1"></a>
-### 6.10.1 Controle de fluxo com Branch (if)
+<a name="6.9.1"></a>
+### 6.9.1 Controle de fluxo com Branch (if)
 `Branch` é uma estrutura condicional que testa uma variável utilizando uma expressão lógica e redireciona o fluxo da lógica.
 
 **Blueprint.**
@@ -2192,8 +2120,8 @@ else
 }
 ```
 
-<a name="6.10.2"></a>
-### 6.10.2 Sequenciamento de fluxo com Sequence
+<a name="6.9.2"></a>
+### 6.9.2 Sequenciamento de fluxo com Sequence
 O nó `Sequence` permite que um único pulso de execução acione uma série de eventos em ordem. O nó pode ter qualquer número de saídas, todas chamadas assim que o nó Sequência receber uma entrada. Eles sempre serão chamados em ordem, mas sem qualquer demora. Para um usuário típico, as saídas provavelmente parecerão ter sido disparadas simultaneamente.
 
 **Blueprint.**
@@ -2207,8 +2135,8 @@ O nó `Sequence` permite que um único pulso de execução acione uma série de 
 // Não tem similar em C++, deve ser implementado
 ```
 
-<a name="6.10.3"></a>
-### 6.10.3 Flip Flop
+<a name="6.9.3"></a>
+### 6.9.3 Flip Flop
 O nó `Flip Flop` obtém uma saída de execução e alterna entre duas saídas de execução. Na primeira vez que é chamado, a saída A é executada. Na segunda vez, B. Depois A, B e assim por diante. O nó também possui uma saída booleana que permite rastrear quando a Saída A foi chamada.
 
 **Blueprint.**
@@ -2223,8 +2151,8 @@ O nó `Flip Flop` obtém uma saída de execução e alterna entre duas saídas d
 // Não tem similar em C++, deve ser implementado
 ```
 
-<a name="6.10.4"></a>
-### 6.10.4 Gate e Multi Gate
+<a name="6.9.4"></a>
+### 6.9.4 Gate e Multi Gate
 O nó `MultiGate` recebe um único pulso de dados e o encaminha para qualquer número de saídas potenciais. Isso pode ocorrer sequencialmente, aleatoriamente e pode ou não ser executado em loop.
 
 **Blueprint.**
@@ -2241,12 +2169,12 @@ O nó `MultiGate` recebe um único pulso de dados e o encaminha para qualquer n�
 
 **[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
 
-<a name="6.11"></a>
-## 6.11. Estruturas de repetição
+<a name="6.10"></a>
+## 6.10. Estruturas de repetição
 Podemos utilizar estruturas de repetição para repetir instruções ou nós, a seguir vamos entender algumas dessas estruturas.
 
-<a name="6.11.1"></a>
-### 6.11.1 For Loop
+<a name="6.10.1"></a>
+### 6.10.1 For Loop
 O nó `For Loop` funciona como um loop de código padrão, disparando um pulso de execução para cada índice entre o início e o fim.
 
 **Blueprint.**
@@ -2267,8 +2195,8 @@ UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
 
 ```
 
-<a name="6.11.2"></a>
-### 6.11.2 While Loop
+<a name="6.10.2"></a>
+### 6.10.2 While Loop
 Uma condição de teste e um corpo são tudo o que constitui um *loop While*. Antes de executar a (s) instrução (ões) em seu corpo, o Blueprint avalia a condição de teste `While Loops` para determinar se ela é verdadeira.
 
 **Blueprint.**
@@ -2288,8 +2216,8 @@ while ( valor <= 4) {
 UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
 ```
 
-<a name="6.11.3"></a>
-### 6.11.3 Do N
+<a name="6.10.3"></a>
+### 6.10.3 Do N
 O nó `Do N` disparará um pulso de execução N vezes. Depois que o limite for atingido, ele interromperá todas as execuções de saída até que um pulso seja enviado para sua entrada Reset.
 
 **Blueprint.**
@@ -2307,8 +2235,8 @@ Pressionando a tecla J a contagem será reiniciada.
 // Não tem similar em C++, deve ser implementado
 ```
 
-<a name="6.11.4"></a>
-### 6.11.4 Do once
+<a name="6.10.4"></a>
+### 6.10.4 Do once
 O nó `Do Once` - como o nome sugere - disparará um pulso de execução apenas uma vez. Desse ponto em diante, ele interromperá toda a execução de saída até que um pulso seja enviado para sua entrada Reset. Este nó é equivalente a um nó `Do N` onde N = 1.
 
 **Blueprint.**
@@ -2321,23 +2249,12 @@ O nó `Do Once` - como o nome sugere - disparará um pulso de execução apenas 
 ```cpp
 // Não tem similar em C++, deve ser implementado.
 ```
+
+
 **[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
 
 <a name="6.12"></a>
-## 6.12. Atividades - Implemente um projeto que crie vários atores na cena e os posicione em áreas diferentes da cena.
-
-**Regras.**
-
-1. Adicione diferentes tipos de atores.
-
-**Desafio.**
-
-1. Adicione um *array* para controlar melhor os objetos.
-
-**[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
-
-<a name="6.13"></a>
-## 6.13 O que são variáveis do tipo array?
+## 6.12 O que são variáveis do tipo array?
 É um conjunto de variáveis do mesmo tipo agrupadas dentro de uma estrutura e acessíveis por um índice. Podemos representar os *arrays* como uma tabela onde os dados são acessados por um índice que indica a posição do elemento, a seguir um exemplo.
 
 | s         |s[0] |s[1] |s[2] | s[3]  |
@@ -2377,8 +2294,8 @@ StrArr.Emplace(TEXT("World"));
 
 **[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
 
-<a name="6.14"></a>
-## 6.14 Declarando arrays e acessando os seus elementos
+<a name="6.13"></a>
+## 6.13 Declarando arrays e acessando os seus elementos
 Para declarar variáveis do tipo *array* devemos primeiro escolher um tipo de variável primitivo, como por exemplo um tipo `String`, e logo em seguida determinar que será um *array*, vamos aos exemplos.
 
 **Blueprint.**    
@@ -2398,8 +2315,8 @@ Em Blueprint a variável é representada por um ícone 3x3.
 > Figura: Blueprint Arrays.
 
 
-<a name="6.14.1"></a>
-### 6.14.1 Método Get para arrays
+<a name="6.13.1"></a>
+### 6.13.1 Método Get para arrays
 Para acessar qualquer elemento dentro *array* é necessários utilizar o índice, como no exemplo abaixo.  
 
 **Blueprint.**  
@@ -2415,8 +2332,8 @@ FString s = pessoa[0];
 UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
 ```
 
-<a name="6.14.2"></a>
-### 6.14.2 Get utilizando uma variável como índice
+<a name="6.13.2"></a>
+### 6.13.2 Get utilizando uma variável como índice
 Podemos utilizar uma variável para substituir o índice e acessar elementos do *array*.
 
 **Blueprint.**
@@ -2435,8 +2352,8 @@ FString s = pessoa[indice];
 UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
 ```
 
-<a name="6.14.3"></a>
-### 6.14.3 Último índice e a quantidade de elementos do array
+<a name="6.13.3"></a>
+### 6.13.3 Último índice e a quantidade de elementos do array
 Podemos determinar a quantidade de elementos ou valor do último índice do *array* utilizando os nós abaixo.    
 
 **Blueprint.**
@@ -2463,12 +2380,12 @@ UE_LOG(LogTemp,Warning,TEXT("O tamanho do array é %d",Tamanho));
 
 **[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
 
-<a name="6.15"></a>
-## 6.15 Percorrendo arrays
+<a name="6.14"></a>
+## 6.14 Percorrendo arrays
 Percorrer **array** implica em ler todos ou alguns elementos da estrutura, para tal usamos vários nós ou funções que permitem dependendo da necessidade facilitar a lógica.
 
-<a name="6.15.1"></a>
-### 6.15.1 Listando todos os elementos utilizando For
+<a name="6.14.1"></a>
+### 6.14.1 Listando todos os elementos utilizando For
 Na lógica abaixo percorremos todo *array* e listamos cada elemento.   
 
 **Bluprint.**
@@ -2514,8 +2431,8 @@ for (auto It = StrArr.CreateConstIterator(); It; ++It)
 - `For Each Loop` - Para cada elemento do *array* é processada uma interação.
 - `For Loop` - Para cada elemento do *array*, dentro dos parâmetros `First Index` e `Last Index` é processada uma interação.
 
-<a name="6.15.2"></a>
-### 6.15.2 Usando o comando Find
+<a name="6.14.2"></a>
+### 6.14.2 Usando o comando Find
 `Find` procura um elemento dentro do *array* e se encontra retorna o valor do índice do elemento, caso não encontre retorna -1.   
 
 **Blueprint.**      
@@ -2534,8 +2451,8 @@ if (StrArr.Find(TEXT("Hello"), Index))
 }
 ```
 
-<a name="6.15.3"></a>
-### 6.15.3 Contando elementos dentro de um array
+<a name="6.14.3"></a>
+### 6.14.3 Contando elementos dentro de um array
 O exemplo abaixo conta todos os elementos do *array* `Nomes` que são iguais a variável `NomeBusca`.
 
 **Bluprint.**
@@ -2559,8 +2476,8 @@ for (int32 Index = 0; Index != Nomes.Num(); ++Index)
 UE_LOG(LogTemp, Warning, TEXT("O Total é %d"),iTotal);
 ```
 
-<a name="6.15.5"></a>
-### 6.15.5 Percorrendo e atualizando dados
+<a name="6.14.5"></a>
+### 6.14.5 Percorrendo e atualizando dados
 O exemplo abaixo vamos percorrer o *array* utilizando uma instrução `for` e atualizar outro *array*.
 
 **Blueprint.**
@@ -2587,12 +2504,12 @@ UE_LOG(LogTemp, Warning, TEXT("O Total é %d"),iTotal);
 
 ```
 
-<a name="6.16"></a>
-## 6.16 Removendo elementos do array
+<a name="6.15"></a>
+## 6.15 Removendo elementos do array
 É possível remover elementos de dentro de um *array*, após a remoção a quantidade e índice final da estrutura vai ser atualizada, a seguir vamos apresentar algumas funções.    
 
-<a name="6.16.1"></a>
-### 6.16.1 Removendo utilizando Remove
+<a name="6.15.1"></a>
+### 6.15.1 Removendo utilizando Remove
 A função `Remove` exclui um elemento do *array*, o valor a ser removido tem que ser informado como parâmetro.    
 
 **Blueprint.**
@@ -2609,8 +2526,8 @@ TArray<FString> Nomes;
 Nomes.Remove(TEXT("Ana"));
 ```
 
-<a name="6.16.2"></a>
-### 6.16.2 Removendo passando uma variável como parâmetro
+<a name="6.15.2"></a>
+### 6.15.2 Removendo passando uma variável como parâmetro
 O comando `Remove`executa uma busca utilizando um parâmetro, **NomeBusca** no exemplo abaixo, e o remove do *array*.    
 
 **Bluprint.**
@@ -2628,8 +2545,8 @@ TArray<FString> Nomes;
 Nomes.Remove(StrNomeBusca);
 ```
 
-<a name="6.16.3"></a>
-### 6.16.3 Removendo utilizando nó Remove Index
+<a name="6.15.3"></a>
+### 6.15.3 Removendo utilizando nó Remove Index
 `Remove Index` exclui um elemento do *array* utilizando o índice do *array*.      
 
 **Blueprint.**
@@ -2649,8 +2566,8 @@ if (Nomes.Find(TEXT("Hello"), Index))
 
 ```
 
-<a name="6.16.4"></a>
-### 6.16.4 Limpando o array com Clear
+<a name="6.15.4"></a>
+### 6.15.4 Limpando o array com Clear
 `Clear` remove todos os elementos do *array*.
 
 **Blueprint.**
@@ -2669,8 +2586,8 @@ Nomes.Empty();
 
 **[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
 
-<a name="6.17"></a>
-## 6.17 O que são Enums?
+<a name="6.16"></a>
+## 6.16 O que são Enums?
 Uma enumeração é um tipo definido pelo usuário que consiste em um conjunto de constantes integrais nomeadas que são conhecidas como enumeradores.
 
 Exemplo:
@@ -2679,8 +2596,8 @@ Exemplo:
 enum cores = { vermelho,amarelo, azul, verde = 20, preto}
 ```
 
-<a name="6.18"></a>
-## 6.18 Criando Enums no Unreal Engine
+<a name="6.17"></a>
+## 6.17 Criando Enums no Unreal Engine
 
 **Blueprint.**
 
@@ -2725,8 +2642,8 @@ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
 ```
 
 
-<a name="6.19"></a>
-## 6.19 Exemplos de uso - A lâmpada
+<a name="6.18"></a>
+## 6.18 Exemplos de uso - A lâmpada
 Vamos verificar e alterar o estado de uma lâmpada utilizando uma variável do tipo `boolean`.  
 
 **Blueprint.**
@@ -2921,7 +2838,7 @@ else {
 ```
 
 
-<a name="6.20"></a>
+<a name="6.19"></a>
 ## 6.19 Exemplos de uso - A pedra das emoções
 Vamos verificar e alterar o estado de emocional de uma pedra.
 
