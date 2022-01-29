@@ -1,6 +1,6 @@
 ---
 title: Me conte uma história
-description: Narrativa de jogos e construção de personagens.
+description: Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história.
 tags: [narrativa, Roteirização, jogos digitais]
 layout: page
 ---

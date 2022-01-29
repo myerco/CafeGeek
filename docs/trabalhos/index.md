@@ -1,7 +1,7 @@
 ---
 title: Trabalhos de jogos digitais
-description: Trabalhos acadêmicos de jogos digitais
-tags: ["Unreal Engine","trabalhos","jogos digitais"]
+description: Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de Jogos Digitais.
+tags: [Unreal Engine, trabalhos, jogos digitais]
 author: CafeGeek
 layout: page
 ---

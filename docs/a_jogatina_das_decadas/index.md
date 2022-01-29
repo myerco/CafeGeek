@@ -15,58 +15,93 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 - Conheça o mercado de jogos digitais;    
 - Implemente um protótipo de jogo;
 
+***
+
 <a name="indice"></a>
-**[Capítulo I - O que é um Jogo?](#1 "Capítulo I - O que é um Jogo?")**
-
-1. [Teria o jogo lugar no sistema de vida?](#1.1)
-3. [Homo Ludens](#1.2)    
-4. [A Tensão como um elemento do jogo](#1.3)        
+**[CAPÍTULO  1 - O que é um Jogo?](#1 "CAPÍTULO  I - O que é um Jogo?")**
 
 ***
 
-**[Capítulo II - Qual a função do jogo?](#2 "Qual a função do jogo?")**
+&nbsp;&nbsp;[1.1 Teria o jogo lugar no sistema de vida?](#1.1 "1.1 Teria o jogo lugar no sistema de vida?")          
 
-1. [O papel do jogo na sociedade?](#2.1)    
-    1.  [O jogo Arte e Cultura](#2.1.1)    
-    1.  [O jogo e a Guerra](#2.1.2)        
-    1.  [O jogo e a Direito](#2.1.3)    
-    1.  [O jogo e a Linguagem](#2.1.4)        
-1.    [Algumas considerações sobre o jogo](#2.2)   
+&nbsp;&nbsp;[1.1 Homo Ludens](#1.2 "1.1 Homo Ludens")  
+
+&nbsp;&nbsp;[1.1 A Tensão como um elemento do jogo](#1.3 "1.1 A Tensão como um elemento do jogo")        
 
 ***
-**[Capítulo III - Quem Joga?](#3 "Capítulo II - Quem Joga?")**
 
-1. [O jogador](#3.1)
-1. [O que é jogar?](#3.2)
-1. [Por que jogar?](#3.3)
-1. [Os Fatores motivacionais](#3.4)
-1. [Fatores não motivacionais](#3.5)  
+**[CAPÍTULO  2 - Qual a função do jogo?](#2 "Qual a função do jogo?")**
+
+***
+
+&nbsp;&nbsp;[**2.1 O papel do jogo na sociedade?**](#2.1 "2.1 O papel do jogo na sociedade?")    
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.1 O jogo Arte e Cultura](#2.1.1 "2.1.1 O jogo Arte e Cultura")    
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.2 O jogo e a Guerra](#2.1.2 "2.1.2 O jogo e a Guerra")        
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.3 O jogo e a Direito](#2.1.3 "2.1.3 O jogo e a Direito")    
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.4 O jogo e a Linguagem](#2.1.4 "2.1.4 O jogo e a Linguagem")        
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.5 Algumas considerações sobre o jogo](#2.2 "2.1.5 Algumas considerações sobre o jogo")   
+
+***
+
+**[CAPÍTULO  3 - Quem Joga?](#3 "CAPÍTULO  3 - Quem Joga?")**
+
+***
+
+&nbsp;&nbsp;[3.1 O jogador](#3.1 "3.1 O jogador")
+
+&nbsp;&nbsp;[3.2 O que é jogar?](#3.2 "3.2 O que é jogar?")
+
+&nbsp;&nbsp;[3.3 Por que jogar?](#3.3 "3.3 Por que jogar?")
+
+&nbsp;&nbsp;[3.4 Os Fatores motivacionais](#3.4 "3.4 Os Fatores motivacionais")
+
+&nbsp;&nbsp;[3.5 Fatores não motivacionais](#3.5 "3.5 Fatores não motivacionais")  
 
 
 ***
-**[Capítulo IV - Como são classificados os jogos?](#4 "Capítulo IV - Como são classificados os jogos?")**
-
-1. [Tabuleiro](#4.1)
-1. [Cartas](#4.2)
-1. [Atléticos](#4.3)
-1. [Infantis](#4.4)
-1. [Eletrônicos](#4.5)
+**[CAPÍTULO  4 - Como são classificados os jogos?](#4 "CAPÍTULO  4 - Como são classificados os jogos?")**
 
 ***
-**[Capítulo V - O que é um jogo eletrônico?](#5 "Capítulo V - O que é um jogo eletrônico?s")**
 
-1. [Características dos jogos Eletrônicos](#5.1)
-1. [Tipos de jogos Eletrônicos](#5.2)
-1. [O mercado de jogos eletrônicos](#5.3)
-1. [Qual o custo de produção de jogo eletrônico?](#5.4)
-1. [Complexidade e valor de produção](#5.5)
-1. [Evolução dos jogos eletrônicos](#5.6)
-1. [Era dos Videogames](#5.7)
-1. [Jogos mobile](#5.8)
+&nbsp;&nbsp;[4.1 Tabuleiro](#4.1 "4.1 Tabuleiro")
+
+&nbsp;&nbsp;[4.2 Cartas](#4.2 "4.2 Cartas")
+
+&nbsp;&nbsp;[4.3 Atléticos](#4.3 "4.3 Atléticos")
+
+&nbsp;&nbsp;[4.4 Infantis](#4.4)
+
+&nbsp;&nbsp;[4.5 Eletrônicos](#4.5 "4.5 Eletrônicos")
+
+***
+**[CAPÍTULO  5 - O que é um jogo eletrônico?](#5 "CAPÍTULO  5 - O que é um jogo eletrônico?")**
+
+***
+
+&nbsp;&nbsp;[5.1 Características dos jogos Eletrônicos](#5.1 "5.1 Características dos jogos Eletrônicos")
+
+&nbsp;&nbsp;[5.2 Tipos de jogos Eletrônicos](#5.2 "5.2 Tipos de jogos Eletrônicos")
+
+&nbsp;&nbsp;[5.3 O mercado de jogos eletrônicos](#5.3 "5.3 O mercado de jogos eletrônicos")
+
+&nbsp;&nbsp;[5.4 Qual o custo de produção de jogo eletrônico?](#5.4 "5.4 Qual o custo de produção de jogo eletrônico?")
+
+&nbsp;&nbsp;[5.5 Complexidade e valor de produção](#5.5 "5.5 Complexidade e valor de produção")
+
+&nbsp;&nbsp;[5.6 Evolução dos jogos eletrônicos](#5.6 "5.6 Evolução dos jogos eletrônicos")
+
+&nbsp;&nbsp;[5.7 Era dos Videogames](#5.7 "5.7 Era dos Videogames")
+
+&nbsp;&nbsp;[5.8 Jogos mobile](#5.8 "5.8 Jogos mobile")
 
 ***
 <a name="1"></a>
-## Capítulo I - O que é um Jogo?
+## CAPÍTULO 1 - O que é um Jogo?
 
 > "Life is a Game"
 >
@@ -100,7 +135,7 @@ nossa nomenclatura."
 
 
 <a name="1.1"></a>
-## 1. Teria o jogo lugar no sistema de vida?
+## 1.1 Teria o jogo lugar no sistema de vida?
 
 ![Figura: Life is a game. This is your strategy guide - https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/](https://oliveremberton.com/app/uploads/2014/02/Cover-shallow-1800x1100.png "Figura: Life is a game. This is your strategy guide - https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/")
 
@@ -118,7 +153,7 @@ Quando pensamos no aspecto humano e evolutivo temos não podemos deixar de citar
 **[⬆ Início](#indice)**
 
 <a name="1.2"></a>
-## 2. Homo Ludens
+## 1.2 Homo Ludens
 
 ![Figura: Soraia Chung: “O brincar elabora uma ideia de humanidade” - https://alana.org.br/entrevista-soraia-chung-brincar/](https://alana.org.br/wp-content/uploads/2021/05/brincar.png.webp "Figura: Soraia Chung: “O brincar elabora uma ideia de humanidade” - https://alana.org.br/entrevista-soraia-chung-brincar/")
 
@@ -141,7 +176,7 @@ Em contrapartida devemos lembrar que o riso no filme O Nome da Rosa teve outra c
 **[⬆ Início](#indice)**
 
 <a name="1.3"></a>
-## 3. A Tensão como um elemento do jogo
+## 1.3 A Tensão como um elemento do jogo
 ![Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise](https://img.ibxk.com.br/2014/10/15/15193231547073.jpg?ims=704x "Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise")
 
 > *Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise .*
@@ -161,7 +196,7 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 
 ***
 <a name="2"></a>
-## Capítulo II -  Qual a função do jogo?
+## CAPÍTULO  2 -  Qual a função do jogo?
 
 > "Eu me sinto presa, apenas livre para me expandir dentro dos limites.
 (Motoko Kusanagi)""
@@ -181,24 +216,24 @@ Estas duas funções podem também por vezes confundir-se, de tal modo que o jog
 **[⬆ Início](#indice)**
 
 <a name="2.1"></a>
-## 1. O papel do jogo na sociedade?
+## 2.1 O papel do jogo na sociedade?
 O ser humano, tal como todos os seres da escala biológica, tem como característica principal o movimento. O jogo surge relacionado a esse assunto, por ser a melhor demonstração dessa predominância no homem, além de atuar como um valoroso contribuinte no desenvolvimento global do mesmo.
 
 <a name="2.1.1"></a>
-## 1.1 O jogo Arte e Cultura
+## 2.1.1 O jogo Arte e Cultura
 ![O jogo na arte](https://lh3.googleusercontent.com/mw2jVchK_0h4nZ3mm41sEkul6669asv3ifiwqzuCzKNXNLBoWTpvJbq-UaaaIuNjFxu50qukPCIIo9PEWW3cs4-XDbe2N8WHoEZW_JvUkWlnquWNHQbaQTkS0oXlpuTVpWsbzZGGJw "O jogo na arte")
 
 O processo criativo e construção de elementos imaginários estão presentes nas caracterizas dos jogos.
 Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um belo e nobre jogo começou por ser um jogo sagrado. Os torneios e justas, as ordens, os votos, os títulos, são  todos vestígios dos ritos de iniciação primitivos.
 
 <a name="2.1.2"></a>
-## 1.2 O jogo e a Guerra
+## 2.1.2 O jogo e a Guerra
 ![O jogo e a guerra](https://lh3.googleusercontent.com/eHCIaFbDB3dEjinKTkIp5AOuGRL9S8taKXnuuQyJM_ZLsxrHjdYMvUb7OISIuOWJwS9a1kwlERn5n0akqx_jUnfjXUazb4TzMqvKrA4zAwNU7Lwn0NSFAyTJlwZgs0a3BiefXfXF7Q "O jogo e a guerra")
 
 É difícil não associar a guerra ao jogo mas o contrário é possível, na guerra o objetivo e conquistar ou subjugar o seu oponente.
 
 <a name="2.1.3"></a>
-## 1.3 O jogo e o Direito
+## 2.1.3 O jogo e o Direito
 ![O jogo e o direito](https://lh4.googleusercontent.com/0UyjVE8iYejdGuduppAcytXaEVPAV8aMX3INMhuJw72tQBS8xy1Sq_8vS9JpZSZNgQ81lfxM_BmCJObWEa9bkGPfZNnMuQbWfy551KWCF1b2R1Rg3iiRXta3mwNOvzunKDaU5gvonw "O Jogo e o Direito")
 
 Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o Luizinga associa o "processo" a um jogo considerando o seguinte:
@@ -210,7 +245,7 @@ Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o 
 - **A justiça** - Se fizermos com que nosso olhar passe da  administração da justiça nas civilizações altamente desenvolvidas para aquela que se encontra nas fases menos  adiantadas da cultura, veremos que a ideia do bem e do mal, a concepção ético-jurídica, é ultrapassada pela ideia de  ganhar ou perder, isto é, pela concepção puramente agonística. O que interessa ao espírito primitivo não é tanto o  problema abstrato do bem e do mal, mas principalmente o problema extremamente concreto de ganhar ou perder.
 
 <a name="2.1.4"></a>
-## 1.4 O jogo e a Linguagem
+## 2.1.4 O jogo e a Linguagem
 
 ![O jogo e a linguagem](https://lh6.googleusercontent.com/n6cRsalJRwjvmqPAKs36Qyj_U1nLNtnaOASUInR4dTl4STFpN0v-kMHtM58tk5oLhyZvqyzdrrwLeef0Vy235S6Fu6el59K0V76hYosAy8kAfyw46GYRlGSn_H23fjAvcEoEquhgZg "O jogo e a linguagem")
 
@@ -219,7 +254,7 @@ A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo
 **[⬆ Início](#indice)**
 
 <a name="2.2"></a>
-## 2. Algumas considerações sobre o jogo
+## 2.2 Algumas considerações sobre o jogo
 ![The Thinker](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Mus%C3%A9e_Rodin_1.jpg/220px-Mus%C3%A9e_Rodin_1.jpg "The Thinker")
 
 O autor apresenta as suas interpretações de elementos presentes na nossa sociedade e os caracteriza como jogo na sua definição, devemos lembrar que o HUIZINGA utiliza e define jogo na Perspectiva do jogador e extrai classificações do objeto em estudo dentro de um tempo e realidade por conseguinte devemos considerar os seguintes aspectos:
@@ -231,14 +266,14 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 
 ***
 <a name="3"></a>
-## Capítulo III - Quem joga?
+## CAPÍTULO 3 - Quem joga?
 
 > "Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior do que apenas eu mesmo."
 >
 > Jogador Nº1.
 
 <a name="3.1"></a>
-## 1. O jogador
+## 3.1 O jogador
 ![Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women](https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp "Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women")
 
 > *Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women .*
@@ -252,7 +287,7 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 **[⬆ Início](#indice)**
 
 <a name="3.2"></a>
-## 2. O que é jogar?
+## 3.2 O que é jogar?
 ![Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/](http://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg "Figura: Jogador Nº 1 | Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/")
 
 > *Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/ .*
@@ -267,7 +302,7 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 **[⬆ Início](#indice)**
 
 <a name="3.3"></a>
-## 3. Por que jogar?
+## 3.3 Por que jogar?
 
 ![Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia - https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/](https://lavrapalavra.com/wp-content/uploads/2021/01/apagar.png "Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia - https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/")
 
@@ -282,7 +317,7 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 [https://www.teachthought.com/learning/why-people-play-video-games/](https://www.teachthought.com/learning/why-people-play-video-games/ "Why People Play Video Games")
 
 <a name="3.4"></a>
-## 4. Os Fatores motivacionais
+## 3.4 Os Fatores motivacionais
 Estão diretamente ligados ao desejo do jogadora sua construção social, leitura, cinema, arte e televisão.
 
 **Exploração.**
@@ -323,7 +358,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
 ![https://medium.com](https://miro.medium.com/max/825/1*M6VI8_01A-At7Nzp2wn6IA.png "Top 20 Game Studios: Who’s Your Favorite?")
 
 <a name="3.5"></a>
-## 5. Fatores não motivacionais
+## 3.5 Fatores não motivacionais
 Estão ligados na avaliação da mensagem que está sendo transmitida.
 - Comunicação visual;
 - Comunicação auditiva e sensorial.
@@ -332,8 +367,8 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 
 > *Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm .*
 
-<a name="2.5.1"></a>
-### 5.1 Respostas sensoriais.
+<a name="3.5.1"></a>
+### 3.5.1 Respostas sensoriais.
 
 **Gráficos.**
 
@@ -350,18 +385,18 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 
 ![10 Best Lighting and Particle Effects We Saw In 2011](https://gamingbolt.com/wp-content/gallery/10-best-particle-and-lighting-effects-we-saw-in-2011/assassins-creed-revelations.jpg "Assassin's Creed: Revelations")
 
-<a name="2.5.2"></a>
-### 5.2 Jogabilidade
+<a name="3.5.2"></a>
+### 3.5.2 Jogabilidade
 
 ![www.techspot.com](https://static.techspot.com/articles-info/2366/images/2021-11-17-image-2-j.webp "It Takes Two")
 
-<a name="2.5.3"></a>
-### 5.3 Cognição
+<a name="3.5.3"></a>
+### 3.5.3 Cognição
 
 ![www.techtudo.com.br](https://s2.glbimg.com/ys4yzHh8-bS88Kc2mwhuQdW3An0=/0x0:695x393/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/N/K/ray9GLT9GUmH5n4aqwAw/2015-08-21-the-witcher-3-geralt-lutando.jpg "Confira os requisitos de The Witcher 3 e como deixar mais leve no PC")
 
 <a name="2.5.4"></a>
-### 5.4 Coordenação
+### 3.5.4 Coordenação
 
 ![rollingstone.uol.com.br](https://rollingstone.uol.com.br/media/_versions/guitar_hero_reproducao_widelg.jpg "Guitar Hero: 15 clássicos do game que você provavelmente tocou muito")
 
@@ -369,7 +404,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 
 ***
 <a name="4"></a>
-## Capítulo IV - Como são classificados os jogos?
+## CAPÍTULO 4 - Como são classificados os jogos?
 
 > Guerra... A guerra nunca muda.
 >
@@ -380,7 +415,7 @@ Podemos classificar os jogos para determinar ou mostrar a sua função dentro de
 
 
 <a name="4.1"></a>
-## 1. Tabuleiro
+## 4.1 Tabuleiro
 ![History](https://assets.historyplay.tv/br/public/styles/wide/public/images/2020/05/28/senet_-_jogo_-_egito_-_mortos_-_comunicacao_-_history_channel_brasil.jpg "Senet, o jogo de tabuleiro que os egípcios usavam para se comunicar com os mortos ")
 
 Consistem em uma superfície dividida em setores com peças móveis.
@@ -393,7 +428,7 @@ Consistem em uma superfície dividida em setores com peças móveis.
 **[⬆ Início](#indice)**
 
 <a name="4.2"></a>
-## 2. Cartas
+## 4.2 Cartas
 ![Jogolaxia](https://jogolaxia.com/files/artigos/jogos-cartas.jpg "Os 10 melhores jogos de cartas para jogar sozinho")
 
 Conjunto de símbolos com valores de combinação lógica, quem em determinadas regras, representam combinação para cada combinação empregada em uma jogada.
@@ -401,7 +436,7 @@ Conjunto de símbolos com valores de combinação lógica, quem em determinadas 
 **[⬆ Início](#indice)**
 
 <a name="4.3"></a>
-## 3. Atléticos
+## 4.3 Atléticos
 ![Brasil Escola](https://s1.static.brasilescola.uol.com.br/galeria/images/85b29f73c4b883f3b44b9e0596a2bdb0.jpg "Voleibol")
 
 São fisicamente aplicados em determinado jogo.
@@ -409,7 +444,7 @@ São fisicamente aplicados em determinado jogo.
 **[⬆ Início](#indice)**
 
 <a name="4.4"></a>
-## 4. Infantis
+## 4.4 Infantis
 ![Somos edução](https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_780,h_450/https://blog.elevaplataforma.com.br/wp-content/uploads/2019/12/original-cfd1c117a3b836f3f131e59095fc3154-780x450.jpg "Gamificação na educação: como usá-la no processo pedagógico?")
 
 Brincadeiras físicas e mentais com visões educacionais, cujo objetivo é socializar e educar.
@@ -417,7 +452,7 @@ Brincadeiras físicas e mentais com visões educacionais, cujo objetivo é socia
 **[⬆ Início](#indice)**
 
 <a name="4.5"></a>
-## 5. Eletrônicos
+## 4.5 Eletrônicos
 ![USP imagens](https://imagens.usp.br/wp-content/uploads/games_pedrobolle_uspimagens_001.jpg  "Jogos Eletrônicos")
 
 Trabalham com reflexos, coordenação e cognição.
@@ -426,7 +461,7 @@ Trabalham com reflexos, coordenação e cognição.
 
 ***
 <a name="5"></a>
-## Capítulo V - O que é um jogo eletrônico?
+## Capítulo 5 - O que é um jogo eletrônico?
 
 > "Nada é verdade, tudo é permitido."
 >
@@ -449,7 +484,7 @@ Sistema formal fechado que subjetivamente representa uma extensão da realidade.
 **[⬆ Início](#indice)**
 
 <a name="5.1"></a>
-## 1. As características dos jogos Eletrônicos
+## 5.1 As características dos jogos Eletrônicos
 
 **Foco.**
 
@@ -494,7 +529,7 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 **[⬆ Início](#indice)**
 
 <a name="5.2"></a>
-## 2. Os tipos de jogos Eletrônicos
+## 5.2 Os tipos de jogos Eletrônicos
 - RTS: Estratégia em tempo real, jogo não “roda” em torno de turnos.
 - MOBA: Arena de batalha multijogador online, jogador controla um personagem em uma batalha entre dois times aonde o objetivo é derrotar a base principal inimiga.
 - RPG: Jogo de interpretação, o jogador vivencia um personagem que segue uma determinada história predestinada. O jogador controla as ações de um personagem imerso num mundo definido, incorporando elementos. Os personagens possuem status: ataque, defesa, agilidade e inteligência. Existe o sistema de níveis, no qual a cada batalha/missão terminada, se recebe experiência, e uma certa quantidade os leva para um novo nível.
@@ -517,7 +552,7 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 **[⬆ Início](#indice)**
 
 <a name="5.3"></a>
-## 3. O mercado de jogos eletrônicos
+## 5.3 O mercado de jogos eletrônicos
 
 > A Sombra,
 >
@@ -528,7 +563,7 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 **[⬆ Início](#indice)**
 
 <a name="5.4"></a>
-## 4. Qual o  custo de produção de jogo eletrônico?
+## 5.4 Qual o  custo de produção de jogo eletrônico?
 
 **2009.**
 
@@ -574,7 +609,7 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 **[⬆ Início](#indice)**
 
 <a name="5.5"></a>
-## 5. Complexidade e valor de produção
+## 5.5 Complexidade e valor de produção
 A seguir será apresentado quando custa estimativamente produzir um jogo digital por ordem de complexidade e custo.
 
 - Mini Games - $3K to $20K
@@ -670,7 +705,7 @@ Alguns exemplos de jogos dessas gerações são 007 Goldeneye, Super Mário 64, 
 **[⬆ Início](#indice)**
 
 <a name="5.7"></a>
-## 7. Era dos Videogames
+## 5.7 Era dos Videogames
 ### Nintendo
 A Nintendo, tradicional e inovadora, começou nos arcades (fliperamas) e estreou em 1983 com o console de mesa NES. Em sequência fez o SNES, o Nintendo 64, o GameCube, o Wii , o Wii U e por último o Nintendo Switch.Líder do mercado de portáteis com Game Boy, em seguida Game Boy Color, Game Boy Advance e o console portátil mais vendido da história, o tão conhecido Nintendo DS, no inicio de 2011 lançou o seu novo portátil Nintendo 3DS, que traz um inovador sistema de jogos 3D.Lançou o Wii com uma inovadora jogabilidade com o controle Wiimote, que fez com que ela voltasse a ser a líder do mercado. Na E3 2011 a Nintendo mostrou seu mais novo console, o Wii U, sucessor do Wii, lançado em 18 de Novembro de 2012. O poder gráfico do novo console é superior ao dos consoles de sétima geração.
 
