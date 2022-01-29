@@ -768,5 +768,7 @@ Top 10 Most Annoying Video Game Enemies of All Time -  https://twinfinite.net .*
 
 ***
 ## Referências
+
 - Level UP : Um guia para o Design de grandes Jogos ,ROGERS, Scott, 1ª Ed, RIO DE JANEIRO: 2013.
+
 - Introdução ao desenvolvimento de jogos digitais, Steve Rabin, Editora Cengage Learning, 2012.

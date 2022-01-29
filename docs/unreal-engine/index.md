@@ -386,14 +386,16 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 ***
 
+&nbsp;&nbsp;[14.1. Sequencer](#)
+
+&nbsp;&nbsp;[15.1 Utilizando Niagara](#)
+
+***
+
 <a name="atividades"></a>
 [**Atividades e Referências**](unreal_engine_atividades_referencias.html)
 
 ***
-
-&nbsp;&nbsp;[14.1. Sequencer](#)
-
-&nbsp;&nbsp;[15.1 Utilizando Niagara](#)
 
 <a name="1"></a>
 ## CAPÍTULO 1 - Desenvolvendo jogos digitais

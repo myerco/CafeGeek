@@ -288,7 +288,7 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 
 <a name="3.2"></a>
 ## 3.2 O que é jogar?
-![Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/](http://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg "Figura: Jogador Nº 1 | Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/")
+![Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - https://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/](https://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg "Figura: Jogador Nº 1 | Diversão, referências e o orgulho geek - https://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/")
 
 > *Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/ .*
 
@@ -379,7 +379,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 
 **Música.**        
 
-[![Life Is Strange Soundtrack - To All Of You By Syd Matters](http://img.youtube.com/vi/LnG6icGIm0o/0.jpg)](https://www.youtube.com/watch?v=LnG6icGIm0o "Life Is Strange Soundtrack - To All Of You By Syd Matters")
+[![Life Is Strange Soundtrack - To All Of You By Syd Matters](https://img.youtube.com/vi/LnG6icGIm0o/0.jpg)](https://www.youtube.com/watch?v=LnG6icGIm0o "Life Is Strange Soundtrack - To All Of You By Syd Matters")
 
 **Efeitos especiais.**
 
@@ -488,13 +488,13 @@ Sistema formal fechado que subjetivamente representa uma extensão da realidade.
 
 **Foco.**
 
-![Top Games Free](http://1.bp.blogspot.com/-amcIuWezKHM/VA3vWLcYvXI/AAAAAAAABwE/DXI1Tn6rDsI/s1600/002.jpg "F22 Raptor")
+![Top Games Free](https://1.bp.blogspot.com/-amcIuWezKHM/VA3vWLcYvXI/AAAAAAAABwE/DXI1Tn6rDsI/s1600/002.jpg "F22 Raptor")
 
 Capacidade do jogador de se concentrar nos objetivos e ações principais.
 
 **Interatividade.**
 
-![Brasil Academicos](http://2.bp.blogspot.com/_cM2l6Y3Ulgg/Sfi6LBnLGoI/AAAAAAAABqo/dWz5kQT2qpg/s1600/sangueCorrompido.jpg "Praga no jogo World of Warcraft ajuda a entender pandemia")
+![Brasil Academicos](https://2.bp.blogspot.com/_cM2l6Y3Ulgg/Sfi6LBnLGoI/AAAAAAAABqo/dWz5kQT2qpg/s1600/sangueCorrompido.jpg "Praga no jogo World of Warcraft ajuda a entender pandemia")
 
 Capacidade dos jogadores realizarem ações participativas nos jogos.
 
@@ -857,6 +857,9 @@ Além disso, muitos jogos para dispositivos móveis combinam e combinam estraté
 
 ## Referências
 - HUIZINGA, Johan. Homo Ludens. Edição 4º. São Paulo: Editora Perspectiva, 2000.
+
 - [Jogo](https://pt.wikipedia.org/wiki/Jogo)
+
 - [25 Video Games That Could Make You Smarter](https://www.raisesmartkid.com/6-to-10-years-old/5-articles/57-what-video-games-are-good-for-the-brain)
+
 - [Guitar Hero: 15 clássicos do game que você provavelmente tocou muito](https://rollingstone.uol.com.br/noticia/guitar-hero-15-classicos-do-game-que-voce-provavelmente-tocou-muito/)
