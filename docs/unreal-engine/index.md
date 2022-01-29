@@ -1052,7 +1052,9 @@ git pull origin master
 **Arquivos e pastas temporárias** - Estes arquivos podem ser recriados ao compilar o projeto.
 
 **Arquivos grandes** Arquivos de imagens ou elementos de grande tamanho podem ser excluídos do versionamento e devemos considerar outras métodos de armazenamento como por exemplo:
+
 - [Git LFS](https://git-lfs.github.com/)
+
 - [SVN](https://tortoisesvn.net/)
 
 **Exemplo de arquivo .gitignore para o Unreal Engine**
