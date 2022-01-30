@@ -15,56 +15,91 @@ Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e
 - Defina o combate dos personagens;    
 - Defina os objetivos da história;      
 
+***
 
 <a name="indice"></a>
-
-**[Capitulo I -  O que é a profissão de Game Design?](#1 "Capitulo I -  O que é a profissão de Game Design?")**
-
-1. [Quero ser um Game Design](#1.1 "Quero ser um Game Design")    
-1. [Quanto Ganha do Game Design?](#1.2 "Quanto Ganha do Game Design?")    
-1. [Quais são as características pessoais?](#1.3 "Quais são as características pessoais?")    
-
-**[Capitulo II -  Como construir um jogo digital?](#2 "Capitulo II -  Como construir um jogo digital?")**
-
-1. [A equipe](#2.1 "A equipe")
-1. [Tarefas](#2.2 "Tarefas")
-1. [Limitações](#2.3 "Limitações")
-
-**[Capitulo III -  Como organizar as ideias?](#3 "Capitulo III -  Como organizar as ideias?")**
-
-1. [Onde nascem as ideias?](#3.1 "Onde nascem as ideias?")
-1. [Cultivando ideias](#3.2 "Cultivando ideias")
-1. [O que torna a ideia interessante é](#3.3 "O que torna a ideia interessante é")
-1. [O que nos inspira?](#3.4 "O que nos inspira?")
-1. [Hábito](#3.5 "Hábito")
+**[CAPÍTULO 1 -  O que é a profissão de Game Design?](#1 "CAPÍTULO 1 -  O que é a profissão de Game Design?")**
 
 ***
-**[Capitulo IV - Como construir os personagens?](#4 "Capitulo IV - Como construir os personagens?")**
 
-1. [A jornada do Herói](#4.1)
-1. [Personalidade](#4.2)
-1. [Motivação](#4.3)
-1. [Morte](#4.4)
-1. [Nome](#4.5)
-1. [Forma](#4.6)
-1. [Customização](#4.7)
-1. [Não estamos sozinhos](#4.8)
-1. [NPC- Personagens não jogáveis](#4.9)
+&nbsp;&nbsp;[1.1 Quero ser um Game Design](#1.1 "Quero ser um Game Design")    
+
+&nbsp;&nbsp;[1.2 Quanto Ganha do Game Design?](#1.2 "Quanto Ganha do Game Design?")    
+
+&nbsp;&nbsp;[1.3 Quais são as características pessoais?](#1.3 "Quais são as características pessoais?")    
 
 ***
-**[Capitulo V - Eles todos me querem morto](#5 "Capitulo V - Eles todos me querem morto")**
 
-1. [Tipos de conflito](#5.1)
-1. [Forma segue a função](#5.2)
-1. [Lutar com inimigos deve ser divertido](#5.3)
-1. [Ataques](#5.4)
-1. [Nem tudo é ataque](#5.5)
-1. [Faça o jogador odiar seu inimigo](#5.6)
-1. [BOSS](#5.7)
+**[CAPÍTULO 2 -  Como construir um jogo digital?](#2 "CAPÍTULO 2 -  Como construir um jogo digital?")**
+
+***
+
+&nbsp;&nbsp;[2.1 A equipe](#2.1 "A equipe")
+
+&nbsp;&nbsp;[2.2 Tarefas](#2.2 "Tarefas")
+
+&nbsp;&nbsp;[2.3 Limitações](#2.3 "Limitações")
+
+***
+
+**[CAPÍTULO 3 -  Como organizar as ideias?](#3 "CAPÍTULO 3 -  Como organizar as ideias?")**
+
+***
+
+&nbsp;&nbsp;[3.1 Onde nascem as ideias?](#3.1 "Onde nascem as ideias?")
+
+&nbsp;&nbsp;[3.3 O que torna a ideia interessante é](#3.3 "O que torna a ideia interessante é")
+
+&nbsp;&nbsp;[3.4 que nos inspira?](#3.4 "O que nos inspira?")
+
+&nbsp;&nbsp;[3.5 Hábito](#3.5 "Hábito")
+
+***
+
+**[CAPÍTULO 4 - Como construir os personagens?](#4 "CAPÍTULO 4 - Como construir os personagens?")**
+
+***
+
+&nbsp;&nbsp;[4.1 A jornada do Herói](#4.1)
+
+&nbsp;&nbsp;[4.2 Personalidade](#4.2)
+
+&nbsp;&nbsp;[4.3 Motivação](#4.3)
+
+&nbsp;&nbsp;[4.4 Morte](#4.4)
+
+&nbsp;&nbsp;[4.5 Nome](#4.5)
+
+&nbsp;&nbsp;[4.6 Forma](#4.6)
+
+&nbsp;&nbsp;[4.6 Customização](#4.7)
+
+&nbsp;&nbsp;[4.8 Não estamos sozinhos](#4.8)
+
+&nbsp;&nbsp;[4.8 NPC- Personagens não jogáveis](#4.9)
+
+***
+**[CAPÍTULO 5 - Eles todos me querem morto](#5 "CAPÍTULO 5 - Eles todos me querem morto")**
+
+***
+
+&nbsp;&nbsp;[5.1 Tipos de conflito](#5.1)
+
+&nbsp;&nbsp;[5.2 Forma segue a função](#5.2)
+
+&nbsp;&nbsp;[5.3 Lutar com inimigos deve ser divertido](#5.3)
+
+&nbsp;&nbsp;[5.4 Ataques](#5.4)
+
+&nbsp;&nbsp;[5.5 Nem tudo é ataque](#5.5)
+
+&nbsp;&nbsp;[5.6 Faça o jogador odiar seu inimigo](#5.6)
+
+&nbsp;&nbsp;[5.7 BOSS](#5.7)
 
 ***
 <a name="1"></a>
-## Capitulo I -  Por dentro da cabeça do Game Design
+## CAPÍTULO 1 -  Por dentro da cabeça do Game Design
 
 > "Por baixo dessa carne existe um ideal. e as idéias nunca morrem..."
 >
@@ -75,7 +110,7 @@ Um papel importante na produção de um jogo digital é o de Game Design que é 
 O Game Design deve atuar como uma interface entre os diversos profissionais envolvidos no projeto e entender as suas necessidades, mas para um bom desempenho nessa tarefa o Game Design deve conhecer um pouco de cada processo no fluxo de trabalho.
 
 <a name="1.1"></a>
-## 1. Quero ser um Game Design
+## 1.1 Quero ser um Game Design
 Como toda profissão para que possamos alcançar um reconhecimento e conhecimento adequado sobre o ofício devemos estruturar e agrupar os nossos passos, abaixo algumas dicas:
 
 - Seja apaixonado por jogos e jogue, jogue para se divertir e se pergunte porque foi divertido;
@@ -89,7 +124,7 @@ Como toda profissão para que possamos alcançar um reconhecimento e conheciment
 > *Figura: Design de games: conheça a profissão - https://www.gamerinfo.com.br/2018/09/10/design-de-games/ .*
 
 <a name="1.2"></a>
-## 2. Quanto Ganha do Game Design?
+## 1.2 Quanto Ganha do Game Design?
 
 Segundo o site https://www.educamaisbrasil.com.br o salário começa com R$ 1.228,90 e pode chegar a R$ 4.056,35 no Brasil (Consulta 17/01/2021).
 
@@ -98,7 +133,7 @@ Segundo o site https://www.educamaisbrasil.com.br o salário começa com R$ 1.22
 > *Figura: Profissão Designer de games: salário e carreira na área de DESIGN DE GAMES - https://www.educamaisbrasil.com.br/cursos-e-faculdades/design-de-games/salario-de-designer-de-games-carreira .*
 
 <a name="1.3"></a>
-## 3. Características pessoais
+## 1.3 Características pessoais
 A seguir vamos destacar algumas Características necessárias para um bom Game Design.
 
 ![Figura: Turning employee ideas into profitable results - https://www.singerandfalk.com](https://www.singerandfalk.com/wp-content/uploads/2018/03/02_07_18_838151864_BB_560x292.jpg "Figura: Turning employee ideas into profitable results - https://www.singerandfalk.com")
@@ -112,7 +147,7 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 **[⬆ Início](#indice)**
 
 <a name="2"></a>
-**Capitulo II -  Como construir um jogo digital?**
+**CAPÍTULO II -  Como construir um jogo digital?**
 
 > "Se você quiser fazer uma torta de maçã do nada, você precisa, primeiro, inventar o universo."
 >
@@ -156,7 +191,7 @@ Como são os personagens? qual o ambiente? esse tipo de pergunta são apresentad
 **[⬆ Início](#indice)**
 
 <a name="2.1"></a>
-## 1 A equipe
+## 2.1 A equipe
 Organizar a equipe é um trabalho interessante quando compreendemos as Características do produto que vamos desenvolver e as aliamos aos perfis profissionais que devem atuar no desenvolvimento.
 
 ![Figura: Mas qual é a diferença entre design de games, game art e game design? - http://unidigitaldobrasil.com.br](http://unidigitaldobrasil.com.br/wp-content/uploads/2016/01/Kabam-playing-underworld-empire-together.jpg "Figura: Mas qual é a diferença entre design de games, game art e game design? - http://unidigitaldobrasil.com.br")
@@ -177,7 +212,7 @@ Organizar a equipe é um trabalho interessante quando compreendemos as Caracter�
 **[⬆ Início](#indice)**
 
 <a name="2.2"></a>
-## 2. Tarefas
+## 2.2 Tarefas
 Quais são as tarefas e atividades que devem ser executadas, por onde começamos? uma resposta para a pergunta é organize em pacotes de entrega. Defina e agrup um conjunto de entregas baseadas em funcionalidades e comece a organizar a sua agenda.
 
 
@@ -196,7 +231,7 @@ Quais são as tarefas e atividades que devem ser executadas, por onde começamos
 **[⬆ Início](#indice)**
 
 <a name="2.3"></a>
-## 3. Limitações
+## 2.3 Limitações
 O projeto é limitado por vários fatores, dentre eles:
 - Dinheiro;
 - Tempo;
@@ -210,14 +245,14 @@ O projeto é limitado por vários fatores, dentre eles:
 **[⬆ Início](#indice)**
 
 <a name="3"></a>
-**Capitulo III -  Como organizar as ideias?**
+**CAPÍTULO 3 -  Como organizar as ideias?**
 
 > "Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, visto que o Universo não tem ideias."
 >
 > Fernando Pessoa.
 
 <a name="3.1"></a>
-## 1. Onde nascem as ideias?
+## 3.1 Onde nascem as ideias?
 ![Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones - https://www.theverge.com](https://cdn3.vox-cdn.com/uploads/chorus_asset/file/3687336/The_Witcher_3_Wild_Hunt_You_never_know_what_waits_around_the_corner.0.png "Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones - https://www.theverge.com")
 
 > *Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones - https://www.theverge.com .*
@@ -231,7 +266,7 @@ O projeto é limitado por vários fatores, dentre eles:
 **[⬆ Início](#indice)**
 
 <a name="3.2"></a>
-## 2. Cultivando ideias
+## 3.2 Cultivando ideias
 ![Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com](https://cdn.vox-cdn.com/thumbor/KfZcAgZDNJyf7POmq2KDOfa2fZA=/148x0:1768x1080/920x613/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47374578/unravel-yarny.0.0.jpg "Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com")
 
 > *Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com .*
@@ -244,7 +279,7 @@ O projeto é limitado por vários fatores, dentre eles:
 **[⬆ Início](#indice)**
 
 <a name="3.3"></a>
-## 3. O que torna a ideia interessante é
+## 3.3 O que torna a ideia interessante é
 ![Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br](https://adrenaline.com.br/uploads/2021/09/09/70890/Lost-in-Random_06.jpg "Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br")
 
 > *Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br .*
@@ -255,7 +290,7 @@ O projeto é limitado por vários fatores, dentre eles:
 **[⬆ Início](#indice)**
 
 <a name="3.4"></a>
-## 4. O que nos inspira?
+## 3.4 O que nos inspira?
 ![Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br/voxel/jogos/rise-of-the-tomb-raider/analise](imagens/04190615075402.webp "Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br/voxel/jogos/rise-of-the-tomb-raider/analise .")
 
 > *Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br/voxel/jogos/rise-of-the-tomb-raider/analise .*
@@ -268,7 +303,7 @@ O projeto é limitado por vários fatores, dentre eles:
 **[⬆ Início](#indice)**
 
 <a name="3.5"></a>
-## 5. Hábito
+## 3.5 Hábito
 
 ![Figura: Review Journey - https://www.tecmundo.com.br](https://s2.glbimg.com/ZcTFIilmLi8663REozPDO8EzL18=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/q/UZHV1lT8SDUVlX8Bso5Q/2015-07-24-journey3.jpg "Figura: Review Journey - https://www.tecmundo.com.br")
 
@@ -285,7 +320,7 @@ O projeto é limitado por vários fatores, dentre eles:
 ****
 
 <a name="4"></a>
-## Capitulo IV - Como construir os personagens?
+## CAPÍTULO 4 - Como construir os personagens?
 > "Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro."
 >
 > Alan Wake.
@@ -310,7 +345,7 @@ Não existe uma formula mágica que se deve seguir para construir um personagem 
 Devemos também outras estruturas de organização e entendimento dos  heróis, amigos, amigos nem tanto e supostos inimigos (Lembre do ótimo jogo [Last of Us Parte 2](https://thelastofus.com.br/)), a seguir apresentamos essas estruturas.
 
 <a name="4.1"></a>
-## 1. A jornada do Herói
+## 4.1. A jornada do Herói
 
 ![Figura: Jornada do Herói - https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69](https://miro.medium.com/max/500/1*cQanY8AUEBH3f0BsGo_vOw.png "Figura: Jornada do Herói - https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69")
 
@@ -335,7 +370,7 @@ Abaixo alguns filmes que utilizam essa fórmula :
 **[⬆ Início](#indice)**
 
 <a name="4.2"></a>
-## 2. Personalidade
+## 4.2 Personalidade
 - Como ele caminha;
 
   ![Figura: Relembre os melhores jogos clássicos em 2D do Sonic - https://www.techtudo.com.br/](https://s2.glbimg.com/6VbePiU5gQg5tDf6RnWBQKWq9TE=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/A/koepwtTciyZq1aIruRUw/2016-07-27-sonic-melhores-jogos-10.jpg "Figura: Relembre os melhores jogos clássicos em 2D do Sonic - https://www.techtudo.com.br/")
@@ -377,7 +412,7 @@ Abaixo alguns filmes que utilizam essa fórmula :
 **[⬆ Início](#indice)**
 
 <a name="4.3"></a>
-## 3. Motivação
+## 4.3 Motivação
 
 **Salvar a amada ou amigo.**
 
@@ -428,7 +463,7 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 **[⬆ Início](#indice)**
 
 <a name="4.4"></a>
-## 4. Morte
+## 4.4 Morte
 - Valorize a morte do seu personagem.
   - Dos amigos.
 
@@ -451,7 +486,7 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 **[⬆ Início](#indice)**
 
 <a name="4.5"></a>
-## 5. Nome
+## 4.5 Nome
 
 ![Figura: Commander Shepard's first name is probably Sarah, or Jack - https://www.vg247.com](http://assets.vg247.com/current//2014/05/mass_effect_shepard_names.jpg "Figura: Commander Shepard's first name is probably Sarah, or Jack - https://www.vg247.com")
 
@@ -480,7 +515,7 @@ O personagem L do mangá Death Note é um exemplo interessante de nome curto poi
 **[⬆ Início](#indice)**
 
 <a name="4.6"></a>
-## 6. Forma
+## 4.6 Forma
 
 **Proporções faciais.**
 
@@ -510,7 +545,7 @@ Se parece com humano então faz coisas humanas.
 **[⬆ Início](#indice)**
 
 <a name="4.7"></a>
-## 7. Customização
+## 4.7 Customização
 
 ![Figura: Character development -https://www.ageofconan.com](https://web-cdn.funcom.com/aoc/screenshots/tier3_ranger_armor-814x600.jpg "Figura: Character development -https://www.ageofconan.com")
 
@@ -530,7 +565,7 @@ Se parece com humano então faz coisas humanas.
 **[⬆ Início](#indice)**
 
 <a name="4.8"></a>
-## 8. Não estamos sozinhos
+## 4.8 Não estamos sozinhos
 
 ![Figura: The Last of Us: Remastered - https://gamehall.com.br/](https://i0.wp.com/gamehall.com.br/wp-content/uploads/2014/08/275048-l-the-last-of-us-remastered-ps4-boosted-by-best-game-ever-jpeg-116561.jpg?resize=780%2C470&ssl=1 "Figura: The Last of Us: Remastered - https://gamehall.com.br/")
 
@@ -544,7 +579,7 @@ Se parece com humano então faz coisas humanas.
 **[⬆ Início](#indice)**
 
 <a name="4.9"></a>
-## 9. NPC- Personagens não jogáveis
+## 4.9 NPC- Personagens não jogáveis
 
 ![Figura: Search for Deckard Cain quest failed in Diablo 2 Resurrected: What are the consequences? - https://www.ginx.tvs](https://www.ginx.tv/uploads2/diablo/D2R/deckard_cain_hots.jpg?ezimgfmt=ng%3Awebp%2Fngcb5%2Frs%3Adevice%2Frscb5-1 "Figura: Search for Deckard Cain quest failed in Diablo 2 Resurrected: What are the consequences? - https://www.ginx.tv")
 
@@ -569,7 +604,7 @@ Se parece com humano então faz coisas humanas.
 
 ***
 <a name="5"></a>
-## Capitulo V - Eles todos me querem morto
+## CAPÍTULO 5 - Eles todos me querem morto
 
 > "A jornada não acaba aqui. A morte é apenas um outro caminho... que todos temos que tomar".
 >
@@ -589,7 +624,7 @@ Se parece com humano então faz coisas humanas.
 **[⬆ Início](#indice)**
 
 <a name="5.2"></a>
-## 2. Forma segue a função
+## 5.2 Forma segue a função
 
 ![Figura: Resident Evil Village bosses guide - https://www.pcgamesn.com](https://www.pcgamesn.com/wp-content/uploads/2021/05/resident-evil-village-bosses-guide-list-lady-dimitrescu-900x506.jpg "Figura: Resident Evil Village bosses guide - https://www.pcgamesn.com")
 
@@ -650,7 +685,7 @@ Se parece com humano então faz coisas humanas.
 **[⬆ Início](#indice)**
 
 <a name="5.3"></a>
-## 3. Lutar com inimigos deve ser divertido
+## 5.3 Lutar com inimigos deve ser divertido
 Os inimigos dever enfrentados, não evitados.
 
 ![Figura: Assassin's Creed Valhalla Preview Impressions: A Strong Successor to Odyssey - https://www.cbr.com](https://static2.cbrimages.com/wordpress/wp-content/uploads/2020/07/Assassins-Creed-Valhalla-Combat.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5 "Figura: Assassin's Creed Valhalla Preview Impressions: A Strong Successor to Odyssey - https://www.cbr.com")
@@ -665,7 +700,7 @@ Os inimigos dever enfrentados, não evitados.
 **[⬆ Início](#indice)**
 
 <a name="5.4"></a>
-## 4. Ataques
+## 5.4 Ataques
 
 ![Figura: Kirby’s Alpha 1 Combat Analysis - https://ashespost.com](https://ashespost.com/wp-content/uploads/2018/09/Combat-Analysis-2.jpg "Figura: Kirby’s Alpha 1 Combat Analysis - https://ashespost.com")
 
@@ -680,7 +715,7 @@ Os inimigos dever enfrentados, não evitados.
 **[⬆ Início](#indice)**
 
 <a name="5.5"></a>
-## 5. Nem tudo é ataque
+## 5.5 Nem tudo é ataque
 
 ![Figura: The Ideal Video Game Enemy - https://www.thefandomentals.com](https://www.thefandomentals.com/wp-content/uploads/2017/03/enemies.jpg "Figura: The Ideal Video Game Enemy - https://www.thefandomentals.com")
 
@@ -699,7 +734,7 @@ Os inimigos dever enfrentados, não evitados.
 **[⬆ Início](#indice)**
 
 <a name="5.6"></a>
-## 6. Faça o jogador odiar seu inimigo
+## 5.6 Faça o jogador odiar seu inimigo
 
 Inimigos não inimigos.
 
@@ -720,7 +755,7 @@ Top 10 Most Annoying Video Game Enemies of All Time -  https://twinfinite.net .*
 **[⬆ Início](#indice)**
 
 <a name="5.7"></a>
-## 7. BOSS
+## 5.7 BOSS
 
 ![Figura: Nemesis T-Type - https://residentevil.com.br](https://residentevil.com.br/wp-content/uploads/2015/07/nemesis_t-type_wiki-1024x512.jpg "Figura: Nemesis T-Type - https://residentevil.com.br")
 
