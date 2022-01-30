@@ -10,37 +10,23 @@ layout: page
 
 Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de básica de objetos do **Unreal Engine**, neste capitulo serão apresentados e implementados os atores *Actors* do seu projeto.
 
-&nbsp;&nbsp;[O que são Atores?](#7.1)
+&nbsp;&nbsp;[7.1 O que são Atores?](#7.1)
 
-&nbsp;&nbsp;[Utilizando classes com Blueprint ](#7.2)
+&nbsp;&nbsp;[7.2 Utilizando classes com Blueprint ](#7.2)
 
-&nbsp;&nbsp;[Componentes e Actors](#3)
-    1. [Adicionando componentes](#31)
-    1. [Editor de objetos e componentes](#32)
-&nbsp;&nbsp;[Static Mesh - Malhas estáticas](#4)
-    1. [Componente StaticMesh](#41)
-    1. [Propriedades do componente](#42)
-    1. [Editor de StaticMesh](#43)
-&nbsp;&nbsp;[Skeletal Mesh - Malha Esquelética](#5)
-    1. [Estrutura](#51)
-    1. [Componentes](#52)
-    1. [Detalhes](#53)
-    1. [Editor](#54)
-&nbsp;&nbsp;[Posição e coordenadas](#6)
-    1. [Coordenadas no ViewPort](#61)
-    1. [Transform](#62)
-    1. [Escrevendo na tela o posicionamento do ator no mundo](#63)
-    1. [Posição relativa no mundo](#64)
-    1. [Escrevendo na tela o posição relativa do componente](#64)
-&nbsp;&nbsp;[Trabalhando com herança com Blueprint](#7)
-    1. [Componente ChildActor implementa a ligação com outro ator](#71)
-    1. [Herança de propriedades e métodos](#72)
-    1. [Referências de atores e componentes](#73)
-&nbsp;&nbsp;[Manipulando Actors](#8)
-    1. [Spawn e Destroy Actors - Criando e destruindo um Actor](#81)
-    1. [Listando atores por classe](#82)
-    1. [Listando atores utilizando tag (etiquetas)](#83)
-&nbsp;&nbsp;[Colisões](#9)
+&nbsp;&nbsp;[7.3 Componentes e Actors](#7.3)
+
+&nbsp;&nbsp;[7.4 Static Mesh - Malhas estáticas](#7.4)
+
+&nbsp;&nbsp;[7.5 Skeletal Mesh - Malha Esquelética](#7.5)
+
+&nbsp;&nbsp;[7.6 Posição e coordenadas](#7.6)
+
+&nbsp;&nbsp;[7.7 Trabalhando com herança com Blueprint](#7.7)
+
+&nbsp;&nbsp;[7.8 Manipulando Actors](#7.8)
+
+&nbsp;&nbsp;[7.9 Colisões](#7.9)
 
 <a name="7.1"></a>
 ## 7.1 O que são Actors?
@@ -236,7 +222,7 @@ Visualização da malha e suas propriedades (vértices, UV e modelo de colisão)
 > Figura: Editor de StaticMesh.
 
 <a name="7.5"></a>
-## 5 Skeletal Mesh - Malha Esquelética
+## 7.5 Skeletal Mesh - Malha Esquelética
 As **Skeletal mesh** são compostas por duas partes: Um conjunto de polígonos compostos para formar a superfície da Malha Esquelética e um conjunto hierárquico de ossos interconectados que podem ser usados para animar os vértices dos polígonos. **Skeletal mesh** são frequentemente usados no **Unreal Engine 4** para representar personagens ou outros objetos animados.
 
 **A Estrutura.**
@@ -302,49 +288,64 @@ Observe que o editor é divido em :
 
 - `Physcis`s - Estruturas para representar a física do esqueleto.
 
-<a name="6"></a>
-## 6. Posição e coordenadas
+<a name="7.6"></a>
+## 7.6 Posição e coordenadas
 Os objetos adicionados em uma cena possuem coordenadas de localização dentro do 'mundo', vamos apresentar como manipular coordenadas.    
 
-<a name="61"></a>
-### 6.1 Coordenadas no ViewPort
-Apresentando as coordenadas no **ViewPort**.    
-![blueprint_coordinate_viewport](imagens/actor/blueprint_coordinate_viewport.jpg)  
+**Apresentando as coordenadas no ViewPort.**    
 
-<a name="62"></a>
-### 6.2 Transform
+![Figura: Coordenadas no ViewPort](imagens/actor/blueprint_coordinate_viewport.webp "Figura: Coordenadas no ViewPort")
+
+> Figura: Coordenadas no ViewPort.
+
+**Transform.**
+
 A seção **Transform** do painel Detalhes permite que você visualize e edite as transformações - Localização, Rotação e Escala - do (s) ator (es) selecionado (s). Além disso, quando aplicável, também contém as configurações para Mobilidade do Ator.   
-![blueprint_transform](imagens/actor/blueprint_transform.jpg)  
 
-<a name="63"></a>
-### 6.3 Escrevendo na tela o posicionamento do ator no mundo.  
-![blueprint_actor_print_location](imagens/actor/blueprint_actor_print_location.jpg)
-- **GetActorLocation** - Retorna um vetor contendo as coordenadas X,Y e Z da posição do ator no mundo. Utiliza o componente **RootComponent** para determinar os valores.
-- **GetwordLocarion** - Retorna um vetor de coordenadas da posição do componente no mundo.
+![Figura: Transform - Coordenadas de posicionamento](imagens/actor/blueprint_transform.webp "Figura: Transform - Coordenadas de posicionamento")  
 
-<a name="64"></a>
-### 6.4 Posição relativa no mundo  
-Os elementos associados a um ator, como por exemplo **StaticMeshes** tem posições relativas ao objeto ao qual estão associados.  
+> Figura: Transform - Coordenadas de posicionamento.
 
-Considere o exemplo abaixo do objeto **BP_Ator**
+**Escrevendo na tela o posicionamento do ator no mundo.**
+
+![Figura: Bluprint Print Location](imagens/actor/blueprint_actor_print_location.webp "Figura: Bluprint Print Location")
+
+> Figura: Bluprint Print Location.
+
+- `GetActorLocation` - Retorna um vetor contendo as coordenadas X,Y e Z da posição do ator no mundo. Utiliza o componente `RootComponent` para determinar os valores;
+
+- `GetwordLocarion` - Retorna um vetor de coordenadas da posição do componente no mundo.
+
+**Posição relativa no mundo.**
+
+Os elementos associados a um ator, como por exemplo `StaticMeshes` tem posições relativas ao objeto ao qual estão associados.  
+
+Considere o exemplo abaixo do objeto **BP_Ator**:
+
 ```bash
 |-- BP_Ator
     |-- DefaultSceneRoot
     |   |-- StaticMesh
 ```
-O objeto possui um componente **DefaultSceneRoot**.    
+O objeto possui um componente `DefaultSceneRoot`.    
 
-![Posição](imagens/actor/blueprint_actor_add_component.jpg)
+![Figura: DefaultSceneRoot](imagens/actor/blueprint_actor_add_component.webp "Figura: DefaultSceneRoot")
 
-A posição do ator no mundo é calculada utilizando o componente **DefaultSceneRoot** do tipo **Scene**. O componente **StaticMesh** tem um vetor de coordenadas relativas ao objeto de hierarquia superior, sendo X=0,Y=0 e Z=0.
+> Figura: DefaultSceneRoot.
 
-<a name="65"></a>
-### 6.5 Escrevendo na tela o posição relativa do componente.
-![Posição Relativa](imagens/actor/blueprint_actor_print_location_relative.jpg)
+A posição do ator no mundo é calculada utilizando o componente `DefaultSceneRoot` do tipo `Scene`. O componente `StaticMesh` tem um vetor de coordenadas relativas ao objeto de hierarquia superior, sendo X=0,Y=0 e Z=0.
 
-<a name="7"></a>
-## 7. Trabalhando com herança com Blueprint
-Herança permite usar classes já definidas para derivar novas classes.  
+**Escrevendo na tela o posição relativa do componente.**
+
+![Figura: Blueprint - Print Relative location](imagens/actor/blueprint_actor_print_location_relative.webp "Figura: Blueprint - Print Relative location")
+
+> Figura: Blueprint - Print Relative location.
+
+<a name="7.7"></a>
+## 7.7 Trabalhando com herança com Blueprint
+
+Como apresentado no conceito de classes, a herança permite usar classes já definidas para derivar novas classes, a seguir vamos verificar como implementar utlizando **Blueprint**.  
+
 Exemplo:  
 ```bash
 |-- Character
@@ -360,53 +361,62 @@ Exemplo:
     |   |   |-- Vida = 100 (herdado)
     |   |   |-- Dano = 80 (herdado)    
 ```    
-<a name="71"></a>
-### 7.1 Componente *ChildActor* implementa a ligação com outro ator.  
+**Componente *ChildActor* implementa a ligação com outro ator.**
+
 O componente **ChildActor** permite associar uma classe filha utilizando a lista de componentes.
 
 ![blueprint_actor_childactor](imagens/actor/blueprint_actor_childactor.jpg)    
-- **ChildActor** - É necessário informar a classe filho neste componente.
 
-<a name="72"></a>
-### 7.2 Herança de propriedades e métodos.
-É possível sobrescrever os métodos da classe pai para adicionar uma nova lógica.    
+- `ChildActor` - É necessário informar a classe filho neste componente.
 
-1. Criando um evento para sobrescrever o evento **Begin Play**.   
-![blueprint_actor_event_inheritance_create](imagens/actor/blueprint_actor_event_inheritance_create.jpg)
+**Herança de propriedades e métodos.**
+
+É possível sobrescrever os métodos da classe pai para adicionar uma nova lógica, vamos aos passos.    
+
+1. Criando um evento para sobrescrever o evento `Begin Play`.   
+
+  ![blueprint_actor_event_inheritance_create](imagens/actor/blueprint_actor_event_inheritance_create.jpg)
+
 1. Lógica adicionada no novo evento.    
-![blueprint_actor_event_inheritance](imagens/actor/blueprint_actor_event_inheritance.jpg)
 
-<a name="73"></a>
-### 7.3 Referências de atores e componentes.  
+  ![blueprint_actor_event_inheritance](imagens/actor/blueprint_actor_event_inheritance.jpg)
+
+**Referências de atores e componentes.**
+
 ![blueprint_view_class_inheritance](imagens/actor/blueprint_view_class_inheritance.jpg)
 
-<a name="8"></a>
-## 8. Manipulando Actors
+<a name="7.8"></a>
+## 7.8 Manipulando Actors
 Podemos adicionar, remover ou selecionar os atores que estão na cena do jogo, a seguir vamos implementar e entender esses comandos.
 
-<a name="81"></a>
-### 8.1 Spawn e Destroy Actors - Criando e destruindo um Actor.  
+**Spawn e Destroy Actors - Criando e destruindo um Actor.**
+
 O processo de criação de uma nova instância de um ator é conhecido como *spawning*. A geração de atores é realizada usando a função **SpawnActor**. Esta função cria uma nova instância de uma classe especificada e retorna um ponteiro para o Actor recém-criado.**SpawnActor** só pode ser usado para criar instâncias de classes que herdam da classe Actor em sua hierarquia.    
 
 ![blueprint_actor_spawn](imagens/actor/blueprint_actor_spawn.jpg)  
 
 Utilizando o **Level Bluprint** podemos implementar o código acima.
-1. Ao pressionar a tecla **H** o ator e criado na cena utilizando as coordenadas de um componente **targetPoint** adicionando na cena.
-1. O comando **flip/flop** é utilizado para intercalar entre criar e destruir o ator, com os métodos **SpawnActor** e **DestroyActor** respectivamente.
-1. Usamos **IsValid** para verificar se o ator existe na cena.
 
-<a name="82"></a>
-### 8.2 Listando Actors por classe
-Utilizando a função **GetAllActorOfClass** e o loop **For Each Loop** podemos listar todos os atores na cena.
+1. Ao pressionar a tecla **H** o ator e criado na cena utilizando as coordenadas de um componente `targetPoint` adicionando na cena;
+
+1. O comando **flip/flop** é utilizado para intercalar entre criar e destruir o ator, com os métodos `SpawnActor` e `DestroyActor` respectivamente;
+
+1. Usamos `IsValid` para verificar se o ator existe na cena.
+
+**Listando Actors por classe.**
+
+Utilizando a função `GetAllActorOfClass` e o loop `For Each Loop` podemos listar todos os atores na cena.
+
 ![blueprint_actor_get_all_actors](imagens/actor/blueprint_actor_get_all_actors.jpg)
 
-<a name="83"></a>
-### 8.3 Listando Actors utilizando *tag* (etiquetas)
+**Listando Actors utilizando *tag* (etiquetas)**
+
 Adicionando uma *tag* (Etiqueta) na propriedade do ator podemos selecionar todos na cena que tenham a referida *tag*.
+
 ![blueprint_actor_get_all_actors_tags](imagens/actor/blueprint_actor_get_all_actors_tags.jpg)
 
-<a name="9"></a>
-## 9. Colisões
+<a name="7.9"></a>
+## 7.9 Colisões
 - Simplex collision
 - Complex collision  
 
