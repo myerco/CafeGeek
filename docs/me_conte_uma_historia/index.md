@@ -147,7 +147,7 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 **[⬆ Início](#indice)**
 
 <a name="2"></a>
-**CAPÍTULO II -  Como construir um jogo digital?**
+## CAPÍTULO 2 -  Como construir um jogo digital?
 
 > "Se você quiser fazer uma torta de maçã do nada, você precisa, primeiro, inventar o universo."
 >
@@ -245,7 +245,7 @@ O projeto é limitado por vários fatores, dentre eles:
 **[⬆ Início](#indice)**
 
 <a name="3"></a>
-**CAPÍTULO 3 -  Como organizar as ideias?**
+## CAPÍTULO 3 -  Como organizar as ideias?
 
 > "Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, visto que o Universo não tem ideias."
 >
