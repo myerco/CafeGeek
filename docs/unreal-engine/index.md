@@ -296,7 +296,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 ***
 
-&nbsp;&nbsp;[7.1 Implementando Atores](actor_atores.html)
+&nbsp;&nbsp;[7.1 Implementando Atores](unreal_engine_actor_atores.html)
 
 &nbsp;&nbsp;[7.2 Utilizando Eventos, funções e macros](estruturando_logica_utilizando_eventos_funcoes_macros.html)  
 
