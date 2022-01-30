@@ -1,9 +1,11 @@
 ---
 title: Implementado Atores
-description: Neste capitulo serão apresentados e implementados os atores *Actors* do seu projeto.
+description: Neste capitulo serão apresentados e implementados os atores *Actors* do seu projetos.
 tags: [Unreal Engine,actor,atores]
 layout: page
 ---
+
+s***
 
 <a name="1"></a>
 ## CAPÍTULO 7 - Atores e movimentação
@@ -365,7 +367,9 @@ Exemplo:
 
 O componente **ChildActor** permite associar uma classe filha utilizando a lista de componentes.
 
-![blueprint_actor_childactor](imagens/actor/blueprint_actor_childactor.jpg)    
+![Figura: Blueprint - ChildActor](imagens/actor/blueprint_actor_childactor.webp "Figura: Blueprint - ChildActor")  
+
+> Figura: Blueprint - ChildActor.  
 
 - `ChildActor` - É necessário informar a classe filho neste componente.
 
@@ -375,15 +379,21 @@ O componente **ChildActor** permite associar uma classe filha utilizando a lista
 
 1. Criando um evento para sobrescrever o evento `Begin Play`.   
 
-  ![blueprint_actor_event_inheritance_create](imagens/actor/blueprint_actor_event_inheritance_create.jpg)
+  ![Figura: Blueprint  - Functions Override](imagens/actor/blueprint_actor_event_inheritance_create.webp "Figura: Blueprint  - Functions Override" )
+
+  > Figura: Blueprint  - Functions Override.
 
 1. Lógica adicionada no novo evento.    
 
-  ![blueprint_actor_event_inheritance](imagens/actor/blueprint_actor_event_inheritance.jpg)
+  ![Figura: Blueprint - Herança do evento Begin Play](imagens/actor/blueprint_actor_event_inheritance.webp "Figura: Blueprint - Herança do evento Begin Play")
+
+  > Figura: Blueprint - Herança do evento Begin Play.
 
 **Referências de atores e componentes.**
 
-![blueprint_view_class_inheritance](imagens/actor/blueprint_view_class_inheritance.jpg)
+![Figura: Blueprint - View Class](imagens/actor/blueprint_view_class_inheritance.webp "Figura: Blueprint - View Class")
+
+> Figura: Blueprint - View Class.
 
 <a name="7.8"></a>
 ## 7.8 Manipulando Actors
@@ -391,15 +401,17 @@ Podemos adicionar, remover ou selecionar os atores que estão na cena do jogo, a
 
 **Spawn e Destroy Actors - Criando e destruindo um Actor.**
 
-O processo de criação de uma nova instância de um ator é conhecido como *spawning*. A geração de atores é realizada usando a função **SpawnActor**. Esta função cria uma nova instância de uma classe especificada e retorna um ponteiro para o Actor recém-criado.**SpawnActor** só pode ser usado para criar instâncias de classes que herdam da classe Actor em sua hierarquia.    
+O processo de criação de uma nova instância de um ator é conhecido como *spawning*. A geração de atores é realizada usando a função `SpawnActor`. Esta função cria uma nova instância de uma classe especificada e retorna um ponteiro para o Actor recém-criado. `SpawnActor` só pode ser usado para criar instâncias de classes que herdam da classe Actor em sua hierarquia.    
 
-![blueprint_actor_spawn](imagens/actor/blueprint_actor_spawn.jpg)  
+![Figura: Blueprint - Exemplo de SpawnActor e DestroyActor](imagens/actor/blueprint_actor_spawn.jpg "Figura: Blueprint - Exemplo de SpawnActor e DestroyActor")  
 
-Utilizando o **Level Bluprint** podemos implementar o código acima.
+> Figura: Blueprint - Exemplo de SpawnActor e DestroyActor.
+
+Utilizando o `Level Bluprint` podemos implementar o código acima.
 
 1. Ao pressionar a tecla **H** o ator e criado na cena utilizando as coordenadas de um componente `targetPoint` adicionando na cena;
 
-1. O comando **flip/flop** é utilizado para intercalar entre criar e destruir o ator, com os métodos `SpawnActor` e `DestroyActor` respectivamente;
+1. O comando `flip/flop` é utilizado para intercalar entre criar e destruir o ator, com os métodos `SpawnActor` e `DestroyActor` respectivamente;
 
 1. Usamos `IsValid` para verificar se o ator existe na cena.
 
@@ -407,29 +419,21 @@ Utilizando o **Level Bluprint** podemos implementar o código acima.
 
 Utilizando a função `GetAllActorOfClass` e o loop `For Each Loop` podemos listar todos os atores na cena.
 
-![blueprint_actor_get_all_actors](imagens/actor/blueprint_actor_get_all_actors.jpg)
+![Figura: Blueprint - Exemplo de GetAllActorOfClass](imagens/actor/blueprint_actor_get_all_actors.webp "Figura: Blueprint - Exemplo de GetAllActorOfClass")
+
+> Figura: Blueprint - Exemplo de GetAllActorOfClass.
 
 **Listando Actors utilizando *tag* (etiquetas)**
 
 Adicionando uma *tag* (Etiqueta) na propriedade do ator podemos selecionar todos na cena que tenham a referida *tag*.
 
-![blueprint_actor_get_all_actors_tags](imagens/actor/blueprint_actor_get_all_actors_tags.jpg)
+![Figura: Blueprint - Exemplo de GetAllActorWithTag](imagens/actor/blueprint_actor_get_all_actors_tags.webp "Figura: Blueprint - Exemplo de GetAllActorWithTag")
+
+> Figura: Blueprint - Exemplo de GetAllActorWithTag.
 
 <a name="7.9"></a>
 ## 7.9 Colisões
+
 - Simplex collision
+
 - Complex collision  
-
-***
-
-## Referências
-- [Arms](https://docs.unrealengine.com/en-US/Gameplay/HowTo/UsingCameras/SpringArmComponents/index.html)  
-- [Spawned no cliente](https://docs.unrealengine.com/en-US/Gameplay/HowTo/SpawnAndDestroyActors/Blueprints/index.html)  
-- [Editor](https://docs.unrealengine.com/en-US/Engine/Content/Types/StaticMeshes/Editor/index.html)  
-- [Static Mesh](https://www.youtube.com/watch?v=8WvwFPN1XNA)  
-- [Static Mesh Actors](https://docs.unrealengine.com/en-US/Engine/Actors/StaticMeshActor/index.html)
-- [Skeletal Mesh Actors](https://docs.unrealengine.com/en-US/Engine/Actors/SkeletalMeshActors/index.html)  
-- [Componentes](https://docs.unrealengine.com/en-US/Programming/UnrealArchitecture/Actors/Components/index.html)
-- [Brushes](https://docs.unrealengine.com/en-US/Basics/Actors/Brushes/index.html)
-- [Actors](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/Actors/index.html)
-- [Collsion Overview](https://docs.unrealengine.com/en-US/InteractiveExperiences/Physics/Collision/Overview/index.html)
