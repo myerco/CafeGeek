@@ -143,11 +143,11 @@ nossa nomenclatura."
 
 Há uma extraordinária divergência entre as numerosas tentativas de definição da função biológica do jogo. Umas definem as origens e fundamento do jogo em termos de descarga da energia vital superabundante, outras como satisfação de um certo "instinto de imitação", ou ainda simplesmente como uma "necessidade" de distensão.
 
-Quando pensamos no aspecto humano e evolutivo temos não podemos deixar de citar algumas teorias que buscam definir o jogo.
+Quando pensamos no aspecto humano e evolutivo não podemos deixar de citar algumas teorias que buscam definir o jogo.
 
-- O jogo constitui uma preparação do jovem para as tarefas sérias que mais tarde a vida dele exigirá.
-- Trata-se de um exercício de autocontrole indispensável ao indivíduo.
-- Um impulso inato para exercer uma certa faculdade, ou como desejo de dominar ou competir.
+- O jogo constitui uma preparação do jovem para as tarefas sérias que mais tarde a vida dele exigirá;
+- Trata-se de um exercício de autocontrole indispensável ao indivíduo;
+- Um impulso inato para exercer uma certa faculdade, ou como desejo de dominar ou competir;
 - Teorias há, ainda, que o consideram uma "ab-reação" (descarga emocional pela qual um indivíduo se liberta do afeto que acompanha a recordação de um acontecimento traumático), um escape para impulsos prejudiciais, um restaurador da energia dispendida por uma atividade unilateral, ou "realização do desejo", ou uma ficção destinada a preservar o sentimento do valor pessoal.
 
 **[⬆ Início](#indice)**
@@ -171,7 +171,7 @@ oposição aos animais, de maneira quase tão absoluta quanto o *homo sapiens*".
 
 Em contrapartida devemos lembrar que o riso no filme O Nome da Rosa teve outra conotação, segue a abaixo um trecho da conversa do Willian com um monge.
 
-"...O riso é um evento demoníaco que deforma as linhas do rosto e faz os homens parecerem macacos”; "O riso mata o temor e sem o temor não pode haver fé!")."
+"...O riso é um evento demoníaco que deforma as linhas do rosto e faz os homens parecerem macacos "O riso mata o temor e sem o temor não pode haver fé!"...".
 
 **[⬆ Início](#indice)**
 
@@ -230,7 +230,7 @@ Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um 
 ## 2.1.2 O jogo e a Guerra
 ![O jogo e a guerra](https://lh3.googleusercontent.com/eHCIaFbDB3dEjinKTkIp5AOuGRL9S8taKXnuuQyJM_ZLsxrHjdYMvUb7OISIuOWJwS9a1kwlERn5n0akqx_jUnfjXUazb4TzMqvKrA4zAwNU7Lwn0NSFAyTJlwZgs0a3BiefXfXF7Q "O jogo e a guerra")
 
-É difícil não associar a guerra ao jogo mas o contrário é possível, na guerra o objetivo e conquistar ou subjugar o seu oponente.
+É difícil não associar a guerra ao jogo mas o contrário é possível, na guerra o objetivo é conquistar ou subjugar o seu oponente.
 
 <a name="2.1.3"></a>
 ## 2.1.3 O jogo e o Direito
@@ -355,6 +355,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
 ![https://myplinkit.com](https://myplinkit.com/wp-content/uploads/2020/03/Activities-and-Games_iStock-1127260590_cropped.jpg "Activities + Games You Can Do at Home to Support Your Child’s Learning")
 
 **Marca.**
+
 ![https://medium.com](https://miro.medium.com/max/825/1*M6VI8_01A-At7Nzp2wn6IA.png "Top 20 Game Studios: Who’s Your Favorite?")
 
 <a name="3.5"></a>
