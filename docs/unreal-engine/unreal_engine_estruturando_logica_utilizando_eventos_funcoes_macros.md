@@ -9,16 +9,14 @@ layout: page
 
 Neste capitulo serão apresentado como estruturar a lógica de programação utilizando métodos, funções e macros.
 
-&nbsp;&nbsp;[**7.10 Entendo Métodos e funções em programação**](#7.10)
+&nbsp;&nbsp;[7.10 Entendo Métodos e funções em programação](#7.10)
 
-&nbsp;&nbsp;[O que são Eventos (Events) em Blueprint](#2);
-    1. [Evento de dano no personagem](#21)
-    1. [Chamando o evento](#22)
-    1. [Evento e Métodos](#23)
-1. [Funções (Functions)](#3)
-1. [Macros](#4)
-1. [Collapse Nodes](#5)
-1. [Executando a função e a macros](#6)
+&nbsp;&nbsp;[7.11 O que são Eventos (Events) em Blueprint](#7.11)
+
+&nbsp;&nbsp;[7.12 Funções (Functions)](#7.12)
+&nbsp;&nbsp;[7.13 Macros](#7.14)
+&nbsp;&nbsp;[7.14 Collapse Nodes](#7.15)
+&nbsp;&nbsp;[7.15 Executando a função e a macros](#7.15)
 
 <a name="7.10"></a>
 ## 7.10 Entendo Métodos e funções em programação
@@ -189,7 +187,7 @@ Usado principalmente para organização de código, escondendo nós da estrutura
 - Vai ser criado um gráfico de eventos próprio.
 
 <a name="7.14"></a>
-## 7.14 Executando a função e a macro  
+## 7.15 Executando a função e a macro  
 
 ![Figura: Blueprint - Exemplo de Call function marco](imagens/modulos/blueprint_call_function_macro.webp "Figura: Blueprint - Exemplo de Call function marco")
 
