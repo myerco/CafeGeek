@@ -12,13 +12,13 @@ layout: page
 
 Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de básica de objetos do **Unreal Engine**, neste capitulo serão apresentados e implementados os atores *Actors* do seu projeto.
 
-&nbsp;&nbsp;[7.1 O que são Atores?](#7.1)
+&nbsp;&nbsp;[**7.1 O que são Atores?**](#7.1)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.1 Utilizando classes com Blueprint ](#7.1.1)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.2 Componentes e Actors](#7.1.2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.4 Static Mesh - Malhas estáticas](#7.1.3)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.3 Static Mesh - Malhas estáticas](#7.1.3)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.4 Skeletal Mesh - Malha Esquelética](#7.1.4)
 
@@ -288,10 +288,10 @@ Observe que o editor é divido em :
 
 - `Blueprint` - Lógica de programação para sequenciamento de animações;
 
-- `Physcis`s - Estruturas para representar a física do esqueleto.
+- `Physcis` - Estruturas para representar a física do esqueleto.
 
-<a name="7.6"></a>
-## 7.6 Posição e coordenadas
+<a name="7.1.5"></a>
+## 7.1.5 Posição e coordenadas
 Os objetos adicionados em uma cena possuem coordenadas de localização dentro do 'mundo', vamos apresentar como manipular coordenadas.    
 
 **Apresentando as coordenadas no ViewPort.**    

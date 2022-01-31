@@ -300,7 +300,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[7.2 Utilizando Eventos, funções e macros](unreal_engine_estruturando_logica_utilizando_eventos_funcoes_macros.html)  
 
-&nbsp;&nbsp;[7.3 Implementando a movimentação do personagem](trabalhando_com_logica_movimentacao_de_personagem.html)    
+&nbsp;&nbsp;[7.3 Implementando a movimentação do personagem](unreal_engine_trabalhando_com_logica_movimentacao_de_personagem.html)    
 
 &nbsp;&nbsp;[7.4 Comunicação entre Blueprints](comunicacao_entre_blueprint.html)    
 

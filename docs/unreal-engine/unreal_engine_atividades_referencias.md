@@ -216,8 +216,6 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 
 - [Collsion Overview](https://docs.unrealengine.com/en-US/InteractiveExperiences/Physics/Collision/Overview/index.html)
 
-### CAPT 8
-
 - [Best Practices](https://docs.unrealengine.com/en-US/Engine/Blueprints/BestPractices/index.html)
 
 - [Managing complexity in Blueprints](https://www.unrealengine.com/en-US/blog/managing-complexity-in-blueprints?sessionInvalidated=true)
@@ -225,3 +223,17 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 - [Events](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Events/index.html)
 
 - [Methods vs. Functions in C++ with Examples](https://www.geeksforgeeks.org/methods-vs-functions-in-c-with-examples/)
+
+- [PlayerInput](https://docs.unrealengine.com/en-US/Programming/Tutorials/PlayerInput/index.html)
+
+- [Enabled Input](https://docs.unrealengine.com/en-US/Gameplay/HowTo/ActorInput/Blueprints/index.html)  
+
+- [Mapeando de comandos](https://docs.unrealengine.com/en-US/Gameplay/Input/index.html)  
+
+- [CharacterMovement](https://docs.unrealengine.com/en-US/Gameplay/HowTo/CharacterMovement/Blueprints/index.html)  
+
+- [Create a Free camera pawn with custom inputs](https://isaratech.com/ue4-create-a-free-camera-pawn-with-custom-inputs/)
+
+- [Setting Up Character Movement](https://docs.unrealengine.com/en-US/InteractiveExperiences/HowTo/CharacterMovement/index.html)
+
+- [Grabbing Objects](https://www.youtube.com/watch?v=HnR1Gf5gXcY)
