@@ -218,7 +218,7 @@ Exemplos de coordenadas:
 
 Utilizando o `Level Blueprint` vamos implementar a lógica de movimentação usando `TimeLine`.
 
-![Figura: Blueprint - Exemplo utilizanod Timeline em um Level Blueprint](imagens/actor/blueprint_plataform_setactorlocarion_lerp_timeline.wepb "Figura: Blueprint - Exemplo utilizanod Timeline em um Level Blueprint")
+![Figura: Blueprint - Exemplo utilizanod Timeline em um Level Blueprint](imagens/actor/blueprint_plataform_setactorlocarion_lerp_timeline.webp "Figura: Blueprint - Exemplo utilizanod Timeline em um Level Blueprint")
 
 > Figura: Blueprint - Exemplo utilizanod Timeline em um Level Blueprint.
 

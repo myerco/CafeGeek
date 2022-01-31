@@ -21,6 +21,8 @@ Neste capitulo serão apresentado como estruturar a lógica de programação uti
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.2.5 Executando a função e a macros](#7.2.5)
 
+***
+
 <a name="7.2"></a>
 ## 7.2 Entendo Métodos e funções em programação
 Para entender melhor a estrutura de programação que representa a construção de eventos e funções vamos abordar alguns conceitos de programação.
