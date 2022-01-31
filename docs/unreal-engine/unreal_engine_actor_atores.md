@@ -14,21 +14,21 @@ Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de 
 
 &nbsp;&nbsp;[7.1 O que são Atores?](#7.1)
 
-&nbsp;&nbsp;[7.2 Utilizando classes com Blueprint ](#7.2)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.1 Utilizando classes com Blueprint ](#7.1.1)
 
-&nbsp;&nbsp;[7.3 Componentes e Actors](#7.3)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.2 Componentes e Actors](#7.1.2)
 
-&nbsp;&nbsp;[7.4 Static Mesh - Malhas estáticas](#7.4)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.4 Static Mesh - Malhas estáticas](#7.1.3)
 
-&nbsp;&nbsp;[7.5 Skeletal Mesh - Malha Esquelética](#7.5)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.4 Skeletal Mesh - Malha Esquelética](#7.1.4)
 
-&nbsp;&nbsp;[7.6 Posição e coordenadas](#7.6)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.5 Posição e coordenadas](#7.1.5)
 
-&nbsp;&nbsp;[7.7 Trabalhando com herança com Blueprint](#7.7)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.6 Trabalhando com herança com Blueprint](#7.1.6)
 
-&nbsp;&nbsp;[7.8 Manipulando Actors](#7.8)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.7 Manipulando Actors](#7.1.7)
 
-&nbsp;&nbsp;[7.9 Colisões](#7.9)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.8 Colisões](#7.1.8)
 
 <a name="7.1"></a>
 ## 7.1 O que são Actors?
@@ -86,8 +86,8 @@ Em **Blueprint** podemos obter os seguintes grupos de classes de atores:
 - Character;
 
 
-<a name="7.2"></a>
-## 7.2 Utilizando classes com Blueprint
+<a name="7.1.1"></a>
+### 7.1.1 Utilizando classes com Blueprint
 Como citado anteriormente classes são estruturas de dados com eventos, variáveis e componentes.      
 
 Para criar uma classe utilizando **Blueprint** acesse o menu de contexto e selecione `Blueprint Class`.
@@ -157,8 +157,8 @@ Com a adição de um componente `CharacterMovementComponent`, um `CapsuleCompone
 
 - `Anim Class` - Blueprint de animação associado.
 
-<a name="7.3"></a>
-## 7.3 Componentes e Actors
+<a name="7.1.2"></a>
+### 7.1.2 Componentes e Actors
 Os componentes são um tipo especial de objeto que os atores podem anexar a si próprios como subobjetos. Os componentes são úteis para compartilhar comportamentos comuns, como a capacidade de exibir uma representação visual e reproduzir sons. Eles também podem representar conceitos específicos do projeto, como a maneira como um veículo interpreta a entrada e muda sua própria velocidade e orientação. Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuário pode implementar as diferenças no controle e movimento do veículo, alterando qual componente um ator do veículo usa.    
 
 **Adicionando componentes.**
@@ -183,8 +183,8 @@ Para editar os componentes utilizamos o Editor de objetos e componentes.
 
 > Figura: Editando componentes.
 
-<a name="7.4"></a>
-## 7.4 Static Mesh - Malhas estáticas
+<a name="7.1.3"></a>
+### 7.1.3 Static Mesh - Malhas estáticas
 **Static Mesh** são a unidade básica usada para criar a geometria do mundo para níveis (*level*) criados no **Unreal Engine**. A grande maioria de qualquer mapa em um jogo feito com **Unreal** consistirá em Malhas Estáticas, geralmente na forma de Atores de Malha Estática.
 
 Consistem em um conjunto de polígonos que podem ser armazenados em cache na memória de vídeo e renderizados pela placa de vídeo. Isso permite que eles sejam renderizados com eficiência, o que significa que podem ser muito mais complexos do que outros tipos de geometria, como **Brushes**. Como são armazenados em cache na memória de vídeo, as malhas estáticas podem ser traduzidas, giradas e dimensionadas, mas não podem ter seus vértices animados de nenhuma forma.
@@ -223,8 +223,8 @@ Visualização da malha e suas propriedades (vértices, UV e modelo de colisão)
 
 > Figura: Editor de StaticMesh.
 
-<a name="7.5"></a>
-## 7.5 Skeletal Mesh - Malha Esquelética
+<a name="7.1.4"></a>
+### 7.1.4 Skeletal Mesh - Malha Esquelética
 As **Skeletal mesh** são compostas por duas partes: Um conjunto de polígonos compostos para formar a superfície da Malha Esquelética e um conjunto hierárquico de ossos interconectados que podem ser usados para animar os vértices dos polígonos. **Skeletal mesh** são frequentemente usados no **Unreal Engine 4** para representar personagens ou outros objetos animados.
 
 **A Estrutura.**
@@ -343,8 +343,8 @@ A posição do ator no mundo é calculada utilizando o componente `DefaultSceneR
 
 > Figura: Blueprint - Print Relative location.
 
-<a name="7.7"></a>
-## 7.7 Trabalhando com herança com Blueprint
+<a name="7.1.6"></a>
+## 7.1.6 Trabalhando com herança com Blueprint
 
 Como apresentado no conceito de classes, a herança permite usar classes já definidas para derivar novas classes, a seguir vamos verificar como implementar utlizando **Blueprint**.  
 
@@ -395,8 +395,8 @@ O componente **ChildActor** permite associar uma classe filha utilizando a lista
 
 > Figura: Blueprint - View Class.
 
-<a name="7.8"></a>
-## 7.8 Manipulando Actors
+<a name="7.1.7"></a>
+## 7.1.7 Manipulando Actors
 Podemos adicionar, remover ou selecionar os atores que estão na cena do jogo, a seguir vamos implementar e entender esses comandos.
 
 **Spawn e Destroy Actors - Criando e destruindo um Actor.**
@@ -431,8 +431,8 @@ Adicionando uma *tag* (Etiqueta) na propriedade do ator podemos selecionar todos
 
 > Figura: Blueprint - Exemplo de GetAllActorWithTag.
 
-<a name="7.9"></a>
-## 7.9 Colisões
+<a name="7.1.8"></a>
+## 7.1.8 Colisões
 
 - Simplex collision
 

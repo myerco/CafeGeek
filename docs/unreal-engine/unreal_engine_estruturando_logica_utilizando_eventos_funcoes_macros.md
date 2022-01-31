@@ -9,20 +9,20 @@ layout: page
 
 Neste capitulo serão apresentado como estruturar a lógica de programação utilizando métodos, funções e macros.
 
-&nbsp;&nbsp;[7.10 Entendo Métodos e funções em programação](#7.10)
+&nbsp;&nbsp;[**7.2 Entendo Métodos e funções em programação**](#7.2)
 
-&nbsp;&nbsp;[7.11 O que são Eventos (Events) em Blueprint](#7.11)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.2.1 O que são Eventos (Events) em Blueprint](#7.2.1)
 
-&nbsp;&nbsp;[7.12 Funções (Functions)](#7.12)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.2.2 Funções (Functions)](#7.2.2)
 
-&nbsp;&nbsp;[7.13 Macros](#7.14)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.2.3 Macros](#7.2.3)
 
-&nbsp;&nbsp;[7.14 Collapse Nodes](#7.15)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.2.4 Collapse Nodes](#7.2.4)
 
-&nbsp;&nbsp;[7.15 Executando a função e a macros](#7.15)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.2.5 Executando a função e a macros](#7.2.5)
 
-<a name="7.10"></a>
-## 7.10 Entendo Métodos e funções em programação
+<a name="7.2"></a>
+## 7.2 Entendo Métodos e funções em programação
 Para entender melhor a estrutura de programação que representa a construção de eventos e funções vamos abordar alguns conceitos de programação.
 
 **Programação Orientada a Objetos.**
@@ -58,8 +58,8 @@ Ele tem a capacidade de retornar valores, se necessário.
 
 Se uma função for definida, ela será a mesma para todos os objetos criados.  
 
-<a name="7.11"></a>
-## 7.11 O que são Eventos (Events) em Blueprint
+<a name="7.2.1"></a>
+### 7.2.1 O que são Eventos (Events) em Blueprint
 
 Os eventos são nós chamados a partir do código do jogo para iniciar a execução de uma rede individual dentro do `EventGraph`. Eles permitem que os **Blueprints** executem uma série de ações em resposta a certos eventos que ocorrem dentro do jogo, como quando o jogo começa, quando um nível é reiniciado ou quando um jogador sofre dano.
 
@@ -119,8 +119,8 @@ void AProjeto::Tick(float DeltaTime)
 
 }
 ```
-<a name="7.12"></a>
-## 7.12 Funções (functions)
+<a name="7.2.2"></a>
+## 7.2.2 Funções (functions)
 São mini programas com as características de alocação de memória, estruturas internas de código e variáveis locais.
 Podem receber parâmetros externos e retornam algum valor para o programa que executou a chamada.  
 
@@ -149,8 +149,8 @@ void CalculoIMC(float pPeso, float pAltura) {
 
 > Figura: Blueprint - Exemplo de CalculoIMC.
 
-<a name="7.13"></a>
-## 7.13 Macros
+<a name="7.2.3"></a>
+## 7.2.3 Macros
 Blueprint Macros, ou Macros, são essencialmente iguais a gráficos de nós recolhidos. Eles têm um ponto de entrada e um ponto de saída designado por nós de túnel. Cada túnel pode ter qualquer número de pinos de execução ou de dados que são visíveis no nó da macro quando usados em outros **Blueprints** e gráficos.
 
 - São basicamente um modelo *Template* de código ou nós;
@@ -175,8 +175,8 @@ Blueprint Macros, ou Macros, são essencialmente iguais a gráficos de nós reco
 
 > Figura: Blueprint - Exemplo Macro.
 
-<a name="5"></a>
-## 7.14 Collapse Nodes
+<a name="7.2.4"></a>
+## 7.2.4 Collapse Nodes
 Usado principalmente para organização de código, escondendo nós da estrutura principal.
 
 ![Figura: Blueprint - Exemplo Collapse nodes](imagens/modulos/blueprint_collapse_nodes_example.webp "Figura: Blueprint - Exemplo Collapse nodes")
@@ -189,8 +189,8 @@ Usado principalmente para organização de código, escondendo nós da estrutura
 
 - Vai ser criado um gráfico de eventos próprio.
 
-<a name="7.14"></a>
-## 7.15 Executando a função e a macro  
+<a name="7.2.5"></a>
+## 7.2.5 Executando a função e a macro  
 
 ![Figura: Blueprint - Exemplo de Call function marco](imagens/modulos/blueprint_call_function_macro.webp "Figura: Blueprint - Exemplo de Call function marco")
 
