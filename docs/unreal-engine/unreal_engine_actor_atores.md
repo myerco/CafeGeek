@@ -7,7 +7,7 @@ layout: page
 
 ***
 
-<a name="1"></a>
+<a name="7"></a>
 ## CAPÍTULO 7 - Atores e movimentação
 
 Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de básica de objetos do **Unreal Engine**, neste capitulo serão apresentados e implementados os atores *Actors* do seu projeto.
@@ -189,7 +189,7 @@ Para editar os componentes utilizamos o Editor de objetos e componentes.
 
 Consistem em um conjunto de polígonos que podem ser armazenados em cache na memória de vídeo e renderizados pela placa de vídeo. Isso permite que eles sejam renderizados com eficiência, o que significa que podem ser muito mais complexos do que outros tipos de geometria, como **Brushes**. Como são armazenados em cache na memória de vídeo, as malhas estáticas podem ser traduzidas, giradas e dimensionadas, mas não podem ter seus vértices animados de nenhuma forma.
 
-![Figura: Statis Mesh ViewPort](imagens/actor/blueprint_class_viewport.webp "Figura: Statis Mesh ViewPort")
+![Figura: Statis Mesh ViewPort](imagens/movimentacao/blueprint_class_viewport.webp "Figura: Statis Mesh ViewPort")
 
 > Figura: Statis Mesh ViewPort.  
 
