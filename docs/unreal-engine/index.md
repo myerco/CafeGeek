@@ -302,7 +302,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[7.3 Implementando a movimentação do personagem](unreal_engine_trabalhando_com_logica_movimentacao_de_personagem.html)    
 
-&nbsp;&nbsp;[7.4 Comunicação entre Blueprints](comunicacao_entre_blueprint.html)    
+&nbsp;&nbsp;[7.4 Comunicação entre Blueprints](unreal_engine_comunicacao_entre_blueprint.html)    
 
 &nbsp;&nbsp;[7.5 Delta time e sistema de coordenadas](deltatime_sistema_coordenadas.html)
 
