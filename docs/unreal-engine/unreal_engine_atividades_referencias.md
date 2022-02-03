@@ -263,3 +263,15 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 - [Vectors and Unity](http://staffwww.fullcoll.edu/dcraig/csharp/Vectors%20and%20Unity.pdf)
 
 - [Stat Commands](https://docs.unrealengine.com/en-US/TestingAndOptimization/PerformanceAndProfiling/StatCommands/index.html)
+
+### CAPT 8
+
+- [Struct Variables in Blueprints](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Variables/Structs/index.html)
+
+- [How to use Structs in Unreal Engine 4](https://couchlearn.com/how-to-use-structs-in-unreal-engine-4/)
+
+- [Using structs in Blueprints ](https://romeroblueprints.blogspot.com/2015/08/using-structs-in-blueprints.html)
+
+- [Unreal Engine 4 em Português - Estrutura - Olha Que Fácil #47](https://www.youtube.com/watch?v=IWAhdY6Vlzo)
+
+- [Set value of a struct-member](https://answers.unrealengine.com/questions/807996/set-value-of-a-struct-member.html)
