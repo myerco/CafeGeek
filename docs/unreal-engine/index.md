@@ -315,7 +315,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[8.1 Variáveis estruturadas ou Structure](unreal_engine_structure_variaveis_estruturadas.html)  
 
-&nbsp;&nbsp;[8.2 Tabelas de dados ou Data tables - ](data_tables.html)
+&nbsp;&nbsp;[8.2 Tabelas de dados ou Data tables - ](unreal_engine_data_tables.html)
 
 &nbsp;&nbsp;[8.3 Game Instance, Game State e Game Mode](unreal_engine_gameinstance_state_mode.html)
 

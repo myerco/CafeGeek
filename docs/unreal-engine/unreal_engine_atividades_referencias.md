@@ -275,3 +275,7 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 - [Unreal Engine 4 em Português - Estrutura - Olha Que Fácil #47](https://www.youtube.com/watch?v=IWAhdY6Vlzo)
 
 - [Set value of a struct-member](https://answers.unrealengine.com/questions/807996/set-value-of-a-struct-member.html)
+
+- [Data Driven Gameplay Elements](https://docs.unrealengine.com/en-US/InteractiveExperiences/DataDriven/index.html)
+
+- [Get Data Table Row](https://docs.unrealengine.com/en-US/BlueprintAPI/Utilities/GetDataTableRow/index.html)
