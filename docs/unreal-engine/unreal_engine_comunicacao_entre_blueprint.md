@@ -4,6 +4,11 @@ description: A comunicação entre Blueprint é importante para construir um mei
 tags: [Unreal Engine,blueprint,comunicação,blueprint interfaces]
 ---
 
+***
+
+<a name="7"></a>
+## CAPÍTULO 7 - Atores e movimentação
+
 Neste capítulo será apresentadas técnicas de programação para comunicação entre Blueprints.
 
 &nbsp;&nbsp;[7.4 Como facilitar a comunicação entre objetos Blueprint? ](#7.4)  
@@ -88,7 +93,7 @@ Quando qualquer objeto colidir com o *ControleLuz* a lâmpada ira desligar ou li
 
 [![Comunicação entre Blueprints - Comunicação utilizando Acesso direto - 02 - Unreal Engine](http://img.youtube.com/vi/td6_Nm2tYfc/0.jpg)](https://youtu.be/td6_Nm2tYfc "Vídeo: Comunicação entre Blueprints - Comunicação utilizando Acesso direto - 02 - Unreal Engine")   
 
-> Vídeo: Comunicação entre Blueprints | Comunicação utilizando Acesso direto| 02 | Unreal Engine.*
+> Vídeo: Comunicação entre Blueprints - Comunicação utilizando Acesso direto - 02 -  Unreal Engine.*
 
 <a name="7.4.3"></a>
 ### 7.4.3 Utilizando CAST
@@ -117,7 +122,7 @@ Para este passo usaremos o evento `OnEndOverlap` para ler todos os objetos que t
 
 [![Vídeo: Comunicação entre Blueprints - Usando Cast 03 Unreal Engine](http://img.youtube.com/vi/VT6uob6UiSQ/0.jpg)](https://youtu.be/VT6uob6UiSQ "Vídeo: Comunicação entre Blueprints - Usando Cast 03 Unreal Engine")    
 
-> Vídeo: Comunicação entre Blueprints | Usando Cast 03 Unreal Engine.
+> Vídeo: Comunicação entre Blueprints - Usando Cast 03 Unreal Engine.
 
 <a name="7.4.4"></a>
 ### 7.4.4 Utilizando o objeto Blueprint Interface
@@ -193,7 +198,7 @@ Podemos melhorar o controle utilizando uma variável `enumeration` para parametr
 
 [![Vídeo: Comunicação entre Blueprints - Utilizando o objeto Blueprint Interface - 04 - Unreal Engine](http://img.youtube.com/vi/ugqPc5-YQV4/0.jpg)](https://youtu.be/ugqPc5-YQV4 "Vídeo: Comunicação entre Blueprints - Utilizando o objeto Blueprint Interface - 04 - Unreal Engine")      
 
-> Vídeo: Comunicação entre Blueprints | Utilizando o objeto Blueprint Interface| 04 | Unreal Engine.
+> Vídeo: Comunicação entre Blueprints - Utilizando o objeto Blueprint Interface - 04 - Unreal Engine.
 
 <a name="7.4.5"></a>
 ### 7.4.5 Event Dispatcher
@@ -235,4 +240,4 @@ Esses eventos podem ser vinculados a uma classe **Blueprint**, mas os `Event Dis
 
 [![Vídeo: Comunicação entre Blueprints - Event Dispatcher - 05 -  Unreal Engine](http://img.youtube.com/vi/bmxFZH3hFxc/0.jpg)](https://youtu.be/bmxFZH3hFxc "Vídeo: Comunicação entre Blueprints - Event Dispatcher - 05 -  Unreal Engine")   
 
-> Vídeo: Comunicação entre Blueprints | Event Dispatcher| 05 | Unreal Engine.    
+> Vídeo: Comunicação entre Blueprints - Event Dispatcher - 05 -  Unreal Engine.    
