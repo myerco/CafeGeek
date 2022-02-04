@@ -84,6 +84,18 @@ O maior valor é Y = 5;
 
 ***
 
+
+### CAPT 6.3 - O controle
+**Regras.**
+
+1. Implemente lógica que permita alternar o controle do gamemode de terceira pessoa para primeira pessoa.
+
+**Desafio.**
+      
+1. Apresente um ambiente personalizado.
+
+***
+
 ## Referências
 ### CAPT 1,2
 - [Estrutura do diretório](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html)
@@ -279,3 +291,9 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 - [Data Driven Gameplay Elements](https://docs.unrealengine.com/en-US/InteractiveExperiences/DataDriven/index.html)
 
 - [Get Data Table Row](https://docs.unrealengine.com/en-US/BlueprintAPI/Utilities/GetDataTableRow/index.html)
+
+- [Game Mode and Game State](https://docs.unrealengine.com/en-US/InteractiveExperiences/Framework/GameMode/index.html)
+
+- [PlayerController vs Character](https://answers.unrealengine.com/questions/216113/playercontroller-vs-character.html)
+
+- [UE4_Network_Compendium_by_Cedric_eXi_Neukirchen](https://cedric-neukirchen.net/Downloads/Compendium/UE4_Network_Compendium_by_Cedric_eXi_Neukirchen.pdf)
