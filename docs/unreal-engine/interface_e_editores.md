@@ -4,11 +4,10 @@ description: Interface e Editores
 tags: [Unreal Engine, interface, editor]
 ---
 
-# Editores e interfaces
-> 1. [Editor de level](#1)  
-> 1. [Editor *Viewports*](#2)  
-> 1. [Customização](#2)  
-> 1. [Play e *Simulate*](#2)  
+1. [Editor de level](#1)  
+1. [Editor *Viewports*](#2)  
+1. [Customização](#2)  
+1. [Play e *Simulate*](#2)  
 
 <a name="1"></a>
 ## 1. Editor de Level

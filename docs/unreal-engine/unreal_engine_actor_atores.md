@@ -1,5 +1,5 @@
 ---
-title: Implementado Atores
+title: Implementado Atores com Unreal Engine
 description: Neste capitulo serão apresentados e implementados os atores *Actors* do seu projetos.
 tags: [Unreal Engine,actor,atores]
 layout: page

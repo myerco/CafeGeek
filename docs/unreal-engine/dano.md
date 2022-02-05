@@ -1,5 +1,5 @@
 ---
-title: Causando Dano
+title: Causando Dano no Ator com Blueprint
 description: Neste capítulo vamos implementar a lógica para causar dano no Personagem.
 tags: [Unreal Engine, HUD, user interface,UI]
 layout: page

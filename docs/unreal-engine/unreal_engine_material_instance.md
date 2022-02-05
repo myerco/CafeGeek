@@ -1,5 +1,5 @@
 ---
-title: Material Instance
+title: Implementando Material Instance com Unreal Engine
 description: Neste capitulo vamos apresentar o objeto Material Instance que flexibiliza a implementação de materiais no Unreal Engine.
 tags: [unreal engine, material instance, material]
 layout: page
@@ -54,12 +54,10 @@ Convertemos os nós em parâmetros para que possam ser manipulados posteriorment
   - `Group` - Usado para agrupar os parâmetros por um determinado valor ou tema.        
 
 5.  Sugestão de grupos:
-  > ##### Texture Parameter Values
-  > Diffuse,NormalMap, Rough Texture
-  > ##### Scalar Parameter Values
-  > Valores escalares
-  > ##### Metallic, Roughness
-  > Vector Parameter Values : Color (R,G,B,A), UVTiling(R,G,B,A)
+
+  - Texture Parameter Values: Diffuse,NormalMap, Rough Texture;
+  - Scalar Parameter Values:  Valores escalares;
+  - Metallic, Roughness: Vector Parameter Values : Color (R,G,B,A), UVTiling(R,G,B,A).
 
 **Criando Material Instance.**
 

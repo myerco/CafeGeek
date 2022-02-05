@@ -18,8 +18,6 @@ Aprenda a programar em linguagem C++.
 ##  Índice
 1. [Introdução](#1)
 
-# Passo 1
-
 **main.cpp**
 
 ```cpp

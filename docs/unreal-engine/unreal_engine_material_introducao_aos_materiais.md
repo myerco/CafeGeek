@@ -12,6 +12,7 @@ Neste capítulo vamos apresentar o que são materiais e a sua estrutura.
 
 
 &nbsp;&nbsp;[9.1 O que é um material?](#9.1)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.1.1 Materiais de base física - PBR](#9.1.1)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.1.2 Estrutura do Material no Unreal Engine](#9.1.2 )
@@ -54,7 +55,8 @@ A primeira e mais importante coisa a saber sobre os Materiais é que eles não s
 
 Para criar um material utilizamos o menu de contexto e a opção `Material`.
 
-1. Menu de contexto para criar um material.     
+1. Utilize Menu de contexto para criar um material;     
+
   ![Figura: Contex Menu > Material.](imagens/materiais/unreal_engine_menu_material.webp "Figura: Contex Menu > Material.")      
 
   > Figura: Contex Menu > Material.

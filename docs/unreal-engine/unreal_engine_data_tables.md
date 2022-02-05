@@ -1,5 +1,5 @@
 ---
-title: Data Tables
+title: Implementando Data Tables com Unreal Engine
 description: Data Tables são estruturas de dados com vários tipos de variáveis agrupados
 tags: [Unreal Engine,data tables]
 layout: page

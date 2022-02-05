@@ -123,7 +123,7 @@ Separar a pasta do projeto `Content` de outras pastas pode facilitar e trazer v�
 ## 2. Configurando o projeto
 Preparar o projeto antes de começar o desenvolvimento é importante para que possamos otimizar algumas tarefas e preparar o jogo com a configuração inicial, neste passo vamos configurar alguns parâmetros do projeto.
 
-Nos próximos capítulos vamos utilizar outras opções do menu de configuração como por exemplo o [mapeamento de *Input* (teclas ou controles)](http://cafegeek.eti.br/unreal-engine/trabalhando_com_logica_movimentacao_de_personagem.html#13).
+Nos próximos capítulos vamos utilizar outras opções do menu de configuração como por exemplo o [mapeamento de *Input* (teclas ou controles)](http://cafegeek.eti.br/unreal-engine/unreal_engine_trabalhando_com_logica_movimentacao_de_personagem.html#13).
 
 <a name="2.1"></a>
 ### 2.1 Adicionando um *Level* na inicialização do projeto

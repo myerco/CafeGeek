@@ -425,3 +425,77 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 - [Material Parameter Collections](https://www.unrealengine.com/en-US/blog/material-parameter-collections)
 
 - [Creating Material Functions](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/Materials/HowTo/Making_Functions/)
+
+### CAPT 10
+
+- [Importing Animations](https://docs.unrealengine.com/4.26/en-US/WorkingWithContent/Importing/FBX/Animations/)
+
+- [Skeleton Editor](https://docs.unrealengine.com/en-US/Engine/Animation/Persona/Modes/Skeleton/index.html)   
+
+- [FBX Import Options Reference](https://docs.unrealengine.com/en-US/Engine/Content/Importing/FBX/ImportOptions/index.html)   
+
+- [Animations Tools](https://docs.unrealengine.com/en-US/Engine/Animation/Persona/Modes/index.html)  
+
+- [AnimGraph](https://docs.unrealengine.com/en-US/Engine/Animation/AnimBlueprints/AnimGraph/index.html)
+
+- [Importing Animations](https://docs.unrealengine.com/4.26/en-US/WorkingWithContent/Importing/FBX/Animations/)
+
+- [Skeleton Editor](https://docs.unrealengine.com/en-US/Engine/Animation/Persona/Modes/Skeleton/index.html)   
+
+- [FBX Import Options Reference](https://docs.unrealengine.com/en-US/Engine/Content/Importing/FBX/ImportOptions/index.html)   
+
+- [Animations Tools](https://docs.unrealengine.com/en-US/Engine/Animation/Persona/Modes/index.html)  
+
+- [AnimGraph](https://docs.unrealengine.com/en-US/Engine/Animation/AnimBlueprints/AnimGraph/index.html)
+
+- [Creating Transition Rules](https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/SkeletalMeshAnimation/StateMachines/TransitionRules/)
+
+- [Skeleton Editor](https://docs.unrealengine.com/en-US/Engine/Animation/Persona/Modes/Skeleton/index.html)   
+
+- [FBX Import Options Reference](https://docs.unrealengine.com/en-US/Engine/Content/Importing/FBX/ImportOptions/index.html)   
+
+- [Animations Tools](https://docs.unrealengine.com/en-US/Engine/Animation/Persona/Modes/index.html)  
+
+- [AnimGraph](https://docs.unrealengine.com/en-US/Engine/Animation/AnimBlueprints/AnimGraph/index.html)
+
+- [Animating Objects](https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/SkeletalMeshAnimation/AnimMontage/Overview/)
+
+- [Blend depth](https://answers.unrealengine.com/questions/387906/what-does-the-blend-depth-parameter-in-layered-ble.html?sort=oldest)
+
+- [Importing Animations](https://docs.unrealengine.com/4.26/en-US/WorkingWithContent/Importing/FBX/Animations/)
+
+- [Skeleton Editor](https://docs.unrealengine.com/en-US/Engine/Animation/Persona/Modes/Skeleton/index.html)   
+
+- [FBX Import Options Reference](https://docs.unrealengine.com/en-US/Engine/Content/Importing/FBX/ImportOptions/index.html)   
+
+- [Animations Tools](https://docs.unrealengine.com/en-US/Engine/Animation/Persona/Modes/index.html)  
+
+- [AnimGraph](https://docs.unrealengine.com/en-US/Engine/Animation/AnimBlueprints/AnimGraph/index.html)
+
+- [Using Layered Animations](https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/SkeletalMeshAnimation/AnimHowTo/AdditiveAnimations/)
+
+- [Blend Nodes](https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/SkeletalMeshAnimation/NodeReference/Blend/)
+
+- [O que é animação 2D e o que a difere dos outros tipos de animações?](https://blog.saga.art.br/animacao-2d/)
+
+- [Getting Started with Paper 2D  Community Led Training  Unreal Engine Livestream](https://www.youtube.com/watch?v=Tf9Qd4isHTM)
+
+- [Introduction to Paper2D v4.4  Unreal Engine](https://www.youtube.com/playlist?list=PLZlv_N0_O1gauJh60307mE_67jqK42twB)
+
+- [Paper 2D](https://docs.unrealengine.com/4.26/en-US/AnimatingObjects/Paper2D/)
+
+- [Texture Properties](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Textures/Properties/)
+
+- [Paper 2D Tile Sets / Tile Maps](https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/Paper2D/TileMaps/)
+
+- [Introduction to Paper2D](https://www.youtube.com/playlist?list=PLZlv_N0_O1gauJh60307mE_67jqK42twB)
+
+### CAPT 11
+
+- [Playlist IA](https://www.youtube.com/playlist?list=PLMRuH4-akjpSxkYxilTbg78pP-ybQwcy9)
+
+- [Unreal IA documetação](https://docs.unrealengine.com/en-US/Gameplay/AI/index.html)
+
+- [Unreal Start Guide](https://docs.unrealengine.com/en-US/Engine/ArtificialIntelligence/BehaviorTrees/BehaviorTreeQuickStart/index.html)
+
+- [Raywenderlich Tutorial](https://www.raywenderlich.com/238-unreal-engine-4-tutorial-artificial-intelligence)
