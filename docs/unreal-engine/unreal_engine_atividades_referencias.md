@@ -117,6 +117,62 @@ O maior valor é Y = 5;
   - **Open Menu Principal** para abrir o menu principal;
   - **Open Menu Resume** para abrir o menu de pausa e resumo do jogo;
 
+### CAPT 9.1 - O meu primeiro material no Unreal Engine
+**Regras.**
+
+1. Utilize os parâmetros Base Color, Roughness e Metallic
+
+**Desafio.**
+
+1. Escolha um objeto da internet para tentar simular a sua textura com seguintes parâmetros: uma cor, reflexivo e que possa ser aplicado em superfícies simples.
+
+  1. Escolha um objeto qualquer para aplicar o material, exemplo: cadeira, mesa ou parede.
+
+### CAPT 9.2 - A cortina
+**Regras.**
+
+1. Implemente uma malha em formato de cortina e adicione um material para simular movimento.
+
+**Desafio.**
+
+1. Apresente um ambiente com vários elementos, como por exemplo sofá, paredes, janelas e etc.
+
+1. Adicione som ambiente na cena.
+
+### CAPT 9.3 - A grama do vizinho
+**Regras.**
+
+1. Implemente um objeto para representar grama.
+
+**Desafio.**
+
+1. Apresente um ambiente com vários elementos, como por exemplo pedra, flores e etc.
+1. Adicione som de vento.
+
+### CAPT 9.4 - A esfera transparente
+**Regras.**
+
+1. Implemente um objeto transparente simulando vidro.
+
+**Desafio.**
+
+1. Apresente um ambiente com vários elementos, como por exemplo pedra, flores e etc.
+
+1. Adicione um som especial ao se aproximar da esfera.
+
+### CAPT 9.5 Uma base para vários materiais
+**Regras.**
+
+1. Implemente um material base e 3 instancias de materiais (Material Instance).
+1. Defina texturas e cores diferentes para cada instância.
+
+**Desafio.**
+
+1. Implemente um parâmetro para aumentar ou diminuir a mistura de várias texturas a fim de simular por exemplo pisos com pouca ou muita grama.
+
+***
+
+
 ## Referências
 ### CAPT 1,2
 - [Estrutura do diretório](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html)
@@ -334,3 +390,38 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 - [Anchors](https://docs.unrealengine.com/en-US/InteractiveExperiences/UMG/UserGuide/Anchors/index.html)
 
 - [Quick Start](https://docs.unrealengine.com/en-US/InteractiveExperiences/UMG/QuickStart/index.html)
+
+
+### CAPT 9
+
+- [Physically Based Materials](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/PhysicallyBased/index.html)
+
+- [Texture Import Guide](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Textures/Importing/index.html)
+
+- [Curso Material Essential Concepts](https://www.unrealengine.com/en-US/onlinelearning-courses/materials---exploring-essential-concepts)
+
+- [![Intro Material Unreal Engine](http://img.youtube.com/vi/lngF4VVNER4/0.webp)](https://www.youtube.com/watch?v=lngF4VVNER4")
+
+- [Texture Import Guide](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Textures/Importing/index.html)
+
+- [Material Expression Reference](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/ExpressionReference/index.html)
+
+- [Coordinates Expressions](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/ExpressionReference/Coordinates/index.html)
+
+- [Math Expressions](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/ExpressionReference/Math/index.html#power)
+
+- [1.10 - World Position Offset](https://docs.unrealengine.com/en-US/Resources/ContentExamples/MaterialNodes/1_10/index.html)
+
+- [1.9 - Normal](https://docs.unrealengine.com/en-US/Resources/ContentExamples/MaterialNodes/1_9/index.html)
+
+- [Material Blend Modes](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/index.html)
+
+- [Texture maps](https://conceptartempire.com/texture-maps/)
+
+- [Creating and Using Material Instances](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/HowTo/Instancing/index.html)
+
+- [Material Parameter Collections](https://www.unrealengine.com/en-US/blog/material-parameter-collections)
+
+- [Material Parameter Collections](https://www.unrealengine.com/en-US/blog/material-parameter-collections)
+
+- [Creating Material Functions](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/Materials/HowTo/Making_Functions/)
