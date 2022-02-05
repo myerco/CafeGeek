@@ -12,10 +12,11 @@ layout: page
 
 **Structure**, é um tipo de dados definido pelo usuário disponível no **Unreal Engine** em **C++** e **Blueprint**, neste capitulo vamos explorar estes objetos.
 
-## Índice
 &nbsp;&nbsp;[8.1 O que são variáveis do tipo Structure?](#8.1)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.1.1 Exemplo do uso de variáveis Structure](#8.1.1)    
+
+***
 
 <a name="8.1"></a>
 ## 8.1 O que são variáveis do tipo Structure?

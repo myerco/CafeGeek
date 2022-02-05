@@ -309,7 +309,7 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 > *Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia - https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/ .*
 
 - Desafio;
-- Liberdade;
+- Liberdade - Liberdade de escolher a atividade ou missão do jogo que o jogador pode executar em determinado momento em outras palavras, possibilitar ao jogador construir seu próprio caminho;
 - Recompensa;
 - Escapismo;
 - Interação social.

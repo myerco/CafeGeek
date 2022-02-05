@@ -18,6 +18,7 @@ Na estrutura do **Unreal Engine** existem classes para controlar regras do jogo 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[8.3.2 GameInstance](#8.3.2)    
 
+***
 
 <a name="8.3"></a>
 ## 8.3 Como funciona Game Mode e Game State?

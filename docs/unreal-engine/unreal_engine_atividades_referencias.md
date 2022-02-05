@@ -91,10 +91,31 @@ O maior valor é Y = 5;
 1. Implemente lógica que permita alternar o controle do gamemode de terceira pessoa para primeira pessoa.
 
 **Desafio.**
-      
+
 1. Apresente um ambiente personalizado.
 
 ***
+
+### CAPT 7.1 Apresentando mensagens para interagir com o personagem
+**Regras.**
+
+1. Implemente um objeto *Widget* com um texto colorido e formatado.
+1. O *Widget* é acionado pressionando a tecla F quando o personagem ficar próximo.
+
+**Desafio.**
+
+1. Implemente um gameplay em primeira pessoa dentro de uma casa.
+
+
+
+### CAP 7.2 Implementando o menu do jogo usando Game Instance
+**Regras.**
+
+1. Implemente o menu principal do jogo com as opções : Play e Quit.
+1. Implemente o menu de Resumo do jogo com as opções : Resume, Load, Save, Home e Quit. O menu é acionado com a tecla M durante a *gameplay*. Implemente também toda a lógica das ações dos botões Load, Save e Quit.
+1. Implemente uma Game Instance e adicione os seguintes objetos:
+  - **Open Menu Principal** para abrir o menu principal;
+  - **Open Menu Resume** para abrir o menu de pausa e resumo do jogo;
 
 ## Referências
 ### CAPT 1,2
@@ -297,3 +318,19 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 - [PlayerController vs Character](https://answers.unrealengine.com/questions/216113/playercontroller-vs-character.html)
 
 - [UE4_Network_Compendium_by_Cedric_eXi_Neukirchen](https://cedric-neukirchen.net/Downloads/Compendium/UE4_Network_Compendium_by_Cedric_eXi_Neukirchen.pdf)
+
+- [1.1 - HUD Example](https://docs.unrealengine.com/en-US/Resources/ContentExamples/Blueprints_HUD/1_1/index.html)
+
+- [User Interfaces & HUDs](https://docs.unrealengine.com/en-US/InteractiveExperiences/Framework/UIAndHUD/index.html)
+
+-[Anchors](https://docs.unrealengine.com/en-US/InteractiveExperiences/UMG/UserGuide/Anchors/index.html)
+
+- [Quick Start](https://docs.unrealengine.com/en-US/InteractiveExperiences/UMG/QuickStart/index.html)
+
+- [1.1 - HUD Example](https://docs.unrealengine.com/en-US/Resources/ContentExamples/Blueprints_HUD/1_1/index.html)
+
+- [User Interfaces & HUDs](https://docs.unrealengine.com/en-US/InteractiveExperiences/Framework/UIAndHUD/index.html)
+
+- [Anchors](https://docs.unrealengine.com/en-US/InteractiveExperiences/UMG/UserGuide/Anchors/index.html)
+
+- [Quick Start](https://docs.unrealengine.com/en-US/InteractiveExperiences/UMG/QuickStart/index.html)

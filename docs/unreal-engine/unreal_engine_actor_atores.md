@@ -30,6 +30,8 @@ Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.1.8 Colisões](#7.1.8)
 
+***
+
 <a name="7.1"></a>
 ## 7.1 O que são Actors?
 **Actors** ou Atores são uma classe genérica que oferece suporte a transformações 3D, como translação, rotação e escala. Atores podem ser criados (gerados) e destruídos por meio de código de jogo (**C++**  ou **Blueprints**). Em **C ++**, **AActor** é a classe base de todos os atores.  

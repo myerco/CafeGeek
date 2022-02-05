@@ -29,6 +29,8 @@ Apresentaremos também como funciona o sistema de coordenadas dos objetos.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.5.7 Sistema de coordenadas](#7.5.7)  
 
+***
+
 <a name="7.5"></a>
 ## 7.5 O que é Delta Time?
 É o tempo entre cada frame.  
