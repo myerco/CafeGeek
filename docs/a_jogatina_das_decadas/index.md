@@ -278,11 +278,10 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 
 > *Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women .*
 
-“Conhecer o que o jogador quer e a situação que o mercado se apresenta são informações que apenas darão suporte ao design em criar um jogo que na verdade deve possuir, por meio de referências acadêmicas, os elementos que provoquem o desejo, a compra, a diversão e o entretenimento, que são consequências.”
+“Conhecer o que o jogador quer e a situação que o mercado se apresenta são informações que apenas darão suporte ao design em criar um jogo que na verdade deve possuir, por meio de referências acadêmicas, os elementos que provoquem o **desejo**, a **compra**, a **diversão** e o entretenimento, que são consequências.”
 
-- Desejo;
-- Compra;
-- Diversão.
+O jogo é um produto presente no mercado e como tal se apresenta com todas as suas características de comercialização.
+
 
 **[⬆ Início](#indice)**
 
@@ -292,7 +291,7 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 
 > *Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/ .*
 
-É um evento social, sendo assim esse evento gera emoções que são interpretações das respostas sensoriais obtidas pelos elementos do jogo.
+É um evento social, sendo assim esse evento gera emoções que são interpretações das respostas sensoriais obtidas pelos elementos do jogo, segue a baixo algumas delas:
 
 - Divertimento;
 - Entretenimento;
