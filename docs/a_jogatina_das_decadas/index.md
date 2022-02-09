@@ -14,6 +14,7 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 - Analise e defina os tipos de jogadores;      
 - Conheça o mercado de jogos digitais;    
 - Implemente um protótipo de jogo;
+- Analise e conceitue a Gamificação.
 
 ***
 
@@ -34,17 +35,17 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 
 ***
 
-&nbsp;&nbsp;[**2.1 O papel do jogo na sociedade?**](#2.1 "2.1 O papel do jogo na sociedade?")    
+&nbsp;&nbsp;[2.1 O papel do jogo na sociedade?](#2.1 "2.1 O papel do jogo na sociedade?")    
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.1 O jogo Arte e Cultura](#2.1.1 "2.1.1 O jogo Arte e Cultura")    
+&nbsp;&nbsp;[2.2 O jogo Arte e Cultura](#2.2 "2.2 O jogo Arte e Cultura")    
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.2 O jogo e a Guerra](#2.1.2 "2.1.2 O jogo e a Guerra")        
+&nbsp;&nbsp;[2.3 O jogo e a Guerra](#2.3 "2.3 O jogo e a Guerra")        
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.3 O jogo e a Direito](#2.1.3 "2.1.3 O jogo e a Direito")    
+&nbsp;&nbsp;[2.4 O jogo e a Direito](#2.4 "2.4 O jogo e a Direito")    
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.4 O jogo e a Linguagem](#2.1.4 "2.1.4 O jogo e a Linguagem")        
+&nbsp;&nbsp;[2.5 O jogo e a Linguagem](#2.5 "2.5 O jogo e a Linguagem")        
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.1.5 Algumas considerações sobre o jogo](#2.2 "2.1.5 Algumas considerações sobre o jogo")   
+&nbsp;&nbsp;[2.6 Algumas considerações sobre o jogo](#2.6 "2.6 Algumas considerações sobre o jogo")   
 
 ***
 
@@ -115,6 +116,8 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 
 &nbsp;&nbsp;[6.6  Fazendo com você chame a Skinner Box de casa](#6.6)
 
+
+***
 
 <a name="1"></a>
 ## CAPÍTULO 1 - O que é um Jogo?
@@ -235,21 +238,21 @@ Estas duas funções podem também por vezes confundir-se, de tal modo que o jog
 ## 2.1 O papel do jogo na sociedade?
 O ser humano, tal como todos os seres da escala biológica, tem como característica principal o movimento. O jogo surge relacionado a esse assunto, por ser a melhor demonstração dessa predominância no homem, além de atuar como um valoroso contribuinte no desenvolvimento global do mesmo.
 
-<a name="2.1.1"></a>
-## 2.1.1 O jogo Arte e Cultura
+<a name="2.21"></a>
+## 2.2 O jogo Arte e Cultura
 ![O jogo na arte](https://lh3.googleusercontent.com/mw2jVchK_0h4nZ3mm41sEkul6669asv3ifiwqzuCzKNXNLBoWTpvJbq-UaaaIuNjFxu50qukPCIIo9PEWW3cs4-XDbe2N8WHoEZW_JvUkWlnquWNHQbaQTkS0oXlpuTVpWsbzZGGJw "O jogo na arte")
 
 O processo criativo e construção de elementos imaginários estão presentes nas caracterizas dos jogos.
 Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um belo e nobre jogo começou por ser um jogo sagrado. Os torneios e justas, as ordens, os votos, os títulos, são  todos vestígios dos ritos de iniciação primitivos.
 
-<a name="2.1.2"></a>
-## 2.1.2 O jogo e a Guerra
+<a name="2.3"></a>
+## 2.3 O jogo e a Guerra
 ![O jogo e a guerra](https://lh3.googleusercontent.com/eHCIaFbDB3dEjinKTkIp5AOuGRL9S8taKXnuuQyJM_ZLsxrHjdYMvUb7OISIuOWJwS9a1kwlERn5n0akqx_jUnfjXUazb4TzMqvKrA4zAwNU7Lwn0NSFAyTJlwZgs0a3BiefXfXF7Q "O jogo e a guerra")
 
 É difícil não associar a guerra ao jogo mas o contrário é possível, na guerra o objetivo é conquistar ou subjugar o seu oponente.
 
-<a name="2.1.3"></a>
-## 2.1.3 O jogo e o Direito
+<a name="2.4"></a>
+## 2.4 O jogo e o Direito
 ![O jogo e o direito](https://lh4.googleusercontent.com/0UyjVE8iYejdGuduppAcytXaEVPAV8aMX3INMhuJw72tQBS8xy1Sq_8vS9JpZSZNgQ81lfxM_BmCJObWEa9bkGPfZNnMuQbWfy551KWCF1b2R1Rg3iiRXta3mwNOvzunKDaU5gvonw "O Jogo e o Direito")
 
 Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o Luizinga associa o "processo" a um jogo considerando o seguinte:
@@ -260,8 +263,8 @@ Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o 
 - **Regras e Leis** - A competição judicial está  sempre submetida a um sistema de regras restritivas que, independentemente das limitações de tempo e de lugar,  colocam firme e inequivocamente o julgamento no interior do domínio do jogo ordenado e antitético
 - **A justiça** - Se fizermos com que nosso olhar passe da  administração da justiça nas civilizações altamente desenvolvidas para aquela que se encontra nas fases menos  adiantadas da cultura, veremos que a ideia do bem e do mal, a concepção ético-jurídica, é ultrapassada pela ideia de  ganhar ou perder, isto é, pela concepção puramente agonística. O que interessa ao espírito primitivo não é tanto o  problema abstrato do bem e do mal, mas principalmente o problema extremamente concreto de ganhar ou perder.
 
-<a name="2.1.4"></a>
-## 2.1.4 O jogo e a Linguagem
+<a name="2.5"></a>
+## 2.5 O jogo e a Linguagem
 
 ![O jogo e a linguagem](https://lh6.googleusercontent.com/n6cRsalJRwjvmqPAKs36Qyj_U1nLNtnaOASUInR4dTl4STFpN0v-kMHtM58tk5oLhyZvqyzdrrwLeef0Vy235S6Fu6el59K0V76hYosAy8kAfyw46GYRlGSn_H23fjAvcEoEquhgZg "O jogo e a linguagem")
 
@@ -270,7 +273,7 @@ A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo
 **[⬆ Início](#indice)**
 
 <a name="2.2"></a>
-## 2.2 Algumas considerações sobre o jogo
+## 2.6 Algumas considerações sobre o jogo
 ![The Thinker](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Mus%C3%A9e_Rodin_1.jpg/220px-Mus%C3%A9e_Rodin_1.jpg "The Thinker")
 
 O autor apresenta as suas interpretações de elementos presentes na nossa sociedade e os caracteriza como jogo na sua definição, devemos lembrar que o HUIZINGA utiliza e define jogo na Perspectiva do jogador e extrai classificações do objeto em estudo dentro de um tempo e realidade por conseguinte devemos considerar os seguintes aspectos:
@@ -870,6 +873,37 @@ Processo de ganhar dinheiro com seu jogo de celular seguindo algumas regras.
 Além disso, muitos jogos para dispositivos móveis combinam e combinam estratégias diferentes (por exemplo, oferecer recompensas por dinheiro, como compras na loja ou gratuitamente, em troca de assistir a um anúncio em vídeo). Então, isso é algo que você precisa considerar.”
 
 **[⬆ Início](#indice)**
+
+***
+
+<a name="6"></a>
+## CAPÍTULO 6 - Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?
+
+<a name="6.1"></a>
+## 6.1 Introdução
+
+O vicio de jogos é discutido a muito tempo e já foi classificado como uma [doença pela OMS](https://www.uol.com.br/vivabem/reportagens-especiais/o-vicio-em-jogos-e-considerado-disturbio-mental-quais-os-perigos-da-doenca/#page1), mas a pergunta de nosso título aponta outro vício ou a falta desse, vício em trabalho, será que também você ser viciado em trabalho e o trabalho pode ser classificado como uma doença pela OMS [[workaholic](http://setocupacional.com.br/site/fique-por-dentro/workaholic-vicio-em-trabalho-risco-a-saude-consequencias-causas-tratamentos/)]?, este terma é na verdade uma provocação para que possamos discutir aspectos relacionados a como os videogames são construídos por equipes de especialistas que visam manter o jogador o mais tempo possível conectado ou jogando, também vamos correlacionar as técnicas usadas pelos especialistas de jogos que são usadas para "motivar" as pessoas para um determinado trabalho.
+
+**Gamificação.**
+
+Não podemos continuar sem antes entender o modelo de Gamificação que é a aplicação das estratégias dos jogos nas atividades do dia a dia, com objetivo de aumentar o engajamento dos participantes, ou seja fazer com que colaborador, cliente ou pessoa que recebe o serviço fique cada vez mais conectado ou trabalhando no serviço [[PUCPR](https://posdigital.pucpr.br/blog/gamificacao-engajamento "O que é gamificação e como ela aumenta o engajamento")].  
+
+<a name="6.2"></a>
+## 6.2 Colocando Você na Caixa de Skinner
+
+<a name="6.3"></a>
+## 6.3 Criando alimento virtual para você comer
+
+<a name="6.4"></a>
+## 6.4 Fazendo você pressionar a alavanca
+
+<a name="6.5"></a>
+## 6.5 Mantendo você pressionando…para sempre
+
+<a name="6.6"></a>
+## 6.6 Fazendo com você chame a Skinner Box de casa
+
+
 
 ## Referências
 - HUIZINGA, Johan. Homo Ludens. Edição 4º. São Paulo: Editora Perspectiva, 2000.
