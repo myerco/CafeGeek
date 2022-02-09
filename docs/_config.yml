@@ -9,7 +9,7 @@ header_pages:
 markdown: kramdown
 
 header:
-  image: /imagens/cafegeek_small.png
+  image: /imagens/cafegeek_small.webp
 
 minima:
   # generate social links in footer
@@ -19,8 +19,8 @@ minima:
     youtube_channel_name: CafeGeek
     discord: 9jFmnV2S
 
-logo: imagens/cafegeek_small.png
-title-img: imagens/cafegeek_small.png
+logo: imagens/cafegeek_small.webp
+title-img: imagens/cafegeek_small.webp
 tagline: CafeGeek
 
 includes_dir  : _include
