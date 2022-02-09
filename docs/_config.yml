@@ -50,6 +50,8 @@ defaults:
 gtag: "UA-74199518-1"
 google_analytics: UA-74199518-1
 
+url: "https://cafegeek.eti.br/"
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

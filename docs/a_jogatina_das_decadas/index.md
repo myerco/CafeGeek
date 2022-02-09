@@ -100,6 +100,22 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 &nbsp;&nbsp;[5.8 Jogos mobile](#5.8 "5.8 Jogos mobile")
 
 ***
+
+**[CAPÍTULO  6 - Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?](#6)**
+
+&nbsp;&nbsp;[6.1  Introdução](#6.1)
+
+&nbsp;&nbsp;[6.2  Colocando Você na Caixa de Skinner](#6.2)
+
+&nbsp;&nbsp;[6.3  Criando alimento virtual para você comer](#6.3)
+
+&nbsp;&nbsp;[6.4  Fazendo você pressionar a alavanca](#6.4)
+
+&nbsp;&nbsp;[6.5  Mantendo você pressionando...para sempre](#6.5)
+
+&nbsp;&nbsp;[6.6  Fazendo com você chame a Skinner Box de casa](#6.6)
+
+
 <a name="1"></a>
 ## CAPÍTULO 1 - O que é um Jogo?
 
@@ -307,11 +323,11 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 
 > *Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia - https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/ .*
 
-- Desafio;
-- Liberdade - Liberdade de escolher a atividade ou missão do jogo que o jogador pode executar em determinado momento em outras palavras, possibilitar ao jogador construir seu próprio caminho;
-- Recompensa;
-- Escapismo;
-- Interação social.
+- Desafio - Adicionar complexidade nas tarefas do jogador;
+- Liberdade - Possibilitar ao jogador construir seu próprio caminho;
+- Recompensa - Entregar rapidamente um resultado aproveitável para o jogados;
+- Escapismo - Sair da realidade para entrar em mundo onde o jogador encontra controle;
+- Interação social - Encontrar e se relacionar com outras pessoas que compartilham o mesmo desejo.
 
 [https://www.teachthought.com/learning/why-people-play-video-games/](https://www.teachthought.com/learning/why-people-play-video-games/ "Why People Play Video Games")
 
