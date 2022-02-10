@@ -886,7 +886,41 @@ O vicio de jogos é discutido a muito tempo e já foi classificado como uma [doe
 
 **Gamificação.**
 
-Não podemos continuar sem antes entender o modelo de Gamificação que é a aplicação das estratégias dos jogos nas atividades do dia a dia, com objetivo de aumentar o engajamento dos participantes, ou seja fazer com que colaborador, cliente ou pessoa que recebe o serviço fique cada vez mais conectado ou trabalhando no serviço [[PUCPR](https://posdigital.pucpr.br/blog/gamificacao-engajamento "O que é gamificação e como ela aumenta o engajamento")].  
+Não podemos continuar sem antes entender o modelo de Gamificação que é a aplicação das estratégias dos jogos nas atividades do dia a dia, com objetivo de aumentar o engajamento dos participantes, ou seja fazer com que colaborador, cliente ou pessoa que recebe o serviço fique cada vez mais conectado ou trabalhando no serviço [[PUCPR](https://posdigital.pucpr.br/blog/gamificacao-engajamento "O que é gamificação e como ela aumenta o engajamento")].
+
+O modelo da Gamificação aplica todos os elementos dos jogos vistos nos capítulos anteriores, como por exemplo, identificar o jogador (Quem joga?), por que jogar e o que motiva o jogador, e...  
+
+Algumas características dos jogos que a Gamificação aplica são:
+
+- Avatar;
+
+- Bens virtuais;
+
+- Chefão (ou Boss);
+
+- Coleção de itens;
+
+- Conquistas;
+
+- Conteúdos desbloqueáveis;
+
+- Emblemas, medalhas ou badges;
+
+- Gráfico social;
+
+- Missão;
+
+- Níveis;
+
+- Pontos;
+
+- Presentes;
+
+- Ranking;
+
+- Formação de times.
+
+
 
 
 
