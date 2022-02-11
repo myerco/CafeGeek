@@ -1507,8 +1507,7 @@ void AddActiveTrigger();
 - `BlueprintAuthorityOnly` - Esta função só será executada a partir do código **Blueprint** se for executada em uma máquina com autoridade de rede (um servidor, servidor dedicado ou jogo para um único jogador).
 - `BlueprintCallable` - A função pode ser executada em um gráfico **Blueprint** ou Level Blueprint.
 
-<a name="5.5.5"></a>
-### 5.5.5 UPROPERTY
+### UPROPERTY
 As propriedades são declaradas usando a sintaxe de variável **C++** padrão, precedida pela macro UPROPERTY que define metadados de propriedade e especificadores de variável.
 
 Ao declarar propriedades, os Especificadores de Propriedade podem ser adicionados à declaração para controlar como a propriedade se comporta com vários aspectos do Motor e do Editor.

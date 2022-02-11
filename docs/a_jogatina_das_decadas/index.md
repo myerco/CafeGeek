@@ -513,31 +513,31 @@ Sistema formal fechado que subjetivamente representa uma extensão da realidade.
 <a name="5.1"></a>
 ## 5.1 As características dos jogos Eletrônicos
 
-**Foco.**
+### Foco
 
 ![Top Games Free](https://1.bp.blogspot.com/-amcIuWezKHM/VA3vWLcYvXI/AAAAAAAABwE/DXI1Tn6rDsI/s1600/002.jpg "F22 Raptor")
 
 Capacidade do jogador de se concentrar nos objetivos e ações principais.
 
-**Interatividade.**
+### Interatividade
 
 ![Brasil Academicos](https://2.bp.blogspot.com/_cM2l6Y3Ulgg/Sfi6LBnLGoI/AAAAAAAABqo/dWz5kQT2qpg/s1600/sangueCorrompido.jpg "Praga no jogo World of Warcraft ajuda a entender pandemia")
 
 Capacidade dos jogadores realizarem ações participativas nos jogos.
 
-**Conflito.**
+### Conflito
 
 ![comboinfinito](https://www.comboinfinito.com.br/principal/wp-content/uploads/2014/05/far-cry-4-historia.jpg "Detalhes da história de Far Cry 4 surgem no site da Ubisoft")
 
 São elementos importantes que geram oportunidades aos jogadores e trazem consigo a essência do jogo, como medo, responsabilidade e interatividade.
 
-**Segurança.**
+### Segurança
 
 ![Microsoft Xbox](https://news.xbox.com/pt-br/wp-content/uploads/sites/8/2021/11/Hellblade_-Senuas-Sacrifice-2021-08-04-01-00-58.jpg "Hellblade: Senua’s Sacrifice recebe aprimoramento para o PC")
 
 Envolve aplicar características de realidade como morte, ferimentos, quedas e acidentes de forma lúdica, porém responsável.
 
-**Desafio.**
+### Desafio
 
 ![JogaZera](https://jogazera.com.br/wp-content/uploads/2014/03/Dark-Souls-2-Review-770x433.jpg "Review – Dark Souls 2")  
 
@@ -545,7 +545,7 @@ Regras definem o grau de desafio (Fácil, Médio, Difícil, Muito Difícil e Imp
 
 Definem a identidade do jogo.
 
-**Divertimento.**
+### Divertimento
 
 ![Microsoft Xbox](https://store-images.s-microsoft.com/image/apps.54644.65129518710082559.30d43137-919f-4215-820e-038b409fb968.0c2054cc-681a-4f51-b2ad-8bd0318ba61d "Unravel")  
 
