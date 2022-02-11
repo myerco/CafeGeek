@@ -63,19 +63,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[3.3 Entendo o fluxo de trabalho](#3.3)
 
-&nbsp;&nbsp;[**3.4 Começando a trabalhar com o Git e o Unreal Engine**](#3.4)    
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.4.1 Criando uma conta e o projeto no Github](#3.4.1)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.4.2 Instalando Git Client e GitHub Desktop](#3.4.2)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.4.3 Configurando Unreal Engine para utilizar o Git](#3.4.3)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.4.4 Configurando o Github Desktop e adicionando o projeto](#3.4.4)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.4.5 Criando o projeto remoto e atualizando os arquivos](#3.4.5)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[3.4.6 Testando a configuração do Git com o Unreal Engine](#3.4.6)  
+&nbsp;&nbsp;[3.4 Começando a trabalhar com o Git e o Unreal Engine](#3.4)    
 
 &nbsp;&nbsp;[3.5 Utilizando comandos do PowerShell para utilizar o Git Client](#3.5)  
 
@@ -92,37 +80,15 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[4.2 O que são Blueprints e Visual Scripting?](#4.2)  
 
-&nbsp;&nbsp;[**4.3 Trabalhando com Levels**](#4.3)      
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.3.1 Criando Levels](#4.3.1)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.3.2 Salvando Levels](#4.3.2)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.3.3 Carregando Levels](#4.3.3)    
+&nbsp;&nbsp;[4.3 Trabalhando com Level ou níveis](#4.3)      
 
 &nbsp;&nbsp;[4.4 O que é Level Blueprint? ](#4.4)
 
-&nbsp;&nbsp;[**4.5 Atores e Classes utilizando Blueprints**](#4.5)
+&nbsp;&nbsp;[4.5 Atores e Classes utilizando Blueprints](#4.5)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.5.1 Atores predefinidos ou Place Actors](#4.5.1)  
+&nbsp;&nbsp;[4.6 Componentes - Components](#4.6)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.5.2 Classes Blueprint ou Blueprint Class](#4.5.2)  
-
-&nbsp;&nbsp;[**4.6 Componentes - Components**](#4.6)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.6.1 Components e a aba My Blueprint](#4.6.1)  
-
-&nbsp;&nbsp;[**4.7 Estrutura da classe Actor no Unreal Engine**](#4.7)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.7.1 Construction Script](#4.7.1)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.7.2 Event Graph](#4.7.2)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.7.3 BeginPlay](#4.7.3)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.7.4 ActorBeginOverlap](#4.7.4)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.7.5 Tick](#4.7.5)      
+&nbsp;&nbsp;[4.7 Estrutura da classe Actor no Unreal Engine](#4.7)  
 
 &nbsp;&nbsp;[4.8 Comentários](#4.8)
 
@@ -139,24 +105,9 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[5.3 Tipos de variáveis](#5.3)  
 
-&nbsp;&nbsp;[**5.4 Construindo classes C++ no Unreal Engine**](#5.4)  
+&nbsp;&nbsp;[5.4 Construindo classes C++ no Unreal Engine](#5.4)  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.4.1 Pasta privada com os arquivos header das classes](#5.4.1)  
-
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.4.2 Exemplo de um arquivo header com variáveis](#5.4.2)  
-
-&nbsp;&nbsp;[**5.5 Sintaxe da linguagem e C++ e macros do Unreal Engine**](#5.5)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.5.1 Include](#5.5.1)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.5.2 Encapsulamento](#5.5.2)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.5.3 UCLASS](#5.5.3)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.5.4 UFUNCTION](#5.5.4)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[5.5.5 UPROPERTY](#5.5.5)
+&nbsp;&nbsp;[5.5 Sintaxe da linguagem e C++ e macros do Unreal Engine](#5.5)
 
 &nbsp;&nbsp;[5.6 Funções Virtuais](#5.6)
 
@@ -169,91 +120,33 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 &nbsp;&nbsp;[6.1 que são variáveis?](#6.1)  
 
-&nbsp;&nbsp;[**6.2 Variáveis no Unreal Engine**](#6.2)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.2.1 Tipos de variáveis](#6.2.1)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.2.2 Declarando variáveis](#6.2.2)  
+&nbsp;&nbsp;[6.2 Variáveis no Unreal Engine](#6.2)  
 
 &nbsp;&nbsp;[6.3 Métodos Get e Set](#6.3)  
 
-&nbsp;&nbsp;[**6.4 Tratamento e armazenamento de texto no Unreal Engine**](#6.4)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.1 Concatenando textos usando a função Append](#6.4.1)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.4.2 Procurando texto dentro de uma string](#6.4.2)  
+&nbsp;&nbsp;[6.4 Tratamento e armazenamento de texto no Unreal Engine](#6.4)  
 
 &nbsp;&nbsp;[6.5 Variáveis do tipo numéricas Integer e Float](#6.5)  
 
 &nbsp;&nbsp;[6.6 Armazenando valores lógicos com Boolean](#6.6)
 
-&nbsp;&nbsp;[**6.7 Controle de acesso a variáveis**](#6.7)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.7.1 Variáveis Privadas](#6.7.1)  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.7.2 Variáveis Públicas](#6.7.2)  
+&nbsp;&nbsp;[6.7 Controle de acesso a variáveis](#6.7)
 
 &nbsp;&nbsp;[6.8 O que são estruturas de controle ou fluxo?](#6.8)
 
-&nbsp;&nbsp;[**6.9 Estruturas de fluxo condicional**](#6.9)
+&nbsp;&nbsp;[6.9 Estruturas de fluxo condicional](#6.9)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.9.1 Controle de fluxo com Branch (if)](#6.9.1)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.9.2 Sequenciamento de fluxo com Sequence](#6.9.2)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.9.3 Flip Flop](#6.9.3)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.9.4 Gate e Multi Gate](#6.9.4)
-
-&nbsp;&nbsp;[**6.10 Estruturas de repetição**](#6.10)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.10.1 For Loop](#6.10.1)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.10.2 While Loop](#6.10.2)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.10.3 Do N](#6.10.3)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.10.4 Do once](#6.10.4)
-
-
+&nbsp;&nbsp;[6.10 Estruturas de repetição](#6.10)
 
 &nbsp;&nbsp;[6.12 O que são variáveis do tipo array?](#6.12)
 
 &nbsp;&nbsp;[6.13 Declarando arrays e acessando os seus elementos](#6.13)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.13.1 Método Get para arrays](#6.13.1)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.13.2 Get utilizando uma variável como índice](#6.13.2)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.13.3 Último índice e a quantidade de elementos do array](#2.3)
-
 &nbsp;&nbsp;[6.14 Percorrendo arrays](#6.14)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.14.1 Listando todos os elementos utilizando For](#6.14.1)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.14.2 Usando o comando Find](#6.14.2)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.14.3 Contando elementos dentro de um array](#6.14.2)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.14.4 Percorrendo e atualizando dados](#6.14.4)
 
 &nbsp;&nbsp;[6.15 Removendo elementos do array](#6.15)    
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.15.1 Removendo elementos utilizando Remove](#6.15.1)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.15.2 Removendo passando uma variável como parâmetro](#6.15.2)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.15.3 Removendo utilizando nó Remove Index](#6.15.3)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[6.15.4 Limpando o array com Clear](#6.15.4)
-
 &nbsp;&nbsp;[6.16 O que são Enums?](#6.16)
-
-&nbsp;&nbsp;[6.17 Criando Enums no Unreal Engine](#6.17)
-
-&nbsp;&nbsp;[6.18 Exemplos de uso - A lâmpada](#6.18)
-
-&nbsp;&nbsp;[6.19 Exemplos de uso - A pedra das emoções](#6.19)
 
 
 ***
@@ -770,7 +663,7 @@ Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas po
 
 **[⬆ Volta para o CAPÍTULO 2](#capitulo2)**
 
-
+***
 
 <a name="3"></a>
 ## CAPÍTULO 3 - Controle de versão com GitHub e Unreal Engine
@@ -851,16 +744,16 @@ git push origin main
 ## 3.4 Começando a trabalhar com o Git e o Unreal Engine
 Neste passo vamos preparar o ambiente e projeto para começar a trabalhar com o gerenciamento de versões, utilizaremos o **GitHub** como repositório de arquivos e gerenciador de versões, para tal executaremos os próximos passos.
 
-<a name="3.4.1"></a>
-### 3.4.1 Criando uma conta e o projeto no Github
+**Criando uma conta e o projeto no Github.**
+
 Inscreva-se no [Github](https://github.com/) para possibilitar:
 - Registro de Repositórios - Espaço de armazenamento e versionamento de arquivos e projetos;
 - Registro e acompanhamento de tarefas - Registro e acompanhamento de tarefas que podem se associadas aos `commits`;
 - Registro e acompanhamento de projetos e versões - Registro de versões de projeto;  
 - Wiki - Publicação de um Wiki do projeto.
 
-<a name="3.4.2"></a>
-### 3.4.2 Instalando Git Client e GitHub Desktop
+**Instalando Git Client e GitHub Desktop.**
+
 É necessário instalar o **Git Client** no computador local para criar as estruturas de versionamento. Utilizaremos o **PowerShell** com os comandos a seguir para instalar o aplicativo cliente.
 
 1. Instale o [Cliente GIT](https://git-scm.com/downloads);
@@ -881,8 +774,8 @@ git remote -v
 ```
 1. Após a instalação do **Git Client** vamos baixar e instalar o ambiente visual [GitHub Desktop](https://desktop.github.com/) para simplificar o fluxo de trabalho.
 
-<a name="3.4.3"></a>
-### 3.4.3 Configurando Unreal Engine para utilizar o Git
+**Configurando Unreal Engine para utilizar o Git.**
+
 Para exemplificar a conexão do **Unreal Engine** com o Github vamos criar um novo projeto com os seguintes parâmetros:
 - Template : Blank;
 - Project Name : TestGitHub;
@@ -909,8 +802,8 @@ Para exemplificar a conexão do **Unreal Engine** com o Github vamos criar um no
   - `Projeto\Maps`;  
 5. Salve o level atual em `Projeto\Maps` com o nome `LevelTest`.
 
-<a name="3.4.4"></a>
-### 3.4.4 Configurando o Github Desktop e adicionando o projeto
+**Configurando o Github Desktop e adicionando o projeto.**
+
 1. Abra o GitHub Desktop;
 
 2. Configure a sua conta do **Github** para ter acesso aos seus repositórios utilizando o menu principal `File` > `Options`;
@@ -938,8 +831,8 @@ Após confirmação das alterações devemos publicá-las no repositório remoto
 
 O comando acima irá criar um projeto na sua conta no Github.com e adicionar todos os arquivos criados até o momento.
 
-<a name="3.4.6"></a>
-### 3.4.6 Testando a configuração do Git com o Unreal Engine
+**Testando a configuração do Git com o Unreal Engine.**
+
 Para testar as configurações realizadas vamos adicionar o pacote `Starter Content` e um objeto **Blueprint**.
 
 1. Adicione o pacote **Starter Content** utilizando o `Content Drawer`;
@@ -1045,6 +938,7 @@ StarterContent/
 
 **[⬆ Volta para o CAPÍTULO 3](#capitulo3)**
 
+***
 
 <a name="4"></a>
 ## CAPÍTULO 4 - O Unreal Engine e sua lógica de programação
@@ -1099,15 +993,15 @@ Para que o **Unreal Engine** possa construir os nós gráficos que representam a
 **[⬆ Volta para o CAPÍTULO 4](#capitulo4)**
 
 <a name="4.3"></a>
-## 4.3 Trabalhando com Levels
+## 4.3 Trabalhando com Level ou níveis
 Todo os objetos que estão visiveis em um jogo estão armazenados em um *Level* ou mapa de jogo, o *Level* no **Unreal Engine** é composto por iluminação, objetos poligonais e personagens controlados pelos jogadores.
 
 ![Figura: Tutorial List](https://www.worldofleveldesign.com/images/tutorial-topics/cat-ue4-680x300.jpg "Figura: Tutorial List")
 
 > Figura: Tutorial List: UE4  https://www.worldofleveldesign.com.
 
-<a name="4.3.1"></a>
-### 4.3.1 Criando Levels
+### Criando um Level
+
 Para criar um *level* utilizamos o menu principal `File` > `New Level`.
 
 ![Figura: File > New Level. ](https://docs.unrealengine.com/4.27/Images/Basics/Levels/HowTo/WorkWithLevelAssets/NewLevel_Windows.webp "Figura: File > New Level")
@@ -1125,16 +1019,16 @@ A janela para cria um novo *Level* aparece apresentando vários modelos prontos 
 - `VR-Basic`: selecione para criar um novo `Level` com atores para interagir, projetado para guiá-lo no aprendizado dos controles do Editor de VR;
 - `Empty Level`: selecione para criar um novo `Level` completamente vazio.
 
-<a name="4.3.2"></a>
-### 4.3.2 Salvando Levels
+### Salvando um Level
+
 Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
 
 ![Figura: Save Current.](https://docs.unrealengine.com/4.27/Images/Basics/Levels/HowTo/WorkWithLevelAssets/SaveLevel_Windows.webp "Figura: Save Current.")
 
 > Figura: Save Current.
 
-<a name="4.3.3"></a>
-### 4.3.3 Carregando Levels
+### Carregando um Level
+
 É possível abrir um  *Level* utilizando `File` > `Open Level`.
 
 ![Figura: Open Level.](https://docs.unrealengine.com/4.27/Images/Basics/Levels/HowTo/WorkWithLevelAssets/OpenLevel_Windows.webp "Figura: Open Level.")
@@ -1165,14 +1059,15 @@ Os nós utilizados são os seguintes:
 
 <a name="4.5"></a>
 ## 4.5 Atores e Classes utilizando Blueprint
+
 Atores são objetos de uma determinada classe que suportam vários componentes, métodos e variáveis. Por exemplo:
 
 - Personagem Herói - tem atributos, como vida e velocidade, tem componentes, como esqueleto e malha, e métodos, como direção e movimentação.
 
 A lógica de programação dos atores é expressada em **Blueprint** e nos próximos capítulos vamos abordar este temo com mais detalhes.
 
-<a name="4.5.1"></a>
-### 4.5.1 Atores predefinidos ou Place Actors
+### Atores predefinidos ou Place Actors
+
 No nível mais fundamental, um ator é qualquer objeto que você pode colocar em um *Level*.
 
 Para adicionar o ator predefinido na cena utilizamos a opção `Create` e escolhemos o tipo de ator.
@@ -1187,8 +1082,9 @@ Ou podemos acessar o menu principal `Menu` > `Place Actors` para ter acesso a ma
 
 > Figura: Windows >Place Actors.
 
-<a name="4.5.2"></a>
-### 4.5.2 Classes Blueprint ou Blueprint Class
+
+### Classes Blueprint ou Blueprint Class
+
 Uma classe **Blueprint**, muitas vezes abreviada como Blueprint, é um ativo que permite que os criadores de conteúdo adicionem funcionalidades facilmente às classes de jogo existentes. Os projetos são criados dentro do **Unreal Editor** visualmente, em vez de digitar o código, e salvos como ativos em um pacote de conteúdo. Essencialmente, eles definem uma nova classe ou tipo de ator que pode então ser colocado em mapas como instâncias que se comportam como qualquer outro tipo de ator.  
 
 Para adicionar um ator na cena utilizamos o menu de acesso rápido `Context Menu` e acionando com o botão direito do mouse na aba `Content`.  
@@ -1206,7 +1102,7 @@ Escolha de Classe de atores  `Blueprint Class`.
 **[⬆ Volta para o CAPÍTULO 4](#capitulo4)**
 
 <a name="4.6"></a>
-## 4.6 Componentes -  Components
+## 4.6 Componentes - Components
 Os *Components* ou componentes são um tipo especial de objeto que os atores podem anexar a si próprios como subobjetos.
 
 Os componentes são úteis para compartilhar comportamentos comuns, como a capacidade de exibir uma representação visual e reproduzir sons. Eles também podem representar conceitos específicos do projeto, como a maneira como um veículo interpreta a entrada e muda sua própria velocidade e orientação.
@@ -1217,8 +1113,8 @@ Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuár
 
 > Figura: Add Components.
 
-<a name="4.6.1"></a>
-### 4.6.1 Components e a aba My Blueprint
+### Components e a aba My Blueprint
+
 Para ter acesso aos componentes que estão associados a um determinado objeto utilizamos a aba `My Blueprint`, que é uma representação visual do agrupamento de componentes, funções, variáveis e macros, abaixo um exemplo.
 
 ![Figura: Aba MyBlueprint.](imagens/actor/unreal_engine_myblueprint.webp "Figura: Aba MyBlueprint")       
@@ -1250,8 +1146,8 @@ A classe `Actor` é composta por vários elementos, entre eles estão as variáv
 
 A seguir vamos aprender mais sobre esses elementos.
 
-<a name="4.7.1"></a>
-### 4.7.1 Construction Script
+
+### Construction Script
 Lógica de que é executada na construção do objeto, similares ao eventos *Construtor* em C++.  
 
 **Exemplo:**
@@ -1262,8 +1158,7 @@ Apresentando uma mensagem ao construir o objeto.
 
 > Figura: Construction Script.s
 
-<a name="4.7.2"></a>
-### 4.7.2 Event Graph
+### Event Graph
 Contém um gráfico de nós e suas ligações representando a lógica de um **Blueprint**.  
 
 "Exibe a representação visual de um gráfico específico de nós, pois mostra todos os nós contidos no gráfico, bem como as conexões entre eles. Ele fornece recursos de edição para adicionar e remover nós, organizar nós e criar links entre nós. Os pontos de interrupção também podem ser definidos na guia Gráfico para auxiliar na depuração de Blueprints."
@@ -1273,19 +1168,17 @@ Contém um gráfico de nós e suas ligações representando a lógica de um **Bl
 
 > Figura: Event Graph.s
 
-<a name="4.7.3"></a>
-### 4.7.3 BeginPlay
+### BeginPlay
 Este evento é acionado para todos os Atores quando o jogo é iniciado, quaisquer Atores gerados após o jogo ser iniciado terão isso chamado imediatamente.
 
-<a name="4.7.4"></a>
-### 4.7.4 ActorBeginOverlap
+
+### ActorBeginOverlap
 Este evento será executado quando uma série de condições forem atendidas ao mesmo tempo:
 -  A resposta à colisão entre os atores deve permitir sobreposições.
 - Ambos os Atores que devem executar o evento têm que gerar Eventos de Sobreposição definido como verdadeiro.
 - E, finalmente, a colisão de ambos os Atores começa a se sobrepor; movendo-se juntos ou um é criado sobrepondo-se ao outro.
 
-<a name="4.7.5"></a>
-### 4.7.5 Tick
+### Tick
 Este é um evento simples que é chamado em todos os quadros do jogo. Tem como parâmetro a variável **Delta Seconds**.
 
 "Vários motores gráficos ou *Game Engines*, como por exemplo *Unity* e *Pico-8*  tem os mesmos eventos com as mesmas Características."s
@@ -1324,6 +1217,8 @@ Detalhes do comentário.
 
 
 **[⬆ Volta para o CAPÍTULO 4](#capitulo4)**
+
+***
 
 <a name="5"></a>
 ## CAPÍTULO 5 - Programação C++ no Unreal Engine
@@ -1447,8 +1342,7 @@ A seguir vamos implementar uma classe **C++** no **Unreal Engine** para tal util
 
 O **Unreal Engine** vai criar dois arquivos, o arquivo header (.h) e o de implementação (.cpp), sugerindo separar ambos nas pastas `private` e `header`.
 
-<a name="5.4.1"></a>
-### 5.4.1 Pasta privada com os arquivos header das classes
+### Pasta privada com os arquivos header das classes
 ```bash
 <Projeto>/Private/ControlLight.h
 ```
@@ -1512,8 +1406,7 @@ void AControlLight::Tick(float DeltaTime)
 }
 ```
 
-<a name="5.4.2"></a>
-### 5.4.2 Exemplo de um arquivo header com variáveis
+### Exemplo de um arquivo header com variáveis
 Abaixo vamos construir uma classe em **C++** chamado plataforma para exemplificar um arquivo `header` a declaração de variáveis.
 
 ```cpp
@@ -1563,8 +1456,7 @@ protected:
 ## 5.5 Sintaxe da linguagem e C++ e macros do Unreal Engine
 A seguir vamos apresentar algumas características de linguagem e as macros que facilitam a implementação em **C++**.
 
-<a name="5.5.1"></a>
-### 5.5.1 Include
+### O arquivo Include
 É uma forma de incluir um arquivo padrão ou definido pelo usuário no programa e é principalmente escrito no início de qualquer programa **C / C ++**.  
 Esta diretiva é lida pelo pré-processador e ordena que ele insira o conteúdo de um arquivo de cabeçalho do sistema ou definido pelo usuário no programa a seguir. Esses arquivos são importados principalmente de uma fonte externa para o programa atual. O processo de importação de tais arquivos que podem ser definidos pelo sistema ou pelo usuário é conhecido como Inclusão de Arquivo. Este tipo de diretiva de pré-processador diz ao compilador para incluir um arquivo no programa de código-fonte.
 
@@ -1580,16 +1472,14 @@ Exemplo:
 
 O **Unreal Engine** faz uso extensivo de macros de pré-processador, e algumas dessas macros são definidas (#defined) no arquivo `genrated.h` que acompanha cada `UCLASS`. Se você criar uma `UCLASS` *MyClass*, o arquivo MyClass.h irá incluir (#include) MyClass.generated.h. O cabeçalho gerado, MyClass.generated.h, é feito na parte inicial do processo de construção do **Unreal Engine**.
 
-<a name="5.5.2"></a>
-### 5.5.2 Encapsulamento
+### Encapsulamento
 `Public` – Quando precede uma lista de membros de classe, o  *Public*  palavra-chave especifica que esses membros são acessíveis a partir de qualquer função. Isso se aplica a todos os membros declarados até o próximo especificador de acesso ou o fim da classe. Ou seja visível a todos.
 
 `Private` – Quando precede uma lista de membros de classe, o *Private* palavra-chave especifica que esses membros são acessíveis somente dentro de funções de membro e amigos da classe.  Isso se aplica a todos os membros declarados até o próximo especificador de acesso ou o fim da classe. Ou seja visível somente para membros dentro da classe.
 
 `Protected` – O *Protected* palavra-chave especifica o acesso a membros de classe no lista de membros até o próximo especificador de acesso (pública ou private) ou no final da definição de classe.  O *Protected* é mistura entre *Public* e *Private* ou seja é visível somente para membros da classe e visível para subclasses.
 
-<a name="5.5.3"></a>
-###  5.5.3 UCLASS
+### UCLASS
 Você também pode declarar classes **C ++** personalizadas, que se comportam como classes UE4, declarando seus objetos **C++** personalizados como UCLASS. UCLASS usa [Smart Pointers](https://docs.microsoft.com/pt-br/cpp/cpp/smart-pointers-modern-cpp?view=msvc-170 "Ponteiros inteligentes (C++ moderno)") do UE4 e rotinas de gerenciamento de memória para alocação e desalocação de acordo com as regras do Smart Pointer, podem ser carregados e lidos pelo *UE4 Editor* e opcionalmente acessados a partir de Blueprints.
 
 Exemplo:
@@ -1602,14 +1492,14 @@ Os parâmetros descritos no exemplo são os [especificadores](https://docs.unrea
 - `BlueprintSpawnableComponent` - Se estiver presente, o componente Class pode ser gerado por um Blueprint.
 - `ClassGroup=GroupName` - Indica que o Navegador de ator do Unreal Editor deve incluir esta classe e qualquer subclasse dessa classe dentro do GroupName especificado quando a Visualização de grupo estiver ativada no Navegador de ator.
 
-<a name="5.5.4"></a>
-### 5.5.4 UFUNCTION
+### UFUNCTION
 
 Um **UFunction** é uma função **C ++** que é reconhecida pelo sistema de reflexão **Unreal Engine 4** (UE4). Qualquer **UObject** ou biblioteca de função **Blueprint** pode declarar uma função de membro como um **UFunction**, colocando a macro UFUNCTION na linha acima da declaração da função no arquivo de cabeçalho. A macro oferecerá suporte a Especificadores de Função para alterar como o UE4 interpreta e usa uma função.
 
 Ao declarar funções, os especificadores de função podem ser adicionados à declaração para controlar como a função se comporta com vários aspectos do mecanismo e do editor.
 
 Exemplo:
+
 ```cpp
 UFUNCTION(BlueprintCallable, Category = "Plataforma")
 void AddActiveTrigger();
@@ -1710,8 +1600,7 @@ float fValor = 6.5;
 ## 6.2 Variáveis no Unreal Engine
 Variáveis no **Unreal Engine** são propriedades que contêm um valor ou fazem referência a um objeto ou ator no mundo. Essas propriedades podem ser acessíveis internamente ao **Blueprint** que as contém, ou podem ser tornadas acessíveis externamente para que seus valores possam ser modificados por designers que trabalham com instâncias do **Blueprint** colocadas em um nível.
 
-<a name="6.2.1"></a>
-### 6.2.1 Tipos de Variáveis
+### Tipos de Variáveis
 Para armazenar qualquer informação na memória devemos definir um tipo de dados primitivo ou mesmo uma estrutura de dados, a seguir alguns tipos de dados:
 
 - `Boolean` - Armazena valores falso ou verdadeiro (true e false).
@@ -1743,8 +1632,7 @@ FString VariavelString ;
 VariavelString = TEXT("Alo mundo!!");
     ```
 
-<a name="6.2.2"></a>
-### 6.2.2 Declarando variáveis   
+### Declarando variáveis   
 Declarando variáveis informamos ao computador que estamos reservando um espaço de memória temporário.  
 
 **Blueprint.**
@@ -1893,8 +1781,7 @@ void AMyHeroClass::BeginPlay()
 
 ```
 
-<a name="6.4.1"></a>
-### 6.4.1 Concatenando textos usando a função Append
+### Concatenando textos usando a função Append
 A função `Append` concatena duas ou mais `strings`, passamos como parâmetros os textos que gostaríamos de concatenar e tendo como resultado um novo texto contendo os dois textos.
 
 **C++**
@@ -1907,8 +1794,7 @@ sTexto.append("Cruel");
 // Resultado: Alo mundo...Cruel
 ```
 
-<a name="6.4.2"></a>
-### 6.4.2 Procurando texto dentro de uma string
+### Procurando texto dentro de uma string
 A função `Contains` procura uma sequencia de caracteres dentro de uma `string`, passamos os seguintes parâmetros para a função.
 
 **Blueprint.**
@@ -1985,8 +1871,7 @@ No exemplo acima se o valor de `life` for maior que 50 então o valor é atualiz
 ## 6.7 Controle de acesso a variáveis
 Como especificar quais variáveis de um objeto um usuário pode acessar e quais estão fora dos limites? - usando os especificadores de controle de acesso público e privado.
 
-<a name="6.7.1"></a>
-### 6.7.1 Variáveis Privadas
+### Variáveis Privadas
 Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada por módulos externos.  
 
 **Blueprint.**
@@ -2002,8 +1887,7 @@ private:
    bool Running = false;
 ```
 
-<a name="6.7.2"></a>
-### 6.7.2 Variáveis Públicas
+### Variáveis Públicas
 Para permitir que uma variável seja modificada de fora de seu módulos, torne-a pública.  
 
 **Blueprint.**
@@ -2026,7 +1910,6 @@ public:
 ```
 
 **[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
-
 
 <a name="6.8"></a>
 ## 6.8 O que são estruturas de controle ou fluxo?
@@ -2065,8 +1948,7 @@ O resultado será 0 pois a condição de controle de fluxo **if** provocou um de
 ## 6.9 Estruturas de fluxo condicional
 A seguir vamos entender como é fluxo condicional é descrito com programação visual usando Blueprint.
 
-<a name="6.9.1"></a>
-### 6.9.1 Controle de fluxo com Branch (if)
+### Controle de fluxo com Branch (if)
 `Branch` é uma estrutura condicional que testa uma variável utilizando uma expressão lógica e redireciona o fluxo da lógica.
 
 **Blueprint.**
@@ -2088,8 +1970,7 @@ else
 }
 ```
 
-<a name="6.9.2"></a>
-### 6.9.2 Sequenciamento de fluxo com Sequence
+### Sequenciamento de fluxo com Sequence
 O nó `Sequence` permite que um único pulso de execução acione uma série de eventos em ordem. O nó pode ter qualquer número de saídas, todas chamadas assim que o nó Sequência receber uma entrada. Eles sempre serão chamados em ordem, mas sem qualquer demora. Para um usuário típico, as saídas provavelmente parecerão ter sido disparadas simultaneamente.
 
 **Blueprint.**
@@ -2103,8 +1984,7 @@ O nó `Sequence` permite que um único pulso de execução acione uma série de 
 // Não tem similar em C++, deve ser implementado
 ```
 
-<a name="6.9.3"></a>
-### 6.9.3 Flip Flop
+### Flip Flop
 O nó `Flip Flop` obtém uma saída de execução e alterna entre duas saídas de execução. Na primeira vez que é chamado, a saída A é executada. Na segunda vez, B. Depois A, B e assim por diante. O nó também possui uma saída booleana que permite rastrear quando a Saída A foi chamada.
 
 **Blueprint.**
@@ -2119,8 +1999,7 @@ O nó `Flip Flop` obtém uma saída de execução e alterna entre duas saídas d
 // Não tem similar em C++, deve ser implementado
 ```
 
-<a name="6.9.4"></a>
-### 6.9.4 Gate e Multi Gate
+### Gate e Multi Gate
 O nó `MultiGate` recebe um único pulso de dados e o encaminha para qualquer número de saídas potenciais. Isso pode ocorrer sequencialmente, aleatoriamente e pode ou não ser executado em loop.
 
 **Blueprint.**
@@ -2141,8 +2020,7 @@ O nó `MultiGate` recebe um único pulso de dados e o encaminha para qualquer n�
 ## 6.10. Estruturas de repetição
 Podemos utilizar estruturas de repetição para repetir instruções ou nós, a seguir vamos entender algumas dessas estruturas.
 
-<a name="6.10.1"></a>
-### 6.10.1 For Loop
+### For Loop
 O nó `For Loop` funciona como um loop de código padrão, disparando um pulso de execução para cada índice entre o início e o fim.
 
 **Blueprint.**
@@ -2163,8 +2041,7 @@ UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
 
 ```
 
-<a name="6.10.2"></a>
-### 6.10.2 While Loop
+### While Loop
 Uma condição de teste e um corpo são tudo o que constitui um *loop While*. Antes de executar a (s) instrução (ões) em seu corpo, o **Blueprint** avalia a condição de teste `While Loops` para determinar se ela é verdadeira.
 
 **Blueprint.**
@@ -2184,8 +2061,7 @@ while ( valor <= 4) {
 UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
 ```
 
-<a name="6.10.3"></a>
-### 6.10.3 Do N
+### Do N
 O nó `Do N` disparará um pulso de execução N vezes. Depois que o limite for atingido, ele interromperá todas as execuções de saída até que um pulso seja enviado para sua entrada Reset.
 
 **Blueprint.**
@@ -2203,8 +2079,7 @@ Pressionando a tecla J a contagem será reiniciada.
 // Não tem similar em C++, deve ser implementado
 ```
 
-<a name="6.10.4"></a>
-### 6.10.4 Do once
+### Do once
 O nó `Do Once` - como o nome sugere - disparará um pulso de execução apenas uma vez. Desse ponto em diante, ele interromperá toda a execução de saída até que um pulso seja enviado para sua entrada Reset. Este nó é equivalente a um nó `Do N` onde N = 1.
 
 **Blueprint.**
@@ -2283,8 +2158,7 @@ Em **Blueprint** a variável é representada por um ícone 3x3.
 > Figura: Blueprint Arrays.
 
 
-<a name="6.13.1"></a>
-### 6.13.1 Método Get para arrays
+### Método Get para arrays
 Para acessar qualquer elemento dentro *array* é necessários utilizar o índice, como no exemplo abaixo.  
 
 **Blueprint.**  
@@ -2300,8 +2174,7 @@ FString s = pessoa[0];
 UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
 ```
 
-<a name="6.13.2"></a>
-### 6.13.2 Get utilizando uma variável como índice
+### Get utilizando uma variável como índice
 Podemos utilizar uma variável para substituir o índice e acessar elementos do *array*.
 
 **Blueprint.**
@@ -2320,8 +2193,7 @@ FString s = pessoa[indice];
 UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
 ```
 
-<a name="6.13.3"></a>
-### 6.13.3 Último índice e a quantidade de elementos do array
+### Último índice e a quantidade de elementos do array
 Podemos determinar a quantidade de elementos ou valor do último índice do *array* utilizando os nós abaixo.    
 
 **Blueprint.**
@@ -2352,8 +2224,7 @@ UE_LOG(LogTemp,Warning,TEXT("O tamanho do array é %d",Tamanho));
 ## 6.14 Percorrendo arrays
 Percorrer **array** implica em ler todos ou alguns elementos da estrutura, para tal usamos vários nós ou funções que permitem dependendo da necessidade facilitar a lógica.
 
-<a name="6.14.1"></a>
-### 6.14.1 Listando todos os elementos utilizando For
+### Listando todos os elementos utilizando For
 Na lógica abaixo percorremos todo *array* e listamos cada elemento.   
 
 **Bluprint.**
@@ -2399,8 +2270,7 @@ for (auto It = StrArr.CreateConstIterator(); It; ++It)
 - `For Each Loop` - Para cada elemento do *array* é processada uma interação.
 - `For Loop` - Para cada elemento do *array*, dentro dos parâmetros `First Index` e `Last Index` é processada uma interação.
 
-<a name="6.14.2"></a>
-### 6.14.2 Usando o comando Find
+### Usando o comando Find
 `Find` procura um elemento dentro do *array* e se encontra retorna o valor do índice do elemento, caso não encontre retorna -1.   
 
 **Blueprint.**      
@@ -2419,8 +2289,7 @@ if (StrArr.Find(TEXT("Hello"), Index))
 }
 ```
 
-<a name="6.14.3"></a>
-### 6.14.3 Contando elementos dentro de um array
+### Contando elementos dentro de um array
 O exemplo abaixo conta todos os elementos do *array* `Nomes` que são iguais a variável `NomeBusca`.
 
 **Bluprint.**
@@ -2444,8 +2313,7 @@ for (int32 Index = 0; Index != Nomes.Num(); ++Index)
 UE_LOG(LogTemp, Warning, TEXT("O Total é %d"),iTotal);
 ```
 
-<a name="6.14.5"></a>
-### 6.14.5 Percorrendo e atualizando dados
+### Percorrendo e atualizando dados
 O exemplo abaixo vamos percorrer o *array* utilizando uma instrução `for` e atualizar outro *array*.
 
 **Blueprint.**
@@ -2476,8 +2344,7 @@ UE_LOG(LogTemp, Warning, TEXT("O Total é %d"),iTotal);
 ## 6.15 Removendo elementos do array
 É possível remover elementos de dentro de um *array*, após a remoção a quantidade e índice final da estrutura vai ser atualizada, a seguir vamos apresentar algumas funções.    
 
-<a name="6.15.1"></a>
-### 6.15.1 Removendo utilizando Remove
+### Removendo utilizando Remove
 A função `Remove` exclui um elemento do *array*, o valor a ser removido tem que ser informado como parâmetro.    
 
 **Blueprint.**
@@ -2494,8 +2361,7 @@ TArray<FString> Nomes;
 Nomes.Remove(TEXT("Ana"));
 ```
 
-<a name="6.15.2"></a>
-### 6.15.2 Removendo passando uma variável como parâmetro
+### Removendo passando uma variável como parâmetro
 O comando `Remove`executa uma busca utilizando um parâmetro, **NomeBusca** no exemplo abaixo, e o remove do *array*.    
 
 **Bluprint.**
@@ -2513,8 +2379,7 @@ TArray<FString> Nomes;
 Nomes.Remove(StrNomeBusca);
 ```
 
-<a name="6.15.3"></a>
-### 6.15.3 Removendo utilizando nó Remove Index
+### Removendo utilizando nó Remove Index
 `Remove Index` exclui um elemento do *array* utilizando o índice do *array*.      
 
 **Blueprint.**
@@ -2534,8 +2399,7 @@ if (Nomes.Find(TEXT("Hello"), Index))
 
 ```
 
-<a name="6.15.4"></a>
-### 6.15.4 Limpando o array com Clear
+### Limpando o array com Clear
 `Clear` remove todos os elementos do *array*.
 
 **Blueprint.**
@@ -2564,8 +2428,7 @@ Exemplo:
 enum cores = { vermelho,amarelo, azul, verde = 20, preto}
 ```
 
-<a name="6.17"></a>
-## 6.17 Criando Enums no Unreal Engine
+### Criando Enums no Unreal Engine
 
 **Blueprint.**
 
@@ -2610,8 +2473,7 @@ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
 ```
 
 
-<a name="6.18"></a>
-## 6.18 Exemplos de uso - A lâmpada
+### Exemplos de uso - A lâmpada
 Vamos verificar e alterar o estado de uma lâmpada utilizando uma variável do tipo `boolean`.  
 
 **Blueprint.**
@@ -2806,8 +2668,7 @@ else {
 ```
 
 
-<a name="6.19"></a>
-## 6.19 Exemplos de uso - A pedra das emoções
+### Exemplos de uso - A pedra das emoções
 Vamos verificar e alterar o estado de emocional de uma pedra.
 
 1. Alterando o estado emocional da pedra.    

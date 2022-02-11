@@ -63,6 +63,14 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 
 &nbsp;&nbsp;[3.5 Fatores não motivacionais](#3.5 "3.5 Fatores não motivacionais")  
 
+&nbsp;&nbsp;&nbsp;&nbsp;[3.5.1 Respostas sensoriais](#3.5.1)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.5.2 Jogabilidade](#3.5.2)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.5.3 Cognição](#3.5.3)
+
+&nbsp;&nbsp;&nbsp;&nbsp;[3.5.4 Coordenação](#3.5.4)
+
 
 ***
 **[CAPÍTULO  4 - Como são classificados os jogos?](#4 "CAPÍTULO  4 - Como são classificados os jogos?")**
@@ -238,7 +246,7 @@ Estas duas funções podem também por vezes confundir-se, de tal modo que o jog
 ## 2.1 O papel do jogo na sociedade?
 O ser humano, tal como todos os seres da escala biológica, tem como característica principal o movimento. O jogo surge relacionado a esse assunto, por ser a melhor demonstração dessa predominância no homem, além de atuar como um valoroso contribuinte no desenvolvimento global do mesmo.
 
-<a name="2.21"></a>
+<a name="2.2"></a>
 ## 2.2 O jogo Arte e Cultura
 ![O jogo na arte](https://lh3.googleusercontent.com/mw2jVchK_0h4nZ3mm41sEkul6669asv3ifiwqzuCzKNXNLBoWTpvJbq-UaaaIuNjFxu50qukPCIIo9PEWW3cs4-XDbe2N8WHoEZW_JvUkWlnquWNHQbaQTkS0oXlpuTVpWsbzZGGJw "O jogo na arte")
 
@@ -272,7 +280,7 @@ A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo
 
 **[⬆ Início](#indice)**
 
-<a name="2.2"></a>
+<a name="2.6"></a>
 ## 2.6 Algumas considerações sobre o jogo
 ![The Thinker](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Mus%C3%A9e_Rodin_1.jpg/220px-Mus%C3%A9e_Rodin_1.jpg "The Thinker")
 
@@ -338,41 +346,41 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 ## 3.4 Os Fatores motivacionais
 Estão diretamente ligados ao desejo do jogadora sua construção social, leitura, cinema, arte e televisão.
 
-**Exploração.**
+### Exploração
 
 ![wallpaperflare.com Star Trek](https://c4.wallpaperflare.com/wallpaper/73/158/467/star-trek-wallpaper-preview.jpg "wallpaperflare.com Star Trek")
 
 
-**Fantasia.**
+### Fantasia
 
 ![Final Fantasy VII Remake – Como Traduzir o Jogo para Português](https://361605-1208129-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2021/12/Final-Fantasy-7-Remake-Intergrade-PS5-Wallpapers-10.jpg "Final Fantasy VII Remake – Como Traduzir o Jogo para Português")
 
 
-**Quebrar as regras sociais.**
+### Quebrar as regras sociais
 
 ![/www.arkade.com.br](https://www.arkade.com.br/wp-content/uploads/2020/08/gta-v.jpg "GTA V retorna ao Xbox Game Pass, mas agora com suporte ao xCloud")
 
-**Exercitar-se.**
+### Exercitar-se
 
 ![Just Dance 2022](https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3Vu9VvXvEXI0krA0UE0gIK/4fe4d0ea69a2d1c4254ecda81737ca4e/jd22-promo-02-china.jpg "Just Dance 2022")
 
-**Demonstrar-se.**
+### Demonstrar-se
 
 ![The Gamer](https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/04/Demon-Hunter-Tier-20-Cropped.jpg?q=50&fit=crop&w=740&dpr=1.5 "10 Most Epic Tier Sets In World Of Warcraft")
 
-**Sociabilizar-se*.**
+### Sociabilizar-se
 
 ![/www.techtudo.com.br](https://s2.glbimg.com/Ajwl8JcF1B1ozCPrhSOI5OgYAa8=/0x0:695x269/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/C/x/E4BtaXTB2iJc5FTjVOUg/2014-04-23-wow-raid.jpg "World of Warcraft: conheça AddOns importantes antes de entrar na raide")
 
-**Reconhecimento.**
+### Reconhecimento
 
 ![List of Medals available in Call of Duty: Mobile](https://www.touchtapplay.com/wp-content/uploads/2020/12/image-19.png "List of Medals available in Call of Duty: Mobile")
 
-**Aprendizado.**
+### Aprendizado
 
 ![https://myplinkit.com](https://myplinkit.com/wp-content/uploads/2020/03/Activities-and-Games_iStock-1127260590_cropped.jpg "Activities + Games You Can Do at Home to Support Your Child’s Learning")
 
-**Marca.**
+### Marca
 
 ![https://medium.com](https://miro.medium.com/max/825/1*M6VI8_01A-At7Nzp2wn6IA.png "Top 20 Game Studios: Who’s Your Favorite?")
 
@@ -389,18 +397,18 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 <a name="3.5.1"></a>
 ### 3.5.1 Respostas sensoriais.
 
-**Gráficos.**
+### Gráficos
 
 ![tecnoblog.net](https://files.tecnoblog.net/wp-content/uploads/2020/08/dez-dicas-para-dominar-horizon-zero-dawn005.png "10 dicas para dominar Horizon Zero Dawn")
 
-**Som.**       
+### Som
 ![www.techtudo.com.br](https://s2.glbimg.com/WZEsU9OtfinBadWtEwruyHlueBg=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/C/o/4CJ1NPR2u4MTx3BMyY2A/journey-como-jogar-amigo.jpg "Como jogar Journey com um amigo? Confira dicas e tudo sobre o game")
 
-**Música.**        
+### Música
 
 [![Life Is Strange Soundtrack - To All Of You By Syd Matters](https://img.youtube.com/vi/LnG6icGIm0o/0.jpg)](https://www.youtube.com/watch?v=LnG6icGIm0o "Life Is Strange Soundtrack - To All Of You By Syd Matters")
 
-**Efeitos especiais.**
+### Efeitos especiais
 
 ![10 Best Lighting and Particle Effects We Saw In 2011](https://gamingbolt.com/wp-content/gallery/10-best-particle-and-lighting-effects-we-saw-in-2011/assassins-creed-revelations.jpg "Assassin's Creed: Revelations")
 
@@ -414,7 +422,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 
 ![www.techtudo.com.br](https://s2.glbimg.com/ys4yzHh8-bS88Kc2mwhuQdW3An0=/0x0:695x393/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/N/K/ray9GLT9GUmH5n4aqwAw/2015-08-21-the-witcher-3-geralt-lutando.jpg "Confira os requisitos de The Witcher 3 e como deixar mais leve no PC")
 
-<a name="2.5.4"></a>
+<a name="3.5.4"></a>
 ### 3.5.4 Coordenação
 
 ![rollingstone.uol.com.br](https://rollingstone.uol.com.br/media/_versions/guitar_hero_reproducao_widelg.jpg "Guitar Hero: 15 clássicos do game que você provavelmente tocou muito")
