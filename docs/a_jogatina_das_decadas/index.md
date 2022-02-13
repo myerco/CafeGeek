@@ -928,6 +928,25 @@ Algumas características dos jogos que a Gamificação aplica são:
 
 - Formação de times.
 
+As características aplicadas em ambientes onde é necessário potencializar as atividades realizadas por um determinado grupo de pessoas, prepararam um terreno para um ambiente produtivo, pois dão metas, classificam e criam recompensas para os envolvidos. Um dos motivos de aplicar esse método é busca da felicidade no trabalho pois segundo um estudo realizado pela Universidade da Califórnia um trabalhador feliz é, em média, 31% mais produtivo, três vezes mais criativo e vende 37% a mais em comparação aos outros[1](https://www.em.com.br/app/noticia/emprego/2019/09/16/interna_emprego,1085530/funcionarios-felizes-sao-em-media-31-mais-produtivos-diz-pesquisa.shtml), mas para que isso? para responder temos que entender porque trabalhamos e qual o papel do trabalho nas nossas vidas.
+
+
+## O que é trabalho?
+"Em nosso cotidiano, a palavra trabalho está relacionada com alguma **atividade ou serviço desempenhado** por um indivíduo que exige ou não esforço físico." [[2](https://brasilescola.uol.com.br/o-que-e/fisica/o-que-e-trabalho.htm)].
+
+"O trabalho possibilita ao ser humano **transformar a natureza** para saciar as suas **necessidades**. É o trabalho que faz com que o indivíduo demonstre ações, iniciativas, desenvolva habilidades. É com o trabalho que ele também poderá aperfeiçoá-las."
+
+"O trabalho também cumpre um importante papel na **socialização dos indivíduos**, por ser muitas vezes realizado em conjunto e com um **objetivo comum**. A realização das tarefas faz com que sejam desenvolvidas técnicas, e essas técnicas são transmitidas culturalmente. É o que acontece no trabalho com a terra, por exemplo, cada cultura constrói o seu próprio jeito de plantar e lidar com a terra."[[3](https://www.significados.com.br/trabalho/)]
+
+"Partimos do pressuposto marxiano de que o trabalho é o “intercâmbio orgânico entre o
+homem e a natureza”, é necessidade eterna do mundo homens, possuindo um caráter
+[ontológico](https://pt.wikipedia.org/wiki/Ontologia) e retirando o homem de sua condição meramente biológica"[[4](https://seminarioservicosocial.paginas.ufsc.br/files/2017/04/Eixo_1_250.pdf)].
+
+Então definir trabalho como atividade ou serviço desempenhado para transformar a natureza para saciar as necessidades do ser humano e socializar criando objetivos comuns para os indivíduos, o sujeito se objetiva através do trabalho.
+
+
+## Por que trabalhamos?
+
 
 
 
