@@ -127,7 +127,7 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 
 ***
 
-[Atividades e Referências](#jogatina_das_decadas_atividades_referencias.html)
+[Atividades e Referências](jogatina_das_decadas_atividades_referencias.html)
 
 ***
 
