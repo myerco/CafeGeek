@@ -127,6 +127,10 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 
 ***
 
+[Atividades e Referências](#jogatina_das_decadas_atividades_referencias.html)
+
+***
+
 <a name="1"></a>
 ## CAPÍTULO 1 - O que é um Jogo?
 
@@ -204,6 +208,7 @@ Em contrapartida devemos lembrar que o riso no filme O Nome da Rosa teve outra c
 
 <a name="1.3"></a>
 ## 1.3 A Tensão como um elemento do jogo
+
 ![Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise](https://img.ibxk.com.br/2014/10/15/15193231547073.jpg?ims=704x "Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise")
 
 > *Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise .*
@@ -244,10 +249,12 @@ Estas duas funções podem também por vezes confundir-se, de tal modo que o jog
 
 <a name="2.1"></a>
 ## 2.1 O papel do jogo na sociedade?
+
 O ser humano, tal como todos os seres da escala biológica, tem como característica principal o movimento. O jogo surge relacionado a esse assunto, por ser a melhor demonstração dessa predominância no homem, além de atuar como um valoroso contribuinte no desenvolvimento global do mesmo.
 
 <a name="2.2"></a>
 ## 2.2 O jogo Arte e Cultura
+
 ![O jogo na arte](https://lh3.googleusercontent.com/mw2jVchK_0h4nZ3mm41sEkul6669asv3ifiwqzuCzKNXNLBoWTpvJbq-UaaaIuNjFxu50qukPCIIo9PEWW3cs4-XDbe2N8WHoEZW_JvUkWlnquWNHQbaQTkS0oXlpuTVpWsbzZGGJw "O jogo na arte")
 
 O processo criativo e construção de elementos imaginários estão presentes nas caracterizas dos jogos.
@@ -255,12 +262,14 @@ Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um 
 
 <a name="2.3"></a>
 ## 2.3 O jogo e a Guerra
+
 ![O jogo e a guerra](https://lh3.googleusercontent.com/eHCIaFbDB3dEjinKTkIp5AOuGRL9S8taKXnuuQyJM_ZLsxrHjdYMvUb7OISIuOWJwS9a1kwlERn5n0akqx_jUnfjXUazb4TzMqvKrA4zAwNU7Lwn0NSFAyTJlwZgs0a3BiefXfXF7Q "O jogo e a guerra")
 
 É difícil não associar a guerra ao jogo mas o contrário é possível, na guerra o objetivo é conquistar ou subjugar o seu oponente.
 
 <a name="2.4"></a>
 ## 2.4 O jogo e o Direito
+
 ![O jogo e o direito](https://lh4.googleusercontent.com/0UyjVE8iYejdGuduppAcytXaEVPAV8aMX3INMhuJw72tQBS8xy1Sq_8vS9JpZSZNgQ81lfxM_BmCJObWEa9bkGPfZNnMuQbWfy551KWCF1b2R1Rg3iiRXta3mwNOvzunKDaU5gvonw "O Jogo e o Direito")
 
 Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o Luizinga associa o "processo" a um jogo considerando o seguinte:
@@ -301,6 +310,7 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 
 <a name="3.1"></a>
 ## 3.1 O jogador
+
 ![Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women](https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp "Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women")
 
 > *Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women .*
@@ -314,6 +324,7 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 
 <a name="3.2"></a>
 ## 3.2 O que é jogar?
+
 ![Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - https://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/](https://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg "Figura: Jogador Nº 1 | Diversão, referências e o orgulho geek - https://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/")
 
 > *Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/ .*
@@ -344,6 +355,7 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 
 <a name="3.4"></a>
 ## 3.4 Os Fatores motivacionais
+
 Estão diretamente ligados ao desejo do jogadora sua construção social, leitura, cinema, arte e televisão.
 
 ### Exploração
@@ -386,6 +398,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
 
 <a name="3.5"></a>
 ## 3.5 Fatores não motivacionais
+
 Estão ligados na avaliação da mensagem que está sendo transmitida.
 - Comunicação visual;
 - Comunicação auditiva e sensorial.
@@ -443,6 +456,7 @@ Podemos classificar os jogos para determinar ou mostrar a sua função dentro de
 
 <a name="4.1"></a>
 ## 4.1 Tabuleiro
+
 ![History](https://assets.historyplay.tv/br/public/styles/wide/public/images/2020/05/28/senet_-_jogo_-_egito_-_mortos_-_comunicacao_-_history_channel_brasil.jpg "Senet, o jogo de tabuleiro que os egípcios usavam para se comunicar com os mortos ")
 
 Consistem em uma superfície dividida em setores com peças móveis.
@@ -456,6 +470,7 @@ Consistem em uma superfície dividida em setores com peças móveis.
 
 <a name="4.2"></a>
 ## 4.2 Cartas
+
 ![Jogolaxia](https://jogolaxia.com/files/artigos/jogos-cartas.jpg "Os 10 melhores jogos de cartas para jogar sozinho")
 
 Conjunto de símbolos com valores de combinação lógica, quem em determinadas regras, representam combinação para cada combinação empregada em uma jogada.
@@ -464,6 +479,7 @@ Conjunto de símbolos com valores de combinação lógica, quem em determinadas 
 
 <a name="4.3"></a>
 ## 4.3 Atléticos
+
 ![Brasil Escola](https://s1.static.brasilescola.uol.com.br/galeria/images/85b29f73c4b883f3b44b9e0596a2bdb0.jpg "Voleibol")
 
 São fisicamente aplicados em determinado jogo.
@@ -472,6 +488,7 @@ São fisicamente aplicados em determinado jogo.
 
 <a name="4.4"></a>
 ## 4.4 Infantis
+
 ![Somos edução](https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_780,h_450/https://blog.elevaplataforma.com.br/wp-content/uploads/2019/12/original-cfd1c117a3b836f3f131e59095fc3154-780x450.jpg "Gamificação na educação: como usá-la no processo pedagógico?")
 
 Brincadeiras físicas e mentais com visões educacionais, cujo objetivo é socializar e educar.
@@ -480,6 +497,7 @@ Brincadeiras físicas e mentais com visões educacionais, cujo objetivo é socia
 
 <a name="4.5"></a>
 ## 4.5 Eletrônicos
+
 ![USP imagens](https://imagens.usp.br/wp-content/uploads/games_pedrobolle_uspimagens_001.jpg  "Jogos Eletrônicos")
 
 Trabalham com reflexos, coordenação e cognição.
@@ -557,6 +575,7 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 <a name="5.2"></a>
 ## 5.2 Os tipos de jogos Eletrônicos
+
 - RTS: Estratégia em tempo real, jogo não “roda” em torno de turnos.
 - MOBA: Arena de batalha multijogador online, jogador controla um personagem em uma batalha entre dois times aonde o objetivo é derrotar a base principal inimiga.
 - RPG: Jogo de interpretação, o jogador vivencia um personagem que segue uma determinada história predestinada. O jogador controla as ações de um personagem imerso num mundo definido, incorporando elementos. Os personagens possuem status: ataque, defesa, agilidade e inteligência. Existe o sistema de níveis, no qual a cada batalha/missão terminada, se recebe experiência, e uma certa quantidade os leva para um novo nível.
@@ -637,6 +656,7 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 <a name="5.5"></a>
 ## 5.5 Complexidade e valor de produção
+
 A seguir será apresentado quando custa estimativamente produzir um jogo digital por ordem de complexidade e custo.
 
 - Mini Games - $3K to $20K
@@ -658,6 +678,7 @@ A seguir será apresentado quando custa estimativamente produzir um jogo digital
 ## 6. Evolução dos jogos eletrônicos
 
 ### 1. Primeira geração (1971-1977)
+
 A linha começa em 1972, com o Odyssey Magnavox, em sua versão conhecida como "Brown Box". O engenheiro americano Ralph Baer desenhou o protótipo em meados de 1966, mas só em 1971 ele foi licenciado para a Magnavox e lançado no ano seguinte.
 
 Tal como os poucos arcades que já existiam, era um aparelho de extrema simplicidade: sem som, sem cor, para simular a cor de ambientes e texturas, como uma pista ou um gramado, era preciso colocar uma folha de acetato colorida sobre a tela da TV. Mais tarde, com a versão "Pong", foi introduzido áudio.
@@ -681,12 +702,14 @@ O Coleco Telstar foi outro destaque da primeira geração, produzido entre 1976 
 
 
 ### 2. Segunda geração (1978 - 1983)
+
 Geração onde os consoles apresentavam processadores de 4 a 8 bit. Os jogos do ATARI são os mais populares dessa época, como exemplo o Popeye e Pacman.
 
 ![https://www.cnnbrasil.com.br/entretenimento/pac-man-completa-40-anos-e-criador-revela-origem-do-icone-dos-videogames/](https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/5363_7D66C7F21A0BD4A2.jpg?w=876&h=484&crop=1 "Pac-Man")
 
 
 ### 3. Terceira geração (1984 - 1990)
+
 Geração onde teve a estreia do clássico NES (Nintendo Entertainment System) da nintendo e também o Master System da SEGA, conseguindo chegar em algumas produções de jogos em 16 bits. Exemplos de jogos de destaques dessa geração são o Sonic e Super Mário Bros. 1, 2 e 3, esses últimos que deram início ao mundo extraordinário de fases de aventuras e plataformas do mascote da Nintendo.
 
 Jogos da Terceira Geração:
@@ -699,7 +722,8 @@ Jogos da Terceira Geração:
 ![https://pt.wikipedia.org/wiki/Tetris](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Emacs_Tetris_vector_based_detail.svg/300px-Emacs_Tetris_vector_based_detail.svg.png "Tetris")  
 
 ### 4. Quarta geração (1991 - 1999)
- A quarta geração consolidou de vez a era dos 16 bits, com a evolução da Nintendo com o Super Nintendo e da SEGA com o Mega drive. Exemplos como  Super Mario World, Bomberman, The King of Fighters e Mortal Kombat foram uns dos clássicos mais vendidos da época. Os dois últimos são eternizados como grandes jogos de lutas, o mortal kombat caracterizado pela sua gráfica de violências e sangues e o KOF caracterizado pelas suas partidas em trios.
+
+A quarta geração consolidou de vez a era dos 16 bits, com a evolução da Nintendo com o Super Nintendo e da SEGA com o Mega drive. Exemplos como  Super Mario World, Bomberman, The King of Fighters e Mortal Kombat foram uns dos clássicos mais vendidos da época. Os dois últimos são eternizados como grandes jogos de lutas, o mortal kombat caracterizado pela sua gráfica de violências e sangues e o KOF caracterizado pelas suas partidas em trios.
 
  Jogos da quarta Geração:
 - Mega Drive;
@@ -724,6 +748,7 @@ Jogos da Terceira Geração:
 ![https://en.wikipedia.org/wiki/Tomb_Raider:_The_Last_Revelation](https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Tomb_Raider_-_The_Last_Revelation.png/220px-Tomb_Raider_-_The_Last_Revelation.png "Tomb_Raider_-_The_Last_Revelation")
 
 ### 5. Quinta Geração (2000 - Hoje)
+
 A quinta geração estabeleceu a era dos 32 bits e posteriormente com o 64 bits, fazendo a todos passarem 24 horas jogando com os amigos no multiplayer local o excelente FPS e um dos pioneiros do gênero, 007 Goldeneye do Nintendo 64. Também foi o início da consolidação dos portáteis como o game boy, também da Nintendo. Posteriormente com as inevitáveis evoluções da geração, conhecemos também os consoles da SEGA Dreamcast,  SONY PlayStations 1,2,3 e 4, da Microsoft Xbox, 360 e One e também a grande popularidade e avanços gráficos dos games para PC que existem até a atualidade.
 Alguns exemplos de jogos dessas gerações são 007 Goldeneye, Super Mário 64, Mario Kart, Counter Strike, LOL, Metal Gear Solid, God Of War, Grand Theft Auto, The Last of US  e Red Dead Redemption.
 
@@ -733,7 +758,9 @@ Alguns exemplos de jogos dessas gerações são 007 Goldeneye, Super Mário 64, 
 
 <a name="5.7"></a>
 ## 5.7 Era dos Videogames
+
 ### Nintendo
+
 A Nintendo, tradicional e inovadora, começou nos arcades (fliperamas) e estreou em 1983 com o console de mesa NES. Em sequência fez o SNES, o Nintendo 64, o GameCube, o Wii , o Wii U e por último o Nintendo Switch.Líder do mercado de portáteis com Game Boy, em seguida Game Boy Color, Game Boy Advance e o console portátil mais vendido da história, o tão conhecido Nintendo DS, no inicio de 2011 lançou o seu novo portátil Nintendo 3DS, que traz um inovador sistema de jogos 3D.Lançou o Wii com uma inovadora jogabilidade com o controle Wiimote, que fez com que ela voltasse a ser a líder do mercado. Na E3 2011 a Nintendo mostrou seu mais novo console, o Wii U, sucessor do Wii, lançado em 18 de Novembro de 2012. O poder gráfico do novo console é superior ao dos consoles de sétima geração.
 
 ![https://gamerview.com.br/artigos/top-10-videogames-nintendo](https://gamerview.com.br/wp-content/uploads/2021/09/Top-10-Nintendo-DS.jpg.webp "Nintendo DS")
@@ -744,6 +771,7 @@ A Sony é líder do mercado de videogames domésticos (com o seu PlayStation 2).
 ![https://tecnoblog.net/sobre/sony/playstation-5/](https://files.tecnoblog.net/wp-content/uploads/2020/11/playstation_5_produto-700x700.png "PS5")
 
 ### Microsoft
+
 A Microsoft é uma empresa gigante de software e hardware. Estreou-se no mercado dos consoles em 2001 com o Xbox. Em 2005 deu início a sétima geração com o Xbox 360, e em 2013 lançou o seu console da oitava geração: Xbox One, lançado dia 22 de Novembro de 2013.
 
 A empresa tem um departamento dedicado ao desenvolvimento de jogos, a Microsoft Games Studios, onde são feitos os jogos das séries Age of Empires, Fable, Dungeon Siege, Halo, Supreme Commander, Forza Motorsport, Microsoft Flight Simulator, entre outros.
@@ -751,6 +779,7 @@ A empresa tem um departamento dedicado ao desenvolvimento de jogos, a Microsoft 
 ![https://www.xbox.com/pt-BR/consoles](https://compass-ssl.xbox.com/assets/03/8b/038bfc7b-2ebf-4e7f-bd41-c76c8e6d2b8b.jpg?n=10202018_Image-1084_Fam_1920x944.jpg "Xbox XS")
 
 ### Jogos de consoles (Xbox, PS)
+
 - The Last Of Us (PS3, PS4)
 - Franquia Killzone (PS2, PS3, PS4)
 - God Of War (PS2, PS3, PSP, PS4)
@@ -761,6 +790,7 @@ A empresa tem um departamento dedicado ao desenvolvimento de jogos, a Microsoft 
 - Gears Of War (Xbox Classic, Xbox 360, Xbox One)
 
 ### Jogos de consoles (Nintendo)
+
 - The Legend Of Zelda  (NES, SNES,GB, GBC, GBA, N64, GC, DS, 3DS, Wii, WiiU, Nintendo Switch)
 - Super Mario (NES, SNES, GB, GBA, N64, GC, DS, 3DS, Wii, WiiU, Nintendo Switch)
 - Donkey Kong (NES, SNES, GB, GBA, N64, GB, GC, 3DS, Wii, WiiU, Nintendo Switch)
@@ -768,6 +798,7 @@ A empresa tem um departamento dedicado ao desenvolvimento de jogos, a Microsoft 
 - Pokemon (NES, SNES, GB, GBC, GBA, GC, N64, Wii, WiiU, Nintendo Switch)
 
 ### Jogos para computador
+
 Entre 2000 e 2010 os games para PC deram um verdadeiro salto quântico em sua qualidade visual.
 Os HDs ficaram maiores, as memórias se tornaram mais poderosas, as placas de som ganharam a qualidade de reproduzir som com qualidade de cinema. Mas nada disso seria útil se não fosse a evolução das placas de vídeo, que passaram a trabalhar em função dos processadores principais.
 O que antes seria a plataforma perfeita apenas para FPS, RTS e Adventures, tornou-se a plataforma mais versátil e poderosa do mercado.
@@ -791,6 +822,7 @@ Menções honrosas:
 - Portal;
 
 ### Jogos para celular
+
 Snake e o primeiro grande sucesso - Em 1998, a Nokia lançou modelos que chegavam  com três jogos pré-instalados: Memory, Snake e Logic.
 
 O famoso "jogo da cobrinha" foi um sucesso gigantesco.
@@ -831,11 +863,13 @@ São jogos para plataformas móveis como por exemplo celulares ou outros disposi
 >As taxas de penetração de celulares e o uso de smartphones para jogos continuam a disparar em escala global. Como resultado, as tendências da indústria de jogos preveem que a receita dos jogos para celular ultrapasse a marca de 100 bilhões de dólares até 2023. [1](https://techjury.net/blog/gaming-industry-worth/)
 
 ### Monetização
+
 Processo de ganhar dinheiro com seu jogo de celular seguindo algumas regras.
 
 - Google play - 90% da receita vieram por meio de anúncios e compras nos jogos.
 
 ### Modelos de monetização
+
 - Gratuito;
 - Receita a longo prazo ;
 - Pago;
@@ -867,6 +901,7 @@ Processo de ganhar dinheiro com seu jogo de celular seguindo algumas regras.
   - Chartboost
 
 ### Tipos de anúncios
+
 - Banners;
 - Entre níveis;
 - Mais botões;
@@ -877,6 +912,7 @@ Processo de ganhar dinheiro com seu jogo de celular seguindo algumas regras.
 - Vídeos;
 
 ### Qual o melhor modelo?
+
 “...não há uma resposta certa para isso, já que tudo depende do seu jogo. Estatisticamente, as compras no aplicativo geram mais receita em jogos e aplicativos para dispositivos móveis, mas, se não fizer sentido para o seu jogo ter compras no aplicativo, não faça isso.
 Além disso, muitos jogos para dispositivos móveis combinam e combinam estratégias diferentes (por exemplo, oferecer recompensas por dinheiro, como compras na loja ou gratuitamente, em troca de assistir a um anúncio em vídeo). Então, isso é algo que você precisa considerar.”
 
@@ -932,6 +968,7 @@ As características aplicadas em ambientes onde é necessário potencializar as 
 
 
 ## O que é trabalho?
+
 "Em nosso cotidiano, a palavra trabalho está relacionada com alguma **atividade ou serviço desempenhado** por um indivíduo que exige ou não esforço físico." [[2](https://brasilescola.uol.com.br/o-que-e/fisica/o-que-e-trabalho.htm)].
 
 "O trabalho possibilita ao ser humano **transformar a natureza** para saciar as suas **necessidades**. É o trabalho que faz com que o indivíduo demonstre ações, iniciativas, desenvolva habilidades. É com o trabalho que ele também poderá aperfeiçoá-las."
@@ -949,10 +986,9 @@ Então definir trabalho como atividade ou serviço desempenhado para transformar
 
 
 
-
-
 <a name="6.2"></a>
 ## 6.2 Colocando Você na Caixa de Skinner
+
 Se você já foi viciado em um jogo ou conhece alguém que era, este [artigo é realmente perturbador](https://www.gamasutra.com/view/feature/3085/behavioral_game_design.php?page=1) . Ele foi escrito por um pesquisador de jogos da Microsoft sobre como fazer videogames que prendem os jogadores, quer eles gostem ou não. Ele tem doutorado em ciências comportamentais e do cérebro.
 
 "Cada contingência é um arranjo de tempo, atividade e recompensa, e há um número infinito de maneiras que esses elementos podem ser combinados para produzir o padrão de atividade que você deseja de seus jogadores."
@@ -1124,13 +1160,3 @@ Heroína: É praticamente WoW em uma seringa.
 O perigo está no fato de que esses jogos se tornaram tão incrivelmente eficientes em proporcionar a sensação de realização que as pessoas costumavam obter de sua educação ou carreira. Não estamos dizendo que os jogos vão arruinar o mundo, ou que o vício em jogos será um flagelo para os jovens da mesma forma que o crack arruinou as cidades do interior nos anos 90. Mas podemos acabar com uma geração de caras trabalhando na Starbucks quando eles tinham cérebro e talento para muito mais. Eles estão insatisfeitos com suas vidas porque desperdiçaram seus 20 anos jogando videogames e escaparão de sua insatisfação jogando mais videogames. Enxaguar, repetir.
 
 E vamos encarar; se você acha que WoW é viciante, espere até ver os jogos que eles vão fazer daqui a 10 anos. Eles só estão melhorando no que fazem.
-
-
-## Referências
-- HUIZINGA, Johan. Homo Ludens. Edição 4º. São Paulo: Editora Perspectiva, 2000.
-
-- [Jogo](https://pt.wikipedia.org/wiki/Jogo)
-
-- [25 Video Games That Could Make You Smarter](https://www.raisesmartkid.com/6-to-10-years-old/5-articles/57-what-video-games-are-good-for-the-brain)
-
-- [Guitar Hero: 15 clássicos do game que você provavelmente tocou muito](https://rollingstone.uol.com.br/noticia/guitar-hero-15-classicos-do-game-que-voce-provavelmente-tocou-muito/)
