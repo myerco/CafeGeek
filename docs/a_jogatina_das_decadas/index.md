@@ -983,8 +983,23 @@ Então definir trabalho como atividade ou serviço desempenhado para transformar
 
 
 ## Por que trabalhamos?
+Por que trabalhamos? para a "ter" coisas!! talvez seja uma resposta muito simples por isso vamos buscar a origem da palavra para tentar entender melhor a pergunta.
 
+Vimos anteriormente que trabalho é uma atividade humana com seus valores sociais, mas o significado da palavra trabalho tem um origem  no mínimo interessante:
 
+"A palavra trabalho vem do latim tripalium, termo formado pela junção dos elementos tri, que significa “três”, e palum, que quer dizer “madeira”.
+
+Tripalium era o nome de um instrumento de tortura constituído de três estacas de madeira bastante afiadas e que era comum em tempos remotos na região europeia.
+
+Desse modo, originalmente, "trabalhar" significava **“ser torturado”**."
+
+Então a palavra se origina de uma tortura e ao longo do tempo passou a ter outros significados, talvez porque aumentamos nossa percepção da relação de atividade com produto e o processo produtivo. "Ter" qualquer coisa vindo desse tipo de atividade não parece uma coisa legal pois as cicatrizes do açoite ficam para sempre.
+
+E o valor social? o reconhecimento ou mesmo a construção coletiva se apresentam como complemento da resposta?
+
+Aposentados, desempregados não se sentem partes da sociedade, são os invisíveis, ao contrário dos trabalhadores que estão inseridos em uma dinâmica rede de conversas e experiências. Em uma sociedade que valoriza o mercado e o trabalho é uma mercadoria, o ser humano é reduzido ao que ele pode fazer para perpetuar esse pensamento, mas somos mais do isso, somos "ser"  dentro de uma complexa rede de desejos, sentimentos e experiências. "Ter" não parece ser mais interessante do que "ser" um pai, um filho, amigo ou "ser" alguém que pertence.
+
+A resposta é trabalhamos porque o trabalho é uma extensão do nosso ser e consequentemente buscamos reconhecimento por isso, seja ele financeiro ou social. 
 
 <a name="6.2"></a>
 ## 6.2 Colocando Você na Caixa de Skinner

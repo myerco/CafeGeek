@@ -513,3 +513,21 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 - [Replication](https://docs.unrealengine.com/en-US/Gameplay/HowTo/Networking/ReplicateFunction/Blueprints/index.html)
 
 - [Networking Overview](https://docs.unrealengine.com/en-US/InteractiveExperiences/Networking/Overview/index.html)
+
+### Livros
+
+- SANDERS, Andrew. An Introduction to Unreal Engine 4. Boca Raton,FL. Taylor & Francis Group. 2017;
+
+- SEWELL, Brenden. Blueprints Visual Scripting for Unreal Engine. Birminghan UK. Pack Publishing.2015;
+
+- SEWELL, Brenden. Blueprints Visual Scripting for Unreal Engine. Birminghan UK. Pack Publishingtlh;
+
+- PV, Satheesh. Unreal Engine 4 Game Development Essentials. Birminghan-Mumbai. Packt Publishing. 2016;
+
+- SHERIF, Willian, Stephen Whittle. Unreal Engine 4 Scripting with C++ Cookbook. Birminghan-Mumbai. Packt Publishing. 2016;
+
+### Recursos
+
+- Framework  de desenvolvimento da Epic Games Unreal Engine;
+
+- Laboratório de Jogos;
