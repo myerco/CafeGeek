@@ -1,11 +1,11 @@
 ---
 title: A Jogatina das décadas
 description: O objetivo deste curso é apresentar as características e elementos associados aos jogos eletrônicos.
-tags: [narrativa, Roteirização, jogos digitais]
+tags: [narrativa, Roteirização, jogos digitais, estética]
 layout: page
 ---
 
-O objetivo deste curso é apresentar e trabalhar com a definição do que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização.
+O objetivo deste curso é apresentar e trabalhar com a definição do que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização. O curso está associado a construção **Estética** do jogo pois nele definimos elementos como sensação, desafio, descoberta e passatempo.
 
 **Habilidades que serão aprendidas**
 
@@ -15,6 +15,10 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 - Conheça o mercado de jogos digitais;    
 - Implemente um protótipo de jogo;
 - Analise e conceitue a Gamificação.
+
+| M         |  D          | A         |
+|:-         |:-           |:-         |
+| Mecânicas | Dinâmicas   | **Estéticas** |
 
 ***
 
@@ -999,7 +1003,7 @@ E o valor social? o reconhecimento ou mesmo a construção coletiva se apresenta
 
 Aposentados, desempregados não se sentem partes da sociedade, são os invisíveis, ao contrário dos trabalhadores que estão inseridos em uma dinâmica rede de conversas e experiências. Em uma sociedade que valoriza o mercado e o trabalho é uma mercadoria, o ser humano é reduzido ao que ele pode fazer para perpetuar esse pensamento, mas somos mais do isso, somos "ser"  dentro de uma complexa rede de desejos, sentimentos e experiências. "Ter" não parece ser mais interessante do que "ser" um pai, um filho, amigo ou "ser" alguém que pertence.
 
-A resposta é trabalhamos porque o trabalho é uma extensão do nosso ser e consequentemente buscamos reconhecimento por isso, seja ele financeiro ou social. 
+A resposta é trabalhamos porque o trabalho é uma extensão do nosso ser e consequentemente buscamos reconhecimento por isso, seja ele financeiro ou social.
 
 <a name="6.2"></a>
 ## 6.2 Colocando Você na Caixa de Skinner
