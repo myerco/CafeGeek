@@ -6,7 +6,7 @@ tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digi
 layout: page
 ---
 
-Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*.  
+Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*.  O curso está associado a construção **Mecânica** do jogo pois nele definimos elementos como mecanismos de controle e elementos do conteúdo do jogo.  
 
 **Habilidades que serão aprendidas**
 
@@ -19,6 +19,11 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 - Implementar inteligência artificial;
 - Construir a animação de personagens;
 - Implementar Efeitos especiais.
+
+
+| M         |  D          | A         |
+|:-         |:-           |:-         |
+| **Mecânicas** | **Dinâmicas**   | Estéticas |
 
 ***
 

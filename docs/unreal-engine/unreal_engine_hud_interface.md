@@ -68,7 +68,7 @@ Content\UI\WBP_Character_info
 
 No **Unreal Engine** utilizamos um objeto com atributos e métodos próprios para o tratamento e organização de informação na interface do jogador, a classe de objetos `Widget` que vem acompanhado por um editor especial.    
 
-![Figura: Widget Editor Blueprint - Unreal Engine doc.](https://docs.unrealengine.com/Images/InteractiveExperiences/UMG/UserGuide/EditorUtilityWidgets/EditEditorUtilityWidgetBlueprint.webp "Figura: Widget Editor Blueprint - Unreal Engine doc.")
+![Figura: Widget Editor Blueprint - Unreal Engine doc.](imagens/interface_ui_hud/EditEditorUtilityWidgetBlueprint.webp "Figura: Widget Editor Blueprint - Unreal Engine doc.")
 
 > Figura: Widget Editor Blueprint - Unreal Engine doc.
 

@@ -11,7 +11,7 @@ layout: page
 Neste capítulo iremos manipular os materiais com lógica de script Blueprint e construir funções para utilizar dentro dos materiais.
 
 
-&nbsp;&nbsp;[Materiais Blueprint](#9.4)
+&nbsp;&nbsp;[9.4 Materiais Blueprint](#9.4)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.4.1 Parameter Global](#9.4.1)
 

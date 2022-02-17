@@ -39,7 +39,7 @@ Jogadores humanos que entram no jogo são associados a `PlayerControllers`. Esse
 
 O fluxograma abaixo apresenta como as principais classes de jogo se relacionam entre si.
 
-![Figura: Game Framework - QuickReference Unreal Engine](https://docs.unrealengine.com/Images/Gameplay/Framework/QuickReference/GameFramework.webp "Figura: Game Framework - QuickReference Unreal Engine")
+![Figura: Game Framework - QuickReference Unreal Engine](imagens/gamemode/GameFramework.webp "Figura: Game Framework - QuickReference Unreal Engine")
 
 > Figura: Game Framework - QuickReference Unreal Engine
 
