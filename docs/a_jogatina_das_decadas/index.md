@@ -930,9 +930,17 @@ Além disso, muitos jogos para dispositivos móveis combinam e combinam estraté
 <a name="6.1"></a>
 ## 6.1 Introdução
 
+![Figura: Qual sua opinião sobre o vício em games ser considerado um distúrbio mental? - https://www.campograndenews.com.br/lado-b/games/qual-sua-opiniao-sobre-o-vicio-em-games-ser-considerado-um-disturbio-mental](https://cdn6.campograndenews.com.br/uploads/noticias/2020/03/10/2yc2mrado5gks.jpg "Qual sua opinião sobre o vício em games ser considerado um distúrbio mental?")
+
+> Figura: Qual sua opinião sobre o vício em games ser considerado um distúrbio mental? - https://www.campograndenews.com.br/lado-b/games/qual-sua-opiniao-sobre-o-vicio-em-games-ser-considerado-um-disturbio-mental .
+
 O vicio de jogos é discutido a muito tempo e já foi classificado como uma [doença pela OMS](https://www.uol.com.br/vivabem/reportagens-especiais/o-vicio-em-jogos-e-considerado-disturbio-mental-quais-os-perigos-da-doenca/#page1), mas a pergunta de nosso título aponta outro vício ou a falta desse, vício em trabalho, será que  você pode ser viciado em trabalho e o trabalho pode ser classificado como uma doença pela OMS [[workaholic](http://setocupacional.com.br/site/fique-por-dentro/workaholic-vicio-em-trabalho-risco-a-saude-consequencias-causas-tratamentos/)]?, este tema é na verdade uma provocação para que possamos discutir aspectos relacionados a como os videogames são construídos por equipes de especialistas que visam manter o jogador o mais tempo possível conectado ou jogando, também vamos correlacionar as técnicas usadas pelos especialistas de jogos que são usadas para "motivar" as pessoas para um determinado trabalho.
 
 **Gamificação.**
+
+![Figura: Gamificação: saiba o que é e como esse método funciona - https://www.weblayer.com.br/gamificacao/](https://www.weblayer.com.br/wp-content/uploads/2016/11/Gamificacao-saiba-o-que-e-e-como-esse-metodo-funciona-1080x641.jpg "Figura: Gamificação: saiba o que é e como esse método funciona - https://www.weblayer.com.br/gamificacao/")
+
+> Figura: Gamificação: saiba o que é e como esse método funciona - https://www.weblayer.com.br/gamificacao/ .
 
 Não podemos continuar sem antes entender o modelo de Gamificação que é a aplicação das estratégias dos jogos nas atividades do dia a dia, com objetivo de aumentar o engajamento dos participantes, ou seja fazer com que colaborador, cliente ou pessoa que recebe o serviço fique cada vez mais conectado ou trabalhando no serviço [[PUCPR](https://posdigital.pucpr.br/blog/gamificacao-engajamento "O que é gamificação e como ela aumenta o engajamento")].
 
@@ -973,6 +981,10 @@ As características aplicadas em ambientes onde é necessário potencializar as 
 
 ## O que é trabalho?
 
+![Figura: Aprenda sobre a História do Trabalho - https://beduka.com/blog/materias/sociologia/historia-do-trabalho/](https://beduka.com/blog/wp-content/uploads/2019/06/Historia-do-Trabalho.jpg "Figura: Aprenda sobre a História do Trabalho - https://beduka.com/blog/materias/sociologia/historia-do-trabalho/")
+
+> Figura: Aprenda sobre a História do Trabalho - https://beduka.com/blog/materias/sociologia/historia-do-trabalho/ .
+
 "Em nosso cotidiano, a palavra trabalho está relacionada com alguma **atividade ou serviço desempenhado** por um indivíduo que exige ou não esforço físico." [[2](https://brasilescola.uol.com.br/o-que-e/fisica/o-que-e-trabalho.htm)].
 
 "O trabalho possibilita ao ser humano **transformar a natureza** para saciar as suas **necessidades**. É o trabalho que faz com que o indivíduo demonstre ações, iniciativas, desenvolva habilidades. É com o trabalho que ele também poderá aperfeiçoá-las."
@@ -987,6 +999,11 @@ Portanto, trabalho é uma atividade ou serviço desempenhado para transformar a 
 
 
 ## Por que trabalhamos?
+
+![Figura: NRs 18 (PCMAT), 24 (CONFORTO) e 17 (ERGONOMIA) – PORQUE TRABALHAMOS? - http://nrfacil.com.br/blog/?p=4776](http://nrfacil.com.br/blog/wp-content/uploads/2012/05/trabalhador005.jpg "Figura: NRs 18 (PCMAT), 24 (CONFORTO) e 17 (ERGONOMIA) – PORQUE TRABALHAMOS? - http://nrfacil.com.br/blog/?p=4776")
+
+> Figura: NRs 18 (PCMAT), 24 (CONFORTO) e 17 (ERGONOMIA) – PORQUE TRABALHAMOS? - http://nrfacil.com.br/blog/?p=4776
+
 Por que trabalhamos? Talvez seja uma resposta simples: Para  "ter" coisas!
 Por parecer tão simples, vamos buscar a origem da palavra para tentar entender melhor a pergunta.
 
@@ -1012,6 +1029,10 @@ A resposta é: trabalhamos porque o trabalho é uma extensão do nosso ser e con
 
 <a name="6.2"></a>
 ## 6.2 Colocando Você na Caixa de Skinner
+
+![Figura: Caixa de Skinner: O centro do Condicionamento Operante - https://psicoativo.com/2016/08/caixa-de-skinner-o-centro-do-condicionamento-operante.html](https://psicoativo.com/wp-content/uploads/2016/08/caixa-de-skinner.jpg "Figura: Caixa de Skinner: O centro do Condicionamento Operante - https://psicoativo.com/2016/08/caixa-de-skinner-o-centro-do-condicionamento-operante.html")
+
+> Figura: Caixa de Skinner: O centro do Condicionamento Operante - https://psicoativo.com/2016/08/caixa-de-skinner-o-centro-do-condicionamento-operante.html .
 
 Se você já foi viciado em um jogo ou conhece alguém que era, este [artigo é realmente perturbador](https://www.gamasutra.com/view/feature/3085/behavioral_game_design.php?page=1) . Ele foi escrito por um pesquisador de jogos da Microsoft sobre como fazer videogames que prendem os jogadores, quer eles gostem ou não. Ele tem doutorado em ciências comportamentais e do cérebro.
 
