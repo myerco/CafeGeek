@@ -983,27 +983,32 @@ As características aplicadas em ambientes onde é necessário potencializar as 
 homem e a natureza”, é necessidade eterna do mundo homens, possuindo um caráter
 [ontológico](https://pt.wikipedia.org/wiki/Ontologia) e retirando o homem de sua condição meramente biológica"[[4](https://seminarioservicosocial.paginas.ufsc.br/files/2017/04/Eixo_1_250.pdf)].
 
-Então definir trabalho como atividade ou serviço desempenhado para transformar a natureza para saciar as necessidades do ser humano e socializar criando objetivos comuns para os indivíduos, o sujeito se objetiva através do trabalho.
+Portanto, trabalho é uma atividade ou serviço desempenhado para transformar a natureza e assim saciar as necessidades do ser humano e socializá-lo. Criando objetivos comuns para os indivíduos, o sujeito se objetiva através do trabalho.
 
 
 ## Por que trabalhamos?
-Por que trabalhamos? para a "ter" coisas!! talvez seja uma resposta muito simples por isso vamos buscar a origem da palavra para tentar entender melhor a pergunta.
+Por que trabalhamos? Talvez seja uma resposta simples: Para  "ter" coisas!
+Por parecer tão simples, vamos buscar a origem da palavra para tentar entender melhor a pergunta.
 
-Vimos anteriormente que trabalho é uma atividade humana com seus valores sociais, mas o significado da palavra trabalho tem um origem  no mínimo interessante:
+Vimos anteriormente que trabalho é uma atividade humana com valores sociais, mas o significado da palavra tem uma origem no mínimo interessante:
 
-"A palavra trabalho vem do latim tripalium, termo formado pela junção dos elementos tri, que significa “três”, e palum, que quer dizer “madeira”.
+"A palavra trabalho vem do latim tripalium, termo formado pela junção dos elementos "tri" (que significa três) e "palum" (que quer dizer madeira)".
 
-Tripalium era o nome de um instrumento de tortura constituído de três estacas de madeira bastante afiadas e que era comum em tempos remotos na região europeia.
+Tripalium era o nome de um instrumento de tortura constituído de três estacas de madeira bastante afiadas e que eram comum em tempos remotos na região européia.
 
 Desse modo, originalmente, "trabalhar" significava **“ser torturado”**."
 
 Então a palavra se origina de uma tortura e ao longo do tempo passou a ter outros significados, talvez porque aumentamos nossa percepção da relação de atividade com produto e o processo produtivo. "Ter" qualquer coisa vindo desse tipo de atividade não parece uma coisa legal pois as cicatrizes do açoite ficam para sempre.
 
-E o valor social? o reconhecimento ou mesmo a construção coletiva se apresentam como complemento da resposta?
+E o valor social? O reconhecimento ou mesmo a construção coletiva se apresentam como complemento da resposta?
 
-Aposentados, desempregados não se sentem partes da sociedade, são os invisíveis, ao contrário dos trabalhadores que estão inseridos em uma dinâmica rede de conversas e experiências. Em uma sociedade que valoriza o mercado e o trabalho é uma mercadoria, o ser humano é reduzido ao que ele pode fazer para perpetuar esse pensamento, mas somos mais do isso, somos "ser"  dentro de uma complexa rede de desejos, sentimentos e experiências. "Ter" não parece ser mais interessante do que "ser" um pai, um filho, amigo ou "ser" alguém que pertence.
+À exemplo disso, aposentados e desempregados não se sentem parte da sociedade (são os invisíveis), ao contrário dos trabalhadores que estão inseridos em uma dinâmica rede de conversas e experiências. Em uma cultura que valoriza o mercado (e o trabalho é uma mercadoria!) o ser humano é reduzido ao que ele pode fazer para perpetuar esse pensamento.
+Mas, somos mais que isso: somos "ser" dentro de uma complexa rede de desejos, sentimentos e experiências (como ser um pai, filho, amigo ou ser alguém que pertença à algo). "Ter", olhando por este ponto de vista, não parece mais importante ou interessante do que "ser".
 
-A resposta é trabalhamos porque o trabalho é uma extensão do nosso ser e consequentemente buscamos reconhecimento por isso, seja ele financeiro ou social.
+Então, porque trabalhamos?
+Para sermos e nos sentirmos humanos, úteis, valorizados e construirmos nossas relações, deixar algo para o futuro, para ampliar e estender nossa humanidade.
+
+A resposta é: trabalhamos porque o trabalho é uma extensão do nosso ser e consequentemente buscamos reconhecimento por isso, seja ele financeiro ou social.
 
 <a name="6.2"></a>
 ## 6.2 Colocando Você na Caixa de Skinner
