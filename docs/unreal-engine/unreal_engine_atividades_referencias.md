@@ -246,6 +246,14 @@ O maior valor é Y = 5;
 
 - [Float](https://docs.unrealengine.com/en-US/BlueprintAPI/Math/Float/index.html)
 
+- [Designer's guide to Unreal Engine keyboard shortcuts](https://www.unrealengine.com/en-US/tech-blog/designer-s-guide-to-unreal-engine-keyboard-shortcuts "Designer's guide to Unreal Engine keyboard shortcuts")
+
+- [View Modes](https://docs.unrealengine.com/en-US/BuildingWorlds/LevelEditor/Viewports/ViewModes/index.html "View Modes")
+
+- [Viewport Basics](https://docs.unrealengine.com/en-US/BuildingWorlds/LevelEditor/Viewports/Basics/index.html "Viewport Basics")
+
+- [Transforming Actors](https://docs.unrealengine.com/en-US/Basics/Actors/Transform/index.html "Transforming Actors")
+
 ### CAPT 5
 - [Unreal Property System (Reflection)](https://www.unrealengine.com/en-US/blog/unreal-property-system-reflection?sessionInvalidated=true)
 
