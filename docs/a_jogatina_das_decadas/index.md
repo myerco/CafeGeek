@@ -329,7 +329,7 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 <a name="3.2"></a>
 ## 3.2 O que é jogar?
 
-![Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - https://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/](https://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg "Figura: Jogador Nº 1 | Diversão, referências e o orgulho geek - https://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/")
+![Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - https://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/](https://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg "Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - https://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/")
 
 > *Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/ .*
 
