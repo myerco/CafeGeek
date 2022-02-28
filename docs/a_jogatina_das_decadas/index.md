@@ -29,9 +29,11 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 
 &nbsp;&nbsp;[1.1 Teria o jogo lugar no sistema de vida?](#1.1 "1.1 Teria o jogo lugar no sistema de vida?")          
 
-&nbsp;&nbsp;[1.1 Homo Ludens](#1.2 "1.1 Homo Ludens")  
+&nbsp;&nbsp;[1.2 Homo Ludens](#1.2 "1.2 Homo Ludens")  
 
-&nbsp;&nbsp;[1.1 A Tensão como um elemento do jogo](#1.3 "1.1 A Tensão como um elemento do jogo")        
+&nbsp;&nbsp;[1.3 A Tensão como um elemento do jogo](#1.3 "1.3 A Tensão como um elemento do jogo")        
+
+&nbsp;&nbsp;[1.4 Resumo](#1.4 "1.4 Resumo")        
 
 ***
 
@@ -50,6 +52,8 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 &nbsp;&nbsp;[2.5 O jogo e a Linguagem](#2.5 "2.5 O jogo e a Linguagem")        
 
 &nbsp;&nbsp;[2.6 Algumas considerações sobre o jogo](#2.6 "2.6 Algumas considerações sobre o jogo")   
+
+&nbsp;&nbsp;[2.7 Resumo](#2.7 "2.7 Resumo")   
 
 ***
 
@@ -228,6 +232,34 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 
 > *Figura: Brinquedos para gatos: por que os bichanos gostam de novelo de lã? - https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1 .*
 
+<a name="1.4"></a>
+## 1.4 Resumo
+
+### O que é um jogo?
+
+- É uma Atividade recreativa com regras que estabelecem quem vence e quem perde;
+
+- Competição física ou mental com conjunto de procedimentos e estratégias para atingir determinado fim;
+
+- Atividade em que existe a figura do jogador (como indivíduo praticante).
+
+### O ser humano e o jogo
+
+- O jogo constitui uma preparação do jovem para as tarefas sérias que mais tarde a vida dele exigirá;
+
+- Trata-se de um exercício de autocontrole indispensável ao indivíduo;
+
+- Um impulso inato para exercer uma certa faculdade, ou como desejo de dominar ou competir;
+
+- Teorias há, ainda, que o consideram uma “ab-reação” (descarga emocional pela qual um indivíduo se liberta do afeto que acompanha a recordação de um acontecimento traumático), **um escape para impulsos prejudiciais**, um restaurador da energia dispendida por uma atividade unilateral, ou “realização do desejo”, ou uma ficção destinada a preservar o sentimento do **valor pessoal**.
+
+### O jogo é?
+
+- O jogo é tenso;
+
+- O jogo é divertido.
+
+
 **[⬆ Início](#indice)**
 
 ***
@@ -302,6 +334,16 @@ O autor apresenta as suas interpretações de elementos presentes na nossa socie
 
 Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como por exemplo economia, relacionamentos, comunicação e outros, mas com uma nova roupagem denominada "Gamificação" que estudaremos nos próximos capítulos.
 
+<a name="2.7"></a>
+## 2.7 Resumo
+
+### O que é a função do jogo?
+
+- Sendo o jogo uma luta por alguma coisa ou a representação de alguma coisa e esta presente em vários aspectos da sociedade;
+
+- É uma representação dos desafios que os indivíduos enfrentam no dia a dia na nossa sociedade.
+
+
 **[⬆ Início](#indice)**
 
 ***
@@ -336,8 +378,11 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 É um evento social, sendo assim esse evento gera emoções que são interpretações das respostas sensoriais obtidas pelos elementos do jogo, segue a baixo algumas delas:
 
 - Divertimento;
+
 - Entretenimento;
+
 - Inclusão social;
+
 - Cultura.
 
 **[⬆ Início](#indice)**
@@ -350,9 +395,13 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 > *Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia - https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/ .*
 
 - Desafio - Adicionar complexidade nas tarefas do jogador;
+
 - Liberdade - Possibilitar ao jogador construir seu próprio caminho;
+
 - Recompensa - Entregar rapidamente um resultado aproveitável para o jogados;
+
 - Escapismo - Sair da realidade para entrar em mundo onde o jogador encontra controle;
+
 - Interação social - Encontrar e se relacionar com outras pessoas que compartilham o mesmo desejo.
 
 [https://www.teachthought.com/learning/why-people-play-video-games/](https://www.teachthought.com/learning/why-people-play-video-games/ "Why People Play Video Games")
