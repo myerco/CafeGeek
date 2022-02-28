@@ -235,7 +235,7 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 <a name="1.4"></a>
 ## 1.4 Resumo
 
-### O que é um jogo?
+**O que é um jogo?**
 
 - É uma Atividade recreativa com regras que estabelecem quem vence e quem perde;
 
@@ -243,7 +243,7 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 
 - Atividade em que existe a figura do jogador (como indivíduo praticante).
 
-### O ser humano e o jogo
+**O ser humano e o jogo.**
 
 - O jogo constitui uma preparação do jovem para as tarefas sérias que mais tarde a vida dele exigirá;
 
@@ -253,7 +253,7 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 
 - Teorias há, ainda, que o consideram uma “ab-reação” (descarga emocional pela qual um indivíduo se liberta do afeto que acompanha a recordação de um acontecimento traumático), **um escape para impulsos prejudiciais**, um restaurador da energia dispendida por uma atividade unilateral, ou “realização do desejo”, ou uma ficção destinada a preservar o sentimento do **valor pessoal**.
 
-### O jogo é?
+**O jogo é?**
 
 - O jogo é tenso;
 
@@ -337,7 +337,7 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 <a name="2.7"></a>
 ## 2.7 Resumo
 
-### O que é a função do jogo?
+**O que é a função do jogo?**
 
 - Sendo o jogo uma luta por alguma coisa ou a representação de alguma coisa e esta presente em vários aspectos da sociedade;
 
@@ -1049,7 +1049,7 @@ Portanto, trabalho é uma atividade ou serviço desempenhado para transformar a 
 
 ## Por que trabalhamos?
 
-![Figura: NRs 18 (PCMAT), 24 (CONFORTO) e 17 (ERGONOMIA) – PORQUE TRABALHAMOS? - http://nrfacil.com.br/blog/?p=4776](http://nrfacil.com.br/blog/wp-content/uploads/2012/05/trabalhador005.jpg "Figura: NRs 18 (PCMAT), 24 (CONFORTO) e 17 (ERGONOMIA) – PORQUE TRABALHAMOS? - http://nrfacil.com.br/blog/?p=4776")
+![Figura: NRs 18 (PCMAT), 24 (CONFORTO) e 17 (ERGONOMIA) – PORQUE TRABALHAMOS? - https://nrfacil.com.br/blog/?p=4776](https://nrfacil.com.br/blog/wp-content/uploads/2012/05/trabalhador005.jpg "Figura: NRs 18 (PCMAT), 24 (CONFORTO) e 17 (ERGONOMIA) – PORQUE TRABALHAMOS? - https://nrfacil.com.br/blog/?p=4776")
 
 > Figura: NRs 18 (PCMAT), 24 (CONFORTO) e 17 (ERGONOMIA) – PORQUE TRABALHAMOS? - http://nrfacil.com.br/blog/?p=4776
 
