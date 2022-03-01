@@ -19,7 +19,7 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 1. [Firescape](#8)
 1. [Death Vip](#9)
 1. [Rafael Ferreira](#10) (R)
-1. [Arvore  de Talentos](jogos_digitais_skills.html)
+1. [Árvore  de Talentos](jogos_digitais_talentos.html)
 
 ***
 
