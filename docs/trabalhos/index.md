@@ -45,7 +45,7 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 
 &nbsp;&nbsp;[4.1 Death Vip](#4.1)
 
-&nbsp;&nbsp;[4.2 Árvore  de Talentos](jogos_digitais_talentos.html)
+&nbsp;&nbsp;[4.2 Árvore  de Talentos](jogos_digitais_talentos.drawio.html)
 
 ***
 
