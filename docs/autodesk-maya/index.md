@@ -289,6 +289,45 @@ Visualize > Create Editable Montion trail
 
 Visualize > Create Animation Snapshot
 
+## Primeiros passos na modelagem 3D
+
+Introdução ao desenho 3D e ao Maya  -Conceitos de modelos 3D e desenho por computador
+
+Estrutura do ambiente - Conhecendo editores e comandos básicos de navegação
+
+Modelo Poligonal - Extrusão de elementos, copiando elementos
+
+Modelo Poligonal - Deslocando pivot, seleção de áreas
+
+Modelo poligonal - Manipulação de arestas e preenchimento de áreas
+
+Modelo de curvas - Trabalhando com curvas e suas estruturas .
+
+Modelo de curvas - Estruturas complexas de curvas, preenchimento automático
+
+Modelos de curvas - Construindo caminhos para objetos poligonais ou de curvas
+
+##   Modelagem 3D Luz, Câmera e Ação
+
+
+Materiais - Conceitos de materiais
+
+Materiais - Aplicando materiais no Maya e trabalhando com diversos tipos
+
+Materiais - Aplicando Mapeamento UV
+
+Materiais - Estruturando o mapeamento UV
+
+Iluminação - Utilizando o Arnold Render
+
+Iluminação - Aplicando vários tipos de iluminação
+
+Animação - Trabalhando com várias câmeras  e animando objetos
+
+Animação - Animando cenas no Maya com curvas
+
+
+
 
 ## Referências
 - [Autodesk Maya site oficial](https://www.autodesk.com.br/products/maya/overview)
