@@ -105,7 +105,7 @@ Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e
 <a name="1"></a>
 ## CAPÍTULO 1 -  Por dentro da cabeça do Game Design
 
-> "Por baixo dessa carne existe um ideal. e as idéias nunca morrem..."
+> "Por baixo dessa carne existe um ideal. e as ideias nunca morrem..."
 >
 > V de Vingança.
 
@@ -198,9 +198,9 @@ Como são os personagens? qual o ambiente? esse tipo de pergunta são apresentad
 ## 2.1 A equipe
 Organizar a equipe é um trabalho interessante quando compreendemos as Características do produto que vamos desenvolver e as aliamos aos perfis profissionais que devem atuar no desenvolvimento.
 
-![Figura: Mas qual é a diferença entre design de games, game art e game design? - http://unidigitaldobrasil.com.br](http://unidigitaldobrasil.com.br/wp-content/uploads/2016/01/Kabam-playing-underworld-empire-together.jpg "Figura: Mas qual é a diferença entre design de games, game art e game design? - http://unidigitaldobrasil.com.br")
+![Figura: Mas qual é a diferença entre design de games, game art e game design? - https://unidigitaldobrasil.com.br](https://unidigitaldobrasil.com.br/wp-content/uploads/2016/01/Kabam-playing-underworld-empire-together.jpg "Figura: Mas qual é a diferença entre design de games, game art e game design? - https://unidigitaldobrasil.com.br")
 
-> *Figura: Mas qual é a diferença entre design de games, game art e game design? - http://unidigitaldobrasil.com.br .*
+> *Figura: Mas qual é a diferença entre design de games, game art e game design? - https://unidigitaldobrasil.com.br .*
 
 |Profissional |Papel                                  |
 |:-           |:-                                     |
@@ -329,9 +329,9 @@ O projeto é limitado por vários fatores, dentre eles:
 >
 > Alan Wake.
 
-![Figura: 10 dicas e truques para criar personagens inesquecíveis - http://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/](imagens/AR18-1.webp "Figura: 10 dicas e truques para criar personagens inesquecíveis - http://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/")
+![Figura: 10 dicas e truques para criar personagens inesquecíveis - https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/](imagens/AR18-1.webp "Figura: 10 dicas e truques para criar personagens inesquecíveis - https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/")
 
-> *Figura: 10 dicas e truques para criar personagens inesquecíveis - http://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/ .*
+> *Figura: 10 dicas e truques para criar personagens inesquecíveis - https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/ .*
 
 Não existe uma formula mágica que se deve seguir para construir um personagem de qualquer história ficcional, talvez observar a vida real e o comportamento das pessoas que estão a sua volta ajude a entender como construir personagens, pois eles estão ao seu lado, mas segundo Charlie Jane Ander em artigo publicado em 05/08/2014, adaptado e apresentado em mini-palestra no [Clarion West](https://www.clarionwest.org/) por Cristine é possível organizar algumas ideias e dicas para que os personagens ganhem vida, segue abaixo o resumo.
 
@@ -437,14 +437,15 @@ O personagem central só consegue enxergar o seu real caminho quando percebe que
 
 Cumprir a sua missão o tinha transformado em **um** individuo alheio aos problemas dos outros, nas palavras dele "Siga seu caminho, não é da sua conta".
 
-- [IMDB **6,9**](https://www.imdb.com/title/tt1037705/)
-- [Metacritic **53**](https://www.metacritic.com/movie/the-book-of-eli)
+- [IMDB - O Livro de Eli](https://www.imdb.com/title/tt1037705/ "IMDB - O Livro de Eli")
+
+- [Metacritic - The Book of Eli 2010](https://www.metacritic.com/movie/the-book-of-eli "Metacritic - The Book of Eli 2010")
 
 **Sobrevivência.**
 
 ![Figura: 7 Days to Die Review - https://www.lifewire.com](https://www.lifewire.com/thmb/EjcsuTLZtk_3UMN7Evd6xFcrY88=/800x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1LW4164252-4-341174c3997543728bd2b024c6e2a309.jpg "Figura: 7 Days to Die Review - https://www.lifewire.com")
 
-  > *Figura: 7 Days to Die Review - https://www.lifewire.com .*
+> Figura: 7 Days to Die Review - https://www.lifewire.com .
 
 **Vingança.**
 
@@ -492,7 +493,7 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 <a name="4.5"></a>
 ## 4.5 Nome
 
-![Figura: Commander Shepard's first name is probably Sarah, or Jack - https://www.vg247.com](http://assets.vg247.com/current//2014/05/mass_effect_shepard_names.jpg "Figura: Commander Shepard's first name is probably Sarah, or Jack - https://www.vg247.com")
+![Figura: Commander Shepard's first name is probably Sarah, or Jack - https://www.vg247.com](https://assets.vg247.com/current//2014/05/mass_effect_shepard_names.jpg "Figura: Commander Shepard's first name is probably Sarah, or Jack - https://www.vg247.com")
 
 > *Figura: Commander Shepard's first name is probably Sarah, or Jack - https://www.vg247.com .*
 
@@ -761,7 +762,7 @@ Top 10 Most Annoying Video Game Enemies of All Time -  https://twinfinite.net .*
 <a name="5.7"></a>
 ## 5.7 BOSS
 
-![Figura: Nemesis T-Type - https://residentevil.com.br](https://residentevil.com.br/wp-content/uploads/2015/07/nemesis_t-type_wiki-1024x512.jpg "Figura: Nemesis T-Type - https://residentevil.com.br")
+![Figura: Nemesis T-Type - https://residentevil.com.br](imagens/nemesis_t-type_wiki-1024x512.webp "Figura: Nemesis T-Type - https://residentevil.com.br")
 
 > *Figura: Nemesis T-Type - https://residentevil.com.br .*
 

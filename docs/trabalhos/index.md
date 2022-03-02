@@ -24,6 +24,7 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 
 &nbsp;&nbsp;[1.6 Suspense](#1.6)
 
+***
 
 **[CAPÍTULO  2 - Jogos](#2 "CAPÍTULO  2 - Jogos")**
 
@@ -35,10 +36,13 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 
 &nbsp;&nbsp;[2.4 Firescape](#2.4)
 
+***
 
 **[CAPÍTULO  3 - Portfólios](#3 "CAPÍTULO  3 - Portfólios")**
 
 &nbsp;&nbsp;[3.1 Rafael Ferreira](#3.1) (R)
+
+***
 
 
 **[CAPÍTULO  4 - Modelos](#4 "CAPÍTULO  4 - Modelos")**
