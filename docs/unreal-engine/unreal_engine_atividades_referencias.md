@@ -27,6 +27,26 @@ layout: page
 
 1. Adicione o pacote *StarterContent*.
 
+### CAPT 2.3 - A Cena
+**Regras.**
+
+1. Construa elementos usando Geomtry;
+
+2. Use a imagem de referência em anexo;
+
+3. Adicione um ícone no seu jogo;
+
+4. Adicione uma imagem splash;
+
+
+**Desafio.**
+
+1. Crie um ambiente personalizado que harmonize com a igreja
+
+2. Implemente mais elementos na sua cena (casas, fonte, barris, lápides, árvores)
+
+
+
 ***
 
 ### CAPT 3.1 - Crie um projeto no Unreal Engine e o configure para utilizar o Git
