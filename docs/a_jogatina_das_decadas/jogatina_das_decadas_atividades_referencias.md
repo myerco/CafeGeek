@@ -1,6 +1,6 @@
 ---
-title: Atividades e Referências
-description: Seção de atividades e Referências
+title: Jogatina das décadas Atividades e Referências
+description: Jogatina das décadas Seção de atividades e Referências
 tags: [jogatina das decadas]
 layout: page
 ---

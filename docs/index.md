@@ -15,10 +15,12 @@ layout: home
 
 - [Computação Gráfica com Unreal Engine](computacao-grafica/index.html)   
 
-<!--- [Modelagem usando Autodesk Maya](autodesk-maya/index.html)   -->
+- [Modelagem usando Autodesk Maya](autodesk-maya/index.html)   
+
 - [A jogatina das décadas](a_jogatina_das_decadas/index.html)     
 
 - [Me conta uma história](me_conte_uma_historia/index.html)   
+
 <!--- [Porque eu amo Game Design](porque_eu_amo_game_design/index.html)   -->
 
 - [Trabalhos](trabalhos/index.html)

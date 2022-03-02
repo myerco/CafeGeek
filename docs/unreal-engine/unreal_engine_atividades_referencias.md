@@ -1,6 +1,6 @@
 ---
-title: Atividades e Referências
-description: Seção de atividades e Referências
+title: Unreal Engine Atividades e Referências
+description: Unreal Engine - Seção de atividades e Referências
 tags: [Unreal Engine, Atividades]
 layout: page
 ---

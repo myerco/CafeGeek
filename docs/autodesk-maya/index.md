@@ -1,68 +1,15 @@
 ---
-title: Autodesk Maya
+title: Modelagem usando Autodesk Maya
 description: Modelagem com Autodesk Maya
 keywords: [Autodesk Maya, modelagem 3d]
 tags: [Autodesk Maya, modelagem 3d]
 layout: page
 ---
 
-## Índice
-1. [O que é Modelagem de objetos 3D?](#1-o-que-e-modelagem-de-objetos-3d)
-1. [Tipos de modelagem 3D](#2-tipos-de-modelagem-3d)
-1. [Processo de construção de cenas 3D](#3-processo-de-construção-de-cenas-3d)
-1. [Softwares para modelagem tridimensional](#4-softwares-para-modelagem-tridimensional)
-1. [O curso de modelagem usando Autodesk Maya](#5-o-curso-de-modelagem-usando-autodesk-maya)
-1. [Habilidades que serão aprendidas](#6-habilidades-que-serão-aprendidas)  
+O objetivo deste curso é apresentar e construir elementos na ferramenta de modelagem artística 3D Autodesk Maya. O curso está associado a construção **Estética** do jogo pois nele definimos elementos como sensação, desafio, descoberta e passatempo.
 
+**Habilidades que serão aprendidas.**
 
-## 1. O que é Modelagem de objetos 3D?
-Podemos entender a Modelagem 3D como a criação de objetos sólidos através da representação matemática de uma superfície ou de um objeto volumétrico, vivo ou inanimado. É a criação do modelo de um objeto tridimensional através de um software de processamento 3D.
-
-![abeça low poly de um modelo 3D (fonte: TurboSquid)](https://ecdd.infnet.edu.br/wp-content/uploads/sites/7/2021/04/modelo-3d-lowpoly-1024x576.jpg)   
-
-*Figura: Cabeça low poly de um modelo 3D (fonte: TurboSquid)*
-
-Podemos aplicar em várias áreas como por exemplo:
-1. Design, Engenharia e Produção de Produtos;
-1. Arquitetura e Engenharia Civil, Elétrica, Mecânica;
-1. Cinema e Jogos;
-1. Ilustrações.
-
-## 2. Tipos de modelagem 3D
-- **Hard Surface** - (superfícies duras), são quaisquer objetos feitos ou construídos pelo homem. Exemplos de *hard surface* podem ser estruturas arquitetônicas, veículos, robôs, entre outros;
-- **Organic** - (Orgânicos) são modelos, obviamente, orgânicos, ou seja, que existem na natureza. Isso inclui humanos, animais, árvores, pedras, terrenos, etc;
-- **Render** - Fase para gerar a Iluminação e renderizar toda a cena.
-
-## 3. Processo de construção de cenas 3D
-- **Conceito** - *Concept art* ou arte conceitual;
-![sketch_viking_house](https://cdnb.artstation.com/p/media_assets/images/images/000/649/263/large/sketch_viking_house.jpg?1600679970)
-
-    *Figura: Arte conceitual (Artstation)*
-
-- **Modelagem** - Construção de modelos tridimensionais;
-![Blue Wooden house](https://blenderartists.org/uploads/default/original/4X/f/d/0/fd0375c46a3df8b8fd489ab6a1d259b28ecb3ec4.jpeg)
-
-    *Figura: Modelo tridimensional*
-
-- **Configuração de layout de cena** - Mapeamento, Iluminação e geração de câmeras;
-![Blue Wooden house](https://blenderartists.org/uploads/default/original/4X/5/5/9/559c984fb29dadab1ae2cab740d99e94bd371779.jpeg)
-
-    *Figura: Modelo tridimensional com Mapeamento e Iluminação*
-
-- **Geração de cenas** - Renderização e animação.
-
-## 4. Softwares para modelagem tridimensional
-Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas elas tem versões educacionais gratuitas para praticar.
-
-- Substance Painter;
-- Autodesk Maya;
-- Autodesk Mudbox
-- Blender;
-
-## 5. O curso de modelagem usando Autodesk Maya
-Apresentar a ferramenta de modelagem artística 3D Autodesk Maya.
-
-## 6. Habilidades que serão aprendidas  
 - Interface e estrutura de menus;
 - Configuração de ambiente de trabalho e projeto;
 - Movimentação, dimensionamento e Rotacionamento de objetos;
@@ -72,119 +19,326 @@ Apresentar a ferramenta de modelagem artística 3D Autodesk Maya.
 - Animação de elementos;
 - Construção de objetos com NURBS;
 
-## Interface básico
+| M         |  D          | A         |
+|:-         |:-           |:-         |
+| Mecânicas | Dinâmicas   | **Estéticas** |
+
+
+***
+
+<a name="indice"></a>
+**[CAPÍTULO  1 - Modelagem 3D](#1 "CAPÍTULO  I - Modelagem 3D")**
+
+&nbsp;&nbsp;[1.1 O que é Modelagem de objetos 3D?](#1.1)
+
+&nbsp;&nbsp;[1.2 Tipos de modelagem 3D](#1.2)
+
+&nbsp;&nbsp;[1.3 Processo de construção de cenas 3D](#1.3)
+
+&nbsp;&nbsp;[1.4 Softwares para modelagem tridimensional](#1.4)
+
+***
+
+**[CAPÍTULO  2 - Modelos poligonais com Autodesk Maya](#2)**
+
+&nbsp;&nbsp;[2.1 Interface básico](#2.1)
+
+&nbsp;&nbsp;[2.2 Configurando a Interface](#2.2)
+
+&nbsp;&nbsp;[2.3 Configurando projetos](#2.3)
+
+&nbsp;&nbsp;[2.4 Comandos de navegação](#2.4)
+
+&nbsp;&nbsp;[2.5 Configuração de ViewPort](#2.5)
+
+&nbsp;&nbsp;[2.6 Seleção de objetos](#2.6)
+
+&nbsp;&nbsp;[2.7 Pivot](#2.7)
+
+&nbsp;&nbsp;[2.8 Extrude](#2.8)
+
+&nbsp;&nbsp;[2.9 Bevel](#2.9)
+
+&nbsp;&nbsp;[2.10 Removendo edges](#2.10)
+
+&nbsp;&nbsp;[2.11 Multicut](#2.11)
+
+&nbsp;&nbsp;[2.12 Merge de vértices](#2.12)
+
+***
+
+**[CAPÍTULO  3 - Organizando objetos](#3)**
+
+&nbsp;&nbsp;[3.1 Organizando em camadas](#3.1)
+
+&nbsp;&nbsp;[3.2 Grupos](#3.1)
+
+&nbsp;&nbsp;[3.3 Combine e Separate](#3.3)
+
+&nbsp;&nbsp;[3.4 Duplicando](#3.4)
+
+&nbsp;&nbsp;[3.5 Booleans](#3.5)
+
+***
+
+**[CAPÍTULO  4 - Modelos de curvas com Autodesk Maya](#4)**
+
+&nbsp;&nbsp;[4.1 Modelagem NURBS](#3.1)
+
+***
+
+**[CAPÍTULO  5 - Materiais e mapeamento UV](#5)**
+
+&nbsp;&nbsp;[5.1 Materiais](#5.1)
+
+&nbsp;&nbsp;[5.2 Tipos de Materiais (Maya)](#5.2)
+
+&nbsp;&nbsp;[5.3 Mapeamento UV](#5.3)
+
+***
+
+**[CAPÍTULO  6 - Iluminação e Renderização](#6)**
+
+***
+
+**[CAPÍTULO  7 - Animando cenas no Autodesk Maya](#7)**
+
+***
+
+[Atividades e Referências](autodesk_maya_atividades_referencias.html)
+
+***
+
+<a name="1"></a>
+## CAPÍTULO  1 - Modelagem 3D
+
+<a name="1.1"></a>
+## 1.1 O que é Modelagem de objetos 3D?
+Podemos entender a Modelagem 3D como a criação de objetos sólidos através da representação matemática de uma superfície ou de um objeto volumétrico, vivo ou inanimado. É a criação do modelo de um objeto tridimensional através de um software de processamento 3D.
+
+![Cabeça low poly de um modelo 3D (fonte: TurboSquid)](https://ecdd.infnet.edu.br/wp-content/uploads/sites/7/2021/04/modelo-3d-lowpoly-1024x576.jpg "Figura: Cabeça low poly de um modelo 3D (fonte: TurboSquid).")   
+
+> Figura: Cabeça low poly de um modelo 3D (fonte: TurboSquid).
+
+Podemos aplicar em várias áreas como por exemplo:
+
+- Design, Engenharia e Produção de Produtos;
+
+- Arquitetura e Engenharia Civil, Elétrica, Mecânica;
+
+- Cinema e Jogos;
+
+- Ilustrações.
+
+<a name="1.2"></a>
+## 1.2 Tipos de modelagem 3D
+
+- **Hard Surface** - (superfícies duras), são quaisquer objetos feitos ou construídos pelo homem. Exemplos de *hard surface* podem ser estruturas arquitetônicas, veículos, robôs, entre outros;
+
+- **Organic** - (Orgânicos) são modelos, obviamente, orgânicos, ou seja, que existem na natureza. Isso inclui humanos, animais, árvores, pedras, terrenos, etc;
+
+- **Render** - Fase para gerar a Iluminação e renderizar toda a cena.
+
+<a name="1.3"></a>
+## 1.3 Processo de construção de cenas 3D
+
+**Conceito** - *Concept art* ou arte conceitual;
+
+![Figura: Arte conceitual (Artstation)](https://cdnb.artstation.com/p/media_assets/images/images/000/649/263/large/sketch_viking_house.jpg?1600679970 "Figura: Arte conceitual (Artstation)")
+
+> Figura: Arte conceitual (Artstation)
+
+**Modelagem** - Construção de modelos tridimensionais;
+
+![Figura: Modelo tridimensional Blue Wooden house - https://blenderartists](https://blenderartists.org/uploads/default/original/4X/f/d/0/fd0375c46a3df8b8fd489ab6a1d259b28ecb3ec4.jpeg "Figura: Modelo tridimensional Blue Wooden house - https://blenderartists")
+
+> Figura: Modelo tridimensional Blue Wooden house - https://blenderartists.
+
+**Configuração de layout de cena** - Mapeamento, Iluminação e geração de câmeras;
+
+![Figura: Modelo tridimensional com Mapeamento e Iluminação Blue Wooden house - https://blenderartists](https://blenderartists.org/uploads/default/original/4X/5/5/9/559c984fb29dadab1ae2cab740d99e94bd371779.jpeg "Figura: Modelo tridimensional com Mapeamento e Iluminação Blue Wooden house - https://blenderartists")
+
+> Figura: Modelo tridimensional com Mapeamento e Iluminação Blue Wooden house - https://blenderartists.
+
+- **Geração de cenas** - Renderização e animação.
+
+<a name="1.4"></a>
+## 1.4 Softwares para modelagem tridimensional
+Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas elas tem versões educacionais gratuitas para praticar.
+
+- Substance Painter;
+
+- Autodesk Maya;
+
+- Autodesk Mudbox
+
+- Blender;
+
+<a name="2"></a>
+## CAPÍTULO  2 - Começando a trabalhar com Autodesk Maya
+
+
+<a name="2"></a>
+## 2.1 Interface básico
+
 1. [Menus](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-D90A2BDB-FD05-4528-8A95-C33A02D15129-htm.html)
    - Create - Cria objetos
    - Select - Seleciona objetos;
    - Modify - modifica objetos;
    - Display - apresenta objetos;
    - Windows - Apresenta e configura os Editores;
-1. Barra de tarefas
+2. Barra de tarefas
    - Modeling toolKit.
-1. Fluxos de trabalho
-1. [Tools box](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Basics/files/GUID-B345E162-0149-4E09-AC98-48DCFC227F33-htm.html)
-1. Layout
-1. [Outliner](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-4B9A9A3A-83C5-445A-95D5-64104BC47406-htm.html)
-1. [Workspace](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-Basics/files/GUID-0384C282-3CA1-4587-9775-F7164D3F6980-htm.html)
+
+3. Fluxos de trabalho
+
+4. [Tools box](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Basics/files/GUID-B345E162-0149-4E09-AC98-48DCFC227F33-htm.html)
+
+5. Layout
+
+6. [Outliner](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-4B9A9A3A-83C5-445A-95D5-64104BC47406-htm.html)
+
+7. [Workspace](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-Basics/files/GUID-0384C282-3CA1-4587-9775-F7164D3F6980-htm.html)
+
    - Modeling - Standard
 
-## Configurando a Interface   
+<a name="2.2"></a>
+## 2.2 Configurando a Interface   
+
 1. Para habilitar ou desabilitar a janela inicial de avisos de mudanças de versão.
    - Windows > Settings / Preferences > Preferences > `Show - What´s new`
-1. Window > Settings / Preferences > Preferences
+
+2. Window > Settings / Preferences > Preferences
    - Interface (Menu Set,Show...)  
 
-## Configurando projetos
+<a name="2.3"></a>
+## 2.3 Configurando projetos
 1. Configurando as pastas do projeto
   - File > Project Window
-1. Criando novas cenas
+
+2. Criando novas cenas
   - File > New Scene
-1. Configurando projeto novos importados
+
+3. Configurando projeto novos importados
   - File > Set Project
 
-## Comandos de navegação
+<a name="2.4"></a>
+## 2.4 Comandos de navegação
 1. Alt + RMB - Movimentação de câmera.
 1. Alt + LMB - Zoom.
 1. Alt + Scroll - Scroll da a câmera.
 1. Scroll - Zoom
 
-## Configuração de ViewPort
+<a name="2.4"></a>
+## 2.5 Configuração de ViewPort
 1. Mostrando a quantidade de polígonos e vértices.
    - [Display > Heads Up Display > Poly Count](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-Modeling/files/GUID-53E46D0C-4B7B-4404-AEB0-3BDD1FF8608A-htm.html).    
-1. Visualização
+
+2. Visualização
     1. [Shading](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-C6188583-EA9E-4880-AAE7-8D895FD94DD6-htm.html)
-1. Hotbox - pressione a barra de espaço
-1. RMB - Menu de contexto
 
+3. Hotbox - pressione a barra de espaço
 
-## Seleção de objetos
+4. RMB - Menu de contexto
+
+<a name="2.6"></a>
+## 2.6 Seleção de objetos
 1. Seleciona um objetos.
-1. Seleciona elementos do objeto.
-1. CTRL + RMB - Adiciona um elemento na Seleção      
-1. CTRL + LMB - Remove um elemento da Seleção      
-1. CTRL no ícone para entrar nas configurações.
-1. Shift + 2 click no elemento ao lado - Seleciona todos os elementos ao redor
 
-## Pivot
+2. Seleciona elementos do objeto.
+
+3. CTRL + RMB - Adiciona um elemento na Seleção      
+
+4. CTRL + LMB - Remove um elemento da Seleção      
+
+5. CTRL no ícone para entrar nas configurações.
+
+6. Shift + 2 click no elemento ao lado - Seleciona todos os elementos ao redor
+
+<a name="2.7"></a>
+## 2.7 Pivot
 1. Modify > Center Pivot
 Centralizar pivot
-1. Movendo Pivot
-Tecla D
-1. Snap to points para alinhar o pivot nos elementos.
 
-## Extrude
+2. Movendo Pivot
+  Tecla D
+
+3. Snap to points para alinhar o pivot nos elementos.
+
+<a name="2.8"></a>
+## 2.8 Extrude
+
 1. Extrude
     - shift + mouse (Move tool Preferences > Smart Duplicate Settings > Shift + drag to..)
     - Ctrl + E
     - Menu > Edit Mesh > Extrude
-1. Adicionando edges
+2. Adicionando edges
     - Menu > Mesh Tools > Insert Edge loop
     - Mesh Tools > Insert Edge loop Settings > Number of edge loops
 
-## Bevel
+<a name="2.9"></a>
+## 2.9 Bevel
+
 1. Ctrl + B
     - Fraction - espaço entre segmentos
     - Segments - Número de segmentos
 
-## Removendo edges
+<a name="2.10"></a>
+## 2.10 Removendo edges
 1. Ctrl + Backspace - Remove edges e vértices.
 
-## Multicut
+
+<a name="2.11"></a>
+## 2.11 Multicut
 Cuidado não podemos ter vértices sem conexão com outros
 1. Adicione edges    
 
-## Merge de vértices
+<a name="2.12"></a>
+## 2.12 Merge de vértices
 1. Menu > Edit Mesh  > Merge (Antes Selecione dois vértices)
 
-## Organizando
+
+<a name="3"></a>
+## CAPÍTULO  3 - Organizando objetos
+
+<a name="3.1"></a>
+## 3.1 Organizando em camadas
 1.  Layer
 - V - Mostra ou oculta uma camada. Consulte Ocultar camadas de exibição para obter mais informações.
 - P - Um "P" na caixa significa que a camada está visível durante a reprodução. Desligue o "P" para ocultar a camada durante a reprodução.
 - T - Um “T” significa que os objetos na camada são modelados: eles são exibidos em estrutura de arame e não podem ser selecionados. Um “R” significa que os objetos aos quais a camada está referenciada: eles não podem ser selecionados, mas mantêm o modo de exibição atual. Uma caixa em branco significa que os objetos na camada são normais e podem ser selecionados.
 
-
-## Grupos
+<a name="3.2"></a>
+## 3.2 Grupos
 
 1. Hierarquia
   MMB (Botão do meio) arreste os elementos para dentro de outros.
   Selecionando o objeto principal todos os objetos são selecionados.
   As alterações do objeto principal refletem em todos os objetos.
-1. Selecione os objetos (ctrl+G)  
+
+2. Selecione os objetos (ctrl+G)  
   Diferente de Hierarquia é criado um objeto separado para controlar os demais.
 
-## Combine e Separate
+<a name="3.3"></a>
+## 3.3 Combine e Separate
 1. Combine - Selecione os objetos `Mesh` > `Combine`
 1. Separate - Selecione o objeto `Mesh` > `Separate` vai ser criado um grupo.
 
-## Duplicando
+<a name="3.4"></a>
+## 3.4 Duplicando
 1. Duplicando - Ctrl + D
 1. Duplicando aproveitando a transformação  -  shift + D
 
-## Booleans
+<a name="3.5"></a>
+## 3.5 Booleans
 
 1. `Mesh` > `Booleans`
 
-## Modelagem NURBS
+<a name="4"></a>
+## CAPÍTULO 4 - Modelos de curvas com Autodesk Maya
+
+<a name="4.1"></a>
+## 4.1 Modelagem NURBS
 
 1. Revolve
   1. Ordem de seleção do objeto altera a forma final;
@@ -197,16 +351,19 @@ Cuidado não podemos ter vértices sem conexão com outros
 1. Project Curve on Surface
   1. Trim Tool para cortar surface
 
-## Texturas
 
-## Desenho 3D Modeling
+<a name="5"></a>
+## CAPÍTULO 5 - Materiais e mapeamento UV
 
-## Materiais
+<a name="5.1"></a>
+## 5.1 Materiais
 - Render
   - Menu: `Arnold` > `Arnold RenderView`
   - Cameras
   - Iluminação
-## Tipos de Materiais (Maya)
+
+<a name="5.2"></a>
+## 5.2 Tipos de Materiais (Maya)
 - Lambert (simples sem reflexo, brilho e transparência)
   - Color: cor do material
   - transparência: Aumenta o alpha
@@ -228,8 +385,8 @@ Cuidado não podemos ter vértices sem conexão com outros
   - Specular Shader
   - Angle: ângulo da luz
 
-
-## Mapeamento UV
+<a name="5.3"></a>
+## 5.3 Mapeamento UV
 - Menu `UV` > `UV Editor`;
 - Painéis lado a lado
   - ViewPort `Panels` > `Saved Layouts` > `Persp/UV Editor`
@@ -266,28 +423,33 @@ Cuidado não podemos ter vértices sem conexão com outros
 - `Pin`   Bloqueando
   - `Pin Tool` - Selecionando usando tecla `B` ou `P` para bloquear áreas;
 
-## Animação
-S - Marcar frame
-Shift + LMB = Seleciona
-
-Preferences = timecode
+<a name="6"></a>
+## CAPÍTULO 6 - Iluminação e Renderização
 
 
-adicionar uma curva no objeto = p
+<a name="7"></a>
+## CAPÍTULO 7 - Animando cenas no Autodesk Maya
 
-Travar camera = lock
+- S - Marcar frame
+- Shift + LMB = Seleciona
 
-key select em atributos
+- Preferences = timecode
 
-Arnold - SkyDomeLight
+- Adicionar uma curva no objeto = p
 
-Playback
+- Travar camera = lock
 
-Visualize > Ghost Selectd/Unselect
+- key select em atributos
 
-Visualize > Create Editable Montion trail
+- Arnold - SkyDomeLight
 
-Visualize > Create Animation Snapshot
+- Playback
+
+- Visualize > Ghost Selectd/Unselect
+
+- Visualize > Create Editable Montion trail
+
+- Visualize > Create Animation Snapshot
 
 ## Primeiros passos na modelagem 3D
 
@@ -325,16 +487,3 @@ Iluminação - Aplicando vários tipos de iluminação
 Animação - Trabalhando com várias câmeras  e animando objetos
 
 Animação - Animando cenas no Maya com curvas
-
-
-
-
-## Referências
-- [Autodesk Maya site oficial](https://www.autodesk.com.br/products/maya/overview)
-- [Manual Maya](https://help.autodesk.com/view/MAYAUL/2020/ENU/)
-- [Guia o que é modelagem 3D](https://ecdd.infnet.edu.br/guia-o-que-e-modelagem-3d/)
-- [Wikipedia Modelagem tridimensional](https://pt.wikipedia.org/wiki/Modelagem_tridimensional)
-- [O que é modelagem digital ou modelagem 3D](https://mundodesenhodigital.com.br/o-que-e-modelagem-digital-ou-modelagem-3d-e/)
-- [Five Best 3D Modeling Softwares for Beginners](https://techcamps.digitalmediaacademy.org/2019/02/21/five-best-3d-modeling-softwares-for-beginners/)
-- [maya](https://help.autodesk.com/view/MAYAUL/2020/ENU/)
-- [Mapeamento UV](https://pt.wikipedia.org/wiki/Mapeamento_UV)
