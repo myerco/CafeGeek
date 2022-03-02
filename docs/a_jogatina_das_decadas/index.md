@@ -5,6 +5,8 @@ tags: [narrativa, Roteirização, jogos digitais, estética]
 layout: page
 ---
 
+![A jogatina das décadas](imagens/jogatina_das_decadas_2.webp "A jogatina das décadas")
+
 O objetivo deste curso é apresentar e trabalhar com a definição do que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização. O curso está associado a construção **Estética** do jogo pois nele definimos elementos como sensação, desafio, descoberta e passatempo.
 
 **Habilidades que serão aprendidas**

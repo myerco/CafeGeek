@@ -6,7 +6,7 @@ tags: [Autodesk Maya, modelagem 3d]
 layout: page
 ---
 
-O objetivo deste curso é apresentar e construir elementos na ferramenta de modelagem artística 3D Autodesk Maya. O curso está associado a construção **Estética** do jogo pois nele definimos elementos como sensação, desafio, descoberta e passatempo.
+O objetivo deste curso é apresentar e construir elementos na ferramenta de modelagem artística 3D Autodesk Maya. O curso está associado a construção **Estética** do jogo pois nele construímos elementos para representar a narrativa e a jogabilidade.
 
 **Habilidades que serão aprendidas.**
 
@@ -178,7 +178,7 @@ Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas 
 ## CAPÍTULO  2 - Começando a trabalhar com Autodesk Maya
 
 
-<a name="2"></a>
+<a name="2.1"></a>
 ## 2.1 Interface básico
 
 1. [Menus](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-D90A2BDB-FD05-4528-8A95-C33A02D15129-htm.html)
