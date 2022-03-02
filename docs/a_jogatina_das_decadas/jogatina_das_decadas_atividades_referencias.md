@@ -21,6 +21,19 @@ layout: page
 
 1. Apresente para os demais acadêmicos
 
+### 2. O jogador
+
+1. Qual tipo de jogador jogaria o seu jogo?
+
+2. Por que o alguém jogaria o seu game?
+
+3. Quais são os fatores que fazem o jogador jogar o seu game?
+
+
+**Desafio**
+
+1. Apresentem para os demais acadêmicos;
+
 ***
 
 ## Referências

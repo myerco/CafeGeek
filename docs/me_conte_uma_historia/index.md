@@ -1,5 +1,5 @@
 ---
-title: Me conte uma história
+title: Me conta uma história
 description: Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história.
 tags: [narrativa, Roteirização, jogos digitais]
 layout: page
@@ -118,35 +118,43 @@ O Game Design deve atuar como uma interface entre os diversos profissionais envo
 Como toda profissão para que possamos alcançar um reconhecimento e conhecimento adequado sobre o ofício devemos estruturar e agrupar os nossos passos, abaixo algumas dicas:
 
 - Seja apaixonado por jogos e jogue, jogue para se divertir e se pergunte porque foi divertido;
+
 - Entenda a dinâmica do mercado de jogos, como o produto é vendido, como é consumido e qual o ciclo de vida do produto;
+
 - Leia bastante;
+
 - Procure trabalhar a sua interação social e aprenda a expressar suas ideias, pois é, aprenda a trabalhar em equipe;
+
 - Procure conhecer as profissões atuantes na construção e aprenda uma delas, por exemplo: Programação de jogos, Arte, publicidade ou todas as mesmo tempo.
 
 ![Figura: Design de games: conheça a profissão - https://www.gamerinfo.com.br/2018/09/10/design-de-games/](https://www.gamerinfo.com.br/wp-content/uploads/2018/09/game-designer-1.jpg "Figura: Design de games: conheça a profissão - https://www.gamerinfo.com.br/2018/09/10/design-de-games/")
 
-> *Figura: Design de games: conheça a profissão - https://www.gamerinfo.com.br/2018/09/10/design-de-games/ .*
+> Figura: Design de games: conheça a profissão - https://www.gamerinfo.com.br/2018/09/10/design-de-games/ .
 
 <a name="1.2"></a>
 ## 1.2 Quanto Ganha do Game Design?
 
-Segundo o site https://www.educamaisbrasil.com.br o salário começa com R$ 1.228,90 e pode chegar a R$ 4.056,35 no Brasil (Consulta 17/01/2021).
+Segundo o site https://www.educamaisbrasil.com.br o salário começa com **R$ 1.228,90** e pode chegar a **R$ 4.056,35** no Brasil (Consulta 17/01/2021).
 
 ![Figura: Profissão Designer de games: salário e carreira na área de DESIGN DE GAMES - https://www.educamaisbrasil.com.br/cursos-e-faculdades/design-de-games/salario-de-designer-de-games-carreira](https://images.educamaisbrasil.com.br/content/superior/curso/banner/p/design-de-games.jpg "Figura: Profissão Designer de games: salário e carreira na área de DESIGN DE GAMES - https://www.educamaisbrasil.com.br/cursos-e-faculdades/design-de-games/salario-de-designer-de-games-carreira")
 
-> *Figura: Profissão Designer de games: salário e carreira na área de DESIGN DE GAMES - https://www.educamaisbrasil.com.br/cursos-e-faculdades/design-de-games/salario-de-designer-de-games-carreira .*
+> Figura: Profissão Designer de games: salário e carreira na área de DESIGN DE GAMES - https://www.educamaisbrasil.com.br/cursos-e-faculdades/design-de-games/salario-de-designer-de-games-carreira .*
 
 <a name="1.3"></a>
 ## 1.3 Características pessoais
 A seguir vamos destacar algumas Características necessárias para um bom Game Design.
 
-![Figura: Turning employee ideas into profitable results - https://www.singerandfalk.com](https://www.singerandfalk.com/wp-content/uploads/2018/03/02_07_18_838151864_BB_560x292.jpg "Figura: Turning employee ideas into profitable results - https://www.singerandfalk.com")
+![Figura: Turning employee ideas into profitable results - https://www.singerandfalk.com/uncategorized/turning-employee-ideas-into-profitable-results/](https://www.singerandfalk.com/wp-content/uploads/2018/03/02_07_18_838151864_BB_560x292.jpg "Figura: Turning employee ideas into profitable results - https://www.singerandfalk.com/uncategorized/turning-employee-ideas-into-profitable-results/")
 
-> *Figura: Turning employee ideas into profitable results - https://www.singerandfalk.com .*
+> Figura: Turning employee ideas into profitable results - https://www.singerandfalk.com/uncategorized/turning-employee-ideas-into-profitable-results/ .
 
 - Descrever e escrever as suas ideias;
+
 - Usar a comunicação visual;
+
 - Acompanhar o trabalho da equipe;
+
+- Prestar atenção a opinião de outras pessoas.
 
 **[⬆ Início](#indice)**
 
@@ -157,35 +165,38 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 >
 > Carl Sagan.
 
-Geralmente o fluxo de trabalhado pode ser definido pelas etapas de Conceito, Funcional e Artista, a seguir vamos descrever as etapas.
+Geralmente o fluxo de trabalhado pode ser definido pelas etapas de **Conceito**, **Funcional** e **Artista**, a seguir vamos descrever as etapas.
 
 ### Conceito.
 Etapa mais abstrata do projeto onde definimos o conceito do jogo baseados em uma história ou mecânica, esta etapa é necessária para apresentar, documentar e organizar a ideia do jogo.
 
-- Documentação e narrativa
+- Documentação e narrativa - "você não precisa de um contexto narrativo para cada jogo (isso é especialmente verdade em game jams), mas para esta classe e o GDW deste ano, você precisará de alguma forma de quadro narrativo dentro do qual seu jogo funciona. Este é o lugar para descrevê-lo, as configurações, tema e estilo visual. Se o seu jogo tem personagens fortes, você pode usar este ponto para descrever qualquer história de fundo ou tema que os preocupe."
 
-![Figura: Communication and Game Design Documents - https://acagamic.com](https://acagamic.com/uploads/2014/10/GDD1-ClanCombat.jpg "Figura: Communication and Game Design Documents - https://acagamic.com")
+![Figura: Communication and Game Design Documents - https://acagamic.com/free-courses/intro-to-game-design/communication-and-game-design-documents/](https://acagamic.com/uploads/2014/10/GDD1-ClanCombat.jpg "Figura: Communication and Game Design Documents - https://acagamic.com/free-courses/intro-to-game-design/communication-and-game-design-documents/")
 
-> *Figura: Communication and Game Design Documents - https://acagamic.com .*
+> Figura: Communication and Game Design Documents - https://acagamic.com/free-courses/intro-to-game-design/communication-and-game-design-documents/ .
+
+Um bom exemplo de documentação é o modelo [Death VIP](http://cafegeek.eti.br/trabalhos/modelo_gdd_death_vip.html), utilize a estrutura do modelo para o desenvolvimento de trabalhos no decorrer do curso.
 
 
 ### Funcional.
 
 Nesta etapa definimos como organizar o fluxo de atividades e comunicação do projeto. Devemos definir também as regras que devem ser desenvolvidas no projeto como por exemplo a implementação técnica da mecânica.
 
-- Fluxo de trabalho;
-- Regras;
+- Fluxo de trabalho - Organize o encadeamento das etapas de produção determinando a duração de cada uma delas, finalmente implemente um plano de comunicação dos envolvidos no projeto;
+- Regras - Defina regras do mundo do jogo que devem ser seguidas por desenvolvedores e roteiristas ;
 
-![Figura: The growth of the gaming industry in the context of creative industries -https://www.researchgate.net](https://www.researchgate.net/profile/Piotr-Rykala/publication/346541011/figure/fig1/AS:964050955563008@1606859067170/Example-of-organization-and-workflow-of-a-video-game-developer-Source-Zackariasson-and.png "Figura: The growth of the gaming industry in the context of creative industries -https://www.researchgate.net")
+![Figura: The growth of the gaming industry in the context of creative industries -https://www.researchgate.net/publication/346541011_The_growth_of_the_gaming_industry_in_the_context_of_creative_industries](https://www.researchgate.net/profile/Piotr-Rykala/publication/346541011/figure/fig1/AS:964050955563008@1606859067170/Example-of-organization-and-workflow-of-a-video-game-developer-Source-Zackariasson-and.png "Figura: The growth of the gaming industry in the context of creative industries - https://www.researchgate.net/publication/346541011_The_growth_of_the_gaming_industry_in_the_context_of_creative_industries")
 
-> *Figura: The growth of the gaming industry in the context of creative industries - https://www.researchgate.net.*
+> Figura: The growth of the gaming industry in the context of creative industries - https://www.researchgate.net/publication/346541011_The_growth_of_the_gaming_industry_in_the_context_of_creative_industries.
 
 
 ### Artista.
 Como são os personagens? qual o ambiente? esse tipo de pergunta são apresentadas nessa etapa onde devem ser analisadas e aprovadas as representações visuais do jogo.
 
-- Storyboards
-- Arte conceitual
+- Storyboards;
+
+- Arte conceitual.
 
 ![Figura: The Benefits of Embracing 3D in your Concept Art Workflow - https://magazine.artstation.com](https://magazine.artstation.com/wp-content/uploads/2019/02/CGS-3D-concept-art-editorial-image-01-1024x640.jpg "Figura: The Benefits of Embracing 3D in your Concept Art Workflow - https://magazine.artstation.com")
 
@@ -198,9 +209,9 @@ Como são os personagens? qual o ambiente? esse tipo de pergunta são apresentad
 ## 2.1 A equipe
 Organizar a equipe é um trabalho interessante quando compreendemos as Características do produto que vamos desenvolver e as aliamos aos perfis profissionais que devem atuar no desenvolvimento.
 
-![Figura: Mas qual é a diferença entre design de games, game art e game design? - https://unidigitaldobrasil.com.br](https://unidigitaldobrasil.com.br/wp-content/uploads/2016/01/Kabam-playing-underworld-empire-together.jpg "Figura: Mas qual é a diferença entre design de games, game art e game design? - https://unidigitaldobrasil.com.br")
+![Figura: Mas qual é a diferença entre design de games, game art e game design? - https://unidigitaldobrasil.com.br/carreira-na-industria-de-games-design-de-games-game-art-ou-game-design/](https://unidigitaldobrasil.com.br/wp-content/uploads/2016/01/Kabam-playing-underworld-empire-together.jpg "Figura: Mas qual é a diferença entre design de games, game art e game design? -https://unidigitaldobrasil.com.br/carreira-na-industria-de-games-design-de-games-game-art-ou-game-design/")
 
-> *Figura: Mas qual é a diferença entre design de games, game art e game design? - https://unidigitaldobrasil.com.br .*
+> Figura: Mas qual é a diferença entre design de games, game art e game design? - https://unidigitaldobrasil.com.br/carreira-na-industria-de-games-design-de-games-game-art-ou-game-design/ .
 
 |Profissional |Papel                                  |
 |:-           |:-                                     |
@@ -213,11 +224,17 @@ Organizar a equipe é um trabalho interessante quando compreendemos as Caracter�
 |Sound design |Elementos sonoros durante a gameplay    |
 |Redator      |Roteirização e pesquisa documental   |
 
+Podemos comparar como trabalhar um grande desafio com um grupo de amigos onde cada um papel definido.
+
+![Figura: Tips for positive player interactions in World of Warcraft instances - https://www.gameskinny.com/xiv9z/tips-for-positive-player-interactions-in-world-of-warcraft-instances](https://res.cloudinary.com/lmn/image/upload/c_limit,dpr_2,h_360,w_640/e_sharpen:100/f_auto,fl_lossy,q_auto/v1/gameskinnyop/2/6/8/orig_268bb737dfb55c04256c7e55f338bcd1.png "Figura: Tips for positive player interactions in World of Warcraft instances - https://www.gameskinny.com/xiv9z/tips-for-positive-player-interactions-in-world-of-warcraft-instances")
+
+> Figura: Tips for positive player interactions in World of Warcraft instances - https://www.gameskinny.com/xiv9z/tips-for-positive-player-interactions-in-world-of-warcraft-instances .
+
 **[⬆ Início](#indice)**
 
 <a name="2.2"></a>
 ## 2.2 Tarefas
-Quais são as tarefas e atividades que devem ser executadas, por onde começamos? uma resposta para a pergunta é organize em pacotes de entrega. Defina e agrup um conjunto de entregas baseadas em funcionalidades e comece a organizar a sua agenda.
+Quais são as tarefas e atividades que devem ser executadas, por onde começamos? uma resposta para a pergunta é organize em pacotes de entrega. Defina e agrupe um conjunto de entregas baseadas em funcionalidades e comece a organizar a sua agenda.
 
 
 |Tarefas          |Descrição                    |
@@ -230,7 +247,7 @@ Quais são as tarefas e atividades que devem ser executadas, por onde começamos
 
 ![Figura: Improving Video Game Development: Facilitating Heterogeneous Team Collaboration through Flexible Software Processes - https://www.researchgate.net](https://www.researchgate.net/profile/Juergen-Musil/publication/221045927/figure/fig2/AS:305624014442498@1449877851418/Simple-workflow-oriented-process-for-game-development.png "Figura: Improving Video Game Development: Facilitating Heterogeneous Team Collaboration through Flexible Software Processes - https://www.researchgate.net")
 
-> *Figura: Improving Video Game Development: Facilitating Heterogeneous Team Collaboration through Flexible Software Processes - https://www.researchgate.net .*
+> Figura: Improving Video Game Development: Facilitating Heterogeneous Team Collaboration through Flexible Software Processes - https://www.researchgate.net .
 
 **[⬆ Início](#indice)**
 
@@ -238,13 +255,16 @@ Quais são as tarefas e atividades que devem ser executadas, por onde começamos
 ## 2.3 Limitações
 O projeto é limitado por vários fatores, dentre eles:
 - Dinheiro;
+
 - Tempo;
+
 - Tecnologia;
+
 - Expertise;
 
-![Figura: The best survival games on PC in 2022  - https://www.rockpapershotgun.com/](https://assets.rockpapershotgun.com/images/2020/02/The-Forest-Best-Survival-Games-2020.jpg "Figura: The best survival games on PC in 2022  - https://www.rockpapershotgun.com/")
+![Figura: The best survival games on PC in 2022  - https://www.rockpapershotgun.com/the-best-survival-games-on-pc](https://assets.rockpapershotgun.com/images/2020/02/The-Forest-Best-Survival-Games-2020.jpg "Figura: The best survival games on PC in 2022  - https://www.rockpapershotgun.com/the-best-survival-games-on-pc")
 
-> *Figura: The best survival games on PC in 2022  - https://www.rockpapershotgun.com/ .*
+> Figura: The best survival games on PC in 2022  - https://www.rockpapershotgun.com/the-best-survival-games-on-pc .
 
 **[⬆ Início](#indice)**
 
@@ -257,38 +277,48 @@ O projeto é limitado por vários fatores, dentre eles:
 
 <a name="3.1"></a>
 ## 3.1 Onde nascem as ideias?
-![Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones - https://www.theverge.com](https://cdn3.vox-cdn.com/uploads/chorus_asset/file/3687336/The_Witcher_3_Wild_Hunt_You_never_know_what_waits_around_the_corner.0.png "Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones - https://www.theverge.com")
 
-> *Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones - https://www.theverge.com .*
+![Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones - https://www.theverge.com/2015/5/12/8586515/witcher-3-wild-hunt-review-ps4-xbox-one-game](https://cdn3.vox-cdn.com/uploads/chorus_asset/file/3687336/The_Witcher_3_Wild_Hunt_You_never_know_what_waits_around_the_corner.0.png "Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones - https://www.theverge.com/2015/5/12/8586515/witcher-3-wild-hunt-review-ps4-xbox-one-game")
+
+> Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones - https://www.theverge.com/2015/5/12/8586515/witcher-3-wild-hunt-review-ps4-xbox-one-game .
 
 - Outras ideias;
+
 - Mundo;
+
 - Jornal;
+
 - Jogos;
+
 - Experiências emocionais.
 
 **[⬆ Início](#indice)**
 
 <a name="3.2"></a>
 ## 3.2 Cultivando ideias
-![Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com](https://cdn.vox-cdn.com/thumbor/KfZcAgZDNJyf7POmq2KDOfa2fZA=/148x0:1768x1080/920x613/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47374578/unravel-yarny.0.0.jpg "Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com")
 
-> *Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com .*
+![Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com/2015/10/10/9487701/unravel-preview-call-your-mom](https://cdn.vox-cdn.com/thumbor/KfZcAgZDNJyf7POmq2KDOfa2fZA=/148x0:1768x1080/920x613/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47374578/unravel-yarny.0.0.jpg "Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com/2015/10/10/9487701/unravel-preview-call-your-mom")
+
+> Figura: Unravel creator hopes the game will make you call your mom - https://www.polygon.com/2015/10/10/9487701/unravel-preview-call-your-mom .
 
 - Seja curioso;
+
 - Como as coisas funcionam;
+
 - Crie elementos e os coloque no mundo;
+
 - Compartilhe o seu mundo com outras pessoas;
 
 **[⬆ Início](#indice)**
 
 <a name="3.3"></a>
 ## 3.3 O que torna a ideia interessante é
-![Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br](https://adrenaline.com.br/uploads/2021/09/09/70890/Lost-in-Random_06.jpg "Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br")
+![Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br/colunas/v/70890/lost-in-random-e-um-misto-de-otimo-roteiro-e-gameplay-criativo](https://adrenaline.com.br/uploads/2021/09/09/70890/Lost-in-Random_06.jpg "Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br/colunas/v/70890/lost-in-random-e-um-misto-de-otimo-roteiro-e-gameplay-criativo")
 
-> *Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br .*
+> Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo - https://adrenaline.com.br/colunas/v/70890/lost-in-random-e-um-misto-de-otimo-roteiro-e-gameplay-criativo .
 
 - Arranjo único;
+
 - Seja divertido;
 
 **[⬆ Início](#indice)**
@@ -300,8 +330,11 @@ O projeto é limitado por vários fatores, dentre eles:
 > *Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - https://www.tecmundo.com.br/voxel/jogos/rise-of-the-tomb-raider/analise .*
 
 - Lugar;
+
 - Pessoas;
+
 - Histórias;
+
 - Experiências pessoais;
 
 **[⬆ Início](#indice)**
@@ -309,14 +342,16 @@ O projeto é limitado por vários fatores, dentre eles:
 <a name="3.5"></a>
 ## 3.5 Hábito
 
-![Figura: Review Journey - https://www.tecmundo.com.br](https://s2.glbimg.com/ZcTFIilmLi8663REozPDO8EzL18=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/q/UZHV1lT8SDUVlX8Bso5Q/2015-07-24-journey3.jpg "Figura: Review Journey - https://www.tecmundo.com.br")
+![Figura: Review Journey - https://www.tecmundo.com.br/voxel/jogos/journey/analise](https://s2.glbimg.com/ZcTFIilmLi8663REozPDO8EzL18=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/q/UZHV1lT8SDUVlX8Bso5Q/2015-07-24-journey3.jpg "Figura: Review Journey - https://www.tecmundo.com.br/voxel/jogos/journey/analise")
 
-> *Figura: Review Journey - https://www.tecmundo.com.br .*
->
->A maior virtude do game é, sem dúvida, conseguir comover sem sequer dizer uma palavra. Confira a análise da versão de PlayStation 4!
+> Figura: Review Journey - https://www.tecmundo.com.br/voxel/jogos/journey/analise .
+
+"A maior virtude do game é, sem dúvida, conseguir comover sem sequer dizer uma palavra. Confira a análise da versão de PlayStation 4!"
 
 - Caminhe;
+
 - Leia;
+
 - Assista palestras;
 
 **[⬆ Início](#indice)**
@@ -331,19 +366,28 @@ O projeto é limitado por vários fatores, dentre eles:
 
 ![Figura: 10 dicas e truques para criar personagens inesquecíveis - https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/](imagens/AR18-1.webp "Figura: 10 dicas e truques para criar personagens inesquecíveis - https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/")
 
-> *Figura: 10 dicas e truques para criar personagens inesquecíveis - https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/ .*
+> Figura: 10 dicas e truques para criar personagens inesquecíveis - https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/ .
 
 Não existe uma formula mágica que se deve seguir para construir um personagem de qualquer história ficcional, talvez observar a vida real e o comportamento das pessoas que estão a sua volta ajude a entender como construir personagens, pois eles estão ao seu lado, mas segundo Charlie Jane Ander em artigo publicado em 05/08/2014, adaptado e apresentado em mini-palestra no [Clarion West](https://www.clarionwest.org/) por Cristine é possível organizar algumas ideias e dicas para que os personagens ganhem vida, segue abaixo o resumo.
 
 1. Personagem é ação;
+
 2. Ações surpreendentes;
+
 3. Contradições estranhas;
+
 4. Um detalhe pode estar no seu caminho;
+
 5. Mas salve os detalhes extras para a reescrita;
+
 6. Um mundo atraente e alguém lutando por ele;
+
 7. Yoda estava errado sobre a raiva;
+
 8. A aspiração do seu personagem pode ser estranha;
+
 9. Escreva uma história de origem, mesmo que você não a use;
+
 10. Trabalhe no sentido contrário do fluxo do enredo ou história.
 
 Devemos também outras estruturas de organização e entendimento dos  heróis, amigos, amigos nem tanto e supostos inimigos (Lembre do ótimo jogo [Last of Us Parte 2](https://thelastofus.com.br/)), a seguir apresentamos essas estruturas.
@@ -353,48 +397,59 @@ Devemos também outras estruturas de organização e entendimento dos  heróis, 
 
 ![Figura: Jornada do Herói - https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69](https://miro.medium.com/max/500/1*cQanY8AUEBH3f0BsGo_vOw.png "Figura: Jornada do Herói - https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69")
 
-> *Figura: Jornada do Herói - https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69 .*
+> Figura: Jornada do Herói - https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69 .
 
 Está dividido em três seções:
+
 - Partida (às vezes chamada Separação)
+
 - Iniciação
+
 - Retorno
 
 
 ![Figura: The Lord of the Rings Movie Games Need the Remaster Treatment - https://gamerant.com](https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/08/The-Lord-of-the-Rings-The-Return-of-the-King-PS2-Remaster.jpg?q=50&fit=contain&w=960&h=500&dpr=1.5 "Figura: The Lord of the Rings Movie Games Need the Remaster Treatment - https://gamerant.com")
 
-> *Figura: The Lord of the Rings Movie Games Need the Remaster Treatment - https://gamerant.com .*
+> Figura: The Lord of the Rings Movie Games Need the Remaster Treatment - https://gamerant.com .
 
 Abaixo alguns filmes que utilizam essa fórmula :
+
 - Matrix;
+
 - Senhor dos Anéis;
+
 - Star Wars;
+
 - Harry Potter.
 
 **[⬆ Início](#indice)**
 
 <a name="4.2"></a>
 ## 4.2 Personalidade
-- Como ele caminha;
 
-  ![Figura: Relembre os melhores jogos clássicos em 2D do Sonic - https://www.techtudo.com.br/](https://s2.glbimg.com/6VbePiU5gQg5tDf6RnWBQKWq9TE=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/A/koepwtTciyZq1aIruRUw/2016-07-27-sonic-melhores-jogos-10.jpg "Figura: Relembre os melhores jogos clássicos em 2D do Sonic - https://www.techtudo.com.br/")
+**Como ele caminha.**
 
-  > *Figura: Relembre os melhores jogos clássicos em 2D do Sonic - https://www.techtudo.com.br .*
+![Figura: Relembre os melhores jogos clássicos em 2D do Sonic - https://www.techtudo.com.br/](https://s2.glbimg.com/6VbePiU5gQg5tDf6RnWBQKWq9TE=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/A/koepwtTciyZq1aIruRUw/2016-07-27-sonic-melhores-jogos-10.jpg "Figura: Relembre os melhores jogos clássicos em 2D do Sonic - https://www.techtudo.com.br/")
 
-- Como fala;
-- Como luta;
+> Figura: Relembre os melhores jogos clássicos em 2D do Sonic - https://www.techtudo.com.br .
 
-  ![Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation - https://www.theenemy.com.br/](https://cdn.ome.lt/Ri9BXgbM9WX4sLt2hyqchVsUA1Y=/770x0/smart/uploads/conteudo/fotos/god-of-war-kratos_o1WSA8h.jpg "Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation - https://www.theenemy.com.br/")
+**Como fala.**
 
-  > *Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation - https://www.theenemy.com.br/.*
+**Como luta.**
 
-- Como abre a porta;
-- Como comemora;
-- Como fica esperando;
+![Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation - https://www.theenemy.com.br/](https://cdn.ome.lt/Ri9BXgbM9WX4sLt2hyqchVsUA1Y=/770x0/smart/uploads/conteudo/fotos/god-of-war-kratos_o1WSA8h.jpg "Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation - https://www.theenemy.com.br/")
 
-  ![Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis – the PCGamesN tech review - https://www.pcgamesn.com](https://www.pcgamesn.com/wp-content/uploads/legacy/Ghost_Recon_Wildlands_graphics_settings_high.jpg "Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis – the PCGamesN tech review - https://www.pcgamesn.com")
+> Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation - https://www.theenemy.com.br/.
 
-  > *Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis – the PCGamesN tech review - https://www.pcgamesn.com .*
+**Como abre a porta.**
+
+**Como comemora.**
+
+**Como fica esperando.**
+
+![Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis – the PCGamesN tech review - https://www.pcgamesn.com](https://www.pcgamesn.com/wp-content/uploads/legacy/Ghost_Recon_Wildlands_graphics_settings_high.jpg "Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis – the PCGamesN tech review - https://www.pcgamesn.com")
+
+> Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis – the PCGamesN tech review - https://www.pcgamesn.com .
 
 - Humorístico.
   - Falar, agir de forma engraçada
