@@ -22,7 +22,7 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 
 &nbsp;&nbsp;[1.5 A sombra da noite](#1.5)
 
-&nbsp;&nbsp;[1.6 Suspense](#1.6)
+&nbsp;&nbsp;[1.6 Suspense](suspense.html)
 
 ***
 
@@ -96,15 +96,6 @@ Link: [A sombra da noite](a_sombra_da_noite.html)
 Categoria: Roteiro
 
 Autor: Robson Maciel
-
-<a name="1.6"></a>
-## 1.6 Suspense
-Link: [Suspense](suspense.html)
-
-Categoria: Roteiro
-
-Autor: NonXei-Ken
-
 
 ***
 
