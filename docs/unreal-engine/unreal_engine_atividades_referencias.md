@@ -71,6 +71,23 @@ layout: page
 
 1. Adicione vários objetos de diferentes tipos.
 
+
+### CAPT 4.2- Level Blueprint.
+
+**Regras.**
+
+1. Implemente no Level Blueprint os seguintes comandos:
+  1. Ao iniciar o level é apresentado a mensagem : "tem Alguém ai?
+  2. A cada "tick" apresente a mensagem : Tic, Tac, não é tik tok..
+2. Mapeie uma referência de um objeto na cena e apresente o nome no objeto, exemplo : adicione um cubo na cena e ao iniciar o level escreva o nome do OBJETO CUBO na tela;
+3. Explique como funcionam os eventos e seus parâmetros básicos: BeginPlay, Tick, BeginOverlap, EndOverLap ;
+
+**Desafio.**
+
+1. Crie um objeto do tipo peão e o adicione na tela;
+2. Explique o que é um objeto do tipo peão (pawn) e seus eventos básicos;
+3. No evento Tick do peão escreva mensagem  : Tik Rock é melhor que...
+
 ***
 
 ### CAPT 6.1 - Crie um projeto que implemente vários tipos de variáveis
