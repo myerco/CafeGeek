@@ -5,9 +5,46 @@ tags: [Unreal Engine, Atividades]
 layout: page
 ---
 
+**[Atividades](#atividades)**
+
+- [2.1 Instale o Unreal Engine com Visual Studio](#21-instale-o-unreal-engine-com-visual-studio)
+- [2.2 Configure as pastas de seu projeto](#22-configure-as-pastas-de-seu-projeto)
+- [2.3 A Cena](#23-a-cena)
+- [3.1 Crie um projeto no Unreal Engine e o configure para utilizar o Git](#31-crie-um-projeto-no-unreal-engine-e-o-configure-para-utilizar-o-git)
+- [4.1 Crie um level para apresentar uma mensagem na tela.](#41-crie-um-level-para-apresentar-uma-mensagem-na-tela)
+- [4.2 Level Blueprint.](#42-level-blueprint)
+- [6.1 Crie um projeto que implemente vários tipos de variáveis](#61-crie-um-projeto-que-implemente-v-rios-tipos-de-vari-veis)
+- [6.2 Implemente um projeto que crie vários atores na cena e os posicione em áreas diferentes da cena](#62-implemente-um-projeto-que-crie-v-rios-atores-na-cena-e-os-posicione-em--reas-diferentes-da-cena)
+- [6.3 O controle](#63-o-controle)
+- [7.1 Apresentando mensagens para interagir com o personagem](#71-apresentando-mensagens-para-interagir-com-o-personagem)
+- [7.2 Implementando o menu do jogo usando Game Instance](#72-implementando-o-menu-do-jogo-usando-game-instance)
+- [9.1 O meu primeiro material no Unreal Engine](#91-o-meu-primeiro-material-no-unreal-engine)
+- [9.2 A cortina](#92-a-cortina)
+- [9.3 A grama do vizinho](#93-a-grama-do-vizinho)
+- [9.4 A esfera transparente](#94-a-esfera-transparente)
+- [9.5 Uma base para vários materiais](#95-uma-base-para-v-rios-materiais)
+
+**[Referências](#refer-ncias)**
+
+  * [CAPT 1,2](#capt-1-2)
+  * [CAPT 3](#capt-3)
+  * [CAPT 4](#capt-4)
+  * [CAPT 5](#capt-5)
+  * [CAPT 6](#capt-6)
+  * [CAPT 7](#capt-7)
+  * [CAPT 8](#capt-8)
+  * [CAPT 9](#capt-9)
+  * [CAPT 10](#capt-10)
+  * [CAPT 11](#capt-11)
+  * [CAPT 12](#capt-12)
+
+**[Livros](#livros)**
+
+**[Recursos](#recursos)**
+
 ## Atividades
 
-### CAPT 2.1 - Instale o Unreal Engine com Visual Studio
+### 2.1 Instale o Unreal Engine com Visual Studio
 **Regras.**
 
 1. Instale todo o ambiente e crie um projeto de nome MeuPrimeiroProjeto.
@@ -16,9 +53,7 @@ layout: page
 
 1. Configure o Visual Studio para ser o editor padrão.
 
-***
-
-### CAPT 2.2 - Configure as pastas de seu projeto
+### 2.2 Configure as pastas de seu projeto
 **Regras.**
 
 1. Configure as pastas de seu projeto escolhendo uma das sugestões e justifique a sua escolha.
@@ -27,7 +62,7 @@ layout: page
 
 1. Adicione o pacote *StarterContent*.
 
-### CAPT 2.3 - A Cena
+### 2.3 A Cena
 **Regras.**
 
 1. Construa elementos usando Geomtry;
@@ -46,10 +81,7 @@ layout: page
 2. Implemente mais elementos na sua cena (casas, fonte, barris, lápides, árvores)
 
 
-
-***
-
-### CAPT 3.1 - Crie um projeto no Unreal Engine e o configure para utilizar o Git
+### 3.1 Crie um projeto no Unreal Engine e o configure para utilizar o Git
 **Regras.**
 
 1. Instale todo o ambiente e crie um projeto com  a  última versão do Unreal Engine.
@@ -62,7 +94,7 @@ layout: page
 
 ***
 
-### CAPT 4.1- Crie um level para apresentar uma mensagem na tela.
+### 4.1 Crie um level para apresentar uma mensagem na tela.
 **Regras.**
 
 1. Utilize variáveis para parametrizar a mensagem.
@@ -72,7 +104,7 @@ layout: page
 1. Adicione vários objetos de diferentes tipos.
 
 
-### CAPT 4.2- Level Blueprint.
+### 4.2 Level Blueprint.
 
 **Regras.**
 
@@ -88,9 +120,8 @@ layout: page
 2. Explique o que é um objeto do tipo peão (pawn) e seus eventos básicos;
 3. No evento Tick do peão escreva mensagem  : Tik Rock é melhor que...
 
-***
 
-### CAPT 6.1 - Crie um projeto que implemente vários tipos de variáveis
+### 6.1 Crie um projeto que implemente vários tipos de variáveis
 **Regras.**
 1. Implemente variáveis para armazenar o Nome do personagem, a vida do personagem e força do personagem;
 1. Aumente a vida e a força do personagem;
@@ -108,9 +139,7 @@ z = 2;
 O maior valor é Y = 5;
 ```
 
-***
-
-### CAPT 6.2 - Implemente um projeto que crie vários atores na cena e os posicione em áreas diferentes da cena
+### 6.2 Implemente um projeto que crie vários atores na cena e os posicione em áreas diferentes da cena
 **Regras.**
 
 1. Adicione diferentes tipos de atores.
@@ -119,10 +148,7 @@ O maior valor é Y = 5;
 
 1. Adicione um *array* para controlar melhor os objetos.
 
-***
-
-
-### CAPT 6.3 - O controle
+### 6.3 O controle
 **Regras.**
 
 1. Implemente lógica que permita alternar o controle do gamemode de terceira pessoa para primeira pessoa.
@@ -131,9 +157,8 @@ O maior valor é Y = 5;
 
 1. Apresente um ambiente personalizado.
 
-***
 
-### CAPT 7.1 Apresentando mensagens para interagir com o personagem
+### 7.1 Apresentando mensagens para interagir com o personagem
 **Regras.**
 
 1. Implemente um objeto *Widget* com um texto colorido e formatado.
@@ -144,8 +169,7 @@ O maior valor é Y = 5;
 1. Implemente um gameplay em primeira pessoa dentro de uma casa.
 
 
-
-### CAP 7.2 Implementando o menu do jogo usando Game Instance
+### 7.2 Implementando o menu do jogo usando Game Instance
 **Regras.**
 
 1. Implemente o menu principal do jogo com as opções : Play e Quit.
@@ -154,7 +178,7 @@ O maior valor é Y = 5;
   - **Open Menu Principal** para abrir o menu principal;
   - **Open Menu Resume** para abrir o menu de pausa e resumo do jogo;
 
-### CAPT 9.1 - O meu primeiro material no Unreal Engine
+### 9.1 O meu primeiro material no Unreal Engine
 **Regras.**
 
 1. Utilize os parâmetros Base Color, Roughness e Metallic
@@ -165,7 +189,7 @@ O maior valor é Y = 5;
 
   1. Escolha um objeto qualquer para aplicar o material, exemplo: cadeira, mesa ou parede.
 
-### CAPT 9.2 - A cortina
+### 9.2 A cortina
 **Regras.**
 
 1. Implemente uma malha em formato de cortina e adicione um material para simular movimento.
@@ -176,7 +200,7 @@ O maior valor é Y = 5;
 
 1. Adicione som ambiente na cena.
 
-### CAPT 9.3 - A grama do vizinho
+### 9.3 A grama do vizinho
 **Regras.**
 
 1. Implemente um objeto para representar grama.
@@ -186,7 +210,7 @@ O maior valor é Y = 5;
 1. Apresente um ambiente com vários elementos, como por exemplo pedra, flores e etc.
 1. Adicione som de vento.
 
-### CAPT 9.4 - A esfera transparente
+### 9.4 A esfera transparente
 **Regras.**
 
 1. Implemente um objeto transparente simulando vidro.
@@ -197,7 +221,7 @@ O maior valor é Y = 5;
 
 1. Adicione um som especial ao se aproximar da esfera.
 
-### CAPT 9.5 Uma base para vários materiais
+### 9.5 Uma base para vários materiais
 **Regras.**
 
 1. Implemente um material base e 3 instancias de materiais (Material Instance).
@@ -208,7 +232,6 @@ O maior valor é Y = 5;
 1. Implemente um parâmetro para aumentar ou diminuir a mistura de várias texturas a fim de simular por exemplo pisos com pouca ou muita grama.
 
 ***
-
 
 ## Referências
 ### CAPT 1,2
@@ -559,7 +582,7 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 
 - [Networking Overview](https://docs.unrealengine.com/en-US/InteractiveExperiences/Networking/Overview/index.html)
 
-### Livros
+## Livros
 
 - SANDERS, Andrew. An Introduction to Unreal Engine 4. Boca Raton,FL. Taylor & Francis Group. 2017;
 
@@ -571,7 +594,7 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 
 - SHERIF, Willian, Stephen Whittle. Unreal Engine 4 Scripting with C++ Cookbook. Birminghan-Mumbai. Packt Publishing. 2016;
 
-### Recursos
+## Recursos
 
 - Framework  de desenvolvimento da Epic Games Unreal Engine;
 
