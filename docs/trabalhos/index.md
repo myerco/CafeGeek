@@ -51,6 +51,8 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 
 &nbsp;&nbsp;[4.2 Árvore  de Talentos](jogos_digitais_talentos.drawio.html)
 
+&nbsp;&nbsp;[4.3 Árvore  de Atividades](jogos_digitais_atividades.drawio.html)
+
 ***
 
 <a name="1"></a>
