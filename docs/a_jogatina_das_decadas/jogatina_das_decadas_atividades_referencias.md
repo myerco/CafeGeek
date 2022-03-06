@@ -5,9 +5,20 @@ tags: [jogatina das decadas]
 layout: page
 ---
 
+**[Atividades](#atividades)**
+  * [1. Apresente um jogo do seu universo pessoal](#1-apresente-um-jogo-do-seu-universo-pessoal)
+  * [2. O jogador](#2-o-jogador)
+
+**[Referências](#refer-ncias)**
+  * [Livros](#livros)
+  * [Internet](#internet)
+
+
 ## Atividades
 
 ### 1. Apresente um jogo do seu universo pessoal
+**Regras**
+
 1. Observe o seu ambiente  social REAL e apresente um jogo que o represente;
 
 2. Qual o nome do jogo?
@@ -22,6 +33,7 @@ layout: page
 1. Apresente para os demais acadêmicos
 
 ### 2. O jogador
+**Regras**
 
 1. Qual tipo de jogador jogaria o seu jogo?
 
