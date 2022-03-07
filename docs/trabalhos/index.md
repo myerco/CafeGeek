@@ -47,7 +47,7 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 
 **[CAPÍTULO  4 - Modelos](#4 "CAPÍTULO  4 - Modelos")**
 
-&nbsp;&nbsp;[4.1 Death Vip](#4.1)
+&nbsp;&nbsp;[4.1 Death Vip](modelo_gdd_death_vip.html)
 
 &nbsp;&nbsp;[4.2 Árvore  de Talentos](jogos_digitais_talentos.drawio.html)
 
