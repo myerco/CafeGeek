@@ -25,22 +25,12 @@ layout: page
 - [9.5 Uma base para vários materiais](#95-uma-base-para-v-rios-materiais)
 
 **[Referências](#refer-ncias)**
-
-  * [CAPT 1,2](#capt-1-2)
-  * [CAPT 3](#capt-3)
-  * [CAPT 4](#capt-4)
-  * [CAPT 5](#capt-5)
-  * [CAPT 6](#capt-6)
-  * [CAPT 7](#capt-7)
-  * [CAPT 8](#capt-8)
-  * [CAPT 9](#capt-9)
-  * [CAPT 10](#capt-10)
-  * [CAPT 11](#capt-11)
-  * [CAPT 12](#capt-12)
-
-**[Livros](#livros)**
+  * [Livros](#livros)
+  * [Internet](#internet)
 
 **[Recursos](#recursos)**
+
+***
 
 ## Atividades
 
@@ -234,7 +224,11 @@ O maior valor é Y = 5;
 ***
 
 ## Referências
-### CAPT 1,2
+
+### Internet
+
+**CAPT 1,2**
+
 - [Estrutura do diretório](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html)
 
 - [UE4 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin)
@@ -255,7 +249,8 @@ O maior valor é Y = 5;
 
 - [How to change the icon of your game?](https://answers.unrealengine.com/questions/397901/how-to-change-the-icon-of-your-game.html)
 
-### CAPT 3
+**CAPT 3**
+
 - [Top 20 Git commands with examples](https://dzone.com/articles/top-20-git-commands-with-examples)
 
 - [Source Control](https://docs.unrealengine.com/en-US/Basics/UI/SourceControl/index.html)
@@ -269,7 +264,8 @@ O maior valor é Y = 5;
 - [Git for UE4 / Unreal Engine 4](https://www.youtube.com/watch?v=FXMTHrLWFKQ)
 
 
-### CAPT 4
+**CAPT 4**
+
 - [Blueprint](https://docs.unrealengine.com/en-US/Engine/Blueprints/index.html)
 
 - [Level Blurprint](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Types/LevelBlueprint/index.html)
@@ -314,7 +310,8 @@ O maior valor é Y = 5;
 
 - [Transforming Actors](https://docs.unrealengine.com/en-US/Basics/Actors/Transform/index.html "Transforming Actors")
 
-### CAPT 5
+**CAPT 5**
+
 - [Unreal Property System (Reflection)](https://www.unrealengine.com/en-US/blog/unreal-property-system-reflection?sessionInvalidated=true)
 
 - [The UCLASS() macro ](https://romeroblueprints.blogspot.com/2020/10/the-uclass-macro.html)
@@ -339,7 +336,7 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 
 - [Default IntelliSense and UE4](https://docs.wholetomato.com/default.asp?W805)
 
-### CAPT 6
+**CAPT 6**
 
 - [Unreal Engine Blueprints Array](https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Arrays/index.html)   
 
@@ -352,7 +349,8 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 - [TArray: Arrays in Unreal Engine](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/TArrays/)
 
 
-### CAPT 7
+**CAPT 7**
+
 - [Arms](https://docs.unrealengine.com/en-US/Gameplay/HowTo/UsingCameras/SpringArmComponents/index.html)  
 
 - [Spawned no cliente](https://docs.unrealengine.com/en-US/Gameplay/HowTo/SpawnAndDestroyActors/Blueprints/index.html)  
@@ -421,7 +419,7 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 
 - [Stat Commands](https://docs.unrealengine.com/en-US/TestingAndOptimization/PerformanceAndProfiling/StatCommands/index.html)
 
-### CAPT 8
+**CAPT 8**
 
 - [Struct Variables in Blueprints](https://docs.unrealengine.com/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Variables/Structs/index.html)
 
@@ -460,7 +458,7 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 - [Quick Start](https://docs.unrealengine.com/en-US/InteractiveExperiences/UMG/QuickStart/index.html)
 
 
-### CAPT 9
+**CAPT 9**
 
 - [Physically Based Materials](https://docs.unrealengine.com/en-US/RenderingAndGraphics/Materials/PhysicallyBased/index.html)
 
@@ -494,7 +492,7 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 
 - [Creating Material Functions](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/Materials/HowTo/Making_Functions/)
 
-### CAPT 10
+**CAPT 10**
 
 - [Importing Animations](https://docs.unrealengine.com/4.26/en-US/WorkingWithContent/Importing/FBX/Animations/)
 
@@ -558,7 +556,7 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 
 - [Introduction to Paper2D](https://www.youtube.com/playlist?list=PLZlv_N0_O1gauJh60307mE_67jqK42twB)
 
-### CAPT 11
+**CAPT 11**
 
 - [Playlist IA](https://www.youtube.com/playlist?list=PLMRuH4-akjpSxkYxilTbg78pP-ybQwcy9)
 
@@ -568,7 +566,7 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 
 - [Raywenderlich Tutorial](https://www.raywenderlich.com/238-unreal-engine-4-tutorial-artificial-intelligence)
 
-### CAPT 12
+**CAPT 12**
 
 - [Getting Started with Unreal Multiplayer in C++](https://www.unrealengine.com/en-US/tech-blog/getting-started-with-unreal-multiplayer-in-cpp?sessionInvalidated=true)   
 
@@ -582,7 +580,7 @@ https://docs.unrealengine.com/en-US/Engine/Blueprints/UserGuide/Macros/index.htm
 
 - [Networking Overview](https://docs.unrealengine.com/en-US/InteractiveExperiences/Networking/Overview/index.html)
 
-## Livros
+### Livros
 
 - SANDERS, Andrew. An Introduction to Unreal Engine 4. Boca Raton,FL. Taylor & Francis Group. 2017;
 
