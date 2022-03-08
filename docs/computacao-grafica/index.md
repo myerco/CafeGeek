@@ -12,14 +12,23 @@ Neste curso apresentaremos conceitos de computação gráfica aplicados na prát
 - Como são formados os objetos em gráficos 3D.
 - Processo de renderização no Unreal Engine.
 
-**[Capítulo I - A computação gráfica](#1 "Capítulo I - A computação gráfica")**
+***
+
+**[CAPÍTULO 1- A computação gráfica](#1 "CAPÍTULO 1 - A computação gráfica")**
+
+***
+
 1. [O que é computação gráfica?](#1.1)
 1. [Computação gráfica para jogos digitais](#1.2)
 1. [O curso Computação Gráfica com Unreal Engine e Autodesk Maya](#1.3)
 1. [Habilidades que serão aprendidas](#1.4)
 
 ***
-**[Capítulo II - Como são formados os objetos 3D](#2 "Capítulo II - Como são formados os objetos 3D")**
+
+**[CAPÍTULO 2 - Como são formados os objetos 3D](#2 "CAPÍTULO 2 - Como são formados os objetos 3D")**
+
+***
+
 1. [Quais são os elementos que compõem imagens?](#2.1)
     1. [Bitmap](#2.1.1)
     1. [Vector Graphics](#2.1.2)    
@@ -51,7 +60,10 @@ Neste curso apresentaremos conceitos de computação gráfica aplicados na prát
 1. [Transparência com Alpha](#2.12)
 
 ***
-**[Capítulo III - Entendendo o processo de rendenrização](#3 "Capítulo III - Entendendo o processo de rendenrização")**
+**[CAPÍTULO 3 - Entendendo o processo de rendenrização](#3 "CAPÍTULO 3 - Entendendo o processo de rendenrização")**
+
+***
+
 1. [Entendendo como os processos são executados pelo sistema operacional](#3.1)
 1. [O processo de renderização pela GPU](#3.2)
     1. [Aplicação](#3.2.1)
@@ -60,7 +72,8 @@ Neste curso apresentaremos conceitos de computação gráfica aplicados na prát
     1. [Conclusão](#3.2.4)      
 
 ***
-**[Capítulo IV - Processamento de imagens com Unreal Engine](#4 "Capítulo IV - Processamento de imagens com Unreal Engine")**
+**[CAPÍTULO 4 - Processamento de imagens com Unreal Engine](#4 "CAPÍTULO 4 - Processamento de imagens com Unreal Engine")**
+***
 1. [O processo de renderização no Unreal Engine](#4.1)
 1. [Processamento do Frame 0 - Time 0 - CPU](#4.2)
 1. [Processamento do Frame 1 - Time 33ms - Preparar a Thread](#4.3)
@@ -80,7 +93,7 @@ Neste curso apresentaremos conceitos de computação gráfica aplicados na prát
 ***
 
 <a name="1"></a>
-## Capítulo I - A computação gráfica
+## CAPÍTULO 1 - A computação gráfica
 
 <a name="1.1"></a>
 ## 1. O que é computação gráfica?
@@ -108,7 +121,7 @@ Construir jogos digitais para que possam ser executados em diversas plataformas,
 
 ***
 <a name="2"></a>
-## Capítulo II - Como são formados os objetos 3D
+## CAPÍTULO 2 - Como são formados os objetos 3D
 
 Neste capitulo será apresentados os elementos que constituem uma imagem 3D utilizando como exemplo softwares como o Unreal Engine e Maya Autodesk.
 
@@ -384,7 +397,7 @@ Quando um pixel é totalmente opaco, seu valor alfa é 1 . 0 e este pixel comple
 ***
 
 <a name="3"></a>
-## Capítulo III - Entendendo o processo de rendenrização
+## CAPÍTULO 3 - Entendendo o processo de rendenrização
 
 Neste capitulo serão apresentados quais são os passos para processamento de imagens no computador.
 
@@ -480,7 +493,7 @@ Um exemplo seria uma reta descrita matematicamente é infinitesimalmente contín
 ---
 
 <a name="4"></a>
-## Capítulo IV - Processamento de imagens com Unreal Engine
+## CAPÍTULO 4 - Processamento de imagens com Unreal Engine
 
 Neste capitulo vamos analisar como é realizado o processamento de imagens pela CPU e GPU pelo Unreal Engine.
 

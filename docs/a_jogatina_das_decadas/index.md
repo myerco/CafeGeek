@@ -122,6 +122,8 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 
 **[CAPÍTULO  6 - Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?](#6)**
 
+***
+
 &nbsp;&nbsp;[6.1  Introdução](#6.1)
 
 &nbsp;&nbsp;[6.2  Colocando Você na Caixa de Skinner](#6.2)

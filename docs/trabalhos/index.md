@@ -9,8 +9,12 @@ layout: page
 
 Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de Jogos Digitais.
 
+***
+
 <a name="indice"></a>
 **[CAPÍTULO  1 - Roteiros](#1 "CAPÍTULO  1 - Roteiros")**
+
+***
 
 &nbsp;&nbsp;[1.1 Darkness of D-day](#1.1)
 
@@ -28,6 +32,8 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 
 **[CAPÍTULO  2 - Jogos](#2 "CAPÍTULO  2 - Jogos")**
 
+***
+
 &nbsp;&nbsp;[2.1 Don't Stop Looking](#2.1)
 
 &nbsp;&nbsp;[2.2 Atlus um Reino em Guerra](#2.2)
@@ -40,12 +46,15 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 
 **[CAPÍTULO  3 - Portfólios](#3 "CAPÍTULO  3 - Portfólios")**
 
+***
+
 &nbsp;&nbsp;[3.1 Rafael Ferreira](#3.1) (R)
 
 ***
 
-
 **[CAPÍTULO  4 - Modelos](#4 "CAPÍTULO  4 - Modelos")**
+
+***
 
 &nbsp;&nbsp;[4.1 Death Vip](modelo_gdd_death_vip.html)
 
