@@ -1,4 +1,5 @@
-theme: jekyll-theme-midnight
+# theme: jekyll-theme-midnight
+remote_theme: pages-themes/midnight@v0.2.0
 title: null
 description: O CafeGeek é um site educacional com foco em desenvolvimento de jogos digitais e as disciplinas que orbitam este fantástico mundo
 author:
@@ -56,3 +57,4 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
