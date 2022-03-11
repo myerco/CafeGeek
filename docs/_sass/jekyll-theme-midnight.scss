@@ -325,7 +325,7 @@ $on-laptop:        800px !default;
 }
 
 .footer-heading {
-  @include relative-font-size(1.125);
+  //@include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
 }
 
@@ -341,7 +341,7 @@ $on-laptop:        800px !default;
 
 .footer-col-wrapper,
 .social-links {
-  @include relative-font-size(0.9375);
+  //@include relative-font-size(0.9375);
   //color: $brand-color;
 }
 
