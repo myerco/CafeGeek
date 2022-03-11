@@ -406,8 +406,8 @@ $on-large:         $on-laptop !default;
     a {
       display: block;
       padding: $spacing-unit / 4;
-      border: 1px solid $border-color-01;
-      &:hover { border-color: $border-color-02 }
+      //border: 1px solid $border-color-01;
+      //&:hover { border-color: $border-color-02 }
     }
   }
 }
