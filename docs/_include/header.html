@@ -6,22 +6,7 @@
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
   <!--  <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
 
-  <div id="header">
-    <nav>
-      <ul>
-        {%- for path in page_paths -%}
-          {%- assign my_page = site.pages | where: "path", path | first -%}
-          {%- if my_page.title -%}
-            <li class="fork">
-                <a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            </li>
-        {%- endif -%}
-      {%- endfor -%}
-      </ul>
-    </nav>
-  </div><!-- end header -->
-
-    {% include breadcrumbs.html %}
+  {% include breadcrumbs.html %}
 
   </div>
 </header>
