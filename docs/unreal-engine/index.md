@@ -961,6 +961,11 @@ Neste capítulo será apresentado o modelo da lógica de programação utilizand
 ## 4.2 O que são *Blueprints* e *Visual Scripting?*
 O sistema *Blueprints Visual Scripting* no *Unreal Engine* é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nó para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos na *engine* .
 
+
+![Figura: Exemplo do conceito de objetos na programação.](imagens/actor/uml_jogos.webp "Figura: Exemplo do conceito de objetos na programação.")
+
+> Figura: Exemplo do conceito de objetos na programação.
+
 **Blueprints**s focam em ser acessíveis, versáteis para qualquer membro do projeto e isso simplifica tarefas para programadores e engenheiros de projeto, o que facilita entender, interagir e construir.  
 
 Para que o **Unreal Engine** possa construir os nós gráficos que representam a instruções de programação **C++** é importante entender como é a hierarquia de elementos que compõem o projeto, segue abaixo a representação baseado no arquivo de referência no seguinte em [unreal_schematics](https://github.com/drstreit/unreal_schematics "https://github.com/drstreit/unreal_schematics").
