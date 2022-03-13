@@ -20,7 +20,7 @@ layout: page
 
 ****
 
-### ![Atividade](imagens/atividade_small.webp "Atividade")  1. Apresente um jogo do seu universo pessoal
+### 1. Apresente um jogo do seu universo pessoal
 
 **Regras**
 
