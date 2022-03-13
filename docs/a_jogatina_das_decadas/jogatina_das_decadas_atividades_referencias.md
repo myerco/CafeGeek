@@ -8,6 +8,7 @@ layout: page
 **[Atividades](#atividades)**
   * [1. Apresente um jogo do seu universo pessoal](#1-apresente-um-jogo-do-seu-universo-pessoal)
   * [2. O jogador](#2-o-jogador)
+  * [3. O protótipo do jogo - EQUIPE](#3-o-prot-tipo-do-jogo---equipe)
 
 **[Referências](#refer-ncias)**
   * [Livros](#livros)
@@ -50,7 +51,7 @@ layout: page
 
 ***
 
-## 3. O protótipo do jogo [EQUIPE]
+### 3. O protótipo do jogo - EQUIPE
 **Regras**
 
 1. Escolha um tema para um jogo;
