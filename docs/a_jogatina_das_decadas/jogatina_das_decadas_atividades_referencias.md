@@ -32,6 +32,8 @@ layout: page
 
 1. Apresente para os demais acadêmicos
 
+***
+
 ### 2. O jogador
 **Regras**
 
@@ -45,6 +47,27 @@ layout: page
 **Desafio**
 
 1. Apresentem para os demais acadêmicos;
+
+***
+
+## 3. O protótipo do jogo [EQUIPE]
+**Regras**
+
+1. Escolha um tema para um jogo;
+
+2. Defina os fatores motivacionais do seu jogo;
+
+3. Defina os fatores não motivacionais do seu jogo;
+
+4. Classifique seu jogo (jogo digital).
+
+**Desafio**
+1. Definam o papel de cada elemento do grupo (Artista, desenvolvedor e Gerente do projeto);
+
+2. Os acadêmicos devem ter pelo menos 2 (dois)  papeis;
+
+3. Apresentem para os demais acadêmicos;
+
 
 ***
 

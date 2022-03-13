@@ -110,6 +110,20 @@ layout: page
 2. Explique o que é um objeto do tipo peão (pawn) e seus eventos básicos;
 3. No evento Tick do peão escreva mensagem  : Tik Rock é melhor que...
 
+### 4.3 A cena da Década [EQUIPE]
+
+**Regras**
+
+1. Implemente um protótipo de cena do seu jogo definido na disciplina de Jogatina das Décadas
+
+2. Sinalize na cena os objetos que foram criados por cada um dos integrantes da equipe;
+
+3. Organizem as pastas trabalho para compartilhar melhor os objetos.
+
+**Desafio**
+
+1. Cada elemento da equipe deve apresentar o seu objeto.
+
 
 ### 6.1 Crie um projeto que implemente vários tipos de variáveis
 **Regras.**
