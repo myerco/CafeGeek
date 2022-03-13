@@ -8,7 +8,7 @@ layout: page
 **[Atividades](#atividades)**
   * [1. Apresente um jogo do seu universo pessoal](#1-apresente-um-jogo-do-seu-universo-pessoal)
   * [2. O jogador](#2-o-jogador)
-  * [3. O protótipo do jogo - EQUIPE](#3-o-prot-tipo-do-jogo---equipe)
+  * [3. O protótipo do jogo - EQUIPE](#3-o-protótipo-do-jogo---equipe)
 
 **[Referências](#refer-ncias)**
   * [Livros](#livros)
@@ -17,7 +17,11 @@ layout: page
 
 ## Atividades
 
-### 1. Apresente um jogo do seu universo pessoal
+
+****
+
+### ![Atividade](imagens/atividade_small.webp "Atividade")  1. Apresente um jogo do seu universo pessoal
+
 **Regras**
 
 1. Observe o seu ambiente  social REAL e apresente um jogo que o represente;

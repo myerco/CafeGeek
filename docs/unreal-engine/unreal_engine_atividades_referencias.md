@@ -13,7 +13,7 @@ layout: page
 - [3.1 Crie um projeto no Unreal Engine e o configure para utilizar o Git](#31-crie-um-projeto-no-unreal-engine-e-o-configure-para-utilizar-o-git)
 - [4.1 Crie um level para apresentar uma mensagem na tela.](#41-crie-um-level-para-apresentar-uma-mensagem-na-tela)
 - [4.2 Level Blueprint.](#42-level-blueprint)
-- [4.3 A cena da Década - EQUIPE](#43-a-cena-da-d-cada---equipe)
+- [4.3 A cena da Década - EQUIPE](#43-a-cena-da-década---equipe)
 - [6.1 Crie um projeto que implemente vários tipos de variáveis](#61-crie-um-projeto-que-implemente-vários-tipos-de-variáveis)
 - [6.2 Implemente um projeto que crie vários atores na cena e os posicione em áreas diferentes da cena](#62-implemente-um-projeto-que-crie-vários-atores-na-cena-e-os-posicione-em-áreas-diferentes-da-cena)
 - [6.3 O controle](#63-o-controle)
