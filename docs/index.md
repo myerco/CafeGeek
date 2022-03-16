@@ -21,6 +21,10 @@ layout: home
 
 - [Me conta uma história](me_conte_uma_historia/index.html)   
 
+- [Talentos](trabalhos/jogos_digitais_talentos.drawio.html)
+
+- [Atividades](trabalhos/jogos_digitais_atividades.drawio.html)
+
 <!--- [Porque eu amo Game Design](porque_eu_amo_game_design/index.html)   -->
 
 - [Trabalhos](trabalhos/index.html)
