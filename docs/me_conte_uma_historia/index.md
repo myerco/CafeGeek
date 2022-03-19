@@ -102,6 +102,9 @@ Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e
 &nbsp;&nbsp;[5.7 BOSS](#5.7)
 
 ***
+[Atividades e Referências](me_conta_uma_historia_atividades_referencias.html)
+
+***
 <a name="1"></a>
 ## CAPÍTULO 1 -  Por dentro da cabeça do Game Design
 
