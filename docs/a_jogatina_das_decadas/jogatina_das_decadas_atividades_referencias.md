@@ -9,6 +9,7 @@ layout: page
   * [1. Apresente um jogo do seu universo pessoal](#1-apresente-um-jogo-do-seu-universo-pessoal)
   * [2. O jogador](#2-o-jogador)
   * [3. O protótipo do jogo - EQUIPE](#3-o-protótipo-do-jogo---equipe)
+  * [4. O documento](#4-o-documento)  
 
 **[Referências](#refer-ncias)**
   * [Livros](#livros)
@@ -22,7 +23,7 @@ layout: page
 
 ### 1. Apresente um jogo do seu universo pessoal
 
-**Regras**
+**Regras.**
 
 1. Observe o seu ambiente  social REAL e apresente um jogo que o represente;
 
@@ -33,14 +34,14 @@ layout: page
 4. Quem joga e por que joga?
 
 
-**Desafio**
+**Desafio.**
 
 1. Apresente para os demais acadêmicos
 
 ***
 
 ### 2. O jogador
-**Regras**
+**Regras.**
 
 1. Qual tipo de jogador jogaria o seu jogo?
 
@@ -49,14 +50,14 @@ layout: page
 3. Quais são os fatores que fazem o jogador jogar o seu game?
 
 
-**Desafio**
+**Desafio.**
 
 1. Apresentem para os demais acadêmicos;
 
 ***
 
 ### 3. O protótipo do jogo - EQUIPE
-**Regras**
+**Regras.**
 
 1. Escolha um tema para um jogo;
 
@@ -66,12 +67,28 @@ layout: page
 
 4. Classifique seu jogo (jogo digital).
 
-**Desafio**
+**Desafio.**
 1. Definam o papel de cada elemento do grupo (Artista, desenvolvedor e Gerente do projeto);
 
 2. Os acadêmicos devem ter pelo menos 2 (dois)  papeis;
 
 3. Apresentem para os demais acadêmicos;
+
+### 4. O documento
+O documento em anexo é um conceito geral do protótipo do jogo (GDD).
+
+**Regras.**
+
+1. Utilizando o tema do jogo da atividade anterior crie o um GDD geral utilizando o modelo em anexo (Death Vip);
+2. Complete somente os capítulos de 1 até 7;
+3. Acrescente artes que representem o seu projeto.
+
+
+**Desafio.**
+
+1. Crie um site do seu projeto com todos os elementos do projeto:
+  1. Utilize o google Site, Github ou outro.
+  2. Implemente uma apresentação visual do seu site
 
 
 ***
