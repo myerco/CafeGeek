@@ -107,7 +107,7 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 - Favelas da América latina;
 - Vilarejos;
 
-## 11. Interface (HUB)
+## 11. Interface (HUD)
 - Medidor de Saúde do personagem
 - Lista de membros da equipe com medidor de saúde
 - Tipo da arma com informação de munição (Atual/Total)

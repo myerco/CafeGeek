@@ -15,8 +15,9 @@ layout: page
 - [4.2 Level Blueprint.](#42-level-blueprint)
 - [4.3 A cena da Década - EQUIPE](#43-a-cena-da-década---equipe)
 - [6.1 Crie um projeto que implemente vários tipos de variáveis](#61-crie-um-projeto-que-implemente-vários-tipos-de-variáveis)
-- [6.2 Implemente um projeto que crie vários atores na cena e os posicione em áreas diferentes da cena](#62-implemente-um-projeto-que-crie-vários-atores-na-cena-e-os-posicione-em-áreas-diferentes-da-cena)
-- [6.3 O controle](#63-o-controle)
+- [6.2 Implemente um ator chamado Hero do tipo Character com as variáveis Life e Quest](#62-implemente-um-ator-chamado-hero-do-tipo-character-com-as-variáveis-life-e-quest)
+- [6.3 Implemente um projeto que crie vários atores na cena e os posicione em áreas diferentes da cena](#63-implemente-um-projeto-que-crie-v-rios-atores-na-cena-e-os-posicione-em--reas-diferentes-da-cena)
+- [6.4 O controle](#64-o-controle)
 - [7.1 Apresentando mensagens para interagir com o personagem](#71-apresentando-mensagens-para-interagir-com-o-personagem)
 - [7.2 Implementando o menu do jogo usando Game Instance](#72-implementando-o-menu-do-jogo-usando-game-instance)
 - [9.1 O meu primeiro material no Unreal Engine](#91-o-meu-primeiro-material-no-unreal-engine)
@@ -144,7 +145,35 @@ z = 2;
 O maior valor é Y = 5;
 ```
 
-### 6.2 Implemente um projeto que crie vários atores na cena e os posicione em áreas diferentes da cena
+### 6.2 Implemente um ator chamado Hero do tipo Character com as variáveis Life e Quest
+
+O personagem Hero deve caminhar pelo ambiente coletando itens e escapando das áreas ou itens que causam dado.
+
+**Regras**
+
+1. Implemente atores Base, "Damage",  para causar dano variável dependendo a posição em cena
+  2.1 Ao tocar no ator causa dano;
+
+  2.2 A vida do ator não pode ficar negativa;
+
+  2.3 Quando a vida atingir o valor zero informe que o ator morreu;
+
+2. Implemente atores Base "Colect" para servir de item coleta
+  3.1 Ao tocar no ator o item é coletado;
+
+  3.2 O valor máximo de itens coletáveis é 10;
+
+  3.3 Quanto coletar mais de 3 itens é possível terminar o jogo;
+
+**Desafio**
+
+  1. Quanto o ator morre o personagem é destruído em um explosão;
+
+  2. Quanto coletar mais de 3 itens uma porta abre para o próximo nível ou o jogo termina (Quit);
+
+  3. Os atores Damage e Colect na cena tem cores ou figuras diferentes;
+
+### 6.3 Implemente um projeto que crie vários atores na cena e os posicione em áreas diferentes da cena
 **Regras.**
 
 1. Adicione diferentes tipos de atores.
@@ -153,7 +182,7 @@ O maior valor é Y = 5;
 
 1. Adicione um *array* para controlar melhor os objetos.
 
-### 6.3 O controle
+### 6.4 O controle
 **Regras.**
 
 1. Implemente lógica que permita alternar o controle do gamemode de terceira pessoa para primeira pessoa.
