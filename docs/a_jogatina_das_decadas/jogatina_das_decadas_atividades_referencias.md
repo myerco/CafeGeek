@@ -10,6 +10,8 @@ layout: page
   * [2. O jogador](#2-o-jogador)
   * [3. O protótipo do jogo - EQUIPE](#3-o-protótipo-do-jogo---equipe)
   * [4. O documento](#4-o-documento)  
+  * [5. A REVIEW](#5-a-review)
+  * [6. O Documento parte 2](#6-o-documento-parte-2)
 
 **[Referências](#refer-ncias)**
   * [Livros](#livros)
@@ -90,6 +92,40 @@ O documento em anexo é um conceito geral do protótipo do jogo (GDD).
   1. Utilize o google Site, Github ou outro.
   2. Implemente uma apresentação visual do seu site
 
+### 5. A REVIEW
+**Regras.**
+
+Escolha um jogo do mercado da sua escolha e o analise utilizando a seguinte estrutura:
+
+1. Resumo geral
+
+2. Tipo do jogo
+
+3. História e analise comentada sobre a representação social do jogo
+
+
+**Desafio.**
+
+1. Prepare uma vídeo de gameplay e da REVIEW e o publique no Youtube
+
+2. Cada elemento da equipe deve apresentar a REVIEW
+
+### 6. O Documento parte 2
+**Regras.**
+
+Complete os itens do documento:
+
+1. Personagens
+
+2. O mundo do jogo
+
+3. Interface
+
+4. Câmera
+
+**Desafio.**
+
+1. Adicione imagens ilustrativas de todos os elementos
 
 ***
 
