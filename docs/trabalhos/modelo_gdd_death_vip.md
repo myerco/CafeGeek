@@ -18,16 +18,24 @@ PC
 ## 4.Classificação
 SEM RESTRIÇÃO
 
-## 5. Características gerais
+## 5. Gênero
+- FPS (First-person shooter) Cooperativo - Os jogadores devem cumprir os objetivos e levar o VIP (Classe de Jogador) até a área de resgate.
+
+## 6. Publico Alvo
+- Jogadores de tiro e trabalho cooperativo.
+- Jogadores que visam maiores desafios pois para vencer tentem levar o VIP para a área de resgate.
+- O VIP é membro da equipe sem armas mas com habilidades especiais permitindo outro tipo de perfil de jogador com habilidades de fuga e rapidez na tomada de decisões.
+
+## 7. Características gerais
 - Mapas grandes (KM)
 - 3D gráficos
 - 32-Bit color
 - 3ª Pessoa
 
-## 6.Características multiplayer
+## 8. Características multiplayer
 Salas de até 16 jogadores
 
-## 7.Resumo da história
+## 9. Resumo da história
 Quando o comandante das milícias descobriu a tentativa de resgate de um alvo considerado por ele de extrema importância, mandou todos os seus soldados fazer de tudo para MATAR O VIP para servir de exemplo.
 
 Equipe de resgate (EAS - Esquadrão Aeroterrestre de Salvamento)  de 3 jogadores tenta resgatar um VIP (Very Important Person) em uma região dominada por milícias fortemente armadas em um país da América do Sul. A equipe conta com arsenal leve de combate e resgate, como por exemplo metralhadoras M4, espingardas e pistolas.
@@ -39,24 +47,24 @@ A equipe EAS com auxílio do VIP pode localizar outras equipes de resgate e seus
 
 Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem como itens que alteram o modo de jogo, como por exemplo  o “TREINO VIP” que transforma o VIP em um membro da equipe EAS por alguns minutos.
 
-## 8.Diferenciais de vendas
+## 10. Diferenciais de vendas
 - Explore o mapa para encontrar itens que auxiliam na sobrevivência e resgate do VIP;
 - Esteja preparado para a missão mudar durante o jogo, alterando totalmente a sua tática de resgate;
 - Tente sobreviver ouvindo ROCK INDIE das melhores bandas de garagem;
 - Encontre outras equipes e seus VIP´s para tentar sobreviver em um grande modo cooperativo de 16 jogadores, modo *Kill House*;
 - Múltiplos modo de gameplay, incluindo cooperativo de 4 jogadores, cooperativo de 16 jogadores e multiplayer onde as equipes tentam eliminar o VIP do adversário;
 
-## 9.Produtos concorrentes
+## 11. Produtos concorrentes
 - Left for dead
 - COD Zumbi
 
-## 10.Objetivos
+## 12. Objetivos
 - Não deixar o VIP morrer, caso morra o jogo acaba;
 - Alcançar o ponto de resgate com toda a sua equipe;
 - Explorar o mapa para coletar itens auxiliares;
 - Cumprir os 3 objetivos durante o resgate;
 
-## 11.Personagens
+## 13. Personagens
 
 |Class        |Aggressive         | Defensive         |Support          |VIP            |
 |:-           |:-:                |:-:                |:-:              |:-:            |
@@ -78,7 +86,7 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 > - Abrir portas codificadas;
 > - Chamar o resgate quando chegar no local marcado;
 
-###  11.2. Movimentação Controle
+###  13.1 Movimentação Controle
 
 |Controle                       | Teclado |Mouse                        |Ação                       |
 |:-:                            |:-:      |:-:                          |:-                         |
@@ -102,25 +110,25 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 |L2 + X                         | G+Mouse | Click Right                 |grenade                    |
 |L1                             |         |Movimentação +Click Left     |Aim                        |
 
-## 10. O Mundo do jogo
+## 14. O Mundo do jogo
 - Florestas tropicais;
 - Favelas da América latina;
 - Vilarejos;
 
-## 11. Interface (HUD)
+## 15. Interface (HUD)
 - Medidor de Saúde do personagem
 - Lista de membros da equipe com medidor de saúde
 - Tipo da arma com informação de munição (Atual/Total)
 - Quantidade de Granadas;
 - Mini Mapa com localização de objetivos e itens (somente o VIP)
 
-## 12. Câmera
+## 16. Câmera
 Movimentação em 180º ;
 Na altura do ombro do jogador e distante o suficiente para visualizar os pés do jogador;
 Ao mirar com arma leve a câmera dá zoom do alvo (2x) visualizando o ombro do jogador
 Ao mirar com rifle de precisão o zoom é de 4x e somente é apresentado a lente da arma;
 
-## 13. Inimigos
+## 17. Inimigos
 
 |Class        |Aggressive         | Shooter           |Boss             |Boss           |Boss         |Boss       |Boss         |Boss       |
 |:-           |:-:                |:-:                |:-:              |:-:            |:-:          |:-:        |:-:          |:-:        |
@@ -137,7 +145,7 @@ Ao mirar com rifle de precisão o zoom é de 4x e somente é apresentado a lente
 |             |Ataca jogador      |Ataca VIP e prox.  |Foco 2s          |Ataca jogador  |Ataca VIP    | Foco 2s   |Foco 2s      |Foco 2s    |
 
 
-## 14. Armas
+## 18. Armas
 
 |Weapon       |Bullet for loader  | Max Loader    |
 |:-           |:-:                |:-:            |
@@ -149,19 +157,19 @@ Ao mirar com rifle de precisão o zoom é de 4x e somente é apresentado a lente
 |Barret .40   |7                  |2              |
 
 
-## 15. Músicas e efeitos de som
+## 19. Músicas e efeitos de som
 - Rock indie (procurar lista sem direitos autorais)
 - Link das músicas
 
-## 16. Multiplayer
-- 4 Jogadores
-- Cooperativo
-- Competitivo
-- Chat aberto
-- Estimativa de jogadores online ( > 100 )
+## 20. Multiplayer
+- 4 Jogadores;
+- Cooperativo;
+- Competitivo;
+- Chat aberto;
+- Estimativa de jogadores online ( > 100 ).
 
-## 17. GamePlay
-### 17.1.    Objetivos
+## 21. GamePlay
+### 21.1    Objetivos
 
 |Objetivo               | Ação            |
 |:-                     |:-               |
@@ -171,7 +179,7 @@ Ao mirar com rifle de precisão o zoom é de 4x e somente é apresentado a lente
 |O ponto de resgate - Campo aberto com poucas áreas de cobertura  |Sinalizar o local de resgate (2s) - Aguardar o resgate (60s)  |
 |A prisão | O jogador preso fica sem armas- Quando a porta da prisão abrir o jogador recebe as armas e pode sair - A prisão é protegida por 2 snipers, 4 infernos, 4 bomba e 3 mercenários |
 
-### 17.2. Mapas
+### 22.2 Mapas
 - A Selva
     - Selva tropical
     - Áreas para se abrigar
@@ -185,10 +193,10 @@ Ao mirar com rifle de precisão o zoom é de 4x e somente é apresentado a lente
     - Combate urbano
     - MAPA GRANDE
 
-### 17.3. Experiência e Level
+### 22.3 Experiência e Level
 Não definido.
 
-### 17.4. Características especiais do Capitão
+### 22.4 Características especiais do Capitão
 - O capitão aparece quando os jogadores passam por algumas áreas ou quando um objetivo é alcançado. Ele sempre aparece com 100% de vida;
 - Se o capitão ficar perto de um jogador (5 metros) o jogador é sequestrado e enviado para “A prisão”. Essa ação é repetida até o capitão prender todos os membros do time e/ou matar o VIP ;
 - O capitão desaparece quando o nível de vida chega em 20%, joga fumaça e some.;
@@ -196,14 +204,14 @@ Não definido.
 - Quanto aparece ele grita provocações e xingamentos;
 - Quando captura um membro da equipe ri de forma sinistra;
 
-### 17.5. Modelos
+### 22.5 Modelos
 - EAS - Equipe principal com uniformes do exército brasileiro
 - SEAL - Uniformes de SEAL USA
 - Milicianos - Sem uniformes, roupas da região;
 - VIP - Roupa casual, jeans e camiseta;
 
 
-## 18. Estrutura do modelo
+## 23. Estrutura do modelo
 
 - `Content` \ `ProjetoAula`
 - `Content` \ `ProjetoAula` \ `Art`         
@@ -387,7 +395,7 @@ class UMenuMainInterface : public UInterface {};
     class UProjectGameInstance : public UGameInstance, IMenuMainInterface  {};
 ```
 
-## 19. Equipe
+## 24. Equipe
 
 |Requisito                      | Responsável                               | Perfil      |
 |:--                            |:--                                        |:--          |
@@ -398,3 +406,18 @@ class UMenuMainInterface : public UInterface {};
 |Core                           | <span style="color:red">Equipe 1 </span>  | Programação |
 |Gerenciamento e comunicação    | <span style="color:blue">Equipe 4</span>  | Gerente     |
 |Infraestrutura                 | <span style="color:blue">Equipe 4</span>  | Programação |
+
+
+## 25. Tarefas
+
+| Tarefas                 |Responsável    | Início      | Fim       | % |
+|:-                       |:-             |:-:          |:-:        |:-:|
+|**Planjamento**          |               |             |           |   |
+|- Preparação do projeto  |Nostromo       |01/01/2021   |01/02/2021 | 0%|
+|**Desenvolvimento**      |               |             |           |   |
+|- Storyline              |Nostromo       |             |           |   |
+|- Protótipo              |Ripley         |             |           |   |
+|- Arte conceitual        |Dallas         |             |           |   |
+|- Mecânica 1             |Dallas         |             |           |   |
+|**Testes**               |               |             |           |   |
+|- Teste de Cena 1        |Xenomorfo      |             |           |   |

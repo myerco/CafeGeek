@@ -1954,11 +1954,25 @@ UE_LOG(LogTemp, Warning, TEXT("O resultado é %d"), resultado);
 
 O resultado será 0 pois a condição de controle de fluxo **if** provocou um desvio do fluxo de instruções.
 
+**Exemplo de fluxo condicional.**
+
+|           |t1 |t2 |t3 |t4 |t5 |t6 |t7 |t8 |t9 |
+|:-         |:- |:- |:- |:- |:- |:- |:- |:- |:- |
+|Principal  |<span style="color:blue">--></span> |<span style="color:blue">--></span> |<span style="color:blue">--></span> |<span style="color:blue">-D-</span>|   |   |<span style="color:blue">-O-</span>|<span style="color:blue">--></span> |<span style="color:blue">--></span> |
+|Desvio     |   |   |   |<span style="color:red">--></span> |<span style="color:red">--></span> |<span style="color:red">--></span> |<span style="color:red">--></span> |   |   |
+
+**Exemplo de fluxo de repetição.**
+
+|           |t1 |t2 |t3 |t4 |t5 |t6 |t7 |t8 |t9 |
+|:-         |:- |:- |:- |:- |:- |:- |:- |:- |:- |
+|Principal  |<span style="color:blue">--></span> |<span style="color:blue">--></span> |<span style="color:blue">--></span> |<span style="color:blue">-D-</span>|<span style="color:red"><--</span>|<span style="color:red"><--</span> |<span style="color:blue">-O-</span>|<span style="color:blue">--></span> |<span style="color:blue">--></span> |
+|Desvio     |   |   |   |<span style="color:blue">--></span> |<span style="color:red">--></span> |<span style="color:red">--></span> |<span style="color:red">--></span> |   |   |
+
 **[⬆ Volta para o CAPÍTULO 6](#capitulo6)**
 
 <a name="6.9"></a>
 ## 6.9 Estruturas de fluxo condicional
-A seguir vamos entender como é fluxo condicional é descrito com programação visual usando Blueprint.
+A seguir vamos entender como é fluxo condicional é descrito com programação visual usando **Blueprint**.
 
 ### Controle de fluxo com Branch (if)
 `Branch` é uma estrutura condicional que testa uma variável utilizando uma expressão lógica e redireciona o fluxo da lógica.
