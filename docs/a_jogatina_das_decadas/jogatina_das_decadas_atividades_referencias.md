@@ -12,11 +12,14 @@ layout: page
   * [4. O documento](#4-o-documento)  
   * [5. A REVIEW](#5-a-review)
   * [6. O Documento parte 2](#6-o-documento-parte-2)
+  * [7. A Avaliação](#7-a-avaliação)
 
-**[Referências](#refer-ncias)**
+**[Referências](#referências)**
   * [Livros](#livros)
   * [Internet](#internet)
 
+
+***
 
 ## Atividades
 
@@ -76,21 +79,27 @@ layout: page
 
 3. Apresentem para os demais acadêmicos;
 
+***
+
 ### 4. O documento
 O documento em anexo é um conceito geral do protótipo do jogo (GDD).
 
 **Regras.**
 
 1. Utilizando o tema do jogo da atividade anterior crie o um GDD geral utilizando o modelo em anexo (Death Vip);
+
 2. Complete somente os capítulos de 1 até 7;
+
 3. Acrescente artes que representem o seu projeto.
 
 
 **Desafio.**
 
 1. Crie um site do seu projeto com todos os elementos do projeto:
-  1. Utilize o google Site, Github ou outro.
-  2. Implemente uma apresentação visual do seu site
+  1. Utilize o google Site, Github ou outro;
+  2. Implemente uma apresentação visual do seu site.
+
+***
 
 ### 5. A REVIEW
 **Regras.**
@@ -110,6 +119,8 @@ Escolha um jogo do mercado da sua escolha e o analise utilizando a seguinte estr
 
 2. Cada elemento da equipe deve apresentar a REVIEW
 
+***
+
 ### 6. O Documento parte 2
 **Regras.**
 
@@ -126,6 +137,34 @@ Complete os itens do documento:
 **Desafio.**
 
 1. Adicione imagens ilustrativas de todos os elementos
+
+***
+
+### 7. A Avaliação
+
+**Estrutura.**
+
+1. Utilizando o modelo em anexo especifique o seu jogo.
+1.1 Preencha os tópicos 2 até 20.
+
+**Mobile.**
+
+2. Apresente um protótipo  (Somente as telas) versão mobile do seu jogo;
+
+**Apresentação.**
+
+3. Implemente um site com TODOS os tópicos do trabalho;
+4. Produza um vídeo explicando o trabalho com tempo de duração de no máximo 5 minutos.
+
+**Regras**
+
+4. Trabalho em equipe;
+
+5. Cada elemento da equipe deve apresentar pelo menos 5 tópicos. O vídeo deve seguir a mesma regra;
+
+6. Valor da avaliação 60% da nota. No Classroom será registrado 100 pontos no máximo e o sistema irá calcular automaticamente a porcentagem final considerando as atividades e presenças;
+
+7. Cada membro da equipe é responsável por 25 pontos (100 pontos Classroom) da nota final do trabalho, por exemplo: (aluno A +  aluno B +  aluno C + aluno D) = nota final.
 
 ***
 
