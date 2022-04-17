@@ -2032,8 +2032,8 @@ Em geral, os `switches` têm uma entrada de execução e uma entrada de dados pa
 
 **Referências:**
 
-- Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions.  https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/
-- Couch Learn. (2019,Dezenbro 27). Switch Statements in Unreal Engine 4. https://couchlearn.com/switch-statements-in-unreal-engine-4/
+- Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions.  [https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/ "Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions")
+- Couch Learn. (2019,Dezenbro 27). Switch Statements in Unreal Engine 4. [https://couchlearn.com/switch-statements-in-unreal-engine-4/](https://couchlearn.com/switch-statements-in-unreal-engine-4/ "https://couchlearn.com/switch-statements-in-unreal-engine-4/")
 
 
 ### Sequenciamento de fluxo com Sequence
