@@ -354,6 +354,8 @@ O personagem Hero deve caminhar pelo ambiente coletando itens e escapando das á
 
 - [Transforming Actors](https://docs.unrealengine.com/en-US/Basics/Actors/Transform/index.html "Transforming Actors")
 
+- [Flow Control](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/ "Flow Control")
+
 **CAPT 5**
 
 - [Unreal Property System (Reflection)](https://www.unrealengine.com/en-US/blog/unreal-property-system-reflection?sessionInvalidated=true)

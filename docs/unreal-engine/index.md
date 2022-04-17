@@ -1996,6 +1996,45 @@ else
 }
 ```
 
+### Switch Nodes
+O nó `Switch` lê uma entrada de dados e, com base no valor dessa entrada, envia o fluxo de execução para fora da saída de execução correspondente (ou padrão opcional). Existem vários tipos de opções disponíveis: `Int`, `String`, `Name` e `Enum`.
+
+**Blueprint.**
+
+![Figura: Blueprint e Switch ou Case.](imagens/estruturascontrole/blueprint_exemple_switch.webp "Figura: Blueprint e Switch ou Case.")
+
+> Figura: Blueprint e Switch ou Case
+
+**C++.**
+
+```cpp
+
+switch (VariavelInt)
+{
+  case 0:
+  {
+    UE_LOG(LogTemp, Warning, TEXT("O valor é zero."));
+    break;
+  }  
+  case 1:
+  {
+    UE_LOG(LogTemp, Warning, TEXT("O valor é um."));
+  }    
+  default:
+  {
+    UE_LOG(LogTemp, Warning, TEXT("O valor padrão."));
+  }      
+}
+
+```
+
+Em geral, os `switches` têm uma entrada de execução e uma entrada de dados para o tipo de dados que avaliam. As saídas são todas as saídas de execução. Os switches `Enum` geram automaticamente os pinos de execução de saída das propriedades do `Enum`, enquanto os `switches` `Int`, `String` e `Name` possuem pinos de execução de saída personalizáveis.
+
+**Referências:**
+
+Flow Control - Nodes that allow for controlling the flow of execution based on conditions.    
+Publicado em : 
+
 ### Sequenciamento de fluxo com Sequence
 O nó `Sequence` permite que um único pulso de execução acione uma série de eventos em ordem. O nó pode ter qualquer número de saídas, todas chamadas assim que o nó Sequência receber uma entrada. Eles sempre serão chamados em ordem, mas sem qualquer demora. Para um usuário típico, as saídas provavelmente parecerão ter sido disparadas simultaneamente.
 
