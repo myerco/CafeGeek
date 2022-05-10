@@ -93,15 +93,15 @@ Os métodos são procedimentos ou funções que realizam as ações próprias do
 
 ```cpp
 class Actor {
-  void BeginPlay()
-  void Tick()
-  void BeginOverlap()
-  void Identificar delegate
-}
+  void BeginPlay();
+  void Tick();
+  void BeginOverlap();
+  void Identificar delegate;
+};
 
 class ExemploEventos : public Actor {
-
-}
+   self.BeginPlay();
+};
 ```
 
 ```cpp
@@ -142,8 +142,8 @@ void CalculoIMC(float pPeso, float pAltura) {
   // Variável local
   float resultado;
   resultado =  (pAltura * pAltura) / pPeso;
-  return = resultado
-}  
+  return = resultado;
+};
 ```
 **Blueprint.**   
 
