@@ -163,8 +163,8 @@ void CalculoIMC(float pPeso, float pAltura) {
   // Variável local
   float resultado;
   resultado =  (pAltura * pAltura) / pPeso;
-  return = resultado
-}  
+  return = resultado;
+};
 ```
 **Blueprint.**   
 
