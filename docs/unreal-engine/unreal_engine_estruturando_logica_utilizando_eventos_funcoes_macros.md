@@ -114,10 +114,10 @@ Os métodos são procedimentos ou funções que realizam as ações próprias do
 
 ```cpp
 class Actor {
-  void BeginPlay()
-  void Tick()
-  void BeginOverlap()
-  void Identificar() delegate
+  void BeginPlay();
+  void Tick();
+  void BeginOverlap();
+  void Identificar() delegate;
 };
 
 class ExemploEventos : public Actor {
@@ -129,18 +129,18 @@ class ExemploEventos : public Actor {
 
 void AProjeto::BeginPlay() {
   Super::BeginPlay();
-}
+};
 
 void AProjeto::DestruaMundoNerd(World* mundo ) {
    destroy();
-}
+};
 
 // Called every frame
 void AProjeto::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-}
+};
 ```
 <a name="7.2.3"></a>
 ## 7.2.3 Funções (functions)
