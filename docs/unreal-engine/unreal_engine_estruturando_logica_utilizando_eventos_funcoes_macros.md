@@ -157,8 +157,6 @@ Blueprint Macros, ou Macros, são essencialmente iguais a gráficos de nós reco
 
 - São basicamente um modelo *Template* de código ou nós;
 
-- Não suportam o nó `Delay`;
-
 - Não aceitam eventos customizados;
 
 - Não podem ser replicados em jogos multiplayer.
