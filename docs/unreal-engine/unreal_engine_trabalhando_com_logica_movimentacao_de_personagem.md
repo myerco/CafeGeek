@@ -1,32 +1,28 @@
 ---
-title: Implementando a movimentação do personagem
+title: 7.3 Implementando a movimentação do personagem
 description: Trabalhando com a lógica de movimentação do personagem utilizando Blueprint
 tags: [Unreal Engine,eventos,events,funções,functions,macro]
 layout: page
 ---
 
-<a name="7"></a>
-## CAPÍTULO 7 - Atores e movimentação
-
 Neste capítulo vamos implementar apresentar a lógica de movimentação de atores com **Blueprint** e aplicar em um jogo de plataforma.
 
-&nbsp;&nbsp;[**7.3 Implementando a movimentação do personagem**](#7.3)
+&nbsp;&nbsp;[7.3.1 Implementando a movimentação do personagem](#7.3.1)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.3.1 Movimentação de peão Pawn](#7.3.1)
+&nbsp;&nbsp;[7.3.2 Movimentação de peão Pawn](#7.3.2)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.3.2 Utilizando Enumeration para registro de poses/estados do personagem](#7.3.2)
+&nbsp;&nbsp;[7.3.3 Utilizando Enumeration para registro de poses/estados do personagem](#7.3.3)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.3.3 Exemplo de movimentação da Plataforma](#7.3.3)
+&nbsp;&nbsp;[7.3.4 Exemplo de movimentação da Plataforma](#7.3.4)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.3.4 Usando o evento Tick - Blueprint](#7.3.4)
+&nbsp;&nbsp;[7.3.5 Usando o evento Tick - Blueprint](#7.3.5)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[7.3.5 Usando o evento Tick - C++](#7.3.5)
-
+&nbsp;&nbsp;[7.3.6 Usando o evento Tick - C++](#7.3.6)
 
 ***
 
-<a name="7.3"></a>
-## 7.3. Implementando a movimentação do personagem
+<a name="7.3.1"></a>
+## 7.3.1 Implementando a movimentação do personagem
 **Unreal Engine** utiliza Input Actions e Mappings para vincular ações e mapeamento de chaves e eixos de entrada.
 
 - Facilita o mapeamento de várias chaves para o mesmo comportamento;
@@ -76,8 +72,8 @@ No exemplo abaixo associamos a ação Pulo com o tecla **Space Bar** e **GamePad
 
 > Figura: Menu > Project > Input.
 
-<a name="7.3.1"></a>
-## 7.3.1 Movimentação de peão Pawn
+<a name="7.3.2"></a>
+## 7.3.2 Movimentação de peão Pawn
 Para exemplificar a implementação utilizaremos uma classe do tipo **Pawn**
 
 **Componentes.**
@@ -153,8 +149,8 @@ Quando verdadeiro `Use Pawn control Rotation` e somente o braço com a câmera s
 
 > Figura: Blueprint - Use Paw Controller Rotation.
 
-<a name="7.3.2"></a>
-### 7.3.2 Utilizando Enumeration para registro de poses/estados do personagem.    
+<a name="7.3.3"></a>
+### 7.3.3 Utilizando Enumeration para registro de poses/estados do personagem.    
 Podemos utilizar uma variável Enumeration para registrar o estado do objeto.
 
 **Variável Enumeration.**
@@ -170,8 +166,8 @@ Podemos utilizar uma variável Enumeration para registrar o estado do objeto.
 
 > Figura: Blueprint - Atualizando o estado do jogador utilizando Enumeration.
 
-<a name="7.3.3"></a>
-### 7.3.3 Exemplo de movimentação da Plataforma
+<a name="7.3.4"></a>
+### 7.3.4 Exemplo de movimentação da Plataforma
 Neste passo iremos implementar a Plataforma de Poder *PowerUp* para exemplificar a movimentação de objetos. Ao colidir com a plataforma a velocidade e o impulso do personagem **HP_Hero** aumentam.   
 A plataforma deverá se movimentar utilizando marcações (**TargetPoint**) para facilitar a level design.
 Serão implementados objetos para disparar (Plataforma Trigger) a movimentação das plataformas.
@@ -249,8 +245,8 @@ Com a finalidade de exemplificar podemos utilizar o evento **Tick** para alterar
 
 Pode ser construída outra plataforma para acionar o evento, Plataforma de gatilho `Trigger Plataform`.
 
-<a name="7.3.4"></a>
-## 7.3.4 Usando o evento Tick - Blueprint
+<a name="7.3.5"></a>
+## 7.3.5 Usando o evento Tick - Blueprint
 Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e destino.
 
 **Variáveis.**
@@ -285,8 +281,8 @@ Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e de
 
 > Figura: Blueprint - Lógica de movimentação usando Tick - continuação.
 
-<a name="7.3.5"></a>
-## 7.3.5 Usando o evento Tick - C++
+<a name="7.3.6"></a>
+## 7.3.6 Usando o evento Tick - C++
 
 **Inicializando variáveis.**
 
