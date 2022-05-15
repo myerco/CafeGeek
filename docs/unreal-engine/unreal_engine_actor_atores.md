@@ -348,7 +348,7 @@ A posição do ator no mundo é calculada utilizando o componente `DefaultSceneR
 <a name="7.1.6"></a>
 ## 7.1.6 Trabalhando com herança com Blueprint
 
-Como apresentado no conceito de classes, a herança permite usar classes já definidas para derivar novas classes, a seguir vamos verificar como implementar utlizando **Blueprint**.  
+Como apresentado no conceito de classes, a herança permite usar classes já definidas para derivar novas classes, a seguir vamos verificar como implementar utilizando **Blueprint**.  
 
 Exemplo:  
 ```bash
@@ -398,7 +398,63 @@ O componente **ChildActor** permite associar uma classe filha utilizando a lista
 > Figura: Blueprint - View Class.
 
 <a name="7.1.7"></a>
-## 7.1.7 Manipulando Actors
+## 7.1.7 Polimorfismo em C++
+Polimorfismo em linguagens orientadas a objeto, é a capacidade de objetos se comportarem de forma diferenciada em face de suas características ou do ambiente ao qual estejam submetidos, mesmo quando executando ação que detenha, semanticamente, a mesma designação.
+
+O polimorfismo em C++ se apresenta sob diversas formas diferentes, desde as mais simples, como funções com mesmo nome e lista de parâmetros diferentes, até as mais complexas como funções virtuais, cujas formas de execução são dependentes da classe a qual o objeto pertence e são identificadas em tempo de execução.
+
+**Funções virtuais.**
+```cpp
+#include <iostream>
+
+using std::cout;
+using std::endl;
+
+class Base {
+public:
+    // declaração da função virtual
+    virtual void Quem_VIRTUAL()
+    {
+        cout << "Base\n";
+    }
+    // função comum
+    void Quem_NAO_VIRTUAL()
+    {
+        cout << "Base\n";
+    }
+};
+
+class Derivada : public Base {
+public:
+    // função virtual sobrescrita
+    virtual void Quem_VIRTUAL()
+    {
+        cout << "Derivada\n";
+    }
+    // função comum sobrescrita
+    void Quem_NAO_VIRTUAL()
+    {
+        cout << "Derivada\n";
+    }
+};
+
+int main ()
+{
+    Base *ptr_base;
+    Derivada derivada;
+
+    ptr_base = &derivada;           // conversão implícita permissível
+    ptr_base->Quem_VIRTUAL();       // chamada polimórfica (mostra: "Derivada")
+    ptr_base->Quem_NAO_VIRTUAL();   // chamada comum, não-polimórfica (mostra: "Base")
+
+    cout << endl;
+
+    return 0;
+}
+```
+
+<a name="7.1.8"></a>
+## 7.1.8 Manipulando Actors
 Podemos adicionar, remover ou selecionar os atores que estão na cena do jogo, a seguir vamos implementar e entender esses comandos.
 
 **Spawn e Destroy Actors - Criando e destruindo um Actor.**

@@ -13,11 +13,13 @@ Neste capitulo serão apresentado como estruturar a lógica de programação uti
 
 &nbsp;&nbsp;[7.2.3 Funções (Functions)](#7.2.3)
 
-&nbsp;&nbsp;[7.2.4 Macros](#7.2.4)
+&nbsp;&nbsp;[7.2.4 Funções Puras)](#7.2.4)
 
-&nbsp;&nbsp;[7.2.5 Collapse Nodes](#7.2.5)
+&nbsp;&nbsp;[7.2.5 Macros](#7.2.5)
 
-&nbsp;&nbsp;[7.2.6 Executando a função e a macros](#7.2.6)
+&nbsp;&nbsp;[7.2.6 Collapse Nodes](#7.2.6)
+
+&nbsp;&nbsp;[7.2.7 Executando a função e a macros](#7.2.7)
 
 ***
 
@@ -172,8 +174,47 @@ void CalculoIMC(float pPeso, float pAltura) {
 
 > Figura: Blueprint - Exemplo de CalculoIMC.
 
-<a name="7.2.4"></a>
-## 7.2.4 Macros
+## 7.2.4 Funções Puras
+Na programação de computadores, uma função pura é uma função que possui as seguintes propriedades[[1](https://en.wikipedia.org/wiki/Pure_function)]:
+- Os valores de retorno da função são idênticos para argumentos idênticos (sem variação com variáveis estáticas locais, variáveis não locais, argumentos de referência mutáveis ou fluxos de entrada) e
+- O aplicativo de função não tem efeitos colaterais (nenhuma mutação de variáveis estáticas locais, variáveis não locais, argumentos de referência mutáveis ou fluxos de entrada/saída).
+
+Abaixo alguns exemplos de funções puras em C++:
+- `sin` - Retorna sempre o mesmo valor;
+- `strlen` - Retorna o tamanho de uma área de memória;
+- `max` - Retorna o maior de dois valores;
+
+Exemplos de funções impuras usando variáveis `static`[[2](https://docs.microsoft.com/pt-br/cpp/cpp/storage-classes-cpp?view=msvc-170)]:
+```cpp
+// static1.cpp
+// compile with: /EHsc
+#include <iostream>
+
+using namespace std;
+void showstat( int curr ) {
+   static int nStatic;    // Value of nStatic is retained
+                          // between each function call
+   nStatic += curr;
+   cout << "nStatic is " << nStatic << endl;
+}
+
+int main() {
+   for ( int i = 0; i < 5; i++ )
+      showstat( i );
+}
+```
+No exemplo acima o valor de `nStatic` varia como uma variável não local.
+
+```
+nStatic is 0
+nStatic is 1
+nStatic is 3
+nStatic is 6
+```
+"Funções puras têm uma desvantagem crucial. Eles não podem se comunicar com o mundo exterior. Porque funções para entrada e saída, funções para construir um estado ou funções para criar números aleatórios não podem ser puras..."
+
+<a name="7.2.5"></a>
+## 7.2.5 Macros
 Blueprint Macros, ou Macros, são essencialmente iguais a gráficos de nós recolhidos. Eles têm um ponto de entrada e um ponto de saída designado por nós de túnel. Cada túnel pode ter qualquer número de pinos de execução ou de dados que são visíveis no nó da macro quando usados em outros **Blueprints** e gráficos.
 
 - São basicamente um modelo *Template* de código ou nós;
@@ -196,8 +237,8 @@ Blueprint Macros, ou Macros, são essencialmente iguais a gráficos de nós reco
 
 > Figura: Blueprint - Exemplo Macro.
 
-<a name="7.2.5"></a>
-## 7.2.5 Collapse Nodes
+<a name="7.2.6"></a>
+## 7.2.6 Collapse Nodes
 Usado principalmente para organização de código, escondendo nós da estrutura principal.
 
 ![Figura: Blueprint - Exemplo Collapse nodes](imagens/modulos/blueprint_collapse_nodes_example.webp "Figura: Blueprint - Exemplo Collapse nodes")
@@ -210,8 +251,8 @@ Usado principalmente para organização de código, escondendo nós da estrutura
 
 - Vai ser criado um gráfico de eventos próprio.
 
-<a name="7.2.6"></a>
-## 7.2.6 Executando a função e a macro  
+<a name="7.2.7"></a>
+## 7.2.7 Executando a função e a macro  
 
 ![Figura: Blueprint - Exemplo de Call function marco](imagens/modulos/blueprint_call_function_macro.webp "Figura: Blueprint - Exemplo de Call function marco")
 
