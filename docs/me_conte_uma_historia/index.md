@@ -256,18 +256,79 @@ Quais são as tarefas e atividades que devem ser executadas, por onde começamos
 
 <a name="2.3"></a>
 ## 2.3 Limitações
-O projeto é limitado por vários fatores, dentre eles:
-- Dinheiro;
-
-- Tempo;
-
-- Tecnologia;
-
-- Expertise;
-
 ![Figura: The best survival games on PC in 2022  - https://www.rockpapershotgun.com/the-best-survival-games-on-pc](https://assets.rockpapershotgun.com/images/2020/02/The-Forest-Best-Survival-Games-2020.jpg "Figura: The best survival games on PC in 2022  - https://www.rockpapershotgun.com/the-best-survival-games-on-pc")
 
 > Figura: The best survival games on PC in 2022  - https://www.rockpapershotgun.com/the-best-survival-games-on-pc .
+
+O projeto é limitado por vários fatores, dentre eles:
+
+**Dinheiro.**
+
+Estime os custos do projeto, orçamento e controle de custos de modo que o projeto possa ser terminado dentro do orçamento aprovado.
+
+![Figura: The Factors That Influence the Cost of Game Development.](https://www.appstudio.ca/blog/wp-content/uploads/2021/09/Cost-of-Game-Development.jpeg "Figura: The Factors That Influence the Cost of Game Development.")
+> Figura: [The Factors That Influence the Cost of Game Development.](https://www.appstudio.ca/blog/cost-of-game-development/)
+
+- Estime os custos;
+
+- Determine o orçamento e estime os custos de atividades individuais ou pacotes de trabalho;
+
+- Controle custos, acompanhe e monitore as mudanças feitas na custo base.
+
+**Tempo.**
+
+Fique atento aos prazos estabelecidos no escopo e o tempo estipulado para cada atividade.
+
+![Figura: How to take care of time management in web development.](https://cdn.merixstudio.com/media/uploads/pomodoro.png "Figura: How to take care of time management in web development.")
+
+> Figura: [How to take care of time management in web development](https://www.merixstudio.com/blog/time-management-web-development/).
+
+- Defina e identifique as ações específicas a serem realizadas para produzir as entregas do projeto;
+
+- Sequencie as atividades e documente os relacionamentos entre elas;
+
+- Estime os recursos por atividade, quantidade de material, pessoas, equipamentos ou suprimentos;
+
+- Desenvolva um cronograma do projeto;
+
+- Monitore o andamento do projeto e atualize o progresso e gerenciamento de mudanças.
+
+**Tecnologia.**
+
+Considere de toda a base tecnológica do projeto.
+
+![Figura: Why infrastructure is a game-changer for the mobile gaming industry](https://miro.medium.com/max/1400/1*Bdwff1xNonI533sDk0hgnA.png "Figura: Why infrastructure is a game-changer for the mobile gaming industry.")
+
+>Figura: [Why infrastructure is a game-changer for the mobile gaming industry.](https://medium.com/tech-at-wildlife-studios/infrastructure-mobile-gaming-industry-584eee7e2fca)
+
+
+- Rede de comunicação interna;
+
+- Espaço de armazenamento e compartilhamento;
+
+- Versionamento da lógica de programação;
+
+- Modelo de distribuição do projeto;
+
+- Softwares e licenças utilizados.
+
+**Expertise.**
+
+Organize as equipes com os papeis e responsabilidades designadas para a conclusão do projeto.
+
+![Time Management Skills for Developers: Best Tips, Tools, and Strategies](https://cdn-developer-wp.arc.dev/wp-content/uploads/2021/11/time-management-skills-1128x635.jpg "Time Management Skills for Developers: Best Tips, Tools, and Strategies")
+
+>Figura: [Time Management Skills for Developers: Best Tips, Tools, and Strategies](https://arc.dev/developer-blog/time-management-skills/)
+
+- Desenvolva um plano de funções, responsabilidades, habilidades necessárias e relações hierárquicas do projeto;
+
+- Mobilize a equipe do projeto, confirme a disponibilidade e obtenha a equipe necessária;
+
+- Melhore as competências, interação e ambiente da equipe;
+
+- Acompanhe o desempenho dos membros da equipe, forneça *feedback*, resolva questões e acompanhe as mudanças.
+
+
 
 **[⬆ Início](#indice)**
 
