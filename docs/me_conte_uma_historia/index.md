@@ -52,6 +52,8 @@ Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e
 
 &nbsp;&nbsp;[3.1 Onde nascem as ideias?](#3.1 "Onde nascem as ideias?")
 
+&nbsp;&nbsp;[3.2 Cultivando ideias](#3.2 "Cultivando ideias")
+
 &nbsp;&nbsp;[3.3 O que torna a ideia interessante é](#3.3 "O que torna a ideia interessante é")
 
 &nbsp;&nbsp;[3.4 que nos inspira?](#3.4 "O que nos inspira?")
