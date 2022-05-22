@@ -29,3 +29,8 @@ Olá, meu nome é [Marco Yerco](mailto:myerco@gmail.com) analista de sistemas e 
   - Lógica de programação
   - Banco de Dados
   - Gestão de projetos
+
+## Links
+- [Linkedin](https://www.linkedin.com/in/marco-yerco-853333142/)
+- [Youtube](https://www.youtube.com/channel/UCdP1V0cZN3TQOoBPBLuyhlQ)
+- [Instagram](https://www.instagram.com/cafegeek.br/)
