@@ -17,6 +17,24 @@ Aprenda a programar em linguagem C++.
 
 ##  Índice
 
+- [Como o compilador C++ funciona?](#como-o-compilador-c---funciona-)
+  * [Abaixo a sintaxe básica de um programa C++.](#abaixo-a-sintaxe-b-sica-de-um-programa-c--)
+  * [Exemplo de arquivo sendo incluído em outro](#exemplo-de-arquivo-sendo-inclu-do-em-outro)
+  * [Exemplo de #IF](#exemplo-de--if)
+  * [Declareção de variáveis no arquivo de cabeçalho](#declare--o-de-vari-veis-no-arquivo-de-cabe-alho)
+- [Organizando funções e entendendo como são importadas e exportadas](#organizando-fun--es-e-entendendo-como-s-o-importadas-e-exportadas)
+  * [Funções](#fun--es)
+- [Passo 2](#passo-2)
+- [Macros](#macros)
+- [Passo 4](#passo-4)
+- [Passo 5](#passo-5)
+- [Passo 6](#passo-6)
+- [Resumo](#resumo)
+- [Referências](#refer-ncias)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 
 ## Como o compilador C++ funciona?
 Os arquivos C++ são divididos em dois tipos, um arquivo de código (.cpp) e um de cabeçalho (.h).
@@ -30,6 +48,20 @@ Arquivo.cpp ->
 Arquivo.obj + Arquivo2.obj ->
 Arquivo.exe
 ```
+
+### Abaixo a sintaxe básica de um programa C++.
+```cpp
+#include <iostream>
+
+int main()
+{
+    std::cout << "Meu primeiro programa." << std::endl;
+}
+```
+
+- `std` - Namespace, define um escopo para identificadores (funções,tipos e variáveis);
+- `cout` - Função para escrever um texto no dispositivo de saída;
+
 
 A primeira etapa que o compilador fará em um arquivo de código é executar o pré-processador nele. Apenas os arquivos de código são passados ​​para o compilador (para pré-processar e compilar). Os arquivos de cabeçalho não são passados ​​para o compilador. Em vez disso, eles são incluídos nos arquivos de origem.
 
@@ -66,22 +98,106 @@ Para cada arquivo de lógica C++, o pré-processador construirá uma unidade de 
 ```
 
 
-Arquivos de cabeçalho contem o nome de funções, Variáveis, classes e assim por diante, devem ser declarados antes que possam ser usados [1](https://docs.microsoft.com/pt-br/cpp/cpp/header-files-cpp?view=msvc-170), estes arquivos podem ser incluídos
+Arquivos de cabeçalho contem o nome de funções, Variáveis, classes e assim por diante, devem ser declarados antes que possam ser usados, estes arquivos podem ser incluídos.[[Arquivos de cabeçalho (C++)](https://docs.microsoft.com/pt-br/cpp/cpp/header-files-cpp?view=msvc-170 "Arquivos de cabeçalho (C++)")]
 
+### Declareção de variáveis no arquivo de cabeçalho
 
+**my_class.h**
 
-Abaixo a sintaxe básica de um programa C++.
 ```cpp
-#include <iostream>
-
-int main()
+// my_class.h
+namespace N
 {
-    std::cout << "Meu primeiro programa." << std::endl;
+    class my_class
+    {
+    public:
+        void do_something();
+    };
 }
 ```
 
-- `std` - Namespace
+**my_class.cpp**
+```cpp
+// my_class.cpp
+#include "my_class.h" // header in local directory
+#include <iostream> // header in standard library
 
+using namespace N;
+using namespace std;
+
+void my_class::do_something()
+{
+    cout << "Doing something!" << endl;
+}
+```
+
+
+## Organizando funções e entendendo como são importadas e exportadas
+O `Linker` vinculador é um programa que cria arquivos executáveis. O linker resolve problemas de ligação, como o uso de símbolos ou identificadores que são definidos em uma unidade de tradução e são necessários de outras unidades de tradução. Símbolos ou identificadores que são necessários fora de uma única unidade de tradução têm ligação externa [[C++ Programming](https://en.wikibooks.org/wiki/C%2B%2B_Programming/Programming_Languages/C%2B%2B/Code/Compiler/Linker "C++ Programming")].
+
+Resumindo, o trabalho do vinculador é resolver referências a símbolos indefinidos descobrindo qual outro objeto define um símbolo em questão e substituindo espaços reservados pelo endereço do símbolo.
+
+Existe um arquivo fonte simples em C (não C++) chamado sum.c que exporta duas funções, uma para adicionar dois inteiros ou `int` e outra para adicionar dois `floats`:
+
+**sum.cpp**
+```cpp
+int sumI(int a, int b) {
+    return a + b;
+}
+
+float sumF(float a, float b) {
+    return a + b;
+}
+```
+
+Depois de copilar observe os símbolos exportados e importados por este objeto.
+
+```bash
+$nm sum.o
+0000000000000014 T sumF
+0000000000000000 T sumI
+```
+[nm Unix](https://en.wikipedia.org/wiki/Nm_(Unix))
+
+> nm - list symbols from object files
+
+Nenhum símbolo é importado e dois símbolos são exportados: sumF e sumI. Esses símbolos são exportados como parte do segmento .text (T), portanto são nomes de funções, código executável.
+
+Se outros arquivos de origem (C ou C++) quiserem chamar essas funções, eles precisarão declará-las antes de chamar.
+
+A maneira padrão de fazer isso é criar um arquivo de cabeçalho que os declare e os inclua em qualquer arquivo de origem que queiramos chamá-los. O cabeçalho pode ter qualquer nome e extensão. Eu escolhi sum.h:
+
+**sum.h**
+
+```cpp
+int sumI(int a, int b);
+float sumF(float a, float b);
+```
+
+**print.cpp**
+```cpp
+#include <iostream> // std::cout, std::endl
+#include "sum.h" // sumI, sumF
+
+void printSum(int a, int b) {
+    std::cout << a << " + " << b << " = " << sumI(a, b) << std::endl;
+}
+
+void printSum(float a, float b) {
+    std::cout << a << " + " << b << " = " << sumF(a, b) << std::endl;
+}
+```
+
+Conteúdo do arquivo objeto:
+```bash
+$nm  print.o
+0000000000000132 T printSumFloat
+0000000000000113 T printSumInt
+                 U sumF
+                 U sumI
+```
+
+### Funções
 
 **main.cpp**
 
@@ -122,7 +238,8 @@ void Log(const char* message)
 }
 ```
 
-## Passo 3
+### Macros
+
 **Math.cpp**
 
 ```cpp
@@ -241,6 +358,8 @@ void main();
 }
 
 ```
+
+## Resumo
 
 
 ***
