@@ -16,7 +16,72 @@ Aprenda a programar em linguagem C++.
 ---
 
 ##  Índice
-1. [Introdução](#1)
+
+
+## Como o compilador C++ funciona?
+Os arquivos C++ são divididos em dois tipos, um arquivo de código (.cpp) e um de cabeçalho (.h).
+
+Os arquivos de código contem a lógica principal, estes arquivos podem incluir outros arquivos, utilizando a diretiva `#include`, são os arquivos de cabeçalho. A extensão não importa para o pré-processador C++ que substituirá literalmente a linha que contém a diretiva `#include`.
+
+Cada arquivo de código deve se compilado dentro de um arquivo objeto (.obj), os arquivos objeto são juntados (linked) dentro de um executável (.exe)
+
+```
+Arquivo.cpp ->
+Arquivo.obj + Arquivo2.obj ->
+Arquivo.exe
+```
+
+A primeira etapa que o compilador fará em um arquivo de código é executar o pré-processador nele. Apenas os arquivos de código são passados ​​para o compilador (para pré-processar e compilar). Os arquivos de cabeçalho não são passados ​​para o compilador. Em vez disso, eles são incluídos nos arquivos de origem.
+
+### Exemplo de arquivo sendo incluído em outro
+**multiply.cpp**
+```cpp
+int multiply(int a, int b)
+{
+  return a * b;
+#include "parte.h"
+}
+```
+
+**parte.h**
+```cpp
+}
+```
+
+Cada arquivo de cabeçalho pode ser aberto várias vezes durante a fase de pré-processamento de todos os arquivos de lógica, dependendo de quantos arquivos de lógica os incluem ou de quantos outros arquivos de cabeçalho incluídos nos arquivos de lógica também os incluem (pode haver muitos níveis de apontamento) . Os arquivos de lógica, por outro lado, são abertos apenas uma vez pelo compilador (e pré-processador), quando são passados ​​para ele.
+
+```
+Arquivo.cpp + arquivo3.h ->
+Arquivo.obj + Arquivo2.obj ->
+Arquivo.exe
+```
+
+Para cada arquivo de lógica C++, o pré-processador construirá uma unidade de tradução inserindo conteúdo nela quando encontrar uma diretiva #include ao mesmo tempo em que removerá o código do arquivo de lógica e dos cabeçalhos quando encontrar a compilação condicional blocos cuja diretiva é avaliada como `false`. Ele também fará algumas outras tarefas, como substituições de macros.
+
+### Exemplo de #IF
+```cpp
+#ifndef  FILE_H  
+#include "file.h"
+#endif
+```
+
+
+Arquivos de cabeçalho contem o nome de funções, Variáveis, classes e assim por diante, devem ser declarados antes que possam ser usados [1](https://docs.microsoft.com/pt-br/cpp/cpp/header-files-cpp?view=msvc-170), estes arquivos podem ser incluídos
+
+
+
+Abaixo a sintaxe básica de um programa C++.
+```cpp
+#include <iostream>
+
+int main()
+{
+    std::cout << "Meu primeiro programa." << std::endl;
+}
+```
+
+- `std` - Namespace
+
 
 **main.cpp**
 
@@ -28,7 +93,7 @@ void Log(const char* message)
   std::cout << message std::endl;
 }
 
-void main() {
+int main() {
   Log("Hello World")
   std::cout << "Meu primeiro..." std::endl;
   std::cin.get();
