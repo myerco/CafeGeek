@@ -84,7 +84,7 @@ Para cada arquivo de lógica C++, o pré-processador construirá uma unidade de 
 
 Arquivos de cabeçalho contem o nome de funções, Variáveis, classes e assim por diante, devem ser declarados antes que possam ser usados, estes arquivos podem ser incluídos.[[Arquivos de cabeçalho (C++)](https://docs.microsoft.com/pt-br/cpp/cpp/header-files-cpp?view=msvc-170 "Arquivos de cabeçalho (C++)")]
 
-### Declarando variáveis no arquivo de cabeçalho
+### Arquivo de cabeçalho
 
 **my_class.h**
 
@@ -187,12 +187,30 @@ Funções são blocos de código que somente são executados quando são chamado
 #include <iostream>
 void Log(const char* message)
 {
-  std::cout << message std::endl;
+  std::cout << message << std::endl;
 }
 
 int main() {
   Log("Hello World")
-  std::cout << "Meu primeiro..." std::endl;
+  std::cout << "Meu primeiro..." << std::endl;
+  std::cin.get();
+}
+```
+
+### Exemplo da Função de multiplicação
+**main.cpp**
+
+```cpp
+#include <iostream>
+int Multiply(int a, int b)
+{
+  return a * b;
+}
+
+int main() {
+  int resultado = Multiply(2,7);
+  std::cout << "O resultado é : " << std::endl;
+  std::cout << resultado << std::endl;
   std::cin.get();
 }
 ```
@@ -216,7 +234,7 @@ int main() {
 #include <iostream>
 void Log(const char* message)
 {
-  std::cout << message std::endl;
+  std::cout << message << std::endl;
 }
 ```
 
@@ -251,7 +269,7 @@ int Multuply(int i, int j)
 #endif
 ```
 
-## Passo 4
+### Chamando uma função dentro de outra
 **Math.cpp**
 
 ```cpp
@@ -270,7 +288,15 @@ int Multuply(int i, int j)
 }
 ```
 
-## Passo 5
+## Variáveis
+Variáveis são áreas de memória utilizadas para armazenar informação, essas áreas são nomeadas e devem possuir um tipo de dado, como por exemplo [[As variáveis em C++ ](https://br.ccm.net/faq/10120-as-variaveis-em-c)]:
+
+- `int` para armazenar números inteiros;
+- `float` para armazenar números com casas decimais;
+- `char` geralmente ocupa um byte na memória, permite armazenar um caractere ou cadeia de caracteres.
+
+### Declaração de variáveis
+Para declarar uma variável, basta indicar o seu tipo seguido do seu nome. Existem várias convenções sobre o nome das variáveis. Alguns preferem separar as diferentes partes do nome com _ (traço baixo). Outros preferem escrever uma letra maiúscula para separá-los. Exemplo:
 
 **log.cpp**
 
@@ -286,13 +312,48 @@ int main()
   bool teste = true;
 
   std::cout << variable std::endl;
-  std::cout << sizeof(int) std::endl;
-  std::cout << sizeof(variable) std::endl;
+  // sifeof - Apresenta o tamanho em bytes na memória
+  std::cout << sizeof(int) << std::endl;
+  std::cout << sizeof(variable) << std::endl;
+  std::cout << teste << std::endl;
   std::cin.get();
 }
 ```
 
-## Passo 6
+## Unsigned
+Assim como no C, o unsigned sozinho serve para nada (exceto o mostrado abaixo), ele é um modificador para determinar que um tipo numérico inteiro é sem sinal. Ou seja, você só terá valores positivos nele. Ele determina se o bit mais significativo será considerado o sinal de positivo ou negativo ou se este bit entrará no valor, por isso ele permite o dobro dos valores permitidos.
+
+Um `int` vai de -2147483648 à 2147483647.
+
+Um `unsigned` `int` vai de 0 à 4294967295.
+
+### Constantes
+Assim como uma variável, uma constante também armazena um valor na memória do computador. Entretanto, esse valor não pode ser alterado: é constante. Para constantes é obrigatória a atribuição do valor[[Curso de C++/Variáveis e constantes](https://pt.wikiversity.org/wiki/Curso_de_C%2B%2B/Vari%C3%A1veis_e_constantes)].
+
+Existem duas formas básicas para declarar uma constante em C++:
+
+#### Usando #define
+Esta é uma maneira antiga de declarar constantes mas funciona normalmente;
+
+Você deverá incluir a diretiva de pré-processador #define antes do início do código:
+
+```cpp
+#include <iostream>
+using namespace std;
+#define PI 3.1415
+```
+
+## Usando const
+Usando `const`, a declaração não precisa estar no início do código.
+
+```cpp
+const int i = 500; // uma constante inteira que armazena o número 500.
+const double pi = 3.1415; // uma constante real que armazena o valor aproximado de pi.
+```
+
+## Pragma once
+Especifica que o compilador inclui o arquivo de header apenas uma vez, ao compilar um arquivo de código-fonte [[once pragma](https://docs.microsoft.com/pt-br/cpp/preprocessor/once?view=msvc-170)].
+
 
 **log.h**
 
@@ -300,17 +361,16 @@ int main()
 #pragma once
 
 #ifndef _LOG_H
+#define _LOG_H
 
 void InitLog();
 
 void Log(const char* message);
 
 #endif
-
 ```
 
 **log.cpp**
-
 ```cpp
 #include "Log.h"
 #include <iostream>
@@ -339,8 +399,9 @@ void main();
   InitLog();
   Log("Teste...");
 }
-
 ```
+
+
 
 ## Resumo
 
