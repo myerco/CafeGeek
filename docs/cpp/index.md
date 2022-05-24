@@ -401,7 +401,125 @@ void main();
 }
 ```
 
+## Ponteiros
+Um ponteiro é uma variável capaz de armazenar um endereço de memória ou o endereço de outra variável[[Apontadores/ Ponteiros/ Pointers](https://www.inf.pucrs.br/~pinho/PRGSWB/Ponteiros/ponteiros.html)].
 
+### Impressão de Ponteiros
+Podemos imprimir o endereço de memória dos ponteiros.
+```cpp
+#include <iostream>
+using namespace std;
+void main()
+{
+  int x;
+  int *ptr;
+  ptr = &x;
+  cout << "O endereço de X é: " << ptr << endl;
+  cout << "O valor de X é: " << x << endl;
+}
+```
+
+### Acessando conteúdo
+Acessamos o conteúdo do valor contido no ponteiro, endereço de memória, utilizando o operador de referência (*) do lado esquerdo.
+
+```cpp
+#include <iostream>
+using namespace std;
+void main()
+{
+  int x;
+  int *ptr;
+  x = 5;
+  ptr = &x;
+  cout << "O valor da variável X é: " << *ptr << endl;
+  *ptr = 10;
+  cout << "Agora, X vale: " << *ptr << endl;
+}
+```
+
+## Classes
+C++ é uma linguagem de programação orientada a objetos.
+
+Tudo em C++ está associado a classes e objetos, juntamente com seus atributos e métodos. Por exemplo: na vida real, um carro é um objeto. O carro tem atributos, como peso e cor, e métodos, como direção e freio.
+
+Atributos e métodos são basicamente variáveis e funções que pertencem à classe. Estes são muitas vezes referidos como "membros da classe".
+
+Uma classe é um tipo de dados definido pelo usuário que podemos usar em nosso programa e funciona como um construtor de objetos ou um "projeto" para criar objetos[[C++ Classes and Objects](https://www.w3schools.com/cpp/cpp_classes.asp)].
+
+**conta.h**
+```cpp
+#include <iostream>
+using namespace std;
+
+class Conta
+{
+  int numero;     // São atributos
+  string nome;    // privados por
+  float saldo;    // default
+public:
+  void inicializa(string n, float s);
+  void deposita(float valor);
+  void consulta();
+  int saque(float valor);
+};
+```
+**conta.cpp**
+```cpp
+#include "conta.h"
+
+void Conta::inicializa(string n, float s)
+{
+  nome = n;
+  saldo = s;
+  if (saldo < 0)
+    cout << "Erro na Criação da Conta!!!" << endl;
+}
+
+void Conta::deposita(float valor)
+{
+  saldo = saldo + valor;
+}
+
+void Conta::consulta()
+{
+  cout << "Cliente: " << nome << endl;
+  cout << "Saldo Atual: " << saldo << endl;
+  cout << "Numero da Conta: " << numero << endl;
+}
+
+int Conta::saque(float valor)
+{
+  if (saldo < valor)
+    return 0;
+  else
+  {
+    saldo = saldo - valor;
+    return 1;
+  }
+}
+```
+**arquivo.cpp**
+```cpp
+#include "conta.h"
+
+void main()
+{
+  Conta MinhaConta;
+  Conta *OutraConta;
+
+  MinhaConta.saldo = 10; // ERRO!!!
+
+  MinhaConta.inicializa("Fulano", 10.25);
+  OutraConta->inicializa("Beltrano", 220.00);
+
+  MinhaConta.deposita(12.75);
+  MinhaConta.consulta();
+  MinhaConta.saque(15.00);
+  MinhaConta.consulta();
+
+  OutraConta->consulta();
+}
+```
 
 ## Resumo
 
