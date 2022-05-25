@@ -108,6 +108,87 @@ A classe **Actor** compreende objetos básicos que podem ser adicionados a o mun
 
 - `Parent Class` : Classe pai de Actor (Classe **C++**).
 
+#### Classe Actor em C++ com uma Static Mesh
+**CharacterBase.h**
+```cpp
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "CharacterBase.generated.h"
+
+UCLASS(Blueprintable)
+class AULACPPV1_API ACharacterBase : public AActor
+{
+	GENERATED_BODY()
+
+public:
+	// Sets default values for this actor's properties
+	ACharacterBase();
+
+	/* Configurando propriedade para adicionar uma Static Mesh */
+	UPROPERTY(VisibleAnywhere)
+		UStaticMeshComponent* MeshMain;
+
+protected:
+	// Called when the game starts or when spawned
+	virtual void BeginPlay() override;
+
+public:
+	// Called every frame
+	virtual void Tick(float DeltaTime) override;
+
+};
+```
+
+**CharacterBase.cpp**
+```cpp
+#include "CharacterBase.h"
+
+// Sets default values
+ACharacterBase::ACharacterBase()
+{
+ 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+
+	/*Construindo a malha na memória
+	- CreateDefaultSubobject - Cria um componente ou subobjeto, permitindo criar uma classe filho e retornando a classe pai.
+	Os objetos recém-iniciados podem ter alguns de seus valores padrão inicializados, mas o Mesh começará vazio.
+	Você terá que carregar o malha mais tarde.
+		*/
+	MeshMain = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh Main"));
+
+	/*
+	* ConstructorHelpers - No construtor, inicializamos os componentes e, em seguida, definimos seus valores usando FObjectFinder.
+	Também configuramos a classe para gerar usando a função StaticClass para recuperar uma instância UStatic* de um tipo de classe.
+	*/
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> SphereVisualAsset(TEXT("/Game/ExampleContent/StarterContent/Shapes/Shape_Sphere.Shape_Sphere"));
+
+	if (SphereVisualAsset.Succeeded()) {
+		MeshMain->SetStaticMesh(SphereVisualAsset.Object);
+		MeshMain->SetRelativeLocation(FVector(0.0f, 0.0f, -100.0f));
+		MeshMain->SetWorldScale3D(FVector(0.8f));
+
+	}
+	MeshMain->SetupAttachment(RootComponent);
+}
+
+void ACharacterBase::BeginPlay()
+{
+	Super::BeginPlay();
+
+	UE_LOG(LogTemp, Warning, TEXT("Teste 123..."));
+
+}
+
+void ACharacterBase::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+}
+```
+
+
 **Classe Pawn.**
 
 A classe **Pawn** ou peão é a classe base de todos os atores que podem ser controlados por jogadores ou IA. Um peão é a representação física de um jogador ou entidade de IA dentro do mundo. Isso não significa apenas que o peão determina a aparência visual do jogador ou entidade de IA, mas também como ele interage com o mundo em termos de colisões e outros aspectos físicos
