@@ -12,6 +12,7 @@ layout: page
 - Até agora, todos as cenas de crime encontradas já tinham sido alteradas pela polícia (coleta de evidência, transporte do corpo etc.).
 
 ## A história
+![Design Personagens](imagens/DesignPersonagens.webp)
 
 - A protagonista transporta a casa para a Sibéria. Há um ruído no andar inferior. A protagonista desce para investigar.
 - Lá, descobre que uma janela estava aberta, e um copo que estava na mesa foi derrubado pelo vento.
@@ -27,11 +28,15 @@ Este incidente revela pro jogador que, ao chegar na Sibéria, alguém entrou na 
 - Ela oferece presentes e comida, mas nota que o fogo está ficando baixo. Pede para a "neta" buscar madeira, pela porta dos fundos.
 - Ao lado da pilha de madeira, a cena do crime. O corpo da verdadeira neta, assassinada recentemente. A protagonista pega a lenha e traz para dentro.
 
+![Siberia Forest](imagens/Russia_Siberia_Forests_Roads_Winter_Trees_Fog_Snow_558251_1365x1024.webp)
+
 Isso insinua ao jogador que o assassino estava com a protagonista e aproveitou a viagem à Sibéria para cometer esse assassinato. A protagonista sente culpa.
 
 Analisando a cena do crime, o jogador pode descobrir como o assassino mata (mortes rápidas e silenciosas), descobrir a marca que deixa. Tudo em uma cena não alterada.
 
 A senhorinha está preparando comida. O jogador pode continuar na onda, fingindo ser a neta, ou revelar para a senhora que a verdadeira neta foi assassinada. De qualquer forma, a certo ponto o jogador deve revelar que a neta não irá mais visitar, e enterrar o corpo:
+
+![Cabana Siberia](imagens/cabanasberia.webp)
 
 - Contar que ela (a "neta") não pode mais visitar, e esconder o cadáver para a senhorinha não o encontrar;
 - Contar a situação da neta, e fazer um enterro próprio para a neta.
