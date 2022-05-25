@@ -28,6 +28,9 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 
 &nbsp;&nbsp;[1.6 Suspense](suspense.html)
 
+&nbsp;&nbsp;[1.7 Suspense](semnome.html)
+
+
 ***
 
 **[CAPÍTULO  2 - Jogos](#2 "CAPÍTULO  2 - Jogos")**
