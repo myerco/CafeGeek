@@ -9,17 +9,17 @@ layout: page
 ---
 <center>
 
-“NA MIRA”
+<p>“NA MIRA”</p>
 
-Um roteiro
+<p>Um roteiro</p>
 
-De
+<p>De</p>
 
-Luís e Olímpio
+<p>Luís e Olímpio</p>
 
-Copyright by Luís 2022 Porto Velho
+<p>Copyright by Luís e Olímpio 2022 Porto Velho</p>
 
-Todos direitos reservados
+<p>Todos direitos reservados</p>
 
 </center>
 
