@@ -8,17 +8,17 @@ layout: page
 ---
 <center>
 
-“SIBÉRIA”
+<p>“SIBÉRIA”</p>
 
-Um roteiro
+<p>Um roteiro</p>
 
-De
+<p>De</p>
 
-Airon
+<p>Airon</p>
 
-Copyright by Airon 2022 Porto Velho
+<p>Copyright by Airon 2022 Porto Velho</p>
 
-Todos direitos reservados
+<p>Todos direitos reservados</p>
 
 </center>
 
