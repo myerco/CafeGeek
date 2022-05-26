@@ -52,7 +52,7 @@ O que aconteceu fora da câmera?
 - O assassino retornou à casa, e a transportou para outro lugar.
 
 ---
-## EXT. RUA FRENTE DA CASA LAB4
+## 1. EXT. RUA FRENTE DA CASA LAB4
 
 <div><a href="https://www.homify.com.br/foto/1381790/residencia-avs" target="_blank"><img alt="Residência AVS, A/ZERO Arquitetura A/ZERO Arquitetura Casas modernas" src="https://images.homify.com/images/a_0,c_fill,f_auto,h_316,q_auto,w_316/v1457095580/p/photo/image/1381790/Resid%C3%AAncia_AVS_1/fotos-de-casas-moderno-por-a-zero-arquitetura.jpg"/></a></div><div style="color:#86848b;"><small><a style="text-decoration:none;color:#86848b;" target="_blank" href="https://www.homify.com.br/projetos/198516/residencia-avs"> Residência AVS, A/ZERO Arquitetura </a>por<a style="text-decoration:none;color:#86848b;" target="_blank" href="https://www.homify.com.br/profissionais/618107/a-zero-arquitetura" > A/ZERO Arquitetura </a></small></div>
 
@@ -69,7 +69,7 @@ A casa foi palco de uma investigação policial, um crime foi cometido dentro de
 > Faixas policiais sinalizam para ninguém entrar na casa, pois ainda estão investigando o crime, não encontraram nada, as pistas já não estão mais lá.
 
 
-Uma figura feminina se aproxima a passos firmes, ignorando as faixas e avisos que estavam no local entra na casa.
+Uma figura feminina se aproxima a passos firmes, ignorando as faixas e avisos que estavam no local e entra na casa.
 
 O mecanismo de transporte é acionado quando ela fecha a porta principal , a casa é transportada para a Sibéria.
 
@@ -78,7 +78,7 @@ O mecanismo de transporte é acionado quando ela fecha a porta principal , a cas
 > Sibéria?
 
 
-## INT. DENTRO DA CASA LAB4
+## 2. INT. DENTRO DA CASA LAB4
 
 ![Interior da Casa](http://www.imovelweb.com.br/noticias/wp-content/uploads/2017/10/sobrados.jpg "Sobrados")
 
@@ -86,11 +86,11 @@ A mulher entra na casa e começa a basculhar todos os quartos, no andar de cima 
 
 Há um ruído no andar inferior, a mulher desce para investigar.
 
-Lá, descobre que uma janela estava aberta e um copo quebrado de vidro no chão, aparentemente estava na mesa foi derrubado pelo vento.
+Lá, descobre que uma janela estava aberta e um copo quebrado de vidro no chão, aparentemente estava na mesa e foi derrubado pelo vento.
 
 Ela fecha a janela para parar o vento frio, e vê uma senhorinha andando pela neve, que cai. Ela procura e veste roupas de frio, e sai da casa para ajudá-la.
 
-## INT. CABANA DA SIBERIA
+## 3. INT. CABANA DA SIBERIA
 
 ![Cabana Siberia](imagens/cabanasberia.webp)
 
@@ -111,7 +111,7 @@ A senhorinha confundiu a protagonista com a própria neta. A mulher não quer qu
 
 >**MULHER DESCONHECIDA**
 >
-> Alguém entrou na casa enquanto eu estava no andar de cima, e acionou o mecanismo, por que?
+> Alguém entrou na casa enquanto eu estava no andar de cima.
 
 A senhorinha deposita as coisas que carregava na mesa, olha pra protagonista e a chama para conversar à frente da lareira.
 
@@ -119,7 +119,7 @@ Ela começa a discutir sobre a família, dizendo que é uma imensa falta de resp
 
 Ela oferece presentes e comida, mas nota que o fogo está ficando baixo. Pede para a "neta" buscar madeira, pela porta dos fundos.
 
-## EXT. CABANA DA SIBERIA
+## 4. EXT. CABANA DA SIBERIA
 
 Ao lado da pilha de madeira, a cena do crime. O corpo da verdadeira neta, assassinada recentemente.
 
@@ -141,7 +141,7 @@ A senhorinha está preparando comida. O jogador pode continuar na onda, fingindo
 Existem vários desenrolares do diálogo, mas não são relevantes para a história geral (apenas para as emoções do jogador).
 
 
-## INT. DENTRO DA CASA LAB4
+## 5. INT. DENTRO DA CASA LAB4
 
 O que aconteceu fora da câmera?
 
