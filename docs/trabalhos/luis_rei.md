@@ -6,7 +6,26 @@ author: CafeGeek
 layout: page
 ---
 
-## 1. INT. CONSULTÓRIO DO PSICOLÓGO
+---
+<center>
+
+“NA MIRA”
+
+Um roteiro
+
+De
+
+Luís e Olímpio
+
+Copyright by Luís 2022 Porto Velho
+
+Todos direitos reservados
+
+</center>
+
+---
+
+## 1. INT. CONSULTÓRIO DO PSICOLÓGO - NOITE
 
 ![Consultório](http://psicologiaguarulhos.com.br/images/consultorio-psicologia-guarulhos.jpg)
 
@@ -38,7 +57,9 @@ Percebi nitidamente que Miguel sendo o irmão mais velho, ele acaba por ser um g
 
 Assinado Dr. Cap. Vitor Lorenzo.
 
-## 4. EXT. ESCOLA ORLANDO VICENTE SOLIMÕES
+## 4. EXT. ESCOLA ORLANDO VICENTE SOLIMÕES - NOITE
+
+![Escola barão dos solimões](https://rondonia.ro.gov.br/wp-content/uploads/2015/09/Escola-Bar%C3%A3o-de-Solim%C3%B5es_11.09.15_Foto_Daiane-Mendon%C3%A7a-3.jpg)
 
 O ano é 2016, a escola esta deserta, pois depois de encerradas as atividades os alunos saíram correndo do local, pois a quadra esta manutenção.
 
