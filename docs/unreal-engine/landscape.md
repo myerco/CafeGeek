@@ -12,3 +12,10 @@ layout: page
 1. Level Persistente;
 
 ## Em construção...
+
+Edit Layers
+
+-Layers Create e edit
+  - Base : Camada base do objeto
+  - Montanhas : Camada  
+  - Water : Oceano
