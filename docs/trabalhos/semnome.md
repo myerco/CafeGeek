@@ -15,4 +15,4 @@ layout: page
 
 &nbsp;&nbsp;[Saturno](saturno.html)
 
-&nbsp;&nbsp;[Saturno](sombras_da_alma.html)
+&nbsp;&nbsp;[Sombras da Alma](sombras_da_alma.html)
