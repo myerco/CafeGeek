@@ -26,9 +26,11 @@ Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de 
 
 &nbsp;&nbsp;[7.1.7 Trabalhando com herança com Blueprint](#7.1.7)
 
-&nbsp;&nbsp;[7.1.8 Manipulando Actors](#7.1.8)
+&nbsp;&nbsp;[7.1.8 Polimorfismo em C++](#7.1.8)
 
-&nbsp;&nbsp;[7.1.9 Colisões](#7.1.9)
+&nbsp;&nbsp;[7.1.9 Manipulando Actors](#7.1.9)
+
+&nbsp;&nbsp;[7.1.10 Colisões](#7.1.10)
 
 ***
 
@@ -431,7 +433,7 @@ A posição do ator no mundo é calculada utilizando o componente `DefaultSceneR
 > Figura: Blueprint - Print Relative location.
 
 <a name="7.1.7"></a>
-## 7.1.6 Trabalhando com herança com Blueprint
+## 7.1.7 Trabalhando com herança com Blueprint
 
 Como apresentado no conceito de classes, a herança permite usar classes já definidas para derivar novas classes, a seguir vamos verificar como implementar utilizando **Blueprint**.  
 
@@ -574,8 +576,8 @@ Adicionando uma *tag* (Etiqueta) na propriedade do ator podemos selecionar todos
 
 > Figura: Blueprint - Exemplo de GetAllActorWithTag.
 
-<a name="7.1.9"></a>
-## 7.1.9 Colisões
+<a name="7.1.10"></a>
+## 7.1.10 Colisões
 
 **Collision Responses** e **Trace Responses** formam a base de como o Unreal Engine 4 lida com colisão e transmissão de raios durante o tempo de execução. Cada objeto que pode colidir recebe um tipo de objeto e uma série de respostas que definem como ele interage com todos os outros tipos de objeto. Quando ocorre um evento de colisão ou sobreposição, ambos (ou todos) os objetos envolvidos podem ser configurados para afetar ou serem afetados pelo bloqueio, sobreposição ou ignorando um ao outro. [Collision Overview](https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Physics/Collision/Overview/)
 
