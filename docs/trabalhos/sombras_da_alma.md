@@ -30,6 +30,7 @@ layout: page
 Um passeio pelo quarto de Samantha, onde são apresentados, retratos de criança na parede, bonecas antigas mas muito tem cuidadas e um criado mudo com um abajur em formato de globo de mundo, talvez um desejo de conhecer outros lugares.
 
 >**DESCONHECIDO (V.O)**
+>
 > Quem era Samantha?
 
 ### Samantha Marquês
