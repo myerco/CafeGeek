@@ -29,6 +29,8 @@ layout: home
 
 - [Trabalhos](trabalhos/index.html)
 
+- [Sobre o Curso de Jogos Digitais](sobre_o_curso_jogos_digitais.html)
+
 **Programação em C++**
 
 - [Estrutura da linguagem](cpp/index.html)  
