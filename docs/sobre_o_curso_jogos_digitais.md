@@ -1,3 +1,10 @@
+---
+title: Sobre o Curso de Jogos Digitais
+description: Sobre o Curso de Jogos Digitais
+tags: [narrativa, Roteirização, jogos digitais]
+layout: page
+---
+
 ## O que é o curso de jogos digitais?
 O curso abrange Mecânicas, Estéticas e Dinâmicas dos jogos digitais, especificamente aprenda estruturas de desenvolvimento, roteirização ou narrativa e arte digital.
 
