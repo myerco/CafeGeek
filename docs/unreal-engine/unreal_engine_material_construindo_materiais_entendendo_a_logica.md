@@ -5,37 +5,26 @@ tags: [Unreal Engine,Materiais, material expressions, material, lógica]
 layout: page
 ---
 
-<a name="8"></a>
-## CAPÍTULO 9 - Materiais e Landscape
+<a name="9"></a>
+## CAPÍTULO 9.2 - Materiais e Landscape
 
 Neste capítulo vamos apresentar a lógica de construção de materiais, denomina *Material Expressions* no Unreal Engine e suas funções.
 
-
-&nbsp;&nbsp;[9.2 Material expressions](#9.2)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.2.1 Combinando elementos utilizando funções](#9.2.1)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.2.2 Utilizando Panner e TextCoord](#9.2.2)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.2.3 Exemplo do nó Lerp](#9.2.3)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.2.4 Texturas](#9.2.4)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.2.5 Aplicando o material no objeto](#9.2.5)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.2.6 World position Offset](#9.2.6)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.2.7 Unlit Shading Model](#9.2.7)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.2.8 Masked Blend Mode](#9.2.8)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.2.9 Translucent Blend Mode](#9.2.9)
+- [9.2.2 Combinando elementos utilizando funções](#922-combinando-elementos-utilizando-funções)
+- [9.2.3 Utilizando Panner e TextCoord](#923-utilizando-panner-e-textcoord)
+- [9.2.4 Exemplo do nó Lerp](#924-exemplo-do-nó-lerp)
+- [9.2.5 Texturas](#925-texturas)
+- [9.2.6 Aplicando o material no objeto](#926-aplicando-o-material-no-objeto)
+- [9.2.7 World position Offset](#927-world-position-offset)
+- [9.2.8 Unlit Shading Model](#928-unlit-shading-model)
+- [9.2.9 Masked Blend Mode](#929-masked-blend-mode)
+- [9.2.10 Translucent Blend Mode](#9210-translucent-blend-mode)
 
 
 ***
 
-<a name="9.2"></a>
-## 9.2 O que são Material expressions?
+<a name="9.1"></a>
+## 9.2.1 O que são Material expressions?
 Os nós de Expressão de Material ou Material Expression contêm pequenos fragmentos de código HLSL que realizam tarefas muito específicas dentro de um Material. Os materiais são construídos usando combinações de nós de Expressão de Material que são combinados para realizar certas tarefas.
 
 Conectando Material Expressions, abaixo um exemplo de conexão.       
@@ -53,8 +42,8 @@ Combinando `Material Expressions`, a área de trabalho é um modelo de programa�
 **Atenção**
 devemos considerar o tipo de valor de retorno do nó no momento da conexão para evitar erros de tipos conflitantes, por exemplo float3 * float2.
 
-<a name="9.2.1"></a>
-### 9.2.1 Combinando elementos utilizando funções
+<a name="9.2.2"></a>
+## 9.2.2 Combinando elementos utilizando funções
 
 Neste exemplo vamos combinar várias texturas e utilizar funções de manipulação para obter o resultado abaixo.
 
@@ -128,8 +117,8 @@ resul =  Add( vetor3(1,3,4) , vetor3(2,4,1)  );
 (3,7,5)
 ```
 
-<a name="9.2.2"></a>
-### 9.2.2 Utilizando Panner e TextCoord
+<a name="9.2.3"></a>
+## 9.2.3 Utilizando Panner e TextCoord
 Neste exemplo será simulado o movimento da textura no objeto.
 
 ![Figura: Blueprint Material - Function Panner](imagens/materiais/unreal_engine_material_panner.webp "Figura: Blueprint Material - Function Panner.")     
@@ -150,16 +139,16 @@ Ambas as entradas devem ter o mesmo número de valores, a menos que um dos valor
 
 - `TexCoord` - Gera coordenadas de textura UV na forma de um valor vetorial de dois canais, permitindo que os materiais usem diferentes canais UV, especifiquem ladrilhos e, de outra forma, operem nos UVs de uma malha.
 
-<a name="9.2.3"></a>
-### 9.2.3 Exemplo do nó Lerp
+<a name="9.2.4"></a>
+## 9.2.4 Exemplo do nó Lerp
 Interpola Linearmente entre A e B com base em Alfa (100% de A quando Alfa = 0 e 100% de B quando Alfa = 1)
 
 ![Figura: Blueprint Material - Exemplo de Lerp.](imagens/materiais/ue4_material_lerp_exemplo.webp "Figura: Blueprint Material - Exemplo de Lerp.")     
 
 > Figura: Blueprint Material - Exemplo de Lerp.
 
-<a name="9.2.4"></a>
-### 9.2.4 Texturas
+<a name="9.2.5"></a>
+## 9.2.5 Texturas
 A seguir vamos abordar as características das texturas no **Unreal Engine**.
 
 ![Figura: Blueprint Material - Base texture.](imagens/materiais/unreal_engine_material_texture.webp "Figura: Blueprint Material - Base texture.")     
@@ -205,16 +194,16 @@ Preto no mapa de *metalidade* significa que parte do mapa usará o mapa de albed
 Em vez disso, o branco usará a cor albedo para definir a cor e o brilho de seus reflexos e definirá a cor difusa dos materiais como preto. A cor difusa não é mais necessária neste caso porque todas as cores e detalhes daquela parte do material agora virão dos reflexos, tornando-o preto.
 
 
-<a name="9.2.5"></a>
-### 9.2.5 Aplicando o material no objeto
+<a name="9.2.6"></a>
+## 9.2.6 Aplicando o material no objeto
 Para aplicar o material em um objeto podemos selecionar o objeto e atualizamos a propriedade `MATERIALS` selecionando o material criando anteriormente.
 
 ![Figura: Blueprint Material -  Applying Material.](imagens/materiais/unreal_engine_material_applying.webp "Figura: Blueprint Material -  Applying Material.")   
 
 > Figura: Blueprint Material -  Applying Material.
 
-<a name="9.2.6"></a>
-### 9.2.6 World position Offset
+<a name="9.2.7"></a>
+## 9.2.7 World position Offset
 Permite que os vértices de uma malha sejam manipulados no espaço do mundo pelo Material. Isso é útil para fazer objetos se moverem, mudarem de forma, girarem e uma variedade de outros efeitos. Isso é útil para coisas como animação ambiente.
 
 ![Figura: Blueprint Material - World Position Offset.](imagens/materiais/unreal_engine_material_world_position_offset.webp "Figura: Blueprint Material - World Position Offset.")     
@@ -233,8 +222,8 @@ Os valores do nó Constant Vector 3, representam as coordenadas de posição do 
 
 - `Panner` - Speed X =0.05, Speed Y= 0.1.
 
-<a name="9.2.7"></a>
-### 9.2.7 Unlit Shading Model
+<a name="9.2.8"></a>
+## 9.2.8 Unlit Shading Model
 Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais como fogo ou iluminação de objetos. Observe que, neste exemplo, o Material não está projetando luz na cena. Em vez disso, seu alto valor Emissivo resulta em um efeito de brilho, que também é captado pela Máscara de Sujeira aplicada à câmera. Parece iluminar, mas nenhuma luz ou sombra será projetada por este objeto.
 
 ![Figura: Blueprint Material - Properties Unlit Shading Model.](imagens/materiais/ue4_material_properties_unlit.webp "Figura: Blueprint Material - Properties Unlit Shading Model.")     
@@ -245,8 +234,8 @@ Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais co
 
 > Figura: Material Properties blend Mode Unlit.
 
-<a name="9.2.8"></a>
-### 9.2.8 Masked Blend Mode
+<a name="9.2.9"></a>
+## 9.2.9 Masked Blend Mode
 É usado para objetos nos quais você precisa controlar seletivamente a visibilidade de forma binária (liga / desliga). Por exemplo, considere um material que simula uma cerca de arame ou grade. Você terá algumas áreas que parecem sólidas, enquanto outras são invisíveis. Esses materiais são perfeitos para o modo de `Blend Masked` .     
 
 ![Figura: Blueprint Material - Properties blend mode masked.](imagens/materiais/unreal_engine_material_properties_blend_mode_masked.webp "Figura: Blueprint Material - Properties blend mode masked.")     
@@ -260,8 +249,8 @@ Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais co
 
 > Figura: Blueprint Material - Properties blend mode masked result.
 
-<a name="9.2.9"></a>
-### 9.2.9 Translucent Blend Mode
+<a name="9.2.10"></a>
+## 9.2.10 Translucent Blend Mode
 É usado para objetos que requerem alguma forma de transparência.
 
 ![Figura: Blueprint Material - Properties blend mode Translucent.](imagens/materiais/unreal_engine_material_properties_blend_mode_translucent.webp "Figura: Blueprint Material - Properties blend mode Translucent.")  
