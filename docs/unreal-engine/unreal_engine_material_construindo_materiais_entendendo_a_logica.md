@@ -5,8 +5,7 @@ tags: [Unreal Engine,Materiais, material expressions, material, lógica]
 layout: page
 ---
 
-<a name="9"></a>
-## CAPÍTULO 9.2 - Materiais e Landscape
+## CAPÍTULO 9 - Materiais e Landscape
 
 Neste capítulo vamos apresentar a lógica de construção de materiais, denomina *Material Expressions* no Unreal Engine e suas funções.
 
@@ -23,7 +22,6 @@ Neste capítulo vamos apresentar a lógica de construção de materiais, denomin
 
 ***
 
-<a name="9.1"></a>
 ## 9.2.1 O que são Material expressions?
 Os nós de Expressão de Material ou Material Expression contêm pequenos fragmentos de código HLSL que realizam tarefas muito específicas dentro de um Material. Os materiais são construídos usando combinações de nós de Expressão de Material que são combinados para realizar certas tarefas.
 
@@ -42,7 +40,7 @@ Combinando `Material Expressions`, a área de trabalho é um modelo de programa�
 **Atenção**
 devemos considerar o tipo de valor de retorno do nó no momento da conexão para evitar erros de tipos conflitantes, por exemplo float3 * float2.
 
-<a name="9.2.2"></a>
+
 ## 9.2.2 Combinando elementos utilizando funções
 
 Neste exemplo vamos combinar várias texturas e utilizar funções de manipulação para obter o resultado abaixo.
@@ -117,7 +115,7 @@ resul =  Add( vetor3(1,3,4) , vetor3(2,4,1)  );
 (3,7,5)
 ```
 
-<a name="9.2.3"></a>
+
 ## 9.2.3 Utilizando Panner e TextCoord
 Neste exemplo será simulado o movimento da textura no objeto.
 
@@ -139,7 +137,6 @@ Ambas as entradas devem ter o mesmo número de valores, a menos que um dos valor
 
 - `TexCoord` - Gera coordenadas de textura UV na forma de um valor vetorial de dois canais, permitindo que os materiais usem diferentes canais UV, especifiquem ladrilhos e, de outra forma, operem nos UVs de uma malha.
 
-<a name="9.2.4"></a>
 ## 9.2.4 Exemplo do nó Lerp
 Interpola Linearmente entre A e B com base em Alfa (100% de A quando Alfa = 0 e 100% de B quando Alfa = 1)
 
@@ -147,7 +144,6 @@ Interpola Linearmente entre A e B com base em Alfa (100% de A quando Alfa = 0 e 
 
 > Figura: Blueprint Material - Exemplo de Lerp.
 
-<a name="9.2.5"></a>
 ## 9.2.5 Texturas
 A seguir vamos abordar as características das texturas no **Unreal Engine**.
 
@@ -194,7 +190,6 @@ Preto no mapa de *metalidade* significa que parte do mapa usará o mapa de albed
 Em vez disso, o branco usará a cor albedo para definir a cor e o brilho de seus reflexos e definirá a cor difusa dos materiais como preto. A cor difusa não é mais necessária neste caso porque todas as cores e detalhes daquela parte do material agora virão dos reflexos, tornando-o preto.
 
 
-<a name="9.2.6"></a>
 ## 9.2.6 Aplicando o material no objeto
 Para aplicar o material em um objeto podemos selecionar o objeto e atualizamos a propriedade `MATERIALS` selecionando o material criando anteriormente.
 
@@ -202,7 +197,6 @@ Para aplicar o material em um objeto podemos selecionar o objeto e atualizamos a
 
 > Figura: Blueprint Material -  Applying Material.
 
-<a name="9.2.7"></a>
 ## 9.2.7 World position Offset
 Permite que os vértices de uma malha sejam manipulados no espaço do mundo pelo Material. Isso é útil para fazer objetos se moverem, mudarem de forma, girarem e uma variedade de outros efeitos. Isso é útil para coisas como animação ambiente.
 
@@ -222,7 +216,6 @@ Os valores do nó Constant Vector 3, representam as coordenadas de posição do 
 
 - `Panner` - Speed X =0.05, Speed Y= 0.1.
 
-<a name="9.2.8"></a>
 ## 9.2.8 Unlit Shading Model
 Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais como fogo ou iluminação de objetos. Observe que, neste exemplo, o Material não está projetando luz na cena. Em vez disso, seu alto valor Emissivo resulta em um efeito de brilho, que também é captado pela Máscara de Sujeira aplicada à câmera. Parece iluminar, mas nenhuma luz ou sombra será projetada por este objeto.
 
@@ -234,7 +227,6 @@ Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais co
 
 > Figura: Material Properties blend Mode Unlit.
 
-<a name="9.2.9"></a>
 ## 9.2.9 Masked Blend Mode
 É usado para objetos nos quais você precisa controlar seletivamente a visibilidade de forma binária (liga / desliga). Por exemplo, considere um material que simula uma cerca de arame ou grade. Você terá algumas áreas que parecem sólidas, enquanto outras são invisíveis. Esses materiais são perfeitos para o modo de `Blend Masked` .     
 
@@ -249,7 +241,6 @@ Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais co
 
 > Figura: Blueprint Material - Properties blend mode masked result.
 
-<a name="9.2.10"></a>
 ## 9.2.10 Translucent Blend Mode
 É usado para objetos que requerem alguma forma de transparência.
 
