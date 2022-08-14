@@ -45,8 +45,22 @@ layout: page
 
 [**Material Instance**](unreal_engine_material_instance.html)
 
-&nbsp;&nbsp;[Materiais e Blueprint](unreal_engine_material_blueprint.html)
+&nbsp;&nbsp;[O que é Material Instance?](unreal_engine_material_instance.html#o-que-é-material-instance-)
 
-&nbsp;&nbsp;[Trabalhando com Iluminação](iluminacao.html)
+&nbsp;&nbsp;[Editor de material Instance](unreal_engine_material_instance.html#editor-de-material-instance)
 
-&nbsp;&nbsp;[Criando terrenos - Landscape](landscape.html)  
+&nbsp;&nbsp;[Switch Parameter](unreal_engine_material_instance.html#switch-parameter)
+
+&nbsp;&nbsp;[Organizando parâmetros e definindo valor máximo e mínimo](unreal_engine_material_instance.html#organizando-par-metros-e-definindo-valor-m-ximo-e-m-nimo)
+
+[**Materiais e Blueprint**](unreal_engine_material_blueprint.html)
+
+&nbsp;&nbsp;[Como podemos manipular materiais com Blueprints?](unreal_engine_material_blueprint.html#como-podemos-manipular-materiais-com-blueprints-)
+
+&nbsp;&nbsp;[Parameter Global](unreal_engine_material_blueprint.html#parameter-global)
+
+&nbsp;&nbsp;[Material Function](unreal_engine_material_blueprint.html#material-function)
+
+[**Trabalhando com Iluminação**](iluminacao.html)
+
+[**Criando terrenos - Landscape**](landscape.html)
