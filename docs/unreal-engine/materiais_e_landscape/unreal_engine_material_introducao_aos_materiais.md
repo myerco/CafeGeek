@@ -5,31 +5,8 @@ tags: [Unreal Engine,Materiais, material Function, material]
 layout: page
 ---
 
-<a name="8"></a>
-## CAPÍTULO 9 - Materiais e Landscape
 
-Neste capítulo vamos apresentar o que são materiais e a sua estrutura.
-
-
-&nbsp;&nbsp;[9.1 O que é um material?](#9.1)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.1.1 Materiais de base física - PBR](#9.1.1)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.1.2 Estrutura do Material no Unreal Engine](#9.1.2 )
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.1.3 O Nó principal ou Node Result](#9.1.3)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.1.4 Propriedades do nó principal](#9.1.4)    
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.1.5 Valores que determinam a física](#9.1.5)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[9.1.6 Texture samples](#9.1.6)
-
-
-***
-
-<a name="9.1"></a>
-## 9.1 O que é um material?
+## O que é um material?
 Podemos definir como uma coleção de imagens e instruções computacionais que são adicionadas a superfícies poligonais. Contudo materiais não são somente cores mas representação de imperfeições da superfície a qual foram aplicadas, como por exemplo, rasuras, aspereza e transparência.
 
 ![Figura: Material - Unreal Engine](https://cdn2.unrealengine.com/Unreal+Engine%2Fonlinelearning-courses%2Fmaterials---exploring-essential-concepts%2FMaterialEssentialConcepts-1920x1080-1920x1080-2414bb5cf0b0c3bd7ac4b993e725d2acedd45334.png?resize=1&w=1400 "Figura: Material - Unreal Engine.")
@@ -38,16 +15,16 @@ Podemos definir como uma coleção de imagens e instruções computacionais que 
 
 No exemplo acima podemos verificar uma esfera com diferentes tipos de materiais adicionados na sua superfície, onde cada um interage de forma diferente a iluminação.
 
-<a name="9.1.1"></a>
-### 9.1.1 Materiais de base física - PBR
+
+## Materiais de base física - PBR
 PBR *Physically Based Rendering* significa que o material descreve as propriedades visuais de uma superfície de uma maneira realmente plausível, de modo que os resultados realistas sejam possíveis em todas as condições de iluminação.
 
-![Figura: Material PBR - https://www.pikpng.com.](imagens/materiais/material_pbr.webp "Figura: Material PBR - https://www.pikpng.com.")
+![Figura: Material PBR - https://www.pikpng.com.](../../imagens/materiais/material_pbr.webp "Figura: Material PBR - https://www.pikpng.com.")
 
 > Figura: Material PBR - https://www.pikpng.com.
 
-<a name="9.1.2"></a>
-### 9.1.1 Estrutura do Material no Unreal Engine.
+
+## Estrutura do Material no Unreal Engine.
 
 A primeira e mais importante coisa a saber sobre os Materiais é que eles não são construídos por meio de código, mas por meio de uma rede de nós de script visual (chamados de Expressões de Material) dentro do Editor de Material. Cada nó contém um fragmento de código HLSL, designado para executar uma tarefa específica.
 
@@ -57,7 +34,7 @@ Para criar um material utilizamos o menu de contexto e a opção `Material`.
 
 1. Utilize Menu de contexto para criar um material;     
 
-  ![Figura: Contex Menu > Material.](imagens/materiais/unreal_engine_menu_material.webp "Figura: Contex Menu > Material.")      
+  ![Figura: Contex Menu > Material.](../../imagens/materiais/unreal_engine_menu_material.webp "Figura: Contex Menu > Material.")      
 
   > Figura: Contex Menu > Material.
 
@@ -81,14 +58,13 @@ Para criar um material utilizamos o menu de contexto e a opção `Material`.
 
 1. Lista de funções ou nós disponíveis.
 
-<a name="9.1.3"></a>
-### 9.1.3 O Nó principal ou Node Result
+## O Nó principal ou Node Result
 
 O nó principal do material é responsável por exibir os resultados de todos os nós da *Expressão de Material* que são inseridos nele nas várias entradas. Cada entrada no nó Material Principal tem um efeito exclusivo sobre a aparência e o desempenho do Material.
 
 Abaixo o nó principal e suas principais entradas.
 
-![Figura: Blueprint Material - Nó principal ou Node Result.](imagens/materiais/unreal_engine_node_result_properties.webp "Figura: Blueprint Material - Nó principal ou Node Result.")     
+![Figura: Blueprint Material - Nó principal ou Node Result.](../imagens/materiais/unreal_engine_node_result_properties.webp "Figura: Blueprint Material - Nó principal ou Node Result.")     
 
 > Figura: Blueprint Material - Nó principal ou Node Result.
 
@@ -101,8 +77,7 @@ Abaixo o nó principal e suas principais entradas.
 - `Emissive`      
   Dá aos artistas uma maneira muito barata e eficaz de dar a ilusão de que um Material está lançando luz quando na verdade não está. Os materiais emissivos fazem isso permitindo que o artista empurre os valores da entrada emissiva acima de 1,0, o que empurrará o material para a faixa HDR, emitindo um efeito Bloom que você pode ver ao olhar para uma fonte de luz muito brilhante.   
 
-<a name="9.1.4"></a>
-### 9.1.2 Propriedades do nó principal
+## Propriedades do nó principal
 Nem todas as entradas serão úteis para cada tipo de material que você criar. Por exemplo, ao desenvolver uma Função de Luz - um Material que é aplicado a uma luz - você só pode usar a entrada Cor Emissiva no material e nada mais, visto que outras entradas, como Metálico ou Aspereza, não seriam aplicáveis. Por isso, é importante saber que tipo de material você está criando antes de começar a se preocupar muito com as entradas. As três propriedades de controle primárias são:
 
 **Blend Mode.**
@@ -144,26 +119,27 @@ Controla como o material deve ser usado, por exemplo, se ele deve fazer parte de
 
 - `Virtual Texture` - Usado ao fazer uma textura virtual em tempo de execução;
 
-![Figura: Blueprint Material- Type input](imagens/materiais/unreal_engine_material_type_input.webp "Figura: Blueprint Material- Type input.")     
+![Figura: Blueprint Material- Type input](../imagens/materiais/unreal_engine_material_type_input.webp "Figura: Blueprint Material- Type input.")     
 
 > Figura: Blueprint Material- Type input.
 
-<a name="9.1.5"></a>
-## 9.1.5 Valores que determinam a física
+
+## Valores que determinam a física
+
 Existem variáveis ou nós específicos para determinar uma propriedade física do material, por exemplo um valor `float` com valores entre 0 e 1 que expressam a escala de tonalidades de cor, sombra e pedaços (pixels) de uma área.
 
 - Constant 1 ou valor escalar- Valor único.     
-  ![Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó.](imagens/materiais/unreal_engine_material_node_constant_1.webp "Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó.")         
+  ![Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó.](../imagens/materiais/unreal_engine_material_node_constant_1.webp "Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó.")         
 
   > Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó.
 
 - Constant 2 - Vetor de dois valores.      
-  ![Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó.](imagens/materiais/unreal_engine_material_node_constant_2.webp "Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó.")     
+  ![Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó.](../imagens/materiais/unreal_engine_material_node_constant_2.webp "Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó.")     
 
   > Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó.
 
 - Constant 3 - Vetor de três valores.     
-  ![Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó.](imagens/materiais/unreal_engine_material_node_constant_3.webp "Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó.")     
+  ![Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó.](../imagens/materiais/unreal_engine_material_node_constant_3.webp "Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó.")     
 
   > Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó.
 
@@ -171,7 +147,7 @@ Existem variáveis ou nós específicos para determinar uma propriedade física 
 ### 9.1.6 Texture samples
 Texturas são imagens que são usadas em materiais e são representadas pelo nó abaixo.  
 
-![Figura: Blueprint Material texture - (Clicando T + RMB).](imagens/materiais/unreal_engine_material_node_texture_sample.webp "Figura: Blueprint Material texture - (Clicando T + RMB).")       
+![Figura: Blueprint Material texture - (Clicando T + RMB).](../imagens/materiais/unreal_engine_material_node_texture_sample.webp "Figura: Blueprint Material texture - (Clicando T + RMB).")       
 
 > Figura: Blueprint Material texture - (Clicando T + RMB).
 
