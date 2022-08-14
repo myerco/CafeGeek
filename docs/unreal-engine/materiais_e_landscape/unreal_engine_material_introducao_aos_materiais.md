@@ -7,6 +7,7 @@ layout: page
 
 
 ## O que é um material?
+
 Podemos definir como uma coleção de imagens e instruções computacionais que são adicionadas a superfícies poligonais. Contudo materiais não são somente cores mas representação de imperfeições da superfície a qual foram aplicadas, como por exemplo, rasuras, aspereza e transparência.
 
 ![Figura: Material - Unreal Engine](https://cdn2.unrealengine.com/Unreal+Engine%2Fonlinelearning-courses%2Fmaterials---exploring-essential-concepts%2FMaterialEssentialConcepts-1920x1080-1920x1080-2414bb5cf0b0c3bd7ac4b993e725d2acedd45334.png?resize=1&w=1400 "Figura: Material - Unreal Engine.")
@@ -17,6 +18,7 @@ No exemplo acima podemos verificar uma esfera com diferentes tipos de materiais 
 
 
 ## Materiais de base física - PBR
+
 PBR *Physically Based Rendering* significa que o material descreve as propriedades visuais de uma superfície de uma maneira realmente plausível, de modo que os resultados realistas sejam possíveis em todas as condições de iluminação.
 
 ![Figura: Material PBR - https://www.pikpng.com.](../../imagens/materiais/material_pbr.webp "Figura: Material PBR - https://www.pikpng.com.")
