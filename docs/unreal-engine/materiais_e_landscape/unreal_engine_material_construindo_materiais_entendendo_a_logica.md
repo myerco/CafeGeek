@@ -21,8 +21,7 @@ Conectando Material Expressions, abaixo um exemplo de conexão.
 
 Combinando `Material Expressions`, a área de trabalho é um modelo de programação visual que permite combinar variáveis e funções para construir a estrutura final. Cada nó apresenta uma saída para o próximo nó.
 
-**Atenção**
-devemos considerar o tipo de valor de retorno do nó no momento da conexão para evitar erros de tipos conflitantes, por exemplo float3 * float2.
+> **Atenção** - Devemos considerar o tipo de valor de retorno do nó no momento da conexão para evitar erros de tipos conflitantes, por exemplo float3 * float2.
 
 ## Combinando elementos utilizando funções
 
@@ -38,27 +37,25 @@ Neste exemplo vamos combinar várias texturas e utilizar funções de manipulaç
 
 > Figura: Blueprint Material - Lógica da combinação de texturas.
 
-`Base Color 1`
+- `Base Color 1` - Cada pixel do canal R da textura é multiplicado pela cor.
 
-Cada pixel do canal R da textura é multiplicado pela cor.
+  ![Figura: Blueprint Material - Channel R Texture Wood Pine.](../imagens/materiais/unreal_engine_material_chanel_r_wood_pine.webp "Figura: Blueprint Material - Channel R Texture Wood Pine.")
 
-![Figura: Blueprint Material - Channel R Texture Wood Pine.](../imagens/materiais/unreal_engine_material_chanel_r_wood_pine.webp "Figura: Blueprint Material - Channel R Texture Wood Pine.")
+  > Figura: Blueprint Material - Channel R Texture Wood Pine.
 
-> Figura: Blueprint Material - Channel R Texture Wood Pine.
+  - O valor 1 = branco e 0 = preto.
 
-- O valor 1 = branco e 0 = preto.
+- `Base Color 2` 
 
-`Base Color 2`
+- `Lerp` - Recebe o resultado da multiplicação e dos canais RGB da textura para do passo anterior. No parâmetro  Alpha é informado o canal G textura.
 
-`Lerp` recebe o resultado da multiplicação e dos canais RGB da textura para do passo anterior. No parâmetro  Alpha é informado o canal G textura.
+  ![Figura: Blueprint Material - Channel G Texture Ceramic Tile.](../imagens/materiais/unreal_engine_material_chanel_g_ceramic_tile.webp "Figura: Blueprint Material - Channel G Texture Ceramic Tile.")
 
-![Figura: Blueprint Material - Channel G Texture Ceramic Tile.](../imagens/materiais/unreal_engine_material_chanel_g_ceramic_tile.webp "Figura: Blueprint Material - Channel G Texture Ceramic Tile.")
+  > Figura: Blueprint Material - Channel G Texture Ceramic Tile.
 
-> Figura: Blueprint Material - Channel G Texture Ceramic Tile.
+  Neste passo o valores 0 (branco) e 1 (preto) são multiplicados.
 
-Neste passo o valores 0 (branco) e 1 (preto) são multiplicados.
-
-**Exemplo de multiplicação entre vetores.**
+Exemplo de multiplicação entre vetores.
 
 ```c++
   resul =  ( Vetor3(0.0664,0.0366,0.401) * Vetor3(0,1,0) );
@@ -68,15 +65,15 @@ Neste passo o valores 0 (branco) e 1 (preto) são multiplicados.
 
 - `Multiply` multiplica o canal R da textura com o resultado do Lerp.
 
-![Figura: Blueprint Material - Channel R Texture Ceramic Tile.](../imagens/materiais/unreal_engine_material_chanel_r_ceramic_tile.webp "Figura: Blueprint Material - Channel R Texture Ceramic Tile.")
+  ![Figura: Blueprint Material - Channel R Texture Ceramic Tile.](../imagens/materiais/unreal_engine_material_chanel_r_ceramic_tile.webp "Figura: Blueprint Material - Channel R Texture Ceramic Tile.")
 
-> Figura: Blueprint Material - Channel R Texture Ceramic Tile.
+  > Figura: Blueprint Material - Channel R Texture Ceramic Tile.
 
-`Normal Map.`
+- `Normal Map` - Mapa normal.
 
-![Figura: Blueprint Material - Texture Normal.](../imagens/materiais/unreal_engine_material_mask_add_append.webp "Figura: Blueprint Material - Texture Normal.")
+  ![Figura: Blueprint Material - Texture Normal.](../imagens/materiais/unreal_engine_material_mask_add_append.webp "Figura: Blueprint Material - Texture Normal.")
 
-> Figura: Blueprint Material - Texture Normal.
+  > Figura: Blueprint Material - Texture Normal.
 
 - `Mask` - Filtra os canais passados como parâmetro;
 
@@ -107,7 +104,7 @@ Neste exemplo será simulado o movimento da textura no objeto.
 
 > Figura: Blueprint Material - Function Panner.
 
-**Lógica**
+Representação da lógica. 
 
 ```c++
   M_Base =  ( TexturaSample( panner(TexCoord(),0.1,0) ) * Vetor3(0.0664,0.0366,0.401));
@@ -137,7 +134,7 @@ A seguir vamos abordar as características das texturas no **Unreal Engine**.
 
 > Figura: Blueprint Material - Base texture.
 
-**Roughness - rugosidade.**
+### Roughness - rugosidade
 
 `Roughness` (Aspereza e também chamada de brilho ou dispersão da micro-superfície) é um mapa semi-autoexplicativo. Eles definem como a luz é espalhada pela superfície do seu modelo.
 Isso começa com um valor de zero, onde seu modelo não dispersará a luz, tornando os reflexos e a iluminação muito mais nítidos e brilhantes em seu material.
@@ -149,7 +146,7 @@ Para exemplificar utilizaremos o canal A (Alpha) da textura `Rock Basalt`.
 
 > Figura: Blueprint Material - Texture Roughness - Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante.
 
-**Normal - Coordenadas normals**
+### Normal - Coordenadas normals
 
 Usado para simular a maneira como a luz interage com a superfície do material para simular saliências e amassados menores.
 É importante observar que um mapa normal não mudará sua geometria base (consulte os mapas de altura posteriormente neste artigo).
@@ -160,7 +157,7 @@ Usado para simular a maneira como a luz interage com a superfície do material p
 
 A cor base de um mapa normal é roxo claro, esta é a “parte inferior” do mapa normal que representa a superfície de sua malha poligonal. A partir daí, os valores RGB são usados para produzir rachaduras, saliências ou poros em seu modelo. Os valores R, G e B são iguais às coordenadas X, Y e Z em sua malha base.
 
-**Metallic - Metálica.**
+### Metallic - Metálica
 
 É usado para definir se o seu material (ou parte dele) é metal puro.
 Os mapas de metal também são em tons de cinza, mas a prática recomendada é usar apenas os valores de branco e preto e fazer as variações entre o uso de seus mapas de rugosidade.
@@ -192,7 +189,7 @@ Permite que os vértices de uma malha sejam manipulados no espaço do mundo pelo
 
 Os valores do nó Constant Vector 3, representam as coordenadas de posição do mundo (x,y,z) respectivamente.
 
-**Exemplo.**
+Exemplo:
 
 ![Figura: Blueprint Material - World Position offset.](../imagens/materiais/unreal_engine_material_world_position_offset_panner.webp "Figura: Blueprint Material - World Position offset.")
 

@@ -32,7 +32,6 @@ Podemos manipular os objetos do tipo material com scripts Blueprint.
 
     > Figura: Blueprint Material - Open Level blueprint call event.
 
-
 ## Parameter Global
 
 Podemos definir parâmetros globais para que os materiais possam referenciar parâmetros escalares e vetoriais.

@@ -9,7 +9,7 @@ layout: page
 
 A **Mateial Instance** ou Instanciação de Material é uma maneira de criar um Material pai, que pode então ser usado como base para fazer uma ampla variedade de Materiais filhos de aparência diferente. Para obter essa flexibilidade, o **Material Instancing** usa um conceito chamado herança: as propriedades do pai são fornecidas aos seus filhos. Aqui está um exemplo de herança de material em ação.
 
-**Convertendo nós em parâmetros.**
+### Convertendo nós em parâmetros.
 
 Convertemos os nós em parâmetros para que possam ser manipulados posteriormente pelo **Material Instance**. Para que possamos exemplificar segue abaixo os passos.
 
@@ -42,7 +42,7 @@ Convertemos os nós em parâmetros para que possam ser manipulados posteriorment
 - Scalar Parameter Values:  Valores escalares;
 - Metallic, Roughness: Vector Parameter Values : Color (R,G,B,A), UVTiling(R,G,B,A).
 
-**Criando Material Instance.**
+### Criando Material Instance
 
 Selecione o material `M_Base_Master` ou outro material e com o botão direito acione o menu de contexto e escolha `Create Material Instance`.
 
