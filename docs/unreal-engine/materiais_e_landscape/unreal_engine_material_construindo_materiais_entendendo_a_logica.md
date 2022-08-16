@@ -5,24 +5,6 @@ tags: [Unreal Engine,Materiais, material expressions, material, lógica]
 layout: page
 ---
 
-## O que são Material expressions?
-
-Os nós de Expressão de Material ou Material Expression contêm pequenos fragmentos de código HLSL que realizam tarefas muito específicas dentro de um Material. Os materiais são construídos usando combinações de nós de Expressão de Material que são combinados para realizar certas tarefas.
-
-Conectando Material Expressions, abaixo um exemplo de conexão.
-
-![Figura: Blueprint Material - Exemplo de connection.](../imagens/materiais/unreal_engine_material_connection.webp "Figura: Blueprint Material - Exemplo de connection.")
-
-> Figura: Blueprint Material - Exemplo de connection.
-
-- Botão direito do mouse em qualquer área de trabalho (RMB) abre a lista de nós disponíveis;
-
-- É possível fazer a busca de nós na aba `Palette` e arrastar com o mouse na área de trabalho.
-
-Combinando `Material Expressions`, a área de trabalho é um modelo de programação visual que permite combinar variáveis e funções para construir a estrutura final. Cada nó apresenta uma saída para o próximo nó.
-
-> **Atenção** - Devemos considerar o tipo de valor de retorno do nó no momento da conexão para evitar erros de tipos conflitantes, por exemplo float3 * float2.
-
 ## Combinando elementos utilizando funções
 
 Neste exemplo vamos combinar várias texturas e utilizar funções de manipulação para obter o resultado abaixo.
@@ -125,59 +107,6 @@ Interpola Linearmente entre A e B com base em Alfa (100% de A quando Alfa = 0 e 
 ![Figura: Blueprint Material - Exemplo de Lerp.](../imagens/materiais/ue4_material_lerp_exemplo.webp "Figura: Blueprint Material - Exemplo de Lerp.")
 
 > Figura: Blueprint Material - Exemplo de Lerp.
-
-## Texturas
-
-A seguir vamos abordar as características das texturas no **Unreal Engine**.
-
-![Figura: Blueprint Material - Base texture.](../imagens/materiais/unreal_engine_material_texture.webp "Figura: Blueprint Material - Base texture.")
-
-> Figura: Blueprint Material - Base texture.
-
-### Roughness - rugosidade
-
-`Roughness` (Aspereza e também chamada de brilho ou dispersão da micro-superfície) é um mapa semi-autoexplicativo. Eles definem como a luz é espalhada pela superfície do seu modelo.
-Isso começa com um valor de zero, onde seu modelo não dispersará a luz, tornando os reflexos e a iluminação muito mais nítidos e brilhantes em seu material.
-Por outro lado, se você aumentar a rugosidade ao máximo, a luz se espalhará mais pelo material. Isso faz com que a iluminação e os reflexos se espalhem pelo modelo, mas pareçam muito mais escuros.
-
-Para exemplificar utilizaremos o canal A (Alpha) da textura `Rock Basalt`.
-
-![Figura: Blueprint Material - Texture Roughness - Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante.](../imagens/materiais/unreal_engine_material_chanel_a_rock_basalt.webp "Figura: Blueprint Material - Texture Roughness - Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante.")
-
-> Figura: Blueprint Material - Texture Roughness - Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante.
-
-### Normal - Coordenadas normals
-
-Usado para simular a maneira como a luz interage com a superfície do material para simular saliências e amassados menores.
-É importante observar que um mapa normal não mudará sua geometria base (consulte os mapas de altura posteriormente neste artigo).
-
-![Figura: Blueprint Material - Texture Normal.](../imagens/materiais/unreal_engine_material_normal_rock_basalt.webp "Figura: Blueprint Material - Texture Normal.")
-
-> Figura: Blueprint Material - Texture Normal.
-
-A cor base de um mapa normal é roxo claro, esta é a “parte inferior” do mapa normal que representa a superfície de sua malha poligonal. A partir daí, os valores RGB são usados para produzir rachaduras, saliências ou poros em seu modelo. Os valores R, G e B são iguais às coordenadas X, Y e Z em sua malha base.
-
-### Metallic - Metálica
-
-É usado para definir se o seu material (ou parte dele) é metal puro.
-Os mapas de metal também são em tons de cinza, mas a prática recomendada é usar apenas os valores de branco e preto e fazer as variações entre o uso de seus mapas de rugosidade.
-
-Para exemplificar utilizaremos o canal R (Red) da textura *Rock Basalt*.
-
-![Figura: Blueprint Material - Texture Metallic.](../imagens/materiais/unreal_engine_material_chanel_r_rock_basalt.webp "Figura: Blueprint Material - Texture Metallic.")
-
-> Figura: Blueprint Material - Texture Metallic.
-
-Preto no mapa de *metalidade* significa que parte do mapa usará o mapa de albedo como a cor difusa (a cor que a textura mostra quando é atingida pela luz).
-Em vez disso, o branco usará a cor albedo para definir a cor e o brilho de seus reflexos e definirá a cor difusa dos materiais como preto. A cor difusa não é mais necessária neste caso porque todas as cores e detalhes daquela parte do material agora virão dos reflexos, tornando-o preto.
-
-## Aplicando o material no objeto
-
-Para aplicar o material em um objeto podemos selecionar o objeto e atualizamos a propriedade `MATERIALS` selecionando o material criando anteriormente.
-
-![Figura: Blueprint Material -  Applying Material.](../imagens/materiais/unreal_engine_material_applying.webp "Figura: Blueprint Material -  Applying Material.")
-
-> Figura: Blueprint Material -  Applying Material.
 
 ## World position Offset
 
