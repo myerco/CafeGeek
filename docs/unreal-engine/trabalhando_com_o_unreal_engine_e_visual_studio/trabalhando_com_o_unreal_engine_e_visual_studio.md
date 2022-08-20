@@ -141,7 +141,7 @@ Após criar o projeto vamos verificar como estão as pastas criadas pela *engine
 
 A seguir vamos entender as pastas do projeto.
 
-## Pasta de código C++ - Source
+### Pasta de código C++ - Source
 
 A pasta `Source` contém arquivos com código fonte em **C++** e o arquivo com extensão *uproject* é o principal arquivo do projeto, segue abaixo a configuração inicial.
 
@@ -155,11 +155,11 @@ A pasta `Source` contém arquivos com código fonte em **C++** e o arquivo com e
 		|-- ProjetoAula.Target.cs
 ```
 
-## Pasta principal do projeto - Content
+### Pasta principal do projeto - Content
 
 `Content` é a principal pasta, pois nela vão ficar contidos todos os arquivos do jogo, em outras palavras esta pasta é o ponto de montagem do projeto como veremos nos próximos capítulos.
 
-## Pastas temporárias que podem ser removidas
+### Pastas temporárias que podem ser removidas
 
 As pastas abaixo podem ser removidas pois podemos construir a qualquer momento quando compilar o projeto.
 
@@ -170,7 +170,7 @@ As pastas abaixo podem ser removidas pois podemos construir a qualquer momento q
 |-- Saved
 ```
 
-## Nomenclatura de pastas
+### Nomenclatura de pastas
 
 É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto, abaixo duas boas recomendações de organização, discutiremos mais nos próximos capítulos.    
 - [Directory Structure](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html "Directory Structure Overview of the directories that make up the engine and game projects.");
