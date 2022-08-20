@@ -14,7 +14,7 @@ Podemos manipular os objetos do tipo material com scripts Blueprint.
 
 3. Lógica para criar o material e a textura: `Create material instance > Set Texture Parameter Value`.
 
-    ![Figura: Blueprint Material - Create material instance set.](../imagens/materiais/ue4_material_bp_create_material_instance_set.webp "Figura: Blueprint Material - Create material instance set.")   
+    ![Figura: Blueprint Material - Create material instance set.](../imagens/materiais/ue4_material_bp_create_material_instance_set.webp "Figura: Blueprint Material - Create material instance set.")
 
     > Figura: Blueprint Material - Create material instance set.
 
@@ -28,7 +28,7 @@ Podemos manipular os objetos do tipo material com scripts Blueprint.
 
 4. No Level Blueprint implemente a lógica para chamar o Evento **MudaCorEvento**.
 
-    ![Figura: Blueprint Material - Open Level blueprint call event.](../imagens/materiais/ue4_material_bp_level_blueprint_call_event.webp "Figura: Blueprint Material - Open Level blueprint call event.")   
+    ![Figura: Blueprint Material - Open Level blueprint call event.](../imagens/materiais/ue4_material_bp_level_blueprint_call_event.webp "Figura: Blueprint Material - Open Level blueprint call event.")
 
     > Figura: Blueprint Material - Open Level blueprint call event.
 
@@ -58,7 +58,7 @@ Podemos definir parâmetros globais para que os materiais possam referenciar par
 
 ## Material Function
 
-**Mateial Functions** ou Funções de material são pequenos fragmentos de códigos gráficos de material que podem ser salvos em pacotes e reutilizados em vários materiais, em outras palavras são funções de programação. Seu objetivo é agilizar o processo de criação de material, dando acesso instantâneo a redes comumente usadas de nós materiais.    
+**Mateial Functions** ou Funções de material são pequenos fragmentos de códigos gráficos de material que podem ser salvos em pacotes e reutilizados em vários materiais, em outras palavras são funções de programação. Seu objetivo é agilizar o processo de criação de material, dando acesso instantâneo a redes comumente usadas de nós materiais.
 São compostas basicamente por entradas de parâmetros e saída de dados.
 
 1. Utilizamos o menu de Context `Material & Textures` > `Material Function`;

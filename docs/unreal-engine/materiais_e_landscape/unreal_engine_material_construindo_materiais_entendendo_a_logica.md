@@ -27,7 +27,7 @@ Neste exemplo vamos combinar várias texturas e utilizar funções de manipulaç
 
   - O valor 1 = branco e 0 = preto.
 
-- `Base Color 2` 
+- `Base Color 2`
 
 - `Lerp` - Recebe o resultado da multiplicação e dos canais RGB da textura para do passo anterior. No parâmetro  Alpha é informado o canal G textura.
 
@@ -86,7 +86,7 @@ Neste exemplo será simulado o movimento da textura no objeto.
 
 > Figura: Blueprint Material - Function Panner.
 
-Representação da lógica. 
+Representação da lógica.
 
 ```c++
   M_Base =  ( TexturaSample( panner(TexCoord(),0.1,0) ) * Vetor3(0.0664,0.0366,0.401));
