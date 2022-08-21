@@ -5,28 +5,13 @@ tags: [Unreal Engine, Animação,Blend Space 1D,Blend Space]
 layout: page
 ---
 
-<a name="10"></a>
-## CAPÍTULO 10 - Animação de personagens
-
-Em este capítulo iremos implementar várias animações utilizando um eixo de movimentação utilizando o elemento e editor `Blend space 1D` e `Blend space`.
-
 ![Figura: Unreal Engine Preparando o Projeto](imagens/animacao/unreal_engine_animation_blend_space.webp)
 
-&nbsp;&nbsp;[10.3 O que é Blend Space?](#10.3)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[10.3.1 Blend Space 1D](#10.3.1)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[10.3.2 Blend Space](#10.3.2)
-
-
-***
-
-<a name="10.3"></a>
-## 10.3 O que é Blend Space?
+## O que é Blend Space?
 
 O objetivo do `Blend Space` é reduzir a necessidade de criar nós individuais codificados para mesclar animações com um editor que realiza a mesclagem com base em propriedades ou condições específicas. Permitindo que o animador ou programador especifique as entradas, as animações e como as entradas são usadas para mesclar entre as animações, virtualmente qualquer tipo de mesclagem pode ser executado usando o Blend Space.
 
-**Carregando o editor.**
+### Carregando o editor
 
 Para carregar o editor de animação na horizontal usamos o menu de contexto `Animation` > `Blend Space 1D`.
 
@@ -36,9 +21,9 @@ Para carregar o editor de animação na horizontal usamos o menu de contexto `An
 
 Nos próximos passos vamos criar várias sequencias de animações para o personagem BP_Human.
 
-<a name="10.3.1"></a>
-### 10.3.1 Blend Space 1D
-Os Blend Spaces também podem ser criados em um formato unidimensional, conhecido como `Blend Space 1D`. Eles podem se misturar entre qualquer número de poses ou animações, mas o fazem com base em um único valor de entrada. Um exemplo de caso de uso para um` Blend Space 1D` seria quando você tem um personagem que se orienta automaticamente na direção em que está se movendo. Se o personagem não pode se desviar ou se mover em várias direções, um Blend Space 1D pode ser usado para se misturar de um Idle a um Walk e, finalmente, a Run com base em um único valor de Speed (como mostrado no exemplo abaixo).
+## Blend Space 1D
+
+Os Blend Spaces também podem ser criados em um formato unidimensional, conhecido como `Blend Space 1D`. Eles podem se misturar entre qualquer número de poses ou animações, mas o fazem com base em um único valor de entrada. Um exemplo de caso de uso para um`Blend Space 1D` seria quando você tem um personagem que se orienta automaticamente na direção em que está se movendo. Se o personagem não pode se desviar ou se mover em várias direções, um Blend Space 1D pode ser usado para se misturar de um Idle a um Walk e, finalmente, a Run com base em um único valor de Speed (como mostrado no exemplo abaixo).
 
 Utilizamos o este elemento quando temos somente um parâmetro para controle da mudança de animações, neste caso o eixo horizontal com o parâmetro `Speed`.
 
@@ -86,14 +71,14 @@ Para criar a movimentação no eixo horizontal vamos arrastar os elementos apres
 
 - Mutant_Run em tempo 220;  
 
-**Vídeo Animation Blend Space 1D.**
+## Vídeo Animation Blend Space 1D
 
 [![Vídeo: Unreal Engine - Animation Blend Space 1D.](http://img.youtube.com/vi/arRhm3KRUR0/0.jpg)](https://youtu.be/arRhm3KRUR0 "Vídeo: Unreal Engine - Animation Blend Space 1D.")
 
 > Vídeo: Unreal Engine - Animation Blend Space 1D.
 
-<a name="10.3.2"></a>
-### 10.3.2 Blend Space
+## Blend Space
+
 Este elemento é utilizado quanto existem dois parâmetros para controle das animações por exemplo: Direction/Direção e Speed/Velocidade.
 
 Menu de contexto `Animation` > `Blend Space`.

@@ -5,23 +5,12 @@ tags: [Unreal Engine, Animação]
 layout: page
 ---
 
-<a name="10"></a>
-## CAPÍTULO 10 - Animação de personagens
-
-Neste capitulo vamos apresentar a animação Aim Offset.
-
-
-&nbsp;&nbsp;[10.5 Aim Offset](#10.5)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[10.5.1 Preparando o projeto](#10.5.1)
-
 ***
 
-<a name="10.5"></a>
-## 10.5 Aim Offset
+## Aim Offset
 Um Aim Offset é um recurso que armazena uma série de poses que podem ser combinadas para ajudar um personagem a apontar uma arma. Durante a animação, o resultado do Aim Offset é misturado com outros movimentos, como correr, caminhar, pular, etc. para fazer com que o personagem pareça olhar suavemente em todas as direções.
 
-**Animation Starter Pack.**
+### Animation Starter Pack
 
 A **Epic Store** oferece um pacote de animações para o Mannequin, facilitando a prototipação do personagem utilizando armas de tiro.
 
@@ -29,20 +18,21 @@ A **Epic Store** oferece um pacote de animações para o Mannequin, facilitando 
 
 > Figura: Unreal Engine - Adicionando o pacote Animation Starter Pack.
 
-<a name="10.5.1"></a>
-### 10.5.1 Preparando o projeto
+### Preparando o projeto
+
 Neste passo vamos criar várias animações com o personagem mirando utilizando a animação `Aim_Space_hip` como base. Estas animações servem de referência para realizar a interpolação.
 
 1. Crie as pastas para organizar o projeto:
+
 ```bash
 /Maps/Shooter
 /Characters/Shooter
 /Characters/Shooter/Animations
 ```
 
-2. Mova o arquivo `/AnimStarterPack/Aim_Space_hip` para a pasta `/Characters/Shooter/Animations`
+1. Mova o arquivo `/AnimStarterPack/Aim_Space_hip` para a pasta `/Characters/Shooter/Animations`
 
-4. Duplique o arquivo várias vezes `Aim_Space_hip` e renomeio para os sequintes nomes:
+1. Duplique o arquivo várias vezes `Aim_Space_hip` e renomeio para os sequintes nomes:
 
 - `Aim_Center`;
 
@@ -50,13 +40,13 @@ Neste passo vamos criar várias animações com o personagem mirando utilizando 
 
 - `Aim_Center_Down`;
 
-5. Editando a animação para criar novas animações.
+1. Editando a animação para criar novas animações.
 
 ![Figura: Unreal Engine - Editor Aim Offset.](imagens/animacao/unreal_engine_aim_offset_editor.webp "Figura: Unreal Engine - Editor Aim Offset.")
 
 > Figura: Unreal Engine - Editor Aim Offset.
 
-**Removendo frames.**
+### Removendo frames
 
 Vamos remover frames antes e depois da pose final que estamos querendo obter.
 
@@ -87,7 +77,6 @@ Edite a propriedade de vária animações ao mesmo tempo
   - Additive Anim Type : Mesh Space;
 
   - Base Pose Type : Idle_Rifle_Hip.
-
 
 Agora vamos criar `Aim Offset` Menu de contexto `Animation > Aim Offset` ou Escolha o esqueleto do Mannequin e utilizando BMP escolha `Create > Aim Offset`;
 

@@ -5,38 +5,19 @@ tags: [Unreal Engine, Animação,Blend Space 1D]
 layout: page
 ---
 
-<a name="10"></a>
-## CAPÍTULO 10 - Animação de personagens
-
-
-Em este capítulo iremos implementar várias animações utilizando **Animation Bluerint** para implementar a lógica de movimentação.
+***
 
 ![Figura: Unreal Engine - Animação e Bluerint.](imagens/animacao/unreal_engine_animation_animation_blueprint_main.webp "Figura: Unreal Engine - Animação e Bluerint.")
 
 > Figura: Unreal Engine - Animação e Bluerint.
 
+## O que é Animation Bluerint?
 
-&nbsp;&nbsp;[10.4 O que é Animation Blueprint?](#10.4)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[10.4.1 Estados de maquina ou State Machine](#10.4.1)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[10.4.2 Blend Space e State Machine](#10.4.2)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[10.4.3 Exemplo de um personagem saltando](#10.4.3)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[10.4.4 Implementado Animation Bluerint utilizando o Mutante](#10.4.4)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[10.4.5 Animação básica com AnimGraph](#10.4.5)
-
-***
-
-<a name="10.4"></a>
-## 10.4 O que é Animation Bluerint?
 É um **Blueprint** especializado que controla a animação de uma malha esquelética. Os gráficos são editados dentro do `Animation Blueprint Editor`, onde você pode realizar a combinação da animação, controlar diretamente os ossos de um esqueleto ou configurar a lógica que definirá a pose final da animação para uma malha esquelética a ser usada por quadro.
 
 Vamos implementar a lógica de movimentação utilizando o elemento Animation Bluerint para os personagens Human e Mutant.
 
-**Implementado Animation Bluerint utilizando o Humano.**
+### Implementado Animation Bluerint utilizando o Humano
 
 O Editor é separado em `AnimGraph` e `EventGraph`, onde o primeiro implementa a lógica de nós de sequencias de animação e o segundo a lógica de programação **Blueprint**.
 
@@ -46,14 +27,14 @@ O Editor é separado em `AnimGraph` e `EventGraph`, onde o primeiro implementa a
 
   > Figura Unreal Engine - Menu contexto Animation > Animation Blueprint.
 
-2. A aba `MyBlueprint` apresenta a organização do editor.
+1. A aba `MyBlueprint` apresenta a organização do editor.
 
   ![Figura: Unreal Engine - Editor Animmation Blueprint MyBlueprint.](imagens/animacao/unreal_engine_animation_editor_graph.webp "Figura: Unreal Engine - Editor Animmation Blueprint MyBlueprint.")
 
   > Figura: Unreal Engine - Editor Animmation Blueprint MyBlueprint.  
 
-<a name="10.4.1"></a>
-### 10.4.1 Estados de maquina ou State Machine
+## Estados de maquina ou State Machine
+
 Uma máquina de estados representa uma sequencie lógica de estados associados a uma animação.
 
 O nó `Output Pose` é o estado ou pose final da animação. A seguir vamos criar vários nós e a sua lógica.
@@ -70,8 +51,8 @@ O nó `Output Pose` é o estado ou pose final da animação. A seguir vamos cria
 
   > Figura: Unreal Engine - Add State Idle/Walk/Run.
 
-<a name="10.4.2"></a>
-### 10.4.2 Blend Space e State Machine
+## Blend Space e State Machine
+
 Para exemplificar vamos apresentar os dois métodos de Blend Space com o personagem Humano mas antes vamos adicionar a lógica para implementar as variáveis `Speed` e `Direction` que servirão como parâmetros para as animações.
 
 No gráfico de eventos ou EventGraph vamos adicionar o seguinte código.
@@ -80,7 +61,7 @@ No gráfico de eventos ou EventGraph vamos adicionar o seguinte código.
 
 > Figura: Unreal Engine - Animation Bluerint -Speeed e Direction.
 
-**Blend Space 1D.**
+## Blend Space 1D
 
 Criado anteriormente, BS_Human1D recebe como parâmetro `Speed` dentro do nó `Idle/Walk/Run`.
 
@@ -88,7 +69,7 @@ Criado anteriormente, BS_Human1D recebe como parâmetro `Speed` dentro do nó `I
 
 > Figura: Unreal Engine - Blend Space 1D dentro do State.
 
-**Blend Space.**
+## Blend Space
 
 Nó `Idle/Walk/Run` adicionamos BS_Human que recebe como parâmetro `Speed` e `Direction` pois trabalha com duas coordenadas.
 
@@ -98,8 +79,8 @@ Nó `Idle/Walk/Run` adicionamos BS_Human que recebe como parâmetro `Speed` e `D
 
 Para os passos posteriores vamos utilizar o BS_Human (Blend Space).
 
-<a name="10.4.3"></a>
-### 10.4.3 Exemplo de um personagem saltando
+### Exemplo de um personagem saltando
+
 Para simular o salto do personagem vamos adicionar os seguintes estados e em seguida fazer as suas conexões.
 
 ![Figura: Unreal Engine - Animação de salto : State Jump.](imagens/animacao/unreal_engine_animation_state_jump.webp "Figura: Unreal Engine - Animação de salto : State Jump.")
@@ -148,8 +129,7 @@ Devemos considerar que o salto depende se o personagem esta em queda e se a fun�
 
 > Figura: Unreal Engine - Exemplo da Classe BP e a Função Jump.
 
-<a name="10.4.4"></a>
-### 10.4.4 Implementado Animation Bluerint utilizando o Mutante
+### Implementado Animation Bluerint utilizando o Mutante
 
 1. Usando o menu de contexto `Animation > Animation Blueprint` para criar ABP_Mutant;
 
@@ -161,13 +141,13 @@ Devemos considerar que o salto depende se o personagem esta em queda e se a fun�
 
   > Figura: Unreal Egnine - Animação do mutante - AnimGraph BS_Mutant.
 
-**Vídeo Animation Bluerint do Mutante.**
+## Vídeo Animation Bluerint do Mutante
 
 [![Vídeo: Unreal Engine - Animação do mutante  com Blueprint.](http://img.youtube.com/vi/a2JULC4-P1o/0.jpg)](https://youtu.be/a2JULC4-P1o "Vídeo: Unreal Engine - Animação do mutante  com Blueprint.")
 
 > Vídeo: Unreal Engine - Animação do mutante  com Blueprint.
 
-**Implementando a Corrida.**
+## Implementando a Corrida
 
 Em este passo iremos implementar a corrida do personagem. Vamos configura o evento `Left Shift` para alterar a propriedade `Max Walk Speed` do componente `CharacterMomement` com os valores 220 para velocidade máxima e 110 para caminhada.
 
@@ -175,13 +155,13 @@ Em este passo iremos implementar a corrida do personagem. Vamos configura o even
 
 > Figura: Unreal Engine - Implementando a corrida do mutante - Bluerint running.
 
-**Vídeo Implementando a corrida.**
+## Vídeo Implementando a corrida
 
 [![Vídeo: Unreal Engine - Implementando a corrida do mutante.](http://img.youtube.com/vi/k6tGHVm2BNQ/0.jpg)](https://youtu.be/k6tGHVm2BNQ "Vídeo: Unreal Engine - Implementando a corrida do mutante.")
 
 > Vídeo: Unreal Engine - Implementando a corrida do mutante.
 
-**Montando a animação de ataque.**
+## Montando a animação de ataque
 
 Uma `Animation Montage` ou montagem de animação (ou montagem, para abreviar) fornece uma maneira de controlar um ativo de animação diretamente por meio do código Blueprint ou C ++. Com uma montagem de animação, você pode combinar várias sequências de animação diferentes em um único ativo que você pode dividir em seções para reprodução individualmente ou em combinação. Você também pode disparar eventos dentro de uma montagem que pode executar uma variedade de tarefas locais ou replicadas, como tocar sinais de som ou efeitos de partículas, alterar valores do jogador como contagem de munição ou até mesmo replicar o movimento raiz em jogos em rede (desde que o movimento raiz esteja ativado na animação).
 
@@ -193,26 +173,26 @@ Em este passo utilizaremos o `Animation Montage` para montar as animações de a
 
   > Figura: Unreal Engine - Animation Montage para o ataque.
 
-2. Vamos baixar e instalar os arquivos Mutant_Punch.fbx e Mutant_Swipping do site https://mixano.com para animar ataque direita e ataque esquerda.
+1. Vamos baixar e instalar os arquivos Mutant_Punch.fbx e Mutant_Swipping do site https://mixano.com para animar ataque direita e ataque esquerda.
 
-3. No editor de animação arrastre as animações para a linha de tempo. Observe que cada animação ocupa uma raia ou slot dentro de uma seção;
+1. No editor de animação arrastre as animações para a linha de tempo. Observe que cada animação ocupa uma raia ou slot dentro de uma seção;
 
-4. Adicione um novo slot de nome `Attack` e salve;
+1. Adicione um novo slot de nome `Attack` e salve;
 
-5. Selecione o novo slot em `Montage > DefaultGroup.Attack` e salve toda animação.
+1. Selecione o novo slot em `Montage > DefaultGroup.Attack` e salve toda animação.
 
   ![Figura: Unreal Engine - Animation Montage para o ataque 2.](imagens/animacao/unreal_engine_animation_montage_attack.webp "Figura: Unreal Engine - Animation Montage para o ataque 2.")
 
   > Figura: Unreal Engine - Animation Montage para o ataque 2.
 
-**Vídeo montando Animação de ataque.**
+## Vídeo montando Animação de ataque
 
 [![Vídeo: Unreal Engine - Animação de ataque.](http://img.youtube.com/vi/Kufu78tu9EE/0.jpg)](https://youtu.be/Kufu78tu9EE "Vídeo: Unreal Engine - Animação de ataque.")
 
 > Vídeo: Unreal Engine - Animação de ataque.
 
-<a name="10.4.5"></a>
-### 10.4.5 Animação básica com AnimGraph
+### Animação básica com AnimGraph
+
 AnimGraph utiliza o conceito de máquinas de estado que fornecem uma maneira gráfica de quebrar a animação de uma malha esquelética em uma série de estados. Esses estados são então governados por Regras de transição que controlam como combinar de um estado para outro.
 
 O processo de design para animação `Skeletal Mesh` se torna mais simples, pois você pode criar um gráfico que controla facilmente como seus personagens podem fluir entre os tipos de animação sem ter que criar uma rede **Blueprint** complexa.
@@ -221,7 +201,7 @@ Em este passo utilizaremos a lógica de programação com AnimGraph para combina
 
 A seguir vamos criar um nós dentro do gráfico de estados para simular a animação básica.
 
-**BasicLocomotion**
+### BasicLocomotion
 
 Este estado dever conter a animação criadas anteriormente com o Blend space 1D, BS_Mutant.
 
@@ -237,7 +217,7 @@ Este estado dever conter a animação criadas anteriormente com o Blend space 1D
 
   > Figura: Unreal Engine - AnimGraph Idle/Walk/Run - Animação para andar, correr e parado.
 
-**Idle/Walk/Run**
+### Idle/Walk/Run
 
 Em este estado passamos como parâmetro a variável `Speed` para animação BS_Mutant;
 
@@ -245,7 +225,7 @@ Em este estado passamos como parâmetro a variável `Speed` para animação BS_M
 
 > Figura: Unreal Engine - Animação para corrida, AnimGraph Speed.
 
-**Animação de ataque com AnimGraph.**
+## Animação de ataque com AnimGraph
 
 Neste passo vamos implementar a animação de ataque com soco de direita e esquerda.
 
@@ -255,27 +235,27 @@ Neste passo vamos implementar a animação de ataque com soco de direita e esque
 
 1. Para passar de um estado para outro devemos salvar o estado anterior acionando o menu de contexto `New Save cached Pose...` dentro do `AnimGraph`;
 
-2. Para acionar um estado salvo usamos `Use cached pose BasicLocomotion`, perceba que usamos o nome do estado salvo anteriormente.
+1. Para acionar um estado salvo usamos `Use cached pose BasicLocomotion`, perceba que usamos o nome do estado salvo anteriormente.
 
-3. Para acionar a montagem de animação `AM_Mutant_Attack` na qual definimos a sequencia de ataque usamos o menu de context `Slot DefaultGroup`;
+1. Para acionar a montagem de animação `AM_Mutant_Attack` na qual definimos a sequencia de ataque usamos o menu de context `Slot DefaultGroup`;
 
-4. Selecionando o Slot criado atualizamos `Slot Name` para `DefaultGroup.Attack` para acessar a sequencia de animação.
+1. Selecionando o Slot criado atualizamos `Slot Name` para `DefaultGroup.Attack` para acessar a sequencia de animação.
 
 Agora vamos implementar a lógica para chamar as animações quando forem pressionados os botões do mouse direito e esquerdo.
 
-5. No objeto BP_Mutant adicione os eventos de chamada de função e associe a função `Play Anim Montage`.
+1. No objeto BP_Mutant adicione os eventos de chamada de função e associe a função `Play Anim Montage`.
 
 ![Figura: Unreal Engine - Blueprint para chamar a animação de ataque](imagens/animacao/unreal_engine_animations_blueprint_attack.webp "Figura: Unreal Engine - Blueprint para chamar a animação de ataque.")
 
 > Figura: Unreal Engine - Blueprint para chamar a animação de ataque.
 
-**Vídeo montando o ataque.**
+## Vídeo montando o ataque
 
 [![Vídeo: Unreal Engine - Montando o ataque com Animação com AnimGraph.](http://img.youtube.com/vi/Ss22A7xrtCQ/0.jpg)](https://youtu.be/Ss22A7xrtCQ "Vídeo: Unreal Engine - Montando o ataque com Animação com AnimGraph.")
 
 > Vídeo: Unreal Engine - Montando o ataque com Animação com AnimGraph.
 
-**Atacando somente com os braços.**
+## Atacando somente com os braços
 
 Em este passo iremos continuar com a programação `AnimGraph` para fazer o personagem correr e atacar ao mesmo tempo, para isso vamos misturar os ossos das animações utilizando `Layerd Blend per Bone`.
 
@@ -287,7 +267,7 @@ Podemos misturar várias animações no nó de estado e utilizar um osso (bone) 
 
 > Figura: Unreal Engine - Animação - Layerd Blend per bone.
 
-**Animação de ataque completa e correndo somente os braços.**
+## Animação de ataque completa e correndo somente os braços
 
 Neste passo vamos misturar as animações condicionando a uma variável para que possamos definir o estado do personagem, correndo ou parado.
 
