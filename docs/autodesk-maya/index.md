@@ -25,95 +25,10 @@ O objetivo deste curso é apresentar e construir elementos na ferramenta de mode
 
 
 ***
+## Modelagem 3D
 
-<a name="indice"></a>
-**[CAPÍTULO  1 - Modelagem 3D](#1 "CAPÍTULO  I - Modelagem 3D")**
+## O que é Modelagem de objetos 3D?
 
-&nbsp;&nbsp;[1.1 O que é Modelagem de objetos 3D?](#1.1)
-
-&nbsp;&nbsp;[1.2 Tipos de modelagem 3D](#1.2)
-
-&nbsp;&nbsp;[1.3 Processo de construção de cenas 3D](#1.3)
-
-&nbsp;&nbsp;[1.4 Softwares para modelagem tridimensional](#1.4)
-
-***
-
-**[CAPÍTULO  2 - Modelos poligonais com Autodesk Maya](#2)**
-
-&nbsp;&nbsp;[2.1 Interface básico](#2.1)
-
-&nbsp;&nbsp;[2.2 Configurando a Interface](#2.2)
-
-&nbsp;&nbsp;[2.3 Configurando projetos](#2.3)
-
-&nbsp;&nbsp;[2.4 Comandos de navegação](#2.4)
-
-&nbsp;&nbsp;[2.5 Configuração de ViewPort](#2.5)
-
-&nbsp;&nbsp;[2.6 Seleção de objetos](#2.6)
-
-&nbsp;&nbsp;[2.7 Pivot](#2.7)
-
-&nbsp;&nbsp;[2.8 Extrude](#2.8)
-
-&nbsp;&nbsp;[2.9 Bevel](#2.9)
-
-&nbsp;&nbsp;[2.10 Removendo edges](#2.10)
-
-&nbsp;&nbsp;[2.11 Multicut](#2.11)
-
-&nbsp;&nbsp;[2.12 Merge de vértices](#2.12)
-
-***
-
-**[CAPÍTULO  3 - Organizando objetos](#3)**
-
-&nbsp;&nbsp;[3.1 Organizando em camadas](#3.1)
-
-&nbsp;&nbsp;[3.2 Grupos](#3.1)
-
-&nbsp;&nbsp;[3.3 Combine e Separate](#3.3)
-
-&nbsp;&nbsp;[3.4 Duplicando](#3.4)
-
-&nbsp;&nbsp;[3.5 Booleans](#3.5)
-
-***
-
-**[CAPÍTULO  4 - Modelos de curvas com Autodesk Maya](#4)**
-
-&nbsp;&nbsp;[4.1 Modelagem NURBS](#3.1)
-
-***
-
-**[CAPÍTULO  5 - Materiais e mapeamento UV](#5)**
-
-&nbsp;&nbsp;[5.1 Materiais](#5.1)
-
-&nbsp;&nbsp;[5.2 Tipos de Materiais (Maya)](#5.2)
-
-&nbsp;&nbsp;[5.3 Mapeamento UV](#5.3)
-
-***
-
-**[CAPÍTULO  6 - Iluminação e Renderização](#6)**
-
-***
-
-**[CAPÍTULO  7 - Animando cenas no Autodesk Maya](#7)**
-
-***
-
-[Atividades e Referências](autodesk_maya_atividades_referencias.html)
-
-***
-
-<a name="1"></a>
-## CAPÍTULO  1 - Modelagem 3D
-
-<a name="1.1"></a>
-## 1.1 O que é Modelagem de objetos 3D?
 Podemos entender a Modelagem 3D como a criação de objetos sólidos através da representação matemática de uma superfície ou de um objeto volumétrico, vivo ou inanimado. É a criação do modelo de um objeto tridimensional através de um software de processamento 3D.
 
 ![Cabeça low poly de um modelo 3D (fonte: TurboSquid)](https://ecdd.infnet.edu.br/wp-content/uploads/sites/7/2021/04/modelo-3d-lowpoly-1024x576.jpg "Figura: Cabeça low poly de um modelo 3D (fonte: TurboSquid).")   
@@ -130,8 +45,7 @@ Podemos aplicar em várias áreas como por exemplo:
 
 - Ilustrações.
 
-<a name="1.2"></a>
-## 1.2 Tipos de modelagem 3D
+## Tipos de modelagem 3D
 
 - **Hard Surface** - (superfícies duras), são quaisquer objetos feitos ou construídos pelo homem. Exemplos de *hard surface* podem ser estruturas arquitetônicas, veículos, robôs, entre outros;
 
@@ -139,8 +53,7 @@ Podemos aplicar em várias áreas como por exemplo:
 
 - **Render** - Fase para gerar a Iluminação e renderizar toda a cena.
 
-<a name="1.3"></a>
-## 1.3 Processo de construção de cenas 3D
+## Processo de construção de cenas 3D
 
 **Conceito** - *Concept art* ou arte conceitual;
 
@@ -162,8 +75,8 @@ Podemos aplicar em várias áreas como por exemplo:
 
 - **Geração de cenas** - Renderização e animação.
 
-<a name="1.4"></a>
-## 1.4 Softwares para modelagem tridimensional
+## Softwares para modelagem tridimensional
+
 Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas elas tem versões educacionais gratuitas para praticar.
 
 - Substance Painter;
@@ -174,263 +87,355 @@ Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas 
 
 - Blender;
 
-<a name="2"></a>
-## CAPÍTULO  2 - Começando a trabalhar com Autodesk Maya
+***
 
+## Começando a trabalhar com Autodesk Maya
 
-<a name="2.1"></a>
-## 2.1 Interface básico
+## Interface básico
 
 1. [Menus](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-D90A2BDB-FD05-4528-8A95-C33A02D15129-htm.html)
+
    - Create - Cria objetos
    - Select - Seleciona objetos;
    - Modify - modifica objetos;
    - Display - apresenta objetos;
    - Windows - Apresenta e configura os Editores;
-2. Barra de tarefas
+
+1. Barra de tarefas
    - Modeling toolKit.
 
-3. Fluxos de trabalho
+1. Fluxos de trabalho
 
-4. [Tools box](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Basics/files/GUID-B345E162-0149-4E09-AC98-48DCFC227F33-htm.html)
+1. [Tools box](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Basics/files/GUID-B345E162-0149-4E09-AC98-48DCFC227F33-htm.html)
 
-5. Layout
+1. Layout
 
-6. [Outliner](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-4B9A9A3A-83C5-445A-95D5-64104BC47406-htm.html)
+1. [Outliner](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-4B9A9A3A-83C5-445A-95D5-64104BC47406-htm.html)
 
-7. [Workspace](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-Basics/files/GUID-0384C282-3CA1-4587-9775-F7164D3F6980-htm.html)
+1. [Workspace](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-Basics/files/GUID-0384C282-3CA1-4587-9775-F7164D3F6980-htm.html)
 
    - Modeling - Standard
 
-<a name="2.2"></a>
-## 2.2 Configurando a Interface   
+## Configurando a Interface   
 
 1. Para habilitar ou desabilitar a janela inicial de avisos de mudanças de versão.
-   - Windows > Settings / Preferences > Preferences > `Show - What´s new`
 
-2. Window > Settings / Preferences > Preferences
-   - Interface (Menu Set,Show...)  
+   - `Windows` > `Settings/Preferences` > `Preferences` > `Show - What´s new`
 
-<a name="2.3"></a>
-## 2.3 Configurando projetos
+2. Configurar a interface
+
+    - `Window` > `Settings/Preferences` > `Preferences`
+
+    - `Interface` > (Menu Set,Show...)  
+
+## Configurando projetos
+
 1. Configurando as pastas do projeto
-  - File > Project Window
+    
+    Configurar uma pasta de trabalho auxilia na organização dos arquivos que irão compor a cena.
 
-2. Criando novas cenas
-  - File > New Scene
+    - `File` > `Project Window`
 
-3. Configurando projeto novos importados
-  - File > Set Project
+1. Criando novas cenas
+    
+    Uma cena pode conter vários elementos e deverão estar separados e organizados.
 
-<a name="2.4"></a>
-## 2.4 Comandos de navegação
-1. Alt + RMB - Movimentação de câmera.
-1. Alt + LMB - Zoom.
-1. Alt + Scroll - Scroll da a câmera.
-1. Scroll - Zoom
+    - `File` > `New Scene`
 
-<a name="2.4"></a>
-## 2.5 Configuração de ViewPort
+1. Configurando projeto novos importados
+
+    Quando importamos um novo projeto de outra máquina podemos configurar a pasta de trabalho ou pasta de projeto.
+
+    - `File` > `Set Project`
+
+## Comandos de navegação
+
+1. Alt + RMB - Movimentação de câmera;
+
+1. Alt + LMB - Zoom;
+
+1. Alt + Scroll - Scroll da a câmera;
+
+1. Scroll - Zoom;
+
+## Configuração de ViewPort
+
 1. Mostrando a quantidade de polígonos e vértices.
-   - [Display > Heads Up Display > Poly Count](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-Modeling/files/GUID-53E46D0C-4B7B-4404-AEB0-3BDD1FF8608A-htm.html).    
+   
+   - `Display` > `Heads Up Display` > `Poly Count` [Poly Count](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-Modeling/files/GUID-53E46D0C-4B7B-4404-AEB0-3BDD1FF8608A-htm.html) 
 
-2. Visualização
-    1. [Shading](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-C6188583-EA9E-4880-AAE7-8D895FD94DD6-htm.html)
+1. Visualização
 
-3. Hotbox - pressione a barra de espaço
+    Este menu Sombreamento é exibido acima da visualização da cena ou acima de cada painel de visualização em um layout com várias visualizações de cena (como o layout de quatro visualizações).
 
-4. RMB - Menu de contexto
+    - [Shading](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-C6188583-EA9E-4880-AAE7-8D895FD94DD6-htm.html)
+    - Wireframe - Tecla 4
+    - Smooth Shade all - Tecla 5
+    - Use default material - Tecla 6
+    - Use default Light - Tecla 7
 
-<a name="2.6"></a>
-## 2.6 Seleção de objetos
+1. Hotbox - pressione a barra de espaço
+
+    ![Space bar](https://forums.autodesk.com/autodesk/attachments/autodesk/area-b201/85095/1/likethis.PNG "Space bar")
+
+    >Figura: Space bar.
+
+1. RMB - Menu de contexto
+
+  ![Context Menu](https://simplymaya.com/forum/attachment.php?attachmentid=56228&stc=1&thumb=1&d=1540913195 "Context Menu")
+
+  >Figura: Context Menu
+
+  - `Vertex` - Vértices;
+
+  - `Edge` - Arestas;
+
+  - `Face` - Faces.
+
+## Seleção de objetos
+
 1. Seleciona um objetos.
 
-2. Seleciona elementos do objeto.
+1. Seleciona elementos do objeto.
 
-3. CTRL + RMB - Adiciona um elemento na Seleção      
+1. CTRL + RMB - Adiciona um elemento na Seleção      
 
-4. CTRL + LMB - Remove um elemento da Seleção      
+1. CTRL + LMB - Remove um elemento da Seleção      
 
-5. CTRL no ícone para entrar nas configurações.
+1. CTRL no ícone para entrar nas configurações.
 
-6. Shift + 2 click no elemento ao lado - Seleciona todos os elementos ao redor
+1. Shift + 2 click no elemento ao lado - Seleciona todos os elementos ao redor
 
-<a name="2.7"></a>
-## 2.7 Pivot
-1. Modify > Center Pivot
-Centralizar pivot
+1. [Soft Selection](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2022/ENU/Maya-Basics/files/GUID-FF7C8670-97C7-4C13-9A6F-3B0A8F881EC9-htm.html)
 
-2. Movendo Pivot
-  Tecla D
 
-3. Snap to points para alinhar o pivot nos elementos.
+## Pivot
 
-<a name="2.8"></a>
-## 2.8 Extrude
+1. Centralizar pivot 
+  
+    `Modify` > `Center Pivot`
+ 
+1. Movendo Pivot
+    
+    Tecla D
+
+3. `Snap to points` para alinhar o pivot nos elementos.
+
+## Extrude
 
 1. Extrude
+
     - shift + mouse (Move tool Preferences > Smart Duplicate Settings > Shift + drag to..)
+
     - Ctrl + E
+
     - Menu > Edit Mesh > Extrude
 2. Adicionando edges
+
     - Menu > Mesh Tools > Insert Edge loop
+
     - Mesh Tools > Insert Edge loop Settings > Number of edge loops
 
-<a name="2.9"></a>
-## 2.9 Bevel
+## Bevel
 
 1. Ctrl + B
     - Fraction - espaço entre segmentos
     - Segments - Número de segmentos
 
-<a name="2.10"></a>
-## 2.10 Removendo edges
+## Removendo edges
+
 1. Ctrl + Backspace - Remove edges e vértices.
 
+## Multicut
 
-<a name="2.11"></a>
-## 2.11 Multicut
 Cuidado não podemos ter vértices sem conexão com outros
+
 1. Adicione edges    
 
-<a name="2.12"></a>
-## 2.12 Merge de vértices
+
+## Merge de vértices
+
 1. Menu > Edit Mesh  > Merge (Antes Selecione dois vértices)
 
 
-<a name="3"></a>
-## CAPÍTULO  3 - Organizando objetos
+## Organizando em camadas
 
-<a name="3.1"></a>
-## 3.1 Organizando em camadas
 1.  Layer
-- V - Mostra ou oculta uma camada. Consulte Ocultar camadas de exibição para obter mais informações.
-- P - Um "P" na caixa significa que a camada está visível durante a reprodução. Desligue o "P" para ocultar a camada durante a reprodução.
-- T - Um “T” significa que os objetos na camada são modelados: eles são exibidos em estrutura de arame e não podem ser selecionados. Um “R” significa que os objetos aos quais a camada está referenciada: eles não podem ser selecionados, mas mantêm o modo de exibição atual. Uma caixa em branco significa que os objetos na camada são normais e podem ser selecionados.
+  
+    - V - Mostra ou oculta uma camada. Consulte Ocultar camadas de exibição para obter mais informações.
+  
+  - P - Um "P" na caixa significa que a camada está visível durante a reprodução. Desligue o "P" para ocultar a camada durante a reprodução.
+  
+  - T - Um “T” significa que os objetos na camada são modelados: eles são exibidos em estrutura de arame e não podem ser selecionados. Um “R” significa que os objetos aos quais a camada está referenciada: eles não podem ser selecionados, mas mantêm o modo de exibição atual. Uma caixa em branco significa que os objetos na camada são normais e podem ser selecionados.
 
-<a name="3.2"></a>
-## 3.2 Grupos
+## Grupos
 
 1. Hierarquia
-  MMB (Botão do meio) arreste os elementos para dentro de outros.
-  Selecionando o objeto principal todos os objetos são selecionados.
-  As alterações do objeto principal refletem em todos os objetos.
+  
+   MMB (Botão do meio) arreste os elementos para dentro de outros.
+  
+    Selecionando o objeto principal todos os objetos são selecionados.
+    
+    As alterações do objeto principal refletem em todos os objetos.
 
-2. Selecione os objetos (ctrl+G)  
-  Diferente de Hierarquia é criado um objeto separado para controlar os demais.
+1. Selecione os objetos (ctrl+G)  
+  
+    Diferente de Hierarquia é criado um objeto separado para controlar os demais.
 
-<a name="3.3"></a>
-## 3.3 Combine e Separate
+## Combine e Separate
+
 1. Combine - Selecione os objetos `Mesh` > `Combine`
+
 1. Separate - Selecione o objeto `Mesh` > `Separate` vai ser criado um grupo.
 
-<a name="3.4"></a>
-## 3.4 Duplicando
+
+## Duplicando
+
 1. Duplicando - Ctrl + D
+
 1. Duplicando aproveitando a transformação  -  shift + D
 
-<a name="3.5"></a>
-## 3.5 Booleans
+## Booleans
 
 1. `Mesh` > `Booleans`
 
-<a name="4"></a>
-## CAPÍTULO 4 - Modelos de curvas com Autodesk Maya
-
-<a name="4.1"></a>
-## 4.1 Modelagem NURBS
+## Modelagem NURBS
 
 1. Revolve
-  1. Ordem de seleção do objeto altera a forma final;
-  1. A curva fica associada ao objeto criado até que o histórico seja removido;
+  
+    1. Ordem de seleção do objeto altera a forma final;
+    
+    1. A curva fica associada ao objeto criado até que o histórico seja removido;
+
 1. Loft
+
 1. Extrude
-  1. É possível criar um objeto poligonal na construção usando as configurações
+    1. É possível criar um objeto poligonal na construção usando as configurações
 1. Isoparm
+  
   1. É possível separar ou juntar usando `Surface` > `Detach` ou `Attach`
+
 1. Project Curve on Surface
+
   1. Trim Tool para cortar surface
 
+## Materiais
 
-<a name="5"></a>
-## CAPÍTULO 5 - Materiais e mapeamento UV
-
-<a name="5.1"></a>
-## 5.1 Materiais
 - Render
+
   - Menu: `Arnold` > `Arnold RenderView`
+
   - Cameras
+
   - Iluminação
 
-<a name="5.2"></a>
-## 5.2 Tipos de Materiais (Maya)
-- Lambert (simples sem reflexo, brilho e transparência)
-  - Color: cor do material
-  - transparência: Aumenta o alpha
-  - Ambiente color: aumenta a tonalidade da cor
-  - Incandescência: Adiciona uma luz ao material
-  - Bump Mapping: adiciona textura para associar rugosidade ou padrões.
-  - Diffuse: Torna mais claro ou escuro a cor
-- Blind (Com brilho e reflexo)
-  - Specular [Reflexão especular](https://pt.wikipedia.org/wiki/Reflex%C3%A3o_especular)
-  - Eccentricty: Aumenta o brilho
-  - Specular Roll off: Desfoque aplicado no brilho
-  - Specular color : Cor do brilho   
-  - Reflectivity: Aumenta a intensidade do reflexo
-- [Phong](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Maya/files/GUID-3EDEB1B3-4E48-485A-9714-9998F6E4944D-htm.html) (Parecido com o Blind mas com mais parâmetros)  
-  - Specular Shadding
-  - Roughness: rugosidade
-  - Highlight size: tamanho do desfoque
-- Anisotropic
-  - Specular Shader
-  - Angle: ângulo da luz
+## Tipos de Materiais (Maya)
 
-<a name="5.3"></a>
-## 5.3 Mapeamento UV
+- Lambert (simples sem reflexo, brilho e transparência)
+    - Color: cor do material
+    - transparência: Aumenta o alpha
+    - Ambiente color: aumenta a tonalidade da cor
+    - Incandescência: Adiciona uma luz ao material
+    - Bump Mapping: adiciona textura para associar rugosidade ou padrões.
+    - Diffuse: Torna mais claro ou escuro a cor
+
+- Blind (Com brilho e reflexo)
+    - Specular [Reflexão especular](https://pt.wikipedia.org/wiki/Reflex%C3%A3o_especular)
+  
+    - Eccentricty: Aumenta o brilho
+  
+    - Specular Roll off: Desfoque aplicado no brilho
+  
+    - Specular color : Cor do brilho   
+  
+    - Reflectivity: Aumenta a intensidade do reflexo
+
+- [Phong](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Maya/files/GUID-3EDEB1B3-4E48-485A-9714-9998F6E4944D-htm.html) (Parecido com o Blind mas com mais parâmetros)  
+
+    - Specular Shadding
+
+    - Roughness: rugosidade
+
+    - Highlight size: tamanho do desfoque
+
+- Anisotropic
+    
+    - Specular Shader
+    
+    - Angle: ângulo da luz
+
+## Mapeamento UV
+
 - Menu `UV` > `UV Editor`;
+
 - Painéis lado a lado
+
   - ViewPort `Panels` > `Saved Layouts` > `Persp/UV Editor`
+
 - Menu UV toolKit
+
   - `Tools` > `Show UV toolKit`;
+
 - UV Shells : Context Menu > UV > select vertex > ctrl > context menu > To UV shells
 
 - Cortando `3D Cut and Sew UV`
+
   - O corte é realizado por material utilizado;
+
   - Clicando e arrastrando;
+
   - Desmarcando CTRL+2x na vértice selecionado;
+
   - Quando uma área é fechada é criada "UV Shells";
+
   - Podemos selecionar as UV Shells;
+
 - Costurando  `Cut and Sew`
   - Selecione dois vértices e depois clique em `Sew`;
+  
   - `Sew Tool` - Costura interativa, selecione e arrastre;
 
 - Expandindo/desdobra o Elemento  
+  
   - `UV Toolkit` > `Unfold`;
+
 - Movimentando ou aumentando
+
   -  `Transform` > `Move`
+
 - Copiando dados de um Shells para outra  
+
   -  `Transform` > `Texel Density` > `Get` - copia os valores de um elemento selecionado;
+
   -  `Transform` > `Texel Density` > `Set` - cola os valores para um elemento selecionado;
+
 - Invertendo Shells `Tools`
+
   - `Flip` > `U` ou `V` - Horizontal ou vertical;
+
 - `Arrange and Layout`
+
   - `Stack Shells` - Quando a textura aparece em duas faces é recomendado utilizar o recurso para empilhar uma sobre a outra;
+
   - `Orient Shells` - Separa e orienta as shells;
+
   - `Layout` - Organiza as Shells lado a lado;  
+
 - `Align and Snap`  Alinhando
+
   - `Align` - Alinhando UV;
+
+
   - `Match UVs` - Alinha duas Shells empilhadas;
+
 - `Pin`   Bloqueando
+
   - `Pin Tool` - Selecionando usando tecla `B` ou `P` para bloquear áreas;
 
-<a name="6"></a>
-## CAPÍTULO 6 - Iluminação e Renderização
-
-
-<a name="7"></a>
-## CAPÍTULO 7 - Animando cenas no Autodesk Maya
+## Animando cenas no Autodesk Maya
 
 - S - Marcar frame
+
 - Shift + LMB = Seleciona
 
 - Preferences = timecode
