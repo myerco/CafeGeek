@@ -23,8 +23,8 @@ O objetivo deste curso é apresentar e construir elementos na ferramenta de mode
 |:-         |:-           |:-         |
 | Mecânicas | Dinâmicas   | **Estéticas** |
 
-
 ***
+
 ## Modelagem 3D
 
 ## O que é Modelagem de objetos 3D?
@@ -112,9 +112,35 @@ Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas 
 
 1. [Outliner](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-4B9A9A3A-83C5-445A-95D5-64104BC47406-htm.html)
 
+    Apresenta todos os objetos da cena.
+
+    Os objetos são representados por ícones;
+
+    Facilita a seleção de objetos;
+
+    Permite filtrar por tipo de objeto com a opção `Show`;
+
+    - `Menu` > `Window` > `Outliner`;
+
 1. [Workspace](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-Basics/files/GUID-0384C282-3CA1-4587-9775-F7164D3F6980-htm.html)
 
    - Modeling - Standard
+
+1. `Channel Box`
+
+    Ctrl + A para apresentar a ferramenta;
+
+    Apresenta os parâmetros do objeto (`transalte`, `rotate` e `Scale`) de forma resumida;
+
+    Permite alterar o nome do objeto;
+
+1. `Atribute Editor`
+
+    Parece com o `Channel Box` mas com mais opções.
+
+    - Aba do nome do objeto - Parâmetros de transformação do objeto;
+
+    - As outras abas tem todos as ferramentas aplicadas no objeto.
 
 ## Configurando a Interface   
 
@@ -131,13 +157,13 @@ Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas 
 ## Configurando projetos
 
 1. Configurando as pastas do projeto
-    
+
     Configurar uma pasta de trabalho auxilia na organização dos arquivos que irão compor a cena.
 
     - `File` > `Project Window`
 
 1. Criando novas cenas
-    
+
     Uma cena pode conter vários elementos e deverão estar separados e organizados.
 
     - `File` > `New Scene`
@@ -161,17 +187,21 @@ Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas 
 ## Configuração de ViewPort
 
 1. Mostrando a quantidade de polígonos e vértices.
-   
-   - `Display` > `Heads Up Display` > `Poly Count` [Poly Count](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-Modeling/files/GUID-53E46D0C-4B7B-4404-AEB0-3BDD1FF8608A-htm.html) 
+
+   - `Display` > `Heads Up Display` > `Poly Count`[ [Poly Count](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-Modeling/files/GUID-53E46D0C-4B7B-4404-AEB0-3BDD1FF8608A-htm.html) ]
 
 1. Visualização
 
     Este menu Sombreamento é exibido acima da visualização da cena ou acima de cada painel de visualização em um layout com várias visualizações de cena (como o layout de quatro visualizações).
 
     - [Shading](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-C6188583-EA9E-4880-AAE7-8D895FD94DD6-htm.html)
+
     - Wireframe - Tecla 4
+
     - Smooth Shade all - Tecla 5
+
     - Use default material - Tecla 6
+
     - Use default Light - Tecla 7
 
 1. Hotbox - pressione a barra de espaço
@@ -182,75 +212,163 @@ Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas 
 
 1. RMB - Menu de contexto
 
-  ![Context Menu](https://simplymaya.com/forum/attachment.php?attachmentid=56228&stc=1&thumb=1&d=1540913195 "Context Menu")
+    ![Context Menu](https://simplymaya.com/forum/attachment.php?attachmentid=56228&stc=1&thumb=1&d=1540913195 "Context Menu")
 
-  >Figura: Context Menu
+    >Figura: Context Menu.
 
-  - `Vertex` - Vértices;
+   - `Vertex` - Vértices;
 
-  - `Edge` - Arestas;
+   - `Edge` - Arestas;
 
-  - `Face` - Faces.
+   - `Face` - Faces.
 
-## Seleção de objetos
+## Freeze e Reset parâmetros
 
-1. Seleciona um objetos.
+Ao deformar ou movimentar um objeto as coordenadas X,Y Z serão alteradas conforme informado pelo usuário, é interessante ao exportar para outra ferramenta, como por exemplo o Unreal, zerar essas coordenadas para que representem o ponto central do objeto na cena, para isso usamos:
 
-1. Seleciona elementos do objeto.
+- `Menu` > `Modify` > `Freeze transformations` - Zera as coordenadas do objeto;
 
-1. CTRL + RMB - Adiciona um elemento na Seleção      
+- `Menu` > `Modify` > `Reset Transformations` - Retorna o pivo ao centro da cena;
 
-1. CTRL + LMB - Remove um elemento da Seleção      
+- `Menu` > `Modify` > `Center Pivo` - Posiciona o pivo ao centro do objeto;
 
-1. CTRL no ícone para entrar nas configurações.
+## Snap de objetos
 
-1. Shift + 2 click no elemento ao lado - Seleciona todos os elementos ao redor
+Esta ferramenta é para alinhar o objeto a uma determinada coordenada ou objeto.
 
-1. [Soft Selection](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2022/ENU/Maya-Basics/files/GUID-FF7C8670-97C7-4C13-9A6F-3B0A8F881EC9-htm.html)
+O pivo do objeto é a referência de alinhamento.
 
+- `Snap to grid` ou tecla X - Alinha o pivo no grid da cena;
+
+    Para movimentar rapidamente para qualquer parte da cena ou parte de outro elemento/objeto:
+
+  - selecione o objeto com `Move Tool`;
+
+  - Posicione o mouse onde você gostaria que objeto se deslocasse;
+
+  - Mantendo a tecla X pressionada aperte o botão de rolagem do mouse (Sroll) e movimente *levemente*.
+
+- `Snap to points` ou tecla V - Alinha o pivo em um componente na cena;
+
+  - Mantendo a tecla V pressionada aperte o botão de rolagem do mouse (Sroll) e movimente *levemente* o objeto será alinhado ao ponto selecionado.
+
+## Seleção de objetos e componentes
+
+1. `Select Tool`  - Seleciona objetos.
+
+    - Tecla Shitf + LMB para selecionar remover ou vários objetos;
+
+    - Ao adicionar novos objetos na seleção o ícone (+) é apresentado e ao remover objetos o ícone (-) é apresentado;
+
+    - É possível selecionar usando a aba `Outliner` ou segurando e arrastando o mouse;
+
+    - Tecla CTRL no ícone para entrar nas configurações;
+
+    - Shift + 2 click no elemento ao lado seleciona todos os elementos ao redor;
+
+1. `Laso Tool` - Seleciona objetos usando a movimentação livre do mouse
+
+    - Ideal para componentes, como por exemplo: Vértices, Arestas e faces;
+  
+1. Com o `Menu` > `Select` podemos variar as formar de seleção de objetos e elementos, como por exemplo:
+
+    - `All` e `Deselect All`- Seleciona e remove a seleção de todos os objetos da cena;
+
+    - `All by Type` - Seleciona por tipo de objeto;
+
+    - `Inverte` - Inverte a seleção;
+
+## Utilizando Soft Selection
+
+Para realizar uma seleção mais *Suave* podemos utilizar a ferramenta `Soft Selection`, a seguir um exemplo usando um objeto `Polygon Plane` com 50x50 divisões e aumentar a escala;
+
+- Para configurar entre nas configurações da ferramenta `Move Tool` > `Soft Selection` e ative `Soft Selection` ou ;
+
+- Apertando a tecla B é possível atividar e desativar a ferrmenta;
+
+- Após configurar a ferramenta podemos selecionar novamente os vértices `Vertex` e perceba que a seleção e movimentação dos componentes estão mais arredondados;
+
+- `Falloff Radius` - Determina o raio da seleção;
+
+   Tecla B + LMB aumenta o raio da seleção;
+
+- `Falloff color` - As cores mais escuras determinan a suaviação dos elementos envolvidos na seleção;
+
+- `Curve presets` - Determina o tipo de curvatura;
+
+- [Referências Soft Selection](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2022/ENU/Maya-Basics/files/GUID-FF7C8670-97C7-4C13-9A6F-3B0A8F881EC9-htm.html)
+
+## Simetria ou Symmetry
+
+Para selecionar elementos simtricamente alinhados em um determinado eixo, utilize `Move Tool` > `Symmetry Settings`.
+
+- `Symmetry` - Escolha o eixo;
+
+## Duplicando objetos
+
+Tecka Ctrl + D ou  `Menu` > `Duplicate`;
+
+- `Duplicate with Transform` - Duplica objetos e adiciona uma transformação, exemplo, duplique o primeiro objeto e depois pressine a tecla Shift + D;
+
+- `Duplicate Special` - Configura a opções de cópia:
+  
+  - `Copy` - É criada uma copia do objeto sem nenhuma ligação ao objeto original;
+
+  - `Instance` - Os comandos aplicados no novo objeto refletem na origem;
+
+Podemos criar várias copias e alterar as configurações dos parâmetros de cada uma delas, por exemplo:
+
+- `Translate` - eixo Z = 10;
+
+- `Rotate` - exito Z = 20;
+
+- `Number od copies` = 20;
+
+Logo em seguida clique em `Apply`.
 
 ## Pivot
 
 1. Centralizar pivot 
   
     `Modify` > `Center Pivot`
- 
-1. Movendo Pivot
-    
-    Tecla D
 
-3. `Snap to points` para alinhar o pivot nos elementos.
+1. Movendo Pivot
+
+    Tecla D.
+
+1. `Snap to points` para alinhar o pivot nos elementos.
 
 ## Extrude
 
-1. Extrude
+- shift + mouse - `Move tool Preferences` > `Smart Duplicate Settings` > Shift + drag to..)
 
-    - shift + mouse (Move tool Preferences > Smart Duplicate Settings > Shift + drag to..)
+- Ctrl + E
 
-    - Ctrl + E
+- `Menu` > `Edit Mesh` > `Extrude`
 
-    - Menu > Edit Mesh > Extrude
-2. Adicionando edges
+## Adicionando edges
 
-    - Menu > Mesh Tools > Insert Edge loop
+- `Menu` > `Mesh Tools` > `Insert Edge loop`;
 
-    - Mesh Tools > Insert Edge loop Settings > Number of edge loops
+- `Mesh Tools` > `Insert Edge loop Settings` > `Number of edge loops`;
 
 ## Bevel
 
 1. Ctrl + B
-    - Fraction - espaço entre segmentos
-    - Segments - Número de segmentos
+
+    - Fraction - espaço entre segmentos;
+
+    - Segments - Número de segmentos;
 
 ## Removendo edges
 
-1. Ctrl + Backspace - Remove edges e vértices.
+Ctrl + Backspace - Remove edges e vértices.
 
 ## Multicut
 
 Cuidado não podemos ter vértices sem conexão com outros
 
-1. Adicione edges    
+1. Adicione edges
 
 
 ## Merge de vértices
@@ -260,23 +378,23 @@ Cuidado não podemos ter vértices sem conexão com outros
 
 ## Organizando em camadas
 
-1.  Layer
+1. Layer
   
     - V - Mostra ou oculta uma camada. Consulte Ocultar camadas de exibição para obter mais informações.
   
-  - P - Um "P" na caixa significa que a camada está visível durante a reprodução. Desligue o "P" para ocultar a camada durante a reprodução.
+    - P - Um "P" na caixa significa que a camada está visível durante a reprodução. Desligue o "P" para ocultar a camada durante a reprodução.
   
-  - T - Um “T” significa que os objetos na camada são modelados: eles são exibidos em estrutura de arame e não podem ser selecionados. Um “R” significa que os objetos aos quais a camada está referenciada: eles não podem ser selecionados, mas mantêm o modo de exibição atual. Uma caixa em branco significa que os objetos na camada são normais e podem ser selecionados.
+    - T - Um “T” significa que os objetos na camada são modelados: eles são exibidos em estrutura de arame e não podem ser selecionados. Um “R” significa que os objetos aos quais a camada está referenciada: eles não podem ser selecionados, mas mantêm o modo de exibição atual. Uma caixa em branco significa que os objetos na camada são normais e podem ser selecionados.
 
 ## Grupos
 
 1. Hierarquia
   
-   MMB (Botão do meio) arreste os elementos para dentro de outros.
+    - MMB (Botão do meio) arreste os elementos para dentro de outros;
   
-    Selecionando o objeto principal todos os objetos são selecionados.
-    
-    As alterações do objeto principal refletem em todos os objetos.
+    - Selecionando o objeto principal todos os objetos são selecionados;
+
+    - As alterações do objeto principal refletem em todos os objetos.
 
 1. Selecione os objetos (ctrl+G)  
   
@@ -287,7 +405,6 @@ Cuidado não podemos ter vértices sem conexão com outros
 1. Combine - Selecione os objetos `Mesh` > `Combine`
 
 1. Separate - Selecione o objeto `Mesh` > `Separate` vai ser criado um grupo.
-
 
 ## Duplicando
 
