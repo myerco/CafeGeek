@@ -210,7 +210,7 @@ A seguir vamos aprender mais sobre esses elementos.
 
 Lógica de que é executada na construção do objeto, similares ao eventos *Construtor* em C++.  
 
-**Exemplo:**
+### Exemplo
 
 Apresentando uma mensagem ao construir o objeto.
 
@@ -226,7 +226,7 @@ Contém um gráfico de nós e suas ligações representando a lógica de um **Bl
 
 ![Figura: Event Graph.](imagens/actor/unreal_engine_event_graph_example.webp "Figura: Event Graph")
 
-> Figura: Event Graph.s
+> Figura: Event Graph.
 
 ### BeginPlay
 
@@ -255,7 +255,7 @@ Eles podem ser usados apenas para fins organizacionais para tornar os gráficos 
 
 Selecione os nós e digite "C" no teclado para adicionar um comentário.  
 
-**Exemplo:**
+### Exemplo
 
 ![Figura: Comment Example.](imagens/actor/unreal_engine_comment_example.webp "Figura: Comment Example.")
 

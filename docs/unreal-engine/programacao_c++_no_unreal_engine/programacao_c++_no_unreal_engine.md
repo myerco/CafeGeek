@@ -39,7 +39,6 @@ A resposta é depende do problema mas considere o seguinte:
 
 - Para equipes pequenas com cultura de desenvolvimento e necessidade de processamento é recomendado **C++**.
 
-
 ## O fluxo de desenvolvimento e Herança
 
 Um modelo de desenvolvimento utilizando **C++** pode ser visto abaixo onde primeiro criamos a classe do objeto A em **C++** e depois uma classe **Blueprint** B filha da classe A. Fazendo isso pode-se aproveitar as características de ambas linguagens, como por exemplo: lógica em **C++** e parametrização de componentes visuais usando o Editor **Blueprint**.  
@@ -178,12 +177,12 @@ AControlLight::AControlLight()
 
 void AControlLight::BeginPlay()
 {
-	Super::BeginPlay();
+  Super::BeginPlay();
 }
 
 void AControlLight::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
+  Super::Tick(DeltaTime);
 }
 ```
 
@@ -249,7 +248,7 @@ Exemplo:
 #include "Plataforma.generated.h"
 ```
 
-**O arquivo <Classe>.generated.h**
+### O arquivo <Classe>.generated.h
 
 O **Unreal Engine** faz uso extensivo de macros de pré-processador, e algumas dessas macros são definidas (#defined) no arquivo `genrated.h` que acompanha cada `UCLASS`. Se você criar uma `UCLASS` *MyClass*, o arquivo MyClass.h irá incluir (#include) MyClass.generated.h. O cabeçalho gerado, MyClass.generated.h, é feito na parte inicial do processo de construção do **Unreal Engine**.
 
@@ -340,5 +339,3 @@ void anotherFunction(WeaponBase *someWeapon) {
 
 Na função anotherFunction o método chamado em OnFire é WeaponRifle::OnFire().
 O método WeaponBase::OnFire não é chamado pois foi sobreposto.
-
-

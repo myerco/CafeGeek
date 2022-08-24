@@ -9,7 +9,7 @@ Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de 
 
 ***
 
-##  O que são Actors?
+## O que são Actors?
 
 **Actors** ou Atores são uma classe genérica que oferece suporte a transformações 3D, como translação, rotação e escala. Atores podem ser criados (gerados) e destruídos por meio de código de jogo (**C++**  ou **Blueprints**). Em **C ++**, **AActor** é a classe base de todos os atores.
 
@@ -90,7 +90,7 @@ A classe **Actor** compreende objetos básicos que podem ser adicionados a o mun
 
 ## Classe Actor em C++ com uma Static Mesh
 
-**CharacterBase.h**
+### CharacterBase.h
 
 ```cpp
 #pragma once
@@ -248,7 +248,7 @@ Para editar os componentes utilizamos o Editor de objetos e componentes.
 
 > Figura: Editando componentes.
 
-###  Static Mesh - Malhas estáticas
+### Static Mesh - Malhas estáticas
 
 **Static Mesh** são a unidade básica usada para criar a geometria do mundo para níveis (*level*) criados no **Unreal Engine**. A grande maioria de qualquer mapa em um jogo feito com **Unreal** consistirá em Malhas Estáticas, geralmente na forma de Atores de Malha Estática.
 
@@ -367,7 +367,7 @@ Os objetos adicionados em uma cena possuem coordenadas de localização dentro d
 
 ### Transform
 
-A seção **Transform** do painel Detalhes permite que você visualize e edite as transformações - Localização, Rotação e Escala - do (s) ator (es) selecionado (s). Além disso, quando aplicável, também contém as configurações para Mobilidade do Ator.   
+A seção **Transform** do painel Detalhes permite que você visualize e edite as transformações - Localização, Rotação e Escala - do (s) ator (es) selecionado (s). Além disso, quando aplicável, também contém as configurações para Mobilidade do Ator.
 
 ![Figura: Transform - Coordenadas de posicionamento](imagens/actor/blueprint_transform.webp "Figura: Transform - Coordenadas de posicionamento")  
 
@@ -395,7 +395,7 @@ Considere o exemplo abaixo do objeto **BP_Ator**:
     |   |-- StaticMesh
 ```
 
-O objeto possui um componente `DefaultSceneRoot`.    
+O objeto possui um componente `DefaultSceneRoot`.
 
 ![Figura: DefaultSceneRoot](imagens/actor/blueprint_actor_add_component.webp "Figura: DefaultSceneRoot")
 
@@ -623,7 +623,7 @@ Apenas a colisão é útil e, em geral, o mínimo para interações físicas, ma
 
 > Figura: Colisão de eventos.
 
-### Configuração de colisão de esfera
+### Configuração de colisão de esfera 1
 
 ![Figura: Configuração de Colisão de uma esfera.](https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideEvent_Sphere.png "Figura: Configuração de Colisão de uma esfera.")
 
@@ -631,7 +631,7 @@ Apenas a colisão é útil e, em geral, o mínimo para interações físicas, ma
 
 Como no exemplo acima, a esfera é um `PhysicsBody` e está configurada para bloquear `WorldDynamic` (que é o que é a parede). No entanto, a esfera também habilitou `Simulation Generates Hit Event` para que acione um evento para si mesma sempre que colidir com algo.
 
-### Configuração de colisão de parede
+### Configuração de colisão de parede 1
 
 ![Figura: Configuração de Colisão da Wall.](https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Box.png "Figura: Configuração de Colisão da Wall.")
 

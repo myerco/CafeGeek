@@ -9,7 +9,7 @@ layout: page
 
 A **Mateial Instance** ou Instanciação de Material é uma maneira de criar um Material pai, que pode então ser usado como base para fazer uma ampla variedade de Materiais filhos de aparência diferente. Para obter essa flexibilidade, o **Material Instancing** usa um conceito chamado herança: as propriedades do pai são fornecidas aos seus filhos. Aqui está um exemplo de herança de material em ação.
 
-### Convertendo nós em parâmetros.
+### Convertendo nós em parâmetros
 
 Convertemos os nós em parâmetros para que possam ser manipulados posteriormente pelo **Material Instance**. Para que possamos exemplificar segue abaixo os passos.
 
@@ -19,24 +19,24 @@ Convertemos os nós em parâmetros para que possam ser manipulados posteriorment
 
     > Figura: Blueprint Material Instance - Base Master.
 
-2. Agora vamos converter os nós em parâmetros.
+1. Agora vamos converter os nós em parâmetros.
 
     ![Figura: Blueprint Material Instance - Convert to Parameter.](../imagens/materiais/unreal_engine_material_convert_parameter.webp "Figura: Blueprint Material Instance - Convert to Parameter.")
 
     > Figura: Blueprint Material Instance - Convert to Parameter.
 
-3. Resultado dos material com parâmetros.
+1. Resultado dos material com parâmetros.
 
     ![Figura: Blueprint Material Instance -  Resultado do material com parâmetros.](../imagens/materiais/unreal_engine_base_master_with_parameter.webp "Figura: Blueprint Material Instance -  Resultado do material com parâmetros.")
 
     > Figura: Blueprint Material Instance -  Resultado do material com parâmetros.
 
-4. Definimos os seguintes atributos nos parâmetros:
+1. Definimos os seguintes atributos nos parâmetros:
 
 - `Parameter name` - Nome para o parâmetro que representa o input do material.
 - `Group` - Usado para agrupar os parâmetros por um determinado valor ou tema.
 
-5. Sugestão de grupos:
+1. Sugestão de grupos:
 
 - Texture Parameter Values: Diffuse,NormalMap, Rough Texture;
 - Scalar Parameter Values:  Valores escalares;
@@ -75,7 +75,7 @@ Selecione o material `M_Base_Master` ou outro material e com o botão direito ac
 
 Podemos organizar os parâmetros agrupando com a opção `Group` do nó e com `Sort Priority` ordenamos a visualização.
 
-**Group.**
+### Group
 
 No exemplo abaixo criamos os grupos:
 
@@ -89,7 +89,7 @@ No exemplo abaixo criamos os grupos:
 
 > Figura: Blueprint Material Instance - Parameter Group.
 
-**Valor Mínimo e Máximo.**
+### Valor Mínimo e Máximo
 
 Podemos limitar os valores mínimo e máximo que podem ser passados como parâmetro utilizando a opção `Slider`.
 

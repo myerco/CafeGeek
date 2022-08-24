@@ -6,11 +6,12 @@ layout: page
 ---
 
 ## Como podemos manipular materiais com Blueprints?
+
 Podemos manipular os objetos do tipo material com scripts Blueprint.
 
 1. Utilizaremos o `Level Blueprint` para exemplificar;
 
-2. Adicione uma referência do ator selecionado no `View Port` no `Open Level Blueprint` com a opção `Create a Reference to `;
+2. Adicione uma referência do ator selecionado no `View Port` no `Open Level Blueprint` com a opção `Create a Reference to`;
 
 3. Lógica para criar o material e a textura: `Create material instance > Set Texture Parameter Value`.
 
@@ -63,7 +64,7 @@ São compostas basicamente por entradas de parâmetros e saída de dados.
 
 1. Utilizamos o menu de Context `Material & Textures` > `Material Function`;
 
-2. Abaixo o editor da lógica da função criada utilziando um nó  `Texture Sample` e um `Vector 3`.
+1. Abaixo o editor da lógica da função criada utilziando um nó  `Texture Sample` e um `Vector 3`.
 
     ![Figura: Blueprint Material Function - Output.](../imagens/materiais/unreal_engine_material_function_output.webp "Figura: Blueprint Material Function - Output.")
 
@@ -73,25 +74,25 @@ São compostas basicamente por entradas de parâmetros e saída de dados.
 
     - Podemos adicionar parâmetros para a função.
 
-4. Chamamos a função dentro do editor de materiais usando a função `MaterialFunctionCall`.
+1. Chamamos a função dentro do editor de materiais usando a função `MaterialFunctionCall`.
 
     ![Figura: Bluepritn Material Function Call.](../imagens/materiais/unreal_engine_material_function_call.webp "Figura: Bluepritn Material Function Call.")
 
     > Figura: Bluepritn Material Function Call.
 
-5. Podemos juntar vários atributos utilizando `MakeMaterialAttribute` possibilitando construir camadas ou `Layers` e utilizar no retorno da função.
+1. Podemos juntar vários atributos utilizando `MakeMaterialAttribute` possibilitando construir camadas ou `Layers` e utilizar no retorno da função.
 
     ![Figura: Blueprint Material - MakeMaterialAttribute.](../imagens/materiais/unreal_engine_material_function_makematerialattributes.webp "Figura: Blueprint Material - MakeMaterialAttribute.")
 
     > Figura: Blueprint Material - MakeMaterialAttribute.
 
-6. Ao usar a nó é necessário configurar o nó resultado do material principal com `Use Material Attribute` para `True`.
+1. Ao usar a nó é necessário configurar o nó resultado do material principal com `Use Material Attribute` para `True`.
 
     ![Figura: Blueprint Material - Nó resultado com Use Material Attribute true.](../imagens/materiais/unreal_engine_material_use_material_attributes.webp "Figura: Blueprint Material - Nó resultado com Use Material Attribute true.")
 
     > Figura: Blueprint Material - Nó resultado com Use Material Attribute true.
 
-7. `BreakMaterialAttribute` é o inverso de `MakeMaterialAttribute` possibilitando a separação dos atributos recebidos por uma função.
+1. `BreakMaterialAttribute` é o inverso de `MakeMaterialAttribute` possibilitando a separação dos atributos recebidos por uma função.
 
     ![Figura: Blueprint Material - BreakMaterialAttribute.](../imagens/materiais/unreal_engine_material_breakmaterialattributes.webp "Figura: Blueprint Material - BreakMaterialAttribute.")
 

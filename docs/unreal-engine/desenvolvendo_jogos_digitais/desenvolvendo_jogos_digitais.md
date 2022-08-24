@@ -60,7 +60,7 @@ A maioria das *engines* seguem um ciclo de execução da lógica de programaçã
 
 - **Finalização** - Executa as rotinas para descarregar o jogo;
 
-## 1.3 O que é Unreal Engine?
+## O que é Unreal Engine?
 
 ![Figura: Unreal Engine - https://www.unrealengine.com/en-US/](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg/800px-Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg "Figura: Unreal Engine - https://www.unrealengine.com/en-US/")
 

@@ -7,90 +7,90 @@ layout: page
 
 ***
 
-[O que são variáveis?](#o-que-s-o-vari-veis-)
+[O que são variáveis?](estruturas_de_programacao_no_unreal_engine.html#o-que-s-o-variáveis)
 
-[Variáveis no Unreal Engine](#vari-veis-no-unreal-engine)
+[Variáveis no Unreal Engine](estruturas_de_programacao_no_unreal_engine.html#variáveis-no-unreal-engine)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tipos de Variáveis](#tipos-de-vari-veis)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Tipos de Variáveis](estruturas_de_programacao_no_unreal_engine.html#tipos-de-variáveis)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Declarando variáveis](#declarando-vari-veis)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Declarando variáveis](estruturas_de_programacao_no_unreal_engine.html#declarando-variáveis)
 
-[Métodos Get e Set](#m-todos-get-e-set)
+[Métodos Get e Set](estruturas_de_programacao_no_unreal_engine.html#m-todos-get-e-set)
 
-[Tratamento e armazenamento de texto no Unreal Engine](#tratamento-e-armazenamento-de-texto-no-unreal-engine)
+[Tratamento e armazenamento de texto no Unreal Engine](estruturas_de_programacao_no_unreal_engine.html#tratamento-e-armazenamento-de-texto-no-unreal-engine)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Concatenando textos usando a função Append](#concatenando-textos-usando-a-fun--o-append)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Concatenando textos usando a função Append](estruturas_de_programacao_no_unreal_engine.html#concatenando-textos-usando-a-fun--o-append)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Procurando texto dentro de uma string](#procurando-texto-dentro-de-uma-string)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Procurando texto dentro de uma string](estruturas_de_programacao_no_unreal_engine.html#procurando-texto-dentro-de-uma-string)
 
-[Variáveis do tipo numéricas Integer e Float](#vari-veis-do-tipo-num-ricas-integer-e-float)
+[Variáveis do tipo numéricas Integer e Float](estruturas_de_programacao_no_unreal_engine.html#variáveis-do-tipo-num-ricas-integer-e-float)
 
-[Armazenando valores lógicos com Boolean](#armazenando-valores-l-gicos-com-boolean)
+[Armazenando valores lógicos com Boolean](estruturas_de_programacao_no_unreal_engine.html#armazenando-valores-l-gicos-com-boolean)
 
-[Controle de acesso a variáveis](#controle-de-acesso-a-vari-veis)
+[Controle de acesso a variáveis](estruturas_de_programacao_no_unreal_engine.html#controle-de-acesso-a-variáveis)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Variáveis Privadas](#vari-veis-privadas)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Variáveis Privadas](estruturas_de_programacao_no_unreal_engine.html#variáveis-privadas)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Variáveis Públicas](#vari-veis-p-blicas)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Variáveis Públicas](estruturas_de_programacao_no_unreal_engine.html#variáveis-p-blicas)
 
-[O que são estruturas de controle ou fluxo?](#o-que-s-o-estruturas-de-controle-ou-fluxo-)
+[O que são estruturas de controle ou fluxo?](estruturas_de_programacao_no_unreal_engine.html#o-que-s-o-estruturas-de-controle-ou-fluxo-)
 
-[Estruturas de fluxo condicional](#estruturas-de-fluxo-condicional)
+[Estruturas de fluxo condicional](estruturas_de_programacao_no_unreal_engine.html#estruturas-de-fluxo-condicional)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Controle de fluxo com Branch (if)](#controle-de-fluxo-com-branch--if-)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Controle de fluxo com Branch (if)](estruturas_de_programacao_no_unreal_engine.html#controle-de-fluxo-com-branch--if-)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Switch Nodes](#switch-nodes)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Switch Nodes](estruturas_de_programacao_no_unreal_engine.html#switch-nodes)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Sequenciamento de fluxo com Sequence](#sequenciamento-de-fluxo-com-sequence)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Sequenciamento de fluxo com Sequence](estruturas_de_programacao_no_unreal_engine.html#sequenciamento-de-fluxo-com-sequence)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Flip Flop](#flip-flop)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Flip Flop](estruturas_de_programacao_no_unreal_engine.html#flip-flop)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Gate e Multi Gate](#gate-e-multi-gate)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Gate e Multi Gate](estruturas_de_programacao_no_unreal_engine.html#gate-e-multi-gate)
 
-[Estruturas de repetição](#estruturas-de-repeti--o)
+[Estruturas de repetição](estruturas_de_programacao_no_unreal_engine.html#estruturas-de-repeti--o)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[For Loop](#for-loop)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[For Loop](estruturas_de_programacao_no_unreal_engine.html#for-loop)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[While Loop](#while-loop)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[While Loop](estruturas_de_programacao_no_unreal_engine.html#while-loop)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Do N](#do-n)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Do N](estruturas_de_programacao_no_unreal_engine.html#do-n)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Do once](#do-once)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Do once](estruturas_de_programacao_no_unreal_engine.html#do-once)
 
-[O que são variáveis do tipo array?](#o-que-s-o-vari-veis-do-tipo-array-)
+[O que são variáveis do tipo array?](estruturas_de_programacao_no_unreal_engine.html#o-que-s-o-variáveis-do-tipo-array-)
 
-[Declarando arrays e acessando os seus elementos](#declarando-arrays-e-acessando-os-seus-elementos)
+[Declarando arrays e acessando os seus elementos](estruturas_de_programacao_no_unreal_engine.html#declarando-arrays-e-acessando-os-seus-elementos)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Método Get para arrays](#m-todo-get-para-arrays)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Método Get para arrays](estruturas_de_programacao_no_unreal_engine.html#m-todo-get-para-arrays)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Get utilizando uma variável como índice](#get-utilizando-uma-vari-vel-como--ndice)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Get utilizando uma variável como índice](estruturas_de_programacao_no_unreal_engine.html#get-utilizando-uma-vari-vel-como--ndice)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Último índice e a quantidade de elementos do array](#-ltimo--ndice-e-a-quantidade-de-elementos-do-array)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Último índice e a quantidade de elementos do array](estruturas_de_programacao_no_unreal_engine.html#-ltimo--ndice-e-a-quantidade-de-elementos-do-array)
 
-[Percorrendo arrays](#percorrendo-arrays)
+[Percorrendo arrays](estruturas_de_programacao_no_unreal_engine.html#percorrendo-arrays)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Listando todos os elementos utilizando For](#listando-todos-os-elementos-utilizando-for)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Listando todos os elementos utilizando For](estruturas_de_programacao_no_unreal_engine.html#listando-todos-os-elementos-utilizando-for)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Usando o comando Find](#usando-o-comando-find)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Usando o comando Find](estruturas_de_programacao_no_unreal_engine.html#usando-o-comando-find)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Contando elementos dentro de um array](#contando-elementos-dentro-de-um-array)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Contando elementos dentro de um array](estruturas_de_programacao_no_unreal_engine.html#contando-elementos-dentro-de-um-array)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Percorrendo e atualizando dados](#percorrendo-e-atualizando-dados)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Percorrendo e atualizando dados](estruturas_de_programacao_no_unreal_engine.html#percorrendo-e-atualizando-dados)
 
-[Removendo elementos do array](#removendo-elementos-do-array)
+[Removendo elementos do array](estruturas_de_programacao_no_unreal_engine.html#removendo-elementos-do-array)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Removendo utilizando Remove](#removendo-utilizando-remove)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Removendo utilizando Remove](estruturas_de_programacao_no_unreal_engine.html#removendo-utilizando-remove)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Removendo passando uma variável como parâmetro](#removendo-passando-uma-vari-vel-como-par-metro)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Removendo passando uma variável como parâmetro](estruturas_de_programacao_no_unreal_engine.html#removendo-passando-uma-vari-vel-como-par-metro)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Removendo utilizando nó Remove Index](#removendo-utilizando-n--remove-index)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Removendo utilizando nó Remove Index](estruturas_de_programacao_no_unreal_engine.html#removendo-utilizando-n--remove-index)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Limpando o array com Clear](#limpando-o-array-com-clear)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Limpando o array com Clear](estruturas_de_programacao_no_unreal_engine.html#limpando-o-array-com-clear)
 
-[O que são Enums?](#o-que-s-o-enums-)
+[O que são Enums?](estruturas_de_programacao_no_unreal_engine.html#o-que-s-o-enums-)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Criando Enums no Unreal Engine](#criando-enums-no-unreal-engine)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Criando Enums no Unreal Engine](estruturas_de_programacao_no_unreal_engine.html#criando-enums-no-unreal-engine)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Exemplos de uso A lâmpada](#exemplos-de-uso---a-l-mpada)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Exemplos de uso A lâmpada](estruturas_de_programacao_no_unreal_engine.html#exemplos-de-uso---a-l-mpada)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Exemplos de uso A pedra das emoções](#exemplos-de-uso---a-pedra-das-emo--es)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Exemplos de uso A pedra das emoções](estruturas_de_programacao_no_unreal_engine.html#exemplos-de-uso---a-pedra-das-emo--es)

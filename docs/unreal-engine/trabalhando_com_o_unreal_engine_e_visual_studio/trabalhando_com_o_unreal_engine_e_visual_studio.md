@@ -1,5 +1,5 @@
 ---
-title: Trabalhando comoo Unreal Engine e Visual Studio
+title: Trabalhando como Unreal Engine e Visual Studio
 description: O Unreal Engine é um Framework de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos e também um ambiente visual de programação abstraindo a lógica de programação.
 tags: [Unreal Engine,desenvolvimento, visual studio]
 layout: page

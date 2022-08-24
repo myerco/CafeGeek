@@ -142,7 +142,7 @@ Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas 
 
     - As outras abas tem todos as ferramentas aplicadas no objeto.
 
-## Configurando a Interface   
+## Configurando a Interface
 
 1. Para habilitar ou desabilitar a janela inicial de avisos de mudanças de versão.
 
@@ -328,7 +328,7 @@ Logo em seguida clique em `Apply`.
 
 ## Pivot
 
-1. Centralizar pivot 
+1. Centralizar pivot
   
     `Modify` > `Center Pivot`
 
@@ -370,11 +370,9 @@ Cuidado não podemos ter vértices sem conexão com outros
 
 1. Adicione edges
 
-
 ## Merge de vértices
 
 1. Menu > Edit Mesh  > Merge (Antes Selecione dois vértices)
-
 
 ## Organizando em camadas
 
@@ -421,7 +419,7 @@ Cuidado não podemos ter vértices sem conexão com outros
 1. Revolve
   
     1. Ordem de seleção do objeto altera a forma final;
-    
+
     1. A curva fica associada ao objeto criado até que o histórico seja removido;
 
 1. Loft
@@ -430,11 +428,11 @@ Cuidado não podemos ter vértices sem conexão com outros
     1. É possível criar um objeto poligonal na construção usando as configurações
 1. Isoparm
   
-  1. É possível separar ou juntar usando `Surface` > `Detach` ou `Attach`
+    1. É possível separar ou juntar usando `Surface` > `Detach` ou `Attach`
 
 1. Project Curve on Surface
 
-  1. Trim Tool para cortar surface
+    1. Trim Tool para cortar surface
 
 ## Materiais
 
@@ -449,36 +447,43 @@ Cuidado não podemos ter vértices sem conexão com outros
 ## Tipos de Materiais (Maya)
 
 - Lambert (simples sem reflexo, brilho e transparência)
-    - Color: cor do material
-    - transparência: Aumenta o alpha
-    - Ambiente color: aumenta a tonalidade da cor
-    - Incandescência: Adiciona uma luz ao material
-    - Bump Mapping: adiciona textura para associar rugosidade ou padrões.
-    - Diffuse: Torna mais claro ou escuro a cor
+
+  - Color: cor do material;
+
+  - transparência: Aumenta o alpha;
+
+  - Ambiente color: aumenta a tonalidade da cor;
+
+  - Incandescência: Adiciona uma luz ao material;
+
+  - Bump Mapping: adiciona textura para associar rugosidade ou padrões;
+
+  - Diffuse: Torna mais claro ou escuro a cor.
 
 - Blind (Com brilho e reflexo)
-    - Specular [Reflexão especular](https://pt.wikipedia.org/wiki/Reflex%C3%A3o_especular)
+
+  - Specular [Reflexão especular](https://pt.wikipedia.org/wiki/Reflex%C3%A3o_especular)
   
-    - Eccentricty: Aumenta o brilho
+  - Eccentricty: Aumenta o brilho
   
-    - Specular Roll off: Desfoque aplicado no brilho
+  - Specular Roll off: Desfoque aplicado no brilho
   
-    - Specular color : Cor do brilho   
+  - Specular color : Cor do brilho
   
     - Reflectivity: Aumenta a intensidade do reflexo
 
 - [Phong](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Maya/files/GUID-3EDEB1B3-4E48-485A-9714-9998F6E4944D-htm.html) (Parecido com o Blind mas com mais parâmetros)  
 
-    - Specular Shadding
+  - Specular Shadding
 
     - Roughness: rugosidade
 
     - Highlight size: tamanho do desfoque
 
 - Anisotropic
-    
-    - Specular Shader
-    
+
+  - Specular Shader
+
     - Angle: ângulo da luz
 
 ## Mapeamento UV
@@ -518,13 +523,13 @@ Cuidado não podemos ter vértices sem conexão com outros
 
 - Movimentando ou aumentando
 
-  -  `Transform` > `Move`
+  - `Transform` > `Move`
 
 - Copiando dados de um Shells para outra  
 
-  -  `Transform` > `Texel Density` > `Get` - copia os valores de um elemento selecionado;
+  - `Transform` > `Texel Density` > `Get` - copia os valores de um elemento selecionado;
 
-  -  `Transform` > `Texel Density` > `Set` - cola os valores para um elemento selecionado;
+  - `Transform` > `Texel Density` > `Set` - cola os valores para um elemento selecionado;
 
 - Invertendo Shells `Tools`
 
@@ -541,7 +546,6 @@ Cuidado não podemos ter vértices sem conexão com outros
 - `Align and Snap`  Alinhando
 
   - `Align` - Alinhando UV;
-
 
   - `Match UVs` - Alinha duas Shells empilhadas;
 
@@ -591,8 +595,7 @@ Modelo de curvas - Estruturas complexas de curvas, preenchimento automático
 
 Modelos de curvas - Construindo caminhos para objetos poligonais ou de curvas
 
-##   Modelagem 3D Luz, Câmera e Ação
-
+## Modelagem 3D Luz, Câmera e Ação
 
 Materiais - Conceitos de materiais
 

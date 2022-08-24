@@ -224,7 +224,7 @@ void AMyHeroClass::BeginPlay()
 
 A função `Append` concatena duas ou mais `strings`, passamos como parâmetros os textos que gostaríamos de concatenar e tendo como resultado um novo texto contendo os dois textos.
 
-**C++**
+### C++
 
 ```cpp
 
@@ -388,7 +388,7 @@ O resultado será 0 pois a condição de controle de fluxo **if** provocou um de
 |Principal  |<span style="color:blue">--></span> |<span style="color:blue">--></span> |<span style="color:blue">--></span> |<span style="color:blue">-D-</span>|   |   |<span style="color:blue">-O-</span>|<span style="color:blue">--></span> |<span style="color:blue">--></span> |
 |Desvio     |   |   |   |<span style="color:red">--></span> |<span style="color:red">--></span> |<span style="color:red">--></span> |<span style="color:red">--></span> |   |   |
 
-**Exemplo de fluxo de repetição.**
+### Exemplo de fluxo de repetição
 
 |           |t1 |t2 |t3 |t4 |t5 |t6 |t7 |t8 |t9 |
 |:-         |:- |:- |:- |:- |:- |:- |:- |:- |:- |
