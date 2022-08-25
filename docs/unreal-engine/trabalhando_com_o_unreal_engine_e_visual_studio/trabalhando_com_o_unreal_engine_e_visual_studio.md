@@ -19,7 +19,7 @@ A **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **In
 
 - Instalação e atualização das versões do **Unreal Engine**;
 
-![Figura: Gerenciamento de versões.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_control_version.webp "Figura: Gerenciamento de versões.")   
+![Figura: Gerenciamento de versões.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_control_version.webp "Figura: Gerenciamento de versões.")
 
 > Figura: Gerenciamento de versões.
 
@@ -43,7 +43,7 @@ Para instalar o **Unreal Engine** siga os seguintes passos:
 
     - Desenvolvimento para Desktop com C++.
 
-<img src="https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_visual_studio_update.webp" width="1265" height="auto" alt="Figura: Visual Studio Update para desenvolvimento de jogos." title="Figura: Visual Studio Update para desenvolvimento de jogos.">
+![Figura: Visual Studio Update para desenvolvimento de jogos](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_visual_studio_update.webp "Figura: Visual Studio Update para desenvolvimento de jogos")
 
 > Figura: Visual Studio Update para desenvolvimento de jogos.
 
@@ -85,7 +85,7 @@ Em configuração de projeto escolha **C++** e `No Starter Content`, esta opçã
 
 Quando todos os passos anteriores forem concluídos corretamente a tela inicial deve aparecer.  
 
-<img src="https://cafegeek.eti.br/unreal-engine/imagens/projeto/blueprint_ue_tela_inicial.webp" width="1265" height="auto" alt="Figura: Unreal Engine tela inicial." title="Figura: Unreal Engine tela inicial.">
+![Figura: Unreal Engine tela inicial.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/blueprint_ue_tela_inicial.webp "Figura: Unreal Engine tela inicial.")
 
 > Figura: Unreal Engine tela inicial.
 
@@ -93,19 +93,11 @@ Quando todos os passos anteriores forem concluídos corretamente a tela inicial 
 
 A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o mesmo dos passos anteriores.
 
-<!--![Figura: Unreal 5 - Select or create New Project, Games.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_select_new_project.webp "Figura: Unreal 5 - Select or create New Project, Games")-->
-
-<figure>
-  <img src="https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_select_new_project.webp"
-  alt="Figura: Unreal 5 - Select or create New Project, Games" title="Figura: Unreal 5 - Select or create New Project, Games">
-  <figcaption>Figura: Unreal 5 - Select or create New Project, Games</figcaption>
-</figure>
+![Figura: Unreal 5 - Select or create New Project, Games](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_select_new_project.webp "Figura: Unreal 5 - Select or create New Project, Games")
 
 > Figura: Unreal 5 - Select or create New Project, Games.
 
-<!-- ![Figura: Unreal 5 - Tela inicial.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_home_screen.webp "Figura: Unreal 5 - Tela inicial.") -->
-
-<img src="https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_home_screen.webp" width="1265" height="auto" alt="Figura: Unreal 5 - Tela inicial." title="Figura: Unreal Engine tela inicial.">
+![Figura: Unreal 5 - Tela inicial.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_home_screen.webp "Figura: Unreal 5 - Tela inicial.")
 
 > Figura: Unreal 5 - Tela inicial.
 
@@ -113,9 +105,9 @@ A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o 
 
 Para programar utilizando **C++** no Unreal devemos configurar um editor de código para ser responsável pela compilação, organização e edição da linguagem. A configuração esta em :
 
-`Menu` > `Editor Preferences` > `General` e `Source Code`, então escolha `Visualstudio`.   
+`Menu` > `Editor Preferences` > `General` e `Source Code`, então escolha `Visualstudio`.
 
-![Figura: General - Source Code, Definindo o editor de código.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_editor_codigo.webp "Figura: General - Source Code, Definindo o editor de código.")   
+![Figura: General - Source Code, Definindo o editor de código.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_editor_codigo.webp "Figura: General - Source Code, Definindo o editor de código.")
 
 > Figura: General - Source Code, Definindo o editor de código.
 
@@ -172,7 +164,8 @@ As pastas abaixo podem ser removidas pois podemos construir a qualquer momento q
 
 ### Nomenclatura de pastas
 
-É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto, abaixo duas boas recomendações de organização, discutiremos mais nos próximos capítulos.    
+É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto, abaixo duas boas recomendações de organização, discutiremos mais nos próximos capítulos.
+
 - [Directory Structure](https://docs.unrealengine.com/en-US/Engine/Basics/DirectoryStructure/index.html "Directory Structure Overview of the directories that make up the engine and game projects.");
 
 - [UE5 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin "Gamemakin UE4 Style Guide() { A mostly reasonable approach to Unreal Engine 4").
@@ -233,7 +226,8 @@ Temos também equipes heterogêneas trabalhando no mesmo projeto e até na mesma
 
 Por conseguinte para um maior gerenciamento pelas equipes do projeto  podemos definir pastas com nomenclaturas e organização adequadas ao projeto, abaixo vamos relacionar algumas sugestões.
 
-1. Sugestão 1.
+1. Primeira Sugestão de organização de pastas no Unreal Engine
+
 ```bash
 |-- Content
 		|-- Blueprints
@@ -250,7 +244,8 @@ Por conseguinte para um maior gerenciamento pelas equipes do projeto  podemos de
 		|-- Animations
 ```
 
-1. Sugestão 2.
+1. Segunda Sugestão de organização de pastas no Unreal Engine
+
 ```bash
 |-- Content
 		|-- ProjetoAula
@@ -272,7 +267,7 @@ Por conseguinte para um maior gerenciamento pelas equipes do projeto  podemos de
 			|  |  |-- Audio
 			|  |-- Jack
 			|  |-- Steve
-			|  |-- Zoe						
+			|  |-- Zoe
 			|-- Core
 			|	|-- Characters
 			|	|-- Engine
@@ -321,15 +316,17 @@ Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguinte
 
 1. Salve o *level* atual na pasta `Maps` :
     `File` > `Save Current Level As` com o nome `LevelTest`;
-1. Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o menu :     
-    `Edit` > `Project Settings` e depois `Maps & Modes`;   
+1. Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o menu :
 
-	![Figura: Project - Maps & Modes.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_maps_modes.webp "Figura: Project - Maps & Modes.")
+  	- `Edit` > `Project Settings` e depois `Maps & Modes`;
 
-	> Figura: Project - Maps & Modes.
+   ![Figura: Project - Maps & Modes.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_maps_modes.webp "Figura: Project - Maps & Modes.")
 
-- `Edit Startup Level` - Seleciona o *Level* que deverá ser carregado no início do jogo, neste caso é `LevelTest`;
-- `Game default Map` - Seleciona o *Level* que é mais usado.
+	>Figura: Project - Maps & Modes.
+
+	- `Edit Startup Level` - Seleciona o *Level* que deverá ser carregado no início do jogo, neste caso é `LevelTest`;
+
+	- `Game default Map` - Seleciona o *Level* que é mais usado.
 
 ### Configurando as imagens  do projeto
 
@@ -337,13 +334,7 @@ Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apr
 
 `Project Settings` opção `Plataforms` > `Windows` e altere a imagens.
 
-<!-- ![Figura: Project icon.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_project_icon.webp "Figura: Project icon.")		-->
-
-<figure>
-  <img src="https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_project_icon.webp"  
-alt="Figura: Project icon." title="Figura: Project icon.">
-  <figcaption>Figura: Project icon.</figcaption>
-</figure>
+![Figura: Project icon](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_project_icon.webp "Figura: Project icon")
 
 > Figura: Project icon.
 

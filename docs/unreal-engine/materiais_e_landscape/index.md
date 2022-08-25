@@ -5,62 +5,38 @@ tags: [Unreal Engine,Materiais, material Function, material]
 layout: page
 ---
 
-***
+- - -
 
-- [**Introdução aos Materiais**](unreal_engine_material_introducao_aos_materiais.html)
+- [O que é um material?](unreal_engine_material_introducao_aos_materiais.html#o-que-é-um-material)
 
-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[O que é um material?](unreal_engine_material_introducao_aos_materiais.html#o-que-é-um-material)
+- [Materiais de base física - PBR](unreal_engine_material_introducao_aos_materiais.html#materiais-de-base-física---pbr)
 
-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Materiais de base física - PBR](unreal_engine_material_introducao_aos_materiais#materiais-de-base-física---pbr)
+- [Estrutura do Material no Unreal Engine](unreal_engine_material_introducao_aos_materiais.html#estrutura-do-material-no-unreal-engine)
 
- - &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Estrutura do Material no Unreal Engine.](unreal_engine_material_introducao_aos_materiais#estrutura-do-material-no-unreal-engine)
+  - [Criando um material](unreal_engine_material_introducao_aos_materiais.html#criando-um-material)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[O Nó principal ou Node Result](unreal_engine_material_introducao_aos_materiais#o-nó-principal-ou-node-result)
+  - [Editor de Materiais](unreal_engine_material_introducao_aos_materiais.html#editor-de-materiais)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Propriedades do nó principal](unreal_engine_material_introducao_aos_materiais#propriedades-do-nó-principal)
+- [O que são Material expressions?](unreal_engine_material_introducao_aos_materiais.html#o-que-s-o-material-expressions-)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Valores que determinam a física](unreal_engine_material_introducao_aos_materiais#valores-que-determinam-a-física)
+- [O Nó principal ou Node Result](unreal_engine_material_introducao_aos_materiais.html#o-n--principal-ou-node-result)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Texture samples](unreal_engine_material_introducao_aos_materiais#texture-samples)
+- [Propriedades do nó principal](unreal_engine_material_introducao_aos_materiais.html#propriedades-do-n--principal)
 
-[**Construindo Materiais e entendo a lógica**](unreal_engine_material_construindo_materiais_entendendo_a_logica.html)
+  - [Blend Mode](unreal_engine_material_introducao_aos_materiais.html#blend-mode)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Combinando elementos utilizando funções](unreal_engine_material_construindo_materiais_entendendo_a_logica.html#combinando-elementos-utilizando-funções)
+  - [Shading Model](unreal_engine_material_introducao_aos_materiais.html#shading-model)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Utilizando Panner e TextCoord](unreal_engine_material_construindo_materiais_entendendo_a_logica.html#utilizando-panner-e-textcoord)
+  - [Material Domain](unreal_engine_material_introducao_aos_materiais.html#material-domain)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Exemplo do nó Lerp](unreal_engine_material_construindo_materiais_entendendo_a_logica.html#exemplo-do-nó-lerp)
+- [Valores que determinam a física](unreal_engine_material_introducao_aos_materiais.html#valores-que-determinam-a-física)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Texturas](unreal_engine_material_construindo_materiais_entendendo_a_logica.html#texturas)
+- [Texture samples](unreal_engine_material_introducao_aos_materiais.html#texture-samples)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Aplicando o material no objeto](unreal_engine_material_construindo_materiais_entendendo_a_logica.html#aplicando-o-material-no-objeto)
+  - [Roughness - rugosidade](unreal_engine_material_introducao_aos_materiais.html#roughness---rugosidade)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[World position Offset](unreal_engine_material_construindo_materiais_entendendo_a_logica.html#world-position-offset)
+  - [Normal - Coordenadas normals](unreal_engine_material_introducao_aos_materiais.html#normal---coordenadas-normals)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Unlit Shading Model](unreal_engine_material_construindo_materiais_entendendo_a_logica.html#unlit-shading-model)
+  - [Metallic - Metálica](unreal_engine_material_introducao_aos_materiais.html#metallic---metálica)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Masked Blend Mode](unreal_engine_material_construindo_materiais_entendendo_a_logica.html#masked-blend-mode)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Translucent Blend Mode](#translucent-blend-mode)
-
-[**Material Instance**](unreal_engine_material_instance.html)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[O que é Material Instance?](unreal_engine_material_instance.html#o-que-é-material-instance-)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Editor de material Instance](unreal_engine_material_instance.html#editor-de-material-instance)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Switch Parameter](unreal_engine_material_instance.html#switch-parameter)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Organizando parâmetros e definindo valor máximo e mínimo](unreal_engine_material_instance.html#organizando-par-metros-e-definindo-valor-m-ximo-e-m-nimo)
-
-[**Materiais e Blueprint**](unreal_engine_material_blueprint.html)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Como podemos manipular materiais com Blueprints?](unreal_engine_material_blueprint.html#como-podemos-manipular-materiais-com-blueprints-)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Parameter Global](unreal_engine_material_blueprint.html#parameter-global)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Material Function](unreal_engine_material_blueprint.html#material-function)
-
-[**Trabalhando com Iluminação**](iluminacao.html)
-
-[**Criando terrenos - Landscape**](landscape.html)
+- [Aplicando o material no objeto](unreal_engine_material_introducao_aos_materiais.html#aplicando-o-material-no-objeto)

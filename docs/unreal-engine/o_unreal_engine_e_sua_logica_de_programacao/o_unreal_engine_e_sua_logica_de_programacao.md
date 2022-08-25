@@ -5,7 +5,9 @@ tags: [Unreal Engine,lógica de programação, blueprint]
 layout: page
 ---
 
-![Figura: Unreal Engine com Blueprint](imagens/actor/unreal_engine_blueprint.webp "Figura: Unreal Engine com Blueprint")
+***
+
+![Figura: Unreal Engine com Blueprint](../imagens/actor/unreal_engine_blueprint.webp "Figura: Unreal Engine com Blueprint")
 
 > Figura: Unreal Engine com Blueprint.
 
@@ -13,7 +15,7 @@ layout: page
 
 O sistema *Blueprints Visual Scripting* no *Unreal Engine* é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nó para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos na *engine* .
 
-![Figura: Exemplo do conceito de objetos na programação.](imagens/actor/uml_jogos.webp "Figura: Exemplo do conceito de objetos na programação.")
+![Figura: Exemplo do conceito de objetos na programação.](../imagens/actor/uml_jogos.webp "Figura: Exemplo do conceito de objetos na programação.")
 
 > Figura: Exemplo do conceito de objetos na programação.
 
@@ -106,13 +108,13 @@ Um `Level Blueprint` é um tipo especializado de **Blueprint** que atua como um 
 
 Para editar utilizamos a opção `Blueprints` > `Open Level Blueprint`.
 
-![Figura:  Open Level Blueprint.](imagens/actor/unreal_engine_open_level_blueprint.webp "Figura:  Open Level Blueprint")
+![Figura:  Open Level Blueprint.](../imagens/actor/unreal_engine_open_level_blueprint.webp "Figura:  Open Level Blueprint")
 
 > Figura:  Open Level Blueprint.
 
 Para escrever uma mensagem no `ViewPort` utilizando o `Level Bueprint` quando o *level* iniciar utilizaremos o evento `BeginPlay` e conectaremos o nó `Print String` para escrever uma mensagem na tela.
 
-![Figura: Iniciando o level e escrevendo uma mensagem na tela.](imagens/actor/unreal_engine_blueprint_beginplay_printstring.webp "Figura: Iniciando o level e escrevendo uma mensagem na tela.")
+![Figura: Iniciando o level e escrevendo uma mensagem na tela.](../imagens/actor/unreal_engine_blueprint_beginplay_printstring.webp "Figura: Iniciando o level e escrevendo uma mensagem na tela.")
 
 > Figura: Iniciando o level e escrevendo uma mensagem na tela.
 
@@ -136,13 +138,13 @@ No nível mais fundamental, um ator é qualquer objeto que você pode colocar em
 
 Para adicionar o ator predefinido na cena utilizamos a opção `Create` e escolhemos o tipo de ator.
 
-![Figura: Create > Shapes para criar um objeto poligonal.](imagens/actor/unreal_engine_blueprint_place_actors_bar.webp "Figura: Create > Shapes para criar um objeto poligonal.")
+![Figura: Create > Shapes para criar um objeto poligonal.](../imagens/actor/unreal_engine_blueprint_place_actors_bar.webp "Figura: Create > Shapes para criar um objeto poligonal.")
 
 > Figura: Create > Shapes para criar um objeto poligonal.
 
 Ou podemos acessar o menu principal `Menu` > `Place Actors` para ter acesso a mais atores.
 
-![Figura: Windows > Place Actors.](imagens/actor/unreal_engine_place_actors.webp "Figura: Windows > Place Actors.")
+![Figura: Windows > Place Actors.](../imagens/actor/unreal_engine_place_actors.webp "Figura: Windows > Place Actors.")
 
 > Figura: Windows >Place Actors.
 
@@ -152,13 +154,13 @@ Uma classe **Blueprint**, muitas vezes abreviada como Blueprint, é um ativo que
 
 Para adicionar um ator na cena utilizamos o menu de acesso rápido `Context Menu` e acionando com o botão direito do mouse na aba `Content`.  
 
-![Figura: Context Menu.](imagens/actor/unreal_engine_context_menu.webp "Figura: Context Menu.")
+![Figura: Context Menu.](../imagens/actor/unreal_engine_context_menu.webp "Figura: Context Menu.")
 
 > Figura: Context Menu.s
 
 Escolha de Classe de atores  `Blueprint Class`.
 
-![Figura: Pick Parent Classe e All Classes.](imagens/actor/unreal_engine_pick_class.webp "Figura: Pick Parent Classe e All Classes")
+![Figura: Pick Parent Classe e All Classes.](../imagens/actor/unreal_engine_pick_class.webp "Figura: Pick Parent Classe e All Classes")
 
 > Figura: Pick Parent Classe e All Classes.
 
@@ -170,7 +172,7 @@ Os componentes são úteis para compartilhar comportamentos comuns, como a capac
 
 Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuário pode implementar as diferenças no controle e movimento do veículo, alterando qual componente um ator do veículo usa.
 
-![Figura: Add Components.](imagens/actor/unreal_engine_add_component.webp "Figura: Add Component")
+![Figura: Add Components.](../imagens/actor/unreal_engine_add_component.webp "Figura: Add Component")
 
 > Figura: Add Components.
 
@@ -178,7 +180,7 @@ Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuár
 
 Para ter acesso aos componentes que estão associados a um determinado objeto utilizamos a aba `My Blueprint`, que é uma representação visual do agrupamento de componentes, funções, variáveis e macros, abaixo um exemplo.
 
-![Figura: Aba MyBlueprint.](imagens/actor/unreal_engine_myblueprint.webp "Figura: Aba MyBlueprint")
+![Figura: Aba MyBlueprint.](../imagens/actor/unreal_engine_myblueprint.webp "Figura: Aba MyBlueprint")
 
 > Figura: Aba MyBlueprint.
 
@@ -214,7 +216,7 @@ Lógica de que é executada na construção do objeto, similares ao eventos *Con
 
 Apresentando uma mensagem ao construir o objeto.
 
-![Figura: Construction Script.](imagens/actor/unreal_engine_construction_script.webp "Figura: Construction Script.")
+![Figura: Construction Script.](../imagens/actor/unreal_engine_construction_script.webp "Figura: Construction Script.")
 
 > Figura: Construction Script.s
 
@@ -224,7 +226,7 @@ Contém um gráfico de nós e suas ligações representando a lógica de um **Bl
 
 "Exibe a representação visual de um gráfico específico de nós, pois mostra todos os nós contidos no gráfico, bem como as conexões entre eles. Ele fornece recursos de edição para adicionar e remover nós, organizar nós e criar links entre nós. Os pontos de interrupção também podem ser definidos na guia Gráfico para auxiliar na depuração de Blueprints."
 
-![Figura: Event Graph.](imagens/actor/unreal_engine_event_graph_example.webp "Figura: Event Graph")
+![Figura: Event Graph.](../imagens/actor/unreal_engine_event_graph_example.webp "Figura: Event Graph")
 
 > Figura: Event Graph.
 
@@ -257,7 +259,7 @@ Selecione os nós e digite "C" no teclado para adicionar um comentário.
 
 ### Exemplo
 
-![Figura: Comment Example.](imagens/actor/unreal_engine_comment_example.webp "Figura: Comment Example.")
+![Figura: Comment Example.](../imagens/actor/unreal_engine_comment_example.webp "Figura: Comment Example.")
 
 > Figura: Comment Example.
 
@@ -271,6 +273,6 @@ Podemos adicionar Características aos comentários que detalham melhor a lógic
 
 Detalhes do comentário.
 
-![Figura: Comment Details.](imagens/actor/unreal_engine_comment_details.webp "Figura: Comment Details.")
+![Figura: Comment Details.](../imagens/actor/unreal_engine_comment_details.webp "Figura: Comment Details.")
 
 > Figura: Comment Details.
