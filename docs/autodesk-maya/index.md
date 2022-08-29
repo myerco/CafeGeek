@@ -372,7 +372,41 @@ Cuidado não podemos ter vértices sem conexão com outros
 
 ## Merge de vértices
 
-1. Menu > Edit Mesh  > Merge (Antes Selecione dois vértices)
+1. `Menu` > `Edit Mesh`  > `Merge` (Antes Selecione dois vértices)
+
+## Extract
+
+Extraindo partes de um objeto.
+
+1. `Menu` > `Edit Mesh` > `Extract`
+
+## Append e Bridged Tool
+
+Adiciona faces nos objeto.
+
+1. `Menu` > `Edit Mesh` > `Bridge`
+
+1. `Menu` > `Mesh Tool` > `Append to Polygon`
+
+- Duas soluções robustas para conectar componentes.
+
+- `Bridge tool` trabalha com faces poligonais, permitindo não apenas a criação de planos planos.
+
+- `Append to Polygon` é ideal em situações em que você precisa conectar seletivamente partes da mesma malha.
+
+[3D Modeling Part 7: Tools and Techniques in Autodesk Maya](https://www.shutterstock.com/blog/3d-modeling-autodesk-maya)
+
+## Fill Hole
+
+Preenchendo um buraco no objeto.
+
+Para exemplificar, selecione `Edge` e marque todas as arestas adjacentes ao espaço que queremos preencher.
+
+1. `Menu` > `Mesh` > `Fill Hole`
+
+## Target Weld
+
+Movimenta e solda vertices, selecione `Vertex` e logo em seguida `Mesh Tool` > `Target Weld`.
 
 ## Organizando em camadas
 
@@ -400,9 +434,9 @@ Cuidado não podemos ter vértices sem conexão com outros
 
 ## Combine e Separate
 
-1. Combine - Selecione os objetos `Mesh` > `Combine`
+1. `Combine` - Selecione os objetos `Mesh` > `Combine`
 
-1. Separate - Selecione o objeto `Mesh` > `Separate` vai ser criado um grupo.
+1. `Separate` - Selecione o objeto `Mesh` > `Separate` vai ser criado um grupo.
 
 ## Duplicando
 
@@ -425,7 +459,9 @@ Cuidado não podemos ter vértices sem conexão com outros
 1. Loft
 
 1. Extrude
+
     1. É possível criar um objeto poligonal na construção usando as configurações
+
 1. Isoparm
   
     1. É possível separar ou juntar usando `Surface` > `Detach` ou `Attach`
@@ -438,7 +474,7 @@ Cuidado não podemos ter vértices sem conexão com outros
 
 - Render
 
-  - Menu: `Arnold` > `Arnold RenderView`
+  - Menu: `Arnold` > `Arnold Render View`
 
   - Cameras
 
