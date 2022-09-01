@@ -7,8 +7,8 @@ layout: page
 
 ***
 
-[Variáveis estruturadas ou Structure](unreal_engine_structure_variaveis_estruturadas.html)
+- [Variáveis estruturadas ou Structure](unreal_engine_structure_variaveis_estruturadas.html)
 
-[Tabelas de dados ou Data tables ](unreal_engine_data_tables.html)
+- [Tabelas de dados ou Data tables](unreal_engine_data_tables.html)
 
-[Game Instance, Game State e Game Mode](unreal_engine_gameinstance_state_mode.html)
+- [Game Instance, Game State e Game Mode](unreal_engine_gameinstance_state_mode.html)
