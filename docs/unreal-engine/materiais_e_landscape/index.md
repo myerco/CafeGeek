@@ -5,9 +5,11 @@ tags: [Unreal Engine,Materiais, material Function, material]
 layout: page
 ---
 
-- - -
+***
 
 ### Introdução aos materiais
+
+***
 
 - [O que é um material?](unreal_engine_material_introducao_aos_materiais.html#o-que-é-um-material)
 
@@ -43,13 +45,9 @@ layout: page
 
 - [Aplicando o material no objeto](unreal_engine_material_introducao_aos_materiais.html#aplicando-o-material-no-objeto)
 
-- [Organizando parâmetros e definindo valor máximo e mínimo](unreal_engine_material_introducao_aos_materiais.html#organizando-par-metros-e-definindo-valor-máximo-e-mínimo)
-
-  - [Group](unreal_engine_material_introducao_aos_materiais.html#group)
-
-  - [Valor Mínimo e Máximo](unreal_engine_material_introducao_aos_materiais.html#valor-m-nimo-e-m-ximo)
-
 ### Construindo materiais e entendendo a lógica
+
+***
 
 - [Combinando elementos utilizando funções](unreal_engine_material_construindo_materiais_entendendo_a_logica.html#combinando-elementos-utilizando-funções)
 
@@ -67,6 +65,8 @@ layout: page
 
 ### Material Instance
 
+***
+
 - [O que é Material Instance?](unreal_engine_material_instance.html#o-que-é-material-instance)
 
   - [Convertendo nós em parâmetros](unreal_engine_material_instance.html#convertendo-nós-em-par-metros)
@@ -77,6 +77,12 @@ layout: page
 
 - [Switch Parameter](unreal_engine_material_instance.html#switch-parameter)
 
+- [Organizando parâmetros e definindo valor máximo e mínimo](unreal_engine_material_instance.html#organizando-par-metros-e-definindo-valor-máximo-e-mínimo)
+
+  - [Group](unreal_engine_material_instance.html#group)
+
+  - [Valor Mínimo e Máximo](unreal_engine_material_instance.html#valor-mínimo-e-máximo)
+
 ### Materiais e Blueprint
 
 - [Como podemos manipular materiais com Blueprints?](unreal_engine_material_blueprint.html#como-podemos-manipular-materiais-com-blueprints)
@@ -84,3 +90,9 @@ layout: page
 - [Parameter Global](unreal_engine_material_blueprint.html#parameter-global)
 
 - [Material Function](unreal_engine_material_blueprint.html#material-function)
+
+
+<iframe src="https://blueprintue.com/render/jow7acn4/" scrolling="no" allowfullscreen></iframe>
+
+
+[código teste](https://blueprintue.com/blueprint/jow7acn4/)
