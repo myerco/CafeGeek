@@ -13,7 +13,7 @@ Podemos manipular os objetos do tipo material com scripts Blueprint.
 
 2. Adicione uma referência do ator selecionado no `View Port` no `Open Level Blueprint` com a opção `Create a Reference to`;
 
-     <iframe title="Cafegeek - Material and Material #1 Click Objects and Change Color" src="https://blueprintue.com/render/3oeee-_g/" scrolling="no" allowfullscreen></iframe>
+     <iframe title="Cafegeek - Material and Material #1 Click Objects and Change Color" src="https://blueprintue.com/render/3oeee-_g/" scrolling="no" allowfullscreen style="width:100%"></iframe>
 
      <https://blueprintue.com/blueprint/3oeee-_g/#comment-1382>
 
