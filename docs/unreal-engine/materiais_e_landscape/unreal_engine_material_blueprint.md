@@ -13,7 +13,11 @@ Podemos manipular os objetos do tipo material com scripts Blueprint.
 
 2. Adicione uma referência do ator selecionado no `View Port` no `Open Level Blueprint` com a opção `Create a Reference to`;
 
-3. Lógica para criar o material e a textura: `Create material instance > Set Texture Parameter Value`.
+     <iframe src="https://blueprintue.com/render/3oeee-_g/" scrolling="no" allowfullscreen></iframe>
+
+     <https://blueprintue.com/blueprint/3oeee-_g/#comment-1382>
+
+3. Lógica para criar o material e a textura: `Create material instance` > `Set Texture Parameter Value`.
 
     ![Figura: Blueprint Material - Create material instance set.](../imagens/materiais/ue4_material_bp_create_material_instance_set.webp "Figura: Blueprint Material - Create material instance set.")
 
@@ -26,6 +30,10 @@ Podemos manipular os objetos do tipo material com scripts Blueprint.
     - `Set Scalar Parameter Value` - Atualiza o valor escalar do parâmetro informado em `Parameter Name` com o valor `value`;
 
     - `Set Vector Parameter Value` - Atualiza o vetor do parâmetro informado em `Parameter Name` com o valor `value`.
+
+     <iframe src="https://blueprintue.com/render/eckgsjqu/" scrolling="no" allowfullscreen></iframe>
+
+    <https://blueprintue.com/blueprint/eckgsjqu/>
 
 4. No Level Blueprint implemente a lógica para chamar o Evento **MudaCorEvento**.
 
