@@ -13,7 +13,7 @@ Podemos manipular os objetos do tipo material com scripts Blueprint.
 
 2. Adicione uma referência do ator selecionado no `View Port` no `Open Level Blueprint` com a opção `Create a Reference to`;
 
-     <iframe src="https://blueprintue.com/render/3oeee-_g/" scrolling="no" allowfullscreen></iframe>
+     <iframe title="Cafegeek - Material and Material #1 Click Objects and Change Color" src="https://blueprintue.com/render/3oeee-_g/" scrolling="no" allowfullscreen></iframe>
 
      <https://blueprintue.com/blueprint/3oeee-_g/#comment-1382>
 
@@ -31,7 +31,7 @@ Podemos manipular os objetos do tipo material com scripts Blueprint.
 
     - `Set Vector Parameter Value` - Atualiza o vetor do parâmetro informado em `Parameter Name` com o valor `value`.
 
-     <iframe src="https://blueprintue.com/render/eckgsjqu/" scrolling="no" allowfullscreen></iframe>
+     <iframe title="Cafegeek - Material and Blueprint #2 Create Dynanmic Material Instance and Set" src="https://blueprintue.com/render/eckgsjqu/" scrolling="no" allowfullscreen></iframe>
 
     <https://blueprintue.com/blueprint/eckgsjqu/>
 
