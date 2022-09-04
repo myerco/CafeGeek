@@ -5,13 +5,9 @@ tags: [Unreal Engine,Materiais, material Function, material]
 layout: page
 ---
 
-***
-
 ### Introdução aos materiais
 
 ***
-
-- [O que é um material?](unreal_engine_material_introducao_aos_materiais.html#o-que-é-um-material)
 
 - [Materiais de base física - PBR](unreal_engine_material_introducao_aos_materiais.html#materiais-de-base-física---pbr)
 
@@ -21,9 +17,31 @@ layout: page
 
   - [Editor de Materiais](unreal_engine_material_introducao_aos_materiais.html#editor-de-materiais)
 
-- [O que são Material expressions?](unreal_engine_material_introducao_aos_materiais.html#o-que-s-o-material-expressions-)
+- [O que são Material expressions?](unreal_engine_material_introducao_aos_materiais.html#o-que-s-o-material-expressions)
 
-- [O Nó principal ou Node Result](unreal_engine_material_introducao_aos_materiais.html#o-n--principal-ou-node-result)
+  - [Valores que determinam a física](unreal_engine_material_introducao_aos_materiais.html#valores-que-determinam-a-física)
+
+  - [Texture samples](unreal_engine_material_introducao_aos_materiais.html#texture-samples)
+
+- [O Nó principal ou Node Result](unreal_engine_material_introducao_aos_materiais.html#o-nó-principal-ou-node-result)
+
+  - [Base color](unreal_engine_material_introducao_aos_materiais.html#base-color)
+
+  - [Normal](unreal_engine_material_introducao_aos_materiais.html#normal)
+
+  - [Textura Normal](unreal_engine_material_introducao_aos_materiais.html#textura-normal)
+
+  - [Metallic](unreal_engine_material_introducao_aos_materiais.html#metallic)
+
+  - [Textura Metallic](unreal_engine_material_introducao_aos_materiais.html#textura-metallic)
+
+  - [Roughness](unreal_engine_material_introducao_aos_materiais.html#roughness)
+
+  - [Textura Roughness](unreal_engine_material_introducao_aos_materiais.html#textura-roughness)
+
+  - [Specular](unreal_engine_material_introducao_aos_materiais.html#specular)
+
+  - [Ambient Occlusion](unreal_engine_material_introducao_aos_materiais.html#ambient-occlusion)
 
 - [Propriedades do nó principal](unreal_engine_material_introducao_aos_materiais.html#propriedades-do-n--principal)
 
@@ -32,16 +50,6 @@ layout: page
   - [Shading Model](unreal_engine_material_introducao_aos_materiais.html#shading-model)
 
   - [Material Domain](unreal_engine_material_introducao_aos_materiais.html#material-domain)
-
-- [Valores que determinam a física](unreal_engine_material_introducao_aos_materiais.html#valores-que-determinam-a-física)
-
-- [Texture samples](unreal_engine_material_introducao_aos_materiais.html#texture-samples)
-
-  - [Roughness - rugosidade](unreal_engine_material_introducao_aos_materiais.html#roughness---rugosidade)
-
-  - [Normal - Coordenadas normals](unreal_engine_material_introducao_aos_materiais.html#normal---coordenadas-normals)
-
-  - [Metallic - Metálica](unreal_engine_material_introducao_aos_materiais.html#metallic---metálica)
 
 - [Aplicando o material no objeto](unreal_engine_material_introducao_aos_materiais.html#aplicando-o-material-no-objeto)
 
@@ -85,14 +93,10 @@ layout: page
 
 ### Materiais e Blueprint
 
+***
+
 - [Como podemos manipular materiais com Blueprints?](unreal_engine_material_blueprint.html#como-podemos-manipular-materiais-com-blueprints)
 
 - [Parameter Global](unreal_engine_material_blueprint.html#parameter-global)
 
 - [Material Function](unreal_engine_material_blueprint.html#material-function)
-
-
-<iframe src="https://blueprintue.com/render/jow7acn4/" scrolling="no" allowfullscreen></iframe>
-
-
-[código teste](https://blueprintue.com/blueprint/jow7acn4/)

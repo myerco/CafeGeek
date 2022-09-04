@@ -76,6 +76,49 @@ Combinando `Material Expressions`, a área de trabalho é um modelo de programa�
 
 > **Atenção** - Devemos considerar o tipo de valor de retorno do nó no momento da conexão para evitar erros de tipos conflitantes, por exemplo float3 * float2.
 
+### Valores que determinam a física
+
+Existem variáveis ou nós específicos para determinar uma propriedade física do material, por exemplo um valor `float` com valores entre 0 e 1 que expressam a escala de tonalidades de cor, sombra e pedaços (pixels) de uma área.
+
+- Constant 1 ou valor escalar- Valor único.
+
+  ![Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó.](../imagens/materiais/unreal_engine_material_node_constant_1.webp "Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó.")
+
+  > Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó.
+
+- Constant 2 - Vetor de dois valores.
+
+  ![Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó.](../imagens/materiais/unreal_engine_material_node_constant_2.webp "Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó.")
+
+  > Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó.
+
+- Constant 3 - Vetor de três valores.
+
+  ![Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó.](../imagens/materiais/unreal_engine_material_node_constant_3.webp "Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó.")
+
+  > Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó.
+
+### Texture samples
+
+Texturas são imagens que são usadas em materiais e são representadas pelo nó abaixo.  
+
+![Figura: Blueprint Material texture - (Clicando T + RMB).](../imagens/materiais/unreal_engine_material_node_texture_sample.webp "Figura: Blueprint Material texture - (Clicando T + RMB).")
+
+> Figura: Blueprint Material texture - (Clicando T + RMB).
+
+Considerações sobre texturas no **Unreal Engine**.
+
+Tamanhos :
+
+- 1x1, 2x2, 4x4, 1024x1024 e 8192x8192
+- As texturas serão importadas em qualquer tamanho, mas não serão mipmaps.
+
+A seguir vamos abordar as características das texturas no **Unreal Engine**.
+
+![Figura: Blueprint Material - Base texture.](../imagens/materiais/unreal_engine_material_texture.webp "Figura: Blueprint Material - Base texture.")
+
+> Figura: Blueprint Material - Base texture.
+
 ## O Nó principal ou Node Result
 
 O nó principal do material é responsável por exibir os resultados de todos os nós da *Expressão de Material* que são inseridos nele nas várias entradas. Cada entrada no nó Material Principal tem um efeito exclusivo sobre a aparência e o desempenho do Material.
@@ -86,14 +129,124 @@ Abaixo o nó principal e suas principais entradas.
 
 > Figura: Blueprint Material - Nó principal ou Node Result.
 
-- `Base Color`
-  A Cor Base define a cor geral do Material, obtendo um valor Vector3 (RGB) em que cada canal é automaticamente fixado entre 0 e 1.
+### Base color
 
-- `Normal maps`
-  A entrada Normal leva em um mapa normal, que é usado para fornecer detalhes físicos significativos para a superfície, perturbando o "normal", ou direção de frente, de cada pixel individual.
+A Cor Base define a cor geral do Material, tomando um valor Vector3 (RGB) onde cada canal é automaticamente fixado entre 0 e 1.
 
-- `Emissive`
-  Dá aos artistas uma maneira muito barata e eficaz de dar a ilusão de que um Material está lançando luz quando na verdade não está. Os materiais emissivos fazem isso permitindo que o artista empurre os valores da entrada emissiva acima de 1,0, o que empurrará o material para a faixa HDR, emitindo um efeito Bloom que você pode ver ao olhar para uma fonte de luz muito brilhante.
+Se tirada do mundo real, esta é a cor quando fotografada usando um filtro polarizador (a polarização remove a especular dos não metais quando alinhada).
+
+![Base color](https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/BaseColor_QS.webp "Base Color")
+
+>Figura: Base color.
+
+### Normal
+
+O mapa Normal define em qual direção uma parte de uma superfície é voltada, que é usada para criar sombras e realces detalhados.
+
+![Normal (geometry)](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Normal_vectors_on_a_curved_surface.svg/620px-Normal_vectors_on_a_curved_surface.svg.png "Normal (geometry)")
+
+>Figura: Normal (geometry).
+
+![Normal map (Bump mapping)1](https://docs.unity3d.com/uploads/Main/BumpMapBumpShadingDiagram.svg "Normal map (Bump mapping)")
+
+>Figura: Mapeamento normal em três polígonos, visto como um diagrama 2D
+
+![Normal map (Bump mapping)](https://docs.unity3d.com/uploads/Main/BumpMapTexturePreview.png "Normal map (Bump mapping)2")
+
+>Figura: Exemplo de uma textura de mapa normal.
+
+### Textura Normal
+
+Usado para simular a maneira como a luz interage com a superfície do material para simular saliências e amassados menores.
+É importante observar que um mapa normal não mudará sua geometria base (consulte os mapas de altura posteriormente neste artigo).
+
+![Figura: Blueprint Material - Texture Normal.](../imagens/materiais/unreal_engine_material_normal_rock_basalt.webp "Figura: Blueprint Material - Texture Normal.")
+
+> Figura: Blueprint Material - Texture Normal.
+
+A cor base de um mapa normal é roxo claro, esta é a “parte inferior” do mapa normal que representa a superfície de sua malha poligonal. A partir daí, os valores RGB são usados para produzir rachaduras, saliências ou poros em seu modelo. Os valores R, G e B são iguais às coordenadas X, Y e Z em sua malha base.
+
+### Metallic
+
+O mapa Metálico define quais partes de um material são metálicas e quais não são. Seu valor será 0 ou 1, nada intermediário. Ao criar superfícies híbridas como metais corroídos, empoeirados ou enferrujados, você pode achar que precisa de algum valor entre 0 e 1.
+
+![Physically Based Materials Metallic](https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/metallic.png "Physically Based Materials Metallic")
+
+>Figura: Metallic 0 até 1.
+
+![Metallic](https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/Metallic_1.jpg "Metallic")
+
+>Figura: Metallic.
+
+### Textura Metallic
+
+Os mapas de metal também são em tons de cinza, mas a prática recomendada é usar apenas os valores de branco e preto e fazer as variações entre o uso de seus mapas de rugosidade.
+
+Para exemplificar utilizaremos o canal R (Red) da textura *Rock Basalt*.
+
+![Figura: Blueprint Material - Texture Metallic.](../imagens/materiais/unreal_engine_material_chanel_r_rock_basalt.webp "Figura: Blueprint Material - Texture Metallic.")
+
+> Figura: Blueprint Material - Texture Metallic.
+
+### Roughness
+
+O mapa de rugosidade define a rugosidade de uma superfície. Uma rugosidade de 0 (suave) resulta em uma reflexão de espelho e rugosidade de 1 (áspera) resulta em uma superfície difusa (ou fosca).
+
+`Roughness` (Aspereza e também chamada de brilho ou dispersão da micro-superfície) é um mapa semi-autoexplicativo. Eles definem como a luz é espalhada pela superfície do seu modelo.
+Isso começa com um valor de zero, onde seu modelo não dispersará a luz, tornando os reflexos e a iluminação muito mais nítidos e brilhantes em seu material.
+Por outro lado, se você aumentar a rugosidade ao máximo, a luz se espalhará mais pelo material. Isso faz com que a iluminação e os reflexos se espalhem pelo modelo, mas pareçam muito mais escuros.
+
+![Physically Based Materials Roughness](https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/roughness_nonmetal.png "Physically Based Materials Roughness")
+
+>Figura: Rugosidade de 0 até 1.
+
+![Roughness](https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/Roughness_1.jpg "Roughness")
+
+>Figura: Roughness.
+
+### Textura Roughness
+
+Para exemplificar utilizaremos o canal A (Alpha) da textura `Rock Basalt`.
+
+![Figura: Blueprint Material - Texture Roughness - Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante.](../imagens/materiais/unreal_engine_material_chanel_a_rock_basalt.webp "Figura: Blueprint Material - Texture Roughness - Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante.")
+
+> Figura: Blueprint Material - Texture Roughness - Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante.
+
+### Specular
+
+Ao editar um material de superfície não metálico, há momentos em que você deseja ajustar sua capacidade de refletir a luz, especificamente, sua propriedade Specular. Para atualizar o Specular de um Material, insira um valor escalar entre 0 (não refletivo) e 1 (totalmente refletivo). Observe que o valor especular padrão de um material é 0,5.
+
+Valores especulares medidos:
+
+|Material   |Valor    |
+|:-         |:-       |
+|Grama      |0.5      |
+|Plástico   |0.5      |
+|Quartz     |0.570    |
+|Gelo       |0.224    |
+|Água       |0.255    |
+|Leie       |0.277    |
+|Pele       |0.35     |
+
+![Specular](https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/Specular_1.jpg "Specular")
+
+>Figura: Specular.
+
+### Ambient Occlusion
+
+O mapa Ambient Occlusion (AO) pode ser usado para simular sombras suaves nas saliências de uma superfície. Não é realmente necessário criar materiais realistas no Blender (especialmente com Cycles), mas você ainda pode usá-lo para escurecer as pequenas sombras na superfície.
+
+![Ambient Occlusion 1](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/ao_0.webp "Ambient Occlusion 1")
+
+>Figura: Scene without Ambient Occlusion.
+
+![Ambient Occlusion 2](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/ao_1.webp "Ambient Occlusion 2")
+
+>Figura:Ambient Occlusion Only.
+
+![Ambient Occlusion 3](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/ao_2.webp "Ambient Occlusion 3")
+
+>Figura:Scene with Ambient Occlusion.
 
 ## Propriedades do nó principal
 
@@ -174,86 +327,6 @@ Controla como o material deve ser usado, por exemplo, se ele deve fazer parte de
 ![Figura: Blueprint Material- Type input](../imagens/materiais/unreal_engine_material_type_input.webp "Figura: Blueprint Material- Type input.")
 
 > Figura: Blueprint Material- Type input.
-
-## Valores que determinam a física
-
-Existem variáveis ou nós específicos para determinar uma propriedade física do material, por exemplo um valor `float` com valores entre 0 e 1 que expressam a escala de tonalidades de cor, sombra e pedaços (pixels) de uma área.
-
-- Constant 1 ou valor escalar- Valor único.
-
-  ![Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó.](../imagens/materiais/unreal_engine_material_node_constant_1.webp "Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó.")
-
-  > Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó.
-
-- Constant 2 - Vetor de dois valores.
-
-  ![Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó.](../imagens/materiais/unreal_engine_material_node_constant_2.webp "Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó.")
-
-  > Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó.
-
-- Constant 3 - Vetor de três valores.
-
-  ![Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó.](../imagens/materiais/unreal_engine_material_node_constant_3.webp "Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó.")
-
-  > Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó.
-
-## Texture samples
-
-Texturas são imagens que são usadas em materiais e são representadas pelo nó abaixo.  
-
-![Figura: Blueprint Material texture - (Clicando T + RMB).](../imagens/materiais/unreal_engine_material_node_texture_sample.webp "Figura: Blueprint Material texture - (Clicando T + RMB).")
-
-> Figura: Blueprint Material texture - (Clicando T + RMB).
-
-Considerações sobre texturas no **Unreal Engine**.
-
-Tamanhos :
-
-- 1x1, 2x2, 4x4, 1024x1024 e 8192x8192
-- As texturas serão importadas em qualquer tamanho, mas não serão mipmaps.
-
-A seguir vamos abordar as características das texturas no **Unreal Engine**.
-
-![Figura: Blueprint Material - Base texture.](../imagens/materiais/unreal_engine_material_texture.webp "Figura: Blueprint Material - Base texture.")
-
-> Figura: Blueprint Material - Base texture.
-
-### Roughness - rugosidade
-
-`Roughness` (Aspereza e também chamada de brilho ou dispersão da micro-superfície) é um mapa semi-autoexplicativo. Eles definem como a luz é espalhada pela superfície do seu modelo.
-Isso começa com um valor de zero, onde seu modelo não dispersará a luz, tornando os reflexos e a iluminação muito mais nítidos e brilhantes em seu material.
-Por outro lado, se você aumentar a rugosidade ao máximo, a luz se espalhará mais pelo material. Isso faz com que a iluminação e os reflexos se espalhem pelo modelo, mas pareçam muito mais escuros.
-
-Para exemplificar utilizaremos o canal A (Alpha) da textura `Rock Basalt`.
-
-![Figura: Blueprint Material - Texture Roughness - Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante.](../imagens/materiais/unreal_engine_material_chanel_a_rock_basalt.webp "Figura: Blueprint Material - Texture Roughness - Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante.")
-
-> Figura: Blueprint Material - Texture Roughness - Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante.
-
-### Normal - Coordenadas normals
-
-Usado para simular a maneira como a luz interage com a superfície do material para simular saliências e amassados menores.
-É importante observar que um mapa normal não mudará sua geometria base (consulte os mapas de altura posteriormente neste artigo).
-
-![Figura: Blueprint Material - Texture Normal.](../imagens/materiais/unreal_engine_material_normal_rock_basalt.webp "Figura: Blueprint Material - Texture Normal.")
-
-> Figura: Blueprint Material - Texture Normal.
-
-A cor base de um mapa normal é roxo claro, esta é a “parte inferior” do mapa normal que representa a superfície de sua malha poligonal. A partir daí, os valores RGB são usados para produzir rachaduras, saliências ou poros em seu modelo. Os valores R, G e B são iguais às coordenadas X, Y e Z em sua malha base.
-
-### Metallic - Metálica
-
-É usado para definir se o seu material (ou parte dele) é metal puro.
-Os mapas de metal também são em tons de cinza, mas a prática recomendada é usar apenas os valores de branco e preto e fazer as variações entre o uso de seus mapas de rugosidade.
-
-Para exemplificar utilizaremos o canal R (Red) da textura *Rock Basalt*.
-
-![Figura: Blueprint Material - Texture Metallic.](../imagens/materiais/unreal_engine_material_chanel_r_rock_basalt.webp "Figura: Blueprint Material - Texture Metallic.")
-
-> Figura: Blueprint Material - Texture Metallic.
-
-Preto no mapa de *metalidade* significa que parte do mapa usará o mapa de albedo como a cor difusa (a cor que a textura mostra quando é atingida pela luz).
-Em vez disso, o branco usará a cor albedo para definir a cor e o brilho de seus reflexos e definirá a cor difusa dos materiais como preto. A cor difusa não é mais necessária neste caso porque todas as cores e detalhes daquela parte do material agora virão dos reflexos, tornando-o preto.
 
 ## Aplicando o material no objeto
 
