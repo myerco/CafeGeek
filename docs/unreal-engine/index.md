@@ -75,7 +75,9 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 ### Materiais e Landscape
 
-- [Materiais e Landscape](materiais_e_landscape/index.html)
+- [Materiais](materiais_e_landscape/index.html)
+
+- [Trabalhando com iluminação](iluminacao/iluminacao.html)
 
 ### Multiplayer
 
