@@ -63,6 +63,18 @@ Dentro do ângulo do cone interno, a luz atinge o brilho total. Conforme você v
 
 As **Point Lights** funcionam como uma lâmpada do mundo real, emitindo luz em todas as direções a partir do filamento de tungstênio da lâmpada. No entanto, por uma questão de desempenho, as **Point Lights** são simplificadas emitindo luz igualmente em todas as direções a partir de apenas um único ponto no espaço. O ponto de luz quando colocado pode ser definido para uma das três configurações de mobilidade:
 
+- Stationarea: a área de influência não pode cruzar com outro point light
+
+[Por que isso?](https://michaeljcole.github.io/wiki.unrealengine.com/LightingTroubleshootingGuide/#Why_does_this_look_nothing_like_it_did_before.2C_or_Engine_Scalability_and_you)
+
+As luzes estacionárias são limitadas a um máximo de 4 luzes de projeção de sombra sobrepostas. Quando o 5º for adicionado, haverá um 'X' vermelho indicando que a luz nesta área de sobreposição com o menor raio reverterá para uma luz dinâmica. Isso pode causar problemas de desempenho porque a iluminação dinâmica que projeta sombras é mais cara de usar do que a iluminação pré-definida.
+
+Se a iluminação for construída com alguma luz estacionária que se sobreponha aos ofensores, haverá um aviso detalhando qual luz é o ofensor e as ramificações.
+
+Para corrigir isso, certifique-se de que não haja mais de 4 sombras sobrepostas de luzes estacionárias em uma única área. Isso pode exigir a remoção de uma luz, desabilitar o sinalizador Cast Shadows ou ajustar o raio para que não fique mais sobreposto.
+
+Se houver apenas três luzes estacionárias colocadas e houver um X vermelho sobre a 4ª luz, certifique-se de que não haja outras luzes estacionárias em seu nível que se sobreponham. Muitas vezes, essa seria a luz direcional definida como estacionária que está causando esse problema.
+
 ## Rect Light
 
 O **Rect Light** emite luz na cena a partir de um plano retangular com largura e altura definidas. Você pode usá-los para simular qualquer tipo de fonte de luz que tenha áreas retangulares, como televisores ou telas de monitor, luminárias suspensas ou arandelas de parede.

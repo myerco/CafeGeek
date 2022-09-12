@@ -451,29 +451,144 @@ Podemos adicionar uma cor na camada fazendo com que todos os objetos selecionado
 
 ## Booleans
 
-1. `Mesh` > `Booleans`
+Para projetar ou misturar objetos podemos usar [`Booleans`](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Maya/files/GUID-9467513F-47C3-4C73-8251-6FF8C0DE4982-htm.html).
+
+- `Mesh` > `Booleans`
+
+  - `Union`
+  - `Diference`
+  - `Intersection`
 
 ## Modelagem NURBS
 
-1. Revolve
+NURBS (Non-Uniform Rational B-Splines) é um tipo de geometria que você pode usar para criar curvas e superfícies 3D no Maya. Os outros tipos de geometria fornecidos pelo Maya são superfícies de polígono e subdivisão.
+
+- Não Uniforme refere-se à parametrização da curva. Curvas não uniformes permitem, entre outras coisas, a presença de multi-nós, que são necessários para representar curvas de Bezier.
+
+- Racional refere-se à representação matemática subjacente. Essa propriedade permite que NURBS represente cônicas exatas (como curvas parabólicas, círculos e elipses) além de curvas de forma livre.
+
+- B-splines são curvas polinomiais por partes (splines) que têm uma representação paramétrica.
+
+NURBS são úteis para construir muitos tipos de formas 3D orgânicas devido à natureza suave e mínima das curvas que eles usam para construir superfícies. Os tipos de superfície NURBS são amplamente utilizados nas áreas de animação, jogos, visualização científica e design industrial.
+
+O tipo de dados NURBS 3D pode ser facilmente exportado para aplicativos de software CAD exportando as superfícies usando o formato de arquivo IGES. Além disso, o Maya pode importar muitos tipos de dados bezier e NURBS de muitos aplicativos de software CAD.
+
+Se seus requisitos são usar o tipo de superfície de polígono em suas cenas, você pode inicialmente construir suas superfícies usando NURBS e depois convertê-las em polígonos.
+
+### Objetos primitivos
+
+#### Esfera
+
+São compostos por :
+
+- Star Sweep - Valor de início da curva;
+
+- End Sweep - Valor final da curva;
+
+- Sections - Quantidade de seções da malha (Vertical);
+
+- Spans - Quantidade de `spans` (Horizontal)
+
+#### Cubo
+
+O objeto é uma composição de várias outros **agrupdos**.
+
+#### Cilindro
+
+Criando o objeto habilitando a opção `Interactive Creation` as partes superior e inferior do objeto são preenchidas, utilizando uma **hirarquia** de três objetos.
+
+- NurbsCylinder1 > BottomCap1 > TopCap1.
+
+#### Plano
+
+Para aumentar os vértices criados utilizamos : `Patches U` e `Patches V`.
+
+### Componentes de seleção
+
+`Hulls` - À medida que uma curva obtém mais spans e pontos de edição, você pode perder o controle da ordem dos CVs. Para mostrar a relação entre os currículos, o Maya pode traçar linhas entre eles. Essas linhas são chamadas de cascos.
+
+Os Hull são úteis para vários propósitos:
+
+- Para mostrar a ordem dos currículos em uma cena lotada.
+
+- Para mostrar a forma dos CVs quando seu objeto está tão cheio de CVs que você não pode determinar exatamente quais CVs adjacentes serão afetados quando você ajustar parte de um modelo.
+
+- Para selecionar uma linha inteira de currículos de uma só vez.
+
+`Isoparms` - Silimiar aos Edges dos objetos poligonais.
+
+### Revolve
   
-    1. Ordem de seleção do objeto altera a forma final;
+1. Ordem de seleção do objeto altera a forma final;
 
-    1. A curva fica associada ao objeto criado até que o histórico seja removido;
+1. A curva fica associada ao objeto criado até que o histórico seja removido;
 
-1. Loft
+### Loft
 
-1. Extrude
+Possibilita a criação de figuras utilizando uma curva
 
-    1. É possível criar um objeto poligonal na construção usando as configurações
+- Crie uma curva do tipo circulo e depois a duplique;
 
-1. Isoparm
+- Selecione todas as curvas (A última selecionada fica com a cor verde);
+
+- Utilize a ferramenta `Surfaces` > `Loft`
+
+- Os parâmetros do objeto:
+  - Degree: Cubic/Linear;
+
+  - Uniform e Close;
   
-    1. É possível separar ou juntar usando `Surface` > `Detach` ou `Attach`
+  - Autreverse - reverte as faces do objeto
 
-1. Project Curve on Surface
+### Extrude Nurbs
 
-    1. Trim Tool para cortar surface
+É possível criar um objeto poligonal na construção usando as configurações:
+
+- Crie um objeto Nurbs qualquer;
+
+- Crie um curva para servir como caminho;
+
+- Selecione os objetos;
+
+- Parametros:
+  
+  - No objeto podemos fixar o objeto para a curva: CTRL + A - Fixed Path;
+
+  - Rotation e Scale;
+
+### Isoparm
+  
+É possível separar ou juntar usando `Surface` > `Detach` ou `Attach`
+
+Inserção:  selecione um isoparm e logo em seguida utilize `Surface` > `Insert Isoparms`
+
+### Project Curve on Surface
+
+É possível projetar a imagem de uma curva em outro com :
+
+`Surfaces` > `Project Curve on Surface`
+
+- Selecione primeiro o objeto que deve ter a sombra da curva;
+
+- A projeção da curva considera a posição da camera;
+
+- `Surfaces` > `Trim Tool`  - Para cortar surface e permite selecionar o que vai ser mantido.
+
+### Convertendo NURBS para poligonais
+
+Para exportar objetos para o Unreal Engine devemos transformar os objetos NURBS em objetos poligonais.
+
+`Modify` > `Convert` > `NURBS to Poligons`
+
+- `Standart fit` - O ajuste padrão é o método de mosaico padrão. É uma tesselação “adaptativa”, o que significa que as opções a seguir são usadas para determinar quando parar a tesselação.
+
+Por exemplo, a tecelagem para no valor de tolerância fracionária que você definiu. Se houver uma aresta mais curta que o comprimento mínimo da aresta, a tesselação para nessa aresta. Se a superfície for plana o suficiente dentro da borda (a razão corda/altura especificada é pequena o suficiente), a tesselação para aí.
+
+- `Type` - Selecione o tipo de polígonos a ser usado ao converter a geometria NURBS em dados poligonais. Se você selecionar Triângulo (o padrão), polígonos de 3 lados serão criados. Se você selecionar Quads, polígonos de 4 lados serão criados.
+
+- `Tessellation` - Tessellation significa que você cria um conjunto de polígonos da geometria NURBS.
+
+>Em [computação gráfica](https://en.wikipedia.org/wiki/Tessellation), tesselação refere-se à divisão de conjuntos de dados de polígonos (às vezes chamados de conjuntos de vértices) apresentando objetos em uma cena em estruturas adequadas para renderização.
 
 ## Materiais
 
@@ -485,7 +600,23 @@ Podemos adicionar uma cor na camada fazendo com que todos os objetos selecionado
 
   - Iluminação
 
-## Tipos de Materiais (Maya)
+### Criando materiais
+
+Menu/Opção `Rendering` > ``Light/Shading` > `New Material`
+
+Logo em seguida é apresentado a lista de materiais existentes no Maya.
+
+Atributos do material:
+
+1. Color;
+
+1. Transparency;
+
+1. Incandescence;
+
+1. Bump Mapping - Adiciona uma imagem para [Bump Mapping](https://pt.wikipedia.org/wiki/Bump_mapping)
+
+### Tipos de Materiais (Maya)
 
 - Lambert (simples sem reflexo, brilho e transparência)
 
