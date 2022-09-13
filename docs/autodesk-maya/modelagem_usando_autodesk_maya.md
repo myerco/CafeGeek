@@ -169,41 +169,46 @@ Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas 
 
 ## Configuração de ViewPort
 
-1. Mostrando a quantidade de polígonos e vértices.
+### Mostrando a quantidade de polígonos e vértices
 
-   - `Display` > `Heads Up Display` > `Poly Count`[ [Poly Count](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-Modeling/files/GUID-53E46D0C-4B7B-4404-AEB0-3BDD1FF8608A-htm.html) ]
+`Display` > `Heads Up Display` > `Poly Count`[ [Poly Count](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-Modeling/files/GUID-53E46D0C-4B7B-4404-AEB0-3BDD1FF8608A-htm.html) ]
 
-1. Visualização
+### Visualização
 
-    Este menu Sombreamento é exibido acima da visualização da cena ou acima de cada painel de visualização em um layout com várias visualizações de cena (como o layout de quatro visualizações).
+Este menu Sombreamento é exibido acima da visualização da cena ou acima de cada painel de visualização em um layout com várias visualizações de cena (como o layout de quatro visualizações).
 
-    - [Shading](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-C6188583-EA9E-4880-AAE7-8D895FD94DD6-htm.html)
+|Tecla|                                                 |
+|:-:  |:-                                               |
+|0    |Configuração de exibição de qualidade padrão     |
+|1    |Configuração de exibição de qualidade aproximada |
+|2    |Configuração de exibição de qualidade média      |
+|3    |Configuração de exibição de qualidade suave      |
+|4    |Estrutura de arame                               |
+|5    |Exibição sombreada                               |
+|6    |Exibição sombreada e texturizada                 |
+|7    |Usar todas as luzes                              |
 
-    - Wireframe - Tecla 4
+- [Shading](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-C6188583-EA9E-4880-AAE7-8D895FD94DD6-htm.html)
 
-    - Smooth Shade all - Tecla 5
+- [Atalhos de teclado do Autodesk Maya](https://www.autodesk.com.br/shortcuts/maya)
 
-    - Use default material - Tecla 6
+### Hotbox - pressione a barra de espaço
 
-    - Use default Light - Tecla 7
+![Space bar](https://forums.autodesk.com/autodesk/attachments/autodesk/area-b201/85095/1/likethis.PNG "Space bar")
 
-1. Hotbox - pressione a barra de espaço
+>Figura: Space bar.
 
-    ![Space bar](https://forums.autodesk.com/autodesk/attachments/autodesk/area-b201/85095/1/likethis.PNG "Space bar")
+### RMB - Menu de contexto
 
-    >Figura: Space bar.
+![Context Menu](https://simplymaya.com/forum/attachment.php?attachmentid=56228&stc=1&thumb=1&d=1540913195 "Context Menu")
 
-1. RMB - Menu de contexto
+>Figura: Context Menu.
 
-    ![Context Menu](https://simplymaya.com/forum/attachment.php?attachmentid=56228&stc=1&thumb=1&d=1540913195 "Context Menu")
+- `Vertex` - Vértices;
 
-    >Figura: Context Menu.
+- `Edge` - Arestas;
 
-   - `Vertex` - Vértices;
-
-   - `Edge` - Arestas;
-
-   - `Face` - Faces.
+- `Face` - Faces.
 
 ## Freeze e Reset parâmetros
 
@@ -491,11 +496,11 @@ São compostos por :
 
 #### Cubo
 
-O objeto é uma composição de várias outros **agrupdos**.
+O objeto é uma composição de várias outros **agrupados**.
 
 #### Cilindro
 
-Criando o objeto habilitando a opção `Interactive Creation` as partes superior e inferior do objeto são preenchidas, utilizando uma **hirarquia** de três objetos.
+Criando o objeto habilitando a opção `Interactive Creation` as partes superior e inferior do objeto são preenchidas, utilizando uma **hierarquia** de três objetos.
 
 - NurbsCylinder1 > BottomCap1 > TopCap1.
 
@@ -505,27 +510,73 @@ Para aumentar os vértices criados utilizamos : `Patches U` e `Patches V`.
 
 ### Componentes de seleção
 
-`Hulls` - À medida que uma curva obtém mais spans e pontos de edição, você pode perder o controle da ordem dos CVs. Para mostrar a relação entre os currículos, o Maya pode traçar linhas entre eles. Essas linhas são chamadas de cascos.
+#### CV
+
+![CVs](https://download.autodesk.com/us/maya/2011help/images/MED/Sherlock/NURBS/comp_N19b.png "CVs")
+
+>Figura: CVs
+
+Control Vertices, controlar como a curva é “puxada” de uma linha reta entre os pontos de edição. Eles são os meios mais básicos e importantes para controlar a forma de uma curva. Linhas entre CVs consecutivos formam o Hull de controle.
+
+O número de CVs é igual ao grau da curva mais um. Assim, por exemplo, uma curva de grau 3 tem quatro CVs por vão. Para aumentar o número de CVs para obter mais controle sobre a forma da curva, você pode aumentar o número de extensões inserindo pontos de edição ou aumentar o grau da curva.
+
+O Maya desenha CVs de forma diferente para permitir que você saiba a diferença entre o início e o fim de uma curva. O primeiro CV (no ponto inicial da curva) é desenhado como uma caixa. O segundo CV é desenhado como um pequeno “U”, para mostrar a dimensão U crescente a partir do ponto inicial. Todos os outros CVs são desenhados como pequenos pontos.
+
+#### Edit Points
+
+![Edit Points](https://download.autodesk.com/us/maya/2011help/images/MED/Sherlock/NURBS/comp_N20a.png "Edit Points")
+
+>Figura: Edit Points.
+
+Você pode dizer quando uma curva é feita a partir de vários segmentos de várias maneiras. Uma é procurar pontos de edição na curva. Os pontos de edição marcam o ponto de conexão entre dois segmentos. O Maya desenha pontos de edição como pequenos Xs.
+
+Ao contrário dos pontos de controle na curva das curvas de Bezier (usados em muitos programas de ilustração 2D), os pontos de edição NURBS geralmente não são usados para editar curvas. Os CVs controlam a forma de uma curva NURBS e os pontos de edição são apenas indicadores de quantos spans uma curva possui.
+
+#### Hulls
+
+![Hulls](https://download.autodesk.com/us/maya/2011help/images/MED/Sherlock/NURBS/comp_N20b.png "Hulls")
+
+>Figura: Hulls.
+
+ À medida que uma curva obtém mais spans e pontos de edição, você pode perder o controle da ordem dos CVs. Para mostrar a relação entre os CVs, o Maya pode traçar linhas entre eles. Essas linhas são chamadas de Hulls.
 
 Os Hull são úteis para vários propósitos:
 
-- Para mostrar a ordem dos currículos em uma cena lotada.
+- Para mostrar a ordem dos CVs em uma cena lotada.
 
 - Para mostrar a forma dos CVs quando seu objeto está tão cheio de CVs que você não pode determinar exatamente quais CVs adjacentes serão afetados quando você ajustar parte de um modelo.
 
-- Para selecionar uma linha inteira de currículos de uma só vez.
+- Para selecionar uma linha inteira de CVs de uma só vez.
 
-`Isoparms` - Silimiar aos Edges dos objetos poligonais.
+#### Isoparms
 
-### Revolve
+Silimiar aos Edges dos objetos poligonais.
+
+## Curve Tools
+
+1. CV Curve Tool - Cria Control Vertex e a ligação entre eles, a letra `U` marca a diração da curva. A curva é criada usando a referência dos CVs
+
+1. EP Curve Tool - A curva esta alinhada aos CVs.
+
+1. Bezier Curve Tool - Cria uma curva com CVs usando o controle de angulo Bezier (Segure e arraste).
+
+1. Pencil Curve Tool - Curva de mão livre.
+
+1. Three Point Circular Arc.
+
+1. Two Point Circular Arc.
+
+## Revolve
   
 1. Ordem de seleção do objeto altera a forma final;
 
+1. Escolha o Eixo em `Resolve Options`.
+
 1. A curva fica associada ao objeto criado até que o histórico seja removido;
 
-### Loft
+## Loft
 
-Possibilita a criação de figuras utilizando uma curva
+Possibilita a criação de figuras utilizando várias curvas curva
 
 - Crie uma curva do tipo circulo e depois a duplique;
 
@@ -561,6 +612,12 @@ Possibilita a criação de figuras utilizando uma curva
 É possível separar ou juntar usando `Surface` > `Detach` ou `Attach`
 
 Inserção:  selecione um isoparm e logo em seguida utilize `Surface` > `Insert Isoparms`
+
+### Close e Open
+
+Para curvas abertas utilize `Curve` > `Close` para fechar a curva.
+
+Para objetos do tipo nurbs abertos utilize `Surfaces` > `Close` para fechar a curva.
 
 ### Project Curve on Surface
 
