@@ -8,8 +8,6 @@ layout: page
 
 ***
 
-## Modelagem 3D
-
 ## O que é Modelagem de objetos 3D?
 
 Podemos entender a Modelagem 3D como a criação de objetos sólidos através da representação matemática de uma superfície ou de um objeto volumétrico, vivo ou inanimado. É a criação do modelo de um objeto tridimensional através de um software de processamento 3D.
@@ -28,7 +26,7 @@ Podemos aplicar em várias áreas como por exemplo:
 
 - Ilustrações.
 
-## Tipos de modelagem 3D
+### Tipos de modelagem 3D
 
 - **Hard Surface** - (superfícies duras), são quaisquer objetos feitos ou construídos pelo homem. Exemplos de *hard surface* podem ser estruturas arquitetônicas, veículos, robôs, entre outros;
 
@@ -36,7 +34,7 @@ Podemos aplicar em várias áreas como por exemplo:
 
 - **Render** - Fase para gerar a Iluminação e renderizar toda a cena.
 
-## Processo de construção de cenas 3D
+### Processo de construção de cenas 3D
 
 **Conceito** - *Concept art* ou arte conceitual;
 
@@ -58,7 +56,7 @@ Podemos aplicar em várias áreas como por exemplo:
 
 - **Geração de cenas** - Renderização e animação.
 
-## Softwares para modelagem tridimensional
+### Softwares para modelagem tridimensional
 
 Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas elas tem versões educacionais gratuitas para praticar.
 
@@ -74,7 +72,7 @@ Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas 
 
 ## Começando a trabalhar com Autodesk Maya
 
-## Interface básico
+### Interface
 
 1. [Menus](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-D90A2BDB-FD05-4528-8A95-C33A02D15129-htm.html)
 
@@ -125,55 +123,49 @@ Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas 
 
     - As outras abas tem todos as ferramentas aplicadas no objeto.
 
-## Configurando a Interface
+### Configurando a Interface
 
-1. Para habilitar ou desabilitar a janela inicial de avisos de mudanças de versão.
+`Windows` > `Settings/Preferences` > `Preferences` > `Show - What´s new`
 
-   - `Windows` > `Settings/Preferences` > `Preferences` > `Show - What´s new`
+Habilita ou desabilita a janela inicial de avisos de mudanças de versão.
 
-2. Configurar a interface
+`Window` > `Settings/Preferences` > `Preferences`
 
-    - `Window` > `Settings/Preferences` > `Preferences`
+Configurar a interface
 
-    - `Interface` > (Menu Set,Show...)  
+`Interface` > (Menu Set,Show...)  
 
-## Configurando projetos
+### Configurando projetos
 
-1. Configurando as pastas do projeto
+`File` > `Project Window`
 
-    Configurar uma pasta de trabalho auxilia na organização dos arquivos que irão compor a cena.
+Para configurar as pastas do projeto utilize a opção acima. Configurar uma pasta de trabalho auxilia na organização dos arquivos que irão compor a cena.
 
-    - `File` > `Project Window`
+`File` > `Set Project`
 
-1. Criando novas cenas
+Quando importamos um novo projeto de outra máquina podemos configurar a pasta de trabalho ou pasta de projeto.
 
-    Uma cena pode conter vários elementos e deverão estar separados e organizados.
+`File` > `New Scene`
 
-    - `File` > `New Scene`
+Cria novas cenas, uma cena pode conter vários elementos e deverão estar separados e organizados.
 
-1. Configurando projeto novos importados
+### Comandos de navegação
 
-    Quando importamos um novo projeto de outra máquina podemos configurar a pasta de trabalho ou pasta de projeto.
+- Alt + RMB - Movimentação de câmera;
 
-    - `File` > `Set Project`
+- Alt + LMB - Zoom;
 
-## Comandos de navegação
+- Alt + Scroll - Scroll da a câmera;
 
-1. Alt + RMB - Movimentação de câmera;
+- Scroll - Zoom;
 
-1. Alt + LMB - Zoom;
+### Configuração de ViewPort
 
-1. Alt + Scroll - Scroll da a câmera;
-
-1. Scroll - Zoom;
-
-## Configuração de ViewPort
-
-### Mostrando a quantidade de polígonos e vértices
+#### Mostrando a quantidade de polígonos e vértices
 
 `Display` > `Heads Up Display` > `Poly Count`[ [Poly Count](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-Modeling/files/GUID-53E46D0C-4B7B-4404-AEB0-3BDD1FF8608A-htm.html) ]
 
-### Visualização
+#### Visualização
 
 Este menu Sombreamento é exibido acima da visualização da cena ou acima de cada painel de visualização em um layout com várias visualizações de cena (como o layout de quatro visualizações).
 
@@ -192,17 +184,31 @@ Este menu Sombreamento é exibido acima da visualização da cena ou acima de ca
 
 - [Atalhos de teclado do Autodesk Maya](https://www.autodesk.com.br/shortcuts/maya)
 
-### Hotbox - pressione a barra de espaço
+#### Hotbox
+
+Pressione a barra de espaço
 
 ![Space bar](https://forums.autodesk.com/autodesk/attachments/autodesk/area-b201/85095/1/likethis.PNG "Space bar")
 
 >Figura: Space bar.
 
-### RMB - Menu de contexto
+## Objetos Poligonais
+
+![Figura: Autodesk Maya objetos poligonais](https://i.ytimg.com/vi/7sR_Tux5u7M/maxresdefault.jpg "Figura: Autodesk Maya objetos poligonais")
+
+>Figura: Autodesk Maya objetos poligonais.
+
+Uma malha poligonal é uma coleção de arestas, faces e pontos de conexão usados ​​para fornecer um modelo poligonal para modelagem 3D e animação por computador. Sua composição geométrica pode ser armazenada para facilitar vários tipos de simulação de renderizações tridimensionais [[DEFINERTEC](https://definirtec.com/malha-poligonal/)].
+
+### Menu de contexto para manipulação de malhas
+
+Selecione uma objeto e presssione LMB para acessar o menu de contexto.
 
 ![Context Menu](https://simplymaya.com/forum/attachment.php?attachmentid=56228&stc=1&thumb=1&d=1540913195 "Context Menu")
 
 >Figura: Context Menu.
+
+Os componentes dos objetos poligonais são:
 
 - `Vertex` - Vértices;
 
@@ -210,101 +216,123 @@ Este menu Sombreamento é exibido acima da visualização da cena ou acima de ca
 
 - `Face` - Faces.
 
-## Freeze e Reset parâmetros
+### Freeze e Reset parâmetros
 
 Ao deformar ou movimentar um objeto as coordenadas X,Y Z serão alteradas conforme informado pelo usuário, é interessante ao exportar para outra ferramenta, como por exemplo o Unreal, zerar essas coordenadas para que representem o ponto central do objeto na cena, para isso usamos:
 
-- `Menu` > `Modify` > `Freeze transformations` - Zera as coordenadas do objeto;
+- `Modify` > `Freeze transformations` - Zera as coordenadas do objeto;
 
-- `Menu` > `Modify` > `Reset Transformations` - Retorna o pivo ao centro da cena;
+- `Modify` > `Reset Transformations` - Retorna o pivo ao centro da cena;
 
-- `Menu` > `Modify` > `Center Pivo` - Posiciona o pivo ao centro do objeto;
+- `Modify` > `Center Pivo` - Posiciona o pivo ao centro do objeto;
 
-## Snap de objetos
+### Snap de objetos
 
 Esta ferramenta é para alinhar o objeto a uma determinada coordenada ou objeto.
 
 O pivo do objeto é a referência de alinhamento.
 
-- `Snap to grid` ou tecla X - Alinha o pivo no grid da cena;
+`Snap to grid`
 
-    Para movimentar rapidamente para qualquer parte da cena ou parte de outro elemento/objeto:
+Ou tecla X - Alinha o pivo no grid da cena. Para movimentar rapidamente para qualquer parte da cena ou parte de outro elemento/objeto:
 
-  - selecione o objeto com `Move Tool`;
+- selecione o objeto com `Move Tool`;
 
-  - Posicione o mouse onde você gostaria que objeto se deslocasse;
+- Posicione o mouse onde você gostaria que objeto se deslocasse;
 
-  - Mantendo a tecla X pressionada aperte o botão de rolagem do mouse (Sroll) e movimente *levemente*.
+- Mantendo a tecla X pressionada aperte o botão de rolagem do mouse (Sroll) e movimente *levemente*.
 
-- `Snap to points` ou tecla V - Alinha o pivo em um componente na cena;
+`Snap to points`
 
-  - Mantendo a tecla V pressionada aperte o botão de rolagem do mouse (Sroll) e movimente *levemente* o objeto será alinhado ao ponto selecionado.
+Ou tecla V - Alinha o pivo em um componente na cena;
 
-## Seleção de objetos e componentes
+- Mantendo a tecla V pressionada aperte o botão de rolagem do mouse (Sroll) e movimente *levemente* o objeto será alinhado ao ponto selecionado.
 
-1. `Select Tool`  - Seleciona objetos.
+### Seleção de objetos e componentes
 
-    - Tecla Shitf + LMB para selecionar remover ou vários objetos;
+`Select Tool`
 
-    - Ao adicionar novos objetos na seleção o ícone (+) é apresentado e ao remover objetos o ícone (-) é apresentado;
+Seleciona objetos.
 
-    - É possível selecionar usando a aba `Outliner` ou segurando e arrastando o mouse;
+- Tecla Shitf + LMB para selecionar remover ou vários objetos;
 
-    - Tecla CTRL no ícone para entrar nas configurações;
+- Ao adicionar novos objetos na seleção o ícone (+) é apresentado e ao remover objetos o ícone (-) é apresentado;
 
-    - Shift + 2 click no elemento ao lado seleciona todos os elementos ao redor;
+- É possível selecionar usando a aba `Outliner` ou segurando e arrastando o mouse;
 
-1. `Laso Tool` - Seleciona objetos usando a movimentação livre do mouse
+- Tecla CTRL no ícone para entrar nas configurações;
 
-    - Ideal para componentes, como por exemplo: Vértices, Arestas e faces;
+- Shift + 2 click no elemento ao lado seleciona todos os elementos ao redor;
+
+`Laso Tool`
+
+Seleciona objetos usando a movimentação livre do mouse
+
+- Ideal para componentes, como por exemplo: Vértices, Arestas e faces;
   
-1. Com o `Menu` > `Select` podemos variar as formar de seleção de objetos e elementos, como por exemplo:
+`Menu` > `Select`
 
-    - `All` e `Deselect All`- Seleciona e remove a seleção de todos os objetos da cena;
+Podemos variar as formas de seleção de objetos e elementos, como por exemplo:
 
-    - `All by Type` - Seleciona por tipo de objeto;
+- `All` e `Deselect All`- Seleciona e remove a seleção de todos os objetos da cena;
 
-    - `Inverte` - Inverte a seleção;
+- `All by Type` - Seleciona por tipo de objeto;
 
-## Utilizando Soft Selection
+- `Inverte` - Inverte a seleção;
 
-Para realizar uma seleção mais *Suave* podemos utilizar a ferramenta `Soft Selection`, a seguir um exemplo usando um objeto `Polygon Plane` com 50x50 divisões e aumentar a escala;
+### Utilizando Soft Selection
 
-- Para configurar entre nas configurações da ferramenta `Move Tool` > `Soft Selection` e ative `Soft Selection` ou ;
+Para realizar uma seleção mais *Suave* podemos utilizar a ferramenta `Soft Selection`, a seguir um exemplo usando um objeto `Polygon Plane` com 50x50 divisões e aumentar a escala [[Soft Selection](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2022/ENU/Maya-Basics/files/GUID-FF7C8670-97C7-4C13-9A6F-3B0A8F881EC9-htm.html)].
 
-- Apertando a tecla B é possível atividar e desativar a ferrmenta;
+`Move Tool` > `Soft Selection`
 
-- Após configurar a ferramenta podemos selecionar novamente os vértices `Vertex` e perceba que a seleção e movimentação dos componentes estão mais arredondados;
+Configura a ferramenta ou e ative `Soft Selection` na ferramenta de seleção;
 
-- `Falloff Radius` - Determina o raio da seleção;
+Apertando a tecla B é possível atividar e desativar a ferrmenta;
 
-   Tecla B + LMB aumenta o raio da seleção;
+ Após configurar a ferramenta podemos selecionar novamente os vértices `Vertex` e perceba que a seleção e movimentação dos componentes estão mais arredondados;
 
-- `Falloff color` - As cores mais escuras determinan a suaviação dos elementos envolvidos na seleção;
+`Falloff Radius`
 
-- `Curve presets` - Determina o tipo de curvatura;
+Determina o raio da seleção.
 
-- [Referências Soft Selection](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2022/ENU/Maya-Basics/files/GUID-FF7C8670-97C7-4C13-9A6F-3B0A8F881EC9-htm.html)
+Tecla B + LMB aumenta o raio da seleção;
 
-## Simetria ou Symmetry
+`Falloff color`
 
-Para selecionar elementos simtricamente alinhados em um determinado eixo, utilize `Move Tool` > `Symmetry Settings`.
+As cores mais escuras determinan a suaviação dos elementos envolvidos na seleção;
+
+`Curve presets`
+
+ Determina o tipo de curvatura;
+
+### Simetria ou Symmetry
+
+`Move Tool` > `Symmetry Settings`
+
+Seleciona elementos simtricamente alinhados em um determinado eixo.
 
 - `Symmetry` - Escolha o eixo;
 
-## Duplicando objetos
+### Duplicando objetos
 
-1. Ctrl + D ou  `Edit` > `Duplicate`;
+`Edit` > `Duplicate`
 
-1. Aproveitando a transformação  -  shift + D
+Ctrl + D - Duplica;
 
-- `Duplicate with Transform` - Duplica objetos e adiciona uma transformação, exemplo, duplique o primeiro objeto e depois pressine a tecla Shift + D;
+Shift + D - Aproveitando a transformação;
 
-- `Duplicate Special` - Configura a opções de cópia:
+`Duplicate with Transform`
+
+ Duplica objetos e adiciona uma transformação, exemplo, duplique o primeiro objeto e depois pressine a tecla Shift + D;
+
+`Duplicate Special`
+
+Configura a opções de cópia:
   
-  - `Copy` - É criada uma copia do objeto sem nenhuma ligação ao objeto original;
+- `Copy` - É criada uma copia do objeto sem nenhuma ligação ao objeto original;
 
-  - `Instance` - Os comandos aplicados no novo objeto refletem na origem;
+- `Instance` - Os comandos aplicados no novo objeto refletem na origem;
 
 Podemos criar várias copias e alterar as configurações dos parâmetros de cada uma delas, por exemplo:
 
@@ -316,19 +344,21 @@ Podemos criar várias copias e alterar as configurações dos parâmetros de cad
 
 Logo em seguida clique em `Apply`.
 
-## Pivot
+### Pivot
 
-1. Centralizar pivot
+`Modify` > `Center Pivot`
+
+Centraliza o pivot do objeto.
   
-    `Modify` > `Center Pivot`
+Tecle D para mover o pivot.
 
-1. Movendo Pivot
+`Snap to points`
 
-    Tecla D.
+Alinha o pivot nos elementos.
 
-1. `Snap to points` para alinhar o pivot nos elementos.
+### Deformando a malha poligonal
 
-## Extrude
+#### Extrude
 
 - shift + mouse - `Move tool Preferences` > `Smart Duplicate Settings` > Shift + drag to..)
 
@@ -336,13 +366,13 @@ Logo em seguida clique em `Apply`.
 
 - `Menu` > `Edit Mesh` > `Extrude`
 
-## Adicionando edges
+#### Adicionando edges
 
 - `Menu` > `Mesh Tools` > `Insert Edge loop`;
 
 - `Mesh Tools` > `Insert Edge loop Settings` > `Number of edge loops`;
 
-## Bevel
+#### Bevel
 
 1. Ctrl + B ou `Edit Mesh` > `Bevel`
 
@@ -350,53 +380,109 @@ Logo em seguida clique em `Apply`.
 
     - Segments - Número de segmentos;
 
-## Removendo edges
+#### Removendo edges
 
 Ctrl + Backspace - Remove edges e vértices.
 
-## Multicut
+#### Multicut
 
-Cuidado não podemos ter vértices sem conexão com outros
+Cuidado não podemos ter vértices sem conexão com outros.
 
-1. Adicione edges
+Adicione edges.
 
-## Merge de vértices
+#### Merge de vértices
 
-1. `Menu` > `Edit Mesh`  > `Merge` (Antes Selecione dois vértices)
+`Edit Mesh`  > `Merge`
 
-## Extract
+Selecione dois vértices e aplique a ferramenta.
 
-Extraindo partes de um objeto.
+### Suavizando objetos poligonais
 
-1. `Menu` > `Edit Mesh` > `Extract`
+#### Smooth
 
-## Append e Bridged Tool
+`Mesh` > `Smooth`
 
-Adiciona faces nos objeto.
+Adiciona mais vertices no objeto, possibilitando esolher a quantidade de divisões.
 
-1. `Menu` > `Edit Mesh` > `Bridge`
+`Mesh Display` > `Soften Edge`
 
-1. `Menu` > `Mesh Tool` > `Append to Polygon`
+Suaviza a malha sem adicionar novos vértices.
 
-- Duas soluções robustas para conectar componentes.
+#### Visualizando a suavização
 
-- `Bridge tool` trabalha com faces poligonais, permitindo não apenas a criação de planos planos.
+Tecla 1 para visualizar o objeto sem nenhuma divisão.
 
-- `Append to Polygon` é ideal em situações em que você precisa conectar seletivamente partes da mesma malha.
+Tecla 2 para visualizar o objeto suavizado e objeto origem.
 
-[3D Modeling Part 7: Tools and Techniques in Autodesk Maya](https://www.shutterstock.com/blog/3d-modeling-autodesk-maya)
+Tecla 3 para visualizar somente o objeto suavizado.
 
-## Fill Hole
+`Mesh Tool` > `Offset Edge Loop`
+
+Adiciona dois novos segmentos (arestas) sincronizados na aresta selecionada.
+
+`Mesh Tool` > `Crease`
+
+Selecionando as arestas com LMB e arrastando com o botão do meio podemos puxar as arestas.
+
+`Edit Mesh` >  `Edit Edge Flow`
+
+Ao selecionar uma aresta e escolher a opção acima a aresta acompanha o arrendodamento do objeto.
+
+#### Extract
+
+`Edit Mesh` > `Extract`
+
+Extrai partes de um objeto. Selecione a área para extrair e aplique a ferramenta.
+
+### Append e Bridged Tool
+
+`Edit Mesh` > `Bridge`
+
+Adiciona faces nos objeto .
+
+`Mesh Tool` > `Append to Polygon`
+
+Duas soluções robustas para conectar componentes.
+
+`Bridge tool`
+
+Trabalha com faces poligonais, permitindo não apenas a criação de planos planos.
+
+`Append to Polygon`
+
+É ideal em situações em que você precisa conectar seletivamente partes da mesma malha [[3D Modeling Part 7: Tools and Techniques in Autodesk Maya](https://www.shutterstock.com/blog/3d-modeling-autodesk-maya)].
+
+### Fill Hole
 
 Preenchendo um buraco no objeto.
 
 Para exemplificar, selecione `Edge` e marque todas as arestas adjacentes ao espaço que queremos preencher.
 
-1. `Menu` > `Mesh` > `Fill Hole`
+`Mesh` > `Fill Hole`
 
-## Target Weld
+### Target Weld
 
 Movimenta e solda vertices, selecione `Vertex` e logo em seguida `Mesh Tool` > `Target Weld`.
+
+## Combine e Separate
+
+`Mesh` > `Combine`
+
+Selecione os objetos para que eles fiquem juntos
+
+`Mesh` > `Separate`
+
+Separa os objetos e cria um novo grupo.
+
+## Booleans
+
+Para projetar ou misturar objetos podemos usar [`Booleans`](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Maya/files/GUID-9467513F-47C3-4C73-8251-6FF8C0DE4982-htm.html).
+
+`Mesh` > `Booleans`
+
+- `Union`;
+- `Diference`;
+- `Intersection`;
 
 ## Organizando em camadas
 
@@ -447,22 +533,6 @@ Podemos adicionar uma cor na camada fazendo com que todos os objetos selecionado
     ->Objeto2
   ->Objeto3 
 ```
-
-## Combine e Separate
-
-1. `Combine` - Selecione os objetos `Mesh` > `Combine`
-
-1. `Separate` - Selecione o objeto `Mesh` > `Separate` vai ser criado um grupo.
-
-## Booleans
-
-Para projetar ou misturar objetos podemos usar [`Booleans`](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Maya/files/GUID-9467513F-47C3-4C73-8251-6FF8C0DE4982-htm.html).
-
-- `Mesh` > `Booleans`
-
-  - `Union`
-  - `Diference`
-  - `Intersection`
 
 ## Modelagem NURBS
 
@@ -552,29 +622,41 @@ Os Hull são úteis para vários propósitos:
 
 Silimiar aos Edges dos objetos poligonais.
 
-## Curve Tools
+### Curve Tools
 
-1. CV Curve Tool - Cria Control Vertex e a ligação entre eles, a letra `U` marca a diração da curva. A curva é criada usando a referência dos CVs
+`CV Curve Tool`
 
-1. EP Curve Tool - A curva esta alinhada aos CVs.
+Cria Control Vertex e a ligação entre eles, a letra `U` marca a diração da curva. A curva é criada usando a referência dos CVs
 
-1. Bezier Curve Tool - Cria uma curva com CVs usando o controle de angulo Bezier (Segure e arraste).
+`EP Curve Tool`
 
-1. Pencil Curve Tool - Curva de mão livre.
+A curva esta alinhada aos CVs.
 
-1. Three Point Circular Arc.
+`Bezier Curve Tool`
 
-1. Two Point Circular Arc.
+Cria uma curva com CVs usando o controle de angulo Bezier (Segure e arraste).
 
-## Revolve
+`Pencil Curve Tool`
+
+Curva de mão livre.
+
+`Three Point Circular Arc`
+
+Curva formada calculando três pontos no espaço.
+
+`Two Point Circular Arc`
+
+Curva formada calculando dois pontos no espaço.
+
+### Revolve
   
-1. Ordem de seleção do objeto altera a forma final;
+Ordem de seleção do objeto altera a forma final;
 
-1. Escolha o Eixo em `Resolve Options`.
+Escolha o Eixo em `Resolve Options`.
 
-1. A curva fica associada ao objeto criado até que o histórico seja removido;
+A curva fica associada ao objeto criado até que o histórico seja removido;
 
-## Loft
+### Loft
 
 Possibilita a criação de figuras utilizando várias curvas curva
 
@@ -672,36 +754,6 @@ Por exemplo, a tecelagem para no valor de tolerância fracionária que você def
 `Sculpt Tool`
 
 `Smooth Tool`
-
-## Smooth Malhas poligonais
-
-`Mesh` > `Smooth`
-
-Para adicionar mais vertices no objeto, possibilitando esolher a quantidade de divisões.
-
-`Mesh Display` > `Soften Edge`
-
-Suaviza a malha sem adicionar novos vértices.
-
-## Visualizando a suavização de malhas poligonais
-
-Tecla 1 para visualizar o objeto sem nenhuma divisão.
-
-Tecla 2 para visualizar o objeto suavizado e objeto origem.
-
-Tecla 3 para visualizar somente o objeto suavizado.
-
-`Mesh Tool` > `Offset Edge Loop`
-
-Adiciona dois novos segmentos (arestas) sincronizados na aresta selecionada.
-
-`Mesh Tool` > `Crease`
-
-Selecionando as arestas com LMB e arrastando com o botão do meio podemos puxar as arestas.
-
-`Edit Mesh` >  `Edit Edge Flow` 
-
-Ao selecionar uma aresta e escolher a opção acima a aresta acompanha o arrendodamento do objeto.
 
 ## Materiais
 
@@ -873,39 +925,3 @@ Para apresentar um objeto escondido usando o `Outliner` usamos `Display` > `Show
 - Visualize > Create Editable Montion trail
 
 - Visualize > Create Animation Snapshot
-
-## Primeiros passos na modelagem 3D
-
-Introdução ao desenho 3D e ao Maya  -Conceitos de modelos 3D e desenho por computador
-
-Estrutura do ambiente - Conhecendo editores e comandos básicos de navegação
-
-Modelo Poligonal - Extrusão de elementos, copiando elementos
-
-Modelo Poligonal - Deslocando pivot, seleção de áreas
-
-Modelo poligonal - Manipulação de arestas e preenchimento de áreas
-
-Modelo de curvas - Trabalhando com curvas e suas estruturas .
-
-Modelo de curvas - Estruturas complexas de curvas, preenchimento automático
-
-Modelos de curvas - Construindo caminhos para objetos poligonais ou de curvas
-
-## Modelagem 3D Luz, Câmera e Ação
-
-Materiais - Conceitos de materiais
-
-Materiais - Aplicando materiais no Maya e trabalhando com diversos tipos
-
-Materiais - Aplicando Mapeamento UV
-
-Materiais - Estruturando o mapeamento UV
-
-Iluminação - Utilizando o Arnold Render
-
-Iluminação - Aplicando vários tipos de iluminação
-
-Animação - Trabalhando com várias câmeras  e animando objetos
-
-Animação - Animando cenas no Maya com curvas
