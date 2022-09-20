@@ -609,9 +609,13 @@ Possibilita a criação de figuras utilizando várias curvas curva
 
 ### Isoparm
   
+#### Separar objetos
+
 É possível separar ou juntar usando `Surface` > `Detach` ou `Attach`
 
-Inserção:  selecione um isoparm e logo em seguida utilize `Surface` > `Insert Isoparms`
+#### Inserindo Isoparms
+
+Selecione um isoparm e logo em seguida utilize `Surface` > `Insert Isoparms`.
 
 ### Close e Open
 
@@ -619,17 +623,33 @@ Para curvas abertas utilize `Curve` > `Close` para fechar a curva.
 
 Para objetos do tipo nurbs abertos utilize `Surfaces` > `Close` para fechar a curva.
 
+#### Preenchendo uma superfície de um objeto
+
+`Surface` > `Planar`
+
+Selecione uma curva fechada e aplique a opção `Planar` para preencher a curva.
+
+#### Preenchendo o espaço entre dois objetos
+
+`Surface` > `Loft`
+
+Duplique isoparms de objetos distintos e aplique `Loft` para preencher o espaço entre eles.
+
 ### Project Curve on Surface
 
 É possível projetar a imagem de uma curva em outro com :
 
 `Surfaces` > `Project Curve on Surface`
 
-- Selecione primeiro o objeto que deve ter a sombra da curva;
+Selecione primeiro o objeto que deve ter a sombra da curva;
 
-- A projeção da curva considera a posição da camera;
+A projeção da curva considera a posição da camera;
 
-- `Surfaces` > `Trim Tool`  - Para cortar surface e permite selecionar o que vai ser mantido.
+`Surfaces` > `Trim Tool`  
+
+Corta a superfície desejeda, selecione o que vai ser mantido e pressione `ENTER`.
+
+Todos os itens pontilhados vão ser removidos.
 
 ### Convertendo NURBS para poligonais
 
@@ -646,6 +666,42 @@ Por exemplo, a tecelagem para no valor de tolerância fracionária que você def
 - `Tessellation` - Tessellation significa que você cria um conjunto de polígonos da geometria NURBS.
 
 >Em [computação gráfica](https://en.wikipedia.org/wiki/Tessellation), tesselação refere-se à divisão de conjuntos de dados de polígonos (às vezes chamados de conjuntos de vértices) apresentando objetos em uma cena em estruturas adequadas para renderização.
+
+## Sculpting
+
+`Sculpt Tool`
+
+`Smooth Tool`
+
+## Smooth Malhas poligonais
+
+`Mesh` > `Smooth`
+
+Para adicionar mais vertices no objeto, possibilitando esolher a quantidade de divisões.
+
+`Mesh Display` > `Soften Edge`
+
+Suaviza a malha sem adicionar novos vértices.
+
+## Visualizando a suavização de malhas poligonais
+
+Tecla 1 para visualizar o objeto sem nenhuma divisão.
+
+Tecla 2 para visualizar o objeto suavizado e objeto origem.
+
+Tecla 3 para visualizar somente o objeto suavizado.
+
+`Mesh Tool` > `Offset Edge Loop`
+
+Adiciona dois novos segmentos (arestas) sincronizados na aresta selecionada.
+
+`Mesh Tool` > `Crease`
+
+Selecionando as arestas com LMB e arrastando com o botão do meio podemos puxar as arestas.
+
+`Edit Mesh` >  `Edit Edge Flow` 
+
+Ao selecionar uma aresta e escolher a opção acima a aresta acompanha o arrendodamento do objeto.
 
 ## Materiais
 

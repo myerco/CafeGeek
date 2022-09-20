@@ -5,8 +5,6 @@ tags: [Unreal Engine, HUD, user interface,UI]
 layout: page
 ---
 
-## Em construção
-
 ## Iluminação
 
 1. Tipos de iluminação;
@@ -31,7 +29,7 @@ Significa que a luz terá apenas seu sombreamento e iluminação rebatida da geo
 
 Significa que a luz é totalmente dinâmica e permite sombreamento dinâmico. Este é o mais lento em termos de renderização, mas permite maior flexibilidade durante o jogo.
 
-[](https://docs.unrealengine.com/4.26/Images/BuildingWorlds/LightingAndShadows/LightTypes/Directional/Directional_LightHeader.webp)
+![LightHeader](https://docs.unrealengine.com/4.26/Images/BuildingWorlds/LightingAndShadows/LightTypes/Directional/Directional_LightHeader.webp "LightHeader")
 
 >Figura: Directional Light.
 
@@ -52,6 +50,20 @@ O **Sky Light** só irá capturar a cena em certas circunstâncias:
 ## Light Component
 
 Um PointLightComponent funciona como uma lâmpada do mundo real, emitindo luz em todas as direções do filamento de tungstênio da lâmpada. No entanto, por uma questão de desempenho, PointLightComponents são simplificados emitindo luz igualmente em todas as direções de apenas um único ponto no espaço.
+
+Propriedades básicas:
+
+Intensity: Valor em candelas;
+
+Intensity Units: Altera de Candelas para Lumens. É possivel usar os valores de iluminação das luzes reais.
+
+`Unitless` é um valor padrão.
+
+Color: Cor da luz;
+
+Temperature:
+
+Attenation Radius : Raio de influência.
 
 ## Spot Light
 
@@ -116,6 +128,52 @@ Para obter mais informações sobre o ambiente de reflexão e as capturas de ref
 
 **Lightmass** cria mapas de luz com interações de luz complexas, como sombreamento de área e inter-reflexão difusa. É usado para pré-calcular porções da contribuição de iluminação de luzes com mobilidade estacionária e estática.
 Muitos mapas têm malhas até a borda da grade no editor, mas a área real de jogo que precisa de iluminação de alta qualidade é muito menor. A massa de luz emite fótons com base no tamanho do nível, portanto, essas malhas de fundo aumentarão muito o número de fótons que precisam ser emitidos e o tempo de construção de iluminação aumentará. O **Lightmass Importance Volume** controla a área em que a *Lightmass* emite fótons, permitindo concentrar apenas na área que precisa de iluminação indireta detalhada. As áreas fora do volume de importância recebem apenas um salto de iluminação indireta em uma qualidade inferior.
+
+## Auto exposure
+
+Após desligar todas as luzes ainda ficam elementos visiveis, porque eles ainda tem marcas da iluminação, para desligar esses elementos utilize:
+
+`Project Setting` > `Auto Exposure` > Off
+
+O backlight ainda vai estar presente.
+
+## Build ligths
+
+Para construir e calcular todas as sombras e reflexos da cena utilize :
+
+`Build` > `Light`
+
+## Sombras
+
+Construção de sombras usando back.
+
+`View Mode` > `Optimization ViewModes` `LightMap Density`
+
+Apresenta a o mapa de iluminação da malha.
+
+As cores identificam a densidade da iluminação.
+
+>O ideal é que o mapa sempre fique na cor verde.
+
+Os objetos tem um mapa de luz para controlar a resolução de iluminação, para veriricar utilize as propriedades do objeto:
+
+``Ligthing` > `Overridden Light Map Res`
+
+Alter os valores para a qualidade das sombras.
+
+## Unlit
+
+Apresenta a cena sem iluminação.
+
+## Salvando a imagem da cena
+
+Para salvar cena em um arquivo utilize:
+
+`Viewports Options` > `High Resolution Sreenshot`
+
+## Reflexos
+
+Material todo branco.
 
 ## Referências
 
