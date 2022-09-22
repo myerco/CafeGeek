@@ -7,7 +7,11 @@ layout: page
 ---
 
 
-![Unreal Engine com C++ e Blueprint](imagens/unreal_engine.webp "Unreal Engine com C++ e Blueprint")
+<img src="imagens/unreal_engine.webp" width="984" height="209" alt="Unreal Engine com C++ e Blueprint" />
+
+<!-- ![Unreal Engine com C++ e Blueprint](imagens/unreal_engine.webp "Unreal Engine com C++ e Blueprint")
+
+-->
 
 Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*.  O curso está associado a construção **Mecânica** do jogo pois nele definimos elementos como mecanismos de controle e elementos do conteúdo do jogo.  
 
