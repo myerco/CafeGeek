@@ -6,6 +6,7 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
+date: 2022-09-21 
 ---
 
 ## Como podemos manipular materiais com Blueprints?
