@@ -2,7 +2,7 @@
 title: Materiais e Blueprint
 description: Neste capítulo iremos manipular os materiais com lógica de script Blueprint e construir funções para utilizar dentro dos materiais.
 tags: [Unreal Engine,Materiais, material Function, material, blueprint]
-layout: page
+layout: post
 ---
 
 ## Como podemos manipular materiais com Blueprints?
