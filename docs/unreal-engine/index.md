@@ -7,7 +7,7 @@ layout: page
 ---
 
 
-<img src="imagens/unreal_engine.webp" width="984" height="209" alt="Unreal Engine com C++ e Blueprint" />
+<img src="imagens/unreal_engine.webp" width="100%" height="auto" alt="Unreal Engine com C++ e Blueprint" />
 
 <!-- ![Unreal Engine com C++ e Blueprint](imagens/unreal_engine.webp "Unreal Engine com C++ e Blueprint")
 
