@@ -2,6 +2,7 @@
 title: Implementando Material Instance com Unreal Engine
 description: Neste capitulo vamos apresentar o objeto Material Instance que flexibiliza a implementação de materiais no Unreal Engine.
 tags: [unreal engine, material instance, material]
+categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
