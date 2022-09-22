@@ -1,5 +1,5 @@
 ---
-title: Materiais e Blueprint
+title: Manipulando materiais com Blueprint
 description: Neste capítulo iremos manipular os materiais com lógica de script Blueprint e construir funções para utilizar dentro dos materiais.
 tags: [Unreal Engine,Materiais, material Function, material, blueprint]
 categories: Unreal Engine
@@ -9,17 +9,17 @@ layout: post
 date: 2022-09-21 
 ---
 
-## Como podemos manipular materiais com Blueprints?
+Podemos manipular os objetos do tipo material com scripts Blueprint possibilitando implementar objetos com materiais mais interativos, como por exemplo, um objeto que muda de cor ao click do mouse.
 
-Podemos manipular os objetos do tipo material com scripts Blueprint.
+Para exemplificar utilizaremos o Level Blueprint interagindo com um objeto na cena.
 
-### Utilizaremos o Level Blueprint para exemplificar
-
-Adicione uma referência do ator selecionado no `View Port` no `Open Level Blueprint` com a opção `Create a Reference to`;
+Selecione um ator no `View Port` e adicione uma referência no `Open Level Blueprint` com a opção `Create a Reference to`.
 
 <iframe title="Cafegeek - Material and Material #1 Click Objects and Change Color" src="https://blueprintue.com/render/3oeee-_g/" scrolling="no" allowfullscreen style="width:100%; height:300px;"></iframe>
 
 <https://blueprintue.com/blueprint/3oeee-_g/>
+
+O script acima muda a cor do ator ao clicar com o mouse.
 
 ### Implementando Material Instance com Blueprint
 
@@ -41,7 +41,7 @@ Abaixo a lógica para criar o material e a textura: `Create material instance` >
 
 <https://blueprintue.com/blueprint/eckgsjqu/>
 
-4. No Level Blueprint implemente a lógica para chamar o Evento **MudaCorEvento**.
+1. No Level Blueprint implemente a lógica para chamar o Evento **MudaCorEvento**.
 
     ![Figura: Blueprint Material - Open Level blueprint call event.](../imagens/materiais/ue4_material_bp_level_blueprint_call_event.webp "Figura: Blueprint Material - Open Level blueprint call event.")
 
