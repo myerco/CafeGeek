@@ -15,7 +15,7 @@ Para exemplificar utilizaremos o Level Blueprint interagindo com um objeto na ce
 
 Selecione um ator no `View Port` e adicione uma referência no `Open Level Blueprint` com a opção `Create a Reference to`, em seguida vamos utilizar o nó `Create Dynamic Material Instance` para criar uma associação de um material com a nossa lógica.
 
-### Implementando Material Instance com Blueprint
+## Implementando Material Instance com Blueprint
 
 {% include image.html
     src="../imagens/materiais/unreal_engine_material_bp_create_material_instance_set.webp"
@@ -31,16 +31,16 @@ Selecione um ator no `View Port` e adicione uma referência no `Open Level Bluep
 
 - `Set Vector Parameter Value` - Atualiza o vetor do parâmetro informado em `Parameter Name` com o valor `value`.
 
-<!--<iframe title="Cafegeek - Material and Blueprint #2 Create Dynanmic Material Instance and Set" src="https://blueprintue.com/render/eckgsjqu/" scrolling="no" allowfullscreen style="width:100%; height:300px;"></iframe> -->
-
 {% include iframe.html
     src="https://blueprintue.com/render/eckgsjqu/"
-    caption="Cafegeek - Material and Blueprint #2 Create Dynanmic Material Instance and Set."
+    title="Cafegeek - Material and Blueprint #2 Create Dynanmic Material Instance and Set"
+    caption="Link: <https://blueprintue.com/blueprint/eckgsjqu/>"
 %}
 
 {% include iframe.html
     src="https://blueprintue.com/render/3oeee-_g/"
-    caption="Cafegeek - Material and Material #1 Click Objects and Change Color"
+    title="Cafegeek - Material and Material #1 Click Objects and Change Color"
+    caption="Link: <https://blueprintue.com/blueprint/3oeee-_g/>"
 %}
 
 O script habilita o click do mouse e quando selecionado um objeto o evento customizado Change Color e acionado.
@@ -106,10 +106,12 @@ Utilizamos o menu de Contexto `Material & Textures` > `Material Function` para c
 
 ### MakeMaterialAttribute
 
+O nó `Make Material Attributes` une vários atributos. Isso é útil ao criar suas próprias funções de camada de material, pois você terá acesso a todos os atributos padrão para sua saída. Isso também pode ser usado para configurações de material complexas nas quais você deseja definir mais de um tipo de material e combiná-los, tudo dentro de um material.
+
 {% include image.html
     src="../imagens/materiais/unreal_engine_material_function_makematerialattributes.webp"
     alt="Figura: Blueprint Material - MakeMaterialAttribute."
-    caption="Figura: Podemos juntar vários atributos utilizando MakeMaterialAttribute possibilitando construir camadas ou `Layers` e utilizar no retorno da função."
+    caption="Figura: Podemos juntar vários atributos utilizando MakeMaterialAttribute possibilitando construir camadas ou Layers e utilizar no retorno da função."
 %}
 
 Ao usar a nó é necessário configurar o nó resultado do material principal com `Use Material Attribute` para `True`.
@@ -185,7 +187,7 @@ Função para utilizar na mistura.
 Fazendo a mistura das duas funções.
 
 {% include image.html
-    src="../imagens/materiais/unreal_engine_material_function_rust.webp"
+    src="../imagens/materiais/unreal_engine_material_function_blend_attributes.webp"
     alt="Figura: Material Funciton BlendMaterialAttribute."
-    caption="Figura: Material Funciton BlendMaterialAttribute - O parâmetro Alpha controla como os valores vão misturados."
+    caption="Figura: Material Funciton BlendMaterialAttribute - O parâmetro Alpha controla como os valores são misturados."
 %}
