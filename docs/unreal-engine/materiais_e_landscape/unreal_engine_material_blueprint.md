@@ -15,9 +15,11 @@ Para exemplificar utilizaremos o Level Blueprint interagindo com um objeto na ce
 
 Selecione um ator no `View Port` e adicione uma referência no `Open Level Blueprint` com a opção `Create a Reference to`.
 
-<iframe title="Cafegeek - Material and Material #1 Click Objects and Change Color" src="https://blueprintue.com/render/3oeee-_g/" scrolling="no" allowfullscreen style="width:100%; height:300px;"></iframe>
+<!-- <iframe title="Cafegeek - Material and Material #1 Click Objects and Change Color" src="https://blueprintue.com/render/3oeee-_g/" scrolling="no" allowfullscreen style="width:100%; height:300px;"></iframe>
 
-<https://blueprintue.com/blueprint/3oeee-_g/>
+>Link : <https://blueprintue.com/blueprint/3oeee-_g/>-->
+
+{% include iframe.html src="https://blueprintue.com/render/3oeee-_g/" caption="Link : https://blueprintue.com/blueprint/3oeee-_g/" %}
 
 O script acima muda a cor do ator ao clicar com o mouse.
 
@@ -25,9 +27,15 @@ O script acima muda a cor do ator ao clicar com o mouse.
 
 Abaixo a lógica para criar o material e a textura: `Create material instance` > `Set Texture Parameter Value`.
 
-![Figura: Blueprint Material - Create material instance set.](../imagens/materiais/ue4_material_bp_create_material_instance_set.webp "Figura: Blueprint Material - Create material instance set.")
+<!--![Figura: Blueprint Material - Create material instance set.](../imagens/materiais/ue4_material_bp_create_material_instance_set.webp "Figura: Blueprint Material - Create material instance set.") 
+
+<img src="../imagens/materiais/ue4_material_bp_create_material_instance_set.webp" alt="teste" width="100%" height="auto" />
 
 > Figura: Blueprint Material - Create material instance set.
+
+-->
+
+{% include image.html src="../imagens/materiais/ue4_material_bp_create_material_instance_set.webp" alt="Figura: Blueprint Material - Create material instance set." caption="Figura: Blueprint Material - Create material instance set." %}
 
 - `Create Dynamic Material Instance` - Cria um Material Instance dinâmico que pode ser modificado durante a *gameplay*;
 
@@ -39,7 +47,7 @@ Abaixo a lógica para criar o material e a textura: `Create material instance` >
 
 <iframe title="Cafegeek - Material and Blueprint #2 Create Dynanmic Material Instance and Set" src="https://blueprintue.com/render/eckgsjqu/" scrolling="no" allowfullscreen style="width:100%; height:300px;"></iframe>
 
-<https://blueprintue.com/blueprint/eckgsjqu/>
+>Link: <https://blueprintue.com/blueprint/eckgsjqu/>
 
 1. No Level Blueprint implemente a lógica para chamar o Evento **MudaCorEvento**.
 

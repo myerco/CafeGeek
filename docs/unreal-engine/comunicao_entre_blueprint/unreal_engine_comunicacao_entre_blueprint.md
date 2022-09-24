@@ -42,7 +42,7 @@ Construindo um meio para que objetos individuais separados interagirem uns com o
 ### 7.4.1 Estrutura da comunicação entre Blueprints
 A seguir apresentamos um diagrama de como os elementos podem se comunicar e trocar informações.
 
-![Figura: Estrutura de Comunicação entre Blueprints](imagens/comunicacao/blueprint_comunicacao_entre_atores.webp "Figura: Estrutura de Comunicação entre Blueprints")
+![Figura: Estrutura de Comunicação entre Blueprints](../imagens/comunicacao/blueprint_comunicacao_entre_atores.webp "Figura: Estrutura de Comunicação entre Blueprints")
 
 > Figura: Estrutura de Comunicação entre Blueprints.
 
