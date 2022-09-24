@@ -13,36 +13,17 @@ Podemos manipular os objetos do tipo material com scripts Blueprint possibilitan
 
 Para exemplificar utilizaremos o Level Blueprint interagindo com um objeto na cena.
 
-Selecione um ator no `View Port` e adicione uma referência no `Open Level Blueprint` com a opção `Create a Reference to`.
-
-<!-- <iframe title="Cafegeek - Material and Material #1 Click Objects and Change Color" src="https://blueprintue.com/render/3oeee-_g/" scrolling="no" allowfullscreen style="width:100%; height:300px;"></iframe>
-
->Link : <https://blueprintue.com/blueprint/3oeee-_g/>-->
-
-{% include iframe.html
-    src="https://blueprintue.com/render/3oeee-_g/"
-    caption="O script acima muda a cor do ator ao clicar com o mouse."
-%}
+Selecione um ator no `View Port` e adicione uma referência no `Open Level Blueprint` com a opção `Create a Reference to`, em seguida vamos utilizar o nó `Create Dynamic Material Instance` para criar uma associação de um material com a nossa lógica.
 
 ### Implementando Material Instance com Blueprint
 
-Abaixo a lógica para criar o material e a textura: `Create material instance` > `Set Texture Parameter Value`.
-
-<!--![Figura: Blueprint Material - Create material instance set.](../imagens/materiais/ue4_material_bp_create_material_instance_set.webp "Figura: Blueprint Material - Create material instance set.") 
-
-<img src="../imagens/materiais/ue4_material_bp_create_material_instance_set.webp" alt="teste" width="100%" height="auto" />
-
-> Figura: Blueprint Material - Create material instance set.
-
--->
-
 {% include image.html
-    src="../imagens/materiais/ue4_material_bp_create_material_instance_set.webp"
+    src="../imagens/materiais/unreal_engine_material_bp_create_material_instance_set.webp"
     alt="Figura: Blueprint Material - Create material instance set."
-    caption="Figura: Blueprint Material - Create material instance set."
+    caption="Acima a lógica para criar o material instance e alterar a textura."
 %}
 
-- `Create Dynamic Material Instance` - Cria um Material Instance dinâmico que pode ser modificado durante a *gameplay*;
+- `Create Dynamic Material Instance` - Cria um Material Instance dinâmico que pode ser modificado durante a *gameplay*. O material referênciado em `Source Material` deve conter parâmetros;
 
 - `Set Texture Parameter Value` - Atualiza o valor do parâmetro informado em `Parameter Name`, é do tipo textura;
 
@@ -50,15 +31,23 @@ Abaixo a lógica para criar o material e a textura: `Create material instance` >
 
 - `Set Vector Parameter Value` - Atualiza o vetor do parâmetro informado em `Parameter Name` com o valor `value`.
 
-<iframe title="Cafegeek - Material and Blueprint #2 Create Dynanmic Material Instance and Set" src="https://blueprintue.com/render/eckgsjqu/" scrolling="no" allowfullscreen style="width:100%; height:300px;"></iframe>
+<!--<iframe title="Cafegeek - Material and Blueprint #2 Create Dynanmic Material Instance and Set" src="https://blueprintue.com/render/eckgsjqu/" scrolling="no" allowfullscreen style="width:100%; height:300px;"></iframe> -->
 
->Link: <https://blueprintue.com/blueprint/eckgsjqu/>
+{% include iframe.html
+    src="https://blueprintue.com/render/eckgsjqu/"
+    caption="Cafegeek - Material and Blueprint #2 Create Dynanmic Material Instance and Set."
+%}
 
-1. No Level Blueprint implemente a lógica para chamar o Evento **MudaCorEvento**.
+{% include iframe.html
+    src="https://blueprintue.com/render/3oeee-_g/"
+    caption="O script habilita o click do mouse e quando selecionado um objeto o evento customizado Change Color e acionado."
+%}
 
-    ![Figura: Blueprint Material - Open Level blueprint call event.](../imagens/materiais/ue4_material_bp_level_blueprint_call_event.webp "Figura: Blueprint Material - Open Level blueprint call event.")
-
-    > Figura: Blueprint Material - Open Level blueprint call event.
+{% include image.html
+    src="../imagens/materiais/unreal_engine_material_bp_level_blueprint_call_event.webp"
+    alt="Figura: Blueprint Material - Open Level blueprint call event."
+    caption="No Level Blueprint implemente a lógica para chamar o Evento ChangeColor."
+%}
 
 ## Parameter Global
 
