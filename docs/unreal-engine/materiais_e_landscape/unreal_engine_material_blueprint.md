@@ -19,9 +19,10 @@ Selecione um ator no `View Port` e adicione uma referência no `Open Level Bluep
 
 >Link : <https://blueprintue.com/blueprint/3oeee-_g/>-->
 
-{% include iframe.html src="https://blueprintue.com/render/3oeee-_g/" caption="Link : https://blueprintue.com/blueprint/3oeee-_g/" %}
-
-O script acima muda a cor do ator ao clicar com o mouse.
+{% include iframe.html
+    src="https://blueprintue.com/render/3oeee-_g/"
+    caption="O script acima muda a cor do ator ao clicar com o mouse."
+%}
 
 ### Implementando Material Instance com Blueprint
 
@@ -35,7 +36,11 @@ Abaixo a lógica para criar o material e a textura: `Create material instance` >
 
 -->
 
-{% include image.html src="../imagens/materiais/ue4_material_bp_create_material_instance_set.webp" alt="Figura: Blueprint Material - Create material instance set." caption="Figura: Blueprint Material - Create material instance set." %}
+{% include image.html
+    src="../imagens/materiais/ue4_material_bp_create_material_instance_set.webp"
+    alt="Figura: Blueprint Material - Create material instance set."
+    caption="Figura: Blueprint Material - Create material instance set."
+%}
 
 - `Create Dynamic Material Instance` - Cria um Material Instance dinâmico que pode ser modificado durante a *gameplay*;
 
