@@ -256,7 +256,7 @@ Para exemplificar utilizaremos o canal A (Alpha) da textura `Rock Basalt`.
 {% include image.html
   src="../imagens/materiais/unreal_engine_material_chanel_a_rock_basalt.webp"
   alt="Figura: Blueprint Material - Texture Roughness."
-  caption="Figura: Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante.]( "Figura: Blueprint Material - Texture Roughness - Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante."
+  caption="Figura: Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante."
 %}
 
 ### Specular
@@ -278,7 +278,7 @@ Valores especulares medidos:
 {% include image.html
   src="https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/Specular_1.jpg"
   alt="Figura: Blueprint Material - Specular."
-  caption="Figura: Parâmetro Specular.
+  caption="Figura: Parâmetro Specular."
 %}
 
 ### Ambient Occlusion
@@ -288,19 +288,19 @@ O mapa Ambient Occlusion (AO) pode ser usado para simular sombras suaves nas sal
 {% include image.html
   src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/ao_0.webp"
   alt="Figura: Blueprint Material - Ambient Occlusion 1 ."
-  caption="Figura: Scene without Ambient Occlusion.
+  caption="Figura: Scene without Ambient Occlusion."
 %}
 
 {% include image.html
   src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/ao_1.webp"
   alt="Figura: Blueprint Material - Ambient Occlusion 2."
-  caption="Figura:Ambient Occlusion Only.
+  caption="Figura:Ambient Occlusion Only."
 %}
 
 {% include image.html
   src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/ao_2.webp"
   alt="Figura: Blueprint Material - Ambient Occlusion 3."
-  caption="Figura:Scene with Ambient Occlusion.
+  caption="Figura:Scene with Ambient Occlusion."
 %}
 
 ## Propriedades do nó principal
@@ -318,7 +318,7 @@ Controla como o seu material se mesclará com os pixels por trás dele.
   {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/CameraObjectSetup.webp"
     alt="Figura: Blueprint Material - Opaque."
-    caption="Figura: [Material Blen Modes - Opaque](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/).
+    caption="Figura: [Material Blen Modes - Opaque](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)."
   %}
 
 - `BLEND_Masked` -  Cor final = cor de origem se `OpacityMask` > `OpacityMaskClipValue`, caso contrário, o pixel é descartado. Este modo de mesclagem é compatível com iluminação.
@@ -326,46 +326,63 @@ Controla como o seu material se mesclará com os pixels por trás dele.
   {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/MaskedGridMaterial.webp"
     alt="Figura: Blueprint Material - Masked."
-    caption="Figura: Material com máscara.
+    caption="Figura: Material com máscara."
   %}
 
   {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/MaskedSetup.webp"
     alt="Figura: Blueprint Material - Masked 2."
-    caption="Figura: [Material Blen Modes - Masked](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/).
+    caption="Figura: [Material Blen Modes - Masked](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)."
   %}
   
 - `BLEND_Translucent` - Cor final = opacidade da cor de origem + cor de destino (1 - opacidade). Este modo de mistura NÃO é compatível com  iluminação dinâmica.
 
-  ![Translucent](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/TranslucentNetwork.webp)
-
-  ![Translucent](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/TranslucentSetup.webp)
-
-  >Figura: [Material Blen Modes - Translucent](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)
-
+  {% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/TranslucentNetwork.webp"
+    alt="Figura: Blueprint Material- Translucent."
+  %}
+  
+  {% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/TranslucentSetup.webp"
+    alt="Figura: [Material Blen Modes - Translucent](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)"
+  %}
+  
 - `BLEND_Additive` - Cor final = cor de origem + cor de destino. Este modo de mistura NÃO é compatível com iluminação dinâmica.
 
-  ![Additive](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/AdditiveNetwork.webp)
+  {% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/AdditiveNetwork.webp"
+    alt="Figura: Blueprint Material- Additive."
+  %}
 
-  ![Additive](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/AdditiveSetup.webp)
-
-  >Figura: [Material Blen Modes - Additive](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)
+  {% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/AdditiveSetup.webp"
+    alt="Figura: Blueprint Material- Additive 1."
+    caption="Figura: [Material Blen Modes - Additive](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)."
+  %}
 
 - `BLEND_Modulate` - Cor final = cor de origem x cor de destino. Este modo de mistura NÃO é compatível com iluminação dinâmica ou neblina, a menos que seja um material de decalque.
 
-  ![Modulate](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/ModulateNetwork.webp)
+  {% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/ModulateNetwork.webp"
+    alt="Figura: Blueprint Material- Modulate."
+    caption="Figura Blueprint Metarial - Modulate".
+  %}
 
-  ![Modulate](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/ModulateScene.webp)
-
-  >Figura: [Material Blen Modes - Modulate](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)
-
+  {% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/ModulateScene.webp"
+    alt="Figura: Blueprint Material- Modulate 1."
+    caption="Figura: [Material Blen Modes - Modulate](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)."
+  %}
+  
 ### Shading Model
 
 Define como a luz é calculada para a superfície do material.
 
-![Shading Models](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/LightingModels/LightingModelProperties.webp)
-
->Figura: [Shading Models](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/LightingModels/)
+{% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/LightingModels/LightingModelProperties.webp"
+    alt="Figura: Blueprint Material- Shading Models."
+    caption="Figura: [Shading Models](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/LightingModels/)."
+%}
 
 ### Material Domain
 
@@ -390,7 +407,7 @@ Controla como o material deve ser usado, por exemplo, se ele deve fazer parte de
 {% include image.html
     src="../imagens/materiais/unreal_engine_material_type_input.webp"
     alt="Figura: Blueprint Material- Type input."
-    caption="Figura: Material Domain.
+    caption="Figura: Material Domain."
 %}
 
 ## Aplicando o material no objeto
@@ -400,5 +417,5 @@ Para aplicar o material em um objeto podemos selecionar o objeto e atualizamos a
 {% include image.html
     src="../imagens/materiais/unreal_engine_material_applying.webp"
     alt="Figura: Blueprint Material -  Applying Material."
-    caption="Figura: Aplicando um material em um objeto.
+    caption="Figura: Aplicando um material em um objeto."
 %}
