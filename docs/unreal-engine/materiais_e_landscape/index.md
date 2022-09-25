@@ -15,7 +15,7 @@ layout: page
 
 - [Estrutura do Material no Unreal Engine](unreal_engine_material_introducao_aos_materiais.html#estrutura-do-material-no-unreal-engine)
 
- [O que são Material expressions?](unreal_engine_material_introducao_aos_materiais.html#o-que-s-o-material-expressions)
+- [O que são Material expressions?](unreal_engine_material_introducao_aos_materiais.html#o-que-s-o-material-expressions)
 
 - [O Nó principal ou Node Result](unreal_engine_material_introducao_aos_materiais.html#o-nó-principal-ou-node-result)
 
@@ -62,5 +62,3 @@ layout: page
 - [Parameter Global](unreal_engine_material_blueprint.html#parameter-global)
 
 - [Material Function](unreal_engine_material_blueprint.html#material-function)
-
-{% include menu.html %}

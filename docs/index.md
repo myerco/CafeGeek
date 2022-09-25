@@ -9,17 +9,17 @@ layout: home
 <img align="center" width="100" height="100" src="imagens/cafegeek_small.webp" alt="Logo cafegeek_small" title="CafeGeek">
 </p>
 
-**Desenvolvimento de jogos**
+## Desenvolvimento de jogos
 
-- [Unreal Engine com C++ e Blueprint](https://cafegeek.eti.br/unreal-engine/index.html)    
+- [Unreal Engine com C++ e Blueprint](https://cafegeek.eti.br/unreal-engine/index.html)
 
-- [Computação Gráfica com Unreal Engine](computacao-grafica/index.html)   
+- [Computação Gráfica com Unreal Engine](computacao-grafica/index.html)
 
-- [Modelagem usando Autodesk Maya](autodesk-maya/index.html)   
+- [Modelagem usando Autodesk Maya](autodesk-maya/index.html)
 
-- [A jogatina das décadas](a_jogatina_das_decadas/index.html)     
+- [A jogatina das décadas](a_jogatina_das_decadas/index.html)
 
-- [Me conta uma história](me_conte_uma_historia/index.html)   
+- [Me conta uma história](me_conte_uma_historia/index.html)
 
 - [Talentos](trabalhos/jogos_digitais_talentos.drawio.html)
 
@@ -31,15 +31,16 @@ layout: home
 
 - [Sobre o Curso de Jogos Digitais](sobre_o_curso_jogos_digitais.html)
 
-**Programação em C++**
+## Programação em C++
 
 - [Estrutura da linguagem](cpp/index.html)  
 
-**Banco de Dados**
+## Banco de Dados
 
 - [A taberna do Pônei Saltitante](a_taberna_ponei_saltitante/index.html)
 <!-- - [Segurança com Oracle](#)-->
 <!-- - [Consultas analíticas usando Rank](#)    -->
 
-
 [Sobre](about.html)
+
+{% include menu.html %}
