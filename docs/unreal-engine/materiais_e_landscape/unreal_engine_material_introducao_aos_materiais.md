@@ -39,17 +39,17 @@ A primeira e mais importante coisa a saber sobre os Materiais é que eles não s
 
 Para criar um material utilizamos o menu de contexto e a opção `Material`.
 
-1. Utilize Menu de contexto para criar um material;
-    {% include image.html
-      src="../imagens/materiais/unreal_engine_menu_material.webp"
-      alt="Figura: Contex Menu > Material."
-      caption="Figura: Contex Menu > Material."
-    %}
-2. Salve o material como `M_Base`
+{% include image.html
+  src="../imagens/materiais/unreal_engine_menu_material.webp"
+  alt="Figura: Context Menu > Material."
+  caption="Figura: Utilzizamos o menu de contexto para criar um material."
+%}
+
+Salve o material como `M_Base`.
 
 ### Editor de Materiais
 
-O Editor de Materiais consistem em uma barra de menu, toolbar e cinco regiões de propriedades [Material Editor UI](https://docs.unrealengine.com/5.0/en-US/unreal-engine-material-editor-ui/).
+O Editor de Materiais consistem em uma barra de menu, toolbar e cinco regiões de propriedades [[Material Editor UI](https://docs.unrealengine.com/5.0/en-US/unreal-engine-material-editor-ui/)].
 
 {% include image.html
   src="https://docs.unrealengine.com/5.0/Images/designing-visuals-rendering-and-graphics/materials/material-editor-user-guide/interface/material-editor-ui-full.webp"
@@ -318,7 +318,7 @@ Controla como o seu material se mesclará com os pixels por trás dele.
   {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/CameraObjectSetup.webp"
     alt="Figura: Blueprint Material - Opaque."
-    caption="Figura: [Material Blen Modes - Opaque](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)."
+    caption="Figura: Material Blen Modes - Opaque <https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)>."
   %}
 
 - `BLEND_Masked` -  Cor final = cor de origem se `OpacityMask` > `OpacityMaskClipValue`, caso contrário, o pixel é descartado. Este modo de mesclagem é compatível com iluminação.
@@ -332,7 +332,7 @@ Controla como o seu material se mesclará com os pixels por trás dele.
   {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/MaskedSetup.webp"
     alt="Figura: Blueprint Material - Masked 2."
-    caption="Figura: [Material Blen Modes - Masked](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)."
+    caption="Figura: Material Blen Modes - Masked <https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)>."
   %}
   
 - `BLEND_Translucent` - Cor final = opacidade da cor de origem + cor de destino (1 - opacidade). Este modo de mistura NÃO é compatível com  iluminação dinâmica.
@@ -357,7 +357,7 @@ Controla como o seu material se mesclará com os pixels por trás dele.
   {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/AdditiveSetup.webp"
     alt="Figura: Blueprint Material- Additive 1."
-    caption="Figura: [Material Blen Modes - Additive](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)."
+    caption="Figura: Material Blen Modes - Additive <https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)>."
   %}
 
 - `BLEND_Modulate` - Cor final = cor de origem x cor de destino. Este modo de mistura NÃO é compatível com iluminação dinâmica ou neblina, a menos que seja um material de decalque.
@@ -371,7 +371,7 @@ Controla como o seu material se mesclará com os pixels por trás dele.
   {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/ModulateScene.webp"
     alt="Figura: Blueprint Material- Modulate 1."
-    caption="Figura: [Material Blen Modes - Modulate](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)."
+    caption="Figura: Material Blen Modes - Modulate <https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)>."
   %}
   
 ### Shading Model
@@ -381,7 +381,7 @@ Define como a luz é calculada para a superfície do material.
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/LightingModels/LightingModelProperties.webp"
     alt="Figura: Blueprint Material- Shading Models."
-    caption="Figura: [Shading Models](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/LightingModels/)."
+    caption="Figura: Shading Models <https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/LightingModels/>."
 %}
 
 ### Material Domain

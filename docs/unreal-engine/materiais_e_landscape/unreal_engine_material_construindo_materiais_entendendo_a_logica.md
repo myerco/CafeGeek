@@ -2,42 +2,48 @@
 title: Construindo Materiais e entendo a lógica
 description: Neste capítulo vamos apresentar a lógica de construção de materiais, denomina Material Expressions no Unreal Engine e suas funções.
 tags: [Unreal Engine,Materiais, material expressions, material, lógica]
-layout: page
+categories: Unreal Engine
+author: 
+- Cafegeek
+layout: post
+date: 2022-09-24 
 ---
-
-## Combinando elementos utilizando funções
 
 Neste exemplo vamos combinar várias texturas e utilizar funções de manipulação para obter o resultado abaixo.
 
-![Figura: Blueprint Material - Objeto com mistura de texturas.](../imagens/materiais/unreal_engine_material_combine_color.webp "Figura: Blueprint Material - Objeto com mistura de texturas.")
-
-> Figura: Blueprint Material - Objeto com mistura de texturas.
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_combine_color.webp"
+  alt="Figura: Blueprint Material - Objeto com mistura de texturas."
+  caption="Figura: Exemplo de um objeto com diferentes texturas."
+%}
 
 É possível criar comentários no diagrama, abaixo lógica de construção de nós com comentários para facilitar a documentação.
 
-![Figura: Blueprint Material - Lógica da combinação de texturas.](../imagens/materiais/unreal_engine_node_combine.webp "Figura: Blueprint Material - Lógica da combinação de texturas.")
-
-> Figura: Blueprint Material - Lógica da combinação de texturas.
+{% include image.html
+  src="../imagens/materiais/unreal_engine_node_combine.webp"
+  alt="Figura: Blueprint Material - Lógica da combinação de texturas."
+  caption="Figura: Blueprint Material - Lógica da combinação de texturas."
+%}
 
 - `Base Color 1` - Cada pixel do canal R da textura é multiplicado pela cor.
 
-  ![Figura: Blueprint Material - Channel R Texture Wood Pine.](../imagens/materiais/unreal_engine_material_chanel_r_wood_pine.webp "Figura: Blueprint Material - Channel R Texture Wood Pine.")
-
-  > Figura: Blueprint Material - Channel R Texture Wood Pine.
-
-  - O valor 1 = branco e 0 = preto.
+    {% include image.html
+      src="../imagens/materiais/unreal_engine_material_chanel_r_wood_pine.webp"
+      alt="Figura: Blueprint Material - Channel R Texture Wood Pine."
+      caption="Figura: Na textura o valor 1 = branco e 0 = preto."
+    %}
 
 - `Base Color 2`
 
 - `Lerp` - Recebe o resultado da multiplicação e dos canais RGB da textura para do passo anterior. No parâmetro  Alpha é informado o canal G textura.
 
-  ![Figura: Blueprint Material - Channel G Texture Ceramic Tile.](../imagens/materiais/unreal_engine_material_chanel_g_ceramic_tile.webp "Figura: Blueprint Material - Channel G Texture Ceramic Tile.")
+   {% include image.html
+      src="../imagens/materiais/unreal_engine_material_chanel_g_ceramic_tile.webp"
+      alt="Figura: Blueprint Material - Channel G Texture Ceramic Tile."
+      caption="Figura: Neste passo o valores 0 (branco) e 1 (preto) são multiplicados."
+    %}
 
-  > Figura: Blueprint Material - Channel G Texture Ceramic Tile.
-
-  Neste passo o valores 0 (branco) e 1 (preto) são multiplicados.
-
-Exemplo de multiplicação entre vetores.
+Podems exemplicar o que está acontecento utilizando uma expressão matemática de uma multiplicação entre vetores, pois os elementos são vetores de três dimensões (vector3).
 
 ```c++
   resul =  ( Vetor3(0.0664,0.0366,0.401) * Vetor3(0,1,0) );
@@ -47,15 +53,19 @@ Exemplo de multiplicação entre vetores.
 
 - `Multiply` multiplica o canal R da textura com o resultado do Lerp.
 
-  ![Figura: Blueprint Material - Channel R Texture Ceramic Tile.](../imagens/materiais/unreal_engine_material_chanel_r_ceramic_tile.webp "Figura: Blueprint Material - Channel R Texture Ceramic Tile.")
-
-  > Figura: Blueprint Material - Channel R Texture Ceramic Tile.
+    {% include image.html
+      src="../imagens/materiais/unreal_engine_material_chanel_r_ceramic_tile.webp"
+      alt="Figura: Blueprint Material - Channel R Texture Ceramic Tile."
+      caption="Figura: O canal vermelho (R) da textura representa, nesta textura, os valores 0 e 1 com tons de cinza."
+    %}
 
 - `Normal Map` - Mapa normal.
 
-  ![Figura: Blueprint Material - Texture Normal.](../imagens/materiais/unreal_engine_material_mask_add_append.webp "Figura: Blueprint Material - Texture Normal.")
-
-  > Figura: Blueprint Material - Texture Normal.
+    {% include image.html
+      src="../imagens/materiais/unreal_engine_material_mask_add_append.webp"
+      alt="Figura: Blueprint Material - Texture Normal."
+      caption="Figura: Utilizamos texturas normais para distorcer o reflexo de luz."
+    %}
 
 - `Mask` - Filtra os canais passados como parâmetro;
 
@@ -82,9 +92,11 @@ resul =  Add( vetor3(1,3,4) , vetor3(2,4,1)  );
 
 Neste exemplo será simulado o movimento da textura no objeto.
 
-![Figura: Blueprint Material - Function Panner](../imagens/materiais/unreal_engine_material_panner.webp "Figura: Blueprint Material - Function Panner.")
-
-> Figura: Blueprint Material - Function Panner.
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_panner.webp"
+  alt="Figura: Blueprint Material - Function Panner."
+  caption="Figura: A função Panner adiciona velocidade e tempo nas coordenadas UV simulando movimento."
+%}
 
 Representação da lógica.
 
@@ -104,25 +116,31 @@ Ambas as entradas devem ter o mesmo número de valores, a menos que um dos valor
 
 Interpola Linearmente entre A e B com base em Alfa (100% de A quando Alfa = 0 e 100% de B quando Alfa = 1)
 
-![Figura: Blueprint Material - Exemplo de Lerp.](../imagens/materiais/ue4_material_lerp_exemplo.webp "Figura: Blueprint Material - Exemplo de Lerp.")
-
-> Figura: Blueprint Material - Exemplo de Lerp.
+{% include image.html
+  src="../imagens/materiais/ue4_material_lerp_exemplo.webp"
+  alt="Figura: Blueprint Material - Exemplo de Lerp."
+  caption="Figura: A função learp interpola linearmente dois valores, ou seja cria vários valores entre os parâmetros inicial (A) e final (B)."
+%}
 
 ## World position Offset
 
 Permite que os vértices de uma malha sejam manipulados no espaço do mundo pelo Material. Isso é útil para fazer objetos se moverem, mudarem de forma, girarem e uma variedade de outros efeitos. Isso é útil para coisas como animação ambiente.
 
-![Figura: Blueprint Material - World Position Offset.](../imagens/materiais/unreal_engine_material_world_position_offset.webp "Figura: Blueprint Material - World Position Offset.")
-
-> Figura: Blueprint Material - World Position Offset.
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_world_position_offset.webp"
+  alt="Figura: Blueprint Material - World Position Offset."
+  caption="Figura: O parâmetro  World position Offset permite manipulação da malha."
+%}
 
 Os valores do nó Constant Vector 3, representam as coordenadas de posição do mundo (x,y,z) respectivamente.
 
-Exemplo:
+Abaixo utilizamos variáveis para "animar" o material e simular movimento na malha.
 
-![Figura: Blueprint Material - World Position offset.](../imagens/materiais/unreal_engine_material_world_position_offset_panner.webp "Figura: Blueprint Material - World Position offset.")
-
-> Figura: Blueprint Material - World Position offset.
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_world_position_offset_panner.webp"
+  alt="Figura: Blueprint Material - World Position offset."
+  caption="Figura: Utilizando a função Panner e uma textura em tons de cinza para alterar as coordenadas da malha."
+%}
 
 - `TexCoord` - U=0.15, V=0.15;
 
@@ -132,36 +150,53 @@ Exemplo:
 
 Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais como fogo ou iluminação de objetos. Observe que, neste exemplo, o Material não está projetando luz na cena. Em vez disso, seu alto valor Emissivo resulta em um efeito de brilho, que também é captado pela Máscara de Sujeira aplicada à câmera. Parece iluminar, mas nenhuma luz ou sombra será projetada por este objeto.
 
-![Figura: Blueprint Material - Properties Unlit Shading Model.](../imagens/materiais/ue4_material_properties_unlit.webp "Figura: Blueprint Material - Properties Unlit Shading Model.")
+{% include image.html
+  src="../imagens/materiais/ue4_material_properties_unlit.webp"
+  alt="Figura: Blueprint Material - Properties Unlit Shading Model."
+  caption="Figura: Lógica utilizando Emisse Color com variáveis."
+%}
 
-> Figura: Blueprint Material - Properties Unlit Shading Model.
-
-![Figura: Material Properties blend Mode Unlit](../imagens/materiais/ue4_material_properties_blend_mode_unlit_result.webp "Figura: Material Properties blend Mode Unlit.")
-
-> Figura: Material Properties blend Mode Unlit.
+{% include image.html
+  src="../imagens/materiais/ue4_material_properties_blend_mode_unlit_result.webp"
+  alt="Figura: Material Properties blend Mode Unlit."
+  caption="Figura: Resultado do Unlit Shading Model."
+%}
 
 ## Masked Blend Mode
 
 É usado para objetos nos quais você precisa controlar seletivamente a visibilidade de forma binária (liga / desliga). Por exemplo, considere um material que simula uma cerca de arame ou grade. Você terá algumas áreas que parecem sólidas, enquanto outras são invisíveis. Esses materiais são perfeitos para o modo de `Blend Masked` .
 
-![Figura: Blueprint Material - Properties blend mode masked.](../imagens/materiais/unreal_engine_material_properties_blend_mode_masked.webp "Figura: Blueprint Material - Properties blend mode masked.")
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_properties_blend_mode_masked.webp"
+  alt="Figura: Blueprint Material - Properties blend mode masked."
+  caption="Figura: Lógica do material usando Opacity Mask."
+%}
 
-> Figura: Blueprint Material - Properties blend mode masked.
+Parâmetros do scalar:
 
-- `Roughness` - Valor 1
-- `Two Sided` - Valor `True`
+- `Roughness` - Valor 1.
 
-![Figura: Blueprint Material - Properties blend mode masked result.](../imagens/materiais/unreal_engine_material_properties_blend_mode_masked_result.webp "Figura: Blueprint Material - Properties blend mode masked result.")
+Parâmetros do nó resultado:
 
-> Figura: Blueprint Material - Properties blend mode masked result.
+- `Two Sided` - Valor `True`.
+
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_properties_blend_mode_masked_result.webp "
+  alt="Figura: Blueprint Material - Properties blend mode masked result."
+  caption="Figura: Resultado do Blend Masked."
+%}
 
 ## Translucent Blend Mode
 
 É usado para objetos que requerem alguma forma de transparência.
 
-![Figura: Blueprint Material - Properties blend mode Translucent.](../imagens/materiais/unreal_engine_material_properties_blend_mode_translucent.webp "Figura: Blueprint Material - Properties blend mode Translucent.")  
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_properties_blend_mode_translucent.webp"
+  alt="Figura: Blueprint Material - Properties blend mode Translucent."
+  caption="Figura: Lógica do material utilizando Opacity e Translucent Blend Mode."
+%}
 
-> Figura: Blueprint Material - Properties blend mode Translucent.
+Parâmetros do nó resultado:
 
 - `Material Domain` - Surface;
 
@@ -169,8 +204,8 @@ Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais co
 
 - `Lighting Mode` - Surface TranslucencyVolume.
 
-Resultado.
-
-![Figura: Blueprint Material - Properties blend mode Translucent.](../imagens/materiais/ue4_material_properties_blend_mode_translucent_result.webp "Figura: Blueprint Material - Properties blend mode Translucent.")
-
-> Figura: Blueprint Material - Properties blend mode Translucent.
+{% include image.html
+  src="../imagens/materiais/ue4_material_properties_blend_mode_translucent_result.webp"
+  alt="Figura: Blueprint Material - Properties blend mode Translucent."
+  caption="Figura: Resultado do Blend Mode Translucent."
+%}
