@@ -2,18 +2,22 @@
 title: Introdução aos Materiais
 description: Neste capítulo vamos apresentar o que são materiais e a sua estrutura.
 tags: [Unreal Engine,Materiais, material Function, material]
-layout: page
+categories: Unreal Engine
+author: 
+- Cafegeek
+layout: post
+date: 2022-09-24 
 ---
-
-***
 
 ## O que é um material?
 
 Podemos definir como uma coleção de imagens e instruções computacionais que são adicionadas a superfícies poligonais. Contudo materiais não são somente cores mas representação de imperfeições da superfície a qual foram aplicadas, como por exemplo, rasuras, aspereza e transparência.
 
-![Figura: Material - Unreal Engine](https://cdn2.unrealengine.com/Unreal+Engine%2Fonlinelearning-courses%2Fmaterials---exploring-essential-concepts%2FMaterialEssentialConcepts-1920x1080-1920x1080-2414bb5cf0b0c3bd7ac4b993e725d2acedd45334.png?resize=1&w=1400 "Figura: Material - Unreal Engine.")
-
-> Figura: Material - Unreal Engine.
+{% include image.html
+    src="https://cdn2.unrealengine.com/Unreal+Engine%2Fonlinelearning-courses%2Fmaterials---exploring-essential-concepts%2FMaterialEssentialConcepts-1920x1080-1920x1080-2414bb5cf0b0c3bd7ac4b993e725d2acedd45334.png?resize=1&w=1400"
+    alt="Figura: Material - Unreal Engine"
+    caption="Figura: Unreal Engine - Material Essential Concepts."
+%}
 
 No exemplo acima podemos verificar uma esfera com diferentes tipos de materiais adicionados na sua superfície, onde cada um interage de forma diferente a iluminação.
 
@@ -21,9 +25,11 @@ No exemplo acima podemos verificar uma esfera com diferentes tipos de materiais 
 
 PBR *Physically Based Rendering* significa que o material descreve as propriedades visuais de uma superfície de uma maneira realmente plausível, de modo que os resultados realistas sejam possíveis em todas as condições de iluminação.
 
-![Figura: Material PBR - https://www.pikpng.com.](../imagens/materiais/material_pbr.webp "Figura: Material PBR - https://www.pikpng.com.")
-
-> Figura: Material PBR - <https://www.pikpng.com>.
+{% include image.html
+    src="../imagens/materiais/material_pbr.webp"
+    alt="Figura: Material PBR - <https://www.pikpng.com>."
+    caption="Figura: Material PBR - <https://www.pikpng.com>."
+%}
 
 ## Estrutura do Material no Unreal Engine
 
@@ -34,17 +40,22 @@ A primeira e mais importante coisa a saber sobre os Materiais é que eles não s
 Para criar um material utilizamos o menu de contexto e a opção `Material`.
 
 1. Utilize Menu de contexto para criar um material;
-
-    ![Figura: Contex Menu > Material.](../imagens/materiais/unreal_engine_menu_material.webp "Figura: Contex Menu > Material.")
-
-    > Figura: Contex Menu > Material.
+    {% include image.html
+      src="../imagens/materiais/unreal_engine_menu_material.webp"
+      alt="Figura: Contex Menu > Material."
+      caption="Figura: Contex Menu > Material."
+    %}
 2. Salve o material como `M_Base`
 
 ### Editor de Materiais
 
-![Figura: Editor Material, Unreal Engine 4.26.](https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/Editor/Interface/MaterialEditor_Windows.webp "Figura: Editor Material, Unreal Engine 4.26.")
+O Editor de Materiais consistem em uma barra de menu, toolbar e cinco regiões de propriedades [Material Editor UI](https://docs.unrealengine.com/5.0/en-US/unreal-engine-material-editor-ui/).
 
-> Figura: Editor Material, Unreal Engine 4.26.
+{% include image.html
+  src="https://docs.unrealengine.com/5.0/Images/designing-visuals-rendering-and-graphics/materials/material-editor-user-guide/interface/material-editor-ui-full.webp"
+  alt="Figura: Unreal Engine - Material Editor UI"
+  caption="Figura: O editor de materiais apresenta o gráfico de nós de material, código de implementação de materiais e os elementos necessários para a sua manipulação."
+%}
 
 1. Editor de materiais;
 
@@ -64,9 +75,11 @@ Os nós de Expressão de Material ou Material Expression contêm pequenos fragme
 
 Conectando Material Expressions, abaixo um exemplo de conexão.
 
-![Figura: Blueprint Material - Exemplo de connection.](../imagens/materiais/unreal_engine_material_connection.webp "Figura: Blueprint Material - Exemplo de connection.")
-
-> Figura: Blueprint Material - Exemplo de connection.
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_connection.webp"
+  alt="Figura: Blueprint Material - Exemplo de connection."
+  caption="Figura: Blueprint Material - Exemplo de connection."
+%}
 
 - Botão direito do mouse em qualquer área de trabalho (RMB) abre a lista de nós disponíveis;
 
@@ -82,42 +95,52 @@ Existem variáveis ou nós específicos para determinar uma propriedade física 
 
 - Constant 1 ou valor escalar- Valor único.
 
-  ![Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó.](../imagens/materiais/unreal_engine_material_node_constant_1.webp "Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó.")
-
-  > Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó.
+    {% include image.html
+      src="../imagens/materiais/unreal_engine_material_node_constant_1.webp"
+      alt="Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó."
+      caption="Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó."
+    %}
 
 - Constant 2 - Vetor de dois valores.
 
-  ![Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó.](../imagens/materiais/unreal_engine_material_node_constant_2.webp "Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó.")
-
-  > Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó.
-
+    {% include image.html
+      src="../imagens/materiais/unreal_engine_material_node_constant_2.webp"
+      alt="Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó."
+      caption="Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó."
+    %}
+  
 - Constant 3 - Vetor de três valores.
 
-  ![Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó.](../imagens/materiais/unreal_engine_material_node_constant_3.webp "Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó.")
-
-  > Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó.
+    {% include image.html
+      src="../imagens/materiais/unreal_engine_material_node_constant_3.webp"
+      alt="Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó."
+      caption="Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó."
+    %}
 
 ### Texture samples
 
-Texturas são imagens que são usadas em materiais e são representadas pelo nó abaixo.  
+Texturas são imagens que são usadas em materiais e são representadas pelo nó abaixo.
 
-![Figura: Blueprint Material texture - (Clicando T + RMB).](../imagens/materiais/unreal_engine_material_node_texture_sample.webp "Figura: Blueprint Material texture - (Clicando T + RMB).")
-
-> Figura: Blueprint Material texture - (Clicando T + RMB).
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_node_texture_sample.webp"
+  alt="Figura: Blueprint Material texture - (Clicando T + RMB)."
+  caption="Figura: Blueprint Material texture - (Clicando T + RMB)."
+%}
 
 Considerações sobre texturas no **Unreal Engine**.
 
 Tamanhos :
 
-- 1x1, 2x2, 4x4, 1024x1024 e 8192x8192
+- 1x1, 2x2, 4x4, 1024x1024 e 8192x8192;
 - As texturas serão importadas em qualquer tamanho, mas não serão mipmaps.
 
 A seguir vamos abordar as características das texturas no **Unreal Engine**.
 
-![Figura: Blueprint Material - Base texture.](../imagens/materiais/unreal_engine_material_texture.webp "Figura: Blueprint Material - Base texture.")
-
-> Figura: Blueprint Material - Base texture.
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_texture.webp"
+  alt="Figura: Blueprint Material - Base texture."
+  caption="Figura: Blueprint Material, no exemplo utilizamos uma textura para determinar a cor base do objeto, utilizamos o canal vermelho (R) e o canal aplha (A) para alterar as propriedades do material."
+%}
 
 ## O Nó principal ou Node Result
 
@@ -125,9 +148,11 @@ O nó principal do material é responsável por exibir os resultados de todos os
 
 Abaixo o nó principal e suas principais entradas.
 
-![Figura: Blueprint Material - Nó principal ou Node Result.](../imagens/materiais/unreal_engine_node_result_properties.webp "Figura: Blueprint Material - Nó principal ou Node Result.")
-
-> Figura: Blueprint Material - Nó principal ou Node Result.
+{% include image.html
+  src="../imagens/materiais/unreal_engine_node_result_properties.webp"
+  alt="Figura: Blueprint Material - Nó principal ou Node Result."
+  caption="Figura: Blueprint Material e nó principal, nó que compila todos os parâmetros e valores e aplica no malha."
+%}
 
 ### Base color
 
@@ -135,34 +160,44 @@ A Cor Base define a cor geral do Material, tomando um valor Vector3 (RGB) onde c
 
 Se tirada do mundo real, esta é a cor quando fotografada usando um filtro polarizador (a polarização remove a especular dos não metais quando alinhada).
 
-![Base color](https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/BaseColor_QS.webp "Base Color")
-
->Figura: Base color.
+{% include image.html
+  src="https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/BaseColor_QS.webp"
+  alt="Figura: Unreal Engine - Base color"
+  caption="Figura: Unreal Engine - Propriedade Base color determina a cor base do material."
+%}
 
 ### Normal
 
 O mapa Normal define em qual direção uma parte de uma superfície é voltada, que é usada para criar sombras e realces detalhados.
 
-![Normal (geometry)](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Normal_vectors_on_a_curved_surface.svg/620px-Normal_vectors_on_a_curved_surface.svg.png "Normal (geometry)")
+{% include image.html
+  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Normal_vectors_on_a_curved_surface.svg/620px-Normal_vectors_on_a_curved_surface.svg.png"
+  alt="Figura: Normal (geometry)"
+  caption="Figura: Normais de uma superfície."
+%}
 
->Figura: Normal (geometry).
+{% include image.html
+  src="https://docs.unity3d.com/uploads/Main/BumpMapBumpShadingDiagram.svg"
+  alt="Figura: Normal map (Bump mapping)"
+  caption="Figura: Mapeamento normal em três polígonos, visto como um diagrama 2D."
+%}
 
-![Normal map (Bump mapping)1](https://docs.unity3d.com/uploads/Main/BumpMapBumpShadingDiagram.svg "Normal map (Bump mapping)")
-
->Figura: Mapeamento normal em três polígonos, visto como um diagrama 2D
-
-![Normal map (Bump mapping)](https://docs.unity3d.com/uploads/Main/BumpMapTexturePreview.png "Normal map (Bump mapping)2")
-
->Figura: Exemplo de uma textura de mapa normal.
+{% include image.html
+  src="https://docs.unity3d.com/uploads/Main/BumpMapTexturePreview.png"
+  alt="Figura: Normal map (Bump mapping)"
+  caption="Figura: Exemplo de uma textura de mapa normal."
+%}
 
 ### Textura Normal
 
 Usado para simular a maneira como a luz interage com a superfície do material para simular saliências e amassados menores.
 É importante observar que um mapa normal não mudará sua geometria base (consulte os mapas de altura posteriormente neste artigo).
 
-![Figura: Blueprint Material - Texture Normal.](../imagens/materiais/unreal_engine_material_normal_rock_basalt.webp "Figura: Blueprint Material - Texture Normal.")
-
-> Figura: Blueprint Material - Texture Normal.
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_normal_rock_basalt.webp"
+  alt="Figura: Blueprint Material - Texture Normal."
+  caption="Figura: Exemplo de uma textura de mapa normal."
+%}
 
 A cor base de um mapa normal é roxo claro, esta é a “parte inferior” do mapa normal que representa a superfície de sua malha poligonal. A partir daí, os valores RGB são usados para produzir rachaduras, saliências ou poros em seu modelo. Os valores R, G e B são iguais às coordenadas X, Y e Z em sua malha base.
 
@@ -170,13 +205,17 @@ A cor base de um mapa normal é roxo claro, esta é a “parte inferior” do ma
 
 O mapa Metálico define quais partes de um material são metálicas e quais não são. Seu valor será 0 ou 1, nada intermediário. Ao criar superfícies híbridas como metais corroídos, empoeirados ou enferrujados, você pode achar que precisa de algum valor entre 0 e 1.
 
-![Physically Based Materials Metallic](https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/metallic.png "Physically Based Materials Metallic")
+{% include image.html
+  src="https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/metallic.png"
+  alt="Figura: Physically Based Materials Metallic."
+  caption="Figura: O valor para o parâmetro Metallic é 0 até 1."
+%}
 
->Figura: Metallic 0 até 1.
-
-![Metallic](https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/Metallic_1.jpg "Metallic")
-
->Figura: Metallic.
+{% include image.html
+  src="https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/Metallic_1.jpg"
+  alt="Figura: Blueprint Material - Metallic."
+  caption="Figura: Exemplo de um vetor 3 e o valor escalar de 1 no parâmetro Metallic."
+%}
 
 ### Textura Metallic
 
@@ -184,9 +223,11 @@ Os mapas de metal também são em tons de cinza, mas a prática recomendada é u
 
 Para exemplificar utilizaremos o canal R (Red) da textura *Rock Basalt*.
 
-![Figura: Blueprint Material - Texture Metallic.](../imagens/materiais/unreal_engine_material_chanel_r_rock_basalt.webp "Figura: Blueprint Material - Texture Metallic.")
-
-> Figura: Blueprint Material - Texture Metallic.
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_chanel_r_rock_basalt.webp"
+  alt="Figura: Blueprint Material - Texture Metallic."
+  caption="Figura: Exemplo de uma textura que pode ser utilizada como base do parâmetro metallic, a textura é gradiente de negro e branco e representa a escala de 0 (negro) e 1 (pranco)"
+%}
 
 ### Roughness
 
@@ -196,21 +237,27 @@ O mapa de rugosidade define a rugosidade de uma superfície. Uma rugosidade de 0
 Isso começa com um valor de zero, onde seu modelo não dispersará a luz, tornando os reflexos e a iluminação muito mais nítidos e brilhantes em seu material.
 Por outro lado, se você aumentar a rugosidade ao máximo, a luz se espalhará mais pelo material. Isso faz com que a iluminação e os reflexos se espalhem pelo modelo, mas pareçam muito mais escuros.
 
-![Physically Based Materials Roughness](https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/roughness_nonmetal.png "Physically Based Materials Roughness")
+{% include image.html
+  src="https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/roughness_nonmetal.png"
+  alt="Figura: Blueprint Material - Physically Based Materials Roughness."
+  caption="Figura: Rugosidade de 0 até 1."
+%}
 
->Figura: Rugosidade de 0 até 1.
-
-![Roughness](https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/Roughness_1.jpg "Roughness")
-
->Figura: Roughness.
+{% include image.html
+  src="https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/Roughness_1.jpg"
+  alt="Figura: Blueprint Material - Roughness."
+  caption="Figura: Exemplo da rugosidade, zero representa sem rugossidade."
+%}
 
 ### Textura Roughness
 
 Para exemplificar utilizaremos o canal A (Alpha) da textura `Rock Basalt`.
 
-![Figura: Blueprint Material - Texture Roughness - Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante.](../imagens/materiais/unreal_engine_material_chanel_a_rock_basalt.webp "Figura: Blueprint Material - Texture Roughness - Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante.")
-
-> Figura: Blueprint Material - Texture Roughness - Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante.
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_chanel_a_rock_basalt.webp"
+  alt="Figura: Blueprint Material - Texture Roughness."
+  caption="Figura: Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante.]( "Figura: Blueprint Material - Texture Roughness - Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante."
+%}
 
 ### Specular
 
@@ -228,25 +275,33 @@ Valores especulares medidos:
 |Leie       |0.277    |
 |Pele       |0.35     |
 
-![Specular](https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/Specular_1.jpg "Specular")
-
->Figura: Specular.
+{% include image.html
+  src="https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/Specular_1.jpg"
+  alt="Figura: Blueprint Material - Specular."
+  caption="Figura: Parâmetro Specular.
+%}
 
 ### Ambient Occlusion
 
 O mapa Ambient Occlusion (AO) pode ser usado para simular sombras suaves nas saliências de uma superfície. Não é realmente necessário criar materiais realistas no Blender (especialmente com Cycles), mas você ainda pode usá-lo para escurecer as pequenas sombras na superfície.
 
-![Ambient Occlusion 1](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/ao_0.webp "Ambient Occlusion 1")
+{% include image.html
+  src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/ao_0.webp"
+  alt="Figura: Blueprint Material - Ambient Occlusion 1 ."
+  caption="Figura: Scene without Ambient Occlusion.
+%}
 
->Figura: Scene without Ambient Occlusion.
+{% include image.html
+  src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/ao_1.webp"
+  alt="Figura: Blueprint Material - Ambient Occlusion 2."
+  caption="Figura:Ambient Occlusion Only.
+%}
 
-![Ambient Occlusion 2](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/ao_1.webp "Ambient Occlusion 2")
-
->Figura:Ambient Occlusion Only.
-
-![Ambient Occlusion 3](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/ao_2.webp "Ambient Occlusion 3")
-
->Figura:Scene with Ambient Occlusion.
+{% include image.html
+  src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/PostProcessEffects/AmbientOcclusion/ao_2.webp"
+  alt="Figura: Blueprint Material - Ambient Occlusion 3."
+  caption="Figura:Scene with Ambient Occlusion.
+%}
 
 ## Propriedades do nó principal
 
@@ -260,18 +315,26 @@ Controla como o seu material se mesclará com os pixels por trás dele.
 
 - `BLEND_Opaque` - Cor final = cor de origem. Isso significa que o material será desenhado na parte superior do fundo. Este modo de mesclagem é compatível com iluminação.
 
-  ![Opaque](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/CameraObjectSetup.webp)
-
-  >Figura: [Material Blen Modes - Opaque](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)
+  {% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/CameraObjectSetup.webp"
+    alt="Figura: Blueprint Material - Opaque."
+    caption="Figura: [Material Blen Modes - Opaque](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/).
+  %}
 
 - `BLEND_Masked` -  Cor final = cor de origem se `OpacityMask` > `OpacityMaskClipValue`, caso contrário, o pixel é descartado. Este modo de mesclagem é compatível com iluminação.
 
-  ![Masked](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/MaskedGridMaterial.webp)
+  {% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/MaskedGridMaterial.webp"
+    alt="Figura: Blueprint Material - Masked."
+    caption="Figura: Material com máscara.
+  %}
 
-  ![Masked](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/MaskedSetup.webp)
-
-  >Figura: [Material Blen Modes - Masked](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)
-
+  {% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/MaskedSetup.webp"
+    alt="Figura: Blueprint Material - Masked 2."
+    caption="Figura: [Material Blen Modes - Masked](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/).
+  %}
+  
 - `BLEND_Translucent` - Cor final = opacidade da cor de origem + cor de destino (1 - opacidade). Este modo de mistura NÃO é compatível com  iluminação dinâmica.
 
   ![Translucent](https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/TranslucentNetwork.webp)
@@ -324,14 +387,18 @@ Controla como o material deve ser usado, por exemplo, se ele deve fazer parte de
 
 - `Virtual Texture` - Usado ao fazer uma textura virtual em tempo de execução;
 
-![Figura: Blueprint Material- Type input](../imagens/materiais/unreal_engine_material_type_input.webp "Figura: Blueprint Material- Type input.")
-
-> Figura: Blueprint Material- Type input.
+{% include image.html
+    src="../imagens/materiais/unreal_engine_material_type_input.webp"
+    alt="Figura: Blueprint Material- Type input."
+    caption="Figura: Material Domain.
+%}
 
 ## Aplicando o material no objeto
 
 Para aplicar o material em um objeto podemos selecionar o objeto e atualizamos a propriedade `MATERIALS` selecionando o material criando anteriormente.
 
-![Figura: Blueprint Material -  Applying Material.](../imagens/materiais/unreal_engine_material_applying.webp "Figura: Blueprint Material -  Applying Material.")
-
-> Figura: Blueprint Material -  Applying Material.
+{% include image.html
+    src="../imagens/materiais/unreal_engine_material_applying.webp"
+    alt="Figura: Blueprint Material -  Applying Material."
+    caption="Figura: Aplicando um material em um objeto.
+%}

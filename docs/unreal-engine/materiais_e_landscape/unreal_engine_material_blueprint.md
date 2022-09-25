@@ -73,7 +73,7 @@ Depois de criado o objeto podemos adicionar e editar valores do tipo `Scalar` e 
     caption="Figura: Blueprint Material - Editor de Parameter Collection."
 %}
 
-No Editor de Materiais usamos o menu de contexto (LMB) e escolhemos a opção `Material Parameter Collection` selecionando o objeto criado com os parâmetros em `Collection`, `MPC_Base`.
+No Editor de Materiais usamos o menu de contexto (RMB) e escolhemos a opção `Material Parameter Collection` selecionando o objeto criado com os parâmetros em `Collection`, `MPC_Base`.
 
 {% include image.html
     src="../imagens/materiais/unreal_engine_material_collectionparameter.webp"
