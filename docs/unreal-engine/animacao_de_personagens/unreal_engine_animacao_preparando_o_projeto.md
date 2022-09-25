@@ -3,12 +3,18 @@ title: Preparando o projeto
 description: Neste capitulo vamos preparar e organizar os objetos e elementos necessários, como por exemplo, arquivos FBX, malhas e esqueletos e suas animações. Vamos também importar personagens do site Mixano.
 esqueletos e suas animações).
 tags: [Unreal Engine, Animação]
-layout: page
+categories: Unreal Engine
+author: 
+- Cafegeek
+layout: post
+date: 2022-09-25 
 ---
 
-![Figura: Unreal Engine - Preparando o projeto de animação.](imagens/animacao/unreal_engine_animation_project.webp "Figura: Unreal Engine - Preparando o projeto de animação.")
-
-> Figura: Unreal Engine - Preparando o projeto de animação.
+{% include image.html
+    src="../imagens/animacao/unreal_engine_animation_project.webp"
+    alt="Figura: Unreal Engine - Preparando o projeto de animação."
+    caption="Figura: Unreal Engine - Preparando o projeto de animação."
+%}
 
 ## Organizando pastas de bibliotecas
 
@@ -16,9 +22,9 @@ Em este passo iremos preparar as pastas, configuração inicial do projeto e per
 
 1. Criar o projeto AulaAnimação com `Blueprint ThirdPerson`;
 
-2. Adicione ao projeto `Animation Starter Pack`;
+1. Adicione ao projeto `Animation Starter Pack`;
 
-3. Criar as pastas para organização do projeto:
+1. Criar as pastas para organização do projeto:
 
 ```bash
 |--Projeto
@@ -42,7 +48,7 @@ Em este passo iremos preparar as pastas, configuração inicial do projeto e per
 
 Mova todas as pastas de bibliotecas externas para a pasta ExampleContent, como por exemplo ThirdPerson.
 
-4. Mova os objetos:
+1. Mova os objetos:
 
 ```bash
 cp /Mannequim/Character/Mesh/Sk_Mannequim  /Characteres/Mannequim/Mesh
@@ -117,15 +123,18 @@ Para esta classe vamos importar o esqueleto e animações.
 
    - `Default Pawn`: BP_Mutant;
 
-### Vídeo Classe do Mutant
+#### Vídeo Classe do Mutant
 
-[![Vídeo: Unreal Engine - Animation Classe do personagem.](https://img.youtube.com/vi/obLJb4RBySA/0.jpg)](https://youtu.be/obLJb4RBySA "Vídeo: Unreal Engine - Animation Classe do personagem.")
-
-> Vídeo: Unreal Engine - Animation Classe do personagem.
+{% include video.html
+    link="https://youtu.be/obLJb4RBySA"
+    src="https://img.youtube.com/vi/obLJb4RBySA/0.jpg"
+    alt="Vídeo: Unreal Engine - Animation Classe do personagem."
+    caption="Vídeo: Unreal Engine - Animation Classe do personagem."
+%}
 
 ### Ambiente e controle
 
-Neste passo vamos implementar os [Controles](http://cafegeek.eti.br/unreal-engine/unreal_engine_gameinstance_state_mode.html) do personagem e criar um level para testes.
+Neste passo vamos implementar os controles do personagem e criar um level para testes.
 
 1. Crie os seguintes objetos *Blueprint*:
 
@@ -133,9 +142,9 @@ Neste passo vamos implementar os [Controles](http://cafegeek.eti.br/unreal-engin
 
    - BP_PlayerController do tipo `Player Controller`.
 
-2. Crie um `Level` do tipo `Default` de nome **LevelTest** e salve na pasta `Projeto/Maps`.
+1. Crie um `Level` do tipo `Default` de nome **LevelTest** e salve na pasta `Projeto/Maps`.
 
-3. Em `World Settings` configure:
+1. Em `World Settings` configure:
 
    - `GameMode Override` - BP_GameModeBase;
 
@@ -161,23 +170,28 @@ Em este passo iremos utilizar o site [Mixano.com](https://www.mixamo.com/) para 
 
 Observação: Neste exemplo utilizaremos a opção `In Place = true` para exemplificar.  
 
-### Vídeo Baixando personagem
+#### Vídeo Baixando personagem
 
-[![Vídeo: Unreal Engine - Baixando personagem do Mixano.](http://img.youtube.com/vi/G7c8DMdrsGY/0.jpg)](https://youtu.be/G7c8DMdrsGY "Vídeo: Unreal Engine - Baixando personagem do Mixano.")
-
-> Vídeo: Unreal Engine - Baixando personagem do Mixano.
+{% include video.html
+    link="https://youtu.be/G7c8DMdrsGY"
+    src="http://img.youtube.com/vi/G7c8DMdrsGY/0.jpg"
+    alt="Vídeo: Unreal Engine - Baixando personagem do Mixano."
+    caption="Vídeo: Unreal Engine - Baixando personagem do Mixano."
+%}
 
 ### Importando Mesh e Skeletal
 
 1. Crie a pasta `/Projeto/Characteres/Mutant/Mesh`;
 
-2. Copie o arquivo `mutant.fbx` para a pasta criada no passo anterior;
+1. Copie o arquivo `mutant.fbx` para a pasta criada no passo anterior;
 
-3. Importe o arquivo com a opção `Import All`:
+1. Importe o arquivo com a opção `Import All`:
 
-   ![Figura: Unreal Egnine - Blueprint FBX import options.](imagens/animacao/unreal_engine_fbx_import_options.webp "Figura: Unreal Egnine - Blueprint FBX import options.")
-
-   > Figura: Unreal Egnine - Blueprint FBX import options.
+{% include image.html
+    src="../imagens/animacao/unreal_engine_fbx_import_options.webp"
+    alt="Figura: Unreal Egnine - Blueprint FBX import options."
+    caption="Figura: Unreal Egnine - Blueprint FBX import options."
+%}
 
 ### Importando animações
 
@@ -197,6 +211,9 @@ Observação: Neste exemplo utilizaremos a opção `In Place = true` para exempl
 
 ### Vídeo Importando personagem
 
-[![Vídeo: Unreal Engine - Importando personagem FBX baixdo do Mixano](http://img.youtube.com/vi/6ZLatHfD7P8/0.jpg)](https://youtu.be/6ZLatHfD7P8 "Vídeo: Unreal Engine - Importando personagem FBX baixdo do Mixano")
-
-> Vídeo: Unreal Engine - Importando personagem FBX baixdo do Mixano.
+{% include video.html
+    link="https://youtu.be/6ZLatHfD7P8"
+    src="http://img.youtube.com/vi/6ZLatHfD7P8/0.jpg"
+    alt="Vídeo: Unreal Engine - Importando personagem FBX baixdo do Mixano."
+    caption="Vídeo: Unreal Engine - Importando personagem FBX baixdo do Mixano."
+%}

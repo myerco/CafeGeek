@@ -2,10 +2,18 @@
 title: Utilizando Blend Space
 description: Em este capítulo iremos implementar várias animações utilizando um eixo de movimentação utilizando o elemento e editor Blend space 1D e Blend space.
 tags: [Unreal Engine, Animação,Blend Space 1D,Blend Space]
-layout: page
+categories: Unreal Engine
+author: 
+- Cafegeek
+layout: post
+date: 2022-09-25 
 ---
 
-![Figura: Unreal Engine Preparando o Projeto](imagens/animacao/unreal_engine_animation_blend_space.webp)
+{% include image.html
+    src="../imagens/animacao/unreal_engine_animation_blend_space.webp"
+    alt="Figura: Unreal Engine Preparando o Projeto"
+    caption=""
+%}
 
 ## O que é Blend Space?
 
@@ -15,9 +23,11 @@ O objetivo do `Blend Space` é reduzir a necessidade de criar nós individuais c
 
 Para carregar o editor de animação na horizontal usamos o menu de contexto `Animation` > `Blend Space 1D`.
 
-![Figura: Unreal Engine - Menu de contexto Animation > Blend Space 1D.](imagens/animacao/unreal_engine_animation_blend_1d.webp "Figura: Unreal Engine - Menu de contexto Animation > Blend Space 1D.")
-
-> Figura: Unreal Engine - Menu de contexto Animation > Blend Space 1D.
+{% include image.html
+    src="../imagens/animacao/unreal_engine_animation_blend_1d.webp"
+    alt="Figura: Unreal Engine - Menu de contexto Animation > Blend Space 1D."
+    caption="Figura: Unreal Engine - Menu de contexto Animation > Blend Space 1D."
+%}
 
 Nos próximos passos vamos criar várias sequencias de animações para o personagem BP_Human.
 
@@ -27,11 +37,13 @@ Os Blend Spaces também podem ser criados em um formato unidimensional, conhecid
 
 Utilizamos o este elemento quando temos somente um parâmetro para controle da mudança de animações, neste caso o eixo horizontal com o parâmetro `Speed`.
 
-![Figura: Unreal Engine - Editor Blen Space 1D.](imagens/animacao/unreal_engine_Blend_Space_1D.webp "Figura: Unreal Engine - Editor Blen Space 1D.")
+{% include image.html
+    src="../imagens/animacao/unreal_engine_Blend_Space_1D.webp"
+    alt="Figura: Unreal Engine - Editor Blen Space 1D."
+    caption="Figura: Unreal Engine - Editor Blen Space 1D."
+%}
 
-> Figura: Unreal Engine - Editor Blen Space 1D.
-
-**Human.**
+### Human
 
 - Nome do arquivo: BS_Human1D;
 
@@ -51,7 +63,7 @@ Para acompanhar o movimentação pressione Shift + LMB e arrastre o mouse.
 
 > Alteramos o nome do parâmetro para Speed com a finalidade de facilitar a identificação dentro da lógica de programação Bluerint que usaremos posteriormente.
 
-**Mutant.**
+### Mutant
 
 - Nome do arquivo: BS_Mutant
 
@@ -73,9 +85,12 @@ Para criar a movimentação no eixo horizontal vamos arrastar os elementos apres
 
 ## Vídeo Animation Blend Space 1D
 
-[![Vídeo: Unreal Engine - Animation Blend Space 1D.](http://img.youtube.com/vi/arRhm3KRUR0/0.jpg)](https://youtu.be/arRhm3KRUR0 "Vídeo: Unreal Engine - Animation Blend Space 1D.")
-
-> Vídeo: Unreal Engine - Animation Blend Space 1D.
+{% include video.html
+    link="https://youtu.be/arRhm3KRUR0"
+    src="http://img.youtube.com/vi/arRhm3KRUR0/0.jpg"
+    alt="Vídeo: Unreal Engine - Animation Blend Space 1D."
+    caption="Vídeo: Unreal Engine - Animation Blend Space 1D."
+%}
 
 ## Blend Space
 
@@ -83,9 +98,11 @@ Este elemento é utilizado quanto existem dois parâmetros para controle das ani
 
 Menu de contexto `Animation` > `Blend Space`.
 
-![Figura: Unreal Engine - Editor Blen Space.](imagens/animacao/unreal_engine_Blend_Space.webp "Figura: Unreal Engine - Editor Blen Space.")
-
-> Figura: Unreal Engine - Editor Blen Space.
+{% include image.html
+    src="../imagens/animacao/unreal_engine_Blend_Space.webp"
+    alt="Figura: Unreal Engine - Editor Blen Space."
+    caption="Figura: Unreal Engine - Editor Blen Space."
+%}
 
 - Nome do arquivo: BS_Human;
 

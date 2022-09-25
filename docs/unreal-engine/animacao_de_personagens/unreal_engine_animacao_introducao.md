@@ -2,15 +2,18 @@
 title: Introdução a animação de personagens
 description: Neste capitulo vamos apresentar o fluxo de trabalho e os elementos necessários para a animação de personagens.
 tags: [Unreal Engine, Animação]
-layout: page
+categories: Unreal Engine
+author: 
+- Cafegeek
+layout: post
+date: 2022-09-25 
 ---
 
-***
-
-![Figura: Unreal Engine e Animação de personagens.](imagens/animacao/unreal_engine_animation.webp "Figura: Unreal Engine e Animação de personagens.")
-
-> Figura: Unreal Engine e Animação de personagens.
-
+{% include image.html
+    src="../imagens/animacao/unreal_engine_animation.webp"
+    alt="Figura: Unreal Engine e Animação de personagens."
+    caption=""
+%}
 
 ## Fluxo de trabalho para animação utilizando Unreal Engine
 
@@ -27,9 +30,11 @@ Abaixo uma visão geral técnica do uso do pipeline de animações.
 
 Embora o formato FBX seja proprietário, muitos aplicativos de modelagem e animação que não são da Autodesk podem abrir arquivos FBX. Isso permite que os criadores compartilhem modelos 3D entre si usando o formato FBX, que é eficiente porque armazena modelos como dados binários. Os arquivos .OBJ, .DXF, .3DS e .DAE (COLLADA) podem ser convertidos em arquivos FBX, usando o Autodesk FBX Converter (disponível para Windows e Mac, mas sem suporte a partir de 2013) ou Autodesk Viewer (Web).[(fileinfo)](https://fileinfo.com/extension/fbx "Fileinfo")
 
-![Figura: File Autodesk FBX - fileinfo.com.](https://fileinfo.com/img/ss/lg/fbx_2691.png "Figura: File Autodesk FBX - fileinfo.com.")
-
-> Figura: File Autodesk FBX - fileinfo.com.
+{% include image.html
+    src="https://fileinfo.com/img/ss/lg/fbx_2691.png"
+    alt="Figura: File Autodesk FBX - fileinfo.com."
+    caption="Figura: File Autodesk FBX - fileinfo.com."
+%}
 
 ### Skeleton
 
@@ -43,9 +48,11 @@ Skeleton ou Esqueleto da malha importada no arquivo FBX contendo controle de mov
 
 - `Physics` - Controle de física e animação dos ossos.
 
-![Figura: Bluprint - Editor Skeleton.](imagens/animacao/unreal_engine_skeleton_mannequim.webp "Figura: Bluprint - Editor Skeleton.")
-
-> Figura: Bluprint - Editor Skeleton.
+{% include image.html
+    src="../imagens/animacao/unreal_engine_skeleton_mannequim.webp"
+    alt="Figura: Bluprint - Editor Skeleton."
+    caption="Figura: Bluprint - Editor Skeleton."
+%}
 
 ### Anim Graph
 
@@ -63,9 +70,11 @@ Editor para implementação das animações utilizando codificação visual.
 
   - `Final posse` - `Sequence recorder` e `Animation Sharing manager`.
 
-![Figura: Blueprint - Editor Anim Graph.](imagens/animacao/unreal_engine_animgraph.webp "Figura: Blueprint - Editor Anim Graph.")
-
-> Figura: Blueprint - Editor Anim Graph.  
+{% include image.html
+    src="../imagens/animacao/unreal_engine_animgraph.webp"
+    alt="Figura: Blueprint - Editor Anim Graph."
+    caption="Figura: Blueprint - Editor Anim Graph."
+%}
 
 ### Sequence
 
@@ -81,9 +90,11 @@ Editor que permite a edição de animações.
 
 - `Notify Animations` - Adiciona uma etiqueta na `Timeline` da animação.
 
-![Figura: Blueprint - Editor Blend Space 1D.](imagens/animacao/unreal_engine_Blend_Space_1D.webp "Figura: Blueprint - Editor Blend Space 1D.")
-
-> Figura: Blueprint - Editor Blend Space 1D.  
+{% include image.html
+    src="../imagens/animacao/unreal_engine_Blend_Space_1D.webp"
+    alt="Figura: Blueprint - Editor Blend Space 1D."
+    caption="Figura: Blueprint - Editor Blend Space 1D."
+%}
 
 ### Skeletal Mesh
 
