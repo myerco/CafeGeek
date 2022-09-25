@@ -31,7 +31,7 @@ Frame: Um quadro ou imagem apresentada, uma animação é composta por vários f
 - 30 FPS = 1/29 , 0.034 34ms;
 - 60 FPS = 1/59 , 0.017 17ms;
 
-### Lista de comandos do console
+### Utilizando comandos do console
 
 Para habilitar o console de comandos para verificar e alterar o *FPS* do jogo utilizando o Menu `Project Settings` > `Open`.
 
@@ -45,29 +45,29 @@ Para habilitar o console de comandos para verificar e alterar o *FPS* do jogo ut
 
 1. Apresenta o valor de FPS;
 
-  ```bash
-  stat fps
-  ```
+    ```bash
+    stat fps
+    ```
 
 1. Altera o valor de FPS para 100;
 
-  ```bash
-  t.MaxFPS 100
-  ```
+    ```bash
+    t.MaxFPS 100
+    ```
 
 1. Exibe informações de desempenho para os threads Frame, Game, Draw, GPU, RHIT e DynRes do projeto.
 
-  ```bash
-  stat unit
-  ```
+    ```bash
+    stat unit
+    ```
 
 1. Fornece feedback sobre quanto tempo os vários *Ticks* de jogo estão demorando.
 
-  ```bash
-  stat game
-  ```
+    ```bash
+    stat game
+    ```
 
-### Delta seconds
+## Delta seconds
 
 **Delta Seconds** é a quantidade de tempo decorrido desde o último evento `Tick`. Ao multiplicar seu deslocamento por **Delta Seconds**, seu movimento será independente da taxa de quadros.
 
@@ -91,7 +91,7 @@ Para exemplificar vamos controlar o movimento do objeto independente do *FPS* ut
 {% include image.html
   src="../imagens/tempoespaco/blueprint_logic_simple.webp"
   alt="Figura: Blueprint - Event Tick com DeltaTime e SetWorldLocation."
-  caption="Figura: Unreal Engine - Project Settings configuração do comando para acessar o Console."
+  caption="Figura: Unreal Engine - Utilizamos GetWorldLocation e incrementamos o valor de Y a cada Tick para atualziar SetWordLocation, atualizando a posição do objeto."
 %}
 
 {% include image.html
@@ -118,9 +118,16 @@ Podemos fixar o *FPS* do projeto utilizando o menu `Project settings` > `Use fix
 
 *Vídeo.*
 
-[![Vídeo: Delta time e sistema de coordenadas  - Utilizando o Delta seconds 02  - Unreal Engine](https://img.youtube.com/vi/gQdT8rah4CU/0.jpg)](https://youtu.be/gQdT8rah4CU "Vídeo: Delta time e sistema de coordenadas  - Utilizando o Delta seconds 02  - Unreal Engine")
+<!--[![Vídeo: Delta time e sistema de coordenadas  - Utilizando o Delta seconds 02  - Unreal Engine](https://img.youtube.com/vi/gQdT8rah4CU/0.jpg)](https://youtu.be/gQdT8rah4CU "Vídeo: Delta time e sistema de coordenadas  - Utilizando o Delta seconds 02  - Unreal Engine")
 
-> Vídeo: Delta time e sistema de coordenadas  - Utilizando o Delta seconds 02  - Unreal Engine.
+> Vídeo: Delta time e sistema de coordenadas  - Utilizando o Delta seconds 02  - Unreal Engine.-->
+
+{% inclide video.html
+  link="https://youtu.be/gQdT8rah4CU"
+  src="https://img.youtube.com/vi/gQdT8rah4CU/0.jpg"
+  alt="Vídeo: Delta time e sistema de coordenadas  - Utilizando o Delta seconds 02  - Unreal Engine"
+  caption="Vídeo: Utilizando o Delta seconds."
+%}
 
 ### Timeline
 
@@ -130,27 +137,27 @@ Os nós da linha de tempo são nós especiais dentro de **Blueprints** que permi
 
 Para este exemplo vamos utilizar um objeto *Lampada* do tipo `Light Component`  para apresentar a estrutura de nó *TratamentoLuz* do tipo `TimeLine`.
 
-1. Criamos o objeto *BP_ControleLuz* do tipo `Box Trigger`.
+A seguiur vamos criar o objeto *BP_ControleLuz* do tipo `Box Trigger`.
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_timeline_boxcollision.webp"
-  alt="Figura: Blueprint - Box Trigger BP_ControleLuz"
-  caption="Figura: Blueprint - Box Trigger BP_ControleLuz"
+  alt="Figura: Blueprint - Box Trigger BP_ControleLuz."
+  caption="Figura: Blueprint - O objeto Trigger BP_ControleLuz."
 %}
 
-1. Em `BP_ControleLuz` adicionamos a variável *Lampada* do tipo `PointLight` e a configuramos como publica;
+Em `BP_ControleLuz` adicionamos a variável *Lampada* do tipo `PointLight` e a configuramos como publica;
 
-1. Adicionamos na cena um componente `PointLight`;
+Adicionamos na cena um componente `PointLight`;
 
-1. Adicionamos o BP_ControleLuz na cena e associamos o objeto `PointLight` na propriedade *Lampada*.
+Adicionamos o BP_ControleLuz na cena e associamos o objeto `PointLight` na propriedade *Lampada*.
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_timeline_boxcollision_with_point_light.webp"
   alt="Figura: Blueprint - CollisionComponent e PointLight."
-  caption="Figura: Blueprint - CollisionComponent e PointLight."
+  caption="Figura: Componente BP_ControleLuz associando a variável Lampada ao objeto na cena."
 %}
 
-1. Em *BP_ControleLuz* adicionamos a lógica do tratamento de luz;
+Em *BP_ControleLuz* adicionamos a seguinte lógica para tratamento de luz;
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_timeline_emitter.webp"
@@ -158,7 +165,9 @@ Para este exemplo vamos utilizar um objeto *Lampada* do tipo `Light Component`  
   caption="Figura: Blueprint - Lógica para tratamento da luz utilizando Set Light Color, Set Intensity e TimeLine."
 %}
 
-1. Variáveis do objeto `TimeLine`.
+### Tipos de variáveis do objeto TimeLine
+
+O Editor do TimeLine é um gráfico de tempo e valor, onde a linha são os valores do tempo e a linha horizontal os valores da variável.
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_timeline_variables.webp"
@@ -166,7 +175,9 @@ Para este exemplo vamos utilizar um objeto *Lampada* do tipo `Light Component`  
   caption="Figura: Blueprint - Variáveis do objeto Timeline."
 %}
 
-1. `FloatVariavel` - Do tipo `float` controla a intensidade da luz durante o tempo 1.
+#### FloatVariavel
+
+Tipo `float` controla a intensidade da luz durante o tempo 1.
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_timeline_float.webp"
@@ -174,7 +185,11 @@ Para este exemplo vamos utilizar um objeto *Lampada* do tipo `Light Component`  
   caption="Figura:   Blueprint - Exemplo de variável float do DeltaTime."
 %}
 
-1. `Vetorvariavel` - Do tipo `Vector` altera o valor das coordenadas durante o tempo 4.
+A seguir vamos criar variáveis para exemplicar cada tipo.
+
+#### Vetorvariavel
+
+Tipo `Vector` altera o valor das coordenadas durante o tempo 4.
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_timeline_vector.webp"
@@ -182,7 +197,9 @@ Para este exemplo vamos utilizar um objeto *Lampada* do tipo `Light Component`  
   caption="Figura:   Blueprint - Exemplo de variável Vector do DeltaTime"
 %}
 
-1. `CorVariavel` - Do tipo `color` altera as cores da luz conforme o tempo passa.
+#### CorVariavel
+
+Tipo `color` altera as cores da luz conforme o tempo passa.
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_timeline_color.webp"
@@ -190,7 +207,9 @@ Para este exemplo vamos utilizar um objeto *Lampada* do tipo `Light Component`  
   caption="Figura: Blueprint - Exemplo de variável Color do DeltaTime."
 %}
 
-1. `EventoVariavel` - Do tipo `Event` dispara um evento no tempo 2,4 e 6.
+#### EventoVariavel
+
+Tipo `Event` dispara um evento no tempo 2,4 e 6.
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_timeline_event.webp"
@@ -254,14 +273,15 @@ Nos exemplos a seguir vamos movimentar um objeto para simular a movimentação d
 
 Neste exemplo vamos implementar um movimento no eixo Y de abertura de uma porta.
 
-1. Adicionando o elemento Movimentando `TimeLine` e alerando a posição do objeto.
+Adicionando o elemento Movimentando `TimeLine` e alerando a posição do objeto.
+
 {% include image.html
   src="../imagens/tempoespaco/blueprint_timeline_movement.webp"
   alt="Figura: Blueprint - Exemploo de movimentação deslizando a porta."
-  caption="Figura: Blueprint - Exemploo de movimentação deslizando a porta."
+  caption="Figura: Blueprint - Exemplo de movimentação deslizando a porta."
 %}
 
-1. *Movimentando* utiliza a variável Movimento do tipo `Vector`. Somente o valor de Y é alterado.
+*Movimentando* utiliza a variável Movimento do tipo `Vector`. Somente o valor de Y é alterado.
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_timeline_movement_vector.webp"
@@ -269,7 +289,7 @@ Neste exemplo vamos implementar um movimento no eixo Y de abertura de uma porta.
   caption="Figura: Blueprint - Exemplo de movimentação com vector somente com o eixo Y."
 %}
 
-1. Salvamos a posição inicial do objeto.
+Salvamos a posição inicial do objeto.
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_timeline_save_pos.webp"
@@ -281,7 +301,7 @@ Neste exemplo vamos implementar um movimento no eixo Y de abertura de uma porta.
 
 Neste exemplo vamos implementar um movimento no eixo Z, girando e abrindo a porta.
 
-1. Utilizamos a função `MakeRotator`.
+Utilizamos a função `MakeRotator`.
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_timeline_makerotator.webp"
@@ -289,7 +309,7 @@ Neste exemplo vamos implementar um movimento no eixo Z, girando e abrindo a port
   caption="Figura: Blueprint - Exemplo de movimentação girando a porta utilizando Make Rotator."
 %}
 
-1. Movimentando utiliza a variável *Angulo* do tipo `Vector`.
+Movimentando utiliza a variável *Angulo* do tipo `Vector`.
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_timeline_vector_angle.webp"
@@ -297,7 +317,7 @@ Neste exemplo vamos implementar um movimento no eixo Z, girando e abrindo a port
   caption="Figura: Blueprint - Exemplo de movimentação utilizando ângulo de abertura."
 %}
 
-1. Acionando a porta.
+Acionando a porta.
   
 {% include image.html
   src="../imagens/tempoespaco/blueprint_timeline_open_door.webp"
@@ -305,11 +325,11 @@ Neste exemplo vamos implementar um movimento no eixo Z, girando e abrindo a port
   caption="Figura: Blueprint - Exemplo de abertura da porta utilizando CollisionComponent."
 %}  
 
-### Curves
+## Curves
 
 Podemos criar um tipo de objeto `Curve` para que possamos utilizar em vários Blueprints.
 
-1. Para criar um objeto do tipo `Curve` utilizamos o menu de contexto `Miscellaneous` > `Curve`.
+Para criar um objeto do tipo `Curve` utilizamos o menu de contexto `Miscellaneous` > `Curve`.
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_menu_curve.webp"
@@ -317,7 +337,7 @@ Podemos criar um tipo de objeto `Curve` para que possamos utilizar em vários Bl
   caption="Figura: Blueprint - Menu de contexto Miscellaneous > Curve."
 %}  
 
-1. Objeto C_TempoPorta.
+Criando o Objeto C_TempoPorta.
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_icon_curve.webp"
@@ -325,7 +345,7 @@ Podemos criar um tipo de objeto `Curve` para que possamos utilizar em vários Bl
   caption="Figura: Blueprint - Objeto C_TempoPorta."
 %}  
 
-1. Associando o objeto **C_TempoPorta** a **Movimentando**.
+Associando o objeto C_TempoPorta ao objeto Movimentando.
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_timeline_curve.webp"
@@ -335,7 +355,7 @@ Podemos criar um tipo de objeto `Curve` para que possamos utilizar em vários Bl
 
 - `SetVectorCurve`;
 
-### Exemplo de calculo de velocidade
+## Exemplo de calculo de velocidade
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_velocity_exemple.webp"
@@ -429,7 +449,9 @@ O vetor normalizado das coordenadas (3,4) é (-.6,.8).
   caption="Figura: Blueprint - Exemplo de lógica para calculo da distância de dois objetos."
 %}  
 
-- `VectorLength` - Calcula o comprimento do vetor, onde Comprimento = VectorLength(Resultado) (1341.64078);
+### VectorLength
+
+Calcula o comprimento do vetor, onde Comprimento = VectorLength(Resultado) (1341.64078);
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_vector_lenght.webp"
@@ -437,7 +459,9 @@ O vetor normalizado das coordenadas (3,4) é (-.6,.8).
   caption="Figura: Blueprint - Exemplo de VectorLength."
 %}  
 
-- `GetDistanceTo` - Calcula a distância de dois objetos, onde Distancia = GetDistanceTo(Cubo,Cubo2) (1341.64078);
+### GetDistanceTo
+
+Calcula a distância de dois objetos, onde Distancia = GetDistanceTo(Cubo,Cubo2) (1341.64078);
 
 {% include image.html
   src="../imagens/tempoespaco/blueprint_getdistanceto.webp"
@@ -445,7 +469,7 @@ O vetor normalizado das coordenadas (3,4) é (-.6,.8).
   caption="Figura: Blueprint - Exemplo de GetDistanceTo."
 %}  
   
-- `Normalize`  
+### Normalize  
 
 **a** = Cubo.GetActorLocation(0,-600,70)
 
