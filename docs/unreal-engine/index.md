@@ -6,12 +6,11 @@ tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digi
 layout: home
 ---
 
-
-<img src="imagens/unreal_engine.webp" width="100%" height="auto" alt="Unreal Engine com C++ e Blueprint" />
-
-<!-- ![Unreal Engine com C++ e Blueprint](imagens/unreal_engine.webp "Unreal Engine com C++ e Blueprint")
-
--->
+{% include image.html
+  src="imagens/unreal_engine.webp"
+  alt="Figura: Cafegeek."
+  caption=""
+%}
 
 Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*.  O curso está associado a construção **Mecânica** do jogo pois nele definimos elementos como mecanismos de controle e elementos do conteúdo do jogo.  
 

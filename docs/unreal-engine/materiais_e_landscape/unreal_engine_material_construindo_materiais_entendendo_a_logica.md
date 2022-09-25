@@ -27,21 +27,21 @@ Neste exemplo vamos combinar várias texturas e utilizar funções de manipulaç
 
 - `Base Color 1` - Cada pixel do canal R da textura é multiplicado pela cor.
 
-  {% include image.html
-    src="../imagens/materiais/unreal_engine_material_chanel_r_wood_pine.webp"
-    alt="Figura: Blueprint Material - Channel R Texture Wood Pine."
-    caption="Figura: Na textura o valor 1 = branco e 0 = preto."
-  %}
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_chanel_r_wood_pine.webp"
+  alt="Figura: Blueprint Material - Channel R Texture Wood Pine."
+  caption="Figura: Na textura o valor 1 = branco e 0 = preto."
+%}
 
 - `Base Color 2`
 
 - `Lerp` - Recebe o resultado da multiplicação e dos canais RGB da textura para do passo anterior. No parâmetro  Alpha é informado o canal G textura.
 
-  {% include image.html
-    src="../imagens/materiais/unreal_engine_material_chanel_g_ceramic_tile.webp"
-    alt="Figura: Blueprint Material - Channel G Texture Ceramic Tile."
-    caption="Figura: Neste passo o valores 0 (branco) e 1 (preto) são multiplicados."
-  %}
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_chanel_g_ceramic_tile.webp"
+  alt="Figura: Blueprint Material - Channel G Texture Ceramic Tile."
+  caption="Figura: Neste passo o valores 0 (branco) e 1 (preto) são multiplicados."
+%}
 
 Podems exemplicar o que está acontecento utilizando uma expressão matemática de uma multiplicação entre vetores, pois os elementos são vetores de três dimensões (vector3).
 
@@ -53,19 +53,19 @@ Podems exemplicar o que está acontecento utilizando uma expressão matemática 
 
 - `Multiply` multiplica o canal R da textura com o resultado do Lerp.
 
-  {% include image.html
-    src="../imagens/materiais/unreal_engine_material_chanel_r_ceramic_tile.webp"
-    alt="Figura: Blueprint Material - Channel R Texture Ceramic Tile."
-    caption="Figura: O canal vermelho (R) da textura representa, nesta textura, os valores 0 e 1 com tons de cinza."
-  %}
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_chanel_r_ceramic_tile.webp"
+  alt="Figura: Blueprint Material - Channel R Texture Ceramic Tile."
+  caption="Figura: O canal vermelho (R) da textura representa, nesta textura, os valores 0 e 1 com tons de cinza."
+%}
 
 - `Normal Map` - Mapa normal.
 
-  {% include image.html
-    src="../imagens/materiais/unreal_engine_material_mask_add_append.webp"
-    alt="Figura: Blueprint Material - Texture Normal."
-    caption="Figura: Utilizamos texturas normais para distorcer o reflexo de luz."
-  %}
+{% include image.html
+  src="../imagens/materiais/unreal_engine_material_mask_add_append.webp"
+  alt="Figura: Blueprint Material - Texture Normal."
+  caption="Figura: Utilizamos texturas normais para distorcer o reflexo de luz."
+%}
 
 - `Mask` - Filtra os canais passados como parâmetro;
 
