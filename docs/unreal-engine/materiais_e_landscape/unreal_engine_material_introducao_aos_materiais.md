@@ -365,7 +365,7 @@ Controla como o seu material se mesclará com os pixels por trás dele.
   {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/ModulateNetwork.webp"
     alt="Figura: Blueprint Material- Modulate."
-    caption="Figura Blueprint Metarial - Modulate".
+    caption="Figura Blueprint Metarial - Modulate."
   %}
 
   {% include image.html
