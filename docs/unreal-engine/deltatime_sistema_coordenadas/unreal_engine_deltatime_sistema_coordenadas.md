@@ -247,23 +247,35 @@ Tipo `Event` dispara um evento no tempo 2,4 e 6.
 
 - `SetTimerbyFunction`;
 
-**Vídeo.**
+*Vídeo.*
 
-[![Vídeo: Delta time e sistema de coordenadas  - Timeline  03  Float - Unreal Engine](https://img.youtube.com/vi/qOUYp-XWUtw/0.jpg)](https://youtu.be/qOUYp-XWUtw "Vídeo: Delta time e sistema de coordenadas  - Timeline  03  Float - Unreal Engine")
+{% include video.html
+  link="https://youtu.be/qOUYp-XWUtw"
+  src="https://img.youtube.com/vi/qOUYp-XWUtw/0.jpg"
+  alt="Vídeo: Delta time e sistema de coordenadas  - Timeline  03  Float - Unreal Engine."
+  caption="Vídeo: Delta time e sistema de coordenadas  - Timeline  03  Float - Unreal Engine."
+%}
 
-> Vídeo: Delta time e sistema de coordenadas  - Timeline  03  Float - Unreal Engine.
+{% include video.html
+  link="https://youtu.be/EJQwXxjiS58"
+  src="https://img.youtube.com/vi/EJQwXxjiS58/0.jpg"
+  alt="Vídeo: Delta time e sistema de coordenadas  - Timeline  04  Color - Unreal Engine."
+  caption="Vídeo: Delta time e sistema de coordenadas  - Timeline  04  Color - Unreal Engine."
+%}
 
-[![Vídeo: Delta time e sistema de coordenadas  - Timeline  04  Color - Unreal Engine](https://img.youtube.com/vi/EJQwXxjiS58/0.jpg)](https://youtu.be/EJQwXxjiS58 "Vídeo: Delta time e sistema de coordenadas  - Timeline  04  Color - Unreal Engine")
+{% include video.html
+  link="https://youtu.be/YkvP6tMMly0"
+  src="https://img.youtube.com/vi/YkvP6tMMly0/0.jpg"
+  alt="Vídeo: Delta time e sistema de coordenadas  - Timeline  05 Event - Unreal Engine."
+  caption="Vídeo: Delta time e sistema de coordenadas  - Timeline  05 Event - Unreal Engine."
+%}
 
-> Vídeo: Delta time e sistema de coordenadas  - Timeline  04  Color - Unreal Engine.
-
-[![Vídeo: Delta time e sistema de coordenadas  - Timeline  05 Event - Unreal Engine](https://img.youtube.com/vi/YkvP6tMMly0/0.jpg)](https://youtu.be/YkvP6tMMly0 "Vídeo: Delta time e sistema de coordenadas  - Timeline  05 Event - Unreal Engine.")
-
-> Vídeo: Delta time e sistema de coordenadas  - Timeline  05 Event - Unreal Engine.
-
-[![Vídeo: Delta time e sistema de coordenadas  - Timeline  06  Vector - Unreal Engine](https://img.youtube.com/vi/w5VpoM95B-Q/0.jpg)](https://youtu.be/w5VpoM95B-Q "Vídeo: Delta time e sistema de coordenadas  | Timeline  06  Vector | Unreal Engine")
-
-> Vídeo: Delta time e sistema de coordenadas  - Timeline  06  Vector - Unreal Engine.
+{% include video.html
+  link="https://youtu.be/w5VpoM95B-Q"
+  src="https://img.youtube.com/vi/w5VpoM95B-Q/0.jpg"
+  alt="Vídeo: Delta time e sistema de coordenadas  - Timeline  06  Vector - Unreal Engine."
+  caption="Vídeo: Delta time e sistema de coordenadas  - Timeline  06  Vector - Unreal Engine."
+%}
 
 ## Abrindo portas
 

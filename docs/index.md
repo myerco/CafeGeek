@@ -42,5 +42,3 @@ layout: home
 <!-- - [Consultas analíticas usando Rank](#)    -->
 
 [Sobre](about.html)
-
-{% include menu.html %}
