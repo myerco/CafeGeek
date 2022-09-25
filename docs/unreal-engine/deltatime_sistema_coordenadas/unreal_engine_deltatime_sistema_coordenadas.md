@@ -122,7 +122,7 @@ Podemos fixar o *FPS* do projeto utilizando o menu `Project settings` > `Use fix
 
 > Vídeo: Delta time e sistema de coordenadas  - Utilizando o Delta seconds 02  - Unreal Engine.-->
 
-{% inclide video.html
+{% include video.html
   link="https://youtu.be/gQdT8rah4CU"
   src="https://img.youtube.com/vi/gQdT8rah4CU/0.jpg"
   alt="Vídeo: Delta time e sistema de coordenadas  - Utilizando o Delta seconds 02  - Unreal Engine"
