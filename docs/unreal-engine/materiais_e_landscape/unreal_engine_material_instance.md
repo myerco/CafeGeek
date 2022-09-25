@@ -17,48 +17,60 @@ A **Mateial Instance** ou Instanciação de Material é uma maneira de criar um 
 
 Convertemos os nós em parâmetros para que possam ser manipulados posteriormente pelo **Material Instance**. Para que possamos exemplificar segue abaixo os passos.
 
-1. Vamos criar o material base com o nome `M_Base_Master`.
+Vamos criar o material base com o nome `M_Base_Master`.
 
-    ![Figura: Blueprint Material Instance - Base Master.](../imagens/materiais/unreal_engine_base_master.webp "Figura: Blueprint Material Instance - Base Master.")
+{% include image.html
+    src="../imagens/materiais/unreal_engine_base_master.webp"
+    alt="Figura: Blueprint Material Instance - Base Master."
+    caption="Figura: Lógica do material com cor base e normal."
+%}
 
-    > Figura: Blueprint Material Instance - Base Master.
+Agora vamos converter os nós em parâmetros.
 
-1. Agora vamos converter os nós em parâmetros.
+{% include image.html
+    src="../imagens/materiais/unreal_engine_material_convert_parameter.webp"
+    alt="Figura: Blueprint Material Instance - Convert to Parameter."
+    caption="Figura: Convertendo valores em parâmetros."
+%}
 
-    ![Figura: Blueprint Material Instance - Convert to Parameter.](../imagens/materiais/unreal_engine_material_convert_parameter.webp "Figura: Blueprint Material Instance - Convert to Parameter.")
+Resultado dos material com parâmetros.
 
-    > Figura: Blueprint Material Instance - Convert to Parameter.
+{% include image.html
+    src="../imagens/materiais/unreal_engine_base_master_with_parameter.webp"
+    alt="Figura: Blueprint Material Instance -  Resultado do material com parâmetros."
+    caption="Figura: Resultado do nó com parâmetros."
+%}
 
-1. Resultado dos material com parâmetros.
-
-    ![Figura: Blueprint Material Instance -  Resultado do material com parâmetros.](../imagens/materiais/unreal_engine_base_master_with_parameter.webp "Figura: Blueprint Material Instance -  Resultado do material com parâmetros.")
-
-    > Figura: Blueprint Material Instance -  Resultado do material com parâmetros.
-
-1. Definimos os seguintes atributos nos parâmetros:
+Em seguida definimos os seguintes atributos nos parâmetros:
 
 - `Parameter name` - Nome para o parâmetro que representa o input do material.
 - `Group` - Usado para agrupar os parâmetros por um determinado valor ou tema.
 
-1. Sugestão de grupos:
+Sugestão de grupos:
 
 - Texture Parameter Values: Diffuse,NormalMap, Rough Texture;
+
 - Scalar Parameter Values:  Valores escalares;
+
 - Metallic, Roughness: Vector Parameter Values : Color (R,G,B,A), UVTiling(R,G,B,A).
 
 ### Criando Material Instance
 
 Selecione o material `M_Base_Master` ou outro material e com o botão direito acione o menu de contexto e escolha `Create Material Instance`.
 
-![Figura: Blueprint Material Instance - Create material instance.](../imagens/materiais/unreal_engine_material_create_material_instance.webp "Figura: Blueprint Material Instance - Create material instance.")
-
-> Figura: Blueprint Material Instance - Create material instance.
+{% include image.html
+    src="../imagens/materiais/unreal_engine_material_create_material_instance.webp"
+    alt="Figura: Blueprint Material Instance - Create material instance."
+    caption="Figura: Criando um objeto Material Instance."
+%}
 
 ## Editor de material Instance
 
-![Figura: Blueprint Material Instance instance editor.](../imagens/materiais/unreal_engine_material_instance_editor.webp "Figura: Blueprint Material Instance instance editor.")  
-
-> Figura: Blueprint Material Instance instance editor.
+{% include image.html
+    src="../imagens/materiais/unreal_engine_material_instance_editor.webp"
+    alt="Figura: Blueprint Material Instance instance editor."
+    caption="Figura: Editor de Material Instance e suas propriedades."
+%}
 
 - `Details` - Propriedades e acesso aos parâmetros;
 
@@ -71,9 +83,11 @@ Selecione o material `M_Base_Master` ou outro material e com o botão direito ac
 
 `StaticSwitchParameter` recebe duas entradas e gera a primeira, se o valor do parâmetro for verdadeiro, e a segunda, caso contrário. No exemplo abaixo se o parâmetro for verdadeiro a multiplicação com a cor pode ser realizada caso contrário o textura não é multiplicada.
 
-![Figura: Blueprint Material Instance - Swith Parameter.](../imagens/materiais/unreal_engine_material_switch_parameter.webp "Figura: Blueprint Material Instance - Swith Parameter.")
-
-> Figura: Blueprint Material Instance - Swith Parameter.
+{% include image.html
+    src="../imagens/materiais/unreal_engine_material_switch_parameter.webp"
+    alt="Figura: Blueprint Material Instance - Swith Parameter."
+    caption="Figura: O nó Switch Parameters é visível no Editor de Material Instence e permite alternar entre dois valores, no exemplo acima o parâmetro é chamado de ColorSwitch."
+%}
 
 ## Organizando parâmetros e definindo valor máximo e mínimo
 
@@ -89,14 +103,18 @@ No exemplo abaixo criamos os grupos:
 
 - UV Tiling.
 
-![Figura: Blueprint Material Instance - Parameter Group.](../imagens/materiais/unreal_engine_material_parameter_group.webp "Figura: Blueprint Material Instance - Parameter Group.")
-
-> Figura: Blueprint Material Instance - Parameter Group.
+{% include image.html
+    src="../imagens/materiais/unreal_engine_material_parameter_group.webp"
+    alt="Figura: Blueprint Material Instance - Parameter Group."
+    caption="Figura: Criando vários parâmetros agrupados."
+%}
 
 ### Valor Mínimo e Máximo
 
 Podemos limitar os valores mínimo e máximo que podem ser passados como parâmetro utilizando a opção `Slider`.
 
-![Figura: Blueprint Material Instance - Slider Min e Slider Max.](../imagens/materiais/unreal_engine_material_slider_min_max.webp "Figura: Blueprint Material Instance - Slider Min e Slider Max.")
-
-> Figura: Blueprint Material Instance - Slider Min e Slider Max.
+{% include image.html
+    src="../imagens/materiais/unreal_engine_material_slider_min_max.webp"
+    alt="Figura: Blueprint Material Instance - Slider Min e Slider Max."
+    caption="Figura: Limitando os valores dos parâmetros utulizando Slider Min en Max."
+%}

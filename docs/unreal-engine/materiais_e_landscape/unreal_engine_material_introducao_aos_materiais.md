@@ -42,7 +42,7 @@ Para criar um material utilizamos o menu de contexto e a opção `Material`.
 {% include image.html
   src="../imagens/materiais/unreal_engine_menu_material.webp"
   alt="Figura: Context Menu > Material."
-  caption="Figura: Utilzizamos o menu de contexto para criar um material."
+  caption="Figura: Utilizamos o menu de contexto para criar um material."
 %}
 
 Salve o material como `M_Base`.
