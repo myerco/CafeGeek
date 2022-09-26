@@ -123,7 +123,7 @@ Implementando a lógica de chamada do menu no level *Menu* utilizando o `Open Le
 
 {% include image.html
     src="../imagens/multiplayer/multiplayer6.webp"
-    alt=Figura: Unreal Engine - Multiplayer, Chamando o menu com BeginPlay."
+    alt="Figura: Unreal Engine - Multiplayer, Chamando o menu com BeginPlay."
     caption="Figura: Unreal Engine - Multiplayer, Chamando o menu com BeginPlay."
 %}
 
