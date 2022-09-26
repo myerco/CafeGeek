@@ -54,7 +54,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 - [Implementando Atores](atores/unreal_engine_actor_atores.html)
 
-- [Utilizando Eventos, funções e macros](eventos_funcoes/unreal_engine_estruturando_logica_utilizando_eventos_funcoes_macros.html)  
+- [Utilizando Eventos, funções e macros](eventos_funcoes/unreal_engine_utilizando_eventos_funcoes_macros.html)  
 
 - [Comunicação entre Blueprints](comunicao_entre_blueprint/unreal_engine_comunicacao_entre_blueprint.html)
 
@@ -84,7 +84,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 ### Multiplayer
 
-- [Multiplayer](unreal_engine_multiplayer.html)
+- [Multiplayer](multiplayer/unreal_engine_multiplayer.html)
 
 ### Efeitos especiais e animação de cenas
 

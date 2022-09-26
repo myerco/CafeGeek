@@ -25,7 +25,7 @@ O objetivo deste curso é apresentar e construir elementos na ferramenta de mode
 
 ***
 
-- [O que é Modelagem de objetos 3D?](modelagem_usando_autodesk_maya.htmlmodelagem_usando_autodesk_maya#o-que---modelagem-de-objetos-3d-)
+- [O que é Modelagem de objetos 3D?](modelagem_usando_autodesk_maya.html#modelagem_usando_autodesk_maya#o-que---modelagem-de-objetos-3d-)
   - [Tipos de modelagem 3D](modelagem_usando_autodesk_maya#tipos-de-modelagem-3d)
   - [Processo de construção de cenas 3D](modelagem_usando_autodesk_maya#processo-de-constru--o-de-cenas-3d)
   - [Softwares para modelagem tridimensional](modelagem_usando_autodesk_maya#softwares-para-modelagem-tridimensional)

@@ -3,10 +3,12 @@ title: Modelagem usando Autodesk Maya
 description: Modelagem com Autodesk Maya
 keywords: [Autodesk Maya, modelagem 3d]
 tags: [Autodesk Maya, modelagem 3d]
-layout: page
+categories: Autodesk Maya
+author: 
+- Cafegeek
+layout: post
+date: 2022-09-26 
 ---
-
-***
 
 ## O que é Modelagem de objetos 3D?
 
