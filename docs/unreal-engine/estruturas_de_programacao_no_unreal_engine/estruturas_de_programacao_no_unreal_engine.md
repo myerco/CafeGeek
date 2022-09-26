@@ -5,7 +5,7 @@ tags: [Unreal Engine,blueprint,programação,estruturas,variáveis,c++]
 layout: page
 ---
 
-![Blueprint Variables](imagens/variaveis/unreal_engine_variables.webp "Blueprint Variables")
+![Blueprint Variables](../imagens/variaveis/unreal_engine_variables.webp "Blueprint Variables")
 
 > Figura: Blueprint Variáveis.
 
@@ -78,13 +78,13 @@ Declarando variáveis informamos ao computador que estamos reservando um espaço
 
 - Variáveis no Editor de Blueprint.
 
-    ![Figura: Blueprint Variables.](imagens/variaveis/unreal_engine_variable.webp "Figura: Blueprint Variables.")
+    ![Figura: Blueprint Variables.](../imagens/variaveis/unreal_engine_variable.webp "Figura: Blueprint Variables.")
 
     > Figura: Blueprint Variables.
 
 - As variáveis tem tipos e propriedades que determinam o sua utilização.  
 
-    ![Figura: Details ou properiedades das variáveis.](imagens/variaveis/unreal_engine_variable_details.webp "Figura: Details ou properiedades das variáveis.")
+    ![Figura: Details ou properiedades das variáveis.](../imagens/variaveis/unreal_engine_variable_details.webp "Figura: Details ou properiedades das variáveis.")
 
     > Figura: Details ou properiedades das variáveis.
 
@@ -107,7 +107,7 @@ Para acessar o conteúdo das variáveis utilizamos os métodos `Get` e `Set`, on
 
 **Blueprint.**
 
-![Figura: Métodos Get e Set.](imagens/variaveis/unreal_engine_get_set.webp "Figura: Métodos Get e Set.")
+![Figura: Métodos Get e Set.](../imagens/variaveis/unreal_engine_get_set.webp "Figura: Métodos Get e Set.")
 
 > Figura: Métodos Get e Set.
 
@@ -169,7 +169,7 @@ Podemos realizar as seguintes operações em `strings`:
 
 **Blueprint.**
 
-![Figura: String functions.](imagens/variaveis/unreal_engine_string_functions.webp "Figura: String functions.")
+![Figura: String functions.](../imagens/variaveis/unreal_engine_string_functions.webp "Figura: String functions.")
 
 > Figura: String functions.
 
@@ -267,7 +267,7 @@ Valores numéricos utilizam operadores matemáticos para a sua manutenção, com
 
 **Blueprint.**
 
-![Figura: Utilizando Divisão.](imagens/variaveis/unreal_engine_variable_division.webp "Figura: Utilizando Divisão.")
+![Figura: Utilizando Divisão.](../imagens/variaveis/unreal_engine_variable_division.webp "Figura: Utilizando Divisão.")
 
 > Figura: Utilizando Divisão.
 
@@ -284,7 +284,7 @@ void AMyCharacterClass::BeginPlay()
 }
 ```
 
-![Figura: Multiplicação valores.](imagens/variaveis/unreal_engine_variable_multiplication.webp "Figura: Multiplicação valores.")
+![Figura: Multiplicação valores.](../imagens/variaveis/unreal_engine_variable_multiplication.webp "Figura: Multiplicação valores.")
 
 > Figura: Multiplicação valores.
 
@@ -298,7 +298,7 @@ void AMyCharacterClass::BeginPlay()
 
 Armazena dois valores : falso `false` ou verdadeiro `true`.
 
-![Figura: Variável Boolean.](imagens/variaveis/unreal_engine_variable_boolean.webp "Figura: Variável Boolean.")
+![Figura: Variável Boolean.](../imagens/variaveis/unreal_engine_variable_boolean.webp "Figura: Variável Boolean.")
 
 > Figura: Variável Boolean.
 
@@ -314,7 +314,7 @@ Com a opção Privada marcada em uma variável, isso evita que a variável seja 
 
 **Blueprint.**
 
-![Figura: Private details.](imagens/variaveis/unreal_engine_variable_private_details.webp "Figura: Private details.")
+![Figura: Private details.](../imagens/variaveis/unreal_engine_variable_private_details.webp "Figura: Private details.")
 
 > Figura: Private details.
 
@@ -331,11 +331,11 @@ Para permitir que uma variável seja modificada de fora de seu módulos, torne-a
 
 **Blueprint.**
 
-![Figura: Public.](imagens/variaveis/unreal_engine_variable_public.webp "Figura: Public.")
+![Figura: Public.](../imagens/variaveis/unreal_engine_variable_public.webp "Figura: Public.")
 
 > Figura: Public.
 
-![Figura: Public details.](imagens/variaveis/unreal_engine_variable_public_details.webp "Figura: Public details.")
+![Figura: Public details.](../imagens/variaveis/unreal_engine_variable_public_details.webp "Figura: Public details.")
 
 > Figura: Public details.
 
@@ -405,7 +405,7 @@ A seguir vamos entender como é fluxo condicional é descrito com programação 
 
 **Blueprint.**
 
-![Figura: Blueprint e branch ou if.](imagens/estruturascontrole/blueprint_example_if.webp "Figura: Blueprint e branch ou if.")
+![Figura: Blueprint e branch ou if.](../imagens/estruturascontrole/blueprint_example_if.webp "Figura: Blueprint e branch ou if.")
 
 > Figura: Blueprint e branch ou if.
 
@@ -428,7 +428,7 @@ O nó `Switch` lê uma entrada de dados e, com base no valor dessa entrada, envi
 
 **Blueprint.**
 
-![Figura: Blueprint e Switch ou Case.](imagens/estruturascontrole/blueprint_exemple_switch.webp "Figura: Blueprint e Switch ou Case.")
+![Figura: Blueprint e Switch ou Case.](../imagens/estruturascontrole/blueprint_exemple_switch.webp "Figura: Blueprint e Switch ou Case.")
 
 > Figura: Blueprint e Switch ou Case
 
@@ -468,7 +468,7 @@ O nó `Sequence` permite que um único pulso de execução acione uma série de 
 
 **Blueprint.**
 
-![Figura: Blueptint Sequence.](imagens/estruturascontrole/blueprint_example_sequence.webp "Figura: Blueptint Sequence.")
+![Figura: Blueptint Sequence.](../imagens/estruturascontrole/blueprint_example_sequence.webp "Figura: Blueptint Sequence.")
 
 > Figura: Blueptint Sequence.
 
@@ -484,7 +484,7 @@ O nó `Flip Flop` obtém uma saída de execução e alterna entre duas saídas d
 
 **Blueprint.**
 
-![Figura: Bluprint Flip FLop.](imagens/estruturascontrole/blueprint_example_flip_flop.webp "Figura: Bluprint Flip FLop.")
+![Figura: Bluprint Flip FLop.](../imagens/estruturascontrole/blueprint_example_flip_flop.webp "Figura: Bluprint Flip FLop.")
 
 > Figura: Bluprint Flip FLop.
 
@@ -500,7 +500,7 @@ O nó `MultiGate` recebe um único pulso de dados e o encaminha para qualquer n�
 
 **Blueprint.**
 
-![Figura: Blueprint MultiGate.](imagens/estruturascontrole/blueprint_example_multigate.webp "Figura: Blueprint MultiGate.")
+![Figura: Blueprint MultiGate.](../imagens/estruturascontrole/blueprint_example_multigate.webp "Figura: Blueprint MultiGate.")
 
 > Figura: Blueprint MultiGate.
 
@@ -520,7 +520,7 @@ O nó `For Loop` funciona como um loop de código padrão, disparando um pulso d
 
 **Blueprint.**
 
-![Figura: Blueprint for loop.](imagens/estruturascontrole/blueprint_example_forloop.webp "Figura: Blueprint for loop.")
+![Figura: Blueprint for loop.](../imagens/estruturascontrole/blueprint_example_forloop.webp "Figura: Blueprint for loop.")
 
 > Figura: Blueprint for loop.
 
@@ -542,7 +542,7 @@ Uma condição de teste e um corpo são tudo o que constitui um *loop While*. An
 
 **Blueprint.**
 
-![Figura: Bluprint While loop.](imagens/estruturascontrole/blueprint_example_whileloop.webp "Figura: Bluprint While loop.")
+![Figura: Bluprint While loop.](../imagens/estruturascontrole/blueprint_example_whileloop.webp "Figura: Bluprint While loop.")
 
 > Figura: Bluprint While loop.
 
@@ -563,7 +563,7 @@ O nó `Do N` disparará um pulso de execução N vezes. Depois que o limite for 
 
 **Blueprint.**
 
-![Figura: Blueprint Do N.](imagens/estruturascontrole/blueprint_example_do_n.webp "Figura: Blueprint Do N.")
+![Figura: Blueprint Do N.](../imagens/estruturascontrole/blueprint_example_do_n.webp "Figura: Blueprint Do N.")
 
 > Figura: Blueprint Do N.
 
@@ -583,7 +583,7 @@ O nó `Do Once` - como o nome sugere - disparará um pulso de execução apenas 
 
 **Blueprint.**
 
-![Figura: Blueprint Do Once.](imagens/estruturascontrole/blueprint_example_do_once.webp "Figura: Blueprint Do Once.")
+![Figura: Blueprint Do Once.](../imagens/estruturascontrole/blueprint_example_do_once.webp "Figura: Blueprint Do Once.")
 
 > Figura: Blueprint Do Once.
 
@@ -637,7 +637,7 @@ Para declarar variáveis do tipo *array* devemos primeiro escolher um tipo de va
 
 **Blueprint.**
 
-![Figura: Blueprint array details.](imagens/array/blueprint_array_declare.webp "Figura: Blueprint array details.")
+![Figura: Blueprint array details.](../imagens/array/blueprint_array_declare.webp "Figura: Blueprint array details.")
 
 > Figura: Blueprint array details.
 
@@ -657,7 +657,7 @@ Para acessar qualquer elemento dentro *array* é necessários utilizar o índice
 
 **Blueprint.**  
 
-![Figura: Blueprint Get para Array.](imagens/array/blueprint_array_get.webp "Figura: Blueprint Get para Array.")
+![Figura: Blueprint Get para Array.](../imagens/array/blueprint_array_get.webp "Figura: Blueprint Get para Array.")
 
 > Figura: Blueprint Get para Array.
 
@@ -674,7 +674,7 @@ Podemos utilizar uma variável para substituir o índice e acessar elementos do 
 
 **Blueprint.**
 
-![Figura: Blueprint Get utiliando uma variável como índice.](imagens/array/blueprint_array_get_string.webp "Figura: Blueprint Get utiliando uma variável como índice.")
+![Figura: Blueprint Get utiliando uma variável como índice.](../imagens/array/blueprint_array_get_string.webp "Figura: Blueprint Get utiliando uma variável como índice.")
 
 > Figura: Blueprint Get utilizando uma variável como índice.
 
@@ -694,7 +694,7 @@ Podemos determinar a quantidade de elementos ou valor do último índice do *arr
 
 **Blueprint.**
 
-![Figura: Blueprint Last Index.](imagens/array/blueprint_array_last_index.webp "Figura: Blueprint Last Index.")
+![Figura: Blueprint Last Index.](../imagens/array/blueprint_array_last_index.webp "Figura: Blueprint Last Index.")
 
 > Figura: Blueprint Last Index.
 
@@ -723,7 +723,7 @@ Na lógica abaixo percorremos todo *array* e listamos cada elemento.
 
 **Bluprint.**
 
-![Figura: Blueprint  Array com loop.](imagens/array/blueprint_array_with_forloop.webp "Figura: Blueprint  Array com loop.")
+![Figura: Blueprint  Array com loop.](../imagens/array/blueprint_array_with_forloop.webp "Figura: Blueprint  Array com loop.")
 
 > Figura: Blueprint  Array com loop.
 
@@ -770,7 +770,7 @@ for (auto It = StrArr.CreateConstIterator(); It; ++It)
 
 **Blueprint.**
 
-![Figura: Blueprint Find e Array.](imagens/array/blueprint_array_search_string.webp "Figura: Blueprint Find e Array.")
+![Figura: Blueprint Find e Array.](../imagens/array/blueprint_array_search_string.webp "Figura: Blueprint Find e Array.")
 
 > Figura: Blueprint Find e Array.
 
@@ -790,7 +790,7 @@ O exemplo abaixo conta todos os elementos do *array* `Nomes` que são iguais a v
 
 **Bluprint.**
 
-![Figura: Blueprint for para escrever o total de ocorrências.](imagens/array/blueprint_array_write_total_occurrence.webp "Figura: Blueprint for para escrever o total de ocorrências.")
+![Figura: Blueprint for para escrever o total de ocorrências.](../imagens/array/blueprint_array_write_total_occurrence.webp "Figura: Blueprint for para escrever o total de ocorrências.")
 
 > Figura: Blueprint for para escrever o total de ocorrências.
 
@@ -815,7 +815,7 @@ O exemplo abaixo vamos percorrer o *array* utilizando uma instrução `for` e at
 
 **Blueprint.**
 
-![Figura: Blueprint preenchendo o array com strings.](imagens/array/blueprint_array_fill_string.webp "Figura: Blueprint preenchendo o array com strings")
+![Figura: Blueprint preenchendo o array com strings.](../imagens/array/blueprint_array_fill_string.webp "Figura: Blueprint preenchendo o array com strings")
 
 > Figura: Blueprint preenchendo o array com strings.
 
@@ -847,7 +847,7 @@ A função `Remove` exclui um elemento do *array*, o valor a ser removido tem qu
 
 **Blueprint.**
 
-![Figura: Blueprint Remove Array.](imagens/array/blueprint_array_remove.webp "Figura: Blueprint Remove Array.")
+![Figura: Blueprint Remove Array.](../imagens/array/blueprint_array_remove.webp "Figura: Blueprint Remove Array.")
 
 > Figura: Blueprint Remove Array.
 
@@ -866,7 +866,7 @@ O comando `Remove`executa uma busca utilizando um parâmetro, **NomeBusca** no e
 
 **Bluprint.**
 
-![Figura: Blueprint Remove array com index.](imagens/array/blueprint_array_remove_index.webp "Figura: Blueprint Remove array com index.")
+![Figura: Blueprint Remove array com index.](../imagens/array/blueprint_array_remove_index.webp "Figura: Blueprint Remove array com index.")
 
 > Figura: Blueprint Remove array com index.
 
@@ -886,7 +886,7 @@ Nomes.Remove(StrNomeBusca);
 
 **Blueprint.**
 
-![Figura: Blueprint Find e remove.](imagens/array/blueprint_array_find.webp "Figura: Blueprint Find e remove.")
+![Figura: Blueprint Find e remove.](../imagens/array/blueprint_array_find.webp "Figura: Blueprint Find e remove.")
 
 > Figura: Blueprint Find e remove.
 
@@ -907,7 +907,7 @@ if (Nomes.Find(TEXT("Hello"), Index))
 
 **Blueprint.**
 
-![Figura: Blueprint Clear Array.](imagens/array/blueprint_array_clear.webp "Figura: Blueprint Clear Array.")
+![Figura: Blueprint Clear Array.](../imagens/array/blueprint_array_clear.webp "Figura: Blueprint Clear Array.")
 
 > Figura: Blueprint Clear Array.
 
@@ -935,13 +935,13 @@ enum cores = { vermelho,amarelo, azul, verde = 20, preto}
 
 Execute o comando no menu de contexto `Blueprints` > `Enumeration` e logo depois preencha os valores conforme a tela abaixo.  
 
-![Figura: Blueprint e Enum.](imagens/enum/blueprint_enum_declare.webp "[Figura: Blueprint e Enum.")
+![Figura: Blueprint e Enum.](../imagens/enum/blueprint_enum_declare.webp "[Figura: Blueprint e Enum.")
 
 > Figura: Blueprint e Enum.
 
 Objeto criado `EN_Estado` e `EN_Pedra`.  
 
-![Figura: Blueprint Enum no Context Browser.](imagens/enum/blueprint_enum.webp "Figura: Blueprint Enum no Context Browser.")
+![Figura: Blueprint Enum no Context Browser.](../imagens/enum/blueprint_enum.webp "Figura: Blueprint Enum no Context Browser.")
 
 > Figura: Blueprint Enum no Context Browser.
 
@@ -979,7 +979,7 @@ Vamos verificar e alterar o estado de uma lâmpada utilizando uma variável do t
 
 **Blueprint.**
 
-![Figura: Blueprint Verificando o estado de uma lâmpada.](imagens/enum/blueprint_enum_example_lamp_state.webp "Figura: Blueprint Verificando o estado de uma lâmpada.")
+![Figura: Blueprint Verificando o estado de uma lâmpada.](../imagens/enum/blueprint_enum_example_lamp_state.webp "Figura: Blueprint Verificando o estado de uma lâmpada.")
 
 > Figura: Blueprint Verificando o estado de uma lâmpada.
 
@@ -1009,7 +1009,7 @@ Alterando o componente `PointLight` para ligar e desligar a iluminação.
 
 **Blueprint.**
 
-![Figura: Blueprint Ligando e desligando o PointLight.](imagens/enum/blueprint_enum_example_lamp_offon.webp "Figura: Blueprint Ligando e desligando o PointLight.")
+![Figura: Blueprint Ligando e desligando o PointLight.](../imagens/enum/blueprint_enum_example_lamp_offon.webp "Figura: Blueprint Ligando e desligando o PointLight.")
 
 > Figura: Blueprint Ligando e desligando o PointLight.
 
@@ -1133,7 +1133,7 @@ Verificando o estado utilizando o `Enum`.
 
 **Blueprint.**
 
-![Figura: Blueprint Lendo Enum.](imagens/enum/blueprint_enum_example_lamp_read_state.webp "Figura: Blueprint Lendo Enum.")
+![Figura: Blueprint Lendo Enum.](../imagens/enum/blueprint_enum_example_lamp_read_state.webp "Figura: Blueprint Lendo Enum.")
 
 > Figura: Blueprint Lendo Enum.  
 
@@ -1150,7 +1150,7 @@ Ligando e desligando utilizando o `Enum`.
 
 **Blueprint.**
 
-![Figura: Blueprint Ligando e desligando usando Enum.](imagens/enum/blueprint_enum_example_lamp_off.webp "Figura: Blueprint Ligando e desligando usando Enum.")
+![Figura: Blueprint Ligando e desligando usando Enum.](../imagens/enum/blueprint_enum_example_lamp_off.webp "Figura: Blueprint Ligando e desligando usando Enum.")
 
 > Figura: Blueprint Ligando e desligando usando Enum.
 
@@ -1175,16 +1175,16 @@ else {
 Vamos verificar e alterar o estado de emocional de uma pedra.
 
 1. Alterando o estado emocional da pedra.
-  ![Figura: Blueprint alterando Enum.](imagens/enum/blueprint_enum_example_rock.webp "Figura: Blueprint alterando Enum.")
+  ![Figura: Blueprint alterando Enum.](../imagens/enum/blueprint_enum_example_rock.webp "Figura: Blueprint alterando Enum.")
 
   > Figura: Blueprint alterando Enum.
 
 2. Apresentando o estado emocional da pedra.
-  ![Figura: Blueprint escrevendo o conteúdo do Enum.](imagens/enum/blueprint_enum_example_rock_state.webp "Figura: Blueprint escrevendo o conteúdo do Enum.")
+  ![Figura: Blueprint escrevendo o conteúdo do Enum.](../imagens/enum/blueprint_enum_example_rock_state.webp "Figura: Blueprint escrevendo o conteúdo do Enum.")
 
   >Figura: Blueprint escrevendo o conteúdo do Enum.
 
 3. Alterando as cores da pedra conforme a emoção.  
-  ![Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro.](imagens/enum/blueprint_enum_example_rock_set_material.webp "Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro.")
+  ![Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro.](../imagens/enum/blueprint_enum_example_rock_set_material.webp "Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro.")
 
   > Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro.

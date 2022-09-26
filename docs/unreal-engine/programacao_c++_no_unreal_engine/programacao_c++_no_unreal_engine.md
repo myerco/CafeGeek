@@ -110,11 +110,11 @@ A seguir vamos apresentar os tipos de variáveis em ambas as linguagens mas no p
 
 A seguir vamos implementar uma classe **C++** no **Unreal Engine** para tal utilizamos o `Menu Tools` > `New C++ Class`.
 
-![Figura: Create Class C++](imagens/cpp/unreal_engine_create_class_cpp.webp "Figura: Create Class C++")
+![Figura: Create Class C++](../imagens/cpp/unreal_engine_create_class_cpp.webp "Figura: Create Class C++")
 
 > Figura: Create Class C++.
 
-![Figura: Add C++ Class](imagens/cpp/unreal_engine_add_class_cpp.webp "Figura: Add C++ Class")
+![Figura: Add C++ Class](../imagens/cpp/unreal_engine_add_class_cpp.webp "Figura: Add C++ Class")
 
 > Figura: Add C++ Class.
 

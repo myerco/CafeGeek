@@ -7,7 +7,7 @@ layout: page
 
 ***
 
-![Figura: Unreal Engine - Animação e Bluerint.](imagens/animacao/unreal_engine_animation_animation_blueprint_main.webp "Figura: Unreal Engine - Animação e Bluerint.")
+![Figura: Unreal Engine - Animação e Bluerint.](../imagens/animacao/unreal_engine_animation_animation_blueprint_main.webp "Figura: Unreal Engine - Animação e Bluerint.")
 
 > Figura: Unreal Engine - Animação e Bluerint.
 
@@ -23,13 +23,13 @@ O Editor é separado em `AnimGraph` e `EventGraph`, onde o primeiro implementa a
 
 1. Para criar o objeto ABP_Human utilizamos o menu de contexto > `Animation` > `Animation Bluerint`;
 
-  ![Figura Unreal Engine - Menu contexto Animation > Animation Blueprint.](imagens/animacao/unreal_engine_animation_animation_blueprint.webp "Figura Unreal Engine - Menu contexto Animation > Animation Blueprint.")  
+  ![Figura Unreal Engine - Menu contexto Animation > Animation Blueprint.](../imagens/animacao/unreal_engine_animation_animation_blueprint.webp "Figura Unreal Engine - Menu contexto Animation > Animation Blueprint.")  
 
   > Figura Unreal Engine - Menu contexto Animation > Animation Blueprint.
 
 1. A aba `MyBlueprint` apresenta a organização do editor.
 
-  ![Figura: Unreal Engine - Editor Animmation Blueprint MyBlueprint.](imagens/animacao/unreal_engine_animation_editor_graph.webp "Figura: Unreal Engine - Editor Animmation Blueprint MyBlueprint.")
+  ![Figura: Unreal Engine - Editor Animmation Blueprint MyBlueprint.](../imagens/animacao/unreal_engine_animation_editor_graph.webp "Figura: Unreal Engine - Editor Animmation Blueprint MyBlueprint.")
 
   > Figura: Unreal Engine - Editor Animmation Blueprint MyBlueprint.  
 
@@ -41,13 +41,13 @@ O nó `Output Pose` é o estado ou pose final da animação. A seguir vamos cria
 
 1. No editor Animation Graphs crie um `State` com `Add new state`;
 
-  ![Figura: Unreal Engine - Animation graphs Output Pose.](imagens/animacao/unreal_engine_human_state_base.webp "Figura: Unreal Engine - Animation graphs Output Pose.")
+  ![Figura: Unreal Engine - Animation graphs Output Pose.](../imagens/animacao/unreal_engine_human_state_base.webp "Figura: Unreal Engine - Animation graphs Output Pose.")
 
   > Figura: Unreal Engine - Animation graphs Output Pose.
 
 2. Dentro do nó criado adicionaremos um novo estado com `Add State` com o nome `Idle/Walk/Run`.
 
-  ![Figura: Unreal Engine - Add State Idle/Walk/Run.](imagens/animacao/unreal_engine_human_blendspace_1d_state.webp "Figura: Unreal Engine - Add State Idle/Walk/Run.")
+  ![Figura: Unreal Engine - Add State Idle/Walk/Run.](../imagens/animacao/unreal_engine_human_blendspace_1d_state.webp "Figura: Unreal Engine - Add State Idle/Walk/Run.")
 
   > Figura: Unreal Engine - Add State Idle/Walk/Run.
 
@@ -57,7 +57,7 @@ Para exemplificar vamos apresentar os dois métodos de Blend Space com o persona
 
 No gráfico de eventos ou EventGraph vamos adicionar o seguinte código.
 
-![Figura: Unreal Engine - Animation Bluerint -Speeed e Direction.](imagens/animacao/unreal_engine_blueprint_direction_speed.webp "Figura: Unreal Engine - Animation Bluerint -Speeed e Direction.")
+![Figura: Unreal Engine - Animation Bluerint -Speeed e Direction.](../imagens/animacao/unreal_engine_blueprint_direction_speed.webp "Figura: Unreal Engine - Animation Bluerint -Speeed e Direction.")
 
 > Figura: Unreal Engine - Animation Bluerint -Speeed e Direction.
 
@@ -65,7 +65,7 @@ No gráfico de eventos ou EventGraph vamos adicionar o seguinte código.
 
 Criado anteriormente, BS_Human1D recebe como parâmetro `Speed` dentro do nó `Idle/Walk/Run`.
 
-![Figura: Unreal Engine - Blend Space 1D dentro do State.](imagens/animacao/unreal_engine_human_blendspace_1d_animation.webp "Figura: Unreal Engine - Blend Space 1D dentro do State.")
+![Figura: Unreal Engine - Blend Space 1D dentro do State.](../imagens/animacao/unreal_engine_human_blendspace_1d_animation.webp "Figura: Unreal Engine - Blend Space 1D dentro do State.")
 
 > Figura: Unreal Engine - Blend Space 1D dentro do State.
 
@@ -73,7 +73,7 @@ Criado anteriormente, BS_Human1D recebe como parâmetro `Speed` dentro do nó `I
 
 Nó `Idle/Walk/Run` adicionamos BS_Human que recebe como parâmetro `Speed` e `Direction` pois trabalha com duas coordenadas.
 
-![Figura: Unreal Engine - Blend Space 1D dentro do State.](imagens/animacao/unreal_engine_human_blendspace_state.webp "Figura: Unreal Engine - Blend Space 1D dentro do State.")
+![Figura: Unreal Engine - Blend Space 1D dentro do State.](../imagens/animacao/unreal_engine_human_blendspace_state.webp "Figura: Unreal Engine - Blend Space 1D dentro do State.")
 
 > Figura: Unreal Engine - Blend Space 1D dentro do State.
 
@@ -83,13 +83,13 @@ Para os passos posteriores vamos utilizar o BS_Human (Blend Space).
 
 Para simular o salto do personagem vamos adicionar os seguintes estados e em seguida fazer as suas conexões.
 
-![Figura: Unreal Engine - Animação de salto : State Jump.](imagens/animacao/unreal_engine_animation_state_jump.webp "Figura: Unreal Engine - Animação de salto : State Jump.")
+![Figura: Unreal Engine - Animação de salto : State Jump.](../imagens/animacao/unreal_engine_animation_state_jump.webp "Figura: Unreal Engine - Animação de salto : State Jump.")
 
 > Figura: Unreal Engine - Animação de salto : State Jump.
 
 Em `Jump_Start` adicionamos a animação `S_Human_Jump_Start` iniciando a animação de salto.
 
-![Figura: State Jump Start](imagens/animacao/unreal_engine_animation_state_jump_start.webp)
+![Figura: State Jump Start](../imagens/animacao/unreal_engine_animation_state_jump_start.webp)
 
 > Figura: State Jump Start*
 
@@ -101,31 +101,31 @@ Repetimos a operação para os outros estados adicionando as animações :
 
 N condição de controle de fluxo entre `Idle/Walk/Run` e `Jump_Start` vamos utilizar a variável `InAir` e testar se o valor é `True`.
 
-![Figura: Unreal Engine - Animação de personagem permanecendo no ar, State Jump Start InAir.](imagens/animacao/unreal_engine_animation_state_jump_start_inair.webp "Figura: Unreal Engine - Animação de personagem permanecendo no ar, State Jump Start InAir.")
+![Figura: Unreal Engine - Animação de personagem permanecendo no ar, State Jump Start InAir.](../imagens/animacao/unreal_engine_animation_state_jump_start_inair.webp "Figura: Unreal Engine - Animação de personagem permanecendo no ar, State Jump Start InAir.")
 
 > Figura: Unreal Engine - Animação de personagem permanecendo no ar, State Jump Start InAir.
 
 Na condição de controle de fluxo entre `Jump_End` e `Idle/Walk/Run` vamos utilizar a variável `InAir` e testar se o valor não é `True`.
 
-![Figura: Unreal Engine - Inicio da animação - State Jump Start Not InAir.](imagens/animacao/unreal_engine_animation_state_jump_start_not_inair.webp "Figura: Unreal Engine - Inicio da animação - State Jump Start Not InAir.")
+![Figura: Unreal Engine - Inicio da animação - State Jump Start Not InAir.](../imagens/animacao/unreal_engine_animation_state_jump_start_not_inair.webp "Figura: Unreal Engine - Inicio da animação - State Jump Start Not InAir.")
 
 > Figura: Unreal Engine - Inicio da animação - State Jump Start Not InAir.
 
 Na condição de controle de fluxo entre `Jump_Start` e `Jump_Loop` vamos utilizar a função `Current Time (Ratio) (S_Jump_Start)`. Esta função retorna a proporção de tempo atual da sequência e se o valor for menor 0.1 ou 10% de tempo para acabar deve ser feito a transição para outro nó.
 
-![Figura: Unreal Engine - Animação e Current Time - State Condition Current Time (Ratio).](imagens/animacao/unreal_engine_animation_state_jump_start_end_time.webp "Figura: Unreal Engine - Animação e Current Time - State Condition Current Time (Ratio)." )
+![Figura: Unreal Engine - Animação e Current Time - State Condition Current Time (Ratio).](../imagens/animacao/unreal_engine_animation_state_jump_start_end_time.webp "Figura: Unreal Engine - Animação e Current Time - State Condition Current Time (Ratio)." )
 
 > Figura: Unreal Engine - Animação e Current Time - State Condition Current Time (Ratio).
 
 Na condição de controle de fluxo entre `Jump_End` e `Idle/Walk/Run` vamos utilizar a função `Current Time (Ratio) (S_Jump_End)` com a mesma lógica do nó descrito anteriormente.
 
-![Figura: Unreal Engine - Animação de final do salto - State Condition Current Time (Ratio) Jump End.](imagens/animacao/unreal_engine_animation_state_jump_end_time.webp "Figura: Unreal Engine - Animação de final do salto - State Condition Current Time (Ratio) Jump End.")
+![Figura: Unreal Engine - Animação de final do salto - State Condition Current Time (Ratio) Jump End.](../imagens/animacao/unreal_engine_animation_state_jump_end_time.webp "Figura: Unreal Engine - Animação de final do salto - State Condition Current Time (Ratio) Jump End.")
 
 > Figura: Unreal Engine - Animação de final do salto - State Condition Current Time (Ratio) Jump End.
 
 Devemos considerar que o salto depende se o personagem esta em queda e se a função `Jump` foi acionado na lógica da classe do personagem, neste casso `BP_Human`.
 
-![Figura: Unreal Engine - Exemplo da Classe BP e a Função Jump.](imagens/animacao/unreal_engine_blueprint_jump.webp "Figura: Unreal Engine - Exemplo da Classe BP e a Função Jump.")
+![Figura: Unreal Engine - Exemplo da Classe BP e a Função Jump.](../imagens/animacao/unreal_engine_blueprint_jump.webp "Figura: Unreal Engine - Exemplo da Classe BP e a Função Jump.")
 
 > Figura: Unreal Engine - Exemplo da Classe BP e a Função Jump.
 
@@ -137,7 +137,7 @@ Devemos considerar que o salto depende se o personagem esta em queda e se a fun�
 
 1. Arrastre o elemento BS_Mutant para `AnimGraph`.
 
-  ![Figura: Unreal Egnine - Animação do mutante - AnimGraph BS_Mutant.](imagens/animacao/unreal_engine_animations_bs_mutant_graph.webp "Figura: Unreal Egnine - Animação do mutante - AnimGraph BS_Mutant.")
+  ![Figura: Unreal Egnine - Animação do mutante - AnimGraph BS_Mutant.](../imagens/animacao/unreal_engine_animations_bs_mutant_graph.webp "Figura: Unreal Egnine - Animação do mutante - AnimGraph BS_Mutant.")
 
   > Figura: Unreal Egnine - Animação do mutante - AnimGraph BS_Mutant.
 
@@ -151,7 +151,7 @@ Devemos considerar que o salto depende se o personagem esta em queda e se a fun�
 
 Em este passo iremos implementar a corrida do personagem. Vamos configura o evento `Left Shift` para alterar a propriedade `Max Walk Speed` do componente `CharacterMomement` com os valores 220 para velocidade máxima e 110 para caminhada.
 
-![ Figura: Unreal Engine - Implementando a corrida do mutante - Bluerint running.](imagens/animacao/unreal_engine_animation_blueprint_running.webp " Figura: Unreal Engine - Implementando a corrida do mutante - Bluerint running.")
+![ Figura: Unreal Engine - Implementando a corrida do mutante - Bluerint running.](../imagens/animacao/unreal_engine_animation_blueprint_running.webp " Figura: Unreal Engine - Implementando a corrida do mutante - Bluerint running.")
 
 > Figura: Unreal Engine - Implementando a corrida do mutante - Bluerint running.
 
@@ -169,7 +169,7 @@ Em este passo utilizaremos o `Animation Montage` para montar as animações de a
 
 1. Menu de contexto `Animation` > `Animation Montage`;
 
-  ![Figura: Unreal Engine - Animation Montage para o ataque.](imagens/animacao/unreal_engine_animation_montage.webp "Figura: Unreal Engine - Animation Montage para o ataque.")
+  ![Figura: Unreal Engine - Animation Montage para o ataque.](../imagens/animacao/unreal_engine_animation_montage.webp "Figura: Unreal Engine - Animation Montage para o ataque.")
 
   > Figura: Unreal Engine - Animation Montage para o ataque.
 
@@ -181,7 +181,7 @@ Em este passo utilizaremos o `Animation Montage` para montar as animações de a
 
 1. Selecione o novo slot em `Montage > DefaultGroup.Attack` e salve toda animação.
 
-  ![Figura: Unreal Engine - Animation Montage para o ataque 2.](imagens/animacao/unreal_engine_animation_montage_attack.webp "Figura: Unreal Engine - Animation Montage para o ataque 2.")
+  ![Figura: Unreal Engine - Animation Montage para o ataque 2.](../imagens/animacao/unreal_engine_animation_montage_attack.webp "Figura: Unreal Engine - Animation Montage para o ataque 2.")
 
   > Figura: Unreal Engine - Animation Montage para o ataque 2.
 
@@ -207,13 +207,13 @@ Este estado dever conter a animação criadas anteriormente com o Blend space 1D
 
 1. Vamos adicionar um novo estado `Add New State Machine` com nome *BasicLocomotion*;
 1. Conectamos o nó em `Output Pose` substituindo os estados anteriores se existirem;  
-  ![Figura: Unreal Engine - AnimGraph BasicLocomotion.](imagens/animacao/unreal_engine_animgraph_basiclocomotion.webp "Figura: Unreal Engine - AnimGraph BasicLocomotion.")
+  ![Figura: Unreal Engine - AnimGraph BasicLocomotion.](../imagens/animacao/unreal_engine_animgraph_basiclocomotion.webp "Figura: Unreal Engine - AnimGraph BasicLocomotion.")
 
   > Figura: Unreal Engine - AnimGraph BasicLocomotion.
 
 1. Arrastamos e colamos BS_Mutant para a `AnimGraph` e renomeamos o nó para `Idle/Walk/Run` pois ele contem essas animações;
 
-  ![Figura: Unreal Engine - AnimGraph Idle/Walk/Run - Animação para andar, correr e parado.](imagens/animacao/unreal_engine_animgraph_idle_walk_run.webp "Figura: Unreal Engine - AnimGraph Idle/Walk/Run - Animação para andar, correr e parado.")
+  ![Figura: Unreal Engine - AnimGraph Idle/Walk/Run - Animação para andar, correr e parado.](../imagens/animacao/unreal_engine_animgraph_idle_walk_run.webp "Figura: Unreal Engine - AnimGraph Idle/Walk/Run - Animação para andar, correr e parado.")
 
   > Figura: Unreal Engine - AnimGraph Idle/Walk/Run - Animação para andar, correr e parado.
 
@@ -221,7 +221,7 @@ Este estado dever conter a animação criadas anteriormente com o Blend space 1D
 
 Em este estado passamos como parâmetro a variável `Speed` para animação BS_Mutant;
 
-![Figura: Unreal Engine - Animação para corrida, AnimGraph Speed.](imagens/animacao/unreal_engine_animgraph_speed.webp "Figura: Unreal Engine - Animação para corrida, AnimGraph Speed.")
+![Figura: Unreal Engine - Animação para corrida, AnimGraph Speed.](../imagens/animacao/unreal_engine_animgraph_speed.webp "Figura: Unreal Engine - Animação para corrida, AnimGraph Speed.")
 
 > Figura: Unreal Engine - Animação para corrida, AnimGraph Speed.
 
@@ -229,7 +229,7 @@ Em este estado passamos como parâmetro a variável `Speed` para animação BS_M
 
 Neste passo vamos implementar a animação de ataque com soco de direita e esquerda.
 
-![Figura: Unreal Engine - Animação de ataque com AnimaGraph Attack.](imagens/animacao/unreal_engine_animgraph_attack.webp "Figura: Unreal Engine - Animação de ataque com AnimaGraph Attack." )
+![Figura: Unreal Engine - Animação de ataque com AnimaGraph Attack.](../imagens/animacao/unreal_engine_animgraph_attack.webp "Figura: Unreal Engine - Animação de ataque com AnimaGraph Attack." )
 
 > Figura: Unreal Engine - Animação de ataque com AnimaGraph Attack.
 
@@ -245,7 +245,7 @@ Agora vamos implementar a lógica para chamar as animações quando forem pressi
 
 1. No objeto BP_Mutant adicione os eventos de chamada de função e associe a função `Play Anim Montage`.
 
-![Figura: Unreal Engine - Blueprint para chamar a animação de ataque](imagens/animacao/unreal_engine_animations_blueprint_attack.webp "Figura: Unreal Engine - Blueprint para chamar a animação de ataque.")
+![Figura: Unreal Engine - Blueprint para chamar a animação de ataque](../imagens/animacao/unreal_engine_animations_blueprint_attack.webp "Figura: Unreal Engine - Blueprint para chamar a animação de ataque.")
 
 > Figura: Unreal Engine - Blueprint para chamar a animação de ataque.
 
@@ -263,7 +263,7 @@ Em este passo iremos continuar com a programação `AnimGraph` para fazer o pers
 
 Podemos misturar várias animações no nó de estado e utilizar um osso (bone) como referência, no exemplo abaixo misturamos a animação básica `LocoCache`com `AttackingCache` adicionando o osso `Spine`.
 
-![Figura: Unreal Engine - Animação - Layerd Blend per bone.](imagens/animacao/unreal_engine_animgraph_attack_simple.webp "Figura: Unreal Engine - Animação - Layerd Blend per bone.")
+![Figura: Unreal Engine - Animação - Layerd Blend per bone.](../imagens/animacao/unreal_engine_animgraph_attack_simple.webp "Figura: Unreal Engine - Animação - Layerd Blend per bone.")
 
 > Figura: Unreal Engine - Animação - Layerd Blend per bone.
 
@@ -275,13 +275,13 @@ Neste passo vamos misturar as animações condicionando a uma variável para que
 
 Podemos condicionar a mistura de animações utilizando valores condicionais *boolean*.
 
-![Figura: Unreal Engine - Animação - Layerd Blend by bool.](imagens/animacao/unreal_engine_animgraph_blend_by_bool.webp "Figura: Unreal Engine - Animação - Layerd Blend by bool.")
+![Figura: Unreal Engine - Animação - Layerd Blend by bool.](../imagens/animacao/unreal_engine_animgraph_blend_by_bool.webp "Figura: Unreal Engine - Animação - Layerd Blend by bool.")
 
 > Figura: Unreal Engine - Animação - Layerd Blend by bool.
 
 No `Event Graph` de `ABP_Mutant` adicionamos a lógica para verificar se o personagem esta me movimentando testando a variável `Speed`.
 
-![Figura: Unreal Engine - Animação - Layerd Blend by bool e definindo uma variável de controle Moving.](imagens/animacao/unreal_engine_blueprint_animation_moving.webp "Figura: Unreal Engine - Animação - Layerd Blend by bool e definindo uma variável de controle Moving." )
+![Figura: Unreal Engine - Animação - Layerd Blend by bool e definindo uma variável de controle Moving.](../imagens/animacao/unreal_engine_blueprint_animation_moving.webp "Figura: Unreal Engine - Animação - Layerd Blend by bool e definindo uma variável de controle Moving." )
 
 > Figura: Unreal Engine - Animação - Layerd Blend by bool e definindo uma variável de controle Moving.
 

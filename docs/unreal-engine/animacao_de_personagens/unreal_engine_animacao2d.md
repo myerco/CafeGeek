@@ -5,7 +5,7 @@ tags: [Unreal Engine, Animação 2D,Paper 2D]
 layout: page
 ---
 
-![Figura: Project Paper2D](imagens/animacao/unreal_engine_paper2d_project.webp)
+![Figura: Project Paper2D](../imagens/animacao/unreal_engine_paper2d_project.webp)
 
 ## O que é Animação 2D?
 Animação em duas dimensões é uma técnica que utiliza sequenciamento de imagens estáticas.
@@ -32,7 +32,7 @@ O **Paper 2D** é baseado em um conjunto de elementos que são :
 
 Antes de iniciar o trabalho devemos habilitar o plugin `Paper2D` em menu `Edit` > `Plugins`.
 
-![Figura: Unreal Engine - Animação 2d - habilitando o Plugin Paper2D (Enabled).](imagens/animacao/unreal_engine_paper2d_plugin.webp "Figura: Unreal Engine - Animação 2d - habilitando o Plugin Paper2D (Enabled).")
+![Figura: Unreal Engine - Animação 2d - habilitando o Plugin Paper2D (Enabled).](../imagens/animacao/unreal_engine_paper2d_plugin.webp "Figura: Unreal Engine - Animação 2d - habilitando o Plugin Paper2D (Enabled).")
 
 > Figura: Unreal Engine - Animação 2d - habilitando o Plugin Paper2D (Enabled).
 
@@ -42,7 +42,7 @@ Podemos organizar os elementos que são apresentados na cena predefinindo coorde
 
 1. No menu `Edit` > `Project Settings` navegue até `2D` para adicionar camadas/*Layers* e coordenadas de profundidade ao `ViewPort`.
 
-  ![Figura: Unreal Engine - Animação 2D - Project Settings 2D.](imagens/animacao/unreal_engine_paper2d_project_settings.webp "Figura: Unreal Engine - Animação 2D - Project Settings 2D.")
+  ![Figura: Unreal Engine - Animação 2D - Project Settings 2D.](../imagens/animacao/unreal_engine_paper2d_project_settings.webp "Figura: Unreal Engine - Animação 2D - Project Settings 2D.")
 
   > Figura: Unreal Engine - Animação 2D - Project Settings 2D.
 
@@ -54,7 +54,7 @@ Podemos organizar os elementos que são apresentados na cena predefinindo coorde
 
 1. Após a configuração no `ViewPort` devem aparecer as opções para organizar os objetos na cena.
 
-  ![Figura: Unreal Engine - Animação 2D - ViewPort Snap.](imagens/animacao/unreal_engine_paper2d_viewport.webp "Figura: Unreal Engine - Animação 2D - ViewPort Snap.")
+  ![Figura: Unreal Engine - Animação 2D - ViewPort Snap.](../imagens/animacao/unreal_engine_paper2d_viewport.webp "Figura: Unreal Engine - Animação 2D - ViewPort Snap.")
 
   > Figura: Unreal Engine - Animação 2D - ViewPort Snap.
 
@@ -68,7 +68,7 @@ Podemos organizar os elementos que são apresentados na cena predefinindo coorde
 
 1. Para melhorar a visualização do cenário podemos configurar a visualização do `ViewPort` para **Right** a fim de controlar somente os eixos Z e X.
 
-  ![Figura: Unreal Engine - Animação 2D - ViewPort Rigth Z,X.](imagens/animacao/unreal_engine_paper2d_viewport_xx.webp "Figura: Unreal Engine - Animação 2D - ViewPort Rigth Z,X.")
+  ![Figura: Unreal Engine - Animação 2D - ViewPort Rigth Z,X.](../imagens/animacao/unreal_engine_paper2d_viewport_xx.webp "Figura: Unreal Engine - Animação 2D - ViewPort Rigth Z,X.")
 
   > Figura: Unreal Engine - Animação 2D - ViewPort Rigth Z,X.
 
@@ -81,7 +81,7 @@ Um Sprite em papel 2D é uma malha plana com mapeamento de textura e material as
 A fim de otimizar a renderização das texturas aplicamos os seguintes parâmetros para cada objeto:
 
 1. Parâmetros da textura.
-  ![Figura: Unreal Engine - Animação 2D, preparando a textura - Details Texture parameteres 2D.](imagens/animacao/unreal_engine_paper2d_details_texture_2d.webp "Figura: Unreal Engine - Animação 2D, preparando a textura - Details Texture parameteres 2D.")
+  ![Figura: Unreal Engine - Animação 2D, preparando a textura - Details Texture parameteres 2D.](../imagens/animacao/unreal_engine_paper2d_details_texture_2d.webp "Figura: Unreal Engine - Animação 2D, preparando a textura - Details Texture parameteres 2D.")
 
     > Figura: Unreal Engine - Animação 2D, preparando a textura - Details Texture parameteres 2D.
 
@@ -93,7 +93,7 @@ A fim de otimizar a renderização das texturas aplicamos os seguintes parâmetr
 
 1. Podemos aplicar automaticamente para uma ou várias texturas selecionadas usamos o menu de contexto `Sprite Actions` > `Apply Paper2D Texture Settings`.
 
-  ![Figura: Unreal Engine - Animação 2D - Apply Papper2D Texture Settings.](imagens/animacao/unreal_engine_paper2d_apply_texture_settings.webp "Figura: Unreal Engine - Animação 2D - Apply Papper2D Texture Settings.")
+  ![Figura: Unreal Engine - Animação 2D - Apply Papper2D Texture Settings.](../imagens/animacao/unreal_engine_paper2d_apply_texture_settings.webp "Figura: Unreal Engine - Animação 2D - Apply Papper2D Texture Settings.")
 
   > Figura: Unreal Engine - Animação 2D - Apply Papper2D Texture Settings.
 
@@ -141,7 +141,7 @@ Com `Tile Sets` podemos criar uma 'Paleta' de *sprites* para ser usadas no `Tile
 
 1. Para adicionar colisão nos elementos:
 
-  ![Figura: Unreal Engine - Animação 2D - colisão de objetos usando Tile Set Collision.](imagens/animacao/unreal_engine_paper2d_tileset_colision.webp "Figura: Unreal Engine - Animação 2D - colisão de objetos usando Tile Set Collision.")
+  ![Figura: Unreal Engine - Animação 2D - colisão de objetos usando Tile Set Collision.](../imagens/animacao/unreal_engine_paper2d_tileset_colision.webp "Figura: Unreal Engine - Animação 2D - colisão de objetos usando Tile Set Collision.")
 
   > Figura: Unreal Engine - Animação 2D - colisão de objetos usando Tile Set Collision.
 
@@ -179,7 +179,7 @@ Para implementar uma animação de corrida:
 
 3. Exclua ou movimente os elementos para melhorar a animação;
 
-![Figura: Unreal Engine - Animação 2d com animação de corrida usando Flipbook Animation Run](imagens/animacao/unreal_engine_paper2d_flipbook.webp "Figura: Unreal Engine - Animação 2d com animação de corrida usando Flipbook Animation Run")
+![Figura: Unreal Engine - Animação 2d com animação de corrida usando Flipbook Animation Run](../imagens/animacao/unreal_engine_paper2d_flipbook.webp "Figura: Unreal Engine - Animação 2d com animação de corrida usando Flipbook Animation Run")
 
 > Figura: Unreal Engine - Animação 2d com animação de corrida usando Flipbook Animation Run.
 
@@ -187,7 +187,7 @@ Para implementar uma animação de corrida:
 
 Neste passo vamos adicionar um personagem do tipo `Paper Character` para ser o player principal do projeto.
 
-![Figura: Unreal Engine - Animação 2d - Personagem da Blueprint class PaperCharacter para 2D.](imagens/animacao/unreal_engine_paper_character.webp "Figura: Unreal Engine - Animação 2d - Personagem da Blueprint class PaperCharacter para 2D.")
+![Figura: Unreal Engine - Animação 2d - Personagem da Blueprint class PaperCharacter para 2D.](../imagens/animacao/unreal_engine_paper_character.webp "Figura: Unreal Engine - Animação 2d - Personagem da Blueprint class PaperCharacter para 2D.")
 
 > Figura: Unreal Engine - Animação 2d - Personagem da Blueprint class PaperCharacter para 2D.
 
@@ -237,7 +237,7 @@ Neste passo vamos implementar a animação do personagem e definir um objeto de 
 
 1. Vamos criar uma variável `Enumeration` para controlar o estado da animação:
 
-  ![Figura: Unreal Engine - Animação 2D implementando um Enumeration para os estados do personagem - Blueprint class PaperCharacter.](imagens/animacao/unreal_engine_paper2d_enum_state.webp "Figura: Unreal Engine - Animação 2D implementando um Enumeration para os estados do personagem - Blueprint class PaperCharacter.")
+  ![Figura: Unreal Engine - Animação 2D implementando um Enumeration para os estados do personagem - Blueprint class PaperCharacter.](../imagens/animacao/unreal_engine_paper2d_enum_state.webp "Figura: Unreal Engine - Animação 2D implementando um Enumeration para os estados do personagem - Blueprint class PaperCharacter.")
 
     > Figura: Unreal Engine - Animação 2D implementando um Enumeration para os estados do personagem - Blueprint class PaperCharacter.
 
@@ -249,7 +249,7 @@ Neste passo vamos implementar a animação do personagem e definir um objeto de 
 
 1. No personagem definimos as seguintes variáveis:
 
-  ![Figura: Unreal Engine - Animação 2D - Character Varáveis.](imagens/animacao/unreal_engine_paper2d_character_variables.webp "Figura: Unreal Engine - Animação 2D - Character Varáveis.")
+  ![Figura: Unreal Engine - Animação 2D - Character Varáveis.](../imagens/animacao/unreal_engine_paper2d_character_variables.webp "Figura: Unreal Engine - Animação 2D - Character Varáveis.")
 
   > Figura: Unreal Engine - Animação 2D - Character Varáveis.
 
@@ -265,19 +265,19 @@ Neste passo vamos implementar a animação do personagem e definir um objeto de 
 
 1. Vamos utilizar o evento `MoveRight` para adicionar movimento travando a coordenada X em 1;
 
-  ![Figura: Unreal Engine - Animação 2D - lógica Blueprint do movimento do personagem - Movement MoveRight.](imagens/animacao/unreal_engine_paper2d_movement.webp "Figura: Unreal Engine - Animação 2D - lógica Blueprint do movimento do personagem - Movement MoveRight.")
+  ![Figura: Unreal Engine - Animação 2D - lógica Blueprint do movimento do personagem - Movement MoveRight.](../imagens/animacao/unreal_engine_paper2d_movement.webp "Figura: Unreal Engine - Animação 2D - lógica Blueprint do movimento do personagem - Movement MoveRight.")
 
   > Figura: Unreal Engine - Animação 2D - lógica Blueprint do movimento do personagem - Movement MoveRight.
 
 1. Vamos implementar um novo evento `UpdateAnimation` para inicializar variáveis, chamar uma função `Animation State Machine` que iremos implementar;
 
-  ![Figura: Unreal Engine - Animação 2D - Evento de atualização do movimento - Event UpdateAnimation.](imagens/animacao/unreal_engine_paper2d_event_movement.webp "Figura: Unreal Engine - Animação 2D - Evento de atualização do movimento - Event UpdateAnimation.")  
+  ![Figura: Unreal Engine - Animação 2D - Evento de atualização do movimento - Event UpdateAnimation.](../imagens/animacao/unreal_engine_paper2d_event_movement.webp "Figura: Unreal Engine - Animação 2D - Evento de atualização do movimento - Event UpdateAnimation.")  
 
   > Figura: Unreal Engine - Animação 2D - Evento de atualização do movimento - Event UpdateAnimation.
 
 1. A lógica da função `Animation State Machine`;
 
-  ![Figura: Unreal Engine - Animação 2D, lógica Blueprint dos estados do personagem - Function State Machine.](imagens/animacao/unreal_engine_paper2d_function_state_machine.webp "Figura: Unreal Engine - Animação 2D, lógica Blueprint dos estados do personagem - Function State Machine.")
+  ![Figura: Unreal Engine - Animação 2D, lógica Blueprint dos estados do personagem - Function State Machine.](../imagens/animacao/unreal_engine_paper2d_function_state_machine.webp "Figura: Unreal Engine - Animação 2D, lógica Blueprint dos estados do personagem - Function State Machine.")
 
  > Figura: Unreal Engine - Animação 2D, lógica Blueprint dos estados do personagem - Function State Machine.
 
@@ -300,26 +300,26 @@ Neste passo vamos implementar um canhão que localiza e atira no player.
     - `PointBullet` - Tipo  `Scene` para ser utilizada como ponto inicial das balas;
 
 1. Inicialização de variáveis;
-  ![Figura: Unreal Engine - Animação 2D - BeginPlay inicializando variáveis.](imagens/animacao/unreal_engine_paper2d_cannon_begin_init.webp "Figura: Unreal Engine - Animação 2D - BeginPlay inicializando variáveis.")
+  ![Figura: Unreal Engine - Animação 2D - BeginPlay inicializando variáveis.](../imagens/animacao/unreal_engine_paper2d_cannon_begin_init.webp "Figura: Unreal Engine - Animação 2D - BeginPlay inicializando variáveis.")
 
     > Figura: Unreal Engine - Animação 2D - BeginPlay inicializando variáveis.
 
 1. Lógica para localizar o personagem e movimentar o canhão na direção do player;
-  ![Figura: Unreal Engine - Animação 2D - função para apontar o canhão no personagem - Function Find Look.](imagens/animacao/unreal_engine_paper2d_cannon_find_look.webp "Figura: Unreal Engine - Animação 2D - função para apontar o canhão no personagem - Function Find Look.")
+  ![Figura: Unreal Engine - Animação 2D - função para apontar o canhão no personagem - Function Find Look.](../imagens/animacao/unreal_engine_paper2d_cannon_find_look.webp "Figura: Unreal Engine - Animação 2D - função para apontar o canhão no personagem - Function Find Look.")
 
   > Figura: Unreal Engine - Animação 2D - função para apontar o canhão no personagem - Function Find Look.
 
 1. Lógica para disparar as balas `PB_FireBullet`;
-  ![Figura: Unreal Engine - Animação 2D- Lógica Blueprint para disparar o canhão - Function Impulse para disparar as balas.](imagens/animacao/unreal_engine_paper2d_cannon_fire_bullet.webp "Figura: Unreal Engine - Animação 2D- Lógica Blueprint para disparar o canhão - Function Impulse para disparar as balas.")
+  ![Figura: Unreal Engine - Animação 2D- Lógica Blueprint para disparar o canhão - Function Impulse para disparar as balas.](../imagens/animacao/unreal_engine_paper2d_cannon_fire_bullet.webp "Figura: Unreal Engine - Animação 2D- Lógica Blueprint para disparar o canhão - Function Impulse para disparar as balas.")
 
   > Figura: Unreal Engine - Animação 2D- Lógica Blueprint para disparar o canhão - Function Impulse para disparar as balas.
 
 1. Quanto o player colide com a área de detecção do canhão as variáveis **Look** e **Fire** são atualizadas para `True`, informando que o player foi detectado e o canhão pode disparar. Devemos adicionar uma `tag` no player para facilitar o seu reconhecimento;
-  ![Figura: Unreal Engine - Animação 2D - Lógica Blueprint detectar o personagem - BeginOverLap e Player.](imagens/animacao/unreal_engine_paper2d_cannon_player_in.webp "Figura: Unreal Engine - Animação 2D - Lógica Blueprint detectar o personagem - BeginOverLap e Player.")
+  ![Figura: Unreal Engine - Animação 2D - Lógica Blueprint detectar o personagem - BeginOverLap e Player.](../imagens/animacao/unreal_engine_paper2d_cannon_player_in.webp "Figura: Unreal Engine - Animação 2D - Lógica Blueprint detectar o personagem - BeginOverLap e Player.")
 
   > Figura: Unreal Engine - Animação 2D - Lógica Blueprint detectar o personagem - BeginOverLap e Player.
 
 1. Quando o player sai da área de detecção as variáveis de controle são atualizadas para `false`;
-  ![Figura: Unreal Engine - Animação 2D - Lógica Bluerint para interromper o ataque e a visualização - EndOverLap e Player.](imagens/animacao/unreal_engine_paper2d_cannon_player_out.webp "Figura: Unreal Engine - Animação 2D - Lógica Bluerint para interromper o ataque e a visualização - EndOverLap e Player.")
+  ![Figura: Unreal Engine - Animação 2D - Lógica Bluerint para interromper o ataque e a visualização - EndOverLap e Player.](../imagens/animacao/unreal_engine_paper2d_cannon_player_out.webp "Figura: Unreal Engine - Animação 2D - Lógica Bluerint para interromper o ataque e a visualização - EndOverLap e Player.")
 
   > Figura: Unreal Engine - Animação 2D - Lógica Bluerint para interromper o ataque e a visualização - EndOverLap e Player.
