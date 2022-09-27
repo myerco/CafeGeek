@@ -14,9 +14,11 @@ date: 2022-09-26
 
 Podemos entender a Modelagem 3D como a criação de objetos sólidos através da representação matemática de uma superfície ou de um objeto volumétrico, vivo ou inanimado. É a criação do modelo de um objeto tridimensional através de um software de processamento 3D.
 
-![Cabeça low poly de um modelo 3D (fonte: TurboSquid)](https://ecdd.infnet.edu.br/wp-content/uploads/sites/7/2021/04/modelo-3d-lowpoly-1024x576.jpg "Figura: Cabeça low poly de um modelo 3D (fonte: TurboSquid).")
-
-> Figura: Cabeça low poly de um modelo 3D (fonte: TurboSquid).
+{% include image.html
+    src="https://ecdd.infnet.edu.br/wp-content/uploads/sites/7/2021/04/modelo-3d-lowpoly-1024x576.jpg"
+    alt="Figura: Cabeça low poly de um modelo 3D (fonte: TurboSquid)"
+    caption="Figura: Cabeça low poly de um modelo 3D (fonte: TurboSquid)"
+%}
 
 Podemos aplicar em várias áreas como por exemplo:
 
@@ -40,21 +42,27 @@ Podemos aplicar em várias áreas como por exemplo:
 
 **Conceito** - *Concept art* ou arte conceitual;
 
-![Figura: Arte conceitual (Artstation)](https://cdnb.artstation.com/p/media_assets/images/images/000/649/263/large/sketch_viking_house.jpg?1600679970 "Figura: Arte conceitual (Artstation)")
-
-> Figura: Arte conceitual (Artstation)
+{% include image.html
+    src="https://cdnb.artstation.com/p/media_assets/images/images/000/649/263/large/sketch_viking_house.jpg?1600679970"
+    alt="Figura: Arte conceitual (Artstation)"
+    caption="Figura: Arte conceitual (Artstation)"
+%}
 
 **Modelagem** - Construção de modelos tridimensionais;
 
-![Figura: Modelo tridimensional Blue Wooden house - https://blenderartists](https://blenderartists.org/uploads/default/original/4X/f/d/0/fd0375c46a3df8b8fd489ab6a1d259b28ecb3ec4.jpeg "Figura: Modelo tridimensional Blue Wooden house - https://blenderartists")
-
-> Figura: Modelo tridimensional Blue Wooden house - <https://blenderartists>.
+{% include image.html
+    src="https://blenderartists.org/uploads/default/original/4X/f/d/0/fd0375c46a3df8b8fd489ab6a1d259b28ecb3ec4.jpeg"
+    alt="Figura: Modelo tridimensional Blue Wooden house - <https://blenderartists>"
+    caption="Figura: Modelo tridimensional Blue Wooden house - <https://blenderartists>"
+%}
 
 **Configuração de layout de cena** - Mapeamento, Iluminação e geração de câmeras;
 
-![Figura: Modelo tridimensional com Mapeamento e Iluminação Blue Wooden house - https://blenderartists](https://blenderartists.org/uploads/default/original/4X/5/5/9/559c984fb29dadab1ae2cab740d99e94bd371779.jpeg "Figura: Modelo tridimensional com Mapeamento e Iluminação Blue Wooden house - https://blenderartists")
-
-> Figura: Modelo tridimensional com Mapeamento e Iluminação Blue Wooden house - <https://blenderartists>.
+{% include image.html
+    src="https://blenderartists.org/uploads/default/original/4X/5/5/9/559c984fb29dadab1ae2cab740d99e94bd371779.jpeg"
+    alt="Figura: Modelo tridimensional com Mapeamento e Iluminação Blue Wooden house - <https://blenderartists>"
+    caption="Figura: Modelo tridimensional com Mapeamento e Iluminação Blue Wooden house - <https://blenderartists>"
+%}
 
 - **Geração de cenas** - Renderização e animação.
 

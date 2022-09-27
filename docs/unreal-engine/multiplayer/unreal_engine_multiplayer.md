@@ -154,7 +154,7 @@ Implementar os eventos para instanciar uma conexão.
 Conectar ao servidor utilizando IP.  
 
 {% include image.html
-    src=".../imagens/multiplayer/multiplayer10.webp"
+    src="../imagens/multiplayer/multiplayer10.webp"
     alt="Figura: Unreal Engine - Multiplayer, Lógica Blueprint para criar uma conexão no servidor remoto por IP."
     caption="Figura: Unreal Engine - Multiplayer, Lógica Blueprint para criar uma conexão no servidor remoto por IP."
 %}
@@ -240,7 +240,7 @@ O componente atachado também deverá ser replicado.
 Eventos de entrada de dados (INPUT).
 
 {% include image.html
-    src=".../imagens/multiplayer/multiplayer15.webp"
+    src="../imagens/multiplayer/multiplayer15.webp"
     alt="Figura: Unreal Engine - Multiplayer, Lógica Blueprint chamando a ação de segurar."
     caption="Figura: Unreal Engine - Multiplayer, Lógica Blueprint chamando a ação de segurar."
 %}
