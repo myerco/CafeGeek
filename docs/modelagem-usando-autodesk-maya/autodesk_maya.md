@@ -427,7 +427,7 @@ Suaviza a malha sem adicionar novos vértices.
 #### Visualizando a suavização
 
 {% include image.html
-    src="imagens/autodesk_maya/autodesk_maya_smooth_view.webp"
+    src="imagens/autodesk_maya_smooth_view.webp"
     alt="Figura: Visualizando a suavização"
     caption="Figura: Utilizando as teclas 1,2 e 3 podemos visualizar como o objeto deve ficar depois de usar Smooth."
 %}
