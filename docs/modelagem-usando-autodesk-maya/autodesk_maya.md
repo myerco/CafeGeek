@@ -1,5 +1,5 @@
 ---
-title: Modelagem usando Autodesk Maya
+title: Autodesk Maya
 description: Modelagem com Autodesk Maya
 keywords: [Autodesk Maya, modelagem 3d]
 tags: [Autodesk Maya, modelagem 3d]
@@ -198,15 +198,19 @@ Este menu Sombreamento é exibido acima da visualização da cena ou acima de ca
 
 Pressione a barra de espaço
 
-![Space bar](https://forums.autodesk.com/autodesk/attachments/autodesk/area-b201/85095/1/likethis.PNG "Space bar")
-
->Figura: Space bar.
+{% include image.html
+    src="https://forums.autodesk.com/autodesk/attachments/autodesk/area-b201/85095/1/likethis.PNG"
+    alt="Figura: Space bar."
+    caption="Figura: Space bar."
+%}
 
 ## Objetos Poligonais
 
-![Figura: Autodesk Maya objetos poligonais](https://i.ytimg.com/vi/7sR_Tux5u7M/maxresdefault.jpg "Figura: Autodesk Maya objetos poligonais")
-
->Figura: Autodesk Maya objetos poligonais.
+{% include image.html
+    src="https://i.ytimg.com/vi/7sR_Tux5u7M/maxresdefault.jpg"
+    alt="Figura: Autodesk Maya objetos poligonais."
+    caption="Figura: Autodesk Maya objetos poligonais."
+%}
 
 Uma malha poligonal é uma coleção de arestas, faces e pontos de conexão usados ​​para fornecer um modelo poligonal para modelagem 3D e animação por computador. Sua composição geométrica pode ser armazenada para facilitar vários tipos de simulação de renderizações tridimensionais [[DEFINERTEC](https://definirtec.com/malha-poligonal/)].
 
@@ -214,9 +218,11 @@ Uma malha poligonal é uma coleção de arestas, faces e pontos de conexão usad
 
 Selecione uma objeto e presssione LMB para acessar o menu de contexto.
 
-![Context Menu](https://simplymaya.com/forum/attachment.php?attachmentid=56228&stc=1&thumb=1&d=1540913195 "Context Menu")
-
->Figura: Context Menu.
+{% include image.html
+    src="https://simplymaya.com/forum/attachment.php?attachmentid=56228&stc=1&thumb=1&d=1540913195"
+    alt="Figura: Context Menu."
+    caption="Figura: Context Menu."
+%}
 
 Os componentes dos objetos poligonais são:
 
@@ -592,9 +598,11 @@ Para aumentar os vértices criados utilizamos : `Patches U` e `Patches V`.
 
 #### CV
 
-![CVs](https://download.autodesk.com/us/maya/2011help/images/MED/Sherlock/NURBS/comp_N19b.png "CVs")
-
->Figura: CVs
+{% include image.html
+    src="https://download.autodesk.com/us/maya/2011help/images/MED/Sherlock/NURBS/comp_N19b.png"
+    alt="Figura: CVs."
+    caption="Figura: CVs."
+%}
 
 Control Vertices, controlar como a curva é “puxada” de uma linha reta entre os pontos de edição. Eles são os meios mais básicos e importantes para controlar a forma de uma curva. Linhas entre CVs consecutivos formam o Hull de controle.
 
@@ -604,9 +612,11 @@ O Maya desenha CVs de forma diferente para permitir que você saiba a diferença
 
 #### Edit Points
 
-![Edit Points](https://download.autodesk.com/us/maya/2011help/images/MED/Sherlock/NURBS/comp_N20a.png "Edit Points")
-
->Figura: Edit Points.
+{% include image.html
+    src="https://download.autodesk.com/us/maya/2011help/images/MED/Sherlock/NURBS/comp_N20a.png"
+    alt="Edit Points."
+    caption="Figura: Edit Points."
+%}
 
 Você pode dizer quando uma curva é feita a partir de vários segmentos de várias maneiras. Uma é procurar pontos de edição na curva. Os pontos de edição marcam o ponto de conexão entre dois segmentos. O Maya desenha pontos de edição como pequenos Xs.
 
@@ -614,9 +624,11 @@ Ao contrário dos pontos de controle na curva das curvas de Bezier (usados em mu
 
 #### Hulls
 
-![Hulls](https://download.autodesk.com/us/maya/2011help/images/MED/Sherlock/NURBS/comp_N20b.png "Hulls")
-
->Figura: Hulls.
+{% include image.html
+    src="https://download.autodesk.com/us/maya/2011help/images/MED/Sherlock/NURBS/comp_N20b.png"
+    alt="Figura: Hulls."
+    caption="Figura: Hulls."
+%}
 
  À medida que uma curva obtém mais spans e pontos de edição, você pode perder o controle da ordem dos CVs. Para mostrar a relação entre os CVs, o Maya pode traçar linhas entre eles. Essas linhas são chamadas de Hulls.
 

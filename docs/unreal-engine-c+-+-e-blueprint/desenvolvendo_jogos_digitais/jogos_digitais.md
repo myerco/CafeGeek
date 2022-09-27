@@ -1,17 +1,21 @@
 ---
-title: Desenvolvento jogos digitais
+title: Jogos digitais
 description: Na construção da mecânica de um jogo é necessário utilizar uma linguagem de programação para implementar movimento, interação de personagens, inteligência artificial e outros elementos dinâmicos.
 tags: [Unreal Engine,desenvolvimento, blueprint]
-layout: page
+categories: Unreal Engine
+author: 
+- Cafegeek
+layout: post
+date: 2022-09-21 
 ---
-
-***
 
 ## Como é o desenvolvimento de jogos digitais?
 
-![Figura: So, You Want to Be a Game Developer? - https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70](https://miro.medium.com/max/875/0*OlVTuxFz-Qn7oTUn "Figura: So, You Want to Be a Game Developer? - https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70")
-
-> Figura: So, You Want to Be a Game Developer? - <https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70> .
+{% include image.html
+    src="https://miro.medium.com/max/875/0*OlVTuxFz-Qn7oTUn"
+    alt="Figura: So, You Want to Be a Game Developer?"
+    caption=" Figura: So, You Want to Be a Game Developer? - <https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70> ."
+%}
 
 O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como por exemplo:
 
@@ -34,9 +38,11 @@ Existem aplicações que auxiliam na produção de programas de computador ou jo
 
 ## O que é uma Engine e Framework?
 
-![Figura: Game Engine VS Game Framework - https://developerhouse.com/game-engine-vs-game-framework/](https://developerhouse.com/wp-content/uploads/2020/10/game-engines-and-framework.jpg "Figura: Game Engine VS Game Framework - https://developerhouse.com/game-engine-vs-game-framework/")
-
-> Figura: Game Engine VS Game Framework - <https://developerhouse.com/game-engine-vs-game-framework/> .
+{% include image.html
+    src="https://developerhouse.com/wp-content/uploads/2020/10/game-engines-and-framework.jpg"
+    alt="Figura: Game Engine VS Game Framework."
+    caption=" Figura: Game Engine VS Game Framework - <https://developerhouse.com/game-engine-vs-game-framework/> ."
+%}
 
 No desenvolvimento de jogos um *Framework* pode ser definido como um conjunto de bibliotecas que auxiliam a programação, sendo que uma *engine* ou motor gráfico é mais completo pois abrange outros aspectos na produção de jogos.
 
@@ -62,9 +68,11 @@ A maioria das *engines* seguem um ciclo de execução da lógica de programaçã
 
 ## O que é Unreal Engine?
 
-![Figura: Unreal Engine - https://www.unrealengine.com/en-US/](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg/800px-Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg "Figura: Unreal Engine - https://www.unrealengine.com/en-US/")
-
-> Figura: Unreal Engine - <https://www.unrealengine.com/en-US/> .
+{% include image.html
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg/800px-Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg"
+    alt="Figura: Unreal Engine."
+    caption="Figura: Unreal Engine - <https://www.unrealengine.com/en-US/>."
+%}
 
 É uma *Engine* (motor gráfico) para desenvolvimento de jogos que engloba vários aspectos na sua produção, a segui listamos algumas funcionalidades:
 
