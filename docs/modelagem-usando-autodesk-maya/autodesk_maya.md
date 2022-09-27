@@ -426,9 +426,15 @@ Suaviza a malha sem adicionar novos vértices.
 
 #### Visualizando a suavização
 
-Tecla 1 para visualizar o objeto sem nenhuma divisão.
+{% include image.html
+    src="imagens/autodesk_maya/autodesk_maya_smooth_view.webp"
+    alt="Figura: Visualizando a suavização"
+    caption="Figura: Utilizando as teclas 1,2 e 3 podemos visualizar como o objeto deve ficar depois de usar Smooth."
+%}
 
-Tecla 2 para visualizar o objeto suavizado e objeto origem.
+Tecla 1 para visualizar o objeto sem nenhuma divisão;
+
+Tecla 2 para visualizar o objeto suavizado e objeto origem;
 
 Tecla 3 para visualizar somente o objeto suavizado.
 

@@ -32,11 +32,9 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 ***
 
-### Introdução ao desenvolvimento de jogos digitais
+### Introdução ao Unreal Engine
 
 - [Desenvolvendo jogos digitais](desenvolvendo_jogos_digitais/index.html)
-
-### Unreal Engine
 
 - [Trabalhando como Unreal Engine e Visual Studio](trabalhando_com_o_unreal_engine_e_visual_studio/index.html)
 
