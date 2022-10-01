@@ -21,6 +21,8 @@ date: 2022-09-21
 
 - [O que é Unreal Engine?](#o-que-é-unreal-engine)
 
+- [O curso de Unreal Engine com C++ e Blueprint](#o-curso-de-unreal-engine-com-c++-e-blueprint)
+
 ***
 
 ## Como é o desenvolvimento de jogos digitais?
@@ -111,3 +113,23 @@ A maioria das *engines* seguem um ciclo de execução da lógica de programaçã
 1. Editor para construção de materiais;
 
 1. Editor de efeitos especiais utilizando partículas;
+
+## O curso de Unreal Engine com C++ e Blueprint
+
+Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*.  O curso está associado a construção **Mecânica** do jogo pois nele definimos elementos como mecanismos de controle e elementos do conteúdo do jogo.  
+
+### Habilidades que serão aprendidas
+
+- Configuração e organização de projetos;
+- Analisar e aplicar lógica de programação utilizando *Blueprint* e *C++*;
+- Implementar regras de tempo e espaço;
+- Implementar interface do usuário;
+- Estruturar e configurar materiais, terrenos e iluminação;
+- Implementar ambientes Multijogador;
+- Implementar inteligência artificial;
+- Construir a animação de personagens;
+- Implementar Efeitos especiais.
+
+| M         |  D          | A         |
+|:-         |:-           |:-         |
+| **Mecânicas** | **Dinâmicas**   | Estéticas |

@@ -9,6 +9,18 @@ layout: post
 date: 2022-09-21 
 ---
 
+## Índice
+
+***
+
+- [Implementando Material Instance com Blueprint](#implementando-material-instance-com-blueprint)
+
+- [Parameter Global](#parameter-global)
+
+- [Material Function](#material-function)
+
+***
+
 Podemos manipular os objetos do tipo material com scripts Blueprint possibilitando implementar objetos com materiais mais interativos, como por exemplo, um objeto que muda de cor ao click do mouse.
 
 Para exemplificar utilizaremos o Level Blueprint interagindo com um objeto na cena.
@@ -16,6 +28,8 @@ Para exemplificar utilizaremos o Level Blueprint interagindo com um objeto na ce
 Selecione um ator no `View Port` e adicione uma referência no `Open Level Blueprint` com a opção `Create a Reference to`, em seguida vamos utilizar o nó `Create Dynamic Material Instance` para criar uma associação de um material com a nossa lógica.
 
 ## Implementando Material Instance com Blueprint
+
+***
 
 {% include image.html
     src="../imagens/materiais/unreal_engine_material_bp_create_material_instance_set.webp"
@@ -53,6 +67,8 @@ O script habilita o click do mouse e quando selecionado um objeto o evento custo
 
 ## Parameter Global
 
+***
+
 Podemos definir parâmetros globais, que efetem todo o jogo, para que os materiais possam referenciar parâmetros escalares e vetoriais.
 
 > É uma ferramenta poderosa que os artistas podem usar para obter dados globais em muitos materiais de uma só vez. Ele também pode ser usado para gerar efeitos por nível, como quantidade de neve, quantidade de destruição, umidade, etc., que, de outra forma, exigiria a configuração de valores de parâmetros individuais em muitas instâncias de materiais diferentes em seu nível.
@@ -82,6 +98,8 @@ No Editor de Materiais usamos o menu de contexto (RMB) e escolhemos a opção `M
 %}
 
 ## Material Function
+
+***
 
 **Mateial Functions** ou Funções de material são pequenos fragmentos de códigos gráficos de material que podem ser salvos em pacotes e reutilizados em vários materiais, em outras palavras são funções de programação. Seu objetivo é agilizar o processo de criação de material, dando acesso instantâneo a redes comumente usadas de nós materiais.
 São compostas basicamente por entradas de parâmetros e saída de dados.

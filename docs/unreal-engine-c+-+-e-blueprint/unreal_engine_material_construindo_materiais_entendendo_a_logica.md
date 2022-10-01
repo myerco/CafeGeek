@@ -9,6 +9,30 @@ layout: post
 date: 2022-09-24 
 ---
 
+## Índice
+
+***
+
+- [As propriedades e lógica do material](#as-propriedades-e-a-lógica-do-material)
+
+- [Utilizando Panner e TextCoord](#utilizando-panner-e-textcoord)
+
+- [Exemplo do nó Lerp](#exemplo-do-nó-lerp)
+
+- [World position Offset](#world-position-offset)
+
+- [Unlit Shading Model](#unlit-shading-model)
+
+- [Masked Blend Mode](#masked-blend-mode)
+
+- [Translucent Blend Mode](#translucent-blend-mode)
+
+***
+
+## As propriedades e a lógica do material
+
+***
+
 Neste exemplo vamos combinar várias texturas e utilizar funções de manipulação para obter o resultado abaixo.
 
 {% include image.html

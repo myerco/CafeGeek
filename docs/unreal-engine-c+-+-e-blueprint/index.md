@@ -12,27 +12,11 @@ layout: home
   caption=""
 %}
 
-Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*.  O curso está associado a construção **Mecânica** do jogo pois nele definimos elementos como mecanismos de controle e elementos do conteúdo do jogo.  
-
-## Habilidades que serão aprendidas
-
-- Configuração e organização de projetos;
-- Analisar e aplicar lógica de programação utilizando *Blueprint* e *C++*;
-- Implementar regras de tempo e espaço;
-- Implementar interface do usuário;
-- Estruturar e configurar materiais, terrenos e iluminação;
-- Implementar ambientes Multijogador;
-- Implementar inteligência artificial;
-- Construir a animação de personagens;
-- Implementar Efeitos especiais.
-
-| M         |  D          | A         |
-|:-         |:-           |:-         |
-| **Mecânicas** | **Dinâmicas**   | Estéticas |
+## Índice
 
 ***
 
-### Introdução ao Unreal Engine
+## Introdução ao Unreal Engine
 
 - [Desenvolvendo jogos digitais](desenvolvendo_jogos_digitais.html)
 
@@ -42,9 +26,9 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 - [Interface e Editores](editor/unreal_engine_interface_e_editores.html)  
 
-### Programação com Unreal Engine
+## Programação com Unreal Engine
 
-- [O Unreal Engine e sua lógica de programação](o_unreal_engine_e_sua_logica_de_programacao/index.html)
+- [O Unreal Engine e sua lógica de programação](o_unreal_engine_e_sua_logica_de_programacao.html)
 
 - [Programação C++ no Unreal Engine](programacao_c++_no_unreal_engine/index.html)
 
@@ -58,11 +42,11 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 - [Estruturas de dados](estruturas_de_dados/index.html)
 
-### Interface com o jogador
+## Interface com o jogador
 
 - [Interface do Jogador - HUD](interface/index.html)
 
-### Movimentação e animação de personagens
+## Movimentação e animação de personagens
 
 - [Implementando a movimentação do personagem](movimentacao/unreal_engine_trabalhando_com_logica_movimentacao_de_personagem.html)
 
@@ -70,26 +54,32 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 - [Delta time e sistema de coordenadas](deltatime_sistema_coordenadas/unreal_engine_deltatime_sistema_coordenadas.html)
 
-### Inteligência Artificial
+## Inteligência Artificial
 
 - [Inteligência Artificial](unreal_engine_inteligencia_artificial.html)
 
-### Materiais e Landscape
+## Materiais e Landscape
 
-- [Materiais](materiais_e_landscape/index.html)
+- [Introdução aos Materiais](unreal_engine_material_introducao_aos_materiais.html)
+
+- [Construindo Materiais e entendo a lógica](unreal_engine_material_construindo_materiais_entendendo_a_logica.html)
+
+- [Implementando Material Instance com Unreal Engine](unreal_engine_material_instance.html)
+
+- [Manipulando materiais com Blueprint](unreal_engine_material_blueprint.html)
 
 - [Trabalhando com iluminação](iluminacao/index.html)
 
-### Multiplayer
+## Multiplayer
 
 - [Multiplayer](multiplayer/unreal_engine_multiplayer.html)
 
-### Efeitos especiais e animação de cenas
+## Efeitos especiais e animação de cenas
 
-- [Sequencer](#)
+- [Sequencer](#índice)
 
-- [Utilizando Niagara](#)
+- [Utilizando Niagara](#índice)
 
-### Atividades
+## Atividades
 
 - [Atividades e Referências](unreal_engine_atividades_referencias.html)

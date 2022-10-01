@@ -9,7 +9,29 @@ layout: post
 date: 2022-09-24 
 ---
 
+## Índice
+
+***
+
+- [O que é um material?](#o-que-é-um-material)
+
+- [Materiais de base física - PBR](#materiais-de-base-física---pbr)
+
+- [Estrutura do Material no Unreal Engine](#estrutura-do-material-no-unreal-engine)
+
+- [O que são Material expressions?](#o-que-são-material-expressions)
+
+- [O Nó principal ou Node Result](#o-nó-principal-ou-node-result)
+
+- [Propriedades do nó principal](#propriedades-do-nó-principal)
+
+- [Aplicando o material no objeto](#aplicando-o-material-no-objeto)
+
+***
+
 ## O que é um material?
+
+***
 
 Podemos definir como uma coleção de imagens e instruções computacionais que são adicionadas a superfícies poligonais. Contudo materiais não são somente cores mas representação de imperfeições da superfície a qual foram aplicadas, como por exemplo, rasuras, aspereza e transparência.
 
@@ -23,6 +45,8 @@ No exemplo acima podemos verificar uma esfera com diferentes tipos de materiais 
 
 ## Materiais de base física - PBR
 
+***
+
 PBR *Physically Based Rendering* significa que o material descreve as propriedades visuais de uma superfície de uma maneira realmente plausível, de modo que os resultados realistas sejam possíveis em todas as condições de iluminação.
 
 {% include image.html
@@ -32,6 +56,8 @@ PBR *Physically Based Rendering* significa que o material descreve as propriedad
 %}
 
 ## Estrutura do Material no Unreal Engine
+
+***
 
 A primeira e mais importante coisa a saber sobre os Materiais é que eles não são construídos por meio de código, mas por meio de uma rede de nós de script visual (chamados de Expressões de Material) dentro do Editor de Material. Cada nó contém um fragmento de código HLSL, designado para executar uma tarefa específica.
 
@@ -143,6 +169,8 @@ A seguir vamos abordar as características das texturas no **Unreal Engine**.
 %}
 
 ## O Nó principal ou Node Result
+
+***
 
 O nó principal do material é responsável por exibir os resultados de todos os nós da *Expressão de Material* que são inseridos nele nas várias entradas. Cada entrada no nó Material Principal tem um efeito exclusivo sobre a aparência e o desempenho do Material.
 
@@ -304,6 +332,8 @@ O mapa Ambient Occlusion (AO) pode ser usado para simular sombras suaves nas sal
 %}
 
 ## Propriedades do nó principal
+
+***
 
 Nem todas as entradas serão úteis para cada tipo de material que você criar. Por exemplo, ao desenvolver uma Função de Luz - um Material que é aplicado a uma luz - você só pode usar a entrada Cor Emissiva no material e nada mais, visto que outras entradas, como Metálico ou Aspereza, não seriam aplicáveis. Por isso, é importante saber que tipo de material você está criando antes de começar a se preocupar muito com as entradas. As três propriedades de controle primárias são:
 
