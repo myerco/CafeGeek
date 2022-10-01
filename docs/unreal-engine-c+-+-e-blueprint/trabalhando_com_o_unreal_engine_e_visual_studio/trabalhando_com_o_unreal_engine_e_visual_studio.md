@@ -5,7 +5,21 @@ tags: [Unreal Engine,desenvolvimento, visual studio]
 layout: page
 ---
 
+## Índice
+
 ***
+
+- [Como instalar o Unreal Engine?](trabalhando_com_o_unreal_engine_e_visual_studio.html#como-instalar-o-unreal-engine)
+
+- [Criando um projeto para jogos no Unreal Engine](trabalhando_com_o_unreal_engine_e_visual_studio.html#criando-um-projeto-para-jogos-no-unreal-engine)
+
+- [Configurando o projeto inicialmente](trabalhando_com_o_unreal_engine_e_visual_studio.html#configurando-o-projeto-inicialmente)
+
+- [Iniciando um projeto no Unreal Engine 5](trabalhando_com_o_unreal_engine_e_visual_studio.html#iniciando-um-projeto-no-unreal-engine-5)
+
+- [Configurando o editor de código](trabalhando_com_o_unreal_engine_e_visual_studio.html#configurando-o-editor-de-código)
+
+- [Entendo as pastas criadas](trabalhando_com_o_unreal_engine_e_visual_studio.html#entendo-as-pastas-criadas)
 
 O **Unreal Engine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos e também um ambiente visual de programação abstraindo a lógica de programação.
 
@@ -19,39 +33,47 @@ A **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **In
 
 - Instalação e atualização das versões do **Unreal Engine**;
 
-![Figura: Gerenciamento de versões.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_control_version.webp "Figura: Gerenciamento de versões.")
-
-> Figura: Gerenciamento de versões.
+{% include imagebase.html
+    src="unreal/projeto/unreal_engine_control_version.webp"
+    alt="Figura: Gerenciamento de versões."
+    caption="Figura: Lista de versões instaladas."
+%}
 
 ## Como instalar o Unreal Engine?
+
+***
 
 Para instalar o **Unreal Engine** siga os seguintes passos:
 
 1. Baixe e instale o [Inicializador da Epic Games](https://www.epicgames.com/store/pt-BR/download);
 
-2. Inscreva-se para uma conta da Epic Games, se ainda não tiver uma;
+1. Inscreva-se para uma conta da Epic Games, se ainda não tiver uma;
 
-3. Faça login no **Inicializador da Epic Games**;
+1. Faça login no **Inicializador da Epic Games**;
 
-4. Instale o **Unreal Engine** utilizando o menu `Unreal Engine` > `Biblioteca`.
+1. Instale o **Unreal Engine** utilizando o menu `Unreal Engine` > `Biblioteca`.
 
-5. Para instalar  os pacotes de desenvolvimento e o Visual Studio para programação com C++ baixe o Visual Studio em : [Download Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F);
+1. Para instalar  os pacotes de desenvolvimento e o Visual Studio para programação com C++ baixe o Visual Studio em : [Download Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F);
 
-6. Selecione os pacotes de programação:
+1. Selecione os pacotes de programação:
 
     - Desenvolvimento de jogos com C++;
 
     - Desenvolvimento para Desktop com C++.
 
-![Figura: Visual Studio Update para desenvolvimento de jogos](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_visual_studio_update.webp "Figura: Visual Studio Update para desenvolvimento de jogos")
-
-> Figura: Visual Studio Update para desenvolvimento de jogos.
+{% include imagebase.html
+    src="unreal/projeto/unreal_engine_visual_studio_update.webp"
+    alt="Figura: Visual Studio Update para desenvolvimento de jogos."
+    caption="Figura: Visual Studio Update para desenvolvimento de jogos."
+%}
 
 ### Por que instalar o pacote Desktop com C++ ?
 
 Porque muitas vezes é necessário testar uma funcionalidade ou mesmo testar um conceito da linguagem e ter o compilador disponível é uma mão na roda.
 
 ## Criando um projeto para jogos no Unreal Engine
+
+***
 
 Nesta seção vamos criar um projeto para jogos utilizando **C++** pois irá ajudar na compreensão da estrutura de pastas e arquivos do **Unreal Engine**. O nome do projeto será ProjetoAula e o usaremos em vários capítulos.
 
