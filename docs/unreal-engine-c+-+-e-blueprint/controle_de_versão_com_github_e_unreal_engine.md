@@ -2,14 +2,32 @@
 title: Controle de versão com Github e Unreal Engine
 description: Neste capítulo vamos instalar o **Git Client** com o **GitHub Desktop** para versionamento de arquivos no **Unreal Engine** e apresentar comandos básicos.
 tags: [Unreal Engine,desenvolvimento, blueprint,controle de versão, github, c++]
-layout: page
+categories: Unreal Engine
+author: 
+- Cafegeek
+layout: post
+date: 2022-09-30 
 ---
 
 ***
 
-![Figura: Unreal Engine with Git](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_git.webp "Figura: Unreal Engine with Git")
+[Ferramentas para controle de versão](#ferramentas-para-controle-de-versão)
 
-> Figura: Unreal Engine with Git.
+[Estrutura do GIT](#estrutura-do-git)
+
+[Entendo o fluxo de trabalho](#entendo-o-fluxo-de-trabalho)
+
+[Começando a trabalhar com o Git e o Unreal Engine](#começando-a-trabalhar-com-o-git-e-o-unreal-engine)
+
+[Ignorando pastas e arquivos](#ignorando-pastas-e-arquivos)
+
+***
+
+{% include imagebase.html
+    src="unreal/projeto/unreal_engine_git.webp"
+    alt="Figura: Unreal Engine with Git."
+    caption="Figura: Unreal Engine with Git."
+%}
 
 Quando programamos existe a necessidade de gerenciar as alterações que ocorrem durante o desenvolvimento do projeto e até mesmo depois, acompanhe o seguinte exemplo:  
 
@@ -20,7 +38,9 @@ if (a > b) {
   resultado = (a + b)
 }
 ```
+
 Então, alteramos o código, vamos chamar de **B**, ou mesmo o corrigimos para :
+
 ```cpp
 if (a > b) {
   resultado = (a + b * 10)
@@ -37,6 +57,8 @@ Perceba que para facilitar a manutenção e desenvolvimento em equipe e pensando
 
 ## Ferramentas para controle de versão
 
+***
+
 Existem várias ferramentas para controle de versão disponíveis no mercado, como por exemplo :
 
 - **GitHub** - É um serviço de armazenamento de nuvem para gerenciamento de códigos de aplicação. É possível ter uma conta gratuita e armazenar até 500Mb por projeto;
@@ -47,17 +69,21 @@ Existem várias ferramentas para controle de versão disponíveis no mercado, co
 
 - **Git LFS** - Large File System é uma versão do git para armazenamento de arquivos de mídia ou binários, podendo armazenar de forma gratuita até 1GB.
 
-O **Unreal Engine** trabalha de forma nativa com **SVN**, **Perforce** e **Git**, esta última até o momento em versão beta.      
+O **Unreal Engine** trabalha de forma nativa com **SVN**, **Perforce** e **Git**, esta última até o momento em versão beta.
 
 ## Estrutura do GIT
 
 No gráfico abaixo é apresentado a estrutura de armazenar e alguns comandos do ambiente do Git.
 
-![Git, GitHub, & Workflow Fundamentals ](https://res.cloudinary.com/practicaldev/image/fetch/s--M_fHUEqA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png "Git, GitHub, & Workflow Fundamentals")
-
-> Figura: Git, GitHub, & Workflow Fundamentals
+{% include image.html
+    src="https://res.cloudinary.com/practicaldev/image/fetch/s--M_fHUEqA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png"
+    alt="Figura: Git, GitHub, & Workflow Fundamentals."
+    caption="Figura: Git, GitHub, & Workflow Fundamentals."
+%}
 
 ## Entendo o fluxo de trabalho
+
+***
 
 Quando utilizamos um gerenciador de versão temos que seguir um fluxo de trabalho para compartilhar o código armazenado localmente, segue abaixo os comandos iniciais do fluxo:
 
@@ -83,14 +109,20 @@ git push origin main
 
 ## Começando a trabalhar com o Git e o Unreal Engine
 
+***
+
 Neste passo vamos preparar o ambiente e projeto para começar a trabalhar com o gerenciamento de versões, utilizaremos o **GitHub** como repositório de arquivos e gerenciador de versões, para tal executaremos os próximos passos.
 
 ### Criando uma conta e o projeto no Github
 
 Inscreva-se no [Github](https://github.com/) para possibilitar:
+
 - Registro de Repositórios - Espaço de armazenamento e versionamento de arquivos e projetos;
+
 - Registro e acompanhamento de tarefas - Registro e acompanhamento de tarefas que podem se associadas aos `commits`;
+
 - Registro e acompanhamento de projetos e versões - Registro de versões de projeto;  
+
 - Wiki - Publicação de um Wiki do projeto.
 
 ### Instalando Git Client e GitHub Desktop
@@ -133,63 +165,71 @@ Para exemplificar a conexão do **Unreal Engine** com o Github vamos criar um no
 
 - Iremos manter os demais parâmetros como estão.
 
-1. Para Configurar o projeto utilizaremos :
+Para Configurar o projeto utilizaremos :
 
-    - O Menu principal `Edit` > `Connect To Source Control`.
+`Menu` > `Edit` > `Connect To Source Control`.
 
-    ![Figura: Source Control Login.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_connect_to_source_control.webp "Figura: Source Control Login")
+{% include imagebase.html
+    src="unreal/projeto/unreal_engine_connect_to_source_control.webp"
+    alt="Figura: Source Control Login."
+    caption="Figura: Source Control Login."
+%}
 
-    > Figura: Source Control Login
+Abaixo a descrição dos parâmetros;
 
-2. Abaixo a descrição dos parâmetros;
+- `Git Path` - Caminho para o executável do **Git client**;
 
-    - `Git Path` - Caminho para o executável do **Git client**;
+- `Add a .gitignore file` - Adiciona o arquivo para controle do que deve ser enviado para o servidor;
 
-    - `Add a .gitignore file` - Adiciona o arquivo para controle do que deve ser enviado para o servidor;
+  - `Add a basic README.md file` - Adicione um arquivo em formato *Markdown* para ser utilizado como documentação inicial;
 
-    - `Add a basic README.md file` - Adicione um arquivo em formato *Markdown* para ser utilizado como documentação inicial;
+  - `Make the initial Git Commit` - Inicializa o repositório local.
 
-    - `Make the initial Git Commit` - Inicializa o repositório local.
+Logo em seguida inicialize o projeto e clique em `Accept Settings`;
 
-3. Logo em seguida inicialize o projeto e clique em `Accept Settings`;
+Com o `Content Drawer` cria as seguintes pastas:
 
-4. Com o `Content Drawer` cria as seguintes pastas:
+- `ExampleContent`;
 
-    - `ExampleContent`;
+- `Projeto`;
 
-    - `Projeto`;
+  - `Projeto\Maps`;  
 
-    - `Projeto\Maps`;  
-
-5. Salve o level atual em `Projeto\Maps` com o nome `LevelTest`.
+Salve o level atual em `Projeto\Maps` com o nome `LevelTest`.
 
 ### Configurando o Github Desktop e adicionando o projeto
 
-1. Abra o GitHub Desktop;
+Abra o GitHub Desktop e configure a sua conta do **Github** para ter acesso aos seus repositórios utilizando o menu principal `File` > `Options`;
 
-2. Configure a sua conta do **Github** para ter acesso aos seus repositórios utilizando o menu principal `File` > `Options`;
+{% include imagebase.html
+    src="unreal/projeto/unreal_engine_github_desktop_options.webp"
+    alt="Figura: Github Desktop Options."
+    caption="Figura: Github Desktop Options."
+%}
 
-    ![Figura: Github Desktop Options.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_github_desktop_options.webp "Figura: Github Desktop Options.")
+Adicione o projeto TestGitHub com `Add an Existing Repository from your hard drive...`, informe a pasta do projeto TestGitHub;
 
-    > Figura: Github Desktop Options.
-
-3. Adicione o projeto TestGitHub com `Add an Existing Repository from your hard drive...`, informe a pasta do projeto TestGitHub;
-
-4. Utilizando o Explorer navegue até a pasta do projeto e edite o arquivo .gitignore e adicione o texto ExampleContent, isso impedira a pasta ser enviada para o repositório remoto, verifique [Ignorando pastas e arquivos](#1.6.13) para mais informações;
+Utilizando o Explorer navegue até a pasta do projeto e edite o arquivo .gitignore e adicione o texto ExampleContent, isso impedira a pasta ser enviada para o repositório remoto, verifique `Ignorando pastas e arquivos` para mais informações;
 
 ## Criando o projeto remoto e atualizando os arquivos
 
+***
+
 Uma vez configurados os projetos nos sistemas **Unreal** e **GitHub Desktop**, podemos confirmar as alterações dos arquivos utilizando o comando `Commit to Master`.
 
-![Figura: Github Desktop Commit to Master.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_github_desktop_Commit_to_master.webp "Figura: Github Desktop Commit to Master.")
-
-> Figura: Github Desktop Commit to Master.
+{% include imagebase.html
+    src="unreal/projeto/unreal_engine_github_desktop_Commit_to_master.webp"
+    alt="Figura: Github Desktop Commit to Master."
+    caption="Figura: Github Desktop Commit to Master."
+%}
 
 Após confirmação das alterações devemos publicá-las no repositório remoto usando o comando `Publish repository`.
 
-![Figura: Github Desktop Publish repository.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_github_desktop_publish_repository.webp "Figura: Github Desktop Publish repository.")
-
-> Figura: Github Desktop Publish repository.
+{% include imagebase.html
+    src="unreal/projeto/unreal_engine_github_desktop_publish_repository.webp"
+    alt="Figura: Github Desktop Publish repository."
+    caption="Figura: Github Desktop Publish repository."
+%}
 
 O comando acima irá criar um projeto na sua conta no Github.com e adicionar todos os arquivos criados até o momento.
 
@@ -197,33 +237,39 @@ O comando acima irá criar um projeto na sua conta no Github.com e adicionar tod
 
 Para testar as configurações realizadas vamos adicionar o pacote `Starter Content` e um objeto **Blueprint**.
 
-1. Adicione o pacote **Starter Content** utilizando o `Content Drawer`;
+Adicione o pacote **Starter Content** utilizando o `Content Drawer`:
 
-    - `Add` > `Add Feature or Content Pack` escolha `Starter Content`.
+`Add` > `Add Feature or Content Pack` escolha `Starter Content`.
 
-2. Após a instalação do pacote mova o diretório `StarterContent` para a pasta `ExampleContent`, isso deve impedir que a referida pasta seja publicada no repositório remoto;
+Após a instalação do pacote mova o diretório `StarterContent` para a pasta `ExampleContent`, isso deve impedir que a referida pasta seja publicada no repositório remoto, como por exemplo:
 
-    - `ExampleContent\StarterContent`.
+`ExampleContent\StarterContent`.
 
-3. Vamos criar o objeto `BP_Ator` do tipo *Actor* e adicioná-lo na pasta `Content\Projeto\Characters`.
+Vamos criar o objeto `BP_Ator` do tipo *Actor* e adicioná-lo na pasta `Content\Projeto\Characters`.
 
-4. No painel `Changes`  do GitHub Desktop devem aparecer somente os arquivos :
+No painel `Changes`  do GitHub Desktop devem aparecer somente os arquivos :
 
-    - BP_Ator.usasset;
+- BP_Ator.usasset;
 
-    - TestGitHub.uproject.
+- TestGitHub.uproject.
 
-    ![Figura: Github Desktop Publish repository.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_github_desktop_commit_first_actor.webp "Figura: Github Desktop Publish repository.")
+{% include imagebase.html
+    src="unreal/projeto/unreal_engine_github_desktop_commit_first_actor.webp"
+    alt="Figura: Github Desktop Publish repository."
+    caption="Figura: Github Desktop Publish repository."
+%}
 
-    > Figura: Github Desktop Publish repository.
+Após a confirmação vamos enviar as alterações para o servidor com o comando `Push origin`.
 
-5. Após a confirmação vamos enviar as alterações para o servidor com o comando `Push origin`.
-
-  ![Figura: Github Desktop Push Origin.](https://cafegeek.eti.br/unreal-engine/imagens/projeto/unreal_engine_github_desktop_push_origin.webp "Figura: Github Desktop Push origin.")
-
-  > Figura: Github Desktop Push Origin.
+{% include imagebase.html
+    src="unreal/projeto/unreal_engine_github_desktop_push_origin.webp"
+    alt="Figura: Github Desktop Push Origin."
+    caption="Figura: Github Desktop Push Origin."
+%}
 
 ## Utilizando comandos do PowerShell para utilizar o Git Client
+
+***
 
 É interessante aprender comandos do **PowerShell** para utilizar o **Git Client** pois existem diversas situações que não estão nas ferramentas visuais, como por exemplo:
 
@@ -237,7 +283,7 @@ Então vamos apresentar os principais comandos.
 
 Clonar o projeto significa baixar o projeto do servidor para a máquina cliente (local).
 
-```shell
+```bash
 mkdir -p D:\UnrealProjects
 git clone https://github.com/myerco/ProjetoAula.git
 cd ProjetoMP
@@ -248,7 +294,7 @@ git status
 
 Podemos criar um novo projeto no cliente e em seguida atualizar o servidor.
 
-```shell
+```bash
 mkdir -p D:\UnrealProjects\ProjetoMP
 cd D:\UnrealProjects\ProjetoMP
 git init
@@ -260,7 +306,7 @@ git remote -v
 
 Mudanças podem ser replicadas do cliente para o servidor.
 
-```shell
+```bash
 git add .
 git commit -m "feat: Atualizando o projeto.. Alteração de movimentação de personagem"
 git push origin master
@@ -276,6 +322,8 @@ git pull origin master
 ```
 
 ## Ignorando pastas e arquivos
+
+***
 
 É importante ignorar pastas e arquivos do cliente para que não possam ser publicadas no servidor utilizando o arquivo `.gitignore` na pasta raiz do projeto, considerando os seguintes aspectos.
 

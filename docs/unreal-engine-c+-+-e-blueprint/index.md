@@ -34,11 +34,11 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 
 ### Introdução ao Unreal Engine
 
-- [Desenvolvendo jogos digitais](desenvolvendo_jogos_digitais/index.html)
+- [Desenvolvendo jogos digitais](desenvolvendo_jogos_digitais.html)
 
-- [Trabalhando como Unreal Engine e Visual Studio](trabalhando_com_o_unreal_engine_e_visual_studio/index.html)
+- [Trabalhando como Unreal Engine e Visual Studio](trabalhando_com_o_unreal_engine_e_visual_studio.html)
 
-- [Controle de versão com GitHub e Unreal Engine](controle_de_versão_com_github_e_unreal_engine/index.html)
+- [Controle de versão com GitHub e Unreal Engine](controle_de_versão_com_github_e_unreal_engine.html)
 
 - [Interface e Editores](editor/unreal_engine_interface_e_editores.html)  
 

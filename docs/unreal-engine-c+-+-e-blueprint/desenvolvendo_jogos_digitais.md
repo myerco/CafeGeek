@@ -1,5 +1,5 @@
 ---
-title: Jogos digitais
+title: Desenvolvimento jogos digitais
 description: Na construção da mecânica de um jogo é necessário utilizar uma linguagem de programação para implementar movimento, interação de personagens, inteligência artificial e outros elementos dinâmicos.
 tags: [Unreal Engine,desenvolvimento, blueprint]
 categories: Unreal Engine
@@ -9,7 +9,23 @@ layout: post
 date: 2022-09-21 
 ---
 
+## Índice
+
+***
+
+- [Como é o desenvolvimento de jogos digitais?](#como-é-o-desenvolvimento-de-jogos-digitais)
+
+- [O que é uma Engine e Framework?](#o-que-é-uma-engine-e-framework)
+
+- [Ciclo da lógica do desenvolvimento de um jogo](#ciclo-da-lógica-do-desenvolvimento-de-um-jogo)
+
+- [O que é Unreal Engine?](#o-que-é-unreal-engine)
+
+***
+
 ## Como é o desenvolvimento de jogos digitais?
+
+***
 
 {% include image.html
     src="https://miro.medium.com/max/875/0*OlVTuxFz-Qn7oTUn"
@@ -37,6 +53,8 @@ As linguagens de programação vem evoluindo para simplificar as rotinas e coman
 Existem aplicações que auxiliam na produção de programas de computador ou jogos digitais, estas ferramentas abstraem a lógica complexa que faz com os objetos sejam apresentados de forma adequada na cena, no caso de jogos digitais. Tais ferramentas são chamadas de *Frameworks*.
 
 ## O que é uma Engine e Framework?
+
+***
 
 {% include image.html
     src="https://developerhouse.com/wp-content/uploads/2020/10/game-engines-and-framework.jpg"
@@ -67,6 +85,8 @@ A maioria das *engines* seguem um ciclo de execução da lógica de programaçã
 - **Finalização** - Executa as rotinas para descarregar o jogo;
 
 ## O que é Unreal Engine?
+
+***
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg/800px-Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg"
