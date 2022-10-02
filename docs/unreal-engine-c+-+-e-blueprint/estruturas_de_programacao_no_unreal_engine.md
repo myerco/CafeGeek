@@ -403,7 +403,7 @@ Para permitir que uma variável seja modificada de fora de seu módulos, torne-a
 {% include imagebase.html
     src="unreal/variaveis/unreal_engine_variable_public_details.webp"
     alt="Figura: Public details."
-    caption=Figura: Public details."
+    caption="Figura: Public details."
 %}
 
 ### Variáveis Públicas com C++
