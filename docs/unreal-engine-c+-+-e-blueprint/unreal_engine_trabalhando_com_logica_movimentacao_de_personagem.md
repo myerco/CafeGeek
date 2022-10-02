@@ -1,13 +1,40 @@
 ---
-title: 7.3 Implementando a movimentação do personagem
+title: Implementando a movimentação do personagem
 description: Trabalhando com a lógica de movimentação do personagem utilizando Blueprint
 tags: [Unreal Engine,eventos,events,funções,functions,macro]
-layout: page
+categories: Unreal Engine
+author: 
+- Cafegeek
+layout: post
+date: 2022-09-21 
 ---
+
+## Índice
+
+***
+- [Implementando a movimentação do personagem](#implementando-a-movimentação-do-personagem)
+
+- [Axis Mappings](#axis-mappings)
+
+- [Mapeamento Input do projeto](#mapeamento-input-do-projeto)
+
+- [Movimentação de peão Pawn](#movimentação-de-pe-o-pawn)
+
+- [Utilizando Enumeration para registro de poses/estados do personagem.](#utilizando-enumeration-para-registro-de-poses-estados-do-personagem)
+
+- [Exemplo de movimentação da Plataforma](#exemplo-de-movimentação-da-plataforma)
+
+- [Usando o evento Tick - Blueprint](#usando-o-evento-tick---blueprint)
+
+- [Inicializando variáveis](#inicializando-variáveis)
+
+- [Usando o evento Tick - C++](#usando-o-evento-tick---c)
 
 ***
 
 ## Implementando a movimentação do personagem
+
+***
 
 **Unreal Engine** utiliza Input Actions e Mappings para vincular ações e mapeamento de chaves e eixos de entrada.
 
@@ -57,21 +84,29 @@ InputComponent->BindAxis("MoveParaFrente", this, &ASampleCharacter::MoveForward)
 
 ## Mapeamento Input do projeto
 
+***
+
 No exemplo abaixo associamos a ação Pulo com o tecla **Space Bar** e **GamePad FaceButtonBotton**. Ao definir uma ação em **Bindings** a *game engine* cria um evento do mesmo nome.
 
-![Figura: Menu > Project > Input](../imagens/actor/blueprint_bindings.webp "Figura: Menu > Project > Input")
-
-> Figura: Menu > Project > Input.
+{% include imagebase.html
+    src="unreal/actor/blueprint_bindings.webp"
+    alt="Figura: Menu > Project > Input."
+    caption="Figura: Menu > Project > Input."
+%}
 
 ## Movimentação de peão Pawn
+
+***
 
 Para exemplificar a implementação utilizaremos uma classe do tipo **Pawn**
 
 ### Componentes do objeto Pawn
 
-![Figura: Blueprint - FloatingPawnMovement](../imagens/actor/blueprint_pawn_floatingpawnmovement.webp "Figura: Blueprint - FloatingPawnMovement")
-
-> Figura: Blueprint - FloatingPawnMovement.
+{% include imagebase.html
+    src="unreal/actor/blueprint_pawn_floatingpawnmovement.webp"
+    alt="Figura: Blueprint - FloatingPawnMovement."
+    caption="Figura: Blueprint - FloatingPawnMovement."
+%}
 
 - `Capsule`- Implementa uma capsula com colisão simples que pode determinar a movimentação do jogador;
 
@@ -81,9 +116,11 @@ Para exemplificar a implementação utilizaremos uma classe do tipo **Pawn**
 
 É necessário habilitar a entrada de comandos para a classe **Pawn**.  
 
-![Figura : Blueptint - Exemplo Enabled Input](../imagens/actor/blueprint_get_player_controller_enable_input.webp "Figura : Blueptint - Exemplo Enabled Input")
-
-> Figura : Blueptint - Exemplo Enabled Input.
+{% include imagebase.html
+    src="unreal/actor/blueprint_get_player_controller_enable_input.webp"
+    alt="Figura : Blueptint - Exemplo Enabled Input."
+    caption="Figura : Blueptint - Exemplo Enabled Input."
+%}
 
 - `PlayerController` - Implementa funcionalidade para pegar os dados de entrada do jogador e traduzi-los em ações, como movimento, uso de itens, armas de fogo, etc.
 
@@ -91,9 +128,11 @@ Para exemplificar a implementação utilizaremos uma classe do tipo **Pawn**
 
 Devemos executar a chamada dos eventos criados no mapeamento e associados a *inputs*.
 
-![Figura: Blueprint - Movimentação de teclado Add Movement Input com InputAxis](../imagens/actor/blueprint_pawn_inputaxis.webp "Figura: Blueprint - Movimentação de teclado Add Movement Input com InputAxis")
-
-> Figura: Blueprint - Movimentação de teclado Add Movement Input com InputAxis.
+{% include imagebase.html
+    src="unreal/actor/blueprint_pawn_inputaxis.webp"
+    alt="Figura: Blueprint - Movimentação de teclado Add Movement Input com InputAxis."
+    caption="Figura: Blueprint - Movimentação de teclado Add Movement Input com InputAxis."
+%}
 
 - `GetActorRotation` - Retorna a rotação do `RootComponent` (Componente raiz que determina a posição do objeto)deste Ator;
 
@@ -109,15 +148,19 @@ Devemos executar a chamada dos eventos criados no mapeamento e associados a *inp
 
 Captura as coordenadas do ator para que possamos utilizar os métodos de movimentação **Virar** e **OlhaCima**  
 
-![Figura: Blueprint - Exemplo Consume Movement Input Vextor e AddActorWorldOffset](../imagens/actor/blueprint_pawn_consume_movement_input_vector.webp "Figura: Blueprint - Exemplo Consume Movement Input Vextor e AddActorWorldOffset")
-
-> Figura: Blueprint - Exemplo Consume Movement Input Vextor e AddActorWorldOffset.
+{% include imagebase.html
+    src="unreal/actor/blueprint_pawn_consume_movement_input_vector.webp"
+    alt="Figura: Blueprint - Exemplo Consume Movement Input Vextor e AddActorWorldOffset."
+    caption="Figura: Blueprint - Exemplo Consume Movement Input Vextor e AddActorWorldOffset."
+%}
 
 ### Movimentação utilizando mouse
 
-![Figura: Blueprint - InputAxis e Add Controller Yaw Input e Add Controller Pitch Input](../imagens/actor/blueprint_pawn_yaw_pitch.webp "Figura: Blueprint - InputAxis e Add Controller Yaw Input e Add Controller Pitch Input")
-
-> Figura: Blueprint - InputAxis e Add Controller Yaw Input e Add Controller Pitch Input.
+{% include imagebase.html
+    src="unreal/actor/blueprint_pawn_yaw_pitch.webp"
+    alt="Figura: Blueprint - InputAxis e Add Controller Yaw Input e Add Controller Pitch Input."
+    caption="Figura: Blueprint - InputAxis e Add Controller Yaw Input e Add Controller Pitch Input."
+%}
 
 - **Yaw e Pitch** - Representam respectivamente as coordenadas:  
       X = Roll
@@ -128,35 +171,47 @@ Captura as coordenadas do ator para que possamos utilizar os métodos de movimen
 
 Caso as opções `Use controller rotation pitch/Yaw` estiverem ativas (**true**) a cápsula do ator irá sem movimentar no seu próprio eixo.
 
-![Figura: Blueprint - Use Controller Rotation Pitch/Yaw](../imagens/actor/blueprint_pawn_use_controller_rotation.webp "Figura: Blueprint - Use Controller Rotation Pitch/Yaw")
-
-> Figura: Blueprint - Use Controller Rotation Pitch/Yaw.
+{% include imagebase.html
+    src="unreal/actor/blueprint_pawn_use_controller_rotation.webp"
+    alt="Figura: Blueprint - Use Controller Rotation Pitch/Yaw."
+    caption="Figura: Blueprint - Use Controller Rotation Pitch/Yaw."
+%}
 
 - `SpringArm` - Sustenta a câmera e o responsável pela movimentação;
 
 Quando verdadeiro `Use Pawn control Rotation` e somente o braço com a câmera são movimentados.
 
-![Figura: Blueprint - Use Paw Controller Rotation](../imagens/actor/blueprint_pawn_use_pawn_control_rotation.webp "Figura: Blueprint - Use Paw Controller Rotation")
-
-> Figura: Blueprint - Use Paw Controller Rotation.
+{% include imagebase.html
+    src="unreal/actor/blueprint_pawn_use_pawn_control_rotation.webp"
+    alt="Figura: Blueprint - Use Paw Controller Rotation."
+    caption="Figura: Blueprint - Use Paw Controller Rotation."
+%}
 
 ## Utilizando Enumeration para registro de poses/estados do personagem.
+
+***
 
 Podemos utilizar uma variável Enumeration para registrar o estado do objeto.
 
 ### Variável Enumeration
 
-![Figura: Blueprint - Enumeration e Estados do jogador](../imagens/actor/blueprint_spawn_enum_and_state.webp "Figura: Blueprint - Enumeration e Estados do jogador")
-
-> Figura: Blueprint - Enumeration e Estados do jogador.
+{% include imagebase.html
+    src="unreal/actor/blueprint_spawn_enum_and_state.webp"
+    alt="Figura: Blueprint - Enumeration e Estados do jogador."
+    caption="Figura: Blueprint - Enumeration e Estados do jogador."
+%}
 
 ### Atualizando a variável
 
-![Figura: Blueprint - Atualizando o estado do jogador utilizando Enumeration](../imagens/movimentacao/blueprint_pawn_enum_update.webp "Figura: Blueprint - Atualizando o estado do jogador utilizando Enumeration")
-
-> Figura: Blueprint - Atualizando o estado do jogador utilizando Enumeration.
+{% include imagebase.html
+    src="unreal/movimentacao/blueprint_pawn_enum_update.webp"
+    alt="Figura: Blueprint - Atualizando o estado do jogador utilizando Enumeration."
+    caption="Figura: Blueprint - Atualizando o estado do jogador utilizando Enumeration."
+%}
 
 ## Exemplo de movimentação da Plataforma
+
+***
 
 Neste passo iremos implementar a Plataforma de Poder *PowerUp* para exemplificar a movimentação de objetos. Ao colidir com a plataforma a velocidade e o impulso do personagem **HP_Hero** aumentam.
 
@@ -165,9 +220,11 @@ Serão implementados objetos para disparar (Plataforma Trigger) a movimentação
 
 ### Estrutura do objeto Plataforma
 
-![Figura: Blueprint - Exemplo de componentes da estutura da plataforma](../imagens/actor/blueprint_plataform_components.webp "Figura: Blueprint - Exemplo de componentes da estutura da plataforma")  
-
-> Figura: Blueprint - Exemplo de componentes da estutura da plataforma.
+{% include imagebase.html
+    src="unreal/actor/blueprint_plataform_components.webp"
+    alt="Figura: Blueprint - Exemplo de componentes da estutura da plataforma."
+    caption="Figura: Blueprint - Exemplo de componentes da estutura da plataforma."
+%}
 
 - `StaticMeshActor` - Derivado da classe Actor;
 
@@ -179,9 +236,11 @@ Serão implementados objetos para disparar (Plataforma Trigger) a movimentação
 
 Lógica para aumentar a velocidade de corrida e força de impulso do personagem do *BP_Hero* tipo **Character**.
 
-![Figura: Blueprint - Exemplo da lógica da movimentação](../imagens/actor/blueprint_plataform_inc_velocity_char.webp "Figura: Blueprint - Exemplo da lógica da movimentação")
-
-> Figura: Blueprint - Exemplo da lógica da movimentação.
+{% include imagebase.html
+    src="unreal/actor/blueprint_plataform_inc_velocity_char.webp"
+    alt="Figura: Blueprint - Exemplo da lógica da movimentação."
+    caption="Figura: Blueprint - Exemplo da lógica da movimentação."
+%}
 
 - Ao colidir com a plataforma a lógica é acionada.
 
@@ -205,9 +264,11 @@ Exemplos de coordenadas:
 
 Utilizando o `Level Blueprint` vamos implementar a lógica de movimentação usando `TimeLine`.
 
-![Figura: Blueprint - Exemplo utilizanod Timeline em um Level Blueprint](../imagens/actor/blueprint_plataform_setactorlocarion_lerp_timeline.webp "Figura: Blueprint - Exemplo utilizanod Timeline em um Level Blueprint")
-
-> Figura: Blueprint - Exemplo utilizanod Timeline em um Level Blueprint.
+{% include imagebase.html
+    src="unreal/actor/blueprint_plataform_setactorlocarion_lerp_timeline.webp"
+    alt="Figura: Blueprint - Exemplo utilizanod Timeline em um Level Blueprint."
+    caption="Figura: Blueprint - Exemplo utilizanod Timeline em um Level Blueprint."
+%}
 
 - Determinar o destino da movimentação;
 
@@ -219,31 +280,39 @@ Utilizando o `Level Blueprint` vamos implementar a lógica de movimentação usa
 
 ### Implementação do controle de tempo
 
-Devemos definir uma curva de tempo para a variável **Alpha** para utilizar na interpolação de A com B (**Learp**)
+Devemos definir uma curva de tempo para a variável **Alpha** para utilizar na interpolação de A com B (**Learp**).
 
-![Figura: Blueprint - TimeLine Curve para atualizar as coordenadas de movimentação](../imagens/actor/blueprint_plataform_timeline_curve.webp "Figura: Blueprint - TimeLine Curve para atualizar as coordenadas de movimentação")
-
-> Figura: Blueprint - TimeLine Curve para atualizar as coordenadas de movimentação.
+{% include imagebase.html
+    src="unreal/actor/blueprint_plataform_timeline_curve.webp"
+    alt="Figura: Blueprint - TimeLine Curve para atualizar as coordenadas de movimentação."
+    caption="Figura: Blueprint - TimeLine Curve para atualizar as coordenadas de movimentação."
+%}
 
 ### Utilizando o evento Tick e TimeLine
 
 Com a finalidade de exemplificar podemos utilizar o evento **Tick** para alterar a velocidade da plataforma.
 
-![Figura: Blueprint - Passando como parâmetro a velocidade e alterando o movimento](../imagens/actor/blueprint_plataform_timeline_tick.webp "Figura: Blueprint - Passando como parâmetro a velocidade e alterando o movimento")
-
-> Figura: Blueprint - Passando como parâmetro a velocidade e alterando o movimento.
+{% include imagebase.html
+    src="unreal/actor/blueprint_plataform_timeline_tick.webp"
+    alt="Figura: Blueprint - Passando como parâmetro a velocidade e alterando o movimento."
+    caption="Figura: Blueprint - Passando como parâmetro a velocidade e alterando o movimento."
+%}
 
 Pode ser construída outra plataforma para acionar o evento, Plataforma de gatilho `Trigger Plataform`.
 
 ## Usando o evento Tick - Blueprint
 
+***
+
 Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e destino.
 
 ### Variáveis
 
-![Figura: Blueprint - Exemplo propriedades do objeto plataforma](../imagens/movimentacao/blueprint_plataform_properties.webp "Figura: Blueprint - Exemplo propriedades do objeto plataforma")
-
-> Figura: Blueprint - Exemplo propriedades do objeto plataforma.
+{% include imagebase.html
+    src="unreal/movimentacao/blueprint_plataform_properties.webp"
+    alt="Figura: Blueprint - Exemplo propriedades do objeto plataforma."
+    caption="Figura: Blueprint - Exemplo propriedades do objeto plataforma."
+%}
 
 - `TargetLocation` - Coordenadas do destino com `Widget`  ativo;
 
@@ -257,21 +326,28 @@ Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e de
 
 ## Inicializando variáveis
 
-![Figura: Blueprint - Inicializando variáveis do objeto plataforma](../imagens/movimentacao/blueprint_plataform_init_variables.webp "Figura: Blueprint - Inicializando variáveis do objeto plataforma")
-
-> Figura: Blueprint - Inicializando variáveis do objeto plataforma.
+{% include imagebase.html
+    src="unreal/movimentacao/blueprint_plataform_init_variables.webp"
+    alt="Figura: Blueprint - Inicializando variáveis do objeto plataforma."
+    caption="Figura: Blueprint - Inicializando variáveis do objeto plataforma."
+%}
 
 ### Evento Tick da plataforma
+{% include imagebase.html
+    src="unreal/movimentacao/blueprint_plataform_movement_with_tick.webp"
+    alt="Figura: Blueprint - Lógica de movimentação usando Tick."
+    caption="Figura: Blueprint - Lógica de movimentação usando Tick."
+%}
 
-![Figura: Blueprint - Lógica de movimentação usando Tick](../imagens/movimentacao/blueprint_plataform_movement_with_tick.webp "Figura: Blueprint - Lógica de movimentação usando Tick")
-
-> Figura: Blueprint - Lógica de movimentação usando Tick.
-
-![Figura: Blueprint - Lógica de movimentação usando Tick - continuação](../imagens/movimentacao/blueprint_plataform_movement_with_tick_continue.webp "Figura: Blueprint - Lógica de movimentação usando Tick - continuação")
-
-> Figura: Blueprint - Lógica de movimentação usando Tick - continuação.
+{% include imagebase.html
+    src="unreal/movimentacao/blueprint_plataform_movement_with_tick_continue.webp"
+    alt="Figura: Blueprint - Lógica de movimentação usando Tick - continuação."
+    caption="Figura: Blueprint - Lógica de movimentação usando Tick - continuação."
+%}
 
 ## Usando o evento Tick - C++
+
+***
 
 ### Inicializando variáveis da plataforma
 

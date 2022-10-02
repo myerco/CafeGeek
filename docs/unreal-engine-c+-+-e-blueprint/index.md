@@ -48,7 +48,7 @@ layout: home
 
 ## Movimentação e animação de personagens
 
-- [Implementando a movimentação do personagem](movimentacao/unreal_engine_trabalhando_com_logica_movimentacao_de_personagem.html)
+- [Implementando a movimentação do personagem](unreal_engine_trabalhando_com_logica_movimentacao_de_personagem.html)
 
 - [Animação de personagens](animacao_de_personagens/index.html)
 
