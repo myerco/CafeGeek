@@ -32,10 +32,6 @@ date: 2022-09-21
 
 ***
 
-## Implementando a movimentação do personagem
-
-***
-
 **Unreal Engine** utiliza Input Actions e Mappings para vincular ações e mapeamento de chaves e eixos de entrada.
 
 - Facilita o mapeamento de várias chaves para o mesmo comportamento;
@@ -62,6 +58,8 @@ InputComponent->BindAction("Pulo", IE_Released, this, &ASampleCharacter::OnEndPu
 ```
 
 ## Axis Mappings
+
+***
 
 Mapeamento de Movimentação nos eixos;  
 

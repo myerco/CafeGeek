@@ -64,6 +64,7 @@ Estrutura de memória.
 |fValor         |Float    |6.5          |
 |tName          |String   |"Gandalf"    |
 |bRunnig        |Boolean  |false        |
+|vLista         |FVector  |(1,2,4)      |
 
 Abaixo um exemplo em C++:
 
@@ -76,6 +77,8 @@ float fValor = 6.5;
 ```
 
 ## Variáveis no Unreal Engine
+
+***
 
 Variáveis no **Unreal Engine** são propriedades que contêm um valor ou fazem referência a um objeto ou ator no mundo. Essas propriedades podem ser acessíveis internamente ao **Blueprint** que as contém, ou podem ser tornadas acessíveis externamente para que seus valores possam ser modificados por designers que trabalham com instâncias do **Blueprint** colocadas em um nível.
 
@@ -675,6 +678,8 @@ O nó `Do Once` - como o nome sugere - disparará um pulso de execução apenas 
 ```
 
 ## O que são variáveis do tipo array?
+
+***
 
 É um conjunto de variáveis do mesmo tipo agrupadas dentro de uma estrutura e acessíveis por um índice. Podemos representar os *arrays* como uma tabela onde os dados são acessados por um índice que indica a posição do elemento, a seguir um exemplo.
 

@@ -13,17 +13,13 @@ date: 2022-09-21
 
 ***
 
-[Mas quanto usar a linguagem  C++?](#mas-quanto-usar-a-linguagem--c)
+[Mas quando usar a linguagem  C++?](#mas-quando-usar-a-linguagem--c)
 
 [O fluxo de desenvolvimento e Herança](#o-fluxo-de-desenvolvimento-e-herança)
-
-[Tipos de variáveis](#tipos-de-variáveis)
 
 [Construindo classes C++ no Unreal Engine](#construindo-classes-c-no-unreal-engine)
 
 [Sintaxe da linguagem e C++ e macros do Unreal Engine](#sintaxe-da-linguagem-e-c-e-macros-do-unreal-engine)
-
-[Funções Virtuais](#funções-virtuais)
 
 ***
 
@@ -31,7 +27,7 @@ O **C++** por ter como base de desenvolvimento o C tem o benefício da rapidez e
 
 O **Unreal Egine** utiliza a linguagem **C++** aproveitando todas as funcionalidades que a linguagem fornece, como por exemplo o gerenciamento otimizado de memória, quanto a implementação a Engine fornece muitos elementos para auxiliar a codificação tornando-a mais fácil, entre eles a utilização de macros e objetos primitivos próprios da Engine.
 
-## Mas quanto usar a linguagem  C++?
+## Mas quando usar a linguagem  C++?
 
 ***
 
@@ -86,9 +82,7 @@ Onde :
 
 Sobre a herança de classes permitem usar classes já definidas para derivar classes novas onde a nova classe herda as propriedades da classe base.
 
-Exemplo:
-
-**C++.**
+### Exemplo em C++
 
 ```cpp
 // Classe Pessoa
@@ -107,7 +101,7 @@ void main() {
 }
 ```
 
-**Blueprint.**
+### Exemplo em Blueprint
 
 ```cpp
 class Hugo: Pessoa
@@ -118,19 +112,6 @@ class Hugo: Pessoa
       float SpeedPlataforma  
       int32 Vida #Error  
 ```
-
-## Tipos de variáveis
-
-***
-
-A seguir vamos apresentar os tipos de variáveis em ambas as linguagens mas no próximo capítulo descrevermos melhor as variáveis.
-
-| Blueprint | C++     |
-|:-:        |:-       |
-|integer    |int32    |
-|Vector     |FVector  |
-|String     |FString  |
-|Float      |float  |
 
 ## Construindo classes C++ no Unreal Engine
 
@@ -341,38 +322,3 @@ UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))
 - `BlueprintReadWrite` - Esta propriedade pode ser lida ou escrita a partir de um Blueprint. Este especificador é incompatível com o especificador BlueprintReadOnly.
 - `EditAnywhere` - Indica que esta propriedade pode ser editada por janelas de propriedades, em arquétipos e instâncias. Este especificador é incompatível com qualquer um dos especificadores "visíveis".
 - `MakeEditWidget` - Usado para propriedades *Transform* ou *Rotator*, ou Matrizes de *Transforms* ou *Rotators*. Indica que a propriedade deve ser exposta na janela de visualização como um *widget* móvel.
-
-## Funções Virtuais
-
-***
-
-"Uma função virtual é uma função de membro que é declarada dentro de uma classe base e é redefinida (Substituída) por uma classe derivada. Quando você se refere a um objeto de classe derivada usando um ponteiro ou uma referência à classe base, pode chamar uma função virtual para esse objeto e executar a versão da função da classe derivada."[Funções Virtuais](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_virtual "Funções Virtuais")
-
-- As funções virtuais garantem que a função correta seja chamada para um objeto, independentemente do tipo de referência (ou ponteiro) usado para a chamada da função;
-
-- Eles são usados principalmente para obter polimorfismo de tempo de execução;
-
-- As funções são declaradas com uma palavra-chave virtual na classe base;
-
-- A resolução da chamada de função é feita em tempo de execução.
-
-Exemplo:
-
-```cpp
-class WeaponBase {
-  public: virtual void OnFire() {}
-};
-class WeaponRifle : public WeaponBase {
-  public: void OnFire() override {}
-};
-
-...
-WeaponRifle
-void anotherFunction(WeaponBase *someWeapon) {
-  someWeapon->OnFire();
-}
-```
-
-- Na função anotherFunction o método chamado em OnFire é WeaponRifle::OnFire().
-
-- O método WeaponBase::OnFire não é chamado pois foi sobreposto.

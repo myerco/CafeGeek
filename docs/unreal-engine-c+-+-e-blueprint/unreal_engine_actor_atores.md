@@ -31,8 +31,6 @@ date: 2022-09-21
 
 - [Posição e coordenadas](#posição-e-coordenadas)
 
-- [Apresentando as coordenadas no ViewPort](#apresentando-as-coordenadas-no-viewport)
-
 - [Trabalhando com herança com Blueprint](#trabalhando-com-herança-com-blueprint)
 
 - [Polimorfismo em C++](#polimorfismo-em-c)
@@ -42,8 +40,6 @@ date: 2022-09-21
 - [Manipulando Actors](#manipulando-actors)
 
 - [Colisões](#colisões)
-
-- [Colisão](#colisão)
 
 ***
 
@@ -575,6 +571,39 @@ O polimorfismo em C++ se apresenta sob diversas formas diferentes, desde as mais
 
 ## Funções virtuais
 
+"Uma função virtual é uma função de membro que é declarada dentro de uma classe base e é redefinida (Substituída) por uma classe derivada. Quando você se refere a um objeto de classe derivada usando um ponteiro ou uma referência à classe base, pode chamar uma função virtual para esse objeto e executar a versão da função da classe derivada."[Funções Virtuais](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_virtual "Funções Virtuais")
+
+- As funções virtuais garantem que a função correta seja chamada para um objeto, independentemente do tipo de referência (ou ponteiro) usado para a chamada da função;
+
+- Eles são usados principalmente para obter polimorfismo de tempo de execução;
+
+- As funções são declaradas com uma palavra-chave virtual na classe base;
+
+- A resolução da chamada de função é feita em tempo de execução.
+
+### Exemplo de função virtual em C++ com Unreal Engine
+
+```cpp
+class WeaponBase {
+  public: virtual void OnFire() {}
+};
+class WeaponRifle : public WeaponBase {
+  public: void OnFire() override {}
+};
+
+...
+WeaponRifle
+void anotherFunction(WeaponBase *someWeapon) {
+  someWeapon->OnFire();
+}
+```
+
+- Na função anotherFunction o método chamado em OnFire é WeaponRifle::OnFire().
+
+- O método WeaponBase::OnFire não é chamado pois foi sobreposto.
+
+### Exemplo de função virtual no C++ 
+
 ```cpp
 #include <iostream>
 
@@ -709,8 +738,6 @@ Para a seção a seguir, abaixo a configuração usada para explicar o que está
 %}
 
 A esfera é um **PhysicsBody** e a caixa é **WorldDynamic**, e alterando suas configurações de colisão podemos obter uma série de comportamentos.
-
-## Colisão
 
 Ao definir ambas as configurações de colisão para bloquear uma à outra, você obtém uma colisão, ótima para que os objetos interajam entre si:
 

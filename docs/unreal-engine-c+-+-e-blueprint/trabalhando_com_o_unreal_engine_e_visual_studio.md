@@ -25,6 +25,12 @@ date: 2022-09-21
 
 - [Entendo as pastas criadas](#entendo-as-pastas-criadas)
 
+- [Compilando o projeto usando o Windows Explorer](#compilando-o-projeto-usando-o-windows-explorer)
+
+- [Organizando pastas e logo do projeto](#organizando-pastas-e-logo-do-projeto)
+
+- [Configurando o projeto](#configurando-o-projeto)
+
 ***
 
 O **Unreal Engine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos e também um ambiente visual de programação abstraindo a lógica de programação.

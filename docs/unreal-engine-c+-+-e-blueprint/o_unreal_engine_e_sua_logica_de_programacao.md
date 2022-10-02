@@ -27,6 +27,9 @@ date: 2022-09-21
 
 - [Estrutura da classe Actor no Unreal Engine](#estrutura-da-classe-actor-no-unreal-engine)
 
+- [Comentários](#comentários)
+
+
 ***
 
 {% include imagebase.html
