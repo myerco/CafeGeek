@@ -34,7 +34,7 @@ layout: home
 
 - [Estruturas de programação no Unreal Engine](estruturas_de_programacao_no_unreal_engine.html)
 
-- [Implementando Atores](atores/unreal_engine_actor_atores.html)
+- [Implementando Atores](unreal_engine_actor_atores.html)
 
 - [Utilizando Eventos, funções e macros](eventos_funcoes/unreal_engine_utilizando_eventos_funcoes_macros.html)  
 

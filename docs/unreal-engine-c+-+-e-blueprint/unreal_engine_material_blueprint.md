@@ -204,7 +204,7 @@ Função para utilizar na mistura.
 
 Fazendo a mistura das duas funções.
 
-{% include image.html
+{% include imagebase.html
     src="unreal/materiais/unreal_engine_material_function_blend_attributes.webp"
     alt="Figura: Material Funciton BlendMaterialAttribute."
     caption="Figura: Material Funciton BlendMaterialAttribute - O parâmetro Alpha controla como os valores são misturados."

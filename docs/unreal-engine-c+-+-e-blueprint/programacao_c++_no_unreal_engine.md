@@ -145,7 +145,7 @@ A seguir vamos implementar uma classe **C++** no **Unreal Engine** para tal util
 %}
 
 {% include imagebase.html
-    src="(unreal/cpp/unreal_engine_add_class_cpp.webp"
+    src="unreal/cpp/unreal_engine_add_class_cpp.webp"
     alt="Figura: Add C++ Class"
     caption="Figura: Adicionando o nome da classe e informando a pasta de armazenamento do arquivo header e de código."
 %}
