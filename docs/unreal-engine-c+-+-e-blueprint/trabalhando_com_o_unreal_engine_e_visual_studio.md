@@ -230,11 +230,11 @@ Para recompilar o projeto e recriar os arquivos podemos utilizar o `explorer` do
 
 1. Escolha a opção `Generate Visual Studio project files`;
 
-{% include imagebase.html
+  {% include imagebase.html
     src="unreal/projeto/unreal_engine_explorer_generate_vs.webp"
     alt="Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files"
     caption="Figura: Recriando os arquivos do projeto usando o explorer com a opção Generate Visual Studio Project files."
-%}
+  %}
 
 1. Aguarde o termino da operação e abra o projeto.
 

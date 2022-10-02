@@ -13,19 +13,19 @@ date: 2022-09-21
 
 ***
 
-- [O que são *Blueprints* e *Visual Scripting?](o_unreal_engine_e_sua_logica_de_programacao.html#o-que-s-o--blueprints--e--visual-scripting-)
+- [O que são Blueprints e Visual Scripting?](#o-que-são-blueprints-e-visual-scripting)
 
-- [Trabalhando com Level ou níveis](o_unreal_engine_e_sua_logica_de_programacao.html#trabalhando-com-level-ou-níveis)
+- [Trabalhando com Level ou níveis](#trabalhando-com-level-ou-níveis)
 
-- [O que é Level Blueprint?](o_unreal_engine_e_sua_logica_de_programacao.html#o-que-é-level-blueprint)
+- [O que é Level Blueprint?](#o-que-é-level-blueprint)
 
-- [Atores e Classes utilizando Blueprint](o_unreal_engine_e_sua_logica_de_programacao.html#atores-e-classes-utilizando-blueprint)
+- [Atores e Classes utilizando Blueprint](#atores-e-classes-utilizando-blueprint)
 
-- [Atores predefinidos ou Place Actors](o_unreal_engine_e_sua_logica_de_programacao.html#atores-predefinidos-ou-place-actors)
+- [Atores predefinidos ou Place Actors](#atores-predefinidos-ou-place-actors)
 
-- [Componentes - Components](o_unreal_engine_e_sua_logica_de_programacao.html#componentes---components)
+- [Componentes - Components](#componentes---components)
 
-- [Estrutura da classe Actor no Unreal Engine](o_unreal_engine_e_sua_logica_de_programacao.html#estrutura-da-classe-actor-no-unreal-engine)
+- [Estrutura da classe Actor no Unreal Engine](#estrutura-da-classe-actor-no-unreal-engine)
 
 ***
 
@@ -35,7 +35,7 @@ date: 2022-09-21
     caption="Figura: Unreal Engine com Blueprint"
 %}
 
-## O que são *Blueprints* e *Visual Scripting?
+## O que são Blueprints e Visual Scripting?
 
 ***
 

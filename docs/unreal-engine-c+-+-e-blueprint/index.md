@@ -30,9 +30,9 @@ layout: home
 
 - [O Unreal Engine e sua lógica de programação](o_unreal_engine_e_sua_logica_de_programacao.html)
 
-- [Programação C++ no Unreal Engine](programacao_c++_no_unreal_engine/index.html)
+- [Programação C++ no Unreal Engine](programacao_c++_no_unreal_engine.html)
 
-- [Estruturas de programação no Unreal Engine](estruturas_de_programacao_no_unreal_engine/index.html)
+- [Estruturas de programação no Unreal Engine](estruturas_de_programacao_no_unreal_engine.html)
 
 - [Implementando Atores](atores/unreal_engine_actor_atores.html)
 

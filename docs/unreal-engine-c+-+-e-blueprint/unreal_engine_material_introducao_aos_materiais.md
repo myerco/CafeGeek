@@ -49,8 +49,8 @@ No exemplo acima podemos verificar uma esfera com diferentes tipos de materiais 
 
 PBR *Physically Based Rendering* significa que o material descreve as propriedades visuais de uma superfície de uma maneira realmente plausível, de modo que os resultados realistas sejam possíveis em todas as condições de iluminação.
 
-{% include image.html
-    src="../imagens/materiais/material_pbr.webp"
+{% include imagebase.html
+    src="unreal/materiais/material_pbr.webp"
     alt="Figura: Material PBR - <https://www.pikpng.com>."
     caption="Figura: Material PBR - <https://www.pikpng.com>."
 %}
@@ -65,8 +65,8 @@ A primeira e mais importante coisa a saber sobre os Materiais é que eles não s
 
 Para criar um material utilizamos o menu de contexto e a opção `Material`.
 
-{% include image.html
-  src="../imagens/materiais/unreal_engine_menu_material.webp"
+{% include imagebase.html
+  src="unreal/materiais/unreal_engine_menu_material.webp"
   alt="Figura: Context Menu > Material."
   caption="Figura: Utilizamos o menu de contexto para criar um material."
 %}
@@ -101,8 +101,8 @@ Os nós de Expressão de Material ou Material Expression contêm pequenos fragme
 
 Conectando Material Expressions, abaixo um exemplo de conexão.
 
-{% include image.html
-  src="../imagens/materiais/unreal_engine_material_connection.webp"
+{% include imagebase.html
+  src="unreal/materiais/unreal_engine_material_connection.webp"
   alt="Figura: Blueprint Material - Exemplo de connection."
   caption="Figura: Blueprint Material - Exemplo de connection."
 %}
@@ -121,24 +121,24 @@ Existem variáveis ou nós específicos para determinar uma propriedade física 
 
 - Constant 1 ou valor escalar- Valor único.
 
-{% include image.html
-  src="../imagens/materiais/unreal_engine_material_node_constant_1.webp"
+{% include imagebase.html
+  src="unreal/materiais/unreal_engine_material_node_constant_1.webp"
   alt="Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó."
   caption="Figura: Blueprint Material - Constant 1 - (Clicando 1 + RMB) para implementar o nó."
 %}
 
 - Constant 2 - Vetor de dois valores.
 
-{% include image.html
-  src="../imagens/materiais/unreal_engine_material_node_constant_2.webp"
+{% include imagebase.html
+  src="unreal/materiais/unreal_engine_material_node_constant_2.webp"
   alt="Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó."
   caption="Figura: Blueprint Material - Constant 2 - (Clicando 2 + RMB) para implementar o nó."
 %}
   
 - Constant 3 - Vetor de três valores.
 
-{% include image.html
-  src="../imagens/materiais/unreal_engine_material_node_constant_3.webp"
+{% include imagebase.html
+  src="unreal/materiais/unreal_engine_material_node_constant_3.webp"
   alt="Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó."
   caption="Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó."
 %}
@@ -147,8 +147,8 @@ Existem variáveis ou nós específicos para determinar uma propriedade física 
 
 Texturas são imagens que são usadas em materiais e são representadas pelo nó abaixo.
 
-{% include image.html
-  src="../imagens/materiais/unreal_engine_material_node_texture_sample.webp"
+{% include imagebase.html
+  src="unreal/materiais/unreal_engine_material_node_texture_sample.webp"
   alt="Figura: Blueprint Material texture - (Clicando T + RMB)."
   caption="Figura: Blueprint Material texture - (Clicando T + RMB)."
 %}
@@ -162,8 +162,8 @@ Tamanhos :
 
 A seguir vamos abordar as características das texturas no **Unreal Engine**.
 
-{% include image.html
-  src="../imagens/materiais/unreal_engine_material_texture.webp"
+{% include imagebase.html
+  src="unreal/materiais/unreal_engine_material_texture.webp"
   alt="Figura: Blueprint Material - Base texture."
   caption="Figura: Blueprint Material, no exemplo utilizamos uma textura para determinar a cor base do objeto, utilizamos o canal vermelho (R) e o canal aplha (A) para alterar as propriedades do material."
 %}
@@ -176,8 +176,8 @@ O nó principal do material é responsável por exibir os resultados de todos os
 
 Abaixo o nó principal e suas principais entradas.
 
-{% include image.html
-  src="../imagens/materiais/unreal_engine_node_result_properties.webp"
+{% include imagebase.html
+  src="unreal/materiais/unreal_engine_node_result_properties.webp"
   alt="Figura: Blueprint Material - Nó principal ou Node Result."
   caption="Figura: Blueprint Material e nó principal, nó que compila todos os parâmetros e valores e aplica no malha."
 %}
@@ -221,8 +221,8 @@ O mapa Normal define em qual direção uma parte de uma superfície é voltada, 
 Usado para simular a maneira como a luz interage com a superfície do material para simular saliências e amassados menores.
 É importante observar que um mapa normal não mudará sua geometria base (consulte os mapas de altura posteriormente neste artigo).
 
-{% include image.html
-  src="../imagens/materiais/unreal_engine_material_normal_rock_basalt.webp"
+{% include imagebase.html
+  src="unreal/materiais/unreal_engine_material_normal_rock_basalt.webp"
   alt="Figura: Blueprint Material - Texture Normal."
   caption="Figura: Exemplo de uma textura de mapa normal."
 %}
@@ -251,8 +251,8 @@ Os mapas de metal também são em tons de cinza, mas a prática recomendada é u
 
 Para exemplificar utilizaremos o canal R (Red) da textura *Rock Basalt*.
 
-{% include image.html
-  src="../imagens/materiais/unreal_engine_material_chanel_r_rock_basalt.webp"
+{% include imagebase.html
+  src="unreal/materiais/unreal_engine_material_chanel_r_rock_basalt.webp"
   alt="Figura: Blueprint Material - Texture Metallic."
   caption="Figura: Exemplo de uma textura que pode ser utilizada como base do parâmetro metallic, a textura é gradiente de negro e branco e representa a escala de 0 (negro) e 1 (pranco)"
 %}
@@ -281,8 +281,8 @@ Por outro lado, se você aumentar a rugosidade ao máximo, a luz se espalhará m
 
 Para exemplificar utilizaremos o canal A (Alpha) da textura `Rock Basalt`.
 
-{% include image.html
-  src="../imagens/materiais/unreal_engine_material_chanel_a_rock_basalt.webp"
+{% include imagebase.html
+  src="unreal/materiais/unreal_engine_material_chanel_a_rock_basalt.webp"
   alt="Figura: Blueprint Material - Texture Roughness."
   caption="Figura: Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante."
 %}
@@ -434,8 +434,8 @@ Controla como o material deve ser usado, por exemplo, se ele deve fazer parte de
 
 - `Virtual Texture` - Usado ao fazer uma textura virtual em tempo de execução;
 
-{% include image.html
-    src="../imagens/materiais/unreal_engine_material_type_input.webp"
+{% include imagebase.html
+    src="unreal/materiais/unreal_engine_material_type_input.webp"
     alt="Figura: Blueprint Material- Type input."
     caption="Figura: Material Domain."
 %}
@@ -444,8 +444,8 @@ Controla como o material deve ser usado, por exemplo, se ele deve fazer parte de
 
 Para aplicar o material em um objeto podemos selecionar o objeto e atualizamos a propriedade `MATERIALS` selecionando o material criando anteriormente.
 
-{% include image.html
-    src="../imagens/materiais/unreal_engine_material_applying.webp"
+{% include imagebase.html
+    src="unreal/materiais/unreal_engine_material_applying.webp"
     alt="Figura: Blueprint Material -  Applying Material."
     caption="Figura: Aplicando um material em um objeto."
 %}

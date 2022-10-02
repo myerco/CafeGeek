@@ -31,8 +31,8 @@ Selecione um ator no `View Port` e adicione uma referência no `Open Level Bluep
 
 ***
 
-{% include image.html
-    src="../imagens/materiais/unreal_engine_material_bp_create_material_instance_set.webp"
+{% include imagebase.html
+    src="unreal/materiais/unreal_engine_material_bp_create_material_instance_set.webp"
     alt="Figura: Blueprint Material - Create material instance set."
     caption="Figura: Acima a lógica para criar o material instance e alterar a textura."
 %}
@@ -59,8 +59,8 @@ Selecione um ator no `View Port` e adicione uma referência no `Open Level Bluep
 
 O script habilita o click do mouse e quando selecionado um objeto o evento customizado Change Color e acionado.
 
-{% include image.html
-    src="../imagens/materiais/unreal_engine_material_bp_level_blueprint_call_event.webp"
+{% include imagebase.html
+    src="unreal/materiais/unreal_engine_material_bp_level_blueprint_call_event.webp"
     alt="Figura: Blueprint Material - Open Level blueprint call event."
     caption="Figura: No Level Blueprint implemente a lógica para chamar o Evento ChangeColor."
 %}
@@ -75,24 +75,24 @@ Podemos definir parâmetros globais, que efetem todo o jogo, para que os materia
 
 Criando parâmetros globais utilizamos a opção do menu de contexto `Materials & Textures > Material Parameter Gobal`.
 
-{% include image.html
-    src="../imagens/materiais/unreal_engine_material_menu_parameter_collection.webp"
+{% include imagebase.html
+    src="unreal/materiais/unreal_engine_material_menu_parameter_collection.webp"
     alt="Figura: Blueprint Material - Parameter Collections."
     caption="Figura: Menu de contexto > Materials & Textures > Material Parameter Collection"
 %}
 
 Depois de criado o objeto podemos adicionar e editar valores do tipo `Scalar` e `Vector` no objeto `Parameter Collection`. Exemplo de nome `MPC_Base`.
 
-{% include image.html
-    src="../imagens/materiais/unreal_engine_material_edit_parameter_collection.webp"
+{% include imagebase.html
+    src="unreal/materiais/unreal_engine_material_edit_parameter_collection.webp"
     alt="Figura: Blueprint Material - Editor de Parameter Collection."
     caption="Figura: Blueprint Material - Editor de Parameter Collection."
 %}
 
 No Editor de Materiais usamos o menu de contexto (RMB) e escolhemos a opção `Material Parameter Collection` selecionando o objeto criado com os parâmetros em `Collection`, `MPC_Base`.
 
-{% include image.html
-    src="../imagens/materiais/unreal_engine_material_collectionparameter.webp"
+{% include imagebase.html
+    src="unreal/materiais/unreal_engine_material_collectionparameter.webp"
     alt="Figura: Blueprint Material - Collection Parameter."
     caption="Figura: Blueprint Material - Chamando no editor de materiais um Collection Parameter."
 %}
@@ -106,8 +106,8 @@ São compostas basicamente por entradas de parâmetros e saída de dados.
 
 Utilizamos o menu de Contexto `Material & Textures` > `Material Function` para criar as funções;
 
-{% include image.html
-    src="../imagens/materiais/unreal_engine_material_function_output.webp"
+{% include imagebase.html
+    src="unreal/materiais/unreal_engine_material_function_output.webp"
     alt="Figura: Blueprint Material Function - Output."
     caption="Figura: O editor da lógica da função criada utiliziando os nós Texture Sample e um Vector 3 e redirecionando para a saída Output Result."
 %}
@@ -116,8 +116,8 @@ Utilizamos o menu de Contexto `Material & Textures` > `Material Function` para c
 
 - Podemos adicionar parâmetros para a função.
 
-{% include image.html
-    src="../imagens/materiais/unreal_engine_material_function_call.webp"
+{% include imagebase.html
+    src="unreal/materiais/unreal_engine_material_function_call.webp"
     alt="Figura: Bluepritn Material Function Call."
     caption="Figura: Chamamos a função dentro do editor de materiais usando a função MaterialFunctionCall."
 %}
@@ -126,16 +126,16 @@ Utilizamos o menu de Contexto `Material & Textures` > `Material Function` para c
 
 O nó `Make Material Attributes` une vários atributos. Isso é útil ao criar suas próprias funções de camada de material, pois você terá acesso a todos os atributos padrão para sua saída. Isso também pode ser usado para configurações de material complexas nas quais você deseja definir mais de um tipo de material e combiná-los, tudo dentro de um material.
 
-{% include image.html
-    src="../imagens/materiais/unreal_engine_material_function_makematerialattributes.webp"
+{% include imagebase.html
+    src="unreal/materiais/unreal_engine_material_function_makematerialattributes.webp"
     alt="Figura: Blueprint Material - MakeMaterialAttribute."
     caption="Figura: Podemos juntar vários atributos utilizando MakeMaterialAttribute possibilitando construir camadas ou Layers e utilizar no retorno da função."
 %}
 
 Ao usar a nó é necessário configurar o nó resultado do material principal com `Use Material Attribute` para `True`.
 
-{% include image.html
-    src="../imagens/materiais/unreal_engine_material_use_material_attributes.webp"
+{% include imagebase.html
+    src="unreal/materiais/unreal_engine_material_use_material_attributes.webp"
     alt="Figura: Blueprint Material - Nó resultado com Use Material Attribute true."
     caption="Figura: Devemos configurar o nó resultado do material com Use Material Attribute true."
 %}
@@ -144,8 +144,8 @@ Ao usar a nó é necessário configurar o nó resultado do material principal co
 
 É o inverso de `MakeMaterialAttribute` possibilitando a separação dos atributos recebidos por uma função.
 
-{% include image.html
-    src="../imagens/materiais/unreal_engine_material_breakmaterialattributes.webp"
+{% include imagebase.html
+    src="unreal/materiais/unreal_engine_material_breakmaterialattributes.webp"
     alt="Figura: Blueprint Material - BreakMaterialAttribute."
     caption="Figura: Blueprint Material - BreakMaterialAttribute."
 %}
@@ -176,8 +176,8 @@ Logo em seguida configuramos a propriedade `Material Function`.
 
 Usamos `SetMaterialAttributes` para adicionar outros atributos no resultado de uma função que retorna um conjunto de atributos.
 
-{% include image.html
-    src="../imagens/materiais/unreal_engine_material_setmaterialattributes.webp"
+{% include imagebase.html
+    src="unreal/materiais/unreal_engine_material_setmaterialattributes.webp"
     alt="Figura: Blueprint Material - SetMaterialAttributes."
     caption="Figura: Blueprint Material - A função MF_Base retorna um conjunto de atributos e com o nó SetMaterialAttributes podemos adicionar ou alterar os atributos vindos da função."
 %}
@@ -188,16 +188,16 @@ Usamos `BlendMaterialAttribute` para misturar duas funções, implementaremos du
 
 Função com a cor da base.
 
-{% include image.html
-    src="../imagens/materiais/unreal_engine_material_function_base.webp"
+{% include imagebase.html
+    src="unreal/materiais/unreal_engine_material_function_base.webp"
     alt="Figura: Material Funciton base."
     caption="Figura: Blueprint Material - A função MF_Base implementa detalhes básicos de um material."
 %}
 
 Função para utilizar na mistura.
 
-{% include image.html
-    src="../imagens/materiais/unreal_engine_material_function_rust.webp"
+{% include imagebase.html
+    src="unreal/materiais/unreal_engine_material_function_rust.webp"
     alt="Figura: Material Funciton Rust base."
     caption="Figura: Blueprint Material - Função rust."
 %}
@@ -205,7 +205,7 @@ Função para utilizar na mistura.
 Fazendo a mistura das duas funções.
 
 {% include image.html
-    src="../imagens/materiais/unreal_engine_material_function_blend_attributes.webp"
+    src="unreal/materiais/unreal_engine_material_function_blend_attributes.webp"
     alt="Figura: Material Funciton BlendMaterialAttribute."
     caption="Figura: Material Funciton BlendMaterialAttribute - O parâmetro Alpha controla como os valores são misturados."
 %}

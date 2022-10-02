@@ -2,8 +2,28 @@
 title: Programação C++ no Unreal Engine
 description: Neste capítulo será apresentado o modelo da lógica de programação utilizando **C++** com **Unreal Engine**.
 tags: [Unreal Engine,desenvolvimento,programação, blueprint,lógica,c++]
-layout: page
+categories: Unreal Engine
+author: 
+- Cafegeek
+layout: post
+date: 2022-09-21 
 ---
+
+## Índice
+
+***
+
+[Mas quanto usar a linguagem  C++?](#mas-quanto-usar-a-linguagem--c)
+
+[O fluxo de desenvolvimento e Herança](#o-fluxo-de-desenvolvimento-e-herança)
+
+[Tipos de variáveis](#tipos-de-variáveis)
+
+[Construindo classes C++ no Unreal Engine](#construindo-classes-c-no-unreal-engine)
+
+[Sintaxe da linguagem e C++ e macros do Unreal Engine](#sintaxe-da-linguagem-e-c-e-macros-do-unreal-engine)
+
+[Funções Virtuais](#funções-virtuais)
 
 ***
 
@@ -12,6 +32,8 @@ O **C++** por ter como base de desenvolvimento o C tem o benefício da rapidez e
 O **Unreal Egine** utiliza a linguagem **C++** aproveitando todas as funcionalidades que a linguagem fornece, como por exemplo o gerenciamento otimizado de memória, quanto a implementação a Engine fornece muitos elementos para auxiliar a codificação tornando-a mais fácil, entre eles a utilização de macros e objetos primitivos próprios da Engine.
 
 ## Mas quanto usar a linguagem  C++?
+
+***
 
 Não há uma resposta definitiva dessa questão mas podemos considerar algumas diferenças entre **Blueprint** e o **C++**, segue abaixo algumas considerações.
 
@@ -40,6 +62,8 @@ A resposta é depende do problema mas considere o seguinte:
 - Para equipes pequenas com cultura de desenvolvimento e necessidade de processamento é recomendado **C++**.
 
 ## O fluxo de desenvolvimento e Herança
+
+***
 
 Um modelo de desenvolvimento utilizando **C++** pode ser visto abaixo onde primeiro criamos a classe do objeto A em **C++** e depois uma classe **Blueprint** B filha da classe A. Fazendo isso pode-se aproveitar as características de ambas linguagens, como por exemplo: lógica em **C++** e parametrização de componentes visuais usando o Editor **Blueprint**.  
 
@@ -97,6 +121,8 @@ class Hugo: Pessoa
 
 ## Tipos de variáveis
 
+***
+
 A seguir vamos apresentar os tipos de variáveis em ambas as linguagens mas no próximo capítulo descrevermos melhor as variáveis.
 
 | Blueprint | C++     |
@@ -108,15 +134,21 @@ A seguir vamos apresentar os tipos de variáveis em ambas as linguagens mas no p
 
 ## Construindo classes C++ no Unreal Engine
 
+***
+
 A seguir vamos implementar uma classe **C++** no **Unreal Engine** para tal utilizamos o `Menu Tools` > `New C++ Class`.
 
-![Figura: Create Class C++](../imagens/cpp/unreal_engine_create_class_cpp.webp "Figura: Create Class C++")
+{% include imagebase.html
+    src="unreal/cpp/unreal_engine_create_class_cpp.webp"
+    alt="Figura: Create Class C++"
+    caption="Figura: Criando a classe Actor em C++."
+%}
 
-> Figura: Create Class C++.
-
-![Figura: Add C++ Class](../imagens/cpp/unreal_engine_add_class_cpp.webp "Figura: Add C++ Class")
-
-> Figura: Add C++ Class.
+{% include imagebase.html
+    src="(unreal/cpp/unreal_engine_add_class_cpp.webp"
+    alt="Figura: Add C++ Class"
+    caption="Figura: Adicionando o nome da classe e informando a pasta de armazenamento do arquivo header e de código."
+%}
 
 O **Unreal Engine** vai criar dois arquivos, o arquivo header (.h) e o de implementação (.cpp), sugerindo separar ambos nas pastas `private` e `header`.
 
@@ -233,6 +265,8 @@ protected:
 
 ## Sintaxe da linguagem e C++ e macros do Unreal Engine
 
+***
+
 A seguir vamos apresentar algumas características de linguagem e as macros que facilitam a implementação em **C++**.
 
 ### O arquivo Include
@@ -310,6 +344,8 @@ UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))
 
 ## Funções Virtuais
 
+***
+
 "Uma função virtual é uma função de membro que é declarada dentro de uma classe base e é redefinida (Substituída) por uma classe derivada. Quando você se refere a um objeto de classe derivada usando um ponteiro ou uma referência à classe base, pode chamar uma função virtual para esse objeto e executar a versão da função da classe derivada."[Funções Virtuais](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_virtual "Funções Virtuais")
 
 - As funções virtuais garantem que a função correta seja chamada para um objeto, independentemente do tipo de referência (ou ponteiro) usado para a chamada da função;
@@ -337,5 +373,6 @@ void anotherFunction(WeaponBase *someWeapon) {
 }
 ```
 
-Na função anotherFunction o método chamado em OnFire é WeaponRifle::OnFire().
-O método WeaponBase::OnFire não é chamado pois foi sobreposto.
+- Na função anotherFunction o método chamado em OnFire é WeaponRifle::OnFire().
+
+- O método WeaponBase::OnFire não é chamado pois foi sobreposto.

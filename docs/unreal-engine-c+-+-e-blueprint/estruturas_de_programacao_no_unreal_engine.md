@@ -2,14 +2,57 @@
 title: Estruturas de programação no Unreal Engine
 description: Neste capítulo serão descritas as estruturas de armazenamento, manipulação e fluxo da lógica de programação.
 tags: [Unreal Engine,blueprint,programação,estruturas,variáveis,c++]
-layout: page
+categories: Unreal Engine
+author: 
+- Cafegeek
+layout: post
+date: 2022-09-21 
 ---
 
-![Blueprint Variables](../imagens/variaveis/unreal_engine_variables.webp "Blueprint Variables")
+## Índice
 
-> Figura: Blueprint Variáveis.
+***
+[O que são variáveis?](#o-que-são-variáveis)
+
+[Variáveis no Unreal Engine](#variáveis-no-unreal-engine)
+
+[Métodos Get e Set](#métodos-get-e-set)
+
+[Tratamento e armazenamento de texto no Unreal Engine](#tratamento-e-armazenamento-de-texto-no-unreal-engine)
+
+[Variáveis do tipo numéricas Integer e Float](#variáveis-do-tipo-numéricas-integer-e-float)
+
+[Armazenando valores lógicos com Boolean](#armazenando-valores-lógicos-com-boolean)
+
+[Controle de acesso a variáveis](#controle-de-acesso-a-variáveis)
+
+[O que são estruturas de controle ou fluxo?](#o-que-são-estruturas-de-controle-ou-fluxo)
+
+[Estruturas de fluxo condicional](#estruturas-de-fluxo-condicional)
+
+[Estruturas de repetição](#estruturas-de-repetição)
+
+[O que são variáveis do tipo array?](#o-que-são-variáveis-do-tipo-array)
+
+[Declarando arrays e acessando os seus elementos](#declarando-arrays-e-acessando-os-seus-elementos)
+
+[Percorrendo arrays](#percorrendo-arrays)
+
+[Removendo elementos do array](#removendo-elementos-do-array)
+
+[O que são Enums?](#o-que-são-enums)
+
+***
+
+{% include imagebase.html
+    src="unreal/variaveis/unreal_engine_variables.webp"
+    alt="Blueprint Variables."
+    caption="Blueprint Variables."
+%}
 
 ## O que são variáveis?
+
+***
 
 Variáveis são estruturas que são utilizadas para armazenar um valor de um determinado tipo na memória do computador.
 
@@ -74,23 +117,25 @@ Para armazenar qualquer informação na memória devemos definir um tipo de dado
 
 Declarando variáveis informamos ao computador que estamos reservando um espaço de memória temporário.  
 
-**Blueprint.**
+#### Variáveis no Editor de Blueprint
 
-- Variáveis no Editor de Blueprint.
-
-    ![Figura: Blueprint Variables.](../imagens/variaveis/unreal_engine_variable.webp "Figura: Blueprint Variables.")
-
-    > Figura: Blueprint Variables.
+{% include imagebase.html
+    src="unreal/variaveis/unreal_engine_variable.webp"
+    alt="Figura: Blueprint Variables."
+    caption="Figura: Blueprint Variables."
+%}
 
 - As variáveis tem tipos e propriedades que determinam o sua utilização.  
 
-    ![Figura: Details ou properiedades das variáveis.](../imagens/variaveis/unreal_engine_variable_details.webp "Figura: Details ou properiedades das variáveis.")
+{% include imagebase.html
+    src="unreal/variaveis/unreal_engine_variable_details.webp"
+    alt="Figura: Details ou properiedades das variáveis."
+    caption="Figura: Details ou properiedades das variáveis."
+%}
 
-    > Figura: Details ou properiedades das variáveis.
+Observe que a propriedade `Category` agrupa as variáveis por uma categoria.
 
-    Observe que a propriedade `Category` agrupa as variáveis por uma categoria.
-
-**C++.**
+#### Variáveis em C++
 
 ```cpp
 UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Parâmetros")
@@ -99,17 +144,21 @@ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Parâmetros")
 
 ## Métodos Get e Set
 
+***
+
 Para acessar o conteúdo das variáveis utilizamos os métodos `Get` e `Set`, onde:
 
 - `Get`: Obtém o valor de uma variável.
 
 - `Set`: Atualiza o valor da variável.
 
-**Blueprint.**
+### Métodos Get e Set Blueprint
 
-![Figura: Métodos Get e Set.](../imagens/variaveis/unreal_engine_get_set.webp "Figura: Métodos Get e Set.")
-
-> Figura: Métodos Get e Set.
+{% include imagebase.html
+    src="unreal/variaveis/unreal_engine_get_set.webp"
+    alt="Figura: Métodos Get e Set."
+    caption="Figura: Métodos Get e Set."
+%}
 
 - `BeginPlay` - Ao iniciar o jogo a lista de comandos conectados a estes nó deve ser acionado.
 
@@ -119,7 +168,7 @@ Para acessar o conteúdo das variáveis utilizamos os métodos `Get` e `Set`, on
 
 - `Converts` - Converte tipos de variáveis, neste caso converte um valor do tipo `integer` em um do tipo `String`.
 
-**C++.**
+### Métodos Get e Set em C++
 
 Arquivo Header.
 
@@ -147,6 +196,8 @@ void AMyHeroClass::BeginPlay()
 
 ## Tratamento e armazenamento de texto no Unreal Engine
 
+***
+
 No **Unreal Engine** são definidos alguns tipos de dados para manipulação e armazenamento de caracteres alfanuméricos, entre elas estão os tipos de variáveis a seguir.
 
 | Variável          |Tamanho    | Considerações               |
@@ -167,13 +218,15 @@ Podemos realizar as seguintes operações em `strings`:
 
 - Procurar uma determinada letra ou Substring dentro da `string`.
 
-**Blueprint.**
+### Strings em Blueprint
 
-![Figura: String functions.](../imagens/variaveis/unreal_engine_string_functions.webp "Figura: String functions.")
+{% include imagebase.html
+    src="unreal/variaveis/unreal_engine_string_functions.webp"
+    alt="Figura: String functions."
+    caption="Figura: String functions."
+%}
 
-> Figura: String functions.
-
-**C++.**
+### String em C++
 
 Arquivo header.
 
@@ -234,18 +287,16 @@ sTexto.append("Cruel");
 // Resultado: Alo mundo...Cruel
 ```
 
-### Procurando texto dentro de uma string
+### Procurando texto dentro de uma string em Blueprint
 
 A função `Contains` procura uma sequencia de caracteres dentro de uma `string`, passamos os seguintes parâmetros para a função.
-
-**Blueprint.**
 
 - `Search In` - Texto passado como parâmetro.
 - `Substring` - Texto que deve ser localizado.
 - `Use Case` - Diferencia maiúsculas e minúsculas.
  `Search from end` - Inicia a busca pelo fim do texto.
 
-**C++.**
+### Procurando texto com C++
 
 ```cpp
 
@@ -263,15 +314,21 @@ else
 
 ## Variáveis do tipo numéricas Integer e Float
 
+***
+
+### Inteiro em Blueprint
+
 Valores numéricos utilizam operadores matemáticos para a sua manutenção, como veremos a seguir.  
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/variaveis/unreal_engine_variable_division.webp"
+    alt="Figura: Utilizando Divisão."
+    caption="Figura: Utilizando Divisão."
+%}
 
-![Figura: Utilizando Divisão.](../imagens/variaveis/unreal_engine_variable_division.webp "Figura: Utilizando Divisão.")
+### Inteiro em C++
 
-> Figura: Utilizando Divisão.
-
-**C++.**
+***
 
 ```cpp
 void AMyCharacterClass::BeginPlay()
@@ -284,9 +341,11 @@ void AMyCharacterClass::BeginPlay()
 }
 ```
 
-![Figura: Multiplicação valores.](../imagens/variaveis/unreal_engine_variable_multiplication.webp "Figura: Multiplicação valores.")
-
-> Figura: Multiplicação valores.
+{% include imagebase.html
+    src="unreal/variaveis/unreal_engine_variable_multiplication.webp"
+    alt="Figura: Multiplicação valores."
+    caption="Figura: Multiplicação valores."
+%}
 
 - (+) - soma;
 
@@ -296,50 +355,58 @@ void AMyCharacterClass::BeginPlay()
 
 ## Armazenando valores lógicos com Boolean
 
+***
+
 Armazena dois valores : falso `false` ou verdadeiro `true`.
 
-![Figura: Variável Boolean.](../imagens/variaveis/unreal_engine_variable_boolean.webp "Figura: Variável Boolean.")
-
-> Figura: Variável Boolean.
+{% include imagebase.html
+    src="unreal/variaveis/unreal_engine_variable_boolean.webp"
+    alt="Figura: Variável Boolean."
+    caption="Figura: Variável Boolean."
+%}
 
 No exemplo acima se o valor de `life` for maior que 50 então o valor é atualizado para `true`.
 
 ## Controle de acesso a variáveis
 
+***
+
 Como especificar quais variáveis de um objeto um usuário pode acessar e quais estão fora dos limites? - usando os especificadores de controle de acesso público e privado.
 
-### Variáveis Privadas
+### Variáveis Privadas em Blueprint
 
 Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada por módulos externos.  
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/variaveis/unreal_engine_variable_private_details.webp"
+    alt="Figura: Private details."
+    caption="Figura: Private details."
+%}
 
-![Figura: Private details.](../imagens/variaveis/unreal_engine_variable_private_details.webp "Figura: Private details.")
-
-> Figura: Private details.
-
-**C++.**
+### Variáveis Privadas em C++
 
 ```cpp
 private:
    bool Running = false;
 ```
 
-### Variáveis Públicas
+### Variáveis Públicas com Blueprint
 
 Para permitir que uma variável seja modificada de fora de seu módulos, torne-a pública.  
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/variaveis/unreal_engine_variable_public.webp"
+    alt="Figura: Public."
+    caption="Figura: Public."
+%}
 
-![Figura: Public.](../imagens/variaveis/unreal_engine_variable_public.webp "Figura: Public.")
+{% include imagebase.html
+    src="unreal/variaveis/unreal_engine_variable_public_details.webp"
+    alt="Figura: Public details."
+    caption=Figura: Public details."
+%}
 
-> Figura: Public.
-
-![Figura: Public details.](../imagens/variaveis/unreal_engine_variable_public_details.webp "Figura: Public details.")
-
-> Figura: Public details.
-
-**C++.**
+### Variáveis Públicas com C++
 
 ```cpp
 public:
@@ -348,13 +415,15 @@ public:
 
 ```
 
-## 6.8 O que são estruturas de controle ou fluxo?
+## O que são estruturas de controle ou fluxo?
+
+***
 
 Em linguagens de programação existem métodos de tomada de decisão para tarefas corriqueiras que os programas podem executar, por exemplo a escolha de qual caminho ou instrução executar. Em **Bluprints** utilizamos nós específicos para controle de fluxo como por exemplo o `Branch`.
 
-Exemplo de fluxo de execução, considere a sequencia de comandos abaixo:
+### Exemplo de fluxo de execução em C++
 
-**C++.**
+Considere a sequencia de comandos abaixo:
 
 ```cpp
 int32 i, x, resultado=0;
@@ -381,7 +450,7 @@ UE_LOG(LogTemp, Warning, TEXT("O resultado é %d"), resultado);
 
 O resultado será 0 pois a condição de controle de fluxo **if** provocou um desvio do fluxo de instruções.
 
-**Exemplo de fluxo condicional.**
+### Exemplo de fluxo condicional 
 
 |           |t1 |t2 |t3 |t4 |t5 |t6 |t7 |t8 |t9 |
 |:-         |:- |:- |:- |:- |:- |:- |:- |:- |:- |
@@ -397,19 +466,23 @@ O resultado será 0 pois a condição de controle de fluxo **if** provocou um de
 
 ## Estruturas de fluxo condicional
 
+***
+
 A seguir vamos entender como é fluxo condicional é descrito com programação visual usando **Blueprint**.
 
 ### Controle de fluxo com Branch (if)
 
 `Branch` é uma estrutura condicional que testa uma variável utilizando uma expressão lógica e redireciona o fluxo da lógica.
 
-**Blueprint.**
+#### IF em Blueprint
 
-![Figura: Blueprint e branch ou if.](../imagens/estruturascontrole/blueprint_example_if.webp "Figura: Blueprint e branch ou if.")
+{% include imagebase.html
+    src="unreal/estruturascontrole/blueprint_example_if.webp"
+    alt="Figura: Blueprint e branch ou if."
+    caption="Figura: Blueprint e branch ou if."
+%}
 
-> Figura: Blueprint e branch ou if.
-
-**C++.**
+#### IF em C++
 
 ```cpp
 if ( 2 >= 4)
@@ -426,13 +499,15 @@ else
 
 O nó `Switch` lê uma entrada de dados e, com base no valor dessa entrada, envia o fluxo de execução para fora da saída de execução correspondente (ou padrão opcional). Existem vários tipos de opções disponíveis: `Int`, `String`, `Name` e `Enum`.
 
-**Blueprint.**
+#### Switchs node em Blueprint
 
-![Figura: Blueprint e Switch ou Case.](../imagens/estruturascontrole/blueprint_exemple_switch.webp "Figura: Blueprint e Switch ou Case.")
+{% include imagebase.html
+    src="unreal/estruturascontrole/blueprint_exemple_switch.webp"
+    alt="Figura: Blueprint e Switch ou Case."
+    caption="Figura: Blueprint e Switch ou Case."
+%}
 
-> Figura: Blueprint e Switch ou Case
-
-**C++.**
+#### Switchs node em C++
 
 ```cpp
 
@@ -457,7 +532,7 @@ switch (VariavelInt)
 
 Em geral, os `switches` têm uma entrada de execução e uma entrada de dados para o tipo de dados que avaliam. As saídas são todas as saídas de execução. Os switches `Enum` geram automaticamente os pinos de execução de saída das propriedades do `Enum`, enquanto os `switches` `Int`, `String` e `Name` possuem pinos de execução de saída personalizáveis.
 
-**Referências:**
+### Referências
 
 - Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions.  [https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/ "Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions")
 - Couch Learn. (2019,Dezenbro 27). Switch Statements in Unreal Engine 4. [https://couchlearn.com/switch-statements-in-unreal-engine-4/](https://couchlearn.com/switch-statements-in-unreal-engine-4/ "https://couchlearn.com/switch-statements-in-unreal-engine-4/")
@@ -466,45 +541,49 @@ Em geral, os `switches` têm uma entrada de execução e uma entrada de dados pa
 
 O nó `Sequence` permite que um único pulso de execução acione uma série de eventos em ordem. O nó pode ter qualquer número de saídas, todas chamadas assim que o nó Sequência receber uma entrada. Eles sempre serão chamados em ordem, mas sem qualquer demora. Para um usuário típico, as saídas provavelmente parecerão ter sido disparadas simultaneamente.
 
-**Blueprint.**
+#### Sequence em Blueprint
 
-![Figura: Blueptint Sequence.](../imagens/estruturascontrole/blueprint_example_sequence.webp "Figura: Blueptint Sequence.")
+{% include imagebase.html
+    src="unreal/estruturascontrole/blueprint_example_sequence.webp"
+    alt="Figura: Blueptint Sequence."
+    caption="Figura: Blueptint Sequence."
+%}
 
-> Figura: Blueptint Sequence.
-
-**C++.**
+#### Sequence em C++
 
 ```cpp
 // Não tem similar em C++, deve ser implementado
 ```
 
-### Flip Flop
+### Flip Flop em Blueprint
 
 O nó `Flip Flop` obtém uma saída de execução e alterna entre duas saídas de execução. Na primeira vez que é chamado, a saída A é executada. Na segunda vez, B. Depois A, B e assim por diante. O nó também possui uma saída booleana que permite rastrear quando a Saída A foi chamada.
 
 **Blueprint.**
 
-![Figura: Bluprint Flip FLop.](../imagens/estruturascontrole/blueprint_example_flip_flop.webp "Figura: Bluprint Flip FLop.")
+{% include imagebase.html
+    src="unreal/estruturascontrole/blueprint_example_flip_flop.webp"
+    alt="Figura: Bluprint Flip FLop."
+    caption="Figura: Bluprint Flip FLop."
+%}
 
-> Figura: Bluprint Flip FLop.
-
-**C++.**
+### Flip Flop em C++
 
 ```cpp
 // Não tem similar em C++, deve ser implementado
 ```
 
-### Gate e Multi Gate
+### Gate e Multi Gate em Blueprint
 
 O nó `MultiGate` recebe um único pulso de dados e o encaminha para qualquer número de saídas potenciais. Isso pode ocorrer sequencialmente, aleatoriamente e pode ou não ser executado em loop.
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/estruturascontrole/blueprint_example_multigate.webp"
+    alt="Figura: Blueprint MultiGate."
+    caption="Figura: Blueprint MultiGate."
+%}
 
-![Figura: Blueprint MultiGate.](../imagens/estruturascontrole/blueprint_example_multigate.webp "Figura: Blueprint MultiGate.")
-
-> Figura: Blueprint MultiGate.
-
-**C++.**
+### Gate e Multi Gate em C++
 
 ```cpp
 // Não tem similar em C++, deve ser implementado
@@ -512,19 +591,21 @@ O nó `MultiGate` recebe um único pulso de dados e o encaminha para qualquer n�
 
 ## Estruturas de repetição
 
+***
+
 Podemos utilizar estruturas de repetição para repetir instruções ou nós, a seguir vamos entender algumas dessas estruturas.
 
-### For Loop
+### For Loop em Blueprint
 
 O nó `For Loop` funciona como um loop de código padrão, disparando um pulso de execução para cada índice entre o início e o fim.
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/estruturascontrole/blueprint_example_forloop.webp"
+    alt="Figura: Blueprint for loop."
+    caption="Figura: Blueprint for loop."
+%}
 
-![Figura: Blueprint for loop.](../imagens/estruturascontrole/blueprint_example_forloop.webp "Figura: Blueprint for loop.")
-
-> Figura: Blueprint for loop.
-
-**C++.**
+### For Loop em C++
 
 ```cpp
 for (int i = 0; i < 4; i++ ){
@@ -536,17 +617,17 @@ UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
 
 ```
 
-### While Loop
+### While Loop em Blueprint
 
 Uma condição de teste e um corpo são tudo o que constitui um *loop While*. Antes de executar a (s) instrução (ões) em seu corpo, o **Blueprint** avalia a condição de teste `While Loops` para determinar se ela é verdadeira.
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/estruturascontrole/blueprint_example_whileloop.webp"
+    alt="Figura: Bluprint While loop."
+    caption="Figura: Bluprint While loop."
+%}
 
-![Figura: Bluprint While loop.](../imagens/estruturascontrole/blueprint_example_whileloop.webp "Figura: Bluprint While loop.")
-
-> Figura: Bluprint While loop.
-
-**C++.**
+### While Loop em C++
 
 ```cpp
 int32 valor = 0;
@@ -557,37 +638,37 @@ while ( valor <= 4) {
 UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
 ```
 
-### Do N
+### Do N em Blueprint
 
 O nó `Do N` disparará um pulso de execução N vezes. Depois que o limite for atingido, ele interromperá todas as execuções de saída até que um pulso seja enviado para sua entrada Reset.
 
-**Blueprint.**
-
-![Figura: Blueprint Do N.](../imagens/estruturascontrole/blueprint_example_do_n.webp "Figura: Blueprint Do N.")
-
-> Figura: Blueprint Do N.
+{% include imagebase.html
+    src="unreal/estruturascontrole/blueprint_example_do_n.webp"
+    alt="Figura: Blueprint Do N."
+    caption="Figura: Blueprint Do N."
+%}
 
 No exemplo acima toda vez que a tecla H for pressionada um valor vai ser apresentado. Quanto o valor 10 for atingido a instrução `Print String` não será executada.
 
 Pressionando a tecla J a contagem será reiniciada.
 
-**C++.**
+### Do N em C++
 
 ```cpp
 // Não tem similar em C++, deve ser implementado
 ```
 
-### Do once
+### Do once em Blueprint
 
 O nó `Do Once` - como o nome sugere - disparará um pulso de execução apenas uma vez. Desse ponto em diante, ele interromperá toda a execução de saída até que um pulso seja enviado para sua entrada Reset. Este nó é equivalente a um nó `Do N` onde N = 1.
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/estruturascontrole/blueprint_example_do_once.webp"
+    alt="Figura: Blueprint Do Once."
+    caption="Figura: Blueprint Do Once."
+%}
 
-![Figura: Blueprint Do Once.](../imagens/estruturascontrole/blueprint_example_do_once.webp "Figura: Blueprint Do Once.")
-
-> Figura: Blueprint Do Once.
-
-**C++.**
+### Do once em C++
 
 ```cpp
 // Não tem similar em C++, deve ser implementado.
@@ -633,13 +714,17 @@ StrArr.Emplace(TEXT("World"));
 
 ## Declarando arrays e acessando os seus elementos
 
+***
+
 Para declarar variáveis do tipo *array* devemos primeiro escolher um tipo de variável primitivo, como por exemplo um tipo `String`, e logo em seguida determinar que será um *array*, vamos aos exemplos.
 
-**Blueprint.**
+### Array em Blueprint
 
-![Figura: Blueprint array details.](../imagens/array/blueprint_array_declare.webp "Figura: Blueprint array details.")
-
-> Figura: Blueprint array details.
+{% include imagebase.html
+    src="unreal/array/blueprint_array_declare.webp"
+    alt="Figura: Blueprint array details."
+    caption="Figura: Blueprint array details."
+%}
 
 - `Nomes` - É uma variável *array*, como o ícone de mini grid informa,do tipo `String`;
 
@@ -647,40 +732,42 @@ Para declarar variáveis do tipo *array* devemos primeiro escolher um tipo de va
 
 Em **Blueprint** a variável é representada por um ícone 3x3.
 
-![Figura: Blueprint Arrays.](https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/Blueprints/UserGuide/Arrays/array_selected.webp "Figura: Blueprint Arrays.")
+{% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/Blueprints/UserGuide/Arrays/array_selected.webp"
+    alt="Figura: Blueprint Arrays."
+    caption="Figura: Blueprint Arrays."
+%}
 
-> Figura: Blueprint Arrays.
-
-### Método Get para arrays
+### Método Get para arrays com Blueprint
 
 Para acessar qualquer elemento dentro *array* é necessários utilizar o índice, como no exemplo abaixo.  
 
-**Blueprint.**  
+{% include imagebase.html
+    src="unreal/array/blueprint_array_get.webp"
+    alt="Figura: Blueprint Get para Array."
+    caption="Figura: Blueprint Get para Array."
+%}
 
-![Figura: Blueprint Get para Array.](../imagens/array/blueprint_array_get.webp "Figura: Blueprint Get para Array.")
-
-> Figura: Blueprint Get para Array.
-
-**C++.**  
+### Método Get para arrays com C++
 
 ```cpp
 FString s = pessoa[0];
 UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
 ```
 
-### Get utilizando uma variável como índice
+### Get utilizando uma variável como índice com Blueprint
 
 Podemos utilizar uma variável para substituir o índice e acessar elementos do *array*.
 
-**Blueprint.**
-
-![Figura: Blueprint Get utiliando uma variável como índice.](../imagens/array/blueprint_array_get_string.webp "Figura: Blueprint Get utiliando uma variável como índice.")
-
-> Figura: Blueprint Get utilizando uma variável como índice.
+{% include imagebase.html
+    src="unreal/array/blueprint_array_get_string.webp"
+    alt="Figura: Blueprint Get utiliando uma variável como índice."
+    caption="Figura: Blueprint Get utiliando uma variável como índice."
+%}
 
 No exemplo acima definimos o valor de Índice igual a 1 para acessar o elemento de mesma posição.
 
-**C++.**  
+### Get utilizando uma variável como índice com C++
 
 ```cpp
 int32 indice = 4;
@@ -688,15 +775,15 @@ FString s = pessoa[indice];
 UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
 ```
 
-### Último índice e a quantidade de elementos do array
+### Último índice e a quantidade de elementos do array em Blueprint
 
 Podemos determinar a quantidade de elementos ou valor do último índice do *array* utilizando os nós abaixo.
 
-**Blueprint.**
-
-![Figura: Blueprint Last Index.](../imagens/array/blueprint_array_last_index.webp "Figura: Blueprint Last Index.")
-
-> Figura: Blueprint Last Index.
+{% include imagebase.html
+    src="unreal/array/blueprint_array_last_index.webp"
+    alt="Figura: Blueprint Last Index."
+    caption="Figura: Blueprint Last Index."
+%}
 
 - `Last Index` - Retorna o valor do último índice e o comando;
 
@@ -715,19 +802,21 @@ UE_LOG(LogTemp,Warning,TEXT("O tamanho do array é %d",Tamanho));
 
 ## Percorrendo arrays
 
+***
+
 Percorrer **array** implica em ler todos ou alguns elementos da estrutura, para tal usamos vários nós ou funções que permitem dependendo da necessidade facilitar a lógica.
 
-### Listando todos os elementos utilizando For
+### Listando todos os elementos utilizando For usando Blueprint
 
 Na lógica abaixo percorremos todo *array* e listamos cada elemento.
 
-**Bluprint.**
+{% include imagebase.html
+    src="unreal/array/blueprint_array_with_forloop.webp"
+    alt="Figura: Blueprint  Array com loop."
+    caption="Figura: Blueprint  Array com loop."
+%}
 
-![Figura: Blueprint  Array com loop.](../imagens/array/blueprint_array_with_forloop.webp "Figura: Blueprint  Array com loop.")
-
-> Figura: Blueprint  Array com loop.
-
-**C++.**
+### Listando todos os elementos utilizando For usando C++
 
 Podemos iterar utilizando a sintaxe padrão do C++.
 
@@ -764,17 +853,17 @@ for (auto It = StrArr.CreateConstIterator(); It; ++It)
 - `For Each Loop` - Para cada elemento do *array* é processada uma interação.
 - `For Loop` - Para cada elemento do *array*, dentro dos parâmetros `First Index` e `Last Index` é processada uma interação.
 
-### Usando o comando Find
+### Usando o comando Find com Blueprint
 
 `Find` procura um elemento dentro do *array* e se encontra retorna o valor do índice do elemento, caso não encontre retorna -1.
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/array/blueprint_array_search_string.webp"
+    alt="Figura: Blueprint Find e Array."
+    caption="Figura: Blueprint Find e Array."
+%}
 
-![Figura: Blueprint Find e Array.](../imagens/array/blueprint_array_search_string.webp "Figura: Blueprint Find e Array.")
-
-> Figura: Blueprint Find e Array.
-
-**C++.**
+### Usando o comando Find com C++
 
 ```cpp
 int32 Index;
@@ -784,17 +873,17 @@ if (StrArr.Find(TEXT("Hello"), Index))
 }
 ```
 
-### Contando elementos dentro de um array
+### Contando elementos dentro de um array com Blueprint
 
 O exemplo abaixo conta todos os elementos do *array* `Nomes` que são iguais a variável `NomeBusca`.
 
-**Bluprint.**
+{% include imagebase.html
+    src="unreal/array/blueprint_array_write_total_occurrence.webp"
+    alt="Figura: Blueprint for para escrever o total de ocorrências."
+    caption="Figura: Blueprint for para escrever o total de ocorrências."
+%}
 
-![Figura: Blueprint for para escrever o total de ocorrências.](../imagens/array/blueprint_array_write_total_occurrence.webp "Figura: Blueprint for para escrever o total de ocorrências.")
-
-> Figura: Blueprint for para escrever o total de ocorrências.
-
-**C++.**
+### Contando elementos dentro de um array com C++
 
 ```cpp
 FString NomeBusca = TEXT("Nome 3");
@@ -809,17 +898,17 @@ for (int32 Index = 0; Index != Nomes.Num(); ++Index)
 UE_LOG(LogTemp, Warning, TEXT("O Total é %d"),iTotal);
 ```
 
-### Percorrendo e atualizando dados
+### Percorrendo e atualizando dados com Blueprint
 
 O exemplo abaixo vamos percorrer o *array* utilizando uma instrução `for` e atualizar outro *array*.
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/array/blueprint_array_fill_string.webp"
+    alt="Figura: Blueprint preenchendo o array com strings."
+    caption="Figura: Blueprint preenchendo o array com strings."
+%}
 
-![Figura: Blueprint preenchendo o array com strings.](../imagens/array/blueprint_array_fill_string.webp "Figura: Blueprint preenchendo o array com strings")
-
-> Figura: Blueprint preenchendo o array com strings.
-
-**C++.**
+### Percorrendo e atualizando dados com C++
 
 ```cpp
 TArray<FString> StrArrayResultado;
@@ -839,19 +928,21 @@ UE_LOG(LogTemp, Warning, TEXT("O Total é %d"),iTotal);
 
 ## Removendo elementos do array
 
+***
+
 É possível remover elementos de dentro de um *array*, após a remoção a quantidade e índice final da estrutura vai ser atualizada, a seguir vamos apresentar algumas funções.
 
-### Removendo utilizando Remove
+### Removendo utilizando Remove com Blueprint
 
 A função `Remove` exclui um elemento do *array*, o valor a ser removido tem que ser informado como parâmetro.
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/array/blueprint_array_remove.webp"
+    alt="Figura: Blueprint Remove Array."
+    caption="Figura: Blueprint Remove Array."
+%}
 
-![Figura: Blueprint Remove Array.](../imagens/array/blueprint_array_remove.webp "Figura: Blueprint Remove Array.")
-
-> Figura: Blueprint Remove Array.
-
-**C++.**
+### Removendo utilizando Remove com C++
 
 ```cpp
 
@@ -860,17 +951,17 @@ TArray<FString> Nomes;
 Nomes.Remove(TEXT("Ana"));
 ```
 
-### Removendo passando uma variável como parâmetro
+### Removendo passando uma variável como parâmetro com Blueprint
 
 O comando `Remove`executa uma busca utilizando um parâmetro, **NomeBusca** no exemplo abaixo, e o remove do *array*.
 
-**Bluprint.**
+{% include imagebase.html
+    src="unreal/array/blueprint_array_remove_index.webp"
+    alt="Figura: Blueprint Remove array com index."
+    caption="Figura: Blueprint Remove array com index."
+%}
 
-![Figura: Blueprint Remove array com index.](../imagens/array/blueprint_array_remove_index.webp "Figura: Blueprint Remove array com index.")
-
-> Figura: Blueprint Remove array com index.
-
-**C++.**
+### Removendo passando uma variável como parâmetro com C++
 
 ```cpp
 FString StrNomeBusca = TEXT("Ana");
@@ -880,17 +971,17 @@ TArray<FString> Nomes;
 Nomes.Remove(StrNomeBusca);
 ```
 
-### Removendo utilizando nó Remove Index
+### Removendo utilizando nó Remove Index com Blueprint
 
 `Remove Index` exclui um elemento do *array* utilizando o índice do *array*.
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/array/blueprint_array_find.webp"
+    alt="Figura: Blueprint Find e remove."
+    caption="Figura: Blueprint Find e remove."
+%}
 
-![Figura: Blueprint Find e remove.](../imagens/array/blueprint_array_find.webp "Figura: Blueprint Find e remove.")
-
-> Figura: Blueprint Find e remove.
-
-**C++.**
+### Removendo utilizando nó Remove Index com C++
 
 ```cpp
 int32 Index;
@@ -901,17 +992,17 @@ if (Nomes.Find(TEXT("Hello"), Index))
 
 ```
 
-### Limpando o array com Clear
+### Limpando o array com Clear com Blueprint
 
 `Clear` remove todos os elementos do *array*.
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/array/blueprint_array_clear.webp"
+    alt="Figura: Blueprint Clear Array."
+    caption="Figura: Blueprint Clear Array."
+%}
 
-![Figura: Blueprint Clear Array.](../imagens/array/blueprint_array_clear.webp "Figura: Blueprint Clear Array.")
-
-> Figura: Blueprint Clear Array.
-
-**C++.**
+### Limpando o array com Clear com C++
 
 ```cpp
 
@@ -921,6 +1012,8 @@ Nomes.Empty();
 
 ## O que são Enums?
 
+***
+
 Uma enumeração é um tipo definido pelo usuário que consiste em um conjunto de constantes integrais nomeadas que são conhecidas como enumeradores.
 
 Exemplo:
@@ -929,23 +1022,25 @@ Exemplo:
 enum cores = { vermelho,amarelo, azul, verde = 20, preto}
 ```
 
-### Criando Enums no Unreal Engine
+### Criando Enums no Unreal Engine e Blueprint
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/enum/blueprint_enum_declare.webp"
+    alt="Figura: Blueprint e Enum."
+    caption="Figura: Blueprint e Enum."
+%}
 
 Execute o comando no menu de contexto `Blueprints` > `Enumeration` e logo depois preencha os valores conforme a tela abaixo.  
 
-![Figura: Blueprint e Enum.](../imagens/enum/blueprint_enum_declare.webp "[Figura: Blueprint e Enum.")
+Objeto criado `EN_Estado` e `EN_Pedra`.
 
-> Figura: Blueprint e Enum.
+{% include imagebase.html
+    src="unreal/enum/blueprint_enum.webp"
+    alt="Figura: Blueprint Enum no Context Browser."
+    caption="Figura: Blueprint Enum no Context Browser."
+%}
 
-Objeto criado `EN_Estado` e `EN_Pedra`.  
-
-![Figura: Blueprint Enum no Context Browser.](../imagens/enum/blueprint_enum.webp "Figura: Blueprint Enum no Context Browser.")
-
-> Figura: Blueprint Enum no Context Browser.
-
-**C++.**
+### Criando Enums no Unreal Engine e C++
 
 Arquivo header.
 
@@ -977,13 +1072,13 @@ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
 
 Vamos verificar e alterar o estado de uma lâmpada utilizando uma variável do tipo `boolean`.  
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/enum/blueprint_enum_example_lamp_state.webp"
+    alt="Figura: Blueprint Verificando o estado de uma lâmpada."
+    caption="Figura: Blueprint Verificando o estado de uma lâmpada."
+%}
 
-![Figura: Blueprint Verificando o estado de uma lâmpada.](../imagens/enum/blueprint_enum_example_lamp_state.webp "Figura: Blueprint Verificando o estado de uma lâmpada.")
-
-> Figura: Blueprint Verificando o estado de uma lâmpada.
-
-**C++.**
+### A lâmpada em C++
 
 ```cpp
 void AFirstPersonBaseCodeCharacter::SetupPlayerInputComponent(class UInputComponent* InputComponent)
@@ -1007,15 +1102,13 @@ void AFirstPersonBaseCodeCharacter::AnyKey(float Value)
 
 Alterando o componente `PointLight` para ligar e desligar a iluminação.
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/enum/blueprint_enum_example_lamp_offon.webp"
+    alt="Figura: Blueprint Ligando e desligando o PointLight."
+    caption="Figura: Blueprint Ligando e desligando o PointLight."
+%}
 
-![Figura: Blueprint Ligando e desligando o PointLight.](../imagens/enum/blueprint_enum_example_lamp_offon.webp "Figura: Blueprint Ligando e desligando o PointLight.")
-
-> Figura: Blueprint Ligando e desligando o PointLight.
-
-**C++.**
-
-Arquivo Header.
+### Arquivo Header da lâmpada em C++
 
 ```cpp
 #pragma once
@@ -1129,15 +1222,15 @@ void AControlLight::AnyKey()
 
 ```
 
-Verificando o estado utilizando o `Enum`.
+### Verificando o estado utilizando o Enum com Blueprint
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/enum/blueprint_enum_example_lamp_read_state.webp"
+    alt="Figura: Blueprint Lendo Enum."
+    caption="Figura: Blueprint Lendo Enum."
+%}
 
-![Figura: Blueprint Lendo Enum.](../imagens/enum/blueprint_enum_example_lamp_read_state.webp "Figura: Blueprint Lendo Enum.")
-
-> Figura: Blueprint Lendo Enum.  
-
-**C++.**
+### Verificando o estado utilizando o Enum com C++
 
 ```cpp
 // Definindo um status no enum.
@@ -1146,15 +1239,15 @@ status = EStatusEnum::Ligada;
 UE_LOG(LogTemp, Warning,TEXT("O enum é = %s"), *UEnum::GetValueAsString(status));
 ```
 
-Ligando e desligando utilizando o `Enum`.
+### Ligando e desligando utilizando o Enum com Blueprint
 
-**Blueprint.**
+{% include imagebase.html
+    src="unreal/enum/blueprint_enum_example_lamp_off.webp"
+    alt="Figura: Blueprint Ligando e desligando usando Enum."
+    caption="Figura: Blueprint Ligando e desligando usando Enum."
+%}
 
-![Figura: Blueprint Ligando e desligando usando Enum.](../imagens/enum/blueprint_enum_example_lamp_off.webp "Figura: Blueprint Ligando e desligando usando Enum.")
-
-> Figura: Blueprint Ligando e desligando usando Enum.
-
-**C++.**
+### Ligando e desligando utilizando o Enum com C++
 
 ```cpp
 ...
@@ -1175,16 +1268,25 @@ else {
 Vamos verificar e alterar o estado de emocional de uma pedra.
 
 1. Alterando o estado emocional da pedra.
-  ![Figura: Blueprint alterando Enum.](../imagens/enum/blueprint_enum_example_rock.webp "Figura: Blueprint alterando Enum.")
 
-  > Figura: Blueprint alterando Enum.
+{% include imagebase.html
+    src="unreal/enum/blueprint_enum_example_rock.webp"
+    alt="Figura: Blueprint alterando Enum."
+    caption="Figura: Blueprint alterando Enum."
+%}
 
-2. Apresentando o estado emocional da pedra.
-  ![Figura: Blueprint escrevendo o conteúdo do Enum.](../imagens/enum/blueprint_enum_example_rock_state.webp "Figura: Blueprint escrevendo o conteúdo do Enum.")
+1. Apresentando o estado emocional da pedra.
 
-  >Figura: Blueprint escrevendo o conteúdo do Enum.
+{% include imagebase.html
+    src="unreal/enum/blueprint_enum_example_rock_state.webp"
+    alt="Figura: Blueprint escrevendo o conteúdo do Enum."
+    caption="Figura: Blueprint escrevendo o conteúdo do Enum."
+%}
+  
+1. Alterando as cores da pedra conforme a emoção.  
 
-3. Alterando as cores da pedra conforme a emoção.  
-  ![Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro.](../imagens/enum/blueprint_enum_example_rock_set_material.webp "Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro.")
-
-  > Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro.
+{% include imagebase.html
+    src="unreal/enum/blueprint_enum_example_rock_set_material.webp"
+    alt="Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro."
+    caption="Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro."
+%}
