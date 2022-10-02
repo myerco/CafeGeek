@@ -13,7 +13,7 @@ date: 2022-09-25
 
 ***
 
-- [Como facilitar a comunicação entre objetos Blueprint?](#como-facilitar-a-comunica--o-entre-objetos-blueprint)
+- [Como facilitar a comunicação entre objetos Blueprint?](#como-facilitar-a-comunicação-entre-objetos-blueprint)
 
 - [Comunicação utilizando Acesso direto](#comunicação-utilizando-acesso-direto)
 

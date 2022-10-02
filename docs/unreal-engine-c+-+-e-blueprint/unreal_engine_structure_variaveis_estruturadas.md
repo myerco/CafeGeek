@@ -9,15 +9,30 @@ layout: post
 date: 2022-09-25 
 ---
 
+## Índice
+
+***
+
+- [O que são variáveis do tipo Structure?](#o-que-são-variáveis-do-tipo-structure)
+
+- [Structure e Class](#structure-e-class)
+ 
+
+***
+
 **Structure**, é um tipo de dados definido pelo usuário disponível no **Unreal Engine** em **C++** e **Blueprint**, neste capitulo vamos explorar estes objetos.
 
 ## O que são variáveis do tipo Structure?
+
+***
 
 **Structure**, são estruturas de dados também conhecidas como **registros**, permitem que um usuário combine itens de dados de (possivelmente) diferentes tipos de dados sob um único nome. Em outras palavras, é uma variável que contém outros variáveis de diferentes tipos.  
 
 Podem ser utilizadas para definir propriedades de um elemento do jogo como por exemplo os personagens.
 
 ## Structure e Class
+
+***
 
 Em **C++**, uma estrutura é realmente a mesma coisa que uma **Class**, exceto por algumas diferenças sintáticas.  
 

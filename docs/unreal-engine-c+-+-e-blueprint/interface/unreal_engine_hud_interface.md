@@ -2,9 +2,22 @@
 title: HUD - Interface com o jogador
 description: Neste capitulo vamos implementar o HUD (Heads-up Display) do jogo.
 tags: [Unreal Engine, HUD, user interface,UI]
-layout: page
+categories: Unreal Engine
+author: 
+- Cafegeek
+layout: post
+date: 2022-09-25 
 ---
 
+## Índice
+
+***
+- [Como interagir com o jogador?](#como-interagir-com-o-jogador)
+
+- [Menos é Melhor](#menos-é-melhor)
+
+- [Implementando o Widget para o construir o menu do jogo](#implementando-o-widget-para-o-construir-o-menu-do-jogo)
+  
 ***
 
 HUD (*Heads-up Display*) ou UI (*Use Interface*) é um objeto especial do **Unreal Engine** para apresentar informações sobrepostas na tela e interagir com o jogador.
@@ -12,6 +25,8 @@ HUD (*Heads-up Display*) ou UI (*Use Interface*) é um objeto especial do **Unre
 Neste capitulo vamos apresentar formas de interação com o jogador e depois construir objetos os necessários.
 
 ## Como interagir com o jogador?
+
+***
 
 Durante o tempo do jogo é necessário interagir com o jogador de diversas formas, informando status de jogo, personagem e até mesmo guias de missões. Geralmente são informações em formatado texto e imagens 2D que se sobrepõe a tela para informar o jogador.
 
@@ -55,21 +70,27 @@ Agora vamos apresentar informações do personagem na tela do jogador:
 
 1. É possível apresentar o `Widget` quando o personagem é instancia na cena.
 
-### Implementando o Widget para o construir o menu do jogo
+## Implementando o Widget para o construir o menu do jogo
+
+***
 
 No **Unreal Engine** utilizamos um objeto com atributos e métodos próprios para o tratamento e organização de informação na interface do jogador, a classe de objetos `Widget` que vem acompanhado por um editor especial.
 
-![Figura: Widget Editor Blueprint - Unreal Engine doc.](../imagens/interface_ui_hud/EditEditorUtilityWidgetBlueprint.webp "Figura: Widget Editor Blueprint - Unreal Engine doc.")
-
-> Figura: Widget Editor Blueprint - Unreal Engine doc.
+{% include imagebase.html
+    src="unreal/interface_ui_hud/EditEditorUtilityWidgetBlueprint.webp"
+    alt="Figura: Widget Editor Blueprint - Unreal Engine doc."
+    caption="Figura: Widget Editor Blueprint - Unreal Engine doc."
+%}
 
 ### Criando o Widget
 
 Utilizando o `Context Menu` escolha a opção `User Interface/Widget Blueprint`.
 
-![Figura: Context Menu/ User Interface/ Widget Blueprint.](../imagens/interface_ui_hud/blueprint_hud_menu.webp "Figura: Context Menu/ User Interface/ Widget Blueprint.")
-
-> Figura: Context Menu/ User Interface/ Widget Blueprint.
+{% include imagebase.html
+    src="unreal/interface_ui_hud/blueprint_hud_menu.webp"
+    alt="Figura: Context Menu/ User Interface/ Widget Blueprint."
+    caption="Figura: Context Menu/ User Interface/ Widget Blueprint."
+%}
 
 ### Usando o editor de de Widget
 
@@ -79,17 +100,21 @@ O editor de Widget é divido em :
 
 - `Graph` para inserir a lógica de ações utilizando **Blueprint**.
 
-![Figura: Widget Designer e Graph.](../imagens/interface_ui_hud/blueprint_hud_designer_graph.webp "Figura: Widget Designer e Graph.")
-
-> Figura: Widget Designer e Graph.
+{% include imagebase.html
+    src="unreal/interface_ui_hud/blueprint_hud_designer_graph.webp"
+    alt="Figura: Widget Designer e Graph."
+    caption="Figura: Widget Designer e Graph."
+%}
 
 ### Hierarchy - Hierarquia de elementos
 
 Os elementos apresentados na Widget seguem uma hierarquia que determina o posicionamento relativo na tela.
 
-![Figura: Widget Hierarchy.](../imagens/interface_ui_hud/blueprint_hud_hierarquia.webp "Figura: Widget Hierarchy.")  
-
-> Figura: Widget Hierarchy.
+{% include imagebase.html
+    src="unreal/interface_ui_hud/blueprint_hud_hierarquia.webp"
+    alt="Figura: Widget Hierarchy."
+    caption="Figura: Widget Hierarchy."
+%}
 
 - Observe que tem vários objetos alinhados hierarquicamente e que neste caso vão nos ajudar e organizar a tela, sendo a raiz da árvore o objeto `BP_HUD_demo`;
 
@@ -99,9 +124,11 @@ Os elementos apresentados na Widget seguem uma hierarquia que determina o posici
 
 - Abaixo a apresentação dos elementos.
 
-![Figura: Widget Designer.](../imagens/interface_ui_hud/blueprint_hud_designer.webp "Figura: Widget Designer.")
-
-> Figura: Widget Designer.
+{% include imagebase.html
+    src="unreal/interface_ui_hud/blueprint_hud_designer.webp"
+    alt="Figura: Widget Designer."
+    caption="Figura: Widget Designer."
+%}
 
 ### Entendo alinhamento utilizando Anchors
 
@@ -109,33 +136,43 @@ Para gerenciar melhor o posicionamento de objetos no `Widget Designer` vamos ent
 
 - Ancorar um elemento é definir uma posição predefinida na tela.
 
-  ![Figura: Widget Anchor alinhamento.](../imagens/interface_ui_hud/blueprint_hud_select_anchors.webp "Figura: Widget Anchor alinhamento.")
-
-  >Figura: Widget Anchor alinhamento.
+{% include imagebase.html
+    src="unreal/interface_ui_hud/blueprint_hud_select_anchors.webp"
+    alt="Figura: Widget Anchor alinhamento."
+    caption="Figura: Widget Anchor alinhamento."
+%}
 
 - No exemplo abaixo o elemento `Text` está posicionado na tela respeitando a âncora predefinida. A âncora pode ser alterada.  
 
-  ![Figura: Widget icon Anchor.](../imagens/interface_ui_hud/blueprint_anchor_alinhamento.webp "Figura: Widget icon Anchor.")
+{% include imagebase.html
+    src="unreal/interface_ui_hud/blueprint_anchor_alinhamento.webp"
+    alt="Figura: Widget icon Anchor."
+    caption="Figura: Widget icon Anchor."
+%}
 
-  >Figura: Widget icon Anchor.
+- Observe os valores de **Position** **X** e **Y** são zero, isso nos diz que a texto esta totalmente alinhado a âncora.
 
-- Observe os valores de **Position** **X** e **Y** são zero, isso nos diz que a texto esta totalmente alinhado a âncora.  
-
-  ![Figura: Widget Acnhors position UMG. ](../imagens/interface_ui_hud/blueprint_anchor_alinhamento_position.webp "Figura: Widget Acnhors position UMG. ")
-
-  >Figura: Widget Acnhors position UMG.
+{% include imagebase.html
+    src="unreal/interface_ui_hud/blueprint_anchor_alinhamento_position.webp"
+    alt="Figura: Widget Acnhors position UMG. "
+    caption="Figura: Widget Acnhors position UMG. "
+%}
 
 - Agora vamos dividir a âncora e alinhar o texto dentro das fronteiras da âncora.
 
-  ![Figura: Widget Anchors Alinhamento separado UMG.](../imagens/interface_ui_hud/blueprint_anchor_alinhamento_separado.webp "Figura: Widget Anchors Alinhamento separado UMG.")
-
-  >Figura: Widget Anchors Alinhamento separado UMG.
+{% include imagebase.html
+    src="unreal/interface_ui_hud/blueprint_anchor_alinhamento_separado.webp"
+    alt="Figura: Widget Anchors Alinhamento separado UMG."
+    caption="Figura: Widget Anchors Alinhamento separado UMG. "
+%}
 
 - Agora temos as propriedades `Offset Left` e `Right` com um valor que determina a posição do texto entre as fronteiras da âncora.
 
-  ![Figura: Widget Canvas propriedades Alinhamento.](../imagens/interface_ui_hud/blueprint_anchor_alinhamento_offset.webp "Figura: Widget Canvas propriedades Alinhamento.")
-
-  >Figura: Widget Canvas propriedades Alinhamento.
+{% include imagebase.html
+    src="unreal/interface_ui_hud/blueprint_anchor_alinhamento_offset.webp"
+    alt="Figura: Widget Canvas propriedades Alinhamento."
+    caption="Figura: Widget Canvas propriedades Alinhamento."
+%}
 
 - `Size to Content` determina que o elemento se ajustara ao tamanho do conteúdo;
 
@@ -147,38 +184,50 @@ Estes elementos são utilizados para organizar os objetos Horizontal ou vertical
 
 - `Horizontal box`- Alinhamento Horizontal dos elementos.  
 
-  ![Figura: Widget Horizontal Box UMG.](../imagens/interface_ui_hud/blueprint_horizontal_box.webp "Figura: Widget Horizontal Box UMG.")
-
-  >Figura: Widget Horizontal Box UMG.
+{% include imagebase.html
+    src="unreal/interface_ui_hud/blueprint_horizontal_box.webp"
+    alt="Figura: Widget Horizontal Box UMG."
+    caption="Figura: Widget Horizontal Box UMG."
+%}
 
 - `Vertical box` - Alinhamento vertical dos elementos.  
 
-  ![Figura: Widget Vertical Box UMG.](../imagens/interface_ui_hud/blueprint_vertical_box.webp "Figura: Widget Vertical Box UMG.")
-
-  >Figura: Widget Vertical Box UMG.
+{% include imagebase.html
+    src="unreal/interface_ui_hud/blueprint_vertical_box.webp"
+    alt="Figura: Widget Vertical Box UMG."
+    caption="Figura: Widget Vertical Box UMG."
+%}
 
 - Nas propriedades do elemento dentro do `Vertical Box` selecione `Size Fill` para preencher todo espaço do painel.  
 
-  ![Figura: Widget Vertical Box Size fill UMG.](../imagens/interface_ui_hud/blueprint_horizontal_box_fill.webp "Figura: Widget Vertical Box Size fill UMG.")
-
-  >Figura: Widget Vertical Box Size fill UMG.
+{% include imagebase.html
+    src="unreal/interface_ui_hud/blueprint_horizontal_box_fill.webp"
+    alt="Figura: Widget Vertical Box Size fill UMG."
+    caption="Figura: Widget Vertical Box Size fill UMG."
+%}
 
 ### Grid Panel
 
 Como o nome anuncia, os elementos hierarquicamente agrupados abaixo do painel serão organizados em forma de um grid (matriz).
 
-![Figura: Widget Grid Panel UMG.](../imagens/interface_ui_hud/blueprint_grid_panel.webp "Figura: Widget Grid Panel UMG.")
+{% include imagebase.html
+    src="unreal/interface_ui_hud/blueprint_grid_panel.webp"
+    alt="Figura: Widget Grid Panel UMG."
+    caption="Figura: Widget Grid Panel UMG."
+%}
 
->Figura: Widget Grid Panel UMG.
+- `Grid Panel` tem uma propriedade especial que determina qual o valor de preenchimento de cada coluna ou linha dentro do grid. O valor varia de 0 a 1, onde 0,5 é metade do espaço e 1 totalmente preenchido.
 
-- `Grid Panel` tem uma propriedade especial que determina qual o valor de preenchimento de cada coluna ou linha dentro do grid. O valor varia de 0 a 1, onde 0,5 é metade do espaço e 1 totalmente preenchido.  
-
-  ![Figura: Widget Grid panel Column Fill UMG.](../imagens/interface_ui_hud/blueprint_hud_grip_panel_column_fill.webp "Figura: Widget Grid panel Column Fill UMG.")
-
-  >Figura: Widget Grid panel Column Fill UMG.
+{% include imagebase.html
+    src="unreal/interface_ui_hud/blueprint_hud_grip_panel_column_fill.webp"
+    alt="Figura: Widget Grid panel Column Fill UMG."
+    caption="Figura: Widget Grid panel Column Fill UMG."
+%}
 
 - O elemento agrupado também terá as propriedades `Row` e `Col` preenchidas sinalizando qual a posição do elemento dentro do grid.
 
-  ![Figura: Widget Grid Panel Row Col UMG.](../imagens/interface_ui_hud/blueprint_hud_grip_panel_row_col.webp "Figura: Widget Grid Panel Row Col UMG.")
-
-  >Figura: Widget Grid Panel Row Col UMG.
+{% include imagebase.html
+    src="unreal/interface_ui_hud/blueprint_hud_grip_panel_row_col.webp"
+    alt="Figura: Widget Grid Panel Row Col UMG."
+    caption="Figura: Widget Grid Panel Row Col UMG."
+%}

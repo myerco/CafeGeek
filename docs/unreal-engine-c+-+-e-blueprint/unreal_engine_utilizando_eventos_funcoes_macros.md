@@ -15,9 +15,9 @@ date: 2022-09-21
 
 - [Entendo Métodos e funções em programação](#entendo-métodos-e-funções-em-programação)
 
-- [O que são Eventos (Events) em Blueprint](#o-que-são-eventos--events--em-blueprint)
+- [O que são Eventos em Blueprint](#o-que-são-eventos-em-blueprint)
 
-- [Funções (functions)](#funções--functions-)
+- [Funções](#funções)
 
 - [Funções Puras](#funções-puras)
 
@@ -25,7 +25,7 @@ date: 2022-09-21
 
 - [Collapse Nodes](#collapse-nodes)
 
-- [Executando a função e a macro](#executando-a-fun--o-e-a-macro)
+- [Executando a função e a macro](#executando-a-função-e-a-macro)
 
 
 *** 
@@ -104,7 +104,7 @@ int main() {
 }
 ```
 
-## O que são Eventos (Events) em Blueprint
+## O que são Eventos em Blueprint
 
 ***
 
@@ -172,7 +172,7 @@ void AProjeto::Tick(float DeltaTime)
 };
 ```
 
-## Funções (functions)
+## Funções
 
 ***
 

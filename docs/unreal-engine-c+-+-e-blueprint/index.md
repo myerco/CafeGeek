@@ -40,11 +40,19 @@ layout: home
 
 - [Comunicação entre Blueprints](unreal_engine_comunicacao_entre_blueprint.html)
 
-- [Estruturas de dados](estruturas_de_dados/index.html)
+## Estruturas de dados
+
+- [Variáveis estruturadas ou Structure](unreal_engine_structure_variaveis_estruturadas.html)
+
+- [Tabelas de dados ou Data tables](unreal_engine_data_tables.html)
+
+- [Game Instance, Game State e Game Mode](unreal_engine_gameinstance_state_mode.html)
 
 ## Interface com o jogador
 
-- [Interface do Jogador - HUD](interface/index.html)
+- [Implementando a Interface com o jogador](unreal_engine_hud_interface.html)
+
+- [Lógica de programação dos objetos da interface](unreal_engine_hud_logica.html)
 
 ## Movimentação e animação de personagens
 
