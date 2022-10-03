@@ -12,6 +12,7 @@ date: 2022-09-25
 ## Índice
 
 ***
+
 - [Como interagir com o jogador?](#como-interagir-com-o-jogador)
 
 - [Menos é Melhor](#menos-é-melhor)
