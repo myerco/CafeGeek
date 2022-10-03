@@ -105,9 +105,11 @@ Para este passo vamos implementar os seguintes elementos para apresentar informa
 
 Devemos conectar os elementos da interface com funções por meio de uma propriedade `Bind`.
 
-![ Figura: Blueprint - Widget HUD Progress Bar Bind.](unreal/interface_ui_hud/blueprint_hud_progressbar_bind.webp " Figura: Blueprint - Widget HUD Progress Bar Bind.")
-
-> Figura: Blueprint - Widget HUD Progress Bar Bind.
+{% include imagebase.html
+    src="unreal/interface_ui_hud/blueprint_hud_progressbar_bind.webp"
+    alt="Figura: Blueprint - Widget HUD Progress Bar Bind."
+    caption="Figura: Blueprint - Widget HUD Progress Bar Bind."
+%}
 
 ### Função do calculo de vida do jogador
 

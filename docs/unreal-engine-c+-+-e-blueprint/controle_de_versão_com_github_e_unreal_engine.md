@@ -28,7 +28,7 @@ date: 2022-09-30
 {% include imagebase.html
     src="unreal/projeto/unreal_engine_git.webp"
     alt="Figura: Unreal Engine with Git."
-    caption="Figura: Unreal Engine with Git."
+    caption=""
 %}
 
 Quando programamos existe a necessidade de gerenciar as alterações que ocorrem durante o desenvolvimento do projeto e até mesmo depois, acompanhe o seguinte exemplo:  
