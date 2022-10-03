@@ -97,6 +97,8 @@ O Editor de Materiais consistem em uma barra de menu, toolbar e cinco regiões d
 
 ## O que são Material expressions?
 
+***
+
 Os nós de Expressão de Material ou Material Expression contêm pequenos fragmentos de código HLSL que realizam tarefas muito específicas dentro de um Material. Os materiais são construídos usando combinações de nós de Expressão de Material que são combinados para realizar certas tarefas.
 
 Conectando Material Expressions, abaixo um exemplo de conexão.
@@ -441,6 +443,8 @@ Controla como o material deve ser usado, por exemplo, se ele deve fazer parte de
 %}
 
 ## Aplicando o material no objeto
+
+***
 
 Para aplicar o material em um objeto podemos selecionar o objeto e atualizamos a propriedade `MATERIALS` selecionando o material criando anteriormente.
 

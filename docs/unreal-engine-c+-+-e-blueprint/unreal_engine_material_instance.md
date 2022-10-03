@@ -19,7 +19,7 @@ date: 2022-09-21
 
 - [Switch Parameter](unreal_engine_material_instance.html#switch-parameter)
 
-- [Organizando parâmetros e definindo valor máximo e mínimo](unreal_engine_material_instance.html#organizando-par-metros-e-definindo-valor-máximo-e-mínimo)
+- [Organizando parâmetros e definindo valor máximo e mínimo](unreal_engine_material_instance.html#organizando-parâmetros-e-definindo-valor-máximo-e-mínimo)
 
 ***
 

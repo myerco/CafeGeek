@@ -114,6 +114,8 @@ resul =  Add( vetor3(1,3,4) , vetor3(2,4,1)  );
 
 ## Utilizando Panner e TextCoord
 
+***
+
 Neste exemplo será simulado o movimento da textura no objeto.
 
 {% include imagebase.html
@@ -138,6 +140,8 @@ Ambas as entradas devem ter o mesmo número de valores, a menos que um dos valor
 
 ## Exemplo do nó Lerp
 
+***
+
 Interpola Linearmente entre A e B com base em Alfa (100% de A quando Alfa = 0 e 100% de B quando Alfa = 1)
 
 {% include imagebase.html
@@ -147,6 +151,8 @@ Interpola Linearmente entre A e B com base em Alfa (100% de A quando Alfa = 0 e 
 %}
 
 ## World position Offset
+
+***
 
 Permite que os vértices de uma malha sejam manipulados no espaço do mundo pelo Material. Isso é útil para fazer objetos se moverem, mudarem de forma, girarem e uma variedade de outros efeitos. Isso é útil para coisas como animação ambiente.
 
@@ -172,6 +178,8 @@ Abaixo utilizamos variáveis para "animar" o material e simular movimento na mal
 
 ## Unlit Shading Model
 
+***
+
 Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais como fogo ou iluminação de objetos. Observe que, neste exemplo, o Material não está projetando luz na cena. Em vez disso, seu alto valor Emissivo resulta em um efeito de brilho, que também é captado pela Máscara de Sujeira aplicada à câmera. Parece iluminar, mas nenhuma luz ou sombra será projetada por este objeto.
 
 {% include imagebase.html
@@ -187,6 +195,8 @@ Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais co
 %}
 
 ## Masked Blend Mode
+
+***
 
 É usado para objetos nos quais você precisa controlar seletivamente a visibilidade de forma binária (liga / desliga). Por exemplo, considere um material que simula uma cerca de arame ou grade. Você terá algumas áreas que parecem sólidas, enquanto outras são invisíveis. Esses materiais são perfeitos para o modo de `Blend Masked` .
 
@@ -211,6 +221,8 @@ Parâmetros do nó resultado:
 %}
 
 ## Translucent Blend Mode
+
+***
 
 É usado para objetos que requerem alguma forma de transparência.
 

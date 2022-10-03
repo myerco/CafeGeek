@@ -97,7 +97,3 @@ layout: home
 - [Sequencer](#índice)
 
 - [Utilizando Niagara](#índice)
-
-## Atividades
-
-- [Atividades e Referências](unreal_engine_atividades_referencias.html)
