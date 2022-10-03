@@ -58,7 +58,17 @@ layout: home
 
 - [Implementando a movimentação do personagem](unreal_engine_trabalhando_com_logica_movimentacao_de_personagem.html)
 
-- [Animação de personagens](animacao_de_personagens/index.html)
+- [Introdução a animação de personagens](unreal_engine_animacao_introducao.html)
+
+- [Preparando o projeto](unreal_engine_animacao_preparando_o_projeto.html)
+
+- [Utilizando Blend Space](unreal_engine_animacao_blend_space.html)
+
+- [Implementando a Lógica da animação](unreal_engine_animacao_animation_blueprint.html)
+
+- [Implementando a mira](unreal_engine_animacao_aim_offset.html)
+
+- [Trabalhando com Animação 2D](unreal_engine_animacao2d.html)
 
 - [Delta time e sistema de coordenadas](deltatime_sistema_coordenadas/unreal_engine_deltatime_sistema_coordenadas.html)
 

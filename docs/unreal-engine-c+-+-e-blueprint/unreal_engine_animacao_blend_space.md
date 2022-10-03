@@ -9,13 +9,15 @@ layout: post
 date: 2022-09-25 
 ---
 
-{% include image.html
-    src="../imagens/animacao/unreal_engine_animation_blend_space.webp"
+{% include imagebase.html
+    src="unreal/animacao/unreal_engine_animation_blend_space.webp"
     alt="Figura: Unreal Engine Preparando o Projeto"
     caption=""
 %}
 
 ## O que é Blend Space?
+
+***
 
 O objetivo do `Blend Space` é reduzir a necessidade de criar nós individuais codificados para mesclar animações com um editor que realiza a mesclagem com base em propriedades ou condições específicas. Permitindo que o animador ou programador especifique as entradas, as animações e como as entradas são usadas para mesclar entre as animações, virtualmente qualquer tipo de mesclagem pode ser executado usando o Blend Space.
 
@@ -23,8 +25,8 @@ O objetivo do `Blend Space` é reduzir a necessidade de criar nós individuais c
 
 Para carregar o editor de animação na horizontal usamos o menu de contexto `Animation` > `Blend Space 1D`.
 
-{% include image.html
-    src="../imagens/animacao/unreal_engine_animation_blend_1d.webp"
+{% include imagebase.html
+    src="unreal/animacao/unreal_engine_animation_blend_1d.webp"
     alt="Figura: Unreal Engine - Menu de contexto Animation > Blend Space 1D."
     caption="Figura: Unreal Engine - Menu de contexto Animation > Blend Space 1D."
 %}
@@ -33,12 +35,14 @@ Nos próximos passos vamos criar várias sequencias de animações para o person
 
 ## Blend Space 1D
 
+***
+
 Os Blend Spaces também podem ser criados em um formato unidimensional, conhecido como `Blend Space 1D`. Eles podem se misturar entre qualquer número de poses ou animações, mas o fazem com base em um único valor de entrada. Um exemplo de caso de uso para um`Blend Space 1D` seria quando você tem um personagem que se orienta automaticamente na direção em que está se movendo. Se o personagem não pode se desviar ou se mover em várias direções, um Blend Space 1D pode ser usado para se misturar de um Idle a um Walk e, finalmente, a Run com base em um único valor de Speed (como mostrado no exemplo abaixo).
 
 Utilizamos o este elemento quando temos somente um parâmetro para controle da mudança de animações, neste caso o eixo horizontal com o parâmetro `Speed`.
 
-{% include image.html
-    src="../imagens/animacao/unreal_engine_Blend_Space_1D.webp"
+{% include imagebase.html
+    src="unreal/animacao/unreal_engine_Blend_Space_1D.webp"
     alt="Figura: Unreal Engine - Editor Blen Space 1D."
     caption="Figura: Unreal Engine - Editor Blen Space 1D."
 %}
@@ -94,12 +98,14 @@ Para criar a movimentação no eixo horizontal vamos arrastar os elementos apres
 
 ## Blend Space
 
+***
+
 Este elemento é utilizado quanto existem dois parâmetros para controle das animações por exemplo: Direction/Direção e Speed/Velocidade.
 
 Menu de contexto `Animation` > `Blend Space`.
 
-{% include image.html
-    src="../imagens/animacao/unreal_engine_Blend_Space.webp"
+{% include imagebase.html
+    src="unreal/animacao/unreal_engine_Blend_Space.webp"
     alt="Figura: Unreal Engine - Editor Blen Space."
     caption="Figura: Unreal Engine - Editor Blen Space."
 %}

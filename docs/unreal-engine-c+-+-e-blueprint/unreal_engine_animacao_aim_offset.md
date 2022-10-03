@@ -11,14 +11,16 @@ date: 2022-09-25
 
 ## Aim Offset
 
+***
+
 Um Aim Offset é um recurso que armazena uma série de poses que podem ser combinadas para ajudar um personagem a apontar uma arma. Durante a animação, o resultado do Aim Offset é misturado com outros movimentos, como correr, caminhar, pular, etc. para fazer com que o personagem pareça olhar suavemente em todas as direções.
 
 ### Animation Starter Pack
 
 A **Epic Store** oferece um pacote de animações para o Mannequin, facilitando a prototipação do personagem utilizando armas de tiro.
 
-{% include image.html
-    src="../imagens/animacao/unreal_engine_animation_starter_pack.webp"
+{% include imagebase.html
+    src="unreal/animacao/unreal_engine_animation_starter_pack.webp"
     alt="Figura: Unreal Engine - Adicionando o pacote Animation Starter Pack."
     caption="Figura: Unreal Engine - Adicionando o pacote Animation Starter Pack."
 %}
@@ -47,8 +49,8 @@ Neste passo vamos criar várias animações com o personagem mirando utilizando 
 
 1. Editando a animação para criar novas animações.
 
-{% include image.html
-    src="../imagens/animacao/unreal_engine_aim_offset_editor.webp"
+{% include imagebase.html
+    src="unreal/animacao/unreal_engine_aim_offset_editor.webp"
     alt="Figura: Unreal Engine - Editor Aim Offset."
     caption="Figura: Unreal Engine - Editor Aim Offset."
 %}
@@ -87,8 +89,8 @@ Edite a propriedade de vária animações ao mesmo tempo
 
 Agora vamos criar `Aim Offset` Menu de contexto `Animation > Aim Offset` ou Escolha o esqueleto do Mannequin e utilizando BMP escolha `Create > Aim Offset`;
 
-{% include image.html
-    src="../imagens/animacao/unreal_engine_create_aim_offset.webp"
+{% include imagebase.html
+    src="unreal/animacao/unreal_engine_create_aim_offset.webp"
     alt="Figura: Uneal Engine - Editor Aim Offset."
     caption="Figura: Uneal Engine - Editor Aim Offset."
 %}

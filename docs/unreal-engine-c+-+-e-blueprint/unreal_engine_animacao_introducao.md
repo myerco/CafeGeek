@@ -9,13 +9,15 @@ layout: post
 date: 2022-09-25 
 ---
 
-{% include image.html
-    src="../imagens/animacao/unreal_engine_animation.webp"
+{% include imagebase.html
+    src="unreal/animacao/unreal_engine_animation.webp"
     alt="Figura: Unreal Engine e Animação de personagens."
     caption=""
 %}
 
 ## Fluxo de trabalho para animação utilizando Unreal Engine
+
+***
 
 O **Unrel Engine** fornece um fluxo de trabalho simples para construção de animações utilizando Skeletal Mesh importadas de aplicativos 3D para uso em jogos. Atualmente, apenas uma única animação para cada `Skeletal Mesh` pode ser exportada / importada em um único arquivo.
 
@@ -48,8 +50,8 @@ Skeleton ou Esqueleto da malha importada no arquivo FBX contendo controle de mov
 
 - `Physics` - Controle de física e animação dos ossos.
 
-{% include image.html
-    src="../imagens/animacao/unreal_engine_skeleton_mannequim.webp"
+{% include imagebase.html
+    src="unreal/animacao/unreal_engine_skeleton_mannequim.webp"
     alt="Figura: Bluprint - Editor Skeleton."
     caption="Figura: Bluprint - Editor Skeleton."
 %}
@@ -70,8 +72,8 @@ Editor para implementação das animações utilizando codificação visual.
 
   - `Final posse` - `Sequence recorder` e `Animation Sharing manager`.
 
-{% include image.html
-    src="../imagens/animacao/unreal_engine_animgraph.webp"
+{% include imagebase.html
+    src="unreal/animacao/unreal_engine_animgraph.webp"
     alt="Figura: Blueprint - Editor Anim Graph."
     caption="Figura: Blueprint - Editor Anim Graph."
 %}
@@ -90,8 +92,8 @@ Editor que permite a edição de animações.
 
 - `Notify Animations` - Adiciona uma etiqueta na `Timeline` da animação.
 
-{% include image.html
-    src="../imagens/animacao/unreal_engine_Blend_Space_1D.webp"
+{% include imagebase.html
+    src="unreal/animacao/unreal_engine_Blend_Space_1D.webp"
     alt="Figura: Blueprint - Editor Blend Space 1D."
     caption="Figura: Blueprint - Editor Blend Space 1D."
 %}

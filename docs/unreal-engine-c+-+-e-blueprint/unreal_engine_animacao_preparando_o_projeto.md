@@ -9,8 +9,8 @@ layout: post
 date: 2022-09-25 
 ---
 
-{% include image.html
-    src="../imagens/animacao/unreal_engine_animation_project.webp"
+{% include imagebase.html
+    src="unreal/animacao/unreal_engine_animation_project.webp"
     alt="Figura: Unreal Engine - Preparando o projeto de animação."
     caption="Figura: Unreal Engine - Preparando o projeto de animação."
 %}
@@ -18,6 +18,8 @@ date: 2022-09-25
 Neste capitulo vamos preparar e organizar os objetos e elementos necessários, como por exemplo, arquivos FBX, malhas e esqueletos e suas animações. Vamos também importar personagens do site Mixano.
 
 ## Organizando pastas de bibliotecas
+
+***
 
 Em este passo iremos preparar as pastas, configuração inicial do projeto e personagens.
 
@@ -188,8 +190,8 @@ Observação: Neste exemplo utilizaremos a opção `In Place = true` para exempl
 
 1. Importe o arquivo com a opção `Import All`:
 
-{% include image.html
-    src="../imagens/animacao/unreal_engine_fbx_import_options.webp"
+{% include imagebase.html
+    src="unreal/animacao/unreal_engine_fbx_import_options.webp"
     alt="Figura: Unreal Egnine - Blueprint FBX import options."
     caption="Figura: Unreal Egnine - Blueprint FBX import options."
 %}
