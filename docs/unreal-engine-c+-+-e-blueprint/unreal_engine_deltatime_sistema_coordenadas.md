@@ -9,10 +9,38 @@ layout: post
 date: 2022-09-21 
 ---
 
+## Índice
+
+***
+
+- [O que é Delta Time?](#o-que-é-delta-time)
+
+- [Delta seconds](#delta-seconds)
+
+- [Utilizando o Delta seconds com Event Tick](#utilizando-o-delta-seconds-com-event-tick)
+
+- [Acionando o evento para alterar a iluminação](#acionando-o-evento-para-alterar-a-iluminação)
+
+- [Funções Blueprint para tratamento](#funções-blueprint-para-tratamento)
+
+- [Abrindo portas](#abrindo-portas)
+
+- [Curves](#curves)
+
+- [Exemplo de calculo de velocidade](#exemplo-de-calculo-de-velocidade)
+
+- [Verificando para onde o ator está apontando](#verificando-para-onde-o-ator-está-apontando)
+
+- [Acompanhando o movimento de um objeto](#acompanhando-o-movimento-de-um-objeto)
+
+***
+
 Neste capítulo serão apresentados os elementos de controle de tempo (Delta Time) dentro do **Unreal Engine** e utilizar para  implementar movimentação de objetos.
 Apresentaremos também como funciona o sistema de coordenadas dos objetos.
 
 ## O que é Delta Time?
+
+***
 
 É o tempo entre cada frame.  
 Frame: Um quadro ou imagem apresentada, uma animação é composta por vários frames.
@@ -35,8 +63,8 @@ Frame: Um quadro ou imagem apresentada, uma animação é composta por vários f
 
 Para habilitar o console de comandos para verificar e alterar o *FPS* do jogo utilizando o Menu `Project Settings` > `Open`.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_console_settings.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_console_settings.webp"
   alt="Figura: Unreal Engine - Project Settings configuração do comando para acessar o Console."
   caption="Figura: Unreal Engine - Project Settings configuração do comando para acessar o Console."
 %}
@@ -69,6 +97,8 @@ Para habilitar o console de comandos para verificar e alterar o *FPS* do jogo ut
 
 ## Delta seconds
 
+***
+
 **Delta Seconds** é a quantidade de tempo decorrido desde o último evento `Tick`. Ao multiplicar seu deslocamento por **Delta Seconds**, seu movimento será independente da taxa de quadros.
 
 Por exemplo, seu peão tem uma velocidade máxima de 100. Se um segundo tivesse se passado desde o último tique de evento, seu peão moveria todas as 100 unidades. Se meio segundo tivesse passado, ele moveria 50 unidades.
@@ -86,16 +116,18 @@ Por exemplo, seu peão tem uma velocidade máxima de 100. Se um segundo tivesse 
 
 ## Utilizando o Delta seconds com Event Tick
 
+***
+
 Para exemplificar vamos controlar o movimento do objeto independente do *FPS* utilizando o evento `Tick`.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_logic_simple.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_logic_simple.webp"
   alt="Figura: Blueprint - Event Tick com DeltaTime e SetWorldLocation."
   caption="Figura: Unreal Engine - Utilizamos GetWorldLocation e incrementamos o valor de Y a cada Tick para atualziar SetWordLocation, atualizando a posição do objeto."
 %}
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_delta_seconds.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_delta_seconds.webp"
   alt="Figura: Blueprint - Event Tick com DeltaTime e SetWorldLocation e calculando a velocidade"
   caption="Figura: Blueprint - Event Tick com DeltaTime e SetWorldLocation e calculando a velocidade"
 %}
@@ -106,21 +138,17 @@ Para exemplificar vamos controlar o movimento do objeto independente do *FPS* ut
 
 - O resultado esperado é que mesmo com um *FPS* baixo o movimento ainda se mantenha uniforme.
 
-## Fixando o FPS do projeto
+### Fixando o FPS do projeto
 
 Podemos fixar o *FPS* do projeto utilizando o menu `Project settings` > `Use fixed frame rate`.  
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_fixed_frame_rate.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_fixed_frame_rate.webp"
   alt="Figura: Unreal Engine - General Settings Frame Rate"
   caption="Figura: Unreal Engine - General Settings Frame Rate"
 %}
 
-*Vídeo.*
-
-<!--[![Vídeo: Delta time e sistema de coordenadas  - Utilizando o Delta seconds 02  - Unreal Engine](https://img.youtube.com/vi/gQdT8rah4CU/0.jpg)](https://youtu.be/gQdT8rah4CU "Vídeo: Delta time e sistema de coordenadas  - Utilizando o Delta seconds 02  - Unreal Engine")
-
-> Vídeo: Delta time e sistema de coordenadas  - Utilizando o Delta seconds 02  - Unreal Engine.-->
+### Vídeo Delta time e sistema de coordenadas
 
 {% include video.html
   link="https://youtu.be/gQdT8rah4CU"
@@ -139,8 +167,8 @@ Para este exemplo vamos utilizar um objeto *Lampada* do tipo `Light Component`  
 
 A seguiur vamos criar o objeto *BP_ControleLuz* do tipo `Box Trigger`.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_timeline_boxcollision.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_timeline_boxcollision.webp"
   alt="Figura: Blueprint - Box Trigger BP_ControleLuz."
   caption="Figura: Blueprint - O objeto Trigger BP_ControleLuz."
 %}
@@ -151,16 +179,16 @@ Adicionamos na cena um componente `PointLight`;
 
 Adicionamos o BP_ControleLuz na cena e associamos o objeto `PointLight` na propriedade *Lampada*.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_timeline_boxcollision_with_point_light.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_timeline_boxcollision_with_point_light.webp"
   alt="Figura: Blueprint - CollisionComponent e PointLight."
   caption="Figura: Componente BP_ControleLuz associando a variável Lampada ao objeto na cena."
 %}
 
 Em *BP_ControleLuz* adicionamos a seguinte lógica para tratamento de luz;
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_timeline_emitter.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_timeline_emitter.webp"
   alt="Figura: Blueprint - Lógica para tratamento da luz utilizando Set Light Color, Set Intensity e TimeLine."
   caption="Figura: Blueprint - Lógica para tratamento da luz utilizando Set Light Color, Set Intensity e TimeLine."
 %}
@@ -169,8 +197,8 @@ Em *BP_ControleLuz* adicionamos a seguinte lógica para tratamento de luz;
 
 O Editor do TimeLine é um gráfico de tempo e valor, onde a linha são os valores do tempo e a linha horizontal os valores da variável.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_timeline_variables.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_timeline_variables.webp"
   alt="Figura: Blueprint - Variáveis do objeto Timeline."
   caption="Figura: Blueprint - Variáveis do objeto Timeline."
 %}
@@ -179,8 +207,8 @@ O Editor do TimeLine é um gráfico de tempo e valor, onde a linha são os valor
 
 Tipo `float` controla a intensidade da luz durante o tempo 1.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_timeline_float.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_timeline_float.webp"
   alt="Figura:   Blueprint - Exemplo de variável float do DeltaTime."
   caption="Figura:   Blueprint - Exemplo de variável float do DeltaTime."
 %}
@@ -191,8 +219,8 @@ A seguir vamos criar variáveis para exemplicar cada tipo.
 
 Tipo `Vector` altera o valor das coordenadas durante o tempo 4.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_timeline_vector.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_timeline_vector.webp"
   alt="Figura:   Blueprint - Exemplo de variável Vector do DeltaTime."
   caption="Figura:   Blueprint - Exemplo de variável Vector do DeltaTime"
 %}
@@ -201,8 +229,8 @@ Tipo `Vector` altera o valor das coordenadas durante o tempo 4.
 
 Tipo `color` altera as cores da luz conforme o tempo passa.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_timeline_color.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_timeline_color.webp"
   alt="Figura: Blueprint - Exemplo de variável Color do DeltaTime."
   caption="Figura: Blueprint - Exemplo de variável Color do DeltaTime."
 %}
@@ -211,16 +239,18 @@ Tipo `color` altera as cores da luz conforme o tempo passa.
 
 Tipo `Event` dispara um evento no tempo 2,4 e 6.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_timeline_event.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_timeline_event.webp"
   alt="Figura: Blueprint - Exemplo de um evento do DeltaTime."
   caption="Figura: Blueprint - Exemplo de variável Color do DeltaTime."
 %}
 
 ## Acionando o evento para alterar a iluminação
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_timeline_call_event.webp"
+***
+
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_timeline_call_event.webp"
   alt="Figura: Blueprint - Exemplo da lógica para alterar a iluminação."
   caption="Figura: Blueprint - Exemplo de variável Color do DeltaTime."
 %}
@@ -247,7 +277,7 @@ Tipo `Event` dispara um evento no tempo 2,4 e 6.
 
 - `SetTimerbyFunction`;
 
-*Vídeo.*
+### Vídeo Delta time e sistema de coordenadas  - Timeline  03 Float
 
 {% include video.html
   link="https://youtu.be/qOUYp-XWUtw"
@@ -256,6 +286,8 @@ Tipo `Event` dispara um evento no tempo 2,4 e 6.
   caption="Vídeo: Delta time e sistema de coordenadas  - Timeline  03  Float - Unreal Engine."
 %}
 
+### Vídeo Delta time e sistema de coordenadas  - Timeline  04 Color
+
 {% include video.html
   link="https://youtu.be/EJQwXxjiS58"
   src="https://img.youtube.com/vi/EJQwXxjiS58/0.jpg"
@@ -263,12 +295,16 @@ Tipo `Event` dispara um evento no tempo 2,4 e 6.
   caption="Vídeo: Delta time e sistema de coordenadas  - Timeline  04  Color - Unreal Engine."
 %}
 
+### Vídeo Delta time e sistema de coordenadas  - Timeline  05 Event
+
 {% include video.html
   link="https://youtu.be/YkvP6tMMly0"
   src="https://img.youtube.com/vi/YkvP6tMMly0/0.jpg"
   alt="Vídeo: Delta time e sistema de coordenadas  - Timeline  05 Event - Unreal Engine."
   caption="Vídeo: Delta time e sistema de coordenadas  - Timeline  05 Event - Unreal Engine."
 %}
+
+### Vídeo Delta time e sistema de coordenadas  - Timeline  06 Vector
 
 {% include video.html
   link="https://youtu.be/w5VpoM95B-Q"
@@ -279,6 +315,8 @@ Tipo `Event` dispara um evento no tempo 2,4 e 6.
 
 ## Abrindo portas
 
+***
+
 Nos exemplos a seguir vamos movimentar um objeto para simular a movimentação de abertura de uma porta de duas formas, deslizando e girando.  
 
 ### Deslizando a porta
@@ -287,24 +325,24 @@ Neste exemplo vamos implementar um movimento no eixo Y de abertura de uma porta.
 
 Adicionando o elemento Movimentando `TimeLine` e alerando a posição do objeto.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_timeline_movement.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_timeline_movement.webp"
   alt="Figura: Blueprint - Exemploo de movimentação deslizando a porta."
   caption="Figura: Blueprint - Exemplo de movimentação deslizando a porta."
 %}
 
 *Movimentando* utiliza a variável Movimento do tipo `Vector`. Somente o valor de Y é alterado.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_timeline_movement_vector.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_timeline_movement_vector.webp"
   alt="Figura: Blueprint - Exemplo de movimentação com vector somente com o eixo Y."
   caption="Figura: Blueprint - Exemplo de movimentação com vector somente com o eixo Y."
 %}
 
 Salvamos a posição inicial do objeto.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_timeline_save_pos.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_timeline_save_pos.webp"
   alt="Figura: Blueprint - Salvando a posição de um objeto em um vetor."
   caption="Figura: Blueprint - Salvando a posição de um objeto em um vetor."
 %}
@@ -315,24 +353,24 @@ Neste exemplo vamos implementar um movimento no eixo Z, girando e abrindo a port
 
 Utilizamos a função `MakeRotator`.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_timeline_makerotator.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_timeline_makerotator.webp"
   alt="Figura: Blueprint - Exemplo de movimentação girando a porta utilizando Make Rotator."
   caption="Figura: Blueprint - Exemplo de movimentação girando a porta utilizando Make Rotator."
 %}
 
 Movimentando utiliza a variável *Angulo* do tipo `Vector`.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_timeline_vector_angle.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_timeline_vector_angle.webp"
   alt="Figura: Blueprint - Exemplo de movimentação utilizando ângulo de abertura."
   caption="Figura: Blueprint - Exemplo de movimentação utilizando ângulo de abertura."
 %}
 
 Acionando a porta.
   
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_timeline_open_door.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_timeline_open_door.webp"
   alt="Figura: Blueprint - Exemplo de abertura da porta utilizando CollisionComponent."
   caption="Figura: Blueprint - Exemplo de abertura da porta utilizando CollisionComponent."
 %}  
@@ -343,24 +381,24 @@ Podemos criar um tipo de objeto `Curve` para que possamos utilizar em vários Bl
 
 Para criar um objeto do tipo `Curve` utilizamos o menu de contexto `Miscellaneous` > `Curve`.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_menu_curve.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_menu_curve.webp"
   alt="Figura: Blueprint - Menu de contexto Miscellaneous > Curve."
   caption="Figura: Blueprint - Menu de contexto Miscellaneous > Curve."
 %}  
 
 Criando o Objeto C_TempoPorta.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_icon_curve.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_icon_curve.webp"
   alt="Figura: Blueprint - Objeto C_TempoPorta."
   caption="Figura: Blueprint - Objeto C_TempoPorta."
 %}  
 
 Associando o objeto C_TempoPorta ao objeto Movimentando.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_timeline_curve.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_timeline_curve.webp"
   alt="Figura: Blueprint - Associando a curva ao Timeline."
   caption="Figura: Blueprint - Associando a curva ao Timeline."
 %}  
@@ -369,8 +407,10 @@ Associando o objeto C_TempoPorta ao objeto Movimentando.
 
 ## Exemplo de calculo de velocidade
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_velocity_exemple.webp"
+***
+
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_velocity_exemple.webp"
   alt="Figura: Blueprint - Exemplo da lógica de calculo de velocidade."
   caption="Figura: Blueprint - Exemplo da lógica de calculo de velocidade."
 %}  
@@ -379,7 +419,7 @@ Associando o objeto C_TempoPorta ao objeto Movimentando.
 
 O sistema de coordenadas descreve uma maneira de usar números para especificar a localização de um ponto (ou pontos) no espaço 2D ou 3D. Em um motor de jogo, é função do sistema de coordenadas define a localização de cada objeto e para qual **direção** ele está voltado. Com esses dados podemos calcular a distância entre objetos, rotação, velocidade e todos os tipos de outras informações úteis.
 
-**Plano Cartesiano.**
+#### Plano Cartesiano
 
 Para demonstrar vamos utilizar um vetor de 2D (x,y).
 
@@ -455,8 +495,8 @@ O vetor normalizado das coordenadas (3,4) é (-.6,.8).
   Resultado =  a - b
   > (600,1200,0)  
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_distancia_com_vetores.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_distancia_com_vetores.webp"
   alt="Figura: Blueprint - Exemplo de lógica para calculo da distância de dois objetos."
   caption="Figura: Blueprint - Exemplo de lógica para calculo da distância de dois objetos."
 %}  
@@ -465,8 +505,8 @@ O vetor normalizado das coordenadas (3,4) é (-.6,.8).
 
 Calcula o comprimento do vetor, onde Comprimento = VectorLength(Resultado) (1341.64078);
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_vector_lenght.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_vector_lenght.webp"
   alt="Figura: Blueprint - Exemplo de VectorLength."
   caption="Figura: Blueprint - Exemplo de VectorLength."
 %}  
@@ -475,8 +515,8 @@ Calcula o comprimento do vetor, onde Comprimento = VectorLength(Resultado) (1341
 
 Calcula a distância de dois objetos, onde Distancia = GetDistanceTo(Cubo,Cubo2) (1341.64078);
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_getdistanceto.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_getdistanceto.webp"
   alt="Figura: Blueprint - Exemplo de GetDistanceTo."
   caption="Figura: Blueprint - Exemplo de GetDistanceTo."
 %}  
@@ -491,13 +531,15 @@ Resultado = Normalize(**a**,0)
 >
 > Os valores variam entre 0 e 1.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_normalize.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_normalize.webp"
   alt="Figura: Blueprint - Exemplo de Normalize."
   caption="Figura: Blueprint - Exemplo de Normalize."
 %}  
 
 ## Verificando para onde o ator está apontando
+
+***
 
 Usaremos várias funções para demonstrar como verificar a direção que o ator está apontando.
 
@@ -514,8 +556,8 @@ Usaremos várias funções para demonstrar como verificar a direção que o ator
   **a** = Cubo.GetActorRightVector()
   > 0,1,0
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_forward_up_right_vector.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_forward_up_right_vector.webp"
   alt="Figura: Blueprint - Exemplo de GetActorForwardVector para definir onde o ator esta apontando."
   caption="Figura: Blueprint - Exemplo de GetActorForwardVector para definir onde o ator esta apontando."
 %}  
@@ -524,8 +566,8 @@ Usaremos várias funções para demonstrar como verificar a direção que o ator
 
 Usaremos a função `FindLookAtRotation`. No exemplo o **Cubo3** vai apontar para a face. O personagem é do tipo `Character`.
 
-{% include image.html
-  src="../imagens/tempoespaco/blueprint_find_look_rotation.webp"
+{% include imagebase.html
+  src="unreal/tempoespaco/blueprint_find_look_rotation.webp"
   alt="Figura: Blueprint - Exemplo de FindLookAtRotation."
   caption="Figura: Blueprint - Exemplo de FindLookAtRotation."
 %}

@@ -58,6 +58,8 @@ layout: home
 
 - [Implementando a movimentação do personagem](unreal_engine_trabalhando_com_logica_movimentacao_de_personagem.html)
 
+- [Delta time e sistema de coordenadas](unreal_engine_deltatime_sistema_coordenadas.html)
+
 - [Introdução a animação de personagens](unreal_engine_animacao_introducao.html)
 
 - [Preparando o projeto](unreal_engine_animacao_preparando_o_projeto.html)
@@ -69,8 +71,6 @@ layout: home
 - [Implementando a mira](unreal_engine_animacao_aim_offset.html)
 
 - [Trabalhando com Animação 2D](unreal_engine_animacao2d.html)
-
-- [Delta time e sistema de coordenadas](deltatime_sistema_coordenadas/unreal_engine_deltatime_sistema_coordenadas.html)
 
 ## Inteligência Artificial
 

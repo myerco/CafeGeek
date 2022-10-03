@@ -9,6 +9,32 @@ layout: post
 date: 2022-09-25 
 ---
 
+## Índice
+
+***
+
+- [O que é Animation Bluerint?](#o-que-é-animation-bluerint)
+
+- [Estados de maquina ou State Machine](#estados-de-maquina-ou-state-machine)
+
+- [Blend Space e State Machine](#blend-space-e-state-machine)
+
+- [Blend Space 1D](#blend-space-1d)
+
+- [Blend Space](#blend-space)
+
+- [Implementando a Corrida](#implementando-a-corrida)
+
+- [Montando a animação de ataque](#montando-a-animação-de-ataque)
+
+- [Animação básica com AnimGraph](#animação-básica-com-animgraph)
+
+- [Animação de ataque com AnimGraph](#animação-de-ataque-com-animgraph)
+
+- [Atacando somente com os braços](#atacando-somente-com-os-braços)
+
+- [Animação de ataque completa e correndo somente os braços](#animação-de-ataque-completa-e-correndo-somente-os-braços)
+
 ***
 
 {% include imagebase.html
@@ -61,7 +87,7 @@ O nó `Output Pose` é o estado ou pose final da animação. A seguir vamos cria
     caption="Figura: Unreal Engine - Animation graphs Output Pose."
 %}
 
-2. Dentro do nó criado adicionaremos um novo estado com `Add State` com o nome `Idle/Walk/Run`.
+1. Dentro do nó criado adicionaremos um novo estado com `Add State` com o nome `Idle/Walk/Run`.
 
 {% include imagebase.html
     src="unreal/animacao/unreal_engine_human_blendspace_1d_state.webp"
@@ -187,13 +213,18 @@ Devemos considerar que o salto depende se o personagem esta em queda e se a fun�
     caption="Figura: Unreal Egnine - Animação do mutante - AnimGraph BS_Mutant."
 %}
 
-## Vídeo Animation Bluerint do Mutante
+### Vídeo Animation Bluerint do Mutante
 
-[![Vídeo: Unreal Engine - Animação do mutante  com Blueprint.](http://img.youtube.com/vi/a2JULC4-P1o/0.jpg)](https://youtu.be/a2JULC4-P1o "Vídeo: Unreal Engine - Animação do mutante  com Blueprint.")
-
-> Vídeo: Unreal Engine - Animação do mutante  com Blueprint.
+{% include video.html
+    link="https://youtu.be/a2JULC4-P1o"
+    src="http://img.youtube.com/vi/a2JULC4-P1o/0.jpg"
+    alt="Vídeo: Unreal Engine - Animação do mutante  com Blueprint."
+    caption="Vídeo: Unreal Engine - Animação do mutante  com Blueprint."
+%}
 
 ## Implementando a Corrida
+
+***
 
 Em este passo iremos implementar a corrida do personagem. Vamos configura o evento `Left Shift` para alterar a propriedade `Max Walk Speed` do componente `CharacterMomement` com os valores 220 para velocidade máxima e 110 para caminhada.
 
@@ -203,13 +234,18 @@ Em este passo iremos implementar a corrida do personagem. Vamos configura o even
     caption="Figura: Unreal Engine - Implementando a corrida do mutante - Bluerint running."
 %}
 
-## Vídeo Implementando a corrida
+### Vídeo Implementando a corrida do mutante
 
-[![Vídeo: Unreal Engine - Implementando a corrida do mutante.](http://img.youtube.com/vi/k6tGHVm2BNQ/0.jpg)](https://youtu.be/k6tGHVm2BNQ "Vídeo: Unreal Engine - Implementando a corrida do mutante.")
-
-> Vídeo: Unreal Engine - Implementando a corrida do mutante.
+{% include video.html
+    link="https://youtu.be/k6tGHVm2BNQ"
+    src="http://img.youtube.com/vi/k6tGHVm2BNQ/0.jpg"
+    alt="Vídeo: Unreal Engine - Implementando a corrida do mutante."
+    caption="Vídeo: Unreal Engine - Implementando a corrida do mutante."
+%}
 
 ## Montando a animação de ataque
+
+***
 
 Uma `Animation Montage` ou montagem de animação (ou montagem, para abreviar) fornece uma maneira de controlar um ativo de animação diretamente por meio do código Blueprint ou C ++. Com uma montagem de animação, você pode combinar várias sequências de animação diferentes em um único ativo que você pode dividir em seções para reprodução individualmente ou em combinação. Você também pode disparar eventos dentro de uma montagem que pode executar uma variedade de tarefas locais ou replicadas, como tocar sinais de som ou efeitos de partículas, alterar valores do jogador como contagem de munição ou até mesmo replicar o movimento raiz em jogos em rede (desde que o movimento raiz esteja ativado na animação).
 
@@ -237,7 +273,7 @@ Em este passo utilizaremos o `Animation Montage` para montar as animações de a
     caption="Figura: Unreal Engine - Animation Montage para o ataque 2."
 %}
 
-## Vídeo montando Animação de ataque
+### Vídeo montando Animação de ataque
 
 {% include video.html
     link="https://youtu.be/Kufu78tu9EE"
@@ -246,7 +282,9 @@ Em este passo utilizaremos o `Animation Montage` para montar as animações de a
     caption="Vídeo: Unreal Engine - Animação de ataque."
 %}
 
-### Animação básica com AnimGraph
+## Animação básica com AnimGraph
+
+***
 
 AnimGraph utiliza o conceito de máquinas de estado que fornecem uma maneira gráfica de quebrar a animação de uma malha esquelética em uma série de estados. Esses estados são então governados por Regras de transição que controlam como combinar de um estado para outro.
 
@@ -317,13 +355,18 @@ Agora vamos implementar a lógica para chamar as animações quando forem pressi
     caption="Figura: Unreal Engine - Blueprint para chamar a animação de ataque"
 %}
 
-## Vídeo montando o ataque
+### Vídeo montando o ataque
 
-[![Vídeo: Unreal Engine - Montando o ataque com Animação com AnimGraph.](http://img.youtube.com/vi/Ss22A7xrtCQ/0.jpg)](https://youtu.be/Ss22A7xrtCQ "Vídeo: Unreal Engine - Montando o ataque com Animação com AnimGraph.")
-
-> Vídeo: Unreal Engine - Montando o ataque com Animação com AnimGraph.
+{% include video.html
+    link="https://youtu.be/Ss22A7xrtCQ"
+    src="http://img.youtube.com/vi/Ss22A7xrtCQ/0.jpg"
+    alt="Vídeo: Unreal Engine - Montando o ataque com Animação com AnimGraph."
+    caption="Vídeo: Unreal Engine - Montando o ataque com Animação com AnimGraph."
+%}
 
 ## Atacando somente com os braços
+
+***
 
 Em este passo iremos continuar com a programação `AnimGraph` para fazer o personagem correr e atacar ao mesmo tempo, para isso vamos misturar os ossos das animações utilizando `Layerd Blend per Bone`.
 
@@ -361,8 +404,11 @@ No `Event Graph` de `ABP_Mutant` adicionamos a lógica para verificar se o perso
     caption="Figura: Unreal Engine - Animação - Layerd Blend by bool e definindo uma variável de controle Moving."
 %}
 
-**Vídeo do personagem correndo e atacando.**
+### Vídeo do personagem correndo e atacando
 
-[![Vídeo: Unreal Engie - Animação do personagem correndo e atacando ao mesmo tempo.](http://img.youtube.com/vi/1gjkcrU7pmA/0.jpg)](https://youtu.be/1gjkcrU7pmA "Vídeo: Unreal Engie - Animação do personagem correndo e atacando ao mesmo tempo.")
-
-> Vídeo: Unreal Engie - Animação do personagem correndo e atacando ao mesmo tempo.
+{% include video.html
+    link="https://youtu.be/1gjkcrU7pmA"
+    src="http://img.youtube.com/vi/1gjkcrU7pmA/0.jpg"
+    alt="Vídeo: Unreal Engie - Animação do personagem correndo e atacando ao mesmo tempo."
+    caption="Vídeo: Unreal Engie - Animação do personagem correndo e atacando ao mesmo tempo."
+%}
