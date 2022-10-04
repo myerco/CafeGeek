@@ -128,7 +128,7 @@ Criado anteriormente, BS_Human1D recebe como parâmetro `Speed` dentro do nó `I
 Nó `Idle/Walk/Run` adicionamos BS_Human que recebe como parâmetro `Speed` e `Direction` pois trabalha com duas coordenadas.
 
 {% include imagebase.html
-    src="unreal/animacao/unreal_engine_human_blendspace_state_base.webp"
+    src="unreal/animacao/unreal_engine_human_blendspace_state.webp"
     alt="Figura: Unreal Engine - Blend Space 1D dentro do State."
     caption="Figura: Unreal Engine - Blend Space 1D dentro do State."
 %}
