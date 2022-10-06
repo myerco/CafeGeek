@@ -1,19 +1,62 @@
 ---
 title: Trabalhando com iluminação
 description: Neste capítulo vamos implementar a Iluminação do jogo.
-tags: [Unreal Engine, HUD, user interface,UI]
-layout: page
+tags: [Unreal Engine, iluminação]
+author: 
+- Cafegeek
+layout: post
+date: 2022-09-21 
 ---
 
-## Iluminação
+## Índice
 
-1. Tipos de iluminação;
-1. Propriedades de luz;
-1. Lightmass Importance Volume;
-1. Atmospheric Fog;
-1. Post Process Volume;
+***
+
+### Tipos de iluminação
+
+- [Directional Light](#directional-light)
+
+- [Sky Light](#sky-light)
+
+- [Light Component](#light-component)
+
+- [Spot Light](#spot-light)
+
+- [Point Light](#point-light)
+
+- [Rect Light](#rect-light)
+
+### Propriedades da luz
+
+- [Propriedades da luz](#propriedades-da-luz)
+
+- [Configuração no projeto](#configuração-no-projeto)
+
+- [Formas de captura de reflexão](#formas-de-captura-de-reflexão)
+
+- [Sphere Reflection](#sphere-reflection)
+
+- [Box Reflection Capture](#box-reflection-capture)
+
+- [Lightmass Importance Volume](#lightmass-importance-volume)
+
+- [Auto exposure](#auto-exposure)
+
+- [Build ligths](#build-ligths)
+
+- [Sombras](#sombras)
+
+- [Unlit](#unlit)
+
+- [Salvando a imagem da cena](#salvando-a-imagem-da-cena)
+
+- [Reflexos](#reflexos)
+
+***
 
 ## Directional Light
+
+***
 
 **Directional Light** ou *luz direcional* simula a luz que está sendo emitida por uma fonte que está infinitamente distante. Isso significa que todas as sombras lançadas por essa luz serão paralelas, tornando-a a escolha ideal para simular a luz do sol. A luz direcional quando colocada pode ser definida para uma das três configurações de mobilidade:
 
@@ -29,11 +72,15 @@ Significa que a luz terá apenas seu sombreamento e iluminação rebatida da geo
 
 Significa que a luz é totalmente dinâmica e permite sombreamento dinâmico. Este é o mais lento em termos de renderização, mas permite maior flexibilidade durante o jogo.
 
-![LightHeader](https://docs.unrealengine.com/4.26/Images/BuildingWorlds/LightingAndShadows/LightTypes/Directional/Directional_LightHeader.webp "LightHeader")
-
->Figura: Directional Light.
+{% include image.html
+    src="https://docs.unrealengine.com/4.26/Images/BuildingWorlds/LightingAndShadows/LightTypes/Directional/Directional_LightHeader.webp"
+    alt="Figura: LightHeader."
+    caption="Figura:Directional Light.."
+%}
 
 ## Sky Light
+
+***
 
 A **Sky Light** captura as partes distantes do seu nível e as aplica à cena como uma luz. Isso significa que a aparência do céu e sua iluminação / reflexos serão iguais, mesmo que o céu esteja vindo da atmosfera, ou nuvens em camadas no topo de um *skybox* ou montanhas distantes.
 Você também pode especificar manualmente um mapa de cubo a ser usado.
@@ -48,6 +95,8 @@ O **Sky Light** só irá capturar a cena em certas circunstâncias:
 > Um **Sky Light** deve ser usado em vez do **Ambient Cubemap** para representar a luz do céu, porque as **Sky Lights** suportam sombras locais, o que evita que áreas internas sejam iluminadas pelo céu.
 
 ## Light Component
+
+***
 
 Um PointLightComponent funciona como uma lâmpada do mundo real, emitindo luz em todas as direções do filamento de tungstênio da lâmpada. No entanto, por uma questão de desempenho, PointLightComponents são simplificados emitindo luz igualmente em todas as direções de apenas um único ponto no espaço.
 
@@ -67,11 +116,15 @@ Attenation Radius : Raio de influência.
 
 ## Spot Light
 
+***
+
 Um **Spot Light** emite luz de um único ponto em forma de cone. Os usuários recebem dois cones para moldar a luz, o Ângulo do Cone Interno e o Ângulo do Cone Externo.
 
 Dentro do ângulo do cone interno, a luz atinge o brilho total. Conforme você vai da extensão do raio interno às extensões do Ângulo do Cone Externo, ocorre uma queda, criando uma penumbra ou suavizando em torno do disco de iluminação do **Spot Light**. O raio da luz define o comprimento dos cones. De forma mais simples, isso funcionará como uma luz de flash ou um palco pode acender.
 
 ## Point Light
+
+***
 
 As **Point Lights** funcionam como uma lâmpada do mundo real, emitindo luz em todas as direções a partir do filamento de tungstênio da lâmpada. No entanto, por uma questão de desempenho, as **Point Lights** são simplificadas emitindo luz igualmente em todas as direções a partir de apenas um único ponto no espaço. O ponto de luz quando colocado pode ser definido para uma das três configurações de mobilidade:
 
@@ -89,9 +142,13 @@ Se houver apenas três luzes estacionárias colocadas e houver um X vermelho sob
 
 ## Rect Light
 
+***
+
 O **Rect Light** emite luz na cena a partir de um plano retangular com largura e altura definidas. Você pode usá-los para simular qualquer tipo de fonte de luz que tenha áreas retangulares, como televisores ou telas de monitor, luminárias suspensas ou arandelas de parede.
 
 ## Propriedades da luz
+
+***
 
 As luzes no Unreal Engine são definidas usando unidades de iluminação baseadas fisicamente, tornando possível inserir valores conhecidos e mensuráveis para alcançar uma iluminação totalmente realista. Além dos tipos de luz que suportam diferentes unidades de iluminação, o **Post Process** para adaptação ocular (ou exposição automática) agora oferece suporte a uma ampla gama de valores e é expresso em EV100 (ISO 100).
 
@@ -108,9 +165,14 @@ Para esses tipos de luz, sua intensidade é exibida da seguinte forma:
 
 ## Configuração no projeto
 
-->Project->Rendering->Light Unit
+***
+Para configurar utilize o menu:
+
+`Project` > `Rendering` > `Light Unit`
 
 ## Formas de captura de reflexão
+
+***
 
 O Reflection Environment funciona capturando o nível estático em muitos pontos e reprojetando-o em formas simples, como esferas em reflexos. Os artistas escolhem os pontos de captura colocando Atores ReflectionCapture. Os reflexos são atualizados em tempo real durante a edição para auxiliar no posicionamento, mas são estáticos no tempo de execução. Projetar o nível capturado em formas simples fornece paralaxe aproximada para a reflexão. Cada pixel se mistura entre vários mapas de cubo para obter o resultado final. Atores ReflectionCapture menores substituem os maiores, para que você possa refinar a precisão da paralaxe de reflexão em áreas conforme necessário. Por exemplo, você pode colocar uma captura no centro de uma sala e, em seguida, refinar o reflexo colocando capturas menores nos cantos da sala.
 
@@ -118,18 +180,26 @@ Atores de captura de reflexão são objetos estrategicamente colocados em todo o
 
 ## Sphere Reflection
 
+***
+
 Existem atualmente duas formas de captura de reflexo: esfera e caixa. A forma é muito importante porque controla qual parte do nível é capturada no mapa do cubo, em que forma o nível é reprojetado em reflexos e em qual parte do nível pode receber reflexos desse mapa do cubo (área de influência).
 
 Para obter mais informações sobre o ambiente de reflexão e as capturas de reflexão, consulte Ambiente de reflexão.
 
 ## Box Reflection Capture
 
+***
+
 ## Lightmass Importance Volume
+
+***
 
 **Lightmass** cria mapas de luz com interações de luz complexas, como sombreamento de área e inter-reflexão difusa. É usado para pré-calcular porções da contribuição de iluminação de luzes com mobilidade estacionária e estática.
 Muitos mapas têm malhas até a borda da grade no editor, mas a área real de jogo que precisa de iluminação de alta qualidade é muito menor. A massa de luz emite fótons com base no tamanho do nível, portanto, essas malhas de fundo aumentarão muito o número de fótons que precisam ser emitidos e o tempo de construção de iluminação aumentará. O **Lightmass Importance Volume** controla a área em que a *Lightmass* emite fótons, permitindo concentrar apenas na área que precisa de iluminação indireta detalhada. As áreas fora do volume de importância recebem apenas um salto de iluminação indireta em uma qualidade inferior.
 
 ## Auto exposure
+
+***
 
 Após desligar todas as luzes ainda ficam elementos visiveis, porque eles ainda tem marcas da iluminação, para desligar esses elementos utilize:
 
@@ -139,11 +209,15 @@ O backlight ainda vai estar presente.
 
 ## Build ligths
 
+***
+
 Para construir e calcular todas as sombras e reflexos da cena utilize :
 
 `Build` > `Light`
 
 ## Sombras
+
+***
 
 Construção de sombras usando back.
 
@@ -163,9 +237,13 @@ Alter os valores para a qualidade das sombras.
 
 ## Unlit
 
+***
+
 Apresenta a cena sem iluminação.
 
 ## Salvando a imagem da cena
+
+***
 
 Para salvar cena em um arquivo utilize:
 
@@ -173,12 +251,6 @@ Para salvar cena em um arquivo utilize:
 
 ## Reflexos
 
+***
+
 Material todo branco.
-
-## Referências
-
-- [Components Lights](https://docs.unrealengine.com/4.26/en-US/Basics/Components/Lights/)
-- [Lightmass](https://docs.unrealengine.com/4.26/en-US/RenderingAndGraphics/Lightmass/)
-- [LightTypes](https://docs.unrealengine.com/4.26/en-US/BuildingWorlds/LightingAndShadows/LightTypes/)
-- [candelas ou lumens qual é o correto](https://blogdaliga.com.br/candelas-ou-lumens-qual-e-correto/)
-- [Reflections](https://docs.unrealengine.com/4.26/en-US/Resources/Showcases/Reflections/)
