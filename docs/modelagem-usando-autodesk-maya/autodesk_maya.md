@@ -785,71 +785,176 @@ Por exemplo, a tecelagem para no valor de tolerância fracionária que você def
 
 ## Materiais
 
-- Render
+No Maya, os nós de material definem como as superfícies reagem à luz. O Maya contém vários tipos de nós de material que ajudam a simular as qualidades ou comportamentos do mundo real de superfícies à luz: nós de material de superfície (*Surface Material*), nós de material volumétrico (*Volumetric Material*)e o nó de material de deslocamento (*Displacement Material*).
 
-  - Menu: `Arnold` > `Arnold Render View`
+Você pode definir os atributos de um material, como cor, especularidade, refletividade, transparência e detalhes da superfície dos elementos da cena para criar uma ampla variedade de imagens realistas.
 
-  - Cameras
+> Observação:
+>
+>Quando você cria um objeto pela primeira vez, o Maya atribui uma versão especial do material `Lambert` (um material de superfície ou *Surface Material*) por padrão.
 
-  - Iluminação
+### Surface Material
 
-### Criando materiais
+Os materiais de superfície representam os tipos de superfícies nas quais você pode mapear texturas. Atributos como brilho, fosco, refletividade, brilho e assim por diante variam entre os diferentes tipos de materiais no Maya. Por exemplo, se a textura exigir uma superfície brilhante, como cromo, use um material `Phong`.
 
-Menu/Opção `Rendering` > ``Light/Shading` > `New Material`
+{% include imagebase.html
+    src="autodesk_maya/material/autodesk_maya_surface_material.webp"
+    alt="Figura: Surface Material."
+    caption="Figura: Menu Assign New Material - Maya > Surface. "
+%}
 
-Logo em seguida é apresentado a lista de materiais existentes no Maya.
+Para obter uma descrição detalhada dos atributos de um material de superfície, consulte [Nós de material de superfície](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-LightingShading/files/GUID-634CAFBE-AC48-4B73-89CA-82D64FA1BC70-htm.html).
 
-Atributos do material:
+### Displacement Material
 
-1. Color;
+O material de deslocamento permite que você use uma imagem para especificar o relevo da superfície em objetos em sua cena. Para saber mais sobre o relevo de superfície, consulte [Sobre o relevo de superfície](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-LightingShading/files/GUID-F403A3FF-55BE-43A0-B6E1-49BA7C6BF5EE-htm.html).
 
-1. Transparency;
+### Volumetric material (atmosphere)
 
-1. Incandescence;
+No mundo real, quando você fotografa um objeto, geralmente ele está dentro de uma atmosfera (ar) e cercado por outros objetos (fundo).
 
-1. Bump Mapping - Adiciona uma imagem para [Bump Mapping](https://pt.wikipedia.org/wiki/Bump_mapping)
+Materiais volumétricos descrevem a aparência física de fenômenos que ocupam um volume de espaço (por exemplo, neblina, fumaça, poeira ou outras partículas finas). Você pode rastrear materiais volumétricos e produzir efeitos como exibir neblina de luz por meio de reflexões e refrações de espelho.
 
-### Tipos de Materiais (Maya)
+Para obter uma descrição de materiais volumétricos, consulte [Sobre materiais volumétricos](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-LightingShading/files/GUID-6FF09EBA-CD7C-45B7-8B49-305D748EE7B4-htm.html).
 
-- Lambert (simples sem reflexo, brilho e transparência)
+{% include imagebase.html
+    src="autodesk_maya/material/autodesk_maya_volumetric_material.webp"
+    alt="Figura: Volumetric Material."
+    caption="Figura: Menu Assign New Material - Maya > Volumetric"
+%}
 
-  - Color: cor do material;
+## Hypershade
 
-  - transparência: Aumenta o alpha;
+{% include image.html
+    src="https://help.autodesk.com/cloudhelp/2020/ENU/Maya-LightingShading/images/GUID-C59B74F1-2AFF-4EB1-8745-3D742EE005F7.png"
+    alt="Figura: Hypershader Editor"
+    caption="Figura: O editor do Hypershader"
+%}
 
-  - Ambiente color: aumenta a tonalidade da cor;
+Para criar um material utilize a aba `Create tab`, selecionando o tipo os nós serão construídos no `Work Area`.
 
-  - Incandescência: Adiciona uma luz ao material;
 
-  - Bump Mapping: adiciona textura para associar rugosidade ou padrões;
+## Criando materiais com as opções do menu
 
-  - Diffuse: Torna mais claro ou escuro a cor.
+Para criar um material utilize:
 
-- Blind (Com brilho e reflexo)
+Status Line: `Rendering` > `Light/Shading` > `New Material`.
 
-  - Specular [Reflexão especular](https://pt.wikipedia.org/wiki/Reflex%C3%A3o_especular)
+Status Line: `Rendering` > `Light/Shading` > `Assing New Material`, para criar e associar o material a um objeto selecionado.
+
+#### Atributos do material
+
+Status Line: `Rendering` > `Light/Shading` > `Material Attributes`.
+
+{% include imagebase.html
+    src="autodesk_maya/material/autodesk_maya_material_attibutes1.webp"
+    alt="Figura: Material Attributes."
+    caption="Figura: Apresentando os atributos do material."
+%}
+
+- Color: Escolha da cor base do material;
+
+- Transparency: Transparência;
+
+- Incandescence: Emissão da luz;
+
+- Bump Mapping - Adiciona uma imagem para [Bump Mapping](https://pt.wikipedia.org/wiki/Bump_mapping)
+
+### Checker ou Fluxo de trabalho
+
+Ao escolher um atributo, color, por exemplo, é possível ligar o material a outro elemento ou material, construindo um fluxo de elementos.
+
+{% include imagebase.html
+    src="autodesk_maya/material/autodesk_maya_material_attibutes_flow1.webp"
+    alt="Figura: Material Attributes checker."
+    caption="Figura: Atributo checker permite ligar o material a outro elemento."
+%}
+
+Usamos os comandos abaixo para navegar pelos elementos dentro do painel de atributos do material.
+
+{% include imagebase.html
+    src="autodesk_maya/material/autodesk_maya_material_attibutes_flow2.webp"
+    alt="Figura: Material Attributes next."
+    caption="Figura: Próximo e Anterior ícones respectivamente e o ícone apresentando a ligação com outro elemento."
+%}
+
+Para quebrar a conexão selecione o atributo e RMB > `Break Connection`.
+
+### Adicionando uma imagem
+
+Crie um novo material, logo em seguida altere o atributo `color` e associe a um elemento do tipo `file`.
+
+Propriedades:
+
+`Filter type` : Filtro interno para carregar imagens;
+
+O elemento `Place2DTexture` é associado automáticamente a imagem para que possamos alterar as propriedades.
+
+`Coverage`: Especifica qual proporção da superfície o mapa de textura cobre. O intervalo válido é de 0 a + infinito para superfícies NURBS. Um valor de 1 (o padrão) cobre toda a superfície na direção U ou V.
+
+`Translate`: Os atributos Translate posicionam o mapa de textura na superfície e movem a área de cobertura pela superfície. O intervalo é de - infinito a + infinito.
+
+## Tipos de Materiais (Maya)
+
+***
+
+### Lambert
+
+simples sem reflexo, brilho e transparência)
+
+- Color: cor do material;
+
+- transparência: Aumenta o alpha;
+
+- Ambiente color: aumenta a tonalidade da cor;
+
+- Incandescência: Adiciona uma luz ao material;
+
+- Bump Mapping: adiciona textura para associar rugosidade ou padrões;
+
+- Diffuse: Torna mais claro ou escuro a cor.
+
+### Blind
+
+Com brilho e reflexo
+
+- Specular [Reflexão especular](https://pt.wikipedia.org/wiki/Reflex%C3%A3o_especular)
   
-  - Eccentricty: Aumenta o brilho
+- Eccentricty: Aumenta o brilho
   
-  - Specular Roll off: Desfoque aplicado no brilho
+- Specular Roll off: Desfoque aplicado no brilho
   
-  - Specular color : Cor do brilho
+- Specular color : Cor do brilho
   
-    - Reflectivity: Aumenta a intensidade do reflexo
+- Reflectivity: Aumenta a intensidade do reflexo
 
-- [Phong](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Maya/files/GUID-3EDEB1B3-4E48-485A-9714-9998F6E4944D-htm.html) (Parecido com o Blind mas com mais parâmetros)  
+### Phong
 
-  - Specular Shadding
+Parecido com o Blind mas com mais parâmetros.
 
-    - Roughness: rugosidade
+[Sobre o phong](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Maya/files/GUID-3EDEB1B3-4E48-485A-9714-9998F6E4944D-htm.html)
 
-    - Highlight size: tamanho do desfoque
+- Specular Shadding
+
+- Roughness: rugosidade
+
+- Highlight size: tamanho do desfoque
 
 - Anisotropic
 
-  - Specular Shader
+- Specular Shader
 
-    - Angle: ângulo da luz
+- Angle: ângulo da luz
+
+## Renderização e Iluminação
+
+***
+
+`Render` > `Render View`
+
+- Cameras;
+
+- Iluminação.
 
 ## Mapeamento UV
 
