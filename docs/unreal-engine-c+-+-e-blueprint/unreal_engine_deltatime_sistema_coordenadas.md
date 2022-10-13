@@ -53,10 +53,15 @@ Frame: Um quadro ou imagem apresentada, uma animação é composta por vários f
 | Delta | 1 | 2 | 3 |4  | 5 | 6 | 7 | 8 | 9 |   |
 
 - 10 Fps = 10 frames a cada segundo;
-1 segundo / 9 = 0,1 segundo ou 100ms;
+
+  - 1 segundo / 9 = 0,1 segundo ou 100ms;
+
 - 100 FPS = 100 frames a cada segundo;
-1 segundo /99 = 0,01 segundo ou 10ms
+
+  - 1 segundo /99 = 0,01 segundo ou 10ms
+
 - 30 FPS = 1/29 , 0.034 34ms;
+
 - 60 FPS = 1/59 , 0.017 17ms;
 
 ### Utilizando comandos do console
@@ -563,6 +568,8 @@ Usaremos várias funções para demonstrar como verificar a direção que o ator
 %}  
 
 ## Acompanhando o movimento de um objeto
+
+***
 
 Usaremos a função `FindLookAtRotation`. No exemplo o **Cubo3** vai apontar para a face. O personagem é do tipo `Character`.
 

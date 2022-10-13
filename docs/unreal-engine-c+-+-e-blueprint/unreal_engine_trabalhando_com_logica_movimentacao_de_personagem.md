@@ -12,7 +12,8 @@ date: 2022-09-21
 ## Índice
 
 ***
-- [Implementando a movimentação do personagem](#implementando-a-movimentação-do-personagem)
+
+- [Actions Mappings](#actions-mappings)
 
 - [Axis Mappings](#axis-mappings)
 
@@ -32,23 +33,22 @@ date: 2022-09-21
 
 ***
 
-**Unreal Engine** utiliza Input Actions e Mappings para vincular ações e mapeamento de chaves e eixos de entrada.
+O **Unreal Engine** utiliza `Input Actions` e `Mappings` para vincular ações e mapeamento de teclas e eixos de entrada de ações e movimentação.
 
-- Facilita o mapeamento de várias chaves para o mesmo comportamento;
+## Actions Mappings
 
-- Possibilita o remapeamento de chaves.
+Mapeamento de ações permite vincular um evento a uma entrada de dados (teclado, mouse, Gamepad, etc) e determinar a ação que deve ser executada em código C++ ou Blueprint.  
 
-### Actions Mappings
-
-Vincular um evento a uma entrada de dados (teclado, mouse, Gamepad, etc).  
 Mapeamento de um evento a um botão:
 
 - Valores 0 e 1  
 
-Exemplo:
+Exemplo de ações associadas a uma tecla:
 
 1. Tecla Espaço = Pulo;
+
 1. Tecla Enter = Disparo;
+
 1. Tecla C  = Agachar.
 
 ### Exemplo em C++ associando um evento do método ObEndPulo
@@ -61,17 +61,12 @@ InputComponent->BindAction("Pulo", IE_Released, this, &ASampleCharacter::OnEndPu
 
 ***
 
-Mapeamento de Movimentação nos eixos;  
-
-Mapeamento um evento a um botão ou a um eixo de controle;
-
-É atualizado constantemente.  
-
-Escala de valores.  
+O Mapeamento de eixos permite associar uma tecla para a movimentação do personagem, esse é atualizado constantemente.  
 
 Exemplo:
 
-1. Tecla W = MoverDireita
+1. Tecla W = MoverDireita;
+
 1. Tecla D = MoverEsquerda
 
 ### Exemplo em C++ associando um evento ao método MoveForward
@@ -84,7 +79,7 @@ InputComponent->BindAxis("MoveParaFrente", this, &ASampleCharacter::MoveForward)
 
 ***
 
-No exemplo abaixo associamos a ação Pulo com o tecla **Space Bar** e **GamePad FaceButtonBotton**. Ao definir uma ação em **Bindings** a *game engine* cria um evento do mesmo nome.
+No exemplo abaixo associamos a ação Pulo com o tecla `Space Bar` e `GamePad FaceButtonBotton`. Ao definir uma ação em Bindings a *game engine* cria um evento do mesmo nome.
 
 {% include imagebase.html
     src="unreal/actor/blueprint_bindings.webp"
@@ -96,7 +91,7 @@ No exemplo abaixo associamos a ação Pulo com o tecla **Space Bar** e **GamePad
 
 ***
 
-Para exemplificar a implementação utilizaremos uma classe do tipo **Pawn**
+Para exemplificar a implementação utilizaremos uma classe do tipo `Pawn`.
 
 ### Componentes do objeto Pawn
 
@@ -160,10 +155,13 @@ Captura as coordenadas do ator para que possamos utilizar os métodos de movimen
     caption="Figura: Blueprint - InputAxis e Add Controller Yaw Input e Add Controller Pitch Input."
 %}
 
-- **Yaw e Pitch** - Representam respectivamente as coordenadas:  
-      X = Roll
-      Y = Pitch
-      Z = Yaw
+`Yaw e Pitch` - Representam respectivamente as coordenadas:  
+
+- X = Roll;
+
+- Y = Pitch;
+
+-  Z = Yaw;
 
 ### Controle de movimentação do ator (Classe)
 
@@ -323,6 +321,8 @@ Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e de
 - `Direction` - Vetor auxiliar que determina a direção do objeto.
 
 ## Inicializando variáveis
+
+***
 
 {% include imagebase.html
     src="unreal/movimentacao/blueprint_plataform_init_variables.webp"
