@@ -833,6 +833,19 @@ Para obter uma descrição de materiais volumétricos, consulte [Sobre materiais
 
 Para criar um material utilize a aba `Create tab`, selecionando o tipo os nós serão construídos no `Work Area`.
 
+{% include imagebase.html
+    src="autodesk_maya/material/autodesk_maya_material_hypershader_create_material.webp"
+    alt="Figura: Create material."
+    caption="Figura: Crie um material e renomeie para representar o elemento ao qual deve ser aplicado."
+%}
+
+Ao clicar com o RMB no material listado no `Browser` acionamos o menu de contexto do mateial, pemite abrir os nós do material na `Work Area`.
+
+{% include imagebase.html
+    src="autodesk_maya/material/autodesk_maya_material_hypershader_open_graph_network.webp"
+    alt="Figura: RMB open graph network."
+    caption="Figura: Podemos listar os nós do material escolhendo a opção Open Graph Network."
+%}
 
 ## Criando materiais com as opções do menu
 

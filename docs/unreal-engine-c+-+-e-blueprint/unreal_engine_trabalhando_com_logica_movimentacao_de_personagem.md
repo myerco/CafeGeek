@@ -19,42 +19,104 @@ date: 2022-09-21
 
 - [Mapeamento Input do projeto](#mapeamento-input-do-projeto)
 
-- [Movimentação de peão Pawn](#movimentação-de-pe-o-pawn)
+- [Movimentação de peão Pawn com Blueprint](#movimentação-de-peão-pawn-com-blueprint)
 
-- [Utilizando Enumeration para registro de poses/estados do personagem.](#utilizando-enumeration-para-registro-de-poses-estados-do-personagem)
+- [Utilizando Enumeration para registro de poses do personagem](#utilizando-enumeration-para-registro-de-poses-do-personagem)
 
-- [Exemplo de movimentação da Plataforma](#exemplo-de-movimentação-da-plataforma)
+- [Movimentação de objetos](#movimentação-de-objetos)
 
-- [Usando o evento Tick - Blueprint](#usando-o-evento-tick---blueprint)
+- [Usando o evento Tick com Blueprint](#usando-o-evento-tick-com-blueprint)
 
 - [Inicializando variáveis](#inicializando-variáveis)
 
-- [Usando o evento Tick - C++](#usando-o-evento-tick---c)
+- [Usando o evento Tick com C++](#usando-o-evento-tick-com-c)
 
 ***
 
-O **Unreal Engine** utiliza `Input Actions` e `Mappings` para vincular ações e mapeamento de teclas e eixos de entrada de ações e movimentação.
+O **Unreal Engine** utiliza `Input Actions` e `Mappings` para vincular ações e mapeamento de teclas e eixos de entrada de ações e movimentação, separando a lógica da entrada física.
+
+## Mapeamento Input do projeto
+
+***
+
+Para associar teclas a eventos utilizamos o menu `Edit` > `Project Settings` > `Input`. O valores adicinados serão salvos automáticamente.
+
+{% include imagebase.html
+    src="unreal/actor/unreal_engine_input.webp"
+    alt="Figura: Engine Input."
+    caption="Figura: Edit > Project Settings > Input."
+%}
 
 ## Actions Mappings
 
+***
+
 Mapeamento de ações permite vincular um evento a uma entrada de dados (teclado, mouse, Gamepad, etc) e determinar a ação que deve ser executada em código C++ ou Blueprint.  
 
-Mapeamento de um evento a um botão:
+{% include imagebase.html
+    src="unreal/actor/unreal_engine_mappings_actions.webp"
+    alt="Figura: Actions Mappings."
+    caption="Figura: Podemos adicionar novos mapeamentos de ações configurando os parâmetros do projeto."
+%}
 
-- Valores 0 e 1  
-
-Exemplo de ações associadas a uma tecla:
-
-1. Tecla Espaço = Pulo;
-
-1. Tecla Enter = Disparo;
-
-1. Tecla C  = Agachar.
-
-### Exemplo em C++ associando um evento do método ObEndPulo
+### Exemplo em C++ associando mapeamento a eventos
 
 ```cpp
-InputComponent->BindAction("Pulo", IE_Released, this, &ASampleCharacter::OnEndPulo);
+
+// SetupPlayerInputComponent permite associar a entrada mapeada a uma função passada como parâmetro
+
+void AProjetoMPCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
+{
+    // Set up gameplay key bindings
+    check(PlayerInputComponent);
+
+    // Exemplos de parâmetros
+    //      MoveForward = Nome definido no mapeamento do projeto.
+    //      &AProjetoMPCharacter::MoveForward = Aqui é passado como referência (endereço de memória) o nome do método.
+    PlayerInputComponent->BindAxis("MoveForward", this, &AProjetoMPCharacter::MoveForward);
+    PlayerInputComponent->BindAxis("MoveRight", this, &AProjetoMPCharacter::MoveRight);
+
+    PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput);
+    PlayerInputComponent->BindAxis("TurnRate", this, &AProjetoMPCharacter::TurnAtRate);
+    PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput);
+    PlayerInputComponent->BindAxis("LookUpRate", this, &AProjetoMPCharacter::LookUpAtRate);
+
+}
+
+void AProjetoMPCharacter::TurnAtRate(float Rate)
+{
+    AddControllerYawInput(Rate * BaseTurnRate * GetWorld()->GetDeltaSeconds());
+}
+
+void AProjetoMPCharacter::LookUpAtRate(float Rate)
+{
+    AddControllerPitchInput(Rate * BaseLookUpRate * GetWorld()->GetDeltaSeconds());
+}
+
+// Método para controlar a movimentação para a frente e para trás
+void AProjetoMPCharacter::MoveForward(float Value)
+{
+    if ((Controller != NULL) && (Value != 0.0f))
+    {
+        const FRotator Rotation = Controller->GetControlRotation();
+        const FRotator YawRotation(0, Rotation.Yaw, 0);
+
+        const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
+        AddMovementInput(Direction, Value);
+    }
+}
+
+// Método para controlar a movimentação lateral, direita e equerda
+void AProjetoMPCharacter::MoveRight(float Value)
+{
+    if ( (Controller != NULL) && (Value != 0.0f) )
+    {
+        const FRotator Rotation = Controller->GetControlRotation();
+        const FRotator YawRotation(0, Rotation.Yaw, 0);
+        const FVector Direction = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
+        AddMovementInput(Direction, Value);
+    }
+}
 ```
 
 ## Axis Mappings
@@ -63,31 +125,51 @@ InputComponent->BindAction("Pulo", IE_Released, this, &ASampleCharacter::OnEndPu
 
 O Mapeamento de eixos permite associar uma tecla para a movimentação do personagem, esse é atualizado constantemente.  
 
-Exemplo:
+Registramos os seguintes valores:
 
-1. Tecla W = MoverDireita;
+`MoveForward` - Movimentação para a frente ou para trás :
 
-1. Tecla D = MoverEsquerda
+- (-1) Para trás;
+
+- (1) Para frente;
+
+`MoveRight` - Movimentação para a direita e esquerda:
+
+- (-1) Esquerda;
+
+- (1) Direita;
+
+> Para saber mais consulta o capítulo **Delta time e sistema de coordenadas**.
+
+{% include imagebase.html
+    src="unreal/actor/unreal_engine_mappings_axis.webp"
+    alt="Figura: Axis Mappings."
+    caption="Figura: Podemos associar teclas de movimentação para um método."
+%}
 
 ### Exemplo em C++ associando um evento ao método MoveForward
 
 ```cpp
-InputComponent->BindAxis("MoveParaFrente", this, &ASampleCharacter::MoveForward);
+void AProjetoMPCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
+{
+
+    check(PlayerInputComponent);
+    PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+    PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+    ...
+}    
+void AProjetoMPCharacter::Jump(ETouchIndex::Type FingerIndex, FVector Location)
+{
+    Jump();
+}
+
+void AProjetoMPCharacter::StopJumping(ETouchIndex::Type FingerIndex, FVector Location)
+{
+    StopJumping();
+}
 ```
 
-## Mapeamento Input do projeto
-
-***
-
-No exemplo abaixo associamos a ação Pulo com o tecla `Space Bar` e `GamePad FaceButtonBotton`. Ao definir uma ação em Bindings a *game engine* cria um evento do mesmo nome.
-
-{% include imagebase.html
-    src="unreal/actor/blueprint_bindings.webp"
-    alt="Figura: Menu > Project > Input."
-    caption="Figura: Menu > Project > Input."
-%}
-
-## Movimentação de peão Pawn
+## Movimentação de peão Pawn com Blueprint
 
 ***
 
@@ -101,11 +183,13 @@ Para exemplificar a implementação utilizaremos uma classe do tipo `Pawn`.
     caption="Figura: Blueprint - FloatingPawnMovement."
 %}
 
+Vamos adicionar os seguintes componentes no objeto:
+
 - `Capsule`- Implementa uma capsula com colisão simples que pode determinar a movimentação do jogador;
 
 - `FloatingPawnMovement` - Habilita lógica de movimentação do peão.
 
-### Habilitando a entrada de comandos
+### Habilitando a entrada de comandos utilizando
 
 É necessário habilitar a entrada de comandos para a classe **Pawn**.  
 
@@ -139,7 +223,7 @@ Devemos executar a chamada dos eventos criados no mapeamento e associados a *inp
 
 ### Captura de coordenadas
 
-Captura as coordenadas do ator para que possamos utilizar os métodos de movimentação **Virar** e **OlhaCima**  
+Captura as coordenadas do ator para que possamos utilizar os métodos de movimentação **Turn** e **LookUp**  
 
 {% include imagebase.html
     src="unreal/actor/blueprint_pawn_consume_movement_input_vector.webp"
@@ -161,7 +245,7 @@ Captura as coordenadas do ator para que possamos utilizar os métodos de movimen
 
 - Y = Pitch;
 
--  Z = Yaw;
+- Z = Yaw;
 
 ### Controle de movimentação do ator (Classe)
 
@@ -183,7 +267,7 @@ Quando verdadeiro `Use Pawn control Rotation` e somente o braço com a câmera s
     caption="Figura: Blueprint - Use Paw Controller Rotation."
 %}
 
-## Utilizando Enumeration para registro de poses/estados do personagem.
+## Utilizando Enumeration para registro de poses do personagem
 
 ***
 
@@ -205,13 +289,14 @@ Podemos utilizar uma variável Enumeration para registrar o estado do objeto.
     caption="Figura: Blueprint - Atualizando o estado do jogador utilizando Enumeration."
 %}
 
-## Exemplo de movimentação da Plataforma
+## Movimentação de objetos
 
 ***
 
 Neste passo iremos implementar a Plataforma de Poder *PowerUp* para exemplificar a movimentação de objetos. Ao colidir com a plataforma a velocidade e o impulso do personagem **HP_Hero** aumentam.
 
 A plataforma deverá se movimentar utilizando marcações (**TargetPoint**) para facilitar a level design.
+
 Serão implementados objetos para disparar (Plataforma Trigger) a movimentação das plataformas.
 
 ### Estrutura do objeto Plataforma
@@ -243,7 +328,8 @@ Lógica para aumentar a velocidade de corrida e força de impulso do personagem 
 ### Movimentação da plataforma
 
 A movimentação tem que ser interpolada, quer dizer que as coordenadas tem que ser atualizadas a cada passo.  
-Exemplos de coordenadas:  
+
+Exemplos de interpolação de coordenadas:  
 
 |       | X     |Y      |Z  |
 |:-:    |:-:    |:-:    |:-:|
@@ -255,6 +341,8 @@ Exemplos de coordenadas:
 
 - Destino : 1,5.1
 - Origem : 1,1,1
+
+Perceba que o valor de `Y` varia até alcançar o valor final.
 
 ### Lógica usando Level Blueprint
 
@@ -296,13 +384,13 @@ Com a finalidade de exemplificar podemos utilizar o evento **Tick** para alterar
 
 Pode ser construída outra plataforma para acionar o evento, Plataforma de gatilho `Trigger Plataform`.
 
-## Usando o evento Tick - Blueprint
+## Usando o evento Tick com Blueprint
 
 ***
 
 Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e destino.
 
-### Variáveis
+### Declarando variáveis
 
 {% include imagebase.html
     src="unreal/movimentacao/blueprint_plataform_properties.webp"
@@ -331,6 +419,7 @@ Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e de
 %}
 
 ### Evento Tick da plataforma
+
 {% include imagebase.html
     src="unreal/movimentacao/blueprint_plataform_movement_with_tick.webp"
     alt="Figura: Blueprint - Lógica de movimentação usando Tick."
@@ -343,7 +432,7 @@ Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e de
     caption="Figura: Blueprint - Lógica de movimentação usando Tick - continuação."
 %}
 
-## Usando o evento Tick - C++
+## Usando o evento Tick com C++
 
 ***
 
