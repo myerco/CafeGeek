@@ -35,22 +35,22 @@ date: 2022-09-21
 
 ***
 
-Neste capítulo serão apresentados os elementos de controle de tempo (Delta Time) dentro do **Unreal Engine** e utilizar para  implementar movimentação de objetos.
-Apresentaremos também como funciona o sistema de coordenadas dos objetos.
+Neste capítulo serão apresentados e implementados os elementos de controle de tempo (Delta Time) dentro do **Unreal Engine**, apresentaremos também funcionamento do sistema de coordenadas dos objetos.
 
 ## O que é Delta Time?
 
 ***
 
-É o tempo entre cada frame.  
-Frame: Um quadro ou imagem apresentada, uma animação é composta por vários frames.
+Delta Time é o tempo entre cada frame, onde um frame é um quadro ou imagem apresentada, uma animação é composta por vários frames.
 
-*Exemplo.*
+### Frames e Delta time
 
 |       |   |   |   |   |   |   |   |   |   |   |
 |:-:    |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |
 |Frames | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10|
 | Delta | 1 | 2 | 3 |4  | 5 | 6 | 7 | 8 | 9 |   |
+
+Considerando a tabela acima podemos determinar o tempo que cadas frame e processado em milissegundos da seguinte forma:
 
 - 10 Fps = 10 frames a cada segundo;
 
@@ -66,58 +66,88 @@ Frame: Um quadro ou imagem apresentada, uma animação é composta por vários f
 
 ### Utilizando comandos do console
 
-Para habilitar o console de comandos para verificar e alterar o *FPS* do jogo utilizando o Menu `Project Settings` > `Open`.
+O **Unereal Engine** permite visualizar e alterar os frames por segundo, *FPS*  utlizando o console de comandos *cmd*. 
+
+Para habilitar o console de comandos utilizamos `Menu` > `Project Settings` > `Engine Inputs` ou digitar na busca a palavra console, em seguida associe uma tecla ao console, o padrão é a tecla `´`.
 
 {% include imagebase.html
-  src="unreal/tempoespaco/blueprint_console_settings.webp"
-  alt="Figura: Unreal Engine - Project Settings configuração do comando para acessar o Console."
-  caption="Figura: Unreal Engine - Project Settings configuração do comando para acessar o Console."
+  src="unreal/tempoespaco/unreal_engine_cmd_settings.webp"
+  alt="Figura: Unreal Engine - Project Settings."
+  caption="Figura: Unreal Engine - Project Settings configuração da tecla que acionará o comando para acessar o Console."
 %}
 
-1. Para acessar o interpretador de comandos pressionando a tecla  **´**, configurada anteriormente, e o editor de comandos aparece na tela;
+Uma vez configurado podemos voltar para a tela principal ou `ViewPort` para acionar o console.
 
-1. Apresenta o valor de FPS;
+Pressione a tecla  `´`, configurada anteriormente, e o editor de comandos aparece na tela;
 
-    ```bash
-    stat fps
-    ```
+#### Apresentando o valor de FPS
 
-1. Altera o valor de FPS para 100;
+{% include imagebase.html
+  src="unreal/tempoespaco/unreal_engine_cmd_stat_fps.webp"
+  alt="Figura: Unreal Engine - Project Cmd Stat fps."
+  caption="Figura: Unreal Engine - Comando stat fps apresenta os valores do FPS atualizados."
+%}
 
-    ```bash
-    t.MaxFPS 100
-    ```
+```bash
+stat fps
+```
 
-1. Exibe informações de desempenho para os threads Frame, Game, Draw, GPU, RHIT e DynRes do projeto.
+#### Alterando o valor de FPS para 100
 
-    ```bash
-    stat unit
-    ```
+```bash
+  t.MaxFPS 100
+```
 
-1. Fornece feedback sobre quanto tempo os vários *Ticks* de jogo estão demorando.
+#### Exibindo informações de desempenho
 
-    ```bash
-    stat game
-    ```
+```bash
+stat unit
+```
+
+Valores:
+
+- threads Frame;
+
+- Game;
+
+- Draw;
+
+- GPU;
+
+- RHIT;
+
+- e DynRes do projeto.
+
+> Para saber mais sobre cada elemento acesse o curso de Cafegeek > Computação Gráfica com Unreal Engine.
+
+### Fornecendo feedback sobre quanto tempo os vários Ticks de jogo estão demorando
+
+```bash
+stat game
+```
 
 ## Delta seconds
 
 ***
 
-**Delta Seconds** é a quantidade de tempo decorrido desde o último evento `Tick`. Ao multiplicar seu deslocamento por **Delta Seconds**, seu movimento será independente da taxa de quadros.
+**Delta Seconds** é a quantidade de tempo decorrido desde o último evento `Tick`. 
+
+Ao multiplicar seu deslocamento por **Delta Seconds**, seu movimento será independente da taxa de quadros.
 
 Por exemplo, seu peão tem uma velocidade máxima de 100. Se um segundo tivesse se passado desde o último tique de evento, seu peão moveria todas as 100 unidades. Se meio segundo tivesse passado, ele moveria 50 unidades.
 
-*Tabela de velocidade.*
+### Tabela de velocidade
 
-|Distância  | Velocidade | Distância/Velocidade |  FPS | Delta Seconds | Y |
-|:-:|-|-|-|-|-|
-|100  | 10 | 10 | 100 | 0,1 | 1 |
-|100  | 10 | 10 | 60 | 0,166 | 1,6 |
-|100  | 10 | 10 | 30 | 0,333 | 3 |
-|100  | 10 | 10 | 20 | 0,5 | 5 |
+|Distância  | Velocidade  | Distância/Velocidade  |  FPS  | Delta Seconds | Y |
+|:-:        |-            |-                      |-      |-              |-  |
+|100        | 10          | 10                    | 100   | 0,1           | 1 |
+|100        | 10          | 10                    | 60    | 0,166         |1,6|
+|100        | 10          | 10                    | 30    | 0,333         | 3 |
+|100        | 10          | 10                    | 20    | 0,5           | 5 |
 
-`Delta seconds` = Intervalo entre os quadros.
+`Delta seconds` - Intervalo entre os quadros;
+
+`Y` - Deslocamento no eixo `Y`.
 
 ## Utilizando o Delta seconds com Event Tick
 
@@ -131,6 +161,8 @@ Para exemplificar vamos controlar o movimento do objeto independente do *FPS* ut
   caption="Figura: Unreal Engine - Utilizamos GetWorldLocation e incrementamos o valor de Y a cada Tick para atualziar SetWordLocation, atualizando a posição do objeto."
 %}
 
+No exemplo acima se o *FPS* for um valor muito baixo o objeto vai se movimentar de forma lenta, por conseguinte percebemos que a movimentação será afetada pelo *FPS*.
+
 {% include imagebase.html
   src="unreal/tempoespaco/blueprint_delta_seconds.webp"
   alt="Figura: Blueprint - Event Tick com DeltaTime e SetWorldLocation e calculando a velocidade"
@@ -143,14 +175,16 @@ Para exemplificar vamos controlar o movimento do objeto independente do *FPS* ut
 
 - O resultado esperado é que mesmo com um *FPS* baixo o movimento ainda se mantenha uniforme.
 
+Quando multiplicamos o valor do `Delta Seconds` pela velocidade do objeto podemos ter um movimento mais fluido mesmo com valores de *FPS* baixos.
+
 ### Fixando o FPS do projeto
 
 Podemos fixar o *FPS* do projeto utilizando o menu `Project settings` > `Use fixed frame rate`.  
 
 {% include imagebase.html
-  src="unreal/tempoespaco/blueprint_fixed_frame_rate.webp"
+  src="unreal/tempoespaco/unreal_engine_framerate_settings.webp"
   alt="Figura: Unreal Engine - General Settings Frame Rate"
-  caption="Figura: Unreal Engine - General Settings Frame Rate"
+  caption="Figura: Unreal Engine - Fixando FrameRate para todo o projeto"
 %}
 
 ### Vídeo Delta time e sistema de coordenadas
@@ -162,48 +196,54 @@ Podemos fixar o *FPS* do projeto utilizando o menu `Project settings` > `Use fix
   caption="Vídeo: Delta time e sistema de coordenadas  - Utilizando o Delta seconds 02  - Unreal Engine."
 %}
 
-### Timeline
+## Timeline
+
+***
 
 Os nós da linha de tempo são nós especiais dentro de **Blueprints** que permitem que uma animação simples baseada em tempo seja projetada e reproduzida rapidamente com base em eventos no jogo. As linhas do tempo são como sequências de matinê simples, pois permitem que valores simples sejam animados e que eventos sejam disparados ao longo do tempo.
 
-### Utilizando variáveis no Timeline
+## Utilizando variáveis no Timeline
 
-Para este exemplo vamos utilizar um objeto *Lampada* do tipo `Light Component`  para apresentar a estrutura de nó *TratamentoLuz* do tipo `TimeLine`.
+Para este exemplo vamos utilizar dois objetos, um objeto *Lamp* do tipo `Light Component`  para apresentar a estrutura de nó *TratamentoLuz* do tipo `TimeLine`, e outro objeto para controlar a *Lamp*, neste objeto utilizaremos um caixa de colisão.
 
-A seguiur vamos criar o objeto *BP_ControleLuz* do tipo `Box Trigger`.
+A seguiur vamos criar o objeto *BP_ControlLight* do tipo `Box Trigger`.
 
 {% include imagebase.html
-  src="unreal/tempoespaco/blueprint_timeline_boxcollision.webp"
-  alt="Figura: Blueprint - Box Trigger BP_ControleLuz."
-  caption="Figura: Blueprint - O objeto Trigger BP_ControleLuz."
+  src="unreal/tempoespaco/unreal_engine_timeline_boxcolision.webp"
+  alt="Figura: Blueprint - Box Trigger BP_ControlLight."
+  caption="Figura: Blueprint - O objeto BP_ControlLight com seus componentes e variáveis."
 %}
 
-Em `BP_ControleLuz` adicionamos a variável *Lampada* do tipo `PointLight` e a configuramos como publica;
+Em `BP_ControlLight` adicionamos a variável *Lampada* do tipo `PointLight` e a configuramos como publica, `Instance Editable`.
 
-Adicionamos na cena um componente `PointLight`;
+Adicionamos na cena um componente `PointLight`.
 
-Adicionamos o BP_ControleLuz na cena e associamos o objeto `PointLight` na propriedade *Lampada*.
+Em seguida adicionamos BP_ControlLight na cena e associamos o objeto `PointLight` na propriedade *Lamp*.
 
 {% include imagebase.html
-  src="unreal/tempoespaco/blueprint_timeline_boxcollision_with_point_light.webp"
+  src="unreal/tempoespaco/unreal_engine_timeline_variable.webp"
   alt="Figura: Blueprint - CollisionComponent e PointLight."
-  caption="Figura: Componente BP_ControleLuz associando a variável Lampada ao objeto na cena."
+  caption="Figura: Componente BP_ControlLight associando a variável Lamp ao objeto na cena."
 %}
 
-Em *BP_ControleLuz* adicionamos a seguinte lógica para tratamento de luz;
+Em *BP_ControlLight* adicionamos a seguinte lógica para tratamento de luz;
 
 {% include imagebase.html
-  src="unreal/tempoespaco/blueprint_timeline_emitter.webp"
+  src="unreal/tempoespaco/unreal_engine_timeline_logic.webp"
   alt="Figura: Blueprint - Lógica para tratamento da luz utilizando Set Light Color, Set Intensity e TimeLine."
   caption="Figura: Blueprint - Lógica para tratamento da luz utilizando Set Light Color, Set Intensity e TimeLine."
 %}
 
+A seguir vamos detalhar cada nó da lógica acima.
+
 ### Tipos de variáveis do objeto TimeLine
 
-O Editor do TimeLine é um gráfico de tempo e valor, onde a linha são os valores do tempo e a linha horizontal os valores da variável.
+O Editor do TimeLine é um gráfico de tempo e valor, onde a linha horizontal representa os valores do tempo e a linha vertical a variação da variável.
+
+O gráfico utiliza os tipos de dados: `Float`, `Vector`, `Event` e `Color`.
 
 {% include imagebase.html
-  src="unreal/tempoespaco/blueprint_timeline_variables.webp"
+  src="unreal/tempoespaco/unreal_engine_timeline_type_variables.webp"
   alt="Figura: Blueprint - Variáveis do objeto Timeline."
   caption="Figura: Blueprint - Variáveis do objeto Timeline."
 %}
@@ -372,6 +412,126 @@ Movimentando utiliza a variável *Angulo* do tipo `Vector`.
   caption="Figura: Blueprint - Exemplo de movimentação utilizando ângulo de abertura."
 %}
 
+### Girando a porta utilizando C++
+
+LearpDoor.h
+
+```cpp
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "Components/BoxComponent.h"
+#include "LerpDoor.generated.h"
+
+UCLASS()
+class TCMCPP_API ALerpDoor : public AActor
+{
+  GENERATED_BODY()
+public:
+
+  ALerpDoor();
+
+protected:
+  virtual void BeginPlay() override;
+
+public:
+  virtual void Tick(float DeltaTime) override;
+
+  UPROPERTY(EditAnyWhere)
+  UStaticMeshComponent* MyDoor;
+
+  UPROPERTY(EditAnywhere)
+  UBoxComponent* BoxComp;
+
+  UFUNCTION()
+    void OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+  
+  UFUNCTION()
+  void OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+
+  bool Open;
+  float RotateValue;
+  FRotator DoorRotation;
+};
+```
+
+LearpDoor.cpp
+
+```cpp
+#include "LerpDoor.h"
+#include "Kismet/KismetMathLibrary.h"
+#include "Components/BoxComponent.h"
+
+ALerpDoor::ALerpDoor()
+{
+  PrimaryActorTick.bCanEverTick = true;
+
+  Open = false;
+
+  BoxComp = CreateDefaultSubobject<UBoxComponent>(TEXT("My Box"));
+  BoxComp->InitBoxExtent(FVector(50.0f, 50.0f, 50.0f));
+  RootComponent = BoxComp;
+
+  MyDoor = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("My Door"));
+  MyDoor->SetRelativeLocation(FVector(0.0f, 50.0f, -50.0f));
+  MyDoor->SetupAttachment(RootComponent);
+
+  BoxComp->OnComponentBeginOverlap.AddDynamic(this, &ALerpDoor::OnOverlapBegin);
+  BoxComp->OnComponentEndOverlap.AddDynamic(this, &ALerpDoor::OnOverlapEnd);
+}
+
+void ALerpDoor::BeginPlay()
+{
+  Super::BeginPlay();
+}
+
+void ALerpDoor::Tick(float DeltaTime)
+{
+  Super::Tick(DeltaTime);
+
+  DoorRotation = MyDoor->GetRelativeRotation();
+
+  if (Open)
+  {
+    MyDoor->SetRelativeRotation(FMath::Lerp(FQuat(DoorRotation), FQuat(FRotator(0.0f, RotateValue, 0.0f)),0.01));
+  }
+  else
+  {
+    MyDoor->SetRelativeRotation(FMath::Lerp(FQuat(DoorRotation), FQuat(FRotator(0.0f, 0.0f, 0.0f)), 0.01));
+  }
+}
+
+void ALerpDoor::OnOverlapBegin(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+
+  if ((OtherActor != nullptr) && (OtherActor!= this) && (OtherComp != nullptr))
+  {
+    FVector PawnLocation = OtherActor->GetActorLocation();
+    FVector Direction = GetActorLocation() - PawnLocation;
+    Direction = UKismetMathLibrary::LessLess_VectorRotator(Direction, GetActorRotation());
+    if (Direction.X > 0.0f)
+    {
+      RotateValue = 90.0f;
+    }
+    else
+    {
+      RotateValue = -90.0f;
+    }
+    Open = true;
+}
+}
+
+void ALerpDoor::OnOverlapEnd(class UPrimitiveComponent* OverlappedComp, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex)
+{
+  if ((OtherActor != nullptr) && (OtherActor != this) && (OtherComp != nullptr))
+  {
+    Open = false;
+  }
+
+}
+```
+
 Acionando a porta.
   
 {% include imagebase.html
@@ -382,7 +542,9 @@ Acionando a porta.
 
 ## Curves
 
-Podemos criar um tipo de objeto `Curve` para que possamos utilizar em vários Blueprints.
+***
+
+Podemos criar um tipo de objeto `Curve` para que possamos utilizar em vários Blueprints e determinar a variação dos valores.
 
 Para criar um objeto do tipo `Curve` utilizamos o menu de contexto `Miscellaneous` > `Curve`.
 
@@ -442,7 +604,7 @@ Para demonstrar vamos utilizar um vetor de 2D (x,y).
 |  | A |  |  |  | **-4** |  |  |  |  |  ||
 |  |  |  |  |  | **-5** |  |  |  |  |  ||
 
-**Posição dos elementos.**
+#### Posição dos elementos
 
 - v = v(x,y)
 - A = a(-4,-4)
