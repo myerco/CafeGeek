@@ -5,6 +5,7 @@ tags: [Unreal Engine,tempo, espaço]
 categories: Unreal Engine
 author: 
 - Cafegeek
+- KazeHiro1
 layout: post
 date: 2022-09-21 
 ---
@@ -19,15 +20,19 @@ date: 2022-09-21
 
 - [Utilizando o Delta seconds com Event Tick](#utilizando-o-delta-seconds-com-event-tick)
 
+- [Timeline](#timeline)
+
 - [Acionando o evento para alterar a iluminação](#acionando-o-evento-para-alterar-a-iluminação)
 
-- [Funções Blueprint para tratamento](#funções-blueprint-para-tratamento)
+- [Funções Blueprint para tratamento do Timeline](#funções-blueprint-para-tratamento-do-timeline)
 
 - [Abrindo portas](#abrindo-portas)
 
 - [Curves](#curves)
 
 - [Exemplo de calculo de velocidade](#exemplo-de-calculo-de-velocidade)
+
+- [Sistema de coordenadas](#sistema-de-coordenadas)
 
 - [Verificando para onde o ator está apontando](#verificando-para-onde-o-ator-está-apontando)
 
@@ -66,7 +71,7 @@ Considerando a tabela acima podemos determinar o tempo que cadas frame e process
 
 ### Utilizando comandos do console
 
-O **Unereal Engine** permite visualizar e alterar os frames por segundo, *FPS*  utlizando o console de comandos *cmd*. 
+O **Unereal Engine** permite visualizar e alterar os frames por segundo, *FPS*  utlizando o console de comandos *cmd*.
 
 Para habilitar o console de comandos utilizamos `Menu` > `Project Settings` > `Engine Inputs` ou digitar na busca a palavra console, em seguida associe uma tecla ao console, o padrão é a tecla `´`.
 
@@ -130,7 +135,7 @@ stat game
 
 ***
 
-**Delta Seconds** é a quantidade de tempo decorrido desde o último evento `Tick`. 
+**Delta Seconds** é a quantidade de tempo decorrido desde o último evento `Tick`.
 
 Ao multiplicar seu deslocamento por **Delta Seconds**, seu movimento será independente da taxa de quadros.
 
@@ -202,6 +207,54 @@ Podemos fixar o *FPS* do projeto utilizando o menu `Project settings` > `Use fix
 
 Os nós da linha de tempo são nós especiais dentro de **Blueprints** que permitem que uma animação simples baseada em tempo seja projetada e reproduzida rapidamente com base em eventos no jogo. As linhas do tempo são como sequências de matinê simples, pois permitem que valores simples sejam animados e que eventos sejam disparados ao longo do tempo.
 
+Para adicionar um objeto Timeline utilizamos Click RMB no `Event Graph`, lógica do objeto, e no menu de contexto selecionamos `Add Timeline`.
+
+{% include imagebase.html
+  src="unreal/tempoespaco/unreal_engine_timeline_editor.webp"
+  alt="Figura: Unreal Engine - Timeline Editor"
+  caption="Figura: Unreal Engine - Timeline e a organização do editor de tempo."
+%}
+
+1. Parameters - Parâmetros do Timeline
+
+2. Trilhas externas - Permite que você escolha uma curva externa no `Content Browser` em vez de criar sua própria curva.
+
+3. Trilha do Timeline - Este é o gráfico de quadro-chave para esta trilha. Você colocará quadros-chave nisso e verá a curva de interpolação resultante.
+
+### Entradas e Saídas
+
+{% include imagebase.html
+  src="unreal/tempoespaco/unreal_engine_timeline_object.webp"
+  alt="Figura: Unreal Engine - Timeline Inputs and Outputs"
+  caption="Figura: Unreal Engine - Entradas e Saídas do objeto TimeLine"
+%}
+
+`Play` -  Faz com que a Linha de tempo seja reproduzida a partir de sua hora atual.
+
+`Play from start` -  Faz com que a linha de tempo seja reproduzida desde o início.
+
+`Stop` - Congela a reprodução da Linha de tempo na hora atual.
+
+`Reverse` - Reproduz a linha de tempo de trás para a hora atual.
+
+`Reverse from End` - Reproduz a linha do tempo de trás para frente a partir do final.
+
+`Set New Time` -  Define a hora atual para o valor definido (ou entrada) na entrada New Time.
+
+`New Time` - Este pino de dados recebe um valor `float` representando o tempo em segundos, para o qual a Linha de tempo pode saltar quando a `Set New Time` é chamada.
+
+### Parâmetros do TimeLine
+
+`Length` - Permite definir a duração da reprodução para esta Linha de tempo.
+
+`Use Last KeyFrame` - Se não estiver ativo, o último quadro-chave de uma sequência será ignorado. Isso pode ajudar a evitar pular quando uma animação está em loop.
+
+`Autoplay` - Se ativo, este nó Timeline não requer uma entrada de execução para começar e começará a tocar assim que o nível começar.
+
+`Loop` - Se estiver ativo, a animação da Linha de tempo será repetida indefinidamente, a menos que seja interrompida pelo pino de entrada Parar.
+
+`Replicated` - Se ativo, a animação da Linha do tempo será replicada entre os clientes.
+
 ## Utilizando variáveis no Timeline
 
 Para este exemplo vamos utilizar dois objetos, um objeto *Lamp* do tipo `Light Component`  para apresentar a estrutura de nó *TratamentoLuz* do tipo `TimeLine`, e outro objeto para controlar a *Lamp*, neste objeto utilizaremos um caixa de colisão.
@@ -260,7 +313,7 @@ Tipo `float` controla a intensidade da luz durante o tempo 1.
 
 A seguir vamos criar variáveis para exemplicar cada tipo.
 
-#### Vetorvariavel
+#### VetorVariavel
 
 Tipo `Vector` altera o valor das coordenadas durante o tempo 4.
 
@@ -300,7 +353,7 @@ Tipo `Event` dispara um evento no tempo 2,4 e 6.
   caption="Figura: Blueprint - Exemplo de variável Color do DeltaTime."
 %}
 
-## Funções Blueprint para tratamento
+## Funções Blueprint para tratamento do Timeline
 
 - `SetLooping`;
 
@@ -582,11 +635,13 @@ Associando o objeto C_TempoPorta ao objeto Movimentando.
   caption="Figura: Blueprint - Exemplo da lógica de calculo de velocidade."
 %}  
 
-### Sistema de coordenadas
+## Sistema de coordenadas
+
+***
 
 O sistema de coordenadas descreve uma maneira de usar números para especificar a localização de um ponto (ou pontos) no espaço 2D ou 3D. Em um motor de jogo, é função do sistema de coordenadas define a localização de cada objeto e para qual **direção** ele está voltado. Com esses dados podemos calcular a distância entre objetos, rotação, velocidade e todos os tipos de outras informações úteis.
 
-#### Plano Cartesiano
+### Plano Cartesiano
 
 Para demonstrar vamos utilizar um vetor de 2D (x,y).
 
@@ -604,25 +659,31 @@ Para demonstrar vamos utilizar um vetor de 2D (x,y).
 |  | A |  |  |  | **-4** |  |  |  |  |  ||
 |  |  |  |  |  | **-5** |  |  |  |  |  ||
 
-#### Posição dos elementos
+### Posição dos elementos
 
-- v = v(x,y)
+Consideramos o posição dos objetos com a seguinte expressão *v = v(x,y)*, por consequinte os valores para A,B,C e D são:
+
 - A = a(-4,-4)
+
 - B = b(-2,3)
+
 - C = b(3,2)
+
 - D = b(4,5)
 
-#### Movimento no sistema coordenadas X,Y
+### Movimento no sistema coordenadas X,Y
 
 Uma direção nos diz como nos mover no sistema de coordenadas x, y. Um valor positivo nos diz para nos movermos na direção positiva e um valor negativo nos diz para nos movermos na direção negativa (com base no sistema de coordenadas).
 
-#### Movimentando o elemento B
+### Movimentando o elemento B
 
 - B = b(-2,3) **->** b(-1,4)
 
 ### Magnitude
 
-A Magnitude nos diz o quanto nos movemos. A distância de um movimento provará ser muito útil e pode ser calculada apenas com o vetor. Isso é feito usando o Teorema de Pitágoras. Assuma um objeto na posição (50, 25) e queremos movê-lo para (53, 23). Isso significa um Vetor de (3, -2).
+A Magnitude nos diz o quanto nos movemos. A distância de um movimento provará ser muito útil e pode ser calculada apenas com o vetor. Isso é feito usando o Teorema de Pitágoras.
+
+Assuma um objeto na posição (50, 25) e queremos movê-lo para (53, 23). Isso significa um Vetor de (3, -2).
 
 - A = a(-4,-4) **->** a(2,-1)  
   O objeto se deslocou de (-4,-4) até a nova posição (2,1)  
@@ -641,13 +702,15 @@ O vetor normalizado é um par de números, cada um deles menor que um. Você pod
 
 - 5 = raiz_quadrada(3 ^ *2* + 4 ^*2*)
 
-- (3/5, 4/5) => (.6,.8)
+- (.6,.8) = (3/5, 4/5)
 
 *Resultado.*
 
 O vetor normalizado das coordenadas (3,4) é (-.6,.8).
 
-*Calculando distância.*
+#### Calculando distância
+
+Usando a função `GetActorLocation` podemos determinar a distância entre dois objetos, no exemplo a segueir vamos calcular a distância dos objetos Cube e Cube2 .
 
 - **Cube**  
 
@@ -708,7 +771,7 @@ Resultado = Normalize(**a**,0)
 
 ***
 
-Usaremos várias funções para demonstrar como verificar a direção que o ator está apontando.
+Usaremos várias funções para verificar a direção que o ator está apontando.
 
 - `GetActorForwardVector`
 
@@ -733,7 +796,7 @@ Usaremos várias funções para demonstrar como verificar a direção que o ator
 
 ***
 
-Usaremos a função `FindLookAtRotation`. No exemplo o **Cubo3** vai apontar para a face. O personagem é do tipo `Character`.
+Usaremos a função `FindLookAtRotation` para que um objeto se movimente no seu próprio eixo baseado na posição de outro objeto, no exemplo o **Cubo3** do tipo `Character` vai *apontar* para a face de outro objeto.
 
 {% include imagebase.html
   src="unreal/tempoespaco/blueprint_find_look_rotation.webp"
