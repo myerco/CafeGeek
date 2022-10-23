@@ -21,15 +21,13 @@ date: 2022-09-21
 
 - [Movimentação de peão Pawn com Blueprint](#movimentação-de-peão-pawn-com-blueprint)
 
-- [Utilizando Enumeration para registro de poses do personagem](#utilizando-enumeration-para-registro-de-poses-do-personagem)
-
 - [Movimentação de objetos](#movimentação-de-objetos)
 
 - [Usando o evento Tick com Blueprint](#usando-o-evento-tick-com-blueprint)
 
-- [Inicializando variáveis](#inicializando-variáveis)
-
 - [Usando o evento Tick com C++](#usando-o-evento-tick-com-c)
+
+- [Movimentação de Characters](#movimentação-de-characters)
 
 ***
 
@@ -273,28 +271,6 @@ Caso as opções `Use controller rotation pitch/Yaw`, parâmetros da raiz do obj
 
 Quando verdadeiro o parâmetro `Use Pawn control Rotation` do componente `SpringArm` somente o braço com a câmera são movimentados.
 
-## Utilizando Enumeration para registro de poses do personagem
-
-***
-
-Podemos utilizar uma variável `Enumeration` para registrar o estado do objeto.
-
-### Variável Enumeration
-
-{% include imagebase.html
-    src="unreal/actor/blueprint_spawn_enum_and_state.webp"
-    alt="Figura: Blueprint - Enumeration e Estados do jogador."
-    caption="Figura: Blueprint - Enumeration e Estados do jogador."
-%}
-
-### Atualizando a variável
-
-{% include imagebase.html
-    src="unreal/movimentacao/blueprint_pawn_enum_update.webp"
-    alt="Figura: Blueprint - Atualizando o estado do jogador utilizando Enumeration."
-    caption="Figura: Blueprint - Atualizando o estado do jogador utilizando Enumeration."
-%}
-
 ## Movimentação de objetos
 
 ***
@@ -414,9 +390,7 @@ Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e de
 
 - `Direction` - Vetor auxiliar que determina a direção do objeto.
 
-## Inicializando variáveis
-
-***
+### Inicializando variáveis
 
 {% include imagebase.html
     src="unreal/movimentacao/blueprint_plataform_init_variables.webp"
@@ -482,3 +456,73 @@ void APlataforma::Tick(float DeltaTime)
   }
 }
 ```
+
+## Movimentação de Characters
+
+***
+
+Um personagem ou `Character` é um `Pawn` que possui algumas funcionalidades básicas de movimento bípede por padrão.
+
+Para este exemplo vamos criar o objeto **BP_Hero** do tipo `Character` com as seguintes propriedades.
+
+{% include imagebase.html
+    src="unreal/movimentacao/unreal_engine_character_properties.webp"
+    alt="Figura: Blueprint - Character class and properties."
+    caption="Figura: Blueprint - A classe Character e suas propriedades básicas."
+%}
+
+Vamos adicionar e ajustar os componentes `SpringArm` e `Camera` para manipular a visualização do personagem em terceira pessoa.
+
+Em `SpringArm` habilite a opção `Use Pawn Control Rotation` para que a cápsula do personagem não acompanhe o movimento do mouse.
+
+- `Capsule` - O `CapsuleComponent` é usado para colisão de movimento. Para calcular geometrias complicadas para o `CharacterMovementComponent`, supõe-se que o componente de colisão na classe Character seja uma cápsula orientada verticalmente.
+
+- `Arrow` - Um componente simples usado para indicar a direção do caminho do objeto.
+
+- `Skeletal Mesh` - Ao contrário dos `Pawn`, os Personagens vêm com um `SkeletalMeshComponent` para habilitar animações avançadas que usam um esqueleto. É possível adicionar outras `Skeletal Mesh` a classes derivadas de Personagens, mas esta é a `Skeletal Mesh` principal associada ao Personagem.
+
+- `Character Movement` - Permite que avatares que não usam física de corpo rígido se movam andando, correndo, pulando, voando, caindo e nadando. É específico para Personagens (`Characters`) e não pode ser implementado por nenhuma outra classe. As propriedades que podem ser definidas no `CharacterMovementComponent` incluem valores para atrito de queda e caminhada, velocidades de viagem pelo ar e água e pela terra, flutuabilidade, escala de gravidade e as forças físicas que o personagem pode exercer em objetos físicos. O CharacterMovementComponent também inclui parâmetros de movimento de raiz que vêm da animação e já estão transformados no espaço do mundo, prontos para uso pela física.
+
+{% include imagebase.html
+    src="unreal/movimentacao/unreal_engine_character_skeletal_mesh.webp"
+    alt="Figura: Blueprint - Inicializando variáveis do objeto plataforma."
+    caption="Figura: Blueprint - Inicializando variáveis do objeto plataforma."
+%}
+
+Adicione e ajuste o componente `Mesh` para adicionar uma malha esquelética, no exemplo acima utilizamos o pacote `ThirdPerson`.
+
+### Utilizando Enumeration para registro de poses do personagem
+
+Podemos utilizar uma variável `Enumeration` para registrar os estados do objeto.
+
+#### Variável Enumeration
+
+Implemente a variável **EN_State_Hero** do tipo `Enumeration`, utilize o menu de contexto `Blueprints` > `Enumerations`.
+
+{% include imagebase.html
+    src="unreal/actor/unreal_engine_enum_state_char_basics.webp"
+    alt="Figura: Blueprint - Enumeration e Estados do jogador."
+    caption="Figura: Blueprint - Enumeration e Estados do jogador."
+%}
+
+Adicione as linhas no objeto, `AddEnumerator`:
+
+- Running - Correndo;
+
+- Crouch - Agachado;
+
+- Normal - Para o estado normal;
+
+- Aiming - Mirando;
+
+#### Atualizando a variável com os eventos Jump e Crouch
+
+{% include imagebase.html
+    src="unreal/actor/unreal_engine_enum_jump_crouch.webp"
+    alt="Figura: Blueprint - Atualizando o estado do jogador utilizando Enumeration."
+    caption="Figura: Blueprint - Atualizando o estado do jogador utilizando Enumeration."
+%}
+
+- `Input Action Crouch` - Este evento deve ser definido em `Project Settings` > `Input`, escolha a tecla `D` para este exemplo;
+
+- `Can crouch` - Habilite este parâmetro em `Character Movement` para possibilitar o personagem agachar.
