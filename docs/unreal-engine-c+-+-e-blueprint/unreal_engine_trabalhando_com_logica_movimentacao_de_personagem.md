@@ -466,7 +466,7 @@ Um personagem ou `Character` é um `Pawn` que possui algumas funcionalidades bá
 Para este exemplo vamos criar o objeto **BP_Hero** do tipo `Character` com as seguintes propriedades.
 
 {% include imagebase.html
-    src="unreal/movimentacao/unreal_engine_character_properties.webp"
+    src="unreal/actor/unreal_engine_character_properties.webp"
     alt="Figura: Blueprint - Character class and properties."
     caption="Figura: Blueprint - A classe Character e suas propriedades básicas."
 %}
@@ -484,7 +484,7 @@ Em `SpringArm` habilite a opção `Use Pawn Control Rotation` para que a cápsul
 - `Character Movement` - Permite que avatares que não usam física de corpo rígido se movam andando, correndo, pulando, voando, caindo e nadando. É específico para Personagens (`Characters`) e não pode ser implementado por nenhuma outra classe. As propriedades que podem ser definidas no `CharacterMovementComponent` incluem valores para atrito de queda e caminhada, velocidades de viagem pelo ar e água e pela terra, flutuabilidade, escala de gravidade e as forças físicas que o personagem pode exercer em objetos físicos. O CharacterMovementComponent também inclui parâmetros de movimento de raiz que vêm da animação e já estão transformados no espaço do mundo, prontos para uso pela física.
 
 {% include imagebase.html
-    src="unreal/movimentacao/unreal_engine_character_skeletal_mesh.webp"
+    src="unreal/actor/unreal_engine_character_skeletal_mesh.webp"
     alt="Figura: Blueprint - Inicializando variáveis do objeto plataforma."
     caption="Figura: Blueprint - Inicializando variáveis do objeto plataforma."
 %}
