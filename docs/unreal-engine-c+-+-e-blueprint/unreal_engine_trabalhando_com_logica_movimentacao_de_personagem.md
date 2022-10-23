@@ -33,13 +33,13 @@ date: 2022-09-21
 
 ***
 
-O **Unreal Engine** utiliza `Input Actions` e `Mappings` para vincular ações e mapeamento de teclas e eixos de entrada de ações e movimentação, separando a lógica da entrada física.
+O **Unreal Engine** utiliza `Input Actions` e `Mappings` para associar teclas a ações e eixos de movimentação, separando a lógica da entrada física , neste capítulo vamos implementar a movimentação de objetos utilizando mapeamento de ações e controle de eixos de movimentação.
 
 ## Mapeamento Input do projeto
 
 ***
 
-Para associar teclas a eventos utilizamos o menu `Edit` > `Project Settings` > `Input`. O valores adicinados serão salvos automáticamente.
+Para associar teclas a eventos utilizamos o menu `Edit` > `Project Settings` > `Input`. O valores adicionados serão salvos automaticamente.
 
 {% include imagebase.html
     src="unreal/actor/unreal_engine_input.webp"
@@ -139,7 +139,7 @@ Registramos os seguintes valores:
 
 - (1) Direita;
 
-> Para saber mais consulta o capítulo **Delta time e sistema de coordenadas**.
+> Para saber mais consulte o capítulo **Delta time e sistema de coordenadas**.
 
 {% include imagebase.html
     src="unreal/actor/unreal_engine_mappings_axis.webp"
@@ -173,25 +173,27 @@ void AProjetoMPCharacter::StopJumping(ETouchIndex::Type FingerIndex, FVector Loc
 
 ***
 
-Para exemplificar a implementação utilizaremos uma classe do tipo `Pawn`.
+Para exemplificar a implementação utilizaremos uma classe do tipo `Pawn` que será o objeto que iremos controlar com os comandos de entrada.
 
 ### Componentes do objeto Pawn
 
 {% include imagebase.html
-    src="unreal/actor/blueprint_pawn_floatingpawnmovement.webp"
+    src="unreal/actor/unreal_engine_movimentacao_objeto.webp"
     alt="Figura: Blueprint - FloatingPawnMovement."
     caption="Figura: Blueprint - FloatingPawnMovement."
 %}
 
 Vamos adicionar os seguintes componentes no objeto:
 
-- `Capsule`- Implementa uma capsula com colisão simples que pode determinar a movimentação do jogador;
-
 - `FloatingPawnMovement` - Habilita lógica de movimentação do peão.
 
-### Habilitando a entrada de comandos utilizando
+- `SpringArm` - O componente Spring Arm é usado para controlar automaticamente como a câmera lida com situações em que fica obstruída.
 
-É necessário habilitar a entrada de comandos para a classe **Pawn**.  
+- `Camera`- Neste exemplo vamos utilizar o componente `Camera` para visualizar o objeto em terceira pessoa.
+
+### Habilitando a entrada de comandos de entrada
+
+É necessário habilitar a entrada de comandos para a classe **Pawn** com a função `Enable Input` que recebe como parâmetro o controlador de jogador atual ou `Player controller`.  
 
 {% include imagebase.html
     src="unreal/actor/blueprint_get_player_controller_enable_input.webp"
@@ -199,14 +201,16 @@ Vamos adicionar os seguintes componentes no objeto:
     caption="Figura : Blueptint - Exemplo Enabled Input."
 %}
 
-- `PlayerController` - Implementa funcionalidade para pegar os dados de entrada do jogador e traduzi-los em ações, como movimento, uso de itens, armas de fogo, etc.
+- `PlayerController` - Implementa funcionalidade para pegar os dados de entrada do jogador e traduzi-los em ações, como movimento, uso de itens, armas de fogo, etc. O parâmetro `Player Index` define qual controlador iremos utilizar, para este exemplo temos somente um, parâmetro 0.
+
+- `Enable Input` - Habilita a entrada de comandos em um ator, você pode permitir que um jogador pressione um botão ou tecla e execute eventos que afetam o ator de alguma forma (seja acender ou apagar uma luz, abrir ou fechar uma porta, ativar algo, etc.) .
 
 ### Implementando movimentação com teclado
 
-Devemos executar a chamada dos eventos criados no mapeamento e associados a *inputs*.
+Devemos executar a chamada dos eventos criados no mapeamento e associados aos *inputs*.
 
 {% include imagebase.html
-    src="unreal/actor/blueprint_pawn_inputaxis.webp"
+    src="unreal/actor/unreal_engine_pawn_inputaxis.webp"
     alt="Figura: Blueprint - Movimentação de teclado Add Movement Input com InputAxis."
     caption="Figura: Blueprint - Movimentação de teclado Add Movement Input com InputAxis."
 %}
@@ -221,9 +225,9 @@ Devemos executar a chamada dos eventos criados no mapeamento e associados a *inp
 
 - `Scale Value` - Escala para aplicar à entrada. Isso pode ser usado para entrada analógica, ou seja, um valor de 0,5 aplica-se à metade do valor normal, enquanto -1,0 inverteria a direção.
 
-### Captura de coordenadas
+### Capturando as coordenadas
 
-Captura as coordenadas do ator para que possamos utilizar os métodos de movimentação **Turn** e **LookUp**  
+A seguir vamos capturar as coordenadas do ator para que possamos utilizar os métodos de movimentação **Turn** e **LookUp**  
 
 {% include imagebase.html
     src="unreal/actor/blueprint_pawn_consume_movement_input_vector.webp"
@@ -231,10 +235,14 @@ Captura as coordenadas do ator para que possamos utilizar os métodos de movimen
     caption="Figura: Blueprint - Exemplo Consume Movement Input Vextor e AddActorWorldOffset."
 %}
 
+- `Consume Movement Input Vector` - Retorna o vetor de entrada pendente e o redefine para zero. Isso deve ser usado durante uma atualização de movimento (pelo Pawn ou PawnMovementComponent) para evitar o acúmulo de entrada de controle entre os quadros. Copia o vetor de entrada pendente para o vetor de entrada salvo (GetLastMovementInputVector()).
+
+- `AddActorWorldOffSet` - Adiciona um delta à localização deste ator no espaço do mundo.
+
 ### Movimentação utilizando mouse
 
 {% include imagebase.html
-    src="unreal/actor/blueprint_pawn_yaw_pitch.webp"
+    src="unreal/actor/unreal_engine_pawn_yaw_pitch.webp"
     alt="Figura: Blueprint - InputAxis e Add Controller Yaw Input e Add Controller Pitch Input."
     caption="Figura: Blueprint - InputAxis e Add Controller Yaw Input e Add Controller Pitch Input."
 %}
@@ -249,17 +257,13 @@ Captura as coordenadas do ator para que possamos utilizar os métodos de movimen
 
 ### Controle de movimentação do ator (Classe)
 
-Caso as opções `Use controller rotation pitch/Yaw` estiverem ativas (**true**) a cápsula do ator irá sem movimentar no seu próprio eixo.
-
 {% include imagebase.html
-    src="unreal/actor/blueprint_pawn_use_controller_rotation.webp"
+    src="unreal/actor/unreal_engine_use_controller_rotation.webp"
     alt="Figura: Blueprint - Use Controller Rotation Pitch/Yaw."
     caption="Figura: Blueprint - Use Controller Rotation Pitch/Yaw."
 %}
 
-- `SpringArm` - Sustenta a câmera e o responsável pela movimentação;
-
-Quando verdadeiro `Use Pawn control Rotation` e somente o braço com a câmera são movimentados.
+Caso as opções `Use controller rotation pitch/Yaw`, parâmetros da raiz do objeto (`Self`), estiverem ativas (`true`) a cápsula do ator irá se movimentar no seu próprio eixo.
 
 {% include imagebase.html
     src="unreal/actor/blueprint_pawn_use_pawn_control_rotation.webp"
@@ -267,11 +271,13 @@ Quando verdadeiro `Use Pawn control Rotation` e somente o braço com a câmera s
     caption="Figura: Blueprint - Use Paw Controller Rotation."
 %}
 
+Quando verdadeiro o parâmetro `Use Pawn control Rotation` do componente `SpringArm` somente o braço com a câmera são movimentados.
+
 ## Utilizando Enumeration para registro de poses do personagem
 
 ***
 
-Podemos utilizar uma variável Enumeration para registrar o estado do objeto.
+Podemos utilizar uma variável `Enumeration` para registrar o estado do objeto.
 
 ### Variável Enumeration
 
@@ -304,7 +310,7 @@ Serão implementados objetos para disparar (Plataforma Trigger) a movimentação
 {% include imagebase.html
     src="unreal/actor/blueprint_plataform_components.webp"
     alt="Figura: Blueprint - Exemplo de componentes da estutura da plataforma."
-    caption="Figura: Blueprint - Exemplo de componentes da estutura da plataforma."
+    caption="Figura: Blueprint - Exemplo de componentes da estrutura da plataforma."
 %}
 
 - `StaticMeshActor` - Derivado da classe Actor;
@@ -350,8 +356,8 @@ Utilizando o `Level Blueprint` vamos implementar a lógica de movimentação usa
 
 {% include imagebase.html
     src="unreal/actor/blueprint_plataform_setactorlocarion_lerp_timeline.webp"
-    alt="Figura: Blueprint - Exemplo utilizanod Timeline em um Level Blueprint."
-    caption="Figura: Blueprint - Exemplo utilizanod Timeline em um Level Blueprint."
+    alt="Figura: Blueprint - Exemplo utilizando Timeline em um Level Blueprint."
+    caption="Figura: Blueprint - Exemplo utilizando Timeline em um Level Blueprint."
 %}
 
 - Determinar o destino da movimentação;
