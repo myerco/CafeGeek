@@ -800,8 +800,8 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 {% include image.html
     src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5jf0OVAu11cRMSmAX1P2yQ/0fbef4bc9eb901fd7b12aa0b79f32724/-GRFS-_Screenshot_-_6.jpg"
-    alt="Figura: Ghost Recon Future Soldier"."
-    caption="Figura: Ghost Recon Future Soldier"."
+    alt="Figura: Ghost Recon Future Soldier."
+    caption="Figura: Ghost Recon Future Soldier."
 %}
 
 - Ghost Recon: Future Soldier - €50 million.
