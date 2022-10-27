@@ -9,13 +9,17 @@ layout: page
 
 O objetivo deste curso é apresentar e trabalhar com a definição do que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização. O curso está associado a construção **Estética** do jogo pois nele definimos elementos como sensação, desafio, descoberta e passatempo.
 
-**Habilidades que serão aprendidas**
+## Habilidades que serão aprendidas
 
-- Analise e conceitue jogos;    
-- Analise e defina tipos de jogos;    
-- Analise e defina os tipos de jogadores;      
-- Conheça o mercado de jogos digitais;    
+- Analise e conceitue jogos;
+
+- Analise e defina tipos de jogos;
+- Analise e defina os tipos de jogadores;
+
+- Conheça o mercado de jogos digitais;
+
 - Implemente um protótipo de jogo;
+
 - Analise e conceitue a Gamificação.
 
 | M         |  D          | A         |
@@ -24,143 +28,119 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 
 ***
 
-<a name="indice"></a>
-**[CAPÍTULO  1 - O que é um Jogo?](#1 "CAPÍTULO  I - O que é um Jogo?")**
+- [CAPÍTULO 1 - O que é um Jogo?](#capítulo-1---o-que-é-um-jogo)
 
-***
+  - [Teria o jogo lugar no sistema de vida?](#teria-o-jogo-lugar-no-sistema-de-vida)
+  
+  - [A Tensão como um elemento do jogo](#a-tensão-como-um-elemento-do-jogo)
 
-&nbsp;&nbsp;[1.1 Teria o jogo lugar no sistema de vida?](#1.1 "1.1 Teria o jogo lugar no sistema de vida?")          
+  - [Resumo do capítulo 1](#resumo-do-capítulo-1)
+  
+- [CAPÍTULO  2 - Qual a função do jogo?](#capítulo--2---qual-a-função-do-jogo)
 
-&nbsp;&nbsp;[1.2 Homo Ludens](#1.2 "1.2 Homo Ludens")  
+  - [O papel do jogo na sociedade?](#o-papel-do-jogo-na-sociedade)
 
-&nbsp;&nbsp;[1.3 A Tensão como um elemento do jogo](#1.3 "1.3 A Tensão como um elemento do jogo")        
+  - [O jogo Arte e Cultura](#o-jogo-arte-e-cultura)
 
-&nbsp;&nbsp;[1.4 Resumo](#1.4 "1.4 Resumo")        
+  - [O jogo e a Guerra](#o-jogo-e-a-guerra)
 
-***
+  - [O jogo e o Direito](#o-jogo-e-o-direito)
 
-**[CAPÍTULO  2 - Qual a função do jogo?](#2 "Qual a função do jogo?")**
+  - [O jogo e a Linguagem](#o-jogo-e-a-linguagem)
 
-***
+  - [Algumas considerações sobre o jogo](#algumas-considerações-sobre-o-jogo)
 
-&nbsp;&nbsp;[2.1 O papel do jogo na sociedade?](#2.1 "2.1 O papel do jogo na sociedade?")    
+  - [Resumo do capítulo 2](#resumo-do-capítulo-2)
 
-&nbsp;&nbsp;[2.2 O jogo Arte e Cultura](#2.2 "2.2 O jogo Arte e Cultura")    
+- [CAPÍTULO 3 - Quem joga?](#capítulo-3---quem-joga)
 
-&nbsp;&nbsp;[2.3 O jogo e a Guerra](#2.3 "2.3 O jogo e a Guerra")        
+  - [O jogador](#o-jogador)
 
-&nbsp;&nbsp;[2.4 O jogo e a Direito](#2.4 "2.4 O jogo e a Direito")    
+  - [O que é jogar?](#o-que-é-jogar)
 
-&nbsp;&nbsp;[2.5 O jogo e a Linguagem](#2.5 "2.5 O jogo e a Linguagem")        
+  - [Por que jogar?](#por-que-jogar)
 
-&nbsp;&nbsp;[2.6 Algumas considerações sobre o jogo](#2.6 "2.6 Algumas considerações sobre o jogo")   
+  - [Os Fatores motivacionais](#os-fatores-motivacionais)
 
-&nbsp;&nbsp;[2.7 Resumo](#2.7 "2.7 Resumo")   
+  - [Fatores não motivacionais](#fatores-não-motivacionais)
 
-***
+- [CAPÍTULO 4 - Como são classificados os jogos?](#capítulo-4---como-são-classificados-os-jogos)
 
-**[CAPÍTULO  3 - Quem Joga?](#3 "CAPÍTULO  3 - Quem Joga?")**
+  - [Tabuleiro](#tabuleiro)
 
-***
+  - [Cartas](#cartas)
 
-&nbsp;&nbsp;[3.1 O jogador](#3.1 "3.1 O jogador")
+  - [Atléticos](#atléticos)
 
-&nbsp;&nbsp;[3.2 O que é jogar?](#3.2 "3.2 O que é jogar?")
+  - [Infantis](#infantis)
 
-&nbsp;&nbsp;[3.3 Por que jogar?](#3.3 "3.3 Por que jogar?")
+  - [Eletrônicos](#eletrônicos)
 
-&nbsp;&nbsp;[3.4 Os Fatores motivacionais](#3.4 "3.4 Os Fatores motivacionais")
+- [CAPÍTULO 5 - O que é um jogo eletrônico?](#capítulo-5---o-que-é-um-jogo-eletrônico)
 
-&nbsp;&nbsp;[3.5 Fatores não motivacionais](#3.5 "3.5 Fatores não motivacionais")  
+  - [As características dos jogos Eletrônicos](#as-características-dos-jogos-eletrônicos)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[3.5.1 Respostas sensoriais](#3.5.1)
+  - [Desafio](#desafio)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[3.5.2 Jogabilidade](#3.5.2)
+  - [Divertimento](#divertimento)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[3.5.3 Cognição](#3.5.3)
+  - [Os tipos de jogos Eletrônicos](#os-tipos-de-jogos-eletrônicos)
 
-&nbsp;&nbsp;&nbsp;&nbsp;[3.5.4 Coordenação](#3.5.4)
+  - [O mercado de jogos eletrônicos](#o-mercado-de-jogos-eletrônicos)
 
+  - [Qual o  custo de produção de jogo eletrônico?](#qual-o--custo-de-produção-de-jogo-eletrônico)
 
-***
-**[CAPÍTULO  4 - Como são classificados os jogos?](#4 "CAPÍTULO  4 - Como são classificados os jogos?")**
+  - [Complexidade e valor de produção](#complexidade-e-valor-de-produção)
 
-***
+  - [Evolução dos jogos eletrônicos](#evolução-dos-jogos-eletrônicos)
 
-&nbsp;&nbsp;[4.1 Tabuleiro](#4.1 "4.1 Tabuleiro")
+  - [Era dos Videogames](#era-dos-videogames)
 
-&nbsp;&nbsp;[4.2 Cartas](#4.2 "4.2 Cartas")
+  - [Jogos mobile](#jogos-mobile)
 
-&nbsp;&nbsp;[4.3 Atléticos](#4.3 "4.3 Atléticos")
+- [CAPÍTULO 6 - Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?](#capítulo-6---por-que-as-pessoas-são-viciadas-em-videogames-e-não-são-viciadas-em-trabalho)
 
-&nbsp;&nbsp;[4.4 Infantis](#4.4)
+  - [Introdução](#introdução)
 
-&nbsp;&nbsp;[4.5 Eletrônicos](#4.5 "4.5 Eletrônicos")
+  - [O que é trabalho?](#o-que-é-trabalho)
 
-***
-**[CAPÍTULO  5 - O que é um jogo eletrônico?](#5 "CAPÍTULO  5 - O que é um jogo eletrônico?")**
+  - [Por que trabalhamos?](#por-que-trabalhamos)
 
-***
-
-&nbsp;&nbsp;[5.1 Características dos jogos Eletrônicos](#5.1 "5.1 Características dos jogos Eletrônicos")
-
-&nbsp;&nbsp;[5.2 Tipos de jogos Eletrônicos](#5.2 "5.2 Tipos de jogos Eletrônicos")
-
-&nbsp;&nbsp;[5.3 O mercado de jogos eletrônicos](#5.3 "5.3 O mercado de jogos eletrônicos")
-
-&nbsp;&nbsp;[5.4 Qual o custo de produção de jogo eletrônico?](#5.4 "5.4 Qual o custo de produção de jogo eletrônico?")
-
-&nbsp;&nbsp;[5.5 Complexidade e valor de produção](#5.5 "5.5 Complexidade e valor de produção")
-
-&nbsp;&nbsp;[5.6 Evolução dos jogos eletrônicos](#5.6 "5.6 Evolução dos jogos eletrônicos")
-
-&nbsp;&nbsp;[5.7 Era dos Videogames](#5.7 "5.7 Era dos Videogames")
-
-&nbsp;&nbsp;[5.8 Jogos mobile](#5.8 "5.8 Jogos mobile")
-
-***
-
-**[CAPÍTULO  6 - Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?](#6)**
-
-***
-
-&nbsp;&nbsp;[6.1  Introdução](#6.1)
-
-&nbsp;&nbsp;[6.2  Colocando Você na Caixa de Skinner](#6.2)
-
-&nbsp;&nbsp;[6.3  Criando alimento virtual para você comer](#6.3)
-
-&nbsp;&nbsp;[6.4  Fazendo você pressionar a alavanca](#6.4)
-
-&nbsp;&nbsp;[6.5  Mantendo você pressionando...para sempre](#6.5)
-
-&nbsp;&nbsp;[6.6  Fazendo com você chame a Skinner Box de casa](#6.6)
-
-
-***
+  - [Colocando Você na Caixa de Skinner](#colocando-você-na-caixa-de-skinner)
 
 [Atividades e Referências](jogatina_das_decadas_atividades_referencias.html)
 
 ***
 
-<a name="1"></a>
 ## CAPÍTULO 1 - O que é um Jogo?
+
+***
 
 > "Life is a Game"
 >
 > Animvs
 
 Podemos definir um jogo através das suas principais características.
+
 - Atividade recreativa;
+
 - Regras que estabelecem quem vence e quem perde;
+
 - Competição física ou mental;
+
 - Conjunto de procedimentos e estratégias para atingir determinado fim;
+
 - Atividade em que existe a figura do jogador (como indivíduo praticante).
 
 A origem da palavra deriva do de um termo do latim, *jocus*, que significa brincadeira, divertimento, atualmente podemos explorar as principais características e definições que nos ajudam a entender a evolução dessa "brincadeira" que faz parte das nossas vidas.
 
+{% include imagebase.html
+    src="jogatina_das_decadas/chess_game.webp"
+    alt="Figura: Chess."
+    caption="Figura: O Xadrez é um jogo de tabuleiro de estratégia do tipo recreativo ou competitivo para dois jogadores."
+%}
 
-![chess](https://images.chesscomfiles.com/uploads/v1/article/17623.87bb05cd.668x375o.47d81802f1eb.jpeg)
+.webp
 
 "Em época mais otimista que a atual, nossa espécie recebeu a designação de *Homo sapiens*. Com o passar do
 tempo, acabamos por compreender que afinal de contas não somos tão racionais quanto a ingenuidade e o culto da
@@ -173,41 +153,40 @@ nossa nomenclatura."
 
 > Latim “Ludus”, “Ludere” que designava os jogos infantis.
 
+### Teria o jogo lugar no sistema de vida?
 
-**[⬆ Início](#indice)**
-
-
-<a name="1.1"></a>
-## 1.1 Teria o jogo lugar no sistema de vida?
-
-![Figura: Life is a game. This is your strategy guide - https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/](https://oliveremberton.com/app/uploads/2014/02/Cover-shallow-1800x1100.png "Figura: Life is a game. This is your strategy guide - https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/")
-
-> *Figura: Life is a game. This is your strategy guide - https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/ .*
+{% include imagebase.html
+    src="jogatina_das_decadas/Cover-shallow-1800x1100.webp"
+    alt="Figura: Cover Shallow"
+    caption="Figura: Life is a game. This is your strategy guide - <https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/>"
+%}
 
 Há uma extraordinária divergência entre as numerosas tentativas de definição da função biológica do jogo. Umas definem as origens e fundamento do jogo em termos de descarga da energia vital superabundante, outras como satisfação de um certo "instinto de imitação", ou ainda simplesmente como uma "necessidade" de distensão.
 
 Quando pensamos no aspecto humano e evolutivo não podemos deixar de citar algumas teorias que buscam definir o jogo.
 
 - O jogo constitui uma preparação do jovem para as tarefas sérias que mais tarde a vida dele exigirá;
+
 - Trata-se de um exercício de autocontrole indispensável ao indivíduo;
+
 - Um impulso inato para exercer uma certa faculdade, ou como desejo de dominar ou competir;
+
 - Teorias há, ainda, que o consideram uma "ab-reação" (descarga emocional pela qual um indivíduo se liberta do afeto que acompanha a recordação de um acontecimento traumático), um escape para impulsos prejudiciais, um restaurador da energia dispendida por uma atividade unilateral, ou "realização do desejo", ou uma ficção destinada a preservar o sentimento do valor pessoal.
 
-**[⬆ Início](#indice)**
+### Homo Ludens
 
-<a name="1.2"></a>
-## 1.2 Homo Ludens
-
-![Figura: Soraia Chung: “O brincar elabora uma ideia de humanidade” - https://alana.org.br/entrevista-soraia-chung-brincar/](https://alana.org.br/wp-content/uploads/2021/05/brincar.png.webp "Figura: Soraia Chung: “O brincar elabora uma ideia de humanidade” - https://alana.org.br/entrevista-soraia-chung-brincar/")
-
-> *Figura: Soraia Chung: “O brincar elabora uma ideia de humanidade” - https://alana.org.br/entrevista-soraia-chung-brincar/ .*
+{% include imagebase.html
+    src="jogatina_das_decadas/brincar.webp"
+    alt="Figura: O brincar elabora uma ideia de humanidade"
+    caption="Figura: Soraia Chung: “O brincar elabora uma ideia de humanidade” - <https://alana.org.br/entrevista-soraia-chung-brincar/>"
+%}
 
 ...Brincar, significa libertar-se dos horrores do mundo, por meio da reprodução miniaturizada..”
 Walter Benjamin (1984)
 
 “...fenômeno cultural e repetível a qualquer momento, uma ação que introduz, na confusão da vida e na imperfeição do mundo, uma perfeição temporária e limitada.”
 
-**O riso e o jogo segundo HUIZINGA**
+#### O riso e o jogo segundo HUIZINGA
 
 "...O riso, por exemplo, está de certo modo em oposição à seriedade, sem de maneira alguma estar diretamente ligado ao jogo. Os jogos infantis, o futebol e o xadrez são executados dentro da mais profunda seriedade, não se verificando nos jogadores a menor tendência para o riso. É curioso notar que o ato puramente fisiológico de rir é exclusivo dos homens, ao passo que a função significante do jogo é comum aos homens e aos animais. O *animal ridens* de Aristóteles caracteriza o homem, em
 oposição aos animais, de maneira quase tão absoluta quanto o *homo sapiens*".
@@ -216,14 +195,13 @@ Em contrapartida devemos lembrar que o riso no filme O Nome da Rosa teve outra c
 
 "...O riso é um evento demoníaco que deforma as linhas do rosto e faz os homens parecerem macacos "O riso mata o temor e sem o temor não pode haver fé!"...".
 
-**[⬆ Início](#indice)**
+### A Tensão como um elemento do jogo
 
-<a name="1.3"></a>
-## 1.3 A Tensão como um elemento do jogo
-
-![Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise](https://img.ibxk.com.br/2014/10/15/15193231547073.jpg?ims=704x "Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise")
-
-> *Figura: O silêncio vale ouro - https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise .*
+{% include imagebase.html
+    src="jogatina_das_decadas/alien_isolation_1.webp"
+    alt="Figura: Alien Isolation."
+    caption="Figura: O silêncio vale ouro - <https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise>"
+%}
 
 Tensão significa incerteza, acaso. Há um esforço para levar o jogo até ao desenlace, o jogador quer que
 alguma coisa "vá" ou "saia", pretende "ganhar" à custa de seu próprio esforço.
@@ -232,14 +210,15 @@ Uma criança estendendo a mão para
 um brinquedo, um gatinho brincando com um novelo, uma garotinha jogando bola, todos eles procuram conseguir
 alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como se costuma dizer.
 
-![Figura: Brinquedos para gatos: por que os bichanos gostam de novelo de lã? - https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1](https://static1.patasdacasa.com.br/articles/5/19/65/@/9211-o-novelo-de-la-para-gatos-esta-na-lista-articles_media_desktop-2.jpg "Figura: Brinquedos para gatos: por que os bichanos gostam de novelo de lã? - https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1")
+{% include imagebase.html
+    src="jogatina_das_decadas/9211-o-novelo-de-la-para-gatos-esta-na-lista-articles_media_desktop-2.webp"
+    alt="Figura: Brinquedos para gatos."
+    caption="Figura: Brinquedos para gatos: por que os bichanos gostam de novelo de lã? - <https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1> ."
+%}
 
-> *Figura: Brinquedos para gatos: por que os bichanos gostam de novelo de lã? - https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1 .*
+### Resumo do capítulo 1
 
-<a name="1.4"></a>
-## 1.4 Resumo
-
-**O que é um jogo?**
+#### O que é um jogo?
 
 - É uma Atividade recreativa com regras que estabelecem quem vence e quem perde;
 
@@ -247,7 +226,7 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 
 - Atividade em que existe a figura do jogador (como indivíduo praticante).
 
-**O ser humano e o jogo.**
+#### O ser humano e o jogo
 
 - O jogo constitui uma preparação do jovem para as tarefas sérias que mais tarde a vida dele exigirá;
 
@@ -257,27 +236,26 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 
 - Teorias há, ainda, que o consideram uma “ab-reação” (descarga emocional pela qual um indivíduo se liberta do afeto que acompanha a recordação de um acontecimento traumático), **um escape para impulsos prejudiciais**, um restaurador da energia dispendida por uma atividade unilateral, ou “realização do desejo”, ou uma ficção destinada a preservar o sentimento do **valor pessoal**.
 
-**O jogo é?**
+#### O jogo é?
 
 - O jogo é tenso;
 
 - O jogo é divertido.
 
-
-**[⬆ Início](#indice)**
+## CAPÍTULO  2 - Qual a função do jogo?
 
 ***
-<a name="2"></a>
-## CAPÍTULO  2 -  Qual a função do jogo?
 
 > "Eu me sinto presa, apenas livre para me expandir dentro dos limites.
 (Motoko Kusanagi)""
 >
 > O Fantasma do Futuro
 
-![Figura: The Last of Us 2: No controle de uma balada de vingança, beleza e cansaço... - https://www.uol.com.br/start/ultimas-noticias/2020/06/15/the-last-of-us-2-a-vinganca-de-ellie-so-e-plena-nos-acordes-do-cansaco.htm?cmpid=copiaecola ](https://conteudo.imguol.com.br/c/entretenimento/09/2020/06/07/the-last-of-us-parte-ii-1591561975954_v2_1170x540.jpg)
-
-> *Figura: The Last of Us 2: No controle de uma balada de vingança, beleza e cansaço... - https://www.uol.com.br/start/ultimas-noticias/2020/06/15/the-last-of-us-2-a-vinganca-de-ellie-so-e-plena-nos-acordes-do-cansaco.htm?cmpid=copiaecola .*
+{% include imagebase.html
+    src="jogatina_das_decadas/the-last-of-us-parte-ii-1591561975954_v2_1170x540.webp"
+    alt="Figura: The Last of Us 2."
+    caption="Figura: The Last of Us 2: No controle de uma balada de vingança, beleza e cansaço... - <https://www.uol.com.br/start/ultimas-noticias/2020/06/15/the-last-of-us-2-a-vinganca-de-ellie-so-e-plena-nos-acordes-do-cansaco.htm?cmpid=copiaecola> ."
+%}
 
 A função do jogo, nas formas mais elevadas que aqui nos interessam, pode de maneira geral ser definida pelos dois aspectos fundamentais que nele encontramos:
 
@@ -285,99 +263,110 @@ A função do jogo, nas formas mais elevadas que aqui nos interessam, pode de ma
 
 Estas duas funções podem também por vezes confundir-se, de tal modo que o jogo passe a "representar" uma luta, ou, então, se torne uma luta para melhor representação de alguma coisa.
 
-**[⬆ Início](#indice)**
-
-<a name="2.1"></a>
-## 2.1 O papel do jogo na sociedade?
+### O papel do jogo na sociedade?
 
 O ser humano, tal como todos os seres da escala biológica, tem como característica principal o movimento. O jogo surge relacionado a esse assunto, por ser a melhor demonstração dessa predominância no homem, além de atuar como um valoroso contribuinte no desenvolvimento global do mesmo.
 
-<a name="2.2"></a>
-## 2.2 O jogo Arte e Cultura
+### O jogo Arte e Cultura
 
-![O jogo na arte](https://lh3.googleusercontent.com/mw2jVchK_0h4nZ3mm41sEkul6669asv3ifiwqzuCzKNXNLBoWTpvJbq-UaaaIuNjFxu50qukPCIIo9PEWW3cs4-XDbe2N8WHoEZW_JvUkWlnquWNHQbaQTkS0oXlpuTVpWsbzZGGJw "O jogo na arte")
+{% include imagebase.html
+    src="jogatina_das_decadas/2012_01_20_15_37_021.webp"
+    alt="Figura: O Jogo na arte."
+    caption="Figura: O Jogo na arte."
+%}
 
 O processo criativo e construção de elementos imaginários estão presentes nas caracterizas dos jogos.
 Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um belo e nobre jogo começou por ser um jogo sagrado. Os torneios e justas, as ordens, os votos, os títulos, são  todos vestígios dos ritos de iniciação primitivos.
 
-<a name="2.3"></a>
-## 2.3 O jogo e a Guerra
+### O jogo e a Guerra
 
-![O jogo e a guerra](https://lh3.googleusercontent.com/eHCIaFbDB3dEjinKTkIp5AOuGRL9S8taKXnuuQyJM_ZLsxrHjdYMvUb7OISIuOWJwS9a1kwlERn5n0akqx_jUnfjXUazb4TzMqvKrA4zAwNU7Lwn0NSFAyTJlwZgs0a3BiefXfXF7Q "O jogo e a guerra")
+{% include imagebase.html
+    src="jogatina_das_decadas/art-painting-delacroix_wallcoo.com.webp"
+    alt="Figura: O Jogo e a guerra."
+    caption="Figura: O Jogo e a guerra."
+%}
 
 É difícil não associar a guerra ao jogo mas o contrário é possível, na guerra o objetivo é conquistar ou subjugar o seu oponente.
 
-<a name="2.4"></a>
-## 2.4 O jogo e o Direito
+### O jogo e o Direito
 
-![O jogo e o direito](https://lh4.googleusercontent.com/0UyjVE8iYejdGuduppAcytXaEVPAV8aMX3INMhuJw72tQBS8xy1Sq_8vS9JpZSZNgQ81lfxM_BmCJObWEa9bkGPfZNnMuQbWfy551KWCF1b2R1Rg3iiRXta3mwNOvzunKDaU5gvonw "O Jogo e o Direito")
+{% include imagebase.html
+    src="jogatina_das_decadas/leis.webp"
+    alt="Figura: O Jogo e o Direito."
+    caption="Figura: O Jogo e o Direito."
+%}
 
 Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o Luizinga associa o "processo" a um jogo considerando o seguinte:
-- **O tribunal** - Pode também ser chamado uma "corte" de justiça. Esta corte é ainda, no sentido pleno do  termo, o ίεφόδ χυχλο, o círculo sagrado dentro do qual, no escudo de Aquiles, aparecem sentados os juízes. Todo  lugar onde se ministra a justiça é um verdadeiro *temenos*, um lugar sagrado, separado e afastado do mundo vulgar.
-- **Os juízes** -  que  ministram a justiça saem da vida "comum" no momento em que vestem a toga e colocam a  peruca.
-  > Um antigo juiz escreveu-me o seguinte: "O estilo e o conteúdo das intervenções nos tribunais revelam o  ardor esportivo com que nossos advogados se atacam uns aos outros por meio de argumentos e contra-argumentos  (alguns dos quais são razoavelmente sofisticados)
 
-- **Regras e Leis** - A competição judicial está  sempre submetida a um sistema de regras restritivas que, independentemente das limitações de tempo e de lugar,  colocam firme e inequivocamente o julgamento no interior do domínio do jogo ordenado e antitético
+- **O tribunal** - Pode também ser chamado uma "corte" de justiça. Esta corte é ainda, no sentido pleno do  termo, o ίεφόδ χυχλο, o círculo sagrado dentro do qual, no escudo de Aquiles, aparecem sentados os juízes. Todo  lugar onde se ministra a justiça é um verdadeiro *temenos*, um lugar sagrado, separado e afastado do mundo vulgar.
+
+- **Os juízes** -  que  ministram a justiça saem da vida "comum" no momento em que vestem a toga e colocam a  peruca.
+
+  > Um antigo juiz escreveu-me o seguinte: "O estilo e o conteúdo das intervenções nos tribunais revelam o  ardor esportivo com que nossos advogados se atacam uns aos outros por meio de argumentos e contra-argumentos  (alguns dos quais são razoavelmente sofisticados).
+
+- **Regras e Leis** - A competição judicial está  sempre submetida a um sistema de regras restritivas que, independentemente das limitações de tempo e de lugar,  colocam firme e inequivocamente o julgamento no interior do domínio do jogo ordenado e antitético.
+
 - **A justiça** - Se fizermos com que nosso olhar passe da  administração da justiça nas civilizações altamente desenvolvidas para aquela que se encontra nas fases menos  adiantadas da cultura, veremos que a ideia do bem e do mal, a concepção ético-jurídica, é ultrapassada pela ideia de  ganhar ou perder, isto é, pela concepção puramente agonística. O que interessa ao espírito primitivo não é tanto o  problema abstrato do bem e do mal, mas principalmente o problema extremamente concreto de ganhar ou perder.
 
-<a name="2.5"></a>
-## 2.5 O jogo e a Linguagem
+### O jogo e a Linguagem
 
-![O jogo e a linguagem](https://lh6.googleusercontent.com/n6cRsalJRwjvmqPAKs36Qyj_U1nLNtnaOASUInR4dTl4STFpN0v-kMHtM58tk5oLhyZvqyzdrrwLeef0Vy235S6Fu6el59K0V76hYosAy8kAfyw46GYRlGSn_H23fjAvcEoEquhgZg "O jogo e a linguagem")
+{% include imagebase.html
+    src="jogatina_das_decadas/barreira-linguagem-764x343.webp"
+    alt="Figura: O jogo e a linguagem."
+    caption="Figura: O jogo e a linguagem."
+%}
 
 A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo, designá-las e com essa designação elevá-las ao domínio do espírito. Na criação da fala e da linguagem,  brincando com essa maravilhosa faculdade de designar, é como se o espírito estivesse constantemente saltando  entre a matéria e as coisas pensadas. Por detrás de toda expressão abstrata se oculta uma metáfora, e toda metáfora  é jogo de palavras. Assim, ao dar expressão à vida, o homem cria um outro mundo, um mundo poético, ao lado do  da natureza.
 
-**[⬆ Início](#indice)**
+### Algumas considerações sobre o jogo
 
-<a name="2.6"></a>
-## 2.6 Algumas considerações sobre o jogo
-![The Thinker](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Mus%C3%A9e_Rodin_1.jpg/220px-Mus%C3%A9e_Rodin_1.jpg "The Thinker")
+{% include imagebase.html
+    src="jogatina_das_decadas/musee_Rodin_1.webp"
+    alt="Figura: The Thinker."
+    caption="Figura: The Thinker."
+%}
 
 O autor apresenta as suas interpretações de elementos presentes na nossa sociedade e os caracteriza como jogo na sua definição, devemos lembrar que o HUIZINGA utiliza e define jogo na Perspectiva do jogador e extrai classificações do objeto em estudo dentro de um tempo e realidade por conseguinte devemos considerar os seguintes aspectos:
+
 - Não deveríamos considerar  a justiça como um jogo de ganhar e perder pois isso não melhora as grandes diferenças sociais na nossa sociedade.
 
 Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como por exemplo economia, relacionamentos, comunicação e outros, mas com uma nova roupagem denominada "Gamificação" que estudaremos nos próximos capítulos.
 
-<a name="2.7"></a>
-## 2.7 Resumo
+### Resumo do capítulo 2
 
-**O que é a função do jogo?**
+#### O que é a função do jogo?
 
 - Sendo o jogo uma luta por alguma coisa ou a representação de alguma coisa e esta presente em vários aspectos da sociedade;
 
 - É uma representação dos desafios que os indivíduos enfrentam no dia a dia na nossa sociedade.
 
-
-**[⬆ Início](#indice)**
+## CAPÍTULO 3 - Quem joga?
 
 ***
-<a name="3"></a>
-## CAPÍTULO 3 - Quem joga?
 
 > "Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior do que apenas eu mesmo."
 >
 > Jogador Nº1.
 
-<a name="3.1"></a>
-## 3.1 O jogador
+### O jogador
 
-![Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women](https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp "Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women")
-
-> *Figura: Top 5 Most Popular Online Games for Women - https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women .*
+{% include image.html
+    src="https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp"
+    alt="Figura: Top 5 Most Popular Online Games for Women."
+    caption="Figura: Top 5 Most Popular Online Games for Women - <https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women>"
+%}
 
 “Conhecer o que o jogador quer e a situação que o mercado se apresenta são informações que apenas darão suporte ao design em criar um jogo que na verdade deve possuir, por meio de referências acadêmicas, os elementos que provoquem o **desejo**, a **compra**, a **diversão** e o entretenimento, que são consequências.”
 
 O jogo é um produto presente no mercado e como tal se apresenta com todas as suas características de comercialização.
 
+### O que é jogar?
 
-**[⬆ Início](#indice)**
-
-<a name="3.2"></a>
-## 3.2 O que é jogar?
-
-![Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - https://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/](https://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg "Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - https://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/")
-
-> *Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/ .*
+{% include image.html
+    src="https://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg"
+    alt="Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek."
+    caption="Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - <http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/>"
+%}
 
 É um evento social, sendo assim esse evento gera emoções que são interpretações das respostas sensoriais obtidas pelos elementos do jogo, segue a baixo algumas delas:
 
@@ -389,14 +378,13 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 
 - Cultura.
 
-**[⬆ Início](#indice)**
+### Por que jogar?
 
-<a name="3.3"></a>
-## 3.3 Por que jogar?
-
-![Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia - https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/](https://lavrapalavra.com/wp-content/uploads/2021/01/apagar.png "Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia - https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/")
-
-> *Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia - https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/ .*
+{% include image.html
+    src="https://lavrapalavra.com/wp-content/uploads/2021/01/apagar.png"
+    alt="Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia."
+    caption="Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia - <https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/>"
+%}
 
 - Desafio - Adicionar complexidade nas tarefas do jogador;
 
@@ -410,171 +398,241 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 
 [https://www.teachthought.com/learning/why-people-play-video-games/](https://www.teachthought.com/learning/why-people-play-video-games/ "Why People Play Video Games")
 
-<a name="3.4"></a>
-## 3.4 Os Fatores motivacionais
+### Os Fatores motivacionais
 
 Estão diretamente ligados ao desejo do jogadora sua construção social, leitura, cinema, arte e televisão.
 
-### Exploração
+#### Exploração
 
-![wallpaperflare.com Star Trek](https://c4.wallpaperflare.com/wallpaper/73/158/467/star-trek-wallpaper-preview.jpg "wallpaperflare.com Star Trek")
+{% include image.html
+    src="https://c4.wallpaperflare.com/wallpaper/73/158/467/star-trek-wallpaper-preview.jpg"
+    alt="Figura: wallpaperflare.com Star Trek."
+    caption="Figura: Star Trek."
+%}
 
+#### Fantasia
 
-### Fantasia
+{% include image.html
+    src="https://361605-1208129-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2021/12/Final-Fantasy-7-Remake-Intergrade-PS5-Wallpapers-10.jpg"
+    alt="Figura: Final Fantasy VII Remake."
+    caption="Figura: Final Fantasy VII Remake."
+%}
 
-![Final Fantasy VII Remake – Como Traduzir o Jogo para Português](https://361605-1208129-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2021/12/Final-Fantasy-7-Remake-Intergrade-PS5-Wallpapers-10.jpg "Final Fantasy VII Remake – Como Traduzir o Jogo para Português")
+#### Quebrar as regras sociais
 
+{% include image.html
+    src="https://www.arkade.com.br/wp-content/uploads/2020/08/gta-v.jpg"
+    alt="Figura: GTA V retorna ao Xbox Game Pass, mas agora com suporte ao xCloud."
+    caption="Figura: GTA V retorna ao Xbox Game Pass, mas agora com suporte ao xCloud."
+%}
 
-### Quebrar as regras sociais
+#### Exercitar-se
 
-![/www.arkade.com.br](https://www.arkade.com.br/wp-content/uploads/2020/08/gta-v.jpg "GTA V retorna ao Xbox Game Pass, mas agora com suporte ao xCloud")
+{% include image.html
+    src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3Vu9VvXvEXI0krA0UE0gIK/4fe4d0ea69a2d1c4254ecda81737ca4e/jd22-promo-02-china.jpg"
+    alt="Figura: Just Dance 2022"
+    caption="Figura: Just Dance 2022"
+%}
 
-### Exercitar-se
+#### Demonstrar-se
 
-![Just Dance 2022](https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3Vu9VvXvEXI0krA0UE0gIK/4fe4d0ea69a2d1c4254ecda81737ca4e/jd22-promo-02-china.jpg "Just Dance 2022")
+{% include image.html
+    src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/04/Demon-Hunter-Tier-20-Cropped.jpg?q=50&fit=crop&w=740&dpr=1.5"
+    alt="Figura: 10 Most Epic Tier Sets In World Of Warcraft"
+    caption="Figura: 10 Most Epic Tier Sets In World Of Warcraft"
+%}
 
-### Demonstrar-se
+#### Sociabilizar-se
 
-![The Gamer](https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/04/Demon-Hunter-Tier-20-Cropped.jpg?q=50&fit=crop&w=740&dpr=1.5 "10 Most Epic Tier Sets In World Of Warcraft")
+{% include image.html
+    src="https://s2.glbimg.com/Ajwl8JcF1B1ozCPrhSOI5OgYAa8=/0x0:695x269/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/C/x/E4BtaXTB2iJc5FTjVOUg/2014-04-23-wow-raid.jpg"
+    alt="Figura: World of Warcraft."
+    caption="Figura: World of Warcraft."
+%}
 
-### Sociabilizar-se
+#### Reconhecimento
 
-![/www.techtudo.com.br](https://s2.glbimg.com/Ajwl8JcF1B1ozCPrhSOI5OgYAa8=/0x0:695x269/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/C/x/E4BtaXTB2iJc5FTjVOUg/2014-04-23-wow-raid.jpg "World of Warcraft: conheça AddOns importantes antes de entrar na raide")
+{% include image.html
+    src="https://www.touchtapplay.com/wp-content/uploads/2020/12/image-19.png"
+    alt="Figura: List of Medals available in Call of Duty: Mobile."
+    caption="Figura:List of Medals available in Call of Duty: Mobile."
+%}
 
-### Reconhecimento
+#### Aprendizado
 
-![List of Medals available in Call of Duty: Mobile](https://www.touchtapplay.com/wp-content/uploads/2020/12/image-19.png "List of Medals available in Call of Duty: Mobile")
+{% include image.html
+    src="https://myplinkit.com/wp-content/uploads/2020/03/Activities-and-Games_iStock-1127260590_cropped.jpg"
+    alt="Figura: Activities + Games You Can Do at Home to Support Your Child’s Learning."
+    caption="Figura: Activities + Games You Can Do at Home to Support Your Child’s Learning"
+%}
 
-### Aprendizado
+#### Marca
 
-![https://myplinkit.com](https://myplinkit.com/wp-content/uploads/2020/03/Activities-and-Games_iStock-1127260590_cropped.jpg "Activities + Games You Can Do at Home to Support Your Child’s Learning")
+{% include image.html
+    src="https://miro.medium.com/max/825/1*M6VI8_01A-At7Nzp2wn6IA.png"
+    alt="Figura: TTop 20 Game Studios: Who’s Your Favorite?"
+    caption="Figura: Top 20 Game Studios: Who’s Your Favorite?"
+%}
 
-### Marca
-
-![https://medium.com](https://miro.medium.com/max/825/1*M6VI8_01A-At7Nzp2wn6IA.png "Top 20 Game Studios: Who’s Your Favorite?")
-
-<a name="3.5"></a>
-## 3.5 Fatores não motivacionais
+### Fatores não motivacionais
 
 Estão ligados na avaliação da mensagem que está sendo transmitida.
+
 - Comunicação visual;
+
 - Comunicação auditiva e sensorial.
 
-![Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm](https://tm.ibxk.com.br/2021/08/09/09131221401170.jpg "Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm")
+{% include image.html
+    src="https://tm.ibxk.com.br/2021/08/09/09131221401170.jpg"
+    alt="Figura: Hellblade"
+    caption="Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - <https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm>"
+%}
 
-> *Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm .*
+#### Respostas sensoriais
 
-<a name="3.5.1"></a>
-### 3.5.1 Respostas sensoriais.
+#### Gráficos
 
-### Gráficos
+{% include image.html
+    src="https://files.tecnoblog.net/wp-content/uploads/2020/08/dez-dicas-para-dominar-horizon-zero-dawn005.png"
+    alt="Figura: 10 dicas para dominar Horizon Zero Dawn"
+    caption="Figura: 10 dicas para dominar Horizon Zero Dawn"
+%}
 
-![tecnoblog.net](https://files.tecnoblog.net/wp-content/uploads/2020/08/dez-dicas-para-dominar-horizon-zero-dawn005.png "10 dicas para dominar Horizon Zero Dawn")
+#### Som
 
-### Som
-![www.techtudo.com.br](https://s2.glbimg.com/WZEsU9OtfinBadWtEwruyHlueBg=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/C/o/4CJ1NPR2u4MTx3BMyY2A/journey-como-jogar-amigo.jpg "Como jogar Journey com um amigo? Confira dicas e tudo sobre o game")
+{% include image.html
+    src="https://s2.glbimg.com/WZEsU9OtfinBadWtEwruyHlueBg=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/C/o/4CJ1NPR2u4MTx3BMyY2A/journey-como-jogar-amigo.jpg"
+    alt="Figura: Como jogar Journey com um amigo? Confira dicas e tudo sobre o game"
+    caption="Figura: Como jogar Journey com um amigo? Confira dicas e tudo sobre o game"
+%}
 
-### Música
+#### Música
 
-[![Life Is Strange Soundtrack - To All Of You By Syd Matters](https://img.youtube.com/vi/LnG6icGIm0o/0.jpg)](https://www.youtube.com/watch?v=LnG6icGIm0o "Life Is Strange Soundtrack - To All Of You By Syd Matters")
+{% include image.html
+    src="https://img.youtube.com/vi/LnG6icGIm0o/0.jpg"
+    alt="Figura: Life is Strange."
+    caption="Figura: Life is Strange."
+%}
 
-### Efeitos especiais
+#### Efeitos especiais
 
-![10 Best Lighting and Particle Effects We Saw In 2011](https://gamingbolt.com/wp-content/gallery/10-best-particle-and-lighting-effects-we-saw-in-2011/assassins-creed-revelations.jpg "Assassin's Creed: Revelations")
+{% include image.html
+    src="https://gamingbolt.com/wp-content/gallery/10-best-particle-and-lighting-effects-we-saw-in-2011/assassins-creed-revelations.jpg"
+    alt="Figura: Assassin's Creed: Revelations"
+    caption="Figura: 10 Best Lighting and Particle Effects We Saw In 2011"
+%}
 
-<a name="3.5.2"></a>
-### 3.5.2 Jogabilidade
+#### Jogabilidade
 
-![www.techspot.com](https://static.techspot.com/articles-info/2366/images/2021-11-17-image-2-j.webp "It Takes Two")
+{% include image.html
+    src="https://static.techspot.com/articles-info/2366/images/2021-11-17-image-2-j.webp"
+    alt="Figura: It Takes Two."
+    caption="Figura: It Takes Two."
+%}
 
-<a name="3.5.3"></a>
-### 3.5.3 Cognição
+#### Cognição
 
-![www.techtudo.com.br](https://s2.glbimg.com/ys4yzHh8-bS88Kc2mwhuQdW3An0=/0x0:695x393/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/N/K/ray9GLT9GUmH5n4aqwAw/2015-08-21-the-witcher-3-geralt-lutando.jpg "Confira os requisitos de The Witcher 3 e como deixar mais leve no PC")
+{% include image.html
+    src="https://s2.glbimg.com/ys4yzHh8-bS88Kc2mwhuQdW3An0=/0x0:695x393/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/N/K/ray9GLT9GUmH5n4aqwAw/2015-08-21-the-witcher-3-geralt-lutando.jpg"
+    alt="Figura: The Witcher 3."
+    caption="Figura: Confira os requisitos de The Witcher 3 e como deixar mais leve no PC"
+%}
 
-<a name="3.5.4"></a>
-### 3.5.4 Coordenação
+#### Coordenação
 
-![rollingstone.uol.com.br](https://rollingstone.uol.com.br/media/_versions/guitar_hero_reproducao_widelg.jpg "Guitar Hero: 15 clássicos do game que você provavelmente tocou muito")
+{% include image.html
+    src="https://rollingstone.uol.com.br/media/_versions/guitar_hero_reproducao_widelg.jpg"
+    alt="Figura: Guitar Hero."
+    caption="Figura: Guitar Hero: 15 clássicos do game que você provavelmente tocou muito."
+%}
 
-**[⬆ Início](#indice)**
+## CAPÍTULO 4 - Como são classificados os jogos?
 
 ***
-<a name="4"></a>
-## CAPÍTULO 4 - Como são classificados os jogos?
 
 > Guerra... A guerra nunca muda.
 >
 > Fallout.
 
-
 Podemos classificar os jogos para determinar ou mostrar a sua função dentro de um modelo de lazer ou recreação.
 
+### Tabuleiro
 
-<a name="4.1"></a>
-## 4.1 Tabuleiro
-
-![History](https://assets.historyplay.tv/br/public/styles/wide/public/images/2020/05/28/senet_-_jogo_-_egito_-_mortos_-_comunicacao_-_history_channel_brasil.jpg "Senet, o jogo de tabuleiro que os egípcios usavam para se comunicar com os mortos ")
+{% include image.html
+    src="https://assets.historyplay.tv/br/public/styles/wide/public/images/2020/05/28/senet_-_jogo_-_egito_-_mortos_-_comunicacao_-_history_channel_brasil.jpg"
+    alt="Figura: Senet"
+    caption="Figura: Senet, o jogo de tabuleiro que os egípcios usavam para se comunicar com os mortos."
+%}
 
 Consistem em uma superfície dividida em setores com peças móveis.
 
-![Infoescola](https://www.infoescola.com/wp-content/uploads/2008/03/xadrez_255260497-1000x664.jpg "Xadrez")
+{% include image.html
+    src="https://www.infoescola.com/wp-content/uploads/2008/03/xadrez_255260497-1000x664.jpg"
+    alt="Figura: Xadrez"
+    caption="Figura: Xadrez."
+%}
 
-- 2600 a.C. Mesopotâmia
+- 2600 a.C. Mesopotâmia;
+
 - 3600 a.C Egito
 
-**[⬆ Início](#indice)**
+### Cartas
 
-<a name="4.2"></a>
-## 4.2 Cartas
-
-![Jogolaxia](https://jogolaxia.com/files/artigos/jogos-cartas.jpg "Os 10 melhores jogos de cartas para jogar sozinho")
+{% include image.html
+    src="https://jogolaxia.com/files/artigos/jogos-cartas.jpg"
+    alt="Figura: Os 10 melhores jogos de cartas para jogar sozinho."
+    caption="Figura: Os 10 melhores jogos de cartas para jogar sozinho."
+%}
 
 Conjunto de símbolos com valores de combinação lógica, quem em determinadas regras, representam combinação para cada combinação empregada em uma jogada.
 
-**[⬆ Início](#indice)**
+### Atléticos
 
-<a name="4.3"></a>
-## 4.3 Atléticos
-
-![Brasil Escola](https://s1.static.brasilescola.uol.com.br/galeria/images/85b29f73c4b883f3b44b9e0596a2bdb0.jpg "Voleibol")
+{% include image.html
+    src="https://s1.static.brasilescola.uol.com.br/galeria/images/85b29f73c4b883f3b44b9e0596a2bdb0.jpg"
+    alt="Figura: Figura: Brasil Escola - Voleibol."
+    caption="Figura: Brasil Escola - Voleibol."
+%}
 
 São fisicamente aplicados em determinado jogo.
 
-**[⬆ Início](#indice)**
+### Infantis
 
-<a name="4.4"></a>
-## 4.4 Infantis
-
-![Somos edução](https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_780,h_450/https://blog.elevaplataforma.com.br/wp-content/uploads/2019/12/original-cfd1c117a3b836f3f131e59095fc3154-780x450.jpg "Gamificação na educação: como usá-la no processo pedagógico?")
+{% include image.html
+    src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_780,h_450/https://blog.elevaplataforma.com.br/wp-content/uploads/2019/12/original-cfd1c117a3b836f3f131e59095fc3154-780x450.jpg"
+    alt="Figura: Figura: Gamificação na educação: como usá-la no processo pedagógico?."
+    caption="Figura: Gamificação na educação: como usá-la no processo pedagógico?."
+%}
 
 Brincadeiras físicas e mentais com visões educacionais, cujo objetivo é socializar e educar.
 
-**[⬆ Início](#indice)**
+### Eletrônicos
 
-<a name="4.5"></a>
-## 4.5 Eletrônicos
-
-![USP imagens](https://imagens.usp.br/wp-content/uploads/games_pedrobolle_uspimagens_001.jpg  "Jogos Eletrônicos")
+{% include image.html
+    src="https://imagens.usp.br/wp-content/uploads/games_pedrobolle_uspimagens_001.jpg"
+    alt="Figura: Jogos Eletrônicos."
+    caption="Figura: Jogos Eletrônicos."
+%}
 
 Trabalham com reflexos, coordenação e cognição.
 
-**[⬆ Início](#indice)**
+## Capítulo 5 - O que é um jogo eletrônico?
 
 ***
-<a name="5"></a>
-## Capítulo 5 - O que é um jogo eletrônico?
 
 > "Nada é verdade, tudo é permitido."
 >
 > Assassin's Creed: Revelations.
 
-
 "O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pessoa, mas ninguém pode mudá-la. Uma coisa que não muda com o tempo é a memória dos dias mais jovens."
 >
 > The Legend of Zelda: Ocarina of Time
 
-![Covil dos jogos](https://covildosjogos.com.br/wp-content/uploads/2020/06/f782e9b5-9331-47cb-83a0-838e7515eb14-768x1024.jpg "Jogos de Cartas")
+{% include image.html
+    src="https://covildosjogos.com.br/wp-content/uploads/2020/06/f782e9b5-9331-47cb-83a0-838e7515eb14-768x1024.jpg"
+    alt="Figura: Jogos de Cartas."
+    caption="Figura: Jogos de Cartas."
+%}
 
 “Representar um jogo depende não somente do entendimento conceitual da atividade, mas também da inclusão de elementos comuns que fazem do jogo algo especial.”
 
@@ -582,39 +640,55 @@ Trabalham com reflexos, coordenação e cognição.
 
 Sistema formal fechado que subjetivamente representa uma extensão da realidade.
 
+### As características dos jogos Eletrônicos
 
-**[⬆ Início](#indice)**
+#### Foco
 
-<a name="5.1"></a>
-## 5.1 As características dos jogos Eletrônicos
-
-### Foco
-
-![Top Games Free](https://1.bp.blogspot.com/-amcIuWezKHM/VA3vWLcYvXI/AAAAAAAABwE/DXI1Tn6rDsI/s1600/002.jpg "F22 Raptor")
+{% include image.html
+    src="https://1.bp.blogspot.com/-amcIuWezKHM/VA3vWLcYvXI/AAAAAAAABwE/DXI1Tn6rDsI/s1600/002.jpg"
+    alt="Figura: F22 Raptor."
+    caption="Figura: F22 Raptor."
+%}
 
 Capacidade do jogador de se concentrar nos objetivos e ações principais.
 
-### Interatividade
+#### Interatividade
 
-![Brasil Academicos](https://2.bp.blogspot.com/_cM2l6Y3Ulgg/Sfi6LBnLGoI/AAAAAAAABqo/dWz5kQT2qpg/s1600/sangueCorrompido.jpg "Praga no jogo World of Warcraft ajuda a entender pandemia")
+{% include image.html
+    src="https://2.bp.blogspot.com/_cM2l6Y3Ulgg/Sfi6LBnLGoI/AAAAAAAABqo/dWz5kQT2qpg/s1600/sangueCorrompido.jpg"
+    alt="Figura: Praga no jogo World of Warcraft ajuda a entender pandemia."
+    caption="Figura: Praga no jogo World of Warcraft ajuda a entender pandemia."
+%}
 
 Capacidade dos jogadores realizarem ações participativas nos jogos.
 
-### Conflito
+#### Conflito
 
-![comboinfinito](https://www.comboinfinito.com.br/principal/wp-content/uploads/2014/05/far-cry-4-historia.jpg "Detalhes da história de Far Cry 4 surgem no site da Ubisoft")
+{% include image.html
+    src="https://www.comboinfinito.com.br/principal/wp-content/uploads/2014/05/far-cry-4-historia.jpg"
+    alt="Figura: Detalhes da história de Far Cry 4 surgem no site da Ubisoft."
+    caption="Figura: Detalhes da história de Far Cry 4 surgem no site da Ubisoft."
+%}
 
 São elementos importantes que geram oportunidades aos jogadores e trazem consigo a essência do jogo, como medo, responsabilidade e interatividade.
 
-### Segurança
+#### Segurança
 
-![Microsoft Xbox](https://news.xbox.com/pt-br/wp-content/uploads/sites/8/2021/11/Hellblade_-Senuas-Sacrifice-2021-08-04-01-00-58.jpg "Hellblade: Senua’s Sacrifice recebe aprimoramento para o PC")
+{% include image.html
+    src="https://news.xbox.com/pt-br/wp-content/uploads/sites/8/2021/11/Hellblade_-Senuas-Sacrifice-2021-08-04-01-00-58.jpg"
+    alt="Figura: Hellblade: Senua’s Sacrifice recebe aprimoramento para o PC."
+    caption="Figura: Hellblade: Senua’s Sacrifice recebe aprimoramento para o PC."
+%}
 
 Envolve aplicar características de realidade como morte, ferimentos, quedas e acidentes de forma lúdica, porém responsável.
 
 ### Desafio
 
-![JogaZera](https://jogazera.com.br/wp-content/uploads/2014/03/Dark-Souls-2-Review-770x433.jpg "Review – Dark Souls 2")  
+{% include image.html
+    src="https://jogazera.com.br/wp-content/uploads/2014/03/Dark-Souls-2-Review-770x433.jpg"
+    alt="Figura: Review – Dark Souls 2."
+    caption="Figura: Review – Dark Souls 2."
+%}
 
 Regras definem o grau de desafio (Fácil, Médio, Difícil, Muito Difícil e Impossível).
 
@@ -622,119 +696,163 @@ Definem a identidade do jogo.
 
 ### Divertimento
 
-![Microsoft Xbox](https://store-images.s-microsoft.com/image/apps.54644.65129518710082559.30d43137-919f-4215-820e-038b409fb968.0c2054cc-681a-4f51-b2ad-8bd0318ba61d "Unravel")  
+{% include image.html
+    src="https://store-images.s-microsoft.com/image/apps.54644.65129518710082559.30d43137-919f-4215-820e-038b409fb968.0c2054cc-681a-4f51-b2ad-8bd0318ba61d"
+    alt="Figura: Unravel."
+    caption="Figura: Unravel."
+%}
 
 É a experiência ou emoção que deriva do comportamento do jogador.
 
 Reflexo de um resultado positivo do jogo às ações do jogador.
 
-**[⬆ Início](#indice)**
+### Os tipos de jogos Eletrônicos
 
-<a name="5.2"></a>
-## 5.2 Os tipos de jogos Eletrônicos
+- RTS: Estratégia em tempo real, jogo não “roda” em torno de turnos;
 
-- RTS: Estratégia em tempo real, jogo não “roda” em torno de turnos.
-- MOBA: Arena de batalha multijogador online, jogador controla um personagem em uma batalha entre dois times aonde o objetivo é derrotar a base principal inimiga.
-- RPG: Jogo de interpretação, o jogador vivencia um personagem que segue uma determinada história predestinada. O jogador controla as ações de um personagem imerso num mundo definido, incorporando elementos. Os personagens possuem status: ataque, defesa, agilidade e inteligência. Existe o sistema de níveis, no qual a cada batalha/missão terminada, se recebe experiência, e uma certa quantidade os leva para um novo nível.
-- MMORPG: Assim como RPG, o jogo é de interpretação, que se desenvolve em torno de personagens, sendo feito para multijogadores, gênero de jogo na qual os jogadores criam e protagonizam seus personagens em torno de um mundo virtual online.
-- FPS: Centrado no combate com armas de fogo, aonde o jogador protagoniza o personagem em primeira pessoa.
-- Dungeon Crawler: Um dungeon crawler obrigatoriamente se passa em torno de personagens se aventurando e combatendo em localizações específicas.
-- Jogo eletrônico de ação: Jogos nas quais desafia a velocidade, reflexo e raciocínio rápido do jogador.
-- Jogo eletrônico de plataforma: Jogador se vê obrigado em passar de plataformas e obstáculos, enfrentando inimigos e coletando coisas.
-- Jogo eletrônico de luta: Como o próprio nome já diz, é o estilo de jogos em que os personagens se enfrentam em combates, seja desde troca de socos até partição de corpos com chapéus.
-- Shoot ‘em up: Subgênero na sua maioria de jogos eletrônicos de tiro, na qual o jogador vivencia um personagem, seja ele um serial killer (Hotline Miami) ou uma nave espacial, onde se tem como objetivo matar seus inimigos sem que seja acertado e subsequentemente morto.
-- Causal: Diferentemente dos jogos tradicionais que são mais complexos e exigem tempo e dedicação do jogador, os jogos casuais são simples e rápidos de aprender.
-- Open World (Mundo Aberto): Um mundo aberto é um nível ou jogo projetado como não linear com vastas áreas abertas e muitos caminhos para se chegar a um objetivo.
-- Simulação: Alguns jogos têm como objetivo simular o mundo real; outros possuem o objetivo de simular um mundo fictício.
-- On-line: Um jogador conectado à rede pode jogar com outros sem que ambos precisem estar no mesmo ambiente, o jogador pode desafiar adversários que estejam em outros lugares do mundo.
-- Corrida: O jogador participa de competições de corrida com qualquer tipo de veículo. Utilizam a perspectiva de jogo em primeira ou terceira pessoa. Podem ser baseados tanto em competições ou lugares reais quanto em ambientes fictícios.
-- Estratégia: É o tipo que enfatiza habilidades de pensamento e planejamento para alcançar a vitória. Os jogos enfatizam a estratégia, tática e algumas vezes desafios logísticos. Muitos jogos também oferecem desafios econômicos e exploração.
-- Aventura: A ênfase é focada no enredo e não na parte gráfica ou ação. Esses jogos normalmente incentivam o uso do raciocino lógico, para solucionar puzzles, e explorativo, para encontrar objetos específicos.
+- MOBA: Arena de batalha multijogador online, jogador controla um personagem em uma batalha entre dois times aonde o objetivo é derrotar a base principal inimiga;
+
+- RPG: Jogo de interpretação, o jogador vivencia um personagem que segue uma determinada história predestinada. O jogador controla as ações de um personagem imerso num mundo definido, incorporando elementos. Os personagens possuem status: ataque, defesa, agilidade e inteligência. Existe o sistema de níveis, no qual a cada batalha/missão terminada, se recebe experiência, e uma certa quantidade os leva para um novo nível;
+
+- MMORPG: Assim como RPG, o jogo é de interpretação, que se desenvolve em torno de personagens, sendo feito para multijogadores, gênero de jogo na qual os jogadores criam e protagonizam seus personagens em torno de um mundo virtual online;
+
+- FPS: Centrado no combate com armas de fogo, aonde o jogador protagoniza o personagem em primeira pessoa;
+
+- Dungeon Crawler: Um dungeon crawler obrigatoriamente se passa em torno de personagens se aventurando e combatendo em localizações específicas;
+
+- Jogo eletrônico de ação: Jogos nas quais desafia a velocidade, reflexo e raciocínio rápido do jogador;
+
+- Jogo eletrônico de plataforma: Jogador se vê obrigado em passar de plataformas e obstáculos, enfrentando inimigos e coletando coisas;
+
+- Jogo eletrônico de luta: Como o próprio nome já diz, é o estilo de jogos em que os personagens se enfrentam em combates, seja desde troca de socos até partição de corpos com chapéus;
+
+- Shoot ‘em up: Subgênero na sua maioria de jogos eletrônicos de tiro, na qual o jogador vivencia um personagem, seja ele um serial killer (Hotline Miami) ou uma nave espacial, onde se tem como objetivo matar seus inimigos sem que seja acertado e subsequentemente morto;
+
+- Causal: Diferentemente dos jogos tradicionais que são mais complexos e exigem tempo e dedicação do jogador, os jogos casuais são simples e rápidos de aprender;
+
+- Open World (Mundo Aberto): Um mundo aberto é um nível ou jogo projetado como não linear com vastas áreas abertas e muitos caminhos para se chegar a um objetivo;
+
+- Simulação: Alguns jogos têm como objetivo simular o mundo real; outros possuem o objetivo de simular um mundo fictício;
+
+- On-line: Um jogador conectado à rede pode jogar com outros sem que ambos precisem estar no mesmo ambiente, o jogador pode desafiar adversários que estejam em outros lugares do mundo;
+
+- Corrida: O jogador participa de competições de corrida com qualquer tipo de veículo. Utilizam a perspectiva de jogo em primeira ou terceira pessoa. Podem ser baseados tanto em competições ou lugares reais quanto em ambientes fictícios;
+
+- Estratégia: É o tipo que enfatiza habilidades de pensamento e planejamento para alcançar a vitória. Os jogos enfatizam a estratégia, tática e algumas vezes desafios logísticos. Muitos jogos também oferecem desafios econômicos e exploração;
+
+- Aventura: A ênfase é focada no enredo e não na parte gráfica ou ação. Esses jogos normalmente incentivam o uso do raciocino lógico, para solucionar puzzles, e explorativo, para encontrar objetos específicos;
+
 - Ação: Este desafia a velocidade, reflexo e raciocínio rápido do jogador. Tipicamente possuem características de conflitos com força física violenta, especialmente combate de tiros e/ou espadas como maior característica interativa.
 
-**[⬆ Início](#indice)**
-
-<a name="5.3"></a>
-## 5.3 O mercado de jogos eletrônicos
+### O mercado de jogos eletrônicos
 
 > A Sombra,
 >
 > Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou três dias desenvolvendo o jogo e acabou ganhando cerca de US $ 50 mil por dia em receita através de sua publicidade no jogo.”
 
-![Sengece.ce](https://sengece.org.br/wp-content/uploads/2016/12/flappy-bird1.jpg "Flappy Bird")
+{% include image.html
+    src="https://sengece.org.br/wp-content/uploads/2016/12/flappy-bird1.jpg"
+    alt="Figura: Flappy Bird."
+    caption="Figura: Flappy Bird."
+%}
 
-**[⬆ Início](#indice)**
+### Qual o  custo de produção de jogo eletrônico?
 
-<a name="5.4"></a>
-## 5.4 Qual o  custo de produção de jogo eletrônico?
+#### 2009
 
-**2009.**
-
-![https://pt.wikipedia.org/wiki/Call_of_Duty:_Modern_Warfare_2](https://upload.wikimedia.org/wikipedia/pt/d/db/Modern_Warfare_2_cover.PNG "Call of Duty: Modern Warfare 2")
+{% include image.html
+    src="https://upload.wikimedia.org/wikipedia/pt/d/db/Modern_Warfare_2_cover.PNG"
+    alt="Figura: Call of Duty: Modern Warfare 2."
+    caption="Figura: Call of Duty: Modern Warfare 2."
+%}
 
 - Call of Duty: Modern Warfare 2 - $200 million;
+
 - Star Wars: Clone Wars: Jedi Alliance - $15 million;
+
 - Left 4 Dead 2 - $25 million (marketing).
 
-**2010.**
+#### 2010
 
-![https://br.ign.com/god-of-war-iii-remastered/5744/review/review-god-of-war-3-remastered](https://sm.ign.com/t/ign_br/review/g/god-of-war/god-of-war-3-remastered-review_ecmu.1024.jpg "God of War III Remastered")
+{% include image.html
+    src="https://sm.ign.com/t/ign_br/review/g/god-of-war/god-of-war-3-remastered-review_ecmu.1024.jpg"
+    alt="Figura: God of War III Remastered."
+    caption="Figura: God of War III Remastered."
+%}
 
 - God of War III - $44 million.
 
-**2011.**
+#### 2011
 
-![https://jovemnerd.com.br/nerdbunker/battlefield-3-de-graca-pc/](https://uploads.jovemnerd.com.br/wp-content/uploads/2020/12/battlefield-3-de-graca-pc.jpg "Battlefield 3")
+{% include image.html
+    src="https://uploads.jovemnerd.com.br/wp-content/uploads/2020/12/battlefield-3-de-graca-pc.jpg"
+    alt="Figura: Battlefield 3."
+    caption="Figura: Battlefield 3."
+%}
 
 - Battlefield 3 - $2.75 million (Facebook marketing);
+
 - Dead Space 2 - $5-10 million (marketing);
+
 - Homefront - $50 million.
 
+#### 2012
 
-**2012.**
+{% include image.html
+    src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5jf0OVAu11cRMSmAX1P2yQ/0fbef4bc9eb901fd7b12aa0b79f32724/-GRFS-_Screenshot_-_6.jpg"
+    alt="Figura: Ghost Recon Future Soldier"."
+    caption="Figura: Ghost Recon Future Soldier"."
+%}
 
-![https://www.ubisoft.com/pt-br/game/ghost-recon/future-soldier#39Ol19xBe9jHOV3HmYkl8K](https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5jf0OVAu11cRMSmAX1P2yQ/0fbef4bc9eb901fd7b12aa0b79f32724/-GRFS-_Screenshot_-_6.jpg "Ghost Recon Future Soldier")
 - Ghost Recon: Future Soldier - €50 million.
 
-**2013.**
+#### 2013
 
-![https://www.techtudo.com.br/review/disney-infinity.ghtml](https://s2.glbimg.com/5Zw6bFIK4an2e4c22X98N6f3jMw=/0x0:300x200/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/c/T/ETBWDpSKidhOOZ9d8ZXQ/glbimg.com-po-tt-f-300x200-2013-10-18-cover-large.jpg "Disney Infinity")
+{% include image.html
+    src="https://s2.glbimg.com/5Zw6bFIK4an2e4c22X98N6f3jMw=/0x0:300x200/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/c/T/ETBWDpSKidhOOZ9d8ZXQ/glbimg.com-po-tt-f-300x200-2013-10-18-cover-large.jpg"
+    alt="Figura: Disney Infinity."
+    caption="Figura: Disney Infinity."
+%}
 
 - Disney Infinity - $100 million.
 
-**2014.**
+#### 2014
 
-![https://pt.wikipedia.org/wiki/Destiny_(jogo_eletr%C3%B4nico)](https://upload.wikimedia.org/wikipedia/pt/b/be/Destiny_box_art.png "Destiny")
+{% include image.html
+    src="https://upload.wikimedia.org/wikipedia/pt/b/be/Destiny_box_art.png"
+    alt="Figura: Destiny."
+    caption="Figura: Destiny."
+%}
 
 - Destiny - $140 million;
+
 - Watch Dogs - $68 million.
 
-**[⬆ Início](#indice)**
-
-<a name="5.5"></a>
-## 5.5 Complexidade e valor de produção
+### Complexidade e valor de produção
 
 A seguir será apresentado quando custa estimativamente produzir um jogo digital por ordem de complexidade e custo.
 
 - Mini Games - $3K to $20K
   - Ping-pong e Pac-man clones
+
 - Simple 2D Casual Games -  $20K to $60K
   - Red Ball, Stack
+
 - Mid-level Mobile Games - $60K to $120K
   - Angry Birds
+
 - High-level Mobile Games - $120K to $250K
   - Angry Birds series
+
 - AAA Games -?
 
-[List of most expensive video games to develop](https://en.wikipedia.org/wiki/List_of_most_expensive_video_games_to_develop)
+- [List of most expensive video games to develop](https://en.wikipedia.org/wiki/List_of_most_expensive_video_games_to_develop)
 
-**[⬆ Início](#indice)**
+## Evolução dos jogos eletrônicos
 
+***
 
-<a name="5.6"></a>
-## 6. Evolução dos jogos eletrônicos
-
-### 1. Primeira geração (1971-1977)
+### Primeira geração (1971-1977)
 
 A linha começa em 1972, com o Odyssey Magnavox, em sua versão conhecida como "Brown Box". O engenheiro americano Ralph Baer desenhou o protótipo em meados de 1966, mas só em 1971 ele foi licenciado para a Magnavox e lançado no ano seguinte.
 
@@ -744,88 +862,143 @@ Estamos falando dos primórdios, então era bem primitivo. Sem troca de cartucho
 
 O Coleco Telstar foi outro destaque da primeira geração, produzido entre 1976 e 1978. Com preço mais em conta, conseguiu espaço com clones de Pong, e a escassez de fabricantes de chips na ocasião os ajudou a liderar o mercado. Como? Fizeram um grande pedido e a encomenda foi 100% atendida antes dos outros; enquanto tinham material para produzir, os concorrentes estavam engessados.
 
-- Lógica do jogo digital baseada em transistor.
-- Todo jogo é acompanhado em uma tela única e fixa.
-- Objetos móveis (posteriormente referidos como sprites) aparentam ser linhas básicas, pontos ou quadradinhos de píxel.
-- Gráficos e cores são monocromáticas (preto e branco sem tons de cinza).
-- O som é gerado em forma de ondas quadradas, contendo um ou nenhum canal independente.
-- Ausência de conteúdos da segunda geração como: a lógica dos microprocessadores, cartuchos de ROM, tela dividida para janelas e cada jogador, tecnologia de sprites, mais de um canal independente de som, e mais cores na tela.
+- Lógica do jogo digital baseada em transistor;
+
+- Todo jogo é acompanhado em uma tela única e fixa;
+
+- Objetos móveis (posteriormente referidos como sprites) aparentam ser linhas básicas, pontos ou quadradinhos de píxel;
+
+- Gráficos e cores são monocromáticas (preto e branco sem tons de cinza);
+
+- O som é gerado em forma de ondas quadradas, contendo um ou nenhum canal independente;
+
+- Ausência de conteúdos da segunda geração como: a lógica dos microprocessadores, cartuchos de ROM, tela dividida para janelas e cada jogador, tecnologia de sprites, mais de um canal independente de som, e mais cores na tela;
 
 - Jogo Pong, desenvolvido pela ATARI, consiste em um jogo onde simula uma partida de Ping Pong.
 
-![https://www.techtudo.com.br/noticias/2016/03/conheca-pong-o-primeiro-videogame-lucrativo-da-historia.ghtml](https://s2.glbimg.com/hmam5dqwykVbv8_R0ly4dDtaZG8=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/J/Q/QSQBQYTuWJL9U9qJKc9Q/2016-03-02-pong.jpg "Figura: Conheça Pong, o primeiro videogame lucrativo da história - https://www.techtudo.com.br/noticias/2016/03/conheca-pong-o-primeiro-videogame-lucrativo-da-historia.ghtml")
+{% include image.html
+    src="https://s2.glbimg.com/hmam5dqwykVbv8_R0ly4dDtaZG8=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/J/Q/QSQBQYTuWJL9U9qJKc9Q/2016-03-02-pong.jpg"
+    alt="Figura: Conheça Pong."
+    caption="Figura: Conheça Pong, o primeiro videogame lucrativo da história - <https://www.techtudo.com.br/noticias/2016/03/conheca-pong-o-primeiro-videogame-lucrativo-da-historia.ghtml>."
+%}
 
-> *Figura: Conheça Pong, o primeiro videogame lucrativo da história - https://www.techtudo.com.br/noticias/2016/03/conheca-pong-o-primeiro-videogame-lucrativo-da-historia.ghtml .*
-
-
-### 2. Segunda geração (1978 - 1983)
+### Segunda geração (1978 - 1983)
 
 Geração onde os consoles apresentavam processadores de 4 a 8 bit. Os jogos do ATARI são os mais populares dessa época, como exemplo o Popeye e Pacman.
 
-![https://www.cnnbrasil.com.br/entretenimento/pac-man-completa-40-anos-e-criador-revela-origem-do-icone-dos-videogames/](https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/5363_7D66C7F21A0BD4A2.jpg?w=876&h=484&crop=1 "Pac-Man")
+{% include image.html
+    src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/5363_7D66C7F21A0BD4A2.jpg?w=876&h=484&crop=1"
+    alt="Figura: Pac-Man."
+    caption="Figura: Pac-Man."
+%}
 
-
-### 3. Terceira geração (1984 - 1990)
+### Terceira geração (1984 - 1990)
 
 Geração onde teve a estreia do clássico NES (Nintendo Entertainment System) da nintendo e também o Master System da SEGA, conseguindo chegar em algumas produções de jogos em 16 bits. Exemplos de jogos de destaques dessa geração são o Sonic e Super Mário Bros. 1, 2 e 3, esses últimos que deram início ao mundo extraordinário de fases de aventuras e plataformas do mascote da Nintendo.
 
 Jogos da Terceira Geração:
+
 - Tetris - Lançado em 1984, Pentamino;
+
 - Legend of Zelda 1986,  - LINK;
+
 - Mario, Super mario bros 1985, 6,5 MILHÕES DE CÓPIAS VENDIDAS;
+
 - FINAL FANTASY III - 1990 - Sistema de classes;
+
 - MICHAEL JACKSON’S MOONWALKER - 1990;
 
-![https://pt.wikipedia.org/wiki/Tetris](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Emacs_Tetris_vector_based_detail.svg/300px-Emacs_Tetris_vector_based_detail.svg.png "Tetris")  
+{% include image.html
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Emacs_Tetris_vector_based_detail.svg/300px-Emacs_Tetris_vector_based_detail.svg.png"
+    alt="Figura: Tetris."
+    caption="Figura: Tetris."
+%}
 
-### 4. Quarta geração (1991 - 1999)
+### Quarta geração (1991 - 1999)
 
 A quarta geração consolidou de vez a era dos 16 bits, com a evolução da Nintendo com o Super Nintendo e da SEGA com o Mega drive. Exemplos como  Super Mario World, Bomberman, The King of Fighters e Mortal Kombat foram uns dos clássicos mais vendidos da época. Os dois últimos são eternizados como grandes jogos de lutas, o mortal kombat caracterizado pela sua gráfica de violências e sangues e o KOF caracterizado pelas suas partidas em trios.
 
  Jogos da quarta Geração:
+
 - Mega Drive;
+
 - Neo Geo;
+
 - Super Nintendo;
+
 - Super Mario World;
+
 - Street Fighter II;
+
 - Final Fantasy VII;
+
 - Sonic the Hedgehog;
+
 - Donkey Kong Country;
+
 - Mortal Kombat;
+
 - Resident Evil;
+
 - Doom (1993);
+
 - The legend of Zelda:Ocarina of Time;
+
 - Super Mario 64;
+
 - Crash Bandicoot;
+
 - Diablo;
+
 - Tomb Raider;
+
 - Killer Instinct;
+
 - Starcraft;
 
-![https://en.wikipedia.org/wiki/Tomb_Raider:_The_Last_Revelation](https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Tomb_Raider_-_The_Last_Revelation.png/220px-Tomb_Raider_-_The_Last_Revelation.png "Tomb_Raider_-_The_Last_Revelation")
+{% include image.html
+    src="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Tomb_Raider_-_The_Last_Revelation.png/220px-Tomb_Raider_-_The_Last_Revelation.png"
+    alt="Figura: Tomb_Raider The_Last_Revelation."
+    caption="Figura: Tomb_Raider The_Last_Revelation."
+%}
 
-### 5. Quinta Geração (2000 - Hoje)
+### Quinta Geração (2000 - Hoje)
 
 A quinta geração estabeleceu a era dos 32 bits e posteriormente com o 64 bits, fazendo a todos passarem 24 horas jogando com os amigos no multiplayer local o excelente FPS e um dos pioneiros do gênero, 007 Goldeneye do Nintendo 64. Também foi o início da consolidação dos portáteis como o game boy, também da Nintendo. Posteriormente com as inevitáveis evoluções da geração, conhecemos também os consoles da SEGA Dreamcast,  SONY PlayStations 1,2,3 e 4, da Microsoft Xbox, 360 e One e também a grande popularidade e avanços gráficos dos games para PC que existem até a atualidade.
 Alguns exemplos de jogos dessas gerações são 007 Goldeneye, Super Mário 64, Mario Kart, Counter Strike, LOL, Metal Gear Solid, God Of War, Grand Theft Auto, The Last of US  e Red Dead Redemption.
 
-![https://www.comboinfinito.com.br/principal/the-last-of-us-part-2-fas-lamentam-que-o-game-nao-tenha-sido-lancado-hoje/](https://www.comboinfinito.com.br/principal/wp-content/uploads/2020/02/The-Last-of-Us-Part-2-1-790x444.jpg)
+{% include image.html
+    src="https://www.comboinfinito.com.br/principal/wp-content/uploads/2020/02/The-Last-of-Us-Part-2-1-790x444.jpg"
+    alt="Figura: The Last of Us 2."
+    caption="Figura: The Last of Us 2."
+%}
 
-**[⬆ Início](#indice)**
+## Era dos Videogames
 
-<a name="5.7"></a>
-## 5.7 Era dos Videogames
+***
 
 ### Nintendo
 
 A Nintendo, tradicional e inovadora, começou nos arcades (fliperamas) e estreou em 1983 com o console de mesa NES. Em sequência fez o SNES, o Nintendo 64, o GameCube, o Wii , o Wii U e por último o Nintendo Switch.Líder do mercado de portáteis com Game Boy, em seguida Game Boy Color, Game Boy Advance e o console portátil mais vendido da história, o tão conhecido Nintendo DS, no inicio de 2011 lançou o seu novo portátil Nintendo 3DS, que traz um inovador sistema de jogos 3D.Lançou o Wii com uma inovadora jogabilidade com o controle Wiimote, que fez com que ela voltasse a ser a líder do mercado. Na E3 2011 a Nintendo mostrou seu mais novo console, o Wii U, sucessor do Wii, lançado em 18 de Novembro de 2012. O poder gráfico do novo console é superior ao dos consoles de sétima geração.
 
+{% include image.html
+    src="https://www.comboinfinito.com.br/principal/wp-content/uploads/2020/02/The-Last-of-Us-Part-2-1-790x444.jpg"
+    alt="Figura: The Last of Us 2."
+    caption="Figura: The Last of Us 2."
+%}
+
 ![https://gamerview.com.br/artigos/top-10-videogames-nintendo](https://gamerview.com.br/wp-content/uploads/2021/09/Top-10-Nintendo-DS.jpg.webp "Nintendo DS")
 
 ### Sony
+
 A Sony é líder do mercado de videogames domésticos (com o seu PlayStation 2). Estreou em 1994 com o PlayStation, em 2000 lançou o console doméstico mais vendido da história, o PlayStation 2 e em 2006 lançou o PlayStation 3.Em 2005 lançou seu primeiro console portátil, o PSP, e no quarto trimestre de 2011 lançou o PlayStation Vita, continuação da sua linha de portáteis.No início de 2013 anunciou o novo console da empresa, o PlayStation 4, console da oitava geração, que foi lançado no dia 15 de Novembro de 2013 na América do Norte.
 
-![https://tecnoblog.net/sobre/sony/playstation-5/](https://files.tecnoblog.net/wp-content/uploads/2020/11/playstation_5_produto-700x700.png "PS5")
+
+{% include image.html
+    src="https://files.tecnoblog.net/wp-content/uploads/2020/11/playstation_5_produto-700x700.png"
+    alt="Figura: PS5."
+    caption="Figura: PS5."
+%}
 
 ### Microsoft
 
@@ -833,26 +1006,41 @@ A Microsoft é uma empresa gigante de software e hardware. Estreou-se no mercado
 
 A empresa tem um departamento dedicado ao desenvolvimento de jogos, a Microsoft Games Studios, onde são feitos os jogos das séries Age of Empires, Fable, Dungeon Siege, Halo, Supreme Commander, Forza Motorsport, Microsoft Flight Simulator, entre outros.
 
-![https://www.xbox.com/pt-BR/consoles](https://compass-ssl.xbox.com/assets/03/8b/038bfc7b-2ebf-4e7f-bd41-c76c8e6d2b8b.jpg?n=10202018_Image-1084_Fam_1920x944.jpg "Xbox XS")
+{% include image.html
+    src="https://compass-ssl.xbox.com/assets/03/8b/038bfc7b-2ebf-4e7f-bd41-c76c8e6d2b8b.jpg?n=10202018_Image-1084_Fam_1920x944.jpg"
+    alt="Figura: Xbox XS."
+    caption="Figura: Xbox XS."
+%}
 
 ### Jogos de consoles (Xbox, PS)
 
-- The Last Of Us (PS3, PS4)
-- Franquia Killzone (PS2, PS3, PS4)
-- God Of War (PS2, PS3, PSP, PS4)
-- Infamous (PS2,PS3,PS4)
-- Forza Motosport (Xbox Classic, Xbox 360, Xbox One)
-- Forza Horizon (Xbox 360, Xbox One)
-- Halo (Xbox Classic, Xbox 360, Xbox One)
-- Gears Of War (Xbox Classic, Xbox 360, Xbox One)
+- The Last Of Us (PS3, PS4);
+
+- Franquia Killzone (PS2, PS3, PS4);
+
+- God Of War (PS2, PS3, PSP, PS4);
+
+- Infamous (PS2,PS3,PS4);
+
+- Forza Motosport (Xbox Classic, Xbox 360, Xbox One);
+
+- Forza Horizon (Xbox 360, Xbox One);
+
+- Halo (Xbox Classic, Xbox 360, Xbox One);
+
+- Gears Of War (Xbox Classic, Xbox 360, Xbox One).
 
 ### Jogos de consoles (Nintendo)
 
-- The Legend Of Zelda  (NES, SNES,GB, GBC, GBA, N64, GC, DS, 3DS, Wii, WiiU, Nintendo Switch)
-- Super Mario (NES, SNES, GB, GBA, N64, GC, DS, 3DS, Wii, WiiU, Nintendo Switch)
-- Donkey Kong (NES, SNES, GB, GBA, N64, GB, GC, 3DS, Wii, WiiU, Nintendo Switch)
-- Star Fox (SNES, N64, 3DS, WiiU)
-- Pokemon (NES, SNES, GB, GBC, GBA, GC, N64, Wii, WiiU, Nintendo Switch)
+- The Legend Of Zelda  (NES, SNES,GB, GBC, GBA, N64, GC, DS, 3DS, Wii, WiiU, Nintendo Switch);
+
+- Super Mario (NES, SNES, GB, GBA, N64, GC, DS, 3DS, Wii, WiiU, Nintendo Switch);
+
+- Donkey Kong (NES, SNES, GB, GBA, N64, GB, GC, 3DS, Wii, WiiU, Nintendo Switch);
+
+- Star Fox (SNES, N64, 3DS, WiiU);
+
+- Pokemon (NES, SNES, GB, GBC, GBA, GC, N64, Wii, WiiU, Nintendo Switch).
 
 ### Jogos para computador
 
@@ -861,21 +1049,35 @@ Os HDs ficaram maiores, as memórias se tornaram mais poderosas, as placas de so
 O que antes seria a plataforma perfeita apenas para FPS, RTS e Adventures, tornou-se a plataforma mais versátil e poderosa do mercado.
 
 Principais jogos/Franquias:
+
 - Dota 2;
+
 - Point Blank;
+
 - Fortnite;
+
 - Playerunknown's Battlegrounds;
+
 - H1Z1;
+
 - Paladins;
+
 - Grand Theft Auto V;
+
 - Tom Clancy's Rainbow Six Siege.
 
 Menções honrosas:
+
 - GTA;
+
 - Civilization;
+
 - Age of Empires;
+
 - The Elder Scrolls;
+
 - Assassin’s creed;
+
 - Portal;
 
 ### Jogos para celular
@@ -888,13 +1090,11 @@ Nova era com o Java...
 
 Nokia não conseguiu sobreviver à chegada dos primeiro celulares com suporte ao Java (J2ME), até mesmo pessoas comuns – com algum talento – poderiam programar seus próprios jogos e instalar no celular. Mas naquela época os games ainda não tinham muita ação, limitando-se a títulos no estilo "bichinhos virtuais" ou aventuras em texto.
 
-
 Nasce a Gameloft...
 
 Várias empresas começavam a surgir, uma delas é a Gameloft, companhia criada pelos irmãos Guillemot – os mesmos fundadores da Ubisoft –, que buscavam emplacar com novos títulos para celulares.
 
 A partir de 2002 a empresa já criava seus próprios games, apresentando uma evolução consistente nos próximos lançamentos.
-
 
 Jogos em 3D e a era de ouro...
 
@@ -907,11 +1107,15 @@ A Nokia deu início ao projeto envolvendo o Symbian, um sistema operacional que 
 Apesar de ter feito pouco sucesso, esse dispositivo mostrou que a ideia de criar um aparelho com capacidades para jogos era essencial.
 O iPhone 3GS e o iPhone 4, por exemplo, eram tidos como excelentes plataformas para jogos. Foi no iPhone 3GS que surgiu o famoso Andry Birds.
 
+## Jogos mobile
 
-<a name="5.8"></a>
-## 8.Jogos mobile
+***
 
-![gamesindustry.biz](https://cdn.gamer-network.net/2019/articles/2019-12-11-12-55/ab.jpg/EG11/resize/646x-1/quality/80/format/jpg "How Angry Birds broke the limits for mobile games")
+{% include image.html
+    src="v"
+    alt="Figura: How Angry Birds broke the limits for mobile games."
+    caption="Figura: How Angry Birds broke the limits for mobile games."
+%}
 
 São jogos para plataformas móveis como por exemplo celulares ou outros dispositivos móveis.
 
@@ -928,44 +1132,63 @@ Processo de ganhar dinheiro com seu jogo de celular seguindo algumas regras.
 ### Modelos de monetização
 
 - Gratuito;
+
 - Receita a longo prazo ;
+
 - Pago;
+    Receita imediata.
 
-  Receita imediata.
 - DLC;
-
   Extensões de experiência.
+
 - Pacotes;
-
   Itens, objetos e facilidades.
-- Modificações;
 
+- Modificações;
   Customização de personagens ou do mundo do jogo.
+
 - Com anúncios;
 
   De acordo com a InMobi, é mais provável que os usuários de dispositivos móveis cliquem em anúncios em um aplicativo para dispositivos móveis em vez de em sites para dispositivos móveis.
+
 - Rede de anúncios;
 
   As redes de anúncios ajudam a conectar seu jogo a grandes bancos de dados de anunciantes, ajudando os anunciantes a atingir seu público-alvo ideal, com você ganhando dinheiro conectando os dois. Existem muitas redes de anúncios para jogos e aplicativos para dispositivos móveis, abaixo estão algumas das principais para conferir.
-  - MoPub
-  - AdMob
-  - Media.net
-  - AirPush
-  - Unity Ads
-  - InMobi
-  - StartApp
-  - MobAds
-  - Chartboost
+
+  - MoPub;
+
+  - AdMob;
+
+  - Media.net;
+
+  - AirPush;
+
+  - Unity Ads;
+
+  - InMobi;
+
+  - StartApp;
+
+  - MobAds;
+
+  - Chartboost;
 
 ### Tipos de anúncios
 
 - Banners;
+
 - Entre níveis;
+
 - Mais botões;
+
 - Envio de mensagens;
+
 - Vendendo dados;
+
 - Incentivando Downloads;
+
 - Cupons de ofertas;
+
 - Vídeos;
 
 ### Qual o melhor modelo?
@@ -973,27 +1196,27 @@ Processo de ganhar dinheiro com seu jogo de celular seguindo algumas regras.
 “...não há uma resposta certa para isso, já que tudo depende do seu jogo. Estatisticamente, as compras no aplicativo geram mais receita em jogos e aplicativos para dispositivos móveis, mas, se não fizer sentido para o seu jogo ter compras no aplicativo, não faça isso.
 Além disso, muitos jogos para dispositivos móveis combinam e combinam estratégias diferentes (por exemplo, oferecer recompensas por dinheiro, como compras na loja ou gratuitamente, em troca de assistir a um anúncio em vídeo). Então, isso é algo que você precisa considerar.”
 
-**[⬆ Início](#indice)**
+## CAPÍTULO 6 - Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?
 
 ***
 
-<a name="6"></a>
-## CAPÍTULO 6 - Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?
+### Introdução
 
-<a name="6.1"></a>
-## 6.1 Introdução
-
-![Figura: Qual sua opinião sobre o vício em games ser considerado um distúrbio mental? - https://www.campograndenews.com.br/lado-b/games/qual-sua-opiniao-sobre-o-vicio-em-games-ser-considerado-um-disturbio-mental](https://cdn6.campograndenews.com.br/uploads/noticias/2020/03/10/2yc2mrado5gks.jpg "Qual sua opinião sobre o vício em games ser considerado um distúrbio mental?")
-
-> Figura: Qual sua opinião sobre o vício em games ser considerado um distúrbio mental? - https://www.campograndenews.com.br/lado-b/games/qual-sua-opiniao-sobre-o-vicio-em-games-ser-considerado-um-disturbio-mental .
+{% include image.html
+    src="https://cdn6.campograndenews.com.br/uploads/noticias/2020/03/10/2yc2mrado5gks.jpg"
+    alt="Figura: Qual sua opinião sobre o vício em games?"
+    caption="Figura: Qual sua opinião sobre o vício em games ser considerado um distúrbio mental? - <https://www.campograndenews.com.br/lado-b/games/qual-sua-opiniao-sobre-o-vicio-em-games-ser-considerado-um-disturbio-mental>."
+%}
 
 O vicio de jogos é discutido a muito tempo e já foi classificado como uma [doença pela OMS](https://www.uol.com.br/vivabem/reportagens-especiais/o-vicio-em-jogos-e-considerado-disturbio-mental-quais-os-perigos-da-doenca/#page1), mas a pergunta de nosso título aponta outro vício ou a falta desse, vício em trabalho, será que  você pode ser viciado em trabalho e o trabalho pode ser classificado como uma doença pela OMS [[workaholic](http://setocupacional.com.br/site/fique-por-dentro/workaholic-vicio-em-trabalho-risco-a-saude-consequencias-causas-tratamentos/)]?, este tema é na verdade uma provocação para que possamos discutir aspectos relacionados a como os videogames são construídos por equipes de especialistas que visam manter o jogador o mais tempo possível conectado ou jogando, também vamos correlacionar as técnicas usadas pelos especialistas de jogos que são usadas para "motivar" as pessoas para um determinado trabalho.
 
-**Gamificação.**
+#### Gamificação
 
-![Figura: Gamificação: saiba o que é e como esse método funciona - https://www.weblayer.com.br/gamificacao/](https://www.weblayer.com.br/wp-content/uploads/2016/11/Gamificacao-saiba-o-que-e-e-como-esse-metodo-funciona-1080x641.jpg "Figura: Gamificação: saiba o que é e como esse método funciona - https://www.weblayer.com.br/gamificacao/")
-
-> Figura: Gamificação: saiba o que é e como esse método funciona - https://www.weblayer.com.br/gamificacao/ .
+{% include image.html
+    src="https://www.weblayer.com.br/wp-content/uploads/2016/11/Gamificacao-saiba-o-que-e-e-como-esse-metodo-funciona-1080x641.jpg"
+    alt="Figura: Qual sua opinião sobre o vício em games?"
+    caption="Figura: Gamificação: saiba o que é e como esse método funciona - <https://www.weblayer.com.br/gamificacao/>."
+%}
 
 Não podemos continuar sem antes entender o modelo de Gamificação que é a aplicação das estratégias dos jogos nas atividades do dia a dia, com objetivo de aumentar o engajamento dos participantes, ou seja fazer com que colaborador, cliente ou pessoa que recebe o serviço fique cada vez mais conectado ou trabalhando no serviço [[PUCPR](https://posdigital.pucpr.br/blog/gamificacao-engajamento "O que é gamificação e como ela aumenta o engajamento")].
 
@@ -1031,12 +1254,13 @@ Algumas características dos jogos que a Gamificação aplica são:
 
 As características aplicadas em ambientes onde é necessário potencializar as atividades realizadas por um determinado grupo de pessoas, prepararam um terreno para um ambiente produtivo, pois dão metas, classificam e criam recompensas para os envolvidos. Um dos motivos de aplicar esse método é busca da felicidade no trabalho pois segundo um estudo realizado pela Universidade da Califórnia um trabalhador feliz é, em média, 31% mais produtivo, três vezes mais criativo e vende 37% a mais em comparação aos outros[1](https://www.em.com.br/app/noticia/emprego/2019/09/16/interna_emprego,1085530/funcionarios-felizes-sao-em-media-31-mais-produtivos-diz-pesquisa.shtml), mas para que isso? para responder temos que entender porque trabalhamos e qual o papel do trabalho nas nossas vidas.
 
+### O que é trabalho?
 
-## O que é trabalho?
-
-![Figura: Aprenda sobre a História do Trabalho - https://beduka.com/blog/materias/sociologia/historia-do-trabalho/](https://beduka.com/blog/wp-content/uploads/2019/06/Historia-do-Trabalho.jpg "Figura: Aprenda sobre a História do Trabalho - https://beduka.com/blog/materias/sociologia/historia-do-trabalho/")
-
-> Figura: Aprenda sobre a História do Trabalho - https://beduka.com/blog/materias/sociologia/historia-do-trabalho/ .
+{% include image.html
+    src="https://beduka.com/blog/wp-content/uploads/2019/06/Historia-do-Trabalho.jpg"
+    alt="Figura: Aprenda sobre a História do Trabalho."
+    caption="Figura: Aprenda sobre a História do Trabalho - <https://beduka.com/blog/materias/sociologia/historia-do-trabalho/>."
+%}
 
 "Em nosso cotidiano, a palavra trabalho está relacionada com alguma **atividade ou serviço desempenhado** por um indivíduo que exige ou não esforço físico." [[2](https://brasilescola.uol.com.br/o-que-e/fisica/o-que-e-trabalho.htm)].
 
@@ -1050,14 +1274,16 @@ homem e a natureza”, é necessidade eterna do mundo homens, possuindo um cará
 
 Portanto, trabalho é uma atividade ou serviço desempenhado para transformar a natureza e assim saciar as necessidades do ser humano e socializá-lo. Criando objetivos comuns para os indivíduos, o sujeito se objetiva através do trabalho.
 
+### Por que trabalhamos?
 
-## Por que trabalhamos?
-
-![Figura: NRs 18 (PCMAT), 24 (CONFORTO) e 17 (ERGONOMIA) – PORQUE TRABALHAMOS? - https://nrfacil.com.br/blog/?p=4776](https://nrfacil.com.br/blog/wp-content/uploads/2012/05/trabalhador005.jpg "Figura: NRs 18 (PCMAT), 24 (CONFORTO) e 17 (ERGONOMIA) – PORQUE TRABALHAMOS? - https://nrfacil.com.br/blog/?p=4776")
-
-> Figura: NRs 18 (PCMAT), 24 (CONFORTO) e 17 (ERGONOMIA) – PORQUE TRABALHAMOS? - http://nrfacil.com.br/blog/?p=4776
+{% include image.html
+    src="https://nrfacil.com.br/blog/wp-content/uploads/2012/05/trabalhador005.jpg"
+    alt="Figura: Aprenda sobre a História do Trabalho."
+    caption="Figura: NRs 18 (PCMAT), 24 (CONFORTO) e 17 (ERGONOMIA) – PORQUE TRABALHAMOS? - <http://nrfacil.com.br/blog/?p=4776>"
+%}
 
 Por que trabalhamos? Talvez seja uma resposta simples: Para  "ter" coisas!
+
 Por parecer tão simples, vamos buscar a origem da palavra para tentar entender melhor a pergunta.
 
 Vimos anteriormente que trabalho é uma atividade humana com valores sociais, mas o significado da palavra tem uma origem no mínimo interessante:
@@ -1080,12 +1306,13 @@ Para sermos e nos sentirmos humanos, úteis, valorizados e construirmos nossas r
 
 A resposta é: trabalhamos porque o trabalho é uma extensão do nosso ser e consequentemente buscamos reconhecimento por isso, seja ele financeiro ou social.
 
-<a name="6.2"></a>
-## 6.2 Colocando Você na Caixa de Skinner
+### Colocando Você na Caixa de Skinner
 
-![Figura: Caixa de Skinner: O centro do Condicionamento Operante - https://psicoativo.com/2016/08/caixa-de-skinner-o-centro-do-condicionamento-operante.html](https://psicoativo.com/wp-content/uploads/2016/08/caixa-de-skinner.jpg "Figura: Caixa de Skinner: O centro do Condicionamento Operante - https://psicoativo.com/2016/08/caixa-de-skinner-o-centro-do-condicionamento-operante.html")
-
-> Figura: Caixa de Skinner: O centro do Condicionamento Operante - https://psicoativo.com/2016/08/caixa-de-skinner-o-centro-do-condicionamento-operante.html .
+{% include image.html
+    src="https://psicoativo.com/wp-content/uploads/2016/08/caixa-de-skinner.jpg"
+    alt="Figura: Caixa de Skinner."
+    caption="Figura: Caixa de Skinner: O centro do Condicionamento Operante - <https://psicoativo.com/2016/08/caixa-de-skinner-o-centro-do-condicionamento-operante.html>"
+%}
 
 Se você já foi viciado em um jogo ou conhece alguém que era, este [artigo é realmente perturbador](https://www.gamasutra.com/view/feature/3085/behavioral_game_design.php?page=1) . Ele foi escrito por um pesquisador de jogos da Microsoft sobre como fazer videogames que prendem os jogadores, quer eles gostem ou não. Ele tem doutorado em ciências comportamentais e do cérebro.
 
@@ -1107,8 +1334,8 @@ Esta é uma grande fonte de controvérsia no mundo do design de jogos no momento
 
 Por que isso funcionaria, quando as "recompensas" são apenas objetos digitais que na verdade não existem? Nós vamos...
 
-<a name="6.3"></a>
-## 6.3 Criando alimento virtual para você comer
+#### Criando alimento virtual para você comer
+
 A maioria dos elementos de jogos baseados em vícios são baseados neste fato:
 
 Seu cérebro trata itens e mercadorias no mundo dos videogames como se fossem reais. Porque eles são.
@@ -1127,9 +1354,7 @@ Claro, praticamente todos os jogos dos últimos 25 anos incluíram itens que voc
 
 Como o artigo do cara da Microsoft prova, os desenvolvedores sabem que estão usando esses objetos como pellets em uma caixa de Skinner. Nesse momento é tudo...
 
-
-<a name="6.4"></a>
-## 6.4 Fazendo você pressionar a alavanca
+#### Fazendo você pressionar a alavanca
 
 Então imagine o rato em sua caixa. Ou, já que sou um desses jogadores e não gosto de me ver como um rato, imagine um hamster adorável. Talvez ele possa falar, e é dublado por Chris Rock.
 
@@ -1155,8 +1380,8 @@ BF Skinner sabia. Ele chamou esse processo de treinamento de "modelagem". Pequen
 
 Quando chegar a esse ponto, você ainda pode chamar essa atividade de "jogo"? É mais como coçar uma erupção cutânea. E fica pior...
 
-<a name="6.5"></a>
-## 6.5 Mantendo você pressionando…para sempre
+#### Mantendo você pressionando…para sempre
+
 Agora, a grande diferença entre nosso hamster de caixa Skinner e um humano real é que nós humanos podemos obter nossas pelotas em outro lugar. Se um jogo realmente não fosse nada além de clicar em uma caixa para obter recompensas aleatórias, eventualmente o largaríamos para jogar outro jogo. Os seres humanos precisam de um objetivo de longo prazo para nos manter, e o mundo dos jogos viciantes transformou isso em ciência. As técnicas incluem...
 
 Facilitando-os em:
@@ -1199,14 +1424,12 @@ Mas esses elementos de jogo "batem na alavanca até você desmaiar de fome" se d
 
 É por isso que alguns escritores criticaram a Blizzard quando o WoW introduziu um novo sistema de "conquistas" há alguns anos. Essas são recompensas vinculadas à realização de tarefas aleatórias e inúteis, repetidas vezes (como pescar até pegar mil peixes). Nenhum conteúdo novo, nenhum elemento de prática, descoberta ou domínio foi incluído. Apenas uma esteira virtual.
 
-
 Ou uma roda de hamster.
 
 É claro que os desenvolvedores de jogos (e vários comentaristas, tenho certeza) apontariam corretamente que ninguém está obrigando os jogadores a fazer isso. Por que os humanos se colocariam voluntariamente no modo de hamster de laboratório? Bem, é tudo sobre...
 
+#### Fazendo com você chame a Skinner Box de casa
 
-<a name="6.6"></a>
-## 6.6 Fazendo com você chame a Skinner Box de casa
 Você gosta do seu emprego?
 
 Considerando que metade de vocês está lendo isso no trabalho, acho que não. E isso nos leva à única coisa que torna o vício em jogos - e o vício em geral - tão incrivelmente difícil de vencer.
@@ -1225,18 +1448,17 @@ Observe que as calças não são necessárias para a satisfação no trabalho.
 
 A maioria das pessoas, particularmente na demografia de jovens jogadores, não tem isso em seus empregos ou em qualquer aspecto de suas vidas cotidianas. Mas os videogames mais viciantes são projetados especificamente para nos dar todos os três... ou pelo menos a ilusão de todos os três.
 
-**Autonomia:**
+#### Autonomia
 
 Você escolhe suas missões ou quais plantações de Farmville plantar. Inferno, você até escolhe seu próprio corpo, espécie e talentos.
 
-
 Irritar seus amigos do Facebook com atualizações é um talento realmente irritante.
 
-**Complexidade:**
+#### Complexidade
 
 Os jogadores farão um grind monótono especificamente porque não parece um grind . Lembre-se da complicada dança Tier Armor/Frost Emblem que manteve nosso jogador clicando antes.
 
-**Conexão entre esforço e recompensa:**
+#### Conexão entre esforço e recompensa
 
 Este é o grande. Quando você sobe de nível no WoW , uma maldita nuvem de luz dourada sai do seu corpo.
 
@@ -1247,7 +1469,6 @@ A beleza disso é que permite que os jogos usem o tédio a seu favor. Como discu
 Então qual é o problema?
 
 A designer de videogames Erin Hoffman disse perfeitamente: "O vício não é sobre o que você FAZ, mas o que você NÃO FAZ por causa da substituição do comportamento viciante". Ela estava falando sobre como a atração de um simples jogo em flash como Bejeweled depende inteiramente do quanto você quer evitar fazer o trabalho que está aberto na outra janela.
-
 
 Espere, o que eu estava dizendo de novo?
 
