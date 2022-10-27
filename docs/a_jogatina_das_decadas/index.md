@@ -5,7 +5,11 @@ tags: [narrativa, Roteirização, jogos digitais, estética]
 layout: page
 ---
 
-![A jogatina das décadas](imagens/jogatina_das_decadas_2.webp "A jogatina das décadas")
+{% include imagebase.html
+    src="jogatina_das_decadas/jogatina_das_decadas_2.webp"
+    alt="Figura: A jogatina das décadas."
+    caption="Figura: A jogatina das décadas."
+%}
 
 O objetivo deste curso é apresentar e trabalhar com a definição do que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização. O curso está associado a construção **Estética** do jogo pois nele definimos elementos como sensação, desafio, descoberta e passatempo.
 
@@ -751,7 +755,7 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 > Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou três dias desenvolvendo o jogo e acabou ganhando cerca de US $ 50 mil por dia em receita através de sua publicidade no jogo.”
 
 {% include image.html
-    src="https://sengece.org.br/wp-content/uploads/2016/12/flappy-bird1.jpg"
+    src="https://s2.glbimg.com/7IWNxPUe3ZavTl0vMfqcjDxvUqo=/0x0:695x463/984x0/smart/filters:strip_icc()/s.glbimg.com/po/tt2/f/original/2014/02/07/flappy-bird-ios.jpg"
     alt="Figura: Flappy Bird."
     caption="Figura: Flappy Bird."
 %}
@@ -959,7 +963,7 @@ A quarta geração consolidou de vez a era dos 16 bits, com a evolução da Nint
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Tomb_Raider_-_The_Last_Revelation.png/220px-Tomb_Raider_-_The_Last_Revelation.png"
     alt="Figura: Tomb_Raider The_Last_Revelation."
-    caption="Figura: Tomb_Raider The_Last_Revelation."
+    caption="Figura: Tomb_Raider The Last Revelation."
 %}
 
 ### Quinta Geração (2000 - Hoje)
@@ -979,20 +983,17 @@ Alguns exemplos de jogos dessas gerações são 007 Goldeneye, Super Mário 64, 
 
 ### Nintendo
 
-A Nintendo, tradicional e inovadora, começou nos arcades (fliperamas) e estreou em 1983 com o console de mesa NES. Em sequência fez o SNES, o Nintendo 64, o GameCube, o Wii , o Wii U e por último o Nintendo Switch.Líder do mercado de portáteis com Game Boy, em seguida Game Boy Color, Game Boy Advance e o console portátil mais vendido da história, o tão conhecido Nintendo DS, no inicio de 2011 lançou o seu novo portátil Nintendo 3DS, que traz um inovador sistema de jogos 3D.Lançou o Wii com uma inovadora jogabilidade com o controle Wiimote, que fez com que ela voltasse a ser a líder do mercado. Na E3 2011 a Nintendo mostrou seu mais novo console, o Wii U, sucessor do Wii, lançado em 18 de Novembro de 2012. O poder gráfico do novo console é superior ao dos consoles de sétima geração.
+A Nintendo, tradicional e inovadora, começou nos arcades (fliperamas) e estreou em 1983 com o console de mesa NES. Em sequência fez o SNES, o Nintendo 64, o GameCube, o Wii , o Wii U e por último o Nintendo Switch. Líder do mercado de portáteis com Game Boy, em seguida Game Boy Color, Game Boy Advance e o console portátil mais vendido da história, o tão conhecido Nintendo DS, no inicio de 2011 lançou o seu novo portátil Nintendo 3DS, que traz um inovador sistema de jogos 3D.Lançou o Wii com uma inovadora jogabilidade com o controle Wiimote, que fez com que ela voltasse a ser a líder do mercado. Na E3 2011 a Nintendo mostrou seu mais novo console, o Wii U, sucessor do Wii, lançado em 18 de Novembro de 2012. O poder gráfico do novo console é superior ao dos consoles de sétima geração.
 
-{% include image.html
-    src="https://www.comboinfinito.com.br/principal/wp-content/uploads/2020/02/The-Last-of-Us-Part-2-1-790x444.jpg"
-    alt="Figura: The Last of Us 2."
-    caption="Figura: The Last of Us 2."
+{% include imagebase.html
+    src="jogatina_das_decadas/nintendo-switch.webp"
+    alt="Figura: Nintendo Switch."
+    caption="Figura: Nintendo Switch."
 %}
-
-![https://gamerview.com.br/artigos/top-10-videogames-nintendo](https://gamerview.com.br/wp-content/uploads/2021/09/Top-10-Nintendo-DS.jpg.webp "Nintendo DS")
 
 ### Sony
 
-A Sony é líder do mercado de videogames domésticos (com o seu PlayStation 2). Estreou em 1994 com o PlayStation, em 2000 lançou o console doméstico mais vendido da história, o PlayStation 2 e em 2006 lançou o PlayStation 3.Em 2005 lançou seu primeiro console portátil, o PSP, e no quarto trimestre de 2011 lançou o PlayStation Vita, continuação da sua linha de portáteis.No início de 2013 anunciou o novo console da empresa, o PlayStation 4, console da oitava geração, que foi lançado no dia 15 de Novembro de 2013 na América do Norte.
-
+A Sony é líder do mercado de videogames domésticos (com o seu PlayStation 2). Estreou em 1994 com o PlayStation, em 2000 lançou o console doméstico mais vendido da história, o PlayStation 2 e em 2006 lançou o PlayStation 3. Em 2005 lançou seu primeiro console portátil, o PSP, e no quarto trimestre de 2011 lançou o PlayStation Vita, continuação da sua linha de portáteis. No início de 2013 anunciou o novo console da empresa, o PlayStation 4, console da oitava geração, que foi lançado no dia 15 de Novembro de 2013 na América do Norte.
 
 {% include image.html
     src="https://files.tecnoblog.net/wp-content/uploads/2020/11/playstation_5_produto-700x700.png"
@@ -1112,7 +1113,7 @@ O iPhone 3GS e o iPhone 4, por exemplo, eram tidos como excelentes plataformas p
 ***
 
 {% include image.html
-    src="v"
+    src="https://cdn.gamer-network.net/2019/articles/2019-12-11-12-55/ab.jpg/EG11/resize/646x-1/quality/80/format/jpg"
     alt="Figura: How Angry Birds broke the limits for mobile games."
     caption="Figura: How Angry Birds broke the limits for mobile games."
 %}
