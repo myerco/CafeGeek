@@ -190,7 +190,7 @@ Walter Benjamin (1984)
 
 “...fenômeno cultural e repetível a qualquer momento, uma ação que introduz, na confusão da vida e na imperfeição do mundo, uma perfeição temporária e limitada.”
 
-#### O riso e o jogo segundo HUIZINGA
+#### O riso e o jogo segundo Johan Huizinga
 
 "...O riso, por exemplo, está de certo modo em oposição à seriedade, sem de maneira alguma estar diretamente ligado ao jogo. Os jogos infantis, o futebol e o xadrez são executados dentro da mais profunda seriedade, não se verificando nos jogadores a menor tendência para o riso. É curioso notar que o ato puramente fisiológico de rir é exclusivo dos homens, ao passo que a função significante do jogo é comum aos homens e aos animais. O *animal ridens* de Aristóteles caracteriza o homem, em
 oposição aos animais, de maneira quase tão absoluta quanto o *homo sapiens*".
@@ -256,9 +256,9 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 > O Fantasma do Futuro
 
 {% include imagebase.html
-    src="jogatina_das_decadas/the-last-of-us-parte-ii-1591561975954_v2_1170x540.webp"
-    alt="Figura: The Last of Us 2."
-    caption="Figura: The Last of Us 2: No controle de uma balada de vingança, beleza e cansaço... - <https://www.uol.com.br/start/ultimas-noticias/2020/06/15/the-last-of-us-2-a-vinganca-de-ellie-so-e-plena-nos-acordes-do-cansaco.htm?cmpid=copiaecola> ."
+    src="jogatina_das_decadas/A-Vigilante-do-Amanhã-Ghost-in-the-Shell.webp"
+    alt="Figura: Ghost in the Shell."
+    caption="Figura: 5 motivos para assistir Ghost in the Shell, com Scarlett Johansson, hoje mesmo!."
 %}
 
 A função do jogo, nas formas mais elevadas que aqui nos interessam, pode de maneira geral ser definida pelos dois aspectos fundamentais que nele encontramos:
@@ -267,7 +267,9 @@ A função do jogo, nas formas mais elevadas que aqui nos interessam, pode de ma
 
 Estas duas funções podem também por vezes confundir-se, de tal modo que o jogo passe a "representar" uma luta, ou, então, se torne uma luta para melhor representação de alguma coisa.
 
-### O papel do jogo na sociedade?
+A seguir vamos apresentar algumas categorias de jogos segundo Johan Huizinga.
+
+### O papel do jogo na sociedade
 
 O ser humano, tal como todos os seres da escala biológica, tem como característica principal o movimento. O jogo surge relacionado a esse assunto, por ser a melhor demonstração dessa predominância no homem, além de atuar como um valoroso contribuinte no desenvolvimento global do mesmo.
 
@@ -330,9 +332,7 @@ A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo
     caption="Figura: The Thinker."
 %}
 
-O autor apresenta as suas interpretações de elementos presentes na nossa sociedade e os caracteriza como jogo na sua definição, devemos lembrar que o HUIZINGA utiliza e define jogo na Perspectiva do jogador e extrai classificações do objeto em estudo dentro de um tempo e realidade por conseguinte devemos considerar os seguintes aspectos:
-
-- Não deveríamos considerar  a justiça como um jogo de ganhar e perder pois isso não melhora as grandes diferenças sociais na nossa sociedade.
+O autor apresenta as suas interpretações de elementos presentes na nossa sociedade e os caracteriza como jogo na sua definição, devemos lembrar que o HUIZINGA utiliza e define jogo na Perspectiva do jogador e extrai classificações do objeto em estudo dentro de um tempo e realidade por conseguinte devemos não deveríamos considerar  a justiça como um jogo de ganhar e perder pois isso não melhora as grandes diferenças sociais na nossa sociedade.
 
 Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como por exemplo economia, relacionamentos, comunicação e outros, mas com uma nova roupagem denominada "Gamificação" que estudaremos nos próximos capítulos.
 
@@ -582,10 +582,10 @@ Consistem em uma superfície dividida em setores com peças móveis.
 
 ### Cartas
 
-{% include image.html
-    src="https://jogolaxia.com/files/artigos/jogos-cartas.jpg"
-    alt="Figura: Os 10 melhores jogos de cartas para jogar sozinho."
-    caption="Figura: Os 10 melhores jogos de cartas para jogar sozinho."
+{% include imagebase.html
+    src="jogatina_das_decadas/cartas-inter.webp"
+    alt="Figura: Cartas <https://oestadoacre.com/2019/07/18/historia/>."
+    caption="Figura: A história das cartas: o jogo de baralho é mais antigo do que você imagina."
 %}
 
 Conjunto de símbolos com valores de combinação lógica, quem em determinadas regras, representam combinação para cada combinação empregada em uma jogada.
@@ -971,9 +971,9 @@ A quarta geração consolidou de vez a era dos 16 bits, com a evolução da Nint
 A quinta geração estabeleceu a era dos 32 bits e posteriormente com o 64 bits, fazendo a todos passarem 24 horas jogando com os amigos no multiplayer local o excelente FPS e um dos pioneiros do gênero, 007 Goldeneye do Nintendo 64. Também foi o início da consolidação dos portáteis como o game boy, também da Nintendo. Posteriormente com as inevitáveis evoluções da geração, conhecemos também os consoles da SEGA Dreamcast,  SONY PlayStations 1,2,3 e 4, da Microsoft Xbox, 360 e One e também a grande popularidade e avanços gráficos dos games para PC que existem até a atualidade.
 Alguns exemplos de jogos dessas gerações são 007 Goldeneye, Super Mário 64, Mario Kart, Counter Strike, LOL, Metal Gear Solid, God Of War, Grand Theft Auto, The Last of US  e Red Dead Redemption.
 
-{% include image.html
-    src="https://www.comboinfinito.com.br/principal/wp-content/uploads/2020/02/The-Last-of-Us-Part-2-1-790x444.jpg"
-    alt="Figura: The Last of Us 2."
+{% include imagebase.html
+    src="jogatina_das_decadas/the-last-of-us-parte-ii-1591561975954_v2_1170x540.webp"
+alt="Figura: The Last of Us 2."
     caption="Figura: The Last of Us 2."
 %}
 
