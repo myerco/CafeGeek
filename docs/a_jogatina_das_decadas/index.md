@@ -2,7 +2,11 @@
 title: A Jogatina das décadas
 description: O objetivo deste curso é apresentar as características e elementos associados aos jogos eletrônicos.
 tags: [narrativa, Roteirização, jogos digitais, estética]
-layout: page
+author: 
+- Cafegeek
+layout: post
+date: 2022-09-24 
+
 ---
 
 {% include imagebase.html
