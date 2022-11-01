@@ -179,6 +179,12 @@ Geralmente o fluxo de trabalhado pode ser definido pelas etapas de **Conceito**,
 
 ### Conceito
 
+{% include imagebase.html
+    src="me_conte_uma_historia/10.webp"
+    alt="Figura: Game design for PUBBY."
+    caption="Game design for PUBBY - <https://www.dsource.in/case-study/game-design-pubby/design-process/>."
+%}
+
 Etapa mais abstrata do projeto onde definimos o conceito do jogo baseados em uma história ou mecânica, esta etapa é necessária para apresentar, documentar e organizar a ideia do jogo.
 
 - Documentação e narrativa - "você não precisa de um contexto narrativo para cada jogo (isso é especialmente verdade em game jams), mas para esta classe e o GDW deste ano, você precisará de alguma forma de quadro narrativo dentro do qual seu jogo funciona. Este é o lugar para descrevê-lo, as configurações, tema e estilo visual. Se o seu jogo tem personagens fortes, você pode usar este ponto para descrever qualquer história de fundo ou tema que os preocupe."
@@ -615,12 +621,12 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 
 ### Morte
 
-#### Valorize a morte do seu personagems
+#### Valorize a morte do seu personagens
 
 - Dos amigos.
 
 {% include imagebase.html
-    src="me_conte_uma_historia/0cdf6b4c-op_mission_ghost_last"
+    src="me_conte_uma_historia/0cdf6b4c-op_mission_ghost_last.webp"
     alt="Figura: How to unlock Season 2 Ghost Skin in Warzone and Modern Warfare."
     caption="Figura: How to unlock Season 2 Ghost Skin in Warzone and Modern Warfare."
 %}
