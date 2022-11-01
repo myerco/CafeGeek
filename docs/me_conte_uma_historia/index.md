@@ -183,12 +183,6 @@ Etapa mais abstrata do projeto onde definimos o conceito do jogo baseados em uma
 
 - Documentação e narrativa - "você não precisa de um contexto narrativo para cada jogo (isso é especialmente verdade em game jams), mas para esta classe e o GDW deste ano, você precisará de alguma forma de quadro narrativo dentro do qual seu jogo funciona. Este é o lugar para descrevê-lo, as configurações, tema e estilo visual. Se o seu jogo tem personagens fortes, você pode usar este ponto para descrever qualquer história de fundo ou tema que os preocupe."
 
-{% include image.html
-    src="https://acagamic.com/uploads/2014/10/GDD1-ClanCombat.jpg"
-    alt="Figura: Communication and Game Design Documents."
-    caption="Figura: Communication and Game Design Documents - <https://acagamic.com/free-courses/intro-to-game-design/communication-and-game-design-documents/> ."
-%}
-
 Um bom exemplo de documentação é o modelo [Death VIP](http://cafegeek.eti.br/trabalhos/modelo_gdd_death_vip.html), utilize a estrutura do modelo para o desenvolvimento de trabalhos no decorrer do curso.
 
 ### Funcional
@@ -406,7 +400,7 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 ### O que nos inspira?
 
 {% include imagebase.html
-    src="me_conta_uma_historia/04190615075402.webp"
+    src="me_conte_uma_historia/04190615075402.webp"
     alt="Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa."
     caption="Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - <https://www.tecmundo.com.br/voxel/jogos/rise-of-the-tomb-raider/analise> ."
 %}
@@ -444,7 +438,7 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 > Alan Wake.
 
 {% include imagebase.html
-    src="me_conta_uma_historia/AR18-1.webp"
+    src="me_conte_uma_historia/AR18-1.webp"
     alt="Figura: 10 dicas e truques para criar personagens inesquecíveis."
     caption="Figura: 10 dicas e truques para criar personagens inesquecíveis - <https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/> ."
 %}
@@ -601,16 +595,10 @@ Cumprir a sua missão o tinha transformado em **um** individuo alheio aos proble
 
 #### Vingança
 
-{% include image.html
-    src="https://icdn.digitaltrends.com/image/digitaltrends/ryse-son-of-rome-screenshot-3-625x417-c.jpg"
-    alt="Figura: Ryse: Son of Rome review."
-    caption="Figura: Ryse: Son of Rome review - <https://www.digitaltrends.com>."
-%}  
-
 A busca pela vingança fez o personagem trilhar o caminho cegamente e violentamente.
 
 {% include imagebase.html
-    src="me_conta_uma_historia/cenarios-gladiador.jpg"
+    src="me_conte_uma_historia/cenarios-gladiador.jpg"
     alt="Figura: Cladiador."
     caption="Figura: Filme Cladiador."
 %}  
@@ -631,10 +619,10 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 
 - Dos amigos.
 
-{% include image.html
-    src="https://static.marriedgames.com.br/0cdf6b4c-op_mission_ghost_last.jpg"
+{% include imagebase.html
+    src="me_conte_uma_historia/0cdf6b4c-op_mission_ghost_last"
     alt="Figura: How to unlock Season 2 Ghost Skin in Warzone and Modern Warfare."
-    caption="Figura: How to unlock Season 2 Ghost Skin in Warzone and Modern Warfare   - <https://marriedgames.com.br >."
+    caption="Figura: How to unlock Season 2 Ghost Skin in Warzone and Modern Warfare."
 %}
 
 - Dos animais.
@@ -981,7 +969,7 @@ Inimigos não inimigos.
 ### BOSS
 
 {% include imagebase.html
-    src="me_conta_uma_historia/nemesis_t-type_wiki-1024x512.webp"
+    src="me_conte_uma_historia/nemesis_t-type_wiki-1024x512.webp"
     alt="Figura: Nemesis T-Type."
     caption="Figura: Nemesis T-Type - <https://residentevil.com.br>."
 %}  
@@ -994,8 +982,8 @@ Inimigos não inimigos.
 
 - Combinação.
 
-{% include image.html
-    src="https://im.ziffdavisinternational.com/ign_br/screenshot/default/darth-vader-a-visual-history-of-star-wars-greatest_gfbx.jpg"
+{% include imagebase.html
+    src="me_conte_uma_historia/darth-vader-a-visual-history-of-star-wars-greatest_gfbx.webp"
     alt="Figura: Darth Vader nos games."
     caption="Figura: Darth Vader nos games: uma história visual - <https://br.ign.com>."
 %}  
