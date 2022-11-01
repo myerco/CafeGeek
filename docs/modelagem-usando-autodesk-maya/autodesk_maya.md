@@ -10,6 +10,8 @@ layout: post
 date: 2022-09-26 
 ---
 
+***
+
 ## Índice
 
 - [O que é Modelagem de objetos 3D?](#o-que-é-modelagem-de-objetos-3d)
@@ -128,7 +130,7 @@ date: 2022-09-26
 
 - [Mapeamento UV](#mapeamento-uv)
 
-  -[Mapeamento automático](#mapeamento-automático)
+  - [Mapeamento automático](#mapeamento-automático)
 
   - [Hide](#hide)
 
@@ -137,6 +139,8 @@ date: 2022-09-26
 ***
 
 ## O que é Modelagem de objetos 3D?
+
+***
 
 Podemos entender a Modelagem 3D como a criação de objetos sólidos através da representação matemática de uma superfície ou de um objeto volumétrico, vivo ou inanimado. É a criação do modelo de um objeto tridimensional através de um software de processamento 3D.
 
@@ -207,6 +211,8 @@ Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas 
 ***
 
 ## Começando a trabalhar com Autodesk Maya
+
+***
 
 ### Interface
 
@@ -331,6 +337,8 @@ Pressione a barra de espaço
 %}
 
 ## Objetos Poligonais
+
+***
 
 {% include image.html
     src="https://i.ytimg.com/vi/7sR_Tux5u7M/maxresdefault.jpg"
@@ -634,6 +642,8 @@ Para projetar ou misturar objetos podemos usar [`Booleans`](https://knowledge.au
 
 ## Organizando em camadas
 
+***
+
 ## Layer
   
 - V - Mostra ou oculta uma camada. Consulte Ocultar camadas de exibição para obter mais informações.
@@ -683,6 +693,8 @@ Podemos adicionar uma cor na camada fazendo com que todos os objetos selecionado
 ```
 
 ## Modelagem NURBS
+
+***
 
 NURBS (Non-Uniform Rational B-Splines) é um tipo de geometria que você pode usar para criar curvas e superfícies 3D no Maya. Os outros tipos de geometria fornecidos pelo Maya são superfícies de polígono e subdivisão.
 
@@ -905,11 +917,15 @@ Por exemplo, a tecelagem para no valor de tolerância fracionária que você def
 
 ## Sculpting
 
+***
+
 `Sculpt Tool`
 
 `Smooth Tool`
 
 ## Materiais
+
+***
 
 No Maya, os nós de material definem como as superfícies reagem à luz. O Maya contém vários tipos de nós de material que ajudam a simular as qualidades ou comportamentos do mundo real de superfícies à luz: nós de material de superfície (*Surface Material*), nós de material volumétrico (*Volumetric Material*)e o nó de material de deslocamento (*Displacement Material*).
 
@@ -1199,6 +1215,16 @@ A luz preenche uma forma 3D (esfera, cilindro,etc.);
 
 ## Mapeamento UV
 
+***
+
+É o processo de projetar uma textura bidimensional, mapa de textura, em um objeto 3D. As letras "UV" e "V" denotam os eixos de textura 2D porque o "X", "Y" e "Z" já são usados para indicar eixos 3D.
+
+{% include imagebase.html
+    src="autodesk_maya/material/330px-Cube_Representative_UV_Unwrapping.webp"
+    alt="Figura: Mapeamento UV."
+    caption="Figura: Uma representação do mapeamento UV de um cubo. A planificação de um cubo faz parte do processo de mapeamento. <https://pt.wikipedia.org/wiki/Mapeamento_UV>"
+%}
+
 ### Mapeamento automático
 
 Para mapeamento automático siga os passos a seguir:
@@ -1298,6 +1324,8 @@ Para mostrar o último objeto escondido podemos usar `Display` > `Show` > `Show 
 Para apresentar um objeto escondido usando o `Outliner` usamos `Display` > `Show` > `Show Selection`.
 
 ## Animando cenas no Autodesk Maya
+
+***
 
 - S - Marcar frame
 
