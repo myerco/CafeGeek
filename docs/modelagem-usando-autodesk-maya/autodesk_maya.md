@@ -10,6 +10,132 @@ layout: post
 date: 2022-09-26 
 ---
 
+## Índice
+
+- [O que é Modelagem de objetos 3D?](#o-que-é-modelagem-de-objetos-3d)
+
+  - [Tipos de modelagem 3D](#tipos-de-modelagem-3d)
+
+  - [Processo de construção de cenas 3D](#processo-de-construção-de-cenas-3d)
+
+  - [Softwares para modelagem tridimensional](#softwares-para-modelagem-tridimensional)
+
+- [Começando a trabalhar com Autodesk Maya](#começando-a-trabalhar-com-autodesk-maya)
+
+  - [Interface](#interface)
+
+  - [Configurando a Interface](#configurando-a-interface)
+
+  - [Configurando projetos](#configurando-projetos)
+
+  - [Comandos de navegação](#comandos-de-navegação)
+
+  - [Configuração de ViewPort](#configuração-de-viewport)
+
+- [Objetos Poligonais](#objetos-poligonais)
+
+  - [Menu de contexto para manipulação de malhas](#menu-de-contexto-para-manipulação-de-malhas)
+
+  - [Freeze e Reset parâmetros](#freeze-e-reset-parâmetros)
+
+  - [Snap de objetos](#snap-de-objetos)
+
+  - [Seleção de objetos e componentes](#seleção-de-objetos-e-componentes)
+
+  - [Utilizando Soft Selection](#utilizando-soft-selection)
+
+  - [Simetria ou Symmetry](#simetria-ou-symmetry)
+
+  - [Duplicando objetos](#duplicando-objetos)
+
+  - [Pivot](#pivot)
+
+  - [Deformando a malha poligonal](#deformando-a-malha-poligonal)
+
+  - [Suavizando objetos poligonais](#suavizando-objetos-poligonais)
+
+  - [Append e Bridged Tool](#append-e-bridged-tool)
+
+  - [Fill Hole](#fill-hole)
+
+  - [Target Weld](#target-weld)
+  
+  - [Combine e Separate](#combine-e-separate)
+
+  - [Booleans](#booleans)
+
+- [Organizando em camadas](#organizando-em-camadas)
+
+  - [Layer](#layer)
+
+  - [Hierarquia](#hierarquia)
+
+  - [Group](#group)
+
+- [Modelagem NURBS](#modelagem-nurbs)
+
+  - [Objetos primitivos](#objetos-primitivos)
+
+  - [Componentes de seleção](#componentes-de-seleção)
+
+  - [Curve Tools](#curve-tools)
+
+  - [Revolve](#revolve)
+
+  - [Loft](#loft)
+
+  - [Extrude Nurbs](#extrude-nurbs)
+
+  - [Isoparm](#isoparm)
+
+  - [Close e Open](#close-e-open)
+
+  - [Project Curve on Surface](#project-curve-on-surface)
+
+  - [Convertendo NURBS para poligonais](#convertendo-nurbs-para-poligonais)
+
+- [Sculpting](#sculpting)
+
+- [Materiais](#materiais)
+
+  - [Surface Material](#surface-material)
+
+  - [Displacement Material](#displacement-material)
+
+  - [Volumetric material (atmosphere)](#volumetric-material-atmosphere)
+
+  - [Hypershade](#hypershade)
+
+  - [Criando materiais com as opções do menu](#criando-materiais-com-as-opções-do-menu)
+
+  - [Checker ou Fluxo de trabalho](#checker-ou-fluxo-de-trabalho)
+
+  - [Adicionando uma imagem](#adicionando-uma-imagem)
+
+  - [Tipos de Materiais (Maya)](#tipos-de-materiais-maya)
+
+  - [Usando Normal Map](#usando-normal-map)
+
+- [Renderização e Iluminação](#renderização-e-iluminação)
+
+  - [Cameras](#cameras)
+
+  - [Renderização](#renderização)
+
+  - [Iluminação](#iluminação)
+
+  - [Propriedades da luz](#propriedades-da-luz)
+
+- [Mapeamento UV](#mapeamento-uv)
+
+  -[Mapeamento automático](#mapeamento-automático)
+
+  - [Hide](#hide)
+
+- [Animando cenas no Autodesk Maya](#animando-cenas-no-autodesk-maya)
+
+***
+
 ## O que é Modelagem de objetos 3D?
 
 Podemos entender a Modelagem 3D como a criação de objetos sólidos através da representação matemática de uma superfície ou de um objeto volumétrico, vivo ou inanimado. É a criação do modelo de um objeto tridimensional através de um software de processamento 3D.
@@ -959,17 +1085,139 @@ Parecido com o Blind mas com mais parâmetros.
 
 - Angle: ângulo da luz
 
+### Usando Normal Map
+
+{% include imagebase.html
+    src="autodesk_maya/material/autodesk_maya_material_base_color_normal_map.webp"
+    alt="Figura: Base color Normal Camera."
+    caption="Figura: Adicionamos duas texturas em Base Color e Normal Camera, textura completa e outra com as normais calculadas, em seguida usamos aiNormalMap do Arnold."
+%}
+
 ## Renderização e Iluminação
 
 ***
 
-`Render` > `Render View`
+### Cameras
 
-- Cameras;
+{% include imagebase.html
+    src="autodesk_maya/material/autodesk_maya_camera.webp"
+    alt="Figura: Create camera."
+    caption="Figura: Para criar uma câmera utilize Create > Cameras > Camera Type."
+%}
 
-- Iluminação.
+- `Viewport` - Selecione a as opções de câmera : `Select Camera`, `Lock Camera`, `Camera Attributes`.
+
+- `Viewport Panels` - Escolha a `Perspective` > `Camera 1` ou o nome da câmera para a visão da câmera.
+
+### Renderização
+
+Podemos alterar o `Viewport` para renderizar a cena escolhendo `Renderer` > `Arnold`
+
+Para visualizar a cena renderizada ou cena final devemos configurar o software utilizado para renderizar a cena, `Render` > `Render Settings` > `Render Using` > `Arnold Renderer`.
+
+- O ícone de renderização, que é apenas o filme, renderizará o quadro atual;
+
+- Para renderizar novamente apenas uma determinada região, clique e segure na imagem renderizada (pode ser necessário clicar no botão no menu – Imediatamente ao lado do ícone de renderização de quadro único);
+
+- O próximo botão é o botão de instantâneo, isso nos permite salvar uma imagem em nosso computador da renderização;
+
+- Render Sequence: Permite renderizar vários quadros ou uma animação;
+
+- IPR: Você pode habilitar isso, e cada vez que você fizer uma atualização na área de trabalho para um modelo ou valores, as alterações serão atualizadas na visualização de renderização;
+
+- Você também acessa a configuração de renderização nesta janela clicando no botão com o ícone de engrenagem no canto inferior direito;
+
+- Se você quiser comparar imagens, clique no ícone 'Manter imagem' (imagem de uma imagem), cada vez que você executar uma nova renderização, a imagem anterior será preservada e acessível através do controle deslizante na parte inferior da janela de visualização de renderização;
+
+- Há também controles deslizantes de exposição e contraste de cores nesta janela
+
+### Iluminação
+
+#### Ambient
+
+Ilumina todas as partes da cena uniformemente;
+
+Útil para: Simular uma combinação de iluminação direta e indireta.
+
+#### Directional
+
+Iluminação uniforme de uma cena usando paralelo raios de luz;
+
+Útil para: Fontes extremamente distantes:
+
+- Ex. Luz solar.
+
+#### Point
+
+A luz irradia em todas as direções de um ponto único;
+
+Ideal para: Fontes omnidirecionais:
+
+- Ex. Lâmpada elétrica.
+
+#### Spot
+
+Cria um cone de luz em uma direção;
+
+Útil para: Feixes de luz;
+
+- Ex. lanterna, farol.
+
+#### Area
+
+Fontes de luz retangulares 2D;
+
+Útil para: Janelas, Luzes de Teto;
+
+Maior tempo de renderização;
+
+#### Volume
+
+A luz preenche uma forma 3D (esfera, cilindro,etc.);
+
+Útil para: Uma representação visual do extensão da luz.
+
+## Propriedades da luz
+
+{% include imagebase.html
+    src="autodesk_maya/material/autodesk_maya_material_point_light.webp"
+    alt="Figura: Planar mapping options."
+    caption="Figura: UV > Planar > Planar Mapping Options >  Escolha uma coordenada X,Y,Z ou Camera para ajustar a textura. "
+%}
+
+- `Intensity` - Quanta luz emitida pela fonte de luz;
+
+- `Decay` - Quanta luz diminui longe da fonte luz (queda);
+
+- `Cone Angle` - Largura do cone de influência das luzes - área cone externo não iluminado;
+
+- `Penumbra Angle` - Queda na borda do ângulo do cone - mais dá uma borda mais suave ao cone de luz;
+
+- `Drop-off` - quanto a luz diminui no exterior arestas;
+
+- `Color` - defina uma cor RGB para a luz - afeta a cor cena.
 
 ## Mapeamento UV
+
+### Mapeamento automático
+
+Para mapeamento automático siga os passos a seguir:
+
+#### Planar Mapping Options
+
+{% include imagebase.html
+    src="autodesk_maya/material/autodesk_maya_planar_mapping_options.webp"
+    alt="Figura: Planar mapping options."
+    caption="Figura: UV > Planar > Planar Mapping Options >  Escolha uma coordenada X,Y,Z ou Camera para ajustar a textura. "
+%}
+
+#### Ajustes usando Planar Mapping Options
+
+{% include imagebase.html
+    src="autodesk_maya/material/autodesk_maya_planar_mapping_options_ajust.webp"
+    alt="Figura: Planar Ajustes."
+    caption="Figura: Ajuste as coordenadas da textura clicando no indicador vermelho do objeto. "
+%}
 
 - Menu `UV` > `UV Editor`;
 
@@ -996,6 +1244,7 @@ Parecido com o Blind mas com mais parâmetros.
   - Podemos selecionar as UV Shells;
 
 - Costurando  `Cut and Sew`
+
   - Selecione dois vértices e depois clique em `Sew`;
   
   - `Sew Tool` - Costura interativa, selecione e arrastre;
