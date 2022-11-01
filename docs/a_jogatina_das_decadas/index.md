@@ -22,6 +22,7 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 - Analise e conceitue jogos;
 
 - Analise e defina tipos de jogos;
+
 - Analise e defina os tipos de jogadores;
 
 - Conheça o mercado de jogos digitais;
@@ -147,8 +148,6 @@ A origem da palavra deriva do de um termo do latim, *jocus*, que significa brinc
     alt="Figura: Chess."
     caption="Figura: O Xadrez é um jogo de tabuleiro de estratégia do tipo recreativo ou competitivo para dois jogadores."
 %}
-
-.webp
 
 "Em época mais otimista que a atual, nossa espécie recebeu a designação de *Homo sapiens*. Com o passar do
 tempo, acabamos por compreender que afinal de contas não somos tão racionais quanto a ingenuidade e o culto da
