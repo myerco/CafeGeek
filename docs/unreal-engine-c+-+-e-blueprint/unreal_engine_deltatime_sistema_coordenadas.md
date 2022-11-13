@@ -46,14 +46,14 @@ Neste capítulo serão apresentados e implementados os elementos de controle de 
 
 ***
 
-Delta Time é o tempo entre cada frame, onde um frame é um quadro ou imagem apresentada, uma animação é composta por vários frames.
+A simulação de movimento é realizada renderizando imagens quadro a quadro, frames, cada quadro é executado dentro de período de tempo e a diferença de tempo é chamado ded Delta, por conseguinte *Delta Time* é o tempo entre cada frame.
 
-|Time.deltafime = 0 |                                   |Tempo.DeltaTme = 0.05  | 
+|Time.deltafime = 0 |                                   |Tempo.DeltaTme = 0.05  |
 |:-:                |:-:                                |:-                     |
 |Frame 1            |                                   |Frame 2                |
 |                   | Tempo passado entre frames  é 0.05|                       |
 
-Frame = 1
+No exemplo acima verificamos que o tempo transcorrido entre o frame 1 e o frame 2 é de 0.05 milissegundos.
 
 ### Frames e Delta time
 
@@ -66,11 +66,11 @@ Frame = 1
 |       |   |   |   |   |   |   |   |   |   |   |
 |:-:    |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |
 |Frames | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10|
-| Delta | 1 | 2 | 3 |4  | 5 | 6 | 7 | 8 | 9 |   |
+|Delta  | 1 | 2 | 3 |4  | 5 | 6 | 7 | 8 | 9 |   |
 
+### Calculando o FPS
 
-
-Considerando a tabela acima podemos determinar o tempo em milissegundos de cada frame da seguinte forma:
+*Frames per Second* ou quadros por segundo (FPS), é a quantidade de quadros exibidos em um segundo, para exemplificar vamos considerar a tabela anterior para calcular o FPS.
 
 - 10 Fps = 10 frames a cada segundo;
 
@@ -86,7 +86,7 @@ Considerando a tabela acima podemos determinar o tempo em milissegundos de cada 
 
 ### Utilizando comandos do console
 
-O **Unereal Engine** permite visualizar e alterar os frames por segundo, *FPS*  utlizando o console de comandos *cmd*.
+O **Unreal Engine** permite visualizar e alterar os frames por segundo, *FPS*  utilizando o console de comandos *cmd*.
 
 Para habilitar o console de comandos utilizamos `Menu` > `Project Settings` > `Engine Inputs` ou digitar na busca a palavra console, em seguida associe uma tecla ao console, o padrão é a tecla `´`.
 
@@ -146,15 +146,34 @@ Valores:
 stat game
 ```
 
+Quanto a quantidade de ticks sendo executados e o tempo que é gasto para execução de cada um deles, o que pode ser um problema de performance do seu jogo, mas, devemos ter em mente o seguinte:
+
+- Os eventos podem estar associados a loops, como por exemplo, for loop, while ou outras estruturas de repetição que consomem ciclos de CPU, nestes casos, otimizar essas estruturas e até reescrever a lógica é algo que deve ser considerado.
+
+> Uma dica bem legal quando ao uso de estruturas de repetição associados a ticks é que o evento Tick é um laço de repetição e pode substituir loops explicitamente, consulte o tópico "Usando o evento Tick com Blueprint" no módulo "Implementando a movimentação do personagem" para ver um exemplo do que foi falado.
+
+- Considere uma cena com 500 objetos Blueprints, se a propriedade `Start With Tick Enabled` está habilitada o Unreal vai testar e executar cada um dos eventos, caso não seja necessário ter um tick para os blueprints é recomendável desabilitar essa propriedade.
+
+### Desabilitando o Tick com C++
+
+```cpp
+APlataforma::APlataforma()
+{
+  PrimaryActorTick.bCanEverTick = false;
+  SetMobility(EComponentMobility::Movable);
+
+}
+```
+
 ## Delta seconds
 
 ***
 
-**Delta Seconds** é a quantidade de tempo decorrido desde o último evento `Tick`.
+**Delta Seconds**, no Unreal Engine, é a quantidade de tempo decorrido desde o último evento `Tick`.
 
-Ao multiplicar seu deslocamento por **Delta Seconds**, seu movimento será independente da taxa de quadros.
+Ao multiplicar o deslocamento em unidades (centímetros ou metros) de um objeto,  pela variável `Delta Seconds`, o movimento do objeto será independente da taxa de quadros.
 
-Por exemplo, seu peão tem uma velocidade máxima de 100. Se um segundo tivesse se passado desde o último tique de evento, seu peão moveria todas as 100 unidades. Se meio segundo tivesse passado, ele moveria 50 unidades.
+Por exemplo, seu peão tem uma velocidade máxima de 100 unidades por segundo. Se um segundo tivesse se passado desde o último tique de evento, seu peão moveria todas as 100 unidades. Se meio segundo tivesse passado, ele se moveria 50 unidades.
 
 ### Tabela de velocidade
 
@@ -167,7 +186,7 @@ Por exemplo, seu peão tem uma velocidade máxima de 100. Se um segundo tivesse 
 
 `Delta seconds` - Intervalo entre os quadros;
 
-`Y` - Deslocamento no eixo `Y`.
+`Y` - Deslocamento no eixo `Y`, aqui consideramos a quantidade de unidades que o objeto se desloca no eixo `Y`.
 
 ## Utilizando o Delta seconds com Event Tick
 
@@ -230,9 +249,9 @@ Para adicionar um objeto Timeline utilizamos Click RMB no `Event Graph`, lógica
   caption="Figura: Unreal Engine - Timeline e a organização do editor de tempo."
 %}
 
-1. Parameters - Parâmetros do Timeline
+1. Parameters - Parâmetros do Timeline;
 
-2. Trilhas externas - Permite que você escolha uma curva externa no `Content Browser` em vez de criar sua própria curva.
+2. Trilhas externas - Permite que você escolha uma curva externa no `Content Browser` em vez de criar sua própria curva;
 
 3. Trilha do Timeline - Este é o gráfico de quadro-chave para esta trilha. Você colocará quadros-chave nisso e verá a curva de interpolação resultante.
 
@@ -244,37 +263,39 @@ Para adicionar um objeto Timeline utilizamos Click RMB no `Event Graph`, lógica
   caption="Figura: Unreal Engine - Entradas e Saídas do objeto TimeLine"
 %}
 
-`Play` -  Faz com que a Linha de tempo seja reproduzida a partir de sua hora atual.
+`Play` -  Faz com que a Linha de tempo seja reproduzida a partir de sua hora atual;
 
-`Play from start` -  Faz com que a linha de tempo seja reproduzida desde o início.
+`Play from start` -  Faz com que a linha de tempo seja reproduzida desde o início;
 
-`Stop` - Congela a reprodução da Linha de tempo na hora atual.
+`Stop` - Congela a reprodução da Linha de tempo na hora atual;
 
-`Reverse` - Reproduz a linha de tempo de trás para a hora atual.
+`Reverse` - Reproduz a linha de tempo de trás para a hora atual;
 
-`Reverse from End` - Reproduz a linha do tempo de trás para frente a partir do final.
+`Reverse from End` - Reproduz a linha do tempo de trás para frente a partir do final;
 
-`Set New Time` -  Define a hora atual para o valor definido (ou entrada) na entrada New Time.
+`Set New Time` -  Define a hora atual para o valor definido (ou entrada) na entrada New Time;
 
 `New Time` - Este pino de dados recebe um valor `float` representando o tempo em segundos, para o qual a Linha de tempo pode saltar quando a `Set New Time` é chamada.
 
 ### Parâmetros do TimeLine
 
-`Length` - Permite definir a duração da reprodução para esta Linha de tempo.
+`Length` - Permite definir a duração da reprodução para esta Linha de tempo;
 
-`Use Last KeyFrame` - Se não estiver ativo, o último quadro-chave de uma sequência será ignorado. Isso pode ajudar a evitar pular quando uma animação está em loop.
+`Use Last KeyFrame` - Se não estiver ativo, o último quadro-chave de uma sequência será ignorado. Isso pode ajudar a evitar pular quando uma animação está em loop;
 
-`Autoplay` - Se ativo, este nó Timeline não requer uma entrada de execução para começar e começará a tocar assim que o nível começar.
+`Autoplay` - Se ativo, este nó Timeline não requer uma entrada de execução para começar e começará a tocar assim que o nível começar;
 
-`Loop` - Se estiver ativo, a animação da Linha de tempo será repetida indefinidamente, a menos que seja interrompida pelo pino de entrada Parar.
+`Loop` - Se estiver ativo, a animação da Linha de tempo será repetida indefinidamente, a menos que seja interrompida pelo pino de entrada Parar;
 
-`Replicated` - Se ativo, a animação da Linha do tempo será replicada entre os clientes.
+`Replicated` - Se ativo, a animação da Linha do tempo será replicada, pela rede, entre os clientes.
 
 ## Utilizando variáveis no Timeline
 
+***
+
 Para este exemplo vamos utilizar dois objetos, um objeto *Lamp* do tipo `Light Component`  para apresentar a estrutura de nó *TratamentoLuz* do tipo `TimeLine`, e outro objeto para controlar a *Lamp*, neste objeto utilizaremos um caixa de colisão.
 
-A seguiur vamos criar o objeto *BP_ControlLight* do tipo `Box Trigger`.
+A seguir vamos criar o objeto `BP_ControlLight` do tipo `Actor` e adicionamos o componente de tipo `Box Collision`.
 
 {% include imagebase.html
   src="unreal/tempoespaco/unreal_engine_timeline_boxcolision.webp"
@@ -282,11 +303,9 @@ A seguiur vamos criar o objeto *BP_ControlLight* do tipo `Box Trigger`.
   caption="Figura: Blueprint - O objeto BP_ControlLight com seus componentes e variáveis."
 %}
 
-Em `BP_ControlLight` adicionamos a variável *Lampada* do tipo `PointLight` e a configuramos como publica, `Instance Editable`.
+Em `BP_ControlLight` adicionamos a variável *Lampada* do tipo `PointLight` e a configuramos como publica, `Instance Editable` para que ela possa ser acessível na janela `Details` do `Viewport`.
 
-Adicionamos na cena um componente `PointLight`.
-
-Em seguida adicionamos BP_ControlLight na cena e associamos o objeto `PointLight` na propriedade *Lamp*.
+Adicionamos na cena um componente `PointLight` e em seguida adicionamos `BP_ControlLight` na cena e associamos o objeto `PointLight` na propriedade *Lamp*.
 
 {% include imagebase.html
   src="unreal/tempoespaco/unreal_engine_timeline_variable.webp"
@@ -294,7 +313,7 @@ Em seguida adicionamos BP_ControlLight na cena e associamos o objeto `PointLight
   caption="Figura: Componente BP_ControlLight associando a variável Lamp ao objeto na cena."
 %}
 
-Em *BP_ControlLight* adicionamos a seguinte lógica para tratamento de luz;
+Em `BP_ControlLight` adicionamos a seguinte lógica para tratamento de luz;
 
 {% include imagebase.html
   src="unreal/tempoespaco/unreal_engine_timeline_logic.webp"
@@ -302,7 +321,7 @@ Em *BP_ControlLight* adicionamos a seguinte lógica para tratamento de luz;
   caption="Figura: Blueprint - Lógica para tratamento da luz utilizando Set Light Color, Set Intensity e TimeLine."
 %}
 
-A seguir vamos detalhar cada nó da lógica acima.
+A seguir vamos detalhar o nó TimeLine.
 
 ### Tipos de variáveis do objeto TimeLine
 
@@ -436,11 +455,11 @@ Nos exemplos a seguir vamos movimentar um objeto para simular a movimentação d
 
 Neste exemplo vamos implementar um movimento no eixo Y de abertura de uma porta.
 
-Adicionando o elemento Movimentando `TimeLine` e alerando a posição do objeto.
+Adicionando o elemento Movimentando `TimeLine` e alterando a posição do objeto.
 
 {% include imagebase.html
   src="unreal/tempoespaco/blueprint_timeline_movement.webp"
-  alt="Figura: Blueprint - Exemploo de movimentação deslizando a porta."
+  alt="Figura: Blueprint - Exemplo de movimentação deslizando a porta."
   caption="Figura: Blueprint - Exemplo de movimentação deslizando a porta."
 %}
 
@@ -660,23 +679,23 @@ O sistema de coordenadas descreve uma maneira de usar números para especificar 
 
 Para demonstrar vamos utilizar um vetor de 2D (x,y).
 
-|  |  |  |  |  | (Y) |  |  |  |  |  ||
-|:-:|-|-|-|-|-|-|-|-|-|-|-|
-|  |  |  |  |  |  **5**|  |  |  | D |  ||
-|  |  |  |  |  |  **4**|  |  |  |  |  ||
-|  |  |  | B |  |  **3**|  |  |  |  |  ||
-|  |  |  |  |  | **2** |  |  | C |  |  ||
-| |  |  |  |  | **1** |  |  |  |  |  |  |
-|**-5** | **-4** | **-3** | **-2** | **-1** | **0** |  **1** | **2** |**3**  |**4**  | **5** |  **(X)**|
-|  |  |  |  |  | **-1** |  |  |  |  |  |  |
-| |  |  |  |  | **-2** |  |  |  |  |  |  |
-|  |  |  |  |  | **-3** |  |  |  |  |  ||
-|  | A |  |  |  | **-4** |  |  |  |  |  ||
-|  |  |  |  |  | **-5** |  |  |  |  |  ||
+|       |         |         |       |       | (Y)   |     |     |     |     |     |       |
+|:-:    |-        |-        |-      |-      |:-:    |-    |-    |-    |-    |-    |-      |
+|       |         |         |       |       |**5**  |     |     |     | D   |     |       |
+|       |         |         |       |       |**4**  |     |     |     |     |     |       |
+|       |         |         | B     |       |**3**  |     |     |     |     |     |       |
+|       |         |         |       |       |**2**  |     |     | C   |     |     |       |
+|       |         |         |       |       |**1**  |     |     |     |     |     |       |
+|**-5** | **-4**  | **-3**  |**-2** | **-1**|**0**  |**1**|**2**|**3**|**4**|**5**|**(X)**|
+|       |         |         |       |       |**-1** |     |     |     |     |     |       |
+|       |         |         |       |       |**-2** |     |     |     |     |     |       |
+|       |         |         |       |       |**-3** |     |     |     |     |     |       |
+|       | A       |         |       |       |**-4** |     |     |     |     |     |       |
+|       |         |         |       |       |**-5** |     |     |     |     |     |       |
 
 ### Posição dos elementos
 
-Consideramos o posição dos objetos com a seguinte expressão *v = v(x,y)*, por consequinte os valores para A,B,C e D são:
+Consideramos o posição dos objetos com a seguinte expressão *v = v(x,y)*, por conseguinte os valores para A,B,C e D são:
 
 - A = a(-4,-4)
 
@@ -700,9 +719,9 @@ A Magnitude nos diz o quanto nos movemos. A distância de um movimento provará 
 
 Assuma um objeto na posição (50, 25) e queremos movê-lo para (53, 23). Isso significa um Vetor de (3, -2).
 
-- A = a(-4,-4) **->** a(2,-1)  
-  O objeto se deslocou de (-4,-4) até a nova posição (2,1)  
-  Andou 6 posições em X e 5 em Y
+- A = a(-4,-4) **->** a(2,-1)
+
+   O objeto se deslocou de (-4,-4) até a nova posição (2,1), andou 6 posições em X e 5 em Y
 
 - Direção de A = (6,5)  
 
@@ -719,13 +738,11 @@ O vetor normalizado é um par de números, cada um deles menor que um. Você pod
 
 - (.6,.8) = (3/5, 4/5)
 
-*Resultado.*
-
-O vetor normalizado das coordenadas (3,4) é (-.6,.8).
+Resultado: O vetor normalizado das coordenadas (3,4) é (-.6,.8).
 
 #### Calculando distância
 
-Usando a função `GetActorLocation` podemos determinar a distância entre dois objetos, no exemplo a segueir vamos calcular a distância dos objetos Cube e Cube2 .
+Usando a função `GetActorLocation` podemos determinar a distância entre dois objetos, no exemplo a seguir vamos calcular a distância dos objetos Cube e Cube2 .
 
 - **Cube**  
 
