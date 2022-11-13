@@ -48,14 +48,29 @@ Neste capítulo serão apresentados e implementados os elementos de controle de 
 
 Delta Time é o tempo entre cada frame, onde um frame é um quadro ou imagem apresentada, uma animação é composta por vários frames.
 
+|Time.deltafime = 0 |                                   |Tempo.DeltaTme = 0.05  | 
+|:-:                |:-:                                |:-                     |
+|Frame 1            |                                   |Frame 2                |
+|                   | Tempo passado entre frames  é 0.05|                       |
+
+Frame = 1
+
 ### Frames e Delta time
+
+{% include imagebase.html
+  src="unreal/tempoespaco/frame_walking.webp"
+  alt="Figura: Walking Frame."
+  caption="Figura: Vários quadros simulando uma animação."
+%}
 
 |       |   |   |   |   |   |   |   |   |   |   |
 |:-:    |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |
 |Frames | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10|
 | Delta | 1 | 2 | 3 |4  | 5 | 6 | 7 | 8 | 9 |   |
 
-Considerando a tabela acima podemos determinar o tempo que cadas frame e processado em milissegundos da seguinte forma:
+
+
+Considerando a tabela acima podemos determinar o tempo em milissegundos de cada frame da seguinte forma:
 
 - 10 Fps = 10 frames a cada segundo;
 
