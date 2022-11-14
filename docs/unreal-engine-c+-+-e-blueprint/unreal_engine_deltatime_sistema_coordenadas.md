@@ -10,32 +10,55 @@ layout: post
 date: 2022-09-21 
 ---
 
-## Índice
-
 ***
 
 - [O que é Delta Time?](#o-que-é-delta-time)
-
+  - [Frames e Delta time](#frames-e-delta-time)
+  - [Calculando o FPS](#calculando-o-fps)
+  - [Utilizando comandos do console](#utilizando-comandos-do-console)
+    - [Apresentando o valor de FPS](#apresentando-o-valor-de-fps)
+    - [Alterando o valor de FPS para 100](#alterando-o-valor-de-fps-para-100)
+    - [Exibindo informações de desempenho](#exibindo-informações-de-desempenho)
+  - [Fornecendo feedback sobre quanto tempo os vários Ticks de jogo estão demorando](#fornecendo-feedback-sobre-quanto-tempo-os-vários-ticks-de-jogo-estão-demorando)
+  - [Desabilitando o Tick com C++](#desabilitando-o-tick-com-c)
 - [Delta seconds](#delta-seconds)
-
+  - [Tabela de velocidade](#tabela-de-velocidade)
 - [Utilizando o Delta seconds com Event Tick](#utilizando-o-delta-seconds-com-event-tick)
-
+  - [Fixando o FPS do projeto](#fixando-o-fps-do-projeto)
+  - [Vídeo Delta time e sistema de coordenadas](#vídeo-delta-time-e-sistema-de-coordenadas)
 - [Timeline](#timeline)
-
+  - [Entradas e Saídas](#entradas-e-saídas)
+  - [Parâmetros do TimeLine](#parâmetros-do-timeline)
+- [Utilizando variáveis no Timeline](#utilizando-variáveis-no-timeline)
+  - [Tipos de variáveis do objeto TimeLine](#tipos-de-variáveis-do-objeto-timeline)
+    - [FloatVariavel](#floatvariavel)
+    - [VetorVariavel](#vetorvariavel)
+    - [CorVariavel](#corvariavel)
+    - [EventoVariavel](#eventovariavel)
 - [Acionando o evento para alterar a iluminação](#acionando-o-evento-para-alterar-a-iluminação)
-
 - [Funções Blueprint para tratamento do Timeline](#funções-blueprint-para-tratamento-do-timeline)
-
+  - [Vídeo Delta time e sistema de coordenadas  - Timeline  03 Float](#vídeo-delta-time-e-sistema-de-coordenadas----timeline--03-float)
+  - [Vídeo Delta time e sistema de coordenadas  - Timeline  04 Color](#vídeo-delta-time-e-sistema-de-coordenadas----timeline--04-color)
+  - [Vídeo Delta time e sistema de coordenadas  - Timeline  05 Event](#vídeo-delta-time-e-sistema-de-coordenadas----timeline--05-event)
+  - [Vídeo Delta time e sistema de coordenadas  - Timeline  06 Vector](#vídeo-delta-time-e-sistema-de-coordenadas----timeline--06-vector)
 - [Abrindo portas](#abrindo-portas)
-
+  - [Deslizando a porta](#deslizando-a-porta)
+  - [Girando a porta](#girando-a-porta)
+  - [Girando a porta utilizando C++](#girando-a-porta-utilizando-c)
 - [Curves](#curves)
-
 - [Exemplo de calculo de velocidade](#exemplo-de-calculo-de-velocidade)
-
 - [Sistema de coordenadas](#sistema-de-coordenadas)
-
+  - [Plano Cartesiano](#plano-cartesiano)
+  - [Posição dos elementos](#posição-dos-elementos)
+  - [Movimento no sistema coordenadas X,Y](#movimento-no-sistema-coordenadas-xy)
+  - [Movimentando o elemento B](#movimentando-o-elemento-b)
+  - [Magnitude](#magnitude)
+  - [Normalização](#normalização)
+    - [Calculando distância](#calculando-distância)
+  - [VectorLength](#vectorlength)
+  - [GetDistanceTo](#getdistanceto)
+  - [Normalize](#normalize)
 - [Verificando para onde o ator está apontando](#verificando-para-onde-o-ator-está-apontando)
-
 - [Acompanhando o movimento de um objeto](#acompanhando-o-movimento-de-um-objeto)
 
 ***
@@ -48,10 +71,10 @@ Neste capítulo serão apresentados e implementados os elementos de controle de 
 
 A simulação de movimento é realizada renderizando imagens quadro a quadro, frames, cada quadro é executado dentro de período de tempo e a diferença de tempo é chamado ded Delta, por conseguinte *Delta Time* é o tempo entre cada frame.
 
-|Time.deltafime = 0 |                                   |Tempo.DeltaTme = 0.05  |
-|:-:                |:-:                                |:-                     |
-|Frame 1            |                                   |Frame 2                |
-|                   | Tempo passado entre frames  é 0.05|                       |
+| Time.deltafime = 0 |                                    | Tempo.DeltaTme = 0.05 |
+| :----------------: | :--------------------------------: | :-------------------- |
+|      Frame 1       |                                    | Frame 2               |
+|                    | Tempo passado entre frames  é 0.05 |                       |
 
 No exemplo acima verificamos que o tempo transcorrido entre o frame 1 e o frame 2 é de 0.05 milissegundos.
 
@@ -63,10 +86,10 @@ No exemplo acima verificamos que o tempo transcorrido entre o frame 1 e o frame 
   caption="Figura: Vários quadros simulando uma animação."
 %}
 
-|       |   |   |   |   |   |   |   |   |   |   |
-|:-:    |-  |-  |-  |-  |-  |-  |-  |-  |-  |-  |
-|Frames | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10|
-|Delta  | 1 | 2 | 3 |4  | 5 | 6 | 7 | 8 | 9 |   |
+|        |     |     |     |     |     |     |     |     |     |     |
+| :----: | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Frames | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |
+| Delta  | 1   | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   |     |
 
 ### Calculando o FPS
 
@@ -177,12 +200,12 @@ Por exemplo, seu peão tem uma velocidade máxima de 100 unidades por segundo. S
 
 ### Tabela de velocidade
 
-|Distância  | Velocidade  | Distância/Velocidade  |  FPS  | Delta Seconds | Y |
-|:-:        |-            |-                      |-      |-              |-  |
-|100        | 10          | 10                    | 100   | 0,1           | 1 |
-|100        | 10          | 10                    | 60    | 0,166         |1,6|
-|100        | 10          | 10                    | 30    | 0,333         | 3 |
-|100        | 10          | 10                    | 20    | 0,5           | 5 |
+| Distância | Velocidade | Distância/Velocidade | FPS | Delta Seconds | Y   |
+| :-------: | ---------- | -------------------- | --- | ------------- | --- |
+|    100    | 10         | 10                   | 100 | 0,1           | 1   |
+|    100    | 10         | 10                   | 60  | 0,166         | 1,6 |
+|    100    | 10         | 10                   | 30  | 0,333         | 3   |
+|    100    | 10         | 10                   | 20  | 0,5           | 5   |
 
 `Delta seconds` - Intervalo entre os quadros;
 
@@ -679,19 +702,19 @@ O sistema de coordenadas descreve uma maneira de usar números para especificar 
 
 Para demonstrar vamos utilizar um vetor de 2D (x,y).
 
-|       |         |         |       |       | (Y)   |     |     |     |     |     |       |
-|:-:    |-        |-        |-      |-      |:-:    |-    |-    |-    |-    |-    |-      |
-|       |         |         |       |       |**5**  |     |     |     | D   |     |       |
-|       |         |         |       |       |**4**  |     |     |     |     |     |       |
-|       |         |         | B     |       |**3**  |     |     |     |     |     |       |
-|       |         |         |       |       |**2**  |     |     | C   |     |     |       |
-|       |         |         |       |       |**1**  |     |     |     |     |     |       |
-|**-5** | **-4**  | **-3**  |**-2** | **-1**|**0**  |**1**|**2**|**3**|**4**|**5**|**(X)**|
-|       |         |         |       |       |**-1** |     |     |     |     |     |       |
-|       |         |         |       |       |**-2** |     |     |     |     |     |       |
-|       |         |         |       |       |**-3** |     |     |     |     |     |       |
-|       | A       |         |       |       |**-4** |     |     |     |     |     |       |
-|       |         |         |       |       |**-5** |     |     |     |     |     |       |
+|        |        |        |        |        |  (Y)   |       |       |       |       |       |         |
+| :----: | ------ | ------ | ------ | ------ | :----: | ----- | ----- | ----- | ----- | ----- | ------- |
+|        |        |        |        |        | **5**  |       |       |       | D     |       |         |
+|        |        |        |        |        | **4**  |       |       |       |       |       |         |
+|        |        |        | B      |        | **3**  |       |       |       |       |       |         |
+|        |        |        |        |        | **2**  |       |       | C     |       |       |         |
+|        |        |        |        |        | **1**  |       |       |       |       |       |         |
+| **-5** | **-4** | **-3** | **-2** | **-1** | **0**  | **1** | **2** | **3** | **4** | **5** | **(X)** |
+|        |        |        |        |        | **-1** |       |       |       |       |       |         |
+|        |        |        |        |        | **-2** |       |       |       |       |       |         |
+|        |        |        |        |        | **-3** |       |       |       |       |       |         |
+|        | A      |        |        |        | **-4** |       |       |       |       |       |         |
+|        |        |        |        |        | **-5** |       |       |       |       |       |         |
 
 ### Posição dos elementos
 
