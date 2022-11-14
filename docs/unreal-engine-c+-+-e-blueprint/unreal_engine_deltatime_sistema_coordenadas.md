@@ -19,28 +19,24 @@ date: 2022-09-21
     - [Apresentando o valor de FPS](#apresentando-o-valor-de-fps)
     - [Alterando o valor de FPS para 100](#alterando-o-valor-de-fps-para-100)
     - [Exibindo informações de desempenho](#exibindo-informações-de-desempenho)
-  - [Fornecendo feedback sobre quanto tempo os vários Ticks de jogo estão demorando](#fornecendo-feedback-sobre-quanto-tempo-os-vários-ticks-de-jogo-estão-demorando)
-  - [Desabilitando o Tick com C++](#desabilitando-o-tick-com-c)
+  - [Fornecendo feedback sobre quanto tempo vários Ticks de jogo estão demorando](#fornecendo-feedback-sobre-quanto-tempo-vários-ticks-de-jogo-estão-demorando)
+    - [Desabilitando o Tick com C++](#desabilitando-o-tick-com-c)
 - [Delta seconds](#delta-seconds)
   - [Tabela de velocidade](#tabela-de-velocidade)
-- [Utilizando o Delta seconds com Event Tick](#utilizando-o-delta-seconds-com-event-tick)
+  - [Utilizando o Delta seconds com Event Tick](#utilizando-o-delta-seconds-com-event-tick)
   - [Fixando o FPS do projeto](#fixando-o-fps-do-projeto)
-  - [Vídeo Delta time e sistema de coordenadas](#vídeo-delta-time-e-sistema-de-coordenadas)
+  - [Vídeo Delta Seconds e sistema de coordenadas](#vídeo-delta-seconds-e-sistema-de-coordenadas)
 - [Timeline](#timeline)
-  - [Entradas e Saídas](#entradas-e-saídas)
-  - [Parâmetros do TimeLine](#parâmetros-do-timeline)
-- [Utilizando variáveis no Timeline](#utilizando-variáveis-no-timeline)
+  - [Parâmetros de entradas e saída](#parâmetros-de-entradas-e-saída)
+  - [Parâmetros de execução - TimeLine](#parâmetros-de-execução---timeline)
+  - [Utilizando variáveis no Timeline](#utilizando-variáveis-no-timeline)
   - [Tipos de variáveis do objeto TimeLine](#tipos-de-variáveis-do-objeto-timeline)
-    - [FloatVariavel](#floatvariavel)
-    - [VetorVariavel](#vetorvariavel)
-    - [CorVariavel](#corvariavel)
-    - [EventoVariavel](#eventovariavel)
-- [Acionando o evento para alterar a iluminação](#acionando-o-evento-para-alterar-a-iluminação)
-- [Funções Blueprint para tratamento do Timeline](#funções-blueprint-para-tratamento-do-timeline)
-  - [Vídeo Delta time e sistema de coordenadas  - Timeline  03 Float](#vídeo-delta-time-e-sistema-de-coordenadas----timeline--03-float)
-  - [Vídeo Delta time e sistema de coordenadas  - Timeline  04 Color](#vídeo-delta-time-e-sistema-de-coordenadas----timeline--04-color)
-  - [Vídeo Delta time e sistema de coordenadas  - Timeline  05 Event](#vídeo-delta-time-e-sistema-de-coordenadas----timeline--05-event)
-  - [Vídeo Delta time e sistema de coordenadas  - Timeline  06 Vector](#vídeo-delta-time-e-sistema-de-coordenadas----timeline--06-vector)
+    - [Variável float](#variável-float)
+    - [Variável Vector](#variável-vector)
+    - [Variável Color](#variável-color)
+    - [Variável Event](#variável-event)
+    - [Acionando um evento para alterar a iluminação](#acionando-um-evento-para-alterar-a-iluminação)
+  - [Funções Blueprint para tratamento do Timeline](#funções-blueprint-para-tratamento-do-timeline)
 - [Abrindo portas](#abrindo-portas)
   - [Deslizando a porta](#deslizando-a-porta)
   - [Girando a porta](#girando-a-porta)
@@ -163,7 +159,7 @@ Valores:
 
 > Para saber mais sobre cada elemento acesse o curso de Cafegeek > Computação Gráfica com Unreal Engine.
 
-### Fornecendo feedback sobre quanto tempo os vários Ticks de jogo estão demorando
+### Fornecendo feedback sobre quanto tempo vários Ticks de jogo estão demorando
 
 ```bash
 stat game
@@ -177,7 +173,7 @@ Quanto a quantidade de ticks sendo executados e o tempo que é gasto para execu�
 
 - Considere uma cena com 500 objetos Blueprints, se a propriedade `Start With Tick Enabled` está habilitada o Unreal vai testar e executar cada um dos eventos, caso não seja necessário ter um tick para os blueprints é recomendável desabilitar essa propriedade.
 
-### Desabilitando o Tick com C++
+#### Desabilitando o Tick com C++
 
 ```cpp
 APlataforma::APlataforma()
@@ -211,9 +207,7 @@ Por exemplo, seu peão tem uma velocidade máxima de 100 unidades por segundo. S
 
 `Y` - Deslocamento no eixo `Y`, aqui consideramos a quantidade de unidades que o objeto se desloca no eixo `Y`.
 
-## Utilizando o Delta seconds com Event Tick
-
-***
+### Utilizando o Delta seconds com Event Tick
 
 Para exemplificar vamos controlar o movimento do objeto independente do *FPS* utilizando o evento `Tick`.
 
@@ -249,7 +243,7 @@ Podemos fixar o *FPS* do projeto utilizando o menu `Project settings` > `Use fix
   caption="Figura: Unreal Engine - Fixando FrameRate para todo o projeto"
 %}
 
-### Vídeo Delta time e sistema de coordenadas
+### Vídeo Delta Seconds e sistema de coordenadas
 
 {% include video.html
   link="https://youtu.be/gQdT8rah4CU"
@@ -278,7 +272,7 @@ Para adicionar um objeto Timeline utilizamos Click RMB no `Event Graph`, lógica
 
 3. Trilha do Timeline - Este é o gráfico de quadro-chave para esta trilha. Você colocará quadros-chave nisso e verá a curva de interpolação resultante.
 
-### Entradas e Saídas
+### Parâmetros de entradas e saída
 
 {% include imagebase.html
   src="unreal/tempoespaco/unreal_engine_timeline_object.webp"
@@ -300,7 +294,7 @@ Para adicionar um objeto Timeline utilizamos Click RMB no `Event Graph`, lógica
 
 `New Time` - Este pino de dados recebe um valor `float` representando o tempo em segundos, para o qual a Linha de tempo pode saltar quando a `Set New Time` é chamada.
 
-### Parâmetros do TimeLine
+### Parâmetros de execução - TimeLine
 
 `Length` - Permite definir a duração da reprodução para esta Linha de tempo;
 
@@ -312,13 +306,11 @@ Para adicionar um objeto Timeline utilizamos Click RMB no `Event Graph`, lógica
 
 `Replicated` - Se ativo, a animação da Linha do tempo será replicada, pela rede, entre os clientes.
 
-## Utilizando variáveis no Timeline
-
-***
+### Utilizando variáveis no Timeline
 
 Para este exemplo vamos utilizar dois objetos, um objeto *Lamp* do tipo `Light Component`  para apresentar a estrutura de nó *TratamentoLuz* do tipo `TimeLine`, e outro objeto para controlar a *Lamp*, neste objeto utilizaremos um caixa de colisão.
 
-A seguir vamos criar o objeto `BP_ControlLight` do tipo `Actor` e adicionamos o componente de tipo `Box Collision`.
+A seguir vamos criar o objeto `BP_ControlLight` do tipo `Trigger Box`.
 
 {% include imagebase.html
   src="unreal/tempoespaco/unreal_engine_timeline_boxcolision.webp"
@@ -326,9 +318,11 @@ A seguir vamos criar o objeto `BP_ControlLight` do tipo `Actor` e adicionamos o 
   caption="Figura: Blueprint - O objeto BP_ControlLight com seus componentes e variáveis."
 %}
 
-Em `BP_ControlLight` adicionamos a variável *Lampada* do tipo `PointLight` e a configuramos como publica, `Instance Editable` para que ela possa ser acessível na janela `Details` do `Viewport`.
+1. Adicionamos a variável *Lampada* do tipo `PointLight` e a configuramos como publica, `Instance Editable` para que ela possa ser acessível na janela `Details` do `Viewport`;
 
-Adicionamos na cena um componente `PointLight` e em seguida adicionamos `BP_ControlLight` na cena e associamos o objeto `PointLight` na propriedade *Lamp*.
+2. Adicionamos o evento customizado, `Add custom event`, AlterandoIluminacao.
+
+3. Adicionamos na cena um componente `PointLight` e em seguida adicionamos `BP_ControlLight` na cena e associamos o objeto `PointLight` na propriedade *Lamp*.
 
 {% include imagebase.html
   src="unreal/tempoespaco/unreal_engine_timeline_variable.webp"
@@ -336,7 +330,7 @@ Adicionamos na cena um componente `PointLight` e em seguida adicionamos `BP_Cont
   caption="Figura: Componente BP_ControlLight associando a variável Lamp ao objeto na cena."
 %}
 
-Em `BP_ControlLight` adicionamos a seguinte lógica para tratamento de luz;
+Em `BP_ControlLight` no `Event Graph` adicionamos a seguinte lógica para tratamento de luz utilizando o evento AlterandoIluminacao.
 
 {% include imagebase.html
   src="unreal/tempoespaco/unreal_engine_timeline_logic.webp"
@@ -344,7 +338,7 @@ Em `BP_ControlLight` adicionamos a seguinte lógica para tratamento de luz;
   caption="Figura: Blueprint - Lógica para tratamento da luz utilizando Set Light Color, Set Intensity e TimeLine."
 %}
 
-A seguir vamos detalhar o nó TimeLine.
+Para adicionar o objeto `TimeLine` utilizando o comando `Add TimeLine` utilizando o menu do contexto do editor,a seguir vamos detalhar o nó `TimeLine`.
 
 ### Tipos de variáveis do objeto TimeLine
 
@@ -358,7 +352,7 @@ O gráfico utiliza os tipos de dados: `Float`, `Vector`, `Event` e `Color`.
   caption="Figura: Blueprint - Variáveis do objeto Timeline."
 %}
 
-#### FloatVariavel
+#### Variável float
 
 Tipo `float` controla a intensidade da luz durante o tempo 1.
 
@@ -368,9 +362,14 @@ Tipo `float` controla a intensidade da luz durante o tempo 1.
   caption="Figura:   Blueprint - Exemplo de variável float do DeltaTime."
 %}
 
-A seguir vamos criar variáveis para exemplicar cada tipo.
+{% include video.html
+  link="https://youtu.be/qOUYp-XWUtw"
+  src="https://img.youtube.com/vi/qOUYp-XWUtw/0.jpg"
+  alt="Vídeo: Delta time e sistema de coordenadas  - Timeline  03  Float - Unreal Engine."
+  caption="Vídeo: Delta time e sistema de coordenadas  - Timeline  03  Float - Unreal Engine."
+%}
 
-#### VetorVariavel
+#### Variável Vector
 
 Tipo `Vector` altera o valor das coordenadas durante o tempo 4.
 
@@ -380,7 +379,14 @@ Tipo `Vector` altera o valor das coordenadas durante o tempo 4.
   caption="Figura:   Blueprint - Exemplo de variável Vector do DeltaTime"
 %}
 
-#### CorVariavel
+{% include video.html
+  link="https://youtu.be/w5VpoM95B-Q"
+  src="https://img.youtube.com/vi/w5VpoM95B-Q/0.jpg"
+  alt="Vídeo: Delta time e sistema de coordenadas  - Timeline  06  Vector - Unreal Engine."
+  caption="Vídeo: Delta time e sistema de coordenadas  - Timeline  06  Vector - Unreal Engine."
+%}
+
+#### Variável Color
 
 Tipo `color` altera as cores da luz conforme o tempo passa.
 
@@ -390,7 +396,14 @@ Tipo `color` altera as cores da luz conforme o tempo passa.
   caption="Figura: Blueprint - Exemplo de variável Color do DeltaTime."
 %}
 
-#### EventoVariavel
+{% include video.html
+  link="https://youtu.be/EJQwXxjiS58"
+  src="https://img.youtube.com/vi/EJQwXxjiS58/0.jpg"
+  alt="Vídeo: Delta time e sistema de coordenadas  - Timeline  04  Color - Unreal Engine."
+  caption="Vídeo: Delta time e sistema de coordenadas  - Timeline  04  Color - Unreal Engine."
+%}
+
+#### Variável Event
 
 Tipo `Event` dispara um evento no tempo 2,4 e 6.
 
@@ -400,9 +413,7 @@ Tipo `Event` dispara um evento no tempo 2,4 e 6.
   caption="Figura: Blueprint - Exemplo de variável Color do DeltaTime."
 %}
 
-## Acionando o evento para alterar a iluminação
-
-***
+#### Acionando um evento para alterar a iluminação
 
 {% include imagebase.html
   src="unreal/tempoespaco/blueprint_timeline_call_event.webp"
@@ -410,7 +421,14 @@ Tipo `Event` dispara um evento no tempo 2,4 e 6.
   caption="Figura: Blueprint - Exemplo de variável Color do DeltaTime."
 %}
 
-## Funções Blueprint para tratamento do Timeline
+{% include video.html
+  link="https://youtu.be/YkvP6tMMly0"
+  src="https://img.youtube.com/vi/YkvP6tMMly0/0.jpg"
+  alt="Vídeo: Delta time e sistema de coordenadas  - Timeline  05 Event - Unreal Engine."
+  caption="Vídeo: Delta time e sistema de coordenadas  - Timeline  05 Event - Unreal Engine."
+%}
+
+### Funções Blueprint para tratamento do Timeline
 
 - `SetLooping`;
 
@@ -431,42 +449,6 @@ Tipo `Event` dispara um evento no tempo 2,4 e 6.
 - `ClearAndInvalidateTimerByHandle`;
 
 - `SetTimerbyFunction`;
-
-### Vídeo Delta time e sistema de coordenadas  - Timeline  03 Float
-
-{% include video.html
-  link="https://youtu.be/qOUYp-XWUtw"
-  src="https://img.youtube.com/vi/qOUYp-XWUtw/0.jpg"
-  alt="Vídeo: Delta time e sistema de coordenadas  - Timeline  03  Float - Unreal Engine."
-  caption="Vídeo: Delta time e sistema de coordenadas  - Timeline  03  Float - Unreal Engine."
-%}
-
-### Vídeo Delta time e sistema de coordenadas  - Timeline  04 Color
-
-{% include video.html
-  link="https://youtu.be/EJQwXxjiS58"
-  src="https://img.youtube.com/vi/EJQwXxjiS58/0.jpg"
-  alt="Vídeo: Delta time e sistema de coordenadas  - Timeline  04  Color - Unreal Engine."
-  caption="Vídeo: Delta time e sistema de coordenadas  - Timeline  04  Color - Unreal Engine."
-%}
-
-### Vídeo Delta time e sistema de coordenadas  - Timeline  05 Event
-
-{% include video.html
-  link="https://youtu.be/YkvP6tMMly0"
-  src="https://img.youtube.com/vi/YkvP6tMMly0/0.jpg"
-  alt="Vídeo: Delta time e sistema de coordenadas  - Timeline  05 Event - Unreal Engine."
-  caption="Vídeo: Delta time e sistema de coordenadas  - Timeline  05 Event - Unreal Engine."
-%}
-
-### Vídeo Delta time e sistema de coordenadas  - Timeline  06 Vector
-
-{% include video.html
-  link="https://youtu.be/w5VpoM95B-Q"
-  src="https://img.youtube.com/vi/w5VpoM95B-Q/0.jpg"
-  alt="Vídeo: Delta time e sistema de coordenadas  - Timeline  06  Vector - Unreal Engine."
-  caption="Vídeo: Delta time e sistema de coordenadas  - Timeline  06  Vector - Unreal Engine."
-%}
 
 ## Abrindo portas
 
@@ -656,23 +638,23 @@ Acionando a porta.
 
 Podemos criar um tipo de objeto `Curve` para que possamos utilizar em vários Blueprints e determinar a variação dos valores.
 
-Para criar um objeto do tipo `Curve` utilizamos o menu de contexto `Miscellaneous` > `Curve`.
+Para criar um objeto do tipo `Curve` utilizamos o menu de contexto `Miscellaneous` > `Curve`, para o exemplo a seguir utilize uma curva do tipo `Float` e use o nome C_TempoPorta.
 
 {% include imagebase.html
-  src="unreal/tempoespaco/blueprint_menu_curve.webp"
+  src="unreal/tempoespaco/unreal_engine_curve_create.webp"
   alt="Figura: Blueprint - Menu de contexto Miscellaneous > Curve."
   caption="Figura: Blueprint - Menu de contexto Miscellaneous > Curve."
 %}  
 
-Criando o Objeto C_TempoPorta.
+Adicionamos duas chaves ou variáveis aa Objeto C_TempoPorta.
 
 {% include imagebase.html
-  src="unreal/tempoespaco/blueprint_icon_curve.webp"
+  src="unreal/tempoespaco/unreal_engine_curve_details.webp"
   alt="Figura: Blueprint - Objeto C_TempoPorta."
   caption="Figura: Blueprint - Objeto C_TempoPorta."
 %}  
 
-Associando o objeto C_TempoPorta ao objeto Movimentando.
+Associamos o objeto C_TempoPorta ao objeto Movimentando de tipo `Timeline`.
 
 {% include imagebase.html
   src="unreal/tempoespaco/blueprint_timeline_curve.webp"
