@@ -84,15 +84,15 @@ date: 2022-09-26
   - [Surface Material](#surface-material)
   - [Displacement Material](#displacement-material)
   - [Volumetric material (atmosphere)](#volumetric-material-atmosphere)
-- [Hypershade](#hypershade)
-- [Criando materiais com as opções do menu](#criando-materiais-com-as-opções-do-menu)
-    - [Atributos do material](#atributos-do-material)
+  - [Hypershade](#hypershade)
+  - [Criando materiais com as opções do menu](#criando-materiais-com-as-opções-do-menu)
+  - [Atributos do material](#atributos-do-material)
   - [Checker ou Fluxo de trabalho](#checker-ou-fluxo-de-trabalho)
   - [Adicionando uma imagem](#adicionando-uma-imagem)
-- [Tipos de Materiais (Maya)](#tipos-de-materiais-maya)
-  - [Lambert](#lambert)
-  - [Blind](#blind)
-  - [Phong](#phong)
+  - [Tipos de Materiais (Maya)](#tipos-de-materiais-maya)
+    - [Lambert](#lambert)
+    - [Blind](#blind)
+    - [Phong](#phong)
   - [Usando Normal Map](#usando-normal-map)
 - [Renderização e Iluminação](#renderização-e-iluminação)
   - [Cameras](#cameras)
@@ -104,11 +104,12 @@ date: 2022-09-26
     - [Spot](#spot)
     - [Area](#area)
     - [Volume](#volume)
-- [Propriedades da luz](#propriedades-da-luz)
+  - [Propriedades da luz](#propriedades-da-luz)
 - [Mapeamento UV](#mapeamento-uv)
   - [Mapeamento automático](#mapeamento-automático)
     - [Planar Mapping Options](#planar-mapping-options)
     - [Ajustes usando Planar Mapping Options](#ajustes-usando-planar-mapping-options)
+  - [Mapeamento manual](#mapeamento-manual)
 - [Hide](#hide)
 - [Animando cenas no Autodesk Maya](#animando-cenas-no-autodesk-maya)
 
@@ -958,7 +959,7 @@ Para obter uma descrição de materiais volumétricos, consulte [Sobre materiais
     caption="Figura: Menu Assign New Material - Maya > Volumetric"
 %}
 
-## Hypershade
+### Hypershade
 
 {% include image.html
     src="https://help.autodesk.com/cloudhelp/2020/ENU/Maya-LightingShading/images/GUID-C59B74F1-2AFF-4EB1-8745-3D742EE005F7.png"
@@ -982,7 +983,7 @@ Ao clicar com o RMB no material listado no `Browser` acionamos o menu de context
     caption="Figura: Podemos listar os nós do material escolhendo a opção Open Graph Network."
 %}
 
-## Criando materiais com as opções do menu
+### Criando materiais com as opções do menu
 
 Para criar um material utilize:
 
@@ -990,7 +991,7 @@ Status Line: `Rendering` > `Light/Shading` > `New Material`.
 
 Status Line: `Rendering` > `Light/Shading` > `Assing New Material`, para criar e associar o material a um objeto selecionado.
 
-#### Atributos do material
+### Atributos do material
 
 Status Line: `Rendering` > `Light/Shading` > `Material Attributes`.
 
@@ -1042,11 +1043,9 @@ O elemento `Place2DTexture` é associado automáticamente a imagem para que poss
 
 `Translate`: Os atributos Translate posicionam o mapa de textura na superfície e movem a área de cobertura pela superfície. O intervalo é de - infinito a + infinito.
 
-## Tipos de Materiais (Maya)
+### Tipos de Materiais (Maya)
 
-***
-
-### Lambert
+#### Lambert
 
 simples sem reflexo, brilho e transparência)
 
@@ -1062,7 +1061,7 @@ simples sem reflexo, brilho e transparência)
 
 - Diffuse: Torna mais claro ou escuro a cor.
 
-### Blind
+#### Blind
 
 Com brilho e reflexo
 
@@ -1076,7 +1075,7 @@ Com brilho e reflexo
   
 - Reflectivity: Aumenta a intensidade do reflexo
 
-### Phong
+#### Phong
 
 Parecido com o Blind mas com mais parâmetros.
 
@@ -1186,7 +1185,7 @@ A luz preenche uma forma 3D (esfera, cilindro,etc.);
 
 Útil para: Uma representação visual do extensão da luz.
 
-## Propriedades da luz
+### Propriedades da luz
 
 {% include imagebase.html
     src="autodesk_maya/material/autodesk_maya_material_point_light.webp"
@@ -1237,6 +1236,8 @@ Para mapeamento automático siga os passos a seguir:
     alt="Figura: Planar Ajustes."
     caption="Figura: Ajuste as coordenadas da textura clicando no indicador vermelho do objeto. "
 %}
+
+### Mapeamento manual
 
 - Menu `UV` > `UV Editor`;
 
