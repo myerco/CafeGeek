@@ -15,7 +15,7 @@ layout: home
 
 - [Computação Gráfica com Unreal Engine](computacao-grafica/index.html)
 
-- [Modelagem usando Autodesk Maya](modelagem-usando-autodesk-maya/index.html)
+- [Modelagem usando Autodesk Maya](modelagem-usando-autodesk-maya/autodesk_maya.html)
 
 - [A jogatina das décadas](a_jogatina_das_decadas/index.html)
 

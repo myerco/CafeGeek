@@ -12,128 +12,104 @@ date: 2022-09-26
 
 ***
 
-## Índice
-
 - [O que é Modelagem de objetos 3D?](#o-que-é-modelagem-de-objetos-3d)
-
   - [Tipos de modelagem 3D](#tipos-de-modelagem-3d)
-
   - [Processo de construção de cenas 3D](#processo-de-construção-de-cenas-3d)
-
   - [Softwares para modelagem tridimensional](#softwares-para-modelagem-tridimensional)
-
+- [O curso de Modelagem 3D usando Autodesk Maya](#o-curso-de-modelagem-3d-usando-autodesk-maya)
+  - [Habilidades que serão aprendidas](#habilidades-que-serão-aprendidas)
 - [Começando a trabalhar com Autodesk Maya](#começando-a-trabalhar-com-autodesk-maya)
-
   - [Interface](#interface)
-
   - [Configurando a Interface](#configurando-a-interface)
-
   - [Configurando projetos](#configurando-projetos)
-
   - [Comandos de navegação](#comandos-de-navegação)
-
   - [Configuração de ViewPort](#configuração-de-viewport)
-
+    - [Mostrando a quantidade de polígonos e vértices](#mostrando-a-quantidade-de-polígonos-e-vértices)
+    - [Visualização](#visualização)
+    - [Hotbox](#hotbox)
 - [Objetos Poligonais](#objetos-poligonais)
-
   - [Menu de contexto para manipulação de malhas](#menu-de-contexto-para-manipulação-de-malhas)
-
   - [Freeze e Reset parâmetros](#freeze-e-reset-parâmetros)
-
   - [Snap de objetos](#snap-de-objetos)
-
   - [Seleção de objetos e componentes](#seleção-de-objetos-e-componentes)
-
   - [Utilizando Soft Selection](#utilizando-soft-selection)
-
   - [Simetria ou Symmetry](#simetria-ou-symmetry)
-
   - [Duplicando objetos](#duplicando-objetos)
-
   - [Pivot](#pivot)
-
   - [Deformando a malha poligonal](#deformando-a-malha-poligonal)
-
+    - [Extrude](#extrude)
+    - [Adicionando edges](#adicionando-edges)
+    - [Bevel](#bevel)
+    - [Removendo edges](#removendo-edges)
+    - [Multicut](#multicut)
+    - [Merge de vértices](#merge-de-vértices)
   - [Suavizando objetos poligonais](#suavizando-objetos-poligonais)
-
+    - [Smooth](#smooth)
+    - [Visualizando a suavização](#visualizando-a-suavização)
+    - [Extract](#extract)
   - [Append e Bridged Tool](#append-e-bridged-tool)
-
   - [Fill Hole](#fill-hole)
-
   - [Target Weld](#target-weld)
-  
-  - [Combine e Separate](#combine-e-separate)
-
-  - [Booleans](#booleans)
-
+- [Combine e Separate](#combine-e-separate)
+- [Booleans](#booleans)
 - [Organizando em camadas](#organizando-em-camadas)
-
-  - [Layer](#layer)
-
-  - [Hierarquia](#hierarquia)
-
-  - [Group](#group)
-
+- [Layer](#layer)
+- [Hierarquia](#hierarquia)
+- [Group](#group)
 - [Modelagem NURBS](#modelagem-nurbs)
-
   - [Objetos primitivos](#objetos-primitivos)
-
+    - [Esfera](#esfera)
+    - [Cubo](#cubo)
+    - [Cilindro](#cilindro)
+    - [Plano](#plano)
   - [Componentes de seleção](#componentes-de-seleção)
-
+    - [CV](#cv)
+    - [Edit Points](#edit-points)
+    - [Hulls](#hulls)
+    - [Isoparms](#isoparms)
   - [Curve Tools](#curve-tools)
-
   - [Revolve](#revolve)
-
   - [Loft](#loft)
-
   - [Extrude Nurbs](#extrude-nurbs)
-
   - [Isoparm](#isoparm)
-
+    - [Separar objetos](#separar-objetos)
+    - [Inserindo Isoparms](#inserindo-isoparms)
   - [Close e Open](#close-e-open)
-
+    - [Preenchendo uma superfície de um objeto](#preenchendo-uma-superfície-de-um-objeto)
+    - [Preenchendo o espaço entre dois objetos](#preenchendo-o-espaço-entre-dois-objetos)
   - [Project Curve on Surface](#project-curve-on-surface)
-
   - [Convertendo NURBS para poligonais](#convertendo-nurbs-para-poligonais)
-
 - [Sculpting](#sculpting)
-
 - [Materiais](#materiais)
-
   - [Surface Material](#surface-material)
-
   - [Displacement Material](#displacement-material)
-
   - [Volumetric material (atmosphere)](#volumetric-material-atmosphere)
-
-  - [Hypershade](#hypershade)
-
-  - [Criando materiais com as opções do menu](#criando-materiais-com-as-opções-do-menu)
-
+- [Hypershade](#hypershade)
+- [Criando materiais com as opções do menu](#criando-materiais-com-as-opções-do-menu)
+    - [Atributos do material](#atributos-do-material)
   - [Checker ou Fluxo de trabalho](#checker-ou-fluxo-de-trabalho)
-
   - [Adicionando uma imagem](#adicionando-uma-imagem)
-
-  - [Tipos de Materiais (Maya)](#tipos-de-materiais-maya)
-
+- [Tipos de Materiais (Maya)](#tipos-de-materiais-maya)
+  - [Lambert](#lambert)
+  - [Blind](#blind)
+  - [Phong](#phong)
   - [Usando Normal Map](#usando-normal-map)
-
 - [Renderização e Iluminação](#renderização-e-iluminação)
-
   - [Cameras](#cameras)
-
   - [Renderização](#renderização)
-
   - [Iluminação](#iluminação)
-
-  - [Propriedades da luz](#propriedades-da-luz)
-
+    - [Ambient](#ambient)
+    - [Directional](#directional)
+    - [Point](#point)
+    - [Spot](#spot)
+    - [Area](#area)
+    - [Volume](#volume)
+- [Propriedades da luz](#propriedades-da-luz)
 - [Mapeamento UV](#mapeamento-uv)
-
   - [Mapeamento automático](#mapeamento-automático)
-
-  - [Hide](#hide)
-
+    - [Planar Mapping Options](#planar-mapping-options)
+    - [Ajustes usando Planar Mapping Options](#ajustes-usando-planar-mapping-options)
+- [Hide](#hide)
 - [Animando cenas no Autodesk Maya](#animando-cenas-no-autodesk-maya)
 
 ***
@@ -208,7 +184,24 @@ Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas 
 
 - Blender;
 
-***
+## O curso de Modelagem 3D usando Autodesk Maya
+
+O objetivo deste curso é apresentar e construir elementos na ferramenta de modelagem artística 3D Autodesk Maya. O curso está associado a construção **Estética** do jogo pois nele construímos elementos para representar a narrativa e a jogabilidade.
+
+### Habilidades que serão aprendidas
+
+- Interface e estrutura de menus;
+- Configuração de ambiente de trabalho e projeto;
+- Movimentação, dimensionamento e Rotacionamento de objetos;
+- Extrudar, inserir e deformar elementos;
+- Mapeamento UV;
+- Iluminação de cenas;
+- Animação de elementos;
+- Construção de objetos com NURBS;
+
+| M         | D         | A             |
+| :-------- | :-------- | :------------ |
+| Mecânicas | Dinâmicas | **Estéticas** |
 
 ## Começando a trabalhar com Autodesk Maya
 
@@ -311,16 +304,16 @@ Cria novas cenas, uma cena pode conter vários elementos e deverão estar separa
 
 Este menu Sombreamento é exibido acima da visualização da cena ou acima de cada painel de visualização em um layout com várias visualizações de cena (como o layout de quatro visualizações).
 
-|Tecla|                                                 |
-|:-:  |:-                                               |
-|0    |Configuração de exibição de qualidade padrão     |
-|1    |Configuração de exibição de qualidade aproximada |
-|2    |Configuração de exibição de qualidade média      |
-|3    |Configuração de exibição de qualidade suave      |
-|4    |Estrutura de arame                               |
-|5    |Exibição sombreada                               |
-|6    |Exibição sombreada e texturizada                 |
-|7    |Usar todas as luzes                              |
+| Tecla |                                                  |
+| :---: | :----------------------------------------------- |
+|   0   | Configuração de exibição de qualidade padrão     |
+|   1   | Configuração de exibição de qualidade aproximada |
+|   2   | Configuração de exibição de qualidade média      |
+|   3   | Configuração de exibição de qualidade suave      |
+|   4   | Estrutura de arame                               |
+|   5   | Exibição sombreada                               |
+|   6   | Exibição sombreada e texturizada                 |
+|   7   | Usar todas as luzes                              |
 
 - [Shading](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-C6188583-EA9E-4880-AAE7-8D895FD94DD6-htm.html)
 
