@@ -1,5 +1,5 @@
 ---
-title: Autodesk Maya
+title: Modelagem 3D usando Autodesk Maya
 description: Modelagem com Autodesk Maya
 keywords: [Autodesk Maya, modelagem 3d]
 tags: [Autodesk Maya, modelagem 3d]
