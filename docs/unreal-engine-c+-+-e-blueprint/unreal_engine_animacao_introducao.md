@@ -9,33 +9,44 @@ layout: post
 date: 2022-09-25 
 ---
 
+***
+
+- [Fluxo de trabalho para animação utilizando Unreal Engine](#fluxo-de-trabalho-para-animação-utilizando-unreal-engine)
+  - [Arquivo FBX](#arquivo-fbx)
+  - [Skeleton](#skeleton)
+  - [Anim Graph](#anim-graph)
+  - [Sequence](#sequence)
+  - [Skeletal Mesh](#skeletal-mesh)
+
+***
+
+## Fluxo de trabalho para animação utilizando Unreal Engine
+
+***
+
 {% include imagebase.html
     src="unreal/animacao/unreal_engine_animation.webp"
     alt="Figura: Unreal Engine e Animação de personagens."
     caption=""
 %}
 
-## Fluxo de trabalho para animação utilizando Unreal Engine
-
-***
-
-O **Unrel Engine** fornece um fluxo de trabalho simples para construção de animações utilizando Skeletal Mesh importadas de aplicativos 3D para uso em jogos. Atualmente, apenas uma única animação para cada `Skeletal Mesh` pode ser exportada / importada em um único arquivo.
+O **Unreal Engine** fornece um fluxo de trabalho simples para construção de animações utilizando Skeletal Mesh importadas de aplicativos 3D para uso em jogos. Atualmente, apenas uma única animação para cada `Skeletal Mesh` pode ser exportada / importada em um único arquivo.
 
 Abaixo uma visão geral técnica do uso do pipeline de animações.
 
-|Importar               | Malha            | Animação       | Classe       |
-|:--                    |:-                |:-              |:-            |
-|1. Arquivo FBX         |2. Skeletal Mesh  |4. Sequence     |7. Character  |
-|                       |3. Skeletal       |5. Anim Graph   |              |
+| Importar       | Malha            | Animação      | Classe       |
+| :------------- | :--------------- | :------------ | :----------- |
+| 1. Arquivo FBX | 2. Skeletal Mesh | 4. Sequence   | 7. Character |
+|                | 3. Skeletal      | 5. Anim Graph |              |
 
 ### Arquivo FBX
 
 Embora o formato FBX seja proprietário, muitos aplicativos de modelagem e animação que não são da Autodesk podem abrir arquivos FBX. Isso permite que os criadores compartilhem modelos 3D entre si usando o formato FBX, que é eficiente porque armazena modelos como dados binários. Os arquivos .OBJ, .DXF, .3DS e .DAE (COLLADA) podem ser convertidos em arquivos FBX, usando o Autodesk FBX Converter (disponível para Windows e Mac, mas sem suporte a partir de 2013) ou Autodesk Viewer (Web).[(fileinfo)](https://fileinfo.com/extension/fbx "Fileinfo")
 
-{% include image.html
-    src="https://fileinfo.com/img/ss/lg/fbx_2691.png"
-    alt="Figura: File Autodesk FBX - fileinfo.com."
-    caption="Figura: File Autodesk FBX - fileinfo.com."
+{% include imagebase.html
+    src="unreal/animacao/unreal_engine_fbx_export_unreal.webp"
+    alt="Figura: Arquivo FBX"
+    caption="Figura: Exportando um modelo 3D do Autodesk Maya para o Unreal."
 %}
 
 ### Skeleton
@@ -52,8 +63,8 @@ Skeleton ou Esqueleto da malha importada no arquivo FBX contendo controle de mov
 
 {% include imagebase.html
     src="unreal/animacao/unreal_engine_skeleton_mannequim.webp"
-    alt="Figura: Bluprint - Editor Skeleton."
-    caption="Figura: Bluprint - Editor Skeleton."
+    alt="Figura: Blueprint - Editor Skeleton."
+    caption="Figura: Blueprint - Editor Skeleton."
 %}
 
 ### Anim Graph
@@ -101,3 +112,9 @@ Editor que permite a edição de animações.
 ### Skeletal Mesh
 
 Skeletal Mesh ou Malha do esqueleto cobre os ossos para gerenciamento de `LOD` e `clothing` (roupas).
+
+{% include imagebase.html
+    src="unreal/animacao/unreal_engine_skeletal_mesh_editor.webp"
+    alt="Figura: Skeletal Mesh."
+    caption="Figura: Editor Skeletal Mesh."
+%}
