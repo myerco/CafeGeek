@@ -94,9 +94,11 @@ ul, ol {
 }
 
 li {
-  > ul,
+  > ul {
+    margin-bottom: 5%;
+  },
   > ol {
-    margin-bottom: 10%;
+    margin-bottom: 0;
   }
 }
 
