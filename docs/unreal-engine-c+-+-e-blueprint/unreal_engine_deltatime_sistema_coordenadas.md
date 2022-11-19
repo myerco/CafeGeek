@@ -59,13 +59,13 @@ date: 2022-09-21
 
 ***
 
-Neste capítulo serão apresentados e implementados os elementos de controle de tempo (Delta Time) dentro do **Unreal Engine**, apresentaremos também funcionamento do sistema de coordenadas dos objetos.
+Neste capítulo serão apresentados e implementados os elementos de controle de tempo (Delta Time) dentro do **Unreal Engine**, apresentaremos também o funcionamento do sistema de coordenadas dos objetos.
 
 ## O que é Delta Time?
 
 ***
 
-A simulação de movimento é realizada renderizando imagens quadro a quadro, frames, cada quadro é executado dentro de período de tempo e a diferença de tempo é chamado ded Delta, por conseguinte *Delta Time* é o tempo entre cada frame.
+A simulação de movimento é realizada renderizando imagens quadro a quadro, frames, cada quadro é executado dentro de período de tempo e a diferença de tempo é chamado de Delta, por conseguinte *Delta Time* é o tempo entre cada frame.
 
 | Time.deltafime = 0 |                                    | Tempo.DeltaTme = 0.05 |
 | :----------------: | :--------------------------------: | :-------------------- |
@@ -165,13 +165,13 @@ Valores:
 stat game
 ```
 
-Quanto a quantidade de ticks sendo executados e o tempo que é gasto para execução de cada um deles, o que pode ser um problema de performance do seu jogo, mas, devemos ter em mente o seguinte:
-
-- Os eventos podem estar associados a loops, como por exemplo, for loop, while ou outras estruturas de repetição que consomem ciclos de CPU, nestes casos, otimizar essas estruturas e até reescrever a lógica é algo que deve ser considerado.
-
-> Uma dica bem legal quando ao uso de estruturas de repetição associados a ticks é que o evento Tick é um laço de repetição e pode substituir loops explicitamente, consulte o tópico "Usando o evento Tick com Blueprint" no módulo "Implementando a movimentação do personagem" para ver um exemplo do que foi falado.
+Quanto a quantidade de `ticks` sendo executados e o tempo que é gasto para execução de cada um deles, o que pode ser um problema de performance do seu jogo,  devemos ter em mente o seguinte:
 
 - Considere uma cena com 500 objetos Blueprints, se a propriedade `Start With Tick Enabled` está habilitada o Unreal vai testar e executar cada um dos eventos, caso não seja necessário ter um tick para os blueprints é recomendável desabilitar essa propriedade.
+
+- Os `Ticks` podem estar associados a loops, como por exemplo, `for loop`, `while` ou outras estruturas de repetição que consomem ciclos de CPU, caso a lógica apresente consumo elevado de CPU considere remover essas estruturas do `tick` e até reescrever a lógica.
+
+> Uma dica bem legal quanto ao uso de estruturas de repetição associados a `Ticks`, o evento `Tick` é um laço de repetição e pode substituir `loops` explicitamente, consulte o tópico "Usando o evento Tick com Blueprint" no módulo "Implementando a movimentação do personagem" para ver um exemplo do que foi falado.
 
 #### Desabilitando o Tick com C++
 
@@ -302,7 +302,7 @@ Para adicionar um objeto Timeline utilizamos Click RMB no `Event Graph`, lógica
 
 `Autoplay` - Se ativo, este nó Timeline não requer uma entrada de execução para começar e começará a tocar assim que o nível começar;
 
-`Loop` - Se estiver ativo, a animação da Linha de tempo será repetida indefinidamente, a menos que seja interrompida pelo pino de entrada Parar;
+`Loop` - Se estiver ativo, a animação da Linha de tempo será repetida indefinidamente, a menos que seja interrompida pelo pino de entrada `Stop`;
 
 `Replicated` - Se ativo, a animação da Linha do tempo será replicada, pela rede, entre os clientes.
 
@@ -337,8 +337,6 @@ Em `BP_ControlLight` no `Event Graph` adicionamos a seguinte lógica para tratam
   alt="Figura: Blueprint - Lógica para tratamento da luz utilizando Set Light Color, Set Intensity e TimeLine."
   caption="Figura: Blueprint - Lógica para tratamento da luz utilizando Set Light Color, Set Intensity e TimeLine."
 %}
-
-Para adicionar o objeto `TimeLine` utilizando o comando `Add TimeLine` utilizando o menu do contexto do editor,a seguir vamos detalhar o nó `TimeLine`.
 
 ### Tipos de variáveis do objeto TimeLine
 
