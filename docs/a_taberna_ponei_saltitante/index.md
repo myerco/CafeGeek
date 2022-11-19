@@ -64,8 +64,8 @@ date: 2022-11-18
   - [Um para Um](#um-para-um)
   - [Um para muitos](#um-para-muitos)
   - [Muitos para muitos](#muitos-para-muitos)
-  - [Um para muitos](#um-para-muitos-1)
-  - [Muitos para muitos](#muitos-para-muitos-1)
+  - [Auto-relacionamento Um-para-Muitos](#auto-relacionamento-um-para-muitos)
+  - [Auto-relacionamento Muitos-para-Muitos.Muitos para muitos](#auto-relacionamento-muitos-para-muitosmuitos-para-muitos)
   - [Formas Normais](#formas-normais)
     - [Primeira forma normal (1FN)](#primeira-forma-normal-1fn)
       - [Dependência funcional](#dependência-funcional)
@@ -117,8 +117,14 @@ Neste projeto vamos implementar os seguintes elementos :
 
 ### A cidade de Bree
 
-{% include image.html
-    src="http://tolkiengateway.net/w/images/thumb/1/13/Darek_Zabrocki_-_Morning.jpg/250px-Darek_Zabrocki_-_Morning.jpg"
+{% include imagebase.html
+    src="250px-Darek_Zabrocki_-_Morning.webp"
+    alt="Figura: A cidade de Bree."
+    caption="Figura: A cidade de Bree - <http://tolkiengateway.net/wiki/Bree>."
+%}
+
+{% include imagebase.html
+    src="a_taberna_ponei_saltitante/250px-Darek_Zabrocki_-_Morning.webp"
     alt="Figura: A cidade de Bree."
     caption="Figura: A cidade de Bree - <http://tolkiengateway.net/wiki/Bree>."
 %}
@@ -488,7 +494,19 @@ O que é o SQLDeveloper?
 
 ***
 
+{% include image.html
+    src="https://i0.wp.com/www.valinor.com.br/wp-content/uploads/2013/03/the-hobbit.jpg?w=576&ssl=1"
+    alt="Figura: Estruturas narrativas."
+    caption="Figura: Estruturas narrativas: O modelo funcional de PROPP."
+%}
+
 ### Entidade
+
+{% include imagebase.html
+    src="a_taberna_ponei_saltitante/nazgul-charge-lord-of-the-rings-character-riding-horse-wallpaper-preview.webp"
+    alt="Figura: Lord of the rings Nazgul."
+    caption="Figura: Lord of the rings Nazgul."
+%}
 
 Define-se entidade como aquele objeto que existe no mundo real com uma identificação distinta e com um significado próprio.
 
@@ -604,6 +622,12 @@ Chave primária então é o atributo (ou conjunto de atributos concatenados) que
 
 ***
 
+{% include imagebase.html
+    src="a_taberna_ponei_saltitante/lord_of_rings_luvatar.webp"
+    alt="Figura: Lord of the rings Luvatar."
+    caption="Figura: Lord of the rings Luvatar."
+%}
+
 ### Especialização
 
 Considere a entidade CLIENTE, ela pode ser definida em um conjunto de entidades classificados como :
@@ -655,7 +679,7 @@ PRODUTO - Espadas `ID` e `NOME`
 | 11   | Espada de Eldor |
 | 12   | Espada Élfica   |
 
-PRODUTOS - Escudos `ID`	e `NOME`
+PRODUTOS - Escudos `ID` e `NOME`
 
 | ID   | NOME               |
 | :--- | :----------------- |
@@ -781,12 +805,8 @@ Importante verificar que a tabela tem outros atributos que expressam valores ún
 É um tipo especial de relacionamento onde as entidades se relacionam com elas mesmas.
 Tipos de auto-relacionamentos.
 
-- Auto-relacionamento Um-para-Muitos;
+### Auto-relacionamento Um-para-Muitos
   
-- Auto-relacionamento Muitos-para-Muitos.
-
-### Um para muitos
-
 Considere a entidade CARGOS, observe que alguns cargos são filhos de outros cargos (ordem hierárquica).
 
 - Modelo lógico.
@@ -797,13 +817,13 @@ Tabela.
 
 | CARGO ID | DESCRICAO          |    VALOR | CARGO_ID |
 | :------- | :----------------- | -------: | :------- |
-| 1        | Gerente Comercial  | 1.000,00 | 4        |
+| 1        | Gerente Comercial  | 1.000,00 |          |
 | 2        | Atendente          |   500,00 | 1        |
 | 3        | Embalador          |   500,00 | 1        |
-| 4        | Gerente de Negócio | 4.000,00 | 1        |
+| 4        | Gerente de Negócio | 4.000,00 |          |
 | 5        | Contador           | 2.000,00 | 4        |
 
-### Muitos para muitos
+### Auto-relacionamento Muitos-para-Muitos.Muitos para muitos
 
 Observe que os itens registrados na entidade PRODUTO podem ser compostos de vários outros itens, componentes. Por outro lado, um item componente pode participar da composição de muitos itens
 
