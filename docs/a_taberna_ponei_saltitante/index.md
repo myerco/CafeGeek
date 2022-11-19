@@ -118,12 +118,6 @@ Neste projeto vamos implementar os seguintes elementos :
 ### A cidade de Bree
 
 {% include imagebase.html
-    src="250px-Darek_Zabrocki_-_Morning.webp"
-    alt="Figura: A cidade de Bree."
-    caption="Figura: A cidade de Bree - <http://tolkiengateway.net/wiki/Bree>."
-%}
-
-{% include imagebase.html
     src="a_taberna_ponei_saltitante/250px-Darek_Zabrocki_-_Morning.webp"
     alt="Figura: A cidade de Bree."
     caption="Figura: A cidade de Bree - <http://tolkiengateway.net/wiki/Bree>."
