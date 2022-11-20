@@ -1,27 +1,32 @@
 ---
-title: Jogatina das décadas Atividades e Referências
+title: Me conta uma história Atividades e Referências
 description: Jogatina das décadas Seção de atividades e Referências
-tags: [jogatina das decadas]
+tags: [Me conta uma história, roteiro, história, jogos digitais]
 layout: page
 ---
 
-**[Atividades](#atividades)**
-  * [1. Os objetivos](#1-os-objetivos)
-  * [2. HUD e Inputs](#2-hud-e-inputs)
-  * [3. Ambiente do Jogo](#3-ambiente-do-jogo)
-  * [4. O inimigo](#4-o-inimigo)
-  * [5. Aspectos do seu personagem principal](#5-aspectos-do-seu-personagem-principal)
-  * [6. Quanto a forma do personagem](#6-quanto-a-forma-do-personagem)
-  * [7. Modelo do personagem](#7-modelo-do-personagem)
-  * [8. O nome da história](#8-o-nome-da-hist-ria)
-  * [9. O Mapa mental da história](#9-o-mapa-mental-da-hist-ria)
-  * [10. Projeto Final](#10-projeto-final)
+***
+
+- [Atividades](#atividades)
+  - [1. Os objetivos](#1-os-objetivos)
+  - [2. HUD e Inputs](#2-hud-e-inputs)
+  - [3. Ambiente do Jogo](#3-ambiente-do-jogo)
+  - [4. O inimigo](#4-o-inimigo)
+  - [5. Aspectos do seu personagem principal](#5-aspectos-do-seu-personagem-principal)
+  - [6. Quanto a forma do personagem](#6-quanto-a-forma-do-personagem)
+  - [7. Modelo do personagem](#7-modelo-do-personagem)
+  - [8. O nome da história](#8-o-nome-da-história)
+  - [9. O Mapa mental da história](#9-o-mapa-mental-da-história)
+  - [10. Projeto Final](#10-projeto-final)
+
+***
 
 ## Atividades
 
-****
+***
 
 ### 1. Os objetivos
+
 **Regras.**
 
 1. Defina seus objetivos (Objetivo e ação);
@@ -37,6 +42,7 @@ layout: page
 ***
 
 ### 2. HUD e Inputs
+
 **Regras.**
 
 1. Apresente e descreva seu HUD (heads-up display);
@@ -50,6 +56,7 @@ layout: page
 ***
 
 ### 3. Ambiente do Jogo
+
 **Regras.**
 
 1. Adicione imagens da casa do jogador e todos os elementos visuais;
@@ -65,7 +72,9 @@ layout: page
 ***
 
 ### 4. O inimigo
+
 **Regras.**
+
 1. Nome do inimigo(s);
 
 2. Forma(s);
@@ -83,6 +92,7 @@ layout: page
 ***
 
 ### 5. Aspectos do seu personagem principal
+
 **Regras.**
 
 1. Qual a personalidade?
@@ -96,6 +106,7 @@ layout: page
 ***
 
 ### 6. Quanto a forma do personagem
+
 **Regras.**
 
 1. Idade;
@@ -115,7 +126,9 @@ layout: page
 ****
 
 ### 7. Modelo do personagem
+
 **Regras.**
+
 1. Apresente um modelo 3D do seu personagem;
 
 2. Apresente pelo menos 3 imagens em poses diferentes do personagem.
@@ -127,7 +140,9 @@ layout: page
 ***
 
 ### 8. O nome da história
+
 **Regras.**
+
 1. Escreva o titulo da sua história;
 
 1. Escreva uma breve descrição.
@@ -140,6 +155,7 @@ layout: page
   Amizade, Amor, Critica social e o Inimigo
 
 ### 9. O Mapa mental da história
+
 **Regras.**
 
 1. Organize sua história utilizando o mapa mental.
@@ -148,23 +164,24 @@ layout: page
 
 1. Apresente para os demais acadêmicos.
 
-
 ### 10. Projeto Final
+
 **Regras.**
 
 1. Publique na internet o projeto do seu jogo
 
 2. Todos os itens do modelo devem estar publicados
-  1. Hud;
-  1. História;
-  1. Objetivos;
-  1. Personagens;
-  1. Movimentação e controle;
-  1. Inimigos;
-  1. Câmera;
-  1. Música;
-  1. GamePlay - Objetivos;
-  1. Capítulos;
+
+    1. Hud;
+    1. História;
+    1. Objetivos;
+    1. Personagens;
+    1. Movimentação e controle;
+    1. Inimigos;
+    1. Câmera;
+    1. Música;
+    1. GamePlay - Objetivos;
+    1. Capítulos;
 
 3. Adicione também os itens do blox "Jogatina das Décadas"
 

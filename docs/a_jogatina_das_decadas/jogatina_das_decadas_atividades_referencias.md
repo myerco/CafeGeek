@@ -5,26 +5,25 @@ tags: [jogatina das decadas]
 layout: page
 ---
 
-**[Atividades](#atividades)**
-  * [1. Apresente um jogo do seu universo pessoal](#1-apresente-um-jogo-do-seu-universo-pessoal)
-  * [2. O jogador](#2-o-jogador)
-  * [3. O protótipo do jogo - EQUIPE](#3-o-protótipo-do-jogo---equipe)
-  * [4. O documento](#4-o-documento)  
-  * [5. A REVIEW](#5-a-review)
-  * [6. O Documento parte 2](#6-o-documento-parte-2)
-  * [7. A Avaliação](#7-a-avaliação)
+***
 
-**[Referências](#referências)**
-  * [Livros](#livros)
-  * [Internet](#internet)
-
+- [Atividades](#atividades)
+  - [1. Apresente um jogo do seu universo pessoal](#1-apresente-um-jogo-do-seu-universo-pessoal)
+  - [2. O jogador](#2-o-jogador)
+  - [3. O protótipo do jogo - EQUIPE](#3-o-protótipo-do-jogo---equipe)
+  - [4. O documento](#4-o-documento)
+  - [5. A REVIEW](#5-a-review)
+  - [6. O Documento parte 2](#6-o-documento-parte-2)
+  - [7. A Avaliação](#7-a-avaliação)
+- [Referências](#referências)
+  - [Livros](#livros)
+  - [Internet](#internet)
 
 ***
 
 ## Atividades
 
-
-****
+***
 
 ### 1. Apresente um jogo do seu universo pessoal
 
@@ -38,7 +37,6 @@ layout: page
 
 4. Quem joga e por que joga?
 
-
 **Desafio.**
 
 1. Apresente para os demais acadêmicos
@@ -46,6 +44,7 @@ layout: page
 ***
 
 ### 2. O jogador
+
 **Regras.**
 
 1. Qual tipo de jogador jogaria o seu jogo?
@@ -54,7 +53,6 @@ layout: page
 
 3. Quais são os fatores que fazem o jogador jogar o seu game?
 
-
 **Desafio.**
 
 1. Apresentem para os demais acadêmicos;
@@ -62,6 +60,7 @@ layout: page
 ***
 
 ### 3. O protótipo do jogo - EQUIPE
+
 **Regras.**
 
 1. Escolha um tema para um jogo;
@@ -73,6 +72,7 @@ layout: page
 4. Classifique seu jogo (jogo digital).
 
 **Desafio.**
+
 1. Definam o papel de cada elemento do grupo (Artista, desenvolvedor e Gerente do projeto);
 
 2. Os acadêmicos devem ter pelo menos 2 (dois)  papeis;
@@ -82,6 +82,7 @@ layout: page
 ***
 
 ### 4. O documento
+
 O documento em anexo é um conceito geral do protótipo do jogo (GDD).
 
 **Regras.**
@@ -96,12 +97,13 @@ O documento em anexo é um conceito geral do protótipo do jogo (GDD).
 **Desafio.**
 
 1. Crie um site do seu projeto com todos os elementos do projeto:
-  1. Utilize o google Site, Github ou outro;
-  2. Implemente uma apresentação visual do seu site.
+   1. Utilize o google Site, Github ou outro;
+   1. Implemente uma apresentação visual do seu site.
 
 ***
 
 ### 5. A REVIEW
+
 **Regras.**
 
 Escolha um jogo do mercado da sua escolha e o analise utilizando a seguinte estrutura:
@@ -112,7 +114,6 @@ Escolha um jogo do mercado da sua escolha e o analise utilizando a seguinte estr
 
 3. História e analise comentada sobre a representação social do jogo
 
-
 **Desafio.**
 
 1. Prepare uma vídeo de gameplay e da REVIEW e o publique no Youtube
@@ -122,6 +123,7 @@ Escolha um jogo do mercado da sua escolha e o analise utilizando a seguinte estr
 ***
 
 ### 6. O Documento parte 2
+
 **Regras.**
 
 Complete os itens do documento:
@@ -149,22 +151,22 @@ Complete os itens do documento:
 
 **Mobile.**
 
-2. Apresente um protótipo  (Somente as telas) versão mobile do seu jogo;
+1. Apresente um protótipo  (Somente as telas) versão mobile do seu jogo;
 
 **Apresentação.**
 
-3. Implemente um site com TODOS os tópicos do trabalho;
-4. Produza um vídeo explicando o trabalho com tempo de duração de no máximo 5 minutos.
+1. Implemente um site com TODOS os tópicos do trabalho;
+1. Produza um vídeo explicando o trabalho com tempo de duração de no máximo 5 minutos.
 
-**Regras**
+**Regras.**
 
-4. Trabalho em equipe;
+1. Trabalho em equipe;
 
-5. Cada elemento da equipe deve apresentar pelo menos 5 tópicos. O vídeo deve seguir a mesma regra;
+1. Cada elemento da equipe deve apresentar pelo menos 5 tópicos. O vídeo deve seguir a mesma regra;
 
-6. Valor da avaliação 60% da nota. No Classroom será registrado 100 pontos no máximo e o sistema irá calcular automaticamente a porcentagem final considerando as atividades e presenças;
+1. Valor da avaliação 60% da nota. No Classroom será registrado 100 pontos no máximo e o sistema irá calcular automaticamente a porcentagem final considerando as atividades e presenças;
 
-7. Cada membro da equipe é responsável por 25 pontos (100 pontos Classroom) da nota final do trabalho, por exemplo: (aluno A +  aluno B +  aluno C + aluno D) = nota final.
+1. Cada membro da equipe é responsável por 25 pontos (100 pontos Classroom) da nota final do trabalho, por exemplo: (aluno A +  aluno B +  aluno C + aluno D) = nota final.
 
 ***
 

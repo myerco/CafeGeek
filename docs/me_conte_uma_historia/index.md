@@ -6,107 +6,76 @@ author:
 - Cafegeek
 layout: post
 date: 2022-09-24 
-
 ---
-
-Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história.  O curso está associado a construção **Estética** do jogo pois nele definimos elementos como fantasia, narrativa e expressão.
-
-## Habilidades que serão aprendidas
-
-- Aprenda a organizar suas ideias;
-
-- Analise e construa elementos que compõem a história;
-
-- Defina o papel, motivação e evolução dos personagens;
-
-- Defina o combate dos personagens;
-
-- Defina os objetivos da história;
-
-| M         |  D          | A             |
-|:-         |:-           |:-             |
-| Mecânicas | Dinâmicas   | **Estéticas** |
 
 ***
 
-## Índice
-
 - [CAPÍTULO 1 -  Por dentro da cabeça do Game Design](#capítulo-1----por-dentro-da-cabeça-do-game-design)
-
   - [Quero ser um Game Design](#quero-ser-um-game-design)
-
   - [Quanto Ganha do Game Design?](#quanto-ganha-do-game-design)
-
   - [Características pessoais](#características-pessoais)
-
+  - [O curso Me Conta uma História](#o-curso-me-conta-uma-história)
+    - [Habilidades que serão aprendidas](#habilidades-que-serão-aprendidas)
 - [CAPÍTULO 2 -  Como construir um jogo digital?](#capítulo-2----como-construir-um-jogo-digital)
-
-  - [Conceito.](#conceito)
-
-  - [Funcional.](#funcional)
-
-  - [Artista.](#artista)
-
+  - [Conceito](#conceito)
+  - [Funcional](#funcional)
+  - [Artista](#artista)
   - [A equipe](#a-equipe)
-
   - [Tarefas](#tarefas)
-
   - [Limitações](#limitações)
-
+    - [Dinheiro](#dinheiro)
+    - [Tempo](#tempo)
+    - [Tecnologia](#tecnologia)
+    - [Expertise](#expertise)
 - [CAPÍTULO 3 -  Como organizar as ideias?](#capítulo-3----como-organizar-as-ideias)
-
   - [Onde nascem as ideias?](#onde-nascem-as-ideias)
-
   - [Cultivando ideias](#cultivando-ideias)
-
   - [O que torna a ideia interessante é](#o-que-torna-a-ideia-interessante-é)
-
   - [O que nos inspira?](#o-que-nos-inspira)
-
   - [Hábito](#hábito)
-
 - [CAPÍTULO 4 - Como construir os personagens?](#capítulo-4---como-construir-os-personagens)
-
   - [A jornada do Herói](#a-jornada-do-herói)
-
   - [Personalidade](#personalidade)
-
-  - [Cuidado com histórias licenciadas!!!](#cuidado-com-histórias-licenciadas)
-
+    - [Como ele caminha](#como-ele-caminha)
+    - [Como fala](#como-fala)
+    - [Como luta](#como-luta)
+    - [Como abre a porta](#como-abre-a-porta)
+    - [Como comemora](#como-comemora)
+    - [Como fica esperando](#como-fica-esperando)
+  - [Cuidado com histórias licenciadas](#cuidado-com-histórias-licenciadas)
   - [Motivação](#motivação)
-
+    - [Salvar a amada ou amigo](#salvar-a-amada-ou-amigo)
+    - [Sobrevivência](#sobrevivência)
+    - [Vingança](#vingança)
+    - [Salvar o mundo?](#salvar-o-mundo)
   - [Morte](#morte)
-
+    - [Valorize a morte do seu personagens](#valorize-a-morte-do-seu-personagens)
   - [Nome](#nome)
-
+    - [Significado](#significado)
+    - [Nome Curto ou longo?](#nome-curto-ou-longo)
   - [Forma](#forma)
-
+    - [Proporções faciais](#proporções-faciais)
+    - [Movimento](#movimento)
+    - [Humanidade](#humanidade)
   - [Customização](#customização)
-
   - [Não estamos sozinhos](#não-estamos-sozinhos)
-
+    - [NPC- Personagens não jogáveis](#npc--personagens-não-jogáveis)
 - [CAPÍTULO 5 - Eles todos me querem morto](#capítulo-5---eles-todos-me-querem-morto)
-
   - [Tipos de conflito](#tipos-de-conflito)
-
   - [Forma segue a função](#forma-segue-a-função)
-
+    - [Tamanho](#tamanho)
+    - [Comportamento](#comportamento)
+    - [Velocidade](#velocidade)
   - [Lutar com inimigos deve ser divertido](#lutar-com-inimigos-deve-ser-divertido)
-
   - [Ataques](#ataques)
-
   - [Nem tudo é ataque](#nem-tudo-é-ataque)
-
   - [Faça o jogador odiar seu inimigo](#faça-o-jogador-odiar-seu-inimigo)
-
   - [BOSS](#boss)
-
+    - [Quando enfrentar?](#quando-enfrentar)
+    - [Quem é?](#quem-é)
   - [Componentes de uma luta](#componentes-de-uma-luta)
-
   - [Deixe o jogador administrar o golpe final](#deixe-o-jogador-administrar-o-golpe-final)
-
   - [Locação](#locação)
-
 - [Referências](#referências)
 
 ***
@@ -169,6 +138,26 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 
 - Prestar atenção a opinião de outras pessoas.
 
+### O curso Me Conta uma História
+
+Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história.  O curso está associado a construção **Estética** do jogo pois nele definimos elementos como fantasia, narrativa e expressão.
+
+#### Habilidades que serão aprendidas
+
+- Aprenda a organizar suas ideias;
+
+- Analise e construa elementos que compõem a história;
+
+- Defina o papel, motivação e evolução dos personagens;
+
+- Defina o combate dos personagens;
+
+- Defina os objetivos da história;
+
+| M         | D         | A             |
+| :-------- | :-------- | :------------ |
+| Mecânicas | Dinâmicas | **Estéticas** |
+
 ## CAPÍTULO 2 -  Como construir um jogo digital?
 
 > "Se você quiser fazer uma torta de maçã do nada, você precisa, primeiro, inventar o universo."
@@ -228,16 +217,16 @@ Organizar a equipe é um trabalho interessante quando compreendemos as Caracter�
     caption="Figura: Mas qual é a diferença entre design de games, game art e game design? - <https://unidigitaldobrasil.com.br/carreira-na-industria-de-games-design-de-games-game-art-ou-game-design/>."
 %}
 
-|Profissional |Papel                                  |
-|:-           |:-                                     |
-|Programador  |Desenvolvimento da mecânica do jogo    |
-|Artista      |Arte 2D, Arte 3D e animações           |
-|Design       |Ambiente e mecânica                    |
-|Produtor     |Financiador e pode ter controle sobre o produto   |
-|Testador     |Realiza testes do produto   |
-|Compositor   |Musica tema e ambiente   |
-|Sound design |Elementos sonoros durante a gameplay    |
-|Redator      |Roteirização e pesquisa documental   |
+| Profissional | Papel                                           |
+| :----------- | :---------------------------------------------- |
+| Programador  | Desenvolvimento da mecânica do jogo             |
+| Artista      | Arte 2D, Arte 3D e animações                    |
+| Design       | Ambiente e mecânica                             |
+| Produtor     | Financiador e pode ter controle sobre o produto |
+| Testador     | Realiza testes do produto                       |
+| Compositor   | Musica tema e ambiente                          |
+| Sound design | Elementos sonoros durante a gameplay            |
+| Redator      | Roteirização e pesquisa documental              |
 
 Podemos comparar como trabalhar um grande desafio com um grupo de amigos onde cada um papel definido.
 
@@ -251,13 +240,13 @@ Podemos comparar como trabalhar um grande desafio com um grupo de amigos onde ca
 
 Quais são as tarefas e atividades que devem ser executadas, por onde começamos? uma resposta para a pergunta é organize em pacotes de entrega. Defina e agrupe um conjunto de entregas baseadas em funcionalidades e comece a organizar a sua agenda.
 
-|Tarefas          |Descrição                                            |
-|:--              |:--                                                  |
-|Prototipação     |Protótipo ou modelo do jogo                          |
-|Level design     |Ambiente e mecânica                                  |
-|Interface        |Interface com o jogador - HUD                        |
-|Gerenciamento    |Acompanhamento das tarefas e comunicação das equipes |
-|Líder de equipe  |Atua como interface entre as diversas necessidades   |
+| Tarefas         | Descrição                                            |
+| :-------------- | :--------------------------------------------------- |
+| Prototipação    | Protótipo ou modelo do jogo                          |
+| Level design    | Ambiente e mecânica                                  |
+| Interface       | Interface com o jogador - HUD                        |
+| Gerenciamento   | Acompanhamento das tarefas e comunicação das equipes |
+| Líder de equipe | Atua como interface entre as diversas necessidades   |
 
 {% include image.html
     src="https://www.researchgate.net/profile/Juergen-Musil/publication/221045927/figure/fig2/AS:305624014442498@1449877851418/Simple-workflow-oriented-process-for-game-development.png"

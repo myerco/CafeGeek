@@ -1,6 +1,6 @@
 ---
 title: Luis XV o rei
-description: História sem nome.
+description: História sem nome do Luis.
 tags: [Unreal Engine, trabalhos, jogos digitais]
 author: CafeGeek
 layout: page

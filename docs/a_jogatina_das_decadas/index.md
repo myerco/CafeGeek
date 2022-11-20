@@ -15,109 +15,107 @@ date: 2022-09-24
     caption="Figura: A jogatina das décadas."
 %}
 
-O objetivo deste curso é apresentar e trabalhar com a definição do que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização. O curso está associado a construção **Estética** do jogo pois nele definimos elementos como sensação, desafio, descoberta e passatempo.
-
-## Habilidades que serão aprendidas
-
-- Analise e conceitue jogos;
-
-- Analise e defina tipos de jogos;
-
-- Analise e defina os tipos de jogadores;
-
-- Conheça o mercado de jogos digitais;
-
-- Implemente um protótipo de jogo;
-
-- Analise e conceitue a Gamificação.
-
-| M         |  D          | A         |
-|:-         |:-           |:-         |
-| Mecânicas | Dinâmicas   | **Estéticas** |
-
 ***
 
 - [CAPÍTULO 1 - O que é um Jogo?](#capítulo-1---o-que-é-um-jogo)
-
+  - [O curso de Jogatina das Décadas](#o-curso-de-jogatina-das-décadas)
+    - [Habilidades que serão aprendidas](#habilidades-que-serão-aprendidas)
   - [Teria o jogo lugar no sistema de vida?](#teria-o-jogo-lugar-no-sistema-de-vida)
-  
+  - [Homo Ludens](#homo-ludens)
+    - [O riso e o jogo segundo Johan Huizinga](#o-riso-e-o-jogo-segundo-johan-huizinga)
   - [A Tensão como um elemento do jogo](#a-tensão-como-um-elemento-do-jogo)
-
   - [Resumo do capítulo 1](#resumo-do-capítulo-1)
-  
+    - [O que é um jogo?](#o-que-é-um-jogo)
+    - [O ser humano e o jogo](#o-ser-humano-e-o-jogo)
+    - [O jogo é?](#o-jogo-é)
 - [CAPÍTULO  2 - Qual a função do jogo?](#capítulo--2---qual-a-função-do-jogo)
-
-  - [O papel do jogo na sociedade?](#o-papel-do-jogo-na-sociedade)
-
+  - [O papel do jogo na sociedade](#o-papel-do-jogo-na-sociedade)
   - [O jogo Arte e Cultura](#o-jogo-arte-e-cultura)
-
   - [O jogo e a Guerra](#o-jogo-e-a-guerra)
-
   - [O jogo e o Direito](#o-jogo-e-o-direito)
-
   - [O jogo e a Linguagem](#o-jogo-e-a-linguagem)
-
   - [Algumas considerações sobre o jogo](#algumas-considerações-sobre-o-jogo)
-
   - [Resumo do capítulo 2](#resumo-do-capítulo-2)
-
+    - [O que é a função do jogo?](#o-que-é-a-função-do-jogo)
 - [CAPÍTULO 3 - Quem joga?](#capítulo-3---quem-joga)
-
   - [O jogador](#o-jogador)
-
   - [O que é jogar?](#o-que-é-jogar)
-
   - [Por que jogar?](#por-que-jogar)
-
   - [Os Fatores motivacionais](#os-fatores-motivacionais)
-
+    - [Exploração](#exploração)
+    - [Fantasia](#fantasia)
+    - [Quebrar as regras sociais](#quebrar-as-regras-sociais)
+    - [Exercitar-se](#exercitar-se)
+    - [Demonstrar-se](#demonstrar-se)
+    - [Sociabilizar-se](#sociabilizar-se)
+    - [Reconhecimento](#reconhecimento)
+    - [Aprendizado](#aprendizado)
+    - [Marca](#marca)
   - [Fatores não motivacionais](#fatores-não-motivacionais)
-
+    - [Respostas sensoriais](#respostas-sensoriais)
+    - [Gráficos](#gráficos)
+    - [Som](#som)
+    - [Música](#música)
+    - [Efeitos especiais](#efeitos-especiais)
+    - [Jogabilidade](#jogabilidade)
+    - [Cognição](#cognição)
+    - [Coordenação](#coordenação)
 - [CAPÍTULO 4 - Como são classificados os jogos?](#capítulo-4---como-são-classificados-os-jogos)
-
   - [Tabuleiro](#tabuleiro)
-
   - [Cartas](#cartas)
-
   - [Atléticos](#atléticos)
-
   - [Infantis](#infantis)
-
   - [Eletrônicos](#eletrônicos)
-
-- [CAPÍTULO 5 - O que é um jogo eletrônico?](#capítulo-5---o-que-é-um-jogo-eletrônico)
-
+- [Capítulo 5 - O que é um jogo eletrônico?](#capítulo-5---o-que-é-um-jogo-eletrônico)
   - [As características dos jogos Eletrônicos](#as-características-dos-jogos-eletrônicos)
-
+    - [Foco](#foco)
+    - [Interatividade](#interatividade)
+    - [Conflito](#conflito)
+    - [Segurança](#segurança)
   - [Desafio](#desafio)
-
   - [Divertimento](#divertimento)
-
   - [Os tipos de jogos Eletrônicos](#os-tipos-de-jogos-eletrônicos)
-
   - [O mercado de jogos eletrônicos](#o-mercado-de-jogos-eletrônicos)
-
   - [Qual o  custo de produção de jogo eletrônico?](#qual-o--custo-de-produção-de-jogo-eletrônico)
-
+    - [2009](#2009)
+    - [2010](#2010)
+    - [2011](#2011)
+    - [2012](#2012)
+    - [2013](#2013)
+    - [2014](#2014)
   - [Complexidade e valor de produção](#complexidade-e-valor-de-produção)
-
-  - [Evolução dos jogos eletrônicos](#evolução-dos-jogos-eletrônicos)
-
-  - [Era dos Videogames](#era-dos-videogames)
-
-  - [Jogos mobile](#jogos-mobile)
-
+- [Evolução dos jogos eletrônicos](#evolução-dos-jogos-eletrônicos)
+  - [Primeira geração (1971-1977)](#primeira-geração-1971-1977)
+  - [Segunda geração (1978 - 1983)](#segunda-geração-1978---1983)
+  - [Terceira geração (1984 - 1990)](#terceira-geração-1984---1990)
+  - [Quarta geração (1991 - 1999)](#quarta-geração-1991---1999)
+  - [Quinta Geração (2000 - Hoje)](#quinta-geração-2000---hoje)
+- [Era dos Videogames](#era-dos-videogames)
+  - [Nintendo](#nintendo)
+  - [Sony](#sony)
+  - [Microsoft](#microsoft)
+  - [Jogos de consoles (Xbox, PS)](#jogos-de-consoles-xbox-ps)
+  - [Jogos de consoles (Nintendo)](#jogos-de-consoles-nintendo)
+  - [Jogos para computador](#jogos-para-computador)
+  - [Jogos para celular](#jogos-para-celular)
+- [Jogos mobile](#jogos-mobile)
+  - [Monetização](#monetização)
+  - [Modelos de monetização](#modelos-de-monetização)
+  - [Tipos de anúncios](#tipos-de-anúncios)
+  - [Qual o melhor modelo?](#qual-o-melhor-modelo)
 - [CAPÍTULO 6 - Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?](#capítulo-6---por-que-as-pessoas-são-viciadas-em-videogames-e-não-são-viciadas-em-trabalho)
-
   - [Introdução](#introdução)
-
+    - [Gamificação](#gamificação)
   - [O que é trabalho?](#o-que-é-trabalho)
-
   - [Por que trabalhamos?](#por-que-trabalhamos)
-
   - [Colocando Você na Caixa de Skinner](#colocando-você-na-caixa-de-skinner)
-
-[Atividades e Referências](jogatina_das_decadas_atividades_referencias.html)
+    - [Criando alimento virtual para você comer](#criando-alimento-virtual-para-você-comer)
+    - [Fazendo você pressionar a alavanca](#fazendo-você-pressionar-a-alavanca)
+    - [Mantendo você pressionando…para sempre](#mantendo-você-pressionandopara-sempre)
+    - [Fazendo com você chame a Skinner Box de casa](#fazendo-com-você-chame-a-skinner-box-de-casa)
+    - [Autonomia](#autonomia)
+    - [Complexidade](#complexidade)
+    - [Conexão entre esforço e recompensa](#conexão-entre-esforço-e-recompensa)
 
 ***
 
@@ -159,6 +157,24 @@ que, depois de *Homo faber* e talvez ao mesmo nível de *Homo sapiens*, a expres
 nossa nomenclatura."
 
 > Latim “Ludus”, “Ludere” que designava os jogos infantis.
+
+### O curso de Jogatina das Décadas
+
+O objetivo deste curso é apresentar e trabalhar com a definição do que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização. O curso está associado a construção **Estética** do jogo pois nele definimos elementos como sensação, desafio, descoberta e passatempo.
+
+#### Habilidades que serão aprendidas
+
+- Analise e conceitue jogos;
+
+- Analise e defina tipos de jogos;
+
+- Analise e defina os tipos de jogadores;
+
+- Conheça o mercado de jogos digitais;
+
+- Implemente um protótipo de jogo;
+
+- Analise e conceitue a Gamificação.
 
 ### Teria o jogo lugar no sistema de vida?
 
@@ -248,6 +264,10 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 - O jogo é tenso;
 
 - O jogo é divertido.
+
+| M         | D         | A             |
+| :-------- | :-------- | :------------ |
+| Mecânicas | Dinâmicas | **Estéticas** |
 
 ## CAPÍTULO  2 - Qual a função do jogo?
 

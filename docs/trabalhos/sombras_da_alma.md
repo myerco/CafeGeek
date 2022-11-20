@@ -1,6 +1,6 @@
 ---
 title: Sombras da Alma
-description: História sem nome.
+description: História Sombras da alma.
 tags: [Unreal Engine, trabalhos, jogos digitais]
 author: CafeGeek
 layout: page
