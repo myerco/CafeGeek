@@ -11,8 +11,8 @@ date: 2022-09-24
 
 {% include imagebase.html
     src="jogatina_das_decadas/jogatina_das_decadas_2.webp"
-    alt="Figura: A jogatina das décadas."
-    caption="Figura: A jogatina das décadas."
+    alt="A jogatina das décadas"
+    caption=""
 %}
 
 ***
