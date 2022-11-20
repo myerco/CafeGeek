@@ -135,7 +135,7 @@ Cada pedaço da imagem é composto por um ponto chamado de pixel.
 {% include image.html
     src="https://www.marceloaventura.art.br/blog/wp-content/uploads/2012/10/resolucao00.png"
     alt="Figura: Imagem bitmap."
-    caption="Figura: Imagem bitmap  - <www.marceloaventura.art.br>."
+    caption="Figura: Imagem bitmap."
 %}
 
 ### Vector Graphics
@@ -147,7 +147,7 @@ Em um programa de gráficos vetoriais, fornecemos o ponto inicial e o ponto fina
 {% include image.html
     src="https://etc.usf.edu/techease/wp-content/uploads/2017/12/Vector.jpg"
     alt="Figura: Vector Graphics."
-    caption="Figura: Vector Graphics - <https://etc.usf.edu.>."
+    caption="Figura: Vector Graphics."
 %}
 
 Mas tem outra vantagem. Se aplicarmos zoom a uma imagem bitmap, podemos ver os pixels e teremos uma imagem ruim. Em gráficos vetoriais, ampliar uma imagem não envolve uma imagem ruim porque a imagem é criada por uma fórmula matemática.
