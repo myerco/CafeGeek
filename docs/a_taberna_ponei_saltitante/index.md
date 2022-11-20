@@ -919,15 +919,23 @@ CLIENTE.
 
 #### Segunda forma normal (2FN)
 
-A segunda forma normal assegura que não exista dependência funcional parcial no modelo de dados. Para aplicarmos a segunda forma normal em um modelo de dados devemos observar se alguma entidade do modelo possui chave primária concatenada e verificar se existe algum atributo ou conjunto de atributos com dependência parcial em relação a algum atributo da chave primária concatenada. Exemplo: A entidade PRODUTO_NOTA apresenta uma chave primária concatenada e por observação, notamos que os atributos QUANTIDADE e VALOR_VENDA dependem de forma parcial do atributo PRODUTO_ID, que faz parte da chave primária.
+A segunda forma normal assegura que não exista dependência funcional parcial no modelo de dados. Para aplicarmos a segunda forma normal em um modelo de dados devemos observar se alguma entidade do modelo possui chave primária concatenada e verificar se existe algum atributo ou conjunto de atributos com dependência parcial em relação a algum atributo da chave primária concatenada.
+
+Exemplo:
+
+A entidade PRODUTO_NOTA apresenta uma chave primária concatenada e por observação, notamos que os atributos QUANTIDADE e VALOR_VENDA dependem de forma parcial do atributo PRODUTO_ID, que faz parte da chave primária.
 
 #### Terceira forma normal (3FN)
 
-A terceira forma normal assegura que nenhuma entidade do modelo de dados possui atributos com dependência transitiva. Assim, uma entidade está na 3FN se nenhum de seus atributos possui dependência transitiva em relação a outro atributo da entidade que não participe da chave primária, ou seja, não existe nenhum atributo intermediário entre a chave primária e o próprio atributo observado. Ao retirarmos a dependência funcional transitiva, devemos criar uma nova entidade que contenha os atributos que dependem transitivamente de outro e a sua chave primária é o atributo que causou esta dependência. Também não devem conter atributos derivados, como por exemplo VALOR TOTAL.
+A terceira forma normal assegura que nenhuma entidade do modelo de dados possui atributos com dependência transitiva. Assim, uma entidade está na 3FN se nenhum de seus atributos possui dependência transitiva em relação a outro atributo da entidade que não participe da chave primária, ou seja, não existe nenhum atributo intermediário entre a chave primária e o próprio atributo observado.
+
+Ao retirarmos a dependência funcional transitiva, devemos criar uma nova entidade que contenha os atributos que dependem transitivamente de outro e a sua chave primária é o atributo que causou esta dependência. Também não devem conter atributos derivados, como por exemplo VALOR TOTAL.
 
 #### Forma Normal de Boyce/Codd
 
-A forma normal Boyce/Codd foi desenvolvida com o objetivo de resolver algumas situações que não eram inicialmente cobertas pelas três formas normais, em especial quando haviam várias chaves na entidade, formadas por mais de um atributo (chaves compostas) e que ainda compartilham ao menos um atributo. Isso nos leva a concluir que, o problema se devia ao fato de até agora as formas normais tratarem de atributos dependentes de chaves primárias. Assim, para estar na FNBC, uma entidade precisa possuir somente atributos que são chaves candidatas. Vamos analisar o caso em que temos uma entidade formada pelos seguintes atributos:
+A forma normal Boyce/Codd foi desenvolvida com o objetivo de resolver algumas situações que não eram inicialmente cobertas pelas três formas normais, em especial quando haviam várias chaves na entidade, formadas por mais de um atributo (chaves compostas) e que ainda compartilham ao menos um atributo.
+
+Isso nos leva a concluir que, o problema se devia ao fato de até agora as formas normais tratarem de atributos dependentes de chaves primárias. Assim, para estar na FNBC, uma entidade precisa possuir somente atributos que são chaves candidatas. Vamos analisar o caso em que temos uma entidade formada pelos seguintes atributos:
 
 | TURMA_CURSO | ALUNO_ID | TURMA | CURSO_ID | PROFESSOR_ID |
 | :---------- | :------- | ----: | :------- | :----------- |
