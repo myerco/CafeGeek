@@ -11,8 +11,7 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 
 ***
 
-<a name="indice"></a>
-**[CAPÍTULO  1 - Roteiros](#1 "CAPÍTULO  1 - Roteiros")**
+[CAPÍTULO  1 - Roteiros](#1 "CAPÍTULO  1 - Roteiros")
 
 ***
 
@@ -60,10 +59,6 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 ***
 
 &nbsp;&nbsp;[4.1 Death Vip](modelo_gdd_death_vip.html)
-
-&nbsp;&nbsp;[4.2 Árvore  de Talentos](jogos_digitais_talentos.drawio.html)
-
-&nbsp;&nbsp;[4.3 Árvore  de Atividades](jogos_digitais_atividades.drawio.html)
 
 ***
 
