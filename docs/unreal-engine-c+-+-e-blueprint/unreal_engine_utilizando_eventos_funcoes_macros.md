@@ -9,26 +9,28 @@ layout: post
 date: 2022-09-21 
 ---
 
-## Índice
-
 ***
 
 - [Entendo Métodos e funções em programação](#entendo-métodos-e-funções-em-programação)
-
+  - [Programação Orientada a Objetos](#programação-orientada-a-objetos)
+  - [Métodos](#métodos)
+  - [Funções](#funções)
 - [O que são Eventos em Blueprint](#o-que-são-eventos-em-blueprint)
-
-- [Funções](#funções)
-
-- [Funções Puras](#funções-puras)
-
+  - [Evento de dano  no personagem](#evento-de-dano--no-personagem)
+  - [Chamando o evento](#chamando-o-evento)
+  - [Evento e Métodos](#evento-e-métodos)
+  - [Exemplo C++](#exemplo-c)
+- [Funções no Unreal Engine](#funções-no-unreal-engine)
+  - [Exemplo de uma função em C++](#exemplo-de-uma-função-em-c)
+  - [Exemplo de uma função Blueprint](#exemplo-de-uma-função-blueprint)
+  - [Funções Puras](#funções-puras)
 - [Macros](#macros)
-
+  - [Exemplo de uma macro em C++](#exemplo-de-uma-macro-em-c)
+  - [Exemplo de uma macro em Blueprint](#exemplo-de-uma-macro-em-blueprint)
 - [Collapse Nodes](#collapse-nodes)
-
 - [Executando a função e a macro](#executando-a-função-e-a-macro)
 
-
-*** 
+***
 
 ## Entendo Métodos e funções em programação
 
@@ -124,7 +126,6 @@ Os eventos podem ser acessados dentro do **Blueprints** para implementar novas f
 
 - Pertence a classe *BP_Hero* do tipo **Character**.
 
-
 {% include imagebase.html
     src="unreal/modulos/blueprint_event_damaged_overlap.webp"
     alt="Figura: Blueprint - Evento de chamado de evento."
@@ -172,7 +173,7 @@ void AProjeto::Tick(float DeltaTime)
 };
 ```
 
-## Funções
+## Funções no Unreal Engine
 
 ***
 
@@ -187,7 +188,7 @@ Podem receber parâmetros externos e retornam algum valor para o programa que ex
 
 - Não aceitam eventos customizados.
 
-### Exemplo C++ de funções
+### Exemplo de uma função em C++
 
 ```cpp
 // Função com parâmetros
@@ -199,7 +200,7 @@ void CalculoIMC(float pPeso, float pAltura) {
 };
 ```
 
-### Exemplo Blueprint de funções
+### Exemplo de uma função Blueprint
 
 {% include imagebase.html
     src="unreal/modulos/blueprint_function_calc_imc.webp"
@@ -207,7 +208,7 @@ void CalculoIMC(float pPeso, float pAltura) {
     caption="Figura: Blueprint - Exemplo de CalculoIMC."
 %}
 
-## Funções Puras
+### Funções Puras
 
 Na programação de computadores, uma função pura é uma função que possui as seguintes propriedades[[1](https://en.wikipedia.org/wiki/Pure_function)]:
 
@@ -267,7 +268,7 @@ Blueprint Macros, ou Macros, são essencialmente iguais a gráficos de nós reco
 
 - Não podem ser replicados em jogos multiplayer.
 
-### Exemplo C++ de macros
+### Exemplo de uma macro em C++
 
 ```cpp
 #define MIN(a,b) (((a)<(b)) ? a : b)
@@ -275,7 +276,7 @@ Blueprint Macros, ou Macros, são essencialmente iguais a gráficos de nós reco
 std::cout << "The minimum is " << MIN(42, 8) << endl;
 ```
 
-### Exemplo Blueprint de macros
+### Exemplo de uma macro em Blueprint
 
 {% include imagebase.html
     src="unreal/modulos/blueprint_macro_example.webp"

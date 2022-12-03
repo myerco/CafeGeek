@@ -9,19 +9,14 @@ layout: post
 date: 2022-09-21 
 ---
 
-## Índice
-
 ***
 
 - [Como é o desenvolvimento de jogos digitais?](#como-é-o-desenvolvimento-de-jogos-digitais)
-
 - [O que é uma Engine e Framework?](#o-que-é-uma-engine-e-framework)
-
 - [Ciclo da lógica do desenvolvimento de um jogo](#ciclo-da-lógica-do-desenvolvimento-de-um-jogo)
-
 - [O que é Unreal Engine?](#o-que-é-unreal-engine)
-
 - [O curso de Unreal Engine com C++ e Blueprint](#o-curso-de-unreal-engine-com-c-e-blueprint)
+  - [Habilidades que serão aprendidas](#habilidades-que-serão-aprendidas)
 
 ***
 

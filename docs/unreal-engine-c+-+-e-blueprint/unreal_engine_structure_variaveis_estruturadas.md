@@ -9,13 +9,20 @@ layout: post
 date: 2022-09-25 
 ---
 
-## Índice
-
 ***
 
 - [O que são variáveis do tipo Structure?](#o-que-são-variáveis-do-tipo-structure)
-
 - [Structure e Class](#structure-e-class)
+  - [C++ Struct](#c-struct)
+  - [C++ Class](#c-class)
+    - [C++ Struct Unreal](#c-struct-unreal)
+    - [C++ Class Unreal](#c-class-unreal)
+- [Criando variáveis do tipo Structure com Blueprint](#criando-variáveis-do-tipo-structure-com-blueprint)
+  - [Definindo variáveis dentro da estrutura](#definindo-variáveis-dentro-da-estrutura)
+  - [Acessando as variáveis](#acessando-as-variáveis)
+  - [Exemplo do uso de variáveis Structure](#exemplo-do-uso-de-variáveis-structure)
+    - [Criando o objeto SControleLuzes](#criando-o-objeto-scontroleluzes)
+    - [Lógica para construir os elementos na cena](#lógica-para-construir-os-elementos-na-cena)
 
 ***
 
@@ -91,7 +98,9 @@ private:
 };
 ```
 
-### Criando variáveis do tipo Structure com Blueprint
+## Criando variáveis do tipo Structure com Blueprint
+
+***
 
 Neste passo vamos criar o objeto *SJogador* do tipo `Structure` para exemplificar o uso das variáveis utilizando o menu de contexto `Blueprints` > `Structure`.
 
@@ -101,7 +110,7 @@ Neste passo vamos criar o objeto *SJogador* do tipo `Structure` para exemplifica
     caption="Figura: Blueprint - Menu de contexto Blueprints > Structure."
 %}
 
-#### Definindo variáveis dentro da estrutura
+### Definindo variáveis dentro da estrutura
 
 A seguir vamos adicionar variáveis dentro do da estrutura criada.
 
@@ -117,13 +126,13 @@ A seguir vamos adicionar variáveis dentro do da estrutura criada.
 
 1. Forca do tipo `Float` - Total de força do jogador;
 
-1. Nivel do tipo `Integer` - O Nível que o jogador se encontra;
+1. Nível do tipo `Integer` - O Nível que o jogador se encontra;
 
 1. Imagem do tipo `Texture2D/References` - Armazena imagem 2d que representa o jogador;
 
 1. Personagem do tipo `Character/Class` - Armazena a classe de objeto do personagem do jogador.
 
-#### Acessando as variáveis
+### Acessando as variáveis
 
 Para acessar as variáveis que estão dentro da objeto do tipo `Structure` vamos utilizar `Break Structure`.  
 

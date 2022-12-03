@@ -9,19 +9,26 @@ layout: post
 date: 2022-09-30 
 ---
 
-## Índice
 
 ***
 
-[Ferramentas para controle de versão](#ferramentas-para-controle-de-versão)
-
-[Estrutura do GIT](#estrutura-do-git)
-
-[Entendo o fluxo de trabalho](#entendo-o-fluxo-de-trabalho)
-
-[Começando a trabalhar com o Git e o Unreal Engine](#começando-a-trabalhar-com-o-git-e-o-unreal-engine)
-
-[Ignorando pastas e arquivos](#ignorando-pastas-e-arquivos)
+- [Ferramentas para controle de versão](#ferramentas-para-controle-de-versão)
+- [Estrutura do GIT](#estrutura-do-git)
+- [Entendo o fluxo de trabalho](#entendo-o-fluxo-de-trabalho)
+- [Começando a trabalhar com o Git e o Unreal Engine](#começando-a-trabalhar-com-o-git-e-o-unreal-engine)
+  - [Criando uma conta e o projeto no Github](#criando-uma-conta-e-o-projeto-no-github)
+  - [Instalando Git Client e GitHub Desktop](#instalando-git-client-e-github-desktop)
+  - [Configurando Unreal Engine para utilizar o Git](#configurando-unreal-engine-para-utilizar-o-git)
+  - [Configurando o Github Desktop e adicionando o projeto](#configurando-o-github-desktop-e-adicionando-o-projeto)
+- [Criando o projeto remoto e atualizando os arquivos](#criando-o-projeto-remoto-e-atualizando-os-arquivos)
+  - [Testando a configuração do Git com o Unreal Engine](#testando-a-configuração-do-git-com-o-unreal-engine)
+- [Utilizando comandos do PowerShell para utilizar o Git Client](#utilizando-comandos-do-powershell-para-utilizar-o-git-client)
+  - [Clonando o projeto](#clonando-o-projeto)
+  - [Criando o projeto](#criando-o-projeto)
+  - [Atualizando o projeto no servidor](#atualizando-o-projeto-no-servidor)
+  - [Atualizando o projeto no cliente (local)](#atualizando-o-projeto-no-cliente-local)
+- [Ignorando pastas e arquivos](#ignorando-pastas-e-arquivos)
+  - [Exemplo de arquivo .gitignore para o Unreal Engine](#exemplo-de-arquivo-gitignore-para-o-unreal-engine)
 
 ***
 

@@ -6,21 +6,18 @@ tags: [Unreal Engine, interface, editor]
 
 ***
 
-&nbsp;&nbsp;[**4.1 Implementando a movimentação do personagem**](#7.3)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.1 Editor de Level](#4.1.1)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.2 ViewPort](#4.1.2)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.3 Customização do Layout](#4.1.3)
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[4.1.4 Play e Simulate](#4.1.4)
-
+- [Editor de Level](#editor-de-level)
+- [Editor de Viewports](#editor-de-viewports)
+  - [Transformação de ciclo (espaço) e transformações (W/E/R)](#transformação-de-ciclo-espaço-e-transformações-wer)
+  - [Transformação referência Mundial/Local](#transformação-referência-mundiallocal)
+  - [Actor Snapping](#actor-snapping)
+  - [Velocidade da Câmera](#velocidade-da-câmera)
+  - [Customização do Layout](#customização-do-layout)
+- [Play e Simulate](#play-e-simulate)
 
 ***
 
-<a name="4.1.1"></a>
-## 4.1.1 Editor de Level
+## Editor de Level
 
 Uma visão geral da interface usada para o design e construção de níveis e ambientes de jogo.
 
@@ -42,15 +39,13 @@ Uma visão geral da interface usada para o design e construção de níveis e am
 
 7. Details
 
-<a name="4.1.2"></a>
-## 4.1.2 Editor de Viewports
+## Editor de Viewports
 
 Conceitos e recursos básicos das Viewports no Unreal Editor.
 
 ![Figura: Viewport Basics - https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/Basics/](https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/Viewports_Topic.webp "Figura: Viewport Basics - https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/Basics/")
 
 > Figura: Viewport Basics - https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/Basics/ .
-
 
 ### Transformação de ciclo (espaço) e transformações (W/E/R)
 
@@ -86,13 +81,11 @@ A referência de movimentação do objeto, por exemplo quando a referência é d
 
 - `Scale Grid` - A Grade de Escala força o gizmo de Escala a ajustar-se a incrementos aditivos;
 
-
 ### Velocidade da Câmera
 
 ![Camera Speed](https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/SettingCameraSpeed.webp "Camera Speed")
 
 > Figura: [Camera Speed](https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/)
-
 
 Outros controles.
 
@@ -109,15 +102,13 @@ Explicações para os modos de visualização disponíveis nas viewports.
 
 > Figura: View Modes - https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewModes .
 
-<a name="4.1.3"></a>
-## 4.1.3 Customização do Layout
+### Customização do Layout
 
 ![Figura: Layout Customization - https://docs.unrealengine.com/en-US/Engine/UI/InterfaceOverview/index.html](https://docs.unrealengine.com/4.27/Images/Basics/UI/InterfaceOverview/DockingEditorTabs2.webp "Figura: Layout Customization - https://docs.unrealengine.com/en-US/Engine/UI/InterfaceOverview/index.html")
 
 > Figura: Layout Customization - https://docs.unrealengine.com/en-US/Engine/UI/InterfaceOverview/index.html .
 
-<a name="4.1.4"></a>
-## 4.1.4 Play e Simulate
+## Play e Simulate
 
 ![Figura: In-Editor Testing (Play & Simulate) - https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/InEditorTesting/index.html](https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/InEditorTesting/playInEditor.webp "Figura: In-Editor Testing (Play & Simulate) - https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/InEditorTesting/index.html")
 

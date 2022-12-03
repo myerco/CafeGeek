@@ -9,17 +9,22 @@ layout: post
 date: 2022-10-03 
 ---
 
-## Índice
-
 ***
 
 - [O que é Animação 2D?](#o-que-é-animação-2d)
-
 - [Como o Unreal Engine trabalha com animação 2D?](#como-o-unreal-engine-trabalha-com-animação-2d)
-
+  - [Habilitando o plugin Paper2D](#habilitando-o-plugin-paper2d)
+  - [Preparando o ViewPort](#preparando-o-viewport)
+  - [Preparando os Sprites do projeto](#preparando-os-sprites-do-projeto)
+  - [Preparando as texturas](#preparando-as-texturas)
+    - [Parâmetros da textura](#parâmetros-da-textura)
 - [Criando sprites](#criando-sprites)
-
+  - [Agrupando sprites em Tile Sets](#agrupando-sprites-em-tile-sets)
+  - [Implementando uma cena utilizando Tile Map](#implementando-uma-cena-utilizando-tile-map)
+  - [Criando sequencias de animação utlizado Flipbooks](#criando-sequencias-de-animação-utlizado-flipbooks)
 - [Adicionando e configurando o personagem do tipo PaperCharacter](#adicionando-e-configurando-o-personagem-do-tipo-papercharacter)
+  - [Implementando a lógica de animação do personagem do tipo PaperCharacter](#implementando-a-lógica-de-animação-do-personagem-do-tipo-papercharacter)
+  - [Implementando o canhão](#implementando-o-canhão)
 
 ***
 

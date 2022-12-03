@@ -24,7 +24,7 @@ layout: home
 
 - [Controle de versão com GitHub e Unreal Engine](controle_de_versão_com_github_e_unreal_engine.html)
 
-- [Interface e Editores](editor/unreal_engine_interface_e_editores.html)  
+- [Interface e Editores](unreal_engine_interface_e_editores.html)  
 
 ## Programação com Unreal Engine
 

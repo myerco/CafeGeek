@@ -9,15 +9,17 @@ layout: post
 date: 2022-09-25 
 ---
 
-## Índice
-
 ***
 
 - [Como interagir com o jogador?](#como-interagir-com-o-jogador)
-
-- [Menos é Melhor](#menos-é-melhor)
-
+  - [Menos é Melhor](#menos-é-melhor)
 - [Implementando o Widget para o construir o menu do jogo](#implementando-o-widget-para-o-construir-o-menu-do-jogo)
+  - [Criando o Widget](#criando-o-widget)
+  - [Usando o editor de de Widget](#usando-o-editor-de-de-widget)
+  - [Hierarchy - Hierarquia de elementos](#hierarchy---hierarquia-de-elementos)
+  - [Entendo alinhamento utilizando Anchors](#entendo-alinhamento-utilizando-anchors)
+  - [Horizontal ou Vertical Box](#horizontal-ou-vertical-box)
+  - [Grid Panel](#grid-panel)
   
 ***
 

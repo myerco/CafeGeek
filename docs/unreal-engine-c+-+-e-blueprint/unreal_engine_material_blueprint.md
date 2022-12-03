@@ -9,11 +9,8 @@ layout: post
 date: 2022-09-21 
 ---
 
-## Índice
-
 ***
 
-- [Índice](#índice)
 - [Implementando Material Instance com Blueprint](#implementando-material-instance-com-blueprint)
 - [Parameter Global](#parameter-global)
 - [Material Function](#material-function)
@@ -25,15 +22,15 @@ date: 2022-09-21
 
 ***
 
+## Implementando Material Instance com Blueprint
+
+***
+
 Podemos manipular os objetos do tipo material com scripts Blueprint possibilitando implementar objetos com materiais mais interativos, como por exemplo, um objeto que muda de cor ao click do mouse.
 
 Para exemplificar utilizaremos o Level Blueprint interagindo com um objeto na cena.
 
 Selecione um ator no `View Port` e adicione uma referência no `Open Level Blueprint` com a opção `Create a Reference to`, em seguida vamos utilizar o nó `Create Dynamic Material Instance` para criar uma associação de um material com a nossa lógica.
-
-## Implementando Material Instance com Blueprint
-
-***
 
 {% include imagebase.html
     src="unreal/materiais/unreal_engine_material_bp_create_material_instance_set.webp"

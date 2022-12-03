@@ -9,6 +9,15 @@ layout: post
 date: 2022-09-25 
 ---
 
+***
+
+- [Aim Offset](#aim-offset)
+  - [Animation Starter Pack](#animation-starter-pack)
+  - [Preparando o projeto](#preparando-o-projeto)
+  - [Removendo frames](#removendo-frames)
+
+***
+
 ## Aim Offset
 
 ***
@@ -39,7 +48,7 @@ Neste passo vamos criar várias animações com o personagem mirando utilizando 
 
 1. Mova o arquivo `/AnimStarterPack/Aim_Space_hip` para a pasta `/Characters/Shooter/Animations`
 
-1. Duplique o arquivo várias vezes `Aim_Space_hip` e renomeio para os sequintes nomes:
+1. Duplique o arquivo várias vezes `Aim_Space_hip` e renomeio para os seguintes nomes:
 
 - `Aim_Center`;
 
@@ -127,7 +136,7 @@ Adicione as animações que foram preparadas anteriormente na janela Offset cons
 Continue adicionando as animações nas coordenadas.
 
 {% include image.html
-    src="https://docs.unrealengine.com/4.26/Images/AnimatingObjects/SkeletalMeshAnimation/AnimHowTo/AimOffset/AimOffset29.webp "
+    src="https://docs.unrealengine.com/4.26/Images/AnimatingObjects/SkeletalMeshAnimation/AnimHowTo/AimOffset/AimOffset29.webp"
     alt="Figura: Unreal Engine - Aim exemplo de coordenadas."
     caption="Figura: Unreal Engine - Aim exemplo de coordenadas."
 %}

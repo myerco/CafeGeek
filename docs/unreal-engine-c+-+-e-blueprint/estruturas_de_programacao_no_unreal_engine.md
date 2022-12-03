@@ -9,38 +9,98 @@ layout: post
 date: 2022-09-21 
 ---
 
-## Índice
-
 ***
-[O que são variáveis?](#o-que-são-variáveis)
 
-[Variáveis no Unreal Engine](#variáveis-no-unreal-engine)
-
-[Métodos Get e Set](#métodos-get-e-set)
-
-[Tratamento e armazenamento de texto no Unreal Engine](#tratamento-e-armazenamento-de-texto-no-unreal-engine)
-
-[Variáveis do tipo numéricas Integer e Float](#variáveis-do-tipo-numéricas-integer-e-float)
-
-[Armazenando valores lógicos com Boolean](#armazenando-valores-lógicos-com-boolean)
-
-[Controle de acesso a variáveis](#controle-de-acesso-a-variáveis)
-
-[O que são estruturas de controle ou fluxo?](#o-que-são-estruturas-de-controle-ou-fluxo)
-
-[Estruturas de fluxo condicional](#estruturas-de-fluxo-condicional)
-
-[Estruturas de repetição](#estruturas-de-repetição)
-
-[O que são variáveis do tipo array?](#o-que-são-variáveis-do-tipo-array)
-
-[Declarando arrays e acessando os seus elementos](#declarando-arrays-e-acessando-os-seus-elementos)
-
-[Percorrendo arrays](#percorrendo-arrays)
-
-[Removendo elementos do array](#removendo-elementos-do-array)
-
-[O que são Enums?](#o-que-são-enums)
+- [O que são variáveis?](#o-que-são-variáveis)
+- [Variáveis no Unreal Engine](#variáveis-no-unreal-engine)
+  - [Tipos de Variáveis](#tipos-de-variáveis)
+  - [Declarando variáveis](#declarando-variáveis)
+    - [Variáveis no Editor de Blueprint](#variáveis-no-editor-de-blueprint)
+    - [Variáveis em C++](#variáveis-em-c)
+- [Métodos Get e Set](#métodos-get-e-set)
+  - [Métodos Get e Set Blueprint](#métodos-get-e-set-blueprint)
+  - [Métodos Get e Set em C++](#métodos-get-e-set-em-c)
+- [Tratamento e armazenamento de texto no Unreal Engine](#tratamento-e-armazenamento-de-texto-no-unreal-engine)
+  - [Strings em Blueprint](#strings-em-blueprint)
+  - [String em C++](#string-em-c)
+  - [Concatenando textos usando a função Append](#concatenando-textos-usando-a-função-append)
+  - [C++](#c)
+  - [Procurando texto dentro de uma string em Blueprint](#procurando-texto-dentro-de-uma-string-em-blueprint)
+  - [Procurando texto com C++](#procurando-texto-com-c)
+- [Variáveis do tipo numéricas Integer e Float](#variáveis-do-tipo-numéricas-integer-e-float)
+  - [Inteiro em Blueprint](#inteiro-em-blueprint)
+  - [Inteiro em C++](#inteiro-em-c)
+- [Armazenando valores lógicos com Boolean](#armazenando-valores-lógicos-com-boolean)
+- [Controle de acesso a variáveis](#controle-de-acesso-a-variáveis)
+  - [Variáveis Privadas em Blueprint](#variáveis-privadas-em-blueprint)
+  - [Variáveis Privadas em C++](#variáveis-privadas-em-c)
+  - [Variáveis Públicas com Blueprint](#variáveis-públicas-com-blueprint)
+  - [Variáveis Públicas com C++](#variáveis-públicas-com-c)
+- [O que são estruturas de controle ou fluxo?](#o-que-são-estruturas-de-controle-ou-fluxo)
+  - [Exemplo de fluxo de execução em C++](#exemplo-de-fluxo-de-execução-em-c)
+  - [Exemplo de fluxo condicional](#exemplo-de-fluxo-condicional)
+  - [Exemplo de fluxo de repetição](#exemplo-de-fluxo-de-repetição)
+- [Estruturas de fluxo condicional](#estruturas-de-fluxo-condicional)
+  - [Controle de fluxo com Branch (if)](#controle-de-fluxo-com-branch-if)
+    - [IF em Blueprint](#if-em-blueprint)
+    - [IF em C++](#if-em-c)
+  - [Switch Nodes](#switch-nodes)
+    - [Switchs node em Blueprint](#switchs-node-em-blueprint)
+    - [Switchs node em C++](#switchs-node-em-c)
+  - [Referências](#referências)
+  - [Sequenciamento de fluxo com Sequence](#sequenciamento-de-fluxo-com-sequence)
+    - [Sequence em Blueprint](#sequence-em-blueprint)
+    - [Sequence em C++](#sequence-em-c)
+  - [Flip Flop em Blueprint](#flip-flop-em-blueprint)
+  - [Flip Flop em C++](#flip-flop-em-c)
+  - [Gate e Multi Gate em Blueprint](#gate-e-multi-gate-em-blueprint)
+  - [Gate e Multi Gate em C++](#gate-e-multi-gate-em-c)
+- [Estruturas de repetição](#estruturas-de-repetição)
+  - [For Loop em Blueprint](#for-loop-em-blueprint)
+  - [For Loop em C++](#for-loop-em-c)
+  - [While Loop em Blueprint](#while-loop-em-blueprint)
+  - [While Loop em C++](#while-loop-em-c)
+  - [Do N em Blueprint](#do-n-em-blueprint)
+  - [Do N em C++](#do-n-em-c)
+  - [Do once em Blueprint](#do-once-em-blueprint)
+  - [Do once em C++](#do-once-em-c)
+- [O que são variáveis do tipo array?](#o-que-são-variáveis-do-tipo-array)
+- [Declarando arrays e acessando os seus elementos](#declarando-arrays-e-acessando-os-seus-elementos)
+  - [Array em Blueprint](#array-em-blueprint)
+  - [Método Get para arrays com Blueprint](#método-get-para-arrays-com-blueprint)
+  - [Método Get para arrays com C++](#método-get-para-arrays-com-c)
+  - [Get utilizando uma variável como índice com Blueprint](#get-utilizando-uma-variável-como-índice-com-blueprint)
+  - [Get utilizando uma variável como índice com C++](#get-utilizando-uma-variável-como-índice-com-c)
+  - [Último índice e a quantidade de elementos do array em Blueprint](#último-índice-e-a-quantidade-de-elementos-do-array-em-blueprint)
+- [Percorrendo arrays](#percorrendo-arrays)
+  - [Listando todos os elementos utilizando For usando Blueprint](#listando-todos-os-elementos-utilizando-for-usando-blueprint)
+  - [Listando todos os elementos utilizando For usando C++](#listando-todos-os-elementos-utilizando-for-usando-c)
+  - [Usando o comando Find com Blueprint](#usando-o-comando-find-com-blueprint)
+  - [Usando o comando Find com C++](#usando-o-comando-find-com-c)
+  - [Contando elementos dentro de um array com Blueprint](#contando-elementos-dentro-de-um-array-com-blueprint)
+  - [Contando elementos dentro de um array com C++](#contando-elementos-dentro-de-um-array-com-c)
+  - [Percorrendo e atualizando dados com Blueprint](#percorrendo-e-atualizando-dados-com-blueprint)
+  - [Percorrendo e atualizando dados com C++](#percorrendo-e-atualizando-dados-com-c)
+- [Removendo elementos do array](#removendo-elementos-do-array)
+  - [Removendo utilizando Remove com Blueprint](#removendo-utilizando-remove-com-blueprint)
+  - [Removendo utilizando Remove com C++](#removendo-utilizando-remove-com-c)
+  - [Removendo passando uma variável como parâmetro com Blueprint](#removendo-passando-uma-variável-como-parâmetro-com-blueprint)
+  - [Removendo passando uma variável como parâmetro com C++](#removendo-passando-uma-variável-como-parâmetro-com-c)
+  - [Removendo utilizando nó Remove Index com Blueprint](#removendo-utilizando-nó-remove-index-com-blueprint)
+  - [Removendo utilizando nó Remove Index com C++](#removendo-utilizando-nó-remove-index-com-c)
+  - [Limpando o array com Clear com Blueprint](#limpando-o-array-com-clear-com-blueprint)
+  - [Limpando o array com Clear com C++](#limpando-o-array-com-clear-com-c)
+- [O que são Enums?](#o-que-são-enums)
+  - [Criando Enums no Unreal Engine e Blueprint](#criando-enums-no-unreal-engine-e-blueprint)
+  - [Criando Enums no Unreal Engine e C++](#criando-enums-no-unreal-engine-e-c)
+  - [Exemplos de uso - A lâmpada](#exemplos-de-uso---a-lâmpada)
+  - [A lâmpada em C++](#a-lâmpada-em-c)
+  - [Arquivo Header da lâmpada em C++](#arquivo-header-da-lâmpada-em-c)
+  - [Verificando o estado utilizando o Enum com Blueprint](#verificando-o-estado-utilizando-o-enum-com-blueprint)
+  - [Verificando o estado utilizando o Enum com C++](#verificando-o-estado-utilizando-o-enum-com-c)
+  - [Ligando e desligando utilizando o Enum com Blueprint](#ligando-e-desligando-utilizando-o-enum-com-blueprint)
+  - [Ligando e desligando utilizando o Enum com C++](#ligando-e-desligando-utilizando-o-enum-com-c)
+  - [Exemplos de uso - A pedra das emoções](#exemplos-de-uso---a-pedra-das-emoções)
 
 ***
 
@@ -58,13 +118,13 @@ Variáveis são estruturas que são utilizadas para armazenar um valor de um det
 
 Estrutura de memória.
 
-|Variável       |Tipo     | Valor       |
-|:-             |:-:      |:-:          |
-|iSoma          |Integer  |0            |
-|fValor         |Float    |6.5          |
-|tName          |String   |"Gandalf"    |
-|bRunnig        |Boolean  |false        |
-|vLista         |FVector  |(1,2,4)      |
+| Variável |  Tipo   |   Valor   |
+| :------- | :-----: | :-------: |
+| iSoma    | Integer |     0     |
+| fValor   |  Float  |    6.5    |
+| tName    | String  | "Gandalf" |
+| bRunnig  | Boolean |   false   |
+| vLista   | FVector |  (1,2,4)  |
 
 Abaixo um exemplo em C++:
 
@@ -132,8 +192,8 @@ Declarando variáveis informamos ao computador que estamos reservando um espaço
 
 {% include imagebase.html
     src="unreal/variaveis/unreal_engine_variable_details.webp"
-    alt="Figura: Details ou properiedades das variáveis."
-    caption="Figura: Details ou properiedades das variáveis."
+    alt="Figura: Details ou propriedades das variáveis."
+    caption="Figura: Details ou propriedades das variáveis."
 %}
 
 Observe que a propriedade `Category` agrupa as variáveis por uma categoria.
@@ -203,11 +263,11 @@ void AMyHeroClass::BeginPlay()
 
 No **Unreal Engine** são definidos alguns tipos de dados para manipulação e armazenamento de caracteres alfanuméricos, entre elas estão os tipos de variáveis a seguir.
 
-| Variável          |Tamanho    | Considerações               |
-|:-:                |-          |-                            |
-| `Text`            | 40 Bytes  | Podemos adicionar opções avançadas como exemplo `String Table`, ideal para textos longos que podem variar conforme a lingua definida pelo jogador.  |
-| `String`          | 16 Bytes  | Armazenamento e consumo de memória mediano |
-| `Name`            | 8 Bytes   |  Cadeias de caracteres  curtas que ocupam pouca memória.|
+| Variável | Tamanho  | Considerações                                                                                                                                      |
+| :------: | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  `Text`  | 40 Bytes | Podemos adicionar opções avançadas como exemplo `String Table`, ideal para textos longos que podem variar conforme a lingua definida pelo jogador. |
+| `String` | 16 Bytes | Armazenamento e consumo de memória mediano                                                                                                         |
+|  `Name`  | 8 Bytes  | Cadeias de caracteres  curtas que ocupam pouca memória.                                                                                            |
 
 Podemos realizar as seguintes operações em `strings`:
 
@@ -422,7 +482,7 @@ public:
 
 ***
 
-Em linguagens de programação existem métodos de tomada de decisão para tarefas corriqueiras que os programas podem executar, por exemplo a escolha de qual caminho ou instrução executar. Em **Bluprints** utilizamos nós específicos para controle de fluxo como por exemplo o `Branch`.
+Em linguagens de programação existem métodos de tomada de decisão para tarefas corriqueiras que os programas podem executar, por exemplo a escolha de qual caminho ou instrução executar. Em **Blueprints** utilizamos nós específicos para controle de fluxo como por exemplo o `Branch`.
 
 ### Exemplo de fluxo de execução em C++
 
@@ -455,17 +515,17 @@ O resultado será 0 pois a condição de controle de fluxo **if** provocou um de
 
 ### Exemplo de fluxo condicional 
 
-|           |t1 |t2 |t3 |t4 |t5 |t6 |t7 |t8 |t9 |
-|:-         |:- |:- |:- |:- |:- |:- |:- |:- |:- |
-|Principal  |<span style="color:blue">--></span> |<span style="color:blue">--></span> |<span style="color:blue">--></span> |<span style="color:blue">-D-</span>|   |   |<span style="color:blue">-O-</span>|<span style="color:blue">--></span> |<span style="color:blue">--></span> |
-|Desvio     |   |   |   |<span style="color:red">--></span> |<span style="color:red">--></span> |<span style="color:red">--></span> |<span style="color:red">--></span> |   |   |
+|           | t1                                  | t2                                  | t3                                  | t4                                  | t5                                 | t6                                 | t7                                  | t8                                  | t9                                  |
+| :-------- | :---------------------------------- | :---------------------------------- | :---------------------------------- | :---------------------------------- | :--------------------------------- | :--------------------------------- | :---------------------------------- | :---------------------------------- | :---------------------------------- |
+| Principal | <span style="color:blue">--></span> | <span style="color:blue">--></span> | <span style="color:blue">--></span> | <span style="color:blue">-D-</span> |                                    |                                    | <span style="color:blue">-O-</span> | <span style="color:blue">--></span> | <span style="color:blue">--></span> |
+| Desvio    |                                     |                                     |                                     | <span style="color:red">--></span>  | <span style="color:red">--></span> | <span style="color:red">--></span> | <span style="color:red">--></span>  |                                     |                                     |
 
 ### Exemplo de fluxo de repetição
 
-|           |t1 |t2 |t3 |t4 |t5 |t6 |t7 |t8 |t9 |
-|:-         |:- |:- |:- |:- |:- |:- |:- |:- |:- |
-|Principal  |<span style="color:blue">--></span> |<span style="color:blue">--></span> |<span style="color:blue">--></span> |<span style="color:blue">-D-</span>|<span style="color:red"><--</span>|<span style="color:red"><--</span> |<span style="color:blue">-O-</span>|<span style="color:blue">--></span> |<span style="color:blue">--></span> |
-|Desvio     |   |   |   |<span style="color:blue">--></span> |<span style="color:red">--></span> |<span style="color:red">--></span> |<span style="color:red">--></span> |   |   |
+|           | t1                                  | t2                                  | t3                                  | t4                                  | t5                                 | t6                                 | t7                                  | t8                                  | t9                                  |
+| :-------- | :---------------------------------- | :---------------------------------- | :---------------------------------- | :---------------------------------- | :--------------------------------- | :--------------------------------- | :---------------------------------- | :---------------------------------- | :---------------------------------- |
+| Principal | <span style="color:blue">--></span> | <span style="color:blue">--></span> | <span style="color:blue">--></span> | <span style="color:blue">-D-</span> | <span style="color:red"><--</span> | <span style="color:red"><--</span> | <span style="color:blue">-O-</span> | <span style="color:blue">--></span> | <span style="color:blue">--></span> |
+| Desvio    |                                     |                                     |                                     | <span style="color:blue">--></span> | <span style="color:red">--></span> | <span style="color:red">--></span> | <span style="color:red">--></span>  |                                     |                                     |
 
 ## Estruturas de fluxo condicional
 
@@ -538,7 +598,7 @@ Em geral, os `switches` têm uma entrada de execução e uma entrada de dados pa
 ### Referências
 
 - Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions.  [https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/ "Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions")
-- Couch Learn. (2019,Dezenbro 27). Switch Statements in Unreal Engine 4. [https://couchlearn.com/switch-statements-in-unreal-engine-4/](https://couchlearn.com/switch-statements-in-unreal-engine-4/ "https://couchlearn.com/switch-statements-in-unreal-engine-4/")
+- Couch Learn. (2019,Dezembro 27). Switch Statements in Unreal Engine 4. [https://couchlearn.com/switch-statements-in-unreal-engine-4/](https://couchlearn.com/switch-statements-in-unreal-engine-4/ "https://couchlearn.com/switch-statements-in-unreal-engine-4/")
 
 ### Sequenciamento de fluxo com Sequence
 
@@ -566,8 +626,8 @@ O nó `Flip Flop` obtém uma saída de execução e alterna entre duas saídas d
 
 {% include imagebase.html
     src="unreal/estruturascontrole/blueprint_example_flip_flop.webp"
-    alt="Figura: Bluprint Flip FLop."
-    caption="Figura: Bluprint Flip FLop."
+    alt="Figura: Blueprint Flip FLop."
+    caption="Figura: Blueprint Flip FLop."
 %}
 
 ### Flip Flop em C++
@@ -626,8 +686,8 @@ Uma condição de teste e um corpo são tudo o que constitui um *loop While*. An
 
 {% include imagebase.html
     src="unreal/estruturascontrole/blueprint_example_whileloop.webp"
-    alt="Figura: Bluprint While loop."
-    caption="Figura: Bluprint While loop."
+    alt="Figura: Blueprint While loop."
+    caption="Figura: Blueprint While loop."
 %}
 
 ### While Loop em C++
@@ -683,10 +743,10 @@ O nó `Do Once` - como o nome sugere - disparará um pulso de execução apenas 
 
 É um conjunto de variáveis do mesmo tipo agrupadas dentro de uma estrutura e acessíveis por um índice. Podemos representar os *arrays* como uma tabela onde os dados são acessados por um índice que indica a posição do elemento, a seguir um exemplo.
 
-| s         |s[0] |s[1] |s[2] | s[3]  |
-|---        |---  |---  |---  |---    |
-|**Valor**  |Ana  |José |Hugo |Hulda  |
-|**Índice** |  0  | 1   | 2   | 3     |
+| s          | s[0] | s[1] | s[2] | s[3]  |
+| ---------- | ---- | ---- | ---- | ----- |
+| **Valor**  | Ana  | José | Hugo | Hulda |
+| **Índice** | 0    | 1    | 2    | 3     |
 
 - s[0] - O valor entre colchetes indica a posição (índice) do elemento no *array*;
 - O índice em C++ inicia com o valor 0.
@@ -766,8 +826,8 @@ Podemos utilizar uma variável para substituir o índice e acessar elementos do 
 
 {% include imagebase.html
     src="unreal/array/blueprint_array_get_string.webp"
-    alt="Figura: Blueprint Get utiliando uma variável como índice."
-    caption="Figura: Blueprint Get utiliando uma variável como índice."
+    alt="Figura: Blueprint Get utilizando uma variável como índice."
+    caption="Figura: Blueprint Get utilizando uma variável como índice."
 %}
 
 No exemplo acima definimos o valor de Índice igual a 1 para acessar o elemento de mesma posição.

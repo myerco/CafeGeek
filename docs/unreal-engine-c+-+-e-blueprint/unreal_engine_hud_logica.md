@@ -8,17 +8,27 @@ layout: post
 date: 2022-09-25 
 ---
 
-## Índice
 
 ***
 
 - [Lógica de programação do Widget Graph](#lógica-de-programação-do-widget-graph)
-
+  - [Event Construct para inicializar variáveis utilizadas no Widget](#event-construct-para-inicializar-variáveis-utilizadas-no-widget)
+  - [Botões e eventos (Button and Events)](#botões-e-eventos-button-and-events)
+  - [Acionando o botão Sair para finalizar o jogo](#acionando-o-botão-sair-para-finalizar-o-jogo)
 - [Executando o menu](#executando-o-menu)
-
 - [Apresentando informações para o Jogador](#apresentando-informações-para-o-jogador)
-
+  - [Fazendo a ligação do elemento da interface com uma função](#fazendo-a-ligação-do-elemento-da-interface-com-uma-função)
+  - [Função do calculo de vida do jogador](#função-do-calculo-de-vida-do-jogador)
+  - [Função para pegar o nome do jogador](#função-para-pegar-o-nome-do-jogador)
 - [Organizando os objetos](#organizando-os-objetos)
+  - [Criando o objeto SaveGame para salvar dados do jogo](#criando-o-objeto-savegame-para-salvar-dados-do-jogo)
+  - [Evento para apresentar o menu na tela](#evento-para-apresentar-o-menu-na-tela)
+  - [Evento para abrir um Level](#evento-para-abrir-um-level)
+  - [Salvando dados](#salvando-dados)
+  - [Evento para carregar dados](#evento-para-carregar-dados)
+  - [Voltando ao jogo](#voltando-ao-jogo)
+  - [Iniciando Game Instance no Widget](#iniciando-game-instance-no-widget)
+  - [Efetuando as chamadas das funções](#efetuando-as-chamadas-das-funções)
 
 ***
 
@@ -30,7 +40,7 @@ A lógica de controle de ações dos botões e a inicialização está em `Graph
 
 ### Event Construct para inicializar variáveis utilizadas no Widget
 
-Para que o objeto menu tenha acesso a propriedades da classe do jogador vamos inicialiazar a uma variável local utilizando `Event Construct`.
+Para que o objeto menu tenha acesso a propriedades da classe do jogador vamos inicializar a uma variável local utilizando `Event Construct`.
 Ao iniciar o Widget definimos uma variável **Jogador** do tipo `BP_Hero` para que possamos ter acesso as propriedades nome e vida por exemplo.
 
 {% include imagebase.html
@@ -256,4 +266,3 @@ No evento click dos botões vamos adicionar os eventos construídos dentro da *G
 %}
 
 Repetimos esse processo para associar todos os eventos aos botões.
-

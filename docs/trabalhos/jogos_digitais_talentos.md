@@ -37,7 +37,7 @@ date: 2022-11-02
 |                                                                                                             | Entendendo o processo de renderização                                         |                    |
 |                                                                                                             | Processamento de imagens com Unreal Engine                                    |                    |
 |                                                                                                             |                                                                               |                    |
-| [Modelagem usando Autodesk Maya](https://cafegeek.eti.br/modelagem-usando-autodesk-maya/autodesk_maya.html) | O que é Modelagem de objetos 3D?                                              | Dinâmica,Estética  |
+| [Modelagem usando Autodesk Maya](https://cafegeek.eti.br/modelagem-usando-autodesk-maya/index.html) | O que é Modelagem de objetos 3D?                                              | Dinâmica,Estética  |
 |                                                                                                             | Começando a trabalhar com Autodesk Maya                                       |                    |
 |                                                                                                             | Objetos Poligonais                                                            |                    |
 |                                                                                                             | Organizando em camadas                                                        |                    |

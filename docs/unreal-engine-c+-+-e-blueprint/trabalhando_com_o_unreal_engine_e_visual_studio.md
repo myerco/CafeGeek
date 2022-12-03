@@ -9,11 +9,8 @@ layout: post
 date: 2022-09-21 
 ---
 
-## Índice
-
 ***
 
-- [Índice](#índice)
 - [Como instalar o Unreal Engine?](#como-instalar-o-unreal-engine)
   - [Por que instalar o pacote Desktop com C++ ?](#por-que-instalar-o-pacote-desktop-com-c-)
 - [Criando um projeto para jogos no Unreal Engine](#criando-um-projeto-para-jogos-no-unreal-engine)

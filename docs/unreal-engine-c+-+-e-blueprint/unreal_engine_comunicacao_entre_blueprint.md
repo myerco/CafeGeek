@@ -9,17 +9,27 @@ layout: post
 date: 2022-09-25 
 ---
 
-## Índice
-
 ***
 
 - [Como facilitar a comunicação entre objetos Blueprint?](#como-facilitar-a-comunicação-entre-objetos-blueprint)
-
+  - [Estrutura da comunicação entre Blueprints](#estrutura-da-comunicação-entre-blueprints)
+  - [Preparando o ambiente de testes](#preparando-o-ambiente-de-testes)
 - [Comunicação utilizando Acesso direto](#comunicação-utilizando-acesso-direto)
-
+  - [Chamando a função LampadaVisible](#chamando-a-função-lampadavisible)
+  - [Vídeo Comunicação entre Blueprints](#vídeo-comunicação-entre-blueprints)
 - [Utilizando CAST](#utilizando-cast)
-
+  - [CAST do objeto PointLight](#cast-do-objeto-pointlight)
+  - [Vídeo Comunicação entre Blueprints - Usando Cast 03 Unreal Engine](#vídeo-comunicação-entre-blueprints---usando-cast-03-unreal-engine)
 - [Utilizando o objeto Blueprint Interface](#utilizando-o-objeto-blueprint-interface)
+  - [Menu Blueprint/Blueprint Interface](#menu-blueprintblueprint-interface)
+  - [Editor de Blueprint Interface](#editor-de-blueprint-interface)
+  - [Implementando um objeto para utilizar a interface](#implementando-um-objeto-para-utilizar-a-interface)
+  - [Utilizando parâmetros na Interface](#utilizando-parâmetros-na-interface)
+  - [Vídeo Comunicação entre Blueprints - Utilizando o objeto Blueprint Interface - 04 - Unreal Engine](#vídeo-comunicação-entre-blueprints---utilizando-o-objeto-blueprint-interface---04---unreal-engine)
+  - [Event Dispatcher](#event-dispatcher)
+  - [Exemplo utilizando o Character BP\_Hero que será o emissor dos eventos](#exemplo-utilizando-o-character-bp_hero-que-será-o-emissor-dos-eventos)
+  - [Lógica dos objetos que vão interagir com o personagem](#lógica-dos-objetos-que-vão-interagir-com-o-personagem)
+  - [Vídeo Comunicação entre Blueprints - Event Dispatcher - 05 -  Unreal Engine](#vídeo-comunicação-entre-blueprints---event-dispatcher---05----unreal-engine)
 
 ***
 
@@ -114,8 +124,8 @@ Criando um referência do objeto é possível acessar a função **LampadaVisibl
 
 {% include imagebase.html
     src="unreal/comunicacao/blueprint_light_overlap.webp"
-    alt="Figura: Bluprint - Lógica da chamada da função usando OnBeginOverLap."
-    caption="Figura: Bluprint - Lógica da chamada da função usando OnBeginOverLap."
+    alt="Figura: Blueprint - Lógica da chamada da função usando OnBeginOverLap."
+    caption="Figura: Blueprint - Lógica da chamada da função usando OnBeginOverLap."
 %}
 
 Quando qualquer objeto colidir com o *ControleLuz* a lâmpada ira desligar ou ligar.
@@ -206,8 +216,8 @@ Em seguida adicione uma função chamada *Nome* para que possa servir como funç
 
 {% include imagebase.html
     src="unreal/comunicacao/blueprint_inteface_function.webp"
-    alt="Figura: Blueptint - Lógica da função Nome com GetObjectName."
-    caption="Figura: Blueptint - Lógica da função Nome com GetObjectName."
+    alt="Figura: Blueprint - Lógica da função Nome com GetObjectName."
+    caption="Figura: Blueprint - Lógica da função Nome com GetObjectName."
 %}
 
 1. Adicione no `Character` jogável *BP_Hero* e implemente a lógica abaixo.
@@ -230,24 +240,24 @@ Em seguida adicione uma função chamada *Nome* para que possa servir como funç
 
 {% include imagebase.html
     src="unreal/comunicacao/blueprint_interface_with_parameter.webp"
-    alt="Figura: Blueptint - Declaração da função com parâmetros."
-    caption="Figura: Blueptint - Declaração da função com parâmetros."
+    alt="Figura: Blueprint - Declaração da função com parâmetros."
+    caption="Figura: Blueprint - Declaração da função com parâmetros."
 %}
 
 1. Ao chamar a função é fornecido um valor.
 
 {% include imagebase.html
     src="unreal/comunicacao/blueprint_interface_example_call.webp"
-    alt="Figura: Blueptint - Exemplo da chamada da função com parâmetros."
-    caption="Figura: Blueptint - Exemplo da chamada da função com parâmetros."
+    alt="Figura: Blueprint - Exemplo da chamada da função com parâmetros."
+    caption="Figura: Blueprint - Exemplo da chamada da função com parâmetros."
 %}
 
 1. Implemente a lógica de tratamento do parâmetro dentro do objeto cadeira ou mesa.
 
 {% include imagebase.html
     src="unreal/comunicacao/blueprint_interface_example_event.webp"
-    alt="Figura: Blueptint - Dentro do objeto podemos chamar o evento para chamar a Interface."
-    caption="Figura: Blueptint - Dentro do objeto podemos chamar o evento para chamar a Interface."
+    alt="Figura: Blueprint - Dentro do objeto podemos chamar o evento para chamar a Interface."
+    caption="Figura: Blueprint - Dentro do objeto podemos chamar o evento para chamar a Interface."
 %}
 
 Podemos melhorar o controle utilizando uma variável `enumeration` para parametrizar as ações.  

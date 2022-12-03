@@ -9,17 +9,17 @@ layout: post
 date: 2022-09-25 
 ---
 
-## Índice
-
 ***
 
 - [Como funciona Game Mode e Game State?](#como-funciona-game-mode-e-game-state)
-
+  - [A organização de classes do Framework](#a-organização-de-classes-do-framework)
+  - [Implementando o GameMode](#implementando-o-gamemode)
 - [O que é PlayerController?](#o-que-é-playercontroller)
-
-- [PlayerController vs PlayerCharacter](#playercontroller-vs-playercharacter)
-
+  - [PlayerController vs  PlayerCharacter](#playercontroller-vs--playercharacter)
 - [GameInstance](#gameinstance)
+  - [Criando GameInstance](#criando-gameinstance)
+  - [Adicionando um evento dentro da GameInstance](#adicionando-um-evento-dentro-da-gameinstance)
+  - [Chamando a GameInstance para acessar os seus elementos](#chamando-a-gameinstance-para-acessar-os-seus-elementos)
 
 ***
 
@@ -118,7 +118,7 @@ Então, para que GameInstance?
 
 Para compartilhar variáveis, eventos e funções por todos os levels possibilitando uma programação mais otimizada evitando retrabalho.
 
-#### Criando GameInstance
+### Criando GameInstance
 
 Utilizando o menu de contexto escolhemos `Bluprint Class` e logo em seguida procuramos a classe `GameInstance` básica.
 
@@ -128,7 +128,7 @@ Utilizando o menu de contexto escolhemos `Bluprint Class` e logo em seguida proc
     caption="Figura: Blueprint - Create GameInstance."
 %}
 
-#### Adicionando um evento dentro da GameInstance
+### Adicionando um evento dentro da GameInstance
 
 Como explicado anteriormente, os eventos e objetos ficaram disponíveis para o projeto. Para este exemplo vamos utilizar um evento customizado `Add Custom Event` no `Event Graph` da `GameInstance`.
 
@@ -146,7 +146,7 @@ Vamos adicionar uma variável para exemplificar.
     caption="Figura: Blueprint - GameInstance Variáveis."
 %}
 
-#### Chamando a GameInstance para acessar os seus elementos
+### Chamando a GameInstance para acessar os seus elementos
 
 Para este exemplo criamos um Level Vazio e no `Open Level Blueprint` vamos executar a chamada da `GameInstance`.
 

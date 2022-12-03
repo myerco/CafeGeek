@@ -9,37 +9,65 @@ layout: post
 date: 2022-09-21 
 ---
 
-## Índice
-
 ***
 
 - [O que são Actors?](#o-que-são-actors)
-
 - [O que são Classes?](#o-que-são-classes)
-
+  - [Exemplo de implementação utilizando C++](#exemplo-de-implementação-utilizando-c)
+  - [Exemplo de implementação em Blueprint](#exemplo-de-implementação-em-blueprint)
+  - [Utilizando classes com Blueprint](#utilizando-classes-com-blueprint)
 - [Classe Actor](#classe-actor)
-
 - [Classe Actor em C++ com uma Static Mesh](#classe-actor-em-c-com-uma-static-mesh)
-
+  - [Arquivo CharacterBase.h](#arquivo-characterbaseh)
+  - [Arquivo CharacterBase.cpp](#arquivo-characterbasecpp)
 - [Classe Pawn](#classe-pawn)
-
 - [Classe Character](#classe-character)
-
 - [Componentes e Actors](#componentes-e-actors)
-
+  - [Adicionando componentes](#adicionando-componentes)
+  - [Static Mesh - Malhas estáticas](#static-mesh---malhas-estáticas)
+  - [Componente StaticMesh](#componente-staticmesh)
+  - [Propriedades do componente Static Mesh](#propriedades-do-componente-static-mesh)
+  - [Skeletal Mesh - Malha Esquelética](#skeletal-mesh---malha-esquelética)
+  - [A Estrutura](#a-estrutura)
+  - [Componentes Mesh](#componentes-mesh)
+  - [Detalhes do componente Mesh](#detalhes-do-componente-mesh)
 - [O Editor Skeletal Mesh](#o-editor-skeletal-mesh)
-
 - [Posição e coordenadas](#posição-e-coordenadas)
-
+  - [Transform](#transform)
+  - [Escrevendo na tela o posicionamento do ator no mundo](#escrevendo-na-tela-o-posicionamento-do-ator-no-mundo)
+  - [Posição relativa no mundo](#posição-relativa-no-mundo)
+  - [Escrevendo na tela o posição relativa do componente](#escrevendo-na-tela-o-posição-relativa-do-componente)
 - [Trabalhando com herança com Blueprint](#trabalhando-com-herança-com-blueprint)
-
+  - [Componente *ChildActor* implementa a ligação com outro ator](#componente-childactor-implementa-a-ligação-com-outro-ator)
+  - [Herança de propriedades e métodos](#herança-de-propriedades-e-métodos)
+  - [Referências de atores e componentes](#referências-de-atores-e-componentes)
 - [Polimorfismo em C++](#polimorfismo-em-c)
-
 - [Funções virtuais](#funções-virtuais)
-
+  - [Exemplo de função virtual em C++ com Unreal Engine](#exemplo-de-função-virtual-em-c-com-unreal-engine)
+  - [Exemplo de função virtual no C++](#exemplo-de-função-virtual-no-c)
 - [Manipulando Actors](#manipulando-actors)
-
+  - [Spawn e Destroy Actors - Criando e destruindo um Actor](#spawn-e-destroy-actors---criando-e-destruindo-um-actor)
+  - [Listando Actors por classe](#listando-actors-por-classe)
+  - [Listando Actors utilizando *tag* (etiquetas)](#listando-actors-utilizando-tag-etiquetas)
 - [Colisões](#colisões)
+  - [Trace Responses](#trace-responses)
+  - [Interações](#interações)
+  - [Exemplo de Colisão](#exemplo-de-colisão)
+  - [Configuração de colisão de esfera](#configuração-de-colisão-de-esfera)
+  - [Configuração de colisão de parede](#configuração-de-colisão-de-parede)
+  - [Colisão e Simulação Geram Eventos de toque ou acerto](#colisão-e-simulação-geram-eventos-de-toque-ou-acerto)
+  - [Configuração de colisão de esfera 1](#configuração-de-colisão-de-esfera-1)
+  - [Configuração de colisão de parede 1](#configuração-de-colisão-de-parede-1)
+  - [Sobrepor e ignorar](#sobrepor-e-ignorar)
+  - [Configuração das propriedades de colisão de esfera](#configuração-das-propriedades-de-colisão-de-esfera)
+  - [Configuração das propriedades colisão de parede](#configuração-das-propriedades-colisão-de-parede)
+  - [Configuração das propriedades da colisão de esfera](#configuração-das-propriedades-da-colisão-de-esfera)
+  - [Configuração das propriedades de colisão de parede](#configuração-das-propriedades-de-colisão-de-parede)
+  - [Sobrepor e gerar eventos de sobreposição](#sobrepor-e-gerar-eventos-de-sobreposição)
+  - [Colisão de esfera](#colisão-de-esfera)
+  - [Colisão de parede](#colisão-de-parede)
+  - [Colisão Simples versus Complexa](#colisão-simples-versus-complexa)
+  - [Como usar](#como-usar)
 
 ***
 

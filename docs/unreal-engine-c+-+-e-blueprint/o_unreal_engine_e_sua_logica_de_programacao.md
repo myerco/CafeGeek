@@ -9,11 +9,8 @@ layout: post
 date: 2022-09-21 
 ---
 
-## Índice
-
 ***
 
-- [Índice](#índice)
 - [O que são Blueprints e Visual Scripting?](#o-que-são-blueprints-e-visual-scripting)
   - [Nativização](#nativização)
 - [Trabalhando com Level ou níveis](#trabalhando-com-level-ou-níveis)
@@ -163,7 +160,7 @@ Para editar utilizamos a opção `Blueprints` > `Open Level Blueprint`.
     caption="Figura:  Open Level Blueprint."
 %}
 
-Para escrever uma mensagem no `ViewPort` utilizando o `Level Bueprint` quando o *level* iniciar utilizaremos o evento `BeginPlay` e conectaremos o nó `Print String` para escrever uma mensagem na tela.
+Para escrever uma mensagem no `ViewPort` utilizando o `Level Blueprint` quando o *level* iniciar utilizaremos o evento `BeginPlay` e conectaremos o nó `Print String` para escrever uma mensagem na tela.
 
 {% include imagebase.html
     src="unreal/actor/unreal_engine_blueprint_beginplay_printstring.webp"

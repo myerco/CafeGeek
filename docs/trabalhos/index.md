@@ -14,25 +14,25 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 
 ***
 
-- [CAPÍTULO 1 - Roteiros](#capítulo-1---roteiros)
+- [Roteiros](#roteiros)
   - [Darkness of D-day](#darkness-of-d-day)
   - [Killer Hotel](#killer-hotel)
   - [Lines of Fate](#lines-of-fate)
   - [A Queda](#a-queda)
   - [A sombra da noite](#a-sombra-da-noite)
-- [CAPÍTULO 2 - Jogos](#capítulo-2---jogos)
+- [Jogos](#jogos)
   - [Don't Stop Looking](#dont-stop-looking)
   - [Atlus um Reino em Guerra](#atlus-um-reino-em-guerra)
   - [Happy Dance](#happy-dance)
   - [Firescape](#firescape)
-- [CAPÍTULO 3 - Portfólios](#capítulo-3---portfólios)
+- [Portfólios](#portfólios)
   - [Rafael Ferreira](#rafael-ferreira)
-- [CAPÍTULO 4 - Modelos](#capítulo-4---modelos)
+- [Modelos](#modelos)
   - [Death Vip](#death-vip)
 
 ***
 
-## CAPÍTULO 1 - Roteiros
+## Roteiros
 
 ### Darkness of D-day
 
@@ -76,7 +76,7 @@ Autor: Robson Maciel
 
 ***
 
-## CAPÍTULO 2 - Jogos
+## Jogos
 
 ### Don't Stop Looking
 
@@ -126,7 +126,7 @@ Categoria: Jogo
 
 ***
 
-## CAPÍTULO 3 - Portfólios
+## Portfólios
 
 ### Rafael Ferreira
 
@@ -136,7 +136,7 @@ Categoria: Portfólio
 
 ***
 
-## CAPÍTULO 4 - Modelos
+## Modelos
 
 ### Death Vip
 
