@@ -163,7 +163,7 @@ Para exemplificar a conexão do **Unreal Engine** com o Github vamos criar um no
 
 - Project Name : TestGitHub;
 
-- Type: Blurprint;
+- Type: Blueprint;
 
 - Iremos manter os demais parâmetros como estão.
 

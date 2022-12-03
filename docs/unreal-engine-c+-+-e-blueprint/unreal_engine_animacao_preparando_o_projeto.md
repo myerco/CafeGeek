@@ -17,6 +17,23 @@ date: 2022-09-25
 
 Neste capitulo vamos preparar e organizar os objetos e elementos necessários, como por exemplo, arquivos FBX, malhas e esqueletos e suas animações. Vamos também importar personagens do site Mixano.
 
+***
+
+- [Organizando pastas de bibliotecas](#organizando-pastas-de-bibliotecas)
+  - [Classes do personagem Base](#classes-do-personagem-base)
+  - [Classe do Humano](#classe-do-humano)
+  - [Classe Mutante ou  Mutant](#classe-mutante-ou--mutant)
+    - [Vídeo Classe do Mutant](#vídeo-classe-do-mutant)
+- [Ambiente e controle](#ambiente-e-controle)
+- [Animações e esqueleto do Mutant](#animações-e-esqueleto-do-mutant)
+  - [Baixando o personagem Mutant](#baixando-o-personagem-mutant)
+    - [Vídeo Baixando personagem](#vídeo-baixando-personagem)
+  - [Importando Mesh e Skeletal](#importando-mesh-e-skeletal)
+  - [Importando animações](#importando-animações)
+  - [Vídeo Importando personagem](#vídeo-importando-personagem)
+
+***
+
 ## Organizando pastas de bibliotecas
 
 ***
@@ -135,7 +152,7 @@ Para esta classe vamos importar o esqueleto e animações.
     caption="Vídeo: Unreal Engine - Animation Classe do personagem."
 %}
 
-### Ambiente e controle
+## Ambiente e controle
 
 Neste passo vamos implementar os controles do personagem e criar um level para testes.
 
@@ -153,9 +170,9 @@ Neste passo vamos implementar os controles do personagem e criar um level para t
 
    - `Default Pawn Class` - BP_PlayerBase.
 
-### Animações e esqueleto do Mutant
+## Animações e esqueleto do Mutant
 
-#### Baixando o personagem Mutant
+### Baixando o personagem Mutant
 
 Em este passo iremos utilizar o site [Mixano.com](https://www.mixamo.com/) para baixar o personagem Mutant.  
 
@@ -192,8 +209,8 @@ Observação: Neste exemplo utilizaremos a opção `In Place = true` para exempl
 
 {% include imagebase.html
     src="unreal/animacao/unreal_engine_fbx_import_options.webp"
-    alt="Figura: Unreal Egnine - Blueprint FBX import options."
-    caption="Figura: Unreal Egnine - Blueprint FBX import options."
+    alt="Figura: Unreal Engine - Blueprint FBX import options."
+    caption="Figura: Unreal Engine - Blueprint FBX import options."
 %}
 
 ### Importando animações
@@ -217,6 +234,6 @@ Observação: Neste exemplo utilizaremos a opção `In Place = true` para exempl
 {% include video.html
     link="https://youtu.be/6ZLatHfD7P8"
     src="http://img.youtube.com/vi/6ZLatHfD7P8/0.jpg"
-    alt="Vídeo: Unreal Engine - Importando personagem FBX baixdo do Mixano."
-    caption="Vídeo: Unreal Engine - Importando personagem FBX baixdo do Mixano."
+    alt="Vídeo: Unreal Engine - Importando personagem FBX baixado do Mixano."
+    caption="Vídeo: Unreal Engine - Importando personagem FBX baixado do Mixano."
 %}

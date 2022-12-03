@@ -8,48 +8,29 @@ layout: post
 date: 2022-09-21 
 ---
 
-## Índice
-
 ***
 
-### Tipos de iluminação
-
 - [Directional Light](#directional-light)
-
+  - [Static](#static)
+  - [Stationary](#stationary)
+  - [Moveable](#moveable)
 - [Sky Light](#sky-light)
-
+  - [Captura de cena](#captura-de-cena)
 - [Light Component](#light-component)
-
 - [Spot Light](#spot-light)
-
 - [Point Light](#point-light)
-
 - [Rect Light](#rect-light)
-
-### Propriedades da luz
-
 - [Propriedades da luz](#propriedades-da-luz)
-
 - [Configuração no projeto](#configuração-no-projeto)
-
 - [Formas de captura de reflexão](#formas-de-captura-de-reflexão)
-
 - [Sphere Reflection](#sphere-reflection)
-
 - [Box Reflection Capture](#box-reflection-capture)
-
 - [Lightmass Importance Volume](#lightmass-importance-volume)
-
 - [Auto exposure](#auto-exposure)
-
 - [Build ligths](#build-ligths)
-
 - [Sombras](#sombras)
-
 - [Unlit](#unlit)
-
 - [Salvando a imagem da cena](#salvando-a-imagem-da-cena)
-
 - [Reflexos](#reflexos)
 
 ***
@@ -104,7 +85,7 @@ Propriedades básicas:
 
 Intensity: Valor em candelas;
 
-Intensity Units: Altera de Candelas para Lumens. É possivel usar os valores de iluminação das luzes reais.
+Intensity Units: Altera de Candelas para Lumens. É possível usar os valores de iluminação das luzes reais.
 
 `Unitless` é um valor padrão.
 
@@ -229,7 +210,7 @@ As cores identificam a densidade da iluminação.
 
 >O ideal é que o mapa sempre fique na cor verde.
 
-Os objetos tem um mapa de luz para controlar a resolução de iluminação, para veriricar utilize as propriedades do objeto:
+Os objetos tem um mapa de luz para controlar a resolução de iluminação, para verificar utilize as propriedades do objeto:
 
 ``Ligthing` > `Overridden Light Map Res`
 

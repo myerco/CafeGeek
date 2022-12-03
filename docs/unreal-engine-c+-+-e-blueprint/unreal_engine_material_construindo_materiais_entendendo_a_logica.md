@@ -9,22 +9,14 @@ layout: post
 date: 2022-09-24 
 ---
 
-## Índice
-
 ***
 
-- [As propriedades e lógica do material](#as-propriedades-e-a-lógica-do-material)
-
+- [As propriedades e a lógica do material](#as-propriedades-e-a-lógica-do-material)
 - [Utilizando Panner e TextCoord](#utilizando-panner-e-textcoord)
-
 - [Exemplo do nó Lerp](#exemplo-do-nó-lerp)
-
 - [World position Offset](#world-position-offset)
-
 - [Unlit Shading Model](#unlit-shading-model)
-
 - [Masked Blend Mode](#masked-blend-mode)
-
 - [Translucent Blend Mode](#translucent-blend-mode)
 
 ***
@@ -67,7 +59,7 @@ Neste exemplo vamos combinar várias texturas e utilizar funções de manipulaç
   caption="Figura: Neste passo o valores 0 (branco) e 1 (preto) são multiplicados."
 %}
 
-Podems exemplicar o que está acontecento utilizando uma expressão matemática de uma multiplicação entre vetores, pois os elementos são vetores de três dimensões (vector3).
+Podems exemplificar o que está acontecento utilizando uma expressão matemática de uma multiplicação entre vetores, pois os elementos são vetores de três dimensões (vector3).
 
 ```c++
   resul =  ( Vetor3(0.0664,0.0366,0.401) * Vetor3(0,1,0) );
@@ -185,7 +177,7 @@ Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais co
 {% include imagebase.html
   src="unreal/materiais/ue4_material_properties_unlit.webp"
   alt="Figura: Blueprint Material - Properties Unlit Shading Model."
-  caption="Figura: Lógica utilizando Emisse Color com variáveis."
+  caption="Figura: Lógica utilizando Emissive Color com variáveis."
 %}
 
 {% include imagebase.html

@@ -9,17 +9,16 @@ layout: post
 date: 2022-09-21 
 ---
 
-## Índice
-
 ***
 
-- [O que é Material Instance?](unreal_engine_material_instance.html#o-que-é-material-instance)
-
-- [Editor de material Instance](unreal_engine_material_instance.html#editor-de-material-instance)
-
-- [Switch Parameter](unreal_engine_material_instance.html#switch-parameter)
-
-- [Organizando parâmetros e definindo valor máximo e mínimo](unreal_engine_material_instance.html#organizando-parâmetros-e-definindo-valor-máximo-e-mínimo)
+- [O que é Material Instance?](#o-que-é-material-instance)
+  - [Convertendo nós em parâmetros](#convertendo-nós-em-parâmetros)
+  - [Criando Material Instance](#criando-material-instance)
+- [Editor de material Instance](#editor-de-material-instance)
+- [Switch Parameter](#switch-parameter)
+- [Organizando parâmetros e definindo valor máximo e mínimo](#organizando-parâmetros-e-definindo-valor-máximo-e-mínimo)
+  - [Group](#group)
+  - [Valor Mínimo e Máximo](#valor-mínimo-e-máximo)
 
 ***
 
@@ -105,8 +104,8 @@ Selecione o material `M_Base_Master` ou outro material e com o botão direito ac
 
 {% include imagebase.html
     src="unreal/materiais/unreal_engine_material_switch_parameter.webp"
-    alt="Figura: Blueprint Material Instance - Swith Parameter."
-    caption="Figura: O nó Switch Parameters é visível no Editor de Material Instence e permite alternar entre dois valores, no exemplo acima o parâmetro é chamado de ColorSwitch."
+    alt="Figura: Blueprint Material Instance - Switch Parameter."
+    caption="Figura: O nó Switch Parameters é visível no Editor de Material Instance e permite alternar entre dois valores, no exemplo acima o parâmetro é chamado de ColorSwitch."
 %}
 
 ## Organizando parâmetros e definindo valor máximo e mínimo
@@ -138,5 +137,5 @@ Podemos limitar os valores mínimo e máximo que podem ser passados como parâme
 {% include imagebase.html
     src="unreal/materiais/unreal_engine_material_slider_min_max.webp"
     alt="Figura: Blueprint Material Instance - Slider Min e Slider Max."
-    caption="Figura: Limitando os valores dos parâmetros utulizando Slider Min en Max."
+    caption="Figura: Limitando os valores dos parâmetros utilizando Slider Min en Max."
 %}

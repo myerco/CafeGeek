@@ -9,22 +9,30 @@ layout: post
 date: 2022-09-24 
 ---
 
-## Índice
-
 ***
 
 - [O que é um material?](#o-que-é-um-material)
-
 - [Materiais de base física - PBR](#materiais-de-base-física---pbr)
-
 - [Estrutura do Material no Unreal Engine](#estrutura-do-material-no-unreal-engine)
-
+  - [Criando um material](#criando-um-material)
+  - [Editor de Materiais](#editor-de-materiais)
 - [O que são Material expressions?](#o-que-são-material-expressions)
-
+  - [Valores que determinam a física](#valores-que-determinam-a-física)
+  - [Texture samples](#texture-samples)
 - [O Nó principal ou Node Result](#o-nó-principal-ou-node-result)
-
+  - [Base color](#base-color)
+  - [Normal](#normal)
+  - [Textura Normal](#textura-normal)
+  - [Metallic](#metallic)
+  - [Textura Metallic](#textura-metallic)
+  - [Roughness](#roughness)
+  - [Textura Roughness](#textura-roughness)
+  - [Specular](#specular)
+  - [Ambient Occlusion](#ambient-occlusion)
 - [Propriedades do nó principal](#propriedades-do-nó-principal)
-
+  - [Blend Mode](#blend-mode)
+  - [Shading Model](#shading-model)
+  - [Material Domain](#material-domain)
 - [Aplicando o material no objeto](#aplicando-o-material-no-objeto)
 
 ***
@@ -256,7 +264,7 @@ Para exemplificar utilizaremos o canal R (Red) da textura *Rock Basalt*.
 {% include imagebase.html
   src="unreal/materiais/unreal_engine_material_chanel_r_rock_basalt.webp"
   alt="Figura: Blueprint Material - Texture Metallic."
-  caption="Figura: Exemplo de uma textura que pode ser utilizada como base do parâmetro metallic, a textura é gradiente de negro e branco e representa a escala de 0 (negro) e 1 (pranco)"
+  caption="Figura: Exemplo de uma textura que pode ser utilizada como base do parâmetro metallic, a textura é gradiente de negro e branco e representa a escala de 0 (negro) e 1 (branco)"
 %}
 
 ### Roughness
@@ -295,15 +303,14 @@ Ao editar um material de superfície não metálico, há momentos em que você d
 
 Valores especulares medidos:
 
-|Material   |Valor    |
-|:-         |:-       |
-|Grama      |0.5      |
-|Plástico   |0.5      |
-|Quartz     |0.570    |
-|Gelo       |0.224    |
-|Água       |0.255    |
-|Leie       |0.277    |
-|Pele       |0.35     |
+| Material | Valor |
+| :------- | :---- |
+| Grama    | 0.5   |
+| Plástico | 0.5   |
+| Quartz   | 0.570 |
+| Gelo     | 0.224 |
+| Água     | 0.255 |
+| Pele     | 0.35  |
 
 {% include image.html
   src="https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/Materials/PhysicallyBased/Specular_1.jpg"
@@ -350,7 +357,7 @@ Controla como o seu material se mesclará com os pixels por trás dele.
 {% include image.html
   src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/CameraObjectSetup.webp"
   alt="Figura: Blueprint Material - Opaque."
-  caption="Figura: Material Blen Modes - Opaque <https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)>."
+  caption="Figura: Material BlendModes - Opaque <https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)>."
 %}
 
 - `BLEND_Masked` -  Cor final = cor de origem se `OpacityMask` > `OpacityMaskClipValue`, caso contrário, o pixel é descartado. Este modo de mesclagem é compatível com iluminação.
@@ -364,7 +371,7 @@ Controla como o seu material se mesclará com os pixels por trás dele.
 {% include image.html
   src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/MaskedSetup.webp"
   alt="Figura: Blueprint Material - Masked 2."
-  caption="Figura: Material Blen Modes - Masked <https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)>."
+  caption="Figura: Material BlendModes - Masked <https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)>."
 %}
   
 - `BLEND_Translucent` - Cor final = opacidade da cor de origem + cor de destino (1 - opacidade). Este modo de mistura NÃO é compatível com  iluminação dinâmica.
@@ -376,7 +383,7 @@ Controla como o seu material se mesclará com os pixels por trás dele.
   
 {% include image.html
   src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/TranslucentSetup.webp"
-  alt="Figura: [Material Blen Modes - Translucent](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)"
+  alt="Figura: [Material BlendModes - Translucent](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)"
 %}
   
 - `BLEND_Additive` - Cor final = cor de origem + cor de destino. Este modo de mistura NÃO é compatível com iluminação dinâmica.
@@ -389,7 +396,7 @@ Controla como o seu material se mesclará com os pixels por trás dele.
 {% include image.html
   src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/AdditiveSetup.webp"
   alt="Figura: Blueprint Material- Additive 1."
-  caption="Figura: Material Blen Modes - Additive <https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)>."
+  caption="Figura: Material BlendModes - Additive <https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)>."
 %}
 
 - `BLEND_Modulate` - Cor final = cor de origem x cor de destino. Este modo de mistura NÃO é compatível com iluminação dinâmica ou neblina, a menos que seja um material de decalque.
@@ -403,7 +410,7 @@ Controla como o seu material se mesclará com os pixels por trás dele.
 {% include image.html
   src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/ModulateScene.webp"
   alt="Figura: Blueprint Material- Modulate 1."
-  caption="Figura: Material Blen Modes - Modulate <https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)>."
+  caption="Figura: Material BlendModes - Modulate <https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)>."
 %}
   
 ### Shading Model

@@ -1,6 +1,6 @@
 ---
 title: Implementando a Lógica da animação
-description: Em este capítulo iremos implementar várias animações utilizando Animation Bluerint para implementar a lógica de movimentação.
+description: Em este capítulo iremos implementar várias animações utilizando Animation Blueprint para implementar a lógica de movimentação.
 tags: [Unreal Engine, Animação,Blend Space 1D]
 categories: Unreal Engine
 author: 
@@ -9,53 +9,51 @@ layout: post
 date: 2022-09-25 
 ---
 
-## Índice
-
 ***
 
-- [O que é Animation Bluerint?](#o-que-é-animation-bluerint)
-
+- [O que é Animation Blueprint?](#o-que-é-animation-blueprint)
+  - [Implementado Animation Blueprint utilizando o Humano](#implementado-animation-blueprint-utilizando-o-humano)
 - [Estados de maquina ou State Machine](#estados-de-maquina-ou-state-machine)
-
 - [Blend Space e State Machine](#blend-space-e-state-machine)
-
 - [Blend Space 1D](#blend-space-1d)
-
 - [Blend Space](#blend-space)
-
+  - [Exemplo de um personagem saltando](#exemplo-de-um-personagem-saltando)
+  - [Implementado Animation Blueprint utilizando o Mutante](#implementado-animation-blueprint-utilizando-o-mutante)
+  - [Vídeo Animation Blueprint do Mutante](#vídeo-animation-blueprint-do-mutante)
 - [Implementando a Corrida](#implementando-a-corrida)
-
+  - [Vídeo Implementando a corrida do mutante](#vídeo-implementando-a-corrida-do-mutante)
 - [Montando a animação de ataque](#montando-a-animação-de-ataque)
-
+  - [Vídeo montando Animação de ataque](#vídeo-montando-animação-de-ataque)
 - [Animação básica com AnimGraph](#animação-básica-com-animgraph)
-
+  - [BasicLocomotion](#basiclocomotion)
+  - [Idle/Walk/Run](#idlewalkrun)
 - [Animação de ataque com AnimGraph](#animação-de-ataque-com-animgraph)
-
+  - [Vídeo montando o ataque](#vídeo-montando-o-ataque)
 - [Atacando somente com os braços](#atacando-somente-com-os-braços)
-
 - [Animação de ataque completa e correndo somente os braços](#animação-de-ataque-completa-e-correndo-somente-os-braços)
+  - [Vídeo do personagem correndo e atacando](#vídeo-do-personagem-correndo-e-atacando)
 
 ***
 
 {% include imagebase.html
     src="unreal/animacao/unreal_engine_animation_animation_blueprint_main.webp"
-    alt="Figura: Unreal Engine - Animação e Bluerint."
-    caption="Figura: Unreal Engine - Animação e Bluerint."
+    alt="Figura: Unreal Engine - Animação e Blueprint."
+    caption="Figura: Unreal Engine - Animação e Blueprint."
 %}
 
-## O que é Animation Bluerint?
+## O que é Animation Blueprint?
 
 ***
 
 É um **Blueprint** especializado que controla a animação de uma malha esquelética. Os gráficos são editados dentro do `Animation Blueprint Editor`, onde você pode realizar a combinação da animação, controlar diretamente os ossos de um esqueleto ou configurar a lógica que definirá a pose final da animação para uma malha esquelética a ser usada por quadro.
 
-Vamos implementar a lógica de movimentação utilizando o elemento Animation Bluerint para os personagens Human e Mutant.
+Vamos implementar a lógica de movimentação utilizando o elemento Animation Blueprint para os personagens Human e Mutant.
 
-### Implementado Animation Bluerint utilizando o Humano
+### Implementado Animation Blueprint utilizando o Humano
 
 O Editor é separado em `AnimGraph` e `EventGraph`, onde o primeiro implementa a lógica de nós de sequencias de animação e o segundo a lógica de programação **Blueprint**.
 
-1. Para criar o objeto ABP_Human utilizamos o menu de contexto > `Animation` > `Animation Bluerint`;
+1. Para criar o objeto ABP_Human utilizamos o menu de contexto > `Animation` > `Animation Blueprint`;
 
 {% include imagebase.html
     src="unreal/animacao/unreal_engine_animation_animation_blueprint.webp"
@@ -105,8 +103,8 @@ No gráfico de eventos ou EventGraph vamos adicionar o seguinte código.
 
 {% include imagebase.html
     src="unreal/animacao/unreal_engine_blueprint_direction_speed.webp"
-    alt="Figura: Unreal Engine - Animation Bluerint -Speeed e Direction."
-    caption="Figura: Unreal Engine - Animation Bluerint -Speeed e Direction."
+    alt="Figura: Unreal Engine - Animation Blueprint -Speeed e Direction."
+    caption="Figura: Unreal Engine - Animation Blueprint -Speeed e Direction."
 %}
 
 ## Blend Space 1D
@@ -199,7 +197,7 @@ Devemos considerar que o salto depende se o personagem esta em queda e se a fun�
     caption="Figura: Unreal Engine - Exemplo da Classe BP e a Função Jump."
 %}
 
-### Implementado Animation Bluerint utilizando o Mutante
+### Implementado Animation Blueprint utilizando o Mutante
 
 1. Usando o menu de contexto `Animation > Animation Blueprint` para criar ABP_Mutant;
 
@@ -209,11 +207,11 @@ Devemos considerar que o salto depende se o personagem esta em queda e se a fun�
 
 {% include imagebase.html
     src="unreal/animacao/unreal_engine_animations_bs_mutant_graph.webp"
-    alt="Figura: Unreal Egnine - Animação do mutante - AnimGraph BS_Mutant."
-    caption="Figura: Unreal Egnine - Animação do mutante - AnimGraph BS_Mutant."
+    alt="Figura: Unreal Engine - Animação do mutante - AnimGraph BS_Mutant."
+    caption="Figura: Unreal Engine - Animação do mutante - AnimGraph BS_Mutant."
 %}
 
-### Vídeo Animation Bluerint do Mutante
+### Vídeo Animation Blueprint do Mutante
 
 {% include video.html
     link="https://youtu.be/a2JULC4-P1o"
@@ -230,8 +228,8 @@ Em este passo iremos implementar a corrida do personagem. Vamos configura o even
 
 {% include imagebase.html
     src="unreal/animacao/unreal_engine_animation_blueprint_running.webp"
-    alt="Figura: Unreal Engine - Implementando a corrida do mutante - Bluerint running."
-    caption="Figura: Unreal Engine - Implementando a corrida do mutante - Bluerint running."
+    alt="Figura: Unreal Engine - Implementando a corrida do mutante - Blueprint running."
+    caption="Figura: Unreal Engine - Implementando a corrida do mutante - Blueprint running."
 %}
 
 ### Vídeo Implementando a corrida do mutante
@@ -259,7 +257,7 @@ Em este passo utilizaremos o `Animation Montage` para montar as animações de a
     caption="Figura: Unreal Engine - Animation Montage para o ataque."
 %}
 
-1. Vamos baixar e instalar os arquivos Mutant_Punch.fbx e Mutant_Swipping do site https://mixano.com para animar ataque direita e ataque esquerda.
+1. Vamos baixar e instalar os arquivos Mutant_Punch.fbx e Mutant_Swipping do site [https://mixano.com](https://mixano.com) para animar ataque direita e ataque esquerda.
 
 1. No editor de animação arrastre as animações para a linha de tempo. Observe que cada animação ocupa uma raia ou slot dentro de uma seção;
 
@@ -368,16 +366,16 @@ Agora vamos implementar a lógica para chamar as animações quando forem pressi
 
 ***
 
-Em este passo iremos continuar com a programação `AnimGraph` para fazer o personagem correr e atacar ao mesmo tempo, para isso vamos misturar os ossos das animações utilizando `Layerd Blend per Bone`.
+Em este passo iremos continuar com a programação `AnimGraph` para fazer o personagem correr e atacar ao mesmo tempo, para isso vamos misturar os ossos das animações utilizando `Layered Blend per Bone`.
 
-`Layerd Blend per bone`.
+`Layered Blend per bone`.
 
 Podemos misturar várias animações no nó de estado e utilizar um osso (bone) como referência, no exemplo abaixo misturamos a animação básica `LocoCache`com `AttackingCache` adicionando o osso `Spine`.
 
 {% include imagebase.html
     src="unreal/animacao/unreal_engine_animgraph_attack_simple.webp"
-    alt="Figura: Unreal Engine - Animação - Layerd Blend per bone."
-    caption="Figura: Unreal Engine - Animação - Layerd Blend per bone."
+    alt="Figura: Unreal Engine - Animação - Layered Blend per bone."
+    caption="Figura: Unreal Engine - Animação - Layered Blend per bone."
 %}
 
 ## Animação de ataque completa e correndo somente os braços
@@ -386,22 +384,22 @@ Podemos misturar várias animações no nó de estado e utilizar um osso (bone) 
 
 Neste passo vamos misturar as animações condicionando a uma variável para que possamos definir o estado do personagem, correndo ou parado.
 
-`Layerd Blend by bool`.
+`Layered Blend by bool`.
 
 Podemos condicionar a mistura de animações utilizando valores condicionais *boolean*.
 
 {% include imagebase.html
     src="unreal/animacao/unreal_engine_animgraph_blend_by_bool.webp"
-    alt="Figura: Unreal Engine - Animação - Layerd Blend by bool."
-    caption="Figura: Unreal Engine - Animação - Layerd Blend by bool."
+    alt="Figura: Unreal Engine - Animação - Layered Blend by bool."
+    caption="Figura: Unreal Engine - Animação - Layered Blend by bool."
 %}
 
 No `Event Graph` de `ABP_Mutant` adicionamos a lógica para verificar se o personagem esta me movimentando testando a variável `Speed`.
 
 {% include imagebase.html
     src="unreal/animacao/unreal_engine_blueprint_animation_moving.webp"
-    alt="Figura: Unreal Engine - Animação - Layerd Blend by bool e definindo uma variável de controle Moving."
-    caption="Figura: Unreal Engine - Animação - Layerd Blend by bool e definindo uma variável de controle Moving."
+    alt="Figura: Unreal Engine - Animação - Layered Blend by bool e definindo uma variável de controle Moving."
+    caption="Figura: Unreal Engine - Animação - Layered Blend by bool e definindo uma variável de controle Moving."
 %}
 
 ### Vídeo do personagem correndo e atacando
@@ -409,6 +407,6 @@ No `Event Graph` de `ABP_Mutant` adicionamos a lógica para verificar se o perso
 {% include video.html
     link="https://youtu.be/1gjkcrU7pmA"
     src="http://img.youtube.com/vi/1gjkcrU7pmA/0.jpg"
-    alt="Vídeo: Unreal Engie - Animação do personagem correndo e atacando ao mesmo tempo."
-    caption="Vídeo: Unreal Engie - Animação do personagem correndo e atacando ao mesmo tempo."
+    alt="Vídeo: Unreal Engine - Animação do personagem correndo e atacando ao mesmo tempo."
+    caption="Vídeo: Unreal Engine - Animação do personagem correndo e atacando ao mesmo tempo."
 %}

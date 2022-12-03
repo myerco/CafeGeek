@@ -9,25 +9,38 @@ layout: post
 date: 2022-09-21 
 ---
 
-## Índice
-
 ***
 
-- [Actions Mappings](#actions-mappings)
-
-- [Axis Mappings](#axis-mappings)
-
 - [Mapeamento Input do projeto](#mapeamento-input-do-projeto)
-
+- [Actions Mappings](#actions-mappings)
+  - [Exemplo em C++ associando mapeamento a eventos](#exemplo-em-c-associando-mapeamento-a-eventos)
+- [Axis Mappings](#axis-mappings)
+  - [Exemplo em C++ associando um evento ao método MoveForward](#exemplo-em-c-associando-um-evento-ao-método-moveforward)
 - [Movimentação de peão Pawn com Blueprint](#movimentação-de-peão-pawn-com-blueprint)
-
+  - [Componentes do objeto Pawn](#componentes-do-objeto-pawn)
+  - [Habilitando a entrada de comandos de entrada](#habilitando-a-entrada-de-comandos-de-entrada)
+  - [Implementando movimentação com teclado](#implementando-movimentação-com-teclado)
+  - [Capturando as coordenadas](#capturando-as-coordenadas)
+  - [Movimentação utilizando mouse](#movimentação-utilizando-mouse)
+  - [Controle de movimentação do ator (Classe)](#controle-de-movimentação-do-ator-classe)
 - [Movimentação de objetos](#movimentação-de-objetos)
-
+  - [Estrutura do objeto Plataforma](#estrutura-do-objeto-plataforma)
+  - [Aumentando a velocidade do Pawn](#aumentando-a-velocidade-do-pawn)
+  - [Movimentação da plataforma](#movimentação-da-plataforma)
+  - [Lógica usando Level Blueprint](#lógica-usando-level-blueprint)
+  - [Implementação do controle de tempo](#implementação-do-controle-de-tempo)
+  - [Utilizando o evento Tick e TimeLine](#utilizando-o-evento-tick-e-timeline)
 - [Usando o evento Tick com Blueprint](#usando-o-evento-tick-com-blueprint)
-
+  - [Declarando variáveis](#declarando-variáveis)
+  - [Inicializando variáveis](#inicializando-variáveis)
+  - [Evento Tick da plataforma](#evento-tick-da-plataforma)
 - [Usando o evento Tick com C++](#usando-o-evento-tick-com-c)
-
+  - [Inicializando variáveis da plataforma](#inicializando-variáveis-da-plataforma)
+  - [Lógica do evento Tick](#lógica-do-evento-tick)
 - [Movimentação de Characters](#movimentação-de-characters)
+  - [Utilizando Enumeration para registro de poses do personagem](#utilizando-enumeration-para-registro-de-poses-do-personagem)
+    - [Variável Enumeration](#variável-enumeration)
+    - [Atualizando a variável com os eventos Jump e Crouch](#atualizando-a-variável-com-os-eventos-jump-e-crouch)
 
 ***
 
@@ -195,8 +208,8 @@ Vamos adicionar os seguintes componentes no objeto:
 
 {% include imagebase.html
     src="unreal/actor/blueprint_get_player_controller_enable_input.webp"
-    alt="Figura : Blueptint - Exemplo Enabled Input."
-    caption="Figura : Blueptint - Exemplo Enabled Input."
+    alt="Figura : Blueprint - Exemplo Enabled Input."
+    caption="Figura : Blueprint - Exemplo Enabled Input."
 %}
 
 - `PlayerController` - Implementa funcionalidade para pegar os dados de entrada do jogador e traduzi-los em ações, como movimento, uso de itens, armas de fogo, etc. O parâmetro `Player Index` define qual controlador iremos utilizar, para este exemplo temos somente um, parâmetro 0.
@@ -285,7 +298,7 @@ Serão implementados objetos para disparar (Plataforma Trigger) a movimentação
 
 {% include imagebase.html
     src="unreal/actor/blueprint_plataform_components.webp"
-    alt="Figura: Blueprint - Exemplo de componentes da estutura da plataforma."
+    alt="Figura: Blueprint - Exemplo de componentes da estrutura da plataforma."
     caption="Figura: Blueprint - Exemplo de componentes da estrutura da plataforma."
 %}
 

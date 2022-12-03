@@ -13,11 +13,15 @@ date: 2022-09-21
 
 ***
 
+- [Índice](#índice)
 - [Implementando Material Instance com Blueprint](#implementando-material-instance-com-blueprint)
-
 - [Parameter Global](#parameter-global)
-
 - [Material Function](#material-function)
+  - [MakeMaterialAttribute](#makematerialattribute)
+  - [BreakMaterialAttribute](#breakmaterialattribute)
+  - [Parâmetros dentro das funções](#parâmetros-dentro-das-funções)
+  - [Adicionando Propriedades em uma material Function](#adicionando-propriedades-em-uma-material-function)
+  - [BlendMaterialAttribute](#blendmaterialattribute)
 
 ***
 
@@ -37,7 +41,7 @@ Selecione um ator no `View Port` e adicione uma referência no `Open Level Bluep
     caption="Figura: Acima a lógica para criar o material instance e alterar a textura."
 %}
 
-- `Create Dynamic Material Instance` - Cria um Material Instance dinâmico que pode ser modificado durante a *gameplay*. O material referênciado em `Source Material` deve conter parâmetros;
+- `Create Dynamic Material Instance` - Cria um Material Instance dinâmico que pode ser modificado durante a *gameplay*. O material referenciado em `Source Material` deve conter parâmetros;
 
 - `Set Texture Parameter Value` - Atualiza o valor do parâmetro informado em `Parameter Name`, é do tipo textura;
 
@@ -69,7 +73,7 @@ O script habilita o click do mouse e quando selecionado um objeto o evento custo
 
 ***
 
-Podemos definir parâmetros globais, que efetem todo o jogo, para que os materiais possam referenciar parâmetros escalares e vetoriais.
+Podemos definir parâmetros globais, que afetem todo o jogo, para que os materiais possam referenciar parâmetros escalares e vetoriais.
 
 > É uma ferramenta poderosa que os artistas podem usar para obter dados globais em muitos materiais de uma só vez. Ele também pode ser usado para gerar efeitos por nível, como quantidade de neve, quantidade de destruição, umidade, etc., que, de outra forma, exigiria a configuração de valores de parâmetros individuais em muitas instâncias de materiais diferentes em seu nível.
 
@@ -101,7 +105,7 @@ No Editor de Materiais usamos o menu de contexto (RMB) e escolhemos a opção `M
 
 ***
 
-**Mateial Functions** ou Funções de material são pequenos fragmentos de códigos gráficos de material que podem ser salvos em pacotes e reutilizados em vários materiais, em outras palavras são funções de programação. Seu objetivo é agilizar o processo de criação de material, dando acesso instantâneo a redes comumente usadas de nós materiais.
+**Material Functions** ou Funções de material são pequenos fragmentos de códigos gráficos de material que podem ser salvos em pacotes e reutilizados em vários materiais, em outras palavras são funções de programação. Seu objetivo é agilizar o processo de criação de material, dando acesso instantâneo a redes comumente usadas de nós materiais.
 São compostas basicamente por entradas de parâmetros e saída de dados.
 
 Utilizamos o menu de Contexto `Material & Textures` > `Material Function` para criar as funções;
@@ -109,7 +113,7 @@ Utilizamos o menu de Contexto `Material & Textures` > `Material Function` para c
 {% include imagebase.html
     src="unreal/materiais/unreal_engine_material_function_output.webp"
     alt="Figura: Blueprint Material Function - Output."
-    caption="Figura: O editor da lógica da função criada utiliziando os nós Texture Sample e um Vector 3 e redirecionando para a saída Output Result."
+    caption="Figura: O editor da lógica da função criada utilizando os nós Texture Sample e um Vector 3 e redirecionando para a saída Output Result."
 %}
 
 - Perceba que a função apresenta um nó de resultado;
@@ -118,7 +122,7 @@ Utilizamos o menu de Contexto `Material & Textures` > `Material Function` para c
 
 {% include imagebase.html
     src="unreal/materiais/unreal_engine_material_function_call.webp"
-    alt="Figura: Bluepritn Material Function Call."
+    alt="Figura: Blueprint Material Function Call."
     caption="Figura: Chamamos a função dentro do editor de materiais usando a função MaterialFunctionCall."
 %}
 
@@ -164,7 +168,7 @@ Criamos o nó e ajustamos as propriedades do parâmetro:
 
 - `Use Preview value as Default` - Usa os valores configurados como padrão.
 
-Chamamos a função dentro de um material expression utiizando:
+Chamamos a função dentro de um material expression utilizando:
 
 - F + LMB;
 
@@ -172,7 +176,7 @@ Chamamos a função dentro de um material expression utiizando:
 
 Logo em seguida configuramos a propriedade `Material Function`.
 
-### Adcionando Propriedades em uma material Function
+### Adicionando Propriedades em uma material Function
 
 Usamos `SetMaterialAttributes` para adicionar outros atributos no resultado de uma função que retorna um conjunto de atributos.
 
@@ -190,7 +194,7 @@ Função com a cor da base.
 
 {% include imagebase.html
     src="unreal/materiais/unreal_engine_material_function_base.webp"
-    alt="Figura: Material Funciton base."
+    alt="Figura: Material Function base."
     caption="Figura: Blueprint Material - A função MF_Base implementa detalhes básicos de um material."
 %}
 
@@ -198,7 +202,7 @@ Função para utilizar na mistura.
 
 {% include imagebase.html
     src="unreal/materiais/unreal_engine_material_function_rust.webp"
-    alt="Figura: Material Funciton Rust base."
+    alt="Figura: Material Function Rust base."
     caption="Figura: Blueprint Material - Função rust."
 %}
 
@@ -206,6 +210,6 @@ Fazendo a mistura das duas funções.
 
 {% include imagebase.html
     src="unreal/materiais/unreal_engine_material_function_blend_attributes.webp"
-    alt="Figura: Material Funciton BlendMaterialAttribute."
-    caption="Figura: Material Funciton BlendMaterialAttribute - O parâmetro Alpha controla como os valores são misturados."
+    alt="Figura: Material Function BlendMaterialAttribute."
+    caption="Figura: Material Function BlendMaterialAttribute - O parâmetro Alpha controla como os valores são misturados."
 %}

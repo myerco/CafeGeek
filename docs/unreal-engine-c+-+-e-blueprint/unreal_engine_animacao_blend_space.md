@@ -15,6 +15,18 @@ date: 2022-09-25
     caption=""
 %}
 
+***
+
+- [O que é Blend Space?](#o-que-é-blend-space)
+  - [Carregando o editor](#carregando-o-editor)
+- [Blend Space 1D](#blend-space-1d)
+  - [Human](#human)
+  - [Mutant](#mutant)
+- [Vídeo Animation Blend Space 1D](#vídeo-animation-blend-space-1d)
+- [Blend Space](#blend-space)
+
+***
+
 ## O que é Blend Space?
 
 ***
@@ -43,8 +55,8 @@ Utilizamos o este elemento quando temos somente um parâmetro para controle da m
 
 {% include imagebase.html
     src="unreal/animacao/unreal_engine_Blend_Space_1D.webp"
-    alt="Figura: Unreal Engine - Editor Blen Space 1D."
-    caption="Figura: Unreal Engine - Editor Blen Space 1D."
+    alt="Figura: Unreal Engine - Editor Blend Space 1D."
+    caption="Figura: Unreal Engine - Editor Blend Space 1D."
 %}
 
 ### Human
@@ -65,7 +77,7 @@ Utilizamos o este elemento quando temos somente um parâmetro para controle da m
 
 Para acompanhar o movimentação pressione Shift + LMB e arrastre o mouse.
 
-> Alteramos o nome do parâmetro para Speed com a finalidade de facilitar a identificação dentro da lógica de programação Bluerint que usaremos posteriormente.
+> Alteramos o nome do parâmetro para Speed com a finalidade de facilitar a identificação dentro da lógica de programação Blueprint que usaremos posteriormente.
 
 ### Mutant
 
@@ -106,15 +118,15 @@ Menu de contexto `Animation` > `Blend Space`.
 
 {% include imagebase.html
     src="unreal/animacao/unreal_engine_Blend_Space.webp"
-    alt="Figura: Unreal Engine - Editor Blen Space."
-    caption="Figura: Unreal Engine - Editor Blen Space."
+    alt="Figura: Unreal Engine - Editor Blend Space."
+    caption="Figura: Unreal Engine - Editor Blend Space."
 %}
 
 - Nome do arquivo: BS_Human;
 
 - Sequencia de animação: Arraste as animações para o sequenciador conforme o parâmetro `Speed` e `Direction`;
 
-- `Horizantal Axis`: Direction;
+- `Horizontal Axis`: Direction;
 
 - `Minimum Axis Value`: -180;
 

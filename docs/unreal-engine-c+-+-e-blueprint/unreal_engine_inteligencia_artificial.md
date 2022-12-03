@@ -9,29 +9,41 @@ layout: post
 date: 2022-09-25 
 ---
 
-## Índice
-
 ***
 
 - [Preparando o projeto](#preparando-o-projeto)
-
+  - [Vídeo preparando o projeto de IA](#vídeo-preparando-o-projeto-de-ia)
+  - [NPC básico](#npc-básico)
+  - [Inteligência Artificial, implementando o NPC](#inteligência-artificial-implementando-o-npc)
 - [Árvore de comportamento ou Behaivor Tree](#árvore-de-comportamento-ou-behaivor-tree)
-
+  - [VídeoImplementando a árvore de comportamento](#vídeoimplementando-a-árvore-de-comportamento)
 - [Movimentação do NPC](#movimentação-do-npc)
-
+  - [Vídeo Implementando a movimentação do NPC](#vídeo-implementando-a-movimentação-do-npc)
+    - [Andando aleatoriamente](#andando-aleatoriamente)
+  - [Vídeo implementando o movimento aleatório](#vídeo-implementando-o-movimento-aleatório)
 - [Adicionando percepção de visão](#adicionando-percepção-de-visão)
-
+  - [Vídeo implementando a percepção ou visão do NPC](#vídeo-implementando-a-percepção-ou-visão-do-npc)
+    - [Adicionando as condições de percepção na árvore](#adicionando-as-condições-de-percepção-na-árvore)
+  - [Vídeo implementando a percepção na árvore de comportamento](#vídeo-implementando-a-percepção-na-árvore-de-comportamento)
+    - [Adicionando o loop da percepção na árvore](#adicionando-o-loop-da-percepção-na-árvore)
+  - [Vídeo implementando a percepção e o loop na árvore de comportamento](#vídeo-implementando-a-percepção-e-o-loop-na-árvore-de-comportamento)
 - [Organizando os nós](#organizando-os-nós)
-
+  - [Vídeo organizando os nós](#vídeo-organizando-os-nós)
 - [Mudando velocidade do NPC](#mudando-velocidade-do-npc)
-  
+  - [Vídeo mudando a velocidade do NPC](#vídeo-mudando-a-velocidade-do-npc)
 - [Patrulhamento com ponto de controle 01](#patrulhamento-com-ponto-de-controle-01)
-
+  - [Vídeo implementando patrulhamento e controle 1](#vídeo-implementando-patrulhamento-e-controle-1)
+    - [Tarefa para pegar um ponto de patrulhamento](#tarefa-para-pegar-um-ponto-de-patrulhamento)
+  - [Vídeo implementando a tarefa para pegar um ponto de patrulhamento](#vídeo-implementando-a-tarefa-para-pegar-um-ponto-de-patrulhamento)
+    - [Tarefa para pegar o próximo ponto de controle](#tarefa-para-pegar-o-próximo-ponto-de-controle)
+  - [Vídeo implementando a tarefa para pegar o próximo ponto de patrulhamento](#vídeo-implementando-a-tarefa-para-pegar-o-próximo-ponto-de-patrulhamento)
 - [Adicionando Enum para armazenar os estados do NPC](#adicionando-enum-para-armazenar-os-estados-do-npc)
-
+  - [Implementando tarefa para mudança de estado](#implementando-tarefa-para-mudança-de-estado)
+  - [Vídeo implementando tarefa para mudança de estado](#vídeo-implementando-tarefa-para-mudança-de-estado)
 - [Testando a árvore com pontos de controle e perseguição](#testando-a-árvore-com-pontos-de-controle-e-perseguição)
-
+  - [Vídeo testando a árvore com pontos de controle e perseguição](#vídeo-testando-a-árvore-com-pontos-de-controle-e-perseguição)
 - [Alerta de distância do jogador](#alerta-de-distância-do-jogador)
+  - [Vídeo alerta de distância do jogador](#vídeo-alerta-de-distância-do-jogador)
 
 ***
 
@@ -44,7 +56,7 @@ Em este passo iremos preparar as pastas, configuração inicial do projeto e *Ch
 jogador.
 
 1. Criar o projeto AulaIA;
-2. Criar as pastas para organização do projeto:
+1. Criar as pastas para organização do projeto:
 
     ```c
       Maps  
@@ -193,11 +205,11 @@ lógica de detecção do jogador.
 
 1. No `Blackboard` da árvore adicionamos a variável do tipo *boolean* **VendoJogador**, usaremos a variável para "avisar" quando o jogador for percebido;
 
-2. Configurando a classe **BP_NPC**
+1. Configurando a classe **BP_NPC**
 
     1. No personagem **BP_NPC** adicionaremos o componente `AIPerception`;
 
-    2. No componente `AIPerception`  será adicionado e configurado o elemento `AISight Config`;    
+    2. No componente `AIPerception`  será adicionado e configurado o elemento `AISight Config`;
     Este elemento adiciona os parâmetros que definem os ângulos e distâncias dos "sentidos" do NPC, bem como os objetos detectáveis (Inimigos, Neutros e Amigos);
 
     3. Adicionamos a lógica para receber e apresentar na tela quando um estimulo é disparado `Sucessfully Sensed`.
@@ -228,17 +240,17 @@ nós perseguindo jogador e andando aleatoriamente.
 
 2. Iremos adicionar os *Decorators* :
 
-  1. **Não Está vendo jogador** - controlando a subárvore com a seguinte configuração:
+   1. **Não Está vendo jogador** - controlando a subárvore com a seguinte configuração:
 
-  - *Observer aborts* =  *Both* Para que todas os nõs subjacentes sejam interrompidos;
+   - *Observer aborts* =  *Both* Para que todas os nõs subjacentes sejam interrompidos;
 
-  - *Key Query* = *Is Not Set*  Para somente executar a subárvore quando a variável **VendoJogador** for verdadeira.
+   - *Key Query* = *Is Not Set*  Para somente executar a subárvore quando a variável **VendoJogador** for verdadeira.
 
-  2. **Está vendo jogador** - controlando a subárvore para perseguir o jogador
+   1. **Está vendo jogador** - controlando a subárvore para perseguir o jogador
 
-  - *Observer aborts* =  *None* - Sem parâmetro de controle de interrupção ;
+   - *Observer aborts* =  *None* - Sem parâmetro de controle de interrupção ;
 
-  - *Key Query* = *Is Set*.
+   - *Key Query* = *Is Set*.
 
 3. Será criada a *task* **PersegueJogador** para substituir **Move To**;
 
@@ -259,7 +271,7 @@ dos nós.
 1. No nó com o `decorator` **Está vendo o jogador** adicionaremos o `decorator` *Loop*
 para reexecutar os elementos.
 
-### Vídeo implementando a percepção e o loop na árvore de comportamento.
+### Vídeo implementando a percepção e o loop na árvore de comportamento
 
 {% include video.html
   link="https://www.youtube.com/watch?v=U9oIU841U44"
@@ -359,7 +371,7 @@ Neste passo vamos implementar a tarefa para pegar o próximo ponto de controle.
 2. Caso o resultado anterior seja maior que o número de pontos associados ao caminho, verificamos se a variável **RepeteCaminho** (Variável *boolean* do NPC) é verdadeira
 para atribuir o valor 0 marcando o início dos pontos ou finalizamos a tarefa.
 
-### Vídeo implementando a tarefa para pegar o próximo ponto de patrulhamento.
+### Vídeo implementando a tarefa para pegar o próximo ponto de patrulhamento
 
 {% include video.html
   link="https://youtu.be/_JYS5mGJnMA"
@@ -396,7 +408,7 @@ Logo em seguida vamos fazer o seguinte:
 
 Neste passo vamos implementar uma tarefa para alterar a variável **EstadoNPC** modificando o estado do NPC.  
 
-### Vídeo implementando tarefa para mudança de estado.
+### Vídeo implementando tarefa para mudança de estado
 
 {% include video.html
   link="https://youtu.be/aqrjHEzfGbw"
@@ -437,6 +449,6 @@ Neste passo iremos implementar um aviso de alerta de proximidade de jogador.
 {% include video.html
   link="https://youtu.be/lDSNGngSvfg"
   src="https://img.youtube.com/vi/lDSNGngSvfg/0.jpg"
-  alt="ídeo: Unreal Engine - Inteligência Artificial, Alerta de distância do jogador."
-  caption="ídeo: Unreal Engine - Inteligência Artificial, Alerta de distância do jogador."
+  alt="Vídeo: Unreal Engine - Inteligência Artificial, Alerta de distância do jogador."
+  caption="Vídeo: Unreal Engine - Inteligência Artificial, Alerta de distância do jogador."
 %}

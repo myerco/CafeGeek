@@ -71,7 +71,7 @@ Skeleton ou Esqueleto da malha importada no arquivo FBX contendo controle de mov
 
 Editor para implementação das animações utilizando codificação visual.
 
-- `Event Graph` - Código *Blueprint* onde deversão ser processadas todas as variáveis de inicialização para controle de fluxo das animações;  
+- `Event Graph` - Código *Blueprint* onde deverão ser processadas todas as variáveis de inicialização para controle de fluxo das animações;  
 
 - `Anim Graph` - Nós de representação de máquinas de estado do personagem, `State Machine`;
 
