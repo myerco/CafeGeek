@@ -9,7 +9,7 @@ layout: home
 <img align="center" width="100" height="100" src="imagens/cafegeek_small.webp">
 </p>
 
-Olá, meu nome é [Marco Yerco](mailto:myerco@gmail.com) analista de sistemas e professor, gostaria de compartilhar um pouco de conhecimento.
+Olá, meu nome é [Marco Yerco](mailto:cafegeekedu@gmail.com) analista de sistemas e professor, gostaria de compartilhar um pouco de conhecimento.
 
 ## Experiência
 

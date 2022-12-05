@@ -5,7 +5,7 @@ title: null
 description: O CafeGeek é um site educacional com foco em desenvolvimento de jogos digitais e as disciplinas que orbitam este fantástico mundo
 author:
   name: CafeGeek
-  email: myerco@gmail.com
+  email: cafegeekedu@gmail.com
 header_pages:
   - about.md
 markdown: kramdown

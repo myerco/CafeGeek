@@ -1,6 +1,6 @@
 ---
 title: Me conta uma história Atividades e Referências
-description: Jogatina das décadas Seção de atividades e Referências
+description: Me conta uma história Seção de atividades e Referências
 tags: [Me conta uma história, roteiro, história, jogos digitais]
 layout: page
 ---
