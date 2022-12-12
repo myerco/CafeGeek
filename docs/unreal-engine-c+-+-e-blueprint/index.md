@@ -12,8 +12,6 @@ layout: home
   caption=""
 %}
 
-## Índice
-
 ***
 
 ## Introdução ao Unreal Engine
