@@ -11,6 +11,7 @@ date: 2022-09-21
 
 ***
 
+- [O Unreal Engine](#o-unreal-engine)
 - [Como instalar o Unreal Engine?](#como-instalar-o-unreal-engine)
   - [Por que instalar o pacote Desktop com C++ ?](#por-que-instalar-o-pacote-desktop-com-c-)
 - [Criando um projeto para jogos no Unreal Engine](#criando-um-projeto-para-jogos-no-unreal-engine)
@@ -36,6 +37,8 @@ date: 2022-09-21
   - [Configurando as imagens  do projeto](#configurando-as-imagens--do-projeto)
 
 ***
+
+## O Unreal Engine
 
 O **Unreal Engine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos e também um ambiente visual de programação abstraindo a lógica de programação.
 
@@ -91,7 +94,7 @@ Porque muitas vezes é necessário testar uma funcionalidade ou mesmo testar um 
 
 ***
 
-Nesta seção vamos criar um projeto para jogos utilizando **C++** pois irá ajudar na compreensão da estrutura de pastas e arquivos do **Unreal Engine**. O nome do projeto será ProjetoAula e o usaremos em vários capítulos.
+Nesta seção vamos criar um projeto para jogos utilizando **C++**, pois, irá ajudar na compreensão da estrutura de pastas e arquivos do **Unreal Engine**. O nome do projeto será ProjetoAula e o usaremos em vários capítulos.
 
 ### Selecionando o tipo de projeto
 
@@ -264,7 +267,7 @@ No **Unreal Egnine** em `Content Drawer` utilizando botão direito do mouse cliq
 
 ### Defina e utilize uma Nomenclatura e organização de pastas
 
-A organização de arquivos e pastas dentro dos projetos de desenvolvimento de softwares é bastante relevante para reduzir o tempo de programação e custo.
+A organização de arquivos e pastas dentro dos projetos de desenvolvimento de softwares é bastante relevante para reduzir o tempo e custo de programação.
 
 Em projetos de desenvolvimento de jogos, no **Unreal Engine**, temos diversos tipos de arquivos com caraterísticas distintas que influenciam na sua forma de armazenamento, como por exemplo:
 
@@ -290,7 +293,7 @@ Temos também equipes heterogêneas trabalhando no mesmo projeto e até na mesma
 
 Por conseguinte para um maior gerenciamento pelas equipes do projeto  podemos definir pastas com nomenclaturas e organização adequadas ao projeto, abaixo vamos relacionar algumas sugestões.
 
-1. Primeira Sugestão de organização de pastas no Unreal Engine
+Primeira Sugestão de organização de pastas no Unreal Engine
 
 ```bash
 |-- Content
@@ -308,7 +311,7 @@ Por conseguinte para um maior gerenciamento pelas equipes do projeto  podemos de
   |-- Animations
 ```
 
-1. Segunda Sugestão de organização de pastas no Unreal Engine
+Segunda Sugestão de organização de pastas no Unreal Engine
 
 ```bash
 |-- Content
@@ -359,7 +362,6 @@ Separar a pasta do projeto `Content` de outras pastas pode facilitar e trazer v�
 Exemplo:
 
 ```bash
-
 |-- Content
   |-- ProjetoAula
   |-- ProjetoAulaTestes

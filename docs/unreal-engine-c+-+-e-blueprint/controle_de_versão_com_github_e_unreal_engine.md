@@ -12,6 +12,7 @@ date: 2022-09-30
 
 ***
 
+- [Controle de Versão](#controle-de-versão)
 - [Ferramentas para controle de versão](#ferramentas-para-controle-de-versão)
 - [Estrutura do GIT](#estrutura-do-git)
 - [Entendo o fluxo de trabalho](#entendo-o-fluxo-de-trabalho)
@@ -31,6 +32,8 @@ date: 2022-09-30
   - [Exemplo de arquivo .gitignore para o Unreal Engine](#exemplo-de-arquivo-gitignore-para-o-unreal-engine)
 
 ***
+
+## Controle de Versão
 
 {% include imagebase.html
     src="unreal/projeto/unreal_engine_git.webp"
@@ -58,9 +61,9 @@ if (a > b) {
 
 Perceba que para facilitar a manutenção e desenvolvimento em equipe e pensando em documentar a lógica temos que dispor das seguintes facilidades.
 
-- Capacidade reverter o código atual para o estado anterior, lógica **A**.
+- Capacidade reverter o código atual para o estado anterior, lógica **A**;
 
-- Necessidade de compartilhar o código como outros desenvolvedores.
+- Necessidade de compartilhar o código como outros desenvolvedores;
 
 - Necessidade de documentar as alterações no momento que forem compartilhadas.
 
@@ -82,12 +85,15 @@ O **Unreal Engine** trabalha de forma nativa com **SVN**, **Perforce** e **Git**
 
 ## Estrutura do GIT
 
+***
+
 No gráfico abaixo é apresentado a estrutura de armazenar e alguns comandos do ambiente do Git.
 
 {% include image.html
     src="https://res.cloudinary.com/practicaldev/image/fetch/s--M_fHUEqA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png"
     alt="Figura: Git, GitHub, & Workflow Fundamentals."
-    caption="Figura: Git, GitHub, & Workflow Fundamentals."
+    caption="Figura: Git, GitHub, & Workflow Fundamentals - Vamos revisar um fluxo de trabalho de projeto simples e os comandos da CLI que nos ajudam a passar de uma etapa para a seguinte. Abaixo está um diagrama de um fluxo de trabalho, incluindo Git e Github. Este diagrama representa mais de perto o fluxo do meu projeto de grupo."
+    ref="https://dev.to/mollynem/git-github--workflow-fundamentals-5496"
 %}
 
 ## Entendo o fluxo de trabalho
@@ -138,9 +144,9 @@ Inscreva-se no [Github](https://github.com/) para possibilitar:
 
 É necessário instalar o **Git Client** no computador local para criar as estruturas de versionamento. Utilizaremos o **PowerShell** com os comandos a seguir para instalar o aplicativo cliente.
 
-1. Instale o [Cliente GIT](https://git-scm.com/downloads);
+- Instale o [Cliente GIT](https://git-scm.com/downloads);
 
-1. Crie uma chave de autenticação (Key-Gen) com o GIT-BASH;
+- Crie uma chave de autenticação (Key-Gen) com o GIT-BASH;
 
 ```shell
 ssh-keygen
@@ -148,9 +154,9 @@ ssh-keygen
 
 > Este passo só é necessário se no momento de envio (push) solicitar senha e o sistema operacional não gerenciar as credenciais adequadamente.
 
-1. Adicione a chave no GitHub **Settings >SSH and GPG Keys**;
+- Adicione a chave no GitHub **Settings >SSH and GPG Keys**;
 
-1. Para testar execute os comandos:
+- Para testar execute os comandos:
 
 ```shell
 mkdir -p D:\temp\testegit

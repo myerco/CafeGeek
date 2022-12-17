@@ -19,41 +19,54 @@ tags: [Unreal Engine, interface, editor]
 
 ## Editor de Level
 
+***
+
 Uma visão geral da interface usada para o design e construção de níveis e ambientes de jogo.
 
-![Figura: Level Editor - https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/](https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/DefaultInterface_Windows.webp "Figura: Level Editor - https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/")
+{% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/DefaultInterface_Windows.webp"
+    alt="Figura: Level Editor"
+    caption="Figura: Level Editor."
+    ref="https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/"
+%}
 
-> Figura: Level Editor - https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/ .
+1. Tab Bar and Menu Bar;
 
-1. Tab Bar and Menu Bar
+2. Toolbar;
 
-2. Toolbar
+3. Place Actor / Modes;
 
-3. Place Actor / Modes
+4. Viewports;
 
-4. Viewports
+5. Content Browser;
 
-5. Content Browser
+6. World Outliner;
 
-6. World Outliner
-
-7. Details
+7. Details;
 
 ## Editor de Viewports
 
+***
+
 Conceitos e recursos básicos das Viewports no Unreal Editor.
 
-![Figura: Viewport Basics - https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/Basics/](https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/Viewports_Topic.webp "Figura: Viewport Basics - https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/Basics/")
-
-> Figura: Viewport Basics - https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/Basics/ .
+{% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/Viewports_Topic.webp"
+    alt="Figura: Viewport Basics"
+    caption="Figura: Viewport Basics."
+    ref="https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/Basics/"
+%}
 
 ### Transformação de ciclo (espaço) e transformações (W/E/R)
 
-![Viewport Toolbar](https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/ViewportToolbar_TransformTools.webp "Viewport Toolbar")
+{% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/ViewportToolbar_TransformTools.webp"
+    alt="Figura: Viewport Toolbar"
+    caption="Figura: Viewport Toolbar."
+    ref="https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/"
+%}
 
-> Figura: [Viewport Toolbar](https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/)
-
-- R - A transição suave da escala ;
+- R - A transição suave da escala;
 
 - W - Mover objeto;
 
@@ -61,17 +74,23 @@ Conceitos e recursos básicos das Viewports no Unreal Editor.
 
 ### Transformação referência Mundial/Local
 
-![Coordinate System](https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/ViewportToolbar_Coordinate.webp "Coordinate System")
-
-> Figura: [Coordinate System](https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/)
+{% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/ViewportToolbar_Coordinate.webp"
+    alt="Figura: Coordinate System"
+    caption="Figura: Coordinate System."
+    ref="https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/"
+%}
 
 A referência de movimentação do objeto, por exemplo quando a referência é do objeto a movimentação é para a esquerda ou direita do objeto, quando a referência é o mundo o objeto é movimentado para a esquerda ou direita do mundo.
 
 ### Actor Snapping
 
-![](https://docs.unrealengine.com/4.27/Images/Basics/Actors/ActorSnapping/LevelViewportToolbar-SurfaceSnapping.webp "S")
-
-> Figura: [Actor Snapping](https://docs.unrealengine.com/4.27/en-US/Basics/Actors/ActorSnapping/)
+{% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/Basics/Actors/ActorSnapping/LevelViewportToolbar-SurfaceSnapping.webp"
+    alt="Figura: Actor Snapping"
+    caption="Figura: Actor Snapping."
+    ref="https://docs.unrealengine.com/4.27/en-US/Basics/Actors/ActorSnapping/"
+%}
 
 - `Surface Snapping` - Faz com que os Atores se alinhem ao piso ou a outra superfície;
 
@@ -83,14 +102,16 @@ A referência de movimentação do objeto, por exemplo quando a referência é d
 
 ### Velocidade da Câmera
 
-![Camera Speed](https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/SettingCameraSpeed.webp "Camera Speed")
-
-> Figura: [Camera Speed](https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/)
+{% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/SettingCameraSpeed.webp"
+    alt="Figura: Camera Speed"
+    caption="Figura: ACamera Speed."
+    ref="https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/"
+%}
 
 Outros controles.
 
 - [Viewport Controls](https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html)
-
 
 Guia de designer para atalhos de teclado do **Unreal Engine**.
 
@@ -98,21 +119,32 @@ Guia de designer para atalhos de teclado do **Unreal Engine**.
 
 Explicações para os modos de visualização disponíveis nas viewports.
 
-![Figura: View Modes - https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewModes](https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewModes/ViewMode_Header.webp "Figura: View Modes - https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewModes")
-
-> Figura: View Modes - https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewModes .
+{% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewModes/ViewMode_Header.webp"
+    alt="Figura: View Modes"
+    caption="Figura: View Modes."
+    ref="https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewModes"
+%}
 
 ### Customização do Layout
 
-![Figura: Layout Customization - https://docs.unrealengine.com/en-US/Engine/UI/InterfaceOverview/index.html](https://docs.unrealengine.com/4.27/Images/Basics/UI/InterfaceOverview/DockingEditorTabs2.webp "Figura: Layout Customization - https://docs.unrealengine.com/en-US/Engine/UI/InterfaceOverview/index.html")
-
-> Figura: Layout Customization - https://docs.unrealengine.com/en-US/Engine/UI/InterfaceOverview/index.html .
+{% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/Basics/UI/InterfaceOverview/DockingEditorTabs2.webp"
+    alt="Figura: Layout Customization"
+    caption="Figura: Layout Customization."
+    ref="https://docs.unrealengine.com/en-US/Engine/UI/InterfaceOverview/index.html"
+%}
 
 ## Play e Simulate
 
-![Figura: In-Editor Testing (Play & Simulate) - https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/InEditorTesting/index.html](https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/InEditorTesting/playInEditor.webp "Figura: In-Editor Testing (Play & Simulate) - https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/InEditorTesting/index.html")
+***
 
-> Figura: In-Editor Testing (Play & Simulate) - https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/InEditorTesting/index.html .
+{% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/InEditorTesting/playInEditor.webp"
+    alt="Figura: In-Editor Testing (Play & Simulate)"
+    caption="Figura: In-Editor Testing (Play & Simulate)."
+    ref="https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/InEditorTesting/index.html"
+%}
 
 - `ViewPort` -  A jogabilidade será mostrada na janela de visualização ativa do Editor de níveis;
 

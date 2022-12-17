@@ -99,7 +99,8 @@ Todo os objetos que estão visiveis em um jogo estão armazenados em um *Level* 
 {% include image.html
     src="https://www.worldofleveldesign.com/images/tutorial-topics/cat-ue4-680x300.jpg"
     alt="Figura: Tutorial List."
-    caption="Figura: Tutorial List: UE4  <https://www.worldofleveldesign.com>."
+    caption="Figura: Tutorial List: UE4."
+    ref="https://www.worldofleveldesign.com"
 %}
 
 ### Criando um Level

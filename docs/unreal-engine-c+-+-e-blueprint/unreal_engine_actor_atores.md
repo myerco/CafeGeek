@@ -17,7 +17,7 @@ date: 2022-09-21
   - [Exemplo de implementação em Blueprint](#exemplo-de-implementação-em-blueprint)
   - [Utilizando classes com Blueprint](#utilizando-classes-com-blueprint)
 - [Classe Actor](#classe-actor)
-- [Classe Actor em C++ com uma Static Mesh](#classe-actor-em-c-com-uma-static-mesh)
+  - [Classe Actor em C++ com uma Static Mesh](#classe-actor-em-c-com-uma-static-mesh)
   - [Arquivo CharacterBase.h](#arquivo-characterbaseh)
   - [Arquivo CharacterBase.cpp](#arquivo-characterbasecpp)
 - [Classe Pawn](#classe-pawn)
@@ -25,13 +25,13 @@ date: 2022-09-21
 - [Componentes e Actors](#componentes-e-actors)
   - [Adicionando componentes](#adicionando-componentes)
   - [Static Mesh - Malhas estáticas](#static-mesh---malhas-estáticas)
-  - [Componente StaticMesh](#componente-staticmesh)
-  - [Propriedades do componente Static Mesh](#propriedades-do-componente-static-mesh)
+    - [Componente StaticMesh](#componente-staticmesh)
+    - [Propriedades do componente Static Mesh](#propriedades-do-componente-static-mesh)
   - [Skeletal Mesh - Malha Esquelética](#skeletal-mesh---malha-esquelética)
-  - [A Estrutura](#a-estrutura)
-  - [Componentes Mesh](#componentes-mesh)
-  - [Detalhes do componente Mesh](#detalhes-do-componente-mesh)
-- [O Editor Skeletal Mesh](#o-editor-skeletal-mesh)
+    - [A Estrutura da malha esquelética](#a-estrutura-da-malha-esquelética)
+    - [Componentes Mesh](#componentes-mesh)
+    - [Detalhes do componente Mesh](#detalhes-do-componente-mesh)
+    - [O Editor Skeletal Mesh](#o-editor-skeletal-mesh)
 - [Posição e coordenadas](#posição-e-coordenadas)
   - [Transform](#transform)
   - [Escrevendo na tela o posicionamento do ator no mundo](#escrevendo-na-tela-o-posicionamento-do-ator-no-mundo)
@@ -71,15 +71,16 @@ date: 2022-09-21
 
 ***
 
-Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de básica de objetos do **Unreal Engine**, neste capitulo serão apresentados e implementados os atores *Actors* do seu projeto.
-
 ## O que são Actors?
 
 ***
 
+Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de básica de objetos do **Unreal Engine**, neste capitulo serão apresentados e implementados os atores *Actors* do seu projeto.
+
 **Actors** ou Atores são uma classe genérica que oferece suporte a transformações 3D, como translação, rotação e escala. Atores podem ser criados (gerados) e destruídos por meio de código de jogo (**C++**  ou **Blueprints**). Em **C ++**, **AActor** é a classe base de todos os atores.
 
 É composto por Atributos, componentes, eventos e permitem Herança.
+
 Para entender melhor devemos conceituar e entender o que são classes.
 
 ## O que são Classes?
@@ -160,9 +161,7 @@ A classe **Actor** compreende objetos básicos que podem ser adicionados a o mun
 
 - `Parent Class` : Classe pai de Actor (Classe **C++**).
 
-## Classe Actor em C++ com uma Static Mesh
-
-***
+### Classe Actor em C++ com uma Static Mesh
 
 ### Arquivo CharacterBase.h
 
@@ -196,6 +195,8 @@ public:
 
 };
 ```
+
+`UStaticMeshComponent` - É usando para criar uma instância de um `StaticMesh`.
 
 ### Arquivo CharacterBase.cpp
 
@@ -244,6 +245,10 @@ void ACharacterBase::Tick(float DeltaTime)
 
 }
 ```
+
+- `CreateDefaultSubobject` - Cria um componente ou subobjeto, permitindo criar uma classe filho e retornando a classe pai. Os objetos recém-iniciados podem ter alguns de seus valores padrão inicializados, mas o Mesh começará vazio. Você terá que carregar o malha mais tarde.
+
+- `ConstructorHelpers` - No construtor, inicializamos os componentes e, em seguida, definimos seus valores usando FObjectFinder. Também configuramos a classe para gerar usando a função StaticClass para recuperar uma instância UStatic* de um tipo de classe.
 
 ## Classe Pawn
 
@@ -350,7 +355,7 @@ Consistem em um conjunto de polígonos que podem ser armazenados em cache na mem
     caption="Figura: Statis Mesh ViewPort."
 %}
 
-### Componente StaticMesh
+#### Componente StaticMesh
 
 A aba `Components` apresenta uma lista hierarquia com os componentes associados ao objeto.
 
@@ -360,7 +365,7 @@ A aba `Components` apresenta uma lista hierarquia com os componentes associados 
     caption="Figura: Componentes hierarquia."
 %}
 
-### Propriedades do componente Static Mesh
+#### Propriedades do componente Static Mesh
 
 {% include imagebase.html
     src="unreal/movimentacao/blueprint_component_properties.webp"
@@ -390,7 +395,7 @@ Visualização da malha e suas propriedades (vértices, UV e modelo de colisão)
 
 As **Skeletal mesh** são compostas por duas partes: Um conjunto de polígonos compostos para formar a superfície da Malha Esquelética e um conjunto hierárquico de ossos interconectados que podem ser usados para animar os vértices dos polígonos. **Skeletal mesh** são frequentemente usados no **Unreal Engine 4** para representar personagens ou outros objetos animados.
 
-### A Estrutura
+#### A Estrutura da malha esquelética
 
 A baixo uma representação da hierarquia do Skeletal Mesh.
 
@@ -418,7 +423,7 @@ A baixo uma representação da hierarquia do Skeletal Mesh.
 
 - `Physics` - Estrutura para gerenciamento da física da estruturas.
 
-### Componentes Mesh
+#### Componentes Mesh
 
 {% include imagebase.html
     src="unreal/movimentacao/blueprint_component_mesh.webp"
@@ -434,7 +439,7 @@ A baixo uma representação da hierarquia do Skeletal Mesh.
 
 - `CharacterMovement` - Componente responsável pela lógica de movimentos do objeto.
 
-### Detalhes do componente Mesh
+#### Detalhes do componente Mesh
 
 {% include imagebase.html
     src="unreal/movimentacao/blueprint_component_mesh_details.webp"
@@ -442,7 +447,7 @@ A baixo uma representação da hierarquia do Skeletal Mesh.
     caption="Figura: Detalhes do componente Mesh."
 %}
 
-## O Editor Skeletal Mesh
+#### O Editor Skeletal Mesh
 
 {% include imagebase.html
     src="unreal/movimentacao/blueprint_editor_mesh.webp"
