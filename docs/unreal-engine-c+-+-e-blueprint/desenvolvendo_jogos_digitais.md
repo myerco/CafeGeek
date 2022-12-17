@@ -75,7 +75,8 @@ O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como
 {% include image.html
     src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img/https://kreonit.com/wp-content/uploads/2020/08/sound_main_optimized.jpg"
     alt="Figura: Game sound design: soundtrack, sound effects and how to combine them"
-    caption="Figura: Game sound design: soundtrack, sound effects and how to combine them - O design de som é uma parte muito importante de um jogo. Os desenvolvedores de jogos concordam que a música e os sons são poderosos condutores emocionais. E nosso objetivo é usar totalmente o som para tornar o jogo ainda melhor. [Kreonit](https://kreonit.com/our-services/mobile-game-development/game-sound-design/)."
+    caption="Figura: Game sound design: soundtrack, sound effects and how to combine them - O design de som é uma parte muito importante de um jogo. Os desenvolvedores de jogos concordam que a música e os sons são poderosos condutores emocionais. E nosso objetivo é usar totalmente o som para tornar o jogo ainda melhor."
+    ref="https://kreonit.com/our-services/mobile-game-development/game-sound-design/"
 %}
 
 Como visto acima, diversos perfis profissionais de áreas distintas estão presentes na construção de um jogo o que aumenta a complexidade desse tipo de projeto, afinal, temos diversas equipes multiculturais envolvidas compartilhando tarefas.
