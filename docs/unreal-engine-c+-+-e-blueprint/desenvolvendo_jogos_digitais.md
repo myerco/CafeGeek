@@ -12,6 +12,10 @@ date: 2022-09-21
 ***
 
 - [Como é o desenvolvimento de jogos digitais?](#como-é-o-desenvolvimento-de-jogos-digitais)
+  - [Programação de computadores](#programação-de-computadores)
+  - [Arte 3D e 2D](#arte-3d-e-2d)
+  - [Computação gráfica](#computação-gráfica)
+  - [Efeitos sonoros](#efeitos-sonoros)
 - [Mecânica, Dinâmica e Estética (MDA)](#mecânica-dinâmica-e-estética-mda)
 - [O que é uma Engine e Framework?](#o-que-é-uma-engine-e-framework)
 - [Ciclo da lógica do desenvolvimento de um jogo](#ciclo-da-lógica-do-desenvolvimento-de-um-jogo)
@@ -34,7 +38,7 @@ date: 2022-09-21
 
 O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como por exemplo:
 
-- Programação de computadores;
+### Programação de computadores
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Primoc.png"
@@ -42,7 +46,7 @@ O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como
     caption=" Figura: Programação de computadores - Programação é o processo de escrita, teste e manutenção de um programa de computador. O programa é escrito em uma linguagem de programação, embora seja possível, com alguma dificuldade, o escrever diretamente em linguagem de máquina. Diferentes partes de um programa podem ser escritas em diferentes linguagens. <https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores>."
 %}
 
-- Arte 3D e 2D;
+### Arte 3D e 2D
 
 {% include image.html
     src="https://i2.wp.com/www.crieseusjogos.com.br/wp-content/uploads/2018/08/jogos-2d-ou-jogos-3d.jpeg?w=1200&ssl=1"
@@ -50,7 +54,7 @@ O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como
     caption=" Figura: É melhor criar um jogo 2D ou 3D? - Desenvolvimento de jogos evoluiu e a geração de hoje preza bastante pelo seu design mágico, estrutura, renderização e textura. Isso tem influenciado diretamente em saber se é melhor criar um jogo 2D ou 3D. <https://www.crieseusjogos.com.br/e-melhor-criar-um-jogo-2d-ou-3d/>."
 %}
 
-- Computação gráfica;
+### Computação gráfica
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Activemarker2.PNG/330px-Activemarker2.PNG"
@@ -66,7 +70,13 @@ O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como
     caption="Figura: Jornada do Herói: Desenvolvimento de Narrativas para Jogos - Toda e qualquer história seja ela de aventura, terror, ação, romance ou qualquer outro gênero, é a responsável por chamar atenção do usuário e levar o jogador de encontro com uma nova aventura, conhecer um novo mundo qual ele irá mergulhar, quem são os personagens, seus medos, conquistas e aflições… <https://escolabrasileiradegames.com.br/blog/jornada-do-heroi-desenvolvimento-de-narrativas-para-jogos>."
 %}
 
-- Efeitos sonoros;
+### Efeitos sonoros
+
+{% include image.html
+    src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img/https://kreonit.com/wp-content/uploads/2020/08/sound_main_optimized.jpg"
+    alt="Figura: Game sound design: soundtrack, sound effects and how to combine them"
+    caption="Figura: Game sound design: soundtrack, sound effects and how to combine them - O design de som é uma parte muito importante de um jogo. Os desenvolvedores de jogos concordam que a música e os sons são poderosos condutores emocionais. E nosso objetivo é usar totalmente o som para tornar o jogo ainda melhor. [Kreonit](https://kreonit.com/our-services/mobile-game-development/game-sound-design/)."
+%}
 
 Como visto acima, diversos perfis profissionais de áreas distintas estão presentes na construção de um jogo o que aumenta a complexidade desse tipo de projeto, afinal, temos diversas equipes multiculturais envolvidas compartilhando tarefas.
 
