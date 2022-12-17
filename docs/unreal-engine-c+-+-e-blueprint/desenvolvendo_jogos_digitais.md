@@ -15,8 +15,12 @@ date: 2022-09-21
   - [Programação de computadores](#programação-de-computadores)
   - [Arte 3D e 2D](#arte-3d-e-2d)
   - [Computação gráfica](#computação-gráfica)
+  - [Elementos de construção de Narrativas](#elementos-de-construção-de-narrativas)
   - [Efeitos sonoros](#efeitos-sonoros)
 - [Mecânica, Dinâmica e Estética (MDA)](#mecânica-dinâmica-e-estética-mda)
+  - [Mecânica](#mecânica)
+  - [Dinâmica](#dinâmica)
+  - [Estética](#estética)
 - [O que é uma Engine e Framework?](#o-que-é-uma-engine-e-framework)
 - [Ciclo da lógica do desenvolvimento de um jogo](#ciclo-da-lógica-do-desenvolvimento-de-um-jogo)
 - [O que é Unreal Engine?](#o-que-é-unreal-engine)
@@ -33,7 +37,8 @@ date: 2022-09-21
 {% include image.html
     src="https://miro.medium.com/max/875/0*OlVTuxFz-Qn7oTUn"
     alt="Figura: So, You Want to Be a Game Developer?"
-    caption=" Figura: So, You Want to Be a Game Developer? - <https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70> ."
+    caption="Figura: So, You Want to Be a Game Developer? - Se você é como a maioria das pessoas, provavelmente joga videogame. Não importa se você é um jogador competitivo de e-sports atrás de muito dinheiro com seus jogos, ou se gosta de jogar spider ou candy crush como minha mãe, todo mundo joga. Mas você já pensou em fazê-los para o seu trabalho?"
+    ref="https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70"
 %}
 
 O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como por exemplo:
@@ -43,7 +48,8 @@ O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Primoc.png"
     alt="Figura: Programação de computadores "
-    caption=" Figura: Programação de computadores - Programação é o processo de escrita, teste e manutenção de um programa de computador. O programa é escrito em uma linguagem de programação, embora seja possível, com alguma dificuldade, o escrever diretamente em linguagem de máquina. Diferentes partes de um programa podem ser escritas em diferentes linguagens. <https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores>."
+    caption=" Figura: Programação de computadores - Programação é o processo de escrita, teste e manutenção de um programa de computador. O programa é escrito em uma linguagem de programação, embora seja possível, com alguma dificuldade, o escrever diretamente em linguagem de máquina. Diferentes partes de um programa podem ser escritas em diferentes linguagens."
+    ref="https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores"
 %}
 
 ### Arte 3D e 2D
@@ -51,7 +57,8 @@ O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como
 {% include image.html
     src="https://i2.wp.com/www.crieseusjogos.com.br/wp-content/uploads/2018/08/jogos-2d-ou-jogos-3d.jpeg?w=1200&ssl=1"
     alt="Figura: É melhor criar um jogo 2D ou 3D? "
-    caption=" Figura: É melhor criar um jogo 2D ou 3D? - Desenvolvimento de jogos evoluiu e a geração de hoje preza bastante pelo seu design mágico, estrutura, renderização e textura. Isso tem influenciado diretamente em saber se é melhor criar um jogo 2D ou 3D. <https://www.crieseusjogos.com.br/e-melhor-criar-um-jogo-2d-ou-3d/>."
+    caption=" Figura: É melhor criar um jogo 2D ou 3D? - Desenvolvimento de jogos evoluiu e a geração de hoje preza bastante pelo seu design mágico, estrutura, renderização e textura. Isso tem influenciado diretamente em saber se é melhor criar um jogo 2D ou 3D."
+    ref="https://www.crieseusjogos.com.br/e-melhor-criar-um-jogo-2d-ou-3d/"
 %}
 
 ### Computação gráfica
@@ -59,15 +66,17 @@ O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Activemarker2.PNG/330px-Activemarker2.PNG"
     alt="3D (computação gráfica)"
-    caption=" Figura: 3D (computação gráfica) - Computação gráfica tridimensional são gráficos que usam representações tridimensionais de dados geométricos (geralmente cartesianos) que são armazenados em um computador com o propósito de realizar cálculos e renderizar imagens 2D. <https://pt.wikipedia.org/wiki/3D_%28computa%C3%A7%C3%A3o_gr%C3%A1fica%29>."
+    caption=" Figura: 3D (computação gráfica) - Computação gráfica tridimensional são gráficos que usam representações tridimensionais de dados geométricos (geralmente cartesianos) que são armazenados em um computador com o propósito de realizar cálculos e renderizar imagens 2D."
+    ref="https://pt.wikipedia.org/wiki/3D_%28computa%C3%A7%C3%A3o_gr%C3%A1fica%29"
 %}
 
-- Elementos de construção de Narrativas;
+### Elementos de construção de Narrativas
 
 {% include image.html
     src="https://escolabrasileiradegames.com.br/wp2016/wp-content/uploads/2020/06/escola-brasileira-de-games-Jornada-do-Her%C3%B3i.jpg"
     alt="Figura: Jornada do Herói: Desenvolvimento de Narrativas para Jogos"
-    caption="Figura: Jornada do Herói: Desenvolvimento de Narrativas para Jogos - Toda e qualquer história seja ela de aventura, terror, ação, romance ou qualquer outro gênero, é a responsável por chamar atenção do usuário e levar o jogador de encontro com uma nova aventura, conhecer um novo mundo qual ele irá mergulhar, quem são os personagens, seus medos, conquistas e aflições… <https://escolabrasileiradegames.com.br/blog/jornada-do-heroi-desenvolvimento-de-narrativas-para-jogos>."
+    caption="Figura: Jornada do Herói: Desenvolvimento de Narrativas para Jogos - Toda e qualquer história seja ela de aventura, terror, ação, romance ou qualquer outro gênero, é a responsável por chamar atenção do usuário e levar o jogador de encontro com uma nova aventura, conhecer um novo mundo qual ele irá mergulhar, quem são os personagens, seus medos, conquistas e aflições…"
+    ref="https://escolabrasileiradegames.com.br/blog/jornada-do-heroi-desenvolvimento-de-narrativas-para-jogos"
 %}
 
 ### Efeitos sonoros
@@ -85,27 +94,49 @@ Como visto acima, diversos perfis profissionais de áreas distintas estão prese
 
 O projeto de desenvolvimento de um jogo pode ser estruturado dividindo-o em componentes distintos, Mecânica - Mechanics,  Dinâmica - Dynamics e Estética Aesthetics, MDA, esta divisão ajuda a trabalhar com o design do jogo.
 
-- Mecânica: descreve os componentes específicos do jogo, no nível de representação de dados e algoritmos;
-  - Componentes: Pontos, Avatares, Distintivos, tabelas de classificação.
-  - Controles: Tarefas, tempo, Perfis.
-  - Ações: Níveis, missões e grupos.
+### Mecânica
+
+Descreve os componentes específicos do jogo, no nível de representação de dados e algoritmos.
+
+- Componentes: Pontos, Avatares, Distintivos, tabelas de classificação;
   
-- Dinâmica: descreve o comportamento da mecânica quando ela é executada pelas ações do jogador e cada um dos resultados ao longo do tempo.
-  - Contexto;
-  - Escolhas;
-  - Consequências;
-  - Restrições;
-  - Continuação;
-  - Competição;
-  - Cooperação.
+- Controles: Tarefas, tempo, Perfis;
   
-- Estética: descreve as respostas emocionais desejáveis evocadas no jogador, quando ele interage com o sistema de jogo.
-  - Desafio;
-  - Criatividade;
-  - Comunidade;
-  - Elogio;
-  - Confiança;
-  - Conhecimento;
+- Ações: Níveis, missões e grupos.
+  
+### Dinâmica
+
+Descreve o comportamento da mecânica quando ela é executada pelas ações do jogador e cada um dos resultados ao longo do tempo.
+
+- Contexto;
+
+- Escolhas;
+  
+- Consequências;
+  
+- Restrições;
+
+- Continuação;
+
+- Competição;
+
+- Cooperação.
+  
+### Estética
+
+Descreve as respostas emocionais desejáveis evocadas no jogador, quando ele interage com o sistema de jogo.
+
+- Desafio;
+  
+- Criatividade;
+
+- Comunidade;
+  
+- Elogio;
+  
+- Confiança;
+  
+- Conhecimento;
 
 Quanto a construção da mecânica de um jogo é necessário utilizar uma linguagem de programação para implementar movimento, interação de personagens, inteligência artificial e outros elementos dinâmicos.
 
@@ -122,7 +153,8 @@ Existem aplicações que auxiliam na produção de programas de computador ou jo
 {% include image.html
     src="https://developerhouse.com/wp-content/uploads/2020/10/game-engines-and-framework.jpg"
     alt="Figura: Game Engine VS Game Framework."
-    caption=" Figura: Game Engine VS Game Framework - <https://developerhouse.com/game-engine-vs-game-framework/> ."
+    caption=" Figura: Game Engine VS Game Framework"
+    ref="https://developerhouse.com/game-engine-vs-game-framework/"
 %}
 
 No desenvolvimento de jogos um *Framework* pode ser definido como um conjunto de bibliotecas que auxiliam a programação, sendo que uma *Engine* ou motor gráfico é mais completo pois abrange outros aspectos na produção de jogos.
@@ -136,6 +168,8 @@ Algumas *Engine* disponíveis no mercado.
 1. GameMaker;
 
 ## Ciclo da lógica do desenvolvimento de um jogo
+
+***
 
 A maioria das *Engines* seguem um ciclo de execução da lógica de programação baseado em :
 
@@ -154,7 +188,8 @@ A maioria das *Engines* seguem um ciclo de execução da lógica de programaçã
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg/800px-Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg"
     alt="Figura: Unreal Engine."
-    caption="Figura: Unreal Engine - <https://www.unrealengine.com/en-US/>."
+    caption="Figura: Unreal Engine"
+    ref="https://www.unrealengine.com/en-US/"
 %}
 
 É uma *Engine* (motor gráfico) para desenvolvimento de jogos que engloba vários aspectos na sua produção, a seguir listamos algumas funcionalidades:
