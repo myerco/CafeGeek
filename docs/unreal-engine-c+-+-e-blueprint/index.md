@@ -6,10 +6,9 @@ tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digi
 layout: home
 ---
 
-{% include image.html
+{% include logo.html
   src="imagens/unreal_engine.webp"
   alt="Figura: Cafegeek."
-  caption=""
 %}
 
 ***
