@@ -35,10 +35,9 @@ date: 2022-09-30
 
 ## Controle de Versão
 
-{% include imagebase.html
+{% include logo.html
     src="unreal/projeto/unreal_engine_git.webp"
     alt="Figura: Unreal Engine with Git."
-    caption=""
 %}
 
 Quando programamos existe a necessidade de gerenciar as alterações que ocorrem durante o desenvolvimento do projeto e até mesmo depois, acompanhe o seguinte exemplo:  
@@ -92,7 +91,7 @@ No gráfico abaixo é apresentado a estrutura de armazenar e alguns comandos do 
 {% include image.html
     src="https://res.cloudinary.com/practicaldev/image/fetch/s--M_fHUEqA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png"
     alt="Figura: Git, GitHub, & Workflow Fundamentals."
-    caption="Figura: Git, GitHub, & Workflow Fundamentals - Vamos revisar um fluxo de trabalho de projeto simples e os comandos da CLI que nos ajudam a passar de uma etapa para a seguinte. Abaixo está um diagrama de um fluxo de trabalho, incluindo Git e Github. Este diagrama representa mais de perto o fluxo do meu projeto de grupo."
+    caption="Vamos revisar um fluxo de trabalho de projeto simples e os comandos da CLI que nos ajudam a passar de uma etapa para a seguinte. Abaixo está um diagrama de um fluxo de trabalho, incluindo Git e Github. Este diagrama representa mais de perto o fluxo do meu projeto de grupo."
     ref="https://dev.to/mollynem/git-github--workflow-fundamentals-5496"
 %}
 
@@ -116,7 +115,7 @@ git commit -m "fix: Corrigido o evento MostraMenu em BP_GameInstance, anteriorme
 git commit -m "fix: Lista de correções #14,#252"
 ````
 
-**Push** - Empurra e publica as alterações locais no servidor.
+**Push** - "Empurra" e publica as alterações locais no servidor.
 
 ```bash
 git push origin main
@@ -184,10 +183,10 @@ Para Configurar o projeto utilizaremos :
 
 `Menu` > `Edit` > `Connect To Source Control`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_connect_to_source_control.webp"
     alt="Figura: Source Control Login."
-    caption="Figura: Source Control Login."
+    caption="Configuração do usuário, servidor remoto e pasta do projeto."
 %}
 
 Abaixo a descrição dos parâmetros;
@@ -216,10 +215,10 @@ Salve o level atual em `Projeto\Maps` com o nome `LevelTest`.
 
 Abra o GitHub Desktop e configure a sua conta do **Github** para ter acesso aos seus repositórios utilizando o menu principal `File` > `Options`;
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_github_desktop_options.webp"
-    alt="Figura: Github Desktop Options."
-    caption="Figura: Github Desktop Options."
+    alt="Figura: Github Desktop > Options."
+    caption="Configuração de conta no Github."
 %}
 
 Adicione o projeto TestGitHub com `Add an Existing Repository from your hard drive...`, informe a pasta do projeto TestGitHub;
@@ -232,18 +231,18 @@ Utilizando o Explorer navegue até a pasta do projeto e edite o arquivo .gitigno
 
 Uma vez configurados os projetos nos sistemas **Unreal** e **GitHub Desktop**, podemos confirmar as alterações dos arquivos utilizando o comando `Commit to Master`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_github_desktop_Commit_to_master.webp"
     alt="Figura: Github Desktop Commit to Master."
-    caption="Figura: Github Desktop Commit to Master."
+    caption="Changes - Lista de mudanças e aba para enviar os dados (Commit to Master) e a descrição da atualização, Apresentação do *branch* atual."
 %}
 
 Após confirmação das alterações devemos publicá-las no repositório remoto usando o comando `Publish repository`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_github_desktop_publish_repository.webp"
     alt="Figura: Github Desktop Publish repository."
-    caption="Figura: Github Desktop Publish repository."
+    caption="Envia os dados para o repositório remoto."
 %}
 
 O comando acima irá criar um projeto na sua conta no Github.com e adicionar todos os arquivos criados até o momento.
@@ -268,18 +267,18 @@ No painel `Changes`  do GitHub Desktop devem aparecer somente os arquivos :
 
 - TestGitHub.uproject.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_github_desktop_commit_first_actor.webp"
     alt="Figura: Github Desktop Publish repository."
-    caption="Figura: Github Desktop Publish repository."
+    caption="Aba *Changes* apresenta os arquivos alterados ou adicionados, no exemplo acima foi inserido um novo Ator no projeto."
 %}
 
 Após a confirmação vamos enviar as alterações para o servidor com o comando `Push origin`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_github_desktop_push_origin.webp"
     alt="Figura: Github Desktop Push Origin."
-    caption="Figura: Github Desktop Push Origin."
+    caption="A janela da direita informa que é necessário realizar o envio de dados para o servidor remoto com o comando Push."
 %}
 
 ## Utilizando comandos do PowerShell para utilizar o Git Client

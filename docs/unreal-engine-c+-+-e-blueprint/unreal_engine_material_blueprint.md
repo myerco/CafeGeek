@@ -56,7 +56,7 @@ Selecione um ator no `View Port` e adicione uma referência no `Open Level Bluep
 {% include iframe.html
     src="https://blueprintue.com/render/3oeee-_g/"
     title="Cafegeek - Material and Material #1 Click Objects and Change Color"
-    ref="Link: <https://blueprintue.com/blueprint/3oeee-_g/>"
+    ref="https://blueprintue.com/blueprint/3oeee-_g/"
 %}
 
 O script habilita o click do mouse e quando selecionado um objeto o evento customizado Change Color e acionado.

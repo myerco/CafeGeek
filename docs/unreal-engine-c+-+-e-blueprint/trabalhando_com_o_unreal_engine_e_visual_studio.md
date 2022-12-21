@@ -18,24 +18,22 @@ date: 2022-09-21
 - [Criando um projeto para jogos no Unreal Engine](#criando-um-projeto-para-jogos-no-unreal-engine)
   - [Criando um projeto no Unreal Engine 4.X](#criando-um-projeto-no-unreal-engine-4x)
     - [Escolhendo o Template](#escolhendo-o-template)
-    - [Configurando o projeto](#configurando-o-projeto)
-  - [Tela inicial do Unreal Engine](#tela-inicial-do-unreal-engine)
-- [Iniciando um projeto no Unreal Engine 5](#iniciando-um-projeto-no-unreal-engine-5)
+    - [Configuração inicial do projeto](#configuração-inicial-do-projeto)
+    - [Tela inicial do Unreal Engine](#tela-inicial-do-unreal-engine)
+  - [Iniciando um projeto no Unreal Engine 5](#iniciando-um-projeto-no-unreal-engine-5)
 - [Configurando o editor de código](#configurando-o-editor-de-código)
-  - [Qual editor eu escolho, Visual Code ou Visual Studio?](#qual-editor-eu-escolho-visual-code-ou-visual-studio)
 - [Entendo as pastas criadas](#entendo-as-pastas-criadas)
   - [Pasta de código C++ - Source](#pasta-de-código-c---source)
   - [Pasta principal do projeto - Content](#pasta-principal-do-projeto---content)
   - [Pastas temporárias que podem ser removidas](#pastas-temporárias-que-podem-ser-removidas)
   - [Nomenclatura de pastas](#nomenclatura-de-pastas)
-- [Compilando o projeto usando o Windows Explorer](#compilando-o-projeto-usando-o-windows-explorer)
-- [Organizando pastas e logo do projeto](#organizando-pastas-e-logo-do-projeto)
+- [Organizando as pastas](#organizando-as-pastas)
   - [Como criar pastas de trabalho?](#como-criar-pastas-de-trabalho)
   - [Defina e utilize uma Nomenclatura e organização de pastas](#defina-e-utilize-uma-nomenclatura-e-organização-de-pastas)
   - [Os benefícios na organização das pastas](#os-benefícios-na-organização-das-pastas)
-- [Configurando o projeto](#configurando-o-projeto-1)
+- [Configurando o projeto](#configurando-o-projeto)
   - [Adicionando um *Level* na inicialização do projeto](#adicionando-um-level-na-inicialização-do-projeto)
-  - [Configurando as imagens  do projeto](#configurando-as-imagens--do-projeto)
+  - [Configurando as imagens de apresentação do projeto](#configurando-as-imagens-de-apresentação-do-projeto)
 
 ***
 
@@ -87,7 +85,7 @@ Para instalar  os pacotes de desenvolvimento e o Visual Studio para programaçã
 
 Depois de instalar o Visual Studio é necessário selecionar os seguintes pacotes de programação:
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_visual_studio_update.webp"
     alt="Figura: Visual Studio Installer - Modificar."
     caption="Usando o Visual Studio Installer podemos instalar ou remover (modificar), os pacotes necessários para o desenvolvimento de jogos."
@@ -131,7 +129,7 @@ Para este projeto vamos escolher o `template blank`, modelo vazio, significa que
 >
 > São modelos com recursos disponíveis para cada tipo de jogo escolhido.
 
-#### Configurando o projeto
+#### Configuração inicial do projeto
 
 Em configuração de projeto escolha **C++** e `No Starter Content`, esta opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário, em seguida escolha uma pasta onde o projeto deverá ser instalado em `Select a Location for project to be stored`.
 
@@ -141,30 +139,28 @@ Em configuração de projeto escolha **C++** e `No Starter Content`, esta opçã
     caption="Configurando os parâmetros do projeto."
 %}
 
-### Tela inicial do Unreal Engine
+#### Tela inicial do Unreal Engine
 
 Quando todos os passos anteriores forem concluídos corretamente a tela inicial deve aparecer.  
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_tela_inicial.webp"
     alt="Figura: Unreal Engine tela inicial."
-    caption="Figura: Tela inicial do Unreal Engine"
+    caption="Ambiente de desenvolvimento integrado com editor visual de cena, paletas de objetos e suas propriedades."
 %}
 
-## Iniciando um projeto no Unreal Engine 5
-
-***
+### Iniciando um projeto no Unreal Engine 5
 
 {% include imagebase.html
     src="unreal/projeto/unreal_engine_5_select_new_project.webp"
     alt="Figura: Unreal 5 - Select or create New Project, Games"
-    caption="Figura: A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o mesmo dos passos anteriores."
+    caption="A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o mesmo dos passos anteriores."
 %}
 
 {% include imagebase.html
     src="unreal/projeto/unreal_engine_home_screen.webp"
     alt="Figura: Unreal 5 - Tela inicial."
-    caption="Figura: Unreal Engine 5 Tela inicial ."
+    caption="Paleta de comandos com ícones menores o novo navegador de conteúdo (Content Drawer)."
 %}
 
 ## Configurando o editor de código
@@ -181,9 +177,9 @@ Para programar utilizando **C++** no Unreal devemos configurar um editor de cód
     caption="Figura: General - Source Code, Definindo o editor de código."
 %}
 
-### Qual editor eu escolho, Visual Code ou Visual Studio?
-
-Os dois são ótimos editores de código mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras linguagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
+> **Qual editor eu escolho, Visual Code ou Visual Studio?**
+>
+>Os dois são ótimos editores de código mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras linguagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
 
 ## Entendo as pastas criadas
 
@@ -240,27 +236,7 @@ As pastas abaixo podem ser removidas pois podemos construir a qualquer momento q
 
 - [UE5 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin "Gamemakin UE4 Style Guide() { A mostly reasonable approach to Unreal Engine 4").
 
-## Compilando o projeto usando o Windows Explorer
-
-***
-
-Para recompilar o projeto e recriar os arquivos podemos utilizar o `explorer` do Windows seguindo os passos abaixo:
-
-1. Apague as pastas `Binaries`, `Build`, `Intermediate` e `Saved`;
-
-1. Click com botão direito do mouse no arquivo **ProjetoAula.uproject**;
-
-1. Escolha a opção `Generate Visual Studio project files`;
-
-  {% include imagebase.html
-    src="unreal/projeto/unreal_engine_explorer_generate_vs.webp"
-    alt="Figura: Recriando os arquivos do projeto, Generate Visual Studio Project files"
-    caption="Figura: Recriando os arquivos do projeto usando o explorer com a opção Generate Visual Studio Project files."
-  %}
-
-1. Aguarde o termino da operação e abra o projeto.
-
-## Organizando pastas e logo do projeto
+## Organizando as pastas
 
 ***
 
@@ -270,10 +246,10 @@ A seguir vamos organizar as pastas do projeto *ProjetoAula*, construído no **Un
 
 No **Unreal Egnine** em `Content Drawer` utilizando botão direito do mouse clique em `New Folder` para criar pastas.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_content_drawer.webp"
     alt="Figura: Content Drawer."
-    caption="Figura: Content Drawer - Usado para navegar pelas pastas."
+    caption="Usado para navegar, criar e realizar buscas nas pastas contidas no diretório de trabalho do projeto."
 %}
 
 ### Defina e utilize uma Nomenclatura e organização de pastas
@@ -403,26 +379,26 @@ Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o 
 
 `Edit` > `Project Settings` e depois `Maps & Modes`;
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_maps_modes.webp"
-    alt="Figura: Project - Maps & Modes."
-    caption="Figura: Project - Maps & Modes."
+    alt="Figura: Project Settings > Maps & Modes."
+    caption="Parâmetros globais de configuração do level e classes."
 %}
 
 - `Edit Startup Level` - Seleciona o *Level* que deverá ser carregado no início do jogo, neste caso é `LevelTest`;
 
 - `Game default Map` - Seleciona o *Level* que é mais usado.
 
-### Configurando as imagens  do projeto
+### Configurando as imagens de apresentação do projeto
 
 Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu :
 
 `Project Settings` opção `Plataforms` > `Windows` e altere a imagens.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_project_icon.webp"
-    alt="[Figura: Project icon"
-    caption="Figura: Alterando o ícone do projeto."
+    alt="[Figura: Project Settings > Windows"
+    caption="Podemos alterar o ícone do projeto e a imagem de inicialização do jogo."
 %}
 
 Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas pode ser convertido usando ferramentas online, por exemplo) e 256x256.

@@ -18,39 +18,39 @@ date: 2022-09-21
   - [Salvando um Level](#salvando-um-level)
   - [Carregando um Level](#carregando-um-level)
 - [O que é Level Blueprint?](#o-que-é-level-blueprint)
+  - [Exemplo de BeginPlay e Tick no Level Blueprint](#exemplo-de-beginplay-e-tick-no-level-blueprint)
 - [Atores e Classes utilizando Blueprint](#atores-e-classes-utilizando-blueprint)
-- [Atores predefinidos ou Place Actors](#atores-predefinidos-ou-place-actors)
+  - [Atores predefinidos ou Place Actors](#atores-predefinidos-ou-place-actors)
   - [Classes Blueprint ou Blueprint Class](#classes-blueprint-ou-blueprint-class)
 - [Componentes - Components](#componentes---components)
   - [Components e a aba My Blueprint](#components-e-a-aba-my-blueprint)
 - [Estrutura da classe Actor no Unreal Engine](#estrutura-da-classe-actor-no-unreal-engine)
   - [Construction Script](#construction-script)
-  - [Exemplo](#exemplo)
+    - [Exemplo da lógica de um Construction Script](#exemplo-da-lógica-de-um-construction-script)
   - [Event Graph](#event-graph)
-  - [BeginPlay](#beginplay)
-  - [ActorBeginOverlap](#actorbeginoverlap)
-  - [Tick](#tick)
+    - [BeginPlay](#beginplay)
+    - [ActorBeginOverlap](#actorbeginoverlap)
+    - [Tick](#tick)
 - [Comentários](#comentários)
   - [Exemplo de comentário](#exemplo-de-comentário)
 
 ***
 
-{% include imagebase.html
+{% include logo.html
     src="unreal/actor/unreal_engine_blueprint.webp"
     alt="Figura: Unreal Engine com Blueprint"
-    caption="Figura: Unreal Engine com Blueprint"
 %}
 
 ## O que são Blueprints e Visual Scripting?
 
 ***
 
-O sistema *Blueprints Visual Scripting* no *Unreal Engine* é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nó para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos na *engine* .
+O sistema *Blueprints Visual Scripting* no **Unreal Engine** é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nós para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos na *engine* .
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/actor/uml_jogos.webp"
     alt="Figura: Exemplo do conceito de objetos na programação."
-    caption="Figura: Exemplo do conceito de objetos na programação."
+    caption="A classe gato e suas propriedades."
 %}
 
 **Blueprints** focam em ser acessíveis, versáteis para qualquer membro do projeto e isso simplifica tarefas para programadores e engenheiros de projeto, o que facilita entender, interagir e construir.  
@@ -94,12 +94,12 @@ Para que o **Unreal Engine** possa construir os nós gráficos que representam a
 
 ***
 
-Todo os objetos que estão visiveis em um jogo estão armazenados em um *Level* ou mapa de jogo, o *Level* no **Unreal Engine** é composto por iluminação, objetos poligonais e personagens controlados pelos jogadores.
+Todo os objetos que estão visíveis em um jogo estão armazenados em um *Level* ou mapa de jogo, o *Level* no **Unreal Engine** é composto por iluminação, objetos poligonais e personagens controlados pelos jogadores.
 
 {% include image.html
     src="https://www.worldofleveldesign.com/images/tutorial-topics/cat-ue4-680x300.jpg"
     alt="Figura: Tutorial List."
-    caption="Figura: Tutorial List: UE4."
+    caption="O personagem, grama, árvaros e os elementos que compõem a iluminação estão organizados em um level."
     ref="https://www.worldofleveldesign.com"
 %}
 
@@ -107,16 +107,18 @@ Todo os objetos que estão visiveis em um jogo estão armazenados em um *Level* 
 
 Para criar um *level* utilizamos o menu principal `File` > `New Level`.
 
-{% include image.html
-    src="https://docs.unrealengine.com/4.27/Images/Basics/Levels/HowTo/WorkWithLevelAssets/NewLevel_Windows.webp"
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_new_level.webp"
     alt="Figura: New Level."
-    caption="Figura: New Level."
+    caption="Utilizando o menu podemos cria um novo level ou mapa."
 %}
 
-{% include image.html
-    src="https://docs.unrealengine.com/4.27/Images/Basics/Levels/HowTo/WorkWithLevelAssets/NewLevelWindow_Windows.webp"
+Logo em seguida podemos definir um modelo pre-definido para auxiliar na construção do mapa.
+
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_new_level_template.webp"
     alt="Figura: New Level."
-    caption="Figura: A janela para cria um novo Level aparece apresentando vários modelos prontos para servir como base."
+    caption="A janela para cria um novo Level aparece apresentando vários modelos prontos para servir como base."
 %}
 
 - `Default`: Selecione para criar um novo `Level` com uma configuração básica que inclui um início de jogador, uma luz, uma cúpula do céu e outros vários atores que você precisa para um *Level* funcionar corretamente;
@@ -132,9 +134,9 @@ Para criar um *level* utilizamos o menu principal `File` > `New Level`.
 Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
 
 {% include image.html
-    src="https://docs.unrealengine.com/4.27/Images/Basics/Levels/HowTo/WorkWithLevelAssets/SaveLevel_Windows.webp"
+    src="unreal/actor/unreal_engine_save_level.webp"
     alt="Figura: Save Current."
-    caption="Figura: Save Current."
+    caption="Salva o level aberto."
 %}
 
 ### Carregando um Level
@@ -142,9 +144,9 @@ Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
 É possível abrir um  *Level* utilizando `File` > `Open Level`.
 
 {% include image.html
-    src="https://docs.unrealengine.com/4.27/Images/Basics/Levels/HowTo/WorkWithLevelAssets/OpenLevel_Windows.webp"
+    src="unreal/actor/unreal_engine_open_level.webp"
     alt="Figura: Open Level."
-    caption="Figura: Open Level."
+    caption="Abre um level."
 %}
 
 ## O que é Level Blueprint?  
@@ -155,18 +157,18 @@ Um `Level Blueprint` é um tipo especializado de **Blueprint** que atua como um 
 
 Para editar utilizamos a opção `Blueprints` > `Open Level Blueprint`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_open_level_blueprint.webp"
     alt="Figura:  Open Level Blueprint."
-    caption="Figura:  Open Level Blueprint."
+    caption="O Level Blueprint contém a lógica que controla todo o mapa."
 %}
 
-Para escrever uma mensagem no `ViewPort` utilizando o `Level Blueprint` quando o *level* iniciar utilizaremos o evento `BeginPlay` e conectaremos o nó `Print String` para escrever uma mensagem na tela.
+Para entender como funciona a lógica do *Blueprint* vamos escrever uma mensagem no `ViewPort` utilizando o `Level Blueprint` quando o *level* iniciar utilizaremos o evento `BeginPlay` e conectaremos o nó `Print String` para escrever uma mensagem na tela.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_blueprint_beginplay_printstring.webp"
     alt="Figura: Iniciando o level e escrevendo uma mensagem na tela."
-    caption="Figura: Iniciando o level e escrevendo uma mensagem na tela."
+    caption="O nó BeginPlay é executado quando o level é carregado, desta forma, o nó PrintString, associado ao nó anterior e executado."
 %}
 
 Os nós utilizados são os seguintes:
@@ -174,6 +176,15 @@ Os nós utilizados são os seguintes:
 - `BeginPlay`: Este evento é executado quando o *level* é carregado.
 
 - `Print String`: É uma função que recebe como parâmetro um texto (*String*) e a escreve na tela.
+
+### Exemplo de BeginPlay e Tick no Level Blueprint
+
+{% include iframe.html
+    src="https://blueprintue.com/render/46vsgoyi/"
+    title="Cafegeek - Exemplo de BeginPlay e Tick"
+    caption="BeginPlay é executado somente ao carregar o level, Tick é executado a cada renderização dos quadros na cena."
+    ref="https://blueprintue.com/render/46vsgoyi/"
+%}
 
 ## Atores e Classes utilizando Blueprint
 
@@ -185,46 +196,44 @@ Atores são objetos de uma determinada classe que suportam vários componentes, 
 
 A lógica de programação dos atores é expressada em **Blueprint** e nos próximos capítulos vamos abordar este temo com mais detalhes.
 
-## Atores predefinidos ou Place Actors
-
-***
+### Atores predefinidos ou Place Actors
 
 No nível mais fundamental, um ator é qualquer objeto que você pode colocar em um *Level*.
 
 Para adicionar o ator predefinido na cena utilizamos a opção `Create` e escolhemos o tipo de ator.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_blueprint_place_actors_bar.webp"
     alt="Figura: Create > Shapes para criar um objeto poligonal."
-    caption="Figura: Create > Shapes para criar um objeto poligonal."
+    caption="Os objetos são apresentados por categoria, por exemplo, a categoria Lights agrupa todos os atores que implementam algum tipo de emissão de luz, ou a categoria Shapes que agrupa objetos poligonais básicos."
 %}
 
 Ou podemos acessar o menu principal `Menu` > `Place Actors` para ter acesso a mais atores.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_place_actors.webp"
     alt="Figura: Windows > Place Actors."
-    caption="Figura: Windows > Place Actors."
+    caption="Esta opção apresenta mais categorias de objetos."
 %}
 
 ### Classes Blueprint ou Blueprint Class
 
 Uma classe **Blueprint**, muitas vezes abreviada como Blueprint, é um ativo que permite que os criadores de conteúdo adicionem funcionalidades facilmente às classes de jogo existentes. Os projetos são criados dentro do **Unreal Editor** visualmente, em vez de digitar o código, e salvos como ativos em um pacote de conteúdo. Essencialmente, eles definem uma nova classe ou tipo de ator que pode então ser colocado em mapas como instâncias que se comportam como qualquer outro tipo de ator.  
 
-Para adicionar um ator na cena utilizamos o menu de acesso rápido `Context Menu` e acionando com o botão direito do mouse na aba `Content`.  
+Para adicionar um ator na cena utilizamos o menu de acesso rápido `Context Menu` e acionando com o botão direito do mouse na aba `Content Drawer` ou o ícone Blueprint na barra de tarefas e escolher `New empty Blueprint Class...`.  
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_context_menu.webp"
-    alt="Figura: Context Menu."
-    caption="Figura: Context Menu."
+    alt="Figura: Get Content."
+    caption="O menu exibe uma lista agrupa pode tipo de ator ou recurso."
 %}
 
 Escolha de Classe de atores  `Blueprint Class`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_pick_class.webp"
     alt="Figura: Pick Parent Classe e All Classes."
-    caption="Figura: Pick Parent Classe e All Classes."
+    caption="Esta opção exibe uma lista de classes mais comuns, como por exemplo, atores básicos. All Classes realiza uma busca por uma determinada classe."
 %}
 
 ## Componentes - Components
@@ -237,20 +246,20 @@ Os componentes são úteis para compartilhar comportamentos comuns, como a capac
 
 Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuário pode implementar as diferenças no controle e movimento do veículo, alterando qual componente um ator do veículo usa.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_add_component.webp"
     alt="Figura: Add Components."
-    caption="Figura: Add Components."
+    caption="Esta janela exibe a lista de componentes que podem ser associados a uma classe Actor."
 %}
 
 ### Components e a aba My Blueprint
 
 Para ter acesso aos componentes que estão associados a um determinado objeto utilizamos a aba `My Blueprint`, que é uma representação visual do agrupamento de componentes, funções, variáveis e macros, abaixo um exemplo.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_myblueprint.webp"
     alt="Figura: Aba MyBlueprint."
-    caption="Figura: Aba MyBlueprint."
+    caption="Podemos associar a classe várias funções, macros, variáveis ou outros objetos programáveis."
 %}
 
 ## Estrutura da classe Actor no Unreal Engine
@@ -283,31 +292,31 @@ A seguir vamos aprender mais sobre esses elementos.
 
 Lógica de que é executada na construção do objeto, similares ao eventos *Construtor* em C++.  
 
-### Exemplo
+#### Exemplo da lógica de um Construction Script
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_construction_script.webp"
     alt="Figura: Construction Script."
-    caption="Figura: Apresentando uma mensagem ao construir o objeto."
+    caption="A lógica acima apresenta uma mensagem ao construir o objeto."
 %}
 
 ### Event Graph
 
-Contém um gráfico de nós e suas ligações representando a lógica de um **Blueprint**.  
+Contém o gráfico principal de nós e suas ligações representando a lógica de um **Blueprint**.  
 
 "Exibe a representação visual de um gráfico específico de nós, pois mostra todos os nós contidos no gráfico, bem como as conexões entre eles. Ele fornece recursos de edição para adicionar e remover nós, organizar nós e criar links entre nós. Os pontos de interrupção também podem ser definidos na guia Gráfico para auxiliar na depuração de Blueprints."
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_event_graph_example.webp"
     alt="Figura: Event Graph."
-    caption="Figura: Event Graph."
+    caption="Exemplo do Event Graph com vários nós."
 %}
 
-### BeginPlay
+#### BeginPlay
 
 Este evento é acionado para todos os Atores quando o jogo é iniciado, quaisquer Atores gerados após o jogo ser iniciado terão isso chamado imediatamente.
 
-### ActorBeginOverlap
+#### ActorBeginOverlap
 
 Este evento será executado quando uma série de condições forem atendidas ao mesmo tempo:
 
@@ -316,7 +325,7 @@ Este evento será executado quando uma série de condições forem atendidas ao 
 - Ambos os Atores que devem executar o evento têm que gerar Eventos de Sobreposição definido como verdadeiro.
 - E, finalmente, a colisão de ambos os Atores começa a se sobrepor; movendo-se juntos ou um é criado sobrepondo-se ao outro.
 
-### Tick
+#### Tick
 
 Este é um evento simples que é chamado em todos os quadros do jogo. Tem como parâmetro a variável **Delta Seconds**.
 
@@ -334,10 +343,10 @@ Selecione os nós e digite "C" no teclado para adicionar um comentário.
 
 ### Exemplo de comentário
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_comment_example.webp"
     alt="Figura: Comment Example."
-    caption="Figura: Exemplo de comentário."
+    caption="Adicionando um comentário para documentar a lógica."
 %}
 
 Podemos adicionar Características aos comentários que detalham melhor a lógica dos nós envolvidos, como por exemplo adicionando cores.
@@ -348,10 +357,10 @@ Podemos adicionar Características aos comentários que detalham melhor a lógic
 
 - **Verde** - Lógica de estruturas de controle.  
 
-Detalhes do comentário.
+Clicando no cabeçalho do comentário temos acesso os seus parâmetros.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_comment_details.webp"
     alt="Figura: Comment Details."
-    caption="Figura: Comment Details."
+    caption="Alteramos o texto, cor, tamanho da fonte e se pode ser exibida uma mensagem flutuante."
 %}
