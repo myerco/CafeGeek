@@ -42,7 +42,7 @@ date: 2022-09-21
     ref="https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70"
 %}
 
-O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como por exemplo:
+Um jogo digital é um produto de software e como muitos projetos de desenvolvimento envolve diversas áreas de conhecimento na sua construção, como por exemplo:
 
 ### Programação de computadores
 
@@ -93,7 +93,7 @@ O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como
     ref="https://kreonit.com/our-services/mobile-game-development/game-sound-design/"
 %}
 
-Como visto acima, diversos perfis profissionais de áreas distintas estão presentes na construção de um jogo o que aumenta a complexidade desse tipo de projeto, afinal, temos diversas equipes multiculturais envolvidas compartilhando tarefas.
+Como visto acima, diversos perfis profissionais de áreas distintas estão presentes na construção de um jogo, formando diversas equipes multiculturais,  o que aumenta a complexidade desse tipo de projeto quando pensamos na organização de tarefas e comunicação dos envolvidos.
 
 ## Mecânica, Dinâmica e Estética (MDA)
 
