@@ -7,7 +7,13 @@
       width="100%" 
       height="auto"
     >
-    <figcaption><em>{{ include.caption }}</em></figcaption>
+    <figcaption>
+        {%- if include.ref %}    
+          <strong>{{ include.title }}</strong>
+        {%- endif %}
+        <em>{{ include.caption }}     
+        </em>
+    </figcaption>
     {%- if include.ref %}
       <a href="{{ include.ref }}">{{ include.ref }}</a> 
     {%- endif %}
