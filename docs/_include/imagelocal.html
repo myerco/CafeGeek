@@ -1,0 +1,21 @@
+<div class="image-container">
+  <figure>
+    <img
+      src="https://cafegeek.eti.br/imagens/{{ include.src }}"
+      alt="{{ include.alt }}"
+      class="img-responsive"
+      width="100%" 
+      height="auto"
+    >
+    <figcaption> 
+      {%- if include.title %}    
+        <strong>{{ include.title }}</strong>
+      {% else %}
+        <strong>{{ include.alt }}</strong>
+      {%- endif %}
+      {%- if include.caption %}    
+        <em>{{ include.caption }}</em>
+      {%- endif %}  
+    </figcaption>
+  </figure>
+</div>  

@@ -16,9 +16,9 @@ date: 2022-09-21
   - [Instalando o Visual Studio para programar com C++](#instalando-o-visual-studio-para-programar-com-c)
   - [Por que instalar o pacote Desktop com C++ ?](#por-que-instalar-o-pacote-desktop-com-c-)
 - [Criando um projeto para jogos no Unreal Engine](#criando-um-projeto-para-jogos-no-unreal-engine)
-  - [Selecionando o tipo de projeto](#selecionando-o-tipo-de-projeto)
-  - [Escolhendo o Template](#escolhendo-o-template)
-- [Configurando o projeto](#configurando-o-projeto)
+  - [Criando um projeto no Unreal Engine 4.X](#criando-um-projeto-no-unreal-engine-4x)
+    - [Escolhendo o Template](#escolhendo-o-template)
+    - [Configurando o projeto](#configurando-o-projeto)
   - [Tela inicial do Unreal Engine](#tela-inicial-do-unreal-engine)
 - [Iniciando um projeto no Unreal Engine 5](#iniciando-um-projeto-no-unreal-engine-5)
 - [Configurando o editor de código](#configurando-o-editor-de-código)
@@ -55,10 +55,10 @@ Para facilitar a instalação e atualização do ambiente de desenvolvimento dos
 
 - Instalação e atualização de uma biblioteca de *plugins* e *assets* (recursos).
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_control_version.webp"
     alt="Figura: Gerenciamento de versões."
-    caption="Figura: Lista de versões instaladas."
+    caption="Inicializador da Epic Games > Versões Instaladas, Lista de versões instaladas do Unreal Engine."
 %}
 
 ## Como instalar o Unreal Engine?
@@ -79,18 +79,18 @@ Para instalar o Unreal Engine siga os seguintes passos:
 
 Para instalar  os pacotes de desenvolvimento e o Visual Studio para programação com C++ baixe o Visual Studio em : [Download Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F).
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_visual_studio_installer.webp"
-    alt="Figura: Visual Studio Update para desenvolvimento de jogos."
-    caption="Figura: Visual Studio Installer - Permite a instalação e diversas versões do Visual Studio e a sua modificação."
+    alt="Figura: Visual Studio Installer - Instalação."
+    caption="Permite instalar e modificar diversas versões do Visual Studio."
 %}
 
 Depois de instalar o Visual Studio é necessário selecionar os seguintes pacotes de programação:
 
 {% include imagebase.html
     src="unreal/projeto/unreal_engine_visual_studio_update.webp"
-    alt="Figura: Visual Studio Update para desenvolvimento de jogos."
-    caption="Figura: Usando o Visual Studio Installer podemos instalar ou remover (modificar), os pacotes necessários para o desenvolvimento de jogos."
+    alt="Figura: Visual Studio Installer - Modificar."
+    caption="Usando o Visual Studio Installer podemos instalar ou remover (modificar), os pacotes necessários para o desenvolvimento de jogos."
 %}
 
 - Desenvolvimento de jogos com C++;
@@ -107,38 +107,38 @@ Porque muitas vezes é necessário testar uma funcionalidade ou mesmo testar um 
 
 Nesta seção vamos criar um projeto para jogos utilizando **C++**, pois, irá ajudar na compreensão da estrutura de pastas e arquivos do **Unreal Engine**. O nome do projeto será ProjetoAula e o usaremos em vários capítulos.
 
-### Selecionando o tipo de projeto
+### Criando um projeto no Unreal Engine 4.X
 
-Para construção do projeto vamos selecionar a categoria *Games* para que a *Engine* configure alguns parâmetros iniciais.
+Para construção do projeto podemos clicar no versão disponível na janela do inicializador ou na opção **Inicializar** no campo superior direito, após a inicialização da **Unreal** é necessário selecionar o tipo de projeto para que a *Engine* configure alguns parâmetros iniciais.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_select_new_project.webp"
     alt="Figura: Unreal 4 - Select or create New Project, Games."
-    caption="Figura: Unreal 4 - Select or create New Project, Games."
+    caption="Selecione a opção Games para construção do projeto."
 %}
 
-### Escolhendo o Template
+#### Escolhendo o Template
 
 Para este projeto vamos escolher o `template blank`, modelo vazio, significa que não vamos instalar objetos e recursos adicionais no projeto, pois, vamos realizar essa tarefa posteriormente para que possamos entender a estrutura do projeto.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_select_template.webp"
     alt="Figura: Select Template blank"
-    caption="Figura: Selecionando um modelo para utilizar no projeto."
+    caption="Selecionando um modelo para utilizar no projeto."
 %}
 
-*Templates* são modelos com recursos disponíveis para cada tipo de jogo escolhido.
+> **Templates**
+>
+> São modelos com recursos disponíveis para cada tipo de jogo escolhido.
 
-## Configurando o projeto
-
-***
+#### Configurando o projeto
 
 Em configuração de projeto escolha **C++** e `No Starter Content`, esta opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário, em seguida escolha uma pasta onde o projeto deverá ser instalado em `Select a Location for project to be stored`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_project_settings.webp"
     alt="Figura: Unreal engine project Settings."
-    caption="Figura: Configurando os parâmetros do projeto."
+    caption="Configurando os parâmetros do projeto."
 %}
 
 ### Tela inicial do Unreal Engine
