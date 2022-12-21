@@ -49,13 +49,14 @@ Selecione um ator no `View Port` e adicione uma referência no `Open Level Bluep
 {% include iframe.html
     src="https://blueprintue.com/render/eckgsjqu/"
     title="Cafegeek - Material and Blueprint #2 Create Dynanmic Material Instance and Set"
-    caption="Link: <https://blueprintue.com/blueprint/eckgsjqu/>"
+    caption="Acima a lógica para criar o material instance e alterar a textura."
+    ref="https://blueprintue.com/blueprint/eckgsjqu/"
 %}
 
 {% include iframe.html
     src="https://blueprintue.com/render/3oeee-_g/"
     title="Cafegeek - Material and Material #1 Click Objects and Change Color"
-    caption="Link: <https://blueprintue.com/blueprint/3oeee-_g/>"
+    ref="Link: <https://blueprintue.com/blueprint/3oeee-_g/>"
 %}
 
 O script habilita o click do mouse e quando selecionado um objeto o evento customizado Change Color e acionado.

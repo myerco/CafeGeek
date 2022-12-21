@@ -37,8 +37,8 @@ date: 2022-09-21
 {% include image.html
     src="https://miro.medium.com/max/875/0*OlVTuxFz-Qn7oTUn"
     alt="Figura: So, You Want to Be a Game Developer?"
-    title="So, You Want to Be a Game Developer?"
-    caption="Figura: So, You Want to Be a Game Developer? - Se você é como a maioria das pessoas, provavelmente joga videogame. Não importa se você é um jogador competitivo de e-sports atrás de muito dinheiro com seus jogos, ou se gosta de jogar spider ou candy crush como minha mãe, todo mundo joga. Mas você já pensou em fazê-los para o seu trabalho?"
+    title="Figura: So, You Want to Be a Game Developer?"
+    caption="Se você é como a maioria das pessoas, provavelmente joga videogame. Não importa se você é um jogador competitivo de e-sports atrás de muito dinheiro com seus jogos, ou se gosta de jogar spider ou candy crush como minha mãe, todo mundo joga. Mas você já pensou em fazê-los para o seu trabalho?"
     ref="https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70"
 %}
 
