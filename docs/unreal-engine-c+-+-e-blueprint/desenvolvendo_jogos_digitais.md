@@ -48,8 +48,9 @@ O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Primoc.png"
-    alt="Figura: Programação de computadores "
-    caption=" Figura: Programação de computadores - Programação é o processo de escrita, teste e manutenção de um programa de computador. O programa é escrito em uma linguagem de programação, embora seja possível, com alguma dificuldade, o escrever diretamente em linguagem de máquina. Diferentes partes de um programa podem ser escritas em diferentes linguagens."
+    alt="Figura: Programação de computadores"
+    title="Figura: Programação de computadores "
+    caption="Programação é o processo de escrita, teste e manutenção de um programa de computador. O programa é escrito em uma linguagem de programação, embora seja possível, com alguma dificuldade, o escrever diretamente em linguagem de máquina. Diferentes partes de um programa podem ser escritas em diferentes linguagens."
     ref="https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores"
 %}
 
@@ -58,7 +59,8 @@ O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como
 {% include image.html
     src="https://i2.wp.com/www.crieseusjogos.com.br/wp-content/uploads/2018/08/jogos-2d-ou-jogos-3d.jpeg?w=1200&ssl=1"
     alt="Figura: É melhor criar um jogo 2D ou 3D? "
-    caption=" Figura: É melhor criar um jogo 2D ou 3D? - Desenvolvimento de jogos evoluiu e a geração de hoje preza bastante pelo seu design mágico, estrutura, renderização e textura. Isso tem influenciado diretamente em saber se é melhor criar um jogo 2D ou 3D."
+    title="Figura: É melhor criar um jogo 2D ou 3D? "
+    caption=" Desenvolvimento de jogos evoluiu e a geração de hoje preza bastante pelo seu design mágico, estrutura, renderização e textura. Isso tem influenciado diretamente em saber se é melhor criar um jogo 2D ou 3D."
     ref="https://www.crieseusjogos.com.br/e-melhor-criar-um-jogo-2d-ou-3d/"
 %}
 
@@ -67,7 +69,8 @@ O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Activemarker2.PNG/330px-Activemarker2.PNG"
     alt="3D (computação gráfica)"
-    caption=" Figura: 3D (computação gráfica) - Computação gráfica tridimensional são gráficos que usam representações tridimensionais de dados geométricos (geralmente cartesianos) que são armazenados em um computador com o propósito de realizar cálculos e renderizar imagens 2D."
+    title="3D (computação gráfica)"
+    caption=" Computação gráfica tridimensional são gráficos que usam representações tridimensionais de dados geométricos (geralmente cartesianos) que são armazenados em um computador com o propósito de realizar cálculos e renderizar imagens 2D."
     ref="https://pt.wikipedia.org/wiki/3D_%28computa%C3%A7%C3%A3o_gr%C3%A1fica%29"
 %}
 
@@ -76,7 +79,8 @@ O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como
 {% include image.html
     src="https://escolabrasileiradegames.com.br/wp2016/wp-content/uploads/2020/06/escola-brasileira-de-games-Jornada-do-Her%C3%B3i.jpg"
     alt="Figura: Jornada do Herói: Desenvolvimento de Narrativas para Jogos"
-    caption="Figura: Jornada do Herói: Desenvolvimento de Narrativas para Jogos - Toda e qualquer história seja ela de aventura, terror, ação, romance ou qualquer outro gênero, é a responsável por chamar atenção do usuário e levar o jogador de encontro com uma nova aventura, conhecer um novo mundo qual ele irá mergulhar, quem são os personagens, seus medos, conquistas e aflições…"
+    title="Figura: Jornada do Herói: Desenvolvimento de Narrativas para Jogos"
+    caption=" Toda e qualquer história seja ela de aventura, terror, ação, romance ou qualquer outro gênero, é a responsável por chamar atenção do usuário e levar o jogador de encontro com uma nova aventura, conhecer um novo mundo qual ele irá mergulhar, quem são os personagens, seus medos, conquistas e aflições…"
     ref="https://escolabrasileiradegames.com.br/blog/jornada-do-heroi-desenvolvimento-de-narrativas-para-jogos"
 %}
 
@@ -85,7 +89,8 @@ O desenvolvimento de jogos digitais envolve diversas áreas de conhecimento como
 {% include image.html
     src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img/https://kreonit.com/wp-content/uploads/2020/08/sound_main_optimized.jpg"
     alt="Figura: Game sound design: soundtrack, sound effects and how to combine them"
-    caption="Figura: Game sound design: soundtrack, sound effects and how to combine them - O design de som é uma parte muito importante de um jogo. Os desenvolvedores de jogos concordam que a música e os sons são poderosos condutores emocionais. E nosso objetivo é usar totalmente o som para tornar o jogo ainda melhor."
+    title="Figura: Game sound design: soundtrack, sound effects and how to combine them"
+    caption="O design de som é uma parte muito importante de um jogo. Os desenvolvedores de jogos concordam que a música e os sons são poderosos condutores emocionais. E nosso objetivo é usar totalmente o som para tornar o jogo ainda melhor."
     ref="https://kreonit.com/our-services/mobile-game-development/game-sound-design/"
 %}
 
@@ -156,7 +161,7 @@ Existem aplicações que auxiliam na produção de programas de computador ou jo
 {% include image.html
     src="https://developerhouse.com/wp-content/uploads/2020/10/game-engines-and-framework.jpg"
     alt="Figura: Game Engine VS Game Framework."
-    caption=" Figura: Game Engine VS Game Framework"
+    title="Figura: Game Engine VS Game Framework"
     ref="https://developerhouse.com/game-engine-vs-game-framework/"
 %}
 
@@ -191,7 +196,6 @@ A maioria das *Engines* seguem um ciclo de execução da lógica de programaçã
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg/800px-Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg"
     alt="Figura: Unreal Engine."
-    caption="Figura: Unreal Engine"
     ref="https://www.unrealengine.com/en-US/"
 %}
 
