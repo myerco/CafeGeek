@@ -1,14 +1,22 @@
 <div class="image-container">
-    <a href="{{ include.link }}">
-        <figure>
-          <img
-            src="{{ include.src }}"
-            alt="{{ include.alt }}"
-            class="img-responsive"
-            width="100%" 
-            height="auto"
-            >
-            <figcaption><em>{{ include.caption }}</em></figcaption>
-        </figure>
-    </a>    
-  </div>  
+  <a href="{{ include.link }}">
+    <figure>
+      <img
+        src="{{ include.src }}"
+        alt="{{ include.alt }}"
+        class="img-responsive"
+        width="100%" 
+        height="auto"
+        >
+    </figure>            
+  </a>                
+  {% if include.title %}    
+    <strong>{{ include.title }}</strong>
+  {% else %}
+    <strong>{{ include.alt }}</strong>
+  {% endif %}
+  {% if include.caption %}    
+    <em>{{ include.caption }}</em>
+  {% endif %}  
+  <a href="{{ include.link }}">{{ include.link }}</a> 
+</div>  

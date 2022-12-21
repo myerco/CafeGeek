@@ -217,7 +217,7 @@ Devemos considerar que o salto depende se o personagem esta em queda e se a fun�
     link="https://youtu.be/a2JULC4-P1o"
     src="http://img.youtube.com/vi/a2JULC4-P1o/0.jpg"
     alt="Vídeo: Unreal Engine - Animação do mutante  com Blueprint."
-    caption="Vídeo: Unreal Engine - Animação do mutante  com Blueprint."
+    caption="Animação do mutante  com Blueprint."
 %}
 
 ## Implementando a Corrida
