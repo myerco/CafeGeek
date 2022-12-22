@@ -99,7 +99,7 @@ Todo os objetos que estão visíveis em um jogo estão armazenados em um *Level*
 {% include image.html
     src="https://www.worldofleveldesign.com/images/tutorial-topics/cat-ue4-680x300.jpg"
     alt="Figura: Tutorial List."
-    caption="O personagem, grama, árvaros e os elementos que compõem a iluminação estão organizados em um level."
+    caption="O personagem, grama, árvores e os elementos que compõem a iluminação estão organizados em um level."
     ref="https://www.worldofleveldesign.com"
 %}
 
@@ -110,7 +110,7 @@ Para criar um *level* utilizamos o menu principal `File` > `New Level`.
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_new_level.webp"
     alt="Figura: New Level."
-    caption="Utilizando o menu podemos cria um novo level ou mapa."
+    caption="Utilizando o menu podemos criar um novo level ou mapa."
 %}
 
 Logo em seguida podemos definir um modelo pre-definido para auxiliar na construção do mapa.
@@ -118,7 +118,7 @@ Logo em seguida podemos definir um modelo pre-definido para auxiliar na constru�
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_new_level_template.webp"
     alt="Figura: New Level."
-    caption="A janela para cria um novo Level aparece apresentando vários modelos prontos para servir como base."
+    caption="Apresentando vários modelos prontos para servir como base."
 %}
 
 - `Default`: Selecione para criar um novo `Level` com uma configuração básica que inclui um início de jogador, uma luz, uma cúpula do céu e outros vários atores que você precisa para um *Level* funcionar corretamente;
@@ -133,7 +133,7 @@ Logo em seguida podemos definir um modelo pre-definido para auxiliar na constru�
 
 Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
 
-{% include image.html
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_save_level.webp"
     alt="Figura: Save Current."
     caption="Salva o level aberto."
@@ -143,7 +143,7 @@ Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
 
 É possível abrir um  *Level* utilizando `File` > `Open Level`.
 
-{% include image.html
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_open_level.webp"
     alt="Figura: Open Level."
     caption="Abre um level."
@@ -225,7 +225,7 @@ Para adicionar um ator na cena utilizamos o menu de acesso rápido `Context Menu
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_context_menu.webp"
     alt="Figura: Get Content."
-    caption="O menu exibe uma lista agrupa pode tipo de ator ou recurso."
+    caption="O menu exibe uma lista agrupada por tipo de ator ou recurso."
 %}
 
 Escolha de Classe de atores  `Blueprint Class`.
@@ -233,7 +233,7 @@ Escolha de Classe de atores  `Blueprint Class`.
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_pick_class.webp"
     alt="Figura: Pick Parent Classe e All Classes."
-    caption="Esta opção exibe uma lista de classes mais comuns, como por exemplo, atores básicos. All Classes realiza uma busca por uma determinada classe."
+    caption="Esta opção exibe uma lista das classes mais comuns, como por exemplo, atores básicos. A opção All Classes realiza uma busca por uma determinada classe."
 %}
 
 ## Componentes - Components
@@ -258,8 +258,8 @@ Para ter acesso aos componentes que estão associados a um determinado objeto ut
 
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_myblueprint.webp"
-    alt="Figura: Aba MyBlueprint."
-    caption="Podemos associar a classe várias funções, macros, variáveis ou outros objetos programáveis."
+    alt="Figura: Aba My Blueprint."
+    caption="Podemos associar várias funções, macros, variáveis ou outros objetos programáveis à classe."
 %}
 
 ## Estrutura da classe Actor no Unreal Engine
@@ -362,5 +362,5 @@ Clicando no cabeçalho do comentário temos acesso os seus parâmetros.
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_comment_details.webp"
     alt="Figura: Comment Details."
-    caption="Alteramos o texto, cor, tamanho da fonte e se pode ser exibida uma mensagem flutuante."
+    caption="Alteramos o texto, cor, tamanho da fonte e como exibir uma mensagem flutuante."
 %}

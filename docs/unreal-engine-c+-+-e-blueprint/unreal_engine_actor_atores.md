@@ -17,9 +17,6 @@ date: 2022-09-21
   - [Exemplo de implementação em Blueprint](#exemplo-de-implementação-em-blueprint)
   - [Utilizando classes com Blueprint](#utilizando-classes-com-blueprint)
 - [Classe Actor](#classe-actor)
-  - [Classe Actor em C++ com uma Static Mesh](#classe-actor-em-c-com-uma-static-mesh)
-  - [Arquivo CharacterBase.h](#arquivo-characterbaseh)
-  - [Arquivo CharacterBase.cpp](#arquivo-characterbasecpp)
 - [Classe Pawn](#classe-pawn)
 - [Classe Character](#classe-character)
 - [Componentes e Actors](#componentes-e-actors)
@@ -38,13 +35,9 @@ date: 2022-09-21
   - [Posição relativa no mundo](#posição-relativa-no-mundo)
   - [Escrevendo na tela o posição relativa do componente](#escrevendo-na-tela-o-posição-relativa-do-componente)
 - [Trabalhando com herança com Blueprint](#trabalhando-com-herança-com-blueprint)
-  - [Componente *ChildActor* implementa a ligação com outro ator](#componente-childactor-implementa-a-ligação-com-outro-ator)
+  - [Componente ChildActor implementa a ligação com outro ator](#componente-childactor-implementa-a-ligação-com-outro-ator)
   - [Herança de propriedades e métodos](#herança-de-propriedades-e-métodos)
   - [Referências de atores e componentes](#referências-de-atores-e-componentes)
-- [Polimorfismo em C++](#polimorfismo-em-c)
-- [Funções virtuais](#funções-virtuais)
-  - [Exemplo de função virtual em C++ com Unreal Engine](#exemplo-de-função-virtual-em-c-com-unreal-engine)
-  - [Exemplo de função virtual no C++](#exemplo-de-função-virtual-no-c)
 - [Manipulando Actors](#manipulando-actors)
   - [Spawn e Destroy Actors - Criando e destruindo um Actor](#spawn-e-destroy-actors---criando-e-destruindo-um-actor)
   - [Listando Actors por classe](#listando-actors-por-classe)
@@ -141,114 +134,25 @@ Como citado anteriormente classes são estruturas de dados com eventos, variáve
 
 Para criar uma classe utilizando **Blueprint** acesse o menu de contexto e selecione `Blueprint Class`.
 
-{% include imagebase.html
-    src="unreal/actor/blueprint_pick_class_resume.webp"
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_pick_class.webp"
     alt="Figura: Pick Parent Class."
-    caption="Figura: Pick Parent Class."
+    caption="Selecione uma classe predefinida."
 %}
 
 ## Classe Actor
 
 ***
 
-A classe **Actor** compreende objetos básicos que podem ser adicionados a o mundo.  
+A classe **Actor** compreende objetos básicos que podem ser adicionados ao mundo. Atores podem conter coleções de componentes, os quais podem ser usados para controlar como o ator se move, como é renderizado, etc. Atores suportam transformações 3D tal como translação, rotação e escala.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/actor/blueprint_class_actor.webp"
     alt="Figura: Class Actor Details."
-    caption="Figura: Class Actor Details."
+    caption="Detalhes ou parâmetros da classe Actor."
 %}
 
 - `Parent Class` : Classe pai de Actor (Classe **C++**).
-
-### Classe Actor em C++ com uma Static Mesh
-
-### Arquivo CharacterBase.h
-
-```cpp
-#pragma once
-
-#include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
-#include "CharacterBase.generated.h"
-
-UCLASS(Blueprintable)
-class AULACPPV1_API ACharacterBase : public AActor
-{
-    GENERATED_BODY()
-
-public:
-    // Sets default values for this actor's properties
-    ACharacterBase();
-
-    /* Configurando propriedade para adicionar uma Static Mesh */
-    UPROPERTY(VisibleAnywhere)
-        UStaticMeshComponent* MeshMain;
-
-protected:
-    // Called when the game starts or when spawned
-    virtual void BeginPlay() override;
-
-public:
-    // Called every frame
-    virtual void Tick(float DeltaTime) override;
-
-};
-```
-
-`UStaticMeshComponent` - É usando para criar uma instância de um `StaticMesh`.
-
-### Arquivo CharacterBase.cpp
-
-```cpp
-#include "CharacterBase.h"
-
-// Sets default values
-ACharacterBase::ACharacterBase()
-{
-    // Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-    PrimaryActorTick.bCanEverTick = true;
-
-    /*Construindo a malha na memória
-    - CreateDefaultSubobject - Cria um componente ou subobjeto, permitindo criar uma classe filho e retornando a classe pai.
-    Os objetos recém-iniciados podem ter alguns de seus valores padrão inicializados, mas o Mesh começará vazio.
-    Você terá que carregar o malha mais tarde.
-    */
-    MeshMain = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh Main"));
-
-    /*
-    * ConstructorHelpers - No construtor, inicializamos os componentes e, em seguida, definimos seus valores usando FObjectFinder.
-    Também configuramos a classe para gerar usando a função StaticClass para recuperar uma instância UStatic* de um tipo de classe.
-    */
-    static ConstructorHelpers::FObjectFinder<UStaticMesh> SphereVisualAsset(TEXT("/Game/ExampleContent/StarterContent/Shapes/Shape_Sphere.Shape_Sphere"));
-
-    if (SphereVisualAsset.Succeeded()) {
-        MeshMain->SetStaticMesh(SphereVisualAsset.Object);
-        MeshMain->SetRelativeLocation(FVector(0.0f, 0.0f, -100.0f));
-        MeshMain->SetWorldScale3D(FVector(0.8f));
-
-    }
-    MeshMain->SetupAttachment(RootComponent);
-}
-
-void ACharacterBase::BeginPlay()
-{
-    Super::BeginPlay();
-
-    UE_LOG(LogTemp, Warning, TEXT("Teste 123..."));
-
-}
-
-void ACharacterBase::Tick(float DeltaTime)
-{
-    Super::Tick(DeltaTime);
-
-}
-```
-
-- `CreateDefaultSubobject` - Cria um componente ou subobjeto, permitindo criar uma classe filho e retornando a classe pai. Os objetos recém-iniciados podem ter alguns de seus valores padrão inicializados, mas o Mesh começará vazio. Você terá que carregar o malha mais tarde.
-
-- `ConstructorHelpers` - No construtor, inicializamos os componentes e, em seguida, definimos seus valores usando FObjectFinder. Também configuramos a classe para gerar usando a função StaticClass para recuperar uma instância UStatic* de um tipo de classe.
 
 ## Classe Pawn
 
@@ -554,9 +458,9 @@ Exemplo:
     |   |   |-- Dano = 80 (herdado)    
 ```
 
-### Componente *ChildActor* implementa a ligação com outro ator
+### Componente ChildActor implementa a ligação com outro ator
 
-O componente **ChildActor** permite associar uma classe filha utilizando a lista de componentes.
+O componente `ChildActor` permite associar uma classe filha utilizando a lista de componentes.
 
 {% include imagebase.html
     src="unreal/actor/blueprint_actor_childactor.webp"
@@ -594,97 +498,7 @@ Lógica adicionada no novo evento.
     caption="Figura: Blueprint - View Class."
 %}
 
-## Polimorfismo em C++
 
-***
-
-Polimorfismo em linguagens orientadas a objeto, é a capacidade de objetos se comportarem de forma diferenciada em face de suas características ou do ambiente ao qual estejam submetidos, mesmo quando executando ação que detenha, semanticamente, a mesma designação.
-
-O polimorfismo em C++ se apresenta sob diversas formas diferentes, desde as mais simples, como funções com mesmo nome e lista de parâmetros diferentes, até as mais complexas como funções virtuais, cujas formas de execução são dependentes da classe a qual o objeto pertence e são identificadas em tempo de execução.
-
-## Funções virtuais
-
-"Uma função virtual é uma função de membro que é declarada dentro de uma classe base e é redefinida (Substituída) por uma classe derivada. Quando você se refere a um objeto de classe derivada usando um ponteiro ou uma referência à classe base, pode chamar uma função virtual para esse objeto e executar a versão da função da classe derivada."[Funções Virtuais](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_virtual "Funções Virtuais")
-
-- As funções virtuais garantem que a função correta seja chamada para um objeto, independentemente do tipo de referência (ou ponteiro) usado para a chamada da função;
-
-- Eles são usados principalmente para obter polimorfismo de tempo de execução;
-
-- As funções são declaradas com uma palavra-chave virtual na classe base;
-
-- A resolução da chamada de função é feita em tempo de execução.
-
-### Exemplo de função virtual em C++ com Unreal Engine
-
-```cpp
-class WeaponBase {
-  public: virtual void OnFire() {}
-};
-class WeaponRifle : public WeaponBase {
-  public: void OnFire() override {}
-};
-
-...
-WeaponRifle
-void anotherFunction(WeaponBase *someWeapon) {
-  someWeapon->OnFire();
-}
-```
-
-- Na função anotherFunction o método chamado em OnFire é WeaponRifle::OnFire().
-
-- O método WeaponBase::OnFire não é chamado pois foi sobreposto.
-
-### Exemplo de função virtual no C++ 
-
-```cpp
-#include <iostream>
-
-using std::cout;
-using std::endl;
-
-class Base {
-public:
-    // declaração da função virtual
-    virtual void Quem_VIRTUAL()
-    {
-        cout << "Base\n";
-    }
-    // função comum
-    void Quem_NAO_VIRTUAL()
-    {
-        cout << "Base\n";
-    }
-};
-
-class Derivada : public Base {
-public:
-    // função virtual sobrescrita
-    virtual void Quem_VIRTUAL()
-    {
-        cout << "Derivada\n";
-    }
-    // função comum sobrescrita
-    void Quem_NAO_VIRTUAL()
-    {
-        cout << "Derivada\n";
-    }
-};
-
-int main ()
-{
-    Base *ptr_base;
-    Derivada derivada;
-
-    ptr_base = &derivada;           // conversão implícita permissível
-    ptr_base->Quem_VIRTUAL();       // chamada polimórfica (mostra: "Derivada")
-    ptr_base->Quem_NAO_VIRTUAL();   // chamada comum, não-polimórfica (mostra: "Base")
-
-    cout << endl;
-
-    return 0;
-}
-```
 
 ## Manipulando Actors
 

@@ -19,6 +19,10 @@ date: 2022-09-21
   - [Exemplo Herança](#exemplo-herança)
   - [Exemplo em C++](#exemplo-em-c)
   - [Exemplo em Blueprint](#exemplo-em-blueprint)
+- [Polimorfismo em C++](#polimorfismo-em-c)
+- [Funções virtuais](#funções-virtuais)
+  - [Exemplo de função virtual em C++ com Unreal Engine](#exemplo-de-função-virtual-em-c-com-unreal-engine)
+  - [Exemplo de função virtual no C++](#exemplo-de-função-virtual-no-c)
 - [Construindo classes C++ no Unreal Engine](#construindo-classes-c-no-unreal-engine)
   - [Pasta privada com os arquivos header das classes](#pasta-privada-com-os-arquivos-header-das-classes)
   - [Exemplo de um arquivo header com variáveis](#exemplo-de-um-arquivo-header-com-variáveis)
@@ -32,6 +36,9 @@ date: 2022-09-21
 - [UFUNCTION](#ufunction)
   - [Exemplo UFUNCTION](#exemplo-ufunction)
 - [UPROPERTY](#uproperty)
+  - [Classe Actor em C++ com uma Static Mesh](#classe-actor-em-c-com-uma-static-mesh)
+    - [Arquivo CharacterBase.h](#arquivo-characterbaseh)
+    - [Arquivo CharacterBase.cpp](#arquivo-characterbasecpp)
 
 ***
 
@@ -127,6 +134,98 @@ class Hugo: Pessoa
       AddActiveTrigger()  
       float SpeedPlataforma  
       int32 Vida #Error  
+```
+
+## Polimorfismo em C++
+
+***
+
+Polimorfismo em linguagens orientadas a objeto, é a capacidade de objetos se comportarem de forma diferenciada em face de suas características ou do ambiente ao qual estejam submetidos, mesmo quando executando ação que detenha, semanticamente, a mesma designação.
+
+O polimorfismo em C++ se apresenta sob diversas formas diferentes, desde as mais simples, como funções com mesmo nome e lista de parâmetros diferentes, até as mais complexas como funções virtuais, cujas formas de execução são dependentes da classe a qual o objeto pertence e são identificadas em tempo de execução.
+
+## Funções virtuais
+
+"Uma função virtual é uma função de membro que é declarada dentro de uma classe base e é redefinida (Substituída) por uma classe derivada. Quando você se refere a um objeto de classe derivada usando um ponteiro ou uma referência à classe base, pode chamar uma função virtual para esse objeto e executar a versão da função da classe derivada."[Funções Virtuais](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_virtual "Funções Virtuais")
+
+- As funções virtuais garantem que a função correta seja chamada para um objeto, independentemente do tipo de referência (ou ponteiro) usado para a chamada da função;
+
+- Eles são usados principalmente para obter polimorfismo de tempo de execução;
+
+- As funções são declaradas com uma palavra-chave virtual na classe base;
+
+- A resolução da chamada de função é feita em tempo de execução.
+
+### Exemplo de função virtual em C++ com Unreal Engine
+
+```cpp
+class WeaponBase {
+  public: virtual void OnFire() {}
+};
+class WeaponRifle : public WeaponBase {
+  public: void OnFire() override {}
+};
+
+...
+WeaponRifle
+void anotherFunction(WeaponBase *someWeapon) {
+  someWeapon->OnFire();
+}
+```
+
+- Na função anotherFunction o método chamado em OnFire é WeaponRifle::OnFire().
+
+- O método WeaponBase::OnFire não é chamado pois foi sobreposto.
+
+### Exemplo de função virtual no C++
+
+```cpp
+#include <iostream>
+
+using std::cout;
+using std::endl;
+
+class Base {
+public:
+    // declaração da função virtual
+    virtual void Quem_VIRTUAL()
+    {
+        cout << "Base\n";
+    }
+    // função comum
+    void Quem_NAO_VIRTUAL()
+    {
+        cout << "Base\n";
+    }
+};
+
+class Derivada : public Base {
+public:
+    // função virtual sobrescrita
+    virtual void Quem_VIRTUAL()
+    {
+        cout << "Derivada\n";
+    }
+    // função comum sobrescrita
+    void Quem_NAO_VIRTUAL()
+    {
+        cout << "Derivada\n";
+    }
+};
+
+int main ()
+{
+    Base *ptr_base;
+    Derivada derivada;
+
+    ptr_base = &derivada;           // conversão implícita permissível
+    ptr_base->Quem_VIRTUAL();       // chamada polimórfica (mostra: "Derivada")
+    ptr_base->Quem_NAO_VIRTUAL();   // chamada comum, não-polimórfica (mostra: "Base")
+
+    cout << endl;
+
+    return 0;
+}
 ```
 
 ## Construindo classes C++ no Unreal Engine
@@ -346,3 +445,93 @@ UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))
 - `BlueprintReadWrite` - Esta propriedade pode ser lida ou escrita a partir de um Blueprint. Este especificador é incompatível com o especificador BlueprintReadOnly.
 - `EditAnywhere` - Indica que esta propriedade pode ser editada por janelas de propriedades, em arquétipos e instâncias. Este especificador é incompatível com qualquer um dos especificadores "visíveis".
 - `MakeEditWidget` - Usado para propriedades *Transform* ou *Rotator*, ou Matrizes de *Transforms* ou *Rotators*. Indica que a propriedade deve ser exposta na janela de visualização como um *widget* móvel.
+
+### Classe Actor em C++ com uma Static Mesh
+
+#### Arquivo CharacterBase.h
+
+```cpp
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/Actor.h"
+#include "CharacterBase.generated.h"
+
+UCLASS(Blueprintable)
+class AULACPPV1_API ACharacterBase : public AActor
+{
+    GENERATED_BODY()
+
+public:
+    // Sets default values for this actor's properties
+    ACharacterBase();
+
+    /* Configurando propriedade para adicionar uma Static Mesh */
+    UPROPERTY(VisibleAnywhere)
+        UStaticMeshComponent* MeshMain;
+
+protected:
+    // Called when the game starts or when spawned
+    virtual void BeginPlay() override;
+
+public:
+    // Called every frame
+    virtual void Tick(float DeltaTime) override;
+
+};
+```
+
+`UStaticMeshComponent` - É usando para criar uma instância de um `StaticMesh`.
+
+#### Arquivo CharacterBase.cpp
+
+```cpp
+#include "CharacterBase.h"
+
+// Sets default values
+ACharacterBase::ACharacterBase()
+{
+    // Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+    PrimaryActorTick.bCanEverTick = true;
+
+    /*Construindo a malha na memória
+    - CreateDefaultSubobject - Cria um componente ou subobjeto, permitindo criar uma classe filho e retornando a classe pai.
+    Os objetos recém-iniciados podem ter alguns de seus valores padrão inicializados, mas o Mesh começará vazio.
+    Você terá que carregar o malha mais tarde.
+    */
+    MeshMain = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Mesh Main"));
+
+    /*
+    * ConstructorHelpers - No construtor, inicializamos os componentes e, em seguida, definimos seus valores usando FObjectFinder.
+    Também configuramos a classe para gerar usando a função StaticClass para recuperar uma instância UStatic* de um tipo de classe.
+    */
+    static ConstructorHelpers::FObjectFinder<UStaticMesh> SphereVisualAsset(TEXT("/Game/ExampleContent/StarterContent/Shapes/Shape_Sphere.Shape_Sphere"));
+
+    if (SphereVisualAsset.Succeeded()) {
+        MeshMain->SetStaticMesh(SphereVisualAsset.Object);
+        MeshMain->SetRelativeLocation(FVector(0.0f, 0.0f, -100.0f));
+        MeshMain->SetWorldScale3D(FVector(0.8f));
+
+    }
+    MeshMain->SetupAttachment(RootComponent);
+}
+
+void ACharacterBase::BeginPlay()
+{
+    Super::BeginPlay();
+
+    UE_LOG(LogTemp, Warning, TEXT("Teste 123..."));
+
+}
+
+void ACharacterBase::Tick(float DeltaTime)
+{
+    Super::Tick(DeltaTime);
+
+}
+```
+
+- `CreateDefaultSubobject` - Cria um componente ou subobjeto, permitindo criar uma classe filho e retornando a classe pai. Os objetos recém-iniciados podem ter alguns de seus valores padrão inicializados, mas o Mesh começará vazio. Você terá que carregar o malha mais tarde.
+
+- `ConstructorHelpers` - No construtor, inicializamos os componentes e, em seguida, definimos seus valores usando FObjectFinder. Também configuramos a classe para gerar usando a função StaticClass para recuperar uma instância UStatic* de um tipo de classe.
+  
