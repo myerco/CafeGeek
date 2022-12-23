@@ -22,7 +22,6 @@ date: 2022-09-21
 - [Componentes e Actors](#componentes-e-actors)
   - [Adicionando componentes](#adicionando-componentes)
   - [Static Mesh - Malhas estáticas](#static-mesh---malhas-estáticas)
-    - [Componente StaticMesh](#componente-staticmesh)
     - [Propriedades do componente Static Mesh](#propriedades-do-componente-static-mesh)
   - [Skeletal Mesh - Malha Esquelética](#skeletal-mesh---malha-esquelética)
     - [A Estrutura da malha esquelética](#a-estrutura-da-malha-esquelética)
@@ -137,7 +136,7 @@ Para criar uma classe utilizando **Blueprint** acesse o menu de contexto e selec
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_pick_class.webp"
     alt="Figura: Pick Parent Class."
-    caption="Selecione uma classe predefinida."
+    caption="Permite selecionar uma classe predefinida para implementação de um nova classe."
 %}
 
 ## Classe Actor
@@ -147,9 +146,9 @@ Para criar uma classe utilizando **Blueprint** acesse o menu de contexto e selec
 A classe **Actor** compreende objetos básicos que podem ser adicionados ao mundo. Atores podem conter coleções de componentes, os quais podem ser usados para controlar como o ator se move, como é renderizado, etc. Atores suportam transformações 3D tal como translação, rotação e escala.
 
 {% include imagelocal.html
-    src="unreal/actor/blueprint_class_actor.webp"
-    alt="Figura: Class Actor Details."
-    caption="Detalhes ou parâmetros da classe Actor."
+    src="unreal/actor/unreal_engine_class_actor_details.webp"
+    alt="Figura: Actor > Class Defaults."
+    caption="Valores iniciais da classe."
 %}
 
 - `Parent Class` : Classe pai de Actor (Classe **C++**).
@@ -176,10 +175,10 @@ A classe `SpectatorPawn` é uma subclasse de `DefaultPawn`. Por meio de um **Gam
 
 As Classes tem propriedades que definem a estrutura do objeto.
 
-{% include imagebase.html
-    src="unreal/actor/blueprint_class_properties.webp"
-    alt="Figura: Details Class e estrutura."
-    caption="Figura: Details Class e estrutura"
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_class_pawn_details.webp"
+    alt="Figura: Pawm > Class Defaults."
+    caption="Valores iniciais da classe."
 %}
 
 - `Start with Tick Enabled` - Habilita o evento Tick na lógica. Pode ser desabilitado para ganhar performance;
@@ -192,12 +191,6 @@ As Classes tem propriedades que definem a estrutura do objeto.
 
 - `Can be Damaged` : Habilita os eventos de dano do objeto.
 
-{% include imagebase.html
-    src="unreal/actor/blueprint_class_properties_damaged.webp"
-    alt="Figura: Propriedade Collision."
-    caption="Figura: Propriedade Collision."
-%}
-
 ## Classe Character
 
 ***
@@ -205,15 +198,17 @@ As Classes tem propriedades que definem a estrutura do objeto.
 Um personagem é um *Pawn* que tem algumas funcionalidades básicas de movimento bípede por padrão.  
 Com a adição de um componente `CharacterMovementComponent`, um `CapsuleComponent` e um `SkeletalMeshComponent`, a classe *Pawn* é estendida para a classe *Character* com muitos recursos. Um personagem é projetado para uma representação do jogador orientada verticalmente que pode andar, correr, pular, voar e nadar pelo mundo. Esta classe também contém implementações de rede básica e modelos de entrada.
 
-{% include imagebase.html
-    src="unreal/actor/blueprint_character_properties.webp"
-    alt="Figura: Classe Character Details."
-    caption="Figura: Classe Character Details."
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_class_character_details.webp"
+    alt="Figura: Character > Class Defaults."
+    caption="Valores iniciais da classe."
 %}
 
 - `Animation Mode` - Habilita uma animação simples ou um **Blueprint** de animação ao objeto;
 
 - `Anim Class` - Blueprint de animação associado.
+
+- `Skeletal Mesh Asset` - Malha esquelética.
 
 ## Componentes e Actors
 
@@ -225,10 +220,16 @@ Os componentes são um tipo especial de objeto que os atores podem anexar a si p
 
 Na aba `Components`s podemos adicionar componentes para os objetos de forma hierarquia.
 
-{% include imagebase.html
-    src="unreal/movimentacao/blueprint_add_component_box.webp"
-    alt="Figura: Blueprint Add Component."
-    caption="Figura: Blueprint Add Component."
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_add_component.webp"
+    alt="Figura: Components > Add."
+    caption="Adicionando componentes."
+%}
+
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_add_component_hierarchy.webp"
+    alt="Figura: Components."
+    caption="Estrutura hierárquica dos componentes."
 %}
 
 Exemplo de Componentes que podemos adicionar a classe:  
@@ -241,10 +242,10 @@ Exemplo de Componentes que podemos adicionar a classe:
 
 Para editar os componentes utilizamos o Editor de objetos e componentes.
 
-{% include imagebase.html
-    src="unreal/actor/blueprint_view_components_objects.webp"
-    alt="Figura: Editando componentes."
-    caption="Figura: Editando componentes."
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_component_details.webp"
+    alt="Figura: Component > Details."
+    caption="Podemos editar as propriedades dos componentes."
 %}
 
 ### Static Mesh - Malhas estáticas
@@ -253,29 +254,13 @@ Para editar os componentes utilizamos o Editor de objetos e componentes.
 
 Consistem em um conjunto de polígonos que podem ser armazenados em cache na memória de vídeo e renderizados pela placa de vídeo. Isso permite que eles sejam renderizados com eficiência, o que significa que podem ser muito mais complexos do que outros tipos de geometria, como **Brushes**. Como são armazenados em cache na memória de vídeo, as malhas estáticas podem ser traduzidas, giradas e dimensionadas, mas não podem ter seus vértices animados de nenhuma forma.
 
-{% include imagebase.html
-    src="unreal/movimentacao/blueprint_class_viewport.webp"
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_static_mesh_viewport.webp"
     alt="Figura: Statis Mesh ViewPort."
-    caption="Figura: Statis Mesh ViewPort."
-%}
-
-#### Componente StaticMesh
-
-A aba `Components` apresenta uma lista hierarquia com os componentes associados ao objeto.
-
-{% include imagebase.html
-    src="unreal/movimentacao/blueprint_component_static_mesh.webp"
-    alt="Figura: Componentes hierarquia."
-    caption="Figura: Componentes hierarquia."
+    caption="Podemos manipular as transformações da Static Mesh."
 %}
 
 #### Propriedades do componente Static Mesh
-
-{% include imagebase.html
-    src="unreal/movimentacao/blueprint_component_properties.webp"
-    alt="Figura: Propriedades do componente."
-    caption="Figura: Propriedades do componente."
-%}
 
 - `Transform` - Propriedades de localização do componente;
 
@@ -290,9 +275,9 @@ A aba `Components` apresenta uma lista hierarquia com os componentes associados 
 Visualização da malha e suas propriedades (vértices, UV e modelo de colisão).
 
 {% include imagebase.html
-    src="unreal/movimentacao/blueprint_editor_static_mesh.webp"
+    src="unreal/movimentacao/unreal_engine_static_mesh_editor.webp"
     alt="Figura: Editor de StaticMesh."
-    caption="Figura: Editor de StaticMesh."
+    caption="O editor permite adicionar uma caixa de colisão e visualizar o mapeamento UV."
 %}
 
 ### Skeletal Mesh - Malha Esquelética
@@ -497,8 +482,6 @@ Lógica adicionada no novo evento.
     alt="Figura: Blueprint - View Classy."
     caption="Figura: Blueprint - View Class."
 %}
-
-
 
 ## Manipulando Actors
 

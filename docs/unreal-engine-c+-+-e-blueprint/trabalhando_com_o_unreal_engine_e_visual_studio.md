@@ -151,13 +151,13 @@ Quando todos os passos anteriores forem concluídos corretamente a tela inicial 
 
 ### Iniciando um projeto no Unreal Engine 5
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_5_select_new_project.webp"
     alt="Figura: Unreal 5 - Select or create New Project, Games"
     caption="A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o mesmo dos passos anteriores."
 %}
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_home_screen.webp"
     alt="Figura: Unreal 5 - Tela inicial."
     caption="Paleta de comandos com ícones menores o novo navegador de conteúdo (Content Drawer)."
@@ -171,10 +171,10 @@ Para programar utilizando **C++** no Unreal devemos configurar um editor de cód
 
 `Menu` > `Editor Preferences` > `General` e `Source Code`, então escolha `Visualstudio`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_editor_codigo.webp"
-    alt="Figura: General - Source Code, Definindo o editor de código."
-    caption="Figura: General - Source Code, Definindo o editor de código."
+    alt="Figura: Editor Preferences > General > Source Code."
+    caption="Em Source Code Editor escolha o editor da sua preferência."
 %}
 
 > **Qual editor eu escolho, Visual Code ou Visual Studio?**
@@ -397,7 +397,7 @@ Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apr
 
 {% include imagelocal.html
     src="unreal/projeto/unreal_engine_project_icon.webp"
-    alt="[Figura: Project Settings > Windows"
+    alt="Figura: Project Settings > Windows"
     caption="Podemos alterar o ícone do projeto e a imagem de inicialização do jogo."
 %}
 

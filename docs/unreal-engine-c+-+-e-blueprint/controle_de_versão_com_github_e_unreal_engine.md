@@ -234,7 +234,7 @@ Uma vez configurados os projetos nos sistemas **Unreal** e **GitHub Desktop**, p
 {% include imagelocal.html
     src="unreal/projeto/unreal_engine_github_desktop_Commit_to_master.webp"
     alt="Figura: Github Desktop Commit to Master."
-    caption="Changes - Lista de mudanças e aba para enviar os dados (Commit to Master) e a descrição da atualização, Apresentação do *branch* atual."
+    caption="A aba Changes lista as mudanças e a descrição da atualização. A aba Current branch apresenta o branch atual."
 %}
 
 Após confirmação das alterações devemos publicá-las no repositório remoto usando o comando `Publish repository`.
@@ -270,7 +270,7 @@ No painel `Changes`  do GitHub Desktop devem aparecer somente os arquivos :
 {% include imagelocal.html
     src="unreal/projeto/unreal_engine_github_desktop_commit_first_actor.webp"
     alt="Figura: Github Desktop Publish repository."
-    caption="Aba *Changes* apresenta os arquivos alterados ou adicionados, no exemplo acima foi inserido um novo Ator no projeto."
+    caption="No exemplo acima foi inserido um novo ator no projeto."
 %}
 
 Após a confirmação vamos enviar as alterações para o servidor com o comando `Push origin`.

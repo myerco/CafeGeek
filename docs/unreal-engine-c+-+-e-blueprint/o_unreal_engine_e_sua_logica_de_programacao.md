@@ -50,7 +50,7 @@ O sistema *Blueprints Visual Scripting* no **Unreal Engine** é um sistema compl
 {% include imagelocal.html
     src="unreal/actor/uml_jogos.webp"
     alt="Figura: Exemplo do conceito de objetos na programação."
-    caption="A classe gato e suas propriedades."
+    caption="No exemplo acima visualizamos uma classe que pode representar um objeto do tipo gato, com seus atributos e ações."
 %}
 
 **Blueprints** focam em ser acessíveis, versáteis para qualquer membro do projeto e isso simplifica tarefas para programadores e engenheiros de projeto, o que facilita entender, interagir e construir.  
@@ -99,7 +99,7 @@ Todo os objetos que estão visíveis em um jogo estão armazenados em um *Level*
 {% include image.html
     src="https://www.worldofleveldesign.com/images/tutorial-topics/cat-ue4-680x300.jpg"
     alt="Figura: Tutorial List."
-    caption="O personagem, grama, árvores e os elementos que compõem a iluminação estão organizados em um level."
+    caption="O personagem, a grama, as árvores e os elementos que compõem a iluminação estão organizados em um level."
     ref="https://www.worldofleveldesign.com"
 %}
 
@@ -168,7 +168,7 @@ Para entender como funciona a lógica do *Blueprint* vamos escrever uma mensagem
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_blueprint_beginplay_printstring.webp"
     alt="Figura: Iniciando o level e escrevendo uma mensagem na tela."
-    caption="O nó BeginPlay é executado quando o level é carregado, desta forma, o nó PrintString, associado ao nó anterior e executado."
+    caption="O nó BeginPlay é executado quando o level é carregado e o nó associado, nó PrintString, e executado."
 %}
 
 Os nós utilizados são os seguintes:
@@ -181,7 +181,7 @@ Os nós utilizados são os seguintes:
 
 {% include iframe.html
     src="https://blueprintue.com/render/46vsgoyi/"
-    title="Cafegeek - Exemplo de BeginPlay e Tick"
+    title="Cafegeek - Exemplo de BeginPlay e Tick."
     caption="BeginPlay é executado somente ao carregar o level, Tick é executado a cada renderização dos quadros na cena."
     ref="https://blueprintue.com/render/46vsgoyi/"
 %}

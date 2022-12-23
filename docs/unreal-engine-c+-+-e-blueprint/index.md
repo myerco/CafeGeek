@@ -7,7 +7,7 @@ layout: home
 ---
 
 {% include logo.html
-  src="imagens/unreal_engine.webp"
+  src="unreal/logos/unreal_engine.webp"
   alt="Figura: Cafegeek."
 %}
 
