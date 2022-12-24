@@ -25,8 +25,7 @@ date: 2022-09-21
     - [Propriedades do componente Static Mesh](#propriedades-do-componente-static-mesh)
   - [Skeletal Mesh - Malha Esquelética](#skeletal-mesh---malha-esquelética)
     - [A Estrutura da malha esquelética](#a-estrutura-da-malha-esquelética)
-    - [Componentes Mesh](#componentes-mesh)
-    - [Detalhes do componente Mesh](#detalhes-do-componente-mesh)
+    - [Propriedades do Skeletal Mesh](#propriedades-do-skeletal-mesh)
     - [O Editor Skeletal Mesh](#o-editor-skeletal-mesh)
 - [Posição e coordenadas](#posição-e-coordenadas)
   - [Transform](#transform)
@@ -274,8 +273,8 @@ Consistem em um conjunto de polígonos que podem ser armazenados em cache na mem
 
 Visualização da malha e suas propriedades (vértices, UV e modelo de colisão).
 
-{% include imagebase.html
-    src="unreal/movimentacao/unreal_engine_static_mesh_editor.webp"
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_static_mesh_editor.webp"
     alt="Figura: Editor de StaticMesh."
     caption="O editor permite adicionar uma caixa de colisão e visualizar o mapeamento UV."
 %}
@@ -291,34 +290,26 @@ A baixo uma representação da hierarquia do Skeletal Mesh.
 ```bash
 |-- Ator
     |-- Skeletal mesh
-    |   |-- Mesh
-    |   |-- Animation
-    |   |-- Skeleton
-    |   |-- Blueprint
-    |   |-- Physics
+    |   |-- Mesh - (Malha do elemento)
+    |   |-- Animation - (Animações associadas ao esqueleto)
+    |   |-- Skeleton - (Estrutura de coordenadas alinhadas para marcar os ossos dos elementos)
+    |   |-- Blueprint - (Lógica para sequenciamento de animações)
+    |   |-- Physics - (Estrutura para gerenciamento da física da estruturas)
     |-- Animation mode
-    |   |-- Use Animation Bluprint
+    |   |-- Use Animation Blueprint
     |-- Anim Class
     |   |-- ThirdPerson_AnimBP_C
 ```
 
-- `Mesh` - Malha do elemento;
+#### Propriedades do Skeletal Mesh
 
-- `Animation` - Animações associadas ao esqueleto;
-
-- `Skeleton` - Estrutura de coordenadas alinhadas para marcar os ossos dos elementos;
-
-- `Bluprint` - Lógica para sequenciamento de animações;
-
-- `Physics` - Estrutura para gerenciamento da física da estruturas.
-
-#### Componentes Mesh
-
-{% include imagebase.html
-    src="unreal/movimentacao/blueprint_component_mesh.webp"
-    alt="Figura: Bluprint Component Mesh."
-    caption="Figura: Bluprint Component Mesh."
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_skeletal_mesh.webp"
+    alt="Figura: Mesh (Character Mesh)."
+    caption="Aba Componentes > Lista de componentes predefinidos da classe Character, Details >  Propriedades do componente."
 %}
+
+Componentes da Classe Character:
 
 - `Mesh` - Malha Esquelética;
 
@@ -328,20 +319,20 @@ A baixo uma representação da hierarquia do Skeletal Mesh.
 
 - `CharacterMovement` - Componente responsável pela lógica de movimentos do objeto.
 
-#### Detalhes do componente Mesh
+Propriedades da Mesh (Skeletal):
 
-{% include imagebase.html
-    src="unreal/movimentacao/blueprint_component_mesh_details.webp"
-    alt="Figura: Detalhes do componente Mesh."
-    caption="Figura: Detalhes do componente Mesh."
-%}
+- `Animation Mode` - Tipo de animação do componente;
+  
+- `Anim Class` - Lógica de animação, Animation Blueprint, associada ao componente;
+  
+- `Mesh` - Skeletal Mesh associada ao componente.
 
 #### O Editor Skeletal Mesh
 
 {% include imagebase.html
-    src="unreal/movimentacao/blueprint_editor_mesh.webp"
+    src="unreal/animacao/unreal_engine_skeleton_mannequim.webp"
     alt="Figura: Editor Skeletal Mesh."
-    caption="Figura: Editor Skeletal Mesh."
+    caption="Permite a manipulação de cada osso do esqueleto e acesso aos objetos associados ao esqueleto."
 %}
 
 Observe que o editor é divido em :
@@ -362,37 +353,44 @@ Observe que o editor é divido em :
 
 Os objetos adicionados em uma cena possuem coordenadas de localização dentro do 'mundo', vamos apresentar como manipular coordenadas.
 
-{% include imagebase.html
-    src="unreal/actor/blueprint_coordinate_viewport.webp"
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_viewport_coordinates.webp"
     alt="Figura: Coordenadas no ViewPort."
-    caption="Figura: Coordenadas no ViewPort."
+    caption="No campo inferior esquerdo são indicadas as posições x,y e z da cena. O objeto da cena apresenta o gizmo para indicar a sua posição na cena. No canto superior direito é possível alterar entre as coordenadas do mundo e do objeto."
 %}
 
 ### Transform
 
 A seção **Transform** do painel Detalhes permite que você visualize e edite as transformações - Localização, Rotação e Escala - do (s) ator (es) selecionado (s). Além disso, quando aplicável, também contém as configurações para Mobilidade do Ator.
 
-{% include imagebase.html
-    src="unreal/actor/blueprint_transform.webp"
-    alt="Figura: Transform - Coordenadas de posicionamento."
-    caption="Figura: Transform - Coordenadas de posicionamento."
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_viewport_transform.webp"
+    alt="Figura: Transform - Valores de transformação do objeto."
+    caption="Valores relativos à Localização (Location), Rotação (Rotation) e Escala ou dimensionamento (Scale)."
 %}
 
 ### Escrevendo na tela o posicionamento do ator no mundo
 
 {% include imagebase.html
-    src="unreal/actor/blueprint_actor_print_location.webp"
-    alt="Figura: Bluprint Print Location."
-    caption="Figura: Bluprint Print Location."
+    src="unreal/actor/unreal_engine_actor_print_location.webp"
+    alt="Figura: Blueprint - Escreve na tela as coordenadas de localização do objeto."
+    caption="Ao iniciar, BeginPlay, as funções GetActorLocation e GetWorldLocation são executadas."
 %}
 
 - `GetActorLocation` - Retorna um vetor contendo as coordenadas X,Y e Z da posição do ator no mundo. Utiliza o componente `RootComponent` para determinar os valores;
 
 - `GetwordLocarion` - Retorna um vetor de coordenadas da posição do componente no mundo.
 
+{% include iframe.html
+    src="https://blueprintue.com/render/xy8gbnli/"
+    title="Cafegeek - Escreve na tela as coordenadas de localização do objeto"
+    caption="Ao iniciar, BeginPlay, as funções GetActorLocation e GetWorldLocation são executadas."
+    ref="https://blueprintue.com/render/xy8gbnli/"
+%}
+
 ### Posição relativa no mundo
 
-Os elementos associados a um ator, como por exemplo `StaticMeshes` tem posições relativas ao objeto ao qual estão associados.  
+Os elementos associados a um ator, como por exemplo `StaticMesh` tem posições relativas ao objeto ao qual estão associados.  
 
 Considere o exemplo abaixo do objeto **BP_Ator**:
 
