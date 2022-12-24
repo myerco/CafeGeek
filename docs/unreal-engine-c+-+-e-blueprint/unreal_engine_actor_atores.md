@@ -42,14 +42,13 @@ date: 2022-09-21
 - [Manipulando Actors](#manipulando-actors)
   - [Spawn e Destroy Actors - Criando e destruindo um Actor](#spawn-e-destroy-actors---criando-e-destruindo-um-actor)
   - [Listando Actors por classe](#listando-actors-por-classe)
-  - [Listando Actors utilizando *tag* (etiquetas)](#listando-actors-utilizando-tag-etiquetas)
 - [Colisões](#colisões)
-  - [Trace Responses](#trace-responses)
   - [Interações](#interações)
-  - [Exemplo de Colisão](#exemplo-de-colisão)
-  - [Configuração de colisão de esfera](#configuração-de-colisão-de-esfera)
-  - [Configuração de colisão de parede](#configuração-de-colisão-de-parede)
-  - [Colisão e Simulação Geram Eventos de toque ou acerto](#colisão-e-simulação-geram-eventos-de-toque-ou-acerto)
+  - [Exemplos comuns de interação de colisão](#exemplos-comuns-de-interação-de-colisão)
+    - [Colisão](#colisão)
+    - [Configuração de colisão de esfera](#configuração-de-colisão-de-esfera)
+    - [Configuração de colisão de parede](#configuração-de-colisão-de-parede)
+    - [Colisão e Simulação Geram Eventos de acerto](#colisão-e-simulação-geram-eventos-de-acerto)
   - [Configuração de colisão de esfera 1](#configuração-de-colisão-de-esfera-1)
   - [Configuração de colisão de parede 1](#configuração-de-colisão-de-parede-1)
   - [Sobrepor e ignorar](#sobrepor-e-ignorar)
@@ -497,7 +496,7 @@ O componente `ChildActor` permite associar uma classe filha utilizando a lista d
 ### Referências de atores e componentes
 
 {% include imagelocal.html
-    src="unreal/actor/v.webp"
+    src="unreal/actor/unreal_engine_view_references.webp"
     alt="Figura: Reference Viewer."
     caption="Clicando com o botão direito (RMB) podemos acessar a opção para visualizar todas as referências do objeto. No exemplo acima BP_ActorChild2 é uma classe derivada do BP_ActorBase e BP_ActorChild está associada usando o componente ChildActor."
 %}
@@ -512,15 +511,15 @@ Podemos adicionar, remover ou selecionar os atores que estão na cena do jogo, a
 
 O processo de criação de uma nova instância de um ator é conhecido como *spawning*. A geração de atores é realizada usando a função `SpawnActor`. Esta função cria uma nova instância de uma classe especificada e retorna um ponteiro para o Actor recém-criado. `SpawnActor` só pode ser usado para criar instâncias de classes que herdam da classe Actor em sua hierarquia.
 
-{% include imagebase.html
-    src="unreal/actor/blueprint_actor_spawn.webp"
-    alt="Figura: Blueprint - Exemplo de SpawnActor e DestroyActor."
-    caption="Figura: Blueprint - Exemplo de SpawnActor e DestroyActor."
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_actor_spawn.webp"
+    alt="Figura: Exemplo de SpawnActor e DestroyActor."
+    caption="Cria o ator na posição do objeto TargetPoint e se ele já está na cena o destrói."
 %}
 
 Utilizando o `Level Bluprint` podemos implementar o código acima.
 
-1. Ao pressionar a tecla **H** o ator e criado na cena utilizando as coordenadas de um componente `targetPoint` adicionando na cena;
+1. Ao pressionar a tecla **B** o ator e criado na cena utilizando as coordenadas de um componente `targetPoint` adicionando na cena;
 
 1. O comando `flip/flop` é utilizado para intercalar entre criar e destruir o ator, com os métodos `SpawnActor` e `DestroyActor` respectivamente;
 
@@ -530,20 +529,17 @@ Utilizando o `Level Bluprint` podemos implementar o código acima.
 
 Utilizando a função `GetAllActorOfClass` e o loop `For Each Loop` podemos listar todos os atores na cena.
 
-{% include imagebase.html
-    src="unreal/actor/blueprint_actor_get_all_actors.webp"
-    alt="Figura: Blueprint - Exemplo de GetAllActorOfClass."
-    caption="Figura: Blueprint - Exemplo de GetAllActorOfClass."
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_get_all_ActorOfClass.webp"
+    alt="Figura: GetAllActorOfClass."
+    caption="Lista todos os objetos instanciados da classe BP_ActorBase e os destrói."
 %}
 
-### Listando Actors utilizando *tag* (etiquetas)
-
-Adicionando uma *tag* (Etiqueta) na propriedade do ator podemos selecionar todos na cena que tenham a referida *tag*.
-
-{% include imagebase.html
-    src="unreal/actor/blueprint_actor_get_all_actors_tags.webp"
-    alt="Figura: Blueprint - Exemplo de GetAllActorWithTag."
-    caption="Figura: Blueprint - Exemplo de GetAllActorWithTag."
+{% include iframe.html
+    src="https://blueprintue.com/render/xugypke9/"
+    title="Cafegeek - Criando e destruindo objetos"
+    caption="Criando, destruindo e listando objetos na cena."
+    ref="https://blueprintue.com/render/xugypke9/"
 %}
 
 ## Colisões
@@ -552,9 +548,7 @@ Adicionando uma *tag* (Etiqueta) na propriedade do ator podemos selecionar todos
 
 **Collision Responses** e **Trace Responses** formam a base de como o Unreal Engine 4 lida com colisão e transmissão de raios durante o tempo de execução. Cada objeto que pode colidir recebe um tipo de objeto e uma série de respostas que definem como ele interage com todos os outros tipos de objeto. Quando ocorre um evento de colisão ou sobreposição, ambos (ou todos) os objetos envolvidos podem ser configurados para afetar ou serem afetados pelo bloqueio, sobreposição ou ignorando um ao outro. [Collision Overview](https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Physics/Collision/Overview/)
 
-### Trace Responses
-
-Funcionam basicamente da mesma maneira, exceto que o próprio rastreamento (*ray cast*) pode ser definido como um dos tipos de resposta de rastreamento, permitindo assim que os atores o bloqueiem ou ignorem com base em suas respostas de rastreamento.
+**Trace Responses** funcionam basicamente da mesma maneira, exceto que o próprio rastreamento (*ray cast*) pode ser definido como um dos tipos de resposta de rastreamento, permitindo assim que os atores o bloqueiem ou ignorem com base em suas respostas de rastreamento.
 
 ### Interações
 
@@ -562,7 +556,7 @@ Existem algumas regras a serem lembradas sobre como as colisões são tratadas:
 
 - O bloqueio ocorrerá naturalmente entre dois (ou mais) Atores definidos como **Block** (Bloquear). No entanto, `Simulation Generates Hit Events` precisa ser habilitado para executar `Event Hit`, que é usado em Blueprints, `Destructible Actors`, `Triggers`, etc...
 
-- Definir Atores para **Overlap** (Sobrepor) muitas vezes parecerá que eles Ignoram uns aos outros e, sem Gerar Eventos de Sobreposição, eles são essencialmente os mesmos.
+- Definir Atores para **Overlap** (Sobrepor) muitas vezes parecerá que eles ignoram uns aos outros e, sem Gerar Eventos de Sobreposição, eles são essencialmente os mesmos.
 
 - Para que dois ou mais objetos de simulação bloqueiem um ao outro, ambos precisam ser configurados para bloquear seus respectivos tipos de objeto.
 
@@ -574,51 +568,59 @@ Existem algumas regras a serem lembradas sobre como as colisões são tratadas:
 
 - Se um objeto for configurado para ignorar e o outro for configurado para sobrepor, nenhum evento de sobreposição será disparado.
 
-### Exemplo de Colisão
+### Exemplos comuns de interação de colisão
 
->Essas interações pressupõem que todos os objetos tenham `Collision Enabled` definido como `Collision Enabled`, de modo que estejam configurados para colidir totalmente com tudo. Se a colisão estiver desabilitada, é como se ignorar tivesse sido definido para todas as `Collision Responses` .
+>As interações a seguir pressupõem que todos os objetos tenham `Collision Enabled` definido como `Collision Enabled`, de modo que estejam configurados para colidir totalmente com tudo. Se a colisão estiver desabilitada, é como se ignorar tivesse sido definido para todas as `Collision Responses` .
 
 Para a seção a seguir, abaixo a configuração usada para explicar o que está acontecendo:
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_setup.png"
     alt="Figura: Exemplo de colisão."
-    caption="Figura: Exemplo de colisão."
+    caption="A esfera é um PhysicsBody e a caixa é WorldDynamic, e alterando suas configurações de colisão podemos obter uma série de comportamentos."
+    ref="https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Physics/Collision/Overview/"
 %}
 
-A esfera é um **PhysicsBody** e a caixa é **WorldDynamic**, e alterando suas configurações de colisão podemos obter uma série de comportamentos.
-
-Ao definir ambas as configurações de colisão para bloquear uma à outra, você obtém uma colisão, ótima para que os objetos interajam entre si:
+#### Colisão
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent.png"
     alt="Figura: Collision Overview."
-    caption="Figura: Collision Overview."
+    caption="Ao definir ambas as configurações de colisão para bloquear uma à outra, você obtém uma colisão, ótima para que os objetos interajam entre si."
 %}
 
-### Configuração de colisão de esfera
+|      |      |      |
+| :--- | :--- | :--- |
+|{% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Sphere.png"
+    alt="Figura: Configuração de colisão de esfera."
+    caption="Neste caso, a esfera é um PhysicsBody e está configurada para bloquear WorldDynamic (que é o que é a parede)."
+%}      |  {% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Sphere.png"
+    alt="Figura: Configuração de colisão de esfera."
+    caption="Neste caso, a esfera é um PhysicsBody e está configurada para bloquear WorldDynamic (que é o que é a parede)."
+%}    |      |
+|      |      |      |
+
+#### Configuração de colisão de esfera
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Sphere.png"
     alt="Figura: Configuração de colisão de esfera."
-    caption="Figura: Configuração de colisão de esfera."
+    caption="Neste caso, a esfera é um PhysicsBody e está configurada para bloquear WorldDynamic (que é o que é a parede)."
 %}
 
-Neste caso, a esfera é um `PhysicsBody` e está configurada para bloquear `WorldDynamic` (que é o que é a parede).
-
-### Configuração de colisão de parede
+#### Configuração de colisão de parede
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Box.png"
     alt="Figura: Configuração de colisão de parede."
-    caption="Figura: Configuração de colisão de parede."
+    caption="A parede é uma WorldDynamic e está configurada para bloquear os Atores PhysicsBody (que é o que a esfera é)."
 %}
-
-A parede é uma `WorldDynamic` e está configurada para bloquear os Atores `PhysicsBody` (que é o que a esfera é).
 
 Nesse caso, a esfera e a parede simplesmente colidirão; nenhuma outra notificação da colisão ocorrerá.
 
-### Colisão e Simulação Geram Eventos de toque ou acerto
+#### Colisão e Simulação Geram Eventos de acerto
 
 Apenas a colisão é útil e, em geral, o mínimo para interações físicas, mas se você quiser que algo relate, ele colidiu para que um **Blueprint** ou seção de código possa ser acionado:
 
