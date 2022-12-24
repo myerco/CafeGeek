@@ -46,21 +46,14 @@ date: 2022-09-21
   - [Interações](#interações)
   - [Exemplos comuns de interação de colisão](#exemplos-comuns-de-interação-de-colisão)
     - [Colisão](#colisão)
-    - [Configuração de colisão de esfera](#configuração-de-colisão-de-esfera)
-    - [Configuração de colisão de parede](#configuração-de-colisão-de-parede)
     - [Colisão e Simulação Geram Eventos de acerto](#colisão-e-simulação-geram-eventos-de-acerto)
-  - [Configuração de colisão de esfera 1](#configuração-de-colisão-de-esfera-1)
-  - [Configuração de colisão de parede 1](#configuração-de-colisão-de-parede-1)
   - [Sobrepor e ignorar](#sobrepor-e-ignorar)
-  - [Configuração das propriedades de colisão de esfera](#configuração-das-propriedades-de-colisão-de-esfera)
-  - [Configuração das propriedades colisão de parede](#configuração-das-propriedades-colisão-de-parede)
   - [Configuração das propriedades da colisão de esfera](#configuração-das-propriedades-da-colisão-de-esfera)
-  - [Configuração das propriedades de colisão de parede](#configuração-das-propriedades-de-colisão-de-parede)
   - [Sobrepor e gerar eventos de sobreposição](#sobrepor-e-gerar-eventos-de-sobreposição)
   - [Colisão de esfera](#colisão-de-esfera)
   - [Colisão de parede](#colisão-de-parede)
   - [Colisão Simples versus Complexa](#colisão-simples-versus-complexa)
-  - [Como usar](#como-usar)
+  - [Static Mesh e colisões](#static-mesh-e-colisões)
 
 ***
 
@@ -589,18 +582,15 @@ Para a seção a seguir, abaixo a configuração usada para explicar o que está
     caption="Ao definir ambas as configurações de colisão para bloquear uma à outra, você obtém uma colisão, ótima para que os objetos interajam entre si."
 %}
 
-#### Configuração de colisão de esfera
+Configuração de colisão de esfera.
 
-{% include image2d.html
-    src1="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Sphere.png"
-    alt1="Figura: Configuração de colisão de esfera."
-    caption1="Neste caso, a esfera é um PhysicsBody e está configurada para bloquear WorldDynamic (que é o que é a parede)."
-    src2="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Box.png"
-    alt2="Figura: Configuração de colisão de parede."
-    caption2="A parede é uma WorldDynamic e está configurada para bloquear os Atores PhysicsBody (que é o que a esfera é)."
+{% include image.html
+    src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Sphere.png"
+    alt="Figura: Configuração de colisão de esfera."
+    caption="Neste caso, a esfera é um PhysicsBody e está configurada para bloquear WorldDynamic (que é o que é a parede)."
 %}
 
-#### Configuração de colisão de parede
+Configuração de colisão de parede.
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Box.png"
@@ -617,25 +607,25 @@ Apenas a colisão é útil e, em geral, o mínimo para interações físicas, ma
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideEvent.png"
     alt="Figura: Colisão de eventos."
-    caption="Figura: Colisão de eventos."
+    caption="Eventos de colisão."
 %}
 
-### Configuração de colisão de esfera 1
+Configuração de colisão de esfera:
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideEvent_Sphere.png"
     alt="Figura: Configuração de Colisão de uma esfera."
-    caption="Figura: Configuração de Colisão de uma esfera."
+    caption="Parâmetros da colisão."
 %}
 
 Como no exemplo acima, a esfera é um `PhysicsBody` e está configurada para bloquear `WorldDynamic` (que é o que é a parede). No entanto, a esfera também habilitou `Simulation Generates Hit Event` para que acione um evento para si mesma sempre que colidir com algo.
 
-### Configuração de colisão de parede 1
+Configuração de colisão de parede:
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Box.png"
-    alt="Figura: Configuração de Colisão da Wall."
-    caption="Figura: Configuração de Colisão da Wall."
+    alt="Figura: Configuração de Colisão da Parede."
+    caption="Parâmetros da colisão."
 %}
 
 A parede é uma `WorldDynamic` e está configurada para bloquear os Atores `PhysicsBody` (que é o que a esfera é). Como a parede não está configurada para `Simulation Generates Hit Event` , ela não gerará um evento para si mesma.
@@ -651,25 +641,25 @@ Para todos os efeitos, *Overlap* (Sobrepor) e *Ignore* (Ignorar) funcionam exata
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_ignore.png"
     alt="Figura: Overlap and Ignore."
-    caption="Figura: Overlap and Ignore."
+    caption="Sobrepor ou ignorar."
 %}
 
-### Configuração das propriedades de colisão de esfera
+Configuração das propriedades de colisão de esfera:
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_OverlapNoEvent_Sphere.png"
     alt="Figura: Configuração de Colisão da  esfera."
-    caption="Figura: Configuração de Colisão da  esfera."
+    caption="Parâmetros da colisão."
 %}
 
 Aqui a esfera está configurada para se sobrepor,`Overlap`, aos `WorldDynamic Actors` (como nossa parede), mas não tem a opção Gerar Eventos de Sobreposição habilitado. No que diz respeito à esfera, ela não colidiu ou se sobrepôs a nada, efetivamente ignorou a parede.
 
-### Configuração das propriedades colisão de parede
+Configuração das propriedades colisão de parede:
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Box.png"
     alt="Figura: Configuração de colisão de parede."
-    caption="Figura: Configuração de colisão de parede."
+    caption="Parâmetros da colisão."
 %}
 
 A parede é uma `WorldDynamic` e está configurada para bloquear,`Block`, os Atores `PhysicsBody` (que é o que a esfera é). Como dito acima, ambos os Atores precisam ser configurados para bloquear os respectivos tipos de objetos um do outro. Se não o fizerem, não colidirão.
@@ -686,12 +676,12 @@ Ou:
 
 Aqui a esfera está configurada para ignorar, `Ignore`, os Atores `WorldDynamic` (como nossa parede), e ela passará pela parede.
 
-### Configuração das propriedades de colisão de parede
+Configuração das propriedades de colisão de parede:
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Box.png"
     alt="Figura: Collide No Event."
-    caption="Figura: Collide No Event."
+    caption="Parâmetros da colisão."
 %}
 
 A parede é uma `WorldDynamic` e está configurada para bloquear os Atores `PhysicsBody` (que é o que a esfera é). Como dito acima, ambos os Atores precisam ser configurados para bloquear, `Block`, os respectivos tipos de objetos um do outro. Se não o fizerem, não colidirão.
@@ -707,7 +697,7 @@ Ao contrário das colisões que podem disparar todos os quadros, os eventos de s
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_overlapEvent.png"
     alt="Figura: Evento overlap."
-    caption="Figura: Evento overlap."
+    caption="Evento de sobreposição."
 %}
 
 ### Colisão de esfera
@@ -715,7 +705,7 @@ Ao contrário das colisões que podem disparar todos os quadros, os eventos de s
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_OverlapEvent_Sphere.png"
     alt="Figura: Colisão da esfera."
-    caption="Figura: Colisão da esfera."
+    caption="Parâmetros da colisão."
 %}
 
 Aqui, a esfera está configurada para sobrepor, `Overlap`, os Atores `WorldDynamic` (como nossa parede), e ela gerará um evento para si mesma quando se sobrepuser a algo.
@@ -725,7 +715,7 @@ Aqui, a esfera está configurada para sobrepor, `Overlap`, os Atores `WorldDynam
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideOverLapEvent_Box.png"
     alt="Figura: Evento overlap no box."
-    caption="Figura: Evento overlap no box."
+    caption="Parâmetros da colisão."
 %}
 
 A parede é uma WorldDynamic e está configurada para bloquear, `Block`, os Atores `PhysicsBody` (que é o que a esfera é). Como dito acima, ambos os Atores precisam ser configurados para bloquear os respectivos tipos de objetos um do outro. Se não o fizerem, não colidirão. Mas, uma sobreposição ocorre aqui, e os eventos para a esfera e a caixa são disparados.
@@ -734,14 +724,14 @@ A parede é uma WorldDynamic e está configurada para bloquear, `Block`, os Ator
 
 No **Unreal Engine**, você tem acesso a formas de colisão simples e complexas. Colisão Simples, `Simplex Collision`, são primitivos como cubos, esferas, cápsulas e cascos convexos. Colisão Complexa, `Complex Collsion`, é o `trimesh` de um determinado objeto. Por padrão, o **Unreal Engine** cria formas simples e complexas, então, com base no que o usuário deseja (consulta complexa versus consulta simples), o solucionador de física usará a forma correspondente para consultas de cena e testes de colisão. [Simple versus Complex Collision](https://docs.unrealengine.com/5.0/en-US/simple-versus-complex-collision-in-unreal-engine/)
 
-### Como usar
+### Static Mesh e colisões
 
 No painel `Static Mesh Editor > Details`, você pode encontrar as configurações de `Complex Collision` na categoria `Collision`.
 
 {% include image.html
     src="https://docs.unrealengine.com/5.0/Images/making-interactive-experiences/Physics/collision/simple-vs-complex/StaticMeshSettingsCollisionComplexity.webp"
     alt="Figura: Staticmesh Settings Collision Complexity."
-    caption="Figura: Staticmesh Settings Collision Complexity."
+    caption="Configurando a colisão da Static Mesh."
 %}
 
 - `Project Default` :  Usa as configurações físicas do projeto, isso fará com que solicitações de colisão simples usem colisão simples e solicitações complexas usem colisão complexa; o comportamento "padrão".
@@ -757,5 +747,5 @@ Por exemplo, na imagem abaixo a cadeira à esquerda tem colisão simples, e quan
 {% include image.html
     src="https://docs.unrealengine.com/5.0/Images/making-interactive-experiences/Physics/collision/simple-vs-complex/exImage.webp"
     alt="Figura: Simple vs Complex."
-    caption="Figura: Simple vs Complex."
+    caption="Comparando os tipos de colisão."
 %}
