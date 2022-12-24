@@ -1,0 +1,46 @@
+<div class="image-container">
+  <figure>
+    <img
+      src="{{ include.src1 }}"
+      alt="{{ include.alt1 }}"
+      class="img-responsive"
+      width="100%" 
+      height="auto"
+    >
+    <figcaption>
+        {%- if include.title1 %}    
+          <strong>{{ include.title1 }}</strong>
+        {% else %}
+          <strong>{{ include.alt1 }}</strong>
+        {%- endif %}
+        {%- if include.caption1 %}    
+          <em>{{ include.caption1 }}</em>
+        {%- endif %}          
+    </figcaption>
+    {%- if include.ref1 %}
+      <a href="{{ include.ref1 }}">{{ include.ref1 }}</a> 
+    {%- endif %}
+  </figure>
+  <figure>
+    <img
+      src="{{ include.src2 }}"
+      alt="{{ include.alt2 }}"
+      class="img-responsive"
+      width="100%" 
+      height="auto"
+    >
+    <figcaption>
+        {%- if include.title2 %}    
+          <strong>{{ include.title2 }}</strong>
+        {% else %}
+          <strong>{{ include.alt2 }}</strong>
+        {%- endif %}
+        {%- if include.caption2 %}    
+          <em>{{ include.caption2 }}</em>
+        {%- endif %}          
+    </figcaption>
+    {%- if include.ref2 %}
+      <a href="{{ include.ref2 }}">{{ include.ref2 }}</a> 
+    {%- endif %}
+  </figure>
+</div>  

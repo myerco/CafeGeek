@@ -589,25 +589,15 @@ Para a seção a seguir, abaixo a configuração usada para explicar o que está
     caption="Ao definir ambas as configurações de colisão para bloquear uma à outra, você obtém uma colisão, ótima para que os objetos interajam entre si."
 %}
 
-|      |      |      |
-| :--- | :--- | :--- |
-|{% include image.html
-    src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Sphere.png"
-    alt="Figura: Configuração de colisão de esfera."
-    caption="Neste caso, a esfera é um PhysicsBody e está configurada para bloquear WorldDynamic (que é o que é a parede)."
-%}      |  {% include image.html
-    src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Sphere.png"
-    alt="Figura: Configuração de colisão de esfera."
-    caption="Neste caso, a esfera é um PhysicsBody e está configurada para bloquear WorldDynamic (que é o que é a parede)."
-%}    |      |
-|      |      |      |
-
 #### Configuração de colisão de esfera
 
-{% include image.html
-    src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Sphere.png"
-    alt="Figura: Configuração de colisão de esfera."
-    caption="Neste caso, a esfera é um PhysicsBody e está configurada para bloquear WorldDynamic (que é o que é a parede)."
+{% include image2d.html
+    src1="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Sphere.png"
+    alt1="Figura: Configuração de colisão de esfera."
+    caption1="Neste caso, a esfera é um PhysicsBody e está configurada para bloquear WorldDynamic (que é o que é a parede)."
+    src2="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent_Box.png"
+    alt2="Figura: Configuração de colisão de parede."
+    caption2="A parede é uma WorldDynamic e está configurada para bloquear os Atores PhysicsBody (que é o que a esfera é)."
 %}
 
 #### Configuração de colisão de parede
