@@ -32,9 +32,12 @@ date: 2022-09-21
   - [Escrevendo na tela o posicionamento do ator no mundo](#escrevendo-na-tela-o-posicionamento-do-ator-no-mundo)
   - [Posição relativa no mundo](#posição-relativa-no-mundo)
   - [Escrevendo na tela o posição relativa do componente](#escrevendo-na-tela-o-posição-relativa-do-componente)
-- [Trabalhando com herança com Blueprint](#trabalhando-com-herança-com-blueprint)
-  - [Componente ChildActor implementa a ligação com outro ator](#componente-childactor-implementa-a-ligação-com-outro-ator)
+- [Trabalhando herança com Blueprint](#trabalhando-herança-com-blueprint)
+  - [Criando uma classe filho](#criando-uma-classe-filho)
+  - [Variáveis da classe pai](#variáveis-da-classe-pai)
   - [Herança de propriedades e métodos](#herança-de-propriedades-e-métodos)
+  - [Executando um evento da classe pai](#executando-um-evento-da-classe-pai)
+  - [Componente ChildActor](#componente-childactor)
   - [Referências de atores e componentes](#referências-de-atores-e-componentes)
 - [Manipulando Actors](#manipulando-actors)
   - [Spawn e Destroy Actors - Criando e destruindo um Actor](#spawn-e-destroy-actors---criando-e-destruindo-um-actor)
@@ -371,8 +374,8 @@ A seção **Transform** do painel Detalhes permite que você visualize e edite a
 
 ### Escrevendo na tela o posicionamento do ator no mundo
 
-{% include imagebase.html
-    src="unreal/actor/unreal_engine_actor_print_location.webp"
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_print_location.webp"
     alt="Figura: Blueprint - Escreve na tela as coordenadas de localização do objeto."
     caption="Ao iniciar, BeginPlay, as funções GetActorLocation e GetWorldLocation são executadas."
 %}
@@ -381,6 +384,38 @@ A seção **Transform** do painel Detalhes permite que você visualize e edite a
 
 - `GetwordLocarion` - Retorna um vetor de coordenadas da posição do componente no mundo.
 
+### Posição relativa no mundo
+
+Os elementos associados a um ator, como por exemplo `StaticMesh` tem posições relativas ao objeto ao qual estão associados.  
+
+Considere o exemplo abaixo do objeto **BP_ActorBase**:
+
+```bash
+|-- BP_ActorBase
+    |-- DefaultSceneRoot
+    |   |-- StaticMesh
+```
+
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_sceneroot.webp"
+    alt="Figura: SceneRoot."
+    caption="A malha (Mesh) está hierarquia abaixo do componente, então, as coordenadas são relativas, por exemplo: X=0,Y=0,Z=0."
+%}
+
+O objeto BP_ActorBase possui um componente `DefaultSceneRoot`.
+
+A posição do ator no mundo é calculada utilizando o componente `DefaultSceneRoot` do tipo `Scene`. O componente `StaticMesh` tem um vetor de coordenadas relativas ao objeto de hierarquia superior, sendo X=0,Y=0 e Z=0.
+
+A posição do ator no mundo é calculada utilizando o componente `DefaultSceneRoot` do tipo `Scene`. O componente `StaticMesh` tem um vetor de coordenadas relativas ao objeto de hierarquia superior, sendo X=0,Y=0 e Z=0.
+
+### Escrevendo na tela o posição relativa do componente
+
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_print_relative_location.webp"
+    alt="Figura: Get Target Relative Location."
+    caption="Retorna um vetor com as coordenadas da malha relativas ao sceneroot."
+%}
+
 {% include iframe.html
     src="https://blueprintue.com/render/xy8gbnli/"
     title="Cafegeek - Escreve na tela as coordenadas de localização do objeto"
@@ -388,43 +423,13 @@ A seção **Transform** do painel Detalhes permite que você visualize e edite a
     ref="https://blueprintue.com/render/xy8gbnli/"
 %}
 
-### Posição relativa no mundo
-
-Os elementos associados a um ator, como por exemplo `StaticMesh` tem posições relativas ao objeto ao qual estão associados.  
-
-Considere o exemplo abaixo do objeto **BP_Ator**:
-
-```bash
-|-- BP_Ator
-    |-- DefaultSceneRoot
-    |   |-- StaticMesh
-```
-
-O objeto possui um componente `DefaultSceneRoot`.
-
-{% include imagebase.html
-    src="unreal/actor/blueprint_actor_add_component.webp"
-    alt="Figura: DefaultSceneRoot."
-    caption="Figura: DefaultSceneRoot."
-%}
-
-A posição do ator no mundo é calculada utilizando o componente `DefaultSceneRoot` do tipo `Scene`. O componente `StaticMesh` tem um vetor de coordenadas relativas ao objeto de hierarquia superior, sendo X=0,Y=0 e Z=0.
-
-### Escrevendo na tela o posição relativa do componente
-
-{% include imagebase.html
-    src="unreal/actor/blueprint_actor_print_location_relative.webp"
-    alt="Figura: Blueprint - Print Relative location."
-    caption="Figura: Blueprint - Print Relative locationt."
-%}
-
-## Trabalhando com herança com Blueprint
+## Trabalhando herança com Blueprint
 
 ***
 
 Como apresentado no conceito de classes, a herança permite usar classes já definidas para derivar novas classes, a seguir vamos verificar como implementar utilizando **Blueprint**.  
 
-Exemplo:  
+Exemplo de classe Herói que derive de Humanos:  
 
 ```bash
 |-- Character
@@ -441,17 +446,21 @@ Exemplo:
     |   |   |-- Dano = 80 (herdado)    
 ```
 
-### Componente ChildActor implementa a ligação com outro ator
+### Criando uma classe filho
 
-O componente `ChildActor` permite associar uma classe filha utilizando a lista de componentes.
-
-{% include imagebase.html
-    src="unreal/actor/blueprint_actor_childactor.webp"
-    alt="Figura: Blueprint - ChildActor."
-    caption="Figura: Blueprint - ChildActor."
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_create_child_class.webp"
+    alt="Figura: Create Child Blueprint Class."
+    caption="Selecionando o objeto pai e acionamento o menu de contexto (RMB) acessamos a opção para criar a classe derivada."
 %}
 
-- `ChildActor` - É necessário informar a classe filho neste componente.
+### Variáveis da classe pai
+
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_show_my_blueprints.webp"
+    alt="Figura: MyBlueprint propriedades."
+    caption="Podemos exibir as variáveis, componentes ou eventos da herdados da classe pai, no exemplo acima a variável NameBase pertence a classe pai."
+%}
 
 ### Herança de propriedades e métodos
 
@@ -459,26 +468,38 @@ O componente `ChildActor` permite associar uma classe filha utilizando a lista d
 
 Criando um evento para sobrescrever o evento `Begin Play`.
 
-{% include imagebase.html
-    src="unreal/actor/blueprint_actor_event_inheritance_create.webp"
-    alt="Figura: Blueprint  - Functions Override."
-    caption="Figura: Blueprint  - Functions Override."
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_functions_overrider.webp"
+    alt="Figura: Functions Override."
+    caption="Podemos sobrescrever os métodos da classe pai."
 %}
 
-Lógica adicionada no novo evento.
+### Executando um evento da classe pai
 
-{% include imagebase.html
-    src="unreal/actor/blueprint_actor_event_inheritance.webp"
-    alt="Figura: Blueprint - Herança do evento Begin Play."
-    caption="Figura: Blueprint - Herança do evento Begin Play."
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_beginplay_override.webp"
+    alt="Figura: Parent: Begin Play."
+    caption="Clicando com o botão direito (RMB) acessamos a opção Add Call to Parent Function que executa a classe pai antes de executar o próximo comando."
 %}
+
+### Componente ChildActor
+
+O componente `ChildActor` permite associar uma classe filha utilizando a lista de componentes.
+
+{% include imagelocal.html
+    src="unreal/actor/unreal_engine_childActor.webp"
+    alt="Figura: ChildActor."
+    caption="O componente ChildActor associa uma outra classe ao objeto."
+%}
+
+- `ChildActor` - É necessário informar a classe filho neste componente.
 
 ### Referências de atores e componentes
 
-{% include imagebase.html
-    src="unreal/actor/blueprint_view_class_inheritance.webp"
-    alt="Figura: Blueprint - View Classy."
-    caption="Figura: Blueprint - View Class."
+{% include imagelocal.html
+    src="unreal/actor/v.webp"
+    alt="Figura: Reference Viewer."
+    caption="Clicando com o botão direito (RMB) podemos acessar a opção para visualizar todas as referências do objeto. No exemplo acima BP_ActorChild2 é uma classe derivada do BP_ActorBase e BP_ActorChild está associada usando o componente ChildActor."
 %}
 
 ## Manipulando Actors
