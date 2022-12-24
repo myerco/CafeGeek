@@ -1,5 +1,10 @@
+<style>
+  .left, .right {
+  display: inline-block;
+}
+</style>
 <div class="image-container">
-  <figure>
+  <figure class="left">
     <img
       src="{{ include.src1 }}"
       alt="{{ include.alt1 }}"
@@ -21,7 +26,7 @@
       <a href="{{ include.ref1 }}">{{ include.ref1 }}</a> 
     {%- endif %}
   </figure>
-  <figure>
+  <figure class="right">
     <img
       src="{{ include.src2 }}"
       alt="{{ include.alt2 }}"
