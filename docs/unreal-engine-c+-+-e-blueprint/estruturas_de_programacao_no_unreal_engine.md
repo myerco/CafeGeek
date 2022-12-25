@@ -15,27 +15,25 @@ date: 2022-09-21
 - [Variáveis no Unreal Engine](#variáveis-no-unreal-engine)
   - [Tipos de Variáveis](#tipos-de-variáveis)
   - [Declarando variáveis](#declarando-variáveis)
-    - [Variáveis no Editor de Blueprint](#variáveis-no-editor-de-blueprint)
-    - [Variáveis em C++](#variáveis-em-c)
+- [Variáveis em C++](#variáveis-em-c)
+  - [Declarando variáveis em C++](#declarando-variáveis-em-c)
+  - [Expondo variáveis para o Editor](#expondo-variáveis-para-o-editor)
 - [Métodos Get e Set](#métodos-get-e-set)
   - [Métodos Get e Set Blueprint](#métodos-get-e-set-blueprint)
   - [Métodos Get e Set em C++](#métodos-get-e-set-em-c)
 - [Tratamento e armazenamento de texto no Unreal Engine](#tratamento-e-armazenamento-de-texto-no-unreal-engine)
   - [Strings em Blueprint](#strings-em-blueprint)
   - [String em C++](#string-em-c)
-  - [Concatenando textos usando a função Append](#concatenando-textos-usando-a-função-append)
-  - [C++](#c)
-  - [Procurando texto dentro de uma string em Blueprint](#procurando-texto-dentro-de-uma-string-em-blueprint)
-  - [Procurando texto com C++](#procurando-texto-com-c)
+    - [Concatenando textos usando a função Append](#concatenando-textos-usando-a-função-append)
+    - [Procurando texto dentro de uma string em Blueprint](#procurando-texto-dentro-de-uma-string-em-blueprint)
+    - [Procurando texto com C++](#procurando-texto-com-c)
 - [Variáveis do tipo numéricas Integer e Float](#variáveis-do-tipo-numéricas-integer-e-float)
   - [Inteiro em Blueprint](#inteiro-em-blueprint)
   - [Inteiro em C++](#inteiro-em-c)
 - [Armazenando valores lógicos com Boolean](#armazenando-valores-lógicos-com-boolean)
 - [Controle de acesso a variáveis](#controle-de-acesso-a-variáveis)
-  - [Variáveis Privadas em Blueprint](#variáveis-privadas-em-blueprint)
-  - [Variáveis Privadas em C++](#variáveis-privadas-em-c)
-  - [Variáveis Públicas com Blueprint](#variáveis-públicas-com-blueprint)
-  - [Variáveis Públicas com C++](#variáveis-públicas-com-c)
+  - [Variáveis Privadas](#variáveis-privadas)
+  - [Variáveis Públicas](#variáveis-públicas)
 - [O que são estruturas de controle ou fluxo?](#o-que-são-estruturas-de-controle-ou-fluxo)
   - [Exemplo de fluxo de execução em C++](#exemplo-de-fluxo-de-execução-em-c)
   - [Exemplo de fluxo condicional](#exemplo-de-fluxo-condicional)
@@ -104,7 +102,7 @@ date: 2022-09-21
 
 ***
 
-{% include imagebase.html
+{% include logo.html
     src="unreal/variaveis/unreal_engine_variables.webp"
     alt="Blueprint Variables."
     caption="Blueprint Variables."
@@ -180,25 +178,31 @@ Para armazenar qualquer informação na memória devemos definir um tipo de dado
 
 Declarando variáveis informamos ao computador que estamos reservando um espaço de memória temporário.  
 
-#### Variáveis no Editor de Blueprint
-
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/variaveis/unreal_engine_variable.webp"
     alt="Figura: Blueprint Variables."
-    caption="Figura: Blueprint Variables."
+    caption="Variáveis no Editor de Blueprint."
 %}
 
-- As variáveis tem tipos e propriedades que determinam o sua utilização.  
-
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/variaveis/unreal_engine_variable_details.webp"
     alt="Figura: Details ou propriedades das variáveis."
-    caption="Figura: Details ou propriedades das variáveis."
+    caption="As variáveis tem tipos e propriedades que determinam o sua utilização."
 %}
 
 Observe que a propriedade `Category` agrupa as variáveis por uma categoria.
 
-#### Variáveis em C++
+## Variáveis em C++
+
+***
+
+### Declarando variáveis em C++
+
+```cpp
+    int32 Count;
+```
+
+### Expondo variáveis para o Editor
 
 ```cpp
 UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Parâmetros")
@@ -217,10 +221,10 @@ Para acessar o conteúdo das variáveis utilizamos os métodos `Get` e `Set`, on
 
 ### Métodos Get e Set Blueprint
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/variaveis/unreal_engine_get_set.webp"
     alt="Figura: Métodos Get e Set."
-    caption="Figura: Métodos Get e Set."
+    caption="Get se Set, obtém e atualiza respectivamente a variável Life."
 %}
 
 - `BeginPlay` - Ao iniciar o jogo a lista de comandos conectados a estes nó deve ser acionado.
@@ -283,10 +287,10 @@ Podemos realizar as seguintes operações em `strings`:
 
 ### Strings em Blueprint
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/variaveis/unreal_engine_string_functions.webp"
     alt="Figura: String functions."
-    caption="Figura: String functions."
+    caption="Append - Concatena tuas ou mais strings, Contains- Retorna falso ou verdadeiro se encontra um string dentro de outra."
 %}
 
 ### String em C++
@@ -336,11 +340,9 @@ void AMyHeroClass::BeginPlay()
 
 ```
 
-### Concatenando textos usando a função Append
+#### Concatenando textos usando a função Append
 
 A função `Append` concatena duas ou mais `strings`, passamos como parâmetros os textos que gostaríamos de concatenar e tendo como resultado um novo texto contendo os dois textos.
-
-### C++
 
 ```cpp
 
@@ -350,7 +352,7 @@ sTexto.append("Cruel");
 // Resultado: Alo mundo...Cruel
 ```
 
-### Procurando texto dentro de uma string em Blueprint
+#### Procurando texto dentro de uma string em Blueprint
 
 A função `Contains` procura uma sequencia de caracteres dentro de uma `string`, passamos os seguintes parâmetros para a função.
 
@@ -359,7 +361,7 @@ A função `Contains` procura uma sequencia de caracteres dentro de uma `string`
 - `Use Case` - Diferencia maiúsculas e minúsculas.
  `Search from end` - Inicia a busca pelo fim do texto.
 
-### Procurando texto com C++
+#### Procurando texto com C++
 
 ```cpp
 
@@ -383,10 +385,16 @@ else
 
 Valores numéricos utilizam operadores matemáticos para a sua manutenção, como veremos a seguir.  
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/variaveis/unreal_engine_variable_division.webp"
-    alt="Figura: Utilizando Divisão."
-    caption="Figura: Utilizando Divisão."
+    alt="Figura: Utilizando Divisão com inteiros."
+    caption="A exemplo acima divide um inteiro por 2 e trunca o resultado."
+%}
+
+{% include imagelocal.html
+    src="unreal/variaveis/unreal_engine_variable_multiplication.webp"
+    alt="Figura: Multiplicação valores."
+    caption="Neste exemplo multiplicamos o valor por 100."
 %}
 
 ### Inteiro em C++
@@ -404,12 +412,6 @@ void AMyCharacterClass::BeginPlay()
 }
 ```
 
-{% include imagebase.html
-    src="unreal/variaveis/unreal_engine_variable_multiplication.webp"
-    alt="Figura: Multiplicação valores."
-    caption="Figura: Multiplicação valores."
-%}
-
 - (+) - soma;
 
 - (*) - Multiplicação;
@@ -420,15 +422,13 @@ void AMyCharacterClass::BeginPlay()
 
 ***
 
-Armazena dois valores : falso `false` ou verdadeiro `true`.
+Variáveis Boolean armazenam dois valores : falso `false` ou verdadeiro `true`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/variaveis/unreal_engine_variable_boolean.webp"
     alt="Figura: Variável Boolean."
-    caption="Figura: Variável Boolean."
+    caption="No exemplo acima se o valor de life for maior que 50 então o valor é atualizado para true."
 %}
-
-No exemplo acima se o valor de `life` for maior que 50 então o valor é atualizado para `true`.
 
 ## Controle de acesso a variáveis
 
@@ -436,45 +436,52 @@ No exemplo acima se o valor de `life` for maior que 50 então o valor é atualiz
 
 Como especificar quais variáveis de um objeto um usuário pode acessar e quais estão fora dos limites? - usando os especificadores de controle de acesso público e privado.
 
-### Variáveis Privadas em Blueprint
+### Variáveis Privadas
 
-Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada por módulos externos.  
+Variáveis privadas só podem ser acessadas por membros da mesma classe.
 
-{% include imagebase.html
+Variavel private usando Blueprint.
+
+{% include imagelocal.html
     src="unreal/variaveis/unreal_engine_variable_private_details.webp"
     alt="Figura: Private details."
-    caption="Figura: Private details."
+    caption="Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada por módulos externos."
 %}
 
-### Variáveis Privadas em C++
+Variáveis Privadas em C++.
 
 ```cpp
 private:
    bool Running = false;
 ```
 
-### Variáveis Públicas com Blueprint
+### Variáveis Públicas
 
 Para permitir que uma variável seja modificada de fora de seu módulos, torne-a pública.  
 
-{% include imagebase.html
+Variavel públicas em Blueprint.
+
+{% include imagelocal.html
     src="unreal/variaveis/unreal_engine_variable_public.webp"
     alt="Figura: Public."
-    caption="Figura: Public."
+    caption="Expondo a variável."
 %}
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/variaveis/unreal_engine_variable_public_details.webp"
     alt="Figura: Public details."
-    caption="Figura: Public details."
+    caption="Expõe a variável no Editor ViewPort."
 %}
 
-### Variáveis Públicas com C++
+Variáveis Públicas com C++
 
 ```cpp
 public:
-  UFUNCTION(BlueprintCallable, Category="Player")
-  bool IsRunning();
+
+  float Damage;
+
+  UPROPERTY(BlueprintCallable, Category="Player")
+  bool IsRunning;
 
 ```
 
@@ -513,7 +520,7 @@ UE_LOG(LogTemp, Warning, TEXT("O resultado é %d"), resultado);
 
 O resultado será 0 pois a condição de controle de fluxo **if** provocou um desvio do fluxo de instruções.
 
-### Exemplo de fluxo condicional 
+### Exemplo de fluxo condicional
 
 |           | t1                                  | t2                                  | t3                                  | t4                                  | t5                                 | t6                                 | t7                                  | t8                                  | t9                                  |
 | :-------- | :---------------------------------- | :---------------------------------- | :---------------------------------- | :---------------------------------- | :--------------------------------- | :--------------------------------- | :---------------------------------- | :---------------------------------- | :---------------------------------- |
@@ -539,10 +546,10 @@ A seguir vamos entender como é fluxo condicional é descrito com programação 
 
 #### IF em Blueprint
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturascontrole/blueprint_example_if.webp"
     alt="Figura: Blueprint e branch ou if."
-    caption="Figura: Blueprint e branch ou if."
+    caption="O teste acima verifica se um valor é maior que o outro e redireciona o fluxo."
 %}
 
 #### IF em C++
@@ -564,10 +571,10 @@ O nó `Switch` lê uma entrada de dados e, com base no valor dessa entrada, envi
 
 #### Switchs node em Blueprint
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturascontrole/blueprint_exemple_switch.webp"
     alt="Figura: Blueprint e Switch ou Case."
-    caption="Figura: Blueprint e Switch ou Case."
+    caption="Este comando verifica qual valor adente é igual ao parâmetro de entrada."
 %}
 
 #### Switchs node em C++
@@ -606,10 +613,10 @@ O nó `Sequence` permite que um único pulso de execução acione uma série de 
 
 #### Sequence em Blueprint
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturascontrole/blueprint_example_sequence.webp"
-    alt="Figura: Blueptint Sequence."
-    caption="Figura: Blueptint Sequence."
+    alt="Figura: Blueprint Sequence."
+    caption="A sequencia começa no 0 e podemos adicionar outros fluxos."
 %}
 
 #### Sequence em C++
@@ -622,12 +629,10 @@ O nó `Sequence` permite que um único pulso de execução acione uma série de 
 
 O nó `Flip Flop` obtém uma saída de execução e alterna entre duas saídas de execução. Na primeira vez que é chamado, a saída A é executada. Na segunda vez, B. Depois A, B e assim por diante. O nó também possui uma saída booleana que permite rastrear quando a Saída A foi chamada.
 
-**Blueprint.**
-
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturascontrole/blueprint_example_flip_flop.webp"
     alt="Figura: Blueprint Flip FLop."
-    caption="Figura: Blueprint Flip FLop."
+    caption="Alterna entre aberto e fechado a medida que se pressiona a tecla H."
 %}
 
 ### Flip Flop em C++
@@ -640,10 +645,10 @@ O nó `Flip Flop` obtém uma saída de execução e alterna entre duas saídas d
 
 O nó `MultiGate` recebe um único pulso de dados e o encaminha para qualquer número de saídas potenciais. Isso pode ocorrer sequencialmente, aleatoriamente e pode ou não ser executado em loop.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturascontrole/blueprint_example_multigate.webp"
     alt="Figura: Blueprint MultiGate."
-    caption="Figura: Blueprint MultiGate."
+    caption="Quando é pressionada tecla H pela primeira vez é apresentado o texto "zero" na tela, na próxima vez que pressionar o texto será "Um" e assim sucessivamente. Se pressionado J a sequencia é reiniciada. Caso a opção Is Ramdon esteja assinalada a sequencia será aleatória."
 %}
 
 ### Gate e Multi Gate em C++
@@ -662,10 +667,10 @@ Podemos utilizar estruturas de repetição para repetir instruções ou nós, a 
 
 O nó `For Loop` funciona como um loop de código padrão, disparando um pulso de execução para cada índice entre o início e o fim.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturascontrole/blueprint_example_forloop.webp"
     alt="Figura: Blueprint for loop."
-    caption="Figura: Blueprint for loop."
+    caption="Iniciando em zero e terminando em 4 será apresentado a cada passo o texto correspondente ao contador (índice)."
 %}
 
 ### For Loop em C++
@@ -684,10 +689,10 @@ UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
 
 Uma condição de teste e um corpo são tudo o que constitui um *loop While*. Antes de executar a (s) instrução (ões) em seu corpo, o **Blueprint** avalia a condição de teste `While Loops` para determinar se ela é verdadeira.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturascontrole/blueprint_example_whileloop.webp"
     alt="Figura: Blueprint While loop."
-    caption="Figura: Blueprint While loop."
+    caption="O loop será executado enquanto o valor for menor que 4."
 %}
 
 ### While Loop em C++
@@ -705,15 +710,11 @@ UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
 
 O nó `Do N` disparará um pulso de execução N vezes. Depois que o limite for atingido, ele interromperá todas as execuções de saída até que um pulso seja enviado para sua entrada Reset.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturascontrole/blueprint_example_do_n.webp"
     alt="Figura: Blueprint Do N."
-    caption="Figura: Blueprint Do N."
+    caption="No exemplo acima toda vez que a tecla H for pressionada um valor vai ser apresentado. Quanto o valor 10 for atingido a instrução Print String não será executada. Pressionando a tecla J a contagem será reiniciada."
 %}
-
-No exemplo acima toda vez que a tecla H for pressionada um valor vai ser apresentado. Quanto o valor 10 for atingido a instrução `Print String` não será executada.
-
-Pressionando a tecla J a contagem será reiniciada.
 
 ### Do N em C++
 
@@ -725,10 +726,10 @@ Pressionando a tecla J a contagem será reiniciada.
 
 O nó `Do Once` - como o nome sugere - disparará um pulso de execução apenas uma vez. Desse ponto em diante, ele interromperá toda a execução de saída até que um pulso seja enviado para sua entrada Reset. Este nó é equivalente a um nó `Do N` onde N = 1.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturascontrole/blueprint_example_do_once.webp"
     alt="Figura: Blueprint Do Once."
-    caption="Figura: Blueprint Do Once."
+    caption="Se pressionada a tecla H é acionado evento Print String, caso for pressionada novamente nada acontece até que seja pressionada a tecla J para reiniciar o fluxo."
 %}
 
 ### Do once em C++
