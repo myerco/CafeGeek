@@ -70,6 +70,7 @@ date: 2022-09-21
   - [Get utilizando uma variável como índice com Blueprint](#get-utilizando-uma-variável-como-índice-com-blueprint)
   - [Get utilizando uma variável como índice com C++](#get-utilizando-uma-variável-como-índice-com-c)
   - [Último índice e a quantidade de elementos do array em Blueprint](#último-índice-e-a-quantidade-de-elementos-do-array-em-blueprint)
+  - [Último índice e a quantidade de elementos do array em C++](#último-índice-e-a-quantidade-de-elementos-do-array-em-c)
 - [Percorrendo arrays](#percorrendo-arrays)
   - [Listando todos os elementos utilizando For usando Blueprint](#listando-todos-os-elementos-utilizando-for-usando-blueprint)
   - [Listando todos os elementos utilizando For usando C++](#listando-todos-os-elementos-utilizando-for-usando-c)
@@ -648,7 +649,7 @@ O nó `MultiGate` recebe um único pulso de dados e o encaminha para qualquer n�
 {% include imagelocal.html
     src="unreal/estruturascontrole/blueprint_example_multigate.webp"
     alt="Figura: Blueprint MultiGate."
-    caption="Quando é pressionada tecla H pela primeira vez é apresentado o texto "zero" na tela, na próxima vez que pressionar o texto será "Um" e assim sucessivamente. Se pressionado J a sequencia é reiniciada. Caso a opção Is Ramdon esteja assinalada a sequencia será aleatória."
+    caption="Quando é pressionada tecla H pela primeira vez é apresentado o texto ZERO na tela, na próxima vez que pressionar o texto será UM e assim sucessivamente. Se pressionado J a sequencia é reiniciada. Caso a opção Is Ramdon esteja assinalada a sequencia será aleatória."
 %}
 
 ### Gate e Multi Gate em C++
@@ -786,32 +787,30 @@ Para declarar variáveis do tipo *array* devemos primeiro escolher um tipo de va
 
 ### Array em Blueprint
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/array/blueprint_array_declare.webp"
     alt="Figura: Blueprint array details."
-    caption="Figura: Blueprint array details."
+    caption="Considere a variável Nomes que deve armazenar uma lista de nomes."
 %}
 
 - `Nomes` - É uma variável *array*, como o ícone de mini grid informa,do tipo `String`;
 
 - `Default Value` - Contem a lista de valores contidos inicialmente no `array`.
 
-Em **Blueprint** a variável é representada por um ícone 3x3.
-
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/Blueprints/UserGuide/Arrays/array_selected.webp"
     alt="Figura: Blueprint Arrays."
-    caption="Figura: Blueprint Arrays."
+    caption="Em Blueprint a variável é representada por um ícone 3x3."
 %}
 
 ### Método Get para arrays com Blueprint
 
 Para acessar qualquer elemento dentro *array* é necessários utilizar o índice, como no exemplo abaixo.  
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/array/blueprint_array_get.webp"
     alt="Figura: Blueprint Get para Array."
-    caption="Figura: Blueprint Get para Array."
+    caption="O método Get acessa a informação recebendo como parâmetro um valor de índice."
 %}
 
 ### Método Get para arrays com C++
@@ -825,13 +824,11 @@ UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
 
 Podemos utilizar uma variável para substituir o índice e acessar elementos do *array*.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/array/blueprint_array_get_string.webp"
     alt="Figura: Blueprint Get utilizando uma variável como índice."
-    caption="Figura: Blueprint Get utilizando uma variável como índice."
+    caption="No exemplo acima definimos o valor de Índice igual a 1 para acessar o elemento de mesma posição."
 %}
-
-No exemplo acima definimos o valor de Índice igual a 1 para acessar o elemento de mesma posição.
 
 ### Get utilizando uma variável como índice com C++
 
@@ -845,17 +842,17 @@ UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
 
 Podemos determinar a quantidade de elementos ou valor do último índice do *array* utilizando os nós abaixo.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/array/blueprint_array_last_index.webp"
-    alt="Figura: Blueprint Last Index."
-    caption="Figura: Blueprint Last Index."
+    alt="Figura: Blueprint Last Index e Length."
+    caption="Usando os nós predefinidos objetos o valor do índice."
 %}
 
 - `Last Index` - Retorna o valor do último índice e o comando;
 
 - `Length` - Retorna a quantidade de elementos do *array*.
 
-**C++.**
+### Último índice e a quantidade de elementos do array em C++
 
 ```cpp
 FString Nome  = StrArr.Last();
@@ -876,10 +873,10 @@ Percorrer **array** implica em ler todos ou alguns elementos da estrutura, para 
 
 Na lógica abaixo percorremos todo *array* e listamos cada elemento.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/array/blueprint_array_with_forloop.webp"
     alt="Figura: Blueprint  Array com loop."
-    caption="Figura: Blueprint  Array com loop."
+    caption="Utilizando For Each Loop podemos percorrer todo array."
 %}
 
 ### Listando todos os elementos utilizando For usando C++
@@ -921,12 +918,10 @@ for (auto It = StrArr.CreateConstIterator(); It; ++It)
 
 ### Usando o comando Find com Blueprint
 
-`Find` procura um elemento dentro do *array* e se encontra retorna o valor do índice do elemento, caso não encontre retorna -1.
-
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/array/blueprint_array_search_string.webp"
     alt="Figura: Blueprint Find e Array."
-    caption="Figura: Blueprint Find e Array."
+    caption="Find procura um elemento dentro do *array* e se encontra retorna o valor do índice do elemento, caso não encontre retorna -1."
 %}
 
 ### Usando o comando Find com C++
@@ -941,12 +936,10 @@ if (StrArr.Find(TEXT("Hello"), Index))
 
 ### Contando elementos dentro de um array com Blueprint
 
-O exemplo abaixo conta todos os elementos do *array* `Nomes` que são iguais a variável `NomeBusca`.
-
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/array/blueprint_array_write_total_occurrence.webp"
     alt="Figura: Blueprint for para escrever o total de ocorrências."
-    caption="Figura: Blueprint for para escrever o total de ocorrências."
+    caption="O exemplo acima conta todos os elementos do array Nomes que são iguais a variável NomeBusca."
 %}
 
 ### Contando elementos dentro de um array com C++
@@ -966,12 +959,10 @@ UE_LOG(LogTemp, Warning, TEXT("O Total é %d"),iTotal);
 
 ### Percorrendo e atualizando dados com Blueprint
 
-O exemplo abaixo vamos percorrer o *array* utilizando uma instrução `for` e atualizar outro *array*.
-
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/array/blueprint_array_fill_string.webp"
     alt="Figura: Blueprint preenchendo o array com strings."
-    caption="Figura: Blueprint preenchendo o array com strings."
+    caption="O exemplo acima vamos percorrer o array utilizando uma instrução for e atualizar outro array."
 %}
 
 ### Percorrendo e atualizando dados com C++
@@ -1002,10 +993,10 @@ UE_LOG(LogTemp, Warning, TEXT("O Total é %d"),iTotal);
 
 A função `Remove` exclui um elemento do *array*, o valor a ser removido tem que ser informado como parâmetro.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/array/blueprint_array_remove.webp"
     alt="Figura: Blueprint Remove Array."
-    caption="Figura: Blueprint Remove Array."
+    caption="Exemplo do comando Remove."
 %}
 
 ### Removendo utilizando Remove com C++
@@ -1021,10 +1012,10 @@ Nomes.Remove(TEXT("Ana"));
 
 O comando `Remove`executa uma busca utilizando um parâmetro, **NomeBusca** no exemplo abaixo, e o remove do *array*.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/array/blueprint_array_remove_index.webp"
     alt="Figura: Blueprint Remove array com index."
-    caption="Figura: Blueprint Remove array com index."
+    caption="Exemplo de Remove com um parâmetro."
 %}
 
 ### Removendo passando uma variável como parâmetro com C++
@@ -1041,10 +1032,10 @@ Nomes.Remove(StrNomeBusca);
 
 `Remove Index` exclui um elemento do *array* utilizando o índice do *array*.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/array/blueprint_array_find.webp"
     alt="Figura: Blueprint Find e remove."
-    caption="Figura: Blueprint Find e remove."
+    caption="Usando Find para obter o índice e passando o seu valor para Remove Index."
 %}
 
 ### Removendo utilizando nó Remove Index com C++
@@ -1062,10 +1053,10 @@ if (Nomes.Find(TEXT("Hello"), Index))
 
 `Clear` remove todos os elementos do *array*.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/array/blueprint_array_clear.webp"
     alt="Figura: Blueprint Clear Array."
-    caption="Figura: Blueprint Clear Array."
+    caption="Podemos otimizar o limpeza do array com Clear."
 %}
 
 ### Limpando o array com Clear com C++
@@ -1090,20 +1081,18 @@ enum cores = { vermelho,amarelo, azul, verde = 20, preto}
 
 ### Criando Enums no Unreal Engine e Blueprint
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/enum/blueprint_enum_declare.webp"
     alt="Figura: Blueprint e Enum."
-    caption="Figura: Blueprint e Enum."
+    caption="Podemos adicionar e remover vários valores."
 %}
 
 Execute o comando no menu de contexto `Blueprints` > `Enumeration` e logo depois preencha os valores conforme a tela abaixo.  
 
-Objeto criado `EN_Estado` e `EN_Pedra`.
-
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/enum/blueprint_enum.webp"
     alt="Figura: Blueprint Enum no Context Browser."
-    caption="Figura: Blueprint Enum no Context Browser."
+    caption="Objeto criado EN_Estado e EN_Pedra."
 %}
 
 ### Criando Enums no Unreal Engine e C++
@@ -1138,10 +1127,10 @@ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
 
 Vamos verificar e alterar o estado de uma lâmpada utilizando uma variável do tipo `boolean`.  
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/enum/blueprint_enum_example_lamp_state.webp"
     alt="Figura: Blueprint Verificando o estado de uma lâmpada."
-    caption="Figura: Blueprint Verificando o estado de uma lâmpada."
+    caption="Lógica para determinar se a lâmpada está ligada ou desligada."
 %}
 
 ### A lâmpada em C++
@@ -1168,10 +1157,10 @@ void AFirstPersonBaseCodeCharacter::AnyKey(float Value)
 
 Alterando o componente `PointLight` para ligar e desligar a iluminação.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/enum/blueprint_enum_example_lamp_offon.webp"
     alt="Figura: Blueprint Ligando e desligando o PointLight."
-    caption="Figura: Blueprint Ligando e desligando o PointLight."
+    caption="Utilizando Flip Flop podemos mudar a propriedade Set Intensity e configurando a variável Ligado para falso ou verdadeiro."
 %}
 
 ### Arquivo Header da lâmpada em C++
@@ -1290,10 +1279,10 @@ void AControlLight::AnyKey()
 
 ### Verificando o estado utilizando o Enum com Blueprint
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/enum/blueprint_enum_example_lamp_read_state.webp"
     alt="Figura: Blueprint Lendo Enum."
-    caption="Figura: Blueprint Lendo Enum."
+    caption="Podemos ler o valor corrente de um Enum acessando diretamente a variável."
 %}
 
 ### Verificando o estado utilizando o Enum com C++
@@ -1307,10 +1296,10 @@ UE_LOG(LogTemp, Warning,TEXT("O enum é = %s"), *UEnum::GetValueAsString(status)
 
 ### Ligando e desligando utilizando o Enum com Blueprint
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/enum/blueprint_enum_example_lamp_off.webp"
     alt="Figura: Blueprint Ligando e desligando usando Enum."
-    caption="Figura: Blueprint Ligando e desligando usando Enum."
+    caption="Usamos agora a variável Estado do tipo Enum para configurar o estado da lâmpada."
 %}
 
 ### Ligando e desligando utilizando o Enum com C++
@@ -1333,26 +1322,22 @@ else {
 
 Vamos verificar e alterar o estado de emocional de uma pedra.
 
-1. Alterando o estado emocional da pedra.
+Alterando o estado emocional da pedra.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/enum/blueprint_enum_example_rock.webp"
     alt="Figura: Blueprint alterando Enum."
-    caption="Figura: Blueprint alterando Enum."
+    caption="Altera o estado para Feliz, triste, pulando e pensando."
 %}
 
-1. Apresentando o estado emocional da pedra.
-
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/enum/blueprint_enum_example_rock_state.webp"
     alt="Figura: Blueprint escrevendo o conteúdo do Enum."
-    caption="Figura: Blueprint escrevendo o conteúdo do Enum."
+    caption="Apresentando o estado da pedra."
 %}
   
-1. Alterando as cores da pedra conforme a emoção.  
-
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/enum/blueprint_enum_example_rock_set_material.webp"
     alt="Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro."
-    caption="Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro."
+    caption="Alterando o material de uma malha utilizando um Enum como parâmetro."
 %}
