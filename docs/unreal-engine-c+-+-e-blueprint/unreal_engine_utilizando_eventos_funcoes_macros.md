@@ -17,7 +17,6 @@ date: 2022-09-21
   - [Funções](#funções)
 - [O que são Eventos em Blueprint](#o-que-são-eventos-em-blueprint)
   - [Evento de dano  no personagem](#evento-de-dano--no-personagem)
-  - [Chamando o evento](#chamando-o-evento)
   - [Evento e Métodos](#evento-e-métodos)
   - [Exemplo C++](#exemplo-c)
 - [Funções no Unreal Engine](#funções-no-unreal-engine)
@@ -43,7 +42,7 @@ Para entender melhor a estrutura de programação que representa a construção 
 {% include image.html
     src="https://4.bp.blogspot.com/-Bx-UYCheS3Y/UwSDeRIkSZI/AAAAAAAACgY/_-J6s4GzjEc/s1600/image.jpg"
     alt="Figura: Programação Orientada a Objetos: Uma introdução."
-    caption="Figura: Programação Orientada a Objetos: Uma introdução."
+    caption="A Programação Orientada a Objetos (POO) surgiu com a finalidade de facilitar a vida daqueles que trabalham com desenvolvimento de software, pois na POO o difícil não é desenvolver bem um software, mas sim desenvolver um software que satisfaça o cliente, ou seja, garantir que o que será entregue será realmente o que foi pedido. Uma das características da POO é fazer com que o programador pense as coisas de forma distintas, transformando-as assim em objeto, aplicando propriedades e métodos, que comentaremos mais adiante, reduzindo assim a complexidade no desenvolvimento e manutenção de software, aumentando a produtividade."
 %}
 
 Um método é um procedimento ou função em Conceitos de **Programação Orientada a Objetos**. Considerando que uma função é um grupo de código reutilizável que pode ser usado em qualquer parte do programa. Isso ajuda na necessidade de escrever o mesmo código repetidamente. Também ajuda os programadores a escrever códigos modulares.
@@ -53,7 +52,7 @@ Um método é um procedimento ou função em Conceitos de **Programação Orient
 {% include image.html
     src="https://arquivo.devmedia.com.br/artigos/henrique_gasparotto/4_pilares_oo/image001.png"
     alt="Figura: Os 4 pilares da Programação Orientada a Objetos."
-    caption="Figura: Os 4 pilares da Programação Orientada a Objetos."
+    caption="...vemos uma comparação muito clara entre a programação estruturada e a programação orientada a objetos no que diz respeito aos dados. Repare que, no paradigma estruturado, temos procedimentos (ou funções) que são aplicados globalmente em nossa aplicação. No caso da orientação a objetos, temos métodos que são aplicados aos dados de cada objeto. Essencialmente, os procedimentos e métodos são iguais, sendo diferenciados apenas pelo seu escopo."
 %}
 
 - Um método também funciona da mesma forma que o da função;
@@ -79,19 +78,19 @@ Cada objeto tem seu próprio método que está presente na classe.
 
 ### Funções
 
-Uma função é um bloco de instruções que recebe uma entrada específica, faz alguns cálculos e, finalmente, produz a saída.  
+Uma função é um bloco de instruções que recebe uma entrada específica, faz alguns cálculos e, finalmente, produz a saída;  
 
-Uma função é definida independentemente. Por exemplo: main () em **C++**
+Uma função é definida independentemente. Por exemplo: main () em **C++**;
 
-Por padrão, uma função é pública.
+Por padrão, uma função é pública;
 
-Ele pode ser acessado em qualquer lugar em todo o programa.  
+Ele pode ser acessado em qualquer lugar em todo o programa;  
 
-É chamado pelo próprio nome.  
+É chamado pelo próprio nome;  
 
-Ele tem a capacidade de retornar valores, se necessário.
+Ele tem a capacidade de retornar valores, se necessário;
 
-Se uma função for definida, ela será a mesma para todos os objetos criados.  
+Se uma função for definida, ela será a mesma para todos os objetos criados.
 
 ```cpp
 #include <iostream>
@@ -116,25 +115,21 @@ Os eventos podem ser acessados dentro do **Blueprints** para implementar novas f
 
 ### Evento de dano  no personagem
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/modulos/blueprint_event_damaged.webp"
-    alt="Figura: Blueprint - Evento de CasoDano."
-    caption="Figura: Blueprint - Evento de CasoDano."
+    alt="Figura: Blueprint - Evento de CausaDano."
+    caption="Criando um método customizado CausaDano podemos adicionar a lógica para o tratamento da variável Vida."
 %}
 
 - `CausaDano` é um evento customizado utilizando a opção `Add Custom Event` no menu de contexto dentro do `Event Graph`;
 
-- Pertence a classe *BP_Hero* do tipo **Character**.
+- Pertence a classe *BP_Hero* do tipo `Character`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/modulos/blueprint_event_damaged_overlap.webp"
-    alt="Figura: Blueprint - Evento de chamado de evento."
-    caption="Figura: Blueprint - Evento de chamado de evento."
+    alt="Figura: Chamando o evento OnComponentBeginOverlap."
+    caption="Utilizando o evento OnComponentBeginOverlap para acionar o evento CausaDano."
 %}
-
-### Chamando o evento
-
-- Utilizando o evento `OnComponentBeginOverlap` para acionar o evento **CausaDano**.
 
 ### Evento e Métodos
 
@@ -202,10 +197,10 @@ void CalculoIMC(float pPeso, float pAltura) {
 
 ### Exemplo de uma função Blueprint
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/modulos/blueprint_function_calc_imc.webp"
     alt="Figura: Blueprint - Exemplo de CalculoIMC."
-    caption="Figura: Blueprint - Exemplo de CalculoIMC."
+    caption="A função recebe dois parâmetros e retorna um valor."
 %}
 
 ### Funções Puras
@@ -278,10 +273,10 @@ std::cout << "The minimum is " << MIN(42, 8) << endl;
 
 ### Exemplo de uma macro em Blueprint
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/modulos/blueprint_macro_example.webp"
     alt="Figura: Blueprint - Exemplo Macro."
-    caption="Figura: Blueprint - Exemplo Macro."
+    caption="Acima a lógica de uma macro."
 %}
 
 ## Collapse Nodes
@@ -290,10 +285,10 @@ std::cout << "The minimum is " << MIN(42, 8) << endl;
 
 Usado principalmente para organização de código, escondendo nós da estrutura principal.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/modulos/blueprint_collapse_nodes_example.webp"
     alt="Figura: Blueprint - Exemplo Collapse nodes."
-    caption="Figura: Blueprint - Exemplo Collapse nodes."
+    caption="Selecionando os nós e acionando o menu de contexto (RMB) escolhemos Collapse Nodes."
 %}
 
 - Aceitam parâmetros de entrada e saída;
@@ -302,11 +297,10 @@ Usado principalmente para organização de código, escondendo nós da estrutura
 
 - Vai ser criado um gráfico de eventos próprio.
 
-## Executando a função e a macro 
+## Executando a função e a macro
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/modulos/blueprint_call_function_macro.webp"
     alt="Figura: Blueprint - Exemplo de Call function marco."
-    caption="Figura: Blueprint - Exemplo de Call function marco."
+    caption="No exemplo acima usamos a função e uma macro."
 %}
-
