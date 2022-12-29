@@ -28,6 +28,7 @@ date: 2022-09-21
   - [Exemplo de uma macro em Blueprint](#exemplo-de-uma-macro-em-blueprint)
 - [Collapse Nodes](#collapse-nodes)
 - [Executando a função e a macro](#executando-a-função-e-a-macro)
+- [Eventos predefinidos para causar e receber Dano](#eventos-predefinidos-para-causar-e-receber-dano)
 
 ***
 
@@ -300,8 +301,24 @@ Usado principalmente para organização de código, escondendo nós da estrutura
 
 ## Executando a função e a macro
 
+***
+
 {% include imagelocal.html
     src="unreal/modulos/blueprint_call_function_macro.webp"
     alt="Figura: Blueprint - Exemplo de Call function marco."
     caption="No exemplo acima usamos a função e uma macro."
+%}
+
+## Eventos predefinidos para causar e receber Dano
+
+{% include imagelocal.html
+    src="unreal/dano/unreal_engine_applydamage.webp"
+    alt="Figura: Blueprint - Apply Damage."
+    caption="Ao colidir no objeto de controle é acionado o evento Appy Damage para registrar que um dano foi efetuado. O valor do dano é informado como parâmetro."
+%}
+
+{% include imagelocal.html
+    src="unreal/dano/unreal_engine_anydamage.webp"
+    alt="Figura: Blueprint - Any Damage."
+    caption="A variável vida foi definida no objeto que RECEBE o dano, ao ser acionada."
 %}

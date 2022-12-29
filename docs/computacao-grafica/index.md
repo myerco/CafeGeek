@@ -431,11 +431,7 @@ Pivot é um ponto que marca o centro de objetos tridimensionais no Maya, onde :
 
 ### Pivot - O centro do objeto 3D no Unreal Engine
 
-{% include imagebase.html
-    src="computacao_grafica/ue4_change_pivot.jpg"
-    alt="Figura: - Alt + Scroll mouse."
-    caption="Figura: - Alt + Scroll mouse."
-%}
+Comando : Alt + Scroll mouse.
 
 ### Cor
 
@@ -633,9 +629,10 @@ Este método de seleção é ideal para grandes níveis externos, onde você ter
 Atores selecionados em um Nível ou Blueprint contêm configurações de distância acessadas por meio de seu painel Detalhes. Eles permitem que distâncias por instância sejam definidas ou se o Ator é selecionado usando um `Cull Distance Volume`.
 
 {% include image.html
-    src="https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/PerActorDistanceCullingSettings.webp"
+    src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/VisibilityCulling/PerActorDistanceCullingSettings.webp"
     alt="Figura: A seleção de distância do objeto."
-    caption="Figura: A seleção de distância do objeto."
+    caption="Details > Rendering."
+    ref="https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/VisibilityCulling/"
 %}
 
 - `Min Draw Distance` - Define a distância mínima de desenho na qual o objeto será renderizado na cena. Isso é medido em unidades de espaço mundial (centímetros) do centro da esfera delimitadora do objeto até a posição da câmera.
@@ -643,7 +640,7 @@ Atores selecionados em um Nível ou Blueprint contêm configurações de distân
 
 #### Exemplo de atores na cena
 
-O objeto vai ser rendirizado quando a câmera se aproximar a uma distância **MENOR** que 1000 centímetros.
+O objeto vai ser renderizado quando a câmera se aproximar a uma distância **MENOR** que 1000 centímetros.
 
 ```cpp
 Min Draw Distance = 0
@@ -695,19 +692,21 @@ A seleção de **View Frustum** usa a área visível da tela do campo de visão 
 O tronco da visão é uma forma piramidal que inclui um plano de recorte próximo e distante que define o mais próximo e o mais distante que qualquer objeto deve ser visível dentro deste espaço. Todos os outros objetos são removidos para economizar tempo de processamento.
 
 {% include image.html
-    src="https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/ViewFrustumDiagram.webp"
+    src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/VisibilityCulling/ViewFrustumDiagram.webp"
     alt="Figura: View Frustum."
-    caption="Figura: View Frustum."
+    caption="Visão da camera."
 %}
 
-1. O plano de recorte próximo é o ponto mais próximo da câmera em que os objetos ficarão visíveis.
-1. A **Camera Frustum** é a representação em formato piramidal da área de visualização visível entre os planos de clipe próximo e distante.
-1. O plano de recorte distante é o ponto mais distante da câmera em que os objetos serão visíveis.
+1. O plano de recorte próximo é o ponto mais próximo da câmera em que os objetos ficarão visíveis;
+
+2. A **Camera Frustum** é a representação em formato piramidal da área de visualização visível entre os planos de clipe próximo e distante;
+
+3. O plano de recorte distante é o ponto mais distante da câmera em que os objetos serão visíveis.
 
 Os objetos fora do campo de visão da câmera (o tronco de visão) não são visíveis e podem ser selecionados (objetos delineados em vermelho).
 
 {% include image.html
-    src="https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/SceneView_ViewFrustumCulled.webp"
+    src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/VisibilityCulling/SceneViewBase.webp"
     alt="Figura: View Frustum Culled."
     caption="Figura: View Frustum Culled."
 %}
@@ -715,7 +714,7 @@ Os objetos fora do campo de visão da câmera (o tronco de visão) não são vis
 Objetos selecionados fora do tronco de visão da câmera não são mais renderizados, deixando apenas um punhado de objetos dentro desta visão que são obstruídos por outro objeto que precisam ser verificados para visibilidade. Portanto, durante essa passagem, uma consulta será enviada à GPU para testar o estado de visibilidade de cada um desses objetos. Aqueles que são ocluídos por outro são retirados da vista (objetos delineados em azul).
 
 {% include image.html
-    src="https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/SceneView_OccludedObjectsRemoved.webp"
+    src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/VisibilityCulling/SceneViewWithOnlyOccludedObjects.webp"
     alt="Figura: Occlued Objects Remover."
     caption="Figura: Occlued Objects Remover."
 %}
@@ -723,7 +722,7 @@ Objetos selecionados fora do tronco de visão da câmera não são mais renderiz
 Todos os objetos que estão fora do tronco da vista ou que estão ocluídos são agora eliminados da vista. A vista final da cena agora corresponde aos objetos que sabemos serem visíveis na cena a partir da posição da câmera.
 
 {% include image.html
-    src="https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/Vis_FinalSceneView.webp"
+    src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/VisibilityCulling/Vis_FinalSceneView.webp"
     alt="Figura: View Occlued Scene View."
     caption="Figura: View Occlued Scene View."
 %}
@@ -732,10 +731,10 @@ Configurando o Unreal Engine para visualizar o corte de câmera.
 
 - `Show` > `Advanced` > `Camera frustum`
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_camera_frustum.jpg"
     alt="Figura: Camera Frustum."
-    caption="Figura: Camera Frustum."
+    caption="Visualização da camera."
 %}
 
 ### Precomputed Visibility - Visibilidade pré-computada
@@ -746,22 +745,30 @@ A **Precomputed Visibility** é ideal para hardware inferior e dispositivos móv
 
 > Divide a cena em um grid, onde cada célula do grid registra o que é visível naquele local. O tamanho das células é configurado .ini do projeto.
 
-1. Configurar **World Settings** o atributo **Precomputed Visibility Volume** para verdadeiro.
+- Configurar **World Settings** o atributo `Precomputed Visibility` para verdadeiro.
 
 {% include image.html
-    src="https://docs.unrealengine.com/Images/RenderingAndGraphics/VisibilityCulling/PrecomputedVisibilityVolume/WS_EnablePVIS.webp"
-    alt="Figura: World Settings->Precompute Visibility."
-    caption="Figura: World Settings->Precompute Visibility."
+    src="https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/VisibilityCulling/PrecomputedVisibilityVolume/WS_EnablePVIS.webp"
+    alt="Figura: World Settings > Precompute Visibility."
+    caption="Configurando do visibilidade do volume."
 %}
 
-1. Adicione na cena o volume `Precomputed Visibility Volume` que está em `Place Actors` > `Volumes`s;
-2. Defina o tamanho do Volume para abranger a área analisada;
-3. Para visualizar o Grid de células na cena, `Show` > `Visualize` > `Precomputed Visibility Cells`.
+- Adicione na cena o volume `Precomputed Visibility Volume` que está em `Place Actors` > `Volumes`;
+
+{% include image.html
+    src="https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/VisibilityCulling/PrecomputedVisibilityVolume/PVIS_AddVolume.webp"
+    alt="Figura: World Settings > Precompute Visibility."
+    caption="Adicionando o volume na cena."
+%}
+
+- Defina o tamanho do Volume para abranger a área analisada;
+
+- Para visualizar o Grid de células na cena, `Show` > `Visualize` > `Precomputed Visibility Cells`.
 
 {% include imagebase.html
     src="computacao_grafica/ue4_precomputed_visibility_volume.jpg"
     alt="Figura: Precomputed Visibility Cells, em azul as células."
-    caption="Figura: Precomputed Visibility Cells, em azul as células."
+    caption="Visualizando células."
 %}
 
 > Se você já construiu a iluminação (`Bluid` > `Lighting`), pode usar o menu suspenso Construir na barra de ferramentas principal(**Show**) e selecionar `Precompute Static Visibility` para gerar células de visibilidade sem reconstruir a iluminação todas as vezes.

@@ -5,13 +5,15 @@ tags: [Unreal Engine,actor,atores]
 layout: page
 ---
 
-## Em construção...
+## Em construção
 
 [Niagara Visual Effects](https://docs.unrealengine.com/en-US/Engine/Niagara/index.html)
 
 ## Estrutura
+
 1. Módulos
 Os módulos funcionam em um paradigma de gráfico - você pode criar módulos com HLSL no Editor de scripts usando um gráfico de nó visual. Módulos são equivalentes aos comportamentos de *Cascade*. Módulos comunicam dados comuns, encapsulam comportamentos e empilham juntos.
+
 1. Emissores  
 Os emissores funcionam em um paradigma de pilha - eles servem como contêineres para módulos e podem empilhar juntos para criar vários efeitos. Um emissor tem um único propósito, mas também é reutilizável. Os parâmetros são transferidos até o nível do emissor dos módulos, mas você pode modificar módulos e parâmetros no emissor.
 
