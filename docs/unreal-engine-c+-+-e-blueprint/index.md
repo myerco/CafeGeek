@@ -1,7 +1,7 @@
 ---
 title: Unreal Engine com C++ e Blueprint
 description: Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando Blueprints e C++.
-keywords: [Desonvolvimento com Unreal Engine, Jogos com Unreal Engine]
+keywords: [Desenvolvimento com Unreal Engine, Jogos com Unreal Engine]
 tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digital]
 layout: home
 ---
@@ -91,6 +91,7 @@ layout: home
 
 ## Efeitos especiais e animação de cenas
 
-- [Sequencer](#índice)
+- Sequencer
 
-- [Utilizando Niagara](#índice)
+- Utilizando Niagara
+  

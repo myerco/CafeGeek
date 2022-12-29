@@ -35,7 +35,7 @@ date: 2022-09-21
 
 ***
 
-Para entender melhor a estrutura de programação que representa a construção de eventos e funções vamos abordar alguns conceitos de programação.
+Para entender melhor a estrutura de programação que representa a construção de eventos e funções vamos abordar alguns conceitos de programação orientada a objetos.
 
 ### Programação Orientada a Objetos
 
@@ -64,6 +64,7 @@ Um método é um procedimento ou função em Conceitos de **Programação Orient
 O método é invocado apenas por sua referência / objeto. Por exemplo: se a classe tem *obj* como um nome de objeto, o método é chamado por: obj.method ();  
 
 Um método é capaz de operar em dados que estão contidos na classe.
+
 Cada objeto tem seu próprio método que está presente na classe.
 
 |Pessoa |                   |
@@ -118,7 +119,7 @@ Os eventos podem ser acessados dentro do **Blueprints** para implementar novas f
 {% include imagelocal.html
     src="unreal/modulos/blueprint_event_damaged.webp"
     alt="Figura: Blueprint - Evento de CausaDano."
-    caption="Criando um método customizado CausaDano podemos adicionar a lógica para o tratamento da variável Vida."
+    caption="Criando um método customizado CausaDano no BP_Hero podemos adicionar a lógica para o tratamento da variável Vida."
 %}
 
 - `CausaDano` é um evento customizado utilizando a opção `Add Custom Event` no menu de contexto dentro do `Event Graph`;
@@ -219,7 +220,7 @@ Abaixo alguns exemplos de funções puras em **C++**:
 
 - `max` - Retorna o maior de dois valores;
 
-Exemplos de funções impuras usando variáveis `static`[[2](https://docs.microsoft.com/pt-br/cpp/cpp/storage-classes-cpp?view=msvc-170)]:
+Exemplos de funções impuras usando variáveis `static`[[Classes de Armazenamento](https://docs.microsoft.com/pt-br/cpp/cpp/storage-classes-cpp?view=msvc-170)]:
 
 ```cpp
 // static1.cpp

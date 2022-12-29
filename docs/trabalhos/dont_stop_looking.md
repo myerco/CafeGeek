@@ -7,7 +7,8 @@ layout: page
 ---
 
 
-# Don't stop looking
+## Don't stop looking
+
 >**Faculdade Sapiens**
 >
 >Graduação em Jogos Digitais
@@ -21,19 +22,23 @@ layout: page
 Windows 7 ou Superior.
 
 ## 2.Faixa Etária
+
 De acordo com a ESRB: “O conteúdo é geralmente adequado para maiores de 13 anos. Pode conter violência, temas sugestivos, humor grosseiro, sangue mínimo, simulação de jogos de azar e/ou uso infrequente de linguagem forte.”
 
 ## 3.Classificação
+
 - Suspense;
 - Terror.
 
 ## 4. Características gerais
+
 - Mapa imersivo;
 - Gráficos 3D;
 - 1ª Pessoa;
 - Mapa extenso.
 
 ## 5.Resumo da história
+
 Durante sua jornada pelo tempo e espaço a nave do protagonista sofreu avarias ao transpor uma singularidade, você se depara com uma mescla de realidades, um mundo caótico e incerto a sua frente, você precisa encontrar peças para retomar sua viagem.
 Graças ao sistema de identificação da nave, você sabe quais os itens necessários, entretanto, a nave detecta algumas formas de vida desconhecidas.
 
@@ -41,6 +46,7 @@ Cabe a você encontrar esses itens e descobrir, ou evitar essa forma de vida.
 Seja rápido… Atento… E sempre, sempre olhe para trás...
 
 ## 6.Core Loop
+
 - Explore o mapa para encontrar itens que serão sua única forma de sobrevivência;
 - Esteja preparado para uma mudança planejamento durante a partida, tendo que se adaptar a localização dos anjos;
 - Se esforce para sobreviver enquanto a trilha sonora lhe auxilia a perceber o quão terrível é sua situação;
@@ -69,13 +75,13 @@ Seu objetivo é documentar o que está acontecendo e sobreviver, a única arma d
 8.Modelo de negócios
 O modelo de negócio consiste de uma compra, onde o jogador paga para ter total acesso ao jogo.
 
-##	8.1 Distribuição:
+##	8.1 Distribuição
+
 - Steam
 - Epic Games
 - GOG Games
 - Humble Bundle
 - Game Jolt
-
 
 ## 9.Objetivos
 - Sobreviva;
@@ -216,4 +222,4 @@ Os monstros sempre estão perseguindo o jogador, então cabe ao jogador não ser
 - [Sons de Pedras] Heavy Rock Being Moved, Dragged and Grind Version 1 - Youtube <https://youtu.be/HojQ_1Ypav0> Acessado em: 13 de Novembro de 2020.
 - [Pesadelo Game] Gamereporter. Disponível em: <https://www.gamereporter.com.br/pesadelo/>. Acessado em: 13 de Novembro de 2020.
 - [Slender Man] Wikipedia. Disponível em: <https://pt.wikipedia.org/wiki/Slender:_The_Eight_Pages>. Acessado em: 13 de Novembro de 2020.
-- [Outlast] Wikipedia. Disponivel em: <https://pt.wikipedia.org/wiki/Outlast>. Acessado em: 13 de Novembro de 2020.
+- [Outlast] Wikipedia. disponível em: <https://pt.wikipedia.org/wiki/Outlast>. Acessado em: 13 de Novembro de 2020.
