@@ -2,16 +2,65 @@
 title: Darkness of D-Day
 description: Roteiro do jogo DARKNESS OF D-DAY
 tags: [Unreal Engine,DARKNESS OF D-DAY, roteiro]
-layout: page
+categories: Trabalhos
+author: 
+- Cafegeek, Raphael Ferreira Martins
+layout: post
+date: 2022-09-25 
 ---
 
-### Autor: Raphael Ferreira Martins
+{% include logo.html
+    src="https://cafegeek.eti.br/imagens/cafegeek_small.webp"
+    alt="Figura: Darkness of D-Day"
+%}
+
+Autor: Raphael Ferreira Martins
+
+Trabalho: Faculdade Sapiens - Graduação em Jogos Digitais
+
+Orientador: Marco Yerco Mendizabel Cabrera
+
+- [CAPÍTULO 1](#capítulo-1)
+  - [Prólogo – O Ressurgimento](#prólogo--o-ressurgimento)
+  - [EXT. EM ALGUM LUGAR NO FUTURO – NOITE COM NÉVOA](#ext-em-algum-lugar-no-futuro--noite-com-névoa)
+  - [GAMEPLAY 001 - TUTORIAL AÇÃO CORPO A CORPO](#gameplay-001---tutorial-ação-corpo-a-corpo)
+  - [OBJETIVO DO LEVEL: TUTORIAL DE TREINAMENTO](#objetivo-do-level-tutorial-de-treinamento)
+- [CAPÍTULO 2](#capítulo-2)
+  - [BASE FORTE PRINCIPE E CEFP](#base-forte-principe-e-cefp)
+  - [INT. ALOJAMENTOS BASE DA RESISTÊNCIA FORTE PRINCIPE – 22 DE MAIO DE 2046; COSTA MARQUES - DIA](#int-alojamentos-base-da-resistência-forte-principe--22-de-maio-de-2046-costa-marques---dia)
+  - [EXT. BASE DA RESISTÊNCIA FORTE PRINCIPE – 22 DE MAIO DE 2046](#ext-base-da-resistência-forte-principe--22-de-maio-de-2046)
+    - [COSTA MARQUES - DIA 00:00h](#costa-marques---dia-0000h)
+  - [GAMEPLAY 002 – CONHECENDO A BASE – QUICK TIME EVENTS](#gameplay-002--conhecendo-a-base--quick-time-events)
+  - [OBJETIVO DO LEVEL: CONHECER, ADMINISTRAR E DESENVOLVER A BASE DE OPERAÇÕES](#objetivo-do-level-conhecer-administrar-e-desenvolver-a-base-de-operações)
+  - [INT. CENTRAL DE COMANDO E TREINAMENTO DA BASE DA RESISTÊNCIA FORTE PRÍNCIPE – 22 DE MAIO DE 2046](#int-central-de-comando-e-treinamento-da-base-da-resistência-forte-príncipe--22-de-maio-de-2046)
+    - [COSTA MARQUES - DIA 10:00h](#costa-marques---dia-1000h)
+  - [INT. EXT. BASE DA RESISTÊNCIA E CIDADE DE PORTO VELHO NA BATALHA DOS PIONEIROS – 30 DE SETEMBRO DE 2045](#int-ext-base-da-resistência-e-cidade-de-porto-velho-na-batalha-dos-pioneiros--30-de-setembro-de-2045)
+    - [PORTO VELHO – DIA E NOITE 00:00h](#porto-velho--dia-e-noite-0000h)
+  - [GAMEPLAY 003 – TUTORIAL ARMA DE FOGO/AÇÃO EM STEALTH E COMBATE OBJETIVO DO LEVE: SOBREVIVER A ONDA DOS ATAQUES INIMIGOS](#gameplay-003--tutorial-arma-de-fogoação-em-stealth-e-combate-objetivo-do-leve-sobreviver-a-onda-dos-ataques-inimigos)
+  - [INT. CENTRAL DE COMANDO E TREINAMENTO DA BASE DA RESISTÊNCIA FORTE PRÍNCIPE – 22 DE MAIO DE 2046 - 00h](#int-central-de-comando-e-treinamento-da-base-da-resistência-forte-príncipe--22-de-maio-de-2046---00h)
+  - [COSTA MARQUES - DIA 11:00h](#costa-marques---dia-1100h)
+- [CAPÍTULO 3](#capítulo-3)
+  - [Sons of D-DAY, o início do caos](#sons-of-d-day-o-início-do-caos)
+  - [INT. EXT. NORMANDIA; EUROPA; FRANÇA – 1944 – DIA E NOITE](#int-ext-normandia-europa-frança--1944--dia-e-noite)
+- [CAPÍTULO 4](#capítulo-4)
+  - [Operação Véu da Noiva](#operação-véu-da-noiva)
+  - [INT. BASE DA RESISTÊNCIA FORTE PRINCIPE – 22 DE MAIO DE 2046; COSTA MARQUES – NOITE](#int-base-da-resistência-forte-principe--22-de-maio-de-2046-costa-marques--noite)
+  - [GAMEPLAY 004 – OPERAÇÃO VÉU DA NOIVA CAMINHO A BASE DA CHAPADA](#gameplay-004--operação-véu-da-noiva-caminho-a-base-da-chapada)
+  - [OBJETIVO DO LEVEL: CHEGUE Á BASE E REALIZE A INFILTRAÇÃO](#objetivo-do-level-chegue-á-base-e-realize-a-infiltração)
+  - [INT. EXT. BASE DA CHAPADA; 23 DE MAIO DE 2046](#int-ext-base-da-chapada-23-de-maio-de-2046)
+  - [CHAPADA DOS GUIMARÃES MT; BRASIL – MADRUGADA E DIA](#chapada-dos-guimarães-mt-brasil--madrugada-e-dia)
+  - [GAMEPLAY 005 – INVASÃO A BASE DA CHAPADA](#gameplay-005--invasão-a-base-da-chapada)
+  - [OBJETIVO DO LEVEL: INFILTRE-SE NA BASE SEM SEREM VISTOS (Stealth); LIBERTE E ARME OS PRISIONEIROS RESISTÊNCIA; RETOME A BASE](#objetivo-do-level-infiltre-se-na-base-sem-serem-vistos-stealth-liberte-e-arme-os-prisioneiros-resistência-retome-a-base)
+  - [GAMEPLAY 006 – INVASÃO A BASE DA CHAPADA e BOSS FIGHT](#gameplay-006--invasão-a-base-da-chapada-e-boss-fight)
+  - [OBJETIVO DO LEVEL: SALVE VINCENT; VENÇA O BOSS RUSH E SEUS SOLDADOS](#objetivo-do-level-salve-vincent-vença-o-boss-rush-e-seus-soldados)
+
+***
 
 ## CAPÍTULO 1
 
 ### Prólogo – O Ressurgimento
 
-### 1 EXT. EM ALGUM LUGAR NO FUTURO – NOITE COM NÉVOA
+### EXT. EM ALGUM LUGAR NO FUTURO – NOITE COM NÉVOA
 
 Ressurge então das cinzas, sem explicação nenhuma sendo focado pela sua sombra no chão seco, rochoso e ardente, pergunta com uma respiração ofegante a si mesmo:
 
@@ -83,7 +132,7 @@ O protagonista se vê então caído, em estado grave, com a mão decepada e com 
 
 ### BASE FORTE PRINCIPE E CEFP
 
-### 2 INT. ALOJAMENTOS BASE DA RESISTÊNCIA FORTE PRINCIPE – 22 DE MAIO DE 2046; COSTA MARQUES - DIA
+### INT. ALOJAMENTOS BASE DA RESISTÊNCIA FORTE PRINCIPE – 22 DE MAIO DE 2046; COSTA MARQUES - DIA
 
 > VOZ ROBÓTICA(O.S.)
 >
@@ -148,9 +197,9 @@ Com um sorriso de esperança, Mônica responde:
 
 Mônica responde que ele venceu dessa vez como experiência mais desagradável e comenta que seu RET foi sobre ela está no colegial sendo uma professora de história, tendo que ensinar sobre duas indivíduas chamadas “Great girl“ e “Skinny Woman”. Porém ela retrucou que não fica sempre atrás em termos de experiências doentias do RET, como da vez que a simularam como uma serial killer. Os dois caem na risada após os comentários de Sanches.
 
-## 3 EXT. BASE DA RESISTÊNCIA FORTE PRINCIPE – 22 DE MAIO DE 2046
+### EXT. BASE DA RESISTÊNCIA FORTE PRINCIPE – 22 DE MAIO DE 2046
 
-### COSTA MARQUES - DIA
+#### COSTA MARQUES - DIA 00:00h
 
 ### GAMEPLAY 002 – CONHECENDO A BASE – QUICK TIME EVENTS
 
@@ -158,9 +207,9 @@ Mônica responde que ele venceu dessa vez como experiência mais desagradável e
 
 Saindo da capsula de seus alojamentos, os dois passam por várias localidades da “mini cidade” construída pela resistência no interior do forte como as hortas, os viveiros, o pasto com a pecuária, a academia, os refeitórios, mais alojamentos e finalmente chegando á capsula do grande salão de treinamento. Durante o percurso, eles avistam as torres de vigilância em funcionamento e cumprimentaram vários combatentes e civis, muitos deles ansiosos para assistirem o recrutamento e discursos de motivações do comandante Martin aos dos novos refugiados e desertores do quarto reich.
 
-## 4. INT. CENTRAL DE COMANDO E TREINAMENTO DA BASE DA RESISTÊNCIA FORTE PRÍNCIPE – 22 DE MAIO DE 2046
+### INT. CENTRAL DE COMANDO E TREINAMENTO DA BASE DA RESISTÊNCIA FORTE PRÍNCIPE – 22 DE MAIO DE 2046
 
-### COSTA MARQUES - DIA 2
+#### COSTA MARQUES - DIA 10:00h
 
 Na central de comando, Martin e Sanchez são chamados pelo comando geral para se reunirem com a equipe dos demais comandantes formados durante a resistência ao regime dos D-DAYS, seus codinomes de operações são baseados em personagens famosos do cinema. Airton “Skywalker” Rocha, brasileiro, 38 anos, branco, aparência nerd e bastante humorado, especialista em sistemas e tecnologia, foi ideia dele usar nomes de dos personagens do cinema nas operações. Valentina ”The Bride”   Campos, brasileira, 35 anos, ruiva, às vezes um pouco temperamental, porém bastante extrovertida, especialista em explosivos e produtos químicos. Miguel “T-800” e Amanda “Connor” Oliveira, são casados, brasileiros, negros, sérios e bem objetivos são os engenheiros sênior. O britânico com naturalidade americana Ray “Bond” Henderson e o russo Argov ”Drago” Sherikov são fuzileiros e atiradores de elite enviados pela cúpula secreta dos aliados da segunda guerra mundial. Micaela “Everdeen” De La Cruz, boliviana, com traços indígenas, 28 anos, excelente estrategista e bem tagarela, recrutada juntamente com a base aliada formada pela fronteira Brasil-Bolívia. Yangel “Vader” Schultz, 54 anos, venezuelano de descendência alemã (seus tataravôs judeus fugiram da Alemanha nazista para américa do sul), historiador e grande estudioso dos conceitos, costumes, objetivos e motivações da Alemanha nazista, bem ranzinza, orgulhoso e dono da verdade. E por fim, o comandante geral Luís “Corleone” Mendes Santos, 65 anos, brasileiro, homem honrado, amigo e valente com grande espírito de liderança; perdeu um olho e o antebraço em sua fuga em um dos primeiros campos de concentração implantada pelo regime dos novos nazistas do D-DAY na cidade de Cascavel no Paraná. Max Martin segue com o codinome Creed e Sanchez com o codinome Ripley.
 
@@ -205,17 +254,17 @@ Henry responde que tem 22 anos e conta toda sua história de como chegou ali. Em
 
 Martin, comovido com a história do garoto diz, relembra a batalha e diz que foi lá que quase perdeu o olho, porém foi o de menos. Antes da batalha começar, ele perdeu sua esposa Dora em um ataque surpresa. Martin conta que eles haviam fugido do Distrito Federal, onde acabara de ser tomado pelo quarto reich. Para tentar juntar e aumentar as forças concentradas dos comandos especiais da resistência da região norte na cidade de Porto Velho. Vários representantes do norte dos estados do norte do país estavam reunidos. Porém, foram atacados de surpresa por uma infantaria dos D-DAYS que os rastrearam desde de a região centro-oeste. Tinham o objetivo de abrir passagens para a conquista da região norte do país.
 
-## 5 INT. EXT. BASE DA RESISTÊNCIA E CIDADE DE PORTO VELHO NA BATALHA DOS PIONEIROS – 30 DE SETEMBRO DE 2045
+### INT. EXT. BASE DA RESISTÊNCIA E CIDADE DE PORTO VELHO NA BATALHA DOS PIONEIROS – 30 DE SETEMBRO DE 2045
 
-### PORTO VELHO – DIA E NOITE
+#### PORTO VELHO – DIA E NOITE 00:00h
 
 ### GAMEPLAY 003 – TUTORIAL ARMA DE FOGO/AÇÃO EM STEALTH E COMBATE OBJETIVO DO LEVE: SOBREVIVER A ONDA DOS ATAQUES INIMIGOS
 
 Naquela batalha que durou dias, as patrulhas da resistência conseguiram acabar com a frota da infantaria do quarto reich, porém tiveram muitas baixas civis e a Cidade ficou arrasada.
 
-## 6 INT. CENTRAL DE COMANDO E TREINAMENTO DA BASE DA RESISTÊNCIA FORTE PRÍNCIPE – 22 DE MAIO DE 2046
+### INT. CENTRAL DE COMANDO E TREINAMENTO DA BASE DA RESISTÊNCIA FORTE PRÍNCIPE – 22 DE MAIO DE 2046 - 00h
 
-## COSTA MARQUES - DIA 3
+### COSTA MARQUES - DIA 11:00h
 
 > COM. MARTIN
 >
@@ -237,7 +286,7 @@ Ele então conta aos recrutas, tudo que sabem sobre os intitulados Sons of D-DAY
 
 ### Sons of D-DAY, o início do caos
 
-## 7 INT. EXT. NORMANDIA; EUROPA; FRANÇA – 1944 – DIA E NOITE
+### INT. EXT. NORMANDIA; EUROPA; FRANÇA – 1944 – DIA E NOITE
 
 No dia 06 de junho de 1944 durante a segunda guerra mundial, as forças aliadas desembarcam na praia de Normandia no noroeste da França no dia D (D-DAY) da operação Netuno. Ali se iniciava o alicerce da vitória dos aliados na segunda guerra mundial, acabando com a ditadura do terceiro Reich da Alemanha nazista de Hitler.
 
@@ -258,7 +307,7 @@ Após Sons of D-DAY tomarem o sul do país, houve duas descobertas. A primeira �
 
 ### Operação Véu da Noiva
 
-## 8 INT. BASE DA RESISTÊNCIA FORTE PRINCIPE – 22 DE MAIO DE 2046; COSTA MARQUES – NOITE
+### INT. BASE DA RESISTÊNCIA FORTE PRINCIPE – 22 DE MAIO DE 2046; COSTA MARQUES – NOITE
 
 Após Max passar o treinamento inicial aos recrutas, Henry sendo uns dos destaques do treino se aproxima e se oferece para acompanhar o comando especial na ofensiva a base da Chapada. Max comenta que como apresentado a pouco, possui treinamento militar de quando estava no exército e está mais que pronto para isso, e diz ao comandante com todo sentimento e ao mesmo tempo convicção.
 
@@ -292,7 +341,7 @@ Henry sai então de vista muito irritado. O comandante então é chamado para se
 
 ### OBJETIVO DO LEVEL: CHEGUE Á BASE E REALIZE A INFILTRAÇÃO
 
-## 8 INT. EXT. BASE DA CHAPADA; 23 DE MAIO DE 2046
+### INT. EXT. BASE DA CHAPADA; 23 DE MAIO DE 2046
 
 ### CHAPADA DOS GUIMARÃES MT; BRASIL – MADRUGADA E DIA
 

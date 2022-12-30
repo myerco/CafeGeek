@@ -219,12 +219,11 @@ Um raio começa em um ponto e se estende infinitamente em uma direção distante
 
 Um segmento de linha é uma linha de comprimento finito definida por seus dois pontos finais.
 
->Em computadores, devemos lidar com quantidades finitas, então não podemos tirar o total extensão de uma linha ou raio de acordo com sua definição matemática. No computador gráficos quando nos referimos a “linhas”, geralmente nos referimos a segmentos de linha.
-
 {% include image.html
     src="https://cdn1.byjus.com/wp-content/uploads/2020/01/Line-segment.png"
     alt="Figure: Segmento de linha."
-    caption="Figure: Segmento de linha - <https://cdn1.byjus.com>."
+    caption="Em computadores, devemos lidar com quantidades finitas, então não podemos tirar o total extensão de uma linha ou raio de acordo com sua definição matemática. No computador gráficos quando nos referimos a “linhas”, geralmente nos referimos a segmentos de linha."
+    ref="https://cdn1.byjus.com"
 %}
 
 ### Planos e Triângulos
@@ -238,9 +237,10 @@ A direção perpendicular a um plano é chamado de **Normal** ao plano.
 Um triângulo também é definido por três pontos no espaço 3 chamados **Vértices** (singular vértice).
 
 {% include image.html
-    src="https://www.oreilly.com/library/view/programming-3d-applications/9781449363918/figs/p3da_0405.png"
+    src="https://www.scratchapixel.com/images/upload/shading-intro/shad-tri-normal.png"
     alt="Figure: Triangle Vertex Normal."
-    caption="Figure: Triangle Vertex Normal - <https://www.oreilly.com >."
+    caption="A face normal de um triângulo pode ser calculada a partir do produto vetorial de duas arestas desse triângulo."
+    ref="https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/shading-normals"
 %}
 
 ### Polígonos (Polygon)
@@ -253,10 +253,10 @@ Polígonos são uma coleção de vértices, arestas e faces que definem a forma 
 
 Utilizando as opções em **Poly Modeling** podemos definir uma séria de elementos poligonais.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_maya_wireframe.jpg"
-    alt="Figura: Polígonos no Maya utilizando a visualização Wireframe- Autor."
-    caption="Figura: Polígonos no Maya utilizando a visualização Wireframe- Autor."
+    alt="Figura: Wireframe."
+    caption="Polígonos no Maya utilizando a visualização Wireframe."
 %}
 
 - `Channel Box/Layer Editor` - Propriedades do objeto com a sua quantidade de subdivisões, estes valores podem ser manipulados aumentando ou diminuindo a quantidade de arestas.
@@ -265,30 +265,30 @@ Utilizando as opções em **Poly Modeling** podemos definir uma séria de elemen
   
   `Display` > `Heads up display` > `Poly Count`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_maya_show_vertex.jpg"
-    alt="Figura: Verts, Edges, Faces, Tris, UVs no Maya - Autor."
-    caption="Figura: Verts, Edges, Faces, Tris, UVs no Maya - Autor."
+    alt="Figura: Poly Count."
+    caption="Verts, Edges, Faces, Tris, UVs no Maya - Autor."
 %}
 
 ### Polígonos no Unreal Engine
 
 Selecionando `Brush Wireframe` no `View Port` ou pressionando *Alt+2* a estrutura de malha de vértices dos polígonos na cena.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_view_port_wireframe.jpg"
-    alt="Figura: Visualização Brush Wireframe no Unreal Engine 4 -  Autor."
-    caption="Figura: Visualização Brush Wireframe no Unreal Engine 4 -  Autor."
+    alt="Figura: Unreal Engine 4 >  Brush Wireframe."
+    caption="Visualização a malha dos objetos."
 %}
 
 - Apresentado a quantidade de vértices e arestas.
   
   `Window` > `Statistics`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_view_statistics.jpg"
-    alt="Figura: Unreal Engine View Statistics - Autor."
-    caption="Figura: Unreal Engine View Statistics - Autor."
+    alt="Figura: Unreal Engine  > View Statistics."
+    caption="Visualizando estatísticas."
 %}
 
 ### Face

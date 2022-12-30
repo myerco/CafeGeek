@@ -3,29 +3,49 @@ title: Iron Maiden
 description: História sem nome do Iron Maiden.
 tags: [Unreal Engine, trabalhos, jogos digitais]
 author: CafeGeek
-layout: page
+categories: Trabalhos
+author: 
+- Cafegeek
+layout: post
+date: 2022-09-25 
 ---
----
-<center>
 
-<p>“SIBÉRIA”</p>
 
-<p>Um roteiro</p>
+- [Introdução](#introdução)
+  - [Ficha](#ficha)
+- [EXT. RUA FRENTE DA CASA LAB4 - DIA](#ext-rua-frente-da-casa-lab4---dia)
+- [INT. DENTRO DA CASA LAB4 - DIA](#int-dentro-da-casa-lab4---dia)
+- [INT. CABANA DA SIBERIA - DIA](#int-cabana-da-siberia---dia)
+- [EXT. CABANA DA SIBERIA - DIA](#ext-cabana-da-siberia---dia)
+- [INT. DENTRO DA CASA LAB4 - DIA 00:00h](#int-dentro-da-casa-lab4---dia-0000h)
 
-<p>De</p>
+***
 
-<p>Airon</p>
+## Introdução
 
-<p>Copyright by Airon 2022 Porto Velho</p>
+{% include image.html
+    src="https://cafegeek.eti.br/imagens/cafegeek_small.webp"
+    alt="Figura: Sibéria"
+    caption="Autor: Airon, Categoria: Trabalho - Roteiro."
+%}
 
-<p>Todos direitos reservados</p>
+### Ficha
 
-</center>
+- Faculdade Sapiens
 
----
-## 1. EXT. RUA FRENTE DA CASA LAB4 - DIA
+- Graduação em Jogos Digitais;
 
-<div><a href="https://www.homify.com.br/foto/1381790/residencia-avs" target="_blank"><img alt="Residência AVS, A/ZERO Arquitetura A/ZERO Arquitetura Casas modernas" src="https://images.homify.com/images/a_0,c_fill,f_auto,h_316,q_auto,w_316/v1457095580/p/photo/image/1381790/Resid%C3%AAncia_AVS_1/fotos-de-casas-moderno-por-a-zero-arquitetura.jpg"/></a></div><div style="color:#86848b;"><small><a style="text-decoration:none;color:#86848b;" target="_blank" href="https://www.homify.com.br/projetos/198516/residencia-avs"> Residência AVS, A/ZERO Arquitetura </a>por<a style="text-decoration:none;color:#86848b;" target="_blank" href="https://www.homify.com.br/profissionais/618107/a-zero-arquitetura" > A/ZERO Arquitetura </a></small></div>
+- Autor: aIron;
+
+- Orientador: Marco Yerco Mendizabel Cabrera;
+
+## EXT. RUA FRENTE DA CASA LAB4 - DIA
+
+{% include image.html
+    src="https://www.homify.com.br/foto/1381790/residencia-avs"
+    alt="Figura: Modelo de residência."
+    caption="Residência AVS, A/ZERO Arquitetura."
+%}
 
 A casa LAB4 fica localizada em uma esquina, entre ruas pouco movimentas em um bairro afastado da cidade.
 
@@ -48,10 +68,13 @@ O mecanismo de transporte é acionado quando ela fecha a porta principal , a cas
 >
 > Sibéria?
 
+## INT. DENTRO DA CASA LAB4 - DIA
 
-## 2. INT. DENTRO DA CASA LAB4 - DIA
-
-![Interior da Casa](http://www.imovelweb.com.br/noticias/wp-content/uploads/2017/10/sobrados.jpg "Sobrados")
+{% include image.html
+    src="http://www.imovelweb.com.br/noticias/wp-content/uploads/2017/10/sobrados.jpg"
+    alt="Figura: Modelo de sobrado."
+    caption="Modelo de interior."
+%}
 
 A mulher entra na casa e começa a basculhar todos os quartos, no andar de cima estão localizados os quartos então a mulher desconhecida demora mais tempo procurando algo.
 
@@ -61,9 +84,13 @@ Lá, descobre que uma janela estava aberta e um copo quebrado de vidro no chão,
 
 Ela fecha a janela para parar o vento frio, e vê uma senhorinha andando pela neve, que cai. Ela procura e veste roupas de frio, e sai da casa para ajudá-la.
 
-## 3. INT. CABANA DA SIBERIA - DIA
+## INT. CABANA DA SIBERIA - DIA
 
-![Cabana Siberia](imagens/cabanasberia.webp)
+{% include imagelocal.html
+    src="trabalhos/cabanasberia.webp"
+    alt="Figura: Interior."
+    caption="Modelo de cabana."
+%}
 
 Quando a mulher abre a porta da frente novamente, a casa mágica não está mais lá. É o casebre da senhorinha.
 
@@ -90,9 +117,13 @@ Ela começa a discutir sobre a família, dizendo que é uma imensa falta de resp
 
 Ela oferece presentes e comida, mas nota que o fogo está ficando baixo. Pede para a "neta" buscar madeira, pela porta dos fundos.
 
-![Design Personagens](imagens/DesignPersonagens.webp)
+{% include imagelocal.html
+    src="trabalhos/DesignPersonagens.webp"
+    alt="Figura: Personagens."
+    caption="Design Personagens."
+%}
 
-## 4. EXT. CABANA DA SIBERIA - DIA
+## EXT. CABANA DA SIBERIA - DIA
 
 Ao lado da pilha de madeira, a cena do crime. O corpo da verdadeira neta, assassinada recentemente.
 
@@ -113,10 +144,13 @@ A senhorinha está preparando comida. O jogador pode continuar na onda, fingindo
 
 Existem vários desenrolares do diálogo, mas não são relevantes para a história geral (apenas para as emoções do jogador).
 
-![Siberia Forest](imagens/Russia_Siberia_Forests_Roads_Winter_Trees_Fog_Snow_558251_1365x1024.webp)
+{% include imagelocal.html
+    src="trabalhos/Russia_Siberia_Forests_Roads_Winter_Trees_Fog_Snow_558251_1365x1024.webp"
+    alt="Figura: Russia Siberia."
+    caption="Siberia Forest."
+%}
 
-
-## 5. INT. DENTRO DA CASA LAB4 - DIA
+## INT. DENTRO DA CASA LAB4 - DIA 00:00h
 
 O que aconteceu fora da câmera?
 
