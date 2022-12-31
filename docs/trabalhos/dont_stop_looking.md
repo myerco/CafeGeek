@@ -2,16 +2,22 @@
 title: Don't stop looking
 description: Roteiro do jogo Don't stop looking
 tags: ["Unreal Engine","trabalhos","jogos digitais"]
-categories: Trabalhos
+categories: 
+- Trabalhos
+- Projeto
+- Jogo
 author: 
-- Cafegeek, Felipe Malagueta Fernandes
+- Cafegeek
+- Felipe Malagueta Fernandes
 layout: post
 date: 2022-09-25 
 ---
 
-{% include logo.html
+{% include image.html
     src="https://m.gjcdn.net/game-screenshot/300/4621714-ux45ttaz-v4.webp"
     alt="Figura: Don't Stop Looking"
+    caption="Não olhe."
+    ref="https://gamejolt.com/games/dontstoplooking/557220"
 %}
 
 - [Plataforma](#plataforma)
@@ -160,15 +166,15 @@ Interação com itens:
   
 - Ação;
 
-- Direcional Analógico Esquerda - W,S,A,D
+- Direcional Analógico Esquerda - W,S,A,D;
 
-Movimentação do personagem - Direcional Analógico Direito
+- Movimentação do personagem - Direcional Analógico Direito;
 
-Mouse - Movimentação da câmera X , A Espaço
+- Mouse - Movimentação da câmera X , A Espaço;
 
-Pular - Click Direcional Analógico Esquerdo 
+- Pular - Click Direcional Analógico Esquerdo;
 
-Shift - Correr
+- Shift - Correr.
 
 ## O Mundo do jogo
 

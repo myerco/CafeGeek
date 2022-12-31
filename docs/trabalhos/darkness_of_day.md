@@ -2,23 +2,20 @@
 title: Darkness of D-Day
 description: Roteiro do jogo DARKNESS OF D-DAY
 tags: [Unreal Engine,DARKNESS OF D-DAY, roteiro]
-categories: Trabalhos
+categories: 
+- Trabalhos
+- Roteiro
 author: 
-- Cafegeek, Raphael Ferreira Martins
+- Cafegeek
+- Raphael Ferreira Martins
 layout: post
 date: 2022-09-25 
 ---
 
 {% include logo.html
-    src="https://cafegeek.eti.br/imagens/cafegeek_small.webp"
+    src="cafegeek_small.webp"
     alt="Figura: Darkness of D-Day"
 %}
-
-Autor: Raphael Ferreira Martins
-
-Trabalho: Faculdade Sapiens - Graduação em Jogos Digitais
-
-Orientador: Marco Yerco Mendizabel Cabrera
 
 - [CAPÍTULO 1](#capítulo-1)
   - [Prólogo – O Ressurgimento](#prólogo--o-ressurgimento)
@@ -211,7 +208,7 @@ Saindo da capsula de seus alojamentos, os dois passam por várias localidades da
 
 #### COSTA MARQUES - DIA 10:00h
 
-Na central de comando, Martin e Sanchez são chamados pelo comando geral para se reunirem com a equipe dos demais comandantes formados durante a resistência ao regime dos D-DAYS, seus codinomes de operações são baseados em personagens famosos do cinema. Airton “Skywalker” Rocha, brasileiro, 38 anos, branco, aparência nerd e bastante humorado, especialista em sistemas e tecnologia, foi ideia dele usar nomes de dos personagens do cinema nas operações. Valentina ”The Bride”   Campos, brasileira, 35 anos, ruiva, às vezes um pouco temperamental, porém bastante extrovertida, especialista em explosivos e produtos químicos. Miguel “T-800” e Amanda “Connor” Oliveira, são casados, brasileiros, negros, sérios e bem objetivos são os engenheiros sênior. O britânico com naturalidade americana Ray “Bond” Henderson e o russo Argov ”Drago” Sherikov são fuzileiros e atiradores de elite enviados pela cúpula secreta dos aliados da segunda guerra mundial. Micaela “Everdeen” De La Cruz, boliviana, com traços indígenas, 28 anos, excelente estrategista e bem tagarela, recrutada juntamente com a base aliada formada pela fronteira Brasil-Bolívia. Yangel “Vader” Schultz, 54 anos, venezuelano de descendência alemã (seus tataravôs judeus fugiram da Alemanha nazista para américa do sul), historiador e grande estudioso dos conceitos, costumes, objetivos e motivações da Alemanha nazista, bem ranzinza, orgulhoso e dono da verdade. E por fim, o comandante geral Luís “Corleone” Mendes Santos, 65 anos, brasileiro, homem honrado, amigo e valente com grande espírito de liderança; perdeu um olho e o antebraço em sua fuga em um dos primeiros campos de concentração implantada pelo regime dos novos nazistas do D-DAY na cidade de Cascavel no Paraná. Max Martin segue com o codinome Creed e Sanchez com o codinome Ripley.
+Na central de comando, Martin e Sanchez são chamados pelo comando geral para se reunirem com a equipe dos demais comandantes formados durante a resistência ao regime dos D-DAYS, seus codinomes de operações são baseados em personagens famosos do cinema. Airton “Skywalker” Rocha, brasileiro, 38 anos, branco, aparência nerd e bastante humorado, especialista em sistemas e tecnologia, foi ideia dele usar nomes de dos personagens do cinema nas operações. Valentina ”The Bride”   Campos, brasileira, 35 anos, ruiva, às vezes um pouco temperamental, porém bastante extrovertida, especialista em explosivos e produtos químicos. Miguel “T-800” e Amanda “Connor” Oliveira, são casados, brasileiros, negros, sérios e bem objetivos são os engenheiros sênior. O britânico com naturalidade americana Ray “Bond” Henderson e o russo Argov ”Drago” Sherikov são fuzileiros e atiradores de elite enviados pela cúpula secreta dos aliados da segunda guerra mundial. Micaela “Everdeen” De La Cruz, boliviana, com traços indígenas, 28 anos, excelente estrategista e bem tagarela, recrutada juntamente com a base aliada formada pela fronteira Brasil-Bolívia. Yangel “Vader” Schultz, 54 anos, venezuelano de descendência alemã (seus tataravôs judeus fugiram da Alemanha nazista para América do sul), historiador e grande estudioso dos conceitos, costumes, objetivos e motivações da Alemanha nazista, bem ranzinza, orgulhoso e dono da verdade. E por fim, o comandante geral Luís “Corleone” Mendes Santos, 65 anos, brasileiro, homem honrado, amigo e valente com grande espírito de liderança; perdeu um olho e o antebraço em sua fuga em um dos primeiros campos de concentração implantada pelo regime dos novos nazistas do D-DAY na cidade de Cascavel no Paraná. Max Martin segue com o codinome Creed e Sanchez com o codinome Ripley.
 
 > COM. GERAL SANTOS
 >

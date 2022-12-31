@@ -2,7 +2,11 @@
 title: Trabalhos de jogos digitais
 description: Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de Jogos Digitais.
 tags: [Unreal Engine, Trabalhos,jogos digitais]
-categories: Unreal Engine
+categories: 
+- Unreal Engine
+- Trabalhos
+- Roteiros
+- Projetos
 author: 
 - Cafegeek
 layout: post
@@ -34,7 +38,7 @@ Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de J
 
 ## Roteiros
 
-### Darkness of D-day
+### [Darkness of D-day](darkness_of_day.md)
 
 Link: [Darkness of D-day](darkness_of_day.html)
 

@@ -2,40 +2,99 @@
 title: Death VIP
 description: Modelo de GDD do jogo Death VIP
 tags: [Unreal Engine, Death VIP, roteiro,GDD]
-layout: page
+categories: Trabalhos
+author: 
+- Cafegeek
+layout: post
 ---
+
+{% include logo.html
+    src="cafegeek_small.webp"
+    alt="Figura: Cafegeek"
+%}
 
 “Rescue or die trying”
 
->All work Copyright ©2018 by CafeGeek
-Written by Nostromo    
-Version # 1.00    
+- [Introdução](#introdução)
+  - [Plataforma](#plataforma)
+  - [Faixa Etária](#faixa-etária)
+  - [Classificação](#classificação)
+  - [Gênero](#gênero)
+  - [Publico Alvo](#publico-alvo)
+  - [Características gerais](#características-gerais)
+  - [Características multiplayer](#características-multiplayer)
+  - [Resumo da história](#resumo-da-história)
+- [Marketing](#marketing)
+  - [Diferenciais de vendas](#diferenciais-de-vendas)
+  - [Produtos concorrentes](#produtos-concorrentes)
+- [Objetivos](#objetivos)
+- [Personagens](#personagens)
+  - [Movimentação Controle](#movimentação-controle)
+  - [Inimigos](#inimigos)
+  - [Armas](#armas)
+- [O Mundo do jogo](#o-mundo-do-jogo)
+- [Estruturas](#estruturas)
+  - [Interface (HUD)](#interface-hud)
+  - [Câmera](#câmera)
+  - [Músicas e efeitos de som](#músicas-e-efeitos-de-som)
+- [GamePlay](#gameplay)
+  - [Objetivos e Ação](#objetivos-e-ação)
+  - [Mapas](#mapas)
+  - [Experiência e Level](#experiência-e-level)
+  - [Características especiais do Capitão](#características-especiais-do-capitão)
+  - [Modelos](#modelos)
+  - [Multiplayer](#multiplayer)
+- [Estrutura do modelo](#estrutura-do-modelo)
+- [Projeto](#projeto)
+  - [Equipe](#equipe)
+  - [Tarefas](#tarefas)
 
-## 2.Plataforma
-PC
-## 3.Faixa Etária
+****
+
+## Introdução
+
+### Plataforma
+
+Distribuição : PC.
+
+Desenvolvimento: Unreal Engine.
+
+### Faixa Etária
+
 14
-## 4.Classificação
+
+### Classificação
+
 SEM RESTRIÇÃO
 
-## 5. Gênero
-- FPS (First-person shooter) Cooperativo - Os jogadores devem cumprir os objetivos e levar o VIP (Classe de Jogador) até a área de resgate.
+### Gênero
 
-## 6. Publico Alvo
-- Jogadores de tiro e trabalho cooperativo.
-- Jogadores que visam maiores desafios pois para vencer tentem levar o VIP para a área de resgate.
+FPS (First-person shooter) Cooperativo - Os jogadores devem cumprir os objetivos e levar o VIP (Classe de Jogador) até a área de resgate.
+
+### Publico Alvo
+
+- Jogadores de tiro e trabalho cooperativo;
+
+- Jogadores que visam maiores desafios pois para vencer tentem levar o VIP para a área de resgate;
+
 - O VIP é membro da equipe sem armas mas com habilidades especiais permitindo outro tipo de perfil de jogador com habilidades de fuga e rapidez na tomada de decisões.
 
-## 7. Características gerais
-- Mapas grandes (KM)
-- 3D gráficos
-- 32-Bit color
-- 3ª Pessoa
+### Características gerais
 
-## 8. Características multiplayer
+- Mapas grandes (KM);
+
+- 3D gráficos;
+
+- 32-Bit color;
+
+- 3ª Pessoa;
+
+### Características multiplayer
+
 Salas de até 16 jogadores
 
-## 9. Resumo da história
+### Resumo da história
+
 Quando o comandante das milícias descobriu a tentativa de resgate de um alvo considerado por ele de extrema importância, mandou todos os seus soldados fazer de tudo para MATAR O VIP para servir de exemplo.
 
 Equipe de resgate (EAS - Esquadrão Aeroterrestre de Salvamento)  de 3 jogadores tenta resgatar um VIP (Very Important Person) em uma região dominada por milícias fortemente armadas em um país da América do Sul. A equipe conta com arsenal leve de combate e resgate, como por exemplo metralhadoras M4, espingardas e pistolas.
@@ -47,24 +106,37 @@ A equipe EAS com auxílio do VIP pode localizar outras equipes de resgate e seus
 
 Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem como itens que alteram o modo de jogo, como por exemplo  o “TREINO VIP” que transforma o VIP em um membro da equipe EAS por alguns minutos.
 
-## 10. Diferenciais de vendas
+## Marketing
+
+### Diferenciais de vendas
+
 - Explore o mapa para encontrar itens que auxiliam na sobrevivência e resgate do VIP;
+
 - Esteja preparado para a missão mudar durante o jogo, alterando totalmente a sua tática de resgate;
+
 - Tente sobreviver ouvindo ROCK INDIE das melhores bandas de garagem;
+
 - Encontre outras equipes e seus VIP´s para tentar sobreviver em um grande modo cooperativo de 16 jogadores, modo *Kill House*;
+
 - Múltiplos modo de gameplay, incluindo cooperativo de 4 jogadores, cooperativo de 16 jogadores e multiplayer onde as equipes tentam eliminar o VIP do adversário;
 
-## 11. Produtos concorrentes
-- Left for dead
-- COD Zumbi
+### Produtos concorrentes
 
-## 12. Objetivos
+- Left for dead;
+
+- COD Zumbi.
+
+## Objetivos
+
 - Não deixar o VIP morrer, caso morra o jogo acaba;
+
 - Alcançar o ponto de resgate com toda a sua equipe;
+
 - Explorar o mapa para coletar itens auxiliares;
+
 - Cumprir os 3 objetivos durante o resgate;
 
-## 13. Personagens
+## Personagens
 
 |Class        |Aggressive         | Defensive         |Support          |VIP            |
 |:-           |:-:                |:-:                |:-:              |:-:            |
@@ -81,12 +153,14 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 |             |grenade            | grenade           |grenade          |resurrect and cure friends     |
 |             |interact itens     |provides ammunition|Prepare C4       |find items     |
 
->Observação:    
+>Observação
+>
 >Interação com itens :
+>
 > - Abrir portas codificadas;
 > - Chamar o resgate quando chegar no local marcado;
 
-###  13.1 Movimentação Controle
+### Movimentação Controle
 
 |Controle                       | Teclado |Mouse                        |Ação                       |
 |:-:                            |:-:      |:-:                          |:-                         |
@@ -110,25 +184,7 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 |L2 + X                         | G+Mouse | Click Right                 |grenade                    |
 |L1                             |         |Movimentação +Click Left     |Aim                        |
 
-## 14. O Mundo do jogo
-- Florestas tropicais;
-- Favelas da América latina;
-- Vilarejos;
-
-## 15. Interface (HUD)
-- Medidor de Saúde do personagem
-- Lista de membros da equipe com medidor de saúde
-- Tipo da arma com informação de munição (Atual/Total)
-- Quantidade de Granadas;
-- Mini Mapa com localização de objetivos e itens (somente o VIP)
-
-## 16. Câmera
-Movimentação em 180º ;
-Na altura do ombro do jogador e distante o suficiente para visualizar os pés do jogador;
-Ao mirar com arma leve a câmera dá zoom do alvo (2x) visualizando o ombro do jogador
-Ao mirar com rifle de precisão o zoom é de 4x e somente é apresentado a lente da arma;
-
-## 17. Inimigos
+### Inimigos
 
 |Class        |Aggressive         | Shooter           |Boss             |Boss           |Boss         |Boss       |Boss         |Boss       |
 |:-           |:-:                |:-:                |:-:              |:-:            |:-:          |:-:        |:-:          |:-:        |
@@ -144,8 +200,7 @@ Ao mirar com rifle de precisão o zoom é de 4x e somente é apresentado a lente
 |             |Não tem alvo       |Não tem alvo       |Alvo VIP         |Não tem alvo   |Não tem alvo | Alvo VIP  |Não tem alvo | VIP       |
 |             |Ataca jogador      |Ataca VIP e prox.  |Foco 2s          |Ataca jogador  |Ataca VIP    | Foco 2s   |Foco 2s      |Foco 2s    |
 
-
-## 18. Armas
+### Armas
 
 |Weapon       |Bullet for loader  | Max Loader    |
 |:-           |:-:                |:-:            |
@@ -156,20 +211,47 @@ Ao mirar com rifle de precisão o zoom é de 4x e somente é apresentado a lente
 |Rifle scout  |10                 |5              |
 |Barret .40   |7                  |2              |
 
+## O Mundo do jogo
 
-## 19. Músicas e efeitos de som
-- Rock indie (procurar lista sem direitos autorais)
-- Link das músicas
+- Florestas tropicais;
 
-## 20. Multiplayer
-- 4 Jogadores;
-- Cooperativo;
-- Competitivo;
-- Chat aberto;
-- Estimativa de jogadores online ( > 100 ).
+- Favelas da América latina;
 
-## 21. GamePlay
-### 21.1    Objetivos
+- Vilarejos;
+
+## Estruturas
+
+### Interface (HUD)
+
+- Medidor de Saúde do personagem;
+
+- Lista de membros da equipe com medidor de saúde;
+
+- Tipo da arma com informação de munição (Atual/Total);
+
+- Quantidade de Granadas;
+
+- Mini Mapa com localização de objetivos e itens (somente o VIP).
+
+### Câmera
+
+- Movimentação em 180º;
+
+- Na altura do ombro do jogador e distante o suficiente para visualizar os pés do jogador;
+
+- Ao mirar com arma leve a câmera dá zoom do alvo (2x) visualizando o ombro do jogador
+
+- Ao mirar com rifle de precisão o zoom é de 4x e somente é apresentado a lente da arma;
+
+### Músicas e efeitos de som
+
+- Rock indie (procurar lista sem direitos autorais);
+
+- Link das músicas;
+
+## GamePlay
+
+### Objetivos e Ação
 
 |Objetivo               | Ação            |
 |:-                     |:-               |
@@ -179,24 +261,27 @@ Ao mirar com rifle de precisão o zoom é de 4x e somente é apresentado a lente
 |O ponto de resgate - Campo aberto com poucas áreas de cobertura  |Sinalizar o local de resgate (2s) - Aguardar o resgate (60s)  |
 |A prisão | O jogador preso fica sem armas- Quando a porta da prisão abrir o jogador recebe as armas e pode sair - A prisão é protegida por 2 snipers, 4 infernos, 4 bomba e 3 mercenários |
 
-### 22.2 Mapas
+### Mapas
+
 - A Selva
-    - Selva tropical
+  - Selva tropical
     - Áreas para se abrigar
     - MAPA GRANDE
 - A Vila
-    - Vilarejo pequeno
+  - Vilarejo pequeno
     - Combate nas ruas do vilarejo
     - MAPA GRANDE - área fora do vilarejo
 - A favela
-    - Favela
-    - Combate urbano
+  - Favela
+  - Combate urbano
     - MAPA GRANDE
 
-### 22.3 Experiência e Level
+### Experiência e Level
+
 Não definido.
 
-### 22.4 Características especiais do Capitão
+### Características especiais do Capitão
+
 - O capitão aparece quando os jogadores passam por algumas áreas ou quando um objetivo é alcançado. Ele sempre aparece com 100% de vida;
 - Se o capitão ficar perto de um jogador (5 metros) o jogador é sequestrado e enviado para “A prisão”. Essa ação é repetida até o capitão prender todos os membros do time e/ou matar o VIP ;
 - O capitão desaparece quando o nível de vida chega em 20%, joga fumaça e some.;
@@ -204,62 +289,78 @@ Não definido.
 - Quanto aparece ele grita provocações e xingamentos;
 - Quando captura um membro da equipe ri de forma sinistra;
 
-### 22.5 Modelos
+### Modelos
+
 - EAS - Equipe principal com uniformes do exército brasileiro
+
 - SEAL - Uniformes de SEAL USA
+
 - Milicianos - Sem uniformes, roupas da região;
+
 - VIP - Roupa casual, jeans e camiseta;
 
+### Multiplayer
 
-## 23. Estrutura do modelo
+- 4 Jogadores;
+
+- Cooperativo;
+
+- Competitivo;
+
+- Chat aberto;
+
+- Estimativa de jogadores online ( > 100 ).
+
+## Estrutura do modelo
 
 - `Content` \ `ProjetoAula`
-- `Content` \ `ProjetoAula` \ `Art`         
-- `Content` \ `ProjetoAula` \ `Art` \ `Industrial`        
-- `Content` \ `ProjetoAula` \ `Art` \ `Industrial` \ `Ambient`       
-- `Content` \ `ProjetoAula` \ `Art` \ `Industrial` \ `Machinery`       
-- `Content` \ `ProjetoAula` \ `Art` \ `Industrial` \ `Pipes`       
-- `Content` \ `ProjetoAula` \ `Art` \ `Nature`        
-- `Content` \ `ProjetoAula` \ `Art` \ `Nature` \ `Ambient`       
-- `Content` \ `ProjetoAula` \ `Art` \ `Nature` \ `Foliage`       
-- `Content` \ `ProjetoAula` \ `Art` \ `Nature` \ `Rocks`       
-- `Content` \ `ProjetoAula` \ `Art` \ `Nature` \ `Trees`       
-- `Content` \ `ProjetoAula` \ `Art` \ `Office`        
-- `Content` \ `ProjetoAula` \ `Characters`     
-- `Content` \ `ProjetoAula` \ `Characters` \ `Lieutenant`   
+- `Content` \ `ProjetoAula` \ `Art`
+- `Content` \ `ProjetoAula` \ `Art` \ `Industrial`
+- `Content` \ `ProjetoAula` \ `Art` \ `Industrial` \ `Ambient`
+- `Content` \ `ProjetoAula` \ `Art` \ `Industrial` \ `Machinery`
+- `Content` \ `ProjetoAula` \ `Art` \ `Industrial` \ `Pipes`
+- `Content` \ `ProjetoAula` \ `Art` \ `Nature`
+- `Content` \ `ProjetoAula` \ `Art` \ `Nature` \ `Ambient`
+- `Content` \ `ProjetoAula` \ `Art` \ `Nature` \ `Foliage
+- `Content` \ `ProjetoAula` \ `Art` \ `Nature` \ `Rocks`
+- `Content` \ `ProjetoAula` \ `Art` \ `Nature` \ `Trees`
+- `Content` \ `ProjetoAula` \ `Art` \ `Office`
+- `Content` \ `ProjetoAula` \ `Characters`
+- `Content` \ `ProjetoAula` \ `Characters` \ `Lieutenant`
 
-    ```cpp
+```cpp
 class Lieutenant : public BP_PlayerBase {};
 ```
 
-- `Content` \ `ProjetoAula` \ `Characters` \ `VIP`            
-- `Content` \ `ProjetoAula` \ `Characters` \ `Sniper`            
-- `Content` \ `ProjetoAula` \ `Characters` \ `Destructive`            
-- `Content` \ `ProjetoAula` \ `Characters` \ `Common`            
+- `Content` \ `ProjetoAula` \ `Characters` \ `VIP`
+- `Content` \ `ProjetoAula` \ `Characters` \ `Sniper`
+- `Content` \ `ProjetoAula` \ `Characters` \ `Destructive`
+- `Content` \ `ProjetoAula` \ `Characters` \ `Common`
 - `Content` \ `ProjetoAula` \ `Characters` \ `Common` \ `Animations`
 
-    ```cpp                
+```cpp
 class BP_PlayerAnimations : public AAnimation {};
 class BP_BotAnimation : public AAnimation {};
-```    
+```
 
 - `Content` \ `ProjetoAula` \ `Characters` \ `Common` \ `Audio`  
 
-    ```cpp                
+```cpp
     class UVoice : public USoundCLass {};
     class UWalkstep : public USoundCLass {};
-    ```
+```
+
 - `Content` \ `ProjetoAula` \ `Bots`  
 - `Content` \ `ProjetoAula` \ `Bots` \ `bSoldier` \
 
-    ```cpp            
+```cpp
     class  BP_bSoldier : public BP_BotBase {};
     class  BHT_bSoldier : public ABehaviortreee public {};
-```        
+```
 
 - `Content` \ `ProjetoAula` \ `Bots` \ `bDestructive` \
 
-    ```cpp            
+```cpp
 class BP_BotBase BP_bDestructive {};
 class ABehaviortreee BHT_bDestructive {};
 ```  
@@ -268,7 +369,7 @@ class ABehaviortreee BHT_bDestructive {};
 - `Content` \ `ProjetoAula` \ `Bots` \ `bSniper` \
 - `Content` \ `ProjetoAula` \ `Core` \ `Characters`
 
-    ```cpp      
+```cpp
   struct FInventory {
     Vector class BP_Item;
   };
@@ -321,9 +422,10 @@ class ABehaviortreee BHT_bDestructive {};
   class BP_PlayerControllerBase : public APlayerController  {};
   class BP_BotControllerBase : public APPlayerControler  {};
 ```
+
 - `Content` \ `ProjetoAula` \ `Core` \ `Engine`
 
-    ```cpp
+```cpp
 class BP_GameInstanceBase : public UGameInstance  {
   void openMenuMain();
   void openMenuPause();
@@ -333,13 +435,13 @@ class UMenuMainInterface : public UInterface {};
 
 - `Content` \ `ProjetoAula` \ `Core` \ `GameModes`
 
-    ```cpp        
+```cpp
     class BP_GameModeBase : public UGameMode {};
-      ```            
+```
 
 - `Content` \ `ProjetoAula` \ `Interactables`
 
-    ```cpp
+```cpp
     struct sItem {
       Name    NameItem;
       UImage ImageItem;
@@ -362,14 +464,14 @@ class UMenuMainInterface : public UInterface {};
 - `Content` \ `ProjetoAula` \ `Interactables` \ `Pickups`
 - `Content` \ `ProjetoAula` \ `Interactables` \ `Weapons`
 
-    ```cpp        
+```cpp
     class WeaponBase : public Item  {
       sItem itemInfo;
     };
 
     class BP_M4A1 : public Item {};
     class BP_M4A1 : public Item{};
-```       
+```
 
 - `Content` \ `ProjetoAula` \ `Maps`
 - `Content` \ `ProjetoAula` \ `Maps` \ `Level1`
@@ -377,13 +479,13 @@ class UMenuMainInterface : public UInterface {};
 - `Content` \ `ProjetoAula` \ `UI`
 - `Content` \ `ProjetoAula` \ `UI` \ `HUD`
 
-    ```cpp      
+```cpp
     class HUD_Player : public SWidget  {};
-    ```
+```
 
 - `Content` \ `ProjetoAula` \ `UI` \ `HUD` \ `Menu`
 
-    ```cpp      
+```cpp
     class MenuMain : public SWidget {};
     class MenuLobbySinglePlayer : public SWidget {};            
     class MenuLobbyMultiPlayer : public SWidget {};                        
@@ -395,7 +497,9 @@ class UMenuMainInterface : public UInterface {};
     class UProjectGameInstance : public UGameInstance, IMenuMainInterface  {};
 ```
 
-## 24. Equipe
+## Projeto
+
+### Equipe
 
 |Requisito                      | Responsável                               | Perfil      |
 |:--                            |:--                                        |:--          |
@@ -407,8 +511,7 @@ class UMenuMainInterface : public UInterface {};
 |Gerenciamento e comunicação    | <span style="color:blue">Equipe 4</span>  | Gerente     |
 |Infraestrutura                 | <span style="color:blue">Equipe 4</span>  | Programação |
 
-
-## 25. Tarefas
+### Tarefas
 
 | Tarefas                 |Responsável    | Início      | Fim       | % |
 |:-                       |:-             |:-:          |:-:        |:-:|

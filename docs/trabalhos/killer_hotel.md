@@ -2,9 +2,20 @@
 title: Killer Hotel
 description: Roteiro do jogo Killer Hotel
 tags: [Unreal Engine, Killer Hotel, roteiro]
-layout: page
+categories: 
+- Trabalhos
+- Roteiro
+author: 
+- Cafegeek
+- Carlos
+layout: post
+date: 2022-09-25 
 ---
-### Autor: Carlos
+
+- [Rondônia, Brasil, 21 de abril do ano 2000](#rondônia-brasil-21-de-abril-do-ano-2000)
+- [Rondônia, Brasil 10 de maio de 2001](#rondônia-brasil-10-de-maio-de-2001)
+
+***
 
 ## Rondônia, Brasil, 21 de abril do ano 2000
 
@@ -128,7 +139,7 @@ Um frio se aloja em meu estomago e me sinto fraco.
 
 “Então vá, não me deixe te interromper, você é o profissional na área”
 
-Saio imediatamente antes de registrar o resto de suas palavras, começo a andar sem destino pelos quartos e corredores, andando vagarosamente até que sinto uma enorme tristeza tentar me dominar e se misturar ao frio que se alastra por meu corpo, perco meu passo, preciso me apoiar na parede, aperto meu peito de tanta dordor não, não, ainda não, está muito cedo, não mais, agora não. Tento andar, preciso continuar, não vou parar agora. Forço meus pés a se moverem e me levarem a algum lugar, -não aquele-  ou qualquer lugar seguro –não aquele, não não- vejo uma porta em minha frente e a reconheço, o resto de meu corpo é dominado completamente pelo frio, ” Não aqui, não aqui” murmuro como em delírio, mas sou traído por meu próprio corpo, como um protesto por nossas ações, um aviso que não existe desculpas para nosso erro, QUE O PREÇO É ALTO DEMAIS, e me estatelo no chão, mas não passam de mentiras, heresias para livrar-me de minha certeza, nenhum preço é alto demais. Não quando a recompensa é tão valiosa. Escuto uma voz em meu ouvido como se minha sombra ensandecida tomasse vida e voltasse a me assombrar com suas palavras sombrias de loucura.    
+Saio imediatamente antes de registrar o resto de suas palavras, começo a andar sem destino pelos quartos e corredores, andando vagarosamente até que sinto uma enorme tristeza tentar me dominar e se misturar ao frio que se alastra por meu corpo, perco meu passo, preciso me apoiar na parede, aperto meu peito de tanta dordor não, não, ainda não, está muito cedo, não mais, agora não. Tento andar, preciso continuar, não vou parar agora. Forço meus pés a se moverem e me levarem a algum lugar, -não aquele-  ou qualquer lugar seguro –não aquele, não não- vejo uma porta em minha frente e a reconheço, o resto de meu corpo é dominado completamente pelo frio, ” Não aqui, não aqui” murmuro como em delírio, mas sou traído por meu próprio corpo, como um protesto por nossas ações, um aviso que não existe desculpas para nosso erro, QUE O PREÇO É ALTO DEMAIS, e me estatelo no chão, mas não passam de mentiras, heresias para livrar-me de minha certeza, nenhum preço é alto demais. Não quando a recompensa é tão valiosa. Escuto uma voz em meu ouvido como se minha sombra ensandecida tomasse vida e voltasse a me assombrar com suas palavras sombrias de loucura.
 
 Preciso do pingente, meu pingente onde está MEU PINGENTE, agarro meu peito em uma procura desesperada, onde está? Esvazio meus bolsos. Onde está??? Não o encontro, eu tremo de frio e puro terror nasce em meu peito ONDE ELE ESTÁ??!? Não, não,não,não, preciso delas, preciso delas AGORA!!Com minhas mãos tremulas encontro meu pingente- em meu colar, sempre no colar- minhas mãos tremem cada vez mais tornando difícil manusear o pequeno pingente que contém um significado de eterna grandeza, finalmente abro o pingente e como se um mar refrescante me inundasse , eu me acalmo. Dentro do pingente vejo meu maior tesouro, e a fonte de meu maior sofrimento.
 
@@ -136,11 +147,11 @@ Consigo ler as palavras que me levam ao tropeço e que me ajudam a levantar.
 
  “Com o amor de Eliza e Rafaela” e a foto de minhas amadas sorrindo novamente para mim enquanto a escuridão invade minha visão.
 
-“eu...... amo......vocês”    
+“eu...... amo......vocês”
 
 Acordo repentinamente, atenção, urgência, encontro-me deitado em um sofá, minha sala, no primeiro andar do meu Hotel, ala da direita, corredor central esquerdo, terceira porta, observo os meus arredores imediatamente vejo Willames largado em uma cadeira escrevendo em um pequeno caderno de anotações, belíssimos tons dourados permeiam toda a minha sala, de minhas paredes até meus moveis, com detalhes de colorações turquesa e esmeralda, observo o relógio e vejo que são 20:00, freio meus pensamentos, prendo-os, e com movimentos calmos e ponderados volto meu olhar para Willames, meu funcionário está me observando,
 
-“Não deixe isso acontecer de novo Marcus” -escuto enquanto minha irritação cresce dentro de mim-“você não tem ideia da sorte que tu teve que não tinha ninguém por perto”     
+“Não deixe isso acontecer de novo Marcus” -escuto enquanto minha irritação cresce dentro de mim-“você não tem ideia da sorte que tu teve que não tinha ninguém por perto”
 
 “Escute aqui rapaz...”
 
@@ -298,8 +309,6 @@ Finalmente me aproximo, sinto como se tivesse passado incontáveis milênios des
 
 Dou um suspiro, um sorriso invade meu rosto, dou umas leves batidas na porta anunciando minha entrada e resolvo passar um tempo em solidão com minha bela esposa
 
-
-
 Sinto a alegria e puro prazer correndo por minhas veias como o mais puro sangue, me sinto intoxicado e minha falsa calma some, meu lado calculista morre, nada importa, nada além delas, um arrepio de prazer percorre meu corpo enquanto meu sorriso aumenta ainda mais. Sim, sim está na hora de vê-la vê-la vê-la vê-la vê-la vê-la vê-la vê-la vê-la vê-la vê-la vê-la vê-la vê-la vê-la vê-la vê-la. A euforia percorre minha veia como droga e o prazer me domina ela é toda minha toda minha toda minha toda minha toda minha toda minha toda minha. Sinto o relaxamento que vem com a explosão de prazer que me domina novamente.
 
 A porta. Fechar porta sim. Trancar a porta ninguém pode saber, ninguém pode ver, só minha toda minha, denovo denovo denovo denovo denovo denovo denovo denovo denovo denovo.
@@ -328,7 +337,7 @@ A alegria é tanta que mais lagrimas saem de seu rosto e seus gritos aumentam. Q
 
 “Só mais alguns serviços e consigo o suficiente para matar o maldito e resgata-la”
 
-Seremos uma famila novamente, sim simsimisimismism uma FAMILIA
+Seremos uma familia novamente, sim simsimisimismism uma FAMILIA
 
 Mais gritos. “Parece que narrei meus pensamentos em voz alta de novo Meu Amor”
 
