@@ -73,10 +73,3 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
-
-# Configuração 
-
-docs/google*.html
-docs/_config.yml
-
-
