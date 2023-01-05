@@ -76,7 +76,7 @@ DerivedDataCache/*
 
 # Configuração 
 
-google*.html
-_config.yml
+docs/google*.html
+docs/_config.yml
 
 
