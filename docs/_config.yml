@@ -51,8 +51,8 @@ defaults:
       sitemap:  false
 
 # --- Web Analytics Section --- #
-gtag: "UA-74199518-1"
-google_analytics: UA-74199518-1
+gtag:  ${{ secrets.TAG_GOOGLE }}
+google_analytics:  ${{ secrets.TAG_GOOGLE }}
 
 url: "https://cafegeek.eti.br/"
 
