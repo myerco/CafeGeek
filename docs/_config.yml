@@ -54,7 +54,7 @@ defaults:
 gtag:  ${{ secrets.TAG_GOOGLE }}
 google_analytics:  ${{ secrets.TAG_GOOGLE }}
 
-url: "https://cafegeek.eti.br/"
+url: "https://cafegeek.eti.br"
 
 plugins:
   - jekyll-feed
