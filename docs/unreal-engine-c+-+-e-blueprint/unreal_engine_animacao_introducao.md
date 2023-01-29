@@ -48,6 +48,13 @@ A animação de personagens consiste em associar um esqueleto com pontos de cont
     caption="Adicionamos uma pose a uma linha de tempo para simular movimento."
 %}
 
+{% include image.html
+    src="https://www.researchgate.net/profile/Santiago-Moreno-Diaz-2/publication/337228005/figure/fig1/AS:824881293836293@1573678434329/Walk-cycle-https-rustyanimatorcom-walk-cycle-animation.jpg"
+    alt="Figura: Walk Cycle."
+    caption="Motion Matching in Unreal Engine."
+    ref="https://www.researchgate.net/publication/337228005_Motion_Matching_in_Unreal_Engine/"
+%}
+
 O **Unreal Engine** fornece um fluxo de trabalho simples para construção de animações utilizando Skeletal Mesh importadas de aplicativos 3D para uso em jogos. Atualmente, apenas uma única animação para cada `Skeletal Mesh` pode ser exportada / importada em um único arquivo.
 
 Abaixo uma visão geral técnica do uso do processo de construção de animações.
