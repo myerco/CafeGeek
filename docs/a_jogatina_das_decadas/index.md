@@ -141,10 +141,10 @@ Podemos definir um jogo através das suas principais características.
 
 A origem da palavra deriva do de um termo do latim, *jocus*, que significa brincadeira, divertimento, atualmente podemos explorar as principais características e definições que nos ajudam a entender a evolução dessa "brincadeira" que faz parte das nossas vidas.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="jogatina_das_decadas/chess_game.webp"
     alt="Figura: Chess."
-    caption="Figura: O Xadrez é um jogo de tabuleiro de estratégia do tipo recreativo ou competitivo para dois jogadores."
+    caption="O Xadrez é um jogo de tabuleiro de estratégia do tipo recreativo ou competitivo para dois jogadores."
 %}
 
 "Em época mais otimista que a atual, nossa espécie recebeu a designação de *Homo sapiens*. Com o passar do
@@ -178,10 +178,11 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 
 ### 1.2. Teria o jogo lugar no sistema de vida?
 
-{% include imagebase.html
+{% include imagelocal.html
     src="jogatina_das_decadas/Cover-shallow-1800x1100.webp"
-    alt="Figura: Cover Shallow"
-    caption="Figura: Life is a game. This is your strategy guide - <https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/>"
+    alt="Figura: Life is a game. This is your strategy guide"
+    caption="A vida real é o jogo que – literalmente – todo mundo está jogando. Mas pode ser difícil. Este é o seu guia."
+    ref="https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/"
 %}
 
 Há uma extraordinária divergência entre as numerosas tentativas de definição da função biológica do jogo. Umas definem as origens e fundamento do jogo em termos de descarga da energia vital superabundante, outras como satisfação de um certo "instinto de imitação", ou ainda simplesmente como uma "necessidade" de distensão.
@@ -198,10 +199,10 @@ Quando pensamos no aspecto humano e evolutivo não podemos deixar de citar algum
 
 ### 1.3. Homo Ludens
 
-{% include imagebase.html
+{% include imagelocal.html
     src="jogatina_das_decadas/brincar.webp"
-    alt="Figura: O brincar elabora uma ideia de humanidade"
-    caption="Figura: Soraia Chung: “O brincar elabora uma ideia de humanidade” - <https://alana.org.br/entrevista-soraia-chung-brincar/>"
+    alt="Figura: Soraia Chung: O brincar elabora uma ideia de humanidade"
+    caption="São os adultos que estão decidindo o uso dos espaços da cidade e as políticas públicas e tudo é considerado mais importante que o brincar. Muitas dessas coisas tangenciam o espaço das crianças, mas não necessariamente estão sendo  pensadas para elas, muito pelo contrário, elas perdem esses espaços o tempo todo - <https://alana.org.br/entrevista-soraia-chung-brincar/>"
 %}
 
 ...Brincar, significa libertar-se dos horrores do mundo, por meio da reprodução miniaturizada..”
@@ -433,32 +434,36 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
 
 {% include image.html
     src="https://c4.wallpaperflare.com/wallpaper/73/158/467/star-trek-wallpaper-preview.jpg"
-    alt="Figura: wallpaperflare.com Star Trek."
-    caption="Figura: Star Trek."
+    alt="Figura: Star Trek."
+    caption="Jornada" significa caminhar, viajar. E o nome Jornada nas Estrelas realmente significa viajar de uma estrela para outra. Sabia que era o nome certo porque, quando o mencionei pela primeira vez aos executivos da emissora, eles falaram: "Não gostamos."
+    ref="https://pt.wikipedia.org/wiki/Star_Trek"
 %}
 
 #### 3.4.2. Fantasia
 
 {% include image.html
-    src="https://361605-1208129-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2021/12/Final-Fantasy-7-Remake-Intergrade-PS5-Wallpapers-10.jpg"
+    src="https://upload.wikimedia.org/wikipedia/pt/5/54/Final_Fantasy_VII_Remake_personagens.png"
     alt="Figura: Final Fantasy VII Remake."
-    caption="Figura: Final Fantasy VII Remake."
+    caption="Final Fantasy VII Remake (ファイナルファンタジーVII リメイク Fainaru Fantajī VII Rimeiku?) é um jogo eletrônico de RPG de ação desenvolvido e publicado pela Square Enix. É um título da série Final Fantasy e uma recriação de Final Fantasy VII, tendo sido lançado para PlayStation 4 em 10 de abril de 2020."
+    ref="https://pt.wikipedia.org/wiki/Final_Fantasy_VII_Remake"
 %}
 
 #### 3.4.3. Quebrar as regras sociais
 
 {% include image.html
     src="https://www.arkade.com.br/wp-content/uploads/2020/08/gta-v.jpg"
-    alt="Figura: GTA V retorna ao Xbox Game Pass, mas agora com suporte ao xCloud."
-    caption="Figura: GTA V retorna ao Xbox Game Pass, mas agora com suporte ao xCloud."
+    alt="Figura: GTA V."
+    caption="GTA V retorna ao Xbox Game Pass, mas com uma interessante novidade. Após sair da plataforma, para dar lugar a Red Dead Redemption 2 no ano passado, o game retorna ao catálogo em 8 de abril. Mas, agora, com suporte ao xCloud, o serviço de games por nuvem da Microsoft.."
+    ref="https://www.arkade.com.br/gta-v-retorna-ao-xbox-game-pass-mas-agora-com-suporte-ao-xcloud/"
 %}
 
 #### 3.4.4. Exercitar-se
 
 {% include image.html
-    src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3Vu9VvXvEXI0krA0UE0gIK/4fe4d0ea69a2d1c4254ecda81737ca4e/jd22-promo-02-china.jpg"
+    src="https://upload.wikimedia.org/wikipedia/pt/thumb/c/ca/Just_Dance_2022_capa.jpg/345px-Just_Dance_2022_capa.jpg"
     alt="Figura: Just Dance 2022"
-    caption="Figura: Just Dance 2022"
+    caption="Just Dance 2022 é um jogo eletrônico de dança de ritmo desenvolvido e publicado pela Ubisoft. Foi revelado em 12 de junho de 2021, durante a coletiva de imprensa Ubisoft Forward E3 como o décimo terceiro título principal da série Just Dance,[1] e foi lançado em 4 de novembro de 2021 para Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S e Stadia."
+    ref="https://pt.wikipedia.org/wiki/Just_Dance_2022"
 %}
 
 #### 3.4.5. Demonstrar-se
@@ -466,7 +471,8 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
 {% include image.html
     src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/04/Demon-Hunter-Tier-20-Cropped.jpg?q=50&fit=crop&w=740&dpr=1.5"
     alt="Figura: 10 Most Epic Tier Sets In World Of Warcraft"
-    caption="Figura: 10 Most Epic Tier Sets In World Of Warcraft"
+    caption="Muitos conjuntos de níveis se tornaram lendários por sua aparência, cobiçados por transmogrificadores dedicados em todos os lugares. Algumas classes têm a sorte de ter muitos conjuntos de níveis invejáveis (Warlocks!) E outras têm muito poucos para escolher (Hunters). Para manter a lista mais equilibrada, limitamos as inscrições a uma por aula em destaque. Aqui estão 10 dos conjuntos de níveis mais épicos disponíveis no World of Warcraft."
+    ref="https://www.thegamer.com/world-of-warcraft-best-epic-tier-sets/"
 %}
 
 #### 3.4.6. Sociabilizar-se
@@ -474,7 +480,8 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
 {% include image.html
     src="https://s2.glbimg.com/Ajwl8JcF1B1ozCPrhSOI5OgYAa8=/0x0:695x269/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/C/x/E4BtaXTB2iJc5FTjVOUg/2014-04-23-wow-raid.jpg"
     alt="Figura: World of Warcraft."
-    caption="Figura: World of Warcraft."
+    caption="Raids são instâncias criadas para grupos de até 40 jogadores divididos em até oito subgrupos de cinco jogadores, que batalham juntos no estilo PvE."
+    ref="https://www.techtudo.com.br/noticias/2014/04/world-warcraft-conheca-addons-importantes-antes-de-entrar-na-raide.ghtml"
 %}
 
 #### 3.4.7. Reconhecimento
@@ -482,7 +489,8 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
 {% include image.html
     src="https://www.touchtapplay.com/wp-content/uploads/2020/12/image-19.png"
     alt="Figura: List of Medals available in Call of Duty: Mobile."
-    caption="Figura:List of Medals available in Call of Duty: Mobile."
+    caption="Tem uma variedade de maneiras de registrar conquistas, sejam pontuações ou várias medalhas que os jogadores podem ganhar ao longo do caminho. Há um total de 85 medalhas que os jogadores podem ganhar no jogo. 42 dessas medalhas podem ser adquiridas no modo multiplayer.."
+    ref="https://afkgaming.com/mobileesports/originals/5134-everything-you-need-to-know-about-medals-in-call-of-duty-mobile"
 %}
 
 #### 3.4.8. Aprendizado
@@ -490,7 +498,8 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
 {% include image.html
     src="https://myplinkit.com/wp-content/uploads/2020/03/Activities-and-Games_iStock-1127260590_cropped.jpg"
     alt="Figura: Activities + Games You Can Do at Home to Support Your Child’s Learning."
-    caption="Figura: Activities + Games You Can Do at Home to Support Your Child’s Learning"
+    caption="Sua lista de projetos, atividades e jogos de aprendizado selecionados que você pode fazer em casa para apoiar a educação e o desenvolvimento de seu filho. Especificamente útil para pré-escolares e alunos emergentes."
+    ref="https://myplinkit.com/2020/03/activities-games-you-can-do-at-home/"
 %}
 
 #### 3.4.9. Marca
@@ -498,7 +507,8 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
 {% include image.html
     src="https://miro.medium.com/max/825/1*M6VI8_01A-At7Nzp2wn6IA.png"
     alt="Figura: TTop 20 Game Studios: Who’s Your Favorite?"
-    caption="Figura: Top 20 Game Studios: Who’s Your Favorite?"
+    caption="Com a criação de mecanismos de jogos como Unity e Unreal, há mais estúdios de desenvolvimento de jogos do que nunca, oferecendo opções e variedade únicas para os jogadores."
+    ref="https://medium.com/@OggieBoy/top-20-game-studios-whos-your-favorite-e7cc533530f0"
 %}
 
 ### 3.5. Fatores não motivacionais

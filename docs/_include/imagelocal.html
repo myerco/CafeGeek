@@ -17,5 +17,8 @@
         <em>{{ include.caption }}</em>
       {%- endif %}  
     </figcaption>
+    {%- if include.ref %}
+      <a href="{{ include.ref }}">{{ include.ref }}</a> 
+    {%- endif %}
   </figure>
 </div>  
