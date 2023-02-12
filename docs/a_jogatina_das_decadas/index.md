@@ -435,7 +435,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
 {% include image.html
     src="https://c4.wallpaperflare.com/wallpaper/73/158/467/star-trek-wallpaper-preview.jpg"
     alt="Figura: Star Trek."
-    caption="Jornada" significa caminhar, viajar. E o nome Jornada nas Estrelas realmente significa viajar de uma estrela para outra. Sabia que era o nome certo porque, quando o mencionei pela primeira vez aos executivos da emissora, eles falaram: "Não gostamos."
+    caption="Jornada" significa caminhar, viajar. E o nome Jornada nas Estrelas realmente significa viajar de uma estrela para outra. Sabia que era o nome certo porque, quando o mencionei pela primeira vez aos executivos da emissora, eles falaram: Não gostamos."
     ref="https://pt.wikipedia.org/wiki/Star_Trek"
 %}
 
