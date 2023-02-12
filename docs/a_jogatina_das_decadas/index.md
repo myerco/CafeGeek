@@ -176,11 +176,15 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 
 - Analise e conceitue a Gamificação.
 
+| M         | D         | A             |
+| :-------- | :-------- | :------------ |
+| Mecânicas | Dinâmicas | **Estéticas** |
+
 ### 1.2. Teria o jogo lugar no sistema de vida?
 
 {% include imagelocal.html
     src="jogatina_das_decadas/Cover-shallow-1800x1100.webp"
-    alt="Figura: Life is a game. This is your strategy guide"
+    alt="Figura: Life is a game. This is your strategy guide."
     caption="A vida real é o jogo que – literalmente – todo mundo está jogando. Mas pode ser difícil. Este é o seu guia."
     ref="https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/"
 %}
@@ -201,8 +205,9 @@ Quando pensamos no aspecto humano e evolutivo não podemos deixar de citar algum
 
 {% include imagelocal.html
     src="jogatina_das_decadas/brincar.webp"
-    alt="Figura: Soraia Chung: O brincar elabora uma ideia de humanidade"
-    caption="São os adultos que estão decidindo o uso dos espaços da cidade e as políticas públicas e tudo é considerado mais importante que o brincar. Muitas dessas coisas tangenciam o espaço das crianças, mas não necessariamente estão sendo  pensadas para elas, muito pelo contrário, elas perdem esses espaços o tempo todo - <https://alana.org.br/entrevista-soraia-chung-brincar/>"
+    alt="Figura: Soraia Chung: O brincar elabora uma ideia de humanidade."
+    caption="São os adultos que estão decidindo o uso dos espaços da cidade e as políticas públicas e tudo é considerado mais importante que o brincar. Muitas dessas coisas tangenciam o espaço das crianças, mas não necessariamente estão sendo  pensadas para elas, muito pelo contrário, elas perdem esses espaços o tempo todo."
+    ref="https://alana.org.br/entrevista-soraia-chung-brincar/"
 %}
 
 ...Brincar, significa libertar-se dos horrores do mundo, por meio da reprodução miniaturizada..”
@@ -221,23 +226,24 @@ Em contrapartida devemos lembrar que o riso no filme O Nome da Rosa teve outra c
 
 ### 1.4. A Tensão como um elemento do jogo
 
-{% include imagebase.html
+{% include imagelocal.html
     src="jogatina_das_decadas/alien_isolation_1.webp"
     alt="Figura: Alien Isolation."
-    caption="Figura: O silêncio vale ouro - <https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise>"
+    caption="O silêncio vale ouro"
+    ref="https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise"
 %}
 
 Tensão significa incerteza, acaso. Há um esforço para levar o jogo até ao desenlace, o jogador quer que
 alguma coisa "vá" ou "saia", pretende "ganhar" à custa de seu próprio esforço.
 
-Uma criança estendendo a mão para
-um brinquedo, um gatinho brincando com um novelo, uma garotinha jogando bola, todos eles procuram conseguir
+Uma criança estendendo a mão para um brinquedo, um gatinho brincando com um novelo, uma garotinha jogando bola, todos eles procuram conseguir
 alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como se costuma dizer.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="jogatina_das_decadas/9211-o-novelo-de-la-para-gatos-esta-na-lista-articles_media_desktop-2.webp"
-    alt="Figura: Brinquedos para gatos."
-    caption="Figura: Brinquedos para gatos: por que os bichanos gostam de novelo de lã? - <https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1> ."
+    alt="Figura: Brinquedos para gatos: por que os bichanos gostam de novelo de lã?"
+    caption="Interesse dos bichanos tem relação com um instinto de caça, O novelo de lã ajuda a diminuir o estresse e a ansiedade do animal."
+    ref="https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1"
 %}
 
 ### 1.5. Resumo
@@ -266,10 +272,6 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 
 - O jogo é divertido.
 
-| M         | D         | A             |
-| :-------- | :-------- | :------------ |
-| Mecânicas | Dinâmicas | **Estéticas** |
-
 ## 2. Qual a função do jogo?
 
 ***
@@ -279,10 +281,11 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 >
 > O Fantasma do Futuro
 
-{% include imagebase.html
+{% include imagelocal.html
     src="jogatina_das_decadas/A-Vigilante-do-Amanhã-Ghost-in-the-Shell.webp"
     alt="Figura: Ghost in the Shell."
-    caption="Figura: 5 motivos para assistir Ghost in the Shell, com Scarlett Johansson, hoje mesmo!."
+    caption="5 motivos para assistir Ghost in the Shell, com Scarlett Johansson, hoje mesmo!."
+    ref="https://temalguemassistindo.com.br/5-motivos-para-assistir-ghost-in-the-shell-com-scarlett-johansson-hoje-mesmo/"
 %}
 
 A função do jogo, nas formas mais elevadas que aqui nos interessam, pode de maneira geral ser definida pelos dois aspectos fundamentais que nele encontramos:
@@ -299,10 +302,11 @@ O ser humano, tal como todos os seres da escala biológica, tem como caracterís
 
 ### 2.2. O jogo Arte e Cultura
 
-{% include imagebase.html
+{% include imagelocal.html
     src="jogatina_das_decadas/2012_01_20_15_37_021.webp"
     alt="Figura: O Jogo na arte."
-    caption="Figura: O Jogo na arte."
+    caption="Os relógios que se derretem representam um tempo que passa de forma diferente. Ao contrário dos relógios normais, que marcam com precisão a passagem dos segundos, estes relógios de Dalí possuem marcações distintas, pois os seus ponteiros estão derretidos e trazem uma noção distorcida dos segundos."
+    ref="https://www.culturagenial.com/a-persistencia-da-memoria-de-salvador-dali/"
 %}
 
 O processo criativo e construção de elementos imaginários estão presentes nas caracterizas dos jogos.
@@ -310,10 +314,11 @@ Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um 
 
 ### 2.3. O jogo e a Guerra
 
-{% include imagebase.html
+{% include imagelocal.html
     src="jogatina_das_decadas/art-painting-delacroix_wallcoo.com.webp"
     alt="Figura: O Jogo e a guerra."
-    caption="Figura: O Jogo e a guerra."
+    caption="A liberdade guiando o povo, 28 de julho de 1830."
+    ref="https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Francesa"
 %}
 
 É difícil não associar a guerra ao jogo mas o contrário é possível, na guerra o objetivo é conquistar ou subjugar o seu oponente.
@@ -323,7 +328,8 @@ Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um 
 {% include imagebase.html
     src="jogatina_das_decadas/leis.webp"
     alt="Figura: O Jogo e o Direito."
-    caption="Figura: O Jogo e o Direito."
+    caption="Dica de game com conteúdo Jurídico, ensinando direito através do jogo!."
+    ref="https://juridicocerto.com/p/leonardoxanthakos/artigos/dica-de-game-com-conteudo-juridico-ensinando-direito-atraves-do-jogo-1983"
 %}
 
 Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o Luizinga associa o "processo" a um jogo considerando o seguinte:
@@ -340,20 +346,21 @@ Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o 
 
 ### 2.5. O jogo e a Linguagem
 
-{% include imagebase.html
+{% include imagelocal.html
     src="jogatina_das_decadas/barreira-linguagem-764x343.webp"
     alt="Figura: O jogo e a linguagem."
-    caption="Figura: O jogo e a linguagem."
+    caption="Jogo de Linguagem (em alemão: Sprachspiel) é um conceito filosófico desenvolvido por Ludwig Wittgenstein, que se refere a exemplos simples de uso da linguagem e as ações nas quais a linguagem é tecida. Wittgenstein argumentou que uma palavra ou mesmo uma frase só tem significado dentro das regras do jogo linguístico que está sendo jogado em determinado momento. "
+    ref="https://pt.wikipedia.org/wiki/Jogo_de_linguagem_(filosofia)"
 %}
 
 A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo, designá-las e com essa designação elevá-las ao domínio do espírito. Na criação da fala e da linguagem,  brincando com essa maravilhosa faculdade de designar, é como se o espírito estivesse constantemente saltando  entre a matéria e as coisas pensadas. Por detrás de toda expressão abstrata se oculta uma metáfora, e toda metáfora  é jogo de palavras. Assim, ao dar expressão à vida, o homem cria um outro mundo, um mundo poético, ao lado do  da natureza.
 
 ### 2.6. Algumas considerações sobre o jogo
 
-{% include imagebase.html
+{% include imagelocal.html
     src="jogatina_das_decadas/musee_Rodin_1.webp"
     alt="Figura: The Thinker."
-    caption="Figura: The Thinker."
+    caption="Para pensar."
 %}
 
 O autor apresenta as suas interpretações de elementos presentes na nossa sociedade e os caracteriza como jogo na sua definição, devemos lembrar que o HUIZINGA utiliza e define jogo na Perspectiva do jogador e extrai classificações do objeto em estudo dentro de um tempo e realidade por conseguinte devemos não deveríamos considerar  a justiça como um jogo de ganhar e perder pois isso não melhora as grandes diferenças sociais na nossa sociedade.
@@ -381,7 +388,8 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 {% include image.html
     src="https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp"
     alt="Figura: Top 5 Most Popular Online Games for Women."
-    caption="Figura: Top 5 Most Popular Online Games for Women - <https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women>"
+    caption="Os jogos online estão mais populares do que nunca e as mulheres representam mais de 48% da população de jogadores. Não existe um perfil de mulher que joga jogos online. Embora geralmente representem uma parcela maior daqueles que jogam jogos casuais, as mulheres também são atraídas por muitos outros gêneros."
+    ref="https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women"
 %}
 
 “Conhecer o que o jogador quer e a situação que o mercado se apresenta são informações que apenas darão suporte ao design em criar um jogo que na verdade deve possuir, por meio de referências acadêmicas, os elementos que provoquem o **desejo**, a **compra**, a **diversão** e o entretenimento, que são consequências.”
