@@ -236,6 +236,7 @@ Um raio começa em um ponto e se estende infinitamente em uma direção distante
 Um segmento de linha é uma linha de comprimento finito definida por seus dois pontos finais.
 
 {% include image.html
+
     src="https://cdn1.byjus.com/wp-content/uploads/2020/01/Line-segment.png"
     alt="Figura: Segmento de linha."
     caption="Em computadores, devemos lidar com quantidades finitas, então não podemos tirar o total extensão de uma linha ou raio de acordo com sua definição matemática. No computador gráficos quando nos referimos a “linhas”, geralmente nos referimos a segmentos de linha."
@@ -252,8 +253,8 @@ A direção perpendicular a um plano é chamado de **Normal** ao plano.
 
 Um triângulo também é definido por três pontos no espaço 3 chamados **Vértices** (singular vértice).
 
-{% include image.html
-    src="https://www.scratchapixel.com/images/upload/shading-intro/shad-tri-normal.png?"
+{% include imagelocal.html
+    src="computacao_grafica/shad-tri-normal.webp"
     alt="Figura: Triangle Vertex Normal."
     caption="A face normal de um triângulo pode ser calculada a partir do produto vetorial de duas arestas desse triângulo."
     ref="https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/shading-normals"
@@ -293,38 +294,41 @@ Selecionando `Brush Wireframe` no `View Port` ou pressionando *Alt+2* a estrutur
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_view_port_wireframe.jpg"
-    alt="Figura: Unreal Engine 4 >  Brush Wireframe."
-    caption="Visualização a malha dos objetos."
+    alt="Figura: Unreal Wireframe"
+    caption="Visualização a malha dos objetos, Unreal Engine 4 >  Brush Wireframes."
 %}
-
-- Apresentado a quantidade de vértices e arestas.
-  
-  `Window` > `Statistics`.
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_view_statistics.jpg"
-    alt="Figura: Unreal Engine  > View Statistics."
-    caption="Visualizando estatísticas."
+    alt="Figura: Apresentado a quantidade de vértices e arestas."
+    caption="Visualizando estatísticas - Window > Statistics."
 %}
 
 ### 2.8. Face
 
 São as superfícies planas que constituem um sólido. Consistem em triângulos (malha de triângulo), quadriláteros ou outros polígonos convexos simples, uma vez que isso simplifica a renderização.
 
+{% include image.html
+    src="https://www.alura.com.br/artigos/assets/topologia-3d-por-que-e-importante/imagem3.jpg"
+    alt="Figura: Face topologia."
+    caption="O que é topologia no 3D?"
+    ref="https://www.alura.com.br/artigos/topologia-3d-por-que-e-importante"
+%}
+
 #### 2.8.1. Faces no Maya
 
 Com botão direito pressionado (RMB) escolha **Face** para selecionar  a face.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_maya_select_face.jpg"
     alt="Figura: Maya RMB  Face - Autor."
-    caption="Figura: Maya RMB  Face - Autor."
+    caption="Maya RMB  Face."
 %}
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_maya_face.jpg"
-    alt="Figura: Maya e seleção de Face - Autor."
-    caption="Figura: Maya e seleção de Face - Autor."
+    alt="Figura: Maya e seleção de Face."
+    caption="Maya e seleção de Face."
 %}
 
 #### 2.8.2. Faces no Unreal Engine
@@ -335,8 +339,8 @@ Somente é possível selecionar faces e vértices de objetos do tipo `Geometry` 
 
 {% include imagebase.html
     src="computacao_grafica/ue4_select_face_geometry.jpg"
-    alt="Figura: Unreal Engine Modes->Brush Editing - Autor."
-    caption="Figura: Unreal Engine Modes->Brush Editing - Autor."
+    alt="Figura: Unreal Engine Faces de objetos."
+    caption="Para editar a face no Unreal Engine utilize Modes > Brush Editing"
 %}
 
 ### 2.9. Aresta
@@ -345,26 +349,24 @@ São segmentos de reta que são as intersecções de duas faces contíguas.
 
 #### 2.9.1. Arestas no Maya
 
-Selecionamos com RMB a opção `Edge`.
-
 {% include imagebase.html
     src="computacao_grafica/ue4_maya_select_edge.jpg"
-    alt="Figura: Maya RMB Edge- Autor."
-    caption="Figura: Maya RMB Edge- Autor."
+    alt="Figura: Maya e arestas."
+    caption="Para selecionar utilize RMB a opção Edge."
 %}
 
 {% include imagebase.html
     src="computacao_grafica/ue4_maya_edge.jpg"
     alt="Figura: Maya select Edge - Autor."
-    caption="Figura: Maya select Edge - Autor."
+    caption="Selecionando a aresta é possível e manipular-la."
 %}
 
 #### 2.9.2. Arestas no Unreal Engine
 
 {% include imagebase.html
     src="computacao_grafica/ue4_select_edge.jpg"
-    alt="Figura: Unreal Engine select Edge - Autor."
-    caption="Figura: Unreal Engine select Edge - Autor."
+    alt="Figura: Unreal Engine Aresta."
+    caption="Utilizamos - Modes > Brush Editing > Select Edge."
 %}
 
 ### 2.10. Vértices
@@ -557,14 +559,16 @@ A etapa de geometria (com pipeline de geometria), que é responsável pela maior
 %}
 
 - `Fragment Shader` - É uma unidade programável da GPU que opera em cada fragmento produzido durante a rasterização e seus dados associados.
+  
 - `Rasterization` - O termo rasterização, em geral, pode ser aplicado a qualquer processo pelo qual informações tipo vetorial podem ser convertidas num formato de pontos ou pixels.
   
 Um exemplo seria uma reta descrita matematicamente é infinitesimalmente contínua, não importa o quão pequeno um trecho da reta é observado, é impossível determinar qual é o próximo ponto depois de um determinado ponto; não existem quebras.
 
-{% include image.html
-    src="https://www.scratchapixel.com/images/upload/rasterization/rasterization-triangle1.png?"
-    alt="Figura: Rasterization - scratchapixel."
-    caption="Figura: Rasterization - scratchapixel."
+{% include imagelocal.html
+    src="computacao_grafica/rasterização.webp"
+    alt="Figura: Rasterização."
+    caption="Conversão da representação de uma reta na forma vetorial para a matricial. Em B, é incluído um tratamento de anti-aliasing.."
+    ref="https://portaleletronica.com.br/images/Imagens/Comp_Graf/Parte_3_Rasterizao.pdf"
 %}
 
 ### 3.6. Conclusão
