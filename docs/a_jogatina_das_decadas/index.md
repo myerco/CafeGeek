@@ -116,6 +116,7 @@ date: 2022-09-24
     - [9.4.5. Autonomia](#945-autonomia)
     - [9.4.6. Complexidade](#946-complexidade)
     - [9.4.7. Conexão entre esforço e recompensa](#947-conexão-entre-esforço-e-recompensa)
+- [10. Atividades e referências](#10-atividades-e-referências)
 
 ***
 
@@ -325,7 +326,7 @@ Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um 
 
 ### 2.4. O jogo e o Direito
 
-{% include imagebase.html
+{% include imagelocal.html
     src="jogatina_das_decadas/leis.webp"
     alt="Figura: O Jogo e o Direito."
     caption="Dica de game com conteúdo Jurídico, ensinando direito através do jogo!."
@@ -419,7 +420,8 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 {% include image.html
     src="https://lavrapalavra.com/wp-content/uploads/2021/01/apagar.png"
     alt="Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia."
-    caption="Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia - <https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/>"
+    caption="A verdadeira nostalgia é a nostalgia de um mundo sem nostalgia. Quem odeia o destrutivo terá que odiar também a vida: apenas a morte é a alegoria do vivente não deformado (Adorno)"
+    ref="https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/"
 %}
 
 - Desafio - Adicionar complexidade nas tarefas do jogador;
@@ -1521,3 +1523,7 @@ Heroína: É praticamente WoW em uma seringa.
 O perigo está no fato de que esses jogos se tornaram tão incrivelmente eficientes em proporcionar a sensação de realização que as pessoas costumavam obter de sua educação ou carreira. Não estamos dizendo que os jogos vão arruinar o mundo, ou que o vício em jogos será um flagelo para os jovens da mesma forma que o crack arruinou as cidades do interior nos anos 90. Mas podemos acabar com uma geração de caras trabalhando na Starbucks quando eles tinham cérebro e talento para muito mais. Eles estão insatisfeitos com suas vidas porque desperdiçaram seus 20 anos jogando videogames e escaparão de sua insatisfação jogando mais videogames. Enxaguar, repetir.
 
 E vamos encarar; se você acha que WoW é viciante, espere até ver os jogos que eles vão fazer daqui a 10 anos. Eles só estão melhorando no que fazem.
+
+## 10. Atividades e referências
+
+[Atividades e referências](jogatina_das_decadas_atividades_referencias.html)

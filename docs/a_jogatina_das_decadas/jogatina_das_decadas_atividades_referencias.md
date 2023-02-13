@@ -7,102 +7,71 @@ layout: page
 
 ***
 
-- [Atividades](#atividades)
-  - [1. Apresente um jogo do seu universo pessoal](#1-apresente-um-jogo-do-seu-universo-pessoal)
-  - [2. O jogador](#2-o-jogador)
-  - [3. O protótipo do jogo - EQUIPE](#3-o-protótipo-do-jogo---equipe)
-  - [4. O documento](#4-o-documento)
-  - [5. A REVIEW](#5-a-review)
-  - [6. O Documento parte 2](#6-o-documento-parte-2)
-  - [7. A Avaliação](#7-a-avaliação)
-- [Referências](#referências)
-  - [Livros](#livros)
-  - [Internet](#internet)
+- [1. Atividades](#1-atividades)
+  - [1.1. Apresente um jogo do seu universo pessoal](#11-apresente-um-jogo-do-seu-universo-pessoal)
+  - [1.2. O jogador](#12-o-jogador)
+  - [1.3. O protótipo do jogo](#13-o-protótipo-do-jogo)
+  - [1.4. O documento](#14-o-documento)
+  - [1.5. A REVIEW](#15-a-review)
+  - [1.6. O Documento parte 2](#16-o-documento-parte-2)
+  - [1.7. A Avaliação](#17-a-avaliação)
+- [2. Referências](#2-referências)
+  - [2.1. Livros](#21-livros)
+  - [2.2. Internet](#22-internet)
 
 ***
 
-## Atividades
+## 1. Atividades
 
 ***
 
-### 1. Apresente um jogo do seu universo pessoal
+### 1.1. Apresente um jogo do seu universo pessoal
 
-**Regras.**
+|  Nº   | Regras                                                                   | Desafios           | Acadêmicos | Pontos |
+| :---: | :----------------------------------------------------------------------- | :----------------- | :--------: | :----: |
+|   1   | Observe o seu ambiente  social REAL e apresente um jogo que o represente | Apresentação       |     1      |  0.2   |
+|   2   | Qual o nome do jogo?                                                     | 3 Regras           |            |  0.2   |
+|   3   | Quais são as regras?                                                     | Objetivo do jogo   |            |  0.2   |
+|   4   | Apresente para os demais acadêmicos                                      | Início, meio e fim |            |  0.4   |
+|       | Total                                                                    |                    |            |  1.0   |
 
-1. Observe o seu ambiente  social REAL e apresente um jogo que o represente;
+### 1.2. O jogador
 
-2. Qual o nome do jogo?
+|  Nº   | Regras                                   | Desafios     | Acadêmicos | Pontos |
+| :---: | :--------------------------------------- | :----------- | :--------: | :----: |
+|   1   | Qual tipo de jogador jogaria o seu jogo? | Apresentação |     1      |  0.5   |
+|   2   | Por que o alguém jogaria o seu game?     | 2 Motivos    |            |  0.5   |
+| Total |                                          |              |    1.0     |
 
-3. Quais são as regras?
+### 1.3. O protótipo do jogo
 
-4. Quem joga e por que joga?
-
-**Desafio.**
-
-1. Apresente para os demais acadêmicos
-
-***
-
-### 2. O jogador
-
-**Regras.**
-
-1. Qual tipo de jogador jogaria o seu jogo?
-
-2. Por que o alguém jogaria o seu game?
-
-3. Quais são os fatores que fazem o jogador jogar o seu game?
-
-**Desafio.**
-
-1. Apresentem para os demais acadêmicos;
-
-***
-
-### 3. O protótipo do jogo - EQUIPE
-
-**Regras.**
-
-1. Escolha um tema para um jogo;
-
-2. Defina os fatores motivacionais do seu jogo;
-
-3. Defina os fatores não motivacionais do seu jogo;
-
-4. Classifique seu jogo (jogo digital).
-
-**Desafio.**
-
-1. Definam o papel de cada elemento do grupo (Artista, desenvolvedor e Gerente do projeto);
-
-2. Os acadêmicos devem ter pelo menos 2 (dois)  papeis;
-
-3. Apresentem para os demais acadêmicos;
+|  Nº   | Regras                                          | Desafios                                            | Acadêmicos | Pontos |
+| :---: | :---------------------------------------------- | :-------------------------------------------------- | :--------: | :----: |
+|   1   | Escolha um tema para um jogo                    | Apresentação                                        |     4      |  0.25  |
+|   2   | Defina os fatores motivacionais do seu jogo     | 2 Motivos                                           |            |  0.25  |
+|   3   | Defina os fatores não motivacionais do seu jogo | 2 Motivos                                           |            |  0.25  |
+|   4   | Classifique seu jogo (jogo digital)             |                                                     |            |  0.25  |
+|       |                                                 | Definam o papel de cada elemento do grupo           |            |        |
+|       |                                                 | (Artista, desenvolvedor e Gerente do projeto)       |            |        |
+|       |                                                 | Os acadêmicos devem ter pelo menos 2 (dois)  papeis |            |        |
+|       |                                                 | Apresentem para os demais acadêmicos                |            |        |
+|       | Total                                           |                                                     |            |  1.0   |
 
 ***
 
-### 4. O documento
+### 1.4. O documento
 
-O documento em anexo é um conceito geral do protótipo do jogo (GDD).
+|  Nº   | Regras                                                                    | Desafios                                       | Acadêmicos | Pontos |
+| :---: | :------------------------------------------------------------------------ | :--------------------------------------------- | :--------: | :----: |
+|   1   | Utilizando o tema do jogo da atividade anterior crie o um GDD             | Apresentação                                   |     1      |  0.5   |
+|       | geral utilizando o modelo em anexo (Death Vip)                            | Crie um site do seu projeto com todos          |            |  0.5   |
+|   2   | Complete somente os capítulos de 1 até 7                                  | os elementos do projeto                        |            |  0.5   |
+|   3   | Acrescente artes que representem o seu projeto                            | Utilize o google Site, Github ou outro         |            |  0.5   |
+|       |                                                                           | Implemente uma apresentação visual do seu site |            |  0.5   |
+|       | Obs: O documento em anexo é um conceito geral do protótipo do jogo (GDD). |                                                |            |        |
+| Total |                                                                           |                                                |    1.0     |        |
 
-**Regras.**
-
-1. Utilizando o tema do jogo da atividade anterior crie o um GDD geral utilizando o modelo em anexo (Death Vip);
-
-2. Complete somente os capítulos de 1 até 7;
-
-3. Acrescente artes que representem o seu projeto.
-
-
-**Desafio.**
-
-1. Crie um site do seu projeto com todos os elementos do projeto:
-   1. Utilize o google Site, Github ou outro;
-   1. Implemente uma apresentação visual do seu site.
-
-***
-
-### 5. A REVIEW
+### 1.5. A REVIEW
 
 **Regras.**
 
@@ -122,7 +91,7 @@ Escolha um jogo do mercado da sua escolha e o analise utilizando a seguinte estr
 
 ***
 
-### 6. O Documento parte 2
+### 1.6. O Documento parte 2
 
 **Regras.**
 
@@ -142,7 +111,7 @@ Complete os itens do documento:
 
 ***
 
-### 7. A Avaliação
+### 1.7. A Avaliação
 
 **Estrutura.**
 
@@ -170,9 +139,9 @@ Complete os itens do documento:
 
 ***
 
-## Referências
+## 2. Referências
 
-### Livros
+### 2.1. Livros
 
 - HUIZINGA, Johan. Homo Ludens. Edição 4º. São Paulo: Editora Perspectiva, 2000.
 
@@ -186,8 +155,10 @@ Complete os itens do documento:
 
 - MENDES, C.L. Jogos Eletrônicos: Diversão, Poder E Subjetivação. Papirus Editora, 2006.
 
+- ROGERS, Scott, Level UP: um Guia Para o Design de Grandes Jogos. 
 
-### Internet
+
+### 2.2. Internet
 
 - [Jogo](https://pt.wikipedia.org/wiki/Jogo)
 
