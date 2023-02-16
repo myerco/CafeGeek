@@ -4,8 +4,17 @@
       src="https://cafegeek.eti.br/imagens/{{ include.src }}"
       alt="{{ include.alt }}"
       class="img-responsive"
-      width="100%" 
-      height="auto"
+      {%- if include.width %}    
+        width="{{ include.width }}"
+      {% else %}
+        width="100%"
+      {%- endif %}
+        width="100%" 
+      {%- if include.height %}    
+        height="{{ include.height }}"
+      {% else %}
+        height="auto"
+      {%- endif %}
     >
   </figure>
 </div>  

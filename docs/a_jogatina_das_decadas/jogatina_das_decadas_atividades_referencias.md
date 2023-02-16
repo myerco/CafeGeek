@@ -41,7 +41,7 @@ layout: page
 | :---: | :--------------------------------------- | :----------- | :--------: | :----: |
 |   1   | Qual tipo de jogador jogaria o seu jogo? | Apresentação |     1      |  0.5   |
 |   2   | Por que o alguém jogaria o seu game?     | 2 Motivos    |            |  0.5   |
-| Total |                                          |              |    1.0     |
+| Total |                                          |              |            |  1.0   |
 
 ### 1.3. O protótipo do jogo
 
@@ -69,47 +69,33 @@ layout: page
 |   3   | Acrescente artes que representem o seu projeto                            | Utilize o google Site, Github ou outro         |            |  0.5   |
 |       |                                                                           | Implemente uma apresentação visual do seu site |            |  0.5   |
 |       | Obs: O documento em anexo é um conceito geral do protótipo do jogo (GDD). |                                                |            |        |
-| Total |                                                                           |                                                |    1.0     |        |
+| Total |                                                                           |                                                |            |  1.0   |
 
 ### 1.5. A REVIEW
 
-**Regras.**
-
-Escolha um jogo do mercado da sua escolha e o analise utilizando a seguinte estrutura:
-
-1. Resumo geral
-
-2. Tipo do jogo
-
-3. História e analise comentada sobre a representação social do jogo
-
-**Desafio.**
-
-1. Prepare uma vídeo de gameplay e da REVIEW e o publique no Youtube
-
-2. Cada elemento da equipe deve apresentar a REVIEW
-
-***
+|  Nº   | Regras                                                            | Desafios                                | Acadêmicos | Pontos |
+| :---: | :---------------------------------------------------------------- | :-------------------------------------- | :--------: | :----: |
+|       | Escolha um jogo do mercado da sua escolha e o analise utilizando  | Apresentação                            |     1      |        |
+|       | a seguinte estrutura                                              | Prepare uma vídeo de gameplay e da      |            |        |
+|   1   | Resumo geral                                                      | REVIEW e o publique no Youtube          |            |  0.5   |
+|   2   | Tipo do jogo                                                      |                                         |            |  0.5   |
+|   3   | História e analise comentada sobre a representação social do jogo | Cada elemento da equipe deve apresentar |            |  0.5   |
+|       |                                                                   | a REVIEW                                |            |        |
+| Total |                                                                   |                                         |            |  1.5   |
 
 ### 1.6. O Documento parte 2
 
-**Regras.**
+|  Nº   | Regras                          | Desafios                                            | Acadêmicos | Pontos |
+| :---: | :------------------------------ | :-------------------------------------------------- | :--------: | :----: |
+|       | Complete os itens do documento: | Apresentação                                        |     1      |        |
+|       |                                 | Adicione imagens ilustrativas de todos os elementos |            |        |
+|   1   | Personagens                     |                                                     |            |  0.5   |
+|   2   | O mundo do jogo                 |                                                     |            |  0.5   |
+|   3   | Interface                       |                                                     |            |  0.5   |
+|       | Câmera                          |                                                     |            |        |
+| Total |                                 |                                                     |            |  1.5   |
 
-Complete os itens do documento:
 
-1. Personagens
-
-2. O mundo do jogo
-
-3. Interface
-
-4. Câmera
-
-**Desafio.**
-
-1. Adicione imagens ilustrativas de todos os elementos
-
-***
 
 ### 1.7. A Avaliação
 
@@ -156,7 +142,6 @@ Complete os itens do documento:
 - MENDES, C.L. Jogos Eletrônicos: Diversão, Poder E Subjetivação. Papirus Editora, 2006.
 
 - ROGERS, Scott, Level UP: um Guia Para o Design de Grandes Jogos. 
-
 
 ### 2.2. Internet
 
