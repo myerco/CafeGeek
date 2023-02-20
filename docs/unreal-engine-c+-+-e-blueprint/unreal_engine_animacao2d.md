@@ -11,20 +11,24 @@ date: 2022-10-03
 
 ***
 
-- [O que é Animação 2D?](#o-que-é-animação-2d)
-- [Como o Unreal Engine trabalha com animação 2D?](#como-o-unreal-engine-trabalha-com-animação-2d)
-  - [Habilitando o plugin Paper2D](#habilitando-o-plugin-paper2d)
-  - [Preparando o ViewPort](#preparando-o-viewport)
-  - [Preparando os Sprites do projeto](#preparando-os-sprites-do-projeto)
-  - [Preparando as texturas](#preparando-as-texturas)
-    - [Parâmetros da textura](#parâmetros-da-textura)
-- [Criando sprites](#criando-sprites)
-  - [Agrupando sprites em Tile Sets](#agrupando-sprites-em-tile-sets)
-  - [Implementando uma cena utilizando Tile Map](#implementando-uma-cena-utilizando-tile-map)
-  - [Criando sequencias de animação utlizado Flipbooks](#criando-sequencias-de-animação-utlizado-flipbooks)
-- [Adicionando e configurando o personagem do tipo PaperCharacter](#adicionando-e-configurando-o-personagem-do-tipo-papercharacter)
-  - [Implementando a lógica de animação do personagem do tipo PaperCharacter](#implementando-a-lógica-de-animação-do-personagem-do-tipo-papercharacter)
-  - [Implementando o canhão](#implementando-o-canhão)
+- [1. O que é Animação 2D?](#1-o-que-é-animação-2d)
+- [2. Como o Unreal Engine trabalha com animação 2D?](#2-como-o-unreal-engine-trabalha-com-animação-2d)
+  - [2.1. Sprites](#21-sprites)
+  - [2.2. Flipbook](#22-flipbook)
+  - [2.3. Tile Sets](#23-tile-sets)
+  - [2.4. Tile Maps](#24-tile-maps)
+- [3. Habilitando o plugin Paper2D e criando as pastas do projeto](#3-habilitando-o-plugin-paper2d-e-criando-as-pastas-do-projeto)
+- [4. Preparando o ViewPort](#4-preparando-o-viewport)
+- [5. Preparando os Sprites do projeto](#5-preparando-os-sprites-do-projeto)
+- [6. Preparando as texturas](#6-preparando-as-texturas)
+  - [6.1. Parâmetros da textura](#61-parâmetros-da-textura)
+- [7. Criando sprites](#7-criando-sprites)
+  - [7.1. Agrupando sprites em Tile Sets](#71-agrupando-sprites-em-tile-sets)
+  - [7.2. Implementando uma cena utilizando Tile Map](#72-implementando-uma-cena-utilizando-tile-map)
+  - [7.3. Criando sequencias de animação utlizado Flipbooks](#73-criando-sequencias-de-animação-utlizado-flipbooks)
+- [8. Adicionando e configurando o personagem do tipo PaperCharacter](#8-adicionando-e-configurando-o-personagem-do-tipo-papercharacter)
+  - [8.1. Implementando a lógica de animação do personagem do tipo PaperCharacter](#81-implementando-a-lógica-de-animação-do-personagem-do-tipo-papercharacter)
+  - [8.2. Implementando o canhão](#82-implementando-o-canhão)
 
 ***
 
@@ -34,7 +38,7 @@ date: 2022-10-03
     caption=""
 %}
 
-## O que é Animação 2D?
+## 1. O que é Animação 2D?
 
 ***
 
@@ -42,37 +46,95 @@ Animação em duas dimensões é uma técnica que utiliza sequenciamento de imag
 
 {% include image.html
     src="https://maestrofilmes.com.br/wp-content/uploads/2019/10/alfabeta_maio_texto1-1080x614-1024x582.png"
-    alt="Figura: Animação simples"
-    caption="Figura: Animação simples - <https://maestrofilmes.com.br/animacao-2d/>"
+    alt="Figura: Animação 2D: de um simples desenho à solução para uma empresa"
+    caption="O vídeo em animação nada mais é que a passagem rápida de objetos ou imagens que, posicionados, dão a ilusão do movimento. A animação é uma Ilusão de ótica, ou seja, ela mostra movimento com imagens que, na verdade, são estáticas"
+    ref="https://maestrofilmes.com.br/animacao-2d/"
 %}
 
-## Como o Unreal Engine trabalha com animação 2D?
+## 2. Como o Unreal Engine trabalha com animação 2D?
 
 ***
 
-O Unreal Engine implementa animação 2D utilizando o plugin **Paper2D** que facilita a manipulação e importação e elementos em duas dimensões. O sistema **Paper 2D** é um sistema baseado em *sprite* para a criação de jogos híbridos 2D e 2D / 3D inteiramente dentro do editor.
+O Unreal Engine implementa animação 2D utilizando o plugin **Paper2D** que facilita a manipulação e importação de elementos em duas dimensões. O sistema **Paper 2D** é um sistema baseado em *sprite* para a criação de jogos híbridos 2D e 2D / 3D inteiramente dentro do editor.
 
 O **Paper 2D** é baseado em um conjunto de elementos que são :
 
-- `Sprites` - Desenhos de duas dimensões, é uma malha plana com textura mapeada e um material associado;
+### 2.1. Sprites
 
-- `Flipbook` - Objeto para sequenciar um conjunto de *sprites* simulando animações;
+Desenhos de duas dimensões, é uma malha plana com textura mapeada e um material associado.
 
-- `Tile Sets` - Objeto para agrupar e manipular um conjunto de *sprites*;
+{% include image.html
+    src="https://producaodejogos.com/wp-content/uploads/2018/05/exemplo_pixel.jpg"
+    alt="Figura: Piskel - Guia do Editor Online para Pixel Art e Sprites Animados [2018]"
+    caption="O pixel é o menor ponto de uma imagem digital e uma pixel art é a criação de um objeto ponto a ponto utilizando pixels. Na imagem abaixo temos uma boa visualização do que é pixel e como podemos criar um objeto trabalhando cores e pontos no Piskel."
+    ref="https://producaodejogos.com/piskel-guia-para-pixel-art-e-sprites-animados/"
+%}
 
-- `Tile Maps` - Objeto para "pintar" um grupo de *sprites* as cenas utilizando `Tile Set`.
+### 2.2. Flipbook
 
-### Habilitando o plugin Paper2D
+Objeto para sequenciar um conjunto de *sprites* simulando animações;
+
+{% include image.html
+    src="https://docs.unrealengine.com/5.1/Images/animating-characters-and-objects/Paper2D/Flipbooks/flipbook-banner-2.webp"
+    alt="Figura: Paper 2D Flipbooks"
+    caption="A melhor maneira de pensar em Paper 2D Flipbooks (ou Flipbooks para abreviar) é na forma de animação desenhada à mão, onde uma série de imagens ligeiramente diferentes são viradas para produzir o que parece ser movimento."
+    ref="https://docs.unrealengine.com/5.1/en-US/paper-2d-flipbooks-in-unreal-engine/"
+%}
+
+### 2.3. Tile Sets
+
+Objeto para agrupar e manipular um conjunto de *sprites*;
+
+{% include image.html
+    src="https://docs.unrealengine.com/5.1/Images/animating-characters-and-objects/Paper2D/TileMaps/CreatedTitleSet.webp"
+    alt="Figura: Paper 2D Tile Sets / Tile Mapss"
+    caption="Editor de Tile Set."
+    ref="https://docs.unrealengine.com/5.1/en-US/paper-2d-tile-sets-and-tile-maps-in-unreal-engine/"
+%}
+
+### 2.4. Tile Maps
+
+Objeto para "pintar" um grupo de *sprites* as cenas utilizando `Tile Set`.
+
+{% include image.html
+    src="https://docs.unrealengine.com/5.1/Images/animating-characters-and-objects/Paper2D/TileMaps/TileMapEditorWindow.webp"
+    alt="Figura: Paper 2D Tile Sets / Tile Mapss"
+    caption="Editor de Tile Map."
+    ref="https://docs.unrealengine.com/5.1/en-US/paper-2d-tile-sets-and-tile-maps-in-unreal-engine/"
+%}
+
+## 3. Habilitando o plugin Paper2D e criando as pastas do projeto
 
 Antes de iniciar o trabalho devemos habilitar o plugin `Paper2D` em menu `Edit` > `Plugins`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_plugin.webp"
     alt="Figura: Unreal Engine - Animação 2d - habilitando o Plugin Paper2D (Enabled)."
-    caption="Figura: Unreal Engine - Animação 2d - habilitando o Plugin Paper2D (Enabled)."
+    caption="Após habilitar o plugin é necessário reiniciar o Unreal Engine."
 %}
 
-### Preparando o ViewPort
+Abixo a sugestão de organização de pastas.
+
+```bash
+|-- Animacao2D
+|   |-- Core
+|   |   |-- Charecters
+|   |       |-- BP_Character
+|   |   |-- DataSets
+|   |       |-- ECharacterState
+|   |   |-- Engine
+|   |       |-- BP_GameMode
+|   |       |-- BP_PlayerController
+|   |   |-- Inputs
+|   |   |-- Itens
+|   |       |-- BP_Item
+|   |-- Characters
+|   |   |-- Hero
+|   |-- Maps      
+|   |   |-- LevelTest
+```
+
+## 4. Preparando o ViewPort
 
 Podemos organizar os elementos que são apresentados na cena predefinindo coordenadas no eixo Y.
 
@@ -114,15 +176,15 @@ Para melhorar a visualização do cenário podemos configurar a visualização d
     caption="Figura: Unreal Engine - Animação 2D - ViewPort Rigth Z,X."
 %}
 
-### Preparando os Sprites do projeto
+## 5. Preparando os Sprites do projeto
 
 Um Sprite em papel 2D é uma malha plana com mapeamento de textura e material associado que pode ser renderizado no mundo, criado inteiramente no Unreal Engine 4 (UE4). Em termos mais simples, é uma maneira rápida e fácil de desenhar imagens 2D no UE4.
 
-### Preparando as texturas
+## 6. Preparando as texturas
 
 A fim de otimizar a renderização das texturas aplicamos os seguintes parâmetros para cada objeto:
 
-#### Parâmetros da textura
+### 6.1. Parâmetros da textura
 
 {% include imagebase.html
     src="unreal/animacao/unreal_engine_paper2d_details_texture_2d.webp"
@@ -144,7 +206,7 @@ Podemos aplicar automaticamente para uma ou várias texturas selecionadas usamos
     caption="Figura: Unreal Engine - Animação 2D - Apply Papper2D Texture Settings."
 %}
 
-## Criando sprites
+## 7. Criando sprites
 
 ***
 
@@ -172,7 +234,7 @@ Neste passo vamos criar os *sprites* utilizando texturas como base, seguindo os 
 
 1. Agora os *Sprites* podem ser adicionados na cena.
 
-### Agrupando sprites em Tile Sets
+### 7.1. Agrupando sprites em Tile Sets
 
 `Tile Sets` e `Tile Maps` no `Paper 2D` fornecem uma maneira rápida e fácil de fazer o layout da estrutura ou "layout geral" de seus níveis 2D. Ao criar e usar um conjunto de blocos (uma coleção de blocos extraídos de uma textura) com um mapa de blocos (uma grade 2D com largura e altura definidas em blocos), você pode selecionar vários blocos para "pintar" no mapa de blocos, que podem ser usado para seu layout de nível. Você também pode pintar ladrilhos (tiles) em várias camadas, cada uma das quais pode especificar qual ladrilho deve aparecer em cada célula do mapa para aquela camada específica.
 
@@ -200,7 +262,7 @@ Para adicionar colisão nos elementos realizamos :
 
 - Adicione as coordenadas de colisão com `Add Box`;
 
-### Implementando uma cena utilizando Tile Map
+### 7.2. Implementando uma cena utilizando Tile Map
 
 `Tile Map` é um mapa de *sprites* para auxiliar na composição da cena.
 
@@ -218,7 +280,7 @@ Para adicionar colisão nos elementos realizamos :
 
 1. `Separation Per Layer` - Adicione um valor em pixel para separar cada camada;
 
-### Criando sequencias de animação utlizado Flipbooks
+### 7.3. Criando sequencias de animação utlizado Flipbooks
 
 No **Unreal Engine 4**, os `Flipbooks` consistem em uma série de quadros-chave, cada um dos quais contém um Sprite a ser exibido e uma duração (em quadros) para exibi-lo. Uma opção de quadros por segundo determina a rapidez com que os quadros serão exibidos, indicando quantas "batidas" de animação ocorrerão em um segundo e os próprios quadros-chave podem ser editados no painel Detalhes ou usando uma linha do tempo que pode ser encontrada na parte inferior do Flipbook Editor.
 
@@ -236,7 +298,7 @@ Para implementar uma animação de corrida:
     caption="Figura: Unreal Engine - Animação 2d com animação de corrida usando Flipbook Animation Run"
 %}
 
-## Adicionando e configurando o personagem do tipo PaperCharacter
+## 8. Adicionando e configurando o personagem do tipo PaperCharacter
 
 ***
 
@@ -288,7 +350,7 @@ Os componentes e parâmetros são diferentes aos do `Character` com malhas/*Mesh
 
     - `Plane Constraint Normal` - Y=(-1);
 
-### Implementando a lógica de animação do personagem do tipo PaperCharacter
+### 8.1. Implementando a lógica de animação do personagem do tipo PaperCharacter
 
 Neste passo vamos implementar a animação do personagem e definir um objeto de controle de estados de animação utilizando uma variável `Enumeration`.
 
@@ -348,7 +410,7 @@ Abaixo a lógica da função `Animation State Machine`;
     caption="Figura: Unreal Engine - Animação 2D, lógica Blueprint dos estados do personagem - Function State Machine."
 %}
 
-### Implementando o canhão
+### 8.2. Implementando o canhão
 
 Neste passo vamos implementar um canhão que localiza e atira no player.
 
