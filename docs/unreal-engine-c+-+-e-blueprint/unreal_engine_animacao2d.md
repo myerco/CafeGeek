@@ -354,7 +354,7 @@ Neste passo vamos implementar a animação do personagem e definir um objeto de 
 
 Vamos criar uma variável `Enumeration` para controlar o estado da animação:
 
-{% include imagelocal html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_enum_state.webp"
     alt="Figura: Enumeration EStateCharacter."
     caption="Implementando um Enumeration para os estados do personagem."
