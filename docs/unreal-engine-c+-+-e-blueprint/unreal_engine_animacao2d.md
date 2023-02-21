@@ -357,7 +357,7 @@ Vamos criar uma variável `Enumeration` para controlar o estado da animação:
 {% include imagelocal html
     src="unreal/animacao/unreal_engine_paper2d_enum_state.webp"
     alt="Figura: Enumeration EStateCharacter."
-    caption="Implementando um Enumeration para os estados do personagem - Blueprint class PaperCharacter."
+    caption="Implementando um Enumeration para os estados do personagem."
 %}
 
 - Idle;
