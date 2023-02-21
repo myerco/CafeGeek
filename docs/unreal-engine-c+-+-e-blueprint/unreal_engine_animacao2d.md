@@ -22,12 +22,13 @@ date: 2022-10-03
 - [5. Preparando as texturas](#5-preparando-as-texturas)
 - [6. Preparando os Sprites do projeto](#6-preparando-os-sprites-do-projeto)
   - [6.1. Criando sprites](#61-criando-sprites)
-  - [6.2. Agrupando sprites em Tile Sets](#62-agrupando-sprites-em-tile-sets)
-  - [6.3. Implementando uma cena utilizando Tile Map](#63-implementando-uma-cena-utilizando-tile-map)
-  - [6.4. Criando sequencias de animação utilizando Flipbooks](#64-criando-sequencias-de-animação-utilizando-flipbooks)
-- [7. Adicionando e configurando o personagem do tipo PaperCharacter](#7-adicionando-e-configurando-o-personagem-do-tipo-papercharacter)
-  - [7.1. Implementando a lógica de animação do personagem do tipo PaperCharacter](#71-implementando-a-lógica-de-animação-do-personagem-do-tipo-papercharacter)
-  - [7.2. Implementando o canhão](#72-implementando-o-canhão)
+  - [6.2. Editor de Sprites](#62-editor-de-sprites)
+- [7. Agrupando sprites em Tile Sets](#7-agrupando-sprites-em-tile-sets)
+- [8. Implementando uma cena utilizando Tile Map](#8-implementando-uma-cena-utilizando-tile-map)
+- [9. Criando sequencias de animação utilizando Flipbooks](#9-criando-sequencias-de-animação-utilizando-flipbooks)
+- [10. Adicionando e configurando o personagem do tipo PaperCharacter](#10-adicionando-e-configurando-o-personagem-do-tipo-papercharacter)
+  - [10.1. Implementando a lógica de animação do personagem do tipo PaperCharacter](#101-implementando-a-lógica-de-animação-do-personagem-do-tipo-papercharacter)
+  - [10.2. Implementando o canhão](#102-implementando-o-canhão)
 
 ***
 
@@ -158,7 +159,7 @@ Após a configuração no `ViewPort` devem aparecer as opções para organizar o
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_viewport.webp"
-    alt="Figura: Unreal Engine - Animação 2D - ViewPort Snap."
+    alt="Figura: ViewPort Snap."
     caption="As layers criadas anteriormente devem aparecer na barra de ações."
 %}
 
@@ -172,9 +173,9 @@ Para movimentar objetos entre os *snaps* selecione o objeto e pressione :
 
 Para melhorar a visualização do cenário podemos configurar a visualização do `ViewPort` para **Right** a fim de controlar somente os eixos Z e X.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_viewport_xy.webp"
-    alt="Figura: Unreal Engine - Animação 2D - ViewPort Rigth Z,X."
+    alt="Figura: ViewPort Rigth Z,X."
     caption="Visualização Right no ViewPort."
 %}
 
@@ -182,7 +183,7 @@ Para melhorar a visualização do cenário podemos configurar a visualização d
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_details_texture_2d.webp"
-    alt="Figura: Unreal Engine - Animação 2D, preparando a textura - Details Texture parameters 2D."
+    alt="Figura: Preparando a textura - Details Texture parameters 2D."
     caption="A fim de otimizar a renderização das texturas aplicamos os seguintes parâmetros para cada objeto."
 %}
 
@@ -214,7 +215,14 @@ Neste passo vamos criar os *sprites* utilizando texturas como base, seguindo os 
 
 1. Renomeie para SPR_Factory_Background, por exemplo;
 
-1. [Usando o editor de Sprite](https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/Paper2D/Sprites/Editor/)
+### 6.2. Editor de Sprites
+
+{% include imagelocal.html
+    src="unreal/animacao/unreal_engine_paper2d_sprite_editor.webp"
+    alt="Figura: Editor de Sprite."
+    caption="Para editar várias parâmetros dos objetos utilizamos o editor de sprites."
+    ref="https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/Paper2D/Sprites/Editor/"
+%}
 
 1. Toolbar
 
@@ -228,11 +236,21 @@ Neste passo vamos criar os *sprites* utilizando texturas como base, seguindo os 
 
     - `Edit Collision` - Exibe e permite a edição das formas de colisão do sprite;
 
-1. Podemos adicionar física nos sprites em `Details` > `Simulate Physisc`;
+1. Detalhes
 
-1. Agora os *Sprites* podem ser adicionados na cena.
+      - `Sprite Collision Domain` - Parâmetro para aplicar física na colisão.
 
-### 6.2. Agrupando sprites em Tile Sets
+        - `Use 3D Physics` - A geometria de colisão será gerada para uso com o PhysX. A geometria de colisão 2D definida no sprite será extrudada usando as unidades de Espessura de Colisão no fundo do eixo perpendicular para criar a geometria de colisão 3D;
+  
+      - `Collision Geometry Type` - Parâmetro para deformar a caixa de colisão automaticamente.
+
+        - `Tight Bounding Box`  - Colisão delimitada;
+
+        - `Shrink Wwrapped` - Colisão calculada;
+
+## 7. Agrupando sprites em Tile Sets
+
+***
 
 `Tile Sets` e `Tile Maps` no `Paper 2D` fornecem uma maneira rápida e fácil de fazer o layout da estrutura ou "layout geral" de seus níveis 2D. Ao criar e usar um conjunto de blocos (uma coleção de blocos extraídos de uma textura) com um mapa de blocos (uma grade 2D com largura e altura definidas em blocos), você pode selecionar vários blocos para "pintar" no mapa de blocos, que podem ser usado para seu layout de nível. Você também pode pintar ladrilhos (tiles) em várias camadas, cada uma das quais pode especificar qual ladrilho deve aparecer em cada célula do mapa para aquela camada específica.
 
@@ -258,15 +276,23 @@ Para adicionar colisão nos elementos realizamos :
 
 - Selecione a opção `Colliding Tiles` para mostrar os elementos com colisão;
 
-- Adicione as coordenadas de colisão com `Add Box`;
+- `Add Box` permite adicionar e manipular uma caixa de colisão;
 
-### 6.3. Implementando uma cena utilizando Tile Map
+- `Add Polygon` permite adicionar polígono inserindo as coordenadas da colisão;
 
-`Tile Map` é um mapa de *sprites* para auxiliar na composição da cena.
+- `Add Circle` - Adiciona um círculo de colisão;
 
-1. Selecione um `Tile Set` para ser usado como paleta;
+## 8. Implementando uma cena utilizando Tile Map
 
-1. Para melhor controle dos elementos adicione 3 camadas na seguinte ordem:
+{% include imagelocal.html
+    src="unreal/animacao/unreal_engine_paper2d_tilemap.webp"
+    alt="Figura: Tile Map."
+    caption="É um mapa de sprites para auxiliar na composição da cena."
+%}
+
+1. Selecione um `Tile Set` para ser usado como paleta, selecionando o arquivo no `Content Browser` e logo em seguida o menu de contexto `Create Tile Map`;
+
+1. Para melhor controle no desenho dos elementos adicione 3 camadas na seguinte ordem:
 
     - Foreground - Camada para os elementos que devem ficar na frente do personagem;
 
@@ -276,9 +302,11 @@ Para adicionar colisão nos elementos realizamos :
 
 1. `Projection Mode` - Orthogonal;
 
-1. `Separation Per Layer` - Adicione um valor em pixel para separar cada camada;
+1. `Separation Per Layer` - Permite adicionar um valor em pixel para separar cada camada na ViewPort;
 
-### 6.4. Criando sequencias de animação utilizando Flipbooks
+1. `Collision Thickness` - Usado para aumentar ou diminuir a largura de colisão quando usado colisão 3D.
+
+## 9. Criando sequencias de animação utilizando Flipbooks
 
 No **Unreal Engine 4**, os `Flipbooks` consistem em uma série de quadros-chave, cada um dos quais contém um Sprite a ser exibido e uma duração (em quadros) para exibi-lo. Uma opção de quadros por segundo determina a rapidez com que os quadros serão exibidos, indicando quantas "batidas" de animação ocorrerão em um segundo e os próprios quadros-chave podem ser editados no painel Detalhes ou usando uma linha do tempo que pode ser encontrada na parte inferior do Flipbook Editor.
 
@@ -292,11 +320,11 @@ Para implementar uma animação de corrida:
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_flipbook.webp"
-    alt="Figura: Unreal Engine - Animação 2d com animação de corrida usando Flipbook Animation Run."
+    alt="Figura: Animação de corrida usando Flipbook Animation Run."
     caption="Sequencia de sprites."
 %}
 
-## 7. Adicionando e configurando o personagem do tipo PaperCharacter
+## 10. Adicionando e configurando o personagem do tipo PaperCharacter
 
 ***
 
@@ -348,7 +376,7 @@ Os componentes e parâmetros são diferentes aos do `Character` com malhas/*Mesh
 
     - `Plane Constraint Normal` - Y=(-1);
 
-### 7.1. Implementando a lógica de animação do personagem do tipo PaperCharacter
+### 10.1. Implementando a lógica de animação do personagem do tipo PaperCharacter
 
 Neste passo vamos implementar a animação do personagem e definir um objeto de controle de estados de animação utilizando uma variável `Enumeration`.
 
@@ -408,7 +436,7 @@ Abaixo a lógica da função `Animation State Machine`;
     caption="Figura: Unreal Engine - Animação 2D, lógica Blueprint dos estados do personagem - Function State Machine."
 %}
 
-### 7.2. Implementando o canhão
+### 10.2. Implementando o canhão
 
 Neste passo vamos implementar um canhão que localiza e atira no player.
 
