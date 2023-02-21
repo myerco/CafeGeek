@@ -19,16 +19,15 @@ date: 2022-10-03
   - [2.4. Tile Maps](#24-tile-maps)
 - [3. Habilitando o plugin Paper2D e criando as pastas do projeto](#3-habilitando-o-plugin-paper2d-e-criando-as-pastas-do-projeto)
 - [4. Preparando o ViewPort](#4-preparando-o-viewport)
-- [5. Preparando os Sprites do projeto](#5-preparando-os-sprites-do-projeto)
-- [6. Preparando as texturas](#6-preparando-as-texturas)
-  - [6.1. Parâmetros da textura](#61-parâmetros-da-textura)
-- [7. Criando sprites](#7-criando-sprites)
-  - [7.1. Agrupando sprites em Tile Sets](#71-agrupando-sprites-em-tile-sets)
-  - [7.2. Implementando uma cena utilizando Tile Map](#72-implementando-uma-cena-utilizando-tile-map)
-  - [7.3. Criando sequencias de animação utlizado Flipbooks](#73-criando-sequencias-de-animação-utlizado-flipbooks)
-- [8. Adicionando e configurando o personagem do tipo PaperCharacter](#8-adicionando-e-configurando-o-personagem-do-tipo-papercharacter)
-  - [8.1. Implementando a lógica de animação do personagem do tipo PaperCharacter](#81-implementando-a-lógica-de-animação-do-personagem-do-tipo-papercharacter)
-  - [8.2. Implementando o canhão](#82-implementando-o-canhão)
+- [5. Preparando as texturas](#5-preparando-as-texturas)
+- [6. Preparando os Sprites do projeto](#6-preparando-os-sprites-do-projeto)
+  - [6.1. Criando sprites](#61-criando-sprites)
+  - [6.2. Agrupando sprites em Tile Sets](#62-agrupando-sprites-em-tile-sets)
+  - [6.3. Implementando uma cena utilizando Tile Map](#63-implementando-uma-cena-utilizando-tile-map)
+  - [6.4. Criando sequencias de animação utilizando Flipbooks](#64-criando-sequencias-de-animação-utilizando-flipbooks)
+- [7. Adicionando e configurando o personagem do tipo PaperCharacter](#7-adicionando-e-configurando-o-personagem-do-tipo-papercharacter)
+  - [7.1. Implementando a lógica de animação do personagem do tipo PaperCharacter](#71-implementando-a-lógica-de-animação-do-personagem-do-tipo-papercharacter)
+  - [7.2. Implementando o canhão](#72-implementando-o-canhão)
 
 ***
 
@@ -118,7 +117,7 @@ Abixo a sugestão de organização de pastas.
 ```bash
 |-- Animacao2D
 |   |-- Core
-|   |   |-- Charecters
+|   |   |-- Characters
 |   |       |-- BP_Character
 |   |   |-- DataSets
 |   |       |-- ECharacterState
@@ -129,92 +128,91 @@ Abixo a sugestão de organização de pastas.
 |   |   |-- Itens
 |   |       |-- BP_Item
 |   |-- Characters
-|   |   |-- Hero
+|   |   |-- Samurai
+|   |   |-- FlatBoy
+|   |   |-- Punk
+|   |-- Environment
+|   |   |-- Factory
+|   |   |-- Forest
 |   |-- Maps      
 |   |   |-- LevelTest
 ```
 
 ## 4. Preparando o ViewPort
 
-Podemos organizar os elementos que são apresentados na cena predefinindo coordenadas no eixo Y.
+Podemos organizar os elementos que são apresentados na cena predefinindo coordenadas no eixo Y, utilizando o menu `Edit` > `Project Settings` navegue até `2D` para adicionar camadas/*Layers* e coordenadas de profundidade ao `ViewPort`.
 
-No menu `Edit` > `Project Settings` navegue até `2D` para adicionar camadas/*Layers* e coordenadas de profundidade ao `ViewPort`.
-
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_project_settings.webp"
     alt="Figura: Unreal Engine - Animação 2D - Project Settings 2D."
-    caption="Figura: Unreal Engine - Animação 2D - Project Settings 2D."
+    caption="Adicionando Snap Layers do exemplo acima podemos criar 3 camadas em profundidades diferentes."
 %}
 
-- `Foreground` - Camada para os *sprites* que devem ficar na frente da cena;
+- `Foreground` - Camada para os *sprites* que devem ficar na frente da cena, `Depth` = 100;
 
-- `Default` - Camada para os *sprites* que devem estão alinhados com o personagem;
+- `Default` - Camada para os *sprites* que devem estão alinhados com o personagem, `Depth` = 0;
 
-- `Background` - Camada para os *sprites* que devem ficar atrás da cena.
+- `Background` - Camada para os *sprites* que devem ficar atrás da cena, `Depth` = -500;
 
-Após a configuração no `ViewPort` devem aparecer as opções para organizar os objetos na cena.
+Após a configuração no `ViewPort` devem aparecer as opções para organizar os objetos em camadas na cena.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_viewport.webp"
     alt="Figura: Unreal Engine - Animação 2D - ViewPort Snap."
-    caption="Figura: Unreal Engine - Animação 2D - ViewPort Snap."
+    caption="As layers criadas anteriormente devem aparecer na barra de ações."
 %}
 
 Os objetos adicionados na cena devem ficar no *snap* selecionado obedecendo a localização Y predefinida, esse processo é similar ao trabalho de desenho por camadas.
 
 Para movimentar objetos entre os *snaps* selecione o objeto e pressione :
 
-- CTRL + DOWN para posicionar o objeto na camada anterior;
+- CTRL + PAGE DOWN para posicionar o objeto na camada anterior;
 
-- CTRL + UP para posicionar o objeto na camada posterior;
+- CTRL + PAGE UP para posicionar o objeto na camada posterior;
 
 Para melhorar a visualização do cenário podemos configurar a visualização do `ViewPort` para **Right** a fim de controlar somente os eixos Z e X.
 
 {% include imagebase.html
-    src="unreal/animacao/unreal_engine_paper2d_viewport_xx.webp"
+    src="unreal/animacao/unreal_engine_paper2d_viewport_xy.webp"
     alt="Figura: Unreal Engine - Animação 2D - ViewPort Rigth Z,X."
-    caption="Figura: Unreal Engine - Animação 2D - ViewPort Rigth Z,X."
+    caption="Visualização Right no ViewPort."
 %}
 
-## 5. Preparando os Sprites do projeto
+## 5. Preparando as texturas
 
-Um Sprite em papel 2D é uma malha plana com mapeamento de textura e material associado que pode ser renderizado no mundo, criado inteiramente no Unreal Engine 4 (UE4). Em termos mais simples, é uma maneira rápida e fácil de desenhar imagens 2D no UE4.
-
-## 6. Preparando as texturas
-
-A fim de otimizar a renderização das texturas aplicamos os seguintes parâmetros para cada objeto:
-
-### 6.1. Parâmetros da textura
-
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_details_texture_2d.webp"
-    alt="Figura: Unreal Engine - Animação 2D, preparando a textura - Details Texture parameteres 2D."
-    caption="Figura: Unreal Engine - Animação 2D, preparando a textura - Details Texture parameteres 2D."
+    alt="Figura: Unreal Engine - Animação 2D, preparando a textura - Details Texture parameters 2D."
+    caption="A fim de otimizar a renderização das texturas aplicamos os seguintes parâmetros para cada objeto."
 %}
 
 - `Compression Settings`: UseInterface2D (RGBA);
 
 - `Mip Gen Settings`: NoMipMaps
 
-"A geração do Mip-map ocorre durante a importação da Textura e cria uma cadeia de Mip-map para a Textura. A cadeia mip-map consiste em vários níveis da imagem de amostra, cada um com metade da resolução do nível anterior. Esses dados permitem que a placa gráfica renderize mais rápido ao usar os mips inferiores (menos largura de banda da memória) e também reduz o aliasing da textura (cintilante) que se torna visível ao ter textura detalhada em certas distâncias."
+> "A geração do Mip-map ocorre durante a importação da Textura e cria uma cadeia de Mip-map para a Textura. A cadeia mip-map consiste em vários níveis da imagem de amostra, cada um com metade da resolução do nível anterior. Esses dados permitem que a placa gráfica renderize mais rápido ao usar os mips inferiores (menos largura de banda da memória) e também reduz o aliasing da textura (cintilante) que se torna visível ao ter textura detalhada em certas distâncias."
 
-Podemos aplicar automaticamente para uma ou várias texturas selecionadas usamos o menu de contexto `Sprite Actions` > `Apply Paper2D Texture Settings`.
+Podemos aplicar automaticamente para uma ou várias texturas selecionadas usamos o menu de contexto selecionando o arquivo e depois `Sprite Actions` > `Apply Paper2D Texture Settings`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_apply_texture_settings.webp"
     alt="Figura: Unreal Engine - Animação 2D - Apply Papper2D Texture Settings."
-    caption="Figura: Unreal Engine - Animação 2D - Apply Papper2D Texture Settings."
+    caption="Aplicamos a configuração em vários arquivos."
 %}
 
-## 7. Criando sprites
+## 6. Preparando os Sprites do projeto
 
 ***
+
+Um Sprite em papel 2D é uma malha plana com mapeamento de textura e material associado que pode ser renderizado no mundo, criado inteiramente no Unreal Engine 4 (UE4). Em termos mais simples, é uma maneira rápida e fácil de desenhar imagens 2D no UE4.
+
+### 6.1. Criando sprites
 
 Neste passo vamos criar os *sprites* utilizando texturas como base, seguindo os passos:
 
 1. Selecione uma textura para ser apresentada no fundo da cena utilizando o menu de contexto acione `Sprite Actions` > `Create Sprite`;
 
-1. Renomeie para SPR_Factory_Background;
+1. Renomeie para SPR_Factory_Background, por exemplo;
 
 1. [Usando o editor de Sprite](https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/Paper2D/Sprites/Editor/)
 
@@ -234,7 +232,7 @@ Neste passo vamos criar os *sprites* utilizando texturas como base, seguindo os 
 
 1. Agora os *Sprites* podem ser adicionados na cena.
 
-### 7.1. Agrupando sprites em Tile Sets
+### 6.2. Agrupando sprites em Tile Sets
 
 `Tile Sets` e `Tile Maps` no `Paper 2D` fornecem uma maneira rápida e fácil de fazer o layout da estrutura ou "layout geral" de seus níveis 2D. Ao criar e usar um conjunto de blocos (uma coleção de blocos extraídos de uma textura) com um mapa de blocos (uma grade 2D com largura e altura definidas em blocos), você pode selecionar vários blocos para "pintar" no mapa de blocos, que podem ser usado para seu layout de nível. Você também pode pintar ladrilhos (tiles) em várias camadas, cada uma das quais pode especificar qual ladrilho deve aparecer em cada célula do mapa para aquela camada específica.
 
@@ -248,21 +246,21 @@ Com `Tile Sets` podemos criar uma 'Paleta' de *sprites* para ser usadas no `Tile
 
 - `Tile Size`: Tamanho de cada Tile/Área que pode ser usada;
 
-- `Tile Sheet Texture`:  Textura;
+- `Tile Sheet Texture`:  Arquivo Textura;
 
 Para adicionar colisão nos elementos realizamos :
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_tileset_colision.webp"
     alt="Figura: Unreal Engine - Animação 2D - colisão de objetos usando Tile Set Collision."
-    caption="Figura: Unreal Engine - Animação 2D - colisão de objetos usando Tile Set Collision."
+    caption="Colliding Tiles apresenta os tiles que tem colisão e ao no Single Tile Editor é possível alterar a sua forma."
 %}
 
 - Selecione a opção `Colliding Tiles` para mostrar os elementos com colisão;
 
 - Adicione as coordenadas de colisão com `Add Box`;
 
-### 7.2. Implementando uma cena utilizando Tile Map
+### 6.3. Implementando uma cena utilizando Tile Map
 
 `Tile Map` é um mapa de *sprites* para auxiliar na composição da cena.
 
@@ -280,7 +278,7 @@ Para adicionar colisão nos elementos realizamos :
 
 1. `Separation Per Layer` - Adicione um valor em pixel para separar cada camada;
 
-### 7.3. Criando sequencias de animação utlizado Flipbooks
+### 6.4. Criando sequencias de animação utilizando Flipbooks
 
 No **Unreal Engine 4**, os `Flipbooks` consistem em uma série de quadros-chave, cada um dos quais contém um Sprite a ser exibido e uma duração (em quadros) para exibi-lo. Uma opção de quadros por segundo determina a rapidez com que os quadros serão exibidos, indicando quantas "batidas" de animação ocorrerão em um segundo e os próprios quadros-chave podem ser editados no painel Detalhes ou usando uma linha do tempo que pode ser encontrada na parte inferior do Flipbook Editor.
 
@@ -292,22 +290,22 @@ Para implementar uma animação de corrida:
 
 3. Exclua ou movimente os elementos para melhorar a animação;
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_flipbook.webp"
     alt="Figura: Unreal Engine - Animação 2d com animação de corrida usando Flipbook Animation Run."
-    caption="Figura: Unreal Engine - Animação 2d com animação de corrida usando Flipbook Animation Run"
+    caption="Sequencia de sprites."
 %}
 
-## 8. Adicionando e configurando o personagem do tipo PaperCharacter
+## 7. Adicionando e configurando o personagem do tipo PaperCharacter
 
 ***
 
 Neste passo vamos adicionar um personagem do tipo `Paper Character` para ser o player principal do projeto.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper_character.webp"
     alt="Figura: Unreal Engine - Animação 2d - Personagem da Blueprint class PaperCharacter para 2D."
-    caption="Figura: Unreal Engine - Animação 2d - Personagem da Blueprint class PaperCharacter para 2D."
+    caption="Selecionando a classe PaperCharacter."
 %}
 
 Os componentes e parâmetros são diferentes aos do `Character` com malhas/*Mesh* então vamos adicionar e configurar os seguintes componentes:
@@ -350,16 +348,16 @@ Os componentes e parâmetros são diferentes aos do `Character` com malhas/*Mesh
 
     - `Plane Constraint Normal` - Y=(-1);
 
-### 8.1. Implementando a lógica de animação do personagem do tipo PaperCharacter
+### 7.1. Implementando a lógica de animação do personagem do tipo PaperCharacter
 
 Neste passo vamos implementar a animação do personagem e definir um objeto de controle de estados de animação utilizando uma variável `Enumeration`.
 
 Vamos criar uma variável `Enumeration` para controlar o estado da animação:
 
-{% include imagebase.html
+{% include imagelocal html
     src="unreal/animacao/unreal_engine_paper2d_enum_state.webp"
-    alt="Figura: Unreal Engine - Animação 2D implementando um Enumeration para os estados do personagem - Blueprint class PaperCharacter."
-    caption="Figura: Unreal Engine - Animação 2D implementando um Enumeration para os estados do personagem - Blueprint class PaperCharacter."
+    alt="Figura: Enumeration EStateCharacter."
+    caption="Implementando um Enumeration para os estados do personagem - Blueprint class PaperCharacter."
 %}
 
 - Idle;
@@ -370,10 +368,10 @@ Vamos criar uma variável `Enumeration` para controlar o estado da animação:
 
 No personagem definimos as seguintes variáveis:
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_character_variables.webp"
     alt="Figura: Unreal Engine - Animação 2D - Character Varáveis."
-    caption="Figura: Unreal Engine - Animação 2D - Character Varáveis."
+    caption="Lista de variáveis."
 %}
 
 - Moving `Boolean` - Para identificar quando o personagem se movimenta;
@@ -410,23 +408,23 @@ Abaixo a lógica da função `Animation State Machine`;
     caption="Figura: Unreal Engine - Animação 2D, lógica Blueprint dos estados do personagem - Function State Machine."
 %}
 
-### 8.2. Implementando o canhão
+### 7.2. Implementando o canhão
 
 Neste passo vamos implementar um canhão que localiza e atira no player.
 
 Para implementar as balas do canhão vamos criar um objeto **BP_FireBullet** do tipo `Actor` com as seguintes propriedades e componentes;
 
-    - `PaperSprite` - Adicione um *Sprite*;
+- `PaperSprite` - Adicione um *Sprite*;
 
-    - `Simulate Physisc` - Temos que habilitar a física do objeto;
+- `Simulate Physisc` - Temos que habilitar a física do objeto;
 
 Implementamos  **BP_Cannon** do tipo `Actor`;
 
-    - `PaperSprite`;
+- `PaperSprite`;
 
-    - `Sphere Collision` - Ajuste a colisão para servir como área de detecção do player;
+- `Sphere Collision` - Ajuste a colisão para servir como área de detecção do player;
 
-    - `PointBullet` - Tipo  `Scene` para ser utilizada como ponto inicial das balas;
+- `PointBullet` - Tipo  `Scene` para ser utilizada como ponto inicial das balas;
 
 Inicializamos as variáveis;
 
