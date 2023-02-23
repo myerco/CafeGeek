@@ -53,6 +53,7 @@ defaults:
 # --- Web Analytics Section --- #
 gtag:  ${{ secrets.TAG_GOOGLE }}
 google_analytics:  ${{ secrets.TAG_GOOGLE }}
+google_ad_client: ${{ secrets.ADS_GOOGLE }}
 
 url: "https://cafegeek.eti.br"
 baseurl: "/"
