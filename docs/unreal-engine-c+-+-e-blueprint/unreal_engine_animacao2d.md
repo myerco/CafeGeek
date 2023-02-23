@@ -105,6 +105,8 @@ Objeto para "pintar" um grupo de *sprites* as cenas utilizando `Tile Set`.
 
 ## 3. Habilitando o plugin Paper2D e criando as pastas do projeto
 
+***
+
 Antes de iniciar o trabalho devemos habilitar o plugin `Paper2D` em menu `Edit` > `Plugins`.
 
 {% include imagelocal.html
@@ -119,7 +121,7 @@ Abixo a sugestão de organização de pastas.
 |-- Animacao2D
 |   |-- Core
 |   |   |-- Characters
-|   |       |-- BP_Character
+|   |       |-- BP_CharacterBase
 |   |   |-- DataSets
 |   |       |-- ECharacterState
 |   |   |-- Engine
@@ -130,6 +132,7 @@ Abixo a sugestão de organização de pastas.
 |   |       |-- BP_Item
 |   |-- Characters
 |   |   |-- Samurai
+|   |       |-- BP_CharacterSamurai<Child BP_CharacterBase>
 |   |   |-- FlatBoy
 |   |   |-- Punk
 |   |-- Environment
@@ -140,6 +143,8 @@ Abixo a sugestão de organização de pastas.
 ```
 
 ## 4. Preparando o ViewPort
+
+***
 
 Podemos organizar os elementos que são apresentados na cena predefinindo coordenadas no eixo Y, utilizando o menu `Edit` > `Project Settings` navegue até `2D` para adicionar camadas/*Layers* e coordenadas de profundidade ao `ViewPort`.
 
@@ -180,6 +185,8 @@ Para melhorar a visualização do cenário podemos configurar a visualização d
 %}
 
 ## 5. Preparando as texturas
+
+***
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_details_texture_2d.webp"
@@ -284,6 +291,8 @@ Para adicionar colisão nos elementos realizamos :
 
 ## 8. Implementando uma cena utilizando Tile Map
 
+***
+
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_tilemap.webp"
     alt="Figura: Tile Map."
@@ -332,7 +341,7 @@ Neste passo vamos adicionar um personagem do tipo `Paper Character` para ser o p
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper_character.webp"
-    alt="Figura: Unreal Engine - Animação 2d - Personagem da Blueprint class PaperCharacter para 2D."
+    alt="Figura: Classe PaperCharacter."
     caption="Selecionando a classe PaperCharacter."
 %}
 
@@ -376,6 +385,16 @@ Os componentes e parâmetros são diferentes aos do `Character` com malhas/*Mesh
 
     - `Plane Constraint Normal` - Y=(-1);
 
+1. Character
+
+    - fLife - Float;
+
+    - cColor - Color;
+
+    - tImage - Texture 2D;
+
+    - sSound - Sound Cue;
+
 ### 10.1. Implementando a lógica de animação do personagem do tipo PaperCharacter
 
 Neste passo vamos implementar a animação do personagem e definir um objeto de controle de estados de animação utilizando uma variável `Enumeration`.
@@ -398,7 +417,7 @@ No personagem definimos as seguintes variáveis:
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_character_variables.webp"
-    alt="Figura: Unreal Engine - Animação 2D - Character Varáveis."
+    alt="Figura: Character Varáveis."
     caption="Lista de variáveis."
 %}
 
@@ -414,26 +433,26 @@ No personagem definimos as seguintes variáveis:
 
 Vamos utilizar o evento `MoveRight` para adicionar movimento travando a coordenada X em 1;
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_movement.webp"
-    alt="Figura: Unreal Engine - Animação 2D - lógica Blueprint do movimento do personagem - Movement MoveRight."
-    caption="Figura: Unreal Engine - Animação 2D - lógica Blueprint do movimento do personagem - Movement MoveRight."
+    alt="Figura: Movement MoveRight."
+    caption="Lógica Blueprint do movimento do personagem."
 %}
 
 A seguir implementamos um novo evento `UpdateAnimation` para inicializar variáveis, chamar uma função `Animation State Machine` que iremos implementar;
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_event_movement.webp"
-    alt="Figura: Unreal Engine - Animação 2D - Evento de atualização do movimento - Event UpdateAnimation."
-    caption="Figura: Unreal Engine - Animação 2D - Evento de atualização do movimento - Event UpdateAnimation."
+    alt="Figura: Event UpdateAnimation."
+    caption="Evento de atualização do movimento."
 %}
 
 Abaixo a lógica da função `Animation State Machine`;
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_function_state_machine.webp"
-    alt="Figura: Unreal Engine - Animação 2D, lógica Blueprint dos estados do personagem - Function State Machine."
-    caption="Figura: Unreal Engine - Animação 2D, lógica Blueprint dos estados do personagem - Function State Machine."
+    alt="Function State Machine."
+    caption="Lógica Blueprint dos estados do personagem."
 %}
 
 ### 10.2. Implementando o canhão
@@ -454,42 +473,38 @@ Implementamos  **BP_Cannon** do tipo `Actor`;
 
 - `PointBullet` - Tipo  `Scene` para ser utilizada como ponto inicial das balas;
 
-Inicializamos as variáveis;
-
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_cannon_begin_init.webp"
-    alt="Figura: Unreal Engine - Animação 2D - BeginPlay inicializando variáveis."
-    caption="Figura: Unreal Engine - Animação 2D - BeginPlay inicializando variáveis."
+    alt="Figura: BeginPlay inicializando variáveis."
+    caption="Inicializamos as variáveis."
 %}
 
-Implementamos as lógica para localizar o personagem e movimentar o canhão na direção do player;
-
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_cannon_find_look.webp"
-    alt="Figura: Unreal Engine - Animação 2D - função para apontar o canhão no personagem - Function Find Look."
-    caption="Figura: Unreal Engine - Animação 2D - função para apontar o canhão no personagem - Function Find Look."
+    alt="Figura: Function Find Look."
+    caption="Implementamos as lógica para localizar o personagem e movimentar o canhão na direção do player."
 %}
 
 Implementação da lógica para disparar as balas `PB_FireBullet`;
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_cannon_fire_bullet.webp"
-    alt="Figura: Unreal Engine - Animação 2D- Lógica Blueprint para disparar o canhão - Function Impulse para disparar as balas."
-    caption="Figura: Unreal Engine - Animação 2D- Lógica Blueprint para disparar o canhão - Function Impulse para disparar as balas."
+    alt="Figura: Function Impulse para disparar as balas."
+    caption="Lógica Blueprint para disparar o canhão."
 %}
 
 Quanto o player colide com a área de detecção do canhão as variáveis **Look** e **Fire** são atualizadas para `True`, informando que o player foi detectado e o canhão pode disparar. Devemos adicionar uma `tag` no player para facilitar o seu reconhecimento;
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_cannon_player_in.webp"
-    alt="Figura: Unreal Engine - Animação 2D - Lógica Blueprint detectar o personagem - BeginOverLap e Player."
-    caption="Figura: Unreal Engine - Animação 2D - Lógica Blueprint detectar o personagem - BeginOverLap e Player."
+    alt="Figura: BeginOverLap e Player."
+    caption="Lógica Blueprint detectar o personagem."
 %}
 
 O player sai da área de detecção as variáveis de controle são atualizadas para `false`;
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_cannon_player_out.webp"
-    alt="Figura: Unreal Engine - Animação 2D - Lógica Bluerint para interromper o ataque e a visualização - EndOverLap e Player."
-    caption="Figura: Unreal Engine - Animação 2D - Lógica Bluerint para interromper o ataque e a visualização - EndOverLap e Player."
+    alt="Figura: EndOverLap e Player."
+    caption="Lógica Blueprint para interromper o ataque e a visualização."
 %}
