@@ -19,22 +19,22 @@ Neste capitulo vamos preparar e organizar os objetos e elementos necessários, c
 
 ***
 
-- [Organizando pastas de bibliotecas](#organizando-pastas-de-bibliotecas)
-  - [Classes do personagem Base](#classes-do-personagem-base)
-  - [Classe do Humano](#classe-do-humano)
-  - [Classe Mutante ou  Mutant](#classe-mutante-ou--mutant)
-    - [Vídeo Classe do Mutant](#vídeo-classe-do-mutant)
-- [Ambiente e controle](#ambiente-e-controle)
-- [Animações e esqueleto do Mutant](#animações-e-esqueleto-do-mutant)
-  - [Baixando o personagem Mutant](#baixando-o-personagem-mutant)
-    - [Vídeo Baixando personagem](#vídeo-baixando-personagem)
-  - [Importando Mesh e Skeletal](#importando-mesh-e-skeletal)
-  - [Importando animações](#importando-animações)
-  - [Vídeo Importando personagem](#vídeo-importando-personagem)
+- [1. Organizando pastas de bibliotecas](#1-organizando-pastas-de-bibliotecas)
+  - [1.1. Classes do personagem Base](#11-classes-do-personagem-base)
+  - [1.2. Classe do Humano](#12-classe-do-humano)
+  - [1.3. Classe Mutante ou  Mutant](#13-classe-mutante-ou--mutant)
+    - [1.3.1. Vídeo Classe do Mutant](#131-vídeo-classe-do-mutant)
+- [2. Ambiente e controle](#2-ambiente-e-controle)
+- [3. Animações e esqueleto do Mutant](#3-animações-e-esqueleto-do-mutant)
+  - [3.1. Baixando o personagem Mutant](#31-baixando-o-personagem-mutant)
+    - [3.1.1. Vídeo Baixando personagem](#311-vídeo-baixando-personagem)
+  - [3.2. Importando Mesh e Skeletal](#32-importando-mesh-e-skeletal)
+  - [3.3. Importando animações](#33-importando-animações)
+  - [3.4. Vídeo Importando personagem](#34-vídeo-importando-personagem)
 
 ***
 
-## Organizando pastas de bibliotecas
+## 1. Organizando pastas de bibliotecas
 
 ***
 
@@ -50,16 +50,20 @@ Em este passo iremos preparar as pastas, configuração inicial do projeto e per
 |--Projeto
       |--Core
           |--Character
+             |--BP_CharacterBase
       |--Characters
           |--Human
              |--Mesh
              |--Animations                
+             |--BP_Human<Child BP_CharacterBase>
           |--Mannequim
              |--Mesh
              |--Animations          
+             |--BP_Mannequim<Child BP_CharacterBase>             
           |--Mutant
              |--Mesh
              |--Animations
+             |--BP_Mutant<Child BP_CharacterBase>             
       |--Maps               
 |--ExampleContent
       |-- AnimStarterPack
@@ -77,7 +81,7 @@ cp /Mannequim/Character/Mesh/UE4_Mannequin_Skeleton  /Characteres/Mannequim/Mesh
 cp /Mannequim/Animations/  /Character/Mannequim/Animations
  ```
 
-### Classes do personagem Base
+### 1.1. Classes do personagem Base
 
 Podemos utilizar um personagem base para servir de Referência ou classe pai para outros personagens.
 
@@ -87,43 +91,66 @@ Podemos utilizar um personagem base para servir de Referência ou classe pai par
 
 3. Adicionar e alinhar os componentes em `BP_PlayerBase`:
 
-   - `Spring Arm` - (Location=0.0,0.0,8.4).
+   - `Spring Arm` - (Location=0.0,0.0,8.4), habilite a opção `Use Pawn Control Rotation`
 
    - `Camera`.
 
    - `Mesh` - (Location=0.0,0.0,-89) (Rotation=-0,0,270).
 
-### Classe do Humano
+4. Adicione as seguintes variáveis.
+
+   - Category = Character
+       - fHealth (float) = 100;
+
+       - sSound (Sound Cue);
+
+       - tImage (Texture 2D);
+
+       - cColor (Color);
+
+   - Category = Character\Movement
+  
+       - fWalkSpeed (float) = 300;
+  
+       - fCrouchSpeed (float) = 150;
+
+       - fRunSpeed(float) = 600;
+
+       - bIsRunning (Boolean) = false;
+
+       - bIsCrouch (Boolean) = false;
+  
+   - Category = Character\Action
+
+       - bActionLeftAttack (Boolean) = false;
+
+       - bActionRightAttack (Boolean) = false;
+
+       - bIsShooting (Boolean) = false;
+
+       - bIsHoldingWeapon (Boolean) = false;
+
+       - bIsAim (Boolean) = false;
+
+       - bIsReloadWeapon (Boolean) = false;
+
+### 1.2. Classe do Humano
 
 Esta classe irá utilizar o esqueleto e animações do Mannequim (Unreal Mannequim) para representar um humano.
 
-1. Criar a Classe `BP_Human` (Blueprint classe `Character`) em `/Characters/Human`;
+1. Criar a Classe `BP_Human` (Blueprint classe `BP_CharacterBase`) em `/Characters/Human`;
 
-   - Menu Context > `Blueprint` > `Character`;
+   - Menu Context > `Blueprint` > `All Classes` > `BP_CharacterBase`;
 
-2. Adicione e alinhe os componentes em `BP_Human`:
+1. Atualize a `Mesh` para `Sk_Mannequim`;
 
-   - `Spring Arm` - (Location=0.0,0.0,8.4);
-
-   - `Camera` - Associe esse componente no `SpringArm`;
-
-   - `Mesh` - (Location=0.0,0.0,-89) (Rotation=-0,0,270);
-
-3. Atualize a `Mesh` para `Sk_Mannequim`;
-
-### Classe Mutante ou  Mutant
+### 1.3. Classe Mutante ou  Mutant
 
 Para esta classe vamos importar o esqueleto e animações.
 
-1. Crie o objeto BP_Mutant do tipo `Character`;
+1. Crie o objeto BP_Mutant do tipo `BP_CharacterBase`;
 
-2. Adicione os seguintes componentes e hierarquias:
-
-   - `SpringArm` - Habilite a opção `Use Pawn Control Rotation`;
-
-   - `Camera` - Componente câmera.
-
-3. Adicione a o esqueleto e animação do personagem criados anteriormente.
+1. Adicione a o esqueleto e animação do personagem criados anteriormente.
 
    - `Skeletal Mesh`: Mutant;
 
@@ -131,19 +158,21 @@ Para esta classe vamos importar o esqueleto e animações.
 
    - `Anim Class`: ABP_Mutant_C;
 
-4. Em `CharacterMomement` atualize os valores:
+1. Em `CharacterMomement` atualize os valores:
 
    - `Max Walk Speed`: 110;
 
-   - `Max Walk Speed Crouched`: 110;
+   - `Max Walk Speed Crouched`: 110 ou
 
-5. Copiar todos os nós do `Event Graph` de `ThirdPersonCharacter` para componente criado e declare as variáveis não reconhecidas.
+   - (Show InHerited Variables) > fWalkSpeed = 110;
 
-6. Para testar a movimentação crie um level de teste e configure `World Settings` para:
+   - (Show InHerited Variables) > fRunSpeed = 220;
+
+1. Para testar a movimentação crie um level de teste e configure `World Settings` para:
 
    - `Default Pawn`: BP_Mutant;
 
-#### Vídeo Classe do Mutant
+#### 1.3.1. Vídeo Classe do Mutant
 
 {% include video.html
     link="https://youtu.be/obLJb4RBySA"
@@ -152,7 +181,7 @@ Para esta classe vamos importar o esqueleto e animações.
     caption="Vídeo: Unreal Engine - Animation Classe do personagem."
 %}
 
-## Ambiente e controle
+## 2. Ambiente e controle
 
 Neste passo vamos implementar os controles do personagem e criar um level para testes.
 
@@ -170,9 +199,9 @@ Neste passo vamos implementar os controles do personagem e criar um level para t
 
    - `Default Pawn Class` - BP_PlayerBase.
 
-## Animações e esqueleto do Mutant
+## 3. Animações e esqueleto do Mutant
 
-### Baixando o personagem Mutant
+### 3.1. Baixando o personagem Mutant
 
 Em este passo iremos utilizar o site [Mixano.com](https://www.mixamo.com/) para baixar o personagem Mutant.  
 
@@ -190,7 +219,7 @@ Em este passo iremos utilizar o site [Mixano.com](https://www.mixamo.com/) para 
 
 Observação: Neste exemplo utilizaremos a opção `In Place = true` para exemplificar.  
 
-#### Vídeo Baixando personagem
+#### 3.1.1. Vídeo Baixando personagem
 
 {% include video.html
     link="https://youtu.be/G7c8DMdrsGY"
@@ -199,7 +228,7 @@ Observação: Neste exemplo utilizaremos a opção `In Place = true` para exempl
     caption="Vídeo: Unreal Engine - Baixando personagem do Mixano."
 %}
 
-### Importando Mesh e Skeletal
+### 3.2. Importando Mesh e Skeletal
 
 1. Crie a pasta `/Projeto/Characteres/Mutant/Mesh`;
 
@@ -213,7 +242,7 @@ Observação: Neste exemplo utilizaremos a opção `In Place = true` para exempl
     caption="Figura: Unreal Engine - Blueprint FBX import options."
 %}
 
-### Importando animações
+### 3.3. Importando animações
 
 1. Crie a pasta `/Projeto/Characteres/Mutant/animations`;
 
@@ -229,7 +258,7 @@ Observação: Neste exemplo utilizaremos a opção `In Place = true` para exempl
 
 4. Escolha o esqueleto do personagem com `SKeleton`.
 
-### Vídeo Importando personagem
+### 3.4. Vídeo Importando personagem
 
 {% include video.html
     link="https://youtu.be/6ZLatHfD7P8"

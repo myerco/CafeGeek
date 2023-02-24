@@ -317,6 +317,8 @@ Para adicionar colisão nos elementos realizamos :
 
 ## 9. Criando sequencias de animação utilizando Flipbooks
 
+***
+
 No **Unreal Engine 4**, os `Flipbooks` consistem em uma série de quadros-chave, cada um dos quais contém um Sprite a ser exibido e uma duração (em quadros) para exibi-lo. Uma opção de quadros por segundo determina a rapidez com que os quadros serão exibidos, indicando quantas "batidas" de animação ocorrerão em um segundo e os próprios quadros-chave podem ser editados no painel Detalhes ou usando uma linha do tempo que pode ser encontrada na parte inferior do Flipbook Editor.
 
 Para implementar uma animação de corrida:
@@ -385,15 +387,17 @@ Os componentes e parâmetros são diferentes aos do `Character` com malhas/*Mesh
 
     - `Plane Constraint Normal` - Y=(-1);
 
-1. Character
+1. Adicione as seguintes variáveis.
 
-    - fLife - Float;
+   - Category = Character
 
-    - cColor - Color;
+        - fHealth (Float) = 100;
 
-    - tImage - Texture 2D;
+        - cColor (Color);
 
-    - sSound - Sound Cue;
+        - tImage (Texture 2D);
+
+        - sSound (Sound Cue);
 
 ### 10.1. Implementando a lógica de animação do personagem do tipo PaperCharacter
 
