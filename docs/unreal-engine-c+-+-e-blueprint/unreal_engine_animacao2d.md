@@ -26,6 +26,8 @@ date: 2022-10-03
 - [7. Agrupando sprites em Tile Sets](#7-agrupando-sprites-em-tile-sets)
 - [8. Implementando uma cena utilizando Tile Map](#8-implementando-uma-cena-utilizando-tile-map)
 - [9. Criando sequencias de animação utilizando Flipbooks](#9-criando-sequencias-de-animação-utilizando-flipbooks)
+  - [9.1. Extraindo as animações de arquivo](#91-extraindo-as-animações-de-arquivo)
+  - [9.2. Animação de corrida usando os sprites extraídos do arquivo](#92-animação-de-corrida-usando-os-sprites-extraídos-do-arquivo)
 - [10. Adicionando e configurando o personagem do tipo PaperCharacter](#10-adicionando-e-configurando-o-personagem-do-tipo-papercharacter)
   - [10.1. Implementando a lógica de animação do personagem do tipo PaperCharacter](#101-implementando-a-lógica-de-animação-do-personagem-do-tipo-papercharacter)
   - [10.2. Implementando o canhão](#102-implementando-o-canhão)
@@ -321,7 +323,28 @@ Para adicionar colisão nos elementos realizamos :
 
 No **Unreal Engine 4**, os `Flipbooks` consistem em uma série de quadros-chave, cada um dos quais contém um Sprite a ser exibido e uma duração (em quadros) para exibi-lo. Uma opção de quadros por segundo determina a rapidez com que os quadros serão exibidos, indicando quantas "batidas" de animação ocorrerão em um segundo e os próprios quadros-chave podem ser editados no painel Detalhes ou usando uma linha do tempo que pode ser encontrada na parte inferior do Flipbook Editor.
 
-Para implementar uma animação de corrida:
+### 9.1. Extraindo as animações de arquivo
+
+{% include imagelocal.html
+    src="unreal/animacao/samurai_run.png"
+    alt="Figura: Arquivo Samurai.png."
+    caption="Para exemplificar vamos utilizar o arquivo acima com um sequência de poses de um personagem."
+    ref="https://craftpix.net/freebies/free-samurai-pixel-art-sprite-sheets/"
+%}
+
+1. Extrai o arquivo em qualquer pasta e copie o conteúdo para a dentro do projeto na pasta `Characteres\Samurai\Textures`;
+
+1. Utilizando o `Content Browser` selecione o arquivo `run.png` e acionando o menu de contexto selecione `Sprite Actions` > `Extract Sprites`;
+
+{% include imagelocal.html
+    src="unreal/animacao/unreal_engine_paper2d_extract_sprites.webp"
+    alt="Figura: Extract Sprites."
+    caption="Utilize a opção Sprite Extract Mode Auto para que o programa selecione automaticamente as imagens que correspondem a uma pose do personagem e clique em Extract para completar a operação."
+%}
+
+1. Copie os arquivos extraídos para a pasta `Characteres\Samurai\Sprites`;
+
+### 9.2. Animação de corrida usando os sprites extraídos do arquivo
 
 1. Utilizando o `Content Browser` selecione todos os *sprites* que simulam o movimento de corrida;
 
