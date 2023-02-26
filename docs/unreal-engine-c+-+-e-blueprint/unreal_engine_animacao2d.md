@@ -29,6 +29,8 @@ date: 2022-10-03
   - [9.1. Extraindo as animações de arquivo](#91-extraindo-as-animações-de-arquivo)
   - [9.2. Animação de corrida usando os sprites extraídos do arquivo](#92-animação-de-corrida-usando-os-sprites-extraídos-do-arquivo)
 - [10. Adicionando e configurando o personagem do tipo PaperCharacter](#10-adicionando-e-configurando-o-personagem-do-tipo-papercharacter)
+  - [Ajustando os componentes](#ajustando-os-componentes)
+  - [Variáveis do personagem](#variáveis-do-personagem)
   - [10.1. Implementando a lógica de animação do personagem do tipo PaperCharacter](#101-implementando-a-lógica-de-animação-do-personagem-do-tipo-papercharacter)
   - [10.2. Implementando o canhão](#102-implementando-o-canhão)
 
@@ -326,13 +328,13 @@ No **Unreal Engine 4**, os `Flipbooks` consistem em uma série de quadros-chave,
 ### 9.1. Extraindo as animações de arquivo
 
 {% include imagelocal.html
-    src="unreal/animacao/samurai_run.png"
-    alt="Figura: Arquivo Samurai.png."
+    src="unreal/animacao/samurai_run.wepb"
+    alt="Figura: Arquivo Samurai."
     caption="Para exemplificar vamos utilizar o arquivo acima com um sequência de poses de um personagem."
     ref="https://craftpix.net/freebies/free-samurai-pixel-art-sprite-sheets/"
 %}
 
-1. Extrai o arquivo em qualquer pasta e copie o conteúdo para a dentro do projeto na pasta `Characteres\Samurai\Textures`;
+1. Extrai o arquivo em qualquer pasta e copie o conteúdo para a dentro do projeto na pasta `Characters\Samurai\Textures`;
 
 1. Utilizando o `Content Browser` selecione o arquivo `run.png` e acionando o menu de contexto selecione `Sprite Actions` > `Extract Sprites`;
 
@@ -342,7 +344,7 @@ No **Unreal Engine 4**, os `Flipbooks` consistem em uma série de quadros-chave,
     caption="Utilize a opção Sprite Extract Mode Auto para que o programa selecione automaticamente as imagens que correspondem a uma pose do personagem e clique em Extract para completar a operação."
 %}
 
-1. Copie os arquivos extraídos para a pasta `Characteres\Samurai\Sprites`;
+Copie os arquivos extraídos para a pasta `Characters\Samurai\Sprites`;
 
 ### 9.2. Animação de corrida usando os sprites extraídos do arquivo
 
@@ -358,69 +360,77 @@ No **Unreal Engine 4**, os `Flipbooks` consistem em uma série de quadros-chave,
     caption="Sequencia de sprites."
 %}
 
+Salve o arquivo com o nome PFB_Run na pasta `Characters\Samurai\Logic` e repita a ação para as diversas poses que o personagem deve apresentar, como por exemplo PFB_Idle, PFB_Attack e outros.
+
 ## 10. Adicionando e configurando o personagem do tipo PaperCharacter
 
 ***
 
-Neste passo vamos adicionar um personagem do tipo `Paper Character` para ser o player principal do projeto.
+Neste passo vamos adicionar um personagem do tipo `Paper Character` que deve ser a base (pai) de outros personagens, por conseguinte a classe deve ser salva na pasta `Core\Characters` com o nome BP_CharacterBase.
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper_character.webp"
     alt="Figura: Classe PaperCharacter."
-    caption="Selecionando a classe PaperCharacter."
+    caption="Esta classe apresenta componentes e específicos para a movimentação e animação do personagem."
 %}
 
-Os componentes e parâmetros são diferentes aos do `Character` com malhas/*Mesh* então vamos adicionar e configurar os seguintes componentes:
+### Ajustando os componentes
 
-1. `Sprite`.
+Os componentes e parâmetros são diferentes então vamos adicionar e configurar os seguintes componentes para exemplificar:
 
-    - `Source Flipbook`: FB_Animacao_idle criado anteriormente.
+`Sprite`
 
-1. `Camera`;
+- `Source Flipbook`: PFB_idle criado anteriormente.
 
-    - `Projection mode` - Orthographic;
+`Camera`
 
-    - `Ortho Width` - 1024;
+- `Projection mode` = Orthographic;
 
-1. `SpringArm`;
+- `Ortho Width` = 1024;
 
-    - `Do Collision Set` - False;
+`SpringArm`;
 
-    - `Rotation` - Z= (-90);  
+- `Do Collision Set` = False;
 
-    - `Target Arm Length` - 1000;
+- `Rotation` (Z) = (-90);  
 
-    - `Inherit Yaw` - False (**Importante para a movimentação em Z (Yaw)**).
+- `Target Arm Length` = 150;
 
-1. `Capsule` - Temos que ajustar o tamanho da capsula para a largura e altura do *sprite*.
+- `Inherit Yaw` = False (**Importante para a movimentação em Z (Yaw)**).
 
-    - `Capsule Half Height`;
+`Capsule`
 
-    - `Capsule Radius`;
+Temos que ajustar o tamanho da capsula para a largura e altura do *sprite*.
 
-1. `Character Movement`.
+- `Capsule Half Height` = Ajuste ao personagem;
 
-    - `Use Flat Base for floor Checks` - true;
+- `Capsule Radius` = Ajuste ao personagem;
 
-    - `Gravity Scale` - 2;  
+`Character Movement`
 
-    - `Jump Z Velocity` - 1000;
+- `Use Flat Base for floor Checks` = true;
 
-    - `Constraint to Plane`- true;
+- `Gravity Scale` = 2;  
 
-    - `Plane Constraint Normal` - Y=(-1);
+- `Jump Z Velocity` = 1000;
 
-1. Adicione as seguintes variáveis.
+- `Constraint to Plane` = true;
 
-   - Category = Character
+- `Plane Constraint Normal` (Y) =(-1);
 
-        - fHealth (Float) = 100;
+### Variáveis do personagem
 
-        - cColor (Color);
+Para definir as características ou propriedades do personagem vamos criar variáveis com os seguintes valores separados por categoria:
 
-        - tImage (Texture 2D);
+`Category` - Character
 
-        - sSound (Sound Cue);
+- fHealth (Float) = 100;
+
+- cColor (Color);
+
+- tImage (Texture 2D);
+
+- sSound (Sound Cue);
 
 ### 10.1. Implementando a lógica de animação do personagem do tipo PaperCharacter
 
@@ -431,7 +441,7 @@ Vamos criar uma variável `Enumeration` para controlar o estado da animação:
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_enum_state.webp"
     alt="Figura: Enumeration EStateCharacter."
-    caption="Implementando um Enumeration para os estados do personagem."
+    caption="A variável deve armazenar os estados ou poses do personagem."
 %}
 
 - Idle;
@@ -478,7 +488,7 @@ Abaixo a lógica da função `Animation State Machine`;
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_function_state_machine.webp"
-    alt="Function State Machine."
+    alt="Figura: Function State Machine."
     caption="Lógica Blueprint dos estados do personagem."
 %}
 
