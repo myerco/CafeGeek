@@ -8,12 +8,6 @@ author:
 layout: post
 ---
 
-{% include logo.html
-    src="cafegeek_small.webp"
-    alt="Figura: Cafegeek"
-    height="100"
-    width="100"
-%}
 
 “Rescue or die trying”
 
