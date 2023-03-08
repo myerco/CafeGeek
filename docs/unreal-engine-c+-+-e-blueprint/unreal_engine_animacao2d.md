@@ -29,10 +29,10 @@ date: 2022-10-03
   - [9.1. Extraindo as animações de arquivo](#91-extraindo-as-animações-de-arquivo)
   - [9.2. Animação de corrida usando os sprites extraídos do arquivo](#92-animação-de-corrida-usando-os-sprites-extraídos-do-arquivo)
 - [10. Adicionando e configurando o personagem do tipo PaperCharacter](#10-adicionando-e-configurando-o-personagem-do-tipo-papercharacter)
-  - [Ajustando os componentes](#ajustando-os-componentes)
-  - [Variáveis do personagem](#variáveis-do-personagem)
-  - [10.1. Implementando a lógica de animação do personagem do tipo PaperCharacter](#101-implementando-a-lógica-de-animação-do-personagem-do-tipo-papercharacter)
-  - [10.2. Implementando o canhão](#102-implementando-o-canhão)
+  - [10.1. Ajustando os componentes](#101-ajustando-os-componentes)
+  - [10.2. Variáveis do personagem](#102-variáveis-do-personagem)
+  - [10.3. Implementando a lógica de animação do personagem do tipo PaperCharacter](#103-implementando-a-lógica-de-animação-do-personagem-do-tipo-papercharacter)
+  - [10.4. Implementando o canhão](#104-implementando-o-canhão)
 
 ***
 
@@ -374,7 +374,7 @@ Neste passo vamos adicionar um personagem do tipo `Paper Character` que deve ser
     caption="Esta classe apresenta componentes e específicos para a movimentação e animação do personagem."
 %}
 
-### Ajustando os componentes
+### 10.1. Ajustando os componentes
 
 Os componentes e parâmetros são diferentes então vamos adicionar e configurar os seguintes componentes para exemplificar:
 
@@ -418,7 +418,7 @@ Temos que ajustar o tamanho da capsula para a largura e altura do *sprite*.
 
 - `Plane Constraint Normal` (Y) =(-1);
 
-### Variáveis do personagem
+### 10.2. Variáveis do personagem
 
 Para definir as características ou propriedades do personagem vamos criar variáveis com os seguintes valores separados por categoria:
 
@@ -432,7 +432,7 @@ Para definir as características ou propriedades do personagem vamos criar vari�
 
 - sSound (Sound Cue);
 
-### 10.1. Implementando a lógica de animação do personagem do tipo PaperCharacter
+### 10.3. Implementando a lógica de animação do personagem do tipo PaperCharacter
 
 Neste passo vamos implementar a animação do personagem e definir um objeto de controle de estados de animação utilizando uma variável `Enumeration`.
 
@@ -492,7 +492,7 @@ Abaixo a lógica da função `Animation State Machine`;
     caption="Lógica Blueprint dos estados do personagem."
 %}
 
-### 10.2. Implementando o canhão
+### 10.4. Implementando o canhão
 
 Neste passo vamos implementar um canhão que localiza e atira no player.
 

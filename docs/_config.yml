@@ -51,9 +51,13 @@ defaults:
       sitemap:  false
 
 # --- Web Analytics Section --- #
-gtag:  ${{ secrets.TAG_GOOGLE }}
-google_analytics:  ${{ secrets.TAG_GOOGLE }}
-google_ad_client: ${{ secrets.ADS_GOOGLE }}
+##gtag:  ${{ secrets.TAG_GOOGLE }}
+##google_analytics:  ${{ secrets.TAG_GOOGLE }}
+##google_ad_client: ${{ secrets.ADS_GOOGLE }}
+
+gtag: G-FKWKZK87NF
+google_analytics: G-FKWKZK87NF
+google_ad_client: pub-1100369589778670
 
 url: "https://cafegeek.eti.br"
 baseurl: "/"
