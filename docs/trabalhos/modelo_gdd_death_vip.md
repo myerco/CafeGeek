@@ -53,7 +53,7 @@ layout: post
 
 Distribuição : PC.
 
-Desenvolvimento: Unreal Engine.
+Desenvolvimento: Unreal Engine 5.1.
 
 ### 1.2. Faixa Etária
 
@@ -118,9 +118,26 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 
 ### 2.2. Produtos concorrentes
 
-- Left for dead;
+{% include image.html
+    src="https://files.tecnoblog.net/wp-content/uploads/2020/08/left-4-dead-2-700x410.jpg"
+    alt="Figura: Left 4 Dead 2"
+    caption="Left 4 Dead 2 (2009) foi um grande hit no Steam pela ação frenética, hordas inesgotáveis de zumbis e multiplayer viciante. Graças à comunidade do jogo, L4D2 sobrevive até hoje. Após mais de 10 anos do último update oficial, a Valve anuncia The Last Stand, uma atualização criada pela própria comunidade, mas agora com a benção da produtora."
+    ref="https://tecnoblog.net/noticias/2020/08/27/left-4-dead-2-ganha-novo-conteudo-oficial-apos-mais-de-10-anos/"
+%}
 
-- COD Zumbi.
+{% include image.html
+    src="https://cdn.ome.lt/R0Dw7kFWpecfx7gE1agWHPsmwVg=/770x0/smart/uploads/conteudo/fotos/Call-of-Duty-Infinite-Warfare-Zombies-1.jpg"
+    alt="Figura: Call of Duty."
+    caption="Inspirado nos anos 1980, Zombies in Spaceland é situado em instigante parque de diversões."
+    ref="https://www.theenemy.com.br/call-of-duty/call-of-duty-infinite-warfare/jogamos-novo-modo-zumbi-de-call-of-duty-e-mais-maluco-do-que-nunca"
+%}
+
+{% include image.html
+    src="https://sobresagas.com.br/wp-content/uploads/2023/03/filme-lagrimas-do-sul-netflix.jpg"
+    alt="Figura: Lágrimas do Sol."
+    caption="Lançado há 20 anos, filme de ação surpreende e emociona público da Netflix: Bom, porém pesado."
+    ref="https://sobresagas.com.br/lancado-20-anos-lagrimas-do-sol-sucesso-netflix/"
+%}
 
 ## 3. Objetivos
 
@@ -219,6 +236,13 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 
 ### 6.1. Interface (HUD)
 
+{% include image.html
+    src="https://www.pcinvasion.com/wp-content/uploads/2017/03/ghost-recon-wildlands-2.png?resize=1024%2C576"
+    alt="Figura: Ghost Recon Wildlands."
+    caption="HUD baseado no jogo."
+    ref="https://www.pcinvasion.com/ghost-recon-wildlands-pc-technical-review/"
+%}
+
 - Medidor de Saúde do personagem;
 
 - Lista de membros da equipe com medidor de saúde;
@@ -230,6 +254,13 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 - Mini Mapa com localização de objetivos e itens (somente o VIP).
 
 ### 6.2. Câmera
+
+{% include image.html
+    src="https://i0.wp.com/gamehall.com.br/wp-content/uploads/2017/03/ghost-recon-wildlands-pc.jpg?resize=780%2C470&ssl=1"
+    alt="Figura: Ghost Recon Wildlands."
+    caption="Movimentação de Câmera."
+    ref="https://gamehall.com.br/trailer-de-ghost-recon-wildlands-mostra-recursos-graficos-da-versao-para-pc/"
+%}
 
 - Movimentação em 180º;
 
@@ -259,18 +290,19 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 
 ### 7.2. Mapas
 
-- A Selva
-  - Selva tropical
-    - Áreas para se abrigar
-    - MAPA GRANDE
-- A Vila
-  - Vilarejo pequeno
-    - Combate nas ruas do vilarejo
-    - MAPA GRANDE - área fora do vilarejo
-- A favela
-  - Favela
-  - Combate urbano
-    - MAPA GRANDE
+{% include image.html
+    src="https://recreio.uol.com.br/media/_versions/legacy/2020/02/28/floresta-tropical-1220899_widelg.jpeg"
+    alt="Figura: Selva tropical do Brasil"
+    caption="Considerando uma área grande de combate."
+    ref="https://recreio.uol.com.br/noticias/natureza/floresta-tropical-saiba-tudo-sobre-esse-bioma.phtml"
+%}
+
+{% include image.html
+    src="https://1.bp.blogspot.com/-xxgmTBRaC8M/Xx3nOYmuTyI/AAAAAAAA2Ss/XVMinUn06HMlk58dCJsdvrE3RXHzzYaQwCLcBGAsYHQ/w625-h386/Rua%2Bem%2BSanto%2BAntonio%2Bdo%2BMadeira%2Bb.jpg"
+    alt="Figura: A Vila em Porto Velho"
+    caption="Área pequena com ruas estreitas."
+    ref="http://trilhosderondonia.blogspot.com/2011/09/um-pouco-de-historia-o-povoado-de-santo.html"
+%}
 
 ### 7.3. Experiência e Level
 
@@ -286,6 +318,13 @@ Não definido.
 - Quando captura um membro da equipe ri de forma sinistra;
 
 ### 7.5. Modelos
+
+{% include image.html
+    src="https://cdn.blog.estrategiavestibulares.com.br/vestibulares/wp-content/uploads/2021/03/operadores-forcas-especiais-1024x683.jpg"
+    alt="Figura: Forças Especiais Brasileiras."
+    caption="O jogo utiliza utiliza esses modelos."
+    ref="https://militares.estrategia.com/portal/mundo-militar/carreiras-e-especializacoes/forcas-especiais-brasileiras/"
+%}
 
 - EAS - Equipe principal com uniformes do exército brasileiro
 
@@ -323,6 +362,19 @@ Não definido.
 - `Content` \ `ProjetoAula` \ `Art` \ `Office`
 - `Content` \ `ProjetoAula` \ `Characters`
 - `Content` \ `ProjetoAula` \ `Characters` \ `Lieutenant`
+- `Content` \ `ProjetoAula` \ `Characters` \ `Lieutenant` \ `Animations`
+- `Content` \ `ProjetoAula` \ `Characters` \ `Lieutenant` \ `Mesh`
+- `Content` \ `ProjetoAula` \ `Characters` \ `Lieutenant` \ `Material`
+- `Content` \ `ProjetoAula` \ `Core` \ `Engine`
+- `Content` \ `ProjetoAula` \ `Core` \ `Characters`
+- `Content` \ `ProjetoAula` \ `Core` \ `Itens`
+- `Content` \ `ProjetoAula` \ `Core` \ `Datasets`
+- `Content` \ `ProjetoAula` \ `HUD`
+- `Content` \ `ProjetoAula` \ `HUD` \ `Life`
+- `Content` \ `ProjetoAula` \ `HUD` \ `MainMenu`
+- `Content` \ `ProjetoAula` \ `HUD` \ `SettingsMenu`
+- `Content` \ `ProjetoAula` \ `HUD` \ `ExitMenu`
+- `Content` \ `ProjetoAula` \ `Maps`
 
 ```cpp
 class Lieutenant : public BP_PlayerBase {};
