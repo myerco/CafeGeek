@@ -119,6 +119,8 @@ Neste curso apresentaremos conceitos de computação gráfica aplicados na prát
 - Como são formados os objetos em gráficos 3D.
 - Processo de renderização no Unreal Engine.
 
+***
+
 ## 2. Como são formados os objetos 3D
 
 Neste capitulo será apresentados os elementos que constituem uma imagem 3D utilizando como exemplo softwares como o Unreal Engine e Maya Autodesk.
@@ -337,7 +339,7 @@ Somente é possível selecionar faces e vértices de objetos do tipo `Geometry` 
 
 É necessário habilitar as opções de edição em `Modes` >  `Brush Editing`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_select_face_geometry.jpg"
     alt="Figura: Unreal Engine Faces de objetos."
     caption="Para editar a face no Unreal Engine utilize Modes > Brush Editing"
@@ -349,21 +351,21 @@ São segmentos de reta que são as intersecções de duas faces contíguas.
 
 #### 2.9.1. Arestas no Maya
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_maya_select_edge.jpg"
     alt="Figura: Maya e arestas."
     caption="Para selecionar utilize RMB a opção Edge."
 %}
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_maya_edge.jpg"
-    alt="Figura: Maya select Edge - Autor."
+    alt="Figura: Maya select Edge."
     caption="Selecionando a aresta é possível e manipular-la."
 %}
 
 #### 2.9.2. Arestas no Unreal Engine
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_select_edge.jpg"
     alt="Figura: Unreal Engine Aresta."
     caption="Utilizamos - Modes > Brush Editing > Select Edge."
@@ -375,26 +377,24 @@ São os pontos de encontro das arestas.
 
 #### 2.10.1. Vértices no Maya
 
-Selecionamos com RMB a opção `Vertex`.
-
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_maya_select_vertex.jpg"
-    alt="Figura: Maya RMB Vertex - Autor."
-    caption="Figura: Maya RMB Vertex - Autor."
+    alt="Figura: Maya RMB Vertex."
+    caption="Selecionamos com RMB a opção Vertex."
 %}
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_maya_vertex.jpg"
-    alt="Figura: Maya select vertex - Autor."
-    caption="Figura: Maya select vertex - Autor."
+    alt="Figura: Maya select vertex."
+    caption="Selecionando um vértice."
 %}
 
 #### 2.10.2. Vértices no Unreal Engine
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_select_vertex.jpg"
-    alt="Figura: Unreal Engine select Vertex - Autor."
-    caption="Figura: Unreal Engine select Vertex - Autor."
+    alt="Figura: Unreal Engine select Vertex."
+    caption="Brush Editing."
 %}
 
 ### 2.11. Valores de ponto flutuante
@@ -405,7 +405,8 @@ A natureza aproximada dos números de ponto flutuante geralmente levanta sua cab
 {% include image.html
     src="https://media.geeksforgeeks.org/wp-content/uploads/Single-Precision-IEEE-754-Floating-Point-Standard.jpg"
     alt="Figura: Média."
-    caption="Figura: <https://media.geeksforgeeks.org>."
+    caption="Precisão de valores ponto flutuante."
+    ref="https://media.geeksforgeeks.org"
 %}
 
 ### 2.12. Sistemas de coordenadas
@@ -414,8 +415,9 @@ Objetos em Computação Gráfica possuem descrições numéricas (modelos) que c
 
 {% include image.html
     src="https://www.tutorialspoint.com/computer_graphics/images/3d_coordinates.jpg"
-    alt="Figura: Tutorial spoint."
-    caption="Figura: <ttps://www.tutorialspoint.com>."
+    alt="Figura: Coordenadas."
+    caption="Sistema X,Y e Z."
+    ref="https://www.tutorialspoint.com"
 %}
 
 Normalmente, os softwares de elementos gráficos 3D, como por exemplo Maya ou Blender,  usam um dos dois tipos de sistemas de coordenadas cartesianas de esquerda e direita. Em ambos os sistemas de coordenadas, o eixo x positivo aponta para a direita e o eixo y positivo aponta para cima.
@@ -426,8 +428,9 @@ Você pode lembrar para qual direção o eixo z positivo aponta, apontando os de
 
 {% include image.html
     src="https://docs.microsoft.com/pt-br/windows/uwp/graphics-concepts/images/leftrght.png"
-    alt="Figura: Microsoft."
-    caption="Figura: <https://docs.microsoft.com>."
+    alt="Figura: Left-handed e Right-handed."
+    caption="Determinado a organização de coordenadas utilizando a mão"
+    ref="https://docs.microsoft.com"
 %}
 
 - **Unreal Engine** - Utiliza o sistema de coordenadas *Left-Handed*;
@@ -441,10 +444,10 @@ Pivot é um ponto que marca o centro de objetos tridimensionais no Maya, onde :
 - Todas as transformações de um objeto são relativas ao ponto de pivô do objeto;
 - Os manipuladores 3D também contam com o ponto de pivô do objeto.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_maya_pivot.jpg"
-    alt="Figura: Maya select pivot (Selecione W e depois Tecla Insert ou D)- Autor."
-    caption="Figura: Maya select pivot (Selecione W e depois Tecla Insert ou D)- Autor."
+    alt="Figura: Maya select pivot."
+    caption="Selecione o pivot usando a tecla W e depois Tecla Insert ou D."
 %}
 
 ### 2.15. Pivot - O centro do objeto 3D no Unreal Engine
@@ -460,6 +463,7 @@ Por padrão, o [Windows GDI](https://pt.wikipedia.org/wiki/GDI) usa o espaço de
 Em computação gráfica, muitas vezes é conveniente usar as cores HLS e HSV.
 
 - HLS: matiz, leveza, saturação;
+  
 - HSV: matiz,saturação,valor.
 
 ### 2.17. Transparência com Alpha
@@ -470,9 +474,12 @@ Quando um pixel é totalmente opaco, seu valor alfa é 1 . 0 e este pixel comple
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Alpha_compositing.svg/963px-Alpha_compositing.svg.png"
-    alt="Figura: Alpha compositing - wikipedia."
-    caption="Figura: Alpha compositing - wikipedia."
+    alt="Figura: Alpha compositing."
+    caption="Sobreposição de elementos."
+    ref="https://en.wikipedia.org/wiki/Alpha_compositing"
 %}
+
+***
 
 ## 3. Entendendo o processo de rendenrização
 
@@ -480,12 +487,12 @@ Neste capitulo serão apresentados quais são os passos para processamento de im
 
 ### 3.1. Entendendo como os processos são executados pelo sistema operacional
 
-Em computação, um processo é uma instância de um programa de computador que está sendo executada. Ele contem o código do programa e sua atividade atual. Dependendo do sistema operacional, um processo pode ser feito de várias linhas de execução que executam instruções concorrentemente. O sistema operacional seleciona um processo da fila de aptos para receber o processador. O processo selecionado passa do estado de apto para o estado executando. O módulo do sistema operacional que faz essa seleção é chamado de escalonador.
+Em computação, um processo é uma instância de um programa de computador que está sendo executado. Ele contem o código do programa e sua atividade atual. Dependendo do sistema operacional, um processo pode ser feito de várias linhas de execução que executam instruções concorrentemente. O sistema operacional seleciona um processo da fila de aptos para receber o processador. O processo selecionado passa do estado de apto para o estado executando. O módulo do sistema operacional que faz essa seleção é chamado de escalonador.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/ue4_cpu_processos.jpg"
-    alt="Figura: Fila de Processos  - Autor."
-    caption="Figura: Fila de Processos  - Autor."
+    alt="Figura: Fila de Processos. "
+    caption="Fluxo de execução de processos."
 %}
 
 - **Criado** - Enquanto o processo está sendo criado, esse é seu estado;
@@ -498,31 +505,36 @@ Em computação, um processo é uma instância de um programa de computador que 
 
 ### 3.2. O processo de renderização pela GPU
 
-A renderização GPU torna possível usar sua placa de vídeo para renderização, ao invés da CPU. Isso pode acelerar a renderização, porquê as GPUs modernas são desenhadas para fazer muito processamento de números. Por outro lado, elas também têm algumas limitações na renderização de cenas complexas devido à memória mais limitada, e questões com interatividade quando usando a mesma placa de vídeo para visualização e renderização. A renderização ocorre mediante o envio de comandos para a GPU, que gera a tela de forma assíncrona. Em algumas situações, a GPU pode ter muito trabalho para fazer, e a CPU terá de aguardar antes de enviar novos comandos.
+A renderização GPU torna possível usar sua placa de vídeo para renderização, ao invés da CPU. Isso pode acelerar a renderização, porquê as GPUs modernas são desenhadas para fazer muito processamento de números. Por outro lado, elas também têm algumas limitações na renderização de cenas complexas devido à memória mais limitada, e questões com interatividade quando usando a mesma placa de vídeo para visualização e renderização.
 
-{% include imagebase.html
+A renderização ocorre mediante o envio de comandos para a GPU, que gera a tela de forma assíncrona. Em algumas situações, a GPU pode ter muito trabalho para fazer, e a CPU terá de aguardar antes de enviar novos comandos.
+
+{% include imagelocal.html
     src="computacao_grafica/ue4_gpu_pipeline.jpg"
-    alt="Figura: Pipeline de computação de gráfica - Autor."
-    caption="Figura: Pipeline de computação de gráfica - Autor."
+    alt="Figura: Pipeline de computação de gráfica."
+    caption="Fluxo de trabalho do processo de renderização."
 %}
 
 ### 3.3. Aplicação
 
 Etapa de toda a lógica da mecânica dos elementos que são apresentados.
 
-- **Animations** - Animações calcula quando as Animações iniciam e terminam;
-- **System Coordinates** - Posição de modelos calcula a posição dos objetos e sua influência;
+- **Animations** - Calcula quando as Animações iniciam e terminam;
+- **System Coordinates** - Calcula a posição dos objetos e sua influência;
 - **Artificial intelligence** - Inteligência Artificial determina como o objeto se movimenta e qual o seu estado;
-- **Spawn and Hide objects** - Ou Criar e destruir objetos é a lógica necessária para determinar onde os objetos aparecem no mundo.
+- **Spawn and Hide objects** - Criar e destruir objetos é a lógica necessária para determinar onde os objetos aparecem no mundo.
 
 ### 3.4. Geometria
 
-A etapa de geometria (com pipeline de geometria), que é responsável pela maioria das operações com polígonos e seus vértices (com pipeline de vértices), pode ser dividida nas tarefas a seguir. Depende da implementação específica de como essas tarefas são organizadas como etapas reais do pipeline paralelo.
+A etapa de geometria (com pipeline de geometria), é responsável pela maioria das operações com polígonos e seus vértices (com pipeline de vértices), pode ser dividida nas tarefas a seguir. Depende da implementação específica de como essas tarefas são organizadas em pipeline paralelo.
 
-- **Model 3D** - Modelo 3D é o processo onde os objetos são desenhados na cena, entre eles vértices, triângulos e o sistema de coordenadas.
-- **Distance Culling** - *Distance Culling* ou Corte de Distância Remove objetos que estão além de um valor X da câmera.
-- **Frustim Culling** - *Frustim Culling* ou Corte de câmera remove objetos que não estão a frente da câmera.
-- **Occlusion Culling** - *Occlusion Culling* ou Corte de oclusão é o processo que desativa a renderização de objetos quando eles não são vistos pela câmera porque estão obscurecidos (obstruídos) por outros objetos. Isso não acontece automaticamente na computação gráfica 3D, pois na maioria das vezes os objetos mais distantes da câmera são desenhados primeiro e os objetos mais próximos são desenhados por cima deles (isso é chamado de “overdraw”).
+- **Model 3D** - Modelo 3D é o processo onde os objetos são desenhados na cena, entre eles vértices, triângulos e o sistema de coordenadas;
+  
+- **Distance Culling** - Ou Corte de Distância Remove objetos que estão além de um valor X da câmera;
+  
+- **Frustim Culling** - Ou Corte de Câmera remove objetos que não estão a frente da câmera;
+  
+- **Occlusion Culling** - Ou Corte de oclusão é o processo que desativa a renderização de objetos quando eles não são vistos pela câmera porque estão obscurecidos (obstruídos) por outros objetos. Isso não acontece automaticamente na computação gráfica 3D, pois na maioria das vezes os objetos mais distantes da câmera são desenhados primeiro e os objetos mais próximos são desenhados por cima deles (isso é chamado de “overdraw”).
 
 ### 3.5. Renderização
 
