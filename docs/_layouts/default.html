@@ -6,12 +6,14 @@
   <body>
 
     {%- include header.html -%}
+    <div class="sidebar sticky">
+      <section>
+        {%- include menu.html -%}
+      </section>
+    </div>
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-          <section>
-            {%- include menu.html -%}
-          </section>
           <section>
               {{ content }}
           </section>

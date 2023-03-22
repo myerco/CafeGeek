@@ -330,6 +330,45 @@
   }
 }
 
+/**
+Sidebar
+*/
+
+@media (min-width: 64em) {
+  .sidebar.sticky {
+    overflow-y: auto;
+    max-height: calc(100vh - 2em - 2em);
+  }
+}
+
+@media (min-width: 80em) {
+  .sidebar {
+    width: calc(300px - 1em);
+  }
+}
+
+@media (min-width: 64em) {
+  .sidebar {
+    float: left;
+    width: calc(200px - 1em);
+    opacity: 0.75;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+  }
+}   
+
+.sidebar {
+  clear: both;
+}
+
+@media (min-width: 64em) {
+  .sticky {
+    clear: both;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2em;
+  }
+}  
 
 
 /**
