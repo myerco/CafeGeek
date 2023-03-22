@@ -49,6 +49,13 @@ defaults:
       path: "google*"
     values:
       sitemap:  false
+  # _docs
+  - scope:
+      path: ""
+      type: post
+    values:
+      sidebar:
+        nav: "docs"      
 
 # --- Web Analytics Section --- #
 ##gtag:  ${{ secrets.TAG_GOOGLE }}

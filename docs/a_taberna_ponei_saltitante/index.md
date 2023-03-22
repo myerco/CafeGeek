@@ -11,75 +11,75 @@ date: 2022-11-18
 
 ***
 
-- [Conhecendo a Taberna](#conhecendo-a-taberna)
-  - [Introdução](#introdução)
-  - [Habilidades que serão aprendidas](#habilidades-que-serão-aprendidas)
-  - [O projeto](#o-projeto)
-  - [A cidade de Bree](#a-cidade-de-bree)
-  - [Taverna do Pônei Saltitante e o projeto](#taverna-do-pônei-saltitante-e-o-projeto)
-  - [Detalhes dos atributos](#detalhes-dos-atributos)
-  - [Necessidades](#necessidades)
-- [O modelo de dados](#o-modelo-de-dados)
-  - [Existem diversos tipos de modelos de banco de dados, entre eles](#existem-diversos-tipos-de-modelos-de-banco-de-dados-entre-eles)
-  - [Processo de Desenvolvimento de Banco de dados](#processo-de-desenvolvimento-de-banco-de-dados)
-  - [Modelo Lógico](#modelo-lógico)
-    - [Elementos do modelo lógico](#elementos-do-modelo-lógico)
-  - [Modelo Físico](#modelo-físico)
-  - [Comparando os modelos](#comparando-os-modelos)
-  - [Banco de Dados Relacional](#banco-de-dados-relacional)
-- [Criando o modelo de dados](#criando-o-modelo-de-dados)
-  - [A Regra de negócio](#a-regra-de-negócio)
-  - [Mãos a obra](#mãos-a-obra)
-    - [Pedidos dos clientes](#pedidos-dos-clientes)
-    - [Registro de Funcionários](#registro-de-funcionários)
-    - [Cargos dos Funcionários](#cargos-dos-funcionários)
-    - [Registro de classificação de clientes](#registro-de-classificação-de-clientes)
-    - [E-mail dos Clientes](#e-mail-dos-clientes)
-  - [Regras e restrições](#regras-e-restrições)
-- [O SQLDeveloper com PostgreSQL](#o-sqldeveloper-com-postgresql)
-  - [Instalação no linux Ubuntu](#instalação-no-linux-ubuntu)
-  - [Instalando no Windows](#instalando-no-windows)
-  - [Data Modeler](#data-modeler)
-- [O modelo lógico](#o-modelo-lógico)
-  - [Entidade](#entidade)
-  - [Representação no modelo lógico](#representação-no-modelo-lógico)
-  - [Representação no modelo relacional (Tabela)](#representação-no-modelo-relacional-tabela)
-    - [Tabela Cliente](#tabela-cliente)
-  - [Restrições](#restrições)
-- [Os relacionamentos](#os-relacionamentos)
-  - [Tipos de atributos](#tipos-de-atributos)
-    - [Simples](#simples)
-    - [Compostos](#compostos)
-    - [Monovalorados](#monovalorados)
-    - [Multivalorado](#multivalorado)
-    - [Atributos nulos](#atributos-nulos)
-    - [Atributo derivado](#atributo-derivado)
-  - [Restrições de atributos](#restrições-de-atributos)
-  - [Representação](#representação)
-- [Chave primária](#chave-primária)
-- [Especializações](#especializações)
-  - [Especialização](#especialização)
-    - [Generalização](#generalização)
-- [Cardinalidade](#cardinalidade)
-  - [Um para Um](#um-para-um)
-  - [Um para muitos](#um-para-muitos)
-  - [Muitos para muitos](#muitos-para-muitos)
-  - [Auto-relacionamento Um-para-Muitos](#auto-relacionamento-um-para-muitos)
-  - [Auto-relacionamento Muitos-para-Muitos.Muitos para muitos](#auto-relacionamento-muitos-para-muitosmuitos-para-muitos)
-  - [Formas Normais](#formas-normais)
-    - [Primeira forma normal (1FN)](#primeira-forma-normal-1fn)
-      - [Dependência funcional](#dependência-funcional)
-    - [Segunda forma normal (2FN)](#segunda-forma-normal-2fn)
-    - [Terceira forma normal (3FN)](#terceira-forma-normal-3fn)
-    - [Forma Normal de Boyce/Codd](#forma-normal-de-boycecodd)
-    - [Quarta Forma Normal (4FN)](#quarta-forma-normal-4fn)
-- [Referências](#referências)
+- [1. Conhecendo a Taberna](#1-conhecendo-a-taberna)
+  - [1.1. Introdução](#11-introdução)
+  - [1.2. Habilidades que serão aprendidas](#12-habilidades-que-serão-aprendidas)
+- [2. O projeto](#2-o-projeto)
+  - [2.1. A cidade de Bree](#21-a-cidade-de-bree)
+  - [2.2. Taverna do Pônei Saltitante e o projeto](#22-taverna-do-pônei-saltitante-e-o-projeto)
+  - [2.3. Detalhes dos atributos](#23-detalhes-dos-atributos)
+  - [2.4. Necessidades](#24-necessidades)
+- [3. O modelo de dados](#3-o-modelo-de-dados)
+  - [3.1. Existem diversos tipos de modelos de banco de dados, entre eles](#31-existem-diversos-tipos-de-modelos-de-banco-de-dados-entre-eles)
+  - [3.2. Processo de Desenvolvimento de Banco de dados](#32-processo-de-desenvolvimento-de-banco-de-dados)
+  - [3.3. Modelo Lógico](#33-modelo-lógico)
+    - [3.3.1. Elementos do modelo lógico](#331-elementos-do-modelo-lógico)
+  - [3.4. Modelo Físico](#34-modelo-físico)
+  - [3.5. Comparando os modelos](#35-comparando-os-modelos)
+  - [3.6. Banco de Dados Relacional](#36-banco-de-dados-relacional)
+- [4. Criando o modelo de dados](#4-criando-o-modelo-de-dados)
+  - [4.1. A Regra de negócio](#41-a-regra-de-negócio)
+  - [4.2. Mãos a obra](#42-mãos-a-obra)
+    - [4.2.1. Pedidos dos clientes](#421-pedidos-dos-clientes)
+    - [4.2.2. Registro de Funcionários](#422-registro-de-funcionários)
+    - [4.2.3. Cargos dos Funcionários](#423-cargos-dos-funcionários)
+    - [4.2.4. Registro de classificação de clientes](#424-registro-de-classificação-de-clientes)
+    - [4.2.5. E-mail dos Clientes](#425-e-mail-dos-clientes)
+  - [4.3. Regras e restrições](#43-regras-e-restrições)
+- [5. O SQLDeveloper com PostgreSQL](#5-o-sqldeveloper-com-postgresql)
+  - [5.1. Instalação no linux Ubuntu](#51-instalação-no-linux-ubuntu)
+  - [5.2. Instalando no Windows](#52-instalando-no-windows)
+  - [5.3. Data Modeler](#53-data-modeler)
+- [6. O modelo lógico](#6-o-modelo-lógico)
+  - [6.1. Entidade](#61-entidade)
+  - [6.2. Representação no modelo lógico](#62-representação-no-modelo-lógico)
+  - [6.3. Representação no modelo relacional (Tabela)](#63-representação-no-modelo-relacional-tabela)
+    - [6.3.1. Tabela Cliente](#631-tabela-cliente)
+  - [6.4. Restrições](#64-restrições)
+- [7. Os relacionamentos](#7-os-relacionamentos)
+  - [7.1. Tipos de atributos](#71-tipos-de-atributos)
+    - [7.1.1. Simples](#711-simples)
+    - [7.1.2. Compostos](#712-compostos)
+    - [7.1.3. Monovalorados](#713-monovalorados)
+    - [7.1.4. Multivalorado](#714-multivalorado)
+    - [7.1.5. Atributos nulos](#715-atributos-nulos)
+    - [7.1.6. Atributo derivado](#716-atributo-derivado)
+  - [7.2. Restrições de atributos](#72-restrições-de-atributos)
+  - [7.3. Representação](#73-representação)
+- [8. Chave primária](#8-chave-primária)
+- [9. Especializações](#9-especializações)
+  - [9.1. Especialização](#91-especialização)
+    - [9.1.1. Generalização](#911-generalização)
+- [10. Cardinalidade](#10-cardinalidade)
+  - [10.1. Um para Um](#101-um-para-um)
+  - [10.2. Um para muitos](#102-um-para-muitos)
+  - [10.3. Muitos para muitos](#103-muitos-para-muitos)
+  - [10.4. Auto-relacionamento Um-para-Muitos](#104-auto-relacionamento-um-para-muitos)
+  - [10.5. Auto-relacionamento Muitos-para-Muitos.Muitos para muitos](#105-auto-relacionamento-muitos-para-muitosmuitos-para-muitos)
+  - [10.6. Formas Normais](#106-formas-normais)
+    - [10.6.1. Primeira forma normal (1FN)](#1061-primeira-forma-normal-1fn)
+      - [10.6.1.1. Dependência funcional](#10611-dependência-funcional)
+    - [10.6.2. Segunda forma normal (2FN)](#1062-segunda-forma-normal-2fn)
+    - [10.6.3. Terceira forma normal (3FN)](#1063-terceira-forma-normal-3fn)
+    - [10.6.4. Forma Normal de Boyce/Codd](#1064-forma-normal-de-boycecodd)
+    - [10.6.5. Quarta Forma Normal (4FN)](#1065-quarta-forma-normal-4fn)
+- [11. Referências](#11-referências)
 
 ***
 
-## Conhecendo a Taberna
+## 1. Conhecendo a Taberna
 
-### Introdução
+### 1.1. Introdução
 
 Neste projeto iremos utilizar como exemplo de negócio um empreendimento famoso conhecido na literatura que é a Taberna do Pônei Saltitante localizada na cidade de Bree presente nas obras de J.R.R. Tolkien.
 
@@ -89,7 +89,7 @@ Neste projeto iremos utilizar como exemplo de negócio um empreendimento famoso 
     caption="Figura: O Senhor dos Anéis - <https://pt.wikipedia.org/wiki/O_Senhor_dos_An%C3%A9is>."
 %}
 
-### Habilidades que serão aprendidas
+### 1.2. Habilidades que serão aprendidas
 
 Neste projeto serão apresentadas técnicas de modelagem de banco de dados e dicas importantes para construir uma base de dados organizada evitando redundâncias.
 
@@ -105,7 +105,7 @@ Neste projeto serão apresentadas técnicas de modelagem de banco de dados e dic
 
 > Manipular e construir objetos conceituais facilita a documentação e apresentação de projetos de banco de dados.
 
-### O projeto
+## 2. O projeto
 
 Neste projeto vamos implementar os seguintes elementos :
 
@@ -115,7 +115,7 @@ Neste projeto vamos implementar os seguintes elementos :
   
 - Comandos para construção.
 
-### A cidade de Bree
+### 2.1. A cidade de Bree
 
 {% include imagebase.html
     src="a_taberna_ponei_saltitante/250px-Darek_Zabrocki_-_Morning.webp"
@@ -133,7 +133,7 @@ A cidade de Bree conseguiu se manter prospera próspera no Norte, apesar das gue
 
 É a única região na Terra-média, onde Homens e Hobbits convivem em harmonia e e um importante centro comercial para elfos e anões, que são bens de comércio ou viagens de um reino para outro. O centro econômico e social é a **Taverna do Pônei Saltitante**, conhecida por ter as melhores bebidas do Norte.
 
-### Taverna do Pônei Saltitante e o projeto
+### 2.2. Taverna do Pônei Saltitante e o projeto
 
 {% include image.html
     src="https://3.bp.blogspot.com/-bbFXtl8DLsM/WhswXoihJKI/AAAAAAAANa4/vOl3JpqLHJY9-rgkRmd87yTkF1vUZ2hAgCLcBGAs/s320/tabernaponeisaltitante.jpg"
@@ -163,7 +163,7 @@ Para tal, procura implementar um sistema informatizado para registrar as seguint
   
 - Tabela de preços;
 
-### Detalhes dos atributos
+### 2.3. Detalhes dos atributos
 
 - Os cargos tem um valor para ser acrescido no salário do empregado;
 - Os cargos estão hierarquicamente organizados;
@@ -176,7 +176,7 @@ Para tal, procura implementar um sistema informatizado para registrar as seguint
 - Os pedidos dos clientes são feitos em um caderno e nem sempre resultam em uma venda;
 - Produtos podem ser compostos de outros itens, como por exemplo uma espada com pedras preciosas, aumentando a sua eficácia. Vendemos as pedras em separado também;
 
-### Necessidades
+### 2.4. Necessidades
 
 {% include image.html
     src="http://tolkiengateway.net/w/images/f/fa/Ted_Nasmith_-_At_the_Sign_of_the_Prancing_Pony.jpg"
@@ -191,7 +191,7 @@ Para tal, procura implementar um sistema informatizado para registrar as seguint
 - Quanto cada empregado vendeu por período?
 - Qual o produto mais vendido?
 
-## O modelo de dados
+## 3. O modelo de dados
 
 ***
 
@@ -203,7 +203,7 @@ Sob a estrutura do banco de dados está o modelo de dados: um conjunto de ferram
     caption="Figura: The_Pillars_of_the_Kings - <http://tolkiengateway.net/wiki/Argonath> ."
 %}
 
-### Existem diversos tipos de modelos de banco de dados, entre eles
+### 3.1. Existem diversos tipos de modelos de banco de dados, entre eles
 
 - Modelo de Arquivos flat;
 - Modelo Relacional;
@@ -211,7 +211,7 @@ Sob a estrutura do banco de dados está o modelo de dados: um conjunto de ferram
 - Modelo de Rede;
 - Modelo Orientado a Objeto;
 
-### Processo de Desenvolvimento de Banco de dados
+### 3.2. Processo de Desenvolvimento de Banco de dados
 
 A seguir para descrever os passos do processo para modelar os dados.
 
@@ -220,13 +220,13 @@ A seguir para descrever os passos do processo para modelar os dados.
 - Design de Banco de dados - Construção do Modelo Relacional;
 - Criação do Banco de Dados - Construção do modelo no PostgreSQL utilizando comandos SQL;
 
-### Modelo Lógico
+### 3.3. Modelo Lógico
 
 Tem por base a percepção de que o mundo real é formado por um conjunto de objetos chamados entidades e pelo conjunto dos relacionamentos entre esse objetos.
 
 Tem o objetivo de facilmente ser interpretado por todos os usuários, utilizando diagramas e representações gráficas dos objetos do negócio.
 
-#### Elementos do modelo lógico
+#### 3.3.1. Elementos do modelo lógico
 
 1. Entidades;
 1. Atributos e a sua opcionalidade;
@@ -241,7 +241,7 @@ Exemplo:
     caption="Figura: Modelo lógico."
 %}
 
-### Modelo Físico
+### 3.4. Modelo Físico
 
 Estende detalhes do modelo de lógico e tem as seguintes características:
 
@@ -258,7 +258,7 @@ Exemplo:
     caption="Figura: Modelo físico."
 %}
 
-### Comparando os modelos
+### 3.5. Comparando os modelos
 
 | Análise              | Design                    |
 | :------------------- | :------------------------ |
@@ -271,7 +271,7 @@ Exemplo:
 | Relacionamento       | Chave Estrangeira         |
 | Restrição de Negócio | Restrições de Verificação |
 
-### Banco de Dados Relacional
+### 3.6. Banco de Dados Relacional
 
 - Armazena informações em tabelas com linhas e colunas;
 - Uma tabela é uma coleção de registros;
@@ -292,7 +292,7 @@ Exemplo:
 | 1          | 001.546.578-04 | Aragorn Passos Largos | P    | Gondor   | aragorn21@gmail.com, passos.largos@hotmail.com | M       | 35        |
 | 2          | 698.474.456-78 | Arwen de Valfenda     | P    | Valfenda | arwenvalfenda@gmail.com                        | F       | 13        |
 
-## Criando o modelo de dados
+## 4. Criando o modelo de dados
 
 ***
 
@@ -304,14 +304,14 @@ Neste capitulo iremos iniciar a analise das necessidades de negócio utilizando 
     caption="Figura: King under the Mountain - <http://tolkiengateway.net/wiki/King_under_the_Mountain>."
 %}
 
-### A Regra de negócio
+### 4.1. A Regra de negócio
 
 - Permite ao desenvolvedor/arquiteto entender o relacionamento e as restrições das entidades participantes;
 - Ajuda a entender o procedimento de padronização seguido por uma organização ao lidar com um grande volume de dados;
 - Devem ser simples e fáceis de entender;
 - Devem estar atualizadas;
 
-### Mãos a obra
+### 4.2. Mãos a obra
 
 {% include image.html
     src="https://tolkiengateway.net/w/images/4/4f/Angus_McBride_-_Celebrimbor.gif"
@@ -327,7 +327,7 @@ O nosso objetivo é extrair informações da regra de negócio a fim de identifi
 
 A seguir vamos apresentar os objetos extraídos da regra.
 
-#### Pedidos dos clientes
+#### 4.2.1. Pedidos dos clientes
 
 | NÚMERO | DATA       | PRODUTO             | CLIENTE |
 | :----- | :--------- | :------------------ | :------ |
@@ -338,7 +338,7 @@ A seguir vamos apresentar os objetos extraídos da regra.
 - Existe no mundo real no formato de uma agenda;
 - Pode ser detalhado : número do pedido,data do pedido, cliente, valor e produto;
 
-#### Registro de Funcionários
+#### 4.2.2. Registro de Funcionários
 
 | MATRICULA | NOME           | SALÁRIO |
 | :-------- | :------------- | ------: |
@@ -349,7 +349,7 @@ A seguir vamos apresentar os objetos extraídos da regra.
 - Existe no mundo real
 - Pode ser detalhado : identificação ou matricula, nome e salário;
 
-#### Cargos dos Funcionários
+#### 4.2.3. Cargos dos Funcionários
 
 | CARGO ID | NOME              |
 | :------- | :---------------- |
@@ -360,7 +360,7 @@ A seguir vamos apresentar os objetos extraídos da regra.
 - Existe no mundo real no formato de uma tabela (lista), fixada na sala do gerente;
 - Pode ser detalhado : nome do cargo e identificação;
 
-#### Registro de classificação de clientes
+#### 4.2.4. Registro de classificação de clientes
 
 | ID   | NOME     |
 | :--- | :------- |
@@ -372,7 +372,7 @@ A seguir vamos apresentar os objetos extraídos da regra.
 - São classificações de clientes, não existem no formato de listas mas são estão presentes no negócio pois diferenciam o atendimento e os produtos;
 - Pode ser detalhado : nome da raça e uma identificação;
 
-#### E-mail dos Clientes
+#### 4.2.5. E-mail dos Clientes
 
 | EMAIL                               |
 | :---------------------------------- |
@@ -395,7 +395,7 @@ A seguir vamos apresentar os objetos extraídos da regra.
 >
 > Conhecimento.
 
-### Regras e restrições
+### 4.3. Regras e restrições
 
 {% include image.html
     src="http://tolkiengateway.net/w/images/thumb/e/ef/One_ring.png/300px-One_ring.png"
@@ -414,7 +414,7 @@ A seguir vamos apresentar os objetos extraídos da regra.
 | Para cada nota são registrados os produtos vendidos.                                                         | Um produto pode estar em mais de uma nota; Uma nota pode ter mais de um produto; O valor do produto pode ter descontos e acrescimentos.     |
 | Os Clientes tem uma determinada raça; O sexo dos clientes são registrados como M = Masculino e F = Feminino; | Um cliente tem uma raça e uma raça pode estar presente em vários clientes;Somente as letras M ou F podem ser registrados para cada cliente; |
 
-## O SQLDeveloper com PostgreSQL
+## 5. O SQLDeveloper com PostgreSQL
 
 ***
 
@@ -426,7 +426,7 @@ O que é o SQLDeveloper?
 - Permite a implementação de estruturas de banco de dados executando comandos SQL;
 - Construção de modelos lógicos e físicos;
 
-### Instalação no linux Ubuntu
+### 5.1. Instalação no linux Ubuntu
 
 - Instale Java 8;
 - Baixando o  SQLDeveloper Oracle;
@@ -471,7 +471,7 @@ O que é o SQLDeveloper?
   GenericName=ORACLE SQL DEVELOPER
   ```
 
-### Instalando no Windows
+### 5.2. Instalando no Windows
 
 - Baixe o aplicativo de preferência com JDK incluído
 - Descompacte em uma pasta de trabalho, por exemplo: `c:\desenvolvimento\SQLDeveloper`
@@ -479,12 +479,12 @@ O que é o SQLDeveloper?
 - Execute o `SQLDeveloper.exe`;
 - Adicione o driver do PostgreSQL : Menu->Ferramentas->Banco de Dados->Drivers JDBC de Terceiros;
 
-### Data Modeler
+### 5.3. Data Modeler
 
 - Acesse em `Menu` > `Exibir` > `Data Modeler` > `Browser`;
 - Na janela Browser clique no Modelo Lógico com botão direito e escolha Mostrar para que barra de menu apresente as opções de construção de modelos;
 
-## O modelo lógico
+## 6. O modelo lógico
 
 ***
 
@@ -494,7 +494,7 @@ O que é o SQLDeveloper?
     caption="Figura: Estruturas narrativas: O modelo funcional de PROPP."
 %}
 
-### Entidade
+### 6.1. Entidade
 
 {% include imagebase.html
     src="a_taberna_ponei_saltitante/nazgul-charge-lord-of-the-rings-character-riding-horse-wallpaper-preview.webp"
@@ -515,11 +515,11 @@ Exemplo :
 - Produtos (código, endereço, valor)
 - Cidade (id,nome, estado)
 
-### Representação no modelo lógico
+### 6.2. Representação no modelo lógico
 
-### Representação no modelo relacional (Tabela)
+### 6.3. Representação no modelo relacional (Tabela)
 
-#### Tabela Cliente
+#### 6.3.1. Tabela Cliente
 
 | CLIENTE ID | CPF            | Nome                  | Tipo | Endereco |
 | :--------- | :------------- | :-------------------- | :--- | :------- |
@@ -527,14 +527,14 @@ Exemplo :
 | 2          | 787.354.789-55 | Legolas N Valfenda    |      |          |
 | 3          | 000.000.000-00 | Gandalf E Terra Média |      |          |
 
-### Restrições
+### 6.4. Restrições
 
 - Os nomes não podem conter espaços em branco;
 - Não usar caracteres especiais "@#$%¨&*";
 - Não usar palavras reservadas: INSERT, UPDATE, DELETE, SELECT e etc;
 - Tamanho de 30 caracteres;
 
-## Os relacionamentos
+## 7. Os relacionamentos
 
 ***
 
@@ -550,48 +550,48 @@ Atributos são propriedades descritivas de entidades. Cada instância de CLIENTE
 | 2    | 698.474.456-78 | Arwen de Valfenda     | P    | Valfenda    | arwenvalfenda@gmail.com                        | F       | 13        |
 | 3    | 000.000.000-00 | Gandalf o Cinzento    | E    | Terra Média | mago@gmail.com                                 | M       | 500       |
 
-### Tipos de atributos
+### 7.1. Tipos de atributos
 
-#### Simples
+#### 7.1.1. Simples
 
 Expressam um valor indivisível. Exemplo : SEXO_ID
 
-#### Compostos
+#### 7.1.2. Compostos
 
 Expressam mais de um valor, pode ser dividido. Exemplo: NOME e ENDERECO
 
-#### Monovalorados
+#### 7.1.3. Monovalorados
 
 Exemplo : CIDADE_ID para a entidade cliente
 
-#### Multivalorado
+#### 7.1.4. Multivalorado
 
 Pode contar vários valores. Exemplo : EMAIL
 
-#### Atributos nulos
+#### 7.1.5. Atributos nulos
 
 Podem ser nulos. Exemplo : EMAIL
 
-#### Atributo derivado
+#### 7.1.6. Atributo derivado
 
 - O valor deriva de outro atributo. Exemplo : VALOR TOTAL
 - O VALOR TOTAL é construído com outros objetos ou atributos como descontos, acréscimos e A SOMA TOTAL DE TODOS OS PRODUTOS daquela venda.
 
-### Restrições de atributos
+### 7.2. Restrições de atributos
 
 - Os nomes não podem conter espaços em branco;
 - Não usar caracteres especiais "@#$%¨&*";
 - Não usar palavras reservadas: VARCHAR,CHAR,INTEGER e etc;
 - Tamanho de 30 caracteres;
 
-### Representação
+### 7.3. Representação
 
 - \s# = Chave primária ou (P) no modelo relacional;
 - F = Chave estrangeira, somente no modelo relacional;
 - O = Atributo;
 - "*" = Obrigatório;
 
-## Chave primária
+## 8. Chave primária
 
 ***
 
@@ -612,7 +612,7 @@ Chave primária então é o atributo (ou conjunto de atributos concatenados) que
 | 2    | 698.474.456-78 | Arwen de Valfenda     | P    | Valfenda    | arwenvalfenda@gmail.com                        | F       | 13        |
 | 3    | 000.000.000-00 | Gandalf o Cinzento    | E    | Terra Média | mago@gmail.com                                 | M       | 500       |
 
-## Especializações
+## 9. Especializações
 
 ***
 
@@ -622,7 +622,7 @@ Chave primária então é o atributo (ou conjunto de atributos concatenados) que
     caption="Figura: Lord of the rings Luvatar."
 %}
 
-### Especialização
+### 9.1. Especialização
 
 Considere a entidade CLIENTE, ela pode ser definida em um conjunto de entidades classificados como :
 
@@ -651,7 +651,7 @@ Podemos restringir o acesso as colunas e linhas de uma tabela,como por exemplo :
 | :----------------- | :--- | :---------- | :------------- |
 | Gandalf o Cinzento | E    | Terra Média | mago@gmail.com |
 
-#### Generalização
+#### 9.1.1. Generalização
 
 Praticamente a generalização é o inverso da especialização.
 
@@ -694,7 +694,7 @@ Outro exemplo:
 - As Notas Tem Vendedores;
 - Os Vendedores Registram Notas
 
-## Cardinalidade
+## 10. Cardinalidade
 
 ***
 
@@ -711,7 +711,7 @@ Representação
 - Ponta única - Apenas um valor
 - Ponta contínua - Obrigatório
 
-### Um para Um
+### 10.1. Um para Um
 
 Significa que cada elemento da entidade PEDIDO relaciona-se com somente um elemento de entidade NOTA.
 
@@ -735,7 +735,7 @@ Tabelas.
 | 3       | 02/04/2017 | 2.500,00    | 00012378 | QERE010 | 3         |
 | 6       | 10/10/2017 | 2.500,00    | 00019874 | QERE022 | 6         |
 
-### Um para muitos
+### 10.2. Um para muitos
 
 Um elemento da entidade CIDADE relaciona-se com muitos elementos da entidade CLIENTE, mas cada elemento da entidade CLIENTE somente pode estar relacionado a um elemento da entidade CIDADE.
 Modelo lógico
@@ -762,7 +762,7 @@ Tabelas
 
 - Chave estrangeira, referência a chave primária de outra tabela;
 
-### Muitos para muitos
+### 10.3. Muitos para muitos
 
 Um elemento da entidade PRODUTO relaciona-se com muitos elementos da entidade NOTA e cada elemento da entidade NOTA está relacionado a um elemento da entidade PRODUTO.
 Modelo lógico.
@@ -799,7 +799,7 @@ Importante verificar que a tabela tem outros atributos que expressam valores ún
 É um tipo especial de relacionamento onde as entidades se relacionam com elas mesmas.
 Tipos de auto-relacionamentos.
 
-### Auto-relacionamento Um-para-Muitos
+### 10.4. Auto-relacionamento Um-para-Muitos
   
 Considere a entidade CARGOS, observe que alguns cargos são filhos de outros cargos (ordem hierárquica).
 
@@ -817,7 +817,7 @@ Tabela.
 | 4        | Gerente de Negócio | 4.000,00 |          |
 | 5        | Contador           | 2.000,00 | 4        |
 
-### Auto-relacionamento Muitos-para-Muitos.Muitos para muitos
+### 10.5. Auto-relacionamento Muitos-para-Muitos.Muitos para muitos
 
 Observe que os itens registrados na entidade PRODUTO podem ser compostos de vários outros itens, componentes. Por outro lado, um item componente pode participar da composição de muitos itens
 
@@ -857,7 +857,7 @@ Caso a entidade fosse implementada como uma tabela em um banco de dados, as segu
 - Anomalia de exclusão: ao ser excluído um cliente, os dados referentes as suas compras serão perdidos;
 - Anomalia de alteração: caso algum fabricante de produto altere a faixa de preço de uma determinada classe de produtos, será preciso percorrer toda a entidade para realizar múltiplas alterações;
 
-### Formas Normais
+### 10.6. Formas Normais
 
 - Primeira Forma Normal (1FN);
   
@@ -875,7 +875,7 @@ Caso a entidade fosse implementada como uma tabela em um banco de dados, as segu
 
 - Quarta forma normal (4FN).
 
-#### Primeira forma normal (1FN)
+#### 10.6.1. Primeira forma normal (1FN)
 
 Uma tabela está na 1FN se e somente se:
 
@@ -890,7 +890,7 @@ Uma tabela está na 1FN se e somente se:
 | 3        | 10/10/2017 | Durin II | durinii@yahoo.com.br                      | Caverna de Orgrimar | Floresta Negra | GO   | 8          | Cajado de Gelo           | P     | 1          | 1.200,00 |
 | 3        | 30/11/2017 | Eldacar  | el65@gmail.com, jhon65@gmail.com          | Caverna de Orgrimar | Floresta Negra | GO   | 12         | Cajado de Fogo do Vulcão | P     | 1          | 1.300,00 |
 
-##### Dependência funcional
+##### 10.6.1.1. Dependência funcional
 
 Dizemos que um atributo ou conjunto de atributos A é dependente funcional de um outro atributo B contido na mesma entidade se, a cada valor B existir nas linhas da entidade em que aparece, um único valor de A . Em outras palavras, A depende funcionalmente de B, Exemplo : Na entidade NOTA, o atributo DATA depende funcionalmente de ID.
 
@@ -917,7 +917,7 @@ CLIENTE.
 | 3        | 10/10/2017 | Durin II | durinii@yahoo.com.br                      | Caverna de Orgrimar | Floresta Negra | GO   | 8          | Cajado de Gelo           | P     | 1          | 1.200,00 |
 | 3        | 30/11/2017 |  Eldacar | el65@gmail.com, jhon65@gmail.com          | Caverna de Orgrimar | Floresta Negra | GO   | 12         | Cajado de Fogo do Vulcão | P     | 1          | 1.300,00 |
 
-#### Segunda forma normal (2FN)
+#### 10.6.2. Segunda forma normal (2FN)
 
 A segunda forma normal assegura que não exista dependência funcional parcial no modelo de dados. Para aplicarmos a segunda forma normal em um modelo de dados devemos observar se alguma entidade do modelo possui chave primária concatenada e verificar se existe algum atributo ou conjunto de atributos com dependência parcial em relação a algum atributo da chave primária concatenada.
 
@@ -925,13 +925,13 @@ Exemplo:
 
 A entidade PRODUTO_NOTA apresenta uma chave primária concatenada e por observação, notamos que os atributos QUANTIDADE e VALOR_VENDA dependem de forma parcial do atributo PRODUTO_ID, que faz parte da chave primária.
 
-#### Terceira forma normal (3FN)
+#### 10.6.3. Terceira forma normal (3FN)
 
 A terceira forma normal assegura que nenhuma entidade do modelo de dados possui atributos com dependência transitiva. Assim, uma entidade está na 3FN se nenhum de seus atributos possui dependência transitiva em relação a outro atributo da entidade que não participe da chave primária, ou seja, não existe nenhum atributo intermediário entre a chave primária e o próprio atributo observado.
 
 Ao retirarmos a dependência funcional transitiva, devemos criar uma nova entidade que contenha os atributos que dependem transitivamente de outro e a sua chave primária é o atributo que causou esta dependência. Também não devem conter atributos derivados, como por exemplo VALOR TOTAL.
 
-#### Forma Normal de Boyce/Codd
+#### 10.6.4. Forma Normal de Boyce/Codd
 
 A forma normal Boyce/Codd foi desenvolvida com o objetivo de resolver algumas situações que não eram inicialmente cobertas pelas três formas normais, em especial quando haviam várias chaves na entidade, formadas por mais de um atributo (chaves compostas) e que ainda compartilham ao menos um atributo.
 
@@ -957,10 +957,10 @@ Um mesmo professor pode ministrar aulas entre cursos e turmas diferentes. Sendo 
 | 8901            | DIR   |       01 | 4592005      |
 | 9001            | PSI   |       01 | 0072003      |
 
-#### Quarta Forma Normal (4FN)
+#### 10.6.5. Quarta Forma Normal (4FN)
 
 Uma tabela está na 4FN, se e somente se, estiver na 3FN e não existirem dependências multivaloradas.
 
-## Referências
+## 11. Referências
 
 - [Tolkien Gataway](http://tolkiengateway.net/wiki/Bree)

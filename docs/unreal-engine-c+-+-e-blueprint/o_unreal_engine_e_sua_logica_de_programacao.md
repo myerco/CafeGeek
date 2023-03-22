@@ -11,28 +11,28 @@ date: 2022-09-21
 
 ***
 
-- [O que são Blueprints e Visual Scripting?](#o-que-são-blueprints-e-visual-scripting)
-  - [Nativização](#nativização)
-- [Trabalhando com Level ou níveis](#trabalhando-com-level-ou-níveis)
-  - [Criando um Level](#criando-um-level)
-  - [Salvando um Level](#salvando-um-level)
-  - [Carregando um Level](#carregando-um-level)
-- [O que é Level Blueprint?](#o-que-é-level-blueprint)
-  - [Exemplo de BeginPlay e Tick no Level Blueprint](#exemplo-de-beginplay-e-tick-no-level-blueprint)
-- [Atores e Classes utilizando Blueprint](#atores-e-classes-utilizando-blueprint)
-  - [Atores predefinidos ou Place Actors](#atores-predefinidos-ou-place-actors)
-  - [Classes Blueprint ou Blueprint Class](#classes-blueprint-ou-blueprint-class)
-- [Componentes - Components](#componentes---components)
-  - [Components e a aba My Blueprint](#components-e-a-aba-my-blueprint)
-- [Estrutura da classe Actor no Unreal Engine](#estrutura-da-classe-actor-no-unreal-engine)
-  - [Construction Script](#construction-script)
-    - [Exemplo da lógica de um Construction Script](#exemplo-da-lógica-de-um-construction-script)
-  - [Event Graph](#event-graph)
-    - [BeginPlay](#beginplay)
-    - [ActorBeginOverlap](#actorbeginoverlap)
-    - [Tick](#tick)
-- [Comentários](#comentários)
-  - [Exemplo de comentário](#exemplo-de-comentário)
+- [1. O que são Blueprints e Visual Scripting?](#1-o-que-são-blueprints-e-visual-scripting)
+  - [1.1. Nativização](#11-nativização)
+- [2. Trabalhando com Level ou níveis](#2-trabalhando-com-level-ou-níveis)
+  - [2.1. Criando um Level](#21-criando-um-level)
+  - [2.2. Salvando um Level](#22-salvando-um-level)
+  - [2.3. Carregando um Level](#23-carregando-um-level)
+- [3. O que é Level Blueprint?](#3-o-que-é-level-blueprint)
+  - [3.1. Exemplo de BeginPlay e Tick no Level Blueprint](#31-exemplo-de-beginplay-e-tick-no-level-blueprint)
+- [4. Atores e Classes utilizando Blueprint](#4-atores-e-classes-utilizando-blueprint)
+  - [4.1. Atores predefinidos ou Place Actors](#41-atores-predefinidos-ou-place-actors)
+  - [4.2. Classes Blueprint ou Blueprint Class](#42-classes-blueprint-ou-blueprint-class)
+- [5. Componentes - Components](#5-componentes---components)
+  - [5.1. Components e a aba My Blueprint](#51-components-e-a-aba-my-blueprint)
+- [6. Estrutura da classe Actor no Unreal Engine](#6-estrutura-da-classe-actor-no-unreal-engine)
+  - [6.1. Construction Script](#61-construction-script)
+    - [6.1.1. Exemplo da lógica de um Construction Script](#611-exemplo-da-lógica-de-um-construction-script)
+  - [6.2. Event Graph](#62-event-graph)
+    - [6.2.1. BeginPlay](#621-beginplay)
+    - [6.2.2. ActorBeginOverlap](#622-actorbeginoverlap)
+    - [6.2.3. Tick](#623-tick)
+- [7. Comentários](#7-comentários)
+  - [7.1. Exemplo de comentário](#71-exemplo-de-comentário)
 
 ***
 
@@ -41,7 +41,7 @@ date: 2022-09-21
     alt="Figura: Unreal Engine com Blueprint"
 %}
 
-## O que são Blueprints e Visual Scripting?
+## 1. O que são Blueprints e Visual Scripting?
 
 ***
 
@@ -86,11 +86,11 @@ Para que o **Unreal Engine** possa construir os nós gráficos que representam a
 |   |-- VM - Executado em uma máquina virtual
 ```
 
-### Nativização
+### 1.1. Nativização
 
 "A nativização é uma funcionalidade relativamente nova no **Unreal Engine**, que permite aos desenvolvedores converter suas classes criadas em **Blueprint** para código nativo **C++** no momento em que é construído o pacote final do jogo. Isso faz com que seja possível aliar a facilidade de prototipação dos **Blueprints** ao desempenho do **C++**, acelerando o processo de desenvolvimento e também reduzindo a possibilidade de erros na programação, levando em consideração que ao desenvolver em **Blueprint** todas as entradas e saídas de dados, assim como o fluxo das operações são verificados pela máquina virtual enquanto os testes estão sendo realizados, isso permite garantir que tudo funcione conforme o esperado, ou na pior das hipóteses, alerte ao desenvolvedor caso algo não saia como o esperado, por meio de mensagens intuitivas e claras."
 
-## Trabalhando com Level ou níveis
+## 2. Trabalhando com Level ou níveis
 
 ***
 
@@ -103,7 +103,7 @@ Todo os objetos que estão visíveis em um jogo estão armazenados em um *Level*
     ref="https://www.worldofleveldesign.com"
 %}
 
-### Criando um Level
+### 2.1. Criando um Level
 
 Para criar um *level* utilizamos o menu principal `File` > `New Level`.
 
@@ -129,7 +129,7 @@ Logo em seguida podemos definir um modelo pre-definido para auxiliar na constru�
 
 - `Empty Level`: selecione para criar um novo `Level` completamente vazio.
 
-### Salvando um Level
+### 2.2. Salvando um Level
 
 Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
 
@@ -139,7 +139,7 @@ Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
     caption="Salva o level aberto."
 %}
 
-### Carregando um Level
+### 2.3. Carregando um Level
 
 É possível abrir um  *Level* utilizando `File` > `Open Level`.
 
@@ -149,7 +149,7 @@ Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
     caption="Abre um level."
 %}
 
-## O que é Level Blueprint?  
+## 3. O que é Level Blueprint?  
 
 ***
 
@@ -177,7 +177,7 @@ Os nós utilizados são os seguintes:
 
 - `Print String`: É uma função que recebe como parâmetro um texto (*String*) e a escreve na tela.
 
-### Exemplo de BeginPlay e Tick no Level Blueprint
+### 3.1. Exemplo de BeginPlay e Tick no Level Blueprint
 
 {% include iframe.html
     src="https://blueprintue.com/render/46vsgoyi/"
@@ -186,7 +186,7 @@ Os nós utilizados são os seguintes:
     ref="https://blueprintue.com/render/46vsgoyi/"
 %}
 
-## Atores e Classes utilizando Blueprint
+## 4. Atores e Classes utilizando Blueprint
 
 ***
 
@@ -196,7 +196,7 @@ Atores são objetos de uma determinada classe que suportam vários componentes, 
 
 A lógica de programação dos atores é expressada em **Blueprint** e nos próximos capítulos vamos abordar este temo com mais detalhes.
 
-### Atores predefinidos ou Place Actors
+### 4.1. Atores predefinidos ou Place Actors
 
 No nível mais fundamental, um ator é qualquer objeto que você pode colocar em um *Level*.
 
@@ -216,7 +216,7 @@ Ou podemos acessar o menu principal `Menu` > `Place Actors` para ter acesso a ma
     caption="Esta opção apresenta mais categorias de objetos."
 %}
 
-### Classes Blueprint ou Blueprint Class
+### 4.2. Classes Blueprint ou Blueprint Class
 
 Uma classe **Blueprint**, muitas vezes abreviada como Blueprint, é um ativo que permite que os criadores de conteúdo adicionem funcionalidades facilmente às classes de jogo existentes. Os projetos são criados dentro do **Unreal Editor** visualmente, em vez de digitar o código, e salvos como ativos em um pacote de conteúdo. Essencialmente, eles definem uma nova classe ou tipo de ator que pode então ser colocado em mapas como instâncias que se comportam como qualquer outro tipo de ator.  
 
@@ -236,7 +236,7 @@ Escolha de Classe de atores  `Blueprint Class`.
     caption="Esta opção exibe uma lista das classes mais comuns, como por exemplo, atores básicos. A opção All Classes realiza uma busca por uma determinada classe."
 %}
 
-## Componentes - Components
+## 5. Componentes - Components
 
 ***
 
@@ -252,7 +252,7 @@ Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuár
     caption="Esta janela exibe a lista de componentes que podem ser associados a uma classe Actor."
 %}
 
-### Components e a aba My Blueprint
+### 5.1. Components e a aba My Blueprint
 
 Para ter acesso aos componentes que estão associados a um determinado objeto utilizamos a aba `My Blueprint`, que é uma representação visual do agrupamento de componentes, funções, variáveis e macros, abaixo um exemplo.
 
@@ -262,7 +262,7 @@ Para ter acesso aos componentes que estão associados a um determinado objeto ut
     caption="Podemos associar várias funções, macros, variáveis ou outros objetos programáveis à classe."
 %}
 
-## Estrutura da classe Actor no Unreal Engine
+## 6. Estrutura da classe Actor no Unreal Engine
 
 ***
 
@@ -288,11 +288,11 @@ A representação visual da lógica de programação da classe `Actor` é divida
 
 A seguir vamos aprender mais sobre esses elementos.
 
-### Construction Script
+### 6.1. Construction Script
 
 Lógica de que é executada na construção do objeto, similares ao eventos *Construtor* em C++.  
 
-#### Exemplo da lógica de um Construction Script
+#### 6.1.1. Exemplo da lógica de um Construction Script
 
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_construction_script.webp"
@@ -300,7 +300,7 @@ Lógica de que é executada na construção do objeto, similares ao eventos *Con
     caption="A lógica acima apresenta uma mensagem ao construir o objeto."
 %}
 
-### Event Graph
+### 6.2. Event Graph
 
 Contém o gráfico principal de nós e suas ligações representando a lógica de um **Blueprint**.  
 
@@ -312,11 +312,11 @@ Contém o gráfico principal de nós e suas ligações representando a lógica d
     caption="Exemplo do Event Graph com vários nós."
 %}
 
-#### BeginPlay
+#### 6.2.1. BeginPlay
 
 Este evento é acionado para todos os Atores quando o jogo é iniciado, quaisquer Atores gerados após o jogo ser iniciado terão isso chamado imediatamente.
 
-#### ActorBeginOverlap
+#### 6.2.2. ActorBeginOverlap
 
 Este evento será executado quando uma série de condições forem atendidas ao mesmo tempo:
 
@@ -325,13 +325,13 @@ Este evento será executado quando uma série de condições forem atendidas ao 
 - Ambos os Atores que devem executar o evento têm que gerar Eventos de Sobreposição definido como verdadeiro.
 - E, finalmente, a colisão de ambos os Atores começa a se sobrepor; movendo-se juntos ou um é criado sobrepondo-se ao outro.
 
-#### Tick
+#### 6.2.3. Tick
 
 Este é um evento simples que é chamado em todos os quadros do jogo. Tem como parâmetro a variável **Delta Seconds**.
 
 "Vários motores gráficos ou *Game Engines*, como por exemplo *Unity* e *Pico-8*  tem os mesmos eventos com as mesmas Características."s
 
-## Comentários
+## 7. Comentários
 
 ***
 
@@ -341,7 +341,7 @@ Eles podem ser usados apenas para fins organizacionais para tornar os gráficos 
 
 Selecione os nós e digite "C" no teclado para adicionar um comentário.  
 
-### Exemplo de comentário
+### 7.1. Exemplo de comentário
 
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_comment_example.webp"
