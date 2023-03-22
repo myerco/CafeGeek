@@ -11,107 +11,103 @@ date: 2022-09-21
 
 ***
 
-- [O que são variáveis?](#o-que-são-variáveis)
-- [Variáveis no Unreal Engine](#variáveis-no-unreal-engine)
-  - [Tipos de Variáveis](#tipos-de-variáveis)
-  - [Declarando variáveis](#declarando-variáveis)
-- [Variáveis em C++](#variáveis-em-c)
-  - [Declarando variáveis em C++](#declarando-variáveis-em-c)
-  - [Expondo variáveis para o Editor](#expondo-variáveis-para-o-editor)
-- [Métodos Get e Set](#métodos-get-e-set)
-  - [Métodos Get e Set Blueprint](#métodos-get-e-set-blueprint)
-  - [Métodos Get e Set em C++](#métodos-get-e-set-em-c)
-- [Tratamento e armazenamento de texto no Unreal Engine](#tratamento-e-armazenamento-de-texto-no-unreal-engine)
-  - [Strings em Blueprint](#strings-em-blueprint)
-  - [String em C++](#string-em-c)
-    - [Concatenando textos usando a função Append](#concatenando-textos-usando-a-função-append)
-    - [Procurando texto dentro de uma string em Blueprint](#procurando-texto-dentro-de-uma-string-em-blueprint)
-    - [Procurando texto com C++](#procurando-texto-com-c)
-- [Variáveis do tipo numéricas Integer e Float](#variáveis-do-tipo-numéricas-integer-e-float)
-  - [Inteiro em Blueprint](#inteiro-em-blueprint)
-  - [Inteiro em C++](#inteiro-em-c)
-- [Armazenando valores lógicos com Boolean](#armazenando-valores-lógicos-com-boolean)
-- [Controle de acesso a variáveis](#controle-de-acesso-a-variáveis)
-  - [Variáveis Privadas](#variáveis-privadas)
-  - [Variáveis Públicas](#variáveis-públicas)
-- [O que são estruturas de controle ou fluxo?](#o-que-são-estruturas-de-controle-ou-fluxo)
-  - [Exemplo de fluxo de execução em C++](#exemplo-de-fluxo-de-execução-em-c)
-  - [Exemplo de fluxo condicional](#exemplo-de-fluxo-condicional)
-  - [Exemplo de fluxo de repetição](#exemplo-de-fluxo-de-repetição)
-- [Estruturas de fluxo condicional](#estruturas-de-fluxo-condicional)
-  - [Controle de fluxo com Branch (if)](#controle-de-fluxo-com-branch-if)
-    - [IF em Blueprint](#if-em-blueprint)
-    - [IF em C++](#if-em-c)
-  - [Switch Nodes](#switch-nodes)
-    - [Switchs node em Blueprint](#switchs-node-em-blueprint)
-    - [Switchs node em C++](#switchs-node-em-c)
-  - [Referências](#referências)
-  - [Sequenciamento de fluxo com Sequence](#sequenciamento-de-fluxo-com-sequence)
-    - [Sequence em Blueprint](#sequence-em-blueprint)
-    - [Sequence em C++](#sequence-em-c)
-  - [Flip Flop em Blueprint](#flip-flop-em-blueprint)
-  - [Flip Flop em C++](#flip-flop-em-c)
-  - [Gate e Multi Gate em Blueprint](#gate-e-multi-gate-em-blueprint)
-  - [Gate e Multi Gate em C++](#gate-e-multi-gate-em-c)
-- [Estruturas de repetição](#estruturas-de-repetição)
-  - [For Loop em Blueprint](#for-loop-em-blueprint)
-  - [For Loop em C++](#for-loop-em-c)
-  - [While Loop em Blueprint](#while-loop-em-blueprint)
-  - [While Loop em C++](#while-loop-em-c)
-  - [Do N em Blueprint](#do-n-em-blueprint)
-  - [Do N em C++](#do-n-em-c)
-  - [Do once em Blueprint](#do-once-em-blueprint)
-  - [Do once em C++](#do-once-em-c)
-- [O que são variáveis do tipo array?](#o-que-são-variáveis-do-tipo-array)
-- [Declarando arrays e acessando os seus elementos](#declarando-arrays-e-acessando-os-seus-elementos)
-  - [Array em Blueprint](#array-em-blueprint)
-  - [Método Get para arrays com Blueprint](#método-get-para-arrays-com-blueprint)
-  - [Método Get para arrays com C++](#método-get-para-arrays-com-c)
-  - [Get utilizando uma variável como índice com Blueprint](#get-utilizando-uma-variável-como-índice-com-blueprint)
-  - [Get utilizando uma variável como índice com C++](#get-utilizando-uma-variável-como-índice-com-c)
-  - [Último índice e a quantidade de elementos do array em Blueprint](#último-índice-e-a-quantidade-de-elementos-do-array-em-blueprint)
-  - [Último índice e a quantidade de elementos do array em C++](#último-índice-e-a-quantidade-de-elementos-do-array-em-c)
-- [Percorrendo arrays](#percorrendo-arrays)
-  - [Listando todos os elementos utilizando For usando Blueprint](#listando-todos-os-elementos-utilizando-for-usando-blueprint)
-  - [Listando todos os elementos utilizando For usando C++](#listando-todos-os-elementos-utilizando-for-usando-c)
-  - [Usando o comando Find com Blueprint](#usando-o-comando-find-com-blueprint)
-  - [Usando o comando Find com C++](#usando-o-comando-find-com-c)
-  - [Contando elementos dentro de um array com Blueprint](#contando-elementos-dentro-de-um-array-com-blueprint)
-  - [Contando elementos dentro de um array com C++](#contando-elementos-dentro-de-um-array-com-c)
-  - [Percorrendo e atualizando dados com Blueprint](#percorrendo-e-atualizando-dados-com-blueprint)
-  - [Percorrendo e atualizando dados com C++](#percorrendo-e-atualizando-dados-com-c)
-- [Removendo elementos do array](#removendo-elementos-do-array)
-  - [Removendo utilizando Remove com Blueprint](#removendo-utilizando-remove-com-blueprint)
-  - [Removendo utilizando Remove com C++](#removendo-utilizando-remove-com-c)
-  - [Removendo passando uma variável como parâmetro com Blueprint](#removendo-passando-uma-variável-como-parâmetro-com-blueprint)
-  - [Removendo passando uma variável como parâmetro com C++](#removendo-passando-uma-variável-como-parâmetro-com-c)
-  - [Removendo utilizando nó Remove Index com Blueprint](#removendo-utilizando-nó-remove-index-com-blueprint)
-  - [Removendo utilizando nó Remove Index com C++](#removendo-utilizando-nó-remove-index-com-c)
-  - [Limpando o array com Clear com Blueprint](#limpando-o-array-com-clear-com-blueprint)
-  - [Limpando o array com Clear com C++](#limpando-o-array-com-clear-com-c)
-- [O que são Enums?](#o-que-são-enums)
-  - [Criando Enums no Unreal Engine e Blueprint](#criando-enums-no-unreal-engine-e-blueprint)
-  - [Criando Enums no Unreal Engine e C++](#criando-enums-no-unreal-engine-e-c)
-  - [Exemplos de uso - A lâmpada](#exemplos-de-uso---a-lâmpada)
-  - [A lâmpada em C++](#a-lâmpada-em-c)
-  - [Arquivo Header da lâmpada em C++](#arquivo-header-da-lâmpada-em-c)
-  - [Verificando o estado utilizando o Enum com Blueprint](#verificando-o-estado-utilizando-o-enum-com-blueprint)
-  - [Verificando o estado utilizando o Enum com C++](#verificando-o-estado-utilizando-o-enum-com-c)
-  - [Ligando e desligando utilizando o Enum com Blueprint](#ligando-e-desligando-utilizando-o-enum-com-blueprint)
-  - [Ligando e desligando utilizando o Enum com C++](#ligando-e-desligando-utilizando-o-enum-com-c)
-  - [Exemplos de uso - A pedra das emoções](#exemplos-de-uso---a-pedra-das-emoções)
+- [1. O que são variáveis?](#1-o-que-são-variáveis)
+- [2. Variáveis no Unreal Engine](#2-variáveis-no-unreal-engine)
+  - [2.1. Tipos de Variáveis](#21-tipos-de-variáveis)
+  - [2.2. Declarando variáveis](#22-declarando-variáveis)
+- [3. Variáveis em C++](#3-variáveis-em-c)
+  - [3.1. Declarando variáveis em C++](#31-declarando-variáveis-em-c)
+  - [3.2. Expondo variáveis para o Editor](#32-expondo-variáveis-para-o-editor)
+- [4. Métodos Get e Set](#4-métodos-get-e-set)
+  - [4.1. Métodos Get e Set Blueprint](#41-métodos-get-e-set-blueprint)
+  - [4.2. Métodos Get e Set em C++](#42-métodos-get-e-set-em-c)
+- [5. Tratamento e armazenamento de texto no Unreal Engine](#5-tratamento-e-armazenamento-de-texto-no-unreal-engine)
+  - [5.1. Strings em Blueprint](#51-strings-em-blueprint)
+  - [5.2. String em C++](#52-string-em-c)
+    - [5.2.1. Concatenando textos usando a função Append](#521-concatenando-textos-usando-a-função-append)
+    - [5.2.2. Procurando texto dentro de uma string em Blueprint](#522-procurando-texto-dentro-de-uma-string-em-blueprint)
+    - [5.2.3. Procurando texto com C++](#523-procurando-texto-com-c)
+- [6. Variáveis do tipo numéricas Integer e Float](#6-variáveis-do-tipo-numéricas-integer-e-float)
+  - [6.1. Inteiro em Blueprint](#61-inteiro-em-blueprint)
+  - [6.2. Inteiro em C++](#62-inteiro-em-c)
+- [7. Armazenando valores lógicos com Boolean](#7-armazenando-valores-lógicos-com-boolean)
+- [8. Controle de acesso a variáveis](#8-controle-de-acesso-a-variáveis)
+  - [8.1. Variáveis Privadas](#81-variáveis-privadas)
+  - [8.2. Variáveis Públicas](#82-variáveis-públicas)
+- [9. O que são estruturas de controle ou fluxo?](#9-o-que-são-estruturas-de-controle-ou-fluxo)
+  - [9.1. Exemplo de fluxo de execução em C++](#91-exemplo-de-fluxo-de-execução-em-c)
+  - [9.2. Exemplo de fluxo condicional](#92-exemplo-de-fluxo-condicional)
+  - [9.3. Exemplo de fluxo de repetição](#93-exemplo-de-fluxo-de-repetição)
+- [10. Estruturas de fluxo condicional](#10-estruturas-de-fluxo-condicional)
+  - [10.1. Controle de fluxo com Branch (if)](#101-controle-de-fluxo-com-branch-if)
+    - [10.1.1. IF em Blueprint](#1011-if-em-blueprint)
+    - [10.1.2. IF em C++](#1012-if-em-c)
+  - [10.2. Switch Nodes](#102-switch-nodes)
+    - [10.2.1. Switchs node em Blueprint](#1021-switchs-node-em-blueprint)
+    - [10.2.2. Switchs node em C++](#1022-switchs-node-em-c)
+  - [10.3. Referências](#103-referências)
+  - [10.4. Sequenciamento de fluxo com Sequence](#104-sequenciamento-de-fluxo-com-sequence)
+    - [10.4.1. Sequence em Blueprint](#1041-sequence-em-blueprint)
+    - [10.4.2. Sequence em C++](#1042-sequence-em-c)
+  - [10.5. Flip Flop em Blueprint](#105-flip-flop-em-blueprint)
+  - [10.6. Flip Flop em C++](#106-flip-flop-em-c)
+  - [10.7. Gate e Multi Gate em Blueprint](#107-gate-e-multi-gate-em-blueprint)
+  - [10.8. Gate e Multi Gate em C++](#108-gate-e-multi-gate-em-c)
+- [11. Estruturas de repetição](#11-estruturas-de-repetição)
+  - [11.1. For Loop em Blueprint](#111-for-loop-em-blueprint)
+  - [11.2. For Loop em C++](#112-for-loop-em-c)
+  - [11.3. While Loop em Blueprint](#113-while-loop-em-blueprint)
+  - [11.4. While Loop em C++](#114-while-loop-em-c)
+  - [11.5. Do N em Blueprint](#115-do-n-em-blueprint)
+  - [11.6. Do N em C++](#116-do-n-em-c)
+  - [11.7. Do once em Blueprint](#117-do-once-em-blueprint)
+  - [11.8. Do once em C++](#118-do-once-em-c)
+- [12. O que são variáveis do tipo array?](#12-o-que-são-variáveis-do-tipo-array)
+- [13. Declarando arrays e acessando os seus elementos](#13-declarando-arrays-e-acessando-os-seus-elementos)
+  - [13.1. Array em Blueprint](#131-array-em-blueprint)
+  - [13.2. Método Get para arrays com Blueprint](#132-método-get-para-arrays-com-blueprint)
+  - [13.3. Método Get para arrays com C++](#133-método-get-para-arrays-com-c)
+  - [13.4. Get utilizando uma variável como índice com Blueprint](#134-get-utilizando-uma-variável-como-índice-com-blueprint)
+  - [13.5. Get utilizando uma variável como índice com C++](#135-get-utilizando-uma-variável-como-índice-com-c)
+  - [13.6. Último índice e a quantidade de elementos do array em Blueprint](#136-último-índice-e-a-quantidade-de-elementos-do-array-em-blueprint)
+  - [13.7. Último índice e a quantidade de elementos do array em C++](#137-último-índice-e-a-quantidade-de-elementos-do-array-em-c)
+- [14. Percorrendo arrays](#14-percorrendo-arrays)
+  - [14.1. Listando todos os elementos utilizando For usando Blueprint](#141-listando-todos-os-elementos-utilizando-for-usando-blueprint)
+  - [14.2. Listando todos os elementos utilizando For usando C++](#142-listando-todos-os-elementos-utilizando-for-usando-c)
+  - [14.3. Usando o comando Find com Blueprint](#143-usando-o-comando-find-com-blueprint)
+  - [14.4. Usando o comando Find com C++](#144-usando-o-comando-find-com-c)
+  - [14.5. Contando elementos dentro de um array com Blueprint](#145-contando-elementos-dentro-de-um-array-com-blueprint)
+  - [14.6. Contando elementos dentro de um array com C++](#146-contando-elementos-dentro-de-um-array-com-c)
+  - [14.7. Percorrendo e atualizando dados com Blueprint](#147-percorrendo-e-atualizando-dados-com-blueprint)
+  - [14.8. Percorrendo e atualizando dados com C++](#148-percorrendo-e-atualizando-dados-com-c)
+- [15. Removendo elementos do array](#15-removendo-elementos-do-array)
+  - [15.1. Removendo utilizando Remove com Blueprint](#151-removendo-utilizando-remove-com-blueprint)
+  - [15.2. Removendo utilizando Remove com C++](#152-removendo-utilizando-remove-com-c)
+  - [15.3. Removendo passando uma variável como parâmetro com Blueprint](#153-removendo-passando-uma-variável-como-parâmetro-com-blueprint)
+  - [15.4. Removendo passando uma variável como parâmetro com C++](#154-removendo-passando-uma-variável-como-parâmetro-com-c)
+  - [15.5. Removendo utilizando nó Remove Index com Blueprint](#155-removendo-utilizando-nó-remove-index-com-blueprint)
+  - [15.6. Removendo utilizando nó Remove Index com C++](#156-removendo-utilizando-nó-remove-index-com-c)
+  - [15.7. Limpando o array com Clear com Blueprint](#157-limpando-o-array-com-clear-com-blueprint)
+  - [15.8. Limpando o array com Clear com C++](#158-limpando-o-array-com-clear-com-c)
+- [16. O que são Enums?](#16-o-que-são-enums)
+  - [16.1. Criando Enums no Unreal Engine e Blueprint](#161-criando-enums-no-unreal-engine-e-blueprint)
+  - [16.2. Criando Enums no Unreal Engine e C++](#162-criando-enums-no-unreal-engine-e-c)
+  - [16.3. Exemplos de uso - A lâmpada](#163-exemplos-de-uso---a-lâmpada)
+  - [16.4. A lâmpada em C++](#164-a-lâmpada-em-c)
+  - [16.5. Arquivo Header da lâmpada em C++](#165-arquivo-header-da-lâmpada-em-c)
+  - [16.6. Verificando o estado utilizando o Enum com Blueprint](#166-verificando-o-estado-utilizando-o-enum-com-blueprint)
+  - [16.7. Verificando o estado utilizando o Enum com C++](#167-verificando-o-estado-utilizando-o-enum-com-c)
+  - [16.8. Ligando e desligando utilizando o Enum com Blueprint](#168-ligando-e-desligando-utilizando-o-enum-com-blueprint)
+  - [16.9. Ligando e desligando utilizando o Enum com C++](#169-ligando-e-desligando-utilizando-o-enum-com-c)
+  - [16.10. Exemplos de uso - A pedra das emoções](#1610-exemplos-de-uso---a-pedra-das-emoções)
 
-***
+## 1. O que são variáveis?
 
 {% include logo.html
     src="unreal/variaveis/unreal_engine_variables.webp"
     alt="Blueprint Variables."
     caption="Blueprint Variables."
 %}
-
-## O que são variáveis?
-
-***
 
 Variáveis são estruturas que são utilizadas para armazenar um valor de um determinado tipo na memória do computador.
 
@@ -135,13 +131,13 @@ int iSoma = 0;
 float fValor = 6.5;
 ```
 
-## Variáveis no Unreal Engine
+## 2. Variáveis no Unreal Engine
 
 ***
 
 Variáveis no **Unreal Engine** são propriedades que contêm um valor ou fazem referência a um objeto ou ator no mundo. Essas propriedades podem ser acessíveis internamente ao **Blueprint** que as contém, ou podem ser tornadas acessíveis externamente para que seus valores possam ser modificados por designers que trabalham com instâncias do **Blueprint** colocadas em um nível.
 
-### Tipos de Variáveis
+### 2.1. Tipos de Variáveis
 
 Para armazenar qualquer informação na memória devemos definir um tipo de dados primitivo ou mesmo uma estrutura de dados, a seguir alguns tipos de dados:
 
@@ -175,7 +171,7 @@ Para armazenar qualquer informação na memória devemos definir um tipo de dado
     VariavelString = TEXT("Alo mundo!!");
     ```
 
-### Declarando variáveis
+### 2.2. Declarando variáveis
 
 Declarando variáveis informamos ao computador que estamos reservando um espaço de memória temporário.  
 
@@ -193,26 +189,26 @@ Declarando variáveis informamos ao computador que estamos reservando um espaço
 
 Observe que a propriedade `Category` agrupa as variáveis por uma categoria.
 
-## Variáveis em C++
-
 ***
 
-### Declarando variáveis em C++
+## 3. Variáveis em C++
+
+### 3.1. Declarando variáveis em C++
 
 ```cpp
     int32 Count;
 ```
 
-### Expondo variáveis para o Editor
+### 3.2. Expondo variáveis para o Editor
 
 ```cpp
 UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Parâmetros")
     int32 iLife = 10;
 ```
 
-## Métodos Get e Set
-
 ***
+
+## 4. Métodos Get e Set
 
 Para acessar o conteúdo das variáveis utilizamos os métodos `Get` e `Set`, onde:
 
@@ -220,7 +216,7 @@ Para acessar o conteúdo das variáveis utilizamos os métodos `Get` e `Set`, on
 
 - `Set`: Atualiza o valor da variável.
 
-### Métodos Get e Set Blueprint
+### 4.1. Métodos Get e Set Blueprint
 
 {% include imagelocal.html
     src="unreal/variaveis/unreal_engine_get_set.webp"
@@ -236,7 +232,7 @@ Para acessar o conteúdo das variáveis utilizamos os métodos `Get` e `Set`, on
 
 - `Converts` - Converte tipos de variáveis, neste caso converte um valor do tipo `integer` em um do tipo `String`.
 
-### Métodos Get e Set em C++
+### 4.2. Métodos Get e Set em C++
 
 Arquivo Header.
 
@@ -262,9 +258,9 @@ void AMyHeroClass::BeginPlay()
  }
  ```
 
-## Tratamento e armazenamento de texto no Unreal Engine
-
 ***
+
+## 5. Tratamento e armazenamento de texto no Unreal Engine
 
 No **Unreal Engine** são definidos alguns tipos de dados para manipulação e armazenamento de caracteres alfanuméricos, entre elas estão os tipos de variáveis a seguir.
 
@@ -286,7 +282,7 @@ Podemos realizar as seguintes operações em `strings`:
 
 - Procurar uma determinada letra ou Substring dentro da `string`.
 
-### Strings em Blueprint
+### 5.1. Strings em Blueprint
 
 {% include imagelocal.html
     src="unreal/variaveis/unreal_engine_string_functions.webp"
@@ -294,7 +290,7 @@ Podemos realizar as seguintes operações em `strings`:
     caption="Append - Concatena tuas ou mais strings, Contains- Retorna falso ou verdadeiro se encontra um string dentro de outra."
 %}
 
-### String em C++
+### 5.2. String em C++
 
 Arquivo header.
 
@@ -341,7 +337,7 @@ void AMyHeroClass::BeginPlay()
 
 ```
 
-#### Concatenando textos usando a função Append
+#### 5.2.1. Concatenando textos usando a função Append
 
 A função `Append` concatena duas ou mais `strings`, passamos como parâmetros os textos que gostaríamos de concatenar e tendo como resultado um novo texto contendo os dois textos.
 
@@ -353,7 +349,7 @@ sTexto.append("Cruel");
 // Resultado: Alo mundo...Cruel
 ```
 
-#### Procurando texto dentro de uma string em Blueprint
+#### 5.2.2. Procurando texto dentro de uma string em Blueprint
 
 A função `Contains` procura uma sequencia de caracteres dentro de uma `string`, passamos os seguintes parâmetros para a função.
 
@@ -362,7 +358,7 @@ A função `Contains` procura uma sequencia de caracteres dentro de uma `string`
 - `Use Case` - Diferencia maiúsculas e minúsculas.
  `Search from end` - Inicia a busca pelo fim do texto.
 
-#### Procurando texto com C++
+#### 5.2.3. Procurando texto com C++
 
 ```cpp
 
@@ -378,11 +374,11 @@ else
 // Resultado: Alo mundo...Cruel
 ```
 
-## Variáveis do tipo numéricas Integer e Float
-
 ***
 
-### Inteiro em Blueprint
+## 6. Variáveis do tipo numéricas Integer e Float
+
+### 6.1. Inteiro em Blueprint
 
 Valores numéricos utilizam operadores matemáticos para a sua manutenção, como veremos a seguir.  
 
@@ -398,9 +394,7 @@ Valores numéricos utilizam operadores matemáticos para a sua manutenção, com
     caption="Neste exemplo multiplicamos o valor por 100."
 %}
 
-### Inteiro em C++
-
-***
+### 6.2. Inteiro em C++
 
 ```cpp
 void AMyCharacterClass::BeginPlay()
@@ -419,9 +413,9 @@ void AMyCharacterClass::BeginPlay()
 
 - (/) - Divisão.
 
-## Armazenando valores lógicos com Boolean
-
 ***
+
+## 7. Armazenando valores lógicos com Boolean
 
 Variáveis Boolean armazenam dois valores : falso `false` ou verdadeiro `true`.
 
@@ -431,13 +425,13 @@ Variáveis Boolean armazenam dois valores : falso `false` ou verdadeiro `true`.
     caption="No exemplo acima se o valor de life for maior que 50 então o valor é atualizado para true."
 %}
 
-## Controle de acesso a variáveis
-
 ***
+
+## 8. Controle de acesso a variáveis
 
 Como especificar quais variáveis de um objeto um usuário pode acessar e quais estão fora dos limites? - usando os especificadores de controle de acesso público e privado.
 
-### Variáveis Privadas
+### 8.1. Variáveis Privadas
 
 Variáveis privadas só podem ser acessadas por membros da mesma classe.
 
@@ -456,7 +450,7 @@ private:
    bool Running = false;
 ```
 
-### Variáveis Públicas
+### 8.2. Variáveis Públicas
 
 Para permitir que uma variável seja modificada de fora de seu módulos, torne-a pública.  
 
@@ -486,13 +480,13 @@ public:
 
 ```
 
-## O que são estruturas de controle ou fluxo?
-
 ***
+
+## 9. O que são estruturas de controle ou fluxo?
 
 Em linguagens de programação existem métodos de tomada de decisão para tarefas corriqueiras que os programas podem executar, por exemplo a escolha de qual caminho ou instrução executar. Em **Blueprints** utilizamos nós específicos para controle de fluxo como por exemplo o `Branch`.
 
-### Exemplo de fluxo de execução em C++
+### 9.1. Exemplo de fluxo de execução em C++
 
 Considere a sequencia de comandos abaixo:
 
@@ -521,31 +515,31 @@ UE_LOG(LogTemp, Warning, TEXT("O resultado é %d"), resultado);
 
 O resultado será 0 pois a condição de controle de fluxo **if** provocou um desvio do fluxo de instruções.
 
-### Exemplo de fluxo condicional
+### 9.2. Exemplo de fluxo condicional
 
 |           | t1                                  | t2                                  | t3                                  | t4                                  | t5                                 | t6                                 | t7                                  | t8                                  | t9                                  |
 | :-------- | :---------------------------------- | :---------------------------------- | :---------------------------------- | :---------------------------------- | :--------------------------------- | :--------------------------------- | :---------------------------------- | :---------------------------------- | :---------------------------------- |
 | Principal | <span style="color:blue">--></span> | <span style="color:blue">--></span> | <span style="color:blue">--></span> | <span style="color:blue">-D-</span> |                                    |                                    | <span style="color:blue">-O-</span> | <span style="color:blue">--></span> | <span style="color:blue">--></span> |
 | Desvio    |                                     |                                     |                                     | <span style="color:red">--></span>  | <span style="color:red">--></span> | <span style="color:red">--></span> | <span style="color:red">--></span>  |                                     |                                     |
 
-### Exemplo de fluxo de repetição
+### 9.3. Exemplo de fluxo de repetição
 
 |           | t1                                  | t2                                  | t3                                  | t4                                  | t5                                 | t6                                 | t7                                  | t8                                  | t9                                  |
 | :-------- | :---------------------------------- | :---------------------------------- | :---------------------------------- | :---------------------------------- | :--------------------------------- | :--------------------------------- | :---------------------------------- | :---------------------------------- | :---------------------------------- |
 | Principal | <span style="color:blue">--></span> | <span style="color:blue">--></span> | <span style="color:blue">--></span> | <span style="color:blue">-D-</span> | <span style="color:red"><--</span> | <span style="color:red"><--</span> | <span style="color:blue">-O-</span> | <span style="color:blue">--></span> | <span style="color:blue">--></span> |
 | Desvio    |                                     |                                     |                                     | <span style="color:blue">--></span> | <span style="color:red">--></span> | <span style="color:red">--></span> | <span style="color:red">--></span>  |                                     |                                     |
 
-## Estruturas de fluxo condicional
-
 ***
+
+## 10. Estruturas de fluxo condicional
 
 A seguir vamos entender como é fluxo condicional é descrito com programação visual usando **Blueprint**.
 
-### Controle de fluxo com Branch (if)
+### 10.1. Controle de fluxo com Branch (if)
 
 `Branch` é uma estrutura condicional que testa uma variável utilizando uma expressão lógica e redireciona o fluxo da lógica.
 
-#### IF em Blueprint
+#### 10.1.1. IF em Blueprint
 
 {% include imagelocal.html
     src="unreal/estruturascontrole/blueprint_example_if.webp"
@@ -553,7 +547,7 @@ A seguir vamos entender como é fluxo condicional é descrito com programação 
     caption="O teste acima verifica se um valor é maior que o outro e redireciona o fluxo."
 %}
 
-#### IF em C++
+#### 10.1.2. IF em C++
 
 ```cpp
 if ( 2 >= 4)
@@ -566,11 +560,11 @@ else
 }
 ```
 
-### Switch Nodes
+### 10.2. Switch Nodes
 
 O nó `Switch` lê uma entrada de dados e, com base no valor dessa entrada, envia o fluxo de execução para fora da saída de execução correspondente (ou padrão opcional). Existem vários tipos de opções disponíveis: `Int`, `String`, `Name` e `Enum`.
 
-#### Switchs node em Blueprint
+#### 10.2.1. Switchs node em Blueprint
 
 {% include imagelocal.html
     src="unreal/estruturascontrole/blueprint_exemple_switch.webp"
@@ -578,7 +572,7 @@ O nó `Switch` lê uma entrada de dados e, com base no valor dessa entrada, envi
     caption="Este comando verifica qual valor adente é igual ao parâmetro de entrada."
 %}
 
-#### Switchs node em C++
+#### 10.2.2. Switchs node em C++
 
 ```cpp
 
@@ -603,16 +597,16 @@ switch (VariavelInt)
 
 Em geral, os `switches` têm uma entrada de execução e uma entrada de dados para o tipo de dados que avaliam. As saídas são todas as saídas de execução. Os switches `Enum` geram automaticamente os pinos de execução de saída das propriedades do `Enum`, enquanto os `switches` `Int`, `String` e `Name` possuem pinos de execução de saída personalizáveis.
 
-### Referências
+### 10.3. Referências
 
 - Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions.  [https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/ "Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions")
 - Couch Learn. (2019,Dezembro 27). Switch Statements in Unreal Engine 4. [https://couchlearn.com/switch-statements-in-unreal-engine-4/](https://couchlearn.com/switch-statements-in-unreal-engine-4/ "https://couchlearn.com/switch-statements-in-unreal-engine-4/")
 
-### Sequenciamento de fluxo com Sequence
+### 10.4. Sequenciamento de fluxo com Sequence
 
 O nó `Sequence` permite que um único pulso de execução acione uma série de eventos em ordem. O nó pode ter qualquer número de saídas, todas chamadas assim que o nó Sequência receber uma entrada. Eles sempre serão chamados em ordem, mas sem qualquer demora. Para um usuário típico, as saídas provavelmente parecerão ter sido disparadas simultaneamente.
 
-#### Sequence em Blueprint
+#### 10.4.1. Sequence em Blueprint
 
 {% include imagelocal.html
     src="unreal/estruturascontrole/blueprint_example_sequence.webp"
@@ -620,13 +614,13 @@ O nó `Sequence` permite que um único pulso de execução acione uma série de 
     caption="A sequencia começa no 0 e podemos adicionar outros fluxos."
 %}
 
-#### Sequence em C++
+#### 10.4.2. Sequence em C++
 
 ```cpp
 // Não tem similar em C++, deve ser implementado
 ```
 
-### Flip Flop em Blueprint
+### 10.5. Flip Flop em Blueprint
 
 O nó `Flip Flop` obtém uma saída de execução e alterna entre duas saídas de execução. Na primeira vez que é chamado, a saída A é executada. Na segunda vez, B. Depois A, B e assim por diante. O nó também possui uma saída booleana que permite rastrear quando a Saída A foi chamada.
 
@@ -636,13 +630,13 @@ O nó `Flip Flop` obtém uma saída de execução e alterna entre duas saídas d
     caption="Alterna entre aberto e fechado a medida que se pressiona a tecla H."
 %}
 
-### Flip Flop em C++
+### 10.6. Flip Flop em C++
 
 ```cpp
 // Não tem similar em C++, deve ser implementado
 ```
 
-### Gate e Multi Gate em Blueprint
+### 10.7. Gate e Multi Gate em Blueprint
 
 O nó `MultiGate` recebe um único pulso de dados e o encaminha para qualquer número de saídas potenciais. Isso pode ocorrer sequencialmente, aleatoriamente e pode ou não ser executado em loop.
 
@@ -652,19 +646,19 @@ O nó `MultiGate` recebe um único pulso de dados e o encaminha para qualquer n�
     caption="Quando é pressionada tecla H pela primeira vez é apresentado o texto ZERO na tela, na próxima vez que pressionar o texto será UM e assim sucessivamente. Se pressionado J a sequencia é reiniciada. Caso a opção Is Ramdon esteja assinalada a sequencia será aleatória."
 %}
 
-### Gate e Multi Gate em C++
+### 10.8. Gate e Multi Gate em C++
 
 ```cpp
 // Não tem similar em C++, deve ser implementado
 ```
 
-## Estruturas de repetição
-
 ***
+
+## 11. Estruturas de repetição
 
 Podemos utilizar estruturas de repetição para repetir instruções ou nós, a seguir vamos entender algumas dessas estruturas.
 
-### For Loop em Blueprint
+### 11.1. For Loop em Blueprint
 
 O nó `For Loop` funciona como um loop de código padrão, disparando um pulso de execução para cada índice entre o início e o fim.
 
@@ -674,7 +668,7 @@ O nó `For Loop` funciona como um loop de código padrão, disparando um pulso d
     caption="Iniciando em zero e terminando em 4 será apresentado a cada passo o texto correspondente ao contador (índice)."
 %}
 
-### For Loop em C++
+### 11.2. For Loop em C++
 
 ```cpp
 for (int i = 0; i < 4; i++ ){
@@ -686,7 +680,7 @@ UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
 
 ```
 
-### While Loop em Blueprint
+### 11.3. While Loop em Blueprint
 
 Uma condição de teste e um corpo são tudo o que constitui um *loop While*. Antes de executar a (s) instrução (ões) em seu corpo, o **Blueprint** avalia a condição de teste `While Loops` para determinar se ela é verdadeira.
 
@@ -696,7 +690,7 @@ Uma condição de teste e um corpo são tudo o que constitui um *loop While*. An
     caption="O loop será executado enquanto o valor for menor que 4."
 %}
 
-### While Loop em C++
+### 11.4. While Loop em C++
 
 ```cpp
 int32 valor = 0;
@@ -707,7 +701,7 @@ while ( valor <= 4) {
 UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
 ```
 
-### Do N em Blueprint
+### 11.5. Do N em Blueprint
 
 O nó `Do N` disparará um pulso de execução N vezes. Depois que o limite for atingido, ele interromperá todas as execuções de saída até que um pulso seja enviado para sua entrada Reset.
 
@@ -717,13 +711,13 @@ O nó `Do N` disparará um pulso de execução N vezes. Depois que o limite for 
     caption="No exemplo acima toda vez que a tecla H for pressionada um valor vai ser apresentado. Quanto o valor 10 for atingido a instrução Print String não será executada. Pressionando a tecla J a contagem será reiniciada."
 %}
 
-### Do N em C++
+### 11.6. Do N em C++
 
 ```cpp
 // Não tem similar em C++, deve ser implementado
 ```
 
-### Do once em Blueprint
+### 11.7. Do once em Blueprint
 
 O nó `Do Once` - como o nome sugere - disparará um pulso de execução apenas uma vez. Desse ponto em diante, ele interromperá toda a execução de saída até que um pulso seja enviado para sua entrada Reset. Este nó é equivalente a um nó `Do N` onde N = 1.
 
@@ -733,15 +727,15 @@ O nó `Do Once` - como o nome sugere - disparará um pulso de execução apenas 
     caption="Se pressionada a tecla H é acionado evento Print String, caso for pressionada novamente nada acontece até que seja pressionada a tecla J para reiniciar o fluxo."
 %}
 
-### Do once em C++
+### 11.8. Do once em C++
 
 ```cpp
 // Não tem similar em C++, deve ser implementado.
 ```
 
-## O que são variáveis do tipo array?
-
 ***
+
+## 12. O que são variáveis do tipo array?
 
 É um conjunto de variáveis do mesmo tipo agrupadas dentro de uma estrutura e acessíveis por um índice. Podemos representar os *arrays* como uma tabela onde os dados são acessados por um índice que indica a posição do elemento, a seguir um exemplo.
 
@@ -779,13 +773,13 @@ StrArr.Emplace(TEXT("World"));
 // StrArr == ["Hello","World"]
 ```
 
-## Declarando arrays e acessando os seus elementos
-
 ***
+
+## 13. Declarando arrays e acessando os seus elementos
 
 Para declarar variáveis do tipo *array* devemos primeiro escolher um tipo de variável primitivo, como por exemplo um tipo `String`, e logo em seguida determinar que será um *array*, vamos aos exemplos.
 
-### Array em Blueprint
+### 13.1. Array em Blueprint
 
 {% include imagelocal.html
     src="unreal/array/blueprint_array_declare.webp"
@@ -803,7 +797,7 @@ Para declarar variáveis do tipo *array* devemos primeiro escolher um tipo de va
     caption="Em Blueprint a variável é representada por um ícone 3x3."
 %}
 
-### Método Get para arrays com Blueprint
+### 13.2. Método Get para arrays com Blueprint
 
 Para acessar qualquer elemento dentro *array* é necessários utilizar o índice, como no exemplo abaixo.  
 
@@ -813,14 +807,14 @@ Para acessar qualquer elemento dentro *array* é necessários utilizar o índice
     caption="O método Get acessa a informação recebendo como parâmetro um valor de índice."
 %}
 
-### Método Get para arrays com C++
+### 13.3. Método Get para arrays com C++
 
 ```cpp
 FString s = pessoa[0];
 UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
 ```
 
-### Get utilizando uma variável como índice com Blueprint
+### 13.4. Get utilizando uma variável como índice com Blueprint
 
 Podemos utilizar uma variável para substituir o índice e acessar elementos do *array*.
 
@@ -830,7 +824,7 @@ Podemos utilizar uma variável para substituir o índice e acessar elementos do 
     caption="No exemplo acima definimos o valor de Índice igual a 1 para acessar o elemento de mesma posição."
 %}
 
-### Get utilizando uma variável como índice com C++
+### 13.5. Get utilizando uma variável como índice com C++
 
 ```cpp
 int32 indice = 4;
@@ -838,7 +832,7 @@ FString s = pessoa[indice];
 UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
 ```
 
-### Último índice e a quantidade de elementos do array em Blueprint
+### 13.6. Último índice e a quantidade de elementos do array em Blueprint
 
 Podemos determinar a quantidade de elementos ou valor do último índice do *array* utilizando os nós abaixo.
 
@@ -852,7 +846,7 @@ Podemos determinar a quantidade de elementos ou valor do último índice do *arr
 
 - `Length` - Retorna a quantidade de elementos do *array*.
 
-### Último índice e a quantidade de elementos do array em C++
+### 13.7. Último índice e a quantidade de elementos do array em C++
 
 ```cpp
 FString Nome  = StrArr.Last();
@@ -863,13 +857,13 @@ UE_LOG(LogTemp,Warning,TEXT("O tamanho do array é %d",Tamanho));
 
 ```
 
-## Percorrendo arrays
-
 ***
+
+## 14. Percorrendo arrays
 
 Percorrer **array** implica em ler todos ou alguns elementos da estrutura, para tal usamos vários nós ou funções que permitem dependendo da necessidade facilitar a lógica.
 
-### Listando todos os elementos utilizando For usando Blueprint
+### 14.1. Listando todos os elementos utilizando For usando Blueprint
 
 Na lógica abaixo percorremos todo *array* e listamos cada elemento.
 
@@ -879,7 +873,7 @@ Na lógica abaixo percorremos todo *array* e listamos cada elemento.
     caption="Utilizando For Each Loop podemos percorrer todo array."
 %}
 
-### Listando todos os elementos utilizando For usando C++
+### 14.2. Listando todos os elementos utilizando For usando C++
 
 Podemos iterar utilizando a sintaxe padrão do C++.
 
@@ -916,7 +910,7 @@ for (auto It = StrArr.CreateConstIterator(); It; ++It)
 - `For Each Loop` - Para cada elemento do *array* é processada uma interação.
 - `For Loop` - Para cada elemento do *array*, dentro dos parâmetros `First Index` e `Last Index` é processada uma interação.
 
-### Usando o comando Find com Blueprint
+### 14.3. Usando o comando Find com Blueprint
 
 {% include imagelocal.html
     src="unreal/array/blueprint_array_search_string.webp"
@@ -924,7 +918,7 @@ for (auto It = StrArr.CreateConstIterator(); It; ++It)
     caption="Find procura um elemento dentro do *array* e se encontra retorna o valor do índice do elemento, caso não encontre retorna -1."
 %}
 
-### Usando o comando Find com C++
+### 14.4. Usando o comando Find com C++
 
 ```cpp
 int32 Index;
@@ -934,7 +928,7 @@ if (StrArr.Find(TEXT("Hello"), Index))
 }
 ```
 
-### Contando elementos dentro de um array com Blueprint
+### 14.5. Contando elementos dentro de um array com Blueprint
 
 {% include imagelocal.html
     src="unreal/array/blueprint_array_write_total_occurrence.webp"
@@ -942,7 +936,7 @@ if (StrArr.Find(TEXT("Hello"), Index))
     caption="O exemplo acima conta todos os elementos do array Nomes que são iguais a variável NomeBusca."
 %}
 
-### Contando elementos dentro de um array com C++
+### 14.6. Contando elementos dentro de um array com C++
 
 ```cpp
 FString NomeBusca = TEXT("Nome 3");
@@ -957,7 +951,7 @@ for (int32 Index = 0; Index != Nomes.Num(); ++Index)
 UE_LOG(LogTemp, Warning, TEXT("O Total é %d"),iTotal);
 ```
 
-### Percorrendo e atualizando dados com Blueprint
+### 14.7. Percorrendo e atualizando dados com Blueprint
 
 {% include imagelocal.html
     src="unreal/array/blueprint_array_fill_string.webp"
@@ -965,7 +959,7 @@ UE_LOG(LogTemp, Warning, TEXT("O Total é %d"),iTotal);
     caption="O exemplo acima vamos percorrer o array utilizando uma instrução for e atualizar outro array."
 %}
 
-### Percorrendo e atualizando dados com C++
+### 14.8. Percorrendo e atualizando dados com C++
 
 ```cpp
 TArray<FString> StrArrayResultado;
@@ -983,13 +977,13 @@ UE_LOG(LogTemp, Warning, TEXT("O Total é %d"),iTotal);
 
 ```
 
-## Removendo elementos do array
-
 ***
+
+## 15. Removendo elementos do array
 
 É possível remover elementos de dentro de um *array*, após a remoção a quantidade e índice final da estrutura vai ser atualizada, a seguir vamos apresentar algumas funções.
 
-### Removendo utilizando Remove com Blueprint
+### 15.1. Removendo utilizando Remove com Blueprint
 
 A função `Remove` exclui um elemento do *array*, o valor a ser removido tem que ser informado como parâmetro.
 
@@ -999,7 +993,7 @@ A função `Remove` exclui um elemento do *array*, o valor a ser removido tem qu
     caption="Exemplo do comando Remove."
 %}
 
-### Removendo utilizando Remove com C++
+### 15.2. Removendo utilizando Remove com C++
 
 ```cpp
 
@@ -1008,7 +1002,7 @@ TArray<FString> Nomes;
 Nomes.Remove(TEXT("Ana"));
 ```
 
-### Removendo passando uma variável como parâmetro com Blueprint
+### 15.3. Removendo passando uma variável como parâmetro com Blueprint
 
 O comando `Remove`executa uma busca utilizando um parâmetro, **NomeBusca** no exemplo abaixo, e o remove do *array*.
 
@@ -1018,7 +1012,7 @@ O comando `Remove`executa uma busca utilizando um parâmetro, **NomeBusca** no e
     caption="Exemplo de Remove com um parâmetro."
 %}
 
-### Removendo passando uma variável como parâmetro com C++
+### 15.4. Removendo passando uma variável como parâmetro com C++
 
 ```cpp
 FString StrNomeBusca = TEXT("Ana");
@@ -1028,7 +1022,7 @@ TArray<FString> Nomes;
 Nomes.Remove(StrNomeBusca);
 ```
 
-### Removendo utilizando nó Remove Index com Blueprint
+### 15.5. Removendo utilizando nó Remove Index com Blueprint
 
 `Remove Index` exclui um elemento do *array* utilizando o índice do *array*.
 
@@ -1038,7 +1032,7 @@ Nomes.Remove(StrNomeBusca);
     caption="Usando Find para obter o índice e passando o seu valor para Remove Index."
 %}
 
-### Removendo utilizando nó Remove Index com C++
+### 15.6. Removendo utilizando nó Remove Index com C++
 
 ```cpp
 int32 Index;
@@ -1049,7 +1043,7 @@ if (Nomes.Find(TEXT("Hello"), Index))
 
 ```
 
-### Limpando o array com Clear com Blueprint
+### 15.7. Limpando o array com Clear com Blueprint
 
 `Clear` remove todos os elementos do *array*.
 
@@ -1059,7 +1053,7 @@ if (Nomes.Find(TEXT("Hello"), Index))
     caption="Podemos otimizar o limpeza do array com Clear."
 %}
 
-### Limpando o array com Clear com C++
+### 15.8. Limpando o array com Clear com C++
 
 ```cpp
 
@@ -1067,9 +1061,9 @@ Nomes.Empty();
 
 ```
 
-## O que são Enums?
-
 ***
+
+## 16. O que são Enums?
 
 Uma enumeração é um tipo definido pelo usuário que consiste em um conjunto de constantes integrais nomeadas que são conhecidas como enumeradores.
 
@@ -1079,7 +1073,7 @@ Exemplo:
 enum cores = { vermelho,amarelo, azul, verde = 20, preto}
 ```
 
-### Criando Enums no Unreal Engine e Blueprint
+### 16.1. Criando Enums no Unreal Engine e Blueprint
 
 {% include imagelocal.html
     src="unreal/enum/blueprint_enum_declare.webp"
@@ -1095,7 +1089,7 @@ Execute o comando no menu de contexto `Blueprints` > `Enumeration` e logo depois
     caption="Objeto criado EN_Estado e EN_Pedra."
 %}
 
-### Criando Enums no Unreal Engine e C++
+### 16.2. Criando Enums no Unreal Engine e C++
 
 Arquivo header.
 
@@ -1123,7 +1117,7 @@ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
   TEnumAsByte < EStatusEnum::Status > status;
 ```
 
-### Exemplos de uso - A lâmpada
+### 16.3. Exemplos de uso - A lâmpada
 
 Vamos verificar e alterar o estado de uma lâmpada utilizando uma variável do tipo `boolean`.  
 
@@ -1133,7 +1127,7 @@ Vamos verificar e alterar o estado de uma lâmpada utilizando uma variável do t
     caption="Lógica para determinar se a lâmpada está ligada ou desligada."
 %}
 
-### A lâmpada em C++
+### 16.4. A lâmpada em C++
 
 ```cpp
 void AFirstPersonBaseCodeCharacter::SetupPlayerInputComponent(class UInputComponent* InputComponent)
@@ -1163,7 +1157,7 @@ Alterando o componente `PointLight` para ligar e desligar a iluminação.
     caption="Utilizando Flip Flop podemos mudar a propriedade Set Intensity e configurando a variável Ligado para falso ou verdadeiro."
 %}
 
-### Arquivo Header da lâmpada em C++
+### 16.5. Arquivo Header da lâmpada em C++
 
 ```cpp
 #pragma once
@@ -1277,7 +1271,7 @@ void AControlLight::AnyKey()
 
 ```
 
-### Verificando o estado utilizando o Enum com Blueprint
+### 16.6. Verificando o estado utilizando o Enum com Blueprint
 
 {% include imagelocal.html
     src="unreal/enum/blueprint_enum_example_lamp_read_state.webp"
@@ -1285,7 +1279,7 @@ void AControlLight::AnyKey()
     caption="Podemos ler o valor corrente de um Enum acessando diretamente a variável."
 %}
 
-### Verificando o estado utilizando o Enum com C++
+### 16.7. Verificando o estado utilizando o Enum com C++
 
 ```cpp
 // Definindo um status no enum.
@@ -1294,7 +1288,7 @@ status = EStatusEnum::Ligada;
 UE_LOG(LogTemp, Warning,TEXT("O enum é = %s"), *UEnum::GetValueAsString(status));
 ```
 
-### Ligando e desligando utilizando o Enum com Blueprint
+### 16.8. Ligando e desligando utilizando o Enum com Blueprint
 
 {% include imagelocal.html
     src="unreal/enum/blueprint_enum_example_lamp_off.webp"
@@ -1302,7 +1296,7 @@ UE_LOG(LogTemp, Warning,TEXT("O enum é = %s"), *UEnum::GetValueAsString(status)
     caption="Usamos agora a variável Estado do tipo Enum para configurar o estado da lâmpada."
 %}
 
-### Ligando e desligando utilizando o Enum com C++
+### 16.9. Ligando e desligando utilizando o Enum com C++
 
 ```cpp
 ...
@@ -1318,7 +1312,7 @@ else {
 }
 ```
 
-### Exemplos de uso - A pedra das emoções
+### 16.10. Exemplos de uso - A pedra das emoções
 
 Vamos verificar e alterar o estado de emocional de uma pedra.
 

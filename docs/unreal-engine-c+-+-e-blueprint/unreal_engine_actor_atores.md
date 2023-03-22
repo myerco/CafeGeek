@@ -11,55 +11,53 @@ date: 2022-09-21
 
 ***
 
-- [O que são Actors?](#o-que-são-actors)
-- [O que são Classes?](#o-que-são-classes)
-  - [Exemplo de implementação utilizando C++](#exemplo-de-implementação-utilizando-c)
-  - [Exemplo de implementação em Blueprint](#exemplo-de-implementação-em-blueprint)
-  - [Utilizando classes com Blueprint](#utilizando-classes-com-blueprint)
-- [Classe Actor](#classe-actor)
-- [Classe Pawn](#classe-pawn)
-- [Classe Character](#classe-character)
-- [Componentes e Actors](#componentes-e-actors)
-  - [Adicionando componentes](#adicionando-componentes)
-  - [Static Mesh - Malhas estáticas](#static-mesh---malhas-estáticas)
-    - [Propriedades do componente Static Mesh](#propriedades-do-componente-static-mesh)
-  - [Skeletal Mesh - Malha Esquelética](#skeletal-mesh---malha-esquelética)
-    - [A Estrutura da malha esquelética](#a-estrutura-da-malha-esquelética)
-    - [Propriedades do Skeletal Mesh](#propriedades-do-skeletal-mesh)
-    - [O Editor Skeletal Mesh](#o-editor-skeletal-mesh)
-- [Posição e coordenadas](#posição-e-coordenadas)
-  - [Transform](#transform)
-  - [Escrevendo na tela o posicionamento do ator no mundo](#escrevendo-na-tela-o-posicionamento-do-ator-no-mundo)
-  - [Posição relativa no mundo](#posição-relativa-no-mundo)
-  - [Escrevendo na tela o posição relativa do componente](#escrevendo-na-tela-o-posição-relativa-do-componente)
-- [Trabalhando herança com Blueprint](#trabalhando-herança-com-blueprint)
-  - [Criando uma classe filho](#criando-uma-classe-filho)
-  - [Variáveis da classe pai](#variáveis-da-classe-pai)
-  - [Herança de propriedades e métodos](#herança-de-propriedades-e-métodos)
-  - [Executando um evento da classe pai](#executando-um-evento-da-classe-pai)
-  - [Componente ChildActor](#componente-childactor)
-  - [Referências de atores e componentes](#referências-de-atores-e-componentes)
-- [Manipulando Actors](#manipulando-actors)
-  - [Spawn e Destroy Actors - Criando e destruindo um Actor](#spawn-e-destroy-actors---criando-e-destruindo-um-actor)
-  - [Listando Actors por classe](#listando-actors-por-classe)
-- [Colisões](#colisões)
-  - [Interações](#interações)
-  - [Exemplos comuns de interação de colisão](#exemplos-comuns-de-interação-de-colisão)
-    - [Colisão](#colisão)
-    - [Colisão e Simulação Geram Eventos de acerto](#colisão-e-simulação-geram-eventos-de-acerto)
-  - [Sobrepor e ignorar](#sobrepor-e-ignorar)
-  - [Configuração das propriedades da colisão de esfera](#configuração-das-propriedades-da-colisão-de-esfera)
-  - [Sobrepor e gerar eventos de sobreposição](#sobrepor-e-gerar-eventos-de-sobreposição)
-  - [Colisão de esfera](#colisão-de-esfera)
-  - [Colisão de parede](#colisão-de-parede)
-  - [Colisão Simples versus Complexa](#colisão-simples-versus-complexa)
-  - [Static Mesh e colisões](#static-mesh-e-colisões)
+- [1. O que são Actors?](#1-o-que-são-actors)
+- [2. O que são Classes?](#2-o-que-são-classes)
+  - [2.1. Exemplo de implementação utilizando C++](#21-exemplo-de-implementação-utilizando-c)
+  - [2.2. Exemplo de implementação em Blueprint](#22-exemplo-de-implementação-em-blueprint)
+  - [2.3. Utilizando classes com Blueprint](#23-utilizando-classes-com-blueprint)
+- [3. Classe Actor](#3-classe-actor)
+- [4. Classe Pawn](#4-classe-pawn)
+- [5. Classe Character](#5-classe-character)
+- [6. Componentes e Actors](#6-componentes-e-actors)
+  - [6.1. Adicionando componentes](#61-adicionando-componentes)
+  - [6.2. Static Mesh - Malhas estáticas](#62-static-mesh---malhas-estáticas)
+    - [6.2.1. Propriedades do componente Static Mesh](#621-propriedades-do-componente-static-mesh)
+  - [6.3. Skeletal Mesh - Malha Esquelética](#63-skeletal-mesh---malha-esquelética)
+    - [6.3.1. A Estrutura da malha esquelética](#631-a-estrutura-da-malha-esquelética)
+    - [6.3.2. Propriedades do Skeletal Mesh](#632-propriedades-do-skeletal-mesh)
+    - [6.3.3. O Editor Skeletal Mesh](#633-o-editor-skeletal-mesh)
+- [7. Posição e coordenadas](#7-posição-e-coordenadas)
+  - [7.1. Transform](#71-transform)
+  - [7.2. Escrevendo na tela o posicionamento do ator no mundo](#72-escrevendo-na-tela-o-posicionamento-do-ator-no-mundo)
+  - [7.3. Posição relativa no mundo](#73-posição-relativa-no-mundo)
+  - [7.4. Escrevendo na tela o posição relativa do componente](#74-escrevendo-na-tela-o-posição-relativa-do-componente)
+- [8. Trabalhando herança com Blueprint](#8-trabalhando-herança-com-blueprint)
+  - [8.1. Criando uma classe filho](#81-criando-uma-classe-filho)
+  - [8.2. Variáveis da classe pai](#82-variáveis-da-classe-pai)
+  - [8.3. Herança de propriedades e métodos](#83-herança-de-propriedades-e-métodos)
+  - [8.4. Executando um evento da classe pai](#84-executando-um-evento-da-classe-pai)
+  - [8.5. Componente ChildActor](#85-componente-childactor)
+  - [8.6. Referências de atores e componentes](#86-referências-de-atores-e-componentes)
+- [9. Manipulando Actors](#9-manipulando-actors)
+  - [9.1. Spawn e Destroy Actors - Criando e destruindo um Actor](#91-spawn-e-destroy-actors---criando-e-destruindo-um-actor)
+  - [9.2. Listando Actors por classe](#92-listando-actors-por-classe)
+- [10. Colisões](#10-colisões)
+  - [10.1. Interações](#101-interações)
+  - [10.2. Exemplos comuns de interação de colisão](#102-exemplos-comuns-de-interação-de-colisão)
+    - [10.2.1. Colisão](#1021-colisão)
+    - [10.2.2. Colisão e Simulação Geram Eventos de acerto](#1022-colisão-e-simulação-geram-eventos-de-acerto)
+  - [10.3. Sobrepor e ignorar](#103-sobrepor-e-ignorar)
+  - [10.4. Configuração das propriedades da colisão de esfera](#104-configuração-das-propriedades-da-colisão-de-esfera)
+  - [10.5. Sobrepor e gerar eventos de sobreposição](#105-sobrepor-e-gerar-eventos-de-sobreposição)
+  - [10.6. Colisão de esfera](#106-colisão-de-esfera)
+  - [10.7. Colisão de parede](#107-colisão-de-parede)
+  - [10.8. Colisão Simples versus Complexa](#108-colisão-simples-versus-complexa)
+  - [10.9. Static Mesh e colisões](#109-static-mesh-e-colisões)
 
 ***
 
-## O que são Actors?
-
-***
+## 1. O que são Actors?
 
 Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de básica de objetos do **Unreal Engine**, neste capitulo serão apresentados e implementados os atores *Actors* do seu projeto.
 
@@ -69,9 +67,9 @@ Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de 
 
 Para entender melhor devemos conceituar e entender o que são classes.
 
-## O que são Classes?
-
 ***
+
+## 2. O que são Classes?
 
 Classes são estruturas de dados que constituem a programação orientada a objetos. Contém seus próprios membros de dados e funções e podem ser acessados e usados criando uma instância de classe.
 
@@ -97,7 +95,7 @@ Abaixo vamos apresentar a estrutura hierarquia de classes.
     |-- GameController BP
 ```
 
-### Exemplo de implementação utilizando C++
+### 2.1. Exemplo de implementação utilizando C++
 
 ```cpp
 class Hero
@@ -111,7 +109,7 @@ class Hero
 };
 ```
 
-### Exemplo de implementação em Blueprint
+### 2.2. Exemplo de implementação em Blueprint
 
 Em **Blueprint** podemos obter os seguintes grupos de classes de atores:
 
@@ -121,7 +119,7 @@ Em **Blueprint** podemos obter os seguintes grupos de classes de atores:
 
 - Character;
 
-### Utilizando classes com Blueprint
+### 2.3. Utilizando classes com Blueprint
 
 Como citado anteriormente classes são estruturas de dados com eventos, variáveis e componentes.
 
@@ -133,9 +131,9 @@ Para criar uma classe utilizando **Blueprint** acesse o menu de contexto e selec
     caption="Permite selecionar uma classe predefinida para implementação de um nova classe."
 %}
 
-## Classe Actor
-
 ***
+
+## 3. Classe Actor
 
 A classe **Actor** compreende objetos básicos que podem ser adicionados ao mundo. Atores podem conter coleções de componentes, os quais podem ser usados para controlar como o ator se move, como é renderizado, etc. Atores suportam transformações 3D tal como translação, rotação e escala.
 
@@ -147,9 +145,9 @@ A classe **Actor** compreende objetos básicos que podem ser adicionados ao mund
 
 - `Parent Class` : Classe pai de Actor (Classe **C++**).
 
-## Classe Pawn
-
 ***
+
+## 4. Classe Pawn
 
 A classe **Pawn** ou peão é a classe base de todos os atores que podem ser controlados por jogadores ou IA. Um peão é a representação física de um jogador ou entidade de IA dentro do mundo. Isso não significa apenas que o peão determina a aparência visual do jogador ou entidade de IA, mas também como ele interage com o mundo em termos de colisões e outros aspectos físicos
 
@@ -185,9 +183,9 @@ As Classes tem propriedades que definem a estrutura do objeto.
 
 - `Can be Damaged` : Habilita os eventos de dano do objeto.
 
-## Classe Character
-
 ***
+
+## 5. Classe Character
 
 Um personagem é um *Pawn* que tem algumas funcionalidades básicas de movimento bípede por padrão.  
 Com a adição de um componente `CharacterMovementComponent`, um `CapsuleComponent` e um `SkeletalMeshComponent`, a classe *Pawn* é estendida para a classe *Character* com muitos recursos. Um personagem é projetado para uma representação do jogador orientada verticalmente que pode andar, correr, pular, voar e nadar pelo mundo. Esta classe também contém implementações de rede básica e modelos de entrada.
@@ -204,13 +202,13 @@ Com a adição de um componente `CharacterMovementComponent`, um `CapsuleCompone
 
 - `Skeletal Mesh Asset` - Malha esquelética.
 
-## Componentes e Actors
-
 ***
+
+## 6. Componentes e Actors
 
 Os componentes são um tipo especial de objeto que os atores podem anexar a si próprios como subobjetos. Os componentes são úteis para compartilhar comportamentos comuns, como a capacidade de exibir uma representação visual e reproduzir sons. Eles também podem representar conceitos específicos do projeto, como a maneira como um veículo interpreta a entrada e muda sua própria velocidade e orientação. Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuário pode implementar as diferenças no controle e movimento do veículo, alterando qual componente um ator do veículo usa.
 
-### Adicionando componentes
+### 6.1. Adicionando componentes
 
 Na aba `Components`s podemos adicionar componentes para os objetos de forma hierarquia.
 
@@ -242,7 +240,7 @@ Para editar os componentes utilizamos o Editor de objetos e componentes.
     caption="Podemos editar as propriedades dos componentes."
 %}
 
-### Static Mesh - Malhas estáticas
+### 6.2. Static Mesh - Malhas estáticas
 
 **Static Mesh** são a unidade básica usada para criar a geometria do mundo para níveis (*level*) criados no **Unreal Engine**. A grande maioria de qualquer mapa em um jogo feito com **Unreal** consistirá em Malhas Estáticas, geralmente na forma de Atores de Malha Estática.
 
@@ -254,7 +252,7 @@ Consistem em um conjunto de polígonos que podem ser armazenados em cache na mem
     caption="Podemos manipular as transformações da Static Mesh."
 %}
 
-#### Propriedades do componente Static Mesh
+#### 6.2.1. Propriedades do componente Static Mesh
 
 - `Transform` - Propriedades de localização do componente;
 
@@ -274,11 +272,11 @@ Visualização da malha e suas propriedades (vértices, UV e modelo de colisão)
     caption="O editor permite adicionar uma caixa de colisão e visualizar o mapeamento UV."
 %}
 
-### Skeletal Mesh - Malha Esquelética
+### 6.3. Skeletal Mesh - Malha Esquelética
 
 As **Skeletal mesh** são compostas por duas partes: Um conjunto de polígonos compostos para formar a superfície da Malha Esquelética e um conjunto hierárquico de ossos interconectados que podem ser usados para animar os vértices dos polígonos. **Skeletal mesh** são frequentemente usados no **Unreal Engine 4** para representar personagens ou outros objetos animados.
 
-#### A Estrutura da malha esquelética
+#### 6.3.1. A Estrutura da malha esquelética
 
 A baixo uma representação da hierarquia do Skeletal Mesh.
 
@@ -296,7 +294,7 @@ A baixo uma representação da hierarquia do Skeletal Mesh.
     |   |-- ThirdPerson_AnimBP_C
 ```
 
-#### Propriedades do Skeletal Mesh
+#### 6.3.2. Propriedades do Skeletal Mesh
 
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_skeletal_mesh.webp"
@@ -322,7 +320,7 @@ Propriedades da Mesh (Skeletal):
   
 - `Mesh` - Skeletal Mesh associada ao componente.
 
-#### O Editor Skeletal Mesh
+#### 6.3.3. O Editor Skeletal Mesh
 
 {% include imagebase.html
     src="unreal/animacao/unreal_engine_skeleton_mannequim.webp"
@@ -342,9 +340,9 @@ Observe que o editor é divido em :
 
 - `Physcis` - Estruturas para representar a física do esqueleto.
 
-## Posição e coordenadas
-
 ***
+
+## 7. Posição e coordenadas
 
 Os objetos adicionados em uma cena possuem coordenadas de localização dentro do 'mundo', vamos apresentar como manipular coordenadas.
 
@@ -354,7 +352,7 @@ Os objetos adicionados em uma cena possuem coordenadas de localização dentro d
     caption="No campo inferior esquerdo são indicadas as posições x,y e z da cena. O objeto da cena apresenta o gizmo para indicar a sua posição na cena. No canto superior direito é possível alterar entre as coordenadas do mundo e do objeto."
 %}
 
-### Transform
+### 7.1. Transform
 
 A seção **Transform** do painel Detalhes permite que você visualize e edite as transformações - Localização, Rotação e Escala - do (s) ator (es) selecionado (s). Além disso, quando aplicável, também contém as configurações para Mobilidade do Ator.
 
@@ -364,7 +362,7 @@ A seção **Transform** do painel Detalhes permite que você visualize e edite a
     caption="Valores relativos à Localização (Location), Rotação (Rotation) e Escala ou dimensionamento (Scale)."
 %}
 
-### Escrevendo na tela o posicionamento do ator no mundo
+### 7.2. Escrevendo na tela o posicionamento do ator no mundo
 
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_print_location.webp"
@@ -376,7 +374,7 @@ A seção **Transform** do painel Detalhes permite que você visualize e edite a
 
 - `GetwordLocarion` - Retorna um vetor de coordenadas da posição do componente no mundo.
 
-### Posição relativa no mundo
+### 7.3. Posição relativa no mundo
 
 Os elementos associados a um ator, como por exemplo `StaticMesh` tem posições relativas ao objeto ao qual estão associados.  
 
@@ -400,7 +398,7 @@ A posição do ator no mundo é calculada utilizando o componente `DefaultSceneR
 
 A posição do ator no mundo é calculada utilizando o componente `DefaultSceneRoot` do tipo `Scene`. O componente `StaticMesh` tem um vetor de coordenadas relativas ao objeto de hierarquia superior, sendo X=0,Y=0 e Z=0.
 
-### Escrevendo na tela o posição relativa do componente
+### 7.4. Escrevendo na tela o posição relativa do componente
 
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_print_relative_location.webp"
@@ -415,9 +413,9 @@ A posição do ator no mundo é calculada utilizando o componente `DefaultSceneR
     ref="https://blueprintue.com/render/xy8gbnli/"
 %}
 
-## Trabalhando herança com Blueprint
-
 ***
+
+## 8. Trabalhando herança com Blueprint
 
 Como apresentado no conceito de classes, a herança permite usar classes já definidas para derivar novas classes, a seguir vamos verificar como implementar utilizando **Blueprint**.  
 
@@ -438,7 +436,7 @@ Exemplo de classe Herói que derive de Humanos:
     |   |   |-- Dano = 80 (herdado)    
 ```
 
-### Criando uma classe filho
+### 8.1. Criando uma classe filho
 
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_create_child_class.webp"
@@ -446,7 +444,7 @@ Exemplo de classe Herói que derive de Humanos:
     caption="Selecionando o objeto pai e acionamento o menu de contexto (RMB) acessamos a opção para criar a classe derivada."
 %}
 
-### Variáveis da classe pai
+### 8.2. Variáveis da classe pai
 
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_show_my_blueprints.webp"
@@ -454,7 +452,7 @@ Exemplo de classe Herói que derive de Humanos:
     caption="Podemos exibir as variáveis, componentes ou eventos da herdados da classe pai, no exemplo acima a variável NameBase pertence a classe pai."
 %}
 
-### Herança de propriedades e métodos
+### 8.3. Herança de propriedades e métodos
 
 É possível sobrescrever os métodos da classe pai para adicionar uma nova lógica, vamos aos passos.
 
@@ -466,7 +464,7 @@ Criando um evento para sobrescrever o evento `Begin Play`.
     caption="Podemos sobrescrever os métodos da classe pai."
 %}
 
-### Executando um evento da classe pai
+### 8.4. Executando um evento da classe pai
 
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_beginplay_override.webp"
@@ -474,7 +472,7 @@ Criando um evento para sobrescrever o evento `Begin Play`.
     caption="Clicando com o botão direito (RMB) acessamos a opção Add Call to Parent Function que executa a classe pai antes de executar o próximo comando."
 %}
 
-### Componente ChildActor
+### 8.5. Componente ChildActor
 
 O componente `ChildActor` permite associar uma classe filha utilizando a lista de componentes.
 
@@ -486,7 +484,7 @@ O componente `ChildActor` permite associar uma classe filha utilizando a lista d
 
 - `ChildActor` - É necessário informar a classe filho neste componente.
 
-### Referências de atores e componentes
+### 8.6. Referências de atores e componentes
 
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_view_references.webp"
@@ -494,13 +492,13 @@ O componente `ChildActor` permite associar uma classe filha utilizando a lista d
     caption="Clicando com o botão direito (RMB) podemos acessar a opção para visualizar todas as referências do objeto. No exemplo acima BP_ActorChild2 é uma classe derivada do BP_ActorBase e BP_ActorChild está associada usando o componente ChildActor."
 %}
 
-## Manipulando Actors
-
 ***
+
+## 9. Manipulando Actors
 
 Podemos adicionar, remover ou selecionar os atores que estão na cena do jogo, a seguir vamos implementar e entender esses comandos.
 
-### Spawn e Destroy Actors - Criando e destruindo um Actor
+### 9.1. Spawn e Destroy Actors - Criando e destruindo um Actor
 
 O processo de criação de uma nova instância de um ator é conhecido como *spawning*. A geração de atores é realizada usando a função `SpawnActor`. Esta função cria uma nova instância de uma classe especificada e retorna um ponteiro para o Actor recém-criado. `SpawnActor` só pode ser usado para criar instâncias de classes que herdam da classe Actor em sua hierarquia.
 
@@ -518,7 +516,7 @@ Utilizando o `Level Bluprint` podemos implementar o código acima.
 
 1. Usamos `IsValid` para verificar se o ator existe na cena.
 
-### Listando Actors por classe
+### 9.2. Listando Actors por classe
 
 Utilizando a função `GetAllActorOfClass` e o loop `For Each Loop` podemos listar todos os atores na cena.
 
@@ -535,15 +533,15 @@ Utilizando a função `GetAllActorOfClass` e o loop `For Each Loop` podemos list
     ref="https://blueprintue.com/render/xugypke9/"
 %}
 
-## Colisões
-
 ***
+
+## 10. Colisões
 
 **Collision Responses** e **Trace Responses** formam a base de como o Unreal Engine 4 lida com colisão e transmissão de raios durante o tempo de execução. Cada objeto que pode colidir recebe um tipo de objeto e uma série de respostas que definem como ele interage com todos os outros tipos de objeto. Quando ocorre um evento de colisão ou sobreposição, ambos (ou todos) os objetos envolvidos podem ser configurados para afetar ou serem afetados pelo bloqueio, sobreposição ou ignorando um ao outro. [Collision Overview](https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Physics/Collision/Overview/)
 
 **Trace Responses** funcionam basicamente da mesma maneira, exceto que o próprio rastreamento (*ray cast*) pode ser definido como um dos tipos de resposta de rastreamento, permitindo assim que os atores o bloqueiem ou ignorem com base em suas respostas de rastreamento.
 
-### Interações
+### 10.1. Interações
 
 Existem algumas regras a serem lembradas sobre como as colisões são tratadas:
 
@@ -561,7 +559,7 @@ Existem algumas regras a serem lembradas sobre como as colisões são tratadas:
 
 - Se um objeto for configurado para ignorar e o outro for configurado para sobrepor, nenhum evento de sobreposição será disparado.
 
-### Exemplos comuns de interação de colisão
+### 10.2. Exemplos comuns de interação de colisão
 
 >As interações a seguir pressupõem que todos os objetos tenham `Collision Enabled` definido como `Collision Enabled`, de modo que estejam configurados para colidir totalmente com tudo. Se a colisão estiver desabilitada, é como se ignorar tivesse sido definido para todas as `Collision Responses` .
 
@@ -574,7 +572,7 @@ Para a seção a seguir, abaixo a configuração usada para explicar o que está
     ref="https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Physics/Collision/Overview/"
 %}
 
-#### Colisão
+#### 10.2.1. Colisão
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideNoEvent.png"
@@ -600,7 +598,7 @@ Configuração de colisão de parede.
 
 Nesse caso, a esfera e a parede simplesmente colidirão; nenhuma outra notificação da colisão ocorrerá.
 
-#### Colisão e Simulação Geram Eventos de acerto
+#### 10.2.2. Colisão e Simulação Geram Eventos de acerto
 
 Apenas a colisão é útil e, em geral, o mínimo para interações físicas, mas se você quiser que algo relate, ele colidiu para que um **Blueprint** ou seção de código possa ser acionado:
 
@@ -634,7 +632,7 @@ Com a esfera definida como Simulação gera eventos de acerto, a esfera informar
 
 Além disso, um objeto que está relatando colisões rígidas relatará todas elas e relatórios de spam quando estiver apenas parado em algo, portanto, é melhor ter cuidado ao filtrar o que está colidindo em seu **Blueprint** ou no código.
 
-### Sobrepor e ignorar
+### 10.3. Sobrepor e ignorar
 
 Para todos os efeitos, *Overlap* (Sobrepor) e *Ignore* (Ignorar) funcionam exatamente da mesma forma, supondo que Gerar eventos de sobreposição esteja desativado. Nesse caso, a esfera está configurada para sobrepor ou ignorar a caixa:
 
@@ -666,7 +664,7 @@ A parede é uma `WorldDynamic` e está configurada para bloquear,`Block`, os Ato
 
 Ou:
 
-### Configuração das propriedades da colisão de esfera
+### 10.4. Configuração das propriedades da colisão de esfera
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_ignore_sphere.png"
@@ -686,7 +684,7 @@ Configuração das propriedades de colisão de parede:
 
 A parede é uma `WorldDynamic` e está configurada para bloquear os Atores `PhysicsBody` (que é o que a esfera é). Como dito acima, ambos os Atores precisam ser configurados para bloquear, `Block`, os respectivos tipos de objetos um do outro. Se não o fizerem, não colidirão.
 
-### Sobrepor e gerar eventos de sobreposição
+### 10.5. Sobrepor e gerar eventos de sobreposição
 
 Ao contrário das colisões que podem disparar todos os quadros, os eventos de sobreposição são `ReceiveBeginOverlap` e `ReceiveEndOverlap`, que são disparados apenas nesses casos específicos.
 
@@ -700,7 +698,7 @@ Ao contrário das colisões que podem disparar todos os quadros, os eventos de s
     caption="Evento de sobreposição."
 %}
 
-### Colisão de esfera
+### 10.6. Colisão de esfera
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_OverlapEvent_Sphere.png"
@@ -710,7 +708,7 @@ Ao contrário das colisões que podem disparar todos os quadros, os eventos de s
 
 Aqui, a esfera está configurada para sobrepor, `Overlap`, os Atores `WorldDynamic` (como nossa parede), e ela gerará um evento para si mesma quando se sobrepuser a algo.
 
-### Colisão de parede
+### 10.7. Colisão de parede
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_collideOverLapEvent_Box.png"
@@ -720,11 +718,11 @@ Aqui, a esfera está configurada para sobrepor, `Overlap`, os Atores `WorldDynam
 
 A parede é uma WorldDynamic e está configurada para bloquear, `Block`, os Atores `PhysicsBody` (que é o que a esfera é). Como dito acima, ambos os Atores precisam ser configurados para bloquear os respectivos tipos de objetos um do outro. Se não o fizerem, não colidirão. Mas, uma sobreposição ocorre aqui, e os eventos para a esfera e a caixa são disparados.
 
-### Colisão Simples versus Complexa
+### 10.8. Colisão Simples versus Complexa
 
 No **Unreal Engine**, você tem acesso a formas de colisão simples e complexas. Colisão Simples, `Simplex Collision`, são primitivos como cubos, esferas, cápsulas e cascos convexos. Colisão Complexa, `Complex Collsion`, é o `trimesh` de um determinado objeto. Por padrão, o **Unreal Engine** cria formas simples e complexas, então, com base no que o usuário deseja (consulta complexa versus consulta simples), o solucionador de física usará a forma correspondente para consultas de cena e testes de colisão. [Simple versus Complex Collision](https://docs.unrealengine.com/5.1/en-US/simple-versus-complex-collision-in-unreal-engine/)
 
-### Static Mesh e colisões
+### 10.9. Static Mesh e colisões
 
 No painel `Static Mesh Editor > Details`, você pode encontrar as configurações de `Complex Collision` na categoria `Collision`.
 

@@ -19,8 +19,8 @@ layout: page
   - [2.4. Lista de formatos e texturas que o Unreal Engine suporta](#24-lista-de-formatos-e-texturas-que-o-unreal-engine-suporta)
   - [2.5. O que são Pontos?](#25-o-que-são-pontos)
     - [2.5.1. Pixel](#251-pixel)
-    - [2.5.2. Bits por pixel](#252-bits-por-pixel)
-    - [2.5.3. Uma dica para utilizar texturas no Unreal Engine](#253-uma-dica-para-utilizar-texturas-no-unreal-engine)
+    - [2.5.1. Bits por pixel](#251-bits-por-pixel)
+    - [2.5.2. Uma dica para utilizar texturas no Unreal Engine](#252-uma-dica-para-utilizar-texturas-no-unreal-engine)
   - [2.6. Linhas, raios e segmentos](#26-linhas-raios-e-segmentos)
     - [2.6.1. Planos e Triângulos](#261-planos-e-triângulos)
   - [2.7. Polígonos (Polygon)](#27-polígonos-polygon)
@@ -199,7 +199,7 @@ Pixel é o menor elemento em um dispositivo de exibição, sendo que cada pixel 
     caption="Um exemplo de formação de imagens."
 %}
 
-#### 2.5.2. Bits por pixel
+#### 2.5.1. Bits por pixel
 
 {% include image.html
     src="https://www.researchgate.net/publication/366169511/figure/fig2/AS:11431281106419063@1670675652164/Pixel-size-of-different-color-The-size-of-an-image-file-then-is-directly-related-to.png"
@@ -219,14 +219,15 @@ As cores do pixel dependem da quantidade de bits por pixel (bpp).
 
 Aumentando a qualidade de cores a imagem terá uma aparência mais realista mas consumira mais memória e processamento.
 
-#### 2.5.3. Uma dica para utilizar texturas no Unreal Engine
+#### 2.5.2. Uma dica para utilizar texturas no Unreal Engine
 
 Formatos de textura menores resultam em materiais mais rápidos (por exemplo, [DXT1](https://www.khronos.org/opengl/wiki/S3_Texture_Compression) é de 4 bits por pixel, DXT5 é de 8 bpp, ARGB descompactado é de 32 bpp).
 
 >**DXT1**
-Compressão de imagens que usam blocos de bits.
-**GIMP**
-[Exportando imagens do **Gimp** com compressão DXT1](
+>Compressão de imagens que usam blocos de bits.
+>
+>**GIMP**
+>[Exportando imagens do **Gimp** com compressão DXT1](
 https://wiki.thedarkmod.com/index.php?title=DDS_Creation_with_GIMP)
 
 ### 2.6. Linhas, raios e segmentos
@@ -542,32 +543,33 @@ A etapa de geometria (com pipeline de geometria), é responsável pela maioria d
   
 {% include image.html
     src="https://unreal.tips/wp-content/uploads/2019/05/Drawcalls.jpg"
-    alt="Figura: Drawcalls - Unreal Tips."
-    caption="Figura: Drawcalls - Unreal Tips."
+    alt="Figura: Drawcalls."
+    caption="Unreal Tips."
 %}  
 
 - `Vertex Shaders` - É uma função de processamento gráfico usada para adicionar efeitos especiais a objetos em um ambiente 3D executando operações matemáticas nos dados de vértice dos objetos. Cada vértice pode ser definido por muitas variáveis diferentes. Por exemplo, um vértice é sempre definido por sua localização em um ambiente 3D usando as coordenadas x-, y- e z-. Os vértices também podem ser definidos por cores, texturas e características de iluminação. Os Vertex Shaders não alteram realmente o tipo de dados; eles simplesmente mudam os valores dos dados, de modo que um vértice emerge com uma cor diferente, texturas diferentes ou uma posição diferente no espaço.
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/8/84/Phong-shading-sample.jpg"
-    alt="Figura: Phong-shading - wikipedia."
-    caption="Figura: Phong-shading - wikipedia."
+    alt="Figura: Flat-shading e Phong-shading."
+    caption="São tipos de sombreadores 3D e são executados uma vez para cada vértice fornecido ao processador gráfico."
+    ref="https://en.wikipedia.org/wiki/Shader"
 %}  
 
-- `Pixel Shader` - Os Pixel Shader, calculam a cor e outros atributos de cada "fragmento": uma unidade de trabalho de renderização que afeta no máximo um único pixel de saída. Os tipos mais simples de sombreadores de pixel geram um pixel da tela como um valor de cor; sombreadores mais complexos com várias entradas / saídas também são possíveis. Os sombreadores de pixel variam desde simplesmente sempre a saída da mesma cor, até a aplicação de um valor de iluminação, até o mapeamento de saliências, sombras, realces especulares, translucidez e outros fenômenos. Eles podem alterar a profundidade do fragmento (para buffer Z) ou produzir mais de uma cor se vários destinos de renderização estiverem ativos.
+- `Pixel Shader` - Os Pixel Shader, calculam a cor e outros atributos de cada "fragmento",uma unidade de trabalho de renderização que afeta no máximo um único pixel de saída. Os sombreadores de pixel variam desde simplesmente sempre a saída da mesma cor, até a aplicação de um valor de iluminação, até o mapeamento de saliências, sombras, realces especulares, translucidez e outros fenômenos. Eles podem alterar a profundidade do fragmento (para buffer Z) ou produzir mais de uma cor se vários destinos de renderização estiverem ativos.
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Shading_models.png"
-    alt="Figura: Shading_models - wikipedia."
-    caption="Figura: Shading_models - wikipedia."
+    alt="Figura: Shading models."
+    caption="Os tipos mais simples de sombreadores de pixel geram um pixel da tela como um valor de cor; sombreadores mais complexos com várias entradas / saídas também são possíveis."
 %}
 
 - `Geometry Shaders` - Recebe como entrada um conjunto de vértices que formam uma única primitiva, por exemplo, um ponto ou triângulo. O sombreador de geometria pode então transformar esses vértices conforme achar necessário antes de enviá-los para o próximo estágio de sombreador. O que torna o shader de geometria interessante é que ele é capaz de converter a primitiva original (conjunto de vértices) em primitivas completamente diferentes, possivelmente gerando mais vértices do que os inicialmente dados.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="computacao_grafica/The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards.jpg"
     alt="Figura: Pipeline OpenGL."
-    caption="Figura: Pipeline OpenGL."
+    caption="É uma sequência de etapas que o OpenGL executa ao renderizar objetos. Esta visão geral fornecerá uma descrição de alto nível das etapas do pipeline."
 %}
 
 - `Fragment Shader` - É uma unidade programável da GPU que opera em cada fragmento produzido durante a rasterização e seus dados associados.
@@ -585,20 +587,22 @@ Um exemplo seria uma reta descrita matematicamente é infinitesimalmente contín
 
 ### 3.6. Conclusão
 
-1. O custo para renderizar muitos poligonos é muitas vezes menor que o Drawcall;
+1. O custo para renderizar muitos polígonos é muitas vezes menor que o Drawcall;
 1. 50.000 triângulos podem rodar pior que 50 milhões dependendo da implementação;
-1. Drwacall tem uma despesa básica, portanto, otimizar poli de baixo para super poli pode fazer nenhuma diferença;  
+1. Drawcall tem uma despesa básica, portanto, otimizar poli de baixo para super poli pode fazer nenhuma diferença;  
 1. Componentes = DrawCalls;
 1. Componentes ocluem e são renderizados um por um;
 1. Mesclar em um único ator geralmente não faz diferença para a renderização;
 1. Para diminuir o drawcalls é melhor usar menos modelos maiores do que muitos modelos pequenos, você não pode fazer muito isso, no entanto, isso afeta todo o resto negativamente;
 
-- Pior para oclusão - A oclusão é mais rápida por si só, mas não será capaz de fazer um trabalho bom o suficiente, tem menos objetos que precisam ser verificados quanto à oclusão, mas tem uma chance menor de realmente ocluir alguma coisa
-- pior para o lightmapping - Lightmap tem uma quantidade limite de espaço, a quantidade máxima de espaço é a textura do mapa de luz, independentemente da resolução, o mapa de luz também tem um limite de resolução superior.
+   - Pior para oclusão - A oclusão é mais rápida por si só, mas não será capaz de fazer um trabalho bom o suficiente, tem menos objetos que precisam ser verificados quanto à oclusão, mas tem uma chance menor de realmente ocluir alguma coisa
+   - pior para o lightmapping - Lightmap tem uma quantidade limite de espaço, a quantidade máxima de espaço é a textura do mapa de luz, independentemente da resolução, o mapa de luz também tem um limite de resolução superior.
   Por exemplo imagens de 4k, 4.096 já é enorme para um lightmap.
-- Se você fizer modelos muito grandes, eventualmente eles simplesmente ficarão sem espaço UV.
+   - Se você fizer modelos muito grandes, eventualmente eles simplesmente ficarão sem espaço UV.
    Pior para calculo de colisão.
    Pior para memoria.
+
+***
 
 ## 4. Processamento de imagens com Unreal Engine
 
