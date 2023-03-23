@@ -1,16 +1,16 @@
 {% if page.layout == "post" %}
-   {%- if site.data.list.docs_list_title %}   
-      <h2>{{ site.data.list.docs_list_title }}</h2>
-   {% endif %} 
-   <ul>
+   <div class="sidebar sticky">
+      {%- if site.data.list.docs_list_title %}   
+         <h2>{{ site.data.list.docs_list_title }}</h2>
+      {% endif %} 
+      <ul>
       {% for item in site.data.list.docs %}
-         
          {% if item.url %}
             <li><a href="{{ item.url }}">{{ item.title }}</a></li>
          {% else %}
             <h3>{{ item.title }}</h3>
          {% endif %}
-
       {% endfor %}
-   </ul>
-{% endif %} 
+      </ul>
+   </div>      
+{% endif %}
