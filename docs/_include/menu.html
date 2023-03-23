@@ -2,7 +2,6 @@
    <div class="sidebar sticky">
       {%- if site.data.list.docs_list_title %}   
          <h2>{{ site.data.list.docs_list_title }}</h2>
-         <hr>
       {% endif %} 
       <ul>
       {% for item in site.data.list.docs %}
@@ -10,6 +9,7 @@
             <li><a href="{{ item.url }}">{{ item.title }}</a></li>
          {% else %}
             <h3>{{ item.title }}</h3>
+            <hr>
          {% endif %}
       {% endfor %}
       </ul>
