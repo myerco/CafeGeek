@@ -338,7 +338,7 @@ Sidebar
 @media (min-width: 64em) {
   .sidebar.sticky {
     overflow-y: auto;
-    max-height: calc(50vh - 2em - 2em);
+    max-height: calc(100vh - 2em - 2em);
   }
 }
 
