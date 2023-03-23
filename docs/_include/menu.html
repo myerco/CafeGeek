@@ -1,8 +1,18 @@
 {% if page.layout == "post" %}
-   <h2>{{ site.data.list.docs_list_title }}</h2>
+   {%- if site.data.list.docs_list_title %}   
+      <h2>{{ site.data.list.docs_list_title }}</h2>
+   {% endif %} 
    <ul>
       {% for item in site.data.list.docs %}
-         <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+         
+         {% if item.title %}<h3>{{ item.title }}</h3>{% endif %}
+
+         {% for nav in item.nav %}
+
+            {% if nav.text %}<li><a href="{{ nav.url }}">{{ nav.text }}</a></li>{% endif %}
+         
+         {% endfor %}
+
       {% endfor %}
    </ul>
 {% endif %} 

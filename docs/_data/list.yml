@@ -1,11 +1,16 @@
-docs_list_title: Páginas do Site
+docs_list_title: 
 docs:
 
-- title: Introduction
-  url: introduction.html
-
-- title: Configuration
-  url: configuration.html
-
-- title: Deployment
-  url: deployment.html
+- title: Desenvolvimento de jogos
+  - nav:
+      text: Unreal Engine com C++ e Blueprint
+      url: https://cafegeek.eti.br/unreal-engine-c+-+-e-blueprint/index.html
+  - nav:
+      text: Computação Gráfica com Unreal Engine
+      url: https://cafegeek.eti.br/computacao-grafica/index.html
+  - nav:
+      text: Modelagem usando Autodesk Maya
+      url: https://cafegeek.eti.br/modelagem-usando-autodesk-maya/index.html
+- title: Programação em C++      
+      text: Estrutura da linguagem
+      url: https://cafegeek.eti.br/cpp/index.html
