@@ -5,13 +5,11 @@
    <ul>
       {% for item in site.data.list.docs %}
          
-         {% if item.title %}<h3>{{ item.title }}</h3>{% endif %}
-
-         {% for nav in item.nav %}
-
-            {% if nav.text %}<li><a href="{{ nav.url }}">{{ nav.text }}</a></li>{% endif %}
-         
-         {% endfor %}
+         {% if item.url %}
+            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+         {% else %}
+            <h3>{{ item.title }}</h3>
+         {% endif %}
 
       {% endfor %}
    </ul>

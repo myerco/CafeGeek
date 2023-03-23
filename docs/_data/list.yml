@@ -2,15 +2,12 @@ docs_list_title:
 docs:
 
 - title: Desenvolvimento de jogos
-  - nav:
-      text: Unreal Engine com C++ e Blueprint
-      url: https://cafegeek.eti.br/unreal-engine-c+-+-e-blueprint/index.html
-  - nav:
-      text: Computação Gráfica com Unreal Engine
-      url: https://cafegeek.eti.br/computacao-grafica/index.html
-  - nav:
-      text: Modelagem usando Autodesk Maya
-      url: https://cafegeek.eti.br/modelagem-usando-autodesk-maya/index.html
+- title: Unreal Engine com C++ e Blueprint
+  url: https://cafegeek.eti.br/unreal-engine-c+-+-e-blueprint/index.html
+- title: Computação Gráfica com Unreal Engine
+  url: https://cafegeek.eti.br/computacao-grafica/index.html
+- title: Modelagem usando Autodesk Maya
+  url: https://cafegeek.eti.br/modelagem-usando-autodesk-maya/index.html
 - title: Programação em C++      
-      text: Estrutura da linguagem
-      url: https://cafegeek.eti.br/cpp/index.html
+- title: Estrutura da linguagem
+  url: https://cafegeek.eti.br/cpp/index.html
