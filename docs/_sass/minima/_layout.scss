@@ -338,7 +338,7 @@ Sidebar
 @media (min-width: 64em) {
   .sidebar.sticky {
     overflow-y: auto;
-    max-height: calc(100vh - 2em - 2em);
+    max-height: calc(200vh - 2em - 2em);
   }
 }
 
@@ -351,7 +351,7 @@ Sidebar
 @media (min-width: 64em) {
   .sidebar {
     float: left;
-    width: calc(200px - 1em);
+    width: calc(300px - 1em);
     opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
