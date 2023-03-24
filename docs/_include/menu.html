@@ -5,7 +5,7 @@
       {% endif %} 
       <ul>
       {% if page.type == "index_unreal" %}   
-         {% for item in site.data.nav_unreal.index_unreal %}
+         {% for item in site.data.nav_unreal.docs %}
             {% if item.url %}
                <li><a href="{{ item.url }}">{{ item.title }}</a></li>
             {% else %}
