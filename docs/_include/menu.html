@@ -11,6 +11,7 @@
                   <p><li><a href="{{ item.url }}">{{ item.title }}</a></li></p>
                {% else %}      
                   <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                  <p>{{ site.url | append: '/' | append: page.path | append: page.url }}</p>
                {% endif %}      
             {% else %}
                <h3>{{ item.title }}</h3>
