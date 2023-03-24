@@ -3,7 +3,7 @@ docs:
 
 - title: INTRODUÇÃO AO UNREAL ENGINE
 - title: Desenvolvendo jogos digitais
-  url: unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html
+  url: https://cafegeek.eti.br/unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html
 - title: Trabalhando como Unreal Engine e Visual Studio
   url: https://cafegeek.eti.br/unreal-engine-c+-+-e-blueprint/trabalhando_com_o_unreal_engine_e_visual_studio.html
 - title: Controle de versão com GitHub e Unreal Engine
