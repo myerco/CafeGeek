@@ -11,26 +11,26 @@ date: 2022-09-21
 
 ***
 
-- [Como é o desenvolvimento de jogos digitais?](#como-é-o-desenvolvimento-de-jogos-digitais)
-  - [Programação de computadores](#programação-de-computadores)
-  - [Arte 3D e 2D](#arte-3d-e-2d)
-  - [Computação gráfica](#computação-gráfica)
-  - [Elementos de construção de Narrativas](#elementos-de-construção-de-narrativas)
-  - [Efeitos sonoros](#efeitos-sonoros)
-- [Mecânica, Dinâmica e Estética (MDA)](#mecânica-dinâmica-e-estética-mda)
-  - [Mecânica](#mecânica)
-  - [Dinâmica](#dinâmica)
-  - [Estética](#estética)
-- [O que é uma Engine e Framework?](#o-que-é-uma-engine-e-framework)
-- [Ciclo da lógica do desenvolvimento de um jogo](#ciclo-da-lógica-do-desenvolvimento-de-um-jogo)
-- [O que é Unreal Engine?](#o-que-é-unreal-engine)
-- [O curso de Unreal Engine com C++ e Blueprint](#o-curso-de-unreal-engine-com-c-e-blueprint)
-  - [Habilidades que serão aprendidas](#habilidades-que-serão-aprendidas)
-  - [Categoria do Curso](#categoria-do-curso)
+- [1. Como é o desenvolvimento de jogos digitais?](#1-como-é-o-desenvolvimento-de-jogos-digitais)
+  - [1.1. Programação de computadores](#11-programação-de-computadores)
+  - [1.2. Arte 3D e 2D](#12-arte-3d-e-2d)
+  - [1.3. Computação gráfica](#13-computação-gráfica)
+  - [1.4. Elementos de construção de Narrativas](#14-elementos-de-construção-de-narrativas)
+  - [1.5. Efeitos sonoros](#15-efeitos-sonoros)
+- [2. Mecânica, Dinâmica e Estética (MDA)](#2-mecânica-dinâmica-e-estética-mda)
+  - [2.1. Mecânica](#21-mecânica)
+  - [2.2. Dinâmica](#22-dinâmica)
+  - [2.3. Estética](#23-estética)
+- [3. O que é uma Engine e Framework?](#3-o-que-é-uma-engine-e-framework)
+- [4. Ciclo da lógica do desenvolvimento de um jogo](#4-ciclo-da-lógica-do-desenvolvimento-de-um-jogo)
+- [5. O que é Unreal Engine?](#5-o-que-é-unreal-engine)
+- [6. O curso de Unreal Engine com C++ e Blueprint](#6-o-curso-de-unreal-engine-com-c-e-blueprint)
+  - [6.1. Habilidades que serão aprendidas](#61-habilidades-que-serão-aprendidas)
+  - [6.2. Categoria do Curso](#62-categoria-do-curso)
 
 ***
 
-## Como é o desenvolvimento de jogos digitais?
+## 1. Como é o desenvolvimento de jogos digitais?
 
 ***
 
@@ -44,7 +44,7 @@ date: 2022-09-21
 
 Um jogo digital é um produto de software e como muitos projetos de desenvolvimento envolve diversas áreas de conhecimento na sua construção, como por exemplo:
 
-### Programação de computadores
+### 1.1. Programação de computadores
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Primoc.png"
@@ -54,7 +54,7 @@ Um jogo digital é um produto de software e como muitos projetos de desenvolvime
     ref="https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores"
 %}
 
-### Arte 3D e 2D
+### 1.2. Arte 3D e 2D
 
 {% include image.html
     src="https://i2.wp.com/www.crieseusjogos.com.br/wp-content/uploads/2018/08/jogos-2d-ou-jogos-3d.jpeg?w=1200&ssl=1"
@@ -64,7 +64,7 @@ Um jogo digital é um produto de software e como muitos projetos de desenvolvime
     ref="https://www.crieseusjogos.com.br/e-melhor-criar-um-jogo-2d-ou-3d/"
 %}
 
-### Computação gráfica
+### 1.3. Computação gráfica
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Activemarker2.PNG/330px-Activemarker2.PNG"
@@ -74,7 +74,7 @@ Um jogo digital é um produto de software e como muitos projetos de desenvolvime
     ref="https://pt.wikipedia.org/wiki/3D_%28computa%C3%A7%C3%A3o_gr%C3%A1fica%29"
 %}
 
-### Elementos de construção de Narrativas
+### 1.4. Elementos de construção de Narrativas
 
 {% include image.html
     src="https://escolabrasileiradegames.com.br/wp2016/wp-content/uploads/2020/06/escola-brasileira-de-games-Jornada-do-Her%C3%B3i.jpg"
@@ -84,7 +84,7 @@ Um jogo digital é um produto de software e como muitos projetos de desenvolvime
     ref="https://escolabrasileiradegames.com.br/blog/jornada-do-heroi-desenvolvimento-de-narrativas-para-jogos"
 %}
 
-### Efeitos sonoros
+### 1.5. Efeitos sonoros
 
 {% include image.html
     src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img/https://kreonit.com/wp-content/uploads/2020/08/sound_main_optimized.jpg"
@@ -95,13 +95,13 @@ Um jogo digital é um produto de software e como muitos projetos de desenvolvime
 
 Como visto acima, diversos perfis profissionais de áreas distintas estão presentes na construção de um jogo, formando diversas equipes multiculturais,  o que aumenta a complexidade desse tipo de projeto quando pensamos na organização de tarefas e comunicação dos envolvidos.
 
-## Mecânica, Dinâmica e Estética (MDA)
+## 2. Mecânica, Dinâmica e Estética (MDA)
 
 ***
 
 O projeto de desenvolvimento de um jogo pode ser estruturado dividindo-o em componentes distintos, Mecânica - Mechanics,  Dinâmica - Dynamics e Estética Aesthetics, MDA, esta divisão ajuda a trabalhar com o design do jogo.
 
-### Mecânica
+### 2.1. Mecânica
 
 Descreve os componentes específicos do jogo, no nível de representação de dados e algoritmos.
 
@@ -111,7 +111,7 @@ Descreve os componentes específicos do jogo, no nível de representação de da
   
 - Ações: Níveis, missões e grupos.
   
-### Dinâmica
+### 2.2. Dinâmica
 
 Descreve o comportamento da mecânica quando ela é executada pelas ações do jogador e cada um dos resultados ao longo do tempo.
 
@@ -129,7 +129,7 @@ Descreve o comportamento da mecânica quando ela é executada pelas ações do j
 
 - Cooperação.
   
-### Estética
+### 2.3. Estética
 
 Descreve as respostas emocionais desejáveis evocadas no jogador, quando ele interage com o sistema de jogo.
 
@@ -153,7 +153,7 @@ As linguagens de programação vem evoluindo para simplificar as rotinas e coman
 
 Existem aplicações que auxiliam na produção de programas de computador ou jogos digitais, estas ferramentas abstraem a lógica complexa que faz com os objetos sejam apresentados de forma adequada na cena, no caso de jogos digitais. Tais ferramentas são chamadas de *Frameworks*.
 
-## O que é uma Engine e Framework?
+## 3. O que é uma Engine e Framework?
 
 ***
 
@@ -174,7 +174,7 @@ Algumas *Engine* disponíveis no mercado.
 
 1. GameMaker;
 
-## Ciclo da lógica do desenvolvimento de um jogo
+## 4. Ciclo da lógica do desenvolvimento de um jogo
 
 ***
 
@@ -188,7 +188,7 @@ A maioria das *Engines* seguem um ciclo de execução da lógica de programaçã
 
 - **Finalização** - Executa as rotinas para descarregar o jogo;
 
-## O que é Unreal Engine?
+## 5. O que é Unreal Engine?
 
 ***
 
@@ -216,13 +216,13 @@ A maioria das *Engines* seguem um ciclo de execução da lógica de programaçã
 
 1. Editor de efeitos especiais utilizando partículas;
 
-## O curso de Unreal Engine com C++ e Blueprint
+## 6. O curso de Unreal Engine com C++ e Blueprint
 
 ***
 
 Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*.  O curso está associado a construção **Mecânica** do jogo pois nele definimos elementos como mecanismos de controle e elementos do conteúdo do jogo.  
 
-### Habilidades que serão aprendidas
+### 6.1. Habilidades que serão aprendidas
 
 - Configuração e organização de projetos;
   
@@ -242,7 +242,7 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
   
 - Implementar Efeitos especiais.
 
-### Categoria do Curso
+### 6.2. Categoria do Curso
 
 | M             | D             | A         |
 | :------------ | :------------ | :-------- |
