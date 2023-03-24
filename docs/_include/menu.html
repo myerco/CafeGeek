@@ -7,7 +7,11 @@
       {% if page.type == "index_unreal" %}   
          {% for item in site.data.nav_unreal.docs %}
             {% if item.url %}
-               <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+               {% if item.url ==  page.url %}
+                  <p><li><a href="{{ item.url }}">{{ item.title }}</a></li></p>
+               {% else %}      
+                  <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+               {% endif %}      
             {% else %}
                <h3>{{ item.title }}</h3>
                <hr>
