@@ -7,11 +7,10 @@
       {% if page.type == "index_unreal" %}   
          {% for item in site.data.nav_unreal.docs %}
             {% if item.url %}
-               {% if item.url ==  'https://cafegeek.eti.br/' | append: page.url %}
+               {% if item.url ==  site.url | append: page.url %}
                   <p><li><a href="{{ item.url }}">{{ item.title }}</a></li></p>
                {% else %}      
                   <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-                  <p>{{ site.url | append: '/' | append: page.url }}</p>
                {% endif %}      
             {% else %}
                <h3>{{ item.title }}</h3>
