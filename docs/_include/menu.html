@@ -4,32 +4,27 @@
          <h2>{{ site.data.list.docs_list_title }}</h2>
       {% endif %} 
       <ul>
-      {% for item in site.data.list.docs %}
-         {% if item.url %}
-            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-         {% else %}
-            <h3>{{ item.title }}</h3>
-            <hr>
-         {% endif %}
-      {% endfor %}
+      {% if page.type == "index_unreal" %}   
+         {% for item in site.data.nav_unreal.index_unreal %}
+            {% if item.url %}
+               <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% else %}
+               <h3>{{ item.title }}</h3>
+               <hr>
+            {% endif %}
+         {% endfor %}
+      {% else %}     
+         {% for item in site.data.list.docs %}
+            {% if item.url %}
+               <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% else %}
+               <h3>{{ item.title }}</h3>
+               <hr>
+            {% endif %}
+         {% endfor %}          
+      {% endif %}         
       </ul>
    </div>      
 {% endif %}
 
-{% if page.type == "index_unreal" %}
-   <div class="sidebar sticky">
-      {%- if site.data.list.docs_list_title %}   
-         <h2>{{ site.data.list.docs_list_title }}</h2>
-      {% endif %} 
-      <ul>
-      {% for item in site.data.list.index_unreal %}
-         {% if item.url %}
-            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-         {% else %}
-            <h3>{{ item.title }}</h3>
-            <hr>
-         {% endif %}
-      {% endfor %}
-      </ul>
-   </div>      
-{% endif %}
+

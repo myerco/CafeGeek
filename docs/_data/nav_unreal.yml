@@ -1,0 +1,26 @@
+docs_list_title: 
+docs:
+
+- title: INTRODUÇÃO AO UNREAL ENGINE
+- title: Desenvolvendo jogos digitais
+  url: https://cafegeek.eti.br/unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html
+- title: Trabalhando como Unreal Engine e Visual Studio
+  url: https://cafegeek.eti.br/unreal-engine-c+-+-e-blueprint/trabalhando_com_o_unreal_engine_e_visual_studio.html
+- title: Controle de versão com GitHub e Unreal Engine
+  url: https://cafegeek.eti.br/unreal-engine-c+-+-e-blueprint/controle_de_vers%C3%A3o_com_github_e_unreal_engine.html
+- title: Interface e Editores
+  url: https://cafegeek.eti.br/unreal-engine-c+-+-e-blueprint/unreal_engine_interface_e_editores.html
+- title: Me conta uma história
+  url: https://cafegeek.eti.br/me_conte_uma_historia/index.html
+- title: Talentos
+  url: https://cafegeek.eti.br/trabalhos/jogos_digitais_talentos.html
+- title: Trabalhos
+  url: https://cafegeek.eti.br/trabalhos/index.html
+- title: Sobre o curso de jogos digitais
+  url: https://cafegeek.eti.br/sobre_o_curso_jogos_digitais.html
+- title: PROGRAMAÇÃO COM UNREAL ENGINE
+- title: Estrutura da linguagem
+  url: https://cafegeek.eti.br/cpp/index.html
+- title: ESTRUTURAS DE DADOS
+- title: A taberna do Pônei Saltitante
+  url: https://cafegeek.eti.br/a_taberna_ponei_saltitante/index.html

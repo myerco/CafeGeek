@@ -4,7 +4,6 @@ description: Aprenda estruturas de desenvolvimento e lógicas de programação, 
 keywords: [Desenvolvimento com Unreal Engine, Jogos com Unreal Engine]
 tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digital]
 layout: post
-type: index_unreal
 ---
 
 {% include logo.html

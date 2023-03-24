@@ -24,10 +24,3 @@ docs:
 - title: BANCO DE DADOS
 - title: A taberna do Pônei Saltitante
   url: https://cafegeek.eti.br/a_taberna_ponei_saltitante/index.html
-
-index_unreal:
-
-- title: DESENVOLVIMENTO DE JOGOS
-- title: Unreal Engine com C++ e Blueprint
-  url: https://cafegeek.eti.br/unreal-engine-c+-+-e-blueprint/index.html
-
