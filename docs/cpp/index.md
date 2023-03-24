@@ -2,7 +2,7 @@
 title: Programação em linguagem C++
 description: Programação em linguagem C++
 tags: [programação, cpp, c++, lógica]
-layout: page
+layout: post
 ---
 
 ***
