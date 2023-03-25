@@ -226,15 +226,16 @@ div.wrapper {
 
 /**
  * Clearfix
+*/
  
 %clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
-*/
 
-@mixin clearfix {
+
+/*@mixin clearfix {
   clear: both;
 
   &::after {
@@ -243,7 +244,7 @@ div.wrapper {
     display: table;
   }
 }
-
+*/
 
 
 /**
