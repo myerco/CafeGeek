@@ -127,11 +127,11 @@ dev_unreal_efeitos:
 
 dev_cpp:
   - title: Programação C++
-    url: /cpp/index.html
+    url: /cpp/
 
 banco_dados:
   - title: A taberna do Pônei Saltitante
-    url: /a_taberna_ponei_saltitante/index.html
+    url: /a_taberna_ponei_saltitante/
 
 
 

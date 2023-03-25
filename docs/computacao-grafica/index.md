@@ -4,7 +4,7 @@ description: Neste curso apresentaremos conceitos de computação gráfica aplic
 tags: [Unreal Engine,Rendering,Maya,computação gráfica]
 layout: post
 sidebar:  
-  - title: "Desenvolvimento de Jogos"
+  - title: "DESENVOLVIMENTO DE JOGOS"
     nav: "dev_game"
 ---
 

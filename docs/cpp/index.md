@@ -3,47 +3,51 @@ title: Programação em linguagem C++
 description: Programação em linguagem C++
 tags: [programação, cpp, c++, lógica]
 layout: post
+sidebar:  
+  - title: "PROGRAMAÇÃO EM C++"
+    nav: "dev_CPP"
+date: 2023-03-25     
 ---
 
 ***
 
-- [Habilidades que serão aprendidas](#habilidades-que-serão-aprendidas)
-- [Como o compilador C++ funciona?](#como-o-compilador-c-funciona)
-  - [Abaixo a sintaxe básica de um programa C++](#abaixo-a-sintaxe-básica-de-um-programa-c)
-  - [Exemplo de arquivo sendo incluído em outro](#exemplo-de-arquivo-sendo-incluído-em-outro)
-  - [Exemplo de #IF](#exemplo-de-if)
-  - [Arquivo de cabeçalho](#arquivo-de-cabeçalho)
-- [O Linker](#o-linker)
-- [Funções](#funções)
-  - [Exemplo da Função log](#exemplo-da-função-log)
-  - [Exemplo da Função de multiplicação](#exemplo-da-função-de-multiplicação)
-  - [Declarando funções em arquivos externos](#declarando-funções-em-arquivos-externos)
-- [Macros](#macros)
-  - [Chamando uma função dentro de outra](#chamando-uma-função-dentro-de-outra)
-- [Variáveis](#variáveis)
-  - [Declaração de variáveis](#declaração-de-variáveis)
-- [Unsigned](#unsigned)
-  - [Constantes](#constantes)
-    - [Usando #define](#usando-define)
-- [Usando const](#usando-const)
-- [Pragma once](#pragma-once)
-- [Ponteiros](#ponteiros)
-  - [Impressão de Ponteiros](#impressão-de-ponteiros)
-  - [Acessando conteúdo](#acessando-conteúdo)
-- [Classes](#classes)
+- [1. Habilidades que serão aprendidas](#1-habilidades-que-serão-aprendidas)
+- [2. Como o compilador C++ funciona?](#2-como-o-compilador-c-funciona)
+  - [2.1. Abaixo a sintaxe básica de um programa C++](#21-abaixo-a-sintaxe-básica-de-um-programa-c)
+  - [2.2. Exemplo de arquivo sendo incluído em outro](#22-exemplo-de-arquivo-sendo-incluído-em-outro)
+  - [2.3. Exemplo de #IF](#23-exemplo-de-if)
+  - [2.4. Arquivo de cabeçalho](#24-arquivo-de-cabeçalho)
+- [3. O Linker](#3-o-linker)
+- [4. Funções](#4-funções)
+  - [4.1. Exemplo da Função log](#41-exemplo-da-função-log)
+  - [4.2. Exemplo da Função de multiplicação](#42-exemplo-da-função-de-multiplicação)
+  - [4.3. Declarando funções em arquivos externos](#43-declarando-funções-em-arquivos-externos)
+- [5. Macros](#5-macros)
+  - [5.1. Chamando uma função dentro de outra](#51-chamando-uma-função-dentro-de-outra)
+- [6. Variáveis](#6-variáveis)
+  - [6.1. Declaração de variáveis](#61-declaração-de-variáveis)
+- [7. Unsigned](#7-unsigned)
+  - [7.1. Constantes](#71-constantes)
+    - [7.1.1. Usando #define](#711-usando-define)
+- [8. Usando const](#8-usando-const)
+- [9. Pragma once](#9-pragma-once)
+- [10. Ponteiros](#10-ponteiros)
+  - [10.1. Impressão de Ponteiros](#101-impressão-de-ponteiros)
+  - [10.2. Acessando conteúdo](#102-acessando-conteúdo)
+- [11. Classes](#11-classes)
 
 ***
 
 Aprenda a programar em linguagem C++.  
 
-## Habilidades que serão aprendidas
+## 1. Habilidades que serão aprendidas
 
 - Estrutura de arquivos;
 - Variáveis e ponteiros;
 - Estruturas de controle de fluxo;
 - Manipulando Arrays;
 
-## Como o compilador C++ funciona?
+## 2. Como o compilador C++ funciona?
 
 Os arquivos C++ são divididos em dois tipos, um arquivo de código (.cpp) e um de cabeçalho (.h).
 
@@ -57,7 +61,7 @@ Arquivo.obj + Arquivo2.obj ->
 Arquivo.exe
 ```
 
-### Abaixo a sintaxe básica de um programa C++
+### 2.1. Abaixo a sintaxe básica de um programa C++
 
 ```cpp
 #include <iostream>
@@ -73,7 +77,7 @@ int main()
 
 A primeira etapa que o compilador fará em um arquivo de código é executar o pré-processador nele. Apenas os arquivos de código são passados ​​para o compilador (para pré-processar e compilar). Os arquivos de cabeçalho não são passados ​​para o compilador. Em vez disso, eles são incluídos nos arquivos de origem.
 
-### Exemplo de arquivo sendo incluído em outro 
+### 2.2. Exemplo de arquivo sendo incluído em outro 
 
 multiply.cpp
 
@@ -101,7 +105,7 @@ Arquivo.exe
 
 Para cada arquivo de lógica C++, o pré-processador construirá uma unidade de tradução inserindo conteúdo nela quando encontrar uma diretiva #include ao mesmo tempo em que removerá o código do arquivo de lógica e dos cabeçalhos quando encontrar a compilação condicional blocos cuja diretiva é avaliada como `false`. Ele também fará algumas outras tarefas, como substituições de macros.
 
-### Exemplo de #IF
+### 2.3. Exemplo de #IF
 
 ```cpp
 #ifndef  FILE_H  
@@ -111,7 +115,7 @@ Para cada arquivo de lógica C++, o pré-processador construirá uma unidade de 
 
 Arquivos de cabeçalho contem o nome de funções, Variáveis, classes e assim por diante, devem ser declarados antes que possam ser usados, estes arquivos podem ser incluídos.[[Arquivos de cabeçalho (C++)](https://docs.microsoft.com/pt-br/cpp/cpp/header-files-cpp?view=msvc-170 "Arquivos de cabeçalho (C++)")]
 
-### Arquivo de cabeçalho
+### 2.4. Arquivo de cabeçalho
 
 my_class.h
 
@@ -143,7 +147,7 @@ void my_class::do_something()
 }
 ```
 
-## O Linker
+## 3. O Linker
 
 O `Linker` (vinculador) é um programa que cria arquivos executáveis. O linker resolve problemas de ligação, como o uso de símbolos ou identificadores que são definidos em uma unidade de tradução e são necessários de outras unidades de tradução. [[C++ Programming](https://en.wikibooks.org/wiki/C%2B%2B_Programming/Programming_Languages/C%2B%2B/Code/Compiler/Linker "C++ Programming")].
 
@@ -203,13 +207,13 @@ void printSum(float a, float b) {
 }
 ```
 
-## Funções
+## 4. Funções
 
 Funções são blocos de código que somente são executados quando são chamados. Funções podem ser reutilizadas em outros trechos de código, uma vez definidas podem ser usadas várias vezes [[C++ Functions](https://www.w3schools.com/cpp/cpp_functions.asp)].
 
 É possível passar parâmetros para dentro da funções.
 
-### Exemplo da Função log
+### 4.1. Exemplo da Função log
 
 main.cpp
 
@@ -228,7 +232,7 @@ int main() {
 }
 ```
 
-### Exemplo da Função de multiplicação
+### 4.2. Exemplo da Função de multiplicação
 
 main.cpp
 
@@ -247,7 +251,7 @@ int main() {
 }
 ```
 
-### Declarando funções em arquivos externos
+### 4.3. Declarando funções em arquivos externos
 
 main.cpp
 
@@ -270,7 +274,7 @@ void Log(const char* message)
 }
 ```
 
-## Macros
+## 5. Macros
 
 Uma macro é um trecho de código em um programa que é substituído pelo valor da macro. A macro é definida pela diretiva #define . Sempre que um micronome é encontrado pelo compilador, ele substitui o nome pela definição da macro[[Macros e seus tipos em C / C++](https://acervolima.com/macros-e-seus-tipos-em-c-c/)].
 
@@ -302,7 +306,7 @@ int Multuply(int i, int j)
 #endif
 ```
 
-### Chamando uma função dentro de outra
+### 5.1. Chamando uma função dentro de outra
 
 Math.cpp
 
@@ -322,7 +326,7 @@ int Multuply(int i, int j)
 }
 ```
 
-## Variáveis
+## 6. Variáveis
 
 Variáveis são áreas de memória utilizadas para armazenar informação, essas áreas são nomeadas e devem possuir um tipo de dado, como por exemplo [As variáveis em C++](https://br.ccm.net/faq/10120-as-variaveis-em-c):
 
@@ -330,7 +334,7 @@ Variáveis são áreas de memória utilizadas para armazenar informação, essas
 - `float` para armazenar números com casas decimais;
 - `char` geralmente ocupa um byte na memória, permite armazenar um caractere ou cadeia de caracteres.
 
-### Declaração de variáveis
+### 6.1. Declaração de variáveis
 
 Para declarar uma variável, basta indicar o seu tipo seguido do seu nome. Existem várias convenções sobre o nome das variáveis. Alguns preferem separar as diferentes partes do nome com _ (traço baixo). Outros preferem escrever uma letra maiúscula para separá-los. Exemplo:
 
@@ -356,7 +360,7 @@ int main()
 }
 ```
 
-## Unsigned
+## 7. Unsigned
 
 Assim como no C, o unsigned sozinho serve para nada (exceto o mostrado abaixo), ele é um modificador para determinar que um tipo numérico inteiro é sem sinal. Ou seja, você só terá valores positivos nele. Ele determina se o bit mais significativo será considerado o sinal de positivo ou negativo ou se este bit entrará no valor, por isso ele permite o dobro dos valores permitidos.
 
@@ -364,13 +368,13 @@ Um `int` vai de -2147483648 à 2147483647.
 
 Um `unsigned` `int` vai de 0 à 4294967295.
 
-### Constantes
+### 7.1. Constantes
 
 Assim como uma variável, uma constante também armazena um valor na memória do computador. Entretanto, esse valor não pode ser alterado: é constante. Para constantes é obrigatória a atribuição do valor[[Curso de C++/Variáveis e constantes](https://pt.wikiversity.org/wiki/Curso_de_C%2B%2B/Vari%C3%A1veis_e_constantes)].
 
 Existem duas formas básicas para declarar uma constante em C++:
 
-#### Usando #define
+#### 7.1.1. Usando #define
 
 Esta é uma maneira antiga de declarar constantes mas funciona normalmente;
 
@@ -382,7 +386,7 @@ using namespace std;
 #define PI 3.1415
 ```
 
-## Usando const
+## 8. Usando const
 
 Usando `const`, a declaração não precisa estar no início do código.
 
@@ -391,7 +395,7 @@ const int i = 500; // uma constante inteira que armazena o número 500.
 const double pi = 3.1415; // uma constante real que armazena o valor aproximado de pi.
 ```
 
-## Pragma once
+## 9. Pragma once
 
 Especifica que o compilador inclui o arquivo de header apenas uma vez, ao compilar um arquivo de código-fonte [[once pragma](https://docs.microsoft.com/pt-br/cpp/preprocessor/once?view=msvc-170)].
 
@@ -443,11 +447,11 @@ void main();
 }
 ```
 
-## Ponteiros
+## 10. Ponteiros
 
 Um ponteiro é uma variável capaz de armazenar um endereço de memória ou o endereço de outra variável[[Apontadores/ Ponteiros/ Pointers](https://www.inf.pucrs.br/~pinho/PRGSWB/Ponteiros/ponteiros.html)].
 
-### Impressão de Ponteiros
+### 10.1. Impressão de Ponteiros
 
 Podemos imprimir o endereço de memória dos ponteiros.
 
@@ -464,7 +468,7 @@ void main()
 }
 ```
 
-### Acessando conteúdo
+### 10.2. Acessando conteúdo
 
 Acessamos o conteúdo do valor contido no ponteiro, endereço de memória, utilizando o operador de referência (*) do lado esquerdo.
 
@@ -483,7 +487,7 @@ void main()
 }
 ```
 
-## Classes
+## 11. Classes
 
 C++ é uma linguagem de programação orientada a objetos.
 

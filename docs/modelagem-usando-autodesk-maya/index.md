@@ -8,117 +8,117 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "Desenvolvimento de Jogos"
+  - title: "DESENVOLVIMENTO DE JOGOS"
     nav: "dev_game"
 date: 2022-09-26 
 ---
 
 ***
 
-- [O que é Modelagem de objetos 3D?](#o-que-é-modelagem-de-objetos-3d)
-  - [Tipos de modelagem 3D](#tipos-de-modelagem-3d)
-  - [Processo de construção de cenas 3D](#processo-de-construção-de-cenas-3d)
-  - [Softwares para modelagem tridimensional](#softwares-para-modelagem-tridimensional)
-- [O curso de Modelagem 3D usando Autodesk Maya](#o-curso-de-modelagem-3d-usando-autodesk-maya)
-  - [Habilidades que serão aprendidas](#habilidades-que-serão-aprendidas)
-- [Começando a trabalhar com Autodesk Maya](#começando-a-trabalhar-com-autodesk-maya)
-  - [Interface](#interface)
-  - [Configurando a Interface](#configurando-a-interface)
-  - [Configurando projetos](#configurando-projetos)
-  - [Comandos de navegação](#comandos-de-navegação)
-  - [Configuração de ViewPort](#configuração-de-viewport)
-    - [Mostrando a quantidade de polígonos e vértices](#mostrando-a-quantidade-de-polígonos-e-vértices)
-    - [Visualização](#visualização)
-    - [Hotbox](#hotbox)
-- [Objetos Poligonais](#objetos-poligonais)
-  - [Menu de contexto para manipulação de malhas](#menu-de-contexto-para-manipulação-de-malhas)
-  - [Freeze e Reset parâmetros](#freeze-e-reset-parâmetros)
-  - [Snap de objetos](#snap-de-objetos)
-  - [Seleção de objetos e componentes](#seleção-de-objetos-e-componentes)
-  - [Utilizando Soft Selection](#utilizando-soft-selection)
-  - [Simetria ou Symmetry](#simetria-ou-symmetry)
-  - [Duplicando objetos](#duplicando-objetos)
-  - [Pivot](#pivot)
-  - [Deformando a malha poligonal](#deformando-a-malha-poligonal)
-    - [Extrude](#extrude)
-    - [Adicionando edges](#adicionando-edges)
-    - [Bevel](#bevel)
-    - [Removendo edges](#removendo-edges)
-    - [Multicut](#multicut)
-    - [Merge de vértices](#merge-de-vértices)
-  - [Suavizando objetos poligonais](#suavizando-objetos-poligonais)
-    - [Smooth](#smooth)
-    - [Visualizando a suavização](#visualizando-a-suavização)
-    - [Extract](#extract)
-  - [Append e Bridged Tool](#append-e-bridged-tool)
-  - [Fill Hole](#fill-hole)
-  - [Target Weld](#target-weld)
-- [Combine e Separate](#combine-e-separate)
-- [Booleans](#booleans)
-- [Organizando em camadas](#organizando-em-camadas)
-- [Layer](#layer)
-- [Hierarquia](#hierarquia)
-- [Group](#group)
-- [Modelagem NURBS](#modelagem-nurbs)
-  - [Objetos primitivos](#objetos-primitivos)
-    - [Esfera](#esfera)
-    - [Cubo](#cubo)
-    - [Cilindro](#cilindro)
-    - [Plano](#plano)
-  - [Componentes de seleção](#componentes-de-seleção)
-    - [CV](#cv)
-    - [Edit Points](#edit-points)
-    - [Hulls](#hulls)
-    - [Isoparms](#isoparms)
-  - [Curve Tools](#curve-tools)
-  - [Revolve](#revolve)
-  - [Loft](#loft)
-  - [Extrude Nurbs](#extrude-nurbs)
-  - [Isoparm](#isoparm)
-    - [Separar objetos](#separar-objetos)
-    - [Inserindo Isoparms](#inserindo-isoparms)
-  - [Close e Open](#close-e-open)
-    - [Preenchendo uma superfície de um objeto](#preenchendo-uma-superfície-de-um-objeto)
-    - [Preenchendo o espaço entre dois objetos](#preenchendo-o-espaço-entre-dois-objetos)
-  - [Project Curve on Surface](#project-curve-on-surface)
-  - [Convertendo NURBS para poligonais](#convertendo-nurbs-para-poligonais)
-- [Sculpting](#sculpting)
-- [Materiais](#materiais)
-  - [Surface Material](#surface-material)
-  - [Displacement Material](#displacement-material)
-  - [Volumetric material (atmosphere)](#volumetric-material-atmosphere)
-  - [Hypershade](#hypershade)
-  - [Criando materiais com as opções do menu](#criando-materiais-com-as-opções-do-menu)
-  - [Atributos do material](#atributos-do-material)
-  - [Checker ou Fluxo de trabalho](#checker-ou-fluxo-de-trabalho)
-  - [Adicionando uma imagem](#adicionando-uma-imagem)
-  - [Tipos de Materiais (Maya)](#tipos-de-materiais-maya)
-    - [Lambert](#lambert)
-    - [Blind](#blind)
-    - [Phong](#phong)
-  - [Usando Normal Map](#usando-normal-map)
-- [Renderização e Iluminação](#renderização-e-iluminação)
-  - [Cameras](#cameras)
-  - [Renderização](#renderização)
-  - [Iluminação](#iluminação)
-    - [Ambient](#ambient)
-    - [Directional](#directional)
-    - [Point](#point)
-    - [Spot](#spot)
-    - [Area](#area)
-    - [Volume](#volume)
-  - [Propriedades da luz](#propriedades-da-luz)
-- [Mapeamento UV](#mapeamento-uv)
-  - [Mapeamento automático](#mapeamento-automático)
-    - [Planar Mapping Options](#planar-mapping-options)
-    - [Ajustes usando Planar Mapping Options](#ajustes-usando-planar-mapping-options)
-  - [Mapeamento manual](#mapeamento-manual)
-- [Hide](#hide)
-- [Animando cenas no Autodesk Maya](#animando-cenas-no-autodesk-maya)
+- [1. O que é Modelagem de objetos 3D?](#1-o-que-é-modelagem-de-objetos-3d)
+  - [1.1. Tipos de modelagem 3D](#11-tipos-de-modelagem-3d)
+  - [1.2. Processo de construção de cenas 3D](#12-processo-de-construção-de-cenas-3d)
+  - [1.3. Softwares para modelagem tridimensional](#13-softwares-para-modelagem-tridimensional)
+- [2. O curso de Modelagem 3D usando Autodesk Maya](#2-o-curso-de-modelagem-3d-usando-autodesk-maya)
+  - [2.1. Habilidades que serão aprendidas](#21-habilidades-que-serão-aprendidas)
+- [3. Começando a trabalhar com Autodesk Maya](#3-começando-a-trabalhar-com-autodesk-maya)
+  - [3.1. Interface](#31-interface)
+  - [3.2. Configurando a Interface](#32-configurando-a-interface)
+  - [3.3. Configurando projetos](#33-configurando-projetos)
+  - [3.4. Comandos de navegação](#34-comandos-de-navegação)
+  - [3.5. Configuração de ViewPort](#35-configuração-de-viewport)
+    - [3.5.1. Mostrando a quantidade de polígonos e vértices](#351-mostrando-a-quantidade-de-polígonos-e-vértices)
+    - [3.5.2. Visualização](#352-visualização)
+    - [3.5.3. Hotbox](#353-hotbox)
+- [4. Objetos Poligonais](#4-objetos-poligonais)
+  - [4.1. Menu de contexto para manipulação de malhas](#41-menu-de-contexto-para-manipulação-de-malhas)
+  - [4.2. Freeze e Reset parâmetros](#42-freeze-e-reset-parâmetros)
+  - [4.3. Snap de objetos](#43-snap-de-objetos)
+  - [4.4. Seleção de objetos e componentes](#44-seleção-de-objetos-e-componentes)
+  - [4.5. Utilizando Soft Selection](#45-utilizando-soft-selection)
+  - [4.6. Simetria ou Symmetry](#46-simetria-ou-symmetry)
+  - [4.7. Duplicando objetos](#47-duplicando-objetos)
+  - [4.8. Pivot](#48-pivot)
+  - [4.9. Deformando a malha poligonal](#49-deformando-a-malha-poligonal)
+    - [4.9.1. Extrude](#491-extrude)
+    - [4.9.2. Adicionando edges](#492-adicionando-edges)
+    - [4.9.3. Bevel](#493-bevel)
+    - [4.9.4. Removendo edges](#494-removendo-edges)
+    - [4.9.5. Multicut](#495-multicut)
+    - [4.9.6. Merge de vértices](#496-merge-de-vértices)
+  - [4.10. Suavizando objetos poligonais](#410-suavizando-objetos-poligonais)
+    - [4.10.1. Smooth](#4101-smooth)
+    - [4.10.2. Visualizando a suavização](#4102-visualizando-a-suavização)
+    - [4.10.3. Extract](#4103-extract)
+  - [4.11. Append e Bridged Tool](#411-append-e-bridged-tool)
+  - [4.12. Fill Hole](#412-fill-hole)
+  - [4.13. Target Weld](#413-target-weld)
+- [5. Combine e Separate](#5-combine-e-separate)
+- [6. Booleans](#6-booleans)
+- [7. Organizando em camadas](#7-organizando-em-camadas)
+- [8. Layer](#8-layer)
+- [9. Hierarquia](#9-hierarquia)
+- [10. Group](#10-group)
+- [11. Modelagem NURBS](#11-modelagem-nurbs)
+  - [11.1. Objetos primitivos](#111-objetos-primitivos)
+    - [11.1.1. Esfera](#1111-esfera)
+    - [11.1.2. Cubo](#1112-cubo)
+    - [11.1.3. Cilindro](#1113-cilindro)
+    - [11.1.4. Plano](#1114-plano)
+  - [11.2. Componentes de seleção](#112-componentes-de-seleção)
+    - [11.2.1. CV](#1121-cv)
+    - [11.2.2. Edit Points](#1122-edit-points)
+    - [11.2.3. Hulls](#1123-hulls)
+    - [11.2.4. Isoparms](#1124-isoparms)
+  - [11.3. Curve Tools](#113-curve-tools)
+  - [11.4. Revolve](#114-revolve)
+  - [11.5. Loft](#115-loft)
+  - [11.6. Extrude Nurbs](#116-extrude-nurbs)
+  - [11.7. Isoparm](#117-isoparm)
+    - [11.7.1. Separar objetos](#1171-separar-objetos)
+    - [11.7.2. Inserindo Isoparms](#1172-inserindo-isoparms)
+  - [11.8. Close e Open](#118-close-e-open)
+    - [11.8.1. Preenchendo uma superfície de um objeto](#1181-preenchendo-uma-superfície-de-um-objeto)
+    - [11.8.2. Preenchendo o espaço entre dois objetos](#1182-preenchendo-o-espaço-entre-dois-objetos)
+  - [11.9. Project Curve on Surface](#119-project-curve-on-surface)
+  - [11.10. Convertendo NURBS para poligonais](#1110-convertendo-nurbs-para-poligonais)
+- [12. Sculpting](#12-sculpting)
+- [13. Materiais](#13-materiais)
+  - [13.1. Surface Material](#131-surface-material)
+  - [13.2. Displacement Material](#132-displacement-material)
+  - [13.3. Volumetric material (atmosphere)](#133-volumetric-material-atmosphere)
+  - [13.4. Hypershade](#134-hypershade)
+  - [13.5. Criando materiais com as opções do menu](#135-criando-materiais-com-as-opções-do-menu)
+  - [13.6. Atributos do material](#136-atributos-do-material)
+  - [13.7. Checker ou Fluxo de trabalho](#137-checker-ou-fluxo-de-trabalho)
+  - [13.8. Adicionando uma imagem](#138-adicionando-uma-imagem)
+  - [13.9. Tipos de Materiais (Maya)](#139-tipos-de-materiais-maya)
+    - [13.9.1. Lambert](#1391-lambert)
+    - [13.9.2. Blind](#1392-blind)
+    - [13.9.3. Phong](#1393-phong)
+  - [13.10. Usando Normal Map](#1310-usando-normal-map)
+- [14. Renderização e Iluminação](#14-renderização-e-iluminação)
+  - [14.1. Cameras](#141-cameras)
+  - [14.2. Renderização](#142-renderização)
+  - [14.3. Iluminação](#143-iluminação)
+    - [14.3.1. Ambient](#1431-ambient)
+    - [14.3.2. Directional](#1432-directional)
+    - [14.3.3. Point](#1433-point)
+    - [14.3.4. Spot](#1434-spot)
+    - [14.3.5. Area](#1435-area)
+    - [14.3.6. Volume](#1436-volume)
+  - [14.4. Propriedades da luz](#144-propriedades-da-luz)
+- [15. Mapeamento UV](#15-mapeamento-uv)
+  - [15.1. Mapeamento automático](#151-mapeamento-automático)
+    - [15.1.1. Planar Mapping Options](#1511-planar-mapping-options)
+    - [15.1.2. Ajustes usando Planar Mapping Options](#1512-ajustes-usando-planar-mapping-options)
+  - [15.2. Mapeamento manual](#152-mapeamento-manual)
+- [16. Hide](#16-hide)
+- [17. Animando cenas no Autodesk Maya](#17-animando-cenas-no-autodesk-maya)
 
 ***
 
-## O que é Modelagem de objetos 3D?
+## 1. O que é Modelagem de objetos 3D?
 
 ***
 
@@ -140,7 +140,7 @@ Podemos aplicar em várias áreas como por exemplo:
 
 - Ilustrações.
 
-### Tipos de modelagem 3D
+### 1.1. Tipos de modelagem 3D
 
 - **Hard Surface** - (superfícies duras), são quaisquer objetos feitos ou construídos pelo homem. Exemplos de *hard surface* podem ser estruturas arquitetônicas, veículos, robôs, entre outros;
 
@@ -148,7 +148,7 @@ Podemos aplicar em várias áreas como por exemplo:
 
 - **Render** - Fase para gerar a Iluminação e renderizar toda a cena.
 
-### Processo de construção de cenas 3D
+### 1.2. Processo de construção de cenas 3D
 
 **Conceito** - *Concept art* ou arte conceitual;
 
@@ -176,7 +176,7 @@ Podemos aplicar em várias áreas como por exemplo:
 
 - **Geração de cenas** - Renderização e animação.
 
-### Softwares para modelagem tridimensional
+### 1.3. Softwares para modelagem tridimensional
 
 Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas elas tem versões educacionais gratuitas para praticar.
 
@@ -188,11 +188,11 @@ Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas 
 
 - Blender;
 
-## O curso de Modelagem 3D usando Autodesk Maya
+## 2. O curso de Modelagem 3D usando Autodesk Maya
 
 O objetivo deste curso é apresentar e construir elementos na ferramenta de modelagem artística 3D Autodesk Maya. O curso está associado a construção **Estética** do jogo pois nele construímos elementos para representar a narrativa e a jogabilidade.
 
-### Habilidades que serão aprendidas
+### 2.1. Habilidades que serão aprendidas
 
 - Interface e estrutura de menus;
 - Configuração de ambiente de trabalho e projeto;
@@ -207,11 +207,11 @@ O objetivo deste curso é apresentar e construir elementos na ferramenta de mode
 | :-------- | :-------- | :------------ |
 | Mecânicas | Dinâmicas | **Estéticas** |
 
-## Começando a trabalhar com Autodesk Maya
+## 3. Começando a trabalhar com Autodesk Maya
 
 ***
 
-### Interface
+### 3.1. Interface
 
 1. [Menus](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-Basics/files/GUID-D90A2BDB-FD05-4528-8A95-C33A02D15129-htm.html)
 
@@ -262,7 +262,7 @@ O objetivo deste curso é apresentar e construir elementos na ferramenta de mode
 
     - As outras abas tem todos as ferramentas aplicadas no objeto.
 
-### Configurando a Interface
+### 3.2. Configurando a Interface
 
 `Windows` > `Settings/Preferences` > `Preferences` > `Show - What´s new`
 
@@ -274,7 +274,7 @@ Configurar a interface
 
 `Interface` > (Menu Set,Show...)  
 
-### Configurando projetos
+### 3.3. Configurando projetos
 
 `File` > `Project Window`
 
@@ -288,7 +288,7 @@ Quando importamos um novo projeto de outra máquina podemos configurar a pasta d
 
 Cria novas cenas, uma cena pode conter vários elementos e deverão estar separados e organizados.
 
-### Comandos de navegação
+### 3.4. Comandos de navegação
 
 - Alt + RMB - Movimentação de câmera;
 
@@ -298,13 +298,13 @@ Cria novas cenas, uma cena pode conter vários elementos e deverão estar separa
 
 - Scroll - Zoom;
 
-### Configuração de ViewPort
+### 3.5. Configuração de ViewPort
 
-#### Mostrando a quantidade de polígonos e vértices
+#### 3.5.1. Mostrando a quantidade de polígonos e vértices
 
 `Display` > `Heads Up Display` > `Poly Count`[ [Poly Count](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-Modeling/files/GUID-53E46D0C-4B7B-4404-AEB0-3BDD1FF8608A-htm.html) ]
 
-#### Visualização
+#### 3.5.2. Visualização
 
 Este menu Sombreamento é exibido acima da visualização da cena ou acima de cada painel de visualização em um layout com várias visualizações de cena (como o layout de quatro visualizações).
 
@@ -323,7 +323,7 @@ Este menu Sombreamento é exibido acima da visualização da cena ou acima de ca
 
 - [Atalhos de teclado do Autodesk Maya](https://www.autodesk.com.br/shortcuts/maya)
 
-#### Hotbox
+#### 3.5.3. Hotbox
 
 Pressione a barra de espaço
 
@@ -333,7 +333,7 @@ Pressione a barra de espaço
     caption="Figura: Space bar."
 %}
 
-## Objetos Poligonais
+## 4. Objetos Poligonais
 
 ***
 
@@ -345,7 +345,7 @@ Pressione a barra de espaço
 
 Uma malha poligonal é uma coleção de arestas, faces e pontos de conexão usados ​​para fornecer um modelo poligonal para modelagem 3D e animação por computador. Sua composição geométrica pode ser armazenada para facilitar vários tipos de simulação de renderizações tridimensionais [[DEFINERTEC](https://definirtec.com/malha-poligonal/)].
 
-### Menu de contexto para manipulação de malhas
+### 4.1. Menu de contexto para manipulação de malhas
 
 Selecione uma objeto e presssione LMB para acessar o menu de contexto.
 
@@ -363,7 +363,7 @@ Os componentes dos objetos poligonais são:
 
 - `Face` - Faces.
 
-### Freeze e Reset parâmetros
+### 4.2. Freeze e Reset parâmetros
 
 Ao deformar ou movimentar um objeto as coordenadas X,Y Z serão alteradas conforme informado pelo usuário, é interessante ao exportar para outra ferramenta, como por exemplo o Unreal, zerar essas coordenadas para que representem o ponto central do objeto na cena, para isso usamos:
 
@@ -373,7 +373,7 @@ Ao deformar ou movimentar um objeto as coordenadas X,Y Z serão alteradas confor
 
 - `Modify` > `Center Pivo` - Posiciona o pivo ao centro do objeto;
 
-### Snap de objetos
+### 4.3. Snap de objetos
 
 Esta ferramenta é para alinhar o objeto a uma determinada coordenada ou objeto.
 
@@ -395,7 +395,7 @@ Ou tecla V - Alinha o pivo em um componente na cena;
 
 - Mantendo a tecla V pressionada aperte o botão de rolagem do mouse (Sroll) e movimente *levemente* o objeto será alinhado ao ponto selecionado.
 
-### Seleção de objetos e componentes
+### 4.4. Seleção de objetos e componentes
 
 `Select Tool`
 
@@ -427,7 +427,7 @@ Podemos variar as formas de seleção de objetos e elementos, como por exemplo:
 
 - `Inverte` - Inverte a seleção;
 
-### Utilizando Soft Selection
+### 4.5. Utilizando Soft Selection
 
 Para realizar uma seleção mais *Suave* podemos utilizar a ferramenta `Soft Selection`, a seguir um exemplo usando um objeto `Polygon Plane` com 50x50 divisões e aumentar a escala [[Soft Selection](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2022/ENU/Maya-Basics/files/GUID-FF7C8670-97C7-4C13-9A6F-3B0A8F881EC9-htm.html)].
 
@@ -453,7 +453,7 @@ As cores mais escuras determinan a suaviação dos elementos envolvidos na sele�
 
  Determina o tipo de curvatura;
 
-### Simetria ou Symmetry
+### 4.6. Simetria ou Symmetry
 
 `Move Tool` > `Symmetry Settings`
 
@@ -461,7 +461,7 @@ Seleciona elementos simtricamente alinhados em um determinado eixo.
 
 - `Symmetry` - Escolha o eixo;
 
-### Duplicando objetos
+### 4.7. Duplicando objetos
 
 `Edit` > `Duplicate`
 
@@ -491,7 +491,7 @@ Podemos criar várias copias e alterar as configurações dos parâmetros de cad
 
 Logo em seguida clique em `Apply`.
 
-### Pivot
+### 4.8. Pivot
 
 `Modify` > `Center Pivot`
 
@@ -503,9 +503,9 @@ Tecle D para mover o pivot.
 
 Alinha o pivot nos elementos.
 
-### Deformando a malha poligonal
+### 4.9. Deformando a malha poligonal
 
-#### Extrude
+#### 4.9.1. Extrude
 
 - shift + mouse - `Move tool Preferences` > `Smart Duplicate Settings` > Shift + drag to..)
 
@@ -513,13 +513,13 @@ Alinha o pivot nos elementos.
 
 - `Menu` > `Edit Mesh` > `Extrude`
 
-#### Adicionando edges
+#### 4.9.2. Adicionando edges
 
 - `Menu` > `Mesh Tools` > `Insert Edge loop`;
 
 - `Mesh Tools` > `Insert Edge loop Settings` > `Number of edge loops`;
 
-#### Bevel
+#### 4.9.3. Bevel
 
 1. Ctrl + B ou `Edit Mesh` > `Bevel`
 
@@ -527,25 +527,25 @@ Alinha o pivot nos elementos.
 
     - Segments - Número de segmentos;
 
-#### Removendo edges
+#### 4.9.4. Removendo edges
 
 Ctrl + Backspace - Remove edges e vértices.
 
-#### Multicut
+#### 4.9.5. Multicut
 
 Cuidado não podemos ter vértices sem conexão com outros.
 
 Adicione edges.
 
-#### Merge de vértices
+#### 4.9.6. Merge de vértices
 
 `Edit Mesh`  > `Merge`
 
 Selecione dois vértices e aplique a ferramenta.
 
-### Suavizando objetos poligonais
+### 4.10. Suavizando objetos poligonais
 
-#### Smooth
+#### 4.10.1. Smooth
 
 `Mesh` > `Smooth`
 
@@ -555,7 +555,7 @@ Adiciona mais vertices no objeto, possibilitando esolher a quantidade de divisõ
 
 Suaviza a malha sem adicionar novos vértices.
 
-#### Visualizando a suavização
+#### 4.10.2. Visualizando a suavização
 
 {% include image.html
     src="imagens/autodesk_maya_smooth_view.webp"
@@ -581,13 +581,13 @@ Selecionando as arestas com LMB e arrastando com o botão do meio podemos puxar 
 
 Ao selecionar uma aresta e escolher a opção acima a aresta acompanha o arrendodamento do objeto.
 
-#### Extract
+#### 4.10.3. Extract
 
 `Edit Mesh` > `Extract`
 
 Extrai partes de um objeto. Selecione a área para extrair e aplique a ferramenta.
 
-### Append e Bridged Tool
+### 4.11. Append e Bridged Tool
 
 `Edit Mesh` > `Bridge`
 
@@ -605,7 +605,7 @@ Trabalha com faces poligonais, permitindo não apenas a criação de planos plan
 
 É ideal em situações em que você precisa conectar seletivamente partes da mesma malha [[3D Modeling Part 7: Tools and Techniques in Autodesk Maya](https://www.shutterstock.com/blog/3d-modeling-autodesk-maya)].
 
-### Fill Hole
+### 4.12. Fill Hole
 
 Preenchendo um buraco no objeto.
 
@@ -613,11 +613,11 @@ Para exemplificar, selecione `Edge` e marque todas as arestas adjacentes ao espa
 
 `Mesh` > `Fill Hole`
 
-### Target Weld
+### 4.13. Target Weld
 
 Movimenta e solda vertices, selecione `Vertex` e logo em seguida `Mesh Tool` > `Target Weld`.
 
-## Combine e Separate
+## 5. Combine e Separate
 
 `Mesh` > `Combine`
 
@@ -627,7 +627,7 @@ Selecione os objetos para que eles fiquem juntos
 
 Separa os objetos e cria um novo grupo.
 
-## Booleans
+## 6. Booleans
 
 Para projetar ou misturar objetos podemos usar [`Booleans`](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Maya/files/GUID-9467513F-47C3-4C73-8251-6FF8C0DE4982-htm.html).
 
@@ -637,11 +637,11 @@ Para projetar ou misturar objetos podemos usar [`Booleans`](https://knowledge.au
 - `Diference`;
 - `Intersection`;
 
-## Organizando em camadas
+## 7. Organizando em camadas
 
 ***
 
-## Layer
+## 8. Layer
   
 - V - Mostra ou oculta uma camada. Consulte Ocultar camadas de exibição para obter mais informações.
   
@@ -653,7 +653,7 @@ Para projetar ou misturar objetos podemos usar [`Booleans`](https://knowledge.au
 
 Podemos adicionar uma cor na camada fazendo com que todos os objetos selecionados fiquem com a cor escolhida.
 
-## Hierarquia
+## 9. Hierarquia
   
 - MMB (Botão do meio) arreste os elementos em qualquer ordem de apresentação no `Outliner`;
 
@@ -672,7 +672,7 @@ Podemos adicionar uma cor na camada fazendo com que todos os objetos selecionado
   ->ObjetoFilho3 
 ```
 
-## Group
+## 10. Group
 
 - Selecione os objetos e pressione Ctrl + G  ou `Edit` > `Group`
   
@@ -689,7 +689,7 @@ Podemos adicionar uma cor na camada fazendo com que todos os objetos selecionado
   ->Objeto3 
 ```
 
-## Modelagem NURBS
+## 11. Modelagem NURBS
 
 ***
 
@@ -707,9 +707,9 @@ O tipo de dados NURBS 3D pode ser facilmente exportado para aplicativos de softw
 
 Se seus requisitos são usar o tipo de superfície de polígono em suas cenas, você pode inicialmente construir suas superfícies usando NURBS e depois convertê-las em polígonos.
 
-### Objetos primitivos
+### 11.1. Objetos primitivos
 
-#### Esfera
+#### 11.1.1. Esfera
 
 São compostos por :
 
@@ -721,23 +721,23 @@ São compostos por :
 
 - Spans - Quantidade de `spans` (Horizontal)
 
-#### Cubo
+#### 11.1.2. Cubo
 
 O objeto é uma composição de várias outros **agrupados**.
 
-#### Cilindro
+#### 11.1.3. Cilindro
 
 Criando o objeto habilitando a opção `Interactive Creation` as partes superior e inferior do objeto são preenchidas, utilizando uma **hierarquia** de três objetos.
 
 - NurbsCylinder1 > BottomCap1 > TopCap1.
 
-#### Plano
+#### 11.1.4. Plano
 
 Para aumentar os vértices criados utilizamos : `Patches U` e `Patches V`.
 
-### Componentes de seleção
+### 11.2. Componentes de seleção
 
-#### CV
+#### 11.2.1. CV
 
 {% include image.html
     src="https://download.autodesk.com/us/maya/2011help/images/MED/Sherlock/NURBS/comp_N19b.png"
@@ -751,7 +751,7 @@ O número de CVs é igual ao grau da curva mais um. Assim, por exemplo, uma curv
 
 O Maya desenha CVs de forma diferente para permitir que você saiba a diferença entre o início e o fim de uma curva. O primeiro CV (no ponto inicial da curva) é desenhado como uma caixa. O segundo CV é desenhado como um pequeno “U”, para mostrar a dimensão U crescente a partir do ponto inicial. Todos os outros CVs são desenhados como pequenos pontos.
 
-#### Edit Points
+#### 11.2.2. Edit Points
 
 {% include image.html
     src="https://download.autodesk.com/us/maya/2011help/images/MED/Sherlock/NURBS/comp_N20a.png"
@@ -763,7 +763,7 @@ Você pode dizer quando uma curva é feita a partir de vários segmentos de vár
 
 Ao contrário dos pontos de controle na curva das curvas de Bezier (usados em muitos programas de ilustração 2D), os pontos de edição NURBS geralmente não são usados para editar curvas. Os CVs controlam a forma de uma curva NURBS e os pontos de edição são apenas indicadores de quantos spans uma curva possui.
 
-#### Hulls
+#### 11.2.3. Hulls
 
 {% include image.html
     src="https://download.autodesk.com/us/maya/2011help/images/MED/Sherlock/NURBS/comp_N20b.png"
@@ -781,11 +781,11 @@ Os Hull são úteis para vários propósitos:
 
 - Para selecionar uma linha inteira de CVs de uma só vez.
 
-#### Isoparms
+#### 11.2.4. Isoparms
 
 Silimiar aos Edges dos objetos poligonais.
 
-### Curve Tools
+### 11.3. Curve Tools
 
 `CV Curve Tool`
 
@@ -811,7 +811,7 @@ Curva formada calculando três pontos no espaço.
 
 Curva formada calculando dois pontos no espaço.
 
-### Revolve
+### 11.4. Revolve
   
 Ordem de seleção do objeto altera a forma final;
 
@@ -819,7 +819,7 @@ Escolha o Eixo em `Resolve Options`.
 
 A curva fica associada ao objeto criado até que o histórico seja removido;
 
-### Loft
+### 11.5. Loft
 
 Possibilita a criação de figuras utilizando várias curvas curva
 
@@ -836,7 +836,7 @@ Possibilita a criação de figuras utilizando várias curvas curva
   
   - Autreverse - reverte as faces do objeto
 
-### Extrude Nurbs
+### 11.6. Extrude Nurbs
 
 É possível criar um objeto poligonal na construção usando as configurações:
 
@@ -852,35 +852,35 @@ Possibilita a criação de figuras utilizando várias curvas curva
 
   - Rotation e Scale;
 
-### Isoparm
+### 11.7. Isoparm
   
-#### Separar objetos
+#### 11.7.1. Separar objetos
 
 É possível separar ou juntar usando `Surface` > `Detach` ou `Attach`
 
-#### Inserindo Isoparms
+#### 11.7.2. Inserindo Isoparms
 
 Selecione um isoparm e logo em seguida utilize `Surface` > `Insert Isoparms`.
 
-### Close e Open
+### 11.8. Close e Open
 
 Para curvas abertas utilize `Curve` > `Close` para fechar a curva.
 
 Para objetos do tipo nurbs abertos utilize `Surfaces` > `Close` para fechar a curva.
 
-#### Preenchendo uma superfície de um objeto
+#### 11.8.1. Preenchendo uma superfície de um objeto
 
 `Surface` > `Planar`
 
 Selecione uma curva fechada e aplique a opção `Planar` para preencher a curva.
 
-#### Preenchendo o espaço entre dois objetos
+#### 11.8.2. Preenchendo o espaço entre dois objetos
 
 `Surface` > `Loft`
 
 Duplique isoparms de objetos distintos e aplique `Loft` para preencher o espaço entre eles.
 
-### Project Curve on Surface
+### 11.9. Project Curve on Surface
 
 É possível projetar a imagem de uma curva em outro com :
 
@@ -896,7 +896,7 @@ Corta a superfície desejeda, selecione o que vai ser mantido e pressione `ENTER
 
 Todos os itens pontilhados vão ser removidos.
 
-### Convertendo NURBS para poligonais
+### 11.10. Convertendo NURBS para poligonais
 
 Para exportar objetos para o Unreal Engine devemos transformar os objetos NURBS em objetos poligonais.
 
@@ -912,7 +912,7 @@ Por exemplo, a tecelagem para no valor de tolerância fracionária que você def
 
 >Em [computação gráfica](https://en.wikipedia.org/wiki/Tessellation), tesselação refere-se à divisão de conjuntos de dados de polígonos (às vezes chamados de conjuntos de vértices) apresentando objetos em uma cena em estruturas adequadas para renderização.
 
-## Sculpting
+## 12. Sculpting
 
 ***
 
@@ -920,7 +920,7 @@ Por exemplo, a tecelagem para no valor de tolerância fracionária que você def
 
 `Smooth Tool`
 
-## Materiais
+## 13. Materiais
 
 ***
 
@@ -932,7 +932,7 @@ Você pode definir os atributos de um material, como cor, especularidade, reflet
 >
 >Quando você cria um objeto pela primeira vez, o Maya atribui uma versão especial do material `Lambert` (um material de superfície ou *Surface Material*) por padrão.
 
-### Surface Material
+### 13.1. Surface Material
 
 Os materiais de superfície representam os tipos de superfícies nas quais você pode mapear texturas. Atributos como brilho, fosco, refletividade, brilho e assim por diante variam entre os diferentes tipos de materiais no Maya. Por exemplo, se a textura exigir uma superfície brilhante, como cromo, use um material `Phong`.
 
@@ -944,11 +944,11 @@ Os materiais de superfície representam os tipos de superfícies nas quais você
 
 Para obter uma descrição detalhada dos atributos de um material de superfície, consulte [Nós de material de superfície](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-LightingShading/files/GUID-634CAFBE-AC48-4B73-89CA-82D64FA1BC70-htm.html).
 
-### Displacement Material
+### 13.2. Displacement Material
 
 O material de deslocamento permite que você use uma imagem para especificar o relevo da superfície em objetos em sua cena. Para saber mais sobre o relevo de superfície, consulte [Sobre o relevo de superfície](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-LightingShading/files/GUID-F403A3FF-55BE-43A0-B6E1-49BA7C6BF5EE-htm.html).
 
-### Volumetric material (atmosphere)
+### 13.3. Volumetric material (atmosphere)
 
 No mundo real, quando você fotografa um objeto, geralmente ele está dentro de uma atmosfera (ar) e cercado por outros objetos (fundo).
 
@@ -962,7 +962,7 @@ Para obter uma descrição de materiais volumétricos, consulte [Sobre materiais
     caption="Figura: Menu Assign New Material - Maya > Volumetric"
 %}
 
-### Hypershade
+### 13.4. Hypershade
 
 {% include image.html
     src="https://help.autodesk.com/cloudhelp/2020/ENU/Maya-LightingShading/images/GUID-C59B74F1-2AFF-4EB1-8745-3D742EE005F7.png"
@@ -986,7 +986,7 @@ Ao clicar com o RMB no material listado no `Browser` acionamos o menu de context
     caption="Figura: Podemos listar os nós do material escolhendo a opção Open Graph Network."
 %}
 
-### Criando materiais com as opções do menu
+### 13.5. Criando materiais com as opções do menu
 
 Para criar um material utilize:
 
@@ -994,7 +994,7 @@ Status Line: `Rendering` > `Light/Shading` > `New Material`.
 
 Status Line: `Rendering` > `Light/Shading` > `Assing New Material`, para criar e associar o material a um objeto selecionado.
 
-### Atributos do material
+### 13.6. Atributos do material
 
 Status Line: `Rendering` > `Light/Shading` > `Material Attributes`.
 
@@ -1012,7 +1012,7 @@ Status Line: `Rendering` > `Light/Shading` > `Material Attributes`.
 
 - Bump Mapping - Adiciona uma imagem para [Bump Mapping](https://pt.wikipedia.org/wiki/Bump_mapping)
 
-### Checker ou Fluxo de trabalho
+### 13.7. Checker ou Fluxo de trabalho
 
 Ao escolher um atributo, color, por exemplo, é possível ligar o material a outro elemento ou material, construindo um fluxo de elementos.
 
@@ -1032,7 +1032,7 @@ Usamos os comandos abaixo para navegar pelos elementos dentro do painel de atrib
 
 Para quebrar a conexão selecione o atributo e RMB > `Break Connection`.
 
-### Adicionando uma imagem
+### 13.8. Adicionando uma imagem
 
 Crie um novo material, logo em seguida altere o atributo `color` e associe a um elemento do tipo `file`.
 
@@ -1046,9 +1046,9 @@ O elemento `Place2DTexture` é associado automáticamente a imagem para que poss
 
 `Translate`: Os atributos Translate posicionam o mapa de textura na superfície e movem a área de cobertura pela superfície. O intervalo é de - infinito a + infinito.
 
-### Tipos de Materiais (Maya)
+### 13.9. Tipos de Materiais (Maya)
 
-#### Lambert
+#### 13.9.1. Lambert
 
 simples sem reflexo, brilho e transparência)
 
@@ -1064,7 +1064,7 @@ simples sem reflexo, brilho e transparência)
 
 - Diffuse: Torna mais claro ou escuro a cor.
 
-#### Blind
+#### 13.9.2. Blind
 
 Com brilho e reflexo
 
@@ -1078,7 +1078,7 @@ Com brilho e reflexo
   
 - Reflectivity: Aumenta a intensidade do reflexo
 
-#### Phong
+#### 13.9.3. Phong
 
 Parecido com o Blind mas com mais parâmetros.
 
@@ -1096,7 +1096,7 @@ Parecido com o Blind mas com mais parâmetros.
 
 - Angle: ângulo da luz
 
-### Usando Normal Map
+### 13.10. Usando Normal Map
 
 {% include imagebase.html
     src="autodesk_maya/material/autodesk_maya_material_base_color_normal_map.webp"
@@ -1104,11 +1104,11 @@ Parecido com o Blind mas com mais parâmetros.
     caption="Figura: Adicionamos duas texturas em Base Color e Normal Camera, textura completa e outra com as normais calculadas, em seguida usamos aiNormalMap do Arnold."
 %}
 
-## Renderização e Iluminação
+## 14. Renderização e Iluminação
 
 ***
 
-### Cameras
+### 14.1. Cameras
 
 {% include imagebase.html
     src="autodesk_maya/material/autodesk_maya_camera.webp"
@@ -1120,7 +1120,7 @@ Parecido com o Blind mas com mais parâmetros.
 
 - `Viewport Panels` - Escolha a `Perspective` > `Camera 1` ou o nome da câmera para a visão da câmera.
 
-### Renderização
+### 14.2. Renderização
 
 Podemos alterar o `Viewport` para renderizar a cena escolhendo `Renderer` > `Arnold`
 
@@ -1142,15 +1142,15 @@ Para visualizar a cena renderizada ou cena final devemos configurar o software u
 
 - Há também controles deslizantes de exposição e contraste de cores nesta janela
 
-### Iluminação
+### 14.3. Iluminação
 
-#### Ambient
+#### 14.3.1. Ambient
 
 Ilumina todas as partes da cena uniformemente;
 
 Útil para: Simular uma combinação de iluminação direta e indireta.
 
-#### Directional
+#### 14.3.2. Directional
 
 Iluminação uniforme de uma cena usando paralelo raios de luz;
 
@@ -1158,7 +1158,7 @@ Iluminação uniforme de uma cena usando paralelo raios de luz;
 
 - Ex. Luz solar.
 
-#### Point
+#### 14.3.3. Point
 
 A luz irradia em todas as direções de um ponto único;
 
@@ -1166,7 +1166,7 @@ Ideal para: Fontes omnidirecionais:
 
 - Ex. Lâmpada elétrica.
 
-#### Spot
+#### 14.3.4. Spot
 
 Cria um cone de luz em uma direção;
 
@@ -1174,7 +1174,7 @@ Cria um cone de luz em uma direção;
 
 - Ex. lanterna, farol.
 
-#### Area
+#### 14.3.5. Area
 
 Fontes de luz retangulares 2D;
 
@@ -1182,13 +1182,13 @@ Fontes de luz retangulares 2D;
 
 Maior tempo de renderização;
 
-#### Volume
+#### 14.3.6. Volume
 
 A luz preenche uma forma 3D (esfera, cilindro,etc.);
 
 Útil para: Uma representação visual do extensão da luz.
 
-### Propriedades da luz
+### 14.4. Propriedades da luz
 
 {% include imagebase.html
     src="autodesk_maya/material/autodesk_maya_material_point_light.webp"
@@ -1208,7 +1208,7 @@ A luz preenche uma forma 3D (esfera, cilindro,etc.);
 
 - `Color` - defina uma cor RGB para a luz - afeta a cor cena.
 
-## Mapeamento UV
+## 15. Mapeamento UV
 
 ***
 
@@ -1220,11 +1220,11 @@ A luz preenche uma forma 3D (esfera, cilindro,etc.);
     caption="Figura: Uma representação do mapeamento UV de um cubo. A planificação de um cubo faz parte do processo de mapeamento. <https://pt.wikipedia.org/wiki/Mapeamento_UV>"
 %}
 
-### Mapeamento automático
+### 15.1. Mapeamento automático
 
 Para mapeamento automático siga os passos a seguir:
 
-#### Planar Mapping Options
+#### 15.1.1. Planar Mapping Options
 
 {% include imagebase.html
     src="autodesk_maya/material/autodesk_maya_planar_mapping_options.webp"
@@ -1232,7 +1232,7 @@ Para mapeamento automático siga os passos a seguir:
     caption="Figura: UV > Planar > Planar Mapping Options >  Escolha uma coordenada X,Y,Z ou Camera para ajustar a textura. "
 %}
 
-#### Ajustes usando Planar Mapping Options
+#### 15.1.2. Ajustes usando Planar Mapping Options
 
 {% include imagebase.html
     src="autodesk_maya/material/autodesk_maya_planar_mapping_options_ajust.webp"
@@ -1240,7 +1240,7 @@ Para mapeamento automático siga os passos a seguir:
     caption="Figura: Ajuste as coordenadas da textura clicando no indicador vermelho do objeto. "
 %}
 
-### Mapeamento manual
+### 15.2. Mapeamento manual
 
 - Menu `UV` > `UV Editor`;
 
@@ -1308,7 +1308,7 @@ Para mapeamento automático siga os passos a seguir:
 
   - `Pin Tool` - Selecionando usando tecla `B` ou `P` para bloquear áreas;
 
-## Hide  
+## 16. Hide  
 
 Selecione um objeto e pressione Ctrl + H ou `Display` > `Hide` > `Hide Selection`
 
@@ -1320,7 +1320,7 @@ Para mostrar o último objeto escondido podemos usar `Display` > `Show` > `Show 
 
 Para apresentar um objeto escondido usando o `Outliner` usamos `Display` > `Show` > `Show Selection`.
 
-## Animando cenas no Autodesk Maya
+## 17. Animando cenas no Autodesk Maya
 
 ***
 

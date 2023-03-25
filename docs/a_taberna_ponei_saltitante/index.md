@@ -7,8 +7,12 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "Banco de Dados"
-    nav: "banco_dados"
+  - title: "DESENVOLVIMENTO DE JOGOS"
+    nav: "dev_game"
+  - title: PROGRAMAÇÃO EM C++  
+    nav: dev_cpp
+  - title: "BANCO DE DADOS"
+    nav: "banco_dados"    
 date: 2022-11-18 
 ---
 

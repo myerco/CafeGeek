@@ -6,84 +6,84 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "Desenvolvimento de Jogos"
+  - title: "DESENVOLVIMENTO DE JOGOS"
     nav: "dev_game"
 date: 2022-09-24 
 ---
 
 ***
 
-- [CAPÍTULO 1 -  Por dentro da cabeça do Game Design](#capítulo-1----por-dentro-da-cabeça-do-game-design)
-  - [Quero ser um Game Design](#quero-ser-um-game-design)
-  - [Quanto Ganha do Game Design?](#quanto-ganha-do-game-design)
-  - [Características pessoais](#características-pessoais)
-  - [O curso Me Conta uma História](#o-curso-me-conta-uma-história)
-    - [Habilidades que serão aprendidas](#habilidades-que-serão-aprendidas)
-- [CAPÍTULO 2 -  Como construir um jogo digital?](#capítulo-2----como-construir-um-jogo-digital)
-  - [Conceito](#conceito)
-  - [Funcional](#funcional)
-  - [Artista](#artista)
-  - [A equipe](#a-equipe)
-  - [Tarefas](#tarefas)
-  - [Limitações](#limitações)
-    - [Dinheiro](#dinheiro)
-    - [Tempo](#tempo)
-    - [Tecnologia](#tecnologia)
-    - [Expertise](#expertise)
-- [CAPÍTULO 3 -  Como organizar as ideias?](#capítulo-3----como-organizar-as-ideias)
-  - [Onde nascem as ideias?](#onde-nascem-as-ideias)
-  - [Cultivando ideias](#cultivando-ideias)
-  - [O que torna a ideia interessante é](#o-que-torna-a-ideia-interessante-é)
-  - [O que nos inspira?](#o-que-nos-inspira)
-  - [Hábito](#hábito)
-- [CAPÍTULO 4 - Como construir os personagens?](#capítulo-4---como-construir-os-personagens)
-  - [A jornada do Herói](#a-jornada-do-herói)
-  - [Personalidade](#personalidade)
-    - [Como ele caminha](#como-ele-caminha)
-    - [Como fala](#como-fala)
-    - [Como luta](#como-luta)
-    - [Como abre a porta](#como-abre-a-porta)
-    - [Como comemora](#como-comemora)
-    - [Como fica esperando](#como-fica-esperando)
-  - [Cuidado com histórias licenciadas](#cuidado-com-histórias-licenciadas)
-  - [Motivação](#motivação)
-    - [Salvar a amada ou amigo](#salvar-a-amada-ou-amigo)
-    - [Sobrevivência](#sobrevivência)
-    - [Vingança](#vingança)
-    - [Salvar o mundo?](#salvar-o-mundo)
-  - [Morte](#morte)
-    - [Valorize a morte do seu personagens](#valorize-a-morte-do-seu-personagens)
-  - [Nome](#nome)
-    - [Significado](#significado)
-    - [Nome Curto ou longo?](#nome-curto-ou-longo)
-  - [Forma](#forma)
-    - [Proporções faciais](#proporções-faciais)
-    - [Movimento](#movimento)
-    - [Humanidade](#humanidade)
-  - [Customização](#customização)
-  - [Não estamos sozinhos](#não-estamos-sozinhos)
-    - [NPC- Personagens não jogáveis](#npc--personagens-não-jogáveis)
-- [CAPÍTULO 5 - Eles todos me querem morto](#capítulo-5---eles-todos-me-querem-morto)
-  - [Tipos de conflito](#tipos-de-conflito)
-  - [Forma segue a função](#forma-segue-a-função)
-    - [Tamanho](#tamanho)
-    - [Comportamento](#comportamento)
-    - [Velocidade](#velocidade)
-  - [Lutar com inimigos deve ser divertido](#lutar-com-inimigos-deve-ser-divertido)
-  - [Ataques](#ataques)
-  - [Nem tudo é ataque](#nem-tudo-é-ataque)
-  - [Faça o jogador odiar seu inimigo](#faça-o-jogador-odiar-seu-inimigo)
-  - [BOSS](#boss)
-    - [Quando enfrentar?](#quando-enfrentar)
-    - [Quem é?](#quem-é)
-  - [Componentes de uma luta](#componentes-de-uma-luta)
-  - [Deixe o jogador administrar o golpe final](#deixe-o-jogador-administrar-o-golpe-final)
-  - [Locação](#locação)
-- [Referências](#referências)
+- [1. Por dentro da cabeça do Game Design](#1-por-dentro-da-cabeça-do-game-design)
+  - [1.1. Quero ser um Game Design](#11-quero-ser-um-game-design)
+  - [1.2. Quanto Ganha do Game Design?](#12-quanto-ganha-do-game-design)
+  - [1.3. Características pessoais](#13-características-pessoais)
+  - [1.4. O curso Me Conta uma História](#14-o-curso-me-conta-uma-história)
+    - [1.4.1. Habilidades que serão aprendidas](#141-habilidades-que-serão-aprendidas)
+- [2. Como construir um jogo digital?](#2-como-construir-um-jogo-digital)
+  - [2.1. Conceito](#21-conceito)
+  - [2.2. Funcional](#22-funcional)
+  - [2.3. Artista](#23-artista)
+  - [2.4. A equipe](#24-a-equipe)
+  - [2.5. Tarefas](#25-tarefas)
+  - [2.6. Limitações](#26-limitações)
+    - [2.6.1. Dinheiro](#261-dinheiro)
+    - [2.6.2. Tempo](#262-tempo)
+    - [2.6.3. Tecnologia](#263-tecnologia)
+    - [2.6.4. Expertise](#264-expertise)
+- [3. Como organizar as ideias?](#3-como-organizar-as-ideias)
+  - [3.1. Onde nascem as ideias?](#31-onde-nascem-as-ideias)
+  - [3.2. Cultivando ideias](#32-cultivando-ideias)
+  - [3.3. O que torna a ideia interessante é](#33-o-que-torna-a-ideia-interessante-é)
+  - [3.4. O que nos inspira?](#34-o-que-nos-inspira)
+  - [3.5. Hábito](#35-hábito)
+- [4. Como construir os personagens?](#4-como-construir-os-personagens)
+  - [4.1. A jornada do Herói](#41-a-jornada-do-herói)
+  - [4.2. Personalidade](#42-personalidade)
+    - [4.2.1. Como ele caminha](#421-como-ele-caminha)
+    - [4.2.2. Como fala](#422-como-fala)
+    - [4.2.3. Como luta](#423-como-luta)
+    - [4.2.4. Como abre a porta](#424-como-abre-a-porta)
+    - [4.2.5. Como comemora](#425-como-comemora)
+    - [4.2.6. Como fica esperando](#426-como-fica-esperando)
+  - [4.3. Cuidado com histórias licenciadas](#43-cuidado-com-histórias-licenciadas)
+  - [4.4. Motivação](#44-motivação)
+    - [4.4.1. Salvar a amada ou amigo](#441-salvar-a-amada-ou-amigo)
+    - [4.4.2. Sobrevivência](#442-sobrevivência)
+    - [4.4.3. Vingança](#443-vingança)
+    - [4.4.4. Salvar o mundo?](#444-salvar-o-mundo)
+  - [4.5. Morte](#45-morte)
+    - [4.5.1. Valorize a morte do seu personagens](#451-valorize-a-morte-do-seu-personagens)
+  - [4.6. Nome](#46-nome)
+    - [4.6.1. Significado](#461-significado)
+    - [4.6.2. Nome Curto ou longo?](#462-nome-curto-ou-longo)
+  - [4.7. Forma](#47-forma)
+    - [4.7.1. Proporções faciais](#471-proporções-faciais)
+    - [4.7.2. Movimento](#472-movimento)
+    - [4.7.3. Humanidade](#473-humanidade)
+  - [4.8. Customização](#48-customização)
+  - [4.9. Não estamos sozinhos](#49-não-estamos-sozinhos)
+    - [4.9.1. NPC- Personagens não jogáveis](#491-npc--personagens-não-jogáveis)
+- [5. Eles todos me querem morto](#5-eles-todos-me-querem-morto)
+  - [5.1. Tipos de conflito](#51-tipos-de-conflito)
+  - [5.2. Forma segue a função](#52-forma-segue-a-função)
+    - [5.2.1. Tamanho](#521-tamanho)
+    - [5.2.2. Comportamento](#522-comportamento)
+    - [5.2.3. Velocidade](#523-velocidade)
+  - [5.3. Lutar com inimigos deve ser divertido](#53-lutar-com-inimigos-deve-ser-divertido)
+  - [5.4. Ataques](#54-ataques)
+  - [5.5. Nem tudo é ataque](#55-nem-tudo-é-ataque)
+  - [5.6. Faça o jogador odiar seu inimigo](#56-faça-o-jogador-odiar-seu-inimigo)
+  - [5.7. BOSS](#57-boss)
+    - [5.7.1. Quando enfrentar?](#571-quando-enfrentar)
+    - [5.7.2. Quem é?](#572-quem-é)
+  - [5.8. Componentes de uma luta](#58-componentes-de-uma-luta)
+  - [5.9. Deixe o jogador administrar o golpe final](#59-deixe-o-jogador-administrar-o-golpe-final)
+  - [5.10. Locação](#510-locação)
+- [6. Referências](#6-referências)
 
 ***
 
-## CAPÍTULO 1 -  Por dentro da cabeça do Game Design
+## 1. Por dentro da cabeça do Game Design
 
 > "Por baixo dessa carne existe um ideal. e as ideias nunca morrem..."
 >
@@ -93,7 +93,7 @@ Um papel importante na produção de um jogo digital é o de Game Design que é 
 
 O Game Design deve atuar como uma interface entre os diversos profissionais envolvidos no projeto e entender as suas necessidades, mas para um bom desempenho nessa tarefa o Game Design deve conhecer um pouco de cada processo no fluxo de trabalho.
 
-### Quero ser um Game Design
+### 1.1. Quero ser um Game Design
 
 Como toda profissão para que possamos alcançar um reconhecimento e conhecimento adequado sobre o ofício devemos estruturar e agrupar os nossos passos, abaixo algumas dicas:
 
@@ -113,7 +113,7 @@ Como toda profissão para que possamos alcançar um reconhecimento e conheciment
     caption="Figura: Design de games: conheça a profissão - <https://www.gamerinfo.com.br/2018/09/10/design-de-games/> ."
 %}
 
-### Quanto Ganha do Game Design?
+### 1.2. Quanto Ganha do Game Design?
 
 Segundo o site [https://www.educamaisbrasil.com.br](https://www.educamaisbrasil.com.br) o salário começa com **R$ 1.228,90** e pode chegar a **R$ 4.056,35** no Brasil (Consulta 17/01/2021).
 
@@ -123,7 +123,7 @@ Segundo o site [https://www.educamaisbrasil.com.br](https://www.educamaisbrasil.
     caption="Figura: Profissão Designer de games: salário e carreira na área de DESIGN DE GAMES - <https://www.educamaisbrasil.com.br/cursos-e-faculdades/design-de-games/salario-de-designer-de-games-carreira> ."
 %}
 
-### Características pessoais
+### 1.3. Características pessoais
 
 A seguir vamos destacar algumas Características necessárias para um bom Game Design.
 
@@ -141,11 +141,11 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
 
 - Prestar atenção a opinião de outras pessoas.
 
-### O curso Me Conta uma História
+### 1.4. O curso Me Conta uma História
 
 Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história.  O curso está associado a construção **Estética** do jogo pois nele definimos elementos como fantasia, narrativa e expressão.
 
-#### Habilidades que serão aprendidas
+#### 1.4.1. Habilidades que serão aprendidas
 
 - Aprenda a organizar suas ideias;
 
@@ -161,7 +161,7 @@ Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e
 | :-------- | :-------- | :------------ |
 | Mecânicas | Dinâmicas | **Estéticas** |
 
-## CAPÍTULO 2 -  Como construir um jogo digital?
+## 2. Como construir um jogo digital?
 
 > "Se você quiser fazer uma torta de maçã do nada, você precisa, primeiro, inventar o universo."
 >
@@ -169,7 +169,7 @@ Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e
 
 Geralmente o fluxo de trabalhado pode ser definido pelas etapas de **Conceito**, **Funcional** e **Artista**, a seguir vamos descrever as etapas.
 
-### Conceito
+### 2.1. Conceito
 
 {% include imagebase.html
     src="me_conte_uma_historia/10.webp"
@@ -183,7 +183,7 @@ Etapa mais abstrata do projeto onde definimos o conceito do jogo baseados em uma
 
 Um bom exemplo de documentação é o modelo [Death VIP](http://cafegeek.eti.br/trabalhos/modelo_gdd_death_vip.html), utilize a estrutura do modelo para o desenvolvimento de trabalhos no decorrer do curso.
 
-### Funcional
+### 2.2. Funcional
 
 Nesta etapa definimos como organizar o fluxo de atividades e comunicação do projeto. Devemos definir também as regras que devem ser desenvolvidas no projeto como por exemplo a implementação técnica da mecânica.
 
@@ -196,7 +196,7 @@ Nesta etapa definimos como organizar o fluxo de atividades e comunicação do pr
     caption="Figura: The growth of the gaming industry in the context of creative industries - <https://www.researchgate.net/publication/346541011_The_growth_of_the_gaming_industry_in_the_context_of_creative_industries>."
 %}
 
-### Artista
+### 2.3. Artista
 
 Como são os personagens? qual o ambiente? esse tipo de pergunta são apresentadas nessa etapa onde devem ser analisadas e aprovadas as representações visuais do jogo.
 
@@ -210,7 +210,7 @@ Como são os personagens? qual o ambiente? esse tipo de pergunta são apresentad
     caption="Figura: The Benefits of Embracing 3D in your Concept Art Workflow - <https://magazine.artstation.com>."
 %}
 
-### A equipe
+### 2.4. A equipe
 
 Organizar a equipe é um trabalho interessante quando compreendemos as Características do produto que vamos desenvolver e as aliamos aos perfis profissionais que devem atuar no desenvolvimento.
 
@@ -239,7 +239,7 @@ Podemos comparar como trabalhar um grande desafio com um grupo de amigos onde ca
     caption="Figura: Tips for positive player interactions in World of Warcraft instances - <https://www.gameskinny.com/xiv9z/tips-for-positive-player-interactions-in-world-of-warcraft-instances>."
 %}
 
-### Tarefas
+### 2.5. Tarefas
 
 Quais são as tarefas e atividades que devem ser executadas, por onde começamos? uma resposta para a pergunta é organize em pacotes de entrega. Defina e agrupe um conjunto de entregas baseadas em funcionalidades e comece a organizar a sua agenda.
 
@@ -257,7 +257,7 @@ Quais são as tarefas e atividades que devem ser executadas, por onde começamos
     caption="Figura: Improving Video Game Development: Facilitating Heterogeneous Team Collaboration through Flexible Software Processes - <https://www.researchgate.net>."
 %}
 
-### Limitações
+### 2.6. Limitações
 
 {% include image.html
     src="https://assets.rockpapershotgun.com/images/2020/02/The-Forest-Best-Survival-Games-2020.jpg"
@@ -267,7 +267,7 @@ Quais são as tarefas e atividades que devem ser executadas, por onde começamos
 
 O projeto é limitado por vários fatores, dentre eles:
 
-#### Dinheiro
+#### 2.6.1. Dinheiro
 
 Estime os custos do projeto, orçamento e controle de custos de modo que o projeto possa ser terminado dentro do orçamento aprovado.
 
@@ -283,7 +283,7 @@ Estime os custos do projeto, orçamento e controle de custos de modo que o proje
 
 - Controle custos, acompanhe e monitore as mudanças feitas na custo base.
 
-#### Tempo
+#### 2.6.2. Tempo
 
 Fique atento aos prazos estabelecidos no escopo e o tempo estipulado para cada atividade.
 
@@ -303,7 +303,7 @@ Fique atento aos prazos estabelecidos no escopo e o tempo estipulado para cada a
 
 - Monitore o andamento do projeto e atualize o progresso e gerenciamento de mudanças.
 
-#### Tecnologia
+#### 2.6.3. Tecnologia
 
 Considere de toda a base tecnológica do projeto.
 
@@ -323,7 +323,7 @@ Considere de toda a base tecnológica do projeto.
 
 - Softwares e licenças utilizados.
 
-#### Expertise
+#### 2.6.4. Expertise
 
 Organize as equipes com os papeis e responsabilidades designadas para a conclusão do projeto.
 
@@ -341,7 +341,7 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 
 - Acompanhe o desempenho dos membros da equipe, forneça *feedback*, resolva questões e acompanhe as mudanças.
 
-## CAPÍTULO 3 -  Como organizar as ideias?
+## 3. Como organizar as ideias?
 
 ***
 
@@ -349,7 +349,7 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 >
 > Fernando Pessoa.
 
-### Onde nascem as ideias?
+### 3.1. Onde nascem as ideias?
 
 {% include image.html
     src="https://cdn3.vox-cdn.com/uploads/chorus_asset/file/3687336/The_Witcher_3_Wild_Hunt_You_never_know_what_waits_around_the_corner.0.png"
@@ -367,7 +367,7 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 
 - Experiências emocionais.
 
-### Cultivando ideias
+### 3.2. Cultivando ideias
 
 {% include image.html
     src="https://cdn.vox-cdn.com/thumbor/KfZcAgZDNJyf7POmq2KDOfa2fZA=/148x0:1768x1080/920x613/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47374578/unravel-yarny.0.0.jpg"
@@ -383,7 +383,7 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 
 - Compartilhe o seu mundo com outras pessoas;
 
-### O que torna a ideia interessante é
+### 3.3. O que torna a ideia interessante é
 
 {% include image.html
     src="https://adrenaline.com.br/uploads/2021/09/09/70890/Lost-in-Random_06.jpg"
@@ -395,7 +395,7 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 
 - Seja divertido;
 
-### O que nos inspira?
+### 3.4. O que nos inspira?
 
 {% include imagebase.html
     src="me_conte_uma_historia/04190615075402.webp"
@@ -411,7 +411,7 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 
 - Experiências pessoais;
 
-### Hábito
+### 3.5. Hábito
 
 {% include image.html
     src="https://s2.glbimg.com/ZcTFIilmLi8663REozPDO8EzL18=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/q/UZHV1lT8SDUVlX8Bso5Q/2015-07-24-journey3.jpg"
@@ -427,7 +427,7 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 
 - Assista palestras;
 
-## CAPÍTULO 4 - Como construir os personagens?
+## 4. Como construir os personagens?
 
 ***
 
@@ -465,7 +465,7 @@ Não existe uma formula mágica que se deve seguir para construir um personagem 
 
 Devemos também outras estruturas de organização e entendimento dos  heróis, amigos, amigos nem tanto e supostos inimigos (Lembre do ótimo jogo [Last of Us Parte 2](https://thelastofus.com.br/)), a seguir apresentamos essas estruturas.
 
-### A jornada do Herói
+### 4.1. A jornada do Herói
 
 {% include image.html
     src="https://miro.medium.com/max/500/1*cQanY8AUEBH3f0BsGo_vOw.png"
@@ -497,9 +497,9 @@ Abaixo alguns filmes que utilizam essa fórmula :
 
 - Harry Potter.
 
-### Personalidade
+### 4.2. Personalidade
 
-#### Como ele caminha
+#### 4.2.1. Como ele caminha
 
 {% include image.html
     src="https://s2.glbimg.com/6VbePiU5gQg5tDf6RnWBQKWq9TE=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/A/koepwtTciyZq1aIruRUw/2016-07-27-sonic-melhores-jogos-10.jpg"
@@ -507,9 +507,9 @@ Abaixo alguns filmes que utilizam essa fórmula :
     caption="Figura: Relembre os melhores jogos clássicos em 2D do Sonic - <https://www.techtudo.com.br> ."
 %}
 
-#### Como fala
+#### 4.2.2. Como fala
 
-#### Como luta
+#### 4.2.3. Como luta
 
 {% include image.html
     src="https://cdn.ome.lt/Ri9BXgbM9WX4sLt2hyqchVsUA1Y=/770x0/smart/uploads/conteudo/fotos/god-of-war-kratos_o1WSA8h.jpg"
@@ -517,11 +517,11 @@ Abaixo alguns filmes que utilizam essa fórmula :
     caption="Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation - <https://www.theenemy.com.br/> ."
 %}
 
-#### Como abre a porta
+#### 4.2.4. Como abre a porta
 
-#### Como comemora
+#### 4.2.5. Como comemora
 
-#### Como fica esperando
+#### 4.2.6. Como fica esperando
 
 {% include image.html
     src="https://www.pcgamesn.com/wp-content/uploads/legacy/Ghost_Recon_Wildlands_graphics_settings_high.jpg"
@@ -553,11 +553,11 @@ Abaixo alguns filmes que utilizam essa fórmula :
     caption="Figura: ANÁLISE: Grand Theft Auto V - <https://adrenaline.com.br> ."
 %}  
 
-### Cuidado com histórias licenciadas
+### 4.3. Cuidado com histórias licenciadas
 
-### Motivação
+### 4.4. Motivação
 
-#### Salvar a amada ou amigo
+#### 4.4.1. Salvar a amada ou amigo
 
 {% include image.html
     src="https://t.ctcdn.com.br/jjmLXI8pBWg2AvrETWFterqDf-U=/512x288/smart/i299893.jpeg"
@@ -583,7 +583,7 @@ Cumprir a sua missão o tinha transformado em **um** individuo alheio aos proble
 
 - [Metacritic - The Book of Eli 2010](https://www.metacritic.com/movie/the-book-of-eli "Metacritic - The Book of Eli 2010")
 
-#### Sobrevivência
+#### 4.4.2. Sobrevivência
 
 {% include image.html
     src="https://www.lifewire.com/thmb/EjcsuTLZtk_3UMN7Evd6xFcrY88=/800x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1LW4164252-4-341174c3997543728bd2b024c6e2a309.jpg"
@@ -591,7 +591,7 @@ Cumprir a sua missão o tinha transformado em **um** individuo alheio aos proble
     caption="Figura: 7 Days to Die Review - <https://www.lifewire.com>."
 %}  
 
-#### Vingança
+#### 4.4.3. Vingança
 
 A busca pela vingança fez o personagem trilhar o caminho cegamente e violentamente.
 
@@ -603,7 +603,7 @@ A busca pela vingança fez o personagem trilhar o caminho cegamente e violentame
 
 A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas de vilão.
 
-#### Salvar o mundo?
+#### 4.4.4. Salvar o mundo?
 
 {% include image.html
     src="https://img.ibxk.com.br/2019/10/30/30092242177082.jpg?ims=704x"
@@ -611,9 +611,9 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
     caption="Figura: Call of Duty: Modern Warfare: A guerra nunca muda - <https://www.tecmundo.com.br>."
 %}  
 
-### Morte
+### 4.5. Morte
 
-#### Valorize a morte do seu personagens
+#### 4.5.1. Valorize a morte do seu personagens
 
 - Dos amigos.
 
@@ -639,7 +639,7 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
     caption="Figura: “Far Cry 3” vai te deixar sem vida social - <https://tecnoblog.net/>."
 %}  
 
-### Nome
+### 4.6. Nome
 
 {% include image.html
     src="https://assets.vg247.com/current//2014/05/mass_effect_shepard_names.jpg"
@@ -649,7 +649,7 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 
 A escolha dos nomes é importante para que o jogador possa explorar a personalidade dos personagens ou passar alguma ideia para o leitor sobrea história, por exemplo:
 
-#### Significado
+#### 4.6.1. Significado
 
 O nome Rachael do filme Blade Runner 1982 pode ser associado a sua origem bíblica Raquel onde é representada como uma mulher rica, bonita e estéril, esse último detalhe faz toda a diferença quando assistimos o segundo filme, pois ela sendo um replicante é estéril e mesmo assim concebeu uma criança.
 
@@ -659,7 +659,7 @@ O nome Rachael do filme Blade Runner 1982 pode ser associado a sua origem bíbli
     caption="Figura: Blade Runner (1982): análise e significados do filme - <https://www.culturagenial.com/blade-runner-1982-analise-significados-do-filme/>."
 %}  
 
-#### Nome Curto ou longo?
+#### 4.6.2. Nome Curto ou longo?
 
 Podemos respondendo isso com "Não confunda o jogador com nomes complexos e longos", você deve ter estudado história do Brasil e definir a linhagem do imperador da seguinte forma, o imperador com barba e o sem barba, e a identificação é pelo numeral que representa a sequencia hereditária ([Lista de monarcas do Brasil](https://pt.wikipedia.org/wiki/Lista_de_monarcas_do_Brasil)).
 
@@ -667,9 +667,9 @@ O personagem L do mangá Death Note é um exemplo interessante de nome curto poi
 
 "Para o seu nome, Ohba queria usar uma única letra que contivesse muito significado: ele considerou "I" e "J", mas decidiu que não eram tão bons quanto "L", e escolheu "L" após cuidada ponderação.[6] O pseudônimo de Ryuuzaki (竜崎 Ryūzaki) foi lhe dado por que em japonês, L é pronunciado como R."
 
-### Forma
+### 4.7. Forma
 
-#### Proporções faciais
+#### 4.7.1. Proporções faciais
 
 Trabalhe as expressões e cuidado com o "uncanny valley".
 
@@ -679,7 +679,7 @@ Trabalhe as expressões e cuidado com o "uncanny valley".
     caption="Figura: Ori and the Blind Forest has the most powerful opening to any game in 2015 - <https://www.polygon.com>."
 %}  
 
-#### Movimento
+#### 4.7.2. Movimento
 
 Pessoas são articuladas, cuidado com o orçamento.
 
@@ -689,7 +689,7 @@ Pessoas são articuladas, cuidado com o orçamento.
     caption="Figura: Hellblade: Senua's Sacrifice review - <https://www.eurogamer.net/>."
 %}  
 
-#### Humanidade
+#### 4.7.3. Humanidade
 
 Se parece com humano então faz coisas humanas.
 
@@ -699,7 +699,7 @@ Se parece com humano então faz coisas humanas.
     caption="Figura: Child of Light: Análise - <https://culturanerdegeek.com.br>."
 %}  
 
-### Customização
+### 4.8. Customização
 
 {% include image.html
     src="https://web-cdn.funcom.com/aoc/screenshots/tier3_ranger_armor-814x600.jpg"
@@ -725,7 +725,7 @@ Se parece com humano então faz coisas humanas.
     caption="Figura: Best Guns in Super People - <https://progameguides.com>."
 %}  
 
-### Não estamos sozinhos
+### 4.9. Não estamos sozinhos
 
 {% include image.html
     src="https://i0.wp.com/gamehall.com.br/wp-content/uploads/2014/08/275048-l-the-last-of-us-remastered-ps4-boosted-by-best-game-ever-jpeg-116561.jpg?resize=780%2C470&ssl=1"
@@ -741,7 +741,7 @@ Se parece com humano então faz coisas humanas.
 
 - Os opostos se atraem.
 
-#### NPC- Personagens não jogáveis
+#### 4.9.1. NPC- Personagens não jogáveis
 
 {% include image.html
     src="https://www.ginx.tv/uploads2/diablo/D2R/deckard_cain_hots.jpg?ezimgfmt=ng%3Awebp%2Fngcb5%2Frs%3Adevice%2Frscb5-1"
@@ -773,7 +773,7 @@ Se parece com humano então faz coisas humanas.
 
 - Humor.
 
-## CAPÍTULO 5 - Eles todos me querem morto
+## 5. Eles todos me querem morto
 
 ***
 
@@ -781,7 +781,7 @@ Se parece com humano então faz coisas humanas.
 >
 > Gandalf - Senhor dos Anéis.
 
-### Tipos de conflito
+### 5.1. Tipos de conflito
 
 {% include image.html
     src="https://psxbrasil.com.br/wp-content/uploads/2018/11/PREVIEW_SCREENSHOT1_171050-1024x576.jpg"
@@ -797,7 +797,7 @@ Se parece com humano então faz coisas humanas.
 
 - Homem versus criaturas;
 
-### Forma segue a função
+### 5.2. Forma segue a função
 
 {% include image.html
     src="https://www.pcgamesn.com/wp-content/uploads/2021/05/resident-evil-village-bosses-guide-list-lady-dimitrescu-900x506.jpg"
@@ -819,7 +819,7 @@ Se parece com humano então faz coisas humanas.
 
 - Saúde;
 
-#### Tamanho
+#### 5.2.1. Tamanho
 
 - Pequenos não são mais altos que o personagem;
 
@@ -837,7 +837,7 @@ Se parece com humano então faz coisas humanas.
     caption="Figura: The 50 Biggest Villains in World of Warcraft (Ranked Based on Badassery) - <https://www.gamersdecide.com>."
 %}  
 
-#### Comportamento
+#### 5.2.2. Comportamento
 
 - Patrulheiro;
 
@@ -865,7 +865,7 @@ Se parece com humano então faz coisas humanas.
 
 - Dublê;
 
-#### Velocidade
+#### 5.2.3. Velocidade
 
 - Lento;
 - Velocidade média;
@@ -878,7 +878,7 @@ Se parece com humano então faz coisas humanas.
     caption="Figura: Phases of Dealing With Hidden Trauma."
 %}  
 
-### Lutar com inimigos deve ser divertido
+### 5.3. Lutar com inimigos deve ser divertido
 
 Os inimigos dever enfrentados, não evitados.
 
@@ -896,7 +896,7 @@ Os inimigos dever enfrentados, não evitados.
 
 - Você precisa tirar seu poder;
 
-### Ataques
+### 5.4. Ataques
 
 {% include image.html
     src="https://ashespost.com/wp-content/uploads/2018/09/Combat-Analysis-2.jpg"
@@ -914,7 +914,7 @@ Os inimigos dever enfrentados, não evitados.
 
 - Ataques telegrafados.
 
-### Nem tudo é ataque
+### 5.5. Nem tudo é ataque
 
 {% include image.html
     src="https://www.thefandomentals.com/wp-content/uploads/2017/03/enemies.jpg"
@@ -940,7 +940,7 @@ Os inimigos dever enfrentados, não evitados.
 
 - Vulnerabilidades ou resistências.
 
-### Faça o jogador odiar seu inimigo
+### 5.6. Faça o jogador odiar seu inimigo
 
 Inimigos não inimigos.
 
@@ -964,7 +964,7 @@ Inimigos não inimigos.
 
 - Competidor humano - Jogador versus jogador.
 
-### BOSS
+### 5.7. BOSS
 
 {% include imagebase.html
     src="me_conte_uma_historia/nemesis_t-type_wiki-1024x512.webp"
@@ -972,7 +972,7 @@ Inimigos não inimigos.
     caption="Figura: Nemesis T-Type - <https://residentevil.com.br>."
 %}  
 
-#### Quando enfrentar?
+#### 5.7.1. Quando enfrentar?
 
 - Movimentos aprendidos;
 
@@ -986,7 +986,7 @@ Inimigos não inimigos.
     caption="Figura: Darth Vader nos games: uma história visual - <https://br.ign.com>."
 %}  
 
-#### Quem é?
+#### 5.7.2. Quem é?
 
 - O que o torna um adversário digno?
 
@@ -1004,7 +1004,7 @@ Inimigos não inimigos.
     caption="Figura: Dark Souls Game Design Analysis: Why Do We Come Back To Die? - <https://www.gamedeveloper.com/>."
 %}  
 
-### Componentes de uma luta
+### 5.8. Componentes de uma luta
 
 - Ataque primário;
 
@@ -1018,7 +1018,7 @@ Inimigos não inimigos.
     caption="Figura: Mortal Kombat: relembre os fatalities clássicos da série de luta - <https://www.techtudo.com.br>."
 %}  
 
-### Deixe o jogador administrar o golpe final
+### 5.9. Deixe o jogador administrar o golpe final
 
 {% include image.html
     src="https://davescomputertips.com/wp-content/uploads/2019/12/Dragon.jpg.webp"
@@ -1026,9 +1026,9 @@ Inimigos não inimigos.
     caption="Figura: This Is Why I Hate Video Game Boss Fights - This Is Why I Hate Video Game Boss Fights."
 %}
 
-### Locação
+### 5.10. Locação
 
-## Referências
+## 6. Referências
 
 - Level UP : Um guia para o Design de grandes Jogos ,ROGERS, Scott, 1ª Ed, RIO DE JANEIRO: 2013.
 

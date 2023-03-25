@@ -7,7 +7,7 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "Desenvolvimento de Jogos"
+  - title: "DESENVOLVIMENTO DE JOGOS"
     nav: "dev_game"
 date: 2022-11-02 
 ---
