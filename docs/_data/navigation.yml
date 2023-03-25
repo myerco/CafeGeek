@@ -74,11 +74,57 @@ dev_unreal_estruturas:
     url: /unreal-engine-c+-+-e-blueprint/unreal_engine_data_tables.html
   - title: Game Instance, Game State e Game Mode
     url: /unreal-engine-c+-+-e-blueprint/unreal_engine_gameinstance_state_mode.html
-  - title: INTERFACE COM O JOGADOR
+
+dev_unreal_interface:
   - title: Implementando a Interface com o jogador
     url: /unreal-engine-c+-+-e-blueprint/unreal_engine_hud_interface.html
   - title: Lógica de programação dos objetos da interface
     url: /unreal-engine-c+-+-e-blueprint/unreal_engine_hud_logica.html
+
+dev_unreal_movimentacao:
+  - title: Implementando a movimentação do personagem
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_trabalhando_com_logica_movimentacao_de_personagem.html
+  - title: Delta time e sistema de coordenadas
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_deltatime_sistema_coordenadas.html
+  - title: Introdução a animação de personagens
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_animacao_introducao.html
+  - title: Preparando o projeto
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_animacao_preparando_o_projeto.html
+  - title: Utilizando Blend Space
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_animacao_blend_space.html
+  - title: Implementando a Lógica da animação
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_animacao_animation_blueprint.html
+  - title: Implementando a mira
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_animacao_aim_offset.html
+  - title: Trabalhando com Animação 2D
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_animacao2d.html
+
+dev_unreal_inteligencia:
+  - title: Inteligência Artificial
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_inteligencia_artificial.html
+
+dev_unreal_materiais:
+  - title: Introdução aos Materiais
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_material_introducao_aos_materiais.html
+  - title: Construindo Materiais e entendo a lógica
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_material_construindo_materiais_entendendo_a_logica.html
+  - title: Implementando Material Instance com Unreal Engine
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_material_instance.html
+  - title: Manipulando materiais com Blueprint
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_material_blueprint.html
+  - title: Trabalhando com iluminação
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_iluminacao.html
+
+dev_unreal_multiplayer:
+  - title: Multiplayer
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_multiplayer.html
+
+dev_unreal_efeitos:
+  - title: Sequencer
+    url: /unreal-engine-c+-+-e-blueprint
+  - title: Utilizando Niagara
+    url: /unreal-engine-c+-+-e-blueprint
+
 
 
 
