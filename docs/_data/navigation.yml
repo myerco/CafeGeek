@@ -27,19 +27,19 @@ docs:
 
 dev_game:
   - title: Unreal Engine com C++ e Blueprint
-    url: /unreal-engine-c+-+-e-blueprint/index.html
+    url: /unreal-engine-c+-+-e-blueprint/
   - title: Computação Gráfica com Unreal Engine
-    url: /computacao-grafica/index.html
+    url: /computacao-grafica/
   - title: Modelagem usando Autodesk Maya
-    url: /modelagem-usando-autodesk-maya/index.html
+    url: /modelagem-usando-autodesk-maya/
   - title: A jogatina das décadas
-    url: /a_jogatina_das_decadas/index.html
+    url: /a_jogatina_das_decadas/
   - title: Me conta uma história
-    url: /me_conte_uma_historia/index.html
+    url: /me_conte_uma_historia/
   - title: Talentos
     url: /trabalhos/jogos_digitais_talentos.html
   - title: Trabalhos
-    url: /trabalhos/index.html
+    url: /trabalhos/
   - title: Sobre o Curso de Jogos Digitais
     url: /sobre_o_curso_jogos_digitais.html
 
