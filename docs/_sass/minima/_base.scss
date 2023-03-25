@@ -226,11 +226,22 @@ div.wrapper {
 
 /**
  * Clearfix
- */
+ 
 %clearfix:after {
   content: "";
   display: table;
   clear: both;
+}
+*/
+
+@mixin clearfix {
+  clear: both;
+
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
 }
 
 
