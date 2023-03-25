@@ -6,7 +6,10 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
-type: index_unreal
+sidebar:  
+  - title: "Desenvolvendo Jogos digitais"
+    nav: "dev_game"
+    text: "Dev game"
 date: 2022-09-21 
 ---
 
