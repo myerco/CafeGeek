@@ -6,34 +6,37 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "INTRODUÇÃO AO UNREAL ENGINE"
+    nav: "dev_unreal_intro"
 date: 2022-09-30 
 ---
 
 
 ***
 
-- [Controle de Versão](#controle-de-versão)
-- [Ferramentas para controle de versão](#ferramentas-para-controle-de-versão)
-- [Estrutura do GIT](#estrutura-do-git)
-- [Entendo o fluxo de trabalho](#entendo-o-fluxo-de-trabalho)
-- [Começando a trabalhar com o Git e o Unreal Engine](#começando-a-trabalhar-com-o-git-e-o-unreal-engine)
-  - [Criando uma conta e o projeto no Github](#criando-uma-conta-e-o-projeto-no-github)
-  - [Instalando Git Client e GitHub Desktop](#instalando-git-client-e-github-desktop)
-  - [Configurando Unreal Engine para utilizar o Git](#configurando-unreal-engine-para-utilizar-o-git)
-  - [Configurando o Github Desktop e adicionando o projeto](#configurando-o-github-desktop-e-adicionando-o-projeto)
-- [Criando o projeto remoto e atualizando os arquivos](#criando-o-projeto-remoto-e-atualizando-os-arquivos)
-  - [Testando a configuração do Git com o Unreal Engine](#testando-a-configuração-do-git-com-o-unreal-engine)
-- [Utilizando comandos do PowerShell para utilizar o Git Client](#utilizando-comandos-do-powershell-para-utilizar-o-git-client)
-  - [Clonando o projeto](#clonando-o-projeto)
-  - [Criando o projeto](#criando-o-projeto)
-  - [Atualizando o projeto no servidor](#atualizando-o-projeto-no-servidor)
-  - [Atualizando o projeto no cliente (local)](#atualizando-o-projeto-no-cliente-local)
-- [Ignorando pastas e arquivos](#ignorando-pastas-e-arquivos)
-  - [Exemplo de arquivo .gitignore para o Unreal Engine](#exemplo-de-arquivo-gitignore-para-o-unreal-engine)
+- [1. Controle de Versão](#1-controle-de-versão)
+- [2. Ferramentas para controle de versão](#2-ferramentas-para-controle-de-versão)
+- [3. Estrutura do GIT](#3-estrutura-do-git)
+- [4. Entendo o fluxo de trabalho](#4-entendo-o-fluxo-de-trabalho)
+- [5. Começando a trabalhar com o Git e o Unreal Engine](#5-começando-a-trabalhar-com-o-git-e-o-unreal-engine)
+  - [5.1. Criando uma conta e o projeto no Github](#51-criando-uma-conta-e-o-projeto-no-github)
+  - [5.2. Instalando Git Client e GitHub Desktop](#52-instalando-git-client-e-github-desktop)
+  - [5.3. Configurando Unreal Engine para utilizar o Git](#53-configurando-unreal-engine-para-utilizar-o-git)
+  - [5.4. Configurando o Github Desktop e adicionando o projeto](#54-configurando-o-github-desktop-e-adicionando-o-projeto)
+- [6. Criando o projeto remoto e atualizando os arquivos](#6-criando-o-projeto-remoto-e-atualizando-os-arquivos)
+  - [6.1. Testando a configuração do Git com o Unreal Engine](#61-testando-a-configuração-do-git-com-o-unreal-engine)
+- [7. Utilizando comandos do PowerShell para utilizar o Git Client](#7-utilizando-comandos-do-powershell-para-utilizar-o-git-client)
+  - [7.1. Clonando o projeto](#71-clonando-o-projeto)
+  - [7.2. Criando o projeto](#72-criando-o-projeto)
+  - [7.3. Atualizando o projeto no servidor](#73-atualizando-o-projeto-no-servidor)
+  - [7.4. Atualizando o projeto no cliente (local)](#74-atualizando-o-projeto-no-cliente-local)
+- [8. Ignorando pastas e arquivos](#8-ignorando-pastas-e-arquivos)
+  - [8.1. Exemplo de arquivo .gitignore para o Unreal Engine](#81-exemplo-de-arquivo-gitignore-para-o-unreal-engine)
 
 ***
 
-## Controle de Versão
+## 1. Controle de Versão
 
 {% include logo.html
     src="unreal/projeto/unreal_engine_git.webp"
@@ -66,9 +69,9 @@ Perceba que para facilitar a manutenção e desenvolvimento em equipe e pensando
 
 - Necessidade de documentar as alterações no momento que forem compartilhadas.
 
-## Ferramentas para controle de versão
+***S
 
-***
+## 2. Ferramentas para controle de versão
 
 Existem várias ferramentas para controle de versão disponíveis no mercado, como por exemplo :
 
@@ -82,9 +85,9 @@ Existem várias ferramentas para controle de versão disponíveis no mercado, co
 
 O **Unreal Engine** trabalha de forma nativa com **SVN**, **Perforce** e **Git**, esta última até o momento em versão beta.
 
-## Estrutura do GIT
-
 ***
+
+## 3. Estrutura do GIT
 
 No gráfico abaixo é apresentado a estrutura de armazenar e alguns comandos do ambiente do Git.
 
@@ -95,7 +98,7 @@ No gráfico abaixo é apresentado a estrutura de armazenar e alguns comandos do 
     ref="https://dev.to/mollynem/git-github--workflow-fundamentals-5496"
 %}
 
-## Entendo o fluxo de trabalho
+## 4. Entendo o fluxo de trabalho
 
 ***
 
@@ -121,13 +124,13 @@ git commit -m "fix: Lista de correções #14,#252"
 git push origin main
 ```
 
-## Começando a trabalhar com o Git e o Unreal Engine
-
 ***
+
+## 5. Começando a trabalhar com o Git e o Unreal Engine
 
 Neste passo vamos preparar o ambiente e projeto para começar a trabalhar com o gerenciamento de versões, utilizaremos o **GitHub** como repositório de arquivos e gerenciador de versões, para tal executaremos os próximos passos.
 
-### Criando uma conta e o projeto no Github
+### 5.1. Criando uma conta e o projeto no Github
 
 Inscreva-se no [Github](https://github.com/) para possibilitar:
 
@@ -139,7 +142,7 @@ Inscreva-se no [Github](https://github.com/) para possibilitar:
 
 - Wiki - Publicação de um Wiki do projeto.
 
-### Instalando Git Client e GitHub Desktop
+### 5.2. Instalando Git Client e GitHub Desktop
 
 É necessário instalar o **Git Client** no computador local para criar as estruturas de versionamento. Utilizaremos o **PowerShell** com os comandos a seguir para instalar o aplicativo cliente.
 
@@ -167,7 +170,7 @@ git remote -v
 
 1. Após a instalação do **Git Client** vamos baixar e instalar o ambiente visual [GitHub Desktop](https://desktop.github.com/) para simplificar o fluxo de trabalho.
 
-### Configurando Unreal Engine para utilizar o Git
+### 5.3. Configurando Unreal Engine para utilizar o Git
 
 Para exemplificar a conexão do **Unreal Engine** com o Github vamos criar um novo projeto com os seguintes parâmetros:
 
@@ -211,7 +214,7 @@ Com o `Content Drawer` cria as seguintes pastas:
 
 Salve o level atual em `Projeto\Maps` com o nome `LevelTest`.
 
-### Configurando o Github Desktop e adicionando o projeto
+### 5.4. Configurando o Github Desktop e adicionando o projeto
 
 Abra o GitHub Desktop e configure a sua conta do **Github** para ter acesso aos seus repositórios utilizando o menu principal `File` > `Options`;
 
@@ -225,9 +228,9 @@ Adicione o projeto TestGitHub com `Add an Existing Repository from your hard dri
 
 Utilizando o Explorer navegue até a pasta do projeto e edite o arquivo .gitignore e adicione o texto ExampleContent, isso impedira a pasta ser enviada para o repositório remoto, verifique `Ignorando pastas e arquivos` para mais informações;
 
-## Criando o projeto remoto e atualizando os arquivos
-
 ***
+
+## 6. Criando o projeto remoto e atualizando os arquivos
 
 Uma vez configurados os projetos nos sistemas **Unreal** e **GitHub Desktop**, podemos confirmar as alterações dos arquivos utilizando o comando `Commit to Master`.
 
@@ -247,7 +250,7 @@ Após confirmação das alterações devemos publicá-las no repositório remoto
 
 O comando acima irá criar um projeto na sua conta no Github.com e adicionar todos os arquivos criados até o momento.
 
-### Testando a configuração do Git com o Unreal Engine
+### 6.1. Testando a configuração do Git com o Unreal Engine
 
 Para testar as configurações realizadas vamos adicionar o pacote `Starter Content` e um objeto **Blueprint**.
 
@@ -281,9 +284,9 @@ Após a confirmação vamos enviar as alterações para o servidor com o comando
     caption="A janela da direita informa que é necessário realizar o envio de dados para o servidor remoto com o comando Push."
 %}
 
-## Utilizando comandos do PowerShell para utilizar o Git Client
-
 ***
+
+## 7. Utilizando comandos do PowerShell para utilizar o Git Client
 
 É interessante aprender comandos do **PowerShell** para utilizar o **Git Client** pois existem diversas situações que não estão nas ferramentas visuais, como por exemplo:
 
@@ -293,7 +296,7 @@ Após a confirmação vamos enviar as alterações para o servidor com o comando
 
 Então vamos apresentar os principais comandos.
 
-### Clonando o projeto
+### 7.1. Clonando o projeto
 
 Clonar o projeto significa baixar o projeto do servidor para a máquina cliente (local).
 
@@ -304,7 +307,7 @@ cd ProjetoMP
 git status
 ```
 
-### Criando o projeto
+### 7.2. Criando o projeto
 
 Podemos criar um novo projeto no cliente e em seguida atualizar o servidor.
 
@@ -316,7 +319,7 @@ git remote add origin https://github.com/myerco/ProjetoAula.git
 git remote -v
 ```
 
-### Atualizando o projeto no servidor
+### 7.3. Atualizando o projeto no servidor
 
 Mudanças podem ser replicadas do cliente para o servidor.
 
@@ -326,7 +329,7 @@ git commit -m "feat: Atualizando o projeto.. Alteração de movimentação de pe
 git push origin master
 ```
 
-### Atualizando o projeto no cliente (local)
+### 7.4. Atualizando o projeto no cliente (local)
 
 O comando `pull` baixa os arquivos do servidor.
 
@@ -335,9 +338,9 @@ git status
 git pull origin master
 ```
 
-## Ignorando pastas e arquivos
-
 ***
+
+## 8. Ignorando pastas e arquivos
 
 É importante ignorar pastas e arquivos do cliente para que não possam ser publicadas no servidor utilizando o arquivo `.gitignore` na pasta raiz do projeto, considerando os seguintes aspectos.
 
@@ -351,7 +354,7 @@ git pull origin master
 
 - [SVN](https://tortoisesvn.net/)
 
-### Exemplo de arquivo .gitignore para o Unreal Engine
+### 8.1. Exemplo de arquivo .gitignore para o Unreal Engine
 
 ```shell
 # Projetos exemplo

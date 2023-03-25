@@ -6,6 +6,9 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "INTRODUÇÃO AO UNREAL ENGINE"
+    nav: "dev_unreal_intro"
 date: 2022-09-21 
 ---
 

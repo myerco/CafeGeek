@@ -7,9 +7,8 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "Desenvolvendo Jogos digitais"
-    nav: "dev_game"
-    text: "Dev game"
+  - title: "INTRODUÇÃO AO UNREAL ENGINE"
+    nav: "dev_unreal_intro"
 date: 2022-09-21 
 ---
 

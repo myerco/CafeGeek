@@ -42,3 +42,30 @@ dev_game:
     url: /trabalhos/index.html
   - title: Sobre o Curso de Jogos Digitais
     url: /sobre_o_curso_jogos_digitais.html
+
+dev_unreal_intro:
+  - title: Desenvolvendo jogos digitais
+    url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html
+  - title: Trabalhando como Unreal Engine e Visual Studio
+    url: /unreal-engine-c+-+-e-blueprint/trabalhando_com_o_unreal_engine_e_visual_studio.html
+  - title: Controle de versão com GitHub e Unreal Engine
+    url: /unreal-engine-c+-+-e-blueprint/controle_de_versão_com_github_e_unreal_engine.html
+  - title: Interface e Editores
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_interface_e_editores.html
+
+dev_unreal_programacao: 
+  - title: O Unreal Engine e sua lógica de programação
+    url: /unreal-engine-c+-+-e-blueprint/o_unreal_engine_e_sua_logica_de_programacao.html
+  - title: Estruturas de programação no Unreal Engine
+    url: /unreal-engine-c+-+-e-blueprint/estruturas_de_programacao_no_unreal_engine.html
+  - title: Implementando Atores
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_actor_atores.html
+  - title: Programação C++ no Unreal Engine
+    url: /unreal-engine-c+-+-e-blueprint/programacao_c++_no_unreal_engine.html
+  - title: Utilizando Eventos, funções e macros
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_utilizando_eventos_funcoes_macros.html
+  - title: Comunicação entre Blueprints
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_comunicacao_entre_blueprint.html
+
+
+

@@ -2,22 +2,30 @@
 title: Interface e Editores
 description: Interface e Editores
 tags: [Unreal Engine, interface, editor]
+categories: Unreal Engine
+author: 
+- Cafegeek
+layout: post
+sidebar:  
+  - title: "INTRODUÇÃO AO UNREAL ENGINE"
+    nav: "dev_unreal_intro"
+date: 2023-03-25     
 ---
 
 ***
 
-- [Editor de Level](#editor-de-level)
-- [Editor de Viewports](#editor-de-viewports)
-  - [Transformação de ciclo (espaço) e transformações (W/E/R)](#transformação-de-ciclo-espaço-e-transformações-wer)
-  - [Transformação referência Mundial/Local](#transformação-referência-mundiallocal)
-  - [Actor Snapping](#actor-snapping)
-  - [Velocidade da Câmera](#velocidade-da-câmera)
-  - [Customização do Layout](#customização-do-layout)
-- [Play e Simulate](#play-e-simulate)
+- [1. Editor de Level](#1-editor-de-level)
+- [2. Editor de Viewports](#2-editor-de-viewports)
+  - [2.1. Transformação de ciclo (espaço) e transformações (W/E/R)](#21-transformação-de-ciclo-espaço-e-transformações-wer)
+  - [2.2. Transformação referência Mundial/Local](#22-transformação-referência-mundiallocal)
+  - [2.3. Actor Snapping](#23-actor-snapping)
+  - [2.4. Velocidade da Câmera](#24-velocidade-da-câmera)
+  - [2.5. Customização do Layout](#25-customização-do-layout)
+- [3. Play e Simulate](#3-play-e-simulate)
 
 ***
 
-## Editor de Level
+## 1. Editor de Level
 
 ***
 
@@ -44,7 +52,7 @@ Uma visão geral da interface usada para o design e construção de níveis e am
 
 7. Details;
 
-## Editor de Viewports
+## 2. Editor de Viewports
 
 ***
 
@@ -57,7 +65,7 @@ Conceitos e recursos básicos das Viewports no Unreal Editor.
     ref="https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/Basics/"
 %}
 
-### Transformação de ciclo (espaço) e transformações (W/E/R)
+### 2.1. Transformação de ciclo (espaço) e transformações (W/E/R)
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/ViewportToolbar_TransformTools.webp"
@@ -72,7 +80,7 @@ Conceitos e recursos básicos das Viewports no Unreal Editor.
 
 - E - Girar objeto é essencial.
 
-### Transformação referência Mundial/Local
+### 2.2. Transformação referência Mundial/Local
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/ViewportToolbar_Coordinate.webp"
@@ -83,7 +91,7 @@ Conceitos e recursos básicos das Viewports no Unreal Editor.
 
 A referência de movimentação do objeto, por exemplo quando a referência é do objeto a movimentação é para a esquerda ou direita do objeto, quando a referência é o mundo o objeto é movimentado para a esquerda ou direita do mundo.
 
-### Actor Snapping
+### 2.3. Actor Snapping
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/Basics/Actors/ActorSnapping/LevelViewportToolbar-SurfaceSnapping.webp"
@@ -100,7 +108,7 @@ A referência de movimentação do objeto, por exemplo quando a referência é d
 
 - `Scale Grid` - A Grade de Escala força o gizmo de Escala a ajustar-se a incrementos aditivos;
 
-### Velocidade da Câmera
+### 2.4. Velocidade da Câmera
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/SettingCameraSpeed.webp"
@@ -126,7 +134,7 @@ Explicações para os modos de visualização disponíveis nas viewports.
     ref="https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewModes"
 %}
 
-### Customização do Layout
+### 2.5. Customização do Layout
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/Basics/UI/InterfaceOverview/DockingEditorTabs2.webp"
@@ -135,7 +143,7 @@ Explicações para os modos de visualização disponíveis nas viewports.
     ref="https://docs.unrealengine.com/en-US/Engine/UI/InterfaceOverview/index.html"
 %}
 
-## Play e Simulate
+## 3. Play e Simulate
 
 ***
 
