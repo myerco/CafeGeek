@@ -337,14 +337,16 @@ Sidebar
 
 @media (min-width: 64em) {
   .sidebar.sticky {
-    overflow-y: auto;
+    //overflow-y: auto;
     max-height: calc(200vh - 2em - 2em);
+    overflow: auto;
   }
 }
 
 @media (min-width: 80em) {
   .sidebar {
     width: calc(300px - 1em);
+    overflow: auto;    
   }
 }
 
@@ -355,6 +357,7 @@ Sidebar
     opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
+    overflow: auto;
   }
 }   
 
@@ -368,6 +371,7 @@ Sidebar
     position: -webkit-sticky;
     position: sticky;
     top: 2em;
+    overflow: auto;
   }
 }  
 

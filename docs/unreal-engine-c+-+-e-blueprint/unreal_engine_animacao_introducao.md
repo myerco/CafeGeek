@@ -6,33 +6,32 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
-date: 2022-09-25 
+type: index_unreal
+date: 2023-03-25 
 ---
 
 ***
 
-- [Fluxo de trabalho para animação utilizando Unreal Engine](#fluxo-de-trabalho-para-animação-utilizando-unreal-engine)
-- [Arquivo FBX](#arquivo-fbx)
-- [Skeleton](#skeleton)
-  - [Animation Editors](#animation-editors)
-- [Skeletal Mesh](#skeletal-mesh)
-  - [Skeletal Mesh Editor](#skeletal-mesh-editor)
-- [Anim Graph](#anim-graph)
-  - [Animation Blueprint Editor](#animation-blueprint-editor)
-- [Sequence](#sequence)
-  - [Animation Sequence Editor](#animation-sequence-editor)
+- [1. Fluxo de trabalho para animação utilizando Unreal Engine](#1-fluxo-de-trabalho-para-animação-utilizando-unreal-engine)
+- [2. Arquivo FBX](#2-arquivo-fbx)
+- [3. Skeleton](#3-skeleton)
+  - [3.1. Animation Editors](#31-animation-editors)
+- [4. Skeletal Mesh](#4-skeletal-mesh)
+  - [4.1. Skeletal Mesh Editor](#41-skeletal-mesh-editor)
+- [5. Anim Graph](#5-anim-graph)
+  - [5.1. Animation Blueprint Editor](#51-animation-blueprint-editor)
+- [6. Sequence](#6-sequence)
+  - [6.1. Animation Sequence Editor](#61-animation-sequence-editor)
 
 ***
+
+## 1. Fluxo de trabalho para animação utilizando Unreal Engine
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_animation.webp"
     alt="Figura: Unreal Engine e Animação de personagens."
     caption=""
 %}
-
-## Fluxo de trabalho para animação utilizando Unreal Engine
-
-***
 
 A animação de personagens consiste em associar um esqueleto com pontos de controle a uma malha 3D, o objeto então pode ser adicionado a uma sequencia de animações.
 
@@ -64,7 +63,9 @@ Abaixo uma visão geral técnica do uso do processo de construção de animaçõ
 | 1. Arquivo FBX | 2. Skeletal Mesh | 4. Sequence   | 7. Character |
 |                | 3. Skeletal      | 5. Anim Graph |              |
 
-## Arquivo FBX
+***
+
+## 2. Arquivo FBX
 
 Embora o formato FBX seja proprietário, muitos aplicativos de modelagem e animação que não são da Autodesk podem abrir arquivos FBX. Isso permite que os criadores compartilhem modelos 3D entre si usando o formato FBX, que é eficiente porque armazena modelos como dados binários. Os arquivos .OBJ, .DXF, .3DS e .DAE (COLLADA) podem ser convertidos em arquivos FBX, usando o Autodesk FBX Converter (disponível para Windows e Mac, mas sem suporte a partir de 2013) ou Autodesk Viewer (Web).[(fileinfo)](https://fileinfo.com/extension/fbx "Fileinfo")
 
@@ -74,7 +75,9 @@ Embora o formato FBX seja proprietário, muitos aplicativos de modelagem e anima
     caption="Exportando um modelo 3D do Autodesk Maya para o Unreal."
 %}
 
-## Skeleton
+***
+
+## 3. Skeleton
 
 Skeleton ou Esqueleto da malha importada no arquivo FBX contendo controle de movimentação e `Sockets` para colar outros objetos e ossos virtuais.
 
@@ -92,7 +95,7 @@ Skeleton ou Esqueleto da malha importada no arquivo FBX contendo controle de mov
     caption="Ao abrir um objeto do tipo esqueleto é fornecido um editor específico para a manipulação esse tipo de objeto."
 %}
 
-### Animation Editors
+### 3.1. Animation Editors
 
 {% include image.html
     src="https://docs.unrealengine.com/5.1/Images/animating-characters-and-objects/SkeletalMeshAnimation/Persona/AnimationEditorOverview.png"
@@ -101,7 +104,9 @@ Skeleton ou Esqueleto da malha importada no arquivo FBX contendo controle de mov
     ref="https://docs.unrealengine.com/5.1/en-US/animation-editors-in-unreal-engine/"
 %}
 
-## Skeletal Mesh
+***
+
+## 4. Skeletal Mesh
 
 Skeletal Mesh ou Malha do esqueleto cobre os ossos para gerenciamento de `LOD` e `clothing` (roupas).
 
@@ -111,7 +116,7 @@ Skeletal Mesh ou Malha do esqueleto cobre os ossos para gerenciamento de `LOD` e
     caption="Com este editor podemos manipular a malha do esqueleto."
 %}
 
-### Skeletal Mesh Editor
+### 4.1. Skeletal Mesh Editor
 
 {% include image.html
     src="https://docs.unrealengine.com/5.1/Images/animating-characters-and-objects/SkeletalMeshAnimation/Persona/MeshDetails/SkeletalMeshEditorOverview.png"
@@ -120,7 +125,9 @@ Skeletal Mesh ou Malha do esqueleto cobre os ossos para gerenciamento de `LOD` e
     ref="https://docs.unrealengine.com/5.1/en-US/skeletal-mesh-editor-in-unreal-engine/"
 %}
 
-## Anim Graph
+***
+
+## 5. Anim Graph
 
 Editor para implementação das animações utilizando codificação visual.
 
@@ -142,7 +149,7 @@ Editor para implementação das animações utilizando codificação visual.
     caption="Adicionamos toda a lógica de animação dos objetos utilizando um apresentação um fluxo de estados ou poses."
 %}
 
-### Animation Blueprint Editor
+### 5.1. Animation Blueprint Editor
 
 {% include image.html
     src="https://docs.unrealengine.com/5.1/Images/animating-characters-and-objects/SkeletalMeshAnimation/AnimBlueprints/animation-blueprint-editor/EditorOverview.png"
@@ -151,7 +158,9 @@ Editor para implementação das animações utilizando codificação visual.
     ref="https://docs.unrealengine.com/5.1/en-US/skeletal-mesh-editor-in-unreal-engine/"
 %}
 
-## Sequence
+***
+
+## 6. Sequence
 
 Editor que permite a edição de animações.
 
@@ -171,7 +180,7 @@ Editor que permite a edição de animações.
     caption="Podemos sequenciar animações associadas a variáveis possibilitando um fluxo de animações."
 %}
 
-### Animation Sequence Editor
+### 6.1. Animation Sequence Editor
 
 {% include image.html
     src="https://docs.unrealengine.com/5.1/Images/animating-characters-and-objects/SkeletalMeshAnimation/Persona/AssetEditor/AnimationSequenceEditorOverview.png"
