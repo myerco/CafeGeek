@@ -1,5 +1,6 @@
 docs:
   - title: Getting Started
+    url: /index.html
     children:
       - title: "Quick-Start Guide"
         url: /docs/quick-start-guide/
@@ -9,7 +10,9 @@ docs:
         url: /docs/installation/
       - title: "Upgrading"
         url: /docs/upgrading/
- - title: Customization
+
+  - title: Customization
+    url: /index.html
     children:
       - title: "Configuration"
         url: /docs/configuration/
