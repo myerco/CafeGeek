@@ -6,6 +6,9 @@ categories: Banco de Dados
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "Banco de Dados"
+    nav: "banco_dados"
 date: 2022-11-18 
 ---
 

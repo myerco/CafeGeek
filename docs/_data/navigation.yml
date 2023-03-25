@@ -125,6 +125,13 @@ dev_unreal_efeitos:
   - title: Utilizando Niagara
     url: /unreal-engine-c+-+-e-blueprint
 
+dev_cpp:
+  - title: Programação C++
+    url: /cpp/index.html
+
+banco_dados:
+  - title: A taberna do Pônei Saltitante
+    url: /a_taberna_ponei_saltitante/index.html
 
 
 

@@ -2,7 +2,10 @@
 title: Computação Gráfica com Unreal Engine
 description: Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya.
 tags: [Unreal Engine,Rendering,Maya,computação gráfica]
-layout: page
+layout: post
+sidebar:  
+  - title: "Desenvolvimento de Jogos"
+    nav: "dev_game"
 ---
 
 ***

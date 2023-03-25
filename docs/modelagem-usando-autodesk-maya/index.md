@@ -7,6 +7,9 @@ categories: Autodesk Maya
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "Desenvolvimento de Jogos"
+    nav: "dev_game"
 date: 2022-09-26 
 ---
 

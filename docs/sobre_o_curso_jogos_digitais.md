@@ -3,6 +3,9 @@ title: Sobre o Curso de Jogos Digitais
 description: Sobre o Curso de Jogos Digitais
 tags: [narrativa, Roteirização, jogos digitais]
 layout: post
+sidebar:  
+  - title: "Desenvolvimento de Jogos"
+    nav: "dev_game"
 ---
 
 ## O que é o curso de jogos digitais?
