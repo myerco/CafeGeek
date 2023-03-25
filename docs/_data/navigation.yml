@@ -1,29 +1,32 @@
-docs:
-  - title: D
-    url: /index.html
+dev_unreal:
+  - title: Introdução ao Unreal Engine
+    url: /unreal-engine-c+-+-e-blueprint/
     children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
-
-  - title: Customization
-    url: /index.html
+      - title: Desenvolvendo jogos digitais
+        url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html
+      - title: Trabalhando com Unreal Engine e Visual Studio
+        url: /unreal-engine-c+-+-e-blueprint/trabalhando_com_o_unreal_engine_e_visual_studio.html
+      - title: Controle de versão com GitHub e Unreal Engine
+        url: /unreal-engine-c+-+-e-blueprint/controle_de_versão_com_github_e_unreal_engine.html
+      - title: Interface e Editores
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_interface_e_editores.html
+      - title: Customization
+      url: /index.html
+  - title: Programação com Unreal Engine
+    url: /unreal-engine-c+-+-e-blueprint/      
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
+      - title: O Unreal Engine e sua lógica de programação
+        url: /unreal-engine-c+-+-e-blueprint/o_unreal_engine_e_sua_logica_de_programacao.html
+      - title: Estruturas de programação no Unreal Engine
+        url: /unreal-engine-c+-+-e-blueprint/estruturas_de_programacao_no_unreal_engine.html
+      - title: Implementando Atores
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_actor_atores.html
+      - title: Programação C++ no Unreal Engine
+        url: /unreal-engine-c+-+-e-blueprint/programacao_c++_no_unreal_engine.html
+      - title: Utilizando Eventos, funções e macros
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_utilizando_eventos_funcoes_macros.html
+      - title: Comunicação entre Blueprints
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_comunicacao_entre_blueprint.html
 
 dev_game:
   - title: Unreal Engine com C++ e Blueprint

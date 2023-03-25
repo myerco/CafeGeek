@@ -5,8 +5,8 @@ keywords: [Desenvolvimento com Unreal Engine, Jogos com Unreal Engine]
 tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digital]
 layout: post
 sidebar:  
-  - title: "DESENVOLVIMENTO DE JOGOS"
-    nav: "dev_game"
+  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
+    nav: "dev_unreal"
 ---
 
 {% include logo.html

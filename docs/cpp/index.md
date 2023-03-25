@@ -5,7 +5,7 @@ tags: [programação, cpp, c++, lógica]
 layout: post
 sidebar:  
   - title: "PROGRAMAÇÃO EM C++"
-    nav: "dev_CPP"
+    nav: "dev_cpp"
 date: 2023-03-25     
 ---
 
