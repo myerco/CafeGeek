@@ -1,5 +1,5 @@
 docs:
-  - title: Getting Started
+  - title: D
     url: /index.html
     children:
       - title: "Quick-Start Guide"
@@ -26,28 +26,19 @@ docs:
         url: /docs/layouts/
 
 dev_game:
-  - title: Desenvolvimento de Jogos
-    url: /index.html
-    children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
-
-  - title: C++
-    url: /index.html
-    children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
+  - title: Unreal Engine com C++ e Blueprint
+    url: /unreal-engine-c+-+-e-blueprint/index.html
+  - title: Computação Gráfica com Unreal Engine
+    url: /computacao-grafica/index.html
+  - title: Modelagem usando Autodesk Maya
+    url: /modelagem-usando-autodesk-maya/index.html
+  - title: A jogatina das décadas
+    url: /a_jogatina_das_decadas/index.html
+  - title: Me conta uma história
+    url: /me_conte_uma_historia/index.html
+  - title: Talentos
+    url: /trabalhos/jogos_digitais_talentos.html
+  - title: Trabalhos
+    url: /trabalhos/index.html
+  - title: Sobre o Curso de Jogos Digitais
+    url: /sobre_o_curso_jogos_digitais.html

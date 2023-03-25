@@ -5,9 +5,8 @@ keywords: [Desenvolvimento com Unreal Engine, Jogos com Unreal Engine]
 tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digital]
 layout: post
 sidebar:  
-  - title: "Home"
-    nav: "docs"
-    text: "Cafegeek"
+  - title: "DESENVOLVIMENTO DE JOGOS"
+    nav: "dev_game"
 ---
 
 {% include logo.html
