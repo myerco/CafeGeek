@@ -67,5 +67,19 @@ dev_unreal_programacao:
   - title: Comunicação entre Blueprints
     url: /unreal-engine-c+-+-e-blueprint/unreal_engine_comunicacao_entre_blueprint.html
 
+dev_unreal_estruturas: 
+  - title: Variáveis estruturadas ou Structure
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_structure_variaveis_estruturadas.html
+  - title: Tabelas de dados ou Data tables
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_data_tables.html
+  - title: Game Instance, Game State e Game Mode
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_gameinstance_state_mode.html
+  - title: INTERFACE COM O JOGADOR
+  - title: Implementando a Interface com o jogador
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_hud_interface.html
+  - title: Lógica de programação dos objetos da interface
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_hud_logica.html
+
+
 
 

@@ -6,39 +6,42 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "PROGRAMAÇÃO COM UNREAL ENGINE"
+    nav: "dev_unreal_programacao"
 date: 2022-09-21 
 ---
 
 ***
 
-- [Entendo Métodos e funções em programação](#entendo-métodos-e-funções-em-programação)
-  - [Programação Orientada a Objetos](#programação-orientada-a-objetos)
-  - [Métodos](#métodos)
-  - [Funções](#funções)
-- [O que são Eventos em Blueprint](#o-que-são-eventos-em-blueprint)
-  - [Evento de dano  no personagem](#evento-de-dano--no-personagem)
-  - [Evento e Métodos](#evento-e-métodos)
-  - [Exemplo C++](#exemplo-c)
-- [Funções no Unreal Engine](#funções-no-unreal-engine)
-  - [Exemplo de uma função em C++](#exemplo-de-uma-função-em-c)
-  - [Exemplo de uma função Blueprint](#exemplo-de-uma-função-blueprint)
-  - [Funções Puras](#funções-puras)
-- [Macros](#macros)
-  - [Exemplo de uma macro em C++](#exemplo-de-uma-macro-em-c)
-  - [Exemplo de uma macro em Blueprint](#exemplo-de-uma-macro-em-blueprint)
-- [Collapse Nodes](#collapse-nodes)
-- [Executando a função e a macro](#executando-a-função-e-a-macro)
-- [Eventos predefinidos para causar e receber Dano](#eventos-predefinidos-para-causar-e-receber-dano)
+- [1. Entendo Métodos e funções em programação](#1-entendo-métodos-e-funções-em-programação)
+  - [1.1. Programação Orientada a Objetos](#11-programação-orientada-a-objetos)
+  - [1.2. Métodos](#12-métodos)
+  - [1.3. Funções](#13-funções)
+- [2. O que são Eventos em Blueprint](#2-o-que-são-eventos-em-blueprint)
+  - [2.1. Evento de dano  no personagem](#21-evento-de-dano--no-personagem)
+  - [2.2. Evento e Métodos](#22-evento-e-métodos)
+  - [2.3. Exemplo C++](#23-exemplo-c)
+- [3. Funções no Unreal Engine](#3-funções-no-unreal-engine)
+  - [3.1. Exemplo de uma função em C++](#31-exemplo-de-uma-função-em-c)
+  - [3.2. Exemplo de uma função Blueprint](#32-exemplo-de-uma-função-blueprint)
+  - [3.3. Funções Puras](#33-funções-puras)
+- [4. Macros](#4-macros)
+  - [4.1. Exemplo de uma macro em C++](#41-exemplo-de-uma-macro-em-c)
+  - [4.2. Exemplo de uma macro em Blueprint](#42-exemplo-de-uma-macro-em-blueprint)
+- [5. Collapse Nodes](#5-collapse-nodes)
+- [6. Executando a função e a macro](#6-executando-a-função-e-a-macro)
+- [7. Eventos predefinidos para causar e receber Dano](#7-eventos-predefinidos-para-causar-e-receber-dano)
 
 ***
 
-## Entendo Métodos e funções em programação
+## 1. Entendo Métodos e funções em programação
 
 ***
 
 Para entender melhor a estrutura de programação que representa a construção de eventos e funções vamos abordar alguns conceitos de programação orientada a objetos.
 
-### Programação Orientada a Objetos
+### 1.1. Programação Orientada a Objetos
 
 {% include image.html
     src="https://4.bp.blogspot.com/-Bx-UYCheS3Y/UwSDeRIkSZI/AAAAAAAACgY/_-J6s4GzjEc/s1600/image.jpg"
@@ -48,7 +51,7 @@ Para entender melhor a estrutura de programação que representa a construção 
 
 Um método é um procedimento ou função em Conceitos de **Programação Orientada a Objetos**. Considerando que uma função é um grupo de código reutilizável que pode ser usado em qualquer parte do programa. Isso ajuda na necessidade de escrever o mesmo código repetidamente. Também ajuda os programadores a escrever códigos modulares.
 
-### Métodos
+### 1.2. Métodos
 
 {% include image.html
     src="https://arquivo.devmedia.com.br/artigos/henrique_gasparotto/4_pilares_oo/image001.png"
@@ -78,7 +81,7 @@ Cada objeto tem seu próprio método que está presente na classe.
 |+      |Jump()             |
 |+      |Crouch()           |
 
-### Funções
+### 1.3. Funções
 
 Uma função é um bloco de instruções que recebe uma entrada específica, faz alguns cálculos e, finalmente, produz a saída;  
 
@@ -107,7 +110,7 @@ int main() {
 }
 ```
 
-## O que são Eventos em Blueprint
+## 2. O que são Eventos em Blueprint
 
 ***
 
@@ -115,7 +118,7 @@ Os eventos são nós chamados a partir do código do jogo para iniciar a execuç
 
 Os eventos podem ser acessados dentro do **Blueprints** para implementar novas funcionalidades ou para substituir ou aumentar a funcionalidade padrão. Qualquer número de eventos pode ser usado em um único `EventGraph`; embora apenas um de cada tipo possa ser usado.
 
-### Evento de dano  no personagem
+### 2.1. Evento de dano  no personagem
 
 {% include imagelocal.html
     src="unreal/modulos/blueprint_event_damaged.webp"
@@ -133,11 +136,11 @@ Os eventos podem ser acessados dentro do **Blueprints** para implementar novas f
     caption="Utilizando o evento OnComponentBeginOverlap para acionar o evento CausaDano."
 %}
 
-### Evento e Métodos
+### 2.2. Evento e Métodos
 
 Os métodos são procedimentos ou funções que realizam as ações próprias do objeto. Assim, os métodos são as ações que o objeto pode realizar. Tudo o que o objeto faz é através de seus métodos, pois é através dos seus métodos que um objeto se manifesta, através deles que o objeto interage com os outros objetos.
 
-### Exemplo C++
+### 2.3. Exemplo C++
 
 ```cpp
 class Actor {
@@ -170,7 +173,7 @@ void AProjeto::Tick(float DeltaTime)
 };
 ```
 
-## Funções no Unreal Engine
+## 3. Funções no Unreal Engine
 
 ***
 
@@ -185,7 +188,7 @@ Podem receber parâmetros externos e retornam algum valor para o programa que ex
 
 - Não aceitam eventos customizados.
 
-### Exemplo de uma função em C++
+### 3.1. Exemplo de uma função em C++
 
 ```cpp
 // Função com parâmetros
@@ -197,7 +200,7 @@ void CalculoIMC(float pPeso, float pAltura) {
 };
 ```
 
-### Exemplo de uma função Blueprint
+### 3.2. Exemplo de uma função Blueprint
 
 {% include imagelocal.html
     src="unreal/modulos/blueprint_function_calc_imc.webp"
@@ -205,7 +208,7 @@ void CalculoIMC(float pPeso, float pAltura) {
     caption="A função recebe dois parâmetros e retorna um valor."
 %}
 
-### Funções Puras
+### 3.3. Funções Puras
 
 Na programação de computadores, uma função pura é uma função que possui as seguintes propriedades[[1](https://en.wikipedia.org/wiki/Pure_function)]:
 
@@ -253,7 +256,7 @@ nStatic is 6
 
 "Funções puras têm uma desvantagem crucial. Eles não podem se comunicar com o mundo exterior. Porque funções para entrada e saída, funções para construir um estado ou funções para criar números aleatórios não podem ser puras..."
 
-## Macros
+## 4. Macros
 
 ***
 
@@ -265,7 +268,7 @@ Blueprint Macros, ou Macros, são essencialmente iguais a gráficos de nós reco
 
 - Não podem ser replicados em jogos multiplayer.
 
-### Exemplo de uma macro em C++
+### 4.1. Exemplo de uma macro em C++
 
 ```cpp
 #define MIN(a,b) (((a)<(b)) ? a : b)
@@ -273,7 +276,7 @@ Blueprint Macros, ou Macros, são essencialmente iguais a gráficos de nós reco
 std::cout << "The minimum is " << MIN(42, 8) << endl;
 ```
 
-### Exemplo de uma macro em Blueprint
+### 4.2. Exemplo de uma macro em Blueprint
 
 {% include imagelocal.html
     src="unreal/modulos/blueprint_macro_example.webp"
@@ -281,7 +284,7 @@ std::cout << "The minimum is " << MIN(42, 8) << endl;
     caption="Acima a lógica de uma macro."
 %}
 
-## Collapse Nodes
+## 5. Collapse Nodes
 
 ***
 
@@ -299,7 +302,7 @@ Usado principalmente para organização de código, escondendo nós da estrutura
 
 - Vai ser criado um gráfico de eventos próprio.
 
-## Executando a função e a macro
+## 6. Executando a função e a macro
 
 ***
 
@@ -309,7 +312,7 @@ Usado principalmente para organização de código, escondendo nós da estrutura
     caption="No exemplo acima usamos a função e uma macro."
 %}
 
-## Eventos predefinidos para causar e receber Dano
+## 7. Eventos predefinidos para causar e receber Dano
 
 {% include imagelocal.html
     src="unreal/dano/unreal_engine_applydamage.webp"

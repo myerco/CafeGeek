@@ -6,6 +6,9 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "PROGRAMAÇÃO COM UNREAL ENGINE"
+    nav: "dev_unreal_programacao"
 date: 2022-09-21 
 ---
 
