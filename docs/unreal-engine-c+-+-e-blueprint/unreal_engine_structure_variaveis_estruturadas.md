@@ -6,29 +6,32 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "ESTRUTURAS DE DADOS"
+    nav: "dev_unreal_estruturas"
 date: 2022-09-25 
 ---
 
 ***
 
-- [O que são variáveis do tipo Structure?](#o-que-são-variáveis-do-tipo-structure)
-- [Structure e Class](#structure-e-class)
-  - [C++ Struct](#c-struct)
-  - [C++ Class](#c-class)
-    - [C++ Struct Unreal](#c-struct-unreal)
-    - [C++ Class Unreal](#c-class-unreal)
-- [Criando variáveis do tipo Structure com Blueprint](#criando-variáveis-do-tipo-structure-com-blueprint)
-  - [Definindo variáveis dentro da estrutura](#definindo-variáveis-dentro-da-estrutura)
-  - [Acessando as variáveis](#acessando-as-variáveis)
-  - [Exemplo do uso de variáveis Structure](#exemplo-do-uso-de-variáveis-structure)
-    - [Criando o objeto SControleLuzes](#criando-o-objeto-scontroleluzes)
-    - [Lógica para construir os elementos na cena](#lógica-para-construir-os-elementos-na-cena)
+- [1. O que são variáveis do tipo Structure?](#1-o-que-são-variáveis-do-tipo-structure)
+- [2. Structure e Class](#2-structure-e-class)
+  - [2.1. C++ Struct](#21-c-struct)
+  - [2.2. C++ Class](#22-c-class)
+    - [2.2.1. C++ Struct Unreal](#221-c-struct-unreal)
+    - [2.2.2. C++ Class Unreal](#222-c-class-unreal)
+- [3. Criando variáveis do tipo Structure com Blueprint](#3-criando-variáveis-do-tipo-structure-com-blueprint)
+  - [3.1. Definindo variáveis dentro da estrutura](#31-definindo-variáveis-dentro-da-estrutura)
+  - [3.2. Acessando as variáveis](#32-acessando-as-variáveis)
+  - [3.3. Exemplo do uso de variáveis Structure](#33-exemplo-do-uso-de-variáveis-structure)
+    - [3.3.1. Criando o objeto SControleLuzes](#331-criando-o-objeto-scontroleluzes)
+    - [3.3.2. Lógica para construir os elementos na cena](#332-lógica-para-construir-os-elementos-na-cena)
 
 ***
 
 **Structure**, é um tipo de dados definido pelo usuário disponível no **Unreal Engine** em **C++** e **Blueprint**, neste capitulo vamos explorar estes objetos.
 
-## O que são variáveis do tipo Structure?
+## 1. O que são variáveis do tipo Structure?
 
 ***
 
@@ -36,7 +39,7 @@ date: 2022-09-25
 
 Podem ser utilizadas para definir propriedades de um elemento do jogo como por exemplo os personagens.
 
-## Structure e Class
+## 2. Structure e Class
 
 ***
 
@@ -44,7 +47,7 @@ Em **C++**, uma estrutura é realmente a mesma coisa que uma **Class**, exceto p
 
 Por exemplo, **Structs** em **C++** padronizam suas variáveis de membro como públicas por padrão, enquanto as classes têm variáveis privadas por padrão.
 
-### C++ Struct
+### 2.1. C++ Struct
 
 ```cpp
 struct Character {
@@ -54,7 +57,7 @@ struct Character {
 };
 ```
 
-### C++ Class
+### 2.2. C++ Class
 
 ```cpp
 class Character {
@@ -64,7 +67,7 @@ class Character {
 };
 ```
 
-#### C++ Struct Unreal
+#### 2.2.1. C++ Struct Unreal
 
 ```cpp
 USTRUCT([Specifier, Specifier, ...])
@@ -80,7 +83,7 @@ struct FStructName
 };
 ```
 
-#### C++ Class Unreal
+#### 2.2.2. C++ Class Unreal
 
 ```cpp
 UCLASS()
@@ -98,7 +101,7 @@ private:
 };
 ```
 
-## Criando variáveis do tipo Structure com Blueprint
+## 3. Criando variáveis do tipo Structure com Blueprint
 
 ***
 
@@ -110,7 +113,7 @@ Neste passo vamos criar o objeto *SJogador* do tipo `Structure` para exemplifica
     caption="Figura: Blueprint - Menu de contexto Blueprints > Structure."
 %}
 
-### Definindo variáveis dentro da estrutura
+### 3.1. Definindo variáveis dentro da estrutura
 
 A seguir vamos adicionar variáveis dentro do da estrutura criada.
 
@@ -132,7 +135,7 @@ A seguir vamos adicionar variáveis dentro do da estrutura criada.
 
 1. Personagem do tipo `Character/Class` - Armazena a classe de objeto do personagem do jogador.
 
-### Acessando as variáveis
+### 3.2. Acessando as variáveis
 
 Para acessar as variáveis que estão dentro da objeto do tipo `Structure` vamos utilizar `Break Structure`.  
 
@@ -142,11 +145,11 @@ Para acessar as variáveis que estão dentro da objeto do tipo `Structure` vamos
     caption="Figura: Blueprint - Exemplo de Break Structure."
 %}
 
-### Exemplo do uso de variáveis Structure
+### 3.3. Exemplo do uso de variáveis Structure
 
 Para exemplificar a utilização de variáveis `Structure` vamos implementar um level onde os elementos serão construídos dinamicamente, para tal vamos utilizar uma *Array* de objetos do tipo `Point Light Component` para que possam ser adicionados na cena no momento de construção do objeto.
 
-#### Criando o objeto SControleLuzes
+#### 3.3.1. Criando o objeto SControleLuzes
 
 {% include imagebase.html
     src="unreal/estruturas/blueprint_variable_2.webp"
@@ -154,7 +157,7 @@ Para exemplificar a utilização de variáveis `Structure` vamos implementar um 
     caption="Figura: Blueprint - Exemplo do objeto SControleLuzes."
 %}
 
-#### Lógica para construir os elementos na cena
+#### 3.3.2. Lógica para construir os elementos na cena
 
 1. Crie um `level` utilizando o modelo `default`;
 

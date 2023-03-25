@@ -6,26 +6,29 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "ESTRUTURAS DE DADOS"
+    nav: "dev_unreal_estruturas"
 date: 2022-09-25 
 ---
 
 ***
 
-- [Como funciona Game Mode e Game State?](#como-funciona-game-mode-e-game-state)
-  - [A organização de classes do Framework](#a-organização-de-classes-do-framework)
-  - [Implementando o GameMode](#implementando-o-gamemode)
-- [O que é PlayerController?](#o-que-é-playercontroller)
-  - [PlayerController vs  PlayerCharacter](#playercontroller-vs--playercharacter)
-- [GameInstance](#gameinstance)
-  - [Criando GameInstance](#criando-gameinstance)
-  - [Adicionando um evento dentro da GameInstance](#adicionando-um-evento-dentro-da-gameinstance)
-  - [Chamando a GameInstance para acessar os seus elementos](#chamando-a-gameinstance-para-acessar-os-seus-elementos)
+- [1. Como funciona Game Mode e Game State?](#1-como-funciona-game-mode-e-game-state)
+  - [1.1. A organização de classes do Framework](#11-a-organização-de-classes-do-framework)
+  - [1.2. Implementando o GameMode](#12-implementando-o-gamemode)
+- [2. O que é PlayerController?](#2-o-que-é-playercontroller)
+  - [2.1. PlayerController vs  PlayerCharacter](#21-playercontroller-vs--playercharacter)
+- [3. GameInstance](#3-gameinstance)
+  - [3.1. Criando GameInstance](#31-criando-gameinstance)
+  - [3.2. Adicionando um evento dentro da GameInstance](#32-adicionando-um-evento-dentro-da-gameinstance)
+  - [3.3. Chamando a GameInstance para acessar os seus elementos](#33-chamando-a-gameinstance-para-acessar-os-seus-elementos)
 
 ***
 
 Na estrutura do **Unreal Engine** existem classes para controlar regras do jogo (`GameMode`) e o personagem bem como classes com visibilidade global (`GameInstance`), neste capítulo iremos apresentar estas classes e suas funcionalidades.
 
-## Como funciona Game Mode e Game State?
+## 1. Como funciona Game Mode e Game State?
 
 ***
 
@@ -43,7 +46,7 @@ O conceito de "jogo" é dividido em 2 classes. O modo de jogo e o estado são as
 - `PlayerController` -
 Jogadores humanos que entram no jogo são associados a `PlayerControllers`. Esses `PlayerControllers` permitem que os jogadores possuam peões no jogo para que possam ter representações físicas no nível. Os `PlayerControllers` também fornecem aos jogadores controles de entrada (teclado, mouse e etc), um HUD (*heads-up display* ou interface com o jogador) e um `PlayerCameraManager` para lidar com as visualizações da câmera.
 
-### A organização de classes do Framework
+### 1.1. A organização de classes do Framework
 
 O fluxograma abaixo apresenta como as principais classes de jogo se relacionam entre si.
 
@@ -53,7 +56,7 @@ O fluxograma abaixo apresenta como as principais classes de jogo se relacionam e
     caption="Figura: Game Framework - QuickReference Unreal Engine."
 %}
 
-### Implementando o GameMode
+### 1.2. Implementando o GameMode
 
 Existem duas formas de informar qual `GameMode` o jogo deve utilizar, por *Level* ou projeto, utilizando o menu de contexto escolhemos `Game Mode Base`.
 
@@ -83,13 +86,13 @@ Para definir um `GameMode` para o projeto inteiro utilizamos o Menu `Project` > 
     caption="Figura: Blueprint - Project > Maps & Modes."
 %}
 
-## O que é PlayerController?
+## 2. O que é PlayerController?
 
 ***
 
 Um `PlayerController` é a interface entre o `Pawn` e o jogador humano que o controla. O `PlayerController` representa essencialmente a vontade do jogador humano é definido por *Level*.
 
-### PlayerController vs  PlayerCharacter
+### 2.1. PlayerController vs  PlayerCharacter
 
 Se você deseja implementar alguma funcionalidade de entrada complexa (por exemplo, se houver vários jogadores em um cliente de jogo ou houver uma necessidade de alterar os personagens dinamicamente em tempo de execução), é melhor (e às vezes necessário) usar `PlayerController`. Neste caso, o `PlayerController` lida com a entrada e emite comandos para o Pawn.
 
@@ -107,7 +110,7 @@ A classe `Character` representa o jogador no mundo do jogo. Ele fornece funciona
 
 - `GetPlayerCharacter` - As coordenadas apresentadas no nó `Print String` variam conforme a movimentação do `Pawn`.
 
-## GameInstance
+## 3. GameInstance
 
 ***
 
@@ -118,7 +121,7 @@ Então, para que GameInstance?
 
 Para compartilhar variáveis, eventos e funções por todos os levels possibilitando uma programação mais otimizada evitando retrabalho.
 
-### Criando GameInstance
+### 3.1. Criando GameInstance
 
 Utilizando o menu de contexto escolhemos `Bluprint Class` e logo em seguida procuramos a classe `GameInstance` básica.
 
@@ -128,7 +131,7 @@ Utilizando o menu de contexto escolhemos `Bluprint Class` e logo em seguida proc
     caption="Figura: Blueprint - Create GameInstance."
 %}
 
-### Adicionando um evento dentro da GameInstance
+### 3.2. Adicionando um evento dentro da GameInstance
 
 Como explicado anteriormente, os eventos e objetos ficaram disponíveis para o projeto. Para este exemplo vamos utilizar um evento customizado `Add Custom Event` no `Event Graph` da `GameInstance`.
 
@@ -146,7 +149,7 @@ Vamos adicionar uma variável para exemplificar.
     caption="Figura: Blueprint - GameInstance Variáveis."
 %}
 
-### Chamando a GameInstance para acessar os seus elementos
+### 3.3. Chamando a GameInstance para acessar os seus elementos
 
 Para este exemplo criamos um Level Vazio e no `Open Level Blueprint` vamos executar a chamada da `GameInstance`.
 

@@ -6,31 +6,34 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "ESTRUTURAS DE DADOS"
+    nav: "dev_unreal_estruturas"
 date: 2022-09-25 
 ---
 
 ***
 
-- [O que são Data Tables?](#o-que-são-data-tables)
-- [Criando um objeto do tipo Data Table](#criando-um-objeto-do-tipo-data-table)
-- [Inserindo dados no objeto do tipo Data Table](#inserindo-dados-no-objeto-do-tipo-data-table)
-- [Importando dados de um arquivo csv](#importando-dados-de-um-arquivo-csv)
-- [Exemplo de utilização de Data Table](#exemplo-de-utilização-de-data-table)
-  - [Implementando o objeto BP\_Vida](#implementando-o-objeto-bp_vida)
-  - [Implementando o objeto BP\_Elementos](#implementando-o-objeto-bp_elementos)
-  - [Logica da carga dos dados](#logica-da-carga-dos-dados)
+- [1. O que são Data Tables?](#1-o-que-são-data-tables)
+- [2. Criando um objeto do tipo Data Table](#2-criando-um-objeto-do-tipo-data-table)
+- [3. Inserindo dados no objeto do tipo Data Table](#3-inserindo-dados-no-objeto-do-tipo-data-table)
+- [4. Importando dados de um arquivo csv](#4-importando-dados-de-um-arquivo-csv)
+- [5. Exemplo de utilização de Data Table](#5-exemplo-de-utilização-de-data-table)
+  - [5.1. Implementando o objeto BP\_Vida](#51-implementando-o-objeto-bp_vida)
+  - [5.2. Implementando o objeto BP\_Elementos](#52-implementando-o-objeto-bp_elementos)
+  - [5.3. Logica da carga dos dados](#53-logica-da-carga-dos-dados)
 
 ***
 
 Neste capitulo vamos explorar os objetos do tipo **Data tables** que são basicamente tabelas de dados disponíveis para os desenvolvedores e são definidas por tipos *Structure*.  
 
-## O que são Data Tables?
+## 1. O que são Data Tables?
 
 ***
 
 **Data Tables** são estruturas de dados com vários tipos de variáveis agrupados e podem ser utilizadas para armazenamento de forma estática de informações dos personagens e suas características, recursos do jogo como espadas, escudos, magias, propriedades do jogo como níveis, dificuldades e pontuação.
 
-## Criando um objeto do tipo Data Table
+## 2. Criando um objeto do tipo Data Table
 
 ***
 
@@ -74,7 +77,7 @@ Logo em seguida devemos definir a estrutura de dados da tabela utilizando o vari
     caption="Figura: Blueprint - Data Table."
 %}
 
-## Inserindo dados no objeto do tipo Data Table
+## 3. Inserindo dados no objeto do tipo Data Table
 
 ***
 
@@ -87,7 +90,7 @@ A coluna **RowName** não pode ser repetida, funcionado como identificador únic
     caption="Figura: Blueprint - Exemplo do editor para inserir linhas na tabela."
 %}
 
-## Importando dados de um arquivo csv
+## 4. Importando dados de um arquivo csv
 
 ***
 
@@ -127,13 +130,13 @@ Os dados serão importados e na aba `Data Table Details` os parâmetros de impor
     caption="Figura: Blueprint - Data Table Details."
 %}
 
-## Exemplo de utilização de Data Table
+## 5. Exemplo de utilização de Data Table
 
 ***
 
 Para este exemplo vamos implementar um objeto para automaticamente adicionar outros objetos (Vida) na cena, a posição dos objetos pode se controlada com um vetor de coordenadas.  
 
-### Implementando o objeto BP_Vida
+### 5.1. Implementando o objeto BP_Vida
 
 Este objeto deverá estar na cena para interação com o jogador pois pode aumentar o valor da vida do personagem com as seguintes variáveis e componentes.  
 
@@ -143,7 +146,7 @@ Este objeto deverá estar na cena para interação com o jogador pois pode aumen
     caption="Figura: Blueprint - Exemplo do objeto BP_vida."
 %}
 
-### Implementando o objeto BP_Elementos
+### 5.2. Implementando o objeto BP_Elementos
 
 Este objeto serve como referência na cena para posicionamento de objetos *BP_Vida* com as seguintes variáveis e componentes.
 
@@ -177,7 +180,7 @@ Detalhes das coordenadas.
     caption="Figura: Blueprint - Coordenadas."
 %}
 
-### Logica da carga dos dados
+### 5.3. Logica da carga dos dados
 
 Para cada elemento do vetor *Posicao* é implementado um objeto do tipo BP_vida nas coordenadas de vetor.
 
