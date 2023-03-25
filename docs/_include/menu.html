@@ -8,7 +8,7 @@
          {% for item in site.data.nav_unreal.docs %}
             {% if item.url %}
                {% if item.url ==  site.url | append: page.url %}
-                  <p><li><a href="{{ item.url }}">{{ item.title }}</a></li></p>
+                  <b><li><a href="{{ item.url }}">{{ item.title }}</a></li></b>
                {% else %}      
                   <li><a href="{{ item.url }}">{{ item.title }}</a></li>
                {% endif %}      
