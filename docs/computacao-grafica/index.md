@@ -5,6 +5,7 @@ tags: [Unreal Engine,Rendering,Maya,computação gráfica]
 layout: post
 sidebar:  
   - title: "DESENVOLVIMENTO DE JOGOS"
+    image: /imagens/cafegeek_small.webp
     nav: "dev_game"
   - title: PROGRAMAÇÃO EM C++  
     nav: dev_cpp

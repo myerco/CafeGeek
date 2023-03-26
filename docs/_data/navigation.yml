@@ -82,20 +82,9 @@ dev_unreal:
       - title: Niagara
         url: /unreal-engine-c+-+-e-blueprint
 
-
-dev_unreal_multiplayer:
-  - title: Multiplayer
-    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_multiplayer.html
-
-dev_unreal_efeitos:
-  - title: Sequencer
-    url: /unreal-engine-c+-+-e-blueprint
-  - title: Utilizando Niagara
-    url: /unreal-engine-c+-+-e-blueprint  
-
 dev_game:
   - title: Unreal Engine com C++ e Blueprint
-    url: /unreal-engine-c+-+-e-blueprint/
+    url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html
   - title: Computação Gráfica com Unreal Engine
     url: /computacao-grafica/
   - title: Modelagem usando Autodesk Maya
