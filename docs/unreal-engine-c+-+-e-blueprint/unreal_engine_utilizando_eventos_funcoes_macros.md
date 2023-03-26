@@ -1,5 +1,5 @@
 ---
-title: Utilizando Eventos, funções e macros
+title: Eventos, funções e macros
 description: Neste capitulo serão apresentado como estruturar a lógica de programação utilizando métodos, funções e macros com Unreal Engine.
 tags: [Unreal Engine, eventos, events, funções, functions, macro]
 categories: Unreal Engine

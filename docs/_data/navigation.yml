@@ -54,7 +54,7 @@ dev_unreal:
       - title: Animação de mira
         url: /unreal-engine-c+-+-e-blueprint/unreal_engine_animacao_aim_offset.html        
       - title: Animação 2d
-        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_animacao2ds.html        
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_animacao2d.html        
   - title: INTELIGÊNCIA ARTIFICIAL      
     children:
       - title: Inteligência Artificial
