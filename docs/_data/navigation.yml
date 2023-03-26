@@ -1,28 +1,97 @@
 dev_unreal:
-  - title: Introdução ao Unreal Engine
+  - title: INTRODUÇÃO
     children:
       - title: Desenvolvendo jogos digitais
         url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html
-      - title: Trabalhando com Unreal Engine e Visual Studio
+      - title: Instalando Unreal Engine e Visual Studio
         url: /unreal-engine-c+-+-e-blueprint/trabalhando_com_o_unreal_engine_e_visual_studio.html
-      - title: Controle de versão com GitHub e Unreal Engine
+      - title: Controle de versão com GitHub
         url: /unreal-engine-c+-+-e-blueprint/controle_de_versão_com_github_e_unreal_engine.html
       - title: Interface e Editores
         url: /unreal-engine-c+-+-e-blueprint/unreal_engine_interface_e_editores.html
   - title: Programação com Unreal Engine
     children:
-      - title: O Unreal Engine e sua lógica de programação
+      - title: Lógica de programação
         url: /unreal-engine-c+-+-e-blueprint/o_unreal_engine_e_sua_logica_de_programacao.html
-      - title: Estruturas de programação no Unreal Engine
+      - title: Estruturas de programação
         url: /unreal-engine-c+-+-e-blueprint/estruturas_de_programacao_no_unreal_engine.html
-      - title: Implementando Atores
+      - title: Atores
         url: /unreal-engine-c+-+-e-blueprint/unreal_engine_actor_atores.html
-      - title: Programação C++ no Unreal Engine
+      - title: Programação C++
         url: /unreal-engine-c+-+-e-blueprint/programacao_c++_no_unreal_engine.html
-      - title: Utilizando Eventos, funções e macros
+      - title: Eventos, funções e macros
         url: /unreal-engine-c+-+-e-blueprint/unreal_engine_utilizando_eventos_funcoes_macros.html
       - title: Comunicação entre Blueprints
         url: /unreal-engine-c+-+-e-blueprint/unreal_engine_comunicacao_entre_blueprint.html
+  - title: Interface com o jogador
+    children:
+      - title: HUD - Interface
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_hud_interface.html
+      - title: Objetos da interface
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_hud_logica.html
+  - title: Estruturas de dados
+    children:
+      - title: Variáveis estruturadas
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_structure_variaveis_estruturadas.html
+      - title: Tabelas de dados
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_data_tables.html        
+      - title: Game Instance, Game State e Game Mode
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_gameinstance_state_mode.html        
+  - title: MOVIMENTAÇÃO E ANIMAÇÃO
+    children:
+      - title: Implementando a movimentação
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_trabalhando_com_logica_movimentacao_de_personagem.html
+      - title: Delta time e sistema de coordenadas
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_deltatime_sistema_coordenadas.html        
+      - title: Introdução a animação de personagens
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_animacao_introducao.html        
+      - title: Preparando o projeto
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_animacao_preparando_o_projeto.html        
+      - title: Blend Space
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_animacao_blend_space.html        
+      - title: Lógica de movimentação
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_animacao_animation_blueprint.html        
+      - title: Implementando a mira
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_animacao_aim_offset.html        
+      - title: Animação 2d
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_animacao2ds.html        
+  - title: INTELIGÊNCIA ARTIFICIAL      
+    children:
+      - title: Inteligência Artificial
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_inteligencia_artificial.html
+  - title: MATERIAIS E LANDSCAPE
+    children:    
+      - title: Introdução aos Materiais
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_material_introducao_aos_materiais.html
+      - title: Construindo Materiais
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_material_construindo_materiais_entendendo_a_logica.html
+      - title: Material Instance
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_material_instance.html
+      - title: Manipulando materiais
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_material_blueprint.html
+      - title: Iluminação
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_iluminacao.html
+  - title: MULTIPLAYER
+    children:
+      - title: Multiplayer
+        url: /unreal-engine-c+-+-e-blueprint/unreal_engine_multiplayer.html
+  - title: EFEITOS ESPECIAIS
+    children:
+      - title: Sequencer
+        url: /unreal-engine-c+-+-e-blueprint
+      - title: Niagara
+        url: /unreal-engine-c+-+-e-blueprint
+
+
+dev_unreal_multiplayer:
+  - title: Multiplayer
+    url: /unreal-engine-c+-+-e-blueprint/unreal_engine_multiplayer.html
+
+dev_unreal_efeitos:
+  - title: Sequencer
+    url: /unreal-engine-c+-+-e-blueprint
+  - title: Utilizando Niagara
+    url: /unreal-engine-c+-+-e-blueprint  
 
 dev_game:
   - title: Unreal Engine com C++ e Blueprint
