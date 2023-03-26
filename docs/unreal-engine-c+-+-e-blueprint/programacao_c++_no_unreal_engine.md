@@ -1,5 +1,5 @@
 ---
-title: Programação C++ no Unreal Engine
+title: Programação C++
 description: Neste capítulo será apresentado o modelo da lógica de programação utilizando **C++** com **Unreal Engine**.
 tags: [Unreal Engine,desenvolvimento,programação, blueprint,lógica,c++]
 categories: Unreal Engine
@@ -7,8 +7,8 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "PROGRAMAÇÃO COM UNREAL ENGINE"
-    nav: "dev_unreal_programacao"
+  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
+    nav: "dev_unreal"
 date: 2022-09-21 
 ---
 

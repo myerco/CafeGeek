@@ -1,5 +1,5 @@
 ---
-title: Controle de versão com Github e Unreal Engine
+title: Controle de versão
 description: Neste capítulo vamos instalar o **Git Client** com o **GitHub Desktop** para versionamento de arquivos no **Unreal Engine** e apresentar comandos básicos.
 tags: [Unreal Engine,desenvolvimento, blueprint,controle de versão, github, c++]
 categories: Unreal Engine
@@ -7,8 +7,8 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "INTRODUÇÃO AO UNREAL ENGINE"
-    nav: "dev_unreal_intro"
+  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
+    nav: "dev_unreal"
 date: 2022-09-30 
 ---
 

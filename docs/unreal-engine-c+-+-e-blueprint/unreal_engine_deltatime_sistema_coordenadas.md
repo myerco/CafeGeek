@@ -8,8 +8,8 @@ author:
 - KazeHiro1
 layout: post
 sidebar:  
-  - title: "MOVIMENTAÇÃO E ANIMAÇÃO DE PERSONAGENS"
-    nav: "dev_unreal_movimentacao"
+  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
+    nav: "dev_unreal"
 date: 2022-09-21 
 ---
 

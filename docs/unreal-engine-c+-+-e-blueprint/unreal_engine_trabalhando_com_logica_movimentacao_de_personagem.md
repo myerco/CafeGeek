@@ -1,5 +1,5 @@
 ---
-title: Implementando a movimentação do personagem
+title: Lógica de movimentação
 description: Trabalhando com a lógica de movimentação do personagem utilizando Blueprint
 tags: [Unreal Engine,eventos,events,funções,functions,macro]
 categories: Unreal Engine

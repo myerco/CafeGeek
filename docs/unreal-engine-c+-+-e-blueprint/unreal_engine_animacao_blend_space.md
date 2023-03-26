@@ -1,5 +1,5 @@
 ---
-title: Utilizando Blend Space
+title: Blend Space
 description: Em este capítulo iremos implementar várias animações utilizando um eixo de movimentação utilizando o elemento e editor Blend space 1D e Blend space.
 tags: [Unreal Engine, Animação,Blend Space 1D,Blend Space]
 categories: Unreal Engine
@@ -7,8 +7,8 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "MOVIMENTAÇÃO E ANIMAÇÃO DE PERSONAGENS"
-    nav: "dev_unreal_movimentacao"
+  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
+    nav: "dev_unreal"
 date: 2022-09-25 
 ---
 

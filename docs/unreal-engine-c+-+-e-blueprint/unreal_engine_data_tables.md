@@ -1,5 +1,5 @@
 ---
-title: Implementando Data Tables com Unreal Engine
+title: Tabelas de Dados
 description: Data Tables são estruturas de dados com vários tipos de variáveis agrupados
 tags: [Unreal Engine,data tables]
 categories: Unreal Engine
@@ -7,8 +7,8 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "ESTRUTURAS DE DADOS"
-    nav: "dev_unreal_estruturas"
+  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
+    nav: "dev_unreal"
 date: 2022-09-25 
 ---
 

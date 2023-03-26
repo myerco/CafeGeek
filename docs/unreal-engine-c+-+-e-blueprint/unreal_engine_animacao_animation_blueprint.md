@@ -1,5 +1,5 @@
 ---
-title: Implementando a Lógica da animação
+title: Lógica de animação
 description: Em este capítulo iremos implementar várias animações utilizando Animation Blueprint para implementar a lógica de movimentação.
 tags: [Unreal Engine, Animação,Blend Space 1D]
 categories: Unreal Engine
@@ -7,8 +7,8 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "MOVIMENTAÇÃO E ANIMAÇÃO DE PERSONAGENS"
-    nav: "dev_unreal_movimentacao"
+  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
+    nav: "dev_unreal"
 date: 2022-09-25 
 ---
 

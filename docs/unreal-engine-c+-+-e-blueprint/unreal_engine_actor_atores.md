@@ -1,5 +1,5 @@
 ---
-title: Implementado Atores com Unreal Engine
+title: Atores
 description: Neste capitulo serão apresentados e implementados os atores *Actors* do seu projetos.
 tags: [Unreal Engine,actor,atores]
 categories: Unreal Engine
@@ -7,8 +7,8 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "PROGRAMAÇÃO COM UNREAL ENGINE"
-    nav: "dev_unreal_programacao"
+  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
+    nav: "dev_unreal"
 date: 2022-09-21 
 ---
 

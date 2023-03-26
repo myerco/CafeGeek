@@ -1,5 +1,5 @@
 ---
-title: Estruturas de programação no Unreal Engine
+title: Estruturas de programação
 description: Neste capítulo serão descritas as estruturas de armazenamento, manipulação e fluxo da lógica de programação.
 tags: [Unreal Engine,blueprint,programação,estruturas,variáveis,c++]
 categories: Unreal Engine
@@ -7,8 +7,8 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "PROGRAMAÇÃO COM UNREAL ENGINE"
-    nav: "dev_unreal_programacao"
+  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
+    nav: "dev_unreal"
 date: 2022-09-21 
 ---
 

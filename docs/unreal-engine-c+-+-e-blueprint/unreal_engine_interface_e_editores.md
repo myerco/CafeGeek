@@ -7,8 +7,8 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "INTRODUÇÃO AO UNREAL ENGINE"
-    nav: "dev_unreal_intro"
+  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
+    nav: "dev_unreal"
 date: 2023-03-25     
 ---
 

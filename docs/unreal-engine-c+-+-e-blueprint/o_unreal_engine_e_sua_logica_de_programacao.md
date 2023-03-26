@@ -1,5 +1,5 @@
 ---
-title: O Unreal Engine e sua lógica de programação
+title: Blueprint
 description: Neste capítulo será apresentado o modelo da lógica de programação utilizando **Blueprint** e os seus elementos.
 tags: [Unreal Engine,lógica de programação, blueprint]
 categories: Unreal Engine
@@ -7,8 +7,8 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "PROGRAMAÇÃO COM UNREAL ENGINE"
-    nav: "dev_unreal_programacao"
+  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
+    nav: "dev_unreal"
 date: 2022-09-21 
 ---
 

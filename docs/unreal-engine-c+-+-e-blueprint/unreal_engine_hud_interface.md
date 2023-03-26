@@ -1,5 +1,5 @@
 ---
-title: HUD - Interface com o jogador
+title: HUD - Interface
 description: Neste capitulo vamos implementar o HUD (Heads-up Display) do jogo.
 tags: [Unreal Engine, HUD, user interface,UI]
 categories: Unreal Engine
@@ -7,8 +7,8 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "INTERFACE COM O JOGADOR"
-    nav: "dev_unreal_interface"
+  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
+    nav: "dev_unreal"
 date: 2022-09-25 
 ---
 

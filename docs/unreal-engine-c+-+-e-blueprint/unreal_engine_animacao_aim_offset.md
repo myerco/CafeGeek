@@ -1,5 +1,5 @@
 ---
-title: Implementando o personagem mirando usando uma arma
+title: Animação de mira
 description: Neste capitulo vamos apresentar a animação Aim Offset.
 tags: [Unreal Engine, Animação]
 categories: Unreal Engine
@@ -7,8 +7,8 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "MOVIMENTAÇÃO E ANIMAÇÃO DE PERSONAGENS"
-    nav: "dev_unreal_movimentacao"
+  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
+    nav: "dev_unreal"
 date: 2022-09-25 
 ---
 

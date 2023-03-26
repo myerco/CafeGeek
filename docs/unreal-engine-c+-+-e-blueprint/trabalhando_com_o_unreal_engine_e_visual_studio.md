@@ -1,5 +1,5 @@
 ---
-title: Trabalhando como Unreal Engine e Visual Studio
+title:  Instalando e Configurando
 description: O Unreal Engine é um Framework de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos e também um ambiente visual de programação abstraindo a lógica de programação.
 tags: [Unreal Engine,desenvolvimento, visual studio]
 categories: Unreal Engine
@@ -7,40 +7,40 @@ author:
 - Cafegeek
 layout: post
 sidebar:  
-  - title: "INTRODUÇÃO AO UNREAL ENGINE"
-    nav: "dev_unreal_intro"
+  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
+    nav: "dev_unreal"
 date: 2022-09-21 
 ---
 
 ***
 
-- [O Unreal Engine](#o-unreal-engine)
-- [Como instalar o Unreal Engine?](#como-instalar-o-unreal-engine)
-  - [Instalando o Visual Studio para programar com C++](#instalando-o-visual-studio-para-programar-com-c)
-  - [Por que instalar o pacote Desktop com C++ ?](#por-que-instalar-o-pacote-desktop-com-c-)
-- [Criando um projeto para jogos no Unreal Engine](#criando-um-projeto-para-jogos-no-unreal-engine)
-  - [Criando um projeto no Unreal Engine 4.X](#criando-um-projeto-no-unreal-engine-4x)
-    - [Escolhendo o Template](#escolhendo-o-template)
-    - [Configuração inicial do projeto](#configuração-inicial-do-projeto)
-    - [Tela inicial do Unreal Engine](#tela-inicial-do-unreal-engine)
-  - [Iniciando um projeto no Unreal Engine 5](#iniciando-um-projeto-no-unreal-engine-5)
-- [Configurando o editor de código](#configurando-o-editor-de-código)
-- [Entendo as pastas criadas](#entendo-as-pastas-criadas)
-  - [Pasta de código C++ - Source](#pasta-de-código-c---source)
-  - [Pasta principal do projeto - Content](#pasta-principal-do-projeto---content)
-  - [Pastas temporárias que podem ser removidas](#pastas-temporárias-que-podem-ser-removidas)
-  - [Nomenclatura de pastas](#nomenclatura-de-pastas)
-- [Organizando as pastas](#organizando-as-pastas)
-  - [Como criar pastas de trabalho?](#como-criar-pastas-de-trabalho)
-  - [Defina e utilize uma Nomenclatura e organização de pastas](#defina-e-utilize-uma-nomenclatura-e-organização-de-pastas)
-  - [Os benefícios na organização das pastas](#os-benefícios-na-organização-das-pastas)
-- [Configurando o projeto](#configurando-o-projeto)
-  - [Adicionando um *Level* na inicialização do projeto](#adicionando-um-level-na-inicialização-do-projeto)
-  - [Configurando as imagens de apresentação do projeto](#configurando-as-imagens-de-apresentação-do-projeto)
+- [1. O Unreal Engine](#1-o-unreal-engine)
+- [2. Como instalar o Unreal Engine?](#2-como-instalar-o-unreal-engine)
+  - [2.1. Instalando o Visual Studio para programar com C++](#21-instalando-o-visual-studio-para-programar-com-c)
+  - [2.2. Por que instalar o pacote Desktop com C++ ?](#22-por-que-instalar-o-pacote-desktop-com-c-)
+- [3. Criando um projeto para jogos no Unreal Engine](#3-criando-um-projeto-para-jogos-no-unreal-engine)
+  - [3.1. Criando um projeto no Unreal Engine 4.X](#31-criando-um-projeto-no-unreal-engine-4x)
+    - [3.1.1. Escolhendo o Template](#311-escolhendo-o-template)
+    - [3.1.2. Configuração inicial do projeto](#312-configuração-inicial-do-projeto)
+    - [3.1.3. Tela inicial do Unreal Engine](#313-tela-inicial-do-unreal-engine)
+  - [3.2. Iniciando um projeto no Unreal Engine 5](#32-iniciando-um-projeto-no-unreal-engine-5)
+- [4. Configurando o editor de código](#4-configurando-o-editor-de-código)
+- [5. Entendo as pastas criadas](#5-entendo-as-pastas-criadas)
+  - [5.1. Pasta de código C++ - Source](#51-pasta-de-código-c---source)
+  - [5.2. Pasta principal do projeto - Content](#52-pasta-principal-do-projeto---content)
+  - [5.3. Pastas temporárias que podem ser removidas](#53-pastas-temporárias-que-podem-ser-removidas)
+  - [5.4. Nomenclatura de pastas](#54-nomenclatura-de-pastas)
+- [6. Organizando as pastas](#6-organizando-as-pastas)
+  - [6.1. Como criar pastas de trabalho?](#61-como-criar-pastas-de-trabalho)
+  - [6.2. Defina e utilize uma Nomenclatura e organização de pastas](#62-defina-e-utilize-uma-nomenclatura-e-organização-de-pastas)
+  - [6.3. Os benefícios na organização das pastas](#63-os-benefícios-na-organização-das-pastas)
+- [7. Configurando o projeto](#7-configurando-o-projeto)
+  - [7.1. Adicionando um *Level* na inicialização do projeto](#71-adicionando-um-level-na-inicialização-do-projeto)
+  - [7.2. Configurando as imagens de apresentação do projeto](#72-configurando-as-imagens-de-apresentação-do-projeto)
 
 ***
 
-## O Unreal Engine
+## 1. O Unreal Engine
 
 O **Unreal Engine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos e também um ambiente visual de programação abstraindo a lógica de programação.
 
@@ -62,7 +62,7 @@ Para facilitar a instalação e atualização do ambiente de desenvolvimento dos
     caption="Inicializador da Epic Games > Versões Instaladas, Lista de versões instaladas do Unreal Engine."
 %}
 
-## Como instalar o Unreal Engine?
+## 2. Como instalar o Unreal Engine?
 
 ***
 
@@ -76,7 +76,7 @@ Para instalar o Unreal Engine siga os seguintes passos:
 
 1. Instale o **Unreal Engine** utilizando o menu `Unreal Engine` > `Biblioteca`.
 
-### Instalando o Visual Studio para programar com C++
+### 2.1. Instalando o Visual Studio para programar com C++
 
 Para instalar  os pacotes de desenvolvimento e o Visual Studio para programação com C++ baixe o Visual Studio em : [Download Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F).
 
@@ -98,17 +98,17 @@ Depois de instalar o Visual Studio é necessário selecionar os seguintes pacote
 
 - Desenvolvimento para Desktop com C++.
 
-### Por que instalar o pacote Desktop com C++ ?
+### 2.2. Por que instalar o pacote Desktop com C++ ?
 
 Porque muitas vezes é necessário testar uma funcionalidade ou mesmo testar um conceito da linguagem e ter o compilador disponível é uma mão na roda.
 
-## Criando um projeto para jogos no Unreal Engine
+## 3. Criando um projeto para jogos no Unreal Engine
 
 ***
 
 Nesta seção vamos criar um projeto para jogos utilizando **C++**, pois, irá ajudar na compreensão da estrutura de pastas e arquivos do **Unreal Engine**. O nome do projeto será ProjetoAula e o usaremos em vários capítulos.
 
-### Criando um projeto no Unreal Engine 4.X
+### 3.1. Criando um projeto no Unreal Engine 4.X
 
 Para construção do projeto podemos clicar no versão disponível na janela do inicializador ou na opção **Inicializar** no campo superior direito, após a inicialização da **Unreal** é necessário selecionar o tipo de projeto para que a *Engine* configure alguns parâmetros iniciais.
 
@@ -118,7 +118,7 @@ Para construção do projeto podemos clicar no versão disponível na janela do 
     caption="Selecione a opção Games para construção do projeto."
 %}
 
-#### Escolhendo o Template
+#### 3.1.1. Escolhendo o Template
 
 Para este projeto vamos escolher o `template blank`, modelo vazio, significa que não vamos instalar objetos e recursos adicionais no projeto, pois, vamos realizar essa tarefa posteriormente para que possamos entender a estrutura do projeto.
 
@@ -132,7 +132,7 @@ Para este projeto vamos escolher o `template blank`, modelo vazio, significa que
 >
 > São modelos com recursos disponíveis para cada tipo de jogo escolhido.
 
-#### Configuração inicial do projeto
+#### 3.1.2. Configuração inicial do projeto
 
 Em configuração de projeto escolha **C++** e `No Starter Content`, esta opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário, em seguida escolha uma pasta onde o projeto deverá ser instalado em `Select a Location for project to be stored`.
 
@@ -142,7 +142,7 @@ Em configuração de projeto escolha **C++** e `No Starter Content`, esta opçã
     caption="Configurando os parâmetros do projeto."
 %}
 
-#### Tela inicial do Unreal Engine
+#### 3.1.3. Tela inicial do Unreal Engine
 
 Quando todos os passos anteriores forem concluídos corretamente a tela inicial deve aparecer.  
 
@@ -152,7 +152,7 @@ Quando todos os passos anteriores forem concluídos corretamente a tela inicial 
     caption="Ambiente de desenvolvimento integrado com editor visual de cena, paletas de objetos e suas propriedades."
 %}
 
-### Iniciando um projeto no Unreal Engine 5
+### 3.2. Iniciando um projeto no Unreal Engine 5
 
 {% include imagelocal.html
     src="unreal/projeto/unreal_engine_5_select_new_project.webp"
@@ -166,7 +166,7 @@ Quando todos os passos anteriores forem concluídos corretamente a tela inicial 
     caption="Paleta de comandos com ícones menores o novo navegador de conteúdo (Content Drawer)."
 %}
 
-## Configurando o editor de código
+## 4. Configurando o editor de código
 
 ***
 
@@ -184,7 +184,7 @@ Para programar utilizando **C++** no Unreal devemos configurar um editor de cód
 >
 >Os dois são ótimos editores de código mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras linguagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
 
-## Entendo as pastas criadas
+## 5. Entendo as pastas criadas
 
 ***
 
@@ -204,7 +204,7 @@ Após criar o projeto vamos verificar como estão as pastas criadas pela *engine
 
 A seguir vamos entender as pastas do projeto.
 
-### Pasta de código C++ - Source
+### 5.1. Pasta de código C++ - Source
 
 A pasta `Source` contém arquivos com código fonte em **C++** e o arquivo com extensão *uproject* é o principal arquivo do projeto, segue abaixo a configuração inicial.
 
@@ -218,11 +218,11 @@ A pasta `Source` contém arquivos com código fonte em **C++** e o arquivo com e
   |-- ProjetoAula.Target.cs
 ```
 
-### Pasta principal do projeto - Content
+### 5.2. Pasta principal do projeto - Content
 
 `Content` é a principal pasta, pois nela vão ficar contidos todos os arquivos do jogo, em outras palavras esta pasta é o ponto de montagem do projeto como veremos nos próximos capítulos.
 
-### Pastas temporárias que podem ser removidas
+### 5.3. Pastas temporárias que podem ser removidas
 
 As pastas abaixo podem ser removidas pois podemos construir a qualquer momento quando compilar o projeto.
 
@@ -233,19 +233,19 @@ As pastas abaixo podem ser removidas pois podemos construir a qualquer momento q
 |-- Saved
 ```
 
-### Nomenclatura de pastas
+### 5.4. Nomenclatura de pastas
 
 É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto, abaixo duas boas recomendações de organização, discutiremos mais nos próximos capítulos.
 
 - [UE5 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin "Gamemakin UE4 Style Guide() { A mostly reasonable approach to Unreal Engine 4").
 
-## Organizando as pastas
+## 6. Organizando as pastas
 
 ***
 
 A seguir vamos organizar as pastas do projeto *ProjetoAula*, construído no **Unreal Engine**, e vamos configurá-lo.
 
-### Como criar pastas de trabalho?
+### 6.1. Como criar pastas de trabalho?
 
 No **Unreal Egnine** em `Content Drawer` utilizando botão direito do mouse clique em `New Folder` para criar pastas.
 
@@ -255,7 +255,7 @@ No **Unreal Egnine** em `Content Drawer` utilizando botão direito do mouse cliq
     caption="Usado para navegar, criar e realizar buscas nas pastas contidas no diretório de trabalho do projeto."
 %}
 
-### Defina e utilize uma Nomenclatura e organização de pastas
+### 6.2. Defina e utilize uma Nomenclatura e organização de pastas
 
 A organização de arquivos e pastas dentro dos projetos de desenvolvimento de softwares é bastante relevante para reduzir o tempo e custo de programação.
 
@@ -337,7 +337,7 @@ Segunda Sugestão de organização de pastas no Unreal Engine
    | |-- Level2
 ```
 
-### Os benefícios na organização das pastas
+### 6.3. Os benefícios na organização das pastas
 
 Separar a pasta do projeto `Content` de outras pastas pode facilitar e trazer vários benefícios durante o desenvolvimento do projeto, abaixo elencamos alguns:
 
@@ -362,7 +362,7 @@ Exemplo:
   |  |-- M_Master
 ```
 
-## Configurando o projeto
+## 7. Configurando o projeto
 
 ***
 
@@ -370,7 +370,7 @@ Preparar o projeto antes de começar o desenvolvimento é importante para que po
 
 Nos próximos capítulos vamos utilizar outras opções do menu de configuração como por exemplo o mapeamento de *Input* (teclas ou controles).
 
-### Adicionando um *Level* na inicialização do projeto
+### 7.1. Adicionando um *Level* na inicialização do projeto
 
 Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguintes passos:  
 
@@ -392,7 +392,7 @@ Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o 
 
 - `Game default Map` - Seleciona o *Level* que é mais usado.
 
-### Configurando as imagens de apresentação do projeto
+### 7.2. Configurando as imagens de apresentação do projeto
 
 Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu :
 
