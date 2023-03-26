@@ -8,6 +8,7 @@ author:
 layout: post
 sidebar:  
   - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
+    image: /imagens/unreal/logos/unreal_engine.webp
     nav: "dev_unreal"
 date: 2022-09-25 
 ---
@@ -29,12 +30,10 @@ Um Aim Offset é um recurso que armazena uma série de poses que podem ser combi
 
 ### 1.1. Animation Starter Pack
 
-A **Epic Store** oferece um pacote de animações para o Mannequin, facilitando a prototipação do personagem utilizando armas de tiro.
-
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_animation_starter_pack.webp"
-    alt="Figura: Unreal Engine - Adicionando o pacote Animation Starter Pack."
-    caption="Figura: Unreal Engine - Adicionando o pacote Animation Starter Pack."
+    alt="Figura: Adicionando o pacote Animation Starter Pack."
+    caption="A Epic Store oferece um pacote de animações para o Mannequin, facilitando a prototipação do personagem utilizando armas de tiro.."
 %}
 
 ### 1.2. Preparando o projeto
@@ -59,12 +58,10 @@ Neste passo vamos criar várias animações com o personagem mirando utilizando 
 
 - `Aim_Center_Down`;
 
-1. Editando a animação para criar novas animações.
-
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_aim_offset_editor.webp"
-    alt="Figura: Unreal Engine - Editor Aim Offset."
-    caption="Figura: Unreal Engine - Editor Aim Offset."
+    alt="Figura: Editor Aim Offset."
+    caption="Editando a animação para criar novas animações."
 %}
 
 ### 1.3. Removendo frames
@@ -101,13 +98,11 @@ Edite a propriedade de vária animações ao mesmo tempo
 
 Agora vamos criar `Aim Offset` Menu de contexto `Animation > Aim Offset` ou Escolha o esqueleto do Mannequin e utilizando BMP escolha `Create > Aim Offset`;
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_create_aim_offset.webp"
-    alt="Figura: Uneal Engine - Editor Aim Offset."
-    caption="Figura: Uneal Engine - Editor Aim Offset."
+    alt="Figura: Editor Aim Offset."
+    caption="Altere os parâmetros em Asset Details para os seguintes valores:"
 %}
-
-Altere os parâmetros em `Asset Details` para os seguintes valores:
 
 Coordenadas horizontais:
 
@@ -140,6 +135,7 @@ Continue adicionando as animações nas coordenadas.
 
 {% include image.html
     src="https://docs.unrealengine.com/4.26/Images/AnimatingObjects/SkeletalMeshAnimation/AnimHowTo/AimOffset/AimOffset29.webp"
-    alt="Figura: Unreal Engine - Aim exemplo de coordenadas."
-    caption="Figura: Unreal Engine - Aim exemplo de coordenadas."
+    alt="Figura: Aim exemplo de coordenadas."
+    caption="Coordenadas Yaw e Pitch."
+    ref="https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/SkeletalMeshAnimation/AnimHowTo/AimOffset/"
 %}

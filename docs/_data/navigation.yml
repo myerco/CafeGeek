@@ -9,7 +9,7 @@ dev_unreal:
         url: /unreal-engine-c+-+-e-blueprint/controle_de_versão_com_github_e_unreal_engine.html
       - title: Interface e Editores
         url: /unreal-engine-c+-+-e-blueprint/unreal_engine_interface_e_editores.html
-  - title: Programação com Unreal Engine
+  - title: PROGRAMAÇÃO COM UNREAL
     children:
       - title: Blueprint
         url: /unreal-engine-c+-+-e-blueprint/o_unreal_engine_e_sua_logica_de_programacao.html
@@ -23,13 +23,13 @@ dev_unreal:
         url: /unreal-engine-c+-+-e-blueprint/unreal_engine_utilizando_eventos_funcoes_macros.html
       - title: Comunicação entre Blueprints
         url: /unreal-engine-c+-+-e-blueprint/unreal_engine_comunicacao_entre_blueprint.html
-  - title: Interface com o jogador
+  - title: INTERFACE COM O JOGADOR
     children:
       - title: HUD - Interface
         url: /unreal-engine-c+-+-e-blueprint/unreal_engine_hud_interface.html
       - title: Objetos da interface
         url: /unreal-engine-c+-+-e-blueprint/unreal_engine_hud_logica.html
-  - title: Estruturas de dados
+  - title: ESTRUTURAS DE DADOS
     children:
       - title: Variáveis estruturadas
         url: /unreal-engine-c+-+-e-blueprint/unreal_engine_structure_variaveis_estruturadas.html

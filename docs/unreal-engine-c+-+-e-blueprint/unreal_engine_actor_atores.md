@@ -8,6 +8,7 @@ author:
 layout: post
 sidebar:  
   - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
+    image: /imagens/unreal/logos/unreal_engine.webp
     nav: "dev_unreal"
 date: 2022-09-21 
 ---
