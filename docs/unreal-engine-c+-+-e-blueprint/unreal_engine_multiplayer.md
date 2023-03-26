@@ -6,39 +6,42 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "MULTIPLAYER"
+    nav: "dev_unreal_multiplayer"
 date: 2022-09-26 
 ---
 
 ***
 
-- [Implementando um jogo multiplayer](#implementando-um-jogo-multiplayer)
-  - [Tipos de Conexão](#tipos-de-conexão)
-    - [Cliente e Servidor](#cliente-e-servidor)
-    - [Ponto a Ponto](#ponto-a-ponto)
-  - [Implementação no jogo](#implementação-no-jogo)
-    - [Exemplo Servidor](#exemplo-servidor)
-    - [Exemplo Cliente](#exemplo-cliente)
-- [Executando e configurando o projeto](#executando-e-configurando-o-projeto)
-- [Implementando o menu](#implementando-o-menu)
-  - [Executando o jogo](#executando-o-jogo)
-- [Replicação](#replicação)
-  - [Replicação de eventos](#replicação-de-eventos)
-  - [Objetos não Replicados](#objetos-não-replicados)
-  - [Replicação de variáveis](#replicação-de-variáveis)
-- [Implementando o objeto de para ser arremessado](#implementando-o-objeto-de-para-ser-arremessado)
-  - [Implementando a manipulação do objeto pelo personagem](#implementando-a-manipulação-do-objeto-pelo-personagem)
+- [1. Implementando um jogo multiplayer](#1-implementando-um-jogo-multiplayer)
+  - [1.1. Tipos de Conexão](#11-tipos-de-conexão)
+    - [1.1.1. Cliente e Servidor](#111-cliente-e-servidor)
+    - [1.1.2. Ponto a Ponto](#112-ponto-a-ponto)
+  - [1.2. Implementação no jogo](#12-implementação-no-jogo)
+    - [1.2.1. Exemplo Servidor](#121-exemplo-servidor)
+    - [1.2.2. Exemplo Cliente](#122-exemplo-cliente)
+- [2. Executando e configurando o projeto](#2-executando-e-configurando-o-projeto)
+- [3. Implementando o menu](#3-implementando-o-menu)
+  - [3.1. Executando o jogo](#31-executando-o-jogo)
+- [4. Replicação](#4-replicação)
+  - [4.1. Replicação de eventos](#41-replicação-de-eventos)
+  - [4.2. Objetos não Replicados](#42-objetos-não-replicados)
+  - [4.3. Replicação de variáveis](#43-replicação-de-variáveis)
+- [5. Implementando o objeto de para ser arremessado](#5-implementando-o-objeto-de-para-ser-arremessado)
+  - [5.1. Implementando a manipulação do objeto pelo personagem](#51-implementando-a-manipulação-do-objeto-pelo-personagem)
 
 ***
 
 Neste capítulo vamos implementar e organização elementos para conexão, replicação e inicialização de um jogo multiplayer.
 
-## Implementando um jogo multiplayer
+## 1. Implementando um jogo multiplayer
 
-### Tipos de Conexão
+### 1.1. Tipos de Conexão
 
 - A conexão somente é possível com versões do mesmo programa.
 
-#### Cliente e Servidor
+#### 1.1.1. Cliente e Servidor
 
 Programa cliente se conecta através de uma rede a um programa servidor.
 
@@ -50,7 +53,7 @@ Servidor pode ficar somente no atendimento ou pode realizar tarefas
     caption="Figura: Unreal Engine - Tipos de conexão - Cliente Servidor."
 %}
 
-#### Ponto a Ponto
+#### 1.1.2. Ponto a Ponto
 
 Programa cliente se conecta com outro computador ouvindo a rede
 
@@ -62,7 +65,7 @@ Os computadores ficam operantes;
     caption="Figura: Unreal Engine - Tipos de conexão - Ponto a Ponto."
 %}
 
-### Implementação no jogo
+### 1.2. Implementação no jogo
 
 - Servidor (Host) - Jogo em modo escuta *listen*;
 
@@ -70,21 +73,21 @@ Os computadores ficam operantes;
 
 - Busca servidores;
 
-#### Exemplo Servidor
+#### 1.2.1. Exemplo Servidor
 
 ```sh
   C:\Program Files\UE_4.17\Engine\Binaries\Win64\UE4Editor.exe
   C:\PATH_TO_MY_PROJECT.uproject /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap -server -log -port=8003
   ```
 
-#### Exemplo Cliente
+#### 1.2.2. Exemplo Cliente
 
 ```sh
 C:\Program Files\UE_4.17\Engine\Binaries\Win64\UE4Editor.exe
 C:\PATH_TO_MY_PROJECT.uproject 192.168.1.90:8003 -game -log
 ```
 
-## Executando e configurando o projeto
+## 2. Executando e configurando o projeto
 
 Para executar o jogo em modo multiplayer utilize o menu principal e acesse a opção `Play` escolhendo as seguintes opções:
 
@@ -130,7 +133,7 @@ Configurando o projeto com GameInstance.
     caption="Figura: Unreal Engine - Multiplayer, Configurando a Gameinstance."
 %}
 
-## Implementando o menu
+## 3. Implementando o menu
 
 Implementando os mapas.  
 
@@ -180,7 +183,7 @@ Conectar ao servidor utilizando IP.
     caption="Figura: Unreal Engine - Multiplayer, Lógica Blueprint para criar uma conexão no servidor remoto por IP."
 %}
 
-### Executando o jogo
+### 3.1. Executando o jogo
 
 - Number of Players: Quantidade de conexões
 
@@ -205,9 +208,9 @@ Conectar ao servidor utilizando IP.
     caption="Figura: Unreal Engine - Multiplayer, Dois PlayerStart."
 %}
 
-## Replicação
+## 4. Replicação
 
-### Replicação de eventos
+### 4.1. Replicação de eventos
 
 Para utilizar a replicação de eventos é necessário criar eventos customizados `Add custom event`.
 
@@ -217,7 +220,7 @@ Para utilizar a replicação de eventos é necessário criar eventos customizado
 
 *NetMulticast* - Executado em todos os clientes que estão conectados ao servidor, bem como no próprio servidor.
 
-### Objetos não Replicados
+### 4.2. Objetos não Replicados
 
 - HUD
 
@@ -228,7 +231,7 @@ Para utilizar a replicação de eventos é necessário criar eventos customizado
 [replication for moving actor](https://answers.unrealengine.com/questions/836572/replication-for-moving-actor.html?sort=oldest
 )
 
-### Replicação de variáveis
+### 4.3. Replicação de variáveis
 
 Usaremos as variáveis *Vida*, *Nome* e *VidaMax* para exemplificar.
 
@@ -238,7 +241,7 @@ Usaremos as variáveis *Vida*, *Nome* e *VidaMax* para exemplificar.
 
 - VidaMax
 
-## Implementando o objeto de para ser arremessado
+## 5. Implementando o objeto de para ser arremessado
 
 Implementando um Blueprints Static Mesh Actor e configurando a replicação do objeto.  
 
@@ -256,7 +259,7 @@ O componente atachado também deverá ser replicado.
     caption="Figura: Unreal Engine - Multiplayer, Component Replication."
 %}
 
-### Implementando a manipulação do objeto pelo personagem
+### 5.1. Implementando a manipulação do objeto pelo personagem
 
 Eventos de entrada de dados (INPUT).
 

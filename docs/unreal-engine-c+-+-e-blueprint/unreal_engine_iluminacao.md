@@ -5,51 +5,54 @@ tags: [Unreal Engine, iluminação]
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "MATERIAIS E LANDSCAPE"
+    nav: "dev_unreal_materiais"
 date: 2022-09-21 
 ---
 
 ***
 
-- [Directional Light](#directional-light)
-  - [Static](#static)
-  - [Stationary](#stationary)
-  - [Moveable](#moveable)
-- [Sky Light](#sky-light)
-  - [Captura de cena](#captura-de-cena)
-- [Light Component](#light-component)
-- [Spot Light](#spot-light)
-- [Point Light](#point-light)
-- [Rect Light](#rect-light)
-- [Propriedades da luz](#propriedades-da-luz)
-- [Configuração no projeto](#configuração-no-projeto)
-- [Formas de captura de reflexão](#formas-de-captura-de-reflexão)
-- [Sphere Reflection](#sphere-reflection)
-- [Box Reflection Capture](#box-reflection-capture)
-- [Lightmass Importance Volume](#lightmass-importance-volume)
-- [Auto exposure](#auto-exposure)
-- [Build ligths](#build-ligths)
-- [Sombras](#sombras)
-- [Unlit](#unlit)
-- [Salvando a imagem da cena](#salvando-a-imagem-da-cena)
-- [Reflexos](#reflexos)
+- [1. Directional Light](#1-directional-light)
+  - [1.1. Static](#11-static)
+  - [1.2. Stationary](#12-stationary)
+  - [1.3. Moveable](#13-moveable)
+- [2. Sky Light](#2-sky-light)
+  - [2.1. Captura de cena](#21-captura-de-cena)
+- [3. Light Component](#3-light-component)
+- [4. Spot Light](#4-spot-light)
+- [5. Point Light](#5-point-light)
+- [6. Rect Light](#6-rect-light)
+- [7. Propriedades da luz](#7-propriedades-da-luz)
+- [8. Configuração no projeto](#8-configuração-no-projeto)
+- [9. Formas de captura de reflexão](#9-formas-de-captura-de-reflexão)
+- [10. Sphere Reflection](#10-sphere-reflection)
+- [11. Box Reflection Capture](#11-box-reflection-capture)
+- [12. Lightmass Importance Volume](#12-lightmass-importance-volume)
+- [13. Auto exposure](#13-auto-exposure)
+- [14. Build ligths](#14-build-ligths)
+- [15. Sombras](#15-sombras)
+- [16. Unlit](#16-unlit)
+- [17. Salvando a imagem da cena](#17-salvando-a-imagem-da-cena)
+- [18. Reflexos](#18-reflexos)
 
 ***
 
-## Directional Light
+## 1. Directional Light
 
 ***
 
 **Directional Light** ou *luz direcional* simula a luz que está sendo emitida por uma fonte que está infinitamente distante. Isso significa que todas as sombras lançadas por essa luz serão paralelas, tornando-a a escolha ideal para simular a luz do sol. A luz direcional quando colocada pode ser definida para uma das três configurações de mobilidade:
 
-### Static
+### 1.1. Static
 
 Significa que a luz não pode ser alterada no jogo. Este é o método mais rápido de renderização e permite iluminação *cozida*.
 
-### Stationary
+### 1.2. Stationary
 
 Significa que a luz terá apenas seu sombreamento e iluminação rebatida da geometria estática preparada pelo **Lightmass**, todas as outras iluminações serão dinâmicas. Esta configuração também permite que a luz mude de cor e intensidade no jogo, mas não se move e permite iluminação parcial.
 
-### Moveable
+### 1.3. Moveable
 
 Significa que a luz é totalmente dinâmica e permite sombreamento dinâmico. Este é o mais lento em termos de renderização, mas permite maior flexibilidade durante o jogo.
 
@@ -59,14 +62,14 @@ Significa que a luz é totalmente dinâmica e permite sombreamento dinâmico. Es
     caption="Figura:Directional Light.."
 %}
 
-## Sky Light
+## 2. Sky Light
 
 ***
 
 A **Sky Light** captura as partes distantes do seu nível e as aplica à cena como uma luz. Isso significa que a aparência do céu e sua iluminação / reflexos serão iguais, mesmo que o céu esteja vindo da atmosfera, ou nuvens em camadas no topo de um *skybox* ou montanhas distantes.
 Você também pode especificar manualmente um mapa de cubo a ser usado.
 
-### Captura de cena
+### 2.1. Captura de cena
 
 O **Sky Light** só irá capturar a cena em certas circunstâncias:
 
@@ -75,7 +78,7 @@ O **Sky Light** só irá capturar a cena em certas circunstâncias:
 
 > Um **Sky Light** deve ser usado em vez do **Ambient Cubemap** para representar a luz do céu, porque as **Sky Lights** suportam sombras locais, o que evita que áreas internas sejam iluminadas pelo céu.
 
-## Light Component
+## 3. Light Component
 
 ***
 
@@ -95,7 +98,7 @@ Temperature:
 
 Attenation Radius : Raio de influência.
 
-## Spot Light
+## 4. Spot Light
 
 ***
 
@@ -103,7 +106,7 @@ Um **Spot Light** emite luz de um único ponto em forma de cone. Os usuários re
 
 Dentro do ângulo do cone interno, a luz atinge o brilho total. Conforme você vai da extensão do raio interno às extensões do Ângulo do Cone Externo, ocorre uma queda, criando uma penumbra ou suavizando em torno do disco de iluminação do **Spot Light**. O raio da luz define o comprimento dos cones. De forma mais simples, isso funcionará como uma luz de flash ou um palco pode acender.
 
-## Point Light
+## 5. Point Light
 
 ***
 
@@ -121,13 +124,13 @@ Para corrigir isso, certifique-se de que não haja mais de 4 sombras sobrepostas
 
 Se houver apenas três luzes estacionárias colocadas e houver um X vermelho sobre a 4ª luz, certifique-se de que não haja outras luzes estacionárias em seu nível que se sobreponham. Muitas vezes, essa seria a luz direcional definida como estacionária que está causando esse problema.
 
-## Rect Light
+## 6. Rect Light
 
 ***
 
 O **Rect Light** emite luz na cena a partir de um plano retangular com largura e altura definidas. Você pode usá-los para simular qualquer tipo de fonte de luz que tenha áreas retangulares, como televisores ou telas de monitor, luminárias suspensas ou arandelas de parede.
 
-## Propriedades da luz
+## 7. Propriedades da luz
 
 ***
 
@@ -144,14 +147,14 @@ Para esses tipos de luz, sua intensidade é exibida da seguinte forma:
   - Lúmen (lm) é uma medida do fluxo luminoso emitido no ângulo de um esteradiano. Na fotometria, o fluxo luminoso (ou potência luminosa) é a medida da potência percebida da luz. Não importa sua distribuição (ponto largo ou estreito), a quantidade total de energia emitida será a mesma.
   - **Unitless** é um valor de intensidade de luz específico do mecanismo e mantém a compatibilidade com versões de mecanismo anteriores ao Unreal Engine 4.19.
 
-## Configuração no projeto
+## 8. Configuração no projeto
 
 ***
 Para configurar utilize o menu:
 
 `Project` > `Rendering` > `Light Unit`
 
-## Formas de captura de reflexão
+## 9. Formas de captura de reflexão
 
 ***
 
@@ -159,7 +162,7 @@ O Reflection Environment funciona capturando o nível estático em muitos pontos
 
 Atores de captura de reflexão são objetos estrategicamente colocados em todo o nível e alimentam dados de reflexão no ambiente de reflexão.
 
-## Sphere Reflection
+## 10. Sphere Reflection
 
 ***
 
@@ -167,18 +170,18 @@ Existem atualmente duas formas de captura de reflexo: esfera e caixa. A forma é
 
 Para obter mais informações sobre o ambiente de reflexão e as capturas de reflexão, consulte Ambiente de reflexão.
 
-## Box Reflection Capture
+## 11. Box Reflection Capture
 
 ***
 
-## Lightmass Importance Volume
+## 12. Lightmass Importance Volume
 
 ***
 
 **Lightmass** cria mapas de luz com interações de luz complexas, como sombreamento de área e inter-reflexão difusa. É usado para pré-calcular porções da contribuição de iluminação de luzes com mobilidade estacionária e estática.
 Muitos mapas têm malhas até a borda da grade no editor, mas a área real de jogo que precisa de iluminação de alta qualidade é muito menor. A massa de luz emite fótons com base no tamanho do nível, portanto, essas malhas de fundo aumentarão muito o número de fótons que precisam ser emitidos e o tempo de construção de iluminação aumentará. O **Lightmass Importance Volume** controla a área em que a *Lightmass* emite fótons, permitindo concentrar apenas na área que precisa de iluminação indireta detalhada. As áreas fora do volume de importância recebem apenas um salto de iluminação indireta em uma qualidade inferior.
 
-## Auto exposure
+## 13. Auto exposure
 
 ***
 
@@ -188,7 +191,7 @@ Após desligar todas as luzes ainda ficam elementos visiveis, porque eles ainda 
 
 O backlight ainda vai estar presente.
 
-## Build ligths
+## 14. Build ligths
 
 ***
 
@@ -196,7 +199,7 @@ Para construir e calcular todas as sombras e reflexos da cena utilize :
 
 `Build` > `Light`
 
-## Sombras
+## 15. Sombras
 
 ***
 
@@ -216,13 +219,13 @@ Os objetos tem um mapa de luz para controlar a resolução de iluminação, para
 
 Alter os valores para a qualidade das sombras.
 
-## Unlit
+## 16. Unlit
 
 ***
 
 Apresenta a cena sem iluminação.
 
-## Salvando a imagem da cena
+## 17. Salvando a imagem da cena
 
 ***
 
@@ -230,7 +233,7 @@ Para salvar cena em um arquivo utilize:
 
 `Viewports Options` > `High Resolution Sreenshot`
 
-## Reflexos
+## 18. Reflexos
 
 ***
 

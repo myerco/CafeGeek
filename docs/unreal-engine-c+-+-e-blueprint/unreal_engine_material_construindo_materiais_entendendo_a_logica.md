@@ -6,22 +6,25 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "MATERIAIS E LANDSCAPE"
+    nav: "dev_unreal_materiais"
 date: 2022-09-24 
 ---
 
 ***
 
-- [As propriedades e a lógica do material](#as-propriedades-e-a-lógica-do-material)
-- [Utilizando Panner e TextCoord](#utilizando-panner-e-textcoord)
-- [Exemplo do nó Lerp](#exemplo-do-nó-lerp)
-- [World position Offset](#world-position-offset)
-- [Unlit Shading Model](#unlit-shading-model)
-- [Masked Blend Mode](#masked-blend-mode)
-- [Translucent Blend Mode](#translucent-blend-mode)
+- [1. As propriedades e a lógica do material](#1-as-propriedades-e-a-lógica-do-material)
+- [2. Utilizando Panner e TextCoord](#2-utilizando-panner-e-textcoord)
+- [3. Exemplo do nó Lerp](#3-exemplo-do-nó-lerp)
+- [4. World position Offset](#4-world-position-offset)
+- [5. Unlit Shading Model](#5-unlit-shading-model)
+- [6. Masked Blend Mode](#6-masked-blend-mode)
+- [7. Translucent Blend Mode](#7-translucent-blend-mode)
 
 ***
 
-## As propriedades e a lógica do material
+## 1. As propriedades e a lógica do material
 
 ***
 
@@ -104,7 +107,7 @@ resul =  Add( vetor3(1,3,4) , vetor3(2,4,1)  );
 (3,7,5)
 ```
 
-## Utilizando Panner e TextCoord
+## 2. Utilizando Panner e TextCoord
 
 ***
 
@@ -130,7 +133,7 @@ Ambas as entradas devem ter o mesmo número de valores, a menos que um dos valor
 
 - `TexCoord` - Gera coordenadas de textura UV na forma de um valor vetorial de dois canais, permitindo que os materiais usem diferentes canais UV, especifiquem ladrilhos e, de outra forma, operem nos UVs de uma malha.
 
-## Exemplo do nó Lerp
+## 3. Exemplo do nó Lerp
 
 ***
 
@@ -142,7 +145,7 @@ Interpola Linearmente entre A e B com base em Alfa (100% de A quando Alfa = 0 e 
   caption="Figura: A função learp interpola linearmente dois valores, ou seja cria vários valores entre os parâmetros inicial (A) e final (B)."
 %}
 
-## World position Offset
+## 4. World position Offset
 
 ***
 
@@ -168,7 +171,7 @@ Abaixo utilizamos variáveis para "animar" o material e simular movimento na mal
 
 - `Panner` - Speed X =0.05, Speed Y= 0.1.
 
-## Unlit Shading Model
+## 5. Unlit Shading Model
 
 ***
 
@@ -186,7 +189,7 @@ Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais co
   caption="Figura: Resultado do Unlit Shading Model."
 %}
 
-## Masked Blend Mode
+## 6. Masked Blend Mode
 
 ***
 
@@ -212,7 +215,7 @@ Parâmetros do nó resultado:
   caption="Figura: Resultado do Blend Masked."
 %}
 
-## Translucent Blend Mode
+## 7. Translucent Blend Mode
 
 ***
 

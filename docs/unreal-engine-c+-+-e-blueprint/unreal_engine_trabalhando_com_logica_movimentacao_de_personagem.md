@@ -6,7 +6,9 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
-type: index_unreal
+sidebar:  
+  - title: "MOVIMENTAÇÃO E ANIMAÇÃO DE PERSONAGENS"
+    nav: "dev_unreal_movimentacao"
 date: 2022-09-21 
 ---
 

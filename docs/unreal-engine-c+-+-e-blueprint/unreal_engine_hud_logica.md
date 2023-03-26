@@ -5,40 +5,43 @@ tags: [Unreal Engine, HUD, user interface,UI]
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "INTERFACE COM O JOGADOR"
+    nav: "dev_unreal_interface"
 date: 2022-09-25 
 ---
 
 
 ***
 
-- [Lógica de programação do Widget Graph](#lógica-de-programação-do-widget-graph)
-  - [Event Construct para inicializar variáveis utilizadas no Widget](#event-construct-para-inicializar-variáveis-utilizadas-no-widget)
-  - [Botões e eventos (Button and Events)](#botões-e-eventos-button-and-events)
-  - [Acionando o botão Sair para finalizar o jogo](#acionando-o-botão-sair-para-finalizar-o-jogo)
-- [Executando o menu](#executando-o-menu)
-- [Apresentando informações para o Jogador](#apresentando-informações-para-o-jogador)
-  - [Fazendo a ligação do elemento da interface com uma função](#fazendo-a-ligação-do-elemento-da-interface-com-uma-função)
-  - [Função do calculo de vida do jogador](#função-do-calculo-de-vida-do-jogador)
-  - [Função para pegar o nome do jogador](#função-para-pegar-o-nome-do-jogador)
-- [Organizando os objetos](#organizando-os-objetos)
-  - [Criando o objeto SaveGame para salvar dados do jogo](#criando-o-objeto-savegame-para-salvar-dados-do-jogo)
-  - [Evento para apresentar o menu na tela](#evento-para-apresentar-o-menu-na-tela)
-  - [Evento para abrir um Level](#evento-para-abrir-um-level)
-  - [Salvando dados](#salvando-dados)
-  - [Evento para carregar dados](#evento-para-carregar-dados)
-  - [Voltando ao jogo](#voltando-ao-jogo)
-  - [Iniciando Game Instance no Widget](#iniciando-game-instance-no-widget)
-  - [Efetuando as chamadas das funções](#efetuando-as-chamadas-das-funções)
+- [1. Lógica de programação do Widget Graph](#1-lógica-de-programação-do-widget-graph)
+  - [1.1. Event Construct para inicializar variáveis utilizadas no Widget](#11-event-construct-para-inicializar-variáveis-utilizadas-no-widget)
+  - [1.2. Botões e eventos (Button and Events)](#12-botões-e-eventos-button-and-events)
+  - [1.3. Acionando o botão Sair para finalizar o jogo](#13-acionando-o-botão-sair-para-finalizar-o-jogo)
+- [2. Executando o menu](#2-executando-o-menu)
+- [3. Apresentando informações para o Jogador](#3-apresentando-informações-para-o-jogador)
+  - [3.1. Fazendo a ligação do elemento da interface com uma função](#31-fazendo-a-ligação-do-elemento-da-interface-com-uma-função)
+  - [3.2. Função do calculo de vida do jogador](#32-função-do-calculo-de-vida-do-jogador)
+  - [3.3. Função para pegar o nome do jogador](#33-função-para-pegar-o-nome-do-jogador)
+- [4. Organizando os objetos](#4-organizando-os-objetos)
+  - [4.1. Criando o objeto SaveGame para salvar dados do jogo](#41-criando-o-objeto-savegame-para-salvar-dados-do-jogo)
+  - [4.2. Evento para apresentar o menu na tela](#42-evento-para-apresentar-o-menu-na-tela)
+  - [4.3. Evento para abrir um Level](#43-evento-para-abrir-um-level)
+  - [4.4. Salvando dados](#44-salvando-dados)
+  - [4.5. Evento para carregar dados](#45-evento-para-carregar-dados)
+  - [4.6. Voltando ao jogo](#46-voltando-ao-jogo)
+  - [4.7. Iniciando Game Instance no Widget](#47-iniciando-game-instance-no-widget)
+  - [4.8. Efetuando as chamadas das funções](#48-efetuando-as-chamadas-das-funções)
 
 ***
 
-## Lógica de programação do Widget Graph
+## 1. Lógica de programação do Widget Graph
 
 ***
 
 A lógica de controle de ações dos botões e a inicialização está em `Graph`, onde encontramos alguns eventos já conhecidos como por exemplo `Event Construct` e `Tick`.
 
-### Event Construct para inicializar variáveis utilizadas no Widget
+### 1.1. Event Construct para inicializar variáveis utilizadas no Widget
 
 Para que o objeto menu tenha acesso a propriedades da classe do jogador vamos inicializar a uma variável local utilizando `Event Construct`.
 Ao iniciar o Widget definimos uma variável **Jogador** do tipo `BP_Hero` para que possamos ter acesso as propriedades nome e vida por exemplo.
@@ -49,7 +52,7 @@ Ao iniciar o Widget definimos uma variável **Jogador** do tipo `BP_Hero` para q
     caption="Figura: Blueprint - Widget Graph Event Construct."
 %}
 
-### Botões e eventos (Button and Events)
+### 1.2. Botões e eventos (Button and Events)
 
 Os elementos do tipo `Button` tem eventos relacionados na sua estrutura, como por exemplo: `On Clicked`, `On Pressed` e outros.
 
@@ -61,7 +64,7 @@ Vamos utilizar o evento `OnClick` para executar a função `Open Level` para car
     caption="Figura: Blueprint -  Widget HUD Blueprint e Open Level."
 %}
 
-### Acionando o botão Sair para finalizar o jogo
+### 1.3. Acionando o botão Sair para finalizar o jogo
 
 Ao clicar no botão Sair vamos chamar a função `Quit Game` que finaliza do jogo.  
 
@@ -71,7 +74,7 @@ Ao clicar no botão Sair vamos chamar a função `Quit Game` que finaliza do jog
     caption="Figura: Blueprint - Widget HUD Blueprint Quit Game."
 %}
 
-## Executando o menu
+## 2. Executando o menu
 
 ***
 
@@ -95,7 +98,7 @@ Em `Open Level Blueprint` vamos adicionar a lógica para criar um objeto do tipo
     caption="Figura: Widget HUD Add ViewPort."
 %}
 
-## Apresentando informações para o Jogador
+## 3. Apresentando informações para o Jogador
 
 ***
 
@@ -111,7 +114,7 @@ Para este passo vamos implementar os seguintes elementos para apresentar informa
 
 - `ProgressBar` - Para apresentar a vida do jogador.
 
-### Fazendo a ligação do elemento da interface com uma função
+### 3.1. Fazendo a ligação do elemento da interface com uma função
 
 Devemos conectar os elementos da interface com funções por meio de uma propriedade `Bind`.
 
@@ -121,7 +124,7 @@ Devemos conectar os elementos da interface com funções por meio de uma proprie
     caption="Figura: Blueprint - Widget HUD Progress Bar Bind."
 %}
 
-### Função do calculo de vida do jogador
+### 3.2. Função do calculo de vida do jogador
 
 Para calcular o valor da vida do jogador vamos implementar uma função, abaixo a lógica da função associada a elemento `ProgressBar`.
 
@@ -131,7 +134,7 @@ Para calcular o valor da vida do jogador vamos implementar uma função, abaixo 
     caption="Figura: Widget HUD Progress Bar function."
 %}
 
-### Função para pegar o nome do jogador
+### 3.3. Função para pegar o nome do jogador
 
 Podemos utilizar Variáveis estruturadas para manipulação das propriedades do jogador.
 
@@ -141,7 +144,7 @@ Podemos utilizar Variáveis estruturadas para manipulação das propriedades do 
     caption="Figura: Widget HUD name player function."
 %}
 
-## Organizando os objetos
+## 4. Organizando os objetos
 
 ***
 
@@ -155,7 +158,7 @@ A seguir vamos apresentar algumas implementações e organizaremos todos os obje
 
 - Performance.
 
-### Criando o objeto SaveGame para salvar dados do jogo
+### 4.1. Criando o objeto SaveGame para salvar dados do jogo
 
 Para exemplificar algumas funções do menu como por exemplo salvar dados do jogo vamos realizar as seguintes operações.
 
@@ -177,7 +180,7 @@ Adicionamos variáveis dentro do objeto para definir o que deve ser salvo, neste
 
 Nos próximos passos vamos criar o objeto *BP_GameInstanceJogo* do tipo *GameInstance* e adicionar os eventos customizados (`Add custon event`) a seguir.
 
-### Evento para apresentar o menu na tela
+### 4.2. Evento para apresentar o menu na tela
 
 Implementamos um evento customizado para adicionar lógica dos eventos.
 
@@ -191,7 +194,7 @@ Implementamos um evento customizado para adicionar lógica dos eventos.
 
 - `Set Input Mode UI Only` - Esta função determina que o controle de entrada de dados será somente pelo `Widget`.
 
-### Evento para abrir um Level
+### 4.3. Evento para abrir um Level
 
 Neste passo vamos adicionar um evento customizado ,`add custom event`, para carregar um *level* na cena.
 
@@ -205,7 +208,7 @@ Neste passo vamos adicionar um evento customizado ,`add custom event`, para carr
 
 - `Set Input Mode Game Only` - Esta função determina que o controle de entrada de dados será somente pelo jogo.
 
-### Salvando dados
+### 4.4. Salvando dados
 
 Para salvar informações vamos utilizar a função `Save Game to Slot`.
 
@@ -219,7 +222,7 @@ Para salvar informações vamos utilizar a função `Save Game to Slot`.
 
 - `Save Game to Slot` - Salva os dados e cria um `Slot Name` *Salvo1*.
 
-### Evento para carregar dados
+### 4.5. Evento para carregar dados
 
 Para carregar dados salvos utilizamos a função `Load Game from Slot` passando como parâmetro o nome do *slot*.
 
@@ -233,7 +236,7 @@ Para carregar dados salvos utilizamos a função `Load Game from Slot` passando 
 
 - `Load Game from Slot` - Carrega as variáveis salvas em `Slot Name`, neste caso *Salvo1*.
 
-### Voltando ao jogo
+### 4.6. Voltando ao jogo
 
 Vamos agora remover o menu ou objeto `Widget` da cena utilizando a função `Remove from parent`.
 
@@ -245,7 +248,7 @@ Vamos agora remover o menu ou objeto `Widget` da cena utilizando a função `Rem
 
 - `Remove from Parent` - Remove o widget de seu `Widget` pai. Se este `Widget` foi adicionado à tela do jogador ou à janela de visualização, ele também será removido desses recipientes.
 
-### Iniciando Game Instance no Widget
+### 4.7. Iniciando Game Instance no Widget
 
 No objeto BP_HUD_Demo vamos substituir ou adicionar a lógica dos botões, mas antes devemos inicializar a `Game Instance`.
 
@@ -255,7 +258,7 @@ No objeto BP_HUD_Demo vamos substituir ou adicionar a lógica dos botões, mas a
     caption="Figura: Blueprint - Widget HUD gameinstance."
 %}
 
-### Efetuando as chamadas das funções
+### 4.8. Efetuando as chamadas das funções
 
 No evento click dos botões vamos adicionar os eventos construídos dentro da *Game Instance* isolando a regra de negócios (dados e lógica e manipulação).
 

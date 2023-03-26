@@ -5,24 +5,12 @@ keywords: [Desenvolvimento com Unreal Engine, Jogos com Unreal Engine]
 tags: [Unreal Engine, jogos digitais, desenvolvimento, Blueprint, c++, game digital]
 layout: post
 sidebar:  
-  - title: "INTRODUÇÃO AO UNREAL ENGINE"
-    nav: "dev_unreal_intro"
-  - title: "PROGRAMAÇÃO COM UNREAL ENGINE"
-    nav: "dev_unreal_programacao"    
-  - title: "ESTRUTURA DE DADOS"
-    nav: "dev_unreal_estruturas"        
-  - title: "INTERFACE COM O JOGADOR"
-    nav: "dev_unrealdev_unreal_interface"            
-  - title: "MOVIMENTAÇÃO E ANIMAÇÃO DE PERSONAGENS"
-    nav: "dev_unreal_movimentacao"                
-  - title: "INTELIGÊNCIA ARTIFICIAL"
-    nav: "dev_unreal_inteligencia"                    
-  - title: "MATERIAIS E LANDSCAPE"
-    nav: "dev_unreal_materiais"                        
-  - title: "MULTIPLAYER"
-    nav: "dev_unreal_multiplayer"                            
-  - title: "EFEITOS ESPECIAIS E ANIMAÇÃO DE CENAS"
-    nav: "dev_unreal_efeitos"                                
+  - title: "DESENVOLVIMENTO DE JOGOS"
+    nav: "dev_game"
+  - title: PROGRAMAÇÃO EM C++  
+    nav: dev_cpp
+  - title: "BANCO DE DADOS"
+    nav: "banco_dados"  
 ---
 
 {% include logo.html

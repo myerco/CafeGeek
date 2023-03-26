@@ -6,20 +6,23 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "INTERFACE COM O JOGADOR"
+    nav: "dev_unreal_interface"
 date: 2022-09-25 
 ---
 
 ***
 
-- [Como interagir com o jogador?](#como-interagir-com-o-jogador)
-  - [Menos é Melhor](#menos-é-melhor)
-- [Implementando o Widget para o construir o menu do jogo](#implementando-o-widget-para-o-construir-o-menu-do-jogo)
-  - [Criando o Widget](#criando-o-widget)
-  - [Usando o editor de de Widget](#usando-o-editor-de-de-widget)
-  - [Hierarchy - Hierarquia de elementos](#hierarchy---hierarquia-de-elementos)
-  - [Entendo alinhamento utilizando Anchors](#entendo-alinhamento-utilizando-anchors)
-  - [Horizontal ou Vertical Box](#horizontal-ou-vertical-box)
-  - [Grid Panel](#grid-panel)
+- [1. Como interagir com o jogador?](#1-como-interagir-com-o-jogador)
+  - [1.1. Menos é Melhor](#11-menos-é-melhor)
+- [2. Implementando o Widget para o construir o menu do jogo](#2-implementando-o-widget-para-o-construir-o-menu-do-jogo)
+  - [2.1. Criando o Widget](#21-criando-o-widget)
+  - [2.2. Usando o editor de de Widget](#22-usando-o-editor-de-de-widget)
+  - [2.3. Hierarchy - Hierarquia de elementos](#23-hierarchy---hierarquia-de-elementos)
+  - [2.4. Entendo alinhamento utilizando Anchors](#24-entendo-alinhamento-utilizando-anchors)
+  - [2.5. Horizontal ou Vertical Box](#25-horizontal-ou-vertical-box)
+  - [2.6. Grid Panel](#26-grid-panel)
   
 ***
 
@@ -27,7 +30,7 @@ HUD (*Heads-up Display*) ou UI (*Use Interface*) é um objeto especial do **Unre
 
 Neste capitulo vamos apresentar formas de interação com o jogador e depois construir objetos os necessários.
 
-## Como interagir com o jogador?
+## 1. Como interagir com o jogador?
 
 ***
 
@@ -35,7 +38,7 @@ Durante o tempo do jogo é necessário interagir com o jogador de diversas forma
 
 De outra forma, o comunicação de ações globais do jogo como por exemplo iniciar uma missão, salvar o jogo, sair do jogo e gerenciamento de configuração são formas de interação jogo vs player que utilizam menus através de botões, caixas rolantes e outros componentes.
 
-### Menos é Melhor
+### 1.1. Menos é Melhor
 
 Uma dica simples, segundo as boas práticas de IHC (Interface Homem Computador), é **"Menos é melhor"**, onde devemos apresentar somente o necessário para o jogador e deixar a maior parte da experiência do jogador para o *Gameplay*.
 
@@ -73,7 +76,7 @@ Agora vamos apresentar informações do personagem na tela do jogador:
 
 1. É possível apresentar o `Widget` quando o personagem é instancia na cena.
 
-## Implementando o Widget para o construir o menu do jogo
+## 2. Implementando o Widget para o construir o menu do jogo
 
 ***
 
@@ -85,7 +88,7 @@ No **Unreal Engine** utilizamos um objeto com atributos e métodos próprios par
     caption="Figura: Widget Editor Blueprint - Unreal Engine doc."
 %}
 
-### Criando o Widget
+### 2.1. Criando o Widget
 
 Utilizando o `Context Menu` escolha a opção `User Interface/Widget Blueprint`.
 
@@ -95,7 +98,7 @@ Utilizando o `Context Menu` escolha a opção `User Interface/Widget Blueprint`.
     caption="Figura: Context Menu/ User Interface/ Widget Blueprint."
 %}
 
-### Usando o editor de de Widget
+### 2.2. Usando o editor de de Widget
 
 O editor de Widget é divido em :
 
@@ -109,7 +112,7 @@ O editor de Widget é divido em :
     caption="Figura: Widget Designer e Graph."
 %}
 
-### Hierarchy - Hierarquia de elementos
+### 2.3. Hierarchy - Hierarquia de elementos
 
 Os elementos apresentados na Widget seguem uma hierarquia que determina o posicionamento relativo na tela.
 
@@ -133,7 +136,7 @@ Os elementos apresentados na Widget seguem uma hierarquia que determina o posici
     caption="Figura: Widget Designer."
 %}
 
-### Entendo alinhamento utilizando Anchors
+### 2.4. Entendo alinhamento utilizando Anchors
 
 Para gerenciar melhor o posicionamento de objetos no `Widget Designer` vamos entender o objeto `Anchor` (Âncora).
 
@@ -181,7 +184,7 @@ Para gerenciar melhor o posicionamento de objetos no `Widget Designer` vamos ent
 
 - `Alignment`  permite alinhar o elemento com a `Anchors`, como por exemplo inserir os valores X = 0.5 e Y = 0.5 para centralizar o objeto com a `Anchor`.
 
-### Horizontal ou Vertical Box
+### 2.5. Horizontal ou Vertical Box
 
 Estes elementos são utilizados para organizar os objetos Horizontal ou verticalmente. Ao adicionar elementos hierarquicamente abaixo de um `Vertical` ou `Horizontal box` eles serão organizados um ao lado do outro.
 
@@ -209,7 +212,7 @@ Estes elementos são utilizados para organizar os objetos Horizontal ou vertical
     caption="Figura: Widget Vertical Box Size fill UMG."
 %}
 
-### Grid Panel
+### 2.6. Grid Panel
 
 Como o nome anuncia, os elementos hierarquicamente agrupados abaixo do painel serão organizados em forma de um grid (matriz).
 

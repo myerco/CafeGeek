@@ -6,25 +6,28 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "MOVIMENTAÇÃO E ANIMAÇÃO DE PERSONAGENS"
+    nav: "dev_unreal_movimentacao"
 date: 2022-09-25 
 ---
 
 ***
 
-- [Aim Offset](#aim-offset)
-  - [Animation Starter Pack](#animation-starter-pack)
-  - [Preparando o projeto](#preparando-o-projeto)
-  - [Removendo frames](#removendo-frames)
+- [1. Aim Offset](#1-aim-offset)
+  - [1.1. Animation Starter Pack](#11-animation-starter-pack)
+  - [1.2. Preparando o projeto](#12-preparando-o-projeto)
+  - [1.3. Removendo frames](#13-removendo-frames)
 
 ***
 
-## Aim Offset
+## 1. Aim Offset
 
 ***
 
 Um Aim Offset é um recurso que armazena uma série de poses que podem ser combinadas para ajudar um personagem a apontar uma arma. Durante a animação, o resultado do Aim Offset é misturado com outros movimentos, como correr, caminhar, pular, etc. para fazer com que o personagem pareça olhar suavemente em todas as direções.
 
-### Animation Starter Pack
+### 1.1. Animation Starter Pack
 
 A **Epic Store** oferece um pacote de animações para o Mannequin, facilitando a prototipação do personagem utilizando armas de tiro.
 
@@ -34,7 +37,7 @@ A **Epic Store** oferece um pacote de animações para o Mannequin, facilitando 
     caption="Figura: Unreal Engine - Adicionando o pacote Animation Starter Pack."
 %}
 
-### Preparando o projeto
+### 1.2. Preparando o projeto
 
 Neste passo vamos criar várias animações com o personagem mirando utilizando a animação `Aim_Space_hip` como base. Estas animações servem de referência para realizar a interpolação.
 
@@ -64,7 +67,7 @@ Neste passo vamos criar várias animações com o personagem mirando utilizando 
     caption="Figura: Unreal Engine - Editor Aim Offset."
 %}
 
-### Removendo frames
+### 1.3. Removendo frames
 
 Vamos remover frames antes e depois da pose final que estamos querendo obter.
 

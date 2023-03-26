@@ -6,23 +6,26 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "MATERIAIS E LANDSCAPE"
+    nav: "dev_unreal_materiais"
 date: 2022-09-21 
 ---
 
 ***
 
-- [Implementando Material Instance com Blueprint](#implementando-material-instance-com-blueprint)
-- [Parameter Global](#parameter-global)
-- [Material Function](#material-function)
-  - [MakeMaterialAttribute](#makematerialattribute)
-  - [BreakMaterialAttribute](#breakmaterialattribute)
-  - [Parâmetros dentro das funções](#parâmetros-dentro-das-funções)
-  - [Adicionando Propriedades em uma material Function](#adicionando-propriedades-em-uma-material-function)
-  - [BlendMaterialAttribute](#blendmaterialattribute)
+- [1. Implementando Material Instance com Blueprint](#1-implementando-material-instance-com-blueprint)
+- [2. Parameter Global](#2-parameter-global)
+- [3. Material Function](#3-material-function)
+  - [3.1. MakeMaterialAttribute](#31-makematerialattribute)
+  - [3.2. BreakMaterialAttribute](#32-breakmaterialattribute)
+  - [3.3. Parâmetros dentro das funções](#33-parâmetros-dentro-das-funções)
+  - [3.4. Adicionando Propriedades em uma material Function](#34-adicionando-propriedades-em-uma-material-function)
+  - [3.5. BlendMaterialAttribute](#35-blendmaterialattribute)
 
 ***
 
-## Implementando Material Instance com Blueprint
+## 1. Implementando Material Instance com Blueprint
 
 ***
 
@@ -67,7 +70,7 @@ O script habilita o click do mouse e quando selecionado um objeto o evento custo
     caption="Figura: No Level Blueprint implemente a lógica para chamar o Evento ChangeColor."
 %}
 
-## Parameter Global
+## 2. Parameter Global
 
 ***
 
@@ -99,7 +102,7 @@ No Editor de Materiais usamos o menu de contexto (RMB) e escolhemos a opção `M
     caption="Figura: Blueprint Material - Chamando no editor de materiais um Collection Parameter."
 %}
 
-## Material Function
+## 3. Material Function
 
 ***
 
@@ -124,7 +127,7 @@ Utilizamos o menu de Contexto `Material & Textures` > `Material Function` para c
     caption="Figura: Chamamos a função dentro do editor de materiais usando a função MaterialFunctionCall."
 %}
 
-### MakeMaterialAttribute
+### 3.1. MakeMaterialAttribute
 
 O nó `Make Material Attributes` une vários atributos. Isso é útil ao criar suas próprias funções de camada de material, pois você terá acesso a todos os atributos padrão para sua saída. Isso também pode ser usado para configurações de material complexas nas quais você deseja definir mais de um tipo de material e combiná-los, tudo dentro de um material.
 
@@ -142,7 +145,7 @@ Ao usar a nó é necessário configurar o nó resultado do material principal co
     caption="Figura: Devemos configurar o nó resultado do material com Use Material Attribute true."
 %}
 
-### BreakMaterialAttribute
+### 3.2. BreakMaterialAttribute
 
 É o inverso de `MakeMaterialAttribute` possibilitando a separação dos atributos recebidos por uma função.
 
@@ -152,7 +155,7 @@ Ao usar a nó é necessário configurar o nó resultado do material principal co
     caption="Figura: Blueprint Material - BreakMaterialAttribute."
 %}
 
-### Parâmetros dentro das funções
+### 3.3. Parâmetros dentro das funções
 
 Podemos adicionar parâmetros utilizamos o nó  `Input <Type>`.
 
@@ -174,7 +177,7 @@ Chamamos a função dentro de um material expression utilizando:
 
 Logo em seguida configuramos a propriedade `Material Function`.
 
-### Adicionando Propriedades em uma material Function
+### 3.4. Adicionando Propriedades em uma material Function
 
 Usamos `SetMaterialAttributes` para adicionar outros atributos no resultado de uma função que retorna um conjunto de atributos.
 
@@ -184,7 +187,7 @@ Usamos `SetMaterialAttributes` para adicionar outros atributos no resultado de u
     caption="Figura: Blueprint Material - A função MF_Base retorna um conjunto de atributos e com o nó SetMaterialAttributes podemos adicionar ou alterar os atributos vindos da função."
 %}
 
-### BlendMaterialAttribute
+### 3.5. BlendMaterialAttribute
 
 Usamos `BlendMaterialAttribute` para misturar duas funções, implementaremos duas funções, MF_Base e MF_Mistura, para exemplificar [Make Material Attributes](https://docs.unrealengine.com/5.0/en-US/material-attributes-expressions-in-unreal-engine/).
 

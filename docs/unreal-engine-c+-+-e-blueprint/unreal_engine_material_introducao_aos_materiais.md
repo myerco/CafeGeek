@@ -6,38 +6,41 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "MATERIAIS E LANDSCAPE"
+    nav: "dev_unreal_materiais"
 date: 2022-09-24 
 ---
 
 ***
 
-- [O que é um material?](#o-que-é-um-material)
-- [Materiais de base física - PBR](#materiais-de-base-física---pbr)
-- [Estrutura do Material no Unreal Engine](#estrutura-do-material-no-unreal-engine)
-  - [Criando um material](#criando-um-material)
-  - [Editor de Materiais](#editor-de-materiais)
-- [O que são Material expressions?](#o-que-são-material-expressions)
-  - [Valores que determinam a física](#valores-que-determinam-a-física)
-  - [Texture samples](#texture-samples)
-- [O Nó principal ou Node Result](#o-nó-principal-ou-node-result)
-  - [Base color](#base-color)
-  - [Normal](#normal)
-  - [Textura Normal](#textura-normal)
-  - [Metallic](#metallic)
-  - [Textura Metallic](#textura-metallic)
-  - [Roughness](#roughness)
-  - [Textura Roughness](#textura-roughness)
-  - [Specular](#specular)
-  - [Ambient Occlusion](#ambient-occlusion)
-- [Propriedades do nó principal](#propriedades-do-nó-principal)
-  - [Blend Mode](#blend-mode)
-  - [Shading Model](#shading-model)
-  - [Material Domain](#material-domain)
-- [Aplicando o material no objeto](#aplicando-o-material-no-objeto)
+- [1. O que é um material?](#1-o-que-é-um-material)
+- [2. Materiais de base física - PBR](#2-materiais-de-base-física---pbr)
+- [3. Estrutura do Material no Unreal Engine](#3-estrutura-do-material-no-unreal-engine)
+  - [3.1. Criando um material](#31-criando-um-material)
+  - [3.2. Editor de Materiais](#32-editor-de-materiais)
+- [4. O que são Material expressions?](#4-o-que-são-material-expressions)
+  - [4.1. Valores que determinam a física](#41-valores-que-determinam-a-física)
+  - [4.2. Texture samples](#42-texture-samples)
+- [5. O Nó principal ou Node Result](#5-o-nó-principal-ou-node-result)
+  - [5.1. Base color](#51-base-color)
+  - [5.2. Normal](#52-normal)
+  - [5.3. Textura Normal](#53-textura-normal)
+  - [5.4. Metallic](#54-metallic)
+  - [5.5. Textura Metallic](#55-textura-metallic)
+  - [5.6. Roughness](#56-roughness)
+  - [5.7. Textura Roughness](#57-textura-roughness)
+  - [5.8. Specular](#58-specular)
+  - [5.9. Ambient Occlusion](#59-ambient-occlusion)
+- [6. Propriedades do nó principal](#6-propriedades-do-nó-principal)
+  - [6.1. Blend Mode](#61-blend-mode)
+  - [6.2. Shading Model](#62-shading-model)
+  - [6.3. Material Domain](#63-material-domain)
+- [7. Aplicando o material no objeto](#7-aplicando-o-material-no-objeto)
 
 ***
 
-## O que é um material?
+## 1. O que é um material?
 
 ***
 
@@ -51,7 +54,7 @@ Podemos definir como uma coleção de imagens e instruções computacionais que 
 
 No exemplo acima podemos verificar uma esfera com diferentes tipos de materiais adicionados na sua superfície, onde cada um interage de forma diferente a iluminação.
 
-## Materiais de base física - PBR
+## 2. Materiais de base física - PBR
 
 ***
 
@@ -63,13 +66,13 @@ PBR *Physically Based Rendering* significa que o material descreve as propriedad
     caption="Figura: Material PBR - <https://www.pikpng.com>."
 %}
 
-## Estrutura do Material no Unreal Engine
+## 3. Estrutura do Material no Unreal Engine
 
 ***
 
 A primeira e mais importante coisa a saber sobre os Materiais é que eles não são construídos por meio de código, mas por meio de uma rede de nós de script visual (chamados de Expressões de Material) dentro do Editor de Material. Cada nó contém um fragmento de código HLSL, designado para executar uma tarefa específica.
 
-### Criando um material
+### 3.1. Criando um material
 
 Para criar um material utilizamos o menu de contexto e a opção `Material`.
 
@@ -81,7 +84,7 @@ Para criar um material utilizamos o menu de contexto e a opção `Material`.
 
 Salve o material como `M_Base`.
 
-### Editor de Materiais
+### 3.2. Editor de Materiais
 
 O Editor de Materiais consistem em uma barra de menu, toolbar e cinco regiões de propriedades [[Material Editor UI](https://docs.unrealengine.com/5.0/en-US/unreal-engine-material-editor-ui/)].
 
@@ -103,7 +106,7 @@ O Editor de Materiais consistem em uma barra de menu, toolbar e cinco regiões d
 
 1. Lista de funções ou nós disponíveis.
 
-## O que são Material expressions?
+## 4. O que são Material expressions?
 
 ***
 
@@ -125,7 +128,7 @@ Combinando `Material Expressions`, a área de trabalho é um modelo de programa�
 
 > **Atenção** - Devemos considerar o tipo de valor de retorno do nó no momento da conexão para evitar erros de tipos conflitantes, por exemplo float3 * float2.
 
-### Valores que determinam a física
+### 4.1. Valores que determinam a física
 
 Existem variáveis ou nós específicos para determinar uma propriedade física do material, por exemplo um valor `float` com valores entre 0 e 1 que expressam a escala de tonalidades de cor, sombra e pedaços (pixels) de uma área.
 
@@ -153,7 +156,7 @@ Existem variáveis ou nós específicos para determinar uma propriedade física 
   caption="Figura: Blueprint Material - Constant 3 - (Clicando 3 + RMB) para implementar o nó."
 %}
 
-### Texture samples
+### 4.2. Texture samples
 
 Texturas são imagens que são usadas em materiais e são representadas pelo nó abaixo.
 
@@ -178,7 +181,7 @@ A seguir vamos abordar as características das texturas no **Unreal Engine**.
   caption="Figura: Blueprint Material, no exemplo utilizamos uma textura para determinar a cor base do objeto, utilizamos o canal vermelho (R) e o canal aplha (A) para alterar as propriedades do material."
 %}
 
-## O Nó principal ou Node Result
+## 5. O Nó principal ou Node Result
 
 ***
 
@@ -192,7 +195,7 @@ Abaixo o nó principal e suas principais entradas.
   caption="Figura: Blueprint Material e nó principal, nó que compila todos os parâmetros e valores e aplica no malha."
 %}
 
-### Base color
+### 5.1. Base color
 
 A Cor Base define a cor geral do Material, tomando um valor Vector3 (RGB) onde cada canal é automaticamente fixado entre 0 e 1.
 
@@ -204,7 +207,7 @@ Se tirada do mundo real, esta é a cor quando fotografada usando um filtro polar
   caption="Figura: Unreal Engine - Propriedade Base color determina a cor base do material."
 %}
 
-### Normal
+### 5.2. Normal
 
 O mapa Normal define em qual direção uma parte de uma superfície é voltada, que é usada para criar sombras e realces detalhados.
 
@@ -226,7 +229,7 @@ O mapa Normal define em qual direção uma parte de uma superfície é voltada, 
   caption="Figura: Exemplo de uma textura de mapa normal."
 %}
 
-### Textura Normal
+### 5.3. Textura Normal
 
 Usado para simular a maneira como a luz interage com a superfície do material para simular saliências e amassados menores.
 É importante observar que um mapa normal não mudará sua geometria base (consulte os mapas de altura posteriormente neste artigo).
@@ -239,7 +242,7 @@ Usado para simular a maneira como a luz interage com a superfície do material p
 
 A cor base de um mapa normal é roxo claro, esta é a “parte inferior” do mapa normal que representa a superfície de sua malha poligonal. A partir daí, os valores RGB são usados para produzir rachaduras, saliências ou poros em seu modelo. Os valores R, G e B são iguais às coordenadas X, Y e Z em sua malha base.
 
-### Metallic
+### 5.4. Metallic
 
 O mapa Metálico define quais partes de um material são metálicas e quais não são. Seu valor será 0 ou 1, nada intermediário. Ao criar superfícies híbridas como metais corroídos, empoeirados ou enferrujados, você pode achar que precisa de algum valor entre 0 e 1.
 
@@ -255,7 +258,7 @@ O mapa Metálico define quais partes de um material são metálicas e quais não
   caption="Figura: Exemplo de um vetor 3 e o valor escalar de 1 no parâmetro Metallic."
 %}
 
-### Textura Metallic
+### 5.5. Textura Metallic
 
 Os mapas de metal também são em tons de cinza, mas a prática recomendada é usar apenas os valores de branco e preto e fazer as variações entre o uso de seus mapas de rugosidade.
 
@@ -267,7 +270,7 @@ Para exemplificar utilizaremos o canal R (Red) da textura *Rock Basalt*.
   caption="Figura: Exemplo de uma textura que pode ser utilizada como base do parâmetro metallic, a textura é gradiente de negro e branco e representa a escala de 0 (negro) e 1 (branco)"
 %}
 
-### Roughness
+### 5.6. Roughness
 
 O mapa de rugosidade define a rugosidade de uma superfície. Uma rugosidade de 0 (suave) resulta em uma reflexão de espelho e rugosidade de 1 (áspera) resulta em uma superfície difusa (ou fosca).
 
@@ -287,7 +290,7 @@ Por outro lado, se você aumentar a rugosidade ao máximo, a luz se espalhará m
   caption="Figura: Exemplo da rugosidade, zero representa sem rugossidade."
 %}
 
-### Textura Roughness
+### 5.7. Textura Roughness
 
 Para exemplificar utilizaremos o canal A (Alpha) da textura `Rock Basalt`.
 
@@ -297,7 +300,7 @@ Para exemplificar utilizaremos o canal A (Alpha) da textura `Rock Basalt`.
   caption="Figura: Esses mapas são em tons de cinza, com o branco sendo a aspereza máxima e o preto sendo uma superfície lisa e brilhante."
 %}
 
-### Specular
+### 5.8. Specular
 
 Ao editar um material de superfície não metálico, há momentos em que você deseja ajustar sua capacidade de refletir a luz, especificamente, sua propriedade Specular. Para atualizar o Specular de um Material, insira um valor escalar entre 0 (não refletivo) e 1 (totalmente refletivo). Observe que o valor especular padrão de um material é 0,5.
 
@@ -318,7 +321,7 @@ Valores especulares medidos:
   caption="Figura: Parâmetro Specular."
 %}
 
-### Ambient Occlusion
+### 5.9. Ambient Occlusion
 
 O mapa Ambient Occlusion (AO) pode ser usado para simular sombras suaves nas saliências de uma superfície. Não é realmente necessário criar materiais realistas no Blender (especialmente com Cycles), mas você ainda pode usá-lo para escurecer as pequenas sombras na superfície.
 
@@ -340,13 +343,13 @@ O mapa Ambient Occlusion (AO) pode ser usado para simular sombras suaves nas sal
   caption="Figura:Scene with Ambient Occlusion."
 %}
 
-## Propriedades do nó principal
+## 6. Propriedades do nó principal
 
 ***
 
 Nem todas as entradas serão úteis para cada tipo de material que você criar. Por exemplo, ao desenvolver uma Função de Luz - um Material que é aplicado a uma luz - você só pode usar a entrada Cor Emissiva no material e nada mais, visto que outras entradas, como Metálico ou Aspereza, não seriam aplicáveis. Por isso, é importante saber que tipo de material você está criando antes de começar a se preocupar muito com as entradas. As três propriedades de controle primárias são:
 
-### Blend Mode
+### 6.1. Blend Mode
 
 Controla como o seu material se mesclará com os pixels por trás dele.
 
@@ -413,7 +416,7 @@ Controla como o seu material se mesclará com os pixels por trás dele.
   caption="Figura: Material BlendModes - Modulate <https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)>."
 %}
   
-### Shading Model
+### 6.2. Shading Model
 
 Define como a luz é calculada para a superfície do material.
 
@@ -423,7 +426,7 @@ Define como a luz é calculada para a superfície do material.
     caption="Figura: Shading Models <https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/LightingModels/>."
 %}
 
-### Material Domain
+### 6.3. Material Domain
 
 Controla como o material deve ser usado, por exemplo, se ele deve fazer parte de uma superfície, uma função leve ou um material pós-processamento.
 
@@ -449,7 +452,7 @@ Controla como o material deve ser usado, por exemplo, se ele deve fazer parte de
     caption="Figura: Material Domain."
 %}
 
-## Aplicando o material no objeto
+## 7. Aplicando o material no objeto
 
 ***
 

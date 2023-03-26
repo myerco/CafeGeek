@@ -6,29 +6,32 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "MATERIAIS E LANDSCAPE"
+    nav: "dev_unreal_materiais"
 date: 2022-09-21 
 ---
 
 ***
 
-- [O que é Material Instance?](#o-que-é-material-instance)
-  - [Convertendo nós em parâmetros](#convertendo-nós-em-parâmetros)
-  - [Criando Material Instance](#criando-material-instance)
-- [Editor de material Instance](#editor-de-material-instance)
-- [Switch Parameter](#switch-parameter)
-- [Organizando parâmetros e definindo valor máximo e mínimo](#organizando-parâmetros-e-definindo-valor-máximo-e-mínimo)
-  - [Group](#group)
-  - [Valor Mínimo e Máximo](#valor-mínimo-e-máximo)
+- [1. O que é Material Instance?](#1-o-que-é-material-instance)
+  - [1.1. Convertendo nós em parâmetros](#11-convertendo-nós-em-parâmetros)
+  - [1.2. Criando Material Instance](#12-criando-material-instance)
+- [2. Editor de material Instance](#2-editor-de-material-instance)
+- [3. Switch Parameter](#3-switch-parameter)
+- [4. Organizando parâmetros e definindo valor máximo e mínimo](#4-organizando-parâmetros-e-definindo-valor-máximo-e-mínimo)
+  - [4.1. Group](#41-group)
+  - [4.2. Valor Mínimo e Máximo](#42-valor-mínimo-e-máximo)
 
 ***
 
-## O que é Material Instance?
+## 1. O que é Material Instance?
 
 ***
 
 A **Mateial Instance** ou Instanciação de Material é uma maneira de criar um Material pai, que pode então ser usado como base para fazer uma ampla variedade de Materiais filhos de aparência diferente. Para obter essa flexibilidade, o **Material Instancing** usa um conceito chamado herança: as propriedades do pai são fornecidas aos seus filhos. Aqui está um exemplo de herança de material em ação.
 
-### Convertendo nós em parâmetros
+### 1.1. Convertendo nós em parâmetros
 
 Convertemos os nós em parâmetros para que possam ser manipulados posteriormente pelo **Material Instance**. Para que possamos exemplificar segue abaixo os passos.
 
@@ -69,7 +72,7 @@ Sugestão de grupos:
 
 - Metallic, Roughness: Vector Parameter Values : Color (R,G,B,A), UVTiling(R,G,B,A).
 
-### Criando Material Instance
+### 1.2. Criando Material Instance
 
 Selecione o material `M_Base_Master` ou outro material e com o botão direito acione o menu de contexto e escolha `Create Material Instance`.
 
@@ -79,7 +82,7 @@ Selecione o material `M_Base_Master` ou outro material e com o botão direito ac
     caption="Figura: Criando um objeto Material Instance."
 %}
 
-## Editor de material Instance
+## 2. Editor de material Instance
 
 ***
 
@@ -96,7 +99,7 @@ Selecione o material `M_Base_Master` ou outro material e com o botão direito ac
 
 - `Parent` - Material pai.
 
-## Switch Parameter
+## 3. Switch Parameter
 
 ***
 
@@ -108,13 +111,13 @@ Selecione o material `M_Base_Master` ou outro material e com o botão direito ac
     caption="Figura: O nó Switch Parameters é visível no Editor de Material Instance e permite alternar entre dois valores, no exemplo acima o parâmetro é chamado de ColorSwitch."
 %}
 
-## Organizando parâmetros e definindo valor máximo e mínimo
+## 4. Organizando parâmetros e definindo valor máximo e mínimo
 
 ***
 
 Podemos organizar os parâmetros agrupando com a opção `Group` do nó e com `Sort Priority` ordenamos a visualização.
 
-### Group
+### 4.1. Group
 
 No exemplo abaixo criamos os grupos:
 
@@ -130,7 +133,7 @@ No exemplo abaixo criamos os grupos:
     caption="Figura: Criando vários parâmetros agrupados."
 %}
 
-### Valor Mínimo e Máximo
+### 4.2. Valor Mínimo e Máximo
 
 Podemos limitar os valores mínimo e máximo que podem ser passados como parâmetro utilizando a opção `Slider`.
 

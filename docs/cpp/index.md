@@ -4,8 +4,12 @@ description: Programação em linguagem C++
 tags: [programação, cpp, c++, lógica]
 layout: post
 sidebar:  
-  - title: "PROGRAMAÇÃO EM C++"
-    nav: "dev_cpp"
+  - title: "DESENVOLVIMENTO DE JOGOS"
+    nav: "dev_game"
+  - title: PROGRAMAÇÃO EM C++  
+    nav: dev_cpp
+  - title: "BANCO DE DADOS"
+    nav: "banco_dados"  
 date: 2023-03-25     
 ---
 

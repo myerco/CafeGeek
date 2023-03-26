@@ -6,32 +6,35 @@ categories: Unreal Engine
 author: 
 - Cafegeek
 layout: post
+sidebar:  
+  - title: "MOVIMENTAÇÃO E ANIMAÇÃO DE PERSONAGENS"
+    nav: "dev_unreal_movimentacao"
 date: 2022-09-25 
 ---
 
 ***
 
-- [O que é Animation Blueprint?](#o-que-é-animation-blueprint)
-  - [Implementado Animation Blueprint utilizando o Humano](#implementado-animation-blueprint-utilizando-o-humano)
-- [Estados de maquina ou State Machine](#estados-de-maquina-ou-state-machine)
-- [Blend Space e State Machine](#blend-space-e-state-machine)
-- [Blend Space 1D](#blend-space-1d)
-- [Blend Space](#blend-space)
-  - [Exemplo de um personagem saltando](#exemplo-de-um-personagem-saltando)
-  - [Implementado Animation Blueprint utilizando o Mutante](#implementado-animation-blueprint-utilizando-o-mutante)
-  - [Vídeo Animation Blueprint do Mutante](#vídeo-animation-blueprint-do-mutante)
-- [Implementando a Corrida](#implementando-a-corrida)
-  - [Vídeo Implementando a corrida do mutante](#vídeo-implementando-a-corrida-do-mutante)
-- [Montando a animação de ataque](#montando-a-animação-de-ataque)
-  - [Vídeo montando Animação de ataque](#vídeo-montando-animação-de-ataque)
-- [Animação básica com AnimGraph](#animação-básica-com-animgraph)
-  - [BasicLocomotion](#basiclocomotion)
-  - [Idle/Walk/Run](#idlewalkrun)
-- [Animação de ataque com AnimGraph](#animação-de-ataque-com-animgraph)
-  - [Vídeo montando o ataque](#vídeo-montando-o-ataque)
-- [Atacando somente com os braços](#atacando-somente-com-os-braços)
-- [Animação de ataque completa e correndo somente os braços](#animação-de-ataque-completa-e-correndo-somente-os-braços)
-  - [Vídeo do personagem correndo e atacando](#vídeo-do-personagem-correndo-e-atacando)
+- [1. O que é Animation Blueprint?](#1-o-que-é-animation-blueprint)
+  - [1.1. Implementado Animation Blueprint utilizando o Humano](#11-implementado-animation-blueprint-utilizando-o-humano)
+- [2. Estados de maquina ou State Machine](#2-estados-de-maquina-ou-state-machine)
+- [3. Blend Space e State Machine](#3-blend-space-e-state-machine)
+- [4. Blend Space 1D](#4-blend-space-1d)
+- [5. Blend Space](#5-blend-space)
+  - [5.1. Exemplo de um personagem saltando](#51-exemplo-de-um-personagem-saltando)
+  - [5.2. Implementado Animation Blueprint utilizando o Mutante](#52-implementado-animation-blueprint-utilizando-o-mutante)
+  - [5.3. Vídeo Animation Blueprint do Mutante](#53-vídeo-animation-blueprint-do-mutante)
+- [6. Implementando a Corrida](#6-implementando-a-corrida)
+  - [6.1. Vídeo Implementando a corrida do mutante](#61-vídeo-implementando-a-corrida-do-mutante)
+- [7. Montando a animação de ataque](#7-montando-a-animação-de-ataque)
+  - [7.1. Vídeo montando Animação de ataque](#71-vídeo-montando-animação-de-ataque)
+- [8. Animação básica com AnimGraph](#8-animação-básica-com-animgraph)
+  - [8.1. BasicLocomotion](#81-basiclocomotion)
+  - [8.2. Idle/Walk/Run](#82-idlewalkrun)
+- [9. Animação de ataque com AnimGraph](#9-animação-de-ataque-com-animgraph)
+  - [9.1. Vídeo montando o ataque](#91-vídeo-montando-o-ataque)
+- [10. Atacando somente com os braços](#10-atacando-somente-com-os-braços)
+- [11. Animação de ataque completa e correndo somente os braços](#11-animação-de-ataque-completa-e-correndo-somente-os-braços)
+  - [11.1. Vídeo do personagem correndo e atacando](#111-vídeo-do-personagem-correndo-e-atacando)
 
 ***
 
@@ -41,7 +44,7 @@ date: 2022-09-25
     caption="Figura: Unreal Engine - Animação e Blueprint."
 %}
 
-## O que é Animation Blueprint?
+## 1. O que é Animation Blueprint?
 
 ***
 
@@ -49,7 +52,7 @@ date: 2022-09-25
 
 Vamos implementar a lógica de movimentação utilizando o elemento Animation Blueprint para os personagens Human e Mutant.
 
-### Implementado Animation Blueprint utilizando o Humano
+### 1.1. Implementado Animation Blueprint utilizando o Humano
 
 O Editor é separado em `AnimGraph` e `EventGraph`, onde o primeiro implementa a lógica de nós de sequencias de animação e o segundo a lógica de programação **Blueprint**.
 
@@ -69,7 +72,7 @@ O Editor é separado em `AnimGraph` e `EventGraph`, onde o primeiro implementa a
     caption="Figura: Unreal Engine - Editor Animmation Blueprint MyBlueprint."
 %}
 
-## Estados de maquina ou State Machine
+## 2. Estados de maquina ou State Machine
 
 ***
 
@@ -93,7 +96,7 @@ O nó `Output Pose` é o estado ou pose final da animação. A seguir vamos cria
     caption="Figura: Unreal Engine - Add State Idle/Walk/Run."
 %}
 
-## Blend Space e State Machine
+## 3. Blend Space e State Machine
 
 ***
 
@@ -107,7 +110,7 @@ No gráfico de eventos ou EventGraph vamos adicionar o seguinte código.
     caption="Figura: Unreal Engine - Animation Blueprint -Speeed e Direction."
 %}
 
-## Blend Space 1D
+## 4. Blend Space 1D
 
 ***
 
@@ -119,7 +122,7 @@ Criado anteriormente, BS_Human1D recebe como parâmetro `Speed` dentro do nó `I
     caption="Figura: Unreal Engine - Blend Space 1D dentro do State."
 %}
 
-## Blend Space
+## 5. Blend Space
 
 ***
 
@@ -133,7 +136,7 @@ Nó `Idle/Walk/Run` adicionamos BS_Human que recebe como parâmetro `Speed` e `D
 
 Para os passos posteriores vamos utilizar o BS_Human (Blend Space).
 
-### Exemplo de um personagem saltando
+### 5.1. Exemplo de um personagem saltando
 
 Para simular o salto do personagem vamos adicionar os seguintes estados e em seguida fazer as suas conexões.
 
@@ -197,7 +200,7 @@ Devemos considerar que o salto depende se o personagem esta em queda e se a fun�
     caption="Figura: Unreal Engine - Exemplo da Classe BP e a Função Jump."
 %}
 
-### Implementado Animation Blueprint utilizando o Mutante
+### 5.2. Implementado Animation Blueprint utilizando o Mutante
 
 1. Usando o menu de contexto `Animation > Animation Blueprint` para criar ABP_Mutant;
 
@@ -211,7 +214,7 @@ Devemos considerar que o salto depende se o personagem esta em queda e se a fun�
     caption="Figura: Unreal Engine - Animação do mutante - AnimGraph BS_Mutant."
 %}
 
-### Vídeo Animation Blueprint do Mutante
+### 5.3. Vídeo Animation Blueprint do Mutante
 
 {% include video.html
     link="https://youtu.be/a2JULC4-P1o"
@@ -220,7 +223,7 @@ Devemos considerar que o salto depende se o personagem esta em queda e se a fun�
     caption="Animação do mutante  com Blueprint."
 %}
 
-## Implementando a Corrida
+## 6. Implementando a Corrida
 
 ***
 
@@ -232,7 +235,7 @@ Em este passo iremos implementar a corrida do personagem. Vamos configura o even
     caption="Figura: Unreal Engine - Implementando a corrida do mutante - Blueprint running."
 %}
 
-### Vídeo Implementando a corrida do mutante
+### 6.1. Vídeo Implementando a corrida do mutante
 
 {% include video.html
     link="https://youtu.be/k6tGHVm2BNQ"
@@ -241,7 +244,7 @@ Em este passo iremos implementar a corrida do personagem. Vamos configura o even
     caption="Vídeo: Unreal Engine - Implementando a corrida do mutante."
 %}
 
-## Montando a animação de ataque
+## 7. Montando a animação de ataque
 
 ***
 
@@ -271,7 +274,7 @@ Em este passo utilizaremos o `Animation Montage` para montar as animações de a
     caption="Figura: Unreal Engine - Animation Montage para o ataque 2."
 %}
 
-### Vídeo montando Animação de ataque
+### 7.1. Vídeo montando Animação de ataque
 
 {% include video.html
     link="https://youtu.be/Kufu78tu9EE"
@@ -280,7 +283,7 @@ Em este passo utilizaremos o `Animation Montage` para montar as animações de a
     caption="Vídeo: Unreal Engine - Animação de ataque."
 %}
 
-## Animação básica com AnimGraph
+## 8. Animação básica com AnimGraph
 
 ***
 
@@ -292,7 +295,7 @@ Em este passo utilizaremos a lógica de programação com AnimGraph para combina
 
 A seguir vamos criar um nós dentro do gráfico de estados para simular a animação básica.
 
-### BasicLocomotion
+### 8.1. BasicLocomotion
 
 Este estado dever conter a animação criadas anteriormente com o Blend space 1D, BS_Mutant.
 
@@ -313,7 +316,7 @@ Este estado dever conter a animação criadas anteriormente com o Blend space 1D
     caption="Figura: Unreal Engine - AnimGraph Idle/Walk/Run - Animação para andar, correr e parado."
 %}
 
-### Idle/Walk/Run
+### 8.2. Idle/Walk/Run
 
 Em este estado passamos como parâmetro a variável `Speed` para animação BS_Mutant;
 
@@ -323,7 +326,7 @@ Em este estado passamos como parâmetro a variável `Speed` para animação BS_M
     caption="Figura: Unreal Engine - Animação para corrida, AnimGraph Speed."
 %}
 
-## Animação de ataque com AnimGraph
+## 9. Animação de ataque com AnimGraph
 
 ***
 
@@ -353,7 +356,7 @@ Agora vamos implementar a lógica para chamar as animações quando forem pressi
     caption="Figura: Unreal Engine - Blueprint para chamar a animação de ataque"
 %}
 
-### Vídeo montando o ataque
+### 9.1. Vídeo montando o ataque
 
 {% include video.html
     link="https://youtu.be/Ss22A7xrtCQ"
@@ -362,7 +365,7 @@ Agora vamos implementar a lógica para chamar as animações quando forem pressi
     caption="Vídeo: Unreal Engine - Montando o ataque com Animação com AnimGraph."
 %}
 
-## Atacando somente com os braços
+## 10. Atacando somente com os braços
 
 ***
 
@@ -378,7 +381,7 @@ Podemos misturar várias animações no nó de estado e utilizar um osso (bone) 
     caption="Figura: Unreal Engine - Animação - Layered Blend per bone."
 %}
 
-## Animação de ataque completa e correndo somente os braços
+## 11. Animação de ataque completa e correndo somente os braços
 
 ***
 
@@ -402,7 +405,7 @@ No `Event Graph` de `ABP_Mutant` adicionamos a lógica para verificar se o perso
     caption="Figura: Unreal Engine - Animação - Layered Blend by bool e definindo uma variável de controle Moving."
 %}
 
-### Vídeo do personagem correndo e atacando
+### 11.1. Vídeo do personagem correndo e atacando
 
 {% include video.html
     link="https://youtu.be/1gjkcrU7pmA"
