@@ -11,7 +11,7 @@ layout: home
 
 ## Desenvolvimento de jogos
 
-- [Unreal Engine com C++ e Blueprint](https://cafegeek.eti.br/unreal-engine-c+-+-e-blueprint/index.html)
+- [Unreal Engine com C++ e Blueprint](https://cafegeek.eti.br/unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html)
 
 - [Computação Gráfica com Unreal Engine](computacao-grafica/index.html)
 

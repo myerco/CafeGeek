@@ -1,6 +1,5 @@
 dev_unreal:
   - title: Introdução ao Unreal Engine
-    url: /unreal-engine-c+-+-e-blueprint/
     children:
       - title: Desenvolvendo jogos digitais
         url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html
@@ -11,7 +10,6 @@ dev_unreal:
       - title: Interface e Editores
         url: /unreal-engine-c+-+-e-blueprint/unreal_engine_interface_e_editores.html
   - title: Programação com Unreal Engine
-    url: /unreal-engine-c+-+-e-blueprint/      
     children:
       - title: O Unreal Engine e sua lógica de programação
         url: /unreal-engine-c+-+-e-blueprint/o_unreal_engine_e_sua_logica_de_programacao.html
