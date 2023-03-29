@@ -120,8 +120,6 @@ dev_unreal:
         url: /pages/unreal_engine/animacao_introducao
       - title: Lógica de animação
         url: /pages/unreal_engine/animacao_logica
-      - title: Animação de mira
-        url: /pages/unreal_engine/animacao_aim_offset       
       - title: Animação 2d
         url: /pages/unreal_engine/animacao_2d        
   - title: INTELIGÊNCIA ARTIFICIAL      
@@ -132,8 +130,6 @@ dev_unreal:
     children:    
       - title: Introdução aos Materiais
         url: /pages/unreal_engine/materiais_introducao
-      - title: Construindo Materiais
-        url: /pages/unreal_engine/materiais_logica
       - title: Material Instance
         url: /pages/unreal_engine/materiais_material_instance
       - title: Manipulando materiais
