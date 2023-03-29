@@ -1,0 +1,18 @@
+<div class="video-container">
+    <iframe 
+        title="{{ include.title }}"
+        src="{{ include.src }}"
+        scrolling="no" 
+        allowfullscreen 
+        style="width:100%; height:300px;">
+    </iframe>
+    {%- if include.title %}
+        <strong>{{ include.title }}</strong>
+    {%- endif %}        
+    {%- if include.caption %}
+        <em>{{ include.caption }}</em>
+    {%- endif %}
+    {%- if include.ref %}
+        <a href="{{ include.ref }}">{{ include.ref }}</a> 
+    {%- endif %}
+</div>
