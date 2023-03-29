@@ -168,19 +168,19 @@ Acompanhe a ordem de execução de cada Frame.
 
 1. O <span style="color:blue">Frame A</span> é instanciado na CPU;
 1. Logo em seguida o <span style="color:blue">Frame A</span> é passado para um momento onde a CPU e a GPU compartilham alguns elementos de construção. Enquanto isso ocorre a CPU carrega o <span style="color:red">Frame B</span>;
-1. Após passar pelo passo de compartilhamento o <span style="color:blue">Frame A</span> então é colocado inteiramente na GPU;
+1. Após passar pelo passo de compartilhamento o <span style="color:blue">Frame A</span> é colocado inteiramente na GPU;
 1. A operação se repete para todos os Frames;
-1. Perceba que a cada passo que se completa são liberados recursos de CPU e GPU para serem usados com outros frames;
+1. Perceba que a cada passo que se completa são liberados recursos de CPU e GPU para serem usados com outros frames.
 
 **Informação:** A seguir vamos abordar cada passo.
 {: .notice--info}
 
 ### 2.2. Processamento do Frame 0 - Time 0 - CPU
 
-Neste passo é realizado o calculo é realizado na CPU de toda a lógica e as transformações:
-
-**Nota:** Qualquer coisa relativa a mudança e posição dos objetos.
+**Nota:** Qualquer coisa relativa a mudança e posição dos objetos é realizado neste passo.
 {: .notice--warning}
+
+Neste passo o calculo da lógica e as transformações é realizado na CPU, como por exemplo:
 
 1. **Animações** - Calcula quando as Animações iniciam e terminam;
 1. **Posição de modelos e objetos** - Necessário para calcular a posição e sua influência;
@@ -195,7 +195,7 @@ Neste passo é realizado o calculo é realizado na CPU de toda a lógica e as tr
 
 Antes de podermos usar as transformações para renderizar a imagem, precisamos saber o que incluir na renderização, isso é executado principalmente na CPU, mas algumas partes são manipuladas pela GPU, para tal finalidade é realizada a tarefa de :
 
-- Processo de oclusão - Construção de lista de todos os objetos e modelos visíveis, sendo que o processamento é realizado por objeto e não por polígono;
+- Processo de oclusão - Construção da lista de todos os objetos e modelos visíveis, sendo que o processamento é realizado por objeto e não por polígono;
 - Preparação da Thread - Uma Thread da GPU é alocada.
 
 A seguir as 4 Etapas em ordem de execução desse processo.
@@ -215,8 +215,8 @@ Atores selecionados em um Nível ou Blueprint contêm configurações de distân
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/VisibilityCulling/PerActorDistanceCullingSettings.webp"
-    alt="Figura: A seleção de distância do objeto."
-    caption="Details > Rendering."
+    alt="Figura: Selecionamos a Static Mesh do objeto para ter acesso a configuração de Renderização."
+    caption="Static Mesh > Details > Rendering."
     ref="https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/VisibilityCulling/"
 %}
 
