@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Desenvolvimento de Jogos"
-    url: /pages/a_jogatina_das_decadas/
+    url: /pages/unreal_engine/
   - title: "Sobre"
     url: /about/
 
@@ -54,7 +54,7 @@ dev_game:
   - title: UNREAL ENGINE
     children:
       - title: Introdução
-        url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html
+        url: /pages/unreal_engine/
       - title: Programação
         url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html        
       - title: Movimentação e Animação
@@ -95,3 +95,19 @@ dev_game:
         url: /pages/talentos/
       - title: Trabalhos
         url: /pages/trabalhos/
+
+dev_unreal:
+  - title: INTRODUÇÃO
+    children:
+      - title: Desenvolvimento de jogos
+        url: /pages/unreal_engine/
+      - title: Instalação e Configuração
+        url: /pages/unreal_engine/instalacao_configuracao
+      - title: Controle de versão
+        url: /pages/unreal_engine/controle_versao
+      - title: Interface e Editores
+        url: /pages/unreal_engine/instalacao_configuracao
+  - title: PROGRAMAÇÃO
+    children:
+      - title: Blueprint
+        url: /pages/unreal_engine/blueprint
