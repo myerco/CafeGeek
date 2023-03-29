@@ -102,7 +102,8 @@ Valores:
 
 - e DynRes do projeto.
 
-> Para saber mais sobre cada elemento acesse o curso de Cafegeek > Computação Gráfica com Unreal Engine.
+**Informação:** Para saber mais sobre cada elemento acesse o curso de [Computação Gráfica](/pages/computacao_grafica/).
+{: .notice--info}
 
 ### 1.4. Fornecendo feedback sobre quanto tempo vários Ticks de jogo estão demorando
 
@@ -116,9 +117,12 @@ Quanto a quantidade de `ticks` sendo executados e o tempo que é gasto para exec
 
 - Os `Ticks` podem estar associados a loops, como por exemplo, `for loop`, `while` ou outras estruturas de repetição que consomem ciclos de CPU, caso a lógica apresente consumo elevado de CPU considere remover essas estruturas do `tick` e até reescrever a lógica.
 
-> Uma dica bem legal quanto ao uso de estruturas de repetição associados a `Ticks`, o evento `Tick` é um laço de repetição e pode substituir `loops` explicitamente, consulte o tópico "Usando o evento Tick com Blueprint" no módulo "Implementando a movimentação do personagem" para ver um exemplo do que foi falado.
+**Nota:** Uma dica bem legal quanto ao uso de estruturas de repetição associados a `Ticks`, o evento `Tick` é um laço de repetição e pode substituir `loops` explicitamente, consulte o tópico "Usando o evento Tick com Blueprint" no módulo "Implementando a movimentação do personagem" para ver um exemplo do que foi falado.
+{: .notice--warning}
 
-#### 1.4.1. Desabilitando o Tick com C++
+#### 1.4.1. Desabilitando o Tick
+
+Podemos desabilitar o tick ao criar o objeto usando C++.
 
 ```cpp
 APlataforma::APlataforma()
@@ -128,6 +132,8 @@ APlataforma::APlataforma()
 
 }
 ```
+
+Ou usando Blueprint selecionando o objeto na lista de Componentes e acessando a propriedade em Detalhes.
 
 ***
 
@@ -381,9 +387,9 @@ O Editor do TimeLine é um gráfico de tempo e valor, onde a linha horizontal re
 
 - `SetTimerbyFunction`;
 
-## 4. Abrindo portas
-
 ***
+
+## 4. Abrindo portas
 
 Nos exemplos a seguir vamos movimentar um objeto para simular a movimentação de abertura de uma porta de duas formas, deslizando e girando.  
 
@@ -585,8 +591,6 @@ Podemos criar um tipo de objeto `Curve` para que possamos utilizar em vários Bl
 
 ## 6. Exemplo de calculo de velocidade
 
-***
-
 {% include imagelocal.html
   src="unreal/tempoespaco/blueprint_velocity_exemple.webp"
   alt="Figura: Exemplo da lógica de calculo de velocidade."
@@ -617,8 +621,6 @@ Para demonstrar vamos utilizar um vetor de 2D (x,y).
 |        | A      |        |        |        | **-4** |       |       |       |       |       |         |
 |        |        |        |        |        | **-5** |       |       |       |       |       |         |
 
-### 7.2. Posição dos elementos
-
 Consideramos o posição dos objetos com a seguinte expressão *v = v(x,y)*, por conseguinte os valores para A,B,C e D são:
 
 - A = a(-4,-4)
@@ -629,56 +631,49 @@ Consideramos o posição dos objetos com a seguinte expressão *v = v(x,y)*, por
 
 - D = b(4,5)
 
-### 7.3. Movimento no sistema coordenadas X,Y
+Quanto a direção do movimento, consideramos que uma direção nos diz como nos mover no sistema de coordenadas x, y. Um valor positivo nos diz para nos movermos na direção positiva e um valor negativo nos diz para nos movermos na direção negativa (com base no sistema de coordenadas).
 
-Uma direção nos diz como nos mover no sistema de coordenadas x, y. Um valor positivo nos diz para nos movermos na direção positiva e um valor negativo nos diz para nos movermos na direção negativa (com base no sistema de coordenadas).
+**B** = b(-2,3) **->** b(-1,4)
 
-### 7.4. Movimentando o elemento B
-
-- B = b(-2,3) **->** b(-1,4)
-
-### 7.5. Magnitude
+### 7.2. Magnitude
 
 A Magnitude nos diz o quanto nos movemos. A distância de um movimento provará ser muito útil e pode ser calculada apenas com o vetor. Isso é feito usando o Teorema de Pitágoras.
 
 Assuma um objeto na posição (50, 25) e queremos movê-lo para (53, 23). Isso significa um Vetor de (3, -2).
 
-- A = a(-4,-4) **->** a(2,-1)
+**A** = a(-4,-4) **->** a(2,-1)
 
-   O objeto se deslocou de (-4,-4) até a nova posição (2,1), andou 6 posições em X e 5 em Y
+O objeto se deslocou de (-4,-4) até a nova posição (2,1), andou 6 posições em X e 5 em Y, logo a direção de **A** é (6,5).
 
-- Direção de A = (6,5)  
+Por conseguinte a distância percorrida é :
 
-- Distância percorrida = raiz_quadrada(6 ^ *2* + 5 ^*2*) = **7.8**
+raiz_quadrada(6 ^ *2* + 5 ^*2*) = **7.8**
 
-> Você pode usar isso para calcular novas posições e movimentos. Suponha que você tenha um objeto na posição (12, 4) e deseja movê-lo na direção (3,2), mas deseja que a distância seja 4 vezes a distância normal. Para fazer isso funcionar e obter a nova posição, você multiplica o vetor pelo escalar V = (3*4,2*4) (12,8) A nova posição no sistema de coordenadas x / y é obtida adicionando este vetor para a posição original: (12 + 12, 4 + 8) (24, 12)
+**Informação:** Você pode usar isso para calcular novas posições e movimentos. Suponha que você tenha um objeto na posição (12, 4) e deseja movê-lo na direção (3,2), mas deseja que a distância seja 4 vezes a distância normal. Para fazer isso funcionar e obter a nova posição, você multiplica o vetor pelo escalar V = (3*4,2*4) (12,8) A nova posição no sistema de coordenadas x / y é obtida adicionando este vetor para a posição original: (12 + 12, 4 + 8) (24, 12)
+{: .notice--info}
 
-### 7.6. Normalização
+### 7.3. Normalização
 
 Aprendemos que um vetor é um par de números que contém uma direção e que pode ser usado para derivar uma magnitude. Quando um vetor contém um par de números, como (10, 5), ele indica que o movimento será de 10 unidades na direção X positiva e 5 unidades na direção Y positiva. Este vetor especifica quantas unidades mover, mas também indica uma direção geral em porcentagens. Essa é a proporção de movimento de 10 por 5. O cálculo dessa porcentagem de movimento é chamado de Normalização de um vetor.  
 O vetor normalizado é um par de números, cada um deles menor que um. Você pode criar um vetor normalizado obtendo a magnitude de um vetor e dividindo cada valor do Vetor pela magnitude. Com um vetor de (3,4) a magnitude é 5.
 
-- 5 = raiz_quadrada(3 ^ *2* + 4 ^*2*)
+**5** = raiz_quadrada(3 ^ *2* + 4 ^*2*)
 
-- (.6,.8) = (3/5, 4/5)
+**(.6,.8)** = (3/5, 4/5)
 
 Resultado: O vetor normalizado das coordenadas (3,4) é (-.6,.8).
 
-#### 7.6.1. Calculando distância
+***
+
+## 8. Calculando distância
 
 Usando a função `GetActorLocation` podemos determinar a distância entre dois objetos, no exemplo a seguir vamos calcular a distância dos objetos Cube e Cube2 .
 
-- **Cube**  
+- **Cube** - **a**=GetActorLocation(0,-600,70)
 
-  **a**=GetActorLocation(0,-600,70)
+- **Cube2** - **b**=GetActorLocation(600,600,70)
 
-- **Cube2**  
-
-  **b**=GetActorLocation(600,600,70)
-
-- **Resultado**  
-
-  Resultado =  a - b
+- **Resultado** - Resultado =  a - b
   > (600,1200,0)  
 
 {% include imagelocal.html
@@ -687,7 +682,7 @@ Usando a função `GetActorLocation` podemos determinar a distância entre dois 
   caption="Consideramos a diferença de localização dos objetos e objetos o valor usando VectorLength para transformar em um valor do tipo float."
 %}  
 
-### 7.7. VectorLength
+### 8.1. VectorLength
 
 {% include imagelocal.html
   src="unreal/tempoespaco/blueprint_vector_lenght.webp"
@@ -695,7 +690,7 @@ Usando a função `GetActorLocation` podemos determinar a distância entre dois 
   caption="Calcula o comprimento do vetor, onde Comprimento = VectorLength(Resultado) (1341.64078)."
 %}  
 
-### 7.8. GetDistanceTo
+### 8.2. GetDistanceTo
 
 {% include imagelocal.html
   src="unreal/tempoespaco/blueprint_getdistanceto.webp"
@@ -703,7 +698,7 @@ Usando a função `GetActorLocation` podemos determinar a distância entre dois 
   caption="Calcula a distância de dois objetos, onde Distancia = GetDistanceTo(Cubo,Cubo2) (1341.64078)."
 %}  
   
-### 7.9. Normalize  
+### 8.3. Normalize  
 
 **a** = Cubo.GetActorLocation(0,-600,70)
 
@@ -721,7 +716,7 @@ Resultado = Normalize(**a**,0)
 
 ***
 
-## 8. Verificando para onde o ator está apontando
+## 9. Verificando para onde o ator está apontando
 
 Usaremos várias funções para verificar a direção que o ator está apontando.
 
@@ -744,9 +739,9 @@ Usaremos várias funções para verificar a direção que o ator está apontando
   caption="Definir onde o ator esta apontando."
 %}  
 
-## 9. Acompanhando o movimento de um objeto
-
 ***
+
+## 10. Acompanhando o movimento de um objeto
 
 Usaremos a função `FindLookAtRotation` para que um objeto se movimente no seu próprio eixo baseado na posição de outro objeto, no exemplo o **Cubo3** do tipo `Character` vai *apontar* para a face de outro objeto.
 

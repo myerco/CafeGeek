@@ -118,12 +118,8 @@ dev_unreal:
         url: /pages/unreal_engine/delta_time_sistema_coordenadas      
       - title: Animação de personagens
         url: /pages/unreal_engine/animacao_introducao
-      - title: Projeto de animação
-        url: /pages/unreal_engine/animacao_projeto
-      - title: Blend Space
-        url: /pages/unreal_engine/animacao_blend_space       
       - title: Lógica de animação
-        url: /pages/unreal_engine/animacao_animation_blueprint        
+        url: /pages/unreal_engine/animacao_logica
       - title: Animação de mira
         url: /pages/unreal_engine/animacao_aim_offset       
       - title: Animação 2d

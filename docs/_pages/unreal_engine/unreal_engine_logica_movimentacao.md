@@ -12,8 +12,6 @@ O **Unreal Engine** utiliza `Input Actions` e `Mappings` para associar teclas a 
 
 ## 1. Mapeamento Input do projeto
 
-***
-
 Para associar teclas a eventos utilizamos o menu `Edit` > `Project Settings` > `Input`. O valores adicionados serão salvos automaticamente.
 
 {% include imagelocal.html
@@ -26,7 +24,7 @@ Para associar teclas a eventos utilizamos o menu `Edit` > `Project Settings` > `
 
 ## 2. Actions Mappings
 
-Mapeamento de ações permite vincular um evento a uma entrada de dados (teclado, mouse, Gamepad, etc) e determinar a ação que deve ser executada em código C++ ou Blueprint.  
+O mapeamento de ações permite vincular um evento a uma entrada de dados (teclado, mouse, Gamepad, etc) e determinar a ação que deve ser executada em código C++ ou Blueprint.  
 
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_mappings_actions.webp"
@@ -98,7 +96,7 @@ void AProjetoMPCharacter::MoveRight(float Value)
 
 ## 3. Axis Mappings
 
-O Mapeamento de eixos permite associar uma tecla para a movimentação do personagem, esse é atualizado constantemente.  
+O Mapeamento de eixos permite associar uma tecla à movimentação do personagem, esse evento é atualizado constantemente.  
 
 Registramos os seguintes valores:
 
@@ -114,7 +112,8 @@ Registramos os seguintes valores:
 
 - (1) Direita;
 
-> Para saber mais consulte o capítulo **Delta time e sistema de coordenadas**.
+**Infomração:** Para saber mais consulte o capítulo [Delta time e sistema de coordenadas](/pages/unreal_engine/delta_time_sistema_coordenadas).
+{: .notice--info}
 
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_mappings_axis.webp"
@@ -151,8 +150,10 @@ void AProjetoMPCharacter::StopJumping(ETouchIndex::Type FingerIndex, FVector Loc
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_movimentacao_objeto.webp"
     alt="Figura: Objeto Pawn."
-    caption="Para exemplificar a implementação utilizaremos uma classe do tipo Pawn que será o objeto que iremos controlar com os comandos de entrada."
+    caption=" Lista de componentes do objeto."
 %}
+
+Para exemplificar a implementação utilizaremos uma classe do tipo Pawn que será o objeto que iremos controlar com os comandos de entrada
 
 Vamos adicionar os seguintes componentes no objeto:
 
@@ -167,8 +168,10 @@ Vamos adicionar os seguintes componentes no objeto:
 {% include imagelocal.html
     src="unreal/actor/blueprint_get_player_controller_enable_input.webp"
     alt="Figura : Exemplo Enabled Input."
-    caption="É necessário habilitar a entrada de comandos para a classe Pawn com a função Enable Input que recebe como parâmetro o controlador de jogador atual ou Player controller."
+    caption=" O nó é chamado ao iniciar (BeginPlay) o objeto."
 %}
+
+É necessário habilitar a entrada de comandos para a classe Pawn com a função Enable Input que recebe como parâmetro o controlador de jogador atual ou Player controller
 
 - `PlayerController` - Implementa funcionalidade para pegar os dados de entrada do jogador e traduzi-los em ações, como movimento, uso de itens, armas de fogo, etc. O parâmetro `Player Index` define qual controlador iremos utilizar, para este exemplo temos somente um, parâmetro 0.
 
@@ -178,9 +181,11 @@ Vamos adicionar os seguintes componentes no objeto:
 
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_pawn_inputaxis.webp"
-    alt="Figura: Movimentação de teclado Add Movement Input com InputAxis."
-    caption="Devemos executar a chamada dos eventos criados no mapeamento e associados aos inputs."
+    alt="Figura: Movimentação de teclado. "
+    caption="Add Movement Input com InputAxis."
 %}
+
+Devemos executar a chamada dos eventos criados no mapeamento e associados aos inputs.
 
 - `GetActorRotation` - Retorna a rotação do `RootComponent` (Componente raiz que determina a posição do objeto)deste Ator;
 
@@ -197,8 +202,10 @@ Vamos adicionar os seguintes componentes no objeto:
 {% include imagelocal.html
     src="unreal/actor/blueprint_pawn_consume_movement_input_vector.webp"
     alt="Figura: Exemplo Consume Movement Input Vector e AddActorWorldOffset."
-    caption="Vamos capturar as coordenadas do ator para que possamos utilizar os métodos de movimentação Turn e LookUp."
+    caption="O nó é chamado a cada tick do objeto, atualizando as coordenadas de localização."
 %}
+
+Vamos capturar as coordenadas do ator para que possamos utilizar os métodos de movimentação Turn e LookUp
 
 - `Consume Movement Input Vector` - Retorna o vetor de entrada pendente e o redefine para zero. Isso deve ser usado durante uma atualização de movimento (pelo Pawn ou PawnMovementComponent) para evitar o acúmulo de entrada de controle entre os quadros. Copia o vetor de entrada pendente para o vetor de entrada salvo (GetLastMovementInputVector()).
 
@@ -208,9 +215,11 @@ Vamos adicionar os seguintes componentes no objeto:
 
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_pawn_yaw_pitch.webp"
-    alt="Figura: InputAxis e Add Controller Yaw Input e Add Controller Pitch Input."
-    caption="Yaw e Pitch representam respectivamente as coordenadas : "
+    alt="Figura: InputAxis associado ao nó Add Controller Yaw Input e Add Controller Pitch Input."
+    caption="Atualiza constantemente o valor de Axis passando como parâmetro aos nós de controle de movimentação."
 %}
+
+Yaw e Pitch representam respectivamente as coordenadas :
 
 - X = Roll;
 
@@ -264,7 +273,8 @@ Serão implementados objetos para disparar (Plataforma Trigger) a movimentação
     caption="Lógica para aumentar a velocidade de corrida e força de impulso do personagem do BP_Hero tipo Character."
 %}
 
-- Ao colidir com a plataforma a lógica é acionada.
+**Informação:** Ao colidir com a plataforma a lógica é acionada.
+{: .notice--info}
 
 ### 5.3. Movimentação da plataforma
 
@@ -290,8 +300,10 @@ Perceba que o valor de `Y` varia até alcançar o valor final.
 {% include imagelocal.html
     src="unreal/actor/blueprint_plataform_setactorlocarion_lerp_timeline.webp"
     alt="Figura: Exemplo utilizando Timeline em um Level Blueprint."
-    caption="Utilizando o Level Blueprint vamos implementar a lógica de movimentação usando TimeLine."
+    caption="Nesta cena existe um objeto com dois objetos alvos (TargetPoint) para marcar as coordenadas de movimentação."
 %}
+
+Utilizando o Level Blueprint vamos implementar a lógica de movimentação usando TimeLine, seguindo os passos abaixo:
 
 - Determinar o destino da movimentação;
 
@@ -317,7 +329,8 @@ Perceba que o valor de `Y` varia até alcançar o valor final.
     caption="Com a finalidade de exemplificar podemos utilizar o evento Tick para alterar a velocidade da plataforma."
 %}
 
-Pode ser construída outra plataforma para acionar o evento, Plataforma de gatilho `Trigger Plataform`.
+**Informação:** Pode ser construída outra plataforma para acionar o evento, Plataforma de gatilho `Trigger Plataform`.
+{: .notice--info}
 
 ***
 
@@ -368,6 +381,8 @@ Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e de
 ***
 
 ## 7. Usando o evento Tick com C++
+
+Neste passo vamos repetir a lógica anterior mas agora usaremos C++.
 
 ### 7.1. Inicializando variáveis da plataforma
 
