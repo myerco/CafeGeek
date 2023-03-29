@@ -23,11 +23,19 @@ dev_game:
       - title: Introdução
         url: /pages/unreal_engine/
       - title: Programação
-        url: /pages/unreal_engine/desenvolvendo_jogos_digitais.html        
+        url: /pages/unreal_engine/blueprint
+      - title: Interface com o jogador
+        url: /pages/unreal_engine/hud_interface
+      - title: Estrutura de dados
+        url: /pages/unreal_engine/variaveis_estruturadas        
       - title: Movimentação e Animação
-        url: /pages/unreal_engine/desenvolvendo_jogos_digitais.html                
+        url: /pages/unreal_engine/logica_movimentacao
+      - title: Inteligência Artificial
+        url: /pages/unreal_engine/inteligencia_artificial                              
       - title: Materiais
-        url: /pages/unreal_engine/desenvolvendo_jogos_digitais.html                        
+        url: /pages/unreal_engine/materiais_introducao                      
+      - title: Multiplayer
+        url: /pages/unreal_engine/multiplayer                              
   - title: MODELAGEM 3D
     children:
       - title: Autodesk Maya
@@ -143,6 +151,6 @@ dev_unreal:
   - title: EFEITOS ESPECIAIS
     children:
       - title: Sequencer
-        url: /unreal-engine-c+-+-e-blueprint
+        url: /pages/unreal_engine/
       - title: Niagara
-        url: /unreal-engine-c+-+-e-blueprint
+        url: /pages/unreal_engine/

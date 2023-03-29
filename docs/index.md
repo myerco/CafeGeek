@@ -19,7 +19,7 @@ feature_row:
     alt: "Unreal Engine com C++ e Blueprint"
     title: "Unreal Engine com C++ e Blueprint"
     excerpt: "Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando Blueprints e C++."
-    url: "/docs/unreal/"
+    url: "/pages/unreal_engine/"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
   - image_path: /assets/images/mm-free-feature.png
