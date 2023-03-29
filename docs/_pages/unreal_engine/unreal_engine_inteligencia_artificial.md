@@ -1,55 +1,12 @@
 ---
 title: Inteligência Artificial
-description: Trabalhando com Inteligência Artificial
-tags: [Unreal Engine,Inteligência artificial, IA,AI]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-25 
+excerpt: Trabalhando com Inteligência Artificial
+permalink: /pages/unreal_engine/inteligencia_artificial
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true 
 ---
-
-***
-
-- [1. Preparando o projeto](#1-preparando-o-projeto)
-  - [1.1. Vídeo preparando o projeto de IA](#11-vídeo-preparando-o-projeto-de-ia)
-  - [1.2. NPC básico](#12-npc-básico)
-  - [1.3. Inteligência Artificial, implementando o NPC](#13-inteligência-artificial-implementando-o-npc)
-- [2. Árvore de comportamento ou Behaivor Tree](#2-árvore-de-comportamento-ou-behaivor-tree)
-  - [2.1. VídeoImplementando a árvore de comportamento](#21-vídeoimplementando-a-árvore-de-comportamento)
-- [3. Movimentação do NPC](#3-movimentação-do-npc)
-  - [3.1. Vídeo Implementando a movimentação do NPC](#31-vídeo-implementando-a-movimentação-do-npc)
-    - [3.1.1. Andando aleatoriamente](#311-andando-aleatoriamente)
-  - [3.2. Vídeo implementando o movimento aleatório](#32-vídeo-implementando-o-movimento-aleatório)
-- [4. Adicionando percepção de visão](#4-adicionando-percepção-de-visão)
-  - [4.1. Vídeo implementando a percepção ou visão do NPC](#41-vídeo-implementando-a-percepção-ou-visão-do-npc)
-    - [4.1.1. Adicionando as condições de percepção na árvore](#411-adicionando-as-condições-de-percepção-na-árvore)
-  - [4.2. Vídeo implementando a percepção na árvore de comportamento](#42-vídeo-implementando-a-percepção-na-árvore-de-comportamento)
-    - [4.2.1. Adicionando o loop da percepção na árvore](#421-adicionando-o-loop-da-percepção-na-árvore)
-  - [4.3. Vídeo implementando a percepção e o loop na árvore de comportamento](#43-vídeo-implementando-a-percepção-e-o-loop-na-árvore-de-comportamento)
-- [5. Organizando os nós](#5-organizando-os-nós)
-  - [5.1. Vídeo organizando os nós](#51-vídeo-organizando-os-nós)
-- [6. Mudando velocidade do NPC](#6-mudando-velocidade-do-npc)
-  - [6.1. Vídeo mudando a velocidade do NPC](#61-vídeo-mudando-a-velocidade-do-npc)
-- [7. Patrulhamento com ponto de controle 01](#7-patrulhamento-com-ponto-de-controle-01)
-  - [7.1. Vídeo implementando patrulhamento e controle 1](#71-vídeo-implementando-patrulhamento-e-controle-1)
-    - [7.1.1. Tarefa para pegar um ponto de patrulhamento](#711-tarefa-para-pegar-um-ponto-de-patrulhamento)
-  - [7.2. Vídeo implementando a tarefa para pegar um ponto de patrulhamento](#72-vídeo-implementando-a-tarefa-para-pegar-um-ponto-de-patrulhamento)
-    - [7.2.1. Tarefa para pegar o próximo ponto de controle](#721-tarefa-para-pegar-o-próximo-ponto-de-controle)
-  - [7.3. Vídeo implementando a tarefa para pegar o próximo ponto de patrulhamento](#73-vídeo-implementando-a-tarefa-para-pegar-o-próximo-ponto-de-patrulhamento)
-- [8. Adicionando Enum para armazenar os estados do NPC](#8-adicionando-enum-para-armazenar-os-estados-do-npc)
-  - [8.1. Implementando tarefa para mudança de estado](#81-implementando-tarefa-para-mudança-de-estado)
-  - [8.2. Vídeo implementando tarefa para mudança de estado](#82-vídeo-implementando-tarefa-para-mudança-de-estado)
-- [9. Testando a árvore com pontos de controle e perseguição](#9-testando-a-árvore-com-pontos-de-controle-e-perseguição)
-  - [9.1. Vídeo testando a árvore com pontos de controle e perseguição](#91-vídeo-testando-a-árvore-com-pontos-de-controle-e-perseguição)
-- [10. Alerta de distância do jogador](#10-alerta-de-distância-do-jogador)
-  - [10.1. Vídeo alerta de distância do jogador](#101-vídeo-alerta-de-distância-do-jogador)
-
-***
 
 Neste projeto serão apresentados os elementos necessários para a construção de
 simulação de comportamentos, como por exemplo, busca e detecção de jogadores bem como configurar o personagem controlado pela IA em diferentes estados de comportamento.

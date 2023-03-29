@@ -1,44 +1,12 @@
 ---
 title: Trabalhando com Animação 2D
-description: Em este capitulo iremos implementar animações em duas dimensões utilizando o Plugin Paper2D no Unreal Engine.
-tags: [Unreal Engine, Animação 2D,Paper 2D]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-10-03 
+excerpt: Em este capitulo iremos implementar animações em duas dimensões utilizando o Plugin Paper2D no Unreal Engine.
+permalink: /pages/unreal_engine/animacao_2d
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true 
 ---
-
-***
-
-- [1. O que é Animação 2D?](#1-o-que-é-animação-2d)
-- [2. Como o Unreal Engine trabalha com animação 2D?](#2-como-o-unreal-engine-trabalha-com-animação-2d)
-  - [2.1. Sprites](#21-sprites)
-  - [2.2. Flipbook](#22-flipbook)
-  - [2.3. Tile Sets](#23-tile-sets)
-  - [2.4. Tile Maps](#24-tile-maps)
-- [3. Habilitando o plugin Paper2D e criando as pastas do projeto](#3-habilitando-o-plugin-paper2d-e-criando-as-pastas-do-projeto)
-- [4. Preparando o ViewPort](#4-preparando-o-viewport)
-- [5. Preparando as texturas](#5-preparando-as-texturas)
-- [6. Preparando os Sprites do projeto](#6-preparando-os-sprites-do-projeto)
-  - [6.1. Criando sprites](#61-criando-sprites)
-  - [6.2. Editor de Sprites](#62-editor-de-sprites)
-- [7. Agrupando sprites em Tile Sets](#7-agrupando-sprites-em-tile-sets)
-- [8. Implementando uma cena utilizando Tile Map](#8-implementando-uma-cena-utilizando-tile-map)
-- [9. Criando sequencias de animação utilizando Flipbooks](#9-criando-sequencias-de-animação-utilizando-flipbooks)
-  - [9.1. Extraindo as animações de arquivo](#91-extraindo-as-animações-de-arquivo)
-  - [9.2. Animação de corrida usando os sprites extraídos do arquivo](#92-animação-de-corrida-usando-os-sprites-extraídos-do-arquivo)
-- [10. Adicionando e configurando o personagem do tipo PaperCharacter](#10-adicionando-e-configurando-o-personagem-do-tipo-papercharacter)
-  - [10.1. Ajustando os componentes](#101-ajustando-os-componentes)
-  - [10.2. Variáveis do personagem](#102-variáveis-do-personagem)
-  - [10.3. Implementando a lógica de animação do personagem do tipo PaperCharacter](#103-implementando-a-lógica-de-animação-do-personagem-do-tipo-papercharacter)
-  - [10.4. Implementando o canhão](#104-implementando-o-canhão)
-
-***
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_project.webp"

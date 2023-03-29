@@ -1,109 +1,12 @@
 ---
 title: Estruturas de programação
-description: Neste capítulo serão descritas as estruturas de armazenamento, manipulação e fluxo da lógica de programação.
-tags: [Unreal Engine,blueprint,programação,estruturas,variáveis,c++]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-21 
+excerpt: Neste capítulo serão descritas as estruturas de armazenamento, manipulação e fluxo da lógica de programação.
+permalink: /pages/unreal_engine/estruturas_programacao
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true  
 ---
-
-***
-
-- [1. O que são variáveis?](#1-o-que-são-variáveis)
-- [2. Variáveis no Unreal Engine](#2-variáveis-no-unreal-engine)
-  - [2.1. Tipos de Variáveis](#21-tipos-de-variáveis)
-  - [2.2. Declarando variáveis](#22-declarando-variáveis)
-- [3. Variáveis em C++](#3-variáveis-em-c)
-  - [3.1. Declarando variáveis em C++](#31-declarando-variáveis-em-c)
-  - [3.2. Expondo variáveis para o Editor](#32-expondo-variáveis-para-o-editor)
-- [4. Métodos Get e Set](#4-métodos-get-e-set)
-  - [4.1. Métodos Get e Set Blueprint](#41-métodos-get-e-set-blueprint)
-  - [4.2. Métodos Get e Set em C++](#42-métodos-get-e-set-em-c)
-- [5. Tratamento e armazenamento de texto no Unreal Engine](#5-tratamento-e-armazenamento-de-texto-no-unreal-engine)
-  - [5.1. Strings em Blueprint](#51-strings-em-blueprint)
-  - [5.2. String em C++](#52-string-em-c)
-    - [5.2.1. Concatenando textos usando a função Append](#521-concatenando-textos-usando-a-função-append)
-    - [5.2.2. Procurando texto dentro de uma string em Blueprint](#522-procurando-texto-dentro-de-uma-string-em-blueprint)
-    - [5.2.3. Procurando texto com C++](#523-procurando-texto-com-c)
-- [6. Variáveis do tipo numéricas Integer e Float](#6-variáveis-do-tipo-numéricas-integer-e-float)
-  - [6.1. Inteiro em Blueprint](#61-inteiro-em-blueprint)
-  - [6.2. Inteiro em C++](#62-inteiro-em-c)
-- [7. Armazenando valores lógicos com Boolean](#7-armazenando-valores-lógicos-com-boolean)
-- [8. Controle de acesso a variáveis](#8-controle-de-acesso-a-variáveis)
-  - [8.1. Variáveis Privadas](#81-variáveis-privadas)
-  - [8.2. Variáveis Públicas](#82-variáveis-públicas)
-- [9. O que são estruturas de controle ou fluxo?](#9-o-que-são-estruturas-de-controle-ou-fluxo)
-  - [9.1. Exemplo de fluxo de execução em C++](#91-exemplo-de-fluxo-de-execução-em-c)
-  - [9.2. Exemplo de fluxo condicional](#92-exemplo-de-fluxo-condicional)
-  - [9.3. Exemplo de fluxo de repetição](#93-exemplo-de-fluxo-de-repetição)
-- [10. Estruturas de fluxo condicional](#10-estruturas-de-fluxo-condicional)
-  - [10.1. Controle de fluxo com Branch (if)](#101-controle-de-fluxo-com-branch-if)
-    - [10.1.1. IF em Blueprint](#1011-if-em-blueprint)
-    - [10.1.2. IF em C++](#1012-if-em-c)
-  - [10.2. Switch Nodes](#102-switch-nodes)
-    - [10.2.1. Switchs node em Blueprint](#1021-switchs-node-em-blueprint)
-    - [10.2.2. Switchs node em C++](#1022-switchs-node-em-c)
-  - [10.3. Referências](#103-referências)
-  - [10.4. Sequenciamento de fluxo com Sequence](#104-sequenciamento-de-fluxo-com-sequence)
-    - [10.4.1. Sequence em Blueprint](#1041-sequence-em-blueprint)
-    - [10.4.2. Sequence em C++](#1042-sequence-em-c)
-  - [10.5. Flip Flop em Blueprint](#105-flip-flop-em-blueprint)
-  - [10.6. Flip Flop em C++](#106-flip-flop-em-c)
-  - [10.7. Gate e Multi Gate em Blueprint](#107-gate-e-multi-gate-em-blueprint)
-  - [10.8. Gate e Multi Gate em C++](#108-gate-e-multi-gate-em-c)
-- [11. Estruturas de repetição](#11-estruturas-de-repetição)
-  - [11.1. For Loop em Blueprint](#111-for-loop-em-blueprint)
-  - [11.2. For Loop em C++](#112-for-loop-em-c)
-  - [11.3. While Loop em Blueprint](#113-while-loop-em-blueprint)
-  - [11.4. While Loop em C++](#114-while-loop-em-c)
-  - [11.5. Do N em Blueprint](#115-do-n-em-blueprint)
-  - [11.6. Do N em C++](#116-do-n-em-c)
-  - [11.7. Do once em Blueprint](#117-do-once-em-blueprint)
-  - [11.8. Do once em C++](#118-do-once-em-c)
-- [12. O que são variáveis do tipo array?](#12-o-que-são-variáveis-do-tipo-array)
-- [13. Declarando arrays e acessando os seus elementos](#13-declarando-arrays-e-acessando-os-seus-elementos)
-  - [13.1. Array em Blueprint](#131-array-em-blueprint)
-  - [13.2. Método Get para arrays com Blueprint](#132-método-get-para-arrays-com-blueprint)
-  - [13.3. Método Get para arrays com C++](#133-método-get-para-arrays-com-c)
-  - [13.4. Get utilizando uma variável como índice com Blueprint](#134-get-utilizando-uma-variável-como-índice-com-blueprint)
-  - [13.5. Get utilizando uma variável como índice com C++](#135-get-utilizando-uma-variável-como-índice-com-c)
-  - [13.6. Último índice e a quantidade de elementos do array em Blueprint](#136-último-índice-e-a-quantidade-de-elementos-do-array-em-blueprint)
-  - [13.7. Último índice e a quantidade de elementos do array em C++](#137-último-índice-e-a-quantidade-de-elementos-do-array-em-c)
-- [14. Percorrendo arrays](#14-percorrendo-arrays)
-  - [14.1. Listando todos os elementos utilizando For usando Blueprint](#141-listando-todos-os-elementos-utilizando-for-usando-blueprint)
-  - [14.2. Listando todos os elementos utilizando For usando C++](#142-listando-todos-os-elementos-utilizando-for-usando-c)
-  - [14.3. Usando o comando Find com Blueprint](#143-usando-o-comando-find-com-blueprint)
-  - [14.4. Usando o comando Find com C++](#144-usando-o-comando-find-com-c)
-  - [14.5. Contando elementos dentro de um array com Blueprint](#145-contando-elementos-dentro-de-um-array-com-blueprint)
-  - [14.6. Contando elementos dentro de um array com C++](#146-contando-elementos-dentro-de-um-array-com-c)
-  - [14.7. Percorrendo e atualizando dados com Blueprint](#147-percorrendo-e-atualizando-dados-com-blueprint)
-  - [14.8. Percorrendo e atualizando dados com C++](#148-percorrendo-e-atualizando-dados-com-c)
-- [15. Removendo elementos do array](#15-removendo-elementos-do-array)
-  - [15.1. Removendo utilizando Remove com Blueprint](#151-removendo-utilizando-remove-com-blueprint)
-  - [15.2. Removendo utilizando Remove com C++](#152-removendo-utilizando-remove-com-c)
-  - [15.3. Removendo passando uma variável como parâmetro com Blueprint](#153-removendo-passando-uma-variável-como-parâmetro-com-blueprint)
-  - [15.4. Removendo passando uma variável como parâmetro com C++](#154-removendo-passando-uma-variável-como-parâmetro-com-c)
-  - [15.5. Removendo utilizando nó Remove Index com Blueprint](#155-removendo-utilizando-nó-remove-index-com-blueprint)
-  - [15.6. Removendo utilizando nó Remove Index com C++](#156-removendo-utilizando-nó-remove-index-com-c)
-  - [15.7. Limpando o array com Clear com Blueprint](#157-limpando-o-array-com-clear-com-blueprint)
-  - [15.8. Limpando o array com Clear com C++](#158-limpando-o-array-com-clear-com-c)
-- [16. O que são Enums?](#16-o-que-são-enums)
-  - [16.1. Criando Enums no Unreal Engine e Blueprint](#161-criando-enums-no-unreal-engine-e-blueprint)
-  - [16.2. Criando Enums no Unreal Engine e C++](#162-criando-enums-no-unreal-engine-e-c)
-  - [16.3. Exemplos de uso - A lâmpada](#163-exemplos-de-uso---a-lâmpada)
-  - [16.4. A lâmpada em C++](#164-a-lâmpada-em-c)
-  - [16.5. Arquivo Header da lâmpada em C++](#165-arquivo-header-da-lâmpada-em-c)
-  - [16.6. Verificando o estado utilizando o Enum com Blueprint](#166-verificando-o-estado-utilizando-o-enum-com-blueprint)
-  - [16.7. Verificando o estado utilizando o Enum com C++](#167-verificando-o-estado-utilizando-o-enum-com-c)
-  - [16.8. Ligando e desligando utilizando o Enum com Blueprint](#168-ligando-e-desligando-utilizando-o-enum-com-blueprint)
-  - [16.9. Ligando e desligando utilizando o Enum com C++](#169-ligando-e-desligando-utilizando-o-enum-com-c)
-  - [16.10. Exemplos de uso - A pedra das emoções](#1610-exemplos-de-uso---a-pedra-das-emoções)
 
 ## 1. O que são variáveis?
 
@@ -135,9 +38,9 @@ int iSoma = 0;
 float fValor = 6.5;
 ```
 
-## 2. Variáveis no Unreal Engine
-
 ***
+
+## 2. Variáveis no Unreal Engine
 
 Variáveis no **Unreal Engine** são propriedades que contêm um valor ou fazem referência a um objeto ou ator no mundo. Essas propriedades podem ser acessíveis internamente ao **Blueprint** que as contém, ou podem ser tornadas acessíveis externamente para que seus valores possam ser modificados por designers que trabalham com instâncias do **Blueprint** colocadas em um nível.
 

@@ -1,26 +1,12 @@
 ---
 title: Animação de mira
-description: Neste capitulo vamos apresentar a animação Aim Offset.
-tags: [Unreal Engine, Animação]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-25 
+excerpt: Neste capitulo vamos apresentar a animação Aim Offset.
+permalink: /pages/unreal_engine/animacao_aim_offset
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true 
 ---
-
-***
-
-- [1. Aim Offset](#1-aim-offset)
-  - [1.1. Animation Starter Pack](#11-animation-starter-pack)
-  - [1.2. Preparando o projeto](#12-preparando-o-projeto)
-  - [1.3. Removendo frames](#13-removendo-frames)
-
-***
 
 ## 1. Aim Offset
 

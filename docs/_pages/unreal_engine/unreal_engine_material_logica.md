@@ -1,29 +1,12 @@
 ---
 title: Construindo Materiais e entendo a lógica
 description: Neste capítulo vamos apresentar a lógica de construção de materiais, denomina Material Expressions no Unreal Engine e suas funções.
-tags: [Unreal Engine,Materiais, material expressions, material, lógica]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-24 
+permalink: /pages/unreal_engine/materiais_logica
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true
 ---
-
-***
-
-- [1. As propriedades e a lógica do material](#1-as-propriedades-e-a-lógica-do-material)
-- [2. Utilizando Panner e TextCoord](#2-utilizando-panner-e-textcoord)
-- [3. Exemplo do nó Lerp](#3-exemplo-do-nó-lerp)
-- [4. World position Offset](#4-world-position-offset)
-- [5. Unlit Shading Model](#5-unlit-shading-model)
-- [6. Masked Blend Mode](#6-masked-blend-mode)
-- [7. Translucent Blend Mode](#7-translucent-blend-mode)
-
-***
 
 ## 1. As propriedades e a lógica do material
 

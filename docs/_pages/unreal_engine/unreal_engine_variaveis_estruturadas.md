@@ -1,34 +1,12 @@
 ---
 title: Variáveis estruturadas
-description: Structure, é um tipo de dados definido pelo usuário disponível no Unreal Engine em C++ e Blueprint, neste capitulo vamos explorar estes objetos.  
-tags: [Unreal Engine,Structure]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-25 
+excerpt: Structure, é um tipo de dados definido pelo usuário disponível no Unreal Engine em C++ e Blueprint, neste capitulo vamos explorar estes objetos.  
+permalink: /pages/unreal_engine/variaveis_estruturadas
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true  
 ---
-
-***
-
-- [1. O que são variáveis do tipo Structure?](#1-o-que-são-variáveis-do-tipo-structure)
-- [2. Structure e Class](#2-structure-e-class)
-  - [2.1. C++ Struct](#21-c-struct)
-  - [2.2. C++ Class](#22-c-class)
-    - [2.2.1. C++ Struct Unreal](#221-c-struct-unreal)
-    - [2.2.2. C++ Class Unreal](#222-c-class-unreal)
-- [3. Criando variáveis do tipo Structure com Blueprint](#3-criando-variáveis-do-tipo-structure-com-blueprint)
-  - [3.1. Definindo variáveis dentro da estrutura](#31-definindo-variáveis-dentro-da-estrutura)
-  - [3.2. Acessando as variáveis](#32-acessando-as-variáveis)
-  - [3.3. Exemplo do uso de variáveis Structure](#33-exemplo-do-uso-de-variáveis-structure)
-    - [3.3.1. Criando o objeto SControleLuzes](#331-criando-o-objeto-scontroleluzes)
-    - [3.3.2. Lógica para construir os elementos na cena](#332-lógica-para-construir-os-elementos-na-cena)
-
-***
 
 **Structure**, é um tipo de dados definido pelo usuário disponível no **Unreal Engine** em **C++** e **Blueprint**, neste capitulo vamos explorar estes objetos.
 

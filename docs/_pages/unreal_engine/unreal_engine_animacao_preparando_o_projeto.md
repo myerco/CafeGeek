@@ -1,35 +1,12 @@
 ---
 title: Projeto de animação
-description: Neste capitulo vamos preparar e organizar os objetos e elementos necessários, como por exemplo, arquivos FBX, malhas e esqueletos e suas animações. Vamos também importar personagens do site Mixano.
-tags: [Unreal Engine, Animação]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp 
-    nav: "dev_unreal"
-date: 2022-09-25 
+excerpt: Neste capitulo vamos preparar e organizar os objetos e elementos necessários, como por exemplo, arquivos FBX, malhas e esqueletos e suas animações. Vamos também importar personagens do site Mixano.
+permalink: /pages/unreal_engine/animacao_projeto
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true 
 ---
-
-***
-
-- [1. Introdução](#1-introdução)
-- [2. Organizando pastas de bibliotecas](#2-organizando-pastas-de-bibliotecas)
-  - [2.1. Classes do personagem Base](#21-classes-do-personagem-base)
-  - [2.2. Classe do Humano](#22-classe-do-humano)
-  - [2.3. Classe Mutante ou  Mutant](#23-classe-mutante-ou--mutant)
-    - [2.3.1. Vídeo Classe do Mutant](#231-vídeo-classe-do-mutant)
-- [3. Ambiente e controle](#3-ambiente-e-controle)
-- [4. Animações e esqueleto do Mutant](#4-animações-e-esqueleto-do-mutant)
-  - [4.1. Baixando o personagem Mutant](#41-baixando-o-personagem-mutant)
-    - [4.1.1. Vídeo Baixando personagem](#411-vídeo-baixando-personagem)
-  - [4.2. Importando Mesh e Skeletal](#42-importando-mesh-e-skeletal)
-  - [4.3. Importando animações](#43-importando-animações)
-  - [4.4. Vídeo Importando personagem](#44-vídeo-importando-personagem)
-
-***
 
 ## 1. Introdução
 

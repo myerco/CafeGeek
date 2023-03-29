@@ -1,31 +1,12 @@
 ---
 title: HUD - Interface
-description: Neste capitulo vamos implementar o HUD (Heads-up Display) do jogo.
-tags: [Unreal Engine, HUD, user interface,UI]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-25 
+excerpt: Neste capitulo vamos implementar o HUD (Heads-up Display) do jogo.
+permalink: /pages/unreal_engine/hud_interface
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true  
 ---
-
-***
-
-- [1. Como interagir com o jogador?](#1-como-interagir-com-o-jogador)
-  - [1.1. Menos é Melhor](#11-menos-é-melhor)
-- [2. Implementando o Widget para o construir o menu do jogo](#2-implementando-o-widget-para-o-construir-o-menu-do-jogo)
-  - [2.1. Criando o Widget](#21-criando-o-widget)
-  - [2.2. Usando o editor de de Widget](#22-usando-o-editor-de-de-widget)
-  - [2.3. Hierarchy - Hierarquia de elementos](#23-hierarchy---hierarquia-de-elementos)
-  - [2.4. Entendo alinhamento utilizando Anchors](#24-entendo-alinhamento-utilizando-anchors)
-  - [2.5. Horizontal ou Vertical Box](#25-horizontal-ou-vertical-box)
-  - [2.6. Grid Panel](#26-grid-panel)
-  
-***
 
 HUD (*Heads-up Display*) ou UI (*Use Interface*) é um objeto especial do **Unreal Engine** para apresentar informações sobrepostas na tela e interagir com o jogador.
 

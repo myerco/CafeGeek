@@ -1,44 +1,12 @@
 ---
 title: Blueprint
-description: Neste capítulo será apresentado o modelo da lógica de programação utilizando **Blueprint** e os seus elementos.
-tags: [Unreal Engine,lógica de programação, blueprint]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-21 
+excerpt: Neste capítulo será apresentado o modelo da lógica de programação utilizando **Blueprint** e os seus elementos.
+permalink: /pages/unreal_engine/blueprint
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true  
 ---
-
-***
-
-- [1. O que são Blueprints e Visual Scripting?](#1-o-que-são-blueprints-e-visual-scripting)
-  - [1.1. Nativização](#11-nativização)
-- [2. Trabalhando com Level ou níveis](#2-trabalhando-com-level-ou-níveis)
-  - [2.1. Criando um Level](#21-criando-um-level)
-  - [2.2. Salvando um Level](#22-salvando-um-level)
-  - [2.3. Carregando um Level](#23-carregando-um-level)
-- [3. O que é Level Blueprint?](#3-o-que-é-level-blueprint)
-  - [3.1. Exemplo de BeginPlay e Tick no Level Blueprint](#31-exemplo-de-beginplay-e-tick-no-level-blueprint)
-- [4. Atores e Classes utilizando Blueprint](#4-atores-e-classes-utilizando-blueprint)
-  - [4.1. Atores predefinidos ou Place Actors](#41-atores-predefinidos-ou-place-actors)
-  - [4.2. Classes Blueprint ou Blueprint Class](#42-classes-blueprint-ou-blueprint-class)
-- [5. Componentes - Components](#5-componentes---components)
-  - [5.1. Components e a aba My Blueprint](#51-components-e-a-aba-my-blueprint)
-- [6. Estrutura da classe Actor no Unreal Engine](#6-estrutura-da-classe-actor-no-unreal-engine)
-  - [6.1. Construction Script](#61-construction-script)
-    - [6.1.1. Exemplo da lógica de um Construction Script](#611-exemplo-da-lógica-de-um-construction-script)
-  - [6.2. Event Graph](#62-event-graph)
-    - [6.2.1. BeginPlay](#621-beginplay)
-    - [6.2.2. ActorBeginOverlap](#622-actorbeginoverlap)
-    - [6.2.3. Tick](#623-tick)
-- [7. Comentários](#7-comentários)
-  - [7.1. Exemplo de comentário](#71-exemplo-de-comentário)
-
-***
 
 {% include image.html
     src="unreal/actor/unreal_engine_blueprint.webp"
@@ -46,8 +14,6 @@ date: 2022-09-21
 %}
 
 ## 1. O que são Blueprints e Visual Scripting?
-
-***
 
 O sistema *Blueprints Visual Scripting* no **Unreal Engine** é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nós para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos na *engine* .
 
@@ -94,9 +60,9 @@ Para que o **Unreal Engine** possa construir os nós gráficos que representam a
 
 "A nativização é uma funcionalidade relativamente nova no **Unreal Engine**, que permite aos desenvolvedores converter suas classes criadas em **Blueprint** para código nativo **C++** no momento em que é construído o pacote final do jogo. Isso faz com que seja possível aliar a facilidade de prototipação dos **Blueprints** ao desempenho do **C++**, acelerando o processo de desenvolvimento e também reduzindo a possibilidade de erros na programação, levando em consideração que ao desenvolver em **Blueprint** todas as entradas e saídas de dados, assim como o fluxo das operações são verificados pela máquina virtual enquanto os testes estão sendo realizados, isso permite garantir que tudo funcione conforme o esperado, ou na pior das hipóteses, alerte ao desenvolvedor caso algo não saia como o esperado, por meio de mensagens intuitivas e claras."
 
-## 2. Trabalhando com Level ou níveis
-
 ***
+
+## 2. Trabalhando com Level ou níveis
 
 Todo os objetos que estão visíveis em um jogo estão armazenados em um *Level* ou mapa de jogo, o *Level* no **Unreal Engine** é composto por iluminação, objetos poligonais e personagens controlados pelos jogadores.
 
@@ -153,9 +119,9 @@ Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
     caption="Abre um level."
 %}
 
-## 3. O que é Level Blueprint?  
-
 ***
+
+## 3. O que é Level Blueprint?  
 
 Um `Level Blueprint` é um tipo especializado de **Blueprint** que atua como um gráfico de evento global em todo o nível ou *Level*. Cada *Level* em seu projeto tem seu próprio `Level Blueprint` criado por padrão, que pode ser editado no *Unreal Editor*.
 
@@ -190,9 +156,9 @@ Os nós utilizados são os seguintes:
     ref="https://blueprintue.com/render/46vsgoyi/"
 %}
 
-## 4. Atores e Classes utilizando Blueprint
-
 ***
+
+## 4. Atores e Classes utilizando Blueprint
 
 Atores são objetos de uma determinada classe que suportam vários componentes, métodos e variáveis. Por exemplo:
 
@@ -240,9 +206,9 @@ Escolha de Classe de atores  `Blueprint Class`.
     caption="Esta opção exibe uma lista das classes mais comuns, como por exemplo, atores básicos. A opção All Classes realiza uma busca por uma determinada classe."
 %}
 
-## 5. Componentes - Components
-
 ***
+
+## 5. Componentes - Components
 
 Os *Components* ou componentes são um tipo especial de objeto que os atores podem anexar a si próprios como subobjetos.
 
@@ -266,9 +232,9 @@ Para ter acesso aos componentes que estão associados a um determinado objeto ut
     caption="Podemos associar várias funções, macros, variáveis ou outros objetos programáveis à classe."
 %}
 
-## 6. Estrutura da classe Actor no Unreal Engine
-
 ***
+
+## 6. Estrutura da classe Actor no Unreal Engine
 
 A classe `Actor` é composta por vários elementos, entre eles estão as variáveis, métodos e funções, abaixo uma representação dessa estrutura.
 
@@ -335,9 +301,9 @@ Este é um evento simples que é chamado em todos os quadros do jogo. Tem como p
 
 "Vários motores gráficos ou *Game Engines*, como por exemplo *Unity* e *Pico-8*  tem os mesmos eventos com as mesmas Características."s
 
-## 7. Comentários
-
 ***
+
+## 7. Comentários
 
 Os comentários podem ser incluídos diretamente em nós **Blueprint** únicos ou podem ser incluídos como caixas de comentários para agrupar nós relacionados e fornecer descrições sobre sua funcionalidade.
 

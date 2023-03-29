@@ -1,65 +1,12 @@
 ---
 title: Atores
-description: Neste capitulo serão apresentados e implementados os atores *Actors* do seu projetos.
-tags: [Unreal Engine,actor,atores]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-21 
+excerpt: Neste capitulo serão apresentados e implementados os atores *Actors* do seu projetos.
+permalink: /pages/unreal_engine/atores
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true  
 ---
-
-***
-
-- [1. O que são Actors?](#1-o-que-são-actors)
-- [2. O que são Classes?](#2-o-que-são-classes)
-  - [2.1. Exemplo de implementação utilizando C++](#21-exemplo-de-implementação-utilizando-c)
-  - [2.2. Exemplo de implementação em Blueprint](#22-exemplo-de-implementação-em-blueprint)
-  - [2.3. Utilizando classes com Blueprint](#23-utilizando-classes-com-blueprint)
-- [3. Classe Actor](#3-classe-actor)
-- [4. Classe Pawn](#4-classe-pawn)
-- [5. Classe Character](#5-classe-character)
-- [6. Componentes e Actors](#6-componentes-e-actors)
-  - [6.1. Adicionando componentes](#61-adicionando-componentes)
-  - [6.2. Static Mesh - Malhas estáticas](#62-static-mesh---malhas-estáticas)
-    - [6.2.1. Propriedades do componente Static Mesh](#621-propriedades-do-componente-static-mesh)
-  - [6.3. Skeletal Mesh - Malha Esquelética](#63-skeletal-mesh---malha-esquelética)
-    - [6.3.1. A Estrutura da malha esquelética](#631-a-estrutura-da-malha-esquelética)
-    - [6.3.2. Propriedades do Skeletal Mesh](#632-propriedades-do-skeletal-mesh)
-    - [6.3.3. O Editor Skeletal Mesh](#633-o-editor-skeletal-mesh)
-- [7. Posição e coordenadas](#7-posição-e-coordenadas)
-  - [7.1. Transform](#71-transform)
-  - [7.2. Escrevendo na tela o posicionamento do ator no mundo](#72-escrevendo-na-tela-o-posicionamento-do-ator-no-mundo)
-  - [7.3. Posição relativa no mundo](#73-posição-relativa-no-mundo)
-  - [7.4. Escrevendo na tela o posição relativa do componente](#74-escrevendo-na-tela-o-posição-relativa-do-componente)
-- [8. Trabalhando herança com Blueprint](#8-trabalhando-herança-com-blueprint)
-  - [8.1. Criando uma classe filho](#81-criando-uma-classe-filho)
-  - [8.2. Variáveis da classe pai](#82-variáveis-da-classe-pai)
-  - [8.3. Herança de propriedades e métodos](#83-herança-de-propriedades-e-métodos)
-  - [8.4. Executando um evento da classe pai](#84-executando-um-evento-da-classe-pai)
-  - [8.5. Componente ChildActor](#85-componente-childactor)
-  - [8.6. Referências de atores e componentes](#86-referências-de-atores-e-componentes)
-- [9. Manipulando Actors](#9-manipulando-actors)
-  - [9.1. Spawn e Destroy Actors - Criando e destruindo um Actor](#91-spawn-e-destroy-actors---criando-e-destruindo-um-actor)
-  - [9.2. Listando Actors por classe](#92-listando-actors-por-classe)
-- [10. Colisões](#10-colisões)
-  - [10.1. Interações](#101-interações)
-  - [10.2. Exemplos comuns de interação de colisão](#102-exemplos-comuns-de-interação-de-colisão)
-    - [10.2.1. Colisão](#1021-colisão)
-    - [10.2.2. Colisão e Simulação Geram Eventos de acerto](#1022-colisão-e-simulação-geram-eventos-de-acerto)
-  - [10.3. Sobrepor e ignorar](#103-sobrepor-e-ignorar)
-  - [10.4. Configuração das propriedades da colisão de esfera](#104-configuração-das-propriedades-da-colisão-de-esfera)
-  - [10.5. Sobrepor e gerar eventos de sobreposição](#105-sobrepor-e-gerar-eventos-de-sobreposição)
-  - [10.6. Colisão de esfera](#106-colisão-de-esfera)
-  - [10.7. Colisão de parede](#107-colisão-de-parede)
-  - [10.8. Colisão Simples versus Complexa](#108-colisão-simples-versus-complexa)
-  - [10.9. Static Mesh e colisões](#109-static-mesh-e-colisões)
-
-***
 
 ## 1. O que são Actors?
 

@@ -1,41 +1,12 @@
 ---
 title: Comunicação entre Blueprint
-description: A comunicação entre Blueprint é importante para construir um meio para que objetos individuais separados interagirem uns com os outros.
-tags: [Unreal Engine,blueprint,comunicação,blueprint interfaces]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-25 
+excerpt: A comunicação entre Blueprint é importante para construir um meio para que objetos individuais separados interagirem uns com os outros.
+permalink: /pages/unreal_engine/comunicacao_blueprint
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true 
 ---
-
-***
-
-- [1. Como facilitar a comunicação entre objetos Blueprint?](#1-como-facilitar-a-comunicação-entre-objetos-blueprint)
-  - [1.1. Estrutura da comunicação entre Blueprints](#11-estrutura-da-comunicação-entre-blueprints)
-  - [1.2. Preparando o ambiente de testes](#12-preparando-o-ambiente-de-testes)
-- [2. Comunicação utilizando Acesso direto](#2-comunicação-utilizando-acesso-direto)
-  - [2.1. Chamando a função LampadaVisible](#21-chamando-a-função-lampadavisible)
-  - [2.2. Vídeo Comunicação entre Blueprints](#22-vídeo-comunicação-entre-blueprints)
-- [3. Utilizando CAST](#3-utilizando-cast)
-  - [3.1. CAST do objeto PointLight](#31-cast-do-objeto-pointlight)
-  - [3.2. Vídeo Comunicação entre Blueprints - Usando Cast 03 Unreal Engine](#32-vídeo-comunicação-entre-blueprints---usando-cast-03-unreal-engine)
-- [4. Utilizando o objeto Blueprint Interface](#4-utilizando-o-objeto-blueprint-interface)
-  - [4.1. Menu Blueprint/Blueprint Interface](#41-menu-blueprintblueprint-interface)
-  - [4.2. Editor de Blueprint Interface](#42-editor-de-blueprint-interface)
-  - [4.3. Implementando um objeto para utilizar a interface](#43-implementando-um-objeto-para-utilizar-a-interface)
-  - [4.4. Utilizando parâmetros na Interface](#44-utilizando-parâmetros-na-interface)
-  - [4.5. Vídeo Comunicação entre Blueprints - Utilizando o objeto Blueprint Interface - 04 - Unreal Engine](#45-vídeo-comunicação-entre-blueprints---utilizando-o-objeto-blueprint-interface---04---unreal-engine)
-  - [4.6. Event Dispatcher](#46-event-dispatcher)
-  - [4.7. Exemplo utilizando o Character BP\_Hero que será o emissor dos eventos](#47-exemplo-utilizando-o-character-bp_hero-que-será-o-emissor-dos-eventos)
-  - [4.8. Lógica dos objetos que vão interagir com o personagem](#48-lógica-dos-objetos-que-vão-interagir-com-o-personagem)
-  - [4.9. Vídeo Comunicação entre Blueprints - Event Dispatcher - 05 -  Unreal Engine](#49-vídeo-comunicação-entre-blueprints---event-dispatcher---05----unreal-engine)
-
-***
 
 ## 1. Como facilitar a comunicação entre objetos Blueprint?
 

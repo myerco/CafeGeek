@@ -1,67 +1,12 @@
 ---
 title: Delta time e sistema de coordenadas
-description: Delta time e sistema de coordenadas
-tags: [Unreal Engine,tempo, espaço]
-categories: Unreal Engine
-author: 
-- Cafegeek
-- KazeHiro1
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-21 
+excerpt: Delta time e sistema de coordenadas
+permalink: /pages/unreal_engine/delta_time_sistema_coordenadas
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true 
 ---
-
-***
-
-- [1. O que é Delta Time?](#1-o-que-é-delta-time)
-  - [1.1. Frames e Delta time](#11-frames-e-delta-time)
-  - [1.2. Calculando o FPS](#12-calculando-o-fps)
-  - [1.3. Utilizando comandos do console](#13-utilizando-comandos-do-console)
-    - [1.3.1. Apresentando o valor de FPS](#131-apresentando-o-valor-de-fps)
-    - [1.3.2. Alterando o valor de FPS para 100](#132-alterando-o-valor-de-fps-para-100)
-    - [1.3.3. Exibindo informações de desempenho](#133-exibindo-informações-de-desempenho)
-  - [1.4. Fornecendo feedback sobre quanto tempo vários Ticks de jogo estão demorando](#14-fornecendo-feedback-sobre-quanto-tempo-vários-ticks-de-jogo-estão-demorando)
-    - [1.4.1. Desabilitando o Tick com C++](#141-desabilitando-o-tick-com-c)
-- [2. Delta seconds](#2-delta-seconds)
-  - [2.1. Tabela de velocidade](#21-tabela-de-velocidade)
-  - [2.2. Utilizando o Delta seconds com Event Tick](#22-utilizando-o-delta-seconds-com-event-tick)
-  - [2.3. Fixando o FPS do projeto](#23-fixando-o-fps-do-projeto)
-  - [2.4. Vídeo Delta Seconds e sistema de coordenadas](#24-vídeo-delta-seconds-e-sistema-de-coordenadas)
-- [3. Timeline](#3-timeline)
-  - [3.1. Parâmetros de entradas e saída](#31-parâmetros-de-entradas-e-saída)
-  - [3.2. Parâmetros de execução - TimeLine](#32-parâmetros-de-execução---timeline)
-  - [3.3. Utilizando variáveis no Timeline](#33-utilizando-variáveis-no-timeline)
-  - [3.4. Tipos de variáveis do objeto TimeLine](#34-tipos-de-variáveis-do-objeto-timeline)
-    - [3.4.1. Variável float](#341-variável-float)
-    - [3.4.2. Variável Vector](#342-variável-vector)
-    - [3.4.3. Variável Color](#343-variável-color)
-    - [3.4.4. Variável Event](#344-variável-event)
-    - [3.4.5. Acionando um evento para alterar a iluminação](#345-acionando-um-evento-para-alterar-a-iluminação)
-  - [3.5. Funções Blueprint para tratamento do Timeline](#35-funções-blueprint-para-tratamento-do-timeline)
-- [4. Abrindo portas](#4-abrindo-portas)
-  - [4.1. Deslizando a porta](#41-deslizando-a-porta)
-  - [4.2. Girando a porta](#42-girando-a-porta)
-  - [4.3. Girando a porta utilizando C++](#43-girando-a-porta-utilizando-c)
-- [5. Curves](#5-curves)
-- [6. Exemplo de calculo de velocidade](#6-exemplo-de-calculo-de-velocidade)
-- [7. Sistema de coordenadas](#7-sistema-de-coordenadas)
-  - [7.1. Plano Cartesiano](#71-plano-cartesiano)
-  - [7.2. Posição dos elementos](#72-posição-dos-elementos)
-  - [7.3. Movimento no sistema coordenadas X,Y](#73-movimento-no-sistema-coordenadas-xy)
-  - [7.4. Movimentando o elemento B](#74-movimentando-o-elemento-b)
-  - [7.5. Magnitude](#75-magnitude)
-  - [7.6. Normalização](#76-normalização)
-    - [7.6.1. Calculando distância](#761-calculando-distância)
-  - [7.7. VectorLength](#77-vectorlength)
-  - [7.8. GetDistanceTo](#78-getdistanceto)
-  - [7.9. Normalize](#79-normalize)
-- [8. Verificando para onde o ator está apontando](#8-verificando-para-onde-o-ator-está-apontando)
-- [9. Acompanhando o movimento de um objeto](#9-acompanhando-o-movimento-de-um-objeto)
-
-***
 
 Neste capítulo serão apresentados e implementados os elementos de controle de tempo (Delta Time) dentro do **Unreal Engine**, apresentaremos também o funcionamento do sistema de coordenadas dos objetos.
 

@@ -1,41 +1,12 @@
 ---
 title: Controle de versão
-description: Neste capítulo vamos instalar o **Git Client** com o **GitHub Desktop** para versionamento de arquivos no **Unreal Engine** e apresentar comandos básicos.
-tags: [Unreal Engine,desenvolvimento, blueprint,controle de versão, github, c++]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-30 
+excerpt: Neste capítulo vamos instalar o **Git Client** com o **GitHub Desktop** para versionamento de arquivos no **Unreal Engine** e apresentar comandos básicos.
+permalink: /pages/unreal_engine/controle_versao
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true  
 ---
-
-
-***
-
-- [1. Controle de Versão](#1-controle-de-versão)
-- [2. Ferramentas para controle de versão](#2-ferramentas-para-controle-de-versão)
-- [3. Estrutura do GIT](#3-estrutura-do-git)
-- [4. Entendo o fluxo de trabalho](#4-entendo-o-fluxo-de-trabalho)
-- [5. Começando a trabalhar com o Git e o Unreal Engine](#5-começando-a-trabalhar-com-o-git-e-o-unreal-engine)
-  - [5.1. Criando uma conta e o projeto no Github](#51-criando-uma-conta-e-o-projeto-no-github)
-  - [5.2. Instalando Git Client e GitHub Desktop](#52-instalando-git-client-e-github-desktop)
-  - [5.3. Configurando Unreal Engine para utilizar o Git](#53-configurando-unreal-engine-para-utilizar-o-git)
-  - [5.4. Configurando o Github Desktop e adicionando o projeto](#54-configurando-o-github-desktop-e-adicionando-o-projeto)
-- [6. Criando o projeto remoto e atualizando os arquivos](#6-criando-o-projeto-remoto-e-atualizando-os-arquivos)
-  - [6.1. Testando a configuração do Git com o Unreal Engine](#61-testando-a-configuração-do-git-com-o-unreal-engine)
-- [7. Utilizando comandos do PowerShell para utilizar o Git Client](#7-utilizando-comandos-do-powershell-para-utilizar-o-git-client)
-  - [7.1. Clonando o projeto](#71-clonando-o-projeto)
-  - [7.2. Criando o projeto](#72-criando-o-projeto)
-  - [7.3. Atualizando o projeto no servidor](#73-atualizando-o-projeto-no-servidor)
-  - [7.4. Atualizando o projeto no cliente (local)](#74-atualizando-o-projeto-no-cliente-local)
-- [8. Ignorando pastas e arquivos](#8-ignorando-pastas-e-arquivos)
-  - [8.1. Exemplo de arquivo .gitignore para o Unreal Engine](#81-exemplo-de-arquivo-gitignore-para-o-unreal-engine)
-
-***
 
 ## 1. Controle de Versão
 
@@ -70,7 +41,7 @@ Perceba que para facilitar a manutenção e desenvolvimento em equipe e pensando
 
 - Necessidade de documentar as alterações no momento que forem compartilhadas.
 
-***S
+***
 
 ## 2. Ferramentas para controle de versão
 

@@ -1,30 +1,12 @@
 ---
 title: Manipulando materiais com Blueprint
-description: Neste capítulo iremos manipular os materiais com lógica de script Blueprint e construir funções para utilizar dentro dos materiais.
-tags: [Unreal Engine,Materiais, material Function, material, blueprint]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-21 
+excerpt: Neste capítulo iremos manipular os materiais com lógica de script Blueprint e construir funções para utilizar dentro dos materiais.
+permalink: /pages/unreal_engine/materiais_blueprint
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true 
 ---
-
-***
-
-- [1. Implementando Material Instance com Blueprint](#1-implementando-material-instance-com-blueprint)
-- [2. Parameter Global](#2-parameter-global)
-- [3. Material Function](#3-material-function)
-  - [3.1. MakeMaterialAttribute](#31-makematerialattribute)
-  - [3.2. BreakMaterialAttribute](#32-breakmaterialattribute)
-  - [3.3. Parâmetros dentro das funções](#33-parâmetros-dentro-das-funções)
-  - [3.4. Adicionando Propriedades em uma material Function](#34-adicionando-propriedades-em-uma-material-function)
-  - [3.5. BlendMaterialAttribute](#35-blendmaterialattribute)
-
-***
 
 ## 1. Implementando Material Instance com Blueprint
 

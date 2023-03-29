@@ -1,29 +1,12 @@
 ---
 title: Blend Space
-description: Em este capítulo iremos implementar várias animações utilizando um eixo de movimentação utilizando o elemento e editor Blend space 1D e Blend space.
-tags: [Unreal Engine, Animação,Blend Space 1D,Blend Space]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-25 
+excerpt: Em este capítulo iremos implementar várias animações utilizando um eixo de movimentação utilizando o elemento e editor Blend space 1D e Blend space.
+permalink: /pages/unreal_engine/animacao_blend_space
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true 
 ---
-
-***
-
-- [1. O que é Blend Space?](#1-o-que-é-blend-space)
-- [2. Carregando o editor](#2-carregando-o-editor)
-- [3. Blend Space 1D](#3-blend-space-1d)
-  - [3.1. Human](#31-human)
-  - [3.2. Mutant](#32-mutant)
-- [4. Vídeo Animation Blend Space 1D](#4-vídeo-animation-blend-space-1d)
-- [5. Blend Space](#5-blend-space)
-
-***
 
 ## 1. O que é Blend Space?
 

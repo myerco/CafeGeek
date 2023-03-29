@@ -1,45 +1,12 @@
 ---
 title: Introdução aos Materiais
-description: Neste capítulo vamos apresentar o que são materiais e a sua estrutura.
-tags: [Unreal Engine,Materiais, material Function, material]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-24 
+excerpt: Neste capítulo vamos apresentar o que são materiais e a sua estrutura.
+permalink: /pages/unreal_engine/materiais_introducao
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true 
 ---
-
-***
-
-- [1. O que é um material?](#1-o-que-é-um-material)
-- [2. Materiais de base física - PBR](#2-materiais-de-base-física---pbr)
-- [3. Estrutura do Material no Unreal Engine](#3-estrutura-do-material-no-unreal-engine)
-  - [3.1. Criando um material](#31-criando-um-material)
-  - [3.2. Editor de Materiais](#32-editor-de-materiais)
-- [4. O que são Material expressions?](#4-o-que-são-material-expressions)
-  - [4.1. Valores que determinam a física](#41-valores-que-determinam-a-física)
-  - [4.2. Texture samples](#42-texture-samples)
-- [5. O Nó principal ou Node Result](#5-o-nó-principal-ou-node-result)
-  - [5.1. Base color](#51-base-color)
-  - [5.2. Normal](#52-normal)
-  - [5.3. Textura Normal](#53-textura-normal)
-  - [5.4. Metallic](#54-metallic)
-  - [5.5. Textura Metallic](#55-textura-metallic)
-  - [5.6. Roughness](#56-roughness)
-  - [5.7. Textura Roughness](#57-textura-roughness)
-  - [5.8. Specular](#58-specular)
-  - [5.9. Ambient Occlusion](#59-ambient-occlusion)
-- [6. Propriedades do nó principal](#6-propriedades-do-nó-principal)
-  - [6.1. Blend Mode](#61-blend-mode)
-  - [6.2. Shading Model](#62-shading-model)
-  - [6.3. Material Domain](#63-material-domain)
-- [7. Aplicando o material no objeto](#7-aplicando-o-material-no-objeto)
-
-***
 
 ## 1. O que é um material?
 

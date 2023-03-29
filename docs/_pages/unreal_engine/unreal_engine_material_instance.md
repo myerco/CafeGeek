@@ -1,30 +1,12 @@
 ---
 title: Implementando Material Instance com Unreal Engine
-description: Neste capitulo vamos apresentar o objeto Material Instance que flexibiliza a implementação de materiais no Unreal Engine.
-tags: [unreal engine, material instance, material]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-21 
+excerpt: Neste capitulo vamos apresentar o objeto Material Instance que flexibiliza a implementação de materiais no Unreal Engine.
+permalink: /pages/unreal_engine/materiais_material_instance
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true 
 ---
-
-***
-
-- [1. O que é Material Instance?](#1-o-que-é-material-instance)
-  - [1.1. Convertendo nós em parâmetros](#11-convertendo-nós-em-parâmetros)
-  - [1.2. Criando Material Instance](#12-criando-material-instance)
-- [2. Editor de material Instance](#2-editor-de-material-instance)
-- [3. Switch Parameter](#3-switch-parameter)
-- [4. Organizando parâmetros e definindo valor máximo e mínimo](#4-organizando-parâmetros-e-definindo-valor-máximo-e-mínimo)
-  - [4.1. Group](#41-group)
-  - [4.2. Valor Mínimo e Máximo](#42-valor-mínimo-e-máximo)
-
-***
 
 ## 1. O que é Material Instance?
 

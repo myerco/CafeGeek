@@ -1,43 +1,12 @@
 ---
 title: Trabalhando com iluminação
-description: Neste capítulo vamos implementar a Iluminação do jogo.
-tags: [Unreal Engine, iluminação]
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-21 
+excerpt: Neste capítulo vamos implementar a Iluminação do jogo.
+permalink: /pages/unreal_engine/iluminacao
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true 
 ---
-
-***
-
-- [1. Directional Light](#1-directional-light)
-  - [1.1. Static](#11-static)
-  - [1.2. Stationary](#12-stationary)
-  - [1.3. Moveable](#13-moveable)
-- [2. Sky Light](#2-sky-light)
-  - [2.1. Captura de cena](#21-captura-de-cena)
-- [3. Light Component](#3-light-component)
-- [4. Spot Light](#4-spot-light)
-- [5. Point Light](#5-point-light)
-- [6. Rect Light](#6-rect-light)
-- [7. Propriedades da luz](#7-propriedades-da-luz)
-- [8. Configuração no projeto](#8-configuração-no-projeto)
-- [9. Formas de captura de reflexão](#9-formas-de-captura-de-reflexão)
-- [10. Sphere Reflection](#10-sphere-reflection)
-- [11. Box Reflection Capture](#11-box-reflection-capture)
-- [12. Lightmass Importance Volume](#12-lightmass-importance-volume)
-- [13. Auto exposure](#13-auto-exposure)
-- [14. Build ligths](#14-build-ligths)
-- [15. Sombras](#15-sombras)
-- [16. Unlit](#16-unlit)
-- [17. Salvando a imagem da cena](#17-salvando-a-imagem-da-cena)
-- [18. Reflexos](#18-reflexos)
-
-***
 
 ## 1. Directional Light
 

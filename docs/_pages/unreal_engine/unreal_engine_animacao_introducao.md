@@ -1,32 +1,12 @@
 ---
 title: Animação de personagens
-description: Neste capitulo vamos apresentar o fluxo de trabalho e os elementos necessários para a animação de personagens.
-tags: [Unreal Engine, Animação]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2023-03-25 
+excerpt: Neste capitulo vamos apresentar o fluxo de trabalho e os elementos necessários para a animação de personagens.
+permalink: /pages/unreal_engine/animacao_introducao
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true 
 ---
-
-***
-
-- [1. Fluxo de trabalho para animação utilizando Unreal Engine](#1-fluxo-de-trabalho-para-animação-utilizando-unreal-engine)
-- [2. Arquivo FBX](#2-arquivo-fbx)
-- [3. Skeleton](#3-skeleton)
-  - [3.1. Animation Editors](#31-animation-editors)
-- [4. Skeletal Mesh](#4-skeletal-mesh)
-  - [4.1. Skeletal Mesh Editor](#41-skeletal-mesh-editor)
-- [5. Anim Graph](#5-anim-graph)
-  - [5.1. Animation Blueprint Editor](#51-animation-blueprint-editor)
-- [6. Sequence](#6-sequence)
-  - [6.1. Animation Sequence Editor](#61-animation-sequence-editor)
-
-***
 
 ## 1. Fluxo de trabalho para animação utilizando Unreal Engine
 

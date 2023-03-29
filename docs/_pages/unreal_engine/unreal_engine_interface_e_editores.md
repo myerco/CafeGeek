@@ -1,34 +1,14 @@
 ---
-title: Interface e Editores
-description: Interface e Editores
-tags: [Unreal Engine, interface, editor]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2023-03-25     
+title: Controle de versão
+excerpt: Neste capítulo vamos apresentar a interface do Unreal Engine e seus editores de trabalho.
+permalink: /pages/unreal_engine/interface_editores
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true  
 ---
 
-***
-
-- [1. Editor de Level](#1-editor-de-level)
-- [2. Editor de Viewports](#2-editor-de-viewports)
-  - [2.1. Transformação de ciclo (espaço) e transformações (W/E/R)](#21-transformação-de-ciclo-espaço-e-transformações-wer)
-  - [2.2. Transformação referência Mundial/Local](#22-transformação-referência-mundiallocal)
-  - [2.3. Actor Snapping](#23-actor-snapping)
-  - [2.4. Velocidade da Câmera](#24-velocidade-da-câmera)
-  - [2.5. Customização do Layout](#25-customização-do-layout)
-- [3. Play e Simulate](#3-play-e-simulate)
-
-***
-
 ## 1. Editor de Level
-
-***
 
 Uma visão geral da interface usada para o design e construção de níveis e ambientes de jogo.
 
@@ -53,9 +33,9 @@ Uma visão geral da interface usada para o design e construção de níveis e am
 
 7. Details;
 
-## 2. Editor de Viewports
-
 ***
+
+## 2. Editor de Viewports
 
 Conceitos e recursos básicos das Viewports no Unreal Editor.
 
@@ -144,9 +124,9 @@ Explicações para os modos de visualização disponíveis nas viewports.
     ref="https://docs.unrealengine.com/en-US/Engine/UI/InterfaceOverview/index.html"
 %}
 
-## 3. Play e Simulate
-
 ***
+
+## 3. Play e Simulate
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/InEditorTesting/playInEditor.webp"

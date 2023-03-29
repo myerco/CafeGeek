@@ -1,51 +1,12 @@
 ---
 title: Lógica de movimentação
-description: Trabalhando com a lógica de movimentação do personagem utilizando Blueprint
-tags: [Unreal Engine,eventos,events,funções,functions,macro]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-21 
+excerpt: Trabalhando com a lógica de movimentação do personagem utilizando Blueprint
+permalink: /pages/unreal_engine/logica_movimentacao
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true 
 ---
-
-***
-
-- [1. Mapeamento Input do projeto](#1-mapeamento-input-do-projeto)
-- [2. Actions Mappings](#2-actions-mappings)
-  - [2.1. Exemplo em C++ associando mapeamento a eventos](#21-exemplo-em-c-associando-mapeamento-a-eventos)
-- [3. Axis Mappings](#3-axis-mappings)
-  - [3.1. Exemplo em C++ associando um evento ao método MoveForward](#31-exemplo-em-c-associando-um-evento-ao-método-moveforward)
-- [4. Movimentação de peão Pawn com Blueprint](#4-movimentação-de-peão-pawn-com-blueprint)
-  - [4.1. Habilitando a entrada de comandos de entrada](#41-habilitando-a-entrada-de-comandos-de-entrada)
-  - [4.2. Implementando movimentação com teclado](#42-implementando-movimentação-com-teclado)
-  - [4.3. Capturando as coordenadas](#43-capturando-as-coordenadas)
-  - [4.4. Movimentação utilizando mouse](#44-movimentação-utilizando-mouse)
-  - [4.5. Controle de movimentação do ator (Classe)](#45-controle-de-movimentação-do-ator-classe)
-- [5. Movimentação de objetos](#5-movimentação-de-objetos)
-  - [5.1. Estrutura do objeto Plataforma](#51-estrutura-do-objeto-plataforma)
-  - [5.2. Aumentando a velocidade do Pawn](#52-aumentando-a-velocidade-do-pawn)
-  - [5.3. Movimentação da plataforma](#53-movimentação-da-plataforma)
-  - [5.4. Lógica usando Level Blueprint](#54-lógica-usando-level-blueprint)
-  - [5.5. Implementação do controle de tempo](#55-implementação-do-controle-de-tempo)
-  - [5.6. Utilizando o evento Tick e TimeLine](#56-utilizando-o-evento-tick-e-timeline)
-- [6. Usando o evento Tick com Blueprint](#6-usando-o-evento-tick-com-blueprint)
-  - [6.1. Declarando variáveis](#61-declarando-variáveis)
-  - [6.2. Inicializando variáveis](#62-inicializando-variáveis)
-  - [6.3. Evento Tick da plataforma](#63-evento-tick-da-plataforma)
-- [7. Usando o evento Tick com C++](#7-usando-o-evento-tick-com-c)
-  - [7.1. Inicializando variáveis da plataforma](#71-inicializando-variáveis-da-plataforma)
-  - [7.2. Lógica do evento Tick](#72-lógica-do-evento-tick)
-- [8. Movimentação de Characters](#8-movimentação-de-characters)
-  - [8.1. Utilizando Enumeration para registro de poses do personagem](#81-utilizando-enumeration-para-registro-de-poses-do-personagem)
-    - [8.1.1. Variável Enumeration](#811-variável-enumeration)
-    - [8.1.2. Atualizando a variável com os eventos Jump e Crouch](#812-atualizando-a-variável-com-os-eventos-jump-e-crouch)
-
-***
 
 O **Unreal Engine** utiliza `Input Actions` e `Mappings` para associar teclas a ações e eixos de movimentação, separando a lógica da entrada física , neste capítulo vamos implementar a movimentação de objetos utilizando mapeamento de ações e controle de eixos de movimentação.
 

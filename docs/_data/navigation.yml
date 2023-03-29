@@ -3,7 +3,7 @@ main:
   - title: "Desenvolvimento de Jogos"
     url: /pages/unreal_engine/
   - title: "Sobre"
-    url: /about/
+    url: /docs/about/
 
 docs:
   - title: Getting Started
@@ -73,73 +73,73 @@ dev_unreal:
       - title: Controle de versão
         url: /pages/unreal_engine/controle_versao
       - title: Interface e Editores
-        url: /pages/unreal_engine/instalacao_configuracao
+        url:  /pages/unreal_engine/interface_editores
   - title: PROGRAMAÇÃO
     children:
       - title: Blueprint
-        url: /pages/unreal_engine/o_unreal_engine_e_sua_logica_de_programacao.html
+        url: /pages/unreal_engine/blueprint
       - title: Estruturas de programação
-        url: /pages/unreal_engine/estruturas_de_programacao_no_unreal_engine.html
+        url: /pages/unreal_engine/estruturas_programacao
       - title: Atores
-        url: /pages/unreal_engine/unreal_engine_actor_atores.html
+        url: /pages/unreal_engine/atores
       - title: Programação C++
-        url: /pages/unreal_engine/programacao_c++_no_unreal_engine.html
+        url: /pages/unreal_engine/cpp
       - title: Eventos, funções e macros
-        url: /pages/unreal_engine/unreal_engine_utilizando_eventos_funcoes_macros.html
+        url: /pages/unreal_engine/eventos_funcoes
       - title: Comunicação entre Blueprints
-        url: /pages/unreal_engine/unreal_engine_comunicacao_entre_blueprint.html
+        url: /pages/unreal_engine/comunicacao_blueprint
   - title: INTERFACE COM O JOGADOR
     children:
       - title: HUD - Interface
-        url: /pages/unreal_engine/unreal_engine_hud_interface.html
+        url: /pages/unreal_engine/hud_interface
       - title: Objetos da interface
-        url: /pages/unreal_engine/unreal_engine_hud_logica.html
+        url: /pages/unreal_engine/hud_logica
   - title: ESTRUTURAS DE DADOS
     children:
       - title: Variáveis estruturadas
-        url: /pages/unreal_engine/unreal_engine_structure_variaveis_estruturadas.html
+        url: /pages/unreal_engine/variaveis_estruturadas
       - title: Tabelas de dados
-        url: /pages/unreal_engine/unreal_engine_data_tables.html        
+        url: /pages/unreal_engine/data_tables       
       - title: Game Instance, Game State e Game Mode
-        url: /pages/unreal_engine/unreal_engine_gameinstance_state_mode.html        
+        url: /pages/unreal_engine/gameinstance        
   - title: MOVIMENTAÇÃO E ANIMAÇÃO
     children:
       - title: Lógica de Movimentação
-        url: /pages/unreal_engine/unreal_engine_trabalhando_com_logica_movimentacao_de_personagem.html
+        url: /pages/unreal_engine/logica_movimentacao
       - title: Delta time e sistema de coordenadas
-        url: /pages/unreal_engine/unreal_engine_deltatime_sistema_coordenadas.html        
+        url: /pages/unreal_engine/delta_time_sistema_coordenadas      
       - title: Animação de personagens
-        url: /pages/unreal_engine/unreal_engine_animacao_introducao.html        
+        url: /pages/unreal_engine/animacao_introducao
       - title: Projeto de animação
-        url: /pages/unreal_engine/unreal_engine_animacao_preparando_o_projeto.html        
+        url: /pages/unreal_engine/animacao_projeto
       - title: Blend Space
-        url: /pages/unreal_engine/unreal_engine_animacao_blend_space.html        
+        url: /pages/unreal_engine/animacao_blend_space       
       - title: Lógica de animação
-        url: /pages/unreal_engine/unreal_engine_animacao_animation_blueprint.html        
+        url: /pages/unreal_engine/animacao_animation_blueprint        
       - title: Animação de mira
-        url: /pages/unreal_engine/unreal_engine_animacao_aim_offset.html        
+        url: /pages/unreal_engine/animacao_aim_offset       
       - title: Animação 2d
-        url: /pages/unreal_engine/unreal_engine_animacao2d.html        
+        url: /pages/unreal_engine/animacao_2d        
   - title: INTELIGÊNCIA ARTIFICIAL      
     children:
       - title: Inteligência Artificial
-        url: /pages/unreal_engine/unreal_engine_inteligencia_artificial.html
+        url: /pages/unreal_engine/inteligencia_artificial
   - title: MATERIAIS E LANDSCAPE
     children:    
       - title: Introdução aos Materiais
-        url: /pages/unreal_engine/unreal_engine_material_introducao_aos_materiais.html
+        url: /pages/unreal_engine/materiais_introducao
       - title: Construindo Materiais
-        url: /pages/unreal_engine/unreal_engine_material_construindo_materiais_entendendo_a_logica.html
+        url: /pages/unreal_engine/materiais_logica
       - title: Material Instance
-        url: /pages/unreal_engine/unreal_engine_material_instance.html
+        url: /pages/unreal_engine/materiais_material_instance
       - title: Manipulando materiais
-        url: /pages/unreal_engine/unreal_engine_material_blueprint.html
+        url: /pages/unreal_engine/materiais_blueprint
       - title: Iluminação
-        url: /pages/unreal_engine/unreal_engine_iluminacao.html
+        url: /pages/unreal_engine/iluminacao
   - title: MULTIPLAYER
     children:
       - title: Multiplayer
-        url: /pages/unreal_engine/unreal_engine_multiplayer.html
+        url: /pages/unreal_engine/multiplayer
   - title: EFEITOS ESPECIAIS
     children:
       - title: Sequencer

@@ -1,43 +1,12 @@
 ---
 title: Lógica de animação
-description: Em este capítulo iremos implementar várias animações utilizando Animation Blueprint para implementar a lógica de movimentação.
-tags: [Unreal Engine, Animação,Blend Space 1D]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp 
-    nav: "dev_unreal"
-date: 2022-09-25 
+excerpt: Em este capítulo iremos implementar várias animações utilizando Animation Blueprint para implementar a lógica de movimentação.
+permalink: /pages/unreal_engine/animacao_animation_blueprint
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true
 ---
-
-***
-
-- [1. O que é Animation Blueprint?](#1-o-que-é-animation-blueprint)
-  - [1.1. Implementado Animation Blueprint utilizando o Humano](#11-implementado-animation-blueprint-utilizando-o-humano)
-- [2. Estados de maquina ou State Machine](#2-estados-de-maquina-ou-state-machine)
-- [3. Blend Space e State Machine](#3-blend-space-e-state-machine)
-- [4. Blend Space 1D](#4-blend-space-1d)
-- [5. Blend Space](#5-blend-space)
-  - [5.1. Exemplo de um personagem saltando](#51-exemplo-de-um-personagem-saltando)
-  - [5.2. Implementado Animation Blueprint utilizando o Mutante](#52-implementado-animation-blueprint-utilizando-o-mutante)
-  - [5.3. Vídeo Animation Blueprint do Mutante](#53-vídeo-animation-blueprint-do-mutante)
-- [6. Implementando a Corrida](#6-implementando-a-corrida)
-  - [6.1. Vídeo Implementando a corrida do mutante](#61-vídeo-implementando-a-corrida-do-mutante)
-- [7. Montando a animação de ataque](#7-montando-a-animação-de-ataque)
-  - [7.1. Vídeo montando Animação de ataque](#71-vídeo-montando-animação-de-ataque)
-- [8. Animação básica com AnimGraph](#8-animação-básica-com-animgraph)
-  - [8.1. BasicLocomotion](#81-basiclocomotion)
-  - [8.2. Idle/Walk/Run](#82-idlewalkrun)
-- [9. Animação de ataque com AnimGraph](#9-animação-de-ataque-com-animgraph)
-  - [9.1. Vídeo montando o ataque](#91-vídeo-montando-o-ataque)
-- [10. Atacando somente com os braços](#10-atacando-somente-com-os-braços)
-- [11. Animação de ataque completa e correndo somente os braços](#11-animação-de-ataque-completa-e-correndo-somente-os-braços)
-  - [11.1. Vídeo do personagem correndo e atacando](#111-vídeo-do-personagem-correndo-e-atacando)
-
-***
 
 ## 1. O que é Animation Blueprint?
 

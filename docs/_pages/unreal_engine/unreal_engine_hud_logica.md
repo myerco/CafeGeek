@@ -1,40 +1,13 @@
 ---
 title: HUD - Lógica de programação
-description: Neste capitulo vamos apresentar a lógica de programação os objetos do HUD.
-tags: [Unreal Engine, HUD, user interface,UI]
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
+excerpt: Neste capitulo vamos apresentar a lógica de programação os objetos do HUD.
+permalink: /pages/unreal_engine/hud_logica
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true  
 date: 2022-09-25 
 ---
-
-
-***
-
-- [1. Lógica de programação do Widget Graph](#1-lógica-de-programação-do-widget-graph)
-  - [1.1. Event Construct para inicializar variáveis utilizadas no Widget](#11-event-construct-para-inicializar-variáveis-utilizadas-no-widget)
-  - [1.2. Botões e eventos (Button and Events)](#12-botões-e-eventos-button-and-events)
-  - [1.3. Acionando o botão Sair para finalizar o jogo](#13-acionando-o-botão-sair-para-finalizar-o-jogo)
-- [2. Executando o menu](#2-executando-o-menu)
-- [3. Apresentando informações para o Jogador](#3-apresentando-informações-para-o-jogador)
-  - [3.1. Fazendo a ligação do elemento da interface com uma função](#31-fazendo-a-ligação-do-elemento-da-interface-com-uma-função)
-  - [3.2. Função do calculo de vida do jogador](#32-função-do-calculo-de-vida-do-jogador)
-  - [3.3. Função para pegar o nome do jogador](#33-função-para-pegar-o-nome-do-jogador)
-- [4. Organizando os objetos](#4-organizando-os-objetos)
-  - [4.1. Criando o objeto SaveGame para salvar dados do jogo](#41-criando-o-objeto-savegame-para-salvar-dados-do-jogo)
-  - [4.2. Evento para apresentar o menu na tela](#42-evento-para-apresentar-o-menu-na-tela)
-  - [4.3. Evento para abrir um Level](#43-evento-para-abrir-um-level)
-  - [4.4. Salvando dados](#44-salvando-dados)
-  - [4.5. Evento para carregar dados](#45-evento-para-carregar-dados)
-  - [4.6. Voltando ao jogo](#46-voltando-ao-jogo)
-  - [4.7. Iniciando Game Instance no Widget](#47-iniciando-game-instance-no-widget)
-  - [4.8. Efetuando as chamadas das funções](#48-efetuando-as-chamadas-das-funções)
-
-***
 
 ## 1. Lógica de programação do Widget Graph
 

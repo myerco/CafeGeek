@@ -1,38 +1,12 @@
 ---
 title: Implementando o jogo Multiplayer.
-description: Implementando um jogo multiplayer com Unreal Engine
-tags: [Unreal Engine, Multiplayer]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-26 
+excerpt: Implementando um jogo multiplayer com Unreal Engine
+permalink: /pages/unreal_engine/multiplayer
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true 
 ---
-
-***
-
-- [1. Implementando um jogo multiplayer](#1-implementando-um-jogo-multiplayer)
-  - [1.1. Tipos de Conexão](#11-tipos-de-conexão)
-    - [1.1.1. Cliente e Servidor](#111-cliente-e-servidor)
-    - [1.1.2. Ponto a Ponto](#112-ponto-a-ponto)
-  - [1.2. Implementação no jogo](#12-implementação-no-jogo)
-    - [1.2.1. Exemplo Servidor](#121-exemplo-servidor)
-    - [1.2.2. Exemplo Cliente](#122-exemplo-cliente)
-- [2. Executando e configurando o projeto](#2-executando-e-configurando-o-projeto)
-- [3. Implementando o menu](#3-implementando-o-menu)
-  - [3.1. Executando o jogo](#31-executando-o-jogo)
-- [4. Replicação](#4-replicação)
-  - [4.1. Replicação de eventos](#41-replicação-de-eventos)
-  - [4.2. Objetos não Replicados](#42-objetos-não-replicados)
-  - [4.3. Replicação de variáveis](#43-replicação-de-variáveis)
-- [5. Implementando o objeto de para ser arremessado](#5-implementando-o-objeto-de-para-ser-arremessado)
-  - [5.1. Implementando a manipulação do objeto pelo personagem](#51-implementando-a-manipulação-do-objeto-pelo-personagem)
-
-***
 
 Neste capítulo vamos implementar e organização elementos para conexão, replicação e inicialização de um jogo multiplayer.
 

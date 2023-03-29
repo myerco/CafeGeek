@@ -1,31 +1,12 @@
 ---
 title: Game Instance, Game State e Game Mode
-description: Neste capítulo iremos apresentar as classes GameMode e GameInstance com suas funcionalidades.
-tags: [Unreal Engine,game mode,game instance,game state]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-25 
+excerpt: Neste capítulo iremos apresentar as classes GameMode e GameInstance com suas funcionalidades.
+permalink: /pages/unreal_engine/gameinstance
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true 
 ---
-
-***
-
-- [1. Como funciona Game Mode e Game State?](#1-como-funciona-game-mode-e-game-state)
-  - [1.1. A organização de classes do Framework](#11-a-organização-de-classes-do-framework)
-  - [1.2. Implementando o GameMode](#12-implementando-o-gamemode)
-- [2. O que é PlayerController?](#2-o-que-é-playercontroller)
-  - [2.1. PlayerController vs  PlayerCharacter](#21-playercontroller-vs--playercharacter)
-- [3. GameInstance](#3-gameinstance)
-  - [3.1. Criando GameInstance](#31-criando-gameinstance)
-  - [3.2. Adicionando um evento dentro da GameInstance](#32-adicionando-um-evento-dentro-da-gameinstance)
-  - [3.3. Chamando a GameInstance para acessar os seus elementos](#33-chamando-a-gameinstance-para-acessar-os-seus-elementos)
-
-***
 
 Na estrutura do **Unreal Engine** existem classes para controlar regras do jogo (`GameMode`) e o personagem bem como classes com visibilidade global (`GameInstance`), neste capítulo iremos apresentar estas classes e suas funcionalidades.
 

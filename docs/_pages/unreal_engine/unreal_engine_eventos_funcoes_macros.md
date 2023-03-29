@@ -1,44 +1,14 @@
 ---
 title: Eventos, funções e macros
-description: Neste capitulo serão apresentado como estruturar a lógica de programação utilizando métodos, funções e macros com Unreal Engine.
-tags: [Unreal Engine, eventos, events, funções, functions, macro]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-21 
+excerpt: Neste capitulo serão apresentado como estruturar a lógica de programação utilizando métodos, funções e macros com Unreal Engine.
+permalink: /pages/unreal_engine/eventos_funcoes
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true  
 ---
 
-***
-
-- [1. Entendo Métodos e funções em programação](#1-entendo-métodos-e-funções-em-programação)
-  - [1.1. Programação Orientada a Objetos](#11-programação-orientada-a-objetos)
-  - [1.2. Métodos](#12-métodos)
-  - [1.3. Funções](#13-funções)
-- [2. O que são Eventos em Blueprint](#2-o-que-são-eventos-em-blueprint)
-  - [2.1. Evento de dano  no personagem](#21-evento-de-dano--no-personagem)
-  - [2.2. Evento e Métodos](#22-evento-e-métodos)
-  - [2.3. Exemplo C++](#23-exemplo-c)
-- [3. Funções no Unreal Engine](#3-funções-no-unreal-engine)
-  - [3.1. Exemplo de uma função em C++](#31-exemplo-de-uma-função-em-c)
-  - [3.2. Exemplo de uma função Blueprint](#32-exemplo-de-uma-função-blueprint)
-  - [3.3. Funções Puras](#33-funções-puras)
-- [4. Macros](#4-macros)
-  - [4.1. Exemplo de uma macro em C++](#41-exemplo-de-uma-macro-em-c)
-  - [4.2. Exemplo de uma macro em Blueprint](#42-exemplo-de-uma-macro-em-blueprint)
-- [5. Collapse Nodes](#5-collapse-nodes)
-- [6. Executando a função e a macro](#6-executando-a-função-e-a-macro)
-- [7. Eventos predefinidos para causar e receber Dano](#7-eventos-predefinidos-para-causar-e-receber-dano)
-
-***
-
 ## 1. Entendo Métodos e funções em programação
-
-***
 
 Para entender melhor a estrutura de programação que representa a construção de eventos e funções vamos abordar alguns conceitos de programação orientada a objetos.
 
@@ -111,9 +81,9 @@ int main() {
 }
 ```
 
-## 2. O que são Eventos em Blueprint
-
 ***
+
+## 2. O que são Eventos em Blueprint
 
 Os eventos são nós chamados a partir do código do jogo para iniciar a execução de uma rede individual dentro do `EventGraph`. Eles permitem que os **Blueprints** executem uma série de ações em resposta a certos eventos que ocorrem dentro do jogo, como quando o jogo começa, quando um nível é reiniciado ou quando um jogador sofre dano.
 
@@ -174,9 +144,9 @@ void AProjeto::Tick(float DeltaTime)
 };
 ```
 
-## 3. Funções no Unreal Engine
-
 ***
+
+## 3. Funções no Unreal Engine
 
 São mini programas com as características de alocação de memória, estruturas internas de código e variáveis locais.
 Podem receber parâmetros externos e retornam algum valor para o programa que executou a chamada.  
@@ -257,9 +227,9 @@ nStatic is 6
 
 "Funções puras têm uma desvantagem crucial. Eles não podem se comunicar com o mundo exterior. Porque funções para entrada e saída, funções para construir um estado ou funções para criar números aleatórios não podem ser puras..."
 
-## 4. Macros
-
 ***
+
+## 4. Macros
 
 Blueprint Macros, ou Macros, são essencialmente iguais a gráficos de nós recolhidos. Eles têm um ponto de entrada e um ponto de saída designado por nós de túnel. Cada túnel pode ter qualquer número de pinos de execução ou de dados que são visíveis no nó da macro quando usados em outros **Blueprints** e gráficos.
 
@@ -285,9 +255,9 @@ std::cout << "The minimum is " << MIN(42, 8) << endl;
     caption="Acima a lógica de uma macro."
 %}
 
-## 5. Collapse Nodes
-
 ***
+
+## 5. Collapse Nodes
 
 Usado principalmente para organização de código, escondendo nós da estrutura principal.
 
@@ -303,15 +273,17 @@ Usado principalmente para organização de código, escondendo nós da estrutura
 
 - Vai ser criado um gráfico de eventos próprio.
 
-## 6. Executando a função e a macro
-
 ***
+
+## 6. Executando a função e a macro
 
 {% include imagelocal.html
     src="unreal/modulos/blueprint_call_function_macro.webp"
     alt="Figura: Blueprint - Exemplo de Call function marco."
     caption="No exemplo acima usamos a função e uma macro."
 %}
+
+***
 
 ## 7. Eventos predefinidos para causar e receber Dano
 

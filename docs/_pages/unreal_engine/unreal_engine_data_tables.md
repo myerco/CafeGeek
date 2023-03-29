@@ -1,30 +1,12 @@
 ---
 title: Tabelas de Dados
-description: Data Tables são estruturas de dados com vários tipos de variáveis agrupados
-tags: [Unreal Engine,data tables]
-categories: Unreal Engine
-author: 
-- Cafegeek
-layout: post
-sidebar:  
-  - title: "UNREAL ENGINE COM C++ E BLUEPRINT"
-    image: /imagens/unreal/logos/unreal_engine.webp
-    nav: "dev_unreal"
-date: 2022-09-25 
+excerpt: Data Tables são estruturas de dados com vários tipos de variáveis agrupados
+permalink: /pages/unreal_engine/data_tables
+last_modified_at: 2023-03-28T08:48:05-04:00
+sidebar:
+    nav: dev_unreal
+toc: true 
 ---
-
-***
-
-- [1. O que são Data Tables?](#1-o-que-são-data-tables)
-- [2. Criando um objeto do tipo Data Table](#2-criando-um-objeto-do-tipo-data-table)
-- [3. Inserindo dados no objeto do tipo Data Table](#3-inserindo-dados-no-objeto-do-tipo-data-table)
-- [4. Importando dados de um arquivo csv](#4-importando-dados-de-um-arquivo-csv)
-- [5. Exemplo de utilização de Data Table](#5-exemplo-de-utilização-de-data-table)
-  - [5.1. Implementando o objeto BP\_Vida](#51-implementando-o-objeto-bp_vida)
-  - [5.2. Implementando o objeto BP\_Elementos](#52-implementando-o-objeto-bp_elementos)
-  - [5.3. Logica da carga dos dados](#53-logica-da-carga-dos-dados)
-
-***
 
 Neste capitulo vamos explorar os objetos do tipo **Data tables** que são basicamente tabelas de dados disponíveis para os desenvolvedores e são definidas por tipos *Structure*.  
 
