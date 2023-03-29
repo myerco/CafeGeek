@@ -1,9 +1,14 @@
 ---
-title:  Instalando e Configurando
+title:  Instalação e Configuração
 excerpt: O Unreal Engine é um Framework de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos e também um ambiente visual de programação abstraindo a lógica de programação.
 permalink: /pages/unreal_engine/instalacao_configuracao
 last_modified_at: 2023-03-28T08:48:05-04:00
 toc: true  
+pagination:
+  enabled
+  per_page: 2
+sidebar:
+    nav: dev_unreal
 ---
 
 

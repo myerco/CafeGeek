@@ -1,8 +1,12 @@
 ---
-title: Unreal Engine
+title: Desenvolvimento de Jogos
 excerpt: Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando Blueprints e C++.
 permalink: /pages/unreal_engine/
 last_modified_at: 2023-03-28T08:48:05-04:00
+layout: home
+pagination:
+  enabled
+  per_page: 2
 sidebar:
     nav: dev_unreal
 toc: true  

@@ -17,50 +17,17 @@ docs:
       - title: "Upgrading"
         url: /docs/upgrading/
 
-  - title: Customization
-    children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
-
-  - title: Content
-    children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
-
-  - title: Extras
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
-
 dev_game:
   - title: UNREAL ENGINE
     children:
       - title: Introdução
         url: /pages/unreal_engine/
       - title: Programação
-        url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html        
+        url: /pages/unreal_engine/desenvolvendo_jogos_digitais.html        
       - title: Movimentação e Animação
-        url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html                
+        url: /pages/unreal_engine/desenvolvendo_jogos_digitais.html                
       - title: Materiais
-        url: /unreal-engine-c+-+-e-blueprint/desenvolvendo_jogos_digitais.html                        
+        url: /pages/unreal_engine/desenvolvendo_jogos_digitais.html                        
   - title: MODELAGEM 3D
     children:
       - title: Autodesk Maya
@@ -110,4 +77,72 @@ dev_unreal:
   - title: PROGRAMAÇÃO
     children:
       - title: Blueprint
-        url: /pages/unreal_engine/blueprint
+        url: /pages/unreal_engine/o_unreal_engine_e_sua_logica_de_programacao.html
+      - title: Estruturas de programação
+        url: /pages/unreal_engine/estruturas_de_programacao_no_unreal_engine.html
+      - title: Atores
+        url: /pages/unreal_engine/unreal_engine_actor_atores.html
+      - title: Programação C++
+        url: /pages/unreal_engine/programacao_c++_no_unreal_engine.html
+      - title: Eventos, funções e macros
+        url: /pages/unreal_engine/unreal_engine_utilizando_eventos_funcoes_macros.html
+      - title: Comunicação entre Blueprints
+        url: /pages/unreal_engine/unreal_engine_comunicacao_entre_blueprint.html
+  - title: INTERFACE COM O JOGADOR
+    children:
+      - title: HUD - Interface
+        url: /pages/unreal_engine/unreal_engine_hud_interface.html
+      - title: Objetos da interface
+        url: /pages/unreal_engine/unreal_engine_hud_logica.html
+  - title: ESTRUTURAS DE DADOS
+    children:
+      - title: Variáveis estruturadas
+        url: /pages/unreal_engine/unreal_engine_structure_variaveis_estruturadas.html
+      - title: Tabelas de dados
+        url: /pages/unreal_engine/unreal_engine_data_tables.html        
+      - title: Game Instance, Game State e Game Mode
+        url: /pages/unreal_engine/unreal_engine_gameinstance_state_mode.html        
+  - title: MOVIMENTAÇÃO E ANIMAÇÃO
+    children:
+      - title: Lógica de Movimentação
+        url: /pages/unreal_engine/unreal_engine_trabalhando_com_logica_movimentacao_de_personagem.html
+      - title: Delta time e sistema de coordenadas
+        url: /pages/unreal_engine/unreal_engine_deltatime_sistema_coordenadas.html        
+      - title: Animação de personagens
+        url: /pages/unreal_engine/unreal_engine_animacao_introducao.html        
+      - title: Projeto de animação
+        url: /pages/unreal_engine/unreal_engine_animacao_preparando_o_projeto.html        
+      - title: Blend Space
+        url: /pages/unreal_engine/unreal_engine_animacao_blend_space.html        
+      - title: Lógica de animação
+        url: /pages/unreal_engine/unreal_engine_animacao_animation_blueprint.html        
+      - title: Animação de mira
+        url: /pages/unreal_engine/unreal_engine_animacao_aim_offset.html        
+      - title: Animação 2d
+        url: /pages/unreal_engine/unreal_engine_animacao2d.html        
+  - title: INTELIGÊNCIA ARTIFICIAL      
+    children:
+      - title: Inteligência Artificial
+        url: /pages/unreal_engine/unreal_engine_inteligencia_artificial.html
+  - title: MATERIAIS E LANDSCAPE
+    children:    
+      - title: Introdução aos Materiais
+        url: /pages/unreal_engine/unreal_engine_material_introducao_aos_materiais.html
+      - title: Construindo Materiais
+        url: /pages/unreal_engine/unreal_engine_material_construindo_materiais_entendendo_a_logica.html
+      - title: Material Instance
+        url: /pages/unreal_engine/unreal_engine_material_instance.html
+      - title: Manipulando materiais
+        url: /pages/unreal_engine/unreal_engine_material_blueprint.html
+      - title: Iluminação
+        url: /pages/unreal_engine/unreal_engine_iluminacao.html
+  - title: MULTIPLAYER
+    children:
+      - title: Multiplayer
+        url: /pages/unreal_engine/unreal_engine_multiplayer.html
+  - title: EFEITOS ESPECIAIS
+    children:
+      - title: Sequencer
+        url: /unreal-engine-c+-+-e-blueprint
+      - title: Niagara
+        url: /unreal-engine-c+-+-e-blueprint
