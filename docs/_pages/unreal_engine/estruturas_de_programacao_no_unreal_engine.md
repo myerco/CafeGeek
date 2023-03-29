@@ -107,7 +107,7 @@ date: 2022-09-21
 
 ## 1. O que são variáveis?
 
-{% include logo.html
+{% include imagelocal.html
     src="unreal/variaveis/unreal_engine_variables.webp"
     alt="Blueprint Variables."
     caption="Blueprint Variables."

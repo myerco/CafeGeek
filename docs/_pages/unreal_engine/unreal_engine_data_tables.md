@@ -40,7 +40,7 @@ Neste capitulo vamos explorar os objetos do tipo **Data tables** que são basica
 
 Vamos implementar o **SElementos** do tipo *Structure* que servirá como base para o objeto `Data Table`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_structure.webp"
     alt="Figura: Blueprint - Structure SElementos."
     caption="Figura: Blueprint - Structure SElementos."
@@ -48,7 +48,7 @@ Vamos implementar o **SElementos** do tipo *Structure* que servirá como base pa
 
 Definimos as seguintes variáveis.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_structure_variable_3.webp"
     alt="Figura: Blueprint - Criando as variáveis dentro da estrutura."
     caption="Figura: Blueprint - Criando as variáveis dentro da estrutura."
@@ -56,7 +56,7 @@ Definimos as seguintes variáveis.
 
 Utilizando o menu de contexto escolha `Miscellaneous` > `Data Table`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_datatable_menu.webp"
     alt="Figura: Blueprint - Menu de contexto Miscellaneous > Data Table."
     caption="Figura: Blueprint - Menu de contexto Miscellaneous > Data Table."
@@ -64,7 +64,7 @@ Utilizando o menu de contexto escolha `Miscellaneous` > `Data Table`.
 
 Logo em seguida devemos definir a estrutura de dados da tabela utilizando o variável **SElementos** do tipo `Structure`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_datatable_row_structure.webp"
     alt="Figura: Blueprint - Definindo a estrutura da tabela usando Structure e Data Table."
     caption="Figura: Blueprint - Definindo a estrutura da tabela usando Structure e Data Table."
@@ -72,7 +72,7 @@ Logo em seguida devemos definir a estrutura de dados da tabela utilizando o vari
 
 *DTElementos* do tipo `Data Tables`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_datatables.webp"
     alt="Figura: Blueprint - Data Table."
     caption="Figura: Blueprint - Data Table."
@@ -85,7 +85,7 @@ Logo em seguida devemos definir a estrutura de dados da tabela utilizando o vari
 Ao abrir o objeto de Data Table é apresentado um editor para manipulação de dados, inserindo, removendo e alterando as linhas.  
 A coluna **RowName** não pode ser repetida, funcionado como identificador único da linha.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_datatables_editor.webp"
     alt="Figura: Blueprint - Exemplo do editor para inserir linhas na tabela."
     caption="Figura: Blueprint - Exemplo do editor para inserir linhas na tabela."
@@ -109,7 +109,7 @@ rowname,Name,type,property,value
 
 Agora vamos implementar o objeto SArtifact do tipo *Structure* com a seguinte estrutura para que possamos carregar os dados do arquivo:
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_datatables_artifact.webp"
     alt="Figura: Blueprint - Definindo Structure para carregar os dados."
     caption="Figura: Blueprint - Definindo Structure para carregar os dados."
@@ -117,7 +117,7 @@ Agora vamos implementar o objeto SArtifact do tipo *Structure* com a seguinte es
 
 Em seguida implemente o objeto TArtifact do tipo `Data Table` e com o botão direito do mouse em cima do objeto e selecione `Reimport`, logo em seguida escolha o arquivo csv:
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_datatables_import.webp"
     alt="Figura: Blueprint - Data Table Reimport."
     caption="Figura: Blueprint - Data Table Reimport."
@@ -125,7 +125,7 @@ Em seguida implemente o objeto TArtifact do tipo `Data Table` e com o botão dir
 
 Os dados serão importados e na aba `Data Table Details` os parâmetros de importação serão apresentados.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_datatables_details.webp"
     alt="Figura: Blueprint - Data Table Details."
     caption="Figura: Blueprint - Data Table Details."
@@ -141,7 +141,7 @@ Para este exemplo vamos implementar um objeto para automaticamente adicionar out
 
 Este objeto deverá estar na cena para interação com o jogador pois pode aumentar o valor da vida do personagem com as seguintes variáveis e componentes.  
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_component_bp_vida.webp"
     alt="Figura: Blueprint - Exemplo do objeto BP_vida."
     caption="Figura: Blueprint - Exemplo do objeto BP_vida."
@@ -151,7 +151,7 @@ Este objeto deverá estar na cena para interação com o jogador pois pode aumen
 
 Este objeto serve como referência na cena para posicionamento de objetos *BP_Vida* com as seguintes variáveis e componentes.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_component_bp_elementos.webp"
     alt="Figura: Blueprint - Exemplo do objeto de posicionamento dos objetos vida."
     caption="Figura: Blueprint - Exemplo do objeto de posicionamento dos objetos vida."
@@ -159,7 +159,7 @@ Este objeto serve como referência na cena para posicionamento de objetos *BP_Vi
 
 Observe que a variável **Posicao** é do tipo vector e tem a propriedade `Show 3D Widget` habilitada para facilitar o posicionamento do elemento na cena.  
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_vetor_widget.webp"
     alt="Figura: Blueprint - Show 3D Widget."
     caption="Figura: Blueprint - Show 3D Widget."
@@ -167,7 +167,7 @@ Observe que a variável **Posicao** é do tipo vector e tem a propriedade `Show 
 
 O Vetor **Posicao** na cena.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_actor_posicao.webp"
     alt="Figura: Blueprint - Posição do ator na cena."
     caption="Figura: Blueprint - Posição do ator na cena."
@@ -175,7 +175,7 @@ O Vetor **Posicao** na cena.
 
 Detalhes das coordenadas.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_actor_posicao_detalhe.webp"
     alt="Figura: Blueprint - Coordenadas."
     caption="Figura: Blueprint - Coordenadas."
@@ -185,7 +185,7 @@ Detalhes das coordenadas.
 
 Para cada elemento do vetor *Posicao* é implementado um objeto do tipo BP_vida nas coordenadas de vetor.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_getdatatable.webp"
     alt="Figura: Blueprint - Carregando dados utilizando GetDataTableRow."
     caption="Figura: Blueprint - Carregando dados utilizando GetDataTableRow."
@@ -195,7 +195,7 @@ Para cada elemento do vetor *Posicao* é implementado um objeto do tipo BP_vida 
 
 Para cada objeto adicionado na cena são definidas propriedades.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_spawn_bp_vida.webp"
     alt="Figura: Blueprint - Criando objetos usando os dados do Data Table."
     caption="Figura: Blueprint - Criando objetos usando os dados do Data Table."

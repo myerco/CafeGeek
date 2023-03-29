@@ -744,7 +744,7 @@ Usando a função `GetActorLocation` podemos determinar a distância entre dois 
 
 ### 7.7. VectorLength
 
-{% include imagebase.html
+{% include imagelocal.html
   src="unreal/tempoespaco/blueprint_vector_lenght.webp"
   alt="Figura: Exemplo de VectorLength."
   caption="Calcula o comprimento do vetor, onde Comprimento = VectorLength(Resultado) (1341.64078)."

@@ -47,7 +47,7 @@ A lógica de controle de ações dos botões e a inicialização está em `Graph
 Para que o objeto menu tenha acesso a propriedades da classe do jogador vamos inicializar a uma variável local utilizando `Event Construct`.
 Ao iniciar o Widget definimos uma variável **Jogador** do tipo `BP_Hero` para que possamos ter acesso as propriedades nome e vida por exemplo.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/interface_ui_hud/blueprint_hud_event_construct.webp"
     alt="Figura: Blueprint - Widget Graph Event Construct."
     caption="Figura: Blueprint - Widget Graph Event Construct."
@@ -59,7 +59,7 @@ Os elementos do tipo `Button` tem eventos relacionados na sua estrutura, como po
 
 Vamos utilizar o evento `OnClick` para executar a função `Open Level` para carregar outro *level* do projeto. Deverá ser informado o nome do *Level* que queremos abrir.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/interface_ui_hud/blueprint_hud_open_level.webp"
     alt="Figura: Blueprint -  Widget HUD Blueprint e Open Level."
     caption="Figura: Blueprint -  Widget HUD Blueprint e Open Level."
@@ -69,7 +69,7 @@ Vamos utilizar o evento `OnClick` para executar a função `Open Level` para car
 
 Ao clicar no botão Sair vamos chamar a função `Quit Game` que finaliza do jogo.  
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/interface_ui_hud/blueprint_hud_quit_game.webp"
     alt="Figura: Blueprint - Widget HUD Blueprint Quit Game."
     caption="Figura: Blueprint - Widget HUD Blueprint Quit Game."
@@ -85,7 +85,7 @@ Caso o `Widget` seja o menu principal que deverá ser chamado no início do jogo
 
 Vamos criar um Level Vazio `Empty Level` para funcionar como base do menu.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/interface_ui_hud/blueprint_empty_level.webp"
     alt="Figura: Widget Empty Level."
     caption="Figura: Widget Empty Level."
@@ -93,7 +93,7 @@ Vamos criar um Level Vazio `Empty Level` para funcionar como base do menu.
 
 Em `Open Level Blueprint` vamos adicionar a lógica para criar um objeto do tipo `BP_HUD_Demo` e adicionar na tela com a função `AddToViewPort`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/interface_ui_hud/blueprint_hud_addviewport.webp"
     alt="Figura: Widget HUD Add ViewPort."
     caption="Figura: Widget HUD Add ViewPort."
@@ -105,7 +105,7 @@ Em `Open Level Blueprint` vamos adicionar a lógica para criar um objeto do tipo
 
 Para este passo vamos implementar os seguintes elementos para apresentar informações para o jogador, como por exemplo a vida do personagem.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/interface_ui_hud/blueprint_hud_player_elements.webp"
     alt="Figura: Widget HUD Player Elements."
     caption="Figura: Widget HUD Player Elements."
@@ -119,7 +119,7 @@ Para este passo vamos implementar os seguintes elementos para apresentar informa
 
 Devemos conectar os elementos da interface com funções por meio de uma propriedade `Bind`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/interface_ui_hud/blueprint_hud_progressbar_bind.webp"
     alt="Figura: Blueprint - Widget HUD Progress Bar Bind."
     caption="Figura: Blueprint - Widget HUD Progress Bar Bind."
@@ -129,7 +129,7 @@ Devemos conectar os elementos da interface com funções por meio de uma proprie
 
 Para calcular o valor da vida do jogador vamos implementar uma função, abaixo a lógica da função associada a elemento `ProgressBar`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/interface_ui_hud/blueprint_hud_function_vida_jogador.webp"
     alt="Figura: Widget HUD Progress Bar function."
     caption="Figura: Widget HUD Progress Bar function."
@@ -139,7 +139,7 @@ Para calcular o valor da vida do jogador vamos implementar uma função, abaixo 
 
 Podemos utilizar Variáveis estruturadas para manipulação das propriedades do jogador.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/interface_ui_hud/blueprint_hud_function_nome_jogador.webp"
     alt="Figura: Widget HUD name player function."
     caption="Figura: Widget HUD name player function."
@@ -165,7 +165,7 @@ Para exemplificar algumas funções do menu como por exemplo salvar dados do jog
 
 Vamos implementar um objeto BP_SaveGameDemo do tipo `SaveGame`, para isso utilizamos o menu de contexto e escolhemos `Blueprint`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/saveload/blueprint_save_game_object.webp"
     alt="Figura: Blueprint - Class SaveGame."
     caption="Figura: Blueprint - Class SaveGame."
@@ -173,7 +173,7 @@ Vamos implementar um objeto BP_SaveGameDemo do tipo `SaveGame`, para isso utiliz
 
 Adicionamos variáveis dentro do objeto para definir o que deve ser salvo, neste exemplo utilizaremos a variável `JogadorInfo` do tipo `S_jogador` que é uma  variável to tipo Structure.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/saveload/blueprint_save_game_variable.webp"
     alt="Figura: Blueprint - SaveGame variáveis."
     caption="Figura: Blueprint - SaveGame variáveis."
@@ -185,7 +185,7 @@ Nos próximos passos vamos criar o objeto *BP_GameInstanceJogo* do tipo *GameIns
 
 Implementamos um evento customizado para adicionar lógica dos eventos.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/blueprint_gameinstance_openmenu.webp"
     alt="Figura: Widget HUD Blueprint Logic Add to ViewPort."
     caption="Figura: Widget HUD Blueprint Logic Add to ViewPort."
@@ -199,7 +199,7 @@ Implementamos um evento customizado para adicionar lógica dos eventos.
 
 Neste passo vamos adicionar um evento customizado ,`add custom event`, para carregar um *level* na cena.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/blueprint_gameinstance_openlevel.webp"
     alt="Figura: Blueprint - Logica para Open Level."
     caption="Figura: Blueprint - Logica para Open Level."
@@ -213,7 +213,7 @@ Neste passo vamos adicionar um evento customizado ,`add custom event`, para carr
 
 Para salvar informações vamos utilizar a função `Save Game to Slot`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/blueprint_gameinstance_savegame.webp"
     alt="Figura: Logica de SaveGame com slot."
     caption="Figura: Logica de SaveGame com slot."
@@ -227,7 +227,7 @@ Para salvar informações vamos utilizar a função `Save Game to Slot`.
 
 Para carregar dados salvos utilizamos a função `Load Game from Slot` passando como parâmetro o nome do *slot*.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/blueprint_gameinstance_loaddada.webp"
     alt="Figura: Logica para carregar dados - Load Game From Slot."
     caption="Figura: Logica para carregar dados - Load Game From Slot."
@@ -241,7 +241,7 @@ Para carregar dados salvos utilizamos a função `Load Game from Slot` passando 
 
 Vamos agora remover o menu ou objeto `Widget` da cena utilizando a função `Remove from parent`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/blueprint_gameinstance_returngame.webp"
     alt="Figura: Blueprint - Remove From Parent."
     caption="Figura: Blueprint - Remove From Parent."
@@ -253,7 +253,7 @@ Vamos agora remover o menu ou objeto `Widget` da cena utilizando a função `Rem
 
 No objeto BP_HUD_Demo vamos substituir ou adicionar a lógica dos botões, mas antes devemos inicializar a `Game Instance`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/blueprint_hud_gameinstance.webp"
     alt="Figura: Blueprint - Widget HUD gameinstance."
     caption="Figura: Blueprint - Widget HUD gameinstance."
@@ -263,7 +263,7 @@ No objeto BP_HUD_Demo vamos substituir ou adicionar a lógica dos botões, mas a
 
 No evento click dos botões vamos adicionar os eventos construídos dentro da *Game Instance* isolando a regra de negócios (dados e lógica e manipulação).
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/blueprint_hud_gameinstance_openlevel.webp"
     alt="Figura: Blueprint - Widget HUD with Game Instance on click."
     caption="Figura: Blueprint - Widget HUD with Game Instance on click."

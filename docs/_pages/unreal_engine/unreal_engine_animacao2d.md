@@ -40,7 +40,7 @@ date: 2022-10-03
 
 ***
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_project.webp"
     alt="Figura: Paper 2D"
     caption=""

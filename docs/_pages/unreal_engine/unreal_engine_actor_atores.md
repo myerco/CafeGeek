@@ -326,7 +326,7 @@ Propriedades da Mesh (Skeletal):
 
 #### 6.3.3. O Editor Skeletal Mesh
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_skeleton_mannequim.webp"
     alt="Figura: Editor Skeletal Mesh."
     caption="Permite a manipulação de cada osso do esqueleto e acesso aos objetos associados ao esqueleto."

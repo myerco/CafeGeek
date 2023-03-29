@@ -114,7 +114,7 @@ Este elemento é utilizado quanto existem dois parâmetros para controle das ani
 
 Menu de contexto `Animation` > `Blend Space`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/animacao/unreal_engine_Blend_Space.webp"
     alt="Figura: Unreal Engine - Editor Blend Space."
     caption="Figura: Unreal Engine - Editor Blend Space."

@@ -67,7 +67,7 @@ Para associar teclas a eventos utilizamos o menu `Edit` > `Project Settings` > `
 
 Mapeamento de ações permite vincular um evento a uma entrada de dados (teclado, mouse, Gamepad, etc) e determinar a ação que deve ser executada em código C++ ou Blueprint.  
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_mappings_actions.webp"
     alt="Figura: Actions Mappings."
     caption="Figura: Podemos adicionar novos mapeamentos de ações configurando os parâmetros do projeto."
@@ -155,7 +155,7 @@ Registramos os seguintes valores:
 
 > Para saber mais consulte o capítulo **Delta time e sistema de coordenadas**.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_mappings_axis.webp"
     alt="Figura: Axis Mappings."
     caption="Figura: Podemos associar teclas de movimentação para um método."
@@ -398,7 +398,7 @@ Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e de
     caption="Calculo de distância da trajetória inicial e final."
 %}
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/movimentacao/blueprint_plataform_movement_with_tick_continue.webp"
     alt="Figura: Lógica de movimentação usando Tick - continuação. "
     caption="Alterna os vetores quando o objeto chega no destino final."

@@ -51,7 +51,7 @@ Jogadores humanos que entram no jogo são associados a `PlayerControllers`. Esse
 
 O fluxograma abaixo apresenta como as principais classes de jogo se relacionam entre si.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/GameFramework.webp"
     alt="Figura: Game Framework - QuickReference Unreal Engine."
     caption="Figura: Game Framework - QuickReference Unreal Engine."
@@ -61,7 +61,7 @@ O fluxograma abaixo apresenta como as principais classes de jogo se relacionam e
 
 Existem duas formas de informar qual `GameMode` o jogo deve utilizar, por *Level* ou projeto, utilizando o menu de contexto escolhemos `Game Mode Base`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/blueprint_gamemode_create.webp"
     alt="Figura: Blueprint - GameMode create."
     caption="Figura: Blueprint - GameMode create."
@@ -69,7 +69,7 @@ Existem duas formas de informar qual `GameMode` o jogo deve utilizar, por *Level
 
 Podemos definir o `GameMode` por `Level` em `Word Settings`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/blueprint_world_settigns_gamemode.webp"
     alt="Figura: Blueprint - GameMode em World Settigns GameMode."
     caption="Figura: Blueprint - GameMode em World Settigns GameMode."
@@ -81,7 +81,7 @@ Podemos definir o `GameMode` por `Level` em `Word Settings`.
 
 Para definir um `GameMode` para o projeto inteiro utilizamos o Menu `Project` > `Maps & Modes`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/blueprint_project_mapsmodes.webp"
     alt="Figura: Blueprint - Project > Maps & Modes."
     caption="Figura: Blueprint - Project > Maps & Modes."
@@ -101,7 +101,7 @@ Por exemplo, em jogos *Deathmatch*, o `Pawn` pode mudar durante o jogo, mas o `P
 
 A classe `Character` representa o jogador no mundo do jogo. Ele fornece funcionalidade para animação, colisão, movimento e rede básica e modos de entrada. Portanto, se sua entrada não for complicada e não houver necessidade de alterar o caractere dinamicamente em tempo de execução, a classe de caractere é mais adequada. Por exemplo, você pode usá-lo no jogo de tiro em primeira pessoa para um único jogador.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/blueprint_playercontroller_character.webp"
     alt="Figura: Blueprint - GetPlayerController e GetActorLocation para imprimir a localização do ator."
     caption="Figura: Blueprint - GetPlayerController e GetActorLocation para imprimir a localização do ator."
@@ -126,7 +126,7 @@ Para compartilhar variáveis, eventos e funções por todos os levels possibilit
 
 Utilizando o menu de contexto escolhemos `Bluprint Class` e logo em seguida procuramos a classe `GameInstance` básica.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/blueprint_gameinstance_classe.webp"
     alt="Figura: Blueprint - Create GameInstance."
     caption="Figura: Blueprint - Create GameInstance."
@@ -136,7 +136,7 @@ Utilizando o menu de contexto escolhemos `Bluprint Class` e logo em seguida proc
 
 Como explicado anteriormente, os eventos e objetos ficaram disponíveis para o projeto. Para este exemplo vamos utilizar um evento customizado `Add Custom Event` no `Event Graph` da `GameInstance`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/blueprint_gameinstance_events.webp"
     alt="Figura: GameInstance - Implementando a chamada de um objeto Widget."
     caption="Figura: GameInstance - Implementando a chamada de um objeto Widget."
@@ -144,7 +144,7 @@ Como explicado anteriormente, os eventos e objetos ficaram disponíveis para o p
 
 Vamos adicionar uma variável para exemplificar.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/blueprint_gameinstance_variable.webp"
     alt="Figura: Blueprint - GameInstance Variáveis."
     caption="Figura: Blueprint - GameInstance Variáveis."
@@ -156,7 +156,7 @@ Para este exemplo criamos um Level Vazio e no `Open Level Blueprint` vamos execu
 
 1. Antes de executar a chamada da `GameInstance` dentro dos objetos é necessário informar para o projeto qual a `GameInstance` padrão.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/blueprint_gameinstance_project.webp"
     alt="Figura: Blueprint - GameInstance Project."
     caption="Figura: Blueprint - GameInstance Project."
@@ -164,7 +164,7 @@ Para este exemplo criamos um Level Vazio e no `Open Level Blueprint` vamos execu
 
 1. Logo após podemos utilizar a função `GetGameInstance` que retorna a `GameInstance` definida anteriormente para o projeto.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/gamemode/blueprint_gameinstance_cast.webp"
     alt="Figura: Blueprint - Exemplo de GameInstance utilizando Cast."
     caption="Figura: Blueprint - Exemplo de GameInstance utilizando Cast."

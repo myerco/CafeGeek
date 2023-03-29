@@ -39,7 +39,7 @@ date: 2022-09-30
 
 ## 1. Controle de Versão
 
-{% include logo.html
+{% include image.html
     src="unreal/projeto/unreal_engine_git.webp"
     alt="Figura: Unreal Engine with Git."
 %}

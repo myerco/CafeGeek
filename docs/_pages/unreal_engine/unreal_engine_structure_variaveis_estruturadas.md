@@ -108,7 +108,7 @@ private:
 
 Neste passo vamos criar o objeto *SJogador* do tipo `Structure` para exemplificar o uso das variáveis utilizando o menu de contexto `Blueprints` > `Structure`.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_menu_structure.webp"
     alt="Figura: Blueprint - Menu de contexto Blueprints > Structure."
     caption="Figura: Blueprint - Menu de contexto Blueprints > Structure."
@@ -118,7 +118,7 @@ Neste passo vamos criar o objeto *SJogador* do tipo `Structure` para exemplifica
 
 A seguir vamos adicionar variáveis dentro do da estrutura criada.
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_variable.webp"
     alt="Figura: Blueprint - Editor de Structure.."
     caption="Figura: Blueprint - Editor de Structure."
@@ -140,7 +140,7 @@ A seguir vamos adicionar variáveis dentro do da estrutura criada.
 
 Para acessar as variáveis que estão dentro da objeto do tipo `Structure` vamos utilizar `Break Structure`.  
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_break_structure.webp"
     alt="Figura: Blueprint - Exemplo de Break Structure."
     caption="Figura: Blueprint - Exemplo de Break Structure."
@@ -152,7 +152,7 @@ Para exemplificar a utilização de variáveis `Structure` vamos implementar um 
 
 #### 3.3.1. Criando o objeto SControleLuzes
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_variable_2.webp"
     alt="Figura: Blueprint - Exemplo do objeto SControleLuzes."
     caption="Figura: Blueprint - Exemplo do objeto SControleLuzes."
@@ -174,7 +174,7 @@ Para exemplificar a utilização de variáveis `Structure` vamos implementar um 
 
 1. Na construção do objeto (*Construction Script*) adicionamos elementos `Point light component` na cena e logo em seguida no array *Luzes*.  
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_loop_array_structures.webp"
     alt="Figura: Blueprint - Lógica que adiciona os elementos em um array do mesmo tipo (PointLightComponent)."
     caption="Figura: Blueprint - Lógica que adiciona os elementos em um array do mesmo tipo (PointLightComponent)."
@@ -182,7 +182,7 @@ Para exemplificar a utilização de variáveis `Structure` vamos implementar um 
 
 1. Ao terminar o primeiro `loop` reconstruímos o *array* de controle *ControLuzes* e o percorremos em conjunto com o array *luzes* para configurar as propriedades dos elementos.  
 
-{% include imagebase.html
+{% include imagelocal.html
     src="unreal/estruturas/blueprint_loop_set_struct.webp"
     alt="Figura: Blueprint - Lógica que altara as propriedades dos objetos do array."
     caption="Figura: Blueprint - Lógica que altara as propriedades dos objetos do array."

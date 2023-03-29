@@ -40,7 +40,7 @@ date: 2022-09-21
 
 ***
 
-{% include logo.html
+{% include image.html
     src="unreal/actor/unreal_engine_blueprint.webp"
     alt="Figura: Unreal Engine com Blueprint"
 %}
