@@ -2,7 +2,7 @@
     <img 
       width="20%" 
       height="auto"
-      src="https://github.com/myerco/CafeGeek/blob/master/docs/imagens/CAFEGEEK.png"
+      src="https://github.com/myerco/CafeGeek/blob/master/docs/assets/images/cafegeek_small.webp"
      />
 </div>
 
