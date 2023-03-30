@@ -1,13 +1,16 @@
 ---
 title: Trabalhos de jogos digitais
 collection: portfolio
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/cafegeek_roteirizacao.jpg
 classes: wide
 excerpt: Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de Jogos Digitais.
 permalink: /pages/trabalhos/
 last_modified_at: 2023-03-27T08:48:05-04:00
 sidebar:
     nav: dev_game 
-    
+
 feature_row0-1:
   - image_path: assets/gif/gifify.gif
     alt: "AWS app demo"
