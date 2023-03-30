@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 title: Home
-hidden: false
+hidden: true
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/cafegeek_roteirizacao.jpg
