@@ -90,7 +90,7 @@ dev_unreal:
         url: /pages/unreal_engine/blueprint
       - title: Estruturas de programação
         url: /pages/unreal_engine/estruturas_programacao
-      - title: Atores
+      - title: A Classe Actor
         url: /pages/unreal_engine/atores
       - title: Programação C++
         url: /pages/unreal_engine/cpp

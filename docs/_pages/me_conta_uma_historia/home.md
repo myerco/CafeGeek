@@ -104,7 +104,8 @@ Geralmente o fluxo de trabalhado pode ser definido pelas etapas de **Conceito**,
 
 Etapa mais abstrata do projeto onde definimos o conceito do jogo baseados em uma história ou mecânica, esta etapa é necessária para apresentar, documentar e organizar a ideia do jogo.
 
-- Documentação e narrativa - "você não precisa de um contexto narrativo para cada jogo (isso é especialmente verdade em game jams), mas para esta classe e o GDW deste ano, você precisará de alguma forma de quadro narrativo dentro do qual seu jogo funciona. Este é o lugar para descrevê-lo, as configurações, tema e estilo visual. Se o seu jogo tem personagens fortes, você pode usar este ponto para descrever qualquer história de fundo ou tema que os preocupe."
+**Documentação e narrativa:** você não precisa de um contexto narrativo para cada jogo (isso é especialmente verdade em game jams), mas para esta classe e o GDW deste ano, você precisará de alguma forma de quadro narrativo dentro do qual seu jogo funciona. Este é o lugar para descrevê-lo, as configurações, tema e estilo visual. Se o seu jogo tem personagens fortes, você pode usar este ponto para descrever qualquer história de fundo ou tema que os preocupe.
+{: .notice--info}
 
 Um bom exemplo de documentação é o modelo [Death VIP](/pages/trabalhos/modelo_death_vip), utilize a estrutura do modelo para o desenvolvimento de trabalhos no decorrer do curso.
 
