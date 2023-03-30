@@ -132,8 +132,6 @@ dev_unreal:
     children:    
       - title: Introdução aos Materiais
         url: /pages/unreal_engine/materiais_introducao
-      - title: Material Instance
-        url: /pages/unreal_engine/materiais_material_instance
       - title: Manipulando materiais
         url: /pages/unreal_engine/materiais_blueprint
       - title: Iluminação

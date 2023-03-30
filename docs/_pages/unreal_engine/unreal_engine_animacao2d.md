@@ -8,15 +8,8 @@ sidebar:
 toc: true 
 ---
 
-{% include imagelocal.html
-    src="unreal/animacao/unreal_engine_paper2d_project.webp"
-    alt="Figura: Paper 2D"
-    caption=""
-%}
 
 ## 1. O que é Animação 2D?
-
-***
 
 Animação em duas dimensões é uma técnica que utiliza sequenciamento de imagens estáticas.
 
@@ -27,9 +20,15 @@ Animação em duas dimensões é uma técnica que utiliza sequenciamento de imag
     ref="https://maestrofilmes.com.br/animacao-2d/"
 %}
 
+***
+
 ## 2. Como o Unreal Engine trabalha com animação 2D?
 
-***
+{% include imagelocal.html
+    src="unreal/animacao/unreal_engine_paper2d_project.webp"
+    alt="Figura: Editor 2D"
+    caption="Viewport com visualização Right ou Left, para apresentar objetos planos na cena "
+%}
 
 O Unreal Engine implementa animação 2D utilizando o plugin **Paper2D** que facilita a manipulação e importação de elementos em duas dimensões. O sistema **Paper 2D** é um sistema baseado em *sprite* para a criação de jogos híbridos 2D e 2D / 3D inteiramente dentro do editor.
 
@@ -79,9 +78,9 @@ Objeto para "pintar" um grupo de *sprites* as cenas utilizando `Tile Set`.
     ref="https://docs.unrealengine.com/5.1/en-US/paper-2d-tile-sets-and-tile-maps-in-unreal-engine/"
 %}
 
-## 3. Habilitando o plugin Paper2D e criando as pastas do projeto
-
 ***
+
+## 3. Habilitando o plugin Paper2D e criando as pastas do projeto
 
 Antes de iniciar o trabalho devemos habilitar o plugin `Paper2D` em menu `Edit` > `Plugins`.
 
@@ -118,9 +117,9 @@ Abixo a sugestão de organização de pastas.
 |   |   |-- LevelTest
 ```
 
-## 4. Preparando o ViewPort
-
 ***
+
+## 4. Preparando o ViewPort
 
 Podemos organizar os elementos que são apresentados na cena predefinindo coordenadas no eixo Y, utilizando o menu `Edit` > `Project Settings` navegue até `2D` para adicionar camadas/*Layers* e coordenadas de profundidade ao `ViewPort`.
 
@@ -160,9 +159,9 @@ Para melhorar a visualização do cenário podemos configurar a visualização d
     caption="Visualização Right no ViewPort."
 %}
 
-## 5. Preparando as texturas
-
 ***
+
+## 5. Preparando as texturas
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_details_texture_2d.webp"
@@ -174,7 +173,8 @@ Para melhorar a visualização do cenário podemos configurar a visualização d
 
 - `Mip Gen Settings`: NoMipMaps
 
-> "A geração do Mip-map ocorre durante a importação da Textura e cria uma cadeia de Mip-map para a Textura. A cadeia mip-map consiste em vários níveis da imagem de amostra, cada um com metade da resolução do nível anterior. Esses dados permitem que a placa gráfica renderize mais rápido ao usar os mips inferiores (menos largura de banda da memória) e também reduz o aliasing da textura (cintilante) que se torna visível ao ter textura detalhada em certas distâncias."
+**Informação:** A geração do Mip-map ocorre durante a importação da Textura e cria uma cadeia de Mip-map para a Textura. A cadeia mip-map consiste em vários níveis da imagem de amostra, cada um com metade da resolução do nível anterior. Esses dados permitem que a placa gráfica renderize mais rápido ao usar os mips inferiores (menos largura de banda da memória) e também reduz o aliasing da textura (cintilante) que se torna visível ao ter textura detalhada em certas distâncias.
+{: .notice--info}
 
 Podemos aplicar automaticamente para uma ou várias texturas selecionadas usamos o menu de contexto selecionando o arquivo e depois `Sprite Actions` > `Apply Paper2D Texture Settings`.
 
@@ -184,9 +184,9 @@ Podemos aplicar automaticamente para uma ou várias texturas selecionadas usamos
     caption="Aplicamos a configuração em vários arquivos."
 %}
 
-## 6. Preparando os Sprites do projeto
-
 ***
+
+## 6. Preparando os Sprites do projeto
 
 Um Sprite em papel 2D é uma malha plana com mapeamento de textura e material associado que pode ser renderizado no mundo, criado inteiramente no Unreal Engine 4 (UE4). Em termos mais simples, é uma maneira rápida e fácil de desenhar imagens 2D no UE4.
 
@@ -231,9 +231,9 @@ Neste passo vamos criar os *sprites* utilizando texturas como base, seguindo os 
 
         - `Shrink Wwrapped` - Colisão calculada;
 
-## 7. Agrupando sprites em Tile Sets
-
 ***
+
+## 7. Agrupando sprites em Tile Sets
 
 `Tile Sets` e `Tile Maps` no `Paper 2D` fornecem uma maneira rápida e fácil de fazer o layout da estrutura ou "layout geral" de seus níveis 2D. Ao criar e usar um conjunto de blocos (uma coleção de blocos extraídos de uma textura) com um mapa de blocos (uma grade 2D com largura e altura definidas em blocos), você pode selecionar vários blocos para "pintar" no mapa de blocos, que podem ser usado para seu layout de nível. Você também pode pintar ladrilhos (tiles) em várias camadas, cada uma das quais pode especificar qual ladrilho deve aparecer em cada célula do mapa para aquela camada específica.
 
@@ -265,9 +265,9 @@ Para adicionar colisão nos elementos realizamos :
 
 - `Add Circle` - Adiciona um círculo de colisão;
 
-## 8. Implementando uma cena utilizando Tile Map
-
 ***
+
+## 8. Implementando uma cena utilizando Tile Map
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_tilemap.webp"
@@ -291,9 +291,9 @@ Para adicionar colisão nos elementos realizamos :
 
 1. `Collision Thickness` - Usado para aumentar ou diminuir a largura de colisão quando usado colisão 3D.
 
-## 9. Criando sequencias de animação utilizando Flipbooks
-
 ***
+
+## 9. Criando sequencias de animação utilizando Flipbooks
 
 No **Unreal Engine 4**, os `Flipbooks` consistem em uma série de quadros-chave, cada um dos quais contém um Sprite a ser exibido e uma duração (em quadros) para exibi-lo. Uma opção de quadros por segundo determina a rapidez com que os quadros serão exibidos, indicando quantas "batidas" de animação ocorrerão em um segundo e os próprios quadros-chave podem ser editados no painel Detalhes ou usando uma linha do tempo que pode ser encontrada na parte inferior do Flipbook Editor.
 
@@ -334,9 +334,9 @@ Copie os arquivos extraídos para a pasta `Characters\Samurai\Sprites`;
 
 Salve o arquivo com o nome PFB_Run na pasta `Characters\Samurai\Logic` e repita a ação para as diversas poses que o personagem deve apresentar, como por exemplo PFB_Idle, PFB_Attack e outros.
 
-## 10. Adicionando e configurando o personagem do tipo PaperCharacter
-
 ***
+
+## 10. Adicionando e configurando o personagem do tipo PaperCharacter
 
 Neste passo vamos adicionar um personagem do tipo `Paper Character` que deve ser a base (pai) de outros personagens, por conseguinte a classe deve ser salva na pasta `Core\Characters` com o nome BP_CharacterBase.
 
