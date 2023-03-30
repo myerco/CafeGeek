@@ -4,6 +4,8 @@ permalink: /pages/a_jogatina_das_decadas/
 excerpt: "O objetivo deste curso é apresentar as características e elementos associados aos jogos eletrônicos."
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
+sidebar:
+    nav: dev_game
 ---
 
 ## 1. O que é um Jogo?

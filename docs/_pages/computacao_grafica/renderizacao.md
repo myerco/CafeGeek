@@ -4,6 +4,8 @@ permalink: /pages/computacao_grafica/processamento
 excerpt: Neste curso apresentaremos o processo de renderização de objetos 3D e como o Unreal Engine processa as imagens.
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true    
+sidebar:
+    nav: dev_game
 ---
 
 ## 1. Entendendo o processo de renderização

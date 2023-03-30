@@ -4,6 +4,8 @@ permalink: /pages/elementos_historia/
 excerpt: Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história.
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
+sidebar:
+    nav: dev_game  
 ---
 
 ## 1. Como construir os personagens?

@@ -3,7 +3,9 @@ title: Talentos
 excerpt: Talentos necessários para o desenvolvimento de jogos digitais
 permalink: /pages/talentos/
 last_modified_at: 2023-03-27T08:48:05-04:00
-toc: true    
+toc: true  
+sidebar:
+    nav: dev_game 
 ---
 
 | Curso                                                                                                       | Módulo                                                                        |     Habilidade     |

@@ -4,6 +4,8 @@ permalink: /about/jogos_digitais
 description: Sobre o Curso de Jogos Digitais
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true  
+sidebar:
+    nav: dev_game 
 ---
 
 ## O que é o curso de jogos digitais?

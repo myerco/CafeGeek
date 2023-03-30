@@ -4,6 +4,8 @@ excerpt: Modelagem com Autodesk Maya
 permalink: /pages/modelagem3d/
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
+sidebar:
+    nav: dev_game  
 ---
 
 ## 1. O que é Modelagem de objetos 3D?

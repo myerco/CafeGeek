@@ -3,7 +3,9 @@ title: A taberna do Pônei Saltitante
 excerpt: Neste projeto serão apresentadas técnicas e dicas de modelagem de banco de dados.
 permalink: /pages/banco_dados/
 last_modified_at: 2023-03-29T08:48:05-04:00
-toc: true    
+toc: true  
+sidebar:
+    nav: dev_game  
 ---
 
 ## 1. Conhecendo a Taberna

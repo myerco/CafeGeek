@@ -3,39 +3,10 @@ title: Programação em linguagem C++
 excerpt: Programação em linguagem C++
 permalink: /pages/cpp/
 last_modified_at: 2023-03-27T08:48:05-04:00
-toc: true    
+toc: true  
+sidebar:
+    nav: dev_game  
 ---
-
-<!--
-
-- [1. Habilidades que serão aprendidas](#1-habilidades-que-serão-aprendidas)
-- [2. Como o compilador C++ funciona?](#2-como-o-compilador-c-funciona)
-  - [2.1. Abaixo a sintaxe básica de um programa C++](#21-abaixo-a-sintaxe-básica-de-um-programa-c)
-  - [2.2. Exemplo de arquivo sendo incluído em outro](#22-exemplo-de-arquivo-sendo-incluído-em-outro)
-  - [2.3. Exemplo de #IF](#23-exemplo-de-if)
-  - [2.4. Arquivo de cabeçalho](#24-arquivo-de-cabeçalho)
-- [3. O Linker](#3-o-linker)
-- [4. Funções](#4-funções)
-  - [4.1. Exemplo da Função log](#41-exemplo-da-função-log)
-  - [4.2. Exemplo da Função de multiplicação](#42-exemplo-da-função-de-multiplicação)
-  - [4.3. Declarando funções em arquivos externos](#43-declarando-funções-em-arquivos-externos)
-- [5. Macros](#5-macros)
-  - [5.1. Chamando uma função dentro de outra](#51-chamando-uma-função-dentro-de-outra)
-- [6. Variáveis](#6-variáveis)
-  - [6.1. Declaração de variáveis](#61-declaração-de-variáveis)
-- [7. Unsigned](#7-unsigned)
-  - [7.1. Constantes](#71-constantes)
-    - [7.1.1. Usando #define](#711-usando-define)
-- [8. Usando const](#8-usando-const)
-- [9. Pragma once](#9-pragma-once)
-- [10. Ponteiros](#10-ponteiros)
-  - [10.1. Impressão de Ponteiros](#101-impressão-de-ponteiros)
-  - [10.2. Acessando conteúdo](#102-acessando-conteúdo)
-- [11. Classes](#11-classes)
-
--->
-
-***
 
 ## 1. Habilidades que serão aprendidas
 

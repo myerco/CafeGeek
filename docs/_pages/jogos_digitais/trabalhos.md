@@ -4,32 +4,11 @@ excerpt: Nesta seção serão apresentados os trabalhos produzidos pelos acadêm
 permalink: /pages/trabalhos/
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true   
+sidebar:
+    nav: dev_game 
 ---
 
-
-Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de Jogos Digitais.
-
-***
-<!--
-- [1. Roteiros](#1-roteiros)
-  - [1.1. Darkness of D-day](#11-darkness-of-d-day)
-  - [1.2. Killer Hotel](#12-killer-hotel)
-  - [1.3. Lines of Fate](#13-lines-of-fate)
-  - [1.4. A Queda](#14-a-queda)
-  - [1.5. A sombra da noite](#15-a-sombra-da-noite)
-- [2. Jogos](#2-jogos)
-  - [2.1. Don't Stop Looking](#21-dont-stop-looking)
-  - [2.2. Atlus um Reino em Guerra](#22-atlus-um-reino-em-guerra)
-  - [2.3. Happy Dance](#23-happy-dance)
-  - [2.4. Firescape](#24-firescape)
-- [3. Portfólios](#3-portfólios)
-  - [3.1. Rafael Ferreira](#31-rafael-ferreira)
-- [4. Modelos](#4-modelos)
-  - [4.1. Death Vip](#41-death-vip)
-
--->
-
-***
+Neste capítulo serão apresentados os trabalhos produzidos pelos acadêmicos de Jogos Digitais.
 
 ## 1. Roteiros
 
