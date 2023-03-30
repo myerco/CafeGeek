@@ -1,9 +1,6 @@
 ---
 permalink: /about/
 title: null
-header:
-  image: /assets/images/cafegeek_roteirizacao.jpg
-  caption: "Cafegeek e o jogo Journey"
 classes: wide
 excerpt: "Sobre o Cafegeek"
 last_modified_at: 2023-03-29T08:48:05-04:00
