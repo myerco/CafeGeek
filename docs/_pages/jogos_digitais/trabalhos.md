@@ -2,7 +2,6 @@
 title: Trabalhos de jogos digitais
 layout: wide
 collection: portfolio
-entries_layout: grid
 excerpt: Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de Jogos Digitais.
 permalink: /pages/trabalhos/
 last_modified_at: 2023-03-27T08:48:05-04:00
