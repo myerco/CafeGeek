@@ -128,6 +128,12 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/cafegeek.br/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCdP1V0cZN3TQOoBPBLuyhlQ"      
+    - label: "Youtube"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/marco-yerco-853333142/"            
 
 # Site Footer
 footer:
