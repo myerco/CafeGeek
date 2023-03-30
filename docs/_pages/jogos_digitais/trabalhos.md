@@ -89,6 +89,17 @@ feature_row0-7:
     tags:
       - Jogos Digitais
 
+feature_row0-8:
+  - image_path: https://m.gjcdn.net/game-screenshot/300/2270444-dew2tkfe-v4.webp
+    alt: "Death Vip"
+    title: "Death Vip"
+    excerpt: "Quando o comandante das milícias descobriu a tentativa de resgate de um alvo considerado por ele de extrema importância, mandou todos os seus soldados fazer de tudo para MATAR O VIP para servir de exemplo. Equipe de resgate (EAS - Esquadrão Aeroterrestre de Salvamento)  de 3 jogadores tenta resgatar um VIP (Very Important Person) em uma região dominada por milícias fortemente armadas em um país da América do Sul. A equipe conta com arsenal leve de combate e resgate, como por exemplo metralhadoras M4, espingardas e pistolas. Quanto ao VIP, não está armado e nem consegue segurar uma arma mas pode curar os membros da sua equipe, também conta com a capacidade de visualizar o mapa e procurar itens que podem  auxiliar no resgate. Durante o trajeto até o resgate deverão ser cumpridos três (3) objetivos, obrigando toda a equipe  a se envolver em combates. A equipe EAS com auxílio do VIP pode localizar outras equipes de resgate e seus VIPS´s para tentar sobreviver juntos. Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem como itens que alteram o modo de jogo, como por exemplo  o “TREINO VIP” que transforma o VIP em um membro da equipe EAS por alguns minutos."
+    url: "/pages/trabalhos/modelo_death_vip"
+    btn_class: "btn--primary"
+    btn_label: "Saber mais"
+    tags:
+      - Modelos
+
 ---
 
 ## Roteiros
@@ -110,3 +121,7 @@ feature_row0-7:
 {% include feature_row id="feature_row0-7" type="left" %}
 
 &nbsp;
+
+## Modelos
+
+{% include feature_row id="feature_row0-8" type="left" %}

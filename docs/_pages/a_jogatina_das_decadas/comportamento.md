@@ -1,7 +1,7 @@
 ---
 title: "O comportamento"
 permalink: /pages/a_jogatina_das_decadas/comportamento
-excerpt: "O objetivo deste curso é apresentar as características e elementos associados aos jogos eletrônicos."
+excerpt: "Neste capítulo vamos tentar responder, Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?."
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
 sidebar:
@@ -289,7 +289,3 @@ Heroína: É praticamente WoW em uma seringa.
 O perigo está no fato de que esses jogos se tornaram tão incrivelmente eficientes em proporcionar a sensação de realização que as pessoas costumavam obter de sua educação ou carreira. Não estamos dizendo que os jogos vão arruinar o mundo, ou que o vício em jogos será um flagelo para os jovens da mesma forma que o crack arruinou as cidades do interior nos anos 90. Mas podemos acabar com uma geração de caras trabalhando na Starbucks quando eles tinham cérebro e talento para muito mais. Eles estão insatisfeitos com suas vidas porque desperdiçaram seus 20 anos jogando videogames e escaparão de sua insatisfação jogando mais videogames. Enxaguar, repetir.
 
 E vamos encarar; se você acha que WoW é viciante, espere até ver os jogos que eles vão fazer daqui a 10 anos. Eles só estão melhorando no que fazem.
-
-## 2. Atividades e referências
-
-[Atividades e referências](jogatina_das_decadas_atividades_referencias.html)

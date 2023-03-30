@@ -1,7 +1,7 @@
 ---
 title: Os elementos da história
 permalink: /pages/elementos_historia/
-excerpt: Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história.
+excerpt: Neste capítulo vamos apresentar os elementos necessários de uma história para um jogo eletrônico.
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
 sidebar:

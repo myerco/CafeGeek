@@ -86,7 +86,7 @@ dev_unreal:
         url:  /pages/unreal_engine/interface_editores
   - title: PROGRAMAÇÃO
     children:
-      - title: Blueprint
+      - title: Programação com Blueprint
         url: /pages/unreal_engine/blueprint
       - title: Estruturas de programação
         url: /pages/unreal_engine/estruturas_programacao
