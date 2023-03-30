@@ -1,12 +1,10 @@
 ---
-permalink: /pages/about/
+permalink: /about/
 title: null
 classes: wide
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
+excerpt: "Sobre o Cafegeek"
 last_modified_at: 2023-03-29T08:48:05-04:00
 author_profile: true
-sidebar:
-    nav: null
 ---
 
 Olá, meu nome é [Marco Yerco](mailto:cafegeekedu@gmail.com) analista de sistemas e professor, gostaria de compartilhar um pouco de conhecimento.

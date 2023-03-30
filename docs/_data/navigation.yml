@@ -5,7 +5,7 @@ main:
   - title: "Banco de Dados"
     url: /pages/banco_dados    
   - title: "Sobre"
-    url: /pages/about/
+    url: /about/
 
 docs:
   - title: Getting Started
