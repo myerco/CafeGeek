@@ -2,7 +2,7 @@
 main:
   - title: "Desenvolvimento de Jogos"
     url: /pages/unreal_engine/
-  - title: "Banco de Dados
+  - title: "Banco de Dados"
     url: /pages/banco_dados    
   - title: "Sobre"
     url: /pages/about/
