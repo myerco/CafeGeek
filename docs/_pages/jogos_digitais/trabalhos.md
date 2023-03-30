@@ -20,7 +20,7 @@ feature_row0-1:
 
 ## Roteiros
 
-
+{% include feature_row id="feature_row0-1" type="left" %}
 
 ## Projects in Data Science
 
