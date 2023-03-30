@@ -7,6 +7,7 @@ permalink: /pages/trabalhos/
 last_modified_at: 2023-03-27T08:48:05-04:00
 sidebar:
     nav: dev_game 
+    
 feature_row0-1:
   - image_path: assets/gif/gifify.gif
     alt: "AWS app demo"
