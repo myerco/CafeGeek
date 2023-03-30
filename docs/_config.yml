@@ -107,7 +107,7 @@ author:
   name             : "Marco Yerco"
   avatar           : "/assets/images/profile_marco_yerco.webp"
   bio              : "Analista de sistemas e Professor."
-  location         : "Universo conhecido"
+  location         : "Porto Velho (RO), Brasil"
   email            :
   links:
     - label: "Email"
@@ -131,7 +131,7 @@ author:
     - label: "Youtube"
       icon: "fab fa-fw fa-youtube"
       url: "https://www.youtube.com/channel/UCdP1V0cZN3TQOoBPBLuyhlQ"      
-    - label: "Youtube"
+    - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/marco-yerco-853333142/"            
 
