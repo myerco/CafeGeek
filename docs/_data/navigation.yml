@@ -1,7 +1,9 @@
 # main links
 main:
+  - title: "Home"
+    url: /
   - title: "Desenvolvimento de Jogos"
-    url: /pages/unreal_engine/
+    url: /pages/a_jogatina_das_decadas/
   - title: "Banco de Dados"
     url: /pages/banco_dados    
   - title: "Sobre"
@@ -108,9 +110,7 @@ dev_unreal:
     children:
       - title: Variáveis estruturadas
         url: /pages/unreal_engine/variaveis_estruturadas
-      - title: Tabelas de dados
-        url: /pages/unreal_engine/data_tables       
-      - title: Game Instance, Game State e Game Mode
+      - title: Game Instance, State e Mode
         url: /pages/unreal_engine/gameinstance        
   - title: MOVIMENTAÇÃO E ANIMAÇÃO
     children:

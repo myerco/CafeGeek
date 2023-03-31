@@ -113,16 +113,13 @@ Este elemento é utilizado quanto existem dois parâmetros para controle das ani
 
 - `Minimum Axis Value`: -180;
 
-- `Maximum Axis Value`: 180;
-
-  - (A direção do personagem varia entre esses valores);
+- `Maximum Axis Value`: 180 (A direção do personagem varia entre esses valores);
 
 - `Vertical Axis`: Speed
 
 - `Minimum Axis Value`: 0;
 
-- `Maximum Axis Value`: 600;
-  - (Velocidade do personagem);
+- `Maximum Axis Value`: 600 (Velocidade do personagem);
 
 **Informação:** Alteramos o nome do parâmetro para Speed com a finalidade de facilitar a identificação dentro da lógica de programação **Blueprint** que usaremos posteriormente.
 {: .notice--info}
@@ -265,11 +262,9 @@ Devemos considerar que o salto depende se o personagem esta em queda e se a fun�
 
 ### 7.2. Implementado Animation Blueprint utilizando o Mutante
 
-1. Usando o menu de contexto `Animation > Animation Blueprint` para criar ABP_Mutant;
+Usamos o menu de contexto `Animation > Animation Blueprint` para criar ABP_Mutant.
 
-1. Agora vamos copiar todos os nos do `Event Graph` de `ThirdPerson_AnimBP` para o componente criado;
-
-1. Arrastre o elemento BS_Mutant para `AnimGraph`.
+Agora vamos copiar todos os nos do `Event Graph` de `ThirdPerson_AnimBP` para o componente criado, logo em seguida arrastre o elemento BS_Mutant para `AnimGraph`.
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_animations_bs_mutant_graph.webp"
@@ -321,11 +316,11 @@ Em este passo utilizaremos o `Animation Montage` para montar as animações de a
     caption="Menu de contexto Animation > Animation Montage."
 %}
 
-1. Vamos baixar e instalar os arquivos Mutant_Punch.fbx e Mutant_Swipping do site [https://mixano.com](https://mixano.com) para animar ataque direita e ataque esquerda.
+Vamos baixar e instalar os arquivos Mutant_Punch.fbx e Mutant_Swipping do site [https://mixano.com](https://mixano.com) para animar ataque direita e ataque esquerda.
 
-1. No editor de animação arrastre as animações para a linha de tempo. Observe que cada animação ocupa uma raia ou slot dentro de uma seção;
+No editor de animação arrastre as animações para a linha de tempo. Observe que cada animação ocupa uma raia ou slot dentro de uma seção;
 
-1. Adicione um novo slot de nome `Attack` e salve;
+Adicione um novo slot de nome `Attack` e salve;
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_animation_montage_attack.webp"
@@ -394,17 +389,17 @@ Neste passo vamos implementar a animação de ataque com soco de direita e esque
     caption="Podemos usar vários nós salvos de estados anteriores."
 %}
 
-1. Para passar de um estado para outro devemos salvar o estado anterior acionando o menu de contexto `New Save cached Pose...` dentro do `AnimGraph`;
+Para passar de um estado para outro devemos salvar o estado anterior acionando o menu de contexto `New Save cached Pose...` dentro do `AnimGraph`;
 
-1. Para acionar um estado salvo usamos `Use cached pose BasicLocomotion`, perceba que usamos o nome do estado salvo anteriormente.
+Um estado salvo pode ser acionado com  `Use cached pose BasicLocomotion`, perceba que usamos o nome do estado salvo anteriormente.
 
-1. Para acionar a montagem de animação `AM_Mutant_Attack` na qual definimos a sequencia de ataque usamos o menu de context `Slot DefaultGroup`;
+Associamos a montagem de animação `AM_Mutant_Attack` na qual definimos a sequencia de ataque usando o menu de context `Slot DefaultGroup`;
 
-1. Selecionando o Slot criado atualizamos `Slot Name` para `DefaultGroup.Attack` para acessar a sequencia de animação.
+Selecionando o Slot criado atualizamos `Slot Name` para `DefaultGroup.Attack` para acessar a sequencia de animação.
 
 Agora vamos implementar a lógica para chamar as animações quando forem pressionados os botões do mouse direito e esquerdo.
 
-1. No objeto BP_Mutant adicione os eventos de chamada de função e associe a função `Play Anim Montage`.
+No objeto BP_Mutant adicione os eventos de chamada de função e associe a função `Play Anim Montage`.
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_animations_blueprint_attack.webp"
@@ -536,11 +531,11 @@ Edite a propriedade de vária animações ao mesmo tempo
 
 ![Unreal Engine](https://docs.unrealengine.com/4.26/Images/AnimatingObjects/SkeletalMeshAnimation/AnimHowTo/AimOffset/AimOffset20.webp)
 
-- `AdditiveSettings`.
+`AdditiveSettings`:
 
-  - Additive Anim Type : Mesh Space;
+- Additive Anim Type : Mesh Space;
 
-  - Base Pose Type : Idle_Rifle_Hip.
+- Base Pose Type : Idle_Rifle_Hip.
 
 Agora vamos criar `Aim Offset` Menu de contexto `Animation > Aim Offset` ou Escolha o esqueleto do Mannequin e utilizando BMP escolha `Create > Aim Offset`;
 
@@ -552,13 +547,13 @@ Agora vamos criar `Aim Offset` Menu de contexto `Animation > Aim Offset` ou Esco
 
 Coordenadas horizontais:
 
-- Horizontal Axis
+Horizontal Axis:
 
-  - Name : Yaw
+- Name : Yaw
 
-  - Minimun Axis Value : -90
+- Minimun Axis Value : -90
 
-  - Maximun Axis Value : 90
+- Maximun Axis Value : 90
 
 Coordenadas Verticais:
 

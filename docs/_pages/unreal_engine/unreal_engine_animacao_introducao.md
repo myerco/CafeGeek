@@ -114,17 +114,17 @@ Skeletal Mesh ou Malha do esqueleto cobre os ossos para gerenciamento de `LOD` e
 
 Editor para implementação das animações utilizando codificação visual.
 
-- `Event Graph` - Código *Blueprint* onde deverão ser processadas todas as variáveis de inicialização para controle de fluxo das animações;  
+`Event Graph` - Código *Blueprint* onde deverão ser processadas todas as variáveis de inicialização para controle de fluxo das animações;  
 
-- `Anim Graph` - Nós de representação de máquinas de estado do personagem, `State Machine`;
+`Anim Graph` - Nós de representação de máquinas de estado do personagem, `State Machine`;
 
-  - `Slots` - Permite adicionar uma camada de funcionalidade ao fluxo;
+- `Slots` - Permite adicionar uma camada de funcionalidade ao fluxo;
 
-  - `Layerd Blend` por bone - Permite diversas formas de mixar animações no fluxo;
+- `Layerd Blend` por bone - Permite diversas formas de mixar animações no fluxo;
 
-  - `Pose Caching` - Permite reutilizar a informação de um determinado "estado";
+- `Pose Caching` - Permite reutilizar a informação de um determinado "estado";
 
-  - `Final posse` - `Sequence recorder` e `Animation Sharing manager`.
+- `Final posse` - `Sequence recorder` e `Animation Sharing manager`.
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_animgraph.webp"
@@ -147,15 +147,15 @@ Editor para implementação das animações utilizando codificação visual.
 
 Editor que permite a edição e montage de animações.
 
-- `Blend Space` - Combina um grupo de animações com duas dimensões podendo usar variáveis;
+`Blend Space` - Combina um grupo de animações com duas dimensões podendo usar variáveis;
 
-- `Blend Space 1D` - Combina grupo de animações com uma dimensão podendo usar variáveis;
+`Blend Space 1D` - Combina grupo de animações com uma dimensão podendo usar variáveis;
 
-- `Montages` - Expõe a animação para o *Blueprint*;
+`Montages` - Expõe a animação para o *Blueprint*;
 
-- `Pose Assets` - Permite gravar uma nova posse do *Character*;
+`Pose Assets` - Permite gravar uma nova posse do *Character*;
 
-- `Notify Animations` - Adiciona uma etiqueta na `Timeline` da animação.
+`Notify Animations` - Adiciona uma etiqueta na `Timeline` da animação.
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_Blend_Space_1D.webp"
@@ -235,9 +235,9 @@ Podemos utilizar um personagem base para servir de Referência ou classe pai par
 
 **3.** Adicionar e alinhar os componentes em `BP_PlayerBase`:
 
-- `Spring Arm` - (Location=0.0,0.0,8.4), habilite a opção `Use Pawn Control Rotation`
+- `Spring Arm` - (Location=0.0,0.0,8.4), habilite a opção `Use Pawn Control Rotation`;
 
-- `Camera`.
+- `Camera`. - Camera principal do personagem;
 
 - `Mesh` - (Location=0.0,0.0,-89) (Rotation=-0,0,270).
 
@@ -330,17 +330,17 @@ A seguir vamos preparar o personagem Mutant, baixando e logo em seguida importan
 
 O personagem Mutant e suas animações estão disponíveis no o site [Mixano.com](https://www.mixamo.com/), então vamos baixar o personagem com os seguintes parâmetros.  
 
-1. Character : Mutant
+**1.** Character : Mutant
 
-2. Animations:
+**2.** Animations:
 
-   - Mutant Walking (In place = true)
+- Mutant Walking (In place = true)
 
-   - Mutant Idle
+- Mutant Idle
 
-   - Mutant Run (In place = true)
+- Mutant Run (In place = true)
 
-   - Mutant Jumping
+- Mutant Jumping
 
 **Observação:** Neste exemplo utilizaremos a opção `In Place = true` para exemplificar uma animação sem `root bone`.  
 {: .notice--warning}
@@ -356,11 +356,11 @@ O personagem Mutant e suas animações estão disponíveis no o site [Mixano.com
 
 Para importar a Mesh e Skeletal baixada anteriormente para dentro do Unreal, na pasta configurada para o personagem, vamos seguir os passos abaixo:
 
-1. Crie a pasta `/Projeto/Characteres/Mutant/Mesh`;
+**1.** Crie a pasta `/Projeto/Characteres/Mutant/Mesh`;
 
-1. Copie o arquivo `mutant.fbx` para a pasta criada no passo anterior;
+**2.** Copie o arquivo `mutant.fbx` para a pasta criada no passo anterior;
 
-1. Importe o arquivo com a opção `Import All`:
+**3.** Importe o arquivo com a opção `Import All`:
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_fbx_import_options.webp"
@@ -370,19 +370,19 @@ Para importar a Mesh e Skeletal baixada anteriormente para dentro do Unreal, na 
 
 Para importar as animações do personagem seguimos os passos abaixo:
 
-1. Crie a pasta `/Projeto/Characteres/Mutant/animations`;
+**1.** Crie a pasta `/Projeto/Characteres/Mutant/animations`;
 
-2. Copie os arquivos para pasta criada no passo anterior:
+**2.** Copie os arquivos para pasta criada no passo anterior:
 
-   - Mutant_Run.fbx;
+- Mutant_Run.fbx;
 
-   - Mutant_Idle.fbx;
+- Mutant_Idle.fbx;
 
-   - Mutant_Walking.fbx.
+- Mutant_Walking.fbx.
 
-3. Desmarque a opção `Import Mesh` para que a malha não seja importada novamente;
+**3.** Desmarque a opção `Import Mesh` para que a malha não seja importada novamente;
 
-4. Escolha o esqueleto do personagem com `SKeleton`.
+**4.** Escolha o esqueleto do personagem com `SKeleton`.
 
 ### 9.2. Vídeo Importando personagem
 
