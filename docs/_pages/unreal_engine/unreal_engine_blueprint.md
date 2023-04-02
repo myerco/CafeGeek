@@ -8,12 +8,12 @@ sidebar:
 toc: true  
 ---
 
-{% include image.html
+## 1. O que são Blueprints e Visual Scripting?
+
+{% include imagelocal.html
     src="unreal/actor/unreal_engine_blueprint.webp"
     alt="Figura: Unreal Engine com Blueprint"
 %}
-
-## 1. O que são Blueprints e Visual Scripting?
 
 O sistema *Blueprints Visual Scripting* no **Unreal Engine** é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nós para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos na *engine* .
 

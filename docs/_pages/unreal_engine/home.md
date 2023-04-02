@@ -22,15 +22,22 @@ Um jogo digital é um produto de software e como muitos projetos de desenvolvime
 
 ### 1.1. Programação de computadores
 
-{% include image.html
-    src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Primoc.png"
-    alt="Figura: Programação de computadores"
-    title="Figura: Programação de computadores."
-    caption="Programação é o processo de escrita, teste e manutenção de um programa de computador. O programa é escrito em uma linguagem de programação, embora seja possível, com alguma dificuldade, o escrever diretamente em linguagem de máquina. Diferentes partes de um programa podem ser escritas em diferentes linguagens."
-    ref="https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores"
-%}
+[Programação](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores) é o processo de escrita, teste e manutenção de um programa de computador. O programa é escrito em uma linguagem de programação, embora seja possível, com alguma dificuldade, o escrever diretamente em linguagem de máquina. Diferentes partes de um programa podem ser escritas em diferentes linguagens.
+
+```cpp
+/ Your First C++ Program
+
+#include <iostream>
+
+int main() {
+    std::cout << "Hello World!";
+    return 0;
+}
+```
 
 ### 1.2. Arte 3D e 2D
+
+A arte digital (2D e 3D) é a apresentação de personagens, ambiente e outros elementos que estão presentes nos jogos eletrônicos.
 
 {% include image.html
     src="https://i2.wp.com/www.crieseusjogos.com.br/wp-content/uploads/2018/08/jogos-2d-ou-jogos-3d.jpeg?w=1200&ssl=1"
@@ -125,7 +132,8 @@ Quanto a construção da mecânica de um jogo é necessário utilizar uma lingua
 
 As linguagens de programação vem evoluindo para simplificar as rotinas e comandos assim agilizando o desenvolvimento e permitindo o programador focar no que deve ser feito escondendo alguns detalhes de como é feito.
 
-> Conhecer e entender como é feito é importante para determinar as técnicas utilizadas e ser capaz e aproveitar ou mesmo melhorar os jogos.
+**Informação:**Conhecer e entender como é feito é importante para determinar as técnicas utilizadas e ser capaz e aproveitar ou mesmo melhorar os jogos.
+{: .notice--info}
 
 Existem aplicações que auxiliam na produção de programas de computador ou jogos digitais, estas ferramentas abstraem a lógica complexa que faz com os objetos sejam apresentados de forma adequada na cena, no caso de jogos digitais. Tais ferramentas são chamadas de *Frameworks*.
 
@@ -144,11 +152,13 @@ No desenvolvimento de jogos um *Framework* pode ser definido como um conjunto de
 
 Algumas *Engine* disponíveis no mercado.
 
-1. Unreal engine;
+1. [Unreal engine](https://www.unrealengine.com/pt-BR);
 
-1. Unity;
+1. [Unity](https://unity.com/pt);
 
-1. GameMaker;
+1. [GameMaker](https://gamemaker.io/pt-BR);
+
+1. [Godot](https://godotengine.org/).
 
 ## 4. Ciclo da lógica do desenvolvimento de um jogo
 
@@ -196,7 +206,7 @@ A maioria das *Engines* seguem um ciclo de execução da lógica de programaçã
 
 ## 6. O curso de Unreal Engine com C++ e Blueprint
 
-Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++*.  O curso está associado a construção **Mecânica** do jogo pois nele definimos elementos como mecanismos de controle e elementos do conteúdo do jogo.  
+Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++* com Unreal Engine.  O curso está associado a construção **Mecânica** do jogo pois nele definimos elementos como mecanismos de controle e elementos do conteúdo do jogo.  
 
 ### 6.1. Habilidades que serão aprendidas
 
