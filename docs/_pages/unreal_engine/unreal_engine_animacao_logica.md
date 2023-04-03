@@ -27,8 +27,6 @@ O objetivo do `Blend Space` é reduzir a necessidade de criar nós individuais c
 **Informação:** Nos próximos passos vamos criar várias sequencias de animações para o personagem BP_Human.
 {: .notice--info}
 
-***
-
 ## 2. Blend Space 1D
 
 Os Blend Spaces também podem ser criados em um formato unidimensional, conhecido como `Blend Space 1D`. Eles podem se misturar entre qualquer número de poses ou animações, mas o fazem com base em um único valor de entrada. Um exemplo de caso de uso para um`Blend Space 1D` seria quando você tem um personagem que se orienta automaticamente na direção em que está se movendo. Se o personagem não pode se desviar ou se mover em várias direções, um Blend Space 1D pode ser usado para se misturar de um Idle a um Walk e, finalmente, a Run com base em um único valor de Speed (como mostrado no exemplo abaixo).
@@ -39,25 +37,23 @@ Os Blend Spaces também podem ser criados em um formato unidimensional, conhecid
     caption="Utilizamos este elemento quando temos somente um parâmetro para controle da mudança de animações, neste caso o eixo horizontal com o parâmetro Speed."
 %}
 
-***
-
 ## 3. Implementando os personagens
 
 A seguir os parâmetros para o personagem Human:
 
-- Nome do arquivo: BS_Human1D;
+Nome do arquivo: BS_Human1D;
 
-- Sequencia de animação: Arraste as animações para o sequenciador conforme o parâmetro `Speed`;
+Sequencia de animação: Arraste as animações para o sequenciador conforme o parâmetro `Speed`;
 
-- `Horizantal Axis`: Speed;
+`Horizantal Axis`: Speed;
 
-- `Maximum Axis Value`: 600;
+`Maximum Axis Value`: 600;
 
-  - (Velocidade máxima de corrida do personagem);
+- (Velocidade máxima de corrida do personagem);
 
-- `Interpolation Time`: 0.25.
+`Interpolation Time`: 0.25.
 
-  - Altere esse valor gradativamente para melhorar a mudança de estados.
+Altere esse valor gradativamente para melhorar a mudança de estados.
 
 Para acompanhar o movimentação pressione Shift + LMB e arrastre o mouse.
 
@@ -66,15 +62,15 @@ Para acompanhar o movimentação pressione Shift + LMB e arrastre o mouse.
 
 Parâmetros para o personagem Mutant.
 
-- Nome do arquivo: BS_Mutant
+Nome do arquivo: BS_Mutant
 
-- `Horizontal Axis`
+`Horizontal Axis`
 
-  - `Name` : Speed
+- `Name` : Speed
 
-  - `Maximum axis value` : 220
+- `Maximum axis value` : 220
 
-  - `Interpolation time` : 0.5
+- `Interpolation time` : 0.5
 
 Para criar a movimentação no eixo horizontal vamos arrastar os elementos apresentados em `Asset Browser` para a linha do tempo.
 
@@ -86,14 +82,14 @@ Para criar a movimentação no eixo horizontal vamos arrastar os elementos apres
 
 ### 3.1. Vídeo Animation Blend Space 1D
 
+{% include video id="arRhm3KRUR0" provider="youtube" %}
+
 {% include video.html
     link="https://youtu.be/arRhm3KRUR0"
     src="https://img.youtube.com/vi/arRhm3KRUR0/0.jpg"
     alt="Vídeo: Unreal Engine - Animation Blend Space 1D."
     caption="Unreal Engine Animação - 04 Blend Space 1D."
 %}
-
-***
 
 ## 4. Blend Space
 
@@ -105,17 +101,15 @@ Este elemento é utilizado quanto existem dois parâmetros para controle das ani
     caption="Menu de contexto Animation > Blend Space."
 %}
 
-- Nome do arquivo: BS_Human;
+Salve o objeto com o nome do arquivo `BS_Human` e em Sequencia de animação arraste as animações para o sequenciador conforme o parâmetro `Speed` e `Direction`;
 
-- Sequencia de animação: Arraste as animações para o sequenciador conforme o parâmetro `Speed` e `Direction`;
-
-- `Horizontal Axis`: Direction;
+`Horizontal Axis`: Direction;
 
 - `Minimum Axis Value`: -180;
 
 - `Maximum Axis Value`: 180 (A direção do personagem varia entre esses valores);
 
-- `Vertical Axis`: Speed
+`Vertical Axis`: Speed
 
 - `Minimum Axis Value`: 0;
 
@@ -123,8 +117,6 @@ Este elemento é utilizado quanto existem dois parâmetros para controle das ani
 
 **Informação:** Alteramos o nome do parâmetro para Speed com a finalidade de facilitar a identificação dentro da lógica de programação **Blueprint** que usaremos posteriormente.
 {: .notice--info}
-
-***
 
 ## 5. O que é Animation Blueprint?
 
@@ -154,8 +146,6 @@ O Editor é separado em `AnimGraph` e `EventGraph`, onde o primeiro implementa a
     caption="A aba MyBlueprint apresenta a organização do editor."
 %}
 
-***
-
 ## 6. Estados de maquina ou State Machine
 
 Uma máquina de estados representa uma sequencie lógica de estados associados a uma animação.
@@ -174,7 +164,7 @@ O nó `Output Pose` é o estado ou pose final da animação. A seguir vamos cria
     caption="Dentro do nó criado adicionaremos um novo estado com Add State com o nome Idle/Walk/Run."
 %}
 
-***
+
 
 ## 7. Blend Space e State Machine
 
@@ -281,8 +271,6 @@ Agora vamos copiar todos os nos do `Event Graph` de `ThirdPerson_AnimBP` para o 
     caption="Unreal Engine Animação - 05 Animation Blueprints."
 %}
 
-***
-
 ## 8. Implementando a Corrida
 
 Em este passo iremos implementar a corrida do personagem. Vamos configura o evento `Left Shift` para alterar a propriedade `Max Walk Speed` do componente `CharacterMomement` com os valores 220 para velocidade máxima e 110 para caminhada.
@@ -302,7 +290,7 @@ Em este passo iremos implementar a corrida do personagem. Vamos configura o even
     caption="Unreal Engine Animação - 07 Corrida."
 %}
 
-***
+
 
 ## 9. Montando a animação de ataque
 
@@ -336,8 +324,6 @@ Adicione um novo slot de nome `Attack` e salve;
     alt="Vídeo: Unreal Engine - Animação de ataque.."
     caption="Vídeo: Unreal Engine - Animação de ataque."
 %}
-
-***
 
 ## 10. Animação básica com AnimGraph
 
@@ -377,8 +363,6 @@ Em este estado passamos como parâmetro a variável `Speed` para animação BS_M
     caption="Conectando a variável Speed em BS_Mutant."
 %}
 
-***
-
 ## 11. Animação de ataque com AnimGraph
 
 Neste passo vamos implementar a animação de ataque com soco de direita e esquerda.
@@ -416,8 +400,6 @@ No objeto BP_Mutant adicione os eventos de chamada de função e associe a funç
     caption="Vídeo: Unreal Engine - Montando o ataque com Animação com AnimGraph."
 %}
 
-***
-
 ## 12. Atacando somente com os braços
 
 Em este passo iremos continuar com a programação `AnimGraph` para fazer o personagem correr e atacar ao mesmo tempo, para isso vamos misturar os ossos das animações utilizando `Layered Blend per Bone`.
@@ -431,8 +413,6 @@ Podemos misturar várias animações no nó de estado e utilizar um osso (bone) 
     alt="Figura: Unreal Engine - Animação - Layered Blend per bone."
     caption="Usando o nó para misturar duas poses."
 %}
-
-***
 
 ## 13. Animação de ataque completa e correndo somente os braços
 
@@ -463,8 +443,6 @@ No `Event Graph` de `ABP_Mutant` adicionamos a lógica para verificar se o perso
     caption="Vídeo: Unreal Engine - Animação do personagem correndo e atacando ao mesmo tempo."
 %}
 
-***
-
 ## 14. Aim Offset
 
 Um Aim Offset é um recurso que armazena uma série de poses que podem ser combinadas para ajudar um personagem a apontar uma arma. Durante a animação, o resultado do Aim Offset é misturado com outros movimentos, como correr, caminhar, pular, etc. para fazer com que o personagem pareça olhar suavemente em todas as direções.
@@ -481,7 +459,7 @@ Um Aim Offset é um recurso que armazena uma série de poses que podem ser combi
 
 Neste passo vamos criar várias animações com o personagem mirando utilizando a animação `Aim_Space_hip` como base. Estas animações servem de referência para realizar a interpolação.
 
-1. Crie as pastas para organizar o projeto:
+**1.** Crie as pastas para organizar o projeto:
 
 ```bash
 /Maps/Shooter
@@ -489,9 +467,9 @@ Neste passo vamos criar várias animações com o personagem mirando utilizando 
 /Characters/Shooter/Animations
 ```
 
-1. Mova o arquivo `/AnimStarterPack/Aim_Space_hip` para a pasta `/Characters/Shooter/Animations`
+**2.** Mova o arquivo `/AnimStarterPack/Aim_Space_hip` para a pasta `/Characters/Shooter/Animations`
 
-1. Duplique o arquivo várias vezes `Aim_Space_hip` e renomeio para os seguintes nomes:
+**3.** Duplique o arquivo várias vezes `Aim_Space_hip` e renomeio para os seguintes nomes:
 
 - `Aim_Center`;
 

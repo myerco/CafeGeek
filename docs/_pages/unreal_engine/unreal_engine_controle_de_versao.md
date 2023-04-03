@@ -41,8 +41,6 @@ Perceba que para facilitar a manutenção e desenvolvimento em equipe e pensando
 
 - Necessidade de documentar as alterações no momento que forem compartilhadas.
 
-***
-
 ## 2. Ferramentas para controle de versão
 
 Existem várias ferramentas para controle de versão disponíveis no mercado, como por exemplo :
@@ -57,8 +55,6 @@ Existem várias ferramentas para controle de versão disponíveis no mercado, co
 
 O **Unreal Engine** trabalha de forma nativa com **SVN**, **Perforce** e **Git**, esta última até o momento em versão beta.
 
-***
-
 ## 3. Estrutura do GIT
 
 No gráfico abaixo é apresentado a estrutura de armazenar e alguns comandos do ambiente do Git.
@@ -69,8 +65,6 @@ No gráfico abaixo é apresentado a estrutura de armazenar e alguns comandos do 
     caption="Vamos revisar um fluxo de trabalho de projeto simples e os comandos da CLI que nos ajudam a passar de uma etapa para a seguinte. Abaixo está um diagrama de um fluxo de trabalho, incluindo Git e Github. Este diagrama representa mais de perto o fluxo do meu projeto de grupo."
     ref="https://dev.to/mollynem/git-github--workflow-fundamentals-5496"
 %}
-
-***
 
 ## 4. Entendo o fluxo de trabalho
 
@@ -95,8 +89,6 @@ git commit -m "fix: Lista de correções #14,#252"
 ```bash
 git push origin main
 ```
-
-***
 
 ## 5. Começando a trabalhar com o Git e o Unreal Engine
 
@@ -197,8 +189,6 @@ Adicione o projeto TestGitHub com `Add an Existing Repository from your hard dri
 
 Utilizando o Explorer navegue até a pasta do projeto e edite o arquivo .gitignore e adicione o texto ExampleContent, isso impedira a pasta ser enviada para o repositório remoto, verifique `Ignorando pastas e arquivos` para mais informações;
 
-***
-
 ## 6. Criando o projeto remoto e atualizando os arquivos
 
 Uma vez configurados os projetos nos sistemas **Unreal** e **GitHub Desktop**, podemos confirmar as alterações dos arquivos utilizando o comando `Commit to Master`.
@@ -250,8 +240,6 @@ Após a confirmação vamos enviar as alterações para o servidor com o comando
     alt="Figura: Github Desktop Push Origin."
     caption="A janela da direita informa que é necessário realizar o envio de dados para o servidor remoto com o comando Push."
 %}
-
-***
 
 ## 7. Utilizando comandos do PowerShell para utilizar o Git Client
 
@@ -305,8 +293,6 @@ git status
 git pull origin master
 ```
 
-***
-
 ## 8. Ignorando pastas e arquivos
 
 É importante ignorar pastas e arquivos do cliente para que não possam ser publicadas no servidor utilizando o arquivo `.gitignore` na pasta raiz do projeto, considerando os seguintes aspectos.
@@ -341,7 +327,7 @@ StarterContent/
 
 ### 8.2. Exemplo de arquivo . gitattributes
 
-O arquivo .gitattributes é utilizado para que o Github identifique e armazene de forma estruturada arquivos binários, como por exemplo, vídeos, imagens e outros, para saber como utilizar visite [Git Large File Storage](https://git-lfs.com/).
+O arquivo .gitattributes é utilizado para que o Github identifique e armazene de forma estruturada arquivos binários, como por exemplo, vídeos, imagens e outros, para saber como utilizar visite [Git Large File Storage - Git LFS](https://git-lfs.com/).
 
 ```shell
 # Auto detect text files and perform LF normalization

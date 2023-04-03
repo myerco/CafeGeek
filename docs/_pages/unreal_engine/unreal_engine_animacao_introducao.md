@@ -46,8 +46,6 @@ Abaixo uma visão geral técnica do uso do processo de construção de animaçõ
 | 1. Arquivo FBX | 2. Skeletal Mesh | 4. Sequence   | 7. Character |
 |                | 3. Skeletal      | 5. Anim Graph |              |
 
-***
-
 ## 2. Arquivo FBX
 
 Embora o formato FBX seja proprietário, muitos aplicativos de modelagem e animação que não são da Autodesk podem abrir arquivos FBX. Isso permite que os criadores compartilhem modelos 3D entre si usando o formato FBX, que é eficiente porque armazena modelos como dados binários. Os arquivos .OBJ, .DXF, .3DS e .DAE (COLLADA) podem ser convertidos em arquivos FBX, usando o Autodesk FBX Converter (disponível para Windows e Mac, mas sem suporte a partir de 2013) ou Autodesk Viewer (Web).[(fileinfo)](https://fileinfo.com/extension/fbx "Fileinfo")
@@ -58,19 +56,17 @@ Embora o formato FBX seja proprietário, muitos aplicativos de modelagem e anima
     caption="Exportando um modelo 3D do Autodesk Maya para o Unreal."
 %}
 
-***
-
 ## 3. Skeleton
 
 Skeleton ou Esqueleto da malha importada no arquivo FBX contendo controle de movimentação e `Sockets` para colar outros objetos e ossos virtuais.
 
-- `Sockets` - Ponto de controle do esqueleto, permitindo colar outros objetos no ponto;
+`Sockets` - Ponto de controle do esqueleto, permitindo colar outros objetos no ponto;
 
-- `Virtual Bones` - Adiciona um osso que não está na malha original;
+`Virtual Bones` - Adiciona um osso que não está na malha original;
 
-- `Retargeting` - Permite que as animações sejam reutilizadas entre os personagens que usam o mesmo recurso `Skeleton`;
+`Retargeting` - Permite que as animações sejam reutilizadas entre os personagens que usam o mesmo recurso `Skeleton`;
 
-- `Physics` - Controle de física e animação dos ossos.
+`Physics` - Controle de física e animação dos ossos.
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_skeleton_mannequim.webp"
@@ -86,8 +82,6 @@ Skeleton ou Esqueleto da malha importada no arquivo FBX contendo controle de mov
     caption="O Skeletal Mesh Animation System no Unreal Engine é composto por editores de recursos de animação especializados que apresentam ferramentas de animação robustas que você pode usar ao trabalhar com Skeletal Meshes e outros recursos de animação. Com esses editores de animação, você pode criar animações de personagens, interações dentro dos níveis e outros comportamentos processuais."
     ref="https://docs.unrealengine.com/5.1/en-US/animation-editors-in-unreal-engine/"
 %}
-
-***
 
 ## 4. Skeletal Mesh
 
@@ -107,8 +101,6 @@ Skeletal Mesh ou Malha do esqueleto cobre os ossos para gerenciamento de `LOD` e
     caption="O modo Skeletal Mesh Editor é onde você pode encontrar as ferramentas para manipular e visualizar os ativos do Skeletal Mesh. É semelhante ao Static Mesh Editor. No Editor de malha esquelética, você pode fazer alterações na malha poligonal atribuindo materiais, adicionando elementos de vestuário, configurando LODs (nível de detalhe) e visualizando quaisquer Alvos Morph aplicados à malha."
     ref="https://docs.unrealengine.com/5.1/en-US/skeletal-mesh-editor-in-unreal-engine/"
 %}
-
-***
 
 ## 5. Anim Graph
 
@@ -141,8 +133,6 @@ Editor para implementação das animações utilizando codificação visual.
     ref="https://docs.unrealengine.com/5.1/en-US/skeletal-mesh-editor-in-unreal-engine/"
 %}
 
-***
-
 ## 6. Sequence
 
 Editor que permite a edição e montage de animações.
@@ -171,8 +161,6 @@ Editor que permite a edição e montage de animações.
     caption="O Animation Sequence Editor fornece acesso a vários recursos centrados em animação disponíveis para Skeletal Meshes no Unreal Engine. No Animation Sequence Editor, você pode editar e visualizar sequências de animação, montagens, curvas e muito mais."
     ref="https://docs.unrealengine.com/5.1/en-US/animation-sequence-editor-in-unreal-engine/"
 %}
-
-***
 
 ## 7. Organizando pastas de bibliotecas
 
@@ -253,21 +241,21 @@ Para esta classe vamos importar o esqueleto e animações.
 
 Criemos o objeto BP_Mutant do tipo `BP_CharacterBase` e adicionamos o esqueleto e animação do personagem criados anteriormente, abaixo as propriedades que devem ser atualizadas.
 
-- `Skeletal Mesh`: Mutant;
+`Skeletal Mesh`: Mutant;
 
-- `Animation Mode`: Use Animation Bluerint;
+`Animation Mode`: Use Animation Bluerint;
 
-- `Anim Class`: ABP_Mutant_C;
+`Anim Class`: ABP_Mutant_C;
 
 Em `CharacterMomement` atualize os valores para determinar a velocidade de movimentação do personagem, interessante notar que a velocidade de movimento do Mutante é diferente que a do Mannequim:
 
-- `Max Walk Speed`: 110;
+`Max Walk Speed`: 110;
 
-- `Max Walk Speed Crouched`: 110 ou
+`Max Walk Speed Crouched`: 110 ou
 
-- (Show InHerited Variables) > fWalkSpeed = 110;
+(Show InHerited Variables) > fWalkSpeed = 110;
 
-- (Show InHerited Variables) > fRunSpeed = 220;
+(Show InHerited Variables) > fRunSpeed = 220;
 
 **Informação:** Para testar a movimentação crie um level de teste e configure `World Settings` para  `Default Pawn` =  BP_Mutant.
 {: .notice--info}
@@ -280,8 +268,6 @@ Em `CharacterMomement` atualize os valores para determinar a velocidade de movim
     alt="Vídeo: Classe do personagem."
     caption="Unreal Engine Animação - 06 A classe do personagem."
 %}
-
-***
 
 ## 8. Ambiente e controle
 
@@ -297,11 +283,9 @@ Neste capítulo vamos implementar os controles do personagem e criar um level pa
 
 **3.** Em `World Settings` configure:
 
-- `GameMode Override` - BP_GameModeBase;
+`GameMode Override` - BP_GameModeBase;
 
-- `Default Pawn Class` - BP_PlayerBase.
-
-***
+`Default Pawn Class` - BP_PlayerBase.
 
 ## 9. Animações e esqueleto do Mutant
 

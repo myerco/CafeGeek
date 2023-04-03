@@ -25,7 +25,7 @@ Um jogo digital é um produto de software e como muitos projetos de desenvolvime
 [Programação](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores) é o processo de escrita, teste e manutenção de um programa de computador. O programa é escrito em uma linguagem de programação, embora seja possível, com alguma dificuldade, o escrever diretamente em linguagem de máquina. Diferentes partes de um programa podem ser escritas em diferentes linguagens.
 
 ```cpp
-/ Your First C++ Program
+// Your First C++ Program
 
 #include <iostream>
 
@@ -77,8 +77,6 @@ A arte digital (2D e 3D) é a apresentação de personagens, ambiente e outros e
 %}
 
 Como visto acima, diversos perfis profissionais de áreas distintas estão presentes na construção de um jogo, formando diversas equipes multiculturais,  o que aumenta a complexidade desse tipo de projeto quando pensamos na organização de tarefas e comunicação dos envolvidos.
-
-***
 
 ## 2. Mecânica, Dinâmica e Estética (MDA)
 
@@ -132,12 +130,10 @@ Quanto a construção da mecânica de um jogo é necessário utilizar uma lingua
 
 As linguagens de programação vem evoluindo para simplificar as rotinas e comandos assim agilizando o desenvolvimento e permitindo o programador focar no que deve ser feito escondendo alguns detalhes de como é feito.
 
-**Informação:**Conhecer e entender como é feito é importante para determinar as técnicas utilizadas e ser capaz e aproveitar ou mesmo melhorar os jogos.
+**Informação:** Conhecer e entender como são feitos os jogos eletrônicos, é importante para determinar as técnicas utilizadas e ser capaz de aproveitar ou mesmo melhorar os jogos.
 {: .notice--info}
 
 Existem aplicações que auxiliam na produção de programas de computador ou jogos digitais, estas ferramentas abstraem a lógica complexa que faz com os objetos sejam apresentados de forma adequada na cena, no caso de jogos digitais. Tais ferramentas são chamadas de *Frameworks*.
-
-***
 
 ## 3. O que é uma Engine e Framework?
 
@@ -162,19 +158,15 @@ Algumas *Engine* disponíveis no mercado.
 
 ## 4. Ciclo da lógica do desenvolvimento de um jogo
 
-***
-
 A maioria das *Engines* seguem um ciclo de execução da lógica de programação baseado em :
 
-- **Inicialização** - Executado ao iniciar o jogo carregando bibliotecas básicas;
+**Inicialização** - Executado ao iniciar o jogo carregando bibliotecas básicas;
 
-- **Carga** - Responsável por carregar os objetos ou módulos;
+**Carga** - Responsável por carregar os objetos ou módulos;
 
-- **Atualização** - Estado de atualização constante responsável por apresentar todos os estados do jogo;
+**Atualização** - Estado de atualização constante responsável por apresentar todos os estados do jogo;
 
-- **Finalização** - Executa as rotinas para descarregar o jogo;
-
-***
+**Finalização** - Executa as rotinas para descarregar o jogo;
 
 ## 5. O que é Unreal Engine?
 
@@ -201,8 +193,6 @@ A maioria das *Engines* seguem um ciclo de execução da lógica de programaçã
 1. Editor para construção de materiais;
 
 1. Editor de efeitos especiais utilizando partículas;
-
-***
 
 ## 6. O curso de Unreal Engine com C++ e Blueprint
 

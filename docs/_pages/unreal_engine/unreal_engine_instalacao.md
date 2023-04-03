@@ -33,8 +33,6 @@ Para facilitar a instalação e atualização do ambiente de desenvolvimento dos
 
 ## 2. Como instalar o Unreal Engine?
 
-***
-
 Para instalar o Unreal Engine siga os seguintes passos:
 
 1. Baixe e instale o [Inicializador da Epic Games](https://www.epicgames.com/store/pt-BR/download);
@@ -69,8 +67,6 @@ Depois de instalar o Visual Studio é necessário selecionar os seguintes pacote
 
 **Por que instalar o pacote Desktop com C++ ?** Porque muitas vezes é necessário testar uma funcionalidade ou mesmo testar um conceito da linguagem e ter o compilador disponível é uma mão na roda.
 {: .notice--info}
-
-***
 
 ## 3. Criando um projeto para jogos no Unreal Engine
 
@@ -135,8 +131,6 @@ Quando todos os passos anteriores forem concluídos corretamente a tela inicial 
 
 ## 4. Configurando o editor de código
 
-***
-
 Para programar utilizando **C++** no Unreal devemos configurar um editor de código para ser responsável pela compilação, organização e edição da linguagem. A configuração esta em :
 
 `Menu` > `Editor Preferences` > `General` e `Source Code`, então escolha `Visualstudio`.
@@ -152,8 +146,6 @@ Para programar utilizando **C++** no Unreal devemos configurar um editor de cód
 
 ## 5. Entendo as pastas criadas
 
-***
-
 Após criar o projeto vamos verificar como estão as pastas criadas pela *engine*, utilizando o `explorer` do Windows, navegue até a pasta do projeto para verificar os arquivos criados, devem aparecer as seguintes pastas e arquivos:
 
 ```bash
@@ -165,7 +157,7 @@ Após criar o projeto vamos verificar como estão as pastas criadas pela *engine
 ├── Saved
 ├── Source
 ├── ProjetoAula.sln
-├── ProjetoAula.uproject
+└── ProjetoAula.uproject
 ```
 
 A seguir vamos entender as pastas do projeto.
@@ -179,9 +171,9 @@ A pasta `Source` contém arquivos com código fonte em **C++** e o arquivo com e
   ├── ProjetoAula
   |  ├── ProjetoAula.cpp
   |  ├── ProjetoAula.h
-  |  ├── ProjetoAula.Build.cpp    
+  |  └── ProjetoAula.Build.cpp    
   ├── ProjetoAulaEditor.Target.cs    
-  ├── ProjetoAula.Target.cs
+  └── ProjetoAula.Target.cs
 ```
 
 ### 5.2. Pasta principal do projeto - Content
@@ -196,17 +188,15 @@ As pastas abaixo podem ser removidas pois podemos construir a qualquer momento q
 ├── Binaries
 ├── Build
 ├── Intermediate
-├── Saved
+└── Saved
 ```
 
 ### 5.4. Nomenclatura de pastas
 
 É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto, abaixo duas boas recomendações de organização, discutiremos mais nos próximos capítulos.
 
-**[UE5 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin "Gamemakin UE4 Style Guide() { A mostly reasonable approach to Unreal Engine 4"):** Gamemakin UE4 Style Guide() - A mostly reasonable approach to Unreal Engine 4
+**[UE5 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin "Gamemakin UE4 Style Guide() { A mostly reasonable approach to Unreal Engine 4"):** Gamemakin UE4 Style Guide() - A mostly reasonable approach to Unreal Engine 4.
 {: .notice--info}
-
-***
 
 ## 6. Organizando as pastas
 
@@ -304,9 +294,9 @@ Segunda Sugestão de organização de pastas no Unreal Engine.
     |   |   ├── Characters
     |   |   |   └── BP_CharacterBase
     |   |   ├── Engine
-    |   |   |   ├── BP_PlayerController
-    |   |   |   └── BP_GameMode
+    |   |   |   └── BP_PlayerController
     |   |   ├── GameModes
+    |   |   |   └── BP_GameMode    
     |   |   ├── Interactables
     |   |   ├── Pickups
     |   |   ├── DataSets
@@ -327,13 +317,13 @@ Segunda Sugestão de organização de pastas no Unreal Engine.
 
 Separar a pasta do projeto `Content` de outras pastas pode facilitar e trazer vários benefícios durante o desenvolvimento do projeto, abaixo elencamos alguns:
 
-**Versionamento** - pastas com diferentes versões;
+**Versionamento** - Pastas com diferentes versões;
 
 **Isolar pacotes** - Testes e *Marketplace*;
 
-**DLC ou subprojetos** - podemos administrar separadamente projetos relacionados;
+**DLC ou subprojetos** - Podemos administrar separadamente projetos relacionados;
 
-**Biblioteca de Materiais** - podemos migrar pasta de materiais e compartilhar materiais sem muitos problemas definindo um pasta de nível superior.
+**Biblioteca de Materiais** - Podemos migrar pasta de materiais e compartilhar materiais sem muitos problemas definindo um pasta de nível superior.
 
 Exemplo:
 
@@ -348,8 +338,6 @@ Exemplo:
       └── M_Master
 ```
 
-***
-
 ## 7. Configurando o projeto
 
 Preparar o projeto antes de começar o desenvolvimento é importante para que possamos otimizar algumas tarefas e preparar o jogo com a configuração inicial, neste passo vamos configurar alguns parâmetros do projeto.
@@ -360,13 +348,9 @@ Nos próximos capítulos vamos utilizar outras opções do menu de configuraçã
 
 Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguintes passos:  
 
-Salve o *level* atual na pasta `Maps` :
+Salve o *level* atual na pasta `Maps` :  `File` > `Save Current Level As` com o nome `LevelTest`;
 
-`File` > `Save Current Level As` com o nome `LevelTest`;
-
-Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o menu :
-
-`Edit` > `Project Settings` e depois `Maps & Modes`;
+Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o menu : `Edit` > `Project Settings` e depois `Maps & Modes`;
 
 {% include imagelocal.html
     src="unreal/projeto/unreal_engine_maps_modes.webp"
@@ -374,15 +358,13 @@ Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o 
     caption="Parâmetros globais de configuração do level e classes."
 %}
 
-- `Edit Startup Level` - Seleciona o *Level* que deverá ser carregado no início do jogo, neste caso é `LevelTest`;
+`Edit Startup Level` - Seleciona o *Level* que deverá ser carregado no início do jogo, neste caso é `LevelTest`;
 
-- `Game default Map` - Seleciona o *Level* que é mais usado.
+`Game default Map` - Seleciona o *Level* que é mais usado.
 
 ### 7.2. Configurando as imagens de apresentação do projeto
 
-Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu :
-
-`Project Settings` opção `Plataforms` > `Windows` e altere a imagem.
+Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu : `Project Settings` opção `Plataforms` > `Windows` e altere a imagem.
 
 {% include imagelocal.html
     src="unreal/projeto/unreal_engine_project_icon.webp"
@@ -390,4 +372,5 @@ Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apr
     caption="Podemos alterar o ícone do projeto e a imagem de inicialização do jogo."
 %}
 
-Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas pode ser convertido usando ferramentas online, por exemplo) e 256x256.
+**Nota:** Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas pode ser convertido usando ferramentas online, por exemplo) e 256x256.
+{: .notice--warning}
