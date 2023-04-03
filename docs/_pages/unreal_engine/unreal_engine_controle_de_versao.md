@@ -10,7 +10,7 @@ toc: true
 
 ## 1. Controle de Versão
 
-{% include image.html
+{% include imagelocal.html
     src="unreal/projeto/unreal_engine_git.webp"
     alt="Figura: Unreal Engine with Git."
 %}
@@ -47,13 +47,13 @@ Perceba que para facilitar a manutenção e desenvolvimento em equipe e pensando
 
 Existem várias ferramentas para controle de versão disponíveis no mercado, como por exemplo :
 
-- **GitHub** - É um serviço de armazenamento de nuvem para gerenciamento de códigos de aplicação. É possível ter uma conta gratuita e armazenar até 500Mb por projeto;
+**GitHub** - É um serviço de armazenamento de nuvem para gerenciamento de códigos de aplicação. É possível ter uma conta gratuita e armazenar até 500Mb por projeto;
 
-- **Gitlab** - É um serviço de armazenamento de nuvem para gerenciamento de códigos de aplicação concorrente do Github mas com o diferencial que pode ser instalado em um ambiente corporativo;
+**Gitlab** - É um serviço de armazenamento de nuvem para gerenciamento de códigos de aplicação concorrente do Github mas com o diferencial que pode ser instalado em um ambiente corporativo;
 
-- **SVN** - Gerenciador de versão para vários tipos de arquivos, inclusive arquivos de mídia, para ambientes corporativos;
+**SVN** - Gerenciador de versão para vários tipos de arquivos, inclusive arquivos de mídia, para ambientes corporativos;
 
-- **Git LFS** - Large File System é uma versão do git para armazenamento de arquivos de mídia ou binários, podendo armazenar de forma gratuita até 1GB.
+**Git LFS** - Large File System é uma versão do git para armazenamento de arquivos de mídia ou binários, podendo armazenar de forma gratuita até 1GB.
 
 O **Unreal Engine** trabalha de forma nativa com **SVN**, **Perforce** e **Git**, esta última até o momento em versão beta.
 
@@ -70,19 +70,19 @@ No gráfico abaixo é apresentado a estrutura de armazenar e alguns comandos do 
     ref="https://dev.to/mollynem/git-github--workflow-fundamentals-5496"
 %}
 
-## 4. Entendo o fluxo de trabalho
-
 ***
+
+## 4. Entendo o fluxo de trabalho
 
 Quando utilizamos um gerenciador de versão temos que seguir um fluxo de trabalho para compartilhar o código armazenado localmente, segue abaixo os comandos iniciais do fluxo:
 
-**Add** - Permite adicionar as alterações para um registro local.
+`Add` - Permite adicionar as alterações para um registro local.
 
 ```bash
 git add .
 ```
 
-**Commit** - Compromete ou confirma as alterações e criar uma etiqueta ou informação para identificar o trabalhado realizado, por exemplo:
+`Commit` - Compromete ou confirma as alterações e criar uma etiqueta ou informação para identificar o trabalhado realizado, por exemplo:
 
 ```bash
 git commit -m "feat: Adicionado lógica de movimentação do jogador com mouse X e Y em BP_HeroBase."
@@ -90,7 +90,7 @@ git commit -m "fix: Corrigido o evento MostraMenu em BP_GameInstance, anteriorme
 git commit -m "fix: Lista de correções #14,#252"
 ````
 
-**Push** - "Empurra" e publica as alterações locais no servidor.
+`Push` - "Empurra" e publica as alterações locais no servidor.
 
 ```bash
 git push origin main
@@ -118,15 +118,16 @@ Inscreva-se no [Github](https://github.com/) para possibilitar:
 
 É necessário instalar o **Git Client** no computador local para criar as estruturas de versionamento. Utilizaremos o **PowerShell** com os comandos a seguir para instalar o aplicativo cliente.
 
-- Instale o [Cliente GIT](https://git-scm.com/downloads);
+**1.** Instale o [Cliente GIT](https://git-scm.com/downloads);
 
-- Crie uma chave de autenticação (Key-Gen) com o GIT-BASH;
+**2.** Crie uma chave de autenticação (Key-Gen) com o GIT-BASH;
 
 ```shell
 ssh-keygen
 ```
 
-> Este passo só é necessário se no momento de envio (push) solicitar senha e o sistema operacional não gerenciar as credenciais adequadamente.
+**Nota:** Este passo só é necessário se no momento de envio (push) solicitar senha e o sistema operacional não gerenciar as credenciais adequadamente.
+{: .notice--warning}
 
 - Adicione a chave no GitHub **Settings >SSH and GPG Keys**;
 
@@ -140,7 +141,7 @@ git status
 git remote -v
 ```
 
-1. Após a instalação do **Git Client** vamos baixar e instalar o ambiente visual [GitHub Desktop](https://desktop.github.com/) para simplificar o fluxo de trabalho.
+**3.** Após a instalação do **Git Client** vamos baixar e instalar o ambiente visual [GitHub Desktop](https://desktop.github.com/) para simplificar o fluxo de trabalho.
 
 ### 5.3. Configurando Unreal Engine para utilizar o Git
 
@@ -152,11 +153,10 @@ Para exemplificar a conexão do **Unreal Engine** com o Github vamos criar um no
 
 - Type: Blueprint;
 
-- Iremos manter os demais parâmetros como estão.
+**Nota:** Iremos manter os demais parâmetros como estão.
+{: .notice--info}
 
-Para Configurar o projeto utilizaremos :
-
-`Menu` > `Edit` > `Connect To Source Control`.
+Para Configurar o projeto utilizaremos  `Menu` > `Edit` > `Connect To Source Control`.
 
 {% include imagelocal.html
     src="unreal/projeto/unreal_engine_connect_to_source_control.webp"
@@ -166,23 +166,20 @@ Para Configurar o projeto utilizaremos :
 
 Abaixo a descrição dos parâmetros;
 
-- `Git Path` - Caminho para o executável do **Git client**;
+`Git Path` - Caminho para o executável do **Git client**;
 
-- `Add a .gitignore file` - Adiciona o arquivo para controle do que deve ser enviado para o servidor;
+`Add a .gitignore file` - Adiciona o arquivo para controle do que deve ser enviado para o servidor;
 
-  - `Add a basic README.md file` - Adicione um arquivo em formato *Markdown* para ser utilizado como documentação inicial;
+`Add a basic README.md file` - Adicione um arquivo em formato *Markdown* para ser utilizado como documentação inicial;
 
-  - `Make the initial Git Commit` - Inicializa o repositório local.
+`Make the initial Git Commit` - Inicializa o repositório local.
 
 Logo em seguida inicialize o projeto e clique em `Accept Settings`;
 
-Com o `Content Drawer` cria as seguintes pastas:
+Com o `Content Drawer` crie as pastas de trabalho.
 
-- `ExampleContent`;
-
-- `Projeto`;
-
-  - `Projeto\Maps`;  
+**Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal_engine/instalacao_configuracao#6-organizando-as-pastas).
+{: .notice--warning}
 
 Salve o level atual em `Projeto\Maps` com o nome `LevelTest`.
 
@@ -226,9 +223,7 @@ O comando acima irá criar um projeto na sua conta no Github.com e adicionar tod
 
 Para testar as configurações realizadas vamos adicionar o pacote `Starter Content` e um objeto **Blueprint**.
 
-Adicione o pacote **Starter Content** utilizando o `Content Drawer`:
-
-`Add` > `Add Feature or Content Pack` escolha `Starter Content`.
+Adicione o pacote **Starter Content** utilizando o `Content Drawer`: `Add` > `Add Feature or Content Pack` escolha `Starter Content`.
 
 Após a instalação do pacote mova o diretório `StarterContent` para a pasta `ExampleContent`, isso deve impedir que a referida pasta seja publicada no repositório remoto, como por exemplo:
 
@@ -342,4 +337,31 @@ StarterContent/
 *.lo
 *.o
 *.obj
+```
+
+### 8.2. Exemplo de arquivo . gitattributes
+
+O arquivo .gitattributes é utilizado para que o Github identifique e armazene de forma estruturada arquivos binários, como por exemplo, vídeos, imagens e outros, para saber como utilizar visite [Git Large File Storage](https://git-lfs.com/).
+
+```shell
+# Auto detect text files and perform LF normalization
+* text=auto
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.cubemap filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.bin.fbx filter=lfs diff=lfs merge=lfs -text
+*.umap filter=lfs diff=lfs merge=lfs -text
+*.duf filter=lfs diff=lfs merge=lfs -text
+*.uasset filter=lfs diff=lfs merge=lfs -text
+*.upk filter=lfs diff=lfs merge=lfs -text
+*.udk filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
 ```

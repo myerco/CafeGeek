@@ -13,7 +13,7 @@ sidebar:
 
 O **Unreal Engine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos e também um ambiente visual de programação abstraindo a lógica de programação.
 
-O Unreal Engine utiliza na sua base a linguagem C++ e um ambiente de programação visual denominado *Blueprint*, mas para que possamos habilitar a programação em linguagem **C++** é necessário instalar o **Visual Studio** ou **Visual Code** e baixar os pacotes de desenvolvimento em **C++**.
+O **Unreal Engine** utiliza a linguagem C++ e um ambiente de programação visual denominado *Blueprint*, para que possamos habilitar a programação em linguagem **C++** é necessário instalar o **Visual Studio** ou **Visual Code** e baixar os pacotes de desenvolvimento em **C++**.
 
 Para facilitar a instalação e atualização do ambiente de desenvolvimento dos projetos, a **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **Inicializador da Epic Games** responsável por:
 
@@ -67,13 +67,12 @@ Depois de instalar o Visual Studio é necessário selecionar os seguintes pacote
 
 - Desenvolvimento para Desktop com C++.
 
-### 2.2. Por que instalar o pacote Desktop com C++ ?
-
-Porque muitas vezes é necessário testar uma funcionalidade ou mesmo testar um conceito da linguagem e ter o compilador disponível é uma mão na roda.
-
-## 3. Criando um projeto para jogos no Unreal Engine
+**Por que instalar o pacote Desktop com C++ ?** Porque muitas vezes é necessário testar uma funcionalidade ou mesmo testar um conceito da linguagem e ter o compilador disponível é uma mão na roda.
+{: .notice--info}
 
 ***
+
+## 3. Criando um projeto para jogos no Unreal Engine
 
 Nesta seção vamos criar um projeto para jogos utilizando **C++**, pois, irá ajudar na compreensão da estrutura de pastas e arquivos do **Unreal Engine**. O nome do projeto será ProjetoAula e o usaremos em vários capítulos.
 
@@ -97,9 +96,8 @@ Para este projeto vamos escolher o `template blank`, modelo vazio, significa que
     caption="Selecionando um modelo para utilizar no projeto."
 %}
 
-> **Templates**
->
-> São modelos com recursos disponíveis para cada tipo de jogo escolhido.
+**Templates:** São modelos com recursos disponíveis para cada tipo de jogo escolhido.
+{: .notice--info}
 
 #### 3.1.2. Configuração inicial do projeto
 
@@ -149,9 +147,8 @@ Para programar utilizando **C++** no Unreal devemos configurar um editor de cód
     caption="Em Source Code Editor escolha o editor da sua preferência."
 %}
 
-> **Qual editor eu escolho, Visual Code ou Visual Studio?**
->
->Os dois são ótimos editores de código mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras linguagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
+**Qual editor eu escolho, Visual Code ou Visual Studio?**  Os dois são ótimos editores de código mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras linguagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
+{: .notice--info}
 
 ## 5. Entendo as pastas criadas
 
@@ -160,15 +157,15 @@ Para programar utilizando **C++** no Unreal devemos configurar um editor de cód
 Após criar o projeto vamos verificar como estão as pastas criadas pela *engine*, utilizando o `explorer` do Windows, navegue até a pasta do projeto para verificar os arquivos criados, devem aparecer as seguintes pastas e arquivos:
 
 ```bash
-|-- .vs
-|-- Binaries
-|-- Config
-|-- Content
-|-- Intermediate
-|-- Saved
-|-- Source
-|-- ProjetoAula.sln
-|-- ProjetoAula.uproject
+├── .vs
+├── Binaries
+├── Config
+├── Content
+├── Intermediate
+├── Saved
+├── Source
+├── ProjetoAula.sln
+├── ProjetoAula.uproject
 ```
 
 A seguir vamos entender as pastas do projeto.
@@ -178,13 +175,13 @@ A seguir vamos entender as pastas do projeto.
 A pasta `Source` contém arquivos com código fonte em **C++** e o arquivo com extensão *uproject* é o principal arquivo do projeto, segue abaixo a configuração inicial.
 
 ```bash
-|-- Source
-  |-- ProjetoAula
-  |  |-- ProjetoAula.cpp
-  |  |-- ProjetoAula.h
-  |  |-- ProjetoAula.Build.cpp    
-  |-- ProjetoAulaEditor.Target.cs    
-  |-- ProjetoAula.Target.cs
+├── Source
+  ├── ProjetoAula
+  |  ├── ProjetoAula.cpp
+  |  ├── ProjetoAula.h
+  |  ├── ProjetoAula.Build.cpp    
+  ├── ProjetoAulaEditor.Target.cs    
+  ├── ProjetoAula.Target.cs
 ```
 
 ### 5.2. Pasta principal do projeto - Content
@@ -196,21 +193,22 @@ A pasta `Source` contém arquivos com código fonte em **C++** e o arquivo com e
 As pastas abaixo podem ser removidas pois podemos construir a qualquer momento quando compilar o projeto.
 
 ```bash
-|-- Binaries
-|-- Build
-|-- Intermediate
-|-- Saved
+├── Binaries
+├── Build
+├── Intermediate
+├── Saved
 ```
 
 ### 5.4. Nomenclatura de pastas
 
 É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto, abaixo duas boas recomendações de organização, discutiremos mais nos próximos capítulos.
 
-- [UE5 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin "Gamemakin UE4 Style Guide() { A mostly reasonable approach to Unreal Engine 4").
-
-## 6. Organizando as pastas
+**[UE5 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin "Gamemakin UE4 Style Guide() { A mostly reasonable approach to Unreal Engine 4"):** Gamemakin UE4 Style Guide() - A mostly reasonable approach to Unreal Engine 4
+{: .notice--info}
 
 ***
+
+## 6. Organizando as pastas
 
 A seguir vamos organizar as pastas do projeto *ProjetoAula*, construído no **Unreal Engine**, e vamos configurá-lo.
 
@@ -252,88 +250,107 @@ Temos também equipes heterogêneas trabalhando no mesmo projeto e até na mesma
 
 Por conseguinte para um maior gerenciamento pelas equipes do projeto  podemos definir pastas com nomenclaturas e organização adequadas ao projeto, abaixo vamos relacionar algumas sugestões.
 
-Primeira Sugestão de organização de pastas no Unreal Engine
+Primeira Sugestão de organização de pastas no Unreal Engine.
 
 ```bash
-|-- Content
-  |-- Blueprints
-  |  |-- Core
-  |  |-- Characters
-  |  |-- Elements
-  |-- Assets
-  |  |-- Images
-  |  |-- StructureMesh
-  |  |-- Materials
-  |-- Maps
-  |  |-- Level1
-  |-- UI
-  |-- Animations
+├── Content
+  ├── Blueprints
+  |  ├── Core
+  |  ├── Characters
+  |  └── Elements
+  ├── Assets
+  |  ├── Images
+  |  ├── StructureMesh
+  |  └── Materials
+  ├── Maps
+  |  └── Level1
+  ├── UI
+  └── Animations
 ```
 
-Segunda Sugestão de organização de pastas no Unreal Engine
+Segunda Sugestão de organização de pastas no Unreal Engine.
 
 ```bash
-|-- Content
-  |-- ProjetoAula
-   |-- Art
-   | |-- Industrial
-   | | |-- Ambient
-   | | |-- Machinery
-   | | |-- Pipes
-   | |-- Nature
-   | | |-- Ambient
-   | | | |-- Foliage
-   | | | |-- Rocks
-   | | | |-- Trees
-   | |-- Office
-   |-- Characters
-   |  |-- Bob
-   |  |-- Common
-   |  |  |-- Animations
-   |  |  |-- Audio
-   |  |-- Jack
-   |  |-- Steve
-   |  |-- Zoe
-   |-- Core
-   | |-- Characters
-   | |-- Engine
-   | |-- GameModes
-   | |-- Interactables
-   | |-- Pickups
-   | |-- Weapons
-   |-- Maps
-   | |-- Level1
-   | |-- Level2
+├── Content
+    ├── Projeto
+    |   ├── Art
+    |   |   ├── Industrial
+    |   |   |   ├── Ambient
+    |   |   |   ├── Machinery
+    |   |   |   └── Pipes
+    |   |   ├── Nature
+    |   |   |   ├── Ambient
+    |   |   |   |   ├── Foliage
+    |   |   |   |   ├── Rocks
+    |   |   |   |   └── Trees
+    |   |   └── Office
+    |   ├── Characters
+    |   |   ├── Human
+    |   |   |   └── BP_Human<Child BP_CharacterBase>
+    |   |   |   ├── Mesh
+    |   |   |   ├── Animations
+    |   |   |   └── Audio
+    |   |   ├── Mutant
+    |   |   |   └── BP_Mutant<Child BP_CharacterBase>        
+    |   |   |   ├── Mesh        
+    |   |   |   ├── Animations
+    |   |   |   |   ├── Logic
+    |   |   |   |   |   ├── Base
+    |   |   |   |   |   ├── Aim
+    |   |   |   |   |   └── Audio   
+    |   |   ├── Steve
+    |   |   └── Zoe
+    |   ├── Core
+    |   |   ├── Characters
+    |   |   |   └── BP_CharacterBase
+    |   |   ├── Engine
+    |   |   |   ├── BP_PlayerController
+    |   |   |   └── BP_GameMode
+    |   |   ├── GameModes
+    |   |   ├── Interactables
+    |   |   ├── Pickups
+    |   |   ├── DataSets
+    |   |   |   └── ECharacterState
+    |   |   └── Weapons
+    |   ├── Maps
+    |   |   ├── Level1
+    |   |   └── Level2
+    └── ExampleContent
+        ├── AnimStarterPack
+        └── ThirdPerson     
 ```
+
+**Nota:** A estrutura acima será usada em todos os projetos do curso.
+{: .notice--warning}
 
 ### 6.3. Os benefícios na organização das pastas
 
 Separar a pasta do projeto `Content` de outras pastas pode facilitar e trazer vários benefícios durante o desenvolvimento do projeto, abaixo elencamos alguns:
 
-1. Versionamento - pastas com diferentes versões;
+**Versionamento** - pastas com diferentes versões;
 
-1. Isolar pacotes de testes e *Marketplace*;
+**Isolar pacotes** - Testes e *Marketplace*;
 
-1. DLC ou subprojetos - podemos administrar separadamente projetos relacionados;
+**DLC ou subprojetos** - podemos administrar separadamente projetos relacionados;
 
-1. Biblioteca de Materiais - podemos migrar pasta de materiais e compartilhar materiais sem muitos problemas definindo um pasta de nível superior.
+**Biblioteca de Materiais** - podemos migrar pasta de materiais e compartilhar materiais sem muitos problemas definindo um pasta de nível superior.
 
 Exemplo:
 
 ```bash
-|-- Content
-  |-- ProjetoAula
-  |-- ProjetoAulaTestes
-  |-- ProjetoAulaArquitetura
-  |-- StarterContent
-  |-- FPS_Assault_Pack
-  |-- MaterialLibrary
-  |  |-- M_Master
+├── Content
+  ├── Projeto
+  ├── ProjetoTestes
+  ├── ProjetoArquitetura
+  ├── StarterContent
+  ├── FPS_Assault_Pack
+  └── MaterialLibrary
+      └── M_Master
 ```
 
-## 7. Configurando o projeto
-
 ***
+
+## 7. Configurando o projeto
 
 Preparar o projeto antes de começar o desenvolvimento é importante para que possamos otimizar algumas tarefas e preparar o jogo com a configuração inicial, neste passo vamos configurar alguns parâmetros do projeto.
 
@@ -365,7 +382,7 @@ Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o 
 
 Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu :
 
-`Project Settings` opção `Plataforms` > `Windows` e altere a imagens.
+`Project Settings` opção `Plataforms` > `Windows` e altere a imagem.
 
 {% include imagelocal.html
     src="unreal/projeto/unreal_engine_project_icon.webp"

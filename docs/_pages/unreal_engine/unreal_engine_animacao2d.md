@@ -90,32 +90,8 @@ Antes de iniciar o trabalho devemos habilitar o plugin `Paper2D` em menu `Edit` 
     caption="Após habilitar o plugin é necessário reiniciar o Unreal Engine."
 %}
 
-Abixo a sugestão de organização de pastas.
-
-```bash
-|-- Animacao2D
-|   |-- Core
-|   |   |-- Characters
-|   |       |-- BP_CharacterBase
-|   |   |-- DataSets
-|   |       |-- ECharacterState
-|   |   |-- Engine
-|   |       |-- BP_GameMode
-|   |       |-- BP_PlayerController
-|   |   |-- Inputs
-|   |   |-- Itens
-|   |       |-- BP_Item
-|   |-- Characters
-|   |   |-- Samurai
-|   |       |-- BP_CharacterSamurai<Child BP_CharacterBase>
-|   |   |-- FlatBoy
-|   |   |-- Punk
-|   |-- Environment
-|   |   |-- Factory
-|   |   |-- Forest
-|   |-- Maps      
-|   |   |-- LevelTest
-```
+**Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal_engine/instalacao_configuracao#6-organizando-as-pastas).
+{: .notice--warning}
 
 ***
 

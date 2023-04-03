@@ -192,29 +192,8 @@ A seguir a configuração inicial do projeto e os pacotes com os necessários pa
 
 **3.** Criar as pastas para organização do projeto:
 
-```bash
-├── Projeto
-|   ├── Core
-|   |   ├── Character
-|   |   |   └── BP_CharacterBase
-|   ├── Characters
-|   |   ├── Human
-|   |   |   ├── Mesh
-|   |   |   ├── Animations                
-|   |   |   └── BP_Human<Child BP_CharacterBase>
-|   |   ├── Mannequim
-|   |   |   ├── Mesh
-|   |   |   ├── Animations          
-|   |   |   └── BP_Mannequim<Child BP_CharacterBase>             
-|   |   ├── Mutant
-|   |   |   ├── Mesh
-|   |   |   ├── Animations
-|   |   |   └──BP_Mutant<Child BP_CharacterBase>             
-|   └── Maps               
-├── ExampleContent
-|   ├── AnimStarterPack
-|   └── ThirdPerson      
-```
+**Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal_engine/instalacao_configuracao#6-organizando-as-pastas).
+{: .notice--warning}
 
 Mova todas as pastas de bibliotecas externas para a pasta ExampleContent, como por exemplo ThirdPerson.
 
