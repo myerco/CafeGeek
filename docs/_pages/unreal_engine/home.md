@@ -19,6 +19,7 @@ toc: true
 %}
 
 Um jogo digital é um produto de software e como muitos projetos de desenvolvimento envolve diversas áreas de conhecimento na sua construção, como por exemplo:
+{: .text-justify}
 
 ### 1.1. Programação de computadores
 

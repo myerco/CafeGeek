@@ -262,7 +262,7 @@ Segunda Sugestão de organização de pastas no Unreal Engine.
 
 ```bash
 ├── Content
-    ├── Projeto
+    ├── Projeto                                         # Pasta principal do projeto
     |   ├── Art
     |   |   ├── Industrial
     |   |   |   ├── Ambient
@@ -276,23 +276,23 @@ Segunda Sugestão de organização de pastas no Unreal Engine.
     |   |   └── Office
     |   ├── Characters
     |   |   ├── Human
-    |   |   |   └── BP_Human<Child BP_CharacterBase>
+    |   |   |   └── BP_Human<Child BP_CharacterBase>    # Classe filho
     |   |   |   ├── Mesh
     |   |   |   ├── Animations
     |   |   |   └── Audio
     |   |   ├── Mutant
-    |   |   |   └── BP_Mutant<Child BP_CharacterBase>        
-    |   |   |   ├── Mesh        
+    |   |   |   └── BP_Mutant<Child BP_CharacterBase>   # Classe filho        
+    |   |   |   ├── Mesh                                # Malha e texturas do personagem       
     |   |   |   ├── Animations
-    |   |   |   |   ├── Logic
-    |   |   |   |   |   ├── Base
-    |   |   |   |   |   ├── Aim
-    |   |   |   |   |   └── Audio   
+    |   |   |   |   ├── Logic                           # Animation Blueprint, Blend Space
+    |   |   |   |   |   ├── Base                        # Animações com movimento básico
+    |   |   |   |   |   └── Aim                         # Animações usando uma arma e mirando
+    |   |   |   └── Audio                               # Sons do personagem
     |   |   ├── Steve
     |   |   └── Zoe
     |   ├── Core
     |   |   ├── Characters
-    |   |   |   └── BP_CharacterBase
+    |   |   |   └── BP_CharacterBase                    # Classe principal dos personagens
     |   |   ├── Engine
     |   |   |   └── BP_PlayerController
     |   |   ├── GameModes
@@ -300,14 +300,14 @@ Segunda Sugestão de organização de pastas no Unreal Engine.
     |   |   ├── Interactables
     |   |   ├── Pickups
     |   |   ├── DataSets
-    |   |   |   └── ECharacterState
-    |   |   └── Weapons
+    |   |   |   └── ECharacterState                     # Enum para registro de estados do personagem
+    |   |   └── Weapons                                 # Classe principal de armas
     |   ├── Maps
     |   |   ├── Level1
     |   |   └── Level2
-    └── ExampleContent
-        ├── AnimStarterPack
-        └── ThirdPerson     
+    └── ExampleContent                                  # Pacotes de exemplo
+        ├── AnimStarterPack                             # Não devem estar no versionamento
+        └── ThirdPerson                                 # Separados da lógica do projeto
 ```
 
 **Nota:** A estrutura acima será usada em todos os projetos do curso.

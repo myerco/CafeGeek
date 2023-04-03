@@ -172,13 +172,7 @@ Neste capitulo vamos preparar e organizar os objetos e elementos necessários, c
     caption="Podemos baixar vários modelos e importar para o nosso projeto."
 %}
 
-A seguir a configuração inicial do projeto e os pacotes com os necessários para as animações.
-
-**1.** Criar o projeto AulaAnimação com `Blueprint ThirdPerson`;
-
-**2.** Adicione ao projeto `Animation Starter Pack`;
-
-**3.** Criar as pastas para organização do projeto:
+Para configurar e adicionar os pacotes necessários para as animações, vamos criar o projeto AulaAnimação com `Blueprint ThirdPerson` e adicionar `Animation Starter Pack` e logo em seguida preparamos e organizamos as pastas.
 
 **Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal_engine/instalacao_configuracao#6-organizando-as-pastas).
 {: .notice--warning}
@@ -194,21 +188,17 @@ cp /Mannequim/Animations/  /Character/Mannequim/Animations
 
 ### 7.1. Classe do personagem Base
 
-Podemos utilizar um personagem base para servir de Referência ou classe pai para outros personagens.
+Podemos utilizar um personagem base para servir de Referência ou classe pai para outros personagens, para tal criamos a Classe `BP_PlayerBase` (Blueprint classe `Character`) em `/Core/Character` para ser nossa classe principal.
 
-**1.** Criar a Classe `BP_PlayerBase` (Blueprint classe `Character`) em `/Core/Character`;
+Em seguida copiamos todos elementos do `Eventh Graph` de `ThirdPersonCharacter` para `BP_PlayerBase`, adicionamos e alinhamos os componentes em `BP_PlayerBase`:
 
-**2.** Copiar todos elementos do `Eventh Graph` de `ThirdPersonCharacter` para `BP_PlayerBase`;
+`Spring Arm` - (Location=0.0,0.0,8.4), habilite a opção `Use Pawn Control Rotation`;
 
-**3.** Adicionar e alinhar os componentes em `BP_PlayerBase`:
+`Camera`. - Camera principal do personagem;
 
-- `Spring Arm` - (Location=0.0,0.0,8.4), habilite a opção `Use Pawn Control Rotation`;
+`Mesh` - (Location=0.0,0.0,-89) (Rotation=-0,0,270).
 
-- `Camera`. - Camera principal do personagem;
-
-- `Mesh` - (Location=0.0,0.0,-89) (Rotation=-0,0,270).
-
-**4.** Adicione as seguintes variáveis.
+Adicionamos as variáveis para determinar as características do personagem, como por exemplo, vida, velocidade de movimentação e outros.
 
 | Categoria          | Variável                     | Valor |
 | :----------------- | :--------------------------- | :---: |
@@ -262,26 +252,19 @@ Em `CharacterMomement` atualize os valores para determinar a velocidade de movim
 
 #### 7.3.1. Vídeo Classe do Mutant
 
-{% include video.html
-    link="https://youtu.be/obLJb4RBySA"
-    src="https://img.youtube.com/vi/obLJb4RBySA/0.jpg"
-    alt="Vídeo: Classe do personagem."
-    caption="Unreal Engine Animação - 06 A classe do personagem."
-%}
+{% include video id="obLJb4RBySA" provider="youtube" %}
 
 ## 8. Ambiente e controle
 
-Neste capítulo vamos implementar os controles do personagem e criar um level para testes, para tal vamos seguir os passos abaixo.
-
-**1.** Crie os seguintes objetos *Blueprint*:
+Neste capítulo vamos implementar os controles do personagem e criar um level para testes, para tal criamos os seguintes objetos *Blueprint*:
 
 - BP_GameModeBase do tipo `Game Mode Base`;
 
 - BP_PlayerController do tipo `Player Controller`.
 
-**2.** Crie um `Level` do tipo `Default` de nome **LevelTest** e salve na pasta `Projeto/Maps`.
+Criamos um `Level` do tipo `Default` de nome **LevelTest** e salve na pasta `Projeto/Maps`.
 
-**3.** Em `World Settings` configure:
+Em `World Settings` configuramos:
 
 `GameMode Override` - BP_GameModeBase;
 
@@ -310,12 +293,7 @@ O personagem Mutant e suas animações estão disponíveis no o site [Mixano.com
 
 ### 9.1. Vídeo Baixando personagem
 
-{% include video.html
-    link="https://youtu.be/G7c8DMdrsGY"
-    src="https://img.youtube.com/vi/G7c8DMdrsGY/0.jpg"
-    alt="Vídeo: Baixando personagem do Mixano."
-    caption="Unreal Engine Animação - 02 Baixando o personagem."
-%}
+{% include video id="G7c8DMdrsGY" provider="youtube" %}
 
 Para importar a Mesh e Skeletal baixada anteriormente para dentro do Unreal, na pasta configurada para o personagem, vamos seguir os passos abaixo:
 
@@ -349,9 +327,4 @@ Para importar as animações do personagem seguimos os passos abaixo:
 
 ### 9.2. Vídeo Importando personagem
 
-{% include video.html
-    link="https://youtu.be/6ZLatHfD7P8"
-    src="https://img.youtube.com/vi/6ZLatHfD7P8/0.jpg"
-    alt="Vídeo: Importando personagem FBX baixado do Mixano."
-    caption="Unreal Engine Animação - 03 importando."
-%}
+{% include video id="6ZLatHfD7P8" provider="youtube" %}

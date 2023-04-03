@@ -8,7 +8,6 @@ sidebar:
 toc: true 
 ---
 
-
 ## 1. O que é Animação 2D?
 
 Animação em duas dimensões é uma técnica que utiliza sequenciamento de imagens estáticas.
@@ -19,8 +18,6 @@ Animação em duas dimensões é uma técnica que utiliza sequenciamento de imag
     caption="O vídeo em animação nada mais é que a passagem rápida de objetos ou imagens que, posicionados, dão a ilusão do movimento. A animação é uma Ilusão de ótica, ou seja, ela mostra movimento com imagens que, na verdade, são estáticas"
     ref="https://maestrofilmes.com.br/animacao-2d/"
 %}
-
-***
 
 ## 2. Como o Unreal Engine trabalha com animação 2D?
 
@@ -78,8 +75,6 @@ Objeto para "pintar" um grupo de *sprites* as cenas utilizando `Tile Set`.
     ref="https://docs.unrealengine.com/5.1/en-US/paper-2d-tile-sets-and-tile-maps-in-unreal-engine/"
 %}
 
-***
-
 ## 3. Habilitando o plugin Paper2D e criando as pastas do projeto
 
 Antes de iniciar o trabalho devemos habilitar o plugin `Paper2D` em menu `Edit` > `Plugins`.
@@ -93,8 +88,6 @@ Antes de iniciar o trabalho devemos habilitar o plugin `Paper2D` em menu `Edit` 
 **Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal_engine/instalacao_configuracao#6-organizando-as-pastas).
 {: .notice--warning}
 
-***
-
 ## 4. Preparando o ViewPort
 
 Podemos organizar os elementos que são apresentados na cena predefinindo coordenadas no eixo Y, utilizando o menu `Edit` > `Project Settings` navegue até `2D` para adicionar camadas/*Layers* e coordenadas de profundidade ao `ViewPort`.
@@ -105,11 +98,11 @@ Podemos organizar os elementos que são apresentados na cena predefinindo coorde
     caption="Adicionando Snap Layers do exemplo acima podemos criar 3 camadas em profundidades diferentes."
 %}
 
-- `Foreground` - Camada para os *sprites* que devem ficar na frente da cena, `Depth` = 100;
+`Foreground` - Camada para os *sprites* que devem ficar na frente da cena, `Depth` = 100;
 
-- `Default` - Camada para os *sprites* que devem estão alinhados com o personagem, `Depth` = 0;
+`Default` - Camada para os *sprites* que devem estão alinhados com o personagem, `Depth` = 0;
 
-- `Background` - Camada para os *sprites* que devem ficar atrás da cena, `Depth` = -500;
+`Background` - Camada para os *sprites* que devem ficar atrás da cena, `Depth` = -500;
 
 Após a configuração no `ViewPort` devem aparecer as opções para organizar os objetos em camadas na cena.
 
@@ -123,9 +116,9 @@ Os objetos adicionados na cena devem ficar no *snap* selecionado obedecendo a lo
 
 Para movimentar objetos entre os *snaps* selecione o objeto e pressione :
 
-- CTRL + PAGE DOWN para posicionar o objeto na camada anterior;
+**CTRL + PAGE DOWN** para posicionar o objeto na camada anterior;
 
-- CTRL + PAGE UP para posicionar o objeto na camada posterior;
+**CTRL + PAGE UP** para posicionar o objeto na camada posterior;
 
 Para melhorar a visualização do cenário podemos configurar a visualização do `ViewPort` para **Right** a fim de controlar somente os eixos Z e X.
 
@@ -135,8 +128,6 @@ Para melhorar a visualização do cenário podemos configurar a visualização d
     caption="Visualização Right no ViewPort."
 %}
 
-***
-
 ## 5. Preparando as texturas
 
 {% include imagelocal.html
@@ -145,9 +136,9 @@ Para melhorar a visualização do cenário podemos configurar a visualização d
     caption="A fim de otimizar a renderização das texturas aplicamos os seguintes parâmetros para cada objeto."
 %}
 
-- `Compression Settings`: UseInterface2D (RGBA);
+`Compression Settings`: UseInterface2D (RGBA);
 
-- `Mip Gen Settings`: NoMipMaps
+`Mip Gen Settings`: NoMipMaps
 
 **Informação:** A geração do Mip-map ocorre durante a importação da Textura e cria uma cadeia de Mip-map para a Textura. A cadeia mip-map consiste em vários níveis da imagem de amostra, cada um com metade da resolução do nível anterior. Esses dados permitem que a placa gráfica renderize mais rápido ao usar os mips inferiores (menos largura de banda da memória) e também reduz o aliasing da textura (cintilante) que se torna visível ao ter textura detalhada em certas distâncias.
 {: .notice--info}
@@ -159,8 +150,6 @@ Podemos aplicar automaticamente para uma ou várias texturas selecionadas usamos
     alt="Figura: Unreal Engine - Animação 2D - Apply Papper2D Texture Settings."
     caption="Aplicamos a configuração em vários arquivos."
 %}
-
-***
 
 ## 6. Preparando os Sprites do projeto
 
@@ -183,31 +172,29 @@ Neste passo vamos criar os *sprites* utilizando texturas como base, seguindo os 
     ref="https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/Paper2D/Sprites/Editor/"
 %}
 
-1. Toolbar
+**1.** Toolbar
 
-    - `Add Box/Add Polygon/Add Circle`  - Adiciona um área adicional para colisão ou renderização da geometria;
+- `Add Box/Add Polygon/Add Circle`  - Adiciona um área adicional para colisão ou renderização da geometria;
 
-1. Mode Switching Toolbar
+**2.** Mode Switching Toolbar
 
-    - `Edit Source Region` - Exibe a textura de origem completa e permite que você defina a área que compõe o sprite individual;
+- `Edit Source Region` - Exibe a textura de origem completa e permite que você defina a área que compõe o sprite individual;
 
-    - `Edit RenderGeom` - Exibe e permite a edição da geometria de renderização do sprite.
+- `Edit RenderGeom` - Exibe e permite a edição da geometria de renderização do sprite.
 
-    - `Edit Collision` - Exibe e permite a edição das formas de colisão do sprite;
+- `Edit Collision` - Exibe e permite a edição das formas de colisão do sprite;
 
-1. Detalhes
+**3.** Detalhes
 
-      - `Sprite Collision Domain` - Parâmetro para aplicar física na colisão.
+- `Sprite Collision Domain` - Parâmetro para aplicar física na colisão.
 
-        - `Use 3D Physics` - A geometria de colisão será gerada para uso com o PhysX. A geometria de colisão 2D definida no sprite será extrudada usando as unidades de Espessura de Colisão no fundo do eixo perpendicular para criar a geometria de colisão 3D;
+  - `Use 3D Physics` - A geometria de colisão será gerada para uso com o PhysX. A geometria de colisão 2D definida no sprite será extrudada usando as unidades de Espessura de Colisão no fundo do eixo perpendicular para criar a geometria de colisão 3D;
   
-      - `Collision Geometry Type` - Parâmetro para deformar a caixa de colisão automaticamente.
+- `Collision Geometry Type` - Parâmetro para deformar a caixa de colisão automaticamente.
 
-        - `Tight Bounding Box`  - Colisão delimitada;
+  - `Tight Bounding Box`  - Colisão delimitada;
 
-        - `Shrink Wwrapped` - Colisão calculada;
-
-***
+  - `Shrink Wwrapped` - Colisão calculada;
 
 ## 7. Agrupando sprites em Tile Sets
 
@@ -241,8 +228,6 @@ Para adicionar colisão nos elementos realizamos :
 
 - `Add Circle` - Adiciona um círculo de colisão;
 
-***
-
 ## 8. Implementando uma cena utilizando Tile Map
 
 {% include imagelocal.html
@@ -251,23 +236,23 @@ Para adicionar colisão nos elementos realizamos :
     caption="É um mapa de sprites para auxiliar na composição da cena."
 %}
 
-1. Selecione um `Tile Set` para ser usado como paleta, selecionando o arquivo no `Content Browser` e logo em seguida o menu de contexto `Create Tile Map`;
+Selecione um `Tile Set` para ser usado como paleta, selecionando o arquivo no `Content Browser` e logo em seguida o menu de contexto `Create Tile Map`;
 
-1. Para melhor controle no desenho dos elementos adicione 3 camadas na seguinte ordem:
+Para melhor controle no desenho dos elementos adicione 3 camadas na seguinte ordem:
 
-    - Foreground - Camada para os elementos que devem ficar na frente do personagem;
+**Foreground** - Camada para os elementos que devem ficar na frente do personagem;
 
-    - Default - Camada para os elementos na mesma linha do personagem;c
+**Default** - Camada para os elementos na mesma linha do personagem;c
 
-    - Background - Camada para os elementos que ficam atrás do personagem;
+**Background** - Camada para os elementos que ficam atrás do personagem;
 
-1. `Projection Mode` - Orthogonal;
+Configure os parâmetros:
 
-1. `Separation Per Layer` - Permite adicionar um valor em pixel para separar cada camada na ViewPort;
+`Projection Mode` - Orthogonal;
 
-1. `Collision Thickness` - Usado para aumentar ou diminuir a largura de colisão quando usado colisão 3D.
+`Separation Per Layer` - Permite adicionar um valor em pixel para separar cada camada na ViewPort;
 
-***
+`Collision Thickness` - Usado para aumentar ou diminuir a largura de colisão quando usado colisão 3D.
 
 ## 9. Criando sequencias de animação utilizando Flipbooks
 
@@ -282,9 +267,9 @@ No **Unreal Engine 4**, os `Flipbooks` consistem em uma série de quadros-chave,
     ref="https://craftpix.net/freebies/free-samurai-pixel-art-sprite-sheets/"
 %}
 
-1. Extrai o arquivo em qualquer pasta e copie o conteúdo para a dentro do projeto na pasta `Characters\Samurai\Textures`;
+Extrai o arquivo em qualquer pasta e copie o conteúdo para a dentro do projeto na pasta `Characters\Samurai\Textures`;
 
-1. Utilizando o `Content Browser` selecione o arquivo `run.png` e acionando o menu de contexto selecione `Sprite Actions` > `Extract Sprites`;
+Utilizando o `Content Browser` selecione o arquivo `run.png` e acionando o menu de contexto selecione `Sprite Actions` > `Extract Sprites`;
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_extract_sprites.webp"
@@ -296,11 +281,11 @@ Copie os arquivos extraídos para a pasta `Characters\Samurai\Sprites`;
 
 ### 9.2. Animação de corrida usando os sprites extraídos do arquivo
 
-1. Utilizando o `Content Browser` selecione todos os *sprites* que simulam o movimento de corrida;
+Utilizando o `Content Browser` selecione todos os *sprites* que simulam o movimento de corrida.
 
-2. Com o botão direito do mouse escolha a opção `Create Flipbook`;
+Com o botão direito do mouse escolha a opção `Create Flipbook`.
 
-3. Exclua ou movimente os elementos para melhorar a animação;
+Exclua ou movimente os elementos para melhorar a animação.
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_flipbook.webp"
@@ -309,8 +294,6 @@ Copie os arquivos extraídos para a pasta `Characters\Samurai\Sprites`;
 %}
 
 Salve o arquivo com o nome PFB_Run na pasta `Characters\Samurai\Logic` e repita a ação para as diversas poses que o personagem deve apresentar, como por exemplo PFB_Idle, PFB_Attack e outros.
-
-***
 
 ## 10. Adicionando e configurando o personagem do tipo PaperCharacter
 
@@ -406,15 +389,15 @@ No personagem definimos as seguintes variáveis:
     caption="Lista de variáveis."
 %}
 
-- Moving `Boolean` - Para identificar quando o personagem se movimenta;
+Moving `Boolean` - Para identificar quando o personagem se movimenta;
 
-- Falling `Boolean` - Para identificar quando o personagem esta caindo;
+Falling `Boolean` - Para identificar quando o personagem esta caindo;
 
-- IdleFlipbook `Paper Flipbook` - Com o valor do Flipbook definido para Idle;
+IdleFlipbook `Paper Flipbook` - Com o valor do Flipbook definido para Idle;
 
-- RunFlipbook `Paper Flipbook` - Flipbook Run;  
+RunFlipbook `Paper Flipbook` - Flipbook Run;  
 
-- JumpFlipbook `Paper Flipbook` - Flipbook Jump.  
+JumpFlipbook `Paper Flipbook` - Flipbook Jump.  
 
 Vamos utilizar o evento `MoveRight` para adicionar movimento travando a coordenada X em 1;
 
@@ -446,17 +429,17 @@ Neste passo vamos implementar um canhão que localiza e atira no player.
 
 Para implementar as balas do canhão vamos criar um objeto **BP_FireBullet** do tipo `Actor` com as seguintes propriedades e componentes;
 
-- `PaperSprite` - Adicione um *Sprite*;
+`PaperSprite` - Adicione um *Sprite*;
 
-- `Simulate Physisc` - Temos que habilitar a física do objeto;
+`Simulate Physisc` - Temos que habilitar a física do objeto;
 
 Implementamos  **BP_Cannon** do tipo `Actor`;
 
-- `PaperSprite`;
+`PaperSprite`;
 
-- `Sphere Collision` - Ajuste a colisão para servir como área de detecção do player;
+`Sphere Collision` - Ajuste a colisão para servir como área de detecção do player;
 
-- `PointBullet` - Tipo  `Scene` para ser utilizada como ponto inicial das balas;
+`PointBullet` - Tipo  `Scene` para ser utilizada como ponto inicial das balas;
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_paper2d_cannon_begin_init.webp"

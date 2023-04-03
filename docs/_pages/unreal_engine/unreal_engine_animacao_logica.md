@@ -84,13 +84,6 @@ Para criar a movimentação no eixo horizontal vamos arrastar os elementos apres
 
 {% include video id="arRhm3KRUR0" provider="youtube" %}
 
-{% include video.html
-    link="https://youtu.be/arRhm3KRUR0"
-    src="https://img.youtube.com/vi/arRhm3KRUR0/0.jpg"
-    alt="Vídeo: Unreal Engine - Animation Blend Space 1D."
-    caption="Unreal Engine Animação - 04 Blend Space 1D."
-%}
-
 ## 4. Blend Space
 
 Este elemento é utilizado quanto existem dois parâmetros para controle das animações por exemplo: Direction/Direção e Speed/Velocidade.
@@ -163,8 +156,6 @@ O nó `Output Pose` é o estado ou pose final da animação. A seguir vamos cria
     alt="Figura: Unreal Engine - Add State Idle/Walk/Run."
     caption="Dentro do nó criado adicionaremos um novo estado com Add State com o nome Idle/Walk/Run."
 %}
-
-
 
 ## 7. Blend Space e State Machine
 
@@ -264,12 +255,7 @@ Agora vamos copiar todos os nos do `Event Graph` de `ThirdPerson_AnimBP` para o 
 
 ### 7.3. Vídeo Animation Blueprint do Mutante
 
-{% include video.html
-    link="https://youtu.be/a2JULC4-P1o"
-    src="http://img.youtube.com/vi/a2JULC4-P1o/0.jpg"
-    alt="Vídeo: Animação do mutante."
-    caption="Unreal Engine Animação - 05 Animation Blueprints."
-%}
+{% include video id="a2JULC4-P1o" provider="youtube" %}
 
 ## 8. Implementando a Corrida
 
@@ -283,14 +269,7 @@ Em este passo iremos implementar a corrida do personagem. Vamos configura o even
 
 ### 8.1. Vídeo Implementando a corrida do mutante
 
-{% include video.html
-    link="https://youtu.be/k6tGHVm2BNQ"
-    src="http://img.youtube.com/vi/k6tGHVm2BNQ/0.jpg"
-    alt="Vídeo: Unreal Engine Animação."
-    caption="Unreal Engine Animação - 07 Corrida."
-%}
-
-
+{% include video id="k6tGHVm2BNQ" provider="youtube" %}
 
 ## 9. Montando a animação de ataque
 
@@ -318,12 +297,7 @@ Adicione um novo slot de nome `Attack` e salve;
 
 ### 9.1. Vídeo montando Animação de ataque
 
-{% include video.html
-    link="https://youtu.be/Kufu78tu9EE"
-    src="http://img.youtube.com/vi/arRhm3KRUR0/0.jpg"
-    alt="Vídeo: Unreal Engine - Animação de ataque.."
-    caption="Vídeo: Unreal Engine - Animação de ataque."
-%}
+{% include video id="Kufu78tu9EE" provider="youtube" %}
 
 ## 10. Animação básica com AnimGraph
 
@@ -393,12 +367,7 @@ No objeto BP_Mutant adicione os eventos de chamada de função e associe a funç
 
 ### 11.1. Vídeo montando o ataque
 
-{% include video.html
-    link="https://youtu.be/Ss22A7xrtCQ"
-    src="http://img.youtube.com/vi/Ss22A7xrtCQ/0.jpg"
-    alt="Vídeo: Unreal Engine - Montando o ataque com Animação com AnimGraph."
-    caption="Vídeo: Unreal Engine - Montando o ataque com Animação com AnimGraph."
-%}
+{% include video id="Ss22A7xrtCQ" provider="youtube" %}
 
 ## 12. Atacando somente com os braços
 
@@ -436,12 +405,7 @@ No `Event Graph` de `ABP_Mutant` adicionamos a lógica para verificar se o perso
 
 ### 13.1. Vídeo do personagem correndo e atacando
 
-{% include video.html
-    link="https://youtu.be/1gjkcrU7pmA"
-    src="http://img.youtube.com/vi/1gjkcrU7pmA/0.jpg"
-    alt="Vídeo: Unreal Engine - Animação do personagem correndo e atacando ao mesmo tempo."
-    caption="Vídeo: Unreal Engine - Animação do personagem correndo e atacando ao mesmo tempo."
-%}
+{% include video id="1gjkcrU7pmA" provider="youtube" %}
 
 ## 14. Aim Offset
 
