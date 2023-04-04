@@ -6,9 +6,6 @@ last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true  
 sidebar:
     nav: dev_game 
-header:
-    overlay_image: /assets/
-    caption: ""    
 ---
 
 {% include imagelocal.html
