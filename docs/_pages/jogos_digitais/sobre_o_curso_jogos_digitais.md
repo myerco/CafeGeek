@@ -8,17 +8,23 @@ sidebar:
     nav: dev_game 
 ---
 
-## O que é o curso de jogos digitais?
+{% include imagelocal.html
+    src="jogos_digitais/andreas-haslinger-QY2VcNMLX5o-unsplash.webp"
+    alt="Foto de Andreas Haslinge em Unsplash"
+    caption=""
+%}
+
+## 1. O que é o curso de jogos digitais?
 
 O curso abrange Mecânicas, Estéticas e Dinâmicas dos jogos digitais, especificamente aprenda estruturas de desenvolvimento, roteirização ou narrativa e arte digital.
 
 Na construção das Mecânicas será utilizado o **Unreal Engine** com **Blueprints** e **C++**, e o **Autodesk Maya** para arte digital 3D.
 
-## Grande curricular
+## 2. Grande curricular
 
 Os talentos que são aprendidos no curso:
 
-### Mecânicas e Dinâmicas utilizando o Unreal Engine
+### 2.1. Mecânicas e Dinâmicas utilizando o Unreal Engine
 
 - Configuração e organização de projetos;
 - Analisar e aplicar lógica de programação utilizando Blueprint e C++;
@@ -30,7 +36,7 @@ Os talentos que são aprendidos no curso:
 - Construir a lógica da animação de personagens;
 - Implementar Efeitos especiais.
 
-### Estética e narrativa
+### 2.2. Estética e narrativa
 
 - Aprenda a organizar suas ideias;
 - Analise e construa elementos que compõem a história;
@@ -38,7 +44,7 @@ Os talentos que são aprendidos no curso:
 - Defina o combate dos personagens;
 - Defina os objetivos da história;
 
-### Estética e história dos jogos
+### 2.3. Estética e história dos jogos
 
 - Analise e conceitue jogos;
 - Analise e defina tipos de jogos;
@@ -47,7 +53,7 @@ Os talentos que são aprendidos no curso:
 - Implemente um protótipo de jogo;
 - Analise e conceitue a Gamificação.
 
-### Estética e Arte digital utilizando o Autodesk Maya
+### 2.4. Estética e Arte digital utilizando o Autodesk Maya
 
 - Movimentação, dimensionamento e Rotacionamento de objetos;
 - Inserir e deformar objetos e elementos tridimensionais;
@@ -56,18 +62,60 @@ Os talentos que são aprendidos no curso:
 - Animação de objetos e elementos;
 - Construção de objetos complexos utilizando curvas;
 
-## O que esperar do curso?
+## 3. O que esperar do curso?
 
 Uma excelente capacitação na área de Jogos Digitais, pois, o curso trabalha de forma prática todas as dimensões que abrangem esse mercado.
 
-## Diferenciais da faculdade
+## 4. Diferenciais da faculdade
 
 Curso presencial com acompanhamento e estrutura para desenvolver suas habilidades.
 
 O curso utiliza plataformas de desenvolvimento modernas como por exemplo o [**Unreal Engine 5**](https://www.unrealengine.com/), que possibilita construir jogos [AAA](https://pt.wikipedia.org/wiki/AAA_(ind%C3%BAstria_de_jogos)) (Jogos de Alta qualidade).
 
-## Mercado de trabalho e áreas de atuação
+## 5. Mercado de trabalho e áreas de atuação
 
 - Programação de Jogos Digitais;
 - Arte Digital;
-- Game Design ou gerente de projetos de desenvolvimento de jogos digitais ;
+- Game Design ou gerente de projetos de desenvolvimento de jogos digitais.
+
+## 6. Trilha do curso
+
+| Curso                                                              | Módulo                                                                        |     Habilidade     |
+| :----------------------------------------------------------------- | :---------------------------------------------------------------------------- | :----------------: |
+| [Unreal Engine com C++ e Blueprint](/pages/unreal_engine/)         | Introdução ao Unreal Engine                                                   | Mecânicas,Dinâmica |
+|                                                                    | Programação com Unreal Engine                                                 |                    |
+|                                                                    | Estruturas de dados                                                           |                    |
+|                                                                    | Interface com o jogador                                                       |                    |
+|                                                                    | Materiais e Landscape                                                         |                    |
+|                                                                    | Multiplayer                                                                   |                    |
+|                                                                    | Efeitos especiais e animação de cenas                                         |                    |
+|                                                                    |                                                                               |                    |
+| [Me conta uma história](/pages/me_conta_uma_historia/)             | Por dentro da cabeça do Game Design                                           |      Estética      |
+|                                                                    | Como construir um jogo digital?                                               |                    |
+|                                                                    | Por dentro da cabeça do Game Design                                           |                    |
+|                                                                    | Como organizar as ideias?                                                     |                    |
+|                                                                    | Eles todos me querem morto                                                    |                    |
+|                                                                    |                                                                               |                    |
+| [A Jogatina das décadas](/pages/a_jogatina_das_decadas/)           | O que é um Jogo?                                                              |      Estética      |
+|                                                                    | Qual a função do jogo?                                                        |                    |
+|                                                                    | Quem joga?                                                                    |                    |
+|                                                                    | Como são classificados os jogos?                                              |                    |
+|                                                                    | O que é um jogo eletrônico?                                                   |                    |
+|                                                                    | Por que as pessoas são viciadas em videogames e não são viciadas em trabalho? |                    |
+|                                                                    |                                                                               |                    |
+| [Computação Gráfica com Unreal Engine](/pages/computacao_grafica/) | A computação gráfica                                                          |      Dinâmica      |
+|                                                                    | Como são formados os objetos 3D                                               |                    |
+|                                                                    | Entendendo o processo de renderização                                         |                    |
+|                                                                    | Processamento de imagens com Unreal Engine                                    |                    |
+|                                                                    |                                                                               |                    |
+| [Modelagem usando Autodesk Maya](/pages/modelagem3d)               | O que é Modelagem de objetos 3D?                                              | Dinâmica,Estética  |
+|                                                                    | Começando a trabalhar com Autodesk Maya                                       |                    |
+|                                                                    | Objetos Poligonais                                                            |                    |
+|                                                                    | Organizando em camadas                                                        |                    |
+|                                                                    | Modelagem NURBS                                                               |                    |
+|                                                                    | Sculpting                                                                     |                    |
+|                                                                    | Materiais                                                                     |                    |
+|                                                                    | Renderização e Iluminação                                                     |                    |
+|                                                                    | Mapeamento UV                                                                 |                    |
+|                                                                    | Animando cenas no Autodesk Maya                                               |                    |
+

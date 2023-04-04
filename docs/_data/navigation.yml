@@ -70,8 +70,6 @@ dev_game:
     children:
       - title: Sobre
         url: /about/jogos_digitais
-      - title: Talentos
-        url: /pages/talentos/
       - title: Trabalhos
         url: /pages/trabalhos/
 
