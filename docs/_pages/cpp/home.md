@@ -5,8 +5,10 @@ permalink: /pages/cpp/
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true  
 sidebar:
-    nav: dev_game  
+    nav: dev_computacao  
 ---
+
+{% include figure image_path="/assets/images/cpp/uday-awal-UjJWhMerJx0-unsplash.webp" alt="Uday Awal" caption="" %}
 
 ## 1. Habilidades que serão aprendidas
 

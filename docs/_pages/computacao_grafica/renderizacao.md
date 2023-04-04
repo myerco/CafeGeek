@@ -8,6 +8,8 @@ sidebar:
     nav: dev_computacao
 ---
 
+{% include figure image_path="/assets/images/jogos_digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
+
 ## 1. Entendendo o processo de renderização
 
 Neste capitulo serão apresentados quais são os passos para processamento de imagens no computador.

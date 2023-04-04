@@ -8,11 +8,7 @@ sidebar:
     nav: dev_game 
 ---
 
-{% include imagelocal.html
-    src="jogos_digitais/andreas-haslinger-QY2VcNMLX5o-unsplash.webp"
-    alt="Foto de Andreas Haslinge em Unsplash"
-    caption=""
-%}
+{% include figure image_path="/assets/images/jogos_digitais/andreas-haslinger-QY2VcNMLX5o-unsplash.webp" alt="Andreas Haslinger" caption="" %}
 
 ## 1. O que é o curso de jogos digitais?
 
