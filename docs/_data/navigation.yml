@@ -144,3 +144,13 @@ dev_unreal:
         url: /pages/unreal_engine/
       - title: Niagara
         url: /pages/unreal_engine/
+
+dev_computacao:
+  - title: COMPUTAÇÃO GRÁFICA    
+    children:
+      - title: Estrutura de objetos 3D
+        url: /pages/computacao_grafica/      
+      - title: Processamento de imagens 
+        url:  /pages/computacao_grafica/processamento
+      - title: Programação C++
+        url: /pages/cpp/      

@@ -5,7 +5,7 @@ excerpt: Neste curso apresentaremos conceitos de computação gráfica aplicados
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true  
 sidebar:
-    nav: dev_game  
+    nav: dev_computacao  
 ---
 
 {% include figure image_path="/assets/images/jogos_digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}

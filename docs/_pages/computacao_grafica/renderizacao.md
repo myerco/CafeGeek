@@ -5,7 +5,7 @@ excerpt: Neste curso apresentaremos o processo de renderização de objetos 3D e
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true    
 sidebar:
-    nav: dev_game
+    nav: dev_computacao
 ---
 
 ## 1. Entendendo o processo de renderização
