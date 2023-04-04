@@ -23,15 +23,15 @@ feature_row:
     url: "/pages/unreal_engine/"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
-  - image_path: /assets/images/mm-free-feature.png
+  - image_path: /assets/images/jogos_digitais/etienne-girardet-EP6_VZhzXM8-unsplash.webp
     alt: "Me conta uma história"
     title: "Me conta uma história"
     excerpt: "Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história."
     url: "/pages/me_conta_uma_historia/"
     btn_class: "btn--primary"
     btn_label: "Saber mais"      
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "Me conta uma história"
+  - image_path: /assets/images/jogos_digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp
+    alt: "Computação gráfica"
     title: "Computação gráfica"
     excerpt: "Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya."
     url: "/pages/computacao_grafica/"
