@@ -7,10 +7,15 @@ toc: true
 sidebar:
     nav: dev_game 
 header:
-    overlay_image: /assets/jogos_digitais/andreas-haslinger-QY2VcNMLX5o-unsplash.webp
-    caption: "Foto de <a href="https://unsplash.com/es/@andreas_haslinger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andreas Haslinger</a> na <a href="https://unsplash.com/pt-br/fotografias/QY2VcNMLX5o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>"    
+    overlay_image: /assets/
+    caption: ""    
 ---
 
+{% include imagelocal.html
+    src="jogos_digitais/andreas-haslinger-QY2VcNMLX5o-unsplash.webp"
+    alt="Foto de Andreas Haslinge em Unsplash"
+    caption=""
+%}
 
 | Curso                                                              | Módulo                                                                        |     Habilidade     |
 | :----------------------------------------------------------------- | :---------------------------------------------------------------------------- | :----------------: |
