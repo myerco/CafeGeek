@@ -6,7 +6,11 @@ last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true  
 sidebar:
     nav: dev_game 
+header:
+    overlay_image: /assets/jogos_digitais/andreas-haslinger-QY2VcNMLX5o-unsplash.webp
+    caption: "Foto de <a href="https://unsplash.com/es/@andreas_haslinger?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andreas Haslinger</a> na <a href="https://unsplash.com/pt-br/fotografias/QY2VcNMLX5o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>"    
 ---
+
 
 | Curso                                                              | Módulo                                                                        |     Habilidade     |
 | :----------------------------------------------------------------- | :---------------------------------------------------------------------------- | :----------------: |

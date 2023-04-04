@@ -15,6 +15,7 @@ Neste capitulo serão apresentados quais são os passos para processamento de im
 ### 1.1. Entendendo como os processos são executados pelo sistema operacional
 
 Em computação, um processo é uma instância de um programa de computador que está sendo executado. Ele contem o código do programa e sua atividade atual. Dependendo do sistema operacional, um processo pode ser feito de várias linhas de execução que executam instruções concorrentemente. O sistema operacional seleciona um processo da fila de aptos para receber o processador. O processo selecionado passa do estado de apto para o estado executando. O módulo do sistema operacional que faz essa seleção é chamado de escalonador.
+{: .text-justify}
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_cpu_processos.jpg"
@@ -22,13 +23,19 @@ Em computação, um processo é uma instância de um programa de computador que 
     caption="Fluxo de execução de processos."
 %}
 
-- **Criado** - Enquanto o processo está sendo criado, esse é seu estado;
-- **Apto** -Esse é como um estado de ponto de partida, aqui ficam os processos que estão prontos para serem processados;
-- **Espera** - Esse é um estado especial que na verdade está mais para uma característica de outros estados, basta observar os processos que estão nos estado de prontidão e os que estão aguardando eventos, pois ambos também estão em um estado de espera;
-- **Execução** - Quando o processo está sendo executado, seu estado passa a ser este;
-- **Encerrado** -Esse é o último estado  de um processo, sua finalização, seja de forma voluntária, como quando ele não é mais necessário ou de forma involuntária, como as ocasionadas por um erro;
-- **RPC** - Remote Procedure Call (Chamada de Procedimento Remoto) é uma tecnologia para a criação de programas distribuídos servidor/cliente que provê um paradigma de comunicação de alto nível no sistema operacional, á presumindo a existência de um protocolo de transporte, como TCP/IP ou UDP, para carregar a mensagem entre os programas comunicantes;
-- **Threads** - Thread é um pequeno programa que trabalha como um subsistema, sendo uma forma de um processo se auto dividir em duas ou mais tarefas. É o termo em inglês para Linha ou Encadeamento de Execução. Essas tarefas múltiplas podem ser executadas simultaneamente para rodar mais rápido do que um programa em um único bloco ou praticamente juntas, mas que são tão rápidas que parecem estar trabalhando em conjunto ao mesmo tempo.
+**Criado** - Enquanto o processo está sendo criado, esse é seu estado;
+
+**Apto** -Esse é como um estado de ponto de partida, aqui ficam os processos que estão prontos para serem processados;
+
+**Espera** - Esse é um estado especial que na verdade está mais para uma característica de outros estados, basta observar os processos que estão nos estado de prontidão e os que estão aguardando eventos, pois ambos também estão em um estado de espera;
+
+**Execução** - Quando o processo está sendo executado, seu estado passa a ser este;
+
+**Encerrado** -Esse é o último estado  de um processo, sua finalização, seja de forma voluntária, como quando ele não é mais necessário ou de forma involuntária, como as ocasionadas por um erro;
+
+**RPC** - Remote Procedure Call (Chamada de Procedimento Remoto) é uma tecnologia para a criação de programas distribuídos servidor/cliente que provê um paradigma de comunicação de alto nível no sistema operacional, á presumindo a existência de um protocolo de transporte, como TCP/IP ou UDP, para carregar a mensagem entre os programas comunicantes;
+
+**Threads** - Thread é um pequeno programa que trabalha como um subsistema, sendo uma forma de um processo se auto dividir em duas ou mais tarefas. É o termo em inglês para Linha ou Encadeamento de Execução. Essas tarefas múltiplas podem ser executadas simultaneamente para rodar mais rápido do que um programa em um único bloco ou praticamente juntas, mas que são tão rápidas que parecem estar trabalhando em conjunto ao mesmo tempo.
 
 ### 1.2. O processo de renderização pela GPU
 
@@ -46,22 +53,25 @@ A renderização ocorre mediante o envio de comandos para a GPU, que gera a tela
 
 Etapa de toda a lógica da mecânica dos elementos que são apresentados.
 
-- **Animations** - Calcula quando as Animações iniciam e terminam;
-- **System Coordinates** - Calcula a posição dos objetos e sua influência;
-- **Artificial intelligence** - Inteligência Artificial determina como o objeto se movimenta e qual o seu estado;
-- **Spawn and Hide objects** - Criar e destruir objetos é a lógica necessária para determinar onde os objetos aparecem no mundo.
+**Animations** - Calcula quando as Animações iniciam e terminam;
+
+**System Coordinates** - Calcula a posição dos objetos e sua influência;
+
+**Artificial intelligence** - Inteligência Artificial determina como o objeto se movimenta e qual o seu estado;
+
+**Spawn and Hide objects** - Criar e destruir objetos é a lógica necessária para determinar onde os objetos aparecem no mundo.
 
 ### 1.4. Geometria
 
 A etapa de geometria (com pipeline de geometria), é responsável pela maioria das operações com polígonos e seus vértices (com pipeline de vértices), pode ser dividida nas tarefas a seguir. Depende da implementação específica de como essas tarefas são organizadas em pipeline paralelo.
 
-- **Model 3D** - Modelo 3D é o processo onde os objetos são desenhados na cena, entre eles vértices, triângulos e o sistema de coordenadas;
+**Model 3D** - Modelo 3D é o processo onde os objetos são desenhados na cena, entre eles vértices, triângulos e o sistema de coordenadas;
   
-- **Distance Culling** - Ou Corte de Distância Remove objetos que estão além de um valor X da câmera;
+**Distance Culling** - Ou Corte de Distância Remove objetos que estão além de um valor X da câmera;
   
-- **Frustim Culling** - Ou Corte de Câmera remove objetos que não estão a frente da câmera;
-  
-- **Occlusion Culling** - Ou Corte de oclusão é o processo que desativa a renderização de objetos quando eles não são vistos pela câmera porque estão obscurecidos (obstruídos) por outros objetos. Isso não acontece automaticamente na computação gráfica 3D, pois na maioria das vezes os objetos mais distantes da câmera são desenhados primeiro e os objetos mais próximos são desenhados por cima deles (isso é chamado de “overdraw”).
+**Frustim Culling** - Ou Corte de Câmera remove objetos que não estão a frente da câmera;
+
+**Occlusion Culling** - Ou Corte de oclusão é o processo que desativa a renderização de objetos quando eles não são vistos pela câmera porque estão obscurecidos (obstruídos) por outros objetos. Isso não acontece automaticamente na computação gráfica 3D, pois na maioria das vezes os objetos mais distantes da câmera são desenhados primeiro e os objetos mais próximos são desenhados por cima deles (isso é chamado de “overdraw”).
 
 ### 1.5. Renderização
 
@@ -149,8 +159,6 @@ _Exemplo_: Um exemplo seria uma reta descrita matematicamente é infinitesimalme
   - Pior para calculo de colisão.
   - Pior para memoria.
 
-***
-
 ## 2. Processamento de imagens com Unreal Engine
 
 Neste capitulo vamos analisar como é realizado o processamento de imagens pela CPU e GPU pelo Unreal Engine.
@@ -184,11 +192,15 @@ Acompanhe a ordem de execução de cada Frame.
 
 Neste passo o calculo da lógica e as transformações é realizado na CPU, como por exemplo:
 
-1. **Animações** - Calcula quando as Animações iniciam e terminam;
-1. **Posição de modelos e objetos** - Necessário para calcular a posição e sua influência;
-1. **Física** - Calculo para determinar onde os objetos vão;
-1. **Inteligência Artificial** - Por exemplo, em um veículo controlado por IA é necessário determinar, como ele se movimenta,  como o estado e onde o carro estará realmente;
-1. **Cria e destrói, esconde e apresenta** - Necessário para determinar onde os objetos aparecem no mundo.
+**Animações** - Calcula quando as Animações iniciam e terminam;
+
+**Posição de modelos e objetos** - Necessário para calcular a posição e sua influência;
+
+**Física** - Calculo para determinar onde os objetos vão;
+
+**Inteligência Artificial** - Por exemplo, em um veículo controlado por IA é necessário determinar, como ele se movimenta,  como o estado e onde o carro estará realmente;
+
+**Cria e destrói, esconde e apresenta** - Necessário para determinar onde os objetos aparecem no mundo.
 
 **Nota:** O Unreal Engine conhece todas as transformações e todos os objetos.
 {: .notice--warning}
@@ -198,14 +210,18 @@ Neste passo o calculo da lógica e as transformações é realizado na CPU, como
 Antes de podermos usar as transformações para renderizar a imagem, precisamos saber o que incluir na renderização, isso é executado principalmente na CPU, mas algumas partes são manipuladas pela GPU, para tal finalidade é realizada a tarefa de :
 
 - Processo de oclusão - Construção da lista de todos os objetos e modelos visíveis, sendo que o processamento é realizado por objeto e não por polígono;
+
 - Preparação da Thread - Uma Thread da GPU é alocada.
 
 A seguir as 4 Etapas em ordem de execução desse processo.
 
-1. `Distance Culling` - Remove quaisquer objetos além de X da câmera;
-1. `Frustim Culling` - Verifica o que está na frente da câmera;
-1. `Precomputed Visibility` - (Visibilidade pré-computada) Divide a cena em uma grade, cada célula da grade lembra o que está visível naquele local;
-1. `Occlusion Culling` - Verifica com precisão o estado de visibilidade em cada modelo.
+`Distance Culling` - Remove quaisquer objetos além de X da câmera;
+
+`Frustim Culling` - Verifica o que está na frente da câmera;
+
+`Precomputed Visibility` - (Visibilidade pré-computada) Divide a cena em uma grade, cada célula da grade lembra o que está visível naquele local;
+
+`Occlusion Culling` - Verifica com precisão o estado de visibilidade em cada modelo.
 
 ### 2.4. Distance Culling ou corte de distância
 
@@ -222,8 +238,9 @@ Atores selecionados em um Nível ou Blueprint contêm configurações de distân
     ref="https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/VisibilityCulling/"
 %}
 
-- `Min Draw Distance` - Define a distância mínima de desenho na qual o objeto será renderizado na cena. Isso é medido em unidades de espaço mundial (centímetros) do centro da esfera delimitadora do objeto até a posição da câmera.
-- `Desired Max Draw Distance` - Define a distância máxima de projeção para o *Level Designer*. A distância máxima "real" é a distância mínima de tração (desconsiderando 0).
+`Min Draw Distance` - Define a distância mínima de desenho na qual o objeto será renderizado na cena. Isso é medido em unidades de espaço mundial (centímetros) do centro da esfera delimitadora do objeto até a posição da câmera.
+
+`Desired Max Draw Distance` - Define a distância máxima de projeção para o _Level Designer_. A distância máxima "real" é a distância mínima de tração (desconsiderando 0).
 
 #### 2.4.2. Exemplo de atores na cena
 
@@ -239,9 +256,7 @@ Desired Max Draw Distance = 1000
 
 `Cull Distance Volumes` permitem que você especifique uma variedade de tamanhos e distâncias de seleção para que os Atores não devam mais ser desenhados.
 
-**1.** Adicione o volume `Cull Distance Volume` localizado em `Place Actors/Volumes`;
-
-**2.** Altere as dimensões do objeto para definir a área de corte.
+Adicionamos o volume `Cull Distance Volume` localizado em `Place Actors/Volumes` e alteramos as dimensões do objeto para definir a área de corte.
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_cullDistanceVolume_size.jpg"
@@ -255,9 +270,11 @@ Desired Max Draw Distance = 1000
     caption="Configure a matriz de distância e tamanho, Cull Distances para o corte."
 %}
 
-- **Cull Distances** - Uma lista de conjuntos de pares de Tamanho e Distância de Seleção usada para definir a distância de desenho de objetos com base em seu tamanho dentro de um **Cull Distance Volumes**. O código calculará o diâmetro da esfera da caixa delimitadora de um objeto e procurará o melhor ajuste nesta matriz para determinar qual distância de separação deve ser atribuída a um objeto.
-  - `Size` - O tamanho a ser associado à distância de eliminação.
-  - `Cull Distance` - A distância a ser associada ao tamanho dos limites de um ator.
+**Cull Distances** - Uma lista de conjuntos de pares de Tamanho e Distância de Seleção usada para definir a distância de desenho de objetos com base em seu tamanho dentro de um **Cull Distance Volumes**. O código calculará o diâmetro da esfera da caixa delimitadora de um objeto e procurará o melhor ajuste nesta matriz para determinar qual distância de separação deve ser atribuída a um objeto.
+
+- `Size` - O tamanho a ser associado à distância de eliminação.
+
+- `Cull Distance` - A distância a ser associada ao tamanho dos limites de um ator.
 
 #### 2.4.4. Exemplo de código
 
@@ -283,11 +300,11 @@ A seleção de **View Frustum** usa a área visível da tela do campo de visão 
     caption="O tronco da visão é uma forma piramidal que inclui um plano de recorte próximo e distante que define o mais próximo e o mais distante que qualquer objeto deve ser visível dentro deste espaço. Todos os outros objetos são removidos para economizar tempo de processamento."
 %}
 
-1. O plano de recorte próximo é o ponto mais próximo da câmera em que os objetos ficarão visíveis;
+**1.** O plano de recorte próximo é o ponto mais próximo da câmera em que os objetos ficarão visíveis;
 
-2. A **Camera Frustum** é a representação em formato piramidal da área de visualização visível entre os planos de clipe próximo e distante;
+**2.** A **Camera Frustum** é a representação em formato piramidal da área de visualização visível entre os planos de clipe próximo e distante;
 
-3. O plano de recorte distante é o ponto mais distante da câmera em que os objetos serão visíveis.
+**3.** O plano de recorte distante é o ponto mais distante da câmera em que os objetos serão visíveis.
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/VisibilityCulling/SceneViewBase.webp"
@@ -318,7 +335,7 @@ Configurando o Unreal Engine para visualizar o corte de câmera.
 
 ### 2.6. Precomputed Visibility - Visibilidade pré-computada
 
-Armazenam o estado de visibilidade de atores não móveis em células colocadas acima de superfícies de projeção de sombras. Este método de seleção gera dados de visibilidade *offline* (durante uma construção de iluminação) e funciona melhor para níveis de tamanho pequeno a médio.
+Armazenam o estado de visibilidade de atores não móveis em células colocadas acima de superfícies de projeção de sombras. Este método de seleção gera dados de visibilidade _offline_ (durante uma construção de iluminação) e funciona melhor para níveis de tamanho pequeno a médio.
 
 A **Precomputed Visibility** é ideal para hardware inferior e dispositivos móveis. Para tais hardwares e dispositivos, ao considerar os custos de desempenho, você obterá o máximo negociando custos de Thread de renderização que são mais caros por aqueles com memória de tempo de execução, onde há mais flexibilidade em relação ao desempenho.
 
@@ -337,7 +354,7 @@ A **Precomputed Visibility** é ideal para hardware inferior e dispositivos móv
     caption="- Adicionando na cena o volume Precomputed Visibility Volume que está em Place Actors > Volumes."
 %}
 
-Defina o tamanho do Volume para abranger a área analisada;
+É necessário definir o tamanho do Volume para abranger a área analisada;
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_precomputed_visibility_volume.jpg"
@@ -506,9 +523,11 @@ RHI significa Rendering Hardware Interface. Este comando exibe várias estatíst
     caption="No Viewport aparece o relatório com as estatísticas."
 %}
 
-- `Render target memory` -  Mostra o peso total de alvos de renderização como o GBuffer (que armazena as informações finais sobre iluminação e materiais) ou mapas de sombras. O tamanho dos buffers depende da resolução de renderização do jogo, enquanto as sombras são controladas pelas configurações de qualidade das sombras. É útil verificar esse valor periodicamente em sistemas com várias quantidades de RAM de vídeo e, em seguida, ajustar as predefinições de qualidade do seu projeto de acordo.
-- `Triangles drawn` - Este é o número final de triângulos. É após o abate de _frustum_ e oclusão. Pode parecer muito grande em comparação com o _polycount_ de suas malhas. É porque o número real inclui sombras (que "copiam" malhas para desenhar mapas de sombras) e mosaico. No editor, também é afetado pela seleção.
-- `DrawPrimitive calls` -  As chamadas _Draw_ podem ser um sério gargalo nos programas DirectX 11 e OpenGL4. São os comandos emitidos pela CPU para a GPU e, infelizmente, devem ser traduzidos pelo driver. Esta linha em **stat RHI** mostra a quantidade de chamadas de _draw_ emitidas no quadro atual (excluindo apenas a IU do Slate - Interface do Editor). Este é o valor total, portanto, além da geometria (normalmente o maior número), também inclui decalques, sombras, volumes de iluminação translúcida, pós-processamento e muito mais.
+`Render target memory` -  Mostra o peso total de alvos de renderização como o GBuffer (que armazena as informações finais sobre iluminação e materiais) ou mapas de sombras. O tamanho dos buffers depende da resolução de renderização do jogo, enquanto as sombras são controladas pelas configurações de qualidade das sombras. É útil verificar esse valor periodicamente em sistemas com várias quantidades de RAM de vídeo e, em seguida, ajustar as predefinições de qualidade do seu projeto de acordo.
+
+`Triangles drawn` - Este é o número final de triângulos. É após o abate de _frustum_ e oclusão. Pode parecer muito grande em comparação com o _polycount_ de suas malhas. É porque o número real inclui sombras (que "copiam" malhas para desenhar mapas de sombras) e mosaico. No editor, também é afetado pela seleção.
+
+`DrawPrimitive calls` -  As chamadas _Draw_ podem ser um sério gargalo nos programas DirectX 11 e OpenGL4. São os comandos emitidos pela CPU para a GPU e, infelizmente, devem ser traduzidos pelo driver. Esta linha em **stat RHI** mostra a quantidade de chamadas de _draw_ emitidas no quadro atual (excluindo apenas a IU do Slate - Interface do Editor). Este é o valor total, portanto, além da geometria (normalmente o maior número), também inclui decalques, sombras, volumes de iluminação translúcida, pós-processamento e muito mais.
 
 #### 2.12.1. Comando do console
 
@@ -526,10 +545,13 @@ stat RHI
     caption="Podemos obter informações mais específicas usando o comando stat unit. A hora do último quadro é mostrada com 4 números."
 %}
 
-- **Frame** - é igual ao FPS, o custo final;
-- **Game** - é o trabalho da CPU no código do jogo;
-- **Draw** -  é o trabalho da CPU na preparação de dados para a placa gráfica;
-- **GPU** - é o tempo bruto necessário para renderizar um quadro na placa de vídeo.
+**Frame** - é igual ao FPS, o custo final;
+
+**Game** - é o trabalho da CPU no código do jogo;
+
+**Draw** -  é o trabalho da CPU na preparação de dados para a placa gráfica;
+
+**GPU** - é o tempo bruto necessário para renderizar um quadro na placa de vídeo.
 
 #### 2.13.1. Comandos do console FPS
 
@@ -579,8 +601,6 @@ _Exemplo_: Se temos um polígono com 32 triângulos e 34 tipos de materiais dife
 1. Utilizando os mesmos elementos tente reduzir o processo de renderização.
 
 1. Justifique a possibilidade de executar a cena em hardware de baixo processamento (mobile).
-
-***
 
 ## 4. Referências
 
