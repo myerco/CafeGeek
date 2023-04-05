@@ -42,8 +42,10 @@ Em computação, um processo é uma instância de um programa de computador que 
 ### 1.2. O processo de renderização pela GPU
 
 A renderização GPU torna possível usar sua placa de vídeo para renderização, ao invés da CPU. Isso pode acelerar a renderização, porquê as GPUs modernas são desenhadas para fazer muito processamento de números. Por outro lado, elas também têm algumas limitações na renderização de cenas complexas devido à memória mais limitada, e questões com interatividade quando usando a mesma placa de vídeo para visualização e renderização.
+{: .text-justify}
 
 A renderização ocorre mediante o envio de comandos para a GPU, que gera a tela de forma assíncrona. Em algumas situações, a GPU pode ter muito trabalho para fazer, e a CPU terá de aguardar antes de enviar novos comandos.
+{: .text-justify}
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_gpu_pipeline.jpg"
@@ -59,27 +61,28 @@ Etapa de toda a lógica da mecânica dos elementos que são apresentados.
 
 **System Coordinates** - Calcula a posição dos objetos e sua influência;
 
-**Artificial intelligence** - Inteligência Artificial determina como o objeto se movimenta e qual o seu estado;
+**Artificial intelligence** - Determina como o objeto se movimenta e qual o seu estado;
 
-**Spawn and Hide objects** - Criar e destruir objetos é a lógica necessária para determinar onde os objetos aparecem no mundo.
+**Spawn and Hide objects** - É a lógica necessária para determinar onde os objetos aparecem no mundo.
 
 ### 1.4. Geometria
 
 A etapa de geometria (com pipeline de geometria), é responsável pela maioria das operações com polígonos e seus vértices (com pipeline de vértices), pode ser dividida nas tarefas a seguir. Depende da implementação específica de como essas tarefas são organizadas em pipeline paralelo.
+{: .text-justify}
 
-**Model 3D** - Modelo 3D é o processo onde os objetos são desenhados na cena, entre eles vértices, triângulos e o sistema de coordenadas;
+**Model 3D** - É o processo onde os objetos são desenhados na cena, entre eles vértices, triângulos e o sistema de coordenadas;
   
 **Distance Culling** - Ou Corte de Distância Remove objetos que estão além de um valor X da câmera;
   
 **Frustim Culling** - Ou Corte de Câmera remove objetos que não estão a frente da câmera;
 
 **Occlusion Culling** - Ou Corte de oclusão é o processo que desativa a renderização de objetos quando eles não são vistos pela câmera porque estão obscurecidos (obstruídos) por outros objetos. Isso não acontece automaticamente na computação gráfica 3D, pois na maioria das vezes os objetos mais distantes da câmera são desenhados primeiro e os objetos mais próximos são desenhados por cima deles (isso é chamado de “overdraw”).
+{: .text-justify}
 
 ### 1.5. Renderização
 
-#### 1.5.1. DrawCalls
-
-Grupo de polígonos que compartilham a mesmo material. Os desenhos de chamadas, em uma tradução pé da letra, basicamente são quantos objetos estão sendo desenhados na tela. Você deseja manter esse número baixo para manter um bom desempenho, portanto, nas luzes dos pixels, fazem os objetos serem desenhados tantas vezes quanto as luzes que os afetam.
+**DrawCalls** - Grupo de polígonos que compartilham a mesmo material. Os desenhos de chamadas, em uma tradução ao pé da letra, basicamente são quantos objetos estão sendo desenhados na tela. Você deseja manter esse número baixo para manter um bom desempenho, portanto, nas luzes dos pixels, fazem os objetos serem desenhados tantas vezes quanto as luzes que os afetam.
+{: .text-justify}
   
 {% include image.html
     src="https://unreal.tips/wp-content/uploads/2019/05/Drawcalls.jpg"
@@ -87,9 +90,8 @@ Grupo de polígonos que compartilham a mesmo material. Os desenhos de chamadas, 
     caption="Unreal Tips."
 %}  
 
-#### 1.5.2. Vertex Shaders
-
-É uma função de processamento gráfico usada para adicionar efeitos especiais a objetos em um ambiente 3D executando operações matemáticas nos dados de vértice dos objetos. Cada vértice pode ser definido por muitas variáveis diferentes. Por exemplo, um vértice é sempre definido por sua localização em um ambiente 3D usando as coordenadas x-, y- e z-. Os vértices também podem ser definidos por cores, texturas e características de iluminação. Os Vertex Shaders não alteram realmente o tipo de dados; eles simplesmente mudam os valores dos dados, de modo que um vértice emerge com uma cor diferente, texturas diferentes ou uma posição diferente no espaço.
+**Vertex Shaders** - É uma função de processamento gráfico usada para adicionar efeitos especiais a objetos em um ambiente 3D executando operações matemáticas nos dados de vértice dos objetos. Cada vértice pode ser definido por muitas variáveis diferentes. Por exemplo, um vértice é sempre definido por sua localização em um ambiente 3D usando as coordenadas x-, y- e z-. Os vértices também podem ser definidos por cores, texturas e características de iluminação. Os Vertex Shaders não alteram realmente o tipo de dados; eles simplesmente mudam os valores dos dados, de modo que um vértice emerge com uma cor diferente, texturas diferentes ou uma posição diferente no espaço.
+{: .text-justify}
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/8/84/Phong-shading-sample.jpg"
@@ -98,9 +100,8 @@ Grupo de polígonos que compartilham a mesmo material. Os desenhos de chamadas, 
     ref="https://en.wikipedia.org/wiki/Shader"
 %}  
 
-#### 1.5.3. Pixel Shader
-
-Os Pixel Shader, calculam a cor e outros atributos de cada "fragmento",uma unidade de trabalho de renderização que afeta no máximo um único pixel de saída. Os sombreadores de pixel variam desde simplesmente sempre a saída da mesma cor, até a aplicação de um valor de iluminação, até o mapeamento de saliências, sombras, realces especulares, translucidez e outros fenômenos. Eles podem alterar a profundidade do fragmento (para buffer Z) ou produzir mais de uma cor se vários destinos de renderização estiverem ativos.
+**Pixel Shader** - Os Pixel Shader, calculam a cor e outros atributos de cada "fragmento",uma unidade de trabalho de renderização que afeta no máximo um único pixel de saída. Os sombreadores de pixel variam desde simplesmente sempre a saída da mesma cor, até a aplicação de um valor de iluminação, até o mapeamento de saliências, sombras, realces especulares, translucidez e outros fenômenos. Eles podem alterar a profundidade do fragmento (para buffer Z) ou produzir mais de uma cor se vários destinos de renderização estiverem ativos.
+{: .text-justify}
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Shading_models.png"
@@ -108,9 +109,8 @@ Os Pixel Shader, calculam a cor e outros atributos de cada "fragmento",uma unida
     caption="Os tipos mais simples de sombreadores de pixel geram um pixel da tela como um valor de cor; sombreadores mais complexos com várias entradas / saídas também são possíveis."
 %}
 
-#### 1.5.4. Geometry Shaders
-
-Recebe como entrada um conjunto de vértices que formam uma única primitiva, por exemplo, um ponto ou triângulo. O sombreador de geometria pode então transformar esses vértices conforme achar necessário antes de enviá-los para o próximo estágio de sombreador. O que torna o shader de geometria interessante é que ele é capaz de converter a primitiva original (conjunto de vértices) em primitivas completamente diferentes, possivelmente gerando mais vértices do que os inicialmente dados.
+**Geometry Shaders** - Recebe como entrada um conjunto de vértices que formam uma única primitiva, por exemplo, um ponto ou triângulo. O sombreador de geometria pode então transformar esses vértices conforme achar necessário antes de enviá-los para o próximo estágio de sombreador. O que torna o shader de geometria interessante é que ele é capaz de converter a primitiva original (conjunto de vértices) em primitivas completamente diferentes, possivelmente gerando mais vértices do que os inicialmente dados.
+{: .text-justify}
 
 {% include imagelocal.html
     src="computacao_grafica/The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards.jpg"
@@ -118,13 +118,9 @@ Recebe como entrada um conjunto de vértices que formam uma única primitiva, po
     caption="É uma sequência de etapas que o OpenGL executa ao renderizar objetos. Esta visão geral fornecerá uma descrição de alto nível das etapas do pipeline."
 %}
 
-#### 1.5.5. Fragment Shader
-
-É uma unidade programável da GPU que opera em cada fragmento produzido durante a rasterização e seus dados associados.
+**Fragment Shader** - É uma unidade programável da GPU que opera em cada fragmento produzido durante a rasterização e seus dados associados.
   
-#### 1.5.6. Rasterization
-
- O termo rasterização, em geral, pode ser aplicado a qualquer processo pelo qual informações tipo vetorial podem ser convertidas num formato de pontos ou pixels.
+**Rasterization** -  O termo rasterização, em geral, pode ser aplicado a qualquer processo pelo qual informações tipo vetorial podem ser convertidas num formato de pontos ou pixels.
   
 _Exemplo_: Um exemplo seria uma reta descrita matematicamente é infinitesimalmente contínua, não importa o quão pequeno um trecho da reta é observado, é impossível determinar qual é o próximo ponto depois de um determinado ponto; não existem quebras.
 
@@ -140,20 +136,24 @@ _Exemplo_: Um exemplo seria uma reta descrita matematicamente é infinitesimalme
 **Nota:** Componentes = `DrawCalls`
 {: .notice--warning}
 
-**1.** O custo para renderizar muitos polígonos é muitas vezes menor que o Drawcall;
+**1.** O custo para renderizar muitos polígonos é muitas vezes menor que o `Drawcall`;
 
 **2.** 50.000 triângulos podem rodar pior que 50 milhões dependendo da implementação;
 
-**3.** `Drawcall` tem uma despesa básica, portanto, otimizar poli de baixo para super poli pode fazer nenhuma diferença;  
+**3.** `Drawcall` tem uma despesa básica, portanto, otimizar _low poli_  para _super poli_ pode ser que não faça nenhuma diferença;  
 
 **4.** Componentes ocluem e são renderizados um por um;
 
 **5.** Mesclar em um único ator geralmente não faz diferença para a renderização;
 
 **6.** Para diminuir o `Drawcalls` é melhor usar menos modelos maiores do que muitos modelos pequenos, você não pode fazer muito isso, no entanto, isso afeta todo o resto negativamente;
+{: .text-justify}
 
 - Pior para oclusão - A oclusão é mais rápida por si só, mas não será capaz de fazer um trabalho bom o suficiente, tem menos objetos que precisam ser verificados quanto à oclusão, mas tem uma chance menor de realmente ocluir alguma coisa;
+{: .text-justify}
+
 - Pior para o lightmapping - `Lightmap` tem uma quantidade limite de espaço, a quantidade máxima de espaço é a textura do mapa de luz, independentemente da resolução, o mapa de luz também tem um limite de resolução superior;
+{: .text-justify}
 
     _Exemplo_: Imagens de 4k, 4.096 já são enormes para um `Lightmap`.
 
@@ -161,11 +161,9 @@ _Exemplo_: Um exemplo seria uma reta descrita matematicamente é infinitesimalme
   - Pior para calculo de colisão.
   - Pior para memoria.
 
-## 2. Processamento de imagens com Unreal Engine
+## 2. O processo de renderização no Unreal Engine
 
 Neste capitulo vamos analisar como é realizado o processamento de imagens pela CPU e GPU pelo Unreal Engine.
-
-### 2.1. O processo de renderização no Unreal Engine
 
 Para exemplificar o processo de renderização vamos apresentar os seguintes passos conforme as _thread_ são executas:
 
@@ -187,7 +185,7 @@ Acompanhe a ordem de execução de cada Frame.
 **Informação:** A seguir vamos abordar cada passo.
 {: .notice--info}
 
-### 2.2. Processamento do Frame 0 - Time 0 - CPU
+### 2.1. Processamento do Frame 0 - Time 0 - CPU
 
 **Nota:** Qualquer coisa relativa a mudança e posição dos objetos é realizado neste passo.
 {: .notice--warning}
@@ -207,13 +205,14 @@ Neste passo o calculo da lógica e as transformações é realizado na CPU, como
 **Nota:** O Unreal Engine conhece todas as transformações e todos os objetos.
 {: .notice--warning}
 
-### 2.3. Processamento do Frame 1 - Time 33ms - Preparar a Thread
+### 2.2. Processamento do Frame 1 - Time 33ms - Preparar a Thread
 
 Antes de podermos usar as transformações para renderizar a imagem, precisamos saber o que incluir na renderização, isso é executado principalmente na CPU, mas algumas partes são manipuladas pela GPU, para tal finalidade é realizada a tarefa de :
+{: .text-justify}
 
-- Processo de oclusão - Construção da lista de todos os objetos e modelos visíveis, sendo que o processamento é realizado por objeto e não por polígono;
+**Processo de oclusão** - Construção da lista de todos os objetos e modelos visíveis, sendo que o processamento é realizado por objeto e não por polígono;
 
-- Preparação da Thread - Uma Thread da GPU é alocada.
+**Preparação da Thread** - Uma Thread da GPU é alocada.
 
 A seguir as 4 Etapas em ordem de execução desse processo.
 
@@ -225,13 +224,15 @@ A seguir as 4 Etapas em ordem de execução desse processo.
 
 `Occlusion Culling` - Verifica com precisão o estado de visibilidade em cada modelo.
 
-### 2.4. Distance Culling ou corte de distância
+## 3. Distance Culling ou corte de distância
 
 Este método de seleção é ideal para grandes níveis externos, onde você teria edifícios ou estruturas de algum tipo com interiores detalhados, onde você gostaria de selecionar aqueles objetos que são pequenos demais para considerar importantes a distâncias distantes.
+{: .text-justify}
 
-#### 2.4.1. Atores na cena
+### 3.1. Atores na cena
 
-Atores selecionados em um Nível ou Blueprint contêm configurações de distância acessadas por meio de seu painel Detalhes. Eles permitem que distâncias por instância sejam definidas ou se o Ator é selecionado usando um `Cull Distance Volume`.
+Atores selecionados em um Nível ou **Blueprint** contêm configurações de distância acessadas por meio de seu painel Detalhes. Eles permitem que distâncias por instância sejam definidas ou se o Ator é selecionado usando um `Cull Distance Volume`.
+{: .text-justify}
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/VisibilityCulling/PerActorDistanceCullingSettings.webp"
@@ -241,10 +242,12 @@ Atores selecionados em um Nível ou Blueprint contêm configurações de distân
 %}
 
 `Min Draw Distance` - Define a distância mínima de desenho na qual o objeto será renderizado na cena. Isso é medido em unidades de espaço mundial (centímetros) do centro da esfera delimitadora do objeto até a posição da câmera.
+{: .text-justify}
 
 `Desired Max Draw Distance` - Define a distância máxima de projeção para o _Level Designer_. A distância máxima "real" é a distância mínima de tração (desconsiderando 0).
+{: .text-justify}
 
-#### 2.4.2. Exemplo de atores na cena
+_Exemplo_ : Valores para os atores na cena.
 
 ```cpp
 Min Draw Distance = 0
@@ -254,11 +257,13 @@ Desired Max Draw Distance = 1000
 **Nota:** O objeto vai ser renderizado quando a câmera se aproximar a uma distância **MENOR** que 1000 centímetros.
 {: .notice--warning}
 
-#### 2.4.3. Cull Distance Volume
+### 3.2. Cull Distance Volume
 
 `Cull Distance Volumes` permitem que você especifique uma variedade de tamanhos e distâncias de seleção para que os Atores não devam mais ser desenhados.
+{: .text-justify}
 
 Adicionamos o volume `Cull Distance Volume` localizado em `Place Actors/Volumes` e alteramos as dimensões do objeto para definir a área de corte.
+{: .text-justify}
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_cullDistanceVolume_size.jpg"
@@ -272,13 +277,13 @@ Adicionamos o volume `Cull Distance Volume` localizado em `Place Actors/Volumes`
     caption="Configure a matriz de distância e tamanho, Cull Distances para o corte."
 %}
 
-**Cull Distances** - Uma lista de conjuntos de pares de Tamanho e Distância de Seleção usada para definir a distância de desenho de objetos com base em seu tamanho dentro de um **Cull Distance Volumes**. O código calculará o diâmetro da esfera da caixa delimitadora de um objeto e procurará o melhor ajuste nesta matriz para determinar qual distância de separação deve ser atribuída a um objeto.
+**Cull Distances** - Uma lista de conjuntos de pares de Tamanho e Distância de Seleção usada para definir a distância de desenho de objetos com base em seu tamanho dentro de um `Cull Distance Volumes`. O código calculará o diâmetro da esfera da caixa delimitadora de um objeto e procurará o melhor ajuste nesta matriz para determinar qual distância de separação deve ser atribuída a um objeto.
 
 - `Size` - O tamanho a ser associado à distância de eliminação.
 
 - `Cull Distance` - A distância a ser associada ao tamanho dos limites de um ator.
 
-#### 2.4.4. Exemplo de código
+_Exemplo_ : Valores dos cortes de distância.
 
 ```cpp
 // 0 - Os objetos de tamanho 300 centímetros não sofreram corte.
@@ -292,7 +297,7 @@ Adicionamos o volume `Cull Distance Volume` localizado em `Place Actors/Volumes`
   Cull Distance = 1500  
 ```
 
-### 2.5. Frustum Culling ou corte de câmera
+### 3.3. Frustum Culling ou corte de câmera
 
 A seleção de **View Frustum** usa a área visível da tela do campo de visão (FOV) da câmera para selecionar objetos fora deste espaço.
 
@@ -332,16 +337,16 @@ Configurando o Unreal Engine para visualizar o corte de câmera.
 {% include imagelocal.html
     src="computacao_grafica/ue4_camera_frustum.jpg"
     alt="Figura: Camera Frustum."
-    caption="`Show` > `Advanced` > `Camera frustum`."
+    caption="Show > Advanced > Camera frustum."
 %}
 
-### 2.6. Precomputed Visibility - Visibilidade pré-computada
+### 3.4. Precomputed Visibility - Visibilidade pré-computada
 
-Armazenam o estado de visibilidade de atores não móveis em células colocadas acima de superfícies de projeção de sombras. Este método de seleção gera dados de visibilidade _offline_ (durante uma construção de iluminação) e funciona melhor para níveis de tamanho pequeno a médio.
+Armazenam o estado de visibilidade de atores não móveis (**Static**) em células colocadas acima de superfícies de projeção de sombras. Este método de seleção gera dados de visibilidade _offline_ (durante uma construção de iluminação) e funciona melhor para níveis de tamanho pequeno a médio.
 
 A **Precomputed Visibility** é ideal para hardware inferior e dispositivos móveis. Para tais hardwares e dispositivos, ao considerar os custos de desempenho, você obterá o máximo negociando custos de Thread de renderização que são mais caros por aqueles com memória de tempo de execução, onde há mais flexibilidade em relação ao desempenho.
 
-**Informação:** Divide a cena em um grid, onde cada célula do grid registra o que é visível naquele local. O tamanho das células é configurado .ini do projeto.
+**Informação:** Divide a cena em um grid, onde cada célula do grid registra o que é visível naquele local. O tamanho das células é configurado no arquivo .ini do projeto.
 {: .notice--info}
 
 {% include image.html
@@ -353,10 +358,11 @@ A **Precomputed Visibility** é ideal para hardware inferior e dispositivos móv
 {% include image.html
     src="https://docs.unrealengine.com/4.26/Images/RenderingAndGraphics/VisibilityCulling/PrecomputedVisibilityVolume/PVIS_AddVolume.webp"
     alt="Figura: World Settings > Precompute Visibility."
-    caption="- Adicionando na cena o volume Precomputed Visibility Volume que está em Place Actors > Volumes."
+    caption="Adicionando na cena o volume Precomputed Visibility Volume que está em Place Actors > Volumes."
 %}
 
-É necessário definir o tamanho do Volume para abranger a área analisada;
+É necessário definir o tamanho do volume para abranger a área analisada.
+
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_precomputed_visibility_volume.jpg"
@@ -364,18 +370,19 @@ A **Precomputed Visibility** é ideal para hardware inferior e dispositivos móv
     caption="Para visualizar o Grid de células na cena, Show > Visualize > Precomputed Visibility Cells."
 %}
 
-**Nota:** Se você já construiu a iluminação (`Bluid` > `Lighting`), pode usar o menu suspenso Construir na barra de ferramentas principal(**Show**) e selecionar `Precompute Static Visibility` para gerar células de visibilidade sem reconstruir a iluminação todas as vezes.
+**Nota:** Se você já construiu a iluminação (`Build` > `Lighting`), pode usar o menu suspenso `Build` na barra de ferramentas principal e selecionar `Precompute Static Visibility` para gerar células de visibilidade sem reconstruir a iluminação todas as vezes.
 {: .notice--warning}
 
 A câmera ao entrar na célula pergunta:
 
-- "O que pode ser ocluído?";
-- "O que pode ser renderizando e o que eu não devo renderizar?";
-- "Neste local, lembramos que esses objetos eram visíveis e estes outros não eram".
+- O que pode ser ocluído?;
+- O que pode ser renderizando e o que eu não devo renderizar?;
+- Neste local, lembramos que esses objetos eram visíveis e estes outros não eram.
 
-### 2.7. Occlusion Culling
+### 3.5. Occlusion Culling
 
-O sistema de oclusão dinâmica em UE4 vem com vários métodos de abate para escolher. Cada um desses métodos rastreia os estados de visibilidade dos Atores em um nível dentro do tronco de visão da câmera (ou campo de visão) que são obstruídos por outro Ator. As consultas são emitidas para a GPU ou CPU para verificar o estado de visibilidade de cada ator. Uma heurística é usada para reduzir o número de verificações de visibilidade necessárias, por sua vez, aumentando a eficácia geral de seleção e o desempenho.
+O sistema de oclusão dinâmica no Unreal Engine vem com vários métodos de abate para escolher. Cada um desses métodos rastreia os estados de visibilidade dos Atores em um nível dentro do tronco de visão da câmera (ou campo de visão) que são obstruídos por outro Ator. As consultas são emitidas para a GPU ou CPU para verificar o estado de visibilidade de cada ator. Uma heurística é usada para reduzir o número de verificações de visibilidade necessárias, por sua vez, aumentando a eficácia geral de seleção e o desempenho.
+{: .text-justify}
 
 **1.** A seleção de oclusão verifica com precisão o estado de visibilidade em cada modelo;
 
@@ -391,7 +398,7 @@ O sistema de oclusão dinâmica em UE4 vem com vários métodos de abate para es
     Stat initviews
 ```
 
-### 2.8. Exemplo Occlusion Culling
+_Exemplo_: Occlusion Culling
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_freezerendering_before.jpg"
@@ -434,7 +441,7 @@ Como resultado temos dois objetos sendo renderizados, pois se um pixel de um obj
 **Informação:** Se os objetos grandes fossem divididos em vários pedaços isso poderia diminuir o processo de renderização pois não teríamos que renderizar objetos gigantes que não aparecem totalmente na cena, mas sobrecarregaria a verificação de cada objeto visível na cena, então devemos balancear entre os dois métodos.
 {: .notice--warning}
 
-### 2.9. Occlusion Culling é um processo pesado a partir de 10.000 objetos na cena
+### 3.7. Occlusion Culling é um processo pesado a partir de 10.000 objetos na cena
 
 Abaixo um exemplo em uma cena com 10.000 objetos:
 
@@ -445,7 +452,7 @@ Abaixo um exemplo em uma cena com 10.000 objetos:
 
 A necessidade do sistema executar os passos acima e efetuar vários cálculos para cada um pode tornar o processo pesado.
 
-#### 2.9.1. Performance
+#### 3.7.1. Performance
 
 - Configure distance Culling;
 - Mais de 10-15k objetos pode ter impacto;
@@ -455,7 +462,7 @@ A necessidade do sistema executar os passos acima e efetuar vários cálculos pa
 - Modelos grandes raramente irão ocluir e, assim, aumentar GPU;
 - Mas combinar modelos com modelos grandes irá diminuir o custo da CPU.
 
-#### 2.9.2. Resultado
+#### 3.7.2. Resultado
 
 - (Cubo) Modelos A  Visível;
 - (Cubo) Modelos B Visível;
@@ -465,7 +472,7 @@ A necessidade do sistema executar os passos acima e efetuar vários cálculos pa
 
 A,B,D são processados na GPU.
 
-### 2.10. Processamento do Frame 2 - Time 66ms - GPU
+### 3.8. Processamento do Frame 2 - Time 66ms - GPU
 
 A GPU agora tem uma lista de modelos e transformações, mas se apenas renderizássemos esta informação iria causar uma grande quantidade de renderização de pixels redundantes, portanto, precisamos descobrir quais modelos serão exibidos com antecedência.
 
@@ -477,7 +484,7 @@ A GPU agora tem uma lista de modelos e transformações, mas se apenas renderiz�
 
 Considerando a renderização de cada pixel na cena na imagem acima não poderia renderizar os pixels que estão detrás dos cilindros e os que estão ocultos por outros objetos;
 
-### 2.11. Drawcalls
+### 3.9. Drawcalls
 
 A GPU agora começa a renderizar, sendo feito objeto por objeto (DrawCall).
 
@@ -515,7 +522,7 @@ O chão é renderizado primeiro e depois os cilindos, isto se deve porque a cena
 **Nota:** A ordem de renderização não tem impacto no processamento.
 {: .notice--warning}
 
-### 2.12. Comando Stat RHI
+### 3.10. Comando Stat RHI
 
 RHI significa Rendering Hardware Interface. Este comando exibe várias estatísticas exclusivas:
 
@@ -531,13 +538,13 @@ RHI significa Rendering Hardware Interface. Este comando exibe várias estatíst
 
 `DrawPrimitive calls` -  As chamadas _Draw_ podem ser um sério gargalo nos programas DirectX 11 e OpenGL4. São os comandos emitidos pela CPU para a GPU e, infelizmente, devem ser traduzidos pelo driver. Esta linha em **stat RHI** mostra a quantidade de chamadas de _draw_ emitidas no quadro atual (excluindo apenas a IU do Slate - Interface do Editor). Este é o valor total, portanto, além da geometria (normalmente o maior número), também inclui decalques, sombras, volumes de iluminação translúcida, pós-processamento e muito mais.
 
-#### 2.12.1. Comando do console
+#### 3.10.1. Comando do console
 
 ```bash
 stat RHI
 ```
 
-### 2.13. O comando Stat unit e Stat FPS
+### 3.11. O comando Stat unit e Stat FPS
 
 **Stat fps** nos mostra o número final de _fps_ e o tempo que levou para renderizar o último quadro. É o tempo total. Mas ainda não sabemos se o custo foi causado pela CPU ou pela GPU. Como explicado antes, um tem que esperar o outro. A renderização rápida na placa de vídeo não ajudará, se a CPU precisar de mais tempo para terminar o trabalho de jogabilidade, desenho (gerenciando a GPU) ou física.
 
@@ -555,14 +562,14 @@ stat RHI
 
 **GPU** - é o tempo bruto necessário para renderizar um quadro na placa de vídeo.
 
-#### 2.13.1. Comandos do console FPS
+#### 3.11.1. Comandos do console FPS
 
 ```bash
 stat fps
 stat unit
 ```
 
-### 2.14. Considerações
+### 3.12. Considerações
 
 **1.** 2000 - 3.000 é razoável;
 
@@ -580,9 +587,9 @@ stat unit
 
 _Exemplo_: Se temos um polígono com 32 triângulos e 34 tipos de materiais diferentes aplicados na sua superfície, terá mais impacto no FPS do que um polígono de 10.000 triângulos e 1 material. Cada triângulo com uma superfície diferentes é renderizado por vez.
 
-## 3. ATIVIDADES
+## 4. ATIVIDADES
 
-### 3.1. Renderização de materiais
+### 4.1. Renderização de materiais
 
 1. Implemente os seguintes elementos e seus materiais.
 
@@ -604,7 +611,7 @@ _Exemplo_: Se temos um polígono com 32 triângulos e 34 tipos de materiais dife
 
 1. Justifique a possibilidade de executar a cena em hardware de baixo processamento (mobile).
 
-## 4. Referências
+## 5. Referências
 
 - [O que é computação gráfica](http://www.um.pro.br/index.php?c=/computacao/definicao)
 - [Computação gráfica](https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_gr%C3%A1fica)
