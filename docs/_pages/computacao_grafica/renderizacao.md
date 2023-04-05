@@ -172,7 +172,7 @@ Para exemplificar o processo de renderização vamos apresentar os seguintes pas
 | **CPU**      | <span style="color:blue">Frame A</span> | <span style="color:red">Frame B</span>  | <span style="color:green">Frame C </span> | <span style="color:brown">Frame D</span>  |
 | **DRAW CPU** |                                         | <span style="color:blue">Frame A</span> | <span style="color:red">Frame B</span>    | <span style="color:green">Frame C </span> |
 | **GPU**      |                                         |                                         | <span style="color:blue">Frame A</span>   | <span style="color:red"> Frame B</span>   |
-| **Time**     | **0**                                   | **33**                                  | **66**                                    |                                           |
+| **Time in milliseconds**     | **0**                                   | **33**                                  | **66**                                    |                                           |
 
 Acompanhe a ordem de execução de cada Frame.
 
@@ -379,7 +379,7 @@ A câmera ao entrar na célula pergunta:
 - O que pode ser renderizando e o que eu não devo renderizar?;
 - Neste local, lembramos que esses objetos eram visíveis e estes outros não eram.
 
-### 3.5. Occlusion Culling
+## 4. Occlusion Culling
 
 O sistema de oclusão dinâmica no Unreal Engine vem com vários métodos de abate para escolher. Cada um desses métodos rastreia os estados de visibilidade dos Atores em um nível dentro do tronco de visão da câmera (ou campo de visão) que são obstruídos por outro Ator. As consultas são emitidas para a GPU ou CPU para verificar o estado de visibilidade de cada ator. Uma heurística é usada para reduzir o número de verificações de visibilidade necessárias, por sua vez, aumentando a eficácia geral de seleção e o desempenho.
 {: .text-justify}
@@ -441,7 +441,7 @@ Como resultado temos dois objetos sendo renderizados, pois se um pixel de um obj
 **Informação:** Se os objetos grandes fossem divididos em vários pedaços isso poderia diminuir o processo de renderização pois não teríamos que renderizar objetos gigantes que não aparecem totalmente na cena, mas sobrecarregaria a verificação de cada objeto visível na cena, então devemos balancear entre os dois métodos.
 {: .notice--warning}
 
-### 3.7. Occlusion Culling é um processo pesado a partir de 10.000 objetos na cena
+### 4.1. Occlusion Culling é um processo pesado a partir de 10.000 objetos na cena
 
 Abaixo um exemplo em uma cena com 10.000 objetos:
 
@@ -452,7 +452,7 @@ Abaixo um exemplo em uma cena com 10.000 objetos:
 
 A necessidade do sistema executar os passos acima e efetuar vários cálculos para cada um pode tornar o processo pesado.
 
-#### 3.7.1. Performance
+#### 4.1.1. Performance
 
 - Configure distance Culling;
 - Mais de 10-15k objetos pode ter impacto;
@@ -462,7 +462,7 @@ A necessidade do sistema executar os passos acima e efetuar vários cálculos pa
 - Modelos grandes raramente irão ocluir e, assim, aumentar GPU;
 - Mas combinar modelos com modelos grandes irá diminuir o custo da CPU.
 
-#### 3.7.2. Resultado
+#### 4.1.2. Resultado
 
 - (Cubo) Modelos A  Visível;
 - (Cubo) Modelos B Visível;
@@ -472,7 +472,7 @@ A necessidade do sistema executar os passos acima e efetuar vários cálculos pa
 
 A,B,D são processados na GPU.
 
-### 3.8. Processamento do Frame 2 - Time 66ms - GPU
+### 4.2. Processamento do Frame 2 - Time 66ms - GPU
 
 A GPU agora tem uma lista de modelos e transformações, mas se apenas renderizássemos esta informação iria causar uma grande quantidade de renderização de pixels redundantes, portanto, precisamos descobrir quais modelos serão exibidos com antecedência.
 
@@ -484,7 +484,7 @@ A GPU agora tem uma lista de modelos e transformações, mas se apenas renderiz�
 
 Considerando a renderização de cada pixel na cena na imagem acima não poderia renderizar os pixels que estão detrás dos cilindros e os que estão ocultos por outros objetos;
 
-### 3.9. Drawcalls
+### 4.3. Drawcalls
 
 A GPU agora começa a renderizar, sendo feito objeto por objeto (DrawCall).
 
@@ -522,7 +522,7 @@ O chão é renderizado primeiro e depois os cilindos, isto se deve porque a cena
 **Nota:** A ordem de renderização não tem impacto no processamento.
 {: .notice--warning}
 
-### 3.10. Comando Stat RHI
+### 4.4. Comando Stat RHI
 
 RHI significa Rendering Hardware Interface. Este comando exibe várias estatísticas exclusivas:
 
@@ -538,13 +538,13 @@ RHI significa Rendering Hardware Interface. Este comando exibe várias estatíst
 
 `DrawPrimitive calls` -  As chamadas _Draw_ podem ser um sério gargalo nos programas DirectX 11 e OpenGL4. São os comandos emitidos pela CPU para a GPU e, infelizmente, devem ser traduzidos pelo driver. Esta linha em **stat RHI** mostra a quantidade de chamadas de _draw_ emitidas no quadro atual (excluindo apenas a IU do Slate - Interface do Editor). Este é o valor total, portanto, além da geometria (normalmente o maior número), também inclui decalques, sombras, volumes de iluminação translúcida, pós-processamento e muito mais.
 
-#### 3.10.1. Comando do console
+#### 4.4.1. Comando do console
 
 ```bash
 stat RHI
 ```
 
-### 3.11. O comando Stat unit e Stat FPS
+### 4.5. O comando Stat unit e Stat FPS
 
 **Stat fps** nos mostra o número final de _fps_ e o tempo que levou para renderizar o último quadro. É o tempo total. Mas ainda não sabemos se o custo foi causado pela CPU ou pela GPU. Como explicado antes, um tem que esperar o outro. A renderização rápida na placa de vídeo não ajudará, se a CPU precisar de mais tempo para terminar o trabalho de jogabilidade, desenho (gerenciando a GPU) ou física.
 
@@ -562,14 +562,14 @@ stat RHI
 
 **GPU** - é o tempo bruto necessário para renderizar um quadro na placa de vídeo.
 
-#### 3.11.1. Comandos do console FPS
+#### 4.5.1. Comandos do console FPS
 
 ```bash
 stat fps
 stat unit
 ```
 
-### 3.12. Considerações
+### 4.6. Considerações
 
 **1.** 2000 - 3.000 é razoável;
 
@@ -587,9 +587,9 @@ stat unit
 
 _Exemplo_: Se temos um polígono com 32 triângulos e 34 tipos de materiais diferentes aplicados na sua superfície, terá mais impacto no FPS do que um polígono de 10.000 triângulos e 1 material. Cada triângulo com uma superfície diferentes é renderizado por vez.
 
-## 4. ATIVIDADES
+## 5. ATIVIDADES
 
-### 4.1. Renderização de materiais
+### 5.1. Renderização de materiais
 
 1. Implemente os seguintes elementos e seus materiais.
 
@@ -611,7 +611,7 @@ _Exemplo_: Se temos um polígono com 32 triângulos e 34 tipos de materiais dife
 
 1. Justifique a possibilidade de executar a cena em hardware de baixo processamento (mobile).
 
-## 5. Referências
+## 6. Referências
 
 - [O que é computação gráfica](http://www.um.pro.br/index.php?c=/computacao/definicao)
 - [Computação gráfica](https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_gr%C3%A1fica)
