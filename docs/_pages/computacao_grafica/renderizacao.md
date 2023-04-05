@@ -456,17 +456,24 @@ Occlusion Culling é um processo pesado a partir de 10.000 objetos na cena, abai
 
 A necessidade do sistema executar os passos acima e efetuar vários cálculos para cada um pode tornar o processo pesado.
 
-### 4.1. Performance
+### 4.1. Implicações de desempenho de oclusão
 
-- Configure distance Culling;
-- Mais de 10-15k objetos pode ter impacto;
+- Configurando `Distance Culling` os objetos não vão ser renderizados na cena mas o calculo de oclusão ainda é realizado;
+- Mais de 10-15k objetos podem ter grande impacto;
 - Maior parte nos processos que usam muita CPU mas tem algum impacto na GPU;
-- Grandes ambientes não ocluem bem;
-- A mesma coisa para as partículas;
+- Grandes ambientes não ocluem bem, pois a cena apresenta qualquer coisa e não podemos esconder os objetos, se você pode ver qualquer coisa não podemos ocluir algo;
+- A mesma coisa para as partículas, pois as partículas usam `Bounding Box` e esse elemento é alterado várias vezes por segundo, se o elemento é visível ele vai ser renderizado;
 - Modelos grandes raramente irão ocluir e, assim, aumentar GPU;
 - Combinar modelos com modelos grandes irá diminuir o custo da CPU.
+  
+  _Exemplo:_
 
-### 4.2. Resultado
+  Se um pedaço pequeno de um objeto grande está visível, TODO o objeto será renderizado, o que aumenta o processamento, mas se esse pedaço for somente uma parte de um conjunto de objetos agrupados, somente esse pedaço será renderizado.
+
+**Informação:** Os objetos grandes que estão atrás de objetos são renderizados por inteiro.
+{: .notice--warning}
+
+_Exemplo_: Abaixo temos uma lista de modelos para renderizar:
 
 - (Cubo) Modelos A  Visível;
 - (Cubo) Modelos B Visível;
@@ -474,7 +481,7 @@ A necessidade do sistema executar os passos acima e efetuar vários cálculos pa
 - (Cilindro) Modelos D Visível;
 - (Cubo) Modelos E Não Visível.
 
-A,B,D são processados na GPU.
+O resultado é que somente os modelos A,B,D são processados na GPU.
 
 ### 4.3. Processamento do Frame 2 - Time 66ms - GPU
 
