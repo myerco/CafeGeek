@@ -5,7 +5,7 @@ excerpt: "Neste capítulo vamos tentar responder, Por que as pessoas são viciad
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
 sidebar:
-    nav: dev_game
+    nav: dev_jogatina
 ---
 
 ## 1. Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?

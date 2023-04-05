@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: /
   - title: "Desenvolvimento de Jogos"
-    url: /pages/a_jogatina_das_decadas/
+    url:  /about/jogos_digitais
   - title: "Banco de Dados"
     url: /pages/banco_dados    
   - title: "Sobre"
