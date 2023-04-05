@@ -386,13 +386,16 @@ O sistema de oclusão dinâmica no Unreal Engine vem com vários métodos de aba
 
 **1.** A seleção de oclusão verifica com precisão o estado de visibilidade em cada modelo;
 
-**2.** Use o comando do console `freezerendering` que força a renderização para congelar ou retomar. Permite a visualização da cena conforme foi renderizada a partir do ponto em que o comando foi inserido;
+**2.** Use o comando do console `freezerendering` que congela ou retomar a renderização. Permite a visualização da cena conforme foi renderizada a partir do ponto em que o comando foi inserido;
 
 ```bash
     freezerendering
 ```
 
-**3.** Comando do console `Stat initviews` exibe informações sobre quanto tempo levou a seleção de visibilidade e quão eficaz foi. A contagem de seções visíveis é a estatística mais importante com relação ao desempenho do thread de renderização e é dominada por **Visible Static Mesh Elements** em `Stat initviews`.
+**3.** Comando do console `Stat initviews` exibe informações sobre quanto tempo levou a seleção de visibilidade e quão eficaz foi. A contagem de seções visíveis, é a estatística mais importante com relação ao desempenho do Thread de renderização e é dominada por `Visible Static Mesh Elements`, `Visible Dynamic Primitives` também influenciam.
+
+**Dynamic Primitives :** Um componente de contém ou gera algum tipo de geometria, geralmente pode ser renderizado ou usado para dados de colisão. [UPrimitiveComponent](https://medium.com/realities-io/creating-a-custom-mesh-component-in-ue4-part-3-the-mesh-components-scene-proxy-6965a3ea4cc9)
+{: .notice--info}
 
 ```bash
     Stat initviews
@@ -441,28 +444,29 @@ Como resultado temos dois objetos sendo renderizados, pois se um pixel de um obj
 **Informação:** Se os objetos grandes fossem divididos em vários pedaços isso poderia diminuir o processo de renderização pois não teríamos que renderizar objetos gigantes que não aparecem totalmente na cena, mas sobrecarregaria a verificação de cada objeto visível na cena, então devemos balancear entre os dois métodos.
 {: .notice--warning}
 
-### 4.1. Occlusion Culling é um processo pesado a partir de 10.000 objetos na cena
+Occlusion Culling é um processo pesado a partir de 10.000 objetos na cena, abaixo um exemplo em uma cena com 10.000 objetos:
 
-Abaixo um exemplo em uma cena com 10.000 objetos:
+`Distance Culling` remove 3.000 restando 7.000;
 
-1. Distance Culling remove 3.000 restando 7.000;
-1. Frustum Culling remove e renderiza 4.000;
-1. Precomputed Visibility remove 1.000;
-1. Occlusion Culling remove 1.000.  
+`Frustum Culling` remove e renderiza 4.000;
+
+`Precomputed Visibility` remove 1.000;
+
+`Occlusion Culling` remove 1.000.  
 
 A necessidade do sistema executar os passos acima e efetuar vários cálculos para cada um pode tornar o processo pesado.
 
-#### 4.1.1. Performance
+### 4.1. Performance
 
 - Configure distance Culling;
 - Mais de 10-15k objetos pode ter impacto;
-- Maior parte na CPU mas tem algum impacto na GPU;
+- Maior parte nos processos que usam muita CPU mas tem algum impacto na GPU;
 - Grandes ambientes não ocluem bem;
 - A mesma coisa para as partículas;
 - Modelos grandes raramente irão ocluir e, assim, aumentar GPU;
-- Mas combinar modelos com modelos grandes irá diminuir o custo da CPU.
+- Combinar modelos com modelos grandes irá diminuir o custo da CPU.
 
-#### 4.1.2. Resultado
+#### 4.1.1. Resultado
 
 - (Cubo) Modelos A  Visível;
 - (Cubo) Modelos B Visível;
@@ -475,6 +479,7 @@ A,B,D são processados na GPU.
 ### 4.2. Processamento do Frame 2 - Time 66ms - GPU
 
 A GPU agora tem uma lista de modelos e transformações, mas se apenas renderizássemos esta informação iria causar uma grande quantidade de renderização de pixels redundantes, portanto, precisamos descobrir quais modelos serão exibidos com antecedência.
+{: .text-justify}
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_gemeotry_hendering.jpg"
@@ -482,13 +487,14 @@ A GPU agora tem uma lista de modelos e transformações, mas se apenas renderiz�
     caption="Menu Project Settings > Rendering > Early Z-Pass."
 %}
 
-Considerando a renderização de cada pixel na cena na imagem acima não poderia renderizar os pixels que estão detrás dos cilindros e os que estão ocultos por outros objetos;
+Considerando a renderização de cada pixel na cena na imagem acima não poderia renderizar os pixels que estão detrás dos cilindros e os que estão ocultos por outros objetos.
+{: .text-justify}
 
 ### 4.3. Drawcalls
 
 A GPU agora começa a renderizar, sendo feito objeto por objeto (DrawCall).
 
-Um grupo de poligonos compartilha as mesmas propriedades em um `Drawcall`, abaixo um exemplo de como é feita a renderização.
+Um grupo de polígonos compartilha as mesmas propriedades em um `Drawcall`, abaixo um exemplo de como é feita a renderização.
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_gemeotry_hendering_drawcall_2.jpg"
@@ -533,12 +539,15 @@ RHI significa Rendering Hardware Interface. Este comando exibe várias estatíst
 %}
 
 `Render target memory` -  Mostra o peso total de alvos de renderização como o GBuffer (que armazena as informações finais sobre iluminação e materiais) ou mapas de sombras. O tamanho dos buffers depende da resolução de renderização do jogo, enquanto as sombras são controladas pelas configurações de qualidade das sombras. É útil verificar esse valor periodicamente em sistemas com várias quantidades de RAM de vídeo e, em seguida, ajustar as predefinições de qualidade do seu projeto de acordo.
+{: .text-justify}
 
 `Triangles drawn` - Este é o número final de triângulos. É após o abate de _frustum_ e oclusão. Pode parecer muito grande em comparação com o _polycount_ de suas malhas. É porque o número real inclui sombras (que "copiam" malhas para desenhar mapas de sombras) e mosaico. No editor, também é afetado pela seleção.
+{: .text-justify}
 
 `DrawPrimitive calls` -  As chamadas _Draw_ podem ser um sério gargalo nos programas DirectX 11 e OpenGL4. São os comandos emitidos pela CPU para a GPU e, infelizmente, devem ser traduzidos pelo driver. Esta linha em **stat RHI** mostra a quantidade de chamadas de _draw_ emitidas no quadro atual (excluindo apenas a IU do Slate - Interface do Editor). Este é o valor total, portanto, além da geometria (normalmente o maior número), também inclui decalques, sombras, volumes de iluminação translúcida, pós-processamento e muito mais.
+{: .text-justify}
 
-#### 4.4.1. Comando do console
+Comando do console:
 
 ```bash
 stat RHI
