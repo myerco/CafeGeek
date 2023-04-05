@@ -154,3 +154,27 @@ dev_computacao:
         url:  /pages/computacao_grafica/processamento
       - title: Programação C++
         url: /pages/cpp/      
+
+dev_me_conta:
+  - title: ME CONTA UMA HISTÓRIA
+    children:
+      - title: Organizando as ideias
+        url: /pages/me_conta_uma_historia/
+      - title: Os elementos da história
+        url: /pages/elementos_historia/        
+
+dev_jogatina:
+  - title: A JOGATINA DAS DÉCADAS
+    children:
+      - title: Os jogos
+        url: /pages/a_jogatina_das_decadas/
+      - title: Jogos Eletrônicos
+        url: /pages/a_jogatina_das_decadas/jogos        
+      - title: O comportamento
+        url: /pages/a_jogatina_das_decadas/comportamento                
+
+dev_modelagem3d:
+  - title: MODELAGEM 3D
+    children:
+      - title: Autodesk Maya
+        url: /pages/modelagem3d

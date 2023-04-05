@@ -5,7 +5,7 @@ excerpt: Neste capítulo vamos apresentar os elementos necessários de uma hist�
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
 sidebar:
-    nav: dev_game  
+    nav: dev_me_conta
 ---
 
 ## 1. Como construir os personagens?

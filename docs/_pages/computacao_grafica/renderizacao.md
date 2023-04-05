@@ -466,7 +466,7 @@ A necessidade do sistema executar os passos acima e efetuar vários cálculos pa
 - Modelos grandes raramente irão ocluir e, assim, aumentar GPU;
 - Combinar modelos com modelos grandes irá diminuir o custo da CPU.
 
-#### 4.1.1. Resultado
+### 4.2. Resultado
 
 - (Cubo) Modelos A  Visível;
 - (Cubo) Modelos B Visível;
@@ -476,7 +476,7 @@ A necessidade do sistema executar os passos acima e efetuar vários cálculos pa
 
 A,B,D são processados na GPU.
 
-### 4.2. Processamento do Frame 2 - Time 66ms - GPU
+### 4.3. Processamento do Frame 2 - Time 66ms - GPU
 
 A GPU agora tem uma lista de modelos e transformações, mas se apenas renderizássemos esta informação iria causar uma grande quantidade de renderização de pixels redundantes, portanto, precisamos descobrir quais modelos serão exibidos com antecedência.
 {: .text-justify}
@@ -490,7 +490,7 @@ A GPU agora tem uma lista de modelos e transformações, mas se apenas renderiz�
 Considerando a renderização de cada pixel na cena na imagem acima não poderia renderizar os pixels que estão detrás dos cilindros e os que estão ocultos por outros objetos.
 {: .text-justify}
 
-### 4.3. Drawcalls
+### 4.4. Drawcalls
 
 A GPU agora começa a renderizar, sendo feito objeto por objeto (DrawCall).
 
@@ -528,7 +528,7 @@ O chão é renderizado primeiro e depois os cilindos, isto se deve porque a cena
 **Nota:** A ordem de renderização não tem impacto no processamento.
 {: .notice--warning}
 
-### 4.4. Comando Stat RHI
+### 4.5. Comando Stat RHI
 
 RHI significa Rendering Hardware Interface. Este comando exibe várias estatísticas exclusivas:
 
@@ -553,7 +553,7 @@ Comando do console:
 stat RHI
 ```
 
-### 4.5. O comando Stat unit e Stat FPS
+### 4.6. O comando Stat unit e Stat FPS
 
 **Stat fps** nos mostra o número final de _fps_ e o tempo que levou para renderizar o último quadro. É o tempo total. Mas ainda não sabemos se o custo foi causado pela CPU ou pela GPU. Como explicado antes, um tem que esperar o outro. A renderização rápida na placa de vídeo não ajudará, se a CPU precisar de mais tempo para terminar o trabalho de jogabilidade, desenho (gerenciando a GPU) ou física.
 
@@ -571,14 +571,14 @@ stat RHI
 
 **GPU** - é o tempo bruto necessário para renderizar um quadro na placa de vídeo.
 
-#### 4.5.1. Comandos do console FPS
+Comandos do console FPS:
 
 ```bash
 stat fps
 stat unit
 ```
 
-### 4.6. Considerações
+### 4.7. Considerações
 
 **1.** 2000 - 3.000 é razoável;
 
@@ -596,31 +596,7 @@ stat unit
 
 _Exemplo_: Se temos um polígono com 32 triângulos e 34 tipos de materiais diferentes aplicados na sua superfície, terá mais impacto no FPS do que um polígono de 10.000 triângulos e 1 material. Cada triângulo com uma superfície diferentes é renderizado por vez.
 
-## 5. ATIVIDADES
-
-### 5.1. Renderização de materiais
-
-1. Implemente os seguintes elementos e seus materiais.
-
-   - Pedra;
-
-   - Mesa;
-
-   - Cadeira;
-
-1. Apresente as seguintes informações.
-
-   - Média de Drawcalls;
-
-   - Quantidade de triângulos;
-
-   - Quantidade de memória;
-
-1. Utilizando os mesmos elementos tente reduzir o processo de renderização.
-
-1. Justifique a possibilidade de executar a cena em hardware de baixo processamento (mobile).
-
-## 6. Referências
+## 5. Referências
 
 - [O que é computação gráfica](http://www.um.pro.br/index.php?c=/computacao/definicao)
 - [Computação gráfica](https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_gr%C3%A1fica)
