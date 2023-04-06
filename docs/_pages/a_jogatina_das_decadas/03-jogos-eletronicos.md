@@ -1,6 +1,6 @@
 ---
 title: "Jogos Eletrônicos"
-permalink: /pages/a_jogatina_das_decadas/jogos
+permalink: /pages/a_jogatina_das_decadas/jogos-eletronicos
 excerpt: "Neste capítulo vamos apresentar a história, evolução dos jogos eletrônicos, bem como seu mercado."
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
@@ -10,9 +10,8 @@ sidebar:
 
 ## 1. Como são classificados os jogos?
 
-> Guerra... A guerra nunca muda.
->
-> Fallout.
+Guerra... A guerra nunca muda. Fallout.
+{: .notice} 
 
 Podemos classificar os jogos para determinar ou mostrar a sua função dentro de um modelo de lazer ou recreação.
 
@@ -78,11 +77,8 @@ Trabalham com reflexos, coordenação e cognição.
 
 ## 2. O que é um jogo eletrônico?
 
-***
-
->"O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pessoa, mas ninguém pode mudá-la. Uma coisa que não muda com o tempo é a memória dos dias mais jovens."
->
-> The Legend of Zelda: Ocarina of Time
+O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pessoa, mas ninguém pode mudá-la. Uma coisa que não muda com o tempo é a memória dos dias mais jovens. The Legend of Zelda: Ocarina of Time.
+{: .notice} 
 
 {% include image.html
     src="https://covildosjogos.com.br/wp-content/uploads/2020/06/f782e9b5-9331-47cb-83a0-838e7515eb14-768x1024.jpg"
@@ -203,9 +199,8 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 ## 4. O mercado de jogos eletrônicos
 
-> A Sombra,
->
-> Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou três dias desenvolvendo o jogo e acabou ganhando cerca de US $ 50 mil por dia em receita através de sua publicidade no jogo.”
+A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou três dias desenvolvendo o jogo e acabou ganhando cerca de US $ 50 mil por dia em receita através de sua publicidade no jogo.
+{: .notice}
 
 {% include image.html
     src="https://s2.glbimg.com/7IWNxPUe3ZavTl0vMfqcjDxvUqo=/0x0:695x463/984x0/smart/filters:strip_icc()/s.glbimg.com/po/tt2/f/original/2014/02/07/flappy-bird-ios.jpg"
@@ -304,8 +299,6 @@ A seguir será apresentado quando custa estimativamente produzir um jogo digital
 - AAA Games -?
 
 - [List of most expensive video games to develop](https://en.wikipedia.org/wiki/List_of_most_expensive_video_games_to_develop)
-
-***
 
 ## 5. Evolução dos jogos eletrônicos
 
@@ -429,8 +422,6 @@ Alguns exemplos de jogos dessas gerações são 007 Goldeneye, Super Mário 64, 
 alt="Figura: The Last of Us 2."
     caption="Figura: The Last of Us 2."
 %}
-
-***
 
 ## 6. Era dos Videogames
 
@@ -560,8 +551,6 @@ A iniciativa do Symbian
 A Nokia deu início ao projeto envolvendo o Symbian, um sistema operacional que pavimentou o caminho para o surgimento dos primeiros smartphones.
 Apesar de ter feito pouco sucesso, esse dispositivo mostrou que a ideia de criar um aparelho com capacidades para jogos era essencial.
 O iPhone 3GS e o iPhone 4, por exemplo, eram tidos como excelentes plataformas para jogos. Foi no iPhone 3GS que surgiu o famoso Andry Birds.
-
-***
 
 ## 7. Jogos mobile
 

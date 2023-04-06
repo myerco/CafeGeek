@@ -1,74 +1,14 @@
 ---
-title: "A Jogatina das décadas"
-permalink: /pages/a_jogatina_das_decadas/
-excerpt: "O objetivo deste curso é apresentar as características e elementos associados aos jogos eletrônicos."
+title: O jogo
+permalink: /pages/a_jogatina_das_decadas/ojogo
+excerpt: "O objetivo deste capítulo é definir o que é um jogo e quem joga."
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
 sidebar:
     nav: dev_jogatina
 ---
 
-## 1. O que é um Jogo?
-
-> Life is a Game
->
-> <cite><a href="https://animvs.com/">Animvs</a></cite>
-
-Podemos definir um jogo através das suas principais características.
-
-- Atividade recreativa;
-
-- Regras que estabelecem quem vence e quem perde;
-
-- Competição física ou mental;
-
-- Conjunto de procedimentos e estratégias para atingir determinado fim;
-
-- Atividade em que existe a figura do jogador (como indivíduo praticante).
-
-A origem da palavra deriva do de um termo do latim, *jocus*, que significa brincadeira, divertimento, atualmente podemos explorar as principais características e definições que nos ajudam a entender a evolução dessa "brincadeira" que faz parte das nossas vidas.
-
-{% include imagelocal.html
-    src="jogatina_das_decadas/chess_game.webp"
-    alt="Figura: Chess."
-    caption="O Xadrez é um jogo de tabuleiro de estratégia do tipo recreativo ou competitivo para dois jogadores."
-%}
-
-"Em época mais otimista que a atual, nossa espécie recebeu a designação de *Homo sapiens*. Com o passar do
-tempo, acabamos por compreender que afinal de contas não somos tão racionais quanto a ingenuidade e o culto da
-razão do século XVIII nos fizeram supor, e passou a ser de moda designar nossa espécie como *Homo faber*. Embora
-*faber* não seja uma definição do ser humano tão inadequada como sapiens, ela é, contudo, ainda menos apropriada do
-que esta, visto poder servir para designar grande número de animais. Mas existe uma terceira função, que se verifica
-tanto na vida humana como na animal, e é tão importante como o raciocínio e o fabrico de objetos: o jogo. Creio
-que, depois de *Homo faber* e talvez ao mesmo nível de *Homo sapiens*, a expressão *Homo ludens* merece um lugar em
-nossa nomenclatura."
-
-**Informação:** Latim “Ludus”, “Ludere” que designava os jogos infantis.
-{: .notice--info}
-
-### 1.1. O curso de Jogatina das Décadas
-
-O objetivo deste curso é apresentar e trabalhar com a definição do que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização. O curso está associado a construção **Estética** do jogo pois nele definimos elementos como sensação, desafio, descoberta e passatempo.
-
-#### 1.1.1. Habilidades que serão aprendidas
-
-- Analise e conceitue jogos;
-
-- Analise e defina tipos de jogos;
-
-- Analise e defina os tipos de jogadores;
-
-- Conheça o mercado de jogos digitais;
-
-- Implemente um protótipo de jogo;
-
-- Analise e conceitue a Gamificação.
-
-| M         | D         | A             |
-| :-------- | :-------- | :------------ |
-| Mecânicas | Dinâmicas | **Estéticas** |
-
-### 1.2. Teria o jogo lugar no sistema de vida?
+## 1. Teria o jogo lugar no sistema de vida?
 
 {% include imagelocal.html
     src="jogatina_das_decadas/Cover-shallow-1800x1100.webp"
@@ -89,7 +29,7 @@ Quando pensamos no aspecto humano e evolutivo não podemos deixar de citar algum
 
 - Teorias há, ainda, que o consideram uma "ab-reação" (descarga emocional pela qual um indivíduo se liberta do afeto que acompanha a recordação de um acontecimento traumático), um escape para impulsos prejudiciais, um restaurador da energia dispendida por uma atividade unilateral, ou "realização do desejo", ou uma ficção destinada a preservar o sentimento do valor pessoal.
 
-### 1.3. Homo Ludens
+## 2. Homo Ludens
 
 {% include imagelocal.html
     src="jogatina_das_decadas/brincar.webp"
@@ -103,7 +43,7 @@ Walter Benjamin (1984)
 
 “...fenômeno cultural e repetível a qualquer momento, uma ação que introduz, na confusão da vida e na imperfeição do mundo, uma perfeição temporária e limitada.”
 
-#### 1.3.1. O riso e o jogo segundo Johan Huizinga
+### 2.1. O riso e o jogo segundo Johan Huizinga
 
 "...O riso, por exemplo, está de certo modo em oposição à seriedade, sem de maneira alguma estar diretamente ligado ao jogo. Os jogos infantis, o futebol e o xadrez são executados dentro da mais profunda seriedade, não se verificando nos jogadores a menor tendência para o riso. É curioso notar que o ato puramente fisiológico de rir é exclusivo dos homens, ao passo que a função significante do jogo é comum aos homens e aos animais. O *animal ridens* de Aristóteles caracteriza o homem, em
 oposição aos animais, de maneira quase tão absoluta quanto o *homo sapiens*".
@@ -112,7 +52,7 @@ Em contrapartida devemos lembrar que o riso no filme O Nome da Rosa teve outra c
 
 "...O riso é um evento demoníaco que deforma as linhas do rosto e faz os homens parecerem macacos "O riso mata o temor e sem o temor não pode haver fé!"...".
 
-### 1.4. A Tensão como um elemento do jogo
+### 2.2. A Tensão como um elemento do jogo
 
 {% include imagelocal.html
     src="jogatina_das_decadas/alien_isolation_1.webp"
@@ -134,9 +74,9 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
     ref="https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1"
 %}
 
-### 1.5. Resumo
+### 2.3. Resumo
 
-#### 1.5.1. O que é um jogo?
+#### 2.3.1. O que é um jogo?
 
 - É uma Atividade recreativa com regras que estabelecem quem vence e quem perde;
 
@@ -144,7 +84,7 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 
 - Atividade em que existe a figura do jogador (como indivíduo praticante).
 
-#### 1.5.2. O ser humano e o jogo
+#### 2.3.2. O ser humano e o jogo
 
 - O jogo constitui uma preparação do jovem para as tarefas sérias que mais tarde a vida dele exigirá;
 
@@ -154,20 +94,17 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 
 - Teorias há, ainda, que o consideram uma “ab-reação” (descarga emocional pela qual um indivíduo se liberta do afeto que acompanha a recordação de um acontecimento traumático), **um escape para impulsos prejudiciais**, um restaurador da energia dispendida por uma atividade unilateral, ou “realização do desejo”, ou uma ficção destinada a preservar o sentimento do **valor pessoal**.
 
-#### 1.5.3. O jogo é?
+#### 2.3.3. O jogo é?
 
 - O jogo é tenso;
 
 - O jogo é divertido.
 
-## 2. Qual a função do jogo?
+## 3. Qual a função do jogo?
 
-***
-
-> "Eu me sinto presa, apenas livre para me expandir dentro dos limites.
-(Motoko Kusanagi)""
->
-> O Fantasma do Futuro
+"Eu me sinto presa, apenas livre para me expandir dentro dos limites.
+(Motoko Kusanagi). **O Fantasma do Futuro**"
+{: .notice}
 
 {% include imagelocal.html
     src="jogatina_das_decadas/A-Vigilante-do-Amanhã-Ghost-in-the-Shell.webp"
@@ -184,11 +121,11 @@ Estas duas funções podem também por vezes confundir-se, de tal modo que o jog
 
 A seguir vamos apresentar algumas categorias de jogos segundo Johan Huizinga.
 
-### 2.1. O papel do jogo na sociedade
+### 3.1. O papel do jogo na sociedade
 
 O ser humano, tal como todos os seres da escala biológica, tem como característica principal o movimento. O jogo surge relacionado a esse assunto, por ser a melhor demonstração dessa predominância no homem, além de atuar como um valoroso contribuinte no desenvolvimento global do mesmo.
 
-### 2.2. O jogo Arte e Cultura
+### 3.2. O jogo Arte e Cultura
 
 {% include imagelocal.html
     src="jogatina_das_decadas/2012_01_20_15_37_021.webp"
@@ -200,7 +137,7 @@ O ser humano, tal como todos os seres da escala biológica, tem como caracterís
 O processo criativo e construção de elementos imaginários estão presentes nas caracterizas dos jogos.
 Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um belo e nobre jogo começou por ser um jogo sagrado. Os torneios e justas, as ordens, os votos, os títulos, são  todos vestígios dos ritos de iniciação primitivos.
 
-### 2.3. O jogo e a Guerra
+### 3.3. O jogo e a Guerra
 
 {% include imagelocal.html
     src="jogatina_das_decadas/art-painting-delacroix_wallcoo.com.webp"
@@ -211,7 +148,7 @@ Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um 
 
 É difícil não associar a guerra ao jogo mas o contrário é possível, na guerra o objetivo é conquistar ou subjugar o seu oponente.
 
-### 2.4. O jogo e o Direito
+### 3.4. O jogo e o Direito
 
 {% include imagelocal.html
     src="jogatina_das_decadas/leis.webp"
@@ -232,7 +169,7 @@ Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o 
 
 - **A justiça** - Se fizermos com que nosso olhar passe da  administração da justiça nas civilizações altamente desenvolvidas para aquela que se encontra nas fases menos  adiantadas da cultura, veremos que a ideia do bem e do mal, a concepção ético-jurídica, é ultrapassada pela ideia de  ganhar ou perder, isto é, pela concepção puramente agonística. O que interessa ao espírito primitivo não é tanto o  problema abstrato do bem e do mal, mas principalmente o problema extremamente concreto de ganhar ou perder.
 
-### 2.5. O jogo e a Linguagem
+### 3.5. O jogo e a Linguagem
 
 {% include imagelocal.html
     src="jogatina_das_decadas/barreira-linguagem-764x343.webp"
@@ -243,7 +180,7 @@ Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o 
 
 A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo, designá-las e com essa designação elevá-las ao domínio do espírito. Na criação da fala e da linguagem,  brincando com essa maravilhosa faculdade de designar, é como se o espírito estivesse constantemente saltando  entre a matéria e as coisas pensadas. Por detrás de toda expressão abstrata se oculta uma metáfora, e toda metáfora  é jogo de palavras. Assim, ao dar expressão à vida, o homem cria um outro mundo, um mundo poético, ao lado do  da natureza.
 
-### 2.6. Algumas considerações sobre o jogo
+### 3.6. Algumas considerações sobre o jogo
 
 {% include imagelocal.html
     src="jogatina_das_decadas/musee_Rodin_1.webp"
@@ -255,23 +192,20 @@ O autor apresenta as suas interpretações de elementos presentes na nossa socie
 
 Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como por exemplo economia, relacionamentos, comunicação e outros, mas com uma nova roupagem denominada "Gamificação" que estudaremos nos próximos capítulos.
 
-### 2.7. Resumo
+### 3.7. Resumo
 
-#### 2.7.1. O que é a função do jogo?
+#### 3.7.1. O que é a função do jogo?
 
 - Sendo o jogo uma luta por alguma coisa ou a representação de alguma coisa e esta presente em vários aspectos da sociedade;
 
 - É uma representação dos desafios que os indivíduos enfrentam no dia a dia na nossa sociedade.
 
-## 3. Quem joga?
+## 4. Quem joga?
 
-***
+Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior do que apenas eu mesmo. **Jogador Nº1**.
+{: .notice}
 
-> "Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior do que apenas eu mesmo."
->
-> Jogador Nº1.
-
-### 3.1. O jogador
+### 4.1. O jogador
 
 {% include image.html
     src="https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp"
@@ -284,7 +218,7 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 
 O jogo é um produto presente no mercado e como tal se apresenta com todas as suas características de comercialização.
 
-### 3.2. O que é jogar?
+### 4.2. O que é jogar?
 
 {% include image.html
     src="https://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg"
@@ -302,7 +236,7 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 
 - Cultura.
 
-### 3.3. Por que jogar?
+### 4.3. Por que jogar?
 
 {% include image.html
     src="https://lavrapalavra.com/wp-content/uploads/2021/01/apagar.png"
@@ -323,11 +257,11 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 
 [https://www.teachthought.com/learning/why-people-play-video-games/](https://www.teachthought.com/learning/why-people-play-video-games/ "Why People Play Video Games")
 
-## 4. Os Fatores motivacionais
+## 5. Os Fatores motivacionais
 
 Estão diretamente ligados ao desejo do jogadora sua construção social, leitura, cinema, arte e televisão.
 
-### 4.1. Exploração
+### 5.1. Exploração
 
 {% include image.html
     src="https://c4.wallpaperflare.com/wallpaper/73/158/467/star-trek-wallpaper-preview.jpg"
@@ -336,7 +270,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://pt.wikipedia.org/wiki/Star_Trek"
 %}
 
-### 4.2. Fantasia
+### 5.2. Fantasia
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/pt/5/54/Final_Fantasy_VII_Remake_personagens.png"
@@ -345,7 +279,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://pt.wikipedia.org/wiki/Final_Fantasy_VII_Remake"
 %}
 
-### 4.3. Quebrar as regras sociais
+### 5.3. Quebrar as regras sociais
 
 {% include image.html
     src="https://www.arkade.com.br/wp-content/uploads/2020/08/gta-v.jpg"
@@ -354,7 +288,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://www.arkade.com.br/gta-v-retorna-ao-xbox-game-pass-mas-agora-com-suporte-ao-xcloud/"
 %}
 
-### 4.4. Exercitar-se
+### 5.4. Exercitar-se
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/pt/thumb/c/ca/Just_Dance_2022_capa.jpg/345px-Just_Dance_2022_capa.jpg"
@@ -363,7 +297,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://pt.wikipedia.org/wiki/Just_Dance_2022"
 %}
 
-### 4.5. Demonstrar-se
+### 5.5. Demonstrar-se
 
 {% include image.html
     src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/04/Demon-Hunter-Tier-20-Cropped.jpg?q=50&fit=crop&w=740&dpr=1.5"
@@ -372,7 +306,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://www.thegamer.com/world-of-warcraft-best-epic-tier-sets/"
 %}
 
-### 4.6. Sociabilizar-se
+### 5.6. Sociabilizar-se
 
 {% include image.html
     src="https://s2.glbimg.com/Ajwl8JcF1B1ozCPrhSOI5OgYAa8=/0x0:695x269/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/C/x/E4BtaXTB2iJc5FTjVOUg/2014-04-23-wow-raid.jpg"
@@ -381,7 +315,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://www.techtudo.com.br/noticias/2014/04/world-warcraft-conheca-addons-importantes-antes-de-entrar-na-raide.ghtml"
 %}
 
-### 4.7. Reconhecimento
+### 5.7. Reconhecimento
 
 {% include image.html
     src="https://www.touchtapplay.com/wp-content/uploads/2020/12/image-19.png"
@@ -390,7 +324,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://afkgaming.com/mobileesports/originals/5134-everything-you-need-to-know-about-medals-in-call-of-duty-mobile"
 %}
 
-### 4.8. Aprendizado
+### 5.8. Aprendizado
 
 {% include image.html
     src="https://myplinkit.com/wp-content/uploads/2020/03/Activities-and-Games_iStock-1127260590_cropped.jpg"
@@ -399,7 +333,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://myplinkit.com/2020/03/activities-games-you-can-do-at-home/"
 %}
 
-### 4.9. Marca
+### 5.9. Marca
 
 {% include image.html
     src="https://miro.medium.com/max/825/1*M6VI8_01A-At7Nzp2wn6IA.png"
@@ -408,7 +342,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://medium.com/@OggieBoy/top-20-game-studios-whos-your-favorite-e7cc533530f0"
 %}
 
-## 4.10. Fatores não motivacionais
+## 6. Fatores não motivacionais
 
 Estão ligados na avaliação da mensagem que está sendo transmitida.
 
@@ -422,9 +356,9 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
     caption="Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - <https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm>"
 %}
 
-### 4.10.1. Respostas sensoriais
+### 6.1. Respostas sensoriais
 
-### 4.10.2. Gráficos
+### 6.2. Gráficos
 
 {% include image.html
     src="https://files.tecnoblog.net/wp-content/uploads/2020/08/dez-dicas-para-dominar-horizon-zero-dawn005.png"
@@ -432,7 +366,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
     caption="Figura: 10 dicas para dominar Horizon Zero Dawn"
 %}
 
-### 4.10.3. Som
+### 6.3. Som
 
 {% include image.html
     src="https://s2.glbimg.com/WZEsU9OtfinBadWtEwruyHlueBg=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/C/o/4CJ1NPR2u4MTx3BMyY2A/journey-como-jogar-amigo.jpg"
@@ -440,7 +374,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
     caption="Figura: Como jogar Journey com um amigo? Confira dicas e tudo sobre o game"
 %}
 
-### 4.10.4. Música
+### 6.4. Música
 
 {% include image.html
     src="https://img.youtube.com/vi/LnG6icGIm0o/0.jpg"
@@ -448,7 +382,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
     caption="Figura: Life is Strange."
 %}
 
-### 4.10.5. Efeitos especiais
+### 6.5. Efeitos especiais
 
 {% include image.html
     src="https://gamingbolt.com/wp-content/gallery/10-best-particle-and-lighting-effects-we-saw-in-2011/assassins-creed-revelations.jpg"
@@ -456,7 +390,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
     caption="Figura: 10 Best Lighting and Particle Effects We Saw In 2011"
 %}
 
-### 4.10.6. Jogabilidade
+### 6.6. Jogabilidade
 
 {% include image.html
     src="https://static.techspot.com/articles-info/2366/images/2021-11-17-image-2-j.webp"
@@ -464,7 +398,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
     caption="Figura: It Takes Two."
 %}
 
-### 4.10.7. Cognição
+### 6.7. Cognição
 
 {% include image.html
     src="https://s2.glbimg.com/ys4yzHh8-bS88Kc2mwhuQdW3An0=/0x0:695x393/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/N/K/ray9GLT9GUmH5n4aqwAw/2015-08-21-the-witcher-3-geralt-lutando.jpg"
@@ -472,7 +406,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
     caption="Figura: Confira os requisitos de The Witcher 3 e como deixar mais leve no PC"
 %}
 
-### 4.10.8. Coordenação
+### 6.8. Coordenação
 
 {% include image.html
     src="https://rollingstone.uol.com.br/media/_versions/guitar_hero_reproducao_widelg.jpg"

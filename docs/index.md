@@ -13,7 +13,7 @@ feature_row:
     alt: "A Jogatina das décadas"
     title: "A Jogatina das décadas"
     excerpt: "O objetivo deste curso é apresentar as características e elementos associados aos jogos eletrônicos."
-    url: "/pages/a_jogatina_das_decadas/"
+    url: "/pages/a_jogatina_das_decadas/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
   - image_path: /assets/images/unreal/unreal_engine.webp

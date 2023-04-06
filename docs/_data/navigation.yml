@@ -151,15 +151,15 @@ dev_computacao:
       - title: Introdução
         url: /pages/computacao_grafica/introducao
       - title: Estrutura de objetos 3D
-        url: /pages/computacao_grafica/estruturas_objetos3d      
+        url: /pages/computacao_grafica/estruturas-objetos3d      
       - title: Renderização 
         url:  /pages/computacao_grafica/renderizacao
   - title: RENDERIZAÇÃO COM UNREAL ENGINE                    
     children:  
       - title: Passos da renderização
-        url:  /pages/computacao_grafica/renderizacao_unreal    
+        url:  /pages/computacao_grafica/renderizacao-unreal    
       - title: Visibilidade e Oclusão
-        url:  /pages/computacao_grafica/visibilidade_oclusao            
+        url:  /pages/computacao_grafica/visibilidade-oclusao            
   - title: PROGRAMAÇÃO C++
     children:  
       - title: Estrutura de arquivos
@@ -178,10 +178,12 @@ dev_me_conta:
 dev_jogatina:
   - title: A JOGATINA DAS DÉCADAS
     children:
-      - title: Os jogos
-        url: /pages/a_jogatina_das_decadas/
+      - title: Introdução
+        url: /pages/a_jogatina_das_decadas/introducao    
+      - title: O jogo
+        url: /pages/a_jogatina_das_decadas/ojogo
       - title: Jogos Eletrônicos
-        url: /pages/a_jogatina_das_decadas/jogos        
+        url: /pages/a_jogatina_das_decadas/jogos-eletronicos        
       - title: O comportamento
         url: /pages/a_jogatina_das_decadas/comportamento                
 
