@@ -1,6 +1,6 @@
 ---
 title: Introdução
-permalink: /pages/a_jogatina_das_decadas/introducao
+permalink: /pages/a-jogatina-das-decadas/introducao
 excerpt: "O objetivo deste curso é apresentar as características e elementos associados aos jogos eletrônicos."
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
