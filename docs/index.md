@@ -13,7 +13,7 @@ feature_row:
     alt: "A Jogatina das décadas"
     title: "A Jogatina das décadas"
     excerpt: "O objetivo deste curso é apresentar as características e elementos associados aos jogos eletrônicos."
-    url: "/pages/a_jogatina_das_decadas/introducao"
+    url: "/pages/a-jogatina-das-decadas/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
   - image_path: /assets/images/unreal/unreal_engine.webp
@@ -27,14 +27,14 @@ feature_row:
     alt: "Me conta uma história"
     title: "Me conta uma história"
     excerpt: "Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história."
-    url: "/pages/me_conta_uma_historia/introducao"
+    url: "/pages/me-conta-uma-historia/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"      
   - image_path: /assets/images/jogos_digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp
     alt: "Computação gráfica"
     title: "Computação gráfica"
     excerpt: "Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya."
-    url: "/pages/computacao_grafica/introducao"
+    url: "/pages/computacao-grafica/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"          
 ---
