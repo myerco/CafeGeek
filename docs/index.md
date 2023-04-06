@@ -1,7 +1,7 @@
 ---
 layout: splash
 permalink: /
-title: null
+title: Home
 hidden: true
 header:
   overlay_color: "#5e616c"

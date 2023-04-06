@@ -148,6 +148,8 @@ dev_unreal:
 dev_computacao:
   - title: COMPUTAÇÃO GRÁFICA    
     children:
+      - title: O curso de Computação Gráfica
+        url: /pages/computacao_grafica/sobre_computacao
       - title: Estrutura de objetos 3D
         url: /pages/computacao_grafica/      
       - title: Processamento de imagens 
