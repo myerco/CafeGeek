@@ -148,12 +148,12 @@ dev_unreal:
 dev_computacao:
   - title: COMPUTAÇÃO GRÁFICA    
     children:
-      - title: O curso de Computação Gráfica
-        url: /pages/computacao_grafica/sobre_computacao
+      - title: Introdução
+        url: /pages/computacao_grafica/introducao
       - title: Estrutura de objetos 3D
         url: /pages/computacao_grafica/estruturas_objetos3d      
-      - title: O Processo de renderização 
-        url:  /pages/computacao_grafica/processamento
+      - title: Renderização 
+        url:  /pages/computacao_grafica/renderizacao
   - title: RENDERIZAÇÃO COM UNREAL ENGINE                    
     children:  
       - title: Passos da renderização

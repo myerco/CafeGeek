@@ -1,6 +1,6 @@
 ---
-title: O Processo de renderização
-permalink: /pages/computacao_grafica/processamento
+title: Renderização
+permalink: /pages/computacao_grafica/renderizacao
 excerpt: Neste capitulo apresentaremos o processo de renderização de objetos 3D.
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true    
@@ -162,53 +162,3 @@ _Exemplo_: Um exemplo seria uma reta descrita matematicamente é infinitesimalme
 - Se você fizer modelos muito grandes, eventualmente eles simplesmente ficarão sem espaço UV.
   - Pior para calculo de colisão.
   - Pior para memoria.
-
-## 5. Referências
-
-- [O que é computação gráfica](http://www.um.pro.br/index.php?c=/computacao/definicao)
-- [Computação gráfica](https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_gr%C3%A1fica)
-- [Computação Gráfica e Jogos Digitais](https://medium.com/@bitsgrupo/computa%C3%A7%C3%A3o-gr%C3%A1fica-e-jogos-digitais-1e15f0febf7c)
-- [Introduction to Computer Graphics](http://math.hws.edu/graphicsbook/)
-- [An In-Depth Look at Real-Time Rendering](https://www.unrealengine.com/en-US/onlinelearning-courses/an-in-depth-look-at-real-time-rendering)
-- [Visibility and Occlusion Culling](https://docs.unrealengine.com/en-US/RenderingAndGraphics/VisibilityCulling/index.html)
-- [Visibilty Culling Reference](https://docs.unrealengine.com/en-US/RenderingAndGraphics/VisibilityCulling/VisibilityCullingReference/index.html)
-- [Cull Distance Volume](https://docs.unrealengine.com/en-US/RenderingAndGraphics/VisibilityCulling/CullDistanceVolume/index.html)
-- [WTF Is? Volume - Cull Distance in Unreal Engine 4](https://www.youtube.com/watch?v=g0ML7oJll3w)
-- [Process Explorer](https://docs.microsoft.com/en-us/sysinternals/downloads/process-explorer)
-- [Unreal’s Rendering Passes](https://unrealartoptimization.github.io/book/profiling/passes/)
-- [Measuring Performance](https://unrealartoptimization.github.io/book/process/measuring-performance/)
-- [Understanding Culling Methods - Live Training - Inside Unreal](https://youtu.be/6WtE3CoFMXU)
-- [how unreal renders a frame](https://interplayoflight.wordpress.com/2017/10/25/how-unreal-renders-a-frame/)
-- [Real-Time Rendering Fundamentals](https://www.unrealengine.com/en-US/onlinelearning-courses/real-time-rendering-fundamentals)
-- [How Unreal Renders a Frame](https://interplayoflight.wordpress.com/2017/10/25/how-unreal-renders-a-frame/)
-- [Introduction to Decal Rendering](https://samdriver.xyz/article/decal-render-intro)
-- [Vertex Shaders](https://www.nvidia.com/en-us/drivers/feature-vertexshader/)
-- [Verttex Shaders](https://pt.wikipedia.org/wiki/Vertex_shader)
-- [Deferred Shading](https://learnopengl.com/Advanced-Lighting/Deferred-Shading)
-- [Normal Mapping](https://learnopengl.com/Advanced-Lighting/Normal-Mapping)
-- [General-purpose computing on graphics processing units](https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units)
-- [gpu-rendering-and-game-graphics-explained](https://www.gamersnexus.net/guides/2429-gpu-rendering-and-game-graphics-explained)
-- [feature-vertexshader](https://www.nvidia.com/en-us/drivers/feature-vertexshader/)
-- [General-purpose_computing_on_graphics_processing_units](https://en.wikipedia.org/wiki/General-purpose_computing_on_graphics_processing_units)
-- [articles/forward-rendering-vs-deferred-rendering--gamedev-12342](https://gamedevelopment.tutsplus.com/articles/forward-rendering-vs-deferred-rendering--gamedev-12342)
-- [Graphics_pipeline](https://en.wikipedia.org/wiki/Graphics_pipeline)
-- [Vertex_pipeline](https://en.wikipedia.org/wiki/Vertex_pipeline)
-- [vertex-shader](https://www.pcmag.com/encyclopedia/term/vertex-shader)
-- [video-game-e-jogos/863-o-que-e-vertex-shading](https://www.tecmundo.com.br/video-game-e-jogos/863-o-que-e-vertex-shading-.htm)
-- [Geometry_Shader](https://www.khronos.org/opengl/wiki/Geometry_Shader)
-- [Fragment_Shader](https://www.khronos.org/opengl/wiki/Fragment_Shader)
-- [computer_graphics](https://en.wikipedia.org/wiki/Rendering_(computer_graphics))
-- [what-are-draw-calls](https://unreal.tips/en/what-are-draw-calls/)
-- [RPC](https://deinfo.uepg.br/~alunoso/2017/RPC/)
-- [pixels](https://bassemtodary.wordpress.com/tag/pixels/)
-- [Interplay of Light](https://interplayoflight.wordpress.com/2017/10/25/how-unreal-renders-a-frame-part-2/)
-- [Game Engine Overview](https://www.slideshare.net/sharadmitra/game-engine-overview)
-- [Polygon Mesh](https://pt.qaz.wiki/wiki/Polygon_mesh)
-- [How to Prepare Textures](https://vvvv.org/documentation/howto-prepare-textures)
-- [Computer Graphics. image treatment](https://www.petervaldivia.com/computer-graphics/)
-- [Maya tutorial : How to move your Pivot Point ( 2 methods )](https://www.youtube.com/watch?v=V4DwKcik4yU)
-- [UE4 Tutorial: Change Pivot Point on BSP or Static Mesh](https://www.youtube.com/watch?v=N1h5mMviSKs)
-- [HSV to RGB Material Function in Unreal Engine](https://ferkizue.blogspot.com/2018/06/hsv-to-rgb-material-function-in-unreal.html)
-- [Alpha compositing](https://en.wikipedia.org/wiki/Alpha_compositing)
-- [Alpha (alpha channel)](https://developer.mozilla.org/en-US/docs/Glossary/Alpha)
-- [RGB Color Codes Chart](https://www.rapidtables.com/web/color/RGB_Color.html)

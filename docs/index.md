@@ -34,7 +34,7 @@ feature_row:
     alt: "Computação gráfica"
     title: "Computação gráfica"
     excerpt: "Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya."
-    url: "/pages/computacao_grafica/sobre_computacao"
+    url: "/pages/computacao_grafica/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"          
 ---
