@@ -1,5 +1,5 @@
 ---
-title: Renderização com Unreal Engine
+title: Passos da renderizaçãos
 permalink: /pages/computacao_grafica/renderizacao_unreal
 excerpt: Neste capitulo vamos analisar como é realizado o processamento de imagens pela CPU e GPU pelo Unreal Engine.
 last_modified_at: 2023-03-27T08:48:05-04:00
@@ -10,7 +10,7 @@ sidebar:
 
 {% include figure image_path="/assets/images/jogos_digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
 
-## 1. O processo de renderização no Unreal Engine
+## 1. Lista de Frames e Threads
 
 Para exemplificar o processo de renderização vamos apresentar os seguintes passos conforme as _thread_ são executas:
 
