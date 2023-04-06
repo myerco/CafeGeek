@@ -47,11 +47,11 @@ nossa nomenclatura."
 **Informação:** Latim “Ludus”, “Ludere” que designava os jogos infantis.
 {: .notice--info}
 
-### 1.1. O curso de Jogatina das Décadas
+## 2. O curso de Jogatina das Décadas
 
 O objetivo deste curso é apresentar e trabalhar com a definição do que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização. O curso está associado a construção **Estética** do jogo pois nele definimos elementos como sensação, desafio, descoberta e passatempo.
 
-#### 1.1.1. Habilidades que serão aprendidas
+## 3. Habilidades que serão aprendidas
 
 - Analise e conceitue jogos;
 

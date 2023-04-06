@@ -1,6 +1,6 @@
 ---
 title: Passos da renderizaçãos
-permalink: /pages/computacao_grafica/renderizacao-unreal
+permalink: /pages/computacao-grafica/renderizacao-unreal
 excerpt: Neste capitulo vamos analisar como é realizado o processamento de imagens pela CPU e GPU pelo Unreal Engine.
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true    

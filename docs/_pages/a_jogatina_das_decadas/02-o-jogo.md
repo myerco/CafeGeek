@@ -8,6 +8,8 @@ sidebar:
     nav: dev_jogatina
 ---
 
+{% include figure image_path="/assets/images/jogatina_das_decadas/jogatina_das_decadas.webp" alt="Brecht Corbeel" caption="" %}
+
 ## 1. Teria o jogo lugar no sistema de vida?
 
 {% include imagelocal.html
@@ -376,11 +378,9 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 
 ### 6.4. Música
 
-{% include image.html
-    src="https://img.youtube.com/vi/LnG6icGIm0o/0.jpg"
-    alt="Figura: Life is Strange."
-    caption="Figura: Life is Strange."
-%}
+{% include video id="LnG6icGIm0o" provider="youtube" %}
+
+{% include video id="xzCEdSKMkdU" provider="youtube" %}
 
 ### 6.5. Efeitos especiais
 

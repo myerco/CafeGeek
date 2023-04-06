@@ -1,6 +1,6 @@
 ---
 title: Os elementos da história
-permalink: /pages/elementos_historia/
+permalink: /pages/me-conta-uma-historia/elementos-historia
 excerpt: Neste capítulo vamos apresentar os elementos necessários de uma história para um jogo eletrônico.
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
@@ -10,9 +10,8 @@ sidebar:
 
 ## 1. Como construir os personagens?
 
-> "Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro."
->
-> Alan Wake.
+Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro. **Alan Wake**
+{: .notice} 
 
 {% include imagelocal.html
     src="me_conte_uma_historia/AR18-1.webp"
@@ -606,11 +605,3 @@ Inimigos não inimigos.
 %}
 
 ### 2.10. Locação
-
-## 3. Referências
-
-- Level UP : Um guia para o Design de grandes Jogos ,ROGERS, Scott, 1ª Ed, RIO DE JANEIRO: 2013.
-
-- Introdução ao desenvolvimento de jogos digitais, Steve Rabin, Editora Cengage Learning, 2012.
-
-- [MODELO DE ROTEIRO CURTA-METRAGEM](http://animafro.com.br/wp-content/uploads/2015/12/MODELO-DE-ROTEIRO.pdf)

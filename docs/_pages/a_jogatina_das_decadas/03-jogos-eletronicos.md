@@ -8,10 +8,12 @@ sidebar:
     nav: dev_jogatina
 ---
 
+{% include figure image_path="/assets/images/jogatina_das_decadas/jogatina_das_decadas.webp" alt="Brecht Corbeel" caption="" %}
+
 ## 1. Como são classificados os jogos?
 
-Guerra... A guerra nunca muda. Fallout.
-{: .notice} 
+Guerra... A guerra nunca muda. **Fallout**.
+{: .notice}
 
 Podemos classificar os jogos para determinar ou mostrar a sua função dentro de um modelo de lazer ou recreação.
 
@@ -77,8 +79,8 @@ Trabalham com reflexos, coordenação e cognição.
 
 ## 2. O que é um jogo eletrônico?
 
-O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pessoa, mas ninguém pode mudá-la. Uma coisa que não muda com o tempo é a memória dos dias mais jovens. The Legend of Zelda: Ocarina of Time.
-{: .notice} 
+O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pessoa, mas ninguém pode mudá-la. Uma coisa que não muda com o tempo é a memória dos dias mais jovens. **The Legend of Zelda: Ocarina of Time**.
+{: .notice}
 
 {% include image.html
     src="https://covildosjogos.com.br/wp-content/uploads/2020/06/f782e9b5-9331-47cb-83a0-838e7515eb14-768x1024.jpg"

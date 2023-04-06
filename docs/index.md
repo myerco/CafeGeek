@@ -27,7 +27,7 @@ feature_row:
     alt: "Me conta uma história"
     title: "Me conta uma história"
     excerpt: "Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história."
-    url: "/pages/me_conta_uma_historia/"
+    url: "/pages/me_conta_uma_historia/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"      
   - image_path: /assets/images/jogos_digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp

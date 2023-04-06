@@ -149,17 +149,17 @@ dev_computacao:
   - title: COMPUTAÇÃO GRÁFICA    
     children:
       - title: Introdução
-        url: /pages/computacao_grafica/introducao
+        url: /pages/computacao-grafica/introducao
       - title: Estrutura de objetos 3D
-        url: /pages/computacao_grafica/estruturas-objetos3d      
+        url: /pages/computacao-grafica/estruturas-objetos3d      
       - title: Renderização 
-        url:  /pages/computacao_grafica/renderizacao
+        url:  /pages/computacao-grafica/renderizacao
   - title: RENDERIZAÇÃO COM UNREAL ENGINE                    
     children:  
       - title: Passos da renderização
-        url:  /pages/computacao_grafica/renderizacao-unreal    
+        url:  /pages/computacao-grafica/renderizacao-unreal    
       - title: Visibilidade e Oclusão
-        url:  /pages/computacao_grafica/visibilidade-oclusao            
+        url:  /pages/computacao-grafica/visibilidade-oclusao            
   - title: PROGRAMAÇÃO C++
     children:  
       - title: Estrutura de arquivos
@@ -170,22 +170,24 @@ dev_computacao:
 dev_me_conta:
   - title: ME CONTA UMA HISTÓRIA
     children:
+      - title: Introdução
+        url: /pages/me-conta-uma-historia/introducao
       - title: Organizando as ideias
-        url: /pages/me_conta_uma_historia/
+        url: /pages/me-conta-uma-historia/organizando-ideias
       - title: Os elementos da história
-        url: /pages/elementos_historia/        
+        url: /pages/me-conta-uma-historia/elementos-historia       
 
 dev_jogatina:
   - title: A JOGATINA DAS DÉCADAS
     children:
       - title: Introdução
-        url: /pages/a_jogatina_das_decadas/introducao    
+        url: /pages/a-jogatina-das-decadas/introducao    
       - title: O jogo
-        url: /pages/a_jogatina_das_decadas/ojogo
+        url: /pages/a-jogatina-das-decadas/ojogo
       - title: Jogos Eletrônicos
-        url: /pages/a_jogatina_das_decadas/jogos-eletronicos        
+        url: /pages/a-jogatina-das-decadas/jogos-eletronicos        
       - title: O comportamento
-        url: /pages/a_jogatina_das_decadas/comportamento                
+        url: /pages/a-jogatina-das-decadas/comportamento                
 
 dev_modelagem3d:
   - title: MODELAGEM 3D
