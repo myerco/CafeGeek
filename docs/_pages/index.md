@@ -1,6 +1,6 @@
 ---
 layout: splash
-permalink: /
+permalink: /pages
 hidden: true
   
 ---
