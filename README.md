@@ -10,14 +10,13 @@
 
 <h2 align="center">
    Bem vindo ao Cafegeek
-</h2> 
+</h2>
 
 <p align="center">
 
 ## CafeGeek
 
 O CafeGeek é um site educacional com foco em desenvolvimento de jogos digitais e as disciplinas que orbitam este fantástico mundo.
-
 
 <div>
  <a href="https://github.com/myerco/">

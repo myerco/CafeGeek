@@ -460,7 +460,7 @@ A necessidade do sistema executar os passos acima e efetuar vários cálculos pa
 
 - Configurando `Distance Culling` os objetos não vão ser renderizados na cena mas o calculo de oclusão ainda é realizado;
 - Mais de 10-15k objetos podem ter grande impacto;
-- Maior parte nos processos que usam muita CPU mas tem algum impacto na GPU;
+- Maior parte nos processos que usam muita CPU, mas tem algum impacto na GPU;
 - Grandes ambientes não ocluem bem, pois a cena apresenta qualquer coisa e não podemos esconder os objetos, se você pode ver qualquer coisa não podemos ocluir algo;
 - A mesma coisa para as partículas, pois as partículas usam `Bounding Box` e esse elemento é alterado várias vezes por segundo, se o elemento é visível ele vai ser renderizado;
 - Modelos grandes raramente irão ocluir e, assim, aumentar GPU;
