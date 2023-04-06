@@ -1,5 +1,5 @@
 ---
-title: Visebilidade e Oclusão
+title: Visibilidade e Oclusão
 permalink: /pages/computacao_grafica/visibilidade_oclusao
 excerpt: Neste capitulo apresentaremos o processo de renderização de objetos 3D.
 last_modified_at: 2023-03-27T08:48:05-04:00
@@ -10,12 +10,12 @@ sidebar:
 
 {% include figure image_path="/assets/images/jogos_digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
 
-## 2. Distance Culling ou corte de distância
+## 1. Distance Culling ou corte de distância
 
 Este método de seleção é ideal para grandes níveis externos, onde você teria edifícios ou estruturas de algum tipo com interiores detalhados, onde você gostaria de selecionar aqueles objetos que são pequenos demais para considerar importantes a distâncias distantes.
 {: .text-justify}
 
-### 2.1. Atores na cena
+### 1.1. Atores na cena
 
 Atores selecionados em um Nível ou **Blueprint** contêm configurações de distância acessadas por meio de seu painel Detalhes. Eles permitem que distâncias por instância sejam definidas ou se o Ator é selecionado usando um `Cull Distance Volume`.
 {: .text-justify}
@@ -43,7 +43,7 @@ Desired Max Draw Distance = 1000
 **Nota:** O objeto vai ser renderizado quando a câmera se aproximar a uma distância **MENOR** que 1000 centímetros.
 {: .notice--warning}
 
-### 2.2. Cull Distance Volume
+### 1.2. Cull Distance Volume
 
 `Cull Distance Volumes` permitem que você especifique uma variedade de tamanhos e distâncias de seleção para que os Atores não devam mais ser desenhados.
 {: .text-justify}
@@ -83,7 +83,7 @@ _Exemplo_ : Valores dos cortes de distância.
   Cull Distance = 1500  
 ```
 
-### 2.3. Frustum Culling ou corte de câmera
+## 2. Frustum Culling ou corte de câmera
 
 A seleção de **View Frustum** usa a área visível da tela do campo de visão (FOV) da câmera para selecionar objetos fora deste espaço.
 
@@ -126,7 +126,7 @@ Configurando o Unreal Engine para visualizar o corte de câmera.
     caption="Show > Advanced > Camera frustum."
 %}
 
-### 2.4. Precomputed Visibility - Visibilidade pré-computada
+## 3. Precomputed Visibility - Visibilidade pré-computada
 
 Armazenam o estado de visibilidade de atores não móveis (**Static**) em células colocadas acima de superfícies de projeção de sombras. Este método de seleção gera dados de visibilidade _offline_ (durante uma construção de iluminação) e funciona melhor para níveis de tamanho pequeno a médio.
 
@@ -149,7 +149,6 @@ A **Precomputed Visibility** é ideal para hardware inferior e dispositivos móv
 
 É necessário definir o tamanho do volume para abranger a área analisada.
 
-
 {% include imagelocal.html
     src="computacao_grafica/ue4_precomputed_visibility_volume.jpg"
     alt="Figura: Precomputed Visibility Cells, em azul as células."
@@ -165,7 +164,7 @@ A câmera ao entrar na célula pergunta:
 - O que pode ser renderizando e o que eu não devo renderizar?;
 - Neste local, lembramos que esses objetos eram visíveis e estes outros não eram.
 
-## 3. Occlusion Culling
+## 4. Occlusion Culling
 
 O sistema de oclusão dinâmica no Unreal Engine vem com vários métodos de abate para escolher. Cada um desses métodos rastreia os estados de visibilidade dos Atores em um nível dentro do tronco de visão da câmera (ou campo de visão) que são obstruídos por outro Ator. As consultas são emitidas para a GPU ou CPU para verificar o estado de visibilidade de cada ator. Uma heurística é usada para reduzir o número de verificações de visibilidade necessárias, por sua vez, aumentando a eficácia geral de seleção e o desempenho.
 {: .text-justify}
@@ -242,7 +241,7 @@ Occlusion Culling é um processo pesado a partir de 10.000 objetos na cena, abai
 
 A necessidade do sistema executar os passos acima e efetuar vários cálculos para cada um pode tornar o processo pesado.
 
-### 3.1. Implicações de desempenho de oclusão
+### 4.1. Implicações de desempenho de oclusão
 
 - Configurando `Distance Culling` os objetos não vão ser renderizados na cena mas o calculo de oclusão ainda é realizado;
 - Mais de 10-15k objetos podem ter grande impacto;
@@ -269,7 +268,7 @@ _Exemplo_: Abaixo temos uma lista de modelos para renderizar:
 
 O resultado é que somente os modelos A,B,D são processados na GPU.
 
-### 3.2. Drawcalls
+### 4.2. Drawcalls
 
 A GPU agora começa a renderizar, sendo feito objeto por objeto (DrawCall).
 
@@ -307,7 +306,7 @@ O chão é renderizado primeiro e depois os cilindos, isto se deve porque a cena
 **Nota:** A ordem de renderização não tem impacto no processamento.
 {: .notice--warning}
 
-### 3.3. Comando Stat RHI
+### 4.3. Comando Stat RHI
 
 RHI significa Rendering Hardware Interface. Este comando exibe várias estatísticas exclusivas:
 
@@ -332,7 +331,7 @@ Comando do console:
 stat RHI
 ```
 
-### 3.4. O comando Stat unit e Stat FPS
+### 4.4. O comando Stat unit e Stat FPS
 
 **Stat fps** nos mostra o número final de _fps_ e o tempo que levou para renderizar o último quadro. É o tempo total. Mas ainda não sabemos se o custo foi causado pela CPU ou pela GPU. Como explicado antes, um tem que esperar o outro. A renderização rápida na placa de vídeo não ajudará, se a CPU precisar de mais tempo para terminar o trabalho de jogabilidade, desenho (gerenciando a GPU) ou física.
 
@@ -357,7 +356,7 @@ stat fps
 stat unit
 ```
 
-### 3.5. Considerações
+### 4.5. O custo da oclusão
 
 **1.** 2000 - 3.000 é razoável;
 

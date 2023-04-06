@@ -152,7 +152,7 @@ dev_computacao:
         url: /pages/computacao_grafica/sobre_computacao
       - title: Estrutura de objetos 3D
         url: /pages/computacao_grafica/estruturas_objetos3d      
-      - title: Processamento de imagens 
+      - title: O Processo de renderização 
         url:  /pages/computacao_grafica/processamento
   - title: RENDERIZAÇÃO COM UNREAL ENGINE                    
     children:  
@@ -160,8 +160,6 @@ dev_computacao:
         url:  /pages/computacao_grafica/renderizacao_unreal    
       - title: Visibilidade e Oclusão
         url:  /pages/computacao_grafica/visibilidade_oclusao            
-      - title: Programação C++
-        url: /pages/cpp/      
   - title: PROGRAMAÇÃO C++
     children:  
       - title: Estrutura de arquivos

@@ -1,5 +1,5 @@
 ---
-title: Processamento de imagens
+title: O Processo de renderização
 permalink: /pages/computacao_grafica/processamento
 excerpt: Neste capitulo apresentaremos o processo de renderização de objetos 3D.
 last_modified_at: 2023-03-27T08:48:05-04:00
@@ -12,9 +12,11 @@ sidebar:
 
 ## 1. Entendendo o processo de renderização
 
-Neste capitulo serão apresentados quais são os passos para processamento de imagens no computador.
+A renderização de imagens 3D é um processo complexo que envolve várias etapas. Em geral, o processo de renderização envolve a conversão de dados de modelos 3D em imagens 2D usando técnicas de iluminação, sombreamento e texturização para criar uma imagem final realista.
 
-### 1.1. Entendendo como os processos são executados pelo sistema operacional
+Mas antes de abordar o processo de renderização é necessário entender como os processos ou tarefas são executados pelos sistemas operacionais.
+
+## 2. Entendendo como os processos são executados pelo sistema operacional
 
 Em computação, um processo é uma instância de um programa de computador que está sendo executado. Ele contem o código do programa e sua atividade atual. Dependendo do sistema operacional, um processo pode ser feito de várias linhas de execução que executam instruções concorrentemente. O sistema operacional seleciona um processo da fila de aptos para receber o processador. O processo selecionado passa do estado de apto para o estado executando. O módulo do sistema operacional que faz essa seleção é chamado de escalonador.
 {: .text-justify}
@@ -39,7 +41,7 @@ Em computação, um processo é uma instância de um programa de computador que 
 
 **Threads** - Thread é um pequeno programa que trabalha como um subsistema, sendo uma forma de um processo se auto dividir em duas ou mais tarefas. É o termo em inglês para Linha ou Encadeamento de Execução. Essas tarefas múltiplas podem ser executadas simultaneamente para rodar mais rápido do que um programa em um único bloco ou praticamente juntas, mas que são tão rápidas que parecem estar trabalhando em conjunto ao mesmo tempo.
 
-### 1.2. O processo de renderização pela GPU
+## 3. O processo de renderização pela GPU
 
 A renderização GPU torna possível usar sua placa de vídeo para renderização, ao invés da CPU. Isso pode acelerar a renderização, porquê as GPUs modernas são desenhadas para fazer muito processamento de números. Por outro lado, elas também têm algumas limitações na renderização de cenas complexas devido à memória mais limitada, e questões com interatividade quando usando a mesma placa de vídeo para visualização e renderização.
 {: .text-justify}
@@ -53,7 +55,7 @@ A renderização ocorre mediante o envio de comandos para a GPU, que gera a tela
     caption="Fluxo de trabalho do processo de renderização."
 %}
 
-### 1.3. Aplicação
+### 3.1. Aplicação
 
 Etapa de toda a lógica da mecânica dos elementos que são apresentados.
 
@@ -65,7 +67,7 @@ Etapa de toda a lógica da mecânica dos elementos que são apresentados.
 
 **Spawn and Hide objects** - É a lógica necessária para determinar onde os objetos aparecem no mundo.
 
-### 1.4. Geometria
+### 3.2. Geometria
 
 A etapa de geometria (com pipeline de geometria), é responsável pela maioria das operações com polígonos e seus vértices (com pipeline de vértices), pode ser dividida nas tarefas a seguir. Depende da implementação específica de como essas tarefas são organizadas em pipeline paralelo.
 {: .text-justify}
@@ -79,7 +81,7 @@ A etapa de geometria (com pipeline de geometria), é responsável pela maioria d
 **Occlusion Culling** - Ou Corte de oclusão é o processo que desativa a renderização de objetos quando eles não são vistos pela câmera porque estão obscurecidos (obstruídos) por outros objetos. Isso não acontece automaticamente na computação gráfica 3D, pois na maioria das vezes os objetos mais distantes da câmera são desenhados primeiro e os objetos mais próximos são desenhados por cima deles (isso é chamado de “overdraw”).
 {: .text-justify}
 
-### 1.5. Renderização
+### 3.3. Renderização
 
 **DrawCalls** - Grupo de polígonos que compartilham a mesmo material. Os desenhos de chamadas, em uma tradução ao pé da letra, basicamente são quantos objetos estão sendo desenhados na tela. Você deseja manter esse número baixo para manter um bom desempenho, portanto, nas luzes dos pixels, fazem os objetos serem desenhados tantas vezes quanto as luzes que os afetam.
 {: .text-justify}
@@ -131,7 +133,7 @@ _Exemplo_: Um exemplo seria uma reta descrita matematicamente é infinitesimalme
     ref="https://portaleletronica.com.br/images/Imagens/Comp_Graf/Parte_3_Rasterizao.pdf"
 %}
 
-### 1.6. Conclusão
+## 4. O custo da renderização
 
 **Nota:** Componentes = `DrawCalls`
 {: .notice--warning}
@@ -161,7 +163,7 @@ _Exemplo_: Um exemplo seria uma reta descrita matematicamente é infinitesimalme
   - Pior para calculo de colisão.
   - Pior para memoria.
 
-## 2. Referências
+## 5. Referências
 
 - [O que é computação gráfica](http://www.um.pro.br/index.php?c=/computacao/definicao)
 - [Computação gráfica](https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_gr%C3%A1fica)
