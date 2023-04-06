@@ -151,11 +151,18 @@ dev_computacao:
       - title: O curso de Computação Gráfica
         url: /pages/computacao_grafica/sobre_computacao
       - title: Estrutura de objetos 3D
-        url: /pages/computacao_grafica/      
+        url: /pages/computacao_grafica/estruturas_objetos3d      
       - title: Processamento de imagens 
         url:  /pages/computacao_grafica/processamento
+  - title: RENDERIZAÇÃO COM UNREAL ENGINE                    
+    children:  
+      - title: Passos da renderização
+        url:  /pages/computacao_grafica/renderizacao_unreal    
+      - title: Visibilidade e Oclusão
+        url:  /pages/computacao_grafica/visibilidade_oclusaos            
       - title: Programação C++
         url: /pages/cpp/      
+
 
 dev_me_conta:
   - title: ME CONTA UMA HISTÓRIA

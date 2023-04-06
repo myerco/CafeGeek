@@ -1,6 +1,6 @@
 ---
 title: Estrutura de objetos 3D
-permalink: /pages/computacao_grafica/
+permalink: /pages/computacao_grafica/estruturas_objetos3d
 excerpt: Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya.
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true  
@@ -10,9 +10,16 @@ sidebar:
 
 {% include figure image_path="/assets/images/jogos_digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
 
-## 1. Como são formados os objetos 3D
+## 1. Como são formados os objetos 3D?
 
-Neste capitulo será apresentados os elementos que constituem uma imagem 3D utilizando como exemplo softwares como o Unreal Engine e Maya Autodesk.
+Os objetos 3D são formados no computador através de processos de modelagem 3D, que podem ser realizados por meio de diferentes softwares, como o Blender, Maya, 3D Studio Max, entre outros.
+
+Na modelagem 3D, o artista ou designer cria um modelo tridimensional digital do objeto, utilizando ferramentas como polígonos, curvas, superfícies e texturas. Esses modelos são criados a partir de uma variedade de técnicas, como modelagem por subdivisão, escultura digital e modelagem por NURBS.
+
+Uma vez que o modelo 3D é criado, ele pode ser texturizado, iluminado e renderizado, permitindo a criação de imagens realistas do objeto em diferentes ambientes e condições de iluminação.
+
+**Nota:** As telas dos computadores são essencialmente bidimensionais, são gráficos 3D são apenas ilusões de óptica 2D que fazem o seu cérebro achar que está olhando para um objeto 3D. [Fomas 3D](https://pt.khanacademy.org/computing/computer-programming/programming-games-visualizations/programming-3d-shapes/a/what-are-3d-shapes)
+{: .notice--info}
 
 ### 1.1. Quais são os elementos que compõem imagens?
 
@@ -46,7 +53,7 @@ Em um programa de gráficos vetoriais, fornecemos o ponto inicial e o ponto fina
 
 Mas tem outra vantagem. Se aplicarmos zoom a uma imagem bitmap, podemos ver os pixels e teremos uma imagem ruim. Em gráficos vetoriais, ampliar uma imagem não envolve uma imagem ruim porque a imagem é criada por uma fórmula matemática.
 
-### 1.4. Lista de formatos e texturas que o Unreal Engine suporta
+## 2. Lista de formatos e texturas que o Unreal Engine suporta
 
 Para Materiais, as texturas são mapeadas para as superfícies às quais o Material é aplicado. As texturas podem ser usadas para uma variedade de cálculos dentro de um Material, sendo aplicadas diretamente a uma entrada (como Cor Base), usadas como uma máscara ou usando os valores RGBA para outros cálculos.
 
@@ -64,7 +71,7 @@ Uma variedade de formatos de imagem e tipos de arquivo são suportados:
 - .jpg - Bitmap com metadados e compressão;
 - .exr.
 
-## 2. O que são Pontos?
+## 3. O que são Pontos?
 
 Na geometria, um ponto é representado por sua coordenada no espaço. Geometria usa um sistema de coordenadas cartesianas, onde as coordenadas de um ponto em espaço são representados pela distância ao longo de cada um dos eixos principais para o ponto.
 
@@ -77,7 +84,7 @@ Na geometria, um ponto é representado por sua coordenada no espaço. Geometria 
 
 Pontos são representados por pixels em monitores.
 
-### 2.1. Pixel
+### 3.1. Pixel
 
 "A palavra pixel é uma combinação dos termos “picture” e “element”. Ou seja, “elemento de imagem”. É a menor unidade de uma imagem digital, independente de sua fonte. Se você pegar uma foto e fizer uma aproximação (zoom), verá uma série de quadradinhos que a compõem. Cada um desses quadros é um pixel. São milhões ou milhares deles."[[O que é um pixel?](https://tecnoblog.net/responde/o-que-e-um-pixel/)]
 {: .text-justify}
@@ -90,7 +97,7 @@ Pixel é o menor elemento em um dispositivo de exibição, sendo que cada pixel 
     caption="Um exemplo de formação de imagens."
 %}
 
-### 2.2. Bits por pixel
+### 3.2. Bits por pixel
 
 {% include image.html
     src="https://www.researchgate.net/publication/366169511/figure/fig2/AS:11431281106419063@1670675652164/Pixel-size-of-different-color-The-size-of-an-image-file-then-is-directly-related-to.png"
@@ -110,7 +117,7 @@ As cores do pixel dependem da quantidade de bits por pixel (bpp).
 
 Aumentando a qualidade de cores a imagem terá uma aparência mais realista mas consumira mais memória e processamento.
 
-### 2.3. Uma dica para utilizar texturas no Unreal Engine
+### 3.3. Uma dica para utilizar texturas no Unreal Engine
 
 Formatos de textura menores resultam em materiais mais rápidos (por exemplo, [DXT1](https://www.khronos.org/opengl/wiki/S3_Texture_Compression) é de 4 bits por pixel, DXT5 é de 8 bpp, ARGB descompactado é de 32 bpp).
 
@@ -119,7 +126,7 @@ Formatos de textura menores resultam em materiais mais rápidos (por exemplo, [D
 
 **GIMP:** [Exportando imagens do **Gimp** com compressão DXT1](https://wiki.thedarkmod.com/index.php?title=DDS_Creation_with_GIMP)
 
-## 3. Linhas, raios e segmentos
+## 4. Linhas, raios e segmentos
 
 Uma linha tem direção e comprimento infinito. A direção de uma linha pode ser definido por dois pontos distintos pelos quais a linha passa.
 
@@ -135,7 +142,7 @@ Um segmento de linha é uma linha de comprimento finito definida por seus dois p
     ref="https://cdn1.byjus.com"
 %}
 
-### 3.1. Planos e Triângulos
+### 4.1. Planos e Triângulos
 
 Um plano é uma folha orientada em 3 espaços sem espessura e com uma extensão infinita.
 
@@ -152,13 +159,13 @@ Um triângulo também é definido por três pontos no espaço 3 chamados **Vért
     ref="https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/shading-normals"
 %}
 
-## 4. Polígonos (Polygon)
+## 5. Polígonos (Polygon)
 
 As imagens tridimensionais formadas no computador são compostas por polígonos.
 
 Polígonos são uma coleção de vértices, arestas e faces que definem a forma do objeto poliédrico.
 
-### 4.1. Polígonos no Maya
+### 5.1. Polígonos no Maya
 
 Utilizando as opções em **Poly Modeling** podemos definir uma séria de elementos poligonais.
 
@@ -180,7 +187,7 @@ Apresentado a quantidade de vértices e arestas.
   
 `Display` > `Heads up display` > `Poly Count`.
 
-### 4.2. Polígonos no Unreal Engine
+### 5.2. Polígonos no Unreal Engine
 
 Selecionando `Brush Wireframe` no `View Port` ou pressionando *Alt+2* a estrutura de malha de vértices dos polígonos na cena.
 
@@ -196,7 +203,7 @@ Selecionando `Brush Wireframe` no `View Port` ou pressionando *Alt+2* a estrutur
     caption="Visualizando estatísticas - Window > Statistics."
 %}
 
-## 5. Face
+## 6. Face
 
 São as superfícies planas que constituem um sólido. Consistem em triângulos (malha de triângulo), quadriláteros ou outros polígonos convexos simples, uma vez que isso simplifica a renderização.
 
@@ -207,7 +214,7 @@ São as superfícies planas que constituem um sólido. Consistem em triângulos 
     ref="https://www.alura.com.br/artigos/topologia-3d-por-que-e-importante"
 %}
 
-### 5.1. Faces no Maya
+### 6.1. Faces no Maya
 
 Com botão direito pressionado (RMB) escolha **Face** para selecionar  a face.
 
@@ -223,7 +230,7 @@ Com botão direito pressionado (RMB) escolha **Face** para selecionar  a face.
     caption="A face selecionada fica em outra cor."
 %}
 
-### 5.2. Faces no Unreal Engine
+### 6.2. Faces no Unreal Engine
 
 Somente é possível selecionar faces e vértices de objetos do tipo `Geometry` em `Place Actors`.
 
@@ -235,11 +242,11 @@ Somente é possível selecionar faces e vértices de objetos do tipo `Geometry` 
     caption="Para editar a face no Unreal Engine utilize Modes > Brush Editing"
 %}
 
-## 6. Aresta
+## 7. Aresta
 
 São segmentos de reta que são as intersecções de duas faces contíguas.
 
-### 6.1. Arestas no Maya
+### 7.1. Arestas no Maya
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_maya_select_edge.jpg"
@@ -253,7 +260,7 @@ São segmentos de reta que são as intersecções de duas faces contíguas.
     caption="Selecionando a aresta é possível e manipular-la."
 %}
 
-### 6.2. Arestas no Unreal Engine
+### 7.2. Arestas no Unreal Engine
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_select_edge.jpg"
@@ -261,11 +268,11 @@ São segmentos de reta que são as intersecções de duas faces contíguas.
     caption="Utilizamos - Modes > Brush Editing > Select Edge."
 %}
 
-## 7. Vértices
+## 8. Vértices
 
 São os pontos de encontro das arestas.
 
-### 7.1. Vértices no Maya
+### 8.1. Vértices no Maya
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_maya_select_vertex.jpg"
@@ -279,7 +286,7 @@ São os pontos de encontro das arestas.
     caption="Selecionando um vértice."
 %}
 
-### 7.2. Vértices no Unreal Engine
+### 8.2. Vértices no Unreal Engine
 
 {% include imagelocal.html
     src="computacao_grafica/ue4_select_vertex.jpg"
@@ -287,7 +294,7 @@ São os pontos de encontro das arestas.
     caption="Brush Editing."
 %}
 
-## 8. Valores de ponto flutuante
+## 9. Valores de ponto flutuante
 
 Na matemática, todos os cálculos são exatos e realizam aritmética sobre os valores e não alteram sua precisão. No entanto, os computadores armazenam aproximações para números reais como valores de ponto flutuante e realizando operações aritméticas podem fazer com que sua precisão mude. Nem todos os números reais podem ser representados exatamente por uma representação de ponto flutuante. Números como π e outros transcendentais os números têm uma expansão decimal infinita.
 A natureza aproximada dos números de ponto flutuante geralmente levanta sua cabeça ao comparar números de ponto flutuante e outras estruturas compostas de números de pontos, como pontos, vetores, retas, planos, matrizes e assim por diante.
@@ -300,7 +307,7 @@ A natureza aproximada dos números de ponto flutuante geralmente levanta sua cab
     ref="https://media.geeksforgeeks.org"
 %}
 
-## 9. Sistemas de coordenadas
+## 10. Sistemas de coordenadas
 
 Objetos em Computação Gráfica possuem descrições numéricas (modelos) que caracterizam suas formas e dimensões. Esses números se referem a um sistema de coordenadas, normalmente o sistema Cartesiano de coordenadas: x, y e z.  Em alguns casos, precisamos de mais de um sistema de coordenadas.
 
@@ -314,7 +321,7 @@ Objetos em Computação Gráfica possuem descrições numéricas (modelos) que c
 Normalmente, os softwares de elementos gráficos 3D, como por exemplo Maya ou Blender,  usam um dos dois tipos de sistemas de coordenadas cartesianas de esquerda e direita. Em ambos os sistemas de coordenadas, o eixo x positivo aponta para a direita e o eixo y positivo aponta para cima.
 {: .text-justify}
 
-### 9.1. À esquerda e à direita serão entregues de coordenadas
+### 10.1. À esquerda e à direita serão entregues de coordenadas
 
 Você pode lembrar para qual direção o eixo z positivo aponta, apontando os dedos de sua mão direita ou esquerda na direção x positiva e curvando-os na direção y positiva. A direção do seu polegar aponta em sua direção ou para longe de você, é a direção em que o eixo z positivo aponta para esse sistema de coordenadas. A ilustração a seguir mostra esses dois sistemas de coordenadas.
 {: .text-justify}
@@ -330,7 +337,7 @@ Você pode lembrar para qual direção o eixo z positivo aponta, apontando os de
   
 **Maya** - Utiliza o sistema de coordenadas *Right-Handed*.
 
-### 9.2. Pivot - O centro do objeto 3D no Maya
+### 10.2. Pivot - O centro do objeto 3D no Maya
 
 Pivot é um ponto que marca o centro de objetos tridimensionais no Maya, onde :
 
@@ -343,11 +350,11 @@ Pivot é um ponto que marca o centro de objetos tridimensionais no Maya, onde :
     caption="Selecione o pivot usando a tecla W e depois Tecla Insert ou D."
 %}
 
-### 9.3. Pivot - O centro do objeto 3D no Unreal Engine
+### 10.3. Pivot - O centro do objeto 3D no Unreal Engine
 
 Comando : Alt + Scroll mouse.
 
-## 10. Cor
+## 11. Cor
 
 Uma cor é descrita para o computador como uma tupla ordenada de valores de um **cor space** (espaço de cor). Os próprios valores são chamados de **components**(componentes) e são coordenados no espaço de cores. O GDI do Windows representa as cores como uma tupla ordenada de componentes vermelhos, verdes e azuis com cada componente no intervalo [0 . 0 , 1 . 0] representado como uma quantidade de bytes sem sinal no intervalo [0 , 255].
 {: .text-justify}
@@ -360,7 +367,7 @@ Em computação gráfica, muitas vezes é conveniente usar as cores HLS e HSV.
   
 - HSV: matiz,saturação,valor.
 
-## 11. Transparência com Alpha
+## 12. Transparência com Alpha
 
 Muitas vezes, em computação gráfica, desejamos combinar pixels como se eles fossem pintados em folhas transparentes empilhadas umas sobre as outras. No Direct3D, a transparência é representada como um canal adicional de informações que representam a quantidade de transparência do pixel.
 {: .text-justify}
