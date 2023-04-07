@@ -85,7 +85,7 @@ Antes de iniciar o trabalho devemos habilitar o plugin `Paper2D` em menu `Edit` 
     caption="Após habilitar o plugin é necessário reiniciar o Unreal Engine."
 %}
 
-**Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal-engine/instalacao_configuracao#6-organizando-as-pastas).
+**Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal-engine/instalacao-configuracao#6-organizando-as-pastas).
 {: .notice--warning}
 
 ## 4. Preparando o ViewPort

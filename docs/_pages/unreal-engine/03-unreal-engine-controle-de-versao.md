@@ -170,7 +170,7 @@ Logo em seguida inicialize o projeto e clique em `Accept Settings`;
 
 Com o `Content Drawer` crie as pastas de trabalho.
 
-**Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal-engine/instalacao_configuracao#6-organizando-as-pastas).
+**Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal-engine/instalacao-configuracao#6-organizando-as-pastas).
 {: .notice--warning}
 
 Salve o level atual em `Projeto\Maps` com o nome `LevelTest`.

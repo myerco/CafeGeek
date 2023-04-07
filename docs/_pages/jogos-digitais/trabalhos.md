@@ -16,7 +16,7 @@ feature_row0-1:
     alt: "Darkness of D-day"
     title: "Darkness of D-day"
     excerpt: "E baseado em uma análise Analysis de elementos distópicos dos livros 1984, George Orwell e Admirável Mundo Novo de Aldous Huxley. O jogo compartilha elementos comuns nas obras, como a opressão do Estado, a manipulação da linguagem, a vigilância constante e a desumanização da sociedade. No entanto, eles diferem em suas abordagens: 1984 retrata uma sociedade controlada pela repressão e pela violência, enquanto Admirável Mundo Novo ilustra uma sociedade controlada pelo prazer e pela satisfação. O jogo discute a relevância dessas obras em relação ao mundo atual e como elas podem nos ajudar a compreender e refletir sobre as questões sociais e políticas contemporâneas, como a manipulação da mídia, a perda de privacidade e a ameaça de um governo autoritário. <b>Autor: Raphael Ferreira Martins</b>"
-    url: "/pages/unreal_engine/"
+    url: "/pages/trabalhos/"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
     tags:
@@ -28,7 +28,7 @@ feature_row0-2:
     alt: "Killer Hotel"
     title: "Killer Hotel"
     excerpt: "Baseado na quinta temporada da série de televisão American Horror Story, que tem como cenário principal um hotel macabro e assombrado na cidade de Porto Velho, Rondônia. A trama dos personagens, faz referências a eventos e figuras históricas reais que são incorporados à narrativa. Ele destaca a influência do cinema de terror e suspense, bem como a ênfase na estética visual e na música para criar um clima de tensão e medo. A trama apresenta uma abordagem ousada e inovadora ao explorar temas como a sexualidade, a violência e a morte. <b>Autor: Carlos</b>"
-    url: "/pages/unreal_engine/"
+    url: "/pages/trabalhos/"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
     tags:
@@ -39,7 +39,7 @@ feature_row0-3:
     alt: "Lines of Fate"
     title: "Lines of Fate"
     excerpt: "É um jogo de aventura com elementos de mistério e drama que oferece uma experiência envolvente e emocionante aos jogadores que buscam explorar um universo ficcional cativante e intrigante. O jogo é baseado em um universo ficcional onde os personagens principais, Rosa e Bo, se encontram em uma jornada misteriosa e perigosa em busca de suas identidades e propósitos de vida. O jogo apresenta gráficos desenhados à mão e uma trilha sonora original que cria uma atmosfera envolvente e cativante. Os jogadores assumem o papel de Rosa e Bo, explorando ambientes intrigantes e resolvendo enigmas desafiadores enquanto desvendam a trama complexa e emotiva. O jogo destaca a qualidade da narrativa do jogo, que explora temas como identidade, destino e livre arbítrio, e a interação entre os personagens principais que se desenvolve ao longo da história. <b>Autor: Vários</b>"
-    url: "/pages/unreal_engine/"
+    url: "/pages/trabalhos/"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
     tags:
@@ -94,7 +94,7 @@ feature_row0-8:
     alt: "Death Vip"
     title: "Death Vip"
     excerpt: "Quando o comandante das milícias descobriu a tentativa de resgate de um alvo considerado por ele de extrema importância, mandou todos os seus soldados fazer de tudo para MATAR O VIP para servir de exemplo. Equipe de resgate (EAS - Esquadrão Aeroterrestre de Salvamento)  de 3 jogadores tenta resgatar um VIP (Very Important Person) em uma região dominada por milícias fortemente armadas em um país da América do Sul. A equipe conta com arsenal leve de combate e resgate, como por exemplo metralhadoras M4, espingardas e pistolas. Quanto ao VIP, não está armado e nem consegue segurar uma arma mas pode curar os membros da sua equipe, também conta com a capacidade de visualizar o mapa e procurar itens que podem  auxiliar no resgate. Durante o trajeto até o resgate deverão ser cumpridos três (3) objetivos, obrigando toda a equipe  a se envolver em combates. A equipe EAS com auxílio do VIP pode localizar outras equipes de resgate e seus VIPS´s para tentar sobreviver juntos. Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem como itens que alteram o modo de jogo, como por exemplo  o “TREINO VIP” que transforma o VIP em um membro da equipe EAS por alguns minutos."
-    url: "/pages/trabalhos/modelo_death_vip"
+    url: "/pages/trabalhos/modelo-death-vip"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
     tags:

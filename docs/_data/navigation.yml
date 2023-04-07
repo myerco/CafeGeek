@@ -93,9 +93,9 @@ dev_unreal:
   - title: EFEITOS ESPECIAIS
     children:
       - title: Sequencer
-        url: /pages/unreal-engine/
+        url: /pages/unreal-engine/introducao
       - title: Niagara
-        url: /pages/unreal-engine/
+        url: /pages/unreal-engine/introducao
 
 dev_computacao:
   - title: COMPUTAÇÃO GRÁFICA    
