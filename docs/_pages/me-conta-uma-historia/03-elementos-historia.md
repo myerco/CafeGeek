@@ -655,7 +655,7 @@ Inimigos não inimigos.
 {% include image.html
     src="https://c2.staticflickr.com/2/1584/25903731993_8b58285c1d_b.jpg"
     alt="Figura: Dark Souls Game Design Analysis."
-    caption="Why Do We Come Back To Die?
+    caption="Why Do We Come Back To Die?"
     ref="https://www.gamedeveloper.com/"
 %}  
 
