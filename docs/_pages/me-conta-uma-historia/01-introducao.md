@@ -1,5 +1,5 @@
 ---
-title: Introdução
+title: Introdução a Me Conta uma História
 permalink: /pages/me-conta-uma-historia/introducao
 excerpt: Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história.
 last_modified_at: 2023-03-27T08:48:05-04:00
