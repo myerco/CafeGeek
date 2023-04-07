@@ -16,7 +16,8 @@ Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar 
 {% include imagelocal.html
     src="me-conte-uma-historia/AR18-1.webp"
     alt="Figura: 10 dicas e truques para criar personagens inesquecíveis."
-    caption="Figura: 10 dicas e truques para criar personagens inesquecíveis - <https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/> ."
+    caption="Figura: 10 dicas e truques para criar personagens inesquecíveis"
+    url="https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/"
 %}
 
 Não existe uma formula mágica que se deve seguir para construir um personagem de qualquer história ficcional, talvez observar a vida real e o comportamento das pessoas que estão a sua volta ajude a entender como construir personagens, pois eles estão ao seu lado, mas segundo Charlie Jane Ander em artigo publicado em 05/08/2014, adaptado e apresentado em mini-palestra no [Clarion West](https://www.clarionwest.org/) por Cristine é possível organizar algumas ideias e dicas para que os personagens ganhem vida, segue abaixo o resumo.
@@ -48,11 +49,11 @@ Devemos também outras estruturas de organização e entendimento dos  heróis, 
 {% include image.html
     src="https://miro.medium.com/max/500/1*cQanY8AUEBH3f0BsGo_vOw.png"
     alt="Figura: Jornada do Herói."
-    caption="Jornada do Herói."
+    caption="O herói das Mil faces."
     url="https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69."
 %}
 
-Nem todas as histórias devem ter os elementos da Jornada do Herói, mas é bom guia para ter inspirações. Muitas pessoas se identificam com os elementos dessa narrativa, pois nós vivemos isso todos os dias, todos os dias acordamos e vivemos uma jornada encontrando amigos, tutores e opositores.
+Nem todas as histórias devem ter os elementos da Jornada do Herói, mas é um bom guia para ter inspirações. Muitas pessoas se identificam com os elementos dessa narrativa, pois nós vivemos isso todos os dias, todos os dias acordamos e vivemos uma jornada encontrando amigos, tutores e opositores.
 
 A jornada está dividida em três seções:
 
@@ -65,7 +66,8 @@ A jornada está dividida em três seções:
 {% include image.html
     src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/08/The-Lord-of-the-Rings-The-Return-of-the-King-PS2-Remaster.jpg?q=50&fit=contain&w=960&h=500&dpr=1.5"
     alt="Figura: The Lord of the Rings Movie Games Need the Remaster Treatment."
-    caption="Figura: The Lord of the Rings Movie Games Need the Remaster Treatment - <https://gamerant.com> ."
+    caption="A jornada dos livros, filmes e jogos de essa narrativa."
+    url="https://gamerant.com"
 %}
 
 Abaixo alguns filmes que utilizam essa fórmula :
@@ -91,17 +93,27 @@ Sonic também é descrito como um personagem confiante, que muitas vezes desafia
 
 #### 1.2.2. Como fala
 
+{% include image.html
+    src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/04/Journey-Co-Op-Multiplayer-AI-Or-Real-Person.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5"
+    alt="Journey: Is The Second Player A Real Person?"
+    caption="A comunicação entre jogadores dentro é realizada com movimentos e sons suaves."
+    url="https://www.theenemy.com.br/"
+%}
+
+A forma de comunicação é importante para determinar o estado emocional da mensagem que está sendo repassada.
+
 #### 1.2.3. Como luta
 
 {% include image.html
     src="https://cdn.ome.lt/Ri9BXgbM9WX4sLt2hyqchVsUA1Y=/770x0/smart/uploads/conteudo/fotos/god-of-war-kratos_o1WSA8h.jpg"
     alt="Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation."
-    caption="Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation - <https://www.theenemy.com.br/> ."
+    caption="Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation"
+    url="https://www.theenemy.com.br/"
 %}
 
 Kratos, o personagem principal da série de jogos God of War, é conhecido por sua personalidade intensa e implacável. Ele é um guerreiro brutal e implacável, que muitas vezes usa a violência para resolver seus problemas.
 
-Kratos é motivado pela busca de vingança e pelo desejo de se redimir de seus pecados passados. Ele é frequentemente retratado como sendo solitário e amargurado, com um desprezo profundo pelos deuses que o traíram e o usaram.
+Ele é motivado pela busca de vingança e pelo desejo de se redimir de seus pecados passados. Ele é frequentemente retratado como sendo solitário e amargurado, com um desprezo profundo pelos deuses que o traíram e o usaram.
 
 Apesar de sua natureza violenta, Kratos também é um personagem complexo, com uma história de fundo trágica e emoções profundas. Ele muitas vezes luta com suas próprias escolhas e o peso de suas ações passadas, o que adiciona camadas à sua personalidade e história.
 
@@ -109,38 +121,50 @@ No geral, a personalidade de Kratos é sombria e pesada, mas também cativante e
 
 #### 1.2.4. Como abre a porta
 
+{% include image.html
+    src="https://tecmasters.com.br/wp-content/uploads/2021/05/Portal-1024x576.jpg"
+    alt="Figura: Escritor de Portal quer que o próximo jogo seja feito antes de ser velho demais para trabalhar."
+    caption="Abrir portas pode se tornar um bom gameplay."
+    url="https://tecmasters.com.br/escritor-portal-proximo-jogo-antes-velho-demais/"
+%}
+
+Talvez uma ação simples, como abrir uma porta pode ser uma pista do tema do jogo, por exemplo, pense em um jogo de terror, abra devagar as portas para criar suspense, ou abra rápido para matar o jogador de susto.
+
 #### 1.2.5. Como comemora
 
 #### 1.2.6. Como fica esperando
 
 {% include image.html
     src="https://www.pcgamesn.com/wp-content/uploads/legacy/Ghost_Recon_Wildlands_graphics_settings_high.jpg"
-    alt="Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis – the PCGamesN tech review."
-    caption="Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis – the PCGamesN tech review - <https://www.pcgamesn.com> ."
+    alt="Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis."
+    caption="The PCGamesN tech review"
+    url="https://www.pcgamesn.com"
 %}
 
-- Humorístico.
-
-  - Falar, agir de forma engraçada.
+### 1.3. Humorístico
 
 {% include image.html
     src="https://img.ibxk.com.br/bj/images/games/000/006/885/screenshots/283034/img_normal.jpg?20130626111914fe3?ims=704x"
-    alt="Figura: O “Merc With a Mouth” finalmente tem um game (surtado) para chamar de seu."
-    caption="Figura: O “Merc With a Mouth” finalmente tem um game (surtado) para chamar de seu - <https://www.techmundo.com.br> ."
+    alt="Figura: O Merc With a Mouth finalmente tem um game (surtado) para chamar de seu."
+    caption="Jogo de humor."
+    url="https://www.techmundo.com.br"
 %}
 
-- Heroico.
+Falar, agir de forma engraçada.
 
-  - Faça coisa heroicas, seja bom em algo e não esqueça das fraquezas.
+### 1.4. Heroico
 
-- Valentão.
+Faça coisa heroicas, seja bom em algo e não esqueça das fraquezas.
 
-  - Faça coisas de valentão com estilo, não é uma pessoa legal, diga coisas legais, mas ele quase nunca grita.
+### 1.5. Valentão
+
+Faça coisas de valentão com estilo, não é uma pessoa legal, diga coisas legais, mas ele quase nunca grita.
 
 {% include image.html
     src="https://adrenaline.com.br/files/upload/reviews/2013/gta_v2/22.jpg"
     alt="Figura: ANÁLISE: Grand Theft Auto V."
-    caption="Figura: ANÁLISE: Grand Theft Auto V - <https://adrenaline.com.br> ."
+    caption="Os valentões dos jogos."
+    url="https://adrenaline.com.br"
 %}  
 
 **Nota:** Cuidado com histórias licenciadas.
@@ -163,7 +187,8 @@ Se a resposta é "Vou reativar o Facebook e  Tinder" acredito que uma boa dica �
 {% include image.html
     src="https://cdn.culturagenial.com/imagens/o-livro-de-eli1-cke.jpg"
     alt="Figura: O Livro de Eli: significado do filme."
-    caption="Figura: O Livro de Eli: significado do filme -  <https://www.culturagenial.com/o-livro-de-eli-significado-do-filme/>."
+    caption="A busca por um lugar acaba de levando para trilhar outros caminhos."
+    url="https://www.culturagenial.com/o-livro-de-eli-significado-do-filme/"
 %}  
 
 O personagem central só consegue enxergar o seu real caminho quando percebe que ele não fez o que o livro ensinava, ajudar o outro e se conectar com alguém.
@@ -179,7 +204,8 @@ Cumprir a sua missão o tinha transformado em **um** individuo alheio aos proble
 {% include image.html
     src="https://www.lifewire.com/thmb/EjcsuTLZtk_3UMN7Evd6xFcrY88=/800x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1LW4164252-4-341174c3997543728bd2b024c6e2a309.jpg"
     alt="Figura: 7 Days to Die Review."
-    caption="Figura: 7 Days to Die Review - <https://www.lifewire.com>."
+    caption="O jogador tem um tempo para sobreviver."
+    url="https://www.lifewire.com"
 %}  
 
 ### 2.3. Vingança
@@ -188,8 +214,8 @@ A busca pela vingança fez o personagem trilhar o caminho cegamente e violentame
 
 {% include imagelocal.html
     src="me-conte-uma-historia/cenarios-gladiador.jpg"
-    alt="Figura: Cladiador."
-    caption="Figura: Filme Cladiador."
+    alt="Figura: Filme Cladiador."
+    caption="A vingança cega e não abre os seus olhos para ver o que está no teu entorno."
 %}  
 
 A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas de vilão.
@@ -198,8 +224,9 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 
 {% include image.html
     src="https://img.ibxk.com.br/2019/10/30/30092242177082.jpg?ims=704x"
-    alt="Figura: Call of Duty: Modern Warfare: A guerra nunca muda."
-    caption="Figura: Call of Duty: Modern Warfare: A guerra nunca muda - <https://www.tecmundo.com.br>."
+    alt="Figura: Call of Duty: Modern Warfare"
+    caption="A guerra nunca muda"
+    url="https://www.tecmundo.com.br"
 %}  
 
 ## 3. Morte
@@ -211,7 +238,7 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 {% include imagelocal.html
     src="me-conte-uma-historia/0cdf6b4c-op_mission_ghost_last.webp"
     alt="Figura: How to unlock Season 2 Ghost Skin in Warzone and Modern Warfare."
-    caption="Figura: How to unlock Season 2 Ghost Skin in Warzone and Modern Warfare."
+    caption="Mataram o melhor personagem do jogo."
 %}
 
 - Dos animais.
@@ -219,15 +246,17 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 {% include image.html
     src="https://images.gnwcdn.com/2018/articles/2018-02-07-17-07/t1.jpg/EG11/resize/690x-1/quality/75/format/jpg"
     alt="Figura: Shadow of the Colossus."
-    caption="Figura: Shadow of the Colossus - Como executar truques com Agro e desbloquear o Troféu Trick Rider - <https://www.eurogamer.pt>."
+    caption="Como executar truques com Agro e desbloquear o Troféu Trick Rider"
+    url="https://www.eurogamer.pt"
 %}
 
 - Até dos seus inimigos.
 
 {% include image.html
     src="https://files.tecnoblog.net/wp-content/uploads/2012/12/vaas-600x337.jpg"
-    alt="Figura: “Far Cry 3” vai te deixar sem vida social."
-    caption="Figura: “Far Cry 3” vai te deixar sem vida social - <https://tecnoblog.net/>."
+    alt="Figura: Far Cry 3."
+    caption="Vai te deixar sem vida social"
+    url="https://tecnoblog.net/"
 %}  
 
 ## 4. Nome
@@ -235,7 +264,8 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 {% include image.html
     src="https://assets.vg247.com/current//2014/05/mass_effect_shepard_names.jpg"
     alt="Figura: Commander Shepard's first name is probably Sarah, or Jack."
-    caption="Figura: Commander Shepard's first name is probably Sarah, or Jack - <https://www.vg247.com>."
+    caption="Escolha um nome para o seu personagem."
+    url="https://www.vg247.com"
 %}  
 
 A escolha dos nomes é importante para que o jogador possa explorar a personalidade dos personagens ou passar alguma ideia para o leitor sobrea história, por exemplo:
@@ -247,7 +277,8 @@ O nome Rachael do filme Blade Runner 1982 pode ser associado a sua origem bíbli
 {% include image.html
     src="https://cdn.culturagenial.com/imagens/rachael-em-blade-runner-cke.jpg"
     alt="Figura: Blade Runner (1982)."
-    caption="Figura: Blade Runner (1982): análise e significados do filme - <https://www.culturagenial.com/blade-runner-1982-analise-significados-do-filme/>."
+    caption="Análise e significados do filme"
+    url="https://www.culturagenial.com/blade-runner-1982-analise-significados-do-filme/"
 %}  
 
 ### 4.2. Nome Curto ou longo?
@@ -256,7 +287,8 @@ Podemos respondendo isso com "Não confunda o jogador com nomes complexos e long
 
 O personagem L do mangá Death Note é um exemplo interessante de nome curto pois segundo o criador:
 
-"Para o seu nome, Ohba queria usar uma única letra que contivesse muito significado: ele considerou "I" e "J", mas decidiu que não eram tão bons quanto "L", e escolheu "L" após cuidada ponderação.[6] O pseudônimo de Ryuuzaki (竜崎 Ryūzaki) foi lhe dado por que em japonês, L é pronunciado como R."
+Para o seu nome, Ohba queria usar uma única letra que contivesse muito significado: ele considerou "I" e "J", mas decidiu que não eram tão bons quanto "L", e escolheu "L" após cuidada ponderação.[6] O pseudônimo de Ryuuzaki (竜崎 Ryūzaki) foi lhe dado por que em japonês, L é pronunciado como R.
+{: .notice--info}
 
 ## 5. Forma
 
@@ -267,7 +299,8 @@ Trabalhe as expressões e cuidado com o "uncanny valley".
 {% include image.html
     src="https://cdn.vox-cdn.com/thumbor/TcsRMWy-7jzZ5EI1dhJG9_uJAe8=/148x0:1768x1080/920x613/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/48428281/oriblindforestart.0.0.jpg"
     alt="Figura: Ori and the Blind."
-    caption="Figura: Ori and the Blind Forest has the most powerful opening to any game in 2015 - <https://www.polygon.com>."
+    caption="Has the most powerful opening to any game in 2015"
+    url="https://www.polygon.com"
 %}  
 
 ### 5.2. Movimento
@@ -277,7 +310,8 @@ Pessoas são articuladas, cuidado com o orçamento.
 {% include image.html
     src="https://images.gnwcdn.com/2017/articles/2017-08-08-12-58/2.jpg/EG11/resize/690x-1/quality/75/format/jpg"
     alt="Figura: Hellblade: Senua's Sacrifice review."
-    caption="Figura: Hellblade: Senua's Sacrifice review - <https://www.eurogamer.net/>."
+    caption="Captura de movimentos."
+    url="https://www.eurogamer.net/"
 %}  
 
 ### 5.3. Humanidade
@@ -287,7 +321,8 @@ Se parece com humano então faz coisas humanas.
 {% include image.html
     src="https://i2.wp.com/culturanerdegeek.com.br/wp-content/uploads/2017/10/Child-of-Light.png?resize=1024%2C576&ssl=1"
     alt="Figura: Child of Light."
-    caption="Figura: Child of Light: Análise - <https://culturanerdegeek.com.br>."
+    caption="Análise"
+    url="https://culturanerdegeek.com.br"
 %}  
 
 ## 6. Customização
@@ -604,15 +639,24 @@ Inimigos não inimigos.
 {% include image.html
     src="https://s2.glbimg.com/f3PnsVDxOwCmkXU_rGUrHn5NhDc=/0x0:695x441/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/c/k/lpbPiySoqlLqVm3tywSA/2015-02-27-fatality.png"
     alt="Figura: Mortal Kombat."
-    caption="Figura: Mortal Kombat: relembre os fatalities clássicos da série de luta - <https://www.techtudo.com.br>."
+    caption="Relembre os fatalities clássicos da série de luta"
+    url="https://www.techtudo.com.br"
 %}  
 
 ### 9.1. Deixe o jogador administrar o golpe final
 
 {% include image.html
     src="https://davescomputertips.com/wp-content/uploads/2019/12/Dragon.jpg.webp"
-    alt="Figura: This Is Why I Hate Video Game Boss Fights - This Is Why I Hate Video Game Boss Fights."
-    caption="Figura: This Is Why I Hate Video Game Boss Fights - This Is Why I Hate Video Game Boss Fights."
+    alt="Figura: This Is Why I Hate Video Game Boss Fights."
+    caption="This Is Why I Hate Video Game Boss Fights."
 %}
 
 ### 9.2. Locação
+
+{% include image.html
+    src="https://res.cloudinary.com/lmn/image/upload/c_limit,h_360,w_640/e_sharpen:100/f_auto,fl_lossy,q_auto/v1/gameskinnyc/d/a/r/dark-souls-cad5d.jpg"
+    alt="Figura: The Best Dark Souls III Boss Order for Beginners"
+    caption="Nesse jogo tudo é Boss."
+%}
+
+O lugar é sinistro? tem muito item espalhado no chão? só tem uma saída? prepara-se, você vai gastar várias horas tentando sair do lugar.
