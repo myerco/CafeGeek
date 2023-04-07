@@ -40,7 +40,7 @@ Como toda profissão para que possamos alcançar um reconhecimento e conheciment
     src="https://www.gamerinfo.com.br/wp-content/uploads/2018/09/game-designer-1.jpg"
     alt="Figura: Design de games."
     caption="Conheça a profissão"
-    url:"https://www.gamerinfo.com.br/2018/09/10/design-de-games/"
+    url="https://www.gamerinfo.com.br/2018/09/10/design-de-games/"
 %}
 
 ### 1.2. Quanto Ganha do Game Design?
