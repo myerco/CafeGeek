@@ -17,7 +17,7 @@ Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar 
     src="me-conte-uma-historia/AR18-1.webp"
     alt="Figura: 10 dicas e truques para criar personagens inesquecíveis."
     caption="Figura: 10 dicas e truques para criar personagens inesquecíveis"
-    url="https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/"
+    ref="https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/"
 %}
 
 Não existe uma formula mágica que se deve seguir para construir um personagem de qualquer história ficcional, talvez observar a vida real e o comportamento das pessoas que estão a sua volta ajude a entender como construir personagens, pois eles estão ao seu lado, mas segundo Charlie Jane Ander em artigo publicado em 05/08/2014, adaptado e apresentado em mini-palestra no [Clarion West](https://www.clarionwest.org/) por Cristine é possível organizar algumas ideias e dicas para que os personagens ganhem vida, segue abaixo o resumo.
@@ -50,7 +50,7 @@ Devemos também outras estruturas de organização e entendimento dos  heróis, 
     src="https://miro.medium.com/max/500/1*cQanY8AUEBH3f0BsGo_vOw.png"
     alt="Figura: Jornada do Herói."
     caption="O herói das Mil faces."
-    url="https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69."
+    ref="https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69."
 %}
 
 Nem todas as histórias devem ter os elementos da Jornada do Herói, mas é um bom guia para ter inspirações. Muitas pessoas se identificam com os elementos dessa narrativa, pois nós vivemos isso todos os dias, todos os dias acordamos e vivemos uma jornada encontrando amigos, tutores e opositores.
@@ -67,7 +67,7 @@ A jornada está dividida em três seções:
     src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/08/The-Lord-of-the-Rings-The-Return-of-the-King-PS2-Remaster.jpg?q=50&fit=contain&w=960&h=500&dpr=1.5"
     alt="Figura: The Lord of the Rings Movie Games Need the Remaster Treatment."
     caption="A jornada dos livros, filmes e jogos de essa narrativa."
-    url="https://gamerant.com"
+    ref="https://gamerant.com"
 %}
 
 Abaixo alguns filmes que utilizam essa fórmula :
@@ -97,7 +97,7 @@ Sonic também é descrito como um personagem confiante, que muitas vezes desafia
     src="https://static1.srcdn.com/wordpress/wp-content/uploads/2020/04/Journey-Co-Op-Multiplayer-AI-Or-Real-Person.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5"
     alt="Journey: Is The Second Player A Real Person?"
     caption="A comunicação entre jogadores dentro é realizada com movimentos e sons suaves."
-    url="https://www.theenemy.com.br/"
+    ref="https://www.theenemy.com.br/"
 %}
 
 A forma de comunicação é importante para determinar o estado emocional da mensagem que está sendo repassada.
@@ -108,7 +108,7 @@ A forma de comunicação é importante para determinar o estado emocional da men
     src="https://cdn.ome.lt/Ri9BXgbM9WX4sLt2hyqchVsUA1Y=/770x0/smart/uploads/conteudo/fotos/god-of-war-kratos_o1WSA8h.jpg"
     alt="Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation."
     caption="Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation"
-    url="https://www.theenemy.com.br/"
+    ref="https://www.theenemy.com.br/"
 %}
 
 Kratos, o personagem principal da série de jogos God of War, é conhecido por sua personalidade intensa e implacável. Ele é um guerreiro brutal e implacável, que muitas vezes usa a violência para resolver seus problemas.
@@ -125,7 +125,7 @@ No geral, a personalidade de Kratos é sombria e pesada, mas também cativante e
     src="https://tecmasters.com.br/wp-content/uploads/2021/05/Portal-1024x576.jpg"
     alt="Figura: Escritor de Portal quer que o próximo jogo seja feito antes de ser velho demais para trabalhar."
     caption="Abrir portas pode se tornar um bom gameplay."
-    url="https://tecmasters.com.br/escritor-portal-proximo-jogo-antes-velho-demais/"
+    ref="https://tecmasters.com.br/escritor-portal-proximo-jogo-antes-velho-demais/"
 %}
 
 Talvez uma ação simples, como abrir uma porta pode ser uma pista do tema do jogo, por exemplo, pense em um jogo de terror, abra devagar as portas para criar suspense, ou abra rápido para matar o jogador de susto.
@@ -138,7 +138,7 @@ Talvez uma ação simples, como abrir uma porta pode ser uma pista do tema do jo
     src="https://www.pcgamesn.com/wp-content/uploads/legacy/Ghost_Recon_Wildlands_graphics_settings_high.jpg"
     alt="Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis."
     caption="The PCGamesN tech review"
-    url="https://www.pcgamesn.com"
+    ref="https://www.pcgamesn.com"
 %}
 
 ### 1.3. Humorístico
@@ -147,7 +147,7 @@ Talvez uma ação simples, como abrir uma porta pode ser uma pista do tema do jo
     src="https://img.ibxk.com.br/bj/images/games/000/006/885/screenshots/283034/img_normal.jpg?20130626111914fe3?ims=704x"
     alt="Figura: O Merc With a Mouth finalmente tem um game (surtado) para chamar de seu."
     caption="Jogo de humor."
-    url="https://www.techmundo.com.br"
+    ref="https://www.techmundo.com.br"
 %}
 
 Falar, agir de forma engraçada.
@@ -164,7 +164,7 @@ Faça coisas de valentão com estilo, não é uma pessoa legal, diga coisas lega
     src="https://adrenaline.com.br/files/upload/reviews/2013/gta_v2/22.jpg"
     alt="Figura: ANÁLISE: Grand Theft Auto V."
     caption="Os valentões dos jogos."
-    url="https://adrenaline.com.br"
+    ref="https://adrenaline.com.br"
 %}  
 
 **Nota:** Cuidado com histórias licenciadas.
@@ -172,12 +172,16 @@ Faça coisas de valentão com estilo, não é uma pessoa legal, diga coisas lega
 
 ## 2. Motivação
 
+Os personagens nas histórias de videogames podem ter diferentes motivações, dependendo do enredo do jogo e da personalidade do personagem em questão. Algumas motivações comuns incluem:
+{: .text-justify}
+
 ### 2.1. Salvar a amada ou amigo
 
 {% include image.html
     src="https://t.ctcdn.com.br/jjmLXI8pBWg2AvrETWFterqDf-U=/512x288/smart/i299893.jpeg"
     alt="Figura: Resident Evil 7 é melhor game já feito na série."
-    caption="Figura: Resident Evil 7 é melhor game já feito na série <https://canaltech.com.br/games/resident-evil-7-e-melhor-game-ja-feito-na-serie-analise-89764/>."
+    caption="Tudo para salvar a amada."
+    ref="https://canaltech.com.br/games/resident-evil-7-e-melhor-game-ja-feito-na-serie-analise-89764/"
 %}  
 
 O que você faria se sua amada ficasse presa em uma casa mal assombrada e possivelmente possuída por uma entidade maligna?
@@ -188,7 +192,7 @@ Se a resposta é "Vou reativar o Facebook e  Tinder" acredito que uma boa dica �
     src="https://cdn.culturagenial.com/imagens/o-livro-de-eli1-cke.jpg"
     alt="Figura: O Livro de Eli: significado do filme."
     caption="A busca por um lugar acaba de levando para trilhar outros caminhos."
-    url="https://www.culturagenial.com/o-livro-de-eli-significado-do-filme/"
+    ref="https://www.culturagenial.com/o-livro-de-eli-significado-do-filme/"
 %}  
 
 O personagem central só consegue enxergar o seu real caminho quando percebe que ele não fez o que o livro ensinava, ajudar o outro e se conectar com alguém.
@@ -205,7 +209,7 @@ Cumprir a sua missão o tinha transformado em **um** individuo alheio aos proble
     src="https://www.lifewire.com/thmb/EjcsuTLZtk_3UMN7Evd6xFcrY88=/800x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1LW4164252-4-341174c3997543728bd2b024c6e2a309.jpg"
     alt="Figura: 7 Days to Die Review."
     caption="O jogador tem um tempo para sobreviver."
-    url="https://www.lifewire.com"
+    ref="https://www.lifewire.com"
 %}  
 
 ### 2.3. Vingança
@@ -214,8 +218,8 @@ A busca pela vingança fez o personagem trilhar o caminho cegamente e violentame
 
 {% include imagelocal.html
     src="me-conte-uma-historia/cenarios-gladiador.jpg"
-    alt="Figura: Filme Cladiador."
-    caption="A vingança cega e não abre os seus olhos para ver o que está no teu entorno."
+    alt="Figura: Filme Gladiador."
+    caption="A vingança é cega, e não permite ver o que está no teu entorno."
 %}  
 
 A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas de vilão.
@@ -226,12 +230,21 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
     src="https://img.ibxk.com.br/2019/10/30/30092242177082.jpg?ims=704x"
     alt="Figura: Call of Duty: Modern Warfare"
     caption="A guerra nunca muda"
-    url="https://www.tecmundo.com.br"
+    ref="https://www.tecmundo.com.br"
 %}  
 
 ## 3. Morte
 
-### 3.1. Valorize a morte do seu personagens
+A morte nos jogos eletrônicos é geralmente um mecanismo de jogo que representa a falha do jogador em concluir uma determinada tarefa ou desafio. Quando um jogador "morre" em um jogo, geralmente significa que o personagem que ele controlava no jogo perdeu todas as suas vidas e não pode mais continuar jogando. Isso pode resultar em diferentes consequências dependendo do jogo, como o reinício do jogo a partir do início, a perda de pontos ou itens, ou a necessidade de reiniciar uma seção específica do jogo.
+{: .text-justify}
+
+No entanto, a morte também pode ser um elemento importante da história em alguns jogos, como em jogos de terror, onde a morte do personagem é uma parte fundamental da trama. Em alguns jogos, o objetivo pode ser morrer de uma forma específica ou em uma determinada ordem para progredir na história ou ganhar algum tipo de recompensa.
+{: .text-justify}
+
+Em geral, a morte nos jogos eletrônicos é uma maneira de adicionar desafio e risco à jogabilidade, incentivando o jogador a aprender com seus erros e aprimorar suas habilidades para evitar a morte e continuar avançando no jogo.
+{: .text-justify}
+
+### 3.1. Valorize a morte do seus personagens
 
 - Dos amigos.
 
@@ -247,7 +260,7 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
     src="https://images.gnwcdn.com/2018/articles/2018-02-07-17-07/t1.jpg/EG11/resize/690x-1/quality/75/format/jpg"
     alt="Figura: Shadow of the Colossus."
     caption="Como executar truques com Agro e desbloquear o Troféu Trick Rider"
-    url="https://www.eurogamer.pt"
+    ref="https://www.eurogamer.pt"
 %}
 
 - Até dos seus inimigos.
@@ -256,7 +269,7 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
     src="https://files.tecnoblog.net/wp-content/uploads/2012/12/vaas-600x337.jpg"
     alt="Figura: Far Cry 3."
     caption="Vai te deixar sem vida social"
-    url="https://tecnoblog.net/"
+    ref="https://tecnoblog.net/"
 %}  
 
 ## 4. Nome
@@ -265,10 +278,10 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
     src="https://assets.vg247.com/current//2014/05/mass_effect_shepard_names.jpg"
     alt="Figura: Commander Shepard's first name is probably Sarah, or Jack."
     caption="Escolha um nome para o seu personagem."
-    url="https://www.vg247.com"
+    ref="https://www.vg247.com"
 %}  
 
-A escolha dos nomes é importante para que o jogador possa explorar a personalidade dos personagens ou passar alguma ideia para o leitor sobrea história, por exemplo:
+A escolha dos nomes é importante para que o jogador possa explorar a personalidade dos personagens ou passar alguma ideia para o leitor sobre a história, por exemplo:
 
 ### 4.1. Significado
 
@@ -278,7 +291,7 @@ O nome Rachael do filme Blade Runner 1982 pode ser associado a sua origem bíbli
     src="https://cdn.culturagenial.com/imagens/rachael-em-blade-runner-cke.jpg"
     alt="Figura: Blade Runner (1982)."
     caption="Análise e significados do filme"
-    url="https://www.culturagenial.com/blade-runner-1982-analise-significados-do-filme/"
+    ref="https://www.culturagenial.com/blade-runner-1982-analise-significados-do-filme/"
 %}  
 
 ### 4.2. Nome Curto ou longo?
@@ -292,6 +305,8 @@ Para o seu nome, Ohba queria usar uma única letra que contivesse muito signific
 
 ## 5. Forma
 
+O formato de um personagem de videogame pode expressar sua personalidade de várias maneiras, incluindo:
+
 ### 5.1. Proporções faciais
 
 Trabalhe as expressões e cuidado com o "uncanny valley".
@@ -300,7 +315,7 @@ Trabalhe as expressões e cuidado com o "uncanny valley".
     src="https://cdn.vox-cdn.com/thumbor/TcsRMWy-7jzZ5EI1dhJG9_uJAe8=/148x0:1768x1080/920x613/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/48428281/oriblindforestart.0.0.jpg"
     alt="Figura: Ori and the Blind."
     caption="Has the most powerful opening to any game in 2015"
-    url="https://www.polygon.com"
+    ref="https://www.polygon.com"
 %}  
 
 ### 5.2. Movimento
@@ -311,7 +326,7 @@ Pessoas são articuladas, cuidado com o orçamento.
     src="https://images.gnwcdn.com/2017/articles/2017-08-08-12-58/2.jpg/EG11/resize/690x-1/quality/75/format/jpg"
     alt="Figura: Hellblade: Senua's Sacrifice review."
     caption="Captura de movimentos."
-    url="https://www.eurogamer.net/"
+    ref="https://www.eurogamer.net/"
 %}  
 
 ### 5.3. Humanidade
@@ -322,7 +337,7 @@ Se parece com humano então faz coisas humanas.
     src="https://i2.wp.com/culturanerdegeek.com.br/wp-content/uploads/2017/10/Child-of-Light.png?resize=1024%2C576&ssl=1"
     alt="Figura: Child of Light."
     caption="Análise"
-    url="https://culturanerdegeek.com.br"
+    ref="https://culturanerdegeek.com.br"
 %}  
 
 ## 6. Customização
@@ -330,7 +345,8 @@ Se parece com humano então faz coisas humanas.
 {% include image.html
     src="https://web-cdn.funcom.com/aoc/screenshots/tier3_ranger_armor-814x600.jpg"
     alt="Figura: Character development."
-    caption="Figura: Character development - <https://www.ageofconan.com>."
+    caption="Altere as características do seu personagem"
+    ref="https://www.ageofconan.com"
 %}  
 
 - Nome;
@@ -348,7 +364,8 @@ Se parece com humano então faz coisas humanas.
 {% include image.html
     src="https://progameguides.com/wp-content/uploads/2022/01/super-people-best-guns-assault-rifle-1024x576.jpg"
     alt="Figura: Best Guns in Super People."
-    caption="Figura: Best Guns in Super People - <https://progameguides.com>."
+    caption="Armas, muitas armas"
+    ref="https://progameguides.com"
 %}  
 
 ## 7. Não estamos sozinhos
@@ -356,7 +373,8 @@ Se parece com humano então faz coisas humanas.
 {% include image.html
     src="https://i0.wp.com/gamehall.com.br/wp-content/uploads/2014/08/275048-l-the-last-of-us-remastered-ps4-boosted-by-best-game-ever-jpeg-116561.jpg?resize=780%2C470&ssl=1"
     alt="Figura: The Last of Us: Remastered."
-    caption="Figura: The Last of Us: Remastered - <https://gamehall.com.br/>."
+    caption="As vezes a companhia é muito mais do que aparenta ser."
+    ref="https://gamehall.com.br/"
 %}  
 
 - Segundo personagem;
@@ -372,7 +390,8 @@ Se parece com humano então faz coisas humanas.
 {% include image.html
     src="https://www.ginx.tv/uploads2/diablo/D2R/deckard_cain_hots.jpg?ezimgfmt=ng%3Awebp%2Fngcb5%2Frs%3Adevice%2Frscb5-1"
     alt="Figura: Diablo 2."
-    caption="Figura: Search for Deckard Cain quest failed in Diablo 2 Resurrected: What are the consequences? - <https://www.ginx.tv>."
+    caption="Search for Deckard Cain quest failed in Diablo 2 Resurrected: What are the consequences?"
+    ref="https://www.ginx.tv"
 %}  
 
 - Objetivos do jogador;
@@ -388,7 +407,8 @@ Se parece com humano então faz coisas humanas.
 {% include image.html
     src="https://s2.glbimg.com/jC6OPurSh95N0GA_EgE-4vGvpYY=/0x0:695x320/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/6/K/izP2kIQzWVrttXv2rO3g/2014-10-02-far-cry-4-longinus-fornecedor-armas.png"
     alt="Figura: Far Cry 4."
-    caption="Figura: Far Cry 4: trailer mostra arsenal do game à disposição dos jogadores - <https://www.techtudo.com.br>."
+    caption="Trailer mostra arsenal do game à disposição dos jogadores"
+    ref="https://www.techtudo.com.br"
 %}  
 
 - História sobre o mundo;
@@ -401,16 +421,16 @@ Se parece com humano então faz coisas humanas.
 
 ## 8. Eles todos me querem morto
 
-> "A jornada não acaba aqui. A morte é apenas um outro caminho... que todos temos que tomar".
->
-> Gandalf - Senhor dos Anéis.
+A jornada não acaba aqui. A morte é apenas um outro caminho... que todos temos que tomar. **Gandalf - Senhor dos Anéis**.
+{: .notice}
 
 ### 8.1. Tipos de conflito
 
 {% include image.html
     src="https://psxbrasil.com.br/wp-content/uploads/2018/11/PREVIEW_SCREENSHOT1_171050-1024x576.jpg"
-    alt="Figura: Análise – Shadow of the Tomb Raider – The Forge."
-    caption="Figura: Análise – Shadow of the Tomb Raider – The Forge - <https://psxbrasil.com.br>."
+    alt="Figura: Análise – Shadow of the Tomb Raider"
+    caption="The Forge."
+    ref="https://psxbrasil.com.br"
 %}  
 
 - Homem versus natureza;
@@ -426,7 +446,8 @@ Se parece com humano então faz coisas humanas.
 {% include image.html
     src="https://www.pcgamesn.com/wp-content/uploads/2021/05/resident-evil-village-bosses-guide-list-lady-dimitrescu-900x506.jpg"
     alt="Figura: Resident Evil Village."
-    caption="Figura: Resident Evil Village bosses guide - <https://www.pcgamesn.com>."
+    caption="Grande e horripilante, perigoso."
+    ref="https://www.pcgamesn.com"
 %}  
 
 - Tamanho;
@@ -458,7 +479,8 @@ Se parece com humano então faz coisas humanas.
 {% include image.html
     src="https://www.gamersdecide.com/sites/default/files/authors/u141181/8b1b5a81a7cf1f89151207fb9f6a1977.png"
     alt="Figura: World of Warcraft."
-    caption="Figura: The 50 Biggest Villains in World of Warcraft (Ranked Based on Badassery) - <https://www.gamersdecide.com>."
+    caption="The 50 Biggest Villains in World of Warcraft (Ranked Based on Badassery)"
+    ref="https://www.gamersdecide.com"
 %}  
 
 ### 8.4. Comportamento
@@ -480,7 +502,8 @@ Se parece com humano então faz coisas humanas.
 {% include image.html
     src="https://cdn.vox-cdn.com/thumbor/k6m7tw54mdYa2yJoYbk3FuIYFZg=/0x0:1024x576/1920x0/filters:focal(0x0:1024x576):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/19748343/155054_the_lich_king.jpg"
     alt="Figura: The 8 most memorable moments from World of Warcraft boss fights."
-    caption="Figura: The 8 most memorable moments from World of Warcraft boss fights (for better or worse) - <https://www.polygon.com/>."
+    caption="For better or worse."
+    ref="https://www.polygon.com/"
 %}  
 
 - Teletransportador;
@@ -499,7 +522,7 @@ Se parece com humano então faz coisas humanas.
 {% include image.html
     src="https://www.keengamer.com/wp-content/uploads/2020/04/metal-gear-solid-analysis-bosses-e1588340602137-780x439.jpg.webp"
     alt="Figura: Phases of Dealing With Hidden Trauma."
-    caption="Figura: Phases of Dealing With Hidden Trauma."
+    caption="Pode ser lento, mas é mortal."
 %}  
 
 ### 8.6. Lutar com inimigos deve ser divertido
@@ -509,7 +532,8 @@ Os inimigos dever enfrentados, não evitados.
 {% include image.html
     src="https://static2.cbrimages.com/wordpress/wp-content/uploads/2020/07/Assassins-Creed-Valhalla-Combat.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5"
     alt="Figura: Assassin's Creed Valhalla Preview Impressions."
-    caption="Figura: Assassin's Creed Valhalla Preview Impressions: A Strong Successor to Odyssey - <https://www.cbr.com>."
+    caption="Preview Impressions: A Strong Successor to Odyssey"
+    ref="https://www.cbr.com"
 %}  
 
 - Eles têm o dinheiro;
@@ -525,7 +549,8 @@ Os inimigos dever enfrentados, não evitados.
 {% include image.html
     src="https://ashespost.com/wp-content/uploads/2018/09/Combat-Analysis-2.jpg"
     alt="Figura: Kirby’s Alpha 1 Combat Analysis."
-    caption="Figura: Kirby’s Alpha 1 Combat Analysis - <https://ashespost.com>."
+    caption="Tiro porrada e bomba."
+    ref="https://ashespost.com"
 %}  
 
 - Corpo a corpo;
@@ -543,7 +568,8 @@ Os inimigos dever enfrentados, não evitados.
 {% include image.html
     src="https://www.thefandomentals.com/wp-content/uploads/2017/03/enemies.jpg"
     alt="Figura: The Ideal Video Game Enemy."
-    caption="Figura: The Ideal Video Game Enemy - <https://www.thefandomentals.com>."
+    caption="Diversifique as opções de ataque e defesa."
+    ref="https://www.thefandomentals.com"
 %}  
 
 - Knockback;
@@ -571,16 +597,18 @@ Inimigos não inimigos.
 {% include image.html
     src="https://i0.wp.com/gamehall.com.br/wp-content/uploads/2013/09/AlMualim.jpg?zoom=2&resize=580%2C337&ssl=1"
     alt="Figura: Conheça os maiores traidores dos games."
-    caption="Figura: Conheça os maiores traidores dos games - <https://gamehall.com.br>."
+    caption="A traição faz parte..."
+    ref="https://gamehall.com.br"
 %}  
 
 {% include image.html
     src="https://i2.wp.com/twinfinite.net/wp-content/uploads/2017/04/hammerbros.jpg?w=700&ssl=1"
     alt="Figura:Top 10 Most Annoying Video Game Enemies of All Time."
-    caption="Figura:Top 10 Most Annoying Video Game Enemies of All Time -  <https://twinfinite.net>."
+    caption="E a lista aumenta todo dia"
+    ref="https://twinfinite.net"
 %}  
 
-- Gremlin -Atrapalha  o jogador, exemplo Godzila em SimCity;
+- Gremlin -Atrapalha  o jogador, exemplo Godzilla em SimCity;
 
 - Carrasco - Desafia e insulta o jogador no curso do jogo, mas não confronta ou o ataca diretamente;
 
@@ -593,7 +621,8 @@ Inimigos não inimigos.
 {% include imagelocal.html
     src="me-conte-uma-historia/nemesis_t-type_wiki-1024x512.webp"
     alt="Figura: Nemesis T-Type."
-    caption="Figura: Nemesis T-Type - <https://residentevil.com.br>."
+    caption="Ele incomoda muito."
+    ref="https://residentevil.com.br"
 %}  
 
 #### 8.10.1. Quando enfrentar?
@@ -607,7 +636,8 @@ Inimigos não inimigos.
 {% include imagelocal.html
     src="me-conte-uma-historia/darth-vader-a-visual-history-of-star-wars-greatest_gfbx.webp"
     alt="Figura: Darth Vader nos games."
-    caption="Figura: Darth Vader nos games: uma história visual - <https://br.ign.com>."
+    caption="Uma história visual."
+    ref="https://br.ign.com"
 %}  
 
 #### 8.10.2. Quem é?
@@ -625,7 +655,8 @@ Inimigos não inimigos.
 {% include image.html
     src="https://c2.staticflickr.com/2/1584/25903731993_8b58285c1d_b.jpg"
     alt="Figura: Dark Souls Game Design Analysis."
-    caption="Figura: Dark Souls Game Design Analysis: Why Do We Come Back To Die? - <https://www.gamedeveloper.com/>."
+    caption="Why Do We Come Back To Die?
+    ref="https://www.gamedeveloper.com/"
 %}  
 
 ## 9. Componentes de uma luta
@@ -640,7 +671,7 @@ Inimigos não inimigos.
     src="https://s2.glbimg.com/f3PnsVDxOwCmkXU_rGUrHn5NhDc=/0x0:695x441/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/c/k/lpbPiySoqlLqVm3tywSA/2015-02-27-fatality.png"
     alt="Figura: Mortal Kombat."
     caption="Relembre os fatalities clássicos da série de luta"
-    url="https://www.techtudo.com.br"
+    ref="https://www.techtudo.com.br"
 %}  
 
 ### 9.1. Deixe o jogador administrar o golpe final

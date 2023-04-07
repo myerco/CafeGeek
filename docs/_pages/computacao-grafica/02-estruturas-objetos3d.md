@@ -6,6 +6,14 @@ last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true  
 sidebar:
     nav: dev_computacao  
+categories:
+  - Computação Gráfica
+tags:
+  - objetos 3D
+  - arquivos de imagens
+  - polígonos
+  - ponto flutuante
+  - sistema de coordenadas
 ---
 
 {% include figure image_path="/assets/images/jogos-digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
