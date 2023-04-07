@@ -80,7 +80,7 @@ Segue abaixo quatro ferramentas para arte tridimensional e animação 3D. Todas 
 
 O objetivo deste curso é apresentar e construir elementos na ferramenta de modelagem artística 3D Autodesk Maya. O curso está associado a construção **Estética** do jogo pois nele construímos elementos para representar a narrativa e a jogabilidade.
 
-### 2.1. Habilidades que serão aprendidas
+## 3. Habilidades que serão aprendidas
 
 - Interface e estrutura de menus;
 - Configuração de ambiente de trabalho e projeto;

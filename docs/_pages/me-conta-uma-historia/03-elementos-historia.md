@@ -11,7 +11,7 @@ sidebar:
 ## 1. Como construir os personagens?
 
 Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro. **Alan Wake**
-{: .notice} 
+{: .notice}
 
 {% include imagelocal.html
     src="me-conte-uma-historia/AR18-1.webp"
@@ -48,10 +48,13 @@ Devemos também outras estruturas de organização e entendimento dos  heróis, 
 {% include image.html
     src="https://miro.medium.com/max/500/1*cQanY8AUEBH3f0BsGo_vOw.png"
     alt="Figura: Jornada do Herói."
-    caption="Figura: Jornada do Herói - <https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69> ."
+    caption="Jornada do Herói."
+    url="https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69."
 %}
 
-Está dividido em três seções:
+Nem todas as histórias devem ter os elementos da Jornada do Herói, mas é bom guia para ter inspirações. Muitas pessoas se identificam com os elementos dessa narrativa, pois nós vivemos isso todos os dias, todos os dias acordamos e vivemos uma jornada encontrando amigos, tutores e opositores.
+
+A jornada está dividida em três seções:
 
 - Partida (às vezes chamada Separação)
 
@@ -77,13 +80,12 @@ Abaixo alguns filmes que utilizam essa fórmula :
 
 ### 1.2. Personalidade
 
+Os personagens ficcionais causam empatia dos leitores, jogadores ou espectadores, quando eles apresentam uma personalidade construída com elementos realistas, por exemplo, classe social, família, medos, desejos e até mesmo paixões, esses elementos podem ser apresentados utilizando os seguintes aspectos.
+
 #### 1.2.1. Como ele caminha
 
-{% include image.html
-    src="https://s2.glbimg.com/6VbePiU5gQg5tDf6RnWBQKWq9TE=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/A/koepwtTciyZq1aIruRUw/2016-07-27-sonic-melhores-jogos-10.jpg"
-    alt="Figura: Relembre os melhores jogos clássicos em 2D do Sonic."
-    caption="Figura: Relembre os melhores jogos clássicos em 2D do Sonic - <https://www.techtudo.com.br> ."
-%}
+!["Figura: Relembre os melhores jogos clássicos em 2D do Sonic"](https://s2.glbimg.com/6VbePiU5gQg5tDf6RnWBQKWq9TE=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/A/koepwtTciyZq1aIruRUw/2016-07-27-sonic-melhores-jogos-10.jpg){: .align-left}
+O Sonic é autoconfiante, arrogante e muitas vezes impulsivo, sua aparência deve transparecer essas características.
 
 #### 1.2.2. Como fala
 
@@ -131,11 +133,12 @@ Abaixo alguns filmes que utilizam essa fórmula :
     caption="Figura: ANÁLISE: Grand Theft Auto V - <https://adrenaline.com.br> ."
 %}  
 
-### 1.3. Cuidado com histórias licenciadas
+**Nota:** Cuidado com histórias licenciadas.
+{: .notice--warning}
 
-### 1.4. Motivação
+## 2. Motivação
 
-#### 1.4.1. Salvar a amada ou amigo
+### 2.1. Salvar a amada ou amigo
 
 {% include image.html
     src="https://t.ctcdn.com.br/jjmLXI8pBWg2AvrETWFterqDf-U=/512x288/smart/i299893.jpeg"
@@ -161,7 +164,7 @@ Cumprir a sua missão o tinha transformado em **um** individuo alheio aos proble
 
 - [Metacritic - The Book of Eli 2010](https://www.metacritic.com/movie/the-book-of-eli "Metacritic - The Book of Eli 2010")
 
-#### 1.4.2. Sobrevivência
+### 2.2. Sobrevivência
 
 {% include image.html
     src="https://www.lifewire.com/thmb/EjcsuTLZtk_3UMN7Evd6xFcrY88=/800x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1LW4164252-4-341174c3997543728bd2b024c6e2a309.jpg"
@@ -169,7 +172,7 @@ Cumprir a sua missão o tinha transformado em **um** individuo alheio aos proble
     caption="Figura: 7 Days to Die Review - <https://www.lifewire.com>."
 %}  
 
-#### 1.4.3. Vingança
+### 2.3. Vingança
 
 A busca pela vingança fez o personagem trilhar o caminho cegamente e violentamente.
 
@@ -181,7 +184,7 @@ A busca pela vingança fez o personagem trilhar o caminho cegamente e violentame
 
 A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas de vilão.
 
-#### 1.4.4. Salvar o mundo?
+### 2.4. Salvar o mundo?
 
 {% include image.html
     src="https://img.ibxk.com.br/2019/10/30/30092242177082.jpg?ims=704x"
@@ -189,9 +192,9 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
     caption="Figura: Call of Duty: Modern Warfare: A guerra nunca muda - <https://www.tecmundo.com.br>."
 %}  
 
-### 1.5. Morte
+## 3. Morte
 
-#### 1.5.1. Valorize a morte do seu personagens
+### 3.1. Valorize a morte do seu personagens
 
 - Dos amigos.
 
@@ -217,7 +220,7 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
     caption="Figura: “Far Cry 3” vai te deixar sem vida social - <https://tecnoblog.net/>."
 %}  
 
-### 1.6. Nome
+## 4. Nome
 
 {% include image.html
     src="https://assets.vg247.com/current//2014/05/mass_effect_shepard_names.jpg"
@@ -227,7 +230,7 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 
 A escolha dos nomes é importante para que o jogador possa explorar a personalidade dos personagens ou passar alguma ideia para o leitor sobrea história, por exemplo:
 
-#### 1.6.1. Significado
+### 4.1. Significado
 
 O nome Rachael do filme Blade Runner 1982 pode ser associado a sua origem bíblica Raquel onde é representada como uma mulher rica, bonita e estéril, esse último detalhe faz toda a diferença quando assistimos o segundo filme, pois ela sendo um replicante é estéril e mesmo assim concebeu uma criança.
 
@@ -237,7 +240,7 @@ O nome Rachael do filme Blade Runner 1982 pode ser associado a sua origem bíbli
     caption="Figura: Blade Runner (1982): análise e significados do filme - <https://www.culturagenial.com/blade-runner-1982-analise-significados-do-filme/>."
 %}  
 
-#### 1.6.2. Nome Curto ou longo?
+### 4.2. Nome Curto ou longo?
 
 Podemos respondendo isso com "Não confunda o jogador com nomes complexos e longos", você deve ter estudado história do Brasil e definir a linhagem do imperador da seguinte forma, o imperador com barba e o sem barba, e a identificação é pelo numeral que representa a sequencia hereditária ([Lista de monarcas do Brasil](https://pt.wikipedia.org/wiki/Lista_de_monarcas_do_Brasil)).
 
@@ -245,9 +248,9 @@ O personagem L do mangá Death Note é um exemplo interessante de nome curto poi
 
 "Para o seu nome, Ohba queria usar uma única letra que contivesse muito significado: ele considerou "I" e "J", mas decidiu que não eram tão bons quanto "L", e escolheu "L" após cuidada ponderação.[6] O pseudônimo de Ryuuzaki (竜崎 Ryūzaki) foi lhe dado por que em japonês, L é pronunciado como R."
 
-### 1.7. Forma
+## 5. Forma
 
-#### 1.7.1. Proporções faciais
+### 5.1. Proporções faciais
 
 Trabalhe as expressões e cuidado com o "uncanny valley".
 
@@ -257,7 +260,7 @@ Trabalhe as expressões e cuidado com o "uncanny valley".
     caption="Figura: Ori and the Blind Forest has the most powerful opening to any game in 2015 - <https://www.polygon.com>."
 %}  
 
-#### 1.7.2. Movimento
+### 5.2. Movimento
 
 Pessoas são articuladas, cuidado com o orçamento.
 
@@ -267,7 +270,7 @@ Pessoas são articuladas, cuidado com o orçamento.
     caption="Figura: Hellblade: Senua's Sacrifice review - <https://www.eurogamer.net/>."
 %}  
 
-#### 1.7.3. Humanidade
+### 5.3. Humanidade
 
 Se parece com humano então faz coisas humanas.
 
@@ -277,7 +280,7 @@ Se parece com humano então faz coisas humanas.
     caption="Figura: Child of Light: Análise - <https://culturanerdegeek.com.br>."
 %}  
 
-### 1.8. Customização
+## 6. Customização
 
 {% include image.html
     src="https://web-cdn.funcom.com/aoc/screenshots/tier3_ranger_armor-814x600.jpg"
@@ -303,7 +306,7 @@ Se parece com humano então faz coisas humanas.
     caption="Figura: Best Guns in Super People - <https://progameguides.com>."
 %}  
 
-### 1.9. Não estamos sozinhos
+## 7. Não estamos sozinhos
 
 {% include image.html
     src="https://i0.wp.com/gamehall.com.br/wp-content/uploads/2014/08/275048-l-the-last-of-us-remastered-ps4-boosted-by-best-game-ever-jpeg-116561.jpg?resize=780%2C470&ssl=1"
@@ -319,7 +322,7 @@ Se parece com humano então faz coisas humanas.
 
 - Os opostos se atraem.
 
-#### 1.9.1. NPC- Personagens não jogáveis
+### 7.1. NPC- Personagens não jogáveis
 
 {% include image.html
     src="https://www.ginx.tv/uploads2/diablo/D2R/deckard_cain_hots.jpg?ezimgfmt=ng%3Awebp%2Fngcb5%2Frs%3Adevice%2Frscb5-1"
@@ -351,15 +354,13 @@ Se parece com humano então faz coisas humanas.
 
 - Humor.
 
-## 2. Eles todos me querem morto
-
-***
+## 8. Eles todos me querem morto
 
 > "A jornada não acaba aqui. A morte é apenas um outro caminho... que todos temos que tomar".
 >
 > Gandalf - Senhor dos Anéis.
 
-### 2.1. Tipos de conflito
+### 8.1. Tipos de conflito
 
 {% include image.html
     src="https://psxbrasil.com.br/wp-content/uploads/2018/11/PREVIEW_SCREENSHOT1_171050-1024x576.jpg"
@@ -375,7 +376,7 @@ Se parece com humano então faz coisas humanas.
 
 - Homem versus criaturas;
 
-### 2.2. Forma segue a função
+### 8.2. Forma segue a função
 
 {% include image.html
     src="https://www.pcgamesn.com/wp-content/uploads/2021/05/resident-evil-village-bosses-guide-list-lady-dimitrescu-900x506.jpg"
@@ -397,7 +398,7 @@ Se parece com humano então faz coisas humanas.
 
 - Saúde;
 
-#### 2.2.1. Tamanho
+### 8.3. Tamanho
 
 - Pequenos não são mais altos que o personagem;
 
@@ -415,7 +416,7 @@ Se parece com humano então faz coisas humanas.
     caption="Figura: The 50 Biggest Villains in World of Warcraft (Ranked Based on Badassery) - <https://www.gamersdecide.com>."
 %}  
 
-#### 2.2.2. Comportamento
+### 8.4. Comportamento
 
 - Patrulheiro;
 
@@ -443,7 +444,7 @@ Se parece com humano então faz coisas humanas.
 
 - Dublê;
 
-#### 2.2.3. Velocidade
+### 8.5. Velocidade
 
 - Lento;
 - Velocidade média;
@@ -456,7 +457,7 @@ Se parece com humano então faz coisas humanas.
     caption="Figura: Phases of Dealing With Hidden Trauma."
 %}  
 
-### 2.3. Lutar com inimigos deve ser divertido
+### 8.6. Lutar com inimigos deve ser divertido
 
 Os inimigos dever enfrentados, não evitados.
 
@@ -474,7 +475,7 @@ Os inimigos dever enfrentados, não evitados.
 
 - Você precisa tirar seu poder;
 
-### 2.4. Ataques
+### 8.7. Ataques
 
 {% include image.html
     src="https://ashespost.com/wp-content/uploads/2018/09/Combat-Analysis-2.jpg"
@@ -492,7 +493,7 @@ Os inimigos dever enfrentados, não evitados.
 
 - Ataques telegrafados.
 
-### 2.5. Nem tudo é ataque
+### 8.8. Nem tudo é ataque
 
 {% include image.html
     src="https://www.thefandomentals.com/wp-content/uploads/2017/03/enemies.jpg"
@@ -518,7 +519,7 @@ Os inimigos dever enfrentados, não evitados.
 
 - Vulnerabilidades ou resistências.
 
-### 2.6. Faça o jogador odiar seu inimigo
+### 8.9. Faça o jogador odiar seu inimigo
 
 Inimigos não inimigos.
 
@@ -542,7 +543,7 @@ Inimigos não inimigos.
 
 - Competidor humano - Jogador versus jogador.
 
-### 2.7. BOSS
+### 8.10. BOSS
 
 {% include imagelocal.html
     src="me-conte-uma-historia/nemesis_t-type_wiki-1024x512.webp"
@@ -550,7 +551,7 @@ Inimigos não inimigos.
     caption="Figura: Nemesis T-Type - <https://residentevil.com.br>."
 %}  
 
-#### 2.7.1. Quando enfrentar?
+#### 8.10.1. Quando enfrentar?
 
 - Movimentos aprendidos;
 
@@ -564,7 +565,7 @@ Inimigos não inimigos.
     caption="Figura: Darth Vader nos games: uma história visual - <https://br.ign.com>."
 %}  
 
-#### 2.7.2. Quem é?
+#### 8.10.2. Quem é?
 
 - O que o torna um adversário digno?
 
@@ -582,7 +583,7 @@ Inimigos não inimigos.
     caption="Figura: Dark Souls Game Design Analysis: Why Do We Come Back To Die? - <https://www.gamedeveloper.com/>."
 %}  
 
-### 2.8. Componentes de uma luta
+## 9. Componentes de uma luta
 
 - Ataque primário;
 
@@ -596,7 +597,7 @@ Inimigos não inimigos.
     caption="Figura: Mortal Kombat: relembre os fatalities clássicos da série de luta - <https://www.techtudo.com.br>."
 %}  
 
-### 2.9. Deixe o jogador administrar o golpe final
+### 9.1. Deixe o jogador administrar o golpe final
 
 {% include image.html
     src="https://davescomputertips.com/wp-content/uploads/2019/12/Dragon.jpg.webp"
@@ -604,4 +605,4 @@ Inimigos não inimigos.
     caption="Figura: This Is Why I Hate Video Game Boss Fights - This Is Why I Hate Video Game Boss Fights."
 %}
 
-### 2.10. Locação
+### 9.2. Locação

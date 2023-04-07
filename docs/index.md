@@ -9,7 +9,7 @@ header:
 excerpt: >
   O CafeGeek é um site educacional com foco em desenvolvimento de jogos digitais e as disciplinas que orbitam este fantástico mundo
 feature_row:
-  - image_path: /assets/images/jogatina_das_decadas/jogatina_das_decadas.webp
+  - image_path: /assets/images/jogatina-das-decadas/jogatina_das_decadas.webp
     alt: "A Jogatina das décadas"
     title: "A Jogatina das décadas"
     excerpt: "O objetivo deste curso é apresentar as características e elementos associados aos jogos eletrônicos."
@@ -23,14 +23,14 @@ feature_row:
     url: "/pages/unreal-engine/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
-  - image_path: /assets/images/jogos_digitais/etienne-girardet-EP6_VZhzXM8-unsplash.webp
+  - image_path: /assets/images/jogos-digitais/etienne-girardet-EP6_VZhzXM8-unsplash.webp
     alt: "Me conta uma história"
     title: "Me conta uma história"
     excerpt: "Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história."
     url: "/pages/me-conta-uma-historia/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"      
-  - image_path: /assets/images/jogos_digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp
+  - image_path: /assets/images/jogos-digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp
     alt: "Computação gráfica"
     title: "Computação gráfica"
     excerpt: "Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya."
