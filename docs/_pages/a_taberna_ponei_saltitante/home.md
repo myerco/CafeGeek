@@ -50,7 +50,7 @@ Neste projeto vamos implementar os seguintes elementos :
 ### 2.1. A cidade de Bree
 
 {% include imagelocal.html
-    src="a_taberna_ponei_saltitante/250px-Darek_Zabrocki_-_Morning.webp"
+    src="a-taberna-ponei-saltitante/250px-Darek_Zabrocki_-_Morning.webp"
     alt="Figura: A cidade de Bree."
     caption="Figura: A cidade de Bree - <http://tolkiengateway.net/wiki/Bree>."
 %}
@@ -429,7 +429,7 @@ O que é o SQLDeveloper?
 ### 6.1. Entidade
 
 {% include imagelocal.html
-    src="a_taberna_ponei_saltitante/nazgul-charge-lord-of-the-rings-character-riding-horse-wallpaper-preview.webp"
+    src="a-taberna-ponei-saltitante/nazgul-charge-lord-of-the-rings-character-riding-horse-wallpaper-preview.webp"
     alt="Figura: Lord of the rings Nazgul."
     caption="Figura: Lord of the rings Nazgul."
 %}
@@ -549,7 +549,7 @@ Chave primária então é o atributo (ou conjunto de atributos concatenados) que
 ***
 
 {% include imagelocal.html
-    src="a_taberna_ponei_saltitante/lord_of_rings_luvatar.webp"
+    src="a-taberna-ponei-saltitante/lord_of_rings_luvatar.webp"
     alt="Figura: Lord of the rings Luvatar."
     caption="Figura: Lord of the rings Luvatar."
 %}

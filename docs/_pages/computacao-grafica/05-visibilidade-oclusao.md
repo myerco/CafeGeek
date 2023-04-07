@@ -8,7 +8,7 @@ sidebar:
     nav: dev_computacao
 ---
 
-{% include figure image_path="/assets/images/jogos_digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
+{% include figure image_path="/assets/images/jogos-digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
 
 ## 1. Distance Culling ou corte de distância
 
@@ -52,13 +52,13 @@ Adicionamos o volume `Cull Distance Volume` localizado em `Place Actors/Volumes`
 {: .text-justify}
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_cullDistanceVolume_size.jpg"
+    src="computacao-grafica/ue4_cullDistanceVolume_size.jpg"
     alt="Figura: CullDistanceVolume Size."
     caption="Corte de volume."
 %}
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_cullDistanceVolume_Array_distances.jpg"
+    src="computacao-grafica/ue4_cullDistanceVolume_Array_distances.jpg"
     alt="Figura: CullDistanceVolume Cull Distance Array."
     caption="Configure a matriz de distância e tamanho, Cull Distances para o corte."
 %}
@@ -121,7 +121,7 @@ A seleção de **View Frustum** usa a área visível da tela do campo de visão 
 Configurando o Unreal Engine para visualizar o corte de câmera.
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_camera_frustum.jpg"
+    src="computacao-grafica/ue4_camera_frustum.jpg"
     alt="Figura: Camera Frustum."
     caption="Show > Advanced > Camera frustum."
 %}
@@ -150,7 +150,7 @@ A **Precomputed Visibility** é ideal para hardware inferior e dispositivos móv
 É necessário definir o tamanho do volume para abranger a área analisada.
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_precomputed_visibility_volume.jpg"
+    src="computacao-grafica/ue4_precomputed_visibility_volume.jpg"
     alt="Figura: Precomputed Visibility Cells, em azul as células."
     caption="Para visualizar o Grid de células na cena, Show > Visualize > Precomputed Visibility Cells."
 %}
@@ -189,19 +189,19 @@ O sistema de oclusão dinâmica no Unreal Engine vem com vários métodos de aba
 _Exemplo_: Occlusion Culling
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_freezerendering_before.jpg"
+    src="computacao-grafica/ue4_freezerendering_before.jpg"
     alt="Figura: Freezerendering before."
     caption="Marque a posição da camera com o comando Ctrl + 1."
 %}
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_stat_initviews_complete_scene.jpg"
+    src="computacao-grafica/ue4_stat_initviews_complete_scene.jpg"
     alt="Figura: Stat initviews."
     caption="Com comando Stat initviews apresente as estatistas."
 %}
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_camera_actor.jpg"
+    src="computacao-grafica/ue4_camera_actor.jpg"
     alt="Figura: Perspective > Camera Actor."
     caption="Alterne para a visualização e controle de câmera."
 %}
@@ -209,7 +209,7 @@ _Exemplo_: Occlusion Culling
 Perceba que a média de objetos cortados na cena aumentou (`Frustum Culled Primitives`) e os objetos visíveis diminuiu (`Visible static mesh elements`).
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_stat_initviews_complete_scene_camera.jpg"
+    src="computacao-grafica/ue4_stat_initviews_complete_scene_camera.jpg"
     alt="Figura: Stat initviews."
     caption="Complete scene camera."
 %}
@@ -219,7 +219,7 @@ Com o comando `freezerendering` congele a renderização.
 Após congelar a cena, ejete a câmera para poder navegar pela cena e aperte a tecla **1**, que foi utilizada para marcar a posição da câmera antes.
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_freezerendering_after.jpg"
+    src="computacao-grafica/ue4_freezerendering_after.jpg"
     alt="Figura: Stat initviews after."
     caption="Rendering frozen."
 %}
@@ -275,7 +275,7 @@ A GPU agora começa a renderizar, sendo feito objeto por objeto (DrawCall).
 Um grupo de polígonos compartilha as mesmas propriedades em um `Drawcall`, abaixo um exemplo de como é feita a renderização.
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_gemeotry_hendering_drawcall_2.jpg"
+    src="computacao-grafica/ue4_gemeotry_hendering_drawcall_2.jpg"
     alt="Figura: 3 Objetos na cena."
     caption="A imagem acima renderiza 5 vezes."
 %}
@@ -285,7 +285,7 @@ Um grupo de polígonos compartilha as mesmas propriedades em um `Drawcall`, abai
 1. Céu.
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_gemeotry_hendering_drawcall.jpg"
+    src="computacao-grafica/ue4_gemeotry_hendering_drawcall.jpg"
     alt="Figura: 3 Objetos na cena."
     caption="A imagem acima renderiza 6 vezes."
 %}
@@ -296,7 +296,7 @@ Um grupo de polígonos compartilha as mesmas propriedades em um `Drawcall`, abai
 4. Céu.
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_gemeotry_hendering_drawcall_3.jpg"
+    src="computacao-grafica/ue4_gemeotry_hendering_drawcall_3.jpg"
     alt="Figura: Gemeotry Hendering Drawcall."
     caption="Acima o passo a passo, a ordem de renderização depende da importância dos objetos na cena."
 %}
@@ -311,7 +311,7 @@ O chão é renderizado primeiro e depois os cilindos, isto se deve porque a cena
 RHI significa Rendering Hardware Interface. Este comando exibe várias estatísticas exclusivas:
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_stat_rhi.jpg"
+    src="computacao-grafica/ue4_stat_rhi.jpg"
     alt="Figura: Stat RHI."
     caption="No Viewport aparece o relatório com as estatísticas."
 %}
@@ -336,7 +336,7 @@ stat RHI
 **Stat fps** nos mostra o número final de _fps_ e o tempo que levou para renderizar o último quadro. É o tempo total. Mas ainda não sabemos se o custo foi causado pela CPU ou pela GPU. Como explicado antes, um tem que esperar o outro. A renderização rápida na placa de vídeo não ajudará, se a CPU precisar de mais tempo para terminar o trabalho de jogabilidade, desenho (gerenciando a GPU) ou física.
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_stat_unit.jpg"
+    src="computacao-grafica/ue4_stat_unit.jpg"
     alt="Figura: Stat Unit."
     caption="Podemos obter informações mais específicas usando o comando stat unit. A hora do último quadro é mostrada com 4 números."
 %}

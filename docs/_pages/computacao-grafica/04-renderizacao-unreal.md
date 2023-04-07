@@ -8,7 +8,7 @@ sidebar:
     nav: dev_computacao
 ---
 
-{% include figure image_path="/assets/images/jogos_digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
+{% include figure image_path="/assets/images/jogos-digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
 
 ## 1. Lista de Frames e Threads
 
@@ -77,7 +77,7 @@ A GPU agora tem uma lista de modelos e transformações, mas se apenas renderiz�
 {: .text-justify}
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_gemeotry_hendering.jpg"
+    src="computacao-grafica/ue4_gemeotry_hendering.jpg"
     alt="Figura. 3 Objetos na cena."
     caption="Menu Project Settings > Rendering > Early Z-Pass."
 %}

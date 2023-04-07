@@ -8,12 +8,12 @@ sidebar:
     nav: dev_jogatina
 ---
 
-{% include figure image_path="/assets/images/jogatina_das_decadas/jogatina_das_decadas.webp" alt="Brecht Corbeel" caption="" %}
+{% include figure image_path="/assets/images/jogatina-das-decadas/jogatina_das_decadas.webp" alt="Brecht Corbeel" caption="" %}
 
 ## 1. Teria o jogo lugar no sistema de vida?
 
 {% include imagelocal.html
-    src="jogatina_das_decadas/Cover-shallow-1800x1100.webp"
+    src="jogatina-das-decadas/Cover-shallow-1800x1100.webp"
     alt="Figura: Life is a game. This is your strategy guide."
     caption="A vida real é o jogo que – literalmente – todo mundo está jogando. Mas pode ser difícil. Este é o seu guia."
     ref="https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/"
@@ -34,7 +34,7 @@ Quando pensamos no aspecto humano e evolutivo não podemos deixar de citar algum
 ## 2. Homo Ludens
 
 {% include imagelocal.html
-    src="jogatina_das_decadas/brincar.webp"
+    src="jogatina-das-decadas/brincar.webp"
     alt="Figura: Soraia Chung: O brincar elabora uma ideia de humanidade."
     caption="São os adultos que estão decidindo o uso dos espaços da cidade e as políticas públicas e tudo é considerado mais importante que o brincar. Muitas dessas coisas tangenciam o espaço das crianças, mas não necessariamente estão sendo  pensadas para elas, muito pelo contrário, elas perdem esses espaços o tempo todo."
     ref="https://alana.org.br/entrevista-soraia-chung-brincar/"
@@ -57,7 +57,7 @@ Em contrapartida devemos lembrar que o riso no filme O Nome da Rosa teve outra c
 ### 2.2. A Tensão como um elemento do jogo
 
 {% include imagelocal.html
-    src="jogatina_das_decadas/alien_isolation_1.webp"
+    src="jogatina-das-decadas/alien_isolation_1.webp"
     alt="Figura: Alien Isolation."
     caption="O silêncio vale ouro"
     ref="https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise"
@@ -70,7 +70,7 @@ Uma criança estendendo a mão para um brinquedo, um gatinho brincando com um no
 alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como se costuma dizer.
 
 {% include imagelocal.html
-    src="jogatina_das_decadas/9211-o-novelo-de-la-para-gatos-esta-na-lista-articles_media_desktop-2.webp"
+    src="jogatina-das-decadas/9211-o-novelo-de-la-para-gatos-esta-na-lista-articles_media_desktop-2.webp"
     alt="Figura: Brinquedos para gatos: por que os bichanos gostam de novelo de lã?"
     caption="Interesse dos bichanos tem relação com um instinto de caça, O novelo de lã ajuda a diminuir o estresse e a ansiedade do animal."
     ref="https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1"
@@ -109,7 +109,7 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 {: .notice}
 
 {% include imagelocal.html
-    src="jogatina_das_decadas/A-Vigilante-do-Amanhã-Ghost-in-the-Shell.webp"
+    src="jogatina-das-decadas/A-Vigilante-do-Amanhã-Ghost-in-the-Shell.webp"
     alt="Figura: Ghost in the Shell."
     caption="5 motivos para assistir Ghost in the Shell, com Scarlett Johansson, hoje mesmo!."
     ref="https://temalguemassistindo.com.br/5-motivos-para-assistir-ghost-in-the-shell-com-scarlett-johansson-hoje-mesmo/"
@@ -130,7 +130,7 @@ O ser humano, tal como todos os seres da escala biológica, tem como caracterís
 ### 3.2. O jogo Arte e Cultura
 
 {% include imagelocal.html
-    src="jogatina_das_decadas/2012_01_20_15_37_021.webp"
+    src="jogatina-das-decadas/2012_01_20_15_37_021.webp"
     alt="Figura: O Jogo na arte."
     caption="Os relógios que se derretem representam um tempo que passa de forma diferente. Ao contrário dos relógios normais, que marcam com precisão a passagem dos segundos, estes relógios de Dalí possuem marcações distintas, pois os seus ponteiros estão derretidos e trazem uma noção distorcida dos segundos."
     ref="https://www.culturagenial.com/a-persistencia-da-memoria-de-salvador-dali/"
@@ -142,7 +142,7 @@ Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um 
 ### 3.3. O jogo e a Guerra
 
 {% include imagelocal.html
-    src="jogatina_das_decadas/art-painting-delacroix_wallcoo.com.webp"
+    src="jogatina-das-decadas/art-painting-delacroix_wallcoo.com.webp"
     alt="Figura: O Jogo e a guerra."
     caption="A liberdade guiando o povo, 28 de julho de 1830."
     ref="https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Francesa"
@@ -153,7 +153,7 @@ Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um 
 ### 3.4. O jogo e o Direito
 
 {% include imagelocal.html
-    src="jogatina_das_decadas/leis.webp"
+    src="jogatina-das-decadas/leis.webp"
     alt="Figura: O Jogo e o Direito."
     caption="Dica de game com conteúdo Jurídico, ensinando direito através do jogo!."
     ref="https://juridicocerto.com/p/leonardoxanthakos/artigos/dica-de-game-com-conteudo-juridico-ensinando-direito-atraves-do-jogo-1983"
@@ -174,7 +174,7 @@ Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o 
 ### 3.5. O jogo e a Linguagem
 
 {% include imagelocal.html
-    src="jogatina_das_decadas/barreira-linguagem-764x343.webp"
+    src="jogatina-das-decadas/barreira-linguagem-764x343.webp"
     alt="Figura: O jogo e a linguagem."
     caption="Jogo de Linguagem (em alemão: Sprachspiel) é um conceito filosófico desenvolvido por Ludwig Wittgenstein, que se refere a exemplos simples de uso da linguagem e as ações nas quais a linguagem é tecida. Wittgenstein argumentou que uma palavra ou mesmo uma frase só tem significado dentro das regras do jogo linguístico que está sendo jogado em determinado momento. "
     ref="https://pt.wikipedia.org/wiki/Jogo_de_linguagem_(filosofia)"
@@ -185,7 +185,7 @@ A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo
 ### 3.6. Algumas considerações sobre o jogo
 
 {% include imagelocal.html
-    src="jogatina_das_decadas/musee_Rodin_1.webp"
+    src="jogatina-das-decadas/musee_Rodin_1.webp"
     alt="Figura: The Thinker."
     caption="Para pensar."
 %}

@@ -8,7 +8,7 @@ sidebar:
     nav: dev_computacao  
 ---
 
-{% include figure image_path="/assets/images/jogos_digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
+{% include figure image_path="/assets/images/jogos-digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
 
 ## 1. Como são formados os objetos 3D?
 
@@ -153,7 +153,7 @@ A direção perpendicular a um plano é chamado de **Normal** ao plano.
 Um triângulo também é definido por três pontos no espaço 3 chamados **Vértices** (singular vértice).
 
 {% include imagelocal.html
-    src="computacao_grafica/shad-tri-normal.webp"
+    src="computacao-grafica/shad-tri-normal.webp"
     alt="Figura: Triangle Vertex Normal."
     caption="A face normal de um triângulo pode ser calculada a partir do produto vetorial de duas arestas desse triângulo."
     ref="https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-shading/shading-normals"
@@ -170,7 +170,7 @@ Polígonos são uma coleção de vértices, arestas e faces que definem a forma 
 Utilizando as opções em **Poly Modeling** podemos definir uma séria de elementos poligonais.
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_maya_wireframe.jpg"
+    src="computacao-grafica/ue4_maya_wireframe.jpg"
     alt="Figura: Wireframe."
     caption="Polígonos no Maya utilizando a visualização Wireframe."
 %}
@@ -178,7 +178,7 @@ Utilizando as opções em **Poly Modeling** podemos definir uma séria de elemen
 `Channel Box/Layer Editor` - Propriedades do objeto com a sua quantidade de subdivisões, estes valores podem ser manipulados aumentando ou diminuindo a quantidade de arestas.
   
 {% include imagelocal.html
-    src="computacao_grafica/ue4_maya_show_vertex.jpg"
+    src="computacao-grafica/ue4_maya_show_vertex.jpg"
     alt="Figura: Poly Count."
     caption="Verts, Edges, Faces, Tris, UVs no Maya"
 %}
@@ -192,13 +192,13 @@ Apresentado a quantidade de vértices e arestas.
 Selecionando `Brush Wireframe` no `View Port` ou pressionando *Alt+2* a estrutura de malha de vértices dos polígonos na cena.
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_view_port_wireframe.jpg"
+    src="computacao-grafica/ue4_view_port_wireframe.jpg"
     alt="Figura: Unreal Wireframe"
     caption="Visualização a malha dos objetos, Unreal Engine 4 >  Brush Wireframes."
 %}
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_view_statistics.jpg"
+    src="computacao-grafica/ue4_view_statistics.jpg"
     alt="Figura: Apresentado a quantidade de vértices e arestas."
     caption="Visualizando estatísticas - Window > Statistics."
 %}
@@ -219,13 +219,13 @@ São as superfícies planas que constituem um sólido. Consistem em triângulos 
 Com botão direito pressionado (RMB) escolha **Face** para selecionar  a face.
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_maya_select_face.jpg"
+    src="computacao-grafica/ue4_maya_select_face.jpg"
     alt="Figura: Maya RMB."
     caption="Face."
 %}
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_maya_face.jpg"
+    src="computacao-grafica/ue4_maya_face.jpg"
     alt="Figura: Maya e seleção de Face."
     caption="A face selecionada fica em outra cor."
 %}
@@ -237,7 +237,7 @@ Somente é possível selecionar faces e vértices de objetos do tipo `Geometry` 
 É necessário habilitar as opções de edição em `Modes` >  `Brush Editing`.
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_select_face_geometry.jpg"
+    src="computacao-grafica/ue4_select_face_geometry.jpg"
     alt="Figura: Unreal Engine Faces de objetos."
     caption="Para editar a face no Unreal Engine utilize Modes > Brush Editing"
 %}
@@ -249,13 +249,13 @@ São segmentos de reta que são as intersecções de duas faces contíguas.
 ### 7.1. Arestas no Maya
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_maya_select_edge.jpg"
+    src="computacao-grafica/ue4_maya_select_edge.jpg"
     alt="Figura: Maya e arestas."
     caption="Para selecionar utilize RMB a opção Edge."
 %}
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_maya_edge.jpg"
+    src="computacao-grafica/ue4_maya_edge.jpg"
     alt="Figura: Maya select Edge."
     caption="Selecionando a aresta é possível e manipular-la."
 %}
@@ -263,7 +263,7 @@ São segmentos de reta que são as intersecções de duas faces contíguas.
 ### 7.2. Arestas no Unreal Engine
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_select_edge.jpg"
+    src="computacao-grafica/ue4_select_edge.jpg"
     alt="Figura: Unreal Engine Aresta."
     caption="Utilizamos - Modes > Brush Editing > Select Edge."
 %}
@@ -275,13 +275,13 @@ São os pontos de encontro das arestas.
 ### 8.1. Vértices no Maya
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_maya_select_vertex.jpg"
+    src="computacao-grafica/ue4_maya_select_vertex.jpg"
     alt="Figura: Maya RMB Vertex."
     caption="Selecionamos com RMB a opção Vertex."
 %}
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_maya_vertex.jpg"
+    src="computacao-grafica/ue4_maya_vertex.jpg"
     alt="Figura: Maya select vertex."
     caption="Selecionando um vértice."
 %}
@@ -289,7 +289,7 @@ São os pontos de encontro das arestas.
 ### 8.2. Vértices no Unreal Engine
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_select_vertex.jpg"
+    src="computacao-grafica/ue4_select_vertex.jpg"
     alt="Figura: Unreal Engine select Vertex."
     caption="Brush Editing."
 %}
@@ -345,7 +345,7 @@ Pivot é um ponto que marca o centro de objetos tridimensionais no Maya, onde :
 - Os manipuladores 3D também contam com o ponto de pivô do objeto.
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_maya_pivot.jpg"
+    src="computacao-grafica/ue4_maya_pivot.jpg"
     alt="Figura: Maya select pivot."
     caption="Selecione o pivot usando a tecla W e depois Tecla Insert ou D."
 %}

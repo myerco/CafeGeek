@@ -8,7 +8,7 @@ sidebar:
     nav: dev_jogatina
 ---
 
-{% include figure image_path="/assets/images/jogatina_das_decadas/jogatina_das_decadas.webp" alt="Brecht Corbeel" caption="" %}
+{% include figure image_path="/assets/images/jogatina-das-decadas/jogatina_das_decadas.webp" alt="Brecht Corbeel" caption="" %}
 
 ## 1. O que é um Jogo?
 
@@ -30,7 +30,7 @@ Podemos definir um jogo através das suas principais características.
 A origem da palavra deriva do de um termo do latim, *jocus*, que significa brincadeira, divertimento, atualmente podemos explorar as principais características e definições que nos ajudam a entender a evolução dessa "brincadeira" que faz parte das nossas vidas.
 
 {% include imagelocal.html
-    src="jogatina_das_decadas/chess_game.webp"
+    src="jogatina-das-decadas/chess_game.webp"
     alt="Figura: Chess."
     caption="O Xadrez é um jogo de tabuleiro de estratégia do tipo recreativo ou competitivo para dois jogadores."
 %}

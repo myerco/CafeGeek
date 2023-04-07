@@ -8,7 +8,7 @@ sidebar:
     nav: dev_computacao
 ---
 
-{% include figure image_path="/assets/images/jogos_digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
+{% include figure image_path="/assets/images/jogos-digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
 
 ## 1. O que é computação gráfica?
 
@@ -35,7 +35,7 @@ O setor de Jogos são um dos maiores usufruidores dos avanços gráficos e de ma
 Construir jogos digitais para que possam ser executados em diversas plataformas, sejam de arquiteturas e hardware ou sistemas operacionais diferentes exige conhecimento de técnicas de renderização de objetos na tela, bem como conhecer os elementos que os formam.
 
 {% include imagelocal.html
-    src="computacao_grafica/game_dungeon_crowley.jpg"
+    src="computacao-grafica/game_dungeon_crowley.jpg"
     alt="Figura: Dungeon Crowley."
     caption="Estúdio Animvs."
 %}

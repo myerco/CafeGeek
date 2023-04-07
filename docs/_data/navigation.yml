@@ -144,5 +144,11 @@ dev_jogatina:
 dev_modelagem3d:
   - title: MODELAGEM 3D
     children:
-      - title: Autodesk Maya
-        url: /pages/modelagem3d
+      - title: Introdução
+        url: /pages/modelagem3d/introducao
+      - title: Objetos Poligonais
+        url: /pages/modelagem3d/objetos-poligonais
+      - title: Objetos NURBS
+        url: /pages/modelagem3d/objetos-nurbs
+      - title: Materiais
+        url: /pages/modelagem3d/materiais

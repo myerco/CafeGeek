@@ -8,7 +8,7 @@ sidebar:
     nav: dev_jogatina
 ---
 
-{% include figure image_path="/assets/images/jogatina_das_decadas/jogatina_das_decadas.webp" alt="Brecht Corbeel" caption="" %}
+{% include figure image_path="/assets/images/jogatina-das-decadas/jogatina_das_decadas.webp" alt="Brecht Corbeel" caption="" %}
 
 ## 1. Como são classificados os jogos?
 
@@ -40,7 +40,7 @@ Consistem em uma superfície dividida em setores com peças móveis.
 ### 1.2. Cartas
 
 {% include imagelocal.html
-    src="jogatina_das_decadas/cartas-inter.webp"
+    src="jogatina-das-decadas/cartas-inter.webp"
     alt="Figura: Cartas <https://oestadoacre.com/2019/07/18/historia/>."
     caption="Figura: A história das cartas: o jogo de baralho é mais antigo do que você imagina."
 %}
@@ -420,7 +420,7 @@ A quinta geração estabeleceu a era dos 32 bits e posteriormente com o 64 bits,
 Alguns exemplos de jogos dessas gerações são 007 Goldeneye, Super Mário 64, Mario Kart, Counter Strike, LOL, Metal Gear Solid, God Of War, Grand Theft Auto, The Last of US  e Red Dead Redemption.
 
 {% include imagelocal.html
-    src="jogatina_das_decadas/the-last-of-us-parte-ii-1591561975954_v2_1170x540.webp"
+    src="jogatina-das-decadas/the-last-of-us-parte-ii-1591561975954_v2_1170x540.webp"
 alt="Figura: The Last of Us 2."
     caption="Figura: The Last of Us 2."
 %}
@@ -432,7 +432,7 @@ alt="Figura: The Last of Us 2."
 A Nintendo, tradicional e inovadora, começou nos arcades (fliperamas) e estreou em 1983 com o console de mesa NES. Em sequência fez o SNES, o Nintendo 64, o GameCube, o Wii , o Wii U e por último o Nintendo Switch. Líder do mercado de portáteis com Game Boy, em seguida Game Boy Color, Game Boy Advance e o console portátil mais vendido da história, o tão conhecido Nintendo DS, no inicio de 2011 lançou o seu novo portátil Nintendo 3DS, que traz um inovador sistema de jogos 3D.Lançou o Wii com uma inovadora jogabilidade com o controle Wiimote, que fez com que ela voltasse a ser a líder do mercado. Na E3 2011 a Nintendo mostrou seu mais novo console, o Wii U, sucessor do Wii, lançado em 18 de Novembro de 2012. O poder gráfico do novo console é superior ao dos consoles de sétima geração.
 
 {% include imagelocal.html
-    src="jogatina_das_decadas/nintendo-switch.webp"
+    src="jogatina-das-decadas/nintendo-switch.webp"
     alt="Figura: Nintendo Switch."
     caption="Figura: Nintendo Switch."
 %}
@@ -557,7 +557,7 @@ O iPhone 3GS e o iPhone 4, por exemplo, eram tidos como excelentes plataformas p
 ## 7. Jogos mobile
 
 {% include imagelocal.html
-    src="jogatina_das_decadas/angry_birds_EAW3ICp.webp"
+    src="jogatina-das-decadas/angry_birds_EAW3ICp.webp"
     alt="Figura: How Angry Birds broke the limits for mobile games."
     caption="How Angry Birds broke the limits for mobile games."
 %}

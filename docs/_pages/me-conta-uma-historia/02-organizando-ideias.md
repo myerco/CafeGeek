@@ -8,7 +8,7 @@ sidebar:
     nav: dev_me_conta  
 ---
 
-{% include figure image_path="/assets/images/jogos_digitais/etienne-girardet-EP6_VZhzXM8-unsplash.webp" alt="Brecht Corbeel" caption="" %}
+{% include figure image_path="/assets/images/jogos-digitais/etienne-girardet-EP6_VZhzXM8-unsplash.webp" alt="Brecht Corbeel" caption="" %}
 
 ## 1. Como construir um jogo digital?
 
@@ -20,7 +20,7 @@ Geralmente o fluxo de trabalhado pode ser definido pelas etapas de **Conceito**,
 ### 1.1. Conceito
 
 {% include imagelocal.html
-    src="me_conte_uma_historia/10.webp"
+    src="me-conte-uma-historia/10.webp"
     alt="Figura: Game design for PUBBY."
     caption="Game design for PUBBY - <https://www.dsource.in/case-study/game-design-pubby/design-process/>."
 %}
@@ -244,7 +244,7 @@ Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, 
 ## 4. O que nos inspira?
 
 {% include imagelocal.html
-    src="me_conte_uma_historia/04190615075402.webp"
+    src="me-conte-uma-historia/04190615075402.webp"
     alt="Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa."
     caption="Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa - <https://www.tecmundo.com.br/voxel/jogos/rise-of-the-tomb-raider/analise> ."
 %}

@@ -8,7 +8,7 @@ sidebar:
     nav: dev_jogatina
 ---
 
-{% include figure image_path="/assets/images/jogatina_das_decadas/jogatina_das_decadas.webp" alt="Brecht Corbeel" caption="" %}
+{% include figure image_path="/assets/images/jogatina-das-decadas/jogatina_das_decadas.webp" alt="Brecht Corbeel" caption="" %}
 
 ## 1. Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?
 

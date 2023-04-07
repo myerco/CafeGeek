@@ -8,7 +8,7 @@ sidebar:
     nav: dev_me_conta  
 ---
 
-{% include figure image_path="/assets/images/jogos_digitais/etienne-girardet-EP6_VZhzXM8-unsplash.webp" alt="Brecht Corbeel" caption="" %}
+{% include figure image_path="/assets/images/jogos-digitais/etienne-girardet-EP6_VZhzXM8-unsplash.webp" alt="Brecht Corbeel" caption="" %}
 
 ## 1. Por dentro da cabeça do Game Design
 

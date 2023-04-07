@@ -8,7 +8,7 @@ sidebar:
     nav: dev_computacao
 ---
 
-{% include figure image_path="/assets/images/jogos_digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
+{% include figure image_path="/assets/images/jogos-digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
 
 ## 1. Entendendo o processo de renderização
 
@@ -22,7 +22,7 @@ Em computação, um processo é uma instância de um programa de computador que 
 {: .text-justify}
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_cpu_processos.jpg"
+    src="computacao-grafica/ue4_cpu_processos.jpg"
     alt="Figura: Fila de Processos. "
     caption="Fluxo de execução de processos."
 %}
@@ -50,7 +50,7 @@ A renderização ocorre mediante o envio de comandos para a GPU, que gera a tela
 {: .text-justify}
 
 {% include imagelocal.html
-    src="computacao_grafica/ue4_gpu_pipeline.jpg"
+    src="computacao-grafica/ue4_gpu_pipeline.jpg"
     alt="Figura: Pipeline de computação de gráfica."
     caption="Fluxo de trabalho do processo de renderização."
 %}
@@ -115,7 +115,7 @@ A etapa de geometria (com pipeline de geometria), é responsável pela maioria d
 {: .text-justify}
 
 {% include imagelocal.html
-    src="computacao_grafica/The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards.jpg"
+    src="computacao-grafica/The-graphics-pipeline-in-OpenGL-consists-of-these-5-steps-in-the-new-generation-of-cards.jpg"
     alt="Figura: Pipeline OpenGL."
     caption="É uma sequência de etapas que o OpenGL executa ao renderizar objetos. Esta visão geral fornecerá uma descrição de alto nível das etapas do pipeline."
 %}
@@ -127,7 +127,7 @@ A etapa de geometria (com pipeline de geometria), é responsável pela maioria d
 _Exemplo_: Um exemplo seria uma reta descrita matematicamente é infinitesimalmente contínua, não importa o quão pequeno um trecho da reta é observado, é impossível determinar qual é o próximo ponto depois de um determinado ponto; não existem quebras.
 
 {% include imagelocal.html
-    src="computacao_grafica/rasterização.webp"
+    src="computacao-grafica/rasterização.webp"
     alt="Figura: Rasterização."
     caption="Conversão da representação de uma reta na forma vetorial para a matricial. Em B, é incluído um tratamento de anti-aliasing.."
     ref="https://portaleletronica.com.br/images/Imagens/Comp_Graf/Parte_3_Rasterizao.pdf"

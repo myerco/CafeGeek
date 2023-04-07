@@ -102,7 +102,7 @@ Valores:
 
 - e DynRes do projeto.
 
-**Informação:** Para saber mais sobre cada elemento acesse o curso de [Computação Gráfica](/pages/computacao_grafica/).
+**Informação:** Para saber mais sobre cada elemento acesse o curso de [Computação Gráfica](/pages/computacao-grafica/).
 {: .notice--info}
 
 ### 1.4. Fornecendo feedback sobre quanto tempo vários Ticks de jogo estão demorando
