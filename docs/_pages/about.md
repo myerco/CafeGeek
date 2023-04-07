@@ -9,11 +9,9 @@ author_profile: true
 
 Olá, meu nome é [Marco Yerco](mailto:cafegeekedu@gmail.com) analista de sistemas e professor, gostaria de compartilhar um pouco de conhecimento.
 
-Sou apaixonado por tecnologia e gosto de entender os processos das organizações através da análise dados e da sua manipulação. Como a Engenharia de Dados está na intersecção da Ciência de Dados e da Engenharia de Software , decidi me concentrar na Ciência de Dados.
+Sou apaixonado por tecnologia e gosto de entender os processos das organizações através da análise dados e da sua manipulação, então decidi me concentrar na Ciência de Dados, mas todo caminho tem uma surpresa, recentemente descobri os processos de construção dos jogos eletrônicos e atualmente me concentro na formação de desenvolvedores de jogos digitais.
 
-Recentemente descobri os processos de construção dos jogos eletrônicos e atualmente me concentro na formação de desenvolvedores de jogos digitais.
-
-Possuo sólidos conhecimentos de Bancos de Dados (**Oracle, Postgres**). Meus projetos profissionais anteriores também envolviam **Pentaho**, **Docker** e **Ruby on Rails**.
+Possuo sólidos conhecimentos de Bancos de Dados (**Oracle, Postgres**). Meus projetos profissionais anteriores também envolviam **Pentaho**, **Docker**, **Ruby on Rails**, **Unreal Engine** e **C++**.
 
 Sou uma pessoa que ama tecnologia, mas acredito que se algo vai salvar a humanidade, é o ser humano.
 
