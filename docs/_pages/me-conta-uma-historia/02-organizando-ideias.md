@@ -70,9 +70,9 @@ Organizar a equipe é um trabalho interessante quando compreendemos as caracter�
 
 {% include image.html
     src="https://unidigitaldobrasil.com.br/wp-content/uploads/2016/01/Kabam-playing-underworld-empire-together.jpg"
-    alt="Figura: Mas qual é a diferença entre design de games, game art e game design?."
+    alt="Figura: Mas qual é a diferença entre design de games, game art e game design?"
     caption="Várias pessoas com papeis diferentes desempenham a produção do projeto"
-     url="https://unidigitaldobrasil.com.br/carreira-na-industria-de-games-design-de-games-game-art-ou-game-design/"."
+     url="https://unidigitaldobrasil.com.br/carreira-na-industria-de-games-design-de-games-game-art-ou-game-design/"
 %}
 
 | Profissional | Papel                                           |
