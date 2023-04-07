@@ -1,7 +1,7 @@
 ---
 title: Death VIP
 excerpt: Modelo de GDD do jogo Death VIP
-permalink: /pages/trabalhos/modelo_death_vip
+permalink: /pages/trabalhos/modelo-death-vip
 toc: true
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true

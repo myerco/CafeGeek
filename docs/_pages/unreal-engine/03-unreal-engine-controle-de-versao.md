@@ -1,7 +1,7 @@
 ---
 title: Controle de versão
 excerpt: Neste capítulo vamos instalar o **Git Client** com o **GitHub Desktop** para versionamento de arquivos no **Unreal Engine** e apresentar comandos básicos.
-permalink: /pages/unreal_engine/controle_versao
+permalink: /pages/unreal-engine/controle-versao
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
@@ -170,7 +170,7 @@ Logo em seguida inicialize o projeto e clique em `Accept Settings`;
 
 Com o `Content Drawer` crie as pastas de trabalho.
 
-**Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal_engine/instalacao_configuracao#6-organizando-as-pastas).
+**Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal-engine/instalacao_configuracao#6-organizando-as-pastas).
 {: .notice--warning}
 
 Salve o level atual em `Projeto\Maps` com o nome `LevelTest`.

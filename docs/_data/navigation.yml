@@ -5,145 +5,97 @@ main:
   - title: "Desenvolvimento de Jogos"
     url:  /about/jogos_digitais
   - title: "Banco de Dados"
-    url: /pages/banco_dados    
+    url: /pages/banco-dados    
   - title: "Sobre"
     url: /about/
 
-docs:
-  - title: Getting Started
-    children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
-
 dev_game:
-  - title: UNREAL ENGINE
-    children:
-      - title: Introdução
-        url: /pages/unreal_engine/
-      - title: Programação
-        url: /pages/unreal_engine/blueprint
-      - title: Interface com o jogador
-        url: /pages/unreal_engine/hud_interface
-      - title: Estrutura de dados
-        url: /pages/unreal_engine/variaveis_estruturadas        
-      - title: Movimentação e Animação
-        url: /pages/unreal_engine/logica_movimentacao
-      - title: Inteligência Artificial
-        url: /pages/unreal_engine/inteligencia_artificial                              
-      - title: Materiais
-        url: /pages/unreal_engine/materiais_introducao                      
-      - title: Multiplayer
-        url: /pages/unreal_engine/multiplayer                              
-  - title: MODELAGEM 3D
-    children:
-      - title: Autodesk Maya
-        url: /pages/modelagem3d
-  - title: A JOGATINA DAS DÉCADAS
-    children:
-      - title: Os jogos
-        url: /pages/a_jogatina_das_decadas/
-      - title: Jogos Eletrônicos
-        url: /pages/a_jogatina_das_decadas/jogos        
-      - title: O comportamento
-        url: /pages/a_jogatina_das_decadas/comportamento                
-  - title: ME CONTA UMA HISTÓRIA
-    children:
-      - title: Organizando as ideias
-        url: /pages/me_conta_uma_historia/
-      - title: Os elementos da história
-        url: /pages/elementos_historia/        
-  - title: COMPUTAÇÃO GRÁFICA    
-    children:
-      - title: Estrutura de objetos 3D
-        url: /pages/computacao_grafica/      
-      - title: Processamento de imagens 
-        url:  /pages/computacao_grafica/processamento
-      - title: Programação C++
-        url: /pages/cpp/      
-  - title: O CURSO DE JOGOS DIGITAIS
-    children:
-      - title: Sobre
-        url: /about/jogos_digitais
-      - title: Trabalhos
-        url: /pages/trabalhos/
+  - title: Unreal Engine
+    url: /pages/unreal-engine/introducao  
+  - title: Modelagem 3D
+    url: /pages/modelagem3d
+  - title: A Jogatina das Décadas
+    url: /pages/a_jogatina_das_decadas/introducao
+  - title: Me conta uma história
+    url: /pages/me-conta-uma-historia/introducao
+  - title: Computação gráfica
+    url: /pages/computacao-grafica/introducao      
+  - title: O curso de jogos digitais
+    url: /about/jogos_digitais
+  - title: Trabalhos
+    url: /pages/trabalhos/
 
 dev_unreal:
   - title: INTRODUÇÃO
     children:
       - title: Desenvolvimento de jogos
-        url: /pages/unreal_engine/
+        url: /pages/unreal-engine/introducao
       - title: Instalação e Configuração
-        url: /pages/unreal_engine/instalacao_configuracao
+        url: /pages/unreal-engine/instalacao-configuracao
       - title: Controle de versão
-        url: /pages/unreal_engine/controle_versao
+        url: /pages/unreal-engine/controle-versao
       - title: Interface e Editores
-        url:  /pages/unreal_engine/interface_editores
+        url:  /pages/unreal-engine/interface-editores
   - title: PROGRAMAÇÃO
     children:
       - title: Programação com Blueprint
-        url: /pages/unreal_engine/blueprint
+        url: /pages/unreal-engine/blueprint
       - title: Estruturas de programação
-        url: /pages/unreal_engine/estruturas_programacao
+        url: /pages/unreal-engine/estruturas-programacao
       - title: A Classe Actor
-        url: /pages/unreal_engine/atores
+        url: /pages/unreal-engine/atores
       - title: Programação C++
-        url: /pages/unreal_engine/cpp
+        url: /pages/unreal-engine/cpp
       - title: Eventos, funções e macros
-        url: /pages/unreal_engine/eventos_funcoes
+        url: /pages/unreal-engine/eventos-funcoes
       - title: Comunicação entre Blueprints
-        url: /pages/unreal_engine/comunicacao_blueprint
+        url: /pages/unreal-engine/comunicacao-blueprint
   - title: INTERFACE COM O JOGADOR
     children:
       - title: HUD - Interface
-        url: /pages/unreal_engine/hud_interface
+        url: /pages/unreal-engine/hud-interface
       - title: Objetos da interface
-        url: /pages/unreal_engine/hud_logica
+        url: /pages/unreal-engine/hud-logica
   - title: ESTRUTURAS DE DADOS
     children:
       - title: Variáveis estruturadas
-        url: /pages/unreal_engine/variaveis_estruturadas
+        url: /pages/unreal-engine/variaveis-estruturadas
       - title: Game Instance, State e Mode
-        url: /pages/unreal_engine/gameinstance        
+        url: /pages/unreal-engine/gameinstance        
   - title: MOVIMENTAÇÃO E ANIMAÇÃO
     children:
       - title: Lógica de Movimentação
-        url: /pages/unreal_engine/logica_movimentacao
+        url: /pages/unreal-engine/logica-movimentacao
       - title: Delta time e sistema de coordenadas
-        url: /pages/unreal_engine/delta_time_sistema_coordenadas      
+        url: /pages/unreal-engine/delta-time-sistema-coordenadas      
       - title: Animação de personagens
-        url: /pages/unreal_engine/animacao_introducao
+        url: /pages/unreal-engine/animacao-introducao
       - title: Lógica de animação
-        url: /pages/unreal_engine/animacao_logica
+        url: /pages/unreal-engine/animacao-logica
       - title: Animação 2d
-        url: /pages/unreal_engine/animacao_2d        
+        url: /pages/unreal-engine/animacao-2d        
   - title: INTELIGÊNCIA ARTIFICIAL      
     children:
       - title: Inteligência Artificial
-        url: /pages/unreal_engine/inteligencia_artificial
+        url: /pages/unreal-engine/inteligencia-artificial
   - title: MATERIAIS E LANDSCAPE
     children:    
       - title: Introdução aos Materiais
-        url: /pages/unreal_engine/materiais_introducao
+        url: /pages/unreal-engine/materiais-introducao
       - title: Manipulando materiais
-        url: /pages/unreal_engine/materiais_blueprint
+        url: /pages/unreal-engine/materiais-blueprint
       - title: Iluminação
-        url: /pages/unreal_engine/iluminacao
+        url: /pages/unreal-engine/iluminacao
   - title: MULTIPLAYER
     children:
       - title: Multiplayer
-        url: /pages/unreal_engine/multiplayer
+        url: /pages/unreal-engine/multiplayer
   - title: EFEITOS ESPECIAIS
     children:
       - title: Sequencer
-        url: /pages/unreal_engine/
+        url: /pages/unreal-engine/
       - title: Niagara
-        url: /pages/unreal_engine/
+        url: /pages/unreal-engine/
 
 dev_computacao:
   - title: COMPUTAÇÃO GRÁFICA    

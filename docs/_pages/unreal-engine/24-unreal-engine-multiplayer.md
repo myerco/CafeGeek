@@ -1,7 +1,7 @@
 ---
 title: Implementando o jogo Multiplayer.
 excerpt: Implementando um jogo multiplayer com Unreal Engine
-permalink: /pages/unreal_engine/multiplayer
+permalink: /pages/unreal-engine/multiplayer
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal

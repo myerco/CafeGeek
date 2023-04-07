@@ -1,7 +1,7 @@
 ---
 title: A Classe Actor
 excerpt: Neste capitulo serão apresentados e implementados os atores ou Actors do seu projetos.
-permalink: /pages/unreal_engine/atores
+permalink: /pages/unreal-engine/atores
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal

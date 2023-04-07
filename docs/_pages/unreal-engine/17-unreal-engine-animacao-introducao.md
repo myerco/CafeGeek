@@ -1,7 +1,7 @@
 ---
 title: Animação de personagens
 excerpt: Neste capitulo vamos apresentar o fluxo de trabalho e os elementos necessários para a animação de personagens.
-permalink: /pages/unreal_engine/animacao_introducao
+permalink: /pages/unreal-engine/animacao-introducao
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
@@ -174,7 +174,7 @@ Neste capitulo vamos preparar e organizar os objetos e elementos necessários, c
 
 Para configurar e adicionar os pacotes necessários para as animações, vamos criar o projeto AulaAnimação com `Blueprint ThirdPerson` e adicionar `Animation Starter Pack` e logo em seguida preparamos e organizamos as pastas.
 
-**Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal_engine/instalacao_configuracao#6-organizando-as-pastas).
+**Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal-engine/instalacao_configuracao#6-organizando-as-pastas).
 {: .notice--warning}
 
 Mova todas as pastas de bibliotecas externas para a pasta ExampleContent, como por exemplo ThirdPerson.

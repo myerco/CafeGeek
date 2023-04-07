@@ -1,7 +1,7 @@
 ---
 title: Lógica de movimentação
 excerpt: Trabalhando com a lógica de movimentação do personagem utilizando Blueprint
-permalink: /pages/unreal_engine/logica_movimentacao
+permalink: /pages/unreal-engine/logica-movimentacao
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
@@ -112,7 +112,7 @@ Registramos os seguintes valores:
 
 - (1) Direita;
 
-**Infomração:** Para saber mais consulte o capítulo [Delta time e sistema de coordenadas](/pages/unreal_engine/delta_time_sistema_coordenadas).
+**Infomração:** Para saber mais consulte o capítulo [Delta time e sistema de coordenadas](/pages/unreal-engine/delta_time_sistema_coordenadas).
 {: .notice--info}
 
 {% include imagelocal.html

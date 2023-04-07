@@ -1,7 +1,7 @@
 ---
 title: Game Instance, Game State e Game Mode
 excerpt: Neste capítulo iremos apresentar as classes GameMode e GameInstance com suas funcionalidades.
-permalink: /pages/unreal_engine/gameinstance
+permalink: /pages/unreal-engine/gameinstance
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal

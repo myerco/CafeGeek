@@ -1,7 +1,7 @@
 ---
 title: Trabalhando com Animação 2D
 excerpt: Em este capitulo iremos implementar animações em duas dimensões utilizando o Plugin Paper2D no Unreal Engine.
-permalink: /pages/unreal_engine/animacao_2d
+permalink: /pages/unreal-engine/animacao-2d
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
@@ -85,7 +85,7 @@ Antes de iniciar o trabalho devemos habilitar o plugin `Paper2D` em menu `Edit` 
     caption="Após habilitar o plugin é necessário reiniciar o Unreal Engine."
 %}
 
-**Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal_engine/instalacao_configuracao#6-organizando-as-pastas).
+**Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal-engine/instalacao_configuracao#6-organizando-as-pastas).
 {: .notice--warning}
 
 ## 4. Preparando o ViewPort

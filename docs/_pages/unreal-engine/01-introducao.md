@@ -1,7 +1,7 @@
 ---
-title: Desenvolvimento de Jogos
+title: Introdução
 excerpt: Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando Blueprints e C++.
-permalink: /pages/unreal_engine/
+permalink: /pages/unreal-engine/introducao
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal

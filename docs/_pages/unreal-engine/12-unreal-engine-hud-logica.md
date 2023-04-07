@@ -1,7 +1,7 @@
 ---
 title: HUD - Lógica de programação
 excerpt: Neste capitulo vamos apresentar a lógica de programação os objetos do HUD.
-permalink: /pages/unreal_engine/hud_logica
+permalink: /pages/unreal-engine/hud_logica
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal

@@ -106,7 +106,7 @@ Quais são as tarefas e atividades que devem ser executadas, por onde começamos
     caption="Figura: Improving Video Game Development: Facilitating Heterogeneous Team Collaboration through Flexible Software Processes - <https://www.researchgate.net>."
 %}
 
-### 1.6. Limitações
+## 2. Limitações
 
 {% include image.html
     src="https://assets.rockpapershotgun.com/images/2020/02/The-Forest-Best-Survival-Games-2020.jpg"
@@ -116,7 +116,7 @@ Quais são as tarefas e atividades que devem ser executadas, por onde começamos
 
 O projeto é limitado por vários fatores, dentre eles:
 
-#### 1.6.1. Dinheiro
+### 2.1. Dinheiro
 
 Estime os custos do projeto, orçamento e controle de custos de modo que o projeto possa ser terminado dentro do orçamento aprovado.
 
@@ -132,7 +132,7 @@ Estime os custos do projeto, orçamento e controle de custos de modo que o proje
 
 - Controle custos, acompanhe e monitore as mudanças feitas na custo base.
 
-#### 1.6.2. Tempo
+### 2.2. Tempo
 
 Fique atento aos prazos estabelecidos no escopo e o tempo estipulado para cada atividade.
 
@@ -152,7 +152,7 @@ Fique atento aos prazos estabelecidos no escopo e o tempo estipulado para cada a
 
 - Monitore o andamento do projeto e atualize o progresso e gerenciamento de mudanças.
 
-#### 1.6.3. Tecnologia
+### 2.3. Tecnologia
 
 Considere de toda a base tecnológica do projeto.
 
@@ -172,7 +172,7 @@ Considere de toda a base tecnológica do projeto.
 
 - Softwares e licenças utilizados.
 
-#### 1.6.4. Expertise
+### 2.4. Expertise
 
 Organize as equipes com os papeis e responsabilidades designadas para a conclusão do projeto.
 
@@ -190,15 +190,12 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 
 - Acompanhe o desempenho dos membros da equipe, forneça *feedback*, resolva questões e acompanhe as mudanças.
 
-## 2. Como organizar as ideias?
+## 3. Como organizar as ideias?
 
-***
+Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, visto que o Universo não tem ideias. **Fernando Pessoa**.
+{: .notice}
 
-> "Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, visto que o Universo não tem ideias."
->
-> Fernando Pessoa.
-
-### 2.1. Onde nascem as ideias?
+### 3.1. Onde nascem as ideias?
 
 {% include image.html
     src="https://cdn3.vox-cdn.com/uploads/chorus_asset/file/3687336/The_Witcher_3_Wild_Hunt_You_never_know_what_waits_around_the_corner.0.png"
@@ -216,7 +213,7 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 
 - Experiências emocionais.
 
-### 2.2. Cultivando ideias
+### 3.2. Cultivando ideias
 
 {% include image.html
     src="https://cdn.vox-cdn.com/thumbor/KfZcAgZDNJyf7POmq2KDOfa2fZA=/148x0:1768x1080/920x613/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47374578/unravel-yarny.0.0.jpg"
@@ -232,7 +229,7 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 
 - Compartilhe o seu mundo com outras pessoas;
 
-### 2.3. O que torna a ideia interessante é
+### 3.3. O que torna a ideia interessante é
 
 {% include image.html
     src="https://adrenaline.com.br/uploads/2021/09/09/70890/Lost-in-Random_06.jpg"
@@ -244,7 +241,7 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 
 - Seja divertido;
 
-### 2.4. O que nos inspira?
+## 4. O que nos inspira?
 
 {% include imagelocal.html
     src="me_conte_uma_historia/04190615075402.webp"
@@ -260,7 +257,7 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 
 - Experiências pessoais;
 
-### 2.5. Hábito
+## 5. Hábito
 
 {% include image.html
     src="https://s2.glbimg.com/ZcTFIilmLi8663REozPDO8EzL18=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/q/UZHV1lT8SDUVlX8Bso5Q/2015-07-24-journey3.jpg"
@@ -268,7 +265,8 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
     caption="Figura: Review Journey - <https://www.tecmundo.com.br/voxel/jogos/journey/analise>."
 %}
 
-"A maior virtude do game é, sem dúvida, conseguir comover sem sequer dizer uma palavra. Confira a análise da versão de PlayStation 4!"
+A maior virtude do game é, sem dúvida, conseguir comover sem sequer dizer uma palavra.
+{: .notice}
 
 - Caminhe;
 

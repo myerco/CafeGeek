@@ -1,7 +1,7 @@
 ---
 title: Delta time e sistema de coordenadas
 excerpt: Delta time e sistema de coordenadas
-permalink: /pages/unreal_engine/delta_time_sistema_coordenadas
+permalink: /pages/unreal-engine/delta-time-sistema-coordenadas
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal

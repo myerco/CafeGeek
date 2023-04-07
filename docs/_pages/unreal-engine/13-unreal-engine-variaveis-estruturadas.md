@@ -1,7 +1,7 @@
 ---
 title: Variáveis estruturadas
 excerpt: Structure, é um tipo de dados definido pelo usuário disponível no Unreal Engine em C++ e Blueprint, neste capitulo vamos explorar estes objetos.  
-permalink: /pages/unreal_engine/variaveis_estruturadas
+permalink: /pages/unreal-engine/variaveis-estruturadas
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal

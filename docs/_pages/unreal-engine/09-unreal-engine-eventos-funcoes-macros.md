@@ -1,7 +1,7 @@
 ---
 title: Eventos, funções e macros
 excerpt: Neste capitulo serão apresentado como estruturar a lógica de programação utilizando métodos, funções e macros com Unreal Engine.
-permalink: /pages/unreal_engine/eventos_funcoes
+permalink: /pages/unreal-engine/eventos-funcoes
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
