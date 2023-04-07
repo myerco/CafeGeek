@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: /
   - title: "Desenvolvimento de Jogos"
-    url:  /about/jogos_digitais
+    url:  /about/jogos-digitais
   - title: "Banco de Dados"
     url: /pages/banco-dados    
   - title: "Sobre"
@@ -15,13 +15,13 @@ dev_game:
   - title: Modelagem 3D
     url: /pages/modelagem3d
   - title: A Jogatina das Décadas
-    url: /pages/a_jogatina_das_decadas/introducao
+    url: /pages/a-jogatina-das-decadas/introducao
   - title: Me conta uma história
     url: /pages/me-conta-uma-historia/introducao
   - title: Computação gráfica
     url: /pages/computacao-grafica/introducao      
   - title: O curso de jogos digitais
-    url: /about/jogos_digitais
+    url: /about/jogos-digitais
   - title: Trabalhos
     url: /pages/trabalhos/
 
