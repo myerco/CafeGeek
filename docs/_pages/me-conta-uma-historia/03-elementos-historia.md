@@ -85,7 +85,9 @@ Os personagens ficcionais causam empatia dos leitores, jogadores ou espectadores
 #### 1.2.1. Como ele caminha
 
 !["Figura: Relembre os melhores jogos clássicos em 2D do Sonic"](https://s2.glbimg.com/6VbePiU5gQg5tDf6RnWBQKWq9TE=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/A/koepwtTciyZq1aIruRUw/2016-07-27-sonic-melhores-jogos-10.jpg){: .align-left}
-O Sonic é autoconfiante, arrogante e muitas vezes impulsivo, sua aparência deve transparecer essas características.
+Sonic, é frequentemente descrito como corajoso, destemido e impetuoso. Ele é conhecido por ser um herói rápido e atlético, que usa sua velocidade para combater o mal e salvar o mundo.
+
+Sonic também é descrito como um personagem confiante, que muitas vezes desafia seus inimigos e não tem medo de assumir riscos para proteger seus amigos e sua causa. Ele é conhecido por ser enérgico e vibrante, e muitas vezes usa seu humor para aliviar a tensão em situações difíceis.
 
 #### 1.2.2. Como fala
 
@@ -96,6 +98,14 @@ O Sonic é autoconfiante, arrogante e muitas vezes impulsivo, sua aparência dev
     alt="Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation."
     caption="Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation - <https://www.theenemy.com.br/> ."
 %}
+
+Kratos, o personagem principal da série de jogos God of War, é conhecido por sua personalidade intensa e implacável. Ele é um guerreiro brutal e implacável, que muitas vezes usa a violência para resolver seus problemas.
+
+Kratos é motivado pela busca de vingança e pelo desejo de se redimir de seus pecados passados. Ele é frequentemente retratado como sendo solitário e amargurado, com um desprezo profundo pelos deuses que o traíram e o usaram.
+
+Apesar de sua natureza violenta, Kratos também é um personagem complexo, com uma história de fundo trágica e emoções profundas. Ele muitas vezes luta com suas próprias escolhas e o peso de suas ações passadas, o que adiciona camadas à sua personalidade e história.
+
+No geral, a personalidade de Kratos é sombria e pesada, mas também cativante e fascinante, tornando-o um personagem icônico do mundo dos videogames.
 
 #### 1.2.4. Como abre a porta
 
