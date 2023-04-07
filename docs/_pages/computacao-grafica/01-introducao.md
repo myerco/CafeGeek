@@ -7,7 +7,7 @@ toc: true
 sidebar:
     nav: dev_computacao
 categories:
-  - Computação Gráfica
+  - computação Gráfica
 tags:
   - conceito
   - curso
