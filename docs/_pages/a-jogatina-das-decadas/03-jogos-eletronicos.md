@@ -137,7 +137,7 @@ São elementos importantes que geram oportunidades aos jogadores e trazem consig
 {% include image.html
     src="https://news.xbox.com/pt-br/wp-content/uploads/sites/8/2021/11/Hellblade_-Senuas-Sacrifice-2021-08-04-01-00-58.jpg"
     alt="Figura: Hellblade: Senua’s Sacrifice recebe aprimoramento para o PC."
-    caption="Figura: Hellblade: Senua’s Sacrifice recebe aprimoramento para o PC."
+    caption="Não morra."
 %}
 
 Envolve aplicar características de realidade como morte, ferimentos, quedas e acidentes de forma lúdica, porém responsável.
@@ -147,7 +147,7 @@ Envolve aplicar características de realidade como morte, ferimentos, quedas e a
 {% include image.html
     src="https://jogazera.com.br/wp-content/uploads/2014/03/Dark-Souls-2-Review-770x433.jpg"
     alt="Figura: Review – Dark Souls 2."
-    caption="Figura: Review – Dark Souls 2."
+    caption="Desafios intensos."
 %}
 
 Regras definem o grau de desafio (Fácil, Médio, Difícil, Muito Difícil e Impossível).
@@ -160,7 +160,7 @@ Regras definem o grau de desafio (Fácil, Médio, Difícil, Muito Difícil e Imp
 {% include image.html
     src="https://store-images.s-microsoft.com/image/apps.54644.65129518710082559.30d43137-919f-4215-820e-038b409fb968.0c2054cc-681a-4f51-b2ad-8bd0318ba61d"
     alt="Figura: Unravel."
-    caption="Figura: Unravel."
+    caption="Relaxe e se divirta."
 %}
 
 É a experiência ou emoção que deriva do comportamento do jogador.
@@ -169,41 +169,41 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 
 ## 3. Os tipos de jogos Eletrônicos
 
-- RTS: Estratégia em tempo real, jogo não “roda” em torno de turnos;
+**RTS** - Estratégia em tempo real, jogo não “roda” em torno de turnos;
 
-- MOBA: Arena de batalha multijogador online, jogador controla um personagem em uma batalha entre dois times aonde o objetivo é derrotar a base principal inimiga;
+**MOBA** - Arena de batalha multijogador online, jogador controla um personagem em uma batalha entre dois times aonde o objetivo é derrotar a base principal inimiga;
 
-- RPG: Jogo de interpretação, o jogador vivencia um personagem que segue uma determinada história predestinada. O jogador controla as ações de um personagem imerso num mundo definido, incorporando elementos. Os personagens possuem status: ataque, defesa, agilidade e inteligência. Existe o sistema de níveis, no qual a cada batalha/missão terminada, se recebe experiência, e uma certa quantidade os leva para um novo nível;
+**RPG** - Jogo de interpretação, o jogador vivencia um personagem que segue uma determinada história predestinada. O jogador controla as ações de um personagem imerso num mundo definido, incorporando elementos. Os personagens possuem status: ataque, defesa, agilidade e inteligência. Existe o sistema de níveis, no qual a cada batalha/missão terminada, se recebe experiência, e uma certa quantidade os leva para um novo nível;
 
-- MMORPG: Assim como RPG, o jogo é de interpretação, que se desenvolve em torno de personagens, sendo feito para multijogadores, gênero de jogo na qual os jogadores criam e protagonizam seus personagens em torno de um mundo virtual online;
+**MMORPG** - Assim como RPG, o jogo é de interpretação, que se desenvolve em torno de personagens, sendo feito para multijogadores, gênero de jogo na qual os jogadores criam e protagonizam seus personagens em torno de um mundo virtual online;
 
-- FPS: Centrado no combate com armas de fogo, aonde o jogador protagoniza o personagem em primeira pessoa;
+**FPS** - Centrado no combate com armas de fogo, aonde o jogador protagoniza o personagem em primeira pessoa;
 
-- Dungeon Crawler: Um dungeon crawler obrigatoriamente se passa em torno de personagens se aventurando e combatendo em localizações específicas;
+**Dungeon Crawler** - Um dungeon crawler obrigatoriamente se passa em torno de personagens se aventurando e combatendo em localizações específicas;
 
-- Jogo eletrônico de ação: Jogos nas quais desafia a velocidade, reflexo e raciocínio rápido do jogador;
+**Jogo eletrônico de ação** - Jogos nas quais desafia a velocidade, reflexo e raciocínio rápido do jogador;
 
-- Jogo eletrônico de plataforma: Jogador se vê obrigado em passar de plataformas e obstáculos, enfrentando inimigos e coletando coisas;
+**Jogo eletrônico de plataforma** - Jogador se vê obrigado em passar de plataformas e obstáculos, enfrentando inimigos e coletando coisas;
 
-- Jogo eletrônico de luta: Como o próprio nome já diz, é o estilo de jogos em que os personagens se enfrentam em combates, seja desde troca de socos até partição de corpos com chapéus;
+**Jogo eletrônico de luta** - Como o próprio nome já diz, é o estilo de jogos em que os personagens se enfrentam em combates, seja desde troca de socos até partição de corpos com chapéus;
 
-- Shoot ‘em up: Subgênero na sua maioria de jogos eletrônicos de tiro, na qual o jogador vivencia um personagem, seja ele um serial killer (Hotline Miami) ou uma nave espacial, onde se tem como objetivo matar seus inimigos sem que seja acertado e subsequentemente morto;
+**Shoot ‘em up** - Subgênero na sua maioria de jogos eletrônicos de tiro, na qual o jogador vivencia um personagem, seja ele um serial killer (Hotline Miami) ou uma nave espacial, onde se tem como objetivo matar seus inimigos sem que seja acertado e subsequentemente morto;
 
-- Causal: Diferentemente dos jogos tradicionais que são mais complexos e exigem tempo e dedicação do jogador, os jogos casuais são simples e rápidos de aprender;
+**Causal** - Diferentemente dos jogos tradicionais que são mais complexos e exigem tempo e dedicação do jogador, os jogos casuais são simples e rápidos de aprender;
 
-- Open World (Mundo Aberto): Um mundo aberto é um nível ou jogo projetado como não linear com vastas áreas abertas e muitos caminhos para se chegar a um objetivo;
+**Open World (Mundo Aberto)** - Um mundo aberto é um nível ou jogo projetado como não linear com vastas áreas abertas e muitos caminhos para se chegar a um objetivo;
 
-- Simulação: Alguns jogos têm como objetivo simular o mundo real; outros possuem o objetivo de simular um mundo fictício;
+**Simulação** - Alguns jogos têm como objetivo simular o mundo real; outros possuem o objetivo de simular um mundo fictício;
 
-- On-line: Um jogador conectado à rede pode jogar com outros sem que ambos precisem estar no mesmo ambiente, o jogador pode desafiar adversários que estejam em outros lugares do mundo;
+**On-line** - Um jogador conectado à rede pode jogar com outros sem que ambos precisem estar no mesmo ambiente, o jogador pode desafiar adversários que estejam em outros lugares do mundo;
 
-- Corrida: O jogador participa de competições de corrida com qualquer tipo de veículo. Utilizam a perspectiva de jogo em primeira ou terceira pessoa. Podem ser baseados tanto em competições ou lugares reais quanto em ambientes fictícios;
+**Corrida** - O jogador participa de competições de corrida com qualquer tipo de veículo. Utilizam a perspectiva de jogo em primeira ou terceira pessoa. Podem ser baseados tanto em competições ou lugares reais quanto em ambientes fictícios;
 
-- Estratégia: É o tipo que enfatiza habilidades de pensamento e planejamento para alcançar a vitória. Os jogos enfatizam a estratégia, tática e algumas vezes desafios logísticos. Muitos jogos também oferecem desafios econômicos e exploração;
+**Estratégia** - É o tipo que enfatiza habilidades de pensamento e planejamento para alcançar a vitória. Os jogos enfatizam a estratégia, tática e algumas vezes desafios logísticos. Muitos jogos também oferecem desafios econômicos e exploração;
 
-- Aventura: A ênfase é focada no enredo e não na parte gráfica ou ação. Esses jogos normalmente incentivam o uso do raciocino lógico, para solucionar puzzles, e explorativo, para encontrar objetos específicos;
+**Aventura** - A ênfase é focada no enredo e não na parte gráfica ou ação. Esses jogos normalmente incentivam o uso do raciocino lógico, para solucionar puzzles, e explorativo, para encontrar objetos específicos;
 
-- Ação: Este desafia a velocidade, reflexo e raciocínio rápido do jogador. Tipicamente possuem características de conflitos com força física violenta, especialmente combate de tiros e/ou espadas como maior característica interativa.
+**Ação** - Este desafia a velocidade, reflexo e raciocínio rápido do jogador. Tipicamente possuem características de conflitos com força física violenta, especialmente combate de tiros e/ou espadas como maior característica interativa.
 
 ## 4. O mercado de jogos eletrônicos
 
@@ -213,7 +213,7 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr�
 {% include image.html
     src="https://s2.glbimg.com/7IWNxPUe3ZavTl0vMfqcjDxvUqo=/0x0:695x463/984x0/smart/filters:strip_icc()/s.glbimg.com/po/tt2/f/original/2014/02/07/flappy-bird-ios.jpg"
     alt="Figura: Flappy Bird."
-    caption="Figura: Flappy Bird."
+    caption="Sucesso de vendas."
 %}
 
 ### 4.1. Qual o  custo de produção de jogo eletrônico?
@@ -223,7 +223,7 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr�
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/pt/d/db/Modern_Warfare_2_cover.PNG"
     alt="Figura: Call of Duty: Modern Warfare 2."
-    caption="Figura: Call of Duty: Modern Warfare 2."
+    caption="FPS online."
 %}
 
 - Call of Duty: Modern Warfare 2 - $200 million;
