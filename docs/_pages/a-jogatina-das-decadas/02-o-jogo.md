@@ -6,6 +6,14 @@ last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
 sidebar:
     nav: dev_jogatina
+categories:
+  - jogos
+tags:
+  - conceito
+  - jogo
+  - fatores motivacionais
+  - fatores não motivacionais
+  - jogador
 ---
 
 {% include figure image_path="/assets/images/jogatina-das-decadas/jogatina_das_decadas.webp" alt="Brecht Corbeel" caption="" %}
