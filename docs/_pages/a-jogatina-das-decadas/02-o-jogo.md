@@ -169,22 +169,23 @@ Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um 
 
 Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o Luizinga associa o "processo" a um jogo considerando o seguinte:
 
-- **O tribunal** - Pode também ser chamado uma "corte" de justiça. Esta corte é ainda, no sentido pleno do  termo, o ίεφόδ χυχλο, o círculo sagrado dentro do qual, no escudo de Aquiles, aparecem sentados os juízes. Todo  lugar onde se ministra a justiça é um verdadeiro *temenos*, um lugar sagrado, separado e afastado do mundo vulgar.
+**O tribunal** - Pode também ser chamado uma "corte" de justiça. Esta corte é ainda, no sentido pleno do  termo, o ίεφόδ χυχλο, o círculo sagrado dentro do qual, no escudo de Aquiles, aparecem sentados os juízes. Todo  lugar onde se ministra a justiça é um verdadeiro *temenos*, um lugar sagrado, separado e afastado do mundo vulgar.
 
-- **Os juízes** -  que  ministram a justiça saem da vida "comum" no momento em que vestem a toga e colocam a  peruca.
+**Os juízes** -  que  ministram a justiça saem da vida "comum" no momento em que vestem a toga e colocam a  peruca.
 
-  > Um antigo juiz escreveu-me o seguinte: "O estilo e o conteúdo das intervenções nos tribunais revelam o  ardor esportivo com que nossos advogados se atacam uns aos outros por meio de argumentos e contra-argumentos  (alguns dos quais são razoavelmente sofisticados).
+Um antigo juiz escreveu-me o seguinte: "O estilo e o conteúdo das intervenções nos tribunais revelam o  ardor esportivo com que nossos advogados se atacam uns aos outros por meio de argumentos e contra-argumentos  (alguns dos quais são razoavelmente sofisticados).
+{: .notice--primary}
 
-- **Regras e Leis** - A competição judicial está  sempre submetida a um sistema de regras restritivas que, independentemente das limitações de tempo e de lugar,  colocam firme e inequivocamente o julgamento no interior do domínio do jogo ordenado e antitético.
+**Regras e Leis** - A competição judicial está  sempre submetida a um sistema de regras restritivas que, independentemente das limitações de tempo e de lugar,  colocam firme e inequivocamente o julgamento no interior do domínio do jogo ordenado e antitético.
 
-- **A justiça** - Se fizermos com que nosso olhar passe da  administração da justiça nas civilizações altamente desenvolvidas para aquela que se encontra nas fases menos  adiantadas da cultura, veremos que a ideia do bem e do mal, a concepção ético-jurídica, é ultrapassada pela ideia de  ganhar ou perder, isto é, pela concepção puramente agonística. O que interessa ao espírito primitivo não é tanto o  problema abstrato do bem e do mal, mas principalmente o problema extremamente concreto de ganhar ou perder.
+**A justiça** - Se fizermos com que nosso olhar passe da  administração da justiça nas civilizações altamente desenvolvidas para aquela que se encontra nas fases menos  adiantadas da cultura, veremos que a ideia do bem e do mal, a concepção ético-jurídica, é ultrapassada pela ideia de  ganhar ou perder, isto é, pela concepção puramente agonística. O que interessa ao espírito primitivo não é tanto o  problema abstrato do bem e do mal, mas principalmente o problema extremamente concreto de ganhar ou perder.
 
 ### 3.5. O jogo e a Linguagem
 
 {% include imagelocal.html
     src="jogatina-das-decadas/barreira-linguagem-764x343.webp"
-    alt="Figura: O jogo e a linguagem."
-    caption="Jogo de Linguagem (em alemão: Sprachspiel) é um conceito filosófico desenvolvido por Ludwig Wittgenstein, que se refere a exemplos simples de uso da linguagem e as ações nas quais a linguagem é tecida. Wittgenstein argumentou que uma palavra ou mesmo uma frase só tem significado dentro das regras do jogo linguístico que está sendo jogado em determinado momento. "
+    alt="Figura: O jogo e a linguagem (em alemão: Sprachspiel)."
+    caption="É um conceito filosófico desenvolvido por Ludwig Wittgenstein, que se refere a exemplos simples de uso da linguagem e as ações nas quais a linguagem é tecida. Wittgenstein argumentou que uma palavra ou mesmo uma frase só tem significado dentro das regras do jogo linguístico que está sendo jogado em determinado momento. "
     ref="https://pt.wikipedia.org/wiki/Jogo_de_linguagem_(filosofia)"
 %}
 
@@ -224,7 +225,8 @@ Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior 
     ref="https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women"
 %}
 
-“Conhecer o que o jogador quer e a situação que o mercado se apresenta são informações que apenas darão suporte ao design em criar um jogo que na verdade deve possuir, por meio de referências acadêmicas, os elementos que provoquem o **desejo**, a **compra**, a **diversão** e o entretenimento, que são consequências.”
+Conhecer o que o jogador quer e a situação que o mercado se apresenta são informações que apenas darão suporte ao design em criar um jogo que na verdade deve possuir, por meio de referências acadêmicas, os elementos que provoquem o **desejo**, a **compra**, a **diversão** e o entretenimento, que são consequências.
+{: .notice--primary}
 
 O jogo é um produto presente no mercado e como tal se apresenta com todas as suas características de comercialização.
 
@@ -232,8 +234,9 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 
 {% include image.html
     src="https://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg"
-    alt="Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek."
-    caption="Figura: Jogador Nº 1 - Diversão, referências e o orgulho geek - <http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/>"
+    alt="Figura: Jogador Nº 1."
+    caption="Diversão, referências e o orgulho geek"
+    ref="http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/"
 %}
 
 É um evento social, sendo assim esse evento gera emoções que são interpretações das respostas sensoriais obtidas pelos elementos do jogo, segue a baixo algumas delas:
@@ -255,15 +258,15 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
     ref="https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/"
 %}
 
-- Desafio - Adicionar complexidade nas tarefas do jogador;
+**Desafio** - Adicionar complexidade nas tarefas do jogador;
 
-- Liberdade - Possibilitar ao jogador construir seu próprio caminho;
+**Liberdade** - Possibilitar ao jogador construir seu próprio caminho;
 
-- Recompensa - Entregar rapidamente um resultado aproveitável para o jogados;
+**Recompensa** - Entregar rapidamente um resultado aproveitável para o jogados;
 
-- Escapismo - Sair da realidade para entrar em mundo onde o jogador encontra controle;
+**Escapismo** - Sair da realidade para entrar em mundo onde o jogador encontra controle;
 
-- Interação social - Encontrar e se relacionar com outras pessoas que compartilham o mesmo desejo.
+**Interação social** - Encontrar e se relacionar com outras pessoas que compartilham o mesmo desejo.
 
 [https://www.teachthought.com/learning/why-people-play-video-games/](https://www.teachthought.com/learning/why-people-play-video-games/ "Why People Play Video Games")
 
@@ -363,7 +366,8 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 {% include image.html
     src="https://tm.ibxk.com.br/2021/08/09/09131221401170.jpg"
     alt="Figura: Hellblade"
-    caption="Figura: Hellblade: Senua’s Sacrifice ganha upgrade no Xbox Series X/S - <https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm>"
+    caption="Senua’s Sacrifice ganha upgrade no Xbox Series X/S"
+    ref="https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm"
 %}
 
 ### 6.1. Respostas sensoriais
@@ -372,16 +376,16 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 
 {% include image.html
     src="https://files.tecnoblog.net/wp-content/uploads/2020/08/dez-dicas-para-dominar-horizon-zero-dawn005.png"
-    alt="Figura: 10 dicas para dominar Horizon Zero Dawn"
-    caption="Figura: 10 dicas para dominar Horizon Zero Dawn"
+    alt="Figura: Horizon Zero Dawn."
+    caption="10 dicas para dominar Horizon Zero Dawn."
 %}
 
 ### 6.3. Som
 
 {% include image.html
     src="https://s2.glbimg.com/WZEsU9OtfinBadWtEwruyHlueBg=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/C/o/4CJ1NPR2u4MTx3BMyY2A/journey-como-jogar-amigo.jpg"
-    alt="Figura: Como jogar Journey com um amigo? Confira dicas e tudo sobre o game"
-    caption="Figura: Como jogar Journey com um amigo? Confira dicas e tudo sobre o game"
+    alt="Figura: Como jogar Journey com um amigo?"
+    caption="Confira dicas e tudo sobre o game"
 %}
 
 ### 6.4. Música
@@ -395,7 +399,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 {% include image.html
     src="https://gamingbolt.com/wp-content/gallery/10-best-particle-and-lighting-effects-we-saw-in-2011/assassins-creed-revelations.jpg"
     alt="Figura: Assassin's Creed: Revelations"
-    caption="Figura: 10 Best Lighting and Particle Effects We Saw In 2011"
+    caption="10 Best Lighting and Particle Effects We Saw In 2011"
 %}
 
 ### 6.6. Jogabilidade
@@ -403,7 +407,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 {% include image.html
     src="https://static.techspot.com/articles-info/2366/images/2021-11-17-image-2-j.webp"
     alt="Figura: It Takes Two."
-    caption="Figura: It Takes Two."
+    caption="Jogabilidade compartilhada."
 %}
 
 ### 6.7. Cognição
@@ -411,7 +415,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 {% include image.html
     src="https://s2.glbimg.com/ys4yzHh8-bS88Kc2mwhuQdW3An0=/0x0:695x393/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/N/K/ray9GLT9GUmH5n4aqwAw/2015-08-21-the-witcher-3-geralt-lutando.jpg"
     alt="Figura: The Witcher 3."
-    caption="Figura: Confira os requisitos de The Witcher 3 e como deixar mais leve no PC"
+    caption="Confira os requisitos de The Witcher 3 e como deixar mais leve no PC"
 %}
 
 ### 6.8. Coordenação
@@ -419,5 +423,5 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 {% include image.html
     src="https://rollingstone.uol.com.br/media/_versions/guitar_hero_reproducao_widelg.jpg"
     alt="Figura: Guitar Hero."
-    caption="Figura: Guitar Hero: 15 clássicos do game que você provavelmente tocou muito."
+    caption="15 clássicos do game que você provavelmente tocou muito."
 %}

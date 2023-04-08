@@ -36,7 +36,7 @@ Consistem em uma superfície dividida em setores com peças móveis.
 {% include image.html
     src="https://www.infoescola.com/wp-content/uploads/2008/03/xadrez_255260497-1000x664.jpg"
     alt="Figura: Xadrez"
-    caption="Figura: Xadrez."
+    caption="Um dos jogos mais antigos da história humana."
 %}
 
 - 2600 a.C. Mesopotâmia;
@@ -57,8 +57,8 @@ Conjunto de símbolos com valores de combinação lógica, quem em determinadas 
 
 {% include image.html
     src="https://s1.static.brasilescola.uol.com.br/galeria/images/85b29f73c4b883f3b44b9e0596a2bdb0.jpg"
-    alt="Figura: Figura: Brasil Escola - Voleibol."
-    caption="Figura: Brasil Escola - Voleibol."
+    alt="Figura: Voleibol."
+    caption="Brasil Escola."
 %}
 
 São fisicamente aplicados em determinado jogo.
@@ -67,8 +67,8 @@ São fisicamente aplicados em determinado jogo.
 
 {% include image.html
     src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_780,h_450/https://blog.elevaplataforma.com.br/wp-content/uploads/2019/12/original-cfd1c117a3b836f3f131e59095fc3154-780x450.jpg"
-    alt="Figura: Figura: Gamificação na educação: como usá-la no processo pedagógico?."
-    caption="Figura: Gamificação na educação: como usá-la no processo pedagógico?."
+    alt="Figura: Gamificação na educação."
+    caption="Como usá-la no processo pedagógico?."
 %}
 
 Brincadeiras físicas e mentais com visões educacionais, cujo objetivo é socializar e educar.
@@ -78,7 +78,7 @@ Brincadeiras físicas e mentais com visões educacionais, cujo objetivo é socia
 {% include image.html
     src="https://imagens.usp.br/wp-content/uploads/games_pedrobolle_uspimagens_001.jpg"
     alt="Figura: Jogos Eletrônicos."
-    caption="Figura: Jogos Eletrônicos."
+    caption="Uma categoria recente de jogo."
 %}
 
 Trabalham com reflexos, coordenação e cognição.
@@ -91,7 +91,7 @@ O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pess
 {% include image.html
     src="https://covildosjogos.com.br/wp-content/uploads/2020/06/f782e9b5-9331-47cb-83a0-838e7515eb14-768x1024.jpg"
     alt="Figura: Jogos de Cartas."
-    caption="Figura: Jogos de Cartas."
+    caption="Truco, Pôquer e Paciência."
 %}
 
 **Nota:** Representar um jogo depende não somente do entendimento conceitual da atividade, mas também da inclusão de elementos comuns que fazem do jogo algo especial.
@@ -107,7 +107,7 @@ O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pess
 {% include image.html
     src="https://1.bp.blogspot.com/-amcIuWezKHM/VA3vWLcYvXI/AAAAAAAABwE/DXI1Tn6rDsI/s1600/002.jpg"
     alt="Figura: F22 Raptor."
-    caption="Figura: F22 Raptor."
+    caption="Simulador de combate aéreo."
 %}
 
 Capacidade do jogador de se concentrar nos objetivos e ações principais.
@@ -117,7 +117,7 @@ Capacidade do jogador de se concentrar nos objetivos e ações principais.
 {% include image.html
     src="https://2.bp.blogspot.com/_cM2l6Y3Ulgg/Sfi6LBnLGoI/AAAAAAAABqo/dWz5kQT2qpg/s1600/sangueCorrompido.jpg"
     alt="Figura: Praga no jogo World of Warcraft ajuda a entender pandemia."
-    caption="Figura: Praga no jogo World of Warcraft ajuda a entender pandemia."
+    caption="Efeito do contágio dentro de um ambiente virtual."
 %}
 
 Capacidade dos jogadores realizarem ações participativas nos jogos.
@@ -127,7 +127,7 @@ Capacidade dos jogadores realizarem ações participativas nos jogos.
 {% include image.html
     src="https://www.comboinfinito.com.br/principal/wp-content/uploads/2014/05/far-cry-4-historia.jpg"
     alt="Figura: Detalhes da história de Far Cry 4 surgem no site da Ubisoft."
-    caption="Figura: Detalhes da história de Far Cry 4 surgem no site da Ubisoft."
+    caption="Os vilões desta série são bem representados."
 %}
 
 São elementos importantes que geram oportunidades aos jogadores e trazem consigo a essência do jogo, como medo, responsabilidade e interatividade.
