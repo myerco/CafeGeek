@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "pt-BR"
-title                    : null
+title                    : Cafegeek
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Cafegeek"
@@ -238,7 +238,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-archives
-  
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
