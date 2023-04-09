@@ -174,7 +174,7 @@ Neste capitulo vamos preparar e organizar os objetos e elementos necessários, c
 
 Para configurar e adicionar os pacotes necessários para as animações, vamos criar o projeto AulaAnimação com `Blueprint ThirdPerson` e adicionar `Animation Starter Pack` e logo em seguida preparamos e organizamos as pastas.
 
-**Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal-engine/instalacao_configuracao#6-organizando-as-pastas).
+**Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](https://cafegeek.eti.br/pages/unreal-engine/instalacao-configuracao#6-organizando-as-pastas).
 {: .notice--warning}
 
 Mova todas as pastas de bibliotecas externas para a pasta ExampleContent, como por exemplo ThirdPerson.
