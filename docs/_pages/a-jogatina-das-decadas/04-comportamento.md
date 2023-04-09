@@ -7,7 +7,7 @@ toc: true
 sidebar:
     nav: dev_jogatina
 categories:
-  - jogos
+  - a jogatina das decadas
 tags:
   - comportamento
   - vicio em jogos

@@ -1,13 +1,13 @@
 ---
 title: O jogo
-permalink: /pages/a-jogatina-das-decadas/ojogo
+permalink: /pages/a-jogatina-das-decadas/o-jogo
 excerpt: "O objetivo deste capítulo é definir o que é um jogo e quem joga."
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
 sidebar:
     nav: dev_jogatina
 categories:
-  - jogos
+  - a jogatina das decadas
 tags:
   - conceito
   - jogo
