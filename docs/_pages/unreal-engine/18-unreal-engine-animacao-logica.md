@@ -523,7 +523,9 @@ Continue adicionando as animações nas coordenadas.
     ref="https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/SkeletalMeshAnimation/AnimHowTo/AimOffset/"
 %}
 
-### 14.4. Lógica completa
+## 15. Misturando animações
+
+A seguir vamos apresentar o fluxo e a lógica do personagem Mannequim que utiliza dois tipos de estado, com arma e sem arma.
 
 {% include iframe.html
     src="https://blueprintue.com/render/4qdfogtg/"
@@ -532,7 +534,7 @@ Continue adicionando as animações nas coordenadas.
     ref="https://blueprintue.com/render/4qdfogtg/"
 %}
 
-### 14.5. Lógica variáveis
+### 15.1. Lógica variáveis
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-logic-variables-local.webp"
@@ -540,7 +542,7 @@ Continue adicionando as animações nas coordenadas.
     caption="Valores para controle de velocidade e estados do personagem."
 %}
 
-### 14.6. Inicialização de variáveis
+### 15.2. Inicialização de variáveis
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-logic-initialize.webp"
@@ -548,15 +550,15 @@ Continue adicionando as animações nas coordenadas.
     caption="Inicializa a variável Character Movement."
 %}
 
-### 14.7. Atualizando a animação
+### 15.3. Atualizando a animação
 
 {% include imagelocal.html
-    src="unreal/animacao/unreal-engine-abp-update-animation.webp"
+    src="unreal/animacao/unreal-engine-abp-logic-update-animation.webp"
     alt="Figura: Event Blueprint Update Animation."
     caption="Se o objeto BP_Mannequin estiver instanciado determina o seu fluxo de eventos."
 %}
 
-#### 14.7.1. Calculando velocidade e direção
+#### 15.3.1. Calculando velocidade e direção
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-logic-velocity-direction.webp"
@@ -564,7 +566,7 @@ Continue adicionando as animações nas coordenadas.
     caption="Defina Velocity e GroundSpeed a partir da velocidade dos componentes de movimento. A velocidade do solo é calculada apenas a partir dos eixos X e Y da velocidade, portanto, mover para cima ou para baixo não a afeta."
 %}
 
-#### 14.7.2. Limitando a velocidade e queda
+#### 15.3.2. Limitando a velocidade e queda
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-logic-move-falling.webp"
@@ -572,7 +574,7 @@ Continue adicionando as animações nas coordenadas.
     caption="Define ShouldMove como verdadeiro somente se a velocidade do solo estiver acima de um pequeno limite (para evitar que velocidades incrivelmente pequenas acionem animações) e se houver aceleração (entrada) aplicada no momento. Define IsFalling como verdadeiro determinado pela função IsFalling."
 %}
 
-#### 14.7.3. Atualizando as variáveis de controle de estados
+#### 15.3.3. Atualizando as variáveis de controle de estados
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-logic-update-action.webp"
@@ -580,7 +582,7 @@ Continue adicionando as animações nas coordenadas.
     caption="Atualiza as variáveis que determinam os estados das animações."
 %}
 
-#### 14.7.4. Levantando a arma para mirar
+#### 15.3.4. Levantando a arma para mirar
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-logic-aim.webp"
@@ -588,7 +590,7 @@ Continue adicionando as animações nas coordenadas.
     caption="Atualiza as variáveis limitando o angulo de rotação em -90 e 90 graus."
 %}
 
-### 14.8. State Machines
+### 15.4. State Machines
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-state-base.webp"
@@ -602,7 +604,7 @@ Continue adicionando as animações nas coordenadas.
     caption="Eventos da animação básica."
 %}
 
-#### 14.8.1. Weapon Base
+#### 15.4.1. Weapon Base
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-state-2.webp"
@@ -628,7 +630,7 @@ Continue adicionando as animações nas coordenadas.
     caption="Configuramos o objeto para utilizar o osso Spine_01 pois no caso do mannequim ele é o osso da cintura que queremos usar como referência para mistura de animações."
 %}
 
-### 14.9. Pose final
+### 15.5. Pose final
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-state-weapon-final.webp"
