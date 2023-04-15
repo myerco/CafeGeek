@@ -522,3 +522,116 @@ Continue adicionando as animações nas coordenadas.
     caption="Coordenadas Yaw e Pitch."
     ref="https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/SkeletalMeshAnimation/AnimHowTo/AimOffset/"
 %}
+
+### 14.4. Lógica completa
+
+{% include iframe.html
+    src="https://blueprintue.com/render/4qdfogtg/"
+    title="Cafegeek - Animation BP State Base e Weapon"
+    caption="Lógica do Animation Blueprint, carregando e atualizando variáveis."
+    ref="https://blueprintue.com/render/4qdfogtg/"
+%}
+
+### 14.5. Lógica variáveis
+
+{% include imagelocal.html
+    src="unreal/animacao/unreal-engine-abp-logic-variables-local.webp"
+    alt="Figura: My Blueprint - Variáveis."
+    caption="Valores para controle de velocidade e estados do personagem."
+%}
+
+### 14.6. Inicialização de variáveis
+
+{% include imagelocal.html
+    src="unreal/animacao/unreal-engine-abp-logic-initialize.webp"
+    alt="Figura: Event Blueprint Initialize Animation."
+    caption="Inicializa a variável Character Movement."
+%}
+
+### 14.7. Atualizando a animação
+
+{% include imagelocal.html
+    src="unreal/animacao/unreal-engine-abp-update-animation.webp"
+    alt="Figura: Event Blueprint Update Animation."
+    caption="Se o objeto BP_Mannequin estiver instanciado determina o seu fluxo de eventos."
+%}
+
+#### 14.7.1. Calculando velocidade e direção
+
+{% include imagelocal.html
+    src="unreal/animacao/unreal-engine-abp-logic-velocity-direction.webp"
+    alt="Figura: Velocity e Direction."
+    caption="Defina Velocity e GroundSpeed a partir da velocidade dos componentes de movimento. A velocidade do solo é calculada apenas a partir dos eixos X e Y da velocidade, portanto, mover para cima ou para baixo não a afeta."
+%}
+
+#### 14.7.2. Limitando a velocidade e queda
+
+{% include imagelocal.html
+    src="unreal/animacao/unreal-engine-abp-logic-move-falling.webp"
+    alt="Figura: GetCurrentAcceleration e IsFalling."
+    caption="Define ShouldMove como verdadeiro somente se a velocidade do solo estiver acima de um pequeno limite (para evitar que velocidades incrivelmente pequenas acionem animações) e se houver aceleração (entrada) aplicada no momento. Define IsFalling como verdadeiro determinado pela função IsFalling."
+%}
+
+#### 14.7.3. Atualizando as variáveis de controle de estados
+
+{% include imagelocal.html
+    src="unreal/animacao/unreal-engine-abp-logic-update-action.webp"
+    alt="Figura: Get BP_Mannequin."
+    caption="Atualiza as variáveis que determinam os estados das animações."
+%}
+
+#### 14.7.4. Levantando a arma para mirar
+
+{% include imagelocal.html
+    src="unreal/animacao/unreal-engine-abp-logic-aim.webp"
+    alt="Figura: AimPitch e AimYaw."
+    caption="Atualiza as variáveis limitando o angulo de rotação em -90 e 90 graus."
+%}
+
+### 14.8. State Machines
+
+{% include imagelocal.html
+    src="unreal/animacao/unreal-engine-abp-state-base.webp"
+    alt="Figura: Base Pose."
+    caption="Animação base do personagem."
+%}
+
+{% include imagelocal.html
+    src="unreal/animacao/unreal-engine-abp-state-base-2.webp"
+    alt="Figura: Base - Event Graph."
+    caption="Eventos da animação básica."
+%}
+
+#### 14.8.1. Weapon Base
+
+{% include imagelocal.html
+    src="unreal/animacao/unreal-engine-abp-state-2.webp"
+    alt="Figura: Weapon Hip e Weapon Aim - Event Graph ."
+    caption="Eventos com animações do personagem segurando uma arma e mirando."
+%}
+
+{% include imagelocal.html
+    src="unreal/animacao/unreal-engine-abp-state-weapon-base.webp"
+    alt="Figura: WeaponBase."
+    caption="Evento AimOffset Player com seus parâmetros e Blend Poses by Bool para alternar entre uma pose ou outra."
+%}
+
+{% include imagelocal.html
+    src="unreal/animacao/unreal-engine-abp-state-weapon-equip-reload.webp"
+    alt="Figura: WeaponEquip."
+    caption="Utilizamos Layered Blend per Bone para mesclar as animações a partir de um determinado osso."
+%}
+
+{% include imagelocal.html
+    src="unreal/animacao/unreal-engine-abp-state-weapon-details-layered-per-bone.webp"
+    alt="Figura: Details > Layered blend per bone."
+    caption="Configuramos o objeto para utilizar o osso Spine_01 pois no caso do mannequim ele é o osso da cintura que queremos usar como referência para mistura de animações."
+%}
+
+### 14.9. Pose final
+
+{% include imagelocal.html
+    src="unreal/animacao/unreal-engine-abp-state-weapon-final.webp"
+    alt="Figura: Output Pose."
+    caption="Podemos usar várias opções em sequência para construir o estado final da animação."
+%}
