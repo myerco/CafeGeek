@@ -287,7 +287,7 @@ Em este passo utilizaremos o `Animation Montage` para montar as animações de a
 
 Vamos baixar e instalar os arquivos Mutant_Punch.fbx e Mutant_Swipping do site [https://mixano.com](https://mixano.com) para animar ataque direita e ataque esquerda.
 
-[![Mixano](https://static.wikia.nocookie.net/adobe/images/9/9c/Mixamo_2.0_logo.png/revision/latest?cb=20191212073142)](https://www.mixamo.com/)
+[![Mixano](/assets/images/unreal/animacao/mixamo-2-0-logo.webp)](https://www.mixamo.com/)
 {: style="margin-top: 0.5em;"}
 
 No editor de animação arrastre as animações para a linha de tempo. Observe que cada animação ocupa uma raia ou slot dentro de uma seção;

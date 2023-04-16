@@ -6,6 +6,12 @@ last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
 toc: true  
+categories:
+  - Unreal Engine
+tags:
+  - Blueprint
+  - Actors
+  - Classes
 ---
 
 ## 1. O que são Blueprints e Visual Scripting?
@@ -28,39 +34,36 @@ O sistema *Blueprints Visual Scripting* no **Unreal Engine** é um sistema compl
 Para que o **Unreal Engine** possa construir os nós gráficos que representam a instruções de programação **C++** é importante entender como é a hierarquia de elementos que compõem o projeto, segue abaixo a representação baseado no arquivo de referência no seguinte em [unreal_schematics](https://github.com/drstreit/unreal_schematics "https://github.com/drstreit/unreal_schematics").
 
 ```bash
-|-- C++  
-|   |-- Herança - Classes derivam e herdam de suas classes pai  
-|   |   |-- Framework - Classes Padrão  
-|   |   |   |-- Actor  
-|   |   |   |   |-- GameMode
-|   |   |   |   |   |-- Pawn
-|   |   |   |   |   |-- Controller
-|   |   |   |   |   |-- GameState
-|   |   |   |   |   |-- PlayerState
-|   |   |   |   |-- GameInstance
-|   |   |-- Events/Functions/Var - Eventos, funções e variáveis.
-|   |-- Blueprint
-|   |   |-- Components
-|   |   |   |-- Static Mesh
-|   |   |   |-- Emiter
-|   |   |-- Editores
-|   |   |   |-- Timeline
-|   |   |   |-- Componentes
-|   |   |   |-- Editor de script
-|   |   |-- Communication BP to BP - Comunicação entre Blueprints
-|   |   |   |-- Casting
-|   |   |   |-- Interface
-|   |   |   |-- Event Dispacher
-|   |-- Compilação - Compilação do Bytecode.
-|   |   |-- Navitization - Durante o processo de preparação, o Blueprint pode ser cruzado para c ++ e nativizado*
-|   |-- VM - Executado em uma máquina virtual
+└── C++  
+    ├── Herança                         # Classes derivam e herdam de suas classes pai  
+    |   ├── Framework                   # Classes Padrão  
+    |   |   └── Actor  
+    |   |       ├── GameMode
+    |   |       |   ├── Pawn
+    |   |       |   ├── Controller
+    |   |       |   ├── GameState
+    |   |       |   └── PlayerState
+    |   |       └── GameInstance
+    |   └── Events/Functions/Var        # Eventos, funções e variáveis.
+    ├── Blueprint
+    |   ├── Components
+    |   |   ├── Static Mesh
+    |   |   └── Emiter
+    |   ├── Editores
+    |   |   ├── Timeline
+    |   |   ├── Componentes
+    |   |   └── Editor de script
+    |   └── Communication BP to BP      # Comunicação entre Blueprints
+    |       ├── Casting
+    |       ├── Interface
+    |       └── Event Dispacher
+    ├── Compilação                      # Compilação do Bytecode.
+    |   └── Navitization                # Durante o processo de preparação, o Blueprint pode ser cruzado para c ++ e nativizado*
+    └── VM                              # Executado em uma máquina virtual
 ```
 
-### 1.1. Nativização
-
-"A nativização é uma funcionalidade relativamente nova no **Unreal Engine**, que permite aos desenvolvedores converter suas classes criadas em **Blueprint** para código nativo **C++** no momento em que é construído o pacote final do jogo. Isso faz com que seja possível aliar a facilidade de prototipação dos **Blueprints** ao desempenho do **C++**, acelerando o processo de desenvolvimento e também reduzindo a possibilidade de erros na programação, levando em consideração que ao desenvolver em **Blueprint** todas as entradas e saídas de dados, assim como o fluxo das operações são verificados pela máquina virtual enquanto os testes estão sendo realizados, isso permite garantir que tudo funcione conforme o esperado, ou na pior das hipóteses, alerte ao desenvolvedor caso algo não saia como o esperado, por meio de mensagens intuitivas e claras."
-
-***
+**Nativização:** A nativização é uma funcionalidade relativamente nova no **Unreal Engine**, que permite aos desenvolvedores converter suas classes criadas em **Blueprint** para código nativo **C++** no momento em que é construído o pacote final do jogo. Isso faz com que seja possível aliar a facilidade de prototipação dos **Blueprints** ao desempenho do **C++**, acelerando o processo de desenvolvimento e também reduzindo a possibilidade de erros na programação, levando em consideração que ao desenvolver em **Blueprint** todas as entradas e saídas de dados, assim como o fluxo das operações são verificados pela máquina virtual enquanto os testes estão sendo realizados, isso permite garantir que tudo funcione conforme o esperado, ou na pior das hipóteses, alerte ao desenvolvedor caso algo não saia como o esperado, por meio de mensagens intuitivas e claras.
+{: .notice--info}
 
 ## 2. Trabalhando com Level ou níveis
 
@@ -91,13 +94,13 @@ Logo em seguida podemos definir um modelo pre-definido para auxiliar na constru�
     caption="Apresentando vários modelos prontos para servir como base."
 %}
 
-- `Default`: Selecione para criar um novo `Level` com uma configuração básica que inclui um início de jogador, uma luz, uma cúpula do céu e outros vários atores que você precisa para um *Level* funcionar corretamente;
+`Default`: Selecione para criar um novo `Level` com uma configuração básica que inclui um início de jogador, uma luz, uma cúpula do céu e outros vários atores que você precisa para um *Level* funcionar corretamente;
 
-- `TimeofDay`: selecione para criar um novo `Level` com uma configuração que permite que você visualize as configurações da atmosfera da hora do dia em tempo real;
+`TimeofDay`: selecione para criar um novo `Level` com uma configuração que permite que você visualize as configurações da atmosfera da hora do dia em tempo real;
 
-- `VR-Basic`: selecione para criar um novo `Level` com atores para interagir, projetado para guiá-lo no aprendizado dos controles do Editor de VR;
+`VR-Basic`: selecione para criar um novo `Level` com atores para interagir, projetado para guiá-lo no aprendizado dos controles do Editor de VR;
 
-- `Empty Level`: selecione para criar um novo `Level` completamente vazio.
+`Empty Level`: selecione para criar um novo `Level` completamente vazio.
 
 ### 2.2. Salvando um Level
 
@@ -118,8 +121,6 @@ Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
     alt="Figura: Open Level."
     caption="Abre um level."
 %}
-
-***
 
 ## 3. O que é Level Blueprint?  
 
@@ -143,9 +144,9 @@ Para entender como funciona a lógica do *Blueprint* vamos escrever uma mensagem
 
 Os nós utilizados são os seguintes:
 
-- `BeginPlay`: Este evento é executado quando o *level* é carregado.
+`BeginPlay`: Este evento é executado quando o *level* é carregado.
 
-- `Print String`: É uma função que recebe como parâmetro um texto (*String*) e a escreve na tela.
+`Print String`: É uma função que recebe como parâmetro um texto (*String*) e a escreve na tela.
 
 ### 3.1. Exemplo de BeginPlay e Tick no Level Blueprint
 
@@ -156,15 +157,14 @@ Os nós utilizados são os seguintes:
     ref="https://blueprintue.com/render/46vsgoyi/"
 %}
 
-***
-
 ## 4. Atores e Classes utilizando Blueprint
 
 Atores são objetos de uma determinada classe que suportam vários componentes, métodos e variáveis. Por exemplo:
 
-- Personagem Herói - tem atributos, como vida e velocidade, tem componentes, como esqueleto e malha, e métodos, como direção e movimentação.
+**Personagem Herói:** Tem atributos, como vida e velocidade, tem componentes, como esqueleto e malha, e métodos, como direção e movimentação.
+{: .notice--info}
 
-A lógica de programação dos atores é expressada em **Blueprint** e nos próximos capítulos vamos abordar este temo com mais detalhes.
+A lógica de programação dos atores é expressada em **Blueprint** e nos próximos capítulos vamos abordar este tema com mais detalhes.
 
 ### 4.1. Atores predefinidos ou Place Actors
 
@@ -206,9 +206,7 @@ Escolha de Classe de atores  `Blueprint Class`.
     caption="Esta opção exibe uma lista das classes mais comuns, como por exemplo, atores básicos. A opção All Classes realiza uma busca por uma determinada classe."
 %}
 
-***
-
-## 5. Componentes - Components
+## 5. Componentes
 
 Os *Components* ou componentes são um tipo especial de objeto que os atores podem anexar a si próprios como subobjetos.
 
@@ -232,22 +230,20 @@ Para ter acesso aos componentes que estão associados a um determinado objeto ut
     caption="Podemos associar várias funções, macros, variáveis ou outros objetos programáveis à classe."
 %}
 
-***
-
 ## 6. Estrutura da classe Actor no Unreal Engine
 
 A classe `Actor` é composta por vários elementos, entre eles estão as variáveis, métodos e funções, abaixo uma representação dessa estrutura.
 
 ```bash
-|-- Objeto
-|   |-- Events
-|   |   |-- BeginPlay
-|   |   |-- ActorBeginOverlap
-|   |   |-- Tick
-|   |-- Functions
-|   |   |-- ConstructionScript
-|   |-- Variables      
-|   |   |-- VariavelLocal
+└── Objeto
+    ├── Events
+    |   ├── BeginPlay
+    |   ├── ActorBeginOverlap
+    |   └── Tick
+    ├── Functions
+    |   └── ConstructionScript
+    └── Variables      
+        └── VariavelLocal
 ```
 
 A representação visual da lógica de programação da classe `Actor` é divida em:
@@ -260,7 +256,7 @@ A seguir vamos aprender mais sobre esses elementos.
 
 ### 6.1. Construction Script
 
-Lógica de que é executada na construção do objeto, similares ao eventos *Construtor* em C++.  
+Lógica executada na construção do objeto, similares ao eventos *Construtor* em C++.  
 
 #### 6.1.1. Exemplo da lógica de um Construction Script
 
@@ -274,7 +270,8 @@ Lógica de que é executada na construção do objeto, similares ao eventos *Con
 
 Contém o gráfico principal de nós e suas ligações representando a lógica de um **Blueprint**.  
 
-"Exibe a representação visual de um gráfico específico de nós, pois mostra todos os nós contidos no gráfico, bem como as conexões entre eles. Ele fornece recursos de edição para adicionar e remover nós, organizar nós e criar links entre nós. Os pontos de interrupção também podem ser definidos na guia Gráfico para auxiliar na depuração de Blueprints."
+**Informação:** Exibe a representação visual de um gráfico específico de nós, pois mostra todos os nós contidos no gráfico, bem como as conexões entre eles. Ele fornece recursos de edição para adicionar e remover nós, organizar nós e criar links entre nós. Os pontos de interrupção também podem ser definidos na guia Gráfico para auxiliar na depuração de Blueprints.
+{: .notice--info}
 
 {% include imagelocal.html
     src="unreal/actor/unreal_engine_event_graph_example.webp"
@@ -284,9 +281,13 @@ Contém o gráfico principal de nós e suas ligações representando a lógica d
 
 #### 6.2.1. BeginPlay
 
+![image-left](/assets/images/actor/unreal-engine-blueprint-beginplay.webp){: .align-left}
+
 Este evento é acionado para todos os Atores quando o jogo é iniciado, quaisquer Atores gerados após o jogo ser iniciado terão isso chamado imediatamente.
 
 #### 6.2.2. ActorBeginOverlap
+
+![image-left](/assets/images/actor/unreal-engine-blueprint-beginoverlap.webp){: .align-left}
 
 Este evento será executado quando uma série de condições forem atendidas ao mesmo tempo:
 
@@ -297,11 +298,12 @@ Este evento será executado quando uma série de condições forem atendidas ao 
 
 #### 6.2.3. Tick
 
+![image-left](/assets/images/actor/unreal-engine-blueprint-tick.webp){: .align-left}
+
 Este é um evento simples que é chamado em todos os quadros do jogo. Tem como parâmetro a variável **Delta Seconds**.
 
-"Vários motores gráficos ou *Game Engines*, como por exemplo *Unity* e *Pico-8*  tem os mesmos eventos com as mesmas Características."s
-
-***
+**Nota:** Vários motores gráficos ou *Game Engines*, como por exemplo *Unity* e *Pico-8*  tem os mesmos eventos com as mesmas Características."s
+{: .notice--primary}
 
 ## 7. Comentários
 
