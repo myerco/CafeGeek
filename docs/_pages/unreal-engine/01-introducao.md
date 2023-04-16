@@ -6,6 +6,11 @@ last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
 toc: true  
+categories:
+  - Unreal Engine
+tags:
+  - Curso
+  - desenvolvimento de jogos
 ---
 
 ## 1. Como é o desenvolvimento de jogos digitais?
@@ -224,3 +229,9 @@ Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *B
 | M             | D             | A         |
 | :------------ | :------------ | :-------- |
 | **Mecânicas** | **Dinâmicas** | Estéticas |
+
+## 7. Referências
+
+- Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions.  [https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/ "Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions")
+- Couch Learn. (2019,Dezembro 27). Switch Statements in Unreal Engine 4. [https://couchlearn.com/switch-statements-in-unreal-engine-4/](https://couchlearn.com/switch-statements-in-unreal-engine-4/ "https://couchlearn.com/switch-statements-in-unreal-engine-4/")
+

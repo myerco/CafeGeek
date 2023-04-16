@@ -6,6 +6,15 @@ last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
 toc: true 
+categories:
+  - Unreal Engine
+tags:
+  - Animação
+  - Blend space
+  - Amingraph
+  - Aim offset
+  - Layered Blend per bone
+  - Layered Blend by bool
 ---
 
 ## 1. O que é Blend Space?

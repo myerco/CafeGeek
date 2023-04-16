@@ -281,13 +281,13 @@ Contém o gráfico principal de nós e suas ligações representando a lógica d
 
 #### 6.2.1. BeginPlay
 
-![image-left](/assets/images/actor/unreal-engine-blueprint-beginplay.webp){: .align-left}
+![image-left](/assets/images/unreal/actor/unreal-engine-blueprint-beginplay.webp){: .align-left}
 
 Este evento é acionado para todos os Atores quando o jogo é iniciado, quaisquer Atores gerados após o jogo ser iniciado terão isso chamado imediatamente.
 
 #### 6.2.2. ActorBeginOverlap
 
-![image-left](/assets/images/actor/unreal-engine-blueprint-beginoverlap.webp){: .align-left}
+![image-left](/assets/images/unreal/actor/unreal-engine-blueprint-beginoverlap.webp){: .align-left}
 
 Este evento será executado quando uma série de condições forem atendidas ao mesmo tempo:
 
@@ -298,7 +298,7 @@ Este evento será executado quando uma série de condições forem atendidas ao 
 
 #### 6.2.3. Tick
 
-![image-left](/assets/images/actor/unreal-engine-blueprint-tick.webp){: .align-left}
+![image-left](/assets/images/unreal/actor/unreal-engine-blueprint-tick.webp){: .align-left}
 
 Este é um evento simples que é chamado em todos os quadros do jogo. Tem como parâmetro a variável **Delta Seconds**.
 
