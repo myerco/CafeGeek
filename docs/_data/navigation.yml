@@ -42,10 +42,10 @@ dev_unreal:
         url: /pages/unreal-engine/blueprint
       - title: Estruturas de programação
         url: /pages/unreal-engine/estruturas-programacao
+      - title: Variáveis estruturadas
+        url: /pages/unreal-engine/variaveis-estruturadas        
       - title: A Classe Actor
         url: /pages/unreal-engine/atores
-      - title: Programação C++
-        url: /pages/unreal-engine/cpp
       - title: Eventos, funções e macros
         url: /pages/unreal-engine/eventos-funcoes
       - title: Comunicação entre Blueprints
@@ -58,8 +58,8 @@ dev_unreal:
         url: /pages/unreal-engine/hud-logica
   - title: ESTRUTURAS DE DADOS
     children:
-      - title: Variáveis estruturadas
-        url: /pages/unreal-engine/variaveis-estruturadas
+      - title: Programação C++
+        url: /pages/unreal-engine/cpp
       - title: Game Instance, State e Mode
         url: /pages/unreal-engine/gameinstance        
   - title: MOVIMENTAÇÃO E ANIMAÇÃO

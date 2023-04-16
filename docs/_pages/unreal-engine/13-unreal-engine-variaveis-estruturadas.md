@@ -6,6 +6,14 @@ last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
 toc: true  
+categories:
+  - Unreal Engine
+tags:
+  - variáveis estruturadas
+  - Structure
+  - Data tables
+  - Importando dados
+  - .csv
 ---
 
 ## 1. O que são variáveis do tipo Structure?
@@ -42,7 +50,7 @@ class Character {
 };
 ```
 
-#### 2.2.1. C++ Struct Unreal
+### 2.3. C++ Struct Unreal
 
 ```cpp
 USTRUCT([Specifier, Specifier, ...])
@@ -58,7 +66,7 @@ struct FStructName
 };
 ```
 
-#### 2.2.2. C++ Class Unreal
+### 2.4. C++ Class Unreal
 
 ```cpp
 UCLASS()
@@ -76,14 +84,12 @@ private:
 };
 ```
 
-***
-
 ## 3. Criando variáveis do tipo Structure com Blueprint
 
 Neste passo vamos criar o objeto *SJogador* do tipo `Structure` para exemplificar o uso das variáveis utilizando o menu de contexto `Blueprints` > `Structure`.
 
 {% include imagelocal.html
-    src="unreal/estruturas/blueprint_menu_structure.webp"
+    src="unreal/estruturas/unreal-engine-blueprint-structure.webp"
     alt="Figura: Menu de contexto Blueprints > Structure."
     caption="Cria o objeto do tipo Structure."
 %}
@@ -93,29 +99,26 @@ Neste passo vamos criar o objeto *SJogador* do tipo `Structure` para exemplifica
 A seguir vamos adicionar variáveis dentro do da estrutura criada.
 
 {% include imagelocal.html
-    src="unreal/estruturas/blueprint_variable.webp"
+    src="unreal/estruturas/unreal-engine-blueprint-structure-variables.webp"
     alt="Figura: Editor de Structure."
     caption="Podemos adicionar e salvar novos tipos de dados."
 %}
 
-1. Nome do tipo `Name` - Armazena o nome do jogador;
-
-1. Vida do tipo `Float` - Total de vida do jogador.;
-
-1. Forca do tipo `Float` - Total de força do jogador;
-
-1. Nível do tipo `Integer` - O Nível que o jogador se encontra;
-
-1. Imagem do tipo `Texture2D/References` - Armazena imagem 2d que representa o jogador;
-
-1. Personagem do tipo `Character/Class` - Armazena a classe de objeto do personagem do jogador.
+| Nome      | Tipo                   | Descrição                                            |
+| :-------- | :--------------------- | :--------------------------------------------------- |
+| Nome      | `Name`                 | Armazena o nome do jogador                           |
+| Life      | `Float`                | Total de vida do jogador                             |
+| Strength  | `Float`                | Total de força do jogador                            |
+| Level     | `Integer`              | O Nível que o jogador se encontra                    |
+| Image     | `Texture2D/References` | Armazena imagem 2d que representa o jogador          |
+| Character | `Character/Class`      | Armazena a classe de objeto do personagem do jogador |
 
 ### 3.2. Acessando as variáveis
 
 Para acessar as variáveis que estão dentro da objeto do tipo `Structure` vamos utilizar `Break Structure`.  
 
 {% include imagelocal.html
-    src="unreal/estruturas/blueprint_break_structure.webp"
+    src="unreal/estruturas/unreal-engine-blueprint-structure-break.webp"
     alt="Figura: Exemplo de Break Structure."
     caption="Usamos esse nó para acessar as variáveis dentro da estrutura."
 %}
@@ -134,19 +137,19 @@ Para exemplificar a utilização de variáveis `Structure` vamos implementar um 
 
 #### 3.3.2. Lógica para construir os elementos na cena
 
-1. Crie um `level` utilizando o modelo `default`;
+**1.** Crie um `level` utilizando o modelo `default`;
 
-1. Implemente um `Blueprint Actor` com o nome `BP_ControleLuzes`;
+**2.** Implemente um `Blueprint Actor` com o nome `BP_ControleLuzes`;
 
-1. Adicionar as variáveis :
+**3.** Adicionar as variáveis :
 
-    - **Luzes** - *Array* de tipo `Point Light Component`;
+- **Luzes** - *Array* de tipo `Point Light Component`;
 
-    - **ControLuzes** - *Array* de tipo `SControleLuzes`;
+- **ControLuzes** - *Array* de tipo `SControleLuzes`;
 
-    - **Total_luzes** : Integer.
+- **Total_luzes** : Integer.
 
-1. Na construção do objeto (*Construction Script*) adicionamos elementos `Point light component` na cena e logo em seguida no array *Luzes*.  
+**4.** Na construção do objeto (*Construction Script*) adicionamos elementos `Point light component` na cena e logo em seguida no array *Luzes*.  
 
 {% include imagelocal.html
     src="unreal/estruturas/blueprint_loop_array_structures.webp"
@@ -154,7 +157,7 @@ Para exemplificar a utilização de variáveis `Structure` vamos implementar um 
     caption="Figura: Blueprint - Lógica que adiciona os elementos em um array do mesmo tipo (PointLightComponent)."
 %}
 
-1. Ao terminar o primeiro `loop` reconstruímos o *array* de controle *ControLuzes* e o percorremos em conjunto com o array *luzes* para configurar as propriedades dos elementos.  
+**5.** Ao terminar o primeiro `loop` reconstruímos o *array* de controle *ControLuzes* e o percorremos em conjunto com o array *luzes* para configurar as propriedades dos elementos.  
 
 {% include imagelocal.html
     src="unreal/estruturas/blueprint_loop_set_struct.webp"
@@ -162,27 +165,18 @@ Para exemplificar a utilização de variáveis `Structure` vamos implementar um 
     caption="Figura: Blueprint - Lógica que altara as propriedades dos objetos do array."
 %}
 
-1. Adicione o elemento **BP_ControleLuzes** na cena para visualizar as luzes sendo construídas.
-
-Neste capitulo vamos explorar os objetos do tipo **Data tables** que são basicamente tabelas de dados disponíveis para os desenvolvedores e são definidas por tipos *Structure*.  
-
-***
+**6.** Adicione o elemento **BP_ControleLuzes** na cena para visualizar as luzes sendo construídas.
 
 ## 4. O que são Data Tables?
 
 **Data Tables** são estruturas de dados com vários tipos de variáveis agrupados e podem ser utilizadas para armazenamento de forma estática de informações dos personagens e suas características, recursos do jogo como espadas, escudos, magias, propriedades do jogo como níveis, dificuldades e pontuação.
 
-***
+Vamos explorar os objetos do tipo **Data tables** que são basicamente tabelas de dados disponíveis para os desenvolvedores e são definidas por tipos *Structure*.  
 
 ## 5. Criando um objeto do tipo Data Table
 
+![image-left](/assets/images/unreal/estruturas/unreal-engine-datatable-example.webp){: .align-left}
 Vamos implementar o **SElementos** do tipo *Structure* que servirá como base para o objeto `Data Table`.
-
-{% include imagelocal.html
-    src="unreal/estruturas/blueprint_structure.webp"
-    alt="Figura: Blueprint - Structure SElementos."
-    caption="Figura: Blueprint - Structure SElementos."
-%}
 
 Definimos as seguintes variáveis.
 
