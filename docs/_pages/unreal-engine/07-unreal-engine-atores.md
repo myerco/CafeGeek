@@ -31,19 +31,19 @@ Um objeto é uma instância de uma classe. Quando uma classe é definida, nenhum
 Abaixo vamos apresentar a estrutura hierarquia de classes.
 
 ```bash
-|-- UObject C++
-    |-- Actor C++
-    |   |-- Pawn
-    |   |   |-- Character
-    |   |-- GameMode
-    |   |-- GameController
-    |   |   |-- PlayerController
-    |   |   |-- IAController
-|-- UObject C++
-    |-- Actor BP
-    |   |-- Pawn BP
-    |   |   |-- Character BP
-    |-- GameController BP
+├── UObject C++
+|   └── Actor C++
+|       ├── Pawn
+|       |   └── Character
+|       ├── GameMode
+|       └── GameController
+|           ├── PlayerController
+|           └── IAController
+└── UObject C++
+    ├── Actor BP
+    |   └── Pawn BP
+    |       └── Character BP
+    └── GameController BP
 ```
 
 ### 2.1. Exemplo de implementação utilizando C++
@@ -82,8 +82,6 @@ Para criar uma classe utilizando **Blueprint** acesse o menu de contexto e selec
     caption="Permite selecionar uma classe predefinida para implementação de um nova classe."
 %}
 
-***
-
 ## 3. Classe Actor
 
 A classe **Actor** compreende objetos básicos que podem ser adicionados ao mundo. Atores podem conter coleções de componentes, os quais podem ser usados para controlar como o ator se move, como é renderizado, etc. Atores suportam transformações 3D tal como translação, rotação e escala.
@@ -94,27 +92,22 @@ A classe **Actor** compreende objetos básicos que podem ser adicionados ao mund
     caption="Valores iniciais da classe."
 %}
 
-- `Parent Class` : Classe pai de Actor (Classe **C++**).
-
-***
+**`Parent Class`** : Classe pai de Actor (Classe **C++**).
 
 ## 4. Classe Pawn
 
 A classe **Pawn** ou peão é a classe base de todos os atores que podem ser controlados por jogadores ou IA. Um peão é a representação física de um jogador ou entidade de IA dentro do mundo. Isso não significa apenas que o peão determina a aparência visual do jogador ou entidade de IA, mas também como ele interage com o mundo em termos de colisões e outros aspectos físicos
 
->Isso pode ser confuso em certas circunstâncias, pois alguns tipos de jogos podem não ter uma malha de jogador ou avatar visível dentro do jogo. Independentemente disso, o peão, *pawn*, ainda representa a localização física, rotação, etc. de um jogador ou entidade dentro do jogo. Um personagem é um tipo especial de peão que tem a capacidade de andar.  
+**Informação:**Isso pode ser confuso em certas circunstâncias, pois alguns tipos de jogos podem não ter uma malha de jogador ou avatar visível dentro do jogo. Independentemente disso, o peão, *pawn*, ainda representa a localização física, rotação, etc. de um jogador ou entidade dentro do jogo. Um personagem é um tipo especial de peão que tem a capacidade de andar.  
+{: .notice--info}
 
-`Default Pawn`  
-
-Enquanto a classe *Pawn* fornece apenas o essencial para a criação de uma representação física de um jogador ou entidade de IA no mundo, a subclasse `DefaultPawn` vem com alguns componentes e funcionalidades adicionais.
+**`Default Pawn`** - Enquanto a classe *Pawn* fornece apenas o essencial para a criação de uma representação física de um jogador ou entidade de IA no mundo, a subclasse `DefaultPawn` vem com alguns componentes e funcionalidades adicionais.
 
 A classe `DefaultPawn` contém um componente `DefaultPawnMovementComponent` nativo, um `CollisionComponent` esférico e um `StaticMeshComponent`.
 
 Para controlar o `DefaultPawnMovementComponent`, bem como a câmera, uma propriedade do tipo *Booleano* para adicionar ligações de movimento padrão também está presente na classe `DefaultPawn` e é definido como verdadeiro por padrão.
 
-`Spectator Pawn`  
-
-A classe `SpectatorPawn` é uma subclasse de `DefaultPawn`. Por meio de um **GameMode**, diferentes classes podem ser especificadas como padrões para *Pawn* e `SpectatorPawn`, e esta classe fornece uma estrutura simples ideal para a funcionalidade de espectador.
+**`Spectator Pawn`** - A classe `SpectatorPawn` é uma subclasse de `DefaultPawn`. Por meio de um **GameMode**, diferentes classes podem ser especificadas como padrões para *Pawn* e `SpectatorPawn`, e esta classe fornece uma estrutura simples ideal para a funcionalidade de espectador.
 
 As Classes tem propriedades que definem a estrutura do objeto.
 
@@ -152,8 +145,6 @@ Com a adição de um componente `CharacterMovementComponent`, um `CapsuleCompone
 - `Anim Class` - Blueprint de animação associado.
 
 - `Skeletal Mesh Asset` - Malha esquelética.
-
-***
 
 ## 6. Componentes e Actors
 
@@ -232,17 +223,17 @@ As **Skeletal mesh** são compostas por duas partes: Um conjunto de polígonos c
 A baixo uma representação da hierarquia do Skeletal Mesh.
 
 ```bash
-|-- Ator
-    |-- Skeletal mesh
-    |   |-- Mesh - (Malha do elemento)
-    |   |-- Animation - (Animações associadas ao esqueleto)
-    |   |-- Skeleton - (Estrutura de coordenadas alinhadas para marcar os ossos dos elementos)
-    |   |-- Blueprint - (Lógica para sequenciamento de animações)
-    |   |-- Physics - (Estrutura para gerenciamento da física da estruturas)
-    |-- Animation mode
-    |   |-- Use Animation Blueprint
-    |-- Anim Class
-    |   |-- ThirdPerson_AnimBP_C
+└── Ator
+    ├── Skeletal mesh
+    |   ├── Mesh - (Malha do elemento)
+    |   ├── Animation - (Animações associadas ao esqueleto)
+    |   ├── Skeleton - (Estrutura de coordenadas alinhadas para marcar os ossos dos elementos)
+    |   ├── Blueprint - (Lógica para sequenciamento de animações)
+    |   └── Physics - (Estrutura para gerenciamento da física da estruturas)
+    ├── Animation mode
+    |   └── Use Animation Blueprint
+    └── Anim Class
+        └── ThirdPerson_AnimBP_C
 ```
 
 #### 6.3.2. Propriedades do Skeletal Mesh
@@ -291,8 +282,6 @@ Observe que o editor é divido em :
 
 - `Physcis` - Estruturas para representar a física do esqueleto.
 
-***
-
 ## 7. Posição e coordenadas
 
 Os objetos adicionados em uma cena possuem coordenadas de localização dentro do 'mundo', vamos apresentar como manipular coordenadas.
@@ -332,9 +321,9 @@ Os elementos associados a um ator, como por exemplo `StaticMesh` tem posições 
 Considere o exemplo abaixo do objeto **BP_ActorBase**:
 
 ```bash
-|-- BP_ActorBase
-    |-- DefaultSceneRoot
-    |   |-- StaticMesh
+└── BP_ActorBase
+    └── DefaultSceneRoot
+        └── StaticMesh
 ```
 
 {% include imagelocal.html
@@ -364,8 +353,6 @@ A posição do ator no mundo é calculada utilizando o componente `DefaultSceneR
     ref="https://blueprintue.com/render/xy8gbnli/"
 %}
 
-***
-
 ## 8. Trabalhando herança com Blueprint
 
 Como apresentado no conceito de classes, a herança permite usar classes já definidas para derivar novas classes, a seguir vamos verificar como implementar utilizando **Blueprint**.  
@@ -373,18 +360,18 @@ Como apresentado no conceito de classes, a herança permite usar classes já def
 Exemplo de classe Herói que derive de Humanos:  
 
 ```bash
-|-- Character
-    |-- BeginPlay()
-    |-- Humanos
-    |   |-- Vida (float) = 100    
-    |   |-- Dano (float) = 100        
-    |   |-- BeginPlay() (herdado)
-    |   |-- Heroi
-    |   |   |-- Vida = 100 (herdado)
-    |   |   |-- Dano = 50 (herdado)
-    |   |-- Vilao
-    |   |   |-- Vida = 100 (herdado)
-    |   |   |-- Dano = 80 (herdado)    
+└── Character
+    ├── BeginPlay()
+    └── Humanos
+        ├── Vida (float) = 100    
+        ├── Dano (float) = 100        
+        ├── BeginPlay() (herdado)
+        ├── Heroi
+        |   ├── Vida = 100 (herdado)
+        |   └── Dano = 50 (herdado)
+        └── Vilao
+            ├── Vida = 100 (herdado)
+            └── Dano = 80 (herdado)    
 ```
 
 ### 8.1. Criando uma classe filho
@@ -433,7 +420,7 @@ O componente `ChildActor` permite associar uma classe filha utilizando a lista d
     caption="O componente ChildActor associa uma outra classe ao objeto."
 %}
 
-- `ChildActor` - É necessário informar a classe filho neste componente.
+`ChildActor` - É necessário informar a classe filho neste componente.
 
 ### 8.6. Referências de atores e componentes
 
@@ -442,8 +429,6 @@ O componente `ChildActor` permite associar uma classe filha utilizando a lista d
     alt="Figura: Reference Viewer."
     caption="Clicando com o botão direito (RMB) podemos acessar a opção para visualizar todas as referências do objeto. No exemplo acima BP_ActorChild2 é uma classe derivada do BP_ActorBase e BP_ActorChild está associada usando o componente ChildActor."
 %}
-
-***
 
 ## 9. Manipulando Actors
 
@@ -484,8 +469,6 @@ Utilizando a função `GetAllActorOfClass` e o loop `For Each Loop` podemos list
     ref="https://blueprintue.com/render/xugypke9/"
 %}
 
-***
-
 ## 10. Colisões
 
 **Collision Responses** e **Trace Responses** formam a base de como o Unreal Engine 4 lida com colisão e transmissão de raios durante o tempo de execução. Cada objeto que pode colidir recebe um tipo de objeto e uma série de respostas que definem como ele interage com todos os outros tipos de objeto. Quando ocorre um evento de colisão ou sobreposição, ambos (ou todos) os objetos envolvidos podem ser configurados para afetar ou serem afetados pelo bloqueio, sobreposição ou ignorando um ao outro. [Collision Overview](https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Physics/Collision/Overview/)
@@ -512,7 +495,8 @@ Existem algumas regras a serem lembradas sobre como as colisões são tratadas:
 
 ### 10.2. Exemplos comuns de interação de colisão
 
->As interações a seguir pressupõem que todos os objetos tenham `Collision Enabled` definido como `Collision Enabled`, de modo que estejam configurados para colidir totalmente com tudo. Se a colisão estiver desabilitada, é como se ignorar tivesse sido definido para todas as `Collision Responses` .
+**Nota:** As interações a seguir pressupõem que todos os objetos tenham `Collision Enabled` definido como `Collision Enabled`, de modo que estejam configurados para colidir totalmente com tudo. Se a colisão estiver desabilitada, é como se ignorar tivesse sido definido para todas as `Collision Responses` .
+{: .notice--info}
 
 Para a seção a seguir, abaixo a configuração usada para explicar o que está acontecendo:
 
@@ -639,9 +623,11 @@ A parede é uma `WorldDynamic` e está configurada para bloquear os Atores `Phys
 
 Ao contrário das colisões que podem disparar todos os quadros, os eventos de sobreposição são `ReceiveBeginOverlap` e `ReceiveEndOverlap`, que são disparados apenas nesses casos específicos.
 
-> Para que uma sobreposição ocorra, ambos os Atores precisam habilitar Gerar Eventos de Sobreposição. Isso é para desempenho. No caso em que tanto a Esfera quanto a Caixa desejam sobreposições quando movemos a Esfera ou a Caixa, fazemos uma consulta de sobreposição para ver se precisamos disparar algum evento.
->
->Se a caixa não quiser sobreposições, quando ela se mover, não faremos uma consulta de sobreposição. Mas agora poderíamos estar sobrepondo com a Esfera, e assim a Esfera precisaria marcar e verificar se há sobreposições em cada quadro caso alguém se movesse para eles.
+**Informação:**Para que uma sobreposição ocorra, ambos os Atores precisam habilitar Gerar Eventos de Sobreposição. Isso é para desempenho. No caso em que tanto a Esfera quanto a Caixa desejam sobreposições quando movemos a Esfera ou a Caixa, fazemos uma consulta de sobreposição para ver se precisamos disparar algum evento.
+{: .notice--info}
+
+**Informação:**Se a caixa não quiser sobreposições, quando ela se mover, não faremos uma consulta de sobreposição. Mas agora poderíamos estar sobrepondo com a Esfera, e assim a Esfera precisaria marcar e verificar se há sobreposições em cada quadro caso alguém se movesse para eles.
+{: .notice--info}
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/InteractiveExperiences/Physics/Collision/Overview/COL_overlapEvent.png"

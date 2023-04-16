@@ -202,6 +202,7 @@ Logo em seguida devemos definir a estrutura de dados da tabela utilizando o vari
     caption="Figura: Blueprint - Definindo a estrutura da tabela usando Structure e Data Table."
 %}
 
+![image-left](/assets/images/unreal/unreal-engine-datatables-example.webp){: .align-left}
 *DTElementos* do tipo `Data Tables`.
 
 {% include imagelocal.html
