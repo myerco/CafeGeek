@@ -6,6 +6,15 @@ last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
 toc: true  
+categories:
+  - Unreal Engine
+tags:
+  - Blueprint
+  - Atores
+  - Classes
+  - Colisão
+  - Herança
+  - Posição coordenadas
 ---
 
 ## 1. O que são Actors?
@@ -98,16 +107,20 @@ A classe **Actor** compreende objetos básicos que podem ser adicionados ao mund
 
 A classe **Pawn** ou peão é a classe base de todos os atores que podem ser controlados por jogadores ou IA. Um peão é a representação física de um jogador ou entidade de IA dentro do mundo. Isso não significa apenas que o peão determina a aparência visual do jogador ou entidade de IA, mas também como ele interage com o mundo em termos de colisões e outros aspectos físicos
 
-**Informação:**Isso pode ser confuso em certas circunstâncias, pois alguns tipos de jogos podem não ter uma malha de jogador ou avatar visível dentro do jogo. Independentemente disso, o peão, *pawn*, ainda representa a localização física, rotação, etc. de um jogador ou entidade dentro do jogo. Um personagem é um tipo especial de peão que tem a capacidade de andar.  
+**Informação:** Isso pode ser confuso em certas circunstâncias, pois alguns tipos de jogos podem não ter uma malha de jogador ou avatar visível dentro do jogo. Independentemente disso, o peão, *pawn*, ainda representa a localização física, rotação, etc. de um jogador ou entidade dentro do jogo. Um personagem é um tipo especial de peão que tem a capacidade de andar.  
 {: .notice--info}
 
-**`Default Pawn`** - Enquanto a classe *Pawn* fornece apenas o essencial para a criação de uma representação física de um jogador ou entidade de IA no mundo, a subclasse `DefaultPawn` vem com alguns componentes e funcionalidades adicionais.
+### 4.1. Default Pawn
+
+Enquanto a classe *Pawn* fornece apenas o essencial para a criação de uma representação física de um jogador ou entidade de IA no mundo, a subclasse `DefaultPawn` vem com alguns componentes e funcionalidades adicionais.
 
 A classe `DefaultPawn` contém um componente `DefaultPawnMovementComponent` nativo, um `CollisionComponent` esférico e um `StaticMeshComponent`.
 
 Para controlar o `DefaultPawnMovementComponent`, bem como a câmera, uma propriedade do tipo *Booleano* para adicionar ligações de movimento padrão também está presente na classe `DefaultPawn` e é definido como verdadeiro por padrão.
 
-**`Spectator Pawn`** - A classe `SpectatorPawn` é uma subclasse de `DefaultPawn`. Por meio de um **GameMode**, diferentes classes podem ser especificadas como padrões para *Pawn* e `SpectatorPawn`, e esta classe fornece uma estrutura simples ideal para a funcionalidade de espectador.
+### 4.2. Spectator Pawn
+
+A classe `SpectatorPawn` é uma subclasse de `DefaultPawn`. Por meio de um **GameMode**, diferentes classes podem ser especificadas como padrões para *Pawn* e `SpectatorPawn`, e esta classe fornece uma estrutura simples ideal para a funcionalidade de espectador.
 
 As Classes tem propriedades que definem a estrutura do objeto.
 
@@ -126,8 +139,6 @@ As Classes tem propriedades que definem a estrutura do objeto.
 - `Replication` : Opções para replicar o objeto pela rede.
 
 - `Can be Damaged` : Habilita os eventos de dano do objeto.
-
-***
 
 ## 5. Classe Character
 
@@ -623,10 +634,10 @@ A parede é uma `WorldDynamic` e está configurada para bloquear os Atores `Phys
 
 Ao contrário das colisões que podem disparar todos os quadros, os eventos de sobreposição são `ReceiveBeginOverlap` e `ReceiveEndOverlap`, que são disparados apenas nesses casos específicos.
 
-**Informação:**Para que uma sobreposição ocorra, ambos os Atores precisam habilitar Gerar Eventos de Sobreposição. Isso é para desempenho. No caso em que tanto a Esfera quanto a Caixa desejam sobreposições quando movemos a Esfera ou a Caixa, fazemos uma consulta de sobreposição para ver se precisamos disparar algum evento.
+**Informação:** Para que uma sobreposição ocorra, ambos os Atores precisam habilitar Gerar Eventos de Sobreposição. Isso é para desempenho. No caso em que tanto a Esfera quanto a Caixa desejam sobreposições quando movemos a Esfera ou a Caixa, fazemos uma consulta de sobreposição para ver se precisamos disparar algum evento.
 {: .notice--info}
 
-**Informação:**Se a caixa não quiser sobreposições, quando ela se mover, não faremos uma consulta de sobreposição. Mas agora poderíamos estar sobrepondo com a Esfera, e assim a Esfera precisaria marcar e verificar se há sobreposições em cada quadro caso alguém se movesse para eles.
+**Informação:** Se a caixa não quiser sobreposições, quando ela se mover, não faremos uma consulta de sobreposição. Mas agora poderíamos estar sobrepondo com a Esfera, e assim a Esfera precisaria marcar e verificar se há sobreposições em cada quadro caso alguém se movesse para eles.
 {: .notice--info}
 
 {% include image.html
