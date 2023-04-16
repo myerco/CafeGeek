@@ -20,7 +20,7 @@ O objetivo do `Blend Space` é reduzir a necessidade de criar nós individuais c
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_animation_blend_1d.webp"
-    alt="Figura: Unreal Engine - Menu de contexto Animation > Blend Space 1D."
+    alt="Figura: Blend Space 1D."
     caption="Para carregar o editor de animação na horizontal usamos o menu de contexto Animation > Blend Space 1D e em seguida selecionamos o esqueleto base das animações."
 %}
 
@@ -41,15 +41,13 @@ Os Blend Spaces também podem ser criados em um formato unidimensional, conhecid
 
 A seguir os parâmetros para o personagem Human:
 
-Nome do arquivo: BS_Human1D;
+Nome do arquivo: **BS_Human1D**;
 
 Sequencia de animação: Arraste as animações para o sequenciador conforme o parâmetro `Speed`;
 
 `Horizantal Axis`: Speed;
 
-`Maximum Axis Value`: 600;
-
-- (Velocidade máxima de corrida do personagem);
+`Maximum Axis Value`: 600 (Velocidade máxima de corrida do personagem);
 
 `Interpolation Time`: 0.25.
 
@@ -62,7 +60,7 @@ Para acompanhar o movimentação pressione Shift + LMB e arrastre o mouse.
 
 Parâmetros para o personagem Mutant.
 
-Nome do arquivo: BS_Mutant
+Nome do arquivo: **BS_Mutant**
 
 `Horizontal Axis`
 
@@ -90,13 +88,13 @@ Este elemento é utilizado quanto existem dois parâmetros para controle das ani
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_Blend_Space.webp"
-    alt="Figura: Unreal Engine - Editor Blend Space."
+    alt="Figura: Editor Blend Space."
     caption="Menu de contexto Animation > Blend Space."
 %}
 
 Salve o objeto com o nome do arquivo `BS_Human` e em Sequencia de animação arraste as animações para o sequenciador conforme o parâmetro `Speed` e `Direction`;
 
-`Horizontal Axis`: Direction;
+`Horizontal Axis`: Direction
 
 - `Minimum Axis Value`: -180;
 
@@ -108,24 +106,21 @@ Salve o objeto com o nome do arquivo `BS_Human` e em Sequencia de animação arr
 
 - `Maximum Axis Value`: 600 (Velocidade do personagem);
 
-**Informação:** Alteramos o nome do parâmetro para Speed com a finalidade de facilitar a identificação dentro da lógica de programação **Blueprint** que usaremos posteriormente.
+**Informação:** Alteramos os nomes dos parâmetros para Speed e Direction com a finalidade de facilitar a identificação dentro da lógica de programação **Blueprint** que usaremos posteriormente.
 {: .notice--info}
 
 ## 5. O que é Animation Blueprint?
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_animation_animation_blueprint_main.webp"
-    alt="Figura: Unreal Engine - Animação e Blueprint."
-    caption="Figura: Unreal Engine - Animação e Blueprint."
+    alt="Figura: Animation Blueprint Editor."
+    caption="Animação e Blueprint."
 %}
 
 É um **Blueprint** especializado que controla a animação de uma malha esquelética. Os gráficos são editados dentro do `Animation Blueprint Editor`, onde você pode realizar a combinação da animação, controlar diretamente os ossos de um esqueleto ou configurar a lógica que definirá a pose final da animação para uma malha esquelética a ser usada por quadro.
 
-Vamos implementar a lógica de movimentação utilizando o elemento Animation Blueprint para os personagens Human e Mutant.
-
-### 5.1. Implementado Animation Blueprint utilizando o Humano
-
-O Editor é separado em `AnimGraph` e `EventGraph`, onde o primeiro implementa a lógica de nós de sequencias de animação e o segundo a lógica de programação **Blueprint**.
+**Informação:** Vamos implementar a lógica de movimentação utilizando o elemento `Animation Blueprint` para os personagens Human e Mutant.
+{: .notice--info}
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_animation_animation_blueprint.webp"
@@ -135,9 +130,11 @@ O Editor é separado em `AnimGraph` e `EventGraph`, onde o primeiro implementa a
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_animation_editor_graph.webp"
-    alt="Figura: Unreal Engine - Editor Animmation Blueprint MyBlueprint."
+    alt="Figura: Editor Animmation Blueprint MyBlueprint."
     caption="A aba MyBlueprint apresenta a organização do editor."
 %}
+
+O Editor é separado em `AnimGraph` e `EventGraph`, onde o primeiro implementa a lógica de nós de sequencias de animação e o segundo a lógica de programação **Blueprint**.
 
 ## 6. Estados de maquina ou State Machine
 
@@ -148,12 +145,12 @@ O nó `Output Pose` é o estado ou pose final da animação. A seguir vamos cria
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_human_state_base.webp"
     alt="Figura: Animation graphs Output Pose."
-    caption="No editor Animation Graphs crie um State com Add new state;"
+    caption="No editor Animation Graphs crie o estado Base com Add new state;"
 %}
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_human_blendspace_1d_state.webp"
-    alt="Figura: Unreal Engine - Add State Idle/Walk/Run."
+    alt="Figura: Idle/Walk/Run."
     caption="Dentro do nó criado adicionaremos um novo estado com Add State com o nome Idle/Walk/Run."
 %}
 
@@ -175,7 +172,7 @@ Para exemplificar vamos apresentar os dois métodos de Blend Space com o persona
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_human_blendspace_state.webp"
-    alt="Figura: Blend Space 1D dentro do State."
+    alt="Figura: Blend Space."
     caption="Nó Idle/Walk/Run adicionamos BS_Human que recebe como parâmetro Speed e Direction pois trabalha com duas coordenadas."
 %}
 
@@ -183,11 +180,16 @@ Para os passos posteriores vamos utilizar o BS_Human (Blend Space).
 
 ### 7.1. Exemplo de um personagem saltando
 
+Para simular o salto do personagem vamos adicionar os seguintes estados e em seguida fazer as suas conexões.
+
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_animation_state_jump.webp"
-    alt="Figura: Animação de salto : State Jump."
-    caption="Para simular o salto do personagem vamos adicionar os seguintes estados e em seguida fazer as suas conexões."
+    alt="Figura: Sequencia de estados do personagem."
+    caption="Iniciando em Idle/Walk/Run e logo em seguida os estados para simulação do salto."
 %}
+
+**Nota:** A animação de salto pode ser dividida em Início de Salto (Jump_Start), Salto no Ar (Jump_Loop) e Finalização do Salto (Jump_End), pois o personagem pode se manter na aminação de Salto no Ar dependendo da altura.
+{: .notice--warning}
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_animation_state_jump_start.webp"
@@ -201,7 +203,7 @@ Repetimos a operação para os outros estados adicionando as animações :
 
 - S_Human_Jump_End;
 
-N condição de controle de fluxo entre `Idle/Walk/Run` e `Jump_Start` vamos utilizar a variável `InAir` e testar se o valor é `True`.
+Na condição de controle de fluxo entre `Idle/Walk/Run` e `Jump_Start` vamos utilizar a variável `InAir` e testar se o valor é `True`.
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_animation_state_jump_start_inair.webp"
@@ -217,7 +219,7 @@ Na condição de controle de fluxo entre `Jump_End` e `Idle/Walk/Run` vamos util
     caption="State Jump Start Not InAir."
 %}
 
-Na condição de controle de fluxo entre `Jump_Start` e `Jump_Loop` vamos utilizar a função `Current Time (Ratio) (S_Jump_Start)`. Esta função retorna a proporção de tempo atual da sequência e se o valor for menor 0.1 ou 10% de tempo para acabar deve ser feito a transição para outro nó.
+Na condição de controle de fluxo entre `Jump_Start` e `Jump_Loop` vamos utilizar a função `Current Time (Ratio) (S_Jump_Start)`. Esta função retorna a proporção de tempo atual da sequência e se o valor for menor 0.1 (10%) de tempo para acabar deve ser feito a transição para outro nó.
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_animation_state_jump_start_end_time.webp"
@@ -271,7 +273,7 @@ Em este passo iremos implementar a corrida do personagem. Vamos configura o even
 
 {% include video id="k6tGHVm2BNQ" provider="youtube" %}
 
-## 9. Montando a animação de ataque
+## 9. Animation Montage
 
 Uma `Animation Montage` ou montagem de animação (ou montagem, para abreviar) fornece uma maneira de controlar um ativo de animação diretamente por meio do código Blueprint ou C ++. Com uma montagem de animação, você pode combinar várias sequências de animação diferentes em um único ativo que você pode dividir em seções para reprodução individualmente ou em combinação. Você também pode disparar eventos dentro de uma montagem que pode executar uma variedade de tarefas locais ou replicadas, como tocar sinais de som ou efeitos de partículas, alterar valores do jogador como contagem de munição ou até mesmo replicar o movimento raiz em jogos em rede (desde que o movimento raiz esteja ativado na animação).
 
@@ -284,6 +286,9 @@ Em este passo utilizaremos o `Animation Montage` para montar as animações de a
 %}
 
 Vamos baixar e instalar os arquivos Mutant_Punch.fbx e Mutant_Swipping do site [https://mixano.com](https://mixano.com) para animar ataque direita e ataque esquerda.
+
+[![Mixano](https://static.wikia.nocookie.net/adobe/images/9/9c/Mixamo_2.0_logo.png/revision/latest?cb=20191212073142)](https://www.mixamo.com/)
+{: style="margin-top: 0.5em;"}
 
 No editor de animação arrastre as animações para a linha de tempo. Observe que cada animação ocupa uma raia ou slot dentro de uma seção;
 
@@ -299,21 +304,18 @@ Adicione um novo slot de nome `Attack` e salve;
 
 {% include video id="Kufu78tu9EE" provider="youtube" %}
 
-## 10. Animação básica com AnimGraph
+## 10. AnimGraph
 
 AnimGraph utiliza o conceito de máquinas de estado que fornecem uma maneira gráfica de quebrar a animação de uma malha esquelética em uma série de estados. Esses estados são então governados por Regras de transição que controlam como combinar de um estado para outro.
 
 O processo de design para animação `Skeletal Mesh` se torna mais simples, pois você pode criar um gráfico que controla facilmente como seus personagens podem fluir entre os tipos de animação sem ter que criar uma rede **Blueprint** complexa.
 
-Em este passo utilizaremos a lógica de programação com AnimGraph para combinar e programar a lógica de mudanças de estado ou poses.
+**Informação:** Em este passo utilizaremos a lógica de programação com AnimGraph para combinar e programar a lógica de mudanças de estado ou poses.
+{: .notice--info}
 
-A seguir vamos criar um nós dentro do gráfico de estados para simular a animação básica.
+A seguir vamos criar os nós dentro do gráfico de estados para simular a animação básica.
 
-### 10.1. BasicLocomotion
-
-Este estado dever conter a animação criadas anteriormente com o Blend space 1D, BS_Mutant.
-
-Vamos adicionar um novo estado `Add New State Machine` com nome *BasicLocomotion*;
+Vamos adicionar um novo estado `Add New State Machine` com nome *BasicLocomotion*, este estado dever conter a animação criadas anteriormente com o Blend space 1D, BS_Mutant.
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_animgraph_basiclocomotion.webp"
@@ -327,8 +329,6 @@ Vamos adicionar um novo estado `Add New State Machine` com nome *BasicLocomotion
     caption="Arrastamos e colamos BS_Mutant para a AnimGraph e renomeamos o nó para Idle/Walk/Run pois ele contem essas animações."
 %}
 
-### 10.2. Idle/Walk/Run
-
 Em este estado passamos como parâmetro a variável `Speed` para animação BS_Mutant;
 
 {% include imagelocal.html
@@ -337,9 +337,13 @@ Em este estado passamos como parâmetro a variável `Speed` para animação BS_M
     caption="Conectando a variável Speed em BS_Mutant."
 %}
 
-## 11. Animação de ataque com AnimGraph
+## 11. Salvando estados e poses
 
-Neste passo vamos implementar a animação de ataque com soco de direita e esquerda.
+Neste passo vamos implementar a animação de ataque com soco de direita e esquerda, salvando poses e passar de um estado para outro.
+
+`New Save cached Pose...` - Salva o estado acionando o menu de contexto dentro do `AnimGraph`;
+
+`Use cached pose BasicLocomotion` - Acessa um estado salvo anteriormente.
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_animgraph_attack.webp"
@@ -347,11 +351,7 @@ Neste passo vamos implementar a animação de ataque com soco de direita e esque
     caption="Podemos usar vários nós salvos de estados anteriores."
 %}
 
-Para passar de um estado para outro devemos salvar o estado anterior acionando o menu de contexto `New Save cached Pose...` dentro do `AnimGraph`;
-
-Um estado salvo pode ser acionado com  `Use cached pose BasicLocomotion`, perceba que usamos o nome do estado salvo anteriormente.
-
-Associamos a montagem de animação `AM_Mutant_Attack` na qual definimos a sequencia de ataque usando o menu de context `Slot DefaultGroup`;
+`Slot DefaultGroup` - Associamos a montagem de animação `AM_Mutant_Attack` na qual definimos a sequencia de ataque usando o menu de context;
 
 Selecionando o Slot criado atualizamos `Slot Name` para `DefaultGroup.Attack` para acessar a sequencia de animação.
 
@@ -369,11 +369,9 @@ No objeto BP_Mutant adicione os eventos de chamada de função e associe a funç
 
 {% include video id="Ss22A7xrtCQ" provider="youtube" %}
 
-## 12. Atacando somente com os braços
+## 12. Layered Blend per bone
 
 Em este passo iremos continuar com a programação `AnimGraph` para fazer o personagem correr e atacar ao mesmo tempo, para isso vamos misturar os ossos das animações utilizando `Layered Blend per Bone`.
-
-`Layered Blend per bone`.
 
 Podemos misturar várias animações no nó de estado e utilizar um osso (bone) como referência, no exemplo abaixo misturamos a animação básica `LocoCache`com `AttackingCache` adicionando o osso `Spine`.
 
@@ -383,11 +381,9 @@ Podemos misturar várias animações no nó de estado e utilizar um osso (bone) 
     caption="Usando o nó para misturar duas poses."
 %}
 
-## 13. Animação de ataque completa e correndo somente os braços
+## 13. Layered Blend by bool
 
 Neste passo vamos misturar as animações condicionando a uma variável para que possamos definir o estado do personagem, correndo ou parado.
-
-`Layered Blend by bool`.
 
 {% include imagelocal.html
     src="unreal/animacao/unreal_engine_animgraph_blend_by_bool.webp"
@@ -487,9 +483,7 @@ Agora vamos criar `Aim Offset` Menu de contexto `Animation > Aim Offset` ou Esco
     caption="Altere os parâmetros em Asset Details para os seguintes valores:"
 %}
 
-Coordenadas horizontais:
-
-Horizontal Axis:
+Coordenadas horizontais - Horizontal Axis:
 
 - Name : Yaw
 
@@ -497,9 +491,7 @@ Horizontal Axis:
 
 - Maximun Axis Value : 90
 
-Coordenadas Verticais:
-
-- Vertical Axis
+Coordenadas Verticais - Vertical Axis:
 
 - Name : Pitch
 
@@ -534,7 +526,7 @@ A seguir vamos apresentar o fluxo e a lógica do personagem Mannequim que utiliz
     ref="https://blueprintue.com/render/4qdfogtg/"
 %}
 
-### 15.1. Lógica variáveis
+### 15.1. Variáveis do personagem
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-logic-variables-local.webp"
