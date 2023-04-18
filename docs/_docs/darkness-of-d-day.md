@@ -5,6 +5,7 @@ excerpt: "Roteiro do jogo Darkness of D-Day."
 last_modified_at: 2021-06-07T08:48:05-04:00
 layout: single
 author: Billy Rick
+author_profile: true
 toc: true
 categories:
   - Trabalhos
