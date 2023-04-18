@@ -16,7 +16,7 @@ feature_row0-1:
     alt: "Darkness of D-day"
     title: "Darkness of D-day"
     excerpt: "E baseado em uma análise Analysis de elementos distópicos dos livros 1984, George Orwell e Admirável Mundo Novo de Aldous Huxley. O jogo compartilha elementos comuns nas obras, como a opressão do Estado, a manipulação da linguagem, a vigilância constante e a desumanização da sociedade. No entanto, eles diferem em suas abordagens: 1984 retrata uma sociedade controlada pela repressão e pela violência, enquanto Admirável Mundo Novo ilustra uma sociedade controlada pelo prazer e pela satisfação. O jogo discute a relevância dessas obras em relação ao mundo atual e como elas podem nos ajudar a compreender e refletir sobre as questões sociais e políticas contemporâneas, como a manipulação da mídia, a perda de privacidade e a ameaça de um governo autoritário. <b>Autor: Raphael Ferreira Martins</b>"
-    url: "/pages/trabalhos/"
+    url: "/docs/darkness-of-d-day/"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
     tags:
@@ -61,7 +61,7 @@ feature_row0-5:
     alt: "Atlus um Reino em Guerra"
     title: "Atlus um Reino em Guerra"
     excerpt: "Quando acorda, você encontra uma carta do seu pai e descobre que ele foi embora… A única pista é o seu velho diário e uma espada no chão. O que terá acontecido? Aventure-se num mundo repleto de perigos, charadas e segredos. Lute contra o exercito inimigo e descubra tesouros antigos que te ajudarão na missão. Use sua astúcia e habilidade para desvendar os mistérios envolvendo o antigo reino de Atlus e saber mais do exercito que vem invadindo e dominando essas terras. Atlus Um Reino em Guerra combina uma história cativante, visuais 3D e uma jogabilidade empolgante. Tudo isso fará dessa aventura e ação uma experiência sem igual. Divirta-se com uma trilha sonora incrível feita por compositores extremamente habilidosos como: Adrian Von Ziegler e Antti Martikainen. <b>Autor: Robson Maciel</b>"
-    url: "https://gamejolt.com/games/atlus/557935"
+    url: "/docs/altus-um-reino-em-guerra/"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
     tags:

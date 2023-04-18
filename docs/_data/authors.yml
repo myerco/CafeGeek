@@ -1,18 +1,3 @@
-Billy Rick:
-  name        : "Billy Rick"
-  bio         : "What do you want, jewels? I am a very extravagant man."
-  avatar      : "/assets/images/bio-photo-2.jpg"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:billyrick@rick.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://thewhip.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/extravagantman"
-
 Raphael Ferreira:
   name        : "Raphael Ferreira Martins"
   bio         : "Tecnólogo em Jogos Digitais & Projetista/Game Development & Designer"
@@ -24,3 +9,16 @@ Raphael Ferreira:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/raphael-ferreira-10/"
+
+Robson Maciel:
+  name        : "Robson Maciel"
+  bio         : "Tecnólogo em Jogos Digitais & Projetista/Game Development & Designer"
+  avatar      : "/assets/images/authors/robson-maciel.webp"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://gamejolt.com/games/atlus/557935"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/SoBoRn85/JCC"
+
