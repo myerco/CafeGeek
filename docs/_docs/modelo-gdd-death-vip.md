@@ -1,12 +1,19 @@
 ---
 title: Death VIP
 excerpt: Modelo de GDD do jogo Death VIP
-permalink: /pages/trabalhos/modelo-death-vip
+permalink: /docs/modelo-gdd-death-vip
+last_modified_at: 2021-06-07T08:48:05-04:00
+layout: single
+author_profile: true
+read_time: true
+share: true
 toc: true
-last_modified_at: 2023-03-27T08:48:05-04:00
-toc: true
-sidebar:
-    nav: dev_game  
+categories:
+  - Trabalhos
+tags:
+  - roteiros
+  - jogos
+  - modelo
 ---
 
 

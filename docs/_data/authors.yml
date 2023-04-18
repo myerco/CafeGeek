@@ -13,7 +13,7 @@ Raphael Ferreira:
 Robson Maciel:
   name        : "Robson Maciel"
   bio         : "Tecnólogo em Jogos Digitais & Projetista/Game Development & Designer"
-  avatar      : "/assets/images/authors/robson-maciel.webp"
+  avatar      : "/assets/images/cafegeek_small.webp"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -34,3 +34,7 @@ Felipe Malagueta:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/felippe-fernandes/"
 
+Varios:
+  name        : "Vários artistas"
+  bio         : "Curso de Jogos Digitais"
+  avatar      : "/assets/images/cafegeek_small.webp"
