@@ -1,9 +1,10 @@
 ---
 title: "Darkness of D-Day"
-permalink: /docs/darkness-of-D-Day/
+permalink: /docs/darkness-of-d-day/
 excerpt: "Roteiro do jogo Darkness of D-Day."
 last_modified_at: 2021-06-07T08:48:05-04:00
 toc: true
+classes: wide
 categories:
   - Trabalhos
 tags:
