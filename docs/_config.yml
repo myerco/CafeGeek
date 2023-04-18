@@ -307,7 +307,7 @@ defaults:
       author_profile: false
   # _docs
   - scope:
-      path: ""
+      path: "_docs"
       type: docs
     values:
       layout: single
