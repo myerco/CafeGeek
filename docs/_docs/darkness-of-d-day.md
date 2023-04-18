@@ -4,8 +4,10 @@ permalink: /docs/darkness-of-d-day/
 excerpt: "Roteiro do jogo Darkness of D-Day."
 last_modified_at: 2021-06-07T08:48:05-04:00
 layout: single
-author: Billy Rick
+author: Raphael Ferreira
 author_profile: true
+read_time: true
+share: true
 toc: true
 categories:
   - Trabalhos

@@ -13,14 +13,14 @@ Billy Rick:
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/extravagantman"
 
-Cornelius Fiddlebone:
-  name        : "Cornelius Fiddlebone"
-  bio         : "I ordered what?"
-  avatar      : "/assets/images/bio-photo.jpg"
+Raphael Ferreira:
+  name        : "Raphael Ferreira Martins"
+  bio         : "Tecnólogo em Jogos Digitais & Projetista/Game Development & Designer"
+  avatar      : "/assets/images/authors/1616158600373.webp"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:cornelius@thewhip.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/rhymeswithsackit"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.behance.net/raphaelferreira10"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/raphael-ferreira-10/"
