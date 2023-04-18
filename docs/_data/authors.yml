@@ -22,3 +22,15 @@ Robson Maciel:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/SoBoRn85/JCC"
 
+Felipe Malagueta:
+  name        : "Felipe Malagueta"
+  bio         : "Tecnólogo em Jogos Digitais & Projetista/Game Development & Designer"
+  avatar      : "/assets/images/authors/4988434-qp4c9wmt-v4.webp"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://gamejolt.com/games/dontstoplooking/557220"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/felippe-fernandes/"
+

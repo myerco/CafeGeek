@@ -24,8 +24,6 @@ dev_game:
     url: /about/jogos-digitais
   - title: Trabalhos
     url: /pages/trabalhos/
-  - title: Darkness of D-Day
-    url: /docs/darkness-of-d-day/   
 
 dev_unreal:
   - title: INTRODUÇÃO

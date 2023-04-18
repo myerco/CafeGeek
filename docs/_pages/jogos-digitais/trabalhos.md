@@ -50,7 +50,7 @@ feature_row0-4:
     alt: "Don't Stop Looking"
     title: "Don't Stop Looking"
     excerpt: "Durante sua jornada pelo tempo e espaço a nave do protagonista sofreu avarias ao transpor uma singularidade, você se depara com uma mescla de realidades, um mundo caótico e incerto a sua frente, você precisa encontrar peças para retomar sua viagem. Graças ao sistema de identificação da nave, você sabe quais os itens necessários, entretanto, a nave detecta algumas formas de vida desconhecidas. Cabe a você encontrar esses itens e descobrir, ou evitar essa forma de vida. Seja rápido… Atento… E sempre, sempre olhe para trás… <b>Autor: Felipe Malagueta</b>"
-    url: "https://gamejolt.com/games/dontstoplooking/557220"
+    url: "/docs/dont-stop-looking/"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
     tags:
