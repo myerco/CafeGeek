@@ -311,7 +311,7 @@ defaults:
       type: docs
     values:
       layout: single
-      read_time: true
+      ##read_time: true
       author_profile: true
       share: false
       comments: false
