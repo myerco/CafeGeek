@@ -6,6 +6,8 @@ main:
     url:  /about/jogos-digitais
   - title: "Banco de Dados"
     url: /pages/banco-dados    
+  - title: "Sample Collections"
+    url: /collection-archive/    
   - title: "Sobre"
     url: /about/
 
@@ -24,6 +26,8 @@ dev_game:
     url: /about/jogos-digitais
   - title: Trabalhos
     url: /pages/trabalhos/
+  - title: Darkness of D-Day
+    url: /docs/darkness-of-D-Day/   
 
 dev_unreal:
   - title: INTRODUÇÃO

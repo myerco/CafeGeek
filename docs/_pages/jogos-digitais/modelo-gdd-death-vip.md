@@ -11,6 +11,7 @@ sidebar:
 
 
 “Rescue or die trying”
+{: .text-center}
 
 ## 1. Introdução
 
