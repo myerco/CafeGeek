@@ -139,12 +139,8 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 |             |    grenade     |       grenade       |   grenade   | resurrect and cure friends |
 |             | interact itens | provides ammunition | Prepare C4  |         find items         |
 
->Observação
->
->Interação com itens :
->
-> - Abrir portas codificadas;
-> - Chamar o resgate quando chegar no local marcado;
+**Observação:** Interação com itens : Abrir portas codificadas,Chamar o resgate quando chegar no local marcado.
+{: .notice--warning}
 
 ### 4.1. Movimentação Controle
 
@@ -172,9 +168,9 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 
 ### 4.2. Inimigos
 
-| Class       |  Aggressive   |      Shooter      |    Boss     |     Boss      |     Boss     |   Boss   |     Boss     |  Boss   |
-| :---------- | :-----------: | :---------------: | :---------: | :-----------: | :----------: | :------: | :----------: | :-----: |
 | Type        |    Soldier    |    demolisher     |   Sniper    |     Hell      |  Mercenary   | Armored  |     Bomb     | Captain |
+| :---------- | :-----------: | :---------------: | :---------: | :-----------: | :----------: | :------: | :----------: | :-----: |
+| Class       |  Aggressive   |      Shooter      |    Boss     |     Boss      |     Boss     |   Boss   |     Boss     |  Boss   |
 | **Details** |               |                   |             |               |              |          |              |         |
 | Health      |      40       |        100        |     200     |      100      |     100      |   250    |      40      |   400   |
 | Speed       |      100      |        80         |     90      |      90       |     150      |    90    |      50      |   50    |
@@ -552,41 +548,57 @@ class UMenuMainInterface : public UInterface {};
 - D4 - Testes
 - Ano base 2023
 
-| Tarefas                | Responsável |   1   |   2   |   3   |   4   |   5   |   6   |     7     |   8   |   9   |  10   |  11   |  12   |  13   |    14     |
-| :--------------------- | :---------- | :---: | :---: | :---: | :---: | :---: | :---: | :-------: | :---: | :---: | :---: | :---: | :---: | :---: | :-------: |
-|                        |             |  D1   |  D1   |  D1   |  D2   |  D2   |  D2   |    D3     |  D3   |  D3   |  D3   |  D3   |  D3   |  D3   |    D3     |
-|                        |             | 24/02 | 03/03 | 10/03 | 17/03 | 24/03 | 31/03 | **14/04** | 28/04 | 05/05 | 12/05 | 19/05 | 26/05 | 02/06 | **16/06** |
-| Nome do jogo           | Aluno 1     |   X   |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| Gênero                 |             |   X   |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| Características gerais |             |   X   |   X   |   X   |       |       |       |           |       |       |       |       |       |       |           |
-| - Objetivos            |             |       |       |   X   |   X   |       |       |           |       |       |       |       |       |       |           |
-| - Storyline            |             |       |       |   X   |   X   |   X   |       |           |       |       |       |       |       |       |           |
-| GDD                    |             |       |       |   X   |   X   |   X   |       |           |       |       |       |       |       |       |           |
-| Protótipo v1           |             |       |       |       |       |       |   x   |           |       |       |       |       |       |       |           |
-| - Arte conceitual      |             |       |       |       |       |   X   |   x   |     x     |       |       |       |       |       |       |           |
-| Character base         |             |       |       |       |       |       |       |           |   x   |       |       |       |       |       |           |
-| - Character player     |             |       |       |       |       |       |       |           |       |   x   |       |       |       |       |           |
-| - Character Outros     |             |       |       |       |       |       |       |           |       |   x   |       |       |       |       |           |
-| Assets                 |             |       |       |       |       |       |       |           |       |       |   x   |   x   |   x   |       |           |
-| - Itens básicos        |             |       |       |       |       |       |       |           |       |       |   x   |   x   |   x   |       |           |
-| - Itens interativos    |             |       |       |       |       |       |       |           |       |       |   x   |   x   |   x   |       |           |
-| - Itens Armas          |             |       |       |       |       |       |       |           |       |       |   x   |   x   |   x   |       |           |
-| Level Design 1         |             |       |       |       |       |       |       |           |       |       |       |       |   x   |   x   |           |
-| - Desafios             |             |       |       |       |       |       |       |           |       |       |       |       |   x   |   x   |           |
-| - Montagem de ambiente |             |       |       |       |       |       |       |           |       |       |       |       |   x   |   x   |     x     |
-| HUD                    |             |       |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| - Menus                |             |       |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| - HuD do player        |             |       |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| IA                     |             |       |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| - Perseguição          |             |       |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| - Ataque               |             |       |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| - Patrulha             |             |       |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| Sistema de pontos      |             |       |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| - Atributos(+)         |             |       |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| - Evolução             |             |       |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| Level Design Lv1       |             |       |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| Level Design lv2       |             |       |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| Level Design Lv3       |             |       |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| Testes                 |             |       |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| Correção               |             |       |       |       |       |       |       |           |       |       |       |       |       |       |           |
-| Apresentação           |             |       |       |       |       |       |       |           |       |       |       |       |       |       |           |
+### Fase 1
+
+| Tarefas                | Responsável |   1   |   2   |   3   |   4   |   5   |   6   |     7     |
+| :--------------------- | :---------- | :---: | :---: | :---: | :---: | :---: | :---: | :-------: |
+|                        |             |  D1   |  D1   |  D1   |  D2   |  D2   |  D2   |    D3     |
+|                        |             | 24/02 | 03/03 | 10/03 | 17/03 | 24/03 | 31/03 | **14/04** |
+| Nome do jogo           | Aluno 1     |   X   |       |       |       |       |       |           |
+| Gênero                 |             |   X   |       |       |       |       |       |           |
+| Características gerais |             |   X   |   X   |   X   |       |       |       |           |
+| - Objetivos            |             |       |       |   X   |   X   |       |       |           |
+| - Storyline            |             |       |       |   X   |   X   |   X   |       |           |
+| GDD                    |             |       |       |   X   |   X   |   X   |       |           |
+| Protótipo v1           |             |       |       |       |       |       |   x   |           |
+| - Arte conceitual      |             |       |       |       |       |   X   |   x   |     x     |
+
+### Fase 2
+
+| Tarefas                | Responsável |   8   |   9   |  10   |  11   |  12   |  13   |  14   |    15     |
+| :--------------------- | :---------- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :-------: |
+|                        |             |  D3   |  D3   |  D3   |  D3   |  D3   |  D3   |  D3   |    D3     |
+|                        |             |   ?   | 28/04 | 05/05 | 12/05 | 19/05 | 26/05 | 02/06 | **16/06** |
+| Character base         |             |       |   x   |       |       |       |       |       |           |
+| - Character player     |             |       |       |   x   |       |       |       |       |           |
+| - Character Outros     |             |       |       |   x   |       |       |       |       |           |
+| Assets                 |             |       |       |       |   x   |   x   |   x   |       |           |
+| - Itens básicos        |             |       |       |       |   x   |   x   |   x   |       |           |
+| - Itens interativos    |             |       |       |       |   x   |   x   |   x   |       |           |
+| - Itens Armas          |             |       |       |       |   x   |   x   |   x   |       |           |
+| Level Design 1         |             |       |       |       |       |       |   x   |   x   |           |
+| - Desafios             |             |       |       |       |       |       |   x   |   x   |           |
+| - Montagem de ambiente |             |       |       |       |       |       |   x   |   x   |     x     |
+
+### Fase 3
+
+| Tarefas           | Responsável |   8   |   9   |  10   |  11   |  12   |  13   |  14   |  15   |
+| :---------------- | :---------- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+|                   |             |  D3   |  D3   |  D3   |  D3   |  D3   |  D3   |  D3   |  D3   |
+|                   |             |   ?   |   -   |   -   |   -   |   -   |   -   |   -   | **-** |
+| HUD               |             |       |       |       |       |       |       |       |       |
+| - Menus           |             |       |       |       |       |       |       |       |       |
+| - HuD do player   |             |       |       |       |       |       |       |       |       |
+| IA                |             |       |       |       |       |       |       |       |       |
+| - Perseguição     |             |       |       |       |       |       |       |       |       |
+| - Ataque          |             |       |       |       |       |       |       |       |       |
+| - Patrulha        |             |       |       |       |       |       |       |       |       |
+| Sistema de pontos |             |       |       |       |       |       |       |       |       |
+| - Atributos(+)    |             |       |       |       |       |       |       |       |       |
+| - Evolução        |             |       |       |       |       |       |       |       |       |
+| Level Design Lv1  |             |       |       |       |       |       |       |       |       |
+| Level Design lv2  |             |       |       |       |       |       |       |       |       |
+| Level Design Lv3  |             |       |       |       |       |       |       |       |       |
+| Testes            |             |       |       |       |       |       |       |       |       |
+| Correção          |             |       |       |       |       |       |       |       |       |
+| Apresentação      |             |       |       |       |       |       |       |       |       |
