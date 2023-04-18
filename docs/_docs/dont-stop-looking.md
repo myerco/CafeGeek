@@ -78,10 +78,4 @@ O modelo de negócio consiste de uma compra, onde o jogador paga para ter total 
 
 ## Distribuição
 
-- Steam;
-
-- Epic Games;
-  
-- GOG Games;
-  
-- Humble Bundle;
+[Game Jolt](https://gamejolt.com/games/dontstoplooking/557220){: .btn .btn--primary .btn--large}
