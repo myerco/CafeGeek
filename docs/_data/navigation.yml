@@ -6,7 +6,7 @@ main:
     url:  /about/jogos-digitais
   - title: "Banco de Dados"
     url: /pages/banco-dados    
- - title: "Documentos"
+  - title: "Documentos"
     url: /collection-archive/    
   - title: "Sobre"
     url: /about/
