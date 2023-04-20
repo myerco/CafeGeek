@@ -103,7 +103,7 @@ dev_unreal:
       - title: Estrutura
         url: /pages/unreal-engine/estrutura-do-projeto
       - title: Atividades
-        url: /pages/unreal-engine/estrutura-do-projeto        
+        url: /docs/etapas-do-projeto/
 
 dev_computacao:
   - title: COMPUTAÇÃO GRÁFICA    
