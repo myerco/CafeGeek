@@ -6,6 +6,9 @@ last_modified_at: 2021-06-07T08:48:05-04:00
 layout: single
 share: true
 toc: true
+author_profile: false
+sidebar:
+    nav: dev_unreal
 categories:
   - Trabalhos
 tags:
