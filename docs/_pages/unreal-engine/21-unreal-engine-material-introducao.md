@@ -349,7 +349,7 @@ Controla como o seu material se mesclará com os pixels por trás dele.
   
 - `BLEND_Additive` - Cor final = cor de origem + cor de destino. Este modo de mistura NÃO é compatível com iluminação dinâmica.
 
-{% include imagel.html
+{% include image.html
   src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/AdditiveNetwork.webp"
   alt="Figura: Blueprint Material- Additive."
 %}
