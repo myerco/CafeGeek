@@ -6,6 +6,11 @@ last_modified_at: 2023-03-28T08:48:05-04:00
 toc: true  
 sidebar:
     nav: dev_unreal
+categories:
+  - Unreal Engine
+tags:
+  - instalação
+  - configuração
 ---
 
 
@@ -26,7 +31,7 @@ Para facilitar a instalação e atualização do ambiente de desenvolvimento dos
 - Instalação e atualização de uma biblioteca de *plugins* e *assets* (recursos).
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_control_version.webp"
+    src="unreal/projeto/unreal-engine-control-version.webp"
     alt="Figura: Gerenciamento de versões."
     caption="Inicializador da Epic Games > Versões Instaladas, Lista de versões instaladas do Unreal Engine."
 %}
@@ -48,7 +53,7 @@ Para instalar o Unreal Engine siga os seguintes passos:
 Para instalar  os pacotes de desenvolvimento e o Visual Studio para programação com C++ baixe o Visual Studio em : [Download Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F).
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_visual_studio_installer.webp"
+    src="unreal/projeto/unreal-engine-visual-studio-installer.webp"
     alt="Figura: Visual Studio Installer - Instalação."
     caption="Permite instalar e modificar diversas versões do Visual Studio."
 %}
@@ -56,7 +61,7 @@ Para instalar  os pacotes de desenvolvimento e o Visual Studio para programaçã
 Depois de instalar o Visual Studio é necessário selecionar os seguintes pacotes de programação:
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_visual_studio_update.webp"
+    src="unreal/projeto/unreal-engine-visual-studio-update.webp"
     alt="Figura: Visual Studio Installer - Modificar."
     caption="Usando o Visual Studio Installer podemos instalar ou remover (modificar), os pacotes necessários para o desenvolvimento de jogos."
 %}
@@ -77,7 +82,7 @@ Nesta seção vamos criar um projeto para jogos utilizando **C++**, pois, irá a
 Para construção do projeto podemos clicar no versão disponível na janela do inicializador ou na opção **Inicializar** no campo superior direito, após a inicialização da **Unreal** é necessário selecionar o tipo de projeto para que a *Engine* configure alguns parâmetros iniciais.
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_select_new_project.webp"
+    src="unreal/projeto/unreal-engine_select_new_project.webp"
     alt="Figura: Unreal 4 - Select or create New Project, Games."
     caption="Selecione a opção Games para construção do projeto."
 %}
@@ -87,7 +92,7 @@ Para construção do projeto podemos clicar no versão disponível na janela do 
 Para este projeto vamos escolher o `template blank`, modelo vazio, significa que não vamos instalar objetos e recursos adicionais no projeto, pois, vamos realizar essa tarefa posteriormente para que possamos entender a estrutura do projeto.
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_select_template.webp"
+    src="unreal/projeto/unreal-engine-select-template.webp"
     alt="Figura: Select Template blank"
     caption="Selecionando um modelo para utilizar no projeto."
 %}
@@ -100,7 +105,7 @@ Para este projeto vamos escolher o `template blank`, modelo vazio, significa que
 Em configuração de projeto escolha **C++** e `No Starter Content`, esta opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário, em seguida escolha uma pasta onde o projeto deverá ser instalado em `Select a Location for project to be stored`.
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_project_settings.webp"
+    src="unreal/projeto/unreal-engine-project-settings.webp"
     alt="Figura: Unreal engine project Settings."
     caption="Configurando os parâmetros do projeto."
 %}
@@ -110,7 +115,7 @@ Em configuração de projeto escolha **C++** e `No Starter Content`, esta opçã
 Quando todos os passos anteriores forem concluídos corretamente a tela inicial deve aparecer.  
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_tela_inicial.webp"
+    src="unreal/projeto/unreal-engine-tela-inicial.webp"
     alt="Figura: Unreal Engine tela inicial."
     caption="Ambiente de desenvolvimento integrado com editor visual de cena, paletas de objetos e suas propriedades."
 %}
@@ -118,13 +123,13 @@ Quando todos os passos anteriores forem concluídos corretamente a tela inicial 
 ### 3.2. Iniciando um projeto no Unreal Engine 5
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_5_select_new_project.webp"
+    src="unreal/projeto/unreal-engine-5-select-new-project.webp"
     alt="Figura: Unreal 5 - Select or create New Project, Games"
     caption="A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o mesmo dos passos anteriores."
 %}
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_home_screen.webp"
+    src="unreal/projeto/unreal-engine-home-screen.webp"
     alt="Figura: Unreal 5 - Tela inicial."
     caption="Paleta de comandos com ícones menores o novo navegador de conteúdo (Content Drawer)."
 %}
@@ -136,7 +141,7 @@ Para programar utilizando **C++** no Unreal devemos configurar um editor de cód
 `Menu` > `Editor Preferences` > `General` e `Source Code`, então escolha `Visualstudio`.
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_editor_codigo.webp"
+    src="unreal/projeto/unreal-engine-editor-codigo.webp"
     alt="Figura: Editor Preferences > General > Source Code."
     caption="Em Source Code Editor escolha o editor da sua preferência."
 %}
@@ -207,7 +212,7 @@ A seguir vamos organizar as pastas do projeto *ProjetoAula*, construído no **Un
 No **Unreal Egnine** em `Content Drawer` utilizando botão direito do mouse clique em `New Folder` para criar pastas.
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_content_drawer.webp"
+    src="unreal/projeto/unreal-engine-content-drawer.webp"
     alt="Figura: Content Drawer."
     caption="Usado para navegar, criar e realizar buscas nas pastas contidas no diretório de trabalho do projeto."
 %}
@@ -353,7 +358,7 @@ Salve o *level* atual na pasta `Maps` :  `File` > `Save Current Level As` com o 
 Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o menu : `Edit` > `Project Settings` e depois `Maps & Modes`;
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_maps_modes.webp"
+    src="unreal/projeto/unreal-engine-maps-modes.webp"
     alt="Figura: Project Settings > Maps & Modes."
     caption="Parâmetros globais de configuração do level e classes."
 %}
@@ -367,7 +372,7 @@ Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o 
 Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu : `Project Settings` opção `Plataforms` > `Windows` e altere a imagem.
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_project_icon.webp"
+    src="unreal/projeto/unreal-engine-project-icon.webp"
     alt="Figura: Project Settings > Windows"
     caption="Podemos alterar o ícone do projeto e a imagem de inicialização do jogo."
 %}

@@ -6,12 +6,19 @@ last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
 toc: true  
+sidebar:
+    nav: dev_unreal
+categories:
+  - Unreal Engine
+tags:
+  - controle de versão
+  - git
 ---
 
 ## 1. Controle de Versão
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_git.webp"
+    src="unreal/projeto/unreal-engine-git.webp"
     alt="Figura: Unreal Engine with Git."
 %}
 
@@ -151,7 +158,7 @@ Para exemplificar a conexão do **Unreal Engine** com o Github vamos criar um no
 Para Configurar o projeto utilizaremos  `Menu` > `Edit` > `Connect To Source Control`.
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_connect_to_source_control.webp"
+    src="unreal/projeto/unreal-engine-connect-to-source-control.webp"
     alt="Figura: Source Control Login."
     caption="Configuração do usuário, servidor remoto e pasta do projeto."
 %}
@@ -180,7 +187,7 @@ Salve o level atual em `Projeto\Maps` com o nome `LevelTest`.
 Abra o GitHub Desktop e configure a sua conta do **Github** para ter acesso aos seus repositórios utilizando o menu principal `File` > `Options`;
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_github_desktop_options.webp"
+    src="unreal/projeto/unreal-engine-github-desktop-options.webp"
     alt="Figura: Github Desktop > Options."
     caption="Configuração de conta no Github."
 %}
@@ -194,7 +201,7 @@ Utilizando o Explorer navegue até a pasta do projeto e edite o arquivo .gitigno
 Uma vez configurados os projetos nos sistemas **Unreal** e **GitHub Desktop**, podemos confirmar as alterações dos arquivos utilizando o comando `Commit to Master`.
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_github_desktop_Commit_to_master.webp"
+    src="unreal/projeto/unreal-engine-github-desktop-Commit-to-master.webp"
     alt="Figura: Github Desktop Commit to Master."
     caption="A aba Changes lista as mudanças e a descrição da atualização. A aba Current branch apresenta o branch atual."
 %}
@@ -202,7 +209,7 @@ Uma vez configurados os projetos nos sistemas **Unreal** e **GitHub Desktop**, p
 Após confirmação das alterações devemos publicá-las no repositório remoto usando o comando `Publish repository`.
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_github_desktop_publish_repository.webp"
+    src="unreal/projeto/unreal-engine-github-desktop-publish-repository.webp"
     alt="Figura: Github Desktop Publish repository."
     caption="Envia os dados para o repositório remoto."
 %}
@@ -228,7 +235,7 @@ No painel `Changes`  do GitHub Desktop devem aparecer somente os arquivos :
 - TestGitHub.uproject.
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_github_desktop_commit_first_actor.webp"
+    src="unreal/projeto/unreal-engine-github-desktop-commit-first-actor.webp"
     alt="Figura: Github Desktop Publish repository."
     caption="No exemplo acima foi inserido um novo ator no projeto."
 %}
@@ -236,7 +243,7 @@ No painel `Changes`  do GitHub Desktop devem aparecer somente os arquivos :
 Após a confirmação vamos enviar as alterações para o servidor com o comando `Push origin`.
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal_engine_github_desktop_push_origin.webp"
+    src="unreal/projeto/unreal-engine-github-desktop-push-origin.webp"
     alt="Figura: Github Desktop Push Origin."
     caption="A janela da direita informa que é necessário realizar o envio de dados para o servidor remoto com o comando Push."
 %}

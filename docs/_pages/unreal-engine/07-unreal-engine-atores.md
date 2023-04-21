@@ -86,7 +86,7 @@ Como citado anteriormente classes são estruturas de dados com eventos, variáve
 Para criar uma classe utilizando **Blueprint** acesse o menu de contexto e selecione `Blueprint Class`.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_pick_class.webp"
+    src="unreal/actor/unreal-engine-pick-class.webp"
     alt="Figura: Pick Parent Class."
     caption="Permite selecionar uma classe predefinida para implementação de um nova classe."
 %}
@@ -96,7 +96,7 @@ Para criar uma classe utilizando **Blueprint** acesse o menu de contexto e selec
 A classe **Actor** compreende objetos básicos que podem ser adicionados ao mundo. Atores podem conter coleções de componentes, os quais podem ser usados para controlar como o ator se move, como é renderizado, etc. Atores suportam transformações 3D tal como translação, rotação e escala.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_class_actor_details.webp"
+    src="unreal/actor/unreal-engine-class-actor-details.webp"
     alt="Figura: Actor > Class Defaults."
     caption="Valores iniciais da classe."
 %}
@@ -125,7 +125,7 @@ A classe `SpectatorPawn` é uma subclasse de `DefaultPawn`. Por meio de um **Gam
 As Classes tem propriedades que definem a estrutura do objeto.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_class_pawn_details.webp"
+    src="unreal/actor/unreal-engine-class-pawn-details.webp"
     alt="Figura: Pawm > Class Defaults."
     caption="Valores iniciais da classe."
 %}
@@ -146,7 +146,7 @@ Um personagem é um *Pawn* que tem algumas funcionalidades básicas de movimento
 Com a adição de um componente `CharacterMovementComponent`, um `CapsuleComponent` e um `SkeletalMeshComponent`, a classe *Pawn* é estendida para a classe *Character* com muitos recursos. Um personagem é projetado para uma representação do jogador orientada verticalmente que pode andar, correr, pular, voar e nadar pelo mundo. Esta classe também contém implementações de rede básica e modelos de entrada.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_class_character_details.webp"
+    src="unreal/actor/unreal-engine-class-character-details.webp"
     alt="Figura: Character > Class Defaults."
     caption="Valores iniciais da classe."
 %}
@@ -166,13 +166,13 @@ Os componentes são um tipo especial de objeto que os atores podem anexar a si p
 Na aba `Components`s podemos adicionar componentes para os objetos de forma hierarquia.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_add_component.webp"
+    src="unreal/actor/unreal-engine-add-component.webp"
     alt="Figura: Components > Add."
     caption="Adicionando componentes."
 %}
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_add_component_hierarchy.webp"
+    src="unreal/actor/unreal-engine-add-component-hierarchy.webp"
     alt="Figura: Components."
     caption="Estrutura hierárquica dos componentes."
 %}
@@ -188,7 +188,7 @@ Exemplo de Componentes que podemos adicionar a classe:
 Para editar os componentes utilizamos o Editor de objetos e componentes.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_component_details.webp"
+    src="unreal/actor/unreal-engine-component-details.webp"
     alt="Figura: Component > Details."
     caption="Podemos editar as propriedades dos componentes."
 %}
@@ -200,7 +200,7 @@ Para editar os componentes utilizamos o Editor de objetos e componentes.
 Consistem em um conjunto de polígonos que podem ser armazenados em cache na memória de vídeo e renderizados pela placa de vídeo. Isso permite que eles sejam renderizados com eficiência, o que significa que podem ser muito mais complexos do que outros tipos de geometria, como **Brushes**. Como são armazenados em cache na memória de vídeo, as malhas estáticas podem ser traduzidas, giradas e dimensionadas, mas não podem ter seus vértices animados de nenhuma forma.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_static_mesh_viewport.webp"
+    src="unreal/actor/unreal-engine-static-mesh-viewport.webp"
     alt="Figura: Statis Mesh ViewPort."
     caption="Podemos manipular as transformações da Static Mesh."
 %}
@@ -220,7 +220,7 @@ Consistem em um conjunto de polígonos que podem ser armazenados em cache na mem
 Visualização da malha e suas propriedades (vértices, UV e modelo de colisão).
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_static_mesh_editor.webp"
+    src="unreal/actor/unreal-engine-static-mesh-editor.webp"
     alt="Figura: Editor de StaticMesh."
     caption="O editor permite adicionar uma caixa de colisão e visualizar o mapeamento UV."
 %}
@@ -250,7 +250,7 @@ A baixo uma representação da hierarquia do Skeletal Mesh.
 #### 6.3.2. Propriedades do Skeletal Mesh
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_skeletal_mesh.webp"
+    src="unreal/actor/unreal-engine-skeletal-mesh.webp"
     alt="Figura: Mesh (Character Mesh)."
     caption="Aba Componentes > Lista de componentes predefinidos da classe Character, Details >  Propriedades do componente."
 %}
@@ -276,7 +276,7 @@ Propriedades da Mesh (Skeletal):
 #### 6.3.3. O Editor Skeletal Mesh
 
 {% include imagelocal.html
-    src="unreal/animacao/unreal_engine_skeleton_mannequim.webp"
+    src="unreal/animacao/unreal-engine-skeleton-mannequim.webp"
     alt="Figura: Editor Skeletal Mesh."
     caption="Permite a manipulação de cada osso do esqueleto e acesso aos objetos associados ao esqueleto."
 %}
@@ -298,7 +298,7 @@ Observe que o editor é divido em :
 Os objetos adicionados em uma cena possuem coordenadas de localização dentro do 'mundo', vamos apresentar como manipular coordenadas.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_viewport_coordinates.webp"
+    src="unreal/actor/unreal-engine-viewport-coordinates.webp"
     alt="Figura: Coordenadas no ViewPort."
     caption="No campo inferior esquerdo são indicadas as posições x,y e z da cena. O objeto da cena apresenta o gizmo para indicar a sua posição na cena. No canto superior direito é possível alterar entre as coordenadas do mundo e do objeto."
 %}
@@ -308,7 +308,7 @@ Os objetos adicionados em uma cena possuem coordenadas de localização dentro d
 A seção **Transform** do painel Detalhes permite que você visualize e edite as transformações - Localização, Rotação e Escala - do (s) ator (es) selecionado (s). Além disso, quando aplicável, também contém as configurações para Mobilidade do Ator.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_viewport_transform.webp"
+    src="unreal/actor/unreal-engine-viewport-transform.webp"
     alt="Figura: Transform - Valores de transformação do objeto."
     caption="Valores relativos à Localização (Location), Rotação (Rotation) e Escala ou dimensionamento (Scale)."
 %}
@@ -316,7 +316,7 @@ A seção **Transform** do painel Detalhes permite que você visualize e edite a
 ### 7.2. Escrevendo na tela o posicionamento do ator no mundo
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_print_location.webp"
+    src="unreal/actor/unreal-engine-print-location.webp"
     alt="Figura: Blueprint - Escreve na tela as coordenadas de localização do objeto."
     caption="Ao iniciar, BeginPlay, as funções GetActorLocation e GetWorldLocation são executadas."
 %}
@@ -338,7 +338,7 @@ Considere o exemplo abaixo do objeto **BP_ActorBase**:
 ```
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_sceneroot.webp"
+    src="unreal/actor/unreal-engine-sceneroot.webp"
     alt="Figura: SceneRoot."
     caption="A malha (Mesh) está hierarquia abaixo do componente, então, as coordenadas são relativas, por exemplo: X=0,Y=0,Z=0."
 %}
@@ -352,7 +352,7 @@ A posição do ator no mundo é calculada utilizando o componente `DefaultSceneR
 ### 7.4. Escrevendo na tela o posição relativa do componente
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_print_relative_location.webp"
+    src="unreal/actor/unreal-engine-print-relative-location.webp"
     alt="Figura: Get Target Relative Location."
     caption="Retorna um vetor com as coordenadas da malha relativas ao sceneroot."
 %}
@@ -388,7 +388,7 @@ Exemplo de classe Herói que derive de Humanos:
 ### 8.1. Criando uma classe filho
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_create_child_class.webp"
+    src="unreal/actor/unreal-engine-create-child-class.webp"
     alt="Figura: Create Child Blueprint Class."
     caption="Selecionando o objeto pai e acionamento o menu de contexto (RMB) acessamos a opção para criar a classe derivada."
 %}
@@ -396,7 +396,7 @@ Exemplo de classe Herói que derive de Humanos:
 ### 8.2. Variáveis da classe pai
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_show_my_blueprints.webp"
+    src="unreal/actor/unreal-engine-show-my-blueprints.webp"
     alt="Figura: MyBlueprint propriedades."
     caption="Podemos exibir as variáveis, componentes ou eventos da herdados da classe pai, no exemplo acima a variável NameBase pertence a classe pai."
 %}
@@ -408,7 +408,7 @@ Exemplo de classe Herói que derive de Humanos:
 Criando um evento para sobrescrever o evento `Begin Play`.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_functions_overrider.webp"
+    src="unreal/actor/unreal-engine-functions-overrider.webp"
     alt="Figura: Functions Override."
     caption="Podemos sobrescrever os métodos da classe pai."
 %}
@@ -416,7 +416,7 @@ Criando um evento para sobrescrever o evento `Begin Play`.
 ### 8.4. Executando um evento da classe pai
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_beginplay_override.webp"
+    src="unreal/actor/unreal-engine-beginplay-override.webp"
     alt="Figura: Parent: Begin Play."
     caption="Clicando com o botão direito (RMB) acessamos a opção Add Call to Parent Function que executa a classe pai antes de executar o próximo comando."
 %}
@@ -426,7 +426,7 @@ Criando um evento para sobrescrever o evento `Begin Play`.
 O componente `ChildActor` permite associar uma classe filha utilizando a lista de componentes.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_childActor.webp"
+    src="unreal/actor/unreal-engine-childActor.webp"
     alt="Figura: ChildActor."
     caption="O componente ChildActor associa uma outra classe ao objeto."
 %}
@@ -436,7 +436,7 @@ O componente `ChildActor` permite associar uma classe filha utilizando a lista d
 ### 8.6. Referências de atores e componentes
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_view_references.webp"
+    src="unreal/actor/unreal-engine-view-references.webp"
     alt="Figura: Reference Viewer."
     caption="Clicando com o botão direito (RMB) podemos acessar a opção para visualizar todas as referências do objeto. No exemplo acima BP_ActorChild2 é uma classe derivada do BP_ActorBase e BP_ActorChild está associada usando o componente ChildActor."
 %}
@@ -450,7 +450,7 @@ Podemos adicionar, remover ou selecionar os atores que estão na cena do jogo, a
 O processo de criação de uma nova instância de um ator é conhecido como *spawning*. A geração de atores é realizada usando a função `SpawnActor`. Esta função cria uma nova instância de uma classe especificada e retorna um ponteiro para o Actor recém-criado. `SpawnActor` só pode ser usado para criar instâncias de classes que herdam da classe Actor em sua hierarquia.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_actor_spawn.webp"
+    src="unreal/actor/unreal-engine-actor-spawn.webp"
     alt="Figura: Exemplo de SpawnActor e DestroyActor."
     caption="Cria o ator na posição do objeto TargetPoint e se ele já está na cena o destrói."
 %}
@@ -468,7 +468,7 @@ Utilizando o `Level Bluprint` podemos implementar o código acima.
 Utilizando a função `GetAllActorOfClass` e o loop `For Each Loop` podemos listar todos os atores na cena.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_get_all_ActorOfClass.webp"
+    src="unreal/actor/unreal-engine-get-all-ActorOfClass.webp"
     alt="Figura: GetAllActorOfClass."
     caption="Lista todos os objetos instanciados da classe BP_ActorBase e os destrói."
 %}

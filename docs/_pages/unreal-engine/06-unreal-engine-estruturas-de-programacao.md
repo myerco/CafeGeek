@@ -17,7 +17,7 @@ tags:
 ## 1. O que são variáveis?
 
 {% include imagelocal.html
-    src="unreal/variaveis/unreal_engine_variables.webp"
+    src="unreal/variaveis/unreal-engine-variables.webp"
     alt="Blueprint Variables."
     caption="Blueprint Variables."
 %}
@@ -87,13 +87,13 @@ Para armazenar qualquer informação na memória devemos definir um tipo de dado
 Declarando variáveis informamos ao computador que estamos reservando um espaço de memória temporário.  
 
 {% include imagelocal.html
-    src="unreal/variaveis/unreal_engine_variable.webp"
+    src="unreal/variaveis/unreal-engine-variable.webp"
     alt="Figura: Blueprint Variables."
     caption="Variáveis no Editor de Blueprint."
 %}
 
 {% include imagelocal.html
-    src="unreal/variaveis/unreal_engine_variable_details.webp"
+    src="unreal/variaveis/unreal-engine-variable-details.webp"
     alt="Figura: Details ou propriedades das variáveis."
     caption="As variáveis tem tipos e propriedades que determinam o sua utilização."
 %}
@@ -125,7 +125,7 @@ Para acessar o conteúdo das variáveis utilizamos os métodos `Get` e `Set`, on
 ### 3.1. Métodos Get e Set Blueprint
 
 {% include imagelocal.html
-    src="unreal/variaveis/unreal_engine_get_set.webp"
+    src="unreal/variaveis/unreal-engine-get-set.webp"
     alt="Figura: Métodos Get e Set."
     caption="Get se Set, obtém e atualiza respectivamente a variável Life."
 %}
@@ -189,7 +189,7 @@ Podemos realizar as seguintes operações em `strings`:
 ### 4.1. Strings em Blueprint
 
 {% include imagelocal.html
-    src="unreal/variaveis/unreal_engine_string_functions.webp"
+    src="unreal/variaveis/unreal-engine-string-functions.webp"
     alt="Figura: String functions."
     caption="Append - Concatena tuas ou mais strings, Contains- Retorna falso ou verdadeiro se encontra um string dentro de outra."
 %}
@@ -285,13 +285,13 @@ Valores numéricos utilizam operadores matemáticos para a sua manutenção, com
 ### 5.1. Inteiro em Blueprint
 
 {% include imagelocal.html
-    src="unreal/variaveis/unreal_engine_variable_division.webp"
+    src="unreal/variaveis/unreal-engine-variable-division.webp"
     alt="Figura: Utilizando Divisão com inteiros."
     caption="A exemplo acima divide um inteiro por 2 e trunca o resultado."
 %}
 
 {% include imagelocal.html
-    src="unreal/variaveis/unreal_engine_variable_multiplication.webp"
+    src="unreal/variaveis/unreal-engine-variable-multiplication.webp"
     alt="Figura: Multiplicação valores."
     caption="Neste exemplo multiplicamos o valor por 100."
 %}
@@ -322,7 +322,7 @@ void AMyCharacterClass::BeginPlay()
 Variáveis Boolean armazenam dois valores : falso `false` ou verdadeiro `true`.
 
 {% include imagelocal.html
-    src="unreal/variaveis/unreal_engine_variable_boolean.webp"
+    src="unreal/variaveis/unreal-engine-variable-boolean.webp"
     alt="Figura: Variável Boolean."
     caption="No exemplo acima se o valor de life for maior que 50 então o valor é atualizado para true."
 %}
@@ -338,7 +338,7 @@ Variáveis privadas só podem ser acessadas por membros da mesma classe.
 Variavel private usando Blueprint.
 
 {% include imagelocal.html
-    src="unreal/variaveis/unreal_engine_variable_private_details.webp"
+    src="unreal/variaveis/unreal-engine-variable-private-details.webp"
     alt="Figura: Private details."
     caption="Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada por módulos externos."
 %}
@@ -357,13 +357,13 @@ Para permitir que uma variável seja modificada de fora de seu módulos, torne-a
 Variavel públicas em Blueprint.
 
 {% include imagelocal.html
-    src="unreal/variaveis/unreal_engine_variable_public.webp"
+    src="unreal/variaveis/unreal-engine-variable-public.webp"
     alt="Figura: Public."
     caption="Expondo a variável."
 %}
 
 {% include imagelocal.html
-    src="unreal/variaveis/unreal_engine_variable_public_details.webp"
+    src="unreal/variaveis/unreal-engine-variable-public-details.webp"
     alt="Figura: Public details."
     caption="Expõe a variável no Editor ViewPort."
 %}
@@ -438,7 +438,7 @@ A seguir vamos entender como é fluxo condicional é descrito com programação 
 #### 9.1.1. IF em Blueprint
 
 {% include imagelocal.html
-    src="unreal/estruturascontrole/blueprint_example_if.webp"
+    src="unreal/estruturascontrole/unreal-engine-example-if.webp"
     alt="Figura: Blueprint e branch ou if."
     caption="O teste acima verifica se um valor é maior que o outro e redireciona o fluxo."
 %}
@@ -463,7 +463,7 @@ O nó `Switch` lê uma entrada de dados e, com base no valor dessa entrada, envi
 #### 9.2.1. Switchs node em Blueprint
 
 {% include imagelocal.html
-    src="unreal/estruturascontrole/blueprint_exemple_switch.webp"
+    src="unreal/estruturascontrole/unreal-engine-exemple-switch.webp"
     alt="Figura: Blueprint e Switch ou Case."
     caption="Este comando verifica qual valor adente é igual ao parâmetro de entrada."
 %}
@@ -500,7 +500,7 @@ O nó `Sequence` permite que um único pulso de execução acione uma série de 
 #### 9.3.1. Sequence em Blueprint
 
 {% include imagelocal.html
-    src="unreal/estruturascontrole/blueprint_example_sequence.webp"
+    src="unreal/estruturascontrole/unreal-engine-example-sequence.webp"
     alt="Figura: Blueprint Sequence."
     caption="A sequencia começa no 0 e podemos adicionar outros fluxos."
 %}
@@ -516,7 +516,7 @@ O nó `Sequence` permite que um único pulso de execução acione uma série de 
 O nó `Flip Flop` obtém uma saída de execução e alterna entre duas saídas de execução. Na primeira vez que é chamado, a saída A é executada. Na segunda vez, B. Depois A, B e assim por diante. O nó também possui uma saída booleana que permite rastrear quando a Saída A foi chamada.
 
 {% include imagelocal.html
-    src="unreal/estruturascontrole/blueprint_example_flip_flop.webp"
+    src="unreal/estruturascontrole/unreal-engine-example-flip-flop.webp"
     alt="Figura: Blueprint Flip FLop."
     caption="Alterna entre aberto e fechado a medida que se pressiona a tecla H."
 %}
@@ -532,7 +532,7 @@ O nó `Flip Flop` obtém uma saída de execução e alterna entre duas saídas d
 O nó `MultiGate` recebe um único pulso de dados e o encaminha para qualquer número de saídas potenciais. Isso pode ocorrer sequencialmente, aleatoriamente e pode ou não ser executado em loop.
 
 {% include imagelocal.html
-    src="unreal/estruturascontrole/blueprint_example_multigate.webp"
+    src="unreal/estruturascontrole/unreal-engine-example-multigate.webp"
     alt="Figura: Blueprint MultiGate."
     caption="Quando é pressionada tecla H pela primeira vez é apresentado o texto ZERO na tela, na próxima vez que pressionar o texto será UM e assim sucessivamente. Se pressionado J a sequencia é reiniciada. Caso a opção Is Ramdon esteja assinalada a sequencia será aleatória."
 %}
@@ -554,7 +554,7 @@ Podemos utilizar estruturas de repetição para repetir instruções ou nós, a 
 O nó `For Loop` funciona como um loop de código padrão, disparando um pulso de execução para cada índice entre o início e o fim.
 
 {% include imagelocal.html
-    src="unreal/estruturascontrole/blueprint_example_forloop.webp"
+    src="unreal/estruturascontrole/unreal-engine-example-forloop.webp"
     alt="Figura: Blueprint for loop."
     caption="Iniciando em zero e terminando em 4 será apresentado a cada passo o texto correspondente ao contador (índice)."
 %}
@@ -576,7 +576,7 @@ UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
 Uma condição de teste e um corpo são tudo o que constitui um *loop While*. Antes de executar a (s) instrução (ões) em seu corpo, o **Blueprint** avalia a condição de teste `While Loops` para determinar se ela é verdadeira.
 
 {% include imagelocal.html
-    src="unreal/estruturascontrole/blueprint_example_whileloop.webp"
+    src="unreal/estruturascontrole/unreal-engine-example-whileloop.webp"
     alt="Figura: Blueprint While loop."
     caption="O loop será executado enquanto o valor for menor que 4."
 %}
@@ -597,7 +597,7 @@ UE_LOG(LogTemp, Warning, TEXT("Terminei de contar"));
 O nó `Do N` disparará um pulso de execução N vezes. Depois que o limite for atingido, ele interromperá todas as execuções de saída até que um pulso seja enviado para sua entrada Reset.
 
 {% include imagelocal.html
-    src="unreal/estruturascontrole/blueprint_example_do_n.webp"
+    src="unreal/estruturascontrole/unreal-engine-example-do-n.webp"
     alt="Figura: Blueprint Do N."
     caption="No exemplo acima toda vez que a tecla H for pressionada um valor vai ser apresentado. Quanto o valor 10 for atingido a instrução Print String não será executada. Pressionando a tecla J a contagem será reiniciada."
 %}
@@ -613,7 +613,7 @@ O nó `Do N` disparará um pulso de execução N vezes. Depois que o limite for 
 O nó `Do Once` - como o nome sugere - disparará um pulso de execução apenas uma vez. Desse ponto em diante, ele interromperá toda a execução de saída até que um pulso seja enviado para sua entrada Reset. Este nó é equivalente a um nó `Do N` onde N = 1.
 
 {% include imagelocal.html
-    src="unreal/estruturascontrole/blueprint_example_do_once.webp"
+    src="unreal/estruturascontrole/unreal-engine-example-do-once.webp"
     alt="Figura: Blueprint Do Once."
     caption="Se pressionada a tecla H é acionado evento Print String, caso for pressionada novamente nada acontece até que seja pressionada a tecla J para reiniciar o fluxo."
 %}
@@ -673,7 +673,7 @@ Para declarar variáveis do tipo *array* devemos primeiro escolher um tipo de va
 ### 12.1. Array em Blueprint
 
 {% include imagelocal.html
-    src="unreal/array/blueprint_array_declare.webp"
+    src="unreal/array/unreal-engine-array-declare.webp"
     alt="Figura: Blueprint array details."
     caption="Considere a variável Nomes que deve armazenar uma lista de nomes."
 %}
@@ -693,7 +693,7 @@ Para declarar variáveis do tipo *array* devemos primeiro escolher um tipo de va
 Para acessar qualquer elemento dentro *array* é necessários utilizar o índice, como no exemplo abaixo.  
 
 {% include imagelocal.html
-    src="unreal/array/blueprint_array_get.webp"
+    src="unreal/array/unreal-engine-array-get.webp"
     alt="Figura: Blueprint Get para Array."
     caption="O método Get acessa a informação recebendo como parâmetro um valor de índice."
 %}
@@ -710,7 +710,7 @@ UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
 Podemos utilizar uma variável para substituir o índice e acessar elementos do *array*.
 
 {% include imagelocal.html
-    src="unreal/array/blueprint_array_get_string.webp"
+    src="unreal/array/unreal-engine-array-get-string.webp"
     alt="Figura: Blueprint Get utilizando uma variável como índice."
     caption="No exemplo acima definimos o valor de Índice igual a 1 para acessar o elemento de mesma posição."
 %}
@@ -728,7 +728,7 @@ UE_LOG(LogTemp,Warning,TEXT("O nome é %s",*s));
 Podemos determinar a quantidade de elementos ou valor do último índice do *array* utilizando os nós abaixo.
 
 {% include imagelocal.html
-    src="unreal/array/blueprint_array_last_index.webp"
+    src="unreal/array/unreal-engine-array-last-index.webp"
     alt="Figura: Blueprint Last Index e Length."
     caption="Usando os nós predefinidos objetos o valor do índice."
 %}
@@ -759,7 +759,7 @@ Percorrer **array** implica em ler todos ou alguns elementos da estrutura, para 
 Na lógica abaixo percorremos todo *array* e listamos cada elemento.
 
 {% include imagelocal.html
-    src="unreal/array/blueprint_array_with_forloop.webp"
+    src="unreal/array/unreal-engine-array-with-forloop.webp"
     alt="Figura: Blueprint  Array com loop."
     caption="Utilizando For Each Loop podemos percorrer todo array."
 %}
@@ -804,7 +804,7 @@ for (auto It = StrArr.CreateConstIterator(); It; ++It)
 ### 13.3. Usando o comando Find com Blueprint
 
 {% include imagelocal.html
-    src="unreal/array/blueprint_array_search_string.webp"
+    src="unreal/array/unreal-engine-array-search-string.webp"
     alt="Figura: Blueprint Find e Array."
     caption="Find procura um elemento dentro do *array* e se encontra retorna o valor do índice do elemento, caso não encontre retorna -1."
 %}
@@ -822,7 +822,7 @@ if (StrArr.Find(TEXT("Hello"), Index))
 ### 13.5. Contando elementos dentro de um array com Blueprint
 
 {% include imagelocal.html
-    src="unreal/array/blueprint_array_write_total_occurrence.webp"
+    src="unreal/array/unreal-engine-array-write-total-occurrence.webp"
     alt="Figura: Blueprint for para escrever o total de ocorrências."
     caption="O exemplo acima conta todos os elementos do array Nomes que são iguais a variável NomeBusca."
 %}
@@ -845,7 +845,7 @@ UE_LOG(LogTemp, Warning, TEXT("O Total é %d"),iTotal);
 ### 13.7. Percorrendo e atualizando dados com Blueprint
 
 {% include imagelocal.html
-    src="unreal/array/blueprint_array_fill_string.webp"
+    src="unreal/array/unreal-engine-array-fill-string.webp"
     alt="Figura: Blueprint preenchendo o array com strings."
     caption="O exemplo acima vamos percorrer o array utilizando uma instrução for e atualizar outro array."
 %}
@@ -879,7 +879,7 @@ UE_LOG(LogTemp, Warning, TEXT("O Total é %d"),iTotal);
 A função `Remove` exclui um elemento do *array*, o valor a ser removido tem que ser informado como parâmetro.
 
 {% include imagelocal.html
-    src="unreal/array/blueprint_array_remove.webp"
+    src="unreal/array/unreal-engine-array-remove.webp"
     alt="Figura: Blueprint Remove Array."
     caption="Exemplo do comando Remove."
 %}
@@ -898,7 +898,7 @@ Nomes.Remove(TEXT("Ana"));
 O comando `Remove`executa uma busca utilizando um parâmetro, **NomeBusca** no exemplo abaixo, e o remove do *array*.
 
 {% include imagelocal.html
-    src="unreal/array/blueprint_array_remove_index.webp"
+    src="unreal/array/unreal-engine-array-remove-index.webp"
     alt="Figura: Blueprint Remove array com index."
     caption="Exemplo de Remove com um parâmetro."
 %}
@@ -918,7 +918,7 @@ Nomes.Remove(StrNomeBusca);
 `Remove Index` exclui um elemento do *array* utilizando o índice do *array*.
 
 {% include imagelocal.html
-    src="unreal/array/blueprint_array_find.webp"
+    src="unreal/array/unreal-engine-array-find.webp"
     alt="Figura: Blueprint Find e remove."
     caption="Usando Find para obter o índice e passando o seu valor para Remove Index."
 %}
@@ -939,7 +939,7 @@ if (Nomes.Find(TEXT("Hello"), Index))
 `Clear` remove todos os elementos do *array*.
 
 {% include imagelocal.html
-    src="unreal/array/blueprint_array_clear.webp"
+    src="unreal/array/unreal-engine-array-clear.webp"
     alt="Figura: Blueprint Clear Array."
     caption="Podemos otimizar o limpeza do array com Clear."
 %}
@@ -967,7 +967,7 @@ enum cores = { vermelho,amarelo, azul, verde = 20, preto}
 ### 15.1. Criando Enums no Unreal Engine e Blueprint
 
 {% include imagelocal.html
-    src="unreal/enum/blueprint_enum_declare.webp"
+    src="unreal/enum/unreal-engine-enum-declare.webp"
     alt="Figura: Blueprint e Enum."
     caption="Podemos adicionar e remover vários valores."
 %}
@@ -975,7 +975,7 @@ enum cores = { vermelho,amarelo, azul, verde = 20, preto}
 Execute o comando no menu de contexto `Blueprints` > `Enumeration` e logo depois preencha os valores conforme a tela abaixo.  
 
 {% include imagelocal.html
-    src="unreal/enum/blueprint_enum.webp"
+    src="unreal/enum/unreal-engine-enum.webp"
     alt="Figura: Blueprint Enum no Context Browser."
     caption="Objeto criado EN_Estado e EN_Pedra."
 %}
@@ -1013,7 +1013,7 @@ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
 Vamos verificar e alterar o estado de uma lâmpada utilizando uma variável do tipo `boolean`.  
 
 {% include imagelocal.html
-    src="unreal/enum/blueprint_enum_example_lamp_state.webp"
+    src="unreal/enum/unreal-engine-enum-example-lamp-state.webp"
     alt="Figura: Blueprint Verificando o estado de uma lâmpada."
     caption="Lógica para determinar se a lâmpada está ligada ou desligada."
 %}
@@ -1043,7 +1043,7 @@ void AFirstPersonBaseCodeCharacter::AnyKey(float Value)
 Alterando o componente `PointLight` para ligar e desligar a iluminação.
 
 {% include imagelocal.html
-    src="unreal/enum/blueprint_enum_example_lamp_offon.webp"
+    src="unreal/enum/unreal-engine-enum-example-lamp-offon.webp"
     alt="Figura: Blueprint Ligando e desligando o PointLight."
     caption="Utilizando Flip Flop podemos mudar a propriedade Set Intensity e configurando a variável Ligado para falso ou verdadeiro."
 %}
@@ -1165,7 +1165,7 @@ void AControlLight::AnyKey()
 ### 15.6. Verificando o estado utilizando o Enum com Blueprint
 
 {% include imagelocal.html
-    src="unreal/enum/blueprint_enum_example_lamp_read_state.webp"
+    src="unreal/enum/unreal-engine-enum-example-lamp-read-state.webp"
     alt="Figura: Blueprint Lendo Enum."
     caption="Podemos ler o valor corrente de um Enum acessando diretamente a variável."
 %}
@@ -1182,7 +1182,7 @@ UE_LOG(LogTemp, Warning,TEXT("O enum é = %s"), *UEnum::GetValueAsString(status)
 ### 15.8. Ligando e desligando utilizando o Enum com Blueprint
 
 {% include imagelocal.html
-    src="unreal/enum/blueprint_enum_example_lamp_off.webp"
+    src="unreal/enum/unreal-engine-enum-example-lamp-off.webp"
     alt="Figura: Blueprint Ligando e desligando usando Enum."
     caption="Usamos agora a variável Estado do tipo Enum para configurar o estado da lâmpada."
 %}
@@ -1210,19 +1210,19 @@ Vamos verificar e alterar o estado de emocional de uma pedra.
 Alterando o estado emocional da pedra.
 
 {% include imagelocal.html
-    src="unreal/enum/blueprint_enum_example_rock.webp"
+    src="unreal/enum/unreal-engine-enum-example-rock.webp"
     alt="Figura: Blueprint alterando Enum."
     caption="Altera o estado para Feliz, triste, pulando e pensando."
 %}
 
 {% include imagelocal.html
-    src="unreal/enum/blueprint_enum_example_rock_state.webp"
+    src="unreal/enum/unreal-engine-enum-example-rock-state.webp"
     alt="Figura: Blueprint escrevendo o conteúdo do Enum."
     caption="Apresentando o estado da pedra."
 %}
   
 {% include imagelocal.html
-    src="unreal/enum/blueprint_enum_example_rock_set_material.webp"
+    src="unreal/enum/unreal-engine-enum-example-rock-set-material.webp"
     alt="Figura: Blueprint alterando o material de uma malha utilizando um Enum como parâmetro."
     caption="Alterando o material de uma malha utilizando um Enum como parâmetro."
 %}

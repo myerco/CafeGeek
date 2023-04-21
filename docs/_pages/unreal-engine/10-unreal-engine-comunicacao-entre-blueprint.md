@@ -6,11 +6,15 @@ last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
 toc: true 
+categories:
+  - Unreal Engine
+tags:
+  - Blueprint
+  - comunicação
+  - dispatcher
 ---
 
 ## 1. Como facilitar a comunicação entre objetos Blueprint?
-
-***
 
 Construindo um meio para que objetos individuais separados interagirem uns com os outros.  
 
@@ -35,7 +39,7 @@ Construindo um meio para que objetos individuais separados interagirem uns com o
 A seguir apresentamos um diagrama de como os elementos podem se comunicar e trocar informações.
 
 {% include imagelocal.html
-    src="unreal/comunicacao/blueprint_comunicacao_entre_atores.webp"
+    src="unreal/comunicacao/urneal-engine-comunicacao-entre-atores.webp"
     alt="Figura: Estrutura de Comunicação entre Blueprints."
     caption="Figura: Estrutura de Comunicação entre Blueprints."
 %}
@@ -68,7 +72,7 @@ Vamos criar um ator com os seguintes parâmetros para que funcione como controla
 1. Implemente a função *LampadaVisible* para desligar e ligar a iluminação os objetos `Light Point` passados como parâmetro;
 
 {% include imagelocal.html
-    src="unreal/comunicacao/blueprint_light_off_on.webp"
+    src="unreal/comunicacao/urneal-engine-light-off-on.webp"
     alt="Figura: Blueprint - Função para desligar e ligar uma point PointLight Component."
     caption="Figura: Blueprint - Função para desligar e ligar uma point PointLight Component."
 %}
@@ -76,7 +80,7 @@ Vamos criar um ator com os seguintes parâmetros para que funcione como controla
 1. Adicione a variável *Lampada* do tipo `Point Light` e configure `Instance Editable` para `true`;
 
 {% include imagelocal.html
-    src="unreal/comunicacao/blueprint_light_component.webp"
+    src="unreal/comunicacao/urneal-engine-light-component.webp"
     alt="Figura: Blueprint - propriedades do elemento PointLightComponent."
     caption="Figura: Blueprint - propriedades do elemento PointLightComponent."
 %}
@@ -89,8 +93,6 @@ Vamos criar um ator com os seguintes parâmetros para que funcione como controla
 
 ## 2. Comunicação utilizando Acesso direto
 
-***
-
 Nesta passo iremos acessar diretamente o objeto e suas propriedades, usando o evento `OnBeginOverLap` para alterar o estado da lâmpada de ligado para desligado pois o mesmo é passado como parâmetro.  
 
 ### 2.1. Chamando a função LampadaVisible
@@ -98,7 +100,7 @@ Nesta passo iremos acessar diretamente o objeto e suas propriedades, usando o ev
 Criando um referência do objeto é possível acessar a função **LampadaVisible**.
 
 {% include imagelocal.html
-    src="unreal/comunicacao/blueprint_light_overlap.webp"
+    src="unreal/comunicacao/urneal-engine-light-overlap.webp"
     alt="Figura: Blueprint - Lógica da chamada da função usando OnBeginOverLap."
     caption="Figura: Blueprint - Lógica da chamada da função usando OnBeginOverLap."
 %}
@@ -107,16 +109,9 @@ Quando qualquer objeto colidir com o *ControleLuz* a lâmpada ira desligar ou li
 
 ### 2.2. Vídeo Comunicação entre Blueprints
 
-{% include video.html
-    link="https://youtu.be/td6_Nm2tYfc"
-    src="https://img.youtube.com/vi/td6_Nm2tYfc/0.jpg"
-    alt="Comunicação entre Blueprints - Comunicação utilizando Acesso direto - 02 - Unreal Engine."
-    caption="Vídeo: Comunicação entre Blueprints - Comunicação utilizando Acesso direto - 02 - Unreal Engine."
-%}
+{% include video id="td6_Nm2tYfc" provider="youtube" %}
 
 ## 3. Utilizando CAST
-
-***
 
 **CAST** ou conversão é um operador especial que força um tipo de dados a ser convertido em outro.
 
@@ -133,7 +128,7 @@ Para este passo usaremos o evento `OnEndOverlap` para ler todos os objetos que t
 ### 3.1. CAST do objeto PointLight
 
 {% include imagelocal.html
-    src="unreal/comunicacao/blueprint_light_cast_tag.webp"
+    src="unreal/comunicacao/urneal-engine-light-cast-tag.webp"
     alt="Figura:Blueprint - Lógica para pegar todos os objetos com uma determinada tag e chamar uma função usando GetAllActorWithTag e Cast to PointLight."
     caption="Figura:Blueprint - Lógica para pegar todos os objetos com uma determinada tag e chamar uma função usando GetAllActorWithTag e Cast to PointLight."
 %}
@@ -142,16 +137,9 @@ Para este passo usaremos o evento `OnEndOverlap` para ler todos os objetos que t
 
 ### 3.2. Vídeo Comunicação entre Blueprints - Usando Cast 03 Unreal Engine
 
-{% include video.html
-    link="https://youtu.be/VT6uob6UiSQ"
-    src="https://img.youtube.com/vi/VT6uob6UiSQ/0.jpg"
-    alt="Vídeo: Comunicação entre Blueprints - Usando Cast 03 Unreal Engine."
-    caption="Vídeo: Comunicação entre Blueprints - Usando Cast 03 Unreal Engine."
-%}
+{% include video id="VT6uob6UiSQ" provider="youtube" %}
 
 ## 4. Utilizando o objeto Blueprint Interface
-
-***
 
 **Blueprint interface** permite que vários tipos diferentes de objetos compartilhem e sejam acessados através de uma interface comum. Simplificando, as **Blueprint interfaces** permitem que diferentes **Blueprints** compartilhem e enviem dados entre si.
 
@@ -160,7 +148,7 @@ Para este passo usaremos o evento `OnEndOverlap` para ler todos os objetos que t
 Podemos implementar um `Blueprint interface` Utilizando o menu de contexto.
 
 {% include imagelocal.html
-    src="unreal/comunicacao/blueprint_context_menu_interface.webp"
+    src="unreal/comunicacao/urneal-engine-context-menu-interface.webp"
     alt="Figura: Blueprint - Menu > Blueprint Interface."
     caption="Figura: Blueprint - Menu > Blueprint Interface."
 %}
@@ -172,7 +160,7 @@ Crie o objeto com o nome *BPI_Colecionaveis* para que possamos continuar o exemp
 Clicando e abrindo o objeto criado anteriormente perceba que o objeto não tem lógica pois neste caso o objeto funciona como uma ponte para eventos em outros objetos que deverão ter sua própria lógica.
 
 {% include imagelocal.html
-    src="unreal/comunicacao/blueprint_editor_interface.webp"
+    src="unreal/comunicacao/urneal-engine-editor-interface.webp"
     alt="Figura: Blueprint - Editor da function interface."
     caption="Figura: Blueprint - Editor da function interface."
 %}
@@ -190,7 +178,7 @@ Em seguida adicione uma função chamada *Nome* para que possa servir como funç
 1. Uma vez a interface configurada as funções de  *BPI_Colecionaveis* ficarão disponíveis através de eventos.
 
 {% include imagelocal.html
-    src="unreal/comunicacao/blueprint_inteface_function.webp"
+    src="unreal/comunicacao/urneal-engine-inteface-function.webp"
     alt="Figura: Blueprint - Lógica da função Nome com GetObjectName."
     caption="Figura: Blueprint - Lógica da função Nome com GetObjectName."
 %}
@@ -198,7 +186,7 @@ Em seguida adicione uma função chamada *Nome* para que possa servir como funç
 1. Adicione no `Character` jogável *BP_Hero* e implemente a lógica abaixo.
 
 {% include imagelocal.html
-    src="unreal/comunicacao/blueprint_inteface_tracebychannel.webp"
+    src="unreal/comunicacao/urneal-engine-inteface-tracebychannel.webp"
     alt="Figura: Blueprint - Utilizando a função SphereTraceByChannel para capturar objetos e chamar a função nome."
     caption="Figura: Blueprint - Utilizando a função SphereTraceByChannel para capturar objetos e chamar a função nome."
 %}
@@ -214,7 +202,7 @@ Em seguida adicione uma função chamada *Nome* para que possa servir como funç
 1. Implemente a função *ExecutaAcao* com parâmetro *Acao* do tipo `string`, usaremos esse parâmetro para determinar ações que o objeto pode executar;
 
 {% include imagelocal.html
-    src="unreal/comunicacao/blueprint_interface_with_parameter.webp"
+    src="unreal/comunicacao/urneal-engine-interface-with-parameter.webp"
     alt="Figura: Blueprint - Declaração da função com parâmetros."
     caption="Figura: Blueprint - Declaração da função com parâmetros."
 %}
@@ -222,7 +210,7 @@ Em seguida adicione uma função chamada *Nome* para que possa servir como funç
 1. Ao chamar a função é fornecido um valor.
 
 {% include imagelocal.html
-    src="unreal/comunicacao/blueprint_interface_example_call.webp"
+    src="unreal/comunicacao/urneal-engine-interface-example-call.webp"
     alt="Figura: Blueprint - Exemplo da chamada da função com parâmetros."
     caption="Figura: Blueprint - Exemplo da chamada da função com parâmetros."
 %}
@@ -230,7 +218,7 @@ Em seguida adicione uma função chamada *Nome* para que possa servir como funç
 1. Implemente a lógica de tratamento do parâmetro dentro do objeto cadeira ou mesa.
 
 {% include imagelocal.html
-    src="unreal/comunicacao/blueprint_interface_example_event.webp"
+    src="unreal/comunicacao/urneal-engine-interface-example-event.webp"
     alt="Figura: Blueprint - Dentro do objeto podemos chamar o evento para chamar a Interface."
     caption="Figura: Blueprint - Dentro do objeto podemos chamar o evento para chamar a Interface."
 %}
@@ -239,12 +227,7 @@ Podemos melhorar o controle utilizando uma variável `enumeration` para parametr
 
 ### 4.5. Vídeo Comunicação entre Blueprints - Utilizando o objeto Blueprint Interface - 04 - Unreal Engine
 
-{% include video.html
-    link="https://youtu.be/ugqPc5-YQV4"
-    src="https://img.youtube.com/vi/ugqPc5-YQV4/0.jpg"
-    alt="Vídeo: Comunicação entre Blueprints - Utilizando o objeto Blueprint Interface - 04 - Unreal Engine."
-    caption="Vídeo: Comunicação entre Blueprints - Utilizando o objeto Blueprint Interface - 04 - Unreal Engine."
-%}
+{% include video id="ugqPc5-YQV4" provider="youtube" %}
 
 ### 4.6. Event Dispatcher
 
@@ -255,7 +238,7 @@ Vinculando um ou mais eventos a um `Event Dispatcher` , você pode fazer com que
 Esses eventos podem ser vinculados a uma classe **Blueprint**, mas os `Event Dispatchers` também permitem que eventos sejam disparados dentro do `Level Blueprint`.
 
 {% include imagelocal.html
-    src="unreal/comunicacao/blueprint_event_dispatcher.webp"
+    src="unreal/comunicacao/urneal-engine-event-dispatcher.webp"
     alt="Figura: Estrutura do EventDispatcher."
     caption="Figura: Estrutura do EventDispatcher."
 %}
@@ -267,17 +250,17 @@ Esses eventos podem ser vinculados a uma classe **Blueprint**, mas os `Event Dis
 1. No `Event Graph` implementados a chamada do evento utilizando **Call** (Call nome do evento).
 
 {% include imagelocal.html
-    src="unreal/comunicacao/blueprint_call_dispatchers.webp"
+    src="unreal/comunicacao/urneal-engine-call-dispatchers.webp"
     alt="Figura: Blueprint - Exemplo de chamada do evento Bind Event com a função Arremessa Objetos."
     caption="Figura: Blueprint - Exemplo de chamada do evento Bind Event com a função Arremessa Objetos."
 %}
 
 ### 4.8. Lógica dos objetos que vão interagir com o personagem
 
-1. No objeto **BP_Cubo** por exemplo adicionamos referência ao personagem **BP_Hero** usando `cast` para ter acesso ao evento registrado no `dispatcher`;
+1. No objeto **BP-Cubo** por exemplo adicionamos referência ao personagem **BP_Hero** usando `cast` para ter acesso ao evento registrado no `dispatcher`;
 
 {% include imagelocal.html
-    src="unreal/comunicacao/blueprint_dispatchers_bind.webp"
+    src="unreal/comunicacao/urneal-engine-dispatchers-bind.webp"
     alt="Figura: Blueprint - Cast de outro objeto para acessar o Dispatcher registrado dentro desse objeto."
     caption="Figura: Blueprint - Cast de outro objeto para acessar o Dispatcher registrado dentro desse objeto."
 %}
@@ -285,16 +268,11 @@ Esses eventos podem ser vinculados a uma classe **Blueprint**, mas os `Event Dis
 1. Implementamos `Bind Event` do disptacher para  associar um evento a chamada.
 
 {% include imagelocal.html
-    src="unreal/comunicacao/blueprint_add_impulse_example.webp"
+    src="unreal/comunicacao/urneal-engine-add-impulse-example.webp"
     alt="Figura: Blueprint - Adicionando impulso, arremessando os objetos."
     caption="Figura: Blueprint - Adicionando impulso, arremessando os objetos."
 %}
 
 ### 4.9. Vídeo Comunicação entre Blueprints - Event Dispatcher - 05 -  Unreal Engine
 
-{% include video.html
-    link="https://youtu.be/bmxFZH3hFxc"
-    src="https://img.youtube.com/vi/bmxFZH3hFxc/0.jpg"
-    alt="Vídeo: Comunicação entre Blueprints - Event Dispatcher - 05 -  Unreal Engine."
-    caption="Vídeo: Comunicação entre Blueprints - Event Dispatcher - 05 -  Unreal Engine."
-%}
+{% include video id="bmxFZH3hFxc" provider="youtube" %}

@@ -6,6 +6,13 @@ last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
 toc: true  
+categories:
+  - Unreal Engine
+tags:
+  - métodos
+  - funções
+  - macros
+  - blueprint
 ---
 
 ## 1. Entendo Métodos e funções em programação
@@ -92,7 +99,7 @@ Os eventos podem ser acessados dentro do **Blueprints** para implementar novas f
 ### 2.1. Evento de dano  no personagem
 
 {% include imagelocal.html
-    src="unreal/modulos/blueprint_event_damaged.webp"
+    src="unreal/modulos/unreal-engine-event-damaged.webp"
     alt="Figura: Blueprint - Evento de CausaDano."
     caption="Criando um método customizado CausaDano no BP_Hero podemos adicionar a lógica para o tratamento da variável Vida."
 %}
@@ -102,7 +109,7 @@ Os eventos podem ser acessados dentro do **Blueprints** para implementar novas f
 - Pertence a classe *BP_Hero* do tipo `Character`.
 
 {% include imagelocal.html
-    src="unreal/modulos/blueprint_event_damaged_overlap.webp"
+    src="unreal/modulos/unreal-engine-event-damaged-overlap.webp"
     alt="Figura: Chamando o evento OnComponentBeginOverlap."
     caption="Utilizando o evento OnComponentBeginOverlap para acionar o evento CausaDano."
 %}
@@ -174,7 +181,7 @@ void CalculoIMC(float pPeso, float pAltura) {
 ### 3.2. Exemplo de uma função Blueprint
 
 {% include imagelocal.html
-    src="unreal/modulos/blueprint_function_calc_imc.webp"
+    src="unreal/modulos/unreal-engine-function-calc-imc.webp"
     alt="Figura: Blueprint - Exemplo de CalculoIMC."
     caption="A função recebe dois parâmetros e retorna um valor."
 %}
@@ -250,7 +257,7 @@ std::cout << "The minimum is " << MIN(42, 8) << endl;
 ### 4.2. Exemplo de uma macro em Blueprint
 
 {% include imagelocal.html
-    src="unreal/modulos/blueprint_macro_example.webp"
+    src="unreal/modulos/unreal-engine-macro-example.webp"
     alt="Figura: Blueprint - Exemplo Macro."
     caption="Acima a lógica de uma macro."
 %}
@@ -262,7 +269,7 @@ std::cout << "The minimum is " << MIN(42, 8) << endl;
 Usado principalmente para organização de código, escondendo nós da estrutura principal.
 
 {% include imagelocal.html
-    src="unreal/modulos/blueprint_collapse_nodes_example.webp"
+    src="unreal/modulos/unreal-engine-collapse-nodes-example.webp"
     alt="Figura: Blueprint - Exemplo Collapse nodes."
     caption="Selecionando os nós e acionando o menu de contexto (RMB) escolhemos Collapse Nodes."
 %}
@@ -278,7 +285,7 @@ Usado principalmente para organização de código, escondendo nós da estrutura
 ## 6. Executando a função e a macro
 
 {% include imagelocal.html
-    src="unreal/modulos/blueprint_call_function_macro.webp"
+    src="unreal/modulos/unreal-engine-call-function-macro.webp"
     alt="Figura: Blueprint - Exemplo de Call function marco."
     caption="No exemplo acima usamos a função e uma macro."
 %}
@@ -288,13 +295,13 @@ Usado principalmente para organização de código, escondendo nós da estrutura
 ## 7. Eventos predefinidos para causar e receber Dano
 
 {% include imagelocal.html
-    src="unreal/dano/unreal_engine_applydamage.webp"
+    src="unreal/dano/unreal-engine-applydamage.webp"
     alt="Figura: Blueprint - Apply Damage."
     caption="Ao colidir no objeto de controle é acionado o evento Appy Damage para registrar que um dano foi efetuado. O valor do dano é informado como parâmetro."
 %}
 
 {% include imagelocal.html
-    src="unreal/dano/unreal_engine_anydamage.webp"
+    src="unreal/dano/unreal-engine-anydamage.webp"
     alt="Figura: Blueprint - Any Damage."
     caption="A variável vida foi definida no objeto que RECEBE o dano, ao ser acionada."
 %}

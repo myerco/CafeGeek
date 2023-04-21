@@ -17,14 +17,14 @@ tags:
 ## 1. O que são Blueprints e Visual Scripting?
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_blueprint.webp"
+    src="unreal/actor/unreal-engine-blueprint.webp"
     alt="Figura: Unreal Engine com Blueprint"
 %}
 
 O sistema *Blueprints Visual Scripting* no **Unreal Engine** é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nós para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos na *engine* .
 
 {% include imagelocal.html
-    src="unreal/actor/uml_jogos.webp"
+    src="unreal/actor/uml-jogos.webp"
     alt="Figura: Exemplo do conceito de objetos na programação."
     caption="No exemplo acima visualizamos uma classe que pode representar um objeto do tipo gato, com seus atributos e ações."
 %}
@@ -81,7 +81,7 @@ Todo os objetos que estão visíveis em um jogo estão armazenados em um *Level*
 Para criar um *level* utilizamos o menu principal `File` > `New Level`.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_new_level.webp"
+    src="unreal/actor/unreal-engine-new-level.webp"
     alt="Figura: New Level."
     caption="Utilizando o menu podemos criar um novo level ou mapa."
 %}
@@ -89,7 +89,7 @@ Para criar um *level* utilizamos o menu principal `File` > `New Level`.
 Logo em seguida podemos definir um modelo pre-definido para auxiliar na construção do mapa.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_new_level_template.webp"
+    src="unreal/actor/unreal-engine-new-level-template.webp"
     alt="Figura: New Level."
     caption="Apresentando vários modelos prontos para servir como base."
 %}
@@ -107,7 +107,7 @@ Logo em seguida podemos definir um modelo pre-definido para auxiliar na constru�
 Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_save_level.webp"
+    src="unreal/actor/unreal-engine-save-level.webp"
     alt="Figura: Save Current."
     caption="Salva o level aberto."
 %}
@@ -117,7 +117,7 @@ Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
 É possível abrir um  *Level* utilizando `File` > `Open Level`.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_open_level.webp"
+    src="unreal/actor/unreal-engine-open-level.webp"
     alt="Figura: Open Level."
     caption="Abre um level."
 %}
@@ -129,7 +129,7 @@ Um `Level Blueprint` é um tipo especializado de **Blueprint** que atua como um 
 Para editar utilizamos a opção `Blueprints` > `Open Level Blueprint`.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_open_level_blueprint.webp"
+    src="unreal/actor/unreal-engine-open-level-blueprint.webp"
     alt="Figura:  Open Level Blueprint."
     caption="O Level Blueprint contém a lógica que controla todo o mapa."
 %}
@@ -137,7 +137,7 @@ Para editar utilizamos a opção `Blueprints` > `Open Level Blueprint`.
 Para entender como funciona a lógica do *Blueprint* vamos escrever uma mensagem no `ViewPort` utilizando o `Level Blueprint` quando o *level* iniciar utilizaremos o evento `BeginPlay` e conectaremos o nó `Print String` para escrever uma mensagem na tela.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_blueprint_beginplay_printstring.webp"
+    src="unreal/actor/unreal-engine-blueprint-beginplay-printstring.webp"
     alt="Figura: Iniciando o level e escrevendo uma mensagem na tela."
     caption="O nó BeginPlay é executado quando o level é carregado e o nó associado, nó PrintString, e executado."
 %}
@@ -173,7 +173,7 @@ No nível mais fundamental, um ator é qualquer objeto que você pode colocar em
 Para adicionar o ator predefinido na cena utilizamos a opção `Create` e escolhemos o tipo de ator.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_blueprint_place_actors_bar.webp"
+    src="unreal/actor/unreal-engine-blueprint-place-actors-bar.webp"
     alt="Figura: Create > Shapes para criar um objeto poligonal."
     caption="Os objetos são apresentados por categoria, por exemplo, a categoria Lights agrupa todos os atores que implementam algum tipo de emissão de luz, ou a categoria Shapes que agrupa objetos poligonais básicos."
 %}
@@ -181,7 +181,7 @@ Para adicionar o ator predefinido na cena utilizamos a opção `Create` e escolh
 Ou podemos acessar o menu principal `Menu` > `Place Actors` para ter acesso a mais atores.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_place_actors.webp"
+    src="unreal/actor/unreal-engine-place-actors.webp"
     alt="Figura: Windows > Place Actors."
     caption="Esta opção apresenta mais categorias de objetos."
 %}
@@ -193,7 +193,7 @@ Uma classe **Blueprint**, muitas vezes abreviada como Blueprint, é um ativo que
 Para adicionar um ator na cena utilizamos o menu de acesso rápido `Context Menu` e acionando com o botão direito do mouse na aba `Content Drawer` ou o ícone Blueprint na barra de tarefas e escolher `New empty Blueprint Class...`.  
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_context_menu.webp"
+    src="unreal/actor/unreal-engine-context-menu.webp"
     alt="Figura: Get Content."
     caption="O menu exibe uma lista agrupada por tipo de ator ou recurso."
 %}
@@ -201,7 +201,7 @@ Para adicionar um ator na cena utilizamos o menu de acesso rápido `Context Menu
 Escolha de Classe de atores  `Blueprint Class`.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_pick_class.webp"
+    src="unreal/actor/unreal-engine-pick-class.webp"
     alt="Figura: Pick Parent Classe e All Classes."
     caption="Esta opção exibe uma lista das classes mais comuns, como por exemplo, atores básicos. A opção All Classes realiza uma busca por uma determinada classe."
 %}
@@ -215,7 +215,7 @@ Os componentes são úteis para compartilhar comportamentos comuns, como a capac
 Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuário pode implementar as diferenças no controle e movimento do veículo, alterando qual componente um ator do veículo usa.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_add_component.webp"
+    src="unreal/actor/unreal-engine-add-component.webp"
     alt="Figura: Add Components."
     caption="Esta janela exibe a lista de componentes que podem ser associados a uma classe Actor."
 %}
@@ -225,7 +225,7 @@ Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuár
 Para ter acesso aos componentes que estão associados a um determinado objeto utilizamos a aba `My Blueprint`, que é uma representação visual do agrupamento de componentes, funções, variáveis e macros, abaixo um exemplo.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_myblueprint.webp"
+    src="unreal/actor/unreal-engine-myblueprint.webp"
     alt="Figura: Aba My Blueprint."
     caption="Podemos associar várias funções, macros, variáveis ou outros objetos programáveis à classe."
 %}
@@ -261,7 +261,7 @@ Lógica executada na construção do objeto, similares ao eventos *Construtor* e
 #### 6.1.1. Exemplo da lógica de um Construction Script
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_construction_script.webp"
+    src="unreal/actor/unreal-engine-construction-script.webp"
     alt="Figura: Construction Script."
     caption="A lógica acima apresenta uma mensagem ao construir o objeto."
 %}
@@ -274,7 +274,7 @@ Contém o gráfico principal de nós e suas ligações representando a lógica d
 {: .notice--info}
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_event_graph_example.webp"
+    src="unreal/actor/unreal-engine-event-graph-example.webp"
     alt="Figura: Event Graph."
     caption="Exemplo do Event Graph com vários nós."
 %}
@@ -313,7 +313,7 @@ Selecione os nós e digite "C" no teclado para adicionar um comentário.
 ### 7.1. Exemplo de comentário
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_comment_example.webp"
+    src="unreal/actor/unreal-engine-comment-example.webp"
     alt="Figura: Comment Example."
     caption="Adicionando um comentário para documentar a lógica."
 %}
@@ -329,7 +329,7 @@ Podemos adicionar Características aos comentários que detalham melhor a lógic
 Clicando no cabeçalho do comentário temos acesso os seus parâmetros.
 
 {% include imagelocal.html
-    src="unreal/actor/unreal_engine_comment_details.webp"
+    src="unreal/actor/unreal-engine-comment-details.webp"
     alt="Figura: Comment Details."
     caption="Alteramos o texto, cor, tamanho da fonte e como exibir uma mensagem flutuante."
 %}

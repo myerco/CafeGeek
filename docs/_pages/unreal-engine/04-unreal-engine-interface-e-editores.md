@@ -6,6 +6,13 @@ last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
 toc: true  
+sidebar:
+    nav: dev_unreal
+categories:
+  - Unreal Engine
+tags:
+  - interface
+  - editores
 ---
 
 ## 1. Editor de Level
