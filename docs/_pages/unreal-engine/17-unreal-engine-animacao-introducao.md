@@ -5,13 +5,19 @@ permalink: /pages/unreal-engine/animacao-introducao
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
-toc: true 
+toc: true
+categories:
+  - Unreal Engine
+tags:
+  - animação
+  - mappings
+  - movimentação 
 ---
 
 ## 1. Fluxo de trabalho para animação utilizando Unreal Engine
 
 {% include imagelocal.html
-    src="unreal/animacao/unreal_engine_animation.webp"
+    src="unreal/animacao/unreal-engine-animation.webp"
     alt="Figura: Unreal Engine e Animação de personagens."
     caption=""
 %}
@@ -51,7 +57,7 @@ Abaixo uma visão geral técnica do uso do processo de construção de animaçõ
 Embora o formato FBX seja proprietário, muitos aplicativos de modelagem e animação que não são da Autodesk podem abrir arquivos FBX. Isso permite que os criadores compartilhem modelos 3D entre si usando o formato FBX, que é eficiente porque armazena modelos como dados binários. Os arquivos .OBJ, .DXF, .3DS e .DAE (COLLADA) podem ser convertidos em arquivos FBX, usando o Autodesk FBX Converter (disponível para Windows e Mac, mas sem suporte a partir de 2013) ou Autodesk Viewer (Web).[(fileinfo)](https://fileinfo.com/extension/fbx "Fileinfo")
 
 {% include imagelocal.html
-    src="unreal/animacao/unreal_engine_fbx_export_unreal.webp"
+    src="unreal/animacao/unreal-engine-fbx-export-unreal.webp"
     alt="Figura: Arquivo FBX."
     caption="Exportando um modelo 3D do Autodesk Maya para o Unreal."
 %}
@@ -69,7 +75,7 @@ Skeleton ou Esqueleto da malha importada no arquivo FBX contendo controle de mov
 `Physics` - Controle de física e animação dos ossos.
 
 {% include imagelocal.html
-    src="unreal/animacao/unreal_engine_skeleton_mannequim.webp"
+    src="unreal/animacao/unreal-engine-skeleton-mannequim.webp"
     alt="Figura: Editor de esqueleto ou Skeleton."
     caption="Ao abrir um objeto do tipo esqueleto é fornecido um editor específico para a manipulação esse tipo de objeto."
 %}
@@ -88,7 +94,7 @@ Skeleton ou Esqueleto da malha importada no arquivo FBX contendo controle de mov
 Skeletal Mesh ou Malha do esqueleto cobre os ossos para gerenciamento de `LOD` e `clothing` (roupas).
 
 {% include imagelocal.html
-    src="unreal/animacao/unreal_engine_skeletal_mesh_editor.webp"
+    src="unreal/animacao/unreal-engine-skeletal-mesh-editor.webp"
     alt="Figura: Skeletal Mesh."
     caption="Com este editor podemos manipular a malha do esqueleto."
 %}
@@ -119,7 +125,7 @@ Editor para implementação das animações utilizando codificação visual.
 - `Final posse` - `Sequence recorder` e `Animation Sharing manager`.
 
 {% include imagelocal.html
-    src="unreal/animacao/unreal_engine_animgraph.webp"
+    src="unreal/animacao/unreal-engine-animgraph.webp"
     alt="Figura: Editor Anim Graph."
     caption="Adicionamos toda a lógica de animação dos objetos utilizando um apresentação um fluxo de estados ou poses."
 %}
@@ -148,7 +154,7 @@ Editor que permite a edição e montage de animações.
 `Notify Animations` - Adiciona uma etiqueta na `Timeline` da animação.
 
 {% include imagelocal.html
-    src="unreal/animacao/unreal_engine_Blend_Space_1D.webp"
+    src="unreal/animacao/unreal-engine-Blend-Space-1D.webp"
     alt="Figura: Blueprint - Editor Blend Space 1D."
     caption="Podemos sequenciar animações associadas a variáveis possibilitando um fluxo de animações."
 %}
@@ -167,7 +173,7 @@ Editor que permite a edição e montage de animações.
 Neste capitulo vamos preparar e organizar os objetos e elementos necessários, como por exemplo, arquivos FBX, malhas e esqueletos e suas animações. Vamos também importar personagens do site Mixano.
 
 {% include imagelocal.html
-    src="unreal/animacao/unreal_engine_animation_project.webp"
+    src="unreal/animacao/unreal-engine-animation-project.webp"
     alt="Figura: Modelos."
     caption="Podemos baixar vários modelos e importar para o nosso projeto."
 %}
@@ -304,7 +310,7 @@ Para importar a Mesh e Skeletal baixada anteriormente para dentro do Unreal, na 
 **3.** Importe o arquivo com a opção `Import All`:
 
 {% include imagelocal.html
-    src="unreal/animacao/unreal_engine_fbx_import_options.webp"
+    src="unreal/animacao/unreal-engine-fbx-import-options.webp"
     alt="Figura: FBX import options."
     caption="Opções para importar o objeto do tipo FBX."
 %}

@@ -6,6 +6,12 @@ last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
 toc: true 
+categories:
+  - Unreal Engine
+tags:
+  - IA
+  - behavior tree
+  - inteligência articial
 ---
 
 Neste projeto serão apresentados os elementos necessários para a construção de
@@ -16,38 +22,34 @@ simulação de comportamentos, como por exemplo, busca e detecção de jogadores
 Em este passo iremos preparar as pastas, configuração inicial do projeto e *Character* do
 jogador.
 
-1. Criar o projeto AulaIA;
-1. Criar as pastas para organização do projeto:
+**1.** Vamos criar o projeto AulaIA;
 
-    ```c
+**2.** Criar as pastas para organização do projeto:
+
+```cp
       Maps  
       Blueprints  
         Characters
         GameControls
       AI  
-    ```
+```
 
-1. Criar um novo *level* de nome **LevelTeste** e salvar na pasta **Maps**, logo em seguida configure o projeto para que o **levelTeste** seja inicializado ao abrir o projeto:  
+**3.** Criar um novo *level* de nome **LevelTeste** e salvar na pasta **Maps**, logo em seguida configure o projeto para que o **levelTeste** seja inicializado ao abrir o projeto:  
   `Project Settings` > `Maps & Mods`
 
-1. Criar as classes Blueprints:  
+**4.** Criar as classes Blueprints:  
 
-   - **BP_PlayerController** do tipo `PlayerController` ;
+- **BP_PlayerController** do tipo `PlayerController` ;
 
-   - **BP_GameMode** do tipo `GameMode`;
+- **BP_GameMode** do tipo `GameMode`;
 
-   - **BP_PlayerBase** do tipo *Character* (vamos duplicar e utilizar o já existente no projeto);  
+- **BP_PlayerBase** do tipo *Character* (vamos duplicar e utilizar o já existente no projeto);  
 
-1. Configurar `World Settings` adicionando as classes de controle de jogador **BP_PlayerController**, modo do jogo **BP_GameMode** e o personagem **BP_PlayerBase**;
+**5.** Configurar `World Settings` adicionando as classes de controle de jogador **BP_PlayerController**, modo do jogo **BP_GameMode** e o personagem **BP_PlayerBase**;
 
 ### 1.1. Vídeo preparando o projeto de IA
 
-{% include video.html
-  link="https://www.youtube.com/watch?v=XNGknrCy4JM"
-  src="https://img.youtube.com/vi/XNGknrCy4JM/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, preparando o projeto."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, preparando o projeto."
-%}
+{% include video id="XNGknrCy4JM" provider="youtube" %}
 
 ### 1.2. NPC básico
 
@@ -57,109 +59,86 @@ A classe Blueprint **BP_NPC** do tipo *Character* e logo em seguida adicionar a 
 
 ### 1.3. Inteligência Artificial, implementando o NPC
 
-{% include video.html
-  link="https://www.youtube.com/watch?v=3i5omWI6r-U"
-  src="https://img.youtube.com/vi/3i5omWI6r-U/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, implementando o NPC."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, implementando o NPC."
-%}
+{% include video id="3i5omWI6r-U" provider="youtube" %}
 
 ## 2. Árvore de comportamento ou Behaivor Tree
-
-***
 
 Em este passo iremos implementar os elementos necessários para controles de movimentação
 do NPC.
 
-1. Criando as classes Blueprints:
+**1.** Devemos criar as classes Blueprints:
 
-    - BP_NPC_Controller do tipo `AIController`;
+- BP_NPC_Controller do tipo `AIController`;
 
-    - BH_NPC do tipo `Behaivor Tree`;
+- BH_NPC do tipo `Behaivor Tree`;
 
-    - BB_NPC do tipo `Blackboard`;  
+- BB_NPC do tipo `Blackboard`;  
 
-1. A estrutura de controle das classes é a seguinte:  
-  O *Character* tem como controlador o `AIController` que executa a árvore `Behaivor Tree` a qual utiliza o `Blackboard` para a armazenamento de variáveis.  
+**2.** A estrutura de controle das classes é a seguinte: O *Character* tem como controlador o `AIController` que executa a árvore `Behaivor Tree` a qual utiliza o `Blackboard` para a armazenamento de variáveis.  
 
-  **BP_NPC** -> **BP_NPC_Controller** -> (**BH_NPC**  + **BB_NPC**)
+**BP_NPC** -> **BP_NPC_Controller** -> (**BH_NPC**  + **BB_NPC**)
 
-1. Adicionar o componente **NavMeshBoundVolume** para definir fronteiras de movimentação do NPC;
+**3.** Adicionar o componente **NavMeshBoundVolume** para definir fronteiras de movimentação do NPC;
 
-1. Configurando a árvore de comportamento:
+**4.** Configurando a árvore de comportamento:
 
-    - Adicionando o nó de controle `sequence`;
+- Adicionando o nó de controle `sequence`;
 
-    - Adicionar variáveis no `Blackboard` para que possam ser compartilhadas pelas *task* e *services*;  
+- Adicionar variáveis no `Blackboard` para que possam ser compartilhadas pelas *task* e *services*;  
 
-1. Implementando a *task* **LocalizaJogador**:
+**5.** Implementando a *task* **LocalizaJogador**:
 
-   Tarefas (*tasks*) são similares a funções que iniciam e finalizam com comandos específicos;
-   Podem ser adicionados parâmetros do tipo *Blackboard value* para comunicação entre tarefas;
-   Na lógica utilizamos *Get Player Pawn* para obter o objeto *Pawn* instanciado do jogador e logo em seguida o vetor de retorno da função *Get Actor Location* para que possamos atualizar a variável passada como parâmetro;  
+Tarefas (*tasks*) são similares a funções que iniciam e finalizam com comandos específicos;
+
+Podem ser adicionados parâmetros do tipo *Blackboard value* para comunicação entre tarefas;
+
+Na lógica utilizamos *Get Player Pawn* para obter o objeto *Pawn* instanciado do jogador e logo em seguida o vetor de retorno da função *Get Actor Location* para que possamos atualizar a variável passada como parâmetro;  
 
 ### 2.1. VídeoImplementando a árvore de comportamento
 
-{% include video.html
-  link="https://www.youtube.com/watch?v=hpkZEdqbD6o"
-  src="https://img.youtube.com/vi/hpkZEdqbD6o/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, implementando a árvore de comportamento."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, implementando a árvore de comportamento."
-%}
+{% include video id="hpkZEdqbD6o" provider="youtube" %}
 
 ## 3. Movimentação do NPC
-
-***
 
 Neste passo iremos suavizar a movimentação do NPC configurando os controles de rotação.  
 Na classe principal de **BP_NPC**:
 
-1. Na classe principal **BP_NPC** configure `Use Controller Rotation Yaw` = *False* para que o personagem não utilize o controlador na rotação ;
+**1.** Na classe principal **BP_NPC** configure `Use Controller Rotation Yaw` = *False* para que o personagem não utilize o controlador na rotação ;
 
-2. No Componente `CharacterMovement` configure `Rotation Rate` Z=540
-  Aumenta a taxa de rotação;
+**2.** No Componente `CharacterMovement` configure `Rotation Rate` Z=540
 
-3. Em `Orient Rotation to Movement` = *true*  
-  Seu personagem se volta para a direção da viagem. Não importa para que lado a câmera esteja,
+Aumenta a taxa de rotação;
+
+**3.** Em `Orient Rotation to Movement` = *true*  
+
+Seu personagem se volta para a direção da viagem. Não importa para que lado a câmera esteja,
 
 ### 3.1. Vídeo Implementando a movimentação do NPC
 
-{% include video.html
-  link="https://www.youtube.com/watch?v=hpkZEdqbD6o"
-  src="https://img.youtube.com/vi/Q5F0Vr4t0mg/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, implementando a movimentação do NPC."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, implementando a movimentação do NPC."
-%}  
+{% include video id="5F0Vr4t0mg" provider="youtube" %}
 
 #### 3.1.1. Andando aleatoriamente
 
 Neste passo iremos adicionar a lógica para que o NPC caminhe para pontos
 aleatórios.
 
-1. Antes de adicionar a lógica vamos desconectar o nó da árvore **LocalizaJogador**;
+**1.** Antes de adicionar a lógica vamos desconectar o nó da árvore **LocalizaJogador**;
 
-1. No `Blackboard` da árvore adicionamos a variável do tipo *vetor* **LocalizacaoPonto**, usaremos a variável para armazenar as coordenadas do novo ponto de destino;
+**2.** No `Blackboard` da árvore adicionamos a variável do tipo *vetor* **LocalizacaoPonto**, usaremos a variável para armazenar as coordenadas do novo ponto de destino;
 
-1. Localizar um ponto qualquer (randômico) no mapa a partir da posição do jogador;  
+**3.** Localizar um ponto qualquer (randômico) no mapa a partir da posição do jogador;  
 
-  Utilizaremos a função **GetRandomPointInNavigableRadius** com o valor de *Radius* igual a 1500
+Utilizaremos a função **GetRandomPointInNavigableRadius** com o valor de *Radius* igual a 1500
 
-1. Mover-se até o ponto;
+**4.** Mover-se até o ponto;
 
-1. Aguardar 2 segundos;
+**5.** Aguardar 2 segundos;
 
 ### 3.2. Vídeo implementando o movimento aleatório
 
-{% include video.html
-  link="https://www.youtube.com/watch?v=HSle6iTEBQI"
-  src="https://img.youtube.com/vi/HSle6iTEBQI/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, implementando o movimento aleatório."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, implementando o movimento aleatório."
-%}  
+{% include video id="HSle6iTEBQI" provider="youtube" %}
 
 ## 4. Adicionando percepção de visão
-
-***
 
 Para este passo devemos adicionar componentes no personagem **BB_NPC** e implementar
 lógica de detecção do jogador.
@@ -185,12 +164,7 @@ lógica de detecção do jogador.
 
 ### 4.1. Vídeo implementando a percepção ou visão do NPC
 
-{% include video.html
-  link="https://www.youtube.com/watch?v=m7DflYieVE0"
-  src="https://img.youtube.com/vi/m7DflYieVE0/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, implementando a percepção ou visão do NPC."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, implementando a percepção ou visão do NPC."
-%}
+{% include video id="m7DflYieVE0" provider="youtube" %}
 
 #### 4.1.1. Adicionando as condições de percepção na árvore
 
@@ -217,12 +191,7 @@ nós perseguindo jogador e andando aleatoriamente.
 
 ### 4.2. Vídeo implementando a percepção na árvore de comportamento
 
-{% include video.html
-  link="https://www.youtube.com/watch?v=Ge69lptbC2g"
-  src="https://img.youtube.com/vi/Ge69lptbC2g/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, implementando a percepção na árvore de comportamento."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, implementando a percepção na árvore de comportamento."
-%}
+{% include video id="Ge69lptbC2g" provider="youtube" %}
 
 #### 4.2.1. Adicionando o loop da percepção na árvore
 
@@ -234,12 +203,7 @@ para reexecutar os elementos.
 
 ### 4.3. Vídeo implementando a percepção e o loop na árvore de comportamento
 
-{% include video.html
-  link="https://www.youtube.com/watch?v=U9oIU841U44"
-  src="https://img.youtube.com/vi/U9oIU841U44/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, implementando a percepção e o loop na árvore de comportamento."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, implementando a percepção e o loop na árvore de comportamento."
-%}
+{% include video id="U9oIU841U44" provider="youtube" %}
 
 ## 5. Organizando os nós
 
@@ -256,12 +220,7 @@ tarefa retornar *false*. O decorator *loop* deve ser removido.
 
 ### 5.1. Vídeo organizando os nós
 
-{% include video.html
-  link="https://www.youtube.com/watch?v=zoZxqSm42EQ"
-  src="https://img.youtube.com/vi/zoZxqSm42EQ/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, organizando os nós."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, organizando os nós."
-%}
+{% include video id="zoZxqSm42EQ" provider="youtube" %}
 
 ## 6. Mudando velocidade do NPC
 
@@ -274,16 +233,9 @@ e variáveis do NPC;
 
 ### 6.1. Vídeo mudando a velocidade do NPC
 
-{% include video.html
-  link="https://www.youtube.com/watch?v=-pPuWw-CL9o"
-  src="https://img.youtube.com/vi/-pPuWw-CL9o/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, mudando a velocidade do NPC."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, mudando a velocidade do NPC."
-%}
+{% include video id="pPuWw-CL9o" provider="youtube" %}
 
 ## 7. Patrulhamento com ponto de controle 01
-
-***
 
 Nos próximos passos devemos implementar o patrulhamento utilizando pontos de controle.
 
@@ -297,12 +249,7 @@ assim possibilitamos acesso do NPC ao caminho.
 
 ### 7.1. Vídeo implementando patrulhamento e controle 1
 
-{% include video.html
-  link="https://www.youtube.com/watch?v=vKeJ7n9Yf30"
-  src="https://img.youtube.com/vi/vKeJ7n9Yf30/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, implementando patrulhamento e controle 1."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, implementando patrulhamento e controle 1."
-%}
+{% include video id="vKeJ7n9Yf30" provider="youtube" %}
 
 #### 7.1.1. Tarefa para pegar um ponto de patrulhamento
 
@@ -316,12 +263,7 @@ com o parâmetro **PontoDestino** atualizado.
 
 ### 7.2. Vídeo implementando a tarefa para pegar um ponto de patrulhamento
 
-{% include video.html
-  link="https://youtu.be/tx1BoKuQLnw"
-  src="https://img.youtube.com/vi/tx1BoKuQLnw/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, implementando a tarefa para pegar um ponto de patrulhamento."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, implementando a tarefa para pegar um ponto de patrulhamento."
-%}
+{% include video id="tx1BoKuQLnw" provider="youtube" %}
 
 #### 7.2.1. Tarefa para pegar o próximo ponto de controle
 
@@ -334,12 +276,7 @@ para atribuir o valor 0 marcando o início dos pontos ou finalizamos a tarefa.
 
 ### 7.3. Vídeo implementando a tarefa para pegar o próximo ponto de patrulhamento
 
-{% include video.html
-  link="https://youtu.be/_JYS5mGJnMA"
-  src="https://img.youtube.com/vi/_JYS5mGJnMA/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, implementando a tarefa para pegar o próximo ponto de patrulhamento."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, implementando a tarefa para pegar o próximo ponto de patrulhamento."
-%}
+{% include video id="_JYS5mGJnMA" provider="youtube" %}
 
 ## 8. Adicionando Enum para armazenar os estados do NPC
 
@@ -358,12 +295,7 @@ Logo em seguida vamos fazer o seguinte:
 
 2. Implementar uma tarefa **MudaEstadoNPC**  
 
-{% include video.html
-  link="https://youtu.be/TSXPr_P2bfE"
-  src="https://img.youtube.com/vi/TSXPr_P2bfE/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, Adicionando Enum para armazenar os estados do NPC."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, Adicionando Enum para armazenar os estados do NPC."
-%}
+{% include video id="TSXPr_P2bfE" provider="youtube" %}
 
 ### 8.1. Implementando tarefa para mudança de estado
 
@@ -371,12 +303,7 @@ Neste passo vamos implementar uma tarefa para alterar a variável **EstadoNPC** 
 
 ### 8.2. Vídeo implementando tarefa para mudança de estado
 
-{% include video.html
-  link="https://youtu.be/aqrjHEzfGbw"
-  src="https://img.youtube.com/vi/aqrjHEzfGbw/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, Implementando tarefa para mudança de estado."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, Implementando tarefa para mudança de estado."
-%}
+{% include video id="aqrjHEzfGbw" provider="youtube" %}
 
 ## 9. Testando a árvore com pontos de controle e perseguição
 
@@ -388,12 +315,7 @@ Neste passo iremos organizar a árvore e testar o projeto.
 
 ### 9.1. Vídeo testando a árvore com pontos de controle e perseguição
 
-{% include video.html
-  link="https://youtu.be/AiIUC0Itds4"
-  src="https://img.youtube.com/vi/AiIUC0Itds4/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, Testando a árvore com pontos de controle e perseguição."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, Testando a árvore com pontos de controle e perseguição."
-%}
+{% include video id="AiIUC0Itds4" provider="youtube" %}
 
 ## 10. Alerta de distância do jogador
 
@@ -407,9 +329,4 @@ Neste passo iremos implementar um aviso de alerta de proximidade de jogador.
 
 ### 10.1. Vídeo alerta de distância do jogador
 
-{% include video.html
-  link="https://youtu.be/lDSNGngSvfg"
-  src="https://img.youtube.com/vi/lDSNGngSvfg/0.jpg"
-  alt="Vídeo: Unreal Engine - Inteligência Artificial, Alerta de distância do jogador."
-  caption="Vídeo: Unreal Engine - Inteligência Artificial, Alerta de distância do jogador."
-%}
+{% include video id="lDSNGngSvfg" provider="youtube" %}

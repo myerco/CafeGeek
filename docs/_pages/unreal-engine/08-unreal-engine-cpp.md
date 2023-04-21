@@ -6,6 +6,12 @@ last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
 toc: true
+sidebar:
+    nav: dev_unreal
+categories:
+  - Unreal Engine
+tags:
+  - cpp
 ---
 
 ## 1. O C++ e o Unreal Engine
@@ -13,8 +19,6 @@ toc: true
 O **C++** por ter como base de desenvolvimento o **C** tem o benefício da rapidez e da portabilidade para diversas plataformas e ainda permite a implementação de classes, tornando a linguagem em uma boa candidata para o desenvolvimento de projetos com necessidade de velocidade acessando recursos de baixo nível e construção de classes.
 
 O **Unreal Egine** utiliza a linguagem **C++** aproveitando todas as funcionalidades que a linguagem fornece, como por exemplo o gerenciamento otimizado de memória, quanto a implementação a Engine fornece muitos elementos para auxiliar a codificação tornando-a mais fácil, entre eles a utilização de macros e objetos primitivos próprios da Engine.
-
-***
 
 ## 2. Mas quando usar a linguagem  C++?
 
@@ -43,8 +47,6 @@ A resposta é depende do problema mas considere o seguinte:
 - Para equipes pequenas e projetos pequenos é recomendado **Blueprints**;
 
 - Para equipes pequenas com cultura de desenvolvimento e necessidade de processamento é recomendado **C++**.
-
-***
 
 ## 3. O fluxo de desenvolvimento e Herança
 
@@ -100,15 +102,11 @@ class Hugo: Pessoa
       int32 Vida #Error  
 ```
 
-***
-
 ## 4. Polimorfismo em C++
 
 Polimorfismo em linguagens orientadas a objeto, é a capacidade de objetos se comportarem de forma diferenciada em face de suas características ou do ambiente ao qual estejam submetidos, mesmo quando executando ação que detenha, semanticamente, a mesma designação.
 
 O polimorfismo em C++ se apresenta sob diversas formas diferentes, desde as mais simples, como funções com mesmo nome e lista de parâmetros diferentes, até as mais complexas como funções virtuais, cujas formas de execução são dependentes da classe a qual o objeto pertence e são identificadas em tempo de execução.
-
-***
 
 ## 5. Funções virtuais
 
@@ -193,8 +191,6 @@ int main ()
     return 0;
 }
 ```
-
-***
 
 ## 6. Construindo classes C++ no Unreal Engine
 
@@ -325,8 +321,6 @@ protected:
 };
 ```
 
-***
-
 ## 7. Sintaxe da linguagem e C++ e macros do Unreal Engine
 
 A seguir vamos apresentar algumas características de linguagem e as macros que facilitam a implementação em **C++**.
@@ -348,8 +342,6 @@ Esta diretiva é lida pelo pré-processador e ordena que ele insira o conteúdo 
 
 O **Unreal Engine** faz uso extensivo de macros de pré-processador, e algumas dessas macros são definidas (#defined) no arquivo `genrated.h` que acompanha cada `UCLASS`. Se você criar uma `UCLASS` *MyClass*, o arquivo MyClass.h irá incluir (#include) MyClass.generated.h. O cabeçalho gerado, MyClass.generated.h, é feito na parte inicial do processo de construção do **Unreal Engine**.
 
-***
-
 ## 8. Encapsulamento
 
 `Public` – Quando precede uma lista de membros de classe, o  *Public*  palavra-chave especifica que esses membros são acessíveis a partir de qualquer função. Isso se aplica a todos os membros declarados até o próximo especificador de acesso ou o fim da classe. Ou seja visível a todos.
@@ -357,8 +349,6 @@ O **Unreal Engine** faz uso extensivo de macros de pré-processador, e algumas d
 `Private` – Quando precede uma lista de membros de classe, o *Private* palavra-chave especifica que esses membros são acessíveis somente dentro de funções de membro e amigos da classe.  Isso se aplica a todos os membros declarados até o próximo especificador de acesso ou o fim da classe. Ou seja visível somente para membros dentro da classe.
 
 `Protected` – O *Protected* palavra-chave especifica o acesso a membros de classe no lista de membros até o próximo especificador de acesso (pública ou private) ou no final da definição de classe.  O *Protected* é mistura entre *Public* e *Private* ou seja é visível somente para membros da classe e visível para subclasses.
-
-***
 
 ## 9. UCLASS
 
@@ -374,8 +364,6 @@ Os parâmetros descritos no exemplo são os [especificadores](https://docs.unrea
 
 - `BlueprintSpawnableComponent` - Se estiver presente, o componente Class pode ser gerado por um Blueprint.
 - `ClassGroup=GroupName` - Indica que o Navegador de ator do Unreal Editor deve incluir esta classe e qualquer subclasse dessa classe dentro do GroupName especificado quando a Visualização de grupo estiver ativada no Navegador de ator.
-
-***
 
 ## 10. UFUNCTION
 
@@ -393,8 +381,6 @@ void AddActiveTrigger();
 - `BlueprintAuthorityOnly` - Esta função só será executada a partir do código **Blueprint** se for executada em uma máquina com autoridade de rede (um servidor, servidor dedicado ou jogo para um único jogador).
 
 - `BlueprintCallable` - A função pode ser executada em um gráfico **Blueprint** ou Level Blueprint.
-
-***
 
 ## 11. UPROPERTY
 
