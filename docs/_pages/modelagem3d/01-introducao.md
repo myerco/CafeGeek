@@ -6,6 +6,11 @@ last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
 sidebar:
     nav: dev_modelagem3d  
+categories:
+  - Modelagem 3D
+tags:
+  - modelagem 3D
+  - curso
 ---
 
 ## 1. O que é Modelagem de objetos 3D?

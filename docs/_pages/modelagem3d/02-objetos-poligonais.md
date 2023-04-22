@@ -6,6 +6,11 @@ last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
 sidebar:
     nav: dev_modelagem3d  
+categories:
+  - Modelagem 3D
+tags:
+  - autodesk maya
+  - objetos poligonais
 ---
 
 
@@ -356,12 +361,6 @@ Adiciona mais vertices no objeto, possibilitando esolher a quantidade de divisõ
 Suaviza a malha sem adicionar novos vértices.
 
 #### 2.10.2. Visualizando a suavização
-
-{% include image.html
-    src="imagens/autodesk_maya_smooth_view.webp"
-    alt="Figura: Visualizando a suavização"
-    caption="Figura: Utilizando as teclas 1,2 e 3 podemos visualizar como o objeto deve ficar depois de usar Smooth."
-%}
 
 Tecla 1 para visualizar o objeto sem nenhuma divisão;
 

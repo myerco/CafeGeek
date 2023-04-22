@@ -197,13 +197,13 @@ int main ()
 A seguir vamos implementar uma classe **C++** no **Unreal Engine** para tal utilizamos o `Menu Tools` > `New C++ Class`.
 
 {% include imagelocal.html
-    src="unreal/cpp/unreal_engine_create_class_cpp.webp"
+    src="unreal/cpp/unreal-engine-create-class-cpp.webp"
     alt="Figura: Create Class C++"
     caption="Figura: Criando a classe Actor em C++."
 %}
 
 {% include imagelocal.html
-    src="unreal/cpp/unreal_engine_add_class_cpp.webp"
+    src="unreal/cpp/unreal-engine-add-class-cpp.webp"
     alt="Figura: Add C++ Class"
     caption="Figura: Adicionando o nome da classe e informando a pasta de armazenamento do arquivo header e de código."
 %}
