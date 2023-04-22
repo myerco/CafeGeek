@@ -14,7 +14,7 @@ tags:
   - macros
   - blueprint
 ---
-![unreal engine icon](/assets/images/logo/Icon_Unreal_256.png){: .align-left}{{ page.excerpt }}
+![unreal engine icon](/assets/images/logo/Icon_Unreal_64.png){: .align-left}{{ page.excerpt }}
 {: .notice}
 [Intermediário](/collection-archive/){: .btn .btn--warning}
 
