@@ -44,12 +44,18 @@ dev_unreal:
     children:
       - title: Programação com Blueprint
         url: /pages/unreal-engine/blueprint
-      - title: Estruturas de programação
-        url: /pages/unreal-engine/estruturas-programacao
+      - title: Variáveis
+        url: /pages/unreal-engine/variaveis
+      - title: Estruturas de controle de fluxo
+        url: /pages/unreal-engine/estruturas-de-controle-de-fluxo
+      - title: Arrays e Enums
+        url: /pages/unreal-engine/arrays
       - title: Variáveis estruturadas
         url: /pages/unreal-engine/variaveis-estruturadas        
-      - title: A Classe Actor
-        url: /pages/unreal-engine/atores
+      - title: Atores e suas estruturas
+        url: /pages/unreal-engine/atores-estruturas
+      - title: Classe Actor
+        url: /pages/unreal-engine/atores                
       - title: Eventos, funções e macros
         url: /pages/unreal-engine/eventos-funcoes
       - title: Comunicação entre Blueprints
