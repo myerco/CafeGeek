@@ -320,6 +320,8 @@ defaults:
     values:
       layout: single
       author_profile: false
+      header:
+        overlay_color: "#8c8c8c"
   # _docs
   - scope:
       path: "_docs"
