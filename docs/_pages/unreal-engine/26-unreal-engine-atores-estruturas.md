@@ -1,6 +1,6 @@
 ---
 title: Atores e seus componentes
-excerpt: Neste capítulo será apresentado o modelo da lógica de programação utilizando **Blueprint** e os seus elementos.
+excerpt: Neste capítulo serão apresentados os objetos do tipo Actor ou Atores e seus componentes.
 permalink: /pages/unreal-engine/atores-estruturas
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
@@ -13,6 +13,8 @@ tags:
   - Actors
   - Classes
 ---
+
+{{ page.excerpt }}{: .notice}
 
 ## 1. Atores e Classes utilizando Blueprint
 
