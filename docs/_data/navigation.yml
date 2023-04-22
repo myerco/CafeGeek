@@ -36,26 +36,34 @@ dev_unreal:
         url: /pages/unreal-engine/instalacao-configuracao
       - title: Estrutura de pastas
         url: /pages/unreal-engine/estrutura-de-pastas
-      - title: Controle de versão
-        url: /pages/unreal-engine/controle-versao
       - title: Interface e Editores
         url:  /pages/unreal-engine/interface-editores
   - title: PROGRAMAÇÃO
     children:
       - title: Blueprints
         url: /pages/unreal-engine/blueprint
+      - title: Controle de versão
+        url: /pages/unreal-engine/controle-versao        
+  - title: ATORES
       - title: Atores e seus componentes
         url: /pages/unreal-engine/atores-estruturas
-      - title: A Classe Actor
+      - title: Actor, Pawn e Character 
         url: /pages/unreal-engine/atores                
+  - title: VARIÁVEIS E MEMÓRIA
       - title: Variáveis
         url: /pages/unreal-engine/variaveis
-      - title: Controle de fluxo e Repetição
-        url: /pages/unreal-engine/estruturas-de-controle-de-fluxo
-      - title: Arrays e Enums
+      - title: Arrays
         url: /pages/unreal-engine/arrays
-      - title: Variáveis estruturadas
+      - title: Enums
+        url: /pages/unreal-engine/enums
+      - title: Usando Structs
         url: /pages/unreal-engine/variaveis-estruturadas        
+  - title: ESTRUTURAS DE CONTROLE
+      - title: If, Else, Switch e outros
+        url: /pages/unreal-engine/estruturas-if-else-switch
+      - title: Repetição
+        url: /pages/unreal-engine/estruturas-loops
+  - title: EVENTOS
       - title: Eventos, funções e macros
         url: /pages/unreal-engine/eventos-funcoes
       - title: Comunicação entre Blueprints

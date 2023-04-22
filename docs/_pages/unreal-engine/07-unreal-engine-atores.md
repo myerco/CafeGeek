@@ -1,5 +1,5 @@
 ---
-title: A Classe Actor
+title: Actor, Pawn e Character
 excerpt: Neste capitulo serão apresentados e implementados os atores ou Actors do seu projetos.
 permalink: /pages/unreal-engine/atores
 last_modified_at: 2023-03-28T08:48:05-04:00
@@ -26,8 +26,6 @@ Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de 
 É composto por Atributos, componentes, eventos e permitem Herança.
 
 Para entender melhor devemos conceituar e entender o que são classes.
-
-***
 
 ## 2. O que são Classes?
 
