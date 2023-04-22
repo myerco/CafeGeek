@@ -15,6 +15,8 @@ tags:
   - editores
 ---
 
+[Iniciante](/collection-archive/){: .btn .btn--success}
+
 ## 1. Editor de Level
 
 Uma visão geral da interface usada para o design e construção de níveis e ambientes de jogo.
@@ -39,8 +41,6 @@ Uma visão geral da interface usada para o design e construção de níveis e am
 6. World Outliner;
 
 7. Details;
-
-***
 
 ## 2. Editor de Viewports
 
@@ -130,8 +130,6 @@ Explicações para os modos de visualização disponíveis nas viewports.
     caption="Figura: Layout Customization."
     ref="https://docs.unrealengine.com/en-US/Engine/UI/InterfaceOverview/index.html"
 %}
-
-***
 
 ## 3. Play e Simulate
 

@@ -13,6 +13,8 @@ tags:
   - desenvolvimento de jogos
 ---
 
+[Iniciante](/collection-archive/){: .btn .btn--success}
+
 ## 1. Como é o desenvolvimento de jogos digitais?
 
 {% include image.html

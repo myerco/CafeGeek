@@ -1,6 +1,6 @@
 ---
 title: Arrays e Enums
-excerpt: Neste capítulo serão descritas as estruturas de armazenamento, manipulação e fluxo da lógica de programação.
+excerpt: Neste capítulo serão descritos objetos do tipo Enum.
 permalink: /pages/unreal-engine/enums
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
