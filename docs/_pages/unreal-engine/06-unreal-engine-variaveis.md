@@ -3,6 +3,7 @@ title: Variáveis
 excerpt: Neste capítulo serão descritas os tipos de variáveis e sua manipulação.
 permalink: /pages/unreal-engine/variaveis
 last_modified_at: 2023-03-28T08:48:05-04:00
+classes: wipe
 sidebar:
     nav: dev_unreal
 toc: true  
@@ -21,7 +22,7 @@ tags:
 {% include imagelocal.html
     src="unreal/variaveis/unreal-engine-variables.webp"
     alt="Blueprint Variables."
-    caption="Blueprint Variables."
+    caption=""
 %}
 
 Variáveis são estruturas que são utilizadas para armazenar um valor de um determinado tipo na memória do computador.
