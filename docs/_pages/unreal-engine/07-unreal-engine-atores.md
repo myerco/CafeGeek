@@ -1,6 +1,8 @@
 ---
 title: Actor, Pawn e Character
-excerpt: Neste capitulo serão apresentados e implementados os atores ou Actors do seu projetos.
+excerpt: Neste capitulo serão apresentados as classes Actor, Pawn e Character e seus componentes.
+header:
+  overlay_color: "#333"
 permalink: /pages/unreal-engine/atores
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
@@ -17,77 +19,7 @@ tags:
   - Posição coordenadas
 ---
 
-## 1. O que são Actors?
-
-Um ator é qualquer objeto que pode ser colocado em um nível, é uma classe de básica de objetos do **Unreal Engine**, neste capitulo serão apresentados e implementados os atores *Actors* do seu projeto.
-
-**Actors** ou Atores são uma classe genérica que oferece suporte a transformações 3D, como translação, rotação e escala. Atores podem ser criados (gerados) e destruídos por meio de código de jogo (**C++**  ou **Blueprints**). Em **C ++**, **AActor** é a classe base de todos os atores.
-
-É composto por Atributos, componentes, eventos e permitem Herança.
-
-Para entender melhor devemos conceituar e entender o que são classes.
-
-## 2. O que são Classes?
-
-Classes são estruturas de dados que constituem a programação orientada a objetos. Contém seus próprios membros de dados e funções e podem ser acessados e usados criando uma instância de classe.
-
-Classes determinam como os objetos serão quando criados.
-
-Um objeto é uma instância de uma classe. Quando uma classe é definida, nenhuma memória é alocada, mas quando ela é instanciada (ou seja, um objeto é criado), a memória é alocada.
-
-Abaixo vamos apresentar a estrutura hierarquia de classes.
-
-```bash
-├── UObject C++
-|   └── Actor C++
-|       ├── Pawn
-|       |   └── Character
-|       ├── GameMode
-|       └── GameController
-|           ├── PlayerController
-|           └── IAController
-└── UObject C++
-    ├── Actor BP
-    |   └── Pawn BP
-    |       └── Character BP
-    └── GameController BP
-```
-
-### 2.1. Exemplo de implementação utilizando C++
-
-```cpp
-class Hero
-{
-    int iLife=100;
-
-    void SendMessage()
-    {
-        std::cout << "Message in a Bottle";
-    }
-};
-```
-
-### 2.2. Exemplo de implementação em Blueprint
-
-Em **Blueprint** podemos obter os seguintes grupos de classes de atores:
-
-- Actor;
-
-- Pawn ;
-
-- Character;
-
-### 2.3. Utilizando classes com Blueprint
-
-Como citado anteriormente classes são estruturas de dados com eventos, variáveis e componentes.
-
-Para criar uma classe utilizando **Blueprint** acesse o menu de contexto e selecione `Blueprint Class`.
-
-{% include imagelocal.html
-    src="unreal/actor/unreal-engine-pick-class.webp"
-    alt="Figura: Pick Parent Class."
-    caption="Permite selecionar uma classe predefinida para implementação de um nova classe."
-%}
+[Iniciante](/collection-archive/){: .btn .btn--success}
 
 ## 3. Classe Actor
 
