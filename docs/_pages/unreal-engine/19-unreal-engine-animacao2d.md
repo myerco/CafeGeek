@@ -266,7 +266,7 @@ No **Unreal Engine 4**, os `Flipbooks` consistem em uma série de quadros-chave,
 ### 9.1. Extraindo as animações de arquivo
 
 {% include imagelocal.html
-    src="unreal/animacao/samurai-run.wepb"
+    src="unreal/animacao/samurai-run.webp"
     alt="Figura: Arquivo Samurai."
     caption="Para exemplificar vamos utilizar o arquivo acima com um sequência de poses de um personagem."
     ref="https://craftpix.net/freebies/free-samurai-pixel-art-sprite-sheets/"

@@ -541,7 +541,7 @@ Interpola Linearmente entre A e B com base em Alfa (100% de A quando Alfa = 0 e 
 Permite que os vértices de uma malha sejam manipulados no espaço do mundo pelo Material. Isso é útil para fazer objetos se moverem, mudarem de forma, girarem e uma variedade de outros efeitos. Isso é útil para coisas como animação ambiente.
 
 {% include imagelocal.html
-  src="unreal/materiais/unreal-engine-material-world_position-offset.webp"
+  src="unreal/materiais/unreal-engine-material-world-position-offset.webp"
   alt="Figura: World Position Offset."
   caption=" O parâmetro  World position Offset permite manipulação da malha."
 %}
@@ -551,7 +551,7 @@ Os valores do nó Constant Vector 3, representam as coordenadas de posição do 
 Abaixo utilizamos variáveis para "animar" o material e simular movimento na malha.
 
 {% include imagelocal.html
-  src="unreal/materiais/unreal-engine-material-world_position_offset-panner.webp"
+  src="unreal/materiais/unreal-engine-material-world-position-offset-panner.webp"
   alt="Figura: World Position offset."
   caption=" Utilizando a função Panner e uma textura em tons de cinza para alterar as coordenadas da malha."
 %}
