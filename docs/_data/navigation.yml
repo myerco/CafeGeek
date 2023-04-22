@@ -52,6 +52,8 @@ dev_unreal:
         url: /pages/unreal-engine/atores                
       - title: Colisão
         url: /pages/unreal-engine/atores-colisoes
+      - title: Herança
+        url: /pages/unreal-engine/atores-heranca
   - title: VARIÁVEIS E MEMÓRIA
     children:    
       - title: Variáveis
