@@ -2,9 +2,8 @@
 title: Atores e seus componentes
 excerpt: Neste capítulo serão apresentados os objetos do tipo Actor ou Atores e seus componentes.
 header:
-  overlay_image: /assets/images/unreal/unreal_engine.webp
-  caption: "Unreal Engine - Programação"
   overlay_filter: 0.5
+  overlay_color: "#333"
 permalink: /pages/unreal-engine/atores-estruturas
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
