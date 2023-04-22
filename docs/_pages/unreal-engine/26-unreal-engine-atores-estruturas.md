@@ -14,7 +14,8 @@ tags:
   - Classes
 ---
 
-{{ page.excerpt }}{: .notice}
+{{ page.excerpt }}
+{: .notice}
 
 ## 1. Atores e Classes utilizando Blueprint
 
