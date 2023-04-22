@@ -3,6 +3,10 @@ title: Atores e seus componentes
 excerpt: Neste capítulo serão apresentados os objetos do tipo Actor ou Atores e seus componentes.
 header:
     overlay_color: "#333"
+    actions:
+      - label: "Iniciante"
+      - text_color: yellow
+      - url: ""
 permalink: /pages/unreal-engine/atores-estruturas
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
@@ -16,9 +20,7 @@ tags:
   - Classes
 ---
 
-{{ page.excerpt }}
 [Iniciante](https://cafegeek.eti.br/pages/unreal-engine/introducao){: .btn .btn--success}
-{: .notice}
 
 ## 1. Atores e Classes utilizando Blueprint
 
