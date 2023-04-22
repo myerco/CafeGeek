@@ -27,7 +27,7 @@ Você pode definir os atributos de um material, como cor, especularidade, reflet
 Os materiais de superfície representam os tipos de superfícies nas quais você pode mapear texturas. Atributos como brilho, fosco, refletividade, brilho e assim por diante variam entre os diferentes tipos de materiais no Maya. Por exemplo, se a textura exigir uma superfície brilhante, como cromo, use um material `Phong`.
 
 {% include imagelocal.html
-    src="autodesk-maya/autodek-maya-surface-material.webp"
+    src="autodesk-maya/autodesk-maya-surface-material.webp"
     alt="Figura: Surface Material."
     caption="Figura: Menu Assign New Material - Maya > Surface. "
 %}
@@ -47,7 +47,7 @@ Materiais volumétricos descrevem a aparência física de fenômenos que ocupam 
 Para obter uma descrição de materiais volumétricos, consulte [Sobre materiais volumétricos](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2020/ENU/Maya-LightingShading/files/GUID-6FF09EBA-CD7C-45B7-8B49-305D748EE7B4-htm.html).
 
 {% include imagelocal.html
-    src="autodesk-maya/autodek-maya-volumetric-material.webp"
+    src="autodesk-maya/autodesk-maya-volumetric-material.webp"
     alt="Figura: Volumetric Material."
     caption="Figura: Menu Assign New Material - Maya > Volumetric"
 %}
@@ -63,7 +63,7 @@ Para obter uma descrição de materiais volumétricos, consulte [Sobre materiais
 Para criar um material utilize a aba `Create tab`, selecionando o tipo os nós serão construídos no `Work Area`.
 
 {% include imagelocal.html
-    src="autodesk-maya/autodek-maya-material-hypershader-create-material.webp"
+    src="autodesk-maya/autodesk-maya-material-hypershader-create-material.webp"
     alt="Figura: Create material."
     caption="Figura: Crie um material e renomeie para representar o elemento ao qual deve ser aplicado."
 %}
@@ -71,7 +71,7 @@ Para criar um material utilize a aba `Create tab`, selecionando o tipo os nós s
 Ao clicar com o RMB no material listado no `Browser` acionamos o menu de contexto do mateial, pemite abrir os nós do material na `Work Area`.
 
 {% include imagelocal.html
-    src="autodesk-maya/autodek-maya-material-hypershader-open-graph-network.webp"
+    src="autodesk-maya/autodesk-maya-material-hypershader-open-graph-network.webp"
     alt="Figura: RMB open graph network."
     caption="Figura: Podemos listar os nós do material escolhendo a opção Open Graph Network."
 %}
@@ -89,7 +89,7 @@ Status Line: `Rendering` > `Light/Shading` > `Assing New Material`, para criar e
 Status Line: `Rendering` > `Light/Shading` > `Material Attributes`.
 
 {% include imagelocal.html
-    src="autodesk-maya/autodek-maya-material-attibutes1.webp"
+    src="autodesk-maya/autodesk-maya-material-attibutes1.webp"
     alt="Figura: Material Attributes."
     caption="Figura: Apresentando os atributos do material."
 %}
@@ -107,7 +107,7 @@ Status Line: `Rendering` > `Light/Shading` > `Material Attributes`.
 Ao escolher um atributo, color, por exemplo, é possível ligar o material a outro elemento ou material, construindo um fluxo de elementos.
 
 {% include imagelocal.html
-    src="autodesk-maya/autodek-maya-material-attibutes-flow1.webp"
+    src="autodesk-maya/autodesk-maya-material-attibutes-flow1.webp"
     alt="Figura: Material Attributes checker."
     caption="Figura: Atributo checker permite ligar o material a outro elemento."
 %}
@@ -115,7 +115,7 @@ Ao escolher um atributo, color, por exemplo, é possível ligar o material a out
 Usamos os comandos abaixo para navegar pelos elementos dentro do painel de atributos do material.
 
 {% include imagelocal.html
-    src="autodesk-maya/autodek-maya-material-attibutes-flow2.webp"
+    src="autodesk-maya/autodesk-maya-material-attibutes-flow2.webp"
     alt="Figura: Material Attributes next."
     caption="Figura: Próximo e Anterior ícones respectivamente e o ícone apresentando a ligação com outro elemento."
 %}
@@ -189,7 +189,7 @@ Parecido com o Blind mas com mais parâmetros.
 ### 1.10. Usando Normal Map
 
 {% include imagelocal.html
-    src="autodesk-maya/autodek-maya-material-base-color-normal-map.webp"
+    src="autodesk-maya/autodesk-maya-material-base-color-normal-map.webp"
     alt="Figura: Base color Normal Camera."
     caption="Figura: Adicionamos duas texturas em Base Color e Normal Camera, textura completa e outra com as normais calculadas, em seguida usamos aiNormalMap do Arnold."
 %}
@@ -201,7 +201,7 @@ Parecido com o Blind mas com mais parâmetros.
 ### 2.1. Cameras
 
 {% include imagelocal.html
-    src="autodesk-maya/autodek-maya-camera.webp"
+    src="autodesk-maya/autodesk-maya-camera.webp"
     alt="Figura: Create camera."
     caption="Figura: Para criar uma câmera utilize Create > Cameras > Camera Type."
 %}
@@ -281,7 +281,7 @@ A luz preenche uma forma 3D (esfera, cilindro,etc.);
 ### 2.4. Propriedades da luz
 
 {% include imagelocal.html
-    src="autodesk-maya/autodek-maya-material-point-light.webp"
+    src="autodesk-maya/autodesk-maya-material-point-light.webp"
     alt="Figura: Planar mapping options."
     caption="Figura: UV > Planar > Planar Mapping Options >  Escolha uma coordenada X,Y,Z ou Camera para ajustar a textura. "
 %}
@@ -317,7 +317,7 @@ Para mapeamento automático siga os passos a seguir:
 #### 3.1.1. Planar Mapping Options
 
 {% include imagelocal.html
-    src="autodesk-maya/autodek-maya-planar-mapping-options.webp"
+    src="autodesk-maya/autodesk-maya-planar-mapping-options.webp"
     alt="Figura: Planar mapping options."
     caption="Figura: UV > Planar > Planar Mapping Options >  Escolha uma coordenada X,Y,Z ou Camera para ajustar a textura. "
 %}
@@ -325,7 +325,7 @@ Para mapeamento automático siga os passos a seguir:
 #### 3.1.2. Ajustes usando Planar Mapping Options
 
 {% include imagelocal.html
-    src="autodesk-maya/autodek-maya-planar-mapping-options-ajust.webp"
+    src="autodesk-maya/autodesk-maya-planar-mapping-options-ajust.webp"
     alt="Figura: Planar Ajustes."
     caption="Figura: Ajuste as coordenadas da textura clicando no indicador vermelho do objeto. "
 %}
