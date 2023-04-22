@@ -14,8 +14,9 @@ tags:
   - macros
   - blueprint
 ---
-
+{{ page.excerpt }}
 [Intermediário](/collection-archive/){: .btn .btn--warning}
+{: .notice}
 
 ## 1. Entendo Métodos e funções em programação
 
