@@ -34,6 +34,8 @@ dev_unreal:
         url: /pages/unreal-engine/introducao
       - title: Instalação e Configuração
         url: /pages/unreal-engine/instalacao-configuracao
+      - title: Estrutura de pastas
+        url: /pages/unreal-engine/estrutura-de-pastas
       - title: Controle de versão
         url: /pages/unreal-engine/controle-versao
       - title: Interface e Editores
@@ -98,12 +100,6 @@ dev_unreal:
         url: /pages/unreal-engine/introducao
       - title: Niagara
         url: /pages/unreal-engine/introducao
-  - title: PROJETO
-    children:
-      - title: Estrutura
-        url: /pages/unreal-engine/estrutura-do-projeto
-      - title: Atividades
-        url: /docs/etapas-do-projeto/
 
 dev_computacao:
   - title: COMPUTAÇÃO GRÁFICA    
