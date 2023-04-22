@@ -1,6 +1,6 @@
 ---
 title: Blueprints
-excerpt: Neste capítulo será apresentado o modelo da lógica de programação utilizando Blueprints e os seus elementos.
+excerpt: Neste capítulo será apresentado o modelo da lógica de programação utilizando Blueprints.
 permalink: /pages/unreal-engine/blueprint
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
@@ -13,6 +13,8 @@ tags:
   - Actors
   - Classes
 ---
+
+[Iniciante](/collection-archive/){: .btn .btn--success}
 
 ## 1. O que são Blueprints e Visual Scripting?
 

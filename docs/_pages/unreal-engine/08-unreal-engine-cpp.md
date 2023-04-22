@@ -14,6 +14,8 @@ tags:
   - cpp
 ---
 
+[Avançado](/collection-archive/){: .btn .btn--danger}
+
 ## 1. O C++ e o Unreal Engine
 
 O **C++** por ter como base de desenvolvimento o **C** tem o benefício da rapidez e da portabilidade para diversas plataformas e ainda permite a implementação de classes, tornando a linguagem em uma boa candidata para o desenvolvimento de projetos com necessidade de velocidade acessando recursos de baixo nível e construção de classes.

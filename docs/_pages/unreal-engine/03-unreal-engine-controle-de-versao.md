@@ -1,6 +1,6 @@
 ---
 title: Controle de versão
-excerpt: Neste capítulo vamos instalar o **Git Client** com o **GitHub Desktop** para versionamento de arquivos no **Unreal Engine**.
+excerpt: Neste capítulo vamos instalar o **Git Client** com o **GitHub Desktop**.
 permalink: /pages/unreal-engine/controle-versao
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:

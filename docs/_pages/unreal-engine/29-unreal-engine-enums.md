@@ -1,5 +1,5 @@
 ---
-title: Arrays e Enums
+title: Enums
 excerpt: Neste capítulo serão descritos objetos do tipo Enum.
 permalink: /pages/unreal-engine/enums
 last_modified_at: 2023-03-28T08:48:05-04:00
@@ -12,6 +12,8 @@ tags:
   - Blueprint
   - enum
 ---
+
+[Intermediário](/collection-archive/){: .btn .btn--warning}
 
 ## 1. O que são Enums?
 

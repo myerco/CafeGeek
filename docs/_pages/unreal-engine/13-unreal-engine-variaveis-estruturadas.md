@@ -1,5 +1,5 @@
 ---
-title: Variáveis estruturadas
+title: Usando Structs
 excerpt: Neste capitulo vamos explorar o tipo de variável Struct.  
 permalink: /pages/unreal-engine/variaveis-estruturadas
 last_modified_at: 2023-03-28T08:48:05-04:00
@@ -15,6 +15,8 @@ tags:
   - Importando dados
   - .csv
 ---
+
+[Intermediário](/collection-archive/){: .btn .btn--warning}
 
 ## 1. O que são variáveis do tipo Structure?
 

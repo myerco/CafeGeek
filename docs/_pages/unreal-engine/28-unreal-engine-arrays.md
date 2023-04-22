@@ -1,5 +1,5 @@
 ---
-title: Arrays e Enums
+title: Arrays
 excerpt: Neste capítulo serão descritas as variáveis do tipo Array.
 permalink: /pages/unreal-engine/arrays
 last_modified_at: 2023-03-28T08:48:05-04:00
@@ -12,6 +12,8 @@ tags:
   - Blueprint
   - array
 ---
+
+[Avançado](/collection-archive/){: .btn .btn--danger}
 
 ## 1. O que são variáveis do tipo array?
 

@@ -88,12 +88,14 @@ dev_unreal:
         url: /pages/unreal-engine/cpp
       - title: Game Instance, State e Mode
         url: /pages/unreal-engine/gameinstance        
-  - title: MOVIMENTAÇÃO E ANIMAÇÃO
+  - title: MOVIMENTAÇÃO
     children:
       - title: Lógica de Movimentação
         url: /pages/unreal-engine/logica-movimentacao
       - title: Delta time e sistema de coordenadas
         url: /pages/unreal-engine/delta-time-sistema-coordenadas      
+  - title: ANIMAÇÃO
+    children:        
       - title: Animação de personagens
         url: /pages/unreal-engine/animacao-introducao
       - title: Lógica de animação

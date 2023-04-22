@@ -16,6 +16,8 @@ tags:
 date: 2022-09-25 
 ---
 
+[Intermediário](/collection-archive/){: .btn .btn--warning}
+
 ## 1. Lógica de programação do Widget Graph
 
 A lógica de controle de ações dos botões e a inicialização está em `Graph`, onde encontramos alguns eventos já conhecidos como por exemplo `Event Construct` e `Tick`.

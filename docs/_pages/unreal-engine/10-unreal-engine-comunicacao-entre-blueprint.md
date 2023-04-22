@@ -14,6 +14,8 @@ tags:
   - dispatcher
 ---
 
+[Avançado](/collection-archive/){: .btn .btn--danger}
+
 ## 1. Como facilitar a comunicação entre objetos Blueprint?
 
 Construindo um meio para que objetos individuais separados interagirem uns com os outros.  

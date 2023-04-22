@@ -14,6 +14,8 @@ tags:
   - Controle de fluxo
 ---
 
+[Intermediário](/collection-archive/){: .btn .btn--warning}
+
 ## 1. O que são variáveis?
 
 {% include imagelocal.html
