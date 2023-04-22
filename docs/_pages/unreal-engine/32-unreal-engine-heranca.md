@@ -2,7 +2,7 @@
 title: Herança
 excerpt: Neste capitulo será apresentado a estrutura de herança de objetos.
 header:
-  overlay_color: "#d9d9d9"
+  overlay_color: "#8c8c8c"
 permalink: /pages/unreal-engine/atores-heranca
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
