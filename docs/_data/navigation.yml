@@ -45,11 +45,13 @@ dev_unreal:
       - title: Controle de versão
         url: /pages/unreal-engine/controle-versao        
   - title: ATORES
+    children:  
       - title: Atores e seus componentes
         url: /pages/unreal-engine/atores-estruturas
       - title: Actor, Pawn e Character 
         url: /pages/unreal-engine/atores                
   - title: VARIÁVEIS E MEMÓRIA
+    children:    
       - title: Variáveis
         url: /pages/unreal-engine/variaveis
       - title: Arrays
@@ -59,11 +61,13 @@ dev_unreal:
       - title: Usando Structs
         url: /pages/unreal-engine/variaveis-estruturadas        
   - title: ESTRUTURAS DE CONTROLE
+    children:    
       - title: If, Else, Switch e outros
         url: /pages/unreal-engine/estruturas-if-else-switch
       - title: Repetição
         url: /pages/unreal-engine/estruturas-loops
   - title: EVENTOS
+    children:    
       - title: Eventos, funções e macros
         url: /pages/unreal-engine/eventos-funcoes
       - title: Comunicação entre Blueprints
