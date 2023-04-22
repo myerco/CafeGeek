@@ -14,6 +14,8 @@ tags:
   - pastas
 ---
 
+[Iniciante](/collection-archive/){: .btn .btn--success}
+
 ## 1. Entendo as pastas criadas
 
 Após criar o projeto vamos verificar como estão as pastas criadas pela *engine*, utilizando o `explorer` do Windows, navegue até a pasta do projeto para verificar os arquivos criados, devem aparecer as seguintes pastas e arquivos:

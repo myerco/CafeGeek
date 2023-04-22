@@ -15,6 +15,8 @@ tags:
   - blueprint
 ---
 
+[Intermediário](/collection-archive/){: .btn .btn--warning}
+
 ## 1. Entendo Métodos e funções em programação
 
 Para entender melhor a estrutura de programação que representa a construção de eventos e funções vamos abordar alguns conceitos de programação orientada a objetos.
@@ -88,8 +90,6 @@ int main() {
 }
 ```
 
-***
-
 ## 2. O que são Eventos em Blueprint
 
 Os eventos são nós chamados a partir do código do jogo para iniciar a execução de uma rede individual dentro do `EventGraph`. Eles permitem que os **Blueprints** executem uma série de ações em resposta a certos eventos que ocorrem dentro do jogo, como quando o jogo começa, quando um nível é reiniciado ou quando um jogador sofre dano.
@@ -150,8 +150,6 @@ void AProjeto::Tick(float DeltaTime)
 
 };
 ```
-
-***
 
 ## 3. Funções no Unreal Engine
 
@@ -234,8 +232,6 @@ nStatic is 6
 
 "Funções puras têm uma desvantagem crucial. Eles não podem se comunicar com o mundo exterior. Porque funções para entrada e saída, funções para construir um estado ou funções para criar números aleatórios não podem ser puras..."
 
-***
-
 ## 4. Macros
 
 Blueprint Macros, ou Macros, são essencialmente iguais a gráficos de nós recolhidos. Eles têm um ponto de entrada e um ponto de saída designado por nós de túnel. Cada túnel pode ter qualquer número de pinos de execução ou de dados que são visíveis no nó da macro quando usados em outros **Blueprints** e gráficos.
@@ -262,8 +258,6 @@ std::cout << "The minimum is " << MIN(42, 8) << endl;
     caption="Acima a lógica de uma macro."
 %}
 
-***
-
 ## 5. Collapse Nodes
 
 Usado principalmente para organização de código, escondendo nós da estrutura principal.
@@ -280,8 +274,6 @@ Usado principalmente para organização de código, escondendo nós da estrutura
 
 - Vai ser criado um gráfico de eventos próprio.
 
-***
-
 ## 6. Executando a função e a macro
 
 {% include imagelocal.html
@@ -289,8 +281,6 @@ Usado principalmente para organização de código, escondendo nós da estrutura
     alt="Figura: Blueprint - Exemplo de Call function marco."
     caption="No exemplo acima usamos a função e uma macro."
 %}
-
-***
 
 ## 7. Eventos predefinidos para causar e receber Dano
 
