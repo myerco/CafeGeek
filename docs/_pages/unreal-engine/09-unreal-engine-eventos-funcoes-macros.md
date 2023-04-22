@@ -155,6 +155,7 @@ void AProjeto::Tick(float DeltaTime)
 ## 3. Funções no Unreal Engine
 
 São mini programas com as características de alocação de memória, estruturas internas de código e variáveis locais.
+
 Podem receber parâmetros externos e retornam algum valor para o programa que executou a chamada.  
 
 - Tem seu próprio `Event Graph`;
