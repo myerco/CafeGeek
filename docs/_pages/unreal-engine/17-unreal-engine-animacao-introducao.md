@@ -154,7 +154,7 @@ Editor que permite a edição e montage de animações.
 `Notify Animations` - Adiciona uma etiqueta na `Timeline` da animação.
 
 {% include imagelocal.html
-    src="unreal/animacao/unreal-engine-Blend-Space-1D.webp"
+    src="unreal/animacao/unreal-engine-blend-space-1D.webp"
     alt="Figura: Blueprint - Editor Blend Space 1D."
     caption="Podemos sequenciar animações associadas a variáveis possibilitando um fluxo de animações."
 %}

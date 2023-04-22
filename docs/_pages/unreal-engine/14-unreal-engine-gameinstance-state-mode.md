@@ -67,7 +67,7 @@ Podemos definir o `GameMode` por `Level` em `Word Settings`.
 Para definir um `GameMode` para o projeto inteiro utilizamos o Menu `Project` > `Maps & Modes`.
 
 {% include imagelocal.html
-    src="unreal/gamemode/unreal-engine-project_mapsmodes.webp"
+    src="unreal/gamemode/unreal-engine-project-mapsmodes.webp"
     alt="Figura: Blueprint - Project > Maps & Modes."
     caption="GameMode para todo o projeto."
 %}

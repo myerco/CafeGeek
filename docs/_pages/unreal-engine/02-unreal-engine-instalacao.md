@@ -82,7 +82,7 @@ Nesta seção vamos criar um projeto para jogos utilizando **C++**, pois, irá a
 Para construção do projeto podemos clicar no versão disponível na janela do inicializador ou na opção **Inicializar** no campo superior direito, após a inicialização da **Unreal** é necessário selecionar o tipo de projeto para que a *Engine* configure alguns parâmetros iniciais.
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal-engine_select_new_project.webp"
+    src="unreal/projeto/unreal-engine-select-new-project.webp"
     alt="Figura: Unreal 4 - Select or create New Project, Games."
     caption="Selecione a opção Games para construção do projeto."
 %}

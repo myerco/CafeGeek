@@ -321,7 +321,7 @@ Utilizando o Level Blueprint vamos implementar a lógica de movimentação usand
 ### 5.6. Utilizando o evento Tick e TimeLine
 
 {% include imagelocal.html
-    src="unreal/actor/unreal-engine-plataform_timeline_tick.webp"
+    src="unreal/actor/unreal-engine-plataform_timeline-tick.webp"
     alt="Figura: Blueprint - Passando como parâmetro a velocidade e alterando o movimento."
     caption="Com a finalidade de exemplificar podemos utilizar o evento Tick para alterar a velocidade da plataforma."
 %}

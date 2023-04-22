@@ -201,7 +201,7 @@ Utilizando o Explorer navegue até a pasta do projeto e edite o arquivo .gitigno
 Uma vez configurados os projetos nos sistemas **Unreal** e **GitHub Desktop**, podemos confirmar as alterações dos arquivos utilizando o comando `Commit to Master`.
 
 {% include imagelocal.html
-    src="unreal/projeto/unreal-engine-github-desktop-Commit-to-master.webp"
+    src="unreal/projeto/unreal-engine-github-desktop-commit-to-master.webp"
     alt="Figura: Github Desktop Commit to Master."
     caption="A aba Changes lista as mudanças e a descrição da atualização. A aba Current branch apresenta o branch atual."
 %}

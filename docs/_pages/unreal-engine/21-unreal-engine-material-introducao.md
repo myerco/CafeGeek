@@ -337,12 +337,12 @@ Controla como o seu material se mesclará com os pixels por trás dele.
   
 - `BLEND_Translucent` - Cor final = opacidade da cor de origem + cor de destino (1 - opacidade). Este modo de mistura NÃO é compatível com  iluminação dinâmica.
 
-{% include imagelocal.html
+{% include image.html
   src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/TranslucentNetwork.webp"
   alt="Figura: Blueprint Material- Translucent."
 %}
   
-{% include imagelocal.html
+{% include image.html
   src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/TranslucentSetup.webp"
   alt="Figura: [Material BlendModes - Translucent](https://docs.unrealengine.com/4.27/en-US/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/)"
 %}
@@ -369,7 +369,7 @@ Controla como o seu material se mesclará com os pixels por trás dele.
   caption="Modulate."
 %}
 
-{% include imagelocal.html
+{% include image.html
   src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/BlendModes/ModulateScene.webp"
   alt="Figura: Blueprint Material- Modulate 1."
   caption="Modulate"
@@ -380,7 +380,7 @@ Controla como o seu material se mesclará com os pixels por trás dele.
 
 Define como a luz é calculada para a superfície do material.
 
-{% include imagelocal.html
+{% include image.html
     src="https://docs.unrealengine.com/4.27/Images/RenderingAndGraphics/Materials/MaterialProperties/LightingModels/LightingModelProperties.webp"
     alt="Figura: Shading Models."
     caption="Shading Models"
@@ -531,7 +531,7 @@ Ambas as entradas devem ter o mesmo número de valores, a menos que um dos valor
 Interpola Linearmente entre A e B com base em Alfa (100% de A quando Alfa = 0 e 100% de B quando Alfa = 1)
 
 {% include imagelocal.html
-  src="unreal/materiais/ue4_material-lerp-exemplo.webp"
+  src="unreal/materiais/unreal-engine-material-lerp-exemplo.webp"
   alt="Figura: Exemplo de Lerp."
   caption=" A função learp interpola linearmente dois valores, ou seja cria vários valores entre os parâmetros inicial (A) e final (B)."
 %}
@@ -565,13 +565,13 @@ Abaixo utilizamos variáveis para "animar" o material e simular movimento na mal
 Produz apenas Emissivo para cores, tornando-o perfeito para efeitos especiais como fogo ou iluminação de objetos. Observe que, neste exemplo, o Material não está projetando luz na cena. Em vez disso, seu alto valor Emissivo resulta em um efeito de brilho, que também é captado pela Máscara de Sujeira aplicada à câmera. Parece iluminar, mas nenhuma luz ou sombra será projetada por este objeto.
 
 {% include imagelocal.html
-  src="unreal/materiais/ue4_material-properties_unlit.webp"
+  src="unreal/materiais/unreal-engine-material-properties-unlit.webp"
   alt="Figura: Properties Unlit Shading Model."
   caption=" Lógica utilizando Emissive Color com variáveis."
 %}
 
 {% include imagelocal.html
-  src="unreal/materiais/ue4_material-properties-blend-mode-unlit-result.webp"
+  src="unreal/materiais/unreal-engine-material-properties-blend-mode-unlit-result.webp"
   alt="Figura: Material Properties blend Mode Unlit."
   caption=" Resultado do Unlit Shading Model."
 %}
@@ -619,7 +619,7 @@ Parâmetros do nó resultado:
 - `Lighting Mode` - Surface TranslucencyVolume.
 
 {% include imagelocal.html
-  src="unreal/materiais/ue4_material-properties-blend-mode-translucent-result.webp"
+  src="unreal/materiais/unreal-engine-material-properties-blend-mode-translucent-result.webp"
   alt="Figura: Properties blend mode Translucent."
   caption="Resultado do Blend Mode Translucent."
 %}

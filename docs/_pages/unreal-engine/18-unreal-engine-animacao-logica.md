@@ -121,7 +121,7 @@ Salve o objeto com o nome do arquivo `BS_Human` e em Sequencia de animação arr
 ## 5. O que é Animation Blueprint?
 
 {% include imagelocal.html
-    src="unreal/animacao/unreal-engine-animation-animation-blueprint_main.webp"
+    src="unreal/animacao/unreal-engine-animation-animation-blueprint-main.webp"
     alt="Figura: Animation Blueprint Editor."
     caption="Animação e Blueprint."
 %}
@@ -152,13 +152,13 @@ Uma máquina de estados representa uma sequencie lógica de estados associados a
 O nó `Output Pose` é o estado ou pose final da animação. A seguir vamos criar vários nós e a sua lógica.
 
 {% include imagelocal.html
-    src="unreal/animacao/unreal-engine-human_state-base.webp"
+    src="unreal/animacao/unreal-engine-human-state-base.webp"
     alt="Figura: Animation graphs Output Pose."
     caption="No editor Animation Graphs crie o estado Base com Add new state;"
 %}
 
 {% include imagelocal.html
-    src="unreal/animacao/unreal-engine-human_blendspace-1d-state.webp"
+    src="unreal/animacao/unreal-engine-human-blendspace-1d-state.webp"
     alt="Figura: Idle/Walk/Run."
     caption="Dentro do nó criado adicionaremos um novo estado com Add State com o nome Idle/Walk/Run."
 %}
@@ -419,7 +419,7 @@ Um Aim Offset é um recurso que armazena uma série de poses que podem ser combi
 ### 14.1. Animation Starter Pack
 
 {% include imagelocal.html
-    src="unreal/animacao/unreal-engine-animation-starter_pack.webp"
+    src="unreal/animacao/unreal-engine-animation-starter-pack.webp"
     alt="Figura: Adicionando o pacote Animation Starter Pack."
     caption="A Epic Store oferece um pacote de animações para o Mannequin, facilitando a prototipação do personagem utilizando armas de tiro.."
 %}
@@ -447,7 +447,7 @@ Neste passo vamos criar várias animações com o personagem mirando utilizando 
 - `Aim_Center_Down`;
 
 {% include imagelocal.html
-    src="unreal/animacao/unreal-engine-aim_offset_editor.webp"
+    src="unreal/animacao/unreal-engine-aim-offset-editor.webp"
     alt="Figura: Editor Aim Offset."
     caption="Editando a animação para criar novas animações."
 %}

@@ -79,7 +79,7 @@ Utilizando o `Context Menu` escolha a opção `User Interface/Widget Blueprint`.
 
 ### 2.2. Usando o editor de de Widget
 
-![image-left](/assets/images/unreal/unreal/interface-ui-hud/unreal-engine-hud-designer-graph.webp){: .align-left}
+![image-left](/assets/images/unreal/interface-ui-hud/unreal-engine-hud-designer-graph.webp){: .align-left}
 O editor de Widget é divido em :
 
 - `Designer` para apresentação e manipulação de elementos visualmente.

@@ -22,8 +22,6 @@ tags:
 
 Podem ser utilizadas para definir propriedades de um elemento do jogo como por exemplo os personagens.
 
-***
-
 ## 2. Structure e Class
 
 Em **C++**, uma estrutura é realmente a mesma coisa que uma **Class**, exceto por algumas diferenças sintáticas.  
@@ -202,16 +200,8 @@ Logo em seguida devemos definir a estrutura de dados da tabela utilizando o vari
     caption="Figura: Blueprint - Definindo a estrutura da tabela usando Structure e Data Table."
 %}
 
-![image-left](/assets/images/unreal/unreal-engine-datatables-example.webp){: .align-left}
+![image-left](/assets/images/unreal/estruturas/unreal-engine-datatable-example.webp){: .align-left}
 *DTElementos* do tipo `Data Tables`.
-
-{% include imagelocal.html
-    src="unreal/estruturas/unreal-engine-datatables.webp"
-    alt="Figura: Blueprint - Data Table."
-    caption="Figura: Blueprint - Data Table."
-%}
-
-***
 
 ## 6. Inserindo dados no objeto do tipo Data Table
 
@@ -223,8 +213,6 @@ A coluna **RowName** não pode ser repetida, funcionado como identificador únic
     alt="Figura: Blueprint - Exemplo do editor para inserir linhas na tabela."
     caption="Figura: Blueprint - Exemplo do editor para inserir linhas na tabela."
 %}
-
-***
 
 ## 7. Importando dados de um arquivo csv
 
@@ -263,8 +251,6 @@ Os dados serão importados e na aba `Data Table Details` os parâmetros de impor
     alt="Figura: Blueprint - Data Table Details."
     caption="Figura: Blueprint - Data Table Details."
 %}
-
-***
 
 ## 8. Exemplo de utilização de Data Table
 
