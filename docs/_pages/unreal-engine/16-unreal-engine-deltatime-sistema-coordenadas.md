@@ -16,6 +16,8 @@ tags:
   - curves
 ---
 
+[Intermediário](/collection-archive/){: .btn .btn--warning}
+
 Neste capítulo serão apresentados e implementados os elementos de controle de tempo (Delta Time) dentro do **Unreal Engine**, apresentaremos também o funcionamento do sistema de coordenadas dos objetos.
 
 ## 1. O que é Delta Time?
@@ -200,12 +202,7 @@ Quando multiplicamos o valor do `Delta Seconds` pela velocidade do objeto podemo
 
 ### 2.4. Vídeo Delta Seconds e sistema de coordenadas
 
-{% include video.html
-  link="https://youtu.be/gQdT8rah4CU"
-  src="https://img.youtube.com/vi/gQdT8rah4CU/0.jpg"
-  alt="Vídeo: Delta time e sistema de coordenadas. "
-  caption="Utilizando o Delta seconds 02  - Unreal Engine."
-%}
+{% include video id="gQdT8rah4CU" provider="youtube" %}
 
 ## 3. Timeline
 

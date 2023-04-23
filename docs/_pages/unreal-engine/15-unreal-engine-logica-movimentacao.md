@@ -13,6 +13,8 @@ tags:
   - actions mappings
 ---
 
+[Avançado](/collection-archive/){: .btn .btn--danger}
+
 O **Unreal Engine** utiliza `Input Actions` e `Mappings` para associar teclas a ações e eixos de movimentação, separando a lógica da entrada física , neste capítulo vamos implementar a movimentação de objetos utilizando mapeamento de ações e controle de eixos de movimentação.
 
 ## 1. Mapeamento Input do projeto

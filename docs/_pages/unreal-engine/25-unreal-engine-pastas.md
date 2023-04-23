@@ -39,13 +39,13 @@ A seguir vamos entender as pastas do projeto.
 A pasta `Source` contém arquivos com código fonte em **C++** e o arquivo com extensão *uproject* é o principal arquivo do projeto, segue abaixo a configuração inicial.
 
 ```bash
-├── Source
-  ├── ProjetoAula
-  |  ├── ProjetoAula.cpp
-  |  ├── ProjetoAula.h
-  |  └── ProjetoAula.Build.cpp    
-  ├── ProjetoAulaEditor.Target.cs    
-  └── ProjetoAula.Target.cs
+└── Source
+    ├── ProjetoAula
+    |   ├── ProjetoAula.cpp
+    |   ├── ProjetoAula.h
+    |   └── ProjetoAula.Build.cpp    
+    ├── ProjetoAulaEditor.Target.cs    
+    └── ProjetoAula.Target.cs
 ```
 
 ### 1.2. Pasta principal do projeto - Content
@@ -115,25 +115,25 @@ Por conseguinte para um maior gerenciamento pelas equipes do projeto  podemos de
 Primeira Sugestão de organização de pastas no Unreal Engine.
 
 ```bash
-├── Content
-  ├── Blueprints
-  |  ├── Core
-  |  ├── Characters
-  |  └── Elements
-  ├── Assets
-  |  ├── Images
-  |  ├── StructureMesh
-  |  └── Materials
-  ├── Maps
-  |  └── Level1
-  ├── UI
-  └── Animations
+└── Content
+    ├── Blueprints
+    |  ├── Core
+    |  ├── Characters
+    |  └── Elements
+    ├── Assets
+    |  ├── Images
+    |  ├── StructureMesh
+    |  └── Materials
+    ├── Maps
+    |  └── Level1
+    ├── UI
+    └── Animations
 ```
 
 Segunda Sugestão de organização de pastas no Unreal Engine.
 
 ```bash
-├── Content
+└── Content
     ├── Projeto                                         # Pasta principal do projeto
     |   ├── Art
     |   |   ├── Industrial
@@ -141,24 +141,24 @@ Segunda Sugestão de organização de pastas no Unreal Engine.
     |   |   |   ├── Machinery
     |   |   |   └── Pipes
     |   |   ├── Nature
-    |   |   |   ├── Ambient
-    |   |   |   |   ├── Foliage
-    |   |   |   |   ├── Rocks
-    |   |   |   |   └── Trees
+    |   |   |   └── Ambient
+    |   |   |       ├── Foliage
+    |   |   |       ├── Rocks
+    |   |   |       └── Trees
     |   |   └── Office
     |   ├── Characters
     |   |   ├── Human
-    |   |   |   └── BP_Human<Child BP_CharacterBase>    # Classe filho
+    |   |   |   ├── BP_Human<Child BP_CharacterBase>    # Classe filho
     |   |   |   ├── Mesh
     |   |   |   ├── Animations
     |   |   |   └── Audio
     |   |   ├── Mutant
-    |   |   |   └── BP_Mutant<Child BP_CharacterBase>   # Classe filho        
+    |   |   |   ├── BP_Mutant<Child BP_CharacterBase>   # Classe filho        
     |   |   |   ├── Mesh                                # Malha e texturas do personagem       
     |   |   |   ├── Animations
-    |   |   |   |   ├── Logic                           # Animation Blueprint, Blend Space
-    |   |   |   |   |   ├── Base                        # Animações com movimento básico
-    |   |   |   |   |   └── Aim                         # Animações usando uma arma e mirando
+    |   |   |   |   └── Logic                           # Animation Blueprint, Blend Space
+    |   |   |   |       ├── Base                        # Animações com movimento básico
+    |   |   |   |       └── Aim                         # Animações usando uma arma e mirando
     |   |   |   └── Audio                               # Sons do personagem
     |   |   ├── Steve
     |   |   └── Zoe
@@ -200,14 +200,14 @@ Separar a pasta do projeto `Content` de outras pastas pode facilitar e trazer v�
 Exemplo:
 
 ```bash
-├── Content
-  ├── Projeto
-  ├── ProjetoTestes
-  ├── ProjetoArquitetura
-  ├── StarterContent
-  ├── FPS_Assault_Pack
-  └── MaterialLibrary
-      └── M_Master
+└── Content
+    ├── Projeto
+    ├── ProjetoTestes
+    ├── ProjetoArquitetura
+    ├── StarterContent
+    ├── FPS_Assault_Pack
+    └── MaterialLibrary
+        └── M_Master
 ```
 
 ## 3. Configurando o projeto

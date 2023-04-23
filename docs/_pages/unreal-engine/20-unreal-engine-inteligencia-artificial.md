@@ -14,6 +14,8 @@ tags:
   - inteligência articial
 ---
 
+[Avançado](/collection-archive/){: .btn .btn--danger}
+
 Neste projeto serão apresentados os elementos necessários para a construção de
 simulação de comportamentos, como por exemplo, busca e detecção de jogadores bem como configurar o personagem controlado pela IA em diferentes estados de comportamento.
 

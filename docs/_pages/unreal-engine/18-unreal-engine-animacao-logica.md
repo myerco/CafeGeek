@@ -17,6 +17,8 @@ tags:
   - Layered Blend by bool
 ---
 
+[Intermediário](/collection-archive/){: .btn .btn--warning}
+
 ## 1. O que é Blend Space?
 
 {% include imagelocal.html

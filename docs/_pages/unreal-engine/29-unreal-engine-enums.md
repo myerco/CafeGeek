@@ -25,7 +25,7 @@ Exemplo:
 enum cores = { vermelho,amarelo, azul, verde = 20, preto}
 ```
 
-### 1.1. Criando Enums no Unreal Engine e Blueprint
+## 2. Criando Enums no Unreal Engine e Blueprint
 
 {% include imagelocal.html
     src="unreal/enum/unreal-engine-enum-declare.webp"
@@ -41,7 +41,7 @@ Execute o comando no menu de contexto `Blueprints` > `Enumeration` e logo depois
     caption="Objeto criado EN_Estado e EN_Pedra."
 %}
 
-### 1.2. Criando Enums no Unreal Engine e C++
+## 3. Criando Enums no Unreal Engine e C++
 
 Arquivo header.
 
@@ -69,7 +69,7 @@ UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Status)
   TEnumAsByte < EStatusEnum::Status > status;
 ```
 
-### 1.3. Exemplos de uso - A lâmpada
+## 4. Exemplos de uso - A lâmpada
 
 Vamos verificar e alterar o estado de uma lâmpada utilizando uma variável do tipo `boolean`.  
 
@@ -79,7 +79,7 @@ Vamos verificar e alterar o estado de uma lâmpada utilizando uma variável do t
     caption="Lógica para determinar se a lâmpada está ligada ou desligada."
 %}
 
-### 1.4. A lâmpada em C++
+## 5. A lâmpada em C++
 
 ```cpp
 void AFirstPersonBaseCodeCharacter::SetupPlayerInputComponent(class UInputComponent* InputComponent)
@@ -109,7 +109,7 @@ Alterando o componente `PointLight` para ligar e desligar a iluminação.
     caption="Utilizando Flip Flop podemos mudar a propriedade Set Intensity e configurando a variável Ligado para falso ou verdadeiro."
 %}
 
-### 1.5. Arquivo Header da lâmpada em C++
+### 5.1. Arquivo Header da lâmpada em C++
 
 ```cpp
 #pragma once
@@ -223,7 +223,7 @@ void AControlLight::AnyKey()
 
 ```
 
-### 1.6. Verificando o estado utilizando o Enum com Blueprint
+## 6. Verificando o estado utilizando o Enum com Blueprint
 
 {% include imagelocal.html
     src="unreal/enum/unreal-engine-enum-example-lamp-read-state.webp"
@@ -231,7 +231,7 @@ void AControlLight::AnyKey()
     caption="Podemos ler o valor corrente de um Enum acessando diretamente a variável."
 %}
 
-### 1.7. Verificando o estado utilizando o Enum com C++
+## 7. Verificando o estado utilizando o Enum com C++
 
 ```cpp
 // Definindo um status no enum.
@@ -240,7 +240,7 @@ status = EStatusEnum::Ligada;
 UE_LOG(LogTemp, Warning,TEXT("O enum é = %s"), *UEnum::GetValueAsString(status));
 ```
 
-### 1.8. Ligando e desligando utilizando o Enum com Blueprint
+## 8. Ligando e desligando utilizando o Enum com Blueprint
 
 {% include imagelocal.html
     src="unreal/enum/unreal-engine-enum-example-lamp-off.webp"
@@ -248,7 +248,7 @@ UE_LOG(LogTemp, Warning,TEXT("O enum é = %s"), *UEnum::GetValueAsString(status)
     caption="Usamos agora a variável Estado do tipo Enum para configurar o estado da lâmpada."
 %}
 
-### 1.9. Ligando e desligando utilizando o Enum com C++
+## 9. Ligando e desligando utilizando o Enum com C++
 
 ```cpp
 ...
@@ -264,7 +264,7 @@ else {
 }
 ```
 
-### 1.10. Exemplos de uso - A pedra das emoções
+## 10. Exemplos de uso - A pedra das emoções
 
 Vamos verificar e alterar o estado de emocional de uma pedra.
 

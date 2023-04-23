@@ -14,6 +14,8 @@ tags:
   - material instance
 ---
 
+[Intermediário](/collection-archive/){: .btn .btn--warning}
+
 ## 1. O que é Material Instance?
 
 A **Mateial Instance** ou Instanciação de Material é uma maneira de criar um Material pai, que pode então ser usado como base para fazer uma ampla variedade de Materiais filhos de aparência diferente. Para obter essa flexibilidade, o **Material Instancing** usa um conceito chamado herança: as propriedades do pai são fornecidas aos seus filhos. Aqui está um exemplo de herança de material em ação.

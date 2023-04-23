@@ -14,8 +14,7 @@ tags:
   - macros
   - blueprint
 ---
-![unreal engine icon](/assets/images/logo/Icon_Unreal_64.png){: .align-left}{{ page.excerpt }}
-{: .notice}
+
 [Intermediário](/collection-archive/){: .btn .btn--warning}
 
 ## 1. Entendo Métodos e funções em programação

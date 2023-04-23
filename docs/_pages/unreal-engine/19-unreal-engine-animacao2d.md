@@ -13,6 +13,8 @@ tags:
   - Animação 2D
 ---
 
+[Intermediário](/collection-archive/){: .btn .btn--warning}
+
 ## 1. O que é Animação 2D?
 
 Animação em duas dimensões é uma técnica que utiliza sequenciamento de imagens estáticas.

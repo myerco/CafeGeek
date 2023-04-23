@@ -14,6 +14,8 @@ tags:
   - movimentação 
 ---
 
+[Intermediário](/collection-archive/){: .btn .btn--warning}
+
 ## 1. Fluxo de trabalho para animação utilizando Unreal Engine
 
 {% include imagelocal.html

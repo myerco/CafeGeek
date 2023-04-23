@@ -14,6 +14,8 @@ tags:
   - PBR
 ---
 
+[Iniciante](/collection-archive/){: .btn .btn--success}
+
 ## 1. O que é um material?
 
 Podemos definir como uma coleção de imagens e instruções computacionais que são adicionadas a superfícies poligonais. Contudo materiais não são somente cores mas representação de imperfeições da superfície a qual foram aplicadas, como por exemplo, rasuras, aspereza e transparência.

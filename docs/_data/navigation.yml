@@ -64,6 +64,8 @@ dev_unreal:
         url: /pages/unreal-engine/enums
       - title: Usando Structs
         url: /pages/unreal-engine/variaveis-estruturadas        
+      - title: Data Tables
+        url: /pages/unreal-engine/datatables
   - title: ESTRUTURAS DE CONTROLE
     children:    
       - title: If, Else, Switch e outros
@@ -76,18 +78,18 @@ dev_unreal:
         url: /pages/unreal-engine/eventos-funcoes
       - title: Comunicação entre Blueprints
         url: /pages/unreal-engine/comunicacao-blueprint
+      - title: Game Instance, State e Mode
+        url: /pages/unreal-engine/gameinstance        
   - title: INTERFACE COM O JOGADOR
     children:
-      - title: HUD - Interface
+      - title: UI - User Interface
         url: /pages/unreal-engine/hud-interface
       - title: Objetos da interface
         url: /pages/unreal-engine/hud-logica
-  - title: ESTRUTURAS DE DADOS
+  - title: C++
     children:
       - title: Programação C++
         url: /pages/unreal-engine/cpp
-      - title: Game Instance, State e Mode
-        url: /pages/unreal-engine/gameinstance        
   - title: MOVIMENTAÇÃO
     children:
       - title: Lógica de Movimentação
