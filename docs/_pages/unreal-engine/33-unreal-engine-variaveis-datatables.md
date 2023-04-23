@@ -51,9 +51,6 @@ Logo em seguida devemos definir a estrutura de dados da tabela utilizando o vari
    caption=""
 %}
 
-![image-left](/assets/images/unreal/estruturas/unreal-engine-datatable-example.webp){: .align-left}
-*DTElementos* do tipo `Data Tables`.
-
 ## 3. Inserindo dados no objeto do tipo Data Table
 
 Ao abrir o objeto de Data Table é apresentado um editor para manipulação de dados, inserindo, removendo e alterando as linhas.  
