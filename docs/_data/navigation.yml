@@ -176,3 +176,9 @@ dev_modelagem3d:
         url: /pages/modelagem3d/objetos-nurbs
       - title: Materiais
         url: /pages/modelagem3d/materiais
+
+banco_dados:
+  - title: MODELO
+    children:
+      - title: A taberna do Pônei Saltitante
+        url: /pages/banco-dados    

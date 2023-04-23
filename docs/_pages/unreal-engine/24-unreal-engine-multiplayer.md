@@ -20,53 +20,47 @@ Neste capítulo vamos implementar e organização elementos para conexão, repli
 
 ### 1.1. Tipos de Conexão
 
-- A conexão somente é possível com versões do mesmo programa.
+A conexão somente é possível com versões do mesmo programa, isso significa que o cliente e o servidor devem estar sendo usados na mesma versão.
 
 #### 1.1.1. Cliente e Servidor
 
-Programa cliente se conecta através de uma rede a um programa servidor.
-
-Servidor pode ficar somente no atendimento ou pode realizar tarefas
+Considerando a topologia de redes, Cliente/Servidor, onde o programa cliente se conecta através de uma rede a um programa servidor, sendo que o programa servidor pode ficar somente no atendimento ou pode realizar tarefas.
 
 {% include imagelocal.html
     src="unreal/multiplayer/diagrama1.webp"
-    alt="Figura: Unreal Engine - Tipos de conexão - Cliente Servidor."
-    caption="Figura: Unreal Engine - Tipos de conexão - Cliente Servidor."
+    alt="Figura: Tipos de conexão - Cliente Servidor."
+    caption=""
 %}
 
 #### 1.1.2. Ponto a Ponto
 
-Programa cliente se conecta com outro computador ouvindo a rede
-
-Os computadores ficam operantes;
+Neste caso, o programa cliente se conecta com outro computador, não existe o papel de servidor e os computadores ficam operantes trocando informação.
 
 {% include imagelocal.html
     src="unreal/multiplayer/diagrama2.webp"
-    alt="Figura: Unreal Engine - Tipos de conexão - Ponto a Ponto."
-    caption="Figura: Unreal Engine - Tipos de conexão - Ponto a Ponto."
+    alt="Figura: Tipos de conexão - Ponto a Ponto."
+    caption=""
 %}
 
-### 1.2. Implementação no jogo
+## 1.2. Implementação no jogo
 
-- Servidor (Host) - Jogo em modo escuta *listen*;
+No Unreal Engine consideramos a estrutura de Cliente/Servidor e configurando os elementos:
 
-- Cliente - Jogo tem que conectar em um outro através de um endereço de rede;
-
-- Busca servidores;
-
-#### 1.2.1. Exemplo Servidor
+**Servidor (Host)** - Jogo em modo escuta *listen*.
 
 ```sh
   C:\Program Files\UE_4.17\Engine\Binaries\Win64\UE4Editor.exe
   C:\PATH_TO_MY_PROJECT.uproject /Game/ThirdPersonCPP/Maps/ThirdPersonExampleMap -server -log -port=8003
-  ```
+```
 
-#### 1.2.2. Exemplo Cliente
+**Cliente** - Jogo tem que conectar em um outro através de um endereço de rede.
 
 ```sh
 C:\Program Files\UE_4.17\Engine\Binaries\Win64\UE4Editor.exe
 C:\PATH_TO_MY_PROJECT.uproject 192.168.1.90:8003 -game -log
 ```
+
+Por último é necessário configurar dentro do projeto a busca de servidores na rede local ou remota;
 
 ## 2. Executando e configurando o projeto
 
@@ -74,119 +68,114 @@ Para executar o jogo em modo multiplayer utilize o menu principal e acesse a op�
 
 - `Number of Players` : Escolha a quantidade de conexões que o projeto recebera.
 
-- `Net Mode`.
+- `Net Mode` : *Play As Listem Server*, O jogo está sendo executado como um servidor que hospeda uma sessão multijogador em rede. Aceita conexões de clientes remotos e possui players locais diretamente no servidor. Este modo é frequentemente usado para multiplayer competitivo e cooperativo casual.
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer14.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Executando várias instâncias do jogo."
-    caption="Figura: Unreal Engine - Multiplayer, Executando várias instâncias do jogo."
+    alt="Figura:Multiplayer, Executando várias instâncias do jogo."
+    caption=""
 %}
 
 A seguir vamos implementar as estruturas de controle do game `GameMode`, `GameInstance` e `PlayerController`.
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer2.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Implementando estruturas de controle."
-    caption="Figura: Unreal Engine - Multiplayer, Implementando estruturas de controle."
+    alt="Figura:Multiplayer, Implementando estruturas de controle."
+    caption=""
 %}
 
 Criando o `GameInstance`.  
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer3.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Implementando a GameInstance."
-    caption="Figura: Unreal Engine - Multiplayer, Implementando a GameInstance."
+    alt="Figura: Multiplayer, Implementando a GameInstance."
+    caption=""
 %}
 
 Implementando o evento *OpenMenu*.
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer5.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Implementando a chamada do menu do jogo."
-    caption="Figura: Unreal Engine - Multiplayer, Implementando a chamada do menu do jogo."
+    alt="Figura: Multiplayer, Implementando a chamada do menu do jogo."
+    caption=""
 %}
 
 Configurando o projeto com GameInstance.  
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer4.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Configurando a Gameinstance."
-    caption="Figura: Unreal Engine - Multiplayer, Configurando a Gameinstance."
+    alt="Figura: Multiplayer, Configurando a Gameinstance."
+    caption=""
 %}
 
 ## 3. Implementando o menu
 
-Implementando os mapas.  
+Para exemplificar a conexão de rede do projeto, vamos implementar menus para possibilitar a inserção do endereço de rede do servidor, modo do jogo (Cliente ou Servidor) e localizar o jogo na rede.
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer1.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Menu."
-    caption="Figura: Unreal Engine - Multiplayer, Menu."
+    alt="Figura: Criando level Menu"
+    caption=""
 %}
 
 Implementando a lógica de chamada do menu no level *Menu* utilizando o `Open Level Blueprints`.  
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer6.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Chamando o menu com BeginPlay."
-    caption="Figura: Unreal Engine - Multiplayer, Chamando o menu com BeginPlay."
+    alt="Figura: Multiplayer, Chamando o menu com BeginPlay."
+    caption=""
 %}
 
 Implementando o `Widget` WBP_Menu.  
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer8.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Implementando o Widget para o Menu."
-    caption="Figura: Unreal Engine - Multiplayer, Implementando o Widget para o Menu."
+    alt="Figura: Multiplayer, Implementando o Widget para o Menu."
+    caption=""
 %}
 
 Implementando os seguintes elementos do menu.
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer9.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Adicionando botões no menu."
-    caption="Figura: Unreal Engine - Multiplayer, Adicionando botões no menu."
+    alt="Figura: Multiplayer, Adicionando botões no menu."
+    caption="Figura: Multiplayer, Adicionando botões no menu."
 %}
 
 Implementar os eventos para instanciar uma conexão.
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer11.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Lógica Blueprint para criar uma conexão no servidor remoto."
-    caption="Figura: Unreal Engine - Multiplayer, Lógica Blueprint para criar uma conexão no servidor remoto."
+    alt="Figura: Multiplayer, Lógica Blueprint para criar uma conexão no servidor remoto."
+    caption="Figura: Multiplayer, Lógica Blueprint para criar uma conexão no servidor remoto."
 %}
 
 Conectar ao servidor utilizando IP.  
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer10.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Lógica Blueprint para criar uma conexão no servidor remoto por IP."
-    caption="Figura: Unreal Engine - Multiplayer, Lógica Blueprint para criar uma conexão no servidor remoto por IP."
+    alt="Figura: Multiplayer, Lógica Blueprint para criar uma conexão no servidor remoto por IP."
+    caption="Figura: Multiplayer, Lógica Blueprint para criar uma conexão no servidor remoto por IP."
 %}
 
 ### 3.1. Executando o jogo
 
-- Number of Players: Quantidade de conexões
-
-- Net Mode:
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer14.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Play As Listen Server."
-    caption="Figura: Unreal Engine - Multiplayer, Play As Listen Server."
+    alt="Figura: Multiplayer, Play As Listen Server."
+    caption="Configurando o jogo para aceitar duas conexões e executar em modo Servidor."
 %}
 
-  - `Play Offline` - Executa o jogo em modo offline;  
+`Play Offline` - Executa o jogo em modo offline;  
 
-  - `Play As Listen server` - Executa o jogo (tela principal) em modo servidor;  
+`Play As Listen server` - Executa o jogo (tela principal) em modo servidor;  
 
-  - `Play As Client` - Executa o jogo (tela principal) em modo Cliente, iniciando a servidor em outra janela.
-
-- Adicionar dois `PlayerStart`.  
+`Play As Client` - Executa o jogo (tela principal) em modo Cliente, iniciando a servidor em outra janela.
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer12.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Dois PlayerStart."
-    caption="Figura: Unreal Engine - Multiplayer, Dois PlayerStart."
+    alt="Figura: Multiplayer, Dois PlayerStart."
+    caption="Adicionando dois PlayerStart."
 %}
 
 ## 4. Replicação
@@ -207,7 +196,8 @@ Para utilizar a replicação de eventos é necessário criar eventos customizado
 
 - UMG Widgets
 
-"Replicar Movimento" funciona apenas para um componente raiz. Para este recurso, `StaticMeshComponent` deve ser escolhido como "root".  
+Replicar Movimento" funciona apenas para um componente raiz. Para este recurso, `StaticMeshComponent` deve ser escolhido como "root".
+{: .notice--info}  
 
 [replication for moving actor](https://answers.unrealengine.com/questions/836572/replication-for-moving-actor.html?sort=oldest
 )
@@ -228,80 +218,62 @@ Implementando um Blueprints Static Mesh Actor e configurando a replicação do o
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer23.webp"
-    alt="Figura: Unreal Engine - Multiplayer,Static Mesh para o jogo."
-    caption="Figura: Unreal Engine - Multiplayer,Static Mesh para o jogo."
+    alt="Figura: Multiplayer,Static Mesh para o jogo."
+    caption=""
 %}
-
-O componente atachado também deverá ser replicado.  
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer24.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Component Replication."
-    caption="Figura: Unreal Engine - Multiplayer, Component Replication."
+    alt="Figura: Multiplayer, Component Replication."
+    caption=" O componente que associado também deverá ser replicado.  "
 %}
 
 ### 5.1. Implementando a manipulação do objeto pelo personagem
 
-Eventos de entrada de dados (INPUT).
-
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer15.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Lógica Blueprint chamando a ação de segurar."
-    caption="Figura: Unreal Engine - Multiplayer, Lógica Blueprint chamando a ação de segurar."
+    alt="Figura: Multiplayer, Lógica Blueprint chamando a ação de segurar."
+    caption="Eventos de entrada de dados (INPUT)."
 %}
-
-Evento *AcaoDeSegurar*.
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer16.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Lógica Blueprint do evento AcaoDeSegurar."
-    caption="Figura: Unreal Engine - Multiplayer, Lógica Blueprint do evento AcaoDeSegurar."
+    alt="Figura: Multiplayer, Lógica Blueprint do evento AcaoDeSegurar."
+    caption="Lógica para detectar o objeto na frente do jogador."
 %}
-
-Evento *AcaoDeSegurar* continuação.
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer17.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Lógica Blueprint do evento AcaoDeSegurar continuação."
-    caption="Figura: Unreal Engine - Multiplayer, Lógica Blueprint do evento AcaoDeSegurar continuação."
+    alt="Figura: Multiplayer, Lógica Blueprint do evento AcaoDeSegurar continuação."
+    caption=""
 %}
-
-Agarrar objeto, este evento prende o objeto ao personagem.
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer19.webp"
-    alt="[Figura: Unreal Engine - Multiplayer, Lógica Blueprint do evento para prender o objeto."
-    caption="[Figura: Unreal Engine - Multiplayer, Lógica Blueprint do evento para prender o objeto."
+    alt="Figura: Multiplayer, Lógica Blueprint do evento para prender o objeto."
+    caption="Agarrar objeto, este evento prende o objeto ao personagem."
 %}
-
-Evento *Segurando*, este evento utiliza o event tick para alterar a posição do objeto preso ao personagem.
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer18.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Lógica Blueprint do evento para alterar a posição do objeto preso ao personagem."
-    caption="Figura: Unreal Engine - Multiplayer, Lógica Blueprint do evento para alterar a posição do objeto preso ao personagem."
+    alt="Figura: Multiplayer, Lógica Blueprint do evento para alterar a posição do objeto preso ao personagem."
+    caption="Evento *Segurando*, este evento utiliza o event tick para alterar a posição do objeto preso ao personagem."
 %}
-
-Soltando objeto.
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer20.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Lógica Blueprint do evento para soltar o objeto."
-    caption="Figura: Unreal Engine - Multiplayer, Lógica Blueprint do evento para soltar o objeto."
+    alt="Figura: Multiplayer, Lógica Blueprint do evento para soltar o objeto."
+    caption=""
 %}
-
-Ação de arremessar o objeto.
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer22.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Lógica Blueprint da ação que arremessa o objeto."
-    caption="Figura: Unreal Engine - Multiplayer, Lógica Blueprint da ação que arremessa o objeto."
+    alt="Figura: Multiplayer, Lógica Blueprint da ação que arremessa o objeto."
+    caption=""
 %}
-
-Adicionando o objeto simulando um arremesso.
 
 {% include imagelocal.html
     src="unreal/multiplayer/multiplayer21.webp"
-    alt="Figura: Unreal Engine - Multiplayer, Lógica Blueprint simulando o arremesso."
-    caption="Figura: Unreal Engine - Multiplayer, Lógica Blueprint simulando o arremesso."
+    alt="Figura: Multiplayer, Lógica Blueprint simulando o arremesso."
+    caption=""
 %}

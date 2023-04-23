@@ -5,7 +5,7 @@ permalink: /pages/banco-dados/
 last_modified_at: 2023-03-29T08:48:05-04:00
 toc: true  
 sidebar:
-    nav: dev_game  
+    nav: banco_dados  
 ---
 
 ## 1. Conhecendo a Taberna
