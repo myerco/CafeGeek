@@ -11,3 +11,9 @@ Em alguns jogos o personagem pode realizar uma serie de interações com os obje
 
 A seguir vamos apresentar uma lógica para encontrar o objeto, manter segurado e arremessá-lo.
 
+{% include iframe.html
+    src="https://blueprintue.com/render/5tm72obo/"
+    title="Cafegeek - Segurando um objeto da cena"
+    caption="Lógica para segurar e manter preso um objeto do tipo Grab na frente do jogador."
+    ref="https://blueprintue.com/render/5tm72obo/"
+%}
