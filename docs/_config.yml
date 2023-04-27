@@ -313,6 +313,7 @@ defaults:
       comments: # true
       share: true
       related: true
+      toc: true        
   # _pages
   - scope:
       path: "_pages"
@@ -321,7 +322,6 @@ defaults:
       layout: single
       author_profile: false
       share: true
-      toc: true  
       #header:
       #  overlay_color: "#8c8c8c"
       #  teaser: /assets/images/unreal/unreal_engine.webp
