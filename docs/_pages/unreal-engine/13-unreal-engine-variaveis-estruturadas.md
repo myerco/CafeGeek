@@ -127,7 +127,7 @@ Quanto necessitamos atualizar as variáveis que estão contidas dentro de uma es
 {% include iframe.html
     src="https://blueprintue.com/render/3hzx4m-2/"
     title="Cafegeek - Usando e atualizando variáveis do tipo Struct"
-    caption="Para atualizar a variável usamos Set Members in <Variável>."
+    caption="Para atualizar a variável usamos Set Members in..."
     ref="https://blueprintue.com/render/3hzx4m-2/"
 %}
 
