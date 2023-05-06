@@ -120,11 +120,28 @@ Para acessar as variáveis que estão dentro da objeto do tipo `Structure` vamos
     caption="Usamos esse nó para acessar as variáveis dentro da estrutura."
 %}
 
-### 3.3. Exemplo do uso de variáveis Structure
+### 3.3. Atualizando as variáveis
+
+Quanto necessitamos atualizar as variáveis que estão contidas dentro de uma estrutura, podemos selecionar o variável e arrastar a conexão para abrir a lista de seleção de objetos e funções relacionados e selecionamos `Set Members`.
+
+{% include iframe.html
+    src="https://blueprintue.com/render/3hzx4m-2/"
+    title="Cafegeek - Usando e atualizando variáveis do tipo Struct"
+    caption="Para atualizar a variável usamos Set Members in <Variável>."
+    ref="https://blueprintue.com/render/3hzx4m-2/"
+%}
+
+Info - Variável SLights do tipo `Struct`.
+
+Info.Status - Variável `enum` com os valores LightOn e LightOff.
+
+Set Members in SLights - Função para atualização as variáveis membro de uma estrutura, SLights.
+
+### 3.4. Exemplo do uso de variáveis Structure
 
 Para exemplificar a utilização de variáveis `Structure` vamos implementar um level onde os elementos serão construídos dinamicamente, para tal vamos utilizar uma *Array* de objetos do tipo `Point Light Component` para que possam ser adicionados na cena no momento de construção do objeto.
 
-#### 3.3.1. Criando o objeto SControleLuzes
+#### 3.4.1. Criando o objeto SControleLuzes
 
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-variable-2.webp"
@@ -132,7 +149,7 @@ Para exemplificar a utilização de variáveis `Structure` vamos implementar um 
     caption="Figura: Blueprint - Exemplo do objeto SControleLuzes."
 %}
 
-#### 3.3.2. Lógica para construir os elementos na cena
+#### 3.4.2. Lógica para construir os elementos na cena
 
 **1.** Crie um `level` utilizando o modelo `default`;
 
