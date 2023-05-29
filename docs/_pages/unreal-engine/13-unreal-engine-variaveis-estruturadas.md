@@ -127,15 +127,15 @@ Quanto necessitamos atualizar as variáveis que estão contidas dentro de uma es
 {% include iframe.html
     src="https://blueprintue.com/render/3hzx4m-2/"
     title="Cafegeek - Usando e atualizando variáveis do tipo Struct"
-    caption="Para atualizar a variável usamos Set Members in..."
+    caption="Para atualizar a variável usamos Set Members in."
     ref="https://blueprintue.com/render/3hzx4m-2/"
 %}
 
-Info - Variável SLights do tipo `Struct`.
+**Info** - Variável SLights do tipo `Struct`;
 
-Info.Status - Variável `enum` com os valores LightOn e LightOff.
+**Info.Status** - Variável `enum` com os valores LightOn e LightOff;
 
-Set Members in SLights - Função para atualização as variáveis membro de uma estrutura, SLights.
+**Set Members in SLights** - Função para atualização as variáveis membro de uma estrutura, SLights.
 
 ### 3.4. Exemplo do uso de variáveis Structure
 
@@ -145,8 +145,8 @@ Para exemplificar a utilização de variáveis `Structure` vamos implementar um 
 
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-variable-2.webp"
-    alt="Figura: Blueprint - Exemplo do objeto SControleLuzes."
-    caption="Figura: Blueprint - Exemplo do objeto SControleLuzes."
+    alt="Figura: Exemplo do objeto SControleLuzes."
+    caption=""
 %}
 
 #### 3.4.2. Lógica para construir os elementos na cena
@@ -157,26 +157,26 @@ Para exemplificar a utilização de variáveis `Structure` vamos implementar um 
 
 **3.** Adicionar as variáveis :
 
-- **Luzes** - *Array* de tipo `Point Light Component`;
+**Luzes** - *Array* de tipo `Point Light Component`;
 
-- **ControLuzes** - *Array* de tipo `SControleLuzes`;
+**ControLuzes** - *Array* de tipo `SControleLuzes`;
 
-- **Total_luzes** : Integer.
+**Total_luzes** : Integer.
 
 **4.** Na construção do objeto (*Construction Script*) adicionamos elementos `Point light component` na cena e logo em seguida no array *Luzes*.  
 
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-loop-array-structures.webp"
-    alt="Figura: Blueprint - Lógica que adiciona os elementos em um array do mesmo tipo (PointLightComponent)."
-    caption="Figura: Blueprint - Lógica que adiciona os elementos em um array do mesmo tipo (PointLightComponent)."
+    alt="Figura: Lógica que adiciona os elementos em um array do mesmo tipo (PointLightComponent)."
+    caption=""
 %}
 
 **5.** Ao terminar o primeiro `loop` reconstruímos o *array* de controle *ControLuzes* e o percorremos em conjunto com o array *luzes* para configurar as propriedades dos elementos.  
 
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-loop-set-struct.webp"
-    alt="Figura: Blueprint - Lógica que altara as propriedades dos objetos do array."
-    caption="Figura: Blueprint - Lógica que altara as propriedades dos objetos do array."
+    alt="Figura: Lógica que altara as propriedades dos objetos do array."
+    caption=""
 %}
 
 **6.** Adicione o elemento **BP_ControleLuzes** na cena para visualizar as luzes sendo construídas.
