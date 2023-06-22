@@ -1,5 +1,5 @@
 ---
-title: Jogos Digitais
+title: Desenvolvimento de Jogos
 permalink: /jogos-digitais
 classes: wide
 header:
@@ -15,7 +15,7 @@ feature_row:
     url: "/about/jogos-digitais"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
-  - image_path: /assets/images/jogatina-das-decadas/jogatina_das_decadas.webp
+  - image_path: /assets/images/jogatina-das-decadas/juliane-liebermann-okBa2fFynvs-unsplash.webp
     alt: "A Jogatina das décadas"
     title: "A Jogatina das décadas"
     excerpt: "O objetivo deste curso é apresentar as características e elementos associados aos jogos eletrônicos."
