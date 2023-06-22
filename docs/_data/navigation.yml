@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: /
   - title: "Desenvolvimento de Jogos"
-    url:  /about/jogos-digitais
+    url:  /jogos-digitais
   - title: "Banco de Dados"
     url: /pages/banco-dados    
   - title: "Documentos"
