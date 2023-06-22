@@ -43,7 +43,7 @@ feature_row:
     url: "/pages/computacao-grafica/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"          
-  - image_path: /assets/images/sigmund-By-tZImt0Ms-unsplash.jpg
+  - image_path: /assets/images/autodesk-maya/siednji-leon-IFNZW4TGYxA-unsplash.webp
     alt: "Modelagem 3D"
     title: "Modelagem 3D"
     excerpt: "Objetivo deste curso é apresentar e construir elementos na ferramenta de modelagem artística 3D Autodesk Maya."
