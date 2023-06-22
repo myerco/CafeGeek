@@ -22,7 +22,7 @@ feature_row:
     url: "/pages/a-jogatina-das-decadas/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
-  - image_path: /assets/images/unreal/unreal_engine.webp
+  - image_path: /assets/images/unreal/um-homem-em-um-terno-de-neon-esta-sentado-em-uma-cadeira-com-um-letreiro-de-neon-que-diz-a-palavra.webp
     alt: "Unreal Engine com C++ e Blueprint"
     title: "Unreal Engine com C++ e Blueprint"
     excerpt: "Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando Blueprints e C++."
