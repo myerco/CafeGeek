@@ -36,14 +36,14 @@ feature_row:
     url: "/pages/me-conta-uma-historia/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"      
-  - image_path: /assets/images/jogos-digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp
+  - image_path: /assets/images/computacao-grafica/sebastian-svenson-d2w-_1LJioQ-unsplash.webp
     alt: "Computação gráfica"
     title: "Computação gráfica"
     excerpt: "Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya."
     url: "/pages/computacao-grafica/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"          
-  - image_path: /assets/images/autodesk-maya/siednji-leon-IFNZW4TGYxA-unsplash.webp
+  - image_path: /assets/images/autodesk-maya/mo-NhYj5-Ib7ik-unsplash.webp
     alt: "Modelagem 3D"
     title: "Modelagem 3D"
     excerpt: "Objetivo deste curso é apresentar e construir elementos na ferramenta de modelagem artística 3D Autodesk Maya."
