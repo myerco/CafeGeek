@@ -22,13 +22,6 @@ feature_row:
     url: "/pages/a-jogatina-das-decadas/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
-  - image_path: /assets/images/unreal/um-homem-em-um-terno-de-neon-esta-sentado-em-uma-cadeira-com-um-letreiro-de-neon-que-diz-a-palavra.webp
-    alt: "Unreal Engine com C++ e Blueprint"
-    title: "Unreal Engine com C++ e Blueprint"
-    excerpt: "Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando Blueprints e C++."
-    url: "/pages/unreal-engine/introducao"
-    btn_class: "btn--primary"
-    btn_label: "Saber mais"
   - image_path: /assets/images/jogos-digitais/etienne-girardet-EP6_VZhzXM8-unsplash.webp
     alt: "Me conta uma história"
     title: "Me conta uma história"
@@ -36,6 +29,13 @@ feature_row:
     url: "/pages/me-conta-uma-historia/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"      
+  - image_path: /assets/images/unreal/um-homem-em-um-terno-de-neon-esta-sentado-em-uma-cadeira-com-um-letreiro-de-neon-que-diz-a-palavra.webp
+    alt: "Unreal Engine com C++ e Blueprint"
+    title: "Unreal Engine com C++ e Blueprint"
+    excerpt: "Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando Blueprints e C++."
+    url: "/pages/unreal-engine/introducao"
+    btn_class: "btn--primary"
+    btn_label: "Saber mais"
   - image_path: /assets/images/computacao-grafica/sebastian-svenson-d2w-_1LJioQ-unsplash.webp
     alt: "Computação gráfica"
     title: "Computação gráfica"
