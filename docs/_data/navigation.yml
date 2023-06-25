@@ -14,9 +14,6 @@ main:
     url: /about/
 
 dev_game:
-  - title: "Capítulo 1"
-    image: /assets/images/unreal/unreal_engine.webp
-    image_alt: "Unreal Engine - Capítulo 1"
   - title: Unreal Engine
     url: /pages/unreal-engine/introducao  
   - title: Modelagem 3D
@@ -33,6 +30,9 @@ dev_game:
     url: /pages/trabalhos/
 
 dev_unreal:
+  - title: "Capítulo 1"
+    image: /assets/images/unreal/unreal_engine.webp
+    image_alt: "Unreal Engine - Capítulo 1"
   - title: INTRODUÇÃO
     children:
       - title: Desenvolvimento de jogos
