@@ -180,6 +180,8 @@ dev_jogatina:
         url: /pages/a-jogatina-das-decadas/introducao    
       - title: O jogo
         url: /pages/a-jogatina-das-decadas/o-jogo
+      - title: Quem Joga?
+        url: /pages/a-jogatina-das-decadas/quem-joga
       - title: Jogos Eletrônicos
         url: /pages/a-jogatina-das-decadas/jogos-eletronicos        
       - title: O comportamento
