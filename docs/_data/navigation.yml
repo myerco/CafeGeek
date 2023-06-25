@@ -60,6 +60,15 @@ dev_unreal:
     children:    
       - title: Variáveis
         url: /pages/unreal-engine/variaveis
+  - title: ESTRUTURAS DE CONTROLE
+    children:    
+      - title: If, Else, Switch e outros
+        url: /pages/unreal-engine/estruturas-if-else-switch
+      - title: Repetição
+        url: /pages/unreal-engine/estruturas-loops
+dev_unreal_2:        
+  - title: ESTRUTURAS DE ARMAZENAMENTO
+    children:    
       - title: Arrays
         url: /pages/unreal-engine/arrays
       - title: Enums
@@ -68,12 +77,6 @@ dev_unreal:
         url: /pages/unreal-engine/variaveis-estruturadas        
       - title: Data Tables
         url: /pages/unreal-engine/datatables
-  - title: ESTRUTURAS DE CONTROLE
-    children:    
-      - title: If, Else, Switch e outros
-        url: /pages/unreal-engine/estruturas-if-else-switch
-      - title: Repetição
-        url: /pages/unreal-engine/estruturas-loops
   - title: EVENTOS
     children:    
       - title: Eventos, funções e macros
@@ -82,16 +85,22 @@ dev_unreal:
         url: /pages/unreal-engine/comunicacao-blueprint
       - title: Game Instance, State e Mode
         url: /pages/unreal-engine/gameinstance        
+dev_unreal_3:        
   - title: INTERFACE COM O JOGADOR
     children:
       - title: UI - User Interface
         url: /pages/unreal-engine/hud-interface
       - title: Objetos da interface
         url: /pages/unreal-engine/hud-logica
-  - title: C++
-    children:
-      - title: Programação C++
-        url: /pages/unreal-engine/cpp
+  - title: MATERIAIS E LANDSCAPE
+    children:    
+      - title: Introdução aos Materiais
+        url: /pages/unreal-engine/materiais-introducao
+      - title: Manipulando materiais
+        url: /pages/unreal-engine/materiais-blueprint
+      - title: Iluminação
+        url: /pages/unreal-engine/iluminacao
+dev_unreal_4:        
   - title: MOVIMENTAÇÃO
     children:
       - title: Lógica de Movimentação
@@ -106,22 +115,20 @@ dev_unreal:
         url: /pages/unreal-engine/animacao-logica
       - title: Animação 2d
         url: /pages/unreal-engine/animacao-2d        
+dev_unreal_5:        
   - title: INTELIGÊNCIA ARTIFICIAL      
     children:
       - title: Inteligência Artificial
         url: /pages/unreal-engine/inteligencia-artificial
-  - title: MATERIAIS E LANDSCAPE
-    children:    
-      - title: Introdução aos Materiais
-        url: /pages/unreal-engine/materiais-introducao
-      - title: Manipulando materiais
-        url: /pages/unreal-engine/materiais-blueprint
-      - title: Iluminação
-        url: /pages/unreal-engine/iluminacao
   - title: MULTIPLAYER
     children:
       - title: Multiplayer
         url: /pages/unreal-engine/multiplayer
+dev_unreal_6:        
+  - title: C++
+    children:
+      - title: Programação C++
+        url: /pages/unreal-engine/cpp
 
 dev_computacao:
   - title: COMPUTAÇÃO GRÁFICA    
