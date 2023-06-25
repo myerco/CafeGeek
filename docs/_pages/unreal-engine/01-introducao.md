@@ -5,7 +5,8 @@ permalink: /pages/unreal-engine/introducao
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
     nav: dev_unreal
-    text: Capítulo 1
+    image: /assets/images/unreal/unreal_engine.webp
+    text: "Capítulo 1"
 toc: true  
 categories:
   - Unreal Engine
