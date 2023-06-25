@@ -13,12 +13,10 @@ main:
   - title: "Sobre"
     url: /about/
 
-dev_game_cap:
+dev_game:
   - title: "Capítulo 1"
     image: /assets/images/unreal/unreal_engine.webp
     image_alt: "Unreal Engine - Capítulo 1"
-
-dev_game:
   - title: Unreal Engine
     url: /pages/unreal-engine/introducao  
   - title: Modelagem 3D

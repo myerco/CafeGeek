@@ -4,7 +4,6 @@ excerpt: Aprenda estruturas de desenvolvimento e lógicas de programação, util
 permalink: /pages/unreal-engine/introducao
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_game_cap
     nav: dev_unreal
 toc: true  
 categories:
