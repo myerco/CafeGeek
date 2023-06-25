@@ -31,8 +31,6 @@ dev_game:
 
 dev_unreal:
   - title: "Capítulo 1"
-    image: https://cafegeek.eti.br/assets/images/unreal/unreal_engine.webp
-    image_alt: "Unreal Engine - Capítulo 1"
   - title: INTRODUÇÃO
     children:
       - title: Desenvolvimento de jogos
@@ -69,7 +67,9 @@ dev_unreal:
         url: /pages/unreal-engine/estruturas-if-else-switch
       - title: Repetição
         url: /pages/unreal-engine/estruturas-loops
+
 dev_unreal_2:        
+  - title: "Capítulo 2"
   - title: ESTRUTURAS DE ARMAZENAMENTO
     children:    
       - title: Arrays
@@ -88,7 +88,9 @@ dev_unreal_2:
         url: /pages/unreal-engine/comunicacao-blueprint
       - title: Game Instance, State e Mode
         url: /pages/unreal-engine/gameinstance        
+
 dev_unreal_3:        
+  - title: "Capítulo 3"
   - title: INTERFACE COM O JOGADOR
     children:
       - title: UI - User Interface
@@ -103,7 +105,9 @@ dev_unreal_3:
         url: /pages/unreal-engine/materiais-blueprint
       - title: Iluminação
         url: /pages/unreal-engine/iluminacao
+
 dev_unreal_4:        
+  - title: "Capítulo 4"
   - title: MOVIMENTAÇÃO
     children:
       - title: Lógica de Movimentação
@@ -117,8 +121,10 @@ dev_unreal_4:
       - title: Lógica de animação
         url: /pages/unreal-engine/animacao-logica
       - title: Animação 2d
-        url: /pages/unreal-engine/animacao-2d        
+        url: /pages/unreal-engine/animacao-2d       
+
 dev_unreal_5:        
+  - title: "Capítulo 5"
   - title: INTELIGÊNCIA ARTIFICIAL      
     children:
       - title: Inteligência Artificial
@@ -127,7 +133,9 @@ dev_unreal_5:
     children:
       - title: Multiplayer
         url: /pages/unreal-engine/multiplayer
+
 dev_unreal_6:        
+  - title: "Capítulo 6"
   - title: C++
     children:
       - title: Programação C++
