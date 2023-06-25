@@ -57,14 +57,14 @@ feature_row:
     url: "/pages/unreal-engine/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"        
-- image_path: /assets/images/unreal/um-homem-em-um-terno-de-neon-esta-sentado-em-uma-cadeira-com-um-letreiro-de-neon-que-diz-a-palavra.webp
+  - image_path: /assets/images/unreal/um-homem-em-um-terno-de-neon-esta-sentado-em-uma-cadeira-com-um-letreiro-de-neon-que-diz-a-palavra.webp
     alt: "Unreal Engine - Capítulo 5"
     title: "Unreal Engine - Capítulo 5"
     excerpt: "Aprenda e implemente comportamento ou Inteligência Artificial em personagens e desenvolva jogos Multiplayer."
     url: "/pages/unreal-engine/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"            
-- image_path: /assets/images/unreal/um-homem-em-um-terno-de-neon-esta-sentado-em-uma-cadeira-com-um-letreiro-de-neon-que-diz-a-palavra.webp
+  - image_path: /assets/images/unreal/um-homem-em-um-terno-de-neon-esta-sentado-em-uma-cadeira-com-um-letreiro-de-neon-que-diz-a-palavra.webp
     alt: "Unreal Engine - Capítulo 6"
     title: "Unreal Engine - Capítulo 6"
     excerpt: "Aprenda e implemente jogos usando a linguagem de programação C++."
