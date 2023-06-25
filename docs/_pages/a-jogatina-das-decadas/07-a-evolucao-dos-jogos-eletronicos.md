@@ -1,5 +1,5 @@
 ---
-title: "O mercado de jogos eletrônicos"
+title: "A evolução dos Jogos Eltrônicos"
 permalink: /pages/a-jogatina-das-decadas/a-evolucao-dos-jogos-eletronicos
 excerpt: "Neste capítulo vamos como é o mercado de jogos eletrônicos."
 last_modified_at: 2023-03-27T08:48:05-04:00
