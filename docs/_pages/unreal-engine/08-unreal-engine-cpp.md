@@ -4,7 +4,7 @@ excerpt: Neste capítulo será apresentado o modelo da lógica de programação 
 permalink: /pages/unreal-engine/cpp
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal
+    nav: dev_unreal_6
 toc: true
 sidebar:
     nav: dev_unreal

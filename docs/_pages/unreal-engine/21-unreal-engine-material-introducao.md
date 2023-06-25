@@ -4,7 +4,7 @@ excerpt: Neste capítulo vamos apresentar o que são materiais e a sua estrutura
 permalink: /pages/unreal-engine/materiais-introducao
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal
+    nav: dev_unreal_3
 toc: true 
 categories:
   - Unreal Engine

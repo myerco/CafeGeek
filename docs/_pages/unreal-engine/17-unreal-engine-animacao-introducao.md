@@ -4,7 +4,7 @@ excerpt: Neste capitulo vamos apresentar o fluxo de trabalho e os elementos nece
 permalink: /pages/unreal-engine/animacao-introducao
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal
+    nav: dev_unreal_4
 toc: true
 categories:
   - Unreal Engine

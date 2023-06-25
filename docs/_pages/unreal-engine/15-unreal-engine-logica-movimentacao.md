@@ -4,7 +4,7 @@ excerpt: Trabalhando com a lógica de movimentação do personagem utilizando Bl
 permalink: /pages/unreal-engine/logica-movimentacao
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal
+    nav: dev_unreal_4
 toc: true 
 categories:
   - Unreal Engine
