@@ -31,7 +31,7 @@ dev_game:
 
 dev_unreal:
   - title: "Capítulo 1"
-    image: /assets/images/unreal/unreal_engine.webp
+    image: https://cafegeek.eti.br/assets/images/unreal/unreal_engine.webp
     image_alt: "Unreal Engine - Capítulo 1"
   - title: INTRODUÇÃO
     children:
