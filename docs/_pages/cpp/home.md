@@ -5,19 +5,20 @@ permalink: /pages/cpp/
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true  
 sidebar:
-    nav: dev_computacao  
+    nav: dev_unreal_6  
+categories:
+  - Unreal Engine
+  - cpp
+tags:
+  - cpp
+  - C++    
 ---
+
+[Avançado](/collection-archive/){: .btn .btn--danger}
 
 {% include figure image_path="/assets/images/cpp/uday-awal-UjJWhMerJx0-unsplash.webp" alt="Uday Awal" caption="" %}
 
-## 1. Habilidades que serão aprendidas
-
-- Estrutura de arquivos;
-- Variáveis e ponteiros;
-- Estruturas de controle de fluxo;
-- Manipulando Arrays;
-
-## 2. Como o compilador C++ funciona?
+## 1. Como o compilador C++ funciona?
 
 Os arquivos C++ são divididos em dois tipos, um arquivo de código (.cpp) e um de cabeçalho (.h).
 
@@ -31,7 +32,7 @@ Arquivo.obj + Arquivo2.obj ->
 Arquivo.exe
 ```
 
-### 2.1. Abaixo a sintaxe básica de um programa C++
+### 1.1. Abaixo a sintaxe básica de um programa C++
 
 ```cpp
 #include <iostream>
@@ -47,7 +48,7 @@ int main()
 
 A primeira etapa que o compilador fará em um arquivo de código é executar o pré-processador nele. Apenas os arquivos de código são passados ​​para o compilador (para pré-processar e compilar). Os arquivos de cabeçalho não são passados ​​para o compilador. Em vez disso, eles são incluídos nos arquivos de origem.
 
-### 2.2. Exemplo de arquivo sendo incluído em outro 
+### 1.2. Exemplo de arquivo sendo incluído em outro
 
 multiply.cpp
 
@@ -75,7 +76,7 @@ Arquivo.exe
 
 Para cada arquivo de lógica C++, o pré-processador construirá uma unidade de tradução inserindo conteúdo nela quando encontrar uma diretiva #include ao mesmo tempo em que removerá o código do arquivo de lógica e dos cabeçalhos quando encontrar a compilação condicional blocos cuja diretiva é avaliada como `false`. Ele também fará algumas outras tarefas, como substituições de macros.
 
-### 2.3. Exemplo de #IF
+### 1.3. Exemplo de #IF
 
 ```cpp
 #ifndef  FILE_H  
@@ -85,7 +86,7 @@ Para cada arquivo de lógica C++, o pré-processador construirá uma unidade de 
 
 Arquivos de cabeçalho contem o nome de funções, Variáveis, classes e assim por diante, devem ser declarados antes que possam ser usados, estes arquivos podem ser incluídos.[[Arquivos de cabeçalho (C++)](https://docs.microsoft.com/pt-br/cpp/cpp/header-files-cpp?view=msvc-170 "Arquivos de cabeçalho (C++)")]
 
-### 2.4. Arquivo de cabeçalho
+### 1.4. Arquivo de cabeçalho
 
 my_class.h
 
@@ -117,7 +118,7 @@ void my_class::do_something()
 }
 ```
 
-## 3. O Linker
+## 2. O Linker
 
 O `Linker` (vinculador) é um programa que cria arquivos executáveis. O linker resolve problemas de ligação, como o uso de símbolos ou identificadores que são definidos em uma unidade de tradução e são necessários de outras unidades de tradução. [[C++ Programming](https://en.wikibooks.org/wiki/C%2B%2B_Programming/Programming_Languages/C%2B%2B/Code/Compiler/Linker "C++ Programming")].
 
@@ -177,13 +178,13 @@ void printSum(float a, float b) {
 }
 ```
 
-## 4. Funções
+## 3. Funções
 
 Funções são blocos de código que somente são executados quando são chamados. Funções podem ser reutilizadas em outros trechos de código, uma vez definidas podem ser usadas várias vezes [[C++ Functions](https://www.w3schools.com/cpp/cpp_functions.asp)].
 
 É possível passar parâmetros para dentro da funções.
 
-### 4.1. Exemplo da Função log
+### 3.1. Exemplo da Função log
 
 main.cpp
 
@@ -202,7 +203,7 @@ int main() {
 }
 ```
 
-### 4.2. Exemplo da Função de multiplicação
+### 3.2. Exemplo da Função de multiplicação
 
 main.cpp
 
@@ -221,7 +222,7 @@ int main() {
 }
 ```
 
-### 4.3. Declarando funções em arquivos externos
+### 3.3. Declarando funções em arquivos externos
 
 main.cpp
 
@@ -244,7 +245,7 @@ void Log(const char* message)
 }
 ```
 
-## 5. Macros
+## 4. Macros
 
 Uma macro é um trecho de código em um programa que é substituído pelo valor da macro. A macro é definida pela diretiva #define . Sempre que um micronome é encontrado pelo compilador, ele substitui o nome pela definição da macro[[Macros e seus tipos em C / C++](https://acervolima.com/macros-e-seus-tipos-em-c-c/)].
 
@@ -276,7 +277,7 @@ int Multuply(int i, int j)
 #endif
 ```
 
-### 5.1. Chamando uma função dentro de outra
+### 4.1. Chamando uma função dentro de outra
 
 Math.cpp
 
@@ -296,7 +297,7 @@ int Multuply(int i, int j)
 }
 ```
 
-## 6. Variáveis
+## 5. Variáveis
 
 Variáveis são áreas de memória utilizadas para armazenar informação, essas áreas são nomeadas e devem possuir um tipo de dado, como por exemplo [As variáveis em C++](https://br.ccm.net/faq/10120-as-variaveis-em-c):
 
@@ -304,7 +305,7 @@ Variáveis são áreas de memória utilizadas para armazenar informação, essas
 - `float` para armazenar números com casas decimais;
 - `char` geralmente ocupa um byte na memória, permite armazenar um caractere ou cadeia de caracteres.
 
-### 6.1. Declaração de variáveis
+### 5.1. Declaração de variáveis
 
 Para declarar uma variável, basta indicar o seu tipo seguido do seu nome. Existem várias convenções sobre o nome das variáveis. Alguns preferem separar as diferentes partes do nome com _ (traço baixo). Outros preferem escrever uma letra maiúscula para separá-los. Exemplo:
 
@@ -330,7 +331,7 @@ int main()
 }
 ```
 
-## 7. Unsigned
+## 6. Unsigned
 
 Assim como no C, o unsigned sozinho serve para nada (exceto o mostrado abaixo), ele é um modificador para determinar que um tipo numérico inteiro é sem sinal. Ou seja, você só terá valores positivos nele. Ele determina se o bit mais significativo será considerado o sinal de positivo ou negativo ou se este bit entrará no valor, por isso ele permite o dobro dos valores permitidos.
 
@@ -338,13 +339,13 @@ Um `int` vai de -2147483648 à 2147483647.
 
 Um `unsigned` `int` vai de 0 à 4294967295.
 
-### 7.1. Constantes
+### 6.1. Constantes
 
 Assim como uma variável, uma constante também armazena um valor na memória do computador. Entretanto, esse valor não pode ser alterado: é constante. Para constantes é obrigatória a atribuição do valor[[Curso de C++/Variáveis e constantes](https://pt.wikiversity.org/wiki/Curso_de_C%2B%2B/Vari%C3%A1veis_e_constantes)].
 
 Existem duas formas básicas para declarar uma constante em C++:
 
-#### 7.1.1. Usando #define
+#### 6.1.1. Usando #define
 
 Esta é uma maneira antiga de declarar constantes mas funciona normalmente;
 
@@ -356,7 +357,7 @@ using namespace std;
 #define PI 3.1415
 ```
 
-## 8. Usando const
+## 7. Usando const
 
 Usando `const`, a declaração não precisa estar no início do código.
 
@@ -365,7 +366,7 @@ const int i = 500; // uma constante inteira que armazena o número 500.
 const double pi = 3.1415; // uma constante real que armazena o valor aproximado de pi.
 ```
 
-## 9. Pragma once
+## 8. Pragma once
 
 Especifica que o compilador inclui o arquivo de header apenas uma vez, ao compilar um arquivo de código-fonte [[once pragma](https://docs.microsoft.com/pt-br/cpp/preprocessor/once?view=msvc-170)].
 
@@ -417,11 +418,11 @@ void main();
 }
 ```
 
-## 10. Ponteiros
+## 9. Ponteiros
 
 Um ponteiro é uma variável capaz de armazenar um endereço de memória ou o endereço de outra variável[[Apontadores/ Ponteiros/ Pointers](https://www.inf.pucrs.br/~pinho/PRGSWB/Ponteiros/ponteiros.html)].
 
-### 10.1. Impressão de Ponteiros
+### 9.1. Impressão de Ponteiros
 
 Podemos imprimir o endereço de memória dos ponteiros.
 
@@ -438,7 +439,7 @@ void main()
 }
 ```
 
-### 10.2. Acessando conteúdo
+### 9.2. Acessando conteúdo
 
 Acessamos o conteúdo do valor contido no ponteiro, endereço de memória, utilizando o operador de referência (*) do lado esquerdo.
 
@@ -457,7 +458,7 @@ void main()
 }
 ```
 
-## 11. Classes
+## 10. Classes
 
 C++ é uma linguagem de programação orientada a objetos.
 
@@ -544,5 +545,149 @@ void main()
   MinhaConta.consulta();
 
   OutraConta->consulta();
+}
+```
+
+## 11. O fluxo de desenvolvimento e Herança
+
+Um modelo de desenvolvimento utilizando **C++** pode ser visto abaixo onde primeiro criamos a classe do objeto A em **C++** e depois uma classe **Blueprint** B filha da classe A. Fazendo isso pode-se aproveitar as características de ambas linguagens, como por exemplo: lógica em **C++** e parametrização de componentes visuais usando o Editor **Blueprint**.  
+
+### 11.1. Exemplo Herança
+
+1. Vamos Criar uma **Blueprint** *BP_Plataforma* do tipo `static_mesh_actor`;
+
+1. Depois Criar a classe **C++** `Plataforma` do tipo `AStaticMeshActor`;
+
+1. Alterar classe pai do *BP_Plataforma* para *Plataforma*.
+
+Onde :
+
+| Origem      | Destino       |       |
+|:-           |:-             |:-     |
+|Classe C++   |Blueprints     |Certo  |
+|Blueprints   |Classe C++     | Errado|
+
+*Tabela: Representação do desenvolvimento descrito anteriormente.*
+
+Sobre a herança de classes permitem usar classes já definidas para derivar classes novas onde a nova classe herda as propriedades da classe base.
+
+### 11.2. Exemplo em C++
+
+```cpp
+// Classe Pessoa
+class Pessoa {
+  int32 iVida;
+  FString sNome;
+}
+
+class Heroi: public Pessoa {
+  float fForca = 100;
+}
+
+void main() {
+   // instânciando o objeto Nostromo do tipo Heroi
+    Heroi nostromo;
+}
+```
+
+### 11.3. Exemplo em Blueprint
+
+```cpp
+class Hugo: Pessoa
+      // iVida -- Herdada
+      // movimentacao() - Herdada  
+
+      AddActiveTrigger()  
+      float SpeedPlataforma  
+      int32 Vida #Error  
+```
+
+## 12. Polimorfismo em C++
+
+Polimorfismo em linguagens orientadas a objeto, é a capacidade de objetos se comportarem de forma diferenciada em face de suas características ou do ambiente ao qual estejam submetidos, mesmo quando executando ação que detenha, semanticamente, a mesma designação.
+
+O polimorfismo em C++ se apresenta sob diversas formas diferentes, desde as mais simples, como funções com mesmo nome e lista de parâmetros diferentes, até as mais complexas como funções virtuais, cujas formas de execução são dependentes da classe a qual o objeto pertence e são identificadas em tempo de execução.
+
+## 13. Funções virtuais
+
+"Uma função virtual é uma função de membro que é declarada dentro de uma classe base e é redefinida (Substituída) por uma classe derivada. Quando você se refere a um objeto de classe derivada usando um ponteiro ou uma referência à classe base, pode chamar uma função virtual para esse objeto e executar a versão da função da classe derivada."[Funções Virtuais](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_virtual "Funções Virtuais")
+
+- As funções virtuais garantem que a função correta seja chamada para um objeto, independentemente do tipo de referência (ou ponteiro) usado para a chamada da função;
+
+- Eles são usados principalmente para obter polimorfismo de tempo de execução;
+
+- As funções são declaradas com uma palavra-chave virtual na classe base;
+
+- A resolução da chamada de função é feita em tempo de execução.
+
+### 13.1. Exemplo de função virtual em C++ com Unreal Engine
+
+```cpp
+class WeaponBase {
+  public: virtual void OnFire() {}
+};
+class WeaponRifle : public WeaponBase {
+  public: void OnFire() override {}
+};
+
+...
+WeaponRifle
+void anotherFunction(WeaponBase *someWeapon) {
+  someWeapon->OnFire();
+}
+```
+
+- Na função anotherFunction o método chamado em OnFire é WeaponRifle::OnFire().
+
+- O método WeaponBase::OnFire não é chamado pois foi sobreposto.
+
+### 13.2. Exemplo de função virtual no C++
+
+```cpp
+#include <iostream>
+
+using std::cout;
+using std::endl;
+
+class Base {
+public:
+    // declaração da função virtual
+    virtual void Quem_VIRTUAL()
+    {
+        cout << "Base\n";
+    }
+    // função comum
+    void Quem_NAO_VIRTUAL()
+    {
+        cout << "Base\n";
+    }
+};
+
+class Derivada : public Base {
+public:
+    // função virtual sobrescrita
+    virtual void Quem_VIRTUAL()
+    {
+        cout << "Derivada\n";
+    }
+    // função comum sobrescrita
+    void Quem_NAO_VIRTUAL()
+    {
+        cout << "Derivada\n";
+    }
+};
+
+int main ()
+{
+    Base *ptr_base;
+    Derivada derivada;
+
+    ptr_base = &derivada;           // conversão implícita permissível
+    ptr_base->Quem_VIRTUAL();       // chamada polimórfica (mostra: "Derivada")
+    ptr_base->Quem_NAO_VIRTUAL();   // chamada comum, não-polimórfica (mostra: "Base")
+
+    cout << endl;
+
+    return 0;
 }
 ```

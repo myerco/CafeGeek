@@ -49,151 +49,7 @@ A resposta é depende do problema mas considere o seguinte:
 
 - Para equipes pequenas com cultura de desenvolvimento e necessidade de processamento é recomendado **C++**.
 
-## 3. O fluxo de desenvolvimento e Herança
-
-Um modelo de desenvolvimento utilizando **C++** pode ser visto abaixo onde primeiro criamos a classe do objeto A em **C++** e depois uma classe **Blueprint** B filha da classe A. Fazendo isso pode-se aproveitar as características de ambas linguagens, como por exemplo: lógica em **C++** e parametrização de componentes visuais usando o Editor **Blueprint**.  
-
-### 3.1. Exemplo Herança
-
-1. Vamos Criar uma **Blueprint** *BP_Plataforma* do tipo `static_mesh_actor`;
-
-1. Depois Criar a classe **C++** `Plataforma` do tipo `AStaticMeshActor`;
-
-1. Alterar classe pai do *BP_Plataforma* para *Plataforma*.
-
-Onde :
-
-| Origem      | Destino       |       |
-|:-           |:-             |:-     |
-|Classe C++   |Blueprints     |Certo  |
-|Blueprints   |Classe C++     | Errado|
-
-*Tabela: Representação do desenvolvimento descrito anteriormente.*
-
-Sobre a herança de classes permitem usar classes já definidas para derivar classes novas onde a nova classe herda as propriedades da classe base.
-
-### 3.2. Exemplo em C++
-
-```cpp
-// Classe Pessoa
-class Pessoa {
-  int32 iVida;
-  FString sNome;
-}
-
-class Heroi: public Pessoa {
-  float fForca = 100;
-}
-
-void main() {
-   // instânciando o objeto Nostromo do tipo Heroi
-    Heroi nostromo;
-}
-```
-
-### 3.3. Exemplo em Blueprint
-
-```cpp
-class Hugo: Pessoa
-      // iVida -- Herdada
-      // movimentacao() - Herdada  
-
-      AddActiveTrigger()  
-      float SpeedPlataforma  
-      int32 Vida #Error  
-```
-
-## 4. Polimorfismo em C++
-
-Polimorfismo em linguagens orientadas a objeto, é a capacidade de objetos se comportarem de forma diferenciada em face de suas características ou do ambiente ao qual estejam submetidos, mesmo quando executando ação que detenha, semanticamente, a mesma designação.
-
-O polimorfismo em C++ se apresenta sob diversas formas diferentes, desde as mais simples, como funções com mesmo nome e lista de parâmetros diferentes, até as mais complexas como funções virtuais, cujas formas de execução são dependentes da classe a qual o objeto pertence e são identificadas em tempo de execução.
-
-## 5. Funções virtuais
-
-"Uma função virtual é uma função de membro que é declarada dentro de uma classe base e é redefinida (Substituída) por uma classe derivada. Quando você se refere a um objeto de classe derivada usando um ponteiro ou uma referência à classe base, pode chamar uma função virtual para esse objeto e executar a versão da função da classe derivada."[Funções Virtuais](https://pt.wikipedia.org/wiki/Fun%C3%A7%C3%A3o_virtual "Funções Virtuais")
-
-- As funções virtuais garantem que a função correta seja chamada para um objeto, independentemente do tipo de referência (ou ponteiro) usado para a chamada da função;
-
-- Eles são usados principalmente para obter polimorfismo de tempo de execução;
-
-- As funções são declaradas com uma palavra-chave virtual na classe base;
-
-- A resolução da chamada de função é feita em tempo de execução.
-
-### 5.1. Exemplo de função virtual em C++ com Unreal Engine
-
-```cpp
-class WeaponBase {
-  public: virtual void OnFire() {}
-};
-class WeaponRifle : public WeaponBase {
-  public: void OnFire() override {}
-};
-
-...
-WeaponRifle
-void anotherFunction(WeaponBase *someWeapon) {
-  someWeapon->OnFire();
-}
-```
-
-- Na função anotherFunction o método chamado em OnFire é WeaponRifle::OnFire().
-
-- O método WeaponBase::OnFire não é chamado pois foi sobreposto.
-
-### 5.2. Exemplo de função virtual no C++
-
-```cpp
-#include <iostream>
-
-using std::cout;
-using std::endl;
-
-class Base {
-public:
-    // declaração da função virtual
-    virtual void Quem_VIRTUAL()
-    {
-        cout << "Base\n";
-    }
-    // função comum
-    void Quem_NAO_VIRTUAL()
-    {
-        cout << "Base\n";
-    }
-};
-
-class Derivada : public Base {
-public:
-    // função virtual sobrescrita
-    virtual void Quem_VIRTUAL()
-    {
-        cout << "Derivada\n";
-    }
-    // função comum sobrescrita
-    void Quem_NAO_VIRTUAL()
-    {
-        cout << "Derivada\n";
-    }
-};
-
-int main ()
-{
-    Base *ptr_base;
-    Derivada derivada;
-
-    ptr_base = &derivada;           // conversão implícita permissível
-    ptr_base->Quem_VIRTUAL();       // chamada polimórfica (mostra: "Derivada")
-    ptr_base->Quem_NAO_VIRTUAL();   // chamada comum, não-polimórfica (mostra: "Base")
-
-    cout << endl;
-
-    return 0;
-}
-```
-
-## 6. Construindo classes C++ no Unreal Engine
+## 3. Construindo classes C++ no Unreal Engine
 
 A seguir vamos implementar uma classe **C++** no **Unreal Engine** para tal utilizamos o `Menu Tools` > `New C++ Class`.
 
@@ -211,7 +67,7 @@ A seguir vamos implementar uma classe **C++** no **Unreal Engine** para tal util
 
 O **Unreal Engine** vai criar dois arquivos, o arquivo header (.h) e o de implementação (.cpp), sugerindo separar ambos nas pastas `private` e `header`.
 
-### 6.1. Pasta privada com os arquivos header das classes
+### 3.1. Pasta privada com os arquivos header das classes
 
 ```bash
 <Projeto>/Private/ControlLight.h
@@ -277,7 +133,7 @@ void AControlLight::Tick(float DeltaTime)
 }
 ```
 
-### 6.2. Exemplo de um arquivo header com variáveis
+### 3.2. Exemplo de um arquivo header com variáveis
 
 Abaixo vamos construir uma classe em **C++** chamado plataforma para exemplificar um arquivo `header` a declaração de variáveis.
 
@@ -322,16 +178,16 @@ protected:
 };
 ```
 
-## 7. Sintaxe da linguagem e C++ e macros do Unreal Engine
+## 4. Sintaxe da linguagem e C++ e macros do Unreal Engine
 
 A seguir vamos apresentar algumas características de linguagem e as macros que facilitam a implementação em **C++**.
 
-### 7.1. O arquivo Include
+### 4.1. O arquivo Include
 
 É uma forma de incluir um arquivo padrão ou definido pelo usuário no programa e é principalmente escrito no início de qualquer programa **C / C ++**.  
 Esta diretiva é lida pelo pré-processador e ordena que ele insira o conteúdo de um arquivo de cabeçalho do sistema ou definido pelo usuário no programa a seguir. Esses arquivos são importados principalmente de uma fonte externa para o programa atual. O processo de importação de tais arquivos que podem ser definidos pelo sistema ou pelo usuário é conhecido como Inclusão de Arquivo. Este tipo de diretiva de pré-processador diz ao compilador para incluir um arquivo no programa de código-fonte.
 
-#### 7.1.1. Exemplo de Include
+#### 4.1.1. Exemplo de Include
 
 ```cpp
 #include "CoreMinimal.h"
@@ -339,11 +195,11 @@ Esta diretiva é lida pelo pré-processador e ordena que ele insira o conteúdo 
 #include "Plataforma.generated.h"
 ```
 
-#### 7.1.2. O arquivo .generated.h
+#### 4.1.2. O arquivo .generated.h
 
 O **Unreal Engine** faz uso extensivo de macros de pré-processador, e algumas dessas macros são definidas (#defined) no arquivo `genrated.h` que acompanha cada `UCLASS`. Se você criar uma `UCLASS` *MyClass*, o arquivo MyClass.h irá incluir (#include) MyClass.generated.h. O cabeçalho gerado, MyClass.generated.h, é feito na parte inicial do processo de construção do **Unreal Engine**.
 
-## 8. Encapsulamento
+## 5. Encapsulamento
 
 `Public` – Quando precede uma lista de membros de classe, o  *Public*  palavra-chave especifica que esses membros são acessíveis a partir de qualquer função. Isso se aplica a todos os membros declarados até o próximo especificador de acesso ou o fim da classe. Ou seja visível a todos.
 
@@ -351,11 +207,11 @@ O **Unreal Engine** faz uso extensivo de macros de pré-processador, e algumas d
 
 `Protected` – O *Protected* palavra-chave especifica o acesso a membros de classe no lista de membros até o próximo especificador de acesso (pública ou private) ou no final da definição de classe.  O *Protected* é mistura entre *Public* e *Private* ou seja é visível somente para membros da classe e visível para subclasses.
 
-## 9. UCLASS
+## 6. UCLASS
 
 Você também pode declarar classes **C ++** personalizadas, que se comportam como classes UE4, declarando seus objetos **C++** personalizados como UCLASS. UCLASS usa [Smart Pointers](https://docs.microsoft.com/pt-br/cpp/cpp/smart-pointers-modern-cpp?view=msvc-170 "Ponteiros inteligentes (C++ moderno)") do UE4 e rotinas de gerenciamento de memória para alocação e desalocação de acordo com as regras do Smart Pointer, podem ser carregados e lidos pelo *UE4 Editor* e opcionalmente acessados a partir de Blueprints.
 
-### 9.1. Exemplo UCLASS
+### 6.1. Exemplo UCLASS
 
 ```cpp
 UCLASS(ClassGroup=(Custom),meta=(BlueprintSpawnableComponent) )
@@ -366,13 +222,13 @@ Os parâmetros descritos no exemplo são os [especificadores](https://docs.unrea
 - `BlueprintSpawnableComponent` - Se estiver presente, o componente Class pode ser gerado por um Blueprint.
 - `ClassGroup=GroupName` - Indica que o Navegador de ator do Unreal Editor deve incluir esta classe e qualquer subclasse dessa classe dentro do GroupName especificado quando a Visualização de grupo estiver ativada no Navegador de ator.
 
-## 10. UFUNCTION
+## 7. UFUNCTION
 
 Um **UFunction** é uma função **C ++** que é reconhecida pelo sistema de reflexão **Unreal Engine 4** (UE4). Qualquer **UObject** ou biblioteca de função **Blueprint** pode declarar uma função de membro como um **UFunction**, colocando a macro UFUNCTION na linha acima da declaração da função no arquivo de cabeçalho. A macro oferecerá suporte a Especificadores de Função para alterar como o UE4 interpreta e usa uma função.
 
 Ao declarar funções, os especificadores de função podem ser adicionados à declaração para controlar como a função se comporta com vários aspectos do mecanismo e do editor.
 
-### 10.1. Exemplo UFUNCTION
+### 7.1. Exemplo UFUNCTION
 
 ```cpp
 UFUNCTION(BlueprintCallable, Category = "Plataforma")
@@ -383,7 +239,7 @@ void AddActiveTrigger();
 
 - `BlueprintCallable` - A função pode ser executada em um gráfico **Blueprint** ou Level Blueprint.
 
-## 11. UPROPERTY
+## 8. UPROPERTY
 
 As propriedades são declaradas usando a sintaxe de variável **C++** padrão, precedida pela macro UPROPERTY que define metadados de propriedade e especificadores de variável.
 
@@ -399,9 +255,9 @@ UPROPERTY(EditAnywhere, Meta = (MakeEditWidget = true))
 - `EditAnywhere` - Indica que esta propriedade pode ser editada por janelas de propriedades, em arquétipos e instâncias. Este especificador é incompatível com qualquer um dos especificadores "visíveis".
 - `MakeEditWidget` - Usado para propriedades *Transform* ou *Rotator*, ou Matrizes de *Transforms* ou *Rotators*. Indica que a propriedade deve ser exposta na janela de visualização como um *widget* móvel.
 
-### 11.1. Classe Actor em C++ com uma Static Mesh
+### 8.1. Classe Actor em C++ com uma Static Mesh
 
-#### 11.1.1. Arquivo CharacterBase.h
+#### 8.1.1. Arquivo CharacterBase.h
 
 ```cpp
 #pragma once
@@ -436,7 +292,7 @@ public:
 
 `UStaticMeshComponent` - É usando para criar uma instância de um `StaticMesh`.
 
-#### 11.1.2. Arquivo CharacterBase.cpp
+#### 8.1.2. Arquivo CharacterBase.cpp
 
 ```cpp
 #include "CharacterBase.h"
