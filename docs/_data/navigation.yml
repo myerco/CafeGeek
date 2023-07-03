@@ -138,8 +138,14 @@ dev_unreal_6:
     children:
       - title: Controle de versão
         url: /pages/unreal-engine/controle-versao   
-      - title: Estrutura da linguagem
-        url:  /pages/cpp/
+      - title: Estruturas de Arquivos
+        url:  /pages/cpp/estruturas-de-arquivos
+      - title: Funções e Macros
+        url:  /pages/cpp/funcoes-e-macros
+      - title: Variáveis e Ponteiros
+        url:  /pages/cpp/variaveis-e-ponteiros
+      - title: Classes
+        url:  /pages/cpp/classes
   - title: C++ e Unreal Engine
     children:
       - title: Programação C++
