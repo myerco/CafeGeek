@@ -180,3 +180,40 @@ void main()
   cout << "Agora, X vale: " << *ptr << endl;
 }
 ```
+
+Considerando a declaração anterior, podemos criar uma lista de elementos.
+
+```cpp
+
+class Human : public Character {
+public:
+    Human(const std::string& name, const std::string& sex, int health, int damage)
+        : Character(name, sex, health, damage) {}
+};
+
+
+int main() {
+    std::vector<Character*> characters;
+
+    // Criação dos personagens
+    Human human1("Gandalf", "Male", 100, 50);
+    Human human2("Galadriel", "Female", 80, 40);
+    
+    characters.push_back(&human1);
+    characters.push_back(&human2);
+   
+    // Listagem dos personagens e suas propriedades
+    std::cout << "Personagens:" << std::endl;
+    std::cout << "-------------" << std::endl;
+
+    for (const auto& character : characters) {
+        std::cout << "Name: " << character->getName() << std::endl;
+        std::cout << "Sex: " << character->getSex() << std::endl;
+        std::cout << "Health: " << character->getHealth() << std::endl;
+        std::cout << "Damage: " << character->getDamage() << std::endl;
+        std::cout << std::endl;
+    }
+
+    return 0;
+}
+```

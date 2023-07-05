@@ -28,12 +28,27 @@ Os arquivos de código contem a lógica principal, estes arquivos podem incluir 
 Cada arquivo de código deve se compilado dentro de um arquivo objeto (.obj), os arquivos objeto são juntados (linked) dentro de um executável (.exe)
 
 ```bash
-Arquivo.cpp ->
-Arquivo.obj + Arquivo2.obj ->
-Arquivo.exe
+## Arquivo código fonte
+c:\arquivo.cpp
+
+## Arquivo objeto
+c:\arquivo.obj + Arquivo2.obj 
+
+## Arquivo executável
+c:\arquivo.exe
 ```
 
-### 1.1. Abaixo a sintaxe básica de um programa C++
+## 2. Usando o Microsoft Visual Studio com C++
+
+Instale o Visual Studio e escolha os pacotes necessários para usar a linguagem C++. [Link](https://cafegeek.eti.br/pages/unreal-engine/instalacao-configuracao#21-instalando-o-visual-studio-para-programar-com-c)
+
+Após a instalação vamos criar um projeto teste seguinte os passos:
+
+1. Criar novo projeto;
+2. Projeto vazio;
+3. Usando o Gerenciador de Soluções adicione um arquivo main.cpp: Arquivos de Origem > Adicionar > Novo Item > Arquivo do C++ (.cpp)
+
+## 3. Sintaxe básica de um programa C++
 
 ```cpp
 #include <iostream>
@@ -49,16 +64,26 @@ int main()
 
 A primeira etapa que o compilador fará em um arquivo de código é executar o pré-processador nele. Apenas os arquivos de código são passados ​​para o compilador (para pré-processar e compilar). Os arquivos de cabeçalho não são passados ​​para o compilador. Em vez disso, eles são incluídos nos arquivos de origem.
 
-### 1.2. Exemplo de arquivo sendo incluído em outro
+## 4. Estrutura de arquivos do Visual Studio
+
+```bash
+── Projeto  
+    ├── Projeto.sln                         # Arquivo de configuração do projeto.
+    └── Projeto
+        ├── main.cpp
+        └── teste.h
+```
+
+### 4.1. Exemplo de arquivo sendo incluído em outro
 
 multiply.cpp
 
 ```cpp
-int multiply(int a, int b)
+int main()
 {
-  return a * b;
+    std::cout << "Meu primeiro programa." << std::endl;
+
 #include "parte.h"
-}
 ```
 
 parte.h
@@ -69,15 +94,52 @@ parte.h
 
 Cada arquivo de cabeçalho pode ser aberto várias vezes durante a fase de pré-processamento de todos os arquivos de lógica, dependendo de quantos arquivos de lógica os incluem ou de quantos outros arquivos de cabeçalho incluídos nos arquivos de lógica também os incluem (pode haver muitos níveis de apontamento) . Os arquivos de lógica, por outro lado, são abertos apenas uma vez pelo compilador (e pré-processador), quando são passados ​​para ele.
 
-```bash
-Arquivo.cpp + arquivo3.h ->
-Arquivo.obj + Arquivo2.obj ->
-Arquivo.exe
+sum.cpp
+
+```cpp
+int sum(int a, int b)
+{
+  return a + b;
+#include "parte.h"
+}
 ```
 
-Para cada arquivo de lógica C++, o pré-processador construirá uma unidade de tradução inserindo conteúdo nela quando encontrar uma diretiva #include ao mesmo tempo em que removerá o código do arquivo de lógica e dos cabeçalhos quando encontrar a compilação condicional blocos cuja diretiva é avaliada como `false`. Ele também fará algumas outras tarefas, como substituições de macros.
+Para cada arquivo de lógica C++, o pré-processador construirá uma unidade de tradução inserindo conteúdo nela quando encontrar uma diretiva `#include` ao mesmo tempo em que removerá o código do arquivo de lógica e dos cabeçalhos quando encontrar a compilação condicional blocos cuja diretiva é avaliada como `false`. Ele também fará algumas outras tarefas, como substituições de macros.
 
-### 1.3. Exemplo de #IF
+## 5. Diretiva de pré-processador
+
+Definem como as operações de pré-processamento serão realizadas.
+
+### 5.1. #DEFINE
+
+Define constantes simbólicas.
+
+```cpp
+#define AREA_TRIAN(b, h) ((b * h)/2)
+
+...
+
+area = AREA_TRIAN(10,15)
+
+```
+
+### 5.2. #IF
+
+Define se um bloco de será incluído caso a expressão seja `true`.
+
+```cpp
+#if defined(CREDIT)
+    credit();
+#elif defined(DEBIT)
+    debit();
+#else
+    printerror();
+#endif
+```
+
+### 5.3. #IFNDEF
+
+Define um item se ele não tiver sido definido anteriormente.
 
 ```cpp
 #ifndef  FILE_H  
@@ -87,39 +149,90 @@ Para cada arquivo de lógica C++, o pré-processador construirá uma unidade de 
 
 Arquivos de cabeçalho contem o nome de funções, Variáveis, classes e assim por diante, devem ser declarados antes que possam ser usados, estes arquivos podem ser incluídos.[[Arquivos de cabeçalho (C++)](https://docs.microsoft.com/pt-br/cpp/cpp/header-files-cpp?view=msvc-170 "Arquivos de cabeçalho (C++)")]
 
-### 1.4. Arquivo de cabeçalho
+### 5.4. Arquivo de cabeçalho
 
-my_class.h
+Character.h
 
 ```cpp
-// my_class.h
-namespace N
-{
-    class my_class
+class Character
     {
+    private:
+        std::string name;
+        std::string sex;
+        int health;
+        int damage;
     public:
-        void do_something();
-    };
-}
+    Character(const std::string& name, const std::string& sex, int health, int damage)
+        : name(name), sex(sex), health(health), damage(damage) {}
+
+    // Setters
+    void setName(const std::string& name);
+
+    void setSex(const std::string& sex);
+
+    void setHealth(int health);
+
+    void setDamage(int damage);
+
+    // Getters
+    std::string getName();
+
+    std::string getSex();
+
+    int getHealth();
+
+    int getDamage();
+};
 ```
 
-my_class.cpp
+Character.cpp
 
 ```cpp
-// my_class.cpp
-#include "my_class.h" // header in local directory
+#include "Character.h" // header in local directory
 #include <iostream> // header in standard library
 
-using namespace N;
-using namespace std;
+void Character::setName(const std::string& name) {
+        this->name = name;
+    }
 
-void my_class::do_something()
-{
-    cout << "Doing something!" << endl;
-}
+    void Character::setSex(const std::string& sex) {
+        this->sex = sex;
+    }
+
+    void Character::setHealth(int health) {
+        if (health >= 0 && health <= 100) {
+            this->health = health;
+        }
+        else {
+            std::cout << "Health must be between 0 and 100." << std::endl;
+        }
+    }
+
+    void Character::setDamage(int damage) {
+        this->damage = damage;
+    }
+
+    std::string Character::getName()
+    {
+        return this->name;
+    }
+
+    std::string Character::getSex()
+    {
+        return this->sex;
+    }
+
+       int Character::getHealth() {
+        return this->health;
+    }
+
+    int Character::getDamage() {
+        return this->damage;
+    }
+
 ```
 
-## 2. O Linker
+## 6. O Linker
 
 O `Linker` (vinculador) é um programa que cria arquivos executáveis. O linker resolve problemas de ligação, como o uso de símbolos ou identificadores que são definidos em uma unidade de tradução e são necessários de outras unidades de tradução. [[C++ Programming](https://en.wikibooks.org/wiki/C%2B%2B_Programming/Programming_Languages/C%2B%2B/Code/Compiler/Linker "C++ Programming")].
 
