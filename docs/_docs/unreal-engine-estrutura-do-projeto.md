@@ -23,12 +23,12 @@ A seguir apresentaremos a estrutura de pastas do projeto de desenvolvimento do j
 
 ```bash
 └── Content
-    ├── ExampleContent              # Pacotes de exemplo
-    |   ├── AnimStarterPack         # Não devem estar no versionamento
-    |   └── ThirdPerson             # Separados da lógica do projeto
-    └── Projeto                     # Pasta principal do projeto
-        ├── Art                     # Elementos do ambiente
-        |   ├── Industrial          # Texturas e malhas
+    ├── ExampleContent                # Pacotes de exemplo
+    |   ├── AnimStarterPack           # Não devem estar no versionamento
+    |   └── ThirdPerson               # Separados da lógica do projeto
+    └── Projeto                       # Pasta principal do projeto
+        ├── Art                       # Elementos do ambiente
+        |   ├── Industrial            # Texturas e malhas
         |   |   ├── Ambient         
         |   |   ├── Machinery
         |   |   └── Pipes
@@ -38,31 +38,45 @@ A seguir apresentaremos a estrutura de pastas do projeto de desenvolvimento do j
         |   |       ├── Rocks
         |   |       └── Trees
         |   └── Office
-        ├── Characters              # Estruturas dos personagens
-        |   ├── Human               # Classe human
-        |   |   ├── Mesh            # Malhas e esqueletos
-        |   |   ├── Animations      # Animações
-        |   |   └── Audio           # Sons
-        |   └── Mutant
-        |       ├── Mesh            # Malha e texturas do personagem       
-        |       ├── Animations
-        |       |   └── Logic       # Animation Blueprint, Blend Space
-        |       |       ├── Base    # Animações com movimento básico
-        |       |       └── Aim     # Animações usando uma arma e mirando
-        |       └── Audio           # Sons do personagem
+        ├── Models
+        |   ├── Characters              # Estruturas dos personagens
+        |   |   ├── Human               # Classe human
+        |   |   |   ├── Mesh            # Malhas e esqueletos
+        |   |   |   ├── Animations      # Animações
+        |   |   |   └── Audio           # Sons
+        |   |   ├── Mutant
+        |   |   |   ├── Mesh            # Malha e texturas do personagem       
+        |   |   |   └── Animations
+        |   |   |       ├── Logic       # Animation Blueprint, Blend Space
+        |   |   |       ├── Base        # Animações com movimento básico
+        |   |   |       ├── Aim         # Animações usando uma arma e mirando
+        |   |   |       └── Audio       # Sons do personagem
+        |   |   └── NPC
+        |   |       ├── Mesh            # Malha e texturas do personagem       
+        |   |       └── Animations
+        |   |           ├── Logic       # Animation Blueprint, Blend Space
+        |   |           ├── Base        # Animações com movimento básico
+        |   |           ├── Aim         # Animações usando uma arma e mirando
+        |   |           └── Audio       # Sons do personagem
+        |   ├── Chests                  # Baús
+        |   |   ├── Materials     
+        |   |   └── Mesh
+        |   ├── Inventory               # Inventários
+        |   ├── Itens                   # Itens
+        |   └── Weapons                 # Armas
         ├── Core
-        |   ├── Characters          # Classe principal dos personagens
-        |   ├── Engine              # Player Controller e Game Control
-        |   ├── GameModes           # Game Mode e Game Instance
-        |   ├── Interactables       # Classes de interação
-        |   ├── Pickups             # Classes básicas de objetos
-        |   ├── DataSets            # Tabelas, enum e struct
-        |   └── Weapons             # Classe de armas
+        |   ├── Characters              # Classe principal dos personagens
+        |   ├── Engine                  # Player Controller e Game Control
+        |   ├── GameModes               # Game Mode e Game Instance
+        |   ├── Interactables           # Classes de interação
+        |   ├── Pickups                 # Classes básicas de objetos
+        |   ├── DataSets                # Tabelas, enum e struct
+        |   └── Weapons                 # Classe de armas
         ├── UI
-        |   ├── Characters          # Interface vida, força e outros
-        |   ├── SettingsMenu        # Configuração do jogo
-        |   ├── ExitMenu            # Menu de saída 
-        |   └── MainMenu            # Menu Principal
+        |   ├── Characters              # Interface vida, força e outros
+        |   ├── SettingsMenu            # Configuração do jogo
+        |   ├── ExitMenu                # Menu de saída 
+        |   └── MainMenu                # Menu Principal
         └── Maps
             ├── Level1
             └── Level2
@@ -101,8 +115,10 @@ A seguir apresentaremos a estrutura de pastas do projeto de desenvolvimento do j
 |                     |                    | Died               | Event         |                    |
 |                     |                    | Catch              | Event         |                    |
 | ├── BP_Human        | BP_CharacterBase   |                    |               |                    |
-| └── BP_Mutant       | BP_CharacterBase   |                    |               |                    |
+| ├── BP_Mutant       | BP_CharacterBase   |                    |               |                    |
+| └── BP_NPC          | BP_CharacterBase   |                    |               |                    |
 | BP_PlayerController | APlayerController  |                    |               |                    |
+| BP_AIController     | AIController       |                    |               |                    |
 | BP_BotController    | APPlayerController |                    |               |                    |
 | BP_GameMode         | UGameMode          |                    |               |                    |
 | BP_GameInstance     | UGameInstance      | OpenMenuExit       |               |                    |

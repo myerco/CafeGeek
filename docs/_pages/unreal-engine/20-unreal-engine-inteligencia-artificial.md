@@ -16,38 +16,25 @@ tags:
 
 [Avançado](/collection-archive/){: .btn .btn--danger}
 
-Neste projeto serão apresentados os elementos necessários para a construção de
-simulação de comportamentos, como por exemplo, busca e detecção de jogadores bem como configurar o personagem controlado pela IA em diferentes estados de comportamento.
+Neste projeto serão apresentados os elementos necessários para a construção de simulação de comportamentos, como por exemplo, busca e detecção de jogadores bem como configurar o personagem controlado pela IA em diferentes estados de comportamento.
 
 ## 1. Preparando o projeto
 
-Em este passo iremos preparar as pastas, configuração inicial do projeto e *Character* do
-jogador.
+Em este passo iremos preparar as pastas, configuração inicial do projeto e *Character* do jogador. Vamos criar o projeto AulaIA, considere a estrutura de pastas [Estrutura do Projeto](/docs/unreal-engine-estrutura-do-projeto).
 
-**1.** Vamos criar o projeto AulaIA;
+Crie um novo *level* de nome **LevelTeste** e salvar na pasta **Maps**, logo em seguida configure o projeto para que o **levelTeste** seja inicializado ao abrir o projeto:  
 
-**2.** Criar as pastas para organização do projeto:
+`Project Settings` > `Maps & Mods`
 
-```cp
-      Maps  
-      Blueprints  
-        Characters
-        GameControls
-      AI  
-```
-
-**3.** Criar um novo *level* de nome **LevelTeste** e salvar na pasta **Maps**, logo em seguida configure o projeto para que o **levelTeste** seja inicializado ao abrir o projeto:  
-  `Project Settings` > `Maps & Mods`
-
-**4.** Criar as classes Blueprints:  
+A seguir vamos criar os pernsanagens e os controles.
 
 - **BP_PlayerController** do tipo `PlayerController` ;
-
 - **BP_GameMode** do tipo `GameMode`;
-
 - **BP_PlayerBase** do tipo *Character* (vamos duplicar e utilizar o já existente no projeto);  
+- **BP_AIController** do tipo `AIController`.
+- **BP_HumanBase** do tipo `BP_PlayerBase`
 
-**5.** Configurar `World Settings` adicionando as classes de controle de jogador **BP_PlayerController**, modo do jogo **BP_GameMode** e o personagem **BP_PlayerBase**;
+Configure `World Settings` adicionando as classes de controle de jogador **BP_PlayerController**, modo do jogo **BP_GameMode** e o personagem **BP_PlayerBase**;
 
 ### 1.1. Vídeo preparando o projeto de IA
 
@@ -59,6 +46,21 @@ Em este passo iremos implementar a classe *Character* para o NPC (Personagem nã
 
 A classe Blueprint **BP_NPC** do tipo *Character* e logo em seguida adicionar a malha do esqueleto (*Skeletal mesh*) e as animações do manequim padrão do *Engine*.
 
+{% include imagelocal.html
+  src="unreal/ia/unreal-engine-ia-class-properties.webp"
+  alt="Figura: Variáveis do objeto Timeline. "
+  caption="O gráfico utiliza os tipos de dados: Float, Vector, Event e `Color`."
+%}
+
+{% include imagelocal.html
+  src="unreal/ia/unreal-engine-ia-move-ia.webp"
+  alt="Figura: Variáveis do objeto Timeline. "
+  caption="O gráfico utiliza os tipos de dados: Float, Vector, Event e `Color`."
+%}
+
+- `AI MoveTo` - Movimenta o peão com AIController para um local específico;
+- `NavMesh` - Permite que os peões encontrem seu caminho através de obstáculos, rampas ou saltos de saliências. Enquanto estiver no editor e com um NavMeshBoundsVolume colocado no nível, pressionar a tecla P mostrará/ocultará a área que o NavMesh cobre.
+  
 ### 1.3. Inteligência Artificial, implementando o NPC
 
 {% include video id="3i5omWI6r-U" provider="youtube" %}
@@ -117,7 +119,7 @@ Seu personagem se volta para a direção da viagem. Não importa para que lado a
 
 ### 3.1. Vídeo Implementando a movimentação do NPC
 
-{% include video id="5F0Vr4t0mg" provider="youtube" %}
+{% include video id="Q5F0Vr4t0mg" provider="youtube" %}
 
 #### 3.1.1. Andando aleatoriamente
 
