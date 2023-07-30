@@ -125,8 +125,11 @@ dev_unreal_5:
   - title: "Capítulo 5"
   - title: INTELIGÊNCIA ARTIFICIAL      
     children:
-      - title: Inteligência Artificial
+      - title: Movimentação Básica
         url: /pages/unreal-engine/inteligencia-artificial
+    children:
+      - title: Behaivor Tree
+        url: /pages/unreal-engine/inteligencia-artificial-behaivor-tree
   - title: MULTIPLAYER
     children:
       - title: Multiplayer
