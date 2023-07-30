@@ -45,7 +45,7 @@ Em este passo iremos implementar a classe *Character* para o NPC (Personagem nã
 A classe Blueprint **BP_NPC** do tipo *Character* e logo em seguida adicionar a malha do esqueleto (*Skeletal mesh*) e as animações do manequim padrão do *Engine*.
 
 {% include imagelocal.html
-  src="unreal/ia/unreal-engine-ia-class-properties.webp"
+  src="unreal/ia/unreal-engine-ia-npc-class-properties.webp"
   alt="Figura: AutoPossesAI."
   caption=" Determina quando o Peão é criado e possuído por um Controlador AI (no início do nível, quando gerado, etc)."
 %}
