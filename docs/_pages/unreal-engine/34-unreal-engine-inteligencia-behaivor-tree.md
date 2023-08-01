@@ -18,7 +18,7 @@ tags:
 
 Em este passo iremos implementar os elementos necessários para controles de movimentação do NPC.
 
-## 1. Componentes do NPC
+## 1. Objetos de controle
 
 Devemos criar as classes Blueprints:
 
@@ -29,14 +29,6 @@ Devemos criar as classes Blueprints:
 - BB_NPC do tipo `Blackboard`;  
 
 A estrutura de controle das classes é a seguinte: O *Character* tem como controlador o `AIController` que executa a árvore `Behaivor Tree` a qual utiliza o `Blackboard` para a armazenamento de variáveis.  
-
-**BP_NPC** -> **BP_NPC_Controller** -> (**BH_NPC**  + **BB_NPC**)
-
-{% include imagelocal.html
-    src="unreal/ia/unreal-engine-ia-navmeshboundsvolume.webp"
-    alt="Figura: NavMeshBoundVolume "
-    caption="Permite informar ao Unreal Engine onde o caminho atravessável deve ser gerado."
-%}
 
 ## 2. Blackboard
 
@@ -50,12 +42,16 @@ Para criar o objeto utilize `Menu de Contexto` > `Artificial Intelligence` > `Bl
     caption="Exemplo de variáveis para movimentação de patrulhamento e perseguição."
 %}
 
-- SelfActor -Key type : `Object` e Base Class : `Actor` que representa o próprio ator;
-- EnemyActor -Key type : `Object` e Base Class : `Actor` para referenciar o jogador;
-- HasLineOfSight - Variável `Bool` para sinalizar quando o jogador é avistado;
-- PatrolLocation - Variável `Vector` para armazenar a posição do ponto de patrulhamento.
+| Variável       | Descrição                                                                 |
+| :------------- | :------------------------------------------------------------------------ |
+| SelfActor      | Key type : `Object` e Base Class : `Actor` que representa o próprio ator; |
+| EnemyActor     | Key type : `Object` e Base Class : `Actor` para referenciar o jogador;    |
+| HasLineOfSight | Variável `Bool` para sinalizar quando o jogador é avistado;               |
+| PatrolLocation | Variável `Vector` para armazenar a posição do ponto de patrulhamento.     |
 
 ## 3. Behavior Tree
+
+Consiste em três painéis: o gráfico da `Behavaior Tree`, onde você exibe visualmente as ramificações e os nós que definem seus comportamentos, o painel `Details`, onde as propriedades de seus nós podem ser definidas e o `Blackboard`, que mostra as Chaves do `Blackboard` e suas respectivas valores atuais quando o jogo está rodando e é útil para depuração.
 
 {% include imagelocal.html
     src="unreal/ia/unreal-engine-ia-behavior-tree.webp"
@@ -63,28 +59,40 @@ Para criar o objeto utilize `Menu de Contexto` > `Artificial Intelligence` > `Bl
     caption="."
 %}
 
+O número ao lado do nó indica a ordem de operação. As árvores de comportamento são executadas da esquerda para a direita e de cima para baixo, portanto, a organização dos nós é importante. As ações mais importantes para a IA geralmente devem ser colocadas à esquerda, enquanto as ações menos importantes (ou comportamentos alternativos) são colocadas à direita. As ramificações filhas são executadas da mesma maneira e, se qualquer ramificação filha falhar, a ramificação inteira interromperá a execução e fará o backup da árvore. Por exemplo, se o `Chase Player` falhar, ele retornará ao `AI Root` antes de passar para o `Patrol`.
+
+Além de usar as Tarefas integradas, você pode criar e atribuir suas Tarefas personalizadas com lógica adicional que você pode personalizar e definir. Esta Tarefa será usada para alterar a velocidade de movimento da IA para que ela corra atrás do Jogador. Ao criar uma nova Tarefa, um novo Blueprint será criado e aberto automaticamente.
+
 {% include imagelocal.html
     src="unreal/ia/unreal-engine-ia-chase-player.webp"
     alt="Figura: Chase Player"
-    caption="."
+    caption="Tarefa que implementa a lógica para alterar a velocidade do NPC."
 %}
 
 {% include imagelocal.html
     src="unreal/ia/unreal-engine-ia-findrandompatrol.webp"
     alt="Figura: FindRandomPatrol"
-    caption="."
+    caption="Função para determinar pontos de caminhamento."
 %}
+
+`GetRandomReachablePointInRadius`.
+
+Localiza um ponto alcançável aleatório no espaço navegável restrito ao Raio em torno da Origem.
+
+`Set Blackboard Value`.
+
+Altera o valor das variáveis no BlackBoard passado como parâmetro.
 
 {% include imagelocal.html
     src="unreal/ia/unreal-engine-ia-iacontroller-event-on-posses.webp"
     alt="Figura: EventOnPosses "
-    caption="."
+    caption="Evento para associar e executar Behavior Tree ao IAController."
 %}
 
 {% include imagelocal.html
     src="unreal/ia/unreal-engine-ia-iacontroller-on-target-perception-updated.webp"
     alt="Figura: OnTargetPerceptionUpdated "
-    caption="."
+    caption="Notifica todos os objetos vinculados que as informações de percepção foram atualizadas para um determinado alvo."
 %}
 
 Configurando a árvore de comportamento:
@@ -104,26 +112,6 @@ Na lógica utilizamos *Get Player Pawn* para obter o objeto *Pawn* instanciado d
 ### 3.1. Vídeo Implementando a árvore de comportamento
 
 {% include video id="hpkZEdqbD6o" provider="youtube" %}
-
-## 4. Movimentação do NPC
-
-Neste passo iremos suavizar a movimentação do NPC configurando os controles de rotação.  
-
-Na classe principal de **BP_NPC**:
-
-- Na classe principal **BP_NPC** configure `Use Controller Rotation Yaw` = *False* para que o personagem não utilize o controlador na rotação ;
-
-- No Componente `CharacterMovement` configure `Rotation Rate` Z=540
-
-Aumenta a taxa de rotação;
-
-- Em `Orient Rotation to Movement` = *true*;  
-
-Seu personagem se volta para a direção da viagem. Não importa para que lado a câmera esteja.
-
-### 4.1. Vídeo Implementando a movimentação do NPC
-
-{% include video id="Q5F0Vr4t0mg" provider="youtube" %}
 
 #### 4.1.1. Andando aleatoriamente
 
