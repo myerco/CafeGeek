@@ -20,7 +20,7 @@ Em este passo iremos implementar os elementos necessários para controles de mov
 
 ## 1. Objetos de controle
 
-Devemos criar as classes Blueprints:
+Devemos usar as classes Blueprints:
 
 - BP_NPC_Controller do tipo `AIController`;
 
@@ -38,7 +38,7 @@ Para criar o objeto utilize `Menu de Contexto` > `Artificial Intelligence` > `Bl
 
 {% include imagelocal.html
     src="unreal/ia/unreal-engine-ia-blackboard.webp"
-    alt="Figura: Blackboard"
+    alt="Figura: Blackboard - "
     caption="Exemplo de variáveis para movimentação de patrulhamento e perseguição."
 %}
 
@@ -55,8 +55,8 @@ Consiste em três painéis: o gráfico da `Behavaior Tree`, onde você exibe vis
 
 {% include imagelocal.html
     src="unreal/ia/unreal-engine-ia-behavior-tree.webp"
-    alt="Figura: Behavior Tree"
-    caption="."
+    alt="Figura: Behavior Tree - "
+    caption=" Árvore de comportamento para patrulhamento e perseguição."
 %}
 
 O número ao lado do nó indica a ordem de operação. As árvores de comportamento são executadas da esquerda para a direita e de cima para baixo, portanto, a organização dos nós é importante. As ações mais importantes para a IA geralmente devem ser colocadas à esquerda, enquanto as ações menos importantes (ou comportamentos alternativos) são colocadas à direita. As ramificações filhas são executadas da mesma maneira e, se qualquer ramificação filha falhar, a ramificação inteira interromperá a execução e fará o backup da árvore. Por exemplo, se o `Chase Player` falhar, ele retornará ao `AI Root` antes de passar para o `Patrol`.
@@ -65,33 +65,29 @@ Além de usar as Tarefas integradas, você pode criar e atribuir suas Tarefas pe
 
 {% include imagelocal.html
     src="unreal/ia/unreal-engine-ia-chase-player.webp"
-    alt="Figura: Chase Player"
+    alt="Figura: Chase Player - "
     caption="Tarefa que implementa a lógica para alterar a velocidade do NPC."
 %}
 
 {% include imagelocal.html
     src="unreal/ia/unreal-engine-ia-findrandompatrol.webp"
-    alt="Figura: FindRandomPatrol"
+    alt="Figura: FindRandomPatrol - "
     caption="Função para determinar pontos de caminhamento."
 %}
 
-`GetRandomReachablePointInRadius`.
+**`GetRandomReachablePointInRadius`** - Localiza um ponto alcançável aleatório no espaço navegável restrito ao Raio em torno da Origem.
 
-Localiza um ponto alcançável aleatório no espaço navegável restrito ao Raio em torno da Origem.
-
-`Set Blackboard Value`.
-
-Altera o valor das variáveis no BlackBoard passado como parâmetro.
+**`Set Blackboard Value`** - Altera o valor das variáveis no BlackBoard passado como parâmetro.
 
 {% include imagelocal.html
     src="unreal/ia/unreal-engine-ia-iacontroller-event-on-posses.webp"
-    alt="Figura: EventOnPosses "
+    alt="Figura: EventOnPosses - "
     caption="Evento para associar e executar Behavior Tree ao IAController."
 %}
 
 {% include imagelocal.html
     src="unreal/ia/unreal-engine-ia-iacontroller-on-target-perception-updated.webp"
-    alt="Figura: OnTargetPerceptionUpdated "
+    alt="Figura: OnTargetPerceptionUpdated - "
     caption="Notifica todos os objetos vinculados que as informações de percepção foram atualizadas para um determinado alvo."
 %}
 

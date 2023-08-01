@@ -28,10 +28,12 @@ A seguir vamos criar os Blueprints dos personagens e os controles.
 
 - **BP_PlayerController** do tipo `PlayerController`;
 - **BP_GameMode** do tipo `GameMode`;
-- **BP_PlayerBase** do tipo *Character* (vamos duplicar e utilizar o já existente no projeto);  
-- **BP_AIController** do tipo `AIController`;
-- **BP_HumanBase** do tipo `BP_PlayerBase`.
-- **BP_NPC** do tipo `BP_PlayerBase`.
+- **BP_CharacterBase** do tipo *Character* (vamos duplicar e utilizar o existente no projeto);  
+- **BP_NPC_Controller** do tipo `AIController`;
+- **BP_HumanBase** do tipo `BP_CharacterBase`.
+- **BP_NPC** do tipo `BP_CharacterBase`.
+- **BH_NPC do tipo** `Behaivor Tree`;
+- **BB_NPC** do tipo `Blackboard`;  
 
 Configure `World Settings` adicionando as classes de controle de jogador **BP_PlayerController**, modo do jogo **BP_GameMode** e o personagem **BP_HumanBase**;
 
@@ -41,17 +43,15 @@ Configure `World Settings` adicionando as classes de controle de jogador **BP_Pl
 
 ## 2. NPC básico
 
-A classe Blueprint **BP_NPC** do tipo *Character/BP_PlayerBase* e logo em seguida adicionar a malha do esqueleto (*Skeletal mesh*) e as animações do manequim padrão do *Engine*.
+A classe Blueprint **BP_NPC** do tipo *Character/BP_CharacterBase* e logo em seguida adicionar a malha do esqueleto (*Skeletal mesh*) e as animações do manequim padrão do *Engine*.
 
 {% include imagelocal.html
   src="unreal/ia/unreal-engine-ia-npc-class-properties.webp"
-  alt="Figura: AutoPossessAI e AI Controller Class."
-  caption="Detalhe das classe."
+  alt="Figura: AutoPossessAI e AI Controller Class - "
+  caption="Alterando os parâmetros da classe em Details."
 %}
 
-`AutoPossesAI`
-
-Determina quando o Peão é criado e possuído por um Controlador AI (no início do nível, quando gerado, etc).
+**`AutoPossesAI`** - Determina quando o Peão é criado e possuído por um Controlador AI (no início do nível, quando gerado, etc).
 
 | Opções                        | Descrição                                                                               |
 | :---------------------------- | :-------------------------------------------------------------------------------------- |
@@ -59,11 +59,9 @@ Determina quando o Peão é criado e possuído por um Controlador AI (no início
 | `Placed in World  or Spawned` | O peão é automaticamente possuído por um AI Controller sempre que é criado;             |
 | `Spawner`                     | Possuir apenas por um controlador AI se o peão for gerado após o carregamento do mundo. |
 
-`AI Controller Class`
+**`AI Controller Class`** - É a classe base de controladores para peões controlados por IA. Os controladores são atores não físicos que podem ser anexados a um peão para controlar suas ações. AIControllers gerenciam a inteligência artificial para os peões que controlam.
 
-É a classe base de controladores para peões controlados por IA. Os controladores são atores não físicos que podem ser anexados a um peão para controlar suas ações. AIControllers gerenciam a inteligência artificial para os peões que controlam.
-
-Em jogos em rede, eles existem apenas no servidor.
+**Informação**: Em jogos em rede, eles existem apenas no servidor.
 {: .notice--info}
 
 ### 2.1. Vídeo implementando o NPC
@@ -72,19 +70,21 @@ Em jogos em rede, eles existem apenas no servidor.
 
 ### 2.2. Alterando velocidade
 
-Podemos implementar uma função para alterar a velocidade do NPC.
+Implementando uma função para alterar a velocidade do NPC.
 
 {% include imagelocal.html
     src="unreal/ia/unreal-engine-ia-npc-update-walk-speed.webp"
-    alt="Figura: Função : NPC > Update Walk Speed "
+    alt="Figura: Função : NPC > Update Walk Speed - "
     caption="Lógica para alterar a movimentação."
 %}
 
 ## 3. AI MoveTo
 
+O "AI Move To" é uma função projetada para permitir que personagens controlados por inteligência artificial (AI) naveguem pelo ambiente do jogo até um destino específico.
+
 {% include imagelocal.html
   src="unreal/ia/unreal-engine-ia-npc-move-ia.webp"
-  alt="Figura: AI MoveTo"
+  alt="Figura: AI MoveTo - "
   caption="Movimenta o peão com AIController para um local específico."
 %}
 
@@ -94,7 +94,7 @@ Permite que os peões encontrem seu caminho através de obstáculos, rampas ou s
 
 {% include imagelocal.html
     src="unreal/ia/unreal-engine-ia-navmeshboundsvolume.webp"
-    alt="Figura: NavMeshBoundsVolume "
+    alt="Figura: NavMeshBoundsVolume - "
     caption="Adicione o componente NavMeshBoundVolume para definir fronteiras de movimentação do NPC."
 %}
 
@@ -102,11 +102,11 @@ Você pode pressionar a tecla **P** para apresentar a `NavMesh` no ViewPort (ár
 
 ## 5. Movimentação
 
-Neste passo iremos suavizar a movimentação do NPC configurando os controles de rotação.  
+Neste passo iremos suavizar a movimentação do NPC configurando os controles de rotação.
 
-Na classe principal de **BP_NPC**:
+Na classe principal **BP_NPC** configure :
 
-- Na classe principal **BP_NPC** configure `Use Controller Rotation Yaw` = *False* para que o personagem não utilize o controlador na rotação ;
+- `Use Controller Rotation Yaw` = *False* para que o personagem não utilize o controlador na rotação ;
 
 - No Componente `CharacterMovement` configure `Rotation Rate` Z=540
 
