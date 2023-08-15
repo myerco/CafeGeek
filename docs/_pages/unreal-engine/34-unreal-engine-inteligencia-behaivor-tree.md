@@ -109,7 +109,7 @@ Na lógica utilizamos *Get Player Pawn* para obter o objeto *Pawn* instanciado d
 
 {% include video id="hpkZEdqbD6o" provider="youtube" %}
 
-#### 4.1.1. Andando aleatoriamente
+#### 3.1.1. Andando aleatoriamente
 
 Neste passo iremos adicionar a lógica para que o NPC caminhe para pontos
 aleatórios.
@@ -126,11 +126,11 @@ Utilizaremos a função **GetRandomPointInNavigableRadius** com o valor de *Radi
 
 **5.** Aguardar 2 segundos;
 
-### 4.2. Vídeo implementando o movimento aleatório
+### 3.2. Vídeo implementando o movimento aleatório
 
 {% include video id="HSle6iTEBQI" provider="youtube" %}
 
-## 5. Adicionando percepção de visão
+## 4. Adicionando percepção de visão
 
 Para este passo devemos adicionar componentes no personagem **BB_NPC** e implementar
 lógica de detecção do jogador.
@@ -154,11 +154,11 @@ lógica de detecção do jogador.
 
   Esta configuração vai ser utilizada no projeto atual.
 
-### 5.1. Vídeo implementando a percepção ou visão do NPC
+### 4.1. Vídeo implementando a percepção ou visão do NPC
 
 {% include video id="m7DflYieVE0" provider="youtube" %}
 
-#### 5.1.1. Adicionando as condições de percepção na árvore
+#### 4.1.1. Adicionando as condições de percepção na árvore
 
 Neste passo vamos adicionar obstáculos no ambiente e configurar a árvore combinando os
 nós perseguindo jogador e andando aleatoriamente.
@@ -181,11 +181,11 @@ nós perseguindo jogador e andando aleatoriamente.
 
 3. Será criada a *task* **PersegueJogador** para substituir **Move To**;
 
-### 5.2. Vídeo implementando a percepção na árvore de comportamento
+### 4.2. Vídeo implementando a percepção na árvore de comportamento
 
 {% include video id="Ge69lptbC2g" provider="youtube" %}
 
-#### 5.2.1. Adicionando o loop da percepção na árvore
+#### 4.2.1. Adicionando o loop da percepção na árvore
 
 Neste passo vamos adicionar um decorator loop para implementar um laço de repetição
 dos nós.
@@ -193,11 +193,11 @@ dos nós.
 1. No nó com o `decorator` **Está vendo o jogador** adicionaremos o `decorator` *Loop*
 para reexecutar os elementos.
 
-### 5.3. Vídeo implementando a percepção e o loop na árvore de comportamento
+### 4.3. Vídeo implementando a percepção e o loop na árvore de comportamento
 
 {% include video id="U9oIU841U44" provider="youtube" %}
 
-## 6. Organizando os nós
+## 5. Organizando os nós
 
 Neste passo vamos renomear os nós para algo que faça sentido.
 
@@ -210,11 +210,11 @@ tarefa retornar *false*. O decorator *loop* deve ser removido.
 
 4. Adicionar a tarefa **Persegue Jogador** removendo **Move To**.
 
-### 6.1. Vídeo organizando os nós
+### 5.1. Vídeo organizando os nós
 
 {% include video id="zoZxqSm42EQ" provider="youtube" %}
 
-## 7. Mudando velocidade do NPC
+## 6. Mudando velocidade do NPC
 
 Neste passo iremos criar um serviço que altera a velocidade do NPC;
 
@@ -223,11 +223,11 @@ Neste passo iremos criar um serviço que altera a velocidade do NPC;
 2. Na classe NPC criar a variável **Pawn_NPC** para que possamos ter acesso aos componentes
 e variáveis do NPC;
 
-### 7.1. Vídeo mudando a velocidade do NPC
+### 6.1. Vídeo mudando a velocidade do NPC
 
 {% include video id="-pPuWw-CL9o" provider="youtube" %}
 
-## 8. Patrulhamento com ponto de controle 01
+## 7. Patrulhamento com ponto de controle 01
 
 Nos próximos passos devemos implementar o patrulhamento utilizando pontos de controle.
 
@@ -239,11 +239,11 @@ para servir de marcação dos pontos. A variável deve ter os atributos *Instanc
 3. No classe **BB_NPC** adicionaremos uma variável **Caminho** do tipo **BP_Caminho**
 assim possibilitamos acesso do NPC ao caminho.
 
-### 8.1. Vídeo implementando patrulhamento e controle 1
+### 7.1. Vídeo implementando patrulhamento e controle 1
 
 {% include video id="vKeJ7n9Yf30" provider="youtube" %}
 
-#### 8.1.1. Tarefa para pegar um ponto de patrulhamento
+#### 7.1.1. Tarefa para pegar um ponto de patrulhamento
 
 Neste passo vamos implementar uma tarefa para pegar o ponto de controle dentro
 do objeto caminho associado ao NPC.
@@ -253,11 +253,11 @@ do objeto caminho associado ao NPC.
 1. Insere a nova tarefa em uma subárvore e em sequencia adicionamos a tarefa **MoveTo**
 com o parâmetro **PontoDestino** atualizado.
 
-### 8.2. Vídeo implementando a tarefa para pegar um ponto de patrulhamento
+### 7.2. Vídeo implementando a tarefa para pegar um ponto de patrulhamento
 
 {% include video id="tx1BoKuQLnw" provider="youtube" %}
 
-#### 8.2.1. Tarefa para pegar o próximo ponto de controle
+#### 7.2.1. Tarefa para pegar o próximo ponto de controle
 
 Neste passo vamos implementar a tarefa para pegar o próximo ponto de controle.
 
@@ -266,11 +266,11 @@ Neste passo vamos implementar a tarefa para pegar o próximo ponto de controle.
 2. Caso o resultado anterior seja maior que o número de pontos associados ao caminho, verificamos se a variável **RepeteCaminho** (Variável *boolean* do NPC) é verdadeira
 para atribuir o valor 0 marcando o início dos pontos ou finalizamos a tarefa.
 
-### 8.3. Vídeo implementando a tarefa para pegar o próximo ponto de patrulhamento
+### 7.3. Vídeo implementando a tarefa para pegar o próximo ponto de patrulhamento
 
 {% include video id="_JYS5mGJnMA" provider="youtube" %}
 
-## 9. Adicionando Enum para armazenar os estados do NPC
+## 8. Adicionando Enum para armazenar os estados do NPC
 
 Neste passo vamos adicionar a variável **EstadoNPC** do tipo *Enum* com a finalidade
 de armazenar diversos estados do NPC, como por exemplo:
@@ -289,15 +289,15 @@ Logo em seguida vamos fazer o seguinte:
 
 {% include video id="TSXPr_P2bfE" provider="youtube" %}
 
-### 9.1. Implementando tarefa para mudança de estado
+### 8.1. Implementando tarefa para mudança de estado
 
 Neste passo vamos implementar uma tarefa para alterar a variável **EstadoNPC** modificando o estado do NPC.  
 
-### 9.2. Vídeo implementando tarefa para mudança de estado
+### 8.2. Vídeo implementando tarefa para mudança de estado
 
 {% include video id="aqrjHEzfGbw" provider="youtube" %}
 
-## 10. Testando a árvore com pontos de controle e perseguição
+## 9. Testando a árvore com pontos de controle e perseguição
 
 Neste passo iremos organizar a árvore e testar o projeto.
 
@@ -305,11 +305,11 @@ Neste passo iremos organizar a árvore e testar o projeto.
 
 2. **Cooldown** adicione o valor 0.2 em *Cool Down Time*  
 
-### 10.1. Vídeo testando a árvore com pontos de controle e perseguição
+### 9.1. Vídeo testando a árvore com pontos de controle e perseguição
 
 {% include video id="AiIUC0Itds4" provider="youtube" %}
 
-## 11. Alerta de distância do jogador
+## 10. Alerta de distância do jogador
 
 Neste passo iremos implementar um aviso de alerta de proximidade de jogador.
 
@@ -319,6 +319,6 @@ Neste passo iremos implementar um aviso de alerta de proximidade de jogador.
 
 3. Variável **Distancia** com o valor 500 para servir como parâmetro de distâncias.
 
-### 11.1. Vídeo alerta de distância do jogador
+### 10.1. Vídeo alerta de distância do jogador
 
 {% include video id="lDSNGngSvfg" provider="youtube" %}
