@@ -214,3 +214,14 @@ banco_dados:
     children:
       - title: A taberna do Pônei Saltitante
         url: /pages/banco-dados    
+
+
+planejamento:
+  - title: Planejamento
+    children:
+      - title: Introdução
+        url: /pages/planejamento/introducao
+      - title: Acompanhamento
+        url: /pages/planejamento/acompanhamento
+      - title: Entrega
+        url: /pages/planejamento/entrega
