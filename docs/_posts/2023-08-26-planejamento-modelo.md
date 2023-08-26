@@ -1,5 +1,6 @@
 ---
 title: "Modelo de Planejamento"
+mermaid: true
 categories:
   - unreal engine
 tags:
@@ -42,3 +43,11 @@ tags:
 - In Progress
 - Ready for test
 - Done
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```  

@@ -361,7 +361,3 @@ defaults:
       layout: single
       author_profile: false
       share: true      
-
-## Adicionando mermaid
-
-mermaid: true
