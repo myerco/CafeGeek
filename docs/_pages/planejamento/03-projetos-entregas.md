@@ -19,12 +19,16 @@ tags:
 <div class="mermaid">
 timeline
         title Entregas 2023/02
-        section 2023 S1 <br> Release Personal Tier
-          Buttet 1 : sub-point 1a : sub-point 1b
-               : sub-point 1c
-          Bullet 2 : sub-point 2a : sub-point 2b
-        section 2023 S2 <br> Release XYZ Tier
-          Buttet 3 : Protótipo 01 3a : sub-point 3b
-               : sub-point 3c
-          Bullet 4 : sub-point 4a : sub-point 4b
+        section 2023 N1 Avaliação
+          Agaby : Protótipo
+                : Personagens
+                : Gameplay
+          Airon : Protótipo
+                : Personagens
+                : Gameplay
+        section 2023 N2 Avaliação
+          Agaby : UI
+                : Level 1
+          Airon : UI
+                : Level 1
 </div>
