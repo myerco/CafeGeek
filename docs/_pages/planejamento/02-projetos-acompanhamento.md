@@ -24,8 +24,8 @@ gantt
     Initial milestone : milestone, m1, 17:49, 2m
     section Agaby
         Arte 2D                                   :active,  a1, 2023-08-15, 30d
-        Animações (Andar, Correr, Pular,Espera)   :         after a1, 20d
+        Animações (Andar, Correr, Pular,Espera)   :         a2, after a1, 20d
     section Airon
         Desafios                                  :active, b1,2023-08-15, 30d
-        Objetos                                   :        after a1, 20d
+        Objetos                                   :        b2,after a1, 20d
 </div>
