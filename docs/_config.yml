@@ -238,7 +238,6 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-archives
-  - jekyll-mermaid
   
 # mimic GitHub Pages with --safe
 whitelist:
@@ -363,3 +362,6 @@ defaults:
       author_profile: false
       share: true      
 
+## Adicionando mermaid
+
+mermaid: true
