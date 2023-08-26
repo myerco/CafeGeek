@@ -20,7 +20,7 @@ tags:
 gantt
     title Cronograma
     dateFormat YYYY-MM-DD
-    exclude weekends
+    excludes weekends
 
     section Agaby
     Arte 2D                                   :active,  a1, 2023-08-08, 7d
