@@ -44,10 +44,10 @@ tags:
 - Ready for test
 - Done
 
-{% mermaid %}
+<div class="mermaid">
 graph TD;
     A-->B;
     A-->C;
     B-->D;
     C-->D;
-{% endmermaid %}
+</div>
