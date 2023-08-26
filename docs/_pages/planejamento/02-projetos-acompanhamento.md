@@ -21,7 +21,6 @@ gantt
     title Cronograma
     dateFormat YYYY-MM-DD
     exclude weekends
-    Initial milestone : milestone, m1, 17:49, 2m
     section Agaby
         Arte 2D                                   :active,  a1, 2023-08-15, 30d
         Animações (Andar, Correr, Pular,Espera)   :         a2, after a1, 20d
