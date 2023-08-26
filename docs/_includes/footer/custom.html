@@ -1,13 +1,9 @@
 <!-- start custom footer snippets -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.3.1/mermaid.min.js" integrity="sha512-iijJgrEzF9HfJJ8GKxnZdTeXd+UelEAfRfe8eFP6zoF0FmcB0HCJlYYj9DnVxcSfhB77iBVeoHfpfxv+pXO8Ig==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script>
-  $(document).ready(function () {
-    mermaid.initialize({
-      startOnLoad:true
-    });
-    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
-  });
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
 </script>
+
 
 <!-- end custom footer snippets -->
