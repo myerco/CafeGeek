@@ -21,10 +21,12 @@ gantt
     title Cronograma
     dateFormat YYYY-MM-DD
     exclude weekends
+
     section Agaby
-        Arte 2D                                   :active,  a1, 2023-08-15, 30d
-        Animações (Andar, Correr, Pular,Espera)   :         a2, after a1, 20d
+    Arte 2D                                   :active,  a1, 2023-08-08, 7d
+    Animações (Andar, Correr, Pular,Espera)   :active,  a1, 2023-08-15, 7d
+    
     section Airon
-        Desafios                                  :active, b1,2023-08-15, 30d
-        Objetos                                   :        b2,after a1, 20d
+    Desafios                                  :active, b1,2023-08-08, 7d
+    Objetos                                   :active,  a1, 2023-08-15,7d
 </div>
