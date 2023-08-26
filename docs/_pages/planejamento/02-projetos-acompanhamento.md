@@ -21,13 +21,15 @@ gantt
     title Cronograma
     dateFormat YYYY-MM-DD
     exclude weekends
-     Milestone                 :milestone, 2023-08-29, 1h
+    Initial milestone : milestone, m1, 17:49, 2m
+    Milestone                 :milestone, 2023-08-29, 1h
 
     section Agaby
         Arte 2D                                   :active,  a1, 2023-08-15, 30d
         Animações (Andar, Correr, Pular,Espera)   :         after a1, 20d
 
     section Airon
-        Desafios                              :active b1,2023-08-15, 30d
-        Objetos                               :       after a1, 20d
+        Desafios                                  :active, b1,2023-08-15, 30d
+        Objetos                                   :        after a1, 20d
+    Final milestone : milestone, m2, 18:08, 4m
 </div>
