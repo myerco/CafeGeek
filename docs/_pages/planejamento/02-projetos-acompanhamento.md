@@ -25,7 +25,7 @@ gantt
     section Milestones
         Trabalho 1 (2pt)             :milestone, 2023-08-29, 0d
         Trabalho 2 (2pt)             :milestone, 2023-09-26, 0d        
-        Avaliação N1 (6pt)           :milestone, 2023-09-26, 0d                
+        Avaliação N1 (6pt)           :milestone, 2023-03-10, 0d                
 
     section Agaby
     Arte 2D                                   :active,  a1, 2023-08-08, 7d
@@ -48,22 +48,22 @@ gantt
     Apresentação                             :crit, d3, 2023-08-29, 1d                        
 
     section Luis Fernando
-    Projeto                                  :done, b1,2023-08-08, 7d
-    Protótipo Level 1                        :active,  a1, 2023-08-15,7d    
-    Apresentação                             :milestone, m1, 2023-08-29, 0d        
+    Projeto                                  :done, e1,2023-08-08, 7d
+    Protótipo Level 1                        :active,  e1, 2023-08-15,7d    
+    Apresentação                             :crit, e3, 2023-08-29, 0d        
 
     section Olímipio
-    Projeto                                  :done, b1,2023-08-08, 7d
-    Apresentação                             :crit, b2, 2023-08-29, 1d            
+    Projeto                                  :done, f1,2023-08-08, 7d
+    Apresentação                             :crit, f2, 2023-08-29, 1d            
     
     section Henrique e Luis
-    Projeto Endless Runner                  :done, b1,2023-08-08, 7d
-    Protótipo                               :active,  a1, 2023-08-15,7d    
-    Apresentação                            :milestone, m1, 2023-08-29, 0d        
+    Projeto Endless Runner                  :done, g1,2023-08-08, 7d
+    Protótipo                               :active,  g1, 2023-08-15,7d    
+    Apresentação                            :crit, g3, 2023-08-29, 0d        
 
     section Caio
-    Projeto Semestre anterior               :done, b1,2023-08-08, 7d
-    Protótipo                               :active,  a1, 2023-08-15,7d    
-    Apresentação                            :crit, b2, 2023-08-29, 1d                
+    Projeto Semestre anterior               :done, k1,2023-08-08, 7d
+    Protótipo                               :active,  k1, 2023-08-15,7d    
+    Apresentação                            :crit, k2, 2023-08-29, 1d                
 
 </div>

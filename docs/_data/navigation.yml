@@ -225,3 +225,5 @@ planejamento:
         url: /pages/planejamento/acompanhamento
       - title: Entrega
         url: /pages/planejamento/entrega
+      - title: Entrega
+        url: /pages/planejamento/jornada
