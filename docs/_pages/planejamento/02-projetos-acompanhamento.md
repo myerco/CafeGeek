@@ -25,7 +25,7 @@ gantt
     section Milestones
         Trabalho 1 (2pt)             :milestone, 2023-08-29, 0d
         Trabalho 2 (2pt)             :milestone, 2023-09-26, 0d        
-        Avaliação N1 (6pt)           :milestone, 2023-03-10, 0d                
+        Avaliação N1 (6pt)           :milestone, 2023-10-03, 0d                
 
     section Agaby
     Arte 2D                                   :active,  a1, 2023-08-08, 7d

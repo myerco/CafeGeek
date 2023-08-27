@@ -22,7 +22,7 @@ journey
     section Publicação de ideias
       Registro: 5: Solicitante
       Priorização: 3: Grupo
-      Aprovação: 1: Grupo, Solicitante
+      Aprovação: 5: Grupo, Solicitante
     section Planejamento
       Definição de cronograma: 5: Solicitante, Developer
       Recursos: 5: Developer
@@ -31,8 +31,6 @@ journey
       Desenvolvimento: 5: Developer
       Testes: 5: Developer
       Requisitos: Developer, Solicitante
-    section Testes
-      Aprovação: 5: Solicitante
     section Entregas
       Requisitos: 5: Solicitante
       Avaliação: 5:Solicitante
