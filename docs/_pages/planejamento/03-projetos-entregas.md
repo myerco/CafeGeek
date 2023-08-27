@@ -35,9 +35,10 @@ timeline
 
 <div class="mermaid">
 flowchart TB
-    A[Start] --> B[Recebimento]
     subgraph Abertos
-    a1["Viabilidade"]-->a2["Requisitos"]
+    A[Start] --> B[Recebimento]
+    B  --> a1["Viabilidade"]  
+    a1 --> a2["Requisitos"]
     a2 --> a3["Priorização"]
     end
     subgraph Fazer
@@ -51,9 +52,9 @@ flowchart TB
     subgraph Espera
     c3 --> d1["Tetes negocial"]
     d1 --> d2["Homologação"]
-    d2 --> d3{"Sim/Não"}
+    d2 --> d3{"Requisitos aprovados?"}
     d3 -- Não --> c1
-    d3 -- Sim --> d4{"Sim/Não"}
+    d3 -- Sim --> d4{"Libera Versão?"}
     d4 -- Sim --> c1
     end
     subgraph Fechado
