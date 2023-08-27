@@ -32,3 +32,31 @@ timeline
           Airon : UI
                 : Level 1
 </div>
+
+<div class="mermaid">
+flowchart TB
+    A[Start] --> B[Recebimento]
+    subgraph Abertos
+    a1["Vabilidade"]-->a2["Requisitos"]
+    a2 --> a3["Priorização"]
+    end
+    subgraph Fazer
+    a3 --> b1["Elaborar Projeto"]
+    end
+    subgraph Fazendo
+    b1 -->c1["Implementação"]
+    c1 -->c2["Testes"]
+    c2 -->c3["Entregas"]
+    end
+    subgraph Espera
+    c3 -->d1["Tetes negocial"]
+    d1 -->d2["Homologação"]
+    d2 -->d3{""}
+    d3 -- Não -->c1
+    d3 -- Sim -->d4[""]
+    d4 -- Sim -->c1
+    end
+    subgraph Fechado
+    d4 -- Não -->e1["Termo Entrega Final"]
+    end
+</div>
