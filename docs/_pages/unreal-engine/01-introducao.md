@@ -33,8 +33,6 @@ Um jogo digital é um produto de software e como muitos projetos de desenvolvime
 [Programação](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores) é o processo de escrita, teste e manutenção de um programa de computador. O programa é escrito em uma linguagem de programação, embora seja possível, com alguma dificuldade, o escrever diretamente em linguagem de máquina. Diferentes partes de um programa podem ser escritas em diferentes linguagens.
 
 ```cpp
-// Your First C++ Program
-
 #include <iostream>
 
 int main() {

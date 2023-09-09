@@ -10,6 +10,8 @@ main:
     url: /collection-archive/    
   - title: "Posts"    
     url: /post-archive-feature-rows/
+  - title: "Portfolio"    
+    url: /portfolio/    
   - title: "Sobre"
     url: /about/
 
@@ -33,7 +35,7 @@ dev_unreal:
   - title: "Capítulo 1"
   - title: INTRODUÇÃO
     children:
-      - title: Desenvolvimento de jogos
+      - title: Introdução ao Unreal Engine
         url: /pages/unreal-engine/introducao
       - title: Instalação e Configuração
         url: /pages/unreal-engine/instalacao-configuracao
