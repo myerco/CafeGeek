@@ -8,12 +8,13 @@ sidebar:
 toc: true  
 categories:
   - Unreal Engine
+  - Mecânicas
+  - Dinâmicas
 tags:
   - Curso
-  - desenvolvimento de jogos
+  - Desenvolvimento de Jogos
+  - Iniciante 
 ---
-
-[Iniciante](/collection-archive/){: .btn .btn--success}
 
 ## 1. Como é o desenvolvimento de jogos digitais?
 
@@ -176,13 +177,7 @@ A maioria das *Engines* seguem um ciclo de execução da lógica de programaçã
 
 ## 5. O que é Unreal Engine?
 
-{% include image.html
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg/800px-Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg"
-    alt="Figura: Unreal Engine."
-    ref="https://www.unrealengine.com/en-US/"
-%}
-
-É uma *Engine* (motor gráfico) para desenvolvimento de jogos que engloba vários aspectos na sua produção, a seguir listamos algumas funcionalidades:
+![image-center](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg/800px-Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg){: .align-left} É uma *Engine* (motor gráfico) para desenvolvimento de jogos que engloba vários aspectos na sua produção, a seguir listamos algumas funcionalidades:
 
 1. Edição e compilação da lógica de programação;
 

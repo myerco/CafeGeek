@@ -9,11 +9,10 @@ sidebar:
 categories:
   - Unreal Engine
 tags:
-  - instalação
-  - configuração
+  - Instalação
+  - Configuração
+  - Iniciante
 ---
-
-[Iniciante](/collection-archive/){: .btn .btn--success}
 
 ## 1. O Unreal Engine
 
@@ -21,7 +20,11 @@ O **Unreal Engine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) d
 
 O **Unreal Engine** utiliza a linguagem C++ e um ambiente de programação visual denominado *Blueprint*, para que possamos habilitar a programação em linguagem **C++** é necessário instalar o **Visual Studio** ou **Visual Code** e baixar os pacotes de desenvolvimento em **C++**.
 
-Para facilitar a instalação e atualização do ambiente de desenvolvimento dos projetos, a **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **Inicializador da Epic Games** responsável por:
+{% include imagelocal.html
+    src="unreal/projeto/unreal-engine-control-version.webp"
+    alt="Figura: Gerenciamento de versões."
+    caption="Inicializador da Epic Games > Versões Instaladas, Lista de versões instaladas do Unreal Engine."
+%}{: .align-left} Para facilitar a instalação e atualização do ambiente de desenvolvimento dos projetos, a **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **Inicializador da Epic Games** responsável por:
 
 - Instalação e atualização de jogos;
 
@@ -31,11 +34,7 @@ Para facilitar a instalação e atualização do ambiente de desenvolvimento dos
 
 - Instalação e atualização de uma biblioteca de *plugins* e *assets* (recursos).
 
-{% include imagelocal.html
-    src="unreal/projeto/unreal-engine-control-version.webp"
-    alt="Figura: Gerenciamento de versões."
-    caption="Inicializador da Epic Games > Versões Instaladas, Lista de versões instaladas do Unreal Engine."
-%}
+
 
 ## 2. Como instalar o Unreal Engine?
 
