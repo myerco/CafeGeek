@@ -8,21 +8,21 @@ header:
 excerpt: >
   Um jogo digital é um produto de software e como muitos projetos de desenvolvimento envolve diversas áreas de conhecimento na sua construção
 feature_row:
-  - image_path: /assets/images/jogos-digitais/andreas-haslinger-QY2VcNMLX5o-unsplash.webp
+  - image_path: /assets/images/jogos-digitais/logo-jogos-digitais.webp
     alt: "O Curso de Jogos Digitais"
     title: "O Curso de Jogos Digitais"
     excerpt: "O curso abrange Mecânicas, Estéticas e Dinâmicas dos jogos digitais, especificamente aprenda estruturas de desenvolvimento, roteirização ou narrativa e arte digital."
     url: "/about/jogos-digitais"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
-  - image_path: /assets/images/jogatina-das-decadas/juliane-liebermann-okBa2fFynvs-unsplash.webp
+  - image_path: /assets/images/jogos-digitais/logo-jogatina-das-decadas.webp
     alt: "A Jogatina das décadas"
     title: "A Jogatina das décadas"
     excerpt: "O objetivo deste curso é apresentar as características e elementos associados aos jogos eletrônicos."
     url: "/pages/a-jogatina-das-decadas/introducao"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
-  - image_path: /assets/images/jogos-digitais/etienne-girardet-EP6_VZhzXM8-unsplash.webp
+  - image_path: /assets/images/jogos-digitais/logo-me-conta-uma-historia.webp
     alt: "Me conta uma história"
     title: "Me conta uma história"
     excerpt: "Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história."
