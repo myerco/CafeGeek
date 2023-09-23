@@ -10,8 +10,8 @@ main:
     url: /collection-archive/    
   - title: "Posts"    
     url: /post-archive-feature-rows/
-  - title: "Portfolio"    
-    url: /portfolio/    
+#  - title: "Portfolio"    
+#    url: /portfolio/    
   - title: "Sobre"
     url: /about/
 
