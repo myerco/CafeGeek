@@ -24,7 +24,9 @@ O **Unreal Engine** utiliza a linguagem C++ e um ambiente de programação visua
     src="unreal/projeto/unreal-engine-control-version.webp"
     alt="Figura: Gerenciamento de versões."
     caption="Inicializador da Epic Games > Versões Instaladas, Lista de versões instaladas do Unreal Engine."
-%}{: .align-left} Para facilitar a instalação e atualização do ambiente de desenvolvimento dos projetos, a **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **Inicializador da Epic Games** responsável por:
+%}
+
+Para facilitar a instalação e atualização do ambiente de desenvolvimento dos projetos, a **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **Inicializador da Epic Games** responsável por:
 
 - Instalação e atualização de jogos;
 
@@ -33,8 +35,6 @@ O **Unreal Engine** utiliza a linguagem C++ e um ambiente de programação visua
 - Instalação e atualização das versões do **Unreal Engine**;
 
 - Instalação e atualização de uma biblioteca de *plugins* e *assets* (recursos).
-
-
 
 ## 2. Como instalar o Unreal Engine?
 
