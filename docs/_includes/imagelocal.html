@@ -18,7 +18,11 @@
       {%- endif %}  
     </figcaption>
     {%- if include.ref %}
-      <a href="{{ include.ref }}">{{ include.ref }}</a> 
+      {%- if include.idref %}    
+        <a href="[{{ include.idref }}]">{{ include.ref }}</a> 
+      {% else %}
+        <a href="{{ include.ref }}">{{ include.ref }}</a> 
+      {%- endif %}
     {%- endif %}
   </figure>
 </div>  

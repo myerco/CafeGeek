@@ -24,6 +24,7 @@ tags:
     src="jogatina-das-decadas/Cover-shallow-1800x1100.webp"
     alt="Figura: Life is a game. This is your strategy guide."
     caption="A vida real é o jogo que – literalmente – todo mundo está jogando. Mas pode ser difícil. Este é o seu guia."
+    idref="OLIVER"
     ref="https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/"
 %}
 
