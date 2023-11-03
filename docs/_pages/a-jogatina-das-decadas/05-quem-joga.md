@@ -23,7 +23,7 @@ Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior 
 
 ### 1.1. O jogador
 
-{% include imagelocal.html
+{% include image.html
     src="https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp"
     alt="Figura: Top 5 Most Popular Online Games for Women."
     caption="Os jogos online estão mais populares do que nunca e as mulheres representam mais de 48% da população de jogadores. Não existe um perfil de mulher que joga jogos online. Embora geralmente representem uma parcela maior daqueles que jogam jogos casuais, as mulheres também são atraídas por muitos outros gêneros."
@@ -38,7 +38,7 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 
 ### 1.2. O que é jogar?
 
-{% include imagelocal.html
+{% include image.html
     src="https://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg"
     alt="Figura: Jogador Nº 1."
     caption="Diversão, referências e o orgulho geek"
@@ -58,7 +58,7 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 
 ### 1.3. Por que jogar?
 
-{% include imagelocal.html
+{% include image.html
     src="https://lavrapalavra.com/wp-content/uploads/2021/01/apagar.png"
     alt="Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia."
     caption="A verdadeira nostalgia é a nostalgia de um mundo sem nostalgia. Quem odeia o destrutivo terá que odiar também a vida: apenas a morte é a alegoria do vivente não deformado (Adorno)"
@@ -241,6 +241,7 @@ Abaixo estão dez jogos com o que consideramos os melhores efeitos de iluminaç�
     src="https://upload.wikimedia.org/wikipedia/pt/b/be/Guitar_Hero_3_capa.png"
     alt="Figura: Guitar Hero III."
     caption="Legends of Rock."
+    idref="WIKIPEDIA"
     ref="https://pt.wikipedia.org/wiki/Guitar_Hero_III:_Legends_of_Rock"
 %}
 
