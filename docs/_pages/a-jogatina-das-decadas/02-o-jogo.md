@@ -23,7 +23,7 @@ tags:
 {% include imagelocal.html
     src="jogatina-das-decadas/Cover-shallow-1800x1100.webp"
     alt="Figura: Life is a game. This is your strategy guide."
-    caption="A vida real é o jogo que – literalmente – todo mundo está jogando. Mas pode ser difícil. Este é o seu guia."
+    caption="A vida real é o jogo que – literalmente – todo mundo está jogando. Mas pode ser difícil. "
     idref="OLIVER"
     ref="https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/"
 %}
@@ -46,6 +46,7 @@ Quando pensamos no aspecto humano e evolutivo não podemos deixar de citar algum
     src="jogatina-das-decadas/brincar.webp"
     alt="Figura: Soraia Chung: O brincar elabora uma ideia de humanidade."
     caption="São os adultos que estão decidindo o uso dos espaços da cidade e as políticas públicas e tudo é considerado mais importante que o brincar. Muitas dessas coisas tangenciam o espaço das crianças, mas não necessariamente estão sendo  pensadas para elas, muito pelo contrário, elas perdem esses espaços o tempo todo."
+    idref="CHUNG"
     ref="https://alana.org.br/entrevista-soraia-chung-brincar/"
 %}
 
@@ -69,6 +70,7 @@ Em contrapartida devemos lembrar que o riso no filme O Nome da Rosa teve outra c
     src="jogatina-das-decadas/alien_isolation_1.webp"
     alt="Figura: Alien Isolation."
     caption="O silêncio vale ouro"
+    idref="TECMUNDO"
     ref="https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise"
 %}
 
@@ -82,6 +84,7 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
     src="jogatina-das-decadas/9211-o-novelo-de-la-para-gatos-esta-na-lista-articles_media_desktop-2.webp"
     alt="Figura: Brinquedos para gatos: por que os bichanos gostam de novelo de lã?"
     caption="Interesse dos bichanos tem relação com um instinto de caça, O novelo de lã ajuda a diminuir o estresse e a ansiedade do animal."
+    idref="LIMA,Úrsula"
     ref="https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1"
 %}
 
@@ -121,6 +124,7 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
     src="jogatina-das-decadas/A-Vigilante-do-Amanhã-Ghost-in-the-Shell.webp"
     alt="Figura: Ghost in the Shell."
     caption="5 motivos para assistir Ghost in the Shell, com Scarlett Johansson, hoje mesmo!."
+    idref="VINÍCIUS, Marcus"
     ref="https://temalguemassistindo.com.br/5-motivos-para-assistir-ghost-in-the-shell-com-scarlett-johansson-hoje-mesmo/"
 %}
 
@@ -142,6 +146,7 @@ O ser humano, tal como todos os seres da escala biológica, tem como caracterís
     src="jogatina-das-decadas/2012_01_20_15_37_021.webp"
     alt="Figura: O Jogo na arte."
     caption="Os relógios que se derretem representam um tempo que passa de forma diferente. Ao contrário dos relógios normais, que marcam com precisão a passagem dos segundos, estes relógios de Dalí possuem marcações distintas, pois os seus ponteiros estão derretidos e trazem uma noção distorcida dos segundos."
+    idref="ALDAIR, Laura"
     ref="https://www.culturagenial.com/a-persistencia-da-memoria-de-salvador-dali/"
 %}
 
@@ -154,6 +159,7 @@ Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um 
     src="jogatina-das-decadas/art-painting-delacroix_wallcoo.com.webp"
     alt="Figura: O Jogo e a guerra."
     caption="A liberdade guiando o povo, 28 de julho de 1830."
+    idref="WIKIPEDIA"
     ref="https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Francesa"
 %}
 
@@ -165,6 +171,7 @@ Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um 
     src="jogatina-das-decadas/leis.webp"
     alt="Figura: O Jogo e o Direito."
     caption="Dica de game com conteúdo Jurídico, ensinando direito através do jogo!."
+    idref="XANTHAKOS, Leonardo"
     ref="https://juridicocerto.com/p/leonardoxanthakos/artigos/dica-de-game-com-conteudo-juridico-ensinando-direito-atraves-do-jogo-1983"
 %}
 
@@ -187,6 +194,7 @@ Um antigo juiz escreveu-me o seguinte: "O estilo e o conteúdo das intervençõe
     src="jogatina-das-decadas/barreira-linguagem-764x343.webp"
     alt="Figura: O jogo e a linguagem (em alemão: Sprachspiel)."
     caption="É um conceito filosófico desenvolvido por Ludwig Wittgenstein, que se refere a exemplos simples de uso da linguagem e as ações nas quais a linguagem é tecida. Wittgenstein argumentou que uma palavra ou mesmo uma frase só tem significado dentro das regras do jogo linguístico que está sendo jogado em determinado momento. "
+    idref="WIKIPEDIA"
     ref="https://pt.wikipedia.org/wiki/Jogo_de_linguagem_(filosofia)"
 %}
 

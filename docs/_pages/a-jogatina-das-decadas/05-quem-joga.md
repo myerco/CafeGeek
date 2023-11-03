@@ -23,10 +23,11 @@ Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior 
 
 ### 1.1. O jogador
 
-{% include image.html
+{% include imagelocal.html
     src="https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp"
     alt="Figura: Top 5 Most Popular Online Games for Women."
     caption="Os jogos online estão mais populares do que nunca e as mulheres representam mais de 48% da população de jogadores. Não existe um perfil de mulher que joga jogos online. Embora geralmente representem uma parcela maior daqueles que jogam jogos casuais, as mulheres também são atraídas por muitos outros gêneros."
+    c
     ref="https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women"
 %}
 
@@ -37,10 +38,11 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 
 ### 1.2. O que é jogar?
 
-{% include image.html
+{% include imagelocal.html
     src="https://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg"
     alt="Figura: Jogador Nº 1."
     caption="Diversão, referências e o orgulho geek"
+    idref="MESQUITA, Boo"
     ref="http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/"
 %}
 
@@ -56,10 +58,11 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 
 ### 1.3. Por que jogar?
 
-{% include image.html
+{% include imagelocal.html
     src="https://lavrapalavra.com/wp-content/uploads/2021/01/apagar.png"
     alt="Figura: Trilogia do Inumano – Life is Strange: Nostalgia como utopia."
     caption="A verdadeira nostalgia é a nostalgia de um mundo sem nostalgia. Quem odeia o destrutivo terá que odiar também a vida: apenas a morte é a alegoria do vivente não deformado (Adorno)"
+    idref="BICHIR, Gabriel"
     ref="https://lavrapalavra.com/2021/01/28/trilogia-do-inumano-life-is-strange-nostalgia-como-utopia/"
 %}
 
@@ -207,6 +210,9 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
     caption="10 Best Lighting and Particle Effects We Saw In 2011"
 %}
 
+>2011 viu o lançamento de muitos jogos que podem ser chamados de maravilhas técnicas. Tantos jogos foram chamados de rei dos gráficos no ano passado que nem é engraçado. Desde o início do ano, com Killzone 3, até o final com Uncharted 3, vimos um jogo incrível sendo lançado após o outro. O que mais nos surpreendeu em algumas das entradas, porém, foi o quão abrangente os desenvolvedores dominaram os efeitos de iluminação e partículas. Algumas pessoas podem pensar que são uma parte minúscula do departamento visual, mas achamos que são parte integrante.
+Abaixo estão dez jogos com o que consideramos os melhores efeitos de iluminação e partículas que vimos no ano passado.[[PARIJAT,Shubhankar](https://gamingbolt.com/10-best-lighting-and-particle-effects-we-saw-in-2011)]
+
 ### 3.6. Jogabilidade
 
 {% include image.html
@@ -214,6 +220,8 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
     alt="Figura: It Takes Two."
     caption="Jogabilidade compartilhada."
 %}
+
+>Jogabilidade é um termo na indústria de jogos eletrônicos que inclui todas as experiências do jogador durante a sua interação com os sistemas de um jogo, especialmente jogos formais, e que descreve a facilidade na qual o jogo pode ser jogado, a quantidade de vezes que ele pode ser completado ou a sua duração.[[WIKIPEDIA](https://pt.wikipedia.org/wiki/Jogabilidade#cite_note-1)]
 
 ### 3.7. Cognição
 
@@ -223,10 +231,18 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
     caption="Confira os requisitos de The Witcher 3 e como deixar mais leve no PC"
 %}
 
+>O uso de jogos no contexto escolar possibilita o exercício de habilidades cognitivas, emocionais e sociais, pois os jogos favorecem a interação social e a colaboração mútua.[[SCIELO](https://www.scielo.br/j/pee/a/FNqKBGyKTrFJDzFvH8mZTkG/)].
+
+>Em muitos estudos são elencados diversos benefícios que os jogos proporcionam nas funcionalidades cerebrais em indivíduos idosos. Além de melhorarem a cognição, os jogos contribuem, também, para a melhora do processo de socialização e comunicação.[[AUTOCUIDADO](https://www.qualicorp.com.br/qualiviva/autocuidado/jogos-e-cognicao/)]
+
 ### 3.8. Coordenação
 
-{% include image.html
-    src="https://rollingstone.uol.com.br/media/_versions/guitar_hero_reproducao_widelg.jpg"
-    alt="Figura: Guitar Hero."
-    caption="15 clássicos do game que você provavelmente tocou muito."
+{% include imagelocal.html
+    src="https://upload.wikimedia.org/wikipedia/pt/b/be/Guitar_Hero_3_capa.png"
+    alt="Figura: Guitar Hero III."
+    caption="Legends of Rock."
+    idref="WIKIPEDIA"
+    ref="https://pt.wikipedia.org/wiki/Guitar_Hero_III:_Legends_of_Rock"
 %}
+
+>O objetivo do jogador é sincronizar os botões correspondentes com as notas que deslizam pela tela, obtendo pontos no agregador.
