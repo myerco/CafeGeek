@@ -27,7 +27,7 @@ Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior 
     src="https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp"
     alt="Figura: Top 5 Most Popular Online Games for Women."
     caption="Os jogos online estão mais populares do que nunca e as mulheres representam mais de 48% da população de jogadores. Não existe um perfil de mulher que joga jogos online. Embora geralmente representem uma parcela maior daqueles que jogam jogos casuais, as mulheres também são atraídas por muitos outros gêneros."
-    c
+    idref="HOLMES, Amy"
     ref="https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women"
 %}
 
