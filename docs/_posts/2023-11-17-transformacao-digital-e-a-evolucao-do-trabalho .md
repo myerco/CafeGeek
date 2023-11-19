@@ -79,7 +79,7 @@ dos colaboradores. Tanto funções operacionais quanto intelectuais passam por r
 
 #### Café Filosófico - "O Trabalho" Marcos Cavalcanti
 
-{% include video id="vrjEUx9nYjo&t" provider="youtube" %}
+{% include video id="vrjEUx9nYjo" provider="youtube" %}
 
 - "Era industrial -> Era do conhecimento"
 - "O artesão deu lugar ao operário, divisão de trabalho"
