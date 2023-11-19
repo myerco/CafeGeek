@@ -3,8 +3,8 @@ title: "Transformação digital e a evolução do trabalho"
 categories:
   - unreal engine
 tags:
-  - lógica
-  - blueprint
+  - Apresentação
+  - Transformação digital
 ---
 
 {% include figure image_path="/assets/images/posts/congresso-rondoniense-de-gestao-de-pessoas-2023.webp" alt="Congresso Rondoniense de Gestão de Pessoas 2023." %}
@@ -58,14 +58,83 @@ Essas empresas usaram a tecnologia para transformar indústrias inteiras, como o
 
 A transformação digital está mudando a forma como as empresas operam e se relacionam com seus clientes. Alguns dos impactos mais significativos incluem:
 
-- Melhoria da eficiência e agilidade
-- Aumento da produtividade
-- Novas oportunidades de negócios
-- Melhor relacionamento com clientes
-- Segurança de dados (Lei LGPD)
+- Melhoria da eficiência e agilidade;
+- Aumento da produtividade;
+- Novas oportunidades de negócios;
+- Melhor relacionamento com clientes;
+- Segurança de dados (Lei LGPD).
 
 A transformação digital também está criando desafios para muitos **trabalhadores**. A automatização de muitos trabalhos manualmente intensivos está resultando em perda de empregos em algumas áreas, enquanto outras profissões estão sendo completamente transformadas pelo uso crescente da tecnologia.
 
 Por exemplo, a popularização da inteligência artificial está mudando rapidamente a forma como os profissionais de saúde e os advogados trabalham, exigindo novas habilidades em áreas como análise de dados e programação.
 
 Além disso, a transformação digital está criando novas profissões e oportunidades de carreira. Profissionais de tecnologia da informação, como desenvolvedores de software e administradores de nuvem, estão em alta demanda, enquanto profissionais que entendem a interseção entre tecnologia e negócios, como gerentes de projetos digitais, são altamente procurados. [Link](https://webbypropaganda.com.br/o-impacto-da-transformacao-digital/)
+
+#### A TRANSFORMAÇÃO DIGITAL E O MERCADO DE TRABALHO: PERSPECTIVAS DE RECÉM-FORMADOS
+
+A evolução significativa da tecnologia nos últimos anos está associada à aplicabilidade e agilidade que esta confere às atividades operacionais. Permeada pela
+transformação digital, esta mudança afeta diversos níveis nas empresas, incluindo processos, organização e abrangência do negócio. Seguindo esta tendência,
+pesquisadores têm trabalhado em diversas correntes de estudo. À medida que as fábricas se tornam cada vez mais inteligentes (smart), surgem novos papéis
+dos colaboradores. Tanto funções operacionais quanto intelectuais passam por reconfigurações necessárias...[Link](https://sppaic.fae.edu/sppaic/article/view/201)
+
+#### Café Filosófico - "O Trabalho" Marcos Cavalcanti
+
+{% include video id="vrjEUx9nYjo&t" provider="youtube" %}
+
+- "Era industrial -> Era do conhecimento"
+- "O artesão deu lugar ao operário, divisão de trabalho"
+- "O operário não domina todo o processo de construção"
+- "Mais compartilhamento, mais conhecimento."
+- "Visão cartesiana do Mundo, uma visão que organiza o mundo em disciplinas."
+- "Visão sistêmica"
+  - Escolhas baseadas em visão global, em vez da visão individual.
+  - Conseguir pensar o todo.
+- Inteligência coletiva
+  - Sociedade do conhecimento
+  - Valorizar as múltiplas inteligências
+
+"O lucro é o oxigênio das empresas, mas viver é muito mais do que respirar"{: .notice}
+
+Peter Druker (1909-2005)
+
+#### O aumento do trabalho remoto pode afetar a produtividade?
+
+As mudanças influenciam não somente a qualidade de vida dos funcionários, mas também a qualidade dos serviços. Um estudo ouviu mais de 30 mil norte-americanos e concluiu que o trabalho remoto chega a ser **5%** mais produtivo do que o presencial.
+
+##### Riscos do trabalho a distância
+
+Em 2016, a conclusão de um estudo da Organização Mundial da Saúde (OMS) e da Organização Internacional do Trabalho (OIT) apontou que trabalhar mais do que 55 horas semanais aumenta em 35% o risco de morte por AVC e em 17% o risco de morte por doenças cardíacas. A questão é que no home office os limites entre o trabalho e o descanso podem ficar confusos.
+
+Segundo a pesquisa The IWG Global Workspace Survey, para 22% dos trabalhadores a principal queixa de trabalhar em home office é a dificuldade em se desconectar do trabalho, seguida de sensação de solidão (19%), dificuldade de comunicação (17%), distrações em casa (10%) e horários diferentes entre as equipes (8%).[Link](https://blog.mackenzie.br/mercado-carreira/mercado-de-trabalho/o-aumento-do-trabalho-remoto-pode-afetar-a-produtividade/)
+
+#### Trabalho remoto e flexível: queda de produtividade e excesso de reuniões preocupam empresas
+
+Levantamento mostra ainda que 63% dos entrevistados consideram que o trabalho remoto e flexível aumentou a rotatividade de profissionais.
+
+- 🤷 76% das empresas citaram insegurança em relação à produtividade dos colaboradores neste formato;
+- 💻 66% afirmaram que o excesso de reuniões está entre as principais dificuldades do trabalho remoto;
+- 👀 51% apontaram que têm dificuldade no acompanhamento de profissionais iniciantes na carreira;
+- 👨‍💼 61% dos entrevistados consideram o posicionamento da liderança como dificuldade para implantação de modelos flexíveis;
+- 🏢 52% apontam que a cultura organizacional é o maior impeditivo.[Link](https://g1.globo.com/trabalho-e-carreira/noticia/2023/05/12/trabalho-remoto-e-flexivel-queda-de-produtividade-e-excesso-de-reunioes-preocupam-empresas.ghtml)
+
+#### Tendências do home office no Brasil
+
+Home office traz qualidade de vida e produtividade. Alta da produtividade vem de escolaridade, renda e tipo de ocupação, mas é preciso investir em ferramentas de gestão e revisão de contratos de trabalho para sustentar modelo.[link](https://blogdoibre.fgv.br/posts/tendencias-do-home-office-no-brasil){: .notice}
+
+##### Proporção de empresas adotando o home office
+
+Em 2021, 57,5% das empresas afirmam ter adotado o modelo home office no Brasil, de forma parcial ou total, incluindo os que já adotavam essa modalidade antes da pandemia. Esse percentual diminuiu para 32,7% em outubro de 2022[4]. A Indústria e o Setor de Serviços, que se haviam se destacado durante a pandemia, quando atingiram proporções de adoção de home office por 72,4% e 65,5% das empresas, respectivamente, reduziram o uso do trabalho remoto para 49% e 40,3%.
+
+##### Proporção de colaboradores em regime remoto
+
+A proporção de colaboradores em trabalho remoto pouco se alterou entre 2021 e 2022, sugerindo que as empresas que mantiveram a prática possam ter aumentado o número de trabalhadores em regime remoto. Hoje, o maior percentual foi registrado na construção (40,9%) e o menor no Comércio (13,4%). No ano anterior essas proporções haviam sido de 23,3% e 11,2%, respectivamente.
+
+##### Percepção sobre impacto do home office na produtividade
+
+Outra questão abordada na pesquisa com as empresas foi em relação à percepção dos impactos na produtividade. Em 2021, cerca de 21,6% das empresas que adotaram home office observaram aumento na produtividade dos colaboradores enquanto 19,4% apontavam redução. Em 2022, a proporção de empresas que notaram aumento da produtividade de seus colaboradores aumentou para cerca de 30%, 8 pontos percentuais a mais do que no ano anterior, enquanto as que avaliam que houve perda de produtividade diminuiu para 10,2%. Esse saldo positivo na percepção da produtividade de 2,2% em 2021 para 19,5% em 2022 foi influenciado pelas respostas nos setores industrial e de Serviços. Na Construção, houve aumento da proporção de empresas que vêm observando queda na produtividade.
+
+#### Modelo para a Contratação de Serviços de Desenvolvimento, Manutenção e Sustentação de Software
+
+[Mapa de Pesquisa Salarial e Fator-K do Modelo](https://www.gov.br/governodigital/pt-br/contratacoes/modelo-para-a-contratacao-de-servicos-de-desenvolvimento-manutencao-e-sustentacao-de-software) (Portaria SGD/ME nº 5.651, de 28 de junho de 2022) - Planilha auxiliar da Nota Metodológica - Mapa Salarial e Fator K.
+
+By Kleidson  Juan  Machado de Oliveira.
