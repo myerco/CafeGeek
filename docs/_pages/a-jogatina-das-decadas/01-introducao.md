@@ -6,7 +6,7 @@ last_modified_at: 2023-03-27T08:48:05-04:00
 toc: false
 classes: wide
 header:
-  image: /assets/images/jogatina-das-decadas/a-jogatina_das_decadas.webp
+  image: /assets/images/jogatina-das-decadas/a-jogatina-das-decadas.webp
   image_description: "A Jogatina das Décadas"
   caption: "Photo credit: Tempus Fugi Clock"
 
