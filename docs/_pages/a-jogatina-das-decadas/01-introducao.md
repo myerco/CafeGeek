@@ -6,8 +6,8 @@ last_modified_at: 2023-03-27T08:48:05-04:00
 toc: false
 classes: wide
 header:
-  image: /assets/images/jogatina-das-decadas/a-jogatina-das-decadas.webp
-  image_description: "A Jogatina das Décadas"
+  overlay_image: /assets/images/jogatina-das-decadas/a-jogatina-das-decadas.webp
+  image_description: "Tempus Fugi Clock"
   caption: "Photo credit: Tempus Fugi Clock"
 
 sidebar:
