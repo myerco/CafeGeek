@@ -16,6 +16,38 @@ tags:
   - jogador
 ---
 
+Podemos definir um jogo através das suas principais características.
+
+- Atividade recreativa;
+
+- Regras que estabelecem quem vence e quem perde;
+
+- Competição física ou mental;
+
+- Conjunto de procedimentos e estratégias para atingir determinado fim;
+
+- Atividade em que existe a figura do jogador (como indivíduo praticante).
+
+A origem da palavra deriva do de um termo do latim, *jocus*, que significa brincadeira, divertimento, atualmente podemos explorar as principais características e definições que nos ajudam a entender a evolução dessa "brincadeira" que faz parte das nossas vidas.
+
+{% include imagelocal.html
+    src="jogatina-das-decadas/chess_game.webp"
+    alt="Figura: Chess."
+    caption="O Xadrez é um jogo de tabuleiro de estratégia do tipo recreativo ou competitivo para dois jogadores."
+%}
+
+"Em época mais otimista que a atual, nossa espécie recebeu a designação de *Homo sapiens*. Com o passar do
+tempo, acabamos por compreender que afinal de contas não somos tão racionais quanto a ingenuidade e o culto da
+razão do século XVIII nos fizeram supor, e passou a ser de moda designar nossa espécie como *Homo faber*. Embora
+*faber* não seja uma definição do ser humano tão inadequada como sapiens, ela é, contudo, ainda menos apropriada do
+que esta, visto poder servir para designar grande número de animais. Mas existe uma terceira função, que se verifica
+tanto na vida humana como na animal, e é tão importante como o raciocínio e o fabrico de objetos: o jogo. Creio
+que, depois de *Homo faber* e talvez ao mesmo nível de *Homo sapiens*, a expressão *Homo ludens* merece um lugar em
+nossa nomenclatura."
+
+**Informação:** Latim “Ludus”, “Ludere” que designava os jogos infantis.
+{: .notice--info}
+
 ## 1. Teria o jogo lugar no sistema de vida?
 
 {% include imagelocal.html
