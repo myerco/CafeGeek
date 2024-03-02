@@ -2,7 +2,7 @@
 title: O Jogo
 permalink: /pages/a-jogatina-das-decadas/o-jogo
 excerpt: "O objetivo deste capítulo é definir e conceituar o que é um jogo."
-last_modified_at: 2023-03-27T08:48:05-04:00
+last_modified_at: 2024-03-02T08:48:05-04:00
 toc: true
 sidebar:
     nav: dev_jogatina
@@ -72,6 +72,15 @@ Quando pensamos no aspecto humano e evolutivo não podemos deixar de citar algum
 
 ## 2. Homo Ludens
 
+**Homo Ludens: o jogo como elemento da cultura** (em holandês: Homo ludens. Proeve eener bepaling van het spel-element der cultuur) é um livro escrito pelo historiador holandês Johan Huizinga, publicado originalmente em 1938 [Homo Ludens](https://pt.wikipedia.org/wiki/Homo_Ludens).
+
+Tomando o jogo como um fenômeno cultural, o livro se estrutura sob uma extensa perspectiva histórica, recorrendo inclusive a estudos etimológico e etnográficos de sociedades distantes temporal e culturalmente.
+
+Reconhece o jogo como algo inato ao homem e mesmo aos animais, considerando-o uma categoria absolutamente primária da vida, logo anterior a cultura, tendo esta evoluído no jogo.
+
+A existência do jogo é inegável. É possível negar, se quiser, quase todas as abstrações: a justiça, a beleza, o bem, Deus. É possível negar-se a seriedade, mas não o jogo.
+{: .notice--info}
+
 {% include imagelocal.html
     src="jogatina-das-decadas/brincar.webp"
     alt="Figura: Soraia Chung: O brincar elabora uma ideia de humanidade."
@@ -85,7 +94,7 @@ Walter Benjamin (1984)
 
 “...fenômeno cultural e repetível a qualquer momento, uma ação que introduz, na confusão da vida e na imperfeição do mundo, uma perfeição temporária e limitada.”
 
-### 2.1. O riso e o jogo segundo Johan Huizinga
+## 3. O riso e o jogo segundo Johan Huizinga
 
 "...O riso, por exemplo, está de certo modo em oposição à seriedade, sem de maneira alguma estar diretamente ligado ao jogo. Os jogos infantis, o futebol e o xadrez são executados dentro da mais profunda seriedade, não se verificando nos jogadores a menor tendência para o riso. É curioso notar que o ato puramente fisiológico de rir é exclusivo dos homens, ao passo que a função significante do jogo é comum aos homens e aos animais. O *animal ridens* de Aristóteles caracteriza o homem, em
 oposição aos animais, de maneira quase tão absoluta quanto o *homo sapiens*".
@@ -94,7 +103,7 @@ Em contrapartida devemos lembrar que o riso no filme O Nome da Rosa teve outra c
 
 "...O riso é um evento demoníaco que deforma as linhas do rosto e faz os homens parecerem macacos "O riso mata o temor e sem o temor não pode haver fé!"...".
 
-### 2.2. A Tensão como um elemento do jogo
+## 4. A Tensão como um elemento do jogo
 
 {% include imagelocal.html
     src="jogatina-das-decadas/alien_isolation_1.webp"
@@ -118,9 +127,9 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
     ref="https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1"
 %}
 
-### 2.3. Resumo
+## 5. Resumo
 
-#### 2.3.1. O que é um jogo?
+### 5.1. O que é um jogo?
 
 - É uma Atividade recreativa com regras que estabelecem quem vence e quem perde;
 
@@ -128,7 +137,7 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 
 - Atividade em que existe a figura do jogador (como indivíduo praticante).
 
-#### 2.3.2. O ser humano e o jogo
+### 5.2. O ser humano e o jogo
 
 - O jogo constitui uma preparação do jovem para as tarefas sérias que mais tarde a vida dele exigirá;
 
@@ -138,13 +147,13 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 
 - Teorias há, ainda, que o consideram uma “ab-reação” (descarga emocional pela qual um indivíduo se liberta do afeto que acompanha a recordação de um acontecimento traumático), **um escape para impulsos prejudiciais**, um restaurador da energia dispendida por uma atividade unilateral, ou “realização do desejo”, ou uma ficção destinada a preservar o sentimento do **valor pessoal**.
 
-#### 2.3.3. O jogo é?
+### 5.3. O jogo é?
 
 - O jogo é tenso;
 
 - O jogo é divertido.
 
-## 3. Qual a função do jogo?
+## 6. Qual a função do jogo?
 
 "Eu me sinto presa, apenas livre para me expandir dentro dos limites.
 (Motoko Kusanagi). **O Fantasma do Futuro**"
@@ -166,11 +175,11 @@ Estas duas funções podem também por vezes confundir-se, de tal modo que o jog
 
 A seguir vamos apresentar algumas categorias de jogos segundo Johan Huizinga.
 
-### 3.1. O papel do jogo na sociedade
+### 6.1. O papel do jogo na sociedade
 
 O ser humano, tal como todos os seres da escala biológica, tem como característica principal o movimento. O jogo surge relacionado a esse assunto, por ser a melhor demonstração dessa predominância no homem, além de atuar como um valoroso contribuinte no desenvolvimento global do mesmo.
 
-### 3.2. O jogo Arte e Cultura
+### 6.2. O jogo Arte e Cultura
 
 {% include imagelocal.html
     src="jogatina-das-decadas/2012_01_20_15_37_021.webp"
@@ -183,7 +192,7 @@ O ser humano, tal como todos os seres da escala biológica, tem como caracterís
 O processo criativo e construção de elementos imaginários estão presentes nas caracterizas dos jogos.
 Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um belo e nobre jogo começou por ser um jogo sagrado. Os torneios e justas, as ordens, os votos, os títulos, são  todos vestígios dos ritos de iniciação primitivos.
 
-### 3.3. O jogo e a Guerra
+### 6.3. O jogo e a Guerra
 
 {% include imagelocal.html
     src="jogatina-das-decadas/art-painting-delacroix_wallcoo.com.webp"
@@ -195,7 +204,7 @@ Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um 
 
 É difícil não associar a guerra ao jogo mas o contrário é possível, na guerra o objetivo é conquistar ou subjugar o seu oponente.
 
-### 3.4. O jogo e o Direito
+### 6.4. O jogo e o Direito
 
 {% include imagelocal.html
     src="jogatina-das-decadas/leis.webp"
@@ -218,7 +227,7 @@ Um antigo juiz escreveu-me o seguinte: "O estilo e o conteúdo das intervençõe
 
 **A justiça** - Se fizermos com que nosso olhar passe da  administração da justiça nas civilizações altamente desenvolvidas para aquela que se encontra nas fases menos  adiantadas da cultura, veremos que a ideia do bem e do mal, a concepção ético-jurídica, é ultrapassada pela ideia de  ganhar ou perder, isto é, pela concepção puramente agonística. O que interessa ao espírito primitivo não é tanto o  problema abstrato do bem e do mal, mas principalmente o problema extremamente concreto de ganhar ou perder.
 
-### 3.5. O jogo e a Linguagem
+### 6.5. O jogo e a Linguagem
 
 {% include imagelocal.html
     src="jogatina-das-decadas/barreira-linguagem-764x343.webp"
@@ -230,7 +239,7 @@ Um antigo juiz escreveu-me o seguinte: "O estilo e o conteúdo das intervençõe
 
 A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo, designá-las e com essa designação elevá-las ao domínio do espírito. Na criação da fala e da linguagem,  brincando com essa maravilhosa faculdade de designar, é como se o espírito estivesse constantemente saltando  entre a matéria e as coisas pensadas. Por detrás de toda expressão abstrata se oculta uma metáfora, e toda metáfora  é jogo de palavras. Assim, ao dar expressão à vida, o homem cria um outro mundo, um mundo poético, ao lado do  da natureza.
 
-### 3.6. Algumas considerações sobre o jogo
+### 6.6. Algumas considerações sobre o jogo
 
 {% include imagelocal.html
     src="jogatina-das-decadas/musee_Rodin_1.webp"
@@ -242,9 +251,9 @@ O autor apresenta as suas interpretações de elementos presentes na nossa socie
 
 Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como por exemplo economia, relacionamentos, comunicação e outros, mas com uma nova roupagem denominada "Gamificação" que estudaremos nos próximos capítulos.
 
-### 3.7. Resumo
+## 7. Resumo
 
-#### 3.7.1. O que é a função do jogo?
+### 7.1. O que é a função do jogo?
 
 - Sendo o jogo uma luta por alguma coisa ou a representação de alguma coisa e esta presente em vários aspectos da sociedade;
 
