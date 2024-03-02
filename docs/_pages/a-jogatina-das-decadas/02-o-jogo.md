@@ -1,5 +1,5 @@
 ---
-title: O jogo
+title: O Jogo
 permalink: /pages/a-jogatina-das-decadas/o-jogo
 excerpt: "O objetivo deste capítulo é definir e conceituar o que é um jogo."
 last_modified_at: 2023-03-27T08:48:05-04:00
@@ -15,8 +15,6 @@ tags:
   - fatores não motivacionais
   - jogador
 ---
-
-{% include figure image_path="/assets/images/jogatina-das-decadas/jogatina_das_decadas.webp" alt="Brecht Corbeel" caption="" %}
 
 ## 1. Teria o jogo lugar no sistema de vida?
 

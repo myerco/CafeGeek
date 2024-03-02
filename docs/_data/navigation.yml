@@ -184,8 +184,8 @@ dev_me_conta:
         url: /pages/me-conta-uma-historia/elementos-historia       
 
 dev_jogatina:
-  - title: Introdução
-    url: /pages/a-jogatina-das-decadas/introducao      
+  - title: A jogatina das décadas
+    url: /pages/a-jogatina-das-decadas/a-jogatina-das-decadas      
   - title: O jogo
     url: /pages/a-jogatina-das-decadas/o-jogo
   - title: Quem Joga?
@@ -194,6 +194,8 @@ dev_jogatina:
     url: /pages/a-jogatina-das-decadas/jogos-eletronicos        
   - title: A evolução dos jogos eletrônicos
     url: /pages/a-jogatina-das-decadas/a-evolucao-dos-jogos-eletronicos
+  - title: O Mercado de jogos Eletrônicos
+    url: /pages/a-jogatina-das-decadas/o-mercado-de-jogos-eletronicos
   - title: O comportamento
     url: /pages/a-jogatina-das-decadas/comportamento                
 

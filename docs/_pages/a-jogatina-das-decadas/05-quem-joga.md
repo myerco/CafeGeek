@@ -14,14 +14,10 @@ tags:
   - jogador
 ---
 
-{% include figure image_path="/assets/images/jogatina-das-decadas/jogatina_das_decadas.webp" alt="Brecht Corbeel" caption="" %}
-
-## 1. Quem joga?
-
 Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior do que apenas eu mesmo. **Jogador Nº1**.
 {: .notice}
 
-### 1.1. O jogador
+## 1. O jogador
 
 {% include image.html
     src="https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp"
@@ -36,7 +32,7 @@ Conhecer o que o jogador quer e a situação que o mercado se apresenta são inf
 
 O jogo é um produto presente no mercado e como tal se apresenta com todas as suas características de comercialização.
 
-### 1.2. O que é jogar?
+## 2. O que é jogar?
 
 {% include image.html
     src="https://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg"
@@ -56,7 +52,7 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 
 - Cultura.
 
-### 1.3. Por que jogar?
+## 3. Por que jogar?
 
 {% include image.html
     src="https://lavrapalavra.com/wp-content/uploads/2021/01/apagar.png"
@@ -78,11 +74,11 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 
 [https://www.teachthought.com/learning/why-people-play-video-games/](https://www.teachthought.com/learning/why-people-play-video-games/ "Why People Play Video Games")
 
-## 2. Os Fatores motivacionais
+## 4. Os Fatores motivacionais
 
 Estão diretamente ligados ao desejo do jogadora sua construção social, leitura, cinema, arte e televisão.
 
-### 2.1. Exploração
+### 4.1. Exploração
 
 {% include image.html
     src="https://c4.wallpaperflare.com/wallpaper/73/158/467/star-trek-wallpaper-preview.jpg"
@@ -91,7 +87,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://pt.wikipedia.org/wiki/Star_Trek"
 %}
 
-### 2.2. Fantasia
+### 4.2. Fantasia
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/pt/5/54/Final_Fantasy_VII_Remake_personagens.png"
@@ -100,7 +96,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://pt.wikipedia.org/wiki/Final_Fantasy_VII_Remake"
 %}
 
-### 2.3. Quebrar as regras sociais
+### 4.3. Quebrar as regras sociais
 
 {% include image.html
     src="https://www.arkade.com.br/wp-content/uploads/2020/08/gta-v.jpg"
@@ -109,7 +105,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://www.arkade.com.br/gta-v-retorna-ao-xbox-game-pass-mas-agora-com-suporte-ao-xcloud/"
 %}
 
-### 2.4. Exercitar-se
+### 4.4. Exercitar-se
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/pt/thumb/c/ca/Just_Dance_2022_capa.jpg/345px-Just_Dance_2022_capa.jpg"
@@ -118,7 +114,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://pt.wikipedia.org/wiki/Just_Dance_2022"
 %}
 
-### 2.5. Demonstrar-se
+### 4.5. Demonstrar-se
 
 {% include image.html
     src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/04/Demon-Hunter-Tier-20-Cropped.jpg?q=50&fit=crop&w=740&dpr=1.5"
@@ -127,7 +123,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://www.thegamer.com/world-of-warcraft-best-epic-tier-sets/"
 %}
 
-### 2.6. Sociabilizar-se
+### 4.6. Sociabilizar-se
 
 {% include image.html
     src="https://s2.glbimg.com/Ajwl8JcF1B1ozCPrhSOI5OgYAa8=/0x0:695x269/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/C/x/E4BtaXTB2iJc5FTjVOUg/2014-04-23-wow-raid.jpg"
@@ -136,7 +132,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://www.techtudo.com.br/noticias/2014/04/world-warcraft-conheca-addons-importantes-antes-de-entrar-na-raide.ghtml"
 %}
 
-### 2.7. Reconhecimento
+### 4.7. Reconhecimento
 
 {% include image.html
     src="https://www.touchtapplay.com/wp-content/uploads/2020/12/image-19.png"
@@ -145,7 +141,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://afkgaming.com/mobileesports/originals/5134-everything-you-need-to-know-about-medals-in-call-of-duty-mobile"
 %}
 
-### 2.8. Aprendizado
+### 4.8. Aprendizado
 
 {% include image.html
     src="https://myplinkit.com/wp-content/uploads/2020/03/Activities-and-Games_iStock-1127260590_cropped.jpg"
@@ -154,7 +150,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://myplinkit.com/2020/03/activities-games-you-can-do-at-home/"
 %}
 
-### 2.9. Marca
+### 4.9. Marca
 
 {% include image.html
     src="https://miro.medium.com/max/825/1*M6VI8_01A-At7Nzp2wn6IA.png"
@@ -163,7 +159,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     ref="https://medium.com/@OggieBoy/top-20-game-studios-whos-your-favorite-e7cc533530f0"
 %}
 
-## 3. Fatores não motivacionais
+## 5. Fatores não motivacionais
 
 Estão ligados na avaliação da mensagem que está sendo transmitida.
 
@@ -178,9 +174,9 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
     ref="https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm"
 %}
 
-### 3.1. Respostas sensoriais
+### 5.1. Respostas sensoriais
 
-### 3.2. Gráficos
+### 5.2. Gráficos
 
 {% include image.html
     src="https://files.tecnoblog.net/wp-content/uploads/2020/08/dez-dicas-para-dominar-horizon-zero-dawn005.png"
@@ -188,7 +184,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
     caption="10 dicas para dominar Horizon Zero Dawn."
 %}
 
-### 3.3. Som
+### 5.3. Som
 
 {% include image.html
     src="https://s2.glbimg.com/WZEsU9OtfinBadWtEwruyHlueBg=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/C/o/4CJ1NPR2u4MTx3BMyY2A/journey-como-jogar-amigo.jpg"
@@ -196,13 +192,13 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
     caption="Confira dicas e tudo sobre o game"
 %}
 
-### 3.4. Música
+### 5.4. Música
 
 {% include video id="LnG6icGIm0o" provider="youtube" %}
 
 {% include video id="xzCEdSKMkdU" provider="youtube" %}
 
-### 3.5. Efeitos especiais
+### 5.5. Efeitos especiais
 
 {% include image.html
     src="https://gamingbolt.com/wp-content/gallery/10-best-particle-and-lighting-effects-we-saw-in-2011/assassins-creed-revelations.jpg"
@@ -213,7 +209,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 >2011 viu o lançamento de muitos jogos que podem ser chamados de maravilhas técnicas. Tantos jogos foram chamados de rei dos gráficos no ano passado que nem é engraçado. Desde o início do ano, com Killzone 3, até o final com Uncharted 3, vimos um jogo incrível sendo lançado após o outro. O que mais nos surpreendeu em algumas das entradas, porém, foi o quão abrangente os desenvolvedores dominaram os efeitos de iluminação e partículas. Algumas pessoas podem pensar que são uma parte minúscula do departamento visual, mas achamos que são parte integrante.
 Abaixo estão dez jogos com o que consideramos os melhores efeitos de iluminação e partículas que vimos no ano passado.[[PARIJAT,Shubhankar](https://gamingbolt.com/10-best-lighting-and-particle-effects-we-saw-in-2011)]
 
-### 3.6. Jogabilidade
+### 5.6. Jogabilidade
 
 {% include image.html
     src="https://static.techspot.com/articles-info/2366/images/2021-11-17-image-2-j.webp"
@@ -223,7 +219,7 @@ Abaixo estão dez jogos com o que consideramos os melhores efeitos de iluminaç�
 
 >Jogabilidade é um termo na indústria de jogos eletrônicos que inclui todas as experiências do jogador durante a sua interação com os sistemas de um jogo, especialmente jogos formais, e que descreve a facilidade na qual o jogo pode ser jogado, a quantidade de vezes que ele pode ser completado ou a sua duração.[[WIKIPEDIA](https://pt.wikipedia.org/wiki/Jogabilidade#cite_note-1)]
 
-### 3.7. Cognição
+### 5.7. Cognição
 
 {% include image.html
     src="https://s2.glbimg.com/ys4yzHh8-bS88Kc2mwhuQdW3An0=/0x0:695x393/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/N/K/ray9GLT9GUmH5n4aqwAw/2015-08-21-the-witcher-3-geralt-lutando.jpg"
@@ -235,7 +231,7 @@ Abaixo estão dez jogos com o que consideramos os melhores efeitos de iluminaç�
 
 >Em muitos estudos são elencados diversos benefícios que os jogos proporcionam nas funcionalidades cerebrais em indivíduos idosos. Além de melhorarem a cognição, os jogos contribuem, também, para a melhora do processo de socialização e comunicação.[[AUTOCUIDADO](https://www.qualicorp.com.br/qualiviva/autocuidado/jogos-e-cognicao/)]
 
-### 3.8. Coordenação
+### 5.8. Coordenação
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/pt/b/be/Guitar_Hero_3_capa.png"

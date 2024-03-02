@@ -14,8 +14,6 @@ tags:
   - video games   
 ---
 
-{% include figure image_path="/assets/images/jogatina-das-decadas/jogatina_das_decadas.webp" alt="Brecht Corbeel" caption="" %}
-
 ## 1. O mercado de jogos eletrônicos
 
 A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou três dias desenvolvendo o jogo e acabou ganhando cerca de US $ 50 mil por dia em receita através de sua publicidade no jogo.

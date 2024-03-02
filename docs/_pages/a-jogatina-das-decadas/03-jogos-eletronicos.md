@@ -14,8 +14,6 @@ tags:
   - video games   
 ---
 
-{% include figure image_path="/assets/images/jogatina-das-decadas/jogatina_das_decadas.webp" alt="Brecht Corbeel" caption="" %}
-
 ## 1. Como são classificados os jogos?
 
 Guerra... A guerra nunca muda. **Fallout**.
