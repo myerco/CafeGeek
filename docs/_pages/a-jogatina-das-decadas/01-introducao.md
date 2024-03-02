@@ -1,18 +1,19 @@
 ---
-title: Introdução a Jogatina das Décadas
+title: Introdução
 permalink: /pages/a-jogatina-das-decadas/introducao
 excerpt: "O objetivo deste curso é apresentar as características e elementos associados aos jogos eletrônicos."
 last_modified_at: 2023-03-27T08:48:05-04:00
-toc: true
+toc: false
 classes: wide
 header:
-  image: /assets/images/jogatina-das-decadas/jogatina_das_decadas.webp
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  image: /assets/images/jogatina-das-decadas/a-jogatina_das_decadas.webp
+  image_description: "A Jogatina das Décadas"
+  caption: "Photo credit: Tempus Fugi Clock"
 
 sidebar:
     nav: dev_jogatina
 categories:
-  - a jogatina das decadas
+  - a jogatina das décadas
 tags:
   - conceito
   - curso

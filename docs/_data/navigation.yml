@@ -184,20 +184,18 @@ dev_me_conta:
         url: /pages/me-conta-uma-historia/elementos-historia       
 
 dev_jogatina:
-  - title: A JOGATINA DAS DÉCADAS
-    children:
-      - title: Introdução
-        url: /pages/a-jogatina-das-decadas/introducao    
-      - title: O jogo
-        url: /pages/a-jogatina-das-decadas/o-jogo
-      - title: Quem Joga?
-        url: /pages/a-jogatina-das-decadas/quem-joga
-      - title: Jogos Eletrônicos
-        url: /pages/a-jogatina-das-decadas/jogos-eletronicos        
-      - title: A evolução dos jogos eletrônicos
-        url: /pages/a-jogatina-das-decadas/a-evolucao-dos-jogos-eletronicos
-      - title: O comportamento
-        url: /pages/a-jogatina-das-decadas/comportamento                
+  - title: Introdução
+    url: /pages/a-jogatina-das-decadas/introducao      
+  - title: O jogo
+    url: /pages/a-jogatina-das-decadas/o-jogo
+  - title: Quem Joga?
+    url: /pages/a-jogatina-das-decadas/quem-joga
+  - title: Jogos Eletrônicos
+    url: /pages/a-jogatina-das-decadas/jogos-eletronicos        
+  - title: A evolução dos jogos eletrônicos
+    url: /pages/a-jogatina-das-decadas/a-evolucao-dos-jogos-eletronicos
+  - title: O comportamento
+    url: /pages/a-jogatina-das-decadas/comportamento                
 
 dev_modelagem3d:
   - title: MODELAGEM 3D
