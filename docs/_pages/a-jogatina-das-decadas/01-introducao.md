@@ -4,6 +4,11 @@ permalink: /pages/a-jogatina-das-decadas/introducao
 excerpt: "O objetivo deste curso é apresentar as características e elementos associados aos jogos eletrônicos."
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true
+classes: wide
+header:
+  image: /assets/images/jogatina-das-decadas/jogatina_das_decadas.webp
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+
 sidebar:
     nav: dev_jogatina
 categories:
@@ -12,8 +17,6 @@ tags:
   - conceito
   - curso
 ---
-
-{% include figure image_path="/assets/images/jogatina-das-decadas/jogatina_das_decadas.webp" alt="Brecht Corbeel" caption="" %}
 
 ## 1. O que é um Jogo?
 
