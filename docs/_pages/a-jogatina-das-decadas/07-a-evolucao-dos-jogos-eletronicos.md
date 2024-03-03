@@ -1,5 +1,5 @@
 ---
-title: "A evolução dos Jogos Eltrônicos"
+title: "A evolução dos jogos eletrônicos"
 permalink: /pages/a-jogatina-das-decadas/a-evolucao-dos-jogos-eletronicos
 excerpt: "Neste capítulo vamos como é o mercado de jogos eletrônicos."
 last_modified_at: 2023-03-27T08:48:05-04:00
@@ -14,9 +14,7 @@ tags:
   - video games   
 ---
 
-## 1. Evolução dos jogos eletrônicos
-
-### 1.1. Primeira geração (1971-1977)
+## 1. Primeira geração (1971-1977)
 
 A linha começa em 1972, com o Odyssey Magnavox, em sua versão conhecida como "Brown Box". O engenheiro americano Ralph Baer desenhou o protótipo em meados de 1966, mas só em 1971 ele foi licenciado para a Magnavox e lançado no ano seguinte.
 
@@ -46,7 +44,7 @@ O Coleco Telstar foi outro destaque da primeira geração, produzido entre 1976 
     caption="Figura: Conheça Pong, o primeiro videogame lucrativo da história - <https://www.techtudo.com.br/noticias/2016/03/conheca-pong-o-primeiro-videogame-lucrativo-da-historia.ghtml>."
 %}
 
-### 1.2. Segunda geração (1978 - 1983)
+## 2. Segunda geração (1978 - 1983)
 
 Geração onde os consoles apresentavam processadores de 4 a 8 bit. Os jogos do ATARI são os mais populares dessa época, como exemplo o Popeye e Pacman.
 
@@ -56,7 +54,7 @@ Geração onde os consoles apresentavam processadores de 4 a 8 bit. Os jogos do 
     caption="Figura: Pac-Man."
 %}
 
-### 1.3. Terceira geração (1984 - 1990)
+## 3. Terceira geração (1984 - 1990)
 
 Geração onde teve a estreia do clássico NES (Nintendo Entertainment System) da nintendo e também o Master System da SEGA, conseguindo chegar em algumas produções de jogos em 16 bits. Exemplos de jogos de destaques dessa geração são o Sonic e Super Mário Bros. 1, 2 e 3, esses últimos que deram início ao mundo extraordinário de fases de aventuras e plataformas do mascote da Nintendo.
 
@@ -78,7 +76,7 @@ Jogos da Terceira Geração:
     caption="Figura: Tetris."
 %}
 
-### 1.4. Quarta geração (1991 - 1999)
+## 4. Quarta geração (1991 - 1999)
 
 A quarta geração consolidou de vez a era dos 16 bits, com a evolução da Nintendo com o Super Nintendo e da SEGA com o Mega drive. Exemplos como  Super Mario World, Bomberman, The King of Fighters e Mortal Kombat foram uns dos clássicos mais vendidos da época. Os dois últimos são eternizados como grandes jogos de lutas, o mortal kombat caracterizado pela sua gráfica de violências e sangues e o KOF caracterizado pelas suas partidas em trios.
 
@@ -126,7 +124,7 @@ A quarta geração consolidou de vez a era dos 16 bits, com a evolução da Nint
     caption="Figura: Tomb_Raider The Last Revelation."
 %}
 
-### 5.5. Quinta Geração (2000 - Hoje)
+## 5. Quinta Geração (2000 - Hoje)
 
 A quinta geração estabeleceu a era dos 32 bits e posteriormente com o 64 bits, fazendo a todos passarem 24 horas jogando com os amigos no multiplayer local o excelente FPS e um dos pioneiros do gênero, 007 Goldeneye do Nintendo 64. Também foi o início da consolidação dos portáteis como o game boy, também da Nintendo. Posteriormente com as inevitáveis evoluções da geração, conhecemos também os consoles da SEGA Dreamcast,  SONY PlayStations 1,2,3 e 4, da Microsoft Xbox, 360 e One e também a grande popularidade e avanços gráficos dos games para PC que existem até a atualidade.
 Alguns exemplos de jogos dessas gerações são 007 Goldeneye, Super Mário 64, Mario Kart, Counter Strike, LOL, Metal Gear Solid, God Of War, Grand Theft Auto, The Last of US  e Red Dead Redemption.

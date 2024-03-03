@@ -1,5 +1,5 @@
 ---
-title: "Jogos Eletrônicos"
+title: "Jogos eletrônicos"
 permalink: /pages/a-jogatina-das-decadas/jogos-eletronicos
 excerpt: "Neste capítulo vamos apresentar a história, evolução dos jogos eletrônicos, bem como seu mercado."
 last_modified_at: 2023-03-27T08:48:05-04:00

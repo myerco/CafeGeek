@@ -1,5 +1,5 @@
 ---
-title: Quem Joga?
+title: Quem joga?
 permalink: /pages/a-jogatina-das-decadas/quem-joga
 excerpt: "O objetivo deste capítulo é identificar os fatores que motivam quem joga."
 last_modified_at: 2023-03-27T08:48:05-04:00

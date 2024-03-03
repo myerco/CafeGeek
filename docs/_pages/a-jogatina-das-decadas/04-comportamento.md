@@ -25,7 +25,7 @@ tags:
 
 O vicio de jogos é discutido a muito tempo e já foi classificado como uma [doença pela OMS](https://www.uol.com.br/vivabem/reportagens-especiais/o-vicio-em-jogos-e-considerado-disturbio-mental-quais-os-perigos-da-doenca/#page1), mas a pergunta de nosso título aponta outro vício ou a falta desse, vício em trabalho, será que  você pode ser viciado em trabalho e o trabalho pode ser classificado como uma doença pela OMS [[workaholic](http://setocupacional.com.br/site/fique-por-dentro/workaholic-vicio-em-trabalho-risco-a-saude-consequencias-causas-tratamentos/)]?, este tema é na verdade uma provocação para que possamos discutir aspectos relacionados a como os videogames são construídos por equipes de especialistas que visam manter o jogador o mais tempo possível conectado ou jogando, também vamos correlacionar as técnicas usadas pelos especialistas de jogos que são usadas para "motivar" as pessoas para um determinado trabalho.
 
-### 1.1. Gamificação
+## 2. Gamificação
 
 {% include image.html
     src="https://www.weblayer.com.br/wp-content/uploads/2016/11/Gamificacao-saiba-o-que-e-e-como-esse-metodo-funciona-1080x641.jpg"
@@ -69,7 +69,7 @@ Algumas características dos jogos que a Gamificação aplica são:
 
 As características aplicadas em ambientes onde é necessário potencializar as atividades realizadas por um determinado grupo de pessoas, prepararam um terreno para um ambiente produtivo, pois dão metas, classificam e criam recompensas para os envolvidos. Um dos motivos de aplicar esse método é busca da felicidade no trabalho pois segundo um estudo realizado pela Universidade da Califórnia um trabalhador feliz é, em média, 31% mais produtivo, três vezes mais criativo e vende 37% a mais em comparação aos outros[1](https://www.em.com.br/app/noticia/emprego/2019/09/16/interna_emprego,1085530/funcionarios-felizes-sao-em-media-31-mais-produtivos-diz-pesquisa.shtml), mas para que isso? para responder temos que entender porque trabalhamos e qual o papel do trabalho nas nossas vidas.
 
-### 1.2. O que é trabalho?
+## 3. O que é trabalho?
 
 {% include image.html
     src="https://beduka.com/blog/wp-content/uploads/2019/06/Historia-do-Trabalho.jpg"
@@ -89,7 +89,7 @@ homem e a natureza”, é necessidade eterna do mundo homens, possuindo um cará
 
 Portanto, trabalho é uma atividade ou serviço desempenhado para transformar a natureza e assim saciar as necessidades do ser humano e socializá-lo. Criando objetivos comuns para os indivíduos, o sujeito se objetiva através do trabalho.
 
-### 1.3. Por que trabalhamos?
+## 4. Por que trabalhamos?
 
 {% include image.html
     src="https://nrfacil.com.br/blog/wp-content/uploads/2012/05/trabalhador005.jpg"
@@ -121,7 +121,7 @@ Para sermos e nos sentirmos humanos, úteis, valorizados e construirmos nossas r
 
 A resposta é: trabalhamos porque o trabalho é uma extensão do nosso ser e consequentemente buscamos reconhecimento por isso, seja ele financeiro ou social.
 
-## 2. Colocando Você na Caixa de Skinner
+## 5. Colocando Você na Caixa de Skinner
 
 {% include image.html
     src="https://psicoativo.com/wp-content/uploads/2016/08/caixa-de-skinner.jpg"
@@ -150,7 +150,7 @@ Esta é uma grande fonte de controvérsia no mundo do design de jogos no momento
 
 Por que isso funcionaria, quando as "recompensas" são apenas objetos digitais que na verdade não existem? Nós vamos...
 
-### 2.1. Criando alimento virtual para você comer
+## 6. Criando alimento virtual para você comer
 
 {% include figure image_path="https://frostyboost.com/wp-content/uploads/2023/12/best-places-for-gold-farming-in-sod.png" alt="Best Farm Gold Spots for Mage in WoW SoD." caption="Best Farm Gold Spots for Mage in WoW SoD." %}
 
@@ -178,7 +178,7 @@ Como o artigo do cara da Microsoft prova, os desenvolvedores sabem que estão us
 **Informação:** Um pellet é um recurso de recompensa que cai em um mundo de jogo como resultado de uma vitória, a ser coletado pelo jogador.
 {: .notice--info}
 
-### 2.2. Fazendo você pressionar a alavanca
+## 7. Fazendo você pressionar a alavanca
 
 {% include figure image_path="https://assetsio.reedpopcdn.com/elden_ring_godrick_the_grafted_7_wAK1ZXI.jpg?width=690&quality=75&format=jpg&auto=webp" alt="Elden Ring - Godrick the Grafted - Dicas e estratégias para derrotar o boss." caption="Elden Ring - Godrick the Grafted - Dicas e estratégias para derrotar o boss." %}
 
@@ -208,7 +208,7 @@ BF Skinner sabia. Ele chamou esse processo de treinamento de "modelagem". Pequen
 
 Quando chegar a esse ponto, você ainda pode chamar essa atividade de "jogo"? É mais como coçar uma erupção cutânea. E fica pior...
 
-### 2.3. Mantendo você pressionando…para sempre
+## 8. Mantendo você pressionando…para sempre
 
 Agora, a grande diferença entre nosso hamster de caixa Skinner e um humano real é que nós humanos podemos obter nossas pelotas em outro lugar. Se um jogo realmente não fosse nada além de clicar em uma caixa para obter recompensas aleatórias, eventualmente o largaríamos para jogar outro jogo. Os seres humanos precisam de um objetivo de longo prazo para nos manter, e o mundo dos jogos viciantes transformou isso em ciência. As técnicas incluem...
 
@@ -259,7 +259,7 @@ Ou uma roda de hamster.
 
 É claro que os desenvolvedores de jogos (e vários comentaristas, tenho certeza) apontariam corretamente que ninguém está obrigando os jogadores a fazer isso. Por que os humanos se colocariam voluntariamente no modo de hamster de laboratório? Bem, é tudo sobre...
 
-### 2.4. Fazendo com você chame a Skinner Box de casa
+## 9. Fazendo com você chame a Skinner Box de casa
 
 Você gosta do seu emprego?
 
@@ -279,17 +279,17 @@ Observe que as calças não são necessárias para a satisfação no trabalho.
 
 A maioria das pessoas, particularmente na demografia de jovens jogadores, não tem isso em seus empregos ou em qualquer aspecto de suas vidas cotidianas. Mas os videogames mais viciantes são projetados especificamente para nos dar todos os três... ou pelo menos a ilusão de todos os três.
 
-### 2.5. Autonomia
+### 9.1. Autonomia
 
 Você escolhe suas missões ou quais plantações de **Farmville** plantar. Inferno, você até escolhe seu próprio corpo, espécie e talentos.
 
 Irritar seus amigos do Facebook com atualizações é um talento realmente irritante.
 
-### 2.6. Complexidade
+### 9.2. Complexidade
 
 Os jogadores farão um grind monótono especificamente porque não parece um grind . Lembre-se da complicada dança Tier Armor/Frost Emblem que manteve nosso jogador clicando antes.
 
-### 2.7. Conexão entre esforço e recompensa
+### 9.3. Conexão entre esforço e recompensa
 
 Este é o grande. Quando você sobe de nível no WoW , uma maldita nuvem de luz dourada sai do seu corpo.
 

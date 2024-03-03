@@ -1,5 +1,5 @@
 ---
-title: O Jogo
+title: O jogo
 permalink: /pages/a-jogatina-das-decadas/o-jogo
 excerpt: "O objetivo deste capítulo é definir e conceituar o que é um jogo."
 last_modified_at: 2024-03-02T08:48:05-04:00
