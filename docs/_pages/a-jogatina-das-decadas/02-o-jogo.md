@@ -7,7 +7,7 @@ toc: true
 sidebar:
     nav: dev_jogatina
 categories:
-  - a jogatina das decadas
+  - a jogatina das décadas
 tags:
   - conceito
   - jogo

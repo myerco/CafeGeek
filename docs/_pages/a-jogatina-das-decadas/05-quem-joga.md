@@ -2,12 +2,12 @@
 title: Quem joga?
 permalink: /pages/a-jogatina-das-decadas/quem-joga
 excerpt: "O objetivo deste capítulo é identificar os fatores que motivam quem joga."
-last_modified_at: 2023-03-27T08:48:05-04:00
+last_modified_at: 2024-03-03T08:48:05-04:00
 toc: true
 sidebar:
     nav: dev_jogatina
 categories:
-  - a jogatina das decadas
+  - a jogatina das décadas
 tags:
   - fatores motivacionais
   - fatores não motivacionais

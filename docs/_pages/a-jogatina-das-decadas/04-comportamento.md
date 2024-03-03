@@ -2,12 +2,12 @@
 title: "O comportamento"
 permalink: /pages/a-jogatina-das-decadas/comportamento
 excerpt: "Neste capítulo vamos tentar responder, Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?."
-last_modified_at: 2023-03-27T08:48:05-04:00
+last_modified_at: 2024-03-03T08:48:05-04:00
 toc: true
 sidebar:
     nav: dev_jogatina
 categories:
-  - a jogatina das decadas
+  - a jogatina das décadas
 tags:
   - comportamento
   - vicio em jogos

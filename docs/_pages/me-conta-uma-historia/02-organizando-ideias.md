@@ -2,8 +2,10 @@
 title: Organizando as ideias
 permalink: /pages/me-conta-uma-historia/organizando-ideias
 excerpt: Neste curso vamos apresentar como organizar as ideias para uma narrativa.
-last_modified_at: 2023-03-27T08:48:05-04:00
+last_modified_at: 2024-03-03T08:48:05-04:00
 toc: true
+categories:
+  - me conta uma história
 sidebar:
     nav: dev_me_conta  
 ---

@@ -2,12 +2,12 @@
 title: "O mercado de jogos eletrônicos"
 permalink: /pages/a-jogatina-das-decadas/o-mercado-de-jogos-eletronicos
 excerpt: "Neste capítulo vamos como é o mercado de jogos eletrônicos."
-last_modified_at: 2023-03-27T08:48:05-04:00
+last_modified_at: 2024-03-03T08:48:05-04:00
 toc: true
 sidebar:
     nav: dev_jogatina
 categories:
-  - a jogatina das decadas
+  - a jogatina das décadas
 tags:
   - conceito
   - jogo eletrônico

@@ -2,7 +2,7 @@
 title: A jogatina das décadas
 permalink: /pages/a-jogatina-das-decadas/a-jogatina-das-decadas
 excerpt: "Life is a Game, by Animvs"
-last_modified_at: 2023-03-27T08:48:05-04:00
+last_modified_at: 2024-03-03T08:48:05-04:00
 toc: false
 classes: wide
 header:
