@@ -21,9 +21,9 @@ dev_game:
   - title: Modelagem 3D
     url: /pages/modelagem3d/introducao
   - title: A Jogatina das Décadas
-    url: /pages/a-jogatina-das-decadas/introducao
+    url: /pages/a-jogatina-das-decadas/a-jogatina-das-decadas
   - title: Me conta uma história
-    url: /pages/me-conta-uma-historia/introducao
+    url: /pages/me-conta-uma-historia/me-conta-uma-historia
   - title: Computação gráfica
     url: /pages/computacao-grafica/introducao      
   - title: O curso de jogos digitais
