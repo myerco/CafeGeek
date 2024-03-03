@@ -151,6 +151,8 @@ Por que isso funcionaria, quando as "recompensas" são apenas objetos digitais q
 
 ### 2.1. Criando alimento virtual para você comer
 
+{% include figure image_path="https://frostyboost.com/wp-content/uploads/2023/12/best-places-for-gold-farming-in-sod.png" alt="Best Farm Gold Spots for Mage in WoW SoD." caption="Best Farm Gold Spots for Mage in WoW SoD." %}
+
 A maioria dos elementos de jogos baseados em vícios são baseados neste fato:
 
 Seu cérebro trata itens e mercadorias no mundo dos videogames como se fossem reais. Porque eles são.
@@ -170,6 +172,9 @@ Claro, praticamente todos os jogos dos últimos 25 anos incluíram itens que voc
 Como o artigo do cara da Microsoft prova, os desenvolvedores sabem que estão usando esses objetos como pellets em uma caixa de Skinner. Nesse momento é tudo...
 
 ### 2.2. Fazendo você pressionar a alavanca
+
+{% include figure image_path="https://assetsio.reedpopcdn.com/elden_ring_godrick_the_grafted_7_wAK1ZXI.jpg?width=690&quality=75&format=jpg&auto=webp" alt="Elden Ring - Godrick the Grafted - Dicas e estratégias para derrotar o boss." caption="Elden Ring - Godrick the Grafted - Dicas e estratégias para derrotar o boss." %}
+
 
 Então imagine o rato em sua caixa. Ou, já que sou um desses jogadores e não gosto de me ver como um rato, imagine um hamster adorável. Talvez ele possa falar, e é dublado por Chris Rock.
 

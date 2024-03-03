@@ -23,12 +23,6 @@ Podemos classificar os jogos para determinar ou mostrar a sua função dentro de
 
 ### 1.1. Tabuleiro
 
-{% include image.html
-    src="https://assets.historyplay.tv/br/public/styles/wide/public/images/2020/05/28/senet_-_jogo_-_egito_-_mortos_-_comunicacao_-_history_channel_brasil.jpg"
-    alt="Figura: Senet"
-    caption="Figura: Senet, o jogo de tabuleiro que os egípcios usavam para se comunicar com os mortos."
-%}
-
 Consistem em uma superfície dividida em setores com peças móveis.
 
 {% include image.html
