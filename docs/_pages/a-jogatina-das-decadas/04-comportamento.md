@@ -131,11 +131,12 @@ A resposta é: trabalhamos porque o trabalho é uma extensão do nosso ser e con
 
 Se você já foi viciado em um jogo ou conhece alguém que era, este [artigo é realmente perturbador](https://www.gamasutra.com/view/feature/3085/behavioral_game_design.php?page=1) . Ele foi escrito por um pesquisador de jogos da Microsoft sobre como fazer videogames que prendem os jogadores, quer eles gostem ou não. Ele tem doutorado em ciências comportamentais e do cérebro.
 
-"Cada contingência é um arranjo de tempo, atividade e recompensa, e há um número infinito de maneiras que esses elementos podem ser combinados para produzir o padrão de atividade que você deseja de seus jogadores."
+Cada contingência é um arranjo de tempo, atividade e recompensa, e há um número infinito de maneiras que esses elementos podem ser combinados para produzir o padrão de atividade que você deseja de seus jogadores.
+{: .notice}
 
 Observe que seu artigo não contém as palavras "diversão" ou "prazer". Esse não é o campo dele. Em vez disso, é "o padrão de atividade que você deseja".
 
-Suas teorias são baseadas no trabalho de BF Skinner, que descobriu que você pode controlar o comportamento treinando sujeitos com estímulos e recompensas simples. Ele inventou a "Skinner Box", uma gaiola contendo um pequeno animal que, por exemplo, pressiona uma alavanca para obter pellets de comida. Agora, não estou dizendo que esse cara da Microsoft vê os jogadores como um bando de ratos em uma caixa de Skinner. Só estou dizendo que ele ilustra sua teoria de design de jogos usando imagens de ratos em uma caixa de Skinner.
+Suas teorias são baseadas no trabalho de BF Skinner, que descobriu que você pode controlar o comportamento treinando sujeitos com estímulos e recompensas simples. Ele inventou a **"Skinner Box"**, uma gaiola contendo um pequeno animal que, por exemplo, pressiona uma alavanca para obter *pellets* de comida. Agora, não estou dizendo que esse cara da Microsoft vê os jogadores como um bando de ratos em uma caixa de Skinner. Só estou dizendo que ele ilustra sua teoria de design de jogos usando imagens de ratos em uma caixa de Skinner.
 
 Esse tipo de coisa fez com que o pesquisador de jogos Nick Yee uma vez chamasse o [Everquest de "Virtual Skinner Box"](https://www-nickyee-com.translate.goog/eqt/skinner.html?_x_tr_sch=http&_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt-BR&_x_tr_pto=wapp).
 
@@ -145,7 +146,7 @@ O jogo mudou. Antigamente, quando eles nos vendiam um jogo de US$ 50, eles não 
 
 Agora, não há como eles criarem exploração ou história suficiente para mantê-lo jogando por milhares de horas, então eles tiveram que mudar a mecânica do jogo , para que os jogadores continuassem fazendo as mesmas ações repetidamente, se gostassem isso ou não. Assim, os desenvolvedores de jogos recorreram às técnicas de Skinner.
 
-Esta é uma grande fonte de controvérsia no mundo do design de jogos no momento. O criador do Braid , Jonathan Blow, disse que a mecânica de jogo skinneriana é uma forma de "exploração". Não é que esses jogos não possam ser divertidos. Mas eles são projetados para manter os jogadores assinando durante os períodos em que não é divertido, prendendo-os em um trabalho repetitivo usando o sistema manipulador de recompensas cuidadosamente programadas de Skinner.
+Esta é uma grande fonte de controvérsia no mundo do design de jogos no momento. O criador do Braid , Jonathan Blow, disse que a mecânica de jogo **skinneriana** é uma forma de "exploração". Não é que esses jogos não possam ser divertidos. Mas eles são projetados para manter os jogadores assinando durante os períodos em que não é divertido, prendendo-os em um trabalho repetitivo usando o sistema manipulador de recompensas cuidadosamente programadas de Skinner.
 
 Por que isso funcionaria, quando as "recompensas" são apenas objetos digitais que na verdade não existem? Nós vamos...
 
@@ -155,34 +156,39 @@ Por que isso funcionaria, quando as "recompensas" são apenas objetos digitais q
 
 A maioria dos elementos de jogos baseados em vícios são baseados neste fato:
 
-Seu cérebro trata itens e mercadorias no mundo dos videogames como se fossem reais. Porque eles são.
+- Seu cérebro trata itens e mercadorias no mundo dos videogames como se fossem reais. Porque eles são.
 
 As pessoas zombam dessa ideia o tempo todo ("Você passou todo esse tempo trabalhando para uma espada que nem existe ?") e essas pessoas são estúpidas . Se leva tempo, esforço e habilidade para obter um item, esse item tem valor, seja feito de diamantes, código binário ou carne seca.
 
-É por isso que o mais alto tribunal da Coreia do Sul decidiu que os bens virtuais devem ser legalmente tratados da mesma forma que os bens reais. E os bens virtuais são agora uma indústria de US$ 5 bilhões em todo o mundo.
+{% include figure image_path="https://static.fandomspot.com/images/08/48514/00-featured-golden-order-greatsword-elden-ring-screenshot.jpg" alt="Top 10 Coolest-Looking Swords in Elden Ring." caption="Top 10 Coolest-Looking Swords in Elden Ring." %}
+
+É por isso que o mais alto tribunal da Coreia do Sul **decidiu que os bens virtuais devem ser legalmente tratados da mesma forma que os bens reais**. E os bens virtuais são agora uma indústria de US$ 5 bilhões em todo o mundo.
+{: .notice}
 
 Não há nada de louco nisso. Afinal, as pessoas pagam milhares de dólares por diamantes, mesmo que os diamantes não façam nada além de ficarem bonitos. Uma armadura de videogame parece bonita e protege você dos orcs de videogame . Em ambos os casos você está pagando por uma ideia.
 
-Então qual é o problema?
+**Então qual é o problema?**
 
-Claro, praticamente todos os jogos dos últimos 25 anos incluíram itens que você pode coletar ao derrotar o jogo == não há nada de novo ou mal nisso. Mas como os jogadores consideram os itens do jogo reais e valiosos por conta própria, os jogos baseados em vícios fazem você correr sem parar para colecioná-los , mesmo que não tenham nada a ver com o objetivo do jogo .
+Claro, praticamente todos os jogos dos últimos 25 anos incluíram itens que você pode coletar ao derrotar o jogo - não há nada de novo ou mal nisso. Mas como os jogadores consideram os itens do jogo reais e valiosos por conta própria, os jogos baseados em vícios fazem você correr sem parar para colecioná-los , mesmo que não tenham nada a ver com o objetivo do jogo .
 
-É muito intencional por parte dos desenvolvedores, um apelo aos nossos instintos naturais de colecionar e colecionar , colecionar por colecionar. Funciona também, basta perguntar ao cara que continuou coletando itens mesmo enquanto os peitos nus estavam a poucos metros de distância . Peitos .
+É muito intencional por parte dos desenvolvedores, um apelo aos nossos instintos naturais de colecionar e colecionar , colecionar por colecionar. Funciona também, basta perguntar ao cara que continuou coletando itens mesmo enquanto  "coisas melhores" estavam a poucos metros de distância.
 
-Como o artigo do cara da Microsoft prova, os desenvolvedores sabem que estão usando esses objetos como pellets em uma caixa de Skinner. Nesse momento é tudo...
+Como o artigo do cara da Microsoft prova, os desenvolvedores sabem que estão usando esses objetos como "pellets" em uma caixa de Skinner. Nesse momento é tudo...
+
+**Informação:** Um pellet é um recurso de recompensa que cai em um mundo de jogo como resultado de uma vitória, a ser coletado pelo jogador.
+{: .notice--info}
 
 ### 2.2. Fazendo você pressionar a alavanca
 
 {% include figure image_path="https://assetsio.reedpopcdn.com/elden_ring_godrick_the_grafted_7_wAK1ZXI.jpg?width=690&quality=75&format=jpg&auto=webp" alt="Elden Ring - Godrick the Grafted - Dicas e estratégias para derrotar o boss." caption="Elden Ring - Godrick the Grafted - Dicas e estratégias para derrotar o boss." %}
 
-
 Então imagine o rato em sua caixa. Ou, já que sou um desses jogadores e não gosto de me ver como um rato, imagine um hamster adorável. Talvez ele possa falar, e é dublado por Chris Rock.
 
-Se você quiser fazê-lo apertar a alavanca o mais rápido possível, como você faria? Não dando a ele uma pastilha a cada pressão – ele logo relaxará, sabendo que as pastilhas estarão lá quando ele precisar. Não, a melhor maneira é configurar a máquina para que ela solte os pellets em intervalos aleatórios de pressão da alavanca. Ele logo começará a bombear aquela coisa o mais rápido que puder. Experimentos provam isso.
+Se você quiser fazê-lo apertar a alavanca o mais rápido possível, como você faria? Não dando a ele uma pastilha a cada pressão – ele logo relaxará, sabendo que as pastilhas estarão lá quando ele precisar. Não, a melhor maneira é configurar a máquina para que ela solte os *pellets* em intervalos aleatórios de pressão da alavanca. Ele logo começará a bombear aquela coisa o mais rápido que puder. Experimentos provam isso.
 
 Eles chamam isso de "Recompensas de Proporção Variável" na terra dos Skinners e esta é a razão pela qual muitos inimigos "deixam cair" itens valiosos totalmente aleatoriamente no WoW . Isso é viciante exatamente da mesma forma que uma máquina caça-níqueis é viciante. Você não pode desistir agora porque o próximo pode ser um vencedor. Ou o próximo. Ou o próximo.
 
-O MMO chinês ZT Online tem a implementação mais desonesta que eu já vi. O jogo está cheio desses baús de tesouro que podem ou não conter um item aleatório e para abri-los, você precisa de uma chave. Como você consegue as chaves? Ora, você os compra com dinheiro do mundo real, é claro. Como moedas em uma máquina caça-níqueis.
+O MMO chinês **ZT Online** tem a implementação mais desonesta que eu já vi. O jogo está cheio desses baús de tesouro que podem ou não conter um item aleatório e para abri-los, você precisa de uma chave. Como você consegue as chaves? Ora, você os compra com dinheiro do mundo real, é claro. Como moedas em uma máquina caça-níqueis.
 
 Espere, essa não é a melhor parte. O ZT Online faz algo que nem mesmo os cassinos sonharam: Eles concedem um item especial no final do dia ao jogador que abrir mais baús .
 
@@ -190,13 +196,15 @@ Agora, além do elemento de jogo, você tem milhares de jogadores competindo ent
 
 Ela não. Sempre havia alguém mais obcecado.
 
-Então qual é o problema?
+**Então qual é o problema?**
 
 Você está imaginando ela sentada lá, observando seu pequeno personagem na frente do baú, clicando em caixas de diálogo várias vezes, assistindo a mesma animação várias vezes, por hora após hora?
 
 Se você não a conhecesse melhor, pensaria que ela tinha uma doença mental incapacitante. Como ela poderia sair de seu eu racional para aquela compulsão ao estilo Rain Man ?
 
-BF Skinner sabia. Ele chamou esse processo de treinamento de "modelagem". Pequenas recompensas, passo a passo, como elos de uma corrente. No WoW , você decide que quer a armadura super legal Tier 10. Você precisa de cinco peças separadas. Para obter o conjunto completo, você precisa de mais de 400 Frost Emblems , que são ganhos um par de cada vez, de certos inimigos. Então você precisa atualizar cada peça de armadura com Marcas de Santificação. Então, novamente com Marcas Heroicas de Santificação. Para obter tudo isso, você deve executar novamente missões repetitivas e sentar, clicando com o mouse, por dias e dias e dias. Boobies que se danem.
+BF Skinner sabia. Ele chamou esse processo de treinamento de "modelagem". Pequenas recompensas, passo a passo, como elos de uma corrente. No WoW , você decide que quer a armadura super legal **Tier 10**. Você precisa de cinco peças separadas. Para obter o conjunto completo, você precisa de mais de 400 Frost Emblems , que são ganhos um par de cada vez, de certos inimigos. Então você precisa atualizar cada peça de armadura com Marcas de Santificação. Então, novamente com Marcas Heroicas de Santificação. Para obter tudo isso, você deve executar novamente missões repetitivas e sentar, clicando com o mouse, por dias e dias e dias. Boobies que se danem.
+
+{% include figure image_path="https://wow.zamimg.com/uploads/screenshots/normal/846496.jpg?maxWidth=800" alt="WoW Classic Warrior Armor/Tier Sets - Appearances, Set Bonuses, Sources." caption="WoW Classic Warrior Armor/Tier Sets - Appearances, Set Bonuses, Sources." %}
 
 Quando chegar a esse ponto, você ainda pode chamar essa atividade de "jogo"? É mais como coçar uma erupção cutânea. E fica pior...
 
@@ -204,29 +212,32 @@ Quando chegar a esse ponto, você ainda pode chamar essa atividade de "jogo"? É
 
 Agora, a grande diferença entre nosso hamster de caixa Skinner e um humano real é que nós humanos podemos obter nossas pelotas em outro lugar. Se um jogo realmente não fosse nada além de clicar em uma caixa para obter recompensas aleatórias, eventualmente o largaríamos para jogar outro jogo. Os seres humanos precisam de um objetivo de longo prazo para nos manter, e o mundo dos jogos viciantes transformou isso em ciência. As técnicas incluem...
 
-Facilitando-os em:
+**Facilitando-os em:**
 
-Primeiro, prepare os "pellets" para que eles venham rápido no início, e depois cada vez mais devagar com o passar do tempo. É por isso que eles tornam muito fácil ganhar recompensas (ou subir de nível) no início de um MMO , mas depois o tempo e o esforço entre os níveis aumentam exponencialmente. Uma vez que o jogador tenha experimentado a pressa de subir de nível cedo, a gratificação atrasada na verdade aumenta o prazer dos níveis posteriores. Esse especialista em comportamento de videogame da Microsoft descobriu que os jogadores jogam cada vez mais freneticamente à medida que se aproximam de um novo nível.
+Primeiro, prepare os *pellets* para que eles venham rápido no início, e depois cada vez mais devagar com o passar do tempo. É por isso que eles tornam muito fácil ganhar recompensas (ou subir de nível) no início de um MMO , mas depois o tempo e o esforço entre os níveis aumentam exponencialmente. Uma vez que o jogador tenha experimentado a pressa de subir de nível cedo, a gratificação atrasada na verdade aumenta o prazer dos níveis posteriores. Esse especialista em comportamento de videogame da Microsoft descobriu que os jogadores jogam cada vez mais freneticamente à medida que se aproximam de um novo nível.
 
-Eliminando Pontos de Parada:
+**Eliminando Pontos de Parada:**
 
 A maneira mais fácil é apenas separar os pontos de salvamento ou envolver o jogador em missões longas (como ataques de WoW ) que, uma vez iniciadas, são difíceis de sair sem perder o progresso.
 
 Mas isso pode ser frustrante para os jogadores, então você pode tomar a abordagem oposta de um jogo como New Super Mario Bros. Wii , onde você torna os níveis realmente curtos , então é como comer batatas fritas . Eles são tão pequenos sozinhos que não é preciso muito convencimento para fazer o jogador pegar outro, e logo eles comeram o saco inteiro.
 
 Em algum lugar naquela bolsa está um dinossauro furioso e uma princesa sequestrada.
+{: .notice}
 
-A propósito, esta é a mesma razão pela qual uma pessoa que normalmente não leria um artigo de 3.000 palavras na Internet o lerá alegremente se for dividido em forma de lista. Você está ignorando peitos para ler isso? Eu fiz meu trabalho!
+A propósito, esta é a mesma razão pela qual uma pessoa que normalmente não leria um artigo de 3.000 palavras na Internet o lerá alegremente se for dividido em forma de lista. Você está ignorando "coisas melhores" para ler isso? Eu fiz meu trabalho!
 
-Jogue ou perca:
+**Jogue ou perca:**
 
 Este é o verdadeiro movimento do pau. Por que recompensar o hamster por pressionar a alavanca? Por que não simplesmente configurar para que, quando ele não pressionar, nós o punimos ?
 
 Os behavioristas chamam isso de "evitação". Eles montam a gaiola para que dê um choque elétrico no animal a cada 30 segundos , a menos que ele atinja a alavanca. Ele aprende muito rápido a ficar na alavanca, o tempo todo, batendo repetidamente. Para todo sempre.
 
-Por que sua mãe está colhendo obsessivamente em Farmville ? Porque eles murcham e apodrecem se ela não o fizer. No Ultima Online , sua casa ou castelo começaria a decair se você não voltasse a ele regularmente. Em Animal Crossing , a cidade cresce com ervas daninhas e sua casa virtual fica infestada de baratas se você não fizer login com frequência suficiente. É a joia da coroa da baboseira da programação de jogos - mantenha o jogador clicando e clicando e clicando apenas para evitar perder as coisas que eles trabalharam tanto para conseguir .
+{% include figure image_path="https://criticalhits.com.br/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2013/02/farmville2-740x416.jpg.webp" alt="Série animada do jogo social FarmVille vem aí." caption="Série animada do jogo social FarmVille vem aí." %}
 
-Tudo o que precede:
+Por que sua mãe está colhendo obsessivamente em **Farmville** ? Porque eles murcham e apodrecem se ela não o fizer. No Ultima Online , sua casa ou castelo começaria a decair se você não voltasse a ele regularmente. Em Animal Crossing , a cidade cresce com ervas daninhas e sua casa virtual fica infestada de baratas se você não fizer login com frequência suficiente. É a joia da coroa da baboseira da programação de jogos - mantenha o jogador clicando e clicando e clicando apenas para evitar perder as coisas que eles trabalharam tanto para conseguir .
+
+**Tudo o que precede:**
 
 Cada uma dessas técnicas tem uma desvantagem e para obter o jogo viciante final, você combina o maior número possível, juntamente com o elemento de jogo "drop aleatório" mencionado anteriormente (conte quantas dessas técnicas estão no WoW ). Eles fazem o hamster correr de uma alavanca para outra e para outra.
 
@@ -238,7 +249,7 @@ Perguntamos anteriormente se a coleta de itens por meio de cliques obsessivos po
 
 Bem, nós humanos jogamos porque há uma satisfação básica em dominar uma habilidade, mesmo que seja inútil em termos de nossos objetivos gerais de vida. Isso nos ajuda a desenvolver nossos cérebros (especialmente quando crianças) e a nos testar sem consequências sérias se falharmos. É por isso que nossos cérebros nos recompensam com a sensação que chamamos de "diversão" quando fazemos isso.
 
-É por isso que não incluí jogos como Guitar Hero neste artigo. Eles são viciantes, claro, mas de uma forma que todos entendem. É perfeitamente natural gostar de ficar bom em alguma coisa. Da mesma forma, jogos competitivos como Modern Warfare 2 são apenas esportes para pessoas que não têm atletismo. Não há mistério ali; todo mundo gosta de ganhar.
+É por isso que não incluí jogos como **Guitar Hero** neste artigo. Eles são viciantes, claro, mas de uma forma que todos entendem. É perfeitamente natural gostar de ficar bom em alguma coisa. Da mesma forma, jogos competitivos como **Modern Warfare 2** são apenas esportes para pessoas que não têm atletismo. Não há mistério ali; todo mundo gosta de ganhar.
 
 Mas esses elementos de jogo "batem na alavanca até você desmaiar de fome" se desviam completamente para uma área diferente. Como outros apontaram , o objetivo é mantê-lo jogando por muito tempo depois de dominar as habilidades, muito depois de ter torcido a última experiência real de romance. Você não pode chegar a uma definição de "diversão" que englobe a atividade de clicar na imagem de um baú de tesouro com o mouse mil vezes.
 
@@ -258,11 +269,11 @@ Por mais chocante que isso pareça, muitas histórias de terror do "cara que fal
 
 Por que tantos de nós temos esse vazio? Porque de acordo com o especialista em tudo Malcolm Gladwell , para estar satisfeito com seu trabalho você precisa de três coisas, e aposto que a maioria de vocês não tem nem duas:
 
-**Autonomia** (ou seja, você tem algo a dizer no que faz no dia a dia);
+- **Autonomia** (ou seja, você tem algo a dizer no que faz no dia a dia);
 
-**Complexidade** (portanto, não é uma repetição entorpecente);
+- **Complexidade** (portanto, não é uma repetição entorpecente);
 
-**Conexão entre esforço e recompensa** (ou seja, você realmente vê os resultados impressionantes de seu trabalho duro).
+- **Conexão entre esforço e recompensa** (ou seja, você realmente vê os resultados impressionantes de seu trabalho duro).
 
 Observe que as calças não são necessárias para a satisfação no trabalho.
 
@@ -270,7 +281,7 @@ A maioria das pessoas, particularmente na demografia de jovens jogadores, não t
 
 ### 2.5. Autonomia
 
-Você escolhe suas missões ou quais plantações de Farmville plantar. Inferno, você até escolhe seu próprio corpo, espécie e talentos.
+Você escolhe suas missões ou quais plantações de **Farmville** plantar. Inferno, você até escolhe seu próprio corpo, espécie e talentos.
 
 Irritar seus amigos do Facebook com atualizações é um talento realmente irritante.
 
@@ -286,11 +297,11 @@ Isso é o que a maioria de nós não consegue na vida cotidiana – recompensas 
 
 A beleza disso é que permite que os jogos usem o tédio a seu favor. Como discutimos em outro lugar , há um aspecto de "trabalhar para ganhar o direito de jogar" do World of Warcraft , onde você moe ou "faz uma fazenda" de ouro pelo direito de fazer as coisas legais mais tarde. A natureza tediosa da agricultura realmente aumenta a sensação de realização posterior . E também ajuda a esmagar qualquer sentimento de culpa que você possa ter por negligenciar a escola, o trabalho ou as tarefas domésticas para jogar o jogo. Afinal, você fez suas tarefas – as 12 horas que você gastou cultivando ouro na última terça-feira foi menos divertida do que cortar a porra da grama. Agora é hora de diversão .
 
-Então qual é o problema?
+**Então qual é o problema?**
 
 A designer de videogames Erin Hoffman disse perfeitamente: "O vício não é sobre o que você FAZ, mas o que você NÃO FAZ por causa da substituição do comportamento viciante". Ela estava falando sobre como a atração de um simples jogo em flash como Bejeweled depende inteiramente do quanto você quer evitar fazer o trabalho que está aberto na outra janela.
 
-Espere, o que eu estava dizendo de novo?
+**Espere, o que eu estava dizendo de novo?**
 
 A terrível verdade é que muitos de nós imploramos por uma Skinner Box em que pudéssemos entrar, porque o sistema de recompensas do mundo real é muito mais lento e cruel do que esperávamos . Nisso, o jogo não é diferente de outras formas de fuga mental, do fandom de esportes ao moonshine.
 
