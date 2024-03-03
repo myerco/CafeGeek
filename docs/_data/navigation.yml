@@ -175,13 +175,11 @@ dev_computacao:
 
 dev_me_conta:
   - title: ME CONTA UMA HISTÓRIA
-    children:
-      - title: Introdução
-        url: /pages/me-conta-uma-historia/introducao
-      - title: Organizando as ideias
-        url: /pages/me-conta-uma-historia/organizando-ideias
-      - title: Os elementos da história
-        url: /pages/me-conta-uma-historia/elementos-historia       
+    url: /pages/me-conta-uma-historia/me-conta-uma-historia
+  - title: Organizando as ideias
+    url: /pages/me-conta-uma-historia/organizando-ideias
+  - title: Os elementos da história
+    url: /pages/me-conta-uma-historia/elementos-historia       
 
 dev_jogatina:
   - title: A jogatina das décadas
