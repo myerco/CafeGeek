@@ -9,7 +9,7 @@ excerpt: >
   Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando Blueprints e C++.
 feature_row:
   - image_path: /assets/images/jogos-digitais/logo-unreal-engine.webp
-    alt: "Unreal Engine - Capítulo 1 "
+    alt: "Unreal Engine - Capítulo 1 - Blueprints "
     title: "Unreal Engine - Capítulo 1"
     excerpt: "Aprenda estruturas de desenvolvimento com Blueprint usando Atores, varáveis e estruturas de controle."
     url: "/pages/unreal-engine/introducao"
@@ -52,15 +52,31 @@ feature_row:
     btn_label: "Saber mais"                
 ---
 
-{% include image.html
-    src="https://miro.medium.com/max/875/0*OlVTuxFz-Qn7oTUn"
-    alt="Figura: So, You Want to Be a Game Developer?"
-    title="Figura: So, You Want to Be a Game Developer?"
-    caption="Se você é como a maioria das pessoas, provavelmente joga videogame. Não importa se você é um jogador competitivo de e-sports atrás de muito dinheiro com seus jogos, ou se gosta de jogar spider ou candy crush como minha mãe, todo mundo joga. Mas você já pensou em fazê-los para o seu trabalho?"
-    ref="https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70"
-%}
+O curso tem como objetivo a construção da **Mecânica** do jogo, definindo mecanismos de controle e elementos do conteúdo do jogo.
 
-Um jogo digital é um produto de software e como muitos projetos de desenvolvimento envolve diversas áreas de conhecimento na sua construção, como por exemplo:
-{: .text-justify}
+## 1. Habilidades que serão aprendidas
+
+- Configuração e organização de projetos;
+  
+- Analisar e aplicar lógica de programação utilizando *Blueprint* e *C++*;
+  
+- Implementar regras de tempo e espaço;
+  
+- Implementar interface do usuário;
+  
+- Estruturar e configurar materiais, terrenos e iluminação;
+  
+- Implementar ambientes Multijogador;
+  
+- Implementar inteligência artificial;
+  
+- Construir a animação de personagens;
+  
+- Implementar Efeitos especiais.
+
+## . Referências
+
+- Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions.  [https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/ "Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions")
+- Couch Learn. (2019,Dezembro 27). Switch Statements in Unreal Engine 4. [https://couchlearn.com/switch-statements-in-unreal-engine-4/](https://couchlearn.com/switch-statements-in-unreal-engine-4/ "https://couchlearn.com/switch-statements-in-unreal-engine-4/")
 
 {% include feature_row %}

@@ -196,39 +196,3 @@ A maioria das *Engines* seguem um ciclo de execução da lógica de programaçã
 1. Editor para construção de materiais;
 
 1. Editor de efeitos especiais utilizando partículas;
-
-## 6. O curso de Unreal Engine com C++ e Blueprint
-
-Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando *Blueprints* e *C++* com Unreal Engine.  O curso está associado a construção **Mecânica** do jogo pois nele definimos elementos como mecanismos de controle e elementos do conteúdo do jogo.  
-
-### 6.1. Habilidades que serão aprendidas
-
-- Configuração e organização de projetos;
-  
-- Analisar e aplicar lógica de programação utilizando *Blueprint* e *C++*;
-  
-- Implementar regras de tempo e espaço;
-  
-- Implementar interface do usuário;
-  
-- Estruturar e configurar materiais, terrenos e iluminação;
-  
-- Implementar ambientes Multijogador;
-  
-- Implementar inteligência artificial;
-  
-- Construir a animação de personagens;
-  
-- Implementar Efeitos especiais.
-
-### 6.2. Categoria do Curso
-
-| M             | D             | A         |
-| :------------ | :------------ | :-------- |
-| **Mecânicas** | **Dinâmicas** | Estéticas |
-
-## 7. Referências
-
-- Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions.  [https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/ "Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions")
-- Couch Learn. (2019,Dezembro 27). Switch Statements in Unreal Engine 4. [https://couchlearn.com/switch-statements-in-unreal-engine-4/](https://couchlearn.com/switch-statements-in-unreal-engine-4/ "https://couchlearn.com/switch-statements-in-unreal-engine-4/")
-

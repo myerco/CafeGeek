@@ -32,21 +32,17 @@ dev_game:
     url: /pages/trabalhos/
 
 dev_unreal:
-  - title: "Capítulo 1"
-  - title: INTRODUÇÃO
-    children:
-      - title: Introdução ao Unreal Engine
-        url: /pages/unreal-engine/introducao
-      - title: Instalação e Configuração
-        url: /pages/unreal-engine/instalacao-configuracao
-      - title: Estrutura de pastas
-        url: /pages/unreal-engine/estrutura-de-pastas
-      - title: Interface e Editores
-        url:  /pages/unreal-engine/interface-editores
-  - title: PROGRAMAÇÃO
-    children:
-      - title: Blueprints
-        url: /pages/unreal-engine/blueprint
+  - title: "Capítulo 1 - Blueprints"
+  - title: Introdução ao Unreal Engine
+    url: /pages/unreal-engine/introducao
+  - title: Instalação e Configuração
+    url: /pages/unreal-engine/instalacao-configuracao
+  - title: Estrutura de pastas
+    url: /pages/unreal-engine/estrutura-de-pastas
+  - title: Interface e Editores
+    url:  /pages/unreal-engine/interface-editores
+  - title: Criando seu primeiro Blueprint
+    url: /pages/unreal-engine/blueprint
   - title: ATORES
     children:  
       - title: Atores e seus componentes
