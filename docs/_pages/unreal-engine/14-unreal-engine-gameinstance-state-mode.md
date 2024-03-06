@@ -4,7 +4,7 @@ excerpt: Neste capítulo iremos apresentar as classes GameMode e GameInstance co
 permalink: /pages/unreal-engine/gameinstance
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal_2
+    nav: dev_unreal_1
 toc: true 
 categories:
   - Unreal Engine

@@ -137,9 +137,7 @@ dev_unreal_8:
         url:  /pages/cpp/variaveis-e-ponteiros
       - title: Classes
         url:  /pages/cpp/classes
-  - title: C++ e Unreal Engine
-    children:
-      - title: Programação C++
+      - title: Unreal Engine e C++
         url: /pages/unreal-engine/cpp
 
 
