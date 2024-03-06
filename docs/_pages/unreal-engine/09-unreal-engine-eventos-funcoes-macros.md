@@ -4,7 +4,7 @@ excerpt: Estrutura de programação utilizando métodos, funções e macros.
 permalink: /pages/unreal-engine/eventos-funcoes
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal_2
+    nav: dev_unreal_1
 toc: true  
 categories:
   - Unreal Engine
@@ -14,8 +14,6 @@ tags:
   - macros
   - blueprint
 ---
-
-[Intermediário](/collection-archive/){: .btn .btn--warning}
 
 ## 1. Entendo Métodos e funções em programação
 

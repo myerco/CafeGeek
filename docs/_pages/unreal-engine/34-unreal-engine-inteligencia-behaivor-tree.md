@@ -4,7 +4,7 @@ excerpt: Trabalhando com Inteligência Artificial
 permalink: /pages/unreal-engine/inteligencia-artificial-behaivor-tree
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal_5
+    nav: dev_unreal_6
 toc: true 
 categories:
   - Unreal Engine
@@ -13,8 +13,6 @@ tags:
   - behavior tree
   - inteligência artificial
 ---
-
-[Avançado](/collection-archive/){: .btn .btn--danger}
 
 Em este passo iremos implementar os elementos necessários para controles de movimentação do NPC.
 

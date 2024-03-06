@@ -31,7 +31,7 @@ dev_game:
   - title: Trabalhos
     url: /pages/trabalhos/
 
-dev_unreal:
+dev_unreal_1:
   - title: "Capítulo 1 - Blueprints"
     children:    
       - title: Introdução ao Unreal Engine
@@ -44,28 +44,30 @@ dev_unreal:
         url:  /pages/unreal-engine/interface-editores
       - title: Criando seu primeiro Blueprint
         url: /pages/unreal-engine/blueprint
-      - title: Variáveis
+      - title: Trabalhando com variáveis
         url: /pages/unreal-engine/variaveis        
-  - title: "Capítulo 2 - ATORES"
-    children:  
       - title: Atores e seus componentes
         url: /pages/unreal-engine/atores-estruturas
       - title: Actor, Pawn e Character 
         url: /pages/unreal-engine/atores                
+      - title: Herança
+        url: /pages/unreal-engine/atores-heranca        
       - title: Colisão
         url: /pages/unreal-engine/atores-colisoes
-      - title: Herança
-        url: /pages/unreal-engine/atores-heranca
-  - title: "Capítulo 3 - ESTRUTURAS DE CONTROLE"
-    children:    
-      - title: If, Else, Switch e outros
+      - title: Estruturas de controle
         url: /pages/unreal-engine/estruturas-if-else-switch
-      - title: Repetição
+      - title: Estruturas de repetição
         url: /pages/unreal-engine/estruturas-loops
+      - title: Eventos, funções e macros
+        url: /pages/unreal-engine/eventos-funcoes
+      - title: Comunicação entre Blueprints
+        url: /pages/unreal-engine/comunicacao-blueprint
+      - title: Game Instance, State e Mode
+        url: /pages/unreal-engine/gameinstance        
+
 
 dev_unreal_2:        
-  - title: "Capítulo 2"
-  - title: ESTRUTURAS DE ARMAZENAMENTO
+  - title: "Capítulo 2 - ESTRUTURAS DE ARMAZENAMENTO"
     children:    
       - title: Arrays
         url: /pages/unreal-engine/arrays
@@ -75,24 +77,17 @@ dev_unreal_2:
         url: /pages/unreal-engine/variaveis-estruturadas        
       - title: Data Tables
         url: /pages/unreal-engine/datatables
-  - title: EVENTOS
-    children:    
-      - title: Eventos, funções e macros
-        url: /pages/unreal-engine/eventos-funcoes
-      - title: Comunicação entre Blueprints
-        url: /pages/unreal-engine/comunicacao-blueprint
-      - title: Game Instance, State e Mode
-        url: /pages/unreal-engine/gameinstance        
 
 dev_unreal_3:        
-  - title: "Capítulo 3"
-  - title: INTERFACE COM O JOGADOR
+  - title: "Capítulo 3 - INTERFACE COM O JOGADOR"
     children:
       - title: UI - User Interface
         url: /pages/unreal-engine/hud-interface
       - title: Objetos da interface
         url: /pages/unreal-engine/hud-logica
-  - title: MATERIAIS E LANDSCAPE
+
+dev_unreal_4:        
+  - title: Capítulo 4 - MATERIAIS E LANDSCAPE
     children:    
       - title: Introdução aos Materiais
         url: /pages/unreal-engine/materiais-introducao
@@ -101,16 +96,13 @@ dev_unreal_3:
       - title: Iluminação
         url: /pages/unreal-engine/iluminacao
 
-dev_unreal_4:        
-  - title: "Capítulo 4"
-  - title: MOVIMENTAÇÃO
+dev_unreal_5:        
+  - title: "Capítulo 5 - MOVIMENTAÇÃO"
     children:
       - title: Lógica de Movimentação
         url: /pages/unreal-engine/logica-movimentacao
       - title: Delta time e sistema de coordenadas
         url: /pages/unreal-engine/delta-time-sistema-coordenadas      
-  - title: ANIMAÇÃO
-    children:        
       - title: Animação de personagens
         url: /pages/unreal-engine/animacao-introducao
       - title: Lógica de animação
@@ -118,22 +110,22 @@ dev_unreal_4:
       - title: Animação 2d
         url: /pages/unreal-engine/animacao-2d       
 
-dev_unreal_5:        
-  - title: "Capítulo 5"
-  - title: INTELIGÊNCIA ARTIFICIAL      
+dev_unreal_6:        
+  - title: "Capítulo 6 - INTELIGÊNCIA ARTIFICIAL"
     children:
       - title: Movimentação Básica
         url: /pages/unreal-engine/inteligencia-artificial
       - title: Behaivor Tree
         url: /pages/unreal-engine/inteligencia-artificial-behaivor-tree
-  - title: MULTIPLAYER
+
+dev_unreal_7:        
+  - title: "Capítulo 7 - MULTIPLAYER"
     children:
       - title: Multiplayer
         url: /pages/unreal-engine/multiplayer
 
-dev_unreal_6:        
-  - title: "Capítulo 6"
-  - title: C++
+dev_unreal_8:        
+  - title: "Capítulo 8 - C++"
     children:
       - title: Controle de versão
         url: /pages/unreal-engine/controle-versao   

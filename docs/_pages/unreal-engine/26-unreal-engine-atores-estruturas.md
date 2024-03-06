@@ -4,7 +4,7 @@ excerpt: Neste capítulo serão apresentados os objetos do tipo Atores ou Actors
 permalink: /pages/unreal-engine/atores-estruturas
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal
+    nav: dev_unreal_1
 toc: true  
 categories:
   - Unreal Engine
@@ -13,8 +13,6 @@ tags:
   - Actors
   - Classes
 ---
-
-[Iniciante](/collection-archive/){: .btn .btn--success}
 
 ## 1. O que são Actors?
 

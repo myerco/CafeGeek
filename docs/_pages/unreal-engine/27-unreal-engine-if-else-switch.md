@@ -1,10 +1,10 @@
 ---
-title: If, Else, Switch e outros
+title: Estruturas de controle
 excerpt: Neste capítulo serão descritas as estruturas controle de fluxo, if, else, switch.
 permalink: /pages/unreal-engine/estruturas-if-else-switch
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal
+    nav: dev_unreal_1
 toc: true  
 categories:
   - Unreal Engine
@@ -16,8 +16,6 @@ tags:
   - switch
   - sequence
 ---
-
-[Avançado](/collection-archive/){: .btn .btn--danger}
 
 ## 1. O que são estruturas de controle ou fluxo?
 

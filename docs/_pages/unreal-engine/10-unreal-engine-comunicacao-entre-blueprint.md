@@ -4,7 +4,7 @@ excerpt: Neste capítulo vamos organizar a comunicação entre objetos.
 permalink: /pages/unreal-engine/comunicacao-blueprint
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal_2
+    nav: dev_unreal_1
 toc: true 
 categories:
   - Unreal Engine
@@ -13,8 +13,6 @@ tags:
   - comunicação
   - dispatcher
 ---
-
-[Avançado](/collection-archive/){: .btn .btn--danger}
 
 ## 1. Como facilitar a comunicação entre objetos Blueprint?
 

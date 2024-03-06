@@ -4,7 +4,7 @@ excerpt: Delta time e sistema de coordenadas
 permalink: /pages/unreal-engine/delta-time-sistema-coordenadas
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal_4
+    nav: dev_unreal_5
 toc: true 
 categories:
   - Unreal Engine
@@ -15,8 +15,6 @@ tags:
   - timeline
   - curves
 ---
-
-[Intermediário](/collection-archive/){: .btn .btn--warning}
 
 Neste capítulo serão apresentados e implementados os elementos de controle de tempo (Delta Time) dentro do **Unreal Engine**, apresentaremos também o funcionamento do sistema de coordenadas dos objetos.
 

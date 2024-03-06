@@ -13,8 +13,6 @@ tags:
   - Structure
 ---
 
-[Intermediário](/collection-archive/){: .btn .btn--warning}
-
 ## 1. O que são variáveis do tipo Structure?
 
 **Structure**, são estruturas de dados também conhecidas como **registros**, permitem que um usuário combine itens de dados de (possivelmente) diferentes tipos de dados sob um único nome. Em outras palavras, é uma variável que contém outros variáveis de diferentes tipos.  

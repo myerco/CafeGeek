@@ -4,7 +4,7 @@ excerpt: Em este capitulo iremos implementar animações em duas dimensões util
 permalink: /pages/unreal-engine/animacao-2d
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal_4
+    nav: dev_unreal_5
 toc: true 
 categories:
   - Unreal Engine
@@ -12,8 +12,6 @@ tags:
   - Animação 
   - Animação 2D
 ---
-
-[Intermediário](/collection-archive/){: .btn .btn--warning}
 
 ## 1. O que é Animação 2D?
 

@@ -1,10 +1,10 @@
 ---
-title: Variáveis
+title: Trabalhando com variáveis
 excerpt: Neste capítulo serão descritos os tipos de variáveis e sua manipulação.
 permalink: /pages/unreal-engine/variaveis
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal
+    nav: dev_unreal_1
 toc: true  
 categories:
   - Unreal Engine
@@ -13,8 +13,6 @@ tags:
   - Variáveis
   - Controle de fluxo
 ---
-
-[Intermediário](/collection-archive/){: .btn .btn--warning}
 
 ## 1. O que são variáveis?
 

@@ -14,8 +14,6 @@ tags:
   - interface
 ---
 
-[Intermediário](/collection-archive/){: .btn .btn--warning}
-
 HUD (*Heads-up Display*) ou UI (*Use Interface*) é um objeto especial do **Unreal Engine** para apresentar informações sobrepostas na tela e interagir com o jogador.
 
 Neste capitulo vamos apresentar formas de interação com o jogador e depois construir objetos os necessários.

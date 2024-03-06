@@ -13,8 +13,6 @@ tags:
   - Colisão
 ---
 
-[Iniciante](/collection-archive/){: .btn .btn--success}
-
 ## 1. Collision Responses
 
 **Collision Responses** e **Trace Responses** formam a base de como o Unreal Engine 4 lida com colisão e transmissão de raios durante o tempo de execução. Cada objeto que pode colidir recebe um tipo de objeto e uma série de respostas que definem como ele interage com todos os outros tipos de objeto. Quando ocorre um evento de colisão ou sobreposição, ambos (ou todos) os objetos envolvidos podem ser configurados para afetar ou serem afetados pelo bloqueio, sobreposição ou ignorando um ao outro. [Collision Overview](https://docs.unrealengine.com/4.27/en-US/InteractiveExperiences/Physics/Collision/Overview/)

@@ -14,8 +14,6 @@ tags:
   - Classes
 ---
 
-[Iniciante](/collection-archive/){: .btn .btn--success}
-
 ## 1. O que são Blueprints e Visual Scripting?
 
 {% include imagelocal.html

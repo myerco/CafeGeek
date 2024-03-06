@@ -13,8 +13,6 @@ tags:
   - array
 ---
 
-[Avançado](/collection-archive/){: .btn .btn--danger}
-
 ## 1. O que são variáveis do tipo array?
 
 É um conjunto de variáveis do mesmo tipo agrupadas dentro de uma estrutura e acessíveis por um índice. Podemos representar os *arrays* como uma tabela onde os dados são acessados por um índice que indica a posição do elemento, a seguir um exemplo.

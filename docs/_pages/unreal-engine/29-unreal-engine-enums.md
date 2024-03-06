@@ -13,8 +13,6 @@ tags:
   - enum
 ---
 
-[Intermediário](/collection-archive/){: .btn .btn--warning}
-
 ## 1. O que são Enums?
 
 Uma enumeração é um tipo definido pelo usuário que consiste em um conjunto de constantes integrais nomeadas que são conhecidas como enumeradores.

@@ -15,8 +15,6 @@ tags:
   - editores
 ---
 
-[Iniciante](/collection-archive/){: .btn .btn--success}
-
 ## 1. Editor de Level
 
 Uma visão geral da interface usada para o design e construção de níveis e ambientes de jogo.

@@ -4,7 +4,7 @@ excerpt: Trabalhando com a lógica de movimentação do personagem utilizando Bl
 permalink: /pages/unreal-engine/logica-movimentacao
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal_4
+    nav: dev_unreal_5
 toc: true 
 categories:
   - Unreal Engine
@@ -12,8 +12,6 @@ tags:
   - movimentação
   - actions mappings
 ---
-
-[Avançado](/collection-archive/){: .btn .btn--danger}
 
 O **Unreal Engine** utiliza `Input Actions` e `Mappings` para associar teclas a ações e eixos de movimentação, separando a lógica da entrada física , neste capítulo vamos implementar a movimentação de objetos utilizando mapeamento de ações e controle de eixos de movimentação.
 

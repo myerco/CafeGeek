@@ -16,8 +16,6 @@ tags:
   - .csv
 ---
 
-[Intermediário](/collection-archive/){: .btn .btn--warning}
-
 ## 1. O que são Data Tables?
 
 **Data Tables** são estruturas de dados com vários tipos de variáveis agrupados e podem ser utilizadas para armazenamento de forma estática de informações dos personagens e suas características, recursos do jogo como espadas, escudos, magias, propriedades do jogo como níveis, dificuldades e pontuação.

@@ -4,15 +4,13 @@ excerpt: Implementando um jogo multiplayer com Unreal Engine
 permalink: /pages/unreal-engine/multiplayer
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal_5
+    nav: dev_unreal_7
 toc: true 
 categories:
   - Unreal Engine
 tags:
   - multiplayer
 ---
-
-[Avançado](/collection-archive/){: .btn .btn--danger}
 
 Neste capítulo vamos implementar e organização elementos para conexão, replicação e inicialização de um jogo multiplayer.
 

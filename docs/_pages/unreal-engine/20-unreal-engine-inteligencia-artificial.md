@@ -4,7 +4,7 @@ excerpt: Trabalhando com Inteligência Artificial
 permalink: /pages/unreal-engine/inteligencia-artificial
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal_5
+    nav: dev_unreal_6
 toc: true 
 categories:
   - Unreal Engine
@@ -13,8 +13,6 @@ tags:
   - IA MoveTO
   - inteligência artificial
 ---
-
-[Avançado](/collection-archive/){: .btn .btn--danger}
 
 Neste projeto serão apresentados os elementos necessários para a construção de simulação de comportamentos, como por exemplo, busca e detecção de jogadores bem como configurar o personagem controlado pela IA em diferentes estados de comportamento.
 

@@ -5,7 +5,7 @@ permalink: /pages/cpp/variaveis-e-ponteiros
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true  
 sidebar:
-    nav: dev_unreal_6  
+    nav: dev_unreal_8 
 categories:
   - Unreal Engine
   - cpp

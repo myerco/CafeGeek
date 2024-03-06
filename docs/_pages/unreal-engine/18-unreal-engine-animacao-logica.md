@@ -4,7 +4,7 @@ excerpt: Em este capítulo iremos implementar várias animações utilizando um 
 permalink: /pages/unreal-engine/animacao-logica
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal_4
+    nav: dev_unreal_5
 toc: true 
 categories:
   - Unreal Engine
@@ -16,8 +16,6 @@ tags:
   - Layered Blend per bone
   - Layered Blend by bool
 ---
-
-[Intermediário](/collection-archive/){: .btn .btn--warning}
 
 ## 1. O que é Blend Space?
 

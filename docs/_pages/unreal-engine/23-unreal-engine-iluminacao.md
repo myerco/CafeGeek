@@ -12,8 +12,6 @@ tags:
   - Iluminação
 ---
 
-[Avançado](/collection-archive/){: .btn .btn--danger}
-
 ## 1. Directional Light
 
 **Directional Light** ou *luz direcional* simula a luz que está sendo emitida por uma fonte que está infinitamente distante. Isso significa que todas as sombras lançadas por essa luz serão paralelas, tornando-a a escolha ideal para simular a luz do sol. A luz direcional quando colocada pode ser definida para uma das três configurações de mobilidade:

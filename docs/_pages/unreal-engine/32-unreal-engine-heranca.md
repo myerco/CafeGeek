@@ -4,7 +4,7 @@ excerpt: Neste capitulo será apresentado a estrutura de herança de objetos.
 permalink: /pages/unreal-engine/atores-heranca
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:
-    nav: dev_unreal
+    nav: dev_unreal_1
 toc: true  
 categories:
   - Unreal Engine
@@ -16,8 +16,6 @@ tags:
   - Herança
   - Posição coordenadas
 ---
-
-[Iniciante](/collection-archive/){: .btn .btn--success}
 
 ## 1. Trabalhando herança com Blueprint
 
