@@ -33,17 +33,20 @@ dev_game:
 
 dev_unreal:
   - title: "Capítulo 1 - Blueprints"
-  - title: Introdução ao Unreal Engine
-    url: /pages/unreal-engine/introducao
-  - title: Instalação e Configuração
-    url: /pages/unreal-engine/instalacao-configuracao
-  - title: Estrutura de pastas
-    url: /pages/unreal-engine/estrutura-de-pastas
-  - title: Interface e Editores
-    url:  /pages/unreal-engine/interface-editores
-  - title: Criando seu primeiro Blueprint
-    url: /pages/unreal-engine/blueprint
-  - title: ATORES
+    children:    
+      - title: Introdução ao Unreal Engine
+        url: /pages/unreal-engine/introducao
+      - title: Instalação e Configuração
+        url: /pages/unreal-engine/instalacao-configuracao
+      - title: Estrutura de pastas
+        url: /pages/unreal-engine/estrutura-de-pastas
+      - title: Interface e Editores
+        url:  /pages/unreal-engine/interface-editores
+      - title: Criando seu primeiro Blueprint
+        url: /pages/unreal-engine/blueprint
+      - title: Variáveis
+        url: /pages/unreal-engine/variaveis        
+  - title: "Capítulo 2 - ATORES"
     children:  
       - title: Atores e seus componentes
         url: /pages/unreal-engine/atores-estruturas
@@ -53,11 +56,7 @@ dev_unreal:
         url: /pages/unreal-engine/atores-colisoes
       - title: Herança
         url: /pages/unreal-engine/atores-heranca
-  - title: VARIÁVEIS E MEMÓRIA
-    children:    
-      - title: Variáveis
-        url: /pages/unreal-engine/variaveis
-  - title: ESTRUTURAS DE CONTROLE
+  - title: "Capítulo 3 - ESTRUTURAS DE CONTROLE"
     children:    
       - title: If, Else, Switch e outros
         url: /pages/unreal-engine/estruturas-if-else-switch
