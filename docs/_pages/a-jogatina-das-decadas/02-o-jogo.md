@@ -16,10 +16,6 @@ tags:
   - fatores motivacionais
   - fatores não motivacionais
   - jogador
-header:
-  overlay_image: /assets/images/jogatina-das-decadas/a-jogatina-das-decadas.webp
-  image_description: "Tempus Fugi Clock"
-  caption: "Photo credit: Tempus Fugi Clock"- 
 ---
 
 A origem da palavra **jogo** deriva do de um termo do latim, *jocus*, que significa brincadeira, divertimento, atualmente podemos explorar as principais características e definições que nos ajudam a entender a evolução dessa "brincadeira" que faz parte das nossas vidas.
