@@ -1,8 +1,7 @@
 ---
 title: A jogatina das décadas
 permalink: /pages/a-jogatina-das-decadas/a-jogatina-das-decadas
-excerpt: "Life is a Game, by Animvs"
-tagline: "Teste"
+excerpt: "Defina o que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização."
 date: 2024-03-03T08:48:05-04:00
 show_date: true
 last_modified_at: 2024-03-03T08:48:05-04:00
@@ -16,15 +15,14 @@ header:
 sidebar:
     nav: dev_jogatina
 categories:
-  - a jogatina das décadas
+  - A jogatina das décadas
+  - Estética
 tags:
-  - conceito
-  - curso
+  - Conceito
+  - Curso
 ---
 
-O objetivo deste curso é apresentar e trabalhar com a definição do que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização. O curso está associado a construção **Estética** do jogo, pois nele definimos elementos como sensação, desafio, descoberta e passatempo.
-
-## 1. Habilidades que serão aprendidas
+## Habilidades que serão aprendidas
 
 - Analise e conceitue jogos;
 
@@ -38,6 +36,6 @@ O objetivo deste curso é apresentar e trabalhar com a definição do que é um 
 
 - Analise e conceitue a Gamificação.
 
-| M         | D         | A             |
-| :-------- | :-------- | :------------ |
-| Mecânicas | Dinâmicas | **Estéticas** |
+## Categoria
+
+ O curso está associado a construção **Estética** do jogo, pois nele definimos elementos como sensação, desafio, descoberta e passatempo.

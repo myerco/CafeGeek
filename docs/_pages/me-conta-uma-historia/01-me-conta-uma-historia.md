@@ -1,7 +1,8 @@
 ---
 title: Me conta uma história
 permalink: /pages/me-conta-uma-historia/me-conta-uma-historia
-excerpt: Continue sua jornada, mesmo que estiver sozinho.
+excerpt: "Construa a narrativa de jogos com seus personagens, definia tempo, mundo, objetivos e os capítulos da história."
+date: 2024-03-08T08:48:05-04:00
 last_modified_at: 2024-03-03T08:48:05-04:00
 toc: false
 classes: wide
@@ -9,15 +10,17 @@ header:
   overlay_image: /assets/images/me-conta-uma-historia/me-conta-uma-historia.webp
   image_description: "Whats is your story"
   caption: "Photo credit: Whats is your story"
-
 categories:
-  - me conta uma história
-
+  - Me conta uma história
+tags:
+  - Conceito
+  - Curso
+  - Roteiro
 sidebar:
     nav: dev_me_conta  
 ---
 
-Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história.
+
 
 ## Habilidades que serão aprendidas
 
