@@ -17,9 +17,9 @@ sidebar:
     nav: dev_me_conta  
 ---
 
-Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história.  O curso está associado a construção **Estética** do jogo pois nele definimos elementos como fantasia, narrativa e expressão.
+Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e  seus personagens bem como a definição de tempo, mundo, objetivos e os capítulos da história.
 
-## 2. Habilidades que serão aprendidas
+## Habilidades que serão aprendidas
 
 - Aprenda a organizar suas ideias;
 
@@ -29,13 +29,13 @@ Neste curso vamos apresentar e trabalhar na construção da narrativa de jogos e
 
 - Defina o combate dos personagens;
 
-- Defina os objetivos da história;
+- Defina os objetivos da história.
 
-| M         | D         | A             |
-| :-------- | :-------- | :------------ |
-| Mecânicas | Dinâmicas | **Estéticas** |
+## Categoria
 
-## 3. Referências
+ O curso está associado a construção **Estética** do jogo pois nele definimos elementos como fantasia, narrativa e expressão.
+
+## Referências
 
 - Level UP : Um guia para o Design de grandes Jogos ,ROGERS, Scott, 1ª Ed, RIO DE JANEIRO: 2013.
 - Introdução ao desenvolvimento de jogos digitais, Steve Rabin, Editora Cengage Learning, 2012.

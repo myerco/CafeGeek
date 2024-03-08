@@ -10,82 +10,17 @@ sidebar:
     nav: dev_me_conta  
 ---
 
-## 1. Por dentro da cabeça do Game Design
-
-Por baixo dessa carne existe um ideal. e as ideias nunca morrem...**V de Vingança**
-{: .notice}
-
-Um papel importante na produção de um jogo digital é o de Game Design que é analogamente o gerente de projeto, responsável por cada etapa da construção do produto.
-{: .text-justify}
-
-O Game Design deve atuar como uma interface entre os diversos profissionais envolvidos no projeto e entender as suas necessidades, mas para um bom desempenho nessa tarefa o Game Design deve conhecer um pouco de cada processo no fluxo de trabalho.
-{: .text-justify}
-
-### 1.1. Quero ser um Game Design
-
-Como toda profissão para que possamos alcançar um reconhecimento e conhecimento adequado sobre o ofício devemos estruturar e agrupar os nossos passos, abaixo algumas dicas:
-{: .text-justify}
-
-- Seja apaixonado por jogos e jogue, jogue para se divertir e se pergunte porque foi divertido;
-
-- Entenda a dinâmica do mercado de jogos, como o produto é vendido, como é consumido e qual o ciclo de vida do produto;
-
-- Leia bastante;
-
-- Procure trabalhar a sua interação social e aprenda a expressar suas ideias, pois é, aprenda a trabalhar em equipe;
-
-- Procure conhecer as profissões atuantes na construção e aprenda uma delas, por exemplo: Programação de jogos, Arte, publicidade ou todas as mesmo tempo.
-
-{% include image.html
-    src="https://www.gamerinfo.com.br/wp-content/uploads/2018/09/game-designer-1.jpg"
-    alt="Figura: Design de games."
-    caption="Conheça a profissão"
-    url="https://www.gamerinfo.com.br/2018/09/10/design-de-games/"
-%}
-
-### 1.2. Quanto Ganha do Game Design?
-
-Segundo o site [https://www.educamaisbrasil.com.br](https://www.educamaisbrasil.com.br) o salário começa com **R$ 1.228,90** e pode chegar a **R$ 4.056,35** no Brasil (Consulta 17/01/2021).
-
-{% include image.html
-    src="https://images.educamaisbrasil.com.br/content/superior/curso/banner/p/design-de-games.jpg"
-    alt="Figura: Profissão Designer de games"
-    caption="Salário e carreira na área de DESIGN DE GAMES"
-    url="https://www.educamaisbrasil.com.br/cursos-e-faculdades/design-de-games/salario-de-designer-de-games-carreira"
-%}
-
-### 1.3. Características pessoais
-
-A seguir vamos destacar algumas Características necessárias para um bom Game Design.
-
-{% include image.html
-    src="https://www.singerandfalk.com/wp-content/uploads/2018/03/02_07_18_838151864_BB_560x292.jpg"
-    alt="Figura: Turning employee ideas into profitable results."
-    caption="Muitas empresas treinam os funcionários como fazer seu trabalho e apenas seu trabalho. Mas coisas incríveis podem acontecer quando você também ensina os membros da equipe a se envolverem ativamente em um processo de lucratividade."
-    url="https://www.singerandfalk.com/uncategorized/turning-employee-ideas-into-profitable-results/"
-%}
-
-- Descrever e escrever as suas ideias;
-
-- Usar a comunicação visual;
-
-- Acompanhar o trabalho da equipe;
-
-- Prestar atenção a opinião de outras pessoas.
-
-{% include figure image_path="/assets/images/jogos-digitais/etienne-girardet-EP6_VZhzXM8-unsplash.webp" alt="Brecht Corbeel" caption="" %}
-
-## 2. Como construir um jogo digital?
+## 1. Como construir um jogo digital?
 
 Se você quiser fazer uma torta de maçã do nada, você precisa, primeiro, inventar o universo. **Carl Sagan**.
 {: .notice}
 
 Geralmente o fluxo de trabalhado para construção de um jogo digital pode ser definido pelas etapas de **Conceito**, **Funcional** e **Artista**, a seguir vamos descrever cada etapa.
 
-### 2.1. Conceito
+### 1.1. Conceito
 
 {% include imagelocal.html
-    src="me-conte-uma-historia/10.webp"
+    src="me-conta-uma-historia/10.webp"
     alt="Figura: Game design for PUBBY."
     caption="Modelo de um Game Design."
     url="https://www.dsource.in/case-study/game-design-pubby/design-process/"
@@ -99,7 +34,7 @@ A etapa conceitual é a mais abstrata do projeto, onde definimos o conceito do j
 Um bom exemplo de documentação é o modelo [Death VIP](/docs/modelo-gdd-death-vip), utilize a estrutura do modelo para o desenvolvimento de trabalhos no decorrer do curso.
 {: .notice--success}
 
-### 2.2. Funcional
+### 1.2. Funcional
 
 Nesta etapa definimos como organizar o fluxo de atividades e comunicação do projeto. Devemos definir também as regras que devem ser desenvolvidas no projeto como por exemplo a implementação técnica da mecânica.
 
@@ -114,7 +49,7 @@ Nesta etapa definimos como organizar o fluxo de atividades e comunicação do pr
     url="https://www.researchgate.net/publication/346541011_The_growth_of_the_gaming_industry_in_the_context_of_creative_industries"
 %}
 
-### 2.3. Artista
+### 1.3. Artista
 
 Como são os personagens? qual o ambiente? esse tipo de perguntas são apresentadas nessa etapa onde devem ser analisadas e aprovadas as representações visuais do jogo.
 
@@ -129,7 +64,7 @@ Como são os personagens? qual o ambiente? esse tipo de perguntas são apresenta
     url="https://magazine.artstation.com"
 %}
 
-## 3. A equipe
+## 2. A equipe
 
 Organizar a equipe é um trabalho interessante quando compreendemos as características do produto que vamos desenvolver e as aliamos aos perfis profissionais que devem atuar no desenvolvimento.
 
@@ -161,7 +96,7 @@ Organizar a equipe é um trabalho interessante quando compreendemos as caracter�
     url="https://www.gameskinny.com/xiv9z/tips-for-positive-player-interactions-in-world-of-warcraft-instances"
 %}
 
-## 4. Tarefas
+## 3. Tarefas
 
 Quais são as tarefas e atividades que devem ser executadas, por onde começamos? uma resposta para a pergunta é organize em pacotes de entrega. Defina e agrupe um conjunto de entregas baseadas em funcionalidades e comece a organizar a sua agenda.
 
@@ -179,7 +114,7 @@ Quais são as tarefas e atividades que devem ser executadas, por onde começamos
     caption="Figura: Improving Video Game Development: Facilitating Heterogeneous Team Collaboration through Flexible Software Processes - <https://www.researchgate.net>."
 %}
 
-## 5. Limitações
+## 4. Limitações
 
 {% include image.html
     src="https://assets.rockpapershotgun.com/images/2020/02/The-Forest-Best-Survival-Games-2020.jpg"
@@ -190,7 +125,7 @@ Quais são as tarefas e atividades que devem ser executadas, por onde começamos
 
 O desenvolvimento de um projeto de um jogo digital pode ser limitado por vários fatores. Alguns dos principais fatores incluem:
 
-### 5.1. Dinheiro
+### 4.1. Dinheiro
 
 Estime os custos do projeto, orçamento e controle de custos de modo que o projeto possa ser terminado dentro do orçamento aprovado.
 
@@ -207,7 +142,7 @@ Estime os custos do projeto, orçamento e controle de custos de modo que o proje
 
 - Controle custos, acompanhe e monitore as mudanças feitas na custo base.
 
-### 5.2. Tempo
+### 4.2. Tempo
 
 Fique atento aos prazos estabelecidos no escopo e o tempo estipulado para cada atividade.
 
@@ -228,7 +163,7 @@ Fique atento aos prazos estabelecidos no escopo e o tempo estipulado para cada a
 
 - Monitore o andamento do projeto e atualize o progresso e gerenciamento de mudanças.
 
-### 5.3. Tecnologia
+### 4.3. Tecnologia
 
 Considere de toda a base tecnológica do projeto.
 
@@ -249,7 +184,7 @@ Considere de toda a base tecnológica do projeto.
 
 - Softwares e licenças utilizados.
 
-### 5.4. Expertise
+### 4.4. Expertise
 
 Organize as equipes com os papeis e responsabilidades designadas para a conclusão do projeto.
 
@@ -268,12 +203,12 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 
 - Acompanhe o desempenho dos membros da equipe, forneça *feedback*, resolva questões e acompanhe as mudanças.
 
-## 6. Como organizar as ideias?
+## 5. Como organizar as ideias?
 
 Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, visto que o Universo não tem ideias. **Fernando Pessoa**.
 {: .notice}
 
-### 6.1. Onde nascem as ideias?
+### 5.1. Onde nascem as ideias?
 
 {% include image.html
     src="https://cdn3.vox-cdn.com/uploads/chorus_asset/file/3687336/The_Witcher_3_Wild_Hunt_You_never_know_what_waits_around_the_corner.0.png"
@@ -292,7 +227,7 @@ Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, 
 
 - Experiências emocionais.
 
-### 6.2. Cultivando ideias
+### 5.2. Cultivando ideias
 
 {% include image.html
     src="https://cdn.vox-cdn.com/thumbor/KfZcAgZDNJyf7POmq2KDOfa2fZA=/148x0:1768x1080/920x613/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47374578/unravel-yarny.0.0.jpg"
@@ -309,7 +244,7 @@ Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, 
 
 - Compartilhe o seu mundo com outras pessoas;
 
-### 6.3. O que torna a ideia interessante é
+### 5.3. O que torna a ideia interessante é
 
 {% include image.html
     src="https://adrenaline.com.br/uploads/2021/09/09/70890/Lost-in-Random_06.jpg"
@@ -322,10 +257,10 @@ Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, 
 
 - Seja divertido;
 
-## 7. O que nos inspira?
+## 6. O que nos inspira?
 
 {% include imagelocal.html
-    src="me-conte-uma-historia/04190615075402.webp"
+    src="me-conta-uma-historia/04190615075402.webp"
     alt="Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa."
     caption="A coragem é inspiradora."
     url="https://www.tecmundo.com.br/voxel/jogos/rise-of-the-tomb-raider/analise"
@@ -339,7 +274,7 @@ Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, 
 
 - Experiências pessoais;
 
-## 8. Hábito
+## 7. Hábito
 
 {% include image.html
     src="https://s2.glbimg.com/ZcTFIilmLi8663REozPDO8EzL18=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/q/UZHV1lT8SDUVlX8Bso5Q/2015-07-24-journey3.jpg"

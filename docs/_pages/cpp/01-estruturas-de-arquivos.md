@@ -15,8 +15,6 @@ tags:
   - Estruturas de arquivos
 ---
 
-[Avançado](/collection-archive/){: .btn .btn--danger}
-
 {% include figure image_path="/assets/images/cpp/uday-awal-UjJWhMerJx0-unsplash.webp" alt="Uday Awal" caption="" %}
 
 ## 1. Como o compilador C++ funciona?

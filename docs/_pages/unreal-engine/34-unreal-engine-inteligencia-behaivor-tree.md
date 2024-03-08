@@ -1,6 +1,6 @@
 ---
-title: Inteligência Artificial
-excerpt: Trabalhando com Inteligência Artificial
+title: Behaivor Tree
+excerpt: Trabalhando com Behaivor Tree
 permalink: /pages/unreal-engine/inteligencia-artificial-behaivor-tree
 last_modified_at: 2023-03-28T08:48:05-04:00
 sidebar:

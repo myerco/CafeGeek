@@ -1,5 +1,5 @@
 ---
-title: Manipulando materiais com Blueprint
+title: Manipulando materiais
 excerpt: Neste capítulo iremos manipular os materiais com lógica de script Blueprint e construir funções para utilizar dentro dos materiais.
 permalink: /pages/unreal-engine/materiais-blueprint
 last_modified_at: 2023-03-28T08:48:05-04:00

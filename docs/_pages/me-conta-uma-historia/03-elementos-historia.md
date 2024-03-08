@@ -16,7 +16,7 @@ Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar 
 {: .notice}
 
 {% include imagelocal.html
-    src="me-conte-uma-historia/AR18-1.webp"
+    src="me-conta-uma-historia/AR18-1.webp"
     alt="Figura: 10 dicas e truques para criar personagens inesquecíveis."
     caption="Figura: 10 dicas e truques para criar personagens inesquecíveis"
     ref="https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/"

@@ -10,8 +10,10 @@ main:
     url: /collection-archive/    
   - title: "Posts"    
     url: /post-archive-feature-rows/
-#  - title: "Portfolio"    
-#    url: /portfolio/    
+  - title: "Páginas"    
+    url: /page-archive/    
+  - title: "Sitemap"    
+    url: /sitemap/        
   - title: "Sobre"
     url: /about/
 
@@ -161,6 +163,8 @@ dev_computacao:
 dev_me_conta:
   - title: ME CONTA UMA HISTÓRIA
     url: /pages/me-conta-uma-historia/me-conta-uma-historia
+  - title: Game Design
+    url: /pages/me-conta-uma-historia/game-design
   - title: Organizando as ideias
     url: /pages/me-conta-uma-historia/organizando-ideias
   - title: Os elementos da história

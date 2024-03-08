@@ -1,5 +1,5 @@
 ---
-title: Colisões
+title: Colisão
 excerpt: Neste capitulo será apresentado o efeito de colisão de objetos.
 permalink: /pages/unreal-engine/atores-colisoes
 last_modified_at: 2023-03-28T08:48:05-04:00
