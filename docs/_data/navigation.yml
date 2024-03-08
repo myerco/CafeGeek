@@ -4,8 +4,6 @@ main:
     url: /
   - title: "Unreal Engine"
     url:  /unreal-engine
-  - title: "Banco de Dados"
-    url: /pages/banco-dados    
   - title: "Documentos"
     url: /collection-archive/    
   - title: "Posts"    
