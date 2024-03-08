@@ -28,7 +28,7 @@
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
 
     {% for pc in post.categories %}
-      <li><a href="{{ pc.url }}">{{ pc }}</a></li>
+      <li><p>{{ pc }}</p></li>
     {% endfor %}  <!-- page-category -->
 
   </article>

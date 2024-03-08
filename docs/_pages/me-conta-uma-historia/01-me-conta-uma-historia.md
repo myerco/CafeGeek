@@ -3,6 +3,7 @@ title: Me conta uma história
 permalink: /pages/me-conta-uma-historia/me-conta-uma-historia
 excerpt: "Construa a narrativa de jogos com seus personagens, definia tempo, mundo, objetivos e os capítulos da história."
 date: 2024-03-08T08:48:05-04:00
+show_date: true
 last_modified_at: 2024-03-03T08:48:05-04:00
 toc: false
 classes: wide

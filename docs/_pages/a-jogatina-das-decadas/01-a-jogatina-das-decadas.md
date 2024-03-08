@@ -16,10 +16,10 @@ sidebar:
     nav: dev_jogatina
 categories:
   - A jogatina das décadas
-  - Estética
 tags:
   - Conceito
   - Curso
+  - Estética 
 ---
 
 ## Habilidades que serão aprendidas
