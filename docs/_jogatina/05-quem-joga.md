@@ -1,23 +1,20 @@
 ---
 title: Quem joga?
 permalink: /pages/a-jogatina-das-decadas/quem-joga
-excerpt: "O objetivo deste capítulo é identificar os fatores que motivam quem joga."
-last_modified_at: 2024-03-03T08:48:05-04:00
+excerpt: "Quais são as motivações dos jogadores?."
+date: 2024-03-10T08:48:05-04:00
+show_date: true
+last_modified_at: 2024-03-10T08:48:05-04:00
 toc: true
 sidebar:
     nav: dev_jogatina
 categories:
-  - a jogatina das décadas
+  - A jogatina das décadas
 tags:
   - fatores motivacionais
   - fatores não motivacionais
   - jogador
 ---
-
-Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior do que apenas eu mesmo. **Jogador Nº1**.
-{: .notice}
-
-## 1. O jogador
 
 {% include image.html
     src="https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp"
@@ -26,6 +23,11 @@ Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior 
     idref="HOLMES, Amy"
     ref="https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women"
 %}
+
+Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior do que apenas eu mesmo. **Jogador Nº1**.
+{: .notice}
+
+## 1. O jogador
 
 Conhecer o que o jogador quer e a situação que o mercado se apresenta são informações que apenas darão suporte ao design em criar um jogo que na verdade deve possuir, por meio de referências acadêmicas, os elementos que provoquem o **desejo**, a **compra**, a **diversão** e o entretenimento, que são consequências.
 {: .notice--primary}

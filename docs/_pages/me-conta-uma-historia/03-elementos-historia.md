@@ -5,15 +5,10 @@ excerpt: Neste capítulo vamos apresentar os elementos necessários de uma hist�
 last_modified_at: 2024-03-03T08:48:05-04:00
 toc: true
 categories:
-  - me conta uma história
+  - Me conta uma história
 sidebar:
     nav: dev_me_conta
 ---
-
-## 1. Como construir os personagens?
-
-Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro. **Alan Wake**
-{: .notice}
 
 {% include imagelocal.html
     src="me-conta-uma-historia/AR18-1.webp"
@@ -21,6 +16,11 @@ Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar 
     caption="Figura: 10 dicas e truques para criar personagens inesquecíveis"
     ref="https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/"
 %}
+
+## 1. Como construir os personagens?
+
+Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro. **Alan Wake**
+{: .notice}
 
 Não existe uma formula mágica que se deve seguir para construir um personagem de qualquer história ficcional, talvez observar a vida real e o comportamento das pessoas que estão a sua volta ajude a entender como construir personagens, pois eles estão ao seu lado, mas segundo Charlie Jane Ander em artigo publicado em 05/08/2014, adaptado e apresentado em mini-palestra no [Clarion West](https://www.clarionwest.org/) por Cristine é possível organizar algumas ideias e dicas para que os personagens ganhem vida, segue abaixo o resumo.
 

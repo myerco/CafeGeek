@@ -1,7 +1,7 @@
 ---
 title: O jogo
 permalink: /pages/a-jogatina-das-decadas/o-jogo
-excerpt: "Defina e conceitue o que é um jogo."
+excerpt: "O que é um Jogo?."
 date: 2024-03-08T08:48:05-04:00
 show_date: true
 last_modified_at: 2024-03-08T08:48:05-04:00
@@ -9,7 +9,7 @@ toc: true
 sidebar:
     nav: dev_jogatina
 categories:
-  - a jogatina das décadas
+  - A jogatina das décadas
 tags:
   - conceito
   - jogo
@@ -17,6 +17,12 @@ tags:
   - fatores não motivacionais
   - jogador
 ---
+
+{% include imagelocal.html
+    src="jogatina-das-decadas/chess_game.webp"
+    alt="Figura: Chess."
+    caption="O Xadrez é um jogo de tabuleiro de estratégia do tipo recreativo ou competitivo para dois jogadores."
+%}
 
 A origem da palavra **jogo** deriva do de um termo do latim, *jocus*, que significa brincadeira, divertimento, atualmente podemos explorar as principais características e definições que nos ajudam a entender a evolução dessa "brincadeira" que faz parte das nossas vidas.
 
@@ -31,12 +37,6 @@ Podemos definir um jogo através das suas principais características.
 - Conjunto de procedimentos e estratégias para atingir determinado fim;
 
 - Atividade em que existe a figura do jogador (como indivíduo praticante).
-
-{% include imagelocal.html
-    src="jogatina-das-decadas/chess_game.webp"
-    alt="Figura: Chess."
-    caption="O Xadrez é um jogo de tabuleiro de estratégia do tipo recreativo ou competitivo para dois jogadores."
-%}
 
 "Em época mais otimista que a atual, nossa espécie recebeu a designação de *Homo sapiens*. Com o passar do
 tempo, acabamos por compreender que afinal de contas não somos tão racionais quanto a ingenuidade e o culto da

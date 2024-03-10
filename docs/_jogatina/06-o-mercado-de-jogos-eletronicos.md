@@ -1,26 +1,28 @@
 ---
 title: "O mercado de jogos eletrônicos"
 permalink: /pages/a-jogatina-das-decadas/o-mercado-de-jogos-eletronicos
-excerpt: "Neste capítulo vamos como é o mercado de jogos eletrônicos."
-last_modified_at: 2024-03-03T08:48:05-04:00
+excerpt: "Como é o mercado de jogos eletrônicos?"
+date: 2024-03-03T08:48:05-04:00
+show_date: true
+last_modified_at: 2024-03-10T08:48:05-04:00
 toc: true
 sidebar:
     nav: dev_jogatina
 categories:
-  - a jogatina das décadas
+  - A jogatina das décadas
 tags:
   - conceito
   - jogo eletrônico
   - video games   
 ---
 
-A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou três dias desenvolvendo o jogo e acabou ganhando cerca de US $ 50 mil por dia em receita através de sua publicidade no jogo.
-
 {% include image.html
     src="https://s2.glbimg.com/7IWNxPUe3ZavTl0vMfqcjDxvUqo=/0x0:695x463/984x0/smart/filters:strip_icc()/s.glbimg.com/po/tt2/f/original/2014/02/07/flappy-bird-ios.jpg"
     alt="Figura: Flappy Bird."
     caption="Sucesso de vendas."
 %}
+
+A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou três dias desenvolvendo o jogo e acabou ganhando cerca de US $ 50 mil por dia em receita através de sua publicidade no jogo.
 
 ## 1. Qual o  custo de produção de jogo eletrônico?
 

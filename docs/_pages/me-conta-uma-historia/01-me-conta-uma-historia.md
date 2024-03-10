@@ -21,8 +21,6 @@ sidebar:
     nav: dev_me_conta  
 ---
 
-
-
 ## Habilidades que serão aprendidas
 
 - Aprenda a organizar suas ideias;

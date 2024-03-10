@@ -1,14 +1,21 @@
 ---
 title: Game Design
 permalink: /pages/me-conta-uma-historia/game-design
-excerpt: Conhecendo a profissão de Game Design.
+excerpt: Conheça a profissão de Game Design.
 last_modified_at: 2024-03-03T08:48:05-04:00
 toc: true
 categories:
-  - me conta uma história
+  - Me conta uma história
 sidebar:
     nav: dev_me_conta  
 ---
+
+{% include image.html
+    src="https://www.gamerinfo.com.br/wp-content/uploads/2018/09/game-designer-1.jpg"
+    alt="Figura: Design de games."
+    caption="Conheça a profissão"
+    url="https://www.gamerinfo.com.br/2018/09/10/design-de-games/"
+%}
 
 ## 1. Por dentro da cabeça do Game Design
 
@@ -35,13 +42,6 @@ Como toda profissão para que possamos alcançar um reconhecimento e conheciment
 - Procure trabalhar a sua interação social e aprenda a expressar suas ideias, pois é, aprenda a trabalhar em equipe;
 
 - Procure conhecer as profissões atuantes na construção e aprenda uma delas, por exemplo: Programação de jogos, Arte, publicidade ou todas as mesmo tempo.
-
-{% include image.html
-    src="https://www.gamerinfo.com.br/wp-content/uploads/2018/09/game-designer-1.jpg"
-    alt="Figura: Design de games."
-    caption="Conheça a profissão"
-    url="https://www.gamerinfo.com.br/2018/09/10/design-de-games/"
-%}
 
 ### 1.2. Quanto Ganha do Game Design?
 

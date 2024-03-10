@@ -1,14 +1,13 @@
 ---
 title: Funções e Macros
-excerpt: Funções e Macros
+excerpt: Funções e Macros com C++
 permalink: /pages/cpp/funcoes-e-macros
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true  
 sidebar:
     nav: dev_unreal_8 
 categories:
-  - Unreal Engine
-  - cpp
+  - c++
 tags:
   - cpp
   - C++ 

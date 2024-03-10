@@ -1,13 +1,15 @@
 ---
 title: "A evolução dos jogos eletrônicos"
 permalink: /pages/a-jogatina-das-decadas/a-evolucao-dos-jogos-eletronicos
-excerpt: "Neste capítulo vamos como é o mercado de jogos eletrônicos."
-last_modified_at: 2024-03-03T08:48:05-04:00
+excerpt: "Quais são as gerações de jogos eletrônicos?"
+date: 2024-03-08T08:48:05-04:00
+show_date: true
+last_modified_at: 2024-03-10T08:48:05-04:00
 toc: true
 sidebar:
     nav: dev_jogatina
 categories:
-  - a jogatina das décadas
+  - A jogatina das décadas
 tags:
   - conceito
   - jogo eletrônico

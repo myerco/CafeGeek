@@ -8,8 +8,6 @@ sidebar:
 toc: true  
 categories:
   - Unreal Engine
-  - Mecânicas
-  - Dinâmicas
 tags:
   - Curso
   - Desenvolvimento de Jogos

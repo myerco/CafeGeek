@@ -1,11 +1,11 @@
 ---
 title: Organizando as ideias
 permalink: /pages/me-conta-uma-historia/organizando-ideias
-excerpt: Neste curso vamos apresentar como organizar as ideias para uma narrativa.
+excerpt: Aprenda as etapas de desenvolvimento de um jogo eletrônico.
 last_modified_at: 2024-03-03T08:48:05-04:00
 toc: true
 categories:
-  - me conta uma história
+  - Me conta uma história
 sidebar:
     nav: dev_me_conta  
 ---

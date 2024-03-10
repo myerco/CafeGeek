@@ -2,12 +2,14 @@
 title: "O comportamento"
 permalink: /pages/a-jogatina-das-decadas/comportamento
 excerpt: "Neste capítulo vamos tentar responder, Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?."
-last_modified_at: 2024-03-03T08:48:05-04:00
+last_modified_at: 2024-03-10T08:48:05-04:00
+date: 2024-03-10T08:48:05-04:00
+show_date: true
 toc: true
 sidebar:
     nav: dev_jogatina
 categories:
-  - a jogatina das décadas
+  - A jogatina das décadas
 tags:
   - comportamento
   - vicio em jogos
@@ -15,13 +17,13 @@ tags:
   - caixa de skinner
 ---
 
-## 1. Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?
-
 {% include image.html
     src="https://cdn6.campograndenews.com.br/uploads/noticias/2020/03/10/2yc2mrado5gks.jpg"
     alt="Figura: Qual sua opinião sobre o vício em games?"
     caption="Figura: Qual sua opinião sobre o vício em games ser considerado um distúrbio mental? - <https://www.campograndenews.com.br/lado-b/games/qual-sua-opiniao-sobre-o-vicio-em-games-ser-considerado-um-disturbio-mental>."
 %}
+
+## 1. Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?
 
 O vicio de jogos é discutido a muito tempo e já foi classificado como uma [doença pela OMS](https://www.uol.com.br/vivabem/reportagens-especiais/o-vicio-em-jogos-e-considerado-disturbio-mental-quais-os-perigos-da-doenca/#page1), mas a pergunta de nosso título aponta outro vício ou a falta desse, vício em trabalho, será que  você pode ser viciado em trabalho e o trabalho pode ser classificado como uma doença pela OMS [[workaholic](http://setocupacional.com.br/site/fique-por-dentro/workaholic-vicio-em-trabalho-risco-a-saude-consequencias-causas-tratamentos/)]?, este tema é na verdade uma provocação para que possamos discutir aspectos relacionados a como os videogames são construídos por equipes de especialistas que visam manter o jogador o mais tempo possível conectado ou jogando, também vamos correlacionar as técnicas usadas pelos especialistas de jogos que são usadas para "motivar" as pessoas para um determinado trabalho.
 
