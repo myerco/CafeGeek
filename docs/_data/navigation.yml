@@ -6,6 +6,8 @@ main:
     url: /collection-archive/    
   - title: "Posts"    
     url: /post-archive-feature-rows/
+  - title: "Portfólio"    
+    url: /portfolio/    
   - title: "Sitemap"    
     url: /sitemap/        
   - title: "Sobre"
