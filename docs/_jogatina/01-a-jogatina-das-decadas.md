@@ -20,6 +20,8 @@ tags:
   - Conceito
   - Curso
   - Estética 
+pagination: 
+  enabled: true
 ---
 
 ## Habilidades que serão aprendidas
