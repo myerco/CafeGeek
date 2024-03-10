@@ -27,13 +27,5 @@
     {% include page__meta.html type=include.type %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
 
-    {% for pc in post.categories %}
-      <p class="page__taxonomy">
-        <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> {{ pc }} </strong>
-        <span itemprop="keywords">
-        </span>
-      </p>
-    {% endfor %}  <!-- page-category -->
-
   </article>
 </div>

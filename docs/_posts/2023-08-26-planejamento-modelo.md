@@ -2,7 +2,7 @@
 title: "Modelo de Planejamento"
 mermaid: true
 categories:
-  - unreal engine
+  - Planejamento
 tags:
   - lógica
   - blueprint
