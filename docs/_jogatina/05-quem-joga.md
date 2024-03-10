@@ -30,7 +30,6 @@ Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior 
 ## 1. O jogador
 
 Conhecer o que o jogador quer e a situação que o mercado se apresenta são informações que apenas darão suporte ao design em criar um jogo que na verdade deve possuir, por meio de referências acadêmicas, os elementos que provoquem o **desejo**, a **compra**, a **diversão** e o entretenimento, que são consequências.
-{: .notice--primary}
 
 O jogo é um produto presente no mercado e como tal se apresenta com todas as suas características de comercialização.
 
