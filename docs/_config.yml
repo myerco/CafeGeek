@@ -299,9 +299,6 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/    
-  jogatina:
-    output: true
-    permalink: /:collection/:path/    
 
 # Defaults
 defaults:
