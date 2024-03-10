@@ -16,6 +16,9 @@ tags:
   - jogador
 ---
 
+Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior do que apenas eu mesmo. **Jogador Nº1**.
+{: .notice}
+
 {% include image.html
     src="https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp"
     alt="Figura: Top 5 Most Popular Online Games for Women."
@@ -23,9 +26,6 @@ tags:
     idref="HOLMES, Amy"
     ref="https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women"
 %}
-
-Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior do que apenas eu mesmo. **Jogador Nº1**.
-{: .notice}
 
 ## 1. O jogador
 

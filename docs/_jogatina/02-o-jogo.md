@@ -18,6 +18,9 @@ tags:
   - jogador
 ---
 
+**Informação:** Latim “Ludus”, “Ludere” que designava os jogos infantis.
+{: .notice}
+
 {% include imagelocal.html
     src="jogatina-das-decadas/chess_game.webp"
     alt="Figura: Chess."
@@ -46,9 +49,6 @@ que esta, visto poder servir para designar grande número de animais. Mas existe
 tanto na vida humana como na animal, e é tão importante como o raciocínio e o fabrico de objetos: o jogo. Creio
 que, depois de *Homo faber* e talvez ao mesmo nível de *Homo sapiens*, a expressão *Homo ludens* merece um lugar em
 nossa nomenclatura."
-
-**Informação:** Latim “Ludus”, “Ludere” que designava os jogos infantis.
-{: .notice--info}
 
 ## 1. Teria o jogo lugar no sistema de vida?
 

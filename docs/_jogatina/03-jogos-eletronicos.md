@@ -16,10 +16,16 @@ tags:
   - video games   
 ---
 
-## 1. Como são classificados os jogos?
-
 Guerra... A guerra nunca muda. **Fallout**.
 {: .notice}
+
+{% include image.html
+    src="https://www.adrenaline.com.br/wp-content/plugins/seox-image-magick/imagick_convert.php?width=910&height=568&format=.jpg&quality=91&imagick=uploads.adrenaline.com.br/2023/12/Serie-de-Fallout-vai-ser-fiel-mas-vai-deixar-bugs-de-lado-912x569.jpg"
+    alt="Figura: Fallout"
+    caption="Série de Fallout vai ser fiel, mas vai deixar bugs de lado ."
+%}
+
+## 1. Como são classificados os jogos?
 
 Podemos classificar os jogos para determinar ou mostrar a sua função dentro de um modelo de lazer ou recreação.
 

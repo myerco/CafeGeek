@@ -16,6 +16,12 @@ tags:
   - video games   
 ---
 
+{% include image.html
+    src="https://galeria.people.com.br/noticia/20190903095042123.jpg"
+    alt="Figura: 4 mulheres que fizeram história na indústria de games"
+    caption="4 mulheres que fizeram história na indústria de games."
+%}
+
 ## 1. Primeira geração (1971-1977)
 
 A linha começa em 1972, com o Odyssey Magnavox, em sua versão conhecida como "Brown Box". O engenheiro americano Ralph Baer desenhou o protótipo em meados de 1966, mas só em 1971 ele foi licenciado para a Magnavox e lançado no ano seguinte.
