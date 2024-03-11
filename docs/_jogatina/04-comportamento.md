@@ -1,7 +1,7 @@
 ---
 title: "O comportamento"
 permalink: /pages/a-jogatina-das-decadas/comportamento
-excerpt: "Neste capítulo vamos tentar responder, Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?."
+excerpt: "Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?."
 last_modified_at: 2024-03-10T08:48:05-04:00
 date: 2024-03-10T08:48:05-04:00
 show_date: true
@@ -20,7 +20,9 @@ tags:
 {% include image.html
     src="https://cdn6.campograndenews.com.br/uploads/noticias/2020/03/10/2yc2mrado5gks.jpg"
     alt="Figura: Qual sua opinião sobre o vício em games?"
-    caption="Figura: Qual sua opinião sobre o vício em games ser considerado um distúrbio mental? - <https://www.campograndenews.com.br/lado-b/games/qual-sua-opiniao-sobre-o-vicio-em-games-ser-considerado-um-disturbio-mental>."
+    caption="Figura: Qual sua opinião sobre o vício em games ser considerado um distúrbio mental?"
+    idref="GERALDO, Mozart"
+    ref="https://www.campograndenews.com.br/lado-b/games/qual-sua-opiniao-sobre-o-vicio-em-games-ser-considerado-um-disturbio-mental>"
 %}
 
 ## 1. Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?
@@ -32,7 +34,9 @@ O vicio de jogos é discutido a muito tempo e já foi classificado como uma [doe
 {% include image.html
     src="https://www.weblayer.com.br/wp-content/uploads/2016/11/Gamificacao-saiba-o-que-e-e-como-esse-metodo-funciona-1080x641.jpg"
     alt="Figura: Qual sua opinião sobre o vício em games?"
-    caption="Figura: Gamificação: saiba o que é e como esse método funciona - <https://www.weblayer.com.br/gamificacao/>."
+    caption="Figura: Gamificação: saiba o que é e como esse método funciona"
+    idref="CRISTHIAN, Douglas"
+    ref="https://www.weblayer.com.br/gamificacao/"
 %}
 
 Não podemos continuar sem antes entender o modelo de Gamificação que é a aplicação das estratégias dos jogos nas atividades do dia a dia, com objetivo de aumentar o engajamento dos participantes, ou seja fazer com que colaborador, cliente ou pessoa que recebe o serviço fique cada vez mais conectado ou trabalhando no serviço [[PUCPR](https://posdigital.pucpr.br/blog/gamificacao-engajamento "O que é gamificação e como ela aumenta o engajamento")].
@@ -76,7 +80,9 @@ As características aplicadas em ambientes onde é necessário potencializar as 
 {% include image.html
     src="https://beduka.com/blog/wp-content/uploads/2019/06/Historia-do-Trabalho.jpg"
     alt="Figura: Aprenda sobre a História do Trabalho."
-    caption="Figura: Aprenda sobre a História do Trabalho - <https://beduka.com/blog/materias/sociologia/historia-do-trabalho/>."
+    caption="Figura: Aprenda sobre a História do Trabalho"
+    idref="BEDUKA"
+    ref="https://beduka.com/blog/materias/sociologia/historia-do-trabalho/"
 %}
 
 "Em nosso cotidiano, a palavra trabalho está relacionada com alguma **atividade ou serviço desempenhado** por um indivíduo que exige ou não esforço físico." [[2](https://brasilescola.uol.com.br/o-que-e/fisica/o-que-e-trabalho.htm)].
@@ -96,7 +102,9 @@ Portanto, trabalho é uma atividade ou serviço desempenhado para transformar a 
 {% include image.html
     src="https://nrfacil.com.br/blog/wp-content/uploads/2012/05/trabalhador005.jpg"
     alt="Figura: Aprenda sobre a História do Trabalho."
-    caption="Figura: NRs 18 (PCMAT), 24 (CONFORTO) e 17 (ERGONOMIA) – PORQUE TRABALHAMOS? - <http://nrfacil.com.br/blog/?p=4776>"
+    caption="Figura: NRs 18 (PCMAT), 24 (CONFORTO) e 17 (ERGONOMIA) – PORQUE TRABALHAMOS?"
+    idref="GUEIROS,Samuel"
+    ref="http://nrfacil.com.br/blog/?p=4776"
 %}
 
 Por que trabalhamos? Talvez seja uma resposta simples: Para  "ter" coisas!
@@ -128,7 +136,9 @@ A resposta é: trabalhamos porque o trabalho é uma extensão do nosso ser e con
 {% include image.html
     src="https://psicoativo.com/wp-content/uploads/2016/08/caixa-de-skinner.jpg"
     alt="Figura: Caixa de Skinner."
-    caption="Figura: Caixa de Skinner: O centro do Condicionamento Operante - <https://psicoativo.com/2016/08/caixa-de-skinner-o-centro-do-condicionamento-operante.html>"
+    caption="Figura: Caixa de Skinner: O centro do Condicionamento Operante"
+    ifref="PSICOATIVO"
+    ref="https://psicoativo.com/2016/08/caixa-de-skinner-o-centro-do-condicionamento-operante.html"
 %}
 
 Se você já foi viciado em um jogo ou conhece alguém que era, este [artigo é realmente perturbador](https://www.gamasutra.com/view/feature/3085/behavioral_game_design.php?page=1) . Ele foi escrito por um pesquisador de jogos da Microsoft sobre como fazer videogames que prendem os jogadores, quer eles gostem ou não. Ele tem doutorado em ciências comportamentais e do cérebro.

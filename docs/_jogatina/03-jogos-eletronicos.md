@@ -23,6 +23,8 @@ Guerra... A guerra nunca muda. **Fallout**.
     src="https://www.adrenaline.com.br/wp-content/plugins/seox-image-magick/imagick_convert.php?width=910&height=568&format=.jpg&quality=91&imagick=uploads.adrenaline.com.br/2023/12/Serie-de-Fallout-vai-ser-fiel-mas-vai-deixar-bugs-de-lado-912x569.jpg"
     alt="Figura: Fallout"
     caption="Série de Fallout vai ser fiel, mas vai deixar bugs de lado ."
+    idref="GUGELMIN, Felipe"
+    ref="https://www.adrenaline.com.br/games/serie-de-fallout-vai-ser-fiel-mas-vai-deixar-bugs-de-lado/"
 %}
 
 ## 1. Como são classificados os jogos?

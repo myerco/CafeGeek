@@ -1,14 +1,19 @@
 ---
 title: Os elementos da história
 permalink: /pages/me-conta-uma-historia/elementos-historia
-excerpt: Neste capítulo vamos apresentar os elementos necessários de uma história para um jogo eletrônico.
-last_modified_at: 2024-03-03T08:48:05-04:00
+excerpt: Quais são os elementos necessários de uma história para um jogo eletrônico?
+date: 2024-03-08T08:48:05-04:00
+show_date: true
+last_modified_at: 2024-03-10T08:48:05-04:00
 toc: true
 categories:
   - Me conta uma história
 sidebar:
     nav: dev_me_conta
 ---
+
+Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro. **Alan Wake**
+{: .notice}
 
 {% include imagelocal.html
     src="me-conta-uma-historia/AR18-1.webp"
@@ -18,9 +23,6 @@ sidebar:
 %}
 
 ## 1. Como construir os personagens?
-
-Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro. **Alan Wake**
-{: .notice}
 
 Não existe uma formula mágica que se deve seguir para construir um personagem de qualquer história ficcional, talvez observar a vida real e o comportamento das pessoas que estão a sua volta ajude a entender como construir personagens, pois eles estão ao seu lado, mas segundo Charlie Jane Ander em artigo publicado em 05/08/2014, adaptado e apresentado em mini-palestra no [Clarion West](https://www.clarionwest.org/) por Cristine é possível organizar algumas ideias e dicas para que os personagens ganhem vida, segue abaixo o resumo.
 

@@ -20,6 +20,8 @@ tags:
     src="https://galeria.people.com.br/noticia/20190903095042123.jpg"
     alt="Figura: 4 mulheres que fizeram história na indústria de games"
     caption="4 mulheres que fizeram história na indústria de games."
+    idref="ANTONIOLI, Cassia"
+    ref="https://www.people.com.br/noticias/entretenimento/4-mulheres-que-fizeram-historia-na-industria-de-games"
 %}
 
 ## 1. Primeira geração (1971-1977)
