@@ -8,10 +8,7 @@ last_modified_at: 2024-03-03T08:48:05-04:00
 toc: false
 classes: wide
 header:
-  overlay_image: /assets/images/jogatina-das-decadas/a-jogatina-das-decadas.webp
-  image_description: "Tempus Fugi Clock"
-  caption: "Photo credit: Tempus Fugi Clock"
-
+  overlay_color: "#333"
 sidebar:
     nav: dev_jogatina
 categories:
@@ -21,6 +18,13 @@ tags:
   - Curso
   - Estética 
 ---
+
+<!--
+ overlay_image: /assets/images/jogatina-das-decadas/a-jogatina-das-decadas.webp
+  image_description: "Tempus Fugi Clock"
+  caption: "Photo credit: Tempus Fugi Clock"
+
+-->
 
 ## Habilidades que serão aprendidas
 
