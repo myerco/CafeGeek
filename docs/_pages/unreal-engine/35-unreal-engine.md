@@ -2,9 +2,11 @@
 title: Unreal Engine
 permalink: /unreal-engine
 classes: wide
+date: 2024-03-03T08:48:05-04:00
+show_date: true
+last_modified_at: 2024-03-19T08:48:05-04:00
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/unreal/unreal-engine-5.webp
+  overlay_color: "#031530"
 excerpt: >
   Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando Blueprints e C++.
 feature_row:
@@ -66,8 +68,6 @@ feature_row:
     btn_label: "Saber mais"                
 ---
 
-O curso tem como objetivo a construção da **Mecânica** do jogo, definindo mecanismos de controle e elementos do conteúdo do jogo.
-
 ## Habilidades que serão aprendidas
 
 - Configuração e organização de projetos;
@@ -87,6 +87,10 @@ O curso tem como objetivo a construção da **Mecânica** do jogo, definindo mec
 - Construir a animação de personagens;
   
 - Implementar Efeitos especiais.
+
+## Categoria
+
+O curso tem como objetivo a construção da **Mecânica** do jogo, definindo mecanismos de controle e elementos do conteúdo do jogo.O curso tem como objetivo a construção da **Mecânica** do jogo, definindo mecanismos de controle e elementos do conteúdo do jogo.
 
 {% include feature_row %}
 

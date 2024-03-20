@@ -8,9 +8,7 @@ last_modified_at: 2024-03-03T08:48:05-04:00
 toc: false
 classes: wide
 header:
-  overlay_image: /assets/images/me-conta-uma-historia/me-conta-uma-historia.webp
-  image_description: "Whats is your story"
-  caption: "Photo credit: Whats is your story"
+  overlay_color: "#012024"
 categories:
   - Me conta uma história
 tags:
