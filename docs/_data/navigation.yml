@@ -8,8 +8,8 @@ main:
     url: /post-archive-feature-rows/
   - title: "Sitemap"    
     url: /sitemap/        
-  - title: "Jogatina"    
-    url: /jogatina
+  - title: "Me conta uma história"    
+    url: /me-conta-uma-historia
   - title: "Sobre"
     url: /about/
 

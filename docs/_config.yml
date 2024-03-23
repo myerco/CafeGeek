@@ -164,6 +164,7 @@ include:
   - _pages
   - _docs
   - _jogatina
+  - _me-conta-uma-historia
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -302,7 +303,11 @@ collections:
   jogatina:
     output: true
     sort_by: order
-    permalink: /:collection/:path/        
+    permalink: /:collection/:path/    
+  me-conta-uma-historia:
+    output: true
+    sort_by: order
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -374,3 +379,12 @@ defaults:
       read_time: true      
       author_profile: false
       share: true
+# Me conta uma história
+  - scope:
+      path: "_me-conta-uma-historia"
+      type: pages
+    values:
+      layout: single
+      read_time: true      
+      author_profile: false
+      share: true      
