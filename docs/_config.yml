@@ -371,5 +371,6 @@ defaults:
       type: pages
     values:
       layout: single
+      read_time: true      
       author_profile: false
       share: true

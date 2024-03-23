@@ -1,6 +1,6 @@
 ---
 title: "Jogos eletrônicos"
-permalink: /pages/a-jogatina-das-decadas/jogos-eletronicos
+permalink: /a-jogatina-das-decadas/jogos-eletronicos
 excerpt: "Aprenda a classificar jogos eletrônicos."
 date: 2024-03-04T08:48:05-04:00
 show_date: true

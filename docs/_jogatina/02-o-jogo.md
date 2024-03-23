@@ -1,6 +1,6 @@
 ---
 title: O jogo
-permalink: /pages/a-jogatina-das-decadas/o-jogo
+permalink: /a-jogatina-das-decadas/o-jogo
 excerpt: "O que é um Jogo?."
 date: 2024-03-02T08:48:05-04:00
 show_date: true

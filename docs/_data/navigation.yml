@@ -172,17 +172,17 @@ dev_jogatina:
     url: /jogatina
     children:      
       - title: O jogo
-        url: /pages/a-jogatina-das-decadas/o-jogo
+        url: /a-jogatina-das-decadas/o-jogo
       - title: Quem Joga?
-        url: /pages/a-jogatina-das-decadas/quem-joga
+        url: /a-jogatina-das-decadas/quem-joga
       - title: Jogos Eletrônicos
-        url: /pages/a-jogatina-das-decadas/jogos-eletronicos        
+        url: /a-jogatina-das-decadas/jogos-eletronicos        
       - title: A evolução dos jogos eletrônicos
-        url: /pages/a-jogatina-das-decadas/a-evolucao-dos-jogos-eletronicos
+        url: /a-jogatina-das-decadas/a-evolucao-dos-jogos-eletronicos
       - title: O Mercado de jogos Eletrônicos
-        url: /pages/a-jogatina-das-decadas/o-mercado-de-jogos-eletronicos
+        url: /a-jogatina-das-decadas/o-mercado-de-jogos-eletronicos
       - title: O comportamento
-        url: /pages/a-jogatina-das-decadas/comportamento                
+        url: /a-jogatina-das-decadas/comportamento                
 
 dev_modelagem3d:
   - title: MODELAGEM 3D
