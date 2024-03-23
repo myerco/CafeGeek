@@ -6,6 +6,7 @@ date: 2024-03-03T08:48:05-04:00
 show_date: true
 last_modified_at: 2024-03-03T08:48:05-04:00
 toc: false
+layout: single
 classes: wide
 header:
   overlay_color: "#333"
