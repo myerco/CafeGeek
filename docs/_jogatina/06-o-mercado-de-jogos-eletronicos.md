@@ -2,9 +2,9 @@
 title: "O mercado de jogos eletrônicos"
 permalink: /pages/a-jogatina-das-decadas/o-mercado-de-jogos-eletronicos
 excerpt: "Como é o mercado de jogos eletrônicos?"
-date: 2024-03-03T08:48:05-04:00
+date: 2024-03-06T08:48:05-04:00
 show_date: true
-last_modified_at: 2024-03-10T08:48:05-04:00
+last_modified_at: 2024-03-06T08:48:05-04:00
 toc: true
 layout: single
 order: 6
