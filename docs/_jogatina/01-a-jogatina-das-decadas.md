@@ -1,6 +1,6 @@
 ---
 title: A jogatina das décadas
-permalink: /pages/a-jogatina-das-decadas/a-jogatina-das-decadas
+permalink: /a-jogatina-das-decadas
 excerpt: "Aprenda a definir o que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização."
 date: 2024-03-03T08:48:05-04:00
 show_date: true
