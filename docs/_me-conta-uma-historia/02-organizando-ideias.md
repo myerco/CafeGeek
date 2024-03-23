@@ -1,11 +1,14 @@
 ---
 title: Organizando as ideias
-permalink: /pages/me-conta-uma-historia/organizando-ideias
+permalink: /me-conta-uma-historia/organizando-ideias
 excerpt: Aprenda as etapas de desenvolvimento de um jogo eletrônico.
 date: 2024-03-08T08:48:05-04:00
 show_date: true
 last_modified_at: 2024-03-10T08:48:05-04:00
 toc: true
+layout: single
+order: 2
+sort_by: order
 categories:
   - Me conta uma história
 sidebar:
