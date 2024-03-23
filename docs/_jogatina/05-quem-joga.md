@@ -6,6 +6,8 @@ date: 2024-03-10T08:48:05-04:00
 show_date: true
 last_modified_at: 2024-03-10T08:48:05-04:00
 toc: true
+layout: single
+order: 5
 sidebar:
     nav: dev_jogatina
 categories:
