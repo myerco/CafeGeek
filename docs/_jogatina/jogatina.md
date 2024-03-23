@@ -5,6 +5,7 @@ permalink: /jogatina/
 collection: jogatina
 entries_layout: grid
 classes: wide
+order: 1
 sort_by: order
 excerpt: "Aprenda a definir o que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização."
 header:
@@ -35,3 +36,4 @@ toc: false
 
  O curso está associado a construção **Estética** do jogo, pois nele definimos elementos como sensação, desafio, descoberta e passatempo.
 
+## Módulos

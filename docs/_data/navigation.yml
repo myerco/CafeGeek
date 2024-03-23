@@ -169,7 +169,7 @@ dev_me_conta:
 
 dev_jogatina:
   - title: A jogatina das décadas
-    url: /pages/a-jogatina-das-decadas/a-jogatina-das-decadas      
+    url: /jogatina
     children:      
       - title: O jogo
         url: /pages/a-jogatina-das-decadas/o-jogo

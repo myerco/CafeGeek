@@ -301,6 +301,7 @@ collections:
     permalink: /:collection/:path/    
   jogatina:
     output: true
+    sort_by: order
     permalink: /:collection/:path/        
 
 # Defaults
