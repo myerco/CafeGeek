@@ -311,7 +311,7 @@ collections:
     permalink: /:collection/:path/
   unreal-engine:
     output: true
-    sort_by: title
+    sort_by: order
     permalink: /:collection/:path/    
 
 # Defaults
