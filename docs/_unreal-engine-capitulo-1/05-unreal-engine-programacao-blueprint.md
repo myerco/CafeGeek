@@ -4,7 +4,7 @@ excerpt: Neste capítulo será apresentado o modelo da lógica de programação 
 permalink: /pages/unreal-engine/blueprint
 last_modified_at: 2023-03-28T08:48:05-04:00
 layout: single
-order: 2
+order: 5
 sidebar:
     nav: dev_unreal_1
 toc: true  

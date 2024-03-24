@@ -295,7 +295,7 @@ collections:
   recipes:
     output: true
     permalink: /:collection/:path/
-  pets:
+  unreal-engine-capitulo-1:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -393,7 +393,16 @@ defaults:
       read_time: true      
       author_profile: false
       share: true      
-# Unreal Engine
+# Unreal Engine - Capítulo 1
+  - scope:
+      path: "_unreal-engine-capitulo-1"
+      type: pages
+    values:
+      layout: single
+      read_time: true      
+      author_profile: false
+      share: true            
+# Unreal Engine 
   - scope:
       path: "_unreal-engine"
       type: pages
@@ -402,3 +411,4 @@ defaults:
       read_time: true      
       author_profile: false
       share: true            
+
