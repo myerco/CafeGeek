@@ -1,10 +1,10 @@
 ---
 title:  Estrutura de pastas 
 excerpt: Neste capítulo vamos entender e gerenciar as pastas do projeto.
-permalink: /pages/unreal-engine/estrutura-de-pastas
+permalink: /unreal-engine-capitulo-1/estrutura-de-pastas
 last_modified_at: 2023-03-28T08:48:05-04:00
 layout: single
-order: 2
+order: 3
 toc: true  
 sidebar:
     nav: dev_unreal_1

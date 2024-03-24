@@ -1,10 +1,10 @@
 ---
 title: Trabalhando com variáveis
 excerpt: Neste capítulo serão descritos os tipos de variáveis e sua manipulação.
-permalink: /pages/unreal-engine/variaveis
+permalink: /unreal-engine-capitulo-1/trabalhando-com-variaveis
 last_modified_at: 2023-03-28T08:48:05-04:00
 layout: single
-order: 2
+order: 6
 sidebar:
     nav: dev_unreal_1
 toc: true  

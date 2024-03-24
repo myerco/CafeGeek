@@ -1,7 +1,7 @@
 ---
 title: Criando seu primeiro Blueprint
 excerpt: Neste capítulo será apresentado o modelo da lógica de programação utilizando Blueprints.
-permalink: /pages/unreal-engine/blueprint
+permalink: /unreal-engine-capitulo-1/criando-seu-primeiro-blueprint
 last_modified_at: 2023-03-28T08:48:05-04:00
 layout: single
 order: 5

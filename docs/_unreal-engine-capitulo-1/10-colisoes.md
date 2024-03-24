@@ -1,10 +1,10 @@
 ---
 title: Colisão
 excerpt: Neste capitulo será apresentado o efeito de colisão de objetos.
-permalink: /pages/unreal-engine/atores-colisoes
+permalink: /unreal-engine-capitulo-1/colisao
 last_modified_at: 2023-03-28T08:48:05-04:00
 layout: single
-order: 2
+order: 10
 sidebar:
     nav: dev_unreal_1
 toc: true  

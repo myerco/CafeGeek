@@ -1,10 +1,10 @@
 ---
 title: Atores e seus componentes
 excerpt: Neste capítulo serão apresentados os objetos do tipo Atores ou Actors e suas estruturas.
-permalink: /pages/unreal-engine/atores-estruturas
+permalink: /unreal-engine-capitulo-1/atores-e-seus-componentes
 last_modified_at: 2023-03-28T08:48:05-04:00
 layout: single
-order: 2
+order: 7
 sidebar:
     nav: dev_unreal_1
 toc: true  

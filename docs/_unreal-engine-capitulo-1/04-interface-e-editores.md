@@ -1,7 +1,7 @@
 ---
 title: Interface e editores
 excerpt: Neste capítulo vamos apresentar a interface do Unreal Engine e seus editores de trabalho.
-permalink: /pages/unreal-engine/interface-editores
+permalink: /unreal-engine-capitulo-1/interface-e-editores
 last_modified_at: 2023-03-28T08:48:05-04:00
 layout: single
 order: 4

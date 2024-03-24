@@ -5,7 +5,7 @@ permalink: /unreal-engine-capitulo-1/
 collection: unreal-engine-capitulo-1
 entries_layout: grid
 classes: wide
-order: 1
+order: 0
 sort_by: order
 excerpt: "Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando Blueprints e C++."
 header:
@@ -30,10 +30,5 @@ tags:
 ## Categoria
 
 O curso tem como objetivo a construção da **Mecânica** do jogo, definindo mecanismos de controle e elementos do conteúdo do jogo.
-
-## Referências
-
-- Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions.  [https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/ "Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions")
-- Couch Learn. (2019,Dezembro 27). Switch Statements in Unreal Engine 4. [https://couchlearn.com/switch-statements-in-unreal-engine-4/](https://couchlearn.com/switch-statements-in-unreal-engine-4/ "https://couchlearn.com/switch-statements-in-unreal-engine-4/")
 
 ## Módulos
