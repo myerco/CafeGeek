@@ -4,7 +4,7 @@ excerpt: Neste capítulo iremos apresentar as classes GameMode e GameInstance co
 permalink: /unreal-engine-capitulo-1/game-instance-game-state-e-game-mode
 last_modified_at: 2023-03-28T08:48:05-04:00
 layout: single
-order: 15
+order: 1.15
 sidebar:
     nav: dev_unreal_1
 toc: true 

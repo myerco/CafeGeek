@@ -4,7 +4,7 @@ excerpt: Neste capítulo serão apresentados os objetos do tipo Atores ou Actors
 permalink: /unreal-engine-capitulo-1/atores-e-seus-componentes
 last_modified_at: 2023-03-28T08:48:05-04:00
 layout: single
-order: 7
+order: 1.7
 sidebar:
     nav: dev_unreal_1
 toc: true  

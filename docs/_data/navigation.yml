@@ -33,7 +33,7 @@ dev_unreal_1:
   - title: "Capítulo 1 - Blueprints"
     children:    
       - title: Introdução ao Unreal Engine
-        url: //unreal-engine-capitulo-1/introducao-ao-unreal-engine
+        url: /unreal-engine-capitulo-1/introducao-ao-unreal-engine
       - title: Instalação e Configuração
         url: /unreal-engine-capitulo-1/instalacao-e-configuracao
       - title: Estrutura de pastas
@@ -43,7 +43,7 @@ dev_unreal_1:
       - title: Criando seu primeiro Blueprint
         url: /unreal-engine-capitulo-1/criando-seu-primeiro-blueprint
       - title: Trabalhando com variáveis
-        url: //unreal-engine-capitulo-1/trabalhando-com-variaveis        
+        url: /unreal-engine-capitulo-1/trabalhando-com-variaveis        
       - title: Atores e seus componentes
         url: /unreal-engine-capitulo-1/atores-e-seus-componentes
       - title: Actor, Pawn e Character 
@@ -59,7 +59,7 @@ dev_unreal_1:
       - title: Eventos, funções e macros
         url: /unreal-engine-capitulo-1/eventos-funcoes-e-macro
       - title: Comunicação entre Blueprints
-        url: unreal-engine-capitulo-1/comunicacao-entre-blueprints
+        url: /unreal-engine-capitulo-1/comunicacao-entre-blueprints
       - title: Game Instance, State e Mode
         url: /unreal-engine-capitulo-1/game-instance-game-state-e-game-mode       
 

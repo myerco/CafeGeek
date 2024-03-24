@@ -4,7 +4,7 @@ excerpt: Neste capitulo será apresentado a estrutura de herança de objetos.
 permalink: /unreal-engine-capitulo-1/heranca
 last_modified_at: 2023-03-28T08:48:05-04:00
 layout: single
-order: 9
+order: 1.9
 sidebar:
     nav: dev_unreal_1
 toc: true  
