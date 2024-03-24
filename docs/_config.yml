@@ -165,6 +165,7 @@ include:
   - _docs
   - _jogatina
   - _me-conta-uma-historia
+  - _unreal-engine  
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -308,6 +309,10 @@ collections:
     output: true
     sort_by: order
     permalink: /:collection/:path/
+  unreal-engine:
+    output: true
+    sort_by: order
+    permalink: /:collection/:path/    
 
 # Defaults
 defaults:
@@ -388,3 +393,12 @@ defaults:
       read_time: true      
       author_profile: false
       share: true      
+# Unreal Engine
+  - scope:
+      path: "_unreal-engine"
+      type: pages
+    values:
+      layout: single
+      read_time: true      
+      author_profile: false
+      share: true            
