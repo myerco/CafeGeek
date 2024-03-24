@@ -3,6 +3,8 @@ title: Estruturas de Repetição
 excerpt: Neste capítulo serão descritas as estruturas de repetição.
 permalink: /pages/unreal-engine/estruturas-loops
 last_modified_at: 2023-03-28T08:48:05-04:00
+layout: single
+order: 2
 sidebar:
     nav: dev_unreal_1
 toc: true  

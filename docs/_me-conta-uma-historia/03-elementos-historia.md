@@ -8,7 +8,6 @@ last_modified_at: 2024-03-03T08:48:05-04:00
 toc: true
 layout: single
 order: 3
-sort_by: order
 categories:
   - Me conta uma história
 sidebar:

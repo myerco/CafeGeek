@@ -4,6 +4,8 @@ excerpt: Neste capítulo vamos instalar e configurar o ambiente de desenvolvimen
 permalink: /pages/unreal-engine/instalacao-configuracao
 last_modified_at: 2023-03-28T08:48:05-04:00
 toc: true  
+layout: single
+order: 2
 sidebar:
     nav: dev_unreal_1
 categories:
