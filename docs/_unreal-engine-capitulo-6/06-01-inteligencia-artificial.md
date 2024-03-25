@@ -1,8 +1,10 @@
 ---
 title: Inteligência Artificial
 excerpt: Trabalhando com Inteligência Artificial
-permalink: /pages/unreal-engine/inteligencia-artificial
+permalink: /unreal-engine-capitulo-6/inteligencia-artificial
 last_modified_at: 2023-03-28T08:48:05-04:00
+layout: single
+order: 601
 sidebar:
     nav: dev_unreal_6
 toc: true 

@@ -1,8 +1,10 @@
 ---
-title: UI - User Interface
+title: User Interface
 excerpt: Neste capitulo vamos implementar o HUD (Heads-up Display) do jogo.
-permalink: /pages/unreal-engine/hud-interface
+permalink: /unreal-engine-capitulo-3/user-interface
 last_modified_at: 2023-03-28T08:48:05-04:00
+layout: single
+order: 301
 sidebar:
     nav: dev_unreal_3
 toc: true  

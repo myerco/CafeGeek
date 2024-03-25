@@ -1,8 +1,10 @@
 ---
 title: Lógica de movimentação
 excerpt: Trabalhando com a lógica de movimentação do personagem utilizando Blueprint
-permalink: /pages/unreal-engine/logica-movimentacao
+permalink: /unreal-engine-capitulo-5/logica-de-movimentacao
 last_modified_at: 2023-03-28T08:48:05-04:00
+layout: single
+order: 501
 sidebar:
     nav: dev_unreal_5
 toc: true 

@@ -1,8 +1,10 @@
 ---
 title: Introdução aos Materiais
 excerpt: Neste capítulo vamos apresentar o que são materiais e a sua estrutura.
-permalink: /pages/unreal-engine/materiais-introducao
+permalink: /unreal-engine-capitulo-4/introducao-aos-materiais
 last_modified_at: 2023-03-28T08:48:05-04:00
+layout: single
+order: 401
 sidebar:
     nav: dev_unreal_4
 toc: true 

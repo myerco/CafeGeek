@@ -1,8 +1,10 @@
 ---
 title: Objetos da interface
 excerpt: Neste capitulo vamos apresentar a lógica de programação os objetos do HUD.
-permalink: /pages/unreal-engine/hud-logica
+permalink: /unreal-engine-capitulo-3/objetos-da-interface
 last_modified_at: 2023-03-28T08:48:05-04:00
+layout: single
+order: 302
 sidebar:
     nav: dev_unreal_3
 toc: true  

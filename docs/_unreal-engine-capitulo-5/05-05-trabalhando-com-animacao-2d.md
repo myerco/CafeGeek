@@ -1,8 +1,10 @@
 ---
 title: Trabalhando com Animação 2D
 excerpt: Em este capitulo iremos implementar animações em duas dimensões utilizando o Plugin Paper2D no Unreal Engine.
-permalink: /pages/unreal-engine/animacao-2d
+permalink: /unreal-engine-capitulo-5/trabalhando-com-animacao-2d
 last_modified_at: 2023-03-28T08:48:05-04:00
+layout: single
+order: 505
 sidebar:
     nav: dev_unreal_5
 toc: true 

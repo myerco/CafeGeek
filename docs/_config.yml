@@ -313,6 +313,27 @@ collections:
     output: true
     sort_by: order
     permalink: /:collection/:path/    
+  unreal-engine-capitulo-2:
+    output: true
+    permalink: /:collection/:path/    
+  unreal-engine-capitulo-3:
+    output: true
+    permalink: /:collection/:path/
+  unreal-engine-capitulo-4:
+    output: true
+    permalink: /:collection/:path/        
+  unreal-engine-capitulo-5:
+    output: true
+    permalink: /:collection/:path/    
+  unreal-engine-capitulo-6:
+    output: true
+    permalink: /:collection/:path/    
+  unreal-engine-capitulo-7:
+    output: true
+    permalink: /:collection/:path/    
+  unreal-engine-capitulo-8:
+    output: true
+    permalink: /:collection/:path/    
 
 # Defaults
 defaults:
@@ -402,6 +423,69 @@ defaults:
       read_time: true      
       author_profile: false
       share: true            
+# Unreal Engine - Capítulo 2
+  - scope:
+      path: "_unreal-engine-capitulo-2"
+      type: pages
+    values:
+      layout: single
+      read_time: true      
+      author_profile: false
+      share: true                  
+# Unreal Engine - Capítulo 3
+  - scope:
+      path: "_unreal-engine-capitulo-3"
+      type: pages
+    values:
+      layout: single
+      read_time: true      
+      author_profile: false
+      share: true                  
+# Unreal Engine - Capítulo 4
+  - scope:
+      path: "_unreal-engine-capitulo-4"
+      type: pages
+    values:
+      layout: single
+      read_time: true      
+      author_profile: false
+      share: true                  
+# Unreal Engine - Capítulo 5
+  - scope:
+      path: "_unreal-engine-capitulo-5"
+      type: pages
+    values:
+      layout: single
+      read_time: true      
+      author_profile: false
+      share: true                  
+# Unreal Engine - Capítulo 6
+  - scope:
+      path: "_unreal-engine-capitulo-6"
+      type: pages
+    values:
+      layout: single
+      read_time: true      
+      author_profile: false
+      share: true                  
+# Unreal Engine - Capítulo 7
+  - scope:
+      path: "_unreal-engine-capitulo-7"
+      type: pages
+    values:
+      layout: single
+      read_time: true      
+      author_profile: false
+      share: true                  
+# Unreal Engine - Capítulo 8
+  - scope:
+      path: "_unreal-engine-capitulo-8"
+      type: pages
+    values:
+      layout: single
+      read_time: true      
+      author_profile: false
+      share: true                  
 # Unreal Engine 
   - scope:
       path: "_unreal-engine"

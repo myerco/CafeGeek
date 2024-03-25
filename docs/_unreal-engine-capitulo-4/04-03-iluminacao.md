@@ -1,8 +1,10 @@
 ---
 title: Iluminação
 excerpt: Neste capítulo vamos implementar a Iluminação do jogo.
-permalink: /pages/unreal-engine/iluminacao
+permalink: /unreal-engine-capitulo-4/iluminacao
 last_modified_at: 2023-03-28T08:48:05-04:00
+layout: single
+order: 403
 sidebar:
     nav: dev_unreal_4
 toc: true

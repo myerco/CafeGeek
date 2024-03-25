@@ -1,8 +1,10 @@
 ---
 title: Usando Structs
 excerpt: Neste capitulo vamos explorar o tipo de variável Struct.  
-permalink: /pages/unreal-engine/variaveis-estruturadas
+permalink: /unreal-engine-capitulo-2/usando-structs
 last_modified_at: 2023-03-28T08:48:05-04:00
+layout: single
+order: 203
 sidebar:
     nav: dev_unreal_2
 toc: true  

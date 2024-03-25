@@ -1,8 +1,10 @@
 ---
-title: Programação C++
+title: Programação C++ no Unreal Engine
 excerpt: Neste capítulo será apresentado o modelo da lógica de programação utilizando **C++** com **Unreal Engine**.
-permalink: /pages/unreal-engine/cpp
+permalink: /unreal-engine-capitulo-8/programacao-c-no-unreal-engine
 last_modified_at: 2023-03-28T08:48:05-04:00
+layout: single
+order: 801
 sidebar:
     nav: dev_unreal_8
 toc: true

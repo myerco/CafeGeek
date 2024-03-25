@@ -1,8 +1,10 @@
 ---
 title: Animação de personagens
 excerpt: Neste capitulo vamos apresentar o fluxo de trabalho e os elementos necessários para a animação de personagens.
-permalink: /pages/unreal-engine/animacao-introducao
+permalink: /unreal-engine-capitulo-5/animacao-de-personagens
 last_modified_at: 2023-03-28T08:48:05-04:00
+layout: single
+order: 503
 sidebar:
     nav: dev_unreal_5
 toc: true

@@ -1,8 +1,10 @@
 ---
 title: Behaivor Tree
 excerpt: Trabalhando com Behaivor Tree
-permalink: /pages/unreal-engine/inteligencia-artificial-behaivor-tree
+permalink: /unreal-engine-capitulo-6/behaivor-tree
 last_modified_at: 2023-03-28T08:48:05-04:00
+layout: single
+order: 602
 sidebar:
     nav: dev_unreal_6
 toc: true 
