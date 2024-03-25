@@ -44,3 +44,12 @@ O curso tem como objetivo a construção da **Mecânica** do jogo, definindo mec
 - Couch Learn. (2019,Dezembro 27). Switch Statements in Unreal Engine 4. [https://couchlearn.com/switch-statements-in-unreal-engine-4/](https://couchlearn.com/switch-statements-in-unreal-engine-4/ "https://couchlearn.com/switch-statements-in-unreal-engine-4/")
 
 ## Módulos
+
+- [capítulo 1](/unreal-engine-capitulo-1/)
+- [capítulo 2](/unreal-engine-capitulo-2/)
+- [capítulo 3](/unreal-engine-capitulo-3/)
+- [capítulo 4](/unreal-engine-capitulo-4/)
+- [capítulo 5](/unreal-engine-capitulo-5/)
+- [capítulo 6](/unreal-engine-capitulo-6/)  
+- [capítulo 7](/unreal-engine-capitulo-7/)  
+- [capítulo 8](/unreal-engine-capitulo-8/)  

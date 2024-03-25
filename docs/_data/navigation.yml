@@ -8,8 +8,8 @@ main:
     url: /post-archive-feature-rows/
   - title: "Sitemap"    
     url: /sitemap/        
-  - title: "Unreal Engine - Cap 1"    
-    url: /unreal-engine-capitulo-1
+  - title: "Unreal Engine"    
+    url: /unreal-engine
   - title: "Sobre"
     url: /about/
 
