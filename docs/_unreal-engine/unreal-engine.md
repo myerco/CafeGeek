@@ -22,34 +22,13 @@ tags:
   - Blueprint
 ---
 
-## Habilidades que serão aprendidas
+## Conteúdo do curso
 
-- Configuração e organização de projetos;
-- Analisar e aplicar lógica de programação utilizando *Blueprint* e *C++*;
-- Implementar regras de tempo e espaço;
-- Implementar interface do usuário;
-- Estruturar e configurar materiais, terrenos e iluminação;
-- Implementar ambientes Multijogador;
-- Implementar inteligência artificial;
-- Construir a animação de personagens;
-- Implementar Efeitos especiais.
-
-## Categoria
-
-O curso tem como objetivo a construção da **Mecânica** do jogo, definindo mecanismos de controle e elementos do conteúdo do jogo.
-
-## Referências
-
-- Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions.  [https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/Blueprints/UserGuide/FlowControl/ "Unreal Engine, 2022. Flow Control - Nodes that allow for controlling the flow of execution based on conditions")
-- Couch Learn. (2019,Dezembro 27). Switch Statements in Unreal Engine 4. [https://couchlearn.com/switch-statements-in-unreal-engine-4/](https://couchlearn.com/switch-statements-in-unreal-engine-4/ "https://couchlearn.com/switch-statements-in-unreal-engine-4/")
-
-## Módulos
-
-- [capítulo 1](/unreal-engine-capitulo-1/)
-- [capítulo 2](/unreal-engine-capitulo-2/)
-- [capítulo 3](/unreal-engine-capitulo-3/)
-- [capítulo 4](/unreal-engine-capitulo-4/)
-- [capítulo 5](/unreal-engine-capitulo-5/)
-- [capítulo 6](/unreal-engine-capitulo-6/)  
-- [capítulo 7](/unreal-engine-capitulo-7/)  
-- [capítulo 8](/unreal-engine-capitulo-8/)  
+- [Capitulo 1 - Blueprints](/unreal-engine-capitulo-1/)  
+- [Capitulo 2 - Estruturas de armazenamento](/unreal-engine-capitulo-2/)
+- [Capitulo 3 - Interface com o jogador](/unreal-engine-capitulo-3/)
+- [Capitulo 4 - Materiais e landscape](/unreal-engine-capitulo-4/)
+- [Capitulo 5 - Movimentação](/unreal-engine-capitulo-5/)
+- [Capitulo 6 - Inteligência artificial](/unreal-engine-capitulo-6/)  
+- [Capitulo 7 - Multiplayer](/unreal-engine-capitulo-7/)  
+- [Capitulo 8 - Unreal e C++](/unreal-engine-capitulo-8/)  

@@ -25,10 +25,13 @@ tags:
 
 - Aprenda a instalar o Unreal Engine;
 - Configuração e organização de projetos;
-- Analisar e aplicar lógica de programação utilizando *Blueprint*. 
+- Analisar e aplicar lógica de programação utilizando *Blueprint*;
+- Aprenda a trabalhar com classes e objetos;
+- Implemente eventos, funções e macros;
+- Trabalhe com comunicação entre blueprints. 
 
 ## Categoria
 
 O curso tem como objetivo a construção da **Mecânica** do jogo, definindo mecanismos de controle e elementos do conteúdo do jogo.
 
-## Módulos
+## Conteúdo do curso
