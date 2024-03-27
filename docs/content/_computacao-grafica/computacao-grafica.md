@@ -8,7 +8,7 @@ classes: wide
 order: 0
 sort_by: order
 read_time: true
-excerpt: "Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya."
+excerpt: "Aprenda os conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya."
 header:
   overlay_color: "#031530"
 date: 2024-03-01T08:48:05-04:00
@@ -19,17 +19,6 @@ categories:
   - Computação gráfica
 tags:
   - Unreal Engine
-
 ---
-
-## Habilidades que serão aprendidas
-
-- Como são formados os objetos em gráficos 3D;
-- Entender e aplicar o modelo de renderização;
-- Processo de renderização no Unreal Engine.
-
-## Categoria
-
-O curso tem como objetivo a construção das **Mecânicas** e **Dinâmicas** do jogo.
 
 ## Conteúdo do curso

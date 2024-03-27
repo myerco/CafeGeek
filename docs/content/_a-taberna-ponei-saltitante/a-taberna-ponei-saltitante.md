@@ -20,8 +20,6 @@ categories:
 tags:
   - Banco de dados
   - Modelo
-sidebar:
-    nav: dev_unreal_8  
 ---
 
 ## 1. Conhecendo a Taberna

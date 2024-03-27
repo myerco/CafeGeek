@@ -20,6 +20,4 @@ categories:
 tags:
   - Programação
   - C++
-sidebar:
-    nav: banco_dados  
 ---

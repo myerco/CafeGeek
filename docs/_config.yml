@@ -163,6 +163,7 @@ include:
   - .htaccess
   - _pages
   - _docs
+  - _posts
   - _jogatina
   - _me-conta-uma-historia
   - _unreal-engine  
