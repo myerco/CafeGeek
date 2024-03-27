@@ -7,7 +7,7 @@ entries_layout: grid
 classes: wide
 order: 0
 sort_by: order
-excerpt: "Aprenda e implemente interfaces para o jogador."
+excerpt: "Aprenda e implemente a animação de personagens."
 header:
   overlay_color: "#031530"
 date: 2024-03-01T08:48:05-04:00
@@ -23,8 +23,9 @@ tags:
 
 ## Habilidades que serão aprendidas
 
-- Implementando interfaces;
-- Trabalhando com a a lógica de programação da interface.
+- Lógica de movimentação;
+- Aprenda sobre o Delta Time e o sistemas de coordenadas;
+- Trabalhe com animações 2D.
 
 ## Categoria
 

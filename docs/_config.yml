@@ -166,6 +166,7 @@ include:
   - _jogatina
   - _me-conta-uma-historia
   - _unreal-engine  
+  - _computacao-grafica
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -334,6 +335,9 @@ collections:
   unreal-engine-capitulo-8:
     output: true
     permalink: /:collection/:path/    
+  computacao-grafica:
+    output: true
+    permalink: /:collection/:path/        
 
 # Defaults
 defaults:
@@ -495,4 +499,13 @@ defaults:
       read_time: true      
       author_profile: false
       share: true            
+# Computação Gráfica
+  - scope:
+      path: "_computacao-grafica"
+      type: pages
+    values:
+      layout: single
+      read_time: true      
+      author_profile: false
+      share: true                  
 

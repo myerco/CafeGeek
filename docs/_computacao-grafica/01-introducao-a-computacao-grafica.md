@@ -1,8 +1,10 @@
 ---
 title: Introdução a Computação Gráfica
-permalink: /pages/computacao-grafica/introducao
+permalink: /computacao-grafica/introducao-a-computacao-grafica
 excerpt: Apresentação do curso de Computação Gráfica.
 last_modified_at: 2023-03-27T08:48:05-04:00
+layout: single
+order: 101
 toc: true    
 sidebar:
     nav: dev_computacao
