@@ -422,12 +422,14 @@ defaults:
 # Me conta uma história
   - scope:
       path: "_me-conta-uma-historia"
-      type: pages
+      type: me-conta-uma-historia
     values:
       layout: single
       read_time: true      
       author_profile: false
       share: true      
+      show_date: true
+      toc: true
 # Unreal Engine - Capítulo 1
   - scope:
       path: "_unreal-engine-capitulo-1"

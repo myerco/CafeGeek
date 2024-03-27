@@ -3,12 +3,8 @@ title: Game Design
 permalink: /me-conta-uma-historia/game-design
 excerpt: Conheça a profissão de Game Design.
 date: 2024-03-02T08:48:05-04:00
-show_date: true
 last_modified_at: 2024-02-10T08:48:05-04:00
-toc: true
-layout: single
 order: 2
-read_time: true
 categories:
   - Me conta uma história
 sidebar:
