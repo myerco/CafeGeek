@@ -420,7 +420,6 @@ defaults:
       author_profile: false
       share: true
       show_date: true
-      toc: true 
       category: "A jogatina das décadas"                  
       sidebar:
         nav: dev_jogatina 
@@ -434,7 +433,10 @@ defaults:
       author_profile: false
       share: true      
       show_date: true
+      category: "Me conta uma história"      
       toc: true
+      sidebar:
+        nav: dev_me_conta        
 # Unreal Engine - Capítulo 1
   - scope:
       path: "_unreal-engine-capitulo-1"
@@ -445,7 +447,10 @@ defaults:
       author_profile: false
       share: true 
       show_date: true
-      toc: true      
+      toc: true   
+      category: "Unreal Engine - Capítulo 1"
+      sidebar:
+        nav: dev_unreal_1
 # Unreal Engine - Capítulo 2
   - scope:
       path: "_unreal-engine-capitulo-2"
@@ -457,6 +462,9 @@ defaults:
       share: true 
       show_date: true
       toc: true      
+      category: "Unreal Engine - Capítulo 2"
+      sidebar:
+        nav: dev_unreal_2      
 # Unreal Engine - Capítulo 3
   - scope:
       path: "_unreal-engine-capitulo-3"
@@ -467,7 +475,10 @@ defaults:
       author_profile: false
       share: true 
       show_date: true
-      toc: true      
+      toc: true
+      category: "Unreal Engine - Capítulo 3"
+      sidebar:
+        nav: dev_unreal_3      
 # Unreal Engine - Capítulo 4
   - scope:
       path: "_unreal-engine-capitulo-4"
@@ -479,6 +490,9 @@ defaults:
       share: true  
       show_date: true
       toc: true      
+      category: "Unreal Engine - Capítulo 4"
+      sidebar:
+        nav: dev_unreal_4
 # Unreal Engine - Capítulo 5
   - scope:
       path: "_unreal-engine-capitulo-5"
@@ -489,7 +503,10 @@ defaults:
       author_profile: false
       share: true
       show_date: true
-      toc: true      
+      toc: true    
+      category: "Unreal Engine - Capítulo 5"
+      sidebar:
+        nav: dev_unreal_5  
 # Unreal Engine - Capítulo 6
   - scope:
       path: "_unreal-engine-capitulo-6"
@@ -500,7 +517,10 @@ defaults:
       author_profile: false
       share: true  
       show_date: true
-      toc: true      
+      toc: true   
+      category: "Unreal Engine - Capítulo 6"
+      sidebar:
+        nav: dev_unreal_6   
 # Unreal Engine - Capítulo 7
   - scope:
       path: "_unreal-engine-capitulo-7"
@@ -512,6 +532,9 @@ defaults:
       share: true 
       show_date: true
       toc: true      
+      category: "Unreal Engine - Capítulo 7"
+      sidebar:
+        nav: dev_unreal_7
 # Unreal Engine - Capítulo 8
   - scope:
       path: "_unreal-engine-capitulo-8"
@@ -522,7 +545,10 @@ defaults:
       author_profile: false
       share: true 
       show_date: true
-      toc: true      
+      toc: true  
+      category: "Unreal Engine - Capítulo 8"
+      sidebar:
+        nav: dev_unreal_8          
 # Unreal Engine 
   - scope:
       path: "_unreal-engine"

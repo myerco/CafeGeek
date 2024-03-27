@@ -5,10 +5,6 @@ excerpt: Quais são os elementos necessários de uma história para um jogo elet
 date: 2024-03-03T08:48:05-04:00
 last_modified_at: 2024-03-03T08:48:05-04:00
 order: 3
-categories:
-  - Me conta uma história
-sidebar:
-    nav: dev_me_conta
 ---
 
 Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro. **Alan Wake**

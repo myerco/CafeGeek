@@ -3,16 +3,8 @@ title:  Instalação e Configuração
 excerpt: Neste capítulo vamos instalar e configurar o ambiente de desenvolvimento.
 permalink: /unreal-engine-capitulo-1/instalacao-e-configuracao
 date: 2024-03-01T08:48:05-04:00
-show_date: true
-read_time: true
 last_modified_at: 2023-03-28T08:48:05-04:00
-toc: true  
-layout: single
 order: 102
-sidebar:
-    nav: dev_unreal_1
-categories:
-  - Unreal Engine
 tags:
   - Instalação
   - Configuração

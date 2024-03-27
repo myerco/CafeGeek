@@ -5,10 +5,6 @@ excerpt: Aprenda as etapas de desenvolvimento de um jogo eletrônico.
 date: 2024-03-04T08:48:05-04:00
 last_modified_at: 2024-03-04T08:48:05-04:00
 order: 2
-categories:
-  - Me conta uma história
-sidebar:
-    nav: dev_me_conta  
 ---
 
 Se você quiser fazer uma torta de maçã do nada, você precisa, primeiro, inventar o universo. **Carl Sagan**.
