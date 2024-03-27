@@ -1,7 +1,7 @@
 ---
 title: Estruturas de arquivos
 excerpt: Como são as estruturas de arquivos na linguagem C++?
-permalink: /pages/cpp/estruturas-de-arquivos
+permalink: /cpp/estruturas-de-arquivos
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true  
 sidebar:

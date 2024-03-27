@@ -1,7 +1,7 @@
 ---
 title: Variáveis e Ponteiros
 excerpt: Armazenamento em memória usando variáveis e Ponteiros em linguagem C++
-permalink: /pages/cpp/variaveis-e-ponteiros
+permalink: /cpp/variaveis-e-ponteiros
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true  
 sidebar:

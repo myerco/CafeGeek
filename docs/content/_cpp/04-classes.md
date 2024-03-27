@@ -1,7 +1,7 @@
 ---
 title: Classes
 excerpt: Classes de Objetos na linguagem C++
-permalink: /pages/cpp/classes
+permalink: /cpp/classes
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true  
 sidebar:

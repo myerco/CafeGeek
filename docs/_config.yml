@@ -353,7 +353,7 @@ collections:
 defaults:
   # _posts
   - scope:
-      path: "_posts"
+      path: ""
       type: posts
     values:
       layout: single
@@ -526,7 +526,8 @@ defaults:
       layout: single
       read_time: true      
       author_profile: false
-      share: true                        
+      share: true      
+      show_date: true                        
 # A taberna do pônei saltitante
   - scope:
       path: "_a-taberna-ponei-saltitante"
@@ -535,5 +536,6 @@ defaults:
       layout: single
       read_time: true      
       author_profile: false
-      share: true                              
+      share: true 
+      show_date: true                             
 
