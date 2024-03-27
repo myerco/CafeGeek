@@ -5,7 +5,7 @@ permalink: /a-jogatina-das-decadas/
 collection: jogatina
 entries_layout: grid
 classes: wide
-order: 1
+order: 0
 sort_by: order
 read_time: true
 excerpt: "Aprenda sobre as características que definem um jogo eletrônico."

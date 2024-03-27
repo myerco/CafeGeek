@@ -3,12 +3,8 @@ title: "A evolução dos jogos eletrônicos"
 permalink: /a-jogatina-das-decadas/a-evolucao-dos-jogos-eletronicos
 excerpt: "Quais são as gerações de jogos eletrônicos?"
 date: 2024-03-05T08:48:05-04:00
-show_date: true
 last_modified_at: 2024-05-10T08:48:05-04:00
-toc: true
-layout: single
 order: 5
-read_time: true
 sidebar:
     nav: dev_jogatina
 categories:

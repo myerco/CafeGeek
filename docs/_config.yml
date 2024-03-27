@@ -413,12 +413,16 @@ defaults:
   # Jogatina           
   - scope:
       path: "_jogatina"
-      type: pages
+      type: jogatina
     values:
       layout: single
       read_time: true      
       author_profile: false
       share: true
+      show_date: true
+      toc: true 
+      sidebar:
+        nav: dev_jogatina     
 # Me conta uma história
   - scope:
       path: "_me-conta-uma-historia"
@@ -433,93 +437,113 @@ defaults:
 # Unreal Engine - Capítulo 1
   - scope:
       path: "_unreal-engine-capitulo-1"
-      type: pages
+      type: unreal-engine-capitulo-1
     values:
       layout: single
       read_time: true      
       author_profile: false
-      share: true            
+      share: true 
+      show_date: true
+      toc: true      
 # Unreal Engine - Capítulo 2
   - scope:
       path: "_unreal-engine-capitulo-2"
-      type: pages
+      type: unreal-engine-capitulo-2
     values:
       layout: single
       read_time: true      
       author_profile: false
-      share: true                  
+      share: true 
+      show_date: true
+      toc: true      
 # Unreal Engine - Capítulo 3
   - scope:
       path: "_unreal-engine-capitulo-3"
-      type: pages
+      type: unreal-engine-capitulo-3
     values:
       layout: single
       read_time: true      
       author_profile: false
-      share: true                  
+      share: true 
+      show_date: true
+      toc: true      
 # Unreal Engine - Capítulo 4
   - scope:
       path: "_unreal-engine-capitulo-4"
-      type: pages
+      type: unreal-engine-capitulo-4
     values:
       layout: single
       read_time: true      
       author_profile: false
-      share: true                  
+      share: true  
+      show_date: true
+      toc: true      
 # Unreal Engine - Capítulo 5
   - scope:
       path: "_unreal-engine-capitulo-5"
-      type: pages
+      type: unreal-engine-capitulo-5
     values:
       layout: single
       read_time: true      
       author_profile: false
-      share: true                  
+      share: true
+      show_date: true
+      toc: true      
 # Unreal Engine - Capítulo 6
   - scope:
       path: "_unreal-engine-capitulo-6"
-      type: pages
+      type: unreal-engine-capitulo-6
     values:
       layout: single
       read_time: true      
       author_profile: false
-      share: true                  
+      share: true  
+      show_date: true
+      toc: true      
 # Unreal Engine - Capítulo 7
   - scope:
       path: "_unreal-engine-capitulo-7"
-      type: pages
+      type: unreal-engine-capitulo-7
     values:
       layout: single
       read_time: true      
       author_profile: false
-      share: true                  
+      share: true 
+      show_date: true
+      toc: true      
 # Unreal Engine - Capítulo 8
   - scope:
       path: "_unreal-engine-capitulo-8"
-      type: pages
+      type: unreal-engine-capitulo-8
     values:
       layout: single
       read_time: true      
       author_profile: false
-      share: true                  
+      share: true 
+      show_date: true
+      toc: true      
 # Unreal Engine 
   - scope:
       path: "_unreal-engine"
-      type: pages
+      type: unreal-engine
     values:
       layout: single
       read_time: true      
       author_profile: false
-      share: true            
+      share: true 
+      show_date: true
+      toc: true      
 # Computação Gráfica
   - scope:
       path: "_computacao-grafica"
-      type: pages
+      type: computacao-grafica
     values:
       layout: single
       read_time: true      
       author_profile: false
-      share: true                  
+      share: true 
+      show_date: true
+      toc: true      
 # C++
   - scope:
       path: "_cpp"
@@ -529,15 +553,17 @@ defaults:
       read_time: true      
       author_profile: false
       share: true      
-      show_date: true                        
+      show_date: true  
+      toc: true      
 # A taberna do pônei saltitante
   - scope:
       path: "_a-taberna-do-ponei-saltitante"
-      type: portfolio
+      type: a-taberna-do-ponei-saltitante
     values:
       layout: single
       read_time: true      
       author_profile: false
       share: true 
-      show_date: true                             
+      show_date: true
+      toc: true                                   
 

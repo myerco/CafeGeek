@@ -173,6 +173,8 @@ dev_jogatina:
     children:      
       - title: O jogo
         url: /a-jogatina-das-decadas/o-jogo
+      - title: Qual a função do jogo?
+        url: /a-jogatina-das-decadas/qual-a-funcao-do-jogo
       - title: Quem Joga?
         url: /a-jogatina-das-decadas/quem-joga
       - title: Jogos Eletrônicos

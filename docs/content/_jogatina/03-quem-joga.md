@@ -3,12 +3,8 @@ title: Quem joga?
 permalink: /a-jogatina-das-decadas/quem-joga
 excerpt: "Quais são as motivações dos jogadores?"
 date: 2024-03-03T08:48:05-04:00
-show_date: true
 last_modified_at: 2024-03-03T08:48:05-04:00
-toc: true
-layout: single
 order: 3
-read_time: true
 sidebar:
     nav: dev_jogatina
 categories:
