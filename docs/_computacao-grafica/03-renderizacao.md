@@ -4,7 +4,7 @@ permalink: /computacao-grafica/renderizacao
 excerpt: Neste capitulo apresentaremos o processo de renderização de objetos 3D.
 last_modified_at: 2023-03-27T08:48:05-04:00
 layout: single
-order: 101
+order: 103
 toc: true    
 sidebar:
     nav: dev_computacao

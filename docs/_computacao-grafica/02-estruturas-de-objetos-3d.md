@@ -4,7 +4,7 @@ permalink: /computacao-grafica/estruturas-de-objetos-3d
 excerpt: Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya.
 last_modified_at: 2023-03-27T08:48:05-04:00
 layout: single
-order: 101
+order: 102
 toc: true  
 sidebar:
     nav: dev_computacao  

@@ -21,4 +21,14 @@ tags:
 
 ---
 
+## Habilidades que serão aprendidas
+
+- Como são formados os objetos em gráficos 3D;
+- Entender e aplicar o modelo de renderização;
+- Processo de renderização no Unreal Engine.
+
+## Categoria
+
+O curso tem como objetivo a construção das **Mecânicas** e **Dinâmicas** do jogo.
+
 ## Conteúdo do curso

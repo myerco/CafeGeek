@@ -4,7 +4,7 @@ permalink: /computacao-grafica/renderizacao-de-objetos-com-unreal-engine
 excerpt: Neste capitulo vamos analisar como é realizado o processamento de imagens pela CPU e GPU pelo Unreal Engine.
 last_modified_at: 2023-03-27T08:48:05-04:00
 layout: single
-order: 101
+order: 104
 toc: true    
 sidebar:
     nav: dev_computacao
