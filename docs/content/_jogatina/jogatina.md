@@ -7,6 +7,7 @@ entries_layout: grid
 classes: wide
 order: 1
 sort_by: order
+read_time: true
 excerpt: "Aprenda a definir o que é um jogo, os tipos de jogadores, os tipos de jogos eletrônicos, história de jogos eletrônicos e as formas de monetização."
 header:
   overlay_color: "#333"
