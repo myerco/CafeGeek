@@ -421,8 +421,9 @@ defaults:
       share: true
       show_date: true
       toc: true 
+      category: "A jogatina das décadas"                  
       sidebar:
-        nav: dev_jogatina     
+        nav: dev_jogatina 
 # Me conta uma história
   - scope:
       path: "_me-conta-uma-historia"

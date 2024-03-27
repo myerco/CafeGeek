@@ -7,8 +7,6 @@ date: 2024-03-07T08:48:05-04:00
 order: 7
 sidebar:
     nav: dev_jogatina
-categories:
-  - A jogatina das décadas
 tags:
   - comportamento
   - vicio em jogos

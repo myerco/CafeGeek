@@ -5,8 +5,6 @@ excerpt: "O que é um Jogo?"
 date: 2024-03-02T08:48:05-04:00
 last_modified_at: 2024-03-02T08:48:05-04:00
 order: 1
-categories:
-  - A jogatina das décadas
 tags:
   - conceito
   - jogo

@@ -7,8 +7,6 @@ last_modified_at: 2024-03-04T08:48:05-04:00
 order: 4
 sidebar:
     nav: dev_jogatina
-categories:
-  - A jogatina das décadas
 tags:
   - conceito
   - jogo eletrônico

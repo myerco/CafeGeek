@@ -7,8 +7,6 @@ last_modified_at: 2024-03-03T08:48:05-04:00
 order: 3
 sidebar:
     nav: dev_jogatina
-categories:
-  - A jogatina das décadas
 tags:
   - fatores motivacionais
   - fatores não motivacionais
