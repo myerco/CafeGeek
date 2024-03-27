@@ -2,10 +2,13 @@
 title: Introdução a Computação Gráfica
 permalink: /computacao-grafica/introducao-a-computacao-grafica
 excerpt: Apresentação do curso de Computação Gráfica.
+date: 2024-03-01T08:48:05-04:00
+show_date: true
 last_modified_at: 2023-03-27T08:48:05-04:00
 layout: single
 order: 101
 toc: true    
+read_time: true
 sidebar:
     nav: dev_computacao
 categories:

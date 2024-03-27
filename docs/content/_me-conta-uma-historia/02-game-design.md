@@ -8,6 +8,7 @@ last_modified_at: 2024-02-10T08:48:05-04:00
 toc: true
 layout: single
 order: 2
+read_time: true
 categories:
   - Me conta uma história
 sidebar:

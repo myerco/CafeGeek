@@ -8,6 +8,7 @@ last_modified_at: 2024-05-10T08:48:05-04:00
 toc: true
 layout: single
 order: 5
+read_time: true
 sidebar:
     nav: dev_jogatina
 categories:

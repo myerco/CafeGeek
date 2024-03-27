@@ -8,6 +8,7 @@ show_date: true
 toc: true
 layout: single
 order: 7
+read_time: true
 sidebar:
     nav: dev_jogatina
 categories:

@@ -7,6 +7,7 @@ entries_layout: grid
 classes: wide
 order: 0
 sort_by: order
+read_time: true
 excerpt: "Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya."
 header:
   overlay_color: "#031530"

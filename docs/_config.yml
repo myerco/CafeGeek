@@ -167,6 +167,8 @@ include:
   - _me-conta-uma-historia
   - _unreal-engine  
   - _computacao-grafica
+  - _cpp
+  - _a-taberna-ponei-saltitante
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -339,6 +341,12 @@ collections:
   computacao-grafica:
     output: true
     permalink: /:collection/:path/        
+  cpp:
+    output: true
+    permalink: /:collection/:path/            
+  a-taberna-ponei-saltitante:    
+    output: true
+    permalink: /:collection/:path/              
 
 # Defaults
 defaults:
@@ -509,4 +517,22 @@ defaults:
       read_time: true      
       author_profile: false
       share: true                  
+# C++
+  - scope:
+      path: "_cpp"
+      type: portfolio
+    values:
+      layout: single
+      read_time: true      
+      author_profile: false
+      share: true                        
+# A taberna do pônei saltitante
+  - scope:
+      path: "_a-taberna-ponei-saltitante"
+      type: portfolio
+    values:
+      layout: single
+      read_time: true      
+      author_profile: false
+      share: true                              
 

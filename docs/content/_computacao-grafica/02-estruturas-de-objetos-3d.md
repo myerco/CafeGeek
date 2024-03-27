@@ -2,9 +2,12 @@
 title: Estrutura de objetos 3D
 permalink: /computacao-grafica/estruturas-de-objetos-3d
 excerpt: Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya.
+date: 2024-03-01T08:48:05-04:00
+show_date: true
 last_modified_at: 2023-03-27T08:48:05-04:00
 layout: single
 order: 102
+read_time: true
 toc: true  
 sidebar:
     nav: dev_computacao  

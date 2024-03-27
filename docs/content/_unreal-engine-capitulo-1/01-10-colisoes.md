@@ -3,6 +3,9 @@ title: Colisão
 excerpt: Neste capitulo será apresentado o efeito de colisão de objetos.
 permalink: /unreal-engine-capitulo-1/colisao
 last_modified_at: 2023-03-28T08:48:05-04:00
+date: 2024-03-01T08:48:05-04:00
+show_date: true
+read_time: true
 layout: single
 order: 110
 sidebar:

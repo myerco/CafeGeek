@@ -7,6 +7,7 @@ entries_layout: grid
 classes: wide
 order: 1
 sort_by: order
+read_time: true
 excerpt: "Construa a narrativa de jogos com seus personagens, definia tempo, mundo, objetivos e os capítulos da históriaConstrua a narrativa de jogos com seus personagens, definia tempo, mundo, objetivos e os capítulos da história."
 header:
   overlay_color: "#012024"
