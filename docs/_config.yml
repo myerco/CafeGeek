@@ -520,8 +520,8 @@ defaults:
       share: true                  
 # C++
   - scope:
-      path: ""
-      type: portfolio
+      path: "_cpp"
+      type: cpp
     values:
       layout: single
       read_time: true      
