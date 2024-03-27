@@ -169,7 +169,7 @@ include:
   - _unreal-engine  
   - _computacao-grafica
   - _cpp
-  - _a-taberna-ponei-saltitante
+  - _a-taberna-do-ponei-saltitante
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -345,7 +345,7 @@ collections:
   cpp:
     output: true
     permalink: /:collection/:path/            
-  a-taberna-ponei-saltitante:    
+  a-taberna-do-ponei-saltitante:    
     output: true
     permalink: /:collection/:path/              
 
@@ -520,7 +520,7 @@ defaults:
       share: true                  
 # C++
   - scope:
-      path: "_cpp"
+      path: ""
       type: portfolio
     values:
       layout: single
@@ -530,7 +530,7 @@ defaults:
       show_date: true                        
 # A taberna do pônei saltitante
   - scope:
-      path: "_a-taberna-ponei-saltitante"
+      path: "_a-taberna-do-ponei-saltitante"
       type: portfolio
     values:
       layout: single
