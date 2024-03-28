@@ -3,16 +3,8 @@ title: Actor, Pawn e Character
 excerpt: Neste capitulo serão apresentados as classes Actor, Pawn e Character e seus componentes.
 permalink: /unreal-engine-capitulo-1/actor-pawn-e-character
 date: 2024-03-01T08:48:05-04:00
-show_date: true
-read_time: true
 last_modified_at: 2023-03-28T08:48:05-04:00
-layout: single
 order: 108
-sidebar:
-    nav: dev_unreal_1
-toc: true  
-categories:
-  - Unreal Engine
 tags:
   - Blueprint
   - Atores

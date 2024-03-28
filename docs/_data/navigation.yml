@@ -8,8 +8,6 @@ main:
     url: /post-archive-feature-rows/
   - title: "Sitemap"    
     url: /sitemap/        
-  - title: "C++"    
-    url: /programacao-em-cpp/
   - title: "Sobre"
     url: /about/
 

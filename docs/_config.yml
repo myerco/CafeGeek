@@ -571,7 +571,10 @@ defaults:
       author_profile: false
       share: true 
       show_date: true
-      toc: true      
+      toc: true 
+      category: "Computação gráfica"
+      sidebar:
+        nav: dev_computacao                     
 # C++
   - scope:
       path: "_cpp"

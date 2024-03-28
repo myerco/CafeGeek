@@ -3,14 +3,8 @@ title: Visibilidade e Oclusão
 permalink: /computacao-grafica/visibilidade-e-oclusao
 excerpt: Neste capitulo apresentaremos o processo de visualização e oclusão de objetos.
 date: 2024-03-01T08:48:05-04:00
-show_date: true
 last_modified_at: 2023-03-27T08:48:05-04:00
-layout: single
 order: 105
-read_time: true
-toc: true    
-sidebar:
-    nav: dev_computacao
 ---
 
 {% include figure image_path="/assets/images/jogos-digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}

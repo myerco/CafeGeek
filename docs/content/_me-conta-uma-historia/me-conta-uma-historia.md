@@ -5,7 +5,7 @@ permalink: /me-conta-uma-historia/
 collection: me-conta-uma-historia
 entries_layout: grid
 classes: wide
-order:3
+order: 3
 sort_by: order
 excerpt: "Aprenda sobre a organização de narrativas de jogos eletrônicos."
 header:
