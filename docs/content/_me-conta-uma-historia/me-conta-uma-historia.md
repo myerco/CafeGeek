@@ -16,6 +16,7 @@ tags:
   - Conceito
   - Curso
   - Roteiro
+sidebar: false
 ---
 
 ## Conteúdo do curso

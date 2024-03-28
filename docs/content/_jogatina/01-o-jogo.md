@@ -13,28 +13,22 @@ tags:
   - jogador
 ---
 
-**Informação:** Latim “Ludus”, “Ludere” que designava os jogos infantis.
+Latim “Ludus”, “Ludere” que designava os jogos infantis.
 {: .notice}
+
+A origem da palavra **jogo** deriva do de um termo do latim, *jocus*, que significa brincadeira, divertimento, atualmente podemos explorar as principais características e definições que nos ajudam a entender a evolução dessa "brincadeira" que faz parte das nossas vidas, portanto, podemos definir um jogo através das suas principais características:
+
+- Atividade recreativa;
+- Regras que estabelecem quem vence e quem perde;
+- Competição física ou mental;
+- Conjunto de procedimentos e estratégias para atingir determinado fim;
+- Atividade em que existe a figura do jogador (como indivíduo praticante).
 
 {% include imagelocal.html
     src="jogatina-das-decadas/chess_game.webp"
     alt="Figura: Chess."
     caption="O Xadrez é um jogo de tabuleiro de estratégia do tipo recreativo ou competitivo para dois jogadores."
 %}
-
-A origem da palavra **jogo** deriva do de um termo do latim, *jocus*, que significa brincadeira, divertimento, atualmente podemos explorar as principais características e definições que nos ajudam a entender a evolução dessa "brincadeira" que faz parte das nossas vidas.
-
-Podemos definir um jogo através das suas principais características.
-
-- Atividade recreativa;
-
-- Regras que estabelecem quem vence e quem perde;
-
-- Competição física ou mental;
-
-- Conjunto de procedimentos e estratégias para atingir determinado fim;
-
-- Atividade em que existe a figura do jogador (como indivíduo praticante).
 
 "Em época mais otimista que a atual, nossa espécie recebeu a designação de *Homo sapiens*. Com o passar do
 tempo, acabamos por compreender que afinal de contas não somos tão racionais quanto a ingenuidade e o culto da
@@ -60,11 +54,8 @@ Há uma extraordinária divergência entre as numerosas tentativas de definiçã
 Quando pensamos no aspecto humano e evolutivo não podemos deixar de citar algumas teorias que buscam definir o jogo.
 
 - O jogo constitui uma preparação do jovem para as tarefas sérias que mais tarde a vida dele exigirá;
-
 - Trata-se de um exercício de autocontrole indispensável ao indivíduo;
-
 - Um impulso inato para exercer uma certa faculdade, ou como desejo de dominar ou competir;
-
 - Teorias há, ainda, que o consideram uma "ab-reação" (descarga emocional pela qual um indivíduo se liberta do afeto que acompanha a recordação de um acontecimento traumático), um escape para impulsos prejudiciais, um restaurador da energia dispendida por uma atividade unilateral, ou "realização do desejo", ou uma ficção destinada a preservar o sentimento do valor pessoal.
 
 ## 2. Homo Ludens
@@ -129,23 +120,17 @@ alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como s
 ### 5.1. O que é um jogo?
 
 - É uma Atividade recreativa com regras que estabelecem quem vence e quem perde;
-
 - Competição física ou mental com conjunto de procedimentos e estratégias para atingir determinado fim;
-
 - Atividade em que existe a figura do jogador (como indivíduo praticante).
 
 ### 5.2. O ser humano e o jogo
 
 - O jogo constitui uma preparação do jovem para as tarefas sérias que mais tarde a vida dele exigirá;
-
 - Trata-se de um exercício de autocontrole indispensável ao indivíduo;
-
 - Um impulso inato para exercer uma certa faculdade, ou como desejo de dominar ou competir;
-
 - Teorias há, ainda, que o consideram uma “ab-reação” (descarga emocional pela qual um indivíduo se liberta do afeto que acompanha a recordação de um acontecimento traumático), **um escape para impulsos prejudiciais**, um restaurador da energia dispendida por uma atividade unilateral, ou “realização do desejo”, ou uma ficção destinada a preservar o sentimento do **valor pessoal**.
 
 ### 5.3. O jogo é?
 
 - O jogo é tenso;
-
 - O jogo é divertido.

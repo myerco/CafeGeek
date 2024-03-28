@@ -13,6 +13,7 @@ header:
 date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2024-03-01T08:48:05-04:00
 toc: false
+sidebar: false
 ---
 
 ## Conteúdo do curso

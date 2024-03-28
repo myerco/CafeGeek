@@ -15,6 +15,7 @@ show_date: true
 read_time: true
 last_modified_at: 2024-03-01T08:48:05-04:00
 toc: false
+sidebar: false
 categories:
   - Unreal Engine - Capítulo 4
 tags:
