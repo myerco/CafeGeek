@@ -1,6 +1,6 @@
 ---
 title: Introdução ao Unreal Engine
-excerpt: Aprenda estruturas de desenvolvimento e lógicas de programação, utilizando Blueprints e C++.
+excerpt: Conhecendo um pouco do desenvolvimento de jogoss.
 permalink: /unreal-engine-capitulo-1/introducao-ao-unreal-engine
 date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2023-03-28T08:48:05-04:00
@@ -11,22 +11,26 @@ tags:
   - Iniciante 
 ---
 
-## 1. Como é o desenvolvimento de jogos digitais?
-
-{% include image.html
-    src="https://miro.medium.com/max/875/0*OlVTuxFz-Qn7oTUn"
-    alt="Figura: So, You Want to Be a Game Developer?"
-    title="Figura: So, You Want to Be a Game Developer?"
-    caption="Se você é como a maioria das pessoas, provavelmente joga videogame. Não importa se você é um jogador competitivo de e-sports atrás de muito dinheiro com seus jogos, ou se gosta de jogar spider ou candy crush como minha mãe, todo mundo joga. Mas você já pensou em fazê-los para o seu trabalho?"
-    ref="https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70"
-%}
+É impossível conseguir qualquer coisa, se você não sabe o que quer. **Fallout**.
+{: .notice}
 
 Um jogo digital é um produto de software e como muitos projetos de desenvolvimento envolve diversas áreas de conhecimento na sua construção, como por exemplo:
-{: .text-justify}
 
-### 1.1. Programação de computadores
+- Programação;
+- Arte 3D e 2D;
+- Computação gráfica;
+- Elementos de construção de narrativas;
+- Efeitos sonoros.
+
+{% include figure image_path="https://miro.medium.com/max/875/0*OlVTuxFz-Qn7oTUn" alt="So, You Want to Be a Game Developer?" caption="So, You Want to Be a Game Developer?." %}
+
+Se você é como a maioria das pessoas, provavelmente joga videogame. Não importa se você é um jogador competitivo de e-sports atrás de muito dinheiro com seus jogos, ou se gosta de jogar spider ou candy crush como minha mãe, todo mundo joga. Mas você já pensou em fazê-los para o seu trabalho?[REF](https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70)
+
+## 1. Programação de computadores
 
 [Programação](https://pt.wikipedia.org/wiki/Programa%C3%A7%C3%A3o_de_computadores) é o processo de escrita, teste e manutenção de um programa de computador. O programa é escrito em uma linguagem de programação, embora seja possível, com alguma dificuldade, o escrever diretamente em linguagem de máquina. Diferentes partes de um programa podem ser escritas em diferentes linguagens.
+
+Exemplo:
 
 ```cpp
 #include <iostream>
@@ -37,19 +41,15 @@ int main() {
 }
 ```
 
-### 1.2. Arte 3D e 2D
+## 2. Arte 3D e 2D
 
 A arte digital (2D e 3D) é a apresentação de personagens, ambiente e outros elementos que estão presentes nos jogos eletrônicos.
 
-{% include image.html
-    src="https://i2.wp.com/www.crieseusjogos.com.br/wp-content/uploads/2018/08/jogos-2d-ou-jogos-3d.jpeg?w=1200&ssl=1"
-    alt="Figura: É melhor criar um jogo 2D ou 3D? "
-    title="Figura: É melhor criar um jogo 2D ou 3D? "
-    caption="Desenvolvimento de jogos evoluiu e a geração de hoje preza bastante pelo seu design mágico, estrutura, renderização e textura. Isso tem influenciado diretamente em saber se é melhor criar um jogo 2D ou 3D."
-    ref="https://www.crieseusjogos.com.br/e-melhor-criar-um-jogo-2d-ou-3d/"
-%}
+{% include figure image_path="ttps://i2.wp.com/www.crieseusjogos.com.br/wp-content/uploads/2018/08/jogos-2d-ou-jogos-3d.jpeg?w=1200&ssl=1" alt="É melhor criar um jogo 2D ou 3D?" caption="É melhor criar um jogo 2D ou 3D?." %}
 
-### 1.3. Computação gráfica
+Desenvolvimento de jogos evoluiu e a geração de hoje preza bastante pelo seu design mágico, estrutura, renderização e textura. Isso tem influenciado diretamente em saber se é melhor criar um jogo 2D ou 3D.[REF](https://www.crieseusjogos.com.br/e-melhor-criar-um-jogo-2d-ou-3d/)
+
+## 3. Computação gráfica
 
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Activemarker2.PNG/330px-Activemarker2.PNG"
@@ -59,7 +59,7 @@ A arte digital (2D e 3D) é a apresentação de personagens, ambiente e outros e
     ref="https://pt.wikipedia.org/wiki/3D_%28computa%C3%A7%C3%A3o_gr%C3%A1fica%29"
 %}
 
-### 1.4. Elementos de construção de Narrativas
+## 4. Elementos de construção de Narrativas
 
 {% include image.html
     src="https://escolabrasileiradegames.com.br/wp2016/wp-content/uploads/2020/06/escola-brasileira-de-games-Jornada-do-Her%C3%B3i.jpg"
@@ -69,7 +69,7 @@ A arte digital (2D e 3D) é a apresentação de personagens, ambiente e outros e
     ref="https://escolabrasileiradegames.com.br/blog/jornada-do-heroi-desenvolvimento-de-narrativas-para-jogos"
 %}
 
-### 1.5. Efeitos sonoros
+## 5. Efeitos sonoros
 
 {% include image.html
     src="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img/https://kreonit.com/wp-content/uploads/2020/08/sound_main_optimized.jpg"
@@ -80,11 +80,11 @@ A arte digital (2D e 3D) é a apresentação de personagens, ambiente e outros e
 
 Como visto acima, diversos perfis profissionais de áreas distintas estão presentes na construção de um jogo, formando diversas equipes multiculturais,  o que aumenta a complexidade desse tipo de projeto quando pensamos na organização de tarefas e comunicação dos envolvidos.
 
-## 2. Mecânica, Dinâmica e Estética (MDA)
+## 6. Mecânica, Dinâmica e Estética (MDA)
 
 O projeto de desenvolvimento de um jogo pode ser estruturado dividindo-o em componentes distintos, Mecânica - Mechanics,  Dinâmica - Dynamics e Estética Aesthetics, MDA, esta divisão ajuda a trabalhar com o design do jogo.
 
-### 2.1. Mecânica
+### 6.1. Mecânica
 
 Descreve os componentes específicos do jogo, no nível de representação de dados e algoritmos.
 
@@ -94,7 +94,7 @@ Descreve os componentes específicos do jogo, no nível de representação de da
   
 - Ações: Níveis, missões e grupos.
   
-### 2.2. Dinâmica
+### 6.2. Dinâmica
 
 Descreve o comportamento da mecânica quando ela é executada pelas ações do jogador e cada um dos resultados ao longo do tempo.
 
@@ -112,7 +112,7 @@ Descreve o comportamento da mecânica quando ela é executada pelas ações do j
 
 - Cooperação.
   
-### 2.3. Estética
+### 6.3. Estética
 
 Descreve as respostas emocionais desejáveis evocadas no jogador, quando ele interage com o sistema de jogo.
 
@@ -137,7 +137,7 @@ As linguagens de programação vem evoluindo para simplificar as rotinas e coman
 
 Existem aplicações que auxiliam na produção de programas de computador ou jogos digitais, estas ferramentas abstraem a lógica complexa que faz com os objetos sejam apresentados de forma adequada na cena, no caso de jogos digitais. Tais ferramentas são chamadas de *Frameworks*.
 
-## 3. O que é uma Engine e Framework?
+## 7. O que é uma Engine e Framework?
 
 {% include image.html
     src="https://developerhouse.com/wp-content/uploads/2020/10/game-engines-and-framework.jpg"
@@ -158,7 +158,7 @@ Algumas *Engine* disponíveis no mercado.
 
 1. [Godot](https://godotengine.org/).
 
-## 4. Ciclo da lógica do desenvolvimento de um jogo
+## 8. Ciclo da lógica do desenvolvimento de um jogo
 
 A maioria das *Engines* seguem um ciclo de execução da lógica de programação baseado em :
 
@@ -170,7 +170,7 @@ A maioria das *Engines* seguem um ciclo de execução da lógica de programaçã
 
 **Finalização** - Executa as rotinas para descarregar o jogo;
 
-## 5. O que é Unreal Engine?
+## 9. O que é Unreal Engine?
 
 ![image-center](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg/800px-Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg){: .align-center}
 

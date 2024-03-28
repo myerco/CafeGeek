@@ -29,6 +29,7 @@ dev_game:
 
 dev_unreal_1:
   - title: "Capítulo 1 - Blueprints"
+    url: /unreal-engine-capitulo-1/
     children:    
       - title: Introdução ao Unreal Engine
         url: /unreal-engine-capitulo-1/introducao-ao-unreal-engine
@@ -64,6 +65,7 @@ dev_unreal_1:
 
 dev_unreal_2:        
   - title: "Capítulo 2 - ESTRUTURAS DE ARMAZENAMENTO"
+    url: /unreal-engine-capitulo-2/
     children:    
       - title: Arrays
         url: /unreal-engine-capitulo-2/arrays
@@ -76,6 +78,7 @@ dev_unreal_2:
 
 dev_unreal_3:        
   - title: "Capítulo 3 - INTERFACE COM O JOGADOR"
+    url: /unreal-engine-capitulo-3/  
     children:
       - title: UI - User Interface
         url: /unreal-engine-capitulo-3/user-interface
@@ -84,6 +87,7 @@ dev_unreal_3:
 
 dev_unreal_4:        
   - title: Capítulo 4 - MATERIAIS E LANDSCAPE
+    url: /unreal-engine-capitulo-4/  
     children:    
       - title: Introdução aos Materiais
         url: /unreal-engine-capitulo-4/introducao-aos-materiais
@@ -94,6 +98,7 @@ dev_unreal_4:
 
 dev_unreal_5:        
   - title: "Capítulo 5 - MOVIMENTAÇÃO"
+    url: /unreal-engine-capitulo-5/
     children:
       - title: Lógica de Movimentação
         url: /unreal-engine-capitulo-5/logica-de-movimentacao
@@ -108,6 +113,7 @@ dev_unreal_5:
 
 dev_unreal_6:        
   - title: "Capítulo 6 - INTELIGÊNCIA ARTIFICIAL"
+    url: /unreal-engine-capitulo-6/
     children:
       - title: Inteligência Artificial
         url: /unreal-engine-capitulo-6/inteligencia-artificial
@@ -116,12 +122,14 @@ dev_unreal_6:
 
 dev_unreal_7:        
   - title: "Capítulo 7 - MULTIPLAYER"
+    url: /unreal-engine-capitulo-7/
     children:
       - title: Multiplayer
         url: /unreal-engine-capitulo-7/multiplayer
 
 dev_unreal_8:        
   - title: "Capítulo 8 - C++"
+    url: /unreal-engine-capitulo-8/
     children:
       - title: Controle de versão
         url: /unreal-engine-capitulo-8/controle-versao   
@@ -139,6 +147,7 @@ dev_unreal_8:
 
 dev_computacao:
   - title: COMPUTAÇÃO GRÁFICA    
+    url: /computacao-grafica/
     children:
       - title: Introdução
         url: /pages/computacao-grafica/introducao
@@ -167,7 +176,7 @@ dev_me_conta:
 
 dev_jogatina:
   - title: A jogatina das décadas
-    url: /jogatina
+    url: /a-jogatina-das-decadas/
     children:      
       - title: O jogo
         url: /a-jogatina-das-decadas/o-jogo
