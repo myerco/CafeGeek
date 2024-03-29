@@ -154,7 +154,7 @@ dev_computacao:
       - title: Introdução
         url: /computacao-grafica/introducao-a-computacao-grafica
       - title: Estrutura de objetos 3D
-        url: /computacao-grafica/estruturas-objetos3d      
+        url: /computacao-grafica/estruturas-de-objetos3d      
       - title: Renderização 
         url:  /computacao-grafica/renderizacao
       - title: Renderização de objetos com Unreal Engine

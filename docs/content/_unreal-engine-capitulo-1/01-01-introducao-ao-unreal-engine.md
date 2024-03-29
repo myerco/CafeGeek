@@ -63,13 +63,13 @@ Computação gráfica tridimensional são gráficos que usam representações tr
 
 {% include figure image_path="https://escolabrasileiradegames.com.br/wp2016/wp-content/uploads/2020/06/escola-brasileira-de-games-Jornada-do-Her%C3%B3i.jpg" alt="Jornada do Herói: Desenvolvimento de Narrativas para Jogos" caption="**Figura:** Jornada do Herói: Desenvolvimento de Narrativas para Jogos." %}
 
-Toda e qualquer história seja ela de aventura, terror, ação, romance ou qualquer outro gênero, é a responsável por chamar atenção do usuário e levar o jogador de encontro com uma nova aventura, conhecer um novo mundo qual ele irá mergulhar, quem são os personagens, seus medos, conquistas e aflições. [REF](https://escolabrasileiradegames.com.br/blog/jornada-do-heroi-desenvolvimento-de-narrativas-para-jogoss)
+Toda e qualquer história seja ela de aventura, terror, ação, romance ou qualquer outro gênero, é a responsável por chamar atenção do usuário e levar o jogador de encontro com uma nova aventura, conhecer um novo mundo qual ele irá mergulhar, quem são os personagens, seus medos, conquistas e aflições. [REF](https://escolabrasileiradegames.com.br/blog/jornada-do-heroi-desenvolvimento-de-narrativas-para-jogos)
 
 ## 5. Efeitos sonoros
 
 {% include figure image_path="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img/https://kreonit.com/wp-content/uploads/2020/08/sound_main_optimized.jpg" alt="Game sound design: soundtrack, sound effects and how to combine them" caption="**Figura:** Game sound design: soundtrack, sound effects and how to combine them." %}
 
-O design de som é uma parte muito importante de um jogo. Os desenvolvedores de jogos concordam que a música e os sons são poderosos condutores emocionais. E nosso objetivo é usar totalmente o som para tornar o jogo ainda melhor.[REF](https://kreonit.com/our-services/mobile-game-development/game-sound-design/)
+O design de som é uma parte muito importante de um jogo. Os desenvolvedores de jogos concordam que a música e os sons são poderosos condutores emocionais. E nosso objetivo é usar totalmente o som para tornar o jogo ainda melhor.
 
 Como visto acima, diversos perfis profissionais de áreas distintas estão presentes na construção de um jogo, formando diversas equipes multiculturais,  o que aumenta a complexidade desse tipo de projeto quando pensamos na organização de tarefas e comunicação dos envolvidos.
 

@@ -10,43 +10,173 @@ tags:
   - editores
 ---
 
-## 1. Editor de Level
 
-Uma visão geral da interface usada para o design e construção de níveis e ambientes de jogo.
+Esta página descreve os elementos mais comuns da interface **Unreal Engine 5** e o que eles fazem.  Alguns dos elementos descritos nesta página, como painéis e barras de menu, são geralmente os mesmos em várias partes do motor. Você deve gastar algum tempo se familiarizando com seu propósito geral e funcionalidade, especialmente se você é novo no desenvolvimento de jogos e aplicativos com o Unreal Engine.[REF](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-editor-interface)
 
-{% include image.html
-    src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/DefaultInterface_Windows.webp"
-    alt="Figura: Level Editor"
-    caption="Figura: Level Editor."
-    ref="https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/"
-%}
+Quando você abre o Unreal Engine 5 pela primeira vez, o Editor de Nível é aberto. Você verá a seguinte janela:
 
-1. Tab Bar and Menu Bar;
+Interface de editor unreal padrão no Unreal Engine 5. Clique na imagem para tamanho real.
 
-2. Toolbar;
+{% include figure image_path="/assets/images/unreal/interface-editores/ue5-default-interface.webp" alt="Default interface"  %}
 
-3. Place Actor / Modes;
+1. Menu Bar - Use esses menus para acessar comandos e funcionalidades específicos do editor;
 
-4. Viewports;
+2. Main Toolbar - Contém atalhos para algumas das ferramentas e editores mais comuns do **Unreal Engine**, bem como atalhos para entrar no modo Play (executar seu jogo dentro do Unreal Editor) e para implantar seu projeto em outras plataformas;
 
-5. Content Browser;
+3. Level Viewport - Exibe o conteúdo do seu Nível, como Câmeras, Atores, Malhas Estáticas e assim por diante;
 
-6. World Outliner;
+4. Content Drawer Button - Abre a `Content Drawer`, a partir da qual você pode acessar todos os ativos do seu projeto.
 
-7. Details;
+5. Bottom Toolbar -	Contém atalhos para o Console de Comando, Log de Saída e funcionalidade de Dados Derivados. Também exibe o status do controle de código fonte.
 
-## 2. Editor de Viewports
+6. Outliner - Exibe uma visão de árvore hierárquica de todo o conteúdo em seu Nível.
 
-Conceitos e recursos básicos das Viewports no Unreal Editor.
+7. Details panel - Aparece quando você seleciona um ator. Exibe várias propriedades para esse Ator, como sua Transformação (posição no Nível), Malha Estática, Material e configurações físicas. Este painel exibe configurações diferentes dependendo do que você selecionar na `Viewport` de nível.
 
-{% include image.html
-    src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/Viewports_Topic.webp"
-    alt="Figura: Viewport Basics"
-    caption="Figura: Viewport Basics."
-    ref="https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/Basics/"
-%}
+## 1. Menu Bar
 
-### 2.1. Transformação de ciclo (espaço) e transformações (W/E/R)
+{% include figure image_path="/assets/images/unreal/interface-editores/menu-bar.webp" alt="Menu bar"  %}
+
+Cada editor do Unreal Engine tem uma barra de menus localizada no canto superior direito da janela do editor (Windows) ou na parte superior da tela (macOS). Alguns dos menus, como Arquivo, Janela e Ajuda, estão presentes em todas as janelas do editor, não apenas no Editor de Nível. Outros são editores-específicos.
+
+## 2. Main Toolbar
+
+A barra de ferramentas principal contém atalhos para algumas das ferramentas e comandos mais usados no Unreal Editor. É dividido nas seguintes áreas:
+
+{% include figure image_path="/assets/images/unreal/interface-editores/main-toolbar.webp" alt="Main Tollbar"  %}
+
+### 2.1. Botão para salvar
+
+Clique neste botão para salvar o nível que está aberto no momento.
+
+### 2.2. Seleção de Modos
+
+Contém atalhos para alternar rapidamente entre diferentes modos para editar conteúdo dentro do seu Nível:
+
+- Select Editing
+
+- Landscape Editing
+
+- Foliage Editing
+
+- Mesh Painting
+
+- Fracture Editing
+
+- Brush Editing
+
+### 2.3. Atalhos de conteúdo
+
+Contém atalhos para adicionar e abrir tipos comuns de conteúdo dentro do Editor de Nível.
+
+- Create - Escolha a partir de uma lista de Ativos comuns para adicionar rapidamente ao seu Nível. Você também pode acessar os painéis Place Actors a partir deste menu;
+
+- Blueprints -Criar e acessar Blueprints.
+
+- Cinematics - Criar uma Sequência de Nível ou `Master sequence cinematic`.
+
+### 2.4. Controles de execução do jogo
+
+Contém botões de atalho (Play, Skip, Stop e Eject) para executar o seu jogo no Editor.
+
+### 2.5. Menu para escolha de plataformas
+
+Contém uma série de opções que você pode usar para configurar, preparar e implantar seu projeto em diferentes plataformas, como desktop, dispositivos móveis ou consoles.
+
+### 2.6. Configurações
+
+Contém várias configurações para o **Unreal Editor**, Level Editor Viewport e comportamento do jogo.
+
+## 3. Level Viewport
+
+O `Level Viewport` exibe o conteúdo do Nível que está aberto no momento. Quando você abre um projeto no Unreal Engine, o nível padrão do projeto é aberto no Viewport de nível por padrão. É aqui que você pode visualizar e editar o conteúdo do seu nível ativo, seja um ambiente de jogo, um aplicativo de visualização de produto ou outra coisa.
+
+A Viewport de nível geralmente pode exibir o conteúdo do nível de duas maneiras diferentes:
+
+- Perspective - que é uma visão 3D, você pode navegar para ver o conteúdo da viewport de diferentes ângulos.
+
+- Ortographic - que é uma visão 2D que olha para baixo um dos eixos principais (X, Y ou Z).
+
+{% include figure image_path="/assets/images/unreal/interface-editores/viewport-examples.webp" alt="View port"  caption="Vistas diferentes do Level Viewport no Unreal Engine 5. Top: Perspective View. Parte inferior: Ortographic view." %}
+
+## 4. Content Drawer e Content Browser
+
+O `Content Drawer` é uma janela do explorador de arquivos que exibe todos os ativos, blueprints e outros arquivos contidos em seu projeto. Você pode usá-lo para navegar pelo seu conteúdo, arrastar os ativos para o nível, migrar ativos entre projetos e muito mais.
+
+{% include figure image_path="/assets/images/unreal/interface-editores/ue5_1-content-browser.webp" alt="Content Browser window in Unreal Engine 5"  caption="Content Browser window in Unreal Engine 5." %}
+
+O botão`Content Drawer`, localizado no canto inferior esquerdo do Unreal Editor, abre uma instância especial do `Content Browse` que minimiza automaticamente quando ele perde o foco (ou seja, quando você clica para longe dele). Para mantê-lo aberto, clique no botão `Dock` no Layout no canto superior direito do `Content Drawser`. Isso cria uma nova instância do `Content Browse`, mas você ainda pode abrir um novo `Content Drawer`.
+
+## 5. Bottom Toolbar
+
+A barra de ferramentas de fundo contém atalhos para a funcionalidade `Command Console`, `Output Log` e `Derived Data`. Ele também exibe o status de controle de código fonte. É dividido nas seguintes áreas:
+
+{% include figure image_path="/assets/images/unreal/interface-editores/bottom-toolbar.webp" alt="Bottom Toolbar"  %}
+
+- Output Log - Ferramenta de depuração que imprime informações úteis enquanto seu aplicativo está em execução.
+
+- Command Console - Comporta-se como qualquer outra interface de linha de comando: digite comandos do console para acionar comportamentos específicos do editor.
+
+- Derived Data - Fornece funcionalidade Derived Data.
+
+- Source Control Status - Exibe o status do controle de seu código fonte se o projeto estiver conectado ao controle de código (por exemplo, GitHub ou Perforce). Caso contrário, isso dirá o controle de origem desligado.
+
+## 6. Outliner
+
+O painel Outliner (anteriormente conhecido como World Outliner) exibe uma visão hierárquica de todo o conteúdo em seu Nível. Por padrão, ele está localizado no canto superior direito da janela do Editor Unreal. Você pode ter até quatro Outliners diferentes, cada um com seu próprio layout de coluna e configuração de filtro.
+
+{% include figure image_path="/assets/images/unreal/interface-editores/ue5_1-outliner.webp" alt="Outliner"   %}
+
+Você também pode usar o painel Outliner para:
+
+- Oculta ou revele rapidamente os Atores clicando no botão Olho associado;
+
+- Acesse o menu de contexto de um ator clicando com o botão direito do mouse sobre esse ator. Você pode executar operações adicionais específicas do Ator a partir desse menu;
+
+- Crie, mova e exclua pastas de conteúdo.
+
+## 7. Details Panel
+
+Quando você seleciona um Ator na Viewport de Nível, o painel Detalhes mostrará as configurações e propriedades que afetam o Ator selecionado. Por padrão, ele está localizado no lado direito da janela do Unreal Editor, sob o painel Esboço Mundial.
+
+{% include figure image_path="/assets/images/unreal/interface-editores/details-panel.webp" alt="Details Panel" caption="
+Este exemplo mostra um painel de detalhes do Ator de malha estática do cubo. Com o cubo Static Mesh selecionado, o Painel de detalhes aparece atracado no lado direito do Unreal Editor"  %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*********************************************************
+
+### 9.1. Transformação de ciclo (espaço) e transformações (W/E/R)
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/ViewportToolbar_TransformTools.webp"
@@ -61,7 +191,7 @@ Conceitos e recursos básicos das Viewports no Unreal Editor.
 
 - E - Girar objeto é essencial.
 
-### 2.2. Transformação referência Mundial/Local
+### 9.2. Transformação referência Mundial/Local
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/ViewportToolbar_Coordinate.webp"
@@ -72,7 +202,7 @@ Conceitos e recursos básicos das Viewports no Unreal Editor.
 
 A referência de movimentação do objeto, por exemplo quando a referência é do objeto a movimentação é para a esquerda ou direita do objeto, quando a referência é o mundo o objeto é movimentado para a esquerda ou direita do mundo.
 
-### 2.3. Actor Snapping
+### 9.3. Actor Snapping
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/Basics/Actors/ActorSnapping/LevelViewportToolbar-SurfaceSnapping.webp"
@@ -89,7 +219,7 @@ A referência de movimentação do objeto, por exemplo quando a referência é d
 
 - `Scale Grid` - A Grade de Escala força o gizmo de Escala a ajustar-se a incrementos aditivos;
 
-### 2.4. Velocidade da Câmera
+### 9.4. Velocidade da Câmera
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/SettingCameraSpeed.webp"
@@ -115,7 +245,7 @@ Explicações para os modos de visualização disponíveis nas viewports.
     ref="https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewModes"
 %}
 
-### 2.5. Customização do Layout
+### 9.5. Customização do Layout
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/Basics/UI/InterfaceOverview/DockingEditorTabs2.webp"
@@ -124,7 +254,7 @@ Explicações para os modos de visualização disponíveis nas viewports.
     ref="https://docs.unrealengine.com/en-US/Engine/UI/InterfaceOverview/index.html"
 %}
 
-## 3. Play e Simulate
+## 10. Play e Simulate
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/InEditorTesting/playInEditor.webp"
