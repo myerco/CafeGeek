@@ -15,7 +15,6 @@ categories:
   - Unreal Engine
 tags:
   - Blueprint
-  - array
 ---
 
 ## 1. O que são variáveis do tipo array?

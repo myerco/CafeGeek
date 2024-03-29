@@ -15,7 +15,6 @@ categories:
   - Unreal Engine
 tags:
   - variáveis estruturadas
-  - Structure
 ---
 
 ## 1. O que são variáveis do tipo Structure?

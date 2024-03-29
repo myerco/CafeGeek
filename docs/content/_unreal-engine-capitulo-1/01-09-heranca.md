@@ -9,9 +9,6 @@ tags:
   - Blueprint
   - Atores
   - Classes
-  - Colisão
-  - Herança
-  - Posição coordenadas
 ---
 
 ## 1. Trabalhando herança com Blueprint

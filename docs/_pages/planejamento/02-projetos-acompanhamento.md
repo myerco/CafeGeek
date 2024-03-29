@@ -9,9 +9,6 @@ sidebar:
     nav: planejamento
 categories:
   - Planejamento
-  - Acompanhamento
-tags:
-  - Planejamento
 ---
 
 ## Level 1

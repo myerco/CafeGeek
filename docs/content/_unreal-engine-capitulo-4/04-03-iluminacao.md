@@ -11,10 +11,6 @@ order: 403
 sidebar:
     nav: dev_unreal_4
 toc: true
-categories:
-  - Unreal Engine
-tags:
-  - Iluminação
 ---
 
 ## 1. Directional Light

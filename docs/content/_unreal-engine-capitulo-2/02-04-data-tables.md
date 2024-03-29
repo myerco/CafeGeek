@@ -16,7 +16,6 @@ categories:
 tags:
   - variáveis estruturadas
   - Structure
-  - Data tables
   - Importando dados
   - .csv
 ---

@@ -1,6 +1,6 @@
 ---
 title: Utilizando Niagara
-description: Neste capítulo vamos implementar efeitos especiais utilizando Niagara.
+excerpt: "Neste capítulo vamos implementar efeitos especiais utilizando Niagara."
 permalink: /unreal-engine/utilizando-niagara
 tags: [Unreal Engine,actor,atores]
 ---

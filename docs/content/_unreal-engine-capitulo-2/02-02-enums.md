@@ -15,7 +15,6 @@ categories:
   - Unreal Engine
 tags:
   - Blueprint
-  - enum
 ---
 
 ## 1. O que são Enums?

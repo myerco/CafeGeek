@@ -9,7 +9,6 @@ sidebar:
     nav: planejamento
 categories:
   - Planejamento
-  - Jornada
 tags:
   - Planejamento
 ---

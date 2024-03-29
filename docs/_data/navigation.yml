@@ -15,7 +15,7 @@ dev_game:
   - title: Unreal Engine
     url: /unreal-engine/
   - title: Modelagem 3D
-    url: /pages/modelagem3d/introducao
+    url: /modelagem-3d/
   - title: A Jogatina das Décadas
     url: /a-jogatina-das-decadas/
   - title: Me conta uma história
@@ -158,7 +158,7 @@ dev_computacao:
       - title: Renderização de objetos com Unreal Engine
         url:  /computacao-grafica/renderizacao-de-objetos-com-unreal-engine
       - title: Visibilidade e Oclusão
-        url:  /computacao-grafica/visibilidade-oclusao            
+        url:  /computacao-grafica/visibilidade-e-oclusao            
  
 
 dev_me_conta:

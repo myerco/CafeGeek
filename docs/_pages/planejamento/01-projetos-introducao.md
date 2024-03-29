@@ -8,6 +8,4 @@ sidebar:
     nav: planejamento
 categories:
   - Planejamento
-tags:
-  - Planejamento
 ---
