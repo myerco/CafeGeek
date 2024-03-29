@@ -8,6 +8,19 @@ order: 104
 tags:
   - interface
   - editores
+gallery:
+  - url: /assets/images/unreal/interface-editores/07-le-trans-widget.webp
+    image_path: /assets/images/unreal/interface-editores/07-le-trans-widget.webp
+    alt: "Move Tool (W)"
+    title: "Move Tool (W)"
+  - url: /assets/images/unreal/interface-editores/08-transform-rotate.webp
+    image_path: /assets/images/unreal/interface-editores/08-transform-rotate.webp
+    alt: "Rotate Tool (E)"
+    title: "Rotate Tool (E)"
+  - url: /assets/images/unreal/interface-editores/09-le-trans-scalewidget.webp
+    image_path: /assets/images/unreal/interface-editores/09-le-trans-scalewidget.webp
+    alt: "Scale Tool (R)"
+    title: "Scale Tool (R)"
 ---
 
 
@@ -142,74 +155,21 @@ Quando você seleciona um Ator na Viewport de Nível, o painel Detalhes mostrar�
 {% include figure image_path="/assets/images/unreal/interface-editores/details-panel.webp" alt="Details Panel" caption="
 Este exemplo mostra um painel de detalhes do Ator de malha estática do cubo. Com o cubo Static Mesh selecionado, o Painel de detalhes aparece atracado no lado direito do Unreal Editor"  %}
 
+## 8. Controle de transformação
 
+{% include gallery caption="Esses controles estão relacionados a Movimento, rotação e dimensionamento de atores nas perspectivas de visualização usando as ferramentas de transformação" %}
 
+{% include figure image_path="/assets/images/unreal/interface-editores/10-le-trans-widget-icons.webp" alt="Widget icons" %}
 
+## 9. Transformação referência Mundial e Local
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*********************************************************
-
-### 9.1. Transformação de ciclo (espaço) e transformações (W/E/R)
-
-{% include image.html
-    src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/ViewportToolbar_TransformTools.webp"
-    alt="Figura: Viewport Toolbar"
-    caption="Figura: Viewport Toolbar."
-    ref="https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/"
-%}
-
-- R - A transição suave da escala;
-
-- W - Mover objeto;
-
-- E - Girar objeto é essencial.
-
-### 9.2. Transformação referência Mundial/Local
-
-{% include image.html
-    src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/ViewportToolbar_Coordinate.webp"
-    alt="Figura: Coordinate System"
-    caption="Figura: Coordinate System."
-    ref="https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/"
-%}
+![image-center](/assets/images/unreal/interface-editores/10-le-trans-widget-icons.webp/assets/images/unreal/interface-editores/viewport-toolbar-coordinates.webp){: .align-center}
 
 A referência de movimentação do objeto, por exemplo quando a referência é do objeto a movimentação é para a esquerda ou direita do objeto, quando a referência é o mundo o objeto é movimentado para a esquerda ou direita do mundo.
 
-### 9.3. Actor Snapping
+## 10. Actor Snapping
 
-{% include image.html
-    src="https://docs.unrealengine.com/4.27/Images/Basics/Actors/ActorSnapping/LevelViewportToolbar-SurfaceSnapping.webp"
-    alt="Figura: Actor Snapping"
-    caption="Figura: Actor Snapping."
-    ref="https://docs.unrealengine.com/4.27/en-US/Basics/Actors/ActorSnapping/"
-%}
+{% include figure image_path="/assets/images/unreal/interface-editores/01-surface-snapping-option.webp" alt="Bottom Toolbar"  %}
 
 - `Surface Snapping` - Faz com que os Atores se alinhem ao piso ou a outra superfície;
 
@@ -219,15 +179,9 @@ A referência de movimentação do objeto, por exemplo quando a referência é d
 
 - `Scale Grid` - A Grade de Escala força o gizmo de Escala a ajustar-se a incrementos aditivos;
 
-### 9.4. Velocidade da Câmera
+## 11. Velocidade da Câmera
 
-{% include image.html
-    src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/SettingCameraSpeed.webp"
-    alt="Figura: Camera Speed"
-    caption="Figura: ACamera Speed."
-    ref="https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewportToolbar/"
-%}
-
+{% include figure image_path="/assets/images/unreal/interface-editores/camera-speed.webp" alt="Bottom Toolbar"  %}
 Outros controles.
 
 - [Viewport Controls](https://docs.unrealengine.com/en-US/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html)
@@ -245,7 +199,7 @@ Explicações para os modos de visualização disponíveis nas viewports.
     ref="https://docs.unrealengine.com/4.27/en-US/BuildingWorlds/LevelEditor/Viewports/ViewModes"
 %}
 
-### 9.5. Customização do Layout
+## 12. Customização do Layout
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/Basics/UI/InterfaceOverview/DockingEditorTabs2.webp"
@@ -254,7 +208,7 @@ Explicações para os modos de visualização disponíveis nas viewports.
     ref="https://docs.unrealengine.com/en-US/Engine/UI/InterfaceOverview/index.html"
 %}
 
-## 10. Play e Simulate
+## 13. Play e Simulate
 
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/BuildingWorlds/LevelEditor/InEditorTesting/playInEditor.webp"
