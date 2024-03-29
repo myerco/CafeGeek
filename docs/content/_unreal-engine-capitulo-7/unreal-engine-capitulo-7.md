@@ -24,14 +24,4 @@ tags:
   - C++
 ---
 
-## Habilidades que serão aprendidas
-
-- Configure o controle de versão do projeto;
-- Aprenda sobre a sintaxe da linguagem C++;
-- Trabalhe com Classes e macros do Unreal e C++.
-
-## Categoria
-
-O curso tem como objetivo a construção da **Mecânica** do jogo, definindo mecanismos de controle e elementos do conteúdo do jogo.
-
-## Módulos
+## Conteúdo do curso

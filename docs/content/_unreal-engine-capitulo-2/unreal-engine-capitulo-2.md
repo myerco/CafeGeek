@@ -23,15 +23,4 @@ tags:
   - Unreal Engine
 ---
 
-## Habilidades que serão aprendidas
-
-- Trabalhe com array;
-- Implemente enum;
-- Aprenda a usar objetos do tipo structs;
-- Utilize data-tables para armazenamento de informações do seus objetos. 
-
-## Categoria
-
-O curso tem como objetivo a construção da **Mecânica** do jogo, definindo mecanismos de controle e elementos do conteúdo do jogo.
-
-## Módulos
+## Conteúdo do curso

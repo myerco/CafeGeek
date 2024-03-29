@@ -6,7 +6,7 @@ header:
   overlay_image: /assets/images/cafegeek_roteirizacao.jpg
 classes: wide
 excerpt: Nesta seção serão apresentados os trabalhos produzidos pelos acadêmicos de Jogos Digitais.
-permalink: /pages/trabalhos/
+permalink: /jogos-digitais/trabalhos-de-jogos-digitais
 last_modified_at: 2023-03-27T08:48:05-04:00
 sidebar:
     nav: dev_game 

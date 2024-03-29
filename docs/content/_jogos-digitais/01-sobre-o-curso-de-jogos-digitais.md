@@ -1,9 +1,12 @@
 ---
 title: Sobre o Curso de Jogos Digitais
-permalink: /about/jogos-digitais
+permalink: /jogos-digitais/sobre-o-curso-de-jogos-digitais
 description: Sobre o Curso de Jogos Digitais
 last_modified_at: 2023-03-27T08:48:05-04:00
 toc: true  
+date: 2024-03-02T08:48:05-04:00
+last_modified_at: 2024-02-10T08:48:05-04:00
+order: 2
 sidebar:
     nav: dev_game 
 ---

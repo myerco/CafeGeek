@@ -4,7 +4,7 @@ excerpt: Apresentação de materiais
 permalink: /modelagem-3d/materiais
 date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2023-03-28T08:48:05-04:00
-order: 103
+order: 104
 ---
 
 ## 1. Materiais

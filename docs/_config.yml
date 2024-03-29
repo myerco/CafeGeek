@@ -341,6 +341,9 @@ collections:
   modelagem-3d:    
     output: true
     permalink: /:collection/:path/                  
+  jogos-digitais:    
+    output: true
+    permalink: /:collection/:path/                      
 
 # Defaults
 defaults:
@@ -583,5 +586,21 @@ defaults:
       category: "Modelagem 3D"                                
       sidebar:
         nav: dev_modelagem3d
+# Jogos Digitais
+  - scope:
+      path: "_jogos-digitais"
+      type: jogos-digitais
+    values:
+      layout: single
+      read_time: true      
+      author_profile: false
+      share: true 
+      show_date: true
+      toc: true 
+      sort_by: order      
+      category: "Jogos Digitais"                  
+      sidebar:
+        nav: dev_game
+
 
 

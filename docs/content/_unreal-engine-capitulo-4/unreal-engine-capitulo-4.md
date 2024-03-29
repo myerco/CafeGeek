@@ -23,15 +23,4 @@ tags:
   - Unreal Engine
 ---
 
-## Habilidades que serão aprendidas
-
-- Manipule o Editor de materiais;
-- Implemente materiais;
-- Lógica de programação de materiais;
-- Trabalhe com materiais na sua cena
-
-## Categoria
-
-O curso tem como objetivo a construção da **Mecânica** do jogo, definindo mecanismos de controle e elementos do conteúdo do jogo.
-
-## Módulos
+## Conteúdo do curso

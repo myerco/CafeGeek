@@ -6,6 +6,8 @@ main:
     url: /collection-archive/    
   - title: "Posts"    
     url: /post-archive-feature-rows/
+  - title: "Jogos Digitais"    
+    url: /jogos-digitais/    
   - title: "Sitemap"    
     url: /sitemap/        
   - title: "Sobre"
@@ -23,9 +25,9 @@ dev_game:
   - title: Computação gráfica
     url: /computacao-grafica/
   - title: O curso de jogos digitais
-    url: /about/jogos-digitais
+    url: /jogos-digitais
   - title: Trabalhos
-    url: /pages/trabalhos/
+    url: /jogos-digitais/trabalhos-de-jogos-digitais
 
 dev_unreal_1:
   - title: "Capítulo 1 - Blueprints"
@@ -209,15 +211,3 @@ banco_dados:
       - title: A taberna do Pônei Saltitante
         url: /a-taberna-do-ponei-saltitante/   
 
-
-planejamento:
-  - title: Planejamento
-    children:
-      - title: Introdução
-        url: /pages/planejamento/introducao
-      - title: Acompanhamento
-        url: /pages/planejamento/acompanhamento
-      - title: Entrega
-        url: /pages/planejamento/entrega
-      - title: Jornada
-        url: /pages/planejamento/jornada

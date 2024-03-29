@@ -4,7 +4,7 @@ layout: collection
 permalink: /modelagem-3d/
 collection: modelagem-3d
 entries_layout: grid
-order: 1
+order: 0
 sort_by: order
 excerpt: "Aprenda como usar o Autodesk Maya para modelar objetos 3D."
 header:

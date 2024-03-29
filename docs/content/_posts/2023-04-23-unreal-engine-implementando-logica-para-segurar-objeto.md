@@ -29,18 +29,3 @@ A seguir vamos apresentar uma lógica para encontrar o objeto, manter preso ao p
 ## Componentes
 
 LocationToLook -  Arrow Component que é usado como referência as coordenadas do objeto.
-
-```mermaid!
-pie title Pets adopted by volunteers
-  "Dogs" : 386
-  "Cats" : 85
-  "Rats" : 35
-```
-
-```mermaid
-graph TD;
-  A-->B;
-  A-->C;
-  A-->D;
-  A-->D;
-```

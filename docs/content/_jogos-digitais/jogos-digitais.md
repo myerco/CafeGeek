@@ -1,7 +1,12 @@
 ---
 title: Desenvolvimento de Jogos
 permalink: /jogos-digitais
+collection: jogos-digitais
+entries_layout: grid
 classes: wide
+date: 2024-03-02T08:48:05-04:00
+last_modified_at: 2024-02-10T08:48:05-04:00
+order: 0
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/cafegeek_roteirizacao.jpg

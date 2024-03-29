@@ -13,12 +13,6 @@ tags:
 
 Podemos entender a Modelagem 3D como a criação de objetos sólidos através da representação matemática de uma superfície ou de um objeto volumétrico, vivo ou inanimado. É a criação do modelo de um objeto tridimensional através de um software de processamento 3D.
 
-{% include image.html
-    src="https://ecdd.infnet.edu.br/wp-content/uploads/sites/7/2021/04/modelo-3d-lowpoly-1024x576.jpg"
-    alt="Figura: Cabeça low poly de um modelo 3D (fonte: TurboSquid)"
-    caption="Figura: Cabeça low poly de um modelo 3D (fonte: TurboSquid)"
-%}
-
 Podemos aplicar em várias áreas como por exemplo:
 
 - Design, Engenharia e Produção de Produtos;

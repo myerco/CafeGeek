@@ -23,14 +23,4 @@ tags:
   - Unreal Engine
 ---
 
-## Habilidades que serão aprendidas
-
-- Lógica de movimentação;
-- Aprenda sobre o Delta Time e o sistemas de coordenadas;
-- Trabalhe com animações 2D.
-
-## Categoria
-
-O curso tem como objetivo a construção da **Mecânica** do jogo, definindo mecanismos de controle e elementos do conteúdo do jogo.
-
-## Módulos
+## Conteúdo do curso
