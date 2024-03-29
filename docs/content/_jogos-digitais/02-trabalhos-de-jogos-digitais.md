@@ -1,6 +1,7 @@
 ---
 title: Trabalhos de jogos digitais
 collection: portfolio
+order: 2
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/cafegeek_roteirizacao.jpg
@@ -28,7 +29,7 @@ feature_row0-2:
     alt: "Killer Hotel"
     title: "Killer Hotel"
     excerpt: "Baseado na quinta temporada da série de televisão American Horror Story, que tem como cenário principal um hotel macabro e assombrado na cidade de Porto Velho, Rondônia. A trama dos personagens, faz referências a eventos e figuras históricas reais que são incorporados à narrativa. Ele destaca a influência do cinema de terror e suspense, bem como a ênfase na estética visual e na música para criar um clima de tensão e medo. A trama apresenta uma abordagem ousada e inovadora ao explorar temas como a sexualidade, a violência e a morte. <b>Autor: Carlos</b>"
-    url: "/pages/trabalhos/"
+    url: "/jogos-digitais/trabalhos-de-jogos-digitais"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
     tags:
@@ -39,7 +40,7 @@ feature_row0-3:
     alt: "Lines of Fate"
     title: "Lines of Fate"
     excerpt: "É um jogo de aventura com elementos de mistério e drama que oferece uma experiência envolvente e emocionante aos jogadores que buscam explorar um universo ficcional cativante e intrigante. O jogo é baseado em um universo ficcional onde os personagens principais, Rosa e Bo, se encontram em uma jornada misteriosa e perigosa em busca de suas identidades e propósitos de vida. O jogo apresenta gráficos desenhados à mão e uma trilha sonora original que cria uma atmosfera envolvente e cativante. Os jogadores assumem o papel de Rosa e Bo, explorando ambientes intrigantes e resolvendo enigmas desafiadores enquanto desvendam a trama complexa e emotiva. O jogo destaca a qualidade da narrativa do jogo, que explora temas como identidade, destino e livre arbítrio, e a interação entre os personagens principais que se desenvolve ao longo da história. <b>Autor: Vários</b>"
-    url: "/pages/trabalhos/"
+    url: "/docs/lines-of-fate/"
     btn_class: "btn--primary"
     btn_label: "Saber mais"
     tags:
