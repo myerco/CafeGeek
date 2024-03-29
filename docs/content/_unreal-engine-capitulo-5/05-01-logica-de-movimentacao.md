@@ -118,7 +118,7 @@ Registramos os seguintes valores:
 
 - (1) Direita;
 
-**Infomração:** Para saber mais consulte o capítulo [Delta time e sistema de coordenadas](/pages/unreal-engine/delta-time-sistema-coordenadas).
+**Infomração:** Para saber mais consulte o capítulo [Delta time e sistema de coordenadas](/unreal-engine-capitulo-5/delta-time-e-sistema-de-coordenadas).
 {: .notice--info}
 
 {% include imagelocal.html

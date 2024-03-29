@@ -1,15 +1,11 @@
 ---
 title: Estruturas de arquivos
 excerpt: Como são as estruturas de arquivos na linguagem C++?
-permalink: /cpp/estruturas-de-arquivos
+permalink: /unreal-engine-capitulo-8/estruturas-de-arquivos
 last_modified_at: 2023-03-27T08:48:05-04:00
-toc: true  
-sidebar:
-    nav: dev_unreal_8  
-categories:
-  - c++
+order: 802
 tags:
-  - cpp
+  - Unreal Engine
   - C++ 
   - Estruturas de arquivos
 ---
@@ -37,7 +33,7 @@ c:\arquivo.exe
 
 ## 2. Usando o Microsoft Visual Studio com C++
 
-Instale o Visual Studio e escolha os pacotes necessários para usar a linguagem C++. [Link](https://cafegeek.eti.br/pages/unreal-engine/instalacao-configuracao#21-instalando-o-visual-studio-para-programar-com-c)
+Instale o Visual Studio e escolha os pacotes necessários para usar a linguagem C++. [Link](/unreal-engine-capitulo-1/instalacao-e-configuracao#3-instalando-o-visual-studio-para-programar-com-c)
 
 Após a instalação vamos criar um projeto teste seguinte os passos:
 

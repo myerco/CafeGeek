@@ -1,23 +1,15 @@
 ---
 title: Controle de versão
-excerpt: Neste capítulo vamos instalar o **Git Client** com o **GitHub Desktop**.
+excerpt: Aprenda como gerenciar o seu código C++ usando Git.
 permalink: /unreal-engine-capitulo-8/controle-de-versao
 date: 2024-03-01T08:48:05-04:00
-show_date: true
-read_time: true
 last_modified_at: 2023-03-28T08:48:05-04:00
-layout: single
 order: 801
-sidebar:
-    nav: dev_unreal_8
-toc: true  
-categories:
-  - Unreal Engine
 tags:
-  - controle de versão
-  - git
+  - Controle de versão
+  - Git
 ---
-
+s
 ## 1. Controle de Versão
 
 {% include imagelocal.html

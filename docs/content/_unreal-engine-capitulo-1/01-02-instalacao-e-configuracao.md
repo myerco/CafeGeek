@@ -15,12 +15,12 @@ tags:
 
 O **Unreal Engine** é um [Framework](https://pt.wikipedia.org/wiki/Framework) de desenvolvimento que incorpora vários editores e componentes para agilizar a construção de jogos e também um ambiente visual de programação abstraindo a lógica de programação.
 
-O **Unreal Engine** utiliza a linguagem C++ e um ambiente de programação visual denominado *Blueprint*, para que possamos habilitar a programação em linguagem **C++** é necessário instalar o **Visual Studio** ou **Visual Code** e baixar os pacotes de desenvolvimento em **C++**.
+O **Unreal Engine** emprega a linguagem C++ juntamente com um ambiente de programação visual chamado *Blueprint*. Para habilitar a programação em C++, é imprescindível instalar o Visual Studio ou Visual Code, e também fazer o download dos pacotes de desenvolvimento em C++.
 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-control-version.webp"
     alt="Figura: Gerenciamento de versões."
-    caption="Inicializador da Epic Games > Versões Instaladas, Lista de versões instaladas do Unreal Engine."
+    caption="Inicializador da Epic Games."
 %}
 
 Para facilitar a instalação e atualização do ambiente de desenvolvimento dos projetos, a **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **Inicializador da Epic Games** responsável por:
@@ -45,7 +45,7 @@ Para instalar o Unreal Engine siga os seguintes passos:
 
 1. Instale o **Unreal Engine** utilizando o menu `Unreal Engine` > `Biblioteca`.
 
-### 2.1. Instalando o Visual Studio para programar com C++
+## 3. Instalando o Visual Studio para programar com C++
 
 Para instalar  os pacotes de desenvolvimento e o Visual Studio para programação com C++ baixe o Visual Studio em : [Download Visual Studio](https://visualstudio.microsoft.com/pt-br/?rr=https%3A%2F%2Fwww.google.com%2F).
 
@@ -67,14 +67,14 @@ Depois de instalar o Visual Studio é necessário selecionar os seguintes pacote
 
 - Desenvolvimento para Desktop com C++.
 
-**Por que instalar o pacote Desktop com C++ ?** Porque muitas vezes é necessário testar uma funcionalidade ou mesmo testar um conceito da linguagem e ter o compilador disponível é uma mão na roda.
+**Por que instalar o pacote Desktop com C++ ?** Porque frequentemente é necessário testar funcionalidades ou mesmo explorar conceitos da linguagem. Ter o compilador disponível é extremamente útil nessas situações.
 {: .notice--info}
 
-## 3. Criando um projeto para jogos no Unreal Engine
+## 4. Criando um projeto para jogos no Unreal Engine
 
 Nesta seção vamos criar um projeto para jogos utilizando **C++**, pois, irá ajudar na compreensão da estrutura de pastas e arquivos do **Unreal Engine**. O nome do projeto será ProjetoAula e o usaremos em vários capítulos.
 
-### 3.1. Criando um projeto no Unreal Engine 4.X
+### 4.1. Criando um projeto no Unreal Engine 4.27
 
 Para construção do projeto podemos clicar no versão disponível na janela do inicializador ou na opção **Inicializar** no campo superior direito, após a inicialização da **Unreal** é necessário selecionar o tipo de projeto para que a *Engine* configure alguns parâmetros iniciais.
 
@@ -84,7 +84,7 @@ Para construção do projeto podemos clicar no versão disponível na janela do 
     caption="Selecione a opção Games para construção do projeto."
 %}
 
-#### 3.1.1. Escolhendo o Template
+#### 4.1.1. Escolhendo o Template
 
 Para este projeto vamos escolher o `template blank`, modelo vazio, significa que não vamos instalar objetos e recursos adicionais no projeto, pois, vamos realizar essa tarefa posteriormente para que possamos entender a estrutura do projeto.
 
@@ -97,7 +97,7 @@ Para este projeto vamos escolher o `template blank`, modelo vazio, significa que
 **Templates:** São modelos com recursos disponíveis para cada tipo de jogo escolhido.
 {: .notice--info}
 
-#### 3.1.2. Configuração inicial do projeto
+#### 4.1.2. Configuração inicial do projeto
 
 Em configuração de projeto escolha **C++** e `No Starter Content`, esta opção não vai instalar o pacote padrão de *assets* da **Epic Games** pois agora não é necessário, em seguida escolha uma pasta onde o projeto deverá ser instalado em `Select a Location for project to be stored`.
 
@@ -107,7 +107,7 @@ Em configuração de projeto escolha **C++** e `No Starter Content`, esta opçã
     caption="Configurando os parâmetros do projeto."
 %}
 
-#### 3.1.3. Tela inicial do Unreal Engine
+#### 4.1.3. Tela inicial do Unreal Engine
 
 Quando todos os passos anteriores forem concluídos corretamente a tela inicial deve aparecer.  
 
@@ -117,7 +117,7 @@ Quando todos os passos anteriores forem concluídos corretamente a tela inicial 
     caption="Ambiente de desenvolvimento integrado com editor visual de cena, paletas de objetos e suas propriedades."
 %}
 
-### 3.2. Iniciando um projeto no Unreal Engine 5
+### 4.2. Iniciando um projeto no Unreal Engine 5
 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-5-select-new-project.webp"
@@ -131,7 +131,7 @@ Quando todos os passos anteriores forem concluídos corretamente a tela inicial 
     caption="Paleta de comandos com ícones menores o novo navegador de conteúdo (Content Drawer)."
 %}
 
-## 4. Configurando o editor de código
+## 5. Configurando o editor de código
 
 Para programar utilizando **C++** no Unreal devemos configurar um editor de código para ser responsável pela compilação, organização e edição da linguagem. A configuração esta em :
 
@@ -143,5 +143,5 @@ Para programar utilizando **C++** no Unreal devemos configurar um editor de cód
     caption="Em Source Code Editor escolha o editor da sua preferência."
 %}
 
-**Qual editor eu escolho, Visual Code ou Visual Studio?**  Os dois são ótimos editores de código mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras linguagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
+**Qual editor eu escolho, Visual Code ou Visual Studio?**  Os dois são ótimos editores de código, mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras linguagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
 {: .notice--info}

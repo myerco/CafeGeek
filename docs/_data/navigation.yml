@@ -13,15 +13,15 @@ main:
 
 dev_game:
   - title: Unreal Engine
-    url: /pages/unreal-engine/introducao  
+    url: /unreal-engine/
   - title: Modelagem 3D
     url: /pages/modelagem3d/introducao
   - title: A Jogatina das Décadas
-    url: /pages/a-jogatina-das-decadas/a-jogatina-das-decadas
+    url: /a-jogatina-das-decadas/
   - title: Me conta uma história
-    url: /pages/me-conta-uma-historia/me-conta-uma-historia
+    url: /me-conta-uma-historia/
   - title: Computação gráfica
-    url: /pages/computacao-grafica/introducao      
+    url: /computacao-grafica/
   - title: O curso de jogos digitais
     url: /about/jogos-digitais
   - title: Trabalhos
@@ -134,13 +134,13 @@ dev_unreal_8:
       - title: Controle de versão
         url: /unreal-engine-capitulo-8/controle-versao   
       - title: Estruturas de Arquivos
-        url:  /pages/cpp/estruturas-de-arquivos
+        url:  /unreal-engine-capitulo-8/estruturas-de-arquivos
       - title: Funções e Macros
-        url:  /pages/cpp/funcoes-e-macros
+        url:  /unreal-engine-capitulo-8/funcoes-e-macros
       - title: Variáveis e Ponteiros
-        url:  /pages/cpp/variaveis-e-ponteiros
+        url:  /unreal-engine-capitulo-8/variaveis-e-ponteiros
       - title: Classes
-        url:  /pages/cpp/classes
+        url:  /unreal-engine-capitulo-8/classes
       - title: Unreal Engine e C++
         url: /unreal-engine-capitulo-8/programacao-c-no-unreal-engine
 
@@ -150,17 +150,15 @@ dev_computacao:
     url: /computacao-grafica/
     children:
       - title: Introdução
-        url: /pages/computacao-grafica/introducao
+        url: /computacao-grafica/introducao-a-computacao-grafica
       - title: Estrutura de objetos 3D
-        url: /pages/computacao-grafica/estruturas-objetos3d      
+        url: /computacao-grafica/estruturas-objetos3d      
       - title: Renderização 
-        url:  /pages/computacao-grafica/renderizacao
-  - title: RENDERIZAÇÃO COM UNREAL ENGINE                    
-    children:  
-      - title: Passos da renderização
-        url:  /pages/computacao-grafica/renderizacao-unreal    
+        url:  /computacao-grafica/renderizacao
+      - title: Renderização de objetos com Unreal Engine
+        url:  /computacao-grafica/renderizacao-de-objetos-com-unreal-engine
       - title: Visibilidade e Oclusão
-        url:  /pages/computacao-grafica/visibilidade-oclusao            
+        url:  /computacao-grafica/visibilidade-oclusao            
  
 
 dev_me_conta:
@@ -197,19 +195,19 @@ dev_modelagem3d:
   - title: MODELAGEM 3D
     children:
       - title: Introdução
-        url: /pages/modelagem3d/introducao
+        url: /modelagem-3d/introducao-a-modelagem-3d
       - title: Objetos Poligonais
-        url: /pages/modelagem3d/objetos-poligonais
+        url: /modelagem-3d/objetos-poligonais
       - title: Objetos NURBS
-        url: /pages/modelagem3d/objetos-nurbs
+        url: /modelagem-3d/objetos-nurbs
       - title: Materiais
-        url: /pages/modelagem3d/materiais
+        url: /modelagem-3d/materiais
 
 banco_dados:
   - title: MODELO
     children:
       - title: A taberna do Pônei Saltitante
-        url: /pages/banco-dados    
+        url: /a-taberna-do-ponei-saltitante/   
 
 
 planejamento:

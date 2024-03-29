@@ -1,6 +1,6 @@
 ---
-title: Acompanhamento
-excerpt: Acompanhamento
+title: Projeto e entregas
+excerpt: Projeto e entregas
 permalink: /pages/planejamento/entrega
 last_modified_at: 2023-08-26T08:48:05-04:00
 toc: true

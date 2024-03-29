@@ -1,13 +1,10 @@
 ---
 title: Materiais
 excerpt: Apresentação de materiais
-permalink: /pages/modelagem3d/materiais
-last_modified_at: 2023-03-27T08:48:05-04:00
-toc: true
-sidebar:
-    nav: dev_modelagem3d  
-categories:
-  - Modelagem 3D
+permalink: /modelagem-3d/materiais
+date: 2024-03-01T08:48:05-04:00
+last_modified_at: 2023-03-28T08:48:05-04:00
+order: 103
 tags:
   - materiais
 ---

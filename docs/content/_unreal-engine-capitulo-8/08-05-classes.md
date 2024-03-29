@@ -1,13 +1,9 @@
 ---
 title: Classes
 excerpt: Classes de Objetos na linguagem C++
-permalink: /cpp/classes
+permalink: /unreal-engine-capitulo-8/classes
 last_modified_at: 2023-03-27T08:48:05-04:00
-toc: true  
-sidebar:
-    nav: dev_unreal_8  
-categories:
-  - c++
+order: 805
 tags:
   - cpp
   - C++

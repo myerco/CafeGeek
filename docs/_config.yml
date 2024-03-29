@@ -20,7 +20,7 @@ title                    : Cafegeek
 title_separator          : "|"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Cafegeek"
-description              : "An amazing website."
+description              : "Site pessoal."
 url                      : https://cafegeek.eti.br/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -168,7 +168,6 @@ include:
   - _me-conta-uma-historia
   - _unreal-engine  
   - _computacao-grafica
-  - _cpp
   - _a-taberna-do-ponei-saltitante
 exclude:
   - "*.sublime-project"
@@ -297,15 +296,9 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
-  recipes:
-    output: true
-    permalink: /:collection/:path/
   unreal-engine-capitulo-1:
     output: true
     permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/    
   jogatina:
     output: true
     sort_by: order
@@ -342,12 +335,12 @@ collections:
   computacao-grafica:
     output: true
     permalink: /:collection/:path/        
-  cpp:
-    output: true
-    permalink: /:collection/:path/            
   a-taberna-do-ponei-saltitante:    
     output: true
     permalink: /:collection/:path/              
+  modelagem-3d:    
+    output: true
+    permalink: /:collection/:path/                  
 
 # Defaults
 defaults:
@@ -384,32 +377,6 @@ defaults:
       author_profile: true
       share: false
       comments: false
-  # _recipes
-  - scope:
-      path: ""
-      type: recipes
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _pets
-  - scope:
-      path: ""
-      type: pets
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _portfolio
-  - scope:
-      path: "_portfolio"
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true 
   # Jogatina           
   - scope:
       path: "_jogatina"
@@ -420,6 +387,7 @@ defaults:
       author_profile: false
       share: true
       show_date: true
+      sort_by: order            
       category: "A jogatina das décadas"                  
       toc: true
       sidebar:
@@ -434,6 +402,7 @@ defaults:
       author_profile: false
       share: true      
       show_date: true
+      sort_by: order            
       category: "Me conta uma história"      
       toc: true
       sidebar:
@@ -449,6 +418,7 @@ defaults:
       share: true 
       show_date: true
       toc: true   
+      sort_by: order            
       category: "Unreal Engine - Capítulo 1"
       sidebar:
         nav: dev_unreal_1
@@ -463,6 +433,7 @@ defaults:
       share: true 
       show_date: true
       toc: true      
+      sort_by: order            
       category: "Unreal Engine - Capítulo 2"
       sidebar:
         nav: dev_unreal_2      
@@ -477,6 +448,7 @@ defaults:
       share: true 
       show_date: true
       toc: true
+      sort_by: order            
       category: "Unreal Engine - Capítulo 3"
       sidebar:
         nav: dev_unreal_3      
@@ -491,6 +463,7 @@ defaults:
       share: true  
       show_date: true
       toc: true      
+      sort_by: order            
       category: "Unreal Engine - Capítulo 4"
       sidebar:
         nav: dev_unreal_4
@@ -505,6 +478,7 @@ defaults:
       share: true
       show_date: true
       toc: true    
+      sort_by: order            
       category: "Unreal Engine - Capítulo 5"
       sidebar:
         nav: dev_unreal_5  
@@ -519,6 +493,7 @@ defaults:
       share: true  
       show_date: true
       toc: true   
+      sort_by: order            
       category: "Unreal Engine - Capítulo 6"
       sidebar:
         nav: dev_unreal_6   
@@ -533,6 +508,7 @@ defaults:
       share: true 
       show_date: true
       toc: true      
+      sort_by: order            
       category: "Unreal Engine - Capítulo 7"
       sidebar:
         nav: dev_unreal_7
@@ -547,6 +523,7 @@ defaults:
       share: true 
       show_date: true
       toc: true  
+      sort_by: order      
       category: "Unreal Engine - Capítulo 8"
       sidebar:
         nav: dev_unreal_8          
@@ -572,20 +549,10 @@ defaults:
       share: true 
       show_date: true
       toc: true 
+      sort_by: order      
       category: "Computação gráfica"
       sidebar:
         nav: dev_computacao                     
-# C++
-  - scope:
-      path: "_cpp"
-      type: cpp
-    values:
-      layout: single
-      read_time: true      
-      author_profile: false
-      share: true      
-      show_date: true  
-      toc: true      
 # A taberna do pônei saltitante
   - scope:
       path: "_a-taberna-do-ponei-saltitante"
@@ -596,5 +563,25 @@ defaults:
       author_profile: false
       share: true 
       show_date: true
-      toc: true                                   
+      toc: true 
+      sort_by: order      
+      category: "A taberna do pônei saltitante"                                
+      sidebar:
+        nav: banco_dados
+# Modelagem 3D
+  - scope:
+      path: "_modelagem-3d"
+      type: modelagem-3d
+    values:
+      layout: single
+      read_time: true      
+      author_profile: false
+      share: true 
+      show_date: true
+      toc: true 
+      sort_by: order      
+      category: "Modelagem 3D"                                
+      sidebar:
+        nav: dev_modelagem3d
+
 
