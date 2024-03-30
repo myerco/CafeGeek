@@ -18,7 +18,7 @@ tags:
     alt="Figura: Unreal Engine com Blueprint"
 %}
 
-O sistema *Blueprints Visual Scripting* no **Unreal Engine** é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nós para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos na *engine* .
+O sistema *Blueprints Visual Scripting* no Unreal Engine é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nós para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos na *engine* .
 
 {% include imagelocal.html
     src="unreal/actor/uml-jogos.webp"
@@ -28,7 +28,7 @@ O sistema *Blueprints Visual Scripting* no **Unreal Engine** é um sistema compl
 
 **Blueprints** focam em ser acessíveis, versáteis para qualquer membro do projeto e isso simplifica tarefas para programadores e engenheiros de projeto, o que facilita entender, interagir e construir.  
 
-Para que o **Unreal Engine** possa construir os nós gráficos que representam a instruções de programação **C++** é importante entender como é a hierarquia de elementos que compõem o projeto, segue abaixo a representação baseado no arquivo de referência no seguinte em [unreal_schematics](https://github.com/drstreit/unreal_schematics "https://github.com/drstreit/unreal_schematics").
+Para que o Unreal Engine possa construir os nós gráficos que representam a instruções de programação **C++** é importante entender como é a hierarquia de elementos que compõem o projeto, segue abaixo a representação baseado no arquivo de referência no seguinte em [unreal_schematics](https://github.com/drstreit/unreal_schematics "https://github.com/drstreit/unreal_schematics").
 
 ```bash
 └── C++  
@@ -59,12 +59,12 @@ Para que o **Unreal Engine** possa construir os nós gráficos que representam a
     └── VM                              # Executado em uma máquina virtual
 ```
 
-**Nativização:** A nativização é uma funcionalidade relativamente nova no **Unreal Engine**, que permite aos desenvolvedores converter suas classes criadas em **Blueprint** para código nativo **C++** no momento em que é construído o pacote final do jogo. Isso faz com que seja possível aliar a facilidade de prototipação dos **Blueprints** ao desempenho do **C++**, acelerando o processo de desenvolvimento e também reduzindo a possibilidade de erros na programação, levando em consideração que ao desenvolver em **Blueprint** todas as entradas e saídas de dados, assim como o fluxo das operações são verificados pela máquina virtual enquanto os testes estão sendo realizados, isso permite garantir que tudo funcione conforme o esperado, ou na pior das hipóteses, alerte ao desenvolvedor caso algo não saia como o esperado, por meio de mensagens intuitivas e claras.
+**Nativização:** A nativização é uma funcionalidade relativamente nova no Unreal Engine, que permite aos desenvolvedores converter suas classes criadas em Blueprint para código nativo **C++** no momento em que é construído o pacote final do jogo. Isso faz com que seja possível aliar a facilidade de prototipação dos **Blueprints** ao desempenho do **C++**, acelerando o processo de desenvolvimento e também reduzindo a possibilidade de erros na programação, levando em consideração que ao desenvolver em Blueprint todas as entradas e saídas de dados, assim como o fluxo das operações são verificados pela máquina virtual enquanto os testes estão sendo realizados, isso permite garantir que tudo funcione conforme o esperado, ou na pior das hipóteses, alerte ao desenvolvedor caso algo não saia como o esperado, por meio de mensagens intuitivas e claras.
 {: .notice--info}
 
 ## 2. Trabalhando com Level ou níveis
 
-Todo os objetos que estão visíveis em um jogo estão armazenados em um *Level* ou mapa de jogo, o *Level* no **Unreal Engine** é composto por iluminação, objetos poligonais e personagens controlados pelos jogadores.
+Todo os objetos que estão visíveis em um jogo estão armazenados em um *Level* ou mapa de jogo, o *Level* no Unreal Engine é composto por iluminação, objetos poligonais e personagens controlados pelos jogadores.
 
 {% include image.html
     src="https://www.worldofleveldesign.com/images/tutorial-topics/cat-ue4-680x300.jpg"
@@ -91,13 +91,13 @@ Logo em seguida podemos definir um modelo pre-definido para auxiliar na constru�
     caption="Apresentando vários modelos prontos para servir como base."
 %}
 
-`Default`: Selecione para criar um novo `Level` com uma configuração básica que inclui um início de jogador, uma luz, uma cúpula do céu e outros vários atores que você precisa para um *Level* funcionar corretamente;
+- **Default** - Selecione para criar um novo `Level` com uma configuração básica que inclui um início de jogador, uma luz, uma cúpula do céu e outros vários atores que você precisa para um *Level* funcionar corretamente;
 
-`TimeofDay`: selecione para criar um novo `Level` com uma configuração que permite que você visualize as configurações da atmosfera da hora do dia em tempo real;
+- **TimeofDay** -  selecione para criar um novo `Level` com uma configuração que permite que você visualize as configurações da atmosfera da hora do dia em tempo real;
 
-`VR-Basic`: selecione para criar um novo `Level` com atores para interagir, projetado para guiá-lo no aprendizado dos controles do Editor de VR;
+- **VR-Basic** - selecione para criar um novo `Level` com atores para interagir, projetado para guiá-lo no aprendizado dos controles do Editor de VR;
 
-`Empty Level`: selecione para criar um novo `Level` completamente vazio.
+**Empty Level** - selecione para criar um novo `Level` completamente vazio.
 
 ### 2.2. Salvando um Level
 
@@ -121,7 +121,7 @@ Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
 
 ## 3. O que é Level Blueprint?  
 
-Um `Level Blueprint` é um tipo especializado de **Blueprint** que atua como um gráfico de evento global em todo o nível ou *Level*. Cada *Level* em seu projeto tem seu próprio `Level Blueprint` criado por padrão, que pode ser editado no *Unreal Editor*.
+Um `Level Blueprint` é um tipo especializado de Blueprint que atua como um gráfico de evento global em todo o nível ou *Level*. Cada *Level* em seu projeto tem seu próprio `Level Blueprint` criado por padrão, que pode ser editado no *Unreal Editor*.
 
 Para editar utilizamos a opção `Blueprints` > `Open Level Blueprint`.
 
@@ -141,9 +141,9 @@ Para entender como funciona a lógica do *Blueprint* vamos escrever uma mensagem
 
 Os nós utilizados são os seguintes:
 
-`BeginPlay`: Este evento é executado quando o *level* é carregado.
+- **BeginPlay** - Este evento é executado quando o *level* é carregado.
 
-`Print String`: É uma função que recebe como parâmetro um texto (*String*) e a escreve na tela.
+- **Print String** - É uma função que recebe como parâmetro um texto (*String*) e a escreve na tela.
 
 ### 3.1. Exemplo de BeginPlay e Tick no Level Blueprint
 
