@@ -153,3 +153,21 @@ Os nós utilizados são os seguintes:
     caption="BeginPlay é executado somente ao carregar o level, Tick é executado a cada renderização dos quadros na cena."
     ref="https://blueprintue.com/render/46vsgoyi/"
 %}
+
+### 3.2. Exemplo de BeginPlay com c++
+
+Para exemplificar como podemos escrever uma mensagem na interface apresentamos abaixo dois métodos:
+
+No Console (Log):
+
+```cpp
+UE_LOG(LogTemp, Warning, TEXT("Escreva aqui sua mensagem!"));
+UE_LOG(YourLog, Warning, TEXT("Esta é uma mensagem para você mesmo durante o tempo de execução!"));
+```
+
+Na tela (Screen)
+
+```cpp
+GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Escreva aqui sua mensagem!"));
+GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Valores de variáveis: x: %f, y: %f"), x, y));
+```

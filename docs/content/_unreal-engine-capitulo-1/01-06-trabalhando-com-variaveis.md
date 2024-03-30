@@ -16,7 +16,7 @@ tags:
 {% include imagelocal.html
     src="unreal/variaveis/unreal-engine-variables.webp"
     alt="Blueprint Variables"
-    caption=""
+    caption="Figura: Blueprint Variables"
 %}
 
 Variáveis são estruturas que são utilizadas para armazenar um valor de um determinado tipo na memória do computador.

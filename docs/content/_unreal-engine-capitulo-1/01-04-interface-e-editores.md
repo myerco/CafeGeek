@@ -159,7 +159,7 @@ Este exemplo mostra um painel de detalhes do Ator de malha estática do cubo. Co
 
 ## 8. Controle de transformação
 
-{% include gallery caption="Esses controles estão relacionados a Movimento, rotação e dimensionamento de atores nas perspectivas de visualização usando as ferramentas de transformação" %}
+{% include gallery caption="Esses controles estão relacionados a (W) - Movimento, (E) - Rotação e (R) - Dimensionamento de atores nas perspectivas de visualização usando as ferramentas de transformação" %}
 
 {% include figure image_path="/assets/images/unreal/interface-editores/10-le-trans-widget-icons.webp" alt="Widget icons" %}
 
