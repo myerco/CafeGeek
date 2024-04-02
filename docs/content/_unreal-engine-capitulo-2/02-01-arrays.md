@@ -3,16 +3,8 @@ title: Arrays
 excerpt: Neste capítulo serão descritas as variáveis do tipo Array.
 permalink: /unreal-engine-capitulo-2/arrays
 date: 2024-03-01T08:48:05-04:00
-show_date: true
-read_time: true
 last_modified_at: 2023-03-28T08:48:05-04:00
-layout: single
 order: 201
-sidebar:
-    nav: dev_unreal_2
-toc: true  
-categories:
-  - Unreal Engine
 tags:
   - Blueprint
 ---

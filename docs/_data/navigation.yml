@@ -45,11 +45,6 @@ dev_unreal_1:
         url: /unreal-engine-capitulo-1/criando-seu-primeiro-blueprint
       - title: Trabalhando com variáveis
         url: /unreal-engine-capitulo-1/trabalhando-com-variaveis        
-      - title: "Trabalho - Parte 1"
-        url: /unreal-engine-capitulo-1/      
-        children:    
-          title: Parte 1
-          url: /unreal-engine-capitulo-1/trabalhando-com-variaveis          
       - title: Atores e seus componentes
         url: /unreal-engine-capitulo-1/atores-e-seus-componentes
       - title: Actor, Pawn e Character 
