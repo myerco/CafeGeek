@@ -128,7 +128,7 @@ A barra de ferramentas de fundo contém atalhos para a funcionalidade `Command C
 
 {% include figure image_path="/assets/images/unreal/interface-editores/bottom-toolbar.webp" alt="Bottom Toolbar"  %}
 
--**Output Log** - Ferramenta de depuração que imprime informações úteis enquanto seu aplicativo está em execução.
+- **Output Log** - Ferramenta de depuração que imprime informações úteis enquanto seu aplicativo está em execução.
 
 - **Command Console** - Comporta-se como qualquer outra interface de linha de comando: digite comandos do console para acionar comportamentos específicos do editor.
 
