@@ -75,11 +75,17 @@ Todo os objetos que estão visíveis em um jogo estão armazenados em um *Level*
 
 Para criar um *level* utilizamos o menu principal `File` > `New Level`.
 
-![image-center](/assets/images/unreal/actor/unreal-engine-new-level.webp){: .align-center}
+{% include imagelocal.html
+    src="unreal/actor/unreal-engine-new-level.webp"
+    alt="Figura: New Level."
+%}
 
 Logo em seguida podemos definir um modelo pre-definido para auxiliar na construção do mapa.
 
-![image-center](/assets/images/unreal/actor/unreal-engine-new-level-template.webp){: .align-center}
+{% include imagelocal.html
+    src="unreal/actor/unreal-engine-new-level-template.webp"
+    alt="Figura: New Level."
+%}
 
 - **Default** - Selecione para criar um novo `Level` com uma configuração básica que inclui um início de jogador, uma luz, uma cúpula do céu e outros vários atores que você precisa para um *Level* funcionar corretamente;
 
@@ -93,13 +99,19 @@ Logo em seguida podemos definir um modelo pre-definido para auxiliar na constru�
 
 Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
 
-![image-center](/assets/images/unreal/actor/unreal-engine-save-level.webp){: .align-center}
+{% include imagelocal.html
+    src="unreal/actor/actor/unreal-engine-save-level.webp"
+    alt="Figura: Save Current."
+%}
 
 ### 2.3. Carregando um Level
 
 É possível abrir um  *Level* utilizando `File` > `Open Level`.
 
-![image-center](/assets/images/unreal/actor/unreal-engine-open-level.webp){: .align-center}
+{% include imagelocal.html
+    src="unreal/actor/unreal-engine-open-level.webp"
+    alt="Figura: Open Level."
+%}
 
 ## 3. O que é Level Blueprint?  
 
@@ -110,16 +122,18 @@ Para editar utilizamos a opção `Blueprints` > `Open Level Blueprint`.
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-open-level-blueprint.webp"
     alt="Figura:  Open Level Blueprint."
-    caption="O Level Blueprint contém a lógica que controla todo o mapa."
 %}
+
+O Level Blueprint contém a lógica que controla todo o mapa.
 
 Para entender como funciona a lógica do *Blueprint* vamos escrever uma mensagem no `ViewPort` utilizando o `Level Blueprint` quando o *level* iniciar utilizaremos o evento `BeginPlay` e conectaremos o nó `Print String` para escrever uma mensagem na tela.
 
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-blueprint-beginplay-printstring.webp"
     alt="Figura: Iniciando o level e escrevendo uma mensagem na tela."
-    caption="O nó BeginPlay é executado quando o level é carregado e o nó associado, nó PrintString, e executado."
 %}
+
+O nó BeginPlay é executado quando o level é carregado e o nó associado, nó PrintString, e executado em seguida.
 
 Os nós utilizados são os seguintes:
 
