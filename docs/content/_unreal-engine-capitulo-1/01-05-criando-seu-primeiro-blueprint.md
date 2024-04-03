@@ -20,7 +20,7 @@ tags:
 
 O sistema *Blueprints Visual Scripting* no Unreal Engine é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nós para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos na *engine* .
 
-![Figura: Exemplo do conceito de objetos na programação](/assets/images/unreal/actor/uml-jogos.webp)
+![Figura: Exemplo do conceito de objetos na programação](/assets/images/unreal/actor/uml-jogos.webp){: .align-center}
 
 No exemplo acima visualizamos uma classe que pode representar um objeto do tipo gato, com seus atributos e ações.
 
@@ -75,19 +75,11 @@ Todo os objetos que estão visíveis em um jogo estão armazenados em um *Level*
 
 Para criar um *level* utilizamos o menu principal `File` > `New Level`.
 
-{% include imagelocal.html
-    src="unreal/actor/unreal-engine-new-level.webp"
-    alt="Figura: New Level."
-    caption="Utilizando o menu podemos criar um novo level ou mapa."
-%}
+![image-center](/assets/images/unreal/actor/unreal-engine-new-level.webp){: .align-center}
 
 Logo em seguida podemos definir um modelo pre-definido para auxiliar na construção do mapa.
 
-{% include imagelocal.html
-    src="unreal/actor/unreal-engine-new-level-template.webp"
-    alt="Figura: New Level."
-    caption="Apresentando vários modelos prontos para servir como base."
-%}
+![image-center](/assets/images/unreal/actor/unreal-engine-new-level-template.webp){: .align-center}
 
 - **Default** - Selecione para criar um novo `Level` com uma configuração básica que inclui um início de jogador, uma luz, uma cúpula do céu e outros vários atores que você precisa para um *Level* funcionar corretamente;
 
@@ -101,21 +93,13 @@ Logo em seguida podemos definir um modelo pre-definido para auxiliar na constru�
 
 Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
 
-{% include imagelocal.html
-    src="unreal/actor/unreal-engine-save-level.webp"
-    alt="Figura: Save Current."
-    caption="Salva o level aberto."
-%}
+![image-center](/assets/images/unreal/actor/unreal-engine-save-level.webp){: .align-center}
 
 ### 2.3. Carregando um Level
 
 É possível abrir um  *Level* utilizando `File` > `Open Level`.
 
-{% include imagelocal.html
-    src="unreal/actor/unreal-engine-open-level.webp"
-    alt="Figura: Open Level."
-    caption="Abre um level."
-%}
+![image-center](/assets/images/unreal/actor/unreal-engine-open-level.webp){: .align-center}
 
 ## 3. O que é Level Blueprint?  
 
