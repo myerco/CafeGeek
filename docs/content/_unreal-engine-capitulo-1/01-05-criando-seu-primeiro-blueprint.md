@@ -20,7 +20,7 @@ tags:
 
 O sistema *Blueprints Visual Scripting* no Unreal Engine é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nós para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos na *engine* .
 
-![Figura: Exemplo do conceito de objetos na programação](/assets/images/unreal/actor/uml-jogos.webp){: .align-center}
+![Figura: Exemplo do conceito de objetos na programação](/assets/images/unreal/actor/uml-jogos.webp)
 
 No exemplo acima visualizamos uma classe que pode representar um objeto do tipo gato, com seus atributos e ações.
 
