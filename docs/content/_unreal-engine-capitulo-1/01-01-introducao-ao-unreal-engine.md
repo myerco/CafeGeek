@@ -132,7 +132,7 @@ Existem aplicações que auxiliam na produção de programas de computador ou jo
 
 ## 7. O que é uma Engine e Framework?
 
-{% include figure image_path="https://developerhouse.com/wp-content/uploads/2020/10/game-engines-and-framework.jpg" alt="Game Engine VS Game Framework" caption="**Figura:** Game Engine VS Game Framework." %}
+{% include figure image_path="https://developerhouse.com/wp-content/uploads/2020/10/game-engines-and-framework.jpg" alt="Game Engine VS Game Framework"  %}
 
 Antes que os motores de jogo viessem à existência, os jogos eram escritos como uma única entidade; o que significa que, se você quisesse construir outro jogo, você tinha que reescrever códigos quase inteiros novamente. Havia muitas outras preocupações também ao escrever jogos. Por vezes, os jogos foram concebidos de baixo para cima para utilizar o hardware de vídeo de forma otimizada...[REF](https://developerhouse.com/game-engine-vs-game-framework)
 

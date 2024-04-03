@@ -51,16 +51,16 @@ Para instalar  os pacotes de desenvolvimento e o Visual Studio para programaçã
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-visual-studio-installer.webp"
     alt="Figura: Visual Studio Installer - Instalação."
-    caption="Permite instalar e modificar diversas versões do Visual Studio."
-%}
+ %}
 
 Depois de instalar o Visual Studio é necessário selecionar os seguintes pacotes de programação:
 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-visual-studio-update.webp"
     alt="Figura: Visual Studio Installer - Modificar."
-    caption="Usando o Visual Studio Installer podemos instalar ou remover (modificar), os pacotes necessários para o desenvolvimento de jogos."
 %}
+
+Usando o Visual Studio Installer podemos instalar ou remover (modificar), os pacotes necessários para o desenvolvimento de jogos.
 
 - Desenvolvimento de jogos com C++;
 
@@ -80,8 +80,9 @@ Para construção do projeto podemos clicar no versão disponível na janela do 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-select-new-project.webp"
     alt="Figura: Unreal 4 - Select or create New Project, Games."
-    caption="Selecione a opção Games para construção do projeto."
 %}
+
+Selecione a opção Games para construção do projeto.
 
 #### 4.1.1. Escolhendo o Template
 
@@ -103,17 +104,15 @@ Em configuração de projeto escolha **C++** e `No Starter Content`, esta opçã
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-project-settings.webp"
     alt="Figura: Unreal engine project Settings."
-    caption="Configurando os parâmetros do projeto."
 %}
 
 #### 4.1.3. Tela inicial do Unreal Engine
 
-Quando todos os passos anteriores forem concluídos corretamente a tela inicial deve aparecer.  
+Quando todos os passos anteriores forem concluídos corretamente a tela inicial deve aparecer o ambiente de desenvolvimento integrado com editor visual de cena, paletas de objetos e suas propriedades  
 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-tela-inicial.webp"
     alt="Figura: Unreal Engine tela inicial."
-    caption="Ambiente de desenvolvimento integrado com editor visual de cena, paletas de objetos e suas propriedades."
 %}
 
 ### 4.2. Iniciando um projeto no Unreal Engine 5
@@ -121,14 +120,16 @@ Quando todos os passos anteriores forem concluídos corretamente a tela inicial 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-5-select-new-project.webp"
     alt="Figura: Unreal 5 - Select or create New Project, Games"
-    caption="A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o mesmo dos passos anteriores."
 %}
+
+A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o mesmo dos passos anteriores.
 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-home-screen.webp"
     alt="Figura: Unreal 5 - Tela inicial."
-    caption="Paleta de comandos com ícones menores o novo navegador de conteúdo (Content Drawer)."
 %}
+
+Paleta de comandos com ícones menores o novo navegador de conteúdo (Content Drawer).
 
 ## 5. Configurando o editor de código
 
@@ -139,7 +140,6 @@ Para programar utilizando **C++** no Unreal devemos configurar um editor de cód
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-editor-codigo.webp"
     alt="Figura: Editor Preferences > General > Source Code."
-    caption="Em Source Code Editor escolha o editor da sua preferência."
 %}
 
 **Qual editor eu escolho, Visual Code ou Visual Studio?**  Os dois são ótimos editores de código, mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras linguagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.

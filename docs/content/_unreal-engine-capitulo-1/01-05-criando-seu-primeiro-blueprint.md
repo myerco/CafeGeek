@@ -124,9 +124,10 @@ Para editar utilizamos a opção `Blueprints` > `Open Level Blueprint`.
     alt="Figura:  Open Level Blueprint."
 %}
 
-O Level Blueprint contém a lógica que controla todo o mapa.
+**Informação:** O Level Blueprint contém a lógica que controla todo o mapa.
+{: .notice--info}
 
-Para entender como funciona a lógica do *Blueprint* vamos escrever uma mensagem no `ViewPort` utilizando o `Level Blueprint` quando o *level* iniciar utilizaremos o evento `BeginPlay` e conectaremos o nó `Print String` para escrever uma mensagem na tela.
+Para entender como funciona a lógica do *Blueprint* vamos escrever uma mensagem no `ViewPort` utilizando o `Level Blueprint`. Quando o *level* iniciar utilizaremos o evento `BeginPlay` e conectaremos o nó `Print String` para escrever uma mensagem na tela.
 
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-blueprint-beginplay-printstring.webp"

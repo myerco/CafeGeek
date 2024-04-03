@@ -57,7 +57,6 @@ Conjunto de símbolos com valores de combinação lógica, quem em determinadas 
 {% include image.html
     src="https://s1.static.brasilescola.uol.com.br/galeria/images/85b29f73c4b883f3b44b9e0596a2bdb0.jpg"
     alt="Figura: Voleibol."
-    caption="Brasil Escola."
 %}
 
 São fisicamente aplicados em determinado jogo.

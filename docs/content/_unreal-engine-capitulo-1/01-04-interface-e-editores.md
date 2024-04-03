@@ -118,7 +118,7 @@ A Viewport de nível geralmente pode exibir o conteúdo do nível de duas maneir
 
 O `Content Drawer` é uma janela do explorador de arquivos que exibe todos os ativos, blueprints e outros arquivos contidos em seu projeto. Você pode usá-lo para navegar pelo seu conteúdo, arrastar os ativos para o nível, migrar ativos entre projetos e muito mais.
 
-{% include figure image_path="/assets/images/unreal/interface-editores/ue5_1-content-browser.webp" alt="Content Browser window in Unreal Engine 5"  caption="Content Browser window in Unreal Engine 5." %}
+{% include figure image_path="/assets/images/unreal/interface-editores/ue5_1-content-browser.webp" alt="Content Browser window in Unreal Engine 5"   %}
 
 O botão`Content Drawer`, localizado no canto inferior esquerdo do Unreal Editor, abre uma instância especial do `Content Browse` que minimiza automaticamente quando ele perde o foco (ou seja, quando você clica para longe dele). Para mantê-lo aberto, clique no botão `Dock` no Layout no canto superior direito do `Content Drawser`. Isso cria uma nova instância do `Content Browse`, mas você ainda pode abrir um novo `Content Drawer`.
 
@@ -154,8 +154,9 @@ Você também pode usar o painel Outliner para:
 
 Quando você seleciona um Ator na Viewport de Nível, o painel Detalhes mostrará as configurações e propriedades que afetam o Ator selecionado. Por padrão, ele está localizado no lado direito da janela do Unreal Editor, sob o painel Esboço Mundial.
 
-{% include figure image_path="/assets/images/unreal/interface-editores/details-panel.webp" alt="Details Panel" caption="
-Este exemplo mostra um painel de detalhes do Ator de malha estática do cubo. Com o cubo Static Mesh selecionado, o Painel de detalhes aparece atracado no lado direito do Unreal Editor"  %}
+{% include figure image_path="/assets/images/unreal/interface-editores/details-panel.webp" alt="Details Panel"   %}
+
+O exemplo acima mostra um painel de detalhes do Ator de malha estática (Static Mesh Actor) do cubo. Com o cubo `Static Mesh` selecionado, o Painel de detalhes aparece atracado no lado direito do Unreal Editor.
 
 ## 8. Controle de transformação
 
@@ -184,6 +185,8 @@ A referência de movimentação do objeto, por exemplo quando a referência é d
 ## 11. Velocidade da Câmera
 
 {% include figure image_path="/assets/images/unreal/interface-editores/camera-speed.webp" alt="Bottom Toolbar"  %}
+
+É possível alterar a velocidade de movimentação da câmera.
 
 Outros controles.
 
@@ -214,6 +217,8 @@ Explicações para os modos de visualização disponíveis nas viewports.
 ## 13. Play e Simulate
 
 {% include figure image_path="/assets/images/unreal/interface-editores/01-play-in-editor.webp" alt="Play in Editor"  %}
+
+O comando Play executa o projeto e ainda possível escolher qual o modo de execução.
 
 {% include figure image_path="/assets/images/unreal/interface-editores/02-button-play-menu.webp" alt="Buttom Play"  %}
 

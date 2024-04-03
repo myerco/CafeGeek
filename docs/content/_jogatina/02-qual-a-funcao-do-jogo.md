@@ -103,7 +103,6 @@ A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo
 {% include imagelocal.html
     src="jogatina-das-decadas/musee_Rodin_1.webp"
     alt="Figura: The Thinker."
-    caption="Para pensar."
 %}
 
 O autor apresenta as suas interpretações de elementos presentes na nossa sociedade e os caracteriza como jogo na sua definição, devemos lembrar que o HUIZINGA utiliza e define jogo na Perspectiva do jogador e extrai classificações do objeto em estudo dentro de um tempo e realidade por conseguinte devemos não deveríamos considerar  a justiça como um jogo de ganhar e perder pois isso não melhora as grandes diferenças sociais na nossa sociedade.

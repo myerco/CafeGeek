@@ -225,9 +225,6 @@ Abaixo estão dez jogos com o que consideramos os melhores efeitos de iluminaç�
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/pt/b/be/Guitar_Hero_3_capa.png"
     alt="Figura: Guitar Hero III."
-    caption="Legends of Rock."
-    idref="WIKIPEDIA"
-    ref="https://pt.wikipedia.org/wiki/Guitar_Hero_III:_Legends_of_Rock"
 %}
 
 >O objetivo do jogador é sincronizar os botões correspondentes com as notas que deslizam pela tela, obtendo pontos no agregador.

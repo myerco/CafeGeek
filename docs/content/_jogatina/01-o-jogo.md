@@ -96,9 +96,6 @@ Em contrapartida devemos lembrar que o riso no filme O Nome da Rosa teve outra c
 {% include imagelocal.html
     src="jogatina-das-decadas/alien_isolation_1.webp"
     alt="Figura: Alien Isolation."
-    caption="O silêncio vale ouro"
-    idref="TECMUNDO"
-    ref="https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise"
 %}
 
 Tensão significa incerteza, acaso. Há um esforço para levar o jogo até ao desenlace, o jogador quer que
