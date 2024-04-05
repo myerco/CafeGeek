@@ -16,14 +16,6 @@ tags:
 Guerra... A guerra nunca muda. **Fallout**.
 {: .notice}
 
-{% include image.html
-    src="https://www.adrenaline.com.br/wp-content/plugins/seox-image-magick/imagick_convert.php?width=910&height=568&format=.jpg&quality=91&imagick=uploads.adrenaline.com.br/2023/12/Serie-de-Fallout-vai-ser-fiel-mas-vai-deixar-bugs-de-lado-912x569.jpg"
-    alt="Figura: Fallout"
-    caption="Série de Fallout vai ser fiel, mas vai deixar bugs de lado ."
-    idref="GUGELMIN, Felipe"
-    ref="https://www.adrenaline.com.br/games/serie-de-fallout-vai-ser-fiel-mas-vai-deixar-bugs-de-lado/"
-%}
-
 ## 1. Como são classificados os jogos?
 
 Podemos classificar os jogos para determinar ou mostrar a sua função dentro de um modelo de lazer ou recreação.
@@ -35,7 +27,7 @@ Consistem em uma superfície dividida em setores com peças móveis.
 {% include image.html
     src="https://www.infoescola.com/wp-content/uploads/2008/03/xadrez_255260497-1000x664.jpg"
     alt="Figura: Xadrez"
-    caption="Um dos jogos mais antigos da história humana."
+    caption="Xadrez - Um dos jogos mais antigos da história humana."
 %}
 
 - 2600 a.C. Mesopotâmia;
@@ -47,7 +39,7 @@ Consistem em uma superfície dividida em setores com peças móveis.
 {% include imagelocal.html
     src="jogatina-das-decadas/cartas-inter.webp"
     alt="Figura: Cartas <https://oestadoacre.com/2019/07/18/historia/>."
-    caption="Figura: A história das cartas: o jogo de baralho é mais antigo do que você imagina."
+    caption="A história das cartas: o jogo de baralho é mais antigo do que você imagina."
 %}
 
 Conjunto de símbolos com valores de combinação lógica, quem em determinadas regras, representam combinação para cada combinação empregada em uma jogada.
@@ -62,12 +54,6 @@ Conjunto de símbolos com valores de combinação lógica, quem em determinadas 
 São fisicamente aplicados em determinado jogo.
 
 ### 1.4. Infantis
-
-{% include image.html
-    src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_780,h_450/https://blog.elevaplataforma.com.br/wp-content/uploads/2019/12/original-cfd1c117a3b836f3f131e59095fc3154-780x450.jpg"
-    alt="Figura: Gamificação na educação."
-    caption="Como usá-la no processo pedagógico?."
-%}
 
 Brincadeiras físicas e mentais com visões educacionais, cujo objetivo é socializar e educar.
 
@@ -89,7 +75,6 @@ O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pess
 {% include image.html
     src="https://covildosjogos.com.br/wp-content/uploads/2020/06/f782e9b5-9331-47cb-83a0-838e7515eb14-768x1024.jpg"
     alt="Figura: Jogos de Cartas."
-    caption="Truco, Pôquer e Paciência."
 %}
 
 **Nota:** Representar um jogo depende não somente do entendimento conceitual da atividade, mas também da inclusão de elementos comuns que fazem do jogo algo especial.
@@ -115,7 +100,6 @@ Capacidade do jogador de se concentrar nos objetivos e ações principais.
 {% include image.html
     src="https://2.bp.blogspot.com/_cM2l6Y3Ulgg/Sfi6LBnLGoI/AAAAAAAABqo/dWz5kQT2qpg/s1600/sangueCorrompido.jpg"
     alt="Figura: Praga no jogo World of Warcraft ajuda a entender pandemia."
-    caption="Efeito do contágio dentro de um ambiente virtual."
 %}
 
 Capacidade dos jogadores realizarem ações participativas nos jogos.
@@ -135,7 +119,6 @@ São elementos importantes que geram oportunidades aos jogadores e trazem consig
 {% include image.html
     src="https://news.xbox.com/pt-br/wp-content/uploads/sites/8/2021/11/Hellblade_-Senuas-Sacrifice-2021-08-04-01-00-58.jpg"
     alt="Figura: Hellblade: Senua’s Sacrifice recebe aprimoramento para o PC."
-    caption="Não morra."
 %}
 
 Envolve aplicar características de realidade como morte, ferimentos, quedas e acidentes de forma lúdica, porém responsável.
@@ -145,7 +128,6 @@ Envolve aplicar características de realidade como morte, ferimentos, quedas e a
 {% include image.html
     src="https://jogazera.com.br/wp-content/uploads/2014/03/Dark-Souls-2-Review-770x433.jpg"
     alt="Figura: Review – Dark Souls 2."
-    caption="Desafios intensos."
 %}
 
 Regras definem o grau de desafio (Fácil, Médio, Difícil, Muito Difícil e Impossível).

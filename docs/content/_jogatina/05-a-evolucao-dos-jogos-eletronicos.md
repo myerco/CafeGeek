@@ -48,7 +48,6 @@ O Coleco Telstar foi outro destaque da primeira geração, produzido entre 1976 
 {% include image.html
     src="https://s2.glbimg.com/hmam5dqwykVbv8_R0ly4dDtaZG8=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/J/Q/QSQBQYTuWJL9U9qJKc9Q/2016-03-02-pong.jpg"
     alt="Figura: Conheça Pong."
-    caption="Figura: Conheça Pong, o primeiro videogame lucrativo da história - <https://www.techtudo.com.br/noticias/2016/03/conheca-pong-o-primeiro-videogame-lucrativo-da-historia.ghtml>."
 %}
 
 ## 2. Segunda geração (1978 - 1983)
@@ -58,7 +57,6 @@ Geração onde os consoles apresentavam processadores de 4 a 8 bit. Os jogos do 
 {% include image.html
     src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/5363_7D66C7F21A0BD4A2.jpg?w=876&h=484&crop=1"
     alt="Figura: Pac-Man."
-    caption="Figura: Pac-Man."
 %}
 
 ## 3. Terceira geração (1984 - 1990)
@@ -80,7 +78,6 @@ Jogos da Terceira Geração:
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Emacs_Tetris_vector_based_detail.svg/300px-Emacs_Tetris_vector_based_detail.svg.png"
     alt="Figura: Tetris."
-    caption="Figura: Tetris."
 %}
 
 ## 4. Quarta geração (1991 - 1999)
@@ -128,7 +125,6 @@ A quarta geração consolidou de vez a era dos 16 bits, com a evolução da Nint
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Tomb_Raider_-_The_Last_Revelation.png/220px-Tomb_Raider_-_The_Last_Revelation.png"
     alt="Figura: Tomb_Raider The_Last_Revelation."
-    caption="Figura: Tomb_Raider The Last Revelation."
 %}
 
 ## 5. Quinta Geração (2000 - Hoje)
@@ -139,7 +135,6 @@ Alguns exemplos de jogos dessas gerações são 007 Goldeneye, Super Mário 64, 
 {% include imagelocal.html
     src="jogatina-das-decadas/the-last-of-us-parte-ii-1591561975954_v2_1170x540.webp"
 alt="Figura: The Last of Us 2."
-    caption="Figura: The Last of Us 2."
 %}
 
 ## 6. Era dos Videogames
@@ -151,7 +146,6 @@ A Nintendo, tradicional e inovadora, começou nos arcades (fliperamas) e estreou
 {% include imagelocal.html
     src="jogatina-das-decadas/nintendo-switch.webp"
     alt="Figura: Nintendo Switch."
-    caption="Figura: Nintendo Switch."
 %}
 
 ### 6.2. Sony
@@ -161,7 +155,6 @@ A Sony é líder do mercado de videogames domésticos (com o seu PlayStation 2).
 {% include image.html
     src="https://files.tecnoblog.net/wp-content/uploads/2020/11/playstation_5_produto-700x700.png"
     alt="Figura: PS5."
-    caption="Figura: PS5."
 %}
 
 ### 6.3. Microsoft
@@ -173,7 +166,6 @@ A empresa tem um departamento dedicado ao desenvolvimento de jogos, a Microsoft 
 {% include image.html
     src="https://compass-ssl.xbox.com/assets/03/8b/038bfc7b-2ebf-4e7f-bd41-c76c8e6d2b8b.jpg?n=10202018_Image-1084_Fam_1920x944.jpg"
     alt="Figura: Xbox XS."
-    caption="Figura: Xbox XS."
 %}
 
 ### 6.4. Jogos de consoles (Xbox, PS)
@@ -276,7 +268,6 @@ O iPhone 3GS e o iPhone 4, por exemplo, eram tidos como excelentes plataformas p
 {% include imagelocal.html
     src="jogatina-das-decadas/angry_birds_EAW3ICp.webp"
     alt="Figura: How Angry Birds broke the limits for mobile games."
-    caption="How Angry Birds broke the limits for mobile games."
 %}
 
 São jogos para plataformas móveis como por exemplo celulares ou outros dispositivos móveis.

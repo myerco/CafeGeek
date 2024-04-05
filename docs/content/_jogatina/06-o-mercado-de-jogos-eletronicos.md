@@ -28,7 +28,6 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/pt/d/db/Modern_Warfare_2_cover.PNG"
     alt="Figura: Call of Duty: Modern Warfare 2."
-    caption="FPS online."
 %}
 
 - Call of Duty: Modern Warfare 2 - $200 million;
@@ -42,7 +41,6 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√
 {% include image.html
     src="https://sm.ign.com/t/ign_br/review/g/god-of-war/god-of-war-3-remastered-review_ecmu.1021.jpg"
     alt="Figura: God of War III Remastered."
-    caption="Figura: God of War III Remastered."
 %}
 
 - God of War III - $44 million.
@@ -52,7 +50,6 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√
 {% include image.html
     src="https://uploads.jovemnerd.com.br/wp-content/uploads/2020/12/battlefield-3-de-graca-pc.jpg"
     alt="Figura: Battlefield 3."
-    caption="Figura: Battlefield 3."
 %}
 
 - Battlefield 3 - $2.75 million (Facebook marketing);
@@ -66,7 +63,6 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√
 {% include image.html
     src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5jf0OVAu11cRMSmAX1P2yQ/0fbef4bc9eb901fd7b12aa0b79f32724/-GRFS-_Screenshot_-_6.jpg"
     alt="Figura: Ghost Recon Future Soldier."
-    caption="Figura: Ghost Recon Future Soldier."
 %}
 
 - Ghost Recon: Future Soldier - ‚Ç¨50 million.
@@ -86,7 +82,6 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√
 {% include image.html
     src="https://upload.wikimedia.org/wikipedia/pt/b/be/Destiny_box_art.png"
     alt="Figura: Destiny."
-    caption="Figura: Destiny."
 %}
 
 - Destiny - $140 million;

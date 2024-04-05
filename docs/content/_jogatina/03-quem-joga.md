@@ -170,7 +170,6 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 {% include image.html
     src="https://files.tecnoblog.net/wp-content/uploads/2020/08/dez-dicas-para-dominar-horizon-zero-dawn005.png"
     alt="Figura: Horizon Zero Dawn."
-    caption="10 dicas para dominar Horizon Zero Dawn."
 %}
 
 ### 4.3. Som
@@ -178,7 +177,6 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 {% include image.html
     src="https://s2.glbimg.com/WZEsU9OtfinBadWtEwruyHlueBg=/0x0:695x390/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/C/o/4CJ1NPR2u4MTx3BMyY2A/journey-como-jogar-amigo.jpg"
     alt="Figura: Como jogar Journey com um amigo?"
-    caption="Confira dicas e tudo sobre o game"
 %}
 
 ### 4.4. Música
@@ -192,7 +190,6 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 {% include image.html
     src="https://gamingbolt.com/wp-content/gallery/10-best-particle-and-lighting-effects-we-saw-in-2011/assassins-creed-revelations.jpg"
     alt="Figura: Assassin's Creed: Revelations"
-    caption="10 Best Lighting and Particle Effects We Saw In 2011"
 %}
 
 >2011 viu o lançamento de muitos jogos que podem ser chamados de maravilhas técnicas. Tantos jogos foram chamados de rei dos gráficos no ano passado que nem é engraçado. Desde o início do ano, com Killzone 3, até o final com Uncharted 3, vimos um jogo incrível sendo lançado após o outro. O que mais nos surpreendeu em algumas das entradas, porém, foi o quão abrangente os desenvolvedores dominaram os efeitos de iluminação e partículas. Algumas pessoas podem pensar que são uma parte minúscula do departamento visual, mas achamos que são parte integrante.
@@ -203,7 +200,6 @@ Abaixo estão dez jogos com o que consideramos os melhores efeitos de iluminaç�
 {% include image.html
     src="https://static.techspot.com/articles-info/2366/images/2021-11-17-image-2-j.webp"
     alt="Figura: It Takes Two."
-    caption="Jogabilidade compartilhada."
 %}
 
 >Jogabilidade é um termo na indústria de jogos eletrônicos que inclui todas as experiências do jogador durante a sua interação com os sistemas de um jogo, especialmente jogos formais, e que descreve a facilidade na qual o jogo pode ser jogado, a quantidade de vezes que ele pode ser completado ou a sua duração.[[WIKIPEDIA](https://pt.wikipedia.org/wiki/Jogabilidade#cite_note-1)]
@@ -213,7 +209,6 @@ Abaixo estão dez jogos com o que consideramos os melhores efeitos de iluminaç�
 {% include image.html
     src="https://s2.glbimg.com/ys4yzHh8-bS88Kc2mwhuQdW3An0=/0x0:695x393/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/N/K/ray9GLT9GUmH5n4aqwAw/2015-08-21-the-witcher-3-geralt-lutando.jpg"
     alt="Figura: The Witcher 3."
-    caption="Confira os requisitos de The Witcher 3 e como deixar mais leve no PC"
 %}
 
 >O uso de jogos no contexto escolar possibilita o exercício de habilidades cognitivas, emocionais e sociais, pois os jogos favorecem a interação social e a colaboração mútua.[[SCIELO](https://www.scielo.br/j/pee/a/FNqKBGyKTrFJDzFvH8mZTkG/)].

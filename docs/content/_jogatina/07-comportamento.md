@@ -77,10 +77,9 @@ As características aplicadas em ambientes onde é necessário potencializar as 
 {% include image.html
     src="https://beduka.com/blog/wp-content/uploads/2019/06/Historia-do-Trabalho.jpg"
     alt="Figura: Aprenda sobre a História do Trabalho."
-    caption="Figura: Aprenda sobre a História do Trabalho"
-    idref="BEDUKA"
-    ref="https://beduka.com/blog/materias/sociologia/historia-do-trabalho/"
 %}
+
+>[BEDUKA - Aprenda sobre a História do Trabalho](https://beduka.com/blog/materias/sociologia/historia-do-trabalho/)
 
 "Em nosso cotidiano, a palavra trabalho está relacionada com alguma **atividade ou serviço desempenhado** por um indivíduo que exige ou não esforço físico." [[2](https://brasilescola.uol.com.br/o-que-e/fisica/o-que-e-trabalho.htm)].
 
@@ -99,12 +98,9 @@ Portanto, trabalho é uma atividade ou serviço desempenhado para transformar a 
 {% include image.html
     src="https://nrfacil.com.br/blog/wp-content/uploads/2012/05/trabalhador005.jpg"
     alt="Figura: Aprenda sobre a História do Trabalho."
-    caption="Figura: NRs 18 (PCMAT), 24 (CONFORTO) e 17 (ERGONOMIA) – PORQUE TRABALHAMOS?"
-    idref="GUEIROS,Samuel"
-    ref="http://nrfacil.com.br/blog/?p=4776"
 %}
 
-Por que trabalhamos? Talvez seja uma resposta simples: Para  "ter" coisas!
+[Por que trabalhamos?](http://nrfacil.com.br/blog/?p=4776) Talvez seja uma resposta simples: Para  "ter" coisas!
 
 Por parecer tão simples, vamos buscar a origem da palavra para tentar entender melhor a pergunta.
 
