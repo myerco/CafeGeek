@@ -19,8 +19,6 @@ Geralmente o fluxo de trabalhado para construção de um jogo digital pode ser d
 {% include imagelocal.html
     src="me-conta-uma-historia/10.webp"
     alt="Figura: Game design for PUBBY."
-    caption="Modelo de um Game Design."
-    url="https://www.dsource.in/case-study/game-design-pubby/design-process/"
 %}
 
 A etapa conceitual é a mais abstrata do projeto, onde definimos o conceito do jogo baseado em uma história ou mecânica, esta etapa é necessária para apresentar, documentar e organizar a ideia do jogo.
@@ -42,8 +40,6 @@ Nesta etapa definimos como organizar o fluxo de atividades e comunicação do pr
 {% include image.html
     src="https://www.researchgate.net/profile/Piotr-Rykala/publication/346541011/figure/fig1/AS:964050955563008@1606859067170/Example-of-organization-and-workflow-of-a-video-game-developer-Source-Zackariasson-and.png"
     alt="Figura: The growth of the gaming industry in the context of creative industries."
-    caption="Modelo de fluxo de trabalho."
-    url="https://www.researchgate.net/publication/346541011_The_growth_of_the_gaming_industry_in_the_context_of_creative_industries"
 %}
 
 ### 1.3. Artista
@@ -57,8 +53,6 @@ Como são os personagens? qual o ambiente? esse tipo de perguntas são apresenta
 {% include image.html
     src="https://magazine.artstation.com/wp-content/uploads/2019/02/CGS-3D-concept-art-editorial-image-01-1024x640.jpg"
     alt="Figura: Figura: The Benefits of Embracing 3D in your Concept Art Workflow."
-    caption="Exemplo de um fluxo de trabalho de arte."
-    url="https://magazine.artstation.com"
 %}
 
 ## 2. A equipe
@@ -89,8 +83,6 @@ Organizar a equipe é um trabalho interessante quando compreendemos as caracter�
 {% include image.html
     src="https://res.cloudinary.com/lmn/image/upload/c_limit,dpr_2,h_360,w_640/e_sharpen:100/f_auto,fl_lossy,q_auto/v1/gameskinnyop/2/6/8/orig_268bb737dfb55c04256c7e55f338bcd1.png"
     alt="Figura: Tips for positive player interactions in World of Warcraft instances."
-    caption="Interações com grandes desafios dentro do Wow."
-    url="https://www.gameskinny.com/xiv9z/tips-for-positive-player-interactions-in-world-of-warcraft-instances"
 %}
 
 ## 3. Tarefas
@@ -116,8 +108,6 @@ Quais são as tarefas e atividades que devem ser executadas, por onde começamos
 {% include image.html
     src="https://assets.rockpapershotgun.com/images/2020/02/The-Forest-Best-Survival-Games-2020.jpg"
     alt="Figura: The best survival games on PC in 2022."
-    caption="Sobreviva com pouco."
-    url="https://www.rockpapershotgun.com/the-best-survival-games-on-pc"
 %}
 
 O desenvolvimento de um projeto de um jogo digital pode ser limitado por vários fatores. Alguns dos principais fatores incluem:
@@ -129,8 +119,6 @@ Estime os custos do projeto, orçamento e controle de custos de modo que o proje
 {% include image.html
     src="https://www.appstudio.ca/blog/wp-content/uploads/2021/09/Cost-of-Game-Development.jpeg"
     alt="Figura: The Factors That Influence the Cost of Game Development."
-    caption="O custo de desenvolvimento de um jogo digital."
-    url="https://www.appstudio.ca/blog/cost-of-game-development/."
 %}
 
 - Estime os custos;
@@ -146,8 +134,6 @@ Fique atento aos prazos estabelecidos no escopo e o tempo estipulado para cada a
 {% include image.html
     src="https://cdn.merixstudio.com/media/uploads/pomodoro.png"
     alt="Figura: How to take care of time management in web development."
-    caption="Gerencie o tempo das tarefas."
-    url="https://www.merixstudio.com/blog/time-management-web-development/"
 %}
 
 - Defina e identifique as ações específicas a serem realizadas para produzir as entregas do projeto;

@@ -13,8 +13,6 @@ Por baixo dessa carne existe um ideal. e as ideias nunca morrem...**V de Vingan�
 {% include image.html
     src="https://www.gamerinfo.com.br/wp-content/uploads/2018/09/game-designer-1.jpg"
     alt="Figura: Design de games."
-    caption="Conheça a profissão"
-    url="https://www.gamerinfo.com.br/2018/09/10/design-de-games/"
 %}
 
 ## 1. Por dentro da cabeça do Game Design
@@ -47,8 +45,6 @@ Segundo o site [https://www.educamaisbrasil.com.br](https://www.educamaisbrasil.
 {% include image.html
     src="https://images.educamaisbrasil.com.br/content/superior/curso/banner/p/design-de-games.jpg"
     alt="Figura: Profissão Designer de games"
-    caption="Salário e carreira na área de DESIGN DE GAMES"
-    url="https://www.educamaisbrasil.com.br/cursos-e-faculdades/design-de-games/salario-de-designer-de-games-carreira"
 %}
 
 ## 4. Características pessoais

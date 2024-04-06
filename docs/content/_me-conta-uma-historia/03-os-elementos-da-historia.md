@@ -159,13 +159,6 @@ Faça coisa heroicas, seja bom em algo e não esqueça das fraquezas.
 
 Faça coisas de valentão com estilo, não é uma pessoa legal, diga coisas legais, mas ele quase nunca grita.
 
-{% include image.html
-    src="https://adrenaline.com.br/files/upload/reviews/2013/gta_v2/22.jpg"
-    alt="Figura: ANÁLISE: Grand Theft Auto V."
-    caption="Os valentões dos jogos."
-    ref="https://adrenaline.com.br"
-%}  
-
 **Nota:** Cuidado com histórias licenciadas.
 {: .notice--warning}
 
@@ -267,8 +260,6 @@ Em geral, a morte nos jogos eletrônicos é uma maneira de adicionar desafio e r
 {% include image.html
     src="https://files.tecnoblog.net/wp-content/uploads/2012/12/vaas-600x337.jpg"
     alt="Figura: Far Cry 3."
-    caption="Vai te deixar sem vida social"
-    ref="https://tecnoblog.net/"
 %}  
 
 ## 4. Nome
@@ -321,23 +312,9 @@ Trabalhe as expressões e cuidado com o "uncanny valley".
 
 Pessoas são articuladas, cuidado com o orçamento.
 
-{% include image.html
-    src="https://images.gnwcdn.com/2017/articles/2017-08-08-12-58/2.jpg/EG11/resize/690x-1/quality/75/format/jpg"
-    alt="Figura: Hellblade: Senua's Sacrifice review."
-    caption="Captura de movimentos."
-    ref="https://www.eurogamer.net/"
-%}  
-
 ### 5.3. Humanidade
 
 Se parece com humano então faz coisas humanas.
-
-{% include image.html
-    src="https://i2.wp.com/culturanerdegeek.com.br/wp-content/uploads/2017/10/Child-of-Light.png?resize=1024%2C576&ssl=1"
-    alt="Figura: Child of Light."
-    caption="Análise"
-    ref="https://culturanerdegeek.com.br"
-%}  
 
 ## 6. Customização
 
@@ -368,13 +345,6 @@ Se parece com humano então faz coisas humanas.
 %}  
 
 ## 7. Não estamos sozinhos
-
-{% include image.html
-    src="https://i0.wp.com/gamehall.com.br/wp-content/uploads/2014/08/275048-l-the-last-of-us-remastered-ps4-boosted-by-best-game-ever-jpeg-116561.jpg?resize=780%2C470&ssl=1"
-    alt="Figura: The Last of Us: Remastered."
-    caption="As vezes a companhia é muito mais do que aparenta ser."
-    ref="https://gamehall.com.br/"
-%}  
 
 - Segundo personagem;
 
@@ -593,20 +563,6 @@ Os inimigos dever enfrentados, não evitados.
 
 Inimigos não inimigos.
 
-{% include image.html
-    src="https://i0.wp.com/gamehall.com.br/wp-content/uploads/2013/09/AlMualim.jpg?zoom=2&resize=580%2C337&ssl=1"
-    alt="Figura: Conheça os maiores traidores dos games."
-    caption="A traição faz parte..."
-    ref="https://gamehall.com.br"
-%}  
-
-{% include image.html
-    src="https://i2.wp.com/twinfinite.net/wp-content/uploads/2017/04/hammerbros.jpg?w=700&ssl=1"
-    alt="Figura:Top 10 Most Annoying Video Game Enemies of All Time."
-    caption="E a lista aumenta todo dia"
-    ref="https://twinfinite.net"
-%}  
-
 - Gremlin -Atrapalha  o jogador, exemplo Godzilla em SimCity;
 
 - Carrasco - Desafia e insulta o jogador no curso do jogo, mas não confronta ou o ataca diretamente;
@@ -635,8 +591,6 @@ Inimigos não inimigos.
 {% include imagelocal.html
     src="me-conta-uma-historia/darth-vader-a-visual-history-of-star-wars-greatest_gfbx.webp"
     alt="Figura: Darth Vader nos games."
-    caption="Uma história visual."
-    ref="https://br.ign.com"
 %}  
 
 #### 8.10.2. Quem é?
@@ -686,7 +640,6 @@ Inimigos não inimigos.
 {% include image.html
     src="https://res.cloudinary.com/lmn/image/upload/c_limit,h_360,w_640/e_sharpen:100/f_auto,fl_lossy,q_auto/v1/gameskinnyc/d/a/r/dark-souls-cad5d.jpg"
     alt="Figura: The Best Dark Souls III Boss Order for Beginners"
-    caption="Nesse jogo tudo é Boss."
 %}
 
 O lugar é sinistro? tem muito item espalhado no chão? só tem uma saída? prepara-se, você vai gastar várias horas tentando sair do lugar.

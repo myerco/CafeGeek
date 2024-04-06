@@ -134,7 +134,7 @@ dev_unreal_8:
     url: /unreal-engine-capitulo-8/
     children:
       - title: Controle de versão
-        url: /unreal-engine-capitulo-8/controle-versao   
+        url: /unreal-engine-capitulo-8/controle-de-versao
       - title: Estruturas de Arquivos
         url:  /unreal-engine-capitulo-8/estruturas-de-arquivos
       - title: Funções e Macros
@@ -154,7 +154,7 @@ dev_computacao:
       - title: Introdução
         url: /computacao-grafica/introducao-a-computacao-grafica
       - title: Estrutura de objetos 3D
-        url: /computacao-grafica/estruturas-de-objetos3d      
+        url: /computacao-grafica/estruturas-de-objetos-3d   
       - title: Renderização 
         url:  /computacao-grafica/renderizacao
       - title: Renderização de objetos com Unreal Engine

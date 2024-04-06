@@ -163,7 +163,6 @@ include:
   - .htaccess
   - _pages
   - _docs
-  - _posts
   - _jogatina
   - _me-conta-uma-historia
   - _unreal-engine  
@@ -391,7 +390,7 @@ defaults:
       share: true
       show_date: true
       sort_by: order            
-      category: "A jogatina das décadas"                  
+      category: "Desenvolvimento de jogos digitais"                  
       toc: true
       sidebar:
         nav: dev_jogatina 
@@ -406,7 +405,7 @@ defaults:
       share: true      
       show_date: true
       sort_by: order            
-      category: "Me conta uma história"      
+      category: "Desenvolvimento de jogos digitais"      
       toc: true
       sidebar:
         nav: dev_me_conta        
