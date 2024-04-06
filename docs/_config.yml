@@ -421,7 +421,7 @@ defaults:
       show_date: true
       toc: true   
       sort_by: order            
-      category: "Unreal Engine - Capítulo 1"
+      category: "Desenvolvimento de jogos digitais"
       sidebar:
         nav: dev_unreal_1
 # Unreal Engine - Capítulo 2
@@ -436,7 +436,7 @@ defaults:
       show_date: true
       toc: true      
       sort_by: order            
-      category: "Unreal Engine - Capítulo 2"
+      category: "Desenvolvimento de jogos digitais"
       sidebar:
         nav: dev_unreal_2      
 # Unreal Engine - Capítulo 3
@@ -451,7 +451,7 @@ defaults:
       show_date: true
       toc: true
       sort_by: order            
-      category: "Unreal Engine - Capítulo 3"
+      category: "Desenvolvimento de jogos digitais"
       sidebar:
         nav: dev_unreal_3      
 # Unreal Engine - Capítulo 4
@@ -466,7 +466,7 @@ defaults:
       show_date: true
       toc: true      
       sort_by: order            
-      category: "Unreal Engine - Capítulo 4"
+      category: "Desenvolvimento de jogos digitais"
       sidebar:
         nav: dev_unreal_4
 # Unreal Engine - Capítulo 5
@@ -481,7 +481,7 @@ defaults:
       show_date: true
       toc: true    
       sort_by: order            
-      category: "Unreal Engine - Capítulo 5"
+      category: "Desenvolvimento de jogos digitais"
       sidebar:
         nav: dev_unreal_5  
 # Unreal Engine - Capítulo 6
@@ -496,7 +496,7 @@ defaults:
       show_date: true
       toc: true   
       sort_by: order            
-      category: "Unreal Engine - Capítulo 6"
+      category: "Desenvolvimento de jogos digitais"
       sidebar:
         nav: dev_unreal_6   
 # Unreal Engine - Capítulo 7
@@ -511,7 +511,7 @@ defaults:
       show_date: true
       toc: true      
       sort_by: order            
-      category: "Unreal Engine - Capítulo 7"
+      category: "Desenvolvimento de jogos digitais"
       sidebar:
         nav: dev_unreal_7
 # Unreal Engine - Capítulo 8
@@ -526,7 +526,7 @@ defaults:
       show_date: true
       toc: true  
       sort_by: order      
-      category: "Unreal Engine - Capítulo 8"
+      category: "Desenvolvimento de jogos digitais"
       sidebar:
         nav: dev_unreal_8          
 # Unreal Engine 
@@ -552,7 +552,7 @@ defaults:
       show_date: true
       toc: true 
       sort_by: order      
-      category: "Computação gráfica"
+      category: "Desenvolvimento de jogos digitais"
       sidebar:
         nav: dev_computacao                     
 # A taberna do pônei saltitante
@@ -567,7 +567,7 @@ defaults:
       show_date: true
       toc: true 
       sort_by: order      
-      category: "A taberna do pônei saltitante"                                
+      category: "Desenvolvimento de jogos digitais"                                
       sidebar:
         nav: banco_dados
 # Modelagem 3D
@@ -582,7 +582,7 @@ defaults:
       show_date: true
       toc: true 
       sort_by: order      
-      category: "Modelagem 3D"                                
+      category: "Desenvolvimento de jogos digitais"                                
       sidebar:
         nav: dev_modelagem3d
 # Jogos Digitais
@@ -597,7 +597,7 @@ defaults:
       show_date: true
       toc: true 
       sort_by: order      
-      category: "Jogos Digitais"                  
+      category: "Desenvolvimento de jogos digitais"                  
       sidebar:
         nav: dev_game
 
