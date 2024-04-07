@@ -346,6 +346,11 @@ collections:
 
 # Defaults
 defaults:
+ # _imagens
+  - scope:
+      path: "assets/images"
+    values:
+      image: true 
   # _posts
   - scope:
       path: ""
