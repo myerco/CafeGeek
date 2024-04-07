@@ -348,11 +348,6 @@ imgpath: /assets/images/
 
 # Defaults
 defaults:
- # imagens
-  - scope:
-      path: ""
-    values:
-      image: "/assets/images" 
   # _posts
   - scope:
       path: ""

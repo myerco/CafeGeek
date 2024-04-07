@@ -39,13 +39,9 @@ nossa nomenclatura."
 
 ## 1. Teria o jogo lugar no sistema de vida?
 
-{% include imagelocal.html
-    src="jogatina-das-decadas/Cover-shallow-1800x1100.webp"
-    alt="Figura: Life is a game. This is your strategy guide."
-    caption="A vida real é o jogo que – literalmente – todo mundo está jogando. Mas pode ser difícil. "
-    idref="OLIVER"
-    ref="https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/"
-%}
+![Figura:  Life is a game. This is your strategy guide]({{ site.imgpath  }}jogatina-das-decadas/Cover-shallow-1800x1100.webp){: .align-center}
+
+>A vida real é o jogo que – literalmente – todo mundo está jogando. Mas pode ser difícil. [OLIVER](https://oliveremberton.com/2014/life-is-a-game-this-is-your-strategy-guide/)
 
 Há uma extraordinária divergência entre as numerosas tentativas de definição da função biológica do jogo. Umas definem as origens e fundamento do jogo em termos de descarga da energia vital superabundante, outras como satisfação de um certo "instinto de imitação", ou ainda simplesmente como uma "necessidade" de distensão.
 
@@ -67,13 +63,9 @@ Reconhece o jogo como algo inato ao homem e mesmo aos animais, considerando-o um
 A existência do jogo é inegável. É possível negar, se quiser, quase todas as abstrações: a justiça, a beleza, o bem, Deus. É possível negar-se a seriedade, mas não o jogo.
 {: .notice--info}
 
-{% include imagelocal.html
-    src="jogatina-das-decadas/brincar.webp"
-    alt="Figura: Soraia Chung: O brincar elabora uma ideia de humanidade."
-    caption="São os adultos que estão decidindo o uso dos espaços da cidade e as políticas públicas e tudo é considerado mais importante que o brincar. Muitas dessas coisas tangenciam o espaço das crianças, mas não necessariamente estão sendo  pensadas para elas, muito pelo contrário, elas perdem esses espaços o tempo todo."
-    idref="CHUNG"
-    ref="https://alana.org.br/entrevista-soraia-chung-brincar/"
-%}
+![Figura: Soraia Chung: O brincar elabora uma ideia de humanidade.]({{ site.imgpath  }}jogatina-das-decadas/brincar.webp){: .align-center}
+
+>São os adultos que estão decidindo o uso dos espaços da cidade e as políticas públicas e tudo é considerado mais importante que o brincar. Muitas dessas coisas tangenciam o espaço das crianças, mas não necessariamente estão sendo  pensadas para elas, muito pelo contrário, elas perdem esses espaços o tempo todo. [CHUNG](https://alana.org.br/entrevista-soraia-chung-brincar/)
 
 ...Brincar, significa libertar-se dos horrores do mundo, por meio da reprodução miniaturizada..”
 Walter Benjamin (1984)
@@ -91,10 +83,7 @@ Em contrapartida devemos lembrar que o riso no filme O Nome da Rosa teve outra c
 
 ## 4. A Tensão como um elemento do jogo
 
-{% include imagelocal.html
-    src="jogatina-das-decadas/alien_isolation_1.webp"
-    alt="Figura: Alien Isolation."
-%}
+![Figura: Alien Isolation]({{ site.imgpath  }}jogatina-das-decadas/alien_isolation_1.webp){: .align-center}
 
 Tensão significa incerteza, acaso. Há um esforço para levar o jogo até ao desenlace, o jogador quer que
 alguma coisa "vá" ou "saia", pretende "ganhar" à custa de seu próprio esforço.
@@ -102,13 +91,9 @@ alguma coisa "vá" ou "saia", pretende "ganhar" à custa de seu próprio esforç
 Uma criança estendendo a mão para um brinquedo, um gatinho brincando com um novelo, uma garotinha jogando bola, todos eles procuram conseguir
 alguma coisa difícil, ganhar, acabar com uma tensão. O jogo é "tenso", como se costuma dizer.
 
-{% include imagelocal.html
-    src="jogatina-das-decadas/9211-o-novelo-de-la-para-gatos-esta-na-lista-articles_media_desktop-2.webp"
-    alt="Figura: Brinquedos para gatos: por que os bichanos gostam de novelo de lã?"
-    caption="Interesse dos bichanos tem relação com um instinto de caça, O novelo de lã ajuda a diminuir o estresse e a ansiedade do animal."
-    idref="LIMA,Úrsula"
-    ref="https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1"
-%}
+![Figura: Brinquedos para gatos: por que os bichanos gostam de novelo de lã?]({{ site.imgpath  }}jogatina-das-decadas/9211-o-novelo-de-la-para-gatos-esta-na-lista-articles_media_desktop-2.webp){: .align-center}
+
+>Interesse dos bichanos tem relação com um instinto de caça, O novelo de lã ajuda a diminuir o estresse e a ansiedade do animal. [LIMA,Úrsula](https://www.patasdacasa.com.br/noticia/brinquedos-para-gatos-por-que-os-bichanos-gostam-de-novelo-de-la_a1965/1)
 
 ## 5. Resumo
 
