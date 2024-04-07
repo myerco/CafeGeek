@@ -344,6 +344,8 @@ collections:
     output: true
     permalink: /:collection/:path/                      
 
+imgpath: /assets/images/
+
 # Defaults
 defaults:
  # imagens
