@@ -24,7 +24,7 @@ A origem da palavra **jogo** deriva do de um termo do latim, *jocus*, que signif
 - Conjunto de procedimentos e estratégias para atingir determinado fim;
 - Atividade em que existe a figura do jogador (como indivíduo praticante).
 
-![Figura: Chess.](jogatina-das-decadas/chess_game.webp){: .align-center}
+![Figura: Chess.]({% site.image %}/jogatina-das-decadas/chess_game.webp){: .align-center}
 
 >O Xadrez é um jogo de tabuleiro de estratégia do tipo recreativo ou competitivo para dois jogadores."
 
