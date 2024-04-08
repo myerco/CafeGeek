@@ -22,9 +22,7 @@ A função do jogo, nas formas mais elevadas que aqui nos interessam, pode de ma
 
 - Uma luta por alguma coisa ou a representação de alguma coisa.
 
-{% include figure
-    image_path="{{ site.imgpath  }}jogatina-das-decadas/A-Vigilante-do-Amanhã-Ghost-in-the-Shell.webp"
-    alt="Figura: Ghost in the Shell."
+{% include figure image_path="{{ site.imgpath  }}jogatina-das-decadas/A-Vigilante-do-Amanhã-Ghost-in-the-Shell.webp" alt="Figura: Ghost in the Shell."
 %}
 
 Estas duas funções podem também por vezes confundir-se, de tal modo que o jogo passe a "representar" uma luta, ou, então, se torne uma luta para melhor representação de alguma coisa.
