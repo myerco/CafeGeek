@@ -22,12 +22,9 @@ A função do jogo, nas formas mais elevadas que aqui nos interessam, pode de ma
 
 - Uma luta por alguma coisa ou a representação de alguma coisa.
 
-{% include imagelocal.html
-    src="jogatina-das-decadas/A-Vigilante-do-Amanhã-Ghost-in-the-Shell.webp"
+{% include figure
+    image_path="{{ site.imgpath  }}jogatina-das-decadas/A-Vigilante-do-Amanhã-Ghost-in-the-Shell.webp"
     alt="Figura: Ghost in the Shell."
-    caption="5 motivos para assistir Ghost in the Shell, com Scarlett Johansson, hoje mesmo!."
-    idref="VINÍCIUS, Marcus"
-    ref="https://temalguemassistindo.com.br/5-motivos-para-assistir-ghost-in-the-shell-com-scarlett-johansson-hoje-mesmo/"
 %}
 
 Estas duas funções podem também por vezes confundir-se, de tal modo que o jogo passe a "representar" uma luta, ou, então, se torne uma luta para melhor representação de alguma coisa.
@@ -40,37 +37,31 @@ O ser humano, tal como todos os seres da escala biológica, tem como caracterís
 
 ## 2. O jogo Arte e Cultura
 
-{% include imagelocal.html
-    src="jogatina-das-decadas/2012_01_20_15_37_021.webp"
+{% include figure
+    image_path="{{ site.imgpath  }}jogatina-das-decadas/2012_01_20_15_37_021.webp"
     alt="Figura: O Jogo na arte."
-    caption="Os relógios que se derretem representam um tempo que passa de forma diferente. Ao contrário dos relógios normais, que marcam com precisão a passagem dos segundos, estes relógios de Dalí possuem marcações distintas, pois os seus ponteiros estão derretidos e trazem uma noção distorcida dos segundos."
-    idref="ALDAIR, Laura"
-    ref="https://www.culturagenial.com/a-persistencia-da-memoria-de-salvador-dali/"
 %}
+
+>Os relógios que se derretem representam um tempo que passa de forma diferente. Ao contrário dos relógios normais, que marcam com precisão a passagem dos segundos, estes relógios de Dalí possuem marcações distintas, pois os seus ponteiros estão derretidos e trazem uma noção distorcida dos segundos." [ALDAIR, Laura](https://www.culturagenial.com/a-persistencia-da-memoria-de-salvador-dali/)
 
 O processo criativo e construção de elementos imaginários estão presentes nas caracterizas dos jogos.
 Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um belo e nobre jogo começou por ser um jogo sagrado. Os torneios e justas, as ordens, os votos, os títulos, são  todos vestígios dos ritos de iniciação primitivos.
 
 ## 3. O jogo e a Guerra
 
-{% include imagelocal.html
-    src="jogatina-das-decadas/art-painting-delacroix_wallcoo.com.webp"
+{% include figure
+    image_path="{{ site.imgpath  }}jogatina-das-decadas/art-painting-delacroix_wallcoo.com.webp"
     alt="Figura: O Jogo e a guerra."
-    caption="A liberdade guiando o povo, 28 de julho de 1830."
-    idref="WIKIPEDIA"
-    ref="https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Francesa"
+
 %}
 
 É difícil não associar a guerra ao jogo mas o contrário é possível, na guerra o objetivo é conquistar ou subjugar o seu oponente.
 
 ## 4. O jogo e o Direito
 
-{% include imagelocal.html
-    src="jogatina-das-decadas/leis.webp"
+{% include figure
+    image_path="{{ site.imgpath  }}"jogatina-das-decadas/leis.webp"
     alt="Figura: O Jogo e o Direito."
-    caption="Dica de game com conteúdo Jurídico, ensinando direito através do jogo!."
-    idref="XANTHAKOS, Leonardo"
-    ref="https://juridicocerto.com/p/leonardoxanthakos/artigos/dica-de-game-com-conteudo-juridico-ensinando-direito-atraves-do-jogo-1983"
 %}
 
 Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o Luizinga associa o "processo" a um jogo considerando o seguinte:
@@ -88,20 +79,19 @@ Um antigo juiz escreveu-me o seguinte: "O estilo e o conteúdo das intervençõe
 
 ## 5. O jogo e a Linguagem
 
-{% include imagelocal.html
-    src="jogatina-das-decadas/barreira-linguagem-764x343.webp"
+{% include figure
+    image_path="{{ site.imgpath  }}"jogatina-das-decadas/barreira-linguagem-764x343.webp"
     alt="Figura: O jogo e a linguagem (em alemão: Sprachspiel)."
-    caption="É um conceito filosófico desenvolvido por Ludwig Wittgenstein, que se refere a exemplos simples de uso da linguagem e as ações nas quais a linguagem é tecida. Wittgenstein argumentou que uma palavra ou mesmo uma frase só tem significado dentro das regras do jogo linguístico que está sendo jogado em determinado momento. "
-    idref="WIKIPEDIA"
-    ref="https://pt.wikipedia.org/wiki/Jogo_de_linguagem_(filosofia)"
 %}
+
+>É um conceito filosófico desenvolvido por Ludwig Wittgenstein, que se refere a exemplos simples de uso da linguagem e as ações nas quais a linguagem é tecida. Wittgenstein argumentou que uma palavra ou mesmo uma frase só tem significado dentro das regras do jogo linguístico que está sendo jogado em determinado momento. [WIKIPEDIA - JODO DE LINGUAGEM](https://pt.wikipedia.org/wiki/Jogo_de_linguagem_(filosofia))
 
 A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo, designá-las e com essa designação elevá-las ao domínio do espírito. Na criação da fala e da linguagem,  brincando com essa maravilhosa faculdade de designar, é como se o espírito estivesse constantemente saltando  entre a matéria e as coisas pensadas. Por detrás de toda expressão abstrata se oculta uma metáfora, e toda metáfora  é jogo de palavras. Assim, ao dar expressão à vida, o homem cria um outro mundo, um mundo poético, ao lado do  da natureza.
 
 ## 6. Algumas considerações sobre o jogo
 
-{% include imagelocal.html
-    src="jogatina-das-decadas/musee_Rodin_1.webp"
+{% include figure
+    image_path="{{ site.imgpath  }}"jogatina-das-decadas/musee_Rodin_1.webp"
     alt="Figura: The Thinker."
 %}
 
