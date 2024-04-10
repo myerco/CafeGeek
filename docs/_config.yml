@@ -344,7 +344,7 @@ collections:
     output: true
     permalink: /:collection/:path/                      
 
-imgpath: https://cafegeek.eti.br/assets/images/
+imgpath: /assets/images/
 
 # Defaults
 defaults:

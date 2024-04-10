@@ -34,10 +34,7 @@ O ser humano, tal como todos os seres da escala biológica, tem como caracterís
 
 ## 2. O jogo Arte e Cultura
 
-{% include figure
-    image_path="{{ site.imgpath  }}jogatina-das-decadas/2012_01_20_15_37_021.webp"
-    alt="Figura: O Jogo na arte."
-%}
+![Figura: O Jogo na arte.]({{ site.imgpath  }}jogatina-das-decadas/2012_01_20_15_37_021.webp){: .align-center}
 
 >Os relógios que se derretem representam um tempo que passa de forma diferente. Ao contrário dos relógios normais, que marcam com precisão a passagem dos segundos, estes relógios de Dalí possuem marcações distintas, pois os seus ponteiros estão derretidos e trazem uma noção distorcida dos segundos." [ALDAIR, Laura](https://www.culturagenial.com/a-persistencia-da-memoria-de-salvador-dali/)
 
@@ -46,20 +43,13 @@ Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um 
 
 ## 3. O jogo e a Guerra
 
-{% include figure
-    image_path="{{ site.imgpath  }}jogatina-das-decadas/art-painting-delacroix_wallcoo.com.webp"
-    alt="Figura: O Jogo e a guerra."
-
-%}
+![Figura: O Jogo e a guerra]({{ site.imgpath  }}jogatina-das-decadas/art-painting-delacroix_wallcoo.com.webp){: .align-center}
 
 É difícil não associar a guerra ao jogo mas o contrário é possível, na guerra o objetivo é conquistar ou subjugar o seu oponente.
 
 ## 4. O jogo e o Direito
 
-{% include figure
-    image_path="{{ site.imgpath  }}"jogatina-das-decadas/leis.webp"
-    alt="Figura: O Jogo e o Direito."
-%}
+![Figura: O Jogo e o Direito]({{ site.imgpath  }}jogatina-das-decadas/leis.webp){: .align-center}
 
 Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o Luizinga associa o "processo" a um jogo considerando o seguinte:
 
@@ -76,10 +66,7 @@ Um antigo juiz escreveu-me o seguinte: "O estilo e o conteúdo das intervençõe
 
 ## 5. O jogo e a Linguagem
 
-{% include figure
-    image_path="{{ site.imgpath  }}"jogatina-das-decadas/barreira-linguagem-764x343.webp"
-    alt="Figura: O jogo e a linguagem (em alemão: Sprachspiel)."
-%}
+![Figura: O jogo e a linguagem (em alemão: Sprachspiel)]({{ site.imgpath  }}jogatina-das-decadas/barreira-linguagem-764x343.webp){: .align-center}
 
 >É um conceito filosófico desenvolvido por Ludwig Wittgenstein, que se refere a exemplos simples de uso da linguagem e as ações nas quais a linguagem é tecida. Wittgenstein argumentou que uma palavra ou mesmo uma frase só tem significado dentro das regras do jogo linguístico que está sendo jogado em determinado momento. [WIKIPEDIA - JODO DE LINGUAGEM](https://pt.wikipedia.org/wiki/Jogo_de_linguagem_(filosofia))
 
@@ -87,10 +74,7 @@ A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo
 
 ## 6. Algumas considerações sobre o jogo
 
-{% include figure
-    image_path="{{ site.imgpath  }}"jogatina-das-decadas/musee_Rodin_1.webp"
-    alt="Figura: The Thinker."
-%}
+![Figura: The Thinker]({{ site.imgpath  }}jogatina-das-decadas/musee_Rodin_1.webp){: .align-center}
 
 O autor apresenta as suas interpretações de elementos presentes na nossa sociedade e os caracteriza como jogo na sua definição, devemos lembrar que o HUIZINGA utiliza e define jogo na Perspectiva do jogador e extrai classificações do objeto em estudo dentro de um tempo e realidade por conseguinte devemos não deveríamos considerar  a justiça como um jogo de ganhar e perder pois isso não melhora as grandes diferenças sociais na nossa sociedade.
 
