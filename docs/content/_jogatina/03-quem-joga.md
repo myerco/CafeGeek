@@ -20,23 +20,13 @@ Conhecer o que o jogador quer e a situação que o mercado se apresenta são inf
 
 O jogo é um produto presente no mercado e como tal se apresenta com todas as suas características de comercialização.
 
-{% include image.html
-    src="https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp"
-    alt="Figura: Top 5 Most Popular Online Games for Women."
-    caption="Os jogos online estão mais populares do que nunca e as mulheres representam mais de 48% da população de jogadores. Não existe um perfil de mulher que joga jogos online. Embora geralmente representem uma parcela maior daqueles que jogam jogos casuais, as mulheres também são atraídas por muitos outros gêneros."
-    idref="HOLMES, Amy"
-    ref="https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women"
-%}
+![Figura: Top 5 Most Popular Online Games for Women](https://cf.ltkcdn.net/online/images/std-lg/212938-1200x797-Player-Girl.webp){: .align-center}
+
+>Os jogos online estão mais populares do que nunca e as mulheres representam mais de 48% da população de jogadores. Não existe um perfil de mulher que joga jogos online. Embora geralmente representem uma parcela maior daqueles que jogam jogos casuais, as mulheres também são atraídas por muitos outros gêneros. [HOLMES, Amy](https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women)
 
 ## 1. O que é jogar?
 
-{% include image.html
-    src="https://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg"
-    alt="Figura: Jogador Nº 1."
-    caption="Diversão, referências e o orgulho geek"
-    idref="MESQUITA, Boo"
-    ref="http://farofageek.com.br/filmes/jogador-n1-diversao-referencias-e-o-orgulho-geek/"
-%}
+![Figura: Jogador Nº 1.](https://farofageek.com.br/wp-content/uploads/2018/03/Jogador-N-1-batalha.jpg){: .align-center}
 
 É um evento social, sendo assim esse evento gera emoções que são interpretações das respostas sensoriais obtidas pelos elementos do jogo, segue a baixo algumas delas:
 
