@@ -1,7 +1,14 @@
 <style>
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
   .figure_local {
     display: inline-block;
-    border: 1px dotted gray;
+   /* border: 1px dotted gray;*/
     margin: 20px; /* adjust as needed */
 }
 .figure_local img {
@@ -14,6 +21,7 @@
     text-align: center;
 }
 </style>  
+<div class="center">
   <figure class="figure_local">
     <img
       src="/assets/images/{{ include.src }}"
@@ -36,3 +44,4 @@
       {%- endif %}  
     </figcaption>
   </figure>
+</div>
