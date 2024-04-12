@@ -1,8 +1,31 @@
+<style>
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .figure_local {
+      display: block;
+     /* border: 1px dotted gray;*/
+      margin: 20px; /* adjust as needed */
+  }
+  .figure_local img {
+      vertical-align: top;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .figure_local figcaption {
+      /*border: 1px dotted blue; */
+      text-align: center;
+  }
+</style>  
+  
+<div class="center">
   <figure>
     <img
       src="{{ include.src }}"
       alt="{{ include.alt }}"
-      class="align-center"
     >
     <figcaption>
         {%- if include.title %}    
@@ -21,3 +44,4 @@
     </figcaption>
     
   </figure>
+</div>  
