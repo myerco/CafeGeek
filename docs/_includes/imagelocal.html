@@ -1,4 +1,18 @@
-  <figure>
+<style>
+  .figure_local {
+    display: inline-block;
+    border: 1px dotted gray;
+    margin: 20px; /* adjust as needed */
+}
+.figure_local img {
+    vertical-align: top;
+}
+.figure_local figcaption {
+    border: 1px dotted blue;
+    text-align: center;
+}
+</style>  
+  <figure class="figure_local">
     <img
       src="/assets/images/{{ include.src }}"
       alt="{{ include.alt }}"
