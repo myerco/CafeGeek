@@ -139,7 +139,7 @@ Talvez uma ação simples, como abrir uma porta pode ser uma pista do tema do jo
 #### 1.2.6. Como fica esperando
 
 {% include imagelocal.html
-    src="me-conta-uma-historia/Ghost_Recon_Wildlands_graphics_settings_high.jpg"
+    src="me-conta-uma-historia/Ghost_Recon_Wildlands_graphics_settings_high.webp"
     alt="Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis."
     caption="The PCGamesN tech review"
     ref="https://www.pcgamesn.com"
@@ -186,7 +186,7 @@ O que você faria se sua amada ficasse presa em uma casa mal assombrada e possiv
 Se a resposta é "Vou reativar o Facebook e  Tinder" acredito que uma boa dica é jogar esse jogo e tentar entender as motivações do personagem central.
 
 {% include imagelocal.html
-    src="me-conta-uma-historia/o-livro-de-eli1-cke.wep"
+    src="me-conta-uma-historia/o-livro-de-eli1-cke.webp"
     alt="Figura: O Livro de Eli: significado do filme."
     caption="A busca por um lugar acaba de levando para trilhar outros caminhos."
     ref="https://www.culturagenial.com/o-livro-de-eli-significado-do-filme/"
@@ -254,7 +254,7 @@ Em geral, a morte nos jogos eletrônicos é uma maneira de adicionar desafio e r
 - Dos animais.
 
 {% include imagelocal.html
-    src="me-conta-uma-historia/shadow-of-the-colossus-agro-tricks-how-to-perform-all-horse-stunts-to-unlock-the-trick-rider-trophy-1518023598995"
+    src="me-conta-uma-historia/shadow-of-the-colossus-agro-tricks-how-to-perform-all-horse-stunts-to-unlock-the-trick-rider-trophy-1518023598995.webp"
     alt="Figura: Shadow of the Colossus."
     caption="Como executar truques com Agro e desbloquear o Troféu Trick Rider"
     ref="https://www.eurogamer.pt"
@@ -324,7 +324,7 @@ Se parece com humano então faz coisas humanas.
 ## 6. Customização
 
 {% include imagelocal.html
-    src="me-conta-uma-historia/tier3_ranger_armor-814x600.jpg"
+    src="me-conta-uma-historia/tier3_ranger_armor-814x600.webp"
     alt="Figura: Character development."
     caption="Altere as características do seu personagem"
     ref="https://www.ageofconan.com"
