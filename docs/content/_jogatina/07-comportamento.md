@@ -8,7 +8,6 @@ order: 7
 sidebar:
     nav: dev_jogatina
 tags:
-  - comportamento
   - vicio em jogos
   - trabalho
   - caixa de skinner
@@ -186,7 +185,7 @@ Como o artigo do cara da Microsoft prova, os desenvolvedores sabem que estão us
 
 {% include imagelocal.html
     src="jogatina-das-decadas/elden_ring_godrick_the_grafted_7_wAK1ZXI.webp"
-    alt="Elden Ring - Godrick the Grafted - Dicas e estratégias para derrotar o boss." caption="Elden Ring - Godrick the Grafted - Dicas e estratégias para derrotar o boss."
+    alt="Elden Ring - Godrick the Grafted - Dicas e estratégias para derrotar o boss."
 %}
 
 Então imagine o rato em sua caixa. Ou, já que sou um desses jogadores e não gosto de me ver como um rato, imagine um hamster adorável. Talvez ele possa falar, e é dublado por Chris Rock.
@@ -213,7 +212,7 @@ BF Skinner sabia. Ele chamou esse processo de treinamento de "modelagem". Pequen
 
 {% include imagelocal
     src="jogatina-das-decadas/846496.webp"
-    alt="WoW Classic Warrior Armor/Tier Sets - Appearances, Set Bonuses, Sources." caption="WoW Classic Warrior Armor/Tier Sets - Appearances, Set Bonuses, Sources."
+    alt="WoW Classic Warrior Armor/Tier Sets."
 %}
 
 Quando chegar a esse ponto, você ainda pode chamar essa atividade de "jogo"? É mais como coçar uma erupção cutânea. E fica pior...
