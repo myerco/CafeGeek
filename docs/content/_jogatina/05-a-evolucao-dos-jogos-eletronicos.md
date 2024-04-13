@@ -13,8 +13,8 @@ tags:
   - video games   
 ---
 
-{% include image.html
-    src="https://galeria.people.com.br/noticia/20190903095042123.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/20190903095042123.webp"
     alt="Figura: 4 mulheres que fizeram história na indústria de games"
     caption="4 mulheres que fizeram história na indústria de games."
     idref="ANTONIOLI, Cassia"
@@ -45,8 +45,8 @@ O Coleco Telstar foi outro destaque da primeira geração, produzido entre 1976 
 
 - Jogo Pong, desenvolvido pela ATARI, consiste em um jogo onde simula uma partida de Ping Pong.
 
-{% include image.html
-    src="https://s2.glbimg.com/hmam5dqwykVbv8_R0ly4dDtaZG8=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/J/Q/QSQBQYTuWJL9U9qJKc9Q/2016-03-02-pong.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/2016-03-02-pong.webp"
     alt="Figura: Conheça Pong."
 %}
 
@@ -54,8 +54,8 @@ O Coleco Telstar foi outro destaque da primeira geração, produzido entre 1976 
 
 Geração onde os consoles apresentavam processadores de 4 a 8 bit. Os jogos do ATARI são os mais populares dessa época, como exemplo o Popeye e Pacman.
 
-{% include image.html
-    src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/5363_7D66C7F21A0BD4A2.jpg?w=876&h=484&crop=1"
+{% include imagelocal.html
+    src="jogatina-das-decadas/5363_7D66C7F21A0BD4A2.webp"
     alt="Figura: Pac-Man."
 %}
 
@@ -75,8 +75,8 @@ Jogos da Terceira Geração:
 
 - MICHAEL JACKSON’S MOONWALKER - 1990;
 
-{% include image.html
-    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Emacs_Tetris_vector_based_detail.svg/300px-Emacs_Tetris_vector_based_detail.svg.png"
+{% include imagelocal.html
+    src="jogatina-das-decadas/300px-Emacs_Tetris_vector_based_detail.svg.webp"
     alt="Figura: Tetris."
 %}
 
@@ -122,8 +122,8 @@ A quarta geração consolidou de vez a era dos 16 bits, com a evolução da Nint
 
 - Starcraft;
 
-{% include image.html
-    src="https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Tomb_Raider_-_The_Last_Revelation.png/220px-Tomb_Raider_-_The_Last_Revelation.png"
+{% include imagelocal.html
+    src="jogatina-das-decadas/Tomb_Raider_-_The_Last_Revelation.webp"
     alt="Figura: Tomb_Raider The_Last_Revelation."
 %}
 
@@ -152,8 +152,8 @@ A Nintendo, tradicional e inovadora, começou nos arcades (fliperamas) e estreou
 
 A Sony é líder do mercado de videogames domésticos (com o seu PlayStation 2). Estreou em 1994 com o PlayStation, em 2000 lançou o console doméstico mais vendido da história, o PlayStation 2 e em 2006 lançou o PlayStation 3. Em 2005 lançou seu primeiro console portátil, o PSP, e no quarto trimestre de 2011 lançou o PlayStation Vita, continuação da sua linha de portáteis. No início de 2013 anunciou o novo console da empresa, o PlayStation 4, console da oitava geração, que foi lançado no dia 15 de Novembro de 2013 na América do Norte.
 
-{% include image.html
-    src="https://files.tecnoblog.net/wp-content/uploads/2020/11/playstation_5_produto-700x700.png"
+{% include imagelocal.html
+    src="jogatina-das-decadas/playstation_5_produto-700x700.webp"
     alt="Figura: PS5."
 %}
 
@@ -163,8 +163,8 @@ A Microsoft é uma empresa gigante de software e hardware. Estreou-se no mercado
 
 A empresa tem um departamento dedicado ao desenvolvimento de jogos, a Microsoft Games Studios, onde são feitos os jogos das séries Age of Empires, Fable, Dungeon Siege, Halo, Supreme Commander, Forza Motorsport, Microsoft Flight Simulator, entre outros.
 
-{% include image.html
-    src="https://compass-ssl.xbox.com/assets/03/8b/038bfc7b-2ebf-4e7f-bd41-c76c8e6d2b8b.jpg?n=10202018_Image-1084_Fam_1920x944.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/038bfc7b-2ebf-4e7f-bd41-c76c8e6d2b8b.webp"
     alt="Figura: Xbox XS."
 %}
 

@@ -13,8 +13,8 @@ tags:
   - video games   
 ---
 
-{% include image.html
-    src="https://s2.glbimg.com/7IWNxPUe3ZavTl0vMfqcjDxvUqo=/0x0:695x463/984x0/smart/filters:strip_icc()/s.glbimg.com/po/tt2/f/original/2014/02/07/flappy-bird-ios.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/flappy-bird-ios.webp"
     alt="Figura: Flappy Bird."
     caption="Sucesso de vendas."
 %}
@@ -25,8 +25,8 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√
 
 ### 1.1. 2009
 
-{% include image.html
-    src="https://upload.wikimedia.org/wikipedia/pt/d/db/Modern_Warfare_2_cover.PNG"
+{% include imagelocal.html
+    src="jogatina-das-decadas/Modern_Warfare_2_cover.webp"
     alt="Figura: Call of Duty: Modern Warfare 2."
 %}
 
@@ -38,8 +38,8 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√
 
 ### 1.2. 2010
 
-{% include image.html
-    src="https://sm.ign.com/t/ign_br/review/g/god-of-war/god-of-war-3-remastered-review_ecmu.1021.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/god-of-war-3-remastered-review_ecmu.1021.webp"
     alt="Figura: God of War III Remastered."
 %}
 
@@ -47,8 +47,8 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√
 
 ### 1.3. 2011
 
-{% include image.html
-    src="https://uploads.jovemnerd.com.br/wp-content/uploads/2020/12/battlefield-3-de-graca-pc.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/battlefield-3-de-graca-pc.webp"
     alt="Figura: Battlefield 3."
 %}
 
@@ -60,8 +60,8 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√
 
 ### 1.4. 2012
 
-{% include image.html
-    src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5jf0OVAu11cRMSmAX1P2yQ/0fbef4bc9eb901fd7b12aa0b79f32724/-GRFS-_Screenshot_-_6.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/-GRFS-_Screenshot_-_6.webp"
     alt="Figura: Ghost Recon Future Soldier."
 %}
 
@@ -69,8 +69,8 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√
 
 ### 1.5. 2013
 
-{% include image.html
-    src="https://s2.glbimg.com/5Zw6bFIK4an2e4c22X98N6f3jMw=/0x0:300x200/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/c/T/ETBWDpSKidhOOZ9d8ZXQ/glbimg.com-po-tt-f-300x200-2013-10-18-cover-large.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/glbimg.com-po-tt-f-300x200-2013-10-18-cover-large.webp"
     alt="Figura: Disney Infinity."
     caption="Figura: Disney Infinity."
 %}
@@ -79,8 +79,8 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√
 
 ### 1.6. 2014
 
-{% include image.html
-    src="https://upload.wikimedia.org/wikipedia/pt/b/be/Destiny_box_art.png"
+{% include imagelocal.html
+    src="jogatina-das-decadas/Destiny_box_art.webp"
     alt="Figura: Destiny."
 %}
 

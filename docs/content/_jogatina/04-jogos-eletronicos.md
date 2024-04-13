@@ -24,8 +24,8 @@ Podemos classificar os jogos para determinar ou mostrar a sua função dentro de
 
 Consistem em uma superfície dividida em setores com peças móveis.
 
-{% include image.html
-    src="https://www.infoescola.com/wp-content/uploads/2008/03/xadrez_255260497-1000x664.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/xadrez_255260497-1000x664.webp"
     alt="Figura: Xadrez"
     caption="Xadrez - Um dos jogos mais antigos da história humana."
 %}
@@ -38,7 +38,7 @@ Consistem em uma superfície dividida em setores com peças móveis.
 
 {% include imagelocal.html
     src="jogatina-das-decadas/cartas-inter.webp"
-    alt="Figura: Cartas <https://oestadoacre.com/2019/07/18/historia/>."
+    alt="Figura: Cartas"
     caption="A história das cartas: o jogo de baralho é mais antigo do que você imagina."
 %}
 
@@ -46,8 +46,8 @@ Conjunto de símbolos com valores de combinação lógica, quem em determinadas 
 
 ### 1.3. Atléticos
 
-{% include image.html
-    src="https://s1.static.brasilescola.uol.com.br/galeria/images/85b29f73c4b883f3b44b9e0596a2bdb0.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/85b29f73c4b883f3b44b9e0596a2bdb0.webp"
     alt="Figura: Voleibol."
 %}
 
@@ -59,8 +59,8 @@ Brincadeiras físicas e mentais com visões educacionais, cujo objetivo é socia
 
 ### 1.5. Eletrônicos
 
-{% include image.html
-    src="https://imagens.usp.br/wp-content/uploads/games_pedrobolle_uspimagens_001.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/games_pedrobolle_uspimagens_001.webp"
     alt="Figura: Jogos Eletrônicos."
     caption="Uma categoria recente de jogo."
 %}
@@ -72,8 +72,8 @@ Trabalham com reflexos, coordenação e cognição.
 O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pessoa, mas ninguém pode mudá-la. Uma coisa que não muda com o tempo é a memória dos dias mais jovens. **The Legend of Zelda: Ocarina of Time**.
 {: .notice}
 
-{% include image.html
-    src="https://covildosjogos.com.br/wp-content/uploads/2020/06/f782e9b5-9331-47cb-83a0-838e7515eb14-768x1024.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/f782e9b5-9331-47cb-83a0-838e7515eb14-768x1024.webp"
     alt="Figura: Jogos de Cartas."
 %}
 
@@ -87,8 +87,8 @@ O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pess
 
 #### 2.1.1. Foco
 
-{% include image.html
-    src="https://1.bp.blogspot.com/-amcIuWezKHM/VA3vWLcYvXI/AAAAAAAABwE/DXI1Tn6rDsI/s1600/002.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/002.webp"
     alt="Figura: F22 Raptor."
     caption="Simulador de combate aéreo."
 %}
@@ -97,8 +97,8 @@ Capacidade do jogador de se concentrar nos objetivos e ações principais.
 
 #### 2.1.2. Interatividade
 
-{% include image.html
-    src="https://2.bp.blogspot.com/_cM2l6Y3Ulgg/Sfi6LBnLGoI/AAAAAAAABqo/dWz5kQT2qpg/s1600/sangueCorrompido.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/sangueCorrompido.webp"
     alt="Figura: Praga no jogo World of Warcraft ajuda a entender pandemia."
 %}
 
@@ -106,8 +106,8 @@ Capacidade dos jogadores realizarem ações participativas nos jogos.
 
 #### 2.1.3. Conflito
 
-{% include image.html
-    src="https://www.comboinfinito.com.br/principal/wp-content/uploads/2014/05/far-cry-4-historia.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/far-cry-4-historia.webp"
     alt="Figura: Detalhes da história de Far Cry 4 surgem no site da Ubisoft."
     caption="Os vilões desta série são bem representados."
 %}
@@ -116,8 +116,8 @@ São elementos importantes que geram oportunidades aos jogadores e trazem consig
 
 #### 2.1.4. Segurança
 
-{% include image.html
-    src="https://news.xbox.com/pt-br/wp-content/uploads/sites/8/2021/11/Hellblade_-Senuas-Sacrifice-2021-08-04-01-00-58.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/Hellblade_-Senuas-Sacrifice-2021-08-04-01-00-58.webp"
     alt="Figura: Hellblade: Senua’s Sacrifice recebe aprimoramento para o PC."
 %}
 
@@ -125,8 +125,8 @@ Envolve aplicar características de realidade como morte, ferimentos, quedas e a
 
 ### 2.2. Desafio
 
-{% include image.html
-    src="https://jogazera.com.br/wp-content/uploads/2014/03/Dark-Souls-2-Review-770x433.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/Dark-Souls-2-Review-770x433.webp"
     alt="Figura: Review – Dark Souls 2."
 %}
 
@@ -137,8 +137,8 @@ Regras definem o grau de desafio (Fácil, Médio, Difícil, Muito Difícil e Imp
 
 ### 2.3. Divertimento
 
-{% include image.html
-    src="https://store-images.s-microsoft.com/image/apps.54644.65129518710082559.30d43137-919f-4215-820e-038b409fb968.0c2054cc-681a-4f51-b2ad-8bd0318ba61d"
+{% include imagelocal.html
+    src="jogatina-das-decadas/apps.54644.65129518710082559.30d43137-919f-4215-820e-038b409fb968.webp"
     alt="Figura: Unravel."
     caption="Relaxe e se divirta."
 %}
@@ -190,8 +190,8 @@ Reflexo de um resultado positivo do jogo às ações do jogador.
 A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou três dias desenvolvendo o jogo e acabou ganhando cerca de US $ 50 mil por dia em receita através de sua publicidade no jogo.
 {: .notice}
 
-{% include image.html
-    src="https://s2.glbimg.com/7IWNxPUe3ZavTl0vMfqcjDxvUqo=/0x0:695x463/984x0/smart/filters:strip_icc()/s.glbimg.com/po/tt2/f/original/2014/02/07/flappy-bird-ios.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/flappy-bird-ios.webp"
     alt="Figura: Flappy Bird."
     caption="Sucesso de vendas."
 %}

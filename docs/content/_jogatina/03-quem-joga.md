@@ -20,13 +20,19 @@ Conhecer o que o jogador quer e a situação que o mercado se apresenta são inf
 
 O jogo é um produto presente no mercado e como tal se apresenta com todas as suas características de comercialização.
 
-![Figura: Top 5 Most Popular Online Games for Women](jogatina-das-decadas/212938-1200x797-Player-Girl.webp){: .align-center}
+{% include imagelocal.html
+   src="jogatina-das-decadas/212938-1200x797-Player-Girl.webp"
+   alt="Figura: Top 5 Most Popular Online Games for Women."
+%}
 
 >Os jogos online estão mais populares do que nunca e as mulheres representam mais de 48% da população de jogadores. Não existe um perfil de mulher que joga jogos online. Embora geralmente representem uma parcela maior daqueles que jogam jogos casuais, as mulheres também são atraídas por muitos outros gêneros. [HOLMES, Amy](https://online.lovetoknow.com/wiki/Top_5_Most_Popular_Online_Games_for_Women)
 
 ## 1. O que é jogar?
 
-![Figura: Jogador Nº 1.](jogatina-das-decadas/Jogador-N-1-batalha.webp){: .align-center}
+{% include imagelocal.html
+   src="jogatina-das-decadas/Jogador-N-1-batalha.webp"
+   alt="Figura: Jogador Nº 1."
+%}
 
 É um evento social, sendo assim esse evento gera emoções que são interpretações das respostas sensoriais obtidas pelos elementos do jogo, segue a baixo algumas delas:
 

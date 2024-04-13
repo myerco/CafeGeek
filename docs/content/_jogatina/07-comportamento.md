@@ -14,8 +14,8 @@ tags:
   - caixa de skinner
 ---
 
-{% include image.html
-    src="https://cdn6.campograndenews.com.br/uploads/noticias/2020/03/10/2yc2mrado5gks.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/2yc2mrado5gks.webp"
     alt="Figura: Qual sua opinião sobre o vício em games?"
     caption="Figura: Qual sua opinião sobre o vício em games ser considerado um distúrbio mental?"
     idref="GERALDO, Mozart"
@@ -28,8 +28,8 @@ O vicio de jogos é discutido a muito tempo e já foi classificado como uma [doe
 
 ## 2. Gamificação
 
-{% include image.html
-    src="https://www.weblayer.com.br/wp-content/uploads/2016/11/Gamificacao-saiba-o-que-e-e-como-esse-metodo-funciona-1080x641.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/Gamificacao-saiba-o-que-e-e-como-esse-metodo-funciona-1080x641.webp"
     alt="Figura: Qual sua opinião sobre o vício em games?"
     caption="Figura: Gamificação: saiba o que é e como esse método funciona"
     idref="CRISTHIAN, Douglas"
@@ -74,8 +74,8 @@ As características aplicadas em ambientes onde é necessário potencializar as 
 
 ## 3. O que é trabalho?
 
-{% include image.html
-    src="https://beduka.com/blog/wp-content/uploads/2019/06/Historia-do-Trabalho.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/Historia-do-Trabalho.webp"
     alt="Figura: Aprenda sobre a História do Trabalho."
 %}
 
@@ -95,8 +95,8 @@ Portanto, trabalho é uma atividade ou serviço desempenhado para transformar a 
 
 ## 4. Por que trabalhamos?
 
-{% include image.html
-    src="https://nrfacil.com.br/blog/wp-content/uploads/2012/05/trabalhador005.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/trabalhador005.webp"
     alt="Figura: Aprenda sobre a História do Trabalho."
 %}
 
@@ -126,8 +126,8 @@ A resposta é: trabalhamos porque o trabalho é uma extensão do nosso ser e con
 
 ## 5. Colocando Você na Caixa de Skinner
 
-{% include image.html
-    src="https://psicoativo.com/wp-content/uploads/2016/08/caixa-de-skinner.jpg"
+{% include imagelocal.html
+    src="jogatina-das-decadas/caixa-de-skinner.webp"
     alt="Figura: Caixa de Skinner."
     caption="Figura: Caixa de Skinner: O centro do Condicionamento Operante"
     ifref="PSICOATIVO"
@@ -157,7 +157,10 @@ Por que isso funcionaria, quando as "recompensas" são apenas objetos digitais q
 
 ## 6. Criando alimento virtual para você comer
 
-{% include figure image_path="https://frostyboost.com/wp-content/uploads/2023/12/best-places-for-gold-farming-in-sod.png" alt="Best Farm Gold Spots for Mage in WoW SoD." caption="Best Farm Gold Spots for Mage in WoW SoD." %}
+{% include imagelocal.html
+    src="jogatina-das-decadas/best-places-for-gold-farming-in-sod.webp"
+    alt="Best Farm Gold Spots for Mage in WoW SoD."
+%}
 
 A maioria dos elementos de jogos baseados em vícios são baseados neste fato:
 
@@ -165,7 +168,10 @@ A maioria dos elementos de jogos baseados em vícios são baseados neste fato:
 
 As pessoas zombam dessa ideia o tempo todo ("Você passou todo esse tempo trabalhando para uma espada que nem existe ?") e essas pessoas são estúpidas . Se leva tempo, esforço e habilidade para obter um item, esse item tem valor, seja feito de diamantes, código binário ou carne seca.
 
-{% include figure image_path="https://static.fandomspot.com/images/08/48514/00-featured-golden-order-greatsword-elden-ring-screenshot.jpg" alt="Top 10 Coolest-Looking Swords in Elden Ring." caption="Top 10 Coolest-Looking Swords in Elden Ring." %}
+{% include imagelocal.html
+    src="jogatina-das-decadas/00-featured-golden-order-greatsword-elden-ring-screenshot.webp"
+    alt="Top 10 Coolest-Looking Swords in Elden Ring."
+%}
 
 É por isso que o mais alto tribunal da Coreia do Sul **decidiu que os bens virtuais devem ser legalmente tratados da mesma forma que os bens reais**. E os bens virtuais são agora uma indústria de US$ 5 bilhões em todo o mundo.
 {: .notice}
@@ -185,7 +191,10 @@ Como o artigo do cara da Microsoft prova, os desenvolvedores sabem que estão us
 
 ## 7. Fazendo você pressionar a alavanca
 
-{% include figure image_path="https://assetsio.reedpopcdn.com/elden_ring_godrick_the_grafted_7_wAK1ZXI.jpg?width=690&quality=75&format=jpg&auto=webp" alt="Elden Ring - Godrick the Grafted - Dicas e estratégias para derrotar o boss." caption="Elden Ring - Godrick the Grafted - Dicas e estratégias para derrotar o boss." %}
+{% include imagelocal.html
+    src="jogatina-das-decadas/elden_ring_godrick_the_grafted_7_wAK1ZXI.webp"
+    alt="Elden Ring - Godrick the Grafted - Dicas e estratégias para derrotar o boss." caption="Elden Ring - Godrick the Grafted - Dicas e estratégias para derrotar o boss."
+%}
 
 Então imagine o rato em sua caixa. Ou, já que sou um desses jogadores e não gosto de me ver como um rato, imagine um hamster adorável. Talvez ele possa falar, e é dublado por Chris Rock.
 
@@ -209,7 +218,10 @@ Se você não a conhecesse melhor, pensaria que ela tinha uma doença mental inc
 
 BF Skinner sabia. Ele chamou esse processo de treinamento de "modelagem". Pequenas recompensas, passo a passo, como elos de uma corrente. No WoW , você decide que quer a armadura super legal **Tier 10**. Você precisa de cinco peças separadas. Para obter o conjunto completo, você precisa de mais de 400 Frost Emblems , que são ganhos um par de cada vez, de certos inimigos. Então você precisa atualizar cada peça de armadura com Marcas de Santificação. Então, novamente com Marcas Heroicas de Santificação. Para obter tudo isso, você deve executar novamente missões repetitivas e sentar, clicando com o mouse, por dias e dias e dias. Boobies que se danem.
 
-{% include figure image_path="https://wow.zamimg.com/uploads/screenshots/normal/846496.jpg?maxWidth=800" alt="WoW Classic Warrior Armor/Tier Sets - Appearances, Set Bonuses, Sources." caption="WoW Classic Warrior Armor/Tier Sets - Appearances, Set Bonuses, Sources." %}
+{% include imagelocal
+    src="jogatina-das-decadas/846496.webp"
+    alt="WoW Classic Warrior Armor/Tier Sets - Appearances, Set Bonuses, Sources." caption="WoW Classic Warrior Armor/Tier Sets - Appearances, Set Bonuses, Sources."
+%}
 
 Quando chegar a esse ponto, você ainda pode chamar essa atividade de "jogo"? É mais como coçar uma erupção cutânea. E fica pior...
 
@@ -238,7 +250,11 @@ Este é o verdadeiro movimento do pau. Por que recompensar o hamster por pressio
 
 Os behavioristas chamam isso de "evitação". Eles montam a gaiola para que dê um choque elétrico no animal a cada 30 segundos , a menos que ele atinja a alavanca. Ele aprende muito rápido a ficar na alavanca, o tempo todo, batendo repetidamente. Para todo sempre.
 
-{% include figure image_path="https://criticalhits.com.br/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2013/02/farmville2-740x416.jpg.webp" alt="Série animada do jogo social FarmVille vem aí." caption="Série animada do jogo social FarmVille vem aí." %}
+{% include imagelocal.html
+    src="jogatina-das-decadas/farmville2-740x416.webp"
+    alt="Série animada do jogo social FarmVille vem aí."
+    caption="Série animada do jogo social FarmVille vem aí." 
+%}
 
 Por que sua mãe está colhendo obsessivamente em **Farmville** ? Porque eles murcham e apodrecem se ela não o fizer. No Ultima Online , sua casa ou castelo começaria a decair se você não voltasse a ele regularmente. Em Animal Crossing , a cidade cresce com ervas daninhas e sua casa virtual fica infestada de baratas se você não fizer login com frequência suficiente. É a joia da coroa da baboseira da programação de jogos - mantenha o jogador clicando e clicando e clicando apenas para evitar perder as coisas que eles trabalharam tanto para conseguir .
 
