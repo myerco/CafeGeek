@@ -210,7 +210,7 @@ Se você não a conhecesse melhor, pensaria que ela tinha uma doença mental inc
 
 BF Skinner sabia. Ele chamou esse processo de treinamento de "modelagem". Pequenas recompensas, passo a passo, como elos de uma corrente. No WoW , você decide que quer a armadura super legal **Tier 10**. Você precisa de cinco peças separadas. Para obter o conjunto completo, você precisa de mais de 400 Frost Emblems , que são ganhos um par de cada vez, de certos inimigos. Então você precisa atualizar cada peça de armadura com Marcas de Santificação. Então, novamente com Marcas Heroicas de Santificação. Para obter tudo isso, você deve executar novamente missões repetitivas e sentar, clicando com o mouse, por dias e dias e dias. Boobies que se danem.
 
-{% include imagelocal
+{% include imagelocal.html
     src="jogatina-das-decadas/846496.webp"
     alt="WoW Classic Warrior Armor/Tier Sets."
 %}
