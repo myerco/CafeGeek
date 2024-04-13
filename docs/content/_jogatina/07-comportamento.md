@@ -129,10 +129,9 @@ A resposta é: trabalhamos porque o trabalho é uma extensão do nosso ser e con
 {% include imagelocal.html
     src="jogatina-das-decadas/caixa-de-skinner.webp"
     alt="Figura: Caixa de Skinner."
-    caption="Figura: Caixa de Skinner: O centro do Condicionamento Operante"
-    ifref="PSICOATIVO"
-    ref="https://psicoativo.com/2016/08/caixa-de-skinner-o-centro-do-condicionamento-operante.html"
 %}
+
+>Caixa de Skinner: O centro do Condicionamento Operante[PSCOATIO](https://psicoativo.com/2016/08/caixa-de-skinner-o-centro-do-condicionamento-operante.html)
 
 Se você já foi viciado em um jogo ou conhece alguém que era, este [artigo é realmente perturbador](https://www.gamasutra.com/view/feature/3085/behavioral_game_design.php?page=1) . Ele foi escrito por um pesquisador de jogos da Microsoft sobre como fazer videogames que prendem os jogadores, quer eles gostem ou não. Ele tem doutorado em ciências comportamentais e do cérebro.
 
@@ -253,7 +252,6 @@ Os behavioristas chamam isso de "evitação". Eles montam a gaiola para que dê 
 {% include imagelocal.html
     src="jogatina-das-decadas/farmville2-740x416.webp"
     alt="Série animada do jogo social FarmVille vem aí."
-    caption="Série animada do jogo social FarmVille vem aí." 
 %}
 
 Por que sua mãe está colhendo obsessivamente em **Farmville** ? Porque eles murcham e apodrecem se ela não o fizer. No Ultima Online , sua casa ou castelo começaria a decair se você não voltasse a ele regularmente. Em Animal Crossing , a cidade cresce com ervas daninhas e sua casa virtual fica infestada de baratas se você não fizer login com frequência suficiente. É a joia da coroa da baboseira da programação de jogos - mantenha o jogador clicando e clicando e clicando apenas para evitar perder as coisas que eles trabalharam tanto para conseguir .
