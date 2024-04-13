@@ -26,7 +26,10 @@ Um jogo digital é um produto de software e como muitos projetos de desenvolvime
 
 - Efeitos sonoros.
 
-{% include figure image_path="https://miro.medium.com/max/875/0*OlVTuxFz-Qn7oTUn" alt="So, You Want to Be a Game Developer?" caption="**Figura:** So, You Want to Be a Game Developer?." %}
+{% include imagelocal.html
+    src="unreal/notebook.webp"
+    alt="Figura: Notebooks"
+%}
 
 Se você é como a maioria das pessoas, provavelmente joga videogame. Não importa se você é um jogador competitivo de e-sports atrás de muito dinheiro com seus jogos, ou se gosta de jogar spider ou candy crush como minha mãe, todo mundo joga. Mas você já pensou em fazê-los para o seu trabalho?[REF](https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70)
 
@@ -49,25 +52,37 @@ int main() {
 
 A arte digital (2D e 3D) é a apresentação de personagens, ambiente e outros elementos que estão presentes nos jogos eletrônicos.
 
-{% include figure image_path="https://i2.wp.com/www.crieseusjogos.com.br/wp-content/uploads/2018/08/jogos-2d-ou-jogos-3d.jpeg?w=1200&ssl=1" alt="É melhor criar um jogo 2D ou 3D?" caption="**Figura:** É melhor criar um jogo 2D ou 3D?." %}
+{% include imagelocal.html 
+  src="unreal/jogos-2d-ou-jogos-3d.webp"
+  alt="É melhor criar um jogo 2D ou 3D?"
+%}
 
 Desenvolvimento de jogos evoluiu e a geração de hoje preza bastante pelo seu design mágico, estrutura, renderização e textura. Isso tem influenciado diretamente em saber se é melhor criar um jogo 2D ou 3D.[REF](https://www.crieseusjogos.com.br/e-melhor-criar-um-jogo-2d-ou-3d/)
 
 ## 3. Computação gráfica
 
-{% include figure image_path="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Activemarker2.PNG/330px-Activemarker2.PNG" alt="3D (computação gráfica)" caption="**Figura:** 3D (computação gráfica)." %}
+{% include imagelocal.html
+  src="unreal/Activemarker2.webp"
+  alt="3D (computação gráfica)"
+%}
 
 Computação gráfica tridimensional são gráficos que usam representações tridimensionais de dados geométricos (geralmente cartesianos) que são armazenados em um computador com o propósito de realizar cálculos e renderizar imagens 2D. [REF](https://pt.wikipedia.org/wiki/3D_%28computa%C3%A7%C3%A3o_gr%C3%A1fica%29).
 
 ## 4. Elementos de construção de Narrativas
 
-{% include figure image_path="https://escolabrasileiradegames.com.br/wp2016/wp-content/uploads/2020/06/escola-brasileira-de-games-Jornada-do-Her%C3%B3i.jpg" alt="Jornada do Herói: Desenvolvimento de Narrativas para Jogos" caption="**Figura:** Jornada do Herói: Desenvolvimento de Narrativas para Jogos." %}
+{% include imagelocal.html 
+  src="unreal/escola-brasileira-de-games-Jornada-do-Herói.webp"
+  alt="Jornada do Herói: Desenvolvimento de Narrativas para Jogos" 
+%}
 
 Toda e qualquer história seja ela de aventura, terror, ação, romance ou qualquer outro gênero, é a responsável por chamar atenção do usuário e levar o jogador de encontro com uma nova aventura, conhecer um novo mundo qual ele irá mergulhar, quem são os personagens, seus medos, conquistas e aflições. [REF](https://escolabrasileiradegames.com.br/blog/jornada-do-heroi-desenvolvimento-de-narrativas-para-jogos)
 
 ## 5. Efeitos sonoros
 
-{% include figure image_path="https://sp-ao.shortpixel.ai/client/to_webp,q_lossy,ret_img/https://kreonit.com/wp-content/uploads/2020/08/sound_main_optimized.jpg" alt="Game sound design: soundtrack, sound effects and how to combine them" caption="**Figura:** Game sound design: soundtrack, sound effects and how to combine them." %}
+{% include imagelocal.html
+  src="unreal/sound_main_optimized.webp"
+  alt="Game sound design: soundtrack, sound effects and how to combine them"
+%}
 
 O design de som é uma parte muito importante de um jogo. Os desenvolvedores de jogos concordam que a música e os sons são poderosos condutores emocionais. E nosso objetivo é usar totalmente o som para tornar o jogo ainda melhor.
 
@@ -132,7 +147,10 @@ Existem aplicações que auxiliam na produção de programas de computador ou jo
 
 ## 7. O que é uma Engine e Framework?
 
-{% include figure image_path="https://developerhouse.com/wp-content/uploads/2020/10/game-engines-and-framework.jpg" alt="Game Engine VS Game Framework"  %}
+{% include imagelocal.html
+  src="unreal/game-engines-and-framework.webp"
+  alt="Game Engine VS Game Framework"
+%}
 
 Antes que os motores de jogo viessem à existência, os jogos eram escritos como uma única entidade; o que significa que, se você quisesse construir outro jogo, você tinha que reescrever códigos quase inteiros novamente. Havia muitas outras preocupações também ao escrever jogos. Por vezes, os jogos foram concebidos de baixo para cima para utilizar o hardware de vídeo de forma otimizada...[REF](https://developerhouse.com/game-engine-vs-game-framework)
 
@@ -159,7 +177,10 @@ A maioria das *Engines* seguem um ciclo de execução da lógica de programaçã
 
 ## 9. O que é Unreal Engine?
 
-![image-center](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg/800px-Unreal%2BEngine_11_18_UE_Feed_Migration_Images_FEED_THUMB_UE_Logo_Generic-1400x788-c11642ffb55e268095321f5eb144f469beb0074f.jpg){: .align-center}
+{% include imagelocal.html
+  src="unreal/unreal-engine-logo.webp"
+  alt="Unreal Engine"
+%}
 
 É uma *Engine* (motor gráfico) para desenvolvimento de jogos que engloba vários aspectos na sua produção, a seguir listamos algumas funcionalidades:
 
