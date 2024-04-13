@@ -17,9 +17,6 @@ tags:
 {% include imagelocal.html
     src="jogatina-das-decadas/2yc2mrado5gks.webp"
     alt="Figura: Qual sua opinião sobre o vício em games?"
-    caption="Figura: Qual sua opinião sobre o vício em games ser considerado um distúrbio mental?"
-    idref="GERALDO, Mozart"
-    ref="https://www.campograndenews.com.br/lado-b/games/qual-sua-opiniao-sobre-o-vicio-em-games-ser-considerado-um-disturbio-mental>"
 %}
 
 ## 1. Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?
@@ -31,9 +28,6 @@ O vicio de jogos é discutido a muito tempo e já foi classificado como uma [doe
 {% include imagelocal.html
     src="jogatina-das-decadas/Gamificacao-saiba-o-que-e-e-como-esse-metodo-funciona-1080x641.webp"
     alt="Figura: Qual sua opinião sobre o vício em games?"
-    caption="Figura: Gamificação: saiba o que é e como esse método funciona"
-    idref="CRISTHIAN, Douglas"
-    ref="https://www.weblayer.com.br/gamificacao/"
 %}
 
 Não podemos continuar sem antes entender o modelo de Gamificação que é a aplicação das estratégias dos jogos nas atividades do dia a dia, com objetivo de aumentar o engajamento dos participantes, ou seja fazer com que colaborador, cliente ou pessoa que recebe o serviço fique cada vez mais conectado ou trabalhando no serviço [[PUCPR](https://posdigital.pucpr.br/blog/gamificacao-engajamento "O que é gamificação e como ela aumenta o engajamento")].
