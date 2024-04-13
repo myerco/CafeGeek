@@ -22,7 +22,7 @@ A função do jogo, nas formas mais elevadas que aqui nos interessam, pode de ma
 
 - Uma luta por alguma coisa ou a representação de alguma coisa.
 
-![Figura: WOW farming](https://frostyboost.com/wp-content/uploads/2023/12/best-places-for-gold-farming-in-sod.png){: .align-center}
+![Figura: WOW farming]({{ site.imgpath  }}jogatina-das-decadas/best-places-for-gold-farming-in-sod.png){: .align-center}
 
 Estas duas funções podem também por vezes confundir-se, de tal modo que o jogo passe a "representar" uma luta, ou, então, se torne uma luta para melhor representação de alguma coisa.
 
