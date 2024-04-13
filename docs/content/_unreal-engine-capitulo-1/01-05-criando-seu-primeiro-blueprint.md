@@ -100,7 +100,7 @@ Logo em seguida podemos definir um modelo pre-definido para auxiliar na construÃ
 Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
 
 {% include imagelocal.html
-    src="unreal/actor/actor/unreal-engine-save-level.webp"
+    src="unreal/actor/unreal-engine-save-level.webp"
     alt="Figura: Save Current."
 %}
 
