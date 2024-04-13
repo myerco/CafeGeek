@@ -170,7 +170,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 
 ### 4.3. Som
 
-{% include image.html
+{% include imagelocal.html
     src="jogatina-das-decadas/journey-como-jogar-amigo.webp"
     alt="Figura: Como jogar Journey com um amigo?"
 %}
@@ -193,7 +193,7 @@ Abaixo estão dez jogos com o que consideramos os melhores efeitos de iluminaç�
 
 ### 4.6. Jogabilidade
 
-{% include image.html
+{% include imagelocal.html
     src="jogatina-das-decadas/2021-11-17-image-2-j.webp"
     alt="Figura: It Takes Two."
 %}
