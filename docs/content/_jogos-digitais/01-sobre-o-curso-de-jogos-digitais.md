@@ -11,7 +11,7 @@ sidebar:
     nav: dev_game 
 ---
 
-{% include imagelocal 
+{% include imagelocal.html 
     src="/assets/images/jogos-digitais/andreas-haslinger-QY2VcNMLX5o-unsplash.webp" alt="Andreas Haslinger"
 caption="Figura:Andreas Haslinger"
 ref="https://indivisiblegame.com/"
