@@ -1,7 +1,7 @@
 ---
 title: "O mercado de jogos eletrônicos"
 permalink: /a-jogatina-das-decadas/o-mercado-de-jogos-eletronicos
-excerpt: "Como é o mercado de jogos eletrônicos?"
+excerpt: "O mercado de jogos cresce a cada ano, adaptando constantemente o produto para atrair novos jogadores."
 date: 2024-03-06T08:48:05-04:00
 last_modified_at: 2024-03-06T08:48:05-04:00
 order: 6

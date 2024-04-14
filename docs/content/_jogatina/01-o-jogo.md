@@ -1,7 +1,7 @@
 ---
 title: O jogo
 permalink: /a-jogatina-das-decadas/o-jogo
-excerpt: "O que é um Jogo?"
+excerpt: "O jogo é uma Atividade recreativa com regras, competição física ou mental, preparação para desafios futuros, impulso inato de dominar e competir."
 date: 2024-03-02T08:48:05-04:00
 last_modified_at: 2024-03-02T08:48:05-04:00
 order: 1

@@ -10,8 +10,6 @@ tags:
   - curso
 ---
 
-{% include figure image_path="/assets/images/jogos-digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
-
 ## 1. O que é computação gráfica?
 
 A Computação Gráfica reúne um conjunto de técnicas que permitem a geração de imagens a partir de modelos computacionais de objetos reais, objetos imaginários ou de dados quaisquer coletados por equipamentos na natureza. [O que é computação gráfica](http://www.um.pro.br/index.php?c=/computacao/definicao)

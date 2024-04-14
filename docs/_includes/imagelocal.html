@@ -23,11 +23,17 @@
 </style>  
 <div class="center">
   <figure class="figure_local">
+    {%- if include.ref %}    
+      <a href="{{ include.ref }}">
+    {%- endif %}    
     <img
       src="{{ site.imgpath  }}/{{ include.src }}"
       alt="{{ include.alt }}"
       class="align-center"
     >
+    {%- if include.ref %}    
+      </a>
+    {%- endif %}        
     <figcaption> 
       {%- if include.title %}    
         <strong>{{ include.title }}</strong>

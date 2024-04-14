@@ -7,8 +7,6 @@ last_modified_at: 2023-03-27T08:48:05-04:00
 order: 104
 ---
 
-{% include figure image_path="/assets/images/jogos-digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
-
 ## 1. Lista de Frames e Threads
 
 Para exemplificar o processo de renderização vamos apresentar os seguintes passos conforme as _thread_ são executas:

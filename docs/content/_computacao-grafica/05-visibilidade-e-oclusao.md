@@ -7,8 +7,6 @@ last_modified_at: 2023-03-27T08:48:05-04:00
 order: 105
 ---
 
-{% include figure image_path="/assets/images/jogos-digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
-
 ## 1. Distance Culling ou corte de distância
 
 Este método de seleção é ideal para grandes níveis externos, onde você teria edifícios ou estruturas de algum tipo com interiores detalhados, onde você gostaria de selecionar aqueles objetos que são pequenos demais para considerar importantes a distâncias distantes.

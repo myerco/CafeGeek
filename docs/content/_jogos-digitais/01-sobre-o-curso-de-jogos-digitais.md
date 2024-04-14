@@ -11,7 +11,11 @@ sidebar:
     nav: dev_game 
 ---
 
-{% include figure image_path="/assets/images/jogos-digitais/andreas-haslinger-QY2VcNMLX5o-unsplash.webp" alt="Andreas Haslinger" caption="" %}
+{% include imagelocal 
+    src="/assets/images/jogos-digitais/andreas-haslinger-QY2VcNMLX5o-unsplash.webp" alt="Andreas Haslinger"
+caption="Figura:Andreas Haslinger"
+ref="https://indivisiblegame.com/"
+%}
 
 ## 1. O que é o curso de jogos digitais?
 

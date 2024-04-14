@@ -13,8 +13,6 @@ tags:
   - sistema de coordenadas
 ---
 
-{% include figure image_path="/assets/images/jogos-digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
-
 ## 1. Como são formados os objetos 3D?
 
 Os objetos 3D são formados no computador através de processos de modelagem 3D, que podem ser realizados por meio de diferentes softwares, como o Blender, Maya, 3D Studio Max, entre outros.

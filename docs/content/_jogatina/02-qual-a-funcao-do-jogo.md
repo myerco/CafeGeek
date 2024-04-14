@@ -1,7 +1,7 @@
 ---
 title: Qual a função do jogo?
 permalink: /a-jogatina-das-decadas/qual-a-funcao-do-jogo
-excerpt: "As diferentes representações dos jogos na sociedade."
+excerpt: "O jogo, seja uma competição por algo ou sua representação, está presente em vários aspectos da sociedade."
 date: 2024-03-02T08:48:05-04:00
 last_modified_at: 2024-03-02T08:48:05-04:00
 order: 2
@@ -84,6 +84,6 @@ Atualmente a palavra jogo esta presente em diversas áreas da sociedade, como po
 
 ### 7.1. O que é a função do jogo?
 
-- Sendo o jogo uma luta por alguma coisa ou a representação de alguma coisa e esta presente em vários aspectos da sociedade;
+- Sendo o jogo uma luta por alguma coisa ou a representação de alguma coisa e está presente em vários aspectos da sociedade;
 
 - É uma representação dos desafios que os indivíduos enfrentam no dia a dia na nossa sociedade.

@@ -7,8 +7,6 @@ last_modified_at: 2023-03-27T08:48:05-04:00
 order: 103
 ---
 
-{% include figure image_path="/assets/images/jogos-digitais/brecht-corbeel-g7JkVRANxX0-unsplash.webp" alt="Brecht Corbeel" caption="" %}
-
 ## 1. Entendendo o processo de renderização
 
 A renderização de imagens 3D é um processo complexo que envolve várias etapas. Em geral, o processo de renderização envolve a conversão de dados de modelos 3D em imagens 2D usando técnicas de iluminação, sombreamento e texturização para criar uma imagem final realista.
