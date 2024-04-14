@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Sitemap"
+excerpt: "Mapa do site"
 permalink: /sitemap/
 author_profile: false
 ---

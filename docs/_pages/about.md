@@ -2,7 +2,7 @@
 permalink: /about/
 title: null
 classes: wide
-excerpt: "Sobre o Cafegeek"
+excerpt: "O CafeGeek é um site educacional com foco em desenvolvimento de jogos digitais."
 last_modified_at: 2023-03-29T08:48:05-04:00
 author_profile: true
 ---
