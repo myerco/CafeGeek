@@ -93,12 +93,11 @@ Em contrapartida devemos lembrar que o riso no filme O Nome da Rosa teve outra c
 
 ## 4. A Tensão como um elemento do jogo
 
-![Figura: Alien Isolation]({{ site.imgpath  }}jogatina-das-decadas/alien_isolation_1.webp){: .align-center}
-
 {% include imagelocal.html
    src="jogatina-das-decadas/alien_isolation_1.webp"
    alt="Figura: Alien Isolation."
    caption="Figura: Alien Isolation"
+   idref="DIAS, Guilherme"
    ref="https://www.tecmundo.com.br/voxel/jogos/alien-isolation/analise"
 %}
 

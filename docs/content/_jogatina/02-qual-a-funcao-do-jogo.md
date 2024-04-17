@@ -22,7 +22,12 @@ A função do jogo, nas formas mais elevadas que aqui nos interessam, pode de ma
 
 - Uma luta por alguma coisa ou a representação de alguma coisa.
 
-![Figura: WOW farming]({{ site.imgpath  }}jogatina-das-decadas/best-places-for-gold-farming-in-sod.webp){: .align-center}
+{% include imagelocal.html
+   src="jogatina-das-decadas/best-places-for-gold-farming-in-sod.webp"
+   alt="Figura: WOW farming."
+   caption="Figura: Figura: WOW farming"
+   ref="https://nosnerds.com.br/world-of-warcraft-classic-como-fazer-ouro/wow-classic-gold-pile/"
+%}
 
 Estas duas funções podem também por vezes confundir-se, de tal modo que o jogo passe a "representar" uma luta, ou, então, se torne uma luta para melhor representação de alguma coisa.
 
@@ -34,22 +39,34 @@ O ser humano, tal como todos os seres da escala biológica, tem como caracterís
 
 ## 2. O jogo Arte e Cultura
 
-![Figura: O Jogo na arte.]({{ site.imgpath  }}jogatina-das-decadas/2012_01_20_15_37_021.webp){: .align-center}
-
->Os relógios que se derretem representam um tempo que passa de forma diferente. Ao contrário dos relógios normais, que marcam com precisão a passagem dos segundos, estes relógios de Dalí possuem marcações distintas, pois os seus ponteiros estão derretidos e trazem uma noção distorcida dos segundos." [ALDAIR, Laura](https://www.culturagenial.com/a-persistencia-da-memoria-de-salvador-dali/)
+{% include imagelocal.html
+   src="jogatina-das-decadas/2012_01_20_15_37_021.webp"
+   alt="Figura: O Jogo na arte."
+   caption="Figura: Os relógios que se derretem representam um tempo que passa de forma diferente. Ao contrário dos relógios normais, que marcam com precisão a passagem dos segundos, estes relógios de Dalí possuem marcações distintas, pois os seus ponteiros estão derretidos e trazem uma noção distorcida dos segundos."
+   idref="ALDAIR,Laura"
+   ref="https://www.culturagenial.com/a-persistencia-da-memoria-de-salvador-dali/"
+%}
 
 O processo criativo e construção de elementos imaginários estão presentes nas caracterizas dos jogos.
 Na história, na arte e na literatura, tudo aquilo que vemos sob a forma de  um belo e nobre jogo começou por ser um jogo sagrado. Os torneios e justas, as ordens, os votos, os títulos, são  todos vestígios dos ritos de iniciação primitivos.
 
 ## 3. O jogo e a Guerra
 
-![Figura: O Jogo e a guerra]({{ site.imgpath  }}jogatina-das-decadas/art-painting-delacroix_wallcoo.com.webp){: .align-center}
+{% include imagelocal.html
+   src="jogatina-das-decadas/art-painting-delacroix_wallcoo.com.webp"
+   alt="Figura: O Jogo e a guerra."
+   caption="Figura: O Jogo e a guerra."
+%}
 
 É difícil não associar a guerra ao jogo mas o contrário é possível, na guerra o objetivo é conquistar ou subjugar o seu oponente.
 
 ## 4. O jogo e o Direito
 
-![Figura: O Jogo e o Direito]({{ site.imgpath  }}jogatina-das-decadas/leis.webp){: .align-center}
+{% include imagelocal.html
+   src="jogatina-das-decadas/leis.webp"
+   alt="Figura: O Jogo e o Direito."
+   caption="Figura: O Jogo e o Direito."
+%}
 
 Como dito anteriormente o jogo não esta ligado diretamente ao lúdico então o Luizinga associa o "processo" a um jogo considerando o seguinte:
 
@@ -68,13 +85,23 @@ Um antigo juiz escreveu-me o seguinte: "O estilo e o conteúdo das intervençõe
 
 ![Figura: O jogo e a linguagem (em alemão: Sprachspiel)]({{ site.imgpath  }}jogatina-das-decadas/barreira-linguagem-764x343.webp){: .align-center}
 
+{% include imagelocal.html
+   src="jogatina-das-decadas/barreira-linguagem-764x343.webp"
+   alt="Figura: O jogo e a linguagem (em alemão: Sprachspiel)."
+   caption="Figura: O jogo e a linguagem (em alemão: Sprachspiel)."
+%}
+
 >É um conceito filosófico desenvolvido por Ludwig Wittgenstein, que se refere a exemplos simples de uso da linguagem e as ações nas quais a linguagem é tecida. Wittgenstein argumentou que uma palavra ou mesmo uma frase só tem significado dentro das regras do jogo linguístico que está sendo jogado em determinado momento. [WIKIPEDIA - JODO DE LINGUAGEM](https://pt.wikipedia.org/wiki/Jogo_de_linguagem_(filosofia))
 
 A linguagem permite distinguir as coisas, defini-las e constatá-las,  em resumo, designá-las e com essa designação elevá-las ao domínio do espírito. Na criação da fala e da linguagem,  brincando com essa maravilhosa faculdade de designar, é como se o espírito estivesse constantemente saltando  entre a matéria e as coisas pensadas. Por detrás de toda expressão abstrata se oculta uma metáfora, e toda metáfora  é jogo de palavras. Assim, ao dar expressão à vida, o homem cria um outro mundo, um mundo poético, ao lado do  da natureza.
 
 ## 6. Algumas considerações sobre o jogo
 
-![Figura: The Thinker]({{ site.imgpath  }}jogatina-das-decadas/musee_Rodin_1.webp){: .align-center}
+{% include imagelocal.html
+   src="jogatina-das-decadas/musee_Rodin_1.webp"
+   alt="Figura: The Thinker."
+   caption="Figura: The Thinker."
+%}
 
 O autor apresenta as suas interpretações de elementos presentes na nossa sociedade e os caracteriza como jogo na sua definição, devemos lembrar que o HUIZINGA utiliza e define jogo na Perspectiva do jogador e extrai classificações do objeto em estudo dentro de um tempo e realidade por conseguinte devemos não deveríamos considerar  a justiça como um jogo de ganhar e perder pois isso não melhora as grandes diferenças sociais na nossa sociedade.
 
