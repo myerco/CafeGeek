@@ -265,7 +265,7 @@ Em geral, a morte nos jogos eletrônicos é uma maneira de adicionar desafio e r
 {% include imagelocal.html
     src="me-conta-uma-historia/vaas-600x337.webp"
     alt="Figura: Far Cry 3."
-    caption"Figura: Far Cry 3."
+    caption="Figura: Far Cry 3."
 %}  
 
 ## 4. Nome
