@@ -16,6 +16,7 @@ tags:
 {% include imagelocal.html
     src="jogatina-das-decadas/2yc2mrado5gks.webp"
     alt="Figura: Qual sua opinião sobre o vício em games?"
+    caption="Figura: Qual sua opinião sobre o vício em games?"
 %}
 
 ## 1. Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?
@@ -27,6 +28,7 @@ O vicio de jogos é discutido a muito tempo e já foi classificado como uma [doe
 {% include imagelocal.html
     src="jogatina-das-decadas/Gamificacao-saiba-o-que-e-e-como-esse-metodo-funciona-1080x641.webp"
     alt="Figura: Qual sua opinião sobre o vício em games?"
+    caption="Figura: Qual sua opinião sobre o vício em games?"
 %}
 
 Não podemos continuar sem antes entender o modelo de Gamificação que é a aplicação das estratégias dos jogos nas atividades do dia a dia, com objetivo de aumentar o engajamento dos participantes, ou seja fazer com que colaborador, cliente ou pessoa que recebe o serviço fique cada vez mais conectado ou trabalhando no serviço [[PUCPR](https://posdigital.pucpr.br/blog/gamificacao-engajamento "O que é gamificação e como ela aumenta o engajamento")].
@@ -70,6 +72,7 @@ As características aplicadas em ambientes onde é necessário potencializar as 
 {% include imagelocal.html
     src="jogatina-das-decadas/Historia-do-Trabalho.webp"
     alt="Figura: Aprenda sobre a História do Trabalho."
+    caption="Figura: Aprenda sobre a História do Trabalho."
 %}
 
 >[BEDUKA - Aprenda sobre a História do Trabalho](https://beduka.com/blog/materias/sociologia/historia-do-trabalho/)
@@ -91,6 +94,7 @@ Portanto, trabalho é uma atividade ou serviço desempenhado para transformar a 
 {% include imagelocal.html
     src="jogatina-das-decadas/trabalhador005.webp"
     alt="Figura: Aprenda sobre a História do Trabalho."
+    caption="Figura: Aprenda sobre a História do Trabalho."
 %}
 
 [Por que trabalhamos?](http://nrfacil.com.br/blog/?p=4776) Talvez seja uma resposta simples: Para  "ter" coisas!
@@ -122,6 +126,7 @@ A resposta é: trabalhamos porque o trabalho é uma extensão do nosso ser e con
 {% include imagelocal.html
     src="jogatina-das-decadas/caixa-de-skinner.webp"
     alt="Figura: Caixa de Skinner."
+    caption="Figura: Caixa de Skinner."
 %}
 
 >Caixa de Skinner: O centro do Condicionamento Operante[PSCOATIO](https://psicoativo.com/2016/08/caixa-de-skinner-o-centro-do-condicionamento-operante.html)
@@ -151,7 +156,8 @@ Por que isso funcionaria, quando as "recompensas" são apenas objetos digitais q
 
 {% include imagelocal.html
     src="jogatina-das-decadas/best-places-for-gold-farming-in-sod.webp"
-    alt="Best Farm Gold Spots for Mage in WoW SoD."
+    alt="Figura: Best Farm Gold Spots for Mage in WoW SoD."
+    caption="Figura: Best Farm Gold Spots for Mage in WoW SoD."
 %}
 
 A maioria dos elementos de jogos baseados em vícios são baseados neste fato:
@@ -162,7 +168,8 @@ As pessoas zombam dessa ideia o tempo todo ("Você passou todo esse tempo trabal
 
 {% include imagelocal.html
     src="jogatina-das-decadas/00-featured-golden-order-greatsword-elden-ring-screenshot.webp"
-    alt="Top 10 Coolest-Looking Swords in Elden Ring."
+    alt="Figura: Top 10 Coolest-Looking Swords in Elden Ring."
+    caption"Figura: Top 10 Coolest-Looking Swords in Elden Ring."
 %}
 
 É por isso que o mais alto tribunal da Coreia do Sul **decidiu que os bens virtuais devem ser legalmente tratados da mesma forma que os bens reais**. E os bens virtuais são agora uma indústria de US$ 5 bilhões em todo o mundo.
@@ -185,7 +192,8 @@ Como o artigo do cara da Microsoft prova, os desenvolvedores sabem que estão us
 
 {% include imagelocal.html
     src="jogatina-das-decadas/elden_ring_godrick_the_grafted_7_wAK1ZXI.webp"
-    alt="Elden Ring - Godrick the Grafted - Dicas e estratégias para derrotar o boss."
+    alt="Figura: Elden Ring - Godrick the Grafted - Dicas e estratégias para derrotar o boss."
+    caption="Figura: Elden Ring - Godrick the Grafted - Dicas e estratégias para derrotar o boss."
 %}
 
 Então imagine o rato em sua caixa. Ou, já que sou um desses jogadores e não gosto de me ver como um rato, imagine um hamster adorável. Talvez ele possa falar, e é dublado por Chris Rock.
@@ -212,7 +220,8 @@ BF Skinner sabia. Ele chamou esse processo de treinamento de "modelagem". Pequen
 
 {% include imagelocal.html
     src="jogatina-das-decadas/846496.webp"
-    alt="WoW Classic Warrior Armor/Tier Sets."
+    alt="Figura: WoW Classic Warrior Armor/Tier Sets."
+    caption="Figura: WoW Classic Warrior Armor/Tier Sets."
 %}
 
 Quando chegar a esse ponto, você ainda pode chamar essa atividade de "jogo"? É mais como coçar uma erupção cutânea. E fica pior...
@@ -244,7 +253,8 @@ Os behavioristas chamam isso de "evitação". Eles montam a gaiola para que dê 
 
 {% include imagelocal.html
     src="jogatina-das-decadas/farmville2-740x416.webp"
-    alt="Série animada do jogo social FarmVille vem aí."
+    alt="Figura: Série animada do jogo social FarmVille vem aí."
+    caption="Figura: Série animada do jogo social FarmVille vem aí."
 %}
 
 Por que sua mãe está colhendo obsessivamente em **Farmville** ? Porque eles murcham e apodrecem se ela não o fizer. No Ultima Online , sua casa ou castelo começaria a decair se você não voltasse a ele regularmente. Em Animal Crossing , a cidade cresce com ervas daninhas e sua casa virtual fica infestada de baratas se você não fizer login com frequência suficiente. É a joia da coroa da baboseira da programação de jogos - mantenha o jogador clicando e clicando e clicando apenas para evitar perder as coisas que eles trabalharam tanto para conseguir .

@@ -23,6 +23,7 @@ O jogo é um produto presente no mercado e como tal se apresenta com todas as su
 {% include imagelocal.html
    src="jogatina-das-decadas/212938-1200x797-Player-Girl.webp"
    alt="Figura: Top 5 Most Popular Online Games for Women."
+   caption="Figura: Top 5 Most Popular Online Games for Women."
    ref="https://arquivo.canaltech.com.br/games/menina-tambem-joga-e-ainda-trabalha-com-desenvolvimento-de-games-64071/"
 %}
 
@@ -80,6 +81,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     src="jogatina-das-decadas/Final_Fantasy_VII_Remake_personagens.webp"
     alt="Figura: Final Fantasy VII Remake."
     caption="Figura: Final Fantasy VII Remake (ファイナルファンタジーVII リメイク Fainaru Fantajī VII Rimeiku?) é um jogo eletrônico de RPG de ação desenvolvido e publicado pela Square Enix. É um título da série Final Fantasy e uma recriação de Final Fantasy VII, tendo sido lançado para PlayStation 4 em 10 de abril de 2020."
+    idref="WIKI, Star Trek"
     ref="https://pt.wikipedia.org/wiki/Final_Fantasy_VII_Remake"
 %}
 
@@ -89,6 +91,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     src="jogatina-das-decadas/gta-v.webp"
     alt="Figura: GTA V."
     caption="Figura: GTA V retorna ao Xbox Game Pass, mas com uma interessante novidade. Após sair da plataforma, para dar lugar a Red Dead Redemption 2 no ano passado, o game retorna ao catálogo em 8 de abril. Mas, agora, com suporte ao xCloud, o serviço de games por nuvem da Microsoft.."
+    idref="CANDIDO, Junior"
     ref="https://www.arkade.com.br/gta-v-retorna-ao-xbox-game-pass-mas-agora-com-suporte-ao-xcloud/"
 %}
 
@@ -98,6 +101,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     src="jogatina-das-decadas/Just_Dance_2022_capa.webp"
     alt="Figura: Just Dance 2022"
     caption="Figura: Just Dance 2022 é um jogo eletrônico de dança de ritmo desenvolvido e publicado pela Ubisoft. Foi revelado em 12 de junho de 2021, durante a coletiva de imprensa Ubisoft Forward E3 como o décimo terceiro título principal da série Just Dance,[1] e foi lançado em 4 de novembro de 2021 para Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S e Stadia."
+    idref="WIKI,Just Dance 2022"
     ref="https://pt.wikipedia.org/wiki/Just_Dance_2022"
 %}
 
@@ -107,6 +111,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     src="jogatina-das-decadas/Demon-Hunter-Tier-20-Cropped.webp"
     alt="Figura: 10 Most Epic Tier Sets In World Of Warcraft"
     caption="Figura: Muitos conjuntos de níveis se tornaram lendários por sua aparência, cobiçados por transmogrificadores dedicados em todos os lugares. Algumas classes têm a sorte de ter muitos conjuntos de níveis invejáveis (Warlocks!) E outras têm muito poucos para escolher (Hunters). Para manter a lista mais equilibrada, limitamos as inscrições a uma por aula em destaque. Aqui estão 10 dos conjuntos de níveis mais épicos disponíveis no World of Warcraft."
+    idref="FISLI,Bailey"
     ref="https://www.thegamer.com/world-of-warcraft-best-epic-tier-sets/"
 %}
 
@@ -116,6 +121,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     src="jogatina-das-decadas/2014-04-23-wow-raid.webp"
     alt="Figura: World of Warcraft."
     caption="Figura: Raids são instâncias criadas para grupos de até 40 jogadores divididos em até oito subgrupos de cinco jogadores, que batalham juntos no estilo PvE."
+    idref="TECHTUDO,Redação"
     ref="https://www.techtudo.com.br/noticias/2014/04/world-warcraft-conheca-addons-importantes-antes-de-entrar-na-raide.ghtml"
 %}
 
@@ -125,6 +131,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     src="jogatina-das-decadas/image-19.webp"
     alt="Figura: List of Medals available in Call of Duty: Mobile."
     caption="Figura: Tem uma variedade de maneiras de registrar conquistas, sejam pontuações ou várias medalhas que os jogadores podem ganhar ao longo do caminho. Há um total de 85 medalhas que os jogadores podem ganhar no jogo. 42 dessas medalhas podem ser adquiridas no modo multiplayer.."
+    idref="LELE,Nutan"
     ref="https://afkgaming.com/mobileesports/originals/5134-everything-you-need-to-know-about-medals-in-call-of-duty-mobile"
 %}
 
@@ -134,6 +141,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     src="jogatina-das-decadas/Activities-and-Games_iStock-1127260590_cropped.webp"
     alt="Figura: Activities + Games You Can Do at Home to Support Your Child’s Learning."
     caption="Figura: Sua lista de projetos, atividades e jogos de aprendizado selecionados que você pode fazer em casa para apoiar a educação e o desenvolvimento de seu filho. Especificamente útil para pré-escolares e alunos emergentes."
+    idref="FRATIES, Paige,HIRSCH,Petra"
     ref="https://myplinkit.com/2020/03/activities-games-you-can-do-at-home/"
 %}
 
@@ -143,6 +151,7 @@ Estão diretamente ligados ao desejo do jogadora sua construção social, leitur
     src="jogatina-das-decadas/1-M6VI8_01A-At7Nzp2wn6IA.webp"
     alt="Figura: Top 20 Game Studios: Who’s Your Favorite?"
     caption="Figura: Com a criação de mecanismos de jogos como Unity e Unreal, há mais estúdios de desenvolvimento de jogos do que nunca, oferecendo opções e variedade únicas para os jogadores."
+    idref="MEDIUM, Oggie"
     ref="https://medium.com/@OggieBoy/top-20-game-studios-whos-your-favorite-e7cc533530f0"
 %}
 
@@ -158,6 +167,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
     src="jogatina-das-decadas/09131221401170.webp"
     alt="Figura: Hellblade"
     caption="Figura: Senua’s Sacrifice ganha upgrade no Xbox Series X/S"
+    idref="VIEIRA,Douglas"
     ref="https://www.tecmundo.com.br/voxel/222714-hellblade-senua-s-sacrifice-ganha-upgrade-xbox-series-x-s.htm"
 %}
 
@@ -168,6 +178,7 @@ Estão ligados na avaliação da mensagem que está sendo transmitida.
 {% include imagelocal.html
     src="jogatina-das-decadas/dez-dicas-para-dominar-horizon-zero-dawn005.webp"
     alt="Figura: Horizon Zero Dawn."
+    caption="Figura: Horizon Zero Dawn."
 %}
 
 ### 4.3. Som
@@ -224,4 +235,4 @@ Abaixo estão dez jogos com o que consideramos os melhores efeitos de iluminaç�
     caption="Figura: Guitar Hero III."
 %}
 
->O objetivo do jogador é sincronizar os botões correspondentes com as notas que deslizam pela tela, obtendo pontos no agregador.
+O objetivo do jogador é sincronizar os botões correspondentes com as notas que deslizam pela tela, obtendo pontos no agregador.

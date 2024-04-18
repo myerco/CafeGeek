@@ -16,7 +16,7 @@ tags:
 {% include imagelocal.html
     src="jogatina-das-decadas/flappy-bird-ios.webp"
     alt="Figura: Flappy Bird."
-    caption="Sucesso de vendas."
+    caption="Figura: Sucesso de vendas."
 %}
 
 A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√™s dias desenvolvendo o jogo e acabou ganhando cerca de US $ 50 mil por dia em receita atrav√©s de sua publicidade no jogo.
@@ -28,6 +28,7 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√
 {% include imagelocal.html
     src="jogatina-das-decadas/Modern_Warfare_2_cover.webp"
     alt="Figura: Call of Duty: Modern Warfare 2."
+    caption="Figura: Call of Duty: Modern Warfare 2."
 %}
 
 - Call of Duty: Modern Warfare 2 - $200 million;
@@ -41,6 +42,7 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√
 {% include imagelocal.html
     src="jogatina-das-decadas/god-of-war-3-remastered-review_ecmu.1021.webp"
     alt="Figura: God of War III Remastered."
+    caption="Figura: God of War III Remastered."
 %}
 
 - God of War III - $44 million.
@@ -50,6 +52,7 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√
 {% include imagelocal.html
     src="jogatina-das-decadas/battlefield-3-de-graca-pc.webp"
     alt="Figura: Battlefield 3."
+    caption="Figura: Battlefield 3."
 %}
 
 - Battlefield 3 - $2.75 million (Facebook marketing);
@@ -63,6 +66,7 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√
 {% include imagelocal.html
     src="jogatina-das-decadas/-GRFS-_Screenshot_-_6.webp"
     alt="Figura: Ghost Recon Future Soldier."
+    caption="Figura: Ghost Recon Future Soldier."
 %}
 
 - Ghost Recon: Future Soldier - ‚Ç¨50 million.
@@ -82,6 +86,7 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr√
 {% include imagelocal.html
     src="jogatina-das-decadas/Destiny_box_art.webp"
     alt="Figura: Destiny."
+    caption="Figura: Destiny."
 %}
 
 - Destiny - $140 million;

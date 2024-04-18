@@ -27,7 +27,7 @@ Consistem em uma superfície dividida em setores com peças móveis.
 {% include imagelocal.html
     src="jogatina-das-decadas/xadrez_255260497-1000x664.webp"
     alt="Figura: Xadrez"
-    caption="Xadrez - Um dos jogos mais antigos da história humana."
+    caption="Figura: Xadrez - Um dos jogos mais antigos da história humana."
 %}
 
 - 2600 a.C. Mesopotâmia;
@@ -39,7 +39,7 @@ Consistem em uma superfície dividida em setores com peças móveis.
 {% include imagelocal.html
     src="jogatina-das-decadas/cartas-inter.webp"
     alt="Figura: Cartas"
-    caption="A história das cartas: o jogo de baralho é mais antigo do que você imagina."
+    caption="Figura: A história das cartas: o jogo de baralho é mais antigo do que você imagina."
 %}
 
 Conjunto de símbolos com valores de combinação lógica, quem em determinadas regras, representam combinação para cada combinação empregada em uma jogada.
@@ -49,6 +49,7 @@ Conjunto de símbolos com valores de combinação lógica, quem em determinadas 
 {% include imagelocal.html
     src="jogatina-das-decadas/85b29f73c4b883f3b44b9e0596a2bdb0.webp"
     alt="Figura: Voleibol."
+    caption="Figura: Voleibol."
 %}
 
 São fisicamente aplicados em determinado jogo.
@@ -62,7 +63,7 @@ Brincadeiras físicas e mentais com visões educacionais, cujo objetivo é socia
 {% include imagelocal.html
     src="jogatina-das-decadas/games_pedrobolle_uspimagens_001.webp"
     alt="Figura: Jogos Eletrônicos."
-    caption="Uma categoria recente de jogo."
+    caption="Figura: Uma categoria recente de jogo."
 %}
 
 Trabalham com reflexos, coordenação e cognição.
@@ -75,6 +76,7 @@ O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pess
 {% include imagelocal.html
     src="jogatina-das-decadas/f782e9b5-9331-47cb-83a0-838e7515eb14-768x1024.webp"
     alt="Figura: Jogos de Cartas."
+    caption="Figura: Jogos de Cartas."
 %}
 
 **Nota:** Representar um jogo depende não somente do entendimento conceitual da atividade, mas também da inclusão de elementos comuns que fazem do jogo algo especial.
@@ -90,7 +92,7 @@ O fluxo do tempo é sempre cruel, sua velocidade parece diferente para cada pess
 {% include imagelocal.html
     src="jogatina-das-decadas/002.webp"
     alt="Figura: F22 Raptor."
-    caption="Simulador de combate aéreo."
+    caption="Figura: Simulador de combate aéreo."
 %}
 
 Capacidade do jogador de se concentrar nos objetivos e ações principais.
@@ -100,6 +102,7 @@ Capacidade do jogador de se concentrar nos objetivos e ações principais.
 {% include imagelocal.html
     src="jogatina-das-decadas/sangueCorrompido.webp"
     alt="Figura: Praga no jogo World of Warcraft ajuda a entender pandemia."
+    caption="Figura: Praga no jogo World of Warcraft ajuda a entender pandemia."
 %}
 
 Capacidade dos jogadores realizarem ações participativas nos jogos.
@@ -109,7 +112,7 @@ Capacidade dos jogadores realizarem ações participativas nos jogos.
 {% include imagelocal.html
     src="jogatina-das-decadas/far-cry-4-historia.webp"
     alt="Figura: Detalhes da história de Far Cry 4 surgem no site da Ubisoft."
-    caption="Os vilões desta série são bem representados."
+    caption="Figura: Os vilões desta série são bem representados."
 %}
 
 São elementos importantes que geram oportunidades aos jogadores e trazem consigo a essência do jogo, como medo, responsabilidade e interatividade.
@@ -119,6 +122,7 @@ São elementos importantes que geram oportunidades aos jogadores e trazem consig
 {% include imagelocal.html
     src="jogatina-das-decadas/Hellblade_-Senuas-Sacrifice-2021-08-04-01-00-58.webp"
     alt="Figura: Hellblade: Senua’s Sacrifice recebe aprimoramento para o PC."
+    caption="Figura: Hellblade: Senua’s Sacrifice recebe aprimoramento para o PC."
 %}
 
 Envolve aplicar características de realidade como morte, ferimentos, quedas e acidentes de forma lúdica, porém responsável.
@@ -128,6 +132,7 @@ Envolve aplicar características de realidade como morte, ferimentos, quedas e a
 {% include imagelocal.html
     src="jogatina-das-decadas/Dark-Souls-2-Review-770x433.webp"
     alt="Figura: Review – Dark Souls 2."
+    caption="Figura: Review – Dark Souls 2."
 %}
 
 Regras definem o grau de desafio (Fácil, Médio, Difícil, Muito Difícil e Impossível).
@@ -140,7 +145,7 @@ Regras definem o grau de desafio (Fácil, Médio, Difícil, Muito Difícil e Imp
 {% include imagelocal.html
     src="jogatina-das-decadas/apps.54644.65129518710082559.30d43137-919f-4215-820e-038b409fb968.webp"
     alt="Figura: Unravel."
-    caption="Relaxe e se divirta."
+    caption="Figura: Relaxe e se divirta."
 %}
 
 É a experiência ou emoção que deriva do comportamento do jogador.
@@ -193,5 +198,5 @@ A Sombra, Dong Nguyen, o infame desenvolvedor de Flappy Bird, passou dois ou tr�
 {% include imagelocal.html
     src="jogatina-das-decadas/flappy-bird-ios.webp"
     alt="Figura: Flappy Bird."
-    caption="Sucesso de vendas."
+    caption="Figura: Sucesso de vendas."
 %}

@@ -16,7 +16,7 @@ tags:
 {% include imagelocal.html
     src="jogatina-das-decadas/20190903095042123.webp"
     alt="Figura: 4 mulheres que fizeram história na indústria de games"
-    caption="4 mulheres que fizeram história na indústria de games."
+    caption="Figura: 4 mulheres que fizeram história na indústria de games."
     idref="ANTONIOLI, Cassia"
     ref="https://www.people.com.br/noticias/entretenimento/4-mulheres-que-fizeram-historia-na-industria-de-games"
 %}
@@ -48,6 +48,7 @@ O Coleco Telstar foi outro destaque da primeira geração, produzido entre 1976 
 {% include imagelocal.html
     src="jogatina-das-decadas/2016-03-02-pong.webp"
     alt="Figura: Conheça Pong."
+    caption="Figura: Conheça Pong."
 %}
 
 ## 2. Segunda geração (1978 - 1983)
@@ -57,6 +58,7 @@ Geração onde os consoles apresentavam processadores de 4 a 8 bit. Os jogos do 
 {% include imagelocal.html
     src="jogatina-das-decadas/5363_7D66C7F21A0BD4A2.webp"
     alt="Figura: Pac-Man."
+    caption="Figura: Pac-Man."
 %}
 
 ## 3. Terceira geração (1984 - 1990)
@@ -125,6 +127,7 @@ A quarta geração consolidou de vez a era dos 16 bits, com a evolução da Nint
 {% include imagelocal.html
     src="jogatina-das-decadas/Tomb_Raider_-_The_Last_Revelation.webp"
     alt="Figura: Tomb_Raider The_Last_Revelation."
+    caption="Figura: Tomb_Raider The_Last_Revelation."
 %}
 
 ## 5. Quinta Geração (2000 - Hoje)
@@ -134,7 +137,8 @@ Alguns exemplos de jogos dessas gerações são 007 Goldeneye, Super Mário 64, 
 
 {% include imagelocal.html
     src="jogatina-das-decadas/the-last-of-us-parte-ii-1591561975954_v2_1170x540.webp"
-alt="Figura: The Last of Us 2."
+  alt="Figura: The Last of Us 2."
+  caption="Figura: The Last of Us 2."
 %}
 
 ## 6. Era dos Videogames
@@ -146,6 +150,7 @@ A Nintendo, tradicional e inovadora, começou nos arcades (fliperamas) e estreou
 {% include imagelocal.html
     src="jogatina-das-decadas/nintendo-switch.webp"
     alt="Figura: Nintendo Switch."
+    caption="Figura: Nintendo Switch."
 %}
 
 ### 6.2. Sony
@@ -155,6 +160,7 @@ A Sony é líder do mercado de videogames domésticos (com o seu PlayStation 2).
 {% include imagelocal.html
     src="jogatina-das-decadas/playstation_5_produto-700x700.webp"
     alt="Figura: PS5."
+    caption="Figura: PS5."
 %}
 
 ### 6.3. Microsoft
@@ -166,6 +172,7 @@ A empresa tem um departamento dedicado ao desenvolvimento de jogos, a Microsoft 
 {% include imagelocal.html
     src="jogatina-das-decadas/038bfc7b-2ebf-4e7f-bd41-c76c8e6d2b8b.webp"
     alt="Figura: Xbox XS."
+    caption="Figura: Xbox XS."
 %}
 
 ### 6.4. Jogos de consoles (Xbox, PS)
@@ -268,13 +275,14 @@ O iPhone 3GS e o iPhone 4, por exemplo, eram tidos como excelentes plataformas p
 {% include imagelocal.html
     src="jogatina-das-decadas/angry_birds_EAW3ICp.webp"
     alt="Figura: How Angry Birds broke the limits for mobile games."
+    caption="Figura: How Angry Birds broke the limits for mobile games."
 %}
 
 São jogos para plataformas móveis como por exemplo celulares ou outros dispositivos móveis.
 
 >Em 2021, os jogos para celular representavam quase 50% da receita mundial de videogames, e as coisas não parecem diminuir tão cedo.
 >
->As taxas de penetração de celulares e o uso de smartphones para jogos continuam a disparar em escala global. Como resultado, as tendências da indústria de jogos preveem que a receita dos jogos para celular ultrapasse a marca de 100 bilhões de dólares até 2023. [1](https://techjury.net/blog/gaming-industry-worth/)
+>As taxas de penetração de celulares e o uso de smartphones para jogos continuam a disparar em escala global. Como resultado, as tendências da indústria de jogos preveem que a receita dos jogos para celular ultrapasse a marca de 100 bilhões de dólares até 2023. [TALEVSKI,Dushko](https://techjury.net/blog/gaming-industry-worth/)
 
 ### 7.1. Monetização
 
