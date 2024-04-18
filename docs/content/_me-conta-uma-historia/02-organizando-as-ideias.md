@@ -19,6 +19,7 @@ Geralmente o fluxo de trabalhado para construção de um jogo digital pode ser d
 {% include imagelocal.html
     src="me-conta-uma-historia/10.webp"
     alt="Figura: Game design for PUBBY."
+    caption="Figura: Game design for PUBBY."
 %}
 
 A etapa conceitual é a mais abstrata do projeto, onde definimos o conceito do jogo baseado em uma história ou mecânica, esta etapa é necessária para apresentar, documentar e organizar a ideia do jogo.
@@ -40,6 +41,7 @@ Nesta etapa definimos como organizar o fluxo de atividades e comunicação do pr
 {% include image.html
     src="https://www.researchgate.net/profile/Piotr-Rykala/publication/346541011/figure/fig1/AS:964050955563008@1606859067170/Example-of-organization-and-workflow-of-a-video-game-developer-Source-Zackariasson-and.png"
     alt="Figura: The growth of the gaming industry in the context of creative industries."
+    caption="Figura: The growth of the gaming industry in the context of creative industries."
 %}
 
 ### 1.3. Artista
@@ -53,6 +55,7 @@ Como são os personagens? qual o ambiente? esse tipo de perguntas são apresenta
 {% include image.html
     src="https://magazine.artstation.com/wp-content/uploads/2019/02/CGS-3D-concept-art-editorial-image-01-1024x640.jpg"
     alt="Figura: Figura: The Benefits of Embracing 3D in your Concept Art Workflow."
+    caption="Figura: Figura: The Benefits of Embracing 3D in your Concept Art Workflow."
 %}
 
 ## 2. A equipe
@@ -62,8 +65,8 @@ Organizar a equipe é um trabalho interessante quando compreendemos as caracter�
 {% include image.html
     src="https://unidigitaldobrasil.com.br/wp-content/uploads/2016/01/Kabam-playing-underworld-empire-together.jpg"
     alt="Figura: Mas qual é a diferença entre design de games, game art e game design?"
-    caption="Várias pessoas com papeis diferentes desempenham a produção do projeto"
-     url="https://unidigitaldobrasil.com.br/carreira-na-industria-de-games-design-de-games-game-art-ou-game-design/"
+    caption="Figura: Várias pessoas com papeis diferentes desempenham a produção do projeto"
+    ref="https://unidigitaldobrasil.com.br/carreira-na-industria-de-games-design-de-games-game-art-ou-game-design/"
 %}
 
 | Profissional | Papel                                           |
@@ -77,12 +80,15 @@ Organizar a equipe é um trabalho interessante quando compreendemos as caracter�
 | Sound design | Elementos sonoros durante a gameplay            |
 | Redator      | Roteirização e pesquisa documental              |
 
+Tabela 1:Profissão e Papel.
+
 **Dungeon:** Podemos comparar como um desafio em grupo de amigos dentro de um RPG, onde cada um papel é definido e necessário para o sucesso da missão.
 {: .notice--danger}
 
 {% include image.html
     src="https://res.cloudinary.com/lmn/image/upload/c_limit,dpr_2,h_360,w_640/e_sharpen:100/f_auto,fl_lossy,q_auto/v1/gameskinnyop/2/6/8/orig_268bb737dfb55c04256c7e55f338bcd1.png"
     alt="Figura: Tips for positive player interactions in World of Warcraft instances."
+    caption="Figura: Tips for positive player interactions in World of Warcraft instances."
 %}
 
 ## 3. Tarefas
@@ -97,10 +103,13 @@ Quais são as tarefas e atividades que devem ser executadas, por onde começamos
 | Gerenciamento   | Acompanhamento das tarefas e comunicação das equipes |
 | Líder de equipe | Atua como interface entre as diversas necessidades   |
 
+Tabela 2: Tarefas.
+
 {% include image.html
     src="https://www.researchgate.net/profile/Juergen-Musil/publication/221045927/figure/fig2/AS:305624014442498@1449877851418/Simple-workflow-oriented-process-for-game-development.png"
     alt="Figura: Improving Video Game Development: Facilitating Heterogeneous Team Collaboration through Flexible Software Processes."
-    caption="Figura: Improving Video Game Development: Facilitating Heterogeneous Team Collaboration through Flexible Software Processes - <https://www.researchgate.net>."
+    caption="Figura: Improving Video Game Development: Facilitating Heterogeneous Team Collaboration through Flexible Software Processes."
+    ref="https://www.researchgate.net"
 %}
 
 ## 4. Limitações
@@ -108,6 +117,7 @@ Quais são as tarefas e atividades que devem ser executadas, por onde começamos
 {% include image.html
     src="https://assets.rockpapershotgun.com/images/2020/02/The-Forest-Best-Survival-Games-2020.jpg"
     alt="Figura: The best survival games on PC in 2022."
+    caption="Figura: The best survival games on PC in 2022."
 %}
 
 O desenvolvimento de um projeto de um jogo digital pode ser limitado por vários fatores. Alguns dos principais fatores incluem:
@@ -119,6 +129,7 @@ Estime os custos do projeto, orçamento e controle de custos de modo que o proje
 {% include image.html
     src="https://www.appstudio.ca/blog/wp-content/uploads/2021/09/Cost-of-Game-Development.jpeg"
     alt="Figura: The Factors That Influence the Cost of Game Development."
+    caption="Figura: The Factors That Influence the Cost of Game Development."
 %}
 
 - Estime os custos;
@@ -134,6 +145,7 @@ Fique atento aos prazos estabelecidos no escopo e o tempo estipulado para cada a
 {% include image.html
     src="https://cdn.merixstudio.com/media/uploads/pomodoro.png"
     alt="Figura: How to take care of time management in web development."
+    caption="Figura: How to take care of time management in web development."
 %}
 
 - Defina e identifique as ações específicas a serem realizadas para produzir as entregas do projeto;
@@ -153,8 +165,8 @@ Considere de toda a base tecnológica do projeto.
 {% include image.html
     src="https://miro.medium.com/max/1400/1*Bdwff1xNonI533sDk0hgnA.png"
     alt="Figura: Why infrastructure is a game-changer for the mobile gaming industry."
-    caption="Infraestrutura necessária para atender todas as demandas do projeto."
-    url="https://medium.com/tech-at-wildlife-studios/infrastructure-mobile-gaming-industry-584eee7e2fca."
+    caption="Figura: Infraestrutura necessária para atender todas as demandas do projeto."
+    ref="https://medium.com/tech-at-wildlife-studios/infrastructure-mobile-gaming-industry-584eee7e2fca."
 %}
 
 - Rede de comunicação interna;
@@ -174,8 +186,8 @@ Organize as equipes com os papeis e responsabilidades designadas para a conclus�
 {% include image.html
     src="https://cdn-developer-wp.arc.dev/wp-content/uploads/2021/11/time-management-skills-1128x635.jpg"
     alt="Figura: Time Management Skills for Developers: Best Tips, Tools, and Strategies."
-    caption="Defina estratégias para cada papel dentro do projeto."
-    url="https://arc.dev/developer-blog/time-management-skills/."
+    caption="Figura: Defina estratégias para cada papel dentro do projeto."
+    ref="https://arc.dev/developer-blog/time-management-skills/."
 %}
 
 - Desenvolva um plano de funções, responsabilidades, habilidades necessárias e relações hierárquicas do projeto;
@@ -196,8 +208,8 @@ Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, 
 {% include image.html
     src="https://cdn3.vox-cdn.com/uploads/chorus_asset/file/3687336/The_Witcher_3_Wild_Hunt_You_never_know_what_waits_around_the_corner.0.png"
     alt="Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones."
-    caption="Jogo com temática medieval e fantasia."
-    url="https://www.theverge.com/2015/5/12/8586515/witcher-3-wild-hunt-review-ps4-xbox-one-game"
+    caption="Figura: Jogo com temática medieval e fantasia."
+    ref="https://www.theverge.com/2015/5/12/8586515/witcher-3-wild-hunt-review-ps4-xbox-one-game"
 %}
 
 - Outras ideias;
@@ -215,8 +227,8 @@ Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, 
 {% include image.html
     src="https://cdn.vox-cdn.com/thumbor/KfZcAgZDNJyf7POmq2KDOfa2fZA=/148x0:1768x1080/920x613/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47374578/unravel-yarny.0.0.jpg"
     alt="Figura: Unravel creator hopes the game will make you call your mom."
-    caption="Jogo simples com uma boa apresentação gráfica e uma história de fundo comovente."
-    url="https://www.polygon.com/2015/10/10/9487701/unravel-preview-call-your-mom."
+    caption="Figura: Jogo simples com uma boa apresentação gráfica e uma história de fundo comovente."
+    ref="https://www.polygon.com/2015/10/10/9487701/unravel-preview-call-your-mom."
 %}
 
 - Seja curioso;
@@ -232,8 +244,8 @@ Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, 
 {% include image.html
     src="https://adrenaline.com.br/uploads/2021/09/09/70890/Lost-in-Random_06.jpg"
     alt="Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo."
-    caption="Procure as histórias não contadas."
-    url="https://adrenaline.com.br/colunas/v/70890/lost-in-random-e-um-misto-de-otimo-roteiro-e-gameplay-criativo"
+    caption="Figura: Procure as histórias não contadas."
+    ref="https://adrenaline.com.br/colunas/v/70890/lost-in-random-e-um-misto-de-otimo-roteiro-e-gameplay-criativo"
 %}
 
 - Arranjo único;
@@ -245,8 +257,8 @@ Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, 
 {% include imagelocal.html
     src="me-conta-uma-historia/04190615075402.webp"
     alt="Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa."
-    caption="A coragem é inspiradora."
-    url="https://www.tecmundo.com.br/voxel/jogos/rise-of-the-tomb-raider/analise"
+    caption="Figura: A coragem é inspiradora."
+    ref="https://www.tecmundo.com.br/voxel/jogos/rise-of-the-tomb-raider/analise"
 %}
 
 - Lugar;
@@ -262,8 +274,8 @@ Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, 
 {% include image.html
     src="https://s2.glbimg.com/ZcTFIilmLi8663REozPDO8EzL18=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/q/UZHV1lT8SDUVlX8Bso5Q/2015-07-24-journey3.jpg"
     alt="Figura: Review Journey."
-    caption="Uma boa jornada ajuda na inspiração."
-    url="https://www.tecmundo.com.br/voxel/jogos/journey/analise"
+    caption="Figura: Uma boa jornada ajuda na inspiração."
+    ref="https://www.tecmundo.com.br/voxel/jogos/journey/analise"
 %}
 
 A maior virtude do game é, sem dúvida, conseguir comover sem sequer dizer uma palavra.

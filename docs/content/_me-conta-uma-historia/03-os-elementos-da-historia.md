@@ -88,7 +88,7 @@ Os personagens ficcionais causam empatia dos leitores, jogadores ou espectadores
 {% include imagelocal.html
     src="me-conta-uma-historia/2016-07-27-sonic-melhores-jogos-10.webp"
     alt="Figura: Relembre os melhores jogos clássicos em 2D do Sonic."
-
+    caption="Figura: Relembre os melhores jogos clássicos em 2D do Sonic."
 %}
 
 Sonic, é frequentemente descrito como corajoso, destemido e impetuoso. Ele é conhecido por ser um herói rápido e atlético, que usa sua velocidade para combater o mal e salvar o mundo.
@@ -100,7 +100,7 @@ Sonic também é descrito como um personagem confiante, que muitas vezes desafia
 {% include imagelocal.html
     src="me-conta-uma-historia/Journey-Co-Op-Multiplayer-AI-Or-Real-Person.webp"
     alt="Journey: Is The Second Player A Real Person?"
-    caption="A comunicação entre jogadores dentro é realizada com movimentos e sons suaves."
+    caption="Figura: A comunicação entre jogadores dentro é realizada com movimentos e sons suaves."
     ref="https://www.theenemy.com.br/"
 %}
 
@@ -128,7 +128,7 @@ No geral, a personalidade de Kratos é sombria e pesada, mas também cativante e
 {% include imagelocal.html
     src="me-conta-uma-historia/Portal-1024x576.webp"
     alt="Figura: Escritor de Portal quer que o próximo jogo seja feito antes de ser velho demais para trabalhar."
-    caption="Abrir portas pode se tornar um bom gameplay."
+    caption="Figura: Abrir portas pode se tornar um bom gameplay."
     ref="https://tecmasters.com.br/escritor-portal-proximo-jogo-antes-velho-demais/"
 %}
 
@@ -141,7 +141,7 @@ Talvez uma ação simples, como abrir uma porta pode ser uma pista do tema do jo
 {% include imagelocal.html
     src="me-conta-uma-historia/Ghost_Recon_Wildlands_graphics_settings_high.webp"
     alt="Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis."
-    caption="The PCGamesN tech review"
+    caption="Figura: The PCGamesN tech review"
     ref="https://www.pcgamesn.com"
 %}
 
@@ -150,7 +150,7 @@ Talvez uma ação simples, como abrir uma porta pode ser uma pista do tema do jo
 {% include imagelocal.html
     src="me-conta-uma-historia/img_normal.webp"
     alt="Figura: O Merc With a Mouth finalmente tem um game (surtado) para chamar de seu."
-    caption="Jogo de humor."
+    caption="Figura: Jogo de humor."
     ref="https://www.techmundo.com.br"
 %}
 
@@ -177,7 +177,7 @@ Os personagens nas histórias de videogames podem ter diferentes motivações, d
 {% include imagelocal.html
     src="me-conta-uma-historia/i299893.webp"
     alt="Figura: Resident Evil 7 é melhor game já feito na série."
-    caption="Tudo para salvar a amada."
+    caption="Figura: Tudo para salvar a amada."
     ref="https://canaltech.com.br/games/resident-evil-7-e-melhor-game-ja-feito-na-serie-analise-89764/"
 %}  
 
@@ -188,7 +188,7 @@ Se a resposta é "Vou reativar o Facebook e  Tinder" acredito que uma boa dica �
 {% include imagelocal.html
     src="me-conta-uma-historia/o-livro-de-eli1-cke.webp"
     alt="Figura: O Livro de Eli: significado do filme."
-    caption="A busca por um lugar acaba de levando para trilhar outros caminhos."
+    caption="Figura: A busca por um lugar acaba de levando para trilhar outros caminhos."
     ref="https://www.culturagenial.com/o-livro-de-eli-significado-do-filme/"
 %}  
 
@@ -205,7 +205,7 @@ Cumprir a sua missão o tinha transformado em **um** individuo alheio aos proble
 {% include imagelocal.html
     src="me-conta-uma-historia/1LW4164252-4-341174c3997543728bd2b024c6e2a309.webp"
     alt="Figura: 7 Days to Die Review."
-    caption="O jogador tem um tempo para sobreviver."
+    caption="Figura: O jogador tem um tempo para sobreviver."
     ref="https://www.lifewire.com"
 %}  
 
@@ -216,7 +216,7 @@ A busca pela vingança fez o personagem trilhar o caminho cegamente e violentame
 {% include imagelocal.html
     src="me-conta-uma-historia/cenarios-gladiador.webp"
     alt="Figura: Filme Gladiador."
-    caption="A vingança é cega, e não permite ver o que está no teu entorno."
+    caption="Figura: A vingança é cega, e não permite ver o que está no teu entorno."
 %}  
 
 A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas de vilão.
@@ -226,7 +226,7 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
 {% include imagelocal.html
     src="me-conta-uma-historia/30092242177082.webp"
     alt="Figura: Call of Duty: Modern Warfare"
-    caption="A guerra nunca muda"
+    caption="Figura: A guerra nunca muda"
     ref="https://www.tecmundo.com.br"
 %}  
 
@@ -248,7 +248,7 @@ Em geral, a morte nos jogos eletrônicos é uma maneira de adicionar desafio e r
 {% include imagelocal.html
     src="me-conta-uma-historia/0cdf6b4c-op_mission_ghost_last.webp"
     alt="Figura: How to unlock Season 2 Ghost Skin in Warzone and Modern Warfare."
-    caption="Mataram o melhor personagem do jogo."
+    caption="Figura: Mataram o melhor personagem do jogo."
 %}
 
 - Dos animais.
@@ -256,7 +256,7 @@ Em geral, a morte nos jogos eletrônicos é uma maneira de adicionar desafio e r
 {% include imagelocal.html
     src="me-conta-uma-historia/shadow-of-the-colossus-agro-tricks-how-to-perform-all-horse-stunts-to-unlock-the-trick-rider-trophy-1518023598995.webp"
     alt="Figura: Shadow of the Colossus."
-    caption="Como executar truques com Agro e desbloquear o Troféu Trick Rider"
+    caption="Figura: Como executar truques com Agro e desbloquear o Troféu Trick Rider"
     ref="https://www.eurogamer.pt"
 %}
 
@@ -265,6 +265,7 @@ Em geral, a morte nos jogos eletrônicos é uma maneira de adicionar desafio e r
 {% include imagelocal.html
     src="me-conta-uma-historia/vaas-600x337.webp"
     alt="Figura: Far Cry 3."
+    caption"Figura: Far Cry 3."
 %}  
 
 ## 4. Nome
@@ -272,7 +273,7 @@ Em geral, a morte nos jogos eletrônicos é uma maneira de adicionar desafio e r
 {% include imagelocal.html
     src="me-conta-uma-historia/mass_effect_shepard_names.webp"
     alt="Figura: Commander Shepard's first name is probably Sarah, or Jack."
-    caption="Escolha um nome para o seu personagem."
+    caption="Figura: Escolha um nome para o seu personagem."
     ref="https://www.vg247.com"
 %}  
 
@@ -285,7 +286,7 @@ O nome Rachael do filme Blade Runner 1982 pode ser associado a sua origem bíbli
 {% include imagelocal.html
     src="me-conta-uma-historia/rachael-em-blade-runner-cke.webp"
     alt="Figura: Blade Runner (1982)."
-    caption="Análise e significados do filme"
+    caption="Figura: Análise e significados do filme"
     ref="https://www.culturagenial.com/blade-runner-1982-analise-significados-do-filme/"
 %}  
 
@@ -309,7 +310,7 @@ Trabalhe as expressões e cuidado com o "uncanny valley".
 {% include imagelocal.html
     src="me-conta-uma-historia/oriblindforestart.0.0.webp"
     alt="Figura: Ori and the Blind."
-    caption="Has the most powerful opening to any game in 2015"
+    caption="Figura: Has the most powerful opening to any game in 2015"
     ref="https://www.polygon.com"
 %}  
 
@@ -326,7 +327,7 @@ Se parece com humano então faz coisas humanas.
 {% include imagelocal.html
     src="me-conta-uma-historia/tier3_ranger_armor-814x600.webp"
     alt="Figura: Character development."
-    caption="Altere as características do seu personagem"
+    caption="Figura: Altere as características do seu personagem"
     ref="https://www.ageofconan.com"
 %}  
 
@@ -345,7 +346,7 @@ Se parece com humano então faz coisas humanas.
 {% include imagelocal.html
     src="me-conta-uma-historia/super-people-best-guns-assault-rifle-1024x576.webp"
     alt="Figura: Best Guns in Super People."
-    caption="Armas, muitas armas"
+    caption=Figura: "Armas, muitas armas"
     ref="https://progameguides.com"
 %}  
 
@@ -364,7 +365,7 @@ Se parece com humano então faz coisas humanas.
 {% include imagelocal.html
     src="me-conta-uma-historia/deckard_cain_hots.webp"
     alt="Figura: Diablo 2."
-    caption="Search for Deckard Cain quest failed in Diablo 2 Resurrected: What are the consequences?"
+    caption="Figura: Search for Deckard Cain quest failed in Diablo 2 Resurrected: What are the consequences?"
     ref="https://www.ginx.tv"
 %}  
 
@@ -381,7 +382,7 @@ Se parece com humano então faz coisas humanas.
 {% include imagelocal.html
     src="me-conta-uma-historia/2014-10-02-far-cry-4-longinus-fornecedor-armas.webp"
     alt="Figura: Far Cry 4."
-    caption="Trailer mostra arsenal do game à disposição dos jogadores"
+    caption="Figura: Trailer mostra arsenal do game à disposição dos jogadores"
     ref="https://www.techtudo.com.br"
 %}  
 
@@ -403,7 +404,7 @@ A jornada não acaba aqui. A morte é apenas um outro caminho... que todos temos
 {% include imagelocal.html
     src="me-conta-uma-historia/PREVIEW_SCREENSHOT1_171050-1024x576.webp"
     alt="Figura: Análise – Shadow of the Tomb Raider"
-    caption="The Forge."
+    caption="Figura: The Forge."
     ref="https://psxbrasil.com.br"
 %}  
 
@@ -420,7 +421,7 @@ A jornada não acaba aqui. A morte é apenas um outro caminho... que todos temos
 {% include imagelocal.html
     src="me-conta-uma-historia/resident-evil-village-bosses-guide-list-lady-dimitrescu-900x506.webp"
     alt="Figura: Resident Evil Village."
-    caption="Grande e horripilante, perigoso."
+    caption="Figura: Grande e horripilante, perigoso."
     ref="https://www.pcgamesn.com"
 %}  
 
@@ -453,7 +454,7 @@ A jornada não acaba aqui. A morte é apenas um outro caminho... que todos temos
 {% include imagelocal.html
     src="me-conta-uma-historia/8b1b5a81a7cf1f89151207fb9f6a1977.webp"
     alt="Figura: World of Warcraft."
-    caption="The 50 Biggest Villains in World of Warcraft (Ranked Based on Badassery)"
+    caption="Figura: The 50 Biggest Villains in World of Warcraft (Ranked Based on Badassery)"
     ref="https://www.gamersdecide.com"
 %}  
 
@@ -476,7 +477,7 @@ A jornada não acaba aqui. A morte é apenas um outro caminho... que todos temos
 {% include imagelocal.html
     src="me-conta-uma-historia/155054_the_lich_king.webp"
     alt="Figura: The 8 most memorable moments from World of Warcraft boss fights."
-    caption="For better or worse."
+    caption="Figura: For better or worse."
     ref="https://www.polygon.com/"
 %}  
 
@@ -496,7 +497,7 @@ A jornada não acaba aqui. A morte é apenas um outro caminho... que todos temos
 {% include imagelocal.html
     src="me-conta-uma-historia/metal-gear-solid-analysis-bosses-e1588340602137-780x439.webp"
     alt="Figura: Phases of Dealing With Hidden Trauma."
-    caption="Pode ser lento, mas é mortal."
+    caption="Figura: Pode ser lento, mas é mortal."
 %}  
 
 ### 8.6. Lutar com inimigos deve ser divertido
@@ -506,7 +507,7 @@ Os inimigos dever enfrentados, não evitados.
 {% include imagelocal.html
     src="me-conta-uma-historia/Assassins-Creed-Valhalla-Combat.webp"
     alt="Figura: Assassin's Creed Valhalla Preview Impressions."
-    caption="Preview Impressions: A Strong Successor to Odyssey"
+    caption="Figura: Preview Impressions: A Strong Successor to Odyssey"
     ref="https://www.cbr.com"
 %}  
 
@@ -523,7 +524,7 @@ Os inimigos dever enfrentados, não evitados.
 {% include imagelocal.html
     src="me-conta-uma-historia/Combat-Analysis-2.webp"
     alt="Figura: Kirby’s Alpha 1 Combat Analysis."
-    caption="Tiro porrada e bomba."
+    caption="Figura: Tiro porrada e bomba."
     ref="https://ashespost.com"
 %}  
 
@@ -542,7 +543,7 @@ Os inimigos dever enfrentados, não evitados.
 {% include imagelocal.html
     src="me-conta-uma-historia/enemies.webp"
     alt="Figura: The Ideal Video Game Enemy."
-    caption="Diversifique as opções de ataque e defesa."
+    caption="Figura: Diversifique as opções de ataque e defesa."
     ref="https://www.thefandomentals.com"
 %}  
 
@@ -581,7 +582,7 @@ Inimigos não inimigos.
 {% include imagelocal.html
     src="me-conta-uma-historia/nemesis_t-type_wiki-1024x512.webp"
     alt="Figura: Nemesis T-Type."
-    caption="Ele incomoda muito."
+    caption="Figura: Ele incomoda muito."
     ref="https://residentevil.com.br"
 %}  
 
@@ -596,6 +597,7 @@ Inimigos não inimigos.
 {% include imagelocal.html
     src="me-conta-uma-historia/darth-vader-a-visual-history-of-star-wars-greatest_gfbx.webp"
     alt="Figura: Darth Vader nos games."
+    caption="Figura: Darth Vader nos games."
 %}  
 
 #### 8.10.2. Quem é?
@@ -613,7 +615,7 @@ Inimigos não inimigos.
 {% include imagelocal.html
     src="me-conta-uma-historia/25903731993_8b58285c1d_b.webp"
     alt="Figura: Dark Souls Game Design Analysis."
-    caption="Why Do We Come Back To Die?"
+    caption="Figura: Why Do We Come Back To Die?"
     ref="https://www.gamedeveloper.com/"
 %}  
 
@@ -628,7 +630,7 @@ Inimigos não inimigos.
 {% include imagelocal.html
     src="me-conta-uma-historia/2015-02-27-fatality.webp"
     alt="Figura: Mortal Kombat."
-    caption="Relembre os fatalities clássicos da série de luta"
+    caption="Figura: Relembre os fatalities clássicos da série de luta"
     ref="https://www.techtudo.com.br"
 %}  
 
@@ -637,7 +639,7 @@ Inimigos não inimigos.
 {% include imagelocal.html
     src="me-conta-uma-historia/Dragon.jpg.webp"
     alt="Figura: This Is Why I Hate Video Game Boss Fights."
-    caption="This Is Why I Hate Video Game Boss Fights."
+    caption="Figura: This Is Why I Hate Video Game Boss Fights."
 %}
 
 ### 9.2. Locação
@@ -645,6 +647,7 @@ Inimigos não inimigos.
 {% include imagelocal.html
     src="me-conta-uma-historia/dark-souls-cad5d.webp"
     alt="Figura: The Best Dark Souls III Boss Order for Beginners"
+    caption="Figura: The Best Dark Souls III Boss Order for Beginners"
 %}
 
 O lugar é sinistro? tem muito item espalhado no chão? só tem uma saída? prepara-se, você vai gastar várias horas tentando sair do lugar.

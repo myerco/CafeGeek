@@ -47,7 +47,7 @@ Segundo o site [https://www.educamaisbrasil.com.br](https://www.educamaisbrasil.
 {% include image.html
     src="https://images.educamaisbrasil.com.br/content/superior/curso/banner/p/design-de-games.jpg"
     alt="Figura: Profissão Designer de games"
-    caption"Figura: Profissão Designer de games"
+    caption="Figura: Profissão Designer de games"
 %}
 
 ## 4. Características pessoais
@@ -58,7 +58,7 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
     src="https://www.singerandfalk.com/wp-content/uploads/2018/03/02_07_18_838151864_BB_560x292.jpg"
     alt="Figura: Turning employee ideas into profitable results."
     caption="Figura: Muitas empresas treinam os funcionários como fazer seu trabalho e apenas seu trabalho. Mas coisas incríveis podem acontecer quando você também ensina os membros da equipe a se envolverem ativamente em um processo de lucratividade."
-    url="https://www.singerandfalk.com/uncategorized/turning-employee-ideas-into-profitable-results/"
+    ref="https://www.singerandfalk.com/uncategorized/turning-employee-ideas-into-profitable-results/"
 %}
 
 - Descrever e escrever as suas ideias;
