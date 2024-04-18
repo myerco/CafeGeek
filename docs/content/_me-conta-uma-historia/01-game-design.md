@@ -14,7 +14,6 @@ Por baixo dessa carne existe um ideal. e as ideias nunca morrem...**V de Vingan�
     src="https://www.gamerinfo.com.br/wp-content/uploads/2018/09/game-designer-1.jpg"
     alt="Figura: Design de games."
     caption="Figura: Design de games."
-    ref="https://www.gamerinfo.com.br/wp-content/uploads/2018/09/game-designer-1.jpg"
 %}
 
 ## 1. Por dentro da cabeça do Game Design
@@ -58,6 +57,7 @@ A seguir vamos destacar algumas Características necessárias para um bom Game D
     src="https://www.singerandfalk.com/wp-content/uploads/2018/03/02_07_18_838151864_BB_560x292.jpg"
     alt="Figura: Turning employee ideas into profitable results."
     caption="Figura: Muitas empresas treinam os funcionários como fazer seu trabalho e apenas seu trabalho. Mas coisas incríveis podem acontecer quando você também ensina os membros da equipe a se envolverem ativamente em um processo de lucratividade."
+    idref="SINGER & FALK"
     ref="https://www.singerandfalk.com/uncategorized/turning-employee-ideas-into-profitable-results/"
 %}
 
