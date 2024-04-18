@@ -346,7 +346,7 @@ Se parece com humano então faz coisas humanas.
 {% include imagelocal.html
     src="me-conta-uma-historia/super-people-best-guns-assault-rifle-1024x576.webp"
     alt="Figura: Best Guns in Super People."
-    caption=Figura: "Armas, muitas armas"
+    caption="Figura: "Armas, muitas armas"
     ref="https://progameguides.com"
 %}  
 
