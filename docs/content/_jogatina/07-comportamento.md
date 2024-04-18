@@ -169,7 +169,7 @@ As pessoas zombam dessa ideia o tempo todo ("Você passou todo esse tempo trabal
 {% include imagelocal.html
     src="jogatina-das-decadas/00-featured-golden-order-greatsword-elden-ring-screenshot.webp"
     alt="Figura: Top 10 Coolest-Looking Swords in Elden Ring."
-    caption"Figura: Top 10 Coolest-Looking Swords in Elden Ring."
+    caption="Figura: Top 10 Coolest-Looking Swords in Elden Ring."
 %}
 
 É por isso que o mais alto tribunal da Coreia do Sul **decidiu que os bens virtuais devem ser legalmente tratados da mesma forma que os bens reais**. E os bens virtuais são agora uma indústria de US$ 5 bilhões em todo o mundo.
