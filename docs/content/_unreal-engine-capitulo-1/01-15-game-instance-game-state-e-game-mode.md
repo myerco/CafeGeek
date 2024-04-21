@@ -137,7 +137,7 @@ Antes de executar a chamada da `GameInstance` dentro dos objetos é necessário 
 {% include imagelocal.html
     src="unreal/gamemode/unreal-engine-gameinstance-project.webp"
     alt="Figura: GameInstance Project."
-    caption=Figura: Configuração para todo o projeto."
+    caption="Figura: Configuração para todo o projeto."
 %}
 
 Logo após podemos utilizar a função `GetGameInstance` que retorna a `GameInstance` definida anteriormente para o projeto.
