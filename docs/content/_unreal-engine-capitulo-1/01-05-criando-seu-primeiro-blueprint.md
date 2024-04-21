@@ -6,9 +6,8 @@ date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2023-03-28T08:48:05-04:00
 order: 105
 tags:
-  - Blueprint
-  - Actors
-  - Classes
+  - Visual Scripting
+  - Open Level Blueprint
 ---
 
 ## 1. O que são Blueprints e Visual Scripting?

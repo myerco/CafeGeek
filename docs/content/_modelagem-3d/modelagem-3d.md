@@ -1,7 +1,7 @@
 ---
 title: Modelagem 3D
 layout: collection
-permalink: /modelagem-3d/
+permalink: /modelagem-3d/modelagem-3d
 collection: modelagem-3d
 entries_layout: grid
 order: 0

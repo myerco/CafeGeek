@@ -1,7 +1,7 @@
 ---
 title: Me conta uma historia
 layout: collection
-permalink: /me-conta-uma-historia/
+permalink: /me-conta-uma-historia/me-conta-uma-historia
 collection: me-conta-uma-historia
 entries_layout: grid
 classes: wide

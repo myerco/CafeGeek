@@ -257,7 +257,7 @@ Os behavioristas chamam isso de "evitação". Eles montam a gaiola para que dê 
     caption="Figura: Série animada do jogo social FarmVille vem aí."
 %}
 
-Por que sua mãe está colhendo obsessivamente em **Farmville** ? Porque eles murcham e apodrecem se ela não o fizer. No Ultima Online , sua casa ou castelo começaria a decair se você não voltasse a ele regularmente. Em Animal Crossing , a cidade cresce com ervas daninhas e sua casa virtual fica infestada de baratas se você não fizer login com frequência suficiente. É a joia da coroa da baboseira da programação de jogos - mantenha o jogador clicando e clicando e clicando apenas para evitar perder as coisas que eles trabalharam tanto para conseguir .
+Por que sua mãe está colhendo obsessivamente em **Farmville** ? Porque eles murcham e apodrecem se ela não o fizer. No **Ultima Online** , sua casa ou castelo começaria a decair se você não voltasse a ele regularmente. Em Animal Crossing , a cidade cresce com ervas daninhas e sua casa virtual fica infestada de baratas se você não fizer login com frequência suficiente. É a joia da coroa da baboseira da programação de jogos - mantenha o jogador clicando e clicando e clicando apenas para evitar perder as coisas que eles trabalharam tanto para conseguir .
 
 **Tudo o que precede:**
 

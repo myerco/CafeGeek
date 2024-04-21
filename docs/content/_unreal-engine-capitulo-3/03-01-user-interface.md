@@ -1,6 +1,6 @@
 ---
 title: User Interface
-excerpt: Neste capitulo vamos implementar o HUD (Heads-up Display) do jogo.
+excerpt: Neste capítulo vamos implementar o HUD (Heads-up Display) do jogo.
 permalink: /unreal-engine-capitulo-3/user-interface
 date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2023-03-28T08:48:05-04:00
@@ -11,7 +11,7 @@ tags:
 
 HUD (*Heads-up Display*) ou UI (*Use Interface*) é um objeto especial do **Unreal Engine** para apresentar informações sobrepostas na tela e interagir com o jogador.
 
-Neste capitulo vamos apresentar formas de interação com o jogador e depois construir objetos os necessários.
+Neste capítulo vamos apresentar formas de interação com o jogador e depois construir objetos os necessários.
 
 ## 1. Como interagir com o jogador?
 

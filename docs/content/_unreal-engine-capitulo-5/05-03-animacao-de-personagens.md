@@ -1,6 +1,6 @@
 ---
 title: Animação de personagens
-excerpt: Neste capitulo vamos apresentar o fluxo de trabalho e os elementos necessários para a animação de personagens.
+excerpt: Neste capítulo vamos apresentar o fluxo de trabalho e os elementos necessários para a animação de personagens.
 permalink: /unreal-engine-capitulo-5/animacao-de-personagens
 date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2023-03-28T08:48:05-04:00
@@ -167,7 +167,7 @@ Editor que permite a edição e montage de animações.
 
 ## 7. Organizando pastas de bibliotecas
 
-Neste capitulo vamos preparar e organizar os objetos e elementos necessários, como por exemplo, arquivos FBX, malhas e esqueletos e suas animações. Vamos também importar personagens do site Mixano.
+Neste capítulo vamos preparar e organizar os objetos e elementos necessários, como por exemplo, arquivos FBX, malhas e esqueletos e suas animações. Vamos também importar personagens do site Mixano.
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-project.webp"

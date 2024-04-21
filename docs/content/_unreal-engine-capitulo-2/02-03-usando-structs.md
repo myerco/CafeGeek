@@ -1,6 +1,6 @@
 ---
 title: Usando Structs
-excerpt: Neste capitulo vamos explorar o tipo de variável Struct.  
+excerpt: Neste capítulo vamos explorar o tipo de variável Struct.  
 permalink: /unreal-engine-capitulo-2/usando-structs
 date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2023-03-28T08:48:05-04:00

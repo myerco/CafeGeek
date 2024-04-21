@@ -202,7 +202,7 @@ Se a resposta é "Vou reativar o Facebook e  Tinder" acredito que uma boa dica �
 
 O personagem central só consegue enxergar o seu real caminho quando percebe que ele não fez o que o livro ensinava, ajudar o outro e se conectar com alguém.
 
-Cumprir a sua missão o tinha transformado em **um** individuo alheio aos problemas dos outros, nas palavras dele "Siga seu caminho, não é da sua conta".
+Cumprir a sua missão o tinha transformado em **um** indivíduo alheio aos problemas dos outros, nas palavras dele "Siga seu caminho, não é da sua conta".
 
 - [IMDB - O Livro de Eli](https://www.imdb.com/title/tt1037705/ "IMDB - O Livro de Eli")
 

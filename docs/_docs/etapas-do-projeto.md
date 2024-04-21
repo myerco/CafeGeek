@@ -9,8 +9,6 @@ toc: true
 author_profile: false
 sidebar:
     nav: dev_unreal
-categories:
-  - Trabalhos
 tags:
   - roteiros
   - jogos

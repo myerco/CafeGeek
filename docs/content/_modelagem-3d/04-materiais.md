@@ -1,7 +1,7 @@
 ---
-title: Materiais
+title: Trabalhando com Materiais
 excerpt: Apresentação de materiais
-permalink: /modelagem-3d/materiais
+permalink: /modelagem-3d/trabalhando-com-materiais
 date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2023-03-28T08:48:05-04:00
 order: 104

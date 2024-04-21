@@ -1,7 +1,7 @@
 ---
 title: Unreal Engine - Capítulo 3
 layout: collection
-permalink: /unreal-engine-capitulo-3/
+permalink: /unreal-engine-capitulo-3/unreal-engine-capitulo-3
 collection: unreal-engine-capitulo-3
 entries_layout: grid
 classes: wide
@@ -16,11 +16,6 @@ last_modified_at: 2024-03-01T08:48:05-04:00
 read_time: true
 toc: false
 sidebar: false
-categories:
-  - Unreal Engine - Capítulo 3
-tags:
-  - Curso
-  - Unreal Engine
 ---
 
 ## Conteúdo do curso

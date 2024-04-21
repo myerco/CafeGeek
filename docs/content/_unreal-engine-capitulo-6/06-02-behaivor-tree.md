@@ -7,7 +7,6 @@ last_modified_at: 2023-03-28T08:48:05-04:00
 order: 602
 tags:
   - IA
-  - inteligência artificial
 ---
 
 Em este passo iremos implementar os elementos necessários para controles de movimentação do NPC.

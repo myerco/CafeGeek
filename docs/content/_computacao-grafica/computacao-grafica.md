@@ -1,7 +1,7 @@
 ---
 title: Computação gráfica
 layout: collection
-permalink: /computacao-grafica/
+permalink: /computacao-grafica/computa-o-gr-fica
 collection: computacao-grafica
 entries_layout: grid
 classes: wide

@@ -1,7 +1,7 @@
 ---
 title: A Jogatina das décadas
 layout: collection
-permalink: /a-jogatina-das-decadas/
+permalink: /a-jogatina-das-decadas/a-jogatina-das-d-cadas
 collection: jogatina
 entries_layout: grid
 classes: wide

@@ -1,7 +1,7 @@
 ---
-title: Colisão
-excerpt: Neste capitulo será apresentado o efeito de colisão de objetos.
-permalink: /unreal-engine-capitulo-1/colisao
+title: Colisão entra objetos
+excerpt: Neste capítulo será apresentado o efeito de colisão de objetos.
+permalink: /unreal-engine-capitulo-1/colis-o-entra-objetos
 last_modified_at: 2023-03-28T08:48:05-04:00
 date: 2024-03-01T08:48:05-04:00
 order: 110

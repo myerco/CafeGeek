@@ -1,7 +1,7 @@
 ---
 title: A taberna do Pônei Saltitante
 excerpt: Neste projeto serão apresentadas técnicas e dicas de modelagem de banco de dados.
-permalink: /a-taberna-do-ponei-saltitante/
+permalink: /a-taberna-do-ponei-saltitante/a-taberna-do-ponei-saltitante
 layout: collection
 collection: a-taberna-do-ponei-saltitante
 entries_layout: grid
@@ -251,7 +251,7 @@ Exemplo:
 
 ***
 
-Neste capitulo iremos iniciar a analise das necessidades de negócio utilizando o conceito de Regra de Negócio para orientar a análise.
+Neste capítulo iremos iniciar a analise das necessidades de negócio utilizando o conceito de Regra de Negócio para orientar a análise.
 
 {% include image.html
     src="http://tolkiengateway.net/w/images/thumb/3/3c/Alan_Lee_-_The_King_under_the_Mountain.jpg/424px-Alan_Lee_-_The_King_under_the_Mountain.jpg"
@@ -471,7 +471,7 @@ Uma entidade tem um conjunto de propriedades e os valores para alguns conjuntos 
 
 Exemplo :
 
-- Notas fiscais (numero, data, valor total)
+- Notas fiscais (número, data, valor total)
 - Clientes (cpf, nome, sexo,endereço)
 - Produtos (código, endereço, valor)
 - Cidade (id,nome, estado)

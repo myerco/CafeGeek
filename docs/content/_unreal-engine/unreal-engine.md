@@ -1,7 +1,7 @@
 ---
-title: Unreal Engine
+title: Unreal Engine com C++ e Blueprint
 layout: collection
-permalink: /unreal-engine/
+permalink: /unreal-engine/unreal-engine-com-c-e-blueprint
 collection: unreal-engine
 entries_layout: grid
 classes: wide
@@ -16,28 +16,22 @@ show_date: true
 last_modified_at: 2024-03-01T08:48:05-04:00
 toc: false
 sidebar: false
-categories:
-  - Unreal Engine
-tags:
-  - Desenvolvimento
-  - C++
-  - Blueprint
 ---
 
 ## Conteúdo do curso
 
-- [Capitulo 1 - Blueprints](/unreal-engine-capitulo-1/)  
+- [Capítulo 1 - Blueprints](/unreal-engine-Capítulo-1/)  
 
-- [Capitulo 2 - Estruturas de armazenamento](/unreal-engine-capitulo-2/)
+- [Capítulo 2 - Estruturas de armazenamento](/unreal-engine-Capítulo-2/)
 
-- [Capitulo 3 - Interface com o jogador](/unreal-engine-capitulo-3/)
+- [Capítulo 3 - Interface com o jogador](/unreal-engine-Capítulo-3/)
 
-- [Capitulo 4 - Materiais e landscape](/unreal-engine-capitulo-4/)
+- [Capítulo 4 - Materiais e landscape](/unreal-engine-Capítulo-4/)
 
-- [Capitulo 5 - Movimentação](/unreal-engine-capitulo-5/)
+- [Capítulo 5 - Movimentação](/unreal-engine-Capítulo-5/)
 
-- [Capitulo 6 - Inteligência artificial](/unreal-engine-capitulo-6/)  
+- [Capítulo 6 - Inteligência artificial](/unreal-engine-Capítulo-6/)  
 
-- [Capitulo 7 - Multiplayer](/unreal-engine-capitulo-7/)  
+- [Capítulo 7 - Multiplayer](/unreal-engine-Capítulo-7/)  
 
-- [Capitulo 8 - Unreal e C++](/unreal-engine-capitulo-8/)  
+- [Capítulo 8 - Unreal e C++](/unreal-engine-Capítulo-8/)  

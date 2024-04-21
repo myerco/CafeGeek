@@ -1,7 +1,7 @@
 ---
-title: Herança
-excerpt: Neste capitulo será apresentado a estrutura de herança de objetos.
-permalink: /unreal-engine-capitulo-1/heranca
+title: Herança de Objetos
+excerpt: Neste capítulo será apresentado a estrutura de herança de objetos.
+permalink: /unreal-engine-capitulo-1/heran-a-de-objetos
 last_modified_at: 2023-03-28T08:48:05-04:00
 date: 2024-03-01T08:48:05-04:00
 order: 109

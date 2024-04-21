@@ -1,7 +1,7 @@
 ---
 title: Jogos digitais
 layout: collection
-permalink: /jogos-digitais/
+permalink: /jogos-digitais/jogos-digitais
 collection: jogos-digitais
 entries_layout: grid
 classes: wide

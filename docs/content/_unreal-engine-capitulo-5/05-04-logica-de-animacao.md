@@ -221,8 +221,8 @@ Na condição de controle de fluxo entre `Jump_End` e `Idle/Walk/Run` vamos util
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-state-jump-start-not-inair.webp"
-    alt="Figura: Inicio da animação."
-    caption="State Jump Start Not InAir."
+    alt="Figura: Início da animação."
+    caption="Figura: Início da animação."
 %}
 
 Na condição de controle de fluxo entre `Jump_Start` e `Jump_Loop` vamos utilizar a função `Current Time (Ratio) (S_Jump_Start)`. Esta função retorna a proporção de tempo atual da sequência e se o valor for menor 0.1 (10%) de tempo para acabar deve ser feito a transição para outro nó.
@@ -457,7 +457,7 @@ Vamos remover frames antes e depois da pose final que estamos querendo obter.
 
   2. Clicando com o botão direito do mouse na barra de tempo, escolha `Remove from frame N1 to frame N2`;
 
-  3. Onde N1 é  o Inicio e N2 é o final.
+  3. Onde N1 é  o Início e N2 é o final.
 
 | Arquivo         |Início | Antes     |Depois   |
 |:-               |:-:    |:-:        |:-:      |  

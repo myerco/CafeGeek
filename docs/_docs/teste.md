@@ -8,8 +8,6 @@ author_profile: true
 read_time: true
 share: true
 toc: true
-categories:
-  - Jogos Digitais
 tags:
   - Trilha
 ---

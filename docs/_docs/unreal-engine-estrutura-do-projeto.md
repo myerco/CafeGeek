@@ -7,8 +7,6 @@ author_profile: false
 sidebar:
     nav: dev_unreal
 toc: true  
-categories:
-  - Unreal Engine
 tags:
   - Blueprint
   - Actors

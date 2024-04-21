@@ -7,7 +7,7 @@ main:
   - title: "Posts"    
     url: /post-archive-feature-rows/
   - title: "Jogos Digitais"    
-    url: /jogos-digitais/    
+    url: /jogos-digitais/jogos-digitais    
   - title: "Sitemap"    
     url: /sitemap/        
   - title: "Sobre"
@@ -15,23 +15,23 @@ main:
 
 dev_game:
   - title: Unreal Engine
-    url: /unreal-engine/
+    url: /unreal-engine/unreal-engine-com-c-e-blueprint
   - title: Modelagem 3D
-    url: /modelagem-3d/
+    url: /modelagem-3d/modelagem-3d
   - title: A Jogatina das Décadas
-    url: /a-jogatina-das-decadas/
+    url: /a-jogatina-das-decadas/a-jogatina-das-d-cadas
   - title: Me conta uma história
     url: /me-conta-uma-historia/
   - title: Computação gráfica
     url: /computacao-grafica/
   - title: O curso de jogos digitais
-    url: /jogos-digitais
+    url: /jogos-digitai/jogos-digitais
   - title: Trabalhos
     url: /jogos-digitais/trabalhos-de-jogos-digitais
 
 dev_unreal_1:
   - title: "Capítulo 1 - Blueprints"
-    url: /unreal-engine-capitulo-1/
+    url: /unreal-engine-capitulo-1/unreal-engine-capitulo-1
     children:    
       - title: Introdução ao Unreal Engine
         url: /unreal-engine-capitulo-1/introducao-ao-unreal-engine
@@ -50,9 +50,9 @@ dev_unreal_1:
       - title: Actor, Pawn e Character 
         url: /unreal-engine-capitulo-1/actor-pawn-e-character               
       - title: Herança
-        url: /unreal-engine-capitulo-1/heranca        
+        url: /unreal-engine-capitulo-1/heran-a-de-objetos        
       - title: Colisão
-        url: /unreal-engine-capitulo-1/colisao
+        url: /unreal-engine-capitulo-1/colis-o-entra-objetos
       - title: Estruturas de controle
         url: /unreal-engine-capitulo-1/estruturas-de-controle
       - title: Estruturas de repetição
@@ -67,7 +67,7 @@ dev_unreal_1:
 
 dev_unreal_2:        
   - title: "Capítulo 2 - ESTRUTURAS DE ARMAZENAMENTO"
-    url: /unreal-engine-capitulo-2/
+    url: /unreal-engine-capitulo-2/unreal-engine-capitulo-2
     children:    
       - title: Arrays
         url: /unreal-engine-capitulo-2/arrays
@@ -80,7 +80,7 @@ dev_unreal_2:
 
 dev_unreal_3:        
   - title: "Capítulo 3 - INTERFACE COM O JOGADOR"
-    url: /unreal-engine-capitulo-3/  
+    url: /unreal-engine-capitulo-3/unreal-engine-capitulo-3  
     children:
       - title: UI - User Interface
         url: /unreal-engine-capitulo-3/user-interface
@@ -89,7 +89,7 @@ dev_unreal_3:
 
 dev_unreal_4:        
   - title: Capítulo 4 - MATERIAIS E LANDSCAPE
-    url: /unreal-engine-capitulo-4/  
+    url: /unreal-engine-capitulo-4/unreal-engine-capitulo-4  
     children:    
       - title: Introdução aos Materiais
         url: /unreal-engine-capitulo-4/introducao-aos-materiais
@@ -100,7 +100,7 @@ dev_unreal_4:
 
 dev_unreal_5:        
   - title: "Capítulo 5 - MOVIMENTAÇÃO"
-    url: /unreal-engine-capitulo-5/
+    url: /unreal-engine-capitulo-5/unreal-engine-capitulo-5
     children:
       - title: Lógica de Movimentação
         url: /unreal-engine-capitulo-5/logica-de-movimentacao
@@ -115,7 +115,7 @@ dev_unreal_5:
 
 dev_unreal_6:        
   - title: "Capítulo 6 - INTELIGÊNCIA ARTIFICIAL"
-    url: /unreal-engine-capitulo-6/
+    url: /unreal-engine-capitulo-6/unreal-engine-capitulo-6
     children:
       - title: Inteligência Artificial
         url: /unreal-engine-capitulo-6/inteligencia-artificial
@@ -124,14 +124,14 @@ dev_unreal_6:
 
 dev_unreal_7:        
   - title: "Capítulo 7 - MULTIPLAYER"
-    url: /unreal-engine-capitulo-7/
+    url: /unreal-engine-capitulo-7/unreal-engine-capitulo-7
     children:
       - title: Multiplayer
         url: /unreal-engine-capitulo-7/multiplayer
 
 dev_unreal_8:        
   - title: "Capítulo 8 - C++"
-    url: /unreal-engine-capitulo-8/
+    url: /unreal-engine-capitulo-8/unreal-engine-capitulo-8
     children:
       - title: Controle de versão
         url: /unreal-engine-capitulo-8/controle-de-versao
@@ -142,14 +142,14 @@ dev_unreal_8:
       - title: Variáveis e Ponteiros
         url:  /unreal-engine-capitulo-8/variaveis-e-ponteiros
       - title: Classes
-        url:  /unreal-engine-capitulo-8/classes
+        url:  /unreal-engine-capitulo-8/classes-de-objetos-na-linguagem-c
       - title: Unreal Engine e C++
         url: /unreal-engine-capitulo-8/programacao-c-no-unreal-engine
 
 
 dev_computacao:
   - title: COMPUTAÇÃO GRÁFICA    
-    url: /computacao-grafica/
+    url: /computacao-grafica/computa-o-gr-fica
     children:
       - title: Introdução
         url: /computacao-grafica/introducao-a-computacao-grafica
@@ -165,7 +165,7 @@ dev_computacao:
 
 dev_me_conta:
   - title: ME CONTA UMA HISTÓRIA
-    url: /me-conta-uma-historia
+    url: /me-conta-uma-historia/me-conta-uma-historia
     children:          
       - title: Game Design
         url: /me-conta-uma-historia/game-design
@@ -176,7 +176,7 @@ dev_me_conta:
 
 dev_jogatina:
   - title: A jogatina das décadas
-    url: /a-jogatina-das-decadas/
+    url: /a-jogatina-das-decadas/a-jogatina-das-d-cadas
     children:      
       - title: O jogo
         url: /a-jogatina-das-decadas/o-jogo
@@ -203,11 +203,11 @@ dev_modelagem3d:
       - title: Objetos NURBS
         url: /modelagem-3d/objetos-nurbs
       - title: Materiais
-        url: /modelagem-3d/materiais
+        url: /modelagem-3d/trabalhando-com-materiais
 
 banco_dados:
   - title: MODELO
     children:
       - title: A taberna do Pônei Saltitante
-        url: /a-taberna-do-ponei-saltitante/   
+        url: /a-taberna-do-ponei-saltitante/a-taberna-do-ponei-saltitante   
 

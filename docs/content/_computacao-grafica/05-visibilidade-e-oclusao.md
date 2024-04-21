@@ -1,7 +1,7 @@
 ---
 title: Visibilidade e Oclusão
 permalink: /computacao-grafica/visibilidade-e-oclusao
-excerpt: Neste capitulo apresentaremos o processo de visualização e oclusão de objetos.
+excerpt: Neste capítulo apresentaremos o processo de visualização e oclusão de objetos.
 date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2023-03-27T08:48:05-04:00
 order: 105
