@@ -17,7 +17,7 @@ A classe **Actor** compreende objetos básicos que podem ser adicionados ao mund
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-class-actor-details.webp"
     alt="Figura: Actor > Class Defaults."
-    caption="Valores iniciais da classe."
+    caption="Figura: Actor > Valores iniciais da classe."
 %}
 
 **`Parent Class`** : Classe pai de Actor (Classe **C++**).
@@ -45,8 +45,8 @@ As Classes tem propriedades que definem a estrutura do objeto.
 
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-class-pawn-details.webp"
-    alt="Figura: Pawm > Class Defaults."
-    caption="Valores iniciais da classe."
+    alt="Figura: Pawn > Class Defaults."
+    caption="Figura: Pawn > Valores iniciais da classe."
 %}
 
 - `Start with Tick Enabled` - Habilita o evento Tick na lógica. Pode ser desabilitado para ganhar performance;
@@ -67,7 +67,7 @@ Com a adição de um componente `CharacterMovementComponent`, um `CapsuleCompone
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-class-character-details.webp"
     alt="Figura: Character > Class Defaults."
-    caption="Valores iniciais da classe."
+    caption="Figura: Character > Valores iniciais da classe."
 %}
 
 - `Animation Mode` - Habilita uma animação simples ou um **Blueprint** de animação ao objeto;
@@ -87,13 +87,13 @@ Na aba `Components`s podemos adicionar componentes para os objetos de forma hier
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-add-component.webp"
     alt="Figura: Components > Add."
-    caption="Adicionando componentes."
+    caption="Figura: Adicionando componentes."
 %}
 
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-add-component-hierarchy.webp"
     alt="Figura: Components."
-    caption="Estrutura hierárquica dos componentes."
+    caption="Figura: Estrutura hierárquica dos componentes."
 %}
 
 Exemplo de Componentes que podemos adicionar a classe:  
@@ -109,7 +109,7 @@ Para editar os componentes utilizamos o Editor de objetos e componentes.
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-component-details.webp"
     alt="Figura: Component > Details."
-    caption="Podemos editar as propriedades dos componentes."
+    caption="Figura: Podemos editar as propriedades dos componentes."
 %}
 
 ### 4.2. Static Mesh - Malhas estáticas
@@ -121,7 +121,7 @@ Consistem em um conjunto de polígonos que podem ser armazenados em cache na mem
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-static-mesh-viewport.webp"
     alt="Figura: Statis Mesh ViewPort."
-    caption="Podemos manipular as transformações da Static Mesh."
+    caption="Figura: Podemos manipular as transformações da Static Mesh."
 %}
 
 #### 4.2.1. Propriedades do componente Static Mesh
@@ -141,7 +141,7 @@ Visualização da malha e suas propriedades (vértices, UV e modelo de colisão)
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-static-mesh-editor.webp"
     alt="Figura: Editor de StaticMesh."
-    caption="O editor permite adicionar uma caixa de colisão e visualizar o mapeamento UV."
+    caption="Figura: O editor permite adicionar uma caixa de colisão e visualizar o mapeamento UV."
 %}
 
 ### 4.3. Skeletal Mesh - Malha Esquelética
@@ -171,7 +171,7 @@ A baixo uma representação da hierarquia do Skeletal Mesh.
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-skeletal-mesh.webp"
     alt="Figura: Mesh (Character Mesh)."
-    caption="Aba Componentes > Lista de componentes predefinidos da classe Character, Details >  Propriedades do componente."
+    caption="Figura: Aba Componentes > Lista de componentes predefinidos da classe Character, Details >  Propriedades do componente."
 %}
 
 Componentes da Classe Character:
@@ -197,7 +197,7 @@ Propriedades da Mesh (Skeletal):
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-skeleton-mannequim.webp"
     alt="Figura: Editor Skeletal Mesh."
-    caption="Permite a manipulação de cada osso do esqueleto e acesso aos objetos associados ao esqueleto."
+    caption="Figura: Permite a manipulação de cada osso do esqueleto e acesso aos objetos associados ao esqueleto."
 %}
 
 Observe que o editor é divido em :
@@ -219,7 +219,7 @@ Os objetos adicionados em uma cena possuem coordenadas de localização dentro d
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-viewport-coordinates.webp"
     alt="Figura: Coordenadas no ViewPort."
-    caption="No campo inferior esquerdo são indicadas as posições x,y e z da cena. O objeto da cena apresenta o gizmo para indicar a sua posição na cena. No canto superior direito é possível alterar entre as coordenadas do mundo e do objeto."
+    caption="Figura: No campo inferior esquerdo são indicadas as posições x,y e z da cena. O objeto da cena apresenta o gizmo para indicar a sua posição na cena. No canto superior direito é possível alterar entre as coordenadas do mundo e do objeto."
 %}
 
 ### 5.1. Transform
@@ -229,7 +229,7 @@ A seção **Transform** do painel Detalhes permite que você visualize e edite a
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-viewport-transform.webp"
     alt="Figura: Transform - Valores de transformação do objeto."
-    caption="Valores relativos à Localização (Location), Rotação (Rotation) e Escala ou dimensionamento (Scale)."
+    caption="Figura: Valores relativos à Localização (Location), Rotação (Rotation) e Escala ou dimensionamento (Scale)."
 %}
 
 ### 5.2. Escrevendo na tela o posicionamento do ator no mundo
@@ -237,7 +237,7 @@ A seção **Transform** do painel Detalhes permite que você visualize e edite a
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-print-location.webp"
     alt="Figura: Blueprint - Escreve na tela as coordenadas de localização do objeto."
-    caption="Ao iniciar, BeginPlay, as funções GetActorLocation e GetWorldLocation são executadas."
+    caption="Figura: Ao iniciar, BeginPlay, as funções GetActorLocation e GetWorldLocation são executadas."
 %}
 
 - `GetActorLocation` - Retorna um vetor contendo as coordenadas X,Y e Z da posição do ator no mundo. Utiliza o componente `RootComponent` para determinar os valores;
@@ -259,7 +259,7 @@ Considere o exemplo abaixo do objeto **BP_ActorBase**:
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-sceneroot.webp"
     alt="Figura: SceneRoot."
-    caption="A malha (Mesh) está hierarquia abaixo do componente, então, as coordenadas são relativas, por exemplo: X=0,Y=0,Z=0."
+    caption="Figura: A malha (Mesh) está hierarquia abaixo do componente, então, as coordenadas são relativas, por exemplo: X=0,Y=0,Z=0."
 %}
 
 O objeto BP_ActorBase possui um componente `DefaultSceneRoot`.
@@ -273,13 +273,13 @@ A posição do ator no mundo é calculada utilizando o componente `DefaultSceneR
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-print-relative-location.webp"
     alt="Figura: Get Target Relative Location."
-    caption="Retorna um vetor com as coordenadas da malha relativas ao sceneroot."
+    caption="Figura: Retorna um vetor com as coordenadas da malha relativas ao sceneroot."
 %}
 
 {% include iframe.html
     src="https://blueprintue.com/render/xy8gbnli/"
     title="Cafegeek - Escreve na tela as coordenadas de localização do objeto"
-    caption="Ao iniciar, BeginPlay, as funções GetActorLocation e GetWorldLocation são executadas."
+    caption="Figura: Ao iniciar, BeginPlay, as funções GetActorLocation e GetWorldLocation são executadas."
     ref="https://blueprintue.com/render/xy8gbnli/"
 %}
 
@@ -294,7 +294,7 @@ O processo de criação de uma nova instância de um ator é conhecido como *spa
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-actor-spawn.webp"
     alt="Figura: Exemplo de SpawnActor e DestroyActor."
-    caption="Cria o ator na posição do objeto TargetPoint e se ele já está na cena o destrói."
+    caption="Figura: Cria o ator na posição do objeto TargetPoint e se ele já está na cena o destrói."
 %}
 
 Utilizando o `Level Bluprint` podemos implementar o código acima.
@@ -312,7 +312,7 @@ Utilizando a função `GetAllActorOfClass` e o loop `For Each Loop` podemos list
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-get-all-ActorOfClass.webp"
     alt="Figura: GetAllActorOfClass."
-    caption="Lista todos os objetos instanciados da classe BP_ActorBase e os destrói."
+    caption="Figura: Lista todos os objetos instanciados da classe BP_ActorBase e os destrói."
 %}
 
 {% include iframe.html

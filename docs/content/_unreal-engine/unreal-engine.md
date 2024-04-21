@@ -20,18 +20,18 @@ sidebar: false
 
 ## Conteúdo do curso
 
-- [Capítulo 1 - Blueprints](/unreal-engine-Capítulo-1/)  
+- [Capítulo 1 - Blueprints](/unreal-engine-Capítulo-1/unreal-engine-capitulo-1)  
 
-- [Capítulo 2 - Estruturas de armazenamento](/unreal-engine-Capítulo-2/)
+- [Capítulo 2 - Estruturas de armazenamento](/unreal-engine-Capítulo-2/unreal-engine-capitulo-2)
 
-- [Capítulo 3 - Interface com o jogador](/unreal-engine-Capítulo-3/)
+- [Capítulo 3 - Interface com o jogador](/unreal-engine-Capítulo-3/unreal-engine-capitulo-3)
 
-- [Capítulo 4 - Materiais e landscape](/unreal-engine-Capítulo-4/)
+- [Capítulo 4 - Materiais e landscape](/unreal-engine-Capítulo-4/unreal-engine-capitulo-4)
 
-- [Capítulo 5 - Movimentação](/unreal-engine-Capítulo-5/)
+- [Capítulo 5 - Movimentação](/unreal-engine-Capítulo-5/unreal-engine-capitulo-5)
 
-- [Capítulo 6 - Inteligência artificial](/unreal-engine-Capítulo-6/)  
+- [Capítulo 6 - Inteligência artificial](/unreal-engine-Capítulo-6/unreal-engine-capitulo-6)  
 
-- [Capítulo 7 - Multiplayer](/unreal-engine-Capítulo-7/)  
+- [Capítulo 7 - Multiplayer](/unreal-engine-Capítulo-7/unreal-engine-capitulo-7)  
 
-- [Capítulo 8 - Unreal e C++](/unreal-engine-Capítulo-8/)  
+- [Capítulo 8 - Unreal e C++](/unreal-engine-Capítulo-8/unreal-engine-capitulo-8)  
