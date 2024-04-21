@@ -30,7 +30,7 @@ No exemplo acima verificamos que o tempo transcorrido entre o frame 1 e o frame 
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-frame-walking.webp"
   alt="Figura: Walking Frame."
-  caption="Animação por quadros."
+  caption="Figura: Animação por quadros."
 %}
 
 |        |     |     |     |     |     |     |     |     |     |     |
@@ -61,7 +61,7 @@ O **Unreal Engine** permite visualizar e alterar os frames por segundo, *FPS*  u
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-cmd-settings.webp"
   alt="Figura: Project Settings."
-  caption="Para habilitar o console de comandos utilizamos Menu > Project Settings > Engine Inputs ou digitar na busca a palavra console, em seguida associe uma tecla ao console, o padrão é a tecla (´)."
+  caption="Figura: Para habilitar o console de comandos utilizamos Menu > Project Settings > Engine Inputs ou digitar na busca a palavra console, em seguida associe uma tecla ao console, o padrão é a tecla (´)."
 %}
 
 Uma vez configurado podemos voltar para a tela principal ou `ViewPort` para acionar o console.
@@ -73,7 +73,7 @@ Pressione a tecla  `´`, configurada anteriormente, e o editor de comandos apare
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-cmd-stat-fps.webp"
   alt="Figura: FPS."
-  caption="Comando : stat fps."
+  caption="Figura: Comando : stat fps."
 %}
 
 ```bash
@@ -167,7 +167,7 @@ Para exemplificar vamos controlar o movimento do objeto independente do *FPS* ut
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-logic-simple.webp"
   alt="Figura: Event Tick com DeltaTime e SetWorldLocation."
-  caption="Utilizamos GetWorldLocation e incrementamos o valor de Y a cada Tick para atualziar SetWordLocation, atualizando a posição do objeto."
+  caption="Figura: Utilizamos GetWorldLocation e incrementamos o valor de Y a cada Tick para atualziar SetWordLocation, atualizando a posição do objeto."
 %}
 
 No exemplo acima se o *FPS* for um valor muito baixo o objeto vai se movimentar de forma lenta, por conseguinte percebemos que a movimentação será afetada pelo *FPS*.
@@ -175,7 +175,7 @@ No exemplo acima se o *FPS* for um valor muito baixo o objeto vai se movimentar 
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-delta-seconds.webp"
   alt="Figura: Blueprint - Event Tick com DeltaTime e SetWorldLocation e calculando a velocidade"
-  caption="Distância / Velocidade * Delta Seconds"
+  caption="Figura: Distância / Velocidade * Delta Seconds"
 %}
 
 - *Distancia* - Valor = 1000;
@@ -191,7 +191,7 @@ Quando multiplicamos o valor do `Delta Seconds` pela velocidade do objeto podemo
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-framerate-settings.webp"
   alt="Figura: Unreal Engine - General Settings Frame Rate. "
-  caption="Podemos fixar o FPS do projeto utilizando o menu Project settings > Use fixed frame rate."
+  caption="Figura: Podemos fixar o FPS do projeto utilizando o menu Project settings > Use fixed frame rate."
 %}
 
 ### 2.4. Vídeo Delta Seconds e sistema de coordenadas
@@ -207,7 +207,7 @@ Para adicionar um objeto Timeline utilizamos Click RMB no `Event Graph`, lógica
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-editor.webp"
   alt="Figura: Timeline Editor"
-  caption="Detalhes do editor."
+  caption="Figura: Detalhes do editor."
 %}
 
 1. Parameters - Parâmetros do Timeline;
@@ -221,7 +221,7 @@ Para adicionar um objeto Timeline utilizamos Click RMB no `Event Graph`, lógica
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-object.webp"
   alt="Figura: Unreal Engine - Timeline Inputs and Outputs. s"
-  caption="Nó TimeLine e suas entradas e saídas."
+  caption="Figura: Nó TimeLine e suas entradas e saídas."
 %}
 
 `Play` -  Faz com que a Linha de tempo seja reproduzida a partir de sua hora atual;
@@ -259,7 +259,7 @@ A seguir vamos criar o objeto `BP_ControlLight` do tipo `Trigger Box`.
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-boxcolision.webp"
   alt="Figura: Box Trigger BP_ControlLight."
-  caption="O objeto BP_ControlLight com seus componentes e variáveis."
+  caption="Figura: O objeto BP_ControlLight com seus componentes e variáveis."
 %}
 
 1. Adicionamos a variável *Lampada* do tipo `PointLight` e a configuramos como publica, `Instance Editable` para que ela possa ser acessível na janela `Details` do `Viewport`;
@@ -271,7 +271,7 @@ A seguir vamos criar o objeto `BP_ControlLight` do tipo `Trigger Box`.
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-variable.webp"
   alt="Figura: CollisionComponent e PointLight. s"
-  caption="Componente BP_ControlLight associando a variável Lamp ao objeto na cena."
+  caption="Figura: Componente BP_ControlLight associando a variável Lamp ao objeto na cena."
 %}
 
 Em `BP_ControlLight` no `Event Graph` adicionamos a seguinte lógica para tratamento de luz utilizando o evento AlterandoIluminacao.
@@ -279,7 +279,7 @@ Em `BP_ControlLight` no `Event Graph` adicionamos a seguinte lógica para tratam
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-logic.webp"
   alt="Figura:Lógica para tratamento da luz utilizando. "
-  caption="Utilizando Set Light Color, Set Intensity e TimeLine."
+  caption="Figura: Utilizando Set Light Color, Set Intensity e TimeLine."
 %}
 
 ### 3.4. Tipos de variáveis do objeto TimeLine
@@ -289,7 +289,7 @@ O Editor do TimeLine é um gráfico de tempo e valor, onde a linha horizontal re
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-type-variables.webp"
   alt="Figura: Variáveis do objeto Timeline. "
-  caption="O gráfico utiliza os tipos de dados: Float, Vector, Event e `Color`."
+  caption="Figura: O gráfico utiliza os tipos de dados: Float, Vector, Event e `Color`."
 %}
 
 #### 3.4.1. Variável float
@@ -297,7 +297,7 @@ O Editor do TimeLine é um gráfico de tempo e valor, onde a linha horizontal re
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-float.webp"
   alt="Figura: Exemplo de variável float do DeltaTime. "
-  caption="Tipo float controla a intensidade da luz durante o tempo 1."
+  caption="Figura: Tipo float controla a intensidade da luz durante o tempo 1."
 %}
 
 {% include video id="qOUYp-XWUtw" provider="youtube" %}
@@ -307,7 +307,7 @@ O Editor do TimeLine é um gráfico de tempo e valor, onde a linha horizontal re
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-vector.webp"
   alt="Figura:   Blueprint - Exemplo de variável Vector do DeltaTime. "
-  caption="Tipo Vector altera o valor das coordenadas durante o tempo 4."
+  caption="Figura: Tipo Vector altera o valor das coordenadas durante o tempo 4."
 %}
 
 {% include video id="w5VpoM95B-Q" provider="youtube" %}
@@ -317,7 +317,7 @@ O Editor do TimeLine é um gráfico de tempo e valor, onde a linha horizontal re
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-color.webp"
   alt="Figura: Exemplo de variável Color do DeltaTime. "
-  caption="Tipo Color altera as cores da luz conforme o tempo passa."
+  caption="Figura: Tipo Color altera as cores da luz conforme o tempo passa."
 %}
 
 {% include video id="EJQwXxjiS58" provider="youtube" %}
@@ -327,7 +327,7 @@ O Editor do TimeLine é um gráfico de tempo e valor, onde a linha horizontal re
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-event.webp"
   alt="Figura: Exemplo de um evento do DeltaTime."
-  caption="Tipo Event dispara um evento no tempo 2,4 e 6."
+  caption="Figura: Tipo Event dispara um evento no tempo 2,4 e 6."
 %}
 
 #### 3.4.5. Acionando um evento para alterar a iluminação
@@ -335,7 +335,7 @@ O Editor do TimeLine é um gráfico de tempo e valor, onde a linha horizontal re
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-call-event.webp"
   alt="Figura: Exemplo da lógica para alterar a iluminação."
-  caption="O evento Overlap chama a função para alterar as propriedades da iluminação."
+  caption="Figura: O evento Overlap chama a função para alterar as propriedades da iluminação."
 %}
 
 {% include video id="YkvP6tMMly0" provider="youtube" %}
@@ -373,19 +373,19 @@ Neste exemplo vamos implementar um movimento no eixo Y de abertura de uma porta.
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-movement.webp"
   alt="Figura: Exemplo de movimentação deslizando a porta."
-  caption="Adicionando o elemento Movimentando TimeLine e alterando a posição do objeto."
+  caption="Figura: Adicionando o elemento Movimentando TimeLine e alterando a posição do objeto."
 %}
 
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-movement-vector.webp"
   alt="Figura: Exemplo de movimentação com vector somente com o eixo Y."
-  caption="Movimentando utiliza a variável Movimento do tipo `Vector`. Somente o valor de Y é alterado.."
+  caption="Figura: Movimentando utiliza a variável Movimento do tipo `Vector`. Somente o valor de Y é alterado.."
 %}
 
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-save-pos.webp"
   alt="Figura: Salvando a posição de um objeto em um vetor."
-  caption="Usamos o vetor PosicaoInicial para armazenar o valor de GetActorLocations."
+  caption="Figura: Usamos o vetor PosicaoInicial para armazenar o valor de GetActorLocations."
 %}
 
 ### 4.2. Girando a porta
@@ -397,13 +397,13 @@ Utilizamos a função `MakeRotator`.
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-makerotator.webp"
   alt="Figura: Exemplo de movimentação girando a porta utilizando Make Rotator."
-  caption="Usamos somente o parâmetro Z para rotacionar o objeto. O nó Movimentando utiliza a variável *Angulo* do tipo `Vector`."
+  caption="Figura: Usamos somente o parâmetro Z para rotacionar o objeto. O nó Movimentando utiliza a variável *Angulo* do tipo `Vector`."
 %}
 
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-vector-angle.webp"
   alt="Figura: Exemplo de movimentação utilizando ângulo de abertura."
-  caption="O tempo e 0 até 1 (1s) e o valor é 0 até 90 (Ângulo de rotacionamento)."
+  caption="Figura: O tempo e 0 até 1 (1s) e o valor é 0 até 90 (Ângulo de rotacionamento)."
 %}
 
 ### 4.3. Girando a porta utilizando C++
@@ -531,7 +531,7 @@ Acionando a porta.
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-open-door.webp"
   alt="Figura: Exemplo de abertura da porta utilizando CollisionComponent."
-  caption="Ao colidir com o objeto a porta a movimentação da porta é acionada."
+  caption="Figura: Ao colidir com o objeto a porta a movimentação da porta é acionada."
 %}  
 
 ## 5. Curves
@@ -541,19 +541,19 @@ Podemos criar um tipo de objeto `Curve` para que possamos utilizar em vários Bl
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-curve-create.webp"
   alt="Figura: Menu de contexto Miscellaneous > Curve."
-  caption="Para criar um objeto do tipo Curve utilizamos o menu de contexto Miscellaneous > Curve, para o exemplo a seguir utilize uma curva do tipo Float e use o nome C_TempoPorta.."
+  caption="Figura: Para criar um objeto do tipo Curve utilizamos o menu de contexto Miscellaneous > Curve, para o exemplo a seguir utilize uma curva do tipo Float e use o nome C_TempoPorta.."
 %}  
 
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-curve-details.webp"
   alt="Figura: Objeto C_TempoPorta."
-  caption="Adicionamos duas chaves ou variáveis aa Objeto C_TempoPorta."
+  caption="Figura: Adicionamos duas chaves ou variáveis aa Objeto C_TempoPorta."
 %}  
 
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-timeline-curve.webp"
   alt="Figura: Associando a curva ao Timeline."
-  caption="Associamos o objeto C_TempoPorta ao objeto Movimentando de tipo Timeline."
+  caption="Figura: Associamos o objeto C_TempoPorta ao objeto Movimentando de tipo Timeline."
 %}  
 
 - `SetVectorCurve`;
@@ -563,7 +563,7 @@ Podemos criar um tipo de objeto `Curve` para que possamos utilizar em vários Bl
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-velocity-exemple.webp"
   alt="Figura: Exemplo da lógica de calculo de velocidade."
-  caption="Usamos VectorLength para obter o valor do deslocamento."
+  caption="Figura: Usamos VectorLength para obter o valor do deslocamento."
 %}  
 
 ## 7. Sistema de coordenadas
@@ -652,7 +652,7 @@ Usando a função `GetActorLocation` podemos determinar a distância entre dois 
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-vector-lenght.webp"
   alt="Figura: Exemplo de VectorLength."
-  caption="Calcula o comprimento do vetor, onde Comprimento = VectorLength(Resultado) (1341.64078)."
+  caption="Figura: Calcula o comprimento do vetor, onde Comprimento = VectorLength(Resultado) (1341.64078)."
 %}  
 
 ### 8.2. GetDistanceTo
@@ -676,7 +676,7 @@ Resultado = Normalize(**a**,0)
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-normalize.webp"
   alt="Figura: Blueprint - Exemplo de Normalize."
-  caption="O nó retorna um vetor normalizado."
+  caption="Figura: O nó retorna um vetor normalizado."
 %}  
 
 ## 9. Verificando para onde o ator está apontando
@@ -699,7 +699,7 @@ Usaremos várias funções para verificar a direção que o ator está apontando
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-forward-up-right-vector.webp"
   alt="Figura: Exemplo de GetActorForwardVector. "
-  caption="Definir onde o ator esta apontando."
+  caption="Figura: Definir onde o ator esta apontando."
 %}  
 
 ## 10. Acompanhando o movimento de um objeto
@@ -709,5 +709,5 @@ Usaremos a função `FindLookAtRotation` para que um objeto se movimente no seu 
 {% include imagelocal.html
   src="unreal/tempoespaco/unreal-engine-find-look-rotation.webp"
   alt="Figura: Blueprint - Exemplo de FindLookAtRotation."
-  caption="Atualizamos a posição do Personagem para usar como referência em FindLookRotation."
+  caption="Figura: Atualizamos a posição do Personagem para usar como referência em FindLookRotation."
 %}

@@ -24,13 +24,13 @@ A animação de personagens consiste em associar um esqueleto com pontos de cont
 {% include imagelocal.html
     src="unreal/animacao/Skeleton-over-a-mesh.webp"
     alt="Figura: Skeleton over a Mesh."
-    caption="A malha envolve a estrutura do esqueleto."
+    caption="Figura: A malha envolve a estrutura do esqueleto."
 %}
 
 {% include imagelocal.html
     src="unreal/animacao/Animation-pose-keyframes-and-timeline.webp"
     alt="Figura: Animation pose keyframes and timeline."
-    caption="Adicionamos uma pose a uma linha de tempo para simular movimento."
+    caption="Figura: Adicionamos uma pose a uma linha de tempo para simular movimento."
 %}
 
 {% include image.html
@@ -56,7 +56,7 @@ Embora o formato FBX seja proprietário, muitos aplicativos de modelagem e anima
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-fbx-export-unreal.webp"
     alt="Figura: Arquivo FBX."
-    caption="Exportando um modelo 3D do Autodesk Maya para o Unreal."
+    caption="Figura: Exportando um modelo 3D do Autodesk Maya para o Unreal."
 %}
 
 ## 3. Skeleton
@@ -74,7 +74,7 @@ Skeleton ou Esqueleto da malha importada no arquivo FBX contendo controle de mov
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-skeleton-mannequim.webp"
     alt="Figura: Editor de esqueleto ou Skeleton."
-    caption="Ao abrir um objeto do tipo esqueleto é fornecido um editor específico para a manipulação esse tipo de objeto."
+    caption="Figura: Ao abrir um objeto do tipo esqueleto é fornecido um editor específico para a manipulação esse tipo de objeto."
 %}
 
 ### 3.1. Animation Editors
@@ -82,7 +82,8 @@ Skeleton ou Esqueleto da malha importada no arquivo FBX contendo controle de mov
 {% include image.html
     src="https://docs.unrealengine.com/5.1/Images/animating-characters-and-objects/SkeletalMeshAnimation/Persona/AnimationEditorOverview.png"
     alt="Figura: Animation Editors."
-    caption="O Skeletal Mesh Animation System no Unreal Engine é composto por editores de recursos de animação especializados que apresentam ferramentas de animação robustas que você pode usar ao trabalhar com Skeletal Meshes e outros recursos de animação. Com esses editores de animação, você pode criar animações de personagens, interações dentro dos níveis e outros comportamentos processuais."
+    caption="Figura: O Skeletal Mesh Animation System no Unreal Engine é composto por editores de recursos de animação especializados que apresentam ferramentas de animação robustas que você pode usar ao trabalhar com Skeletal Meshes e outros recursos de animação. Com esses editores de animação, você pode criar animações de personagens, interações dentro dos níveis e outros comportamentos processuais."
+    idref="UNREAL ENGINE,Animation"
     ref="https://docs.unrealengine.com/5.1/en-US/animation-editors-in-unreal-engine/"
 %}
 
@@ -93,7 +94,7 @@ Skeletal Mesh ou Malha do esqueleto cobre os ossos para gerenciamento de `LOD` e
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-skeletal-mesh-editor.webp"
     alt="Figura: Skeletal Mesh."
-    caption="Com este editor podemos manipular a malha do esqueleto."
+    caption="Figura: Com este editor podemos manipular a malha do esqueleto."
 %}
 
 ### 4.1. Skeletal Mesh Editor
@@ -101,7 +102,8 @@ Skeletal Mesh ou Malha do esqueleto cobre os ossos para gerenciamento de `LOD` e
 {% include image.html
     src="https://docs.unrealengine.com/5.1/Images/animating-characters-and-objects/SkeletalMeshAnimation/Persona/MeshDetails/SkeletalMeshEditorOverview.png"
     alt="Figura: Skeletal Mesh Editor."
-    caption="O modo Skeletal Mesh Editor é onde você pode encontrar as ferramentas para manipular e visualizar os ativos do Skeletal Mesh. É semelhante ao Static Mesh Editor. No Editor de malha esquelética, você pode fazer alterações na malha poligonal atribuindo materiais, adicionando elementos de vestuário, configurando LODs (nível de detalhe) e visualizando quaisquer Alvos Morph aplicados à malha."
+    caption="Figura: O modo Skeletal Mesh Editor é onde você pode encontrar as ferramentas para manipular e visualizar os ativos do Skeletal Mesh. É semelhante ao Static Mesh Editor. No Editor de malha esquelética, você pode fazer alterações na malha poligonal atribuindo materiais, adicionando elementos de vestuário, configurando LODs (nível de detalhe) e visualizando quaisquer Alvos Morph aplicados à malha."
+    idref="UNREAL ENGINE,Skeletal Mesh"
     ref="https://docs.unrealengine.com/5.1/en-US/skeletal-mesh-editor-in-unreal-engine/"
 %}
 
@@ -124,7 +126,7 @@ Editor para implementação das animações utilizando codificação visual.
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animgraph.webp"
     alt="Figura: Editor Anim Graph."
-    caption="Adicionamos toda a lógica de animação dos objetos utilizando um apresentação um fluxo de estados ou poses."
+    caption="Figura: Adicionamos toda a lógica de animação dos objetos utilizando um apresentação um fluxo de estados ou poses."
 %}
 
 ### 5.1. Animation Blueprint Editor
@@ -133,6 +135,7 @@ Editor para implementação das animações utilizando codificação visual.
     src="https://docs.unrealengine.com/5.1/Images/animating-characters-and-objects/SkeletalMeshAnimation/AnimBlueprints/animation-blueprint-editor/EditorOverview.png"
     alt="Figura: Animation Blueprint Editor."
     caption="O Animation Blueprint Editor compartilha funcionalidade semelhante ao Blueprint Editor, mas contém recursos, ferramentas e janelas diferentes para auxiliar na criação de scripts de animação de personagens."
+    idref="UNREAL ENGINE, Skeletal Mesh Editor"
     ref="https://docs.unrealengine.com/5.1/en-US/skeletal-mesh-editor-in-unreal-engine/"
 %}
 
@@ -153,7 +156,7 @@ Editor que permite a edição e montage de animações.
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-blend-space-1D.webp"
     alt="Figura: Blueprint - Editor Blend Space 1D."
-    caption="Podemos sequenciar animações associadas a variáveis possibilitando um fluxo de animações."
+    caption="Figura: Podemos sequenciar animações associadas a variáveis possibilitando um fluxo de animações."
 %}
 
 ### 6.1. Animation Sequence Editor
@@ -161,7 +164,8 @@ Editor que permite a edição e montage de animações.
 {% include image.html
     src="https://docs.unrealengine.com/5.1/Images/animating-characters-and-objects/SkeletalMeshAnimation/Persona/AssetEditor/AnimationSequenceEditorOverview.png"
     alt="Figura: Animation Sequence Editor."
-    caption="O Animation Sequence Editor fornece acesso a vários recursos centrados em animação disponíveis para Skeletal Meshes no Unreal Engine. No Animation Sequence Editor, você pode editar e visualizar sequências de animação, montagens, curvas e muito mais."
+    caption="Figura: O Animation Sequence Editor fornece acesso a vários recursos centrados em animação disponíveis para Skeletal Meshes no Unreal Engine. No Animation Sequence Editor, você pode editar e visualizar sequências de animação, montagens, curvas e muito mais."
+    idref="UNREAL ENGINE, Animation Sequence"
     ref="https://docs.unrealengine.com/5.1/en-US/animation-sequence-editor-in-unreal-engine/"
 %}
 
@@ -172,7 +176,7 @@ Neste capítulo vamos preparar e organizar os objetos e elementos necessários, 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-project.webp"
     alt="Figura: Modelos."
-    caption="Podemos baixar vários modelos e importar para o nosso projeto."
+    caption="Figura: Podemos baixar vários modelos e importar para o nosso projeto."
 %}
 
 Para configurar e adicionar os pacotes necessários para as animações, vamos criar o projeto AulaAnimação com `Blueprint ThirdPerson` e adicionar `Animation Starter Pack` e logo em seguida preparamos e organizamos as pastas.
@@ -309,7 +313,7 @@ Para importar a Mesh e Skeletal baixada anteriormente para dentro do Unreal, na 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-fbx-import-options.webp"
     alt="Figura: FBX import options."
-    caption="Opções para importar o objeto do tipo FBX."
+    caption="Figura: Opções para importar o objeto do tipo FBX."
 %}
 
 Para importar as animações do personagem seguimos os passos abaixo:
