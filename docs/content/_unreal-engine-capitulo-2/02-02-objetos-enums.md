@@ -1,7 +1,7 @@
 ---
-title: Enums
+title: Objetos Enums
 excerpt: Neste capítulo serão descritos objetos do tipo Enum.
-permalink: /unreal-engine-capitulo-2/enums
+permalink: /unreal-engine-capitulo-2/objetos-enums
 date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2023-03-28T08:48:05-04:00
 order: 202

@@ -19,7 +19,7 @@ tags:
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-blend-space.webp"
     alt="Figura: Blend Space"
-    caption="Editor de animações."
+    caption="Figura: Editor de animações."
 %}
 
 O objetivo do `Blend Space` é reduzir a necessidade de criar nós individuais codificados para mesclar animações com um editor que realiza a mesclagem com base em propriedades ou condições específicas. Permitindo que o animador ou programador especifique as entradas, as animações e como as entradas são usadas para mesclar entre as animações, virtualmente qualquer tipo de mesclagem pode ser executado usando o Blend Space.
@@ -27,7 +27,7 @@ O objetivo do `Blend Space` é reduzir a necessidade de criar nós individuais c
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-blend-1d.webp"
     alt="Figura: Blend Space 1D."
-    caption="Para carregar o editor de animação na horizontal usamos o menu de contexto Animation > Blend Space 1D e em seguida selecionamos o esqueleto base das animações."
+    caption="Figura: Para carregar o editor de animação na horizontal usamos o menu de contexto Animation > Blend Space 1D e em seguida selecionamos o esqueleto base das animações."
 %}
 
 **Informação:** Nos próximos passos vamos criar várias sequencias de animações para o personagem BP_Human.
@@ -40,7 +40,7 @@ Os Blend Spaces também podem ser criados em um formato unidimensional, conhecid
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-blend-space-1D.webp"
     alt="Figura: Editor Blend Space 1D."
-    caption="Utilizamos este elemento quando temos somente um parâmetro para controle da mudança de animações, neste caso o eixo horizontal com o parâmetro Speed."
+    caption="Figura: Utilizamos este elemento quando temos somente um parâmetro para controle da mudança de animações, neste caso o eixo horizontal com o parâmetro Speed."
 %}
 
 ## 3. Implementando os personagens
@@ -95,7 +95,7 @@ Este elemento é utilizado quanto existem dois parâmetros para controle das ani
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-blend-space.webp"
     alt="Figura: Editor Blend Space."
-    caption="Menu de contexto Animation > Blend Space."
+    caption="Figura: Menu de contexto Animation > Blend Space."
 %}
 
 Salve o objeto com o nome do arquivo `BS_Human` e em Sequencia de animação arraste as animações para o sequenciador conforme o parâmetro `Speed` e `Direction`;
@@ -120,7 +120,7 @@ Salve o objeto com o nome do arquivo `BS_Human` e em Sequencia de animação arr
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-animation-blueprint-main.webp"
     alt="Figura: Animation Blueprint Editor."
-    caption="Animação e Blueprint."
+    caption="Figura: Animação e Blueprint."
 %}
 
 É um **Blueprint** especializado que controla a animação de uma malha esquelética. Os gráficos são editados dentro do `Animation Blueprint Editor`, onde você pode realizar a combinação da animação, controlar diretamente os ossos de um esqueleto ou configurar a lógica que definirá a pose final da animação para uma malha esquelética a ser usada por quadro.
@@ -131,13 +131,13 @@ Salve o objeto com o nome do arquivo `BS_Human` e em Sequencia de animação arr
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-animation-blueprint.webp"
     alt="Figura: Menu contexto Animation > Animation Blueprint."
-    caption="Para criar o objeto ABP_Human utilizamos o menu de contexto."
+    caption="Figura: Para criar o objeto ABP_Human utilizamos o menu de contexto."
 %}
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-editor-graph.webp"
     alt="Figura: Editor Animmation Blueprint MyBlueprint."
-    caption="A aba MyBlueprint apresenta a organização do editor."
+    caption="Figura: A aba MyBlueprint apresenta a organização do editor."
 %}
 
 O Editor é separado em `AnimGraph` e `EventGraph`, onde o primeiro implementa a lógica de nós de sequencias de animação e o segundo a lógica de programação **Blueprint**.
@@ -151,13 +151,13 @@ O nó `Output Pose` é o estado ou pose final da animação. A seguir vamos cria
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-human-state-base.webp"
     alt="Figura: Animation graphs Output Pose."
-    caption="No editor Animation Graphs crie o estado Base com Add new state;"
+    caption="Figura: No editor Animation Graphs crie o estado Base com Add new state;"
 %}
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-human-blendspace-1d-state.webp"
     alt="Figura: Idle/Walk/Run."
-    caption="Dentro do nó criado adicionaremos um novo estado com Add State com o nome Idle/Walk/Run."
+    caption="Figura: Dentro do nó criado adicionaremos um novo estado com Add State com o nome Idle/Walk/Run."
 %}
 
 ## 7. Blend Space e State Machine
@@ -167,19 +167,19 @@ Para exemplificar vamos apresentar os dois métodos de Blend Space com o persona
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-blueprint-direction-speed.webp"
     alt="Figura: Animation Blueprint -Speeed e Direction."
-    caption="No gráfico de eventos ou EventGraph vamos adicionar o seguinte código.."
+    caption="Figura: No gráfico de eventos ou EventGraph vamos adicionar o seguinte código.."
 %}
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-human-blendspace-1d-animation.webp"
     alt="Figura: Blend Space 1D dentro do State."
-    caption="Criado anteriormente, BS_Human1D recebe como parâmetro Speed dentro do nó Idle/Walk/Run."
+    caption="Figura: Criado anteriormente, BS_Human1D recebe como parâmetro Speed dentro do nó Idle/Walk/Run."
 %}
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-human-blendspace-state.webp"
     alt="Figura: Blend Space."
-    caption="Nó Idle/Walk/Run adicionamos BS_Human que recebe como parâmetro Speed e Direction pois trabalha com duas coordenadas."
+    caption="Figura: Nó Idle/Walk/Run adicionamos BS_Human que recebe como parâmetro Speed e Direction pois trabalha com duas coordenadas."
 %}
 
 Para os passos posteriores vamos utilizar o BS_Human (Blend Space).
@@ -191,7 +191,7 @@ Para simular o salto do personagem vamos adicionar os seguintes estados e em seg
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-state-jump.webp"
     alt="Figura: Sequencia de estados do personagem."
-    caption="Iniciando em Idle/Walk/Run e logo em seguida os estados para simulação do salto."
+    caption="Figura: Iniciando em Idle/Walk/Run e logo em seguida os estados para simulação do salto."
 %}
 
 **Nota:** A animação de salto pode ser dividida em Início de Salto (Jump_Start), Salto no Ar (Jump_Loop) e Finalização do Salto (Jump_End), pois o personagem pode se manter na aminação de Salto no Ar dependendo da altura.
@@ -200,7 +200,7 @@ Para simular o salto do personagem vamos adicionar os seguintes estados e em seg
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-state-jump-start.webp"
     alt="Figura: State Jump Start"
-    caption="Em Jump_Start adicionamos a animação S_Human_Jump_Start iniciando a animação de salto."
+    caption="Figura: Em Jump_Start adicionamos a animação S_Human_Jump_Start iniciando a animação de salto."
 %}
 
 Repetimos a operação para os outros estados adicionando as animações :
@@ -214,7 +214,7 @@ Na condição de controle de fluxo entre `Idle/Walk/Run` e `Jump_Start` vamos ut
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-state-jump-start-inair.webp"
     alt="Figura: Animação de personagem permanecendo no ar."
-    caption="State Jump Start InAir."
+    caption="Figura: State Jump Start InAir."
 %}
 
 Na condição de controle de fluxo entre `Jump_End` e `Idle/Walk/Run` vamos utilizar a variável `InAir` e testar se o valor não é `True`.
@@ -222,7 +222,7 @@ Na condição de controle de fluxo entre `Jump_End` e `Idle/Walk/Run` vamos util
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-state-jump-start-not-inair.webp"
     alt="Figura: Início da animação."
-    caption="Figura: Início da animação."
+    caption="Figura: Figura: Início da animação."
 %}
 
 Na condição de controle de fluxo entre `Jump_Start` e `Jump_Loop` vamos utilizar a função `Current Time (Ratio) (S_Jump_Start)`. Esta função retorna a proporção de tempo atual da sequência e se o valor for menor 0.1 (10%) de tempo para acabar deve ser feito a transição para outro nó.
@@ -230,7 +230,7 @@ Na condição de controle de fluxo entre `Jump_Start` e `Jump_Loop` vamos utiliz
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-state-jump-start-end-time.webp"
     alt="Figura: Animação e Current Time. "
-    caption="State Condition Current Time (Ratio)."
+    caption="Figura: State Condition Current Time (Ratio)."
 %}
 
 Na condição de controle de fluxo entre `Jump_End` e `Idle/Walk/Run` vamos utilizar a função `Current Time (Ratio) (S_Jump_End)` com a mesma lógica do nó descrito anteriormente.
@@ -238,7 +238,7 @@ Na condição de controle de fluxo entre `Jump_End` e `Idle/Walk/Run` vamos util
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-state-jump-end-time.webp"
     alt="Figura: Animação de final do salto."
-    caption="State Condition Current Time (Ratio) Jump End."
+    caption="Figura: State Condition Current Time (Ratio) Jump End."
 %}
 
 Devemos considerar que o salto depende se o personagem esta em queda e se a função `Jump` foi acionado na lógica da classe do personagem, neste casso `BP_Human`.
@@ -246,7 +246,7 @@ Devemos considerar que o salto depende se o personagem esta em queda e se a fun�
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-blueprint-jump.webp"
     alt="Figura: Exemplo da Classe BP e a Função Jump."
-    caption="InputAction Jump associado aos nós Jump e Stop Jumping."
+    caption="Figura: InputAction Jump associado aos nós Jump e Stop Jumping."
 %}
 
 ### 7.2. Implementado Animation Blueprint utilizando o Mutante
@@ -258,7 +258,7 @@ Agora vamos copiar todos os nos do `Event Graph` de `ThirdPerson_AnimBP` para o 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animations-bs-mutant-graph.webp"
     alt="Figura: Animação do mutante."
-    caption="AnimGraph BS_Mutant."
+    caption="Figura: AnimGraph BS_Mutant."
 %}
 
 ### 7.3. Vídeo Animation Blueprint do Mutante
@@ -272,7 +272,7 @@ Em este passo iremos implementar a corrida do personagem. Vamos configura o even
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-blueprint-running.webp"
     alt="Figura: Implementando a corrida do mutante."
-    caption="Blueprint running."
+    caption="Figura: Blueprint running."
 %}
 
 ### 8.1. Vídeo Implementando a corrida do mutante
@@ -288,7 +288,7 @@ Em este passo utilizaremos o `Animation Montage` para montar as animações de a
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-montage.webp"
     alt="Figura: Animation Montage para o ataque."
-    caption="Menu de contexto Animation > Animation Montage."
+    caption="Figura: Menu de contexto Animation > Animation Montage."
 %}
 
 Vamos baixar e instalar os arquivos Mutant_Punch.fbx e Mutant_Swipping do site [https://mixano.com](https://mixano.com) para animar ataque direita e ataque esquerda.
@@ -303,7 +303,7 @@ Adicione um novo slot de nome `Attack` e salve;
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-montage-attack.webp"
     alt="Figura: Animation Montage para o ataque 2."
-    caption="Selecione o novo slot em Montage > DefaultGroup.Attack e salve toda animação."
+    caption="Figura: Selecione o novo slot em Montage > DefaultGroup.Attack e salve toda animação."
 %}
 
 ### 9.1. Vídeo montando Animação de ataque
@@ -326,13 +326,13 @@ Vamos adicionar um novo estado `Add New State Machine` com nome *BasicLocomotion
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animgraph-basiclocomotion.webp"
     alt="Figura: AnimGraph BasicLocomotion."
-    caption="Conectamos o nó em Output Pose substituindo os estados anteriores se existirem;."
+    caption="Figura: Conectamos o nó em Output Pose substituindo os estados anteriores se existirem;."
 %}
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animgraph-idle-walk-run.webp"
     alt="Figura: AnimGraph Idle/Walk/Run - Animação para andar, correr e parado."
-    caption="Arrastamos e colamos BS_Mutant para a AnimGraph e renomeamos o nó para Idle/Walk/Run pois ele contem essas animações."
+    caption="Figura: Arrastamos e colamos BS_Mutant para a AnimGraph e renomeamos o nó para Idle/Walk/Run pois ele contem essas animações."
 %}
 
 Em este estado passamos como parâmetro a variável `Speed` para animação BS_Mutant;
@@ -340,7 +340,7 @@ Em este estado passamos como parâmetro a variável `Speed` para animação BS_M
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animgraph-speed.webp"
     alt="Figura: Animação para corrida, AnimGraph Speed."
-    caption="Conectando a variável Speed em BS_Mutant."
+    caption="Figura: Conectando a variável Speed em BS_Mutant."
 %}
 
 ## 11. Salvando estados e poses
@@ -354,7 +354,7 @@ Neste passo vamos implementar a animação de ataque com soco de direita e esque
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animgraph-attack.webp"
     alt="Figura: Animação de ataque com AnimaGraph Attack."
-    caption="Podemos usar vários nós salvos de estados anteriores."
+    caption="Figura: Podemos usar vários nós salvos de estados anteriores."
 %}
 
 `Slot DefaultGroup` - Associamos a montagem de animação `AM_Mutant_Attack` na qual definimos a sequencia de ataque usando o menu de context;
@@ -368,7 +368,7 @@ No objeto BP_Mutant adicione os eventos de chamada de função e associe a funç
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animations-blueprint-attack.webp"
     alt="Figura: Blueprint para chamar a animação de ataque."
-    caption="Ao acionar os botões do mouse é executada a animação."
+    caption="Figura: Ao acionar os botões do mouse é executada a animação."
 %}
 
 ### 11.1. Vídeo montando o ataque
@@ -384,7 +384,7 @@ Podemos misturar várias animações no nó de estado e utilizar um osso (bone) 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animgraph-attack-simple.webp"
     alt="Figura: Unreal Engine - Animação - Layered Blend per bone."
-    caption="Usando o nó para misturar duas poses."
+    caption="Figura: Usando o nó para misturar duas poses."
 %}
 
 ## 13. Layered Blend by bool
@@ -394,7 +394,7 @@ Neste passo vamos misturar as animações condicionando a uma variável para que
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animgraph-blend-by-bool.webp"
     alt="Figura: Unreal Engine - Animação - Layered Blend by bool."
-    caption="Podemos condicionar a mistura de animações utilizando valores condicionais boolean."
+    caption="Figura: Podemos condicionar a mistura de animações utilizando valores condicionais boolean."
 %}
 
 No `Event Graph` de `ABP_Mutant` adicionamos a lógica para verificar se o personagem esta me movimentando testando a variável `Speed`.
@@ -402,7 +402,7 @@ No `Event Graph` de `ABP_Mutant` adicionamos a lógica para verificar se o perso
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-blueprint-animation-moving.webp"
     alt="Figura:Animação - Layered Blend by bool."
-    caption="Definindo uma variável de controle Moving."
+    caption="Figura: Definindo uma variável de controle Moving."
 %}
 
 ### 13.1. Vídeo do personagem correndo e atacando
@@ -418,7 +418,7 @@ Um Aim Offset é um recurso que armazena uma série de poses que podem ser combi
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-animation-starter-pack.webp"
     alt="Figura: Adicionando o pacote Animation Starter Pack."
-    caption="A Epic Store oferece um pacote de animações para o Mannequin, facilitando a prototipação do personagem utilizando armas de tiro.."
+    caption="Figura: A Epic Store oferece um pacote de animações para o Mannequin, facilitando a prototipação do personagem utilizando armas de tiro.."
 %}
 
 ### 14.2. Preparando o projeto
@@ -446,7 +446,7 @@ Neste passo vamos criar várias animações com o personagem mirando utilizando 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-aim-offset-editor.webp"
     alt="Figura: Editor Aim Offset."
-    caption="Editando a animação para criar novas animações."
+    caption="Figura: Editando a animação para criar novas animações."
 %}
 
 ### 14.3. Removendo frames
@@ -486,7 +486,7 @@ Agora vamos criar `Aim Offset` Menu de contexto `Animation > Aim Offset` ou Esco
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-create-aim-offset.webp"
     alt="Figura: Editor Aim Offset."
-    caption="Altere os parâmetros em Asset Details para os seguintes valores:"
+    caption="Figura: Altere os parâmetros em Asset Details para os seguintes valores:"
 %}
 
 Coordenadas horizontais - Horizontal Axis:
@@ -517,7 +517,7 @@ Continue adicionando as animações nas coordenadas.
 {% include image.html
     src="https://docs.unrealengine.com/4.26/Images/AnimatingObjects/SkeletalMeshAnimation/AnimHowTo/AimOffset/AimOffset29.webp"
     alt="Figura: Aim exemplo de coordenadas."
-    caption="Coordenadas Yaw e Pitch."
+    caption="Figura: Coordenadas Yaw e Pitch."
     ref="https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/SkeletalMeshAnimation/AnimHowTo/AimOffset/"
 %}
 
@@ -528,7 +528,7 @@ A seguir vamos apresentar o fluxo e a lógica do personagem Mannequim que utiliz
 {% include iframe.html
     src="https://blueprintue.com/render/4qdfogtg/"
     title="Cafegeek - Animation BP State Base e Weapon"
-    caption="Lógica do Animation Blueprint, carregando e atualizando variáveis."
+    caption="Figura: Lógica do Animation Blueprint, carregando e atualizando variáveis."
     ref="https://blueprintue.com/render/4qdfogtg/"
 %}
 
@@ -537,7 +537,7 @@ A seguir vamos apresentar o fluxo e a lógica do personagem Mannequim que utiliz
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-logic-variables-local.webp"
     alt="Figura: My Blueprint - Variáveis."
-    caption="Valores para controle de velocidade e estados do personagem."
+    caption="Figura: Valores para controle de velocidade e estados do personagem."
 %}
 
 ### 15.2. Inicialização de variáveis
@@ -545,7 +545,7 @@ A seguir vamos apresentar o fluxo e a lógica do personagem Mannequim que utiliz
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-logic-initialize.webp"
     alt="Figura: Event Blueprint Initialize Animation."
-    caption="Inicializa a variável Character Movement."
+    caption="Figura: Inicializa a variável Character Movement."
 %}
 
 ### 15.3. Atualizando a animação
@@ -553,7 +553,7 @@ A seguir vamos apresentar o fluxo e a lógica do personagem Mannequim que utiliz
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-logic-update-animation.webp"
     alt="Figura: Event Blueprint Update Animation."
-    caption="Se o objeto BP_Mannequin estiver instanciado determina o seu fluxo de eventos."
+    caption="Figura: Se o objeto BP_Mannequin estiver instanciado determina o seu fluxo de eventos."
 %}
 
 #### 15.3.1. Calculando velocidade e direção
@@ -561,7 +561,7 @@ A seguir vamos apresentar o fluxo e a lógica do personagem Mannequim que utiliz
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-logic-velocity-direction.webp"
     alt="Figura: Velocity e Direction."
-    caption="Defina Velocity e GroundSpeed a partir da velocidade dos componentes de movimento. A velocidade do solo é calculada apenas a partir dos eixos X e Y da velocidade, portanto, mover para cima ou para baixo não a afeta."
+    caption="Figura: Defina Velocity e GroundSpeed a partir da velocidade dos componentes de movimento. A velocidade do solo é calculada apenas a partir dos eixos X e Y da velocidade, portanto, mover para cima ou para baixo não a afeta."
 %}
 
 #### 15.3.2. Limitando a velocidade e queda
@@ -569,7 +569,7 @@ A seguir vamos apresentar o fluxo e a lógica do personagem Mannequim que utiliz
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-logic-move-falling.webp"
     alt="Figura: GetCurrentAcceleration e IsFalling."
-    caption="Define ShouldMove como verdadeiro somente se a velocidade do solo estiver acima de um pequeno limite (para evitar que velocidades incrivelmente pequenas acionem animações) e se houver aceleração (entrada) aplicada no momento. Define IsFalling como verdadeiro determinado pela função IsFalling."
+    caption="Figura: Define ShouldMove como verdadeiro somente se a velocidade do solo estiver acima de um pequeno limite (para evitar que velocidades incrivelmente pequenas acionem animações) e se houver aceleração (entrada) aplicada no momento. Define IsFalling como verdadeiro determinado pela função IsFalling."
 %}
 
 #### 15.3.3. Atualizando as variáveis de controle de estados
@@ -577,7 +577,7 @@ A seguir vamos apresentar o fluxo e a lógica do personagem Mannequim que utiliz
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-logic-update-action.webp"
     alt="Figura: Get BP_Mannequin."
-    caption="Atualiza as variáveis que determinam os estados das animações."
+    caption="Figura: Atualiza as variáveis que determinam os estados das animações."
 %}
 
 #### 15.3.4. Levantando a arma para mirar
@@ -585,7 +585,7 @@ A seguir vamos apresentar o fluxo e a lógica do personagem Mannequim que utiliz
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-logic-aim.webp"
     alt="Figura: AimPitch e AimYaw."
-    caption="Atualiza as variáveis limitando o angulo de rotação em -90 e 90 graus."
+    caption="Figura: Atualiza as variáveis limitando o angulo de rotação em -90 e 90 graus."
 %}
 
 ### 15.4. State Machines
@@ -593,13 +593,13 @@ A seguir vamos apresentar o fluxo e a lógica do personagem Mannequim que utiliz
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-state-base.webp"
     alt="Figura: Base Pose."
-    caption="Animação base do personagem."
+    caption="Figura: Animação base do personagem."
 %}
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-state-base-2.webp"
     alt="Figura: Base - Event Graph."
-    caption="Eventos da animação básica."
+    caption="Figura: Eventos da animação básica."
 %}
 
 #### 15.4.1. Weapon Base
@@ -607,25 +607,25 @@ A seguir vamos apresentar o fluxo e a lógica do personagem Mannequim que utiliz
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-state-2.webp"
     alt="Figura: Weapon Hip e Weapon Aim - Event Graph ."
-    caption="Eventos com animações do personagem segurando uma arma e mirando."
+    caption="Figura: Eventos com animações do personagem segurando uma arma e mirando."
 %}
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-state-weapon-base.webp"
     alt="Figura: WeaponBase."
-    caption="Evento AimOffset Player com seus parâmetros e Blend Poses by Bool para alternar entre uma pose ou outra."
+    caption="Figura: Evento AimOffset Player com seus parâmetros e Blend Poses by Bool para alternar entre uma pose ou outra."
 %}
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-state-weapon-equip-reload.webp"
     alt="Figura: WeaponEquip."
-    caption="Utilizamos Layered Blend per Bone para mesclar as animações a partir de um determinado osso."
+    caption="Figura: Utilizamos Layered Blend per Bone para mesclar as animações a partir de um determinado osso."
 %}
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-state-weapon-details-layered-per-bone.webp"
     alt="Figura: Details > Layered blend per bone."
-    caption="Configuramos o objeto para utilizar o osso Spine_01 pois no caso do mannequim ele é o osso da cintura que queremos usar como referência para mistura de animações."
+    caption="Figura: Configuramos o objeto para utilizar o osso Spine_01 pois no caso do mannequim ele é o osso da cintura que queremos usar como referência para mistura de animações."
 %}
 
 ### 15.5. Pose final
@@ -633,5 +633,5 @@ A seguir vamos apresentar o fluxo e a lógica do personagem Mannequim que utiliz
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-abp-state-weapon-final.webp"
     alt="Figura: Output Pose."
-    caption="Podemos usar várias opções em sequência para construir o estado final da animação."
+    caption="Figura: Podemos usar várias opções em sequência para construir o estado final da animação."
 %}

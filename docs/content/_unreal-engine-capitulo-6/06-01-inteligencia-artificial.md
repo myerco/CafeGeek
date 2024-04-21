@@ -42,7 +42,7 @@ A classe Blueprint **BP_NPC** do tipo *Character/BP_CharacterBase* e logo em seg
 {% include imagelocal.html
   src="unreal/ia/unreal-engine-ia-npc-class-properties.webp"
   alt="Figura: AutoPossessAI e AI Controller Class - "
-  caption="Alterando os parâmetros da classe em Details."
+  caption="Figura: Alterando os parâmetros da classe em Details."
 %}
 
 **`AutoPossesAI`** - Determina quando o Peão é criado e possuído por um Controlador AI (no início do nível, quando gerado, etc).
@@ -69,7 +69,7 @@ Implementando uma função para alterar a velocidade do NPC.
 {% include imagelocal.html
     src="unreal/ia/unreal-engine-ia-npc-update-walk-speed.webp"
     alt="Figura: Função : NPC > Update Walk Speed - "
-    caption="Lógica para alterar a movimentação."
+    caption="Figura: Lógica para alterar a movimentação."
 %}
 
 ## 3. AI MoveTo
@@ -79,7 +79,7 @@ O "AI Move To" é uma função projetada para permitir que personagens controlad
 {% include imagelocal.html
   src="unreal/ia/unreal-engine-ia-npc-move-ia.webp"
   alt="Figura: AI MoveTo - "
-  caption="Movimenta o peão com AIController para um local específico."
+  caption="Figura: Movimenta o peão com AIController para um local específico."
 %}
 
 ## 4. NavMesh
@@ -89,7 +89,7 @@ Permite que os peões encontrem seu caminho através de obstáculos, rampas ou s
 {% include imagelocal.html
     src="unreal/ia/unreal-engine-ia-navmeshboundsvolume.webp"
     alt="Figura: NavMeshBoundsVolume - "
-    caption="Adicione o componente NavMeshBoundVolume para definir fronteiras de movimentação do NPC."
+    caption="Figura: Adicione o componente NavMeshBoundVolume para definir fronteiras de movimentação do NPC."
 %}
 
 Você pode pressionar a tecla **P** para apresentar a `NavMesh` no ViewPort (áreas verdes indicam os locais de navegação).

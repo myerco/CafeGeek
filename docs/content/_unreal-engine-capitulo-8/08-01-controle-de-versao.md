@@ -63,7 +63,8 @@ No gráfico abaixo é apresentado a estrutura de armazenar e alguns comandos do 
 {% include image.html
     src="https://res.cloudinary.com/practicaldev/image/fetch/s--M_fHUEqA--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/128hsgntnsu9bww0y8sz.png"
     alt="Figura: Git, GitHub, & Workflow Fundamentals."
-    caption="Vamos revisar um fluxo de trabalho de projeto simples e os comandos da CLI que nos ajudam a passar de uma etapa para a seguinte. Abaixo está um diagrama de um fluxo de trabalho, incluindo Git e Github. Este diagrama representa mais de perto o fluxo do meu projeto de grupo."
+    caption="Figura: Vamos revisar um fluxo de trabalho de projeto simples e os comandos da CLI que nos ajudam a passar de uma etapa para a seguinte. Abaixo está um diagrama de um fluxo de trabalho, incluindo Git e Github. Este diagrama representa mais de perto o fluxo do meu projeto de grupo."
+    idref="DEV,Github Workflow"
     ref="https://dev.to/mollynem/git-github--workflow-fundamentals-5496"
 %}
 
@@ -154,7 +155,7 @@ Para Configurar o projeto utilizaremos  `Menu` > `Edit` > `Connect To Source Con
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-connect-to-source-control.webp"
     alt="Figura: Source Control Login."
-    caption="Configuração do usuário, servidor remoto e pasta do projeto."
+    caption="Figura: Configuração do usuário, servidor remoto e pasta do projeto."
 %}
 
 Abaixo a descrição dos parâmetros;
@@ -183,7 +184,7 @@ Abra o GitHub Desktop e configure a sua conta do **Github** para ter acesso aos 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-github-desktop-options.webp"
     alt="Figura: Github Desktop > Options."
-    caption="Configuração de conta no Github."
+    caption="Figura: Configuração de conta no Github."
 %}
 
 Adicione o projeto TestGitHub com `Add an Existing Repository from your hard drive...`, informe a pasta do projeto TestGitHub;
@@ -197,7 +198,7 @@ Uma vez configurados os projetos nos sistemas **Unreal** e **GitHub Desktop**, p
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-github-desktop-commit-to-master.webp"
     alt="Figura: Github Desktop Commit to Master."
-    caption="A aba Changes lista as mudanças e a descrição da atualização. A aba Current branch apresenta o branch atual."
+    caption="Figura: A aba Changes lista as mudanças e a descrição da atualização. A aba Current branch apresenta o branch atual."
 %}
 
 Após confirmação das alterações devemos publicá-las no repositório remoto usando o comando `Publish repository`.
@@ -205,7 +206,7 @@ Após confirmação das alterações devemos publicá-las no repositório remoto
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-github-desktop-publish-repository.webp"
     alt="Figura: Github Desktop Publish repository."
-    caption="Envia os dados para o repositório remoto."
+    caption="Figura: Envia os dados para o repositório remoto."
 %}
 
 O comando acima irá criar um projeto na sua conta no Github.com e adicionar todos os arquivos criados até o momento.
@@ -231,7 +232,7 @@ No painel `Changes`  do GitHub Desktop devem aparecer somente os arquivos :
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-github-desktop-commit-first-actor.webp"
     alt="Figura: Github Desktop Publish repository."
-    caption="No exemplo acima foi inserido um novo ator no projeto."
+    caption="Figura: No exemplo acima foi inserido um novo ator no projeto."
 %}
 
 Após a confirmação vamos enviar as alterações para o servidor com o comando `Push origin`.
@@ -239,7 +240,7 @@ Após a confirmação vamos enviar as alterações para o servidor com o comando
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-github-desktop-push-origin.webp"
     alt="Figura: Github Desktop Push Origin."
-    caption="A janela da direita informa que é necessário realizar o envio de dados para o servidor remoto com o comando Push."
+    caption="Figura: A janela da direita informa que é necessário realizar o envio de dados para o servidor remoto com o comando Push."
 %}
 
 ## 7. Utilizando comandos do PowerShell para utilizar o Git Client

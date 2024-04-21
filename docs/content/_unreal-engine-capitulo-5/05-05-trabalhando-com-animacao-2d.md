@@ -16,7 +16,7 @@ Animação em duas dimensões é uma técnica que utiliza sequenciamento de imag
 {% include image.html
     src="https://maestrofilmes.com.br/wp-content/uploads/2019/10/alfabeta_maio_texto1-1080x614-1024x582.png"
     alt="Figura: Animação 2D: de um simples desenho à solução para uma empresa"
-    caption="O vídeo em animação nada mais é que a passagem rápida de objetos ou imagens que, posicionados, dão a ilusão do movimento. A animação é uma Ilusão de ótica, ou seja, ela mostra movimento com imagens que, na verdade, são estáticas"
+    caption="Figura: O vídeo em animação nada mais é que a passagem rápida de objetos ou imagens que, posicionados, dão a ilusão do movimento. A animação é uma Ilusão de ótica, ou seja, ela mostra movimento com imagens que, na verdade, são estáticas"
     ref="https://maestrofilmes.com.br/animacao-2d/"
 %}
 
@@ -25,7 +25,7 @@ Animação em duas dimensões é uma técnica que utiliza sequenciamento de imag
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-project.webp"
     alt="Figura: Editor 2D"
-    caption="Viewport com visualização Right ou Left, para apresentar objetos planos na cena "
+    caption="Figura: Viewport com visualização Right ou Left, para apresentar objetos planos na cena "
 %}
 
 O Unreal Engine implementa animação 2D utilizando o plugin **Paper2D** que facilita a manipulação e importação de elementos em duas dimensões. O sistema **Paper 2D** é um sistema baseado em *sprite* para a criação de jogos híbridos 2D e 2D / 3D inteiramente dentro do editor.
@@ -39,7 +39,7 @@ Desenhos de duas dimensões, é uma malha plana com textura mapeada e um materia
 {% include image.html
     src="https://producaodejogos.com/wp-content/uploads/2018/05/exemplo_pixel.jpg"
     alt="Figura: Piskel - Guia do Editor Online para Pixel Art e Sprites Animados [2018]"
-    caption="O pixel é o menor ponto de uma imagem digital e uma pixel art é a criação de um objeto ponto a ponto utilizando pixels. Na imagem abaixo temos uma boa visualização do que é pixel e como podemos criar um objeto trabalhando cores e pontos no Piskel."
+    caption="Figura: O pixel é o menor ponto de uma imagem digital e uma pixel art é a criação de um objeto ponto a ponto utilizando pixels. Na imagem abaixo temos uma boa visualização do que é pixel e como podemos criar um objeto trabalhando cores e pontos no Piskel."
     ref="https://producaodejogos.com/piskel-guia-para-pixel-art-e-sprites-animados/"
 %}
 
@@ -50,7 +50,7 @@ Objeto para sequenciar um conjunto de *sprites* simulando animações;
 {% include image.html
     src="https://docs.unrealengine.com/5.1/Images/animating-characters-and-objects/Paper2D/Flipbooks/flipbook-banner-2.webp"
     alt="Figura: Paper 2D Flipbooks"
-    caption="A melhor maneira de pensar em Paper 2D Flipbooks (ou Flipbooks para abreviar) é na forma de animação desenhada à mão, onde uma série de imagens ligeiramente diferentes são viradas para produzir o que parece ser movimento."
+    caption="Figura: A melhor maneira de pensar em Paper 2D Flipbooks (ou Flipbooks para abreviar) é na forma de animação desenhada à mão, onde uma série de imagens ligeiramente diferentes são viradas para produzir o que parece ser movimento."
     ref="https://docs.unrealengine.com/5.1/en-US/paper-2d-flipbooks-in-unreal-engine/"
 %}
 
@@ -61,7 +61,7 @@ Objeto para agrupar e manipular um conjunto de *sprites*;
 {% include image.html
     src="https://docs.unrealengine.com/5.1/Images/animating-characters-and-objects/Paper2D/TileMaps/CreatedTitleSet.webp"
     alt="Figura: Paper 2D Tile Sets / Tile Mapss"
-    caption="Editor de Tile Set."
+    caption="Figura: Editor de Tile Set."
     ref="https://docs.unrealengine.com/5.1/en-US/paper-2d-tile-sets-and-tile-maps-in-unreal-engine/"
 %}
 
@@ -72,7 +72,7 @@ Objeto para "pintar" um grupo de *sprites* as cenas utilizando `Tile Set`.
 {% include image.html
     src="https://docs.unrealengine.com/5.1/Images/animating-characters-and-objects/Paper2D/TileMaps/TileMapEditorWindow.webp"
     alt="Figura: Paper 2D Tile Sets / Tile Mapss"
-    caption="Editor de Tile Map."
+    caption="Figura: Editor de Tile Map."
     ref="https://docs.unrealengine.com/5.1/en-US/paper-2d-tile-sets-and-tile-maps-in-unreal-engine/"
 %}
 
@@ -83,7 +83,7 @@ Antes de iniciar o trabalho devemos habilitar o plugin `Paper2D` em menu `Edit` 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-plugin.webp"
     alt="Figura: Unreal Engine - Animação 2d - habilitando o Plugin Paper2D (Enabled)."
-    caption="Após habilitar o plugin é necessário reiniciar o Unreal Engine."
+    caption="Figura: Após habilitar o plugin é necessário reiniciar o Unreal Engine."
 %}
 
 **Nota:** Utilize a estrutura de pastas definidas em [Organizando as Pastas](/unreal-engine-capitulo-1/instalacao-e-configuracao#6-organizando-as-pastas).
@@ -96,7 +96,7 @@ Podemos organizar os elementos que são apresentados na cena predefinindo coorde
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-project-settings.webp"
     alt="Figura: Unreal Engine - Animação 2D - Project Settings 2D."
-    caption="Adicionando Snap Layers do exemplo acima podemos criar 3 camadas em profundidades diferentes."
+    caption="Figura: Adicionando Snap Layers do exemplo acima podemos criar 3 camadas em profundidades diferentes."
 %}
 
 `Foreground` - Camada para os *sprites* que devem ficar na frente da cena, `Depth` = 100;
@@ -110,7 +110,7 @@ Após a configuração no `ViewPort` devem aparecer as opções para organizar o
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-viewport.webp"
     alt="Figura: ViewPort Snap."
-    caption="As layers criadas anteriormente devem aparecer na barra de ações."
+    caption="Figura: As layers criadas anteriormente devem aparecer na barra de ações."
 %}
 
 Os objetos adicionados na cena devem ficar no *snap* selecionado obedecendo a localização Y predefinida, esse processo é similar ao trabalho de desenho por camadas.
@@ -126,7 +126,7 @@ Para melhorar a visualização do cenário podemos configurar a visualização d
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-viewport-xy.webp"
     alt="Figura: ViewPort Rigth Z,X."
-    caption="Visualização Right no ViewPort."
+    caption="Figura: Visualização Right no ViewPort."
 %}
 
 ## 5. Preparando as texturas
@@ -134,7 +134,7 @@ Para melhorar a visualização do cenário podemos configurar a visualização d
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-details-texture-2d.webp"
     alt="Figura: Preparando a textura - Details Texture parameters 2D."
-    caption="A fim de otimizar a renderização das texturas aplicamos os seguintes parâmetros para cada objeto."
+    caption="Figura: A fim de otimizar a renderização das texturas aplicamos os seguintes parâmetros para cada objeto."
 %}
 
 `Compression Settings`: UseInterface2D (RGBA);
@@ -149,7 +149,7 @@ Podemos aplicar automaticamente para uma ou várias texturas selecionadas usamos
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-apply-texture-settings.webp"
     alt="Figura: Unreal Engine - Animação 2D - Apply Papper2D Texture Settings."
-    caption="Aplicamos a configuração em vários arquivos."
+    caption="Figura: Aplicamos a configuração em vários arquivos."
 %}
 
 ## 6. Preparando os Sprites do projeto
@@ -169,7 +169,7 @@ Neste passo vamos criar os *sprites* utilizando texturas como base, seguindo os 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-sprite-editor.webp"
     alt="Figura: Editor de Sprite."
-    caption="Para editar várias parâmetros dos objetos utilizamos o editor de sprites."
+    caption="Figura: Para editar várias parâmetros dos objetos utilizamos o editor de sprites."
     ref="https://docs.unrealengine.com/4.27/en-US/AnimatingObjects/Paper2D/Sprites/Editor/"
 %}
 
@@ -218,7 +218,7 @@ Para adicionar colisão nos elementos realizamos :
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-tileset-colision.webp"
     alt="Figura: Unreal Engine - Animação 2D - colisão de objetos usando Tile Set Collision."
-    caption="Colliding Tiles apresenta os tiles que tem colisão e ao no Single Tile Editor é possível alterar a sua forma."
+    caption="Figura: Colliding Tiles apresenta os tiles que tem colisão e ao no Single Tile Editor é possível alterar a sua forma."
 %}
 
 - Selecione a opção `Colliding Tiles` para mostrar os elementos com colisão;
@@ -234,7 +234,7 @@ Para adicionar colisão nos elementos realizamos :
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-tilemap.webp"
     alt="Figura: Tile Map."
-    caption="É um mapa de sprites para auxiliar na composição da cena."
+    caption="Figura: É um mapa de sprites para auxiliar na composição da cena."
 %}
 
 Selecione um `Tile Set` para ser usado como paleta, selecionando o arquivo no `Content Browser` e logo em seguida o menu de contexto `Create Tile Map`;
@@ -264,7 +264,7 @@ No **Unreal Engine 4**, os `Flipbooks` consistem em uma série de quadros-chave,
 {% include imagelocal.html
     src="unreal/animacao/samurai-run.webp"
     alt="Figura: Arquivo Samurai."
-    caption="Para exemplificar vamos utilizar o arquivo acima com um sequência de poses de um personagem."
+    caption="Figura: Para exemplificar vamos utilizar o arquivo acima com um sequência de poses de um personagem."
     ref="https://craftpix.net/freebies/free-samurai-pixel-art-sprite-sheets/"
 %}
 
@@ -275,7 +275,7 @@ Utilizando o `Content Browser` selecione o arquivo `run.png` e acionando o menu 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-extract-sprites.webp"
     alt="Figura: Extract Sprites."
-    caption="Utilize a opção Sprite Extract Mode Auto para que o programa selecione automaticamente as imagens que correspondem a uma pose do personagem e clique em Extract para completar a operação."
+    caption="Figura: Utilize a opção Sprite Extract Mode Auto para que o programa selecione automaticamente as imagens que correspondem a uma pose do personagem e clique em Extract para completar a operação."
 %}
 
 Copie os arquivos extraídos para a pasta `Characters\Samurai\Sprites`;
@@ -291,7 +291,7 @@ Exclua ou movimente os elementos para melhorar a animação.
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-flipbook.webp"
     alt="Figura: Animação de corrida usando Flipbook Animation Run."
-    caption="Sequencia de sprites."
+    caption="Figura: Sequencia de sprites."
 %}
 
 Salve o arquivo com o nome PFB_Run na pasta `Characters\Samurai\Logic` e repita a ação para as diversas poses que o personagem deve apresentar, como por exemplo PFB_Idle, PFB_Attack e outros.
@@ -303,7 +303,7 @@ Neste passo vamos adicionar um personagem do tipo `Paper Character` que deve ser
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper-character.webp"
     alt="Figura: Classe PaperCharacter."
-    caption="Esta classe apresenta componentes e específicos para a movimentação e animação do personagem."
+    caption="Figura: Esta classe apresenta componentes e específicos para a movimentação e animação do personagem."
 %}
 
 ### 10.1. Ajustando os componentes
@@ -373,7 +373,7 @@ Vamos criar uma variável `Enumeration` para controlar o estado da animação:
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-enum-state.webp"
     alt="Figura: Enumeration EStateCharacter."
-    caption="A variável deve armazenar os estados ou poses do personagem."
+    caption="Figura: A variável deve armazenar os estados ou poses do personagem."
 %}
 
 - Idle;
@@ -387,7 +387,7 @@ No personagem definimos as seguintes variáveis:
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-character-variables.webp"
     alt="Figura: Character Varáveis."
-    caption="Lista de variáveis."
+    caption="Figura: Lista de variáveis."
 %}
 
 Moving `Boolean` - Para identificar quando o personagem se movimenta;
@@ -405,7 +405,7 @@ Vamos utilizar o evento `MoveRight` para adicionar movimento travando a coordena
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-movement.webp"
     alt="Figura: Movement MoveRight."
-    caption="Lógica Blueprint do movimento do personagem."
+    caption="Figura: Lógica Blueprint do movimento do personagem."
 %}
 
 A seguir implementamos um novo evento `UpdateAnimation` para inicializar variáveis, chamar uma função `Animation State Machine` que iremos implementar;
@@ -413,7 +413,7 @@ A seguir implementamos um novo evento `UpdateAnimation` para inicializar variáv
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-event-movement.webp"
     alt="Figura: Event UpdateAnimation."
-    caption="Evento de atualização do movimento."
+    caption="Figura: Evento de atualização do movimento."
 %}
 
 Abaixo a lógica da função `Animation State Machine`;
@@ -421,7 +421,7 @@ Abaixo a lógica da função `Animation State Machine`;
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-function-state-machine.webp"
     alt="Figura: Function State Machine."
-    caption="Lógica Blueprint dos estados do personagem."
+    caption="Figura: Lógica Blueprint dos estados do personagem."
 %}
 
 ### 10.4. Implementando o canhão
@@ -445,13 +445,13 @@ Implementamos  **BP_Cannon** do tipo `Actor`;
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-cannon-begin-init.webp"
     alt="Figura: BeginPlay inicializando variáveis."
-    caption="Inicializamos as variáveis."
+    caption="Figura: Inicializamos as variáveis."
 %}
 
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-cannon-find-look.webp"
     alt="Figura: Function Find Look."
-    caption="Implementamos as lógica para localizar o personagem e movimentar o canhão na direção do player."
+    caption="Figura: Implementamos as lógica para localizar o personagem e movimentar o canhão na direção do player."
 %}
 
 Implementação da lógica para disparar as balas `PB_FireBullet`;
@@ -459,7 +459,7 @@ Implementação da lógica para disparar as balas `PB_FireBullet`;
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-cannon-fire-bullet.webp"
     alt="Figura: Function Impulse para disparar as balas."
-    caption="Lógica Blueprint para disparar o canhão."
+    caption="Figura: Lógica Blueprint para disparar o canhão."
 %}
 
 Quanto o player colide com a área de detecção do canhão as variáveis **Look** e **Fire** são atualizadas para `True`, informando que o player foi detectado e o canhão pode disparar. Devemos adicionar uma `tag` no player para facilitar o seu reconhecimento;
@@ -467,7 +467,7 @@ Quanto o player colide com a área de detecção do canhão as variáveis **Look
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-cannon-player-in.webp"
     alt="Figura: BeginOverLap e Player."
-    caption="Lógica Blueprint detectar o personagem."
+    caption="Figura: Lógica Blueprint detectar o personagem."
 %}
 
 O player sai da área de detecção as variáveis de controle são atualizadas para `false`;
@@ -475,5 +475,5 @@ O player sai da área de detecção as variáveis de controle são atualizadas p
 {% include imagelocal.html
     src="unreal/animacao/unreal-engine-paper2d-cannon-player-out.webp"
     alt="Figura: EndOverLap e Player."
-    caption="Lógica Blueprint para interromper o ataque e a visualização."
+    caption="Figura: Lógica Blueprint para interromper o ataque e a visualização."
 %}

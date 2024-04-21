@@ -70,9 +70,9 @@ dev_unreal_2:
     url: /unreal-engine-capitulo-2/unreal-engine-capitulo-2
     children:    
       - title: Arrays
-        url: /unreal-engine-capitulo-2/arrays
+        url: /unreal-engine-capitulo-2/vari-veis-arrays
       - title: Enums
-        url: /unreal-engine-capitulo-2/enums
+        url: /unreal-engine-capitulo-2/objetos-enums
       - title: Usando Structs
         url: /unreal-engine-capitulo-2/usando-structs
       - title: Data Tables
