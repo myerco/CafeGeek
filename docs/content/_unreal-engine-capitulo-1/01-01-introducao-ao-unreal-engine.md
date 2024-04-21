@@ -55,6 +55,7 @@ A arte digital (2D e 3D) é a apresentação de personagens, ambiente e outros e
 {% include imagelocal.html 
   src="unreal/jogos-2d-ou-jogos-3d.webp"
   alt="É melhor criar um jogo 2D ou 3D?"
+  caption="Figura: É melhor criar um jogo 2D ou 3D?"
 %}
 
 Desenvolvimento de jogos evoluiu e a geração de hoje preza bastante pelo seu design mágico, estrutura, renderização e textura. Isso tem influenciado diretamente em saber se é melhor criar um jogo 2D ou 3D.[REF](https://www.crieseusjogos.com.br/e-melhor-criar-um-jogo-2d-ou-3d/)
@@ -64,6 +65,7 @@ Desenvolvimento de jogos evoluiu e a geração de hoje preza bastante pelo seu d
 {% include imagelocal.html
   src="unreal/Activemarker2.webp"
   alt="3D (computação gráfica)"
+  caption="figura: 3D (computação gráfica)."
 %}
 
 Computação gráfica tridimensional são gráficos que usam representações tridimensionais de dados geométricos (geralmente cartesianos) que são armazenados em um computador com o propósito de realizar cálculos e renderizar imagens 2D. [REF](https://pt.wikipedia.org/wiki/3D_%28computa%C3%A7%C3%A3o_gr%C3%A1fica%29).
@@ -72,7 +74,8 @@ Computação gráfica tridimensional são gráficos que usam representações tr
 
 {% include imagelocal.html 
   src="unreal/escola-brasileira-de-games-Jornada-do-Herói.webp"
-  alt="Jornada do Herói: Desenvolvimento de Narrativas para Jogos" 
+  alt="Jornada do Herói: Desenvolvimento de Narrativas para Jogos"
+  caption="Figura: Jornada do Herói: Desenvolvimento de Narrativas para Jogos"
 %}
 
 Toda e qualquer história seja ela de aventura, terror, ação, romance ou qualquer outro gênero, é a responsável por chamar atenção do usuário e levar o jogador de encontro com uma nova aventura, conhecer um novo mundo qual ele irá mergulhar, quem são os personagens, seus medos, conquistas e aflições. [REF](https://escolabrasileiradegames.com.br/blog/jornada-do-heroi-desenvolvimento-de-narrativas-para-jogos)
@@ -82,6 +85,9 @@ Toda e qualquer história seja ela de aventura, terror, ação, romance ou qualq
 {% include imagelocal.html
   src="unreal/sound_main_optimized.webp"
   alt="Game sound design: soundtrack, sound effects and how to combine them"
+  caption="Figura: Game sound design: soundtrack, sound effects and how to combine them"
+  idref="KREONIT,Hi"
+  ref="https://kreonit.com/services/game-sound-design/"
 %}
 
 O design de som é uma parte muito importante de um jogo. Os desenvolvedores de jogos concordam que a música e os sons são poderosos condutores emocionais. E nosso objetivo é usar totalmente o som para tornar o jogo ainda melhor.
@@ -150,6 +156,7 @@ Existem aplicações que auxiliam na produção de programas de computador ou jo
 {% include imagelocal.html
   src="unreal/game-engines-and-framework.webp"
   alt="Game Engine VS Game Framework"
+  caption="Figura: Game Engine VS Game Framework"
 %}
 
 Antes que os motores de jogo viessem à existência, os jogos eram escritos como uma única entidade; o que significa que, se você quisesse construir outro jogo, você tinha que reescrever códigos quase inteiros novamente. Havia muitas outras preocupações também ao escrever jogos. Por vezes, os jogos foram concebidos de baixo para cima para utilizar o hardware de vídeo de forma otimizada...[REF](https://developerhouse.com/game-engine-vs-game-framework)

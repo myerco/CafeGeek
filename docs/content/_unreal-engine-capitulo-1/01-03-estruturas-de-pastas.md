@@ -76,6 +76,7 @@ No **Unreal Egnine** em `Content Drawer` utilizando botão direito do mouse cliq
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-content-drawer.webp"
     alt="Figura: Content Drawer."
+    caption="Figura: Content Drawer."
 %}
 
 Usado para navegar, criar e realizar buscas nas pastas contidas no diretório de trabalho do projeto.
@@ -223,6 +224,7 @@ Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-maps-modes.webp"
     alt="Figura: Project Settings > Maps & Modes."
+    caption="Figura: Project Settings > Maps & Modes."
 %}
 
 `Edit Startup Level` - Seleciona o *Level* que deverá ser carregado no início do jogo, neste caso é `LevelTest`;
@@ -236,6 +238,7 @@ Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apr
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-project-icon.webp"
     alt="Figura: Project Settings > Windows"
+    caption="Figura: Project Settings > Windows"
 %}
 
 Podemos alterar o ícone do projeto e a imagem de inicialização do jogo.

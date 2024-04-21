@@ -14,6 +14,7 @@ Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar 
     src="me-conta-uma-historia/AR18-1.webp"
     alt="Figura: 10 dicas e truques para criar personagens inesquecíveis."
     caption="Figura: 10 dicas e truques para criar personagens inesquecíveis"
+    idref="ANDERS,Charlie Jane"
     ref="https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/"
 %}
 
@@ -48,7 +49,8 @@ Devemos também outras estruturas de organização e entendimento dos  heróis, 
 {% include imagelocal.html
     src="me-conta-uma-historia/jornada-do-heroi.webp"
     alt="Figura: Jornada do Herói."
-    caption="O herói das Mil faces."
+    caption="Figura: O herói das Mil faces."
+    idref="MEDIUM,Jornada do Herói"
     ref="https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69."
 %}
 
@@ -65,7 +67,8 @@ A jornada está dividida em três seções:
 {% include imagelocal.html
     src="me-conta-uma-historia/The-Lord-of-the-Rings-The-Return-of-the-King-PS2-Remaster.webp"
     alt="Figura: The Lord of the Rings Movie Games Need the Remaster Treatment."
-    caption="A jornada dos livros, filmes e jogos de essa narrativa."
+    caption="Figura: A jornada dos livros, filmes e jogos de essa narrativa."
+    idref="GAMERANT"
     ref="https://gamerant.com"
 %}
 
@@ -101,6 +104,7 @@ Sonic também é descrito como um personagem confiante, que muitas vezes desafia
     src="me-conta-uma-historia/Journey-Co-Op-Multiplayer-AI-Or-Real-Person.webp"
     alt="Journey: Is The Second Player A Real Person?"
     caption="Figura: A comunicação entre jogadores dentro é realizada com movimentos e sons suaves."
+    idref="THE ENEMY,Journey "
     ref="https://www.theenemy.com.br/"
 %}
 
@@ -112,6 +116,7 @@ A forma de comunicação é importante para determinar o estado emocional da men
     src="me-conta-uma-historia/god-of-war-kratos_o1WSA8h.webp"
     alt="Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation."
     caption="Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation"
+    idref="THE ENEMY, God of War"
     ref="https://www.theenemy.com.br/"
 %}
 
@@ -129,6 +134,7 @@ No geral, a personalidade de Kratos é sombria e pesada, mas também cativante e
     src="me-conta-uma-historia/Portal-1024x576.webp"
     alt="Figura: Escritor de Portal quer que o próximo jogo seja feito antes de ser velho demais para trabalhar."
     caption="Figura: Abrir portas pode se tornar um bom gameplay."
+    idref="NOGUEIRA,Luiz"
     ref="https://tecmasters.com.br/escritor-portal-proximo-jogo-antes-velho-demais/"
 %}
 
@@ -142,6 +148,7 @@ Talvez uma ação simples, como abrir uma porta pode ser uma pista do tema do jo
     src="me-conta-uma-historia/Ghost_Recon_Wildlands_graphics_settings_high.webp"
     alt="Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis."
     caption="Figura: The PCGamesN tech review"
+    idfref="PCGAMESN"
     ref="https://www.pcgamesn.com"
 %}
 
@@ -151,6 +158,7 @@ Talvez uma ação simples, como abrir uma porta pode ser uma pista do tema do jo
     src="me-conta-uma-historia/img_normal.webp"
     alt="Figura: O Merc With a Mouth finalmente tem um game (surtado) para chamar de seu."
     caption="Figura: Jogo de humor."
+    idref="TECHMUNDO, Humor"
     ref="https://www.techmundo.com.br"
 %}
 
@@ -178,6 +186,7 @@ Os personagens nas histórias de videogames podem ter diferentes motivações, d
     src="me-conta-uma-historia/i299893.webp"
     alt="Figura: Resident Evil 7 é melhor game já feito na série."
     caption="Figura: Tudo para salvar a amada."
+    idref="SOUZA,Leandro"
     ref="https://canaltech.com.br/games/resident-evil-7-e-melhor-game-ja-feito-na-serie-analise-89764/"
 %}  
 
@@ -189,6 +198,7 @@ Se a resposta é "Vou reativar o Facebook e  Tinder" acredito que uma boa dica �
     src="me-conta-uma-historia/o-livro-de-eli1-cke.webp"
     alt="Figura: O Livro de Eli: significado do filme."
     caption="Figura: A busca por um lugar acaba de levando para trilhar outros caminhos."
+    idref="MERCELLO,Carolina"
     ref="https://www.culturagenial.com/o-livro-de-eli-significado-do-filme/"
 %}  
 
@@ -206,6 +216,7 @@ Cumprir a sua missão o tinha transformado em **um** individuo alheio aos proble
     src="me-conta-uma-historia/1LW4164252-4-341174c3997543728bd2b024c6e2a309.webp"
     alt="Figura: 7 Days to Die Review."
     caption="Figura: O jogador tem um tempo para sobreviver."
+    idref="LIFEWIRE"
     ref="https://www.lifewire.com"
 %}  
 
@@ -227,6 +238,7 @@ A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas
     src="me-conta-uma-historia/30092242177082.webp"
     alt="Figura: Call of Duty: Modern Warfare"
     caption="Figura: A guerra nunca muda"
+    idref="TECMUNDO,Fallout"
     ref="https://www.tecmundo.com.br"
 %}  
 
@@ -257,6 +269,7 @@ Em geral, a morte nos jogos eletrônicos é uma maneira de adicionar desafio e r
     src="me-conta-uma-historia/shadow-of-the-colossus-agro-tricks-how-to-perform-all-horse-stunts-to-unlock-the-trick-rider-trophy-1518023598995.webp"
     alt="Figura: Shadow of the Colossus."
     caption="Figura: Como executar truques com Agro e desbloquear o Troféu Trick Rider"
+    idref="EUROGAMER,Shadow of the Colossus"
     ref="https://www.eurogamer.pt"
 %}
 
@@ -274,6 +287,7 @@ Em geral, a morte nos jogos eletrônicos é uma maneira de adicionar desafio e r
     src="me-conta-uma-historia/mass_effect_shepard_names.webp"
     alt="Figura: Commander Shepard's first name is probably Sarah, or Jack."
     caption="Figura: Escolha um nome para o seu personagem."
+    idref="VG247,Home"
     ref="https://www.vg247.com"
 %}  
 
@@ -287,6 +301,7 @@ O nome Rachael do filme Blade Runner 1982 pode ser associado a sua origem bíbli
     src="me-conta-uma-historia/rachael-em-blade-runner-cke.webp"
     alt="Figura: Blade Runner (1982)."
     caption="Figura: Análise e significados do filme"
+    idref="AIDAR,Laura"
     ref="https://www.culturagenial.com/blade-runner-1982-analise-significados-do-filme/"
 %}  
 
@@ -311,6 +326,7 @@ Trabalhe as expressões e cuidado com o "uncanny valley".
     src="me-conta-uma-historia/oriblindforestart.0.0.webp"
     alt="Figura: Ori and the Blind."
     caption="Figura: Has the most powerful opening to any game in 2015"
+    idref="POLYGON, Ori and the Blind"
     ref="https://www.polygon.com"
 %}  
 
@@ -328,6 +344,7 @@ Se parece com humano então faz coisas humanas.
     src="me-conta-uma-historia/tier3_ranger_armor-814x600.webp"
     alt="Figura: Character development."
     caption="Figura: Altere as características do seu personagem"
+    idref="AGEOFCONAN,Home"
     ref="https://www.ageofconan.com"
 %}  
 
@@ -347,6 +364,7 @@ Se parece com humano então faz coisas humanas.
     src="me-conta-uma-historia/super-people-best-guns-assault-rifle-1024x576.webp"
     alt="Figura: Best Guns in Super People."
     caption="Figura: Armas, muitas armas"
+    idref="PROGAMEGUIDES, Guns"
     ref="https://progameguides.com"
 %}  
 
@@ -366,6 +384,7 @@ Se parece com humano então faz coisas humanas.
     src="me-conta-uma-historia/deckard_cain_hots.webp"
     alt="Figura: Diablo 2."
     caption="Figura: Search for Deckard Cain quest failed in Diablo 2 Resurrected: What are the consequences?"
+    idref="GINX,Diablo"
     ref="https://www.ginx.tv"
 %}  
 
@@ -383,6 +402,7 @@ Se parece com humano então faz coisas humanas.
     src="me-conta-uma-historia/2014-10-02-far-cry-4-longinus-fornecedor-armas.webp"
     alt="Figura: Far Cry 4."
     caption="Figura: Trailer mostra arsenal do game à disposição dos jogadores"
+    idref="TECHTUDO,Far Cry 4"
     ref="https://www.techtudo.com.br"
 %}  
 
@@ -405,6 +425,7 @@ A jornada não acaba aqui. A morte é apenas um outro caminho... que todos temos
     src="me-conta-uma-historia/PREVIEW_SCREENSHOT1_171050-1024x576.webp"
     alt="Figura: Análise – Shadow of the Tomb Raider"
     caption="Figura: The Forge."
+    idref="PSXBRASIL, The Forge"
     ref="https://psxbrasil.com.br"
 %}  
 
@@ -422,6 +443,7 @@ A jornada não acaba aqui. A morte é apenas um outro caminho... que todos temos
     src="me-conta-uma-historia/resident-evil-village-bosses-guide-list-lady-dimitrescu-900x506.webp"
     alt="Figura: Resident Evil Village."
     caption="Figura: Grande e horripilante, perigoso."
+    idref="PCGAMESN,Resident Evil Village"
     ref="https://www.pcgamesn.com"
 %}  
 
@@ -455,6 +477,7 @@ A jornada não acaba aqui. A morte é apenas um outro caminho... que todos temos
     src="me-conta-uma-historia/8b1b5a81a7cf1f89151207fb9f6a1977.webp"
     alt="Figura: World of Warcraft."
     caption="Figura: The 50 Biggest Villains in World of Warcraft (Ranked Based on Badassery)"
+    idref="GAMERSDECIDE,Wow"
     ref="https://www.gamersdecide.com"
 %}  
 
@@ -478,6 +501,7 @@ A jornada não acaba aqui. A morte é apenas um outro caminho... que todos temos
     src="me-conta-uma-historia/155054_the_lich_king.webp"
     alt="Figura: The 8 most memorable moments from World of Warcraft boss fights."
     caption="Figura: For better or worse."
+    idref="POLYGON,Wow boss fights"
     ref="https://www.polygon.com/"
 %}  
 
@@ -525,6 +549,7 @@ Os inimigos dever enfrentados, não evitados.
     src="me-conta-uma-historia/Combat-Analysis-2.webp"
     alt="Figura: Kirby’s Alpha 1 Combat Analysis."
     caption="Figura: Tiro porrada e bomba."
+    idref="ASHESPOST, Apha 1"
     ref="https://ashespost.com"
 %}  
 
@@ -544,6 +569,7 @@ Os inimigos dever enfrentados, não evitados.
     src="me-conta-uma-historia/enemies.webp"
     alt="Figura: The Ideal Video Game Enemy."
     caption="Figura: Diversifique as opções de ataque e defesa."
+    idref="THE FANDOMENTALS, The Ideal Video Game Enemy"
     ref="https://www.thefandomentals.com"
 %}  
 
@@ -583,6 +609,7 @@ Inimigos não inimigos.
     src="me-conta-uma-historia/nemesis_t-type_wiki-1024x512.webp"
     alt="Figura: Nemesis T-Type."
     caption="Figura: Ele incomoda muito."
+    idref="RESIDENT EVIL, Home"
     ref="https://residentevil.com.br"
 %}  
 
@@ -616,6 +643,7 @@ Inimigos não inimigos.
     src="me-conta-uma-historia/25903731993_8b58285c1d_b.webp"
     alt="Figura: Dark Souls Game Design Analysis."
     caption="Figura: Why Do We Come Back To Die?"
+    idref="GAMEDEVELOPER, Dark Souls"
     ref="https://www.gamedeveloper.com/"
 %}  
 
@@ -631,6 +659,7 @@ Inimigos não inimigos.
     src="me-conta-uma-historia/2015-02-27-fatality.webp"
     alt="Figura: Mortal Kombat."
     caption="Figura: Relembre os fatalities clássicos da série de luta"
+    idref="TECHTUDO,Mortal Kombat"
     ref="https://www.techtudo.com.br"
 %}  
 

@@ -67,7 +67,8 @@ Todo os objetos que estão visíveis em um jogo estão armazenados em um *Level*
 {% include image.html
     src="https://www.worldofleveldesign.com/images/tutorial-topics/cat-ue4-680x300.jpg"
     alt="Figura: Tutorial List."
-    caption="O personagem, a grama, as árvores e os elementos que compõem a iluminação estão organizados em um level."
+    caption="Figura: O personagem, a grama, as árvores e os elementos que compõem a iluminação estão organizados em um level."
+    idref="WORLDOFLEVELDESIGN,Home"
     ref="https://www.worldofleveldesign.com"
 %}
 
@@ -78,6 +79,7 @@ Para criar um *level* utilizamos o menu principal `File` > `New Level`.
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-new-level.webp"
     alt="Figura: New Level."
+    caption="Figura: New Level."
 %}
 
 Logo em seguida podemos definir um modelo pre-definido para auxiliar na construção do mapa.
@@ -85,6 +87,7 @@ Logo em seguida podemos definir um modelo pre-definido para auxiliar na constru�
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-new-level-template.webp"
     alt="Figura: New Level."
+    caption="Figura: New Level."
 %}
 
 - **Default** - Selecione para criar um novo `Level` com uma configuração básica que inclui um início de jogador, uma luz, uma cúpula do céu e outros vários atores que você precisa para um *Level* funcionar corretamente;
@@ -102,6 +105,7 @@ Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-save-level.webp"
     alt="Figura: Save Current."
+    caption="Figura: Save Current."
 %}
 
 ### 2.3. Carregando um Level
@@ -111,6 +115,7 @@ Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-open-level.webp"
     alt="Figura: Open Level."
+    caption="Figura: Open Level."
 %}
 
 ## 3. O que é Level Blueprint?  
@@ -122,6 +127,7 @@ Para editar utilizamos a opção `Blueprints` > `Open Level Blueprint`.
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-open-level-blueprint.webp"
     alt="Figura:  Open Level Blueprint."
+    caption="Figura: Open Level."
 %}
 
 **Informação:** O Level Blueprint contém a lógica que controla todo o mapa.
@@ -147,7 +153,7 @@ Os nós utilizados são os seguintes:
 {% include iframe.html
     src="https://blueprintue.com/render/46vsgoyi/"
     title="Cafegeek - Exemplo de BeginPlay e Tick."
-    caption="BeginPlay é executado somente ao carregar o level, Tick é executado a cada renderização dos quadros na cena."
+    caption="Blueprintue: BeginPlay é executado somente ao carregar o level, Tick é executado a cada renderização dos quadros na cena."
     ref="https://blueprintue.com/render/46vsgoyi/"
 %}
 

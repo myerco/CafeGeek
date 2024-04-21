@@ -286,17 +286,31 @@ Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, 
 A maior virtude do game é, sem dúvida, conseguir comover sem sequer dizer uma palavra.
 {: .notice}
 
-- Caminhe;
+- Caminhe
 {% include image.html
     src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/bc81f7f2-9a7d-4c6e-a76f-e42b37db7772/a759d8ae-7973-4dbe-9622-c34c371ca272.png"
     alt="Figura: Easy-Peasy.AI."
     caption="Figura:Tranquil Morning Walk at Sunrise."
-    idref="EASY-PEASY.AI"
+    idref="EASY-PEASY,AI"
     ref="https://easy-peasy.ai/ai-image-generator/images/tranquil-morning-walk-peaceful-landscape-sunrise"
 %}
 
-- Leia;
+- Leia
+{% include image.html
+    src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/ad972dd6-62ae-4b9c-be41-b20c8094a173/5b181826-159a-420e-9289-a9143374d5c5.png"
+    alt="Figura: EMiddle-Eastern Man Engrossed in Reading at Vintage Library."
+    caption="Figura:Middle-Eastern Man Engrossed in Reading at Vintage Library."
+    idref="EASY-PEASY, Reading"
+    ref="https://easy-peasy.ai/ai-image-generator/images/middle-eastern-man-reading-vintage-library-book-enthusiast"
+%}
 
-- Assista palestras;
+- Assista palestras
+{% include image.html
+    src="https://commons.wikimedia.org/wiki/File:Caf%C3%A9_Filos%C3%B3fico_%288726435728%29.jpg"
+    alt="Figura: Janete Leao Ferraz e Mario Sergio Cortella no Cafe Filosofico - | 14.12.12 ."
+    caption="Figura: Janete Leao Ferraz e Mario Sergio Cortella no Cafe Filosofico - | 14.12.12 ."
+    idref="FERRO, Tatiana"
+    ref="https://commons.wikimedia.org/wiki/File:Caf%C3%A9_Filos%C3%B3fico_%288726435728%29.jpg"
+%}
 
 - Assista os encontros de Me Conta uma História.

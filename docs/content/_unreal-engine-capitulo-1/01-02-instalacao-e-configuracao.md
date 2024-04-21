@@ -18,7 +18,7 @@ O **Unreal Engine** emprega a linguagem C++ juntamente com um ambiente de progra
 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-control-version.webp"
-    alt="Figura: Gerenciamento de versões."
+    alt="Inicializador da Epic Games."
     caption="Inicializador da Epic Games."
 %}
 
@@ -51,6 +51,7 @@ Para instalar  os pacotes de desenvolvimento e o Visual Studio para programaçã
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-visual-studio-installer.webp"
     alt="Figura: Visual Studio Installer - Instalação."
+    caption="Figura: Visual Studio Installer - Instalação."
  %}
 
 Depois de instalar o Visual Studio é necessário selecionar os seguintes pacotes de programação:
@@ -58,6 +59,7 @@ Depois de instalar o Visual Studio é necessário selecionar os seguintes pacote
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-visual-studio-update.webp"
     alt="Figura: Visual Studio Installer - Modificar."
+    caption="Figura: Visual Studio Installer - Modificar."
 %}
 
 Usando o Visual Studio Installer podemos instalar ou remover (modificar), os pacotes necessários para o desenvolvimento de jogos.
@@ -80,6 +82,7 @@ Para construção do projeto podemos clicar no versão disponível na janela do 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-select-new-project.webp"
     alt="Figura: Unreal 4 - Select or create New Project, Games."
+    caption="Figura: Unreal 4 - Select or create New Project, Games."
 %}
 
 Selecione a opção Games para construção do projeto.
@@ -90,8 +93,8 @@ Para este projeto vamos escolher o `template blank`, modelo vazio, significa que
 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-select-template.webp"
-    alt="Figura: Select Template blank"
-    caption="Selecionando um modelo para utilizar no projeto."
+    alt="Figura: Selecionando um modelo para utilizar no projeto."
+    caption="Figura: Selecionando um modelo para utilizar no projeto."
 %}
 
 **Templates:** São modelos com recursos disponíveis para cada tipo de jogo escolhido.
@@ -104,6 +107,7 @@ Em configuração de projeto escolha **C++** e `No Starter Content`, esta opçã
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-project-settings.webp"
     alt="Figura: Unreal engine project Settings."
+    caption="Figura: Unreal engine project Settings."
 %}
 
 #### 4.1.3. Tela inicial do Unreal Engine
@@ -113,6 +117,7 @@ Quando todos os passos anteriores forem concluídos corretamente a tela inicial 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-tela-inicial.webp"
     alt="Figura: Unreal Engine tela inicial."
+    caption="Figura: Unreal Engine tela inicial."
 %}
 
 ### 4.2. Iniciando um projeto no Unreal Engine 5
@@ -120,6 +125,7 @@ Quando todos os passos anteriores forem concluídos corretamente a tela inicial 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-5-select-new-project.webp"
     alt="Figura: Unreal 5 - Select or create New Project, Games"
+    caption="Figura: Unreal 5 - Select or create New Project, Games"
 %}
 
 A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o mesmo dos passos anteriores.
@@ -127,6 +133,7 @@ A versão 5 tem uma apresentação um pouco diferente mas o conceito ainda é o 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-home-screen.webp"
     alt="Figura: Unreal 5 - Tela inicial."
+    caption="Figura: Unreal 5 - Tela inicial."
 %}
 
 Paleta de comandos com ícones menores o novo navegador de conteúdo (Content Drawer).
@@ -140,6 +147,7 @@ Para programar utilizando **C++** no Unreal devemos configurar um editor de cód
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-editor-codigo.webp"
     alt="Figura: Editor Preferences > General > Source Code."
+    caption="Figura: Editor Preferences > General > Source Code."
 %}
 
 **Qual editor eu escolho, Visual Code ou Visual Studio?**  Os dois são ótimos editores de código, mas o Visual Code tem uma apresentação mais enxuta e quando se trata de utilizar ele para outras linguagens, como por exemplo Pyhton, ou mesmo editar um arquivo de formato Markdown é uma boa escolha.
