@@ -158,8 +158,6 @@ Talvez uma ação simples, como abrir uma porta pode ser uma pista do tema do jo
     src="me-conta-uma-historia/img_normal.webp"
     alt="Figura: O Merc With a Mouth finalmente tem um game (surtado) para chamar de seu."
     caption="Figura: Jogo de humor."
-    idref="TECHMUNDO, Humor"
-    ref="https://www.techmundo.com.br"
 %}
 
 Falar, agir de forma engraçada.

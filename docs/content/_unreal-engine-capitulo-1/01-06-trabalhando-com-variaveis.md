@@ -31,6 +31,8 @@ Estrutura de memória.
 | bRunnig  | Boolean |   false   |
 | vLista   | FVector |  (1,2,4)  |
 
+Tabela 1: Variáveis e seus tipos de dados.
+
 Abaixo um exemplo em C++:
 
 ```cpp
@@ -86,13 +88,13 @@ Declarando variáveis informamos ao computador que estamos reservando um espaço
 {% include imagelocal.html
     src="unreal/variaveis/unreal-engine-variable.webp"
     alt="Figura: Blueprint Variables."
-    caption="Variáveis no Editor de Blueprint."
+    caption="Figura: Variáveis no Editor de Blueprint."
 %}
 
 {% include imagelocal.html
     src="unreal/variaveis/unreal-engine-variable-details.webp"
     alt="Figura: Details ou propriedades das variáveis."
-    caption="As variáveis tem tipos e propriedades que determinam o sua utilização."
+    caption="Figura: As variáveis tem tipos e propriedades que determinam o sua utilização."
 %}
 
 Observe que a propriedade `Category` agrupa as variáveis por uma categoria.
@@ -124,7 +126,7 @@ Para acessar o conteúdo das variáveis utilizamos os métodos `Get` e `Set`, on
 {% include imagelocal.html
     src="unreal/variaveis/unreal-engine-get-set.webp"
     alt="Figura: Métodos Get e Set."
-    caption="Get se Set, obtém e atualiza respectivamente a variável Life."
+    caption="Figura: Get se Set, obtém e atualiza respectivamente a variável Life."
 %}
 
 `BeginPlay` - Ao iniciar o jogo a lista de comandos conectados a estes nó deve ser acionado.
@@ -171,6 +173,8 @@ No **Unreal Engine** são definidos alguns tipos de dados para manipulação e a
 | `String` | 16 Bytes | Armazenamento e consumo de memória mediano                                                                                                         |
 |  `Name`  | 8 Bytes  | Cadeias de caracteres  curtas que ocupam pouca memória.                                                                                            |
 
+Tabela 2: Variáveis do tipo TEXT
+
 Podemos realizar as seguintes operações em `strings`:
 
 - Atribuir o valor de uma `string` para outra;
@@ -188,7 +192,7 @@ Podemos realizar as seguintes operações em `strings`:
 {% include imagelocal.html
     src="unreal/variaveis/unreal-engine-string-functions.webp"
     alt="Figura: String functions."
-    caption="Append - Concatena tuas ou mais strings, Contains- Retorna falso ou verdadeiro se encontra um string dentro de outra."
+    caption="Figura: Append - Concatena tuas ou mais strings, Contains- Retorna falso ou verdadeiro se encontra um string dentro de outra."
 %}
 
 ### 4.2. String em C++
@@ -284,13 +288,13 @@ Valores numéricos utilizam operadores matemáticos para a sua manutenção, com
 {% include imagelocal.html
     src="unreal/variaveis/unreal-engine-variable-division.webp"
     alt="Figura: Utilizando Divisão com inteiros."
-    caption="A exemplo acima divide um inteiro por 2 e trunca o resultado."
+    caption="Figura: A exemplo acima divide um inteiro por 2 e trunca o resultado."
 %}
 
 {% include imagelocal.html
     src="unreal/variaveis/unreal-engine-variable-multiplication.webp"
     alt="Figura: Multiplicação valores."
-    caption="Neste exemplo multiplicamos o valor por 100."
+    caption="Figura: Neste exemplo multiplicamos o valor por 100."
 %}
 
 ### 5.2. Inteiro em C++
@@ -321,7 +325,7 @@ Variáveis Boolean armazenam dois valores : falso `false` ou verdadeiro `true`.
 {% include imagelocal.html
     src="unreal/variaveis/unreal-engine-variable-boolean.webp"
     alt="Figura: Variável Boolean."
-    caption="No exemplo acima se o valor de life for maior que 50 então o valor é atualizado para true."
+    caption="Figura: No exemplo acima se o valor de life for maior que 50 então o valor é atualizado para true."
 %}
 
 ## 7. Controle de acesso a variáveis
@@ -337,7 +341,7 @@ Variavel private usando Blueprint.
 {% include imagelocal.html
     src="unreal/variaveis/unreal-engine-variable-private-details.webp"
     alt="Figura: Private details."
-    caption="Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada por módulos externos."
+    caption="Figura: Com a opção Privada marcada em uma variável, isso evita que a variável seja modificada por módulos externos."
 %}
 
 Variáveis Privadas em C++.
@@ -356,13 +360,13 @@ Variavel públicas em Blueprint.
 {% include imagelocal.html
     src="unreal/variaveis/unreal-engine-variable-public.webp"
     alt="Figura: Public."
-    caption="Expondo a variável."
+    caption="Figura: Expondo a variável."
 %}
 
 {% include imagelocal.html
     src="unreal/variaveis/unreal-engine-variable-public-details.webp"
     alt="Figura: Public details."
-    caption="Expõe a variável no Editor ViewPort."
+    caption="Figura: Expõe a variável no Editor ViewPort."
 %}
 
 Variáveis Públicas com C++

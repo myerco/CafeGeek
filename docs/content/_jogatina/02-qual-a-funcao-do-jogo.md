@@ -26,6 +26,7 @@ A função do jogo, nas formas mais elevadas que aqui nos interessam, pode de ma
    src="jogatina-das-decadas/best-places-for-gold-farming-in-sod.webp"
    alt="Figura: WOW farming."
    caption="Figura: Figura: WOW farming"
+   idref="MARQUES,Rafhaela"
    ref="https://nosnerds.com.br/world-of-warcraft-classic-como-fazer-ouro/wow-classic-gold-pile/"
 %}
 

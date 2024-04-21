@@ -127,7 +127,7 @@ Para editar utilizamos a opção `Blueprints` > `Open Level Blueprint`.
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-open-level-blueprint.webp"
     alt="Figura:  Open Level Blueprint."
-    caption="Figura: Open Level."
+    caption="Figura: Open Level Blueprint."
 %}
 
 **Informação:** O Level Blueprint contém a lógica que controla todo o mapa.
@@ -138,6 +138,7 @@ Para entender como funciona a lógica do *Blueprint* vamos escrever uma mensagem
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-blueprint-beginplay-printstring.webp"
     alt="Figura: Iniciando o level e escrevendo uma mensagem na tela."
+    caption="Figura: Iniciando o level e escrevendo uma mensagem na tela."
 %}
 
 O nó BeginPlay é executado quando o level é carregado e o nó associado, nó PrintString, e executado em seguida.

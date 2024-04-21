@@ -18,8 +18,8 @@ O **Unreal Engine** emprega a linguagem C++ juntamente com um ambiente de progra
 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-control-version.webp"
-    alt="Inicializador da Epic Games."
-    caption="Inicializador da Epic Games."
+    alt="Figura: Inicializador da Epic Games."
+    caption="Figura: Inicializador da Epic Games."
 %}
 
 Para facilitar a instalação e atualização do ambiente de desenvolvimento dos projetos, a **Epic Games** utiliza um sistema para gerenciamento dos seus produtos, o **Inicializador da Epic Games** responsável por:

@@ -9,7 +9,7 @@ tags:
 
 Em alguns jogos o personagem pode realizar uma serie de interações com os objetos na cena, como por exemplo segurar, arremessar, guardar ou simplesmente retornar o objeto para o lugar onde estava.
 
-A seguir vamos apresentar uma lógica para encontrar o objeto, manter preso ao personagem e arremessá-lo.
+A seguir vamos apresentar uma lógica para segurar o objeto, manter preso ao personagem e arremessá-lo.
 
 {% include iframe.html
     src="https://blueprintue.com/render/5tm72obo/"

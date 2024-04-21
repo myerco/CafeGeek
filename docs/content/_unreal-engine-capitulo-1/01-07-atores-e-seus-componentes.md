@@ -83,7 +83,7 @@ Para criar uma classe utilizando **Blueprint** acesse o menu de contexto e selec
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-pick-class.webp"
     alt="Figura: Pick Parent Class."
-    caption="Permite selecionar uma classe predefinida para implementação de um nova classe."
+    caption="Figura: Permite selecionar uma classe predefinida para implementação de um nova classe."
 %}
 
 A lógica de programação dos atores é expressada em **Blueprint** e nos próximos capítulos vamos abordar este tema com mais detalhes.
@@ -97,7 +97,7 @@ Para adicionar o ator predefinido na cena utilizamos a opção `Create` e escolh
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-blueprint-place-actors-bar.webp"
     alt="Figura: Create > Shapes para criar um objeto poligonal."
-    caption="Os objetos são apresentados por categoria, por exemplo, a categoria Lights agrupa todos os atores que implementam algum tipo de emissão de luz, ou a categoria Shapes que agrupa objetos poligonais básicos."
+    caption="Figura: Os objetos são apresentados por categoria, por exemplo, a categoria Lights agrupa todos os atores que implementam algum tipo de emissão de luz, ou a categoria Shapes que agrupa objetos poligonais básicos."
 %}
 
 Ou podemos acessar o menu principal `Menu` > `Place Actors` para ter acesso a mais atores.
@@ -105,7 +105,7 @@ Ou podemos acessar o menu principal `Menu` > `Place Actors` para ter acesso a ma
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-place-actors.webp"
     alt="Figura: Windows > Place Actors."
-    caption="Esta opção apresenta mais categorias de objetos."
+    caption="Figura: Esta opção apresenta mais categorias de objetos."
 %}
 
 ## 4. Classes Blueprint ou Blueprint Class
@@ -117,7 +117,7 @@ Para adicionar um ator na cena utilizamos o menu de acesso rápido `Context Menu
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-context-menu.webp"
     alt="Figura: Get Content."
-    caption="O menu exibe uma lista agrupada por tipo de ator ou recurso."
+    caption="Figura: O menu exibe uma lista agrupada por tipo de ator ou recurso."
 %}
 
 Escolha de Classe de atores  `Blueprint Class`.
@@ -125,7 +125,7 @@ Escolha de Classe de atores  `Blueprint Class`.
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-pick-class.webp"
     alt="Figura: Pick Parent Classe e All Classes."
-    caption="Esta opção exibe uma lista das classes mais comuns, como por exemplo, atores básicos. A opção All Classes realiza uma busca por uma determinada classe."
+    caption="Figura: Esta opção exibe uma lista das classes mais comuns, como por exemplo, atores básicos. A opção All Classes realiza uma busca por uma determinada classe."
 %}
 
 ## 5. Componentes
@@ -139,7 +139,7 @@ Por exemplo, um projeto com carros, aeronaves e barcos controláveis pelo usuár
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-add-component.webp"
     alt="Figura: Add Components."
-    caption="Esta janela exibe a lista de componentes que podem ser associados a uma classe Actor."
+    caption="Figura: Esta janela exibe a lista de componentes que podem ser associados a uma classe Actor."
 %}
 
 ### 5.1. Components e a aba My Blueprint
@@ -149,7 +149,7 @@ Para ter acesso aos componentes que estão associados a um determinado objeto ut
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-myblueprint.webp"
     alt="Figura: Aba My Blueprint."
-    caption="Podemos associar várias funções, macros, variáveis ou outros objetos programáveis à classe."
+    caption="Figura: Podemos associar várias funções, macros, variáveis ou outros objetos programáveis à classe."
 %}
 
 ## 6. Estrutura da classe Actor no Unreal Engine
@@ -185,7 +185,7 @@ A seguir vamos aprender mais sobre esses elementos.
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-construction-script.webp"
     alt="Figura: Construction Script."
-    caption="A lógica acima apresenta uma mensagem ao construir o objeto."
+    caption="Figura: A lógica acima apresenta uma mensagem ao construir o objeto."
 %}
 
 ### 6.2. Event Graph
@@ -198,7 +198,7 @@ Contém o gráfico principal de nós e suas ligações representando a lógica d
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-event-graph-example.webp"
     alt="Figura: Event Graph."
-    caption="Exemplo do Event Graph com vários nós."
+    caption="Figura: Exemplo do Event Graph com vários nós."
 %}
 
 #### 6.2.1. BeginPlay
@@ -237,7 +237,7 @@ Selecione os nós e digite "C" no teclado para adicionar um comentário.
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-comment-example.webp"
     alt="Figura: Comment Example."
-    caption="Adicionando um comentário para documentar a lógica."
+    caption="Figura: Adicionando um comentário para documentar a lógica."
 %}
 
 Podemos adicionar Características aos comentários que detalham melhor a lógica dos nós envolvidos, como por exemplo adicionando cores.
@@ -253,5 +253,5 @@ Clicando no cabeçalho do comentário temos acesso os seus parâmetros.
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-comment-details.webp"
     alt="Figura: Comment Details."
-    caption="Alteramos o texto, cor, tamanho da fonte e como exibir uma mensagem flutuante."
+    caption="Figura: Alteramos o texto, cor, tamanho da fonte e como exibir uma mensagem flutuante."
 %}

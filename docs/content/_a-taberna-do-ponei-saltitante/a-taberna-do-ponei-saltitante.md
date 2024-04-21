@@ -28,7 +28,9 @@ Neste projeto iremos utilizar como exemplo de negócio um empreendimento famoso 
 {% include image.html
     src="https://i.pinimg.com/originals/3b/31/e3/3b31e34debef0e079a148d8941af59de.jpg"
     alt="Figura: O Senhor dos Anéis."
-    caption="Figura: O Senhor dos Anéis - <https://pt.wikipedia.org/wiki/O_Senhor_dos_An%C3%A9is>."
+    caption="Figura: O Senhor dos Anéis"
+    idref="WIKIPEDIA,O Senhor dos Anéis."
+    ref="https://pt.wikipedia.org/wiki/O_Senhor_dos_An%C3%A9is"
 %}
 
 ### 1.2. Habilidades que serão aprendidas
@@ -63,7 +65,9 @@ Neste projeto vamos implementar os seguintes elementos :
 {% include imagelocal.html
     src="a-taberna-ponei-saltitante/250px-Darek_Zabrocki_-_Morning.webp"
     alt="Figura: A cidade de Bree."
-    caption="Figura: A cidade de Bree - <http://tolkiengateway.net/wiki/Bree>."
+    caption="Figura: A cidade de Bree."
+    idref="TOLKIEN GATEWAY, Bree"
+    ref="http://tolkiengateway.net/wiki/Bree"
 %}
 
 A cidade de Bree conseguiu se manter prospera próspera no Norte, apesar das guerras e tumultos que destruíram o Reino dos Dúnedain do Norte. Dizem que quando os homens foram para o Ocidente, Bree já estava lá e quando os antigos reis retornaram, encontraram Bree os esperando. Dizem que foi fundada pors homens que não voltaram para Beleriand na Primeira Era, e após a queda do Reino de Cardolan na guerra conta Angmar se tornou uma cidade independente.
@@ -71,7 +75,9 @@ A cidade de Bree conseguiu se manter prospera próspera no Norte, apesar das gue
 {% include image.html
     src="http://tolkiengateway.net/w/images/thumb/1/16/The_Lord_of_the_Rings_Online_-_Bree_map.gif/180px-The_Lord_of_the_Rings_Online_-_Bree_map.gif"
     alt="Figura: O mapada da cidade de Bree."
-    caption="Figura: Map of Bree in The Lord of Rings Online - <http://tolkiengateway.net/wiki/Bree >."
+    caption="Figura: Map of Bree in The Lord of Rings Online."
+    idref="TOLKIEN GATEWAY, Bree Map"
+    ref="http://tolkiengateway.net/wiki/Bree"
 %}
 
 É a única região na Terra-média, onde Homens e Hobbits convivem em harmonia e e um importante centro comercial para elfos e anões, que são bens de comércio ou viagens de um reino para outro. O centro econômico e social é a **Taverna do Pônei Saltitante**, conhecida por ter as melhores bebidas do Norte.
@@ -89,7 +95,9 @@ A Taberna do Ponei Saltitante está ampliando o seu atendimento, buscando atende
 {% include image.html
     src="http://tolkiengateway.net/w/images/thumb/2/2b/Alan_Lee_-_The_Inn_at_Bree.jpg/369px-Alan_Lee_-_The_Inn_at_Bree.jpg"
     alt="Figura: Alan Lee – ilustrador de O Senhor dos Anéis."
-    caption="Figura: Alan Lee – ilustrador de O Senhor dos Anéis - <https://caldeiraopop.wordpress.com/2017/02/18/alan-lee-ilustrador-de-o-senhor-dos-aneis/> ."
+    caption="Figura: Alan Lee – ilustrador de O Senhor dos Anéis"
+    idref="LEE,Alan"
+    ref="https://caldeiraopop.wordpress.com/2017/02/18/alan-lee-ilustrador-de-o-senhor-dos-aneis/"
 %}
 
 Para tal, procura implementar um sistema informatizado para registrar as seguintes informações:
@@ -124,7 +132,9 @@ Para tal, procura implementar um sistema informatizado para registrar as seguint
 {% include image.html
     src="http://tolkiengateway.net/w/images/f/fa/Ted_Nasmith_-_At_the_Sign_of_the_Prancing_Pony.jpg"
     alt="Figura: The Prancing Pony."
-    caption="Figura: The Prancing Pony - <http://tolkiengateway.net/wiki/The_Prancing_Pony> ."
+    caption="Figura: The Prancing Pony"
+    idref="TOLKIENGATEWAY,Wiki The_Prancing_Pony"
+    ref="http://tolkiengateway.net/wiki/The_Prancing_Pony"
 %}
 
 - Quantos clientes estão registrados e quais são suas raças?
@@ -143,7 +153,9 @@ Sob a estrutura do banco de dados está o modelo de dados: um conjunto de ferram
 {% include image.html
     src="http://tolkiengateway.net/w/images/9/97/Ted_Nasmith_-_The_Pillars_of_the_Kings.jpg"
     alt="Figura: The_Pillars_of_the_Kings."
-    caption="Figura: The_Pillars_of_the_Kings - <http://tolkiengateway.net/wiki/Argonath> ."
+    caption="Figura: The_Pillars_of_the_Kings"
+    idref="TOLKIENGATEWAY, Argonath"
+    ref="http://tolkiengateway.net/wiki/Argonath"
 %}
 
 ### 3.1. Existem diversos tipos de modelos de banco de dados, entre eles
@@ -244,8 +256,10 @@ Neste capitulo iremos iniciar a analise das necessidades de negócio utilizando 
 {% include image.html
     src="http://tolkiengateway.net/w/images/thumb/3/3c/Alan_Lee_-_The_King_under_the_Mountain.jpg/424px-Alan_Lee_-_The_King_under_the_Mountain.jpg"
     alt="Figura: King under the Mountain."
-    caption="Figura: King under the Mountain - <http://tolkiengateway.net/wiki/King_under_the_Mountain>."
-%}
+    caption="Figura: King under the Mountain"
+    idref="TOLKIENGATEWAY, King Under the Mountain"
+    ref="http://tolkiengateway.net/wiki/King_under_the_Mountain"
+ %}
 
 ### 4.1. A Regra de negócio
 
@@ -259,7 +273,9 @@ Neste capitulo iremos iniciar a analise das necessidades de negócio utilizando 
 {% include image.html
     src="https://tolkiengateway.net/w/images/4/4f/Angus_McBride_-_Celebrimbor.gif"
     alt="Figura: Angus McBride."
-    caption="Figura: Angus McBride - <http://tolkiengateway.net/wiki/File:Angus_McBride_-_Celebrimbor.gif>."
+    caption="Figura: Angus McBride"
+    idref="TOLKIENGATEWAY, Celebrimbor"
+    ref="http://tolkiengateway.net/wiki/File:Angus_McBride_-_Celebrimbor.gif"
 %}
 
 O nosso objetivo é extrair informações da regra de negócio a fim de identificar objetos e regras conceituais. Para tal tarefa seguiremos as seguintes premissas:
@@ -341,9 +357,11 @@ A seguir vamos apresentar os objetos extraídos da regra.
 ### 4.3. Regras e restrições
 
 {% include image.html
-    src="http://tolkiengateway.net/w/images/thumb/e/ef/One_ring.png/300px-One_ring.png"
+    src="https://commons.wikimedia.org/wiki/File:El_Se%C3%B1or_de_los_Anillos_lectura_%28cropped%29.jpg"
     alt="Figura: The One Ring."
-    caption="Figura: The One Ring - <http://tolkiengateway.net/wiki/The_One_Ring>."
+    caption="Figura: The One Ring"
+    idref="WIKIMEDIA COMMONS,Zanastardust"
+    ref="File:El Señor de los Anillos lectura (cropped).jpg"
 %}
 
 > Um Anel para governar todos eles,
@@ -418,7 +436,7 @@ O que é o SQLDeveloper?
 
 - Baixe o aplicativo de preferência com JDK incluído
 - Descompacte em uma pasta de trabalho, por exemplo: `c:\desenvolvimento\SQLDeveloper`
-  - Baixe o driver JDBC para [PostgreSQL](https://jdbc.postgresql.org/download.html);
+  - Baixe o driver JDBC para [PostgreSQL](https://jdbc.postgresql.org/download/);
 - Execute o `SQLDeveloper.exe`;
 - Adicione o driver do PostgreSQL : Menu->Ferramentas->Banco de Dados->Drivers JDBC de Terceiros;
 
