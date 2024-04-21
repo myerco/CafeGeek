@@ -18,7 +18,7 @@ Para entender melhor a estrutura de programação que representa a construção 
 {% include image.html
     src="https://4.bp.blogspot.com/-Bx-UYCheS3Y/UwSDeRIkSZI/AAAAAAAACgY/_-J6s4GzjEc/s1600/image.jpg"
     alt="Figura: Programação Orientada a Objetos: Uma introdução."
-    caption="A Programação Orientada a Objetos (POO) surgiu com a finalidade de facilitar a vida daqueles que trabalham com desenvolvimento de software, pois na POO o difícil não é desenvolver bem um software, mas sim desenvolver um software que satisfaça o cliente, ou seja, garantir que o que será entregue será realmente o que foi pedido. Uma das características da POO é fazer com que o programador pense as coisas de forma distintas, transformando-as assim em objeto, aplicando propriedades e métodos, que comentaremos mais adiante, reduzindo assim a complexidade no desenvolvimento e manutenção de software, aumentando a produtividade."
+    caption="Figura: A Programação Orientada a Objetos (POO) surgiu com a finalidade de facilitar a vida daqueles que trabalham com desenvolvimento de software, pois na POO o difícil não é desenvolver bem um software, mas sim desenvolver um software que satisfaça o cliente, ou seja, garantir que o que será entregue será realmente o que foi pedido. Uma das características da POO é fazer com que o programador pense as coisas de forma distintas, transformando-as assim em objeto, aplicando propriedades e métodos, que comentaremos mais adiante, reduzindo assim a complexidade no desenvolvimento e manutenção de software, aumentando a produtividade."
 %}
 
 Um método é um procedimento ou função em Conceitos de **Programação Orientada a Objetos**. Considerando que uma função é um grupo de código reutilizável que pode ser usado em qualquer parte do programa. Isso ajuda na necessidade de escrever o mesmo código repetidamente. Também ajuda os programadores a escrever códigos modulares.
@@ -28,7 +28,7 @@ Um método é um procedimento ou função em Conceitos de **Programação Orient
 {% include image.html
     src="https://arquivo.devmedia.com.br/artigos/henrique_gasparotto/4_pilares_oo/image001.png"
     alt="Figura: Os 4 pilares da Programação Orientada a Objetos."
-    caption="...vemos uma comparação muito clara entre a programação estruturada e a programação orientada a objetos no que diz respeito aos dados. Repare que, no paradigma estruturado, temos procedimentos (ou funções) que são aplicados globalmente em nossa aplicação. No caso da orientação a objetos, temos métodos que são aplicados aos dados de cada objeto. Essencialmente, os procedimentos e métodos são iguais, sendo diferenciados apenas pelo seu escopo."
+    caption="Figura: ...vemos uma comparação muito clara entre a programação estruturada e a programação orientada a objetos no que diz respeito aos dados. Repare que, no paradigma estruturado, temos procedimentos (ou funções) que são aplicados globalmente em nossa aplicação. No caso da orientação a objetos, temos métodos que são aplicados aos dados de cada objeto. Essencialmente, os procedimentos e métodos são iguais, sendo diferenciados apenas pelo seu escopo."
 %}
 
 - Um método também funciona da mesma forma que o da função;
@@ -93,7 +93,7 @@ Os eventos podem ser acessados dentro do **Blueprints** para implementar novas f
 {% include imagelocal.html
     src="unreal/modulos/unreal-engine-event-damaged.webp"
     alt="Figura: Blueprint - Evento de CausaDano."
-    caption="Criando um método customizado CausaDano no BP_Hero podemos adicionar a lógica para o tratamento da variável Vida."
+    caption="Figura: Criando um método customizado CausaDano no BP_Hero podemos adicionar a lógica para o tratamento da variável Vida."
 %}
 
 - `CausaDano` é um evento customizado utilizando a opção `Add Custom Event` no menu de contexto dentro do `Event Graph`;
@@ -103,7 +103,7 @@ Os eventos podem ser acessados dentro do **Blueprints** para implementar novas f
 {% include imagelocal.html
     src="unreal/modulos/unreal-engine-event-damaged-overlap.webp"
     alt="Figura: Chamando o evento OnComponentBeginOverlap."
-    caption="Utilizando o evento OnComponentBeginOverlap para acionar o evento CausaDano."
+    caption="Figura: Utilizando o evento OnComponentBeginOverlap para acionar o evento CausaDano."
 %}
 
 ### 2.2. Evento e Métodos
@@ -174,7 +174,7 @@ void CalculoIMC(float pPeso, float pAltura) {
 {% include imagelocal.html
     src="unreal/modulos/unreal-engine-function-calc-imc.webp"
     alt="Figura: Blueprint - Exemplo de CalculoIMC."
-    caption="A função recebe dois parâmetros e retorna um valor."
+    caption="Figura: A função recebe dois parâmetros e retorna um valor."
 %}
 
 ### 3.3. Funções Puras
@@ -258,7 +258,7 @@ Usado principalmente para organização de código, escondendo nós da estrutura
 {% include imagelocal.html
     src="unreal/modulos/unreal-engine-collapse-nodes-example.webp"
     alt="Figura: Blueprint - Exemplo Collapse nodes."
-    caption="Selecionando os nós e acionando o menu de contexto (RMB) escolhemos Collapse Nodes."
+    caption="Figura: Selecionando os nós e acionando o menu de contexto (RMB) escolhemos Collapse Nodes."
 %}
 
 - Aceitam parâmetros de entrada e saída;
@@ -272,7 +272,7 @@ Usado principalmente para organização de código, escondendo nós da estrutura
 {% include imagelocal.html
     src="unreal/modulos/unreal-engine-call-function-macro.webp"
     alt="Figura: Blueprint - Exemplo de Call function marco."
-    caption="No exemplo acima usamos a função e uma macro."
+    caption="Figura: No exemplo acima usamos a função e uma macro."
 %}
 
 ## 7. Eventos predefinidos para causar e receber Dano
@@ -280,11 +280,11 @@ Usado principalmente para organização de código, escondendo nós da estrutura
 {% include imagelocal.html
     src="unreal/dano/unreal-engine-applydamage.webp"
     alt="Figura: Blueprint - Apply Damage."
-    caption="Ao colidir no objeto de controle é acionado o evento Appy Damage para registrar que um dano foi efetuado. O valor do dano é informado como parâmetro."
+    caption="Figura: Ao colidir no objeto de controle é acionado o evento Appy Damage para registrar que um dano foi efetuado. O valor do dano é informado como parâmetro."
 %}
 
 {% include imagelocal.html
     src="unreal/dano/unreal-engine-anydamage.webp"
     alt="Figura: Blueprint - Any Damage."
-    caption="A variável vida foi definida no objeto que RECEBE o dano, ao ser acionada."
+    caption="Figura: A variável vida foi definida no objeto que RECEBE o dano, ao ser acionada."
 %}

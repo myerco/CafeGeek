@@ -19,7 +19,7 @@ Para associar teclas a eventos utilizamos o menu `Edit` > `Project Settings` > `
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-input.webp"
     alt="Figura: Engine Input."
-    caption="Menu principal Edit > Project Settings > Input."
+    caption="Figura: Menu principal Edit > Project Settings > Input."
 %}
 
 ## 2. Actions Mappings
@@ -29,7 +29,7 @@ O mapeamento de ações permite vincular um evento a uma entrada de dados (tecla
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-mappings-actions.webp"
     alt="Figura: Actions Mappings."
-    caption=" Podemos adicionar novos mapeamentos de ações configurando os parâmetros do projeto."
+    caption="Figura: Podemos adicionar novos mapeamentos de ações configurando os parâmetros do projeto."
 %}
 
 ### 2.1. Exemplo em C++ associando mapeamento a eventos
@@ -116,7 +116,7 @@ Registramos os seguintes valores:
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-mappings-axis.webp"
     alt="Figura: Axis Mappings."
-    caption=" Podemos associar teclas de movimentação para um método."
+    caption="Figura: Podemos associar teclas de movimentação para um método."
 %}
 
 ### 3.1. Exemplo em C++ associando um evento ao método MoveForward
@@ -146,7 +146,7 @@ void AProjetoMPCharacter::StopJumping(ETouchIndex::Type FingerIndex, FVector Loc
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-movimentacao-objeto.webp"
     alt="Figura: Objeto Pawn."
-    caption=" Lista de componentes do objeto."
+    caption="Figura: Lista de componentes do objeto."
 %}
 
 Para exemplificar a implementação utilizaremos uma classe do tipo Pawn que será o objeto que iremos controlar com os comandos de entrada
@@ -164,7 +164,7 @@ Vamos adicionar os seguintes componentes no objeto:
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-get-player-controller-enable-input.webp"
     alt="Figura : Exemplo Enabled Input."
-    caption=" O nó é chamado ao iniciar (BeginPlay) o objeto."
+    caption="Figura: O nó é chamado ao iniciar (BeginPlay) o objeto."
 %}
 
 É necessário habilitar a entrada de comandos para a classe Pawn com a função Enable Input que recebe como parâmetro o controlador de jogador atual ou Player controller
@@ -178,7 +178,7 @@ Vamos adicionar os seguintes componentes no objeto:
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-pawn-inputaxis.webp"
     alt="Figura: Movimentação de teclado. "
-    caption="Add Movement Input com InputAxis."
+    caption="Figura: Add Movement Input com InputAxis."
 %}
 
 Devemos executar a chamada dos eventos criados no mapeamento e associados aos inputs.
@@ -198,7 +198,7 @@ Devemos executar a chamada dos eventos criados no mapeamento e associados aos in
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-pawn-consume-movement-input-vector.webp"
     alt="Figura: Exemplo Consume Movement Input Vector e AddActorWorldOffset."
-    caption="O nó é chamado a cada tick do objeto, atualizando as coordenadas de localização."
+    caption="Figura: O nó é chamado a cada tick do objeto, atualizando as coordenadas de localização."
 %}
 
 Vamos capturar as coordenadas do ator para que possamos utilizar os métodos de movimentação Turn e LookUp
@@ -212,7 +212,7 @@ Vamos capturar as coordenadas do ator para que possamos utilizar os métodos de 
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-pawn-yaw-pitch.webp"
     alt="Figura: InputAxis associado ao nó Add Controller Yaw Input e Add Controller Pitch Input."
-    caption="Atualiza constantemente o valor de Axis passando como parâmetro aos nós de controle de movimentação."
+    caption="Figura: Atualiza constantemente o valor de Axis passando como parâmetro aos nós de controle de movimentação."
 %}
 
 Yaw e Pitch representam respectivamente as coordenadas :
@@ -228,13 +228,13 @@ Yaw e Pitch representam respectivamente as coordenadas :
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-use-controller-rotation.webp"
     alt="Figura: Use Controller Rotation Pitch/Yaw."
-    caption="Caso as opções Use controller rotation pitch/Yaw, parâmetros da raiz do objeto (Self), estiverem ativas (true) a cápsula do ator irá se movimentar no seu próprio eixo."
+    caption="Figura: Caso as opções Use controller rotation pitch/Yaw, parâmetros da raiz do objeto (Self), estiverem ativas (true) a cápsula do ator irá se movimentar no seu próprio eixo."
 %}
 
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-pawn-use-pawn-control-rotation.webp"
     alt="Figura: Use Paw Controller Rotation."
-    caption="Quando verdadeiro o parâmetro Use Pawn control Rotation do componente SpringArm somente o braço com a câmera são movimentados."
+    caption="Figura: Quando verdadeiro o parâmetro Use Pawn control Rotation do componente SpringArm somente o braço com a câmera são movimentados."
 %}
 
 ## 5. Movimentação de objetos
@@ -250,7 +250,7 @@ Serão implementados objetos para disparar (Plataforma Trigger) a movimentação
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-plataform-components.webp"
     alt="Figura: Exemplo estrutura da plataforma."
-    caption="Lista de Componentes e variáveis."
+    caption="Figura: Lista de Componentes e variáveis."
 %}
 
 `StaticMeshActor` - Derivado da classe Actor;
@@ -264,7 +264,7 @@ Serão implementados objetos para disparar (Plataforma Trigger) a movimentação
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-plataform-inc-velocity-char.webp"
     alt="Figura: Exemplo da lógica da movimentação."
-    caption="Lógica para aumentar a velocidade de corrida e força de impulso do personagem do BP_Hero tipo Character."
+    caption="Figura: Lógica para aumentar a velocidade de corrida e força de impulso do personagem do BP_Hero tipo Character."
 %}
 
 **Informação:** Ao colidir com a plataforma a lógica é acionada.
@@ -294,7 +294,7 @@ Perceba que o valor de `Y` varia até alcançar o valor final.
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-plataform-setactorlocarion-lerp-timeline.webp"
     alt="Figura: Exemplo utilizando Timeline em um Level Blueprint."
-    caption="Nesta cena existe um objeto com dois objetos alvos (TargetPoint) para marcar as coordenadas de movimentação."
+    caption="Figura: Nesta cena existe um objeto com dois objetos alvos (TargetPoint) para marcar as coordenadas de movimentação."
 %}
 
 Utilizando o Level Blueprint vamos implementar a lógica de movimentação usando TimeLine, seguindo os passos abaixo:
@@ -312,7 +312,7 @@ Utilizando o Level Blueprint vamos implementar a lógica de movimentação usand
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-plataform-timeline-curve.webp"
     alt="Figura: TimeLine Curve para atualizar as coordenadas de movimentação."
-    caption="Devemos definir uma curva de tempo para a variável Alpha para utilizar na interpolação de A com B (Learp)."
+    caption="Figura: Devemos definir uma curva de tempo para a variável Alpha para utilizar na interpolação de A com B (Learp)."
 %}
 
 ### 5.6. Utilizando o evento Tick e TimeLine
@@ -320,7 +320,7 @@ Utilizando o Level Blueprint vamos implementar a lógica de movimentação usand
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-plataform-timeline-tick.webp"
     alt="Figura: Blueprint - Passando como parâmetro a velocidade e alterando o movimento."
-    caption="Com a finalidade de exemplificar podemos utilizar o evento Tick para alterar a velocidade da plataforma."
+    caption="Figura: Com a finalidade de exemplificar podemos utilizar o evento Tick para alterar a velocidade da plataforma."
 %}
 
 **Informação:** Pode ser construída outra plataforma para acionar o evento, Plataforma de gatilho `Trigger Plataform`.
@@ -335,7 +335,7 @@ Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e de
 {% include imagelocal.html
     src="unreal/movimentacao/unreal-engine-plataform-properties.webp"
     alt="Figura: Exemplo propriedades do objeto plataforma."
-    caption="Variáveis do objeto."
+    caption="Figura: Variáveis do objeto."
 %}
 
 `TargetLocation` - Coordenadas do destino com `Widget`  ativo;
@@ -353,7 +353,7 @@ Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e de
 {% include imagelocal.html
     src="unreal/movimentacao/unreal-engine-plataform-init-variables.webp"
     alt="Figura: Inicializando variáveis do objeto plataforma."
-    caption="Usamos TransformLocation para converter o vetor TargetLocation em uma localização relativa a do jogador. Por exemplo, se T fosse a transformação de um objeto, isso transformaria uma posição do espaço local para o espaço mundial."
+    caption="Figura: Usamos TransformLocation para converter o vetor TargetLocation em uma localização relativa a do jogador. Por exemplo, se T fosse a transformação de um objeto, isso transformaria uma posição do espaço local para o espaço mundial."
 %}
 
 ### 6.3. Evento Tick da plataforma
@@ -367,7 +367,7 @@ Agora vamos usar o evento **Tick** para interpolar as coordenadas de origem e de
 {% include imagelocal.html
     src="unreal/movimentacao/unreal-engine-plataform-movement-with-tick-continue.webp"
     alt="Figura: Lógica de movimentação usando Tick - continuação. "
-    caption="Alterna os vetores quando o objeto chega no destino final."
+    caption="Figura: Alterna os vetores quando o objeto chega no destino final."
 %}
 
 ## 7. Usando o evento Tick com C++
@@ -424,7 +424,7 @@ Para este exemplo vamos criar o objeto **BP_Hero** do tipo `Character` com as se
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-character-properties.webp"
     alt="Figura: Character class and properties."
-    caption="Em SpringArm habilite a opção Use Pawn Control Rotation para que a cápsula do personagem não acompanhe o movimento do mouse."
+    caption="Figura: Em SpringArm habilite a opção Use Pawn Control Rotation para que a cápsula do personagem não acompanhe o movimento do mouse."
 %}
 
 Vamos adicionar e ajustar os componentes `SpringArm` e `Camera` para manipular a visualização do personagem em terceira pessoa.
@@ -440,7 +440,7 @@ Vamos adicionar e ajustar os componentes `SpringArm` e `Camera` para manipular a
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-character-skeletal-mesh.webp"
     alt="Figura: Inicializando variáveis do objeto plataforma."
-    caption="Adicione e ajuste o componente Mesh para adicionar uma malha esquelética, no exemplo acima utilizamos o pacote ThirdPerson."
+    caption="Figura: Adicione e ajuste o componente Mesh para adicionar uma malha esquelética, no exemplo acima utilizamos o pacote ThirdPerson."
 %}
 
 ### 8.1. Utilizando Enumeration para registro de poses do personagem
@@ -452,7 +452,7 @@ Podemos utilizar uma variável `Enumeration` para registrar os estados do objeto
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-enum-state-char-basics.webp"
     alt="Figura: Enumeration e Estados do jogador."
-    caption="Implemente a variável EN_State_Hero do tipo Enumeration, utilize o menu de contexto Blueprints > Enumerations."
+    caption="Figura: Implemente a variável EN_State_Hero do tipo Enumeration, utilize o menu de contexto Blueprints > Enumerations."
 %}
 
 Adicione as linhas no objeto, `AddEnumerator`:
@@ -470,7 +470,7 @@ Adicione as linhas no objeto, `AddEnumerator`:
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-enum-jump-crouch.webp"
     alt="Figura: Atualizando o estado do jogador utilizando Enumeration."
-    caption="Atualizamos as variáveis Enumeration para o estado associado ao comando Input."
+    caption="Figura: Atualizamos as variáveis Enumeration para o estado associado ao comando Input."
 %}
 
 `Input Action Crouch` - Este evento deve ser definido em `Project Settings` > `Input`, escolha a tecla `D` para este exemplo;

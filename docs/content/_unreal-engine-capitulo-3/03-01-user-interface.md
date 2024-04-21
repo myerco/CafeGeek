@@ -64,7 +64,7 @@ No **Unreal Engine** utilizamos um objeto com atributos e métodos próprios par
 {% include imagelocal.html
     src="unreal/interface-ui-hud/EditEditorUtilityWidgetBlueprint.webp"
     alt="Figura: Widget Editor Blueprint."
-    caption="Unreal Engine doc."
+    caption="Figura: Unreal Engine doc."
 %}
 
 ### 2.1. Criando o Widget
@@ -85,7 +85,7 @@ O editor de Widget é divido em :
 {% include imagelocal.html
     src="unreal/interface-ui-hud/unreal-engine-hud-hierarquia.webp"
     alt="Figura: Widget Hierarchy."
-    caption="Os elementos apresentados na Widget seguem uma hierarquia que determina o posicionamento relativo na tela."
+    caption="Figura: Os elementos apresentados na Widget seguem uma hierarquia que determina o posicionamento relativo na tela."
 %}
 
 - Observe que tem vários objetos alinhados hierarquicamente e que neste caso vão nos ajudar e organizar a tela, sendo a raiz da árvore o objeto `BP_HUD_demo`;
@@ -97,7 +97,7 @@ O editor de Widget é divido em :
 {% include imagelocal.html
     src="unreal/interface-ui-hud/unreal-engine-hud-designer.webp"
     alt="Figura: Widget Designer."
-    caption="Apresentação dos elementos descritos anteriormente."
+    caption="Figura: Apresentação dos elementos descritos anteriormente."
 %}
 
 ### 2.4. Entendo alinhamento utilizando Anchors
@@ -107,13 +107,13 @@ Para gerenciar melhor o posicionamento de objetos no `Widget Designer` vamos ent
 {% include imagelocal.html
     src="unreal/interface-ui-hud/unreal-engine-hud-select-anchors.webp"
     alt="Figura: Widget Anchor alinhamento."
-    caption="Ancorar um elemento é definir uma posição predefinida na tela."
+    caption="Figura: Ancorar um elemento é definir uma posição predefinida na tela."
 %}
 
 {% include imagelocal.html
     src="unreal/interface-ui-hud/unreal-engine-anchor-alinhamento.webp"
     alt="Figura: Widget icon Anchor."
-    caption="No exemplo acima o elemento `Text` está posicionado na tela respeitando a âncora predefinida. A âncora pode ser alterada."
+    caption="Figura: No exemplo acima o elemento `Text` está posicionado na tela respeitando a âncora predefinida. A âncora pode ser alterada."
 %}
 
 Observe os valores de **Position** **X** e **Y** são zero, isso nos diz que a texto esta totalmente alinhado a âncora.
@@ -121,7 +121,7 @@ Observe os valores de **Position** **X** e **Y** são zero, isso nos diz que a t
 {% include imagelocal.html
     src="unreal/interface-ui-hud/unreal-engine-anchor-alinhamento-position.webp"
     alt="Figura: Widget Acnhors position UMG. "
-    caption="Alterando a posição do objeto."
+    caption="Figura: Alterando a posição do objeto."
 %}
 
 Agora vamos dividir a âncora e alinhar o texto dentro das fronteiras da âncora.
@@ -129,7 +129,7 @@ Agora vamos dividir a âncora e alinhar o texto dentro das fronteiras da âncora
 {% include imagelocal.html
     src="unreal/interface-ui-hud/unreal-engine-anchor-alinhamento-separado.webp"
     alt="Figura: Widget Anchors Alinhamento separado UMG."
-    caption="Alinhando o objeto. "
+    caption="Figura: Alinhando o objeto. "
 %}
 
 Agora temos as propriedades `Offset Left` e `Right` com um valor que determina a posição do texto entre as fronteiras da âncora.
@@ -137,7 +137,7 @@ Agora temos as propriedades `Offset Left` e `Right` com um valor que determina a
 {% include imagelocal.html
     src="unreal/interface-ui-hud/unreal-engine-anchor-alinhamento-offset.webp"
     alt="Figura: Widget Canvas."
-    caption="Propriedades Alinhamento."
+    caption="Figura: Propriedades Alinhamento."
 %}
 
 - `Size to Content` determina que o elemento se ajustara ao tamanho do conteúdo;
@@ -153,7 +153,7 @@ Estes elementos são utilizados para organizar os objetos Horizontal ou vertical
 {% include imagelocal.html
     src="unreal/interface-ui-hud/unreal-engine-horizontal-box.webp"
     alt="Figura: Widget Horizontal Box UMG."
-    caption="Alinhamento horizontal."
+    caption="Figura: Alinhamento horizontal."
 %}
 
 `Vertical box` - Alinhamento vertical dos elementos.  
@@ -161,7 +161,7 @@ Estes elementos são utilizados para organizar os objetos Horizontal ou vertical
 {% include imagelocal.html
     src="unreal/interface-ui-hud/unreal-engine-vertical-box.webp"
     alt="Figura: Widget Vertical Box UMG."
-    caption="Alinhamento vertical."
+    caption="Figura: Alinhamento vertical."
 %}
 
 Nas propriedades do elemento dentro do `Vertical Box` selecione `Size Fill` para preencher todo espaço do painel.  
@@ -169,7 +169,7 @@ Nas propriedades do elemento dentro do `Vertical Box` selecione `Size Fill` para
 {% include imagelocal.html
     src="unreal/interface-ui-hud/unreal-engine-horizontal-box-fill.webp"
     alt="Figura: Widget Vertical Box Size fill UMG."
-    caption="Preenchendo a área do objeto."
+    caption="Figura: Preenchendo a área do objeto."
 %}
 
 ### 2.6. Grid Panel
@@ -179,7 +179,7 @@ Como o nome anuncia, os elementos hierarquicamente agrupados abaixo do painel se
 {% include imagelocal.html
     src="unreal/interface-ui-hud/unreal-engine-grid-panel.webp"
     alt="Figura: Widget Grid Panel UMG."
-    caption="Vários objetos agrupados dentro de uma grade ou Grid."
+    caption="Figura: Vários objetos agrupados dentro de uma grade ou Grid."
 %}
 
 `Grid Panel` tem uma propriedade especial que determina qual o valor de preenchimento de cada coluna ou linha dentro do grid. O valor varia de 0 a 1, onde 0,5 é metade do espaço e 1 totalmente preenchido.
@@ -187,7 +187,7 @@ Como o nome anuncia, os elementos hierarquicamente agrupados abaixo do painel se
 {% include imagelocal.html
     src="unreal/interface-ui-hud/unreal-engine-hud-grip-panel-column-fill.webp"
     alt="Figura: Widget Grid panel Column Fill UMG."
-    caption="Alterando parâmetros do Grid."
+    caption="Figura: Alterando parâmetros do Grid."
 %}
 
 O elemento agrupado também terá as propriedades `Row` e `Col` preenchidas sinalizando qual a posição do elemento dentro do grid.
@@ -195,5 +195,5 @@ O elemento agrupado também terá as propriedades `Row` e `Col` preenchidas sina
 {% include imagelocal.html
     src="unreal/interface-ui-hud/unreal-engine-hud-grip-panel-row-col.webp"
     alt="Figura: Widget Grid Panel Row Col UMG."
-    caption="Posição dos objetos dentro do Grid."
+    caption="Figura: Posição dos objetos dentro do Grid."
 %}

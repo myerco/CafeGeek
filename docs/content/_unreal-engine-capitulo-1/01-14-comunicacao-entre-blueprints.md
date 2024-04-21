@@ -37,7 +37,7 @@ A seguir apresentamos um diagrama de como os elementos podem se comunicar e troc
 {% include imagelocal.html
     src="unreal/comunicacao/unreal-engine-comunicacao-entre-atores.webp"
     alt="Figura: Estrutura de Comunicação entre Blueprints."
-    caption=""
+    caption="Figura: Estrutura de Comunicação entre Blueprints."
 %}
 
 A comunicação envolverá o seguinte:
@@ -65,7 +65,7 @@ Vamos criar um ator com os seguintes parâmetros para que funcione como controla
 {% include imagelocal.html
     src="unreal/comunicacao/unreal-engine-light-off-on.webp"
     alt="Figura: Função para desligar e ligar uma point PointLight Component."
-    caption=""
+    caption="Figura: Função para desligar e ligar uma point PointLight Component."
 %}
 
 **5.** Adicione a variável *Lampada* do tipo `Point Light` e configure `Instance Editable` para `true`;
@@ -93,7 +93,7 @@ Criando um referência do objeto é possível acessar a função **LampadaVisibl
 {% include imagelocal.html
     src="unreal/comunicacao/unreal-engine-light-overlap.webp"
     alt="Figura: Lógica da chamada da função usando OnBeginOverLap."
-    caption=""
+    caption="Figura: Lógica da chamada da função usando OnBeginOverLap."
 %}
 
 Quando qualquer objeto colidir com o *ControleLuz* a lâmpada ira desligar ou ligar.
@@ -121,7 +121,7 @@ Para este passo usaremos o evento `OnEndOverlap` para ler todos os objetos que t
 {% include imagelocal.html
     src="unreal/comunicacao/unreal-engine-light-cast-tag.webp"
     alt="Figura: Lógica para pegar todos os objetos com uma determinada tag e chamar uma função usando GetAllActorWithTag e Cast to PointLight."
-    caption=""
+    caption="Figura: Lógica para pegar todos os objetos com uma determinada tag e chamar uma função usando GetAllActorWithTag e Cast to PointLight."
 %}
 
 `GetAllActorWithTag` - Retorna um array com todos os objetos da cena com a **tag** passada como parâmetro, no caso *Lampada*.
@@ -141,7 +141,7 @@ Podemos implementar um `Blueprint interface` Utilizando o menu de contexto.
 {% include imagelocal.html
     src="unreal/comunicacao/unreal-engine-context-menu-interface.webp"
     alt="Figura: Menu > Blueprint Interface."
-    caption=""
+    caption="Figura: Menu > Blueprint Interface."
 %}
 
 Crie o objeto com o nome *BPI_Colecionaveis* para que possamos continuar o exemplo.
@@ -153,7 +153,7 @@ Clicando e abrindo o objeto criado anteriormente perceba que o objeto não tem l
 {% include imagelocal.html
     src="unreal/comunicacao/unreal-engine-editor-interface.webp"
     alt="Figura: Editor da function interface."
-    caption=""
+    caption="Figura: Editor da function interface."
 %}
 
 Em seguida adicione uma função chamada *Nome* para que possa servir como função ponte.
@@ -171,7 +171,7 @@ Em seguida adicione uma função chamada *Nome* para que possa servir como funç
 {% include imagelocal.html
     src="unreal/comunicacao/unreal-engine-inteface-function.webp"
     alt="Figura: Blueprint - Lógica da função Nome com GetObjectName."
-    caption=""
+    caption="Figura: Blueprint - Lógica da função Nome com GetObjectName."
 %}
 
 **5.** Adicione no `Character` jogável *BP_Hero* e implemente a lógica abaixo.
@@ -179,7 +179,7 @@ Em seguida adicione uma função chamada *Nome* para que possa servir como funç
 {% include imagelocal.html
     src="unreal/comunicacao/unreal-engine-inteface-tracebychannel.webp"
     alt="Figura: Blueprint - Utilizando a função SphereTraceByChannel para capturar objetos e chamar a função nome."
-    caption=""
+    caption="Figura: Blueprint - Utilizando a função SphereTraceByChannel para capturar objetos e chamar a função nome."
 %}
 
 **RaioSegurar** - Raio da esfera que é disparada;
@@ -195,7 +195,7 @@ Implemente a função *ExecutaAcao* com parâmetro *Acao* do tipo `string`, usar
 {% include imagelocal.html
     src="unreal/comunicacao/unreal-engine-interface-with-parameter.webp"
     alt="Figura: Blueprint - Declaração da função com parâmetros."
-    caption=""
+    caption="Figura: Blueprint - Declaração da função com parâmetros."
 %}
 
 Ao chamar a função é fornecido um valor.
@@ -203,7 +203,7 @@ Ao chamar a função é fornecido um valor.
 {% include imagelocal.html
     src="unreal/comunicacao/unreal-engine-interface-example-call.webp"
     alt="Figura: Blueprint - Exemplo da chamada da função com parâmetros."
-    caption=""
+    caption="Figura: Blueprint - Exemplo da chamada da função com parâmetros."
 %}
 
 Implemente a lógica de tratamento do parâmetro dentro do objeto cadeira ou mesa.
@@ -211,7 +211,7 @@ Implemente a lógica de tratamento do parâmetro dentro do objeto cadeira ou mes
 {% include imagelocal.html
     src="unreal/comunicacao/unreal-engine-interface-example-event.webp"
     alt="Figura: Blueprint - Dentro do objeto podemos chamar o evento para chamar a Interface."
-    caption=""
+    caption="Figura: Blueprint - Dentro do objeto podemos chamar o evento para chamar a Interface."
 %}
 
 Podemos melhorar o controle utilizando uma variável `enumeration` para parametrizar as ações.  
@@ -231,7 +231,7 @@ Esses eventos podem ser vinculados a uma classe **Blueprint**, mas os `Event Dis
 {% include imagelocal.html
     src="unreal/comunicacao/unreal-engine-event-dispatcher.webp"
     alt="Figura: Estrutura do EventDispatcher."
-    caption=""
+    caption="Figura: Estrutura do EventDispatcher."
 %}
 
 ### 5.1. Exemplo utilizando o Character BP_Hero que será o emissor dos eventos
@@ -241,7 +241,7 @@ Adicionamos `EventDispatcher` e no `Event Graph` implementados a chamada do even
 {% include imagelocal.html
     src="unreal/comunicacao/unreal-engine-call-dispatchers.webp"
     alt="Figura: Exemplo de chamada do evento Bind Event com a função Arremessa Objetos."
-    caption=""
+    caption="Figura: Exemplo de chamada do evento Bind Event com a função Arremessa Objetos."
 %}
 
 ### 5.2. Lógica dos objetos que vão interagir com o personagem
@@ -251,7 +251,7 @@ No objeto **BP-Cubo** por exemplo adicionamos referência ao personagem **BP_Her
 {% include imagelocal.html
     src="unreal/comunicacao/unreal-engine-dispatchers-bind.webp"
     alt="Figura: Cast de outro objeto para acessar o Dispatcher registrado dentro desse objeto."
-    caption=""
+    caption="Figura: Cast de outro objeto para acessar o Dispatcher registrado dentro desse objeto."
 %}
 
 Implementamos `Bind Event` do disptacher para  associar um evento a chamada.
@@ -259,7 +259,7 @@ Implementamos `Bind Event` do disptacher para  associar um evento a chamada.
 {% include imagelocal.html
     src="unreal/comunicacao/unreal-engine-add-impulse-example.webp"
     alt="Figura: Adicionando impulso, arremessando os objetos."
-    caption=""
+    caption="Figura: Adicionando impulso, arremessando os objetos."
 %}
 
 ### 5.3. Vídeo Comunicação entre Blueprints - Event Dispatcher - 05 -  Unreal Engine

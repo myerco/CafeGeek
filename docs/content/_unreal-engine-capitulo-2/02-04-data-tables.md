@@ -26,7 +26,7 @@ Vamos implementar o **SElementos** do tipo *Structure* que servirá como base pa
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-structure-variable-3.webp"
     alt="Figura: Criando as variáveis dentro da estrutura."
-    caption="Definimos as seguintes variáveis."
+    caption="Figura: Definimos as seguintes variáveis."
 %}
 
 Utilizando o menu de contexto escolha `Miscellaneous` > `Data Table`.
@@ -34,7 +34,7 @@ Utilizando o menu de contexto escolha `Miscellaneous` > `Data Table`.
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-datatable-menu.webp"
     alt="Figura: Menu de contexto Miscellaneous > Data Table."
-   caption=""
+   caption="Figura: Menu de contexto Miscellaneous > Data Table."
 %}
 
 Logo em seguida devemos definir a estrutura de dados da tabela utilizando o variável **SElementos** do tipo `Structure`.
@@ -42,7 +42,7 @@ Logo em seguida devemos definir a estrutura de dados da tabela utilizando o vari
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-datatable-row-structure.webp"
     alt="Figura: Definindo a estrutura da tabela usando Structure e Data Table."
-   caption=""
+   caption="Figura: Definindo a estrutura da tabela usando Structure e Data Table."
 %}
 
 ## 3. Inserindo dados no objeto do tipo Data Table
@@ -53,7 +53,7 @@ A coluna **RowName** não pode ser repetida, funcionado como identificador únic
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-datatables-editor.webp"
     alt="Figura: Exemplo do editor para inserir linhas na tabela."
-   caption=""
+   caption="Figura: Exemplo do editor para inserir linhas na tabela."
 %}
 
 ## 4. Importando dados de um arquivo csv
@@ -75,7 +75,7 @@ Agora vamos implementar o objeto SArtifact do tipo *Structure* com a seguinte es
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-datatables-artifact.webp"
     alt="Figura: Definindo Structure para carregar os dados."
-   caption=""
+   caption="Figura: Definindo Structure para carregar os dados."
 %}
 
 Em seguida implemente o objeto TArtifact do tipo `Data Table` e com o botão direito do mouse em cima do objeto e selecione `Reimport`, logo em seguida escolha o arquivo csv:
@@ -83,7 +83,7 @@ Em seguida implemente o objeto TArtifact do tipo `Data Table` e com o botão dir
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-datatables-import.webp"
     alt="Figura: Data Table Reimport."
-   caption=""
+   caption="Figura: Data Table Reimport."
 %}
 
 Os dados serão importados e na aba `Data Table Details` os parâmetros de importação serão apresentados.
@@ -91,7 +91,7 @@ Os dados serão importados e na aba `Data Table Details` os parâmetros de impor
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-datatables-details.webp"
     alt="Figura: Data Table Details."
-   caption=""
+   caption="Figura: Data Table Details."
 %}
 
 ## 5. Exemplo de utilização de Data Table
@@ -105,7 +105,7 @@ Este objeto deverá estar na cena para interação com o jogador pois pode aumen
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-component-bp-vida.webp"
     alt="Figura: Exemplo do objeto BP_vida."
-   caption=""
+   caption="Figura: Exemplo do objeto BP_vida."
 %}
 
 ### 5.2. Implementando o objeto BP_Elementos
@@ -115,7 +115,7 @@ Este objeto serve como referência na cena para posicionamento de objetos *BP_Vi
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-component-bp-elementos.webp"
     alt="Figura: Exemplo do objeto de posicionamento dos objetos vida."
-   caption=""
+   caption="Figura: Exemplo do objeto de posicionamento dos objetos vida."
 %}
 
 Observe que a variável **Posicao** é do tipo vector e tem a propriedade `Show 3D Widget` habilitada para facilitar o posicionamento do elemento na cena.  
@@ -123,7 +123,7 @@ Observe que a variável **Posicao** é do tipo vector e tem a propriedade `Show 
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-vetor-widget.webp"
     alt="Figura: Show 3D Widget."
-   caption=""
+   caption="Figura: Show 3D Widget."
 %}
 
 O Vetor **Posicao** na cena.
@@ -131,7 +131,7 @@ O Vetor **Posicao** na cena.
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-actor-posicao.webp"
     alt="Figura: Posição do ator na cena."
-   caption=""
+   caption="Figura: Posição do ator na cena."
 %}
 
 Detalhes das coordenadas.
@@ -139,7 +139,7 @@ Detalhes das coordenadas.
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-actor-posicao-detalhe.webp"
     alt="Figura: Coordenadas."
-   caption=""
+   caption="Figura: Coordenadas."
 %}
 
 ### 5.3. Logica da carga dos dados
@@ -149,7 +149,7 @@ Para cada elemento do vetor *Posicao* é implementado um objeto do tipo BP_vida 
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-getdatatable.webp"
     alt="Figura: Carregando dados utilizando GetDataTableRow."
-   caption=""
+   caption="Figura: Carregando dados utilizando GetDataTableRow."
 %}
 
 - `Get data Table Row` - Tenta recuperar uma linha da `DataTable` por meio de texto em **RowName**.  No exemplo a linha recuperada deve coincidir com uma variável passada como parâmetro;
@@ -159,5 +159,5 @@ Para cada objeto adicionado na cena são definidas propriedades.
 {% include imagelocal.html
     src="unreal/estruturas/unreal-engine-spawn-bp-vida.webp"
     alt="Figura: Criando objetos usando os dados do Data Table."
-   caption=""
+   caption="Figura: Criando objetos usando os dados do Data Table."
 %}

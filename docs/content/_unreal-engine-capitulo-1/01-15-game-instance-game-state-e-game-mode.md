@@ -36,7 +36,7 @@ O fluxograma abaixo apresenta como as principais classes de jogo se relacionam e
 {% include imagelocal.html
     src="unreal/gamemode/GameFramework.webp"
     alt="Figura: Game Framework."
-    caption="QuickReference Unreal Engine."
+    caption="Figura: QuickReference Unreal Engine."
 %}
 
 ### 1.2. Implementando o GameMode
@@ -46,7 +46,7 @@ Existem duas formas de informar qual `GameMode` o jogo deve utilizar, por *Level
 {% include imagelocal.html
     src="unreal/gamemode/unreal-engine-gamemode-create.webp"
     alt="Figura: GameMode create."
-    caption="Game Mode base."
+    caption="Figura: Game Mode base."
 %}
 
 Podemos definir o `GameMode` por `Level` em `Word Settings`.
@@ -54,7 +54,7 @@ Podemos definir o `GameMode` por `Level` em `Word Settings`.
 {% include imagelocal.html
     src="unreal/gamemode/unreal-engine-world-settigns-gamemode.webp"
     alt="Figura: Blueprint - GameMode em World Settigns GameMode."
-    caption="GameMode por level."
+    caption="Figura: GameMode por level."
 %}
 
 `BP_Hero` - Objeto do tipo `Character`;
@@ -66,7 +66,7 @@ Para definir um `GameMode` para o projeto inteiro utilizamos o Menu `Project` > 
 {% include imagelocal.html
     src="unreal/gamemode/unreal-engine-project-mapsmodes.webp"
     alt="Figura: Blueprint - Project > Maps & Modes."
-    caption="GameMode para todo o projeto."
+    caption="Figura: GameMode para todo o projeto."
 %}
 
 ## 2. O que é PlayerController?
@@ -84,7 +84,7 @@ A classe `Character` representa o jogador no mundo do jogo. Ele fornece funciona
 {% include imagelocal.html
     src="unreal/gamemode/unreal-engine-playercontroller-character.webp"
     alt="Figura: GetPlayerController e GetActorLocation para escrever a localização do ator."
-    caption="Escrevendo a localização do ator na cena."
+    caption="Figura: Escrevendo a localização do ator na cena."
 %}
 
 `GetPlayerController` - As coordenadas apresentadas no nó `Print String` serão as coordenadas iniciais do `Pawn`;
@@ -107,7 +107,7 @@ Utilizando o menu de contexto escolhemos `Bluprint Class` e logo em seguida proc
 {% include imagelocal.html
     src="unreal/gamemode/unreal-engine-gameinstance-classe.webp"
     alt="Figura: Create GameInstance."
-    caption="Selecionando outras classe."
+    caption="Figura: Selecionando outras classe."
 %}
 
 ### 3.2. Adicionando um evento dentro da GameInstance
@@ -117,7 +117,7 @@ Como explicado anteriormente, os eventos e objetos ficaram disponíveis para o p
 {% include imagelocal.html
     src="unreal/gamemode/unreal-engine-gameinstance-events.webp"
     alt="Figura: GameInstance."
-    caption="Implementando a chamada de um objeto Widget."
+    caption="Figura: Implementando a chamada de um objeto Widget."
 %}
 
 Vamos adicionar uma variável para exemplificar.
@@ -125,7 +125,7 @@ Vamos adicionar uma variável para exemplificar.
 {% include imagelocal.html
     src="unreal/gamemode/unreal-engine-gameinstance-variable.webp"
     alt="Figura: GameInstance Variáveis."
-    caption="Configuração de variáveis."
+    caption="Figura: Configuração de variáveis."
 %}
 
 ### 3.3. Chamando a GameInstance para acessar os seus elementos
@@ -137,7 +137,7 @@ Antes de executar a chamada da `GameInstance` dentro dos objetos é necessário 
 {% include imagelocal.html
     src="unreal/gamemode/unreal-engine-gameinstance-project.webp"
     alt="Figura: GameInstance Project."
-    caption="Configuração para todo o projeto."
+    caption=Figura: Configuração para todo o projeto."
 %}
 
 Logo após podemos utilizar a função `GetGameInstance` que retorna a `GameInstance` definida anteriormente para o projeto.
@@ -145,5 +145,5 @@ Logo após podemos utilizar a função `GetGameInstance` que retorna a `GameInst
 {% include imagelocal.html
     src="unreal/gamemode/unreal-engine-gameinstance-cast.webp"
     alt="Figura: Exemplo de GameInstance utilizando Cast."
-    caption="Chamando a função Open Menu."
+    caption="Figura: Chamando a função Open Menu."
 %}

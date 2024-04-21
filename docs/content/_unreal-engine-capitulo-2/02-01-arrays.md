@@ -55,7 +55,7 @@ Para declarar variáveis do tipo *array* devemos primeiro escolher um tipo de va
 {% include imagelocal.html
     src="unreal/array/unreal-engine-array-declare.webp"
     alt="Figura: Blueprint array details."
-    caption="Considere a variável Nomes que deve armazenar uma lista de nomes."
+    caption="Figura: Considere a variável Nomes que deve armazenar uma lista de nomes."
 %}
 
 - `Nomes` - É uma variável *array*, como o ícone de mini grid informa,do tipo `String`;
@@ -65,7 +65,7 @@ Para declarar variáveis do tipo *array* devemos primeiro escolher um tipo de va
 {% include image.html
     src="https://docs.unrealengine.com/4.27/Images/ProgrammingAndScripting/Blueprints/UserGuide/Arrays/array_selected.webp"
     alt="Figura: Blueprint Arrays."
-    caption="Em Blueprint a variável é representada por um ícone 3x3."
+    caption="Figura: Em Blueprint a variável é representada por um ícone 3x3."
 %}
 
 ### 2.2. Método Get para arrays com Blueprint
@@ -75,7 +75,7 @@ Para acessar qualquer elemento dentro *array* é necessários utilizar o índice
 {% include imagelocal.html
     src="unreal/array/unreal-engine-array-get.webp"
     alt="Figura: Blueprint Get para Array."
-    caption="O método Get acessa a informação recebendo como parâmetro um valor de índice."
+    caption="Figura: O método Get acessa a informação recebendo como parâmetro um valor de índice."
 %}
 
 ### 2.3. Método Get para arrays com C++
@@ -92,7 +92,7 @@ Podemos utilizar uma variável para substituir o índice e acessar elementos do 
 {% include imagelocal.html
     src="unreal/array/unreal-engine-array-get-string.webp"
     alt="Figura: Blueprint Get utilizando uma variável como índice."
-    caption="No exemplo acima definimos o valor de Índice igual a 1 para acessar o elemento de mesma posição."
+    caption="Figura: No exemplo acima definimos o valor de Índice igual a 1 para acessar o elemento de mesma posição."
 %}
 
 ### 2.5. Get utilizando uma variável como índice com C++
@@ -110,7 +110,7 @@ Podemos determinar a quantidade de elementos ou valor do último índice do *arr
 {% include imagelocal.html
     src="unreal/array/unreal-engine-array-last-index.webp"
     alt="Figura: Blueprint Last Index e Length."
-    caption="Usando os nós predefinidos objetos o valor do índice."
+    caption="Figura: Usando os nós predefinidos objetos o valor do índice."
 %}
 
 - `Last Index` - Retorna o valor do último índice e o comando;
@@ -139,7 +139,7 @@ Na lógica abaixo percorremos todo *array* e listamos cada elemento.
 {% include imagelocal.html
     src="unreal/array/unreal-engine-array-with-forloop.webp"
     alt="Figura: Blueprint  Array com loop."
-    caption="Utilizando For Each Loop podemos percorrer todo array."
+    caption="Figura: Utilizando For Each Loop podemos percorrer todo array."
 %}
 
 ### 3.2. Listando todos os elementos utilizando For usando C++
@@ -184,7 +184,7 @@ for (auto It = StrArr.CreateConstIterator(); It; ++It)
 {% include imagelocal.html
     src="unreal/array/unreal-engine-array-search-string.webp"
     alt="Figura: Blueprint Find e Array."
-    caption="Find procura um elemento dentro do *array* e se encontra retorna o valor do índice do elemento, caso não encontre retorna -1."
+    caption="Figura: Find procura um elemento dentro do *array* e se encontra retorna o valor do índice do elemento, caso não encontre retorna -1."
 %}
 
 ### 3.4. Usando o comando Find com C++
@@ -202,7 +202,7 @@ if (StrArr.Find(TEXT("Hello"), Index))
 {% include imagelocal.html
     src="unreal/array/unreal-engine-array-write-total-occurrence.webp"
     alt="Figura: Blueprint for para escrever o total de ocorrências."
-    caption="O exemplo acima conta todos os elementos do array Nomes que são iguais a variável NomeBusca."
+    caption="Figura: O exemplo acima conta todos os elementos do array Nomes que são iguais a variável NomeBusca."
 %}
 
 ### 3.6. Contando elementos dentro de um array com C++
@@ -225,7 +225,7 @@ UE_LOG(LogTemp, Warning, TEXT("O Total é %d"),iTotal);
 {% include imagelocal.html
     src="unreal/array/unreal-engine-array-fill-string.webp"
     alt="Figura: Blueprint preenchendo o array com strings."
-    caption="O exemplo acima vamos percorrer o array utilizando uma instrução for e atualizar outro array."
+    caption="Figura: O exemplo acima vamos percorrer o array utilizando uma instrução for e atualizar outro array."
 %}
 
 ### 3.8. Percorrendo e atualizando dados com C++
@@ -257,7 +257,7 @@ A função `Remove` exclui um elemento do *array*, o valor a ser removido tem qu
 {% include imagelocal.html
     src="unreal/array/unreal-engine-array-remove.webp"
     alt="Figura: Blueprint Remove Array."
-    caption="Exemplo do comando Remove."
+    caption="Figura: Exemplo do comando Remove."
 %}
 
 ### 4.2. Removendo utilizando Remove com C++
@@ -276,7 +276,7 @@ O comando `Remove`executa uma busca utilizando um parâmetro, **NomeBusca** no e
 {% include imagelocal.html
     src="unreal/array/unreal-engine-array-remove-index.webp"
     alt="Figura: Blueprint Remove array com index."
-    caption="Exemplo de Remove com um parâmetro."
+    caption="Figura: Exemplo de Remove com um parâmetro."
 %}
 
 ### 4.4. Removendo passando uma variável como parâmetro com C++
@@ -296,7 +296,7 @@ Nomes.Remove(StrNomeBusca);
 {% include imagelocal.html
     src="unreal/array/unreal-engine-array-find.webp"
     alt="Figura: Blueprint Find e remove."
-    caption="Usando Find para obter o índice e passando o seu valor para Remove Index."
+    caption="Figura: Usando Find para obter o índice e passando o seu valor para Remove Index."
 %}
 
 ### 4.6. Removendo utilizando nó Remove Index com C++
@@ -317,7 +317,7 @@ if (Nomes.Find(TEXT("Hello"), Index))
 {% include imagelocal.html
     src="unreal/array/unreal-engine-array-clear.webp"
     alt="Figura: Blueprint Clear Array."
-    caption="Podemos otimizar o limpeza do array com Clear."
+    caption="Figura: Podemos otimizar o limpeza do array com Clear."
 %}
 
 ### 4.8. Limpando o array com Clear com C++

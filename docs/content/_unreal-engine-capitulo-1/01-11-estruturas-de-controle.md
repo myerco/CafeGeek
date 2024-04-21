@@ -73,7 +73,7 @@ A seguir vamos entender como é fluxo condicional é descrito com programação 
 {% include imagelocal.html
     src="unreal/estruturascontrole/unreal-engine-example-if.webp"
     alt="Figura: Blueprint e branch ou if."
-    caption="O teste acima verifica se um valor é maior que o outro e redireciona o fluxo."
+    caption="Figura: O teste acima verifica se um valor é maior que o outro e redireciona o fluxo."
 %}
 
 ### 3.2. IF em C++
@@ -98,7 +98,7 @@ O nó `Switch` lê uma entrada de dados e, com base no valor dessa entrada, envi
 {% include imagelocal.html
     src="unreal/estruturascontrole/unreal-engine-exemple-switch.webp"
     alt="Figura: Blueprint e Switch ou Case."
-    caption="Este comando verifica qual valor adente é igual ao parâmetro de entrada."
+    caption="Figura: Este comando verifica qual valor adente é igual ao parâmetro de entrada."
 %}
 
 ### 4.2. Switchs node em C++
@@ -135,7 +135,7 @@ O nó `Sequence` permite que um único pulso de execução acione uma série de 
 {% include imagelocal.html
     src="unreal/estruturascontrole/unreal-engine-example-sequence.webp"
     alt="Figura: Blueprint Sequence."
-    caption="A sequencia começa no 0 e podemos adicionar outros fluxos."
+    caption="Figura: A sequencia começa no 0 e podemos adicionar outros fluxos."
 %}
 
 ### 5.2. Sequence em C++
@@ -151,7 +151,7 @@ O nó `Flip Flop` obtém uma saída de execução e alterna entre duas saídas d
 {% include imagelocal.html
     src="unreal/estruturascontrole/unreal-engine-example-flip-flop.webp"
     alt="Figura: Blueprint Flip FLop."
-    caption="Alterna entre aberto e fechado a medida que se pressiona a tecla H."
+    caption="Figura: Alterna entre aberto e fechado a medida que se pressiona a tecla H."
 %}
 
 ## 6. Flip Flop em C++
@@ -167,7 +167,7 @@ O nó `MultiGate` recebe um único pulso de dados e o encaminha para qualquer n�
 {% include imagelocal.html
     src="unreal/estruturascontrole/unreal-engine-example-multigate.webp"
     alt="Figura: Blueprint MultiGate."
-    caption="Quando é pressionada tecla H pela primeira vez é apresentado o texto ZERO na tela, na próxima vez que pressionar o texto será UM e assim sucessivamente. Se pressionado J a sequencia é reiniciada. Caso a opção Is Ramdon esteja assinalada a sequencia será aleatória."
+    caption="Figura: Quando é pressionada tecla H pela primeira vez é apresentado o texto ZERO na tela, na próxima vez que pressionar o texto será UM e assim sucessivamente. Se pressionado J a sequencia é reiniciada. Caso a opção Is Ramdon esteja assinalada a sequencia será aleatória."
 %}
 
 ## 8. Gate e Multi Gate em C++

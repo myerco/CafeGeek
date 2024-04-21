@@ -21,7 +21,7 @@ O nó `For Loop` funciona como um loop de código padrão, disparando um pulso d
 {% include imagelocal.html
     src="unreal/estruturascontrole/unreal-engine-example-forloop.webp"
     alt="Figura: Blueprint for loop."
-    caption="Iniciando em zero e terminando em 4 será apresentado a cada passo o texto correspondente ao contador (índice)."
+    caption="Figura: Iniciando em zero e terminando em 4 será apresentado a cada passo o texto correspondente ao contador (índice)."
 %}
 
 ## 3. For Loop em C++
@@ -43,7 +43,7 @@ Uma condição de teste e um corpo são tudo o que constitui um *loop While*. An
 {% include imagelocal.html
     src="unreal/estruturascontrole/unreal-engine-example-whileloop.webp"
     alt="Figura: Blueprint While loop."
-    caption="O loop será executado enquanto o valor for menor que 4."
+    caption="Figura: O loop será executado enquanto o valor for menor que 4."
 %}
 
 ## 5. While Loop em C++
@@ -64,7 +64,7 @@ O nó `Do N` disparará um pulso de execução N vezes. Depois que o limite for 
 {% include imagelocal.html
     src="unreal/estruturascontrole/unreal-engine-example-do-n.webp"
     alt="Figura: Blueprint Do N."
-    caption="No exemplo acima toda vez que a tecla H for pressionada um valor vai ser apresentado. Quanto o valor 10 for atingido a instrução Print String não será executada. Pressionando a tecla J a contagem será reiniciada."
+    caption="Figura: No exemplo acima toda vez que a tecla H for pressionada um valor vai ser apresentado. Quanto o valor 10 for atingido a instrução Print String não será executada. Pressionando a tecla J a contagem será reiniciada."
 %}
 
 ## 7. Do N em C++
@@ -80,7 +80,7 @@ O nó `Do Once` - como o nome sugere - disparará um pulso de execução apenas 
 {% include imagelocal.html
     src="unreal/estruturascontrole/unreal-engine-example-do-once.webp"
     alt="Figura: Blueprint Do Once."
-    caption="Se pressionada a tecla H é acionado evento Print String, caso for pressionada novamente nada acontece até que seja pressionada a tecla J para reiniciar o fluxo."
+    caption="Figura: Se pressionada a tecla H é acionado evento Print String, caso for pressionada novamente nada acontece até que seja pressionada a tecla J para reiniciar o fluxo."
 %}
 
 ## 9. Do once em C++
