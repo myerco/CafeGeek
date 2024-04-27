@@ -21,11 +21,11 @@ dev_game:
   - title: A Jogatina das Décadas
     url: /a-jogatina-das-decadas/a-jogatina-das-d-cadas
   - title: Me conta uma história
-    url: /me-conta-uma-historia/
+    url:  /me-conta-uma-historia/me-conta-uma-historia
   - title: Computação gráfica
-    url: /computacao-grafica/
+    url: /computacao-grafica/computa-o-gr-fica
   - title: O curso de jogos digitais
-    url: /jogos-digitai/jogos-digitais
+    url: /jogos-digitais/jogos-digitais
   - title: Trabalhos
     url: /jogos-digitais/trabalhos-de-jogos-digitais
 

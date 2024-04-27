@@ -203,10 +203,11 @@ Os itens espalhados no mapa podem ser armas pesadas e rifles de precisão bem co
 
 ### 6.1. Interface (HUD)
 
-{% include image.html
-    src="https://www.pcinvasion.com/wp-content/uploads/2017/03/ghost-recon-wildlands-2.png?resize=1024%2C576"
+{% include imagelocal.html
+    src="docs/ghost-recon-wildlands-pc.webp"
     alt="Figura: Ghost Recon Wildlands."
     caption="HUD baseado no jogo."
+    idref="CARINO,Giuseppe"
     ref="https://www.pcinvasion.com/ghost-recon-wildlands-pc-technical-review/"
 %}
 
