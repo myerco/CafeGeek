@@ -89,4 +89,30 @@ Como todo novo aluno ele vem com várias questões positivas ou negativas, abaix
 - Estamos usando a tecnologia de forma adequada na educação?
 - O modelo de Dorian Gray e a angustia do sofrimento do outro que não sou eu;
 - O experimento sobre a previsão do futuro dos relacionamentos realizado por psicólogos e uma IA;
-- Função e uso e gozo;
+- Função de uso e gozo;
+- O estranheza familiar;
+
+## 5. Como escolas suíças já usam inteligência artificial nas aulas - DW Brasil
+
+{% include video id="sA7DoHNcBys" provider="youtube" %}
+
+- Melhora correção de questões por parte dos professores;
+- Quais perguntes devem ser feitas para o ChapGPT;
+- Ajuda a melhorar a redação e estrutura do texto e os "prompts";
+- Uso de forma consciente.
+
+## 6. Inteligência Artificial vai destruir o futuro da educação
+
+{% include video id="C9S7Ycx546c" provider="youtube" %}
+
+> O aprendizado é essencialmente humano.
+
+- Os serviços estão ficando mais caros que os produtos;
+- O serviço de "dar aula" não teve aumento;
+- Eliminar o custo humano aumenta o lucro;
+- GPT é sigla para “generative pre-trained transformer”, ou “transformador pré-treinado generativo”;
+- A IA não tem raciocínio;
+- Erros de IA são mais difíceis de identificar;
+- Dados de treino vs dados de contexto.
+
+> A IA atual não substitui pessoas, ela reduz custos.
