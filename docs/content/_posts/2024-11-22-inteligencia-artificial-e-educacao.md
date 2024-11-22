@@ -11,5 +11,6 @@ tags:
 
 {% include figure image_path="/assets/images/posts/techconnect-ro.webp" alt="TechConnect - Rondônia" %}
 
-
+Educação básica e inteligência artificial
+Educação superior e inteligência artificial
 
