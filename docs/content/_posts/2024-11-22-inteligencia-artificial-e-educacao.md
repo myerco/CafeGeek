@@ -94,7 +94,7 @@ Como todo novo aluno ele vem com várias questões positivas ou negativas, abaix
 
 ## 5. Como escolas suíças já usam inteligência artificial nas aulas - DW Brasil
 
-{% include video id="sA7DoHNcBys" provider="youtube" %}
+{% include video id="7CaXE1vhWCE" provider="youtube" %}
 
 - Melhora correção de questões por parte dos professores;
 - Quais perguntes devem ser feitas para o ChapGPT;
