@@ -97,7 +97,7 @@ Como todo novo aluno ele vem com várias questões positivas ou negativas, abaix
 {% include video id="7CaXE1vhWCE" provider="youtube" %}
 
 - Melhora correção de questões por parte dos professores;
-- Quais perguntes devem ser feitas para o ChapGPT;
+- Quais perguntas devem ser feitas para o ChapGPT;
 - Ajuda a melhorar a redação e estrutura do texto e os "prompts";
 - Uso de forma consciente.
 
@@ -110,7 +110,7 @@ Como todo novo aluno ele vem com várias questões positivas ou negativas, abaix
 - Os serviços estão ficando mais caros que os produtos;
 - O serviço de "dar aula" não teve aumento;
 - Eliminar o custo humano aumenta o lucro;
-- GPT é sigla para “generative pre-trained transformer”, ou “transformador pré-treinado generativo”;
+- GPT é sigla para “generative pre-trained transformer” ou “transformador pré-treinado generativo”;
 - A IA não tem raciocínio;
 - Erros de IA são mais difíceis de identificar;
 - Dados de treino vs dados de contexto.
