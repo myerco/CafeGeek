@@ -15,7 +15,7 @@ main:
 
 dev_game:
   - title: Unreal Engine
-    url: /unreal-engine/unreal-engine-com-c-e-blueprint
+    url: /unreal-engine
   - title: Modelagem 3D
     url: /modelagem-3d/modelagem-3d
   - title: A Jogatina das Décadas
@@ -31,7 +31,7 @@ dev_game:
 
 dev_unreal_1:
   - title: "Capítulo 1 - Blueprints"
-    url: /unreal-engine-capitulo-1/unreal-engine-capitulo-1
+    url: /unreal-engine/unreal-engine-capitulo-1
     children:    
       - title: Introdução ao Unreal Engine
         url: /unreal-engine-capitulo-1/introducao-ao-unreal-engine
