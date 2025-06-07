@@ -1,8 +1,9 @@
 ---
 title: Capítulo 1 Introdução aos Blueprints
 layout: single
-permalink: /unreal-engine/unreal-engine-capitulo-1/unreal-engine-capitulo-1-conteudo
-collection: unreal-engine-capitulo-1
+permalink: /unreal-engine/unreal-engine-capitulo-1-conteudo
+collection: unreal-engine
+entries_layout: grid
 order: 0
 sort_by: order
 excerpt: "Descubra os fundamentos dos Blueprints no Unreal Engine, criando lógica de jogo visualmente e acelerando o desenvolvimento."
