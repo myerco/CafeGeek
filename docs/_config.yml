@@ -307,6 +307,10 @@ collections:
     output: true
     sort_by: order
     permalink: /:collection/:path/
+  unreal-engine-capitulo-1:
+    output: true
+    sort_by: order
+    permalink: /:collection/:path/          
   computacao-grafica:
     output: true
     permalink: /:collection/:path/        
