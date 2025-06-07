@@ -1,5 +1,5 @@
 ---
-title: Capítulo 1: Introdução aos Blueprints
+title: Capítulo 1 Introdução aos Blueprints
 layout: single
 permalink: /unreal-engine/unreal-engine-capitulo-1/unreal-engine-capitulo-1-conteudo
 collection: unreal-engine-capitulo-1
@@ -16,6 +16,7 @@ last_modified_at: 2024-03-01T08:48:05-04:00
 toc: true
 sidebar: false
 breadcrumb: Capítulo 1: Introdução aos Blueprints
+nav_title: Capítulo 1: Introdução aos Blueprints
 ---
 
 Neste capítulo, você aprenderá os conceitos básicos de Blueprints, a ferramenta visual de programação do Unreal Engine, ideal para iniciantes e prototipagem rápida.
