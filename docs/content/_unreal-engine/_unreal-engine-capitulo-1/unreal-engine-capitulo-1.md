@@ -1,8 +1,8 @@
 ---
 title: Unreal Engine - Capítulo 1: Introdução aos Blueprints
 layout: single
-permalink: /unreal-engine-capitulo-1
-collection: unreal-engine-capitulo-1
+permalink: /unreal-engine/unreal-engine-capitulo-1
+collection: unreal-engine
 classes: wide
 order: 0
 sort_by: order
