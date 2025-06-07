@@ -295,7 +295,7 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
-  unreal-engine-capitulo-1:
+  unreal-engine:
     output: true
     permalink: /:collection/:path/
   jogatina:
@@ -310,6 +310,10 @@ collections:
     output: true
     sort_by: order
     permalink: /:collection/:path/    
+  unreal-engine-capitulo-1:
+    output: true
+    sort_by: order
+    permalink: /:collection/:path/        
   unreal-engine-capitulo-2:
     output: true
     permalink: /:collection/:path/    
