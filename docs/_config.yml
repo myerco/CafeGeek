@@ -306,7 +306,28 @@ collections:
   unreal-engine:
     output: true
     sort_by: order
+    permalink: /:collection/:path/
+  unreal-engine-capitulo-2:
+    output: true
     permalink: /:collection/:path/    
+  unreal-engine-capitulo-3:
+    output: true
+    permalink: /:collection/:path/
+  unreal-engine-capitulo-4:
+    output: true
+    permalink: /:collection/:path/        
+  unreal-engine-capitulo-5:
+    output: true
+    permalink: /:collection/:path/    
+  unreal-engine-capitulo-6:
+    output: true
+    permalink: /:collection/:path/    
+  unreal-engine-capitulo-7:
+    output: true
+    permalink: /:collection/:path/    
+  unreal-engine-capitulo-8:
+    output: true
+    permalink: /:collection/:path/            
   computacao-grafica:
     output: true
     permalink: /:collection/:path/        
