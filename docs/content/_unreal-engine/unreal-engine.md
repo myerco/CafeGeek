@@ -1,7 +1,6 @@
 ---
 title: Unreal Engine com C++ e Blueprint
 layout: collection
-permalink: /unreal-engine
 collection: unreal-engine
 entries_layout: grid
 classes: wide
