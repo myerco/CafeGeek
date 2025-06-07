@@ -1,5 +1,5 @@
 ---
-title: Unreal Engine - Capítulo 1: Introdução aos Blueprints
+title: Capítulo 1: Introdução aos Blueprints
 layout: single
 permalink: /unreal-engine/unreal-engine-capitulo-1/unreal-engine-capitulo-1-conteudo
 collection: unreal-engine-capitulo-1
