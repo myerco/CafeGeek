@@ -295,9 +295,6 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
-  unreal-engine:
-    output: true
-    permalink: /:collection/:path/
   jogatina:
     output: true
     sort_by: order
@@ -418,7 +415,7 @@ defaults:
 # Unreal Engine - Capítulo 1
   - scope:
       path: "_unreal-engine-capitulo-1"
-      type: unreal-engine-capitulo-1
+      type: unreal-engine-capitulo-111
     values:
       layout: single
       read_time: true      
