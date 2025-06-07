@@ -1,6 +1,6 @@
 ---
 title: Unreal Engine com C++ e Blueprint
-layout: collection
+layout: single
 permalink: /unreal-engine
 collection: unreal-engine
 entries_layout: grid
