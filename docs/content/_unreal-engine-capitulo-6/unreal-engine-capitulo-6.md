@@ -2,7 +2,7 @@
 title: Unreal Engine - Capítulo 6
 layout: collection
 permalink: /unreal-engine-capitulo-6/unreal-engine-capitulo-6
-collection: unreal-engine-capitulo-6
+collection: unreal-engine
 entries_layout: grid
 classes: wide
 order: 0

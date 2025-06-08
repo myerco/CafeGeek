@@ -2,7 +2,7 @@
 title: Unreal Engine - Capítulo 8
 layout: collection
 permalink: /unreal-engine-capitulo-8/unreal-engine-capitulo-8
-collection: unreal-engine-capitulo-8
+collection: unreal-engine
 entries_layout: grid
 classes: wide
 order: 0
