@@ -1,5 +1,5 @@
 ---
-title: Capítulo 1 Introdução aos Blueprints
+title: Capítulo 1 - Introdução aos Blueprints
 layout: single
 permalink: /unreal-engine/unreal-engine-capitulo-1-conteudo
 collection: unreal-engine
@@ -21,7 +21,7 @@ Neste capítulo, você aprenderá os conceitos básicos de Blueprints, a ferrame
 
 ## Conteúdo do Capítulo 1
 
-1. [Introdução ao Unreal Engine](/unreal-engina/unreal-engine-capitulo-1/introducao-ao-unreal-engine)
+1. [Introdução ao Unreal Engine](/unreal-engine/unreal-engine-capitulo-1/introducao-ao-unreal-engine)
 2. [Instalação e Configuração](/unreal-engine-capitulo-1/instalacao-e-configuracao)
 3. [Estrutura de Pastas](/unreal-engine-capitulo-1/estruturas-de-pastas)
 4. [Interface e Editores](/unreal-engine-capitulo-1/interface-e-editores)
