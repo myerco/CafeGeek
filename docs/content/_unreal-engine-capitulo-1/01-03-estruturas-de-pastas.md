@@ -1,7 +1,7 @@
 ---
-title:  Estrutura de pastas 
+title: Estrutura de Pastas
 excerpt: Neste capítulo vamos entender e gerenciar as pastas do projeto.
-permalink: /unreal-engine-capitulo-1/estrutura-de-pastas
+permalink: /unreal-engine/unreal-engine-capitulo-1/estrutura-de-pastas
 date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2023-03-28T08:48:05-04:00
 order: 103
@@ -11,9 +11,9 @@ tags:
   - pastas
 ---
 
-## 1. Entendo as pastas criadas
+## 1. Entendendo as pastas criadas
 
-Após criar o projeto vamos verificar como estão as pastas criadas pela *engine*, utilizando o `explorer` do Windows, navegue até a pasta do projeto para verificar os arquivos criados, devem aparecer as seguintes pastas e arquivos:
+Após criar o projeto, vamos verificar como estão as pastas criadas pela *engine*. Usando o `explorer` do Windows, navegue até a pasta do projeto para conferir os arquivos e pastas gerados:
 
 ```bash
 ├── .vs
@@ -27,11 +27,11 @@ Após criar o projeto vamos verificar como estão as pastas criadas pela *engine
 └── ProjetoAula.uproject
 ```
 
-A seguir vamos entender as pastas do projeto.
+A seguir, vamos entender para que serve cada pasta do projeto.
 
 ### 1.1. Pasta de código C++ - Source
 
-A pasta `Source` contém arquivos com código fonte em **C++** e o arquivo com extensão *uproject* é o principal arquivo do projeto, segue abaixo a configuração inicial.
+A pasta `Source` contém os arquivos com código-fonte em **C++**. O arquivo com extensão `.uproject` é o principal arquivo do projeto. Veja um exemplo de estrutura inicial:
 
 ```bash
 └── Source
@@ -45,11 +45,11 @@ A pasta `Source` contém arquivos com código fonte em **C++** e o arquivo com e
 
 ### 1.2. Pasta principal do projeto - Content
 
-`Content` é a principal pasta, pois nela vão ficar contidos todos os arquivos do jogo, em outras palavras esta pasta é o ponto de montagem do projeto como veremos nos próximos capítulos.
+A pasta `Content` é a principal do projeto, pois nela ficam todos os arquivos do jogo: imagens, sons, Blueprints, mapas, materiais, entre outros. É como a “mochila” do seu projeto, onde você guarda tudo o que será usado no jogo.
 
 ### 1.3. Pastas temporárias que podem ser removidas
 
-As pastas abaixo podem ser removidas pois podemos construir a qualquer momento quando compilar o projeto.
+As pastas abaixo são criadas para auxiliar durante o desenvolvimento e podem ser apagadas sem medo, pois serão recriadas quando você compilar novamente:
 
 ```bash
 ├── Binaries
@@ -60,18 +60,18 @@ As pastas abaixo podem ser removidas pois podemos construir a qualquer momento q
 
 ### 1.4. Nomenclatura de pastas
 
-É recomendado que os arquivos e pastas devam ter um padrão de nomenclatura para melhor organização do projeto, abaixo duas boas recomendações de organização, discutiremos mais nos próximos capítulos.
-
-**[UE5 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin "Gamemakin UE4 Style Guide() { A mostly reasonable approach to Unreal Engine 4"):** Gamemakin UE4 Style Guide() - A mostly reasonable approach to Unreal Engine 4.
+É recomendado adotar um padrão de nomes para arquivos e pastas, facilitando a organização e o trabalho em equipe. Consulte guias como o [UE5 Style Guide](https://github.com/Allar/ue4-style-guide/blob/master/README.md#unreal-engine-4-linter-plugin) para manter tudo padronizado.
 {: .notice--info}
+
+---
 
 ## 2. Organizando as pastas
 
-A seguir vamos organizar as pastas do projeto *ProjetoAula*, construído no **Unreal Engine**, e vamos configurá-lo.
+Organizar as pastas do seu projeto é fundamental para facilitar o trabalho de todos, evitar confusões e tornar o desenvolvimento mais ágil e profissional. Em projetos de jogos, lidamos com muitos tipos de arquivos: código C++, Blueprints, imagens, sons, materiais, mapas, entre outros. Além disso, equipes multidisciplinares (programadores, artistas, músicos, level designers) podem trabalhar juntas no mesmo projeto, então uma estrutura clara faz toda a diferença!
 
 ### 2.1. Como criar pastas de trabalho?
 
-No **Unreal Egnine** em `Content Drawer` utilizando botão direito do mouse clique em `New Folder` para criar pastas.
+No **Unreal Engine**, abra o `Content Drawer`, clique com o botão direito e escolha `New Folder` para criar novas pastas. Assim, você pode separar Blueprints, assets, mapas, sons e muito mais.
 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-content-drawer.webp"
@@ -79,37 +79,28 @@ No **Unreal Egnine** em `Content Drawer` utilizando botão direito do mouse cliq
     caption="Figura: Content Drawer."
 %}
 
-Usado para navegar, criar e realizar buscas nas pastas contidas no diretório de trabalho do projeto.
+**Dica:** Use emojis ou cores nos nomes das pastas dentro do editor para facilitar a identificação visual dos tipos de conteúdo!
+{: .notice--info}
 
-### 2.2. Defina e utilize uma Nomenclatura e organização de pastas
+---
 
-A organização de arquivos e pastas dentro dos projetos de desenvolvimento de softwares é bastante relevante para reduzir o tempo e custo de programação.
+### 2.2. Exemplos e motivos para organizar as pastas
 
-Em projetos de desenvolvimento de jogos, no **Unreal Engine**, temos diversos tipos de arquivos com caraterísticas distintas que influenciam na sua forma de armazenamento, como por exemplo:
+A organização das pastas deve refletir a separação dos diferentes tipos de recursos do projeto. Por exemplo:
 
-- Código **C++**;
+- **Código C++**: Fica na pasta `Source`, separado dos demais recursos.
+- **Blueprints**: Pastas específicas para scripts visuais.
+- **Imagens e Texturas**: Pastas como `Assets/Images` ou `Art/Textures`.
+- **Sons**: Pastas como `Assets/Audio` ou `Art/Audio`.
+- **Materiais**: Pastas como `Assets/Materials` ou `Art/Materials`.
+- **Mapas**: Pastas como `Maps` ou `Levels`.
+- **UI**: Pastas para elementos de interface.
 
-- Lógica de desenvolvimento utilizando Blueprints;
+Isso facilita encontrar rapidamente o que você precisa, evita misturar arquivos de naturezas diferentes e permite que cada membro da equipe trabalhe em sua área sem atrapalhar os outros.
 
-- Arquivos de imagens, como texturas e outros;
+Veja duas sugestões de organização:
 
-- Arquivos de som;
-
-- Arquivos binários em geral.  
-
-Temos também equipes heterogêneas trabalhando no mesmo projeto e até na mesma estrutura de pastas, como por exemplo:
-
-- Programadores;
-
-- Level Design;
-
-- Artistas gráficos;
-
-- Artistas de efeitos de som e músicos.
-
-Por conseguinte para um maior gerenciamento pelas equipes do projeto  podemos definir pastas com nomenclaturas e organização adequadas ao projeto, abaixo vamos relacionar algumas sugestões.
-
-Primeira Sugestão de organização de pastas no Unreal Engine.
+**Sugestão simples:**
 
 ```bash
 └── Content
@@ -127,12 +118,12 @@ Primeira Sugestão de organização de pastas no Unreal Engine.
     └── Animations
 ```
 
-Segunda Sugestão de organização de pastas no Unreal Engine.
+**Sugestão avançada e comentada:**
 
 ```bash
 └── Content
     ├── Projeto                                         # Pasta principal do projeto
-    |   ├── Art
+    |   ├── Art                                         # Imagens, texturas, materiais, sons
     |   |   ├── Industrial
     |   |   |   ├── Ambient
     |   |   |   ├── Machinery
@@ -143,7 +134,7 @@ Segunda Sugestão de organização de pastas no Unreal Engine.
     |   |   |       ├── Rocks
     |   |   |       └── Trees
     |   |   └── Office
-    |   ├── Characters
+    |   ├── Characters                                 # Personagens e suas variações
     |   |   ├── Human
     |   |   |   ├── BP_Human<Child BP_CharacterBase>    # Classe filho
     |   |   |   ├── Mesh
@@ -159,7 +150,7 @@ Segunda Sugestão de organização de pastas no Unreal Engine.
     |   |   |   └── Audio                               # Sons do personagem
     |   |   ├── Steve
     |   |   └── Zoe
-    |   ├── Core
+    |   ├── Core                                       # Lógica central do projeto
     |   |   ├── Characters
     |   |   |   └── BP_CharacterBase                    # Classe principal dos personagens
     |   |   ├── Engine
@@ -174,25 +165,34 @@ Segunda Sugestão de organização de pastas no Unreal Engine.
     |   ├── Maps
     |   |   ├── Level1
     |   |   └── Level2
-    └── ExampleContent                                  # Pacotes de exemplo
+    └── ExampleContent                                  # Pacotes de exemplo, separados da lógica do projeto
         ├── AnimStarterPack                             # Não devem estar no versionamento
-        └── ThirdPerson                                 # Separados da lógica do projeto
+        └── ThirdPerson
 ```
+
+**Por que organizar assim?**
+
+- **Separação por tipo:** Facilita encontrar sons, imagens, Blueprints e código C++ rapidamente.
+- **Pastas de exemplo:** Conteúdo de exemplo, como pacotes do Marketplace ou Starter Content, ficam separados em `ExampleContent` para não misturar com o projeto principal.
+- **DLC, versões e testes:** Você pode criar pastas específicas para DLCs, versões alternativas, testes ou subprojetos, mantendo tudo isolado e organizado.
+- **Biblioteca de materiais:** Ter uma pasta dedicada para materiais facilita o reaproveitamento e compartilhamento entre projetos.
+
+**Dica:** Pastas de conteúdo extra, como DLCs, versões alternativas, testes e biblioteca de materiais, ajudam a manter o projeto limpo e organizado. Assim, você pode experimentar à vontade sem bagunçar o projeto principal!
+{: .notice--info}
 
 **Nota:** A estrutura acima será usada em todos os projetos do curso.
 {: .notice--warning}
 
+---
+
 ### 2.3. Os benefícios na organização das pastas
 
-Separar a pasta do projeto `Content` de outras pastas pode facilitar e trazer vários benefícios durante o desenvolvimento do projeto, abaixo elencamos alguns:
+Separar a pasta do projeto `Content` de outras pastas pode facilitar e trazer vários benefícios durante o desenvolvimento do projeto, como:
 
-**Versionamento** - Pastas com diferentes versões;
-
-**Isolar pacotes** - Testes e *Marketplace*;
-
-**DLC ou subprojetos** - Podemos administrar separadamente projetos relacionados;
-
-**Biblioteca de Materiais** - Podemos migrar pasta de materiais e compartilhar materiais sem muitos problemas definindo um pasta de nível superior.
+- **Versionamento:** Permite manter diferentes versões do projeto organizadas.
+- **Isolamento de pacotes:** Facilita testes e uso de recursos do *Marketplace* sem misturar com o projeto principal.
+- **DLC ou subprojetos:** Possibilita administrar projetos relacionados de forma independente.
+- **Biblioteca de Materiais:** Permite migrar e compartilhar materiais facilmente, usando uma pasta de nível superior.
 
 Exemplo:
 
@@ -207,19 +207,21 @@ Exemplo:
         └── M_Master
 ```
 
+**Dica:** Sempre que baixar assets do Marketplace, coloque-os em pastas separadas. Assim, fica fácil atualizar, remover ou até mesmo compartilhar com outros projetos!
+{: .notice--info}
+
+---
+
 ## 3. Configurando o projeto
 
-Preparar o projeto antes de começar o desenvolvimento é importante para que possamos otimizar algumas tarefas e preparar o jogo com a configuração inicial, neste passo vamos configurar alguns parâmetros do projeto.
-
-Nos próximos capítulos vamos utilizar outras opções do menu de configuração como por exemplo o mapeamento de *Input* (teclas ou controles).
+Preparar o projeto antes de começar o desenvolvimento é importante para otimizar tarefas e garantir uma configuração inicial adequada. Nos próximos capítulos, vamos explorar outras opções do menu de configuração, como o mapeamento de *Input* (teclas ou controles).
 
 ### 3.1. Adicionando um *Level* na inicialização do projeto
 
-Para que um *level* ou mapa seja carregado ao iniciar o projeto siga os seguintes passos:  
+Para que um *level* ou mapa seja carregado ao iniciar o projeto, siga os passos:
 
-Salve o *level* atual na pasta `Maps` :  `File` > `Save Current Level As` com o nome `LevelTest`;
-
-Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o menu : `Edit` > `Project Settings` e depois `Maps & Modes`;
+- Salve o *level* atual na pasta `Maps`: `File` > `Save Current Level As` com o nome `LevelTest`;
+- Para configurar a inicialização do projeto usando o `LevelTest`, acesse: `Edit` > `Project Settings` > `Maps & Modes`;
 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-maps-modes.webp"
@@ -227,13 +229,12 @@ Para configurar a inicialização do projeto utilizando o `LevelTest` utilize o 
     caption="Figura: Project Settings > Maps & Modes."
 %}
 
-`Edit Startup Level` - Seleciona o *Level* que deverá ser carregado no início do jogo, neste caso é `LevelTest`;
-
-`Game default Map` - Seleciona o *Level* que é mais usado.
+- `Edit Startup Level`: Seleciona o *Level* que será carregado no início do jogo, neste caso `LevelTest`;
+- `Game Default Map`: Seleciona o *Level* mais usado.
 
 ### 3.2. Configurando as imagens de apresentação do projeto
 
-Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apresentação (*splash*) utilizamos o menu : `Project Settings` opção `Plataforms` > `Windows` e altere a imagem.
+Para alterar as imagens de apresentação do projeto, como ícone ou tela de apresentação (*splash*), utilize o menu: `Project Settings` > `Platforms` > `Windows` e altere a imagem.
 
 {% include imagelocal.html
     src="unreal/projeto/unreal-engine-project-icon.webp"
@@ -243,5 +244,27 @@ Para alterar as imagens de apresentação do projeto, seja ícone ou tela de apr
 
 Podemos alterar o ícone do projeto e a imagem de inicialização do jogo.
 
-**Nota:** Certifique-se de produzir o ícone como um arquivo .ico (que não é PNG, mas pode ser convertido usando ferramentas online, por exemplo) e 256x256.
+**Nota:** Certifique-se de produzir o ícone como um arquivo `.ico` (não PNG), preferencialmente 256x256 pixels. Ferramentas online podem ajudar na conversão.
 {: .notice--warning}
+
+---
+
+## 4. Dicas para sua jornada
+
+- Crie uma pasta `README.md` dentro de `Content` para documentar a estrutura do seu projeto.
+- Use nomes claros e evite espaços ou acentos nos nomes das pastas.
+- Separe conteúdo experimental ou de protótipo em pastas próprias.
+- Compartilhe sua organização com a equipe e mantenha todos alinhados!
+
+---
+
+## 5. Próximos passos sugeridos
+
+- Como navegar e usar o Content Browser do Unreal Engine.
+- Dicas para versionamento de projetos (Git/SVN).
+- Como importar assets e organizar recursos gratuitos.
+- Boas práticas para equipes trabalhando no mesmo projeto.
+
+---
+
+**Organização é o segredo para criar jogos incríveis e se divertir no processo! Bora deixar tudo em ordem e partir para a próxima aventura? 🚀**
