@@ -34,117 +34,117 @@ dev_unreal_1:
     url: /unreal-engine/unreal-engine-capitulo-1
     children:    
       - title: Introdução ao Unreal Engine
-        url: /unreal-engine-capitulo-1/introducao-ao-unreal-engine
+        url: /unreal-engine/unreal-engine-capitulo-1/introducao-ao-unreal-engine
       - title: Instalação e Configuração
-        url: /unreal-engine-capitulo-1/instalacao-e-configuracao
+        url: /unreal-engine/unreal-engine-capitulo-1/instalacao-e-configuracao
       - title: Estrutura de pastas
-        url: /unreal-engine-capitulo-1/estrutura-de-pastas
+        url: /unreal-engine/unreal-engine-capitulo-1/estrutura-de-pastas
       - title: Interface e Editores
-        url:  /unreal-engine-capitulo-1/interface-e-editores
+        url:  /unreal-engine/unreal-engine-capitulo-1/interface-e-editores
       - title: Criando seu primeiro Blueprint
-        url: /unreal-engine-capitulo-1/criando-seu-primeiro-blueprint
+        url: /unreal-engine/unreal-engine-capitulo-1/criando-seu-primeiro-blueprint
       - title: Trabalhando com variáveis
-        url: /unreal-engine-capitulo-1/trabalhando-com-variaveis        
+        url: /unreal-engine/unreal-engine-capitulo-1/trabalhando-com-variaveis        
       - title: Atores e seus componentes
-        url: /unreal-engine-capitulo-1/atores-e-seus-componentes
+        url: /unreal-engine/unreal-engine-capitulo-1/atores-e-seus-componentes
       - title: Actor, Pawn e Character 
-        url: /unreal-engine-capitulo-1/actor-pawn-e-character               
+        url: /unreal-engine/unreal-engine-capitulo-1/actor-pawn-e-character               
       - title: Herança
-        url: /unreal-engine-capitulo-1/heran-a-de-objetos        
+        url: /unreal-engine/unreal-engine-capitulo-1/heran-a-de-objetos        
       - title: Colisão
-        url: /unreal-engine-capitulo-1/colis-o-entra-objetos
+        url: /unreal-engine/unreal-engine-capitulo-1/colis-o-entra-objetos
       - title: Estruturas de controle
-        url: /unreal-engine-capitulo-1/estruturas-de-controle
+        url: /unreal-engine/unreal-engine-capitulo-1/estruturas-de-controle
       - title: Estruturas de repetição
-        url: /unreal-engine-capitulo-1/estruturas-de-repeticao
+        url: /unreal-engine/unreal-engine-capitulo-1/estruturas-de-repeticao
       - title: Eventos, funções e macros
-        url: /unreal-engine-capitulo-1/eventos-funcoes-e-macros
+        url: /unreal-engine/unreal-engine-capitulo-1/eventos-funcoes-e-macros
       - title: Comunicação entre Blueprints
-        url: /unreal-engine-capitulo-1/comunicacao-entre-blueprints
+        url: /unreal-engine/unreal-engine-capitulo-1/comunicacao-entre-blueprints
       - title: Game Instance, State e Mode
-        url: /unreal-engine-capitulo-1/game-instance-game-state-e-game-mode       
+        url: /unreal-engine/unreal-engine-capitulo-1/game-instance-game-state-e-game-mode       
 
 
 dev_unreal_2:        
   - title: "Capítulo 2 - ESTRUTURAS DE ARMAZENAMENTO"
-    url: /unreal-engine-capitulo-2/unreal-engine-capitulo-2
+    url: /unreal-engine/unreal-engine-capitulo-2/unreal-engine-capitulo-2
     children:    
       - title: Arrays
-        url: /unreal-engine-capitulo-2/vari-veis-arrays
+        url: /unreal-engine/unreal-engine-capitulo-2/vari-veis-arrays
       - title: Enums
-        url: /unreal-engine-capitulo-2/objetos-enums
+        url: /unreal-engine/unreal-engine-capitulo-2/objetos-enums
       - title: Usando Structs
-        url: /unreal-engine-capitulo-2/usando-structs
+        url: /unreal-engine/unreal-engine-capitulo-2/usando-structs
       - title: Data Tables
-        url: /unreal-engine-capitulo-2/data-tables
+        url: /unreal-engine/unreal-engine-capitulo-2/data-tables
 
 dev_unreal_3:        
   - title: "Capítulo 3 - INTERFACE COM O JOGADOR"
-    url: /unreal-engine-capitulo-3/unreal-engine-capitulo-3  
+    url: /unreal-engine/unreal-engine-capitulo-3/unreal-engine-capitulo-3  
     children:
       - title: UI - User Interface
-        url: /unreal-engine-capitulo-3/user-interface
+        url: /unreal-engine/unreal-engine-capitulo-3/user-interface
       - title: Objetos da interface
-        url: /unreal-engine-capitulo-3/objetos-da-interface
+        url: /unreal-engine/unreal-engine-capitulo-3/objetos-da-interface
 
 dev_unreal_4:        
   - title: Capítulo 4 - MATERIAIS E LANDSCAPE
-    url: /unreal-engine-capitulo-4/unreal-engine-capitulo-4  
+    url: /unreal-engine/unreal-engine-capitulo-4/unreal-engine-capitulo-4  
     children:    
       - title: Introdução aos Materiais
-        url: /unreal-engine-capitulo-4/introducao-aos-materiais
+        url: /unreal-engine/unreal-engine-capitulo-4/introducao-aos-materiais
       - title: Manipulando materiais
-        url: /unreal-engine-capitulo-4/manipulando-materiais
+        url: /unreal-engine/unreal-engine-capitulo-4/manipulando-materiais
       - title: Iluminação
-        url: /unreal-engine-capitulo-4/iluminacao
+        url: /unreal-engine/unreal-engine-capitulo-4/iluminacao
 
 dev_unreal_5:        
   - title: "Capítulo 5 - MOVIMENTAÇÃO"
-    url: /unreal-engine-capitulo-5/unreal-engine-capitulo-5
+    url: /unreal-engine/unreal-engine-capitulo-5/unreal-engine-capitulo-5
     children:
       - title: Lógica de Movimentação
-        url: /unreal-engine-capitulo-5/logica-de-movimentacao
+        url: /unreal-engine/unreal-engine-capitulo-5/logica-de-movimentacao
       - title: Delta time e sistema de coordenadas
-        url: /unreal-engine-capitulo-5/delta-time-e-sistema-de-coordenadas      
+        url: /unreal-engine/unreal-engine-capitulo-5/delta-time-e-sistema-de-coordenadas      
       - title: Animação de personagens
-        url: /unreal-engine-capitulo-5/animacao-de-personagens
+        url: /unreal-engine/unreal-engine-capitulo-5/animacao-de-personagens
       - title: Lógica de animação
-        url: /unreal-engine-capitulo-5/logica-de-animacao
+        url: /unreal-engine/unreal-engine-capitulo-5/logica-de-animacao
       - title: Trabalhando com animação 2D
-        url: /unreal-engine-capitulo-5/trabalhando-com-animacao-2d      
+        url: /unreal-engine/unreal-engine-capitulo-5/trabalhando-com-animacao-2d      
 
 dev_unreal_6:        
   - title: "Capítulo 6 - INTELIGÊNCIA ARTIFICIAL"
-    url: /unreal-engine-capitulo-6/unreal-engine-capitulo-6
+    url: /unreal-engine/unreal-engine-capitulo-6/unreal-engine-capitulo-6
     children:
       - title: Inteligência Artificial
-        url: /unreal-engine-capitulo-6/inteligencia-artificial
+        url: /unreal-engine/unreal-engine-capitulo-6/inteligencia-artificial
       - title: Behaivor Tree
-        url: /unreal-engine-capitulo-6/behaivor-tree
+        url: /unreal-engine/unreal-engine-capitulo-6/behaivor-tree
 
 dev_unreal_7:        
   - title: "Capítulo 7 - MULTIPLAYER"
-    url: /unreal-engine-capitulo-7/unreal-engine-capitulo-7
+    url: /unreal-engine/unreal-engine-capitulo-7/unreal-engine-capitulo-7
     children:
       - title: Multiplayer
-        url: /unreal-engine-capitulo-7/multiplayer
+        url: /unreal-engine/unreal-engine-capitulo-7/multiplayer
 
 dev_unreal_8:        
   - title: "Capítulo 8 - C++"
-    url: /unreal-engine-capitulo-8/unreal-engine-capitulo-8
+    url: /unreal-engine/unreal-engine-capitulo-8/unreal-engine-capitulo-8
     children:
       - title: Controle de versão
-        url: /unreal-engine-capitulo-8/controle-de-versao
+        url: /unreal-engine/unreal-engine-capitulo-8/controle-de-versao
       - title: Estruturas de Arquivos
-        url:  /unreal-engine-capitulo-8/estruturas-de-arquivos
+        url:  /unreal-engine/unreal-engine-capitulo-8/estruturas-de-arquivos
       - title: Funções e Macros
-        url:  /unreal-engine-capitulo-8/funcoes-e-macros
+        url:  /unreal-engine/unreal-engine-capitulo-8/funcoes-e-macros
       - title: Variáveis e Ponteiros
-        url:  /unreal-engine-capitulo-8/variaveis-e-ponteiros
+        url:  /unreal-engine/unreal-engine-capitulo-8/variaveis-e-ponteiros
       - title: Classes
-        url:  /unreal-engine-capitulo-8/classes-de-objetos-na-linguagem-c
+        url:  /unreal-engine/unreal-engine-capitulo-8/classes-de-objetos-na-linguagem-c
       - title: Unreal Engine e C++
-        url: /unreal-engine-capitulo-8/programacao-c-no-unreal-engine
+        url: /unreal-engine/unreal-engine-capitulo-8/programacao-c-no-unreal-engine
 
 
 dev_computacao:
@@ -209,5 +209,5 @@ banco_dados:
   - title: MODELO
     children:
       - title: A taberna do Pônei Saltitante
-        url: /a-taberna-do-ponei-saltitante/a-taberna-do-ponei-saltitante   
+        url: /a-taberna-do-ponei-saltitante/a-taberna-do-ponei-saltitante
 
