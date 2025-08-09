@@ -310,7 +310,7 @@ collections:
   capitulo-1-introducao-aos-blueprints:
     output: true
     sort_by: order
-    permalink: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/:path/    
+    permalink: /capitulo-1-introducao-aos-blueprints/:path/    
   computacao-grafica:
     output: true
     permalink: /:collection/:path/        
