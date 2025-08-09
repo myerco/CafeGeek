@@ -3,6 +3,7 @@ title: Unreal Engine com C++ e Blueprint
 layout: single
 permalink: /unreal-engine-com-c-e-blueprint
 collection: unreal-engine-com-c-e-blueprint
+curso: unreal-engine-com-c-e-blueprint
 entries_layout: grid
 classes: wide
 order: 1
