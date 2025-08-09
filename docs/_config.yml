@@ -389,7 +389,7 @@ defaults:
         nav: dev_me_conta        
 # Unreal Engine - Capítulo 1
   - scope:
-      path: "__capitulo-1-introducao-aos-blueprints"
+      path: "_capitulo-1-introducao-aos-blueprints"
       type: capitulo-1-introducao-aos-blueprints
     values:
       layout: single
