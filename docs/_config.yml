@@ -303,7 +303,7 @@ collections:
     output: true
     sort_by: order
     permalink: /:collection/:path/
-  unreal-engine:
+  unreal-engine-com-c-e-blueprint:
     output: true
     sort_by: order
     permalink: /:collection/:path/
@@ -389,8 +389,8 @@ defaults:
         nav: dev_me_conta        
 # Unreal Engine - Capítulo 1
   - scope:
-      path: "_unreal-engine-capitulo-1"
-      type: unreal-engine-capitulo-1
+      path: "__capitulo-1-introducao-aos-blueprints"
+      type: capitulo-1-introducao-aos-blueprints
     values:
       layout: single
       read_time: true      

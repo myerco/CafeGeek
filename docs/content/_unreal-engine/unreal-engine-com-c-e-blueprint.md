@@ -1,8 +1,8 @@
 ---
 title: Unreal Engine com C++ e Blueprint
 layout: single
-permalink: /unreal-engine
-collection: unreal-engine
+permalink: /unreal-engine-com-c-e-blueprint
+collection: unreal-engine-com-c-e-blueprint
 entries_layout: grid
 classes: wide
 order: 1
@@ -22,7 +22,7 @@ Bem-vindo ao curso de Unreal Engine! Aqui você aprenderá desde os conceitos b�
 
 ## Conteúdo do curso
 
-1. [Capítulo 1 - Introdução aos Blueprints](/unreal-engine/unreal-engine-capitulo-1-conteudo)
+1. [Capítulo 1 - Introdução aos Blueprints](/unreal-engine-com-c-e-blueprint/unreal-engine-capitulo-1-conteudo)
 2. [Capítulo 2 - Estruturas de armazenamento](/unreal-engine-capitulo-2/unreal-engine-capitulo-2)
 3. [Capítulo 3 - Interface com o jogador](/unreal-engine-capitulo-3/unreal-engine-capitulo-3)
 4. [Capítulo 4 - Materiais e landscape](/unreal-engine-capitulo-4/unreal-engine-capitulo-4)
