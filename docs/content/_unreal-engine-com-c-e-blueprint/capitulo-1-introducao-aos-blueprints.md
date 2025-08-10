@@ -3,9 +3,7 @@ title: Capítulo 1 - Introdução aos Blueprints
 layout: single
 permalink: /unreal-engine-com-c-e-blueprint/:title
 collection: unreal-engine-com-c-e-blueprint
-categories: 
-  - "unreal-engine-com-c-e-blueprint"
-  - "capitulo-1-introducao-aos-blueprints"
+capitulo: capitulo-1-introducao-aos-blueprints
 entries_layout: grid
 order: 0
 sort_by: order
@@ -25,7 +23,7 @@ Neste capítulo, você aprenderá os conceitos básicos de Blueprints, a ferrame
 ## Conteúdo do Capítulo 1
 
 1. [Introdução ao Unreal Engine](/unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/introducao-ao-unreal-engine)
-2. [Instalação e Configuração](/{{ page.collection }}/{{ page.categories }}/instalacao-e-configuracao)
+2. [Instalação e Configuração](/{{ page.collection }}/{{ page.capitulo }}/instalacao-e-configuracao)
 3. [Estrutura de Pastas](/unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/estruturas-de-pastas)
 4. [Interface e Editores](/unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/interface-e-editores)
 5. [Criando seu Primeiro Blueprint](/unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/criando-seu-primeiro-blueprint)
