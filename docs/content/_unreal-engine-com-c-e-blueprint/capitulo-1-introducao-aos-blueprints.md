@@ -1,7 +1,7 @@
 ---
 title: Capítulo 1 - Introdução aos Blueprints
 layout: single
-permalink: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints
+permalink: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/
 collection: capitulo-1-introducao-aos-blueprints
 curso : capitulo-1-introducao-aos-blueprints
 entries_layout: grid

@@ -1,7 +1,7 @@
 ---
 title: Introdução ao Unreal Engine
 excerpt: Conhecendo um pouco do desenvolvimento de jogos.
-permalink: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/introducao-ao-unreal-engine
+permalink: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/:title
 curso: "unreal-engine-com-c-e-blueprint"
 capitulo: "capitulo-1-introducao-aos-blueprints"
 parent: Capítulo 1 - Introdução aos Blueprints
