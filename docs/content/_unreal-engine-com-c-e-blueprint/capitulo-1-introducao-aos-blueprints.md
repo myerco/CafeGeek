@@ -3,6 +3,7 @@ title: Capítulo 1 - Introdução aos Blueprints
 layout: single
 permalink: /unreal-engine-com-c-e-blueprint/:title
 collection: unreal-engine-com-c-e-blueprint
+parent: Unreal Engine com C++ e Blueprint
 curso : capitulo-1-introducao-aos-blueprints
 entries_layout: grid
 order: 0
