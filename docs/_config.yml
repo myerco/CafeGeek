@@ -307,10 +307,6 @@ collections:
     output: true
     sort_by: order
     permalink: /:collection/:path/
-  capitulo-1-introducao-aos-blueprints:
-    output: true
-    sort_by: order
-    permalink: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/:path/    
   computacao-grafica:
     output: true
     permalink: /:collection/:path/        
@@ -392,20 +388,6 @@ defaults:
       sidebar:
         nav: dev_me_conta        
 # Unreal Engine - Capítulo 1
-  - scope:
-      path: "_capitulo-1-introducao-aos-blueprints"
-      type: capitulo-1-introducao-aos-blueprints
-    values:
-      layout: single
-      read_time: true      
-      author_profile: false
-      share: true 
-      show_date: true
-      toc: true   
-      sort_by: order            
-      category: "Desenvolvimento de jogos digitais"
-      sidebar:
-        nav: dev_unreal_1
 # Unreal Engine 
   - scope:
       path: "_unreal-engine-com-c-e-blueprint"
