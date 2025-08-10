@@ -4,7 +4,6 @@ excerpt: Conhecendo um pouco do desenvolvimento de jogos.
 permalink: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/:title
 curso: "unreal-engine-com-c-e-blueprint"
 capitulo: "capitulo-1-introducao-aos-blueprints"
-parent: Capítulo 1 - Introdução aos Blueprints
 date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2023-03-28T08:48:05-04:00
 order: 101
