@@ -31,10 +31,9 @@ dev_game:
 
 dev_unreal_1:
   - title: "Capítulo 1 - Blueprints"
-    url: /unreal-engine/unreal-engine-capitulo-1
     children:    
       - title: Introdução ao Unreal Engine
-        url: /unreal-engine/unreal-engine-capitulo-1/introducao-ao-unreal-engine
+        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/introducao-ao-unreal-engine
       - title: Instalação e Configuração
         url: /unreal-engine/unreal-engine-capitulo-1/instalacao-e-configuracao
       - title: Estrutura de pastas
@@ -63,9 +62,6 @@ dev_unreal_1:
         url: /unreal-engine/unreal-engine-capitulo-1/comunicacao-entre-blueprints
       - title: Game Instance, State e Mode
         url: /unreal-engine/unreal-engine-capitulo-1/game-instance-game-state-e-game-mode       
-
-
-dev_unreal_2:        
   - title: "Capítulo 2 - ESTRUTURAS DE ARMAZENAMENTO"
     url: /unreal-engine/unreal-engine-capitulo-2/unreal-engine-capitulo-2
     children:    
@@ -77,8 +73,6 @@ dev_unreal_2:
         url: /unreal-engine/unreal-engine-capitulo-2/usando-structs
       - title: Data Tables
         url: /unreal-engine/unreal-engine-capitulo-2/data-tables
-
-dev_unreal_3:        
   - title: "Capítulo 3 - INTERFACE COM O JOGADOR"
     url: /unreal-engine/unreal-engine-capitulo-3/unreal-engine-capitulo-3  
     children:
@@ -86,8 +80,6 @@ dev_unreal_3:
         url: /unreal-engine/unreal-engine-capitulo-3/user-interface
       - title: Objetos da interface
         url: /unreal-engine/unreal-engine-capitulo-3/objetos-da-interface
-
-dev_unreal_4:        
   - title: Capítulo 4 - MATERIAIS E LANDSCAPE
     url: /unreal-engine/unreal-engine-capitulo-4/unreal-engine-capitulo-4  
     children:    
@@ -97,8 +89,6 @@ dev_unreal_4:
         url: /unreal-engine/unreal-engine-capitulo-4/manipulando-materiais
       - title: Iluminação
         url: /unreal-engine/unreal-engine-capitulo-4/iluminacao
-
-dev_unreal_5:        
   - title: "Capítulo 5 - MOVIMENTAÇÃO"
     url: /unreal-engine/unreal-engine-capitulo-5/unreal-engine-capitulo-5
     children:
@@ -112,8 +102,6 @@ dev_unreal_5:
         url: /unreal-engine/unreal-engine-capitulo-5/logica-de-animacao
       - title: Trabalhando com animação 2D
         url: /unreal-engine/unreal-engine-capitulo-5/trabalhando-com-animacao-2d      
-
-dev_unreal_6:        
   - title: "Capítulo 6 - INTELIGÊNCIA ARTIFICIAL"
     url: /unreal-engine/unreal-engine-capitulo-6/unreal-engine-capitulo-6
     children:
@@ -121,15 +109,11 @@ dev_unreal_6:
         url: /unreal-engine/unreal-engine-capitulo-6/inteligencia-artificial
       - title: Behaivor Tree
         url: /unreal-engine/unreal-engine-capitulo-6/behaivor-tree
-
-dev_unreal_7:        
   - title: "Capítulo 7 - MULTIPLAYER"
     url: /unreal-engine/unreal-engine-capitulo-7/unreal-engine-capitulo-7
     children:
       - title: Multiplayer
         url: /unreal-engine/unreal-engine-capitulo-7/multiplayer
-
-dev_unreal_8:        
   - title: "Capítulo 8 - C++"
     url: /unreal-engine/unreal-engine-capitulo-8/unreal-engine-capitulo-8
     children:
