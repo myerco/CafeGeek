@@ -17,8 +17,8 @@ show_date: true
 last_modified_at: 2024-03-01T08:48:05-04:00
 toc: false
 sidebar: true
-sidebar:
-  nav: dev_unreal_1
+##sidebar:
+##  nav: dev_unreal_1
 ---
 
 Bem-vindo ao curso de Unreal Engine! Aqui você aprenderá desde os conceitos básicos de Blueprints até o desenvolvimento avançado com C++. Explore cada capítulo para aprofundar seus conhecimentos e desenvolver projetos completos.

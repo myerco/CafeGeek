@@ -8,8 +8,8 @@ permalink: /:categories/:title
 date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2023-03-28T08:48:05-04:00
 order: 101
-sidebar:
-  nav: dev_unreal_1
+##sidebar:
+##  nav: dev_unreal_1
 tags:
   - Curso
   - Desenvolvimento de Jogos
@@ -28,13 +28,6 @@ Um jogo digital é um produto de software e, como muitos projetos de desenvolvim
 - Computação gráfica
 - Elementos de construção de narrativas
 - Efeitos sonoros
-
-{% include imagelocal.html
-    src="unreal/notebook.webp"
-    alt="Figura: Notebooks"
-%}
-
-Se você é como a maioria das pessoas, provavelmente joga videogame. Não importa se você é um jogador competitivo de e-sports em busca de prêmios, ou se prefere jogos casuais como Spider ou Candy Crush, todo mundo joga. Mas você já pensou em criar jogos como profissão? [REF](https://medium.com/swlh/so-you-want-to-be-a-game-developer-e3b7f9f4ac70)
 
 ## 1. Programação de computadores
 

@@ -387,7 +387,6 @@ defaults:
       toc: true
       sidebar:
         nav: dev_me_conta        
-# Unreal Engine - Capítulo 1
 # Unreal Engine 
   - scope:
       path: "_unreal-engine-com-c-e-blueprint"
@@ -399,6 +398,8 @@ defaults:
       share: true 
       show_date: true
       toc: true      
+      sidebar:
+        nav: dev_unreal_1      
 # Computação Gráfica
   - scope:
       path: "_computacao-grafica"
