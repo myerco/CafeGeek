@@ -27,3 +27,7 @@ Neste capítulo, vamos explorar juntos as principais formas de armazenar, organi
 2. [Usando Structs](/{{ page.collection }}/{{ page.capitulo }}/usando-structs)
 3. [Objetos Enums](/{{ page.collection }}/{{ page.capitulo }}/objetos-enums)
 4. [Data Tables](/{{ page.collection }}/{{ page.capitulo }}/data-tables)
+
+{% if page.sidebar.title %}
+  { page.sidebar.title}
+{% endif %}
