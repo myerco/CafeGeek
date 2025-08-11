@@ -398,6 +398,7 @@ defaults:
       share: true 
       show_date: true
       toc: true      
+      sort_by: order
       sidebar:
         nav: dev_unreal_1      
 # Computação Gráfica

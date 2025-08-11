@@ -12,7 +12,7 @@ excerpt: "Curso completo de Unreal Engine: aprenda estruturas de desenvolvimento
 ##header:
 ##  overlay_color: "#031530"
 ##date: 2024-03-01T08:48:05-04:00
-##show_date: true
+show_date: true
 ##last_modified_at: 2024-03-01T08:48:05-04:00
 ##toc: false
 ##sidebar: true
