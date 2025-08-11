@@ -1,7 +1,10 @@
 ---
 title: Variáveis e Ponteiros
 excerpt: Armazenamento em memória usando variáveis e Ponteiros em linguagem C++
-permalink: /unreal-engine-capitulo-8/variaveis-e-ponteiros
+categories: 
+  - "unreal-engine-com-c-e-blueprint"
+  - "capitulo-8-c"
+permalink: /:categories/:title
 last_modified_at: 2023-03-27T08:48:05-04:00
 order: 804
 tags:

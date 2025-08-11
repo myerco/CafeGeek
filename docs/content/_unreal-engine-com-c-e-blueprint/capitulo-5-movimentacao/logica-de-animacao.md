@@ -1,7 +1,11 @@
 ---
 title: Lógica de animação
 excerpt: Em este capítulo iremos implementar várias animações utilizando um eixo de movimentação utilizando o elemento e editor Blend space 1D e Blend space.
-permalink: /unreal-engine-capitulo-5/logica-de-animacao
+categories: 
+  - "unreal-engine-com-c-e-blueprint"
+  - "capitulo-5-movimentacao"
+permalink: /:categories/:title
+
 date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2023-03-28T08:48:05-04:00
 order: 504

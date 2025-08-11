@@ -1,7 +1,10 @@
 ---
 title: Manipulando materiais
 excerpt: Neste capítulo iremos manipular os materiais com lógica de script Blueprint e construir funções para utilizar dentro dos materiais.
-permalink: /unreal-engine-capitulo-4/manipulando-materiais
+categories: 
+  - "unreal-engine-com-c-e-blueprint"
+  - "capitulo-4-materiais-e-landscape"
+permalink: /:categories/:title
 date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2023-03-28T08:48:05-04:00
 order: 402

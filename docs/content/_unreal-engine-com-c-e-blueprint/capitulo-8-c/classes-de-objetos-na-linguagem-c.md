@@ -1,7 +1,10 @@
 ---
 title: Classes de Objetos na linguagem C++
 excerpt: Classes de Objetos na linguagem C++
-permalink: /unreal-engine-capitulo-8/classes-de-objetos-na-linguagem-c
+categories: 
+  - "unreal-engine-com-c-e-blueprint"
+  - "capitulo-8-c"
+permalink: /:categories/:title
 last_modified_at: 2023-03-27T08:48:05-04:00
 order: 805
 tags:

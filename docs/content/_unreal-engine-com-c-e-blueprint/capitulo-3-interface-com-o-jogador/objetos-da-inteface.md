@@ -1,7 +1,10 @@
 ---
 title: Objetos da interface
 excerpt: Neste capítulo vamos apresentar a lógica de programação os objetos do HUD.
-permalink: /unreal-engine-capitulo-3/objetos-da-interface
+categories: 
+  - "unreal-engine-com-c-e-blueprint"
+  - "capitulo-3-interface-com-o-jogador"
+permalink: /:categories/:title
 date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2023-03-28T08:48:05-04:00
 order: 302

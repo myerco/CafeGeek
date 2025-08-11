@@ -1,7 +1,11 @@
 ---
 title: Funções e Macros
 excerpt: Funções e Macros com C++
-permalink: /unreal-engine-capitulo-8/funcoes-e-macros
+categories: 
+  - "unreal-engine-com-c-e-blueprint"
+  - "capitulo-8-c"
+permalink: /:categories/:title
+
 last_modified_at: 2023-03-27T08:48:05-04:00
 order: 803
 tags:

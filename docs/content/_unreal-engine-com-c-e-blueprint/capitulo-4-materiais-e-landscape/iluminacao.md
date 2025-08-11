@@ -1,7 +1,10 @@
 ---
 title: Iluminação
 excerpt: Neste capítulo vamos implementar a Iluminação do jogo.
-permalink: /unreal-engine-capitulo-4/iluminacao
+categories: 
+  - "unreal-engine-com-c-e-blueprint"
+  - "capitulo-4-materiais-e-landscape"
+permalink: /:categories/:title
 date: 2024-03-01T08:48:05-04:00
 last_modified_at: 2023-03-28T08:48:05-04:00
 order: 403
