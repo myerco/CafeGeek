@@ -9,13 +9,13 @@ order: 0
 ## sort_by: order
 ##read_time: true
 excerpt: "Curso completo de Unreal Engine: aprenda estruturas de desenvolvimento, lógica de programação, Blueprints e C++."
-header:
-  overlay_color: "#031530"
-date: 2024-03-01T08:48:05-04:00
+##header:
+##  overlay_color: "#031530"
+##date: 2024-03-01T08:48:05-04:00
 ##show_date: true
 ##last_modified_at: 2024-03-01T08:48:05-04:00
-toc: false
-sidebar: true
+##toc: false
+##sidebar: true
 ##sidebar:
 ##  nav: dev_unreal_1
 ---
