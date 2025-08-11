@@ -2,7 +2,7 @@
 title: Unreal Engine - Capítulo 4
 layout: collection
 permalink: /unreal-engine-capitulo-4/unreal-engine-capitulo-4
-collection: unreal-engine
+collection: unreal-engine-com-c-e-blueprint
 entries_layout: grid
 classes: wide
 order: 0

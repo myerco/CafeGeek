@@ -2,7 +2,7 @@
 title: Unreal Engine - Capítulo 3
 layout: collection
 permalink: /unreal-engine-capitulo-3/unreal-engine-capitulo-3
-collection: unreal-engine
+collection: unreal-engine-com-c-e-blueprint
 entries_layout: grid
 classes: wide
 order: 0

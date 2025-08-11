@@ -2,7 +2,7 @@
 title: Unreal Engine - Capítulo 5
 layout: collection
 permalink: /unreal-engine-capitulo-5/unreal-engine-capitulo-5
-collection: unreal-engine
+collection: unreal-engine-com-c-e-blueprint
 entries_layout: grid
 classes: wide
 order: 0
