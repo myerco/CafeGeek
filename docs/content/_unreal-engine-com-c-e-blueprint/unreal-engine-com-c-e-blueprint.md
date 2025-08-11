@@ -4,7 +4,7 @@ layout: single
 permalink: /:title
 collection: unreal-engine-com-c-e-blueprint
 curso: unreal-engine-com-c-e-blueprint
-entries_layout: grid
+entries_layout: single
 classes: wide
 order: 1
 sort_by: order
@@ -16,20 +16,10 @@ date: 2024-03-01T08:48:05-04:00
 show_date: true
 last_modified_at: 2024-03-01T08:48:05-04:00
 toc: false
-sidebar: false
+sidebar: true
 sidebar:
   nav: dev_unreal_1
 ---
 
 Bem-vindo ao curso de Unreal Engine! Aqui você aprenderá desde os conceitos básicos de Blueprints até o desenvolvimento avançado com C++. Explore cada capítulo para aprofundar seus conhecimentos e desenvolver projetos completos.
 
-## Conteúdo do curso
-
-1. [Capítulo 1 - Introdução aos Blueprints](/{{ page.collection }}/capitulo-1-introducao-aos-blueprints)
-2. [Capítulo 2 - Estruturas de armazenamento](/{{ page.collection }}/capitulo-2-estruturas-de-armazenamento)
-3. [Capítulo 3 - Interface com o jogador](/unreal-engine-capitulo-3/unreal-engine-capitulo-3)
-4. [Capítulo 4 - Materiais e landscape](/unreal-engine-capitulo-4/unreal-engine-capitulo-4)
-5. [Capítulo 5 - Movimentação](/unreal-engine-capitulo-5/unreal-engine-capitulo-5)
-6. [Capítulo 6 - Inteligência artificial](/unreal-engine-capitulo-6/unreal-engine-capitulo-6)
-7. [Capítulo 7 - Multiplayer](/unreal-engine-capitulo-7/unreal-engine-capitulo-7)
-8. [Capítulo 8 - Unreal e C++](/unreal-engine-capitulo-8/unreal-engine-capitulo-8)
