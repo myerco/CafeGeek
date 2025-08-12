@@ -6,28 +6,28 @@ main:
     url: /collection-archive/    
   - title: "Posts"    
     url: /post-archive-feature-rows/
-  - title: "Jogos Digitais"    
-    url: /jogos-digitais/jogos-digitais    
+  - title: "Cursos"    
+    children:    
+      - title: Jogos Digitais
+        url: /jogos-digitais/jogos-digitais    
+      - title: Unreal Engine
+        url: /unreal-engine-com-c-e-blueprint
+      - title: Modelagem 3D
+        url: /modelagem-3d/modelagem-3d
+      - title: A Jogatina das Décadas
+        url: /a-jogatina-das-decadas/a-jogatina-das-d-cadas
+      - title: Me conta uma história
+        url:  /me-conta-uma-historia/me-conta-uma-historia
+      - title: Computação gráfica
+        url: /computacao-grafica/computa-o-gr-fica
+      - title: O curso de jogos digitais
+        url: /jogos-digitais/jogos-digitais
+      - title: Trabalhos
+        url: /jogos-digitais/trabalhos-de-jogos-digitais
   - title: "Sitemap"    
     url: /sitemap/        
   - title: "Sobre"
     url: /about/
-
-dev_game:
-  - title: Unreal Engine
-    url: /unreal-engine
-  - title: Modelagem 3D
-    url: /modelagem-3d/modelagem-3d
-  - title: A Jogatina das Décadas
-    url: /a-jogatina-das-decadas/a-jogatina-das-d-cadas
-  - title: Me conta uma história
-    url:  /me-conta-uma-historia/me-conta-uma-historia
-  - title: Computação gráfica
-    url: /computacao-grafica/computa-o-gr-fica
-  - title: O curso de jogos digitais
-    url: /jogos-digitais/jogos-digitais
-  - title: Trabalhos
-    url: /jogos-digitais/trabalhos-de-jogos-digitais
 
 dev_unreal_1:
   - title: "INTRODUÇÃO"
@@ -54,8 +54,8 @@ dev_unreal_1:
         url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/actor-pawn-e-character               
       - title: Herança
         url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/heran-a-de-objetos        
-      - title: Colisão
-        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/colis-o-entra-objetos
+      - title: Colisão entre objetos
+        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/colis-o-entre-objetos
       - title: Estruturas de controle
         url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/estruturas-de-controle
       - title: Estruturas de repetição
@@ -68,9 +68,9 @@ dev_unreal_1:
         url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/game-instance-game-state-e-game-mode       
   - title: "Capítulo 2 - ESTRUTURAS DE ARMAZENAMENTO"
     children:    
-      - title: Arrays
+      - title: Variáveis Arrays
         url: /unreal-engine-com-c-e-blueprint/capitulo-2-estruturas-de-armazenamento/variaveis-arrays
-      - title: Enums
+      - title: Objetos Enums
         url: /unreal-engine-com-c-e-blueprint/capitulo-2-estruturas-de-armazenamento/objetos-enums
       - title: Usando Structs
         url: /unreal-engine-com-c-e-blueprint/capitulo-2-estruturas-de-armazenamento/usando-structs

@@ -12,7 +12,6 @@ tags:
   - hud
   - ui
   - interface
-  - lógica
 date: 2022-09-25 
 ---
 

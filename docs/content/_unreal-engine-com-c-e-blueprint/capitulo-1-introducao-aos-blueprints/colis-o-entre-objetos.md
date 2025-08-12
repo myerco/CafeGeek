@@ -1,5 +1,5 @@
 ---
-title: Colisão entra objetos
+title: Colisão entre objetos
 excerpt: Neste capítulo será apresentado o efeito de colisão de objetos.
 categories: 
   - "unreal-engine-com-c-e-blueprint"
