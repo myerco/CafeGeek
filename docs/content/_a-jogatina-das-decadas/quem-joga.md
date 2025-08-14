@@ -7,8 +7,6 @@ excerpt: "Entender o que é jogar e por que jogar permite entender os fatores qu
 date: 2024-03-03T08:48:05-04:00
 last_modified_at: 2024-03-03T08:48:05-04:00
 order: 3
-sidebar:
-    nav: dev_jogatina
 tags:
   - fatores motivacionais
   - fatores não motivacionais

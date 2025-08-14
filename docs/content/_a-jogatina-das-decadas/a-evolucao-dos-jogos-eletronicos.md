@@ -1,5 +1,5 @@
 ---
-title: "A evolução dos jogos eletrônicos"
+title: A evolução dos jogos eletrônicos
 permalink: categories: 
   - "a-jogatina-das-decadas"
 permalink:  /:categories/:title
@@ -7,8 +7,6 @@ excerpt: "Ao longo das décadas os jogos eletrônicos evoluíram e incorporaram 
 date: 2024-03-05T08:48:05-04:00
 last_modified_at: 2024-05-10T08:48:05-04:00
 order: 5
-sidebar:
-    nav: dev_jogatina
 tags:
   - conceito
   - jogo eletrônico

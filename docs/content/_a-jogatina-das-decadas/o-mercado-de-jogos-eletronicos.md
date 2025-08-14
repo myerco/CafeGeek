@@ -1,5 +1,5 @@
 ---
-title: "O mercado de jogos eletrônicos"
+title: O mercado de jogos eletrônicos
 categories: 
   - "a-jogatina-das-decadas"
 permalink:  /:categories/:title

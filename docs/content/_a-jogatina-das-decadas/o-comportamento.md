@@ -1,5 +1,5 @@
 ---
-title: "O comportamento"
+title: O comportamento
 categories: 
   - "a-jogatina-das-decadas"
 permalink:  /:categories/:title
