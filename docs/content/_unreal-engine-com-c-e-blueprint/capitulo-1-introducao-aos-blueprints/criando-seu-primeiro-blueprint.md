@@ -1,6 +1,6 @@
 ---
 title: Criando seu primeiro Blueprint
-excerpt: Neste capítulo será apresentado o modelo da lógica de programação utilizando Blueprints.
+excerpt: Descubra como criar lógica de programação visual com Blueprints no Unreal Engine de forma simples e divertida!
 categories: 
   - "unreal-engine-com-c-e-blueprint"
   - "capitulo-1-introducao-aos-blueprints"
@@ -15,6 +15,12 @@ tags:
   - Open Level Blueprint
 ---
 
+# Criando seu primeiro Blueprint
+
+Bem-vindo ao universo dos Blueprints! Aqui você vai aprender, de forma prática e divertida, como criar lógica de programação visual no Unreal Engine, mesmo sem saber programar em C++. Vamos juntos transformar ideias em ações no seu jogo!
+
+---
+
 ## 1. O que são Blueprints e Visual Scripting?
 
 {% include figure
@@ -22,20 +28,31 @@ tags:
     alt="Figura: Unreal Engine com Blueprint"
 %}
 
-O sistema *Blueprints Visual Scripting* no Unreal Engine é um sistema completo de script de jogo baseado no conceito de usar uma interface baseada em nós para criar elementos de jogo a partir do *Unreal Editor*. Como acontece com muitas linguagens de script comuns, ele é usado para definir classes orientadas a objetos (OO) ou objetos na *engine* .
+O sistema **Blueprints Visual Scripting** do Unreal Engine permite criar lógica de jogo usando uma interface visual, conectando blocos (nós) como se fossem peças de LEGO!  
+Com Blueprints, qualquer pessoa da equipe pode criar interatividade, animações e comportamentos, sem precisar escrever código tradicional.
 
 ![Figura: Exemplo do conceito de objetos na programação](/assets/images/unreal/actor/uml-jogos.webp){: .align-center}
 
-No exemplo acima visualizamos uma classe que pode representar um objeto do tipo gato, com seus atributos e ações.
+No exemplo acima, vemos uma classe que representa um objeto do tipo "gato", com seus atributos e ações. Assim como em programação tradicional, Blueprints também seguem o conceito de objetos, mas tudo é feito de forma visual.
 
-**Blueprints** focam em ser acessíveis, versáteis para qualquer membro do projeto e isso simplifica tarefas para programadores e engenheiros de projeto, o que facilita entender, interagir e construir.  
+**Por que usar Blueprints?**  
+- São acessíveis para todos, mesmo para quem não é programador.
+- Facilitam o entendimento e a colaboração entre diferentes áreas do projeto.
+- Permitem prototipar ideias rapidamente e testar sem medo!
 
-Para que o Unreal Engine possa construir os nós gráficos que representam a instruções de programação **C++** é importante entender como é a hierarquia de elementos que compõem o projeto, segue abaixo a representação baseado no arquivo de referência no seguinte em [unreal_schematics](https://github.com/drstreit/unreal_schematics "https://github.com/drstreit/unreal_schematics").
+> **Dica:** Blueprints e C++ podem trabalhar juntos! Você pode começar com Blueprints e, quando quiser mais desempenho, converter para C++ usando a nativização.
+{: .notice--info}
+
+---
+
+## 2. Entendendo a Hierarquia dos Blueprints
+
+Para criar lógica visual, é importante entender como os elementos do Unreal se organizam. Veja um resumo da estrutura:
 
 ```bash
 └── C++  
     ├── Herança                         # Classes derivam e herdam de suas classes pai  
-    |   ├── Framework                   # Classes Padrão  
+    |   ├── Framework                   # Classes padrão  
     |   |   └── Actor  
     |   |       ├── GameMode
     |   |       |   ├── Pawn
@@ -55,30 +72,32 @@ Para que o Unreal Engine possa construir os nós gráficos que representam a ins
     |   └── Communication BP to BP      # Comunicação entre Blueprints
     |       ├── Casting
     |       ├── Interface
-    |       └── Event Dispacher
+    |       └── Event Dispatcher
     ├── Compilação                      # Compilação do Bytecode.
-    |   └── Navitization                # Durante o processo de preparação, o Blueprint pode ser cruzado para c ++ e nativizado*
+    |   └── Nativização                 # Converter Blueprint para C++ nativo
     └── VM                              # Executado em uma máquina virtual
 ```
 
-**Nativização:** A nativização é uma funcionalidade relativamente nova no Unreal Engine, que permite aos desenvolvedores converter suas classes criadas em Blueprint para código nativo **C++** no momento em que é construído o pacote final do jogo. Isso faz com que seja possível aliar a facilidade de prototipação dos **Blueprints** ao desempenho do **C++**, acelerando o processo de desenvolvimento e também reduzindo a possibilidade de erros na programação, levando em consideração que ao desenvolver em Blueprint todas as entradas e saídas de dados, assim como o fluxo das operações são verificados pela máquina virtual enquanto os testes estão sendo realizados, isso permite garantir que tudo funcione conforme o esperado, ou na pior das hipóteses, alerte ao desenvolvedor caso algo não saia como o esperado, por meio de mensagens intuitivas e claras.
-{: .notice--info}
+**Nativização:**  
+É um recurso que transforma Blueprints em código C++ nativo na hora de empacotar o jogo, unindo facilidade e desempenho!
 
-## 2. Trabalhando com Level ou níveis
+---
 
-Todo os objetos que estão visíveis em um jogo estão armazenados em um *Level* ou mapa de jogo, o *Level* no Unreal Engine é composto por iluminação, objetos poligonais e personagens controlados pelos jogadores.
+## 3. Trabalhando com Levels (Mapas)
+
+Tudo o que aparece no seu jogo está dentro de um **Level** (ou mapa). O Level reúne iluminação, objetos, personagens e tudo mais que compõe a cena.
 
 {% include image.html
     src="https://www.worldofleveldesign.com/images/tutorial-topics/cat-ue4-680x300.jpg"
     alt="Figura: Tutorial List."
-    caption="Figura: O personagem, a grama, as árvores e os elementos que compõem a iluminação estão organizados em um level."
+    caption="O personagem, a grama, as árvores e os elementos de iluminação estão organizados em um level."
     idref="WORLDOFLEVELDESIGN,Home"
     ref="https://www.worldofleveldesign.com"
 %}
 
-### 2.1. Criando um Level
+### 3.1. Criando um Level
 
-Para criar um *level* utilizamos o menu principal `File` > `New Level`.
+Para criar um novo Level, vá em `File > New Level`.
 
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-new-level.webp"
@@ -86,25 +105,17 @@ Para criar um *level* utilizamos o menu principal `File` > `New Level`.
     caption="Figura: New Level."
 %}
 
-Logo em seguida podemos definir um modelo pre-definido para auxiliar na construção do mapa.
+Escolha um modelo para começar:
 
-{% include imagelocal.html
-    src="unreal/actor/unreal-engine-new-level-template.webp"
-    alt="Figura: New Level."
-    caption="Figura: New Level."
-%}
+- **Default:** Um Level básico, já com luz, céu e um ponto de início.
+- **TimeofDay:** Um Level com sistema de iluminação dinâmica para testar diferentes horários.
+- **VR-Basic:** Um Level pronto para experiências em realidade virtual.
+- **Empty Level:** Um Level completamente vazio, para criar tudo do zero!
 
-- **Default** - Selecione para criar um novo `Level` com uma configuração básica que inclui um início de jogador, uma luz, uma cúpula do céu e outros vários atores que você precisa para um *Level* funcionar corretamente;
+### 3.2. Salvando e Abrindo Levels
 
-- **TimeofDay** -  selecione para criar um novo `Level` com uma configuração que permite que você visualize as configurações da atmosfera da hora do dia em tempo real;
-
-- **VR-Basic** - selecione para criar um novo `Level` com atores para interagir, projetado para guiá-lo no aprendizado dos controles do Editor de VR;
-
-**Empty Level** - selecione para criar um novo `Level` completamente vazio.
-
-### 2.2. Salvando um Level
-
-Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
+- Para salvar: `File > Save Current`
+- Para abrir: `File > Open Level`
 
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-save-level.webp"
@@ -112,21 +123,20 @@ Para salvar o *level* carregado utilizamos o menu `File` > `Save Current`.
     caption="Figura: Save Current."
 %}
 
-### 2.3. Carregando um Level
-
-É possível abrir um  *Level* utilizando `File` > `Open Level`.
-
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-open-level.webp"
     alt="Figura: Open Level."
     caption="Figura: Open Level."
 %}
 
-## 3. O que é Level Blueprint?  
+---
 
-Um `Level Blueprint` é um tipo especializado de Blueprint que atua como um gráfico de evento global em todo o nível ou *Level*. Cada *Level* em seu projeto tem seu próprio `Level Blueprint` criado por padrão, que pode ser editado no *Unreal Editor*.
+## 4. O que é Level Blueprint?
 
-Para editar utilizamos a opção `Blueprints` > `Open Level Blueprint`.
+O **Level Blueprint** é um tipo especial de Blueprint que controla a lógica do Level inteiro.  
+Cada Level tem seu próprio Level Blueprint, onde você pode criar eventos, interações e scripts que afetam tudo no mapa.
+
+Para abrir: `Blueprints > Open Level Blueprint`
 
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-open-level-blueprint.webp"
@@ -134,10 +144,18 @@ Para editar utilizamos a opção `Blueprints` > `Open Level Blueprint`.
     caption="Figura: Open Level Blueprint."
 %}
 
-**Informação:** O Level Blueprint contém a lógica que controla todo o mapa.
+> **Informação:** O Level Blueprint é ideal para lógica global do mapa, como abrir portas, acionar eventos ou mostrar mensagens.
 {: .notice--info}
 
-Para entender como funciona a lógica do *Blueprint* vamos escrever uma mensagem no `ViewPort` utilizando o `Level Blueprint`. Quando o *level* iniciar utilizaremos o evento `BeginPlay` e conectaremos o nó `Print String` para escrever uma mensagem na tela.
+---
+
+## 5. Escrevendo sua Primeira Lógica com Blueprint
+
+Vamos criar um exemplo simples: mostrar uma mensagem na tela quando o Level começar!
+
+1. Abra o Level Blueprint.
+2. Adicione o evento **BeginPlay** (executado quando o Level inicia).
+3. Conecte ao nó **Print String** (escreve uma mensagem na tela).
 
 {% include imagelocal.html
     src="unreal/actor/unreal-engine-blueprint-beginplay-printstring.webp"
@@ -145,37 +163,50 @@ Para entender como funciona a lógica do *Blueprint* vamos escrever uma mensagem
     caption="Figura: Iniciando o level e escrevendo uma mensagem na tela."
 %}
 
-O nó BeginPlay é executado quando o level é carregado e o nó associado, nó PrintString, e executado em seguida.
+- **BeginPlay:** Executa quando o Level é carregado.
+- **Print String:** Mostra um texto na tela.
 
-Os nós utilizados são os seguintes:
+> **Dica:** Use o Print String para testar ideias rapidamente e ver mensagens durante o jogo!
+{: .notice--info}
 
-- **BeginPlay** - Este evento é executado quando o *level* é carregado.
+---
 
-- **Print String** - É uma função que recebe como parâmetro um texto (*String*) e a escreve na tela.
+### 5.1. Exemplo Visual: BeginPlay e Tick
 
-### 3.1. Exemplo de BeginPlay e Tick no Level Blueprint
+Veja um exemplo visual de como BeginPlay e Tick funcionam no Blueprint:
 
 {% include iframe.html
     src="https://blueprintue.com/render/46vsgoyi/"
     title="Cafegeek - Exemplo de BeginPlay e Tick."
-    caption="Blueprintue: BeginPlay é executado somente ao carregar o level, Tick é executado a cada renderização dos quadros na cena."
+    caption="BeginPlay é executado ao carregar o level; Tick é executado a cada quadro da cena."
     ref="https://blueprintue.com/render/46vsgoyi/"
 %}
 
-### 3.2. Exemplo de BeginPlay com c++
+---
 
-Para exemplificar como podemos escrever uma mensagem na interface apresentamos abaixo dois métodos:
+### 5.2. Exemplo de Mensagem com C++
 
-No Console (Log):
+Se quiser fazer o mesmo usando C++, veja como é fácil:
 
+**No Console (Log):**
 ```cpp
 UE_LOG(LogTemp, Warning, TEXT("Escreva aqui sua mensagem!"));
-UE_LOG(YourLog, Warning, TEXT("Esta é uma mensagem para você mesmo durante o tempo de execução!"));
 ```
 
-Na tela (Screen)
-
+**Na tela (Screen):**
 ```cpp
 GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Escreva aqui sua mensagem!"));
-GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Valores de variáveis: x: %f, y: %f"), x, y));
 ```
+
+---
+
+## Resumindo
+
+- Blueprints permitem criar lógica visual sem programar em C++.
+- Levels organizam tudo que aparece no seu jogo.
+- O Level Blueprint controla a lógica global do mapa.
+- Com poucos cliques, você já pode mostrar mensagens e criar interatividade!
+
+---
+
+**Agora é sua vez! Experimente criar seu próprio Blueprint e veja a mágica acontecer no seu jogo!**
