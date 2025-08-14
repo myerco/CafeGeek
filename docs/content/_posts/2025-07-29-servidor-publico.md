@@ -254,9 +254,6 @@ Terceirização de serviços essenciais	Empresas privadas priorizam lucro sobre 
     "O servidor público não é neutro: seu silêncio diante da desigualdade é cumplicidade."
     — Luís Roberto Barroso, Ministro STF (2023)
 
-Precisa de exemplos mais específico
 
-s (saúde, educação, previdência)? Ou dados atualizados? Estou aqui! 😊
-e qual o papel de um programador que é servidor público federal?
 
 

@@ -6,7 +6,7 @@ collection: unreal-engine-com-c-e-blueprint
 ##entries_layout: single
 ##classes: wide
 order: 0
-## sort_by: order
+sort_by: order
 ##read_time: true
 excerpt: "Curso completo de Unreal Engine: aprenda estruturas de desenvolvimento, lógica de programação, Blueprints e C++."
 ##header:
