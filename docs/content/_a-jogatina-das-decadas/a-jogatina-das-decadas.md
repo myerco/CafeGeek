@@ -1,5 +1,5 @@
 ---
-title: A Jogatina das decadas
+title: A Jogatina das décadas
 ## layout: collection
 permalink: /:title
 collection: a-jogatina-das-decadas
