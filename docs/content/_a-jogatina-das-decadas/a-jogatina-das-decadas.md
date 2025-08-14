@@ -1,10 +1,10 @@
 ---
 title: A Jogatina das décadas
-layout: collection
-permalink: /a-jogatina-das-decadas/a-jogatina-das-d-cadas
-collection: jogatina
-entries_layout: grid
-classes: wide
+## layout: collection
+permalink: /:title
+collection: a-jogatina-das-decadas
+##entries_layout: grid
+##classes: wide
 order: 0
 sort_by: order
 read_time: true
@@ -15,7 +15,5 @@ date: 2024-03-01T08:48:05-04:00
 show_date: true
 last_modified_at: 2024-03-01T08:48:05-04:00
 toc: false
-sidebar: false
 ---
 
-## Conteúdo do curso

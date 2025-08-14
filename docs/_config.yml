@@ -295,7 +295,7 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
-  jogatina:
+  a-jogatina-das-decadas:
     output: true
     sort_by: order
     permalink: /:collection/:path/    
@@ -359,8 +359,8 @@ defaults:
       comments: false
   # Jogatina           
   - scope:
-      path: "_jogatina"
-      type: jogatina
+      path: "_a-jogatina-das-decadas"
+      type: a-jogatina-das-decadas
     values:
       layout: single
       read_time: true      
