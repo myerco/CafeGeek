@@ -1,6 +1,6 @@
 ---
 title: A evolução dos jogos eletrônicos
-permalink: categories: 
+categories: 
   - "a-jogatina-das-decadas"
 permalink:  /:categories/:title
 excerpt: "Ao longo das décadas os jogos eletrônicos evoluíram e incorporaram diversas características das artes visuais."
