@@ -1,6 +1,8 @@
 ---
 title: "Jogos eletrônicos"
-permalink: /a-jogatina-das-decadas/jogos-eletronicos
+permalink: categories: 
+  - "a-jogatina-das-decadas"
+permalink:  /:categories/:title
 excerpt: "Jogos eletrônicos são uma subcategoria de jogos, com características  e tipos distintos."
 date: 2024-03-04T08:48:05-04:00
 last_modified_at: 2024-03-04T08:48:05-04:00
