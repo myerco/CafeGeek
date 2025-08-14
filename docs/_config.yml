@@ -368,7 +368,6 @@ defaults:
       share: true
       show_date: true
       sort_by: order            
-      category: "Desenvolvimento de jogos digitais"                  
       toc: true
       sidebar:
         nav: dev_jogatina 
