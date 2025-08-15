@@ -1,10 +1,7 @@
 ---
 title: A Jogatina das décadas
-## layout: collection
 permalink: /:title
 collection: a-jogatina-das-decadas
-##entries_layout: grid
-##classes: wide
 order: 0
 sort_by: order
 read_time: true
