@@ -1,18 +1,22 @@
 ---
 title: Organizando as ideias
-permalink: /me-conta-uma-historia/organizando-as-ideias
-excerpt: Aprenda as etapas de desenvolvimento de um jogo eletrônico.
+categories: 
+  - "me-conta-uma-historia"
+permalink: /:categories/:title  
+excerpt: Descubra, de forma simples e divertida, as etapas para transformar uma ideia em um jogo digital!
 date: 2024-03-04T08:48:05-04:00
 last_modified_at: 2024-03-04T08:48:05-04:00
 order: 2
 ---
 
-Se você quiser fazer uma torta de maçã do nada, você precisa, primeiro, inventar o universo. **Carl Sagan**.
+> Se você quiser fazer uma torta de maçã do nada, você precisa, primeiro, inventar o universo.  
+> **Carl Sagan**
 {: .notice}
 
 ## 1. Como construir um jogo digital?
 
-Geralmente o fluxo de trabalhado para construção de um jogo digital pode ser definido pelas etapas de **Conceito**, **Funcional** e **Artista**, a seguir vamos descrever cada etapa.
+Criar um jogo é como montar um quebra-cabeça: cada peça tem seu lugar e importância!  
+O processo normalmente passa por três grandes etapas: **Conceito**, **Funcional** e **Artística**. Vamos conhecer cada uma delas?
 
 ### 1.1. Conceito
 
@@ -22,295 +26,234 @@ Geralmente o fluxo de trabalhado para construção de um jogo digital pode ser d
     caption="Figura: Game design for PUBBY."
 %}
 
-A etapa conceitual é a mais abstrata do projeto, onde definimos o conceito do jogo baseado em uma história ou mecânica, esta etapa é necessária para apresentar, documentar e organizar a ideia do jogo.
+Aqui nasce a ideia do jogo! É o momento de imaginar histórias, mecânicas, temas e estilos visuais.  
+Você pode criar um universo inteiro ou apenas pensar em uma mecânica divertida. O importante é documentar tudo para não perder nenhuma ideia!
 
-**Documentação e narrativa:** Você não precisa de um contexto narrativo para cada jogo (isso é especialmente verdade em game jams), mas você precisará de alguma forma de quadro narrativo dentro do qual seu jogo funciona. Este é o lugar para descrevê-lo, as configurações, tema e estilo visual. Se o seu jogo tem personagens fortes, você pode usar este ponto para descrever qualquer história de fundo ou tema que os preocupe.
+**Dica:** Não é obrigatório ter uma narrativa super elaborada, mas é legal definir o contexto, tema e estilo do seu jogo. Se tiver personagens, aproveite para criar um pouco da história deles!
 {: .notice--info}
 
-Um bom exemplo de documentação é o modelo [Death VIP](/docs/modelo-gdd-death-vip), utilize a estrutura do modelo para o desenvolvimento de trabalhos no decorrer do curso.
+Um ótimo exemplo de documentação é o modelo [Death VIP](/docs/modelo-gdd-death-vip). Use esse modelo para organizar seus projetos ao longo do curso.
 {: .notice--success}
 
 ### 1.2. Funcional
 
-Nesta etapa definimos como organizar o fluxo de atividades e comunicação do projeto. Devemos definir também as regras que devem ser desenvolvidas no projeto como por exemplo a implementação técnica da mecânica.
+Agora é hora de planejar como o jogo vai funcionar na prática.  
+Defina o fluxo de trabalho, as regras do mundo, as mecânicas e como a equipe vai se comunicar.
 
-**Fluxo de trabalho** - Organize o encadeamento das fases de produção determinando a duração de cada uma delas, finalmente implemente um plano de comunicação dos envolvidos no projeto;
-
-**Regras** - Defina regras do mundo do jogo que devem ser seguidas por desenvolvedores e roteiristas;
+- **Fluxo de trabalho:** Organize as etapas de produção e quanto tempo cada uma vai durar.
+- **Regras:** Estabeleça as regras do seu universo para que todos os envolvidos saibam o que pode e o que não pode.
 
 {% include image.html
     src="https://www.researchgate.net/profile/Piotr-Rykala/publication/346541011/figure/fig1/AS:964050955563008@1606859067170/Example-of-organization-and-workflow-of-a-video-game-developer-Source-Zackariasson-and.png"
     alt="Figura: The growth of the gaming industry in the context of creative industries."
-    caption="Figura: The growth of the gaming industry in the context of creative industries."
+    caption="Figura: O crescimento da indústria de games e o fluxo de trabalho."
 %}
 
-### 1.3. Artista
+### 1.3. Artística
 
-Como são os personagens? qual o ambiente? esse tipo de perguntas são apresentadas nessa etapa onde devem ser analisadas e aprovadas as representações visuais do jogo.
+Como será o visual do seu jogo? Quem são os personagens? Qual o clima do cenário?  
+Nessa etapa, pense em storyboards, arte conceitual e referências visuais para dar vida ao seu universo.
 
-- Storyboards;
-
-- Arte conceitual.
+- **Storyboards:** Sequência de imagens mostrando cenas importantes.
+- **Arte conceitual:** Desenhos e imagens que inspiram o visual do jogo.
 
 {% include image.html
     src="https://magazine.artstation.com/wp-content/uploads/2019/02/CGS-3D-concept-art-editorial-image-01-1024x640.jpg"
     alt="Figura: The Benefits of Embracing 3D in your Concept Art Workflow."
-    caption="Figura: The Benefits of Embracing 3D in your Concept Art Workflow."
+    caption="Figura: A arte conceitual ajuda a visualizar o mundo do jogo."
 %}
+
+---
 
 ## 2. A equipe
 
-Organizar a equipe é um trabalho interessante quando compreendemos as características do produto que vamos desenvolver e as aliamos aos perfis profissionais que devem atuar no desenvolvimento.
+Ninguém faz um jogo sozinho!  
+Montar uma equipe é como formar um grupo de heróis, cada um com uma habilidade especial.
 
 {% include image.html
     src="https://unidigitaldobrasil.com.br/wp-content/uploads/2016/01/Kabam-playing-underworld-empire-together.jpg"
-    alt="Figura: Mas qual é a diferença entre design de games, game art e game design?"
-    caption="Figura: Várias pessoas com papeis diferentes desempenham a produção do projeto"
-    idref="NOBREGA,Diemano"
-    ref="https://unidigitaldobrasil.com.br/carreira-na-industria-de-games-design-de-games-game-art-ou-game-design/"
+    alt="Figura: Várias pessoas com papeis diferentes desempenham a produção do projeto"
+    caption="Figura: Cada papel é importante para o sucesso do projeto."
 %}
 
 | Profissional | Papel                                           |
 | :----------- | :---------------------------------------------- |
 | Programador  | Desenvolvimento da mecânica do jogo             |
 | Artista      | Arte 2D, Arte 3D e animações                    |
-| Design       | Ambiente e mecânica                             |
-| Produtor     | Financiador e pode ter controle sobre o produto |
-| Testador     | Realiza testes do produto                       |
-| Compositor   | Musica tema e ambiente                          |
-| Sound design | Elementos sonoros durante a gameplay            |
-| Redator      | Roteirização e pesquisa documental              |
+| Designer     | Ambiente e mecânica                             |
+| Produtor     | Financiamento e organização do projeto          |
+| Testador     | Testa o jogo e encontra problemas               |
+| Compositor   | Cria músicas e trilhas sonoras                  |
+| Sound design | Efeitos sonoros durante a gameplay              |
+| Redator      | Roteiros e pesquisa documental                  |
 
-Tabela 1:Profissão e Papel.
+Tabela 1: Profissões e papéis.
 
-**Dungeon:** Podemos comparar como um desafio em grupo de amigos dentro de um RPG, onde cada um papel é definido e necessário para o sucesso da missão.
+**Dica Dungeon:** Pense como um grupo de RPG: cada um tem um papel fundamental para vencer o desafio!
 {: .notice--danger}
 
-{% include image.html
-    src="https://res.cloudinary.com/lmn/image/upload/c_limit,dpr_2,h_360,w_640/e_sharpen:100/f_auto,fl_lossy,q_auto/v1/gameskinnyop/2/6/8/orig_268bb737dfb55c04256c7e55f338bcd1.png"
-    alt="Figura: Tips for positive player interactions in World of Warcraft instances."
-    caption="Figura: Tips for positive player interactions in World of Warcraft instances."
-%}
+---
 
 ## 3. Tarefas
 
-Quais são as tarefas e atividades que devem ser executadas, por onde começamos? uma resposta para a pergunta é organize em pacotes de entrega. Defina e agrupe um conjunto de entregas baseadas em funcionalidades e comece a organizar a sua agenda.
+Por onde começar?  
+Divida o projeto em pequenas entregas (os famosos "pacotes de entrega") e organize sua agenda!
 
-| Tarefas         | Descrição                                            |
-| :-------------- | :--------------------------------------------------- |
-| Prototipação    | Protótipo ou modelo do jogo                          |
-| Level design    | Ambiente e mecânica                                  |
-| Interface       | Interface com o jogador - HUD                        |
-| Gerenciamento   | Acompanhamento das tarefas e comunicação das equipes |
-| Líder de equipe | Atua como interface entre as diversas necessidades   |
+| Tarefa         | Descrição                                            |
+| :------------- | :--------------------------------------------------- |
+| Prototipação   | Criar um modelo inicial do jogo                      |
+| Level design   | Planejar ambientes e mecânicas                       |
+| Interface      | Criar a interface com o jogador (HUD)                |
+| Gerenciamento  | Acompanhar tarefas e comunicação da equipe           |
+| Líder de equipe| Facilitar a integração entre as áreas                |
 
-Tabela 2: Tarefas.
+Tabela 2: Tarefas principais.
 
 {% include image.html
     src="https://www.researchgate.net/profile/Juergen-Musil/publication/221045927/figure/fig2/AS:305624014442498@1449877851418/Simple-workflow-oriented-process-for-game-development.png"
-    alt="Figura: Improving Video Game Development: Facilitating Heterogeneous Team Collaboration through Flexible Software Processes."
-    caption="Figura: Improving Video Game Development: Facilitating Heterogeneous Team Collaboration through Flexible Software Processes."
+    alt="Figura: Processo de desenvolvimento de jogos."
+    caption="Figura: Um bom fluxo de trabalho facilita a colaboração da equipe."
 %}
+
+---
 
 ## 4. Limitações
 
-{% include image.html
-    src="https://assets.rockpapershotgun.com/images/2020/02/The-Forest-Best-Survival-Games-2020.jpg"
-    alt="Figura: The best survival games on PC in 2022."
-    caption="Figura: The best survival games on PC in 2022."
-%}
-
-O desenvolvimento de um projeto de um jogo digital pode ser limitado por vários fatores. Alguns dos principais fatores incluem:
+Todo projeto tem seus desafios!  
+Fique atento aos principais fatores que podem limitar o desenvolvimento do seu jogo:
 
 ### 4.1. Dinheiro
 
-Estime os custos do projeto, orçamento e controle de custos de modo que o projeto possa ser terminado dentro do orçamento aprovado.
+Planeje o orçamento e controle os custos para não ficar sem recursos no meio do caminho.
 
 {% include image.html
     src="https://www.appstudio.ca/blog/wp-content/uploads/2021/09/Cost-of-Game-Development.jpeg"
-    alt="Figura: The Factors That Influence the Cost of Game Development."
-    caption="Figura: The Factors That Influence the Cost of Game Development."
+    alt="Figura: Fatores que influenciam o custo de desenvolvimento de jogos."
+    caption="Figura: Fatores que influenciam o custo de desenvolvimento de jogos."
 %}
 
-- Estime os custos;
-
-- Determine o orçamento e estime os custos de atividades individuais ou pacotes de trabalho;
-
-- Controle custos, acompanhe e monitore as mudanças feitas na custo base.
+- Estime os custos e defina um orçamento.
+- Controle gastos e monitore mudanças.
 
 ### 4.2. Tempo
 
-Fique atento aos prazos estabelecidos no escopo e o tempo estipulado para cada atividade.
+Gerencie bem o tempo para cumprir prazos e entregar tudo no prazo combinado.
 
 {% include image.html
     src="https://cdn.merixstudio.com/media/uploads/pomodoro.png"
-    alt="Figura: How to take care of time management in web development."
-    caption="Figura: How to take care of time management in web development."
+    alt="Figura: Como gerenciar o tempo no desenvolvimento."
+    caption="Figura: Gerenciar o tempo é essencial para o sucesso do projeto."
 %}
 
-- Defina e identifique as ações específicas a serem realizadas para produzir as entregas do projeto;
-
-- Sequencie as atividades e documente os relacionamentos entre elas;
-
-- Estime os recursos por atividade, quantidade de material, pessoas, equipamentos ou suprimentos;
-
-- Desenvolva um cronograma do projeto;
-
-- Monitore o andamento do projeto e atualize o progresso e gerenciamento de mudanças.
+- Liste as tarefas e defina a ordem de execução.
+- Estime recursos e monte um cronograma.
+- Monitore o progresso e ajuste quando necessário.
 
 ### 4.3. Tecnologia
 
-Considere de toda a base tecnológica do projeto.
+Garanta que a equipe tenha acesso às ferramentas e infraestrutura necessárias.
 
 {% include image.html
     src="https://miro.medium.com/max/1400/1*Bdwff1xNonI533sDk0hgnA.png"
-    alt="Figura: Why infrastructure is a game-changer for the mobile gaming industry."
-    caption="Figura: Infraestrutura necessária para atender todas as demandas do projeto."
+    alt="Figura: Infraestrutura para desenvolvimento de jogos."
+    caption="Figura: Tenha a tecnologia certa para cada etapa do projeto."
 %}
 
-- Rede de comunicação interna;
-
-- Espaço de armazenamento e compartilhamento;
-
-- Versionamento da lógica de programação;
-
-- Modelo de distribuição do projeto;
-
-- Softwares e licenças utilizados.
+- Comunicação interna eficiente.
+- Espaço para armazenamento e compartilhamento.
+- Controle de versões e distribuição do projeto.
+- Softwares e licenças adequados.
 
 ### 4.4. Expertise
 
-Organize as equipes com os papeis e responsabilidades designadas para a conclusão do projeto.
+Monte uma equipe com as habilidades certas para cada desafio.
 
 {% include image.html
     src="https://cdn-developer-wp.arc.dev/wp-content/uploads/2021/11/time-management-skills-1128x635.jpg"
-    alt="Figura: Time Management Skills for Developers: Best Tips, Tools, and Strategies."
-    caption="Figura: Defina estratégias para cada papel dentro do projeto."
-    idref="SESARDIC,Lena"
-    ref="https://arc.dev/developer-blog/time-management-skills/."
+    alt="Figura: Estratégias para cada papel no projeto."
+    caption="Figura: Defina estratégias e responsabilidades para cada papel."
 %}
 
-- Desenvolva um plano de funções, responsabilidades, habilidades necessárias e relações hierárquicas do projeto;
+- Defina funções e responsabilidades.
+- Mobilize e treine a equipe.
+- Dê feedback e acompanhe o desempenho.
 
-- Mobilize a equipe do projeto, confirme a disponibilidade e obtenha a equipe necessária;
-
-- Melhore as competências, interação e ambiente da equipe;
-
-- Acompanhe o desempenho dos membros da equipe, forneça *feedback*, resolva questões e acompanhe as mudanças.
+---
 
 ## 5. Como organizar as ideias?
 
-Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, visto que o Universo não tem ideias. **Fernando Pessoa**.
+> Sentir é criar. Sentir é pensar sem ideias, e por isso sentir é compreender, visto que o Universo não tem ideias.  
+> **Fernando Pessoa**
 {: .notice}
 
 ### 5.1. Onde nascem as ideias?
 
 {% include image.html
     src="https://cdn3.vox-cdn.com/uploads/chorus_asset/file/3687336/The_Witcher_3_Wild_Hunt_You_never_know_what_waits_around_the_corner.0.png"
-    alt="Figura: The Witcher 3: Wild Hunt is like an open-world, playable Game of Thrones."
+    alt="Figura: Jogo com temática medieval e fantasia."
     caption="Figura: Jogo com temática medieval e fantasia."
-    idref="WEBSTER, Andrew"
-    ref="https://www.theverge.com/2015/5/12/8586515/witcher-3-wild-hunt-review-ps4-xbox-one-game"
 %}
 
-- Outras ideias;
-
-- Mundo;
-
-- Jornal;
-
-- Jogos;
-
-- Experiências emocionais.
+- Outras ideias e jogos
+- Experiências emocionais
+- Notícias e o mundo ao redor
+- Conversas e vivências
 
 ### 5.2. Cultivando ideias
 
 {% include image.html
     src="https://cdn.vox-cdn.com/thumbor/KfZcAgZDNJyf7POmq2KDOfa2fZA=/148x0:1768x1080/920x613/filters:focal(148x0:1768x1080):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47374578/unravel-yarny.0.0.jpg"
-    alt="Figura: Unravel creator hopes the game will make you call your mom."
-    caption="Figura: Jogo simples com uma boa apresentação gráfica e uma história de fundo comovente."
-    idref="FAROKHMANESH,Megan"
-    ref="https://www.polygon.com/2015/10/10/9487701/unravel-preview-call-your-mom."
+    alt="Figura: Jogo simples com boa apresentação gráfica e história comovente."
+    caption="Figura: Jogo simples com boa apresentação gráfica e história comovente."
 %}
 
-- Seja curioso;
+- Seja curioso e questione como as coisas funcionam.
+- Crie elementos e experimente no seu mundo.
+- Compartilhe suas ideias com outras pessoas.
 
-- Como as coisas funcionam;
-
-- Crie elementos e os coloque no mundo;
-
-- Compartilhe o seu mundo com outras pessoas;
-
-### 5.3. O que torna a ideia interessante é
+### 5.3. O que torna uma ideia interessante?
 
 {% include image.html
     src="https://adrenaline.com.br/uploads/2021/09/09/70890/Lost-in-Random_06.jpg"
     alt="Figura: Lost in Random é um misto de ótimo roteiro e gameplay criativo."
     caption="Figura: Procure as histórias não contadas."
-    idref="KERBER,Diego"
-    ref="https://adrenaline.com.br/colunas/v/70890/lost-in-random-e-um-misto-de-otimo-roteiro-e-gameplay-criativo"
 %}
 
-- Arranjo único;
+- Um arranjo único e criativo.
+- Que seja divertido e envolvente!
 
-- Seja divertido;
+---
 
 ## 6. O que nos inspira?
 
 {% include imagelocal.html
     src="me-conta-uma-historia/04190615075402.webp"
-    alt="Figura: Um tributo aos fãs e um enorme passo nos jogos de ação em terceira pessoa."
+    alt="Figura: A coragem é inspiradora."
     caption="Figura: A coragem é inspiradora."
-    idref="MICALI, Bruno"
-    ref="https://www.tecmundo.com.br/voxel/jogos/rise-of-the-tomb-raider/analise"
 %}
 
-- Lugar;
+- Lugares e paisagens
+- Pessoas e suas histórias
+- Experiências pessoais
 
-- Pessoas;
-
-- Histórias;
-
-- Experiências pessoais;
+---
 
 ## 7. Hábito
 
 {% include image.html
     src="https://s2.glbimg.com/ZcTFIilmLi8663REozPDO8EzL18=/0x0:695x391/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2021/1/q/UZHV1lT8SDUVlX8Bso5Q/2015-07-24-journey3.jpg"
-    alt="Figura: Review Journey."
+    alt="Figura: Uma boa jornada ajuda na inspiração."
     caption="Figura: Uma boa jornada ajuda na inspiração."
-    idref="FERREIRA,Carlos Eduardo"
-    ref="https://www.tecmundo.com.br/voxel/jogos/journey/analise"
 %}
 
 A maior virtude do game é, sem dúvida, conseguir comover sem sequer dizer uma palavra.
 {: .notice}
 
-- Caminhe
-{% include image.html
-    src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/bc81f7f2-9a7d-4c6e-a76f-e42b37db7772/a759d8ae-7973-4dbe-9622-c34c371ca272.png"
-    alt="Figura: Easy-Peasy.AI."
-    caption="Figura:Tranquil Morning Walk at Sunrise."
-    idref="EASY-PEASY,AI"
-    ref="https://easy-peasy.ai/ai-image-generator/images/tranquil-morning-walk-peaceful-landscape-sunrise"
-%}
+- Caminhe e observe o mundo ao seu redor.
+- Leia livros, quadrinhos e artigos.
+- Assista palestras e converse com pessoas criativas.
+- Participe dos encontros do "Me Conta uma História"!
 
-- Leia
-{% include image.html
-    src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/ad972dd6-62ae-4b9c-be41-b20c8094a173/5b181826-159a-420e-9289-a9143374d5c5.png"
-    alt="Figura: EMiddle-Eastern Man Engrossed in Reading at Vintage Library."
-    caption="Figura:Middle-Eastern Man Engrossed in Reading at Vintage Library."
-    idref="EASY-PEASY, Reading"
-    ref="https://easy-peasy.ai/ai-image-generator/images/middle-eastern-man-reading-vintage-library-book-enthusiast"
-%}
+---
 
-- Assista palestras
-{% include image.html
-    src="https://commons.wikimedia.org/wiki/File:Caf%C3%A9_Filos%C3%B3fico_%288726435728%29.jpg"
-    alt="Figura: Janete Leao Ferraz e Mario Sergio Cortella no Cafe Filosofico - | 14.12.12 ."
-    caption="Figura: Janete Leao Ferraz e Mario Sergio Cortella no Cafe Filosofico - | 14.12.12 ."
-    idref="FERRO, Tatiana"
-    ref="https://commons.wikimedia.org/wiki/File:Caf%C3%A9_Filos%C3%B3fico_%288726435728%29.jpg"
-%}
-
-- Assista os encontros de Me Conta uma História.
+**Agora é com você! Organize suas ideias, monte sua equipe e comece a criar o seu próprio universo de jogos. Divirta-se nessa jornada criativa!

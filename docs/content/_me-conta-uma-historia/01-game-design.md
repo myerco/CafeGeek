@@ -1,13 +1,16 @@
 ---
 title: Game Design
-permalink: /me-conta-uma-historia/game-design
-excerpt: Conheça a profissão de Game Design.
+categories: 
+  - "me-conta-uma-historia"
+permalink: /:categories/:title
+excerpt: Descubra o que faz um Game Designer, suas habilidades e como começar nessa carreira criativa!
 date: 2024-03-02T08:48:05-04:00
 last_modified_at: 2024-02-10T08:48:05-04:00
 order: 1
 ---
 
-Por baixo dessa carne existe um ideal. e as ideias nunca morrem...**V de Vingança**
+> Por baixo dessa carne existe um ideal. E as ideias nunca morrem...  
+> **V de Vingança**
 {: .notice}
 
 {% include image.html
@@ -16,32 +19,33 @@ Por baixo dessa carne existe um ideal. e as ideias nunca morrem...**V de Vingan�
     caption="Figura: Design de games."
 %}
 
-## 1. Por dentro da cabeça do Game Design
+## 1. O que faz um Game Designer?
 
-Um papel importante na produção de um jogo digital é o de Game Design que é analogamente o gerente de projeto, responsável por cada etapa da construção do produto.
-{: .text-justify}
+O Game Designer é como o maestro de uma orquestra: ele coordena, planeja e dá vida a todas as ideias que vão transformar um jogo em uma experiência inesquecível!  
+É ele quem pensa nas regras, desafios, recompensas e na diversão do jogo.  
+Além disso, o Game Designer atua como uma ponte entre os diferentes profissionais do projeto, entendendo as necessidades de cada área e garantindo que tudo funcione em harmonia.
 
-O Game Design deve atuar como uma interface entre os diversos profissionais envolvidos no projeto e entender as suas necessidades, mas para um bom desempenho nessa tarefa o Game Design deve conhecer um pouco de cada processo no fluxo de trabalho.
-{: .text-justify}
+> **Dica:** Um bom Game Designer conhece um pouco de cada etapa do desenvolvimento, desde programação até arte e som!
+{: .notice--info}
 
-## 2. Quero ser um Game Design
+---
 
-Como toda profissão para que possamos alcançar um reconhecimento e conhecimento adequado sobre o ofício devemos estruturar e agrupar os nossos passos, abaixo algumas dicas:
-{: .text-justify}
+## 2. Como começar na carreira de Game Design?
 
-- Seja apaixonado por jogos e jogue, jogue para se divertir e se pergunte porque foi divertido;
+Se você sonha em criar jogos, aqui vão algumas dicas para trilhar esse caminho:
 
-- Entenda a dinâmica do mercado de jogos, como o produto é vendido, como é consumido e qual o ciclo de vida do produto;
+- **Jogue muito!** Mas jogue com olhar crítico: por que esse jogo é divertido? O que poderia ser melhor?
+- **Estude o mercado:** Descubra como os jogos são produzidos, vendidos e consumidos.
+- **Leia bastante:** Livros, artigos, fóruns e entrevistas com profissionais da área.
+- **Trabalhe em equipe:** Aprenda a ouvir, compartilhar ideias e colaborar com pessoas de diferentes áreas.
+- **Aprenda outras habilidades:** Experimente programação, arte, publicidade ou qualquer área que te interesse. Quanto mais você souber, melhor!
 
-- Leia bastante;
+---
 
-- Procure trabalhar a sua interação social e aprenda a expressar suas ideias, pois é, aprenda a trabalhar em equipe;
+## 3. Quanto ganha um Game Designer?
 
-- Procure conhecer as profissões atuantes na construção e aprenda uma delas, por exemplo: Programação de jogos, Arte, publicidade ou todas as mesmo tempo.
-
-## 3. Quanto Ganha do Game Design?
-
-Segundo o site [https://www.educamaisbrasil.com.br](https://www.educamaisbrasil.com.br) o salário começa com **R$ 1.228,90** e pode chegar a **R$ 4.056,35** no Brasil (Consulta 17/01/2021).
+Segundo o site [Educa Mais Brasil](https://www.educamaisbrasil.com.br), o salário de um Game Designer no Brasil começa em torno de **R$ 1.228,90** e pode chegar a **R$ 4.056,35** (consulta em 17/01/2021).  
+Lembre-se: o mercado está em constante evolução e, com experiência e portfólio, as oportunidades aumentam!
 
 {% include image.html
     src="https://images.educamaisbrasil.com.br/content/superior/curso/banner/p/design-de-games.jpg"
@@ -49,22 +53,32 @@ Segundo o site [https://www.educamaisbrasil.com.br](https://www.educamaisbrasil.
     caption="Figura: Profissão Designer de games"
 %}
 
-## 4. Características pessoais
+---
 
-A seguir vamos destacar algumas Características necessárias para um bom Game Design.
+## 4. Características de um bom Game Designer
+
+Além de criatividade, um Game Designer precisa desenvolver algumas habilidades essenciais:
+
+- **Saber descrever e escrever ideias:** Documentar tudo é fundamental!
+- **Comunicação visual:** Saber desenhar ou criar protótipos ajuda muito.
+- **Acompanhar o trabalho da equipe:** Fique de olho no progresso e ajude quando necessário.
+- **Ouvir opiniões:** Prestar atenção ao feedback dos colegas e dos jogadores é essencial para melhorar sempre.
 
 {% include image.html
     src="https://www.singerandfalk.com/wp-content/uploads/2018/03/02_07_18_838151864_BB_560x292.jpg"
     alt="Figura: Turning employee ideas into profitable results."
-    caption="Figura: Muitas empresas treinam os funcionários como fazer seu trabalho e apenas seu trabalho. Mas coisas incríveis podem acontecer quando você também ensina os membros da equipe a se envolverem ativamente em um processo de lucratividade."
+    caption="Muitas empresas treinam os funcionários para fazer apenas seu trabalho. Mas coisas incríveis acontecem quando todos se envolvem ativamente no processo criativo."
     idref="SINGER & FALK"
     ref="https://www.singerandfalk.com/uncategorized/turning-employee-ideas-into-profitable-results/"
 %}
 
-- Descrever e escrever as suas ideias;
+---
 
-- Usar a comunicação visual;
+## 5. Resumindo
 
-- Acompanhar o trabalho da equipe;
+Ser Game Designer é unir criatividade, curiosidade e trabalho em equipe para criar experiências incríveis!  
+Seja curioso, estude bastante, jogue com atenção e nunca pare de aprender. O mundo dos jogos está esperando por suas ideias!
 
-- Prestar atenção a opinião de outras pessoas.
+---
+
+**Pronto para começar sua jornada no universo do Game Design? Então, mãos à obra e divirta-se criando!**

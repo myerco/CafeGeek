@@ -1,13 +1,16 @@
 ---
 title: Os elementos da história
-permalink: /me-conta-uma-historia/os-elementos-da-historia
-excerpt: Quais são os elementos necessários de uma história para um jogo eletrônico?
+categories: 
+  - "me-conta-uma-historia"
+permalink:  /:categories/:title  
+excerpt: Descubra, de forma simples e divertida, os elementos essenciais para criar histórias envolventes em jogos digitais!
 date: 2024-03-03T08:48:05-04:00
 last_modified_at: 2024-03-03T08:48:05-04:00
 order: 3
 ---
 
-Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro. **Alan Wake**
+> Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro.  
+> **Alan Wake**
 {: .notice}
 
 {% include imagelocal.html
@@ -18,33 +21,27 @@ Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar 
     ref="https://www.cafeinaliteraria.com.br/2016/05/07/10-dicas-e-truques-para-criar-personagens-inesqueciveis/"
 %}
 
-## 1. Como construir os personagens?
+## 1. Como construir personagens marcantes?
 
-Não existe uma formula mágica que se deve seguir para construir um personagem de qualquer história ficcional, talvez observar a vida real e o comportamento das pessoas que estão a sua volta ajude a entender como construir personagens, pois eles estão ao seu lado, mas segundo Charlie Jane Ander em artigo publicado em 05/08/2014, adaptado e apresentado em mini-palestra no [Clarion West](https://www.clarionwest.org/) por Cristine é possível organizar algumas ideias e dicas para que os personagens ganhem vida, segue abaixo o resumo.
+Criar personagens é como dar vida a novos amigos (ou inimigos!) para o seu jogo. Não existe uma fórmula mágica, mas observar pessoas reais e suas atitudes pode ajudar muito!  
+Segundo Charlie Jane Anders, algumas dicas para criar personagens inesquecíveis são:
 
-1. Personagem é ação;
+1. Personagem é ação: mostre quem ele é pelas atitudes.
+2. Surpreenda com ações inesperadas.
+3. Contradições tornam personagens interessantes.
+4. Pequenos detalhes fazem diferença.
+5. Guarde detalhes extras para a reescrita.
+6. Crie um mundo envolvente e alguém lutando por ele.
+7. Emoções, como raiva, podem ser importantes.
+8. Motivações estranhas são bem-vindas!
+9. Escreva uma história de origem, mesmo que não use.
+10. Experimente inverter o fluxo da história.
 
-2. Ações surpreendentes;
+Além disso, pense nos papéis clássicos: heróis, amigos, rivais e até inimigos misteriosos. Inspire-se em jogos como *The Last of Us Parte 2* para criar relações complexas!
 
-3. Contradições estranhas;
+---
 
-4. Um detalhe pode estar no seu caminho;
-
-5. Mas salve os detalhes extras para a reescrita;
-
-6. Um mundo atraente e alguém lutando por ele;
-
-7. Yoda estava errado sobre a raiva;
-
-8. A aspiração do seu personagem pode ser estranha;
-
-9. Escreva uma história de origem, mesmo que você não a use;
-
-10. Trabalhe no sentido contrário do fluxo do enredo ou história.
-
-Devemos também outras estruturas de organização e entendimento dos  heróis, amigos, amigos nem tanto e supostos inimigos (Lembre do ótimo jogo [Last of Us Parte 2](https://thelastofus.com.br/)), a seguir apresentamos essas estruturas.
-
-### 1.1. A jornada do Herói
+### 1.1. A Jornada do Herói
 
 {% include imagelocal.html
     src="me-conta-uma-historia/jornada-do-heroi.webp"
@@ -54,627 +51,95 @@ Devemos também outras estruturas de organização e entendimento dos  heróis, 
     ref="https://medium.com/oorganismo/jornada-do-her%C3%B3i-13ef9b8e3a69."
 %}
 
-Nem todas as histórias devem ter os elementos da Jornada do Herói, mas é um bom guia para ter inspirações. Muitas pessoas se identificam com os elementos dessa narrativa, pois nós vivemos isso todos os dias, todos os dias acordamos e vivemos uma jornada encontrando amigos, tutores e opositores.
+A Jornada do Herói é um guia clássico para criar histórias envolventes. Ela se divide em três partes:
 
-A jornada está dividida em três seções:
+- **Partida:** O herói deixa o mundo comum.
+- **Iniciação:** Enfrenta desafios e aprende lições.
+- **Retorno:** Volta transformado.
 
-- Partida (às vezes chamada Separação)
+Muitos filmes e jogos usam essa estrutura, como Matrix, Senhor dos Anéis, Star Wars e Harry Potter. Mas lembre-se: nem toda história precisa seguir esse caminho!
 
-- Iniciação
+---
 
-- Retorno
+### 1.2. Personalidade: Dê vida ao seu personagem!
 
-{% include imagelocal.html
-    src="me-conta-uma-historia/The-Lord-of-the-Rings-The-Return-of-the-King-PS2-Remaster.webp"
-    alt="Figura: The Lord of the Rings Movie Games Need the Remaster Treatment."
-    caption="Figura: A jornada dos livros, filmes e jogos de essa narrativa."
-    idref="GAMERANT"
-    ref="https://gamerant.com"
-%}
+Personagens marcantes têm personalidade! Pense em:
 
-Abaixo alguns filmes que utilizam essa fórmula :
+- **Como ele caminha:** Rápido, devagar, confiante?
+- **Como fala:** Voz suave, engraçada, misteriosa?
+- **Como luta:** Corajoso, estratégico, impulsivo?
+- **Como abre portas:** Com cuidado, pressa ou estilo?
+- **Como comemora ou espera:** Cada detalhe mostra quem ele é!
 
-- Matrix;
+Use exemplos de jogos famosos, como Sonic (rápido e destemido) ou Kratos (intenso e determinado), para se inspirar.
 
-- Senhor dos Anéis;
+---
 
-- Star Wars;
+### 1.3. Motivação: O que move seu personagem?
 
-- Harry Potter.
+Todo personagem precisa de um objetivo! Pode ser:
 
-### 1.2. Personalidade
+- Salvar alguém querido (como em Resident Evil 7)
+- Sobreviver em um mundo hostil
+- Buscar vingança (como em Gladiador)
+- Salvar o mundo (Call of Duty, Fallout)
 
-Os personagens ficcionais causam empatia dos leitores, jogadores ou espectadores, quando eles apresentam uma personalidade construída com elementos realistas, por exemplo, classe social, família, medos, desejos e até mesmo paixões, esses elementos podem ser apresentados utilizando os seguintes aspectos.
+Motivações claras deixam a história mais envolvente!
 
-#### 1.2.1. Como ele caminha
+---
 
-{% include imagelocal.html
-    src="me-conta-uma-historia/2016-07-27-sonic-melhores-jogos-10.webp"
-    alt="Figura: Relembre os melhores jogos clássicos em 2D do Sonic."
-    caption="Figura: Relembre os melhores jogos clássicos em 2D do Sonic."
-%}
+### 1.4. Nome e Forma
 
-Sonic, é frequentemente descrito como corajoso, destemido e impetuoso. Ele é conhecido por ser um herói rápido e atlético, que usa sua velocidade para combater o mal e salvar o mundo.
+O nome e a aparência dizem muito sobre o personagem. Prefira nomes simples e marcantes, que combinem com a personalidade e o universo do jogo.  
+A forma física, expressões e movimentos também ajudam a transmitir emoções e intenções.
 
-Sonic também é descrito como um personagem confiante, que muitas vezes desafia seus inimigos e não tem medo de assumir riscos para proteger seus amigos e sua causa. Ele é conhecido por ser enérgico e vibrante, e muitas vezes usa seu humor para aliviar a tensão em situações difíceis.
+---
 
-#### 1.2.2. Como fala
+### 1.5. Customização
 
-{% include imagelocal.html
-    src="me-conta-uma-historia/Journey-Co-Op-Multiplayer-AI-Or-Real-Person.webp"
-    alt="Journey: Is The Second Player A Real Person?"
-    caption="Figura: A comunicação entre jogadores dentro é realizada com movimentos e sons suaves."
-    idref="THE ENEMY,Journey "
-    ref="https://www.theenemy.com.br/"
-%}
+Permitir que o jogador personalize nome, aparência, roupas e até veículos aumenta o envolvimento com a história!
 
-A forma de comunicação é importante para determinar o estado emocional da mensagem que está sendo repassada.
+---
 
-#### 1.2.3. Como luta
+## 2. Não estamos sozinhos: NPCs e aliados
 
-{% include imagelocal.html
-    src="me-conta-uma-historia/god-of-war-kratos_o1WSA8h.webp"
-    alt="Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation."
-    caption="Figura: 15 anos de God of War: os bastidores do game que mudou a história do PlayStation"
-    idref="THE ENEMY, God of War"
-    ref="https://www.theenemy.com.br/"
-%}
+Personagens não jogáveis (NPCs) e aliados tornam o mundo do jogo mais vivo. Eles podem:
 
-Kratos, o personagem principal da série de jogos God of War, é conhecido por sua personalidade intensa e implacável. Ele é um guerreiro brutal e implacável, que muitas vezes usa a violência para resolver seus problemas.
+- Ajudar o jogador com dicas e recompensas
+- Contar histórias sobre o universo do jogo
+- Ser companheiros de aventura ou rivais divertidos
 
-Ele é motivado pela busca de vingança e pelo desejo de se redimir de seus pecados passados. Ele é frequentemente retratado como sendo solitário e amargurado, com um desprezo profundo pelos deuses que o traíram e o usaram.
+Pense em como cada NPC pode contribuir para a experiência do jogador!
 
-Apesar de sua natureza violenta, Kratos também é um personagem complexo, com uma história de fundo trágica e emoções profundas. Ele muitas vezes luta com suas próprias escolhas e o peso de suas ações passadas, o que adiciona camadas à sua personalidade e história.
+---
 
-No geral, a personalidade de Kratos é sombria e pesada, mas também cativante e fascinante, tornando-o um personagem icônico do mundo dos videogames.
+## 3. Conflitos e Inimigos
 
-#### 1.2.4. Como abre a porta
+Toda boa história tem desafios! Os inimigos podem ser:
 
-{% include imagelocal.html
-    src="me-conta-uma-historia/Portal-1024x576.webp"
-    alt="Figura: Escritor de Portal quer que o próximo jogo seja feito antes de ser velho demais para trabalhar."
-    caption="Figura: Abrir portas pode se tornar um bom gameplay."
-    idref="NOGUEIRA,Luiz"
-    ref="https://tecmasters.com.br/escritor-portal-proximo-jogo-antes-velho-demais/"
-%}
+- Outros personagens (vilões, rivais)
+- Criaturas fantásticas
+- Obstáculos naturais (tempestades, desastres)
+- O próprio tempo ou limitações do personagem
 
-Talvez uma ação simples, como abrir uma porta pode ser uma pista do tema do jogo, por exemplo, pense em um jogo de terror, abra devagar as portas para criar suspense, ou abra rápido para matar o jogador de susto.
+Varie o tamanho, comportamento, velocidade e ataques dos inimigos para criar batalhas divertidas e memoráveis. Chefes (bosses) devem ser únicos e desafiadores!
 
-#### 1.2.5. Como comemora
+---
 
-#### 1.2.6. Como fica esperando
+## 4. A importância da morte e do desafio
 
-{% include imagelocal.html
-    src="me-conta-uma-historia/Ghost_Recon_Wildlands_graphics_settings_high.webp"
-    alt="Figura: Ghost Recon Wildlands PC graphics, performance and 4K analysis."
-    caption="Figura: The PCGamesN tech review"
-    idfref="PCGAMESN"
-    ref="https://www.pcgamesn.com"
-%}
+A morte nos jogos não é só um fim, mas parte do aprendizado. Valorize as perdas (de amigos, animais ou até inimigos) para criar momentos emocionantes e dar peso às escolhas do jogador.
 
-### 1.3. Humorístico
+---
 
-{% include imagelocal.html
-    src="me-conta-uma-historia/img_normal.webp"
-    alt="Figura: O Merc With a Mouth finalmente tem um game (surtado) para chamar de seu."
-    caption="Figura: Jogo de humor."
-%}
+## 5. Dicas finais para criar histórias inesquecíveis
 
-Falar, agir de forma engraçada.
+- Observe pessoas reais para criar personagens autênticos.
+- Dê motivações claras e desafios interessantes.
+- Use detalhes visuais e comportamentais para enriquecer a narrativa.
+- Permita que o jogador personalize e se envolva com o universo do jogo.
+- Lembre-se: até os vilões têm suas razões!
 
-### 1.4. Heroico
+---
 
-Faça coisa heroicas, seja bom em algo e não esqueça das fraquezas.
-
-### 1.5. Valentão
-
-Faça coisas de valentão com estilo, não é uma pessoa legal, diga coisas legais, mas ele quase nunca grita.
-
-**Nota:** Cuidado com histórias licenciadas.
-{: .notice--warning}
-
-## 2. Motivação
-
-Os personagens nas histórias de videogames podem ter diferentes motivações, dependendo do enredo do jogo e da personalidade do personagem em questão. Algumas motivações comuns incluem:
-{: .text-justify}
-
-### 2.1. Salvar a amada ou amigo
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/i299893.webp"
-    alt="Figura: Resident Evil 7 é melhor game já feito na série."
-    caption="Figura: Tudo para salvar a amada."
-    idref="SOUZA,Leandro"
-    ref="https://canaltech.com.br/games/resident-evil-7-e-melhor-game-ja-feito-na-serie-analise-89764/"
-%}  
-
-O que você faria se sua amada ficasse presa em uma casa mal assombrada e possivelmente possuída por uma entidade maligna?
-
-Se a resposta é "Vou reativar o Facebook e  Tinder" acredito que uma boa dica é jogar esse jogo e tentar entender as motivações do personagem central.
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/o-livro-de-eli1-cke.webp"
-    alt="Figura: O Livro de Eli: significado do filme."
-    caption="Figura: A busca por um lugar acaba de levando para trilhar outros caminhos."
-    idref="MERCELLO,Carolina"
-    ref="https://www.culturagenial.com/o-livro-de-eli-significado-do-filme/"
-%}  
-
-O personagem central só consegue enxergar o seu real caminho quando percebe que ele não fez o que o livro ensinava, ajudar o outro e se conectar com alguém.
-
-Cumprir a sua missão o tinha transformado em **um** indivíduo alheio aos problemas dos outros, nas palavras dele "Siga seu caminho, não é da sua conta".
-
-- [IMDB - O Livro de Eli](https://www.imdb.com/title/tt1037705/ "IMDB - O Livro de Eli")
-
-- [Metacritic - The Book of Eli 2010](https://www.metacritic.com/movie/the-book-of-eli "Metacritic - The Book of Eli 2010")
-
-### 2.2. Sobrevivência
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/1LW4164252-4-341174c3997543728bd2b024c6e2a309.webp"
-    alt="Figura: 7 Days to Die Review."
-    caption="Figura: O jogador tem um tempo para sobreviver."
-    idref="LIFEWIRE"
-    ref="https://www.lifewire.com"
-%}  
-
-### 2.3. Vingança
-
-A busca pela vingança fez o personagem trilhar o caminho cegamente e violentamente.
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/cenarios-gladiador.webp"
-    alt="Figura: Filme Gladiador."
-    caption="Figura: A vingança é cega, e não permite ver o que está no teu entorno."
-%}  
-
-A vingança tem que ser justificada no roteiro, o mau é sempre mau e faz coisas de vilão.
-
-### 2.4. Salvar o mundo?
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/30092242177082.webp"
-    alt="Figura: Call of Duty: Modern Warfare"
-    caption="Figura: A guerra nunca muda"
-    idref="TECMUNDO,Fallout"
-    ref="https://www.tecmundo.com.br"
-%}  
-
-## 3. Morte
-
-A morte nos jogos eletrônicos é geralmente um mecanismo de jogo que representa a falha do jogador em concluir uma determinada tarefa ou desafio. Quando um jogador "morre" em um jogo, geralmente significa que o personagem que ele controlava no jogo perdeu todas as suas vidas e não pode mais continuar jogando. Isso pode resultar em diferentes consequências dependendo do jogo, como o reinício do jogo a partir do início, a perda de pontos ou itens, ou a necessidade de reiniciar uma seção específica do jogo.
-{: .text-justify}
-
-No entanto, a morte também pode ser um elemento importante da história em alguns jogos, como em jogos de terror, onde a morte do personagem é uma parte fundamental da trama. Em alguns jogos, o objetivo pode ser morrer de uma forma específica ou em uma determinada ordem para progredir na história ou ganhar algum tipo de recompensa.
-{: .text-justify}
-
-Em geral, a morte nos jogos eletrônicos é uma maneira de adicionar desafio e risco à jogabilidade, incentivando o jogador a aprender com seus erros e aprimorar suas habilidades para evitar a morte e continuar avançando no jogo.
-{: .text-justify}
-
-### 3.1. Valorize a morte do seus personagens
-
-- Dos amigos.
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/0cdf6b4c-op_mission_ghost_last.webp"
-    alt="Figura: How to unlock Season 2 Ghost Skin in Warzone and Modern Warfare."
-    caption="Figura: Mataram o melhor personagem do jogo."
-%}
-
-- Dos animais.
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/shadow-of-the-colossus-agro-tricks-how-to-perform-all-horse-stunts-to-unlock-the-trick-rider-trophy-1518023598995.webp"
-    alt="Figura: Shadow of the Colossus."
-    caption="Figura: Como executar truques com Agro e desbloquear o Troféu Trick Rider"
-    idref="EUROGAMER,Shadow of the Colossus"
-    ref="https://www.eurogamer.pt"
-%}
-
-- Até dos seus inimigos.
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/vaas-600x337.webp"
-    alt="Figura: Far Cry 3."
-    caption="Figura: Far Cry 3."
-%}  
-
-## 4. Nome
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/mass_effect_shepard_names.webp"
-    alt="Figura: Commander Shepard's first name is probably Sarah, or Jack."
-    caption="Figura: Escolha um nome para o seu personagem."
-    idref="VG247,Home"
-    ref="https://www.vg247.com"
-%}  
-
-A escolha dos nomes é importante para que o jogador possa explorar a personalidade dos personagens ou passar alguma ideia para o leitor sobre a história, por exemplo:
-
-### 4.1. Significado
-
-O nome Rachael do filme Blade Runner 1982 pode ser associado a sua origem bíblica Raquel onde é representada como uma mulher rica, bonita e estéril, esse último detalhe faz toda a diferença quando assistimos o segundo filme, pois ela sendo um replicante é estéril e mesmo assim concebeu uma criança.
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/rachael-em-blade-runner-cke.webp"
-    alt="Figura: Blade Runner (1982)."
-    caption="Figura: Análise e significados do filme"
-    idref="AIDAR,Laura"
-    ref="https://www.culturagenial.com/blade-runner-1982-analise-significados-do-filme/"
-%}  
-
-### 4.2. Nome Curto ou longo?
-
-Podemos respondendo isso com "Não confunda o jogador com nomes complexos e longos", você deve ter estudado história do Brasil e definir a linhagem do imperador da seguinte forma, o imperador com barba e o sem barba, e a identificação é pelo numeral que representa a sequencia hereditária ([Lista de monarcas do Brasil](https://pt.wikipedia.org/wiki/Lista_de_monarcas_do_Brasil)).
-
-O personagem L do mangá Death Note é um exemplo interessante de nome curto pois segundo o criador:
-
-Para o seu nome, Ohba queria usar uma única letra que contivesse muito significado: ele considerou "I" e "J", mas decidiu que não eram tão bons quanto "L", e escolheu "L" após cuidada ponderação.[6] O pseudônimo de Ryuuzaki (竜崎 Ryūzaki) foi lhe dado por que em japonês, L é pronunciado como R.
-{: .notice--info}
-
-## 5. Forma
-
-O formato de um personagem de videogame pode expressar sua personalidade de várias maneiras, incluindo:
-
-### 5.1. Proporções faciais
-
-Trabalhe as expressões e cuidado com o "uncanny valley".
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/oriblindforestart.0.0.webp"
-    alt="Figura: Ori and the Blind."
-    caption="Figura: Has the most powerful opening to any game in 2015"
-    idref="POLYGON, Ori and the Blind"
-    ref="https://www.polygon.com"
-%}  
-
-### 5.2. Movimento
-
-Pessoas são articuladas, cuidado com o orçamento.
-
-### 5.3. Humanidade
-
-Se parece com humano então faz coisas humanas.
-
-## 6. Customização
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/tier3_ranger_armor-814x600.webp"
-    alt="Figura: Character development."
-    caption="Figura: Altere as características do seu personagem"
-    idref="AGEOFCONAN,Home"
-    ref="https://www.ageofconan.com"
-%}  
-
-- Nome;
-
-- Aparência;
-
-- Roupa;
-
-- Veículos;
-
-- Casa;
-
-- Armas;
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/super-people-best-guns-assault-rifle-1024x576.webp"
-    alt="Figura: Best Guns in Super People."
-    caption="Figura: Armas, muitas armas"
-    idref="PROGAMEGUIDES, Guns"
-    ref="https://progameguides.com"
-%}  
-
-## 7. Não estamos sozinhos
-
-- Segundo personagem;
-
-- Tem que ser úteis no gameplay;
-
-- Complexidade na IA;
-
-- Os opostos se atraem.
-
-### 7.1. NPC- Personagens não jogáveis
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/deckard_cain_hots.webp"
-    alt="Figura: Diablo 2."
-    caption="Figura: Search for Deckard Cain quest failed in Diablo 2 Resurrected: What are the consequences?"
-    idref="GINX,Diablo"
-    ref="https://www.ginx.tv"
-%}  
-
-- Objetivos do jogador;
-
-- Acesso a novos lugares;
-
-- Recompensas;
-
-- Ferramentas para derrotar inimigos;
-
-- Respostas para quebra-cabeças;
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/2014-10-02-far-cry-4-longinus-fornecedor-armas.webp"
-    alt="Figura: Far Cry 4."
-    caption="Figura: Trailer mostra arsenal do game à disposição dos jogadores"
-    idref="TECHTUDO,Far Cry 4"
-    ref="https://www.techtudo.com.br"
-%}  
-
-- História sobre o mundo;
-
-- Instruções ao jogador;
-
-- Um Elogio a nosso herói;
-
-- Humor.
-
-## 8. Eles todos me querem morto
-
-A jornada não acaba aqui. A morte é apenas um outro caminho... que todos temos que tomar. **Gandalf - Senhor dos Anéis**.
-{: .notice}
-
-### 8.1. Tipos de conflito
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/PREVIEW_SCREENSHOT1_171050-1024x576.webp"
-    alt="Figura: Análise – Shadow of the Tomb Raider"
-    caption="Figura: The Forge."
-    idref="PSXBRASIL, The Forge"
-    ref="https://psxbrasil.com.br"
-%}  
-
-- Homem versus natureza;
-
-- Homem versus self;
-
-- Homem versus homem;
-
-- Homem versus criaturas;
-
-### 8.2. Forma segue a função
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/resident-evil-village-bosses-guide-list-lady-dimitrescu-900x506.webp"
-    alt="Figura: Resident Evil Village."
-    caption="Figura: Grande e horripilante, perigoso."
-    idref="PCGAMESN,Resident Evil Village"
-    ref="https://www.pcgamesn.com"
-%}  
-
-- Tamanho;
-
-- Comportamento;
-
-- Velocidade;
-
-- Movimento;
-
-- Ataques;
-
-- Agressão;
-
-- Saúde;
-
-### 8.3. Tamanho
-
-- Pequenos não são mais altos que o personagem;
-
-- Médios são mais ou menos da mesma altura do personagem do jogador;
-
-- Grandes são muitas cabeças mais alto que o jogador;
-
-- Imensos são pelo menos duas vezes o tamanho do jogador;
-
-- Gigantes são tão grandes que só podem ser vistos completamente a uma certa distância;
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/8b1b5a81a7cf1f89151207fb9f6a1977.webp"
-    alt="Figura: World of Warcraft."
-    caption="Figura: The 50 Biggest Villains in World of Warcraft (Ranked Based on Badassery)"
-    idref="GAMERSDECIDE,Wow"
-    ref="https://www.gamersdecide.com"
-%}  
-
-### 8.4. Comportamento
-
-- Patrulheiro;
-
-- Perseguidor;
-
-- Atirador;
-
-- Guarda;
-
-- Voador;
-
-- Bombardeiro;
-
-- Sumidor;
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/155054_the_lich_king.webp"
-    alt="Figura: The 8 most memorable moments from World of Warcraft boss fights."
-    caption="Figura: For better or worse."
-    idref="POLYGON,Wow boss fights"
-    ref="https://www.polygon.com/"
-%}  
-
-- Teletransportador;
-
-- Bloqueador;
-
-- Dublê;
-
-### 8.5. Velocidade
-
-- Lento;
-- Velocidade média;
-- Rápido;
-- Ligeiro.
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/metal-gear-solid-analysis-bosses-e1588340602137-780x439.webp"
-    alt="Figura: Phases of Dealing With Hidden Trauma."
-    caption="Figura: Pode ser lento, mas é mortal."
-%}  
-
-### 8.6. Lutar com inimigos deve ser divertido
-
-Os inimigos dever enfrentados, não evitados.
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/Assassins-Creed-Valhalla-Combat.webp"
-    alt="Figura: Assassin's Creed Valhalla Preview Impressions."
-    caption="Figura: Preview Impressions: A Strong Successor to Odyssey"
-    ref="https://www.cbr.com"
-%}  
-
-- Eles têm o dinheiro;
-
-- Bloqueiam o caminho;
-
-- Eles têm a chave;
-
-- Você precisa tirar seu poder;
-
-### 8.7. Ataques
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/Combat-Analysis-2.webp"
-    alt="Figura: Kirby’s Alpha 1 Combat Analysis."
-    caption="Figura: Tiro porrada e bomba."
-    idref="ASHESPOST, Apha 1"
-    ref="https://ashespost.com"
-%}  
-
-- Corpo a corpo;
-
-- Com armas;
-
-- Com projéteis;
-
-- Dano persistente;
-
-- Ataques telegrafados.
-
-### 8.8. Nem tudo é ataque
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/enemies.webp"
-    alt="Figura: The Ideal Video Game Enemy."
-    caption="Figura: Diversifique as opções de ataque e defesa."
-    idref="THE FANDOMENTALS, The Ideal Video Game Enemy"
-    ref="https://www.thefandomentals.com"
-%}  
-
-- Knockback;
-
-- Atordoamento;
-
-- Congele/paralise/capture;
-
-- Recuperação/cura;
-
-- Carga;
-
-- Ladrão;
-
-- Parasita;
-
-- Comportamento inesperado;
-
-- Vulnerabilidades ou resistências.
-
-### 8.9. Faça o jogador odiar seu inimigo
-
-Inimigos não inimigos.
-
-- Gremlin -Atrapalha  o jogador, exemplo Godzilla em SimCity;
-
-- Carrasco - Desafia e insulta o jogador no curso do jogo, mas não confronta ou o ataca diretamente;
-
-- Tempo - Relógio fazendo tique-taque;
-
-- Competidor humano - Jogador versus jogador.
-
-### 8.10. BOSS
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/nemesis_t-type_wiki-1024x512.webp"
-    alt="Figura: Nemesis T-Type."
-    caption="Figura: Ele incomoda muito."
-    idref="RESIDENT EVIL, Home"
-    ref="https://residentevil.com.br"
-%}  
-
-#### 8.10.1. Quando enfrentar?
-
-- Movimentos aprendidos;
-
-- Novas habilidades;
-
-- Combinação.
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/darth-vader-a-visual-history-of-star-wars-greatest_gfbx.webp"
-    alt="Figura: Darth Vader nos games."
-    caption="Figura: Darth Vader nos games."
-%}  
-
-#### 8.10.2. Quem é?
-
-- O que o torna um adversário digno?
-
-- O que ele representa para o herói?
-
-- O que o herói ganha em derrotar o vilão?
-
-- Quais são os seus objetivos e motivações?
-
-- Qual o trabalho do boss?
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/25903731993_8b58285c1d_b.webp"
-    alt="Figura: Dark Souls Game Design Analysis."
-    caption="Figura: Why Do We Come Back To Die?"
-    idref="GAMEDEVELOPER, Dark Souls"
-    ref="https://www.gamedeveloper.com/"
-%}  
-
-## 9. Componentes de uma luta
-
-- Ataque primário;
-
-- Ataque invulnerável;
-
-- Oportunidades;
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/2015-02-27-fatality.webp"
-    alt="Figura: Mortal Kombat."
-    caption="Figura: Relembre os fatalities clássicos da série de luta"
-    idref="TECHTUDO,Mortal Kombat"
-    ref="https://www.techtudo.com.br"
-%}  
-
-### 9.1. Deixe o jogador administrar o golpe final
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/Dragon.jpg.webp"
-    alt="Figura: This Is Why I Hate Video Game Boss Fights."
-    caption="Figura: This Is Why I Hate Video Game Boss Fights."
-%}
-
-### 9.2. Locação
-
-{% include imagelocal.html
-    src="me-conta-uma-historia/dark-souls-cad5d.webp"
-    alt="Figura: The Best Dark Souls III Boss Order for Beginners"
-    caption="Figura: The Best Dark Souls III Boss Order for Beginners"
-%}
-
-O lugar é sinistro? tem muito item espalhado no chão? só tem uma saída? prepara-se, você vai gastar várias horas tentando sair do lugar.
+**Agora é sua vez! Use essas dicas para criar personagens e histórias que vão emocionar e divertir quem jogar o seu game. Solte a imaginação e divirta-se!**

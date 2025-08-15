@@ -1,12 +1,12 @@
 ---
 title: Me conta uma historia
-layout: collection
-permalink: /me-conta-uma-historia/me-conta-uma-historia
+##layout: collection
+permalink: /:title
 collection: me-conta-uma-historia
-entries_layout: grid
-classes: wide
+##entries_layout: grid
+##classes: wide
 order: 0
-sort_by: order
+##sort_by: order
 excerpt: "Aprenda sobre a organização de narrativas de jogos eletrônicos."
 header:
   overlay_color: "#012024"
@@ -16,7 +16,6 @@ tags:
   - Conceito
   - Curso
   - Roteiro
-sidebar: false
 ---
 
 ## Conteúdo do curso
