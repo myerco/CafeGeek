@@ -1,7 +1,7 @@
 ---
 title: Organizando as ideias
 categories: 
-  - "me-conta-uma-historia"
+  - me-conta-uma-historia
 permalink: /:categories/:title  
 excerpt: Descubra, de forma simples e divertida, as etapas para transformar uma ideia em um jogo digital!
 date: 2024-03-04T08:48:05-04:00
