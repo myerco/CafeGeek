@@ -357,7 +357,7 @@ defaults:
       author_profile: true
       share: false
       comments: false
-  # Jogatina           
+  # Jogatina das décadas          
   - scope:
       path: "_a-jogatina-das-decadas"
       type: a-jogatina-das-decadas
@@ -374,7 +374,7 @@ defaults:
 # Me conta uma história
   - scope:
       path: "_me-conta-uma-historia"
-      type: "me-conta-uma-historia"
+      type: me-conta-uma-historia
     values:
       layout: single
       read_time: true      
@@ -382,7 +382,6 @@ defaults:
       share: true      
       show_date: true
       sort_by: order            
-      category: "Desenvolvimento de jogos digitais"      
       toc: true
       sidebar:
         nav: dev_me_conta        
