@@ -6,7 +6,7 @@ permalink: /:collection/:title
 excerpt: Descubra, de forma simples e divertida, as etapas para transformar uma ideia em um jogo digital!
 date: 2024-03-04T08:48:05-04:00
 last_modified_at: 2024-03-04T08:48:05-04:00
-order: 2
+sort_order: 2
 ---
 
 > Se você quiser fazer uma torta de maçã do nada, você precisa, primeiro, inventar o universo.  

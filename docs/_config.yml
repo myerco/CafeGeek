@@ -396,7 +396,7 @@ defaults:
       share: true 
       show_date: true
       toc: true      
-      sort_by: order
+      sort_by: sort_order
       sidebar:
         nav: dev_unreal_1      
 # Computação Gráfica

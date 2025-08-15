@@ -2,7 +2,7 @@
 title: Me conta uma historia
 permalink: /:title
 collection: me-conta-uma-historia
-order: 0
+sort_order: 0
 sort_by: order
 excerpt: "Aprenda sobre a organização de narrativas de jogos eletrônicos."
 header:
