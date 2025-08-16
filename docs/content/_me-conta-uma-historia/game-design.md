@@ -6,7 +6,7 @@ permalink: /:collection/:title
 excerpt: Descubra o que faz um Game Designer, suas habilidades e como começar nessa carreira criativa!
 date: 2024-03-02T08:48:05-04:00
 last_modified_at: 2024-02-10T08:48:05-04:00
-sort_by: 1
+ordem: 1
 ---
 
 > Por baixo dessa carne existe um ideal. E as ideias nunca morrem...  

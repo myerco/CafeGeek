@@ -6,7 +6,7 @@ permalink: /:collection/:title
 excerpt: Descubra, de forma simples e divertida, as etapas para transformar uma ideia em um jogo digital!
 date: 2024-03-04T08:48:05-04:00
 last_modified_at: 2024-03-04T08:48:05-04:00
-sort_by: 2
+ordem: 2
 ---
 
 > Se você quiser fazer uma torta de maçã do nada, você precisa, primeiro, inventar o universo.  
@@ -256,4 +256,4 @@ A maior virtude do game é, sem dúvida, conseguir comover sem sequer dizer uma 
 
 ---
 
-**Agora é com você! Organize suas ideias, monte sua equipe e comece a criar o seu próprio universo de jogos. Divirta-se nessa jornada criativa!
+**Agora é com você! Organize suas ideias, monte sua equipe e comece a criar o seu próprio universo de jogos. Divirta-se nessa jornada criativa!**

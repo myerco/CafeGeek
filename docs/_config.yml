@@ -301,7 +301,7 @@ collections:
     permalink: /:collection/:path/    
   me-conta-uma-historia:
     output: true
-    sort_by: order
+    sort_by: ordem
     permalink: /:collection/:path/
   unreal-engine-com-c-e-blueprint:
     output: true
@@ -381,7 +381,7 @@ defaults:
       author_profile: false
       share: true      
       show_date: true
-      sort_by: order            
+      sort_by: ordem            
       toc: true
       sidebar:
         nav: dev_me_conta        

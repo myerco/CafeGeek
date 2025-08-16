@@ -6,7 +6,7 @@ permalink: /:collection/:title
 excerpt: Descubra, de forma simples e divertida, os elementos essenciais para criar histórias envolventes em jogos digitais!
 date: 2024-03-03T08:48:05-04:00
 last_modified_at: 2024-03-03T08:48:05-04:00
-sort_by: 3
+ordem: 3
 ---
 
 > Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro.  
