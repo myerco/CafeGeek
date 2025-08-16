@@ -301,7 +301,7 @@ collections:
     permalink: /:collection/:path/    
   me-conta-uma-historia:
     output: true
-    sort_by: sort_order
+    sort_by: order
     permalink: /:collection/:path/
   unreal-engine-com-c-e-blueprint:
     output: true
@@ -396,7 +396,7 @@ defaults:
       share: true 
       show_date: true
       toc: true      
-      sort_by: sort_order
+      sort_by: order
       sidebar:
         nav: dev_unreal_1      
 # Computação Gráfica

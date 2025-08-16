@@ -130,7 +130,6 @@ dev_unreal_1:
 
 dev_computacao:
   - title: COMPUTAÇÃO GRÁFICA    
-    url: /computacao-grafica/computa-o-gr-fica
     children:
       - title: Introdução
         url: /computacao-grafica/introducao-a-computacao-grafica
@@ -146,7 +145,6 @@ dev_computacao:
 
 dev_me_conta:
   - title: ME CONTA UMA HISTÓRIA
-    url: /me-conta-uma-historia/me-conta-uma-historia
     children:          
       - title: Game Design
         url: /me-conta-uma-historia/game-design
