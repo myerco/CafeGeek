@@ -5,7 +5,7 @@ categories:
   - "unreal-engine-com-c-e-blueprint"
   - "capitulo-4-materiais-e-landscape"
 permalink: /:categories/:title
-date: 2024-03-01T08:48:05-04:00
+date: 2024-06-01T08:48:05-04:00
 last_modified_at: 2023-03-28T08:48:05-04:00
 order: 401
 tags:

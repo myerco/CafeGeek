@@ -5,6 +5,7 @@ categories:
   - "unreal-engine-com-c-e-blueprint"
   - "capitulo-8-c"
 permalink: /:categories/:title
+date: 2024-09-01T11:48:05-04:00
 last_modified_at: 2023-03-27T08:48:05-04:00
 order: 804
 tags:

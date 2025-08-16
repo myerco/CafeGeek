@@ -52,7 +52,7 @@ dev_unreal_1:
         url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/atores-e-seus-componentes
       - title: Actor, Pawn e Character 
         url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/actor-pawn-e-character               
-      - title: Herança
+      - title: Herança de Objetos
         url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/heran-a-de-objetos        
       - title: Colisão entre objetos
         url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/colis-o-entre-objetos
@@ -114,6 +114,8 @@ dev_unreal_1:
         url: /unreal-engine-com-c-e-blueprint/capitulo-7-multiplayer/multiplayer
   - title: "Capítulo 8 - C++"
     children:
+      - title: Unreal Engine e C++
+        url: /unreal-engine-com-c-e-blueprint/capitulo-8-c/programacao-c-no-unreal-engine
       - title: Controle de versão
         url: /unreal-engine-com-c-e-blueprint/capitulo-8-c/controle-de-versao
       - title: Estruturas de Arquivos
@@ -124,9 +126,6 @@ dev_unreal_1:
         url:  /unreal-engine-com-c-e-blueprint/capitulo-8-c/variaveis-e-ponteiros
       - title: Classes
         url:  /unreal-engine-com-c-e-blueprint/capitulo-8-c/classes-de-objetos-na-linguagem-c
-      - title: Unreal Engine e C++
-        url: /unreal-engine-com-c-e-blueprint/capitulo-8-c/programacao-c-no-unreal-engine
-
 
 dev_computacao:
   - title: COMPUTAÇÃO GRÁFICA    
