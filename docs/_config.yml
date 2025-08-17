@@ -411,7 +411,6 @@ defaults:
       show_date: true
       toc: true 
       sort_by: order      
-      category: "Desenvolvimento de jogos digitais"
       sidebar:
         nav: dev_computacao                     
 # A taberna do pônei saltitante

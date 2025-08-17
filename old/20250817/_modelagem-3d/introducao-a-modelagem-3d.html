@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infográfico: O Universo da Modelagem 3D com Blender</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 400px;
+        }
+        @media (min-width: 768px) {
+            .chart-container {
+                height: 350px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-[#0D1B2A] text-[#E0E1DD]">
+
+    <div class="container mx-auto p-4 md:p-8">
+
+        <header class="text-center my-12">
+            <h1 class="text-4xl md:text-6xl font-black tracking-tight uppercase">O Universo da Modelagem 3D</h1>
+            <p class="text-xl md:text-2xl text-[#778DA9] mt-2">Uma jornada visual pelo processo criativo com Blender</p>
+        </header>
+
+        <main class="space-y-12">
+            
+            <section class="text-center bg-[#1B263B] rounded-lg shadow-2xl p-8">
+                <h2 class="text-2xl font-bold text-center mb-2">Um Mercado em Plena Expansão</h2>
+                <p class="text-lg text-[#778DA9] max-w-3xl mx-auto mb-6">A modelagem 3D deixou de ser um nicho para se tornar uma força motriz em diversas indústrias. A demanda por artistas e especialistas 3D cresce exponencialmente, impulsionada por novas tecnologias.</p>
+                <div class="text-6xl md:text-8xl font-black text-[#36A2EB]">
+                    $20.3 Bilhões
+                </div>
+                <p class="text-lg text-[#778DA9] mt-2">Valor projetado para o mercado global de 3D até 2028.</p>
+            </section>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+
+                <div class="bg-[#1B263B] rounded-lg shadow-xl p-6 flex flex-col">
+                    <h3 class="text-xl font-bold mb-4 text-center">Aplicações da Modelagem 3D</h3>
+                    <p class="text-[#778DA9] text-center mb-4 flex-grow">Da tela do cinema ao projeto de um novo produto, a modelagem 3D é a base para a inovação visual. O entretenimento, como jogos e filmes, lidera o uso da tecnologia, mas sua aplicação na engenharia e arquitetura é fundamental e consolidada.</p>
+                    <div class="chart-container h-64 md:h-80">
+                        <canvas id="applicationsChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="bg-[#1B263B] rounded-lg shadow-xl p-6 flex flex-col">
+                    <h3 class="text-xl font-bold mb-4 text-center">Demanda de Habilidades no Mercado</h3>
+                    <p class="text-[#778DA9] text-center mb-4 flex-grow">O mercado busca profissionais versáteis. A modelagem "Hard Surface" é amplamente requisitada para produtos e cenários, enquanto a modelagem "Orgânica" é crucial para personagens e elementos da natureza, sendo essencial em jogos e animações.</p>
+                    <div class="chart-container h-64 md:h-80">
+                        <canvas id="skillsDemandChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="md:col-span-2 bg-[#1B263B] rounded-lg shadow-xl p-6">
+                    <h3 class="text-xl font-bold mb-6 text-center">O Processo Criativo: Do Conceito ao Render</h3>
+                    <p class="text-[#778DA9] text-center mb-8 max-w-4xl mx-auto">A criação de uma cena 3D segue um fluxo de trabalho bem definido. Cada etapa constrói sobre a anterior, transformando uma simples ideia em um universo digital completo e imersivo.</p>
+                    <div class="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-0">
+                        <div class="text-center p-4 w-full md:w-1/4">
+                            <div class="text-4xl mb-2">🎨</div>
+                            <h4 class="font-bold">1. Conceito</h4>
+                            <p class="text-sm text-[#778DA9]">A fase inicial onde a ideia é explorada através de esboços e artes conceituais.</p>
+                        </div>
+                        <div class="text-2xl text-[#415A77] hidden md:block">&rarr;</div>
+                        <div class="text-2xl text-[#415A77] md:hidden">&darr;</div>
+                        <div class="text-center p-4 w-full md:w-1/4">
+                            <div class="text-4xl mb-2">🧊</div>
+                            <h4 class="font-bold">2. Modelagem</h4>
+                            <p class="text-sm text-[#778DA9]">Construção dos objetos tridimensionais, dando forma e volume aos elementos da cena.</p>
+                        </div>
+                        <div class="text-2xl text-[#415A77] hidden md:block">&rarr;</div>
+                        <div class="text-2xl text-[#415A77] md:hidden">&darr;</div>
+                        <div class="text-center p-4 w-full md:w-1/4">
+                            <div class="text-4xl mb-2">💡</div>
+                            <h4 class="font-bold">3. Layout e Textura</h4>
+                            <p class="text-sm text-[#778DA9]">Aplicação de materiais, cores, iluminação e posicionamento de câmeras na cena.</p>
+                        </div>
+                        <div class="text-2xl text-[#415A77] hidden md:block">&rarr;</div>
+                        <div class="text-2xl text-[#415A77] md:hidden">&darr;</div>
+                        <div class="text-center p-4 w-full md:w-1/4">
+                            <div class="text-4xl mb-2">🖼️</div>
+                            <h4 class="font-bold">4. Geração</h4>
+                            <p class="text-sm text-[#778DA9]">Renderização da imagem final ou animação, o processo que calcula e gera o resultado visual.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-[#1B263B] rounded-lg shadow-xl p-6 flex flex-col">
+                    <h3 class="text-xl font-bold mb-4 text-center">Popularidade dos Softwares 3D</h3>
+                    <p class="text-[#778DA9] text-center mb-4 flex-grow">O Blender se destaca no cenário 3D por ser uma ferramenta poderosa, completa e, acima de tudo, gratuita. Sua popularidade cresce entre iniciantes e estúdios, competindo diretamente com gigantes do mercado.</p>
+                    <div class="chart-container h-72 md:h-80">
+                        <canvas id="softwarePopularityChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="bg-[#1B263B] rounded-lg shadow-xl p-6 flex flex-col">
+                    <h3 class="text-xl font-bold mb-4 text-center">Habilidades Essenciais no Blender</h3>
+                    <p class="text-[#778DA9] text-center mb-4 flex-grow">Dominar o Blender envolve um conjunto equilibrado de competências. Da modelagem poligonal à escultura digital, cada habilidade contribui para a criação de projetos complexos e visualmente impressionantes.</p>
+                    <div class="chart-container h-72 md:h-80">
+                        <canvas id="blenderSkillsChart"></canvas>
+                    </div>
+                </div>
+
+            </div>
+            
+            <footer class="text-center mt-12 py-8 border-t border-[#415A77]">
+                <p class="text-xl text-[#778DA9]">Pronto para começar sua jornada no mundo 3D?</p>
+                <p class="text-md text-[#415A77]">O Blender é a porta de entrada perfeita para um universo de criatividade sem limites.</p>
+            </footer>
+
+        </main>
+    </div>
+
+    <script>
+        const tooltipTitleCallback = function(tooltipItems) {
+            const item = tooltipItems[0];
+            let label = item.chart.data.labels[item.dataIndex];
+            if (Array.isArray(label)) {
+                return label.join(' ');
+            } else {
+                return label;
+            }
+        };
+
+        const wrapLabel = (label, maxLength = 16) => {
+            if (label.length <= maxLength) {
+                return label;
+            }
+            const words = label.split(' ');
+            const lines = [];
+            let currentLine = '';
+            for (const word of words) {
+                if ((currentLine + word).length > maxLength) {
+                    lines.push(currentLine.trim());
+                    currentLine = '';
+                }
+                currentLine += word + ' ';
+            }
+            lines.push(currentLine.trim());
+            return lines;
+        };
+
+        const chartColors = ['#36A2EB', '#FF6384', '#FFCE56', '#4BC0C0', '#9966FF', '#FF9F40'];
+        const gridColor = 'rgba(119, 141, 169, 0.2)';
+        const textColor = '#E0E1DD';
+
+        new Chart(document.getElementById('applicationsChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['Jogos & Cinema', 'Arquitetura & Engenharia', 'Design de Produto', 'Outros'],
+                datasets: [{
+                    label: 'Uso por Indústria',
+                    data: [45, 25, 20, 10],
+                    backgroundColor: chartColors,
+                    borderColor: '#1B263B',
+                    borderWidth: 4,
+                    hoverOffset: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            color: textColor,
+                            font: { size: 12 }
+                        }
+                    },
+                    tooltip: { callbacks: { title: tooltipTitleCallback } }
+                }
+            }
+        });
+
+        new Chart(document.getElementById('skillsDemandChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Hard Surface', 'Orgânica'],
+                datasets: [{
+                    label: 'Demanda de Mercado (%)',
+                    data: [65, 35],
+                    backgroundColor: [chartColors[0], chartColors[1]],
+                    borderColor: [chartColors[0], chartColors[1]],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        grid: { color: gridColor },
+                        ticks: { color: textColor }
+                    },
+                    y: {
+                        grid: { display: false },
+                        ticks: { color: textColor, font: { size: 14 } }
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { callbacks: { title: tooltipTitleCallback } }
+                }
+            }
+        });
+        
+        const softwareLabels = ['Blender (Gratuito)', 'Autodesk Maya', 'Autodesk 3ds Max', 'Cinema 4D'].map(label => wrapLabel(label));
+        new Chart(document.getElementById('softwarePopularityChart'), {
+            type: 'bar',
+            data: {
+                labels: softwareLabels,
+                datasets: [{
+                    label: 'Preferência da Comunidade (%)',
+                    data: [48, 25, 15, 12],
+                    backgroundColor: chartColors,
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grid: { color: gridColor },
+                        ticks: { color: textColor }
+                    },
+                    x: {
+                        grid: { display: false },
+                        ticks: { color: textColor }
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { callbacks: { title: tooltipTitleCallback } }
+                }
+            }
+        });
+
+        new Chart(document.getElementById('blenderSkillsChart'), {
+            type: 'radar',
+            data: {
+                labels: ['Modelagem', 'Mapeamento UV', 'Texturização', 'Iluminação', 'Animação', 'Escultura'],
+                datasets: [{
+                    label: 'Nível de Importância',
+                    data: [9, 7, 8, 7, 6, 8],
+                    fill: true,
+                    backgroundColor: 'rgba(54, 162, 235, 0.4)',
+                    borderColor: 'rgb(54, 162, 235)',
+                    pointBackgroundColor: 'rgb(54, 162, 235)',
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: 'rgb(54, 162, 235)'
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    r: {
+                        angleLines: { color: gridColor },
+                        grid: { color: gridColor },
+                        pointLabels: {
+                            color: textColor,
+                            font: { size: 12 }
+                        },
+                        ticks: {
+                            color: textColor,
+                            backdropColor: 'transparent',
+                            stepSize: 2
+                        }
+                    }
+                },
+                plugins: {
+                    legend: { display: false },
+                    tooltip: { callbacks: { title: tooltipTitleCallback } }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
