@@ -131,26 +131,26 @@ dev_computacao:
   - title: COMPUTAÇÃO GRÁFICA    
     children:
       - title: Introdução
-        url: /computacao-grafica/introducao-a-computacao-grafica
+        url: /computacao-grafica/introducao-a-computacao-grafica/
       - title: Estrutura de objetos 3D
-        url: /computacao-grafica/estruturas-de-objetos-3d   
+        url: /computacao-grafica/estruturas-de-objetos-3d/   
       - title: Renderização 
         url:  /computacao-grafica/renderizacao
       - title: Renderização de objetos com Unreal Engine
-        url:  /computacao-grafica/renderizacao-de-objetos-com-unreal-engine
+        url:  /computacao-grafica/renderizacao-de-objetos-com-unreal-engine/
       - title: Visibilidade e Oclusão
-        url:  /computacao-grafica/visibilidade-e-oclusao            
+        url:  /computacao-grafica/visibilidade-e-oclusao/            
  
 
 dev_me_conta:
   - title: ME CONTA UMA HISTÓRIA
     children:          
       - title: Game Design
-        url: /me-conta-uma-historia/game-design
+        url: /me-conta-uma-historia/game-design/
       - title: Organizando as ideias
-        url: /me-conta-uma-historia/organizando-as-ideias
+        url: /me-conta-uma-historia/organizando-as-ideias/
       - title: Os elementos da história
-        url: /me-conta-uma-historia/os-elementos-da-historia     
+        url: /me-conta-uma-historia/os-elementos-da-historia/     
 
 dev_jogatina:
   - title: A jogatina das décadas
@@ -158,17 +158,17 @@ dev_jogatina:
       - title: O jogo
         url: /a-jogatina-das-decadas/o-jogo/
       - title: Qual a função do jogo?
-        url: /a-jogatina-das-decadas/qual-a-funcao-do-jogo
+        url: /a-jogatina-das-decadas/qual-a-funcao-do-jogo/
       - title: Quem Joga?
-        url: /a-jogatina-das-decadas/quem-joga
+        url: /a-jogatina-das-decadas/quem-joga/
       - title: Jogos Eletrônicos
-        url: /a-jogatina-das-decadas/jogos-eletronicos        
+        url: /a-jogatina-das-decadas/jogos-eletronicos/        
       - title: A evolução dos jogos eletrônicos
-        url: /a-jogatina-das-decadas/a-evolucao-dos-jogos-eletronicos
+        url: /a-jogatina-das-decadas/a-evolucao-dos-jogos-eletronicos/
       - title: O Mercado de jogos Eletrônicos
-        url: /a-jogatina-das-decadas/o-mercado-de-jogos-eletronicos
+        url: /a-jogatina-das-decadas/o-mercado-de-jogos-eletronicos/
       - title: O comportamento
-        url: /a-jogatina-das-decadas/o-comportamento                
+        url: /a-jogatina-das-decadas/o-comportamento/                
 
 dev_modelagem3d:
   - title: MODELAGEM 3D

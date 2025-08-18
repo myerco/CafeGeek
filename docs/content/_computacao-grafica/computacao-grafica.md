@@ -1,8 +1,6 @@
 ---
 title: Computação gráfica
 layout: collection
-permalink: /:title
-collection: computacao-grafica
 entries_layout: grid
 classes: wide
 order: 0

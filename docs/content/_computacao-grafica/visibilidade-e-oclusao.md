@@ -1,9 +1,7 @@
 ---
 title: Visibilidade e Oclusão
-permalink: /:collection/:title
 excerpt: Neste capítulo apresentaremos o processo de visualização e oclusão de objetos.
 date: 2024-03-05T08:48:05-04:00
-last_modified_at: 2023-03-27T08:48:05-04:00
 order: 105
 ---
 

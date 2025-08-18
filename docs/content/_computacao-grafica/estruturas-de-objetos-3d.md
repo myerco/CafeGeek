@@ -1,9 +1,7 @@
 ---
 title: Estrutura de objetos 3D
-permalink: /:collection/:title
 excerpt: Neste curso apresentaremos conceitos de computação gráfica aplicados na prática usando o Unreal Engine e o Autodesk Maya.
 date: 2024-03-02T08:48:05-04:00
-last_modified_at: 2023-03-27T08:48:05-04:00
 order: 102
 tags:
   - objetos 3D
