@@ -1,6 +1,5 @@
 ---
 title: Me conta uma historia
-permalink: /:title
 collection: me-conta-uma-historia
 layout: collection
 ordem: 0
