@@ -156,7 +156,7 @@ dev_jogatina:
   - title: A jogatina das décadas
     children:      
       - title: O jogo
-        url: /a-jogatina-das-decadas/o-jogo
+        url: /a-jogatina-das-decadas/o-jogo/
       - title: Qual a função do jogo?
         url: /a-jogatina-das-decadas/qual-a-funcao-do-jogo
       - title: Quem Joga?
