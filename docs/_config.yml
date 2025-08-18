@@ -383,6 +383,7 @@ defaults:
       show_date: true
       sort_by: ordem            
       toc: true
+      category: "Me conta uma história"                                
       sidebar:
         nav: dev_me_conta        
 # Unreal Engine 
