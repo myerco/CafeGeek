@@ -1,11 +1,7 @@
 ---
 title: O jogo
-categories: 
-  - "a-jogatina-das-decadas"
-permalink:  /:categories/:title
 excerpt: "O jogo é uma Atividade recreativa com regras, competição física ou mental, preparação para desafios futuros, impulso inato de dominar e competir."
 date: 2024-03-01T08:48:05-04:00
-last_modified_at: 2024-03-01T08:48:05-04:00
 order: 1
 tags:
   - conceito

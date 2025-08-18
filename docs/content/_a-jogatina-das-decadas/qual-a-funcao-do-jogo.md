@@ -1,11 +1,7 @@
 ---
 title: Qual a função do jogo?
-categories: 
-  - "a-jogatina-das-decadas"
-permalink:  /:categories/:title
 excerpt: "O jogo, seja uma competição por algo ou sua representação, está presente em vários aspectos da sociedade."
 date: 2024-03-02T08:48:05-04:00
-last_modified_at: 2024-03-02T08:48:05-04:00
 order: 2
 tags:
   - conceito

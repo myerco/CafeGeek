@@ -1,10 +1,6 @@
 ---
 title: O comportamento
-categories: 
-  - "a-jogatina-das-decadas"
-permalink:  /:categories/:title
 excerpt: "Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?"
-last_modified_at: 2024-03-07T08:48:05-04:00
 date: 2024-03-07T08:48:05-04:00
 order: 7
 tags:

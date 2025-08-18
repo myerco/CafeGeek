@@ -1,11 +1,7 @@
 ---
 title: Quem joga?
-categories: 
-  - "a-jogatina-das-decadas"
-permalink:  /:categories/:title
 excerpt: "Entender o que é jogar e por que jogar permite entender os fatores que motivam os jogadores."
 date: 2024-03-03T08:48:05-04:00
-last_modified_at: 2024-03-03T08:48:05-04:00
 order: 3
 tags:
   - fatores motivacionais

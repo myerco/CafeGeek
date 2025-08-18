@@ -1,7 +1,5 @@
 ---
 title: A Jogatina das décadas
-permalink: /:title
-collection: a-jogatina-das-decadas
 order: 0
 sort_by: order
 read_time: true
@@ -10,7 +8,6 @@ header:
   overlay_color: "#333"
 date: 2024-03-01T08:48:05-04:00
 show_date: true
-last_modified_at: 2024-03-01T08:48:05-04:00
 toc: false
 ---
 
