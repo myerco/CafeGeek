@@ -1,7 +1,6 @@
 ---
 title: A Jogatina das décadas
 order: 0
-sort_by: order
 read_time: true
 excerpt: "Aprenda sobre as características que definem um jogo eletrônico."
 header:
