@@ -294,13 +294,13 @@ collections_dir: content
 collections:
   cursos:
     output: true
-    permalink: /curso/:path/
+    permalink: /cursos/:path/
   capitulos:
     output: true
-    permalink: /curso/:curso/:num-:title/
+    permalink: /cursos/:curso/:num-:title/
   aulas:
     output: true
-    permalink: /curso/:curso/:capitulo/:num-:title/
+    permalink: /cursos/:curso/:capitulo/:num-:title/
   docs:
     output: true
     permalink: /:collection/:path/
