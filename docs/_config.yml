@@ -292,6 +292,15 @@ compress_html:
 # Collections
 collections_dir: content
 collections:
+  cursos:
+    output: true
+    permalink: /curso/:path/
+  capitulos:
+    output: true
+    permalink: /curso/:curso/:num-:title/
+  aulas:
+    output: true
+    permalink: /curso/:curso/:capitulo/:num-:title/
   docs:
     output: true
     permalink: /:collection/:path/
@@ -459,6 +468,23 @@ defaults:
       category: "Desenvolvimento de jogos digitais"                  
       sidebar:
         nav: dev_game
-
+  - scope:
+      path: ""
+      type: "cursos"
+    values:
+      layout: "curso"
+      category: "curso"
+  - scope:
+      path: ""
+      type: "capitulos"
+    values:
+      layout: "capitulo"
+      category: "capitulo"
+  - scope:
+      path: ""
+      type: "aulas"
+    values:
+      layout: "aula"
+      category: "aula"
 
 
