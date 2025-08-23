@@ -472,19 +472,19 @@ defaults:
       path: "_cursos"
       type: "cursos"
     values:
-      layout: "single"
+      layout: "curso"
       category: "curso"
   - scope:
       path: "_capitulos"
       type: "capitulos"
     values:
-      layout: "single"
+      layout: "curso"
       category: "capitulo"
   - scope:
       path: "_aulas"
       type: "aulas"
     values:
-      layout: "single"
+      layout: "curso"
       category: "aula"
 
 
