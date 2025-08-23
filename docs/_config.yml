@@ -294,13 +294,13 @@ collections_dir: content
 collections:
   cursos:
     output: true
-    permalink: /cursos/:path/
+    permalink: /curso/:name/
   capitulos:
     output: true
-    permalink: /cursos/:curso/:num-:title/
+    permalink: /curso/:curso/:name/
   aulas:
     output: true
-    permalink: /cursos/:curso/:capitulo/:num-:title/
+    permalink: /curso/:curso/:capitulo/:name/
   docs:
     output: true
     permalink: /:collection/:path/
@@ -469,22 +469,22 @@ defaults:
       sidebar:
         nav: dev_game
   - scope:
-      path: ""
+      path: "_cursos"
       type: "cursos"
     values:
-      layout: "curso"
+      layout: "single"
       category: "curso"
   - scope:
-      path: ""
+      path: "_capitulos"
       type: "capitulos"
     values:
-      layout: "capitulo"
+      layout: "single"
       category: "capitulo"
   - scope:
-      path: ""
+      path: "_aulas"
       type: "aulas"
     values:
-      layout: "aula"
+      layout: "single"
       category: "aula"
 
 

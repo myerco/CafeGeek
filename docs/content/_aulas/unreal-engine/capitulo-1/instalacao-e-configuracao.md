@@ -4,6 +4,8 @@ excerpt: Aprenda a instalar e configurar o Unreal Engine de forma simples e dive
 date: 2024-03-02T08:48:05-04:00
 num: 2
 order: 2
+curso: unreal engine
+capitulo: capitulo 1
 ---
 
 ## 1. O que é o Unreal Engine?

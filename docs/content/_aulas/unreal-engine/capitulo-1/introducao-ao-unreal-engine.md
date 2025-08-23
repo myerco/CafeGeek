@@ -4,6 +4,8 @@ excerpt: Conhecendo um pouco do desenvolvimento de jogos.
 date: 2024-03-01T08:48:05-04:00
 num: 1
 order: 1
+curso: unreal engine
+capitulo: capitulo 1
 ---
 
 > É impossível conseguir qualquer coisa se você não sabe o que quer.  
