@@ -9,19 +9,23 @@
       <li>
         {% if nav.url %}
           <a href="{{ nav.url | relative_url }}">
+          <span class="nav__sub-title">
             {% if nav.icon %}
-              <span class="nav__icon" style="vertical-align: middle;">
+              <span class="nav__icon" style="margin-right: 0.5em;">
                 <i class="{{ nav.icon }}"></i>
               </span>
-            {% endif %}
-          <span class="nav__sub-title">{{ nav.title }}</span></a>
+            {% endif %}            
+            {{ nav.title }}
+          </span></a>
         {% else %}
-          {% if nav.icon %}
-              <span class="nav__icon" style="vertical-align: middle;">
-                <i class="{{ nav.icon }}"></i>
-              </span>
-            {% endif %}
-          <span class="nav__sub-title">{{ nav.title }}</span>
+          <span class="nav__sub-title">
+              {% if nav.icon %}
+                <span class="nav__icon" style="margin-right: 0.5em;">
+                  <i class="{{ nav.icon }}"></i>
+                </span>
+              {% endif %}            
+              {{ nav.title }}
+          </span>
         {% endif %}
 
         {% if nav.children != null %}

@@ -224,7 +224,16 @@ categorias:
         url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/comunicacao-entre-blueprints
       - title: Game Instance, State e Mode
         url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/game-instance-game-state-e-game-mode       
-
+  - title: "Capítulo 2 - ESTRUTURAS DE ARMAZENAMENTO"
+    children:    
+      - title: Variáveis Arrays
+        url: /unreal-engine-com-c-e-blueprint/capitulo-2-estruturas-de-armazenamento/variaveis-arrays
+      - title: Objetos Enums
+        url: /unreal-engine-com-c-e-blueprint/capitulo-2-estruturas-de-armazenamento/objetos-enums
+      - title: Usando Structs
+        url: /unreal-engine-com-c-e-blueprint/capitulo-2-estruturas-de-armazenamento/usando-structs
+      - title: Data Tables
+        url: /unreal-engine-com-c-e-blueprint/capitulo-2-estruturas-de-armazenamento/data-tables
 # Configurações do menu
 menu_config:
   show_icons: true
