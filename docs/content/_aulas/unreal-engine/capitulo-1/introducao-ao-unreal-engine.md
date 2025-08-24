@@ -2,9 +2,9 @@
 title: Introdução ao Unreal Engine
 curso: "unreal-engine"
 capitulo: "capitulo-1"
-categories: 
-  - "unreal-engine"
-  - "capitulo-1"
+##categories: 
+##  - "unreal-engine"
+##  - "capitulo-1"
 excerpt: Conhecendo um pouco do desenvolvimento de jogos.
 date: 2024-03-01T08:48:05-04:00
 num: 1
