@@ -180,11 +180,13 @@ categorias:
       - title: Jogos Eletrônicos
         url: /curso/jogos-digitais/capitulo-1/jogos-eletronicos/        
   - title: A JOGATINA DAS DÉCADAS        
+    children:        
       - title: A evolução dos jogos eletrônicos
         url: /curso/jogos-digitais/capitulo-2/a-evolucao-dos-jogos-eletronicos/
       - title: O Mercado de jogos Eletrônicos
         url: /curso/jogos-digitais/capitulo-2/o-mercado-de-jogos-eletronicos/
   - title: JOGAR OU NÃO JOGAR?
+    children:        
       - title: O comportamento
         url: /curso/jogos-digitais/capitulo-3/o-comportamento/                
 
