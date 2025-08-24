@@ -474,17 +474,17 @@ defaults:
     values:
       layout: "curso"
       category: "curso"
+      sidebar:
+        nav: categorias
   - scope:
       path: "_capitulos"
       type: "capitulos"
     values:
       layout: "curso"
-      ##category: "capitulo"
   - scope:
       path: "_aulas"
       type: "aulas"
     values:
       layout: "curso"
-      ##category: "aula"
 
 

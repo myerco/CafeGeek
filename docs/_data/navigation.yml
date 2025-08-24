@@ -188,3 +188,23 @@ banco_dados:
       - title: A taberna do Pônei Saltitante
         url: /a-taberna-do-ponei-saltitante/a-taberna-do-ponei-saltitante
 
+categorias:
+  - id: "unreal-engine"
+    title: "Unreal Engine"
+    icon: "🎮"
+    subitems:
+      - title: "Introdução aos Blueprints"
+        url: "/curso/unreal-engine/capitulo-1/"
+        capitulo: "1"
+      - title: "Fundamentos de C++"
+        url: "/curso/unreal-engine/capitulo-2/"
+        capitulo: "2"
+      - title: "Integração Blueprints/C++"
+        url: "/curso/unreal-engine/capitulo-3-integracao/"
+        capitulo: "3"
+
+# Configurações do menu
+menu_config:
+  show_icons: true
+  expand_active: true
+  show_badges: true        
