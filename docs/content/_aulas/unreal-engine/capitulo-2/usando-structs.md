@@ -3,7 +3,7 @@ title: Usando Structs
 excerpt: Neste capítulo vamos explorar o tipo de variável Struct.  
 categories: 
   - "unreal-engine"
-  - "capitulo-1"
+  - "capitulo-2"
 date: 2024-04-03T08:48:05-04:00
 order: 203
 tags:

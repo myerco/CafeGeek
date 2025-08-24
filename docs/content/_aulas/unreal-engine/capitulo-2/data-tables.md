@@ -3,7 +3,7 @@ title: Data Tables
 excerpt: Neste capítulo vamos explorar o objeto Data Tables.  
 categories: 
   - "unreal-engine"
-  - "capitulo-1"
+  - "capitulo-2"
 date: 2024-04-04T08:48:05-04:00
 order: 204
 tags:

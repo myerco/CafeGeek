@@ -3,7 +3,7 @@ title: Variáveis Arrays
 excerpt: Neste capítulo serão descritas as variáveis do tipo Array.
 categories: 
   - "unreal-engine"
-  - "capitulo-1"
+  - "capitulo-2"
 date: 2024-04-01T08:48:05-04:00
 order: 201
 tags:

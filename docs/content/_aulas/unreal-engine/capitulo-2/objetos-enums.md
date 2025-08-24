@@ -3,7 +3,7 @@ title: Objetos Enums
 excerpt: Neste capítulo serão descritos objetos do tipo Enum.
 categories: 
   - "unreal-engine"
-  - "capitulo-1"
+  - "capitulo-2"
 date: 2024-04-02T08:48:05-04:00
 order: 202
 tags:
