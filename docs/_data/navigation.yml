@@ -189,19 +189,41 @@ banco_dados:
         url: /a-taberna-do-ponei-saltitante/a-taberna-do-ponei-saltitante
 
 categorias:
-  - id: "unreal-engine"
-    title: "Unreal Engine"
-    icon: "🎮"
-    subitems:
-      - title: "Introdução aos Blueprints"
-        url: "/curso/unreal-engine/capitulo-1/"
-        capitulo: "1"
-      - title: "Fundamentos de C++"
-        url: "/curso/unreal-engine/capitulo-2/"
-        capitulo: "2"
-      - title: "Integração Blueprints/C++"
-        url: "/curso/unreal-engine/capitulo-3-integracao/"
-        capitulo: "3"
+  - title: "UNREAL ENGINE"
+    icon: fas fa-gamepad
+    url: /unreal-engine/
+  - title: "Capítulo 1 - Blueprints"
+    children:    
+      - title: Introdução ao Unreal Engine
+        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/introducao-ao-unreal-engine
+      - title: Instalação e Configuração
+        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/instalacao-e-configuracao
+      - title: Estrutura de pastas
+        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/estrutura-de-pastas
+      - title: Interface e Editores
+        url:  /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/interface-e-editores
+      - title: Criando seu primeiro Blueprint
+        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/criando-seu-primeiro-blueprint
+      - title: Trabalhando com variáveis
+        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/trabalhando-com-variaveis        
+      - title: Atores e seus componentes
+        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/atores-e-seus-componentes
+      - title: Actor, Pawn e Character 
+        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/actor-pawn-e-character               
+      - title: Herança de Objetos
+        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/heran-a-de-objetos        
+      - title: Colisão entre objetos
+        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/colis-o-entre-objetos
+      - title: Estruturas de controle
+        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/estruturas-de-controle
+      - title: Estruturas de repetição
+        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/estruturas-de-repeticao
+      - title: Eventos, funções e macros
+        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/eventos-funcoes-e-macros
+      - title: Comunicação entre Blueprints
+        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/comunicacao-entre-blueprints
+      - title: Game Instance, State e Mode
+        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/game-instance-game-state-e-game-mode       
 
 # Configurações do menu
 menu_config:
