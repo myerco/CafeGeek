@@ -6,7 +6,7 @@ order: 1
 categoria: "Game Development"
 nivel: "Intermediário"
 duracao: "40 horas"
-curso: unreal engine
+curso: "unreal-engine"
 ---
 
 Bem-vindo ao curso de Unreal Engine! Aqui você aprenderá desde os conceitos básicos de Blueprints até o desenvolvimento avançado com C++. Explore cada capítulo para aprofundar seus conhecimentos e desenvolver projetos completos.
