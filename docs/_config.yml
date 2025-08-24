@@ -297,10 +297,10 @@ collections:
     permalink: /curso/:name/
   capitulos:
     output: true
-    permalink: /curso/:curso/:name/
+    permalink: /capitulo/:name/
   aulas:
     output: true
-    permalink: /curso/:curso/:capitulo/:name/
+    permalink: /aula/:name/
   docs:
     output: true
     permalink: /:collection/:path/
@@ -474,5 +474,17 @@ defaults:
     values:
       layout: "curso"
       category: "curso"
+  - scope:
+      path: "_capitulos"
+      type: "capitulos"
+    values:
+      layout: "curso"
+      category: "capitulo"
+  - scope:
+      path: "_aulas"
+      type: "aulas"
+    values:
+      layout: "curso"
+      category: "aula"
 
 
