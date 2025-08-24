@@ -1,8 +1,8 @@
 ---
-title: "Capitulo 1"
+title: "Capitulo 3"
 categories: 
   - "jogos-digitais"
-description: "Os elementos do jogo"
+description: "Reflexão sobre o comportamento dos jogadores"
 num: 1
 order: 1
 total_aulas: 3

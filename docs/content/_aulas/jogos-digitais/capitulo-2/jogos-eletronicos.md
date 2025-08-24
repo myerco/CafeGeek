@@ -2,7 +2,7 @@
 title: Jogos eletrônicos
 categories: 
   - "jogos-digitais"
-  - "capitulo-1"
+  - "capitulo-2"
 excerpt: "Jogos eletrônicos são uma subcategoria de jogos, com características  e tipos distintos."
 date: 2024-03-04T08:48:05-04:00
 order: 4
