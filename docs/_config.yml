@@ -481,10 +481,14 @@ defaults:
       type: "capitulos"
     values:
       layout: "curso"
+      sidebar:
+        nav: categorias      
   - scope:
       path: "_aulas"
       type: "aulas"
     values:
       layout: "curso"
+      sidebar:
+        nav: categorias      
 
 

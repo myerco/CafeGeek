@@ -8,8 +8,19 @@
     {% for nav in navigation %}
       <li>
         {% if nav.url %}
-          <a href="{{ nav.url | relative_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
+          <a href="{{ nav.url | relative_url }}">
+            {% if nav.icon %}
+              <span class="nav__icon" style="vertical-align: middle;">
+                <i class="{{ nav.icon }}"></i>
+              </span>
+            {% endif %}
+          <span class="nav__sub-title">{{ nav.title }}</span></a>
         {% else %}
+          {% if nav.icon %}
+              <span class="nav__icon" style="vertical-align: middle;">
+                <i class="{{ nav.icon }}"></i>
+              </span>
+            {% endif %}
           <span class="nav__sub-title">{{ nav.title }}</span>
         {% endif %}
 
