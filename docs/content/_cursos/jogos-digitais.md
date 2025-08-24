@@ -1,5 +1,5 @@
 ---
-title: A Jogatina das décadas
+title: Jogos Digitais
 order: 0
 read_time: true
 excerpt: "Aprenda sobre as características que definem um jogo eletrônico."
@@ -10,3 +10,4 @@ show_date: true
 toc: false
 ---
 
+A jogatina das décadas!

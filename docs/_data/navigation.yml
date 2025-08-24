@@ -2,130 +2,12 @@
 main:
   - title: "Home"
     url: /
-  - title: "Documentos"
-    url: /collection-archive/    
   - title: "Posts"    
     url: /post-archive-feature-rows/
-  - title: "Cursos"    
-    children:    
-      - title: Jogos Digitais
-        url: /jogos-digitais/jogos-digitais    
-      - title: Unreal Engine
-        url: /unreal-engine-com-c-e-blueprint
-      - title: Modelagem 3D
-        url: /modelagem-3d/modelagem-3d
-      - title: A Jogatina das Décadas
-        url: /a-jogatina-das-decadas/a-jogatina-das-d-cadas
-      - title: Me conta uma história
-        url:  /me-conta-uma-historia/me-conta-uma-historia
-      - title: Computação gráfica
-        url: /computacao-grafica/computa-o-gr-fica
-      - title: O curso de jogos digitais
-        url: /jogos-digitais/jogos-digitais
-      - title: Trabalhos
-        url: /jogos-digitais/trabalhos-de-jogos-digitais
   - title: "Sitemap"    
     url: /sitemap/        
   - title: "Sobre"
     url: /about/
-
-dev_unreal_1:
-  - title: "INTRODUÇÃO"
-    children:    
-      - title: Unreal Engine com C++ e Blueprint
-        url: /unreal-engine-com-c-e-blueprint
-  - title: "Capítulo 1 - Blueprints"
-    children:    
-      - title: Introdução ao Unreal Engine
-        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/introducao-ao-unreal-engine
-      - title: Instalação e Configuração
-        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/instalacao-e-configuracao
-      - title: Estrutura de pastas
-        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/estrutura-de-pastas
-      - title: Interface e Editores
-        url:  /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/interface-e-editores
-      - title: Criando seu primeiro Blueprint
-        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/criando-seu-primeiro-blueprint
-      - title: Trabalhando com variáveis
-        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/trabalhando-com-variaveis        
-      - title: Atores e seus componentes
-        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/atores-e-seus-componentes
-      - title: Actor, Pawn e Character 
-        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/actor-pawn-e-character               
-      - title: Herança de Objetos
-        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/heran-a-de-objetos        
-      - title: Colisão entre objetos
-        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/colis-o-entre-objetos
-      - title: Estruturas de controle
-        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/estruturas-de-controle
-      - title: Estruturas de repetição
-        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/estruturas-de-repeticao
-      - title: Eventos, funções e macros
-        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/eventos-funcoes-e-macros
-      - title: Comunicação entre Blueprints
-        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/comunicacao-entre-blueprints
-      - title: Game Instance, State e Mode
-        url: /unreal-engine-com-c-e-blueprint/capitulo-1-introducao-aos-blueprints/game-instance-game-state-e-game-mode       
-  - title: "Capítulo 2 - ESTRUTURAS DE ARMAZENAMENTO"
-    children:    
-      - title: Variáveis Arrays
-        url: /unreal-engine-com-c-e-blueprint/capitulo-2-estruturas-de-armazenamento/variaveis-arrays
-      - title: Objetos Enums
-        url: /unreal-engine-com-c-e-blueprint/capitulo-2-estruturas-de-armazenamento/objetos-enums
-      - title: Usando Structs
-        url: /unreal-engine-com-c-e-blueprint/capitulo-2-estruturas-de-armazenamento/usando-structs
-      - title: Data Tables
-        url: /unreal-engine-com-c-e-blueprint/capitulo-2-estruturas-de-armazenamento/data-tables
-  - title: "Capítulo 3 - INTERFACE COM O JOGADOR"
-    children:
-      - title: User Interface
-        url: /unreal-engine-com-c-e-blueprint/capitulo-3-interface-com-o-jogador/user-interface
-      - title: Objetos da interface
-        url: /unreal-engine-com-c-e-blueprint/capitulo-3-interface-com-o-jogador/objetos-da-interface
-  - title: Capítulo 4 - MATERIAIS E LANDSCAPE
-    children:    
-      - title: Introdução aos Materiais
-        url: /unreal-engine-com-c-e-blueprint/capitulo-4-materiais-e-landscape/introducao-aos-materiais
-      - title: Manipulando materiais
-        url: /unreal-engine-com-c-e-blueprint/capitulo-4-materiais-e-landscape/manipulando-materiais
-      - title: Iluminação
-        url: /unreal-engine-com-c-e-blueprint/capitulo-4-materiais-e-landscape/iluminacao
-  - title: "Capítulo 5 - MOVIMENTAÇÃO"
-    children:
-      - title: Lógica de Movimentação
-        url: /unreal-engine-com-c-e-blueprint/capitulo-5/logica-de-movimentacao
-      - title: Delta time e sistema de coordenadas
-        url: /unreal-engine-com-c-e-blueprint/capitulo-5/delta-time-e-sistema-de-coordenadas      
-      - title: Animação de personagens
-        url: /unreal-engine-com-c-e-blueprint/capitulo-5/animacao-de-personagens
-      - title: Lógica de animação
-        url: /unreal-engine-com-c-e-blueprint/capitulo-5/logica-de-animacao
-      - title: Trabalhando com animação 2D
-        url: /unreal-engine-com-c-e-blueprint/capitulo-5/trabalhando-com-animacao-2d      
-  - title: "Capítulo 6 - INTELIGÊNCIA ARTIFICIAL"
-    children:
-      - title: Inteligência Artificial
-        url: /unreal-engine-com-c-e-blueprint/capitulo-6-inteligencia-artificial/inteligencia-artificial
-      - title: Behaivor Tree
-        url: /unreal-engine-com-c-e-blueprint/capitulo-6-inteligencia-artificial/behaivor-tree
-  - title: "Capítulo 7 - MULTIPLAYER"
-    children:
-      - title: Multiplayer
-        url: /unreal-engine-com-c-e-blueprint/capitulo-7-multiplayer/multiplayer
-  - title: "Capítulo 8 - C++"
-    children:
-      - title: Unreal Engine e C++
-        url: /unreal-engine-com-c-e-blueprint/capitulo-8-c/programacao-c-no-unreal-engine
-      - title: Controle de versão
-        url: /unreal-engine-com-c-e-blueprint/capitulo-8-c/controle-de-versao
-      - title: Estruturas de Arquivos
-        url:  /unreal-engine-com-c-e-blueprint/capitulo-8-c/estruturas-de-arquivos
-      - title: Funções e Macros
-        url:  /unreal-engine-com-c-e-blueprint/capitulo-8-c/funcoes-e-macros
-      - title: Variáveis e Ponteiros
-        url:  /unreal-engine-com-c-e-blueprint/capitulo-8-c/variaveis-e-ponteiros
-      - title: Classes
-        url:  /unreal-engine-com-c-e-blueprint/capitulo-8-c/classes-de-objetos-na-linguagem-c
 
 dev_computacao:
   - title: COMPUTAÇÃO GRÁFICA    
@@ -251,15 +133,15 @@ categorias:
   - title: "Capítulo 5 - MOVIMENTAÇÃO"
     children:
       - title: Lógica de Movimentação
-        url: /curso/unreal-engine/capitulo-5-movimentacao/logica-de-movimentacao/
+        url: /curso/unreal-engine/capitulo-5/logica-de-movimentacao/
       - title: Delta time e sistema de coordenadas
-        url: /curso/unreal-engine/capitulo-5-movimentacao/delta-time-e-sistema-de-coordenadas/      
+        url: /curso/unreal-engine/capitulo-5/delta-time-e-sistema-de-coordenadas/      
       - title: Animação de personagens
-        url: /curso/unreal-engine/capitulo-5-movimentacao/animacao-de-personagens/
+        url: /curso/unreal-engine/capitulo-5/animacao-de-personagens/
       - title: Lógica de animação
-        url: /curso/unreal-engine/capitulo-5-movimentacao/logica-de-animacao/
+        url: /curso/unreal-engine/capitulo-5/logica-de-animacao/
       - title: Trabalhando com animação 2D
-        url: /curso/unreal-engine/capitulo-5-movimentacao/trabalhando-com-animacao-2d/      
+        url: /curso/unreal-engine/capitulo-5/trabalhando-com-animacao-2d/      
   - title: "Capítulo 6 - INTELIGÊNCIA ARTIFICIAL"
     children:
       - title: Inteligência Artificial

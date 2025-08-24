@@ -1,5 +1,8 @@
 ---
 title: O comportamento
+categories: 
+  - "jogos-digitais"
+  - "capitulo-1"
 excerpt: "Por que as pessoas são viciadas em videogames e não são viciadas em trabalho?"
 date: 2024-03-07T08:48:05-04:00
 order: 7

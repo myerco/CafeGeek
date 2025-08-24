@@ -1,5 +1,8 @@
 ---
 title: A evolução dos jogos eletrônicos
+categories: 
+  - "jogos-digitais"
+  - "capitulo-1"
 excerpt: "Ao longo das décadas os jogos eletrônicos evoluíram e incorporaram diversas características das artes visuais."
 date: 2024-03-05T08:48:05-04:00
 order: 5

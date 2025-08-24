@@ -3,7 +3,7 @@ title: User Interface
 excerpt: Neste capítulo vamos implementar o HUD (Heads-up Display) do jogo.
 categories: 
   - "unreal-engine"
-  - "capitulo-2"
+  - "capitulo-3"
 date: 2024-05-01T08:48:05-04:00
 order: 301
 tags:
