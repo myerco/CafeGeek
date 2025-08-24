@@ -474,17 +474,5 @@ defaults:
     values:
       layout: "curso"
       category: "curso"
-  - scope:
-      path: "_capitulos"
-      type: "capitulos"
-    values:
-      layout: "curso"
-      category: "capitulo"
-  - scope:
-      path: "_aulas"
-      type: "aulas"
-    values:
-      layout: "curso"
-      category: "aula"
 
 
