@@ -1,7 +1,5 @@
 ---
 title: Instalação e Configuração
-curso: "unreal-engine"
-capitulo: "capitulo-1"
 categories: 
   - "unreal-engine"
   - "capitulo-1"

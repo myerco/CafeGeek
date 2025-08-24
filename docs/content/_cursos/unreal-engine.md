@@ -1,10 +1,8 @@
 ---
 title: Unreal Engine
-curso: "unreal-engine"
 excerpt: "Curso completo de Unreal Engine: aprenda estruturas de desenvolvimento, lógica de programação, Blueprints e C++."
 num: "ue01"
 order: 1
-categoria: "Game Development"
 nivel: "Intermediário"
 duracao: "40 horas"
 ---
