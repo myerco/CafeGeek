@@ -479,12 +479,12 @@ defaults:
       type: "capitulos"
     values:
       layout: "curso"
-      category: "capitulo"
+      ##category: "capitulo"
   - scope:
       path: "_aulas"
       type: "aulas"
     values:
       layout: "curso"
-      category: "aula"
+      ##category: "aula"
 
 
