@@ -166,6 +166,25 @@ categorias:
         url:  /curso/unreal-engine/capitulo-8/variaveis-e-ponteiros/
       - title: Classes
         url:  /curso/unreal-engine/capitulo-8/classes-de-objetos-na-linguagem-c/
+  - title: JOGOS DIGITAIS
+    icon: fas fa-ghost
+    url: /curso/jogos-digitais/
+    children:      
+      - title: O jogo
+        url: /curso/jogos-digitais/o-jogo/
+      - title: Qual a função do jogo?
+        url: /curso/jogos-digitais/qual-a-funcao-do-jogo/
+      - title: Quem Joga?
+        url: /curso/jogos-digitais/quem-joga/
+      - title: Jogos Eletrônicos
+        url: /curso/jogos-digitais/jogos-eletronicos/        
+      - title: A evolução dos jogos eletrônicos
+        url: /curso/jogos-digitais/a-evolucao-dos-jogos-eletronicos/
+      - title: O Mercado de jogos Eletrônicos
+        url: /curso/jogos-digitais/o-mercado-de-jogos-eletronicos/
+      - title: O comportamento
+        url: /curso/jogos-digitais/o-comportamento/                
+
 
 # Configurações do menu
 menu_config:

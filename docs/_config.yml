@@ -468,6 +468,7 @@ defaults:
       category: "Desenvolvimento de jogos digitais"                  
       sidebar:
         nav: dev_game
+# Cursos        
   - scope:
       path: "_cursos"
       type: "cursos"
@@ -476,6 +477,7 @@ defaults:
       category: "curso"
       sidebar:
         nav: categorias
+# Capítulos        
   - scope:
       path: "_capitulos"
       type: "capitulos"
@@ -483,11 +485,15 @@ defaults:
       layout: "curso"
       sidebar:
         nav: categorias      
+# Aulas
   - scope:
       path: "_aulas"
       type: "aulas"
     values:
       layout: "curso"
+      toc: true      
+      show_date: true
+      sort_by: order      
       sidebar:
         nav: categorias      
 
