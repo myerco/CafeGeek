@@ -1,6 +1,8 @@
 ---
 title: "Capitulo 1"
 curso: "unreal-engine"
+categories: 
+  - "unreal-engine"
 description: "Introdução aos Blueprints"
 num: 1
 order: 1

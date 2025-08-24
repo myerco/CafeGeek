@@ -297,10 +297,10 @@ collections:
     permalink: /curso/:name/
   capitulos:
     output: true
-    permalink: /capitulo/:name/
+    permalink: /curso/:categories/:name/
   aulas:
     output: true
-    permalink: /aula/:name/
+    permalink: /curso/:categories/:name/
   docs:
     output: true
     permalink: /:collection/:path/
