@@ -201,11 +201,11 @@ categorias:
       - title: Estrutura de pastas
         url: /curso/unreal-engine/capitulo-1/estrutura-de-pastas/
       - title: Interface e Editores
-        url:  /curso/unreal-engine/capitulo-1/interface-e-editore/s
+        url:  /curso/unreal-engine/capitulo-1/interface-e-editores/
       - title: Criando seu primeiro Blueprint
         url: /curso/unreal-engine/capitulo-1/criando-seu-primeiro-blueprint/
       - title: Trabalhando com variáveis
-        url: /curso/unreal-engine/capitulo-1/trabalhando-com-variaveis        
+        url: /curso/unreal-engine/capitulo-1/trabalhando-com-variaveis/
       - title: Atores e seus componentes
         url: /curso/unreal-engine/capitulo-1/atores-e-seus-componentes/
       - title: Actor, Pawn e Character 
@@ -273,17 +273,17 @@ categorias:
   - title: "Capítulo 8 - C++"
     children:
       - title: Unreal Engine e C++
-        url: /curso/unreal-engine/capitulo-8/programacao-c-no-unreal-engine
+        url: /curso/unreal-engine/capitulo-8/programacao-c-no-unreal-engine/
       - title: Controle de versão
-        url: /curso/unreal-engine/capitulo-8/controle-de-versao
+        url: /curso/unreal-engine/capitulo-8/controle-de-versao/
       - title: Estruturas de Arquivos
-        url:  /curso/unreal-engine/capitulo-8/estruturas-de-arquivos
+        url:  /curso/unreal-engine/capitulo-8/estruturas-de-arquivos/
       - title: Funções e Macros
-        url:  /curso/unreal-engine/capitulo-8/funcoes-e-macros
+        url:  /curso/unreal-engine/capitulo-8/funcoes-e-macros/
       - title: Variáveis e Ponteiros
-        url:  /curso/unreal-engine/capitulo-8/variaveis-e-ponteiros
+        url:  /curso/unreal-engine/capitulo-8/variaveis-e-ponteiros/
       - title: Classes
-        url:  /curso/unreal-engine/capitulo-8/classes-de-objetos-na-linguagem-c
+        url:  /curso/unreal-engine/capitulo-8/classes-de-objetos-na-linguagem-c/
 
 # Configurações do menu
 menu_config:

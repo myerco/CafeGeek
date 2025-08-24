@@ -4,7 +4,7 @@ excerpt: Neste capítulo iremos apresentar as classes GameMode e GameInstance co
 categories: 
   - "unreal-engine"
   - "capitulo-1"
-date: 2024-03-14T08:48:05-04:00
+date: 2024-03-15T08:48:05-04:00
 order: 115
 tags:
   - interface

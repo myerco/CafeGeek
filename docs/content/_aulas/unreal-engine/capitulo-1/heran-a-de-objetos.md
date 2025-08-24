@@ -4,7 +4,7 @@ excerpt: Neste capítulo será apresentado a estrutura de herança de objetos.
 categories: 
   - "unreal-engine"
   - "capitulo-1"
-date: 2024-03-01T08:48:05-04:00
+date: 2024-03-09T08:48:05-04:00
 order: 109
 tags:
   - Blueprint

@@ -4,7 +4,7 @@ excerpt: Neste capítulo será apresentado o efeito de colisão de objetos.
 categories: 
   - "unreal-engine"
   - "capitulo-1"
-date: 2024-03-01T08:48:05-04:00
+date: 2024-03-10T08:48:05-04:00
 order: 110
 tags:
   - Blueprint
