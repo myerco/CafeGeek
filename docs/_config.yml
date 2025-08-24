@@ -304,30 +304,12 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
-  a-jogatina-das-decadas:
-    output: true
-    sort_by: order
-    permalink: /:collection/:path/    
-  me-conta-uma-historia:
-    output: true
-    sort_by: ordem
-    permalink: /:collection/:path/
-  unreal-engine-com-c-e-blueprint:
-    output: true
-    sort_by: order
-    permalink: /:collection/:path/
-  computacao-grafica:
-    output: true
-    permalink: /:collection/:path/        
   a-taberna-do-ponei-saltitante:    
     output: true
     permalink: /:collection/:path/              
   modelagem-3d:    
     output: true
     permalink: /:collection/:path/                  
-  jogos-digitais:    
-    output: true
-    permalink: /:collection/:path/                      
 
 imgpath: /assets/images/
 
@@ -366,63 +348,6 @@ defaults:
       author_profile: true
       share: false
       comments: false
-  # Jogatina das décadas          
-  - scope:
-      path: "_a-jogatina-das-decadas"
-      type: a-jogatina-das-decadas
-    values:
-      layout: single
-      read_time: true      
-      author_profile: false
-      share: true
-      show_date: true
-      sort_by: order            
-      toc: true
-      sidebar:
-        nav: dev_jogatina 
-# Me conta uma história
-  - scope:
-      path: "_me-conta-uma-historia"
-      type: me-conta-uma-historia
-    values:
-      layout: single
-      read_time: true      
-      author_profile: false
-      share: true      
-      show_date: true
-      sort_by: ordem            
-      toc: true
-      category: "Me conta uma história"                                
-      sidebar:
-        nav: dev_me_conta        
-# Unreal Engine 
-  - scope:
-      path: "_unreal-engine-com-c-e-blueprint"
-      type: unreal-engine-com-c-e-blueprint
-    values:
-      layout: single
-      read_time: true      
-      author_profile: false
-      share: true 
-      show_date: true
-      toc: true      
-      sort_by: order
-      sidebar:
-        nav: dev_unreal_1      
-# Computação Gráfica
-  - scope:
-      path: "_computacao-grafica"
-      type: computacao-grafica
-    values:
-      layout: single
-      read_time: true      
-      author_profile: false
-      share: true 
-      show_date: true
-      toc: true 
-      sort_by: order      
-      sidebar:
-        nav: dev_computacao                     
 # A taberna do pônei saltitante
   - scope:
       path: "_a-taberna-do-ponei-saltitante"
@@ -453,21 +378,6 @@ defaults:
       category: "Desenvolvimento de jogos digitais"                                
       sidebar:
         nav: dev_modelagem3d
-# Jogos Digitais
-  - scope:
-      path: "_jogos-digitais"
-      type: jogos-digitais
-    values:
-      layout: single
-      read_time: true      
-      author_profile: false
-      share: true 
-      show_date: true
-      toc: true 
-      sort_by: order      
-      category: "Desenvolvimento de jogos digitais"                  
-      sidebar:
-        nav: dev_game
 # Cursos        
   - scope:
       path: "_cursos"

@@ -164,6 +164,9 @@ categorias:
         url:  /curso/unreal-engine/capitulo-8/variaveis-e-ponteiros/
       - title: Classes
         url:  /curso/unreal-engine/capitulo-8/classes-de-objetos-na-linguagem-c/
+
+
+jogos_digitais:         
   - title: JOGOS DIGITAIS
     icon: fas fa-ghost
     url: /curso/jogos-digitais/
@@ -187,7 +190,11 @@ categorias:
     children:        
       - title: O comportamento
         url: /curso/jogos-digitais/capitulo-3/o-comportamento/                
-  - title: COMPUTAÇÃO GRÁFICA    
+
+computacao_grafica:        
+  - title: COMPUTAÇÃO GRÁFICA 
+    icon: fas fa-puzzle-piece
+    url: /curso/computacao-grafica/
     children:
       - title: Introdução
         url: /curso/computacao-grafica/capitulo-1/introducao-a-computacao-grafica/
