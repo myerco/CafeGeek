@@ -1,5 +1,8 @@
 ---
 title: Renderização de objetos com Unreal Engine
+categories: 
+  - "computacao-grafica"
+  - "capitulo-1"
 excerpt: Neste capítulo vamos analisar como é realizado o processamento de imagens pela CPU e GPU pelo Unreal Engine.
 date: 2024-03-04T08:48:05-04:00
 order: 104

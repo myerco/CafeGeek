@@ -4,8 +4,6 @@ main:
     url: /
   - title: "Posts"    
     url: /post-archive-feature-rows/
-  - title: "Sitemap"    
-    url: /sitemap/        
   - title: "Sobre"
     url: /about/
 
@@ -74,7 +72,7 @@ categorias:
   - title: "UNREAL ENGINE"
     icon: fas fa-gamepad
     url: /curso/unreal-engine/
-  - title: "Capítulo 1 - Blueprints"
+  - title: "Blueprints"
     children:    
       - title: Introdução ao Unreal Engine
         url: /curso/unreal-engine/capitulo-1/introducao-ao-unreal-engine/
@@ -106,7 +104,7 @@ categorias:
         url: /curso/unreal-engine/capitulo-1/comunicacao-entre-blueprints/
       - title: Game Instance, State e Mode
         url: /curso/unreal-engine/capitulo-1/game-instance-game-state-e-game-mode/       
-  - title: "Capítulo 2 - ESTRUTURAS DE ARMAZENAMENTO"
+  - title: "ESTRUTURAS DE ARMAZENAMENTO"
     children:    
       - title: Variáveis Arrays
         url: /curso/unreal-engine/capitulo-2/variaveis-arrays/
@@ -116,13 +114,13 @@ categorias:
         url: /curso/unreal-engine/capitulo-2/usando-structs/
       - title: Data Tables
         url: /curso/unreal-engine/capitulo-2/data-tables/
-  - title: "Capítulo 3 - INTERFACE COM O JOGADOR"
+  - title: "INTERFACE COM O JOGADOR"
     children:
       - title: User Interface
         url: /curso/unreal-engine/capitulo-3/user-interface/
       - title: Objetos da interface
         url: /curso/unreal-engine/capitulo-3/objetos-da-interface/
-  - title: Capítulo 4 - MATERIAIS E LANDSCAPE
+  - title: MATERIAIS E LANDSCAPE
     children:    
       - title: Introdução aos Materiais
         url: /curso/unreal-engine/capitulo-4/introducao-aos-materiais/
@@ -130,7 +128,7 @@ categorias:
         url: /curso/unreal-engine/capitulo-4/manipulando-materiais/
       - title: Iluminação
         url: /curso/unreal-engine/capitulo-4/iluminacao/
-  - title: "Capítulo 5 - MOVIMENTAÇÃO"
+  - title: "MOVIMENTAÇÃO"
     children:
       - title: Lógica de Movimentação
         url: /curso/unreal-engine/capitulo-5/logica-de-movimentacao/
@@ -142,17 +140,17 @@ categorias:
         url: /curso/unreal-engine/capitulo-5/logica-de-animacao/
       - title: Trabalhando com animação 2D
         url: /curso/unreal-engine/capitulo-5/trabalhando-com-animacao-2d/      
-  - title: "Capítulo 6 - INTELIGÊNCIA ARTIFICIAL"
+  - title: "INTELIGÊNCIA ARTIFICIAL"
     children:
       - title: Inteligência Artificial
         url: /curso/unreal-engine/capitulo-6/inteligencia-artificial/
       - title: Behaivor Tree
         url: /curso/unreal-engine/capitulo-6/behaivor-tree/
-  - title: "Capítulo 7 - MULTIPLAYER"
+  - title: "MULTIPLAYER"
     children:
       - title: Multiplayer
         url: /curso/unreal-engine/capitulo-7/multiplayer/
-  - title: "Capítulo 8 - C++"
+  - title: "C++"
     children:
       - title: Unreal Engine e C++
         url: /curso/unreal-engine/capitulo-8/programacao-c-no-unreal-engine/
@@ -189,6 +187,19 @@ categorias:
     children:        
       - title: O comportamento
         url: /curso/jogos-digitais/capitulo-3/o-comportamento/                
+  - title: COMPUTAÇÃO GRÁFICA    
+    children:
+      - title: Introdução
+        url: /curso/computacao-grafica/capitulo-1/introducao-a-computacao-grafica/
+      - title: Estrutura de objetos 3D
+        url: /curso/computacao-grafica/capitulo-1/estruturas-de-objetos-3d/   
+      - title: Renderização 
+        url:  /curso/computacao-grafica/capitulo-1/renderizacao
+      - title: Renderização de objetos com Unreal Engine
+        url:  /curso/computacao-grafica/capitulo-1/renderizacao-de-objetos-com-unreal-engine/
+      - title: Visibilidade e Oclusão
+        url:  /curso/computacao-grafica/capitulo-1/visibilidade-e-oclusao/            
+
 
 
 # Configurações do menu
