@@ -2,7 +2,7 @@
 title: O jogo
 categories: 
   - "jogos-digitais"
-  - "capitulo-1"
+  - "capitulo-1-o-jogo"
 excerpt: "O jogo é uma Atividade recreativa com regras, competição física ou mental, preparação para desafios futuros, impulso inato de dominar e competir."
 date: 2024-03-01T08:48:05-04:00
 order: 1

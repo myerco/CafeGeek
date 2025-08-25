@@ -8,8 +8,6 @@ sidebar:
   nav: jogos-digitais      
 ---
 
-E aí, galera gamer! 🎮✨
-
 Se você está aqui, é porque provavelmente já perdeu (e achou!) horas incríveis na frente da tela, seja detonando zombies, construindo civilizações ou correndo em pistas alucinantes. Mas e se eu te disser que dá para IR ALÉM? E não, não é só passar de fase – é entender a magia por trás dos controles e, quem sabe, criar seus próprios mundos digitais!
 
 Este curso não é só mais um. É um treino de força para sua criatividade, um level up na sua visão sobre jogos e uma viagem no tempo – e no código! – para descobrir como os games conquistaram o planeta… e como VOCÊ pode fazer parte dessa história.

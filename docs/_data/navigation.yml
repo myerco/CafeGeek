@@ -10,6 +10,7 @@ main:
 # cursos
 roteirizacao:
   - title: Roteirização
+    url: /curso/roteirizacao/
     icon: fas fa-book
     children:          
       - title: Game Design
@@ -59,7 +60,7 @@ unreal-engine:
       - title: Atores e seus componentes
         url: /curso/unreal-engine/capitulo-1/atores-e-seus-componentes/
       - title: Actor, Pawn e Character 
-        url: /curso/unreal-engine/capitulo-1/actor-pawn-e-character               
+        url: /curso/unreal-engine/capitulo-1/actor-pawn-e-character/               
       - title: Herança de Objetos
         url: /curso/unreal-engine/capitulo-1/heran-a-de-objetos/        
       - title: Colisão entre objetos
@@ -148,10 +149,10 @@ jogos-digitais:
         url: /curso/jogos-digitais/capitulo-1/qual-a-funcao-do-jogo/
       - title: Quem Joga?
         url: /curso/jogos-digitais/capitulo-1/quem-joga/
-      - title: Jogos Eletrônicos
-        url: /curso/jogos-digitais/capitulo-1/jogos-eletronicos/        
   - title: A JOGATINA DAS DÉCADAS        
     children:        
+      - title: Jogos Eletrônicos
+        url: /curso/jogos-digitais/capitulo-2/jogos-eletronicos/        
       - title: A evolução dos jogos eletrônicos
         url: /curso/jogos-digitais/capitulo-2/a-evolucao-dos-jogos-eletronicos/
       - title: O Mercado de jogos Eletrônicos

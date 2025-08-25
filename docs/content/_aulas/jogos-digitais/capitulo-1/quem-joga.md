@@ -2,7 +2,7 @@
 title: Quem joga?
 categories: 
   - "jogos-digitais"
-  - "capitulo-1"
+  - "capitulo-1-quem-joga"
 excerpt: "Entender o que é jogar e por que jogar permite entender os fatores que motivam os jogadores."
 date: 2024-03-03T08:48:05-04:00
 order: 3
