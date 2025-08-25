@@ -9,7 +9,9 @@ order: 804
 tags:
   - C++ 
   - Ponteiros
-  - Variáveis   
+  - Variáveis  
+sidebar:
+  nav: unreal-engine   
 ---
 
 {% include figure image_path="/assets/images/cpp/uday-awal-UjJWhMerJx0-unsplash.webp" alt="Uday Awal" caption="" %}

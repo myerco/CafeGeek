@@ -8,6 +8,8 @@ date: 2024-07-05T08:48:05-04:00
 order: 505
 tags:
   - Animação 2D
+sidebar:
+  nav: unreal-engine  
 ---
 
 ## 1. O que é Animação 2D?

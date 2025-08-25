@@ -10,6 +10,8 @@ tags:
   - animação
   - mappings
   - movimentação 
+sidebar:
+  nav: unreal-engine  
 ---
 
 ## 1. Fluxo de trabalho para animação utilizando Unreal Engine

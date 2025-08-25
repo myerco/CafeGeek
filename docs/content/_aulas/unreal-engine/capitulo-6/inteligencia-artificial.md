@@ -9,6 +9,8 @@ order: 601
 tags:
   - IA
   - IA MoveTO
+sidebar:
+  nav: unreal-engine  
 ---
 
 Neste projeto serão apresentados os elementos necessários para a construção de simulação de comportamentos, como por exemplo, busca e detecção de jogadores bem como configurar o personagem controlado pela IA em diferentes estados de comportamento.

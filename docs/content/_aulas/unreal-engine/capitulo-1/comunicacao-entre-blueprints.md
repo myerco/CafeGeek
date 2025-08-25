@@ -9,6 +9,8 @@ order: 114
 tags:
   - Blueprint
   - dispatcher
+sidebar:
+  nav: unreal-engine  
 ---
 
 ## 1. Como facilitar a comunicação entre objetos Blueprint?

@@ -10,6 +10,8 @@ tags:
   - instalação
   - configuração
   - pastas
+sidebar:
+  nav: unreal-engine  
 ---
 
 ## 1. Entendendo as pastas criadas

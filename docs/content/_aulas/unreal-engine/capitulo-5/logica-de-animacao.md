@@ -13,6 +13,8 @@ tags:
   - Aim offset
   - Layered Blend per bone
   - Layered Blend by bool
+sidebar:
+  nav: unreal-engine  
 ---
 
 ## 1. O que é Blend Space?

@@ -8,6 +8,8 @@ date: 2024-08-02T08:48:05-04:00
 order: 602
 tags:
   - IA
+sidebar:
+  nav: unreal-engine  
 ---
 
 Em este passo iremos implementar os elementos necessários para controles de movimentação do NPC.

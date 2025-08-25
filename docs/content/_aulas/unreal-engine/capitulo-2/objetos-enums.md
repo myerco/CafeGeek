@@ -8,6 +8,8 @@ date: 2024-04-02T08:48:05-04:00
 order: 202
 tags:
   - Blueprint
+sidebar:
+  nav: unreal-engine  
 ---
 
 ## 1. O que são Enums?

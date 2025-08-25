@@ -8,6 +8,8 @@ date: 2024-09-01T08:48:05-04:00
 order: 701
 tags:
   - multiplayer
+sidebar:
+  nav: unreal-engine  
 ---
 
 Neste capítulo vamos implementar e organização elementos para conexão, replicação e inicialização de um jogo multiplayer.

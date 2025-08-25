@@ -22,6 +22,8 @@ gallery:
     image_path: /assets/images/unreal/interface-editores/09-le-trans-scalewidget.webp
     alt: "Scale Tool (R)"
     title: "Scale Tool (R)"
+sidebar:
+  nav: unreal-engine    
 ---
 
 Bem-vindo à interface do Unreal Engine 5!  

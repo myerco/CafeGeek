@@ -11,6 +11,8 @@ tags:
   - delta seconds
   - timeline
   - curves
+sidebar:
+  nav: unreal-engine  
 ---
 
 Neste capítulo serão apresentados e implementados os elementos de controle de tempo (Delta Time) dentro do **Unreal Engine**, apresentaremos também o funcionamento do sistema de coordenadas dos objetos.

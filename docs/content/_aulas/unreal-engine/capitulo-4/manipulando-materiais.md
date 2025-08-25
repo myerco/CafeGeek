@@ -8,6 +8,8 @@ date: 2024-06-02T08:48:05-04:00
 order: 402
 tags:
   - Materiais
+sidebar:
+  nav: unreal-engine  
 ---
 
 ## 1. O que é Material Instance?

@@ -8,6 +8,8 @@ date: 2024-04-03T08:48:05-04:00
 order: 203
 tags:
   - variáveis estruturadas
+sidebar:
+  nav: unreal-engine  
 ---
 
 ## 1. O que são variáveis do tipo Structure?

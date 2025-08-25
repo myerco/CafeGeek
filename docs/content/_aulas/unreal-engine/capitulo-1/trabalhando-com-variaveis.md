@@ -10,6 +10,8 @@ tags:
   - Blueprint
   - Variáveis
   - Controle de fluxo
+sidebar:
+  nav: unreal-engine  
 ---
 
 ## 1. O que são variáveis?

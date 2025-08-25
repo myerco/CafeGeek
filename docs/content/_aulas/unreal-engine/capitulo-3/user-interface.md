@@ -8,6 +8,8 @@ date: 2024-05-01T08:48:05-04:00
 order: 301
 tags:
   - hud
+sidebar:
+  nav: unreal-engine  
 ---
 
 HUD (*Heads-up Display*) ou UI (*Use Interface*) é um objeto especial do **Unreal Engine** para apresentar informações sobrepostas na tela e interagir com o jogador.

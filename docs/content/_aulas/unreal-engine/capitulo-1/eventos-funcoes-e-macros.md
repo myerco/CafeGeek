@@ -8,6 +8,8 @@ date: 2024-03-14T08:48:05-04:00
 order: 113
 tags:
   - blueprint
+sidebar:
+  nav: unreal-engine  
 ---
 
 ## 1. Entendo Métodos e funções em programação

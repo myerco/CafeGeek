@@ -11,6 +11,8 @@ tags:
   - playercontroller
   - gamemode
   - gamestate
+sidebar:
+  nav: unreal-engine  
 ---
 
 Na estrutura do **Unreal Engine** existem classes para controlar regras do jogo (`GameMode`) e o personagem bem como classes com visibilidade global (`GameInstance`), neste capítulo iremos apresentar estas classes e suas funcionalidades.
