@@ -144,23 +144,23 @@ jogos-digitais:
   - title: O JOGO
     children:      
       - title: O jogo
-        url: /curso/jogos-digitais/capitulo-1/o-jogo/
+        url: /curso/jogos-digitais/capitulo-1-o-jogo/o-jogo/
       - title: Qual a função do jogo?
-        url: /curso/jogos-digitais/capitulo-1/qual-a-funcao-do-jogo/
+        url: /curso/jogos-digitais/capitulo-1-o-jogo/qual-a-funcao-do-jogo/
       - title: Quem Joga?
-        url: /curso/jogos-digitais/capitulo-1/quem-joga/
+        url: /curso/jogos-digitais/capitulo-1-o-jogo/quem-joga/
   - title: A JOGATINA DAS DÉCADAS        
     children:        
       - title: Jogos Eletrônicos
-        url: /curso/jogos-digitais/capitulo-2/jogos-eletronicos/        
+        url: /curso/jogos-digitais/capitulo-2-jogos-eletronicos/jogos-eletronicos/        
       - title: A evolução dos jogos eletrônicos
-        url: /curso/jogos-digitais/capitulo-2/a-evolucao-dos-jogos-eletronicos/
+        url: /curso/jogos-digitais/capitulo-2-jogos-eletronicos/a-evolucao-dos-jogos-eletronicos/
       - title: O Mercado de jogos Eletrônicos
-        url: /curso/jogos-digitais/capitulo-2/o-mercado-de-jogos-eletronicos/
+        url: /curso/jogos-digitais/capitulo-2-jogos-eletronicos/o-mercado-de-jogos-eletronicos/
   - title: JOGAR OU NÃO JOGAR?
     children:        
       - title: O comportamento
-        url: /curso/jogos-digitais/capitulo-3/o-comportamento/                
+        url: /curso/jogos-digitais/capitulo-3-o-comportamento/o-comportamento/                
 
 computacao-grafica:        
   - title: COMPUTAÇÃO GRÁFICA 

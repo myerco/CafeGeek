@@ -2,7 +2,7 @@
 title: O mercado de jogos eletrônicos
 categories: 
   - "jogos-digitais"
-  - "capitulo-2"
+  - "capitulo-2-jogos-eletronicos"
 excerpt: "O mercado de jogos cresce a cada ano, adaptando constantemente o produto para atrair novos jogadores."
 date: 2024-03-06T08:48:05-04:00
 order: 6
