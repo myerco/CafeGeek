@@ -6,6 +6,8 @@ categories:
 excerpt: Neste capítulo apresentaremos o processo de renderização de objetos 3D.
 date: 2024-03-03T08:48:05-04:00
 order: 103
+sidebar:
+  nav: computacao-grafica
 ---
 
 ## 1. Entendendo o processo de renderização

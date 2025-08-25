@@ -6,6 +6,8 @@ categories:
 excerpt: Neste capítulo vamos analisar como é realizado o processamento de imagens pela CPU e GPU pelo Unreal Engine.
 date: 2024-03-04T08:48:05-04:00
 order: 104
+sidebar:
+  nav: computacao-grafica
 ---
 
 ## 1. Lista de Frames e Threads

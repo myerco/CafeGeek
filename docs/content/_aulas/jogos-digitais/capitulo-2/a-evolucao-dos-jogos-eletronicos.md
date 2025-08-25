@@ -10,6 +10,8 @@ tags:
   - conceito
   - jogo eletrônico
   - video games   
+sidebar:
+  nav: jogos-digitais        
 ---
 
 {% include imagelocal.html

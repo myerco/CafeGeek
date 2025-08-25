@@ -12,6 +12,8 @@ tags:
   - fatores motivacionais
   - fatores não motivacionais
   - jogador
+sidebar:
+  nav: jogos-digitais        
 ---
 "Eu me sinto presa, apenas livre para me expandir dentro dos limites.
 (Motoko Kusanagi). **O Fantasma do Futuro**"

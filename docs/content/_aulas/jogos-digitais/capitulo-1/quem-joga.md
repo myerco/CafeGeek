@@ -10,6 +10,8 @@ tags:
   - fatores motivacionais
   - fatores não motivacionais
   - jogador
+sidebar:
+  nav: jogos-digitais        
 ---
 
 Como muitos de vocês, eu só vim aqui para fugir. Mas encontrei algo bem maior do que apenas eu mesmo. **Jogador Nº1**.

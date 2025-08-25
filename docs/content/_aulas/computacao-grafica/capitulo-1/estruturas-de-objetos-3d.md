@@ -12,6 +12,8 @@ tags:
   - polígonos
   - ponto flutuante
   - sistema de coordenadas
+sidebar:
+  nav: computacao-grafica  
 ---
 
 ## 1. Como são formados os objetos 3D?

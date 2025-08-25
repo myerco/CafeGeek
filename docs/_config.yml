@@ -385,16 +385,12 @@ defaults:
     values:
       layout: "curso"
       category: "curso"
-      sidebar:
-        nav: categorias
 # Capítulos        
   - scope:
       path: "_capitulos"
       type: "capitulos"
     values:
       layout: "curso"
-      sidebar:
-        nav: categorias      
 # Aulas
   - scope:
       path: "_aulas"
@@ -404,7 +400,6 @@ defaults:
       toc: true      
       show_date: true
       sort_by: order      
-      sidebar:
-        nav: categorias      
+
 
 

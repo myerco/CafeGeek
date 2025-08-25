@@ -68,7 +68,7 @@ banco_dados:
       - title: A taberna do Pônei Saltitante
         url: /a-taberna-do-ponei-saltitante/a-taberna-do-ponei-saltitante
 
-categorias:
+unreal-engine:
   - title: "UNREAL ENGINE"
     icon: fas fa-gamepad
     url: /curso/unreal-engine/
@@ -166,7 +166,7 @@ categorias:
         url:  /curso/unreal-engine/capitulo-8/classes-de-objetos-na-linguagem-c/
 
 
-jogos_digitais:         
+jogos-digitais:         
   - title: JOGOS DIGITAIS
     icon: fas fa-ghost
     url: /curso/jogos-digitais/
@@ -191,7 +191,7 @@ jogos_digitais:
       - title: O comportamento
         url: /curso/jogos-digitais/capitulo-3/o-comportamento/                
 
-computacao_grafica:        
+computacao-grafica:        
   - title: COMPUTAÇÃO GRÁFICA 
     icon: fas fa-puzzle-piece
     url: /curso/computacao-grafica/

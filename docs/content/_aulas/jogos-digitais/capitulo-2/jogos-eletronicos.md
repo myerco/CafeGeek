@@ -9,7 +9,9 @@ order: 4
 tags:
   - conceito
   - jogo eletrônico
-  - video games   
+  - video games  
+sidebar:
+  nav: jogos-digitais         
 ---
 
 Guerra... A guerra nunca muda. **Fallout**.

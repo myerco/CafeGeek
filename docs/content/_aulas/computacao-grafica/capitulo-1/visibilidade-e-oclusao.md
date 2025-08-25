@@ -6,6 +6,8 @@ categories:
 excerpt: Neste capítulo apresentaremos o processo de visualização e oclusão de objetos.
 date: 2024-03-05T08:48:05-04:00
 order: 105
+sidebar:
+  nav: computacao-grafica
 ---
 
 ## 1. Distance Culling ou corte de distância

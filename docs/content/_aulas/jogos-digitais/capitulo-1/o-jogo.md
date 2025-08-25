@@ -12,6 +12,8 @@ tags:
   - fatores motivacionais
   - fatores não motivacionais
   - jogador
+sidebar:
+  nav: jogos-digitais        
 ---
 
 Latim “Ludus”, “Ludere” que designava os jogos infantis.

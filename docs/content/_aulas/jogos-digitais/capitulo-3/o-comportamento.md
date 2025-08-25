@@ -10,6 +10,8 @@ tags:
   - vicio em jogos
   - trabalho
   - caixa de skinner
+sidebar:
+  nav: jogos-digitais        
 ---
 
 {% include imagelocal.html

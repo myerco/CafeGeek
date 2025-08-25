@@ -6,6 +6,8 @@ categories:
 excerpt: Descubra, de forma simples e divertida, os elementos essenciais para criar histórias envolventes em jogos digitais!
 date: 2024-03-04T08:48:05-04:00
 ordem: 3
+sidebar:
+  nav: roteirizacao
 ---
 
 > Se nossas vidas já estão escritas, seria preciso um homem corajoso para mudar o roteiro.  

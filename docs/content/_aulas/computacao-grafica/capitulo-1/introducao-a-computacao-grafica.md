@@ -9,6 +9,8 @@ order: 101
 tags:
   - conceito
   - curso
+sidebar:
+  nav: computacao-grafica  
 ---
 
 ## 1. O que é computação gráfica?
