@@ -1,6 +1,5 @@
 ---
 title: "Lines of Fate"
-permalink: /docs/lines-of-fate/
 excerpt: "Roteiro do jogo Lines of Fate."
 last_modified_at: 2021-06-07T08:48:05-04:00
 layout: single

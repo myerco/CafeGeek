@@ -1,6 +1,5 @@
 ---
 title: " Don't stop looking"
-permalink: /docs/dont-stop-looking/
 excerpt: "Roteiro do jogo Don't stop looking."
 last_modified_at: 2021-06-07T08:48:05-04:00
 layout: single

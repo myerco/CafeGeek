@@ -1,8 +1,6 @@
 ---
 title: Estrutura do Projeto
 excerpt: Neste capítulo será apresentado a estrutura do projeto.
-permalink: /docs/unreal-engine-estrutura-do-projeto
-last_modified_at: 2023-03-28T08:48:05-04:00
 author_profile: false
 sidebar:
     nav: dev_unreal
