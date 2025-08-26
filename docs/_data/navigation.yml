@@ -14,11 +14,11 @@ roteirizacao:
     icon: fas fa-book
     children:          
       - title: Game Design
-        url: /curso/roteirizacao/capitulo-1/game-design/
+        url: /curso/roteirizacao/game-design/
       - title: Organizando as ideias
-        url: /curso/roteirizacao/capitulo-1/organizando-as-ideias/
+        url: /curso/roteirizacao/organizando-as-ideias/
       - title: Os elementos da história
-        url: /curso/roteirizacao/capitulo-2/os-elementos-da-historia/     
+        url: /curso/roteirizacao/os-elementos-da-historia/     
 
 
 dev_modelagem3d:
@@ -152,15 +152,15 @@ jogos-digitais:
   - title: A JOGATINA DAS DÉCADAS        
     children:        
       - title: Jogos Eletrônicos
-        url: /curso/jogos-digitais/capitulo-2-jogos-eletronicos/jogos-eletronicos/        
+        url: /curso/jogos-digitais/capitulo-2-a-jogatina-das-decadas/jogos-eletronicos/        
       - title: A evolução dos jogos eletrônicos
-        url: /curso/jogos-digitais/capitulo-2-jogos-eletronicos/a-evolucao-dos-jogos-eletronicos/
+        url: /curso/jogos-digitais/capitulo-2-a-jogatina-das-decadas/a-evolucao-dos-jogos-eletronicos/
       - title: O Mercado de jogos Eletrônicos
-        url: /curso/jogos-digitais/capitulo-2-jogos-eletronicos/o-mercado-de-jogos-eletronicos/
+        url: /curso/jogos-digitais/capitulo-2-a-jogatina-das-decadas/o-mercado-de-jogos-eletronicos/
   - title: JOGAR OU NÃO JOGAR?
     children:        
       - title: O comportamento
-        url: /curso/jogos-digitais/capitulo-3-o-comportamento/o-comportamento/                
+        url: /curso/jogos-digitais/capitulo-3-jogar-ou-nao-jogar/o-comportamento/                
 
 computacao-grafica:        
   - title: COMPUTAÇÃO GRÁFICA 
