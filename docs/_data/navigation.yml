@@ -168,15 +168,15 @@ computacao-grafica:
     url: /curso/computacao-grafica/
     children:
       - title: Introdução
-        url: /curso/computacao-grafica/capitulo-1/introducao-a-computacao-grafica/
+        url: /curso/computacao-grafica/introducao-a-computacao-grafica/
       - title: Estrutura de objetos 3D
-        url: /curso/computacao-grafica/capitulo-1/estruturas-de-objetos-3d/   
+        url: /curso/computacao-grafica/estruturas-de-objetos-3d/   
       - title: Renderização 
-        url:  /curso/computacao-grafica/capitulo-1/renderizacao
+        url:  /curso/computacao-grafica/renderizacao/
       - title: Renderização de objetos com Unreal Engine
-        url:  /curso/computacao-grafica/capitulo-1/renderizacao-de-objetos-com-unreal-engine/
+        url:  /curso/computacao-grafica/renderizacao-de-objetos-com-unreal-engine/
       - title: Visibilidade e Oclusão
-        url:  /curso/computacao-grafica/capitulo-1/visibilidade-e-oclusao/            
+        url:  /curso/computacao-grafica/visibilidade-e-oclusao/            
 
 
 
