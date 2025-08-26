@@ -2,7 +2,6 @@
 title: Visibilidade e Oclusão
 categories: 
   - "computacao-grafica"
-## - "capitulo-1"
 excerpt: Neste capítulo apresentaremos o processo de visualização e oclusão de objetos.
 date: 2024-03-05T08:48:05-04:00
 order: 105

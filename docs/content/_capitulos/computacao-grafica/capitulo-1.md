@@ -1,5 +1,5 @@
 ---
-title: "Capitulo 1"
+title: "Capitulo 1 - Computação gráfica"
 categories: 
   - "computacao-grafica"
 description: "Os elementos do jogo"

@@ -2,7 +2,6 @@
 title: Introdução a Computação Gráfica
 categories: 
   - "computacao-grafica"
-##- "capitulo-1"
 excerpt: Apresentação do curso de Computação Gráfica.
 date: 2024-03-01T08:48:05-04:00
 order: 101

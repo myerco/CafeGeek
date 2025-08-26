@@ -1,5 +1,5 @@
 ---
-title: "Capitulo 3"
+title: "Capitulo 3 - Jogar ou Não Jogar"
 categories: 
   - "jogos-digitais"
 description: "Reflexão sobre o comportamento dos jogadores"

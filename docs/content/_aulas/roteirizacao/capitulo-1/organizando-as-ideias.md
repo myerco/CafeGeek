@@ -2,7 +2,6 @@
 title: Organizando as ideias
 categories: 
   - "roteirizacao"
-##  - "capitulo-1"
 excerpt: Descubra, de forma simples e divertida, as etapas para transformar uma ideia em um jogo digital!
 date: 2024-03-03T08:48:05-04:00
 ordem: 2

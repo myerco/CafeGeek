@@ -2,7 +2,6 @@
 title: Os elementos da história
 categories: 
   - "roteirizacao"
-##  - "capitulo-2"
 excerpt: Descubra, de forma simples e divertida, os elementos essenciais para criar histórias envolventes em jogos digitais!
 date: 2024-03-04T08:48:05-04:00
 ordem: 3

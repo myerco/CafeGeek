@@ -1,5 +1,5 @@
 ---
-title: "Capitulo 2"
+title: "Capitulo 2 - A Jogatina das Décadas"
 categories: 
   - "jogos-digitais"
 description: "A história dos jogos eletrônicos"
