@@ -4,6 +4,8 @@ main:
     url: /
   - title: "Posts"    
     url: /post-archive-feature-rows/
+  - title: "Documentos"
+    url: /page-archive/
   - title: "Sobre"
     url: /about/
 
