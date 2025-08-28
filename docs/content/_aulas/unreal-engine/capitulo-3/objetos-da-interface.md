@@ -57,7 +57,7 @@ Ao clicar no botão Sair vamos chamar a função `Quit Game` que finaliza do jog
 
 Neste passo vamos criar um *Level* vazio para executar o menu, quando o menu for chamado a tela inteira deve mudar.
 
-Caso o `Widget` seja o menu principal que deverá ser chamado no início do jogo é necessário adicionar o mesmo em [Level e inicialização](/unreal-engine-capitulo-1/estrutura-de-pastas#31-adicionando-um-level-na-inicialização-do-projeto)
+Caso o `Widget` seja o menu principal que deverá ser chamado no início do jogo é necessário adicionar o mesmo em [Level e inicialização](/curso/unreal-engine/capitulo-1/estrutura-de-pastas#31-adicionando-um-level-na-inicialização-do-projeto)
 
 Vamos criar um Level Vazio `Empty Level` para funcionar como base do menu.
 

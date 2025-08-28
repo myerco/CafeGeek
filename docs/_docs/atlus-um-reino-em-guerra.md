@@ -1,7 +1,8 @@
 ---
 title: "Atlus um reino em guerra"
 excerpt: "Roteiro do jogo Atlus um reino em guerra."
-last_modified_at: 2021-06-07T08:48:05-04:00
+categories:
+  - documentos
 layout: single
 author: Robson Maciel
 author_profile: true

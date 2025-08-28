@@ -5,8 +5,6 @@ categories:
   - mundo-social
 ---
 
-# Quais são as características técnicas e sociais de um servidor público federal no Brasil?
-
 As características técnicas e sociais dos servidores públicos federais no Brasil são definidas por um conjunto complexo de aspectos legais, institucionais e culturais. Neste artigo, você vai entender o perfil, os desafios e a importância desses profissionais para o funcionamento do Estado brasileiro.
 
 ---

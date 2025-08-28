@@ -1,7 +1,8 @@
 ---
 title: Death VIP
 excerpt: Modelo de GDD do jogo Death VIP
-last_modified_at: 2021-06-07T08:48:05-04:00
+categories:
+  - documentos
 layout: single
 author_profile: true
 read_time: true
@@ -12,10 +13,6 @@ tags:
   - jogos
   - modelo
 ---
-
-
-“Rescue or die trying”
-{: .text-center}
 
 ## 1. Introdução
 

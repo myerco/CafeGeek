@@ -1,7 +1,8 @@
 ---
 title: "Lines of Fate"
 excerpt: "Roteiro do jogo Lines of Fate."
-last_modified_at: 2021-06-07T08:48:05-04:00
+categories:
+  - documentos
 layout: single
 author: Varios
 author_profile: true

@@ -109,7 +109,7 @@ Valores:
 
 - e DynRes do projeto.
 
-**Informação:** Para saber mais sobre cada elemento acesse [visibilidade e oclusão do curso de Computação gráfica](/computacao-grafica/visibilidade-e-oclusao).
+**Informação:** Para saber mais sobre cada elemento acesse [visibilidade e oclusão do curso de Computação gráfica](/curso/computacao-grafica/visibilidade-e-oclusao).
 {: .notice--info}
 
 ### 1.4. Fornecendo feedback sobre quanto tempo vários Ticks de jogo estão demorando

@@ -1,6 +1,8 @@
 ---
 title: "Etapas do projeto"
 excerpt: "Cronograma de atividades do projeto."
+categories:
+  - documentos
 layout: single
 share: true
 toc: true
