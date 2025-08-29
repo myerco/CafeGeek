@@ -33,6 +33,38 @@ Felipe Malagueta:
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/felippe-fernandes/"
+Marco Yerco:      
+  name             : "Marco Yerco"
+  avatar           : "/assets/images/profile_marco_yerco.webp"
+  bio              : "Analista de sistemas e Professor."
+  location         : "Porto Velho (RO), Brasil"
+  email            :
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:cafegeekedu@gmail.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://cafegeek.eti.br"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/myerco"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/cafegeek.br/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCdP1V0cZN3TQOoBPBLuyhlQ"      
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/marco-yerco-853333142/"            
+
 
 Varios:
   name        : "Vários artistas"
