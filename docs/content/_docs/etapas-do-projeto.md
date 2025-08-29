@@ -1,14 +1,6 @@
 ---
 title: "Etapas do projeto"
 excerpt: "Cronograma de atividades do projeto."
-categories:
-  - documentos
-layout: single
-share: true
-toc: true
-author_profile: false
-sidebar:
-    nav: dev_unreal
 tags:
   - roteiros
   - jogos

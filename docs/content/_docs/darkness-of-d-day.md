@@ -1,14 +1,7 @@
 ---
 title: "Darkness of D-Day"
 excerpt: "Roteiro do jogo Darkness of D-Day."
-categories:
-  - documentos
-layout: single
 author: Raphael Ferreira
-author_profile: true
-read_time: true
-share: true
-toc: true
 tags:
   - roteiros
   - jogos

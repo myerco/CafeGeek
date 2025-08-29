@@ -1,14 +1,6 @@
 ---
 title: "Lines of Fate"
 excerpt: "Roteiro do jogo Lines of Fate."
-categories:
-  - documentos
-layout: single
-author: Varios
-author_profile: true
-read_time: true
-share: true
-toc: true
 tags:
   - roteiros
   - jogos

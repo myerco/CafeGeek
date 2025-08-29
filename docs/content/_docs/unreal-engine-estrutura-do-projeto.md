@@ -1,12 +1,7 @@
 ---
 title: Estrutura do Projeto
 excerpt: Neste capítulo será apresentado a estrutura do projeto.
-categories:
-  - documentos
-author_profile: false
-sidebar:
-    nav: dev_unreal
-toc: true  
+author: Felipe Malagueta
 tags:
   - Blueprint
   - Actors

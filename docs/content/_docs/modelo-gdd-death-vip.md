@@ -1,13 +1,7 @@
 ---
 title: Death VIP
 excerpt: Modelo de GDD do jogo Death VIP
-categories:
-  - documentos
-layout: single
-author_profile: true
-read_time: true
-share: true
-toc: true
+author: Felipe Malagueta
 tags:
   - roteiros
   - jogos

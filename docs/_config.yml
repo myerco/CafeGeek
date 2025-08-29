@@ -335,9 +335,6 @@ defaults:
       layout: single
       author_profile: false
       share: true
-      #header:
-      #  overlay_color: "#8c8c8c"
-      #  teaser: /assets/images/unreal/unreal_engine.webp
   # _docs
   - scope:
       path: "_docs"
@@ -346,8 +343,11 @@ defaults:
       layout: single
       read_time: true
       author_profile: true
-      share: false
+      share: true
       comments: false
+      category: documentos  
+      toc: true
+      sort_by: order
 # A taberna do pônei saltitante
   - scope:
       path: "_a-taberna-do-ponei-saltitante"

@@ -1,14 +1,7 @@
 ---
 title: " Don't stop looking"
 excerpt: "Roteiro do jogo Don't stop looking."
-categories:
-  - documentos
-layout: single
 author: Felipe Malagueta
-author_profile: true
-read_time: true
-share: true
-toc: true
 tags:
   - roteiros
   - jogos
