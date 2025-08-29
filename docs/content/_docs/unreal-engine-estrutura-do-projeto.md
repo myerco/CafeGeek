@@ -1,7 +1,7 @@
 ---
 title: Estrutura do Projeto
 excerpt: Neste capítulo será apresentado a estrutura do projeto.
-author: Felipe Malagueta
+author: Marco Yerco
 tags:
   - Blueprint
   - Actors

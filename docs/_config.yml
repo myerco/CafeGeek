@@ -162,12 +162,12 @@ footer:
 include:
   - .htaccess
   - _pages
-  - _docs
-  - _jogatina
-  - _me-conta-uma-historia
-  - _unreal-engine  
-  - _computacao-grafica
-  - _a-taberna-do-ponei-saltitante
+##  - _docs
+##  - _jogatina
+##  - _me-conta-uma-historia
+##  - _unreal-engine  
+##  - _computacao-grafica
+##  - _a-taberna-do-ponei-saltitante
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
