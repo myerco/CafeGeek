@@ -36,7 +36,7 @@ c:\arquivo.exe
 
 ## 2. Usando o Microsoft Visual Studio com C++
 
-Instale o Visual Studio e escolha os pacotes necessários para usar a linguagem C++. [Link](/unreal-engine-capitulo-1/instalacao-e-configuracao#3-instalando-o-visual-studio-para-programar-com-c)
+Instale o Visual Studio e escolha os pacotes necessários para usar a linguagem C++. [Link](/curso/unreal-engine/capitulo-1/instalacao-e-configuracao#3-instalando-o-visual-studio-para-programar-com-c)
 
 Após a instalação vamos criar um projeto teste seguinte os passos:
 
