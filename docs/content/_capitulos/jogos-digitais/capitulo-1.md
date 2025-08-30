@@ -2,7 +2,7 @@
 title: "Capitulo 1 - O Jogo"
 categories: 
   - "jogos-digitais"
-description: "Os elementos do jogo"
+excerpt: "Elementos do Jogo"
 num: 1
 order: 1
 sidebar:

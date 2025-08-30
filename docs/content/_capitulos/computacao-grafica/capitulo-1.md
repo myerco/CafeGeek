@@ -2,7 +2,7 @@
 title: "Capitulo 1 - Computação gráfica"
 categories: 
   - "computacao-grafica"
-description: "Os elementos do jogo"
+excerpt: "Entendendo a computação gráfica"
 num: 1
 order: 1
 total_aulas: 3
