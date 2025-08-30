@@ -2,6 +2,8 @@
 title: "Darkness of D-Day"
 excerpt: "Roteiro do jogo Darkness of D-Day."
 author: Raphael Ferreira
+categories: 
+  - "roteirizacao"
 sidebar:
   nav: roteirizacao
 tags:

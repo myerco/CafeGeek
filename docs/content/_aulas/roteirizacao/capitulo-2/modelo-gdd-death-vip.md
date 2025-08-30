@@ -1,6 +1,8 @@
 ---
 title: Death VIP
 excerpt: Modelo de GDD do jogo Death VIP
+categories: 
+  - "roteirizacao"
 author: Marco Yerco
 sidebar:
   nav: roteirizacao
