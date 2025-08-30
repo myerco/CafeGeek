@@ -32,7 +32,7 @@ Você pode criar um universo inteiro ou apenas pensar em uma mecânica divertida
 **Dica:** Não é obrigatório ter uma narrativa super elaborada, mas é legal definir o contexto, tema e estilo do seu jogo. Se tiver personagens, aproveite para criar um pouco da história deles!
 {: .notice--info}
 
-Um ótimo exemplo de documentação é o modelo [Death VIP](/docs/modelo-gdd-death-vip). Use esse modelo para organizar seus projetos ao longo do curso.
+Um ótimo exemplo de documentação é o modelo [Death VIP](/curso/roteirizacao/death-vip). Use esse modelo para organizar seus projetos ao longo do curso.
 {: .notice--success}
 
 ### 1.2. Funcional
