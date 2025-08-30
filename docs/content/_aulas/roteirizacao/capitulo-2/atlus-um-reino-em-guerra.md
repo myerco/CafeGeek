@@ -3,6 +3,9 @@ title: "Atlus um reino em guerra"
 excerpt: "Roteiro do jogo Atlus um reino em guerra."
 categories: 
   - "roteirizacao"
+read_time: true
+author_profile: true
+share: true  
 author: Robson Maciel
 sidebar:
   nav: roteirizacao
