@@ -1,6 +1,9 @@
 ---
 title: " Don't stop looking"
 excerpt: "Roteiro do jogo Don't stop looking."
+read_time: true
+author_profile: true
+share: true  
 author: Felipe Malagueta
 categories: 
   - "roteirizacao"

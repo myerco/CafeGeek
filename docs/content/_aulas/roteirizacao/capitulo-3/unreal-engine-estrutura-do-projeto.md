@@ -1,6 +1,8 @@
 ---
 title: Estrutura do Projeto
 excerpt: Neste capítulo será apresentado a estrutura do projeto.
+categories: 
+  - "roteirizacao"
 author: Marco Yerco
 sidebar:
   nav: roteirizacao

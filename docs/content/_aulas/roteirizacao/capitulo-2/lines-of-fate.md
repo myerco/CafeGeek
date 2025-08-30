@@ -1,6 +1,9 @@
 ---
 title: "Lines of Fate"
 excerpt: "Roteiro do jogo Lines of Fate."
+read_time: true
+author_profile: true
+share: true  
 categories: 
   - "roteirizacao"
 sidebar:

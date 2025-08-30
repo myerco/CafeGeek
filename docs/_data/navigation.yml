@@ -33,8 +33,6 @@ roteirizacao:
         url: /curso/roteirizacao/lines-of-fate/
       - title: Death Vip
         url: /curso/roteirizacao/death-vip/
-      - title: Estrutura do Projeto
-        url: /curso/roteirizacao/estrutura-do-projeto/ 
   - title: Projeto
     children:          
       - title: Etapas

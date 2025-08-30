@@ -1,6 +1,8 @@
 ---
 title: "Etapas do projeto"
 excerpt: "Cronograma de atividades do projeto."
+categories: 
+  - "roteirizacao"
 sidebar:
   nav: roteirizacao
 tags:
