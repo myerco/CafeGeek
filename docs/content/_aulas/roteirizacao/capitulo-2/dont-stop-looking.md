@@ -2,6 +2,8 @@
 title: " Don't stop looking"
 excerpt: "Roteiro do jogo Don't stop looking."
 author: Felipe Malagueta
+sidebar:
+  nav: roteirizacao
 tags:
   - roteiros
   - jogos

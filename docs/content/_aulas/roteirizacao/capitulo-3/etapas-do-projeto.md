@@ -1,6 +1,8 @@
 ---
 title: "Etapas do projeto"
 excerpt: "Cronograma de atividades do projeto."
+sidebar:
+  nav: roteirizacao
 tags:
   - roteiros
   - jogos

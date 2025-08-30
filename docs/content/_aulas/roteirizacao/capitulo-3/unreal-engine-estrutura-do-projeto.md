@@ -2,6 +2,8 @@
 title: Estrutura do Projeto
 excerpt: Neste capítulo será apresentado a estrutura do projeto.
 author: Marco Yerco
+sidebar:
+  nav: roteirizacao
 tags:
   - Blueprint
   - Actors

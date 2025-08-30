@@ -1,6 +1,8 @@
 ---
 title: "Lines of Fate"
 excerpt: "Roteiro do jogo Lines of Fate."
+sidebar:
+  nav: roteirizacao
 tags:
   - roteiros
   - jogos

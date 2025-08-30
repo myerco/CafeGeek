@@ -21,7 +21,26 @@ roteirizacao:
         url: /curso/roteirizacao/organizando-as-ideias/
       - title: Os elementos da história
         url: /curso/roteirizacao/os-elementos-da-historia/     
-
+  - title: Roteiros
+    children:          
+      - title: Atlus
+        url: /curso/roteirizacao/atlus-um-reino-em-guerra/
+      - title: Darkness of D-Day
+        url: /curso/roteirizacao/darkness-of-d-day/
+      - title: Dont Stop Looking
+        url: /curso/roteirizacao/dont-stop-looking/
+      - title: Lines of Fate
+        url: /curso/roteirizacao/lines-of-fate/
+      - title: Death Vip
+        url: /curso/roteirizacao/death-vip/
+      - title: Estrutura do Projeto
+        url: /curso/roteirizacao/estrutura-do-projeto/ 
+  - title: Projeto
+    children:          
+      - title: Etapas
+        url: /curso/roteirizacao/etapas-do-projeto/
+      - title: Estrutura do Projeto
+        url: /curso/roteirizacao/estrutura-do-projeto/
 
 dev_modelagem3d:
   - title: MODELAGEM 3D
