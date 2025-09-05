@@ -17,7 +17,7 @@ Neste projeto serão apresentados os elementos necessários para a construção 
 
 ## 1. Preparando o projeto
 
-Em este passo iremos preparar as pastas, configuração inicial do projeto e *Character* do jogador. Vamos criar o projeto AulaIA, considere a estrutura de pastas [Estrutura do Projeto](/unreal-engine/documentacao-da-estrutura/).
+Em este passo iremos preparar as pastas, configuração inicial do projeto e *Character* do jogador. Vamos criar o projeto AulaIA, considere a estrutura de pastas [Estrutura do Projeto](/curso/unreal-engine/capitulo-1/estrutura-de-pastas/).
 
 Crie um novo *level* de nome **LevelTeste** e salvar na pasta **Maps**, logo em seguida configure o projeto para que o **levelTeste** seja inicializado ao abrir o projeto usando `Project Settings` > `Maps & Mods`.
 
