@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Boletim: Urna Eletrônica — Segurança e Transparência</title>
+  <style>
+    :root{--blue:#0b4f8a;--light:#f4f8fb;--muted:#666;--accent:#0b74c9}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; margin:0; color:#111}
+    .page{max-width:1000px;margin:20px auto;padding:28px;background:white;border-radius:10px;box-shadow:0 6px 20px rgba(12,22,40,0.08)}
+    header{display:flex;gap:18px;align-items:center}
+    .logo{width:76px;height:76px;border-radius:8px;background:linear-gradient(180deg,var(--blue),#08345f);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    h1{font-size:20px;margin:0}
+    p.lead{margin:6px 0 18px;color:var(--muted)}
+
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .card{background:var(--light);padding:14px;border-radius:8px}
+    .card h3{margin:0 0 8px;font-size:16px;color:var(--blue)}
+    .bullet{display:flex;gap:10px;align-items:flex-start;margin:8px 0}
+    .bullet svg{flex:0 0 34px}
+    .small{font-size:13px;color:var(--muted)}
+
+    table{width:100%;border-collapse:collapse;margin-top:6px}
+    td,th{padding:8px;border-bottom:1px solid rgba(0,0,0,0.06);font-size:13px}
+    th{background:transparent;text-align:left;color:var(--muted)}
+
+    .cta{display:flex;gap:12px;align-items:center;margin-top:14px}
+    .btn{background:var(--accent);color:white;padding:10px 14px;border-radius:8px;text-decoration:none;font-weight:600}
+    .link{color:var(--blue);text-decoration:none;font-weight:600}
+
+    footer{margin-top:18px;font-size:13px;color:var(--muted)}
+
+    /* single-column on narrow screens */
+    @media (max-width:720px){.grid{grid-template-columns:1fr}.logo{width:60px;height:60px}}
+
+    /* print friendly */
+    @media print{body{background:white} .page{box-shadow:none;margin:0;border-radius:0}}
+  </style>
+</head>
+<body>
+  <div class="page" role="document" aria-label="Boletim: Urna Eletrônica - Segurança e Transparência">
+    <header>
+      <div class="logo" aria-hidden="true">JE</div>
+      <div>
+        <h1>Justiça Eleitoral — Segurança, Transparência e Auditoria</h1>
+        <p class="lead">Resumo com informações verificáveis sobre o funcionamento da urna eletrônica e os mecanismos de controle do processo eleitoral.</p>
+      </div>
+    </header>
+
+    <main>
+      <section style="margin-top:16px">
+        <div class="card">
+          <h3>Em poucas palavras</h3>
+          <p class="small">A urna eletrônica brasileira é resultado de mais de 25 anos de aperfeiçoamento. O processo eleitoral é formado por múltiplas camadas de segurança, auditorias públicas e fiscalização por várias entidades, garantindo que cada voto seja registrado, auditado e contabilizado com transparência.</p>
+          <div style="margin-top:10px;display:flex;gap:12px;flex-wrap:wrap">
+            <span class="small">🔹 Eleitorado (2024): <strong>155.912.680</strong></span>
+            <span class="small">🔹 Mesários: <strong>1.925.507</strong></span>
+            <span class="small">🔹 Urnas em uso: <strong>478.026</strong></span>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid" aria-label="Blocos principais">
+        <div class="card">
+          <h3>Segurança antes e durante a votação</h3>
+
+          <div class="bullet">
+            <svg width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#e6f2fb"/><path d="M7 12v-2a5 5 0 1110 0v2" stroke="#0b74c9" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div>
+              <strong>Código-fonte aberto</strong>
+              <div class="small">Os programas utilizados nas urnas são disponibilizados com antecedência para análise de partidos, órgãos de controle e universidades.</div>
+            </div>
+          </div>
+
+          <div class="bullet">
+            <svg width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#eaf7e9"/><path d="M12 8v4l2 2" stroke="#1b9b3a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div>
+              <strong>Testes Públicos de Segurança (TPS)</strong>
+              <div class="small">Especialistas são convidados a auditar os sistemas; falhas reportadas são corrigidas antes das eleições.</div>
+            </div>
+          </div>
+
+          <div class="bullet">
+            <svg width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#fff3e6"/><path d="M7 11a5 5 0 0110 0v3" stroke="#ff8a00" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div>
+              <strong>Assinatura digital e lacração</strong>
+              <div class="small">Sistemas são assinados e lacrados em cerimônia com entidades fiscalizadoras; alterações posteriores não são possíveis.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>Transparência na apuração</h3>
+
+          <div class="bullet">
+            <svg width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#eef3ff"/><path d="M7 12h10M7 16h6" stroke="#0b4f8a" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div>
+              <strong>Boletim de Urna (BU)</strong>
+              <div class="small">Cada urna imprime o BU com os resultados da seção — documento físico assinado pela mesa receptora.</div>
+            </div>
+          </div>
+
+          <div class="bullet">
+            <svg width="34" height="34" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect width="24" height="24" rx="6" fill="#f3e8ff"/><path d="M12 5v14M5 12h14" stroke="#7a4ae8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div>
+              <strong>App "Boletim na Mão"</strong>
+              <div class="small">Permite verificar os dados do BU via QR Code e compará-los com os publicados no site do TSE.</div>
+            </div>
+          </div>
+
+          <div class="small" style="margin-top:10px">A urna não possui conexão com a internet; só roda software oficial assinado digitalmente.</div>
+        </div>
+      </section>
+
+      <section style="margin-top:16px">
+        <div class="card">
+          <h3>Perguntas frequentes (respostas claras)</h3>
+          <table role="table" aria-label="FAQ">
+            <thead>
+              <tr><th>Dúvida</th><th>Fato</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>A urna pode ser hackeada?</td><td>Não. Não tem internet nem Bluetooth; e o software é assinado e certificado.</td></tr>
+              <tr><td>Há votos antes da votação?</td><td>Não. A zerésima comprova que não há votos antes de abrir a seção.</td></tr>
+              <tr><td>A apuração é secreta?</td><td>Não. A totalização é pública e acompanhada por entidades fiscalizadoras.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="grid" style="margin-top:16px;align-items:start">
+        <div class="card">
+          <h3>Fiscalização aberta</h3>
+          <p class="small">Partidos, OAB, Ministério Público, CGU, Polícia Federal, universidades e entidades da sociedade civil acompanham todas as etapas — desde os testes até a totalização dos votos.</p>
+          <p class="small" style="margin-top:8px"><strong>Referência legal:</strong> Resolução TSE nº 23.673/2021 (regras sobre disponibilização de código-fonte e fiscalização).</p>
+        </div>
+
+        <div class="card" aria-label="Links e fontes">
+          <h3>Fontes oficiais</h3>
+          <div class="small">Consulte para verificar os dados apresentados:</div>
+          <ul class="small" style="padding-left:18px;margin-top:8px">
+            <li><a class="link" href="https://www.justicaeleitoral.jus.br/urna-eletronica" target="_blank" rel="noopener">Portal da Urna Eletrônica — TSE</a></li>
+            <li><a class="link" href="https://www.tse.jus.br/legislacao" target="_blank" rel="noopener">Resoluções e legislação — TSE</a></li>
+            <li><a class="link" href="https://www.justicaeleitoral.jus.br/urna-eletronica/boletim-na-mao" target="_blank" rel="noopener">Aplicativo Boletim na Mão — TSE</a></li>
+          </ul>
+
+          <div class="cta">
+            <a class="btn" href="https://www.justicaeleitoral.jus.br/urna-eletronica" target="_blank" rel="noopener">Acesse o Portal da Urna</a>
+            <a class="btn" style="background:#2b6b2b" href="https://www.tse.jus.br/legislacao" target="_blank" rel="noopener">Ver Resoluções</a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div class="small">Produzido pela Assessoria de Comunicação — Justiça Eleitoral</div>
+        <div class="small">Data de referência: Eleições 2024 • Dados oficiais TSE</div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
