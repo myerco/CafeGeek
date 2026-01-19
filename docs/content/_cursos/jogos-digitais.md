@@ -1,8 +1,9 @@
 ---
 title: Jogos Digitais
 order: 0
-excerpt: "Aprenda sobre as características que definem um jogo eletrônico."
+excerpt: "Descubra a magia por trás dos games! Mergulhe na história, mecânicas e criação de jogos digitais. Do conceito ao desenvolvimento, entenda como os games conquistaram o planeta e como você pode fazer parte dessa história."
 date: 2024-03-01T08:48:05-04:00
+image: /assets/images/cafegeek_roteirizacao.jpg
 show_date: true
 sidebar:
   nav: jogos-digitais      
