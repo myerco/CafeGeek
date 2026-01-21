@@ -27,3 +27,12 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+#Phyton
+# Python virtualenv
+.venv/
+venv/
+
+# Local scripts and helper tools (do not commit)
+scripts/
+
