@@ -1,7 +1,7 @@
 ---
 
-title: Auto-RELACIONAMENTO
-excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
+title: Auto-relacionamento
+excerpt: "Descubra como entidades podem se relacionar consigo mesmas em bancos de dados, com exemplos práticos e linguagem acessível."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -13,69 +13,74 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-# AUTO-RELACIONAMENTO
-
-**BANCO DE DADOS I**
-Marco Yerco Mendizabel Cabrera
-Analista de Sistemas
-
 ## Objetivos
 
-- Auto-relacionamento
+- Entender o conceito de auto-relacionamento em bancos de dados.
+- Identificar exemplos práticos e aplicações desse tipo de relacionamento.
+
+## O que é Auto-relacionamento?
+
+Auto-relacionamento ocorre quando uma entidade se relaciona com ela mesma. Ou seja, os registros de uma mesma tabela podem estar conectados entre si, representando hierarquias, dependências ou composições.
+
+Esse conceito é fundamental para modelar estruturas como árvores genealógicas, organogramas, listas de componentes e outros cenários onde elementos do mesmo tipo se conectam.
 
 ---
 
-## AUTO-RELACIONAMENTO
+## Exemplos de Auto-relacionamento
 
-É um tipo especial de relacionamento onde as entidades se relacionam com elas mesmas.
+### 1. Um para Muitos
 
-### Tipos de auto-relacionamentos:
+Imagine uma tabela `PESSOAS` onde cada pessoa pode ser filha de outra pessoa. O relacionamento "é_filho_de" conecta registros da tabela consigo mesma:
 
-1. Auto-relacionamento Um-para-Muitos
-2. Auto-relacionamento Muitos-para-Muitos
-
----
-
-## UM PARA MUITOS
-
-Vamos considerar uma entidade Pessoas, cujas ocorrências são representativas de inúmeras pessoas de um determinado local. Entre estas inúmeras ocorrências de pessoas existem relacionamentos bem-definidos, como **É_filho_de**. Isto é, algumas pessoas são filhas de outras pessoas.
-
+```text
 PESSOAS
 │
 │ TEM
 │ 1 N
 ▼
 PESSOAS
+```
 
-### TABELA:
+Na prática, a tabela pode ter um campo `id_pai` que referencia o `id` de outra pessoa na mesma tabela.
 
-**PESSOAS** (com auto-relacionamento)
+| id | nome         | id_pai |
+|----|--------------|--------|
+| 1  | João         | NULL   |
+| 2  | Maria        | 1      |
+| 3  | Pedro        | 1      |
+
+Assim, Maria e Pedro são filhos de João.
 
 ---
 
-## MUITOS PARA MUITOS
+### 2. Muitos para Muitos
 
-Vamos considerar o seguinte caso: em uma indústria, um produto é composto de vários outros produtos, que são componentes. Por outro lado, um produto componente pode participar da composição de muitos produtos.
+Em uma indústria, um produto pode ser composto por vários outros produtos (componentes), e um componente pode participar de vários produtos. Isso é um auto-relacionamento muitos-para-muitos:
 
-Observe que isso significa estamos lidando com um único tipo de objeto produto.
-
+```text
 PRODUTO
 │
 │ COMPONENTE
 │ N N
 ▼
 PRODUTO
+```
 
-### TABELAS:
+Para modelar isso, usamos uma tabela associativa:
 
-**PRODUTOS** e **COMPONENTES** (auto-relacionamento N:N)
+| id_produto | id_componente |
+|------------|---------------|
+| 1          | 2             |
+| 1          | 3             |
+| 2          | 4             |
+
+Assim, o produto 1 é composto pelos componentes 2 e 3, e assim por diante.
 
 ---
 
-## Próximo tópico
+## Por que usar auto-relacionamento?
 
-- Normalização I
+- Representa hierarquias e estruturas recursivas.
+- Permite consultas como "quem são os subordinados de um funcionário?" ou "quais produtos compõem este item?".
+- Facilita a manutenção e expansão do modelo de dados.
 
-### O que foi visto
-
-- Auto-Relacionamento

@@ -197,7 +197,21 @@ computacao-grafica:
       - title: Visibilidade e Oclusão
         url:  /curso/computacao-grafica/visibilidade-e-oclusao/            
 
-
+introducao-a-banco-de-dados:
+  - title: INTRODUÇÃO A BANCO DE DADOS
+    icon: fas fa-database
+    url: /curso/introducao-a-banco-de-dados/
+    children:
+      - title: Introdução
+        url: /curso/introducao-a-banco-de-dados/introducao/
+      - title: Conceitos Básicos
+        url: /curso/introducao-a-banco-de-dados/conceitos-basicos/
+      - title: Modelo Relacional
+        url: /curso/introducao-a-banco-de-dados/modelo-relacional/
+      - title: Linguagem SQL
+        url: /curso/introducao-a-banco-de-dados/linguagem-sql/
+      - title: Normalização de Dados
+        url: /curso/introducao-a-banco-de-dados/normalizacao-de-dados/
 
 # Configurações do menu
 menu_config:
