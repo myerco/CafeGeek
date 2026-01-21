@@ -1,6 +1,7 @@
 ---
-title: RESTRIÇÕES
-excerpt: "**BANCO DE DADOS I** Marco Yerco Mendizabel Cabrera Analista de Sistemas"
+
+title: RestriÇÕES
+excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -11,6 +12,7 @@ tags:
 sidebar:
   nav: introducao-a-banco-de-dados
 ---
+
 # RESTRIÇÕES
 
 **BANCO DE DADOS I**

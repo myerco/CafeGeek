@@ -1,6 +1,7 @@
 ---
-title: FERRAMENTAS
-excerpt: "**BANCO DE DADOS I** Marco Yerco Mendizabel Cabrera Analista de Sistemas"
+
+title: Ferramentas
+excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -11,6 +12,7 @@ tags:
 sidebar:
   nav: introducao-a-banco-de-dados
 ---
+
 # FERRAMENTAS
 
 **BANCO DE DADOS I**

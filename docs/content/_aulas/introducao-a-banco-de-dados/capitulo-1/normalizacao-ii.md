@@ -1,6 +1,7 @@
 ---
-title: NORMALIZAÇÃO II
-excerpt: "**BANCO DE DADOS I** Marco Yerco Mendizabel Cabrera Analista de Sistemas"
+
+title: NormalizaÇÃO II
+excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -11,6 +12,7 @@ tags:
 sidebar:
   nav: introducao-a-banco-de-dados
 ---
+
 # NORMALIZAÇÃO II
 
 **BANCO DE DADOS I**

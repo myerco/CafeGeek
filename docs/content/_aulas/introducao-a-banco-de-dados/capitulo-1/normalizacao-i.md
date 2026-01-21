@@ -1,6 +1,7 @@
 ---
-title: NORMALIZAÇÃO I
-excerpt: "**BANCO DE DADOS I** Marco Yerco Mendizabel Cabrera Analista de Sistemas"
+
+title: NormalizaÇÃO I
+excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -11,6 +12,7 @@ tags:
 sidebar:
   nav: introducao-a-banco-de-dados
 ---
+
 # NORMALIZAÇÃO I
 
 **BANCO DE DADOS I**
@@ -35,7 +37,7 @@ Analista de Sistemas
 
 ## ANOMALIAS
 
-Considere o formulário de Pedido apresentado a seguir. Podemos entender que uma entidade formada com os dados presentes neste documento, terá a seguinte apresentação:
+Vamos considerar o formulário de Pedido apresentado a seguir. Podemos entender que uma entidade formada com os dados presentes neste documento, terá a seguinte apresentação:
 
 ### PEDIDO (formulário)
 
@@ -77,7 +79,7 @@ Nas novas entidades criadas, a chave primária é a concatenação da chave prim
 
 ## 1FN - ENTIDADE PEDIDO
 
-Considere a entidade pedido:
+Vamos considerar a entidade pedido:
 - Chave primária é Nº do pedido
 - Identificamos o grupo de atributos que se repetem
 - Criamos uma nova entidade ITEM-DE_PEDIDO que herdará os atributos repetitivos e destacados da entidade PEDIDO

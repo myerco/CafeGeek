@@ -1,6 +1,7 @@
 ---
-title: AUTO-RELACIONAMENTO
-excerpt: "**BANCO DE DADOS I** Marco Yerco Mendizabel Cabrera Analista de Sistemas"
+
+title: Auto-RELACIONAMENTO
+excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -11,6 +12,7 @@ tags:
 sidebar:
   nav: introducao-a-banco-de-dados
 ---
+
 # AUTO-RELACIONAMENTO
 
 **BANCO DE DADOS I**
@@ -36,7 +38,7 @@ Analista de Sistemas
 
 ## UM PARA MUITOS
 
-Considere uma entidade Pessoas, cujas ocorrências são representativas de inúmeras pessoas de um determinado local. Entre estas inúmeras ocorrências de pessoas existem relacionamentos bem-definidos, como **É_filho_de**. Isto é, algumas pessoas são filhas de outras pessoas.
+Vamos considerar uma entidade Pessoas, cujas ocorrências são representativas de inúmeras pessoas de um determinado local. Entre estas inúmeras ocorrências de pessoas existem relacionamentos bem-definidos, como **É_filho_de**. Isto é, algumas pessoas são filhas de outras pessoas.
 
 PESSOAS
 │
@@ -53,9 +55,9 @@ PESSOAS
 
 ## MUITOS PARA MUITOS
 
-Considere o seguinte caso: em uma indústria, um produto é composto de vários outros produtos, que são componentes. Por outro lado, um produto componente pode participar da composição de muitos produtos.
+Vamos considerar o seguinte caso: em uma indústria, um produto é composto de vários outros produtos, que são componentes. Por outro lado, um produto componente pode participar da composição de muitos produtos.
 
-Observe que estamos lidando com um único tipo de objeto produto.
+Observe que isso significa estamos lidando com um único tipo de objeto produto.
 
 PRODUTO
 │

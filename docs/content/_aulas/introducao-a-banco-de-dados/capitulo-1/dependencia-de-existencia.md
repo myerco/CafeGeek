@@ -1,6 +1,7 @@
 ---
-title: DEPENDÊNCIA DE EXISTÊNCIA
-excerpt: "**BANCO DE DADOS I** Marco Yerco Mendizabel Cabrera Analista de Sistemas"
+
+title: DependÊNCIA DE EXISTÊNCIA
+excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -11,6 +12,7 @@ tags:
 sidebar:
   nav: introducao-a-banco-de-dados
 ---
+
 # DEPENDÊNCIA DE EXISTÊNCIA
 
 **BANCO DE DADOS I**
@@ -34,7 +36,7 @@ Quando uma entidade **X** depende da existência da entidade **Y**, então X é 
 
 ## EXEMPLO
 
-Considere uma entidade **aluno** e outra entidade **nota**:
+Vamos considerar uma entidade **aluno** e outra entidade **nota**:
 - A entidade nota armazena todas as notas de todas as disciplinas de cada aluno
 - Se um aluno for excluído da entidade aluno, então todas as ocorrências do aluno serão excluídas na entidade nota
 - Se uma nota for excluída da entidade nota não afetará a entidade aluno

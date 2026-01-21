@@ -1,6 +1,7 @@
 ---
-title: MODELO DE DADOS
-excerpt: "**BANCO DE DADOS I** Marco Yerco Mendizabel Cabrera Analista de Sistemas"
+
+title: Modelo De Dados
+excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -11,6 +12,7 @@ tags:
 sidebar:
   nav: introducao-a-banco-de-dados
 ---
+
 # MODELO DE DADOS
 
 **BANCO DE DADOS I**
@@ -70,10 +72,12 @@ A disciplina abordará o **Modelo de Entidade de Relacionamento** por ser o mode
 ### Exemplo:
 
 ```sql
+```
 CREATE TABLE tabela (
     campo1 tipo,
     campo2 tipo
 );
+```
 
 ALTER TABLE tabela ADD campo3 tipo;
 
@@ -83,21 +87,29 @@ DML - Principais comandos:
 
     INSERT
 
-    DELETE
+    ```
+DELETE
 
-    UPDATE
+    ```
+UPDATE
 
-    SELECT
+    ```
+SELECT
 
 Exemplo:
 sql
 
+```
 INSERT INTO tabela VALUES (valor1, valor2, valor3);
+```
 
+```
 UPDATE tabela SET campo1 = valor1;
 
+```
 DELETE FROM tabela;
 
+```
 SELECT * FROM tabela;
 
 SQL
@@ -126,3 +138,10 @@ O que foi visto:
     Linguagem de manipulação de dados
 
     Definição de SQL
+
+
+## Próximo tópico
+- [Próximo conceito]
+
+### O que foi visto
+- Conceitos abordados neste tópico

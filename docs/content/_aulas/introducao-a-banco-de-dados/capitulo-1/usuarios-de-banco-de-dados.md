@@ -1,6 +1,7 @@
 ---
-title: USUÁRIOS DE BANCO DE DADOS
-excerpt: "**BANCO DE DADOS I** Marco Yerco Mendizabel Cabrera Analista de Sistemas"
+
+title: UsuÁRIOS DE BANCO DE DADOS
+excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -11,6 +12,7 @@ tags:
 sidebar:
   nav: introducao-a-banco-de-dados
 ---
+
 # USUÁRIOS DE BANCO DE DADOS
 
 **BANCO DE DADOS I**

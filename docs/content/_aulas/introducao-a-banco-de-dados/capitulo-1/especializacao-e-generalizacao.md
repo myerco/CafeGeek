@@ -1,6 +1,7 @@
 ---
-title: ESPECIALIZAÇÃO E GENERALIZAÇÃO
-excerpt: "**BANCO DE DADOS I** Marco Yerco Mendizabel Cabrera Analista de Sistemas"
+
+title: EspecializaÇÃO E GENERALIZAÇÃO
+excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -11,6 +12,7 @@ tags:
 sidebar:
   nav: introducao-a-banco-de-dados
 ---
+
 # ESPECIALIZAÇÃO E GENERALIZAÇÃO
 
 **BANCO DE DADOS I**
@@ -26,7 +28,7 @@ Analista de Sistemas
 
 ## ESPECIALIZAÇÃO
 
-Considere a entidade Médico, ela pode ser definida em um conjunto de entidades classificados como:
+Vamos considerar a entidade Médico, ela pode ser definida em um conjunto de entidades classificados como:
 - Pediatra;
 - Cardiologista;
 - Clínico Geral;
@@ -50,7 +52,7 @@ MÉDICO
 
 Praticamente a generalização é o inverso da especialização.
 
-Por exemplo: a entidade **Médico** é na realidade uma generalização para diversas classes de dados de médicos.
+Por exemplo, imagine: a entidade **Médico** é na realidade uma generalização para diversas classes de dados de médicos.
 
 Pode-se considerar a entidade Médico como uma **Classe (Superclasse ou Supertipo)** e suas especializações as suas **Subclasses (Subtipo)**.
 

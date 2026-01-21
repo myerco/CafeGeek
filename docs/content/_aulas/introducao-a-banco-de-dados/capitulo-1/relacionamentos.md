@@ -1,6 +1,7 @@
 ---
-title: RELACIONAMENTOS
-excerpt: "**BANCO DE DADOS I** Marco Yerco Mendizabel Cabrera Analista de Sistemas"
+
+title: Relacionamentos
+excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -11,6 +12,7 @@ tags:
 sidebar:
   nav: introducao-a-banco-de-dados
 ---
+
 # RELACIONAMENTOS
 
 **BANCO DE DADOS I**
@@ -28,7 +30,7 @@ Analista de Sistemas
 
 "Um relacionamento é uma associação entre uma ou várias entidades".
 
-Por exemplo: podemos definir um relacionamento que associa o cliente **ROMÁRIO** com o empréstimo **L-15**. Esse relacionamento especifica que cliente ROMÁRIO é um cliente com o empréstimo número L-15.
+Por exemplo, imagine: podemos definir um relacionamento que associa o cliente **ROMÁRIO** com o empréstimo **L-15**. Esse relacionamento especifica que cliente ROMÁRIO é um cliente com o empréstimo número L-15.
 
 ---
 

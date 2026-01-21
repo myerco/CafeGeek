@@ -1,6 +1,7 @@
 ---
-title: CHAVE ESTRANGEIRA
-excerpt: "**BANCO DE DADOS I** Marco Yerco Mendizabel Cabrera Analista de Sistemas"
+
+title: Chave Estrangeira
+excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -11,7 +12,12 @@ tags:
 sidebar:
   nav: introducao-a-banco-de-dados
 ---
+
 # CHAVE ESTRANGEIRA
+
+
+
+Este tópico explora o conceito de chave estrangeira em bancos de dados, com exemplos práticos e aplicações reais.
 
 **BANCO DE DADOS I**
 Marco Yerco Mendizabel Cabrera
