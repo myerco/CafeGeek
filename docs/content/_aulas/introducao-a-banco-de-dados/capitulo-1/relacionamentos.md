@@ -1,7 +1,6 @@
 ---
-
 title: Relacionamentos
-excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
+excerpt: "Explore os tipos de relacionamentos entre entidades em bancos de dados: 1:1, 1:N e N:N."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -13,118 +12,176 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-# RELACIONAMENTOS
-
-**BANCO DE DADOS I**
-Marco Yerco Mendizabel Cabrera
-Analista de Sistemas
-
 ## Objetivos
 
-- Relacionamentos
-- Exemplos
+- Compreender o conceito de relacionamentos entre entidades.
+- Identificar os tipos de relacionamentos: 1:1, 1:N, N:N.
+- Aprender a representação gráfica e implementação em tabelas.
+- Explorar exemplos práticos de relacionamentos.
 
----
+## O que são Relacionamentos?
 
-## RELACIONAMENTOS
+Relacionamentos são associações estabelecidas entre entidades no modelo de dados. Eles representam como as entidades se conectam no mundo real.
 
-"Um relacionamento é uma associação entre uma ou várias entidades".
+**Definição:** "Um relacionamento é uma associação entre uma ou várias entidades."
 
-Por exemplo, imagine: podemos definir um relacionamento que associa o cliente **ROMÁRIO** com o empréstimo **L-15**. Esse relacionamento especifica que cliente ROMÁRIO é um cliente com o empréstimo número L-15.
+### Exemplo Básico
 
----
+Um cliente pode estar associado a um empréstimo específico. Esta associação cria um relacionamento entre as entidades CLIENTE e EMPRÉSTIMO.
 
-## REPRESENTAÇÃO
+## Representação Gráfica
 
-São representados por elipses:
+No Modelo Entidade-Relacionamento, relacionamentos são representados por losangos conectando as entidades:
 
-CLIENTE EMPRÉSTIMO
-○ ────────── ○
+```text
+┌─────────┐     ┌────────────┐
+│ CLIENTE │ ──○ │ EMPRÉSTIMO │
+└─────────┘     └────────────┘
+```
 
-### TABELAS
+O losango (○) representa o relacionamento, e as linhas conectam às entidades participantes.
 
-**CLIENTE**
-**EMPRÉSTIMO**
+## Tipos de Relacionamentos
 
----
+### Relacionamento 1:1 (Um para Um)
 
-## EXEMPLO DE RELACIONAMENTO
+Cada instância de uma entidade se relaciona com no máximo uma instância da outra entidade.
 
-Podemos citar duas entidades "distintas" que se relacionam:
-- Entidade **Homens**
-- Entidade **Mulheres**
+**Exemplo:** Um cidadão possui um CPF único.
 
-Estas entidades estão relacionadas através do **casamento***.
+- Um PESSOA → Um CPF
+- Um CPF → Uma PESSOA
 
-HOMENS ──── MULHERES
+```
+┌─────────┐     ┌─────┐
+│ PESSOA  │ ──○ │ CPF │
+└─────────┘     └─────┘
+      1             1
+```
 
----
+### Relacionamento 1:N (Um para Muitos)
 
-## OUTRO EXEMPLO
+Uma instância da entidade A pode se relacionar com múltiplas instâncias da entidade B, mas cada instância de B se relaciona com apenas uma de A.
 
-As pessoas **Moram** em Apartamentos;
-Os apartamentos **Formam** Condomínios;
-Os Condomínios **Localizam-se** em Ruas ou Avenidas;
-As Avenidas e Ruas **Estão** em uma Cidade.
+**Exemplo:** Um cliente pode ter vários empréstimos, mas cada empréstimo pertence a apenas um cliente.
+- Um CLIENTE → Muitos EMPRÉSTIMOS
+- Um EMPRÉSTIMO → Um CLIENTE
 
-*Obs: Perceba que os relacionamentos são construídos com verbos.*
+```text
+┌─────────┐     ┌────────────┐
+│ CLIENTE │ ──○ │ EMPRÉSTIMO │
+└─────────┘     └────────────┘
+      1             N
+```
 
-PESSOAS ──┐
-│
-APARTAMENTOS ──┐
-│
-CONDOMÍNIOS ──┐
-│
-RUAS ─┴─ AVENIDAS
+### Relacionamento N:N (Muitos para Muitos)
 
----
+Instâncias de ambas as entidades podem se relacionar com múltiplas instâncias da outra.
 
-## EXEMPLO: ALUNOS
+**Exemplo:** Alunos matriculados em disciplinas.
 
+- Um ALUNO → Muitas DISCIPLINAS
+- Uma DISCIPLINA → Muitos ALUNOS
 
-ALUNO ─── TURMA ─── DISCIPLINA ─── PROFESSOR
+```text
+┌─────────┐     ┌─────────────┐
+│  ALUNO  │ ──○ │ DISCIPLINA │
+└─────────┘     └─────────────┘
+      N             N
+```
 
----
+## Implementação em Tabelas
+Relacionamentos são implementados através de chaves estrangeiras (FK - Foreign Key).
 
-## EXEMPLO: VENDAS
+### 1:1 - Chave Estrangeira Opcional
 
+```text
+CLIENTE (PK: id_cliente)
+- id_cliente
+- nome
+- cpf (FK para PESSOA, opcional)
 
-CLIENTE ─── NOTA FISCAL ─── PRODUTO ─── VENDEDOR
+PESSOA (PK: cpf)
+- cpf
+- nome_completo
+- data_nascimento
+```
 
----
+### 1:N - Chave Estrangeira no Lado "Muitos"
 
-## EXPRESSÃO RELACIONAL
+```text
+CLIENTE (PK: id_cliente)
+- id_cliente
+- nome
+- endereco
 
-O relacionamento efetiva-se através de uma expressão relacional que indica como deve ser feita a comparação entre os campos comuns às Entidades, só que agora com uma característica diferente.
+EMPRESTIMO (PK: id_emprestimo)
+- id_emprestimo
+- valor
+- data
+- id_cliente (FK para CLIENTE)
+```
 
-A comparação é realizada entre campos das entidades e campos do relacionamento, formando uma expressão composta:
+### N:N - Tabela Associativa
 
-(aluno.matricula = turma.matriculaAluno)
-(aluno.sexo = sexo.descricao)
+```
+ALUNO (PK: matricula)
+- matricula
+- nome
 
----
+DISCIPLINA (PK: codigo)
+- codigo
+- nome
+- carga_horaria
 
-## EXPRESSÃO - DIAGRAMA COM CARDINALIDADE
+MATRICULA (PK: matricula + codigo)
+- matricula (FK para ALUNO)
+- codigo (FK para DISCIPLINA)
+- semestre
+- nota
+```
 
+## Exemplos Práticos
 
-ALUNO ─── TURMA ─── DISCIPLINA ─── PROFESSOR
-1 1 N N
-N 1
+### Sistema Acadêmico
 
-PK - Matricula
-PK - NumeroTurma
-FK - MatriculaAluno
-FK - CodDisciplina
-FK - MatriculaProfessor
-PK - Cod
-PK - Matricula
+```text
+ALUNO ─── MATRICULA ─── DISCIPLINA ─── PROFESSOR
+  1              N              1           1
+     N                       N
+```
 
----
+- Um aluno pode se matricular em várias disciplinas
+- Uma disciplina pode ter vários alunos matriculados
+- Cada disciplina é ministrada por um professor
+- Um professor pode ministrar várias disciplinas
 
-## Próximo tópico
+### Sistema de Vendas
 
-- Restrições
+```
+CLIENTE ─── PEDIDO ─── ITEM_PEDIDO ─── PRODUTO
+  1            1              N             1
+     1         N                          N
+```
 
-### O que foi visto
+- Um cliente pode fazer vários pedidos
+- Cada pedido pertence a um cliente
+- Um pedido pode conter vários itens
+- Cada item refere-se a um produto
+- Um produto pode estar em vários pedidos
 
-- Relacionamentos
+## Cardinalidade e Participação
+
+- **Cardinalidade:** Número mínimo e máximo de ocorrências (1:1, 1:N, N:N)
+- **Participação:**
+  - **Total:** Toda instância deve participar (linha obrigatória)
+  - **Parcial:** Participação é opcional (linha pode ser nula)
+
+## Benefícios dos Relacionamentos
+
+- **Integridade referencial:** Garante consistência entre tabelas
+- **Evita redundância:** Dados compartilhados corretamente
+- **Consultas complexas:** Permite JOINs e análises avançadas
+- **Manutenção:** Mudanças centralizadas
+
+Relacionamentos são fundamentais para criar bancos de dados relacionais eficientes e consistentes.

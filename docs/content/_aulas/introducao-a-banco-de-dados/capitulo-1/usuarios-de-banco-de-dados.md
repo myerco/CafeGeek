@@ -1,7 +1,6 @@
 ---
-
-title: UsuÁRIOS DE BANCO DE DADOS
-excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
+title: Usuários de Banco de Dados
+excerpt: "Explore os diferentes tipos de usuários de bancos de dados, incluindo DBA e perfis de acesso."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -13,99 +12,111 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-# USUÁRIOS DE BANCO DE DADOS
-
-**BANCO DE DADOS I**
-Marco Yerco Mendizabel Cabrera
-Analista de Sistemas
-
 ## Objetivos
 
-- DBA - Administrador de Banco de Dados
-- Usuários de banco de dados
-- SQL Developer e os usuários
+- Compreender o papel do DBA (Administrador de Banco de Dados).
+- Identificar os diferentes tipos de usuários de bancos de dados.
+- Explorar ferramentas como SQL Developer para gerenciamento de usuários.
+- Entender perfis de acesso e segurança.
 
----
 
-## DBA
+## O que é um DBA?
+O DBA (Database Administrator ou Administrador de Banco de Dados) é o profissional responsável pelo controle centralizado dos dados e programas de acesso. Ele garante que o sistema funcione de forma segura, eficiente e consistente.
 
-"Uma das principais razões que motivam o uso dos SGBDs é o controle centralizado tanto dos dados quanto dos programas de acesso à ele. A pessoa que centraliza esse controle do sistema é chamado de Administrador de Dados (DBA)."
+**Definição:** "Uma das principais razões que motivam o uso dos SGBDs é o controle centralizado tanto dos dados quanto dos programas de acesso a eles. A pessoa que centraliza esse controle é chamada de Administrador de Dados (DBA)."
 
-Dentre as funções de um DBA destacamos as seguintes:
+## Funções do DBA
 
----
+O DBA desempenha várias funções críticas no gerenciamento do banco de dados:
 
-## FUNÇÕES DO DBA
+### Definição do Esquema
 
-1. **Definição do esquema**:
-   O DBA cria o esquema de banco de dados original descrevendo um conjunto de definições que são transformadas pelo compilador DDL em um conjunto de tabelas armazenadas de modo permanente no dicionário de dados.
+- Cria o esquema original do banco de dados.
+- Define tabelas, relacionamentos e estruturas básicas.
+- Utiliza comandos DDL para implementar as definições.
 
-2. **Definição da estrutura de dados e método de acesso**:
-   O DBA cria estruturas de dados e métodos de acesso apropriado escrevendo um conjunto de definições, as quais são traduzidas pelo compilador de armazenamento de dados e pelo compilador de linguagem de definição de dados.
+### Estrutura de Dados e Acesso
 
----
+- Define estruturas físicas de armazenamento.
+- Configura índices e métodos de acesso otimizados.
+- Garante performance adequada às necessidades da aplicação.
 
-## FUNÇÕES DO DBA (CONTINUAÇÃO)
+### Autorização de Acesso
 
-3. **Fornecer autorização de acesso ao sistema**:
-   O fornecimento de diferentes tipos de autorização no acesso aos dados permite que o administrador de dados regule o acesso dos diversos usuários às diferentes partes do sistema.
+- Controla permissões de usuários e aplicações.
+- Define níveis de acesso (leitura, escrita, administração).
+- Implementa políticas de segurança granular.
 
-4. **Especificação de regras de integridade**:
-   Os valores dos dados armazenados no banco de dados devem satisfazer certas restrições para manutenção de sua integridade.
+### Regras de Integridade
 
----
+- Estabelece restrições para manter consistência dos dados.
+- Define chaves primárias, estrangeiras e validações.
+- Garante que os dados atendam às regras de negócio.
 
-## USUÁRIOS DE BANCO DE DADOS
+## Tipos de Usuários de Banco de Dados
 
-1. **Programadores de Aplicações**:
-   São profissionais em computação que interagem com o sistema por meio de chamadas DML, as quais são envolvidas por programas escritos na linguagem hospedeira, por exemplo: Java, Ruby, PHP, etc.
+Os usuários de bancos de dados podem ser classificados em diferentes categorias:
 
----
+### Programadores de Aplicações
 
-## USUÁRIOS DE BANCO DE DADOS (CONTINUAÇÃO)
+- Desenvolvem software que interage com o banco.
+- Usam linguagens como Java, Python, PHP para acessar dados.
+- Fazem chamadas DML (Data Manipulation Language) via APIs.
 
-2. **Usuários Sofisticados**:
-   Interagem com o sistema sem escrever programas.
+### Usuários Sofisticados
 
-3. **Usuários Especialistas**:
-   São usuários sofisticados que escrevem aplicações especializadas de banco de dados que não podem ser classificadas como aplicações tradicionais em processamento de dados.
+- Interagem diretamente com o banco sem escrever programas.
+- Usam ferramentas visuais ou comandos SQL avançados.
+- Realizam consultas complexas e análises de dados.
 
----
+### Usuários Especialistas
 
-## USUÁRIOS DE BANCO DE DADOS (CONTINUAÇÃO)
+- Profissionais que criam aplicações especializadas.
+- Desenvolvem sistemas não tradicionais de processamento de dados.
+- Trabalham com requisitos específicos de negócio.
 
-4. **Usuários Navegantes**:
-   São usuários comuns que interagem com o sistema chamando um dos programas aplicativos permanentes já escritos.
+### Usuários Navegantes
 
----
+- Usuários finais que acessam aplicações prontas.
+- Não precisam conhecer SQL ou estrutura do banco.
+- Interagem através de interfaces gráficas amigáveis.
 
-## SQL DEVELOPER
+## SQL Developer e Gerenciamento de Usuários
 
-Para conectar no banco de dados necessitamos de um usuário autorizado:
+O SQL Developer oferece ferramentas visuais para administração de usuários:
 
-- **Nome do usuário**: System
-- **Senha**: 12345678
-- **Atribuição**: Padrão
-- **Perfil de acesso**: PADRÃO, SYSDBA
+### Conexão como Administrador
 
-> **CUIDADO**: O usuário **SYSTEM** é o administrador do banco.
+Para gerenciar usuários, conecte-se com credenciais administrativas:
 
----
+- **Usuário**: System (ou outro DBA)
+- **Senha**: Definida na instalação
+- **Atribuição**: SYSDBA para privilégios completos
 
-## PAINEL DBA
+> **Atenção**: O usuário SYSTEM possui privilégios administrativos totais. Use com cuidado!
 
-1. Menu **Exibir -> DBA**
-2. Escolha a conexão
-3. Na árvore de objetos: **Segurança -> Usuários**
+### Painel DBA
 
----
+1. No menu: **Exibir → DBA**
+2. Selecione a conexão apropriada
+3. Navegue em: **Segurança → Usuários**
+4. Visualize e gerencie contas de usuário
 
-## Próximo tópico
+## Perfis de Acesso e Segurança
 
-- Modelo de Entidade de Relacionamento
+Os perfis definem permissões padrão para grupos de usuários:
 
-### O que foi visto
+- **PADRÃO**: Permissões básicas de consulta
+- **SYSDBA**: Privilégios administrativos completos
+- **Perfis customizados**: Definidos pelo DBA para necessidades específicas
 
-- DBA - Administrador de Banco de Dados
-- Usuários de banco de dados
-- SQL Developer e os usuários
+A segurança adequada garante que cada usuário acesse apenas os dados necessários para suas funções.
+
+## Benefícios da Gestão de Usuários
+
+- **Segurança**: Controle granular de acesso aos dados.
+- **Auditoria**: Rastreamento de operações por usuário.
+- **Conformidade**: Atendimento a regulamentações de privacidade.
+- **Performance**: Otimização baseada em perfis de uso.
+
+Uma gestão adequada de usuários é fundamental para a segurança e eficiência do sistema de banco de dados.

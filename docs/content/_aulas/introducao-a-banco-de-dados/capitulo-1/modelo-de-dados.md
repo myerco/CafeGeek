@@ -1,7 +1,6 @@
 ---
-
-title: Modelo De Dados
-excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
+title: Modelo de Dados
+excerpt: "Explore os tipos de modelos de dados, linguagens DDL e DML, e a definição de SQL em bancos de dados relacionais."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -13,135 +12,91 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-# MODELO DE DADOS
-
-**BANCO DE DADOS I**
-Marco Yerco Mendizabel Cabrera
-Analista de Sistemas
-
 ## Objetivos
 
-- Modelos de dados
-- Tipos de modelos
-- Linguagem de manipulação de dados
-- Definição de SQL
+- Compreender o conceito de modelo de dados.
+- Identificar tipos de modelos (lógicos e físicos).
+- Explorar linguagens DDL e DML.
+- Entender a definição e uso de SQL.
+
+
+## O que é um Modelo de Dados?
+
+Um modelo de dados é um conjunto de ferramentas conceituais para descrever dados, relacionamentos, semântica e regras de consistência. Ele serve como ponte entre o mundo real e a implementação técnica do banco de dados.
+
+**Classificações principais:**
+
+1. **Modelos lógicos com base em objetos**: Focam em entidades e relacionamentos.
+2. **Modelos lógicos com base em registros**: Usam tabelas e campos.
+3. **Modelos físicos**: Descrevem armazenamento em disco, índices, etc.
 
 ---
 
-## CONCEITO
+## Modelos Lógicos com Base em Objetos
 
-"Sob a estrutura do banco de dados está o modelo de dados: um conjunto de ferramentas conceituais usadas para a descrição de dados, relacionamentos entre dados, semântica de dados e regras de consistência."
+- **Modelo de Entidade de Relacionamento (E-R)**: O mais usado. Representa entidades, atributos e relacionamentos.
+- **Modelo Orientado a Objetos**: Integra conceitos de OOP (herança, encapsulamento).
 
-Classificam em 3 grupos de:
-1. Modelos lógicos com base em objetos
-2. Modelos lógicos com base em registros
-3. Modelos Físicos
+Esta disciplina foca no **Modelo E-R** devido à sua simplicidade e poder para bancos relacionais.
 
 ---
 
-## MODELO DE DADOS
+## Linguagens de Banco de Dados
 
-**Modelos lógicos com base em objetos**:
-1. Modelo de Entidade de Relacionamento
-2. Modelo Orientado a objetos
+Duas linguagens principais interagem com o modelo de dados:
 
----
-
-## M.E.R
-
-A disciplina abordará o **Modelo de Entidade de Relacionamento** por ser o modelo mais utilizado atualmente.
+1. **Linguagem de Definição de Dados (DDL)**: Define a estrutura do banco (tabelas, índices, restrições).
+2. **Linguagem de Manipulação de Dados (DML)**: Manipula os dados (inserir, consultar, atualizar, excluir).
 
 ---
 
-## LINGUAGENS DE BANCO DE DADOS
+## DDL - Principais Comandos
 
-1. **Linguagem de Definição de Dados (DDL)**
-   Um esquema de dados é especificado por um conjunto de definições expressas por uma linguagem especial chamada linguagem de definição de dados. O resultado da compilação dos parâmetros DDLs é armazenado em um conjunto de tabelas que constituem um arquivo (esquema) especial chamado dicionário de dados.
+- `CREATE`: Cria objetos (tabelas, índices).
+- `DROP`: Remove objetos.
+- `ALTER`: Modifica objetos existentes.
 
-2. **Linguagem de Manipulação de dados (DML)**
-   É a linguagem que viabiliza o acesso ou manipulação dos dados de forma compatível ao modelo de dados apropriado.
-
----
-
-## DDL - Principais comandos:
-
-- CREATE
-- DROP
-- ALTER
-
-### Exemplo:
+**Exemplo:**
 
 ```sql
-```
 CREATE TABLE tabela (
-    campo1 tipo,
-    campo2 tipo
+    campo1 INT,
+    campo2 VARCHAR(50)
 );
-```
 
-ALTER TABLE tabela ADD campo3 tipo;
+ALTER TABLE tabela ADD campo3 DATE;
 
 DROP TABLE tabela;
-
-DML - Principais comandos:
-
-    INSERT
-
-    ```
-DELETE
-
-    ```
-UPDATE
-
-    ```
-SELECT
-
-Exemplo:
-sql
-
-```
-INSERT INTO tabela VALUES (valor1, valor2, valor3);
 ```
 
-```
-UPDATE tabela SET campo1 = valor1;
+## DML - Principais Comandos
 
-```
-DELETE FROM tabela;
+- `INSERT`: Adiciona registros.
+- `UPDATE`: Modifica registros.
+- `DELETE`: Remove registros.
+- `SELECT`: Consulta dados.
 
-```
+**Exemplo:**
+
+```sql
+INSERT INTO tabela VALUES (1, 'Exemplo');
+
+UPDATE tabela SET campo2 = 'Novo' WHERE campo1 = 1;
+
+DELETE FROM tabela WHERE campo1 = 1;
+
 SELECT * FROM tabela;
+```
 
-SQL
+## O que é SQL?
 
-Structured Query Language (Linguagem de Consulta Estruturada ou SQL) é a linguagem de pesquisa declarativa padrão para banco de dados relacional (base de dados relacional). Muitas das características originais do SQL foram inspiradas na álgebra relacional.
-SQL DEVELOPER
+SQL (Structured Query Language) é a linguagem padrão para bancos de dados relacionais. Declarativa, permite consultas e manipulações inspiradas na álgebra relacional.
 
-(Interface gráfica do SQL Developer)
+**Ferramentas como SQL Developer** oferecem interface gráfica para executar comandos SQL, facilitando o aprendizado e depuração.
 
-    Abre um painel
+## Benefícios dos Modelos de Dados
 
-    Comando
-
-    Executa
-
-PRÓXIMO TÓPICO
-
-    Usuários de banco de dados
-
-O que foi visto:
-
-    Modelos de dados
-
-    Tipos de modelos
-
-    Linguagem de manipulação de dados
-
-    Definição de SQL
-
-
-## Próximo tópico
-- [Próximo conceito]
-
-### O que foi visto
-- Conceitos abordados neste tópico
+- Estruturação clara dos dados.
+- Facilita comunicação entre desenvolvedores e usuários.
+- Suporte a integridade e consistência.
+- Base para implementação eficiente em SGBDs.

@@ -1,7 +1,6 @@
 ---
-
-title: NormalizaÇÃO II
-excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
+title: Normalização II
+excerpt: "Explore as formas normais avançadas: 2FN, 3FN, FNBC, 4FN e 5FN para otimização de bancos de dados."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -13,176 +12,156 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-# NORMALIZAÇÃO II
-
-**BANCO DE DADOS I**
-Marco Yerco Mendizabel Cabrera
-Analista de Sistemas
-
 ## Objetivos
 
-- 2FN
-- 3FN
-- Boyce / CODD
-- 4FN
-- 5FN
+- Aplicar a Segunda Forma Normal (2FN).
+- Implementar a Terceira Forma Normal (3FN).
+- Compreender a Forma Normal de Boyce-Codd (FNBC).
+- Explorar a Quarta Forma Normal (4FN).
+- Conhecer a Quinta Forma Normal (5FN).
 
----
+## Segunda Forma Normal (2FN)
 
-## SEGUNDA FORMA NORMAL (2FN)
+A 2FN elimina **dependências funcionais parciais** em chaves primárias compostas. Uma tabela está na 2FN se:
 
-A segunda forma normal assegura que **não exista dependência funcional parcial** no modelo de dados. Para aplicarmos a segunda forma normal em um modelo de dados devemos observar se alguma entidade do modelo possui chave primária concatenada e verificar se existe algum atributo ou conjunto de atributos com dependência parcial em relação a algum atributo da chave primária concatenada.
+1. Está na 1FN
+2. Todos os atributos não-chave dependem **totalmente** da chave primária (não de parte dela)
 
-**Exemplo**: A entidade ITEM-DO-PEDIDO apresenta uma chave primária concatenada e por observação, notamos que os atributos **UNIDADE, DESCRIÇÃO e VALOR-UNITÁRIO** dependem de forma parcial do atributo **COD. PROD**, que faz parte da chave primária.
+### Aplicando 2FN - Exemplo Prático
 
----
+Considere a tabela ITEM_PEDIDO com chave composta (Nº_Pedido, Cod_Produto):
 
-## DIAGRAMA 2FN
+**Tabela original (1FN mas não 2FN):**
 
+| Nº_Pedido | Cod_Produto | Qtd | Descrição | Valor_Unit |
+|-----------|-------------|-----|-----------|------------|
+| 001       | 1001        | 2   | Caneta    | 1.50       |
+| 001       | 1002        | 1   | Lápis     | 1.00       |
 
-PEDIDO ─── ITEM-PEDIDO ─── PRODUTO
-1 N 1
+**Problema:** Descrição e Valor_Unit dependem apenas de Cod_Produto (dependência parcial).
 
-PEDIDO:
-PK - Nº do pedido
+**Após 2FN - Três tabelas:**
+**PEDIDO:**
 
-    Entrega
+| Nº_Pedido | Data | Cliente |
+|-----------|------|---------|
+| 001       | 15/01| João    |
 
-    Cliente
+**ITEM_PEDIDO:**
 
-    Endereço
+| Nº_Pedido | Cod_Produto | Quantidade |
+|-----------|-------------|------------|
+| 001       | 1001        | 2          |
+| 001       | 1002        | 1          |
 
-    Cidade
+**PRODUTO:**
 
-    UF
+| Cod_Produto | Descrição | Valor_Unit |
+|-------------|-----------|------------|
+| 1001        | Caneta    | 1.50       |
+| 1002        | Lápis     | 1.00       |
 
-ITEM-PEDIDO:
-PK - Nº Pedido + PK - Cod Prod
+## Terceira Forma Normal (3FN)
 
-    Qtd.
+A 3FN elimina **dependências funcionais transitivas**. Uma tabela está na 3FN se:
 
-    Valor Total
+1. Está na 2FN
+2. Nenhum atributo não-chave depende de outro atributo não-chave
 
-PRODUTO:
-PK - Cod. Prod.
+### Aplicando 3FN - Exemplo Prático
 
-    Descricao
+Considere a tabela PEDIDO com dependência transitiva:
 
-    Valor Unitário
+**Tabela original (2FN mas não 3FN):**
 
-    Unidade
+| Nº_Pedido | Cliente | Endereço | Cidade | UF |
+|-----------|---------|----------|--------|----|
+| 001       | João    | Rua A    | São Paulo | SP |
 
----
+**Problema:** Endereço, Cidade, UF dependem de Cliente (não da chave).
 
-## TERCEIRA FORMA NORMAL (3FN)
+**Após 3FN - Duas tabelas:**
+**PEDIDO:**
 
-A terceira forma normal assegura que **nenhuma entidade do modelo de dados possui atributos com dependência transitiva**. Assim, uma entidade está na 3FN se nenhum de seus atributos possui dependência transitiva em relação a outro atributo da entidade que não participe da chave primária, ou seja, não existe nenhum atributo intermediário entre a chave primária e o próprio atributo observado.
+| Nº_Pedido | Cliente | Data_Entrega |
+|-----------|---------|--------------|
+| 001       | João    | 20/01        |
 
-Ao retirarmos a dependência funcional transitiva, devemos criar uma nova entidade que contenha os atributos que dependem transitivamente de outro e a sua chave primária é o atributo que causou esta dependência.
+**CLIENTE:**
 
-Também não devem conter atributos derivados, como por exemplo VALOR TOTAL.
+| Cliente | Endereço | Cidade | UF |
+|---------|----------|--------|----|
+| João    | Rua A    | São Paulo | SP |
 
----
+## Forma Normal de Boyce-Codd (FNBC)
 
-## DIAGRAMA 3FN
+A FNBC trata casos especiais onde existem múltiplas chaves candidatas que se sobrepõem. Uma tabela está na FNBC se todo determinante for uma chave candidata.
 
+### Exemplo FNBC
 
-PEDIDO ─── ITEM-PEDIDO ─── PRODUTO
-1 N 1
-│
-└── CLIENTE
-1
+Considere uma tabela TURMA_PROFESSOR com três chaves candidatas sobrepostas:
 
-PEDIDO:
-PK - Nº do pedido
+**Chaves candidatas:**
 
-    Entrega
+1. (Cod_Curso, Turma)
+2. (Cod_Curso, Matricula_Professor)
+3. (Turma, Matricula_Professor)
 
-ITEM-PEDIDO:
-PK - Nº Pedido + PK - Cod Prod
+**Tabela original:**
 
-    Qtd.
+| Cod_Curso | Turma | Matricula_Professor | Nome_Professor |
+|-----------|-------|---------------------|----------------|
+| BD001     | A     | P001                | Maria Silva    |
 
-    Valor Total
+**Problema:** Matricula_Professor determina Nome_Professor, mas não é chave candidata.
 
-PRODUTO:
-PK - Cod. Prod.
+**Após FNBC - Duas tabelas:**
+**TURMA:**
 
-    Descrição
+| Cod_Curso | Turma | Matricula_Professor |
+|-----------|-------|---------------------|
+| BD001     | A     | P001                |
 
-    Valor Unitário
+**PROFESSOR:**
 
-    Unidade
+| Matricula_Professor | Nome_Professor |
+|---------------------|----------------|
+| P001                | Maria Silva    |
 
-CLIENTE:
-PK - Cliente
+## Quarta Forma Normal (4FN)
 
-    Endereço
+A 4FN trata **dependências multivaloradas independentes**. Uma tabela está na 4FN se não existirem duas ou mais dependências multivaloradas independentes.
 
-    Cidade
+### Exemplo 4FN
 
-    UF
+Uma dependência multivalorada ocorre quando um atributo determina múltiplos valores independentes de outro atributo.
 
----
+**Exemplo:** Um cliente pode ter múltiplos telefones E múltiplos endereços de entrega, independentemente.
 
-## FORMA NORMAL DE BOYCE / CODD
+## Quinta Forma Normal (5FN)
 
-A forma normal Boyce/Codd foi desenvolvida com o objetivo de resolver algumas situações que não eram inicialmente cobertas pelas três formas normais, em especial quando haviam várias chaves na entidade, formadas por mais de um atributo (chaves compostas) e que ainda compartilham ao menos um atributo.
+A 5FN trata **dependências de junção** em relacionamentos complexos (ternários ou superiores). Uma tabela está na 5FN se não puder ser decomposta sem perda de informação.
 
-Isso nos leva a concluir que, o problema se devia ao fato de até agora as formas normais tratarem de atributos dependentes de **chaves primárias**. Assim, para estar na FNBC, uma entidade precisa possuir somente atributos que são chaves candidatas.
+### Quando Aplicar 5FN
 
----
+Casos raros envolvendo relacionamentos múltiplos onde a decomposição em tabelas menores resultaria em perda de informações originais.
 
-## EXEMPLO FNBC
+**Exemplo:** Em um sistema de projetos, onde funcionários trabalham em projetos usando ferramentas específicas, pode haver dependências complexas que exigem análise cuidadosa.
 
-Um mesmo professor pode ministrar aulas entre cursos e turmas diferentes. Sendo assim podemos identificar três chaves candidatas que são determinantes nessa entidade:
+## Benefícios das Formas Normais Avançadas
 
-1. **COD_CURSO + TURMA**
-2. **COD_CURSO + MATRICULA_PROFESSOR**
-3. **TURMA + MATRICULA_PROFESSOR**
+- **Eliminação completa de anomalias:** 2FN e 3FN resolvem problemas restantes da 1FN
+- **Otimização de performance:** Estruturas mais eficientes para consultas
+- **Manutenção simplificada:** Mudanças locais não afetam outras partes
+- **Flexibilidade:** Adaptação fácil a novos requisitos
 
-O atributo **MATRICULA_PROFESSOR** é parcialmente dependente do **COD_CURSO** e de **TURMA**, mas é totalmente dependente da chave candidata composta **COD_CURSO + TURMA**. Dessa forma a entidade deve ser desmembrada, resultando em duas: uma que contém os atributos que descrevem o aluno em si e outra cujos atributos designam um professor.
+## Ordem Recomendada de Aplicação
 
----
+1. **1FN** - Eliminar grupos repetitivos
+2. **2FN** - Remover dependências parciais
+3. **3FN** - Eliminar dependências transitivas
+4. **FNBC** - Tratar chaves candidatas sobrepostas
+5. **4FN** - Resolver dependências multivaloradas
+6. **5FN** - Casos especiais de dependências de junção
 
-## DIAGRAMA FNBC
-
-
----
-
-## QUARTA FORMA NORMAL (4FN)
-
-Uma tabela está na 4FN, se e somente se, estiver na 3FN e não existirem dependências multivaloradas.
-
-### PEDIDO (antes da 4FN)
-
-
----
-
-## QUARTA FORMA NORMAL (4FN) - CONTINUAÇÃO
-
-
-### PEDIDO (após normalização para 4FN)
-
-
----
-
-## QUINTA FORMA NORMAL (5FN)
-
-A 5FN trata de casos particulares que ocorrem com pouca frequência na modelagem de dados e que são os relacionamentos múltiplos (ternários, quaternários, n-nários...).
-
-Ela fala que uma entidade está na sua 5FN quando o conteúdo desta entidade não puder ser reconstruído a partir de outras entidades menores, extraídas desta entidade. Ou seja, ao se fazer a decomposição de uma entidade em outras entidades perde-se o conteúdo (a informação da entidade original) pois as entidades geradas pela decomposição não conseguem representar a informação original.
-
----
-
-## Próximo tópico
-
-- Encerramento
-
-### O que foi visto
-
-- 2FN
-- 3FN
-- Boyce / CODD
-- 4FN
-- 5FN
+A normalização avançada garante bancos de dados robustos e eficientes para aplicações complexas.

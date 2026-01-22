@@ -1,7 +1,6 @@
 ---
-
-title: DependÊNCIA DE EXISTÊNCIA
-excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
+title: Dependência de Existência
+excerpt: "Explore o conceito de dependência de existência em bancos de dados relacionais e sua aplicação em modelagem de dados."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -13,51 +12,81 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-# DEPENDÊNCIA DE EXISTÊNCIA
-
-**BANCO DE DADOS I**
-Marco Yerco Mendizabel Cabrera
-Analista de Sistemas
-
 ## Objetivos
 
-- Dependência de existência
+- Compreender o conceito de dependência de existência.
+- Identificar entidades dominantes e subordinadas.
+- Aplicar o conceito em exemplos práticos de modelagem.
 
 ---
 
-## DEPENDÊNCIA DE EXISTÊNCIA
+## O que é Dependência de Existência?
 
-Quando uma entidade **X** depende da existência da entidade **Y**, então X é dito **dependente da existência de Y**. Se Y for excluído, o mesmo deve acontecer com X.
+Dependência de existência ocorre quando a existência de uma entidade (subordinada) depende da existência de outra entidade (dominante). Se a entidade dominante for excluída, a subordinada também deve ser removida para manter a integridade dos dados.
 
-- A entidade **Y** é chamada de **entidade dominante**.
-- A entidade **X** é chamada de **entidade subordinada**.
+**Por que é importante?**
 
----
-
-## EXEMPLO
-
-Vamos considerar uma entidade **aluno** e outra entidade **nota**:
-- A entidade nota armazena todas as notas de todas as disciplinas de cada aluno
-- Se um aluno for excluído da entidade aluno, então todas as ocorrências do aluno serão excluídas na entidade nota
-- Se uma nota for excluída da entidade nota não afetará a entidade aluno
+- Garante que não haja registros "órfãos" no banco de dados.
+- Mantém a consistência lógica dos dados.
+- É fundamental em relacionamentos onde uma entidade não faz sentido sem a outra.
 
 ---
 
-## DIAGRAMA DE EXEMPLO
+## Entidades Dominante e Subordinada
 
+- **Entidade Dominante**: aquela cuja existência é independente.
+- **Entidade Subordinada**: depende da dominante para existir.
 
+---
+
+## Exemplo Prático
+
+Considere as entidades `ALUNO` e `NOTA`:
+- `ALUNO` é dominante: um aluno pode existir sem notas (ex: aluno novo).
+- `NOTA` é subordinada: uma nota só faz sentido se houver um aluno correspondente.
+
+Se um aluno for excluído, todas as suas notas devem ser removidas automaticamente. Mas excluir uma nota não afeta o aluno.
+
+**Modelo físico:**
+
+- Tabela `aluno` (dominante).
+- Tabela `nota` (subordinada, com FK para aluno).
+
+```sql
+CREATE TABLE aluno (
+    matricula INT PRIMARY KEY,
+    nome VARCHAR(50)
+);
+
+CREATE TABLE nota (
+    id INT PRIMARY KEY,
+    matricula_aluno INT,
+    disciplina VARCHAR(50),
+    valor DECIMAL(4,2),
+    FOREIGN KEY (matricula_aluno) REFERENCES aluno(matricula) ON DELETE CASCADE
+);
+```
+
+A cláusula `ON DELETE CASCADE` implementa a dependência: excluir aluno remove notas automaticamente.
+
+---
+
+## Diagrama de Exemplo
+
+```text
 ALUNO ─── TURMA ─── DISCIPLINA ─── PROFESSOR
-1 1 N N
-N 1
+  |         |             |             |
+  |         |             |             |
+Dominante Subordinada   Dominante   Subordinada
+```
 
-*SE O ALUNO É EXCLUÍDO OS DADOS DA TURMA TAMBÉM SERÃO*
+*Se o ALUNO é excluído, os dados da TURMA também serão removidos para manter consistência.*
 
 ---
 
-## Próximo tópico
+## Benefícios
 
-- Chave estrangeira
+- Evita inconsistências (ex: notas sem aluno).
+- Facilita manutenção e integridade referencial.
+- Suportado por SGBDs via chaves estrangeiras e triggers.
 
-### O que foi visto
-
-- Dependência de Existência

@@ -1,7 +1,6 @@
 ---
-
-title: Modelo De Entidade E Relacionamento
-excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
+title: Modelo de Entidade e Relacionamento
+excerpt: "Explore o Modelo Entidade-Relacionamento (MER), entidades, atributos e sua representação em bancos de dados."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -13,138 +12,135 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-# MODELO DE ENTIDADE E RELACIONAMENTO
-
-**BANCO DE DADOS I**
-Marco Yerco Mendizabel Cabrera
-Analista de Sistemas
-
 ## Objetivos
 
-- Modelo de Entidade de Relacionamento
-- Entidades
-- Atributos
+- Compreender o Modelo Entidade-Relacionamento (MER).
+- Identificar entidades e seus atributos.
+- Explorar tipos de atributos e suas características.
+- Aprender a representação gráfica e tabular das entidades.
 
 ---
 
-## M.E.R
+## O que é o Modelo Entidade-Relacionamento?
 
-"O Modelo Entidade-Relacionamento (E-R) tem por base a percepção de que o mundo real é formado por um conjunto de objetos chamados entidades e pelo conjunto dos relacionamentos entre esse objetos."
+O Modelo Entidade-Relacionamento (MER) é uma técnica de modelagem conceitual que representa o mundo real através de objetos chamados entidades e seus relacionamentos.
 
-"Ao se utilizar a Modelagem Conceitual de Dados com a técnica de Entidades e Relacionamentos, obteremos resultados e esquemas puramente conceituais sobre a essência de um sistema. Ou melhor, sobre o negócio para qual estamos desenvolvendo um projeto, não representando procedimentos ou fluxo de dados existentes"
+**Definição:** "O Modelo Entidade-Relacionamento tem por base a percepção de que o mundo real é formado por um conjunto de objetos chamados entidades e pelo conjunto dos relacionamentos entre esses objetos."
 
----
-
-## OBJETOS CONCEITUAIS
-
-1. Entidades
-2. Atributos
-3. Especialização e Generalização
-4. Relacionamentos
+Este modelo permite criar esquemas puramente conceituais sobre a essência de um sistema, focando no negócio e não em procedimentos técnicos.
 
 ---
 
-## ENTIDADE
+## Objetos Conceituais do MER
 
-Define-se entidade como aquele objeto que existe no mundo real com uma identificação distinta e com um significado próprio. São coisas que existem no negócio, ou ainda, descrevem o negócio.
+Os principais componentes do modelo são:
 
-**Exemplo**:
-- Pessoas na empresa
-- Empréstimos
-- Alunos
-- Disciplinas
-
----
-
-## ENTIDADE (CONTINUAÇÃO)
-
-Uma entidade tem um conjunto de propriedades e os valores para alguns conjuntos dessas propriedades devem ser únicos.
-
-**Exemplo**:
-- **Pessoa** (CPF, Nome, Sexo, Data Nascimento, Salário)
-  *CPF – Identifica uma única pessoa*
-
-- **Aluno** (MATRICULA, nome, turma, curso)
-  *MATRICULA - Identifica uma pessoa dentro do negócio*
-
-- **Empréstimo** (Número do empréstimo, data, valor, cliente)
-  *Número do empréstimo - identifica o registro*
+1. **Entidades**: Objetos do mundo real com existência independente
+2. **Atributos**: Propriedades que descrevem as entidades
+3. **Relacionamentos**: Associações entre entidades
+4. **Especialização/Generalização**: Hierarquias entre entidades
 
 ---
 
-## ENTIDADE - REPRESENTAÇÃO
+## Entidades
 
-A representação de uma Entidade no Modelo Relacional se realiza através de um retângulo, com o nome desta entidade em seu interior.
+Uma entidade é qualquer objeto do mundo real que possui identificação distinta e significado próprio no contexto do negócio.
 
+**Características:**
+
+- Existência independente
+- Conjunto de propriedades únicas
+- Representa "coisas" do negócio
+
+**Exemplos de entidades:**
+
+- Pessoas em uma empresa
+- Empréstimos bancários
+- Alunos matriculados
+- Disciplinas oferecidas
+
+---
+
+### Identificação Única
+
+Cada entidade possui um conjunto de propriedades cujos valores devem ser únicos, permitindo identificar cada instância.
+
+**Exemplos:**
+
+- **Pessoa**: CPF identifica unicamente cada pessoa
+- **Aluno**: Matrícula identifica dentro do contexto acadêmico
+- **Empréstimo**: Número identifica cada operação
+
+---
+
+## Representação Gráfica das Entidades
+
+No diagrama ER, as entidades são representadas por retângulos com o nome da entidade em maiúsculo.
+
+```text
 ┌─────────────┐ ┌──────────┐ ┌─────────────┐ ┌──────────────┐
-│ PESSOA │ │ ALUNO │ │ DISCIPLINA │ │ EMPRÉSTIMO │
+│   PESSOA    │ │  ALUNO   │ │ DISCIPLINA  │ │ EMPRÉSTIMO   │
 └─────────────┘ └──────────┘ └─────────────┘ └──────────────┘
+```
 
 ---
 
-## ENTIDADE - TABELA
+## Representação Tabular
 
-Devemos entender uma entidade como uma tabela de dados, onde cada linha desta tabela representa uma instância da mesma.
+Cada entidade corresponde a uma tabela no banco de dados, onde cada linha representa uma instância específica.
 
-### ALUNO
+**Exemplo - Tabela ALUNO:**
 
-
-┌────────────┬───────────────┬───────┬──────────┐
-│ Matrícula │ Nome │ Turma │ Curso │
-├────────────┼───────────────┼───────┼──────────┤
-│ 001.201501 │ Ana Claudia │ A │ Sistemas │
-│ 002.201501 │ João Silva │ B │ Direito │
-└────────────┴───────────────┴───────┴──────────┘
+| Matrícula   | Nome          | Turma | Curso     |
+|-------------|---------------|-------|-----------|
+| 001.201501 | Ana Claudia   | A     | Sistemas  |
+| 002.201501 | João Silva    | B     | Direito   |
 
 ---
 
-## ATRIBUTOS
+## Atributos
 
-"Todo objeto para ser uma entidade possui propriedades que são descritas por atributos e valores."
+Atributos são as propriedades descritivas de cada entidade. Toda entidade é definida por um conjunto de atributos que descrevem suas características.
 
-"Toda entidade é representada por um conjunto de atributos. Atributos são propriedades descritivas de cada membro de um conjunto de entidades."
+**Definição:** "Todo objeto para ser uma entidade possui propriedades que são descritas por atributos e valores."
 
----
+### Exemplo Prático
 
-## ATRIBUTOS - EXEMPLO
+Cada instância da entidade PESSOA terá valores específicos para seus atributos:
 
-Cada instância de **PESSOA**, cada existência de um objeto da classe pessoa, será formada por valores nestes atributos, sendo que é o conjunto destes valores representados que devemos visualizar como uma linha de uma tabela de dados.
-
-### PESSOA
-
-
-┌──────┬───────────────┬──────┬──────────┬─────────────┐
-│ CPF │ Nome │ Sexo │ Salário │ Data Nasc. │
-├──────┼───────────────┼──────┼──────────┼─────────────┤
-│ 001 │ João │ M │ 1000.00 │ 21/06/1989 │
-└──────┴───────────────┴──────┴──────────┴─────────────┘
+| CPF  | Nome    | Sexo | Salário   | Data Nasc. |
+|------|---------|------|-----------|------------|
+| 001  | João    | M    | 1000.00   | 21/06/1989 |
 
 ---
 
-## CARACTERÍSTICAS DOS ATRIBUTOS
+## Tipos de Atributos
 
-1. **Atributos simples ou compostos**:
-   - Simples - expressam um valor indivisível. Exemplo: Sexo, telefone, etc.
-   - Compostos - expressam mais de um valor, pode ser dividido. Exemplo: Nome, Endereço. etc.
+### 1. Simples vs Compostos
 
-2. **Atributos monovalorados ou multivalorados**:
-   - Monovalorado - exemplo: Idade para a entidade pessoa.
-   - Multivalorado - exemplo: Salário (pode conter R$ 800,00 ou R$ 20.000,00).
+- **Simples**: Valor indivisível (sexo, telefone)
+- **Compostos**: Podem ser divididos em subpartes (nome: primeiro + último; endereço: rua + cidade + CEP)
 
-3. **Atributos nulos**: Podem ser nulos. Exemplo: Estado civil, Fax.
+### 2. Monovalorados vs Multivalorados
 
-4. **Atributo derivado**: O valor deriva de outro atributo. Exemplo: Valor da nota fiscal.
+- **Monovalorado**: Um único valor (idade, data nascimento)
+- **Multivalorado**: Múltiplos valores possíveis (telefones, salários históricos)
+
+### 3. Nulos
+
+Atributos que podem não ter valor em algumas instâncias (estado civil, fax).
+
+### 4. Derivados
+
+Valores calculados a partir de outros atributos (idade derivada da data nascimento, total derivado de itens).
 
 ---
 
-## Próximo tópico
+## Importância do MER
 
-- SQL entidades
+- **Abstração**: Foca no essencial do negócio
+- **Comunicação**: Linguagem comum entre usuários e desenvolvedores
+- **Base sólida**: Fundamento para implementação em qualquer SGBD
+- **Flexibilidade**: Independente de tecnologia específica
 
-### O que foi visto
-
-- Modelo de Entidade de Relacionamento
-- Entidades
-- Atributos
-
-Todos os arquivos Markdown foram criados seguindo a estrutura das apresentações originais, com títulos formatados como cabeçalhos, conteúdo estruturado em seções, e exemplos de código SQL devidamente formatados.
+O Modelo ER é a base para projetar bancos de dados que refletem com precisão o mundo real que representam.

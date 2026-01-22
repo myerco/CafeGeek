@@ -1,7 +1,7 @@
 ---
 
 title: Chave Estrangeira
-excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
+excerpt: "Aprenda o que é uma chave estrangeira, sua importância para integridade referencial e como aplicá-la em bancos de dados relacionais."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -13,55 +13,79 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-# CHAVE ESTRANGEIRA
-
-
-
-Este tópico explora o conceito de chave estrangeira em bancos de dados, com exemplos práticos e aplicações reais.
-
-**BANCO DE DADOS I**
-Marco Yerco Mendizabel Cabrera
-Analista de Sistemas
-
 ## Objetivos
 
-- Chave estrangeira
+- Compreender o conceito de chave estrangeira.
+- Entender sua função na integridade referencial.
+- Aplicar chaves estrangeiras em exemplos práticos.
 
 ---
 
-## CHAVE ESTRANGEIRA
+## O que é uma Chave Estrangeira?
 
-É uma coluna ou conjunto de colunas incluídas na definição das regras de integridade referencial, que referenciam uma **"CHAVE REFERENCIADA"**.
+Uma chave estrangeira (foreign key) é um campo ou conjunto de campos em uma tabela que faz referência à chave primária de outra tabela (ou da mesma tabela, em auto-relacionamentos). Ela garante a integridade dos dados, impedindo que registros "órfãos" sejam criados.
 
-### Definições:
+**Por que é importante?**
 
-- **Chave Referenciada**: É uma chave primária da mesma ou diferente tabela que é referenciada por uma chave estrangeira.
-- **Tabela dependente ou filha**: É uma tabela que contém uma chave estrangeira.
-- **Tabela pai**: É referenciada por uma tabela filha através de uma chave estrangeira.
+- Mantém a consistência entre tabelas relacionadas.
+- Evita dados desconectados (por exemplo, um aluno em uma turma inexistente).
+- Permite a navegação e junção eficiente de dados.
 
 ---
 
-## DIAGRAMA COM CHAVES
+## Termos Importantes
 
+- **Chave Referenciada**: a chave primária que está sendo apontada.
+- **Tabela dependente (filha)**: contém a chave estrangeira.
+- **Tabela referenciada (pai)**: é referenciada pela chave estrangeira.
 
+---
+
+## Exemplo Prático
+
+Considere duas tabelas: `ALUNO` e `TURMA`.
+
+| ALUNO           |           TURMA         |
+|-----------------|------------------------|
+| matricula (PK)  | numero_turma (PK)      |
+| nome            | nome                   |
+| turma (FK)      | ...                    |
+
+No exemplo acima, o campo `turma` em `ALUNO` é uma chave estrangeira que referencia `numero_turma` em `TURMA`.
+
+```sql
+CREATE TABLE turma (
+  numero_turma INT PRIMARY KEY,
+  nome VARCHAR(50)
+);
+
+CREATE TABLE aluno (
+  matricula INT PRIMARY KEY,
+  nome VARCHAR(50),
+  turma INT,
+  FOREIGN KEY (turma) REFERENCES turma(numero_turma)
+);
+```
+
+---
+
+## Diagrama de Relacionamento
+
+```text
 ALUNO ─── TURMA ─── DISCIPLINA ─── PROFESSOR
-1 1 N N
-N 1
+  |         |             |             |
+  |         |             |             |
+ PK/FK    PK/FK         PK/FK         PK
+```
 
-PK - Matricula
-PK - NumeroTurma
-FK - MatriculaAluno
-FK - CodDisciplina
-FK - MatriculaProfessor
-PK - Cod
-PK - Matricula
+Legenda: PK = chave primária, FK = chave estrangeira
 
 ---
 
-## Próximo tópico
+## Benefícios da Chave Estrangeira
 
-- Agregação
+- Garante integridade referencial automaticamente.
+- Facilita consultas entre tabelas relacionadas (JOINs).
+- Permite modelar relacionamentos 1:N e N:N.
 
-### O que foi visto
-
-- Chave estrangeira
+---

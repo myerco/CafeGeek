@@ -1,7 +1,6 @@
 ---
-
-title: Sql - Linguagem Estruturada de Consulta
-excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
+title: SQL - Linguagem Estruturada de Consulta
+excerpt: "Explore os comandos fundamentais de SQL: CREATE, DESCRIBE, INSERT e SELECT para manipulação de dados."
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
@@ -13,40 +12,53 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-# SQL - Linguagem Estruturada de Consulta
-
-**BANCO DE DADOS I**
-Marco Yerco Mendizabel Cabrera
-Analista de Sistemas
-
 ## Objetivos
 
-- Create
-- Describe
-- Insert
-- Select
+- Compreender os comandos básicos de SQL.
+- Aprender a criar tabelas com CREATE TABLE.
+- Explorar DESCRIBE para visualizar estruturas.
+- Praticar inserção de dados com INSERT.
+- Realizar consultas básicas com SELECT.
 
----
+## O que é SQL?
 
-## CREATE
+SQL (Structured Query Language) é a linguagem padrão para trabalhar com bancos de dados relacionais. Ela permite definir estruturas de dados, manipular informações e realizar consultas complexas.
 
-Para construir o objeto no banco de dados utilizamos um comando DDL.
+**Comandos principais abordados:**
 
-### ```
-CREATE TABLE
+- DDL: CREATE, ALTER, DROP
+- DML: INSERT, UPDATE, DELETE, SELECT
+- DCL: GRANT, REVOKE
+
+## CREATE TABLE - Criando Estruturas
+
+O comando CREATE TABLE define a estrutura de uma nova tabela no banco de dados.
+
+**Sintaxe básica:**
 
 ```sql
+CREATE TABLE nome_tabela (
+    coluna1 tipo_dado(tamanho),
+    coluna2 tipo_dado(tamanho),
+    ...
+);
 ```
+
+**Exemplo prático - Tabela pessoa:**
+
+```sql
 CREATE TABLE pessoa (
     cpf varchar(13),
     nome varchar(40),
     sexo char(1),
-    Salario number(8,2),
-    DataNasc date
+    salario number(8,2),
+    data_nasc date
 );
 ```
 
-```
+**Exemplo - Tabela aluno:**
+
+```sql
 CREATE TABLE aluno (
     matricula varchar(10),
     nome varchar(40),
@@ -55,7 +67,9 @@ CREATE TABLE aluno (
 );
 ```
 
-```
+**Exemplo - Tabela empréstimo:**
+
+```sql
 CREATE TABLE emprestimo (
     numero number(8),
     dt_emprestimo date,
@@ -64,82 +78,110 @@ CREATE TABLE emprestimo (
 );
 ```
 
-DESCRIBE
+## DESCRIBE - Visualizando Estruturas
 
-Verificando a estrutura das tabelas.
-Exemplos:
-sql
+O comando DESCRIBE (ou DESC) mostra a estrutura de uma tabela existente.
 
+**Sintaxe:**
+
+```sql
+DESCRIBE nome_tabela;
+-- ou
+DESC nome_tabela;
+```
+
+**Exemplos:**
+
+```sql
 DESCRIBE pessoa;
 DESC aluno;
 DESC emprestimo;
+```
 
-DESCRIBE (Alterando a estrutura das tabelas)
-sql
+### ALTER TABLE - Modificando Estruturas
 
+Para adicionar colunas a uma tabela existente:
+```sql
 ALTER TABLE pessoa ADD telefone varchar(15);
-```
 ALTER TABLE aluno ADD sexo char(1);
-```
 ALTER TABLE emprestimo ADD conta varchar(10);
 ```
 
-INSERT
+## INSERT - Inserindo Dados
 
-Inserindo dados.
-Exemplos:
-sql
+O comando INSERT adiciona novos registros às tabelas.
 
+**Sintaxe completa:**
+
+```sql
+INSERT INTO nome_tabela VALUES (valor1, valor2, ...);
 ```
+
+**Sintaxe com colunas específicas:**
+
+```sql
+INSERT INTO nome_tabela (coluna1, coluna2) VALUES (valor1, valor2);
+```
+
+**Exemplos práticos:**
+
+```sql
 INSERT INTO pessoa VALUES ('001','João','M',1000, '21/06/1989');
-```
 
-```
 INSERT INTO aluno (matricula, nome) VALUES ('001.201501','Ana Claudia Nunes');
-```
 
-```
 INSERT INTO emprestimo (dt_emprestimo, valor, numero, cliente)
 VALUES ('08/12/2015',1500,100201501,'Hugo Silva');
 ```
 
-```
-SELECT
+## SELECT - Consultando Dados
 
-Listando dados.
-Exemplos:
-sql
+O comando SELECT recupera dados das tabelas.
 
+**Sintaxe básica:**
+
+```sql
+SELECT colunas FROM nome_tabela;
 ```
+
+**Selecionar todas as colunas:**
+
+```sql
+SELECT * FROM nome_tabela;
+```
+
+**Exemplos:**
+
+```sql
 SELECT * FROM pessoa;
 
-```
 SELECT matricula, nome FROM aluno;
 
-```
 SELECT numero, cliente FROM emprestimo ORDER BY numero;
+```
 
-PRÓXIMO TÓPICO
+### ORDER BY - Ordenação
 
-    Atributo chave primária
+A cláusula ORDER BY organiza os resultados:
 
-O que foi visto:
+```sql
+SELECT numero, cliente FROM emprestimo ORDER BY numero;
+```
 
-    Comandos para definição e manipulação de entidades:
+## Exercícios Práticos
 
-        Create
+Para praticar os comandos aprendidos:
 
-        Describe
+1. Crie uma tabela `produto` com campos: codigo, nome, preco, estoque
+2. Use DESCRIBE para verificar a estrutura
+3. Insira alguns produtos na tabela
+4. Faça consultas para listar todos os produtos e produtos ordenados por preco
 
-        Insert
+## Benefícios do SQL
 
-        Select
+- **Padronização**: Linguagem universal para bancos relacionais
+- **Simplicidade**: Sintaxe intuitiva para operações complexas
+- **Flexibilidade**: Suporte a consultas simples e avançadas
+- **Integração**: Compatível com diversas linguagens de programação
 
-Faça o exercício
-
-
-## Próximo tópico
-- [Próximo conceito]
-
-### O que foi visto
-- Conceitos abordados neste tópico
+Dominar estes comandos básicos é fundamental para trabalhar com bancos de dados relacionais.

@@ -202,16 +202,38 @@ introducao-a-banco-de-dados:
     icon: fas fa-database
     url: /curso/introducao-a-banco-de-dados/
     children:
-      - title: Introdução
-        url: /curso/introducao-a-banco-de-dados/introducao/
-      - title: Conceitos Básicos
-        url: /curso/introducao-a-banco-de-dados/conceitos-basicos/
-      - title: Modelo Relacional
-        url: /curso/introducao-a-banco-de-dados/modelo-relacional/
-      - title: Linguagem SQL
-        url: /curso/introducao-a-banco-de-dados/linguagem-sql/
-      - title: Normalização de Dados
-        url: /curso/introducao-a-banco-de-dados/normalizacao-de-dados/
+      - title: Banco de Dados
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/banco-de-dados/
+      - title: Sistemas de Gerenciamento de Banco de Dados
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/sistemas-de-gerenciamento-de-banco-de-dados/
+      - tile: Ferramentas de Banco de Dados
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/ferramentas-de-banco-de-dados/ 
+      - title: abstração de Dados
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/abstracao-de-dados/  
+      - title: Modelos de Dados
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/modelos-de-dados/
+      - title: Usuários de Banco de Dados 
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/usuarios-de-banco-de-dados/
+      - title: Modelo de Entidade e Relacionamento
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/modelo-de-entidade-e-relacionamento/
+      - title: SQL - linguagem estruturada de consulta
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/sql-linguagem-estruturada-de-consulta/
+      - title: Atributo Chave Primaria
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/atributo-chave-primaria/
+      - title: Chave Estrangeira
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/chave-estrangeira/
+      - title: Relacionamento entre tabelas
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/relacionamentos
+      - title: Restrições de Integridade
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/restricoes-de-integridade/ 
+      - title: Dependência de Existência
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/dependencia-de-existencia/
+      - title: Agregação
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/agrgegacao/
+      - title: Auto-Relacionamento
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/auto-relacionamento/
+      - title: Normalização de Banco de Dados
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/normalizacao-de-banco-de-dados/         
 
 # Configurações do menu
 menu_config:

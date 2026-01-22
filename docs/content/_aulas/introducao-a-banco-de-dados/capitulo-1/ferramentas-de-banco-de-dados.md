@@ -113,7 +113,6 @@ A tecnologia cliente/servidor é uma arquitetura na qual o processamento da info
 
 ## ÁREA DE TRABALHO
 
-
 ┌─────────────────────────────────────┐
 │ Comandos SQL │
 ├─────────────────────────────────────┤
