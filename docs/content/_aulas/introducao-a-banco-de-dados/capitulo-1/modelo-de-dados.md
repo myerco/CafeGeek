@@ -19,7 +19,6 @@ sidebar:
 - Explorar linguagens DDL e DML.
 - Entender a definição e uso de SQL.
 
-
 ## O que é um Modelo de Dados?
 
 Um modelo de dados é um conjunto de ferramentas conceituais para descrever dados, relacionamentos, semântica e regras de consistência. Ele serve como ponte entre o mundo real e a implementação técnica do banco de dados.

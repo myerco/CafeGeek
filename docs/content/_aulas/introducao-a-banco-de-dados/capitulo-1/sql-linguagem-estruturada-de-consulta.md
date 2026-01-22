@@ -101,6 +101,7 @@ DESC emprestimo;
 ### ALTER TABLE - Modificando Estruturas
 
 Para adicionar colunas a uma tabela existente:
+
 ```sql
 ALTER TABLE pessoa ADD telefone varchar(15);
 ALTER TABLE aluno ADD sexo char(1);

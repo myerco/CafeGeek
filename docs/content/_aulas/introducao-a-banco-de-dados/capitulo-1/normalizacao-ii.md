@@ -34,7 +34,7 @@ Considere a tabela ITEM_PEDIDO com chave composta (Nº_Pedido, Cod_Produto):
 **Tabela original (1FN mas não 2FN):**
 
 | Nº_Pedido | Cod_Produto | Qtd | Descrição | Valor_Unit |
-|-----------|-------------|-----|-----------|------------|
+| --------- | ----------- | --- | --------- | ---------- |
 | 001       | 1001        | 2   | Caneta    | 1.50       |
 | 001       | 1002        | 1   | Lápis     | 1.00       |
 
@@ -43,21 +43,21 @@ Considere a tabela ITEM_PEDIDO com chave composta (Nº_Pedido, Cod_Produto):
 **Após 2FN - Três tabelas:**
 **PEDIDO:**
 
-| Nº_Pedido | Data | Cliente |
-|-----------|------|---------|
-| 001       | 15/01| João    |
+| Nº_Pedido | Data  | Cliente |
+| --------- | ----- | ------- |
+| 001       | 15/01 | João    |
 
 **ITEM_PEDIDO:**
 
 | Nº_Pedido | Cod_Produto | Quantidade |
-|-----------|-------------|------------|
+| --------- | ----------- | ---------- |
 | 001       | 1001        | 2          |
 | 001       | 1002        | 1          |
 
 **PRODUTO:**
 
 | Cod_Produto | Descrição | Valor_Unit |
-|-------------|-----------|------------|
+| ----------- | --------- | ---------- |
 | 1001        | Caneta    | 1.50       |
 | 1002        | Lápis     | 1.00       |
 
@@ -74,9 +74,9 @@ Considere a tabela PEDIDO com dependência transitiva:
 
 **Tabela original (2FN mas não 3FN):**
 
-| Nº_Pedido | Cliente | Endereço | Cidade | UF |
-|-----------|---------|----------|--------|----|
-| 001       | João    | Rua A    | São Paulo | SP |
+| Nº_Pedido | Cliente | Endereço | Cidade    | UF  |
+| --------- | ------- | -------- | --------- | --- |
+| 001       | João    | Rua A    | São Paulo | SP  |
 
 **Problema:** Endereço, Cidade, UF dependem de Cliente (não da chave).
 
@@ -84,14 +84,14 @@ Considere a tabela PEDIDO com dependência transitiva:
 **PEDIDO:**
 
 | Nº_Pedido | Cliente | Data_Entrega |
-|-----------|---------|--------------|
+| --------- | ------- | ------------ |
 | 001       | João    | 20/01        |
 
 **CLIENTE:**
 
-| Cliente | Endereço | Cidade | UF |
-|---------|----------|--------|----|
-| João    | Rua A    | São Paulo | SP |
+| Cliente | Endereço | Cidade    | UF  |
+| ------- | -------- | --------- | --- |
+| João    | Rua A    | São Paulo | SP  |
 
 ## Forma Normal de Boyce-Codd (FNBC)
 
@@ -110,7 +110,7 @@ Considere uma tabela TURMA_PROFESSOR com três chaves candidatas sobrepostas:
 **Tabela original:**
 
 | Cod_Curso | Turma | Matricula_Professor | Nome_Professor |
-|-----------|-------|---------------------|----------------|
+| --------- | ----- | ------------------- | -------------- |
 | BD001     | A     | P001                | Maria Silva    |
 
 **Problema:** Matricula_Professor determina Nome_Professor, mas não é chave candidata.
@@ -119,13 +119,13 @@ Considere uma tabela TURMA_PROFESSOR com três chaves candidatas sobrepostas:
 **TURMA:**
 
 | Cod_Curso | Turma | Matricula_Professor |
-|-----------|-------|---------------------|
+| --------- | ----- | ------------------- |
 | BD001     | A     | P001                |
 
 **PROFESSOR:**
 
 | Matricula_Professor | Nome_Professor |
-|---------------------|----------------|
+| ------------------- | -------------- |
 | P001                | Maria Silva    |
 
 ## Quarta Forma Normal (4FN)

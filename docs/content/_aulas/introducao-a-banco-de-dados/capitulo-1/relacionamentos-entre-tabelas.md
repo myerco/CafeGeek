@@ -1,5 +1,5 @@
 ---
-title: Relacionamentos
+title: Relacionamentos entre tabelas
 excerpt: "Explore os tipos de relacionamentos entre entidades em bancos de dados: 1:1, 1:N e N:N."
 categories:
   - "introducao-a-banco-de-dados"
@@ -52,7 +52,7 @@ Cada instância de uma entidade se relaciona com no máximo uma instância da ou
 - Um PESSOA → Um CPF
 - Um CPF → Uma PESSOA
 
-```
+```text
 ┌─────────┐     ┌─────┐
 │ PESSOA  │ ──○ │ CPF │
 └─────────┘     └─────┘
@@ -64,6 +64,7 @@ Cada instância de uma entidade se relaciona com no máximo uma instância da ou
 Uma instância da entidade A pode se relacionar com múltiplas instâncias da entidade B, mas cada instância de B se relaciona com apenas uma de A.
 
 **Exemplo:** Um cliente pode ter vários empréstimos, mas cada empréstimo pertence a apenas um cliente.
+
 - Um CLIENTE → Muitos EMPRÉSTIMOS
 - Um EMPRÉSTIMO → Um CLIENTE
 
@@ -85,12 +86,13 @@ Instâncias de ambas as entidades podem se relacionar com múltiplas instâncias
 
 ```text
 ┌─────────┐     ┌─────────────┐
-│  ALUNO  │ ──○ │ DISCIPLINA │
+│  ALUNO  │ ──○ │ DISCIPLINA  │
 └─────────┘     └─────────────┘
       N             N
 ```
 
 ## Implementação em Tabelas
+
 Relacionamentos são implementados através de chaves estrangeiras (FK - Foreign Key).
 
 ### 1:1 - Chave Estrangeira Opcional
@@ -124,7 +126,7 @@ EMPRESTIMO (PK: id_emprestimo)
 
 ### N:N - Tabela Associativa
 
-```
+```text
 ALUNO (PK: matricula)
 - matricula
 - nome
@@ -158,7 +160,7 @@ ALUNO ─── MATRICULA ─── DISCIPLINA ─── PROFESSOR
 
 ### Sistema de Vendas
 
-```
+```text
 CLIENTE ─── PEDIDO ─── ITEM_PEDIDO ─── PRODUTO
   1            1              N             1
      1         N                          N

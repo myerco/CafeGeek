@@ -121,11 +121,11 @@ A Pirâmide DIKW (Data, Information, Knowledge, Wisdom) ilustra esse processo de
 
 ## Resumo
 
-| Conceito   | É...                                 | Exemplo Simples | Pergunta que Responde |
-|------------|--------------------------------------|-----------------|----------------------|
-| Dado       | O átomo. O fato bruto, sem contexto. | 42, "SP"        | O quê foi registrado? |
-| Informação | Dado contextualizado e relevante.    | "Temperatura na sala B-203 é 24.7°C" | O que significa? |
-| Conhecimento| Informação aplicada e interpretada.  | "Ajustar ar-condicionado" | O que fazer? |
+| Conceito     | É...                                 | Exemplo Simples                      | Pergunta que Responde |
+| ------------ | ------------------------------------ | ------------------------------------ | --------------------- |
+| Dado         | O átomo. O fato bruto, sem contexto. | 42, "SP"                             | O quê foi registrado? |
+| Informação   | Dado contextualizado e relevante.    | "Temperatura na sala B-203 é 24.7°C" | O que significa?      |
+| Conhecimento | Informação aplicada e interpretada.  | "Ajustar ar-condicionado"            | O que fazer?          |
 
 ---
 
@@ -133,7 +133,7 @@ A Pirâmide DIKW (Data, Information, Knowledge, Wisdom) ilustra esse processo de
 
 - Diferença entre dado, informação e conhecimento
 - Importância dessa hierarquia para bancos de dados
-Informação Dados processados e contextualizados. "A temperatura média em São Paulo é 24°C."	O que isso significa?
+Informação Dados processados e contextualizados. "A temperatura média em São Paulo é 24°C." O que isso significa?
 Conhecimento Informação internalizada, usada para tomar decisões. "No verão em SP, picos de calor sobrecarregam a rede elétrica. Devemos preparar o sistema para maio."Como agir com base nisso?
 
 Na próxima aula, vamos ver a evolução histórica que levou da simples armazenagem de dados em arquivos para os sofisticados Sistemas Gerenciadores de Banco de Dados (SGBDs) que usamos hoje. Entenderemos os problemas que os bancos de dados vieram resolver.
@@ -142,14 +142,10 @@ Na próxima aula, vamos ver a evolução histórica que levou da simples armazen
 
 Pense em um sistema que você usa diariamente (IFood, Uber, SIGAA, Netflix, banco digital). Identifique um exemplo concreto de:
 
-    Um DADO que o sistema coleta.
+- Um DADO que o sistema coleta.
 
-    Uma INFORMAÇÃO que ele apresenta para você na tela.
+- Uma INFORMAÇÃO que ele apresenta para você na tela.
 
-    Como esse sistema poderia usar esses elementos para gerar CONHECIMENTO (uma decisão automatizada ou uma recomendação inteligente)?
+- Como esse sistema poderia usar esses elementos para gerar CONHECIMENTO (uma decisão automatizada ou uma recomendação inteligente)?
 
 Poste sua reflexão no fórum da disciplina e comente a resposta de pelo menos um colega!
-
-Próximo: Evolução dos Sistemas de Armazenamento e Arquitetura de um SGBD.
-
-

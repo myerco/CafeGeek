@@ -1,6 +1,6 @@
 ---
 
-title: Auto-relacionamento
+title: Auto-Relacionamento
 excerpt: "Descubra como entidades podem se relacionar consigo mesmas em bancos de dados, com exemplos práticos e linguagem acessível."
 categories:
   - "introducao-a-banco-de-dados"
@@ -83,4 +83,3 @@ Assim, o produto 1 é composto pelos componentes 2 e 3, e assim por diante.
 - Representa hierarquias e estruturas recursivas.
 - Permite consultas como "quem são os subordinados de um funcionário?" ou "quais produtos compõem este item?".
 - Facilita a manutenção e expansão do modelo de dados.
-

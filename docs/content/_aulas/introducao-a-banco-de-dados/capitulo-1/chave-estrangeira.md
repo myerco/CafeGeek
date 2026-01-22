@@ -45,7 +45,7 @@ Uma chave estrangeira (foreign key) é um campo ou conjunto de campos em uma tab
 
 Considere duas tabelas: `ALUNO` e `TURMA`.
 
-| ALUNO           |           TURMA         |
+| ALUNO           |           TURMA        |
 |-----------------|------------------------|
 | matricula (PK)  | numero_turma (PK)      |
 | nome            | nome                   |
@@ -87,5 +87,3 @@ Legenda: PK = chave primária, FK = chave estrangeira
 - Garante integridade referencial automaticamente.
 - Facilita consultas entre tabelas relacionadas (JOINs).
 - Permite modelar relacionamentos 1:N e N:N.
-
----

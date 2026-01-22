@@ -91,10 +91,10 @@ Cada entidade corresponde a uma tabela no banco de dados, onde cada linha repres
 
 **Exemplo - Tabela ALUNO:**
 
-| Matrícula   | Nome          | Turma | Curso     |
-|-------------|---------------|-------|-----------|
-| 001.201501 | Ana Claudia   | A     | Sistemas  |
-| 002.201501 | João Silva    | B     | Direito   |
+| Matrícula  | Nome        | Turma | Curso    |
+| ---------- | ----------- | ----- | -------- |
+| 001.201501 | Ana Claudia | A     | Sistemas |
+| 002.201501 | João Silva  | B     | Direito  |
 
 ---
 
@@ -108,9 +108,9 @@ Atributos são as propriedades descritivas de cada entidade. Toda entidade é de
 
 Cada instância da entidade PESSOA terá valores específicos para seus atributos:
 
-| CPF  | Nome    | Sexo | Salário   | Data Nasc. |
-|------|---------|------|-----------|------------|
-| 001  | João    | M    | 1000.00   | 21/06/1989 |
+| CPF | Nome | Sexo | Salário | Data Nasc. |
+| --- | ---- | ---- | ------- | ---------- |
+| 001 | João | M    | 1000.00 | 21/06/1989 |
 
 ---
 

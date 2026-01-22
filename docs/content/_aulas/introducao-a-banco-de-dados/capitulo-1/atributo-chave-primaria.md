@@ -48,9 +48,9 @@ Além disso, as chaves primárias são automaticamente indexadas pelo SGBD para 
 
 Na tabela `PESSOA`, o CPF pode servir como chave primária, pois cada pessoa tem um CPF único.
 
-| cpf          | nome          | idade |
-|--------------|---------------|-------|
-| 123.456.789-00 | Ana Costa    | 25    |
-| 987.654.321-00 | Pedro Lima   | 30    |
+| cpf            | nome          | idade |
+|----------------|---------------|-------|
+| 123.456.789-00 | Ana Costa     | 25    |
+| 987.654.321-00 | Pedro Lima    | 30    |
 
 Se não houver um atributo único natural, podemos usar uma combinação (chave composta) ou um ID artificial gerado automaticamente.

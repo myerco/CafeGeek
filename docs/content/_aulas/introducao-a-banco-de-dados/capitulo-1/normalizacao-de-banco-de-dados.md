@@ -139,3 +139,149 @@ Portanto: CPF → Localização (dependência transitiva)
 - **Flexibilidade:** Facilita alterações futuras no esquema
 
 A normalização é fundamental para criar bancos de dados robustos e eficientes.
+
+## Segunda Forma Normal (2FN)
+
+A 2FN elimina **dependências funcionais parciais** em chaves primárias compostas. Uma tabela está na 2FN se:
+
+1. Está na 1FN
+2. Todos os atributos não-chave dependem **totalmente** da chave primária (não de parte dela)
+
+### Aplicando 2FN - Exemplo Prático
+
+Considere a tabela ITEM_PEDIDO com chave composta (Nº_Pedido, Cod_Produto):
+
+**Tabela original (1FN mas não 2FN):**
+
+| Nº_Pedido | Cod_Produto | Qtd | Descrição | Valor_Unit |
+| --------- | ----------- | --- | --------- | ---------- |
+| 001       | 1001        | 2   | Caneta    | 1.50       |
+| 001       | 1002        | 1   | Lápis     | 1.00       |
+
+**Problema:** Descrição e Valor_Unit dependem apenas de Cod_Produto (dependência parcial).
+
+**Após 2FN - Três tabelas:**
+**PEDIDO:**
+
+| Nº_Pedido | Data  | Cliente |
+| --------- | ----- | ------- |
+| 001       | 15/01 | João    |
+
+**ITEM_PEDIDO:**
+
+| Nº_Pedido | Cod_Produto | Quantidade |
+| --------- | ----------- | ---------- |
+| 001       | 1001        | 2          |
+| 001       | 1002        | 1          |
+
+**PRODUTO:**
+
+| Cod_Produto | Descrição | Valor_Unit |
+| ----------- | --------- | ---------- |
+| 1001        | Caneta    | 1.50       |
+| 1002        | Lápis     | 1.00       |
+
+## Terceira Forma Normal (3FN)
+
+A 3FN elimina **dependências funcionais transitivas**. Uma tabela está na 3FN se:
+
+1. Está na 2FN
+2. Nenhum atributo não-chave depende de outro atributo não-chave
+
+### Aplicando 3FN - Exemplo Prático
+
+Considere a tabela PEDIDO com dependência transitiva:
+
+**Tabela original (2FN mas não 3FN):**
+
+| Nº_Pedido | Cliente | Endereço | Cidade    | UF  |
+| --------- | ------- | -------- | --------- | --- |
+| 001       | João    | Rua A    | São Paulo | SP  |
+
+**Problema:** Endereço, Cidade, UF dependem de Cliente (não da chave).
+
+**Após 3FN - Duas tabelas:**
+**PEDIDO:**
+
+| Nº_Pedido | Cliente | Data_Entrega |
+| --------- | ------- | ------------ |
+| 001       | João    | 20/01        |
+
+**CLIENTE:**
+
+| Cliente | Endereço | Cidade    | UF  |
+| ------- | -------- | --------- | --- |
+| João    | Rua A    | São Paulo | SP  |
+
+## Forma Normal de Boyce-Codd (FNBC)
+
+A FNBC trata casos especiais onde existem múltiplas chaves candidatas que se sobrepõem. Uma tabela está na FNBC se todo determinante for uma chave candidata.
+
+### Exemplo FNBC
+
+Considere uma tabela TURMA_PROFESSOR com três chaves candidatas sobrepostas:
+
+**Chaves candidatas:**
+
+1. (Cod_Curso, Turma)
+2. (Cod_Curso, Matricula_Professor)
+3. (Turma, Matricula_Professor)
+
+**Tabela original:**
+
+| Cod_Curso | Turma | Matricula_Professor | Nome_Professor |
+| --------- | ----- | ------------------- | -------------- |
+| BD001     | A     | P001                | Maria Silva    |
+
+**Problema:** Matricula_Professor determina Nome_Professor, mas não é chave candidata.
+
+**Após FNBC - Duas tabelas:**
+**TURMA:**
+
+| Cod_Curso | Turma | Matricula_Professor |
+| --------- | ----- | ------------------- |
+| BD001     | A     | P001                |
+
+**PROFESSOR:**
+
+| Matricula_Professor | Nome_Professor |
+| ------------------- | -------------- |
+| P001                | Maria Silva    |
+
+## Quarta Forma Normal (4FN)
+
+A 4FN trata **dependências multivaloradas independentes**. Uma tabela está na 4FN se não existirem duas ou mais dependências multivaloradas independentes.
+
+### Exemplo 4FN
+
+Uma dependência multivalorada ocorre quando um atributo determina múltiplos valores independentes de outro atributo.
+
+**Exemplo:** Um cliente pode ter múltiplos telefones E múltiplos endereços de entrega, independentemente.
+
+## Quinta Forma Normal (5FN)
+
+A 5FN trata **dependências de junção** em relacionamentos complexos (ternários ou superiores). Uma tabela está na 5FN se não puder ser decomposta sem perda de informação.
+
+### Quando Aplicar 5FN
+
+Casos raros envolvendo relacionamentos múltiplos onde a decomposição em tabelas menores resultaria em perda de informações originais.
+
+**Exemplo:** Em um sistema de projetos, onde funcionários trabalham em projetos usando ferramentas específicas, pode haver dependências complexas que exigem análise cuidadosa.
+
+## Benefícios das Formas Normais Avançadas
+
+- **Eliminação completa de anomalias:** 2FN e 3FN resolvem problemas restantes da 1FN
+- **Otimização de performance:** Estruturas mais eficientes para consultas
+- **Manutenção simplificada:** Mudanças locais não afetam outras partes
+- **Flexibilidade:** Adaptação fácil a novos requisitos
+
+## Ordem Recomendada de Aplicação
+
+1. **1FN** - Eliminar grupos repetitivos
+2. **2FN** - Remover dependências parciais
+3. **3FN** - Eliminar dependências transitivas
+4. **FNBC** - Tratar chaves candidatas sobrepostas
+5. **4FN** - Resolver dependências multivaloradas
+6. **5FN** - Casos especiais de dependências de junção
+
+A normalização avançada garante bancos de dados robustos e eficientes para aplicações complexas.

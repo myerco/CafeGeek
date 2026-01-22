@@ -19,8 +19,8 @@ sidebar:
 - Explorar ferramentas como SQL Developer para gerenciamento de usuários.
 - Entender perfis de acesso e segurança.
 
-
 ## O que é um DBA?
+
 O DBA (Database Administrator ou Administrador de Banco de Dados) é o profissional responsável pelo controle centralizado dos dados e programas de acesso. Ele garante que o sistema funcione de forma segura, eficiente e consistente.
 
 **Definição:** "Uma das principais razões que motivam o uso dos SGBDs é o controle centralizado tanto dos dados quanto dos programas de acesso a eles. A pessoa que centraliza esse controle é chamada de Administrador de Dados (DBA)."

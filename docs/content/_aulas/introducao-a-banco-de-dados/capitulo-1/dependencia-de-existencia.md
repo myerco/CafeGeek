@@ -42,6 +42,7 @@ Dependência de existência ocorre quando a existência de uma entidade (subordi
 ## Exemplo Prático
 
 Considere as entidades `ALUNO` e `NOTA`:
+
 - `ALUNO` é dominante: um aluno pode existir sem notas (ex: aluno novo).
 - `NOTA` é subordinada: uma nota só faz sentido se houver um aluno correspondente.
 
@@ -89,4 +90,3 @@ Dominante Subordinada   Dominante   Subordinada
 - Evita inconsistências (ex: notas sem aluno).
 - Facilita manutenção e integridade referencial.
 - Suportado por SGBDs via chaves estrangeiras e triggers.
-

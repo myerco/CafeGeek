@@ -205,13 +205,13 @@ introducao-a-banco-de-dados:
       - title: Banco de Dados
         url: /curso/introducao-a-banco-de-dados/capitulo-1/banco-de-dados/
       - title: Sistemas de Gerenciamento de Banco de Dados
-        url: /curso/introducao-a-banco-de-dados/capitulo-1/sistemas-de-gerenciamento-de-banco-de-dados/
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/sistemas-gerenciadores-de-banco-de-dados/
       - tile: Ferramentas de Banco de Dados
         url: /curso/introducao-a-banco-de-dados/capitulo-1/ferramentas-de-banco-de-dados/ 
-      - title: abstração de Dados
+      - title: Abstração de Dados
         url: /curso/introducao-a-banco-de-dados/capitulo-1/abstracao-de-dados/  
       - title: Modelos de Dados
-        url: /curso/introducao-a-banco-de-dados/capitulo-1/modelos-de-dados/
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/modelo-de-dados/
       - title: Usuários de Banco de Dados 
         url: /curso/introducao-a-banco-de-dados/capitulo-1/usuarios-de-banco-de-dados/
       - title: Modelo de Entidade e Relacionamento
@@ -223,13 +223,13 @@ introducao-a-banco-de-dados:
       - title: Chave Estrangeira
         url: /curso/introducao-a-banco-de-dados/capitulo-1/chave-estrangeira/
       - title: Relacionamento entre tabelas
-        url: /curso/introducao-a-banco-de-dados/capitulo-1/relacionamentos
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/relacionamentos-entre-tabelas/
       - title: Restrições de Integridade
         url: /curso/introducao-a-banco-de-dados/capitulo-1/restricoes-de-integridade/ 
       - title: Dependência de Existência
         url: /curso/introducao-a-banco-de-dados/capitulo-1/dependencia-de-existencia/
       - title: Agregação
-        url: /curso/introducao-a-banco-de-dados/capitulo-1/agrgegacao/
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/agregacao/
       - title: Auto-Relacionamento
         url: /curso/introducao-a-banco-de-dados/capitulo-1/auto-relacionamento/
       - title: Normalização de Banco de Dados

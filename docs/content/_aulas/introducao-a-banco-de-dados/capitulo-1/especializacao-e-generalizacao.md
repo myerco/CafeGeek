@@ -18,7 +18,6 @@ sidebar:
 - Identificar quando aplicá-los em modelagem de dados.
 - Aplicar em exemplos práticos com diagramas.
 
-
 ## O que é Especialização?
 
 Especialização é o processo de dividir uma entidade geral em subgrupos mais específicos, baseados em características distintas. Isso permite representar hierarquias onde subclasses herdam atributos da superclasse, mas têm propriedades únicas.
@@ -34,6 +33,7 @@ Especialização é o processo de dividir uma entidade geral em subgrupos mais e
 ## Exemplo de Especialização
 
 Considere a entidade `MÉDICO`. Ela pode ser especializada em:
+
 - Pediatra (atende crianças).
 - Cardiologista (especialista em coração).
 - Clínico Geral (atendimento geral).
@@ -100,4 +100,3 @@ O triângulo "ISA" indica "é um" (ex: cardiologista é um médico).
 - **Generalização**: Une entidades específicas em uma geral (bottom-up).
 
 Ambos são ferramentas para modelar herança e hierarquias no E-R.
-
