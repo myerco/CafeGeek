@@ -11,6 +11,13 @@ tags:
 sidebar:
   nav: introducao-a-banco-de-dados
 ---
+
+{% include imagelocal.html
+    src="introducao-a-banco-de-dados/banco-de-dados.png"
+    alt="Figura: Mapa mental do Banco de dados."
+    caption="Figura: Mapa mental do Banco de dados."
+%}
+
 ## Objetivos
 
 - Entender o conceito de banco de dados e seus usos.
