@@ -69,3 +69,48 @@ Sistemas Gerenciadores de Banco de Dados (SGBD) fornecem mecanismos para:
 - Aplicar políticas de segurança e permissões de acesso.
 
 Esses recursos tornam os bancos de dados adequados para aplicações críticas e ambientes multiusuário.
+
+## Tipos de Bancos de Dados
+
+Os bancos de dados podem ser classificados de acordo com sua estrutura e finalidade. Os principais tipos são:
+
+| Tipo           | Estrutura Principal         | Exemplos de Uso                |
+|----------------|----------------------------|--------------------------------|
+| Textual        | Arquivos de texto, documentos| Armazenamento simples, logs    |
+| Grafos         | Nós e arestas (relacionamentos)| Redes sociais, mapas, recomendação|
+| Relacional     | Tabelas, linhas e colunas   | Sistemas empresariais, ERP     |
+| NoSQL          | Documentos, chave-valor, colunas, grafos| Big Data, aplicações web escaláveis |
+
+### Estrutura de Cada Tipo
+
+**Textual:**
+Armazena dados em arquivos de texto ou documentos, sem estrutura rígida. Exemplo: arquivos CSV, TXT.
+
+**Grafos:**
+Organiza dados em nós (entidades) e arestas (relações). Ideal para dados altamente conectados.
+
+**Relacional:**
+Utiliza tabelas com linhas (registros) e colunas (atributos). Permite relacionamentos entre tabelas por meio de chaves.
+
+**NoSQL:**
+Inclui diversos modelos: documentos (JSON, BSON), chave-valor, colunar e grafos. Flexível para dados não estruturados ou semi-estruturados.
+
+### Qual tipo é mais usado?
+
+O modelo **relacional** é o mais utilizado em ambientes corporativos devido à sua robustez, padronização (SQL) e facilidade de integração. No entanto, bancos NoSQL têm ganhado espaço em aplicações que exigem alta escalabilidade e flexibilidade.
+
+## Exemplos de Produtos de Banco de Dados
+
+| Produto         | Tipo         | Características Principais         |
+|-----------------|-------------|-----------------------------------|
+| Oracle          | Relacional   | Alta performance, segurança, escalabilidade|
+| MySQL           | Relacional   | Open source, amplamente utilizado |
+| PostgreSQL      | Relacional   | Extensível, suporte avançado a dados|
+| Microsoft SQL Server | Relacional | Integração com ambiente Windows   |
+| MongoDB         | NoSQL (Documentos) | Flexível, escalável, JSON nativo |
+| Cassandra       | NoSQL (Colunar)   | Alta disponibilidade, Big Data   |
+| Neo4j           | Grafos       | Otimizado para relacionamentos complexos|
+| Elasticsearch   | NoSQL (Documentos) | Busca textual, análise de dados  |
+| Redis           | NoSQL (Chave-valor) | Rápido, usado para cache         |
+
+Essas opções atendem diferentes necessidades, desde sistemas transacionais até análise de grandes volumes de dados.

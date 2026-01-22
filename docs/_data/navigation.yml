@@ -201,6 +201,7 @@ introducao-a-banco-de-dados:
   - title: INTRODUÇÃO A BANCO DE DADOS
     icon: fas fa-database
     url: /curso/introducao-a-banco-de-dados/
+  - title: CONCEITOS FUNDAMENTAIS
     children:
       - title: Banco de Dados
         url: /curso/introducao-a-banco-de-dados/capitulo-1/banco-de-dados/
@@ -214,10 +215,10 @@ introducao-a-banco-de-dados:
         url: /curso/introducao-a-banco-de-dados/capitulo-1/modelo-de-dados/
       - title: Usuários de Banco de Dados 
         url: /curso/introducao-a-banco-de-dados/capitulo-1/usuarios-de-banco-de-dados/
+  - title: MODELO DE DADOS
+    children:
       - title: Modelo de Entidade e Relacionamento
         url: /curso/introducao-a-banco-de-dados/capitulo-1/modelo-de-entidade-e-relacionamento/
-      - title: SQL - linguagem estruturada de consulta
-        url: /curso/introducao-a-banco-de-dados/capitulo-1/sql-linguagem-estruturada-de-consulta/
       - title: Atributo Chave Primaria
         url: /curso/introducao-a-banco-de-dados/capitulo-1/atributo-chave-primaria/
       - title: Chave Estrangeira
@@ -232,8 +233,14 @@ introducao-a-banco-de-dados:
         url: /curso/introducao-a-banco-de-dados/capitulo-1/agregacao/
       - title: Auto-Relacionamento
         url: /curso/introducao-a-banco-de-dados/capitulo-1/auto-relacionamento/
+  - title: NORMALIZAÇÃO
+    children:        
       - title: Normalização de Banco de Dados
         url: /curso/introducao-a-banco-de-dados/capitulo-1/normalizacao-de-banco-de-dados/         
+  - title: SQL - LINGUAGEM DE MANIPULAÇÃO DE DADOS 
+    children:                
+      - title: SQL - linguagem estruturada de consulta 
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/sql-linguagem-estruturada-de-consulta/    
 
 # Configurações do menu
 menu_config:
