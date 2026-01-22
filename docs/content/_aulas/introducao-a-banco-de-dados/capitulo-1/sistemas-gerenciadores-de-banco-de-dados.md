@@ -4,13 +4,19 @@ excerpt: "Explore os conceitos, estrutura e características dos Sistemas Gerenc
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
-date: 2024-03-01T08:48:05-04:00
+date: 2026-01-22T08:48:05-04:00
 order: 19
 tags:
   - banco-de-dados
 sidebar:
   nav: introducao-a-banco-de-dados
 ---
+
+{% include imagelocal.html
+    src="introducao-a-banco-de-dados/sgbd.png"
+    alt="Figura: Sistema Gerenciador de Banco de Dados."
+    caption="Figura: Sistema Gerenciador de Banco de Dados."
+%}
 
 ## Objetivos
 
