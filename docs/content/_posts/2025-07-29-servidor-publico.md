@@ -9,6 +9,13 @@ As características técnicas e sociais dos servidores públicos federais no Bra
 
 ---
 
+<div class="mermaid">
+graph TD
+    A[Início] --> B{Decisão}
+    B -- Sim --> C[Resultado 1]
+    B -- Não --> D[Resultado 2]
+</div>
+
 ## Características Técnicas (Formais/Legais)
 
 - **Acesso por Concurso Público**  
