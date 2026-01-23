@@ -41,6 +41,13 @@ Os SGBD possuem uma arquitetura em camadas que organiza o armazenamento e acesso
 
 ## Arquitetura Cliente-Servidor
 
+{% include image.html
+    src="https://sae.unb.br/cae/conteudo/unbfga/lbd/imagens/componentesSgbd.png"
+    alt="Figura: Componentes SGBD."
+    caption="Figura: Componentes SGBD."
+    ref="https://sae.unb.br/cae/conteudo/unbfga/lbd/banco2_introducao.html"
+%}
+
 A maioria dos SGBD modernos segue o modelo cliente-servidor:
 
 - **Cliente**: Interface de usuário ou aplicação que solicita operações.

@@ -45,13 +45,14 @@ Uma chave estrangeira (foreign key) é um campo ou conjunto de campos em uma tab
 
 Considere duas tabelas: `ALUNO` e `TURMA`.
 
-| ALUNO           |           TURMA        |
-|-----------------|------------------------|
-| matricula (PK)  | numero_turma (PK)      |
-| nome            | nome                   |
-| turma (FK)      | ...                    |
+| ALUNO          | TURMA             |
+| -------------- | ----------------- |
+| matricula (PK) | numero_turma (PK) |
+| nome           | nome              |
+| turma (FK)     | ...               |
 
 No exemplo acima, o campo `turma` em `ALUNO` é uma chave estrangeira que referencia `numero_turma` em `TURMA`.
+
 
 ```sql
 CREATE TABLE turma (
@@ -67,20 +68,36 @@ CREATE TABLE aluno (
 );
 ```
 
----
+### Exemplo de Dados nas Tabelas
+
+#### TURMA
+
+| numero_turma | nome         |
+|--------------|--------------|
+| 1            | Matemática   |
+| 2            | História     |
+| 3            | Biologia     |
+
+#### ALUNO
+
+| matricula | nome           | turma |
+|-----------|----------------|-------|
+| 101       | Ana Souza      | 1     |
+| 102       | Bruno Lima     | 2     |
+| 103       | Carla Mendes   | 1     |
+| 104       | Diego Pereira  | 3     |
+| 105       | Elisa Martins  | 2     |
 
 ## Diagrama de Relacionamento
 
 ```text
-ALUNO ─── TURMA ─── DISCIPLINA ─── PROFESSOR
-  |         |             |             |
-  |         |             |             |
- PK/FK    PK/FK         PK/FK         PK
+┌─────────────┐    ┌──────────┐    
+│  ALUNO      │─── │  TURMA   │ 
+└─────────────┘    └──────────┘ 
+    PK/FK             PK        
 ```
 
 Legenda: PK = chave primária, FK = chave estrangeira
-
----
 
 ## Benefícios da Chave Estrangeira
 

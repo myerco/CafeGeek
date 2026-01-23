@@ -4,7 +4,7 @@ excerpt: "Explore os diferentes tipos de usuários de bancos de dados, incluindo
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
-date: 2024-03-01T08:48:05-04:00
+date: 2026-01-22T08:48:05-04:00
 order: 21
 tags:
   - banco-de-dados
@@ -81,36 +81,36 @@ Os usuários de bancos de dados podem ser classificados em diferentes categorias
 - Não precisam conhecer SQL ou estrutura do banco.
 - Interagem através de interfaces gráficas amigáveis.
 
-## SQL Developer e Gerenciamento de Usuários
+## PgAdmin e Gerenciamento de Usuários
 
-O SQL Developer oferece ferramentas visuais para administração de usuários:
+O PGAdmin oferece ferramentas visuais para administração de usuários:
 
-### Conexão como Administrador
+### Conexão como Administrador no PostgreSQL
 
-Para gerenciar usuários, conecte-se com credenciais administrativas:
+Para gerenciar usuários no PostgreSQL, conecte-se ao banco de dados usando uma conta com privilégios administrativos, normalmente o usuário **postgres**:
 
-- **Usuário**: System (ou outro DBA)
-- **Senha**: Definida na instalação
-- **Atribuição**: SYSDBA para privilégios completos
+- **Usuário**: postgres (ou outro superusuário)
+- **Senha**: Definida durante a instalação
+- **Permissão**: Superuser para acesso total
 
-> **Atenção**: O usuário SYSTEM possui privilégios administrativos totais. Use com cuidado!
+**Atenção**: O usuário postgres possui privilégios administrativos totais. Use com responsabilidade!{: .notice--danger}
 
-### Painel DBA
+### Gerenciamento de Usuários no pgAdmin
 
-1. No menu: **Exibir → DBA**
-2. Selecione a conexão apropriada
-3. Navegue em: **Segurança → Usuários**
-4. Visualize e gerencie contas de usuário
+1. Abra o **pgAdmin** e conecte-se ao servidor desejado
+2. No painel lateral, expanda o servidor e navegue até **Login/Group Roles** em **Object → Login/Group Roles**
+3. Visualize, crie ou edite usuários (roles) conforme necessário
+4. Defina permissões, senhas e atribuições de cada usuário
 
 ## Perfis de Acesso e Segurança
 
-Os perfis definem permissões padrão para grupos de usuários:
+No PostgreSQL, os perfis de acesso são definidos por meio de roles (funções) e permissões:
 
-- **PADRÃO**: Permissões básicas de consulta
-- **SYSDBA**: Privilégios administrativos completos
-- **Perfis customizados**: Definidos pelo DBA para necessidades específicas
+- **Usuário padrão**: Permissões básicas de leitura e escrita
+- **Superuser**: Privilégios administrativos completos
+- **Roles customizadas**: Criadas pelo DBA para necessidades específicas, agrupando permissões conforme o perfil do usuário
 
-A segurança adequada garante que cada usuário acesse apenas os dados necessários para suas funções.
+A configuração adequada de roles e permissões garante que cada usuário acesse apenas os dados e operações necessários para suas funções.
 
 ## Benefícios da Gestão de Usuários
 

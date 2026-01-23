@@ -4,7 +4,7 @@ excerpt: "Explore o Modelo Entidade-Relacionamento (MER), entidades, atributos e
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
-date: 2024-03-01T08:48:05-04:00
+date: 2026-01-22T08:48:05-04:00
 order: 14
 tags:
   - banco-de-dados
@@ -29,8 +29,6 @@ O Modelo Entidade-Relacionamento (MER) é uma técnica de modelagem conceitual q
 
 Este modelo permite criar esquemas puramente conceituais sobre a essência de um sistema, focando no negócio e não em procedimentos técnicos.
 
----
-
 ## Objetos Conceituais do MER
 
 Os principais componentes do modelo são:
@@ -39,8 +37,6 @@ Os principais componentes do modelo são:
 2. **Atributos**: Propriedades que descrevem as entidades
 3. **Relacionamentos**: Associações entre entidades
 4. **Especialização/Generalização**: Hierarquias entre entidades
-
----
 
 ## Entidades
 
@@ -58,8 +54,6 @@ Uma entidade é qualquer objeto do mundo real que possui identificação distint
 - Empréstimos bancários
 - Alunos matriculados
 - Disciplinas oferecidas
-
----
 
 ### Identificação Única
 
@@ -82,8 +76,6 @@ No diagrama ER, as entidades são representadas por retângulos com o nome da en
 │   PESSOA    │ │  ALUNO   │ │ DISCIPLINA  │ │ EMPRÉSTIMO   │
 └─────────────┘ └──────────┘ └─────────────┘ └──────────────┘
 ```
-
----
 
 ## Representação Tabular
 

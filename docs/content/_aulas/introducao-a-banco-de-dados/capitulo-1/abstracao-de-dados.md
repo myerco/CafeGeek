@@ -4,7 +4,7 @@ excerpt: "Entenda os níveis de abstração em sistemas de banco de dados: físi
 categories:
   - "introducao-a-banco-de-dados"
   - "capitulo-1"
-date: 2024-03-01T08:48:05-04:00
+date: 2026-01-22T08:48:05-04:00
 order: 1
 tags:
   - banco-de-dados
@@ -26,6 +26,25 @@ Um Sistema Gerenciador de Banco de Dados (SGBD) oferece três níveis de abstra�
 1. **Nível Físico**: Como os dados são armazenados fisicamente.
 2. **Nível Lógico (ou Conceitual)**: Quais dados existem e suas relações.
 3. **Nível de Visão**: O que cada usuário vê, personalizado e seguro.
+
+                    ┌─────────────────────────┐
+                    │   Nível de Visão        │  ← visões do usuário
+                    │ (o que cada usuário vê) │
+                    └─────────────────────────┘
+                               ▲
+                               │
+                    ┌─────────────────────────┐
+                    │   Nível Lógico          │  ← modelo geral dos dados
+                    │ (tabelas + relações)    │
+                    └─────────────────────────┘
+                               ▲
+                               │
+                    ┌──────────────────────────┐
+                    │   Nível Físico           │  ← como é guardado na máquina
+                    │ (discos, blocos, índices)│
+                    └──────────────────────────┘
+
+                * Independência de Dados entre os níveis
 
 ## Nível Físico
 
