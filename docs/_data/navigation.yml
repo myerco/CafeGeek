@@ -205,6 +205,8 @@ introducao-a-banco-de-dados:
     children:
       - title: Banco de Dados
         url: /curso/introducao-a-banco-de-dados/capitulo-1/banco-de-dados/
+      - title: Dados, Informação e Conhecimento
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/dados-informacao-e-conhecimento/
       - title: Sistemas de Gerenciamento de Banco de Dados
         url: /curso/introducao-a-banco-de-dados/capitulo-1/sistemas-gerenciadores-de-banco-de-dados/
       - tile: Ferramentas de Banco de Dados
