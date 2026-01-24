@@ -90,58 +90,52 @@ Integra conceitos de OOP (herança, encapsulamento).
 
 <div class="mermaid">
 classDiagram
+    direction TB
+    
+    Pessoa <|-- Aluno
+    Pessoa <|-- Professor
+    
+    Aluno "1" *-- "many" Matricula : possui
+    Professor "1" *-- "many" Turma : ministra
+    Turma "1" *-- "1" Disciplina : é_de
+    Turma "1" *-- "many" Matricula : tem
+    Matricula "1" *-- "1" Aluno : pertence_a
+    
     class Pessoa {
         <<abstract>>
         -int id
         -string nome
         -string email
-        +getInfo() string
     }
     
     class Aluno {
         -string matricula
         -date dataIngresso
-        +matricularEmTurma(Turma turma) boolean
         +calcularCR() float
     }
     
     class Professor {
         -string departamento
-        -string titulacao
-        +criarTurma(Disciplina disciplina) Turma
-        +lancarNota(Aluno aluno, float nota) void
+        +criarTurma(Disciplina) Turma
     }
     
     class Disciplina {
         -string codigo
         -string nome
         -int cargaHoraria
-        +verificarPreRequisitos(Aluno aluno) boolean
     }
     
     class Turma {
-        -string codigoTurma
+        -string codigo
         -string horario
-        -string sala
-        -int vagasDisponiveis
-        +matricularAluno(Aluno aluno) boolean
+        +matricularAluno(Aluno) boolean
     }
     
     class Matricula {
-        -date dataMatricula
+        -date data
         -string situacao
         +cancelar() boolean
-        +confirmar() boolean
     }
-    
-    Pessoa <|-- Aluno : herda
-    Pessoa <|-- Professor : herda
-    
-    Aluno "1" -- "*" Matricula : possui
-    Professor "1" -- "*" Turma : ministra
-    Turma "1" -- "1" Disciplina : é_de
-    Turma "1" -- "*" Matricula : contém
-    Aluno "*" -- "*" Turma : frequenta
 </div>
 
 Esta disciplina foca no **Modelo E-R** devido à sua simplicidade e poder para bancos relacionais.
