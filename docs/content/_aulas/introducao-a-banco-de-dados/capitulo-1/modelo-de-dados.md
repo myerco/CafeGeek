@@ -90,19 +90,50 @@ Integra conceitos de OOP (herança, encapsulamento).
 
 <div class="mermaid">
 classDiagram
+    direction TB
+    
     Pessoa <|-- Aluno
     Pessoa <|-- Professor
     
+    Aluno "1" *-- "many" Matricula : possui
+    Professor "1" *-- "many" Turma : ministra
+    Turma "1" *-- "1" Disciplina : é_de
+    Turma "1" *-- "many" Matricula : tem
+    Matricula "1" *-- "1" Aluno : pertence_a
+    
     class Pessoa {
+        -int id
         -string nome
+        -string email
     }
     
     class Aluno {
         -string matricula
+        -date dataIngresso
+        +calcularCR() float
     }
     
     class Professor {
         -string departamento
+        +criarTurma(Disciplina) Turma
+    }
+    
+    class Disciplina {
+        -string codigo
+        -string nome
+        -int cargaHoraria
+    }
+    
+    class Turma {
+        -string codigo
+        -string horario
+        +matricularAluno(Aluno) boolean
+    }
+    
+    class Matricula {
+        -date data
+        -string situacao
+        +cancelar() boolean
     }
 </div>
 
