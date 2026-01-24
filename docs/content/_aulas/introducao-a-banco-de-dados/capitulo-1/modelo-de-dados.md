@@ -46,6 +46,7 @@ erDiagram
         date data_nascimento
         string email
     }
+    
     DISCIPLINA {
         int id_disciplina PK
         string codigo
@@ -53,7 +54,7 @@ erDiagram
         int carga_horaria
         string ementa
     }
-
+    
     TURMA {
         int id_turma PK
         string codigo_turma
@@ -68,18 +69,19 @@ erDiagram
         string departamento
     }
     
-    ALUNO ||--o{ MATRICULA : "faz"
-    DISCIPLINA ||--o{ TURMA : "oferece"
-    TURMA }o--|| PROFESSOR : "ministrada_por"
-    TURMA ||--o{ MATRICULA : "contém"
-    
     MATRICULA {
         int id_matricula PK
         date data_matricula
         string situacao
         float nota_final
     }
-    ALUNO }o--o{ DISCIPLINA : "pode_cursar_via"
+    
+    ALUNO ||--o{ MATRICULA : "faz"
+    TURMA ||--o{ MATRICULA : "contém"
+    DISCIPLINA ||--o{ TURMA : "tem"
+    PROFESSOR ||--o{ TURMA : "ministra"
+    MATRICULA }o--|| TURMA : "pertence_a"
+    MATRICULA }o--|| ALUNO : "feita_por"
 </div>
 
 ### Modelo Orientado a Objetos
@@ -88,69 +90,58 @@ Integra conceitos de OOP (herança, encapsulamento).
 
 <div class="mermaid">
 classDiagram
-    note "Diagrama de Classes OO com herança e composição"
     class Pessoa {
         <<abstract>>
-        -id: int
-        -nome: string
-        -email: string
+        -int id
+        -string nome
+        -string email
         +getInfo() string
     }
+    
     class Aluno {
-        -matricula: string
-        -dataIngresso: date
-        -historico: List~DisciplinaCursada~
-        +matricularEmTurma(turma: Turma) boolean
+        -string matricula
+        -date dataIngresso
+        +matricularEmTurma(Turma turma) boolean
         +calcularCR() float
     }
+    
     class Professor {
-        -departamento: string
-        -titulacao: string
-        -turmasMinistradas: List~Turma~
-        +criarTurma(disciplina: Disciplina) Turma
-        +lancarNota(aluno: Aluno, nota: float) void
+        -string departamento
+        -string titulacao
+        +criarTurma(Disciplina disciplina) Turma
+        +lancarNota(Aluno aluno, float nota) void
     }
+    
     class Disciplina {
-        -codigo: string
-        -nome: string
-        -cargaHoraria: int
-        -ementa: string
-        -preRequisitos: List~Disciplina~
-        +verificarPreRequisitos(aluno: Aluno) boolean
+        -string codigo
+        -string nome
+        -int cargaHoraria
+        +verificarPreRequisitos(Aluno aluno) boolean
     }
+    
     class Turma {
-        -codigoTurma: string
-        -horario: string
-        -sala: string
-        -anoSemestre: int
-        -vagasDisponiveis: int
-        -alunosMatriculados: List~Aluno~
-        +matricularAluno(aluno: Aluno) boolean
-        +verificarLotacao() boolean
+        -string codigoTurma
+        -string horario
+        -string sala
+        -int vagasDisponiveis
+        +matricularAluno(Aluno aluno) boolean
     }
-    class DisciplinaCursada {
-        -disciplina: Disciplina
-        -turma: Turma
-        -nota: float
-        -situacao: string
-        +calcularAprovacao() boolean
-    }
+    
     class Matricula {
-        -dataMatricula: date
-        -situacao: string
+        -date dataMatricula
+        -string situacao
         +cancelar() boolean
         +confirmar() boolean
     }
-    Pessoa <|-- Aluno
-    Pessoa <|-- Professor
-    Aluno "1" *-- "*" DisciplinaCursada : histórico
-    Aluno "1" --> "*" Matricula : possui
-    Professor "1" --> "*" Turma : ministra
-    Turma "1" --> "1" Disciplina : é de
-    Turma "1" --> "*" Matricula : contém
-    DisciplinaCursada "1" --> "1" Disciplina : referente a
-    DisciplinaCursada "1" --> "1" Turma : cursada em
-    Disciplina "1" --> "*" Disciplina : pré-requisitos
+    
+    Pessoa <|-- Aluno : herda
+    Pessoa <|-- Professor : herda
+    
+    Aluno "1" -- "*" Matricula : possui
+    Professor "1" -- "*" Turma : ministra
+    Turma "1" -- "1" Disciplina : é_de
+    Turma "1" -- "*" Matricula : contém
+    Aluno "*" -- "*" Turma : frequenta
 </div>
 
 Esta disciplina foca no **Modelo E-R** devido à sua simplicidade e poder para bancos relacionais.
