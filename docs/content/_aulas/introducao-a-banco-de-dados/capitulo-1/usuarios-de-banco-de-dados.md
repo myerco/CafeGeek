@@ -12,6 +12,12 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
+{% include imagelocal.html
+    src="introducao-a-banco-de-dados/dba.png"
+    alt="Figura: Usuários de banco de dados."
+    caption="Figura: Usuários de banco de dados."
+%}
+
 ## Objetivos
 
 - Compreender o papel do DBA (Administrador de Banco de Dados).
@@ -24,6 +30,7 @@ sidebar:
 O DBA (Database Administrator ou Administrador de Banco de Dados) é o profissional responsável pelo controle centralizado dos dados e programas de acesso. Ele garante que o sistema funcione de forma segura, eficiente e consistente.
 
 **Definição:** "Uma das principais razões que motivam o uso dos SGBDs é o controle centralizado tanto dos dados quanto dos programas de acesso a eles. A pessoa que centraliza esse controle é chamada de Administrador de Dados (DBA)."
+{: .notice--primary}
 
 ## Funções do DBA
 
@@ -93,7 +100,8 @@ Para gerenciar usuários no PostgreSQL, conecte-se ao banco de dados usando uma 
 - **Senha**: Definida durante a instalação
 - **Permissão**: Superuser para acesso total
 
-**Atenção**: O usuário postgres possui privilégios administrativos totais. Use com responsabilidade!{: .notice--danger}
+**Atenção**: O usuário postgres possui privilégios administrativos totais. Use com responsabilidade!
+{: .notice--danger}
 
 ### Gerenciamento de Usuários no pgAdmin
 
@@ -120,3 +128,139 @@ A configuração adequada de roles e permissões garante que cada usuário acess
 - **Performance**: Otimização baseada em perfis de uso.
 
 Uma gestão adequada de usuários é fundamental para a segurança e eficiência do sistema de banco de dados.
+
+## Certificações PostgreSQL: Importância e Razões para Obtê-las
+
+{% include image.html
+    src="https://cdn5.dcbstatic.com/files/e/n/enterprisedb_docebosaas_com/assets/courselogo/original/postgresql-professional-certification-2020-10-21-19-08-58.jpeg"
+    alt="Figura: Certificação PostgreSQL 12."
+    caption="Figura: Certificação PostgreSQL 12."
+    ref="https://sae.unb.br/cae/conteudo/unbfga/lbd/banco2_introducao.html"
+%}
+
+## **Por que existem certificações PostgreSQL?**
+
+### 1. **Validação Padronizada de Conhecimento**
+
+- Criam um **padrão objetivo** para medir competência técnica
+- Fornecem um **currículo comum** que empregadores podem reconhecer
+- Diferenciam conhecimento real de experiência auto-declarada
+
+### 2. **Garantia de Qualidade para o Mercado**
+
+- Empresas precisam confiar na **qualificação de profissionais**
+- Reduzem riscos em contratações e projetos críticos
+- Validam que o profissional segue **melhores práticas** do PostgreSQL
+
+### 3. **Sustentação do Ecossistema**
+
+- Incentivam **educação contínua** na comunidade
+- Mantêm **padrões altos** de conhecimento na comunidade
+- Apoiam o crescimento profissional estruturado
+
+## **Principais Certificações PostgreSQL**
+
+### Oficiais (PostgreSQL Certificação Global):
+
+- **PostgreSQL Associate** (nível inicial)
+- **PostgreSQL Professional** (nível intermediário)
+- **PostgreSQL Expert** (nível avançado)
+- **PostgreSQL Certified Engineer** (especialista)
+
+### Outras Relevantíssimas:
+
+- **EDB PostgreSQL Certifications** (EnterpriseDB)
+- **AWS Certified Database - Specialty** (com foco em PostgreSQL)
+- **Google Cloud Database Engineer** (com PostgreSQL)
+
+## **Importância das Certificações**
+
+### Para **Profissionais**
+
+| Vantagem                      | Impacto                                                      |
+| ----------------------------- | ------------------------------------------------------------ |
+| **Validação Técnica**         | Comprova conhecimento real, não apenas experiência declarada |
+| **Diferenciação Competitiva** | Destaque em processos seletivos e promoções                  |
+| **Aumento Salarial**          | Certificados ganham em média **15-30%** a mais               |
+| **Plano de Carreira**         | Caminho estruturado para crescimento profissional            |
+| **Credibilidade**             | Reconhecimento pela comunidade e empregadores                |
+| **Aprendizado Sistematizado** | Cobre lacunas de conhecimento de forma organizada            |
+
+### Para **Empresas**
+
+| Benefício                | Impacto Organizacional                               |
+| ------------------------ | ---------------------------------------------------- |
+| **Redução de Riscos**    | Menos erros críticos em produção                     |
+| **Qualidade Garantida**  | Padrão consistente nas implementações                |
+| **Otimização de Custos** | Melhor performance = menos recursos necessários      |
+| **Conformidade**         | Atendimento a requisitos regulatórios                |
+| **Tomada de Decisão**    | Confiança em escolhas arquiteturais                  |
+| **Retenção de Talentos** | Profissionais valorizam investimento em certificação |
+
+## **Quando Obter Certificação?**
+
+### Recomendado para
+
+- **Júnior/Pleno** querendo comprovar fundamentos
+- **Sênior** buscando validação avançada
+- **Arquitetos** que precisam de credibilidade
+- **Freelancers** para ganhar confiança de clientes
+- **Consultores** em projetos críticos
+
+### Menos crítico quando
+
+- Trabalha em empresa que não valoriza certificações
+- Já possui reputação estabelecida na comunidade
+- Atua em nichos muito específicos sem certificação correspondente
+
+## **Estatísticas Relevantes**
+
+- **87%** dos gerentes de TI consideram certificações importantes
+- **PostgreSQL** tem **crescimento de 25%** ao ano em adoção
+- Profissionais certificados têm **50% mais** chances de entrevista
+- **76%** das empresas preferem candidatos certificados
+
+## **Custo-Benefício**
+
+### Investimento
+
+- Exames: US$ 200-500 por certificação
+- Cursos preparatórios: US$ 500-2.000
+- Tempo de estudo: 40-120 horas
+
+### Retorno
+
+- Aumento salarial: **10-25K/ano** em muitos mercados
+- Tempo de contratação reduzido: **30-50%** mais rápido
+- Maior estabilidade profissional
+
+## **Alternativas e Complementos**
+
+<div class="mermaid">
+graph TD
+    A[Opções de Validação] --> B[Certificações Formais]
+    A --> C[Portfólio/Projetos]
+    A --> D[Contribuições Open Source]
+    A --> E[Referências Pessoais]
+    B --> F[Credibilidade Imediata]
+    C --> G[Demonstração Prática]
+    D --> H[Reconhecimento Comunitário]
+    E --> I[Confiança Pessoal]
+</div>
+
+## **Conclusão**
+
+As certificações PostgreSQL **NÃO substituem** experiência prática, mas **complementam** e validam seu conhecimento. São especialmente valiosas para:
+
+1. **Iniciantes**: Entrada mais fácil no mercado
+2. **Profissionais em transição**: Migrando de outros bancos
+3. **Consultores**: Credibilidade com novos clientes
+4. **Times corporativos**: Padronização interna
+
+A **importância varia** conforme contexto:
+
+- **Alta importância**: Grandes corporações, consultorias, projetos governamentais
+- **Média importância**: Startups em crescimento, empresas de produto
+- **Baixa importância**: Empresas pequenas, nichos específicos
+
+**Recomendação**: Comece com uma certificação de nível associado para validar fundamentos e avance conforme sua carreira evolui. O investimento geralmente se paga em 6-12 meses através de melhores oportunidades.

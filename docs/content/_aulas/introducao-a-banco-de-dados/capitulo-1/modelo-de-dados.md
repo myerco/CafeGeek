@@ -46,7 +46,7 @@ erDiagram
         date data_nascimento
         string email
     }
-    
+
     DISCIPLINA {
         int id_disciplina PK
         string codigo
@@ -91,7 +91,7 @@ Integra conceitos de OOP (herança, encapsulamento).
 <div class="mermaid">
 classDiagram
     direction TB
-    
+
     Pessoa <|-- Aluno
     Pessoa <|-- Professor
     
@@ -138,6 +138,7 @@ classDiagram
 </div>
 
 Esta disciplina foca no **Modelo E-R** devido à sua simplicidade e poder para bancos relacionais.
+{: .notice--primary}
 
 ---
 
