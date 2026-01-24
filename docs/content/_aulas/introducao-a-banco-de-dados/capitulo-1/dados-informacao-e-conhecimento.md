@@ -74,7 +74,7 @@ A informação surge quando **contextualizamos e relacionamos os dados**. É o d
 
 Agora temos algo útil! Sabemos o que foi medido, onde e quando. Mas ainda falta um passo para a ação.
 
-## 🧠 Nível 3: O Conhecimento (The Knowledge)
+## Nível 3: O Conhecimento (The Knowledge)
 
 O conhecimento é a **internalização e aplicação da informação**. É entender padrões, regras, relações de causa e efeito para tomar decisões e realizar ações.
 
@@ -103,7 +103,7 @@ graph TD
 
 **A Pirâmide DIKW** (Data, Information, Knowledge, Wisdom) ilustra esse processo de **agregação de valor**. Nós, como engenheiros de sistemas, **construímos ferramentas (SGBDs) para apoiar e acelerar essa escalada**.
 
-## 🔗 Conectando com Banco de Dados
+## Conectando com Banco de Dados
 
 1. **Armazenamos DADOS** nas tabelas (`24.7`, `"Maria"`, `"B-203"`).
 2. **Criamos INFORMAÇÃO** ao relacionar tabelas (consultas SQL que juntam `leituras_sensor`, `salas`, `horarios`).

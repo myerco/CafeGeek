@@ -11,6 +11,18 @@ tags:
 sidebar:
   nav: introducao-a-banco-de-dados
 ---
+
+<div class="mermaid">
+graph TD
+    subgraph "Arquitetura de três níveis <br>- Independência de Dados"
+        A["Nível de Visão<br/>(o que cada usuário vê)<br/>← visões do usuário"] 
+        B["Nível Lógico<br/>(tabelas + relações)<br/>← modelo geral dos dados"] 
+        C["Nível Físico<br/>(discos, blocos, índices)<br/>← como é guardado na máquina"]
+        C -->|Independência Física| B
+        B -->|Independência Lógica| A
+    end
+</div>
+
 ## Objetivos
 
 - Compreender o conceito de abstração de dados em SGBD.
@@ -26,25 +38,6 @@ Um Sistema Gerenciador de Banco de Dados (SGBD) oferece três níveis de abstra�
 1. **Nível Físico**: Como os dados são armazenados fisicamente.
 2. **Nível Lógico (ou Conceitual)**: Quais dados existem e suas relações.
 3. **Nível de Visão**: O que cada usuário vê, personalizado e seguro.
-
-                    ┌─────────────────────────┐
-                    │   Nível de Visão        │  ← visões do usuário
-                    │ (o que cada usuário vê) │
-                    └─────────────────────────┘
-                               ▲
-                               │
-                    ┌─────────────────────────┐
-                    │   Nível Lógico          │  ← modelo geral dos dados
-                    │ (tabelas + relações)    │
-                    └─────────────────────────┘
-                               ▲
-                               │
-                    ┌──────────────────────────┐
-                    │   Nível Físico           │  ← como é guardado na máquina
-                    │ (discos, blocos, índices)│
-                    └──────────────────────────┘
-
-                * Independência de Dados entre os níveis
 
 ## Nível Físico
 
@@ -72,7 +65,51 @@ Aqui, descrevemos tabelas, índices, relacionamentos e restrições. É o nível
 
 O nível mais alto oferece uma visão personalizada dos dados para cada usuário ou aplicação. Ele restringe o acesso, mostrando apenas o necessário.
 
-**Exemplo**: Um funcionário de vendas vê apenas dados de clientes e pedidos, enquanto um gerente acessa relatórios financeiros. Isso garante segurança e simplicidade — ninguém vê dados irrelevantes ou confidenciais.
+### Exemplo 1: Visão para Funcionários do RH**
+
+Um funcionário de vendas vê apenas dados de clientes e pedidos, enquanto um gerente acessa relatórios financeiros. Isso garante segurança e simplicidade — ninguém vê dados irrelevantes ou confidenciais.
+
+```sql
+-- Nível Lógico (tabelas reais)
+CREATE TABLE funcionarios (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100),
+    salario DECIMAL(10,2),
+    departamento VARCHAR(50),
+    data_contratacao DATE,
+    cpf VARCHAR(14) UNIQUE,
+    endereco_privado TEXT
+);
+
+-- Nível de Visão: O que um analista do RH vê
+CREATE VIEW visao_rh AS
+SELECT 
+    id,
+    nome,
+    departamento,
+    data_contratacao,
+    CASE 
+        WHEN salario > 10000 THEN 'Faixa Alta'
+        WHEN salario > 5000 THEN 'Faixa Média'
+        ELSE 'Faixa Básica'
+    END AS faixa_salarial,
+    EXTRACT(YEAR FROM AGE(CURRENT_DATE, data_contratacao)) AS anos_empresa
+FROM funcionarios
+WHERE data_contratacao >= '2020-01-01';
+
+-- O analista do RH usa apenas:
+SELECT * FROM visao_rh WHERE departamento = 'TI';
+```
+
+```python
+# No código do dashboard, o desenvolvedor só precisa:
+import psycopg2
+
+conn = psycopg2.connect("dbname=empresa user=gerente")
+cur = conn.cursor()
+cur.execute("SELECT * FROM visao_rh WHERE anos_empresa >= %s", ('10',))
+# Não precisa saber como as 3 tabelas são unidas ou calculadas!
+```
 
 ## Benefícios da Abstração
 

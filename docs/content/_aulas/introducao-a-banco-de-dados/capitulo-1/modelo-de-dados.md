@@ -33,8 +33,125 @@ Um modelo de dados é um conjunto de ferramentas conceituais para descrever dado
 
 ## Modelos Lógicos com Base em Objetos
 
-- **Modelo de Entidade de Relacionamento (E-R)**: O mais usado. Representa entidades, atributos e relacionamentos.
-- **Modelo Orientado a Objetos**: Integra conceitos de OOP (herança, encapsulamento).
+### Modelo de Entidade de Relacionamento (E-R)
+
+O mais usado. Representa entidades, atributos e relacionamentos.
+
+<div class="mermaid">
+erDiagram
+    ALUNO {
+        int id_aluno PK
+        string nome
+        string matricula
+        date data_nascimento
+        string email
+    }
+    DISCIPLINA {
+        int id_disciplina PK
+        string codigo
+        string nome
+        int carga_horaria
+        string ementa
+    }
+
+    TURMA {
+        int id_turma PK
+        string codigo_turma
+        string horario
+        string sala
+        int ano_semestre
+    }
+    
+    PROFESSOR {
+        int id_professor PK
+        string nome
+        string departamento
+    }
+    
+    ALUNO ||--o{ MATRICULA : "faz"
+    DISCIPLINA ||--o{ TURMA : "oferece"
+    TURMA }o--|| PROFESSOR : "ministrada_por"
+    TURMA ||--o{ MATRICULA : "contém"
+    
+    MATRICULA {
+        int id_matricula PK
+        date data_matricula
+        string situacao
+        float nota_final
+    }
+    ALUNO }o--o{ DISCIPLINA : "pode_cursar_via"
+</div>
+
+### Modelo Orientado a Objetos
+
+Integra conceitos de OOP (herança, encapsulamento).
+
+<div class="mermaid">
+classDiagram
+    note "Diagrama de Classes OO com herança e composição"
+    class Pessoa {
+        <<abstract>>
+        -id: int
+        -nome: string
+        -email: string
+        +getInfo() string
+    }
+    class Aluno {
+        -matricula: string
+        -dataIngresso: date
+        -historico: List~DisciplinaCursada~
+        +matricularEmTurma(turma: Turma) boolean
+        +calcularCR() float
+    }
+    class Professor {
+        -departamento: string
+        -titulacao: string
+        -turmasMinistradas: List~Turma~
+        +criarTurma(disciplina: Disciplina) Turma
+        +lancarNota(aluno: Aluno, nota: float) void
+    }
+    class Disciplina {
+        -codigo: string
+        -nome: string
+        -cargaHoraria: int
+        -ementa: string
+        -preRequisitos: List~Disciplina~
+        +verificarPreRequisitos(aluno: Aluno) boolean
+    }
+    class Turma {
+        -codigoTurma: string
+        -horario: string
+        -sala: string
+        -anoSemestre: int
+        -vagasDisponiveis: int
+        -alunosMatriculados: List~Aluno~
+        +matricularAluno(aluno: Aluno) boolean
+        +verificarLotacao() boolean
+    }
+    class DisciplinaCursada {
+        -disciplina: Disciplina
+        -turma: Turma
+        -nota: float
+        -situacao: string
+        +calcularAprovacao() boolean
+    }
+    class Matricula {
+        -dataMatricula: date
+        -situacao: string
+        +cancelar() boolean
+        +confirmar() boolean
+    }
+    Pessoa <|-- Aluno
+    Pessoa <|-- Professor
+    Aluno "1" *-- "*" DisciplinaCursada : histórico
+    Aluno "1" --> "*" Matricula : possui
+    Professor "1" --> "*" Turma : ministra
+    Turma "1" --> "1" Disciplina : é de
+    Turma "1" --> "*" Matricula : contém
+    DisciplinaCursada "1" --> "1" Disciplina : referente a
+    DisciplinaCursada "1" --> "1" Turma : cursada em
+    Disciplina "1" --> "*" Disciplina : pré-requisitos
+</div>
 
 Esta disciplina foca no **Modelo E-R** devido à sua simplicidade e poder para bancos relacionais.
 
@@ -58,14 +175,14 @@ Duas linguagens principais interagem com o modelo de dados:
 **Exemplo:**
 
 ```sql
-CREATE TABLE tabela (
-    campo1 INT,
-    campo2 VARCHAR(50)
+CREATE TABLE aluno (
+    id_aluno INT,
+    nome VARCHAR(50)
 );
 
-ALTER TABLE tabela ADD campo3 DATE;
+ALTER TABLE aluno ADD data_nascimento DATE;
 
-DROP TABLE tabela;
+DROP TABLE aluno;
 ```
 
 ## DML - Principais Comandos
@@ -78,13 +195,13 @@ DROP TABLE tabela;
 **Exemplo:**
 
 ```sql
-INSERT INTO tabela VALUES (1, 'Exemplo');
+INSERT INTO aluno VALUES (1, 'Aragorn');
 
-UPDATE tabela SET campo2 = 'Novo' WHERE campo1 = 1;
+UPDATE aluno SET data_nascimento ='2025-01-24' WHERE id_aluno = 1;
 
-DELETE FROM tabela WHERE campo1 = 1;
+DELETE FROM aluno WHERE id = 1;
 
-SELECT * FROM tabela;
+SELECT * FROM aluno;
 ```
 
 ## O que é SQL?
