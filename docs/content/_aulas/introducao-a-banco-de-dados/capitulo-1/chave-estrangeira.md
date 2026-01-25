@@ -89,12 +89,19 @@ CREATE TABLE aluno (
 
 ## Diagrama de Relacionamento
 
-```text
-┌─────────────┐    ┌──────────┐    
-│  ALUNO      │─── │  TURMA   │ 
-└─────────────┘    └──────────┘ 
-    PK/FK             PK        
-```
+<div class="mermaid">
+erDiagram
+    TURMA ||--o{ ALUNO : possui
+    TURMA {
+      int numero_turma PK
+      string nome
+    }
+    ALUNO {
+      int matricula PK
+      string nome
+      int turma FK
+    }
+</div>
 
 Legenda: PK = chave primária, FK = chave estrangeira
 

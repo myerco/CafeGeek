@@ -70,20 +70,33 @@ CREATE TABLE nota (
 
 A cláusula `ON DELETE CASCADE` implementa a dependência: excluir aluno remove notas automaticamente.
 
----
-
 ## Diagrama de Exemplo
 
-```text
-ALUNO ─── TURMA ─── DISCIPLINA ─── PROFESSOR
-  |         |             |             |
-  |         |             |             |
-Dominante Subordinada   Dominante   Subordinada
-```
+<div class="mermaid">
+erDiagram
+    ALUNO ||--o{ TURMA : possui
+    TURMA ||--o{ DISCIPLINA : oferece
+    DISCIPLINA ||--o{ PROFESSOR : ministrada_por
+    ALUNO {
+      int matricula PK
+      string nome
+    }
+    TURMA {
+      int numero_turma PK
+      string nome
+    }
+    DISCIPLINA {
+      int codigo PK
+      string nome
+    }
+    PROFESSOR {
+      int id PK
+      string nome
+    }
+</div>
 
-*Se o ALUNO é excluído, os dados da TURMA também serão removidos para manter consistência.*
-
----
+Se o ALUNO é excluído, os dados da TURMA também serão removidos para manter consistência.
+{: .notice--info}
 
 ## Benefícios
 

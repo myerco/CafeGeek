@@ -18,17 +18,20 @@ sidebar:
 - Visualizar exemplos práticos com personagens de O Senhor dos Anéis.
 - Explorar representações gráficas (Mermaid) e tabelas.
 
----
-
 ## O que é Integridade Referencial?
 
 Integridade referencial garante que os relacionamentos entre tabelas sejam válidos, evitando registros órfãos e inconsistências.
 
+O relacionamento efetiva-se através de uma expressão relacional que indica como deve ser feita a comparação entre os campos comuns às Entidades, só que agora com uma característica diferente.
+
+A comparação é realizada entre campos das entidades e campos do relacionamento, formando uma expressão composta:
+
+(aluno.matricula = turma.matriculaAluno)
+(aluno.sexo = sexo.descricao)
+
 ## O que é Cardinalidade?
 
 Cardinalidade define quantas ocorrências de uma entidade podem se relacionar com outra em um relacionamento.
-
----
 
 ## Tipos de Cardinalidade e Exemplos
 
@@ -36,31 +39,7 @@ Cardinalidade define quantas ocorrências de uma entidade podem se relacionar co
 
 Cada elemento de uma entidade se relaciona com no máximo um elemento da outra.
 
-**Exemplo:** Cada personagem tem um anel único.
-
-| Personagem | Anel    |
-| ---------- | ------- |
-| Frodo      | Um Anel |
-| Galadriel  | Nenya   |
-| Gandalf    | Narya   |
-| Elrond     | Vilya   |
-
-#### Exemplo adicional de 1:1 (Pessoa e CPF)
-
-<div class="mermaid">
-erDiagram
-    PESSOA ||--|| CPF : possui
-    PESSOA {
-      string nome
-    }
-    CPF {
-      string numero
-    }
-</div>
-
----
-
-#### Exemplo clássico de 1:1 (Pessoa e CPF)
+#### Exemplo de 1:1 (Pessoa e CPF)
 
 Uma pessoa tem no máximo um CPF, e um CPF pertence a no máximo uma pessoa.
 
@@ -75,47 +54,15 @@ erDiagram
     }
 </div>
 
-<div class="mermaid">
-erDiagram
-    PERSONAGEM ||--|| ANEL : possui
-    PERSONAGEM {
-      string nome
-    }
-    ANEL {
-      string nome
-    }
-</div>
+**Expressão relacional:**
 
----
+pessoa.id_cpf = cpf.id
 
 ### 1:N (Um para Muitos)
 
 Um elemento da entidade A se relaciona com múltiplos elementos da entidade B, mas cada elemento de B se relaciona com apenas um de A.
 
-**Exemplo:** Um mago pode ter vários seguidores, mas cada seguidor segue apenas um mago.
-
-| Mago    | Seguidor |
-| ------- | -------- |
-| Gandalf | Frodo    |
-| Gandalf | Samwise  |
-| Saruman | Gríma    |
-
-#### Exemplo adicional de 1:N (Cliente e Empréstimo)
-
-<div class="mermaid">
-erDiagram
-    CLIENTE ||--o{ EMPRESTIMO : possui
-    CLIENTE {
-      string nome
-    }
-    EMPRESTIMO {
-      float valor
-    }
-</div>
-
----
-
-#### Exemplo clássico de 1:N (Cliente e Empréstimos)
+#### Exemplo de 1:N (Cliente e Empréstimos)
 
 Um cliente pode ter vários empréstimos, e cada empréstimo pertence a apenas um cliente.
 
@@ -130,36 +77,15 @@ erDiagram
     }
 </div>
 
-<div class="mermaid">
-erDiagram
-    MAGO ||--o{ SEGUIDOR : guia
-    MAGO {
-      string nome
-    }
-    SEGUIDOR {
-      string nome
-    }
-</div>
+**Expressão relacional:**
 
----
+emprestimo.id_cliente = cliente.id
 
 ### N:N (Muitos para Muitos)
 
 Instâncias de ambas as entidades podem se relacionar com múltiplas instâncias da outra.
 
-**Exemplo:** Personagens participam de várias batalhas, e cada batalha tem vários personagens.
-
-| Personagem | Batalha              |
-| ---------- | -------------------- |
-| Aragorn    | Abismo de Helm       |
-| Legolas    | Abismo de Helm       |
-| Gimli      | Abismo de Helm       |
-| Frodo      | Amon Hen             |
-| Samwise    | Amon Hen             |
-| Aragorn    | Portão Negro         |
-| Frodo      | Montanha da Perdição |
-
-#### Exemplo adicional de N:N (Aluno e Disciplina)
+#### Exemplo de N:N (Aluno e Disciplina)
 
 <div class="mermaid">
 erDiagram
@@ -171,6 +97,11 @@ erDiagram
       string nome
     }
 </div>
+
+**Expressão relacional:**
+
+matricula.id_aluno = aluno.id
+matricula.id_disciplina = disciplina.id
 
 #### Exemplo prático de sistema acadêmico
 
@@ -197,6 +128,11 @@ erDiagram
     }
 
 </div>
+
+**Expressão relacional:**
+
+matricula.aluno_id = aluno.id
+matricula.disciplina_id = disciplina.id
 
 Perceba que a tabela MATRICULA é uma tabela associativa criada para representar o relacionamento N:N entre ALUNO e DISCIPLINA. Ela possui como chaves primárias compostas as chaves das tabelas envolvidas, permitindo registrar cada matrícula de aluno em disciplina de forma única e garantindo a integridade referencial entre as entidades.
 {: .notice}
@@ -245,41 +181,9 @@ erDiagram
     }
 </div>
 
-<div class="mermaid">
-erDiagram
-    PERSONAGEM }o--o{ BATALHA : participa
-    PERSONAGEM {
-      string nome
-    }
-    BATALHA {
-      string nome
-    }
-</div>
+**Expressão relacional:**
 
-## Integridade Referencial: Exemplo SQL
+produto_nota.id_produto = produto.id
+produto_nota.id_nota = nota_fiscal.id
 
-```sql
-CREATE TABLE personagem (
-    id SERIAL PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL
-);
-
-CREATE TABLE anel (
-    id SERIAL PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL,
-    id_personagem INT UNIQUE REFERENCES personagem(id)
-);
-
-CREATE TABLE batalha (
-    id SERIAL PRIMARY KEY,
-    nome VARCHAR(100) NOT NULL
-);
-
-CREATE TABLE personagem_batalha (
-    id_personagem INT REFERENCES personagem(id),
-    id_batalha INT REFERENCES batalha(id),
-    PRIMARY KEY (id_personagem, id_batalha)
-);
-```
-
-Esses exemplos mostram como cardinalidade e integridade referencial são aplicadas na modelagem de dados, usando personagens de O Senhor dos Anéis para ilustrar os conceitos.
+Esses exemplos mostram como cardinalidade e integridade referencial são aplicadas na modelagem de dados.

@@ -118,5 +118,3 @@ graph TD
 | **Dado**         | O átomo. O fato bruto, sem contexto.                 | `42`, `"SP"`                                                                                          | O quê foi registrado?     |
 | **Informação**   | Dados processados e contextualizados.                | "A temperatura média em São Paulo é 24°C."                                                            | O que isso significa?     |
 | **Conhecimento** | Informação internalizada, usada para tomar decisões. | "No verão em SP, picos de calor sobrecarregam a rede elétrica. Devemos preparar o sistema para maio." | Como agir com base nisso? |
-
-**Na próxima aula**, vamos ver a **evolução histórica** que levou da simples armazenagem de dados em arquivos para os sofisticados **Sistemas Gerenciadores de Banco de Dados (SGBDs)** que usamos hoje. Entenderemos os problemas que os bancos de dados vieram resolver.
