@@ -213,14 +213,16 @@ introducao-a-banco-de-dados:
         url: /curso/introducao-a-banco-de-dados/capitulo-1/ferramentas-de-banco-de-dados/ 
       - title: Abstração de Dados
         url: /curso/introducao-a-banco-de-dados/capitulo-1/abstracao-de-dados/  
-      - title: Modelos de Dados
-        url: /curso/introducao-a-banco-de-dados/capitulo-1/modelo-de-dados/
       - title: Usuários de Banco de Dados 
         url: /curso/introducao-a-banco-de-dados/capitulo-1/usuarios-de-banco-de-dados/
   - title: MODELO DE DADOS
     children:
+      - title: Modelos de Dados
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/modelo-de-dados/
       - title: Modelo de Entidade e Relacionamento
         url: /curso/introducao-a-banco-de-dados/capitulo-1/modelo-de-entidade-e-relacionamento/
+  - title: Restrições de Integridade
+    children:
       - title: Restrições de Integridade
         url: /curso/introducao-a-banco-de-dados/capitulo-1/restricoes-de-integridade/ 
       - title: Atributo Chave Primaria
@@ -231,6 +233,8 @@ introducao-a-banco-de-dados:
         url: /curso/introducao-a-banco-de-dados/capitulo-1/integridade-referencial-e-cardinalidade/
       - title: Dependência de Existência
         url: /curso/introducao-a-banco-de-dados/capitulo-1/dependencia-de-existencia/
+  - title: RELACIONAMENTOS AVANÇADOS
+    children:
       - title: Agregação
         url: /curso/introducao-a-banco-de-dados/capitulo-1/agregacao/
       - title: Auto-Relacionamento

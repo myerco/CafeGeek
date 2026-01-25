@@ -47,7 +47,7 @@ Cada elemento de uma entidade se relaciona com no máximo um elemento da outra.
 
 #### Exemplo adicional de 1:1 (Pessoa e CPF)
 
-```mermaid
+<div class="mermaid">
 erDiagram
     PESSOA ||--|| CPF : possui
     PESSOA {
@@ -56,7 +56,7 @@ erDiagram
     CPF {
       string numero
     }
-```
+</div>
 
 ---
 
@@ -64,7 +64,7 @@ erDiagram
 
 Uma pessoa tem no máximo um CPF, e um CPF pertence a no máximo uma pessoa.
 
-```mermaid
+<div class="mermaid">
 erDiagram
     PESSOA ||--|| CPF : possui
     PESSOA {
@@ -73,9 +73,9 @@ erDiagram
     CPF {
       string numero
     }
-```
+</div>
 
-```mermaid
+<div class="mermaid">
 erDiagram
     PERSONAGEM ||--|| ANEL : possui
     PERSONAGEM {
@@ -84,7 +84,7 @@ erDiagram
     ANEL {
       string nome
     }
-```
+</div>
 
 ---
 
@@ -102,7 +102,7 @@ Um elemento da entidade A se relaciona com múltiplos elementos da entidade B, m
 
 #### Exemplo adicional de 1:N (Cliente e Empréstimo)
 
-```mermaid
+<div class="mermaid">
 erDiagram
     CLIENTE ||--o{ EMPRESTIMO : possui
     CLIENTE {
@@ -111,7 +111,7 @@ erDiagram
     EMPRESTIMO {
       float valor
     }
-```
+</div>
 
 ---
 
@@ -119,7 +119,7 @@ erDiagram
 
 Um cliente pode ter vários empréstimos, e cada empréstimo pertence a apenas um cliente.
 
-```mermaid
+<div class="mermaid">
 erDiagram
     CLIENTE ||--o{ EMPRESTIMO : possui
     CLIENTE {
@@ -128,9 +128,9 @@ erDiagram
     EMPRESTIMO {
       int valor
     }
-```
+</div>
 
-```mermaid
+<div class="mermaid">
 erDiagram
     MAGO ||--o{ SEGUIDOR : guia
     MAGO {
@@ -139,7 +139,7 @@ erDiagram
     SEGUIDOR {
       string nome
     }
-```
+</div>
 
 ---
 
@@ -161,7 +161,7 @@ Instâncias de ambas as entidades podem se relacionar com múltiplas instâncias
 
 #### Exemplo adicional de N:N (Aluno e Disciplina)
 
-```mermaid
+<div class="mermaid">
 erDiagram
     ALUNO }o--o{ DISCIPLINA : matricula
     ALUNO {
@@ -170,11 +170,11 @@ erDiagram
     DISCIPLINA {
       string nome
     }
-```
+</div>
 
 #### Exemplo prático de sistema acadêmico
 
-```mermaid
+<div class="mermaid">
 erDiagram
     ALUNO ||--o{ MATRICULA : possui
     DISCIPLINA ||--o{ MATRICULA : recebe
@@ -196,7 +196,7 @@ erDiagram
         int professor_id FK
     }
 
-```
+</div>
 
 Perceba que a tabela MATRICULA é uma tabela associativa criada para representar o relacionamento N:N entre ALUNO e DISCIPLINA. Ela possui como chaves primárias compostas as chaves das tabelas envolvidas, permitindo registrar cada matrícula de aluno em disciplina de forma única e garantindo a integridade referencial entre as entidades.
 {: .notice}
@@ -234,7 +234,7 @@ CREATE TABLE matricula (
 
 Um produto pode aparecer em várias notas fiscais, e uma nota fiscal pode conter vários produtos.
 
-```mermaid
+<div class="mermaid">
 erDiagram
     PRODUTO }o--o{ NOTA_FISCAL : compoe
     PRODUTO {
@@ -243,9 +243,9 @@ erDiagram
     NOTA_FISCAL {
       string numero
     }
-```
+</div>
 
-```mermaid
+<div class="mermaid">
 erDiagram
     PERSONAGEM }o--o{ BATALHA : participa
     PERSONAGEM {
@@ -254,9 +254,7 @@ erDiagram
     BATALHA {
       string nome
     }
-```
-
----
+</div>
 
 ## Integridade Referencial: Exemplo SQL
 

@@ -107,7 +107,3 @@ O comando `ON DELETE CASCADE` é uma estratégia de manutenção da integridade.
 | **Domínio**          | Validade do valor  | `CHECK`, `DATA TYPE`     |
 | **Chave (Entidade)** | Unicidade da linha | `PRIMARY KEY`, `UNIQUE`  |
 | **Referencial**      | Relacionamento     | `FOREIGN KEY`            |
-
-Espero que essa explicação tenha clareado como protegemos a qualidade dos dados no PostgreSQL!
-
-**Gostaria que eu demonstrasse como criar gatilhos (triggers) para validações de integridade mais complexas que um simples CHECK não resolve?**

@@ -77,13 +77,13 @@ Cada entidade possui um conjunto de propriedades cujos valores devem ser únicos
 
 No diagrama ER, as entidades são representadas por retângulos com o nome da entidade em maiúsculo.
 
-```mermaid
+<div class="mermaid">
 erDiagram
   PESSOA
   ALUNO
   DISCIPLINA
   EMPRESTIMO
-```
+</div>
 
 ## Representação Tabular
 
