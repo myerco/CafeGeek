@@ -53,7 +53,6 @@ Considere duas tabelas: `ALUNO` e `TURMA`.
 
 No exemplo acima, o campo `turma` em `ALUNO` é uma chave estrangeira que referencia `numero_turma` em `TURMA`.
 
-
 ```sql
 CREATE TABLE turma (
   numero_turma INT PRIMARY KEY,

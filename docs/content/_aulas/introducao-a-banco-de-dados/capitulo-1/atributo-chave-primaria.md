@@ -41,8 +41,19 @@ Para ser uma chave primária válida, o atributo deve atender a estes critérios
 - **Não pode ser nulo**: Todo registro deve ter um valor para a chave primária.
 - **Deve ser único**: Não pode haver dois registros com o mesmo valor.
 - **Imutável**: O valor não deve mudar ao longo do tempo (idealmente).
+- **É um índice**: A chave vai estar associada a uma estrutura de indexação.
 
 Além disso, as chaves primárias são automaticamente indexadas pelo SGBD para otimizar consultas.
+
+## Exemplo de comando SQL (PostgreSQL)
+
+```sql
+CREATE TABLE aluno (
+  matricula VARCHAR(10) PRIMARY KEY,
+  nome VARCHAR(100),
+  turma VARCHAR(10)
+);
+```
 
 ## Outro Exemplo
 
@@ -54,3 +65,24 @@ Na tabela `PESSOA`, o CPF pode servir como chave primária, pois cada pessoa tem
 | 987.654.321-00 | Pedro Lima    | 30    |
 
 Se não houver um atributo único natural, podemos usar uma combinação (chave composta) ou um ID artificial gerado automaticamente.
+
+## Exemplo de chave primária autonumerada (PostgreSQL)
+
+```sql
+CREATE TABLE pessoa (
+  id SERIAL PRIMARY KEY,
+  nome VARCHAR(100),
+  idade INTEGER
+);
+```
+
+## Exemplo de chave primária composta (PostgreSQL)
+
+```sql
+CREATE TABLE matricula_disciplina (
+  matricula VARCHAR(10),
+  codigo_disciplina VARCHAR(10),
+  ano INTEGER,
+  PRIMARY KEY (matricula, codigo_disciplina, ano)
+);
+```

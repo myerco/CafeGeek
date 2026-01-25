@@ -1,192 +1,113 @@
 ---
-title: Restrições de integriadade
-excerpt: "Explore as restrições em bancos de dados: cardinalidade, dependência de existência e integridade referencial."
+title: Restrições de Integridade
+excerpt: "Entenda as principais restrições de integridade em bancos de dados relacionais, exemplos práticos e comandos SQL."
 categories:
-  - "introducao-a-banco-de-dados"
-  - "capitulo-1"
-date: 2024-03-01T08:48:05-04:00
-order: 18
+    - "introducao-a-banco-de-dados"
+    - "capitulo-1"
+date: 2026-01-22T08:48:05-04:00
+order: 8
 tags:
-  - banco-de-dados
+    - banco-de-dados
 sidebar:
-  nav: introducao-a-banco-de-dados
+    nav: introducao-a-banco-de-dados
 ---
 
 ## Objetivos
 
-- Compreender os tipos de restrições em bancos de dados.
-- Explorar cardinalidade: 1:1, 1:N, N:N.
-- Entender dependência de existência.
-- Aprender sobre integridade referencial.
+- Compreender o conceito de restrições de integridade.
+- Identificar os principais tipos de restrições.
+- Visualizar exemplos práticos e comandos SQL.
 
-## O que são Restrições?
+No Modelo Entidade-Relacionamento (MER), as restrições de integridade são regras que garantem que a informação armazenada seja precisa, consistente e confiável. Sem elas, o banco de dados se torna uma "sucata digital" cheia de informações órfãs ou contraditórias.
 
-Restrições são regras que definem as condições que os dados devem satisfazer para manter a consistência e integridade do banco de dados.
+## Integridade de Domínio
 
-**Definição:** "O esquema E-R de uma empresa pode definir certas restrições, as quais o conteúdo do banco de dados deve respeitar."
+A **Integridade de Domínio** define os valores válidos para um atributo específico. Ela garante que todos os dados em uma coluna pertençam a um conjunto de valores permitido (tipo de dado, formato, intervalo).
 
-### Tipos Principais de Restrições
+No PostgreSQL, aplicamos isso através de:
 
-1. **Cardinalidade:** Define quantas ocorrências de uma entidade podem se relacionar com outra
-2. **Dependência de Existência:** Regras sobre existência obrigatória de entidades relacionadas
-3. **Integridade Referencial:** Garante que relacionamentos entre tabelas sejam válidos
+- **Tipos de Dados:** `INTEGER`, `VARCHAR`, `DATE`.
+- **Constraints:** `NOT NULL` (não aceita vazios) e `CHECK` (valida condições).
 
-## Cardinalidade
+### Exemplo Prático integridade referencial
 
-A cardinalidade especifica o número de ocorrências de uma entidade que pode estar associado a ocorrências de outra entidade em um relacionamento.
+Imagine uma tabela de `Produtos` onde o preço não pode ser negativo.
 
-### Tipos de Cardinalidade
+**Tabela de Produtos:**
 
-#### 1:1 (Um para Um)
+| ID   | Nome    | Preço  | Categoria                    |
+| :--- | :------ | :----- | :--------------------------- |
+| 1    | Teclado | 150.00 | Eletrônicos                  |
+| 2    | Mouse   | -5.00  | **ERRO! Violaria o domínio** |
 
-Cada elemento de uma entidade se relaciona com no máximo um elemento da outra entidade.
-
-**Exemplo:** Relacionamento entre PESSOA e CPF
-
-- Uma pessoa tem no máximo um CPF
-- Um CPF pertence a no máximo uma pessoa
-
-```text
-┌─────────┐     ┌─────┐
-│ PESSOA  │ ──○ │ CPF │
-└─────────┘     └─────┘
-      1             1
-```
-
-**Implementação:**
+**Comando SQL (PostgreSQL):**
 
 ```sql
--- Tabela PESSOA
-CREATE TABLE pessoa (
-    id_pessoa INT PRIMARY KEY,
-    nome VARCHAR(100),
-    id_cpf INT UNIQUE -- FK opcional
+CREATE TABLE produtos (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL,
+    preco NUMERIC(10, 2) CHECK (preco > 0), -- Restrição de Domínio
+    categoria VARCHAR(50) DEFAULT 'Geral'
 );
 
--- Tabela CPF
-CREATE TABLE cpf (
-    id_cpf INT PRIMARY KEY,
-    numero VARCHAR(14) UNIQUE,
-    id_pessoa INT, -- FK opcional
-    FOREIGN KEY (id_pessoa) REFERENCES pessoa(id_pessoa)
-);
 ```
 
-#### 1:N (Um para Muitos)
+## 2. Integridade Referencial
 
-Um elemento da entidade A se relaciona com múltiplos elementos da entidade B, mas cada elemento de B se relaciona com apenas um de A.
+A **Integridade Referencial** garante que as relações entre as tabelas permaneçam consistentes. Em termos simples: se a Tabela A aponta para a Tabela B (via Chave Estrangeira), o registro na Tabela B **deve existir**.
 
-**Exemplo:** Cliente e Empréstimos
+Ela impede que tenhamos "registros órfãos" (ex: um pedido de um cliente que não está cadastrado).
 
-- Um cliente pode ter vários empréstimos
-- Cada empréstimo pertence a apenas um cliente
+### Exemplo Prático integridade de domínio
 
-```
-┌─────────┐     ┌────────────┐
-│ CLIENTE │ ──○ │ EMPRÉSTIMO │
-└─────────┘     └────────────┘
-      1             N
-```
+Temos as tabelas `Clientes` e `Pedidos`. Um pedido só pode existir se estiver vinculado a um cliente real.
 
-**Implementação:**
+**Tabela Clientes:**
+
+| cliente_id (PK) | Nome      |
+| :-------------- | :-------- |
+| 10              | Ana Silva |
+
+**Tabela de Pedidos:**
+
+| pedido_id | cliente_id (FK) | Valor                           |
+| :-------- | :-------------- | :------------------------------ |
+| 501       | 10              | 250.00                          |
+| 502       | 99              | **ERRO! Cliente 99 não existe** |
+
+**Comando SQL (PostgreSQL):**
 
 ```sql
--- Tabela CLIENTE
-CREATE TABLE cliente (
-    id_cliente INT PRIMARY KEY,
-    nome VARCHAR(100)
+CREATE TABLE clientes (
+    cliente_id INT PRIMARY KEY,
+    nome VARCHAR(100) NOT NULL
 );
 
--- Tabela EMPRESTIMO
-CREATE TABLE emprestimo (
-    id_emprestimo INT PRIMARY KEY,
-    valor DECIMAL(10,2),
-    id_cliente INT NOT NULL,
-    FOREIGN KEY (id_cliente) REFERENCES cliente(id_cliente)
-);
-```
-
-#### N:N (Muitos para Muitos)
-
-Elementos de ambas as entidades podem se relacionar com múltiplos elementos da outra.
-
-**Exemplo:** Produtos e Notas Fiscais
-- Um produto pode aparecer em várias notas fiscais
-- Uma nota fiscal pode conter vários produtos
-
-```
-┌──────────┐     ┌──────────────┐
-│ PRODUTO  │ ──○ │ NOTA_FISCAL │
-└──────────┘     └──────────────┘
-      N              N
-```
-
-**Implementação:** Requer tabela associativa
-
-```sql
--- Tabela PRODUTO
-CREATE TABLE produto (
-    id_produto INT PRIMARY KEY,
-    nome VARCHAR(100),
-    preco DECIMAL(10,2)
+CREATE TABLE pedidos (
+    pedido_id SERIAL PRIMARY KEY,
+    valor NUMERIC(10, 2),
+    id_cliente INT,
+    -- Restrição de Integridade Referencial
+    CONSTRAINT fk_cliente 
+        FOREIGN KEY (id_cliente) 
+        REFERENCES clientes (cliente_id)
+        ON DELETE CASCADE
 );
 
--- Tabela NOTA_FISCAL
-CREATE TABLE nota_fiscal (
-    id_nota INT PRIMARY KEY,
-    data_emissao DATE,
-    total DECIMAL(10,2)
-);
-
--- Tabela associativa PRODUTO_NOTA
-CREATE TABLE produto_nota (
-    id_produto INT,
-    id_nota INT,
-    quantidade INT,
-    valor_unitario DECIMAL(10,2),
-    PRIMARY KEY (id_produto, id_nota),
-    FOREIGN KEY (id_produto) REFERENCES produto(id_produto),
-    FOREIGN KEY (id_nota) REFERENCES nota_fiscal(id_nota)
-);
 ```
 
-## Participação em Relacionamentos
+O comando `ON DELETE CASCADE` é uma estratégia de manutenção da integridade. Se o cliente for excluído, todos os pedidos dele também serão removidos automaticamente, evitando dados órfãos.
+{: .notice--primary}
 
-Além da cardinalidade, devemos considerar a participação:
+## Resumo das Restrições
 
-- **Participação Total:** Toda instância deve participar do relacionamento (linha obrigatória)
-- **Participação Parcial:** Participação é opcional (pode ser nula)
+| Tipo de Integridade  | Foco               | Principal Ferramenta SQL |
+| -------------------- | ------------------ | ------------------------ |
+| **Vazio (Nullity)**  | Presença de dados  | `NOT NULL`               |
+| **Domínio**          | Validade do valor  | `CHECK`, `DATA TYPE`     |
+| **Chave (Entidade)** | Unicidade da linha | `PRIMARY KEY`, `UNIQUE`  |
+| **Referencial**      | Relacionamento     | `FOREIGN KEY`            |
 
-**Notação:** Min-Max
+Espero que essa explicação tenha clareado como protegemos a qualidade dos dados no PostgreSQL!
 
-- 1:1 (obrigatório dos dois lados)
-- 0:1 (opcional de um lado, obrigatório do outro)
-- 0:N (opcional de um lado, múltiplo do outro)
-
-## Integridade Referencial
-
-Garante que os relacionamentos entre tabelas sejam válidos:
-
-- **Chaves Estrangeiras:** Referenciam chaves primárias de outras tabelas
-- **Regras de Exclusão:** O que fazer quando uma entidade referenciada é excluída
-- **Regras de Atualização:** Como propagar mudanças nas chaves
-
-### Exemplo de Integridade
-
-```sql
--- Restrição de integridade referencial
-ALTER TABLE emprestimo
-ADD CONSTRAINT fk_emprestimo_cliente
-FOREIGN KEY (id_cliente) REFERENCES cliente(id_cliente)
-ON DELETE CASCADE  -- Exclui empréstimos se cliente for excluído
-ON UPDATE CASCADE; -- Atualiza id_cliente se chave primária mudar
-```
-
-## Benefícios das Restrições
-
-- **Consistência:** Dados sempre válidos e consistentes
-- **Integridade:** Relacionamentos preservados
-- **Segurança:** Prevenção de dados inválidos
-- **Manutenção:** Regras automáticas de validação
-
-Restrições são essenciais para manter a qualidade e confiabilidade dos dados em sistemas de banco de dados.
+**Gostaria que eu demonstrasse como criar gatilhos (triggers) para validações de integridade mais complexas que um simples CHECK não resolve?**

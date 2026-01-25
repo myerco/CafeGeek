@@ -221,20 +221,22 @@ introducao-a-banco-de-dados:
     children:
       - title: Modelo de Entidade e Relacionamento
         url: /curso/introducao-a-banco-de-dados/capitulo-1/modelo-de-entidade-e-relacionamento/
+      - title: Restrições de Integridade
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/restricoes-de-integridade/ 
       - title: Atributo Chave Primaria
         url: /curso/introducao-a-banco-de-dados/capitulo-1/atributo-chave-primaria/
       - title: Chave Estrangeira
         url: /curso/introducao-a-banco-de-dados/capitulo-1/chave-estrangeira/
-      - title: Relacionamento entre tabelas
-        url: /curso/introducao-a-banco-de-dados/capitulo-1/relacionamentos-entre-tabelas/
-      - title: Restrições de Integridade
-        url: /curso/introducao-a-banco-de-dados/capitulo-1/restricoes-de-integridade/ 
+      - title: Integridade Referencial e Cardinalidade
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/integridade-referencial-e-cardinalidade/
       - title: Dependência de Existência
         url: /curso/introducao-a-banco-de-dados/capitulo-1/dependencia-de-existencia/
       - title: Agregação
         url: /curso/introducao-a-banco-de-dados/capitulo-1/agregacao/
       - title: Auto-Relacionamento
         url: /curso/introducao-a-banco-de-dados/capitulo-1/auto-relacionamento/
+      - title: Especialização e Generalização
+        url: /curso/introducao-a-banco-de-dados/capitulo-1/especializacao-e-generalizacao/        
   - title: NORMALIZAÇÃO
     children:        
       - title: Normalização de Banco de Dados
