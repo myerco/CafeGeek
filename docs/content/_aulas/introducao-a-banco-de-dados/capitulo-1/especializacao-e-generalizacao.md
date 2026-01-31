@@ -45,14 +45,44 @@ Cada especialidade herda atributos comuns (nome, CRM), mas tem atributos especí
 
 ## Diagrama de Especialização
 
-```text
-MÉDICO
-├── CARDIOLOGISTA
-├── PEDIATRA
-└── ORTOPEDISTA
-```
+<div class="mermaid">
+graph TD
+    MÉDICO --> CARDIOLOGISTA
+    MÉDICO --> PEDIATRA
+    MÉDICO --> ORTOPEDISTA
+</div>
 
 No modelo físico, isso pode ser implementado com tabelas separadas ou uma tabela única com discriminador.
+
+---
+
+### Exemplo SQL: Especialização
+
+Neste exemplo, usaremos uma tabela única `personagem` com um campo discriminador `tipo` para representar especializações (por exemplo: mago, elfo, hobbit).
+
+```sql
+-- Criação da tabela
+CREATE TABLE personagem (
+  id INT PRIMARY KEY,
+  nome VARCHAR(100),
+  tipo VARCHAR(50) -- ex: 'Mago', 'Elfo', 'Hobbit'
+);
+
+-- Inserção de personagens do Senhor dos Anéis
+INSERT INTO personagem (id, nome, tipo) VALUES (1, 'Gandalf', 'Mago');
+INSERT INTO personagem (id, nome, tipo) VALUES (2, 'Legolas', 'Elfo');
+INSERT INTO personagem (id, nome, tipo) VALUES (3, 'Frodo', 'Hobbit');
+
+-- Visão para cada especialização
+CREATE VIEW magos AS SELECT * FROM personagem WHERE tipo = 'Mago';
+CREATE VIEW elfos AS SELECT * FROM personagem WHERE tipo = 'Elfo';
+CREATE VIEW hobbits AS SELECT * FROM personagem WHERE tipo = 'Hobbit';
+
+-- Consulta geral
+SELECT * FROM personagem;
+-- Consulta específica
+SELECT * FROM magos;
+```
 
 ---
 
@@ -76,19 +106,56 @@ A entidade `MÉDICO` é uma generalização, e as especialidades são subclasses
 
 ---
 
+### Exemplo SQL: Generalização
+
+Neste exemplo, usaremos tabelas separadas para cada especialidade e uma visão para generalizar todos como "personagem".
+
+```sql
+-- Criação das tabelas
+CREATE TABLE mago (
+  id INT PRIMARY KEY,
+  nome VARCHAR(100)
+);
+CREATE TABLE elfo (
+  id INT PRIMARY KEY,
+  nome VARCHAR(100)
+);
+CREATE TABLE hobbit (
+  id INT PRIMARY KEY,
+  nome VARCHAR(100)
+);
+
+-- Inserção de personagens do Senhor dos Anéis
+INSERT INTO mago (id, nome) VALUES (1, 'Gandalf');
+INSERT INTO elfo (id, nome) VALUES (2, 'Legolas');
+INSERT INTO hobbit (id, nome) VALUES (3, 'Frodo');
+
+-- Visão para generalizar todos como personagem
+CREATE VIEW personagem AS
+  SELECT id, nome, 'Mago' AS tipo FROM mago
+  UNION ALL
+  SELECT id, nome, 'Elfo' AS tipo FROM elfo
+  UNION ALL
+  SELECT id, nome, 'Hobbit' AS tipo FROM hobbit;
+
+-- Consulta geral
+SELECT * FROM personagem;
+-- Consulta específica
+SELECT * FROM personagem WHERE tipo = 'Elfo';
+```
+
+---
+
 ## Diagrama de Generalização
 
-```text
-  MÉDICO
-     │
-     │ ISA
-     ▼
-┌─────────────────┐
-│ CARDIOLOGISTA  │
-│ PEDIATRA       │
-│ ORTOPEDISTA     │
-└─────────────────┘
-```
+<div class="mermaid">
+graph TD
+    MÉDICO --> ISA
+    ISA -->CARDIOLOGISTA
+    ISA -->CARDIOLIGISTA
+    ISA -->ORTOPEDISTA
+ISA@{ shape: manual-file, label: "ISA"}
+</div>
 
 O triângulo "ISA" indica "é um" (ex: cardiologista é um médico).
 

@@ -249,6 +249,26 @@ introducao-a-banco-de-dados:
     children:                
       - title: SQL - linguagem estruturada de consulta 
         url: /curso/introducao-a-banco-de-dados/capitulo-1/sql-linguagem-estruturada-de-consulta/    
+  - title: ESTRUTURAS 
+    children:                
+      - title: Estruturas de Gerenciadores de Banco de Dados 
+        url: /curso/introducao-a-banco-de-dados/capitulo-2/estruturas-gerenciadores-de-banco-de-dados
+      - title: Visões e restricoes de acesso  
+        url: /curso/introducao-a-banco-de-dados/capitulo-2/visoes-e-restricoes-de-acesso
+      - title: Programação de Banco de Dados
+        url: /curso/introducao-a-banco-de-dados/capitulo-2/programacao-de-banco-de-dados        
+      - title: Gatilhos (Triggers)
+        url: /curso/introducao-a-banco-de-dados/capitulo-2/gatilhos-triggers/        
+      - title: Processamento e otimização de consultas
+        url: /curso/introducao-a-banco-de-dados/capitulo-2/processamento-e-otimizacao-de-consultas/
+      - title: Controle de transações 
+        url: /curso/introducao-a-banco-de-dados/capitulo-2/controle-de-transacoes/        
+      - title: Controle de concorrência   
+        url: /curso/introducao-a-banco-de-dados/capitulo-2/controle-de-concorrencia/                
+      - title: Banco de Dados Distribuídos
+        url: /curso/introducao-a-banco-de-dados/capitulo-2/banco-de-dados-distribuidos/                        
+
+
 
 # Configurações do menu
 menu_config:

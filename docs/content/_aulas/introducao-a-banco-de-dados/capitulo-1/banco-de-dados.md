@@ -81,12 +81,14 @@ Esses recursos tornam os bancos de dados adequados para aplicações críticas e
 
 Os bancos de dados podem ser classificados de acordo com sua estrutura e finalidade. Os principais tipos são:
 
-| Tipo       | Estrutura Principal                      | Exemplos de Uso                     |
-| ---------- | ---------------------------------------- | ----------------------------------- |
-| Textual    | Arquivos de texto, documentos            | Armazenamento simples, logs         |
-| Grafos     | Nós e arestas (relacionamentos)          | Redes sociais, mapas, recomendação  |
-| Relacional | Tabelas, linhas e colunas                | Sistemas empresariais, ERP          |
-| NoSQL      | Documentos, chave-valor, colunas, grafos | Big Data, aplicações web escaláveis |
+| Tipo                | Estrutura Principal                      | Exemplos de Uso                         |
+| ------------------- | ---------------------------------------- | --------------------------------------- |
+| Textual             | Arquivos de texto, documentos            | Armazenamento simples, logs             |
+| Grafos              | Nós e arestas (relacionamentos)          | Redes sociais, mapas, recomendação      |
+| Relacional          | Tabelas, linhas e colunas                | Sistemas empresariais, ERP              |
+| NoSQL               | Documentos, chave-valor, colunas, grafos | Big Data, aplicações web escaláveis     |
+| Hierarquico         | Estrutura de árvore (pai-filho)          | Sistemas de arquivos, XML, organizações |
+| Orientado a objetos | Objetos com atributos e métodos          | Aplicações complexas, CAD, simulações   |
 
 ### Estrutura de Cada Tipo
 
@@ -119,5 +121,9 @@ O modelo **relacional** é o mais utilizado em ambientes corporativos devido à 
 | Neo4j                | Grafos              | Otimizado para relacionamentos complexos    |
 | Elasticsearch        | NoSQL (Documentos)  | Busca textual, análise de dados             |
 | Redis                | NoSQL (Chave-valor) | Rápido, usado para cache                    |
+| BM IMS               | Hierárquico         | Transacional, histórico (IBM mainframes)    |
+| XML Databases        | Hierárquico         | Armazenamento nativo de documentos XML      |
+| ObjectDB             | Orientado a Objetos | ODBMS puro, compatível com Java JPA         |
+| db4o                 | Orientado a Objetos | Open source, embutido, para Java/.NET       |
 
 Essas opções atendem diferentes necessidades, desde sistemas transacionais até análise de grandes volumes de dados.

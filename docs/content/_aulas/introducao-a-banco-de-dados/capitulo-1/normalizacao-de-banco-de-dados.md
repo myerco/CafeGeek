@@ -33,6 +33,14 @@ A normalização é um processo matemático formal introduzido por E. F. Codd em
 
 ## Anomalias em Tabelas Não Normalizadas
 
+### Tabela de pedidos
+
+| Nº Pedido | Entrega | Cliente | Endereço       | Cidade | UF  | Cod. Prod. | Unid. Prod. | Qtd. Prod. | Descrição Prod. | Valor Unit Prod |
+| --------- | ------- | ------- | -------------- | ------ | --- | ---------- | ----------- | ---------- | --------------- | --------------- |
+| 001       | 05/12   | JOÃO    | RUA DAS FLORES | JARÚ   | RO  | 001        | P           | 10         | MOUSE           | 200             |
+| 001       | 05/12   | JOÃO    | RUA DAS FLORES | JARÚ   | RO  | 002        | P           | 15         | TECLADO         | 500             |
+| 002       | 10/12   | ANA     | RUA X          | JIPA   | RO  | 005        | P           | 100        | MODEM           | 5000            |
+
 Quando uma tabela não está adequadamente estruturada, podem ocorrer três tipos principais de anomalias:
 
 ### Anomalia de Inclusão
@@ -77,22 +85,23 @@ Considere uma tabela PEDIDO com itens repetitivos:
 **Tabela original (não normalizada):**
 
 | Nº Pedido | Cliente | Produto1 | Qtd1 | Produto2 | Qtd2 |
-|-----------|---------|----------|------|----------|------|
+| --------- | ------- | -------- | ---- | -------- | ---- |
 | 001       | João    | Caneta   | 2    | Lápis    | 1    |
 
 **Após 1FN - Duas tabelas:**
 **PEDIDO:**
 
-| Nº Pedido | Cliente |
-|-----------|---------|
-| 001       | João    |
+| Nº Pedido | Cliente | Endereço               | Cidade      | UF  |
+| --------- | ------- | ---------------------- | ----------- | --- |
+| 001       | João    | Av. 7 de Setembro, 456 | Porto Velho | RO  |
+| 002       | Maria   | Av. Rio Madeira, 9812  | Porto Velho | RO  |
 
 **ITEM_PEDIDO:**
 
-| Nº Pedido | Produto | Quantidade |
-|-----------|---------|------------|
-| 001       | Caneta  | 2          |
-| 001       | Lápis   | 1          |
+| Nº Pedido | Produto | Quantidade | Valor Unit. Prod |
+| --------- | ------- | ---------- | ---------------- |
+| 001       | Caneta  | 2          | 5,00             |
+| 001       | Lápis   | 1          | 1,00             |
 
 ## Dependência Funcional
 

@@ -32,14 +32,10 @@ Esse conceito é fundamental para modelar estruturas como árvores genealógicas
 
 Imagine uma tabela `PESSOAS` onde cada pessoa pode ser filha de outra pessoa. O relacionamento "é_filho_de" conecta registros da tabela consigo mesma:
 
-```text
-PESSOAS
-│
-│ TEM
-│ 1 N
-▼
-PESSOAS
-```
+<div class="mermaid">
+erDiagram
+  PESSOAS ||--o{ PESSOAS : "é_filho_de"
+</div>
 
 Na prática, a tabela pode ter um campo `id_pai` que referencia o `id` de outra pessoa na mesma tabela.
 
@@ -51,20 +47,37 @@ Na prática, a tabela pode ter um campo `id_pai` que referencia o `id` de outra 
 
 Assim, Maria e Pedro são filhos de João.
 
----
+#### Exemplo SQL
+
+```sql
+-- Criação da tabela
+CREATE TABLE pessoas (
+  id INT PRIMARY KEY,
+  nome VARCHAR(100),
+  id_pai INT,
+  FOREIGN KEY (id_pai) REFERENCES pessoas(id)
+);
+
+-- Inserção de personagens do Senhor dos Anéis
+INSERT INTO pessoas (id, nome, id_pai) VALUES (1, 'Elrond', NULL);
+INSERT INTO pessoas (id, nome, id_pai) VALUES (2, 'Arwen', 1);
+INSERT INTO pessoas (id, nome, id_pai) VALUES (3, 'Elladan', 1);
+
+-- Consulta para listar todos com seus pais
+SELECT f.nome AS filho, p.nome AS pai
+FROM pessoas f
+LEFT JOIN pessoas p ON f.id_pai = p.id;
+```
 
 ### 2. Muitos para Muitos
 
 Em uma indústria, um produto pode ser composto por vários outros produtos (componentes), e um componente pode participar de vários produtos. Isso é um auto-relacionamento muitos-para-muitos:
 
-```text
-PRODUTO
-│
-│ COMPONENTE
-│ N N
-▼
-PRODUTO
-```
+<div class="mermaid">
+erDiagram
+  PRODUTO ||--o{ COMPONENTE: "N"
+  COMPONENTE ||--o{ PRODUTO: "N"
+</div>
 
 Para modelar isso, usamos uma tabela associativa:
 
@@ -76,7 +89,39 @@ Para modelar isso, usamos uma tabela associativa:
 
 Assim, o produto 1 é composto pelos componentes 2 e 3, e assim por diante.
 
----
+#### Exemplo SQL
+
+```sql
+-- Criação das tabelas
+CREATE TABLE produto (
+  id INT PRIMARY KEY,
+  nome VARCHAR(100)
+);
+
+CREATE TABLE produto_componente (
+  id_produto INT,
+  id_componente INT,
+  PRIMARY KEY (id_produto, id_componente),
+  FOREIGN KEY (id_produto) REFERENCES produto(id),
+  FOREIGN KEY (id_componente) REFERENCES produto(id)
+);
+
+-- Inserção de produtos (personagens do Senhor dos Anéis)
+INSERT INTO produto (id, nome) VALUES (1, 'Anel Único');
+INSERT INTO produto (id, nome) VALUES (2, 'Frodo');
+INSERT INTO produto (id, nome) VALUES (3, 'Sam');
+
+-- Associação de componentes
+INSERT INTO produto_componente (id_produto, id_componente) VALUES (1, 2);
+INSERT INTO produto_componente (id_produto, id_componente) VALUES (1, 3);
+INSERT INTO produto_componente (id_produto, id_componente) VALUES (2, 3);
+
+-- Consulta para listar produtos e seus componentes
+SELECT p.nome AS produto, c.nome AS componente
+FROM produto_componente pc
+JOIN produto p ON pc.id_produto = p.id
+JOIN produto c ON pc.id_componente = c.id;
+```
 
 ## Por que usar auto-relacionamento?
 

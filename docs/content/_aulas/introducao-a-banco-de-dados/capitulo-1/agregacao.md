@@ -36,11 +36,12 @@ Considere um cenário onde "Funcionários" trabalham em "Projetos" usando "Ferra
 
 ### Sem Agregação (Problema)
 
-Funcionário ─── Projeto (Trabalha) ─── Ferramenta (Usa)
-N N │
-│
-Usa
-N N
+<div class="mermaid">
+erDiagram
+  FUNCIONARIO ||--o{ TRABALHA : "N"
+  PROJETO ||--o{ TRABALHA : "N"
+  TRABALHA o{--o{ FERRAMENTA : "N"
+</div>
 
 Isso cria confusão, pois "Usa" relaciona o relacionamento "Trabalha" com Ferramenta.
 
@@ -48,13 +49,13 @@ Isso cria confusão, pois "Usa" relaciona o relacionamento "Trabalha" com Ferram
 
 A agregação trata "Trabalha" como uma entidade agregada:
 
-Funcionário ─── Projeto Ferramenta
-N N │
-Trabalha │
-│ │
-└──────────────┘
-Usa
-1 N
+<div class="mermaid">
+erDiagram
+  FUNCIONARIO ||--o{ TRABALHA : "N"
+  PROJETO ||--o{ TRABALHA : "N"
+  TRABALHA ||--o{ USA : "N"
+  FERRAMENTA ||--o{ USA : "1"
+</div>
 
 Agora, "Trabalha" é uma entidade composta, e "Usa" relaciona essa entidade com Ferramenta.
 
