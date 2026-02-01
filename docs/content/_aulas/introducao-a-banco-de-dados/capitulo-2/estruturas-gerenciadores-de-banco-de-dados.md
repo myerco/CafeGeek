@@ -24,7 +24,7 @@ Um SGBD é um conjunto de dados associados a programas que permitem o acesso e a
 
 ### Estrutura e Processamento
 
-```mermaid
+<div class="mermaid">
 flowchart TD
     subgraph SGBD
         DML["Compilador DML"]
@@ -36,7 +36,7 @@ flowchart TD
     DDL -->|"Definição de Estruturas"| ARMAZENAMENTO
     ARMAZENAMENTO --> DADOS
     DADOS -->|"Metadados, índices, estatísticas"| ARMAZENAMENTO
-```
+</div>
 
 #### Arquitetura do Postgresql
 
