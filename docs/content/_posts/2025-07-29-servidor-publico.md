@@ -9,13 +9,6 @@ As características técnicas e sociais dos servidores públicos federais no Bra
 
 ---
 
-<div class="mermaid">
-graph TD
-    A[Início] --> B{Decisão}
-    B -- Sim --> C[Resultado 1]
-    B -- Não --> D[Resultado 2]
-</div>
-
 ## Características Técnicas (Formais/Legais)
 
 - **Acesso por Concurso Público**  
@@ -82,6 +75,7 @@ Os servidores públicos são "guardas institucionais", essenciais para a continu
 Como destacou Esther Dweck (Ministra da Gestão), a estabilidade do serviço público permite que o Estado atenda demandas sociais "independentemente de quem esteja no comando".
 
 **Exemplos históricos:**
+
 - Durante governos autoritários, servidores técnicos frearam medidas antidemocráticas, protegendo direitos e políticas públicas essenciais.
 - Servidores do INSS impediram retrocessos em direitos previdenciários (2021).
 - Agentes ambientais protegeram dados sobre desmatamento mesmo sob ameaças (2023).
@@ -143,11 +137,13 @@ Como destacou Esther Dweck (Ministra da Gestão), a estabilidade do serviço pú
 ## Como Servidores Podem (e Devem) Agir na Prática
 
 **Na ponta:**
+
 - Priorizar regiões vulneráveis em fiscalizações e investimentos.
 - Simplificar linguagem em atendimentos, evitando exclusão de idosos e pessoas com baixa escolaridade.
 - Denunciar discriminação em programas sociais.
 
 **Na gestão:**
+
 - Criar indicadores de equidade (ex.: medir redução de filas no SUS por raça/classe).
 - Exigir contrapartidas sociais em licitações (ex.: empresas que fornecem merenda devem comprar de agricultores pobres).
 
@@ -191,6 +187,7 @@ O servidor federal brasileiro combina expertise técnica com um contexto social 
 ---
 
 **Referências:**  
+
 - Weber, Fukuyama; Gabriela Lotta (FGV)  
 - Ministra Esther Dweck, STF, BID  
 - Dados do IPEA, MMFDH, CGU (2024-2025)  
