@@ -1,5 +1,5 @@
 ---
-title: Modelagem de Banco de Dados com PostgreSQL: Atividade Prática Passo a Passo
+title: Modelagem de Banco de Dados com PostgreSQL - Atividade Prática Passo a Passo
 excerpt: Aprenda, passo a passo, como iniciar a modelagem de um banco de dados relacional no PostgreSQL a partir de projetos práticos, com orientações para estruturação inicial, escolha de tema e documentação no GitHub. Ideal para quem deseja aplicar conceitos de modelagem em situações reais.
 categories:
   - banco-de-dados
