@@ -63,11 +63,11 @@ Neste projeto vamos implementar os seguintes elementos :
 A cidade de Bree conseguiu se manter prospera próspera no Norte, apesar das guerras e tumultos que destruíram o Reino dos Dúnedain do Norte. Dizem que quando os homens foram para o Ocidente, Bree já estava lá e quando os antigos reis retornaram, encontraram Bree os esperando. Dizem que foi fundada pors homens que não voltaram para Beleriand na Primeira Era, e após a queda do Reino de Cardolan na guerra conta Angmar se tornou uma cidade independente.
 
 {% include image.html
-    src="http://tolkiengateway.net/w/images/thumb/1/16/The_Lord_of_the_Rings_Online_-_Bree_map.gif/180px-The_Lord_of_the_Rings_Online_-_Bree_map.gif"
+    src="https://tolkiengateway.net/w/images/thumb/1/16/The_Lord_of_the_Rings_Online_-_Bree_map.gif/180px-The_Lord_of_the_Rings_Online_-_Bree_map.gif"
     alt="Figura: O mapada da cidade de Bree."
     caption="Figura: Map of Bree in The Lord of Rings Online."
     idref="TOLKIEN GATEWAY, Bree Map"
-    ref="http://tolkiengateway.net/wiki/Bree"
+    ref="https://tolkiengateway.net/wiki/Bree"
 %}
 
 É a única região na Terra-média, onde Homens e Hobbits convivem em harmonia e e um importante centro comercial para elfos e anões, que são bens de comércio ou viagens de um reino para outro. O centro econômico e social é a **Taverna do Pônei Saltitante**, conhecida por ter as melhores bebidas do Norte.
@@ -83,7 +83,7 @@ A cidade de Bree conseguiu se manter prospera próspera no Norte, apesar das gue
 A Taberna do Ponei Saltitante está ampliando o seu atendimento, buscando atender melhor sua variada clientela, Orc´s, Elfos, Hobbits e Humanos, este último com uma preferência estranha por dispositivos. Também se aliou ao Ferreiro da cidade a fim de diversificar os produtos, acrescentando espadas, escudos, elmos e outros.
 
 {% include image.html
-    src="http://tolkiengateway.net/w/images/thumb/2/2b/Alan_Lee_-_The_Inn_at_Bree.jpg/369px-Alan_Lee_-_The_Inn_at_Bree.jpg"
+    src="https://tolkiengateway.net/w/images/thumb/2/2b/Alan_Lee_-_The_Inn_at_Bree.jpg/369px-Alan_Lee_-_The_Inn_at_Bree.jpg"
     alt="Figura: Alan Lee – ilustrador de O Senhor dos Anéis."
     caption="Figura: Alan Lee – ilustrador de O Senhor dos Anéis"
     idref="LEE,Alan"
@@ -120,11 +120,11 @@ Para tal, procura implementar um sistema informatizado para registrar as seguint
 ### 2.4. Necessidades
 
 {% include image.html
-    src="http://tolkiengateway.net/w/images/f/fa/Ted_Nasmith_-_At_the_Sign_of_the_Prancing_Pony.jpg"
+    src="https://tolkiengateway.net/w/images/f/fa/Ted_Nasmith_-_At_the_Sign_of_the_Prancing_Pony.jpg"
     alt="Figura: The Prancing Pony."
     caption="Figura: The Prancing Pony"
     idref="TOLKIENGATEWAY,Wiki The_Prancing_Pony"
-    ref="http://tolkiengateway.net/wiki/The_Prancing_Pony"
+    ref="https://tolkiengateway.net/wiki/The_Prancing_Pony"
 %}
 
 - Quantos clientes estão registrados e quais são suas raças?
@@ -136,16 +136,20 @@ Para tal, procura implementar um sistema informatizado para registrar as seguint
 
 ## 3. O modelo de dados
 
-***
+{% include imagelocal.html
+    src="a-taberna-ponei-saltitante/81fx8sqsO9L._AC_UF894,1000_QL80_.jpg"
+    alt="Figura: Lord of the Rings - The Argonath - Pillars of the Kings Art Print."
+    caption="Figura: Lord of the Rings - The Argonath - Pillars of the Kings Art Print."
+%}
 
 Sob a estrutura do banco de dados está o modelo de dados: um conjunto de ferramentas conceituais usadas para a descrição de dados, relacionamentos entre dados, semântica de dados e regras de consistência.
 
 {% include image.html
-    src="http://tolkiengateway.net/w/images/9/97/Ted_Nasmith_-_The_Pillars_of_the_Kings.jpg"
+    src="https://tolkiengateway.net/w/images/9/97/Ted_Nasmith_-_The_Pillars_of_the_Kings.jpg"
     alt="Figura: The_Pillars_of_the_Kings."
     caption="Figura: The_Pillars_of_the_Kings"
     idref="TOLKIENGATEWAY, Argonath"
-    ref="http://tolkiengateway.net/wiki/Argonath"
+    ref="https://tolkiengateway.net/wiki/Argonath"
 %}
 
 ### 3.1. Existem diversos tipos de modelos de banco de dados, entre eles
@@ -244,7 +248,7 @@ Exemplo:
 Neste capítulo iremos iniciar a analise das necessidades de negócio utilizando o conceito de Regra de Negócio para orientar a análise.
 
 {% include image.html
-    src="http://tolkiengateway.net/w/images/thumb/3/3c/Alan_Lee_-_The_King_under_the_Mountain.jpg/424px-Alan_Lee_-_The_King_under_the_Mountain.jpg"
+    src="https://tolkiengateway.net/w/images/thumb/3/3c/Alan_Lee_-_The_King_under_the_Mountain.jpg/424px-Alan_Lee_-_The_King_under_the_Mountain.jpg"
     alt="Figura: King under the Mountain."
     caption="Figura: King under the Mountain"
     idref="TOLKIENGATEWAY, King Under the Mountain"
