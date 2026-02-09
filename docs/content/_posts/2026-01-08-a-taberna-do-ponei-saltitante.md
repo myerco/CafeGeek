@@ -80,7 +80,7 @@ A cidade de Bree conseguiu se manter prospera próspera no Norte, apesar das gue
     caption="Figura: A Taberna do Pônei Saltitante."
 %}
 
-![image-left](/assets/images/a-taberna-ponei-saltitante/tavern-sign.png){: .align-left} A Taberna do Ponei Saltitante está ampliando o seu atendimento, buscando atender melhor sua variada clientela, Orc´s, Elfos, Hobbits e Humanos, este último com uma preferência estranha por dispositivos. Também se aliou ao Ferreiro da cidade a fim de diversificar os produtos, acrescentando espadas, escudos, elmos e outros.
+![image-left](/assets/images/a-taberna-ponei-saltitante/tavern-sign-150x150.png){: .align-left} A Taberna do Ponei Saltitante está ampliando o seu atendimento, buscando atender melhor sua variada clientela, Orc´s, Elfos, Hobbits e Humanos, este último com uma preferência estranha por dispositivos. Também se aliou ao Ferreiro da cidade a fim de diversificar os produtos, acrescentando espadas, escudos, elmos e outros.
 
 {% include image.html
     src="https://tolkiengateway.net/w/images/thumb/2/2b/Alan_Lee_-_The_Inn_at_Bree.jpg/369px-Alan_Lee_-_The_Inn_at_Bree.jpg"
