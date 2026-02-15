@@ -20,39 +20,34 @@ Um sistema distribuído é qualquer sistema de múltiplas localidades conectadas
 Consiste em múltiplas localidades conectadas por redes, onde o usuário pode acessar dados de qualquer site.
 
 <div class="mermaid">
-flowchart TD
-    A[Terminal 1] --> B[CPU 1]
-    A1[Terminal 2] --> B[CPU 1]
-    B --> C[BD 1]
-    C@{ shape: lin-cyl, label: "Database" }
+architecture-beta
+    group porto_velho(cloud)[Porto Velho]
+    group brasilia(cloud)[Brasilia]
 
-    D[Terminal 2] --> E[CPU 2]
-    D1[Terminal 3] --> E[CPU 2]    
-    E --> G[BD 2]
-    G@{ shape: lin-cyl, label: "Database" }
+    %% Componentes em Porto Velho
+    service t1(internet)[Terminal 1] in porto_velho
+    service t2(internet)[Terminal 2] in porto_velho
+    service cpu1(server)[Servidor 1] in porto_velho
+    service bd1(database)[Banco de Dados 1] in porto_velho
 
-    subgraph "Porto Velho"
-        A
-        A1
-        B
-        C
-    end
+    %% Componentes em Brasília
+    service t3(internet)[Terminal 3] in brasilia
+    service t4(internet)[Terminal 4] in brasilia
+    service cpu2(server)[Servidor 2] in brasilia
+    service bd2(database)[Banco de Dados 2] in brasilia
 
-    subgraph "Brasília"
-        D
-        D1  
-        E
-        G
-    end
+    %% Conexões Porto Velho
+    t2:B --> T:cpu1
+    t1:R --> L:cpu1
+    cpu1:B <-- T:bd1
 
-    B <-->E
+    %% Conexões Brasília
+    t3:B --> T:cpu2
+    t4:L --> R:cpu2
+    cpu2:B <-- T:bd2
 
-    style A fill:#e1f5fe
-    style D fill:#e1f5fe
-    style G fill:#e1f5fe
-    style B fill:#f3e5f5
-    style E fill:#f3e5f5
-    style C fill:#e8f5e8
+    %% Interconexão entre CPUs
+    cpu1:R <--> L:cpu2
 </div>
 
 ## Armazenamento
@@ -67,43 +62,34 @@ flowchart TD
 {: .notice}
 
 <div class="mermaid">
-flowchart LR
-    subgraph "Estrutura das Tabelas"
-        direction LR
-        subgraph T1[Tabela 1]
-            direction TB
-            A1[A]
-            B1[B]
-            C1[C]
-        end
+architecture-beta
+    group porto_velho(cloud)[Porto Velho]
+    group brasilia(cloud)[Brasilia]
 
-        subgraph T2[Tabela 2]
-            direction TB
-            A2[A]
-            B2[B]
-            C2[C]
-        end
-        
-        subgraph T3[Tabela 3]
-            direction TB
-            A3[A]
-            B3[B]
-            C3[C]
-        end
-    end
+    %% Componentes em Porto Velho
+    service t1(internet)[Terminal 1] in porto_velho
+    service t2(internet)[Terminal 2] in porto_velho
+    service cpu1(server)[Servidor 1] in porto_velho
+    service bd1(database)[Banco de Dados 1] in porto_velho
 
-    T1 --> T2
-    T1 --> T3
-    
-    style A1 fill:#e3f2fd
-    style B1 fill:#f3e5f5
-    style C1 fill:#e8f5e8
-    style A2 fill:#e3f2fd
-    style B2 fill:#f3e5f5
-    style C2 fill:#e8f5e8
-    style A3 fill:#e3f2fd
-    style B3 fill:#f3e5f5
-    style C3 fill:#e8f5e8
+    %% Componentes em Brasília
+    service t3(internet)[Terminal 3] in brasilia
+    service t4(internet)[Terminal 4] in brasilia
+    service cpu2(server)[Servidor 2] in brasilia
+    service bd2(database)[Banco de Dados 2] in brasilia
+
+    %% Conexões Porto Velho
+    t2:B --> T:cpu1
+    t1:R --> L:cpu1
+    cpu1:B <-- T:bd1
+
+    %% Conexões Brasília
+    t3:B --> T:cpu2
+    t4:L --> R:cpu2
+    cpu2:B <-- T:bd2
+
+    %% Interconexão entre CPUs
+    cpu1:R <--> L:cpu2
 </div>
 
 #### Vantagens e desvantagens
