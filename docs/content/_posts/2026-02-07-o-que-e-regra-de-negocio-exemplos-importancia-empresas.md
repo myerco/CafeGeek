@@ -7,11 +7,6 @@ tags:
   - regra de negócio
   - exemplos de regra de negócio
   - banco de dados
-header:
-  video:
-    id: -PVofD2A9t8
-    provider: youtube
- 
 ---
 
 ## O que é uma Regra de Negócio?
