@@ -26,7 +26,7 @@ Escolha um dos temas abaixo para seu projeto:
 
 Faça uma breve descrição do projeto escolhido, sem entrar em detalhes de regras de negócio. Foque apenas no objetivo geral e no público-alvo.
 
-## Regras da atividade
+### Regras da atividade do passo 1
 
 Siga o passo a passo abaixo para implementar e apresentar seu projeto:
 
@@ -42,3 +42,56 @@ Siga o passo a passo abaixo para implementar e apresentar seu projeto:
 
 **Observação:** Os detalhes das regras de negócio e requisitos avançados serão definidos e implementados no passo 2 da atividade.
 {: .notice}
+
+## Passo 2 - Detalhamento do projeto
+
+No passo 2, você irá aprofundar o projeto escolhido no passo 1, detalhando as regras de negócio, requisitos e principais entidades envolvidas. Abaixo, veja exemplos de detalhamento para cada tema sugerido:
+
+### Aplicativo para empresa de aluguel de carros para motoristas de aplicativos
+
+- Os atendes podem ser clientes
+- Registro de veículos : placa, marca, modelo, tipo (moto, caminhão, carro de passeio)
+- Os clientes são registrados com os seguintes dados: CPG, Nome, Sobrenome, Endereço, Dados bancários e e-mail
+- Os contratos tem os seguintes dados: Tipo de pagamento (Cartão, Pix), Número do contrato, data, cliente, veículo e período de contrato
+
+### Aplicativo para clínica veterinária (tratamento de animais domésticos e venda de produtos)
+
+- Os atendes podem ser clientes
+- Registro de animais: nome, classe, sexo, data nascimento
+- Atendimentos : data, atendende, cliente, animal, veterinario, texto da consulta, produtos e serviços com valores de vendas
+- Registro de produtos : tipo, marca, descrição, valor de compra
+- Registro de veterinários: cpf, nome, especialidade
+
+### Aplicativo para empresa de registro de atendimento (controle de filas, registro de atendentes e pessoas atendidas)
+
+- Registro de atendentes;
+- Registro de clientes (clientes pode ser clientes)
+- Registro de filas de atendimento e seus atendentes
+- Registro de atendimento : data e hora, fila, atendente, cliente
+
+### Aplicativo para rede social de divulgação, venda e troca de roupas (organização de guarda-roupa, combinação de roupas, registro de reações e negociações)
+
+- Registro de usuarios: email, nome, sobrenome
+- Registro de roupas : tipo, descrição, cor e tamanho
+- Registro de modelos: descrição, roupa (1...99)
+- Registro de combinações : data e modelo
+- Registro de interações com outros usuários: comentários, compartilhamentos e ações (visualização, gostei, não gostei)
+
+### Regras da atividade do passo 2
+
+Siga o passo a passo abaixo para implementar e apresentar seu projeto:
+
+1. Conecte com o banco de dados Postegresql no link  [https://comp-pga.qute.com.br/login?next=/](https://comp-pga.qute.com.br/login?next=/)
+2. Usuário de conexão: u001
+3. Senha: `fale com o orientador em sala de aula`
+
+## Referências
+
+- [Mermaid Live](https://mermaid.live/)
+- [Mermaid Tutorials](https://mermaid.js.org/ecosystem/tutorials.html)
+- [Mermaid Entity Relationships Diagrams  - ER](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
+- [Github](https://github.com/)
+
+{% include video id="TsaLQAetPLU" provider="youtube" %}
+
+{% include video id="C9S7Ycx546c" provider="youtube" %}
