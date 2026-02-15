@@ -91,7 +91,3 @@ Siga o passo a passo abaixo para implementar e apresentar seu projeto:
 - [Mermaid Tutorials](https://mermaid.js.org/ecosystem/tutorials.html)
 - [Mermaid Entity Relationships Diagrams  - ER](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
 - [Github](https://github.com/)
-
-{% include video id="TsaLQAetPLU" provider="youtube" %}
-
-{% include video id="C9S7Ycx546c" provider="youtube" %}

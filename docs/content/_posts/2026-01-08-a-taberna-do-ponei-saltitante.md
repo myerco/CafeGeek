@@ -81,14 +81,6 @@ Neste projeto vamos implementar os seguintes elementos :
 
 ![image-left](/assets/images/a-taberna-ponei-saltitante/tavern-sign-150x150.png){: .align-left} A Taberna do Ponei Saltitante está ampliando o seu atendimento, buscando atender melhor sua variada clientela, Orc´s, Elfos, Hobbits e Humanos, este último com uma preferência estranha por dispositivos. Também se aliou ao Ferreiro da cidade a fim de diversificar os produtos, acrescentando espadas, escudos, elmos e outros.
 
-{% include image.html
-    src="https://tolkiengateway.net/w/images/thumb/2/2b/Alan_Lee_-_The_Inn_at_Bree.jpg/369px-Alan_Lee_-_The_Inn_at_Bree.jpg"
-    alt="Figura: Alan Lee – ilustrador de O Senhor dos Anéis."
-    caption="Figura: Alan Lee – ilustrador de O Senhor dos Anéis"
-    idref="LEE,Alan"
-    ref="https://caldeiraopop.wordpress.com/2017/02/18/alan-lee-ilustrador-de-o-senhor-dos-aneis/"
-%}
-
 Para tal, procura implementar um sistema informatizado para registrar as seguintes informações:
 
 - Pedidos dos clientes;
@@ -118,14 +110,6 @@ Para tal, procura implementar um sistema informatizado para registrar as seguint
 
 ### 2.4. Necessidades
 
-{% include image.html
-    src="https://tolkiengateway.net/w/images/f/fa/Ted_Nasmith_-_At_the_Sign_of_the_Prancing_Pony.jpg"
-    alt="Figura: The Prancing Pony."
-    caption="Figura: The Prancing Pony"
-    idref="TOLKIENGATEWAY,Wiki The_Prancing_Pony"
-    ref="https://tolkiengateway.net/wiki/The_Prancing_Pony"
-%}
-
 - Quantos clientes estão registrados e quais são suas raças?
 - Quantos clientes por classe estão registrados?
 - Qual o valor total das vendas para os clientes da classe Padrão?
@@ -142,14 +126,6 @@ Para tal, procura implementar um sistema informatizado para registrar as seguint
 %}
 
 ![image-left](/assets/images/a-taberna-ponei-saltitante/ionic-column.png){: .align-left} Sob a estrutura do banco de dados está o modelo de dados: um conjunto de ferramentas conceituais usadas para a descrição de dados, relacionamentos entre dados, semântica de dados e regras de consistência.
-
-{% include image.html
-    src="https://tolkiengateway.net/w/images/9/97/Ted_Nasmith_-_The_Pillars_of_the_Kings.jpg"
-    alt="Figura: The_Pillars_of_the_Kings."
-    caption="Figura: The_Pillars_of_the_Kings"
-    idref="TOLKIENGATEWAY, Argonath"
-    ref="https://tolkiengateway.net/wiki/Argonath"
-%}
 
 ### 3.1. Existem diversos tipos de modelos de banco de dados, entre eles
 
@@ -200,7 +176,6 @@ erDiagram
     CLIENTE ||--|| ESPECIAL : "tipo"
     CLIENTE ||--|| CLASSE_A : "tipo"
 
-    
 </div>
 
 ### 3.4. Modelo Físico
@@ -349,8 +324,6 @@ Exemplo:
 | 2          | 698.474.456-78 | Arwen de Valfenda     | P    | Valfenda | arwenvalfenda@gmail.com                        | F       | 13        |
 
 ## 4. Criando o modelo de dados
-
-***
 
 Neste capítulo iremos iniciar a analise das necessidades de negócio utilizando o conceito de Regra de Negócio para orientar a análise.
 
