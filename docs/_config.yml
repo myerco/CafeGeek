@@ -326,7 +326,8 @@ defaults:
       comments: # true
       share: true
       related: true
-      toc: true        
+      toc: true    
+      toc_sticky: true    
   # _pages
   - scope:
       path: "_pages"
@@ -397,7 +398,8 @@ defaults:
       type: "aulas"
     values:
       layout: "curso"
-      toc: true      
+      toc: true   
+      toc_sticky: true   
       show_date: true
       sort_by: order      
 
