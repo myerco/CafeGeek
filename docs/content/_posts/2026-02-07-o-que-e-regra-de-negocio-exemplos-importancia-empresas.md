@@ -7,6 +7,7 @@ tags:
   - regra de negócio
   - exemplos de regra de negócio
   - banco de dados
+image:  /assets/images/mm-free-feature.png
 ---
 
 ## O que é uma Regra de Negócio?
