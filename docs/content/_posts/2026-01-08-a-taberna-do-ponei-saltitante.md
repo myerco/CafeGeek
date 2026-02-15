@@ -62,14 +62,13 @@ Neste projeto vamos implementar os seguintes elementos :
 
 ![image-left](/assets/images/a-taberna-ponei-saltitante/treasure-map.png){: .align-left} A cidade de Bree conseguiu se manter prospera próspera no Norte, apesar das guerras e tumultos que destruíram o Reino dos Dúnedain do Norte. Dizem que quando os homens foram para o Ocidente, Bree já estava lá e quando os antigos reis retornaram, encontraram Bree os esperando. Dizem que foi fundada pors homens que não voltaram para Beleriand na Primeira Era, e após a queda do Reino de Cardolan na guerra conta Angmar se tornou uma cidade independente.
 
-{% include image.html
-    src="https://tolkiengateway.net/w/images/thumb/1/16/The_Lord_of_the_Rings_Online_-_Bree_map.gif/180px-The_Lord_of_the_Rings_Online_-_Bree_map.gif"
-    alt="Figura: O mapada da cidade de Bree."
-    caption="Figura: Map of Bree in The Lord of Rings Online."
-    idref="TOLKIEN GATEWAY, Bree Map"
-    ref="https://tolkiengateway.net/wiki/Bree"
+{% include imagelocal.html
+    src="a-taberna-ponei-saltitante/Map_of_Bree_-_LOTRO.webp"
+    alt="Figura: Mapa da cidade de Bree."
+    caption="Figura: Mapa da cidade de Bree."
+    idref="TOLKIEN GATEWAY, Bree"
+    ref="https://lotr.fandom.com/wiki/Bree"
 %}
-
 É a única região na Terra-média, onde Homens e Hobbits convivem em harmonia e e um importante centro comercial para elfos e anões, que são bens de comércio ou viagens de um reino para outro. O centro econômico e social é a **Taverna do Pônei Saltitante**, conhecida por ter as melhores bebidas do Norte.
 
 ### 2.2. Taverna do Pônei Saltitante e o projeto
@@ -184,11 +183,25 @@ Tem o objetivo de facilmente ser interpretado por todos os usuários, utilizando
 
 Exemplo:
 
-{% include image.html
-    src="https://1.bp.blogspot.com/-su8B-5NlNq8/WhzflZ1dmnI/AAAAAAAANcc/NB8CnwX7xFMzzMuXhFCKlfvKwTz5dQ8xgCLcBGAs/s320/Logical.png"
-    alt="Figura: Modelo lógico."
-    caption="Figura: Modelo lógico."
-%}
+<div class="mermaid">
+erDiagram
+    CATEGORIA ||--o{ PRODUTO : possui
+    PRODUTO }o--o{ NOTA : contém
+    PRODUTO }o--o{ PEDIDO : contém
+    FUNCIONARIO ||--o{ NOTA : emite
+    CARGO ||--o{ FUNCIONARIO : "atribuído a"
+    CARGO ||--o{ CARGO : "hierarquia/subordinação"
+    CLIENTE ||--o{ NOTA : realiza
+    CLIENTE ||--o{ PEDIDO : faz
+    CIDADE ||--o{ CLIENTE : "mora em"
+    SEXO ||--o{ CLIENTE : define
+    %% Especializações do Cliente
+    CLIENTE ||--|| PADRAO : "tipo"
+    CLIENTE ||--|| ESPECIAL : "tipo"
+    CLIENTE ||--|| CLASSE_A : "tipo"
+
+    
+</div>
 
 ### 3.4. Modelo Físico
 
@@ -201,11 +214,105 @@ Estende detalhes do modelo de lógico e tem as seguintes características:
 
 Exemplo:
 
-{% include image.html
-    src="https://2.bp.blogspot.com/-4WkXSYf00_s/WiCd-gdpBrI/AAAAAAAANdo/54VhOg6_iWU1enoF9rKl4shhVCT0_nAmwCPcBGAYYCw/s320/Relacional.pngs"
-    alt="Figura: Modelo físico."
-    caption="Figura: Modelo físico."
-%}
+<div class="mermaid">
+erDiagram
+    CATEGORIA ||--o{ PRODUTO : possui
+    PRODUTO }o--o{ NOTA : contém
+    PRODUTO }o--o{ PEDIDO : contém
+
+    FUNCIONARIO ||--o{ NOTA : emite
+    CARGO ||--o{ FUNCIONARIO : "atribuído a"
+    CARGO ||--o{ CARGO : "hierarquia/subordinação"
+    
+    CLIENTE ||--o{ NOTA : realiza
+    CLIENTE ||--o{ PEDIDO : faz
+    CIDADE ||--o{ CLIENTE : "mora em"
+    SEXO ||--o{ CLIENTE : define
+    
+    %% Especializações do Cliente
+    CLIENTE ||--|| PADRAO : "tipo"
+    CLIENTE ||--|| ESPECIAL : "tipo"
+    CLIENTE ||--|| CLASSE_A : "tipo"
+
+    CATEGORIA {
+        int ID PK
+        string DESCRICAO
+    }
+
+    PRODUTO {
+        int ID PK
+        string DESCRICAO
+        float VALOR
+    }
+
+    FUNCIONARIO {
+        int ID PK
+        string MATRICULA
+        string NOME
+        float SALARIO
+    }
+
+    CARGO {
+        int ID PK
+        string DESCRICAO
+        float VALOR
+    }
+
+    NOTA {
+        int ID PK
+        date DATA
+        float VALOR_TOTAL
+        string NUMERO
+        string SERIE
+        string CHAVE
+    }
+
+    PEDIDO {
+        int ID PK
+        date DATA
+    }
+
+    CLIENTE {
+        int ID PK
+        string CPF
+        string NOME
+        string TIPO
+        string ENDERECO
+        string EMAIL
+    }
+
+    CIDADE {
+        int ID PK
+        string DESCRICAO
+        string UF
+    }
+
+    SEXO {
+        int ID PK
+        string DESCRICAO
+    }
+
+    PADRAO {
+        int ID PK
+        string CPF
+        string NOME
+        char SEXO
+    }
+
+    ESPECIAL {
+        int ID PK
+        string CPF
+        string NOME
+        char SEXO
+    }
+
+    CLASSE_A {
+        int ID PK
+        string CPF
+        string NOME
+        char SEXO
+    }
+</div>
 
 ### 3.5. Comparando os modelos
 
