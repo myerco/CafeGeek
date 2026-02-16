@@ -218,55 +218,53 @@ introducao-a-banco-de-dados:
   - title: MODELO DE DADOS
     children:
       - title: Modelos de Dados
-        url: /curso/banco-de-dados/capitulo-1/modelo-de-dados/
+        url: /curso/banco-de-dados/modelo-de-dados/modelo-de-dados/
       - title: Modelo de Entidade e Relacionamento
-        url: /curso/banco-de-dados/capitulo-1/modelo-de-entidade-e-relacionamento/
-  - title: Restrições de Integridade
-    children:
+        url: /curso/banco-de-dados/modelo-de-dados/modelo-de-entidade-e-relacionamento/
       - title: Restrições de Integridade
-        url: /curso/banco-de-dados/capitulo-1/restricoes-de-integridade/ 
+        url: /curso/banco-de-dados/modelo-de-dados/restricoes-de-integridade/ 
       - title: Atributo Chave Primaria
-        url: /curso/banco-de-dados/capitulo-1/atributo-chave-primaria/
+        url: /curso/banco-de-dados/modelo-de-dados/atributo-chave-primaria/
       - title: Chave Estrangeira
-        url: /curso/banco-de-dados/capitulo-1/chave-estrangeira/
+        url: /curso/banco-de-dados/modelo-de-dados/chave-estrangeira/
       - title: Integridade Referencial e Cardinalidade
-        url: /curso/banco-de-dados/capitulo-1/integridade-referencial-e-cardinalidade/
+        url: /curso/banco-de-dados/modelo-de-dados/integridade-referencial-e-cardinalidade/
       - title: Dependência de Existência
-        url: /curso/banco-de-dados/capitulo-1/dependencia-de-existencia/
+        url: /curso/banco-de-dados/modelo-de-dados/dependencia-de-existencia/
   - title: RELACIONAMENTOS AVANÇADOS
     children:
       - title: Agregação
-        url: /curso/banco-de-dados/capitulo-1/agregacao/
+        url: /curso/banco-de-dados/relacionamentos-avancados/agregacao/
       - title: Auto-Relacionamento
-        url: /curso/banco-de-dados/capitulo-1/auto-relacionamento/
+        url: /curso/banco-de-dados/relacionamentos-avancados/auto-relacionamento/
       - title: Especialização e Generalização
-        url: /curso/banco-de-dados/capitulo-1/especializacao-e-generalizacao/        
+        url: /curso/banco-de-dados/relacionamentos-avancados/especializacao-e-generalizacao/        
   - title: NORMALIZAÇÃO
     children:        
       - title: Normalização de Banco de Dados
-        url: /curso/banco-de-dados/capitulo-1/normalizacao-de-banco-de-dados/         
+        url: /curso/banco-de-dados/normalizacao/normalizacao-de-banco-de-dados/         
   - title: SQL - LINGUAGEM DE MANIPULAÇÃO DE DADOS 
     children:                
       - title: SQL - linguagem estruturada de consulta 
-        url: /curso/banco-de-dados/capitulo-1/sql-linguagem-estruturada-de-consulta/    
+        url: /curso/banco-de-dados/sql-linguagem-estruturada-de-consulta/sql-linguagem-estruturada-de-consulta/    
   - title: ESTRUTURAS 
     children:                
       - title: Estruturas de Gerenciadores de Banco de Dados 
-        url: /curso/banco-de-dados/capitulo-2/estruturas-gerenciadores-de-banco-de-dados
+        url: /curso/banco-de-dados/estruturas/estruturas-gerenciadores-de-banco-de-dados
       - title: Visões e restricoes de acesso  
-        url: /curso/banco-de-dados/capitulo-2/visoes-e-restricoes-de-acesso
+        url: /curso/banco-de-dados/estruturas/visoes-e-restricoes-de-acesso
       - title: Programação de Banco de Dados
-        url: /curso/banco-de-dados/capitulo-2/programacao-de-banco-de-dados        
+        url: /curso/banco-de-dados/estruturas/programacao-de-banco-de-dados        
       - title: Gatilhos (Triggers)
-        url: /curso/banco-de-dados/capitulo-2/gatilhos-triggers/        
+        url: /curso/banco-de-dados/estruturas/gatilhos-triggers/        
       - title: Processamento e otimização de consultas
-        url: /curso/banco-de-dados/capitulo-2/processamento-e-otimizacao-de-consultas/
+        url: /curso/banco-de-dados/estruturas/processamento-e-otimizacao-de-consultas/
       - title: Controle de transações 
-        url: /curso/banco-de-dados/capitulo-2/controle-de-transacoes/        
+        url: /curso/banco-de-dados/estruturas/controle-de-transacoes/        
       - title: Controle de concorrência   
-        url: /curso/banco-de-dados/capitulo-2/controle-de-concorrencia/                
+        url: /curso/banco-de-dados/estruturas/controle-de-concorrencia/                
       - title: Banco de Dados Distribuídos
-        url: /curso/banco-de-dados/capitulo-2/banco-de-dados-distribuidos/                        
+        url: /curso/banco-de-dados/estruturas/banco-de-dados-distribuidos/                        
 
 
 
