@@ -1,5 +1,5 @@
 ---
-title: estruturas-gerenciadores-de-banco-de-dados
+title: Estruturas de Gerenciadores de Banco de Dados
 excerpt: "Funções, estrutura e processamento dos SGBDs."
 categories:
   - "banco-de-dados"

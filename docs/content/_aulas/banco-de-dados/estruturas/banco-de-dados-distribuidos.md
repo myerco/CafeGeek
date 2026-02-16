@@ -1,5 +1,5 @@
 ---
-title: banco-de-dados-distribuidos
+title: Banco de Dados Distribuídos
 excerpt: "Banco de dados distribuídos: replicação, fragmentação, vantagens e desafios."
 categories:
   - "banco-de-dados"

@@ -1,5 +1,5 @@
 ---
-title: gatilhos-triggers
+title: Gatilhos Triggers
 excerpt: "Gatilhos (triggers): definição, requisitos, vantagens e sintaxe."
 categories:
   - "banco-de-dados"
@@ -19,6 +19,24 @@ Um gatilho é um comando executado automaticamente pelo sistema como consequênc
 - **Requisitos:** Deve-se especificar as condições de execução e as ações a serem tomadas.
 - **Vantagens:** Prevenção de transações inválidas, auditoria sofisticada, sincronismo de tabelas replicadas e geração de colunas derivadas.
 - **Sintaxe:** Define-se o momento (`BEFORE` ou `AFTER`), o comando e se a execução é para cada linha (`FOR EACH ROW`).
+
+<div class="mermaid">
+graph TD
+    A[Aplicação/Usuário] -->|Executa SQL: INSERT, UPDATE, DELETE| B{Evento de Tabela}
+    B -->|Trigger disparada| C[Verifica Momento: BEFORE / AFTER / INSTEAD OF]
+
+    subgraph Lógica no Postgres
+    C --> D[Chamada da Trigger Function]
+    D --> E[[Código PL/pgSQL: Validação, Logs, Cálculos]]
+    E --> F{Resultado da Lógica}
+    end
+    
+    F -->|Sucesso| G[Confirma Operação no Disco - Commit]
+    F -->|Erro/Raise Exception| H[Aborta Operação - Rollback]
+    
+    G --> I[Retorno para o Usuário]
+    H --> I
+</div>
 
 ## Caraterísticas
 

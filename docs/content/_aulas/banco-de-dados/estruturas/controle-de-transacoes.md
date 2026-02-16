@@ -1,5 +1,5 @@
 ---
-title: controle-de-transacoes
+title: Controle de Transações
 excerpt: "Controle de transações e propriedades ACID."
 categories:
   - "banco-de-dados"

@@ -1,5 +1,5 @@
 ---
-title: programacao-de-banco-de-dados-plsql
+title: Programação de Banco de Dados
 excerpt: "PL/SQL, procedures, functions e vantagens da programação procedural."
 categories:
   - "banco-de-dados"
@@ -18,6 +18,35 @@ sidebar:
 - Procedures e Functions são exemplos do PL/SQL.
 - Uma Procedure ou Function é um esquema de objetos que logicamente agrupam um conjunto de comandos SQL e outros comandos PL/SQL.
 - São armazenados dentro do banco de dados.
+
+<div class="mermaid">
+sequenceDiagram
+    participant C as Cliente (Aplicação/User)
+    box "Servidor PostgreSQL" #f9f9f9
+    participant S as Motor do Banco de Dados
+    participant P as Stored Procedure (PL/pgSQL)
+    participant D as Tabelas (Dados)
+    end
+
+    Note over C, D: Fluxo de Execução Cliente-Servidor
+
+    C->>S: CALL nome_procedure(parametros)
+    Note right of C: Envia apenas o comando de chamada
+
+    S->>P: Invoca a lógica armazenada
+    
+    rect rgb(240, 240, 240)
+        Note right of P: Processamento interno no Servidor
+        P->>D: Executa Consultas (SELECT/INSERT/UPDATE)
+        D-->>P: Retorna resultados intermediários
+        P->>P: Aplica lógica de programação (IF, LOOP, etc)
+    end
+
+    P-->>S: Finaliza execução/Retorna valores
+    S-->>C: Resposta final (Status ou Outliers)
+    
+    Note over C, S: Menor tráfego de rede: Lógica roda próxima ao dado
+</div>
 
 O Oracle utiliza a linguagem procedural **PL/SQL** para agrupar comandos SQL e lógica de programação.
 

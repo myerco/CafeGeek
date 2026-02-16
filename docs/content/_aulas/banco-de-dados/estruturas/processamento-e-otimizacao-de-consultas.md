@@ -1,5 +1,5 @@
 ---
-title: processamento-e-otimizacao-de-consultas
+title: Processamento e Otimização de Consultas
 excerpt: "Processamento e otimização de consultas em bancos de dados."
 categories:
   - "banco-de-dados"
@@ -24,6 +24,39 @@ Envolve as atividades de extrair dados e traduzir consultas de alto nível para 
 
 - Execução de Joins: o otimizador decide o caminho de acesso (varredura total ou índice), o método de união (Nested loop, Sort merge ou Hash joins) e a ordem de execução.
 - Fases no Oracle: Parse (verificação e busca no dicionário), Execute (aplicação física) e Fetch (retorno dos dados).
+
+<div class="mermaid">
+graph TD
+    Start([Consulta SQL]) --> Parse{Fase: Parse}
+
+    subgraph "Processamento Lógico"
+    Parse --> Sintaxe[Análise Sintática e Semântica]
+    Sintaxe --> Algebra[Tradução para Álgebra Relacional]
+    end
+
+    subgraph "Otimização (O Cérebro)"
+    Algebra --> Opt[Otimizador de Consultas]
+    Opt --> Stats[Consulta a Estatísticas e Índices]
+    Stats --> Plans[Geração de Planos de Execução]
+    Plans --> BestPlan{Seleção do Melhor Plano}
+    end
+
+    subgraph "Fase: Execute"
+    BestPlan --> Eval[Avaliação de Custo: CPU, IO, RAM]
+    Eval --> Joins[Execução de Joins & Acesso]
+    Joins --> Method{Definição de Método}
+    Method --> |Nested Loop / Hash / Merge| Phys[Aplicação Física dos Dados]
+    end
+
+    subgraph "Fase: Fetch"
+    Phys --> Return[Retorno dos Resultados ao Usuário]
+    end
+
+    Return --> End([Fim])
+
+    style Opt fill:#f9f,stroke:#333,stroke-width:2px
+    style BestPlan fill:#bbf,stroke:#333
+</div>
 
 ## Análise sintática
 

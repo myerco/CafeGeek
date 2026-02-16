@@ -1,5 +1,5 @@
 ---
-title: controle-de-concorrencia
+title: Controle de Concorrência
 excerpt: "Controle de concorrência, bloqueios e deadlock."
 categories:
   - "banco-de-dados"

@@ -1,5 +1,5 @@
 ---
-title: restricoes-de-integridade
+title: Restricoes de Integridade
 excerpt: "Regras de integridade e exemplos de domínio e referencial."
 categories:
   - "banco-de-dados"
