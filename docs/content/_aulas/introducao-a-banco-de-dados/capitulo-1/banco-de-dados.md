@@ -1,13 +1,13 @@
 ---
-title: BANCO DE DADOS
+title: Banco de Dados
 excerpt: "Tipos, estruturas e exemplos de bancos de dados: relacional, NoSQL, grafos e textuais."
 categories:
-  - "introducao-a-banco-de-dados"
-  - "capitulo-1"
+  - "Banco de Dados"
 date: 2026-01-22T08:48:05-04:00
 order: 7
 tags:
-  - banco-de-dados
+  - "Banco de Dados"
+  - "Conceitos Fundamentais"
 sidebar:
   nav: introducao-a-banco-de-dados
 ---

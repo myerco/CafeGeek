@@ -2,12 +2,12 @@
 title: Abstração de Dados
 excerpt: "Entenda os níveis de abstração em sistemas de banco de dados: físico, lógico e de visão, essenciais para o design e uso eficiente de dados."
 categories:
-  - "introducao-a-banco-de-dados"
-  - "capitulo-1"
+  - "Banco de Dados"
 date: 2026-01-22T08:48:05-04:00
 order: 1
 tags:
-  - banco-de-dados
+  - "Banco de Dados"
+  - "Conceitos Fundamentais"
 sidebar:
   nav: introducao-a-banco-de-dados
 ---

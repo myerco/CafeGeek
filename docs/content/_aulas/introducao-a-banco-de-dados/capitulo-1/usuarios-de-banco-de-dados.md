@@ -2,12 +2,11 @@
 title: Usuários de Banco de Dados
 excerpt: "Explore os diferentes tipos de usuários de bancos de dados, incluindo DBA e perfis de acesso."
 categories:
-  - "introducao-a-banco-de-dados"
-  - "capitulo-1"
+  - "Banco de Dados"
 date: 2026-01-22T08:48:05-04:00
 order: 21
-tags:
-  - banco-de-dados
+  - "Banco de Dados"
+  - "Conceitos Fundamentais"
 sidebar:
   nav: introducao-a-banco-de-dados
 ---

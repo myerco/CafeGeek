@@ -1,15 +1,13 @@
 ---
-title: DADOS, INFORMAÇÃO E CONHECIMENTO
+title: Dados, Informação e Conhecimento
 excerpt: "Hierarquia fundamental para sistemas de informação e bancos de dados."
 categories:
-    - "introducao-a-banco-de-dados"
-    - "capitulo-1"
+  - "Banco de Dados"
 date: 2026-01-23T00:00:00-04:00
 order: 1
 tags:
-    - dados
-    - informacao
-    - conhecimento
+  - "Banco de Dados"
+  - "Conceitos Fundamentais"
 sidebar:
     nav: introducao-a-banco-de-dados
 ---
