@@ -2,10 +2,10 @@
 title: "Inteligência Artificial e Educação"
 excerpt: TECHCONNECT RONDÔNIA 2024 - Atitude Sustentável.
 categories:
-  - "Mundo Digital"
+   - Tecnologia
+   - IA
 tags:
-  - "Apresentação"
-  - "Inteligência Artificial"
+  - "IA"
   - "Educação"
 ---
 
