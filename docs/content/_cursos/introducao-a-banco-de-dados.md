@@ -7,6 +7,11 @@ image: /assets/images/cafegeek_roteirizacao.jpg
 show_date: true
 sidebar:
   nav: introducao-a-banco-de-dados
+categories:
+  - "Banco de Dados"
+tags:
+  - "Banco de Dados"
+  - "Curso"  
 ---
 
 Se você quer entender como os dados são organizados, consultados e protegidos — e, de quebra, executar consultas reais com SQL — você está no lugar certo. Este curso é uma jornada prática pelos bastidores dos sistemas que guardam informações do mundo digital.

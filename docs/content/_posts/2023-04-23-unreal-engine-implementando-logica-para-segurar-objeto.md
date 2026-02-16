@@ -1,10 +1,10 @@
 ---
 title: "Implementando a lógica para segurar um objeto com Unreal Engine"
 categories:
-  - unreal-engine
+  - "Unreal Engine"
 tags:
-  - lógica
-  - blueprint
+  - "Tutorial"
+  - "Blueprint"
 ---
 
 Em alguns jogos o personagem pode realizar uma série de interações com os objetos na cena, como por exemplo segurar, arremessar, guardar ou simplesmente retornar o objeto para o lugar onde estava.

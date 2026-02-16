@@ -2,10 +2,10 @@
 title: "Transformação digital e a evolução do trabalho"
 excerpt: Congresso Rondoniense de Gestão de Pessoas 2023.
 categories:
-  - mundo-digital
+  - "Mundo Digital"
 tags:
-  - Apresentação
-  - Transformação digital
+  - "Apresentação"
+  - "Transformação digital"
 ---
 
 {% include figure image_path="/assets/images/posts/congresso-rondoniense-de-gestao-de-pessoas-2023.webp" alt="Congresso Rondoniense de Gestão de Pessoas 2023." %}

@@ -2,11 +2,10 @@
 title: A Taberna do ponei saltitante
 excerpt: Modelo de dados da taberna
 categories:
-  - banco-de-dados
+  - "Banco de Dados"
 tags:
-  - regra de negócio
-  - exemplos de regra de negócio
-  - banco de dados
+  - "Banco de Dados"
+  - "Curso"
 ---
 
 ## 1. Conhecendo a Taberna
