@@ -2,7 +2,8 @@
 title: Dados, Informação e Conhecimento
 excerpt: "Hierarquia fundamental para sistemas de informação e bancos de dados."
 categories:
-  - "Banco de Dados"
+  - banco-de-Dados
+  - conceitos-fundamentais
 date: 2026-01-23T00:00:00-04:00
 order: 1
 tags:

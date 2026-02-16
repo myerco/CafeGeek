@@ -2,7 +2,8 @@
 title: SGBD - Sistemas Gerenciadores de Banco de Dados
 excerpt: "Explore os conceitos, estrutura e características dos Sistemas Gerenciadores de Banco de Dados (SGBD)."
 categories:
-  - "Banco de Dados"
+  - banco-de-Dados
+  - conceitos-fundamentais
 date: 2026-01-22T08:48:05-04:00
 order: 19
 tags:

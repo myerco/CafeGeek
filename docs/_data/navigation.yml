@@ -204,17 +204,17 @@ introducao-a-banco-de-dados:
   - title: CONCEITOS FUNDAMENTAIS
     children:
       - title: Banco de Dados
-        url: /curso/banco-de-dados/capitulo-1/banco-de-dados/
+        url: /curso/banco-de-dados/conceitos-fundamentais/banco-de-dados/
       - title: Dados, Informação e Conhecimento
-        url: /curso/banco-de-dados/capitulo-1/dados-informacao-e-conhecimento/
+        url: /curso/banco-de-dados/conceitos-fundamentais/dados-informacao-e-conhecimento/
       - title: Sistemas de Gerenciamento de Banco de Dados
-        url: /curso/banco-de-dados/capitulo-1/sistemas-gerenciadores-de-banco-de-dados/
-      - tile: Ferramentas de Banco de Dados
-        url: /curso/banco-de-dados/capitulo-1/ferramentas-de-banco-de-dados/ 
+        url: /curso/banco-de-dados/conceitos-fundamentais/sistemas-gerenciadores-de-banco-de-dados/
+      - title: Ferramentas de Banco de Dados
+        url: /curso/banco-de-dados/conceitos-fundamentais/ferramentas-de-banco-de-dados/ 
       - title: Abstração de Dados
-        url: /curso/banco-de-dados/capitulo-1/abstracao-de-dados/  
+        url: /curso/banco-de-dados/conceitos-fundamentais/abstracao-de-dados/  
       - title: Usuários de Banco de Dados 
-        url: /curso/banco-de-dados/capitulo-1/usuarios-de-banco-de-dados/
+        url: /curso/banco-de-dados/conceitos-fundamentais/usuarios-de-banco-de-dados/
   - title: MODELO DE DADOS
     children:
       - title: Modelos de Dados
