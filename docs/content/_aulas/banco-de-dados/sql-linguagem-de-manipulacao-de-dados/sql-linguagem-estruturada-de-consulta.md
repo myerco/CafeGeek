@@ -2,8 +2,8 @@
 title: SQL - Linguagem Estruturada de Consulta
 excerpt: "Explore os comandos fundamentais de SQL: CREATE, DESCRIBE, INSERT e SELECT para manipulação de dados."
 categories:
-  - "introducao-a-banco-de-dados"
-  - "capitulo-1"
+  - banco-de-Dados
+  - sql-linguagem-estruturada-de-consulta
 date: 2024-03-01T08:48:05-04:00
 order: 20
 tags:

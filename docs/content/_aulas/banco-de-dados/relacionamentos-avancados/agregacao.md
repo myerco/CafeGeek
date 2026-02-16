@@ -2,8 +2,8 @@
 title: Agregação
 excerpt: "Explore o conceito de agregação no modelo Entidade-Relacionamento, permitindo representar relacionamentos complexos de forma estruturada."
 categories:
-  - "introducao-a-banco-de-dados"
-  - "capitulo-1"
+  - banco-de-dados
+  - relacionamentos-avancados
 date: 2024-03-01T08:48:05-04:00
 order: 2
 tags:

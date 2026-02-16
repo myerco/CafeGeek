@@ -2,8 +2,8 @@
 title: programacao-de-banco-de-dados-plsql
 excerpt: "PL/SQL, procedures, functions e vantagens da programação procedural."
 categories:
-  - "introducao-a-banco-de-dados"
-  - "capitulo-2"
+  - "banco-de-dados"
+  - "estruturas"
 date: 2026-01-31T08:48:05-04:00
 order: 5
 tags:

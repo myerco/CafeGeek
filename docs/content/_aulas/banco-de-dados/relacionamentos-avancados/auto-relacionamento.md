@@ -3,8 +3,8 @@
 title: Auto-Relacionamento
 excerpt: "Descubra como entidades podem se relacionar consigo mesmas em bancos de dados, com exemplos práticos e linguagem acessível."
 categories:
-  - "introducao-a-banco-de-dados"
-  - "capitulo-1"
+  - banco-de-dados
+  - relacionamentos-avancados
 date: 2024-03-01T08:48:05-04:00
 order: 6
 tags:

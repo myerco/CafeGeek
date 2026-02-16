@@ -2,8 +2,8 @@
 title: Normalização II
 excerpt: "Explore as formas normais avançadas: 2FN, 3FN, FNBC, 4FN e 5FN para otimização de bancos de dados."
 categories:
-  - "introducao-a-banco-de-dados"
-  - "capitulo-1"
+  - banco-de-Dados
+  - normalizacao
 date: 2024-03-01T08:48:05-04:00
 order: 16
 tags:

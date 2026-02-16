@@ -2,7 +2,8 @@
 title: Modelo de Dados
 excerpt: "Explore os tipos de modelos de dados, linguagens DDL e DML, e a definição de SQL em bancos de dados relacionais."
 categories:
-  - "Banco de Dados"
+  - banco-de-Dados
+  - modelo-de-dados
 date: 2026-01-22T08:48:05-04:00
 order: 13
 tags:

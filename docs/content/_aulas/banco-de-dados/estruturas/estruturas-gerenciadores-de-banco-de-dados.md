@@ -2,8 +2,8 @@
 title: estruturas-gerenciadores-de-banco-de-dados
 excerpt: "Funções, estrutura e processamento dos SGBDs."
 categories:
-  - "introducao-a-banco-de-dados"
-  - "capitulo-2"
+  - "banco-de-dados"
+  - "estruturas"
 date: 2026-01-31T08:48:05-04:00
 order: 2
 tags:

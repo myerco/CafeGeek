@@ -2,8 +2,8 @@
 title: Restrições de Integridade
 excerpt: "Entenda as principais restrições de integridade em bancos de dados relacionais, exemplos práticos e comandos SQL."
 categories:
-    - "introducao-a-banco-de-dados"
-    - "capitulo-1"
+  - banco-de-Dados
+  - modelo-de-dados
 date: 2026-01-22T08:48:05-04:00
 order: 8
 tags:

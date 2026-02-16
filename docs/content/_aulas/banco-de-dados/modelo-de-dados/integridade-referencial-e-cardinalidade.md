@@ -2,8 +2,8 @@
 title: Integridade Referencial e Cardinalidade
 excerpt: "Entenda integridade referencial, cardinalidade e relacionamentos em bancos de dados, com exemplos de O Senhor dos Anéis."
 categories:
-  - "introducao-a-banco-de-dados"
-  - "capitulo-1"
+  - banco-de-Dados
+  - modelo-de-dados
 date: 2026-01-25T08:48:05-04:00
 order: 19
 tags:

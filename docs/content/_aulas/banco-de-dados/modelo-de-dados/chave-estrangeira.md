@@ -3,8 +3,8 @@
 title: Chave Estrangeira
 excerpt: "Aprenda o que é uma chave estrangeira, sua importância para integridade referencial e como aplicá-la em bancos de dados relacionais."
 categories:
-  - "introducao-a-banco-de-dados"
-  - "capitulo-1"
+  - banco-de-Dados
+  - modelo-de-dados
 date: 2024-03-01T08:48:05-04:00
 order: 8
 tags:

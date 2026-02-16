@@ -2,8 +2,8 @@
 title: banco-de-dados-distribuidos
 excerpt: "Banco de dados distribuídos: replicação, fragmentação, vantagens e desafios."
 categories:
-  - "introducao-a-banco-de-dados"
-  - "capitulo-2"
+  - "banco-de-dados"
+  - "estruturas"
 date: 2026-01-31T08:48:05-04:00
 order: 10
 tags:

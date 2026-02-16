@@ -2,8 +2,8 @@
 title: Restrições de integriadade referencial
 excerpt: "Explore as restrições em bancos de dados: cardinalidade, dependência de existência e integridade referencial."
 categories:
-  - "introducao-a-banco-de-dados"
-  - "capitulo-1"
+  - banco-de-Dados
+  - modelo-de-dados
 date: 2024-03-01T08:48:05-04:00
 order: 18
 tags:

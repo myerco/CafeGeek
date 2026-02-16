@@ -2,8 +2,8 @@
 title: Especialização e Generalização
 excerpt: "Entenda os conceitos de especialização e generalização no modelo Entidade-Relacionamento para hierarquias de dados."
 categories:
-  - "introducao-a-banco-de-dados"
-  - "capitulo-1"
+  - banco-de-dados
+  - relacionamentos-avancados
 date: 2024-03-01T08:48:05-04:00
 order: 11
 tags:
