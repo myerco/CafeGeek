@@ -389,7 +389,7 @@ defaults:
 # Aulas
   - scope:
       path: "_aulas"
-      type: "pages"
+      type: "aulas"
     values:
       layout: "curso"
       toc: true   
