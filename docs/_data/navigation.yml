@@ -198,7 +198,7 @@ computacao-grafica:
         url:  /curso/computacao-grafica/visibilidade-e-oclusao/            
 
 introducao-a-banco-de-dados:
-  - title: INTRODUÇÃO A BANCO DE DADOS
+  - title: BANCO DE DADOS
     icon: fas fa-database
     url: /curso/introducao-a-banco-de-dados/
   - title: CONCEITOS FUNDAMENTAIS

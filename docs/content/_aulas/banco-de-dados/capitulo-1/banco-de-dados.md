@@ -3,6 +3,7 @@ title: Banco de Dados
 excerpt: "Tipos, estruturas e exemplos de bancos de dados: relacional, NoSQL, grafos e textuais."
 categories:
   - "Banco de Dados"
+  - "Capítulo 1"
 date: 2026-01-22T08:48:05-04:00
 order: 7
 tags:
