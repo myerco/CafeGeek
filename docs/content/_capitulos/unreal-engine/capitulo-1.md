@@ -1,5 +1,5 @@
 ---
-title: "Capitulo 1"
+title: "Capitulo 1 - Introdução aos Blueprints"
 categories: 
   - "unreal-engine"
 description: "Introdução aos Blueprints"

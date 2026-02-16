@@ -304,12 +304,6 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
-  a-taberna-do-ponei-saltitante:    
-    output: true
-    permalink: /:collection/:path/              
-  modelagem-3d:    
-    output: true
-    permalink: /:collection/:path/                  
 
 imgpath: /assets/images/
 
@@ -395,7 +389,7 @@ defaults:
 # Aulas
   - scope:
       path: "_aulas"
-      type: "aulas"
+      type: "pages"
     values:
       layout: "curso"
       toc: true   

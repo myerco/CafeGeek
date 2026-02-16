@@ -1,5 +1,5 @@
 ---
-title: "Capitulo 6"
+title: "Capitulo 6 - Inteligência artificial"
 categories: 
   - "unreal-engine"
 description: "Inteligência artificial"
