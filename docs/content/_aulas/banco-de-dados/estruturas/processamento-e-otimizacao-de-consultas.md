@@ -12,8 +12,6 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-## Processamento e Otimização de Consultas
-
 Envolve as atividades de extrair dados e traduzir consultas de alto nível para expressões físicas eficientes.
 
 **Etapas:**

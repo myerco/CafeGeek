@@ -250,7 +250,7 @@ introducao-a-banco-de-dados:
   - title: ESTRUTURAS 
     children:                
       - title: Estruturas de Gerenciadores de Banco de Dados 
-        url: /curso/banco-de-dados/estruturas/estruturas-gerenciadores-de-banco-de-dados
+        url: /curso/banco-de-dados/estruturas/estruturas-de-gerenciadores-de-banco-de-dados
       - title: Visões e restricoes de acesso  
         url: /curso/banco-de-dados/estruturas/visoes-e-restricoes-de-acesso
       - title: Programação de Banco de Dados

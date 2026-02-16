@@ -15,8 +15,6 @@ sidebar:
 No nível externo da arquitetura ANSI/SPARC, o banco de dados  é percebido como uma “visão externa”, definida por um esquema externo. Diversos usuários podem ter visões externas diversas. **C.J. Date**
 {: .notice}
 
-## Visões (Views) e Restrições de Acesso
-
 Uma visão é considerada uma **tabela virtual**; ela não existe fisicamente, mas aparece ao usuário como uma tabela real.
 
 <div class="mermaid">

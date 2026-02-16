@@ -12,8 +12,6 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-## Programação de Banco de Dados (PL/SQL)
-
 - SGBD’s permitem a manipulação da informação no banco de dados usando um esquema de objetos procedural de unidades de programa. No ORACLE isso é feito através do PL/SQL.
 - Procedures e Functions são exemplos do PL/SQL.
 - Uma Procedure ou Function é um esquema de objetos que logicamente agrupam um conjunto de comandos SQL e outros comandos PL/SQL.

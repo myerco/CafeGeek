@@ -34,6 +34,15 @@ Considere a tabela `ALUNO`:
 
 Aqui, o atributo `matricula` é a chave primária, pois cada valor é único e identifica um aluno específico.
 
+<div class="mermaid">
+graph TD
+    A[Novo Registro: Aluno] --> B{A Matrícula já existe?}
+    B -- Sim --> C[Erro: Violação de Chave Primária]
+    B -- Não --> D[Registro Inserido com Sucesso]
+    C --> E[Garante a Unicidade dos Dados]
+    D --> E
+</div>
+
 ## Requisitos de uma Chave Primária
 
 Para ser uma chave primária válida, o atributo deve atender a estes critérios:

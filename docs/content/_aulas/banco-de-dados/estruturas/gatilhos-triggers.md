@@ -12,8 +12,6 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-## Gatilhos (Triggers)
-
 Um gatilho é um comando executado automaticamente pelo sistema como consequência de uma modificação (INSERT, UPDATE ou DELETE) no banco de dados.
 
 - **Requisitos:** Deve-se especificar as condições de execução e as ações a serem tomadas.
