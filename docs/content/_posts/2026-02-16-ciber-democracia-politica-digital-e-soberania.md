@@ -61,8 +61,10 @@ Um país que sofreu séculos de saque de suas riquezas, desestruturação de sua
 ## Democracia pelo mundo
 
 {% include iframe.html
-    src=""https://ourworldindata.org/explorers/democracy?Dataset=Varieties+of+Democracy&Metric=Electoral+democracy&Sub-metric=Main+index&country=ARG~AUS~BWA~CHN~OWID_WRL&tab=map&hideControls=false"
+    src="https://ourworldindata.org/explorers/democracy?Dataset=Varieties+of+Democracy&Metric=Electoral+democracy&Sub-metric=Main+index&country=ARG~AUS~BWA~CHN~OWID_WRL&tab=map&hideControls=false"
     title="Democracy - Electoral Democracy Index, 2024"
+    caption="Democracy - Electoral Democracy Index, 2024"
+    ref="https://ourworldindata.org/democracy"
 %}
 
 ## Análise dos Dois Mapas sob a Ótica do Colonialismo
