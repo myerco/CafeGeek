@@ -6,7 +6,7 @@ categories:
   - soberania-digital
 tags: [soberania digital, transformação digital, big tech, internet, dados]
 sidebar:
-  nav: introducao-a-banco-de-dados
+  nav: soberania-digital
 ---
 
 Este relatório analisa a transição para a era digital e os desafios que essa transformação impõe ao conceito tradicional de soberania nacional, fundamentando-se nas aulas ministradas por Fernando Horta.
