@@ -269,10 +269,12 @@ soberania-digital:
   - title: SOBERANIA DIGITAL
     icon: fas fa-shield-alt
     url: /curso/soberania-digital/
-  - title: Soberania digital e o novo cenário internacional
-    url: /curso/soberania-digital/soberania-digital-e-o-novo-cenario-internacional
-  - title: A transformação digital, ciberespaço e soberania digital
-    url: /curso/soberania-digital/transformacao-digital-ciberespaco-e-soberania-digital
+  - title: Conceitos fundamentais
+    children:                    
+      - title: Soberania digital e o novo cenário internacional
+        url: /curso/soberania-digital/soberania-digital-e-o-novo-cenario-internacional
+      - title: A transformação digital, ciberespaço e soberania digital
+        url: /curso/soberania-digital/transformacao-digital-ciberespaco-e-soberania-digital
 
   
 

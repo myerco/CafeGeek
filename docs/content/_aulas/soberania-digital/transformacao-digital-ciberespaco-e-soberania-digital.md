@@ -2,7 +2,8 @@
 title: Transformação Digital, Ciberespaço e Soberania Digital
 excerpt: Analise as duas perspectivas da transformação digital, entenda o ciberespaço como espaço artificial complexo e descubra como a soberania estatal deve ser redefinida para o século XXI. Conheça os quatro pilares da nova Soberania Digital e explore as questões centrais sobre controle público vs. privado no ambiente digital.
 date: 2026-02-16
-categories: [Tecnologia, Segurança, Geopolítica,Soberania Digital]
+categories:
+  - soberania-digital
 tags: [transformação digital, ciberespaço, soberania digital, big tech, dados]
 ---
 
