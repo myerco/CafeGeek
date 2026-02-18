@@ -63,7 +63,7 @@ Um país que sofreu séculos de saque de suas riquezas, desestruturação de sua
 {% include iframe.html
     src="https://ourworldindata.org/explorers/democracy?Dataset=Varieties+of+Democracy&Metric=Electoral+democracy&Sub-metric=Main+index&country=ARG~AUS~BWA~CHN~OWID_WRL&tab=map&hideControls=false"
     title="Democracy - Electoral Democracy Index, 2024"
-    caption="Democracy - Electoral Democracy Index, 2024"
+    caption="Explore Data on Democracy"
     ref="https://ourworldindata.org/democracy"
 %}
 

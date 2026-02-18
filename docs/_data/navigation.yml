@@ -155,7 +155,6 @@ unreal-engine:
       - title: Classes
         url:  /curso/unreal-engine/capitulo-8/classes-de-objetos-na-linguagem-c/
 
-
 jogos-digitais:         
   - title: JOGOS DIGITAIS
     icon: fas fa-ghost
@@ -266,7 +265,16 @@ introducao-a-banco-de-dados:
       - title: Banco de Dados Distribuídos
         url: /curso/banco-de-dados/estruturas/banco-de-dados-distribuidos/                        
 
+soberania-digital:         
+  - title: SOBERANIA DIGITAL
+    icon: fas fa-shield-alt
+    url: /curso/soberania-digital/
+  - title: Soberania digital e o novo cenário internacional
+    url: /curso/soberania-digital/soberania-digital-e-o-novo-cenario-internacional
+  - title: A transformação digital, ciberespaço e soberania digital
+    url: /curso/soberania-digital/transformacao-digital-ciberespaco-e-soberania-digital
 
+  
 
 # Configurações do menu
 menu_config:
