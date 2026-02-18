@@ -5,6 +5,8 @@ date: 2026-02-16
 categories:
   - soberania-digital
 tags: [soberania digital, transformação digital, big tech, internet, dados]
+sidebar:
+  nav: introducao-a-banco-de-dados
 ---
 
 Este relatório analisa a transição para a era digital e os desafios que essa transformação impõe ao conceito tradicional de soberania nacional, fundamentando-se nas aulas ministradas por Fernando Horta.
@@ -60,7 +62,14 @@ O documento inicia com a ideia de transformação digital, citando Vincent Mosco
 
 - Exemplo no documento: A referência a Neuromancer como uma obra que antecipa o "colapso do futuro no presente" é uma metáfora poderosa da aceleração capitalista e da obsolescência programada — inclusive do humano.
 
-##  Neuromancer e a Distopia como Crítica do Capitalismo Tardio
+## Neuromancer e a Distopia como Crítica do Capitalismo Tardio
+
+{% include image.html
+    src="https://fabiofernandeswriter.com/wp-content/uploads/2024/07/neuromancer.jpg"
+    alt="Figura: Neuromancer."
+    caption="Figura: Neuromancer."
+    ref="https://fabiofernandeswriter.com/2024/07/24/neuromancer-e-um-romance-historico/"
+%}
 
 O documento repete diversas vezes a citação de Adriana Amaral sobre Neuromancer. Essa repetição é significativa: a obra de William Gibson é uma alegoria do capitalismo informacional.
 
@@ -72,9 +81,37 @@ O documento repete diversas vezes a citação de Adriana Amaral sobre Neuromance
 
 - Leitura marxista: A vigilância é uma ferramenta de controle da classe trabalhadora e de produção de mais-valia a partir da atividade online.
 
-##  Aceleração do Conhecimento e Concentração de Poder
+## Aceleração do Conhecimento e Concentração de Poder
 
 O documento apresenta a curva de crescimento do conhecimento e a evolução da internet como fenômenos exponenciais.
+
+<div class="mermaid">
+graph TD
+    %% Definição do Estilo
+    classDef wave fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef current fill:#00d5ff,stroke:#333,stroke-width:4px,font-weight:bold;
+
+    Title[<b>A Curva de Duplicação do Conhecimento</b><br/>Ondas de Inovação e Tecnologia] --> W1
+
+    W1(<b>1ª Onda: 1785 - 1845</b><br/>Ferro, Energia Hidráulica,<br/>Mecanização e Têxteis) --> W2
+    
+    W2(<b>2ª Onda: 1845 - 1900</b><br/>Vapor, Ferrovias,<br/>Aço e Algodão) --> W3
+    
+    W3(<b>3ª Onda: 1900 - 1950</b><br/>Eletricidade, Química e<br/>Motor a Combustão Interna) --> W4
+    
+    W4(<b>4ª Onda: 1950 - 1990</b><br/>Petroquímica, Eletrônica,<br/>Aviação e Espacial) --> W5
+    
+    W5(<b>5ª Onda: 1990 - 2020</b><br/>Redes Digitais, Biotecnologia,<br/>Software e TI) --> W6:::current
+    
+    W6(<b>6ª Onda: 2020+</b><br/>Inteligência Artificial, Robótica,<br/>Energia Limpa e Nanotecnologia)
+
+    %% Legenda de Progressão
+    subgraph Progressão Exponencial
+    W1 --- W2 --- W3 --- W4 --- W5 --- W6
+    end
+
+    style Title fill:#fff,stroke:none
+</div>
 
 - Marx diria que o conhecimento, no capitalismo, torna-se capital fixo — uma força produtiva incorporada às máquinas e sistemas. Quem controla o conhecimento (patentes, algoritmos, dados) controla a produção.
 

@@ -5,6 +5,8 @@ date: 2026-02-16
 categories:
   - soberania-digital
 tags: [transformação digital, ciberespaço, soberania digital, big tech, dados]
+sidebar:
+  nav: introducao-a-banco-de-dados
 ---
 
 Este relatório apresenta uma síntese dos conceitos fundamentais sobre Soberania Digital e o novo cenário internacional, fundamentado nos materiais da segunda aula do curso ministrado por Fernando Horta.
