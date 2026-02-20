@@ -11,7 +11,7 @@ tags:
 
 ## Apresentação
 
-Esta atividade consiste em iniciar o desenvolvimento de um projeto de banco de dados relacional utilizando o PostgreSQL. O objetivo é criar a estrutura inicial do projeto, sem detalhar regras de negócio ou requisitos avançados neste momento. Os detalhes e regras negociais serão definidos e implementados posteriormente, no passo 2.
+Esta atividade consiste em iniciar o desenvolvimento de um projeto de banco de dados relacional utilizando o PostgreSQL. O objetivo é criar a estrutura inicial do projeto, sem detalhar regras de negócio ou requisitos avançados neste momento. Os detalhes e regras de negócio serão definidos e implementados posteriormente, no passo 2.
 
 Escolha um dos projetos sugeridos abaixo para iniciar sua atividade.
 
@@ -49,41 +49,53 @@ No passo 2, você irá aprofundar o projeto escolhido no passo 1, detalhando as 
 
 ### Aplicativo para empresa de aluguel de carros para motoristas de aplicativos
 
-- Os atendes podem ser clientes
-- Registro de veículos : placa, marca, modelo, tipo (moto, caminhão, carro de passeio)
-- Os clientes são registrados com os seguintes dados: CPG, Nome, Sobrenome, Endereço, Dados bancários e e-mail
-- Os contratos tem os seguintes dados: Tipo de pagamento (Cartão, Pix), Número do contrato, data, cliente, veículo e período de contrato
+- Os atendentes podem ser clientes
+- Registro de veículos: placa, marca, modelo, tipo (moto, caminhão, carro de passeio)
+- Os clientes são registrados com os seguintes dados: CPF, nome, sobrenome, endereço, dados bancários e e-mail
+- Os contratos têm os seguintes dados: tipo de pagamento (Cartão, Pix), número do contrato, data, cliente, veículo e período de contrato
 
 ### Aplicativo para clínica veterinária (tratamento de animais domésticos e venda de produtos)
 
-- Os atendes podem ser clientes
-- Registro de animais: nome, classe, sexo, data nascimento
-- Atendimentos : data, atendende, cliente, animal, veterinario, texto da consulta, produtos e serviços com valores de vendas
-- Registro de produtos : tipo, marca, descrição, valor de compra
-- Registro de veterinários: cpf, nome, especialidade
+- Os atendentes podem ser clientes
+- Registro de animais: nome, classe, sexo, data de nascimento
+- Atendimentos: data, atendente, cliente, animal, veterinário, texto da consulta, produtos e serviços com valores de venda
+- Registro de produtos: tipo, marca, descrição, valor de compra
+- Registro de veterinários: CPF, nome, especialidade
 
 ### Aplicativo para empresa de registro de atendimento (controle de filas, registro de atendentes e pessoas atendidas)
 
-- Registro de atendentes;
-- Registro de clientes (clientes pode ser clientes)
+- Registro de atendentes
+- Registro de clientes (clientes podem ser atendentes)
 - Registro de filas de atendimento e seus atendentes
-- Registro de atendimento : data e hora, fila, atendente, cliente
+- Registro de atendimentos: data e hora, fila, atendente, cliente
 
 ### Aplicativo para rede social de divulgação, venda e troca de roupas (organização de guarda-roupa, combinação de roupas, registro de reações e negociações)
 
-- Registro de usuarios: email, nome, sobrenome
-- Registro de roupas : tipo, descrição, cor e tamanho
+- Registro de usuários: e-mail, nome, sobrenome
+- Registro de roupas: tipo, descrição, cor e tamanho
 - Registro de modelos: descrição, roupa (1...99)
-- Registro de combinações : data e modelo
+- Registro de combinações: data e modelo
 - Registro de interações com outros usuários: comentários, compartilhamentos e ações (visualização, gostei, não gostei)
 
 ### Regras da atividade do passo 2
 
 Siga o passo a passo abaixo para implementar e apresentar seu projeto:
 
-1. Conecte com o banco de dados Postegresql no link  [https://comp-pga.qute.com.br/login?next=/](https://comp-pga.qute.com.br/login?next=/)
+1. Conecte-se ao banco de dados PostgreSQL no link [https://comp-pga.qute.com.br/login?next=/](https://comp-pga.qute.com.br/login?next=/)
 2. Usuário de conexão: u001
 3. Senha: `fale com o orientador em sala de aula`
+
+## Passo 3 - Inovação
+
+Neste passo, você é incentivado a propor e implementar elementos inovadores no seu projeto, tornando-o mais atrativo, moderno e alinhado com tendências tecnológicas atuais. Veja algumas sugestões detalhadas:
+
+- **Gamificação:** Adicione mecanismos de gamificação ao seu sistema, como pontuação, conquistas, níveis, rankings ou recompensas para usuários que completam determinadas ações. Por exemplo, usuários podem ganhar medalhas ao completar tarefas, participar de desafios ou contribuir com a comunidade. Isso aumenta o engajamento e incentiva a participação ativa.
+
+- **Interações de redes sociais:** Implemente funcionalidades inspiradas em redes sociais, como curtidas, comentários, compartilhamentos, seguidores ou notificações. Permita que os usuários interajam entre si, criem comunidades, compartilhem experiências ou colaborem em projetos. Essas interações tornam o sistema mais dinâmico e social.
+
+- **Novas perspectivas tecnológicas:** Explore o uso de tecnologias emergentes, como Inteligência Artificial (IA) para análise de dados, identificação de imagens, recomendações personalizadas ou automação de processos. Considere também mineração de dados para extrair insights relevantes do uso do sistema, ou integração com APIs externas para ampliar as funcionalidades do seu projeto.
+
+Sinta-se livre para propor outras inovações que possam agregar valor ao seu projeto, tornando-o diferenciado e relevante para o público-alvo.
 
 ## Referências
 
