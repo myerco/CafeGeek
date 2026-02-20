@@ -97,6 +97,26 @@ Neste passo, você é incentivado a propor e implementar elementos inovadores no
 
 Sinta-se livre para propor outras inovações que possam agregar valor ao seu projeto, tornando-o diferenciado e relevante para o público-alvo.
 
+## Passo 4 - Implementação
+
+Neste passo, você irá transformar o modelo do seu projeto em uma implementação prática no PostgreSQL. O objetivo é criar e testar todos os componentes essenciais do banco de dados, garantindo que a estrutura esteja funcional e pronta para uso. Siga as orientações detalhadas abaixo:
+
+- **Criação de tabelas e relacionamentos:** Implemente todas as tabelas do seu modelo, definindo os tipos de dados, chaves primárias e estrangeiras, restrições de integridade e relacionamentos entre as entidades. Certifique-se de que as tabelas reflitam corretamente o diagrama elaborado nas etapas anteriores.
+
+- **Criação de visões (views):** Desenvolva visões para facilitar consultas frequentes ou para apresentar dados de forma consolidada e segura aos usuários. As views podem simplificar relatórios, dashboards ou fornecer abstrações para diferentes perfis de acesso.
+
+- **Procedures e funções armazenadas:** Implemente procedures e funções para automatizar operações recorrentes, como cálculos, validações, processamento de dados ou regras de negócio. Utilize-as para centralizar lógicas importantes e garantir consistência nas operações do banco.
+
+- **Triggers:** Crie triggers para executar ações automáticas em resposta a eventos no banco de dados, como inserções, atualizações ou exclusões. Triggers podem ser usadas para auditoria, atualização de dados relacionados, validação adicional ou integração com outros sistemas.
+
+- **Manipulação de dados (inserção, alteração e remoção):** Realize operações de inserção, atualização e exclusão de dados para popular e testar o banco. Crie scripts de exemplo para inserir registros iniciais, atualizar informações e remover dados conforme necessário, validando o funcionamento de todas as regras e restrições.
+
+Documente cada etapa da implementação, incluindo os scripts SQL utilizados, exemplos de uso e eventuais desafios encontrados. Isso facilitará a manutenção e a evolução do projeto.
+
+## Passo 5 - Consultas avançadas
+
+Em construção...
+
 ## Referências
 
 - [Mermaid Live](https://mermaid.live/)
