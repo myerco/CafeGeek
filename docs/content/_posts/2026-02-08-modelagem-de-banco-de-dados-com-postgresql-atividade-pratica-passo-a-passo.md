@@ -77,8 +77,8 @@ No passo 2, você irá aprofundar o projeto escolhido no passo 1, detalhando as 
 
 Siga o passo a passo abaixo para implementar e apresentar seu projeto:
 
-1. Conecte-se ao banco de dados PostgreSQL no link [https://comp-pga.qute.com.br/login?next=/](https://comp-pga.qute.com.br/login?next=/)
-2. Usuário de conexão: u001
+1. Conecte-se ao banco de dados PostgreSQL no link <https://comp-pga.qute.com.br/login?next=/>
+2. Usuário de conexão: u001@mail.com
 3. Senha: `fale com o orientador em sala de aula`
 
 ## Passo 3 - Inovação
@@ -116,18 +116,53 @@ Documente cada etapa da implementação, incluindo os scripts SQL utilizados, ex
 
 ### Regras da atividade do passo 4
 
+- Acesse o `schema` (postgres) do seu projeto
+  
+  Exemplo:
+  
+  ```sql
+  SET search_path TO alugacar, public;
+  ```
+
+  ou
+
+  - atende
+  - roupa
+  - meupet
+
+- Na implementação dos comandos utilize o nome do `schema` associado ao objeto
+  
+  Exemplo:
+
+  ```sql
+  -- Criar tabela de pessoas
+  CREATE TABLE IF NOT EXISTS alugacar.pessoas (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+  );
+
+  -- Criar índice para performance
+  CREATE INDEX IF NOT EXISTS idx_funcionario_nome ON alugacar.funcionarios(nome);
+  ```
+
+Para fazer com que o script possa ser executado múltiplas vezes sem erro. Use `CREATE TABLE IF NOT EXISTS ou CREATE OR REPLACE`.{: .notice--warning}
+
 - Publique no github todos os scripts utilizados na pasta `scripts` utilizando a regra de nome:
 
-```sql
- -- comando+ '_' + objeto-de-banco-de-dados 
- -- Exemplo:
-    create_table_pessoas.sql
-    create_view_pessoas_atendentes.sql
-    insert_indo_pessoas.sql
-    create_or_replace_procedure_calcula_nota_fiscal.sql
-```  
+  `[Versão]__[acao]_[descricao/objeto].sql`
 
-- Implemente todos os comanandos no site do passo 2.
+  Exemplo
+
+  ```sql
+    Alugacar__create_table_pessoas.sql
+    Alugacar__add_email_to_pessoas.sql    
+    Alugacar__create_view_pessoas_atendentes.sql
+    Alugacar__insert_into_pessoas.sql
+    Alugacar__create_or_replace_procedure_calcula_nota_fiscal.sql
+  ```  
+
+- Implemente todos os objetos do passo 2.
 
 ## Passo 5 - Consultas avançadas
 
@@ -139,3 +174,39 @@ Em construção...
 - [Mermaid Tutorials](https://mermaid.js.org/ecosystem/tutorials.html)
 - [Mermaid Entity Relationships Diagrams  - ER](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
 - [Github](https://github.com/)
+- [Banco PostgreSQL para implementações](https://comp-pga.qute.com.br/login?next=/)
+
+## Comandos importantes
+
+### Criando e schemas e permissões
+
+```sql
+CREATE SCHEMA ALUGACAR;
+
+CREATE SCHEMA ATENDE;
+
+CREATE SCHEMA MEUPET;
+
+CREATE SCHEMA ROUPA;
+
+-- Grants para o usuário
+-- alugaCar
+GRANT USAGE ON SCHEMA ALUGACAR TO U001;
+
+GRANT CREATE ON SCHEMA ALUGACAR TO U001;
+
+-- Atende
+GRANT USAGE ON SCHEMA ATENDE TO U001;
+
+GRANT CREATE ON SCHEMA ATENDE TO U001;
+
+-- MeuPet
+GRANT USAGE ON SCHEMA MEUPET TO U001;
+
+GRANT CREATE ON SCHEMA MEUPET TO U001;
+
+-- Roupa
+GRANT USAGE ON SCHEMA ROUPA TO U001;
+
+GRANT CREATE ON SCHEMA ROUPA TO U001;
+```
