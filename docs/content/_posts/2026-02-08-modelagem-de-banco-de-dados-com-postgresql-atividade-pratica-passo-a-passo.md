@@ -78,7 +78,7 @@ No passo 2, você irá aprofundar o projeto escolhido no passo 1, detalhando as 
 Siga o passo a passo abaixo para implementar e apresentar seu projeto:
 
 1. Conecte-se ao banco de dados PostgreSQL no link <https://comp-pga.qute.com.br/login?next=/>
-2. Usuário de conexão: u001@mail.com
+2. Usuário de conexão: `fale com o orientador em sala de aula`
 3. Senha: `fale com o orientador em sala de aula`
 
 ## Passo 3 - Inovação
@@ -146,7 +146,8 @@ Documente cada etapa da implementação, incluindo os scripts SQL utilizados, ex
   CREATE INDEX IF NOT EXISTS idx_funcionario_nome ON alugacar.funcionarios(nome);
   ```
 
-Para fazer com que o script possa ser executado múltiplas vezes sem erro. Use `CREATE TABLE IF NOT EXISTS ou CREATE OR REPLACE`.{: .notice--warning}
+Para fazer com que o script possa ser executado múltiplas vezes sem erro. Use `CREATE TABLE IF NOT EXISTS ou CREATE OR REPLACE`.
+{: .notice--warning}
 
 - Publique no github todos os scripts utilizados na pasta `scripts` utilizando a regra de nome:
 
@@ -191,22 +192,22 @@ CREATE SCHEMA ROUPA;
 
 -- Grants para o usuário
 -- alugaCar
-GRANT USAGE ON SCHEMA ALUGACAR TO U001;
+GRANT USAGE ON SCHEMA ALUGACAR TO <usuário>;
 
-GRANT CREATE ON SCHEMA ALUGACAR TO U001;
+GRANT CREATE ON SCHEMA ALUGACAR TO <usuário>;
 
 -- Atende
-GRANT USAGE ON SCHEMA ATENDE TO U001;
+GRANT USAGE ON SCHEMA ATENDE TO <usuário>;
 
-GRANT CREATE ON SCHEMA ATENDE TO U001;
+GRANT CREATE ON SCHEMA ATENDE TO <usuário>;
 
 -- MeuPet
-GRANT USAGE ON SCHEMA MEUPET TO U001;
+GRANT USAGE ON SCHEMA MEUPET TO <usuário>;
 
-GRANT CREATE ON SCHEMA MEUPET TO U001;
+GRANT CREATE ON SCHEMA MEUPET TO <usuário>;
 
 -- Roupa
-GRANT USAGE ON SCHEMA ROUPA TO U001;
+GRANT USAGE ON SCHEMA ROUPA TO <usuário>;
 
-GRANT CREATE ON SCHEMA ROUPA TO U001;
+GRANT CREATE ON SCHEMA ROUPA TO <usuário>;
 ```
