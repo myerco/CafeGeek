@@ -19,10 +19,21 @@ Escolha um dos projetos sugeridos abaixo para iniciar sua atividade.
 
 Escolha um dos temas abaixo para seu projeto:
 
-- **Aluguel de carros** - Aplicativo para empresa de aluguel de carros para motoristas de aplicativos
-- **Clínica veterinária** - Aplicativo para clínica veterinária (tratamento de animais domésticos e venda de produtos)
-- **Atendimento** - Aplicativo para empresa de registro de atendimento (controle de filas, registro de atendentes e pessoas atendidas)
-- **Rede de roupas** - Aplicativo para rede social de divulgação, venda e troca de roupas (organização de guarda-roupa, combinação de roupas, registro de reações e negociações)
+### AlugarCar
+
+**Aluguel de carros** - Aplicativo para empresa de aluguel de carros para motoristas de aplicativos
+
+### MeuPET
+
+**Clínica veterinária** - Aplicativo para clínica veterinária (tratamento de animais domésticos e venda de produtos)
+
+### Atende
+
+**Atendimento** - Aplicativo para empresa de registro de atendimento (controle de filas, registro de atendentes e pessoas atendidas)
+
+### Roupa
+
+**Rede de roupas** - Aplicativo para rede social de divulgação, venda e troca de roupas (organização de guarda-roupa, combinação de roupas, registro de reações e negociações)
 
 Faça uma breve descrição do projeto escolhido, sem entrar em detalhes de regras de negócio. Foque apenas no objetivo geral e no público-alvo.
 
@@ -47,31 +58,43 @@ Siga o passo a passo abaixo para implementar e apresentar seu projeto:
 
 No passo 2, você irá aprofundar o projeto escolhido no passo 1, detalhando as regras de negócio, requisitos e principais entidades envolvidas. Abaixo, veja exemplos de detalhamento para cada tema sugerido:
 
-- **Aplicativo para empresa de aluguel de carros para motoristas de aplicativos**  
-  - Os atendentes podem ser clientes
-  - Registro de veículos: placa, marca, modelo, tipo (moto, caminhão, carro de passeio)
-  - Os clientes são registrados com os seguintes dados: CPF, nome, sobrenome, endereço, dados bancários e e-mail
-  - Os contratos têm os seguintes dados: tipo de pagamento (Cartão, Pix), número do contrato, data, cliente, veículo e período de contrato
+### AlugaCar - Detalhes
 
-- **Aplicativo para clínica veterinária (tratamento de animais domésticos e venda de produtos)**
-  - Os atendentes podem ser clientes
-  - Registro de animais: nome, classe, sexo, data de nascimento
-  - Atendimentos: data, atendente, cliente, animal, veterinário, texto da consulta, produtos e serviços com valores de venda
-  - Registro de produtos: tipo, marca, descrição, valor de compra
-  - Registro de veterinários: CPF, nome, especialidade
+Aplicativo para empresa de aluguel de carros para motoristas de aplicativos  
+  
+- Os atendentes podem ser clientes
+- Registro de veículos: placa, marca, modelo, tipo (moto, caminhão, carro de passeio)
+- Os clientes são registrados com os seguintes dados: CPF, nome, sobrenome, endereço, dados bancários e e-mail
+- Os contratos têm os seguintes dados: tipo de pagamento (Cartão, Pix), número do contrato, data, cliente, veículo e período de contrato
 
-- **Aplicativo para empresa de registro de atendimento (controle de filas, registro de atendentes e pessoas atendidas)**
-  - Registro de atendentes
-  - Registro de clientes (clientes podem ser atendentes)
-  - Registro de filas de atendimento e seus atendentes
-  - Registro de atendimentos: data e hora, fila, atendente, cliente
+### MeuPET - Detalhes
 
-- **Aplicativo para rede social de divulgação, venda e troca de roupas (organização de guarda-roupa, combinação de roupas, registro de reações e negociações)**
-  - Registro de usuários: e-mail, nome, sobrenome
-  - Registro de roupas: tipo, descrição, cor e tamanho
-  - Registro de modelos: descrição, roupa (1...99)
-  - Registro de combinações: data e modelo
-  - Registro de interações com outros usuários: comentários, compartilhamentos e ações (visualização, gostei, não gostei)
+Aplicativo para clínica veterinária (tratamento de animais domésticos e venda de produtos)
+  
+- Os atendentes podem ser clientes
+- Registro de animais: nome, classe, sexo, data de nascimento
+- Atendimentos: data, atendente, cliente, animal, veterinário, texto da consulta, produtos e serviços com valores de venda
+- Registro de produtos: tipo, marca, descrição, valor de compra
+- Registro de veterinários: CPF, nome, especialidade
+
+### Atende - Detalhes
+
+Aplicativo para empresa de registro de atendimento (controle de filas, registro de atendentes e pessoas atendidas)
+
+- Registro de atendentes
+- Registro de clientes (clientes podem ser atendentes)
+- Registro de filas de atendimento e seus atendentes
+- Registro de atendimentos: data e hora, fila, atendente, cliente
+
+### Roupa - Detalhes
+
+Aplicativo para rede social de divulgação, venda e troca de roupas (organização de guarda-roupa, combinação de roupas, registro de reações e negociações)
+
+- Registro de usuários: e-mail, nome, sobrenome
+- Registro de roupas: tipo, descrição, cor e tamanho
+- Registro de modelos: descrição, roupa (1...99)
+- Registro de combinações: data e modelo
+- Registro de interações com outros usuários: comentários, compartilhamentos e ações (visualização, gostei, não gostei)
 
 ### Regras da atividade do passo 2
 
@@ -103,12 +126,6 @@ Sinta-se livre para propor outras inovações que possam agregar valor ao seu pr
 Neste passo, você irá transformar o modelo do seu projeto em uma implementação prática no PostgreSQL. O objetivo é criar e testar todos os componentes essenciais do banco de dados, garantindo que a estrutura esteja funcional e pronta para uso. Siga as orientações detalhadas abaixo:
 
 - **Criação de tabelas e relacionamentos:** Implemente todas as tabelas do seu modelo, definindo os tipos de dados, chaves primárias e estrangeiras, restrições de integridade e relacionamentos entre as entidades. Certifique-se de que as tabelas reflitam corretamente o diagrama elaborado nas etapas anteriores.
-
-- **Criação de visões (views):** Desenvolva visões para facilitar consultas frequentes ou para apresentar dados de forma consolidada e segura aos usuários. As views podem simplificar relatórios, dashboards ou fornecer abstrações para diferentes perfis de acesso.
-
-- **Procedures e funções armazenadas:** Implemente procedures e funções para automatizar operações recorrentes, como cálculos, validações, processamento de dados ou regras de negócio. Utilize-as para centralizar lógicas importantes e garantir consistência nas operações do banco.
-
-- **Triggers:** Crie triggers para executar ações automáticas em resposta a eventos no banco de dados, como inserções, atualizações ou exclusões. Triggers podem ser usadas para auditoria, atualização de dados relacionados, validação adicional ou integração com outros sistemas.
 
 - **Manipulação de dados (inserção, alteração e remoção):** Realize operações de inserção, atualização e exclusão de dados para popular e testar o banco. Crie scripts de exemplo para inserir registros iniciais, atualizar informações e remover dados conforme necessário, validando o funcionamento de todas as regras e restrições.
 
@@ -165,9 +182,21 @@ Para fazer com que o script possa ser executado múltiplas vezes sem erro. Use `
 
 - Implemente todos os objetos do passo 2.
 
-## Passo 5 - Consultas avançadas
+## Passo 5 - Programação de banco de dados
 
-Em construção...
+Requisitos funcionais:
+
+- Visões: Em construção...
+- Procedures: Em construção...
+- Triggers: Em contrução...
+
+### Regras da atividade do passo 5
+
+- **Criação de visões (views):** Desenvolva visões para facilitar consultas frequentes ou para apresentar dados de forma consolidada e segura aos usuários. As views podem simplificar relatórios, dashboards ou fornecer abstrações para diferentes perfis de acesso.
+
+- **Procedures e funções armazenadas:** Implemente procedures e funções para automatizar operações recorrentes, como cálculos, validações, processamento de dados ou regras de negócio. Utilize-as para centralizar lógicas importantes e garantir consistência nas operações do banco.
+
+- **Triggers:** Crie triggers para executar ações automáticas em resposta a eventos no banco de dados, como inserções, atualizações ou exclusões. Triggers podem ser usadas para auditoria, atualização de dados relacionados, validação adicional ou integração com outros sistemas.
 
 ## Referências
 
