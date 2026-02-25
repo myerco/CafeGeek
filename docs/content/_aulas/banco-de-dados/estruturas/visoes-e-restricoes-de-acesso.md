@@ -60,36 +60,119 @@ graph TD
 
 ## Características
 
-- Uma visão pode ser considerada como uma tabela virtual. Isto é, uma tabela que não existe por si, mas que parece ao usuário como se assim fosse;
-- A visão é operada como se fosse uma tabela real;
-- É uma janela para um subconjunto de dados de uma tabela;
-- Toda mudança na tabela é automaticamente e instantaneamente refletida através desta janela;
-- Mostra Linhas pertinentes para os usuários.
-
-Funciona como uma janela para um subconjunto de dados, refletindo automaticamente mudanças nas tabelas base.
+- A visão é operada como se fosse uma tabela real
+- É uma janela para um subconjunto de dados de uma tabela
+- Toda mudança na tabela é automaticamente e instantaneamente refletida através desta janela
+- Mostra Linhas pertinentes para os usuários
+- Visões podem ser usadas para aumentar a segurança escondendo detalhes das estruturas das tabelas
+- Podem esconder a complexidade de uma consulta
 
 ## Sintaxe SQL
 
- ```sql
- CREATE VIEW nome_da_view AS subquery
- ```
+```sql
+CREATE VIEW nome_da_view AS subquery
+```
 
 - Exemplos mostram a criação de visões para filtrar funcionários com salários específicos e a execução de consultas normais sobre essas visões.
 
-## Criando a VIEW bons_empregados
+## Criando a VIEW vw_funcionarios
+
+Implementando a tabela de funcionários.
 
 ```sql
-CREATE VIEW bons_empregados
-AS
-SELECT nome, sal
-FROM empregado
-WHERE sal > 10000;
+CREATE TABLE FUNCIONARIOS (
+  ID SERIAL PRIMARY KEY,
+  NOME VARCHAR(100),
+  MATRICULA VARCHAR(20) UNIQUE,
+  DATA_NASCIMENTO DATE
+);
 ```
 
-## Executando a VIEW
+Inserindo funcionários na tabela.
 
 ```sql
-SELECT * FROM bons_empregados;
-SELECT * FROM bons_empregados ORDER BY  sal ;
-SELECT nome FROM  bons_empregados WHERE nome = ‘ANA MARIA’;
+INSERT INTO
+  FUNCIONARIOS (NOME, MATRICULA, DATA_NASCIMENTO)
+VALUES
+  ('Joel Miller', 'TLOU-001', '1981-09-26'),
+  ('Ellie Williams', 'TLOU-002', '2019-04-14'),
+  ('Tommy Miller', 'TLOU-003', '1985-05-12'),
+  ('Tess Servopoulos', 'TLOU-004', '1978-08-20'),
+  ('Bill', 'TLOU-005', '1975-11-30'),
+  ('Frank', 'TLOU-006', '1976-03-15'),
+  ('Marlene', 'TLOU-007', '1980-01-10'),
+  ('Riley Abel', 'TLOU-008', '2018-02-25'),
+  ('Henry Burrell', 'TLOU-009', '1998-06-05'),
+  ('Sam Burrell', 'TLOU-010', '2010-09-12');
+```
+
+Implementando a VIEW vw_funcionarios apresentando somente um atributo da tabela e calculando a idade
+
+```sql
+CREATE OR REPLACE VIEW VW_FUNCIONARIOS AS
+SELECT
+  NOME,
+  EXTRACT(
+      YEAR
+      FROM
+          AGE (CURRENT_DATE, DATA_NASCIMENTO)
+  ) AS IDADE
+FROM
+  FUNCIONARIOS;
+```
+
+Implementando uma VIEW para esconder a complexidade de uma consulta que apresenta a diferença de idade entre funcionários.
+
+```sql
+CREATE OR REPLACE VIEW VW_FUNCIONARIOS_POR_IDADE AS 
+WITH ListaIdades AS (
+    SELECT 
+        nome, 
+        EXTRACT(YEAR FROM AGE(CURRENT_DATE, data_nascimento)) AS idade
+    FROM FUNCIONARIOS
+)
+SELECT 
+    nome,
+    idade,
+    idade - LAG(idade) OVER (ORDER BY idade ASC) AS diferenca_anos
+FROM ListaIdades
+ORDER BY idade ASC;
+```
+
+Executando a VIEW
+
+```sql
+SELECT * FROM VW_FUNCIONARIOS;
+SELECT * FROM VW_FUNCIONARIOS ORDER BY  NOME ;
+SELECT NOME FROM  VW_FUNCIONARIOS WHERE IDADE > 40;
+SELECT * FROM VW_FUNCIONARIOS_POR_IDADE;
+```
+
+## SCHEMAS E VIEWS
+
+Podemos construir um schema com todas as visões das tabelas, separando assim a estrutura das tabelas.
+
+**OBSERVAÇÃO**: feito isso e aliado a uma administração de ROLEs aumenta a segurança dos dados.
+{: .notice}
+
+Repare que o usuário do esquema consulta é diferente do usuário de produção
+
+### Criando schema
+
+```sql
+CREATE SCHEMA CONSULTA AUTHORIZATION  usuario_online;
+```
+
+### Alterando o schema da view
+
+```sql
+ALTER VIEW VW_FUNCIONARIOS SET SCHEMA consulta;
+```
+
+### Ou prodemops implementar a view dentro do esquema consulta
+
+```sql
+CREATE VIEW CONSULTA.VW_FUNCIONARIOS AS
+SELECT nome 
+FROM funcionarios;
 ```
