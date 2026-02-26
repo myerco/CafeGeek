@@ -75,8 +75,6 @@ CREATE VIEW nome_da_view AS subquery
 
 - Exemplos mostram a criação de visões para filtrar funcionários com salários específicos e a execução de consultas normais sobre essas visões.
 
-## Criando a VIEW vw_funcionarios
-
 Implementando a tabela de funcionários.
 
 ```sql
@@ -148,7 +146,7 @@ SELECT NOME FROM  VW_FUNCIONARIOS WHERE IDADE > 40;
 SELECT * FROM VW_FUNCIONARIOS_POR_IDADE;
 ```
 
-## SCHEMAS E VIEWS
+## Schemas e Views
 
 Podemos construir um schema com todas as visões das tabelas, separando assim a estrutura das tabelas.
 
@@ -157,19 +155,19 @@ Podemos construir um schema com todas as visões das tabelas, separando assim a 
 
 Repare que o usuário do esquema consulta é diferente do usuário de produção
 
-### Criando schema
+Criando o schema consulta
 
 ```sql
 CREATE SCHEMA CONSULTA AUTHORIZATION  usuario_online;
 ```
 
-### Alterando o schema da view
+Alterando o schema da view
 
 ```sql
 ALTER VIEW VW_FUNCIONARIOS SET SCHEMA consulta;
 ```
 
-### Ou prodemops implementar a view dentro do esquema consulta
+Ou prodemos implementar a view dentro do esquema consulta
 
 ```sql
 CREATE VIEW CONSULTA.VW_FUNCIONARIOS AS
