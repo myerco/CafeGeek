@@ -64,13 +64,13 @@ Temos as tabelas `Clientes` e `Pedidos`. Um pedido só pode existir se estiver v
 
 **Tabela Clientes:**
 
-| cliente_id (PK) | Nome      |
+| id (PK) | Nome      |
 | :-------------- | :-------- |
 | 10              | Ana Silva |
 
 **Tabela de Pedidos:**
 
-| pedido_id | cliente_id (FK) | Valor                           |
+| id | id_cliente (FK) | Valor                           |
 | :-------- | :-------------- | :------------------------------ |
 | 501       | 10              | 250.00                          |
 | 502       | 99              | **ERRO! Cliente 99 não existe** |
@@ -90,7 +90,7 @@ CREATE TABLE IF NOT EXISTS PEDIDOS (
     -- Restrição de Integridade Referencial
     CONSTRAINT fk_cliente 
         FOREIGN KEY (id_cliente) 
-        REFERENCES CLIENTES (cliente_id)
+        REFERENCES CLIENTES (id)
         ON DELETE CASCADE
 );
 ```
@@ -134,7 +134,7 @@ CREATE TABLE IF NOT EXISTS ATENDENTES (
     ID BIGINT PRIMARY KEY,
     ID_PESSOA BIGINT,
     SALARIO NUMERIC(10, 2),
-    CONSTRAINT FK_PESSOA_ATENDENTE FOREIGN KEY ID_PESSOA REFERENCES PESSOAS (ID),
+    CONSTRAINT FK_PESSOA_ATENDENTE FOREIGN KEY (ID_PESSOA) REFERENCES PESSOAS (ID),
     CONSTRAINT CK_SALARIO_ATENDENTE CHECK (SALARIO BETWEEN 2000 AND 40000)
 );
 
