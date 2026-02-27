@@ -186,7 +186,10 @@ Para fazer com que o script possa ser executado múltiplas vezes sem erro. Use `
 
 Requisitos funcionais:
 
-- Visões: Em construção...
+- Visões
+  - Lista de atendentes por fila (nome, fila, data de atendimento)
+  - Lista de veículos e seus motoristas (veículo, motorista, data do aluguel)
+  - Lista de animais e seus donos (animal, dono, data do atendimento)
 - Procedures: Em construção...
 - Triggers: Em contrução...
 
