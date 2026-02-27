@@ -148,7 +148,7 @@ INSERT INTO ATENDENTES (ID, ID_PESSOA, SALARIO) VALUES
 INSERT INTO PESSOAS (ID, NOME, DATA_NASCIMENTO, ID_SEXO, EMAIL) VALUES 
     (11, 'Belfast', '2021-03-01', 1, 'belfast.rei@gondor.com');
 -- ERROR:  new row for relation "pessoas" violates check constraint "chk_idade_minima"
-Failing row contains (11, Belfast, 2021-03-01, 1, belfast.rei@gondor.com). 
+--Failing row contains (11, Belfast, 2021-03-01, 1, belfast.rei@gondor.com). 
 
 ```
 
