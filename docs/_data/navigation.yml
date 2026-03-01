@@ -281,9 +281,8 @@ soberania-digital:
         url: /curso/soberania-digital/desigualdade-automatizada/
       - title: Capitalismo de Vigilância
         url: /curso/soberania-digital/capitalismo-de-vigilancia/
-
-
-  
+      - title: Cibersegurança e Governança digital
+        url: /curso/soberania-digital/ciberseguranca-e-governanca-digital/
 
 # Configurações do menu
 menu_config:

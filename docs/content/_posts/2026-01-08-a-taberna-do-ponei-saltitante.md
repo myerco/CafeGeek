@@ -1,5 +1,5 @@
 ---
-title: A Taberna do ponei saltitante
+title: A Taberna do pônei saltitante
 excerpt: Modelo de dados da taberna
 categories:
   - "Banco de Dados"

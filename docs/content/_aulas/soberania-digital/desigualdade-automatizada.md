@@ -5,7 +5,8 @@ date: 2026-02-16
 categories:
   - soberania-digital
 tags: [algoritmos, inteligência artificial, soberania digital, machine learning, ética digital]
-layout: single
+sidebar:
+  nav: soberania-digital
 ---
 
 Este relatório sintetiza as discussões da terceira aula do curso sobre Soberania Digital, abordando a natureza dos algoritmos, a evolução da Inteligência Artificial e as implicações políticas e sociais dessas tecnologias.

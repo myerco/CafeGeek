@@ -144,7 +144,7 @@ CREATE VIEW alunos_maiores AS
     ref="https://learnomate.org/oracle-dba-architecture/https://learnomate.org/oracle-dba-architecture/"
 %}
 
-## Exemplo de Estrutura Técnica: Oracle
+### Exemplo de Estrutura Técnica: Oracle
 
 ```sql
 -- Criação de tablespace (Oracle)

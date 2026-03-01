@@ -5,6 +5,8 @@ date: 2026-02-16
 categories:
   - soberania-digital
 tags: [internet das coisas, indústria 4.0, automação, soberania digital, robótica]
+sidebar:
+  nav: soberania-digital
 ---
 
 Este relatório sintetiza os conteúdos da Aula 04 do curso ministrado por Fernando Horta, intitulada "Internet das Coisas (IoT)", integrante da série sobre Soberania Digital no novo cenário internacional.
