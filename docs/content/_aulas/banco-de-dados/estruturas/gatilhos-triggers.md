@@ -65,7 +65,7 @@ graph TD
 ```sql
 CREATE TRIGGER verifica_salario 
 BEFORE delete OR insert OR update
-ON empregado
+ON atendentes
 FOR EACH ROW
 BEGIN
     IF(TO_CHAR(SYSDATE, 'DY') = 'SAT' OR TO_CHAR(SYSDATE, 'DY') = 'SUN') THEN  
@@ -99,12 +99,13 @@ $$ LANGUAGE plpgsql;
 
 -- Trigger associada à tabela empregado
 CREATE TRIGGER verifica_salario
-BEFORE INSERT OR UPDATE OR DELETE ON empregado
+BEFORE INSERT OR UPDATE OR DELETE ON atendentes
 FOR EACH ROW EXECUTE FUNCTION verifica_salario();
 ```
 
 ```sql
-INSERT INTO empregado
-VALUES (1, 'Sarah Freitas', 10000, 2);
+-- Inserindo um novo atendente da tabela pessoa
+INSERT INTO atendentes
+VALUES (1, 1, 10000);
 -- Se o comando é executado em horário não previsto na trigger, exemplo 07h, a inserção não é realizada
 ```

@@ -1,5 +1,5 @@
 ---
-title: Soberania digital e o novo cenário internacional
+title: A transoformação digital
 excerpt: Explore como a transformação digital redefine a soberania estatal no século XXI. Entenda o domínio das Big Techs, a explosão de dados e os novos pilares que os Estados precisam adotar para manter autonomia política e proteger seus cidadãos em um mundo cada vez mais conectado e controlado por algoritmos.
 date: 2026-02-16
 categories:

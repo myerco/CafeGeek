@@ -73,50 +73,23 @@ graph TD
 CREATE VIEW nome_da_view AS subquery
 ```
 
-- Exemplos mostram a criação de visões para filtrar funcionários com salários específicos e a execução de consultas normais sobre essas visões.
+**Observação:** Utilize a estrutura de tabelas da aula [Restrições de Integridade](https://cafegeek.eti.br/curso/banco-de-dados/modelo-de-dados/restricoes-de-integridade/)
+{: .notice}
 
-Implementando a tabela de funcionários.
-
-```sql
-CREATE TABLE FUNCIONARIOS (
-  ID SERIAL PRIMARY KEY,
-  NOME VARCHAR(100),
-  MATRICULA VARCHAR(20) UNIQUE,
-  DATA_NASCIMENTO DATE
-);
-```
-
-Inserindo funcionários na tabela.
+Implementando a VIEW apresentando somente um atributo da tabela e calculando a idade
 
 ```sql
-INSERT INTO
-  FUNCIONARIOS (NOME, MATRICULA, DATA_NASCIMENTO)
-VALUES
-  ('Joel Miller', 'TLOU-001', '1981-09-26'),
-  ('Ellie Williams', 'TLOU-002', '2019-04-14'),
-  ('Tommy Miller', 'TLOU-003', '1985-05-12'),
-  ('Tess Servopoulos', 'TLOU-004', '1978-08-20'),
-  ('Bill', 'TLOU-005', '1975-11-30'),
-  ('Frank', 'TLOU-006', '1976-03-15'),
-  ('Marlene', 'TLOU-007', '1980-01-10'),
-  ('Riley Abel', 'TLOU-008', '2018-02-25'),
-  ('Henry Burrell', 'TLOU-009', '1998-06-05'),
-  ('Sam Burrell', 'TLOU-010', '2010-09-12');
-```
-
-Implementando a VIEW vw_funcionarios apresentando somente um atributo da tabela e calculando a idade
-
-```sql
-CREATE OR REPLACE VIEW VW_FUNCIONARIOS AS
+CREATE OR REPLACE VIEW VW_ATENDENTES AS
 SELECT
   NOME,
   EXTRACT(
-      YEAR
-      FROM
-          AGE (CURRENT_DATE, DATA_NASCIMENTO)
+    YEAR
+    FROM
+      AGE (CURRENT_DATE, DATA_NASCIMENTO)
   ) AS IDADE
 FROM
-  FUNCIONARIOS;
+  PESSOAS P
+  INNER JOIN ATENDENTES A ON A.ID_PESSOA = P.ID;
 ```
 
 Implementando uma VIEW para esconder a complexidade de uma consulta que apresenta a diferença de idade entre funcionários.
@@ -150,7 +123,7 @@ SELECT * FROM VW_FUNCIONARIOS_POR_IDADE;
 
 Podemos construir um schema com todas as visões das tabelas, separando assim a estrutura das tabelas.
 
-**OBSERVAÇÃO**: feito isso e aliado a uma administração de ROLEs aumenta a segurança dos dados.
+**Observação**: feito isso e aliado a uma administração de ROLEs aumenta a segurança dos dados.
 {: .notice}
 
 Repare que o usuário do esquema consulta é diferente do usuário de produção

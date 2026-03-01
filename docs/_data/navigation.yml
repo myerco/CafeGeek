@@ -249,11 +249,11 @@ introducao-a-banco-de-dados:
   - title: ESTRUTURAS 
     children:                
       - title: Estruturas de Gerenciadores de Banco de Dados 
-        url: /curso/banco-de-dados/estruturas/estruturas-de-gerenciadores-de-banco-de-dados
-      - title: Visões e restricoes de acesso  
-        url: /curso/banco-de-dados/estruturas/visoes-e-restricoes-de-acesso
+        url: /curso/banco-de-dados/estruturas/estruturas-de-gerenciadores-de-banco-de-dados/
+      - title: Visões e restriçõoes de acesso  
+        url: /curso/banco-de-dados/estruturas/visoes-e-restricoes-de-acesso/
       - title: Programação de Banco de Dados
-        url: /curso/banco-de-dados/estruturas/programacao-de-banco-de-dados        
+        url: /curso/banco-de-dados/estruturas/programacao-de-banco-de-dados/        
       - title: Gatilhos (Triggers)
         url: /curso/banco-de-dados/estruturas/gatilhos-triggers/        
       - title: Processamento e otimização de consultas
@@ -271,12 +271,19 @@ soberania-digital:
     url: /curso/soberania-digital/
   - title: Conceitos fundamentais
     children:                    
-      - title: Soberania digital e o novo cenário internacional
-        url: /curso/soberania-digital/soberania-digital-e-o-novo-cenario-internacional
-      - title: A transformação digital, ciberespaço e soberania digital
-        url: /curso/soberania-digital/transformacao-digital-ciberespaco-e-soberania-digital
+      - title: A transformação digital
+        url: /curso/soberania-digital/a-transformacao-digital/
+      - title: Conceito de ciberespaço
+        url: /curso/soberania-digital/conceito-de-ciberespaco/
       - title: Capitalismo de Vigilância, Desigualdade e Meio Ambiente
-        url: /curso/soberania-digital/capitalismo-de-vigilancia-desigualdade-e-meio-ambiente        
+        url: /curso/soberania-digital/capitalismo-de-vigilancia-desigualdade-e-meio-ambiente/        
+      - title: Internet das Coisas e a internet da gente
+        url: /curso/soberania-digital/internet-das-coisas-e-a-internet-da-gente/
+      - title: Desigualdade automazida 
+        url: /curso/soberania-digital/desigualdade-automatizada/
+      - title: Capitalismo de Vigilância
+        url: /curso/soberania-digital/capitalismo-de-vigilancia/
+
 
   
 

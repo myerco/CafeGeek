@@ -12,15 +12,15 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-- SGBD’s permitem a manipulação da informação no banco de dados usando um esquema de objetos procedural de unidades de programa. No ORACLE isso é feito através do PL/SQL.
-- Procedures e Functions são exemplos do PL/SQL.
-- Uma Procedure ou Function é um esquema de objetos que logicamente agrupam um conjunto de comandos SQL e outros comandos PL/SQL.
-- São armazenados dentro do banco de dados.
+- SGBD’s permitem a manipulação da informação no banco de dados usando um esquema de objetos procedural de unidades de programa. No ORACLE isso é feito através do PL/SQL
+- Procedures e Functions são exemplos do PL/SQL
+- Uma Procedure ou Function é um esquema de objetos que logicamente agrupam um conjunto de comandos SQL e outros comandos PL/SQL
+- São armazenados dentro do banco de dados
 
 <div class="mermaid">
 sequenceDiagram
-    participant C as Cliente (Aplicação/User)
-    box "Servidor PostgreSQL" #f9f9f9
+    participant C as Cliente (Aplicação/Usuário)
+    box Servidor PostgreSQL #f9f9f9
     participant S as Motor do Banco de Dados
     participant P as Stored Procedure (PL/pgSQL)
     participant D as Tabelas (Dados)
@@ -35,9 +35,9 @@ sequenceDiagram
     
     rect rgb(240, 240, 240)
         Note right of P: Processamento interno no Servidor
-        P->>D: Executa Consultas (SELECT/INSERT/UPDATE)
+        P-->>D: Executa Consultas (SELECT/INSERT/UPDATE)
         D-->>P: Retorna resultados intermediários
-        P->>P: Aplica lógica de programação (IF, LOOP, etc)
+        P-->>P: Aplica lógica de programação (IF, LOOP, etc)
     end
 
     P-->>S: Finaliza execução/Retorna valores
@@ -46,10 +46,9 @@ sequenceDiagram
     Note over C, S: Menor tráfego de rede: Lógica roda próxima ao dado
 </div>
 
-O Oracle utiliza a linguagem procedural **PL/SQL** para agrupar comandos SQL e lógica de programação.
+## Características
 
 - **Procedures e Functions:** São esquemas de objetos armazenados dentro do banco.
-- **Vantagens:** Melhoria na segurança (restrição de operações), performance (redução de tráfego na rede), integridade e compartilhamento de memória.
 - **Elementos:** Inclui variáveis, cursores, exceções e estruturas de controle como `IF...THEN`, `LOOP` e `FOR`.
 
 ## Vantagens
@@ -59,7 +58,9 @@ O Oracle utiliza a linguagem procedural **PL/SQL** para agrupar comandos SQL e l
 - Alocação de memória – Somente uma cópia da procedure encontra-se na memória e esta é compartilhada;
 - Integridade – Garantem a integridade e consistência das aplicações.
 
-## PL/SQL ORACLE
+## PL/SQL no ORACLE
+
+O Oracle utiliza a Linguagem Procedural **PL/SQL** para agrupar comandos SQL e lógica de programação.
 
 - É uma linguagem procedural que provê a capacidade para definir e executar unidades de programa, como por exemplo:
   - Procedures;
@@ -74,7 +75,7 @@ O Oracle utiliza a linguagem procedural **PL/SQL** para agrupar comandos SQL e l
   - ELSE;
   - END IF;
 
-## Programação Procedural no PostgreSQL (PL/pgSQL)
+## PL/pgSQL no PostgreSQL
 
 O PostgreSQL utiliza a linguagem procedural **PL/pgSQL** para criar funções e procedures armazenadas no banco de dados, de forma semelhante ao Oracle.
 
@@ -84,32 +85,177 @@ O PostgreSQL utiliza a linguagem procedural **PL/pgSQL** para criar funções e 
   - Funções sempre retornam um valor; procedures não retornam valor diretamente.
   - Não há packages como no Oracle.
 
+**Observação:** Utilize a estrutura de tabelas da aula [Restrições de Integridade](https://cafegeek.eti.br/curso/banco-de-dados/modelo-de-dados/restricoes-de-integridade/)
+{: .notice}
+
 ### Sintaxe PostgreSQL
 
 ```sql
--- Função que insere um empregado
-CREATE OR REPLACE FUNCTION inserir_empregado(p_nome VARCHAR, p_sal NUMERIC, p_id_dept INTEGER)
-RETURNS VOID AS $$
+-- Função que insere uma pessoa 
+CREATE OR REPLACE FUNCTION INSERIR_PESSOA (
+  PID BIGINT,
+  PNOME VARCHAR,
+  PDATA_NASCIMENTO DATE,
+  PID_SEXO INT,
+  PEMAIL VARCHAR
+) RETURNS VOID AS $$
 BEGIN
-  INSERT INTO empregado (nome, salario, id_dept)
-  VALUES (p_nome, p_sal, p_id_dept);
+  INSERT INTO PESSOAS (ID, NOME, DATA_NASCIMENTO, ID_SEXO, EMAIL) VALUES 
+    (pid, pnome, pdata_nascimento, pid_sexo,pemail);
+
 END;
-$$ LANGUAGE plpgsql;
+$$ LANGUAGE PLPGSQL;
 
--- Chamada da função
-SELECT inserir_empregado('Frodo', 3000, 1);
+-- Chamada da função para inserir uma pessoa
+SELECT
+  INSERIR_PESSOA (
+    12,
+    'Frodo',
+    '1987-03-01',
+    1,
+    'frodo.rei@gondor.com'
+  );
 
--- Procedure (PostgreSQL 11+)
-CREATE OR REPLACE PROCEDURE remover_departamento(p_id_dept INTEGER)
-LANGUAGE plpgsql
-AS $$
+-- Removendo pessoas
+CREATE OR REPLACE PROCEDURE REMOVER_PESSOA (PID BIGINT) LANGUAGE PLPGSQL AS $$
 BEGIN
-  DELETE FROM departamento WHERE id_dept = p_id_dept;
+  DELETE FROM pessoas WHERE id = pid;
 END;
 $$;
 
--- Chamada da procedure
-CALL remover_departamento(2);
+-- Chamada da procedure para remover uma pessoa
+CALL REMOVER_PESSOA (12);
+```
+
+### Usando funções para controle de segurança e auditoria
+
+```sql
+CREATE OR REPLACE FUNCTION INSERIR_PESSOA (
+    PID BIGINT, 
+    PNOME VARCHAR, 
+    PDATA_NASCIMENTO DATE, 
+    PID_SEXO INT, 
+    PEMAIL VARCHAR
+) RETURNS VOID AS $$
+DECLARE
+    V_USUARIO_ATUAL VARCHAR := SESSION_USER; -- Captura o usuário logado
+BEGIN
+    -- 1. Validação de Segurança (Somente yerco@mail)
+    IF V_USUARIO_ATUAL != 'yerco@mail' THEN
+        RAISE EXCEPTION 'Acesso Negado: O usuário % não tem permissão para inserir registros.', V_USUARIO_ATUAL;
+    END IF;
+
+    -- 2. Inserção Principal
+    INSERT INTO PESSOAS (ID, NOME, DATA_NASCIMENTO, ID_SEXO, EMAIL) 
+    VALUES (PID, PNOME, PDATA_NASCIMENTO, PID_SEXO, PEMAIL);
+
+    -- 3. Registro na Log de Auditoria
+    INSERT INTO LOG_SISTEMA (ID_REGISTRO, DETALHES)
+    VALUES (PID, 'Inserção realizada com sucesso por ' || V_USUARIO_ATUAL);
+
+EXCEPTION
+    WHEN OTHERS THEN
+        -- Captura erros de PK duplicada ou outros problemas de banco
+        RAISE EXCEPTION 'Falha na operação: %', SQLERRM;
+END;
+$$ LANGUAGE PLPGSQL;
+```
+
+### Usando procedures para dados estatísticos
+
+```sql
+-- Criação da tabela de estatísticas para armazenamento de dados agrupados
+CREATE TABLE ESTATISTICAS_SISTEMA (
+    ID_ESTATISTICA SERIAL PRIMARY KEY,
+    DATA_COLETA TIMESTAMP DEFAULT CURRENT_TIMESTAMP, -- Quando o dado foi gerado
+    
+    -- Decomposição do Evento
+    ANO INT NOT NULL,
+    MES INT NOT NULL,
+    DIA INT NOT NULL,
+    TRIMESTRE INT NOT NULL,
+    SEMESTRE INT NOT NULL,
+    
+    TIPO_EVENTO VARCHAR(100) NOT NULL, 
+    -- Exemplos: 'Atendentes por ano e salário', 'Quantidade de Pessoas por idade'
+    
+    VALOR_EVENTO JSONB NOT NULL 
+    -- Armazena o agrupamento (ex: {"salario_medio": 5000, "total": 10})
+);
+
+-- Procedure para calculdo dos dados estatísticos
+CREATE OR REPLACE PROCEDURE GERAR_ESTATISTICAS_ATENDENTES()
+LANGUAGE PLPGSQL AS $$
+DECLARE
+    V_DATA TIMESTAMP := CURRENT_TIMESTAMP;
+    V_ANO INT := EXTRACT(YEAR FROM CURRENT_DATE);
+    V_MES INT := EXTRACT(MONTH FROM CURRENT_DATE);
+    V_DIA INT := EXTRACT(DAY FROM CURRENT_DATE);
+    V_TRIMESTRE INT := EXTRACT(QUARTER FROM CURRENT_DATE);
+    V_SEMESTRE INT := CASE WHEN EXTRACT(MONTH FROM CURRENT_DATE) <= 6 THEN 1 ELSE 2 END;
+BEGIN
+    -- 1. Estatística: Atendentes por Salário Médio
+    INSERT INTO ESTATISTICAS_SISTEMA (DATA_COLETA, ANO, MES, DIA, TRIMESTRE, SEMESTRE, TIPO_EVENTO, VALOR_EVENTO)
+    SELECT 
+        V_DATA, V_ANO, V_MES, V_DIA, V_TRIMESTRE, V_SEMESTRE,
+        'Atendentes por ano e salário',
+        jsonb_build_object(
+            'total_atendentes', COUNT(*),
+            'media_salarial', ROUND(AVG(SALARIO), 2),
+            'maior_salario', MAX(SALARIO)
+        )
+    FROM ATENDENTES;
+
+    -- 2. Estatística: Quantidade de Pessoas por faixa etária
+    INSERT INTO ESTATISTICAS_SISTEMA (DATA_COLETA, ANO, MES, DIA, TRIMESTRE, SEMESTRE, TIPO_EVENTO, VALOR_EVENTO)
+    SELECT 
+        V_DATA, V_ANO, V_MES, V_DIA, V_TRIMESTRE, V_SEMESTRE,
+        'Quantidade de Pessoas por idade',
+        jsonb_object_agg(faixa_etaria, total)
+    FROM (
+        SELECT 
+            CASE 
+                WHEN EXTRACT(YEAR FROM AGE(DATA_NASCIMENTO)) < 18 THEN 'Menor de 18'
+                WHEN EXTRACT(YEAR FROM AGE(DATA_NASCIMENTO)) BETWEEN 18 AND 60 THEN 'Adulto'
+                ELSE 'Idoso'
+            END as faixa_etaria,
+            COUNT(*) as total
+        FROM PESSOAS
+        GROUP BY 1
+    ) subquery;
+
+    COMMIT;
+END;
+$$;
+
+-- Chamada da procedure para gerar estatísticas
+CALL GERAR_ESTATISTICAS_ATENDENTES();
+
+-- Implementando um visão para facilitar a visualização das estatísticas
+CREATE OR REPLACE VIEW VW_ESTATISTICAS_DASHBOARD AS
+SELECT 
+    ID_ESTATISTICA,
+    DATA_COLETA,
+    -- Colunas de Tempo
+    ANO,
+    MES,
+    DIA,
+    TRIMESTRE,
+    SEMESTRE,
+    TIPO_EVENTO,
+    
+    -- Extração Dinâmica do JSON (Campos de Salário)
+    (VALOR_EVENTO->>'total_atendentes')::INT AS QTD_ATENDENTES,
+    (VALOR_EVENTO->>'media_salarial')::NUMERIC(10,2) AS MEDIA_SALARIAL,
+    (VALOR_EVENTO->>'maior_salario')::NUMERIC(10,2) AS TETO_SALARIAL,
+    
+    -- Extração das Faixas Etárias (Campos de Pessoas)
+    (VALOR_EVENTO->>'Menor de 18')::INT AS QTD_MENORES,
+    (VALOR_EVENTO->>'Adulto')::INT AS QTD_ADULTOS,
+    (VALOR_EVENTO->>'Idoso')::INT AS QTD_IDOSOS
+
+FROM ESTATISTICAS_SISTEMA;
+
 ```
 
 ### Recursos do PL/pgSQL
@@ -159,4 +305,3 @@ BEGIN
   RETURN (tot_empno);
 END;
 ```
-

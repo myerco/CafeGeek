@@ -1,5 +1,5 @@
 ---
-title: Transformação Digital, Ciberespaço e Soberania Digital
+title: Conceito de Ciberespaço
 excerpt: Analise as duas perspectivas da transformação digital, entenda o ciberespaço como espaço artificial complexo e descubra como a soberania estatal deve ser redefinida para o século XXI. Conheça os quatro pilares da nova Soberania Digital e explore as questões centrais sobre controle público vs. privado no ambiente digital.
 date: 2026-02-16
 categories:
@@ -53,3 +53,4 @@ A nova **Soberania Digital** deve basear-se em quatro novos pilares:
 Questionamentos críticos sobre a natureza do espaço digital:
 
 - Se ele é realmente criado e usado para o benefício humano, e se o seu controle deve ser regido pela **lógica privada da propriedade** ou por **lógicas públicas e coletivas**. O ponto central da disputa soberana reside em como o Estado poderá proteger os componentes do ciberespaço em um ambiente onde o componente humano pode deixar de ser decisivo no desenvolvimento tecnológico.
+- Como controlar, conter, punir, taxar, proteger todos os componentes do ciberespaço.
