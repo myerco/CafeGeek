@@ -25,6 +25,7 @@ sidebar:
 
 Toda grande jornada começa em um **Mundo Comum**, um lugar familiar onde a vida segue seu ritmo habitual. O herói tem uma consciência limitada de que um problema se avizinha. Para nossa aventura, nosso herói — você — chega a um lugar que precisa de ajuda, mesmo que seu gerente ainda não saiba exatamente como.
 
+> ![thought-bubble](https://game-icons.net/icons/ffffff/000000/1x1/seregacthtuf/thought-bubble.svg){: .align-left width="64"}
 > Nosso "Mundo Comum" é a gestão da Taberna do Pônei Saltitante. Seu proprietário, Cevado Carrapicho, um homem ocupado e um tanto esquecido, sabe que seu negócio está crescendo, mas suas anotações em pergaminhos e sua memória já não são suficientes. Ele tem a **consciência limitada de um problema**: a desorganização. Tudo é feito "na raça", em planilhas mentais e pedidos anotados em guardanapos.
 {: .notice--info}
 
@@ -66,25 +67,28 @@ Como um aventureiro preparando sua mochila, seu primeiro passo é criar as ferra
 
 Siga os passos abaixo:
 
-1. **Forje seu Diário de Bordo:** Crie ou utilize sua conta no **GitHub**. Este será o registro de toda a sua jornada.
-2. **Nomeie sua Aventura:** Crie um novo repositório com um nome para o projeto (ex: `taverna-ponei-saltitante-db`).
-3. **Desenhe o Primeiro Mapa (`README.md`):** No arquivo `README.md` do seu repositório, você irá detalhar o plano da sua missão. Ele deve incluir:
+1. ![quill-ink](https://game-icons.net/icons/000000/transparent/1x1/lorc/quill-ink.svg){:width="48" .align-left}
+**Forje seu Diário de Bordo:** Crie ou utilize sua conta no **GitHub**. Este será o registro de toda a sua jornada.
+2. ![bookshelf](https://game-icons.net/icons/000000/transparent/1x1/delapouite/bookshelf.svg){:width="48" .align-left}
+**Nomeie sua Aventura:** Crie um novo repositório com um nome para o projeto (ex: `taverna-ponei-saltitante-db`).
+3. ![treasure-map](https://game-icons.net/icons/000000/transparent/1x1/lorc/treasure-map.svg){:width="48" .align-left} **Desenhe o Primeiro Mapa (`README.md`):** No arquivo `README.md` do seu repositório, você irá detalhar o plano da sua missão. Ele deve incluir:
     - **Apresentação da Missão:** Um breve resumo do tema (gerenciar a Taberna do Pônei Saltitante) e seu objetivo (criar um banco de dados para controlar clientes, produtos e vendas).
     - **O Mapa do Mundo (Diagrama MERMAID):** Crie um **Modelo de Entidade e Relacionamento (MER)** inicial usando a sintaxe do Mermaid. Este diagrama representará as primeiras tabelas e suas relações. Pense nas entidades principais: `Clientes`, `Produtos`, `Pedidos`... Como elas se conectam?
-4. **Marque seu Ponto de Partida:** Faça o `commit` inicial no seu repositório com o `README.md` contendo o diagrama. Esta será a versão "0.1" da sua jornada.
-5. **Compartilhe suas Intenções:** Compartilhe o link do seu repositório no ambiente da disciplina para que seu progresso possa ser avaliado.
+4. ![position-marker](https://game-icons.net/icons/000000/transparent/1x1/delapouite/position-marker.svg){:width="48" .align-left} **Marque seu Ponto de Partida:** Faça o `commit` inicial no seu repositório com o `README.md` contendo o diagrama. Esta será a versão "0.1" da sua jornada.
+5. ![mailbox](https://game-icons.net/icons/000000/transparent/1x1/delapouite/mailbox.svg){:width="48" .align-left}
+**Compartilhe suas Intenções:** Compartilhe o link do seu repositório no ambiente da disciplina para que seu progresso possa ser avaliado.
 
 ## Ferramentas do Aventureiro
 
 Recursos essenciais para completar sua missão:
 
-- **Cartografia (Diagramas):**
+- ![compass](https://game-icons.net/icons/000000/transparent/1x1/lorc/compass.svg){:width="32"} **Cartografia (Diagramas):**
   - [Mermaid Live](https://mermaid.live/) (Editor online para criar seu diagrama)
   - [Mermaid ERD Syntax](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
-- **Diário de Bordo:**
+- ![book](https://game-icons.net/icons/000000/transparent/1x1/delapouite/stabbed-note.svg){:width="32"} **Diário de Bordo:**
   - [Github](https://github.com/)
-- **Conhecimento Ancestral:**
+- ![scroll-unfurled](https://game-icons.net/icons/000000/transparent/1x1/lorc/scroll-unfurled.svg){:width="32"} **Conhecimento Ancestral:**
   - [A Jornada do Herói](https://viverdeblog.com/jornada-do-heroi/)
   - [Modelo de Entidade e Relacionamento](https://cafegeek.eti.br/curso/banco-de-dados/modelo-de-dados/modelo-de-entidade-e-relacionamento/)
-- **A Forja (Onde a magia acontece):**
+- ![anvil](https://game-icons.net/icons/000000/transparent/1x1/lorc/anvil.svg){:width="32"} **A Forja (Onde a magia acontece):**
   - [Banco PostgreSQL para implementações](https://comp-pga.qute.com.br/login?next=/)

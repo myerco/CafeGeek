@@ -265,7 +265,7 @@ introducao-a-banco-de-dados:
       - title: Banco de Dados Distribuídos
         url: /curso/banco-de-dados/estruturas/banco-de-dados-distribuidos/   
   - title: A JORNADA DO HERÓI
-    icon: fas fa-user-circle-o
+    icon: fas fa-user
     url: /curso/banco-de-dados/  
   - title: ATO I
     children:
