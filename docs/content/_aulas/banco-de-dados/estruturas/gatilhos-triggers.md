@@ -81,7 +81,12 @@ END;
 
 ## Sintaxe PostgreSQL
 
-No PostgreSQL, triggers são implementados com uma função procedural e a declaração do gatilho:
+No PostgreSQL, triggers são implementados com uma função procedural e a declaração do gatilho.
+
+**Observação:** Utilize a estrutura de tabelas da aula [Restrições de Integridade](https://cafegeek.eti.br/curso/banco-de-dados/modelo-de-dados/restricoes-de-integridade/)
+{: .notice}
+
+### Exemplo de trigger de segurança
 
 ```sql
 -- Função que será chamada pelo trigger
@@ -97,7 +102,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
--- Trigger associada à tabela empregado
+-- Trigger associada à tabela atendendes
 CREATE TRIGGER verifica_salario
 BEFORE INSERT OR UPDATE OR DELETE ON atendentes
 FOR EACH ROW EXECUTE FUNCTION verifica_salario();
@@ -108,4 +113,133 @@ FOR EACH ROW EXECUTE FUNCTION verifica_salario();
 INSERT INTO atendentes
 VALUES (1, 1, 10000);
 -- Se o comando é executado em horário não previsto na trigger, exemplo 07h, a inserção não é realizada
+```
+
+### Exemplo de trigger de auditoria
+
+```sql
+-- Função que será chamada pelo trigger
+CREATE OR REPLACE FUNCTION FN_AUDITORIA_ATENDENTES() RETURNS TRIGGER AS $$
+BEGIN
+    IF (TG_OP = 'INSERT') THEN
+        INSERT INTO LOG_SISTEMA (TABELA_AFETADA, OPERACAO, ID_REGISTRO, DETALHES)
+        VALUES ('ATENDENTES', 'INSERT', NEW.ID, 
+                'Novo atendente inserido. Salário inicial: ' || NEW.SALARIO);
+        RETURN NEW;
+
+    ELSIF (TG_OP = 'UPDATE') THEN
+        INSERT INTO LOG_SISTEMA (TABELA_AFETADA, OPERACAO, ID_REGISTRO, DETALHES)
+        VALUES ('ATENDENTES', 'UPDATE', NEW.ID, 
+                'Salário alterado de ' || OLD.SALARIO || ' para ' || NEW.SALARIO);
+        RETURN NEW;
+
+    ELSIF (TG_OP = 'DELETE') THEN
+        INSERT INTO LOG_SISTEMA (TABELA_AFETADA, OPERACAO, ID_REGISTRO, DETALHES)
+        VALUES ('ATENDENTES', 'DELETE', OLD.ID, 
+                'Atendente removido. Último salário: ' || OLD.SALARIO);
+        RETURN OLD;
+    END IF;
+    
+    RETURN NULL;
+END;
+$$ LANGUAGE PLPGSQL;
+
+-- Trigger associada à tabela atendendes
+CREATE TRIGGER TRG_AUDITORIA_ATENDENTES
+AFTER INSERT OR UPDATE OR DELETE ON ATENDENTES
+FOR EACH ROW
+EXECUTE FUNCTION FN_AUDITORIA_ATENDENTES();
+
+-- Teste 1: Inserção
+INSERT INTO ATENDENTES (ID, ID_PESSOA, SALARIO) VALUES (1, 10, 3000);
+
+-- Teste 2: Atualização
+UPDATE ATENDENTES SET SALARIO = 5000 WHERE ID = 1;
+
+-- Teste 3: Deleção
+DELETE FROM ATENDENTES WHERE ID = 1;
+
+-- Verificar logs
+SELECT * FROM LOG_SISTEMA WHERE TABELA_AFETADA = 'ATENDENTES';
+```
+
+Versão da trigger de auditoria salvando todos os dados da tabela
+
+```sql
+CREATE OR REPLACE FUNCTION FN_AUDITORIA_ATENDENTES_JSON()
+RETURNS TRIGGER AS $$
+BEGIN
+    IF (TG_OP = 'INSERT') THEN
+        INSERT INTO LOG_SISTEMA (TABELA_AFETADA, OPERACAO, ID_REGISTRO, DETALHES)
+        VALUES ('ATENDENTES', 'INSERT', NEW.ID, 
+                jsonb_build_object('novo_registro', to_jsonb(NEW))::TEXT);
+        RETURN NEW;
+
+    ELSIF (TG_OP = 'UPDATE') THEN
+        INSERT INTO LOG_SISTEMA (TABELA_AFETADA, OPERACAO, ID_REGISTRO, DETALHES)
+        VALUES ('ATENDENTES', 'UPDATE', NEW.ID, 
+                jsonb_build_object(
+                    'antes', to_jsonb(OLD), 
+                    'depois', to_jsonb(NEW)
+                )::TEXT);
+        RETURN NEW;
+
+    ELSIF (TG_OP = 'DELETE') THEN
+        INSERT INTO LOG_SISTEMA (TABELA_AFETADA, OPERACAO, ID_REGISTRO, DETALHES)
+        VALUES ('ATENDENTES', 'DELETE', OLD.ID, 
+                jsonb_build_object('registro_removido', to_jsonb(OLD))::TEXT);
+        RETURN OLD;
+    END IF;
+    
+    RETURN NULL;
+END;
+$$ LANGUAGE PLPGSQL;
+
+-- Atualizando a associação da trigger
+
+DROP TRIGGER IF EXISTS TRG_AUDITORIA_ATENDENTES ON ATENDENTES;
+
+CREATE TRIGGER TRG_AUDITORIA_ATENDENTES
+AFTER INSERT OR UPDATE OR DELETE ON ATENDENTES
+FOR EACH ROW
+EXECUTE FUNCTION FN_AUDITORIA_ATENDENTES_JSON();
+```
+
+### Exemplo de trigger de replicação de dados
+
+Considerando a aula de [Visões e Restrições de Acesso](https://cafegeek.eti.br/curso/banco-de-dados/estruturas/visoes-e-restricoes-de-acesso/), podemos implementar a tabela `atendentes_replicados` em um esquema separado para aumentar a segurança.
+
+```sql
+CREATE OR REPLACE TABLE CONSULTA.ATENDENTES_REPLICADOS AS
+SELECT * FROM ATENDENTES;
+
+CREATE OR REPLACE FUNCTION FN_REPLICA_ATENDENTES()
+RETURNS TRIGGER AS $$
+BEGIN
+    IF (TG_OP = 'INSERT') THEN    
+      INSERT INTO ATENDENTES_REPLICADOS (ID, ID_PESSOA, SALARIO)
+      VALUES (NEW.ID, NEW.ID_PESSOA, NEW.SALARIO);
+      RETURN NEW;
+
+    ELSIF (TG_OP = 'UPDATE') THEN
+      UPDATE ATENDENTES_REPLICADOS SET SALARIO = NEW.SAL   
+      SET SALARIO = NEW.SALARIO,
+          ID_PESSOA = NEW.ID_PESSOA
+      WHERE ID = NEW.ID;
+    RETURN NEW;
+
+    ELSIF (TG_OP = 'DELETE') THEN
+      DELETE FROM ATENDENTES_REPLICADOS WHERE ID = OLD.ID;
+      RETURN OLD;
+    END IF;
+    
+    RETURN NULL;
+END;
+$$ LANGUAGE PLPGSQL
+
+CREATE TRIGGER TRG_REPLICACAO_ATENDETES
+CREATE TRIGGER TRG_AUDITORIA_ATENDENTES
+AFTER INSERT OR UPDATE OR DELETE ON ATENDENTES
+FOR EACH ROW
+EXECUTE FUNCTION FN_REPLICA_ATENDENTES();
 ```
