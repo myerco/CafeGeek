@@ -2,7 +2,8 @@
 title: Desigualdade automatizada
 excerpt: Entenda a evolução dos algoritmos e a natureza da Inteligência Artificial, descobrindo os desafios sociais e políticos dessas tecnologias. Explore os pilares éticos necessários para construir uma soberania digital robusta no século XXI.
 date: 2026-02-16
-categories: [Tecnologia, IA, Segurança,Soberania Digital]
+categories:
+  - soberania-digital
 tags: [algoritmos, inteligência artificial, soberania digital, machine learning, ética digital]
 layout: single
 ---

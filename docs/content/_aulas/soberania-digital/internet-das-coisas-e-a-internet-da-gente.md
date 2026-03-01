@@ -2,7 +2,8 @@
 title: Internet das Coisas e a internet da gente
 excerpt: Entenda como a Internet das Coisas, a Indústria 4.0 e a automação impactam a soberania digital, a economia, a sociedade e o meio ambiente, trazendo desafios e oportunidades para o futuro.
 date: 2026-02-16
-categories: [Tecnologia, IoT, Soberania Digital]
+categories:
+  - soberania-digital
 tags: [internet das coisas, indústria 4.0, automação, soberania digital, robótica]
 ---
 
