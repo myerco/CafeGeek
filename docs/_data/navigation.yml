@@ -263,7 +263,17 @@ introducao-a-banco-de-dados:
       - title: Controle de concorrência   
         url: /curso/banco-de-dados/estruturas/controle-de-concorrencia/                
       - title: Banco de Dados Distribuídos
-        url: /curso/banco-de-dados/estruturas/banco-de-dados-distribuidos/                        
+        url: /curso/banco-de-dados/estruturas/banco-de-dados-distribuidos/   
+  - title: A JORNADA DO HERÓI
+    icon: fas fa-hero
+    url: /curso/banco-de-dados/  
+  - title: ATO I
+    children:
+      - title: Mundo comum
+        url: /curso/banco-de-dados/a-jornada-do-heroi/ato-i/mundo-comum/
+      - title: O chamado à aventura
+        url: /curso/banco-de-dados/a-jornada-do-heroi/ato-i/o-chamado-a-aventura/
+                   
 
 soberania-digital:         
   - title: SOBERANIA DIGITAL

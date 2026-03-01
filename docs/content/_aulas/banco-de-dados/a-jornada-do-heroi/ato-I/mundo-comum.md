@@ -1,11 +1,11 @@
 ---
-title: Mundo Comum
-excerpt: "Conciência limitada de um problema : Esta atividade consiste em iniciar o desenvolvimento de um projeto de banco de dados relacional utilizando o PostgreSQL. O objetivo é criar a estrutura inicial do projeto, sem detalhar regras de negócio ou requisitos avançados neste momento."
+title: "O Mundo Comum"
+excerpt: "A Jornada do Herói começa. Nesta atividade, o aluno inicia o desenvolvimento de um projeto de banco de dados, criando a estrutura inicial para a Taberna do Pônei Saltitante."
 categories:
   - "banco-de-dados"
   - "a-jornada-do-heroi"
   - "ato-i"
-date: 2026-01-31T08:48:05-04:00
+date: 2026-03-01T08:48:05-04:00
 order: 2
 tags:
   - banco-de-dados
@@ -13,69 +13,78 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-Neste projeto iremos utilizar como exemplo de negócio um empreendimento famoso conhecido na literatura que é a Taberna do Pônei Saltitante 
-localizada na cidade de Bree presente nas obras de J.R.R. Tolkien.
+{% include image.html
+    src="https://i.pinimg.com/originals/3b/31/e3/3b31e34debef0e079a148d8941af59de.jpg"
+    alt="Figura: O Condado, o mundo comum de onde muitos heróis partem."
+    caption="O Condado de J.R.R. Tolkien, um perfeito 'Mundo Comum' antes da aventura começar."
+    idref="WIKIPEDIA,O Senhor dos Anéis."
+    ref="https://pt.wikipedia.org/wiki/O_Senhor_dos_An%C3%A9is"
+%}
 
-Esta atividade consiste em iniciar o desenvolvimento de um projeto de banco de dados relacional utilizando o PostgreSQL. O objetivo é criar a estrutura inicial do projeto, sem detalhar regras de negócio ou requisitos avançados neste momento.
+## Prólogo: A Consciência de um Problema
 
-O aluno chega sem saber nada de banco de dados. É o "povoado pacato" onde tudo é feito "na raça", em planilhas bagunçadas ou sem persistência.
-{: .notice}
+Toda grande jornada começa em um **Mundo Comum**, um lugar familiar onde a vida segue seu ritmo habitual. O herói tem uma consciência limitada de que um problema se avizinha. Para nossa aventura, nosso herói — você — chega a um lugar que precisa de ajuda, mesmo que seu gerente ainda não saiba exatamente como.
 
-## A cidade de Bree
+> Nosso "Mundo Comum" é a gestão da Taberna do Pônei Saltitante. Seu proprietário, Cevado Carrapicho, um homem ocupado e um tanto esquecido, sabe que seu negócio está crescendo, mas suas anotações em pergaminhos e sua memória já não são suficientes. Ele tem a **consciência limitada de um problema**: a desorganização. Tudo é feito "na raça", em planilhas mentais e pedidos anotados em guardanapos.
+{: .notice--info}
+
+Esta atividade consiste em ser o herói que dará o primeiro passo para trazer ordem a este caos, iniciando o desenvolvimento de um projeto de banco de dados relacional com PostgreSQL.
+
+## Capítulo 1: Uma Hospedaria no Fim da Terra-de-Ninguém
 
 {% include imagelocal.html
     src="a-taberna-ponei-saltitante/250px-Darek_Zabrocki_-_Morning.webp"
     alt="Figura: A cidade de Bree."
-    caption="Figura: A cidade de Bree."
+    caption="A cidade de Bree ao amanhecer."
     idref="TOLKIEN GATEWAY, Bree"
     ref="http://tolkiengateway.net/wiki/Bree"
 %}
 
-![image-left](/assets/images/a-taberna-ponei-saltitante/treasure-map.png){: .align-left} A cidade de Bree conseguiu se manter prospera próspera no Norte, apesar das guerras e tumultos que destruíram o Reino dos Dúnedain do Norte. Dizem que quando os homens foram para o Ocidente, Bree já estava lá e quando os antigos reis retornaram, encontraram Bree os esperando. Dizem que foi fundada pors homens que não voltaram para Beleriand na Primeira Era, e após a queda do Reino de Cardolan na guerra conta Angmar se tornou uma cidade independente.
+A cidade de Bree conseguiu se manter próspera no Norte, apesar das guerras que destruíram o antigo Reino dos Dúnedain. É a única região na Terra-média onde Homens e Hobbits convivem em harmonia, servindo como um importante centro comercial para Elfos, Anões e outras raças que viajam entre reinos.
 
-{% include imagelocal.html
-    src="a-taberna-ponei-saltitante/Map_of_Bree_-_LOTRO.webp"
-    alt="Figura: Mapa da cidade de Bree."
-    caption="Figura: Mapa da cidade de Bree."
-    idref="TOLKIEN GATEWAY, Bree"
-    ref="https://lotr.fandom.com/wiki/Bree"
-%}
-
-É a única região na Terra-média, onde Homens e Hobbits convivem em harmonia e e um importante centro comercial para elfos e anões, que são bens de comércio ou viagens de um reino para outro. O centro econômico e social é a **Taverna do Pônei Saltitante**, conhecida por ter as melhores bebidas do Norte.
-
-## Taverna do Pônei Saltitante e o projeto
+O coração pulsante de Bree é a **Taverna do Pônei Saltitante**, famosa por suas cervejas e por ser um refúgio para todo tipo de viajante.
 
 {% include image.html
     src="https://3.bp.blogspot.com/-bbFXtl8DLsM/WhswXoihJKI/AAAAAAAANa4/vOl3JpqLHJY9-rgkRmd87yTkF1vUZ2hAgCLcBGAs/s320/tabernaponeisaltitante.jpg"
     alt="Figura: A Taberna do Pônei Saltitante."
-    caption="Figura: A Taberna do Pônei Saltitante."
+    caption="A famosa Taberna do Pônei Saltitante."
 %}
 
-![image-left](/assets/images/a-taberna-ponei-saltitante/tavern-sign-150x150.png){: .align-left} A Taberna do Ponei Saltitante está ampliando o seu atendimento, buscando atender melhor sua variada clientela, Orc´s, Elfos, Hobbits e Humanos, este último com uma preferência estranha por dispositivos. Também se aliou ao Ferreiro da cidade a fim de diversificar os produtos, acrescentando espadas, escudos, elmos e outros.
+## Capítulo 2: O Chamado à Aventura
 
-## Os Objetivos
+![image-left](/assets/images/a-taberna-ponei-saltitante/tavern-sign-150x150.png){:width="32" .align-left} O Pônei Saltitante está expandindo seus negócios! Para melhor atender sua clientela variada de Anões, Elfos, Hobbits e Homens, a taverna agora se aliou ao Ferreiro da cidade. Além das bebidas e da hospitalidade, agora também venderá espadas, escudos e elmos.
 
-- Definir o escopo geral do projeto: criar um sistema para uma taberna que atende diversas raças e agora se aliou a um ferreiro para vender equipamentos de combate.
-- A Preparação: O herói prepara sua "mochila de equipamentos", criando o repositório no GitHub e desenhando o primeiro mapa da região através de um diagrama MERMAID inicial.
+Cevado Carrapicho está sobrecarregado. Como gerenciar o estoque de bebidas e de armas? Como registrar os pedidos de clientes tão diferentes? Ele precisa de um sistema, uma forma de organizar tudo antes que sua taverna se afogue em pergaminhos perdidos e barris não contabilizados.
 
-## Regras  
+Este é o seu **Chamado à Aventura**: usar suas habilidades para criar a estrutura de um banco de dados que salvará o Pônei Saltitante.
 
-Siga o passo a passo abaixo para implementar e apresentar seu projeto:
+---
 
-1. Crie ou utilize uma conta existente no GitHub.
-2. Crie um repositório com o nome do projeto escolhido.
-3. No README.md do repositório, inclua:
-   - Breve apresentação do projeto (tema e objetivo geral)
-   - Estrutura inicial do projeto (pastas, arquivos principais)
-   - Versão inicial do projeto
-   - Modelo de dados do projeto (utilize o diagrama MERMAID para representar as tabelas e relações)
-4. Faça o commit inicial com o README.md e o diagrama do modelo de dados.
-5. Compartilhe o link do repositório no ambiente da disciplina para avaliação.
+## Sua Missão: O Primeiro Mapa do Território
 
-## Referências
+Como um aventureiro preparando sua mochila, seu primeiro passo é criar as ferramentas e o mapa inicial para esta jornada. Sua missão é estruturar o projeto e desenhar o primeiro diagrama do modelo de dados.
 
-- [Mermaid Live](https://mermaid.live/)
-- [Mermaid Tutorials](https://mermaid.js.org/ecosystem/tutorials.html)
-- [Mermaid Entity Relationships Diagrams  - ER](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
-- [Github](https://github.com/)
-- [Banco PostgreSQL para implementações](https://comp-pga.qute.com.br/login?next=/)
+Siga os passos abaixo:
+
+1. **Forje seu Diário de Bordo:** Crie ou utilize sua conta no **GitHub**. Este será o registro de toda a sua jornada.
+2. **Nomeie sua Aventura:** Crie um novo repositório com um nome para o projeto (ex: `taverna-ponei-saltitante-db`).
+3. **Desenhe o Primeiro Mapa (`README.md`):** No arquivo `README.md` do seu repositório, você irá detalhar o plano da sua missão. Ele deve incluir:
+    - **Apresentação da Missão:** Um breve resumo do tema (gerenciar a Taberna do Pônei Saltitante) e seu objetivo (criar um banco de dados para controlar clientes, produtos e vendas).
+    - **O Mapa do Mundo (Diagrama MERMAID):** Crie um **Modelo de Entidade e Relacionamento (MER)** inicial usando a sintaxe do Mermaid. Este diagrama representará as primeiras tabelas e suas relações. Pense nas entidades principais: `Clientes`, `Produtos`, `Pedidos`... Como elas se conectam?
+4. **Marque seu Ponto de Partida:** Faça o `commit` inicial no seu repositório com o `README.md` contendo o diagrama. Esta será a versão "0.1" da sua jornada.
+5. **Compartilhe suas Intenções:** Compartilhe o link do seu repositório no ambiente da disciplina para que seu progresso possa ser avaliado.
+
+## Ferramentas do Aventureiro
+
+Recursos essenciais para completar sua missão:
+
+- **Cartografia (Diagramas):**
+  - [Mermaid Live](https://mermaid.live/) (Editor online para criar seu diagrama)
+  - [Mermaid ERD Syntax](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
+- **Diário de Bordo:**
+  - [Github](https://github.com/)
+- **Conhecimento Ancestral:**
+  - [A Jornada do Herói](https://viverdeblog.com/jornada-do-heroi/)
+  - [Modelo de Entidade e Relacionamento](https://cafegeek.eti.br/curso/banco-de-dados/modelo-de-dados/modelo-de-entidade-e-relacionamento/)
+- **A Forja (Onde a magia acontece):**
+  - [Banco PostgreSQL para implementações](https://comp-pga.qute.com.br/login?next=/)
