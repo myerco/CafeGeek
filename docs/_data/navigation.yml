@@ -273,6 +273,15 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/a-jornada-do-heroi/ato-i/mundo-comum/
       - title: O chamado à aventura
         url: /curso/banco-de-dados/a-jornada-do-heroi/ato-i/o-chamado-a-aventura/
+      - title: Recusa ao chamado
+        url: /curso/banco-de-dados/a-jornada-do-heroi/ato-i/recusa-ao-chamado/
+      - title: Encontro com o mentor
+        url: /curso/banco-de-dados/a-jornada-do-heroi/ato-i/encontro-com-o-mentor/
+  - title: ATO II
+    children:
+      - title: Cruzamento do limiar
+        url: /curso/banco-de-dados/a-jornada-do-heroi/ato-ii/cruzamento-do-limiar/
+
                    
 
 soberania-digital:         

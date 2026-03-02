@@ -17,7 +17,9 @@ sidebar:
 
 No capítulo anterior, você testemunhou o caos iminente na Taberna do Pônei Saltitante. Seu gerente, Cevado Carrapicho, fez um chamado por um herói — um mestre da organização capaz de trazer ordem ao seu negócio em expansão.
 
-Você aceitou o chamado.
+> ![thought-bubble](https://game-icons.net/icons/000000/transparent/1x1/seregacthtuf/thought-bubble.svg){: .align-left width="64"}
+> Você aceitou o chamado. É o caminho para o **aumento da consciência**.
+{: .notice--info}
 
 Agora, a verdadeira jornada começa. Você cruza o primeiro limiar, deixando o "mundo comum" para trás. Sua primeira tarefa é sentar-se com o estalajadeiro, pena e pergaminho em mãos, e entender a fundo as leis que regem seu pequeno reino. Esta é a fase de **levantamento de requisitos**.
 
@@ -88,4 +90,3 @@ Recursos essenciais para completar sua missão:
   - [Modelo de Entidade e Relacionamento](https://cafegeek.eti.br/curso/banco-de-dados/modelo-de-dados/modelo-de-entidade-e-relacionamento/)
 - ![anvil](https://game-icons.net/icons/000000/transparent/1x1/lorc/anvil.svg){:width="32"} **A Forja (Onde a magia acontece):**
   - [Banco PostgreSQL para implementações](https://comp-pga.qute.com.br/login?next=/)
-

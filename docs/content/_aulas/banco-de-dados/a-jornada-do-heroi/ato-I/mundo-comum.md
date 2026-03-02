@@ -25,7 +25,7 @@ sidebar:
 
 Toda grande jornada começa em um **Mundo Comum**, um lugar familiar onde a vida segue seu ritmo habitual. O herói tem uma consciência limitada de que um problema se avizinha. Para nossa aventura, nosso herói — você — chega a um lugar que precisa de ajuda, mesmo que seu gerente ainda não saiba exatamente como.
 
-> ![thought-bubble](https://game-icons.net/icons/ffffff/000000/1x1/seregacthtuf/thought-bubble.svg){: .align-left width="64"}
+> ![thought-bubble](https://game-icons.net/icons/000000/transparent/1x1/seregacthtuf/thought-bubble.svg){: .align-left width="64"}
 > Nosso "Mundo Comum" é a gestão da Taberna do Pônei Saltitante. Seu proprietário, Cevado Carrapicho, um homem ocupado e um tanto esquecido, sabe que seu negócio está crescendo, mas suas anotações em pergaminhos e sua memória já não são suficientes. Ele tem a **consciência limitada de um problema**: a desorganização. Tudo é feito "na raça", em planilhas mentais e pedidos anotados em guardanapos.
 {: .notice--info}
 
@@ -67,7 +67,7 @@ Como um aventureiro preparando sua mochila, seu primeiro passo é criar as ferra
 
 Siga os passos abaixo:
 
-1. ![quill-ink](https://game-icons.net/icons/000000/transparent/1x1/lorc/quill-ink.svg){:width="48" .align-left}
+1. ![quill-ink]()https://game-icons.net/icons/000000/transparent/1x1/lorc/quill-ink.svg{:width="48" .align-left}
 **Forje seu Diário de Bordo:** Crie ou utilize sua conta no **GitHub**. Este será o registro de toda a sua jornada.
 2. ![bookshelf](https://game-icons.net/icons/000000/transparent/1x1/delapouite/bookshelf.svg){:width="48" .align-left}
 **Nomeie sua Aventura:** Crie um novo repositório com um nome para o projeto (ex: `taverna-ponei-saltitante-db`).
