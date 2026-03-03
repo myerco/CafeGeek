@@ -25,8 +25,7 @@ Agora, a verdadeira jornada começa. Você cruza o primeiro limiar, deixando o "
 
 ## Capítulo 1: O Pergaminho de Regras
 
-![scroll-unfurled](https://game-icons.net/icons/000000/transparent/1x1/lorc/scroll-unfurled.svg){:width="48" .align-left}
-Cevado, aliviado com sua presença, começa a desabafar e a listar tudo o que ele precisa registrar em seu novo "sistema de organização". Ele desenrola um longo pergaminho com as regras da taverna:
+![scroll-unfurled](https://game-icons.net/icons/000000/transparent/1x1/lorc/scroll-unfurled.svg){:width="48" .align-left} Cevado, aliviado com sua presença, começa a desabafar e a listar tudo o que ele precisa registrar em seu novo "sistema de organização". Ele desenrola um longo pergaminho com as regras da taverna:
 
 ### Sobre Clientes e Funcionários
 
@@ -42,8 +41,7 @@ Cevado, aliviado com sua presença, começa a desabafar e a listar tudo o que el
 
 ## Capítulo 2: As Perguntas do Estalajadeiro
 
-![magnifying-glass](https://game-icons.net/icons/000000/transparent/1x1/lorc/magnifying-glass.svg){:width="48" .align-left}
-Depois de listar as regras, Cevado olha para você com esperança e diz: "Com este novo sistema, eu finalmente poderei ter respostas para minhas perguntas mais urgentes!":
+![magnifying-glass](https://game-icons.net/icons/000000/transparent/1x1/lorc/magnifying-glass.svg){:width="48" .align-left} Depois de listar as regras, Cevado olha para você com esperança e diz: "Com este novo sistema, eu finalmente poderei ter respostas para minhas perguntas mais urgentes!":
 
 - Quantos clientes de cada **raça** eu tenho?
 - Quantos clientes de cada **classe** (`Padrão`, `Especial`, `Classe A`) estão registrados?

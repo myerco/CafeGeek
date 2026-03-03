@@ -39,8 +39,7 @@ Este é o **Monstro da Desorganização** em sua forma mais pura. Ele gera três
 
 ## Capítulo 2: O Encontro com o Mentor
 
-![wizard-staff](https://game-icons.net/icons/000000/transparent/1x1/lorc/wizard-staff.svg){:width="48" .align-left}
-Quando o herói está prestes a ser consumido pela dúvida, um mentor aparece. Em nossa jornada, o mentor é uma sabedoria ancestral chamada **Normalização de Dados**.
+![wizard-staff](https://game-icons.net/icons/000000/transparent/1x1/lorc/wizard-staff.svg){:width="48" .align-left} Quando o herói está prestes a ser consumido pela dúvida, um mentor aparece. Em nossa jornada, o mentor é uma sabedoria ancestral chamada **Normalização de Dados**.
 
 A Normalização é um conjunto de "feitiços" (Formas Normais) que transformam tabelas monstruosas em um sistema de entidades puras, organizadas e relacionadas de forma lógica. O primeiro e mais poderoso feitiço é a **Primeira Forma Normal (1FN)**.
 
