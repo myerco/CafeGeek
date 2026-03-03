@@ -97,10 +97,16 @@ Implementando uma VIEW para esconder a complexidade de uma consulta que apresent
 ```sql
 CREATE OR REPLACE VIEW VW_FUNCIONARIOS_POR_IDADE AS 
 WITH ListaIdades AS (
-    SELECT 
-        nome, 
-        EXTRACT(YEAR FROM AGE(CURRENT_DATE, data_nascimento)) AS idade
-    FROM FUNCIONARIOS
+    SELECT
+      NOME,
+      EXTRACT(
+        YEAR
+        FROM
+          AGE (CURRENT_DATE, DATA_NASCIMENTO)
+      ) AS IDADE
+    FROM
+      PESSOAS P
+      INNER JOIN ATENDENTES A ON A.ID_PESSOA = P.ID
 )
 SELECT 
     nome,
