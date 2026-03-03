@@ -34,8 +34,8 @@ Para entender o perigo, imagine se você tentasse anotar um pedido do Pônei Sal
 Este é o **Monstro da Desorganização** em sua forma mais pura. Ele gera três maldições terríveis (conhecidas como anomalias):
 
 - ![skull-trophy](https://game-icons.net/icons/000000/transparent/1x1/sbed/death-skull.svg){:width="32"} **Anomalia de Inserção:** Como adicionar um novo produto, como "Escudo de Rohan", se ele ainda não foi vendido? Não há como, a não ser que se crie um pedido falso.
-- ![skull-trophy]((https://game-icons.net/icons/000000/transparent/1x1/sbed/death-skull.svg){:width="32"} **Anomalia de Atualização:** Se a classificação de Gimli mudar para "Classe A", você teria que encontrar e editar **todas** as linhas onde ele aparece. Um erro e os dados se tornam inconsistentes.
-- ![skull-trophy]((https://game-icons.net/icons/000000/transparent/1x1/sbed/death-skull.svg){:width="32"} **Anomalia de Exclusão:** Se Legolas deletar seu único pedido (ID 102), todas as informações sobre ele (sua raça, sua classe) são perdidas para sempre!
+- ![skull-bolt]((https://game-icons.net/icons/000000/transparent/1x1/lorc/skull-bolt.svg){:width="32"} **Anomalia de Atualização:** Se a classificação de Gimli mudar para "Classe A", você teria que encontrar e editar **todas** as linhas onde ele aparece. Um erro e os dados se tornam inconsistentes.
+- ![skull-trophy]((https://game-icons.net/icons/000000/transparent/1x1/delapouite/skull-staff.svg){:width="32"} **Anomalia de Exclusão:** Se Legolas deletar seu único pedido (ID 102), todas as informações sobre ele (sua raça, sua classe) são perdidas para sempre!
 
 ## Capítulo 2: O Encontro com o Mentor
 

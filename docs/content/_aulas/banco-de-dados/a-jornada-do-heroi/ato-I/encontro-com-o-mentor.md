@@ -23,23 +23,23 @@ No nosso projeto de banco de dados, o mentor (seu professor, um colega experient
 
 ## O Presente do Mentor: A Lente da Abstração
 
+![spell-book](https://game-icons.net/icons/ffffff/000000/1x1/delapouite/spell-book.svg){: .align-left width="96"}
+
 O mentor não lhe entrega uma espada reluzente, mas algo muito mais poderoso: uma **Lente da Abstração**. Com esta lente, você aprenderá a enxergar o esqueleto do mundo, as estruturas fundamentais que sustentam a realidade do seu projeto.
 
 As primeiras runas gravadas nesta lente são os conceitos de **Entidades** e **Atributos**.
 
-![spell-book](https://game-icons.net/icons/ffffff/000000/1x1/delapouite/spell-book.svg){: .align-left width="96"}
-
 ### O Poder das Entidades
 
-![cube](https://game-icons.net/icons/ffffff/000000/1x1/delapouite/cube.svg){: .align-right width="64"}
+![cube](https://game-icons.net/icons/ffffff/000000/1x1/delapouite/cube.svg){: .align-left width="64"}
 
 As **Entidades** são os substantivos principais do seu universo. São os "objetos de negócio" que você identificou no chamado: o `Cliente`, o `Produto`, o `Pedido`. O mentor ensina que, para dar ordem ao caos, você deve primeiro nomear os pilares da sua história. Cada entidade é um cofre que guardará informações valiosas.
 
-![gem](https.://game-icons.net/icons/ffffff/000000/1x1/lorc/gem-necklace.svg){: .align-left width="96"}
+![gem](https://game-icons.net/icons/ffffff/000000/1x1/lorc/gem-necklace.svg){: .align-left width="96"}
 
 ## O Poder dos Atributos
 
-![crystal-bards](httpshttps://game-icons.net/icons/ffffff/000000/1x1/lorc/crystal-bars.svg){: .align-right width="64"}
+![crystal-bards](https://game-icons.net/icons/ffffff/000000/1x1/lorc/crystal-bars.svg){: .align-left width="64"}
 
 Os **Atributos** são as qualidades que descrevem suas entidades. Se `Cliente` é uma entidade, então `Nome`, `Email` e `Endereço` são seus atributos. O mentor mostra que, após identificar os cofres (Entidades), você precisa decidir quais tesouros (informações) cada um deles irá guardar.
 
