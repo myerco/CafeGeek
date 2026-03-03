@@ -17,7 +17,7 @@ sidebar:
 
 Com o "Pergaminho de Regras" em mãos, a euforia inicial da aventura dá lugar a uma sombra de dúvida. "Muitas regras!", "Como relacionar Orcs, Elfos e Anões no mesmo banco de dados?", "E se um pedido tiver dez itens diferentes?".
 
-> ![maze-cornea](https://game-icons.net/icons/ffffff/000000/1x1/lorc/maze-cornea.svg){: .align-left width="64"}
+> ![maze-cornea](https://game-icons.net/icons/ffffff/000000/1x1/lorc/maze-cornea.svg){: .align-left width="48"}
 > Este é o momento da **Recusa do Chamado**. Não é sobre desistir, mas sobre reconhecer a verdadeira dimensão do dragão que você precisa enfrentar. A complexidade do mundo real é o primeiro grande monstro da sua jornada.
 {: .notice--warning}
 
@@ -33,13 +33,13 @@ Para entender o perigo, imagine se você tentasse anotar um pedido do Pônei Sal
 
 Este é o **Monstro da Desorganização** em sua forma mais pura. Ele gera três maldições terríveis (conhecidas como anomalias):
 
-- ![skull-trophy](https://game-icons.net/icons/000000/transparent/1x1/sbed/death-skull.svg){:width="32"} **Anomalia de Inserção:** Como adicionar um novo produto, como "Escudo de Rohan", se ele ainda não foi vendido? Não há como, a não ser que se crie um pedido falso.
-- ![skull-bolt]((https://game-icons.net/icons/000000/transparent/1x1/lorc/skull-bolt.svg){:width="32"} **Anomalia de Atualização:** Se a classificação de Gimli mudar para "Classe A", você teria que encontrar e editar **todas** as linhas onde ele aparece. Um erro e os dados se tornam inconsistentes.
-- ![skull-trophy]((https://game-icons.net/icons/000000/transparent/1x1/delapouite/skull-staff.svg){:width="32"} **Anomalia de Exclusão:** Se Legolas deletar seu único pedido (ID 102), todas as informações sobre ele (sua raça, sua classe) são perdidas para sempre!
+- ![skull-trophy](https://game-icons.net/icons/000000/transparent/1x1/sbed/death-skull.svg){:width="48"} **Anomalia de Inserção:** Como adicionar um novo produto, como "Escudo de Rohan", se ele ainda não foi vendido? Não há como, a não ser que se crie um pedido falso.
+- ![skull-bolt](https://game-icons.net/icons/000000/transparent/1x1/lorc/skull-bolt.svg){:width="48"} **Anomalia de Atualização:** Se a classificação de Gimli mudar para "Classe A", você teria que encontrar e editar **todas** as linhas onde ele aparece. Um erro e os dados se tornam inconsistentes.
+- ![skull-trophy](https://game-icons.net/icons/000000/transparent/1x1/delapouite/skull-staff.svg){:width="48"} **Anomalia de Exclusão:** Se Legolas deletar seu único pedido (ID 102), todas as informações sobre ele (sua raça, sua classe) são perdidas para sempre!
 
 ## Capítulo 2: O Encontro com o Mentor
 
-![wizard-staff](https://game-icons.net/icons/000000/transparent/1x1/lorc/wizard-staff.svg){:width="64" .align-left}
+![wizard-staff](https://game-icons.net/icons/000000/transparent/1x1/lorc/wizard-staff.svg){:width="48" .align-left}
 Quando o herói está prestes a ser consumido pela dúvida, um mentor aparece. Em nossa jornada, o mentor é uma sabedoria ancestral chamada **Normalização de Dados**.
 
 A Normalização é um conjunto de "feitiços" (Formas Normais) que transformam tabelas monstruosas em um sistema de entidades puras, organizadas e relacionadas de forma lógica. O primeiro e mais poderoso feitiço é a **Primeira Forma Normal (1FN)**.

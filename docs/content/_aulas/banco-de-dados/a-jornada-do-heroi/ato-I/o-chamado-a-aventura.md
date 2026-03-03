@@ -17,7 +17,7 @@ sidebar:
 
 No capítulo anterior, você testemunhou o caos iminente na Taberna do Pônei Saltitante. Seu gerente, Cevado Carrapicho, fez um chamado por um herói — um mestre da organização capaz de trazer ordem ao seu negócio em expansão.
 
-> ![thought-bubble](https://game-icons.net/icons/000000/transparent/1x1/seregacthtuf/thought-bubble.svg){: .align-left width="64"}
+> ![thought-bubble](https://game-icons.net/icons/000000/transparent/1x1/seregacthtuf/thought-bubble.svg){: .align-left width="48"}
 > Você aceitou o chamado. É o caminho para o **aumento da consciência**.
 {: .notice--info}
 
@@ -25,7 +25,7 @@ Agora, a verdadeira jornada começa. Você cruza o primeiro limiar, deixando o "
 
 ## Capítulo 1: O Pergaminho de Regras
 
-![scroll-unfurled](https://game-icons.net/icons/000000/transparent/1x1/lorc/scroll-unfurled.svg){:width="64" .align-left}
+![scroll-unfurled](https://game-icons.net/icons/000000/transparent/1x1/lorc/scroll-unfurled.svg){:width="48" .align-left}
 Cevado, aliviado com sua presença, começa a desabafar e a listar tudo o que ele precisa registrar em seu novo "sistema de organização". Ele desenrola um longo pergaminho com as regras da taverna:
 
 ### Sobre Clientes e Funcionários
@@ -42,7 +42,7 @@ Cevado, aliviado com sua presença, começa a desabafar e a listar tudo o que el
 
 ## Capítulo 2: As Perguntas do Estalajadeiro
 
-![magnifying-glass](https://game-icons.net/icons/000000/transparent/1x1/lorc/magnifying-glass.svg){:width="64" .align-left}
+![magnifying-glass](https://game-icons.net/icons/000000/transparent/1x1/lorc/magnifying-glass.svg){:width="48" .align-left}
 Depois de listar as regras, Cevado olha para você com esperança e diz: "Com este novo sistema, eu finalmente poderei ter respostas para minhas perguntas mais urgentes!":
 
 - Quantos clientes de cada **raça** eu tenho?
