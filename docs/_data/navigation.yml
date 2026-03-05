@@ -264,7 +264,9 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/estruturas/controle-de-concorrencia/                
       - title: Banco de Dados Distribuídos
         url: /curso/banco-de-dados/estruturas/banco-de-dados-distribuidos/   
-  - title: A JORNADA DO HERÓI
+
+a-taberna-do-ponei-saltitante:         
+  - title: A Taberna do Pônei Saltitante
     icon: fas fa-user
     url: /curso/banco-de-dados/  
   - title: ATO I
@@ -281,8 +283,6 @@ introducao-a-banco-de-dados:
     children:
       - title: Cruzamento do limiar
         url: /curso/banco-de-dados/a-jornada-do-heroi/ato-ii/cruzamento-do-limiar/
-
-                   
 
 soberania-digital:         
   - title: SOBERANIA DIGITAL
