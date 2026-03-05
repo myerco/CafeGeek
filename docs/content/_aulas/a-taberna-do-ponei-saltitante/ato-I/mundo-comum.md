@@ -10,7 +10,7 @@ order: 2
 tags:
   - banco-de-dados
 sidebar:
-  nav: introducao-a-banco-de-dados
+  nav: a-taberna-do-ponei-saltitante
 ---
 
 {% include image.html

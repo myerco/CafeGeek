@@ -10,7 +10,7 @@ order: 5
 tags:
   - banco-de-dados
 sidebar:
-  nav: introducao-a-banco-de-dados
+  nav: a-taberna-do-ponei-saltitante
 ---
 
 Após a relutância e as dúvidas geradas pela [Recusa ao Chamado](https://cafegeek.eti.br/curso/banco-de-dados/a-jornada-do-heroi/ato-i/recusa-ao-chamado/), o herói se vê paralisado diante da magnitude de sua tarefa. O caminho à frente é um nevoeiro de incertezas. É neste momento de hesitação que uma nova figura surge.

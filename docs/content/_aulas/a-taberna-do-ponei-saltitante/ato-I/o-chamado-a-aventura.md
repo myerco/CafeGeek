@@ -10,7 +10,7 @@ order: 3
 tags:
   - banco-de-dados
 sidebar:
-  nav: introducao-a-banco-de-dados
+  nav: a-taberna-do-ponei-saltitante
 ---
 
 ## Prólogo: A Missão é Aceita
