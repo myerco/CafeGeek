@@ -208,18 +208,18 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/conceitos-fundamentais/dados-informacao-e-conhecimento/
       - title: Sistemas de Gerenciamento de Banco de Dados
         url: /curso/banco-de-dados/conceitos-fundamentais/sistemas-gerenciadores-de-banco-de-dados/
-      - title: Ferramentas de Banco de Dados
-        url: /curso/banco-de-dados/conceitos-fundamentais/ferramentas-de-banco-de-dados/ 
       - title: Abstração de Dados
         url: /curso/banco-de-dados/conceitos-fundamentais/abstracao-de-dados/  
-      - title: Usuários de Banco de Dados 
-        url: /curso/banco-de-dados/conceitos-fundamentais/usuarios-de-banco-de-dados/
-  - title: MODELO DE DADOS
-    children:
       - title: Modelos de Dados
         url: /curso/banco-de-dados/modelo-de-dados/modelo-de-dados/
+      - title: Usuários de Banco de Dados 
+        url: /curso/banco-de-dados/conceitos-fundamentais/usuarios-de-banco-de-dados/
+  - title: MODELO RELACIONAL
+    children:
       - title: Modelo de Entidade e Relacionamento
         url: /curso/banco-de-dados/modelo-de-dados/modelo-de-entidade-e-relacionamento/
+      - title: SQL - linguagem estruturada de consulta 
+        url: /curso/banco-de-dados/sql-linguagem-estruturada-de-consulta/sql-linguagem-estruturada-de-consulta/    
       - title: Restrições de Integridade
         url: /curso/banco-de-dados/modelo-de-dados/restricoes-de-integridade/ 
       - title: Atributo Chave Primaria
@@ -230,23 +230,15 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/modelo-de-dados/integridade-referencial-e-cardinalidade/
       - title: Dependência de Existência
         url: /curso/banco-de-dados/modelo-de-dados/dependencia-de-existencia/
-  - title: RELACIONAMENTOS AVANÇADOS
-    children:
       - title: Agregação
         url: /curso/banco-de-dados/relacionamentos-avancados/agregacao/
       - title: Auto-Relacionamento
         url: /curso/banco-de-dados/relacionamentos-avancados/auto-relacionamento/
       - title: Especialização e Generalização
         url: /curso/banco-de-dados/relacionamentos-avancados/especializacao-e-generalizacao/        
-  - title: NORMALIZAÇÃO
-    children:        
       - title: Normalização de Banco de Dados
         url: /curso/banco-de-dados/normalizacao/normalizacao-de-banco-de-dados/         
-  - title: SQL - LINGUAGEM DE MANIPULAÇÃO DE DADOS 
-    children:                
-      - title: SQL - linguagem estruturada de consulta 
-        url: /curso/banco-de-dados/sql-linguagem-estruturada-de-consulta/sql-linguagem-estruturada-de-consulta/    
-  - title: ESTRUTURAS 
+  - title: ESTRUTURAS AVANÇADAS
     children:                
       - title: Estruturas de Gerenciadores de Banco de Dados 
         url: /curso/banco-de-dados/estruturas/estruturas-de-gerenciadores-de-banco-de-dados/
@@ -264,10 +256,17 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/estruturas/controle-de-concorrencia/                
       - title: Banco de Dados Distribuídos
         url: /curso/banco-de-dados/estruturas/banco-de-dados-distribuidos/   
-  - title: Atividades
+  - title: ATIVIDADES 
     children:
-      - title: Atividade Prática - Projeto de Banco de Dados com PostgreSQL
-        url: /curso/banco-de-dados/atividades/atividade-pratica-projeto-de-banco-de-dados-com-postgresql/
+      - title: Projetos de Banco de Dados
+        url: /curso/banco-de-dados/atividades/projeto-de-banco-de-dados/
+      - title: fase 1 - Modelagem e Implementação Inicial
+        url: /curso/banco-de-dados/atividades/fase-1-modelagem-e-implementacao-inicial/
+      - title: fase 2 - Inovação e Prototipação
+        url: /curso/banco-de-dados/atividades/fase-2-inovacao-e-prototipacao/
+      - title: fase 3 - Consultas e Programação Avançada
+        url: /curso/banco-de-dados/atividades/fase-3-consultas-e-programacao-avancada/
+
 
 a-taberna-do-ponei-saltitante:         
   - title: A Taberna do Pônei Saltitante
