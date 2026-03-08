@@ -24,9 +24,10 @@ Nesta fase, você irá transformar o tema escolhido em um modelo de dados e cria
 
 ## Documentação Inicial
 
-- No arquivo `README.md`, inclua:
-  - Uma apresentação do projeto (tema, objetivo geral e público-alvo).
-  - O diagrama do seu modelo de dados relacional (pode ser uma imagem ou gerado com Mermaid).
+No arquivo `README.md`, inclua:
+
+- Uma apresentação do projeto (tema, objetivo geral e público-alvo).
+- O diagrama do seu modelo de dados relacional (pode ser uma imagem ou gerado com Mermaid).
 
 ## Implementação no PostgreSQL
 

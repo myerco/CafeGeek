@@ -259,7 +259,7 @@ introducao-a-banco-de-dados:
   - title: ATIVIDADES 
     children:
       - title: Projetos de Banco de Dados
-        url: /curso/banco-de-dados/atividades/projeto-de-banco-de-dados/
+        url: /curso/banco-de-dados/atividades/projetos-de-banco-de-dados/
       - title: fase 1 - Modelagem e Implementação Inicial
         url: /curso/banco-de-dados/atividades/fase-1-modelagem-e-implementacao-inicial/
       - title: fase 2 - Inovação e Prototipação
