@@ -29,7 +29,7 @@ No arquivo `README.md`, inclua:
 - Uma apresentação do projeto (tema, objetivo geral e público-alvo).
 - O diagrama do seu modelo de dados relacional (pode ser uma imagem ou gerado com Mermaid).
 
-## Implementação no PostgreSQL
+## Implementação no PostgreSQL (DDL)
 
 - Escreva os scripts SQL para criar todas as tabelas (`CREATE TABLE`).
 - Defina os tipos de dados adequados, chaves primárias, estrangeiras e outras restrições de integridade (`NOT NULL`, `UNIQUE`, etc.).

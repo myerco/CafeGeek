@@ -26,7 +26,7 @@ Crie e execute as seguintes consultas (`SELECT`):
 - Uma consulta que use `GROUP BY` e `COUNT` (ex: total de pessoas por sexo).
 - Uma consulta que use `JOIN` para combinar dados de pelo menos 3 tabelas.
 
-## Visões (`VIEW`)
+## Visões
 
 Crie e use as seguintes visões (`VIEW`):
 
@@ -48,7 +48,7 @@ Implemente os seguintes gatilhos:
 - Um trigger para auditar (registrar em uma tabela de log) as principais alterações (`INSERT`, `UPDATE`, `DELETE`) em uma tabela crítica.
 - Um trigger que impeça uma ação com base em uma regra de negócio (ex: bloquear atividades em um determinado dia ou para um usuário específico).
 
-## 3. Ferramentas
+## Ferramentas
 
 - **Modelagem:** [Mermaid Live](https://mermaid.live/)
 - **Tutoriais Mermaid:** [Mermaid Tutorials](https://mermaid.js.org/ecosystem/tutorials.html), [Diagramas ER](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
