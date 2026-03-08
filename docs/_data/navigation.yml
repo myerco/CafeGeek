@@ -264,6 +264,10 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/estruturas/controle-de-concorrencia/                
       - title: Banco de Dados Distribuídos
         url: /curso/banco-de-dados/estruturas/banco-de-dados-distribuidos/   
+  - title: Atividades
+    children:
+      - title: Atividade Prática: Projeto de Banco de Dados com PostgreSQL
+        url: /curso/banco-de-dados/atividades/atividade-pratica-projeto-de-banco-de-dados-com-postgresql/
 
 a-taberna-do-ponei-saltitante:         
   - title: A Taberna do Pônei Saltitante
