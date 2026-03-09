@@ -34,6 +34,13 @@ Escolha **uma** das ideias abaixo para integrar ao seu projeto:
 
 Desenvolva um protótipo simples da interface da aplicação (pode ser um rascunho, um mockup em uma ferramenta de design ou uma tela HTML básica). O objetivo é visualizar como o usuário interagiria com a funcionalidade inovadora.
 
+## Exemplos de protótipos
+
+- Implemente a tela login
+- Implemente a tela principal
+- Implemente a tela para gerenciamento de registro de pessoas
+- Implemente a tela para gerenciamento de produtos/mercadorias/atendimentos
+
 ## Entrega
 
 - Publique o novo modelo e o protótipo (link ou imagem) no seu repositório GitHub.

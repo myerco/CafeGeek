@@ -39,6 +39,23 @@ No arquivo `README.md`, inclua:
 - Crie scripts SQL (`INSERT`) para popular o banco com dados de exemplo. Insira registros suficientes para testar todos os relacionamentos e regras.
 - Execute comandos `UPDATE` e `DELETE` para validar o comportamento do banco de dados.
 
+## Exemplos de scripts
+
+Para fazer com que o script possa ser executado múltiplas vezes sem erro. Use `CREATE TABLE IF NOT EXISTS ou CREATE OR REPLACE`.
+{: .notice--warning}
+
+Publique no github todos os scripts utilizados na pasta `scripts` utilizando a regra de nome:
+
+  `[Versão]__[acao]_[descricao/objeto].sql`
+
+  ```sql
+    create_table_pessoas.sql
+    add_email_to_pessoas.sql    
+    create_view_pessoas_atendentes.sql
+    insert_into_pessoas.sql
+    create_or_replace_procedure_calcula_nota_fiscal.sql
+  ```  
+
 ## Commit e Entrega
 
 - Adicione todos os arquivos SQL e o `README.md` atualizado ao seu repositório.
