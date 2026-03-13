@@ -43,63 +43,29 @@ Uma chave estrangeira (foreign key) é um campo ou conjunto de campos em uma tab
 
 ## Exemplo Prático
 
-Considere duas tabelas: `ALUNO` e `TURMA`.
+Considere duas tabelas: `PESSOAS` e `SEXO`.
 
-| ALUNO          | TURMA             |
-| -------------- | ----------------- |
-| matricula (PK) | numero_turma (PK) |
-| nome           | nome              |
-| turma (FK)     | ...               |
+| PESSOAS      | SEXO      |
+| ------------ | --------- |
+| id (PK)      | id (PK)   |
+| nome         | descricao |
+| id_sexo (FK) | ...       |
 
-No exemplo acima, o campo `turma` em `ALUNO` é uma chave estrangeira que referencia `numero_turma` em `TURMA`.
-
-```sql
-CREATE TABLE turma (
-  numero_turma INT PRIMARY KEY,
-  nome VARCHAR(50)
-);
-
-CREATE TABLE aluno (
-  matricula INT PRIMARY KEY,
-  nome VARCHAR(50),
-  turma INT,
-  FOREIGN KEY (turma) REFERENCES turma(numero_turma)
-);
-```
-
-### Exemplo de Dados nas Tabelas
-
-#### TURMA
-
-| numero_turma | nome         |
-|--------------|--------------|
-| 1            | Matemática   |
-| 2            | História     |
-| 3            | Biologia     |
-
-#### ALUNO
-
-| matricula | nome           | turma |
-|-----------|----------------|-------|
-| 101       | Ana Souza      | 1     |
-| 102       | Bruno Lima     | 2     |
-| 103       | Carla Mendes   | 1     |
-| 104       | Diego Pereira  | 3     |
-| 105       | Elisa Martins  | 2     |
+No exemplo acima, o campo `id_sexo` em `PESSOAS` é uma chave estrangeira que referencia `id` em `SEXO`.
 
 ## Diagrama de Relacionamento
 
 <div class="mermaid">
 erDiagram
-    TURMA ||--o{ ALUNO : possui
-    TURMA {
-      int numero_turma PK
-      string nome
+    SEXO ||--o{ PESSOAS : possui
+    SEXO {
+      int id PK
+      string descricao
     }
-    ALUNO {
-      int matricula PK
+    PESSOAS {
+      int id PK
       string nome
-      int turma FK
+      int id_sexo FK
     }
 </div>
 

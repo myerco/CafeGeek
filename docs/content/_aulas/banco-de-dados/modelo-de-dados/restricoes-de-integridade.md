@@ -49,7 +49,24 @@ CREATE TABLE IF NOT EXISTS produtos (
     preco NUMERIC(10, 2) CHECK (preco > 0), -- Restrição de Domínio
     categoria VARCHAR(50) DEFAULT 'Geral'
 );
+```
 
+O comando `CREATE DOMAIN` para padronização e auxliar a integridade de domínio.
+
+```sql
+CREATE DOMAIN email_valido AS VARCHAR(100) CHECK (VALUE ~* '^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+[.][A-Za-z]+$');
+
+CREATE DOMAIN sexo AS CHAR(1) DEFAULT 'M' CHECK (VALUE IN ('M', 'F'));
+
+CREATE DOMAIN pos_int AS INTEGER CHECK (VALUE > 0);
+
+CREATE TABLE funcionarios (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(100),
+    email email_valido, -- Aplica a regra de e-mail
+    idade pos_int,       -- Aplica a regra de ser > 0
+    genero sexo          -- Aplica DEFAULT 'M' e restrição M/F
+);
 ```
 
 ## Integridade Referencial

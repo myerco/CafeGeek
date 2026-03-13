@@ -272,6 +272,10 @@ a-taberna-do-ponei-saltitante:
   - title: A Taberna do Pônei Saltitante
     icon: fas fa-user
     url: /curso/banco-de-dados/  
+  - title: Prólogo
+    children:
+      - title: O mundo do jogo
+        url: /curso/banco-de-dados/a-jornada-do-heroi/o-mundo-do-jogo/
   - title: ATO I
     children:
       - title: Mundo comum
@@ -286,6 +290,15 @@ a-taberna-do-ponei-saltitante:
     children:
       - title: Cruzamento do limiar
         url: /curso/banco-de-dados/a-jornada-do-heroi/ato-ii/cruzamento-do-limiar/
+  - title: Ferramentas
+    children:
+      - title: Inventário
+        url: /curso/banco-de-dados/a-jornada-do-heroi/inventario/
+  - title: Academia de Heróis
+    children:
+      - title: Area de treinamento
+        url: /curso/banco-de-dados/a-jornada-do-heroi/area-de-treinamento/
+
 
 soberania-digital:         
   - title: SOBERANIA DIGITAL

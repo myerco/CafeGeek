@@ -23,16 +23,16 @@ A chave primária é um atributo (ou conjunto de atributos) que identifica exclu
 
 Em termos simples: imagine uma tabela de alunos. A matrícula de cada aluno é única — nenhum outro aluno tem a mesma matrícula. Isso faz da matrícula uma chave primária perfeita.
 
-## Exemplo Prático
+## A Tabela Pessoas
 
-Considere a tabela `ALUNO`:
+Considere a tabela `PESSOAS`:
 
-| matricula | nome          | turma |
-|-----------|---------------|-------|
-| 001       | João Silva    | A     |
-| 002       | Maria Santos  | B     |
+| ID  | Nome               | e-mail                      |
+| --- | ------------------ | --------------------------- |
+| 1   | Aragorn II Elessar | aragorn.rei@gondor.com      |
+| 2   | Arwen Undómiel     | arwen.estrela@rivendell.com |
 
-Aqui, o atributo `matricula` é a chave primária, pois cada valor é único e identifica um aluno específico.
+Aqui, o atributo `ID` é a chave primária, pois cada valor é único e identifica um aluno específico.
 
 <div class="mermaid">
 graph TD
@@ -43,6 +43,20 @@ graph TD
     D --> E
 </div>
 
+Ao tentar inserir o `ID`  com valor repetido, o banco rejeita o comando, pois o valor já existe na tabela.
+
+```sql
+INSERT INTO PESSOAS (ID, NOME, DATA_NASCIMENTO, ID_SEXO, EMAIL) VALUES 
+    (1, 'Balrock', '2021-03-01', 1, 'ballrock.rei@gondor.com');
+
+--ERROR:  duplicate key value violates unique constraint "pessoas_pkey"
+--Key (id)=(1) already exists. 
+
+--SQL state: 23505
+--Detail: Key (id)=(1) already exists.
+    
+```
+
 ## Requisitos de uma Chave Primária
 
 Para ser uma chave primária válida, o atributo deve atender a estes critérios:
@@ -50,48 +64,54 @@ Para ser uma chave primária válida, o atributo deve atender a estes critérios
 - **Não pode ser nulo**: Todo registro deve ter um valor para a chave primária.
 - **Deve ser único**: Não pode haver dois registros com o mesmo valor.
 - **Imutável**: O valor não deve mudar ao longo do tempo (idealmente).
-- **É um índice**: A chave vai estar associada a uma estrutura de indexação.
+- **É um índice**: A chave vai estar associada a uma estrutura de indexação. As chaves primárias são automaticamente indexadas pelo SGBD para otimizar consultas.
 
-Além disso, as chaves primárias são automaticamente indexadas pelo SGBD para otimizar consultas.
+## Chave candidata
 
-## Exemplo de comando SQL (PostgreSQL)
+Na tabela `PESSOAS`, o CPF pode servir como chave primária, pois cada pessoa tem um CPF único, podemos chamar essa chave candidata.
 
-```sql
-CREATE TABLE aluno (
-  matricula VARCHAR(10) PRIMARY KEY,
-  nome VARCHAR(100),
-  turma VARCHAR(10)
-);
-```
-
-## Outro Exemplo
-
-Na tabela `PESSOA`, o CPF pode servir como chave primária, pois cada pessoa tem um CPF único.
-
-| cpf            | nome          | idade |
-|----------------|---------------|-------|
-| 123.456.789-00 | Ana Costa     | 25    |
-| 987.654.321-00 | Pedro Lima    | 30    |
+| CPF            | Nome       | email               |
+| -------------- | ---------- | ------------------- |
+| 123.456.789-00 | Ana Costa  | anacasota@gmail.com |
+| 987.654.321-00 | Pedro Lima | pedrolima@gmail.com |
 
 Se não houver um atributo único natural, podemos usar uma combinação (chave composta) ou um ID artificial gerado automaticamente.
 
-## Exemplo de chave primária autonumerada (PostgreSQL)
+## Chave primária autonumerada
 
 ```sql
-CREATE TABLE pessoa (
-  id SERIAL PRIMARY KEY,
-  nome VARCHAR(100),
-  idade INTEGER
+CREATE TABLE IF NOT EXISTS DEPARTAMENTOS (
+  ID SERIAL PRIMARY KEY,
+  NOME VARCHAR(100) NOT NULL,
+  DESCRICAO VARCHAR(200) NOT NULL
 );
 ```
 
-## Exemplo de chave primária composta (PostgreSQL)
+Inserindo um novo registro com chaves autonumerada.
 
 ```sql
-CREATE TABLE matricula_disciplina (
-  matricula VARCHAR(10),
-  codigo_disciplina VARCHAR(10),
-  ano INTEGER,
-  PRIMARY KEY (matricula, codigo_disciplina, ano)
+INSERT INTO DEPARTAMENTOS (NOME, DESCRICAO) VALUES 
+    ('RH', 'Recursos Humanos'),
+    ('TI', 'Tecnologia da Informação'),
+    ('Vendas', 'Departamento de Vendas');
+```
+
+## Chave primária composta
+
+```sql
+CREATE TABLE ATENDENTES (
+  ID_PESSOA BIGINT,
+  ID_DEPARTAMENTO INT,
+  SALARIO NUMERIC(10, 2),
+  CONSTRAINT PK_ATENDENTE PRIMARY KEY (ID_PESSOA, ID_DEPARTAMENTO),
+  CONSTRAINT FK_PESSOA_ATENDENTE FOREIGN KEY (ID_PESSOA) REFERENCES PESSOAS (ID),
+  CONSTRAINT FK_DEPARTAMENTO_ATENDENTE FOREIGN KEY (ID_DEPARTAMENTO) REFERENCES DEPARTAMENTOS (ID),
+  CONSTRAINT CK_SALARIO_ATENDENTE CHECK (SALARIO BETWEEN 2000 AND 40000)
 );
+
+INSERT INTO ATENDENTES (ID_PESSOA,ID_DEPARTAMENTO, SALARIO) VALUES 
+    (6, 1, 15000.00), -- Legolas Greenleaf (ID_PESSOA 6) no RH (ID_DEPARTAMENTO 1)
+    (7, 2, 35500.00), -- Éowyn de Rohan (ID_PESSOA) no TI (ID_DEPARTAMENTO 2)
+    (8, 3, 8200.50);  -- Gimli, Filho de Glóin (ID_PESSOA 8) no Vendas (ID_DEPARTAMENTO 3)
+    
 ```

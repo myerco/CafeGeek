@@ -43,7 +43,7 @@ Desenvolva um protótipo simples da interface da aplicação (pode ser um rascun
 
 ## Entrega
 
-- Publique o novo modelo e o protótipo (link ou imagem) no seu repositório GitHub.
+Publique o novo modelo e o protótipo (link ou imagem) no seu repositório GitHub.
 
 ## Ferramentas
 
