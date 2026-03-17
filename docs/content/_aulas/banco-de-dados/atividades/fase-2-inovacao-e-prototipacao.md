@@ -44,12 +44,3 @@ Desenvolva um protótipo simples da interface da aplicação (pode ser um rascun
 ## Entrega
 
 Publique o novo modelo e o protótipo (link ou imagem) no seu repositório GitHub.
-
-## Ferramentas
-
-- **Modelagem:** [Mermaid Live](https://mermaid.live/)
-- **Tutoriais Mermaid:** [Mermaid Tutorials](https://mermaid.js.org/ecosystem/tutorials.html), [Diagramas ER](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
-- **Controle de Versão:** [Github](https://github.com/)
-- **Banco de Dados:** [Instância PostgreSQL do Curso](https://comp-pga.qute.com.br/login?next=/)
-- **Figma - Protótipo da Interface:** [Link](https://www.figma.com/)
-- **Draw.io - Protótipo da Interface:** [Link](https://draw.io/)

@@ -1,5 +1,5 @@
 ---
-title: "Fase 3: Consultas e Programação Avançada"
+title: "Fase 3: Consultas e Programação"
 excerpt: "Uma atividade prática e guiada para o desenvolvimento de um projeto completo de banco de dados relacional, desde a modelagem inicial até a implementação de funcionalidades avançadas com PostgreSQL."
 categories:
   - "banco-de-dados"
@@ -47,10 +47,3 @@ Implemente os seguintes gatilhos:
 
 - Um trigger para auditar (registrar em uma tabela de log) as principais alterações (`INSERT`, `UPDATE`, `DELETE`) em uma tabela crítica.
 - Um trigger que impeça uma ação com base em uma regra de negócio (ex: bloquear atividades em um determinado dia ou para um usuário específico).
-
-## Ferramentas
-
-- **Modelagem:** [Mermaid Live](https://mermaid.live/)
-- **Tutoriais Mermaid:** [Mermaid Tutorials](https://mermaid.js.org/ecosystem/tutorials.html), [Diagramas ER](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
-- **Controle de Versão:** [Github](https://github.com/)
-- **Banco de Dados:** [Instância PostgreSQL do Curso](https://comp-pga.qute.com.br/login?next=/)

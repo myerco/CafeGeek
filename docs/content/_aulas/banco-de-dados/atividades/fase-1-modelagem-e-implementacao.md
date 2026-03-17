@@ -1,5 +1,5 @@
 ---
-title: "Fase 1: Modelagem e Implementação Inicial"
+title: "Fase 1: Modelagem e Implementação"
 excerpt: "Uma atividade prática e guiada para o desenvolvimento de um projeto completo de banco de dados relacional, desde a modelagem inicial até a implementação de funcionalidades avançadas com PostgreSQL."
 categories:
   - "banco-de-dados"
@@ -61,10 +61,3 @@ Publique no github todos os scripts utilizados na pasta `scripts` utilizando a r
 - Adicione todos os arquivos SQL e o `README.md` atualizado ao seu repositório.
 - Faça o commit inicial com uma mensagem clara.
 - Compartilhe o link do repositório no ambiente da disciplina para avaliação.
-
-## Ferramentas
-
-- **Modelagem:** [Mermaid Live](https://mermaid.live/)
-- **Tutoriais Mermaid:** [Mermaid Tutorials](https://mermaid.js.org/ecosystem/tutorials.html), [Diagramas ER](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
-- **Controle de Versão:** [Github](https://github.com/)
-- **Banco de Dados:** [Instância PostgreSQL do Curso](https://comp-pga.qute.com.br/login?next=/)
