@@ -1,5 +1,5 @@
 ---
-title: Gatilhos Triggers
+title: Gatilhos - Triggers
 excerpt: "Gatilhos (triggers): definição, requisitos, vantagens e sintaxe."
 categories:
   - "banco-de-dados"
@@ -83,10 +83,31 @@ END;
 
 No PostgreSQL, triggers são implementados com uma função procedural e a declaração do gatilho.
 
+```sql
+CREATE OR REPLACE FUNCTION nome_da_funcao()
+RETURNS TRIGGER AS $$
+BEGIN
+    -- Lógica da trigger aqui
+    -- NEW : Contém os novos dados (INSERT/UPDATE)
+    -- OLD : Contém os dados antigos (UPDATE/DELETE)
+    RETURN NEW; -- ou OLD, dependendo da trigger
+END;
+$$ LANGUAGE plpgsql;
+```
+
+- **BEFORE**: Executa antes de inserir/alterar o dado (bom para validar ou modificar dados antes de salvar).
+- **AFTER**: Executa após a ação (bom para auditoria).
+- **FOR EACH ROW**: A trigger roda para cada linha afetada pelo SQL.
+- **FOR EACH STATEMENT**: A trigger roda uma vez por comando SQL, independente de quantas linhas foram afetadas.
+- **NEW / OLD**: São variáveis especiais que permitem acessar os dados que estão sendo inseridos/atualizados (NEW) ou os dados anteriores (OLD).
+- **TG_OP**: Variável que contém o nome da operação que disparou a trigger (INSERT, UPDATE, DELETE).
+
+## Exemplos
+
 **Observação:** Utilize a estrutura de tabelas da aula [Restrições de Integridade](https://cafegeek.eti.br/curso/banco-de-dados/modelo-de-dados/restricoes-de-integridade/)
 {: .notice}
 
-### Exemplo de trigger de segurança
+### Segurança
 
 ```sql
 -- Função que será chamada pelo trigger
@@ -115,7 +136,61 @@ VALUES (1, 1, 10000);
 -- Se o comando é executado em horário não previsto na trigger, exemplo 07h, a inserção não é realizada
 ```
 
-### Exemplo de trigger de auditoria
+Para implementando uma restrição por usuário vamos realizar o seguinte:
+
+- Adicionando o atributo login na tabela de pessoas do tipo booleano
+- O campo deve sinalizar quais pessoas podem ou não acessar o sistema
+- O valor verdadeiro permite acesso
+
+```sql
+ALTER TABLE public.pessoas 
+ADD COLUMN login BOOLEAN DEFAULT FALSE;
+```
+
+- **CURRENT_USER**: Função para determinar qual usuário conectou no banco de dados.
+
+```sql
+CREATE OR REPLACE FUNCTION check_permissao_atendente()
+RETURNS TRIGGER AS $$
+BEGIN
+    -- Verifica se a pessoa existe, tem login ativo e se o e-mail bate com o usuário atual
+    IF NOT EXISTS (
+        SELECT 1 
+        FROM public.pessoas 
+        WHERE 
+          login = TRUE 
+          AND email = CURRENT_USER
+    ) THEN
+        RAISE EXCEPTION 'Ação bloqueada: O usuário atual não possui permissão de login ou não corresponde ao registro de pessoa informado.';
+    END IF;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE TRIGGER tg_valida_atendente_login
+BEFORE INSERT ON public.atendentes
+FOR EACH ROW
+EXECUTE FUNCTION check_permissao_atendente();
+
+```
+
+### Auditoria
+
+Criando a tabela de log de sistema
+
+
+```sql
+CREATE TABLE IF NOT EXISTS log_sistema (
+    id_log SERIAL PRIMARY KEY,
+    tabela_afetada VARCHAR(50) DEFAULT 'PESSOAS',
+    operacao VARCHAR(20) DEFAULT 'INSERT',
+    id_registro BIGINT,
+    usuario_db VARCHAR(50) DEFAULT CURRENT_USER,
+    data_log DATE DEFAULT CURRENT_DATE, -- Alterado de Timestamp para Date como solicitado
+    detalhes TEXT
+);
+```
 
 ```sql
 -- Função que será chamada pelo trigger
@@ -205,7 +280,7 @@ FOR EACH ROW
 EXECUTE FUNCTION FN_AUDITORIA_ATENDENTES_JSON();
 ```
 
-### Exemplo de trigger de replicação de dados
+### Replicação de dados
 
 Considerando a aula de [Visões e Restrições de Acesso](https://cafegeek.eti.br/curso/banco-de-dados/estruturas/visoes-e-restricoes-de-acesso/), podemos implementar a tabela `atendentes_replicados` em um esquema separado para aumentar a segurança.
 
@@ -237,9 +312,76 @@ BEGIN
 END;
 $$ LANGUAGE PLPGSQL
 
-CREATE TRIGGER TRG_REPLICACAO_ATENDETES
 CREATE TRIGGER TRG_AUDITORIA_ATENDENTES
 AFTER INSERT OR UPDATE OR DELETE ON ATENDENTES
 FOR EACH ROW
 EXECUTE FUNCTION FN_REPLICA_ATENDENTES();
 ```
+
+## Usando Cursores
+
+Imagine que você faz uma consulta (SELECT) que retorna 10.000 linhas. Se você usar um comando SQL comum, o banco tentará processar ou te entregar todas essas linhas de uma vez só na memória.
+
+O Cursor é um objeto de banco de dados que nos permite "apontar" para o resultado de uma consulta e percorrer linha por linha, de forma controlada.
+Para que servem?
+
+- Economia de Memória: Você não carrega o resultado inteiro de uma vez.
+
+- Processamento Individual: Quando você precisa aplicar uma lógica complexa (um IF, um cálculo externo) em cada linha individualmente, o que seria impossível em um SELECT puro.
+
+- Navegação: Permite avançar, retroceder ou pular registros dentro de um conjunto de dados.
+
+### Exemplo Simples
+
+```sql
+DO $$
+DECLARE
+    -- 1. Declaração do cursor
+    cur_emails CURSOR FOR SELECT email FROM public.pessoas WHERE login = TRUE;
+    v_email text;
+BEGIN
+    -- 2. Abertura
+    OPEN cur_emails;
+    
+    LOOP
+        -- 3. Busca a linha atual e move para a próxima
+        FETCH cur_emails INTO v_email;
+        EXIT WHEN NOT FOUND; -- Sai do loop se não houver mais linhas
+        
+        RAISE NOTICE 'E-mail autorizado: %', v_email;
+    END LOOP;
+    
+    -- 4. Fechamento
+    CLOSE cur_emails;
+END $$;
+```
+
+```sql
+CREATE OR REPLACE FUNCTION check_atendente_com_for()
+RETURNS TRIGGER AS $$
+DECLARE
+    -- Declaramos o cursor com parâmetros
+    cur_validacao CURSOR  FOR 
+        SELECT login, email 
+        FROM public.pessoas;
+        
+    v_autorizado boolean := FALSE;
+
+BEGIN
+    -- O comando FOR gerencia o cursor automaticamente
+    FOR reg IN cur_validacao LOOP
+        -- Se entrar aqui, o registro existe. Agora validamos as regras:
+        IF reg.login = TRUE AND reg.email = CURRENT_USER THEN
+            v_autorizado := TRUE;
+        END IF;
+    END LOOP;
+
+    -- Se após o loop a flag continuar falsa, barramos a inserção
+    IF NOT v_autorizado THEN
+        RAISE EXCEPTION 'Ação Não Permitida: Regras de login ou usuário inválidas.';
+    END IF;
+
+    RETURN NEW;
+END;
+$$ LANGUAGE plpgsql;
+``` 
