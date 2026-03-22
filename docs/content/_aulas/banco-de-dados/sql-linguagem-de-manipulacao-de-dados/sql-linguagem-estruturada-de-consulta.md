@@ -104,7 +104,7 @@ DESC aluno;
 DESC emprestimo;
 ```
 
-### ALTER TABLE 
+## ALTER TABLE
 
 Para adicionar colunas a uma tabela existente:
 
@@ -190,7 +190,7 @@ select nome, sexo from pessoas nome like '%Claudia%';
 
 ```
 
-**Selecionando duas tabelas**
+**Selecionando duas tabelas:**
 
 ```sql
 -- O resultado é a multiplicação das colunas e linhas das duas tabelas
@@ -206,7 +206,7 @@ FROM PESSOAS A JOIN SEXO B ON (B.ID = A.ID_SEXO)
 
 ```
 
-### ORDER BY
+## ORDER BY
 
 A cláusula ORDER BY organiza os resultados:
 

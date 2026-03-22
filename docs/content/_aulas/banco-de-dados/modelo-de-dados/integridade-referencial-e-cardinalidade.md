@@ -26,66 +26,147 @@ O relacionamento efetiva-se através de uma expressão relacional que indica com
 
 A comparação é realizada entre campos das entidades e campos do relacionamento, formando uma expressão composta:
 
-(aluno.matricula = turma.matriculaAluno)
-(aluno.sexo = sexo.descricao)
+(sexo.id = pessoas.id_sexo)
+
+(atendentes.id_pessoa = pessoas.id)
+
+**Observação:** Utilize a estrutura de tabelas da aula [Restrições de Integridade](https://cafegeek.eti.br/curso/banco-de-dados/modelo-de-dados/restricoes-de-integridade/)
+{: .notice}
 
 ## O que é Cardinalidade?
 
 Cardinalidade define quantas ocorrências de uma entidade podem se relacionar com outra em um relacionamento.
 
-## Tipos de Cardinalidade e Exemplos
+**Cardinalide 1:1**
+
+<div class="mermaid">
+erDiagram
+    A ||--|| B : possui
+    A {
+        int id_B  PK
+    }
+    B {
+      int id_A PK
+    }
+</div>
+
+**Cardinalide 1:N**
+
+<div class="mermaid">
+erDiagram
+    A ||--o{ B : possui
+    A {
+        int id  PK
+    }
+    B {
+      int id PK
+      int id_A FK
+    }
+</div>
+
+**Cardinalide N:N**
+
+<div class="mermaid">
+erDiagram
+    A }o--o{ B : possui
+    A {
+        int id  PK
+    }
+    B {
+      int id PK
+    }
+</div>
+
+## Sintaxe dos relacionamentos
+
+|Valor esquerda| Valor Direita|Siginificado|
+|--------------|--------------|------------|
+
+- `|o`  -  `o|` : Zero ou um
+- `||`  -  `||` :Exatamente um
+- `}o`  -  `o{` :Zero ou mais (sem limite)
+- `}|`  -  `|{` :One ou mais (sem limite)
+
+## Tipos de Cardinalidade
 
 ### 1:1 (Um para Um)
 
 Cada elemento de uma entidade se relaciona com no máximo um elemento da outra.
 
-#### Exemplo de 1:1 (Pessoa e CPF)
+**Exemplo - Pessoas e CPF:**
 
 Uma pessoa tem no máximo um CPF, e um CPF pertence a no máximo uma pessoa.
 
 <div class="mermaid">
 erDiagram
-    PESSOA ||--|| CPF : possui
-    PESSOA {
-      string nome
+    PESSOAS ||--|| CPF : possui
+    PESSOAS {
+        int numero_cpf  PK
+        string nome
     }
     CPF {
-      string numero
+      string numero_cpf PK
     }
 </div>
 
 **Expressão relacional:**
 
-pessoa.id_cpf = cpf.id
+`(pessoas.numero_cpf = cpf.numero_cpf)`
+
+**Exemplo - Pessoas e Foto:**
+
+Uma pessoa tem no máximo uma foto, e um foto pertence a no máximo uma pessoa.
+
+<div class="mermaid">
+erDiagram
+    PESSOAS ||--|| FOTO : possui
+    PESSOAS {
+        int id  PK
+        string nome
+    }
+    FOTO {
+      int id_pessoa PK
+      blob imagem
+     }
+</div>
+
+**Expressão relacional:**
+
+`(pessoas.id = foto.id_pessoa)`
 
 ### 1:N (Um para Muitos)
 
 Um elemento da entidade A se relaciona com múltiplos elementos da entidade B, mas cada elemento de B se relaciona com apenas um de A.
 
-#### Exemplo de 1:N (Cliente e Empréstimos)
+**Exemplo de 1:N (Sexo e pessoas)**
 
-Um cliente pode ter vários empréstimos, e cada empréstimo pertence a apenas um cliente.
+Um campo Sexo pode ter várias pessoas, e cada pessoa pertence a apenas um sexo.
 
 <div class="mermaid">
 erDiagram
-    CLIENTE ||--o{ EMPRESTIMO : possui
-    CLIENTE {
-      string nome
+    SEXO ||--o{ PESSOAS : possui
+    SEXO {
+      int id PK 
+      string descricao
     }
-    EMPRESTIMO {
-      int valor
+    PESSOAS {
+      int id PK
+      int id_sexo FK
+      string nome
     }
 </div>
 
 **Expressão relacional:**
 
-emprestimo.id_cliente = cliente.id
+`(sexo.id = pessoas.id_sexo)`
 
 ### N:N (Muitos para Muitos)
 
 Instâncias de ambas as entidades podem se relacionar com múltiplas instâncias da outra.
 
-#### Exemplo de N:N (Aluno e Disciplina)
+**Exemplo de N:N (Aluno e Disciplina)** 
+
+Um aluno pode se matricular em várias disciplinas, e uma disciplina pode ter vários alunos matriculados.
 
 <div class="mermaid">
 erDiagram
@@ -100,10 +181,11 @@ erDiagram
 
 **Expressão relacional:**
 
-matricula.id_aluno = aluno.id
-matricula.id_disciplina = disciplina.id
+`matricula.id_aluno = aluno.id`
 
-#### Exemplo prático de sistema acadêmico
+`matricula.id_disciplina = disciplina.id`
+
+**Exemplo  sistema acadêmico:**
 
 <div class="mermaid">
 erDiagram
@@ -131,13 +213,14 @@ erDiagram
 
 **Expressão relacional:**
 
-matricula.aluno_id = aluno.id
-matricula.disciplina_id = disciplina.id
+`matricula.aluno_id = aluno.id`
+
+`matricula.disciplina_id = disciplina.id`
 
 Perceba que a tabela MATRICULA é uma tabela associativa criada para representar o relacionamento N:N entre ALUNO e DISCIPLINA. Ela possui como chaves primárias compostas as chaves das tabelas envolvidas, permitindo registrar cada matrícula de aluno em disciplina de forma única e garantindo a integridade referencial entre as entidades.
 {: .notice}
 
-## Exemplo prático de sistema acadêmico: Comandos SQL (PostgreSQL)
+**Comandos SQL:**
 
 ```sql
 CREATE TABLE professor (
@@ -166,7 +249,7 @@ CREATE TABLE matricula (
 );
 ```
 
-## Exemplo clássico de N:N (Produto e Nota Fiscal)
+**Exemplo clássico de N:N (Produto e Nota Fiscal)**
 
 Um produto pode aparecer em várias notas fiscais, e uma nota fiscal pode conter vários produtos.
 
@@ -187,3 +270,22 @@ produto_nota.id_produto = produto.id
 produto_nota.id_nota = nota_fiscal.id
 
 Esses exemplos mostram como cardinalidade e integridade referencial são aplicadas na modelagem de dados.
+
+## Consultas de Relacionamento
+
+```sql
+
+select p.nome, s.descricao
+from pessoas p
+join sexo s on p.id_sexo = s.id;
+
+select p.nome, f.imagem
+from pessoas p
+join foto f on p.id = f.id_pessoa;
+
+select a.nome, d.nome, m.semestre, m.nota
+from aluno a
+join matricula m on a.id = m.aluno_id
+join disciplina d on m.disciplina_id = d.id;
+
+```
