@@ -39,12 +39,12 @@ Dependência de existência ocorre quando a existência de uma entidade (subordi
 
 ---
 
-## Exemplo Prático
+## Exemplos
 
-Considere as entidades `ALUNO` e `NOTA`:
+Considere as entidades `ALUNOS` e `NOTAS`:
 
-- `ALUNO` é dominante: um aluno pode existir sem notas (ex: aluno novo).
-- `NOTA` é subordinada: uma nota só faz sentido se houver um aluno correspondente.
+- `ALUNOS` é dominante: um aluno pode existir sem notas (ex: aluno novo).
+- `NOTAS` é subordinada: uma nota só faz sentido se houver um aluno correspondente.
 
 Se um aluno for excluído, todas as suas notas devem ser removidas automaticamente. Mas excluir uma nota não afeta o aluno.
 
@@ -54,7 +54,7 @@ Se um aluno for excluído, todas as suas notas devem ser removidas automaticamen
 - Tabela `nota` (subordinada, com FK para aluno).
 
 ```sql
-CREATE TABLE aluno (
+CREATE TABLE alunos (
     matricula INT PRIMARY KEY,
     nome VARCHAR(50)
 );
@@ -64,32 +64,250 @@ CREATE TABLE nota (
     matricula_aluno INT,
     disciplina VARCHAR(50),
     valor DECIMAL(4,2),
-    FOREIGN KEY (matricula_aluno) REFERENCES aluno(matricula) ON DELETE CASCADE
+    FOREIGN KEY (matricula_aluno) REFERENCES alunos(matricula) ON DELETE CASCADE
 );
+
+-- Inserindo dados na tabela aluno
+INSERT INTO alunos (matricula, nome) VALUES
+(1, 'Ana Silva'),
+(2, 'Bruno Souza'),
+(3, 'Carla Oliveira'),
+(4, 'Daniel Santos'),
+(5, 'Elena Ferreira');
+
+-- Inserindo dados na tabela nota
+INSERT INTO notas (id, matricula_aluno, disciplina, valor) VALUES
+(101, 1, 'Matemática', 8.5),
+(102, 1, 'Português', 7.0),
+(103, 2, 'Matemática', 9.0),
+(104, 3, 'Português', 6.5),
+(105, 3, 'História', 7.5),
+(106, 5, 'Matemática', 10.0);
+-- Note: O aluno 4 (Daniel) não tem notas
+-- Note: O aluno 5 (Elena) tem apenas uma nota
 ```
 
 A cláusula `ON DELETE CASCADE` implementa a dependência: excluir aluno remove notas automaticamente.
 
-## Diagrama de Exemplo
+## JOINs (LEFT, RIGHT, INNER)
+
+### INNER JOIN
+
+Retorna apenas os registros que têm correspondência em ambas as tabelas.
+
+```sql
+-- INNER JOIN: Alunos que possuem pelo menos uma nota
+SELECT a.matricula, a.nome, n.disciplina, n.valor
+FROM aluno a
+INNER JOIN nota n ON a.matricula = n.matricula_aluno
+ORDER BY a.matricula;
+```
+
+<div class="mermaid">
+graph TD
+    A[Aluno<br/>Ana, Bruno, Carla, Daniel, Elena] 
+    B[Nota<br/>Matemática, Português, Matemática, Português, História, Matemática]
+    C[INNER JOIN<br/> Alunos com notas]
+    
+    A ---|matrícula correspondente| C
+    B ---|matrícula correspondente| C
+    
+    style C fill:#00008B
+</div>
+
+### LEFT JOIN
+
+Retorna todos os registros da tabela da esquerda (aluno), mesmo que não haja correspondência na tabela da direita (nota).
+
+```sql
+-- LEFT JOIN: Todos os alunos, com ou sem notas
+SELECT a.matricula, a.nome, n.disciplina, n.valor
+FROM aluno a
+LEFT JOIN nota n ON a.matricula = n.matricula_aluno
+ORDER BY a.matricula;
+```
+
+<div class="mermaid">
+graph TD
+    A[Todos Alunos<br/>Ana, Bruno, Carla, Daniel, Elena]
+    B[Notas]
+    C[LEFT JOIN<br/> Todos alunos + notas se houver]
+    
+    A ---|todos registros| C
+    B ---|apenas correspondentes| C
+    
+    style A fill:#00008B
+    style C fill:#00008B
+</div>
+
+### RIGHT JOIN
+
+Retorna todos os registros da tabela da direita (nota), mesmo que não haja correspondência na tabela da esquerda (aluno).
+
+```sql
+-- RIGHT JOIN: Todas as notas com informações do aluno
+SELECT a.matricula, a.nome, n.disciplina, n.valor
+FROM aluno a
+RIGHT JOIN nota n ON a.matricula = n.matricula_aluno;
+```
+
+<div class="mermaid">
+graph TD
+    A[Alunos]
+    B[ Todas Notas<br/> Matemática, Português, Matemática, Português, História, Matemática]
+    C[RIGHT JOIN<br/>Todas notas + aluno se houver]
+    
+    A ---|apenas correspondentes| C
+    B ---|todos registros| C
+    
+    style B fill:#00008B
+    style C fill:#00008B
+</div>
+
+## Operações de Conjuntos
+
+Para operações de conjuntos, precisamos de queries que retornem estruturas compatíveis. Vamos criar duas visões:
+
+Alunos com nota em Matemática vs Alunos com nota em Português
+
+```sql
+-- Query 1: Alunos com nota em Matemática
+SELECT a.matricula, a.nome, 'Matemática' as tipo
+FROM aluno a
+INNER JOIN nota n ON a.matricula = n.matricula_aluno
+WHERE n.disciplina = 'Matemática';
+
+-- Query 2: Alunos com nota em Português
+SELECT a.matricula, a.nome, 'Português' as tipo
+FROM aluno a
+INNER JOIN nota n ON a.matricula = n.matricula_aluno
+WHERE n.disciplina = 'Português';
+```
+
+### UNION - União de conjuntos
+
+Retorna todos os registros de ambas as queries, removendo duplicatas.
+
+```sql
+-- UNION: Alunos que têm nota em Matemática OU em Português
+SELECT a.matricula, a.nome, 'Matemática' as disciplina
+FROM aluno a
+INNER JOIN nota n ON a.matricula = n.matricula_aluno
+WHERE n.disciplina = 'Matemática'
+
+UNION
+
+SELECT a.matricula, a.nome, 'Português' as disciplina
+FROM aluno a
+INNER JOIN nota n ON a.matricula = n.matricula_aluno
+WHERE n.disciplina = 'Português'
+ORDER BY matricula;
+```
+
+<div class="mermaid">
+graph TD
+    A[Matemática<br/>Ana, Bruno, Elena]
+    B[Português<br/>Ana, Carla]
+    C[UNION<br/> Ana, Bruno, Carla, Elena]
+    
+    A ---|união| C
+    B ---|união| C
+    
+    style C fill:#00008B
+</div>
+
+### INTERSECT - Interseção de conjuntos
+
+Retorna apenas os registros que estão presentes em ambas as queries.
+
+```sql
+-- INTERSECT: Alunos que têm nota em Matemática E em Português
+SELECT matricula, nome
+FROM aluno
+WHERE matricula IN (
+    SELECT matricula_aluno 
+    FROM nota 
+    WHERE disciplina = 'Matemática'
+)
+
+INTERSECT
+
+SELECT matricula, nome
+FROM aluno
+WHERE matricula IN (
+    SELECT matricula_aluno 
+    FROM nota 
+    WHERE disciplina = 'Português'
+);
+```
+
+<div class="mermaid">
+graph TD
+    A[Matemática<br/>Ana, Bruno, Elena]
+    B[Português<br/>Ana, Carla]
+    C[INTERSECT<br/> Ana]
+    
+    A ---|interseção| C
+    B ---|interseção| C
+    
+    style C fill:#00008B
+</div>
+
+### EXCEPT Diferença de conjuntos
+
+```sql
+-- EXCEPT: Alunos que têm nota em Matemática mas NÃO em Português
+SELECT matricula, nome
+FROM aluno
+WHERE matricula IN (
+    SELECT matricula_aluno 
+    FROM nota 
+    WHERE disciplina = 'Matemática'
+)
+
+EXCEPT
+
+SELECT matricula, nome
+FROM aluno
+WHERE matricula IN (
+    SELECT matricula_aluno 
+    FROM nota 
+    WHERE disciplina = 'Português'
+);
+```
+
+<div class="mermaid">
+graph TD
+    A[Matemática<br/>Ana, Bruno, Elena]
+    B[Português<br/>Ana, Carla]
+    C[EXCEPT<br/> Bruno, Elena]
+    
+    A ---|diferença| C
+    B -.->|exclui interseção| C
+    
+    style C fill:#00008B
+</div>
+
+**Tabelas completas:**
 
 <div class="mermaid">
 erDiagram
-    ALUNO ||--o{ TURMA : possui
-    TURMA ||--o{ DISCIPLINA : oferece
-    DISCIPLINA ||--o{ PROFESSOR : ministrada_por
-    ALUNO {
+    ALUNOS ||--o{ TURMAS : possui
+    TURMAS ||--o{ DISCIPLINAS : oferece
+    DISCIPLINAS ||--o{ PROFESSORES : ministrada_por
+    ALUNOS {
       int matricula PK
       string nome
     }
-    TURMA {
+    TURMAS {
       int numero_turma PK
       string nome
     }
-    DISCIPLINA {
+    DISCIPLINAS {
       int codigo PK
       string nome
     }
-    PROFESSOR {
+    PROFESSORES {
       int id PK
       string nome
     }

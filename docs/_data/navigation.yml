@@ -206,7 +206,7 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/conceitos-fundamentais/banco-de-dados/
       - title: Dados, Informação e Conhecimento
         url: /curso/banco-de-dados/conceitos-fundamentais/dados-informacao-e-conhecimento/
-      - title: Sistemas de Gerenciamento de Banco de Dados
+      - title: SGBD
         url: /curso/banco-de-dados/conceitos-fundamentais/sistemas-gerenciadores-de-banco-de-dados/
       - title: Abstração de Dados
         url: /curso/banco-de-dados/conceitos-fundamentais/abstracao-de-dados/  
@@ -216,7 +216,7 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/conceitos-fundamentais/usuarios-de-banco-de-dados/
   - title: MANIPULAÇÃO DE DADOS
     children:
-      - title: SQL - Linguagem Estruturada de Consulta
+      - title: SQL
         url: /curso/banco-de-dados/sql-linguagem-estruturada-de-consulta/sql-linguagem-estruturada-de-consulta/    
   - title: MODELO RELACIONAL
     children:
@@ -242,7 +242,7 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/normalizacao/normalizacao-de-banco-de-dados/         
   - title: ESTRUTURAS AVANÇADAS
     children:                
-      - title: Estruturas de Gerenciadores de Banco de Dados 
+      - title: Estruturas de SGBDs
         url: /curso/banco-de-dados/estruturas/estruturas-de-gerenciadores-de-banco-de-dados/
       - title: Visões e restrições de acesso  
         url: /curso/banco-de-dados/estruturas/visoes-e-restricoes-de-acesso/

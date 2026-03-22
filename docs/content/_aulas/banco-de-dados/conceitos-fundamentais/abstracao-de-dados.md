@@ -4,7 +4,7 @@ excerpt: "Entenda os níveis de abstração em sistemas de banco de dados: físi
 categories:
   - banco-de-Dados
   - conceitos-fundamentais
-date: 2026-01-22T08:48:05-04:00
+date: 2026-01-25T08:48:05-04:00
 order: 4
 tags:
   - "Banco de Dados"
@@ -66,7 +66,7 @@ Aqui, descrevemos tabelas, índices, relacionamentos e restrições. É o nível
 
 O nível mais alto oferece uma visão personalizada dos dados para cada usuário ou aplicação. Ele restringe o acesso, mostrando apenas o necessário.
 
-### Exemplo 1: Visão para Funcionários do RH**
+**Exemplo - Visão para Funcionários do RH:**
 
 Um funcionário de vendas vê apenas dados de clientes e pedidos, enquanto um gerente acessa relatórios financeiros. Isso garante segurança e simplicidade — ninguém vê dados irrelevantes ou confidenciais.
 

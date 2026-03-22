@@ -4,7 +4,7 @@ excerpt: "Explore os diferentes tipos de usuários de bancos de dados, incluindo
 categories:
   - banco-de-Dados
   - conceitos-fundamentais
-date: 2026-01-22T08:48:05-04:00
+date: 2026-01-27T08:48:05-04:00
 order: 6
   - "Banco de Dados"
   - "Conceitos Fundamentais"
@@ -129,7 +129,9 @@ A configuração adequada de roles e permissões garante que cada usuário acess
 
 Uma gestão adequada de usuários é fundamental para a segurança e eficiência do sistema de banco de dados.
 
-## Certificações PostgreSQL: Importância e Razões para Obtê-las
+## Certificações  
+
+PostgreSQL: Importância e Razões para Obtê-las
 
 {% include image.html
     src="https://cdn5.dcbstatic.com/files/e/n/enterprisedb_docebosaas_com/assets/courselogo/original/postgresql-professional-certification-2020-10-21-19-08-58.jpeg"
@@ -138,44 +140,44 @@ Uma gestão adequada de usuários é fundamental para a segurança e eficiência
     ref="https://sae.unb.br/cae/conteudo/unbfga/lbd/banco2_introducao.html"
 %}
 
-## **Por que existem certificações PostgreSQL?**
+**Por que existem certificações PostgreSQL?**
 
-### 1. **Validação Padronizada de Conhecimento**
+**Validação Padronizada de Conhecimento:**
 
 - Criam um **padrão objetivo** para medir competência técnica
 - Fornecem um **currículo comum** que empregadores podem reconhecer
 - Diferenciam conhecimento real de experiência auto-declarada
 
-### 2. **Garantia de Qualidade para o Mercado**
+**Garantia de Qualidade para o Mercado:**
 
 - Empresas precisam confiar na **qualificação de profissionais**
 - Reduzem riscos em contratações e projetos críticos
 - Validam que o profissional segue **melhores práticas** do PostgreSQL
 
-### 3. **Sustentação do Ecossistema**
+**Sustentação do Ecossistema:**
 
 - Incentivam **educação contínua** na comunidade
 - Mantêm **padrões altos** de conhecimento na comunidade
 - Apoiam o crescimento profissional estruturado
 
-## **Principais Certificações PostgreSQL**
+**Principais Certificações PostgreSQL**
 
-### Oficiais (PostgreSQL Certificação Global):
+Oficiais (PostgreSQL Certificação Global):
 
 - **PostgreSQL Associate** (nível inicial)
 - **PostgreSQL Professional** (nível intermediário)
 - **PostgreSQL Expert** (nível avançado)
 - **PostgreSQL Certified Engineer** (especialista)
 
-### Outras Relevantíssimas:
+**Outras Relevantíssimas:**
 
 - **EDB PostgreSQL Certifications** (EnterpriseDB)
 - **AWS Certified Database - Specialty** (com foco em PostgreSQL)
 - **Google Cloud Database Engineer** (com PostgreSQL)
 
-## **Importância das Certificações**
+## Importância das Certificações
 
-### Para **Profissionais**
+Para **Profissionais**
 
 | Vantagem                      | Impacto                                                      |
 | ----------------------------- | ------------------------------------------------------------ |
@@ -186,7 +188,7 @@ Uma gestão adequada de usuários é fundamental para a segurança e eficiência
 | **Credibilidade**             | Reconhecimento pela comunidade e empregadores                |
 | **Aprendizado Sistematizado** | Cobre lacunas de conhecimento de forma organizada            |
 
-### Para **Empresas**
+Para **Empresas**
 
 | Benefício                | Impacto Organizacional                               |
 | ------------------------ | ---------------------------------------------------- |
@@ -197,9 +199,9 @@ Uma gestão adequada de usuários é fundamental para a segurança e eficiência
 | **Tomada de Decisão**    | Confiança em escolhas arquiteturais                  |
 | **Retenção de Talentos** | Profissionais valorizam investimento em certificação |
 
-## **Quando Obter Certificação?**
+## Quando Obter Certificação?
 
-### Recomendado para
+**Recomendado para:**
 
 - **Júnior/Pleno** querendo comprovar fundamentos
 - **Sênior** buscando validação avançada
@@ -207,34 +209,34 @@ Uma gestão adequada de usuários é fundamental para a segurança e eficiência
 - **Freelancers** para ganhar confiança de clientes
 - **Consultores** em projetos críticos
 
-### Menos crítico quando
+**Menos crítico quando:**
 
 - Trabalha em empresa que não valoriza certificações
 - Já possui reputação estabelecida na comunidade
 - Atua em nichos muito específicos sem certificação correspondente
 
-## **Estatísticas Relevantes**
+**Estatísticas Relevantes:**
 
 - **87%** dos gerentes de TI consideram certificações importantes
 - **PostgreSQL** tem **crescimento de 25%** ao ano em adoção
 - Profissionais certificados têm **50% mais** chances de entrevista
 - **76%** das empresas preferem candidatos certificados
 
-## **Custo-Benefício**
+### Custo-Benefício
 
-### Investimento
+**Investimento:**
 
 - Exames: US$ 200-500 por certificação
 - Cursos preparatórios: US$ 500-2.000
 - Tempo de estudo: 40-120 horas
 
-### Retorno
+**Retorno:**
 
 - Aumento salarial: **10-25K/ano** em muitos mercados
 - Tempo de contratação reduzido: **30-50%** mais rápido
 - Maior estabilidade profissional
 
-## **Alternativas e Complementos**
+### Alternativas e Complementos
 
 <div class="mermaid">
 graph TD
@@ -248,7 +250,7 @@ graph TD
     E --> I[Confiança Pessoal]
 </div>
 
-## **Conclusão**
+### Conclusão
 
 As certificações PostgreSQL **NÃO substituem** experiência prática, mas **complementam** e validam seu conhecimento. São especialmente valiosas para:
 

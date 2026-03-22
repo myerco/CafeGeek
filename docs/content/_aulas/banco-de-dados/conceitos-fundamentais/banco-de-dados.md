@@ -4,7 +4,7 @@ excerpt: "Tipos, estruturas e exemplos de bancos de dados: relacional, NoSQL, gr
 categories:
   - banco-de-Dados
   - conceitos-fundamentais
-date: 2026-01-22T08:48:05-04:00
+date: 2026-01-01T08:48:05-04:00
 order: 1
 tags:
   - "Banco de Dados"

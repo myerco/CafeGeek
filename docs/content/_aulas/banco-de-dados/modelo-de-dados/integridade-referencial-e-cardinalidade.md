@@ -162,7 +162,7 @@ erDiagram
 
 Instâncias de ambas as entidades podem se relacionar com múltiplas instâncias da outra.
 
-**Exemplo de N:N (Aluno e Disciplina)** 
+**Exemplo de N:N (Aluno e Disciplina)**
 
 Um aluno pode se matricular em várias disciplinas, e uma disciplina pode ter vários alunos matriculados.
 
@@ -278,17 +278,17 @@ Esses exemplos mostram como cardinalidade e integridade referencial são aplicad
 
 ```sql
 
-select p.nome, s.descricao
-from pessoas p
-join sexo s on p.id_sexo = s.id;
+SELECT  p.nome, s.descricao
+FROM  pessoas p
+JOIN  sexo s ON p.id_sexo = s.id;
 
-select p.nome, f.imagem
-from pessoas p
-join foto f on p.id = f.id_pessoa;
+SELECT  p.nome, f.imagem
+FROM  pessoas p
+JOIN  foto f ON p.id = f.id_pessoa;
 
-select a.nome, d.nome, m.semestre, m.nota
-from aluno a
-join matricula m on a.id = m.aluno_id
-join disciplina d on m.disciplina_id = d.id;
+SELECT  a.nome, d.nome, m.semestre, m.nota
+FROM  aluno a
+JOIN  matricula m ON a.id = m.aluno_id
+JOIN  disciplina d ON m.disciplina_id = d.id;
 
 ```

@@ -4,7 +4,7 @@ excerpt: "Entenda conceitos fundamentais de bancos de dados relacionais."
 categories:
   - banco-de-Dados
   - conceitos-fundamentais
-date: 2024-03-01T08:48:05-04:00
+date: 2024-01-23T08:48:05-04:00
 order: 12
 tags:
   - banco-de-dados

@@ -4,7 +4,7 @@ excerpt: "Explore os conceitos, estrutura e características dos Sistemas Gerenc
 categories:
   - banco-de-Dados
   - conceitos-fundamentais
-date: 2026-01-22T08:48:05-04:00
+date: 2026-01-24T08:48:05-04:00
 order: 3
 tags:
   - "Banco de Dados"
