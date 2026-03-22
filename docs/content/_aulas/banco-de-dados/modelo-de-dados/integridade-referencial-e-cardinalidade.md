@@ -79,9 +79,7 @@ erDiagram
 
 ## Sintaxe dos relacionamentos
 
-|Valor esquerda| Valor Direita|Siginificado|
-|--------------|--------------|------------|
-
+- Valor esquerda -  Valor Direita - Siginificado
 - `|o`  -  `o|` : Zero ou um
 - `||`  -  `||` :Exatamente um
 - `}o`  -  `o{` :Zero ou mais (sem limite)
@@ -181,9 +179,9 @@ erDiagram
 
 **Expressão relacional:**
 
-`matricula.id_aluno = aluno.id`
+`(matricula.id_aluno = aluno.id)`
 
-`matricula.id_disciplina = disciplina.id`
+`(matricula.id_disciplina = disciplina.id)`
 
 **Exemplo  sistema acadêmico:**
 
@@ -257,17 +255,22 @@ Um produto pode aparecer em várias notas fiscais, e uma nota fiscal pode conter
 erDiagram
     PRODUTO }o--o{ NOTA_FISCAL : compoe
     PRODUTO {
-      string nome
+     int id PK  
+     string nome
+     float preco
     }
     NOTA_FISCAL {
       string numero
+      date data_emissao
+      float total
     }
 </div>
 
 **Expressão relacional:**
 
-produto_nota.id_produto = produto.id
-produto_nota.id_nota = nota_fiscal.id
+`(produto_nota.id_produto = produto.id)`
+
+`(produto_nota.id_nota = nota_fiscal.id)`
 
 Esses exemplos mostram como cardinalidade e integridade referencial são aplicadas na modelagem de dados.
 
