@@ -214,12 +214,14 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/modelo-de-dados/modelo-de-dados/
       - title: Usuários de Banco de Dados 
         url: /curso/banco-de-dados/conceitos-fundamentais/usuarios-de-banco-de-dados/
+  - title: MANIPULAÇÃO DE DADOS
+    children:
+      - title: SQL - Linguagem Estruturada de Consulta
+        url: /curso/banco-de-dados/sql-linguagem-estruturada-de-consulta/sql-linguagem-estruturada-de-consulta/    
   - title: MODELO RELACIONAL
     children:
       - title: Modelo de Entidade e Relacionamento
         url: /curso/banco-de-dados/modelo-de-dados/modelo-de-entidade-e-relacionamento/
-      - title: SQL - linguagem estruturada de consulta 
-        url: /curso/banco-de-dados/sql-linguagem-estruturada-de-consulta/sql-linguagem-estruturada-de-consulta/    
       - title: Restrições de Integridade
         url: /curso/banco-de-dados/modelo-de-dados/restricoes-de-integridade/ 
       - title: Atributo Chave Primaria
@@ -268,7 +270,6 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/atividades/fase-3-consultas-e-programacao/
       - title: Ferramentas 
         url: /curso/banco-de-dados/atividades/ferramentas/
-
 
 a-taberna-do-ponei-saltitante:         
   - title: A Taberna do Pônei Saltitante

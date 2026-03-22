@@ -72,9 +72,9 @@ Cada entidade possui um conjunto de propriedades cujos valores devem ser únicos
 - **Aluno**: Matrícula identifica dentro do contexto acadêmico
 - **Empréstimo**: Número identifica cada operação
 
----
+### Representação
 
-## Representação Gráfica das Entidades
+**Representação Gráfica:**
 
 No diagrama ER, as entidades são representadas por retângulos com o nome da entidade em maiúsculo.
 
@@ -86,11 +86,11 @@ erDiagram
   EMPRESTIMO
 </div>
 
-## Representação Tabular
+**Representação Tabular:**
 
 Cada entidade corresponde a uma tabela no banco de dados, onde cada linha representa uma instância específica.
 
-**Exemplo - Tabela ALUNO:**
+**Tabela ALUNO:**
 
 | Matrícula  | Nome        | Turma | Curso    |
 | ---------- | ----------- | ----- | -------- |
@@ -105,9 +105,9 @@ Atributos são as propriedades descritivas de cada entidade. Toda entidade é de
 
 **Definição:** "Todo objeto para ser uma entidade possui propriedades que são descritas por atributos e valores."
 
-### Exemplo Prático
+**Tabela PESSOAS:**
 
-Cada instância da entidade PESSOA terá valores específicos para seus atributos:
+Cada instância da entidade PESSOAS terá valores específicos para seus atributos:
 
 | CPF   | Nome          | Sexo | Salário  | Data Nasc.  | Endereço                 | Estado Cívil | Grau de instrução  | Idade | Nota |
 | ----- | ------------- | ---- | -------- | ----------- | ------------------------ | ------------ | ------------------ | ----- | ---- |
@@ -124,9 +124,9 @@ Cada instância da entidade PESSOA terá valores específicos para seus atributo
 
 *Datas fictícias e idades aproximadas para fins didáticos.
 
-## Tipos de Atributos
+### Tipos de Atributos
 
-### 1. Simples vs Compostos
+#### Simples vs Compostos
 
 - **Simples**: Valor indivisível (sexo, telefone)
 - **Compostos**: Podem ser divididos em subpartes (nome: primeiro + último; endereço: rua + cidade + CEP)
@@ -150,33 +150,112 @@ CREATE TABLE pessoa_composto (
 );
 ```
 
-### 2. Monovalorados vs Multivalorados
+#### Monovalorados vs Multivalorados
 
-- **Monovalorado**: Um único valor (idade, data nascimento)
-- **Multivalorado**: Múltiplos valores possíveis (telefones, salários históricos)
+- **Monovalorado**: Atributo Monovalorado (ou Single-Valued):
+    É um atributo que pode armazenar apenas um valor para uma entidade.
+    Exemplo: Uma pessoa tem apenas uma data de nascimento, um CPF, um nome principal.
+- **Multivalorado**: É um atributo que pode armazenar um conjunto de valores para uma mesma entidade.
+    Exemplo: Uma pessoa pode ter vários telefones, vários e-mails, ou vários endereços.
+
+**Atributos:**
+
+- matricula (monovalorado) – chave primária.
+- nome (monovalorado).
+- data_nascimento (monovalorado).
+- telefones (multivalorado) – um aluno pode ter vários números de telefone.
+- emails (multivalorado) – um aluno pode ter vários e-mails.
+
+**Importante:** No modelo relacional (tabelas), não implementamos um atributo multivalorado diretamente em uma coluna. Em vez disso, criamos uma tabela separada para representar esse relacionamento.
+{: .notice}
+
+**Implementação incorreta (não recomendada):**
+
+Um erro comum de quem está começando é tentar colocar os multivalorados em uma única coluna, separando por vírgula:
 
 ```sql
--- Monovalorado
-CREATE TABLE pessoa_monovalorado (
-  id SERIAL PRIMARY KEY,
-  idade INTEGER,
-  data_nascimento DATE
-);
-
--- Multivalorado (relacionamento 1:N)
-CREATE TABLE pessoa (
-  id SERIAL PRIMARY KEY,
-  nome VARCHAR(100)
-);
-
-CREATE TABLE telefone (
-  id SERIAL PRIMARY KEY,
-  pessoa_id INTEGER REFERENCES pessoa(id),
-  numero VARCHAR(20)
+CREATE TABLE pessoa_errado (
+    id SERIAL PRIMARY KEY,
+    cpf VARCHAR(14) UNIQUE,
+    nome VARCHAR(100),
+    data_nascimento DATE,
+    telefones TEXT,  -- '1199999999, 1188888888'
+    emails TEXT      -- 'joao@email.com, joao.trabalho@email.com'
 );
 ```
 
-### 3. Nulos
+| cpf            | Nome        | data_nascimento | telefones                     | emails                                    |
+| -------------- | ----------- | --------------- | ----------------------------- | ----------------------------------------- |
+| 001.201.501-25 | Ana Claudia | 03/02/2000      | 199999999, 1188888888         | ana@hotmail.com, ana.trabalho@email.com   |
+| 002.201.501-30 | João Silva  | 20/10/2004      | (98) 8993-9999,(61) 9999-5457 | joao@hotmail.com, joao.trabalho@email.com |
+
+**Problemas:**
+
+- Viola a primeira forma normal (1FN), pois os valores não são atômicos.
+- Dificuldade para consultar um telefone específico.
+- Problemas de integridade (não podemos garantir formato único).
+- Dificuldade para adicionar ou remover um telefone individualmente.
+
+**Implementação correta:**
+
+```sql
+-- Tabela principal (monovalorados)
+CREATE TABLE pessoas (
+    id INTEGER PRIMARY KEY,
+    cpf VARCHAR(14) UNIQUE,
+    nome VARCHAR(100) NOT NULL,
+    data_nascimento DATE
+);
+
+-- Tabela para telefones (multivalorado)
+CREATE TABLE pessoa_telefones (
+    id SERIAL PRIMARY KEY,
+    id_pessoa INTEGER REFERENCES pessoas(id) ON DELETE CASCADE,
+    telefone VARCHAR(20) NOT NULL,
+    -- Podemos incluir um tipo (celular, residencial, comercial)
+    tipo VARCHAR(20)
+);
+
+-- Tabela para emails (multivalorado)
+CREATE TABLE pessoa_emails (
+    id SERIAL PRIMARY KEY,
+    id_pessoa INTEGER REFERENCES pessoas(id) ON DELETE CASCADE,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    -- Flag para indicar se é o principal
+    principal BOOLEAN DEFAULT FALSE
+);
+```
+
+**Inserindo dados:**
+
+```sql
+-- 1. Inserir o pessoas (monovalorados)
+INSERT INTO pessoas (cpf, nome, data_nascimento)
+VALUES (2024001, 'Ana Maria Souza', '1995-03-12');
+
+-- 2. Inserir os telefones (multivalorados)
+INSERT INTO pessoa_telefones (id_pessoa, telefone, tipo)
+VALUES 
+    (1, '(11) 91234-5678', 'celular'),
+    (1, '(11) 3456-7890', 'residencial');
+
+-- 3. Inserir os e-mails (multivalorados)
+INSERT INTO pessoa_emails (id_pessoa, email, principal)
+VALUES 
+    (1, 'ana.souza@email.com', TRUE),
+    (1, 'ana.trabalho@empresa.com', FALSE);
+```
+
+**Consultas:**
+
+```sql
+SELECT p.cpf, p.nome, pt.telefone, pt.tipo
+FROM pessoas p
+LEFT JOIN pessoa_telefones  pt ON pt.id = p.id
+WHERE p.matricula = '2024001';
+```
+
+#### Nulos
 
 Atributos que podem não ter valor em algumas instâncias (estado civil, Grau de instrução).
 
@@ -189,7 +268,7 @@ CREATE TABLE pessoa_nulo (
 );
 ```
 
-### 4. Derivados
+#### Derivados
 
 Valores calculados a partir de outros atributos (idade derivada da data nascimento, total derivado de itens).
 

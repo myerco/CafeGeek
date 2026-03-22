@@ -29,7 +29,7 @@ No PostgreSQL, aplicamos isso através de:
 - **Tipos de Dados:** `INTEGER`, `VARCHAR`, `DATE`.
 - **Constraints:** `NOT NULL` (não aceita vazios) e `CHECK` (valida condições).
 
-### Exemplo Prático integridade de domínio
+**Tabela de produtos:**
 
 Imagine uma tabela de `Produtos` onde o preço não pode ser negativo.
 
@@ -50,6 +50,8 @@ CREATE TABLE IF NOT EXISTS produtos (
     categoria VARCHAR(50) DEFAULT 'Geral'
 );
 ```
+
+**O comando CREATE DOMAIN:**
 
 O comando `CREATE DOMAIN` para padronização e auxliar a integridade de domínio.
 
@@ -75,22 +77,22 @@ A **Integridade Referencial** garante que as relações entre as tabelas permane
 
 Ela impede que tenhamos "registros órfãos" (ex: um pedido de um cliente que não está cadastrado).
 
-### Exemplo Prático integridade referêncial
+**Tabelas de clientes e pedidos:**
 
 Temos as tabelas `Clientes` e `Pedidos`. Um pedido só pode existir se estiver vinculado a um cliente real.
 
 **Tabela Clientes:**
 
 | id (PK) | Nome      |
-| :-------------- | :-------- |
-| 10              | Ana Silva |
+| :------ | :-------- |
+| 10      | Ana Silva |
 
 **Tabela de Pedidos:**
 
-| id | id_cliente (FK) | Valor                           |
-| :-------- | :-------------- | :------------------------------ |
-| 501       | 10              | 250.00                          |
-| 502       | 99              | **ERRO! Cliente 99 não existe** |
+| id   | id_cliente (FK) | Valor                           |
+| :--- | :-------------- | :------------------------------ |
+| 501  | 10              | 250.00                          |
+| 502  | 99              | **ERRO! Cliente 99 não existe** |
 
 **Comando SQL (PostgreSQL):**
 
@@ -114,6 +116,8 @@ CREATE TABLE IF NOT EXISTS PEDIDOS (
 
 O comando `ON DELETE CASCADE` é uma estratégia de manutenção da integridade. Se o cliente for excluído, todos os pedidos dele também serão removidos automaticamente, evitando dados órfãos.
 {: .notice--primary}
+
+## Exemplos práticos
 
 ```sql
 CREATE TABLE IF NOT EXISTS SEXO (

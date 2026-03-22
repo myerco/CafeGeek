@@ -30,7 +30,7 @@ SQL (Structured Query Language) é a linguagem padrão para trabalhar com bancos
 - DML: INSERT, UPDATE, DELETE, SELECT
 - DCL: GRANT, REVOKE
 
-## CREATE TABLE - Criando Estruturas
+## CREATE TABLE
 
 O comando CREATE TABLE define a estrutura de uma nova tabela no banco de dados.
 
@@ -44,22 +44,28 @@ CREATE TABLE nome_tabela (
 );
 ```
 
-**Exemplo prático - Tabela pessoa:**
+**Exemplo - Tabela pessoas:**
 
 ```sql
-CREATE TABLE pessoa (
+CREATE TABLE pessoas (
     cpf varchar(13),
     nome varchar(40),
     sexo char(1),
     salario number(8,2),
     data_nasc date
 );
+
+CREATE TABLE sexo (
+  id varchar(1),
+  descricao varchar(10)
+)
+
 ```
 
-**Exemplo - Tabela aluno:**
+**Exemplo - Tabela alunos:**
 
 ```sql
-CREATE TABLE aluno (
+CREATE TABLE alunos (
     matricula varchar(10),
     nome varchar(40),
     turma varchar(20),
@@ -70,7 +76,7 @@ CREATE TABLE aluno (
 **Exemplo - Tabela empréstimo:**
 
 ```sql
-CREATE TABLE emprestimo (
+CREATE TABLE emprestimos (
     numero number(8),
     dt_emprestimo date,
     valor number(8,2),
@@ -78,7 +84,7 @@ CREATE TABLE emprestimo (
 );
 ```
 
-## DESCRIBE - Visualizando Estruturas
+## DESCRIBE
 
 O comando DESCRIBE (ou DESC) mostra a estrutura de uma tabela existente.
 
@@ -98,14 +104,14 @@ DESC aluno;
 DESC emprestimo;
 ```
 
-### ALTER TABLE - Modificando Estruturas
+### ALTER TABLE 
 
 Para adicionar colunas a uma tabela existente:
 
 ```sql
-ALTER TABLE pessoa ADD telefone varchar(15);
-ALTER TABLE aluno ADD sexo char(1);
-ALTER TABLE emprestimo ADD conta varchar(10);
+ALTER TABLE pessoas ADD telefone varchar(15);
+ALTER TABLE alunos ADD sexo char(1);
+ALTER TABLE emprestimos ADD conta varchar(10);
 ```
 
 ## INSERT - Inserindo Dados
@@ -124,18 +130,23 @@ INSERT INTO nome_tabela VALUES (valor1, valor2, ...);
 INSERT INTO nome_tabela (coluna1, coluna2) VALUES (valor1, valor2);
 ```
 
-**Exemplos práticos:**
+**Exemplos :**
 
 ```sql
-INSERT INTO pessoa VALUES ('001','João','M',1000, '21/06/1989');
+INSERT INTO pessoas VALUES ('001','João','M',1000, '21/06/1989');
 
-INSERT INTO aluno (matricula, nome) VALUES ('001.201501','Ana Claudia Nunes');
+INSERT INTO alunos (matricula, nome) VALUES ('001.201501','Ana Claudia Nunes');
+INSERT INTO alunos (matricula, nome) VALUES ('002.589.57','Frodo Baggins');
 
-INSERT INTO emprestimo (dt_emprestimo, valor, numero, cliente)
+INSERT INTO emprestimos (dt_emprestimo, valor, numero, cliente)
 VALUES ('08/12/2015',1500,100201501,'Hugo Silva');
+
+INSERT INTO sexo (id, descricao) VALUES ('M', 'Masculino');
+INSERT INTO sexo (id, descricao) VALUES ('F', 'Feminino');
+
 ```
 
-## SELECT - Consultando Dados
+## SELECT
 
 O comando SELECT recupera dados das tabelas.
 
@@ -154,19 +165,127 @@ SELECT * FROM nome_tabela;
 **Exemplos:**
 
 ```sql
-SELECT * FROM pessoa;
+SELECT * FROM pessoas;
 
-SELECT matricula, nome FROM aluno;
+SELECT matricula, nome FROM alunos;
 
-SELECT numero, cliente FROM emprestimo ORDER BY numero;
+SELECT numero, cliente FROM emprestimos ORDER BY numero;
+
+select * from pessoas where cpf = '001';
+
+select * from pessoas where nome = 'João';
+
+select * from alunos where matricula
+
+-- Quando se utiliza "=", o resultado precisa ser exatamente igual ao que foi pedido
+-- Nesse caso, se tiver um valor 'Frodo Baggins', ele não
+-- será retornado porque 'Frodo Baggins' != 'Frodo'
+
+select nome, sexo from pessoas nome like 'J%';
+-- O "like" significa que não precisa ser exatamente igual, mas
+-- parecido. A "%" indica que depois de "Frodo" pode ter qualquer
+-- outra coisa escrita, mas tem que começar com Frodo
+
+select nome, sexo from pessoas nome like '%Claudia%';
+
 ```
 
-### ORDER BY - Ordenação
+**Selecionando duas tabelas**
+
+```sql
+-- O resultado é a multiplicação das colunas e linhas das duas tabelas
+select * from pessoas, alunos;
+
+-- Juntando corretamente as tabelas
+select from pessoas, sexo where pessoas.sexo = sexo.id;
+
+-- No exemplo abaixo usando alias "AS" ou "apelido" para as colunas e tabelas
+SELECT A.NOME AS "Nome do aluno"
+  , B.DESCRICAO AS "Sexo do aluno"
+FROM PESSOAS A JOIN SEXO B ON (B.ID = A.ID_SEXO)
+
+```
+
+### ORDER BY
 
 A cláusula ORDER BY organiza os resultados:
 
 ```sql
-SELECT numero, cliente FROM emprestimo ORDER BY numero;
+SELECT numero, cliente FROM emprestimos ORDER BY numero;
+```
+
+## UPDATE
+
+O comando update altera registros existentes.
+
+**Sintaxe:**
+
+```sql
+UPDATE nome_tabela SET coluna1 = valor1, coluna2 = valor2 WHERE condição;
+```
+
+**Exemplo:**
+
+```sql
+update pessoas
+set sexo = 'M'
+where cpf = '001';
+
+update alunos
+set sexo = 'F'
+where matricula = '001.201501';
+```
+
+## DELETE
+
+O comando DELETE FROM nome_tabela WHERE condição;
+
+**Sintaxe completa:**
+
+```sql
+delete from nome_tabela where coluna1 = valor1;
+```
+
+**Exemplo:**
+
+```sql
+delete from pessoas where cpf = '001';
+
+delete from alunos where matricula = '001.201501';
+```
+
+## GROUP BY
+
+Comandos de grupo group by agrupam linhas baseadas em um ou mais campos.
+
+**Sintaxe:**
+
+```sql
+select campo1, campo2, função_grupo
+from tabela
+group by campo1, campo2
+```
+
+```sql
+
+-- Contando todos as pessoas
+select count(*) from pessoas;
+
+-- Apresentando todos as pessoas por sexo
+select sexo, count(*) from pessoas group by sexo;
+
+-- Valor máximo da data de nascimento
+select max(data_nasc) from pessoas;
+
+-- Valor mínimo da data de nascimento
+select min(data_nasc) from pessoas;
+
+-- Valor médio dos salários
+select avg(salario) from pessoas;
+
+-- Somatório dos salários
+select sum(salario) from pessoas;
+
 ```
 
 ## Exercícios Práticos
