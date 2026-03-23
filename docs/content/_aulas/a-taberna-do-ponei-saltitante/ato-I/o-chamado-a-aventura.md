@@ -1,74 +1,36 @@
 ---
-title: "O Chamado à Aventura"
-excerpt: "O herói aceita a missão! Nesta etapa, você irá se aprofundar nos problemas da Taberna do Pônei Saltitante, detalhando as regras de negócio e os requisitos para salvar nosso estalajadeiro do caos."
+title: "O chamado à aventura"
+excerpt: "A Jornada do Herói começa. Nesta atividade, o aluno inicia o desenvolvimento de um projeto de banco de dados, criando a estrutura inicial para a Taberna do Pônei Saltitante."
 categories:
   - "a-taberna-do-ponei-saltitante"
   - "ato-i"
 date: 2026-03-01T08:48:05-04:00
-order: 3
+order: 2
 tags:
   - banco-de-dados
 sidebar:
   nav: a-taberna-do-ponei-saltitante
 ---
 
-## A Missão é Aceita
+![image-left](/assets/images/a-taberna-ponei-saltitante/tavern-sign-150x150.png){:width="32" .align-left} O Pônei Saltitante está expandindo seus negócios! Para melhor atender sua clientela variada de Anões, Elfos, Hobbits e Homens, a taverna agora se aliou ao Ferreiro da cidade. Além das bebidas e da hospitalidade, agora também venderá espadas, escudos e elmos.
 
-No capítulo anterior, você testemunhou o caos iminente na Taberna do Pônei Saltitante. Seu gerente, Cevado Carrapicho, fez um chamado por um herói — um mestre da organização capaz de trazer ordem ao seu negócio em expansão.
+Cevado Carrapicho está sobrecarregado. Como gerenciar o estoque de bebidas e de armas? Como registrar os pedidos de clientes tão diferentes? Ele precisa de um sistema, uma forma de organizar tudo antes que sua taverna se afogue em pergaminhos perdidos e barris não contabilizados.
 
-> ![thought-bubble](https://game-icons.net/icons/000000/transparent/1x1/seregacthtuf/thought-bubble.svg){: .align-left width="48"}
-> Você aceitou o chamado. É o caminho para o **aumento da consciência**.
-{: .notice--info}
+Este é o seu **Chamado à Aventura**: usar suas habilidades para criar a estrutura de um banco de dados que salvará o Pônei Saltitante.
 
-Agora, a verdadeira jornada começa. Você cruza o primeiro limiar, deixando o "mundo comum" para trás. Sua primeira tarefa é sentar-se com o estalajadeiro, pena e pergaminho em mãos, e entender a fundo as leis que regem seu pequeno reino. Esta é a fase de **levantamento de requisitos**.
+## Sua Missão: O Primeiro Mapa do Território
 
-## O Pergaminho de Regras
+Como um aventureiro preparando sua mochila, seu primeiro passo é criar as ferramentas e o mapa inicial para esta jornada. Sua missão é estruturar o projeto e desenhar o primeiro diagrama do modelo de dados.
 
-![scroll-unfurled](https://game-icons.net/icons/000000/transparent/1x1/lorc/scroll-unfurled.svg){:width="48" .align-left} Cevado, aliviado com sua presença, começa a desabafar e a listar tudo o que ele precisa registrar em seu novo "sistema de organização". Ele desenrola um longo pergaminho com as regras da taverna:
+Siga os passos abaixo:
 
-### Sobre Clientes e Funcionários
-
-- **Clientes (`Clientes`):** Precisamos registrar os clientes, seus **e-mails**, **endereços** e a qual **raça** pertencem (para personalizar o atendimento). Além disso, eles são classificados por tipos: `Padrão`, `Especial` e `Classe A`.
-- **Funcionários (`Funcionarios`):** Cada funcionário tem um número de **matrícula**, um **salário base** e um cargo.
-- **Cargos (`Cargos`):** Os cargos possuem uma estrutura hierárquica (um gerente supervisiona um barman, por exemplo). Cada cargo também define um valor a ser **acrescido no salário** do funcionário.
-
-### Sobre Produtos e Pedidos
-
-- **Pedidos (`Pedidos`):** Os pedidos dos clientes são hoje feitos em um caderno e, atenção, **nem sempre resultam em uma venda**! (Isso sugere um status no pedido: `em andamento`, `finalizado`, `cancelado`).
-- **Produtos (`Produtos`):** Temos uma tabela de preços para nossos produtos.
-- **Produtos Compostos:** Alguns produtos, como uma "Espada Élfica com Gemas", são compostos por outros itens (a espada e as gemas). É importante saber que vendemos tanto o produto final quanto os componentes em separado.
-
-## As Perguntas do Estalajadeiro
-
-![magnifying-glass](https://game-icons.net/icons/000000/transparent/1x1/lorc/magnifying-glass.svg){:width="48" .align-left} Depois de listar as regras, Cevado olha para você com esperança e diz: "Com este novo sistema, eu finalmente poderei ter respostas para minhas perguntas mais urgentes!":
-
-- Quantos clientes de cada **raça** eu tenho?
-- Quantos clientes de cada **classe** (`Padrão`, `Especial`, `Classe A`) estão registrados?
-- Qual o **valor total das vendas** para os clientes da classe `Padrão`?
-- Qual o meu **volume de vendas** por semana, mês e ano?
-- **Quem vendeu mais**? Quero saber o desempenho de cada funcionário em um determinado período.
-- Qual é a bebida (ou espada) **mais popular** da taverna?
-
-Essas perguntas são o seu objetivo. O banco de dados que você construir deverá ser capaz de respondê-las.
-
-## Sua Missão: Decifrar o Enigma
-
-Com as regras e perguntas em mãos, sua missão agora é traduzir essa narrativa em uma estrutura de dados lógica. Você irá atualizar o mapa que começou a desenhar na etapa anterior.
-
-Edite seu arquivo `README.md` no GitHub com as seguintes análises:
-
-1. ![drakkar](https://game-icons.net/icons/000000/transparent/1x1/delapouite/drakkar.svg){:width="48" .align-left}
-    **Identifique as Entidades:** Liste as principais "coisas" ou "substantivos" da história. (Ex: `Clientes`, `Funcionarios`, `Pedidos`, `Produtos`, `Cargos`...).
-    <br clear="left">
-
-2. ![checklist](https://game-icons.net/icons/000000/transparent/1x1/delapouite/checklist.svg){:width="48" .align-left}
-    **Liste os Atributos:** Para cada entidade, liste suas propriedades ou características. (Ex: Para `Clientes`, temos `nome`, `email`, `raca`, `classe`...).
-    <br clear="left">
-
-3. ![relationship-bounds](https://game-icons.net/icons/000000/transparent/1x1/lorc/relationship-bounds.svg){:width="48" .align-left}
-    **Defina os Relacionamentos:** Descreva como as entidades se conectam, usando "verbos". (Ex: Um `Cliente` *faz um* `Pedido`. Um `Pedido` *contém vários* `Produtos`. Um `Funcionario` *tem um* `Cargo`).
-    <br clear="left">
-
-4. ![treasure-map](https://game-icons.net/icons/000000/transparent/1x1/lorc/treasure-map.svg){:width="48" .align-left}
-    **Atualize o Mapa (Diagrama MERMAID):** Com base na sua nova análise, melhore a primeira versão do seu diagrama de Entidade e Relacionamento no `README.md`. Adicione as novas entidades, atributos e os relacionamentos que você descobriu.
-    <br clear="left">
+1. ![quill-ink](https://game-icons.net/icons/000000/transparent/1x1/lorc/quill-ink.svg){:width="32" .align-left}
+**Forje seu Diário de Bordo:** Crie ou utilize sua conta no **GitHub**. Este será o registro de toda a sua jornada.
+2. ![bookshelf](https://game-icons.net/icons/000000/transparent/1x1/delapouite/bookshelf.svg){:width="32" .align-left}
+**Nomeie sua Aventura:** Crie um novo repositório com um nome para o projeto (ex: `taverna-ponei-saltitante-db`).
+3. ![treasure-map](https://game-icons.net/icons/000000/transparent/1x1/lorc/treasure-map.svg){:width="32" .align-left} **Desenhe o Primeiro Mapa (`README.md`):** No arquivo `README.md` do seu repositório, você irá detalhar o plano da sua missão. Ele deve incluir:
+    - **Apresentação da Missão:** Um breve resumo do tema (gerenciar a Taberna do Pônei Saltitante) e seu objetivo (criar um banco de dados para controlar clientes, produtos e vendas).
+    - **O Mapa do Mundo (Diagrama MERMAID):** Crie um **Modelo de Entidade e Relacionamento (MER)** inicial usando a sintaxe do Mermaid. Este diagrama representará as primeiras tabelas e suas relações. Pense nas entidades principais: `Clientes`, `Produtos`, `Pedidos`... Como elas se conectam?
+4. ![position-marker](https://game-icons.net/icons/000000/transparent/1x1/delapouite/position-marker.svg){:width="32" .align-left} **Marque seu Ponto de Partida:** Faça o `commit` inicial no seu repositório com o `README.md` contendo o diagrama. Esta será a versão "0.1" da sua jornada.
+5. ![mailbox](https://game-icons.net/icons/000000/transparent/1x1/delapouite/mailbox.svg){:width="32" .align-left}
+**Compartilhe suas Intenções:** Compartilhe o link do seu repositório no ambiente da disciplina para que seu progresso possa ser avaliado.

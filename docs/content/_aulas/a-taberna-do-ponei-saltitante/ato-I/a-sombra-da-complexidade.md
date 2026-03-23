@@ -1,5 +1,5 @@
 ---
-title: "A Recusa do Chamado"
+title: "A Sombra da Complexidade"
 excerpt: "A complexidade da missão se revela, e o herói hesita. Neste capítulo, enfrentamos o monstro dos dados desorganizados e encontramos um mentor na antiga sabedoria da Normalização."
 categories:
   - "a-taberna-do-ponei-saltitante"
@@ -11,8 +11,6 @@ tags:
 sidebar:
   nav: a-taberna-do-ponei-saltitante
 ---
-
-## A Sombra da Complexidade
 
 Com o "Pergaminho de Regras" em mãos, a euforia inicial da aventura dá lugar a uma sombra de dúvida. "Muitas regras!", "Como relacionar Orcs, Elfos e Anões no mesmo banco de dados?", "E se um pedido tiver dez itens diferentes?".
 
