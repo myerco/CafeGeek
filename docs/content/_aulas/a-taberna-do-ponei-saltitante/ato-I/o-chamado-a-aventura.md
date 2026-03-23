@@ -2,8 +2,7 @@
 title: "O Chamado à Aventura"
 excerpt: "O herói aceita a missão! Nesta etapa, você irá se aprofundar nos problemas da Taberna do Pônei Saltitante, detalhando as regras de negócio e os requisitos para salvar nosso estalajadeiro do caos."
 categories:
-  - "banco-de-dados"
-  - "a-jornada-do-heroi"
+  - "a-taberna-do-ponei-saltitante"
   - "ato-i"
 date: 2026-03-01T08:48:05-04:00
 order: 3

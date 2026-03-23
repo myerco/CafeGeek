@@ -2,8 +2,7 @@
 title: "O Mundo Comum"
 excerpt: "A Jornada do Herói começa. Nesta atividade, o aluno inicia o desenvolvimento de um projeto de banco de dados, criando a estrutura inicial para a Taberna do Pônei Saltitante."
 categories:
-  - "banco-de-dados"
-  - "a-jornada-do-heroi"
+  - "a-taberna-do-ponei-saltitante"
   - "ato-i"
 date: 2026-03-01T08:48:05-04:00
 order: 2

@@ -60,6 +60,6 @@ Enquanto a equipe técnica discute **onde** colocar essas regras (para tornar o 
 
 ### Saiba mais
 
-- [O que é banco de dados?](https://cafegeek.eti.br/curso/introducao-a-banco-de-dados/capitulo-1/banco-de-dados/)
+- [O que é banco de dados?](https://cafegeek.eti.br/curso/banco-de-dados/conceitos-fundamentais/banco-de-dados/)
 
 Referência: [Regras de negócio no banco de dados: vantagens e desvantagens (Stack Overflow)](https://pt.stackoverflow.com/questions/15739/regras-de-neg%C3%B3cio-no-banco-de-dados-quais-as-vantagens-e-desvantagens)

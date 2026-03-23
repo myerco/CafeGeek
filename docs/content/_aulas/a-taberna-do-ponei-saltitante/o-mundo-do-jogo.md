@@ -1,9 +1,9 @@
 ---
-title: "Prologo"
+title: "O mundo do jogo"
 excerpt: ""
 categories:
-  - "banco-de-dados"
-  - "a-jornada-do-heroi"
+  - "a-taberna-do-ponei-saltitante"
+  - "prologo"
 date: 2026-03-01T08:48:05-04:00
 order: 5
 tags:

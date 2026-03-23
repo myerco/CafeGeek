@@ -2,8 +2,7 @@
 title: "Encontro com o Mentor"
 excerpt: "Após a recusa, o herói encontra um mentor. O aprendizado sobre Entidades e Atributos começa, as primeiras ferramentas para a jornada de criação do banco de dados."
 categories:
-  - "banco-de-dados"
-  - "a-jornada-do-heroi"
+  - "a-taberna-do-ponei-saltitante"
   - "ato-i"
 date: 2026-03-01T08:48:05-04:00
 order: 5

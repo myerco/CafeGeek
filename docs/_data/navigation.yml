@@ -274,38 +274,38 @@ introducao-a-banco-de-dados:
 a-taberna-do-ponei-saltitante:         
   - title: A Taberna do Pônei Saltitante
     icon: fas fa-user
-    url: /curso/banco-de-dados/  
+    url: /curso/a-taberna-do-ponei-saltitante/
   - title: Prólogo
     icon: fas fa-tasks
     children:
       - title: O mundo do jogo
-        url: /curso/banco-de-dados/a-jornada-do-heroi/prologo/
+        url: /curso/a-taberna-do-ponei-saltitante/prologo/o-mundo-do-jogo/
   - title: ATO I
     icon: fas fa-tasks
     children:
       - title: Mundo comum
-        url: /curso/banco-de-dados/a-jornada-do-heroi/ato-i/mundo-comum/
+        url: /curso/a-taberna-do-ponei-saltitante/ato-i/mundo-comum/
       - title: O chamado à aventura
-        url: /curso/banco-de-dados/a-jornada-do-heroi/ato-i/o-chamado-a-aventura/
+        url: /curso/a-taberna-do-ponei-saltitante/ato-i/o-chamado-a-aventura/
       - title: Recusa ao chamado
-        url: /curso/banco-de-dados/a-jornada-do-heroi/ato-i/recusa-ao-chamado/
+        url: /curso/a-taberna-do-ponei-saltitante/ato-i/recusa-ao-chamado/
       - title: Encontro com o mentor
-        url: /curso/banco-de-dados/a-jornada-do-heroi/ato-i/encontro-com-o-mentor/
+        url: /curso/a-taberna-do-ponei-saltitante/ato-i/encontro-com-o-mentor/
   - title: ATO II
     icon: fas fa-tasks
     children:
       - title: Cruzamento do limiar
-        url: /curso/banco-de-dados/a-jornada-do-heroi/ato-ii/cruzamento-do-limiar/
+        url: /curso/a-taberna-do-ponei-saltitante/ato-ii/cruzamento-do-limiar/
   - title: Ferramentas
     icon: fas fa-cog
     children:
       - title: Inventário
-        url: /curso/banco-de-dados/a-jornada-do-heroi/inventario/
+        url: /curso/a-taberna-do-ponei-saltitante/ferramentas/inventario/
   - title: Academia de Heróis
     icon: fas fa-book
     children:
       - title: Area de treinamento
-        url: /curso/banco-de-dados/a-jornada-do-heroi/area-de-treinamento/
+        url: /curso/a-taberna-do-ponei-saltitante/academia-de-herois/area-de-treinamento/
 
 
 soberania-digital:         

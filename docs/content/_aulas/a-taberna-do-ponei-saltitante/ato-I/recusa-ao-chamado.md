@@ -2,8 +2,7 @@
 title: "A Recusa do Chamado"
 excerpt: "A complexidade da missão se revela, e o herói hesita. Neste capítulo, enfrentamos o monstro dos dados desorganizados e encontramos um mentor na antiga sabedoria da Normalização."
 categories:
-  - "banco-de-dados"
-  - "a-jornada-do-heroi"
+  - "a-taberna-do-ponei-saltitante"
   - "ato-i"
 date: 2026-03-01T08:48:05-04:00
 order: 4
