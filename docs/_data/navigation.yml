@@ -276,10 +276,12 @@ a-taberna-do-ponei-saltitante:
     icon: fas fa-user
     url: /curso/banco-de-dados/  
   - title: Prólogo
+    icon: fas fa-tasks
     children:
       - title: O mundo do jogo
         url: /curso/banco-de-dados/a-jornada-do-heroi/prologo/
   - title: ATO I
+    icon: fas fa-tasks
     children:
       - title: Mundo comum
         url: /curso/banco-de-dados/a-jornada-do-heroi/ato-i/mundo-comum/
@@ -290,14 +292,17 @@ a-taberna-do-ponei-saltitante:
       - title: Encontro com o mentor
         url: /curso/banco-de-dados/a-jornada-do-heroi/ato-i/encontro-com-o-mentor/
   - title: ATO II
+    icon: fas fa-tasks
     children:
       - title: Cruzamento do limiar
         url: /curso/banco-de-dados/a-jornada-do-heroi/ato-ii/cruzamento-do-limiar/
   - title: Ferramentas
+    icon: fas fa-cog
     children:
       - title: Inventário
         url: /curso/banco-de-dados/a-jornada-do-heroi/inventario/
   - title: Academia de Heróis
+    icon: fas fa-book
     children:
       - title: Area de treinamento
         url: /curso/banco-de-dados/a-jornada-do-heroi/area-de-treinamento/
