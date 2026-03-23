@@ -1,5 +1,5 @@
 ---
-title: Atributo Chave Primária
+title: Chave Primária
 excerpt: "Entenda o conceito de chave primária em bancos de dados relacionais, sua importância e exemplos práticos."
 categories:
   - banco-de-Dados

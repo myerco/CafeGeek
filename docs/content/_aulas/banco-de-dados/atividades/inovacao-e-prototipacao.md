@@ -1,5 +1,5 @@
 ---
-title: "Fase 2: Inovação e Prototipação"
+title: "Inovação e Prototipação"
 excerpt: "Uma atividade prática e guiada para o desenvolvimento de um projeto completo de banco de dados relacional, desde a modelagem inicial até a implementação de funcionalidades avançadas com PostgreSQL."
 categories:
   - "banco-de-dados"

@@ -13,7 +13,7 @@ sidebar:
   nav: a-taberna-do-ponei-saltitante
 ---
 
-## Prólogo: A Sombra da Complexidade
+## A Sombra da Complexidade
 
 Com o "Pergaminho de Regras" em mãos, a euforia inicial da aventura dá lugar a uma sombra de dúvida. "Muitas regras!", "Como relacionar Orcs, Elfos e Anões no mesmo banco de dados?", "E se um pedido tiver dez itens diferentes?".
 
@@ -69,17 +69,3 @@ Sua missão é usar a sabedoria recém-adquirida para dar o primeiro golpe no mo
 3. ![treasure-map](https://game-icons.net/icons/000000/transparent/1x1/lorc/treasure-map.svg){:width="48" .align-left}
     **Reforje o Mapa (Diagrama MERMAID):** Atualize seu diagrama no `README.md` para refletir essa nova estrutura, agora em 1FN. Mostre como as tabelas se separam e se relacionam com chaves. Esta é sua primeira grande vitória documentada!
     <br clear="left">
-
-## Arsenal do Conhecimento
-
-O mentor lhe entrega pergaminhos com conhecimento vital para sua jornada. Estude-os com atenção.
-
-- ![diagram](https://game-icons.net/icons/000000/transparent/1x1/lord-berandas/diagram.svg){:width="32"} **A Natureza dos Dados:**
-  - [Entenda o que são modelos de dados](https://cafegeek.eti.br/curso/banco-de-dados/modelo-de-dados/modelo-de-dados/)
-    - [Restrições de integridade](https://cafegeek.eti.br/curso/banco-de-dados/modelo-de-dados/restricoes-de-integridade/)
-- ![key](https://game-icons.net/icons/000000/transparent/1x1/sbed/key.svg){:width="32"} **As Chaves do Reino:**
-  - [Atributos chave primária](https://cafegeek.eti.br/curso/banco-de-dados/modelo-de-dados/atributo-chave-primaria/)
-    - [Chave estrangeira](https://cafegeek.eti.br/curso/banco-de-dados/modelo-de-dados/chave-estrangeira/)
-- ![relationship-bounds](https://game-icons.net/icons/000000/transparent/1x1/lorc/relationship-bounds.svg){:width="32"} **As Leis da Conexão:**
-  - [Integridade Referencial e Cardinalidade](https://cafegeek.eti.br/curso/banco-de-dados/modelo-de-dados/integridade-referencial-e-cardinalidade/)
-  - [Dependencia de Existência](https://cafegeek.eti.br/curso/banco-de-dados/modelo-de-dados/dependencia-de-existencia/)

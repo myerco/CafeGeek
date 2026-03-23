@@ -39,7 +39,7 @@ Dependência de existência ocorre quando a existência de uma entidade (subordi
 
 ---
 
-## Exemplos
+**Exemplos:**
 
 Considere as entidades `ALUNOS` e `NOTAS`:
 
@@ -50,8 +50,8 @@ Se um aluno for excluído, todas as suas notas devem ser removidas automaticamen
 
 **Modelo físico:**
 
-- Tabela `aluno` (dominante).
-- Tabela `nota` (subordinada, com FK para aluno).
+- Tabela `alunos` (dominante).
+- Tabela `notas` (subordinada, com FK para aluno).
 
 ```sql
 CREATE TABLE alunos (
@@ -59,7 +59,7 @@ CREATE TABLE alunos (
     nome VARCHAR(50)
 );
 
-CREATE TABLE nota (
+CREATE TABLE notas (
     id INT PRIMARY KEY,
     matricula_aluno INT,
     disciplina VARCHAR(50),
@@ -89,7 +89,7 @@ INSERT INTO notas (id, matricula_aluno, disciplina, valor) VALUES
 
 A cláusula `ON DELETE CASCADE` implementa a dependência: excluir aluno remove notas automaticamente.
 
-## JOINs (LEFT, RIGHT, INNER)
+## Associação entre tabelas
 
 ### INNER JOIN
 
@@ -98,8 +98,8 @@ Retorna apenas os registros que têm correspondência em ambas as tabelas.
 ```sql
 -- INNER JOIN: Alunos que possuem pelo menos uma nota
 SELECT a.matricula, a.nome, n.disciplina, n.valor
-FROM aluno a
-INNER JOIN nota n ON a.matricula = n.matricula_aluno
+FROM alunos a
+INNER JOIN notas n ON a.matricula = n.matricula_aluno
 ORDER BY a.matricula;
 ```
 
@@ -112,7 +112,7 @@ graph TD
     A ---|matrícula correspondente| C
     B ---|matrícula correspondente| C
     
-    style C fill:#00008B
+    style C fill:#6959CD
 </div>
 
 ### LEFT JOIN
@@ -122,8 +122,8 @@ Retorna todos os registros da tabela da esquerda (aluno), mesmo que não haja co
 ```sql
 -- LEFT JOIN: Todos os alunos, com ou sem notas
 SELECT a.matricula, a.nome, n.disciplina, n.valor
-FROM aluno a
-LEFT JOIN nota n ON a.matricula = n.matricula_aluno
+FROM alunos a
+LEFT JOIN notas n ON a.matricula = n.matricula_aluno
 ORDER BY a.matricula;
 ```
 
@@ -136,8 +136,8 @@ graph TD
     A ---|todos registros| C
     B ---|apenas correspondentes| C
     
-    style A fill:#00008B
-    style C fill:#00008B
+    style A fill:#6959CD
+    style C fill:#6959CD
 </div>
 
 ### RIGHT JOIN
@@ -147,8 +147,8 @@ Retorna todos os registros da tabela da direita (nota), mesmo que não haja corr
 ```sql
 -- RIGHT JOIN: Todas as notas com informações do aluno
 SELECT a.matricula, a.nome, n.disciplina, n.valor
-FROM aluno a
-RIGHT JOIN nota n ON a.matricula = n.matricula_aluno;
+FROM alunos a
+RIGHT JOIN notas n ON a.matricula = n.matricula_aluno;
 ```
 
 <div class="mermaid">
@@ -160,8 +160,8 @@ graph TD
     A ---|apenas correspondentes| C
     B ---|todos registros| C
     
-    style B fill:#00008B
-    style C fill:#00008B
+    style B fill:#6959CD
+    style C fill:#6959CD
 </div>
 
 ## Operações de Conjuntos
@@ -173,14 +173,14 @@ Alunos com nota em Matemática vs Alunos com nota em Português
 ```sql
 -- Query 1: Alunos com nota em Matemática
 SELECT a.matricula, a.nome, 'Matemática' as tipo
-FROM aluno a
-INNER JOIN nota n ON a.matricula = n.matricula_aluno
+FROM alunos a
+INNER JOIN notas n ON a.matricula = n.matricula_aluno
 WHERE n.disciplina = 'Matemática';
 
 -- Query 2: Alunos com nota em Português
 SELECT a.matricula, a.nome, 'Português' as tipo
-FROM aluno a
-INNER JOIN nota n ON a.matricula = n.matricula_aluno
+FROM alunos a
+INNER JOIN notas n ON a.matricula = n.matricula_aluno
 WHERE n.disciplina = 'Português';
 ```
 
@@ -191,15 +191,15 @@ Retorna todos os registros de ambas as queries, removendo duplicatas.
 ```sql
 -- UNION: Alunos que têm nota em Matemática OU em Português
 SELECT a.matricula, a.nome, 'Matemática' as disciplina
-FROM aluno a
-INNER JOIN nota n ON a.matricula = n.matricula_aluno
+FROM alunos a
+INNER JOIN notas n ON a.matricula = n.matricula_aluno
 WHERE n.disciplina = 'Matemática'
 
 UNION
 
 SELECT a.matricula, a.nome, 'Português' as disciplina
-FROM aluno a
-INNER JOIN nota n ON a.matricula = n.matricula_aluno
+FROM alunos a
+INNER JOIN notas n ON a.matricula = n.matricula_aluno
 WHERE n.disciplina = 'Português'
 ORDER BY matricula;
 ```
@@ -213,7 +213,7 @@ graph TD
     A ---|união| C
     B ---|união| C
     
-    style C fill:#00008B
+    style C fill:#6959CD
 </div>
 
 ### INTERSECT - Interseção de conjuntos
@@ -223,20 +223,20 @@ Retorna apenas os registros que estão presentes em ambas as queries.
 ```sql
 -- INTERSECT: Alunos que têm nota em Matemática E em Português
 SELECT matricula, nome
-FROM aluno
+FROM alunos
 WHERE matricula IN (
     SELECT matricula_aluno 
-    FROM nota 
+    FROM notas 
     WHERE disciplina = 'Matemática'
 )
 
 INTERSECT
 
 SELECT matricula, nome
-FROM aluno
+FROM alunos
 WHERE matricula IN (
     SELECT matricula_aluno 
-    FROM nota 
+    FROM notas
     WHERE disciplina = 'Português'
 );
 ```
@@ -250,7 +250,7 @@ graph TD
     A ---|interseção| C
     B ---|interseção| C
     
-    style C fill:#00008B
+    style C fill:#6959CD
 </div>
 
 ### EXCEPT Diferença de conjuntos
@@ -258,20 +258,20 @@ graph TD
 ```sql
 -- EXCEPT: Alunos que têm nota em Matemática mas NÃO em Português
 SELECT matricula, nome
-FROM aluno
+FROM alunos
 WHERE matricula IN (
     SELECT matricula_aluno 
-    FROM nota 
+    FROM notas 
     WHERE disciplina = 'Matemática'
 )
 
 EXCEPT
 
 SELECT matricula, nome
-FROM aluno
+FROM alunos
 WHERE matricula IN (
     SELECT matricula_aluno 
-    FROM nota 
+    FROM notas 
     WHERE disciplina = 'Português'
 );
 ```
@@ -285,7 +285,7 @@ graph TD
     A ---|diferença| C
     B -.->|exclui interseção| C
     
-    style C fill:#00008B
+    style C fill:#6959CD
 </div>
 
 **Tabelas completas:**

@@ -224,8 +224,8 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/modelo-de-dados/modelo-de-entidade-e-relacionamento/
       - title: Restrições de Integridade
         url: /curso/banco-de-dados/modelo-de-dados/restricoes-de-integridade/ 
-      - title: Atributo Chave Primaria
-        url: /curso/banco-de-dados/modelo-de-dados/atributo-chave-primaria/
+      - title: Chave Primaria
+        url: /curso/banco-de-dados/modelo-de-dados/chave-primaria/
       - title: Chave Estrangeira
         url: /curso/banco-de-dados/modelo-de-dados/chave-estrangeira/
       - title: Integridade Referencial e Cardinalidade
@@ -262,12 +262,12 @@ introducao-a-banco-de-dados:
     children:
       - title: Projetos de Banco de Dados
         url: /curso/banco-de-dados/atividades/projetos-de-banco-de-dados/
-      - title: fase 1 - Modelagem e Implementação
-        url: /curso/banco-de-dados/atividades/fase-1-modelagem-e-implementacao/
-      - title: fase 2 - Inovação e Prototipação
-        url: /curso/banco-de-dados/atividades/fase-2-inovacao-e-prototipacao/
-      - title: fase 3 - Consultas e Programação
-        url: /curso/banco-de-dados/atividades/fase-3-consultas-e-programacao/
+      - title: Modelagem e Implementação
+        url: /curso/banco-de-dados/atividades/modelagem-e-implementacao/
+      - title: Inovação e Prototipação
+        url: /curso/banco-de-dados/atividades/inovacao-e-prototipacao/
+      - title: Consultas e Programação
+        url: /curso/banco-de-dados/atividades/consultas-e-programacao/
       - title: Ferramentas 
         url: /curso/banco-de-dados/atividades/ferramentas/
 
@@ -278,7 +278,7 @@ a-taberna-do-ponei-saltitante:
   - title: Prólogo
     children:
       - title: O mundo do jogo
-        url: /curso/banco-de-dados/a-jornada-do-heroi/o-mundo-do-jogo/
+        url: /curso/banco-de-dados/a-jornada-do-heroi/prologo/
   - title: ATO I
     children:
       - title: Mundo comum
