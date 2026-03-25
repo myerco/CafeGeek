@@ -22,13 +22,17 @@ sidebar:
 
 Integridade referencial garante que os relacionamentos entre tabelas sejam válidos, evitando registros órfãos e inconsistências.
 
-O relacionamento efetiva-se através de uma expressão relacional que indica como deve ser feita a comparação entre os campos comuns às Entidades, só que agora com uma característica diferente.
+O relacionamento efetiva-se através de uma expressão relacional que indica como deve ser feita a comparação entre os campos comuns às Entidades, só que agora com uma característica diferente. A comparação é realizada entre campos das entidades e campos do relacionamento, formando uma expressão composta:
 
-A comparação é realizada entre campos das entidades e campos do relacionamento, formando uma expressão composta:
+`(sexo.id = pessoas.id_sexo)`
 
-(sexo.id = pessoas.id_sexo)
+- Tabela sexo: id PK (chave primária)
+- Tabela pessoas: id_sexo FK (chave estrangeira)
 
-(atendentes.id_pessoa = pessoas.id)
+`(atendentes.id_pessoa = pessoas.id)`
+
+- Tabela atendentes: id_pessoa PK (chave estrangeira)
+- Tabela pessoas: id PK (chave primária)
 
 **Observação:** Utilize a estrutura de tabelas da aula [Restrições de Integridade](https://cafegeek.eti.br/curso/banco-de-dados/modelo-de-dados/restricoes-de-integridade/)
 {: .notice}

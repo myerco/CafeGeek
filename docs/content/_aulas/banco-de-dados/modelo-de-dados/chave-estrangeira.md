@@ -31,15 +31,11 @@ Uma chave estrangeira (foreign key) é um campo ou conjunto de campos em uma tab
 - Evita dados desconectados (por exemplo, um aluno em uma turma inexistente).
 - Permite a navegação e junção eficiente de dados.
 
----
-
 ## Termos Importantes
 
 - **Chave Referenciada**: a chave primária que está sendo apontada.
 - **Tabela dependente (filha)**: contém a chave estrangeira.
 - **Tabela referenciada (pai)**: é referenciada pela chave estrangeira.
-
----
 
 ## Exemplo Prático
 
@@ -52,6 +48,10 @@ Considere duas tabelas: `PESSOAS` e `SEXO`.
 | id_sexo (FK) | ...       |
 
 No exemplo acima, o campo `id_sexo` em `PESSOAS` é uma chave estrangeira que referencia `id` em `SEXO`.
+
+**Expressão:**
+
+`(sexo.id = pessoas.id_sexo)`
 
 ## Diagrama de Relacionamento
 
