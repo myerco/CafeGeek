@@ -220,7 +220,7 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/sql-linguagem-estruturada-de-consulta/sql-linguagem-estruturada-de-consulta/
       - title: 2.2. Primeiros Passos no PostgreSQL (DDL e DML)
         url: /curso/banco-de-dados/atividades/ferramentas/
-  - title: 3. MODELAGEM RELACIONAL E DESIGN
+  - title: 3. MODELAGEM RELACIONAL
     icon: fas fa-sitemap
     children:
       - title: 3.1. Modelo de Entidade e Relacionamento
@@ -243,15 +243,13 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/relacionamentos-avancados/especializacao-e-generalizacao/
       - title: 3.10. Normalização de Dados (Eliminando Redundâncias)
         url: /curso/banco-de-dados/normalizacao/normalizacao-de-banco-de-dados/
-  - title: 4. Visões e Arquitetura de Gerenciadores de Banco de Dados
+  - title: 4. Visões  
     icon: fas fa-cogs
     children:
-      - title: 4.1. Arquitetura de Gerenciadores
-        url: /curso/banco-de-dados/estruturas/estruturas-de-gerenciadores-de-banco-de-dados/
-      - title: 4.2. Visões (Views) e Controle de Acesso
+      - title: 4.1. O que são Visões? (Views)
         url: /curso/banco-de-dados/estruturas/visoes-e-restricoes-de-acesso/
   - title: 5. Programação de Banco de Dados
-    icon: fas fa-file-code-o
+    icon: fas fa-file-code
     children:
       - title: 5.1. Procedimentos e Funções (Stored Procedures/Functions)
         url: /curso/banco-de-dados/estruturas/programacao-de-banco-de-dados/        
@@ -260,14 +258,16 @@ introducao-a-banco-de-dados:
   - title: 6. Tratamento de Consultas e Desempenho
     icon: fas fa-cogs
     children:
-      - title: 6.1. Processamento e otimização de consultas
+      - title: 6.1. Arquitetura de Gerenciadores
+        url: /curso/banco-de-dados/estruturas/estruturas-de-gerenciadores-de-banco-de-dados/
+      - title: 6.2. Processamento e otimização de consultas
         url: /curso/banco-de-dados/estruturas/processamento-e-otimizacao-de-consultas/
-      - title: 6.2. Controle de Transações (ACID)
+      - title: 6.3. Controle de Transações (ACID)
         url: /curso/banco-de-dados/estruturas/controle-de-transacoes/
-      - title: 6.3. Controle de concorrência   
+      - title: 6.4. Controle de concorrência   
         url: /curso/banco-de-dados/estruturas/controle-de-concorrencia/                
   - title: 7. Banco de Dados Avançados
-    icon: fas fa-building-o
+    icon: fas fa-building
     children:
       - title: 7.1. Banco de Dados Distribuídos
         url: /curso/banco-de-dados/estruturas/banco-de-dados-distribuidos/
