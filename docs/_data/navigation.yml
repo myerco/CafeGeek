@@ -223,7 +223,7 @@ introducao-a-banco-de-dados:
   - title: 3. MODELAGEM RELACIONAL E DESIGN
     icon: fas fa-sitemap
     children:
-      - title: 3.1. Modelo de Entidade e Relacionamento (DER)
+      - title: 3.1. Modelo de Entidade e Relacionamento
         url: /curso/banco-de-dados/modelo-de-dados/modelo-de-entidade-e-relacionamento/
       - title: 3.2. Restrições de Integridade 
         url: /curso/banco-de-dados/modelo-de-dados/restricoes-de-integridade/
@@ -243,35 +243,44 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/relacionamentos-avancados/especializacao-e-generalizacao/
       - title: 3.10. Normalização de Dados (Eliminando Redundâncias)
         url: /curso/banco-de-dados/normalizacao/normalizacao-de-banco-de-dados/
-  - title: 4. ESTRUTURAS AVANÇADAS
+  - title: 4. Visões e Arquitetura de Gerenciadores de Banco de Dados
     icon: fas fa-cogs
     children:
       - title: 4.1. Arquitetura de Gerenciadores
         url: /curso/banco-de-dados/estruturas/estruturas-de-gerenciadores-de-banco-de-dados/
       - title: 4.2. Visões (Views) e Controle de Acesso
         url: /curso/banco-de-dados/estruturas/visoes-e-restricoes-de-acesso/
-      - title: 4.3. Programação de Banco de Dados (Procedures/Functions)
+  - title: 5. Programação de Banco de Dados
+    icon: fas fa-file-code-o
+    children:
+      - title: 5.1. Procedimentos e Funções (Stored Procedures/Functions)
         url: /curso/banco-de-dados/estruturas/programacao-de-banco-de-dados/        
-      - title: 4.4. Programação de Gatilhos (Triggers/Functions)
+      - title: 5.2. Gatilhos e Funções (Triggers/Functions)
         url: /curso/banco-de-dados/estruturas/gatilhos-triggers/
-      - title: 4.5. Processamento e otimização de consultas
+  - title: 6. Tratamento de Consultas e Desempenho
+    icon: fas fa-cogs
+    children:
+      - title: 6.1. Processamento e otimização de consultas
         url: /curso/banco-de-dados/estruturas/processamento-e-otimizacao-de-consultas/
-      - title: 4.6. Controle de Transações (ACID)
+      - title: 6.2. Controle de Transações (ACID)
         url: /curso/banco-de-dados/estruturas/controle-de-transacoes/
-      - title: 4.7. Controle de concorrência   
+      - title: 6.3. Controle de concorrência   
         url: /curso/banco-de-dados/estruturas/controle-de-concorrencia/                
-      - title: 4.8. Banco de Dados Distribuídos
+  - title: 7. Banco de Dados Avançados
+    icon: fas fa-building-o
+    children:
+      - title: 7.1. Banco de Dados Distribuídos
         url: /curso/banco-de-dados/estruturas/banco-de-dados-distribuidos/
-  - title: 5. ATIVIDADES E PROJETOS
+  - title: 8. ATIVIDADES E PROJETOS
     icon: fas fa-tasks
     children:
-      - title: 5.1. Projetos de Banco de Dados
+      - title: 8.1. Projetos de Banco de Dados
         url: /curso/banco-de-dados/atividades/projetos-de-banco-de-dados/
-      - title: 5.2. Modelagem e Implementação Prática
+      - title: 8.2. Modelagem e Implementação Prática
         url: /curso/banco-de-dados/atividades/modelagem-e-implementacao/
-      - title: 5.3. Inovação e Prototipação
+      - title: 8.3. Inovação e Prototipação
         url: /curso/banco-de-dados/atividades/inovacao-e-prototipacao/
-      - title: 5.4. Laboratório de Consultas e Programação
+      - title: 8.4. Laboratório de Consultas e Programação
         url: /curso/banco-de-dados/atividades/consultas-e-programacao/
 
 a-taberna-do-ponei-saltitante:         

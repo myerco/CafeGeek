@@ -1,5 +1,5 @@
 ---
-title: SGBD - Sistemas Gerenciadores de Banco de Dados
+title: SGBD - O Coração do PostgreSQL
 excerpt: "Explore os conceitos, estrutura e características dos Sistemas Gerenciadores de Banco de Dados (SGBD)."
 categories:
   - banco-de-Dados

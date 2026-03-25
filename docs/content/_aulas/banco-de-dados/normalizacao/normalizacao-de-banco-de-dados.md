@@ -1,5 +1,5 @@
 ---
-title: Normalização de Banco de Dados
+title: Normalização de Dados (Eliminando Redundâncias)
 excerpt: "Explore os conceitos fundamentais da normalização de bancos de dados: anomalias, 1FN e dependências funcionais."
 categories:
   - banco-de-Dados

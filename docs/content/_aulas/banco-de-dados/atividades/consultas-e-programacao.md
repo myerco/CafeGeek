@@ -1,5 +1,5 @@
 ---
-title: "Consultas e Programação"
+title: "Laboratório de Consultas e Programação"
 excerpt: "Uma atividade prática e guiada para o desenvolvimento de um projeto completo de banco de dados relacional, desde a modelagem inicial até a implementação de funcionalidades avançadas com PostgreSQL."
 categories:
   - "banco-de-dados"

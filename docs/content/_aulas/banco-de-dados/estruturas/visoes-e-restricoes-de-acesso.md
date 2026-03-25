@@ -1,5 +1,5 @@
 ---
-title: Visões e restrições de acesso
+title: Visões (Views) e Controle de acesso
 excerpt: "Visões (views) e restrições de acesso em bancos de dados."
 categories:
   - "banco-de-dados"

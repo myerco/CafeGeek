@@ -1,5 +1,5 @@
 ---
-title: "Modelagem e Implementação"
+title: "Modelagem e Implementação Prática"
 excerpt: "Uma atividade prática e guiada para o desenvolvimento de um projeto completo de banco de dados relacional, desde a modelagem inicial até a implementação de funcionalidades avançadas com PostgreSQL."
 categories:
   - "banco-de-dados"

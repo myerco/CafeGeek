@@ -1,5 +1,5 @@
 ---
-title: Banco de Dados
+title: O que é um Banco de Dados?
 excerpt: "Tipos, estruturas e exemplos de bancos de dados: relacional, NoSQL, grafos e textuais."
 categories:
   - banco-de-Dados

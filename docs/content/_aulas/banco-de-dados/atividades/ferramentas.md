@@ -1,5 +1,5 @@
 ---
-title: "Ferramentas"
+title: "Primeiros Passos no PostgreSQL (DDL e DML)"
 excerpt: "Ferramentas de apoio"
 categories:
   - "banco-de-dados"
