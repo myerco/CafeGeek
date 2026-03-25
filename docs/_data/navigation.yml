@@ -212,7 +212,7 @@ introducao-a-banco-de-dados:
       - title: 1.5. Modelos de Dados
         url: /curso/banco-de-dados/modelo-de-dados/modelo-de-dados/
       - title: 1.6. O que é regras de negócio?
-        url: /curso/banco-de-dados/modelo-de-dados/modelo-de-dados/o-que-e-regra-de-negocio
+        url: /curso/banco-de-dados/conceitos-fundamentais/o-que-e-regra-de-negocio
       - title: 1.7. Perfis de Usuários de BD
         url: /curso/banco-de-dados/conceitos-fundamentais/usuarios-de-banco-de-dados/
   - title: 2. MANIPULAÇÃO DE DADOS (SQL)
