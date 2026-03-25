@@ -207,9 +207,11 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/conceitos-fundamentais/dados-informacao-e-conhecimento/
       - title: 1.3. SGBD - O Coração do PostgreSQL
         url: /curso/banco-de-dados/conceitos-fundamentais/sistemas-gerenciadores-de-banco-de-dados/
-      - title: 1.4. Abstração e Modelos de Dados
+      - title: 1.4. Abstração de Dados
         url: /curso/banco-de-dados/conceitos-fundamentais/abstracao-de-dados/
-      - title: 1.5. Perfis de Usuários de BD
+      - title: 1.5. Modelos de Dados
+        url: /curso/banco-de-dados/modelo-de-dados/modelo-de-dados/
+      - title: 1.6. Perfis de Usuários de BD
         url: /curso/banco-de-dados/conceitos-fundamentais/usuarios-de-banco-de-dados/
   - title: 2. MANIPULAÇÃO DE DADOS (SQL)
     icon: fas fa-code
@@ -231,11 +233,15 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/modelo-de-dados/chave-estrangeira/
       - title: 3.5. Integridade Referencial e Cardinalidade
         url: /curso/banco-de-dados/modelo-de-dados/integridade-referencial-e-cardinalidade/
-      - title: 3.6. Relacionamentos Avançados (Agregação e Auto-relacionamento)
+      - title: 3.6. Dependência de Existência
+        url: /curso/banco-de-dados/modelo-de-dados/dependencia-de-existencia/
+      - title: 3.7.Agregação
         url: /curso/banco-de-dados/relacionamentos-avancados/agregacao/
-      - title: 3.7. Especialização e Generalização
+      - title: 3.8. Auto-Relacionamento
+        url: /curso/banco-de-dados/relacionamentos-avancados/auto-relacionamento/
+      - title: 3.9. Especialização e Generalização
         url: /curso/banco-de-dados/relacionamentos-avancados/especializacao-e-generalizacao/
-      - title: 3.8. Normalização de Dados (Eliminando Redundâncias)
+      - title: 3.10. Normalização de Dados (Eliminando Redundâncias)
         url: /curso/banco-de-dados/normalizacao/normalizacao-de-banco-de-dados/
   - title: 4. ESTRUTURAS AVANÇADAS
     icon: fas fa-cogs
@@ -244,11 +250,17 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/estruturas/estruturas-de-gerenciadores-de-banco-de-dados/
       - title: 4.2. Visões (Views) e Controle de Acesso
         url: /curso/banco-de-dados/estruturas/visoes-e-restricoes-de-acesso/
-      - title: 4.3. Programação e Gatilhos (Triggers/Functions)
+      - title: 4.3. Programação de Banco de Dados (Procedures/Functions)
+        url: /curso/banco-de-dados/estruturas/programacao-de-banco-de-dados/        
+      - title: 4.4. Programação de Gatilhos (Triggers/Functions)
         url: /curso/banco-de-dados/estruturas/gatilhos-triggers/
-      - title: 4.4. Otimização e Controle de Transações (ACID)
+      - title: 4.5. Processamento e otimização de consultas
+        url: /curso/banco-de-dados/estruturas/processamento-e-otimizacao-de-consultas/
+      - title: 4.6. Controle de Transações (ACID)
         url: /curso/banco-de-dados/estruturas/controle-de-transacoes/
-      - title: 4.5. Banco de Dados Distribuídos
+      - title: 4.7. Controle de concorrência   
+        url: /curso/banco-de-dados/estruturas/controle-de-concorrencia/                
+      - title: 4.8. Banco de Dados Distribuídos
         url: /curso/banco-de-dados/estruturas/banco-de-dados-distribuidos/
   - title: 5. ATIVIDADES E PROJETOS
     icon: fas fa-tasks
