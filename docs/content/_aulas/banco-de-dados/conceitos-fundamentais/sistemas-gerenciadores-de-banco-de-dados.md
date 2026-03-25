@@ -19,18 +19,16 @@ sidebar:
     caption="Figura: Sistema Gerenciador de Banco de Dados."
 %}
 
+Um Sistema Gerenciador de Banco de Dados (SGBD) é um conjunto de programas que permite armazenar, organizar e manipular dados de forma eficiente. Ele fornece uma interface entre os usuários/aplicações e o banco de dados físico, garantindo acesso seguro e consistente aos dados.
+
+**Definição técnica:** "Um SGBD é constituído por um conjunto de dados associados a um conjunto de programas para acesso a esses dados."
+
 ## Objetivos
 
 - Compreender o conceito e a importância dos SGBD.
 - Explorar a estrutura e arquitetura dos sistemas gerenciadores.
 - Identificar características e benefícios dos SGBD.
 - Entender a relação entre SGBD e Sistema Operacional.
-
-## O que é um SGBD?
-
-Um Sistema Gerenciador de Banco de Dados (SGBD) é um conjunto de programas que permite armazenar, organizar e manipular dados de forma eficiente. Ele fornece uma interface entre os usuários/aplicações e o banco de dados físico, garantindo acesso seguro e consistente aos dados.
-
-**Definição técnica:** "Um SGBD é constituído por um conjunto de dados associados a um conjunto de programas para acesso a esses dados."
 
 ## Estrutura dos SGBD
 

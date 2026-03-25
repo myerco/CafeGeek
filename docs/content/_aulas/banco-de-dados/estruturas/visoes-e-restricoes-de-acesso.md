@@ -1,5 +1,5 @@
 ---
-title: Visões (Views) e Controle de acesso
+title: O que são Visões? (Views)
 excerpt: "Visões (views) e restrições de acesso em bancos de dados."
 categories:
   - "banco-de-dados"

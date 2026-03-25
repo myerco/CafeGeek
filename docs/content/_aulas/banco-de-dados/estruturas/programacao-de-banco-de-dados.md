@@ -1,5 +1,5 @@
 ---
-title: Programação de Banco de Dados
+title: Procedimentos e Funções (stored Procedures/Functions)
 excerpt: "PL/SQL, procedures, functions e vantagens da programação procedural."
 categories:
   - "banco-de-dados"

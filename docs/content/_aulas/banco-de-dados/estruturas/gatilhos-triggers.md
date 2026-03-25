@@ -1,5 +1,5 @@
 ---
-title: Gatilhos - Triggers
+title: Gatilhos e Funções (Triggers/Functions)
 excerpt: "Gatilhos (triggers): definição, requisitos, vantagens e sintaxe."
 categories:
   - "banco-de-dados"

@@ -13,6 +13,7 @@ sidebar:
     nav: introducao-a-banco-de-dados
 ---
 
+Antes de mergulharmos em tabelas, SQL ou modelagem, precisamos estabelecer uma base filosófica e prática. Tudo o que faremos nesta disciplina gira em torno de **gerenciar, organizar e transformar** estes três elementos. Um engenheiro de sistemas que não compreende essa hierarquia pode construir ferramentas eficientes... para resolver os problemas errados.
 
 ## Objetivo desta Aula
 
@@ -22,13 +23,7 @@ Ao final desta aula, você será capaz de:
 2. Compreender como essa hierarquia é a base fundamental para qualquer sistema de informação.
 3. Reconhecer a importância dos bancos de dados no processo de transformação de dados em conhecimento útil para a tomada de decisões.
 
----
-
-## Por que começamos por aqui?
-
-Antes de mergulharmos em tabelas, SQL ou modelagem, precisamos estabelecer uma base filosófica e prática. Tudo o que faremos nesta disciplina gira em torno de **gerenciar, organizar e transformar** estes três elementos. Um engenheiro de sistemas que não compreende essa hierarquia pode construir ferramentas eficientes... para resolver os problemas errados.
-
-Vamos começar com uma situação do dia a dia:
+## Vamos começar com uma situação do dia a dia
 
 > Um sensor no corredor da universidade registra: `"24.7"`.
 >

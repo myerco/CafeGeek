@@ -244,7 +244,7 @@ introducao-a-banco-de-dados:
       - title: 3.10. Normalização de Dados (Eliminando Redundâncias)
         url: /curso/banco-de-dados/normalizacao/normalizacao-de-banco-de-dados/
   - title: 4. Visões  
-    icon: fas fa-cogs
+    icon: fas fa-eye
     children:
       - title: 4.1. O que são Visões? (Views)
         url: /curso/banco-de-dados/estruturas/visoes-e-restricoes-de-acesso/

@@ -15,8 +15,6 @@ sidebar:
 Um sistema distribuído é qualquer sistema de múltiplas localidades conectadas juntas em uma espécie de redes de comunicações, nas quais o usuário (usuário final ou programador de aplicação) de qualquer localidade (site) pode acessar os dados armazenados em outro local. **C.J.Date**
 {: .notice}
 
-## Banco de Dados Distribuídos
-
 Consiste em múltiplas localidades conectadas por redes, onde o usuário pode acessar dados de qualquer site.
 
 <div class="mermaid">
