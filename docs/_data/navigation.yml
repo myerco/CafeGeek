@@ -223,15 +223,19 @@ introducao-a-banco-de-dados:
     children:
       - title: 3.1. Modelo de Entidade e Relacionamento (DER)
         url: /curso/banco-de-dados/modelo-de-dados/modelo-de-entidade-e-relacionamento/
-      - title: 3.2. Restrições de Integridade e Chaves (PK/FK)
+      - title: 3.2. Restrições de Integridade 
         url: /curso/banco-de-dados/modelo-de-dados/restricoes-de-integridade/
-      - title: 3.3. Integridade Referencial e Cardinalidade
+      - title: 3.3.Chave Primaria
+        url: /curso/banco-de-dados/modelo-de-dados/chave-primaria/
+      - title: 3.4.Chave Estrangeira
+        url: /curso/banco-de-dados/modelo-de-dados/chave-estrangeira/
+      - title: 3.5. Integridade Referencial e Cardinalidade
         url: /curso/banco-de-dados/modelo-de-dados/integridade-referencial-e-cardinalidade/
-      - title: 3.4. Relacionamentos Avançados (Agregação e Auto-relacionamento)
+      - title: 3.6. Relacionamentos Avançados (Agregação e Auto-relacionamento)
         url: /curso/banco-de-dados/relacionamentos-avancados/agregacao/
-      - title: 3.5. Especialização e Generalização
+      - title: 3.7. Especialização e Generalização
         url: /curso/banco-de-dados/relacionamentos-avancados/especializacao-e-generalizacao/
-      - title: 3.6. Normalização de Dados (Eliminando Redundâncias)
+      - title: 3.8. Normalização de Dados (Eliminando Redundâncias)
         url: /curso/banco-de-dados/normalizacao/normalizacao-de-banco-de-dados/
   - title: 4. ESTRUTURAS AVANÇADAS
     icon: fas fa-cogs

@@ -1,5 +1,5 @@
 ---
-title: Usuários de Banco de Dados
+title: Perfis de  usuários de Banco de Dados
 excerpt: "Explore os diferentes tipos de usuários de bancos de dados, incluindo DBA e perfis de acesso."
 categories:
   - banco-de-Dados
