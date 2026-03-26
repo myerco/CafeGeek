@@ -13,11 +13,6 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-## Objetivos
-
-- Entender o conceito de auto-relacionamento em bancos de dados.
-- Identificar exemplos práticos e aplicações desse tipo de relacionamento.
-
 ## O que é Auto-relacionamento?
 
 Auto-relacionamento ocorre quando uma entidade se relaciona com ela mesma. Ou seja, os registros de uma mesma tabela podem estar conectados entre si, representando hierarquias, dependências ou composições.

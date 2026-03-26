@@ -16,6 +16,8 @@ sidebar:
 - Procedures e Functions são exemplos do PL/SQL
 - Uma Procedure ou Function é um esquema de objetos que logicamente agrupam um conjunto de comandos SQL e outros comandos PL/SQL
 - São armazenados dentro do banco de dados
+- **Procedures e Functions:** São esquemas de objetos armazenados dentro do banco.
+- **Elementos:** Inclui variáveis, cursores, exceções e estruturas de controle como `IF...THEN`, `LOOP` e `FOR`.
 
 <div class="mermaid">
 sequenceDiagram
@@ -45,11 +47,6 @@ sequenceDiagram
     
     Note over C, S: Menor tráfego de rede: Lógica roda próxima ao dado
 </div>
-
-## Características
-
-- **Procedures e Functions:** São esquemas de objetos armazenados dentro do banco.
-- **Elementos:** Inclui variáveis, cursores, exceções e estruturas de controle como `IF...THEN`, `LOOP` e `FOR`.
 
 ## Vantagens
 

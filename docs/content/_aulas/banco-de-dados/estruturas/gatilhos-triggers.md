@@ -17,6 +17,16 @@ Um gatilho é um comando executado automaticamente pelo sistema como consequênc
 - **Requisitos:** Deve-se especificar as condições de execução e as ações a serem tomadas.
 - **Vantagens:** Prevenção de transações inválidas, auditoria sofisticada, sincronismo de tabelas replicadas e geração de colunas derivadas.
 - **Sintaxe:** Define-se o momento (`BEFORE` ou `AFTER`), o comando e se a execução é para cada linha (`FOR EACH ROW`).
+- Triggers são silimares a stored procedures,  a Trigger pode incluir comandos SQL.
+- São executados implicitamente quando são executados os comandos:
+  - INSERT;
+  - UPDATE;
+  - DELETE.
+- Estão associadas a tabelas.
+- Tem três partes básicas:
+  - Comando;
+  - Restrição;
+  - Ação.
 
 <div class="mermaid">
 graph TD
@@ -35,19 +45,6 @@ graph TD
     G --> I[Retorno para o Usuário]
     H --> I
 </div>
-
-## Caraterísticas
-
-- Triggers são silimares a stored procedures,  a Trigger pode incluir comandos SQL.
-- São executados implicitamente quando são executados os comandos:
-  - INSERT;
-  - UPDATE;
-  - DELETE.
-- Estão associadas a tabelas.
-- Tem três partes básicas:
-  - Comando;
-  - Restrição;
-  - Ação.
 
 ## Vantagens
 

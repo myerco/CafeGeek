@@ -12,14 +12,6 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-## Objetivos
-
-- Compreender o conceito de dependência de existência.
-- Identificar entidades dominantes e subordinadas.
-- Aplicar o conceito em exemplos práticos de modelagem.
-
----
-
 ## O que é Dependência de Existência?
 
 Dependência de existência ocorre quando a existência de uma entidade (subordinada) depende da existência de outra entidade (dominante). Se a entidade dominante for excluída, a subordinada também deve ser removida para manter a integridade dos dados.

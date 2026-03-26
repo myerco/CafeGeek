@@ -24,12 +24,6 @@ graph TD
     end
 </div>
 
-## Objetivos
-
-- Compreender o conceito de abstração de dados em SGBD.
-- Explorar os três níveis de abstração: físico, lógico e de visão.
-- Entender como esses níveis facilitam o uso e gerenciamento de bancos de dados.
-
 ## Por que a Abstração é Importante?
 
 Em sistemas de banco de dados, a abstração permite que usuários e desenvolvedores interajam com os dados sem precisar conhecer os detalhes técnicos internos. Isso simplifica o trabalho e aumenta a segurança, pois cada nível oculta complexidades desnecessárias.

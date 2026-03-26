@@ -11,11 +11,6 @@ tags:
 sidebar:
   nav: introducao-a-banco-de-dados
 ---
-## Objetivos
-
-- Compreender o conceito de chave primária.
-- Identificar atributos que podem servir como chave primária.
-- Entender os requisitos e exemplos de chaves primárias.
 
 ## O que é uma Chave Primária?
 

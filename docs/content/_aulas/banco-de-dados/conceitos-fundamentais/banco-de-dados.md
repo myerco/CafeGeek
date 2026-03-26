@@ -21,13 +21,6 @@ sidebar:
 
 Um banco de dados é uma coleção organizada de informações que pode ser armazenada, consultada e manipulada de forma eficiente. Ao contrário de arquivos soltos (planilhas ou documentos), um banco de dados oferece estruturas e regras que facilitam a recuperação, a integridade e o compartilhamento dos dados.
 
-## Objetivos
-
-- Entender o conceito de banco de dados e seus usos.
-- Diferenciar bancos de dados de coleções de arquivos.
-- Conhecer operações básicas (CRUD) e seu mapeamento em SQL.
-- Identificar limitações do armazenamento em arquivos e vantagens dos SGBD.
-
 ## Operações básicas (CRUD)
 
 As operações mais comuns sobre dados formam o acrônimo CRUD:

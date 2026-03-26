@@ -12,12 +12,6 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-## Objetivos
-
-- Compreender integridade referencial e cardinalidade.
-- Visualizar exemplos práticos com personagens de O Senhor dos Anéis.
-- Explorar representações gráficas (Mermaid) e tabelas.
-
 ## O que é Integridade Referencial?
 
 Integridade referencial garante que os relacionamentos entre tabelas sejam válidos, evitando registros órfãos e inconsistências.

@@ -12,12 +12,6 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-## Objetivos
-
-- Compreender o conceito de agregação no modelo E-R.
-- Identificar situações onde a agregação é necessária.
-- Aplicar agregação em exemplos práticos de modelagem.
-
 ## O que é Agregação?
 
 A agregação é um conceito avançado no modelo Entidade-Relacionamento (E-R) que permite tratar um relacionamento como uma entidade em si. Isso resolve situações onde um relacionamento precisa se relacionar com outras entidades, o que não é possível diretamente no E-R padrão.

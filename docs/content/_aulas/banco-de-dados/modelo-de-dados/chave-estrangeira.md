@@ -13,14 +13,6 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-## Objetivos
-
-- Compreender o conceito de chave estrangeira.
-- Entender sua função na integridade referencial.
-- Aplicar chaves estrangeiras em exemplos práticos.
-
----
-
 ## O que é uma Chave Estrangeira?
 
 Uma chave estrangeira (foreign key) é um campo ou conjunto de campos em uma tabela que faz referência à chave primária de outra tabela (ou da mesma tabela, em auto-relacionamentos). Ela garante a integridade dos dados, impedindo que registros "órfãos" sejam criados.

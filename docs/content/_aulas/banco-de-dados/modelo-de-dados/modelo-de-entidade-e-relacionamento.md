@@ -19,15 +19,6 @@ sidebar:
     caption="Figura: Mode de Entididade e Relacionamento."
 %}
 
-## Objetivos
-
-- Compreender o Modelo Entidade-Relacionamento (MER).
-- Identificar entidades e seus atributos.
-- Explorar tipos de atributos e suas características.
-- Aprender a representação gráfica e tabular das entidades.
-
----
-
 ## O que é o Modelo Entidade-Relacionamento?
 
 O Modelo Entidade-Relacionamento (MER) é uma técnica de modelagem conceitual que representa o mundo real através de objetos chamados entidades e seus relacionamentos.

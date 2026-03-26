@@ -12,13 +12,6 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-## Objetivos
-
-- Compreender o conceito de normalização em bancos de dados.
-- Identificar anomalias em tabelas não normalizadas.
-- Aplicar a Primeira Forma Normal (1FN).
-- Entender dependências funcionais: total, parcial e transitiva.
-
 ## O que é Normalização?
 
 A normalização é um processo matemático formal introduzido por E. F. Codd em 1970. Consiste em decompor tabelas complexas em estruturas mais simples, eliminando anomalias de atualização e redundâncias desnecessárias.

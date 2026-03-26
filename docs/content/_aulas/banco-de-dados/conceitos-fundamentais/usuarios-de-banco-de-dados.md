@@ -18,13 +18,6 @@ sidebar:
     caption="Figura: Usuários de banco de dados."
 %}
 
-## Objetivos
-
-- Compreender o papel do DBA (Administrador de Banco de Dados).
-- Identificar os diferentes tipos de usuários de bancos de dados.
-- Explorar ferramentas como SQL Developer para gerenciamento de usuários.
-- Entender perfis de acesso e segurança.
-
 ## O que é um DBA?
 
 O DBA (Database Administrator ou Administrador de Banco de Dados) é o profissional responsável pelo controle centralizado dos dados e programas de acesso. Ele garante que o sistema funcione de forma segura, eficiente e consistente.

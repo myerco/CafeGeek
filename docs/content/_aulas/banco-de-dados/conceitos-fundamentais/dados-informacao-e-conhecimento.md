@@ -15,14 +15,6 @@ sidebar:
 
 Antes de mergulharmos em tabelas, SQL ou modelagem, precisamos estabelecer uma base filosófica e prática. Tudo o que faremos nesta disciplina gira em torno de **gerenciar, organizar e transformar** estes três elementos. Um engenheiro de sistemas que não compreende essa hierarquia pode construir ferramentas eficientes... para resolver os problemas errados.
 
-## Objetivo desta Aula
-
-Ao final desta aula, você será capaz de:
-
-1. Diferenciar claramente os conceitos de **Dado**, **Informação** e **Conhecimento**.
-2. Compreender como essa hierarquia é a base fundamental para qualquer sistema de informação.
-3. Reconhecer a importância dos bancos de dados no processo de transformação de dados em conhecimento útil para a tomada de decisões.
-
 ## Vamos começar com uma situação do dia a dia
 
 > Um sensor no corredor da universidade registra: `"24.7"`.
@@ -105,7 +97,7 @@ graph TD
 
 > **Pensamento de Engenheiro:** Um banco de dados mal modelado armazena **dados** de forma confusa e gera **desinformação**. Um banco de dados bem projetado transforma dados brutos em **conhecimento** confiável e acionável.
 
-## Resumo e Próximos Passos
+## Resumo
 
 | Conceito         | É...                                                 | Exemplo Simples                                                                                       | Pergunta que Responde     |
 | ---------------- | ---------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------- |

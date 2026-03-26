@@ -15,13 +15,6 @@ sidebar:
 
 Um modelo de dados é um conjunto de ferramentas conceituais para descrever dados, relacionamentos, semântica e regras de consistência. Ele serve como ponte entre o mundo real e a implementação técnica do banco de dados.
 
-## Objetivos
-
-- Compreender o conceito de modelo de dados.
-- Identificar tipos de modelos (lógicos e físicos).
-- Explorar linguagens DDL e DML.
-- Entender a definição e uso de SQL.
-
 **Classificações principais:**
 
 1. **Modelos lógicos com base em objetos**: Focam em entidades e relacionamentos.

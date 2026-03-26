@@ -12,12 +12,6 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-## Objetivos
-
-- Compreender os conceitos de especialização e generalização.
-- Identificar quando aplicá-los em modelagem de dados.
-- Aplicar em exemplos práticos com diagramas.
-
 ## O que é Especialização?
 
 Especialização é o processo de dividir uma entidade geral em subgrupos mais específicos, baseados em características distintas. Isso permite representar hierarquias onde subclasses herdam atributos da superclasse, mas têm propriedades únicas.
@@ -30,7 +24,7 @@ Especialização é o processo de dividir uma entidade geral em subgrupos mais e
 
 ---
 
-## Exemplo de Especialização
+### Exemplo de Especialização
 
 Considere a entidade `MÉDICO`. Ela pode ser especializada em:
 
@@ -43,7 +37,7 @@ Cada especialidade herda atributos comuns (nome, CRM), mas tem atributos especí
 
 ---
 
-## Diagrama de Especialização
+### Diagrama de Especialização
 
 <div class="mermaid">
 graph TD
@@ -98,7 +92,7 @@ Generalização é o inverso da especialização: agrupa entidades similares em 
 
 ---
 
-## Exemplo de Generalização
+### Exemplo de Generalização
 
 Imagine entidades separadas: `CARDIOLOGISTA`, `PEDIATRA`, `ORTOPEDISTA`. Elas podem ser generalizadas em `MÉDICO`, que é a superclasse.
 
@@ -144,9 +138,7 @@ SELECT * FROM personagem;
 SELECT * FROM personagem WHERE tipo = 'Elfo';
 ```
 
----
-
-## Diagrama de Generalização
+### Diagrama de Generalização
 
 <div class="mermaid">
 graph TD

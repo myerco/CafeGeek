@@ -12,14 +12,6 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-## Objetivos
-
-- Compreender os comandos básicos de SQL.
-- Aprender a criar tabelas com CREATE TABLE.
-- Explorar DESCRIBE para visualizar estruturas.
-- Praticar inserção de dados com INSERT.
-- Realizar consultas básicas com SELECT.
-
 ## O que é SQL?
 
 SQL (Structured Query Language) é a linguagem padrão para trabalhar com bancos de dados relacionais. Ela permite definir estruturas de dados, manipular informações e realizar consultas complexas.

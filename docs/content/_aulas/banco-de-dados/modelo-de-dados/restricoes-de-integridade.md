@@ -12,12 +12,6 @@ sidebar:
     nav: introducao-a-banco-de-dados
 ---
 
-## Objetivos
-
-- Compreender o conceito de restrições de integridade.
-- Identificar os principais tipos de restrições.
-- Visualizar exemplos práticos e comandos SQL.
-
 No Modelo Entidade-Relacionamento (MER), as restrições de integridade são regras que garantem que a informação armazenada seja precisa, consistente e confiável. Sem elas, o banco de dados se torna uma "sucata digital" cheia de informações órfãs ou contraditórias.
 
 ## Integridade de Domínio
