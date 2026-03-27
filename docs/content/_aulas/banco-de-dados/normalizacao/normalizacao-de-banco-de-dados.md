@@ -12,8 +12,6 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-## O que é Normalização?
-
 A normalização é um processo matemático formal introduzido por E. F. Codd em 1970. Consiste em decompor tabelas complexas em estruturas mais simples, eliminando anomalias de atualização e redundâncias desnecessárias.
 
 **Objetivo principal:** Criar esquemas relacionais "puros" que evitem problemas como:

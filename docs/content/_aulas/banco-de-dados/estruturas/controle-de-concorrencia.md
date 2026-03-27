@@ -15,16 +15,14 @@ sidebar:
 Vimos que uma propriedade fundamental da transação é o isolamento. Quando diversas transações são executadas de modo concorrente em um banco da dados, a propriedade do isolamento pode não ser preservada. É necessário que o sistema controle a interação entre as transações concorrentes. Este controle é alcançado por meio de uma larga fama de mecanismos chamados de controle de concorrência. **Abrahan Silberschatz**
 {: .notice}
 
-## Controle de Concorrência
-
 Necessário para gerenciar a interação entre transações simultâneas e preservar o isolamento.
 
-### Serialização
+## Serialização
 
 - Supomos que todas as transações são individualmente corretas;
 - Dado qualquer conjunto de transações, qualquer execução serial dessas transações (isto é, qualquer execução dessas transações, uma de cada vez em qualquer ordem) preserva a integridade do banco de dados.
 
-### Bloqueios
+## Bloqueios
 
 Um meio de garantir a serialização é obrigar que o acesso aos itens de dados seja feito de maneira mutuamente exclusiva. Isto é, enquanto uma transação acessa um item de dados nenhuma outra transação pode modificá-lo. O método mais usado para sua implementação é permitir acesso a um item de dados somente se ele estiver bloqueado.”Um meio de garantir a serialização é obrigar que o acesso aos itens de dados seja feito de maneira mutuamente exclusiva. Isto é, enquanto uma transação acessa um item de dados nenhuma outra transação pode modificá-lo. O método mais usado para sua implementação é permitir acesso a um item de dados somente se ele estiver bloqueado.”
 

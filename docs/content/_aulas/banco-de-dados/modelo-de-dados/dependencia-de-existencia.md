@@ -12,8 +12,6 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-## O que é Dependência de Existência?
-
 Dependência de existência ocorre quando a existência de uma entidade (subordinada) depende da existência de outra entidade (dominante). Se a entidade dominante for excluída, a subordinada também deve ser removida para manter a integridade dos dados.
 
 **Por que é importante?**

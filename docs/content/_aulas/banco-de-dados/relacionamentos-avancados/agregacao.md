@@ -12,8 +12,6 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-## O que é Agregação?
-
 A agregação é um conceito avançado no modelo Entidade-Relacionamento (E-R) que permite tratar um relacionamento como uma entidade em si. Isso resolve situações onde um relacionamento precisa se relacionar com outras entidades, o que não é possível diretamente no E-R padrão.
 
 Em termos simples: imagine que você tem um relacionamento entre duas entidades, mas esse relacionamento precisa interagir com uma terceira entidade. A agregação agrupa o relacionamento em uma "super-entidade" para facilitar isso.

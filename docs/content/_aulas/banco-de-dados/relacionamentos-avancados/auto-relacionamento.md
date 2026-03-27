@@ -1,6 +1,6 @@
 ---
 
-title: Auto-Relacionamento
+title: O que é Auto-relacionamento?
 excerpt: "Descubra como entidades podem se relacionar consigo mesmas em bancos de dados, com exemplos práticos e linguagem acessível."
 categories:
   - banco-de-dados
@@ -12,8 +12,6 @@ tags:
 sidebar:
   nav: introducao-a-banco-de-dados
 ---
-
-## O que é Auto-relacionamento?
 
 Auto-relacionamento ocorre quando uma entidade se relaciona com ela mesma. Ou seja, os registros de uma mesma tabela podem estar conectados entre si, representando hierarquias, dependências ou composições.
 

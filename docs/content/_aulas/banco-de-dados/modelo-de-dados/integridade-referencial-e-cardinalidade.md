@@ -12,8 +12,6 @@ sidebar:
   nav: introducao-a-banco-de-dados
 ---
 
-## O que é Integridade Referencial?
-
 Integridade referencial garante que os relacionamentos entre tabelas sejam válidos, evitando registros órfãos e inconsistências.
 
 O relacionamento efetiva-se através de uma expressão relacional que indica como deve ser feita a comparação entre os campos comuns às Entidades, só que agora com uma característica diferente. A comparação é realizada entre campos das entidades e campos do relacionamento, formando uma expressão composta:

@@ -239,7 +239,7 @@ introducao-a-banco-de-dados:
         url: /curso/banco-de-dados/modelo-de-dados/dependencia-de-existencia/
       - title: 3.7.Agregação
         url: /curso/banco-de-dados/relacionamentos-avancados/agregacao/
-      - title: 3.8. Auto-Relacionamento
+      - title: 3.8. O que é Auto-relacionamento?
         url: /curso/banco-de-dados/relacionamentos-avancados/auto-relacionamento/
       - title: 3.9. Especialização e Generalização
         url: /curso/banco-de-dados/relacionamentos-avancados/especializacao-e-generalizacao/
