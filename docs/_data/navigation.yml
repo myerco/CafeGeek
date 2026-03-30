@@ -292,8 +292,8 @@ a-taberna-do-ponei-saltitante:
   - title: Prólogo
     icon: fas fa-tasks
     children:
-      - title: O mundo do jogo
-        url: /curso/a-taberna-do-ponei-saltitante/prologo/o-mundo-do-jogo/
+      - title: A Consciência de um Problema
+        url: /curso/a-taberna-do-ponei-saltitante/prologo/a-consciencia-de-um-problema/
   - title: ATO I
     icon: fas fa-tasks
     children:

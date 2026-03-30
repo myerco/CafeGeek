@@ -12,8 +12,6 @@ sidebar:
   nav: a-taberna-do-ponei-saltitante
 ---
 
-## Ferramentas do Aventureiro
-
 Recursos essenciais para completar sua missão:
 
 - ![compass](https://game-icons.net/icons/000000/transparent/1x1/lorc/compass.svg){:width="32"} **Cartografia (Diagramas):**
