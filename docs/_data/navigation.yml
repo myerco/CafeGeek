@@ -294,21 +294,23 @@ a-taberna-do-ponei-saltitante:
     children:
       - title: A Consciência de um Problema
         url: /curso/a-taberna-do-ponei-saltitante/prologo/a-consciencia-de-um-problema/
+      - title: Os Pilares dos Reis
+        url: /curso/a-taberna-do-ponei-saltitante/prologo/os-pilares-dos-reis/
   - title: ATO I
     icon: fas fa-tasks
     children:
-      - title: O chamado à aventura
+      - title: 1.1. O chamado à aventura
         url: /curso/a-taberna-do-ponei-saltitante/ato-i/o-chamado-a-aventura/
-      - title: A Missão é Aceita
+      - title: 1.2. A Missão é Aceita
         url: /curso/a-taberna-do-ponei-saltitante/ato-i/a-missao-e-aceita/
-      - title: A sombra da complexidade
+      - title: 1.3. A sombra da complexidade
         url: /curso/a-taberna-do-ponei-saltitante/ato-i/a-sombra-da-complexidade/
-      - title: Encontro com o mentor
+      - title: 1.4. Encontro com o mentor
         url: /curso/a-taberna-do-ponei-saltitante/ato-i/encontro-com-o-mentor/
   - title: ATO II
     icon: fas fa-tasks
     children:
-      - title: Cruzamento do limiar
+      - title: 2.1. Cruzamento do limiar
         url: /curso/a-taberna-do-ponei-saltitante/ato-ii/cruzamento-do-limiar/
   - title: Ferramentas
     icon: fas fa-cog
@@ -328,17 +330,17 @@ soberania-digital:
     url: /curso/soberania-digital/
   - title: Conceitos fundamentais
     children:                    
-      - title: A transformação digital
+      - title: 1.1. A transformação digital
         url: /curso/soberania-digital/a-transformacao-digital/
-      - title: Conceito de ciberespaço
+      - title: 1.2. Conceito de ciberespaço
         url: /curso/soberania-digital/conceito-de-ciberespaco/
-      - title: Internet das Coisas e a internet da gente
+      - title: 1.3. Internet das Coisas e a internet da gente
         url: /curso/soberania-digital/internet-das-coisas-e-a-internet-da-gente/
-      - title: Desigualdade automazida 
+      - title: 1.4. Desigualdade automazida 
         url: /curso/soberania-digital/desigualdade-automatizada/
-      - title: Capitalismo de Vigilância
+      - title: 1.5. Capitalismo de Vigilância
         url: /curso/soberania-digital/capitalismo-de-vigilancia/
-      - title: Cibersegurança e Governança digital
+      - title: 1.6. Cibersegurança e Governança digital
         url: /curso/soberania-digital/ciberseguranca-e-governanca-digital/
 
 # Configurações do menu
