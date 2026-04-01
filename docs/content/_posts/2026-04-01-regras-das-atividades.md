@@ -21,38 +21,45 @@ Todas as atividades seguem um modelo de dados com regras negociais específicas,
 ## Regras para avaliação de modelos de dados
 
 1. Análise a regra negocial – identificação correta das entidades e atributos conforme a Formas Normais
-    Referencia principal: https://cafegeek.eti.br/curso/banco-de-dados/normalizacao/normalizacao-de-banco-de-dados/
-    Referencia: https://ebaconline.com.br/blog/normalizacao-de-bases-de-dados
-    Referencia: https://www.devmedia.com.br/artigo-sql-magazine-6-normalizacao-tecnicas-e-conceitos/7087
-    Pontuação:  **(20%)**
-    Se o modelo não atender uma das formas normais (1FN, 2FN e 3FN), a nota deve sofrer um decréscimo de 50%.
+    - Referencia principal: https://cafegeek.eti.br/curso/banco-de-dados/normalizacao/normalizacao-de-banco-de-dados/
+    - Referencia: https://ebaconline.com.br/blog/normalizacao-de-bases-de-dados
+    - Referencia: https://www.devmedia.com.br/artigo-sql-magazine-6-normalizacao-tecnicas-e-conceitos/7087
+    - Pontuação:  **(20%)**
+    - Se o modelo não atender uma das formas normais (1FN, 2FN e 3FN), a nota deve sofrer um decréscimo de 50%.
+
 2. Sintaxe MERMAID correta – diagrama renderizável sem erros no Mermaid Live Editor
-    Referencia principal: https://mermaid.live/
-    Pontuação:  **(20%)**
-    Se houver erro de sintaxe MERMAID, a nota deve sofrer um decréscimo de 50%.
+    - Referencia principal: https://mermaid.live/
+    - Pontuação:  **(20%)**
+    - Se houver erro de sintaxe MERMAID, a nota deve sofrer um decréscimo de 50%.
+
 3. Cardinalidades adequadas – relacionamentos com marcadores corretos (--o{, }o--, etc.)
-    Referencia: https://mermaid.js.org/syntax/entityRelationshipDiagram.html
-    Pontuação:  **(20%)**
-    Se o modelo não atender uma das formas normais (1FN, 2FN e 3FN), a nota deve sofrer um decréscimo de 50%.
+    - Referencia: https://mermaid.js.org/syntax/entityRelationshipDiagram.html
+    - Pontuação:  **(20%)**
+    - Se o modelo não atender uma das formas normais (1FN, 2FN e 3FN), a nota deve sofrer um decréscimo de 50%.
+
 4. Atributos completos – inclusão de tipos de dados, PK e FK conforme especificação
-    Referencia: https://mermaid.js.org/syntax/entityRelationshipDiagram.html
-    Pontuação:  **(20%)**
-    Se o modelo não atender descrever todos os atributos envolvidos no projeto, a nota deve sofrer um decréscimo de 50%.
+    - Referencia: https://mermaid.js.org/syntax/entityRelationshipDiagram.html
+    - Pontuação:  **(20%)**
+    - Se o modelo não atender descrever todos os atributos envolvidos no projeto, a nota deve sofrer um decréscimo de 50%.
 5. Documentação – comentários explicativos sobre decisões de modelagem
-    Referencia: Utilize Markdown ou comentários do mermaid
-    Pontuação:  **(20%)**
-    Se o modelo não conter comentários, a nota deve sofrer um decréscimo de 50%.
+    - Referencia: Utilize Markdown ou comentários do mermaid
+    - Pontuação:  **(20%)**
+    - Se o modelo não conter comentários, a nota deve sofrer um decréscimo de 50%.
+
+Soma total de pontos: **100%**
 
 ## Regras para avaliação de comandos PostgreSQL usando IA
 
 1. Log da conversa – completo e bem documentado
-   Pontuação:  **(10%)**
+   - Pontuação:  **(10%)**
 2. Correção de alucinações – identificação e correção dos erros da IA 
-   Pontuação:  **(10%)**
+   - Pontuação:  **(10%)**
 3. Código final – procedures, triggers ou consultas com sintaxe correta e comentários e telas do resultado das consultas
-   Pontuação:  **(80%)**
-   Se houver erro de sintaxe PostgreSQL, a nota deve sofrer um decréscimo de 50%.
-   Se o comando estiver implementando em um modelo com erros deve sofrer um decréscimo de 50%.
+   - Pontuação:  **(80%)**
+   - Se houver erro de sintaxe PostgreSQL, a nota deve sofrer um decréscimo de 50%.
+   - Se o comando estiver implementando em um modelo com erros deve sofrer um decréscimo de 50%.
+  
+Soma total de pontos: **100%**  
 
 ## Intruções
 
@@ -69,6 +76,10 @@ Todas as atividades seguem um modelo de dados com regras negociais específicas,
 4. Justificativas técnicas, arquivo `.md` ou link externo.
 
 ## Exemplos
+
+### Nome do Arquivo
+
+Nome do arquivo: `Minha-atividade-de-banco-de-dados.md`
 
 ### Regra negocial
 
