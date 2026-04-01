@@ -21,24 +21,24 @@ Todas as atividades seguem um modelo de dados com regras negociais específicas,
 ## Regras para avaliação de modelos de dados
 
 1. Análise a regra negocial – identificação correta das entidades e atributos conforme a Formas Normais
-    - Referencia principal: https://cafegeek.eti.br/curso/banco-de-dados/normalizacao/normalizacao-de-banco-de-dados/
-    - Referencia: https://ebaconline.com.br/blog/normalizacao-de-bases-de-dados
-    - Referencia: https://www.devmedia.com.br/artigo-sql-magazine-6-normalizacao-tecnicas-e-conceitos/7087
+    - Referencia principal: <https://cafegeek.eti.br/curso/banco-de-dados/normalizacao/normalizacao-de-banco-de-dados/>
+    - Referencia: <https://ebaconline.com.br/blog/normalizacao-de-bases-de-dados>
+    - Referencia: <https://www.devmedia.com.br/artigo-sql-magazine-6-normalizacao-tecnicas-e-conceitos/7087>
     - Pontuação:  **(20%)**
     - Se o modelo não atender uma das formas normais (1FN, 2FN e 3FN), a nota deve sofrer um decréscimo de 50%.
 
 2. Sintaxe MERMAID correta – diagrama renderizável sem erros no Mermaid Live Editor
-    - Referencia principal: https://mermaid.live/
+    - Referencia principal: <https://mermaid.live/>
     - Pontuação:  **(20%)**
     - Se houver erro de sintaxe MERMAID, a nota deve sofrer um decréscimo de 50%.
 
 3. Cardinalidades adequadas – relacionamentos com marcadores corretos (--o{, }o--, etc.)
-    - Referencia: https://mermaid.js.org/syntax/entityRelationshipDiagram.html
+    - Referencia: <https://mermaid.js.org/syntax/entityRelationshipDiagram.html>
     - Pontuação:  **(20%)**
     - Se o modelo não atender uma das formas normais (1FN, 2FN e 3FN), a nota deve sofrer um decréscimo de 50%.
 
 4. Atributos completos – inclusão de tipos de dados, PK e FK conforme especificação
-    - Referencia: https://mermaid.js.org/syntax/entityRelationshipDiagram.html
+    - Referencia: <https://mermaid.js.org/syntax/entityRelationshipDiagram.html>
     - Pontuação:  **(20%)**
     - Se o modelo não atender descrever todos os atributos envolvidos no projeto, a nota deve sofrer um decréscimo de 50%.
 5. Documentação – comentários explicativos sobre decisões de modelagem
