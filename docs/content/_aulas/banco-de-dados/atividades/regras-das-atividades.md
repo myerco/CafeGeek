@@ -9,6 +9,8 @@ tags:
   - "Curso"
   - "Banco de Dados"
   - "PostgreSQL"
+sidebar:
+  nav: introducao-a-banco-de-dados  
 ---
 
 
