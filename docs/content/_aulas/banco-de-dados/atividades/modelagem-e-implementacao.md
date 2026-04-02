@@ -59,5 +59,6 @@ Publique no github todos os scripts utilizados na pasta `scripts` utilizando a r
 ## Commit e Entrega
 
 - Adicione todos os arquivos SQL e o `README.md` atualizado ao seu repositório.
+- Utilize o arquivo [README-MODELO.md](https://cafegeek.eti.br/curso/banco-de-dados/atividades/README-MODELO.md)
 - Faça o commit inicial com uma mensagem clara.
 - Compartilhe o link do repositório no ambiente da disciplina para avaliação.
