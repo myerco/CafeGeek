@@ -148,7 +148,7 @@ Comentários explicativos sobre decisões de modelagem, justificando as escolhas
 
 ---
 
-Soma total para Modelo de Dados: **100%**
+### Soma total para Modelo de Dados: 100%
 
 ## Regras para Avaliação de Comandos PostgreSQL
 
@@ -273,7 +273,7 @@ SELECT * FROM sp_minha_funcao(1);
 
 ---
 
-Soma total para Comandos PostgreSQL: **100%**  
+### Soma total para Comandos PostgreSQL: 100%  
 
 ## Instruções Gerais
 
@@ -358,6 +358,7 @@ https://chatgpt.com/share/...
 Use o padrão: `ATIVIDADE-grupo-XX-sobrenome-aluno.md`
 
 **Exemplos válidos:**
+
 - `03-modelo-dados-grupo-01-silva.md`
 - `04-sql-procedures-grupo-02-santos.md`
 - `01-normalizacao-grupo-03-ferreira-oliveira.md`
@@ -486,7 +487,7 @@ $$ LANGUAGE plpgsql;
 
 ---
 
-## Checklist de Verification Antes da Entrega
+## Checklist de verificação Antes da Entrega
 
 - [ ] Diagrama renderiza sem erros no [Mermaid Live Editor](https://mermaid.live/)
 - [ ] Todas as entidades estão em 3FN
@@ -564,7 +565,7 @@ R: Não. Obrigatoriamente em Markdown (.md). Arquivos compactados (.zip) também
 
 ### Fluxo Recomendado
 
-1. **Dia 1-2**: Ler regra negocial, identifi car entidades, criar diagrama inicial
+1. **Dia 1-2**: Ler regra negocial, identificar entidades, criar diagrama inicial
 2. **Dia 3-4**: Validar no Mermaid, aplicar normalização, documentar decisões
 3. **Dia 5-6**: Criar scripts SQL, testar com IA, corrigir erros
 4. **Dia 7**: Revisar tudo, fazer screenshots, escrever relatório final
@@ -582,7 +583,7 @@ Este documento foi elaborado para **orientar e apoiar** seu desenvolvimento como
 ✅ **Qualidade**: Prefira um código pequeno correto a um código grande errado  
 ✅ **Honestidade**: Acredite que compreender é mais importante que copiar  
 
-### Você Está Preparado!
+### Você Está Preparado
 
 Você tem acesso a:
 
@@ -613,4 +614,4 @@ Se tiver dúvidas sobre:
 - **PostgreSQL**: Use `\h` no psql ou consulte a documentação oficial
 - **Atividade específica**: Verifique o enunciado ou entre em contato com o professor
 
-**Bom trabalho! 🎉**
+**Bom trabalho!** 🎉
