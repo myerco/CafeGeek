@@ -2,8 +2,8 @@
 title: Regras das atividades
 excerpt: "Guia completo para avaliação de atividades acadêmicas de Banco de Dados com PostgreSQL"
 categories:
-  - "Banco de Dados"
-  - "Avaliação"
+  - "banco-de-dados"
+  - "atividades"
 tags:
   - "Tutorial"
   - "Curso"
