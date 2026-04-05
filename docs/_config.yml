@@ -392,6 +392,7 @@ defaults:
       type: "aulas"
     values:
       layout: "curso"
+      read_time: true
       toc: true   
       toc_sticky: true   
       show_date: true
