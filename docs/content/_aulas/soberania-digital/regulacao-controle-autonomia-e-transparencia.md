@@ -1,5 +1,5 @@
 ---
-title: Regulação, Autonomia e Soberania Digital
+title: Regulação, Controle, Autonomia e transparência
 excerpt: Veja como regulação, ética, tecnologia e incertezas moldam o futuro da soberania digital e o papel da IA na sociedade global.
 date: 2026-02-16
 categories: [Tecnologia, Soberania Digital, Regulação]

@@ -344,6 +344,16 @@ soberania-digital:
         url: /curso/soberania-digital/capitalismo-de-vigilancia/
       - title: 1.6. Cibersegurança e Governança digital
         url: /curso/soberania-digital/ciberseguranca-e-governanca-digital/
+      - title: 1.7. Produção e riquezas na Era Digital
+        url: /curso/soberania-digital/producao-e-riquezas-na-era-digital/
+      - title: 1.8. Capitalismo de Vigilância
+        url: /curso/soberania-digital/capitalismo-de-vigilancia/
+      - title: 1.9.  Infraestrutura Digital, Soberania e Geopolítica
+        url: /curso/soberania-digital/infraestrutura-digital-soberania-e-geopolitica/
+      - title: 1.10. Regulação, Controle, Autonomia e Transparência
+        url: /curso/soberania-digital/regulacao-controle-autonomia-e-transparencia/
+
+
 
 # Configurações do menu
 menu_config:
