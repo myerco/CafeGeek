@@ -36,3 +36,5 @@ venv/
 # Local scripts and helper tools (do not commit)
 scripts/
 
+content/artigos/referencias/
+
