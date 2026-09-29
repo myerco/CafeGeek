@@ -5,7 +5,7 @@ categories:
   - banco-de-dados
   - relacionamentos-avancados
 date: 2024-03-01T08:48:05-04:00
-order: 11
+order: 39
 tags:
   - banco-de-dados
 sidebar:

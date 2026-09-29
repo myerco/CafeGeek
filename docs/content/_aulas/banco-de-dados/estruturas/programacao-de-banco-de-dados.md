@@ -5,7 +5,7 @@ categories:
   - "banco-de-dados"
   - "estruturas"
 date: 2026-01-31T08:48:05-04:00
-order: 5
+order: 51
 tags:
   - banco-de-dados
 sidebar:
