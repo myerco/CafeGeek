@@ -6,6 +6,7 @@
 {% assign nav_key = page.sidebar.nav %}
 {% if nav_key %}
   {% assign siblings = site.aulas | where_exp: "d", "d.sidebar.nav == nav_key" %}
+  {% assign siblings = siblings | sort: "order" %}   
   {% assign current_index = -1 %}
   {% for doc in siblings %}
     {% if doc.url == page.url %}
