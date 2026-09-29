@@ -295,12 +295,15 @@ collections:
   cursos:
     output: true
     permalink: /curso/:name/
+    sort_by: order
   capitulos:
     output: true
     permalink: /curso/:categories/:name/
+    sort_by: order
   aulas:
     output: true
     permalink: /curso/:categories/:name/
+    sort_by: order
   docs:
     output: true
     permalink: /:collection/:path/

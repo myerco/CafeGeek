@@ -2,8 +2,12 @@
 title: Infraestrutura Digital, Soberania e Geopolítica
 excerpt: Descubra como a infraestrutura física, semicondutores e o domínio das linguagens digitais moldam a soberania e a posição do Brasil na nova geopolítica global.
 date: 2026-02-16
-categories: [Tecnologia, Geopolítica, Soberania Digital]
+categories:
+  - soberania-digital
 tags: [infraestrutura digital, semicondutores, soberania, linguagens de programação, economia da atenção]
+sidebar:
+  nav: soberania-digital
+order: 8
 ---
 
 Este relatório sintetiza os conteúdos da Aula 09 do curso ministrado por Fernando Horta, intitulada "Tecnologia, geração de valor e geopolítica", com foco na materialidade da infraestrutura digital e nas novas hierarquias de poder global.

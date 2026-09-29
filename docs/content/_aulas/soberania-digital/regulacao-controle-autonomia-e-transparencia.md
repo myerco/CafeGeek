@@ -2,8 +2,12 @@
 title: Regulação, Controle, Autonomia e transparência
 excerpt: Veja como regulação, ética, tecnologia e incertezas moldam o futuro da soberania digital e o papel da IA na sociedade global.
 date: 2026-02-16
-categories: [Tecnologia, Soberania Digital, Regulação]
+categories:
+  - soberania-digital
 tags: [regulação digital, soberania, inteligência artificial, ética, autonomia]
+sidebar:
+  nav: soberania-digital
+order: 9
 ---
 
 Este relatório detalha os conteúdos da Aula 10 do curso ministrado por Fernando Horta, intitulada "Regulação, controle, autonomia e transparência", que encerra a série sobre Soberania Digital no novo cenário internacional.

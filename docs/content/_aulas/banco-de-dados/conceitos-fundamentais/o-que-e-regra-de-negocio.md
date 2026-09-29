@@ -2,8 +2,7 @@
 title: O que é Regra de Negócio? Exemplos e Importância para Empresas
 excerpt: Descubra o que são regras de negócio, veja exemplos práticos e entenda sua importância para empresas e sistemas. Aprenda como aplicar regras de negócio para garantir eficiência, segurança e conformidade.
 categories:
-categories:
-  - banco-de-Dados
+  - banco-de-dados
   - conceitos-fundamentais
 date: 2026-01-25T08:48:05-04:00
 tags:
@@ -11,6 +10,7 @@ tags:
   - "Conceitos Fundamentais"
 sidebar:
   nav: introducao-a-banco-de-dados
+order: 6
 ---
 
 Regra de negócio é um conceito fundamental em **gestão empresarial** e **tecnologia da informação (TI)**. Trata-se de uma diretriz, restrição ou política que define como processos devem ocorrer dentro de uma empresa para garantir eficiência, segurança e conformidade.

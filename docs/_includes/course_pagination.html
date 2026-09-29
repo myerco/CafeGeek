@@ -1,0 +1,49 @@
+{% comment %}
+  Navegação sequencial dentro do curso, agrupando as aulas pela mesma
+  sidebar (`page.sidebar.nav`) e ordenando pelo campo `order`.
+  Não cruza cursos e mostra o título da aula anterior/próxima.
+{% endcomment %}
+{% assign nav_key = page.sidebar.nav %}
+{% if nav_key %}
+  {% assign siblings = site.aulas | where_exp: "d", "d.sidebar.nav == nav_key" %}
+  {% assign current_index = -1 %}
+  {% for doc in siblings %}
+    {% if doc.url == page.url %}
+      {% assign current_index = forloop.index0 %}
+      {% break %}
+    {% endif %}
+  {% endfor %}
+
+  {% if current_index >= 0 %}
+    {% assign total = siblings.size %}
+    {% assign prev_index = current_index | minus: 1 %}
+    {% assign next_index = current_index | plus: 1 %}
+    {% assign has_prev = false %}
+    {% assign has_next = false %}
+    {% if current_index > 0 %}{% assign has_prev = true %}{% endif %}
+    {% if next_index < total %}{% assign has_next = true %}{% endif %}
+
+    {% if has_prev or has_next %}
+    <nav class="pagination">
+      {% if has_prev %}
+        {% assign prev_doc = siblings[prev_index] %}
+        <a href="{{ prev_doc.url | relative_url }}" class="pagination--pager" title="{{ prev_doc.title | markdownify | strip_html }}">
+          {{ site.data.ui-text[site.locale].pagination_previous | default: "Anterior" }}<br>
+          <small>{{ prev_doc.title | markdownify | strip_html }}</small>
+        </a>
+      {% else %}
+        <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Anterior" }}</a>
+      {% endif %}
+      {% if has_next %}
+        {% assign next_doc = siblings[next_index] %}
+        <a href="{{ next_doc.url | relative_url }}" class="pagination--pager" title="{{ next_doc.title | markdownify | strip_html }}">
+          {{ site.data.ui-text[site.locale].pagination_next | default: "Próxima" }}<br>
+          <small>{{ next_doc.title | markdownify | strip_html }}</small>
+        </a>
+      {% else %}
+        <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Próxima" }}</a>
+      {% endif %}
+    </nav>
+    {% endif %}
+  {% endif %}
+{% endif %}

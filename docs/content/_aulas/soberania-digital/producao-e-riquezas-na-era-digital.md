@@ -2,8 +2,12 @@
 title: Produção e Riqueza na Era Digital
 excerpt: Veja como a produção, a ciência, as finanças e a geopolítica são transformadas na era digital, e os desafios para a soberania diante de novas tecnologias e modelos econômicos.
 date: 2026-02-16
-categories: [Tecnologia, Economia, Soberania Digital]
+categories:
+  - soberania-digital
 tags: [produção digital, finanças, blockchain, soberania, geopolítica]
+sidebar:
+  nav: soberania-digital
+order: 7
 ---
 
 Este relatório apresenta a Aula 07 do curso de Fernando Horta, “Produção e Finanças na Era Digital”, parte da série sobre Soberania Digital. O documento reúne os principais temas, dados e perguntas centrais sobre como a era digital redefine produção, ciência, finanças e soberania.

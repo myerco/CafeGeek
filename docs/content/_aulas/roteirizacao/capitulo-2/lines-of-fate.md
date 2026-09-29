@@ -8,6 +8,7 @@ categories:
   - "roteirizacao"
 sidebar:
   nav: roteirizacao
+order: 7
 tags:
   - roteiros
   - jogos

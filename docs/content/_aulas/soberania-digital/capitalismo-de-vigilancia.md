@@ -7,6 +7,7 @@ categories:
 tags: [capitalismo de vigilância, desigualdade digital, meio ambiente, patentes, soberania]
 sidebar:
   nav: soberania-digital
+order: 5
 ---
 
 Este relatório apresenta uma síntese detalhada da Aula 08 do curso ministrado por Fernando Horta, intitulada "Capitalismo de Vigilância e Desigualdades Digitais", fundamentada nos materiais da fonte selecionada.

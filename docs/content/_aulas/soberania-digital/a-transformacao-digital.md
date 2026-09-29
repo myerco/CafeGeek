@@ -1,5 +1,5 @@
 ---
-title: A transoformação digital
+title: A transformação digital
 excerpt: Explore como a transformação digital redefine a soberania estatal no século XXI. Entenda o domínio das Big Techs, a explosão de dados e os novos pilares que os Estados precisam adotar para manter autonomia política e proteger seus cidadãos em um mundo cada vez mais conectado e controlado por algoritmos.
 date: 2026-02-16
 categories:
@@ -7,6 +7,7 @@ categories:
 tags: [soberania digital, transformação digital, big tech, internet, dados]
 sidebar:
   nav: soberania-digital
+order: 1
 ---
 
 Este relatório analisa a transição para a era digital e os desafios que essa transformação impõe ao conceito tradicional de soberania nacional, fundamentando-se nas aulas ministradas por Fernando Horta.

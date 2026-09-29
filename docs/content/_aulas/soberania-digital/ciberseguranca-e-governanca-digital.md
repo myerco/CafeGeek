@@ -7,6 +7,7 @@ categories:
 tags: [cibersegurança, governança digital, soberania, ciberespaço, conflitos digitais]
 sidebar:
   nav: soberania-digital
+order: 6
 ---
 
 Este relatório sintetiza os conteúdos da Aula 05 do curso ministrado por Fernando Horta, intitulada "Cibersegurança e Governança Digital", integrante da série sobre Soberania Digital.

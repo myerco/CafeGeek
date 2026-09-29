@@ -9,6 +9,7 @@ author_profile: true
 share: true  
 sidebar:
   nav: roteirizacao
+order: 8
 tags:
   - roteiros
   - jogos

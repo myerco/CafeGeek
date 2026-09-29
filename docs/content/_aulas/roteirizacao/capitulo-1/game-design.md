@@ -4,7 +4,7 @@ categories:
   - "roteirizacao"
 excerpt: Descubra o que faz um Game Designer, suas habilidades e como começar nessa carreira criativa!
 date: 2024-03-02T08:48:05-04:00
-ordem: 1
+order: 1
 sidebar:
   nav: roteirizacao
 ---

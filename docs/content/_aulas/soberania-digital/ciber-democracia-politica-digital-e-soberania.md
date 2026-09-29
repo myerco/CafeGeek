@@ -2,8 +2,12 @@
 title: Ciber-democracia, Política Digital e Soberania
 excerpt: Analise como a democracia, os movimentos sociais e a política são transformados pela era digital, e os desafios para a soberania diante da datificação, viralização e autocomunicação de massa.
 date: 2026-02-16
-categories: [Tecnologia, Democracia, Soberania Digital]
+categories:
+  - soberania-digital
 tags: [ciber-democracia, política digital, soberania, movimentos sociais, informação]
+sidebar:
+  nav: soberania-digital
+order: 10
 ---
 
 Este relatório detalha os conteúdos da Aula 06 do curso ministrado por Fernando Horta, com o tema "Ciber-democracia e Política na Era Digital", no contexto da Soberania Digital.
