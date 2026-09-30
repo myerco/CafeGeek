@@ -5,7 +5,7 @@ categories:
   - banco-de-Dados
   - modelo-de-dados
 date: 2026-01-22T08:48:05-04:00
-order: 31
+order: 0301
 tags:
   - "Banco de Dados"
   - "Conceitos Fundamentais"
