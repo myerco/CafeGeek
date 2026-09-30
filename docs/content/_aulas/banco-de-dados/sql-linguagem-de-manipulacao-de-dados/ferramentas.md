@@ -3,9 +3,9 @@ title: "Primeiros Passos no PostgreSQL (DDL e DML)"
 excerpt: "Ferramentas de apoio"
 categories:
   - "banco-de-dados"
-  - "atividades"
+  - "sql-linguagem-estruturada-de-consulta"
 date: 2026-01-31T08:48:05-04:00
-order: 0202
+order: 22
 tags:
   - banco-de-dados
   - postgresql

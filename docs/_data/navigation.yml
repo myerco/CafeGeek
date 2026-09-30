@@ -210,7 +210,7 @@ introducao-a-banco-de-dados:
       - title: 1.4. Abstração de Dados
         url: /curso/banco-de-dados/conceitos-fundamentais/abstracao-de-dados/
       - title: 1.5. Modelos de Dados
-        url: /curso/banco-de-dados/modelo-de-dados/modelo-de-dados/
+        url: /curso/banco-de-dados/conceitos-fundamentais/modelo-de-dados/
       - title: 1.6. O que é regras de negócio?
         url: /curso/banco-de-dados/conceitos-fundamentais/o-que-e-regra-de-negocio/
       - title: 1.7. Perfis de Usuários de BD
@@ -221,7 +221,7 @@ introducao-a-banco-de-dados:
       - title: 2.1. SQL - Linguagem Estruturada de Consulta
         url: /curso/banco-de-dados/sql-linguagem-estruturada-de-consulta/sql-linguagem-estruturada-de-consulta/
       - title: 2.2. Primeiros Passos no PostgreSQL (DDL e DML)
-        url: /curso/banco-de-dados/atividades/ferramentas/
+        url: /curso/banco-de-dados/sql-linguagem-estruturada-de-consulta/ferramentas/
   - title: 3. MODELAGEM RELACIONAL
     icon: fas fa-sitemap
     children:

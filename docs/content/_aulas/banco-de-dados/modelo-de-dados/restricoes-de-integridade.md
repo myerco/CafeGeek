@@ -5,7 +5,7 @@ categories:
   - banco-de-Dados
   - modelo-de-dados
 date: 2026-01-22T08:48:05-04:00
-order: 0302
+order: 32
 tags:
     - banco-de-dados
 sidebar:

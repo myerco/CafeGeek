@@ -5,7 +5,7 @@ categories:
   - banco-de-Dados
   - conceitos-fundamentais
 date: 2026-01-27T08:48:05-04:00
-order: 0107
+order: 17
 tags:
   - "Banco de Dados"
   - "Conceitos Fundamentais"
