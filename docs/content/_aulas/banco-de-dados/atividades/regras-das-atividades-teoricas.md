@@ -11,7 +11,7 @@ tags:
   - "PostgreSQL"
 sidebar:
   nav: introducao-a-banco-de-dados  
-order: 86  
+order: 0806  
 ---
 
 
