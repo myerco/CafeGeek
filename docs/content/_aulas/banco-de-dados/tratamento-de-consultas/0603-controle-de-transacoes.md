@@ -3,7 +3,7 @@ title: Controle de Transações
 excerpt: "Controle de transações e propriedades ACID."
 categories:
   - "banco-de-dados"
-  - "estruturas"
+  - "tratamento-de-consultas"
 date: 2026-01-31T08:48:05-04:00
 order: 63
 tags:

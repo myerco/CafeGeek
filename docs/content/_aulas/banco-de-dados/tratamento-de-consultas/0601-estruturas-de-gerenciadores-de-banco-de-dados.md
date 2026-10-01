@@ -3,7 +3,7 @@ title: Arquitetura de Gerenciadores
 excerpt: "Funções, estrutura e processamento dos SGBDs."
 categories:
   - "banco-de-dados"
-  - "estruturas"
+  - "tratamento-de-consultas"
 date: 2026-01-31T08:48:05-04:00
 order: 61
 tags:

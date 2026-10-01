@@ -3,7 +3,7 @@ title: O que são Visões? (Views)
 excerpt: "Visões (views) e restrições de acesso em bancos de dados."
 categories:
   - "banco-de-dados"
-  - "estruturas"
+  - "visoes"
 date: 2026-01-31T08:48:05-04:00
 order: 41
 tags:

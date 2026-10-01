@@ -238,36 +238,36 @@ introducao-a-banco-de-dados:
       - title: 3.6. Dependência de Existência
         url: /curso/banco-de-dados/modelo-de-dados/dependencia-de-existencia/
       - title: 3.7.Agregação
-        url: /curso/banco-de-dados/relacionamentos-avancados/agregacao/
+        url: /curso/banco-de-dados/modelo-de-dados/agregacao/
       - title: 3.8. O que é Auto-relacionamento?
-        url: /curso/banco-de-dados/relacionamentos-avancados/auto-relacionamento/
+        url: /curso/banco-de-dados/modelo-de-dados/auto-relacionamento/
       - title: 3.9. Especialização e Generalização
-        url: /curso/banco-de-dados/relacionamentos-avancados/especializacao-e-generalizacao/
+        url: /curso/banco-de-dados/modelo-de-dados/especializacao-e-generalizacao/
       - title: 3.10. Normalização de Dados (Eliminando Redundâncias)
-        url: /curso/banco-de-dados/normalizacao/normalizacao-de-banco-de-dados/
+        url: /curso/banco-de-dados/modelo-de-dados/normalizacao-de-banco-de-dados/
   - title: 4. Visões  
     icon: fas fa-eye
     children:
       - title: 4.1. O que são Visões? (Views)
-        url: /curso/banco-de-dados/estruturas/visoes-e-restricoes-de-acesso/
+        url: /curso/banco-de-dados/visoes/visoes-e-restricoes-de-acesso/
   - title: 5. Programação de Banco de Dados
     icon: fas fa-file-code
     children:
       - title: 5.1. Procedimentos e Funções (Stored Procedures/Functions)
-        url: /curso/banco-de-dados/estruturas/programacao-de-banco-de-dados/        
+        url: /curso/banco-de-dados/programacao-de-banco-de-dados/programacao-de-banco-de-dados/        
       - title: 5.2. Gatilhos e Funções (Triggers/Functions)
-        url: /curso/banco-de-dados/estruturas/gatilhos-triggers/
+        url: /curso/banco-de-dados/programacao-de-banco-de-dados/gatilhos-triggers/
   - title: 6. Tratamento de Consultas e Desempenho
     icon: fas fa-cogs
     children:
       - title: 6.1. Arquitetura de Gerenciadores
-        url: /curso/banco-de-dados/estruturas/estruturas-de-gerenciadores-de-banco-de-dados/
+        url: /curso/banco-de-dados/tratamento-de-consultas/estruturas-de-gerenciadores-de-banco-de-dados/
       - title: 6.2. Processamento e otimização de consultas
-        url: /curso/banco-de-dados/estruturas/processamento-e-otimizacao-de-consultas/
+        url: /curso/banco-de-dados/tratamento-de-consultas/processamento-e-otimizacao-de-consultas/
       - title: 6.3. Controle de Transações (ACID)
-        url: /curso/banco-de-dados/estruturas/controle-de-transacoes/
+        url: /curso/banco-de-dados/tratamento-de-consultas/controle-de-transacoes/
       - title: 6.4. Controle de concorrência   
-        url: /curso/banco-de-dados/estruturas/controle-de-concorrencia/                
+        url: /curso/banco-de-dados/tratamento-de-consultas/controle-de-concorrencia/                
   - title: 7. Banco de Dados Avançados
     icon: fas fa-building
     children:

@@ -3,7 +3,7 @@ title: Gatilhos e Funções (Triggers/Functions)
 excerpt: "Gatilhos (triggers): definição, requisitos, vantagens e sintaxe."
 categories:
   - "banco-de-dados"
-  - "estruturas"
+  - "programacao-de-banco-de-dados"
 date: 2026-01-31T08:48:05-04:00
 order: 52
 tags:
